@@ -126,15 +126,24 @@ async function feishuToken() {
 
 async function bitableSearch() {
   const token = await feishuToken();
-  const url = `https://open.feishu.cn/open-apis/bitable/v1/apps/${BITABLE}/tables/${TABLE}/records/search?page_size=500`;
-  const res = await fetch(url, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${token}` },
-    body: JSON.stringify({ automatic_fields: false }),
-  });
-  const j = await res.json();
-  if (j.code !== 0) throw new Error(`飞书查询记录失败: ${j.msg} (code=${j.code})`);
-  return (j.data?.items || []).map((r) => ({ record_id: r.record_id, fields: r.fields }));
+  // 分页拉全量：队列随周更不断增长，只取首页会在超过 500 行后漏掉旧记录、再次触发重复入队。
+  const out = [];
+  let pageToken = '';
+  do {
+    const url =
+      `https://open.feishu.cn/open-apis/bitable/v1/apps/${BITABLE}/tables/${TABLE}/records/search` +
+      `?page_size=500${pageToken ? `&page_token=${encodeURIComponent(pageToken)}` : ''}`;
+    const res = await fetch(url, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${token}` },
+      body: JSON.stringify({ automatic_fields: false }),
+    });
+    const j = await res.json();
+    if (j.code !== 0) throw new Error(`飞书查询记录失败: ${j.msg} (code=${j.code})`);
+    out.push(...(j.data?.items || []).map((r) => ({ record_id: r.record_id, fields: r.fields })));
+    pageToken = j.data?.has_more ? (j.data?.page_token || '') : '';
+  } while (pageToken);
+  return out;
 }
 
 async function bitableCreate(fields) {
@@ -581,7 +590,14 @@ async function main() {
     process.exit(1);
   }
   const existing = await bitableSearch();
-  const existingIds = new Set(existing.map((r) => String(r.fields?.ep_id ?? '')).filter(Boolean));
+  // 飞书文本字段（如 ep_id）API 返回的可能是数组分段 [{text:"..."}]，直接 String() 会得到
+  // "[object Object]"，导致每行塌成同一个值、去重彻底失效（历史 bug：已 done 的集被重复入队）。
+  // 统一归一化：字符串直接用；数组拼接每段 text（或元素本身）。
+  const txt = (v) =>
+    v == null ? '' : typeof v === 'string' ? v
+    : Array.isArray(v) ? v.map((x) => (x && (x.text ?? x)) || '').join('')
+    : String(v);
+  const existingIds = new Set(existing.map((r) => txt(r.fields?.ep_id).trim()).filter(Boolean));
   log(`队列已有 ${existingIds.size} 行；Whisper 兜底=${WHISPER_ENABLED}（model=${WHISPER_MODEL}, 上限=${WHISPER_MAX_PER_RUN}/次）`);
 
   let total = 0;
