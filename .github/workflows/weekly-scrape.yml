@@ -72,15 +72,3 @@ jobs:
           WHISPER_MODEL: ${{ github.event.inputs.whisper_model || 'base' }}
           WHISPER_MAX_PER_RUN: ${{ github.event.inputs.whisper_max || '2' }}
         run: node scripts/enqueue.mjs
-
-      # 入队成功后，可选：给 QoderWork 发一个飞书提醒，让它来消费队列。
-      # 若已配置 QoderWork 定时任务轮询队列，则这一步可省略。
-      - name: Notify (optional)
-        if: ${{ secrets.FEISHU_WEBHOOK != '' }}
-        continue-on-error: true
-        env:
-          WEBHOOK: ${{ secrets.FEISHU_WEBHOOK }}
-        run: |
-          curl -sS -X POST "$WEBHOOK" \
-            -H 'Content-Type: application/json' \
-            -d '{"msg_type":"text","content":{"text":"播客翻译队列有新单集，请 QoderWork 消费 pending 行。"}}' || true
