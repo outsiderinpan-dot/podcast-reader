@@ -1,0 +1,82 @@
+name: publish
+
+# 方案 B · 第三段：每周日 12:00 UTC（= 北京 20:00，排在 QoderWork 翻译之后）
+# 从飞书队列取回 QoderWork 翻译好的单集 → 写进仓库 → 构建 → 部署到 GitHub Pages。
+# 也可在 Actions 页手动触发（workflow_dispatch）。
+on:
+  schedule:
+    - cron: '0 12 * * 0'
+  workflow_dispatch:
+
+permissions:
+  contents: write      # 提交翻译好的单集 JSON
+  pages: write         # 部署 GitHub Pages
+  id-token: write      # Pages 部署所需
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install deps
+        run: npm ci || npm install
+
+      # 从飞书队列取回 QoderWork 翻译好的单集，写入 src/data/episodes/
+      - name: Dequeue translations from Feishu
+        id: dequeue
+        env:
+          FEISHU_APP_ID: ${{ secrets.FEISHU_APP_ID }}
+          FEISHU_APP_SECRET: ${{ secrets.FEISHU_APP_SECRET }}
+          FEISHU_BITABLE_TOKEN: ${{ secrets.FEISHU_BITABLE_TOKEN }}
+          FEISHU_TABLE_ID: ${{ secrets.FEISHU_TABLE_ID }}
+        run: node scripts/dequeue.mjs
+
+      # 把新单集 JSON 提交回仓库（让仓库成为内容的唯一真源）
+      - name: Commit new episodes (if any)
+        run: |
+          git config user.name  "podcast-bot"
+          git config user.email "podcast-bot@users.noreply.github.com"
+          if [ -n "$(git status --porcelain src/data/episodes)" ]; then
+            git add src/data/episodes
+            git commit -m "chore(episodes): publish translated episodes $(date -u +%F)"
+            git push
+            echo "已提交翻译好的单集"
+          else
+            echo "无新单集需要提交"
+          fi
+
+      # 构建静态站。SITE / BASE 用仓库 Variables 配置：
+      #   SITE_URL  例 https://<user>.github.io 或自定义域名
+      #   BASE_PATH 普通项目页填 /<repo>；根站或自定义域名留空
+      - name: Build site
+        env:
+          SITE: ${{ vars.SITE_URL }}
+          BASE: ${{ vars.BASE_PATH }}
+        run: npm run build
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./dist
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

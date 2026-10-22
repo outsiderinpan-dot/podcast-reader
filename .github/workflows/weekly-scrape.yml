@@ -1,0 +1,86 @@
+name: weekly-enqueue
+
+# 方案 B · 第一段：每周一 08:00 UTC（= 北京时间 16:00）抓新单集的英文转写 → 写入飞书多维表格「翻译队列」。
+# 抓取用多策略：iHeart 官方字幕直链 → RSS <podcast:transcript> → Whisper 本地 ASR 兜底（都不要 LLM API Key）。
+# 翻译 + 建站 + 发布由 QoderWork 用你的 Qoder 额度完成（见 publish.yml）。
+# 也可在 Actions 页手动触发（workflow_dispatch）。
+on:
+  schedule:
+    - cron: '0 8 * * 1'
+  workflow_dispatch:
+    inputs:
+      max_new:
+        description: '每个节目本次最多入队几集'
+        required: false
+        default: '3'
+      whisper_max:
+        description: '本次运行最多用 Whisper 转写几集（CPU 慢，回填时可临时调大）'
+        required: false
+        default: '2'
+      whisper_model:
+        description: 'Whisper 模型 tiny/base/small/medium'
+        required: false
+        default: 'base'
+
+permissions:
+  contents: read
+
+jobs:
+  enqueue:
+    runs-on: ubuntu-latest
+    # Whisper 在 CPU 上远慢于实时（base 模型 1 小时音频约 30-60 分钟）。
+    # 用 whisper_max 限制单次转写集数来封顶总时长；上限设 5.5h 留足余量（Actions 硬上限 6h）。
+    timeout-minutes: 330
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install ffmpeg
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+
+      - name: Cache Whisper model
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/whisper
+          key: whisper-model-${{ github.event.inputs.whisper_model || 'base' }}
+
+      - name: Install openai-whisper
+        run: pip install -U openai-whisper
+
+      - name: Scrape EN (+Whisper) → push to Feishu queue
+        env:
+          FEISHU_APP_ID: ${{ secrets.FEISHU_APP_ID }}
+          FEISHU_APP_SECRET: ${{ secrets.FEISHU_APP_SECRET }}
+          FEISHU_BITABLE_TOKEN: ${{ secrets.FEISHU_BITABLE_TOKEN }}
+          FEISHU_TABLE_ID: ${{ secrets.FEISHU_TABLE_ID }}
+          MAX_NEW: ${{ github.event.inputs.max_new || '3' }}
+          WHISPER_ENABLED: 'true'
+          WHISPER_MODEL: ${{ github.event.inputs.whisper_model || 'base' }}
+          WHISPER_MAX_PER_RUN: ${{ github.event.inputs.whisper_max || '2' }}
+        run: node scripts/enqueue.mjs
+
+      # 入队成功后，可选：给 QoderWork 发一个飞书提醒，让它来消费队列。
+      # 若已配置 QoderWork 定时任务轮询队列，则这一步可省略。
+      - name: Notify (optional)
+        if: ${{ secrets.FEISHU_WEBHOOK != '' }}
+        continue-on-error: true
+        env:
+          WEBHOOK: ${{ secrets.FEISHU_WEBHOOK }}
+        run: |
+          curl -sS -X POST "$WEBHOOK" \
+            -H 'Content-Type: application/json' \
+            -d '{"msg_type":"text","content":{"text":"播客翻译队列有新单集，请 QoderWork 消费 pending 行。"}}' || true

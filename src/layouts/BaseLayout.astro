@@ -1,0 +1,78 @@
+---
+import '../styles/global.css';
+interface Props { title: string; description?: string; }
+const { title, description = '金融播客中英精读 · 每周自动更新' } = Astro.props;
+const base = import.meta.env.BASE_URL; // '/' 或 '/repo/'，用于 GitHub Pages 子路径
+---
+<!doctype html>
+<html lang="zh-CN" data-theme="light" data-base={base}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="manifest" href={`${base}manifest.webmanifest`} />
+    <link rel="alternate" type="application/rss+xml" title="Podcast Reader RSS" href={`${base}rss.xml`} />
+    <script is:inline>
+      // 首屏前应用主题，避免闪烁
+      (function () {
+        try {
+          var t = localStorage.getItem('theme') || 'light';
+          document.documentElement.setAttribute('data-theme', t);
+          var s = localStorage.getItem('reading-size');
+          if (s) document.documentElement.style.setProperty('--reading-size', s + 'px');
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="wrap-wide bar">
+        <a href={base} class="brand"><span class="dot"></span>Podcast<span style="color:var(--accent)">Reader</span></a>
+        <nav class="nav">
+          <a href={base} data-nav="home">首页</a>
+          <a href={`${base}shows/`} data-nav="shows">节目</a>
+          <a href={`${base}search/`} data-nav="search">搜索</a>
+          <button class="icon-btn" id="theme-btn" title="切换主题" aria-label="切换主题">☾</button>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <slot />
+    </main>
+    <footer class="site-foot">
+      <div class="wrap">
+        内容版权归各播客出品方所有 · 本站为个人学习研究用途 ·
+        <a href={`${base}rss.xml`}>RSS 订阅</a>
+      </div>
+    </footer>
+    <script is:inline>
+      (function () {
+        var order = ['light', 'dark', 'sepia'];
+        var icons = { light: '☾', dark: '☀', sepia: '⌾' };
+        var btn = document.getElementById('theme-btn');
+        function apply(t) {
+          document.documentElement.setAttribute('data-theme', t);
+          try { localStorage.setItem('theme', t); } catch (e) {}
+          if (btn) btn.textContent = icons[t] || '☾';
+        }
+        var cur = 'light';
+        try { cur = localStorage.getItem('theme') || 'light'; } catch (e) {}
+        apply(cur);
+        if (btn) btn.addEventListener('click', function () {
+          var next = order[(order.indexOf(document.documentElement.getAttribute('data-theme')) + 1) % order.length];
+          apply(next);
+        });
+        // 高亮当前导航（兼容 GitHub Pages 子路径：先剥掉 base 前缀）
+        var b = document.documentElement.getAttribute('data-base') || '/';
+        var p = location.pathname;
+        if (b !== '/' && p.indexOf(b) === 0) p = '/' + p.slice(b.length);
+        document.querySelectorAll('[data-nav]').forEach(function (a) {
+          var k = a.getAttribute('data-nav');
+          if ((k === 'home' && p === '/') || (k === 'shows' && p.indexOf('/shows/') === 0) || (k === 'search' && p.indexOf('/search') === 0)) a.classList.add('active');
+        });
+      })();
+    </script>
+  </body>
+</html>

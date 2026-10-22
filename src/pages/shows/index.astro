@@ -1,0 +1,47 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { SHOWS } from '../../data/shows';
+import { episodesByShow, lengthLabel } from '../../lib/episodes';
+const base = import.meta.env.BASE_URL;
+---
+<BaseLayout title="全部节目 · Podcast Reader" description="收录的播客节目与全部单集">
+  <div class="wrap-wide">
+    <section class="hero">
+      <a class="back" href={base}>← 首页</a>
+      <h1>全部节目</h1>
+      <p>投资类做逐句中英对照，深度长谈类整理成中文长文精读。点击节目查看该节目下的全部单集。</p>
+    </section>
+
+    <div class="show-grid">
+      {SHOWS.map((s) => {
+        const eps = episodesByShow(s.slug);
+        return (
+          <a class="show-card" href={`${base}shows/${s.slug}/`} style={`--accent:${s.accent}`}>
+            <span class="accent-bar"></span>
+            <h3>{s.title_zh}</h3>
+            <div class="pub">{s.publisher}</div>
+            <div class="desc">{s.description_zh}</div>
+            <div class="meta">
+              <span>{eps.length} 集</span>
+              <span>{s.content_style === 'article' ? '长文精读' : '双语对照'}</span>
+            </div>
+          </a>
+        );
+      })}
+    </div>
+
+    <h2 class="section-title">全部单集（最新在前）</h2>
+    <div class="ep-list">
+      {SHOWS.flatMap((s) => episodesByShow(s.slug)).sort((a, b) => (a.date < b.date ? 1 : -1)).map((e) => (
+        <a class="ep-row" href={`${base}ep/${e.show}/${e.slug}/`}>
+          <div class="date">{e.date}</div>
+          <div>
+            <div class="t-zh">{e.title_zh}</div>
+            <div class="t-en">{e.title_en}</div>
+          </div>
+          <div class="dur">{lengthLabel(e)}</div>
+        </a>
+      ))}
+    </div>
+  </div>
+</BaseLayout>

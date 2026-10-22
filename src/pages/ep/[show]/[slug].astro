@@ -1,0 +1,301 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import { getShow } from '../../../data/shows';
+import { ALL_EPISODES, speakerLabel, readingTime, isArticle, lengthLabel, summary } from '../../../lib/episodes';
+import type { Episode, ArticleBlock } from '../../../lib/episodes';
+
+export function getStaticPaths() {
+  return ALL_EPISODES.map((e) => ({
+    params: { show: e.show, slug: e.slug },
+    props: { ep: e },
+  }));
+}
+const { ep } = Astro.props as { ep: Episode };
+const show = getShow(ep.show)!;
+const rt = readingTime(ep);
+const article = isArticle(ep);
+
+// 上一集 / 下一集（同节目，按日期）
+const list = ALL_EPISODES.filter((e) => e.show === ep.show);
+const idx = list.findIndex((e) => e.slug === ep.slug);
+const newer = idx > 0 ? list[idx - 1] : null;
+const older = idx < list.length - 1 ? list[idx + 1] : null;
+const base = import.meta.env.BASE_URL;
+
+// —— article：把 blocks 预分组（连续的 li 合成一个有序列表），并给 h2 编号做锚点/目录 ——
+type Group =
+  | { type: 'h2'; text: string; id: string }
+  | { type: 'p'; text: string }
+  | { type: 'quote'; text: string; attr?: string }
+  | { type: 'list'; items: string[] };
+const groups: Group[] = [];
+const toc: { text: string; id: string }[] = [];
+if (article && ep.blocks) {
+  let secN = 0;
+  let liBuf: string[] = [];
+  const flushLi = () => { if (liBuf.length) { groups.push({ type: 'list', items: liBuf }); liBuf = []; } };
+  for (const b of ep.blocks as ArticleBlock[]) {
+    if (b.type === 'li') { liBuf.push(b.text); continue; }
+    flushLi();
+    if (b.type === 'h2') { const id = `sec-${++secN}`; toc.push({ text: b.text, id }); groups.push({ type: 'h2', text: b.text, id }); }
+    else if (b.type === 'quote') groups.push({ type: 'quote', text: b.text, attr: b.attr });
+    else groups.push({ type: 'p', text: b.text });
+  }
+  flushLi();
+}
+---
+<BaseLayout title={`${ep.title_zh} · ${show.title}`} description={summary(ep)}>
+  <div class="wrap" style={`--accent:${show.accent}`}>
+    <article>
+      <div class="ep-header">
+        <a class="back" href={`${base}shows/${show.slug}/`}>← {show.title_zh}</a>
+        <div class="ep-kicker">
+          <span class="badge">{show.publisher}</span>
+          {article
+            ? <span class="badge" style="background:var(--bg-soft);color:var(--text-soft)">{ep.source_note || '中文精读'}</span>
+            : <span class="badge" style="background:var(--bg-soft);color:var(--text-soft)">{ep.duration}</span>}
+        </div>
+        <h1 class="ep-title-zh">{ep.title_zh}</h1>
+        <p class="ep-title-en">{ep.title_en}</p>
+        <div class="ep-byline">
+          <span>📅 {ep.date}</span>
+          {article ? (
+            <>
+              {ep.guest && <span>🎙 嘉宾 {ep.guest}</span>}
+              {ep.word_count && <span>✍️ 约 {ep.word_count.toLocaleString()} 字</span>}
+              <span>⏱ 阅读 {rt} 分钟</span>
+            </>
+          ) : (
+            <>
+              <span>💬 {ep.turn_count} 段对话</span>
+              <span>⏱ 约 {rt} 分钟读完</span>
+            </>
+          )}
+          <span>🎧 <a href={ep.episode_url} target="_blank" rel="noopener">原节目页 ↗</a></span>
+        </div>
+      </div>
+
+      {(ep.subtitle_zh || ep.description) && <div class="ep-desc">{ep.subtitle_zh || ep.description}</div>}
+
+      <!-- 音频条：有 audio_url 用内置播放器，否则跳转官方 -->
+      <div class="audio-bar" data-audio={ep.audio_url || ''}>
+        <button class="play" id="play-btn" aria-label="播放/暂停">▶</button>
+        <div class="track">
+          <input type="range" id="seek" min="0" max="100" value="0" step="0.1" disabled />
+          <div class="time"><span id="cur">00:00</span><span>{ep.duration || '官方音频'}</span></div>
+        </div>
+        <a class="ext" href={ep.audio_url || ep.episode_url} target="_blank" rel="noopener">官方音频 ↗</a>
+      </div>
+
+      {article ? (
+        <>
+          <!-- 阅读控件（长文） -->
+          <div class="tabs">
+            <button class="tab active">中文精读</button>
+            <div class="read-controls">
+              <button class="icon-btn" id="font-dec" title="减小字号">A-</button>
+              <button class="icon-btn" id="font-inc" title="增大字号">A+</button>
+            </div>
+          </div>
+
+          {toc.length > 0 && (
+            <nav class="art-toc">
+              <div class="art-toc-title">目录</div>
+              <ol>
+                {toc.map((t, i) => <li><a href={`#${t.id}`}>{i + 1}. {t.text}</a></li>)}
+              </ol>
+            </nav>
+          )}
+
+          <div class="art-body">
+            {groups.map((g) => {
+              if (g.type === 'h2') return <h2 class="art-h2" id={g.id}>{g.text}</h2>;
+              if (g.type === 'p') return <p class="art-p">{g.text}</p>;
+              if (g.type === 'quote') return (
+                <blockquote class="art-quote">
+                  <p>{g.text}</p>
+                  {g.attr && <cite>—— {g.attr}</cite>}
+                </blockquote>
+              );
+              return <ol class="art-list">{g.items.map((it) => <li>{it}</li>)}</ol>;
+            })}
+          </div>
+
+          {ep.to_reader && (
+            <div class="art-toreader">
+              <div class="art-toreader-title">致读者</div>
+              <p>{ep.to_reader}</p>
+            </div>
+          )}
+
+          {ep.resources && ep.resources.length > 0 && (
+            <div class="art-resources">
+              <div class="art-toc-title">本集资源与出处</div>
+              <ul>
+                {ep.resources.map((r) => (
+                  <li><span class="res-label">{r.label}</span><a href={r.url} target="_blank" rel="noopener">{r.text} ↗</a></li>
+                ))}
+              </ul>
+            </div>
+          )}
+        </>
+      ) : (
+        <>
+          <!-- Tabs + 阅读控件 -->
+          <div class="tabs">
+            <button class="tab active" data-tab="zh">中文精读</button>
+            <button class="tab" data-tab="en">English</button>
+            <button class="tab" data-tab="bi">双语对照</button>
+            <div class="read-controls">
+              <button class="icon-btn" id="font-dec" title="减小字号">A-</button>
+              <button class="icon-btn" id="font-inc" title="增大字号">A+</button>
+            </div>
+          </div>
+
+          <!-- 中文 -->
+          <div class="tab-panel active panel-zh" data-panel="zh">
+            <div class="transcript">
+              {(ep.turns || []).map((t) => (
+                <div class={`turn ${t.speaker === 1 ? 'host' : ''}`}>
+                  <div class="who">
+                    {speakerLabel(ep, t.speaker_zh)}
+                    {t.ts && <span class="ts" data-seek={t.ts}>{t.ts}</span>}
+                  </div>
+                  <div class="body">{t.zh}</div>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          <!-- English -->
+          <div class="tab-panel panel-en" data-panel="en">
+            <div class="transcript">
+              {(ep.turns || []).map((t) => (
+                <div class={`turn ${t.speaker === 1 ? 'host' : ''}`}>
+                  <div class="who">
+                    {`Speaker ${t.speaker}`}
+                    {t.ts && <span class="ts" data-seek={t.ts}>{t.ts}</span>}
+                  </div>
+                  <div class="body">{t.en}</div>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          <!-- 双语对照 -->
+          <div class="tab-panel panel-zh bilingual" data-panel="bi">
+            <div class="transcript">
+              {(ep.turns || []).map((t) => (
+                <div class={`turn ${t.speaker === 1 ? 'host' : ''}`}>
+                  <div class="who">
+                    {speakerLabel(ep, t.speaker_zh)}
+                    {t.ts && <span class="ts" data-seek={t.ts}>{t.ts}</span>}
+                  </div>
+                  <div class="body">
+                    {t.zh}
+                    <span class="en-line">{t.en}</span>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </>
+      )}
+
+      <!-- 上/下集导航 -->
+      <div class="ep-list" style="margin-top:20px">
+        {newer && (
+          <a class="ep-row" href={`${base}ep/${newer.show}/${newer.slug}/`}>
+            <div class="date">← 更新</div><div><div class="t-zh">{newer.title_zh}</div><div class="t-en">{newer.date}</div></div><div class="dur">{lengthLabel(newer)}</div>
+          </a>
+        )}
+        {older && (
+          <a class="ep-row" href={`${base}ep/${older.show}/${older.slug}/`}>
+            <div class="date">更早 →</div><div><div class="t-zh">{older.title_zh}</div><div class="t-en">{older.date}</div></div><div class="dur">{lengthLabel(older)}</div>
+          </a>
+        )}
+      </div>
+
+      <div class="footnote">
+        {article ? (
+          <>本站中文内容为基于官方文稿的编辑整理，仅供个人学习研究；原节目内容与音频版权归
+            <a href={show.homeUrl} target="_blank" rel="noopener">{show.publisher}《{show.title}》</a> 所有。</>
+        ) : (
+          <>本站中文内容为 AI 辅助翻译，仅供个人学习研究；英文原文与音频版权归
+            <a href={show.homeUrl} target="_blank" rel="noopener">{show.publisher}《{show.title}》</a> 所有。
+            如发现翻译问题，以英文原文为准。</>
+        )}
+      </div>
+    </article>
+  </div>
+
+  <script is:inline>
+    (function () {
+      // Tabs（仅对照型单集存在多个 tab）
+      var tabs = document.querySelectorAll('.tab[data-tab]');
+      var panels = document.querySelectorAll('.tab-panel');
+      tabs.forEach(function (tab) {
+        tab.addEventListener('click', function () {
+          tabs.forEach(function (t) { t.classList.remove('active'); });
+          panels.forEach(function (p) { p.classList.remove('active'); });
+          tab.classList.add('active');
+          var target = document.querySelector('[data-panel="' + tab.getAttribute('data-tab') + '"]');
+          if (target) target.classList.add('active');
+        });
+      });
+
+      // 字号
+      var size = parseInt(localStorage.getItem('reading-size') || '17', 10);
+      function setSize(s) {
+        size = Math.max(14, Math.min(24, s));
+        document.documentElement.style.setProperty('--reading-size', size + 'px');
+        try { localStorage.setItem('reading-size', size); } catch (e) {}
+      }
+      var inc = document.getElementById('font-inc'), dec = document.getElementById('font-dec');
+      if (inc) inc.addEventListener('click', function () { setSize(size + 1); });
+      if (dec) dec.addEventListener('click', function () { setSize(size - 1); });
+
+      // 音频
+      var bar = document.querySelector('.audio-bar');
+      var src = bar ? bar.getAttribute('data-audio') : '';
+      var playBtn = document.getElementById('play-btn');
+      var seek = document.getElementById('seek');
+      var cur = document.getElementById('cur');
+      var audio = null;
+      function fmt(s) {
+        s = Math.max(0, Math.floor(s || 0));
+        var m = Math.floor(s / 60), ss = s % 60;
+        return String(m).padStart(2, '0') + ':' + String(ss).padStart(2, '0');
+      }
+      if (src && playBtn) {
+        audio = new Audio(src);
+        seek.disabled = false;
+        playBtn.addEventListener('click', function () {
+          if (audio.paused) { audio.play(); playBtn.textContent = '❚❚'; }
+          else { audio.pause(); playBtn.textContent = '▶'; }
+        });
+        audio.addEventListener('timeupdate', function () {
+          if (audio.duration) { seek.value = (audio.currentTime / audio.duration) * 100; cur.textContent = fmt(audio.currentTime); }
+        });
+        audio.addEventListener('ended', function () { playBtn.textContent = '▶'; });
+        seek.addEventListener('input', function () {
+          if (audio.duration) audio.currentTime = (seek.value / 100) * audio.duration;
+        });
+      } else if (playBtn) {
+        // 无直链：点击跳官方页
+        playBtn.addEventListener('click', function () {
+          var a = bar.querySelector('.ext'); if (a) window.open(a.href, '_blank');
+        });
+      }
+      // 时间戳点击跳转
+      document.querySelectorAll('.ts[data-seek]').forEach(function (el) {
+        el.addEventListener('click', function () {
+          if (!audio) return;
+          var parts = el.getAttribute('data-seek').split(':').map(Number);
+          var sec = parts.length === 3 ? parts[0] * 3600 + parts[1] * 60 + parts[2] : parts[0] * 60 + parts[1];
+          audio.currentTime = sec; audio.play(); playBtn.textContent = '❚❚';
+        });
+      });
+    })();
+  </script>
+</BaseLayout>
