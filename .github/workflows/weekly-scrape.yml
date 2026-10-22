@@ -21,6 +21,10 @@ on:
         description: 'Whisper 模型 tiny/base/small/medium'
         required: false
         default: 'base'
+      shows_filter:
+        description: '只处理这些 show.slug（逗号分隔）；留空=全部。用于把全量回填拆成并行子集'
+        required: false
+        default: ''
 
 permissions:
   contents: read
@@ -29,8 +33,9 @@ jobs:
   enqueue:
     runs-on: ubuntu-latest
     # Whisper 在 CPU 上远慢于实时（base 模型 1 小时音频约 30-60 分钟）。
-    # 用 whisper_max 限制单次转写集数来封顶总时长；上限设 5.5h 留足余量（Actions 硬上限 6h）。
-    timeout-minutes: 330
+    # 用 whisper_max 限制单次转写集数来封顶总时长；上限设 ~5.9h（Actions 硬上限 6h），
+    # 配合 SHOWS_FILTER 把全量回填拆成多个并行子集，每子集只转写自己那几档。
+    timeout-minutes: 355
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -71,4 +76,5 @@ jobs:
           WHISPER_ENABLED: 'true'
           WHISPER_MODEL: ${{ github.event.inputs.whisper_model || 'base' }}
           WHISPER_MAX_PER_RUN: ${{ github.event.inputs.whisper_max || '2' }}
+          SHOWS_FILTER: ${{ github.event.inputs.shows_filter || '' }}
         run: node scripts/enqueue.mjs

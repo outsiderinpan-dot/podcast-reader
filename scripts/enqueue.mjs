@@ -50,7 +50,20 @@ import { fileURLToPath } from 'node:url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, '..');
-const SHOWS = JSON.parse(fs.readFileSync(path.join(ROOT, 'src', 'data', 'shows.json'), 'utf8'));
+const SHOWS_ALL = JSON.parse(fs.readFileSync(path.join(ROOT, 'src', 'data', 'shows.json'), 'utf8'));
+// SHOWS_FILTER：可选，逗号分隔的 show.slug 白名单。用于把一次全量回填拆成多个互不重叠的子集，
+// 并行触发多个 Actions run（各自只处理自己那几档），避免串行等待十几个小时的 Whisper CPU 时间，
+// 也避免并发 run 争抢同一批节目导致重复入队。未设置时处理全部节目（周更常态）。
+const SHOWS_FILTER = (process.env.SHOWS_FILTER || '')
+  .split(',').map((s) => s.trim()).filter(Boolean);
+const SHOWS = SHOWS_FILTER.length
+  ? SHOWS_ALL.filter((s) => SHOWS_FILTER.includes(s.slug))
+  : SHOWS_ALL;
+if (SHOWS_FILTER.length) {
+  console.log(`[enqueue] SHOWS_FILTER 命中 ${SHOWS.length}/${SHOWS_ALL.length} 档: ${SHOWS.map((s) => s.slug).join(', ')}`);
+  const missed = SHOWS_FILTER.filter((f) => !SHOWS_ALL.some((s) => s.slug === f));
+  if (missed.length) console.log(`[enqueue] ⚠ SHOWS_FILTER 中未匹配到 shows.json 的 slug: ${missed.join(', ')}`);
+}
 
 const APP_ID = process.env.FEISHU_APP_ID || '';
 const APP_SECRET = process.env.FEISHU_APP_SECRET || '';
