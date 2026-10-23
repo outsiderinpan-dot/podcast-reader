@@ -4,6 +4,7 @@
 //   <prefix>.en.json    英文转写数组 [{speaker, ts, text}]
 // 凭证从环境变量读取（切勿硬编码）：FEISHU_APP_ID / FEISHU_APP_SECRET / FEISHU_BITABLE_TOKEN / FEISHU_TABLE_ID
 import fs from 'node:fs';
+import { readChunked } from './feishu-chunk.mjs';
 
 const APP_ID = process.env.FEISHU_APP_ID || '';
 const APP_SECRET = process.env.FEISHU_APP_SECRET || '';
@@ -54,7 +55,7 @@ async function token() {
     episode_url: (eu && eu.link) || (Array.isArray(eu) && eu[0] && eu[0].link) || '',
     audio_url: T(f.audio_url), guid: T(f.guid), transcript_src: T(f.transcript_src),
   };
-  const turns = JSON.parse(T(f.turns_en));
+  const turns = JSON.parse(readChunked(f, 'turns_en', T));
   fs.writeFileSync(`${prefix}.meta.json`, JSON.stringify(meta, null, 2));
   fs.writeFileSync(`${prefix}.en.json`, JSON.stringify(turns, null, 2));
   console.log(

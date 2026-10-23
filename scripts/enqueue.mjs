@@ -47,6 +47,7 @@ import { spawn } from 'node:child_process';
 import { Readable } from 'node:stream';
 import { pipeline } from 'node:stream/promises';
 import { fileURLToPath } from 'node:url';
+import { chunkFields } from './feishu-chunk.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, '..');
@@ -123,9 +124,13 @@ function runCmd(cmd, args, opts = {}) {
 }
 
 // ---------- 飞书 tenant_access_token ----------
+// ⚠️ tenant_access_token 有效期仅 ~2 小时。Whisper 兜底单轮要跑 3-5h，早期把 token 永久缓存
+//    导致运行中途 token 过期、后续 bitableCreate 全部报 99991663（Invalid access token）。
+//    这里改为记录过期时间戳，剩余 < 5 分钟即自动重取。
 let TOKEN = '';
+let TOKEN_EXP = 0; // epoch ms，token 过期时刻
 async function feishuToken() {
-  if (TOKEN) return TOKEN;
+  if (TOKEN && Date.now() < TOKEN_EXP - 5 * 60 * 1000) return TOKEN;
   const res = await fetch('https://open.feishu.cn/open-apis/auth/v3/tenant_access_token/internal', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
@@ -134,6 +139,8 @@ async function feishuToken() {
   const j = await res.json();
   if (j.code !== 0) throw new Error(`飞书取 token 失败: ${j.msg} (code=${j.code})`);
   TOKEN = j.tenant_access_token;
+  // expire 单位秒；缺失时保守按 100 分钟计。
+  TOKEN_EXP = Date.now() + (Number(j.expire) > 0 ? Number(j.expire) : 6000) * 1000;
   return TOKEN;
 }
 
@@ -508,8 +515,11 @@ function makeFields(show, cand, turns, src) {
   const slug = slugify(cand.idPart, cand.title, date);
   const turnsJson = JSON.stringify(turns);
   const wordCount = turns.reduce((n, t) => n + t.text.split(/\s+/).length, 0);
-  if (turnsJson.length > 90000) {
-    log(`  ⚠ ${cand.ep_id} 英文转写 ${turnsJson.length} 字符，超多维表格单字段安全上限，需改云文档附件方案`);
+  // turns_en 可能超过飞书单元格上限（TooLargeCell），统一走分片字段：turns_en / turns_en_2 / ...
+  const turnsFields = chunkFields('turns_en', turnsJson);
+  const nChunks = Object.keys(turnsFields).length;
+  if (nChunks > 1) {
+    log(`  ℹ ${cand.ep_id} 英文转写 ${turnsJson.length} 字符，分 ${nChunks} 片写入 turns_en*`);
   }
   return {
     fields: {
@@ -523,7 +533,7 @@ function makeFields(show, cand, turns, src) {
       audio_url: cand.audio_url || '',
       guid: cand.guid || '',
       word_count: wordCount,
-      turns_en: turnsJson,
+      ...turnsFields,
       slug,
       transcript_src: src || '',
       enqueued_at: new Date().toISOString().slice(0, 10),

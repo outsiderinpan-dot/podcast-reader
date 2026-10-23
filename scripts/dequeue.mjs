@@ -19,6 +19,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { readChunked } from './feishu-chunk.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, '..');
@@ -33,8 +34,10 @@ function log(...a) {
 }
 
 let TOKEN = '';
+let TOKEN_EXP = 0;
 async function feishuToken() {
-  if (TOKEN) return TOKEN;
+  // 与 enqueue 一致：token 有效期 ~2h，剩余 <5min 自动重取，避免长任务中途 99991663。
+  if (TOKEN && Date.now() < TOKEN_EXP - 5 * 60 * 1000) return TOKEN;
   const res = await fetch('https://open.feishu.cn/open-apis/auth/v3/tenant_access_token/internal', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
@@ -43,6 +46,7 @@ async function feishuToken() {
   const j = await res.json();
   if (j.code !== 0) throw new Error(`飞书取 token 失败: ${j.msg} (code=${j.code})`);
   TOKEN = j.tenant_access_token;
+  TOKEN_EXP = Date.now() + (Number(j.expire) > 0 ? Number(j.expire) : 6000) * 1000;
   return TOKEN;
 }
 
@@ -121,7 +125,7 @@ async function main() {
     const f = r.fields || {};
     const show = textOf(f.show);
     const slug = textOf(f.slug);
-    const raw = textOf(f.episode_json);
+    const raw = readChunked(f, 'episode_json', textOf);
     try {
       if (!show || !slug || !raw) throw new Error('show/slug/episode_json 有空值');
       const doc = JSON.parse(raw);
