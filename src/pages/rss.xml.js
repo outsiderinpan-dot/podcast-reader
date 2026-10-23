@@ -6,8 +6,10 @@ export const prerender = true;
 
 export async function GET(context) {
   const site = context.site?.toString() || 'https://example.pages.dev';
-  const root = site.replace(/\/$/, '');            // 去掉结尾斜杠
-  const base = import.meta.env.BASE_URL || '/';    // '/repo/' 或 '/'，兼容 GitHub Pages 子路径
+  // context.site 已经包含 base 子路径（例如 https://user.github.io/podcast-reader/），
+  // 去掉结尾斜杠即可作为根，切勿再拼 import.meta.env.BASE_URL，否则会得到
+  // /podcast-reader/podcast-reader/ep/... 这样的重复路径死链。
+  const root = site.replace(/\/$/, '');
   return rss({
     title: 'Podcast Reader · 播客中英精读',
     description: '每周自动更新的播客中文精读（双语对照 + 长文精读）',
@@ -18,7 +20,7 @@ export async function GET(context) {
         title: `${e.title_zh}（${e.title_en}）`,
         description: summary(e),
         pubDate: new Date(e.date),
-        link: `${root}${base}ep/${e.show}/${e.slug}/`,
+        link: `${root}/ep/${e.show}/${e.slug}/`,
         categories: [show?.publisher || e.show],
       };
     }),
