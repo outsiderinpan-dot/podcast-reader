@@ -1,0 +1,472 @@
+{
+  "show": "alternative-fund-insight",
+  "kind": "transcript",
+  "id": "alternative-fund-insight-5cedebbd49",
+  "guid": "6a9ebd630c727006153a76e7",
+  "slug": "2026-09-07-ep-60-how-ai-is-transforming-5cedebbd49",
+  "date": "2026-09-07",
+  "title_en": "Ep 60 - How AI is transforming investment management",
+  "title_zh": "第60期：AI 如何改变投资管理",
+  "subtitle_zh": "AFI 主播 Will Wainewright 与 Citco 的 Declan Quilligan、首席技术官 Albert Bauer 一起，先回顾7月对冲基金业绩小幅回落但资金持续流入、多策略逼近1万亿美元大关，再深入探讨 Citco 如何把 AI 嵌入前中后台、以“成形层”和“培育层”推进流程再造，以及为何始终坚持有人把关。",
+  "description": "Ep 60 - How AI is transforming investment management",
+  "duration": "17:47",
+  "duration_seconds": 1067,
+  "episode_url": "https://alternativefundinsight.com/",
+  "audio_url": "https://sphinx.acast.com/p/open/s/670031fd8071cc42a673844d/e/6a9ebd630c727006153a76e7/media.mp3",
+  "speakers": {
+    "1": "Will Wainewright（主持）",
+    "2": "Declan Quilligan",
+    "3": "Albert Bauer"
+  },
+  "turn_count": 56,
+  "turns": [
+    {
+      "i": 0,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "00:00",
+      "en": "Hello and welcome to the latest AFI podcast taking you inside the key trends shaping the five trillion dollar plus global hedge fund industry.",
+      "zh": "大家好，欢迎收听最新一期的 AFI 播客，我们将带你深入了解塑造这个规模超过五万亿美元的全球对冲基金行业的关键趋势。"
+    },
+    {
+      "i": 1,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "00:10",
+      "en": "My name is Will Wainwright and this week we'll look back at key trends in July, including a performance dip but continued inflows and then turn the discussion to AI and its deployment throughout the industry. With the help of Sitco's Chief Technology Officer Albert Bauer, stay tuned.",
+      "zh": "我是 Will Wainewright。本周我们先回顾7月的几个关键趋势，包括业绩的小幅回落但资金仍在持续流入，然后把话题转向 AI（人工智能）以及它在整个行业中的应用。我们请到了 Citco 的首席技术官 Albert Bauer 来助阵，敬请期待。"
+    },
+    {
+      "i": 2,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "00:31",
+      "en": "Join leaders of the global hedge fund industry at the AFI Innovation Summit coming to May fair this October. If you would like to take part as a delegate speaker or sponsor at this exclusive gathering which will bring together senior operational staff including COOs,",
+      "zh": "今年10月，AFI Innovation Summit 将在 Mayfair 举办，届时全球对冲基金行业的领袖们将齐聚一堂。如果你想以与会代表、演讲嘉宾或赞助商的身份参加这场独家盛会——它将汇集包括 COO 在内的资深运营高管，"
+    },
+    {
+      "i": 3,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "00:49",
+      "en": "CTOs and heads of ops from global billion dollar plus hedge funds, please message me on LinkedIn or email Will at alternativefundinsight.com. It is set to be a fantastic day of discussion, networking and best practice benchmarking in the heart of May fair.",
+      "zh": "以及来自全球规模超过十亿美元的对冲基金的 CTO 和运营主管——请在 LinkedIn 上给我留言，或发邮件给 Will（邮箱域名 alternativefundinsight.com）。这必将在 Mayfair 的核心地带，带来一整天精彩的讨论、人脉拓展和最佳实践对标。"
+    },
+    {
+      "i": 4,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "01:09",
+      "en": "Thursday 8 October and the initial agenda is online now, head to alternativefundinsight.com slash events for more information.",
+      "zh": "活动定于10月8日星期四，初步议程现已上线，欲了解更多信息，请访问 alternativefundinsight.com/events。"
+    },
+    {
+      "i": 5,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "01:20",
+      "en": "This podcast is brought to you in association with Sitco, the leading asset servicer with over two trillion dollars of assets under administration and the top hedge fund administrator on the AFI 250 research ranking.",
+      "zh": "本期播客由 Citco 联合呈现。Citco 是领先的资产服务商，受托管理资产（assets under administration）超过两万亿美元，并且在 AFI 250 研究排名中位居对冲基金行政管理人（administrator）榜首。"
+    },
+    {
+      "i": 6,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "01:34",
+      "en": "Sitco acts as a true partner to its clients, dedicated to developing rich long term relationships through gold standard services and industry leading technology. Head to Sitco.com for more information.",
+      "zh": "Citco 是客户真正的合作伙伴，致力于通过金标准的服务和行业领先的技术，建立深厚而长期的合作关系。欲了解更多信息，请访问 Citco.com。"
+    },
+    {
+      "i": 7,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "01:50",
+      "en": "Declan, thanks for joining me on today's AFI. I know we're going to have a look at some of the hedge fund activity over the summer and then pass on to our latest special guest. Indeed, thanks Will and thanks to AFI for hosting us again.",
+      "zh": "Declan，感谢你今天来做客 AFI。我知道我们要先看看今年夏天对冲基金行业的一些动态，然后把话题交给我们的最新特邀嘉宾。—— 确实如此，谢谢 Will，也感谢 AFI 再次邀请我们。"
+    },
+    {
+      "i": 8,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "02:07",
+      "en": "And I'm particularly delighted to welcome Albar who is Sitco's CTO, who will share his insights on everything AI, which I think our audience will find quite interesting and insightful. So thank you Will. Absolutely, it is the topic of the moment. So it's going to be great to dive into it in detail with our shortly.",
+      "zh": "我尤其高兴能请到 Albert——他是 Citco 的首席技术官，他将分享他对一切 AI 相关话题的见解，我相信我们的听众会觉得非常有意思、也很有启发。—— 谢谢你，Will。—— 当然了，这正是当下的热门话题，所以待会儿能一起深入探讨，一定很精彩。"
+    },
+    {
+      "i": 9,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "02:29",
+      "en": "I just want to get you to take Declan on some of the hedge fund trends that we've seen over the summer. You know, we saw really interesting month of performance in July. There are a few trends in the market, which broke the performance winning streak we'd seen up until then.",
+      "zh": "我想先请 Declan 带我们看看今年夏天观察到的一些对冲基金趋势。你知道，7月的业绩表现很有意思，市场上出现了一些趋势，打断了我们此前一直延续的业绩连胜势头。"
+    },
+    {
+      "i": 10,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "02:51",
+      "en": "But we also saw a lot of good flows movement too, which continued that trend. So maybe you could provide your take on all that. Yeah, look, I'll keep this quite short and sweet. And obviously we had a we had that stellar quarter that ended June 30th.",
+      "zh": "但我们也看到大量良性的资金流动，延续了这一趋势。所以不如请你谈谈对这一切的看法。—— 好的，那我就长话短说。显然，我们刚刚经历了一个截至6月30日的、极其出色的季度。"
+    },
+    {
+      "i": 11,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "03:09",
+      "en": "And I know we're quite late in the day speaking about July. So so we keep this very short. So so July performance, as you said, we did see a dip weighted average performance across our platform with minus point A of 1%.",
+      "zh": "我知道现在再谈7月已经有点晚了，所以我们尽量简短。7月的业绩嘛，正如你所说，我们平台的加权平均业绩确实出现了回落，约为负0.1%。"
+    },
+    {
+      "i": 12,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "03:25",
+      "en": "So that to your point, unfortunately interrupted the three months run of positive gains equity strategy led the decline with weighted average negative return of 2.7%. But having said that, some of the strategies had positive months, albeit small with commodities global macro multi strap posting small gains.",
+      "zh": "正如你所说，这不幸打断了此前连续三个月的正收益。股票策略领跌，加权平均回报为负2.7%。话虽如此，仍有一些策略录得正收益，尽管幅度不大——大宗商品、全球宏观和多策略（multi-strategy）都小有斩获。"
+    },
+    {
+      "i": 13,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "03:46",
+      "en": "And look, it's been a good year today with weighted average performance, not far off 10% at the end of July. August seems like a pretty strong month as well. So I think most stakeholders will be satisfied with the year today.",
+      "zh": "而且，到目前为止这是不错的一年，截至7月底加权平均业绩接近10%。8月看起来也相当强劲。所以我认为，大多数市场参与者对今年以来的表现都会感到满意。"
+    },
+    {
+      "i": 14,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "04:00",
+      "en": "But really, I guess we were going to talk a little bit about about inflow and specifically in respect to the multi strap sector. So so July was another strong month for hedge fund inflows. A lot of investor confidence despite.",
+      "zh": "不过，我想我们本来是要谈谈资金流入，特别是多策略这一块。7月又是对冲基金资金流入强劲的一个月，投资者信心十足，尽管……"
+    },
+    {
+      "i": 15,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "04:19",
+      "en": "Despite a dip in performance. So net inflows 12 billion for the month. And this year, I think as we've said before, it's certainly from a psycho perspective looks as if it will probably be a one of our strongest years ever.",
+      "zh": "尽管业绩有所回落。当月净流入120亿美元。而今年，我想正如我们之前所说，至少从 Citco 的角度看，这很可能会是有史以来最强劲的年份之一。"
+    },
+    {
+      "i": 16,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "04:34",
+      "en": "In respect of inflow, but multi strap took the line share. So that concentration really reflecting multi strap position as the industry's fastest growing segment. So strong performance continued inflows and an all likely hot rising adoption of AI, probably outsourcing there to as well.",
+      "zh": "在资金流入方面，多策略占据了最大份额。这种集中度恰恰反映出多策略作为行业增长最快板块的地位。业绩强劲、资金持续流入，再加上 AI 的采用很可能正在快速升温，大概也带动了外包需求。"
+    },
+    {
+      "i": 17,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "05:00",
+      "en": "And so with the performance and the industry starts are now that multi strap funds are now approaching the $1 trillion mark. So one of the largest strategies in the hedge fund industry, reflecting in my mind in an investor upside that is out there for diversified resilience strategies at this moment in time.",
+      "zh": "而随着业绩的表现，如今多策略基金的规模正逼近1万亿美元大关，成为对冲基金行业最大的策略之一。在我看来，这反映出在当前这个时点，投资者对多元化、有韧性的策略仍有很大的兴趣与上升空间。"
+    },
+    {
+      "i": 18,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "05:23",
+      "en": "From our own very selfish perspective, look as these platforms scale, managers are focused on a couple of items, a certainly managing operational complexity, strengthening risk frameworks, attracting top talent.",
+      "zh": "从我们自己（这么说有点“自私”）的角度看，随着这些平台规模扩大，管理人关注的焦点有几项：首先当然是管理运营复杂度、强化风险框架、吸引顶尖人才。"
+    },
+    {
+      "i": 19,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "05:38",
+      "en": "That's fueling great reduction of strategic outsourcing, particularly in middle office and we're seeing AI just becoming more deeply embedded across front middle and back office.",
+      "zh": "这正推动战略性外包显著增加，尤其是在中台（middle office）；我们也看到 AI 正日益深度嵌入前台、中台和后台。"
+    },
+    {
+      "i": 20,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "05:51",
+      "en": "And again, really from a psycho perspective, you know, we are part of that critical conversation really simply, how can we help multi strap surgery, multi straps, you manage your scale efficiently and certainly does huge demand from what we are seeing in respect of what we offer there.",
+      "zh": "同样，从 Citco 的角度看，我们正是这场关键对话的一部分，核心问题很简单：我们如何帮助多策略管理人高效地管理自身规模。而且从我们所看到的、针对我们提供的服务而言，需求确实非常旺盛。"
+    },
+    {
+      "i": 21,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "06:09",
+      "en": "So look, that was the short and sweet synopsis of where we are now and really a really looking at that very strong multi strap inflow side of things.",
+      "zh": "所以，以上就是对我们现状的一个简短概括，重点看的是多策略这一块极其强劲的资金流入。"
+    },
+    {
+      "i": 22,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "06:21",
+      "en": "Yeah, when you when you step back and look at the trends this year, it really is quite significant that the inflows that we've seen and also the performance overall is very strong, which continues what we've seen in the the era since the pandemic this decade really.",
+      "zh": "是啊，当你退后一步审视今年的趋势，就会发现我们看到的资金流入、以及整体非常强劲的业绩，都相当可观，这延续了疫情以来、乃至这十年里我们一直看到的态势。"
+    },
+    {
+      "i": 23,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "06:38",
+      "en": "So thank you, Declan, for that update i'm going to turn to Albert Bauer now, Albert, welcome to the FRI podcast and you know i'm looking to get some of your observations on leveraging AI at investment firms, it's impact on the wider ecosystem. Maybe we could start just a quick introduction to your role at sit co in your career.",
+      "zh": "谢谢你，Declan，带来的最新情况。现在我转向 Albert Bauer。Albert，欢迎来到 AFI 播客。我想听听你对投资机构如何利用 AI 的观察，以及它对更广泛生态的影响。也许可以先请你简单介绍一下你在 Citco 的职务和你的职业经历。"
+    },
+    {
+      "i": 24,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "07:02",
+      "en": "Thanks for happening well, this is a pleasure i'm Al Bauer i've been with sit co for just about 24 years a little over 24 years at this point, many different roles, many different locations.",
+      "zh": "谢谢邀请，很荣幸。我是 Albert Bauer，在 Citco 工作了差不多24年——到现在略微超过24年，担任过许多不同的职务，也在过许多不同的地方。"
+    },
+    {
+      "i": 25,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "07:16",
+      "en": "You know, currently in charge of all of technology as a CTO at at the single group group of companies, you know, so that's that's sort of me in a nutshell.",
+      "zh": "目前我作为首席技术官，负责 Citco 集团旗下所有公司的全部技术事务。所以，这大概就是对我的简要介绍了。"
+    },
+    {
+      "i": 26,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "07:27",
+      "en": "Yeah, good stuff and as we discussed prior to this recording, you know, you can't really go five minutes without the subject of AI coming up in this industry and beyond say, you know, I just want to kick off by asking about AI, you know, it's becoming an increasingly important consideration.",
+      "zh": "很好。正如我们在录制前聊到的，在这个行业乃至更大范围内，几乎每隔五分钟就会有人提起 AI。我想先从 AI 问起——它正成为一个越来越重要的考量因素。"
+    },
+    {
+      "i": 27,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "07:46",
+      "en": "When selecting a funded administrator, you know, what questions should fund managers be asking in terms of AI and how it fits into the operating model and what is just marketing.",
+      "zh": "在挑选基金行政管理人时，就 AI 而言，基金管理人应该问哪些问题——AI 如何融入运营模式，哪些又只是营销噱头？"
+    },
+    {
+      "i": 28,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "07:59",
+      "en": "You know, look, I think how we look at it or really not, you know, put a, put a wrapper around it is, you know, does it, does it help improve outcomes right like we, you know, we've talked about technology and in prior years around efficiencies and and that sort of thing.",
+      "zh": "我觉得我们看待它的方式——或者说，给它套一个总的框架——就是：它能不能帮助改善结果？过去几年我们谈技术，谈的都是效率之类的东西。"
+    },
+    {
+      "i": 29,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "08:23",
+      "en": "You know, but really what we're looking for AI to do and what I think managers should ask their providers is, you know, does it help the outcome in terms of the services that the provider is trying to produce.",
+      "zh": "但我们真正希望 AI 做到的、也是我认为管理人应该问服务商的问题是：在服务商想要交付的服务方面，它有没有帮助改善结果？"
+    },
+    {
+      "i": 30,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "08:38",
+      "en": "You know, what are those outcomes? How is it in production? How is it used? I think those are really the questions I need to be asked and, you know, and really are super important as you're looking at providers.",
+      "zh": "那些结果具体是什么？它在生产环境中落地得怎么样？是怎么用的？我认为这些才是真正需要被问到的问题，在你评估服务商时也极其重要。"
+    },
+    {
+      "i": 31,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "08:53",
+      "en": "Yeah, and you know, in terms of practical use cases, you know, what does AI driven automation, operational transformation look like for a fund manager, you know, what should clients expect to see an experience and how does that interaction with the administrator work.",
+      "zh": "那么在具体的应用场景上，对基金管理人来说，AI 驱动的自动化、运营转型是什么样子？客户应该期待看到和体验到什么？与行政管理人的这种互动又是如何运作的？"
+    },
+    {
+      "i": 32,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "09:15",
+      "en": "Now, really, I think initially how we see it is sort of access to better information right like we're letting our employees or our staff sort of use the tools to help get, get those better outcomes for clients, whether it be, you know, asking, asking the right questions of the data, getting insightful information out, you know, that's, that's one piece of it.",
+      "zh": "目前，我觉得一开始我们的理解是：能获取更好的信息。也就是让我们的员工使用这些工具，为客户带来更好的结果——无论是向数据提出正确的问题，还是从中提取有洞见的信息。这是其中一个方面。"
+    },
+    {
+      "i": 33,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "09:45",
+      "en": "You know, we're also using it heavily to reduce risk through the organization as well. You know, like that maker checker, or as it stands right now, always having the maker checker around, we're sort of embedding AI as the maker and the maker checker. So there's always going to be a human in the leap for the time being for us.",
+      "zh": "我们也在大量使用它来降低整个组织的风险。比如制单—复核（maker-checker）机制，就现状而言，我们始终保留着这套制单—复核流程；我们正在把 AI 嵌入为“制单方”和“复核方”。所以在我们这里，眼下始终会有人来把关。"
+    },
+    {
+      "i": 34,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "10:14",
+      "en": "You know, but we're starting to see improvements in the reduction of risk around, you know, fat fingering of information or the double check of data, right, like that's sort of where we're, where we're seeing the most value of it coming through.",
+      "zh": "但我们已经开始看到风险降低方面的改善，比如信息的手动录入出错（fat-finger），或者数据的二次核对——这正是我们看到它带来最大价值的地方。"
+    },
+    {
+      "i": 35,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "10:34",
+      "en": "You know, one of the first places that we saw the value very quickly as we were playing with the technology and putting it into production was around documentation, right, large language models, no surprise, you know, understand language and documents very well.",
+      "zh": "我们在试验这项技术并将其投入生产时，最快看到价值的领域之一就是文档处理。毫不意外，大语言模型（large language model）对语言和文档的理解非常出色。"
+    },
+    {
+      "i": 36,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "10:51",
+      "en": "We, you know, we quickly, you know, we quickly put it into production around, you know, the gathering of data or the scraping of the data off of documents into into the processes for downstream systems, right, and that, that replace sort of the fat finger or the risk of that.",
+      "zh": "我们很快就把它投入生产，用于从文档中采集或抓取数据，导入到面向下游系统的流程里，这就替代了手动录入出错，或者说规避了那类风险。"
+    },
+    {
+      "i": 37,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "11:14",
+      "en": "But also, you know, gave our employees the ability to, to review rather than type away all day, right, so, you know, really being insightful around is the information right, getting it right and then making the downstream systems way more efficient that way and reduce risk, right, so that's really the model that we're using in general as it comes to AI for sure.",
+      "zh": "但它同时也让我们的员工有能力去做复核，而不是整天埋头录入。也就是说，真正有洞见地去判断信息是否正确、把它弄对，从而让下游系统高效得多，也降低了风险。所以这确实就是我们在 AI 上大体采用的模式。"
+    },
+    {
+      "i": 38,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "11:43",
+      "en": "It's interesting that you mentioned human involvement as well, because I think why you've got all these amazing technologies and efficiencies, there is also a perception that, you know, they could, they could run wild and, you know, the flip side is you need to be aware of the security implications, you need to be cautious and have that kind of human involvement too, so it's clear that you're balancing those two aspects to AI.",
+      "zh": "很有意思，你还提到了人的参与。因为我想，一方面你拥有所有这些了不起的技术和效率提升，另一方面人们也会觉得它们可能会“失控”；反过来说，你需要意识到安全隐患，需要保持谨慎，也需要有那种人的参与。所以很明显，你是在 AI 的这两个方面之间寻求平衡。"
+    },
+    {
+      "i": 39,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "12:13",
+      "en": "We saw that early on, right, like we saw that with the hallucinations right out of the gate, you know, and obviously better prompting and the models getting, you know, more powerful are reducing that hallucination for sure, but we're, you know, we're still not at the point where we're sort of letting at least making decisions without without some oversight for sure.",
+      "zh": "我们很早就看到了这一点，比如一开始就遇到了幻觉（hallucination）问题。显然，更好的提示词和越来越强大的模型，确实在减少这种幻觉；但我们还远没到那种地步——至少不会让它在没有一定监督的情况下自己做决策。"
+    },
+    {
+      "i": 40,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "12:37",
+      "en": "You know, and it isn't like I said, it isn't sort of foolproof either right like, you know, the hallucinations mean it could make mistakes, you know, and it's technology what happens if it if it doesn't run today or there's a technology glitch or, you know, the platform that we're using it on goes down, still need that the human around certainly to pick up the process and make sure that it happens because, you know, look, we have to deliver.",
+      "zh": "而且就像我说的，它也不是万无一失的。幻觉意味着它可能出错；而且它是技术，万一哪天它跑不起来、出现故障，或者我们运行它的平台宕机了怎么办？这时候肯定仍然需要人来接手流程、确保它照常运转，因为我们必须交付。"
+    },
+    {
+      "i": 41,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "13:06",
+      "en": "You know, we have to deliver our services for clients and, you know, that sort of, I don't want to say DR because it's not quite DR right, but that sort of making sure that the process is going and that it's right and that it gets done.",
+      "zh": "我们必须为客户交付服务。这种保障——我不想说成是 DR（灾难恢复），因为它并不完全算 DR——但就是要确保流程在正常运转、结果是正确的、事情能办成。"
+    },
+    {
+      "i": 42,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "13:18",
+      "en": "We still we still certainly need we certainly need employees and staff around that that didn't know how to do it. Yeah, yeah, and let's look to the future, you know, we've looked a little bit about how sicko is using AI across the business, you know, what's the plan going forward in terms of the strategy and innovation for AI at sicko.",
+      "zh": "我们确实仍然需要熟悉业务、知道该怎么做的员工在旁边。—— 好，那我们来看看未来。我们已经大致谈了 Citco 如何在各项业务中使用 AI，那么接下来在 AI 的战略和创新方面，Citco 有什么规划？"
+    },
+    {
+      "i": 43,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "13:43",
+      "en": "You know, so look, we we're in a process by which we're sort of gathering all the operational insights from operational people right from our from our staff around how we can use AI and our process right like we consider that sort of our forming layer in our in our AI process right.",
+      "zh": "是这样，我们正在做一件事：从一线运营人员、从我们的员工那里，收集关于如何在流程中使用 AI 的所有运营洞见。我们把它看作 AI 流程中的“成形层”（forming layer）。"
+    },
+    {
+      "i": 44,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "14:05",
+      "en": "Just stuff that you know needs to get looked at process improvement stuff that we should be doing day in and day out and we're getting great insight from our staff in order for for us to do that.",
+      "zh": "就是那些需要被审视的东西、流程改进的东西，是我们本该日复一日去做的；而为了做到这一点，我们从员工那里获得了很好的洞见。"
+    },
+    {
+      "i": 45,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "14:18",
+      "en": "You know, but all of that stuff is not sort of monumental change right it's improving the process reducing risk all of that stuff and we're getting you know we sort of followed the the RPA process that we had in the past little smarter little better we could do more things with the technology.",
+      "zh": "但所有这些并不算什么翻天覆地的变化，而是改进流程、降低风险这类事情。我们有点像延续过去的 RPA（机器人流程自动化）路径，只是更聪明一点、更好一点，能用这项技术做更多事情。"
+    },
+    {
+      "i": 46,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "14:37",
+      "en": "So just to improve the the current process use look sooner later and sooner rather than later because we are, you know, we are looking at this and we we call this sort of our cultivation layer right like cultivating bigger and better ideas is is how it got that sort of term right is OK, how do we how do we reimagine a process rather than just use the technology in the process.",
+      "zh": "也就是改进当前的流程。这事迟早要做，而且宜早不宜迟，因为我们正在研究它。我们把它称为“培育层”（cultivation layer）——培育更大、更好的想法，这个词就是这么来的。也就是说：我们该如何重新构想一个流程，而不只是在流程里用上这项技术。"
+    },
+    {
+      "i": 47,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "15:06",
+      "en": "What can and we're trying a few different ways to do that to be quite honest. You know one of it could be from the inside out redesign the platform itself for the technology itself using AI to help you know to help our our engineers develop a better platform so that's sort of one way and then we drive.",
+      "zh": "老实说，我们正在尝试用几种不同的方式来做。其中一种可能是由内而外，重新设计平台本身、重新设计技术本身，用 AI 来帮助我们的工程师开发出更好的平台。这是一条路，然后由此我们推动……"
+    },
+    {
+      "i": 48,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "15:29",
+      "en": "You know operational efficiencies and an operational risk reduction and a better process that way you know which which is one thing that we're definitely doing you know but also OK do we can we do it.",
+      "zh": "运营效率的提升、运营风险的降低，以及由此带来更好的流程——这当然是我们确定在做的事情。但同时也要问：我们能不能……"
+    },
+    {
+      "i": 49,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "15:44",
+      "en": "Or can we change an operational process without you know sort of doing that to an underlying platform because there's some underlying platforms that are in proprietary that we use right so how do we know how do we implement a.",
+      "zh": "或者说，我们能不能在不改动底层平台的情况下，改变一个运营流程？因为我们用到的一些底层平台并不是自研的（non-proprietary），那么我们该如何去实施一个……"
+    },
+    {
+      "i": 50,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "15:57",
+      "en": "A reimagine process around a platform that isn't proprietary and and we're trying to figure out ways to do that to and we've tried we're trying both ways right.",
+      "zh": "……在一个非自研平台之上重新构想出来的流程？我们也在想办法做到这一点，而且我们两种方式都在尝试。"
+    },
+    {
+      "i": 51,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "16:10",
+      "en": "So it's look I think we're still trying to figure out which which will be the winner I think both they will need to do both in the end yeah winner you know in terms of what gets there first and the first couple things that we try.",
+      "zh": "所以，我觉得我们还在琢磨哪一条会是赢家。我认为两者最终都得做。—— 是啊，所谓赢家，就是看哪条路先跑通，以及我们最先尝试的那几件事。"
+    },
+    {
+      "i": 52,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "16:24",
+      "en": "We're really trying to look at how to how to change the the overall process in general and hopefully that that enhances the client experience in the end gives us.",
+      "zh": "我们真正想弄清楚的，是如何从整体上改变流程，并希望最终能提升客户体验，给我们带来……"
+    },
+    {
+      "i": 53,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "16:34",
+      "en": "You know sort of more scalable operations and you know also gives clients faster insight into where we are getting them the questions answered that they're looking for all those sort of right great stuff well.",
+      "zh": "……更具可扩展性的运营，也能让客户更快地了解我们的进展、更快地得到他们想要的答案，诸如此类。—— 很好，说得太好了。那么……"
+    },
+    {
+      "i": 54,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "16:47",
+      "en": "Well I'll leave it there thanks for giving us the low down and your thoughts on AI and where it goes from here great to help you on the podcast. Declan thanks as ever for for joining me and would it fall to speaking again soon. Thanks very much thank you. Thank you to Declan and to Albert and we'll see you next time on the AFI podcast.",
+      "zh": "好，那就聊到这里。感谢你为我们带来的内情，以及你对 AI 及其未来走向的看法。—— 很高兴能上你们的播客帮上忙。—— Declan，一如既往感谢你来做客，希望不久后能再和你聊。—— 非常感谢，谢谢。—— 感谢 Declan，也感谢 Albert，我们下期 AFI 播客再见。"
+    },
+    {
+      "i": 55,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "17:47",
+      "en": "Thank you very much.",
+      "zh": "非常感谢。"
+    }
+  ]
+}

@@ -1,0 +1,606 @@
+{
+  "show": "behind-the-ticker",
+  "kind": "transcript",
+  "id": "347859605",
+  "slug": "2026-10-18-the-7-trillion-market-most-advisors-347859605",
+  "date": "2026-10-18",
+  "title_en": "The $7 Trillion Market Most Advisors Can't Actually Access | Chris Getter, Simplify",
+  "title_zh": "大多数顾问其实碰不到的 7 万亿美元市场 | Chris Getter，Simplify",
+  "subtitle_zh": "Simplify 董事总经理兼基金经理 Chris Getter 拆解 FOXY：如何把机构级的货币套息交易装进一只 ETF，为越来越失效的 60/40 组合提供一个真正低相关的另类收益来源",
+  "description": "The $7 Trillion Market Most Advisors Can't Actually Access | Chris Getter, Simplify",
+  "duration": "22:17",
+  "duration_seconds": 1337,
+  "episode_url": "https://www.iheart.com/podcast/269-behind-the-ticker-169761786/episode/the-7-trillion-market-most-advisors-cant-actually-access-chris-getter-simplify-347859605",
+  "audio_url": "https://www.buzzsprout.com/2162961/episodes/19947158-the-7-trillion-market-most-advisors-can-t-actually-access-chris-getter-simplify.mp3?source=iheart",
+  "speakers": {
+    "1": "Brad Roth（主持）",
+    "2": "Chris Getter"
+  },
+  "turn_count": 73,
+  "turns": [
+    {
+      "i": 0,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "00:00",
+      "en": "Welcome to Behind the Ticker, the podcast where we go beyond the symbol and into the strategy. I'm Brad Roth, founder and chief investment officer at Thor Funds, and in each episode I sit down with ETF managers, CIOs, and industry leaders to break down how these funds are",
+      "zh": "欢迎收听 Behind the Ticker，一档带你越过代码、深入策略的播客。我是 Brad Roth，Thor Funds 的创始人兼首席投资官。每一期节目，我都会和 ETF 基金经理、首席投资官以及行业领袖坐下来，拆解这些基金到底是"
+    },
+    {
+      "i": 1,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "00:23",
+      "en": "actually built, how they behave in real markets, and how advisors use them in real portfolios. Most people will just see a ticker symbol, but we know much more goes on behind the ticker.",
+      "zh": "怎么构建出来的、在真实市场里表现如何，以及投资顾问在真实组合里是怎么用它们的。大多数人看到的只是一个股票代码，但我们知道，代码背后还有多得多的东西。"
+    },
+    {
+      "i": 2,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "00:42",
+      "en": "Hey Chris, welcome to the show. Thanks for having me Brad, glad to be here. So why don't we start by you giving everybody a bit about your background. I saw you spend about a decade in currency and emerging markets trading before joining Simplify as a managing director and portfolio manager.",
+      "zh": "嗨 Chris，欢迎来到节目。谢谢邀请，Brad，很高兴能来。那不如先从你给大家讲讲自己的背景开始吧。我注意到，在加入 Simplify 出任董事总经理兼基金经理之前，你在货币和新兴市场交易这一行做了差不多十年。"
+    },
+    {
+      "i": 3,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "00:57",
+      "en": "So can you kind of walk us through higher career unfolded? Yeah, I started actually started in US high yield.",
+      "zh": "那你能给我们讲讲，你的职业道路是怎么一步步走过来的吗？好的，其实我最早是从美国高收益债（US high yield）开始的。"
+    },
+    {
+      "i": 4,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "01:07",
+      "en": "At fidelity investments back in the mid 1990s, that was about the time that emerging markets was starting to unravel right after the Mexican peso crisis, kind of the middle of the Asia currency crisis and then before Russia defaulted. And it looked like those guys who we sat next to were having a lot more fun.",
+      "zh": "那是在 Fidelity Investments，1990 年代中期。那个时候新兴市场（emerging markets）正好开始崩盘：墨西哥比索危机刚过去，正处在亚洲货币危机的中途，然后俄罗斯又违约了。而坐在我们旁边的那帮人，看起来玩得开心多了。"
+    },
+    {
+      "i": 5,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "01:24",
+      "en": "So I did my best to transition to that team and I've never looked back. I've spent substantially all of my career in EM either doing sovereigns, currencies, local rates, a little bit of corporates. I went to PIMCO in 2008, spent about 10 years there and then spent 10 minutes at Lesard asset management also in EM.",
+      "zh": "所以我就想方设法转到了那个团队，从此再没回头。我的职业生涯基本上全都花在新兴市场（EM）上，做过主权债、货币、本地利率，也做过一点公司债。2008 年我去了 PIMCO，在那儿待了大约十年，然后在 Lazard Asset Management 待了十分钟，同样是做新兴市场。"
+    },
+    {
+      "i": 6,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "01:46",
+      "en": "Then I thought it was retired and then low and behold, I'm back here at Simplify doing what I've done before. In large part. So I always ask people before we get into the nuts and bolts, what do they like to do for fun? But I see the guitars behind you. I'm assuming you like to play the guitar.",
+      "zh": "然后我以为自己退休了，结果你猜怎么着，我又回到了 Simplify，在很大程度上干着我以前干过的那套活儿。那在我们进入具体细节之前，我总会先问嘉宾一个问题：平时喜欢做点什么消遣？我看到你身后摆着吉他，我猜你喜欢弹吉他。"
+    },
+    {
+      "i": 7,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "02:03",
+      "en": "I do like to play it. I will break it out and the only thing that we'll do is ensure that I'm never invited back to your podcast. That's okay. So anyways, let's talk about Simplify. The firm was founded in 2020 by David Burns has built a reputation for bringing institutional",
+      "zh": "我确实喜欢弹。我要是把它拿出来，唯一的效果就是确保你再也不会请我上你的播客了。那没关系。好了，我们还是来聊聊 Simplify 吧。这家公司由 David Burns 在 2020 年创立，已经在把机构级"
+    },
+    {
+      "i": 8,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "02:21",
+      "en": "grade strategies, alternatives, income, all of these things in ETF wrapper. So before we get into Foxy, which is what we're here to talk about. Can you talk about Simplify as a whole and the firm? Sure. So I'll add a name to that list. It was Dave Burns and Paul Kim, somebody who I worked with closely at PIMCO for a number of years.",
+      "zh": "策略、另类资产（alternatives）、收益型产品，所有这些东西装进 ETF 这个外壳里这件事上打出了名气。那在我们进入今天的主角 FOXY 之前，你能先整体介绍一下 Simplify 这家公司吗？当然。那我要往那份名单上再加一个名字：是 Dave Burns 和 Paul Kim，Paul 是我在 PIMCO 共事过很多年的同事。"
+    },
+    {
+      "i": 9,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "02:40",
+      "en": "They started it in 2020 and it was really what I think of as is almost a recognition of a structural break in what ETFs could do for the individual investor. In 2019, the SEC promulgated an update or a refresh to how ETFs were regulated, what they could hold, how they would be risk-managed and evaluated by the SEC.",
+      "zh": "他们 2020 年创办了这家公司。在我看来，这几乎就是源于一种认知：ETF 能为个人投资者做的事情，出现了一次结构性的断裂。2019 年，SEC 发布了一项更新，也可以说是对 ETF 监管方式的一次刷新——ETF 可以持有什么、如何进行风险管理、SEC 会怎么评估它们。"
+    },
+    {
+      "i": 10,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "03:06",
+      "en": "And that really opened the floodgates for basically you could do anything in an ETF that you could do in a traditional mutual fund structure, derivatives, convex strategies, all sorts of things that previously didn't really lend themselves to being packaged in an ETF format.",
+      "zh": "这基本上打开了闸门：过去你在传统共同基金结构里能做的事，现在都能在 ETF 里做了——衍生品、凸性策略（convex strategies），以及各种以前其实并不适合装进 ETF 这种形式里的东西。"
+    },
+    {
+      "i": 11,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "03:25",
+      "en": "And it comes with all the benefits of being an ETF, daily liquidity, transparency, the tax advantage for clients that that matters for. And so that recognition I think was the genesis of Simplify to say like, hey, we can do this and we can bring something that's extraordinarily",
+      "zh": "而且还附带 ETF 本身的全部好处：每日流动性、透明度，以及对那些在意税务的客户来说的税务优势。所以我认为，正是这种认知成了 Simplify 的起点——就是说，嘿，我们能做这件事，我们能把一些极其"
+    },
+    {
+      "i": 12,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "03:41",
+      "en": "beneficial that has traditionally been solely the domain of institutional clients. So let's get right into Foxy FOX-Y. It's the Simplify currency strategy ETF. You guys launched this in 2025. Looks like in February of 2025, actively managed at a high level,",
+      "zh": "有益、而过去一直只属于机构客户专属领域的东西带给大家。那我们就直接进入 FOXY 吧。它是 Simplify Currency Strategy ETF，你们在 2025 年发行了这只基金，看起来是 2025 年 2 月，属于主动管理（actively managed）。从大的层面上讲，"
+    },
+    {
+      "i": 13,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "04:00",
+      "en": "what's the fund and what's the problem in solving? Sure. So the problem it is solving is to generate absolute return that does not behave or is not delivered in a pattern that matches what you get from equities or what you get from bonds. So you get the return and you get the",
+      "zh": "这只基金到底是什么，它要解决的问题是什么？好。它要解决的问题，是提供一种绝对收益（absolute return），而且这种收益的表现方式、兑现路径，都不跟你从股票里拿到的、或者从债券里拿到的那种模式重合。所以你既拿到了收益，又拿到了"
+    },
+    {
+      "i": 14,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "04:20",
+      "en": "diversification benefit. When we think of how portfolios are increasingly being constructed by advisors, you've got the old 6040, that's now migrating to something like 50, 30, 20 or perhaps that 20 might be larger. And it's not an alternative bucket where you hold one thing.",
+      "zh": "分散化（diversification）的好处。想想投资顾问们现在越来越多地是怎么构建组合的：老式的 60/40 正在迁移到类似 50/30/20 这样的结构，或者那个 20 的比例可能更大。而这个另类桶，不该是一个只装着一样东西的桶。"
+    },
+    {
+      "i": 15,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "04:40",
+      "en": "It should be an alternative bucket. You want to diversify that the same way that you wouldn't put your 60 in one stock. You should hold many alternatives. And Foxy fits pretty squarely into that in terms of getting you the low correlation, the diversification benefit against stocks and",
+      "zh": "它应该是一个另类桶，你要对它做分散配置，就像你不会把那 60% 的部分全押在一只股票上一样。你应该持有很多种另类资产。而 FOXY 正好严丝合缝地落在这个定位里：它给你低相关性，给你相对于股票和"
+    },
+    {
+      "i": 16,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "04:57",
+      "en": "bonds. But it also diversifies nicely against other things that are traditionally conceived of as alternatives. Interesting. So the FX market is the largest, most liquid market in the world. Most retail investors just don't understand it. Never really, and they have access to the currency",
+      "zh": "债券的分散化好处。但它相对于其他那些传统上被视作另类资产的东西，也能很好地起到分散作用。有意思。外汇（FX）市场是全球规模最大、流动性最强的市场。大多数散户投资者根本不了解它，其实他们也一直没有真正接触过货币"
+    },
+    {
+      "i": 17,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "05:16",
+      "en": "market as an asset class. But it seems a little bit scary when you try to access it. So can you walk us through why that's been such a persistent gap and what Foxy's actually bringing to the table? Yeah, it's it's funny, Brett, I had watched before I came on or the past couple of weeks,",
+      "zh": "市场，把它当成一个资产类别。但当你真要去接触它的时候，它又显得有点吓人。那你能给我们讲讲，为什么这个缺口一直存在，FOXY 到底带来了什么？有意思的是，Brad，在我上节目之前的这几周里，"
+    },
+    {
+      "i": 18,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "05:34",
+      "en": "I've watched a lot of your podcasts. This is the one strategy where you can't go to your brokerage account and say, I want to buy something that's in the fun. The for the currency market is primarily transacted with instruments that are called forward contracts. There are a lot like futures.",
+      "zh": "我看了你不少期播客。货币是唯一一种策略，你没法打开自己的券商账户然后说“我想买这只基金里的某个东西”。因为货币市场主要是用一种叫做远期合约（forward contracts）的工具来交易的。它们在很多方面很像期货。"
+    },
+    {
+      "i": 19,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "05:52",
+      "en": "But it's nothing you would go to your brokerage platform and be able to find and say, I want that in my portfolio, answering your question of why it has traditionally been so mystical to investors. I think there's a couple of reasons. One is it always comes packaged with something else.",
+      "zh": "但你没法在券商平台上找到它，然后说“我想把这个放进我的组合里”。这也回答了你的问题：为什么它对投资者来说一直这么神秘。我觉得有几个原因。第一，它总是跟别的东西打包在一起出现。"
+    },
+    {
+      "i": 20,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "06:10",
+      "en": "If you buy European stocks, you are naturally exposing yourself to the euro. Maybe you do it hazed or unhaged, but you probably don't give it any thought that you now have a euro-denominated investment in the same holds true in the global bond market. That's number one. Number two,",
+      "zh": "如果你买欧洲股票，你就自然而然地暴露在了欧元之下。也许你会做对冲（hedged）或者不做对冲，但你大概根本不会想到，自己现在持有了一笔以欧元计价的投资；同样的道理在全球债券市场上也成立。这是第一点。第二点，"
+    },
+    {
+      "i": 21,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "06:27",
+      "en": "this is a more practical thing. Most currencies trade inverse. So if the Mexican peso goes from 17 to 18 and you're a long peso, you've lost money, right? The peso weakened and now it buys, when you convert it back, it buys fewer dollars. I think there's a little bit of, you know, maybe",
+      "zh": "这一点更实际一些。大多数货币是反向报价交易的。所以如果墨西哥比索从 17 走到 18，而你是做多比索的，那你就亏钱了，对吧？比索贬值了，等你把它换回来的时候，它能换到的美元更少了。我觉得这里面有一点，嗯，也许"
+    },
+    {
+      "i": 22,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "06:49",
+      "en": "not misunderstanding, but there's plenty to scare investors off of the currency market. So the currency carry trade is one of the oldest strategies and institutional investing in plain English for the advisors watching this show. What does carry mean and why does it work as a",
+      "zh": "算不上误解，但确实有太多东西能把投资者从货币市场上吓跑。那么，外汇套息交易（currency carry trade）是机构投资里最古老的策略之一。用大白话给正在看这档节目的顾问们讲讲：套息（carry）是什么意思，它为什么能作为一种"
+    },
+    {
+      "i": 23,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "07:07",
+      "en": "return premium? Sure. Carry is just earning an interest rate period, right? So in a simple example, if I take Brazil, which is today yielding almost 12%, and I say, I want to be long Brazilian real, and I want to fund that with something that has a low yield, maybe Swiss franc, where the yield",
+      "zh": "收益溢价存在？好。套息说白了就是赚一个利率差，对吧。举个简单的例子：如果我拿巴西来说，它今天的收益率接近 12%，我说我要做多巴西雷亚尔，然后我想用某个低收益率的东西来为它融资，比如瑞士法郎，它的收益率"
+    },
+    {
+      "i": 24,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "07:28",
+      "en": "is slightly negative. The difference between those two, let's just say the 12% and call it minus one, which is not, but let's say it's minus one, that 13% is your carry. Period. That's what you should earn. Now, the reason it's scary is because sometimes that trade without warning, if you're not",
+      "zh": "略微为负。两者之间的差额——就算一边是 12%，另一边姑且说是负 1%（其实不是，但我们假设是负 1%）——那 13% 就是你的套息收益，句号，这就是你本该赚到的。而它之所以吓人，是因为有时候这笔交易会在毫无预警的情况下，如果你没有"
+    },
+    {
+      "i": 25,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "07:48",
+      "en": "watching the markets, can blow up in your face. That's the Achilles heel of most carry strategies, and that's what we are trying to solve for as we build Foxy in terms of how we select currencies, how we wait them, and how much risk we have in the fund.",
+      "zh": "盯着市场，就会直接在你脸上炸开。这是大多数套息策略的阿喀琉斯之踵，也正是我们在构建 FOXY 时想要解决的问题——体现在我们如何挑选货币、如何给它们配权重，以及基金里承担多少风险。"
+    },
+    {
+      "i": 26,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "08:04",
+      "en": "Yes, so you guys have, if I'm reading this correctly, two distinct strategies. The first is an emerging markets carry strategy. It's got eight currency pairs against US dollar. So can you walk us through how this piece works? Sure. So this is the primary carry engine of the",
+      "zh": "是的，如果我没看错的话，你们有两套不同的策略。第一套是新兴市场套息策略，它有八个对美元的货币对。那你能给我们讲讲这一块是怎么运作的吗？好。这是整个策略最主要的套息引擎，"
+    },
+    {
+      "i": 27,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "08:20",
+      "en": "strategy, primary return engine of the strategy, is to go long currencies where yields are high. So Brazil is kind of extreme. There are others that have lower amounts of yield in the domestic market, and against that, you are shorting currencies that have low yield. No emerging market currency",
+      "zh": "也是策略最主要的收益引擎：做多那些收益率高的货币。巴西算是比较极端的例子，还有一些货币在本地市场上的收益率没那么高；与之相对，你做空的是那些低收益率的货币。没有任何一种新兴市场货币"
+    },
+    {
+      "i": 28,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "08:40",
+      "en": "has a negative yield, but you're basically funding this high carry strategy with low carry currencies on the short side, and you pick up that difference. Now, I've characterized that as the return engine of the strategy, the G10 currencies, so dollar, euro, yen, Australia, dollar, and so on,",
+      "zh": "的收益率是负的，但你实际上是在空头这一侧用低套息的货币为这个高套息策略融资，然后赚取中间那个差额。我把这一块描述成策略的收益引擎；而 G10 货币——也就是美元、欧元、日元、澳元等等——"
+    },
+    {
+      "i": 29,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "09:01",
+      "en": "those currencies tend to be more as a cushion. They are prized for their ability to dampen volatility in the strategy, and the way that we use volatility itself as a signal is basically our guidepost for how much risk we want to take in the portfolio. When emerging market currencies",
+      "zh": "这些货币更多是充当缓冲垫的角色。它们之所以被看重，是因为能压低策略里的波动率；而我们把波动率本身当作信号来用，这基本上就是我们决定组合中要承担多少风险的指路标。当新兴市场货币"
+    },
+    {
+      "i": 30,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "09:22",
+      "en": "are signaling a lot of volatility coming in the future when implied volatility goes up, we're going to scale those back, and we will move more of the exposure into the G10 currencies, and that's our way to try and cushion or mitigate or guard, if you will, against that Achilles",
+      "zh": "预示着未来会有大量波动时——也就是隐含波动率（implied volatility）上升时——我们就会把它们的仓位往回收，把更多的敞口挪到 G10 货币里去。这就是我们试图去缓冲、去减轻、或者说去防范那个阿喀琉斯"
+    },
+    {
+      "i": 31,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "09:38",
+      "en": "heel of a traditional carry strategy. That was going to be my next question. That second part of the strategy, as you just mentioned, is the G10 currency mean reversion strategy. So what are you looking at there? Is it momentum, yield momentum? How does that mean reversion strategy work in the G10 space? You said it. It's yield momentum.",
+      "zh": "之踵的办法——也就是传统套息策略的那个致命弱点。这本来是我的下一个问题。策略的第二部分，就像你刚提到的，是 G10 货币的均值回归（mean reversion）策略。那你在这块看的是什么？是动量、收益率动量吗？这个均值回归策略在 G10 这个领域里是怎么运作的？你自己说出来了，就是收益率动量（yield momentum）。"
+    },
+    {
+      "i": 32,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "10:04",
+      "en": "Because developed economies have tended to be synchronized, they're not printing the same numbers in growth and inflation terms, but they've tended to move in the same direction going back 20 plus years. That tends to imply that monetary policy, which is the primary determinant of relative",
+      "zh": "因为发达经济体往往是同步的：它们公布的增长和通胀数据并不相同，但往前推 20 多年，它们的走向大体是一致的。这往往意味着，货币政策——也就是决定 G10 内部相对"
+    },
+    {
+      "i": 33,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "10:25",
+      "en": "exchange rate movements in G10 will also move in the same direction. So we use one signal, which is that implied yield, it's implied yield rather than yield momentum, but it's a yield momentum signal. We say, okay, if this currency is starting to run, we want if the implied yield",
+      "zh": "汇率走势的首要因素——也会朝同一个方向移动。所以我们只用一个信号，也就是隐含收益率；准确说是隐含收益率，而不是收益率动量，但它本质上是一个收益率动量信号。我们会说，好，如果这个货币开始走强，如果隐含收益率"
+    },
+    {
+      "i": 34,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "10:42",
+      "en": "momentum is going up, that's something we want to be long. And against that, because it will mean revert, if there are ones where implied yield momentum is low, we want to be short those. So again, two distinct signals for EM, it's just carry. We're ranking them, buying the high guys,",
+      "zh": "动量在往上走，那就是我们想做多的对象。与之相对，因为它会均值回归，如果有些货币的隐含收益率动量很低，我们就想做空它们。所以还是两套不同的信号：对新兴市场来说，就是纯粹的套息，我们给它们排序，买入高的那些，"
+    },
+    {
+      "i": 35,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "10:57",
+      "en": "shorting the low guys in G10, it's yield momentum. High yield momentum will buy those, be long, short the low or negative yield momentum. And then I saw like one of the key features of the fun that it's like, it's dollar neutral. Like so every long position has an equally sized short.",
+      "zh": "做空低的那些；在 G10 里，则是收益率动量：收益率动量高的我们买入、做多，动量低的或者为负的我们就做空。然后我还看到这只基金的一个关键特征，就是它是美元中性（dollar neutral）的，也就是说每一个多头头寸都有一个同等规模的空头。"
+    },
+    {
+      "i": 36,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "11:13",
+      "en": "So can you talk about why that construction matters and why Foxy, you know, it's not a bet on the direction necessarily of US dollar at all. 100%. There are great ETFs out there that will allow you to speculate on individual currencies. If you want euro, there's one for you. If you want broad,",
+      "zh": "那你能讲讲为什么这种结构很重要，以及为什么 FOXY 根本不必然是在押注美元的方向吗？百分之百正确。市面上有很棒的 ETF，可以让你去投机单一货币。你想要欧元，有对应的产品；如果你觉得"
+    },
+    {
+      "i": 37,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "11:30",
+      "en": "if you think the dollar is broadly weakening, there's an ETF for you. Foxy is different in terms of that dollar neutrality. And that to me is important. It's hard to make money betting on the direction of currencies. You have to have enough of those ideas and you have to be right often",
+      "zh": "美元会全面走弱，也有对应的 ETF。FOXY 的不同之处就在于那种美元中性。这一点在我看来很重要。靠押注货币方向赚钱是很难的：你必须有足够多的这类判断，而且还得经常判断正确，"
+    },
+    {
+      "i": 38,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "11:49",
+      "en": "enough for it to produce high absolute returns. That's really hard. If you're really good at it, you'll earn a nickname like George Soros broke the Bank of England back in 1992 because he bet against the British pound. He thought it was at an unsustainably strong level, put on a massive bet,",
+      "zh": "足以带来很高的绝对收益。这真的很难。如果你真的特别擅长这件事，你就会赢得一个绰号——就像 George Soros 在 1992 年“击垮了英格兰银行”，因为他做空英镑。他认为英镑处在一个不可持续的强势水平上，于是下了一笔巨额赌注，"
+    },
+    {
+      "i": 39,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "12:08",
+      "en": "the bank let the pound go while at the rest of history. That's hard to do. And I've done it for portions of my career. Do we like Colombian pesos, South African Rand? Do we not like Indonesian Rupiah? So Foxy avoids doing that. And all we're saying is we don't have a view on the direction of",
+      "zh": "央行最终放弃了英镑，剩下的就是历史了。这种事很难做到。我职业生涯中有一部分时间确实在做这个：我们喜不喜欢哥伦比亚比索、南非兰特？我们是不是不喜欢印尼盾？FOXY 避免去做这种事。我们要说的只是：我们对"
+    },
+    {
+      "i": 40,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "12:26",
+      "en": "the dollar. We don't have a view on whether it's going to strengthen against any particular currency. But I do know that some of those currencies in the universe of currencies that we select from offer you a lot of carry. And some of them offer more protective properties. And that's all we're",
+      "zh": "美元的方向没有观点，也不认为它会相对某个特定货币走强。但我确实知道，在我们选取的那个货币池里，有些货币能给你提供很高的套息收益，而另一些货币则更具保护性。我们要做的全部事情，就是"
+    },
+    {
+      "i": 41,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "12:43",
+      "en": "trying to do is capture that difference. It's pretty simple. I mean, there's a lot of complex terms which is basically job security for people who do what we do that folks might not understand. But at the end of the day, that's all we're trying to do is clip that difference. Yeah, it sounds",
+      "zh": "去捕捉这个差额。其实很简单。我是说，这里面有很多复杂的术语——那基本上是我们这行人的饭碗保障——大家可能听不懂。但说到底，我们想做的就是把那个差额剪下来。嗯，听起来"
+    },
+    {
+      "i": 42,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "12:57",
+      "en": "like the lingo scares a lot of people. 100%. So I was looking at the fun. It holds a meaningful tea bill sleeve to collateralize the currency position. So how does this piece work and how does it contribute to the yield structure? Sure. So a currency forward contract, we could do this. I could",
+      "zh": "这些行话把很多人给吓到了。百分之百。那我看这只基金的时候，发现它持有相当大的一块短期国债（T-bills）仓位，用来为货币头寸做抵押。这一块是怎么运作的，它又是怎么贡献到收益结构里的？好。一份货币远期合约，我们可以这么做：我可以"
+    },
+    {
+      "i": 43,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "13:18",
+      "en": "say, OK, Brad, I will sell you or I'll buy from you Mexican pesos at a rate of 18, three months from now. You say, OK, cool. Check back in in three months. Well, in the intervening period, all I have is this, you know, an asset and a liability. I still got all of the cash in the portfolio.",
+      "zh": "说，好，Brad，三个月之后我按 18 的汇率卖给你、或者从你手里买入墨西哥比索。你说，行，很好，三个月后再见。那么在这中间的一段时间里，我手上其实只有这么个东西，你知道的，一项资产和一项负债。我组合里的现金还全都在。"
+    },
+    {
+      "i": 44,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "13:39",
+      "en": "So we take that fellow cash and we invest it in some combination of tea bills or our own cash management vehicle. That allows us to do a couple of things. One is we do have the collateral. And we can either post collateral if positions are going against us or we take in collateral from",
+      "zh": "所以我们把这笔闲置现金拿去投资，投到短期国债的某种组合里，或者我们自己的现金管理工具里。这让我们能做到几件事。第一，我们确实有了抵押品：如果头寸对我们不利，我们可以交出抵押品；如果头寸对我们有利，我们就从"
+    },
+    {
+      "i": 45,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "13:55",
+      "en": "counter parties if they're going in our favor. But secondarily, that's what we pay the monthly distribution from is the tea bill position. So if tea bills yield 4%, we're paying tea bills plus enough to get us to where we think the kind of run rate of yield in the portfolio is.",
+      "zh": "交易对手那里收取抵押品。第二，我们的月度分红就是从这个短期国债仓位里支付的。所以如果短期国债的收益率是 4%，我们付的就是短期国债的收益，再加上足够的部分，把我们推到我们认为组合收益率应有的正常运行水平（run rate）上。"
+    },
+    {
+      "i": 46,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "14:13",
+      "en": "So Foxy had a really strong first year. I don't want to bring up the performance number because compliance won't let us air the show. But what was actually driving the performance and what does that tell us about the strategy? Got it. So Foxy's a systematic strategy. Everything that we do",
+      "zh": "FOXY 的第一年表现得非常强劲。我不想提具体的业绩数字，因为一提合规就不让这期节目播出了。但究竟是什么在驱动这个业绩，这又能让我们对这套策略有什么认识？明白。FOXY 是一套系统性策略（systematic strategy），我们做的每一件事"
+    },
+    {
+      "i": 47,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "14:30",
+      "en": "is based on the output of an algorithm. And that algorithm tells you when it accounts for the volatility, the two signals that I mentioned before, the EM signal, the G10 signal. And historically, those signals have produced very attractive return. As you said, I won't get into the numbers.",
+      "zh": "都基于一个算法的输出。这个算法在把波动率考虑进去之后告诉你该怎么做，用的就是我前面提到的那两个信号：新兴市场信号和 G10 信号。而从历史上看，这些信号产生过非常有吸引力的回报。就像你说的，具体数字我就不讲了，"
+    },
+    {
+      "i": 48,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "14:49",
+      "en": "So this can end up getting posted. But we had an interesting case study in the first year because of the tariff tantrum. President Trump comes out and announces that we're going to have much higher levels of tariff to try and equalize the playing field in terms of trade balances between our trade",
+      "zh": "这样这期节目才能顺利上线。不过在第一年里，我们有一个很有意思的案例研究，源于那场关税风波（tariff tantrum）。Trump 总统站出来宣布，我们要大幅提高关税水平，试图在我们的贸易"
+    },
+    {
+      "i": 49,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "15:06",
+      "en": "partners. That is a challenge for a strategy like Foxy because as an algorithmic or systematic strategy, it looks at the past and makes some assumption that the future, even if it doesn't look exactly like the past, is going to look somewhat similar. Tariffs that basically take us back to",
+      "zh": "伙伴之间把贸易收支的竞技场拉平。这对 FOXY 这样的策略是一个挑战，因为作为一套算法化、或者说系统性的策略，它是看着过去做判断的，它会做出某种假设：未来即便不完全像过去，也会跟过去有几分相似。而基本上把我们带回"
+    },
+    {
+      "i": 50,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "15:29",
+      "en": "1930s levels of tariff levels are basically going to provide a challenge to that algorithm. So Foxy's return came primarily from the shift to a more defensive posture up to and including the period following the tariff tantrum. So we had a bit of a drawdown,",
+      "zh": "1930 年代那种关税水平的关税，本身就会对这个算法构成挑战。所以 FOXY 的回报，主要来自它转向更防御性的姿态——一直到并包括那场关税风波之后的那段时期。我们确实经历了一点回撤（drawdown），"
+    },
+    {
+      "i": 51,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "15:52",
+      "en": "but then we rallied quickly out of that. As things settle down, as we had kind of reversals on trade or if we struck agreements, Foxy continued, went back to a more risk-seeking posture. So if I look back at the first year, the returns were generated by both the G10 component",
+      "zh": "但随后我们很快就从里面反弹了出来。随着事情平息下来，随着贸易上出现某种反转、或者我们达成了协议，FOXY 就继续往前走，回到了更偏进攻的姿态。所以如果我回头看第一年，收益是由 G10 那部分"
+    },
+    {
+      "i": 52,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "16:09",
+      "en": "and the EM component. So you got the benefit of the cushion and the returns and more modest returns that that kicks off, but then you also got the benefit of the carry component embedded in the EM currencies. And so the big pitch here is, we kind of start off the episode, is Foxy's",
+      "zh": "和新兴市场那部分共同创造的。你既拿到了缓冲垫的好处，以及它所带来的相对温和的回报，也拿到了嵌在新兴市场货币里的套息部分的好处。那么，我们这期节目一开头就提到的那个核心卖点，就是 FOXY 的"
+    },
+    {
+      "i": 53,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "16:25",
+      "en": "uncorrelated returns to stocks and bonds. So in an environment where 60, 40 has largely been in question, we talked about this already, like how does Foxy actually behave alongside a core portfolio? Just a pure diversifier, like how would you sell this to an advisor as to why they",
+      "zh": "收益与股票和债券不相关。所以在一个 60/40 已经在很大程度上受到质疑的环境里——这一点我们前面已经谈过了——FOXY 实际上跟一个核心组合放在一起时表现如何？它就是一个纯粹的分散工具吗？你会怎么向一位投资顾问推销，说明他们为什么"
+    },
+    {
+      "i": 54,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "16:42",
+      "en": "need to have this in their portfolio? Yeah, I mean, so let's start away from Foxy, which is if you look at 60, 40, the thesis underpinning 60, 40 is stocks and bonds move in different directions. They don't. Correlation has flipped in the past couple of years. And so what you want,",
+      "zh": "需要在组合里配置它？嗯，我们先撇开 FOXY 来说：如果你看 60/40，支撑 60/40 的论点是股票和债券往不同的方向走。可事实并非如此，过去几年相关性已经反转了。所以你想要的，"
+    },
+    {
+      "i": 55,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "17:01",
+      "en": "ideally, are to put things in your clients' portfolios that don't do what stocks and bonds are doing. So to me, the yardstick for success in Foxy is number one, the return. Like are we, are we delivering in terms of the return objective? Number two, it's are we behaving differently",
+      "zh": "理想情况下，是往客户的组合里放进那些不会跟着股票和债券一起行动的东西。所以对我来说，衡量 FOXY 成功的标尺有两条：第一是收益，我们有没有在收益目标上兑现？第二是，我们的表现是不是不同于"
+    },
+    {
+      "i": 56,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "17:19",
+      "en": "than stocks and bonds? The correlation to a 60, 40 is about 0.4 since the inception of the fun. That to me is tremendous diversification. If you look at the correlation versus other alternatives, it's generally less than point two. In some cases, less than point one, depending on the",
+      "zh": "股票和债券？自成立以来，这只基金跟 60/40 的相关性大约是 0.4。在我看来，这是极好的分散化效果。如果你看它跟其他另类资产的相关性，一般低于 0.2，某些情况下低于 0.1，具体取决于"
+    },
+    {
+      "i": 57,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "17:37",
+      "en": "alternative you're talking about. So to me, that's earning its place. You're getting the return. You're not saying I'm going to park my portfolio, some portion of my portfolio in a less risk asset. Foxy is risky. It has volatility. It moves up and down within the context of achieving",
+      "zh": "你说的是哪一种另类资产。所以对我来说，它是靠实力赢得自己那一席之地的。你拿到了收益，而且你并不是在说“我要把组合的一部分停放在一个风险更低的资产里”。FOXY 是有风险的，它有波动率，它会在实现"
+    },
+    {
+      "i": 58,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "17:54",
+      "en": "its return objective. But that volatility manifests itself at different times or in a different direction than what you would see in just a 60, 40, either the 60 or the 40. So currency volatility, as you just mentioned, volatility is picked up quite meaningfully in 2026. We've got",
+      "zh": "自身收益目标的过程中上下起伏。但这种波动出现的时间点、或者波动的方向，跟你在一个纯粹的 60/40 里看到的——不管是那个 60 还是那个 40——是不一样的。那么，说到货币波动率，就像你刚才提到的，波动率在 2026 年明显抬升了。我们面临着"
+    },
+    {
+      "i": 59,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "18:12",
+      "en": "Fed transitions, terror activities. We've already mentioned geopolitical stress. I can't get on X or Twitter or whatever we're calling it now without someone talking about the young carry trade. Like, can you kind of talk about the currency environment as we sit here today?",
+      "zh": "Fed 的换届、各种关税举措，我们前面还提到了地缘政治的压力。我只要一打开 X——或者 Twitter，或者不管我们现在叫它什么——就总有人在谈论日元套息交易（yen carry trade）。那你能不能讲讲，就在我们今天坐在这里的当下，货币环境是什么样子？"
+    },
+    {
+      "i": 60,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "18:27",
+      "en": "Yeah, I mean, there are things that should drive currencies and there are plenty of models that you can use to gauge like, what is the, you would say fair value of a currency?",
+      "zh": "嗯，我是说，有些东西本该驱动货币走势，而且有很多模型可以用来衡量，用你的话说，一种货币的公允价值（fair value）是多少？"
+    },
+    {
+      "i": 61,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "18:40",
+      "en": "When you start introducing tariffs that impede the flow of capital and or goods into a country, when you start introducing physical barriers that prevent people from coming into a country, when you start having an external shock like oil going from 70 to 100,",
+      "zh": "可当你开始引入那些阻碍资本和／或商品流入一个国家的关税，当你开始设置阻止人们进入一个国家的实体屏障，当你遭遇像油价从 70 涨到 100 这样的外部冲击时，"
+    },
+    {
+      "i": 62,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "19:02",
+      "en": "that all kind of flies in the face of or it complicates your ability to include or account for all of those variables. So, you know, little surprise that the direction of travel in interest rates has generally been up. I mean, we've now got inflation starting to bake into numbers around the",
+      "zh": "所有这些都算是跟模型对着干，或者说会让你很难把全部这些变量都纳入进来、都算进去。所以，你知道的，利率的大方向总体往上走，一点也不奇怪。我是说，现在通胀已经开始渗透进世界各地的各项数据里，"
+    },
+    {
+      "i": 63,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "19:21",
+      "en": "world because energy is an input to everything. There are concerns, even if we had a ceasefire today and we stopped, you know, hostilities, that the price increases in hydrocarbons are going to get passed through to everything else and there are supply bottlenecks. So, that actually makes,",
+      "zh": "因为能源是一切事物的投入品。市场有这样的担忧：即便我们今天达成了停火、停止了敌对行动，碳氢化合物价格的上涨也会被传导到其他所有东西上，而且还存在供应瓶颈。所以，这实际上使得，"
+    },
+    {
+      "i": 64,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "19:43",
+      "en": "that's one of the things that has contributed to currencies being more volatile. It makes perfect sense. You know, in the same way that uncertainty around earnings would introduce volatility to stock prices. It's, you know, these are the things that drive stock prices. If they're more",
+      "zh": "这也是让货币波动更大的原因之一。这完全说得通。就像围绕盈利的不确定性会给股价带来波动一样。你知道的，这些东西才是驱动股价的因素；如果它们变得更"
+    },
+    {
+      "i": 65,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "19:58",
+      "en": "uncertain, stock prices will be more volatile. These are the things that drive currencies. If we have less visibility or less confidence in where those are headed, you will have more currency volatility. So, as we talked about, again, earlier, simplify as a whole alternatives lineup, right?",
+      "zh": "不确定，股价就会更波动。而这些东西才是驱动货币的因素。如果我们对它们将走向何方的能见度更低、信心更弱，货币波动就会更大。那么，就像我们前面聊到的，Simplify 整体的另类资产产品线，对吧？"
+    },
+    {
+      "i": 66,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "20:15",
+      "en": "You've got managed futures. You've got private credit. Now you've got currency. How do you think about, I guess, two-part question? How do you think about Foxy sitting inside the broader alternative sleeve? And do you think we're going to get more, I would say we'll call them just broadly alternative",
+      "zh": "你们有管理期货（managed futures），有私募信贷（private credit），现在又有了货币。我想这是个两部分的问题：你怎么看 FOXY 放在更大的另类资产这一块里的位置？以及，你觉得我们接下来会不会看到更多——我就笼统地称之为另类"
+    },
+    {
+      "i": 67,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "20:30",
+      "en": "strategies from the firm in the near future? Yes. Alternatives is our calling card. We have fixed income funds. We have some equity funds, but alternatives are what we lead with because it's what we're really good at. And, you know, as a nice side benefit, it's what the market is demanding.",
+      "zh": "策略吗，在不久的将来从这家公司出来？是的。另类资产是我们的招牌。我们有固定收益基金，也有一些股票基金，但我们打头阵的是另类资产，因为那是我们真正擅长的东西。而且，作为一个不错的额外好处，这也正是市场在需求的。"
+    },
+    {
+      "i": 68,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "20:50",
+      "en": "And we think there's space for what we do best in class solutions. So, wouldn't surprise me if we had some more. In terms of where Foxy fits in our alternative lineup, it doesn't look like the other alternatives. Like our managed futures fund does commodities, energy, ag, metals, etc.",
+      "zh": "我们认为，对于我们做的那种同类最佳的解决方案，市场上是有空间的。所以，如果我们再推出一些产品，我一点也不意外。至于 FOXY 在我们的另类产品线里处在什么位置——它跟其他另类资产长得不一样。比如我们的管理期货基金做的是商品：能源、农产品、金属等等，"
+    },
+    {
+      "i": 69,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "21:11",
+      "en": "does not do equity futures and it does not do currency futures. So, Foxy can be a nice compliment to that. If you look at our other alternatives, we've got, you mentioned private credit is one of them. There's no currency exposure in the private credit fund. So, even within our own lineup,",
+      "zh": "它不做股指期货，也不做货币期货。所以 FOXY 可以成为它很好的补充。如果你看我们其他的另类资产——你提到了私募信贷是其中之一——那只私募信贷基金里没有任何货币敞口。所以，即便是在我们自己的产品线内部，"
+    },
+    {
+      "i": 70,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "21:30",
+      "en": "you know, we're thinking about how to best diversify because we would like to be the one-stop shop for our clients' alternative exposures. So, Chris, I really appreciate you spending some time with me today, but I can't let you go without you telling everybody where people can learn more about",
+      "zh": "我们也在思考怎样才能最好地实现分散化，因为我们希望成为客户配置另类敞口时的一站式选择。那么 Chris，我真的很感谢你今天花时间跟我聊，但我不能就这么放你走，你得告诉大家，可以从哪里更多地了解"
+    },
+    {
+      "i": 71,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "21:45",
+      "en": "simplify and find all the information they need on Foxy. Yeah, we are always happy to hear from our clients. You can go to simplify.us. You scroll all the way to the bottom. You can send us an email. It's info at simplify.us. Our phone numbers on there. All of our funds are listed. Please check",
+      "zh": "Simplify，以及在哪里能找到关于 FOXY 的全部所需信息。是的，我们一直很乐意收到客户的来信。你可以上 simplify.us，一直往下滑到页面最底部，可以给我们发邮件，地址是 info@simplify.us。我们的电话号码也在上面。我们所有的基金都列在那里。请来看看"
+    },
+    {
+      "i": 72,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "22:01",
+      "en": "us out. All right, man. Thanks for spending some time with me today. Thank you, Brad.",
+      "zh": "我们吧。好的，兄弟。谢谢你今天花时间跟我聊。谢谢你，Brad。"
+    }
+  ]
+}
