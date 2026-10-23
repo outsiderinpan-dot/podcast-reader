@@ -1,0 +1,17 @@
+---
+// 分类跳转 chips：点击滚动到对应分类锚点。首页与节目目录页共用。
+// counts 传入 { [categoryId]: number }，展示每个分类下的节目数。
+import { CATEGORIES } from '../data/categories';
+
+interface Props { counts: Record<string, number>; }
+const { counts } = Astro.props;
+---
+<nav class="cat-chips" aria-label="按内容主题浏览">
+  {CATEGORIES.map((c) => (
+    <a class="cat-chip" href={`#cat-${c.id}`} style={`--accent:${c.accent}`}>
+      <span class="cc-dot"></span>
+      <span class="cc-label">{c.label}</span>
+      <span class="cc-count">{counts[c.id] || 0}</span>
+    </a>
+  ))}
+</nav>

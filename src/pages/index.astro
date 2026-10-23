@@ -1,56 +1,46 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import CategoryNav from '../components/CategoryNav.astro';
+import CategorySections from '../components/CategorySections.astro';
+import Timeline from '../components/Timeline.astro';
 import { SHOWS } from '../data/shows';
-import { ALL_EPISODES, episodesByShow, lengthLabel } from '../lib/episodes';
+import { CATEGORIES } from '../data/categories';
+import { ALL_EPISODES, relDays } from '../lib/episodes';
 
-const totalTurns = ALL_EPISODES.reduce((s, e) => s + (e.turn_count || 0), 0);
-const latest = ALL_EPISODES.slice(0, 8);
 const base = import.meta.env.BASE_URL;
+const totalTurns = ALL_EPISODES.reduce((s, e) => s + (e.turn_count || 0), 0);
+const latestDate = ALL_EPISODES[0]?.date;
+
+// 每个分类下的节目数（供跳转 chips 显示）
+const counts: Record<string, number> = {};
+for (const c of CATEGORIES) counts[c.id] = 0;
+for (const s of SHOWS) {
+  const id = s.category || 'other';
+  counts[id] = (counts[id] || 0) + 1;
+}
 ---
 <BaseLayout title="Podcast Reader · 播客中英精读">
   <div class="wrap-wide">
     <section class="hero">
       <h1>把三四小时的播客，读成一篇文章</h1>
-      <p>每周抓取全球优质播客的最新单集：投资类做逐句中文精读 + 英文原文对照，深度长谈类整理成值得读完的中文长文。均配官方音频与出处，个人学习研究用途。</p>
+      <p>每周抓取全球优质播客的最新单集：投资类做逐句中文精读 + 英文原文对照，深度长谈类整理成值得读完的中文长文。按内容主题分类浏览，或在下方时间线里顺着日期往下翻。</p>
       <div class="stat-row">
         <div class="stat"><b>{SHOWS.length}</b>档节目</div>
         <div class="stat"><b>{ALL_EPISODES.length}</b>篇精读</div>
         <div class="stat"><b>{totalTurns.toLocaleString()}</b>段对照</div>
-        <div class="stat"><b>每周</b>自动更新</div>
+        <div class="stat"><b>{latestDate ? relDays(latestDate) : '—'}</b>最近更新</div>
       </div>
     </section>
 
-    <h2 class="section-title">节目</h2>
-    <div class="show-grid">
-      {SHOWS.map((s) => {
-        const eps = episodesByShow(s.slug);
-        return (
-          <a class="show-card" href={`${base}shows/${s.slug}/`} style={`--accent:${s.accent}`}>
-            <span class="accent-bar"></span>
-            <h3>{s.title_zh}</h3>
-            <div class="pub">{s.publisher}</div>
-            <div class="desc">{s.description_zh}</div>
-            <div class="meta">
-              <span>{eps.length} 集</span>
-              <span>{s.content_style === 'article' ? '长文精读' : '双语对照'}</span>
-            </div>
-          </a>
-        );
-      })}
-    </div>
+    <h2 class="section-title">按主题浏览</h2>
+    <CategoryNav counts={counts} />
 
-    <h2 class="section-title">最新单集</h2>
-    <div class="ep-list">
-      {latest.map((e) => (
-        <a class="ep-row" href={`${base}ep/${e.show}/${e.slug}/`}>
-          <div class="date">{e.date}</div>
-          <div>
-            <div class="t-zh">{e.title_zh}</div>
-            <div class="t-en">{e.title_en}</div>
-          </div>
-          <div class="dur">{lengthLabel(e)}</div>
-        </a>
-      ))}
+    <CategorySections />
+
+    <div class="section-head">
+      <h2 class="section-title">全站时间线</h2>
+      <a class="section-link" href={`${base}shows/#timeline`}>完整时间线 →</a>
     </div>
+    <Timeline limit={2} />
   </div>
 </BaseLayout>

@@ -1,7 +1,9 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import { SHOWS, getShow } from '../../data/shows';
-import { episodesByShow, lengthLabel } from '../../lib/episodes';
+import Timeline from '../../components/Timeline.astro';
+import { SHOWS } from '../../data/shows';
+import { getCategory, UNCATEGORIZED } from '../../data/categories';
+import { episodesByShow, showStats, relDays } from '../../lib/episodes';
 
 export function getStaticPaths() {
   return SHOWS.map((s) => ({ params: { show: s.slug }, props: { show: s } }));
@@ -9,32 +11,35 @@ export function getStaticPaths() {
 const { show } = Astro.props;
 const eps = episodesByShow(show.slug);
 const base = import.meta.env.BASE_URL;
+const stats = showStats(show.slug);
+const cat = getCategory(show.category) || UNCATEGORIZED;
+const isArticle = show.content_style === 'article';
 ---
 <BaseLayout title={`${show.title_zh} · 全部单集`} description={show.description_zh}>
   <div class="wrap-wide">
     <section class="hero" style={`--accent:${show.accent}`}>
-      <a class="back" href={`${base}shows/`}>← 全部节目</a>
+      <a class="back" href={`${base}shows/#cat-${cat.id}`}>← {cat.label}</a>
+      <div class="ep-kicker">
+        <a class="pill" href={`${base}shows/#cat-${cat.id}`} style={`--accent:${cat.accent}`}>
+          <span class="pill-dot"></span>{cat.label}
+        </a>
+        {isArticle && <span class="tag tag-article">长文精读</span>}
+        {!isArticle && <span class="tag">双语对照</span>}
+      </div>
       <h1>{show.title_zh}</h1>
       <p>{show.description_zh}</p>
       <div class="stat-row">
-        <div class="stat"><b>{eps.length}</b>集已收录</div>
+        <div class="stat"><b>{stats.count}</b>集已收录</div>
+        <div class="stat"><b>{stats.cadence || (stats.lastDate ? relDays(stats.lastDate) : '—')}</b>{stats.cadence ? '更新频次' : '最近更新'}</div>
         <div class="stat"><b>{show.publisher}</b>出品</div>
         <div class="stat"><b><a href={show.homeUrl} target="_blank" rel="noopener">原节目 ↗</a></b></div>
       </div>
     </section>
 
-    <h2 class="section-title">全部单集（最新在前）</h2>
-    <div class="ep-list">
-      {eps.map((e) => (
-        <a class="ep-row" href={`${base}ep/${e.show}/${e.slug}/`}>
-          <div class="date">{e.date}</div>
-          <div>
-            <div class="t-zh">{e.title_zh}</div>
-            <div class="t-en">{e.title_en}</div>
-          </div>
-          <div class="dur">{lengthLabel(e)}</div>
-        </a>
-      ))}
+    <div class="section-head">
+      <h2 class="section-title">全部单集（最新在前）</h2>
+      <span class="section-note">共 {stats.count} 集</span>
     </div>
+    <Timeline episodes={eps} hideShowLabel />
   </div>
 </BaseLayout>

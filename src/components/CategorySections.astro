@@ -1,0 +1,31 @@
+---
+// 分类分区：把 SHOWS 按 category 分组，逐组渲染一个带锚点的 section。
+// 每组头部有分类名、英文副标、一句话说明、以及该组节目数。
+// 首页与节目目录页共用，保证两处分类浏览体验一致。
+import { CATEGORIES, UNCATEGORIZED, getCategory } from '../data/categories';
+import { SHOWS, type Show } from '../data/shows';
+import ShowCard from './ShowCard.astro';
+
+// 按分类顺序组织；只渲染"有节目"的分类，未匹配的归入兜底组放到最后。
+const known = new Set(CATEGORIES.map((c) => c.id));
+const ordered = [...CATEGORIES, UNCATEGORIZED];
+const groups = ordered
+  .map((c) => ({ cat: c, shows: SHOWS.filter((s: Show) => (s.category || UNCATEGORIZED.id) === c.id) }))
+  .filter((g) => g.shows.length > 0);
+const totalShows = SHOWS.length;
+---
+{groups.map(({ cat, shows }) => (
+  <section class="cat-section" id={`cat-${cat.id}`} style={`--accent:${cat.accent}`}>
+    <header class="cat-head">
+      <div class="cat-head-main">
+        <h2 class="cat-title"><span class="cat-dot"></span>{cat.label}</h2>
+        <span class="cat-en">{cat.en}</span>
+      </div>
+      <span class="cat-count">{shows.length} 档</span>
+    </header>
+    <p class="cat-blurb">{cat.blurb}</p>
+    <div class="show-grid">
+      {shows.map((s) => <ShowCard show={s} />)}
+    </div>
+  </section>
+))}

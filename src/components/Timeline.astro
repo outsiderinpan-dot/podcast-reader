@@ -1,0 +1,42 @@
+---
+// 全站时间线：按"年-月"分组，组内日期倒序。跨节目，所以每行标注所属节目（用节目主题色）。
+// limit：最多渲染多少个月份分组（首页做预览用）；不传则渲染全部。
+import { groupByMonth, lengthLabel, type Episode } from '../lib/episodes';
+import { getShow } from '../data/shows';
+
+interface Props { limit?: number; episodes?: Episode[]; hideShowLabel?: boolean; }
+const { limit, episodes, hideShowLabel = false } = Astro.props;
+const base = import.meta.env.BASE_URL;
+let groups = groupByMonth(episodes);
+if (limit && limit > 0) groups = groups.slice(0, limit);
+---
+<div class="timeline">
+  {groups.map((g) => (
+    <div class="tl-month">
+      <div class="tl-month-label">
+        <span class="tl-month-name">{g.label}</span>
+        <span class="tl-month-count">{g.items.length} 集</span>
+      </div>
+      <div class="ep-list">
+        {g.items.map((e) => {
+          const show = getShow(e.show);
+          return (
+            <a class="ep-row" href={`${base}ep/${e.show}/${e.slug}/`}>
+              <div class="date">{e.date.slice(5)}</div>
+              <div class="ep-main">
+                <div class="t-zh">{e.title_zh}</div>
+                <div class="t-en">{e.title_en}</div>
+                {!hideShowLabel && (
+                  <div class="tl-show" style={`--accent:${show?.accent || 'var(--text-faint)'}`}>
+                    <span class="tl-show-dot"></span>{show?.title_zh || e.show}
+                  </div>
+                )}
+              </div>
+              <div class="dur">{lengthLabel(e)}</div>
+            </a>
+          );
+        })}
+      </div>
+    </div>
+  ))}
+</div>

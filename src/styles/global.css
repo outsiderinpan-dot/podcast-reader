@@ -234,3 +234,92 @@ footer.site-foot { border-top:1px solid var(--border); padding: 28px 0; font-siz
 .art-resources li:last-child { border-bottom: none; }
 .art-resources .res-label { flex: 0 0 44px; font-size: 12px; color: var(--text-faint); font-weight: 600; }
 .art-resources a { color: var(--accent); }
+
+/* =========================================================
+   信息架构增强：分类导航 / 分类分区 / 节目卡徽标 / 时间线 / 药丸
+   ========================================================= */
+
+/* —— 分类跳转 chips —— */
+.cat-chips {
+  display: flex; flex-wrap: wrap; gap: 10px;
+  margin: 4px 0 8px;
+}
+.cat-chip {
+  display: inline-flex; align-items: center; gap: 8px;
+  padding: 8px 14px; border-radius: 999px;
+  border: 1px solid var(--border); background: var(--bg-card);
+  font-size: 14px; color: var(--text-soft); font-weight: 500;
+  transition: all .15s ease; box-shadow: var(--shadow);
+}
+.cat-chip:hover { border-color: var(--accent); color: var(--accent); transform: translateY(-1px); }
+.cat-chip .cc-dot { width: 9px; height: 9px; border-radius: 50%; background: var(--accent); flex-shrink: 0; }
+.cat-chip .cc-label { white-space: nowrap; }
+.cat-chip .cc-count {
+  font-size: 12px; font-variant-numeric: tabular-nums;
+  background: var(--accent-soft); color: var(--accent);
+  border-radius: 999px; padding: 1px 8px; font-weight: 700;
+}
+
+/* —— 分类分区 —— */
+.cat-section { margin-top: 46px; scroll-margin-top: 74px; }
+.cat-head { display: flex; align-items: baseline; gap: 12px; border-bottom: 2px solid var(--border); padding-bottom: 10px; }
+.cat-head-main { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
+.cat-title { font-size: 21px; margin: 0; letter-spacing: -.3px; display: flex; align-items: center; gap: 9px; }
+.cat-dot { width: 11px; height: 11px; border-radius: 3px; background: var(--accent); display: inline-block; }
+.cat-en { font-size: 12px; color: var(--text-faint); font-family: var(--font-en); text-transform: uppercase; letter-spacing: .8px; }
+.cat-count { margin-left: auto; font-size: 13px; color: var(--text-faint); font-variant-numeric: tabular-nums; white-space: nowrap; }
+.cat-blurb { font-size: 14px; color: var(--text-soft); line-height: 1.7; margin: 12px 0 18px; max-width: 720px; }
+.cat-section .show-grid { margin-top: 0; }
+
+/* —— 节目卡增强（sc-top / 徽标 / tag） —— */
+.show-card .sc-top { display: flex; align-items: flex-start; gap: 8px; margin-bottom: 4px; }
+.show-card .sc-top h3 { margin: 0; font-size: 18px; line-height: 1.35; }
+.show-card .meta { margin-top: 14px; font-size: 12px; color: var(--text-faint); display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+.show-card .sc-updated { color: var(--text-faint); font-size: 12px; }
+.tag {
+  font-size: 11px; padding: 2px 8px; border-radius: 6px; font-weight: 600;
+  background: var(--bg-soft); color: var(--text-soft); border: 1px solid var(--border);
+  white-space: nowrap;
+}
+.tag-article { background: var(--accent-soft); color: var(--accent); border-color: transparent; }
+.badge-soft { background: var(--bg-soft); color: var(--text-soft); border: 1px solid var(--border); }
+
+/* —— 分区标题行（标题 + 右侧链接/说明） —— */
+.section-head { display: flex; align-items: baseline; gap: 14px; margin: 46px 0 16px; }
+.section-head .section-title { margin: 0; }
+.section-link { margin-left: auto; font-size: 13px; color: var(--accent); font-weight: 600; white-space: nowrap; }
+.section-link:hover { text-decoration: underline; }
+.section-note { margin-left: auto; font-size: 13px; color: var(--text-faint); white-space: nowrap; }
+
+/* —— 全站时间线（按月分组） —— */
+.timeline { display: flex; flex-direction: column; gap: 8px; }
+.tl-month { position: relative; }
+.tl-month-label {
+  display: flex; align-items: baseline; gap: 10px;
+  padding: 10px 2px 8px; margin-top: 14px;
+  border-bottom: 1px solid var(--border);
+}
+.tl-month-name { font-size: 15px; font-weight: 700; color: var(--text); letter-spacing: -.2px; }
+.tl-month-count { font-size: 12px; color: var(--text-faint); font-variant-numeric: tabular-nums; }
+.tl-month:first-child .tl-month-label { margin-top: 0; }
+.ep-main { min-width: 0; }
+.tl-show { display: inline-flex; align-items: center; gap: 6px; margin-top: 6px; font-size: 12px; color: var(--accent); font-weight: 600; }
+.tl-show-dot { width: 7px; height: 7px; border-radius: 50%; background: var(--accent); display: inline-block; }
+
+/* —— 分类药丸（节目详情页顶部） —— */
+.pill {
+  display: inline-flex; align-items: center; gap: 7px;
+  padding: 5px 12px; border-radius: 999px; font-size: 13px; font-weight: 600;
+  background: var(--accent-soft); color: var(--accent);
+}
+.pill:hover { filter: brightness(1.05); }
+.pill-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--accent); display: inline-block; }
+
+@media (max-width: 640px) {
+  .cat-title { font-size: 18px; }
+  .cat-count { display: none; }
+  .section-head { flex-wrap: wrap; }
+  .section-link, .section-note { margin-left: 0; }
+  .tl-month-label { flex-wrap: wrap; }
+}
+

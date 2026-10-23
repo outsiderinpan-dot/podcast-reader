@@ -1,47 +1,34 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import CategoryNav from '../../components/CategoryNav.astro';
+import CategorySections from '../../components/CategorySections.astro';
+import Timeline from '../../components/Timeline.astro';
 import { SHOWS } from '../../data/shows';
-import { episodesByShow, lengthLabel } from '../../lib/episodes';
-const base = import.meta.env.BASE_URL;
+import { CATEGORIES } from '../../data/categories';
+import { ALL_EPISODES } from '../../lib/episodes';
+
+const counts: Record<string, number> = {};
+for (const c of CATEGORIES) counts[c.id] = 0;
+for (const s of SHOWS) {
+  const id = s.category || 'other';
+  counts[id] = (counts[id] || 0) + 1;
+}
 ---
-<BaseLayout title="全部节目 · Podcast Reader" description="收录的播客节目与全部单集">
+<BaseLayout title="全部节目 · Podcast Reader" description="收录的播客节目，按内容主题分类，附全站时间线">
   <div class="wrap-wide">
     <section class="hero">
-      <a class="back" href={base}>← 首页</a>
       <h1>全部节目</h1>
-      <p>投资类做逐句中英对照，深度长谈类整理成中文长文精读。点击节目查看该节目下的全部单集。</p>
+      <p>{SHOWS.length} 档节目按内容主题分成 {CATEGORIES.length} 类。投资类做逐句中英对照，深度长谈类整理成中文长文精读。点击节目查看该节目下的全部单集，页面底部是按月份排列的全站时间线。</p>
     </section>
 
-    <div class="show-grid">
-      {SHOWS.map((s) => {
-        const eps = episodesByShow(s.slug);
-        return (
-          <a class="show-card" href={`${base}shows/${s.slug}/`} style={`--accent:${s.accent}`}>
-            <span class="accent-bar"></span>
-            <h3>{s.title_zh}</h3>
-            <div class="pub">{s.publisher}</div>
-            <div class="desc">{s.description_zh}</div>
-            <div class="meta">
-              <span>{eps.length} 集</span>
-              <span>{s.content_style === 'article' ? '长文精读' : '双语对照'}</span>
-            </div>
-          </a>
-        );
-      })}
-    </div>
+    <CategoryNav counts={counts} />
 
-    <h2 class="section-title">全部单集（最新在前）</h2>
-    <div class="ep-list">
-      {SHOWS.flatMap((s) => episodesByShow(s.slug)).sort((a, b) => (a.date < b.date ? 1 : -1)).map((e) => (
-        <a class="ep-row" href={`${base}ep/${e.show}/${e.slug}/`}>
-          <div class="date">{e.date}</div>
-          <div>
-            <div class="t-zh">{e.title_zh}</div>
-            <div class="t-en">{e.title_en}</div>
-          </div>
-          <div class="dur">{lengthLabel(e)}</div>
-        </a>
-      ))}
+    <CategorySections />
+
+    <div class="section-head" id="timeline">
+      <h2 class="section-title">全站时间线</h2>
+      <span class="section-note">共 {ALL_EPISODES.length} 集，按月份排列，最新在前</span>
     </div>
+    <Timeline />
   </div>
 </BaseLayout>

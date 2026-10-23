@@ -1,0 +1,26 @@
+---
+// 节目卡片：首页与节目目录页共用。展示分类色、标题、出品方、简介，
+// 以及"集数 / 更新频次 / 最近更新"徽标。频次仅在 ≥2 集时出现（showStats 优雅降级）。
+import type { Show } from '../data/shows';
+import { showStats, relDays } from '../lib/episodes';
+
+interface Props { show: Show; }
+const { show } = Astro.props;
+const base = import.meta.env.BASE_URL;
+const stats = showStats(show.slug);
+const isArticle = show.content_style === 'article';
+---
+<a class="show-card" href={`${base}shows/${show.slug}/`} style={`--accent:${show.accent}`}>
+  <span class="accent-bar"></span>
+  <div class="sc-top">
+    <h3>{show.title_zh}</h3>
+    {isArticle && <span class="tag tag-article">长文精读</span>}
+  </div>
+  <div class="pub">{show.publisher}</div>
+  <div class="desc">{show.description_zh}</div>
+  <div class="meta">
+    <span class="badge">{stats.count} 集</span>
+    {stats.cadence && <span class="badge badge-soft">{stats.cadence}</span>}
+    {stats.lastDate && <span class="sc-updated">更新 {relDays(stats.lastDate)}</span>}
+  </div>
+</a>
