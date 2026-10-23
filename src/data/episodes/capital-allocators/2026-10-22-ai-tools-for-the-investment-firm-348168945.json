@@ -1,0 +1,806 @@
+{
+  "show": "capital-allocators",
+  "kind": "transcript",
+  "id": "348168945",
+  "slug": "2026-10-22-ai-tools-for-the-investment-firm-348168945",
+  "date": "2026-10-22",
+  "title_en": "AI Tools for the Investment Firm – Ben Harrison (EP.522)",
+  "title_zh": "投资公司的AI工具 —— Ben Harrison（第522期）",
+  "subtitle_zh": "Intapp 行业总裁 Ben Harrison 谈公司级AI（firm AI）、智能体工作流如何重塑私募资本的寻源、募资与交易生命周期管理，以及治理与安全的重要性。",
+  "description": "AI Tools for the Investment Firm – Ben Harrison (EP.522)",
+  "duration": "39:56",
+  "duration_seconds": 2396,
+  "episode_url": "https://www.iheart.com/podcast/256-capital-allocators-inside-30949151/episode/ai-tools-for-the-investment-firm-ben-harrison-ep-522-348168945",
+  "audio_url": "https://traffic.libsyn.com/secure/tedseides/CA_-_EP.522_Intapp_Sponsored_Ben_Harrison_-_AUDIO_V1.mp3?dest-id=482814&source=iheart",
+  "speakers": {
+    "1": "Ted Seides（主持）",
+    "2": "Ben Harrison"
+  },
+  "turn_count": 98,
+  "turns": [
+    {
+      "i": 0,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "00:00",
+      "en": "This is a big question. It's in the news, daily or weekly. You're starting to watch the big public firms at least hold constant new analysts and associate classes, maybe trim them some. The addressable market question of replacing human capital inside of these firms is a trick you want. You get on either sides of this debate.",
+      "zh": "这是个大问题，几乎每天每周都上新闻。你会开始看到那些大型上市公司，至少把新招的分析师和 Associate 班级规模维持不变，甚至可能削减一些。至于用“替代公司内部人力资本”来估算可服务市场（addressable market），这是个棘手的问题，人们在这场辩论的两端各执一词。"
+    },
+    {
+      "i": 1,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "00:32",
+      "en": "On the future of the investment professional itself, I'm not sure how it stands on it. Knowing that it took me days and weeks to build models and decks, being able to do that now in hours. Man, he's still got a digested and iterated. It's not perfect. There's going to be some major margin pickup in the junior ranks that we've been using",
+      "zh": "至于投资专业人士本身的未来，我还说不准自己持什么立场。想当年我搭建模型和演示材料要花好几天甚至好几周，而现在几小时就能搞定。当然，成果还得人去消化和迭代，并不完美。在我们一直用来"
+    },
+    {
+      "i": 2,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "00:55",
+      "en": "in these industries to process data and information. We've got a lot of clients who have AI agents sitting in an investment committee to see what it can do and to see what recommendations it makes. Is the investment committee going to be an AI agent? I don't think so. But are they going to use it to help for sure?",
+      "zh": "在这些行业里处理数据和信息的初级岗位上，利润率会有大幅提升。我们有很多客户让AI智能体（AI agent）坐在投资委员会里，看它能做什么、会给出什么建议。投资委员会将来会变成一个AI智能体吗？我不这么认为。但他们肯定会用它来辅助。"
+    },
+    {
+      "i": 3,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "01:18",
+      "en": "I'm Ted Sides, and this is Capital Allicators. I guess on today's show is Ben Harrison, president of industries at INTAP, the leading provider of software solutions to professional and financial services firms. Ben first joined me three years ago to discuss deal cloud in TAP's platform serving the private capital community.",
+      "zh": "我是 Ted Seides，这里是 Capital Allocators。今天节目的嘉宾是 Ben Harrison，他是 Intapp 的行业总裁（president of industries）；Intapp 是面向专业服务和金融服务公司的领先软件解决方案提供商。Ben 三年前第一次来做客，当时我们聊的是 DealCloud——Intapp 服务私募资本群体的平台。"
+    },
+    {
+      "i": 4,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "01:42",
+      "en": "Since then, INTAP has nearly tripled in size and the rapid development of AI has created an entirely new opportunity for the business. Our conversation explores what Ben calls firm AI, moving beyond using AI to conduct research, build models or create presentations, to deploying agents that draw on a firm's institutional memory",
+      "zh": "从那以后，Intapp 的规模几乎增长了两倍，而AI的迅猛发展也为这项业务创造了全新的机会。我们的对话探讨了 Ben 所称的公司级AI（firm AI）——不只是用AI来做研究、搭模型或做演示材料，而是部署能够调用一家公司机构记忆的智能体，"
+    },
+    {
+      "i": 5,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "02:03",
+      "en": "and execute its workflows. We discuss how AI is changing sourcing in origination, fundraising, deal lifecycle management, and staffing of investment firms. We also cover the critical importance of governance and security, lessons from the combination of deal cloud and INTAP and Ben's perspective on the next leg of growth for the business.",
+      "zh": "并执行公司的工作流。我们讨论了AI如何改变项目寻源与开发、募资、交易生命周期管理，以及投资公司的用人配置。我们还谈到了治理与安全的极端重要性、DealCloud 与 Intapp 合并带来的经验，以及 Ben 对业务下一段增长的看法。"
+    },
+    {
+      "i": 6,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "02:23",
+      "en": "Before we get going, you're on a plane headed to an annual meeting. And this time of year, you're definitely on a plane headed to an annual meeting. With all the travel in front of you, it's a very busy time, so I'll keep this particularly short. Before you dose off in the thin air of the cabin,",
+      "zh": "正式开始之前——此刻你多半正坐在飞往某个年会的飞机上，而这个时节，你八成就是在赶年会的路上。前面还有那么多行程，这是段非常忙碌的日子，所以我就长话短说。趁你还没在机舱稀薄的空气里打盹，"
+    },
+    {
+      "i": 7,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "02:40",
+      "en": "that's a great time to let the soothing sounds of Capital Allicators fill your ears. And when you find yourself at a cocktail party at one of those meetings in that uncomfortable moment, where you're not sure who to talk to or what to say, that's a fantastic time to tell them about the Capital Allicators podcast.",
+      "zh": "那正好是让 Capital Allocators 舒缓的声音充盈你双耳的好时机。而当你在这些会议的鸡尾酒会上，遇到那种不知道该跟谁聊、该说什么的尴尬时刻，那也正是向别人安利 Capital Allocators 播客的绝佳时机。"
+    },
+    {
+      "i": 8,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "02:57",
+      "en": "It's a nice breaker that's the gift that keeps on giving. Since you're an event, if you've come to one of ours, that's a great time to tell someone you think highly of about our Capital Allicators summits. Because if you know, you know. Thanks so much for spreading the word. Please enjoy my conversation with Ben Harrison.",
+      "zh": "这是个不错的破冰话题，而且是那种能不断带来惊喜的礼物。既然你人在活动现场——如果你来过我们办的活动——那正是向你欣赏的人推荐我们 Capital Allocators 峰会的好时机。懂的都懂。非常感谢你帮忙口口相传。请欣赏我与 Ben Harrison 的对话。"
+    },
+    {
+      "i": 9,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "03:19",
+      "en": "Ben, great to see you. Thanks for having me. It's exciting to be here. Why don't we start with reiterating the core value proposition of Intapp. The company's Palo Alto based started with a data integration appliance product for law firms 25 years ago. Over the years, the business was built with a series of software and capabilities",
+      "zh": "Ben，很高兴见到你。谢谢你邀请我，能来这里我很兴奋。我们不妨先重申一下 Intapp 的核心价值主张。这家公司总部在帕洛阿尔托（Palo Alto），25年前起步时做的是一款面向律所的数据集成设备产品。多年来，这项业务是靠一系列软件和能力建立起来的，"
+    },
+    {
+      "i": 10,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "03:43",
+      "en": "that helped law firms run and operate their business. Manage new client intake, new matter intake, manage the conflicts, procedure eight and a half years ago, we merged Deal Cloud into Intapp and that has formed our growth platform. It's a tool to help you prospect, source and originate new business. We've got a full CRM capability",
+      "zh": "帮助律所运营和管理业务：管理新客户受理、新事项受理，管理利益冲突流程。八年半前，我们把 DealCloud 并入 Intapp，这构成了我们的增长平台。它是一款帮助你发掘潜在客户、寻源并开发新业务的工具。我们平台里有完整的客户关系管理（CRM）能力，"
+    },
+    {
+      "i": 11,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "04:11",
+      "en": "inside of that platform. Thousands of clients later, we built some expertise across the risk area, the profitability area, and the growth area of the firm. Compared to when you guys came on the show three years ago, you already had a pre-significant presence in the private equity community with the Legacy Deal Cloud business.",
+      "zh": "就在这个平台内部。服务了数千家客户之后，我们在公司的风险领域、盈利领域和增长领域都积累了专长。和三年前你们上节目时相比，当时你们凭借原有的 DealCloud 业务，已经在私募股权圈有了相当可观的存在感。"
+    },
+    {
+      "i": 12,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "04:31",
+      "en": "What's changed in the last couple of years? A lot of the company's growth has been taking care of our existing clients and growing with them on top of our core platforms. We have thousands of firms using that platform today. The biggest difference is the size and the scale of the company. We've been growing consistently",
+      "zh": "过去这几年有什么变化？公司的很多增长，来自在核心平台之上服务好现有客户、并随他们一起成长。今天有数千家公司在用这个平台。最大的不同在于公司的体量和规模。过去几年我们一直在稳定增长，"
+    },
+    {
+      "i": 13,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "04:54",
+      "en": "over the past few years. We've been growing profitably with about $600 million business today as compared to about four or five years ago. The IPO was almost a $200 million company. There's been huge moves over the past few years from cloud to SaaS, to vertical SaaS, to AI, to vertical AI. The company has been steady.",
+      "zh": "而且是盈利性增长。今天这已是一门约6亿美元的业务，而四五年前我们IPO时，公司体量还接近2亿美元。过去几年行业发生了巨大变迁：从云，到软件即服务（SaaS），到垂直SaaS，再到AI，再到垂直AI。而公司一直很稳健。"
+    },
+    {
+      "i": 14,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "05:18",
+      "en": "The markets are changing pretty rapidly. What our clients do during the day, the type of solutions that they're looking for, the ways that they're looking to run their firm, and the ways that they're looking to support the professionals who work inside of those organizations is rapidly developing. The past two years have been",
+      "zh": "市场变化相当快。客户日常做什么、他们在找什么类型的解决方案、他们希望怎样运营公司、希望怎样支持公司里的专业人士——这些都在快速演变。而过去两年，是"
+    },
+    {
+      "i": 15,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "05:36",
+      "en": "the most rapid pace of change with the introduction of these frontier models. We're almost repositioning our entire stack in all of our products to the AI native solutions. As you look at that change as a technology provider from the SaaS-based to AI, what are you doing today with AI that you're delivering to your clients?",
+      "zh": "随着这些前沿模型（frontier models）的问世，变化最快的时期。我们几乎在把所有产品的整套技术栈重新定位为AI原生解决方案。作为一家技术提供商，面对从基于SaaS到AI的这一转变，你今天在用AI为客户交付些什么？"
+    },
+    {
+      "i": 16,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "06:01",
+      "en": "They have been using our technology and our products to run their organizations for decades. The way that they use those products now have completely changed. The level of automation that we've been able to introduce with agent to AI is incredible. When you see software executing and moving through organizations",
+      "zh": "几十年来，客户一直在用我们的技术和产品来运营他们的组织。而如今他们使用这些产品的方式已经彻底改变。我们借助代理式AI（agentic AI）所能引入的自动化程度令人惊叹。当你看到软件在组织内部自动执行、自动流转，"
+    },
+    {
+      "i": 17,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "06:23",
+      "en": "without manual intervention, it's amazing. We've all enjoyed the back and forth of GPT and cloud and the question answer format when you take the power of those models, they start to deploy them through agent workflows in the organization. The level of speed and the efficiency that you can drive and supporting the broader company",
+      "zh": "无需人工干预，那真的很神奇。我们都体验过 GPT、Claude 那种一问一答的来回互动；而当你把这些模型的能力，通过智能体工作流部署到组织里时，你在支撑整个公司运转上所能带来的速度和效率，"
+    },
+    {
+      "i": 18,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "06:44",
+      "en": "is material. We've been at that concept pre-AI as well. If you look at the original goals of the products, it was to help you run your company and to help you do it better. No matter the platform or the solution, it was to help you harness and manage data to use that to make better decisions and enable your team.",
+      "zh": "是相当可观的。其实在AI出现之前，我们就已经在践行这个理念了。如果你看看这些产品最初的目标，就是帮助你运营公司、并帮你运营得更好。无论哪个平台或解决方案，都是帮你驾驭和管理数据，用数据做出更好的决策，并赋能你的团队。"
+    },
+    {
+      "i": 19,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "07:04",
+      "en": "That's what we've been doing with our risk and probability and growth platforms for a long time. We were introducing automation into those products from the beginning. We have workflow engines that would run automatically if something happened. We were also auto-updating data. I'll never forget the first Thompson OneBanker add-in",
+      "zh": "长久以来，这正是我们在风险、盈利和增长平台上一直在做的事。从一开始，我们就在往这些产品里引入自动化。我们有工作流引擎，一旦触发某个条件就会自动运行。我们还会自动更新数据。我永远不会忘记第一款 Thomson One Banker 插件，"
+    },
+    {
+      "i": 20,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "07:25",
+      "en": "for the analysts and the Kappa IQ sync. The Pitchbook connector when it came out, we were using API and calls to automate data. That was a huge lift and value driver because it took some of the manual work out of using software. Most recently, we've been automating proprietary data of the firm. Your systems, whether it's outlook or email",
+      "zh": "面向分析师的那款，还有 CapIQ 同步功能。PitchBook 连接器推出时，我们就在用API调用来自动化数据。那是个巨大的价值驱动因素，因为它把使用软件时的一部分手工活儿给消掉了。最近，我们一直在自动化公司自身的专有数据——你的各种系统，无论是 Outlook、电子邮件，"
+    },
+    {
+      "i": 21,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "07:49",
+      "en": "or your internal databases, other software products, workday SAP, anything you use to manage. The business can be full of data. If we can sync that data and auto-update that data, move it back and forth without users of the software having to touch it, you get a big pick-up. The most recent one was that Rell Intel capability",
+      "zh": "还是你的内部数据库、其他软件产品、Workday、SAP，任何你用来管理业务的东西，都可能装满了数据。如果我们能同步这些数据、自动更新，让它们来回流转而软件用户无需手动触碰，效率就会大幅提升。最近的一项是那个关系智能能力，"
+    },
+    {
+      "i": 22,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "08:09",
+      "en": "where you automated the relationship intelligence of your firm. Ted and his Ben, Ben Asdeb, this how much we talked, this how much we emailed back and forth. Our partners at the organization can see that relationship. They can mind that, use that to the benefit of their coverage of the client. What happened in the last 18 to 24 months",
+      "zh": "它把你公司里的人际关系智能自动化了。比如 Ted 和 Ben 这样的两个人，我们聊了多少、来回发了多少邮件，公司里的合伙人就能看到这段关系。他们可以挖掘并利用这些信息，来更好地维护对该客户的覆盖。而过去18到24个月里发生的，"
+    },
+    {
+      "i": 23,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "08:27",
+      "en": "with the agentic automation is the biggest step we've ever had in the ability to take the software and run it autonomously for the organization. Today, this super complex work flows the deal lifecycle management, fundraising and LP management, each of the different areas of the business that have a procedure behind it. We can drive speed",
+      "zh": "就是代理式自动化，这是我们有史以来在“让软件为组织自主运行”这一能力上迈出的最大一步。如今，面对那些超级复杂的工作流——交易生命周期管理、募资与有限合伙人（LP）管理，以及业务中每一个背后都有既定流程的环节——我们都能带来速度"
+    },
+    {
+      "i": 24,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "08:55",
+      "en": "and efficiency at a level that we haven't seen before. We're pumped up because we've spent a long time building the client base, building the distribution through thousands of firms. We think the software with the agentic AI is more valuable than ever before. When you go to update an existing client or you're pitching a new client",
+      "zh": "和前所未有的效率。我们为此很振奋，因为我们花了很长时间建立客户群、通过数千家公司构建分销网络。我们认为，搭载代理式AI的软件比以往任何时候都更有价值。当你去给现有客户做升级、或者向新客户推介时，"
+    },
+    {
+      "i": 25,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "09:17",
+      "en": "with the agentic software that you're using, what's an example of some of that work flow that gives someone a total wow when they see it. There's an important distinction about in-tap, deal cloud, our platform and what it does. If you want to create a pitch deck today, if you want to analyze earnings, if you want to assess a transcript,",
+      "zh": "用你这套代理式软件，有没有哪个工作流的例子，是别人一看到就会“哇”一声惊叹的？关于 Intapp、DealCloud、我们的平台以及它到底做什么，有个重要的区分。如果你今天想做一份路演材料、想分析财报、想评估一份电话会议记录，"
+    },
+    {
+      "i": 26,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "09:44",
+      "en": "if you want to come up with an idea for a company, if you want to build an LBO model, the research-oriented tasks, a lot of that today is being led by frontier models. Going to cloud, take this transcript, take this earnings release, help me, come up with a two-page deck, do my analyst research, we think that's incredible. Where our",
+      "zh": "想为某家公司构思一个投资点子、想搭一个杠杆收购模型（LBO model），这些偏研究型的任务，如今很多都是由前沿模型在主导。你去用 Claude，把这份会议记录、这份财报丢给它，让它帮你做出一份两页的材料、帮你完成分析师研究——我们认为这已经非常了不起。而我们的"
+    },
+    {
+      "i": 27,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "10:03",
+      "en": "agentic AI lives inside of these organizations is on the execution of the firm's procedure. By that, let's say we have a long term LP investor in our fund, or we spent five years getting to know the management team of this company that we want to invest in. Usually, the history in the memory of the firm sits in a database,",
+      "zh": "代理式AI在这些组织里真正的用武之地，是在于执行公司的既定流程。举个例子，假设我们基金里有一位长期LP投资人，或者我们花了五年时间去了解一家我们想投资的公司的管理团队。通常，公司的这些历史与记忆都存放在某个数据库里，"
+    },
+    {
+      "i": 28,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "10:28",
+      "en": "some type of structured data documents inside of the organization. Oftentimes, that's in our systems. If I'm going to go approach a client, pitch a new fund, try and convince them to take our capital, or partner with us and do a deal. If you can have AI draw on the entire history and knowledge of the firm, everything you've ever done,",
+      "zh": "是组织内部某种结构化的数据和文档。很多时候，这些就在我们的系统里。如果我要去接触一个客户、推介一只新基金、说服他们接受我们的资本，或者与我们合作做一笔交易——如果你能让AI调用公司的全部历史和知识、你曾做过的一切，"
+    },
+    {
+      "i": 29,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "10:51",
+      "en": "surrounding that company and the management team, you have a specific way that private equity firm X takes your plan, your strategy, your operating model, your pitch against that criteria. You're matching those things together and AI output of that is influencing the way that you pursue the situation that you source",
+      "zh": "也就是围绕那家公司和管理团队的所有信息；同时，私募股权公司X有它自己的一套标准，用来衡量你的计划、策略、运营模型和推介。你把这些东西相互匹配，AI据此产出的结果，会影响你去推进这个项目的方式——无论是寻源"
+    },
+    {
+      "i": 30,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "11:14",
+      "en": "or originate that you manage the relationship. That's what we're calling firm AI. The ability to draw on the institutional memory of the firm and the ability to use the past, the history, documents, the outputs, everything that surrounds that company so that you can be better in that next conversation or in that next pitch.",
+      "zh": "还是开发项目、还是维护关系。这就是我们所说的公司级AI：调用公司机构记忆的能力，以及利用过去、历史、文档、产出——围绕那家公司的一切——的能力，好让你在下一场对话或下一次推介中表现得更好。"
+    },
+    {
+      "i": 31,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "11:39",
+      "en": "You've got the frontier models and there's a ton of firms out there that are automating the work, automating an analyst model. It's amazing because many of us were analysts. That certainly was. I did the wee hours of the morning, the idea that you don't step all night is awesome. We're taking that one level further",
+      "zh": "你有前沿模型，外面还有一大堆公司在把工作自动化、把分析师的活儿自动化。这很了不起，因为我们很多人当年都是分析师。我确实干过，熬到凌晨——一想到你再也不用通宵熬夜，那感觉太棒了。而我们要把这件事再往前推一层，"
+    },
+    {
+      "i": 32,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "11:56",
+      "en": "into the firm's procedure to help the firm run and manage the business specifically. How different does that look from a longstanding existing client where you've been housing all of this information and someone you're onboarding for the first time? We feel fortunate to have the 20 plus years under our belt because what happened",
+      "zh": "深入到公司的具体流程里，帮助公司运营和管理业务。那么，对一个你们已经托管了所有这些信息的老客户，和对一个第一次上手的新客户，情况有多大不同？我们很庆幸自己已经有20多年的积累，因为在那段时间里发生的，"
+    },
+    {
+      "i": 33,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "12:20",
+      "en": "in that timeframe was our clients taught us how their organizations run. We work with 10 of the top 10 private equity firms, 10 of the top 10 private credit firms, 9 of the top 10 secondary firms, and we have a deep appreciation for the level of complexity of fundraising, the investment in deal lifecycle management process,",
+      "zh": "是我们的客户教会了我们他们的组织如何运转。我们与排名前10的私募股权公司中的10家、排名前10的私募信贷公司中的10家、排名前10的二级市场公司中的9家都有合作，因此我们对募资、投资与交易生命周期管理流程的复杂程度有很深的体会，"
+    },
+    {
+      "i": 34,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "12:42",
+      "en": "of running those portfolio companies, once your post acquisition, trying to drive value, the exit as well. That level of fluency has made its way into our software procedure. These businesses over the years have gotten big, they've gotten complex to run. We were putting the procedure in with the software to run and scale as businesses.",
+      "zh": "也包括收购之后如何运营那些组合公司、如何驱动价值，以及退出环节。这种娴熟的理解已经融入我们的软件流程之中。这些年来，这些业务越做越大、运营也越来越复杂。我们把流程连同软件一起植入，让这些业务能够运营并规模化。"
+    },
+    {
+      "i": 35,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "13:08",
+      "en": "It is that procedure a context-aware, agent, AI, agent can run through, learn, process and automate where you can get incredible outcome. For the existing clients, we have done that in space. You spend years working together, you spend years refining the deployments, making them better and better and higher value for each firm.",
+      "zh": "正是这套流程，让一个具备上下文感知能力的AI智能体能够贯穿其中，去学习、处理并自动化，从而带来惊人的成果。对现有客户，我们已经在这么做了。你花多年时间与他们协作，花多年时间打磨部署方案，让它对每家公司都越来越好、价值越来越高。"
+    },
+    {
+      "i": 36,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "13:32",
+      "en": "For the new client, maybe that's just a new firm and they haven't built it yet. There's never been a better time to make the technology investment, because it's never been more valuable. It's never been easier. Instead of maintaining software API or data integrations in the previous era of automation, we're doing it in the AI era,",
+      "zh": "对新客户来说，也许那是家新公司，还没搭建起这些。但从来没有比现在更好的时机去做这项技术投资了，因为它从来没有像现在这样有价值，也从来没有这样容易。以往那个自动化时代，你得去维护软件API或数据集成；而如今我们在AI时代做这件事，"
+    },
+    {
+      "i": 37,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "13:56",
+      "en": "and that is so much easier than it was a couple years ago. It's fun for the new clients as a whole new day. What are the differences between a firm that fully embraces everything that's possible in your work with them and another one that isn't at that leading edge? The most common variable between the firms that push the envelope,",
+      "zh": "这比几年前容易太多了。对新客户来说，这是一片全新天地，很有意思。那么，一家在与你合作中充分拥抱一切可能性的公司，和一家并不处在最前沿的公司，两者之间有什么区别？在那些敢于突破极限、"
+    },
+    {
+      "i": 38,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "14:24",
+      "en": "invest the most, do it the fastest, and become the earliest of doctors. There's a clear correlation between big enterprises that have the internal technical capacity to do it. When we look at our client base, we look at the transition into each end to AI capability, the largest organizations on the planet that are the most competitive",
+      "zh": "投入最多、做得最快、成为最早一批采用者的公司之间，有个共同变量：它们往往与那些具备内部技术能力的大型企业高度相关。当我们审视自己的客户群、审视向AI原生能力的转型时，会发现这个星球上最大、最有竞争力、"
+    },
+    {
+      "i": 39,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "14:52",
+      "en": "that tend to grow the fastest and have the greatest resource. Those are the ones we're seeing go first on our systems today. There's also new ones that get influenced that you have some firms that are technologically inclined even if they're a small firm. They're running through the openings too. It's not just a difference",
+      "zh": "增长最快、资源最雄厚的那些组织，正是我们如今看到率先在系统上行动的一批。也有一些新的公司受到影响；还有些公司即便规模小，但在技术上很有倾向性，它们也在快速跟进。所以这并不仅仅是大公司和小公司之间的区别，"
+    },
+    {
+      "i": 40,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "15:20",
+      "en": "between big and small. It's on that technology life cycle curve where you've got the early adopters and we'll cross the chasm quickly. This cycle goes a lot faster than the last couple. If you are trying to look horizontally below the top firms, maybe it's in the large swath of the middle market, trying to figure out which ones are",
+      "zh": "而是体现在技术生命周期曲线上：有早期采用者，然后很快跨越鸿沟（crossing the chasm）。这一轮周期比前几轮快得多。如果你想横向去看头部公司以下的广阔市场，比如中间市场那一大片，想弄清楚其中哪些公司"
+    },
+    {
+      "i": 41,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "15:50",
+      "en": "more technologically savvy, which ones might not be? What types of questions would you suggest if you're trying to have thousands of middle market clients organizations with 20 to 200 people? The technology investors, the TNT investors, a lot of times the aerospace and defense and some of the industrial investors typically there's a heavy",
+      "zh": "在技术上更懂行、哪些可能不太懂？如果你面对的是数千家中间市场客户——都是20到200人规模的组织——你会建议问哪些类型的问题？科技类投资人、IT类投资人，很多时候还有航空航天与国防、以及一些工业领域的投资人，通常他们在运营和管理组合公司时，"
+    },
+    {
+      "i": 42,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "16:20",
+      "en": "underlying technology component to running and managing the portfolio companies they're proactive in the way that they run and manage a portfolio company to be the latest and greatest spot from a tech perspective and they're proactive to do it for their firm as well. Some of the more traditional industries that don't require",
+      "zh": "背后都有很重的技术成分。他们在运营和管理组合公司上很主动，力求在技术角度处于最新、最前沿的位置；他们也同样主动地把这一点用到自己的公司上。而一些更传统的行业，运营这类业务并不需要"
+    },
+    {
+      "i": 43,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "16:42",
+      "en": "the same level of technology expertise to run those businesses are the areas where they're probably a little bit later adopters. Everything that you see from all these clients and the data what are some of the trends that you can see in how private equity firms are sourcing deals through the work and the data that you collect?",
+      "zh": "同等程度的技术专长，这些领域可能就是采用得稍晚一些的地方。从你接触的所有这些客户、以及你们收集的数据来看，你能观察到哪些趋势——尤其是私募股权公司如何通过你们的业务和数据来寻源交易？"
+    },
+    {
+      "i": 44,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "17:10",
+      "en": "On the sourcing or origination side it has become incredibly fast and a heck of a lot easier to map the market and develop the hit list and develop strategies against those particular assets. The best firms that are doing aggressive sourcing origination with the data oriented foundation are starting with global publicly available data",
+      "zh": "在寻源或项目开发这一端，如今绘制市场地图、拟定目标清单、并针对特定资产制定策略，已经变得极快、也轻松太多了。那些以数据为根基、激进做寻源和项目开发的顶尖公司，会从全球公开可得的数据入手，"
+    },
+    {
+      "i": 45,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "17:40",
+      "en": "they're adding on the proprietary third party market fees everything they can get their hands on usually there's some type of proprietary calling effort and proprietary relationships and all their proprietary data that exist nowhere else. You bring those three big pieces together on a systematic basis across thousands of assets",
+      "zh": "再叠加专有的第三方市场数据源——凡是能拿到的都用上；通常还会有某种自有的电话触达、自有的关系网络，以及别处根本不存在的自有专有数据。当你把这三大块系统化地整合起来、覆盖数千项资产，"
+    },
+    {
+      "i": 46,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "18:06",
+      "en": "and that forms a foundation from which the firm wants to develop a pipeline of opportunities that they're going to try and put money to work against. That's exactly what you can build playbooks and agentic co-workers that can ingest all of that and pursue across all of those assets I'm on the industrial team I want the top 10 assets",
+      "zh": "就形成了一个基础，公司可以据此建立起一条机会管道，去尝试投入资金。而这恰恰是你能够搭建行动手册（playbook）和代理式“数字同事”（agentic co-worker）的地方——它们能把所有这些资料吸收进来，并在所有资产中去追踪推进。比如“我在工业团队，我想要那10项"
+    },
+    {
+      "i": 47,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "18:36",
+      "en": "with the highest growth rates with the most likelihood to trade in the next couple of years that we believe are positioned against these five economics and the management team we have agents and co-workers helping develop the ideas based on each level and layer of that data it's the secondary tertiary layer of that data",
+      "zh": "增长率最高、未来几年最有可能被出售、且我们认为符合这五项经济特征和管理团队标准的资产”。我们会有智能体和数字同事，基于数据的每一个层级和维度来帮助形成投资点子。正是这些数据里的第二层、第三层信息，"
+    },
+    {
+      "i": 48,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "19:00",
+      "en": "that form some of the most thoughtful and thorough source and origination techniques When you have the potential to bring all this together to dramatically increase the efficiency and the efficacy where are some of the private equity firms furthest behind in their workflows I don't think they're behind in the workflows",
+      "zh": "才构成了最深思熟虑、最周全的寻源与项目开发方法。既然有潜力把这一切整合起来、大幅提升效率和成效，那么一些私募股权公司在哪些工作流上最落后？我倒不觉得他们在工作流上落后。"
+    },
+    {
+      "i": 49,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "19:24",
+      "en": "if we go through the top 10 or 20 of them the main workflows we're going to start with fundraising how do I originate my LP base how do I form a pipeline of everybody who's going to invest in the fund what's my track record how will my benchmarks internally and other managers do they have my materials are we in a diligence procedure",
+      "zh": "如果我们把排名前10或前20的公司过一遍，主要的工作流，先从募资说起：我如何开发我的LP群体？我如何形成一条涵盖所有可能投资这只基金的人的管道？我的过往业绩如何？我对标内部和其他管理人时表现怎样？他们有没有拿到我的材料？我们是否进入了尽调流程？"
+    },
+    {
+      "i": 50,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "19:48",
+      "en": "with the pitch books and the perspectives and the DDQs are they committed how are we going to onboard the new LP what's the procedure for the LPA and the subscription docs fundraising workflow 20 steps to it then you get into the investing cycle your diligence in the data room and the market studies then you're going to get to",
+      "zh": "包括路演材料、观点和尽职调查问卷（DDQ）；他们承诺出资了吗？我们要如何为新的LP办理入伙？有限合伙协议（LPA）和认购文件的流程是怎样的？募资工作流大概有20个步骤。接着你进入投资周期：在数据室里做尽调、做市场研究，然后你会走到"
+    },
+    {
+      "i": 51,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "20:16",
+      "en": "documentation across deal docs stock purchase agreements there's going to be a procedure for closing the deal and calling the capital and wiring the funds everybody has those today does exist at worst there's going to be a long run systems and capability normal operating procedure for a company and a traditional industry",
+      "zh": "文档环节——交易文件、股权购买协议等等；交割交易、调用资本、汇划资金都会有一套流程。今天每个人手上都有这些。哪怕最糟糕的情况下，也会有一套长期运行的系统和能力。一家传统行业公司的正常运营流程，"
+    },
+    {
+      "i": 52,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "20:50",
+      "en": "I'm going to manufacture something I'm going to sell something I'm going to use thousands of sales people and high velocity sales motions to sell thousands of widgets to a buyer screws the procedure of running the asset technology providers out there who spent the last two or three decades studying that we believe that we're one of them",
+      "zh": "比如“我要生产某种东西、我要卖某种东西，我要动用成千上万名销售人员、用高频的销售动作，把成千上万件小商品卖给买家”——运营这项资产也有一套流程。市面上有些技术提供商，过去二三十年一直在研究这些流程，我们相信我们就是其中之一。"
+    },
+    {
+      "i": 53,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "21:16",
+      "en": "whether a firm today is running Excel or email or they've got a deal called deployment across every fundraising strategy we can still come in deploy those agent work flows inside of the organization they can execute efficiently they can execute it with a small token spend instead of asking AI to go figure it out",
+      "zh": "无论今天一家公司还在用 Excel 或电子邮件，还是已经在每一种募资策略上都部署了 DealCloud，我们都能进来，把那些智能体工作流部署到组织内部。它们可以高效执行，而且能以很小的 token 开销来执行，而不是让AI自己去摸索，"
+    },
+    {
+      "i": 54,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "21:44",
+      "en": "it doesn't have to go into deal cloud it doesn't have to go into Intep it can go into other technology solutions as well and run that procedure if you haven't done all the work it's not like you get a free pass but putting that infrastructure pipeline tide what are some of the holes that you see get filled when someone starts to work",
+      "zh": "它不一定非得放进 DealCloud、不一定非得放进 Intapp，也可以放进其他技术解决方案，去运行那套流程。当然，如果你没把该做的功课做全，并不会因此就免过关；但把这套基础设施和管道搭好之后，当有人开始"
+    },
+    {
+      "i": 55,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "22:10",
+      "en": "with you that hadn't previously the first is capturing the data and the information of the existing LP in a way that you can service them well ingesting the data around the relationship of the firm everything that's been shared with them and new fund formation source and origination capital for the next fund and the strategy for who to go",
+      "zh": "与你合作、补上了以前没填的空白时——你看到有哪些空白被填补了？第一个，是以一种能让你好好服务现有LP的方式，去捕捉他们的数据和信息，把围绕公司这段关系的一切、所有曾分享过的内容都吸收进来。还有新基金的组建：为下一只基金寻源、开发资本，以及确定该去找谁的策略。"
+    },
+    {
+      "i": 56,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "22:40",
+      "en": "to leveraging AI to give you that plan there's intuition and you've got the relationship you're going to know who to go to first but if you're hustling trying to fill out a fund we're seeing AI recommendation on where to go with the highest probability integrations with market leading firms in around the LP and institutional LP side",
+      "zh": "以及利用AI来给你出这套计划。这里面有直觉的成分，你也自有关系网络，你会知道该先去找谁；但如果你正忙着要把一只基金募满，我们看到AI能推荐最有可能成功的出击方向。还有与LP端、机构LP端市场领先者的集成，"
+    },
+    {
+      "i": 57,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "23:06",
+      "en": "prequins an important partnership for us there and has been a leader in that space working with this fundraising team when you get into the procedure of the fund raise this is where some of the biggest pickups happen automating the DDQ and the diligence process on the deal side same thing centers around what I would call the deal",
+      "zh": "Preqin 对我们来说是一项重要的合作伙伴关系，它一直是这个领域的领先者。与募资团队协作时，一旦你进入募资的实际流程，一些最大的效率提升就发生在这里——把DDQ和尽调流程自动化。在交易这一端也是同理，核心围绕我所说的交易"
+    },
+    {
+      "i": 58,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "23:36",
+      "en": "lifecycle management one of the primary capabilities of deal cloud over the years has been bringing together the global deal pipeline across the firm first at the fund level and the strategy level you've got multiple investment teams in each fund those teams are going now source originally bringing the deals back into the firm and then",
+      "zh": "生命周期管理。多年来 DealCloud 的核心能力之一，就是把全公司范围内的全球交易管道汇聚到一起：首先在基金层面和策略层面——每只基金里有多个投资团队，这些团队去寻源、去开发项目，把交易带回公司，然后"
+    },
+    {
+      "i": 59,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "24:04",
+      "en": "they're entering the underwriting procedure of that deal and getting that deal to indications or to a proposal to acquire invest in the company getting that deal to an investment committee each one of those steps of the deal lifecycle management that's been a huge core use case the firms are famous for that money",
+      "zh": "进入这笔交易的承销流程，把交易推进到给出意向、或提出收购/投资公司的方案，再把交易提交到投资委员会。交易生命周期管理的每一个步骤，都是一个巨大的核心用例。这些公司都以那种著名的“周一晨会”"
+    },
+    {
+      "i": 60,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "24:24",
+      "en": "more in meeting where they go through the pipeline part of the industry from the beginning but automating that procedure your prompting agent to say I'm looking at this company we've got a deal and an opportunity I just got a book from the bankers here this is an active deal we got NDA sign none of that now is point and click",
+      "zh": "著称，大家从头把交易管道过一遍——这在行业里由来已久。但把这套流程自动化后，你只要提示智能体说：“我在看这家公司，我们手上有个交易和机会，我刚从投行那儿拿到一份材料，这是个进行中的交易，我们签了保密协议（NDA）”——如今这一切都不再是点点点"
+    },
+    {
+      "i": 61,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "24:44",
+      "en": "create my deal, create my company all of that is AI assisted procedurally managed and you can have agents and co-workers back there automating that deal workflow for you as more and more firms deploy these tools we love to understand what you think the future of an investment firm looks like from both workflow and staffing",
+      "zh": "手动操作了——“创建我的交易、创建我的公司”，所有这些都是AI辅助、按流程管理的，你还可以让智能体和数字同事在后台为你把整个交易工作流自动化。随着越来越多的公司部署这些工具，我们很想了解：你认为一家投资公司未来的样子是怎样的——无论从工作流还是人员配置上看？"
+    },
+    {
+      "i": 62,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "25:14",
+      "en": "this is a big question it's in the news daily or weekly you're starting to watch the big public firms at least hold constant new analysts and associate classes maybe trim them some the addressable market question of replacing human capital inside of these firms is a tricky one and people get on either sides of this debate one of the areas",
+      "zh": "这是个大问题，几乎每天每周都上新闻。你会开始看到那些大型上市公司，至少把新招的分析师和 Associate 班级规模维持不变，甚至可能削减一些。至于用“替代公司内部人力资本”来估算可服务市场，这是个棘手的问题，人们在这场辩论的两端各执一词。我认为有一个方面"
+    },
+    {
+      "i": 63,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "25:48",
+      "en": "that I think is universally shared is we would like to run the firm efficiently it would be nice to get our G&A down the support staff and the support function doesn't need to scale with the business if you look at where we play the systems and the technology to run the business we think we can bring serious cost reduction in the future",
+      "zh": "是大家都普遍认同的：我们都希望高效地运营公司，能把一般及行政开支（G&A）降下来就更好了。支持性人员和支持性职能，并不需要随业务一起扩张。如果你看看我们发力的地方——运营业务的系统和技术——我们相信未来能带来实实在在的成本下降。"
+    },
+    {
+      "i": 64,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "26:16",
+      "en": "of the business on the future of the investment professional itself I'm not sure I have a stance on it knowing that it took me days and weeks to build models and decks being able to do that now in hours and as he's still got a digested and iterated it's not perfect there's going to be using in these industries to process data",
+      "zh": "至于投资专业人士本身的未来，我还说不准自己有没有明确立场。想当年我搭建模型和演示材料要花好几天甚至好几周，而现在几小时就能完成；当然你还得去消化和迭代，它并不完美。在这些行业里，那些我们一直用来处理数据"
+    },
+    {
+      "i": 65,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "26:44",
+      "en": "and information we've got a lot of clients who have AI agents sitting in investment committee to see what it can do and to see what recommendations it makes is the investment committee going to be an AI agent I don't think so are they going to use it to help for sure is you're on the leading edge of providing these software solutions",
+      "zh": "和信息（的初级岗位上），利润率会有大幅提升。我们有很多客户让AI智能体坐在投资委员会里，看它能做什么、会给出什么建议。投资委员会将来会变成一个AI智能体吗？我不这么认为。但他们肯定会用它来辅助。你们处在提供这类软件解决方案的最前沿，"
+    },
+    {
+      "i": 66,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "27:08",
+      "en": "to continue to improve these businesses that are going to be on that still needs to be created and deployed inside these firms the number one questions that are unanswered around governance and security you work at these organizations you are constantly under information barriers inside of the company you are constantly",
+      "zh": "去持续改进这些业务。而围绕治理与安全，还有一些最重要的问题尚未解答，相关方案还需要在这些公司内部创建和部署。你在这些机构工作，公司内部始终存在信息隔离墙，你始终"
+    },
+    {
+      "i": 67,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "27:36",
+      "en": "signed up to confidentiality your under-review from conflicts from every angle before you even get to work on it there are a series of firm level, client level, ethical level responsibilities there's a series of regulatory and market level responsibilities that all these firms have all the people who work on all these transactions have",
+      "zh": "签署保密义务；在你真正着手之前，还要从各个角度接受利益冲突审查。这里有一系列公司层面、客户层面、道德层面的责任，还有一系列监管层面和市场层面的责任——所有公司、所有参与这些交易的人都负有这些责任。"
+    },
+    {
+      "i": 68,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "28:04",
+      "en": "those systems change with the regulatory landscape basically quarterly sometimes even faster our clients hold the world secrets and their clients secrets they work on them as they move a company through a life cycle a lot of that data exists in our systems all of our technology and systems has to understand that procedure",
+      "zh": "而这些体系会随着监管环境的变化而变化，基本上每季度都在变，有时甚至更快。我们的客户掌握着这个世界的秘密、以及他们客户的秘密；当一家公司走过其生命周期时，他们就在处理这些秘密，而很多这类数据都存在于我们的系统里。我们所有的技术和系统都必须理解那套"
+    },
+    {
+      "i": 69,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "28:28",
+      "en": "of confidentiality obligations to the market to the clients those information barriers those ethical walls those things have to be executed perfectly you make mistake the consequences are grave you're going to find the reputation risk is even bigger the number one thing our client taskis is can you make sure that you are doing this",
+      "zh": "保密义务的流程——对市场、对客户的义务，那些信息隔离墙、那些道德壁垒，都必须完美执行。你一旦出错，后果是严重的，你会发现声誉风险更大。我们的客户反复叮嘱的头等大事就是：你能不能确保你这样做，"
+    },
+    {
+      "i": 70,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "28:54",
+      "en": "in a way that you are following every confidentiality procedure and the governance procedures that run our firms or have a frontier model say go look at all this data what if I have an obligation to this particular client that might be to can't be looked at when we say firm AI we also mean simultaneously that all of the policies",
+      "zh": "是遵循了每一条保密流程、以及运营我们公司的那套治理流程？还是说，你让一个前沿模型去“把所有这些数据都看一遍”——可如果我对某个特定客户负有义务、有些数据是不能被看的呢？所以当我们说公司级AI时，同时也意味着所有的政策"
+    },
+    {
+      "i": 71,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "29:18",
+      "en": "and procedures all of the access controls and information barriers is going to be followed as well you got to do it the right way we love our position there it comes with the history and we're using our systems to govern a bunch of other AI companies there's some well-known ones now",
+      "zh": "和流程、所有的访问控制和信息隔离墙也都会被遵守。你必须用正确的方式来做。我们很喜欢自己所处的这个位置，它源于我们的历史积淀；我们正在用自己的系统去治理一大批其他的AI公司，其中有些现在已经很有名了，"
+    },
+    {
+      "i": 72,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "29:38",
+      "en": "Harvey LaGoura some of the ones that are working inside these law firms using our walls product and our information barriers product our exclusionary permissions about what lawyer can see what as a way to govern other new AI companies AI that's a huge question you can't get more than 10 minutes into a conversation with a client",
+      "zh": "比如 Harvey、Legora，这些在律所内部工作的AI公司，它们用我们的 Walls 产品和信息隔离墙产品——也就是关于“哪个律师能看到什么”的排他性权限——来治理这些新兴AI公司。AI是个大话题，你跟客户或潜在客户的谈话，只要超过10分钟，"
+    },
+    {
+      "i": 73,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "30:00",
+      "en": "prospect without it coming up I'd love to ask you about a totally different angle which is private equity world today has this big question about a liquidity bottle neck at the back end eight years ago you're running a business and decided to merge it into another one as opposed to staying independent we're just love to get the benefit",
+      "zh": "就绕不开它。我想从另一个完全不同的角度问你：如今私募股权世界有个大问题，就是后端的流动性瓶颈。八年前，你在经营一家公司，却决定把它并入另一家，而不是保持独立。我们很想听听"
+    },
+    {
+      "i": 74,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "30:22",
+      "en": "of your experience on what advice you might give a company in a similar situation about what was good about this that's now a public company what might you've done differently I had a unique history it was good strapped grew organically over the years same thing with deal cloud we took our time and got to know our markets",
+      "zh": "你的经验之谈：对于处在类似境况的公司，你会给出什么建议？如今这已是一家上市公司，当初这个决定好在哪里？你又可能会有哪些不同的做法？我的经历很独特：公司是白手起家，多年来靠内生增长发展起来；DealCloud 也是一样。我们不急不躁，慢慢摸清了自己的市场，"
+    },
+    {
+      "i": 75,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "30:46",
+      "en": "tried to build the market leading product in each of the verticals our decision to bring companies together eight and a half years ago the products the complementing nature of the products and the complementary nature of the markets we were serving the investment banks the private equity firms in tap had the legal tech company",
+      "zh": "努力在每一个垂直领域打造市场领先的产品。八年半前我们决定把两家公司合并，是因为产品的互补性、以及我们所服务市场的互补性：我们服务投行、私募股权公司，Intapp 则是那家法律科技公司。"
+    },
+    {
+      "i": 76,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "31:06",
+      "en": "we had the growth platform the source in origination is here in the front end that you would use to source the clients in tap had a lot of the risk management and profitability functions those capabilities together were all you needed to run your firm that's where we locked on to the firm AI brand and concept was the last two",
+      "zh": "我们则拥有增长平台——前端用于寻源和开发客户的能力；而 Intapp 有很多风险管理和盈利方面的功能。这些能力合在一起，正好是你运营公司所需的一切。这就是我们锁定“公司级AI”这一品牌和理念的地方，也就是过去两年的事，"
+    },
+    {
+      "i": 77,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "31:26",
+      "en": "because that's a true representation of our platform when you have that elegant of a potential industrial combination that you did what doesn't meet your expectations when you go forward we're blessed and have a great business wonderful team and awesome clients we service this part of the economy that forms the function of supporting",
+      "zh": "因为那才是我们平台的真实写照。当你拥有如此优雅的一次潜在产业合并时，往前看，有什么是不符合你预期的？我们很幸运，拥有一门很棒的生意、出色的团队和了不起的客户。我们服务的是经济中这样一个板块——它承担着支撑"
+    },
+    {
+      "i": 78,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "31:54",
+      "en": "all the other companies through their lifecycle I'm going to invest in it I'm going to be the banker that represents it I'm going to be the lawyer that helps you pay for the deal I'm going to be the accountant that does the QV I'm going to be the consultant that helps with the market study those are our customers they are",
+      "zh": "所有其他公司走过其生命周期的功能：我要去投资它、我要做代表它的投行、我要做帮你完成交易的律师、我要做 QV 的会计师、我要做帮忙做市场研究的顾问——这些就是我们的客户。他们"
+    },
+    {
+      "i": 79,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "32:12",
+      "en": "using our technology to run the businesses that are supporting global GDP technology company the thing that you're always striving for is better year over year growth acceleration you've got the analysts and investors always watching and evaluating you it is our goal as a company to try and grow as fast as we can and do it as efficiently",
+      "zh": "正用我们的技术来运营这些支撑全球GDP的业务。作为一家科技公司，你永远追求的是更好的同比增长、增长加速；分析师和投资人时刻在关注、在评估你。作为一家公司，我们的目标是尽可能快地增长，并尽可能高效地"
+    },
+    {
+      "i": 80,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "32:40",
+      "en": "as possible too if anything's not going to be your expectation it's that you didn't do our yearly planning and budgeting we certainly try to lean into the most aggressive position that we can as you've gone in your role from running the private equity vertical to this head of industries across all these other touch points",
+      "zh": "实现这一点。如果有什么会低于预期，那也难免；我们做年度规划和预算时，当然会尽量往最激进的方向去靠。随着你的角色从执掌私募股权垂直业务，转变为统领所有这些其他接触点的行业负责人，"
+    },
+    {
+      "i": 81,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "33:02",
+      "en": "what have you learned from working in the other industries that have impacted how you've thought about the original business they're all different there's some similarities are pretty interesting all of these industries tend to deploy teams a deal team a litigation team insurance or a tax team into their clients into high value situations",
+      "zh": "你从其他行业的工作中学到了什么，又反过来影响了你对最初那块业务的思考？这些行业各不相同，但也有些相似之处很有意思：它们都倾向于把团队——交易团队、诉讼团队、保险或税务团队——派驻到客户那里、投入高价值的情境中，"
+    },
+    {
+      "i": 82,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "33:34",
+      "en": "capillaries bankruptcy restructuring evaluation years mastering their craft and a series of middle-level and junior people that are studying in a apprenticeship model to become that senior partner have gained a deep appreciation for the way that everybody in these markets work and it's similar they may be coming at it",
+      "zh": "无论是破产重组、估值这些领域。资深人士花多年精进自己的技艺，还有一批中层和初级人员，在一种学徒制模式下学习，以期成为那位资深合伙人。我对这些市场里每个人的工作方式有了很深的体会，而且它们很相似——尽管他们切入的角度"
+    },
+    {
+      "i": 83,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "34:00",
+      "en": "from a difference of opinion or with a different solution if you look at the architecture or a farm AI to work for these firms there's a ton of similarity how they hire and recruit how they train people how they put the other teams how they serve clients how they drive to revenue profitability in those practice areas",
+      "zh": "或采用的方案可能不同。但如果你看看要让公司级AI为这些公司服务所需的架构，会发现大量相似之处：他们如何招聘、如何培养人、如何组建团队、如何服务客户、如何在各业务领域推动收入和盈利。"
+    },
+    {
+      "i": 84,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "34:30",
+      "en": "we've been studying that similarity because it gives us a lot of intuition and software that's where the firm wants procedures at the firm level you can serve the customer with the pressure on growth that comes to think above a company where do you see the next leg of growth for the business the value proposition of",
+      "zh": "我们一直在研究这种相似性，因为它给了我们在软件方面很多直觉——公司希望在公司层面把流程理顺，你就能服务好客户。谈到一家公司所面临的增长压力，你如何看待这项业务下一段的增长？其价值主张在于——"
+    },
+    {
+      "i": 85,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "34:58",
+      "en": "SaaS software is awesome credible wave of value creation we were in a vertical SaaS business we were building a vertical we've stayed in that spot the firm AI is coming down through each of those verticals we believe that that is higher value than it was before we believe that it commands superior prices",
+      "zh": "SaaS软件的价值主张非常棒，它掀起了一波实实在在的价值创造浪潮。我们做的是一门垂直SaaS生意，我们在打造一个垂直领域，并且一直坚守在这个位置。而公司级AI正在自上而下贯穿每一个垂直领域。我们相信，它的价值比以前更高，我们相信它能带来更优的定价，"
+    },
+    {
+      "i": 86,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "35:22",
+      "en": "from where these products have been in the past because it's cool because we think the savings and the ROI for our client is better than it was before if you're chasing aggressive growth in the AI era because it gives you an opportunity it's a little bit more of a compelling event today to say let's have the right systems and procedures",
+      "zh": "相比这些产品过去的水平而言。一方面是因为它很酷，另一方面是因为我们认为它为客户带来的成本节省和投资回报率（ROI）都比以前更好。如果你在AI时代追求激进的增长，因为它给了你一个机会——今天，说“让我们把系统和流程搭建好、"
+    },
+    {
+      "i": 87,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "35:44",
+      "en": "let's make them efficient and as good as possible we've all experienced the magic of AI the outcome is super fun and cool Ben, I want to make sure I get a chance to ask you a couple of closing questions what's the most rewarding thing you do outside of work I've got a three-year-old, a four-year-old, a five-year-old pretty fun to go home",
+      "zh": "让它们尽可能高效、尽可能好”，这在当下是个更有说服力的契机。我们都体验过AI的魔力，成果既有趣又酷。Ben，我想确保有机会问你几个收尾的问题：工作之外，你做的最有成就感的事是什么？我有三个孩子，一个三岁、一个四岁、一个五岁，回家挺有意思的，"
+    },
+    {
+      "i": 88,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "36:04",
+      "en": "they're pretty interested and usually eagerly awaiting at the door to greet you and commence playtime until the battery pack shuts down and they go to sleep we taught my daughter I had to ride a two-wheeler this weekend that was pretty cool learning how to ski and play basketball for the first 20 years of the career it was no kids",
+      "zh": "他们兴致很高，通常眼巴巴地在门口等着你，迎接你、然后开始玩耍，一直玩到“电池耗尽”、去睡觉为止。这个周末我陪女儿学会了骑两轮自行车，那挺酷的；还有学滑雪、学打篮球。在我职业生涯的头20年里，是没有孩子的，"
+    },
+    {
+      "i": 89,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "36:30",
+      "en": "now there's something to go home to a very active weekend that includes watching little ones try to play soccer for football so that part's fun what was your first paid job and would you learn from it I had an awesome first job I started working at 14 I'm not sure if that broke the child labor law and North Carolina or not maybe",
+      "zh": "现在则有盼头、有家可回。周末非常活跃，包括看小家伙们试着踢足球或橄榄球，所以这部分很有意思。你的第一份带薪工作是什么？你从中学到了什么？我的第一份工作棒极了。我14岁就开始工作，不确定那算不算违反了北卡罗来纳州（North Carolina）的童工法，也许吧。"
+    },
+    {
+      "i": 90,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "36:54",
+      "en": "I'll work for a resort called the Shale club in the summer and taught the families who came to the resort we would get there pretty early in the morning, five, 30 or six it was a small resort we would clean all the pools make breakfast pancakes for the resort guests in the kitchen and this was a nice place",
+      "zh": "我夏天会在一家叫 Shale Club 的度假村打工，教来度假村的那些家庭滑水。我们早上很早就要到，五点半或六点；那是个小度假村，我们要把所有泳池清理干净，在厨房里给度假村客人做早餐煎饼——那可是个高档地方，"
+    },
+    {
+      "i": 91,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "37:20",
+      "en": "they didn't know that the water ski guys were in the kitchen doing the pancakes we had all these aids and tricks we worked pretty close to 100% success rate and teaching a child or an adult how to get up on two skis if you had the right family you're usually handsomely rewarded with a tip if you got everybody water skiing",
+      "zh": "他们可不知道，那些滑水教练正在厨房里做煎饼。我们有一整套辅助技巧和窍门，教小孩或大人如何踩着双板站起来，成功率几乎接近100%。如果你碰上合适的家庭，把所有人都教会了滑水，通常能拿到丰厚的小费作为回报。"
+    },
+    {
+      "i": 92,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "37:44",
+      "en": "sometimes you could make $500,000 a week in tips 25 years ago you were 14 years old that was a lifetime of earnings all right, been last one what's a life lesson you wish you learned earlier in life I love your podcast you have so many great thought leaders who show up about personal improvement a lot of great coaches",
+      "zh": "有时候你一周能挣到50万美元的小费。25年前你才14岁，那简直是一辈子的收入了。好，Ben，最后一个问题：有哪一个人生道理，你希望自己更早学会？我很喜欢你的播客，你有那么多关于自我提升的优秀思想领袖来做客，还有很多很棒的教练。"
+    },
+    {
+      "i": 93,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "38:08",
+      "en": "if you could just become a good listener early on in your career good at processing feedback I just think back on the 20s and the 30s I was surrounded by a bunch of wonderful smart brilliant professionals who have had decades of experience to my zero did I maximize my time with them did I listen enough probably not",
+      "zh": "如果你能在职业生涯早期就成为一个好的倾听者、善于消化反馈就好了。我回想自己二三十岁的时候，身边围绕着一大批出色、聪明、才华横溢的专业人士，他们有几十年的经验，而我几乎是零。我有没有最大化利用和他们共处的时间？我有没有充分倾听？大概没有。"
+    },
+    {
+      "i": 94,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "38:34",
+      "en": "thankful for the company the success that we've had but I've gained a new founder specs for people who have been in it longer who have seen more now in the AI era it's not about tenure you can learn from so many angles I would go back processing feedback I do it okay now I think I'm getting a lot better in that",
+      "zh": "我感激公司、感激我们取得的成功，但我对那些入行更久、见识更多的人有了一种全新的敬意。如今在AI时代，资历不再是关键，你可以从太多角度学习。如果让我重来，我会回到“消化反馈”这件事上——我现在做得还行，我觉得自己在这方面进步了不少，"
+    },
+    {
+      "i": 95,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "38:56",
+      "en": "or I get but I would love to go back to the 20s and the 30s and I've done a better job there Ben, thanks so much for sharing this incredible update on what's happening with AI and the workflow of the private experience thanks for having me Thanks for listening to this sponsored insight sponsored episodes are paid opportunities",
+      "zh": "或者说我正在变好。但我真希望能回到二三十岁，在那时候做得更好。Ben，非常感谢你分享这些关于AI以及私募股权行业工作流进展的精彩更新。谢谢你的邀请。感谢收听本期 Sponsored Insight。赞助类节目是付费机会，"
+    },
+    {
+      "i": 96,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "39:18",
+      "en": "for other 12 to 18 managers a year to appear on the podcast if you're interested in telling your story in front of the largest audience of investors in the industry please email us at teamatcapitalallicators.com to apply for one of the slots all opinions expressed by Ted and podcast guests are solely their own opinions",
+      "zh": "每年为12到18位管理人提供登上本播客的机会。如果你有兴趣在行业内最大的投资人群体面前讲述你的故事，请发邮件至 team@capitalallocators.com 申请其中一个名额。Ted 和播客嘉宾表达的所有观点均为其个人观点，"
+    },
+    {
+      "i": 97,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "39:40",
+      "en": "and do not reflect the opinion of capital allocators or their firms this podcast is for informational purposes only be relied upon as a basis for investment decisions clients of capital allocators or podcast guests may maintain positions and securities discussed on this podcast",
+      "zh": "并不代表 Capital Allocators 或其所在公司的观点。本播客仅供参考，不应作为投资决策的依据而被依赖。Capital Allocators 的客户或播客嘉宾可能持有本播客中讨论的证券头寸。"
+    }
+  ]
+}

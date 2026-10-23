@@ -1,0 +1,375 @@
+{
+  "show": "resonanz-spotlight",
+  "kind": "transcript",
+  "id": "resonanz-spotlight-b0da04ff1d",
+  "guid": "Buzzsprout-19218750",
+  "slug": "2026-05-21-the-museum-exhibit-b0da04ff1d",
+  "date": "2026-05-21",
+  "title_en": "The Museum Exhibit",
+  "title_zh": "博物馆展品",
+  "subtitle_zh": "2020年之前的业绩记录还能当路线图吗？Seth 与 Vincent 就市场环境切换、有效样本量与2022年压力测试展开辩论",
+  "description": "The Museum Exhibit",
+  "duration": "13:45",
+  "duration_seconds": 825,
+  "episode_url": "http://Buzzsprout-19218750",
+  "audio_url": "https://www.buzzsprout.com/2321908/episodes/19218750-the-museum-exhibit.mp3",
+  "speakers": {
+    "1": "Seth（主持）",
+    "2": "Vincent（主持）"
+  },
+  "turn_count": 44,
+  "turns": [
+    {
+      "i": 0,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "00:00",
+      "en": "Here's a question I keep coming back to. A manager sits across from you, hands you a 10-year track record, clean shop, low drawdown, nobody else. You look at the dates, 2010 to 2019. What have they actually given you? Welcome to Resonance Spotlight Strategy Notes.",
+      "zh": "有个问题我一直反复在想。一位基金经理坐在你对面，递给你一份10年的业绩记录（track record），夏普比率（Sharpe）干净漂亮、回撤（drawdown）很低，从没爆过仓。你看一眼日期：2010到2019年。他们究竟给了你什么？欢迎收听 Resonanz Spotlight Strategy Notes。"
+    },
+    {
+      "i": 1,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "00:18",
+      "en": "I am Seth and I'm Vincent. We've been going back and forth on this one for a while. It comes up in almost every manager evaluation we do, so we decided to just have the argument properly. A record of decisions made in the world that no longer exist, not slightly different,",
+      "zh": "我是 Seth，我是 Vincent。这个问题我俩来来回回争论有一阵子了。它几乎在我们做的每一次管理人评估里都会冒出来，所以我们决定干脆正经辩一场。那是一份在一个已不复存在的世界里做出的决策记录，那个世界不是略有不同，"
+    },
+    {
+      "i": 2,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "00:36",
+      "en": "fundamentally different, and a lot of allocators are still treating that exhibit as a roadmap. I understand the instinct, though. A longer track record signals durability. A manager who's been running for 10 years has been through things a 2-year manager hasn't. That logic is real.",
+      "zh": "而是根本不同，可很多配置者（allocators）到现在还把那件展品当成一张路线图。不过我理解这种本能。更长的业绩记录意味着持久性。一个已经运行了10年的管理人，经历过一些两年管理人没经历过的事。这个逻辑是成立的。"
+    },
+    {
+      "i": 3,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "00:54",
+      "en": "The logic makes sense. The problem is it relies on an assumption nobody actually said out loud that the environment those decisions were made in is still similar enough to today. And for a lot of strategies, that's just not true. A lot of strategies is doing some heavy",
+      "zh": "这个逻辑说得通。问题在于，它依赖一个其实没人明说出来的假设：那些决策所处的环境，跟今天仍然足够相似。而对很多策略来说，这根本不成立。“很多策略”这个说法，在这里可是干着相当"
+    },
+    {
+      "i": 4,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "01:12",
+      "en": "lifting there. I think you're right about some and wrong about others. And the direction of the error matters, which I want to come back to. That's the debate. Real disagreement today. I'm going to argue that pre-2020 history is necessary context and that throwing it out is",
+      "zh": "吃重的活儿。我觉得你有些说对了，有些说错了。而且出错的方向很重要，这点我想待会儿再回来谈。这才是辩论，今天有真正的分歧。我要论证的是：2020年之前的历史是必要的背景，而把它一丢了之"
+    },
+    {
+      "i": 5,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "01:31",
+      "en": "its own kind of error. And we are going to try to land somewhere useful, not just theoretical sparing. Let's go. You want to start with the conceptual problem? Yeah. There is concept in statistic. The idea that a historical data series can look like one continuous center when it's actually",
+      "zh": "本身就是另一种错误。而且我们要试着落到真正有用的地方，而不是只做理论上的过招。开始吧。你想先从概念问题讲起吗？好的。统计学里有个概念，意思是：一段历史数据序列，看上去像是一条连续的序列，可实际上"
+    },
+    {
+      "i": 6,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "01:49",
+      "en": "drawn from very different environments at different point in time. When the environment shifts fundamentally, the data from the old environment doesn't just become less relevant, it can actually mislead you because you're looking at numbers from a world that doesn't exist",
+      "zh": "是在不同时间点、从非常不同的环境里抽取出来的。当环境发生根本性转变时，来自旧环境的数据不只是变得没那么相关，它还可能真的误导你——因为你盯着的数字，来自一个已然不"
+    },
+    {
+      "i": 7,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "02:05",
+      "en": "anymore. I've heard this framed as an ergodicity problem. I want to push on that slightly. Ergodicity has a precise technical meaning. For actually describing it simpler, the data is non-stationary. The world changed, same conclusion, but I think it's worth being",
+      "zh": "复存在的世界。我听过有人把它框定为一个遍历性（ergodicity）问题。我想在这上面稍微较个真。遍历性有一个精确的技术含义。真要描述这件事，更简单的说法是：数据是非平稳（non-stationary）的。世界变了，结论是一样的，但我觉得，值得"
+    },
+    {
+      "i": 8,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "02:24",
+      "en": "precise because using a complicated term loosely is how this kind of argument gets oversold. The point is the same either way. If the system has changed structurally, adding more data from the old system doesn't help you predict the new one. It might actually make things worse.",
+      "zh": "精确，是因为把一个复杂术语用得含含糊糊，正是这类论证被过度兜售的方式。无论哪种说法，要点都一样：如果系统已经发生了结构性变化，那么从旧系统里再堆更多数据，也帮不了你预测新系统，甚至可能让事情更糟。"
+    },
+    {
+      "i": 9,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "02:40",
+      "en": "Agreed. Case for that is strong here. Rates went from falling for 20 years to rising sharply. Inflation went from basically what? Zero to persistent. And the correlation between equities and bonds, which was the foundation of multi-asset portfolio construction for two decades, flipped.",
+      "zh": "同意。这方面的证据在这里很有力。利率从连续20年下行，转为急剧上升。通胀从基本上……多少来着？从零，变成了持续存在。而股票和债券之间的相关性（correlation）——它在过去二十年里一直是多资产组合构建（multi-asset portfolio construction）的基础——发生了反转。"
+    },
+    {
+      "i": 10,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "03:00",
+      "en": "These are temporary disruptions. They're changes to the whole setup. But here's what I want to push back before you really get going with it. The direction of the mistake matters and you've only named one direction. Your argument is that pre-2020 data misleads allocators into too much",
+      "zh": "这些不是暂时的扰动，而是整个格局的改变。不过，在你真正顺着这个思路讲下去之前，我想先反驳一点。犯错的方向很重要，而你只点出了一个方向。你的论点是，2020年之前的数据会误导配置者，让他们过于"
+    },
+    {
+      "i": 11,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "03:21",
+      "en": "confidence. You see a clean sharp from 2013 to 2019 and think they found something solid. When actually they found something that worked in a very specific environment. That's real. But now think about managed futures, trend following CTAs. Those strategies had a genuinely",
+      "zh": "自信。你看到2013到2019年一条干净漂亮的夏普比率，就以为他们找到了扎实的东西；可实际上，他们找到的只是一个在非常特定环境里奏效的东西。这一点没错。但现在想想管理期货（managed futures）、趋势跟踪（trend following）型的 CTA。这些策略在"
+    },
+    {
+      "i": 12,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "03:43",
+      "en": "tough 2011 to 2019. Low volatility, choppy markets, persistent drawdowns. If you discounted their pre-2020 history and concluded the strategy was broken, you will have missed 2022 entirely. They're best here in a generation. The pre-2020 record actually understated what those",
+      "zh": "2011到2019年过得很艰难。低波动、来回震荡的市场、持续的回撤。如果你把他们2020年之前的历史打了折扣，进而断定这个策略已经失效，那你就会完全错过2022年——那是它们一代人以来最好的一年。2020年之前的记录，实际上低估了这些"
+    },
+    {
+      "i": 13,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "04:04",
+      "en": "strategies could do. So the claim can't be pre-2020 history's unreliable full stop. It has to be more specific. Right. It has to be pre-2020 history is unreliable in specific ways, depending on how sensitive that strategy is to the old environment. And that becomes the first",
+      "zh": "策略所能做到的事。所以这个论断不能简单地说成“2020年之前的历史不可靠”，就此打住。它必须更具体。对。它必须表述为：2020年之前的历史是在某些特定方面不可靠，而这取决于该策略对旧环境有多敏感。这就成了每一次"
+    },
+    {
+      "i": 14,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "04:24",
+      "en": "question in every manager evaluation. Is this strategy's performance driven mainly by the condition of 2010 to 2019? If yes, treat the numbers with real skepticism. If no, they travel better. Which is harder to answer than it sounds. Because answering it properly requires attribution work,",
+      "zh": "管理人评估里的第一个问题：这个策略的业绩，主要是由2010到2019年的那些状况驱动的吗？如果是，就要以真正的怀疑态度去看待这些数字；如果不是，它们的可迁移性就更好。而这，回答起来比听上去要难。因为要真正回答它，需要做归因（attribution）工作，"
+    },
+    {
+      "i": 15,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "04:45",
+      "en": "stripping out factor exposures, isolating what is actually the manager's skill. I want to flag this is messier in practice than it sounds. Much messier. Models you use for attribution are themselves sensitive to the environment. What counts as market beta and multi-strategy",
+      "zh": "把因子敞口（factor exposures）剥离出来，分离出究竟哪些才是管理人真正的技能。我想指出，这件事在实践中比听上去要乱得多。乱得多。你用来做归因的模型，本身也对环境敏感。在多策略基金（multi-strategy fund）里，什么才算市场贝塔（market beta），"
+    },
+    {
+      "i": 16,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "05:03",
+      "en": "fund shift depending on the time period and market condition you use can run the same track record through two different models and get genuinely different answers about whether a manager has skill. Do it, but treat the result as a starting point for judgment, not as a final answer.",
+      "zh": "会随着你采用的时间段和市场状况而变化。你可以把同一份业绩记录跑过两个不同的模型，然后对这位管理人到底有没有技能，得到截然不同的答案。要做归因，但要把结果当作判断的起点，而不是最终答案。"
+    },
+    {
+      "i": 17,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "05:22",
+      "en": "Now, there's a separate dimension most allocators missed and it's not about time, it's about decisions. Effective sample size. Right. A high frequency strategy making hand rates of independent decision amounts. Six months of that give you real information. A concentrated long-only manager",
+      "zh": "好，还有一个大多数配置者都忽略了的独立维度，它跟时间无关，而跟决策有关。有效样本量（effective sample size）。对。一个高频策略（high frequency strategy），每月做出数以百计的独立决策，那样六个月就能给你真正的信息。而一个集中持有的纯多头（long-only）管理人，"
+    },
+    {
+      "i": 18,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "05:42",
+      "en": "honing 12 position for years at the time. They might have a five year track record and have made very few true independent calls. You can compare those on length alone. You need to combat not months. And this bites hardest in exactly the strategies most affected by the regime question.",
+      "zh": "一次持有12个头寸、一拿就是好几年。他们也许有五年的业绩记录，却只做出了极少数真正独立的判断。你不能只按时间长短来比较这两者；你要数的是决策次数，而不是月份。而这一点，恰恰在那些最受市场机制（regime）问题影响的策略上，咬得最狠。"
+    },
+    {
+      "i": 19,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "06:01",
+      "en": "The strategies most contaminated by pre-2020 conditions are often also slow-moving, structural bets on rates, credit spreads, equity risk premium, thin decision count and a contaminated sample. Both problems at the same time. Okay, 2020 and 2022. These two get mixed together all",
+      "zh": "那些被2020年之前的状况污染得最严重的策略，往往又是慢变量的、对利率、信用利差（credit spreads）、股票风险溢价（equity risk premium）的结构性押注——决策次数稀薄，样本又被污染。两个问题同时存在。好，说说2020年和2022年。这两者总是被混在"
+    },
+    {
+      "i": 20,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "06:25",
+      "en": "the time and it shouldn't be. Very different tests. 2020 was a liquidity crisis, sudden, violent and then over very quickly. The central banks came in fast. What it tested? Can you survive a severe short-term shock without blowing up? Do your risk limits actually hold",
+      "zh": "一起，可它们本不该被混为一谈。这是非常不同的两种考验。2020年是一场流动性危机（liquidity crisis），突如其来、猛烈，然后又很快结束。央行迅速入场。它考验的是什么？是你能够熬过一次剧烈的短期冲击而不爆仓吗？是你的风险限额在极端"
+    },
+    {
+      "i": 21,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "06:44",
+      "en": "on the extreme pressure? And look, most managers did survive 2020, which is why it's a weak differentiator at this point. Everyone sitting across from you today has a navigated COVID well story. Whereas 2022 was the opposite. Slow, grinding, a full year of losses. Equity",
+      "zh": "压力下真的守得住吗？而且你看，大多数管理人确实在2020年活了下来，这也是为什么到现在它已经是个很弱的区分指标了。今天坐在你对面的每一个人，都有一段“我很好地扛过了新冠”的故事。而2022年恰恰相反。缓慢、煎熬、整整一年的亏损。股票"
+    },
+    {
+      "i": 22,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "07:04",
+      "en": "downed roughly 20%, one downed 15 to 20% at the same time. No hedge work and importantly no rescue. The central banks won't come into help. Your hard to hold your positions based on your actual conviction. Which is exactly why 2022 is the more useful stress test for today. Not because it was",
+      "zh": "大致跌了20%，债券同时跌了15%到20%。没有一种对冲奏效，而且更重要的是，没有救援。央行不会出手相助。你必须靠着自己真正的信念去守住头寸。而这，正是为什么2022年对今天来说是更有用的压力测试。不是因为它"
+    },
+    {
+      "i": 23,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "07:24",
+      "en": "worse 2020 was arguably more frightening in the moment, but because its structure is more representative of the current environment. Persistent inflation, central banks tightening, the bond equity hedge not working. So a manager will navigate 2022 well and you can understand why,",
+      "zh": "更糟——2020年在当下可以说更吓人——而是因为它的结构更能代表当前的环境。持续的通胀、央行收紧、债券与股票的对冲失效。所以，如果一位管理人在2022年表现得好，而你又能明白他为什么做得好，"
+    },
+    {
+      "i": 24,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "07:42",
+      "en": "that tells me more than any three years from 2010 to 2019. And I agree with that, but I want to flag a trap that follows from it. If must have been live in 2022 becomes a hard rule, you've got a selection bias problem. Some very good people launched after 2022. Former senior PMs from",
+      "zh": "那告诉我的东西，比2010到2019年里随便哪三年都多。这一点我同意，但我想指出随之而来的一个陷阱。如果“必须在2022年已经实盘运作”变成一条硬性规则，你就有了选择偏差（selection bias）问题。一些非常优秀的人是在2022年之后才创立基金的。他们是从"
+    },
+    {
+      "i": 25,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "08:03",
+      "en": "strong platforms, long experience, strategies they've run before. Apply that rule and you exclude them entirely. Not because of any real signal about their quality, just because of a calendar threshold. And there is a deeper issue also. 2022 was one specific type of stress. Rates rising sharply",
+      "zh": "实力雄厚的平台出来的资深基金经理（PM），经验丰富，运行过以前就跑过的策略。套用那条规则，你就把他们完全排除在外了。不是因为关于他们素质有任何真实的信号，而只是因为一个日历上的门槛。而且还有一层更深的问题。2022年是某一种特定类型的压力：利率急剧上升，"
+    },
+    {
+      "i": 26,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "08:24",
+      "en": "across the board. It does not test credit crises. Deflation, currency crises. Making it your main filter doesn't remove recency bias. It just swaps one for another. So how do you handle managers who want lives in 2022? You go sideways instead of backwards. What did this person do at their",
+      "zh": "而且是全线上升。它并没有考验信用危机、通缩、货币危机。把它当作你的主要筛选器，并不能消除近因偏差（recency bias），只是用一种偏差换掉了另一种。那么，对那些2022年还没开始实盘运作的管理人，你该怎么办？你要横向去看，而不是往回看。这个人在"
+    },
+    {
+      "i": 27,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "08:46",
+      "en": "previous firm during 2022? How did they communicate through it? And you know, you use whatever track record exists to look at process consistency rather than return numbers. This is important, which brings us to the narrative coherence question. And I think this is where it generally gets difficult.",
+      "zh": "之前那家公司、在2022年期间做了什么？他们是怎么一路沟通过来的？而且，你知道，你会用现有的任何业绩记录，去看流程上的一致性，而不是收益数字。这一点很重要，它把我们带到了叙事连贯性（narrative coherence）这个问题上。我觉得这里通常就是事情开始变难的地方。"
+    },
+    {
+      "i": 28,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "09:06",
+      "en": "Because there's a version of this that's a real trap. Say it. Yeah, some of the most convincing explanations of bad performance at third came from manager who were great at talking and genuinely poor at investing. Explaining things where after the fact is a skill. It's not the same",
+      "zh": "因为这事儿有一个版本是真正的陷阱。说来听听。好，有些对糟糕业绩最有说服力的事后解释，恰恰出自那些特别会讲、投资却真的很差的管理人。把事情在事后解释清楚，是一种技能。它跟投资"
+    },
+    {
+      "i": 29,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "09:24",
+      "en": "skill as investing. A clear explanation after tough here is necessary, but it's not enough on its own. But the test isn't whether they explained it well. It's whether the explanation is consistent with what they were saying before the tough period. If the story matches their prior letters,",
+      "zh": "并不是同一种技能。在一段艰难期之后给出一个清晰的解释，是必要的，但它本身并不足够。不过，检验的标准不在于他们解释得好不好，而在于这个解释是否和他们在艰难期之前说的话一致。如果这套说法和他们此前的信件、"
+    },
+    {
+      "i": 30,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "09:41",
+      "en": "their risk framework and how they were positioned going in, then it means something. If it's a new story that conveniently fits a bad outcome, they didn't see comment. That's just noise. Consistency over time. That's the signal. Okay, the hard case. Because I think any framework has to actually work here. A manager with a 15-year",
+      "zh": "他们的风险框架、以及他们进入时的仓位布局相匹配，那它就说明了点东西。如果它是一个新编出来的、恰好能套住一个糟糕结果的故事，那他们根本没预见——那就是噪音。跨时间的一致性，那才是信号。好，来看这个难办的案例。因为我觉得任何框架都必须在这里真正站得住脚。一个有着15年"
+    },
+    {
+      "i": 31,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "10:04",
+      "en": "track record, market neutral, long short equity, genuinely low net stock level focus. Pre-2020 record looks strong. 2022 was bad. Not a disaster, but a real drawdown in a year when a market neutral book should not have been badly hurt. Their explanation, they had value factor",
+      "zh": "业绩记录的管理人，市场中性（market neutral）、多空股票（long/short equity），真正的低净敞口、专注于个股层面。2020年之前的记录看起来很扎实。2022年很糟。算不上灾难，但在一个市场中性账簿本不该受重创的年份里，出现了实打实的回撤。他们的解释是：他们有价值因子"
+    },
+    {
+      "i": 32,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "10:25",
+      "en": "exposure that got caught in a crowded trade unwinding in Q2. They've adjusted the risk monitor instance, team is stable, processes well documented, and the framework doesn't give you a clean answer here. No, the 2022 performers looks like a warning sign. The strategy, rather, did the thing it was",
+      "zh": "敞口，在二季度一场拥挤交易（crowded trade）的平仓中被套住了。他们此后调整了风险监控，团队稳定，流程也有完善的文档记录——而这个框架在这里给不出你一个干净的答案。不，2022年的表现看起来像个警告信号。或者说，这个策略做了它本"
+    },
+    {
+      "i": 33,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "10:45",
+      "en": "not supposed to do. But the explanation is plausible. Market neutral funds with value exposure genuinely did get hurt by factor crowding in 2022. That was partly a market structure problem, not purely a process failure. And the pre-2020 record, even if you discount the return numbers,",
+      "zh": "不该做的事。但这个解释是说得通的。带价值敞口的市场中性基金，在2022年确实被因子拥挤所伤。那部分是一个市场结构问题，而不纯粹是流程上的失败。而且2020年之前的记录，即便你把收益数字打了折扣，"
+    },
+    {
+      "i": 34,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "11:04",
+      "en": "show the team that run risk consistently for 15 years without a serious blow-up. So what do you do? You sit with the uncertainty. You put more weight on the next 12 months of live performance that you normally would. You talk to the prime worker, you look at the",
+      "zh": "也显示出这个团队连续15年一贯地承担风险，而没有出过严重的爆仓。那你该怎么办？你要与这份不确定性共处。你会比你平常更看重接下来12个月的实盘业绩。你去和主经纪商（prime broker）谈，你去看看"
+    },
+    {
+      "i": 35,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "11:19",
+      "en": "timing of the drawdown, does it actually match the factor crowding story or does something and show up? You do the work. But you don't get a clean answer and pretending you do will be wrong. Which is the most important thing to say to allocators, honestly. The framework helps you think,",
+      "zh": "回撤的时点：它到底和那个因子拥挤的故事对得上，还是有别的东西冒了出来？你把这些功课做足。但你得不到一个干净的答案，而假装能得到，就会出错。老实说，这才是最该对配置者讲的话。框架帮你思考，"
+    },
+    {
+      "i": 36,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "11:34",
+      "en": "it does not replace your judgment. So what's actually actionable? And I'll say how deep you go here depends on who you are. Large institution with a full research team can run the trigger shop, do the factor analysis, build a proper comparison set. A smaller family office is",
+      "zh": "它并不能替代你的判断。那么，什么才是真正可落地的？我会说，你在这里挖多深，取决于你是谁。拥有完整研究团队的大型机构，能够跑完整套流程、做因子分析、建立一个像样的比较组。而一个规模较小的家族办公室（family office），"
+    },
+    {
+      "i": 37,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "11:51",
+      "en": "making the same judgment with two people and limited tools, so same principle, different depths. Yeah, but in both cases, start with regime sensitivity. Is the strategy's performance sensitive to what existed from 2010 to 2019? Rate exposure, correlation-dependent hedging,",
+      "zh": "却要用两个人和有限的工具，做出同样的判断，所以是同样的原则、不同的深度。是的，但两种情况下，都要从机制敏感度（regime sensitivity）开始。这个策略的业绩，是否对2010到2019年间存在的那些状况敏感？利率敞口、依赖相关性的对冲、"
+    },
+    {
+      "i": 38,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "12:08",
+      "en": "calibrated to low volatility. If yes, discount the pre-2020 return numbers heavily. Not the process evidence from that period. These are the numbers actually. For strategy that are more independent of the macro environment, high decision frequency, low structural bias,",
+      "zh": "以及按低波动校准过的东西。如果敏感，就大幅打折看待2020年之前的收益数字——不是那段时期的流程证据。要打折的其实是那些数字。对于更独立于宏观环境的策略，高决策频率、低结构性偏差，"
+    },
+    {
+      "i": 39,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "12:25",
+      "en": "the pre-2020 history travels better. But still run the attribution. Know what you're actually looking at. Yeah, 2022 heavily, but don't make it a hard draw necessarily. Use it as your best available test for the current environment while knowing it was a specific type of stress.",
+      "zh": "2020年之前的历史可迁移性就更好。但仍然要做归因，要清楚你到底在看什么。是的，要高度重视2022年，但不一定把它做成一条硬性规则。把它当作你手头对当前环境最好的检验来用，同时清楚它是某一种特定类型的压力。"
+    },
+    {
+      "i": 40,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "12:42",
+      "en": "For managers who weren't live in 2022, go sideways, prior firm history, comparable funds, how that specific team behaved during the period, etc. And apply the consistency test carefully. What matters is whether the story holds up over time. Not whether it sounds good today.",
+      "zh": "对那些2022年还没实盘运作的管理人，横向去看：他们之前公司的历史、可比的基金、那个具体团队在那段时间里的表现，等等。并且要谨慎地运用一致性检验。真正重要的是，这套说法能否经得起时间的考验，而不是它今天听上去好不好。"
+    },
+    {
+      "i": 41,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "13:00",
+      "en": "Yeah, track records are evidence, but evidence of something more specific than most evaluation processes acknowledge. The job is knowing which question each part of the record is actually answering. The museum exhibit is the right frame for the return numbers in a fundamentally",
+      "zh": "是的，业绩记录是证据，但它所证明的东西，比大多数评估流程所承认的更为具体。这项工作，就是要清楚记录里的每一部分，究竟在回答哪个问题。对于一个根本"
+    },
+    {
+      "i": 42,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "13:18",
+      "en": "different environment. Let's go for the process evidence underneath. Know which part of the exhibits you're looking at. Yeah, and that's the episode. Probably more open-ended than most of these conversations, which I think is the honest version of it. If it results too clearly, we weren't asking",
+      "zh": "不同的环境里的收益数字来说，“博物馆展品”才是正确的框架；而要去底层找的，是流程上的证据。要清楚你正在看的是这件展品的哪一部分。好，这一期就到这里。它大概比我们大多数这类对话都更开放，我觉得这才是它诚实的样子。如果结论收得太清晰，那说明我们问的"
+    },
+    {
+      "i": 43,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "13:35",
+      "en": "a hard enough question. Thanks for listening to Resonance Spotlight strategy notes, more coming.",
+      "zh": "问题还不够难。感谢收听 Resonanz Spotlight Strategy Notes，后续还有更多内容。"
+    }
+  ]
+}
