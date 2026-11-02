@@ -1,0 +1,496 @@
+{
+  "show": "inside-active",
+  "kind": "transcript",
+  "id": "348567706",
+  "guid": "0e9ccdc3-0cd1-4f80-a36b-b4f0015619a8",
+  "slug": "2026-10-27-temas-pot-on-special-purpose-vehicles-348567706",
+  "date": "2026-10-27",
+  "title_en": "Tema’s Pot on Special Purpose Vehicles in ETFs",
+  "title_zh": "Tema 谈 ETF 中的特殊目的载体（SPV）",
+  "subtitle_zh": "Tema ETFs 创始人兼 CEO Maurits Pot 讲解主动型 ETF 如何通过零费用的单层 SPV 持有 Anthropic、SpaceX、Kalshi 等私营公司：准入渠道、三步尽调、成本价估值、15% 非流动性上限与上市后转换",
+  "description": "Tema’s Pot on Special Purpose Vehicles in ETFs",
+  "duration": "29:56",
+  "duration_seconds": 1796,
+  "episode_url": "https://www.iheart.com/podcast/1308-inside-active-by-bloomber-196934868/episode/temas-pot-on-special-purpose-vehicles-in-etfs-348567706",
+  "audio_url": "https://podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/b80d5a87-9cf9-4e30-bb73-b1aa01353310/0e9ccdc3-0cd1-4f80-a36b-b4f0015619a8/audio.mp3?utm_source=Podcast&in_playlist=555098e8-ea05-411d-ae97-b1aa01357096&source=iheart",
+  "speakers": {
+    "1": "David Cohne（主持）",
+    "2": "Sharun Francis（联合主持）",
+    "3": "Maurits Pot（嘉宾）"
+  },
+  "turn_count": 59,
+  "turns": [
+    {
+      "i": 0,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "00:15",
+      "en": "Welcome to Inside Active, a podcast about active managers goes beyond soundbites and headlines and looks deeper into their processes, challenges, and philosophies in security selection. I'm David Cohn. I lead mutual fund and active research at Bloomberg Intelligence. Today, my co-host is Sharun Francis, associate analyst at Bloomberg Intelligence. Sharun, thanks for joining me today.",
+      "zh": "欢迎收听 Inside Active（《走进主动投资》），这是一档关于主动管理基金经理的播客，我们不停留在金句和头条层面，而是更深入地探讨他们在证券选择上的流程、挑战与投资理念。我是 David Cohne，负责彭博行业研究（Bloomberg Intelligence）的共同基金与主动投资研究。今天与我搭档的联合主持人是彭博行业研究助理分析师 Sharun Francis。Sharun，感谢你今天和我一起主持。"
+    },
+    {
+      "i": 1,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "00:36",
+      "en": "Thanks for having me, David.",
+      "zh": "谢谢你邀请我，David。"
+    },
+    {
+      "i": 2,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "00:38",
+      "en": "So, you know, today we're going to be talking about private companies, you know, just because private companies are increasingly finding their way into public investment vehicles. giving investors exposure to businesses that historically would have remained largely out of reach until they went public. But putting a private company inside an ETF isn't as straightforward as buying a publicly traded stock. In some cases, active managers are gaining that exposure through special purpose vehicles or SPVs, creating a different set of considerations around access, research, valuation, and liquidity. And it also raises questions about how these investments work within the ETF structure. Investors have to understand what the fund actually owns, how a private company is valued, when there isn't a continuously traded market price, how managers size and manage in a liquid position, and what happens when the underlying company eventually goes public. So today, I wanted to explore how that works in practice, how active ETFs can use SBVs to invest in private companies, how those opportunities are sourced and evaluated, how they are valued and managed within a daily liquidity vehicle, And what private company access can add to a thematic portfolio? Joining me to discuss that is Moritz Potts, founder and CEO of Tema ETFs. Moritz, thanks for joining us.",
+      "zh": "今天我们要聊的是私营（未上市）公司，因为私营企业正越来越多地进入公开交易的投资工具，让投资者得以配置那些以往在上市之前几乎无从触及的企业。但把一家私营公司装进 ETF，并不像买入一只上市股票那样简单直接。在某些情况下，主动管理人是通过特殊目的载体（SPV）来获得这种敞口的，这就带来了一整套关于准入渠道、研究、估值和流动性的不同考量，也引发了这些投资在 ETF 结构内部如何运作的疑问。投资者必须弄清楚：基金实际持有的到底是什么；在没有持续交易的市场报价时，一家私营公司如何估值；管理人如何确定并管理这类非流动性头寸的规模；以及当底层公司最终上市时会发生什么。所以今天我想探讨这在实践中如何运作：主动型 ETF 怎样利用 SPV 投资私营公司，这些机会如何被挖掘和评估，在一个每日流动性（每日申赎）的工具中如何估值和管理，以及获得私营公司准入能为一个主题化组合增添什么。今天与我们讨论这一话题的，是 Tema ETFs 创始人兼首席执行官 Maurits Pot。Maurits，感谢你的加入。"
+    },
+    {
+      "i": 3,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "01:53",
+      "en": "Thanks for having me on the show. I look forward to it.",
+      "zh": "感谢邀请我上节目，我很期待这次交流。"
+    },
+    {
+      "i": 4,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "01:56",
+      "en": "So Moritz, we see that Laser owns Anthropic through an SPV. What does that mean and what does the ETF legally own under that structure?",
+      "zh": "Maurits，我们注意到 LAZR 这只 ETF 通过一个 SPV 持有 Anthropic。这意味着什么？在这种结构下，ETF 在法律上拥有的究竟是什么？"
+    },
+    {
+      "i": 5,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "02:04",
+      "en": "Sure, it's a great question. So a special purpose vehicle is a legal entity. usually an LLC or limited partnership that's set up to solely hold one or a select number of investments as the name implies it's special. So in the case of our Laser ETF, which owns Afropic through a Series F preferred shares SPV, the ETF owns an interest in the SPV. The SPV is the holder of the Series F preferred Afropic shares and is on Afropic's cap table. So effectively, the SPV facilitates the ownership of the ETF into physical shares of Anthropic. There's no swaps, no derivatives. It's an SPV backed by physical preferred shares on the cap table.",
+      "zh": "当然，这是个很好的问题。特殊目的载体是一个法律实体，通常是有限责任公司（LLC）或有限合伙企业，设立的唯一目的就是持有一项或少数几项精选投资——顾名思义，它是“专用”的。以我们的 LAZR 这只 ETF 为例，它通过一个持有 Anthropic F 轮优先股的 SPV 来持有 Anthropic：ETF 拥有的是该 SPV 的权益份额，而 SPV 才是 Anthropic F 轮优先股的持有人，并登记在 Anthropic 的股权结构表（cap table）上。所以实际上，SPV 只是充当了 ETF 持有 Anthropic 真实股份的通道。这里没有互换（swap），也没有衍生品，它是一个由股权结构表上真实优先股支撑的 SPV。"
+    },
+    {
+      "i": 6,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "02:57",
+      "en": "So the ETF owns an interest in what we call, I guess, a simple purpose SPV that in turn owns the access or the shares to Anthropic?",
+      "zh": "所以 ETF 持有的是这个——我想我们可以称之为特殊目的 SPV——的权益，而这个 SPV 反过来持有 Anthropic 的准入通道或股份本身？"
+    },
+    {
+      "i": 7,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "03:07",
+      "en": "Correct.",
+      "zh": "没错。"
+    },
+    {
+      "i": 8,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "03:11",
+      "en": "Could you walk us through how you get access to a vehicle like this? Are you sourcing directly from the company, existing shareholders, or through third-party SPV sponsors?",
+      "zh": "能否给我们讲讲，你们是如何获得这类载体的准入机会的？你们是直接从公司本身、从现有股东那里获取，还是通过第三方 SPV 发起方（sponsor）？"
+    },
+    {
+      "i": 9,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "03:21",
+      "en": "Yeah, so maybe just to go back one point. So when Tenor invests in SPVs, there's a few principles we adhere to. We only invest in single-layer SPVs. We only invest in SPVs with no fees. And we obviously only invest in SPVs, but we are very comfortable with the diligence process, which is three steps. We'll talk about that a bit later. Now, the big question is how do you get access? Anthropic is obviously a desired company. It's a company that has gone through a phenomenal growth trajectory. At Temo, we're backed by two of the leading venture funds, Index Ventures and Accel Partners, and over 10 CEOs. So we're fortunate that we have direct access to a lot of existing shareholders, including board members. at some of the leading private companies where we are invested. So access is a constraint and people are trying to engineer around access through swaps derivatives. We frankly believe the only way to justify being a fiduciary investor in privates in an ETF is if you can get access to the underlying physical shares.",
+      "zh": "好的。也许先往回说一点：Tema 在投资 SPV 时遵循几条原则。我们只投资单层结构（single-layer）的 SPV；只投资不收费用的 SPV；而且显然，我们只投资那些让我们对尽调流程非常放心的 SPV——尽调分为三步，我们稍后再谈。那么，最大的问题是：你怎么拿到准入机会？Anthropic 显然是一家备受追捧的公司，它经历了惊人的增长轨迹。在 Tema，我们背后有两大顶级风险投资基金——Index Ventures 和 Accel Partners，以及十多位 CEO 的支持。所以我们很幸运，能够直接接触到我们所投资的多家头部私营公司的许多现有股东，包括董事会成员。准入机会本身就是一种稀缺资源，很多人试图用互换、衍生品来“绕开”这个约束。但我们坦率地认为，要在 ETF 中以受托人身份投资私营资产，唯一站得住脚的前提，就是你能拿到底层的真实股份。"
+    },
+    {
+      "i": 10,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "04:25",
+      "en": "So what are the types of companies that sponsor or manage the SPV? And I guess also what types of rights does the ETF actually receive through the structure? You know, do you get information or voting rights or, you know, anything like that?",
+      "zh": "那么，发起或管理 SPV 的是哪一类机构？另外我想，通过这种结构，ETF 实际获得了哪些权利？比如信息权、投票权之类的？"
+    },
+    {
+      "i": 11,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "04:39",
+      "en": "No, it's a great question. So Tema only invests in single layer SPVs that are managed by institutional investment firms with full transparency and legal diligence to the show on the cap table. As you may be aware, the world of SPVs has grown very fast and there's a whole host of SPVs that are frankly managed by individuals or are layered SPVs. You have three, four layers in an SPV. we will not touch SPVs run by individuals or layered SPVs. We're not going to say that they're uninvestable, but again, we're approaches from a fiduciary perspective. And our view is that there's an investment merit, there has to be a legal merit, there has to be a commercial merit. And if we are not comfortable with the legal merit, the investment merit and the commercial merit do not matter. So single layer SPVs solely managed by institutional investment firms is the only way that we will invest in private companies. Now, SPV investors, they benefit from an ownership right through the SPV to the company, but they do not have voting or governance rights. And depending on SPV, they may have information rights or they may have select information rights. But SPV essentially is the facilitator for an ETF to own physical shares in a private company.",
+      "zh": "这是个好问题。Tema 只投资由机构投资管理公司运作的单层 SPV，要求充分透明，并对股权结构表上的持股进行法律尽调。你可能也了解，SPV 这个领域扩张得非常快，坦率地说，市面上有大量 SPV 是由个人管理的，或者是多层嵌套结构——一个 SPV 里套了三、四层。我们不会碰由个人运作的 SPV，也不会碰多层嵌套的 SPV。我们不会说它们完全没有投资价值，但我们的出发点是受托责任。我们的观点是：一项投资必须同时具备投资层面的价值、法律层面的价值和商业层面的价值。如果法律层面让我们不放心，那么投资价值和商业价值都无从谈起。所以，只由机构投资管理公司运作的单层 SPV，是我们投资私营公司的唯一方式。至于 SPV 投资者，他们通过 SPV 享有对公司的所有权权益，但没有投票权或治理权；视 SPV 而定，他们可能拥有信息权，也可能只拥有部分信息权。但 SPV 本质上就是 ETF 持有私营公司真实股份的一个通道。"
+    },
+    {
+      "i": 12,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "06:05",
+      "en": "Okay.",
+      "zh": "好的。"
+    },
+    {
+      "i": 13,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "06:06",
+      "en": "Are there any additional costs associated with getting private exposure through SPVs? And if so, how are they reflected for ETF shareholders?",
+      "zh": "通过 SPV 获得私营公司敞口，是否会带来额外成本？如果有，这些成本如何体现在 ETF 持有人身上？"
+    },
+    {
+      "i": 14,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "06:14",
+      "en": "Great question. So a lot of challenges folks have had with privates is the fees they pay on the way in, on the way out, and while they're waiting for the private company to potentially go public. Again, at Tema, we only invest in SPVs with zero incremental fees. So what that means is that If you look at, for example, in our Laser ETF, which has the most anthropic exposure of any ETF, the expense ratios remain flat before we added anthropic and even after we added anthropic. And that's why? Because we only invest in SPVs that have zero brokerage fee, zero management fee, and obviously zero performance fee. A lot of SPVs have fees and we are not able to invest in them. There are ETF issuers that have invested in SPVs with fees, which is why you see some ETFs with the privates having expense ratios going as high as 2%, maybe even higher than that. So again, what is our mandate? Our mandate is to think about this from an investment perspective with a fiduciary lens, which again means that we focus on SPVs where we have legal clarity, legal comfort. We talk about valuation a bit later, but most importantly, we do not charge any additional fees. We've even seen folks add redemption fees recently. We do not charge redemption fees. So I think, again, the focus here is on offering people quality access in a fiduciary transparent way without laying over fees. We get asked about derivatives and swaps. And on paper, a derivative and swap may not actually add to the management fee. But there's a lot of implicit fees you pay through derivative or swaps that actually are not including the management fee, but actually do hit the NAV. So again, it's a very expensive way to access privates over and above the fact that you're not even owning any underlying private companies.",
+      "zh": "问得好。很多人在私募投资上遇到的主要麻烦，就是进入时、退出时以及等待私营公司可能上市期间所支付的费用。同样，在 Tema，我们只投资零增量费用的 SPV。这意味着什么呢？举例来说，看看我们的 LAZR——它是所有 ETF 中 Anthropic 敞口最大的一只——在我们纳入 Anthropic 之前和之后，费用率都保持不变。为什么？因为我们只投资零经纪佣金、零管理费、当然也零业绩报酬的 SPV。很多 SPV 是收费的，那些我们就不投。也有一些 ETF 发行人投资了收费的 SPV，这就是为什么你会看到某些持有私募资产的 ETF 费用率高达 2%，甚至可能更高。那么，我们的使命是什么？我们的使命是从投资角度、以受托人的视角来思考这件事，也就是说，我们专注于那些法律上清晰、让我们放心的 SPV。估值我们稍后再谈，但最重要的是，我们不收取任何额外费用。我们最近甚至看到有人加收赎回费，我们是不收赎回费的。所以我认为，重点在于以受托、透明的方式为人们提供高质量的准入机会，而不层层叠加费用。也常有人问我们衍生品和互换的问题。从账面上看，衍生品和互换未必会推高管理费，但通过衍生品或互换，你会支付大量隐性费用，这些费用虽然没有计入管理费，却实实在在侵蚀了净值（NAV）。所以这是一种非常昂贵的私募获取方式，更何况你根本没有持有任何底层私营公司。"
+    },
+    {
+      "i": 15,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "08:14",
+      "en": "Thank you for walking us through that. I'm interested in the research and due diligence process. How does that process change for a private company like Anthropic or Calchi? compared with a public company?",
+      "zh": "谢谢你为我们详细讲解。我对研究和尽调流程很感兴趣。对于 Anthropic 或 Kalshi 这样的私营公司，这个流程与对一家上市公司相比有什么不同？"
+    },
+    {
+      "i": 16,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "08:26",
+      "en": "Yeah, that's a great question. So investing in a private company starts off as an investor decision, not a marketing decision. And I think that's very important to emphasize. And only once the investment diligence is passed does the process move to the vehicle diligence and ultimately to the marketing feasibility. We'll talk about that a bit later. And we've passed on multiple private companies that didn't pass either the investment diligence, the legal diligence, or frankly, the marketing commercial diligence. The DD happens intentionally in that order. So if a company is legally investable, but we don't think it's the right thing to do from an investment perspective, we will not invest in the company. And what we also recognize, there are some amazing companies out there that are investable from an investment perspective or from a legal perspective, but frankly, do not add any commercial raison d'etre in an ETF. So The bar to investing in a private company has to be very high. Tema does not take any business stage risk. What does that mean? We typically only really invest in category-leading, late-stage private businesses, typically in the run-up to an IPO. That's partly informed by our view that we do not believe ETFs are the right vehicle for early-stage, higher-risk, more speculative private company investing. There's other vehicles that are better suited to that stage of privates. So the research process starts from investment. perspective. The company focus is only on late stage category leading, some would say de-risked companies. And the risk we're taking at this stage is more capital markets risk than it is business model risk. And over and above that, We have a strict order, which starts with investment DD, then legal DD, then commercial DD.",
+      "zh": "是的，这个问题很好。投资一家私营公司，起点是一个投资决策，而不是营销决策，我认为这一点非常重要。只有在投资尽调通过之后，流程才会推进到载体尽调，最终才到商业可行性评估，这部分我们稍后再谈。我们已经放弃过多家私营公司，它们要么没有通过投资尽调，要么没有通过法律尽调，坦率地说，要么没有通过商业层面的尽调。这三步尽调是刻意按这个顺序进行的。所以，如果一家公司在法律上可投，但我们认为从投资角度看并不合适，我们就不会投。我们也认识到，市面上有一些非常出色的公司，从投资角度或法律角度都是可投的，但坦率地说，放进 ETF 里并不具备任何商业上的存在理由（raison d'être）。因此，投资私营公司的门槛必须非常高。Tema 不承担任何业务阶段风险。这是什么意思？我们通常只投资品类领先（category-leading）的后期私营企业，一般是在 IPO 之前的阶段。这部分源于我们的判断：ETF 并不是投资早期、高风险、更具投机性的私营公司的合适载体，还有其他更适合私募早期阶段的工具。所以研究流程是从投资角度出发的，公司筛选只聚焦于后期、品类领先——有人会说已经“去风险化”的公司。在这个阶段我们承担的更多是资本市场风险，而不是商业模式风险。在此之上，我们有严格的顺序：先是投资尽调，然后是法律尽调，最后是商业尽调。"
+    },
+    {
+      "i": 17,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "10:24",
+      "en": "So if we take that a little further, do you have a separate due diligence process for the SPV itself, whether it's a sponsor? I know you kind of covered this a bit before talking about who you get it from, but is there an actual process that you go through once you decide you want a private company?",
+      "zh": "如果我们再往深一步问：针对 SPV 本身、针对其发起方，你们有没有一套单独的尽调流程？我知道你之前在谈到从哪里获取机会时已经涉及了一些，但一旦你们决定要投某家私营公司，是否确实有一套必须走完的流程？"
+    },
+    {
+      "i": 18,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "10:38",
+      "en": "No, it's a great point. And I think three points. So there's a three-step diligence process we do in SPVs. But again, we only look at SPVs that are run by investment companies, not by individuals, which already excludes a large universe of SPVs. The three steps are the following. First, we diligence the manager. And if we're not comfortable with the manager, we will not invest or proceed with diligence regardless of the company or the terms. And the manager, again, in our case, has to be an institutional investment firm. If we're comfortable with the first step, which is SPV manager diligence, we move to SPV legal diligence. And what is really diligence is specifically the ownership certificates, including the regulatory compliance and legal structure of the shareholding. So step one, manager diligence. Step two, legal diligence. Step three is commercial diligence. So once we're comfortable with the manager and legal diligence, we move to what we call the commercial diligence, which is really looking at the fee terms, the liquidity terms, the redemption terms, the commercial structure. So the SPV diligence is equally important as the investment diligence. To point something obvious out, it could be a bad company, it could be a bad investment. And even if it's a bad company, we're not going to take that risk through an SPV even when we think it could be a good investment.",
+      "zh": "这是个很好的观点，我想讲三点。我们对 SPV 有一套三步尽调流程。但同样，我们只看由投资公司（而非个人）运作的 SPV，这本身就已经排除了很大一片 SPV 市场。三步如下：第一步，我们对管理人做尽调。如果对管理人不放心，无论标的公司或条款如何，我们都不会投资，也不会继续尽调。而且在我们这里，管理人必须是机构投资管理公司。如果对第一步——SPV 管理人尽调——感到满意，我们就进入第二步：SPV 法律尽调。这一步尽调的具体内容是所有权凭证，包括持股的监管合规性与法律结构。所以，第一步管理人尽调，第二步法律尽调，第三步是商业尽调。当我们对管理人和法律尽调都满意之后，就进入我们所说的商业尽调，主要是审视费用条款、流动性条款、赎回条款和商业结构。因此，SPV 尽调与投资尽调同等重要。说一个显而易见的点：一家公司可能本身很差，也可能是一笔糟糕的投资；而即便我们认为它可能是一笔不错的投资，只要它是一家“坏公司”，我们也不会通过 SPV 去承担这种风险。"
+    },
+    {
+      "i": 19,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "11:54",
+      "en": "And so I got one more extension to the due diligence process. With public companies, a lot of managers will consider price of the company before they enter. Are you, with a private company, how do you determine what price you're willing to pay? Because obviously there could be different funding rounds that an SPV could get access to. Is this part of your process?",
+      "zh": "那么关于尽调流程我再延伸一个问题。对于上市公司，很多管理人在建仓前会考虑公司的价格。对于私营公司，你们如何确定自己愿意支付的价格？因为显然一个 SPV 可能拿到不同融资轮次的份额。这是否也是你们流程的一部分？"
+    },
+    {
+      "i": 20,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "12:12",
+      "en": "Yeah, no, it is. It's part of the valuation. So it's a very good point. So two things to say on that. One, realistically, at our size, we have no influence, no control over valuation. Now, the reality is that there are often more than one, depending on the company, there's often maybe more than one approved seller of shares in the company. We are valuation sensitive. We seek to enter at valuations that we believe leave a reasonable upside margin, but also leave a margin for error. And the reality is we are a valuation taker. But again, we've turned down either specific blocks or even companies on the basis that the valuation we didn't think made sense for ETF investors. Because again, the goal here, given that we don't charge any incremental fees, is offering better exposure as a fiduciary to investors.",
+      "zh": "是的，确实是，它属于估值范畴，这一点问得很好。关于这个我想说两点。第一，现实地讲，以我们的体量，我们对估值既没有影响力，也没有控制权。现实情况是，视公司而定，一家公司往往不止一个获准出售股份的卖方。我们对估值是敏感的，我们力求在我们认为既留有合理上行空间、又留有容错余地的估值水平上进入。而现实是，我们是估值的接受者（valuation taker）。但即便如此，我们也曾因为认为估值对 ETF 投资者不划算，而拒绝过某些具体的股份区块，甚至拒绝过整家公司。因为再说一次，鉴于我们不收取任何增量费用，这里的目标就是以受托人身份为投资者提供更好的敞口。"
+    },
+    {
+      "i": 21,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "13:08",
+      "en": "So this has come up briefly, but we wanted to get an evaluation. So without an observable market price, how do you value these positions between funding rounds or secondary transactions? And how much discretion is involved there?",
+      "zh": "这个话题刚才简单提到过，但我们想深入聊聊估值。在没有可观察市场价格的情况下，在两轮融资之间或二级交易之间，你们如何为这些头寸估值？其中有多少主观裁量的空间？"
+    },
+    {
+      "i": 22,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "13:21",
+      "en": "Yeah, it's a good point. So we believe that we have to take a conservative approach to valuation and we have to take a consistent approach to valuation. And what that means is that we don't believe we should have any discretionary input into the valuation of a private company. Over and above the fact that That's probably neither our role, but also it could be disruptive to other market participants. So what we do is we hold the valuation of the private companies at cost until the earlier of the public listing, a private control transaction, or a priced valuation round, meaning we have no input in the valuation at which the company is held at NAV. And in most cases, given that we're investing at a late stage, typically pre-IPO, The valuation is only updated at the point of listing, given the size of companies being invested in a private control transaction or a price valuation round are in most cases no longer relevant at that stage. So we are very transparent about when a price changes. And we also, these are the three scenarios under which a price would change from the cost, which is the default valuation of the company in the fund. If we were investing very early, and which we're not doing, but if we were investing in series A or C companies, you could argue that you want to benefit from the valuation uplift over the life cycle of the company. But we don't believe the ETF wrapper is the right vehicle through which investors should be investing in very early stage, potentially still higher risk private companies.",
+      "zh": "是的，这一点问得好。我们认为，对估值必须采取保守的方法，也必须采取一致的方法。这意味着我们不认为自己在私营公司的估值上应该有任何主观裁量的介入——这不仅大概不是我们的职责所在，而且可能扰乱其他市场参与者。所以我们的做法是：以成本价持有私营公司，直到以下三者中最早发生的那个——公开上市、私募控制权交易，或一轮有定价的融资（priced round）。也就是说，对于公司在净值（NAV）中按什么估值入账，我们没有任何主观输入。而且在多数情况下，由于我们投资的是后期、通常是 IPO 之前的阶段，估值只会在上市这个时点更新，因为到了这个阶段，所投公司发生私募控制权交易或有定价融资轮的情况在多数时候已不再相关。所以，对于价格何时变化，我们是非常透明的。这也正是仅有的三种会让价格偏离成本（即公司在基金中的默认估值）的情形。如果我们投资的是非常早期的公司——我们并不这么做——但如果投的是 A 轮或 C 轮公司，你或许可以说你希望从公司整个生命周期的估值提升中获益。但我们不认为 ETF 这个外壳是投资者投资非常早期、风险可能仍较高的私营公司的合适载体。"
+    },
+    {
+      "i": 23,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "14:57",
+      "en": "What about secondary prices? So forget about Anthropic for a second, but other companies say there might not have been a new funding round, but there's also a secondary market. Is there anything that would get you to change the valuation or do you just keep it as is?",
+      "zh": "那二级市场价格呢？先抛开 Anthropic 不谈，其他公司也许没有新的融资轮，但也存在二级市场。有什么情况会让你们调整估值吗？还是就保持原样？"
+    },
+    {
+      "i": 24,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "15:11",
+      "en": "So we hold the valuation at cost. Well, that means that if we were to only buy at higher cost, we'd have to remark the valuation fund. But that is also a deterrent to us buying at any price. Because obviously, if we mark the whole valuation at a higher price, that obviously gives less upside for all the rest of the fund. So It enforces a valuation discipline on what valuation we pay for blocks. Again, the starting point is we don't believe we should have any discretion or valuation. And hence, we have a very simple, consistent, transparent approach to valuation. We also have a third party that approved orders that basically gives a reference price at the end of each quarter, assuming no transactions have occurred. But that is not a price that actually affects the valuation of the company in the portfolio. That's merely so that we have something from a valuation committee perspective. The risk otherwise is, if there's no price round or there's no liquidity bet, what do I use as my benchmark for valuation. Do I use Kalshi? Do I use Polymark? Or do I use Hyperliquid? Do I use my friend that's selling secondary? So I think the moment you start to get into applying discretionary valuation, you potentially open up a whole host of risks to the disadvantage of the end investor.",
+      "zh": "我们以成本价持有估值。这意味着，如果我们以更高的成本买入，就不得不按新的估值重新标记（remark）整个基金的估值。而这也反过来抑制我们随意出价买入，因为显然，如果把整体估值上调到更高价格，就会压缩基金其余部分的上行空间。所以这实际上对我们为股份区块支付什么样的估值形成了一种估值纪律。再强调一次，起点是我们不认为自己在估值上应该有任何主观裁量权。因此，我们的估值方法非常简单、一致、透明。此外我们还有一家第三方机构，在每个季度末基本上给出一个参考价格（假设期间没有发生交易）。但这个价格并不会真正影响组合中公司的估值，它只是从估值委员会的角度给我们一个依据。否则风险就在于：如果没有定价融资轮，也没有流动性事件，我该拿什么作为估值基准？是用 Kalshi？用 Polymarket？还是用 Hyperliquid？还是用我那个在做二级转让的朋友？所以我认为，一旦你开始运用主观裁量的估值，就可能打开一系列风险，而受损的是终端投资者。"
+    },
+    {
+      "i": 25,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "16:29",
+      "en": "That makes sense. How do you approach, I guess, position sizing? So you've determined you're going to add a private company through an SPV to one of the portfolios.",
+      "zh": "这说得通。那么仓位规模（position sizing）你们是怎么考虑的？假设你们已经决定要通过 SPV 把一家私营公司加入某个组合，"
+    },
+    {
+      "i": 26,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "16:38",
+      "en": "What is.",
+      "zh": "这个仓位规模"
+    },
+    {
+      "i": 27,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "16:39",
+      "en": "Position size based on how do you determine the appropriate weight? It's going to be in the portfolio.",
+      "zh": "是基于什么确定的？你们如何决定它在组合中应有的合适权重？"
+    },
+    {
+      "i": 28,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "16:44",
+      "en": "Yeah. So first and foremost, this is an investment decision where they get in their portfolio, of course, but also how we size it. But the reality is when the private is in an ETF, as you're very well aware, there's a regulatory limit. So the sizing flexibility from a risk management perspective is limited by the investment process and the regulatory ceiling. And the regulatory ceiling is a 15% regulatory threshold. on any illiquid exposure within the ETF. And therefore, no private at cost will be contributed above 15%. Companies can drift above that temporarily, but there is a requirement to cure that breach if it occurs temporarily before the quarter end.",
+      "zh": "是的。首先，这是一个投资决策——当然是关于哪家公司进入组合，也包括我们给它多大的仓位。但现实是，当私募资产装进 ETF 时，正如你们非常清楚的，存在监管上限。所以从风险管理角度看，仓位规模的灵活度同时受制于投资流程和监管天花板。而这个监管天花板，就是 ETF 内任何非流动性敞口的 15% 监管门槛。因此，任何私营公司按成本计入时都不会超过 15%。公司权重可以暂时漂移超过这一水平，但如果出现这种临时性突破，就必须在季度末之前予以纠正。"
+    },
+    {
+      "i": 29,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "17:33",
+      "en": "So how do you approach that if it does become substantially larger than you thought it would be?",
+      "zh": "那么，如果它的规模确实变得比你预想的大很多，你们会怎么处理？"
+    },
+    {
+      "i": 30,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "17:38",
+      "en": "Do you rebalance?",
+      "zh": "你们会做再平衡吗？"
+    },
+    {
+      "i": 31,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "17:40",
+      "en": "Yeah, so the reality is that this is a great question. So there's two ways you can go about it. One is you can obviously dispose of private holdings. And one of the key things we look for when we buy privates is typically we have a flexibility on the valuation or under regular reasons that if we have to dispose, we can dispose. Alternatively, of course, if you have inflows, then that also dilutes the privates waiting in a portfolio. But yeah, I think your question is a fair question. Could the position grow without buying more? It definitely could. It could grow from a markup. It could grow from a fall in public holdings, which would obviously raise the weight passively, and ultimately redemptions would have the same impact.",
+      "zh": "是啊，这确实是个好问题。处理方式有两种。一种显然是卖出私募持仓。我们买入私募资产时关注的一个关键点，就是通常要确保自己拥有处置的灵活性——在特定情形（包括监管原因）下，如果必须卖出，我们能够卖出。另一种当然就是，如果有资金流入，也会稀释私募资产在组合中的权重。不过，你的问题很中肯：不买更多，这个头寸会不会自己变大？完全会。它可能因为估值上调而变大；也可能因为公开市场持仓下跌而被动提高权重；而赎回最终会产生同样的影响。"
+    },
+    {
+      "i": 32,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "18:21",
+      "en": "So we've seen that some of your ETFs have meaningful exposure to private companies. We've seen that Laser's anthropic SPV position has been floating around 10% as of late. At what point can a private holding start to affect the ETF itself, particularly its liquidity or the create and redeem process?",
+      "zh": "我们注意到你们的一些 ETF 对私营公司有相当可观的敞口。近期 LAZR 通过 SPV 持有的 Anthropic 头寸大约在 10% 上下浮动。私募持仓到了什么程度会开始影响 ETF 本身，特别是它的流动性或申购赎回（create/redeem）流程？"
+    },
+    {
+      "i": 33,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "18:38",
+      "en": "Great question. So active capital markets execution, which involves obviously close liaising with the MN, is required to ensure private holding doesn't affect the ETF in two ways. One is from the bid-ask spread, and two is from a premium discount perspective. So be honest, if you're going to do on a day-to-day basis, also liaising a lot more with LMMs when you have your redemptions or creations. Now, the challenge, of course, is when redemptions tilt the ratio of a private exposure, they can tilt it unless, obviously, the private exposure is trimmed. So the bottom line is it doesn't need to affect an ETF negatively, but it does require more active capital markets management to ensure that both spreads and premium discounts are not affected by the product's exposure.",
+      "zh": "问得好。要确保私募持仓不影响 ETF，需要主动的资本市场执行，其中当然包括与做市商的密切沟通，主要是两个方面：一是买卖价差（bid-ask spread），二是溢价/折价。坦率说，这必须是日常性的工作，在发生赎回或申购时还要与主做市商（LMM）做更多沟通。当然，挑战在于，赎回会推高私募敞口的占比——除非你削减私募敞口，否则它就会倾斜。所以结论是：私募持仓不一定会对 ETF 造成负面影响，但确实需要更主动的资本市场管理，以确保价差和溢折价都不受产品这类敞口的影响。"
+    },
+    {
+      "i": 34,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "19:43",
+      "en": "So a bit more on sizing the position. As an ETF grows and takes in more assets, can the private holding scale along it?",
+      "zh": "再多聊一点仓位规模的问题。随着 ETF 规模增长、资产不断流入，私募持仓能否同步扩张？"
+    },
+    {
+      "i": 35,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "19:51",
+      "en": "Yeah, it's a good question. So not automatically because privates obviously requires capacity and capacity is constrained in a way that your public's exposure is not constrained or less constrained. So arguably net inflows dilute the private's weight until more exposure of the privates can be sourced. I think what Tema has repeatedly demonstrated its ability to source incremental privates exposure at identical or similar terms as funds scale. So in NASA's case, we scaled a $ 1 million position to over a $ 200 million position in SpaceX. And we've, again, on our front book showed that we can scale our position now we've done it twice. So no, it doesn't automatically scale a private holding. It requires sourcing and capacity. And today we've been shown that we have ability to scale into private positions as funds grow.",
+      "zh": "是的，这是个好问题。答案是：不会自动同步扩张。因为私募显然需要“容量”（capacity），而这种容量的受限程度，远高于公开市场敞口所受的约束。所以可以说，在能够寻得更多私募敞口之前，净流入会稀释私募的权重。我认为 Tema 已经反复证明，随着基金规模扩大，我们有能力以相同或相似的条款获取增量私募敞口。以 NASA（Tema 太空创新者 ETF）为例，我们把 SpaceX 的头寸从 100 万美元做到了超过 2 亿美元。而且在实际持仓中我们已经证明能够扩大头寸，现在我们已经做过两次了。所以，私募持仓不会自动随规模放大，它需要项目获取能力和容量。而今天我们已经证明，随着基金规模增长，我们有能力扩大私募头寸。"
+    },
+    {
+      "i": 36,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "20:48",
+      "en": "Is it possible you might not be able to get more exposure to a private? And if that happens, how do you handle that in the portfolio?",
+      "zh": "有没有可能你们无法再增加对某家私营公司的敞口？如果发生这种情况，你们在组合中如何处理？"
+    },
+    {
+      "i": 37,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "20:55",
+      "en": "It is possible. And what that then means is that the private exposure in the ETF will be diluted. So I think over the course of NASA, we probably did 10 different reloads of SpaceX and But ultimately at IPO, the SpaceX exposure is diluted to 8%, 9%. And at one point it was 15%. So there's limitations either because you can't get the access, but there's also a window post the S1 before the IPO when private transactions are no longer permitted. So typically the S1 is not the final date, but there's a period before the actual listing date when no more private transactions can happen. And at that point, any incremental inflows will dilute the private exposure in the fund, assuming no NAV movement.",
+      "zh": "确实有可能。那样的话，就意味着 ETF 中的私募敞口会被稀释。以 NASA 为例，我们大概对 SpaceX 做了 10 次不同的加仓（reload）。但最终在 IPO 时，SpaceX 的敞口被稀释到 8%、9%，而它一度达到过 15%。所以限制是存在的：一方面可能是你拿不到准入机会；另一方面，在 S-1 提交之后、IPO 之前还存在一个窗口期，届时私募交易不再被允许。通常 S-1 提交日并不是最终截止日，在实际上市日之前会有一段时间不能再进行任何私募交易。到了那个时点，假设净值没有变化，任何增量资金流入都会稀释基金中的私募敞口。"
+    },
+    {
+      "i": 38,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "21:42",
+      "en": "Okay.",
+      "zh": "好的。"
+    },
+    {
+      "i": 39,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "21:43",
+      "en": "This is kind of a theoretical question, but say your thesis on a private company has changed. Are you able to sell an SPV interest before an IPO?",
+      "zh": "这算是一个假设性的问题：假如你们对某家私营公司的投资逻辑发生了变化，你们能够在 IPO 之前卖出 SPV 权益吗？"
+    },
+    {
+      "i": 40,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "21:55",
+      "en": "Great question. So the right to sell and the ability to sell are two different things. The right to sell is determined by the SPV terms. which again is part of the SPV diligence. The ability to sell is determined by market conditions. We typically have the flexibility under certain circumstances, including regulatory, to have the right to sell. The ability to sell, we candidly don't control. The companies we typically invest in are companies where access is constrained. And therefore, what we typically see is that there's a lot of demand for the companies we can get access to, especially a company like Anthropic, where access is more constrained than most private companies we've seen recently.",
+      "zh": "问得好。卖出的权利和卖出的能力是两回事。卖出的权利由 SPV 条款决定，这也是 SPV 尽调的一部分；而卖出的能力，坦率说不在我们的掌控之中。我们通常投资的是那些准入机会本身就很稀缺的公司。因此我们通常看到的是，对于我们能够拿到份额的公司，市场需求非常旺盛，尤其是像 Anthropic 这样的公司——它的准入稀缺程度比我们近期见过的大多数私营公司都更高。"
+    },
+    {
+      "i": 41,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "22:42",
+      "en": "If you're able to sell, would that be to a secondary market or back to the sponsor?",
+      "zh": "如果你们能够卖出，那是卖给二级市场，还是卖回给发起方？"
+    },
+    {
+      "i": 42,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "22:46",
+      "en": "Be to an approved buyer, which can include the sponsor who the shares came from originally.",
+      "zh": "卖给经过批准的买方，其中可以包括最初这批股份的来源方，也就是发起方（sponsor）。"
+    },
+    {
+      "i": 43,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "22:55",
+      "en": "We're interested in the life cycle of these investments. Can you walk us through what happens when one of these private companies eventually goes public?",
+      "zh": "我们对这类投资的生命周期很感兴趣。能否给我们讲讲，当其中一家私营公司最终上市时会发生什么？"
+    },
+    {
+      "i": 44,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "23:02",
+      "en": "Sure. So let's talk about from IPO and then post IPO. So from IPO, the private position is valued as a public company would be based on the prevailing market price. So effectively it just trades like a public markets company, even if it's not fully unlocked out of the portfolio. Post IPO, Tema will only invest in the public shares. Tema only invests in SPVs where the liquidity terms mirror the S1 liquidity terms. So there's no incremental liquidity terms over and above whatever will be prescribed in the S1. What means that there's no incremental SPV liquidity restrictions relative to owning the underlying shares pre-IPO and being part of the S1 lockup. So the SPV shares, which almost always are preferred shares, will convert into common shares according to the unlock timetable as aligned in the S1 filing, which is typically somewhere between day 60 and 180, 60 being early, but that was obviously what we saw with SpaceX. I think just one point to make, once something goes public, we don't make any incremental investments in an SPV. Any incremental purchase would be in the listed ticker. And at the point of conversion from preferred shares to common shares, the shares are delivered by the GP of the SPV, i.e. the manager of the SPV, to its LPs in accordance to the terms of the S-1. And when the GP receives the shares, they then deliver the shares into a brokerage or custody account of the SPV owners.",
+      "zh": "好的。我们分 IPO 时点和 IPO 之后来说。在 IPO 时点，私募头寸会像上市公司一样，按当时的市场价格估值。也就是说，即便它还没有完全解禁出组合，它实际上已经像公开市场公司一样交易了。IPO 之后，Tema 只会投资公开交易的股份。Tema 只投资于流动性条款与 S-1 中流动性条款完全一致的 SPV，也就是在 S-1 的规定之外不存在任何增量流动性条款。这意味着，相对于在 IPO 前直接持有底层股份并受 S-1 禁售期约束，SPV 并没有额外的流动性限制。SPV 中的股份几乎总是优先股，它们会按照 S-1 文件中所列的解禁时间表转换为普通股，通常在第 60 天到第 180 天之间，60 天算是很早的——SpaceX 当时就是这个情况。这里我要强调一点：一旦某家公司上市，我们就不会再通过 SPV 做任何增量投资，任何新增买入都会在上市后的股票代码上进行。在优先股转换为普通股时，股份由 SPV 的 GP（普通合伙人，也就是 SPV 的管理人）按照 S-1 的条款交付给其 LP（有限合伙人）；GP 收到股份后，再把股份交付到 SPV 持有人的券商账户或托管账户中。"
+    },
+    {
+      "i": 45,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "24:44",
+      "en": "Understood. So this might be a silly question, but how... Would the ETF ultimately have benefited from accessing the company earlier?",
+      "zh": "明白了。这可能是个有点傻的问题，但……ETF 最终是如何从更早获得这家公司的机会中受益的？"
+    },
+    {
+      "i": 46,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "24:53",
+      "en": "Sure. So the way it benefits from accessing the company earlier is you get the NAV uplift from the price of which you held at cost to the price on the day of the IPO when you typically see a valuation uplift. In the case of SpaceX, that was obviously kind of a serial valuation uplift. So the benefit to the ETF shareholders is through the NAV uplift between The entry price, which is how the cost and the post IPO price starting with, now the benefit to the ETF shareholders is that you can sell, buy and sell at any point. You're not restricted in a way the actual ETF itself is. So what you saw with SpaceX is people bought in before the IPO, they made a bump on the IPO and they transacted out of the ETF post the IPO. Awesome.",
+      "zh": "当然。更早获得公司机会的好处在于，你会获得从成本价到 IPO 当日价格之间的净值提升（NAV uplift），而 IPO 当日通常会出现估值提升。以 SpaceX 为例，那显然是连续多轮的估值提升。所以对 ETF 持有人而言，好处体现在入场价格（即成本）与 IPO 后价格之间的净值提升上；而且对 ETF 持有人来说，好处还在于你随时可以买卖，不像底层私募股份本身那样受限。所以你在 SpaceX 上看到的情况是：人们在 IPO 之前买入，在 IPO 时获得一波上涨，然后在 IPO 之后从 ETF 中卖出退出。太好了。"
+    },
+    {
+      "i": 47,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "25:46",
+      "en": "More broadly, is private company access something you expect to become a broader capability across Tema's lineup? Or is it mostly opportunity of investments when the right situation arises?",
+      "zh": "更宏观地看，获得私营公司准入是否会发展成 Tema 整个产品线上一项更普遍的能力？还是说它主要是在合适机会出现时才做的机会型投资？"
+    },
+    {
+      "i": 48,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "25:59",
+      "en": "So I think the bar for privates should be very high. And most private companies are not suited to being offered through an ETF. I think at Tema, we've been very intentional and very selective what companies we offer exposure to. And today we have the single largest exposure of any ETF to Anthropic, Andoril, Cauchy, Polymarket. And we did that through physical preferred shares delivered through an SPV. So we will do it for more companies, but again, the bar is very high and we typically don't want to do more than one company per ETF or in the case of prediction markets, We have two companies because, frankly, it's a duopoly, and both the companies in the duopoly are still private companies, both CalSheet and PolyMarket.",
+      "zh": "我认为私募的门槛应该定得非常高，而且大多数私营公司并不适合通过 ETF 来提供。在 Tema，对于向投资者提供哪些公司的敞口，我们一直非常审慎、非常挑剔。今天，我们对 Anthropic、Anduril、Kalshi 和 Polymarket 的敞口都是所有 ETF 中最大的，而且我们是通过 SPV 交付的真实优先股实现的。未来我们会为更多公司这样做，但门槛依然很高，而且我们通常不希望一只 ETF 中放入一家以上的私营公司——预测市场是个例外，我们放了两家，因为坦率说那是一个双寡头市场，而这个双寡头中的两家公司 Kalshi 和 Polymarket 目前都还是私营公司。"
+    },
+    {
+      "i": 49,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "26:51",
+      "en": "I think one of the big things we've talked about the last couple of years is just the lack of, or it's changing now, but there was a lower amount of companies going public. And so if you think about the themes out there, are there themes where you think the most important companies are still private?",
+      "zh": "我认为过去几年我们讨论很多的一个大问题，就是上市数量的不足——虽然现在情况正在改变，但之前上市公司的数量确实在减少。那么从市面上的投资主题来看，有没有哪些主题你认为其中最重要的公司仍然是私营的？"
+    },
+    {
+      "i": 50,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "27:05",
+      "en": "I think, so great question. Three things. Companies are staying private for longer. And I think Anthropix IPO would be an exception to that rule. And I think that's probably because there's more capital for companies to grow privately. And there's also certain benefits in terms of the execution focus of allowing companies to grow in a private context versus a public context. So what you see is that every industry typically has one or maybe several iconic private companies, depending a bit on the maturity of that industry and Yeah, as you point out, the public market universe of the last few years has actually shrunk. I think the key thing for us is that we only invest in what we believe are the best generational private companies where there's not just a marketing benefit potentially, but most importantly, there's an investment benefit on fiduciary terms to investors. I think too often when investors have had a recent experience with privates, they have been disappointed by either the money comes slower, It comes lower or it comes longer. And I think ensuring that investors know what they're standing up for, there's full transparency about the fees, the liquidity, and the vehicle, it reduces the risk of disappointment some investors have had with privates over the last few years.",
+      "zh": "好问题。我想讲三点。第一，公司保持私营状态的时间越来越长，我认为 Anthropic 的 IPO 会是这条规律的一个例外。这大概是因为现在有足够多的资本支持公司在私营阶段成长；而且在私营环境下成长相对于公开上市环境，在执行专注度上也有一些好处。所以你会看到，每个行业通常都有一家或几家标志性的私营公司，这在一定程度上取决于该行业的成熟度。第二，正如你指出的，过去几年公开市场的股票池实际上在缩小。第三，对我们来说最关键的是，我们只投资那些我们认为是一代人一遇（generational）的最佳私营公司——它们不仅可能带来营销层面的好处，更重要的是能以受托条款为投资者带来投资层面的收益。我认为，投资者近年在私募上的体验常常令人失望：回报来得更慢、更少，或者等得更久。而确保投资者清楚自己买的到底是什么，在费用、流动性和产品载体上做到完全透明，就能降低过去几年一些投资者在私募上遭遇失望的风险。"
+    },
+    {
+      "i": 51,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "28:30",
+      "en": "Okay.",
+      "zh": "好的。"
+    },
+    {
+      "i": 52,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "28:31",
+      "en": "And so it sounds like SPVs really help you build a more complete thematic portfolio than just holding public names alone just because of what we just talked about.",
+      "zh": "所以听起来，正是因为我们刚才谈到的这些原因，SPV 确实能帮助你们构建一个比只持有上市公司更完整的主题组合。"
+    },
+    {
+      "i": 53,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "28:40",
+      "en": "I think to use two examples, I think if you were to invest in the space economy, but not invest in SpaceX, or you're investing in prediction markets, but you're not investing in calcium and polymarket, you're arguably missing the category leader or the category innovator in that particular space. So our view is that we focus on privates where we think there's a mandate and the bar has to be very high. But yes, we do believe there is a small number of companies which definitely make sense to offer for an ETF. if access can be obtained on fiduciary terms. Makes sense.",
+      "zh": "举两个例子：如果你投资太空经济，却不投资 SpaceX；或者你投资预测市场，却不投资 Kalshi 和 Polymarket，那么可以说你错过了这个特定领域中的品类领导者或品类创新者。所以我们的观点是：我们只聚焦于那些我们认为确有需求（mandate）的私募标的，而门槛必须非常高。不过，是的，我们确实认为有少数一些公司绝对值得在 ETF 中提供——前提是能以受托条款获得准入机会。有道理。"
+    },
+    {
+      "i": 54,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "29:15",
+      "en": "Unfortunately, we need to end here, but this was very insightful. Thank you again, Moritz, for joining us today.",
+      "zh": "很遗憾我们必须到此结束了，但这次交流非常有启发。再次感谢 Maurits 今天加入我们。"
+    },
+    {
+      "i": 55,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "29:21",
+      "en": "Thanks for having me on the show. I enjoyed the conversation.",
+      "zh": "感谢邀请我上节目，我很享受这次对话。"
+    },
+    {
+      "i": 56,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "29:24",
+      "en": "And Sharun, thank you again for being my co-host today.",
+      "zh": "Sharun，也再次感谢你今天担任我的联合主持人。"
+    },
+    {
+      "i": 57,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "29:26",
+      "en": "Thank you.",
+      "zh": "谢谢。"
+    },
+    {
+      "i": 58,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "29:28",
+      "en": "And I also want to thank our listeners. If you liked the episode, please share it, subscribe, and leave a review. And if you'd like to see more of our research on the terminal, go to BIFundGo for US fund and active research. Until our next episode, this is David Cohn with Inside Active.",
+      "zh": "我还要感谢我们的听众。如果你喜欢这期节目，请分享、订阅并留下评论。如果你想在彭博终端上查看更多我们的研究，请输入 BIFundGo 查看美国基金与主动投资研究。下期节目再见，这里是 Inside Active，我是 David Cohne。"
+    }
+  ]
+}
