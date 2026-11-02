@@ -1,0 +1,1617 @@
+{
+  "show": "odd-lots",
+  "kind": "transcript",
+  "id": "348684257",
+  "guid": "a830f773-b13e-4ffb-8e2b-b4f10170ca4e",
+  "slug": "2026-10-29-what-wall-street-really-thinks-about-348684257",
+  "date": "2026-10-29",
+  "title_en": "What Wall Street Really Thinks About the AI Trade Now",
+  "title_zh": "华尔街现在究竟怎么看 AI 交易",
+  "subtitle_zh": "巴克莱全球股票战术策略主管 Alexander Altmann 做客 Odd Lots：neocloud 的融资裂缝、AI 泡沫的“否认”阶段、资本竞争与净发行，以及为什么个股剧烈波动、VIX 却依然平静。",
+  "description": "What Wall Street Really Thinks About the AI Trade Now",
+  "duration": "41:10",
+  "duration_seconds": 2470,
+  "episode_url": "https://www.iheart.com/podcast/1308-odd-lots-30972803/episode/what-wall-street-really-thinks-about-the-ai-trade-now-348684257",
+  "audio_url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/8a94442e-5a74-4fa2-8b8d-ae27003a8d6b/a830f773-b13e-4ffb-8e2b-b4f10170ca4e/audio.mp3?utm_source=Podcast&in_playlist=982f5071-765c-403d-969d-ae27003a8d83&source=iheart",
+  "speakers": {
+    "0": "Bloomberg Audio Studios（旁白）",
+    "1": "Tracy Alloway（主持）",
+    "2": "Alexander (Alex) Altmann（嘉宾）",
+    "3": "Joe Weisenthal（主持）"
+  },
+  "turn_count": 199,
+  "turns": [
+    {
+      "i": 0,
+      "speaker": 0,
+      "speaker_zh": 0,
+      "ts": "00:03",
+      "en": "Bloomberg Audio Studios. Podcasts.",
+      "zh": "彭博音频工作室（Bloomberg Audio Studios）。播客。"
+    },
+    {
+      "i": 1,
+      "speaker": 0,
+      "speaker_zh": 0,
+      "ts": "00:06",
+      "en": "Radio. News.",
+      "zh": "广播。新闻。"
+    },
+    {
+      "i": 2,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "00:09",
+      "en": "Hello and welcome to another episode of the All Thoughts Podcast. I'm Traci Allaway.",
+      "zh": "大家好，欢迎收听新一期的 Odd Lots 播客。我是崔西·阿洛韦（Tracy Alloway）。"
+    },
+    {
+      "i": 3,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "00:22",
+      "en": "And I'm Joe Weisenthal.",
+      "zh": "我是乔·韦森塔尔（Joe Weisenthal）。"
+    },
+    {
+      "i": 4,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "00:23",
+      "en": "Joe, interesting times in markets.",
+      "zh": "乔，眼下市场可真是有意思。"
+    },
+    {
+      "i": 5,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "00:26",
+      "en": "You know what?",
+      "zh": "你知道吗？"
+    },
+    {
+      "i": 6,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "00:26",
+      "en": "What?",
+      "zh": "怎么了？"
+    },
+    {
+      "i": 7,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "00:28",
+      "en": "I kind of feel like I lost the plot.",
+      "zh": "我有点感觉自己已经跟不上剧情了。"
+    },
+    {
+      "i": 8,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "00:29",
+      "en": "I know.",
+      "zh": "我也是。"
+    },
+    {
+      "i": 9,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "00:30",
+      "en": "I was like, I had this realization. I don't know what anything's going on anymore. We're just talking markets. And obviously I lost the plot with life in general. Like no one's disputed that. But just as like, what are the consensus trades these days? Like what are people actually worried about with some of these data center stuff? Like what, Corweave, what, et cetera. I have no idea what anyone thinks anymore. Like I need a reality check badly.",
+      "zh": "我这么说吧，我突然意识到，我已经完全搞不清现在到底在发生什么了。我们就在那儿聊市场。当然，我对整个人生都已经失去了方向感——这一点没人否认。但单说市场，现在所谓的共识交易到底是什么？对于这些数据中心的东西，人们究竟在担心什么？什么 CoreWeave 之类的。我真的不知道现在任何人是怎么想的了。我特别需要一次现实校准（reality check）。"
+    },
+    {
+      "i": 10,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "00:54",
+      "en": "So we're recording this on October 28th. And in terms of market reality checks, we're actually doing better on this one because we often end up recording these right before a Fed decision or right before an S-1 comes out or right before earnings guidance or something. This time, we've timed it pretty well. So we just had the FOMC decision. Earlier this week, we had the S-1 filing from Anthropic. During the Fed presser, Oracle came out with some additional guidance. There's a lot of stuff going on, even though we're going to be able to talk about some of it. There's more stuff coming up later this week. And so I feel like it's a really good moment in time to kind of stop and figure out what's going on.",
+      "zh": "我们这期节目是在10月28日录制的。要说市场的现实校准，这一次我们的时机其实相当不错，因为我们经常是在美联储决议之前、或者某份 S-1 招股书公布之前、或者财报指引出来之前赶着录。这次我们卡得挺准。所以，本周早些时候 FOMC（联邦公开市场委员会）决议刚刚出炉，Anthropic 的 S-1 文件也提交了，美联储发布会期间甲骨文（Oracle）又额外给出了一些指引。事情非常多，尽管我们只能聊其中一部分。本周晚些时候还会有更多。所以我觉得，这正是一个停下来好好梳理一下当前局势的绝佳时点。"
+    },
+    {
+      "i": 11,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "01:36",
+      "en": "What's going on? So you mentioned Oracle had some investor day data coming out. The stock is up 12%. I know. I would say this was a bigger story today than the FOMC.",
+      "zh": "到底在发生什么？你提到甲骨文公布了一些投资者日的数据。股价涨了12%。我知道。我会说，今天这件事比 FOMC 更重要。"
+    },
+    {
+      "i": 12,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "01:48",
+      "en": "Yeah.",
+      "zh": "嗯。"
+    },
+    {
+      "i": 13,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "01:48",
+      "en": "Right. Like the questions about Capital expenditures, how much debt the big hyperscalers and so forth are going to take on. Clearly, I would say in the minds of many participants, much bigger questions than like, oh, did they are going to hold in October or whatever.",
+      "zh": "对吧。比如关于资本开支的问题，那些大型超大规模云厂商（hyperscaler）要背负多少债务等等。显然，我会说，在很多市场参与者的心目中，这些问题远比“哦，他们10月会不会按兵不动”要大得多。"
+    },
+    {
+      "i": 14,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "02:03",
+      "en": "Not a high bar given Kevin Warsh's ability to deflect.",
+      "zh": "考虑到凯文·沃什（Kevin Warsh）打太极的本事，这个门槛可不高。"
+    },
+    {
+      "i": 15,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "02:09",
+      "en": "I tuned in for a few minutes of that press conference.",
+      "zh": "那场新闻发布会我收看了几分钟。"
+    },
+    {
+      "i": 16,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "02:10",
+      "en": "But you're right.",
+      "zh": "不过你说得对。"
+    },
+    {
+      "i": 17,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "02:11",
+      "en": "That guy's good at not saying that.",
+      "zh": "那人真的很擅长什么都不说。"
+    },
+    {
+      "i": 18,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "02:12",
+      "en": "All right. Well, we do in fact have the perfect guest. We're going to be speaking with someone who we've had on the podcast before. Last time we were talking about levered ETFs. This time we're going to get a general sort of market overview. It's Alex Altman, Global Head of Equities Tactical Strategies over at Barclays. So Alex, thank you so much for coming back on OddLots.",
+      "zh": "好吧。事实上，我们请到了最合适的嘉宾。我们要对话的这位，之前来过我们节目。上一次我们聊的是杠杆 ETF。这一次我们要做一个更宏观的市场综述。他就是巴克莱（Barclays）全球股票战术策略主管亚历克斯·阿尔特曼（Alex Altmann）。Alex，非常感谢你再次做客 Odd Lots。"
+    },
+    {
+      "i": 19,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "02:30",
+      "en": "Thank you very much for having me again.",
+      "zh": "非常感谢再次邀请我。"
+    },
+    {
+      "i": 20,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "02:32",
+      "en": "So what's going on? No, I mean, is there like a consensus AI outlook at the moment?",
+      "zh": "那么现在到底怎么回事？我是说，目前市场对 AI 有没有一个共识性的展望？"
+    },
+    {
+      "i": 21,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "02:41",
+      "en": "Yeah, there is.",
+      "zh": "有的。"
+    },
+    {
+      "i": 22,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "02:42",
+      "en": "The consensus AI outlook is that AI is still going to, this train is in motion. We're not stopping this train. That's still the consensus, to be very clear. And let's say if you were to sort of take a sample of a bunch of investors across different cohorts, whether it's in the US, Europe, Asia, and ask them, gun to their head, do you want to still be bullish or bearish the AI story? You're going to get an overwhelming positive answer.",
+      "zh": "对 AI 的共识展望是：AI 还会继续下去，这列火车已经在动，我们停不下它。这仍然是共识，我要把这点说得非常清楚。而且，假设你去抽样一大批不同类别的投资者——不管是美国的、欧洲的还是亚洲的——拿枪指着他们问：你现在还想看多还是看空 AI 这个故事？你会得到一个压倒性的正面回答。"
+    },
+    {
+      "i": 23,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "03:11",
+      "en": "Yeah. Right.",
+      "zh": "嗯，对。"
+    },
+    {
+      "i": 24,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "03:11",
+      "en": "And we can debate like where people are on the position scale, but like that's the general view. Right. And this is why I think that if you, you know, you've probably seen that chart of where we are in like the bubble kind of thing. And then as it begins to roll over, the first dip down is the denial one.",
+      "zh": "我们可以争论大家在仓位刻度上处于什么位置，但这就是大体的看法。对吧。这也是为什么——你大概见过那张图，画的是我们在泡沫曲线上的位置，然后当它开始掉头向下时，第一个下探的阶段就是“否认”。"
+    },
+    {
+      "i": 25,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "03:30",
+      "en": "Yeah.",
+      "zh": "嗯。"
+    },
+    {
+      "i": 26,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "03:31",
+      "en": "I'm not going to say we're at kind of this bubbles popped. I know there's commentary out there that actually has said that, but I definitely, if you were to sort of juxtapose those two narratives, we're in the denial phase right now because everyone is still extremely bullish.",
+      "zh": "我不会说我们已经走到了“泡沫破裂”那一步。我知道外面确实有些评论这么说，但如果你把这两种叙事并排放在一起看，我们现在处于“否认”阶段，因为每个人都还极度看多。"
+    },
+    {
+      "i": 27,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "03:44",
+      "en": "Yeah.",
+      "zh": "嗯。"
+    },
+    {
+      "i": 28,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "03:46",
+      "en": "You got guys saying like, oh, semiconductors, you got Hynix or whatever, or some of these Korean memory stocks, they're on three times earnings. I'm like, you can look up three times earnings on a Bloomberg terminal. That requires no work at all.",
+      "zh": "有人在说，哦，半导体，你看海力士（SK Hynix）之类的，或者一些韩国内存股，它们的市盈率只有三倍。我就想说，你在彭博终端上一查就能看到三倍市盈率，这根本不需要花什么功夫。"
+    },
+    {
+      "i": 29,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "03:57",
+      "en": "Right.",
+      "zh": "对。"
+    },
+    {
+      "i": 30,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "03:57",
+      "en": "So everyone is out there.",
+      "zh": "所以市场上大家都在这么找标的。"
+    },
+    {
+      "i": 31,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "03:59",
+      "en": "Thank you for plugging the utility of the Bloomberg terminal, by the way.",
+      "zh": "顺便说一句，谢谢你为彭博终端的实用性打广告。"
+    },
+    {
+      "i": 32,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "04:02",
+      "en": "What do you mean there are 3X earnings?",
+      "zh": "你说“三倍市盈率”是什么意思？"
+    },
+    {
+      "i": 33,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "04:05",
+      "en": "There are memory stocks that are.",
+      "zh": "确实有些内存股就是这个估值。"
+    },
+    {
+      "i": 34,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "04:07",
+      "en": "They're traded with an EPS, not an EPS, a PE of three. Correct. Because people there is. And because the perception is that we're at such a peak and we know how cyclical of an industry it is that when the earnings are this good, you're not going to pay up for them. Exactly.",
+      "zh": "它们的交易估值是——不是 EPS，是市盈率（P/E）三倍。没错。因为人们的认知是，我们正处在这样一个周期高点，而大家又清楚这个行业的周期性有多强，所以当盈利好到这种程度的时候，你是不会给出高估值的。正是如此。"
+    },
+    {
+      "i": 35,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "04:26",
+      "en": "The old mantra is you don't buy cyclical companies, especially ones as historically cyclical as semiconductors, when they're at peak earnings.",
+      "zh": "老话是这么说的：不要在周期股盈利见顶的时候买入，尤其是像半导体这样在历史上周期性极强的公司。"
+    },
+    {
+      "i": 36,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "04:35",
+      "en": "I didn't realize they were that low. Okay. So let's put some pieces together. So we have the fact that the P.E. is actually quite low. People do not expect exponential growth from the memory companies in terms of their EPS anytime soon as implied by the P.E.",
+      "zh": "我没想到它们的估值低到这个程度。好，那我们把几块拼图拼起来。所以，事实是市盈率其实相当低；从市盈率隐含的意思来看，人们并不预期内存公司的 EPS 短期内会指数级增长。"
+    },
+    {
+      "i": 37,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "04:51",
+      "en": "Ratios.",
+      "zh": "比率。"
+    },
+    {
+      "i": 38,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "04:52",
+      "en": "What is going on with the neoclouds? Why is it that despite, as you say, the consensus is bullish, still everyone wants to be long, the AI trade, suddenly there's all this anxiety about, you know, people are quoting Corweave CDS charts.",
+      "zh": "那 neocloud（新型云服务商）到底怎么了？为什么就像你说的，共识依然看多，所有人都还想做多 AI 交易，却突然冒出这么多焦虑情绪？大家开始到处转发 CoreWeave 的 CDS（信用违约互换）走势图。"
+    },
+    {
+      "i": 39,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "05:07",
+      "en": "Sure.",
+      "zh": "好。"
+    },
+    {
+      "i": 40,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "05:07",
+      "en": "All right.",
+      "zh": "行。"
+    },
+    {
+      "i": 41,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "05:08",
+      "en": "So let's take a step back for a second, right? Because I want to talk about neoclouds in the context of the broader AI ecosystem. So obviously neoclouds are a group of businesses that are effectively in some way, shape or form mandated to build compute, which they will then sell to predetermined customers, some of which predetermined, some of them will be speculative. Regardless of what you may believe in that business model or not, these are tip of the spear. These businesses don't have operating cash flow today or minimal operating cash flow today in many cases. And so they represent the riskier part of the financing aspect of the AI spectrum.",
+      "zh": "那我们先后退一步，好吗？因为我想把 neocloud 放在整个 AI 生态系统的大背景下来谈。显然，neocloud 是这么一类企业：它们某种程度上被要求去建设算力，然后再把这些算力卖给既定的客户——其中一部分客户是事先约定的，另一部分则是投机性的。不管你是否认同这种商业模式，它们都是“矛尖”（tip of the spear，最前沿、最先承受冲击的位置）。这些公司今天没有经营性现金流，或者在很多情况下经营性现金流微乎其微。所以它们代表了 AI 融资链条中风险更高的那一端。"
+    },
+    {
+      "i": 42,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "05:48",
+      "en": "Right.",
+      "zh": "对。"
+    },
+    {
+      "i": 43,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "05:48",
+      "en": "And I think that's, that's an irrefutable fact. You know, people can talk about, well, actually they're REITs in disguise and actually they're not, they're nowhere near as risky as people think they are.",
+      "zh": "而且我认为，这是一个无可辩驳的事实。人们可以说，哎呀其实它们是变相的 REITs（房地产投资信托），其实它们远没有大家以为的那么危险。"
+    },
+    {
+      "i": 44,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "05:58",
+      "en": "Sure.",
+      "zh": "好。"
+    },
+    {
+      "i": 45,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "05:58",
+      "en": "Let's have that debate. But compared to say the hyperscalers, whether it's, you know, the Googles and the Amazons who have got huge, I mean, they're cash volcano businesses. They are different, different sort of category. And the reason I want to make that distinction is because if you think of neoclouds as periphery and hyperscalers as core.",
+      "zh": "这个我们可以辩。但和超大规模云厂商相比——不管是谷歌还是亚马逊，它们体量巨大，我是说，它们是“现金火山”型的生意。它们是完全不同的类别。我之所以要强调这个区分，是因为如果你把 neocloud 看作外围、把超大规模云厂商看作核心，"
+    },
+    {
+      "i": 46,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "06:16",
+      "en": "Yeah.",
+      "zh": "嗯。"
+    },
+    {
+      "i": 47,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "06:16",
+      "en": "And I want you to draw a parallel, not directly, cause I'm not trying to make some sensationalist statement here, but draw a parallel to the GFC. Right. The problem doesn't didn't start with GC banks.",
+      "zh": "我想让你做一个类比——不是直接的类比，因为我并不是要在这里说什么耸人听闻的话——而是和全球金融危机（GFC）做类比。对吧，问题并不是从大型银行开始的。"
+    },
+    {
+      "i": 48,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "06:29",
+      "en": "Right.",
+      "zh": "对。"
+    },
+    {
+      "i": 49,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "06:30",
+      "en": "It started with subprime vehicles, 12, 18, 24 months beforehand.",
+      "zh": "它是从次贷这个载体开始的，比危机爆发早了12、18、24个月。"
+    },
+    {
+      "i": 50,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "06:35",
+      "en": "Right.",
+      "zh": "对。"
+    },
+    {
+      "i": 51,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "06:36",
+      "en": "And so what's I find most interesting is that there is evidently a financing problem within Neo clouds, right? That is evident Cypher try to, they did their convert. nuked their own share price in doing so because they clearly couldn't tap the debt markets directly.",
+      "zh": "所以我觉得最有意思的是，neocloud 内部显然存在一个融资问题。这一点很明显：Cipher 试着去融资，他们发了可转债，结果把自己的股价砸了下去，因为他们显然没法直接进入债券市场融资。"
+    },
+    {
+      "i": 52,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "06:50",
+      "en": "I don't even know who. Cypher?",
+      "zh": "我都不知道 Cipher 是谁？"
+    },
+    {
+      "i": 53,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "06:52",
+      "en": "It's another neocloud. Exactly. A company that you've never heard of. And yet the reason why CoreWeave bonds sold off was not because of CoreWeave. They didn't say anything that week. It was because Cypher, another neocloud, tried to tap financing. And in doing so, materially hurt their own share price. And then all of a sudden, a bunch of investors, quick off the mark, put two and two together.",
+      "zh": "它是另一家 neocloud。没错。一家你从来没听说过的公司。但 CoreWeave 的债券之所以遭到抛售，原因并不在 CoreWeave 本身——那一周他们什么也没说。是因为 Cipher，另一家 neocloud，试图融资，而这么做严重伤害了它自己的股价。然后突然之间，一批反应很快的投资者就把这两件事联系到了一起。"
+    },
+    {
+      "i": 54,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "07:16",
+      "en": "Right.",
+      "zh": "对。"
+    },
+    {
+      "i": 55,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "07:17",
+      "en": "And then it spilled over, but like, quite frankly, if you look at the data center bonds in isolation, whether like the beignets of this.",
+      "zh": "接着就外溢了。但坦白说，如果你单独看数据中心债券——不管是 Beignet 这一类的，"
+    },
+    {
+      "i": 56,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "07:22",
+      "en": "World, you know, the meta one, exactly.",
+      "zh": "这一类的，你知道，就是 Meta 那只，没错。"
+    },
+    {
+      "i": 57,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "07:25",
+      "en": "Yeah.",
+      "zh": "嗯。"
+    },
+    {
+      "i": 58,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "07:26",
+      "en": "These had already been widening. For months prior to that.",
+      "zh": "这些债券在那之前的好几个月就已经在走阔了。"
+    },
+    {
+      "i": 59,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "07:30",
+      "en": "Right.",
+      "zh": "对。"
+    },
+    {
+      "i": 60,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "07:30",
+      "en": "And we'd seen a creep in IG hyperscale is one of.",
+      "zh": "我们也看到投资级（IG）超大规模云厂商那一类出现了利差的缓慢爬升，其中一家是"
+    },
+    {
+      "i": 61,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "07:33",
+      "en": "These ones that pivoted from Bitcoin mining to getting into AI.",
+      "zh": "就是那些从比特币挖矿转型做 AI 的公司。"
+    },
+    {
+      "i": 62,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "07:36",
+      "en": "Yeah. Yeah. All right.",
+      "zh": "嗯，嗯。好。"
+    },
+    {
+      "i": 63,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "07:37",
+      "en": "So I guess the point I'm trying to make is, is that there's ripple effects in financing that start in. in the periphery, and we're seeing that. So what I find amazing, back to the original point in terms of you asked what's going on, are people bullish or bearish, and we literally just conducted a survey with a group of investors.",
+      "zh": "所以我想说的重点是，融资领域存在涟漪效应，它从外围开始扩散，而我们正在看到这一幕。回到最初的问题——你问到底在发生什么，大家是看多还是看空——我们刚刚对一组投资者做了一项调查。"
+    },
+    {
+      "i": 64,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "07:55",
+      "en": "Fantastic.",
+      "zh": "太好了。"
+    },
+    {
+      "i": 65,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "07:56",
+      "en": "Yeah. And the only, I mean, you could make this argument, this is a high number, but from the responses that we've got so far, around about 60% of investors, we asked them a question, do you think financing is going to be a problem? AI financing is going to be a problem for the foreseeable future.",
+      "zh": "是的。而且唯一——我是说，你可以这么论证，说这个比例算高的——但从我们目前收到的回复来看，大约60%的投资者……我们问他们一个问题：你认为融资会成为一个问题吗？AI 融资在可预见的未来会成为一个问题吗？"
+    },
+    {
+      "i": 66,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "08:11",
+      "en": "Only 60% said yes.",
+      "zh": "只有60%的人说“是”？"
+    },
+    {
+      "i": 67,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "08:13",
+      "en": "By definition, what's happened over the past couple of weeks means the answer should be 100%, right? And yet, let's just call it just over half think or just under half think there is no financing issue, but there is. So what's happening in AI to me is evidence of like almost a denial of a reality that's already here.",
+      "zh": "从定义上讲，过去几周发生的事情意味着答案本该是100%，对吧？然而，我们就这么说吧：刚刚过半的人认为是，或者说将近一半的人认为不存在融资问题——但问题是实实在在存在的。所以在我看来，AI 领域正在发生的这一切，几乎就是对一个已经摆在眼前的现实的否认。"
+    },
+    {
+      "i": 68,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "08:34",
+      "en": "To be fair, one of the reasons CoreWeave started selling off was because Brandon McBee gave an interview to the FT where he was talking literally about unlimited amounts of borrowing, which I think ties into what you're discussing when it comes to capital concerns. So on the financing side, I mean, we've seen some differentiation in terms of lending money to different AI entities out there. Is the overarching point that we've been in a period where it seemed like there was in fact unlimited money and people could tap the IG markets or the loan markets for as much as they needed. And now we're moving to a period where things are more selective and not everyone is going to be able to get the type of funding that they were tapping before.",
+      "zh": "说句公道话，CoreWeave 开始遭到抛售的原因之一，是 Brannin McBee 接受了《金融时报》（FT）的采访，在采访中他实打实地谈到了“无限量”的举债——我觉得这正好呼应了你所说的那种对资本的担忧。所以在融资这一侧，我们已经看到，市场在向市面上不同的 AI 主体放贷时出现了一些分化。那么核心的要点是不是：我们此前处在一个看起来资金无限的阶段，人们想融多少就能从投资级债市或贷款市场融到多少；而现在我们正在转向一个更加挑剔的阶段，不是每个人都能再拿到以前那种规模的资金了。"
+    },
+    {
+      "i": 69,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "09:21",
+      "en": "That is exactly it.",
+      "zh": "完全正确。"
+    },
+    {
+      "i": 70,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "09:23",
+      "en": "Right. Because, you know, part of the job that my team does is we travel the world. We talk to a lot of different investors and, We ask questions, we collate the kind of feedback that informs our decisions. And there was this almost universal view that, and you guys would have heard it as well, AI was immune to high interest rates. Evidently is not true, right? And so there is a spectrum. And even, I think that's where I think the meta results were pretty instructive in the 14C, in the sense that they highlighted the fact that financing does constrain, financing does have limitations. And we wrote a load of, we did a load of work on this in the summer where we were looking, not specifically at AI, we were just looking at the holistic net issuance profile of the market. And maybe you guys saw this. And we looked at just the entire corporate market, so IG high yield. We looked at treasuries and we looked at, equity. And we went back to about 1995, collated all the data, and looked at each market, the amount of net issuance in any given year as a percentage of each market's market cap in that given year. And then we plotted it over time. And what we found was there was, unsurprisingly, a very strong relationship. When interest rates went down, overall issuance went up, and vice versa, as you'd expect.",
+      "zh": "对。因为你知道，我团队工作的一部分就是跑遍全球，和大量不同的投资者交流，我们提问、我们汇总各种反馈，用来指导我们的判断。当时几乎是一种普遍的看法——你们肯定也听到过——就是 AI 对高利率免疫。显然这不是真的，对吧？所以这里面是有一个谱系的。而且我觉得，Meta 那次财报在这方面（14C）颇具启发意义，它凸显了一个事实：融资是有约束的，融资是有局限的。今年夏天我们就此做了大量研究，我们看的并不是专门针对 AI，而是看整个市场的净发行全景。也许你们也看到了。我们考察了整个公司债市场，也就是投资级和高收益级；我们看了国债，也看了股票。我们把数据回溯到大约1995年，把所有数据汇总起来，针对每个市场计算任意一年的净发行额占该市场当年市值的百分比。然后我们把它按时间画出来。我们发现——毫不意外——两者之间存在非常强的关系：利率下行时，整体发行量上升；反之亦然，正如你所预期的那样。"
+    },
+    {
+      "i": 71,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "10:41",
+      "en": "The laws of the economy still exist.",
+      "zh": "经济规律还是存在的嘛。"
+    },
+    {
+      "i": 72,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "10:43",
+      "en": "Well, apparently not so much in 2025 and 2026.",
+      "zh": "嗯，看起来在2025年和2026年就不太存在了。"
+    },
+    {
+      "i": 73,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "10:45",
+      "en": "Yeah, here's the punchline.",
+      "zh": "是啊，这就是关键所在。"
+    },
+    {
+      "i": 74,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "10:47",
+      "en": "Yeah, this is the... Yeah, exactly. This is the punchline. 2026 has completely shattered what you'd seen in the norms. I think Tracy used You looked at that chart. Yeah.",
+      "zh": "对，这就是……对，没错。这就是关键所在。2026年彻底打破了你所见过的那些常态。我想 Tracy 刚才也……你看过那张图。是的。"
+    },
+    {
+      "i": 75,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "10:58",
+      "en": "So you had, you had this great chart plotting the relationship between the two year yield and net issuance. And you can see the relationship really breaks down in 2026. So we are issuing a lot more. We're selling a lot more bonds, a lot more debt related to benchmark rates than pretty much like ever in history. It's, it's kind of biblical.",
+      "zh": "你有一张非常棒的图，画的是两年期美债收益率和净发行量之间的关系。你能看到这个关系在2026年彻底断裂了。也就是说，我们正在发行多得多的债券——相对于基准利率而言，我们卖出的债券、卖出的债务规模几乎是史上最高。这简直是史诗级的。"
+    },
+    {
+      "i": 76,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "11:20",
+      "en": "It's certainly, we have data back to the nineties. So, you know, if you compare it to say.com, And the interesting thing about dot-com is, of course, there was a lot of equity issuance and interest rates were high, but the US government was basically running a surplus and all this kind of stuff. So today is very unique. And the reason why I bring it back to the sort of AI financing is because there is this competition for capital. It is real. AI is not issuing debt in a vacuum. There are other verticals that need to tap financing too. And there is a finite amount, right? So IG issuance and a high-yield market this year on a net basis, we forecast to be $ 1. 1 trillion, right? And we just throw around trillions as though it's just this casual number that everyone's got, but there is limitations, right?",
+      "zh": "确实如此。我们的数据可以回溯到九十年代。所以如果你拿它和互联网泡沫（dot-com）时期相比——关于 dot-com 有意思的一点当然是，当时股票发行量很大、利率也很高，但美国政府基本上在财政盈余，诸如此类。所以今天是非常独特的。我之所以要把话题拉回到 AI 融资上，是因为存在这种对资本的竞争，它是真实的。AI 并不是在真空中发行债券。还有其他行业也需要融资。而资金总量是有限的，对吧？所以我们预测，今年投资级加上高收益债市场的净发行规模是1.1万亿美元。对吧？我们张口就是几万亿，好像这就是个人人都随口能说的数字，但实际上是有限度的，对吧？"
+    },
+    {
+      "i": 77,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "12:22",
+      "en": "Reconcile this. If there is this perception that people are still bullish, there is a, the train is still moving at full speed. Why should capital be hesitant? Like, okay. So it's like, you can, you can see on the numbers, like the core weaves and the irons and the cipher and like a bunch of other ones that I had never heard of. Like, yes, clearly there's the capital markets are telling something, telling them something. But why? If the view is that AI is still generally going straight up, what is the fear about these companies that are at the tip of the sphere? Wouldn't the bull say, look, someone is going to pay for these GPUs. The demand is going up. If they buy or rent or whatever, if they have electricity, if they have GPUs, if they bought them, whatever, they're not going to zero. They're going to be worth a lot of money somewhere or nothing.",
+      "zh": "你把这个调和一下看看。如果人们的认知还是看多，这列火车还在全速前进，那资本为什么要犹豫？就像……好吧，你从数字上能看出来，CoreWeave、IREN、Cipher，还有一堆我从没听说过的公司，显然资本市场在告诉它们一些东西。但为什么呢？如果主流观点仍然是 AI 会一路直上，那对这些处在“矛尖”上的公司，恐惧究竟是什么？多头难道不会说：看，总有人会付钱买这些 GPU 的。需求在上升。不管是买还是租，只要它们有电、有 GPU、已经把设备买下来了，不管怎样，它们不会归零。它们要么在某个环节上值很多钱，要么就一文不值。"
+    },
+    {
+      "i": 78,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "13:17",
+      "en": "Yeah.",
+      "zh": "嗯。"
+    },
+    {
+      "i": 79,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "13:18",
+      "en": "So that, that is the bull argument is there's nothing wrong with it in terms of build it and they will come. I would say that, that the challenge will be to the early two things to the earlier point, tip of the spear. So when you start to see cracks or canaries in coal mines or however you want to characterize it, you should probably pay attention. Right.",
+      "zh": "所以那就是多头的论点，这个论点本身没什么毛病——“建好了，客户自然会来”。我会说，挑战在于两点。第一点回到前面说的“矛尖”：当你开始看到裂缝、看到煤矿里的金丝雀，或者你愿意怎么形容都行，你大概就该注意了。对吧。"
+    },
+    {
+      "i": 80,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "13:37",
+      "en": "Um, and, and.",
+      "zh": "嗯，而且，而且。"
+    },
+    {
+      "i": 81,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "13:39",
+      "en": "The second point is, is that, thank you. Uh, the second point is we, we need to think about revenues at the end of the day. And this is something which we addressed at the end of August in a note called placing your AI chips more carefully. And the idea was, is that we basically decomposed. It was around the time of the SpaceX TAM. If you remember, that was around about $ 30 trillion.",
+      "zh": "第二点是，谢谢。呃，第二点是，我们终究要考虑收入。这是我们在8月底一份题为《更谨慎地押注你的 AI 筹码》（Placing your AI chips more carefully）的报告中讨论过的问题。这个思路是，我们基本上做了一次拆解。当时正好是那份 SpaceX TAM（潜在市场规模）报告出来的时候。如果你还记得，那个数字大约是30万亿美元。"
+    },
+    {
+      "i": 82,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "14:02",
+      "en": "It was a total addressable market of like the entire universe, not just earth, something like that.",
+      "zh": "那个潜在市场规模基本上等于整个宇宙，不只是地球，大概是这个意思。"
+    },
+    {
+      "i": 83,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "14:09",
+      "en": "Yeah. $ 30 trillion, which is obviously around about the GDP of the United States. And so we went, again, to the point about people throwing around trillions. Fun fact for you. Since 1990, I can't actually take credit for this stat, by the way. This actually belongs to Cameron Crease at, who also works here?",
+      "zh": "对，30万亿美元，这显然差不多就是美国的 GDP。所以我们又一次——回到人们张口就是几万亿这个点上——给你讲个有意思的事实：自1990年以来……顺便说一句，这个数据其实不能算我的功劳，它实际上出自 Cameron Crease，他也在这里工作。"
+    },
+    {
+      "i": 84,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "14:25",
+      "en": "Our colleague, yeah.",
+      "zh": "我们的同事，对。"
+    },
+    {
+      "i": 85,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "14:26",
+      "en": "And so give him the necessary plug on this. Looking at the cumulative revenue of the two most successful tech companies in modern history, it was Microsoft and Apple, and it was the cumulative TAM of those two was, I think, inflation-adjusted, not even $ 10 trillion since 1990. But SpaceX's addressable is talking three times that number. So that kind of prompts us, where's all this money going to come from? So punchline again, $ 17 trillion of S & P top line revenue. And they've got around about $ 11 or $ 12 trillion of expenses. And so that means that the net profit approximately of the S & P is somewhere between five and five and a half trillion.",
+      "zh": "所以要给他这个应有的曝光。看一下现代历史上最成功的两家科技公司——微软和苹果——的累计收入，这两家公司的累计 TAM，我记得经过通胀调整后，自1990年以来甚至都不到10万亿美元。而 SpaceX 声称的可寻址市场是这个数字的三倍。这就让我们不禁要问：这些钱到底要从哪儿来？所以，重点结论又来了：标普500的营收总额是17万亿美元，它们大约有11万亿到12万亿美元的费用支出。这意味着标普500的净利润大致在5万亿到5.5万亿美元之间。"
+    },
+    {
+      "i": 86,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "15:14",
+      "en": "Dollars, right?",
+      "zh": "美元，对吧？"
+    },
+    {
+      "i": 87,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "15:15",
+      "en": "So it's like, all right, we can make some bold claims about the amount of money that's going to get allocated to AI expenditures and all the rest of it. But last time I checked, like we all look at the ramp data or the open router data, and we can clearly see that that token expenditure has kind of begun to level off a bit, right? At least near term. So it's like, all right, our company is going to spend this much money. And that's where the other point to answer your question, Joe, is.",
+      "zh": "所以就是说，好，我们可以对将要投入 AI 支出的资金规模做出一些大胆的断言，诸如此类。但我上次看的时候——我们大家都会看 Ramp 的数据（企业支出数据）或者 OpenRouter 的数据——我们能清楚地看到，token 支出已经开始有点走平了，对吧？至少近期是这样。所以说，好，我们公司打算花这么多钱。而这也就是回答你问题的另一个要点，Joe。"
+    },
+    {
+      "i": 88,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "15:42",
+      "en": "Well, you know, your company Barclays is, I know, managing the anthropic IPO. So, or as, you know, involved in this, we're not going to ask any anthropic questions to you, but I will say to Tracy.",
+      "zh": "嗯，你知道，你们巴克莱，据我所知，在做 Anthropic 的 IPO。或者说参与其中——我们不会问你任何关于 Anthropic 的问题，但我要跟 Tracy 说一句。"
+    },
+    {
+      "i": 89,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "15:54",
+      "en": "Okay.",
+      "zh": "好。"
+    },
+    {
+      "i": 90,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "15:55",
+      "en": "No, I won't make you comment. You know, we understand the rules here, but I will say to Tracy that anthropic numbers on the top line look great. And I do not think that nobody, and I don't think we learned that much about open route, open router data. because that captures a specific slice of people who are usually looking for cheap Chinese models, which they're doing well, but the top line numbers for Anthropic look unbelievably good. That's the interesting.",
+      "zh": "不，我不会让你评论的。你知道，我们懂这里的规矩，但我要跟 Tracy 说，Anthropic 的营收数字看起来棒极了。而且我认为，没有人——我也不觉得我们从 OpenRouter 的数据里学到了多少东西，因为它捕捉的只是一小撮特定人群，他们通常在找便宜的中国模型，这部分表现确实不错，但 Anthropic 的营收数字好得难以置信。这才是有意思的地方。"
+    },
+    {
+      "i": 91,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "16:22",
+      "en": "Thank you. There's earnings progress there in the S1. You can see the earnings progression. However, billions in earnings versus valuations at trillions, I think that is the gap that people are debating.",
+      "zh": "谢谢。S-1 里确实有盈利的进展，你能看到营收的爬升。但是，数十亿的收入对比数万亿的估值，我觉得这才是大家在争论的那个缺口。"
+    },
+    {
+      "i": 92,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "16:36",
+      "en": "I'm just pointing out that There's lots of charts. There's ramp data that's floating around. Lots of people look at the ramp data and lots of people look at the statistics on OpenRouter. And they start to say, oh, the American Frontier Labs, I guess, are they in trouble? And they might be. But I'm just saying, if you look at the data that's filed with the SEC, as of pretty recently, at least one of the companies, the one that is filed in S1, that number is going straight up still.",
+      "zh": "我只是想说，市面上有很多图表，有很多 Ramp 数据在流传。很多人看 Ramp 数据，很多人看 OpenRouter 上的统计数据，然后他们就开始说，哦，美国的前沿实验室（Frontier Labs）是不是有麻烦了？也许真有。但我只是想指出，如果你看提交给 SEC 的数据，截至最近，至少有一家公司——就是那家已经递交了 S-1 的——那个数字仍然在直线上升。"
+    },
+    {
+      "i": 93,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "17:03",
+      "en": "Why don't we talk about the frontier models more generally? So, you know, the argument has been that they can come up with a better model, a better agent, a better technology, and that people are ultimately going to pay for it. And the persistent, I guess, doubt in the market has been, well, you know, open source models are kind of catching up very quickly. They're worse on their benchmark test, but not by that much anymore. And they're a lot cheaper to operate. What are people saying about the open source versus frontier debate?",
+      "zh": "我们为什么不来更笼统地聊聊前沿模型（frontier models）？你知道，一直以来的论点是，它们能做出更好的模型、更好的智能体（agent）、更好的技术，而人们最终会为此付钱。而市场上持续存在的疑问，我想是：嗯，开源模型追赶得非常快。它们在基准测试上还是差一些，但差距已经不大了；而且运行成本低得多。关于开源与前沿之争，大家现在都在说什么？"
+    },
+    {
+      "i": 94,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "17:31",
+      "en": "I would say here, this is weirdly, is a bit of a contradiction versus that bullish narrative. Because the data is the data you can evidently see on a whole bunch of different sources that open weight has kind of gone from a 20% market share to anything up to about an 80% market share. And then you'll also see that the token cost is a fraction, one one hundredth.",
+      "zh": "我觉得在这里，奇怪的是，这和那套看多的叙事有点自相矛盾。因为数据就是数据，你显然能从一大堆不同的来源看到，开放权重（open weight）模型的市场份额已经从大约20%上升到了最高约80%。同时你还会看到，token 成本只是它的几分之一——百分之一。"
+    },
+    {
+      "i": 95,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "17:59",
+      "en": "Versus- Incredible token deflation that's happened every year.",
+      "zh": "相比之下——每年都在发生惊人的 token 通缩。"
+    },
+    {
+      "i": 96,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "18:02",
+      "en": "It might be one of the fastest deflating assets in history. It makes those NFTs back in 2021 too.",
+      "zh": "这可能是历史上贬值最快的资产之一。2021年那些 NFT 都得甘拜下风。"
+    },
+    {
+      "i": 97,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "18:07",
+      "en": "But GPU rental rates have been going up. They have.",
+      "zh": "但 GPU 的租赁价格一直在涨。确实涨了。"
+    },
+    {
+      "i": 98,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "18:11",
+      "en": "Yes, absolutely. And so there is clearly a two-way debate. And I think it again goes back to the evolution of this broader AI narrative. It's not just necessarily a one-way train, rising tide lifts all boats. There's going to be degrees of differentiation. But you asked about open weight models. And I think where one of the leading edge questions right now is not even just open weight, but combine that with locally run open weight. And this is something which I like to call being long or short human creativity.",
+      "zh": "是的，绝对如此。所以显然这是一个双向的辩论。我觉得这又回到了整个 AI 叙事的演变上。它不一定是一列单向行驶的火车，“水涨船高”；会出现不同程度的分化。但你问到了开放权重模型。我认为目前最前沿的问题之一，甚至不只是开放权重，而是把它和本地运行的开放权重结合起来。这是我喜欢称之为“做多还是做空人类创造力”的东西。"
+    },
+    {
+      "i": 99,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "18:43",
+      "en": "Right.",
+      "zh": "对。"
+    },
+    {
+      "i": 100,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "18:43",
+      "en": "In so far that if, when the iPhone came out in 2007, stay with me here, uh, that if I had, if someone from the future had said 20 years from now, you're going to have whatever the orders of magnitude compute differential And the battery is going to be the same size. That 2007 person would have said impossible. You'd need an iPhone the size of this table, right? So clearly we got there amongst many other things. And so the idea that we necessarily need to ping a bunch of hoppers or Vera Rubins in an Ohio data center just so that we can sort of get our.",
+      "zh": "这么说吧，2007年 iPhone 问世的时候——请跟着我的思路——如果有个人从未来告诉我，20年后你的算力会高出好几个数量级，而电池还是同样大小，那2007年的人会说这不可能。你会需要一部这张桌子那么大的 iPhone，对吧？但显然，我们做到了，还有很多其他事情也是一样。所以说，我们非得去 ping 俄亥俄州某个数据中心里的一堆 Hopper 或者 Vera Rubin 芯片，才能让我们的——"
+    },
+    {
+      "i": 101,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "19:22",
+      "en": "Agent to- Manage my email for me.",
+      "zh": "智能体去——帮我管邮件。"
+    },
+    {
+      "i": 102,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "19:23",
+      "en": "Yeah, or to send an angry response letter to the hotel.",
+      "zh": "对，或者给酒店写一封怒气冲冲的回信。"
+    },
+    {
+      "i": 103,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "19:27",
+      "en": "You're going to be able to do that with the chip on your phone by next year.",
+      "zh": "到明年，你用手机上的芯片就能做到这些了。"
+    },
+    {
+      "i": 104,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "19:30",
+      "en": "Right, if not already. So we've all kind of got supercomputers in our pocket. And the ability to run, say, multi-billion parameter models locally using whether an open-weight model or a closed-weight model, but that's provided by NVIDIA's Nematron or whatever Meta's putting out, which Meta's already put out a- multi-billion parameter model that's run locally on your laptop.",
+      "zh": "对，甚至可能现在就可以了。所以我们每个人口袋里其实都有一台超级计算机。我们能够在本地运行数十亿参数（multi-billion parameter）的模型，不管是开放权重模型还是闭源权重模型，只要它是由英伟达的 Nemotron 之类提供的，或者是 Meta 推出的那些——Meta 已经发布了一个可以在你笔记本上本地运行的数十亿参数模型。"
+    },
+    {
+      "i": 105,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "19:53",
+      "en": "It's crazy. Right.",
+      "zh": "这太疯狂了。对吧。"
+    },
+    {
+      "i": 106,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "19:55",
+      "en": "But it's not because that technology, right? And so I think that's the other point of the debate is it's not even so much about open weight. It's about the fact that you're moving along this efficiency curve And that was also bringing in the revenue question as well, which ties in with those frontier models as well. Frontier models, we're not going to be producing, you and I, with the greatest respect to everyone in this room, we're probably not going to be discovering the new biotechnological drugs.",
+      "zh": "但这靠的不是那种（前沿）技术，对吧？所以我觉得这是辩论的另一个要点：问题甚至不在于开放权重本身，而在于你正沿着这条效率曲线往前推进。这也把收入的问题带了进来，同样也和那些前沿模型有关。至于前沿模型——恕我直言，尽管我对在座各位充满敬意——你和我大概不会是那个研发出新生物技术药物的人。"
+    },
+    {
+      "i": 107,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "20:38",
+      "en": "I was actually, I was talking to someone when I was out in San Francisco recently, and I actually want to ask you about East and West Coast views on the technology, maybe. But I was talking to someone in San Francisco who had this term, he called it the frontier sink. And it's like, what are the industries that actually need PhD level and beyond technology? And there's a few that we could come up with pretty easily. One of them is probably biotech, right? You can probably never have too much intelligence when it comes to medicine. Another one actually is probably semiconductor design itself. You'll probably never be too smart, et cetera, for that. Maybe another one of them has to do with quant trading where you can never be too smart. I'm not sure. Who knows? But it actually does get to be hard to think about. There might just be a lot of industry for which there is a certain level of intelligence that is enough.",
+      "zh": "其实，我最近去旧金山的时候和一个人聊天，我真的想问问你，关于东西海岸对这项技术的看法。我在旧金山和一个人聊，他有一个说法，他称之为“前沿水槽”（frontier sink）。意思是：到底哪些行业真正需要博士级及以上的技术？我们能很容易想出几个。其中一个大概是生物科技，对吧？在医学这件事上，你大概永远不会有“太多”的智能。另一个其实是半导体设计本身——在这方面你也永远不会嫌自己太聪明，等等。也许还有一个跟量化交易有关，在那儿你也永远不会太聪明。我不确定。谁知道呢？但这确实让人很难不去想：可能有很多行业，对它们而言，某个水平的智能就已经足够了。"
+    },
+    {
+      "i": 108,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "21:34",
+      "en": "I mean, for the moment, again, Do you remember when the, I like going back to the iPhone as an analogy, because it really was a technological revolution at the time. And do you remember when we thought like peak iPhone in 07, 08 was when you had that app, which had like the pint of beer in it.",
+      "zh": "我是说，就目前而言——同样，我喜欢回到 iPhone 这个类比，因为它在当时真的是一场技术革命。你还记得吗，我们当时以为 iPhone 的巅峰就是07、08年那会儿，有个应用里面画着一品脱啤酒。"
+    },
+    {
+      "i": 109,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "21:51",
+      "en": "And you could drink it.",
+      "zh": "然后你可以把它“喝掉”。"
+    },
+    {
+      "i": 110,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "21:53",
+      "en": "I didn't, but no, everyone is like, Oh, this is so cool. You can pretend. I know exactly.",
+      "zh": "我不记得了，不过，是啊，当时所有人都觉得，哦，这太酷了，你可以假装在喝。我完全明白。"
+    },
+    {
+      "i": 111,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "21:58",
+      "en": "Joe, you're allowed to take joy in small things. No, no.",
+      "zh": "Joe，你是可以从这些小事里获得快乐的。不，不。"
+    },
+    {
+      "i": 112,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "22:02",
+      "en": "This looks like whimsy to me. I don't get this. Oh, yeah.",
+      "zh": "在我看来这就是无聊的奇思怪想。我不懂这个。哦，是啊。"
+    },
+    {
+      "i": 113,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "22:04",
+      "en": "Joe hates whimsy.",
+      "zh": "Joe 讨厌奇思怪想。"
+    },
+    {
+      "i": 114,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "22:05",
+      "en": "I hate fun. But keep going. But I remember how, yo, why is everyone going crazy about the fact that you could, like, this is a very good point. Keep going.",
+      "zh": "我讨厌乐趣。不过你继续说。但我记得当时，哟，为什么大家会因为“你居然可以……”这种事而疯狂——这真是一个很好的论点。你继续。"
+    },
+    {
+      "i": 115,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "22:12",
+      "en": "And so I just don't think we know what the future of AI really looks like. So, yes, you're right. Today, we probably say we just don't need more than 100 IQ persons sitting in our pocket, managing our emails, sending angry messages to the car rental company because they charged me $ 2, 000 for a ding. I do think the consumer layer AI is going to be, people ask me all the time, like, what will get you really constructive on AI again? I said, when we figure out that killer consumer application layer. Because at the end of the day, the consumer is everything. It's the economy. It's where, to the point about revenues, like enterprise revenues, I just don't think is going to plug that gap. Really? I just don't see how.",
+      "zh": "所以我只是觉得，我们并不知道 AI 的未来究竟会长成什么样。是的，你说得对。今天，我们大概会说，我们并不需要口袋里坐着一个智商超过100的人来帮我们管邮件、给租车公司发怒气冲冲的信息，就因为他们为一个凹痕收了我2000美元。我确实认为消费层的 AI 才是关键——大家总是问我：什么才能让你重新对 AI 真正乐观起来？我说，等我们找到那个杀手级的消费应用层。因为说到底，消费者就是一切。它就是经济本身。回到收入这个点上，企业端收入，我就是不觉得它能填上那个缺口。真的，我就是看不出怎么能填上。"
+    },
+    {
+      "i": 116,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "22:51",
+      "en": "Yeah, no, you're right. The numbers. I don't see.",
+      "zh": "嗯，不，你说得对。看那些数字，我也看不出来。"
+    },
+    {
+      "i": 117,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "22:53",
+      "en": "It can probably get there eventually, but it can't get there in the time frame that the market wants to see the ROI. And you need to bust into the consumer layer. And so back to the point about frontier, the consumer probably doesn't need frontier for the time being to do all of these things. And so my big mantra is that one of the best technological changes that we experience as humans is actually not necessarily some new advanced tech. It's changing the application of existing tech. And so it's very possible that we take the 100 IQ agentic workflow that still kind of becomes almost ubiquitous within the next 12 to 18 months. And we find really cool ways to use it. And I think that's probably where you're really going to get the next upswing in AI.",
+      "zh": "它最终也许能走到那一步，但不可能在市场希望看到 ROI（投资回报）的那个时间框架内实现。你必须打入消费层。所以回到前沿模型这个点上：消费者在眼下大概并不需要前沿模型来完成所有这些事情。所以我的一个核心信条是，我们作为人类经历过的最好的技术变革之一，其实未必是某种新的尖端技术，而是改变现有技术的应用方式。所以很有可能会出现这样的情况：那个“智商100”的智能体工作流（agentic workflow），在未来12到18个月内几乎变得无处不在，然后我们找到用它来做的非常酷的事情。我认为那大概才是你真正会迎来 AI 下一轮上行的地方。"
+    },
+    {
+      "i": 118,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "23:42",
+      "en": "Can I just say, by the way, Tracy, last several days, my wife was traveling out of town. My kids are at a very easy age. It's not a big challenge or anything to solo parent for a few days. But it happened to be a very busy schedule for them, birthday parties and a few other things. And it was very nice having ChatGPT being able to say, where should I be in the next hour? Where should I be in the hour? Because there were a lot of things going on. And it was very easy. It was very nice.",
+      "zh": "顺便说一句，Tracy，过去这几天我太太出差不在城里。我的孩子们正处在一个很省心的年纪，一个人带几天孩子并不是什么大挑战。但碰巧那几天他们的日程非常满，有生日派对还有其他几件事。能有 ChatGPT 帮我回答“接下来一个小时我该在哪儿？再下一个小时我又该在哪儿？”真的很好用，因为同时有很多事情在跑。非常方便，非常好用。"
+    },
+    {
+      "i": 119,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "24:13",
+      "en": "I saw your tweet on this, Joe.",
+      "zh": "我看到你发的那条推了，Joe。"
+    },
+    {
+      "i": 120,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "24:14",
+      "en": "No, you saw the tweet on the right.",
+      "zh": "不，你看到的是小号上发的那条。"
+    },
+    {
+      "i": 121,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "24:15",
+      "en": "This is part of the problem. You tweet everything before you tell it to me, and so I can't react to it in real time.",
+      "zh": "这就是问题的一部分。你什么都先发推，然后才告诉我，所以我没法实时做出反应。"
+    },
+    {
+      "i": 122,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "24:21",
+      "en": "And now I'm really upset that you said that because you saw the tweet from my private alt. I did not tweet that from my main account. And now a bunch of people are going to know that I have an alt and they're going to ask me for it and you're not going to get it. So I wish you hadn't said that. Sorry.",
+      "zh": "你这么说我现在真的很生气，因为你看到的是我私人小号发的推。我不是用主账号发的。现在一堆人会知道我有小号，然后来跟我要，而你却拿不到。所以我真希望你没说出来。抱歉。"
+    },
+    {
+      "i": 123,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "24:33",
+      "en": "Sorry. I can't, I can't differentiate the two.",
+      "zh": "抱歉。我分不出来，我真的分不清这两个账号。"
+    },
+    {
+      "i": 124,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "24:36",
+      "en": "Can I, can I, can I jump in?",
+      "zh": "我能，我能，我能插一句吗？"
+    },
+    {
+      "i": 125,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "24:37",
+      "en": "Yeah, of course.",
+      "zh": "当然可以。"
+    },
+    {
+      "i": 126,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "24:37",
+      "en": "So what, what's that worth to you a month? What? Well, just to have that ability, let's just say almost like an account executive or something or like an administrator, you know, Because to answer that question, it matters. It matters for the revenue profile, right?",
+      "zh": "那么，这个功能对你来说一个月值多少钱？什么？嗯，就是拥有这种能力——比方说，几乎像是有一个客户经理或者行政助理。你知道，因为要回答这个问题，这件事是有意义的。它对收入的形态是有意义的，对吧？"
+    },
+    {
+      "i": 127,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "24:53",
+      "en": "I mean, also, if you just had the right user interface on a calendar, this would be solved too, wouldn't it? If you know you have to be somewhere at 3 p.m., 4 p.m., 5 p.m. There's a lot.",
+      "zh": "我是说，而且，如果日历有一个足够好的用户界面，这个问题不也就解决了吗？如果你知道自己下午3点、4点、5点要分别出现在哪里。有很多……"
+    },
+    {
+      "i": 128,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "25:02",
+      "en": "Of things that are in so many different emails. So, for example, my daughter goes to– I take her to play rehearsals. And some days, it's from 1 to 6 in the afternoon on Sundays. But some days, they don't do the full cast for the five hours. So somewhere in the email, it says, oh, these students or these participants, they can leave at 3 and stuff. And it's scattered across so many emails. And I don't know which emails to read, which ones they're in. And so being able to say, Chad, it's Sunday, October 25th or whatever. What time am I supposed to pick up my daughter at 3 or 6? It's very easy and nice to have.",
+      "zh": "……的事情散落在太多不同的邮件里。比如说，我女儿参加——我送她去戏剧排练。有些日子是周日下午1点到6点。但有些日子他们不会让全体演员排练五个小时。所以在某封邮件的某个地方会写着，哦，这些学生或者这些参与者可以3点走，诸如此类。而这些信息散落在非常多的邮件里。我不知道该读哪些邮件、该在哪些邮件里找。所以能够直接问：“Chat，今天是10月25日星期天还是什么时候，我应该几点去接我女儿，3点还是6点？”——这非常方便，也很好用。"
+    },
+    {
+      "i": 129,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "25:41",
+      "en": "Fair enough. I just want to go back to the beginning of the conversation. You talked about neoclouds as the sort of tip of the spear and maybe being in the beginning of the denial phase. What do you think would spook investors? What should we look out for next in terms of a degradation in the AI bull belief?",
+      "zh": "有道理。我想回到我们对话的开头。你把 neocloud 描述成某种“矛尖”，也许我们正处在“否认”阶段的开始。你觉得什么会让投资者受到惊吓？接下来在 AI 多头信念的弱化上，我们应该留意什么？"
+    },
+    {
+      "i": 130,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "26:03",
+      "en": "That's a great question.",
+      "zh": "这是个好问题。"
+    },
+    {
+      "i": 131,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "26:06",
+      "en": "Off the top of my head, I would say it would be some level of capex being reined in by one of the hyperscalers. In fact, on the walk over here, I was asked by one of my clients who was questioning whether that would actually even come up potentially in the results this week. And famous last words, it's probably still premature. Joe, to answer your question about West Coast, East Coast, if you think about West Coast, the further you are closer to the epicenter of this technology, I'm sorry, the closer you are to the epicenter, the more I would say that both the companies and investors are bought in.",
+      "zh": "不假思索地说的话，我会认为是某家超大规模云厂商在某种程度上收紧资本开支。事实上，在来这里的路上，我的一位客户还问过我，这种情况会不会真的出现在本周的财报里。不过话别说太满，这可能还为时过早。Joe，回答你关于西海岸和东海岸的问题：如果你想西海岸——你离这项技术的震中越近，抱歉，我是说越靠近震中，我就越会认为，无论是公司还是投资者，都越是彻底买账（bought in）。"
+    },
+    {
+      "i": 132,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "26:45",
+      "en": "On that narrative.",
+      "zh": "买账这套叙事。"
+    },
+    {
+      "i": 133,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "26:47",
+      "en": "And there's definitely kind of almost like an echo chamber within that certain ecosystem. You think about the rooms that people are sitting in. So my suspicion is that it's not going to be these set of results. And that may be we have to wait till the new year that we get some kind of potential temperament of the enthusiasm. But Google kind of set this all off again for the next wave because on the CapEx side, it was actually the last set of results where they said it's going to be, I forget the exact wording they used, but they were talking about CapEx being significantly higher. And that got everyone enthused once again and got them all G'd up.",
+      "zh": "而且在那个特定的生态圈里，几乎确实存在一种回音室（echo chamber）效应。你想想大家坐在什么样的房间里。所以我猜，这一轮财报大概不会（触发收紧）。也许我们要等到新年，才会看到这种热情被某种程度上降温。不过谷歌又点燃了下一波行情，因为在资本开支方面，正是上一次财报他们说了会“大幅上升”——我忘了他们用的确切措辞——但那让所有人重新兴奋起来，把大家都点燃了。"
+    },
+    {
+      "i": 134,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "27:30",
+      "en": "Well, Oracle just said at its investor day that it was going to limit its additional fundraising to, I think, $ 20 billion through May. So we might be getting close to that. But again, the reaction so far is this is a good thing and the build-out can continue as long as people are raising a reasonable amount of capital, I guess.",
+      "zh": "嗯，甲骨文刚刚在投资者日上表示，它会把额外融资限制在——我记得是——到明年5月为止的200亿美元以内。所以我们可能正在接近那一步。但同样，到目前为止市场的反应是：这是件好事，只要大家融资的规模还算合理，建设就可以继续下去，我想是这样。"
+    },
+    {
+      "i": 135,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "27:50",
+      "en": "Yeah. And that kind of goes back to maybe just a slightly more holistic market view, which is This almost S & P does nothing because what's good for hyperscalers will be bad for memory. So you just get this constant violent rotation. And I call it like a knife fight in a phone booth, you know, for all these funds that have to run long, short portfolios.",
+      "zh": "对。这就回到了一个也许更全局的市场视角：标普500几乎不动，因为对超大规模云厂商利好的东西，对内存股就是利空。所以你会看到这种持续的、剧烈的轮动。我把它形容成“电话亭里的刀战”（a knife fight in a phone booth），你知道，对所有那些必须运行多空组合的基金来说。"
+    },
+    {
+      "i": 136,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "28:10",
+      "en": "It's a nightmare. I'm glad you asked this because this is a question that I wanted to ask you. So it's like we look at the core weaves and there's this anxiety and we see all the volatility. We're seeing volatility everywhere except our measures of volatility. So if we look at realized volatility, it's pretty low. If we look at the VIX, it's not that high. Can you explain why it is that there's all this anxiety about certain parts of the most important trade in the entire world? And yet, when we actually look at the way we measure volatility, it looks very benign.",
+      "zh": "这简直是噩梦。我很高兴你问了这个，因为这正是我想问你的问题。就是说，我们看着 CoreWeave，有这种焦虑，我们看到到处都是波动性。除了我们那些波动率指标之外，到处都能看到波动。如果看已实现波动率（realized volatility），它相当低；如果看 VIX，它也没那么高。你能解释一下吗：为什么大家对全世界最重要这笔交易的某些部分如此焦虑，可当我们真的去看衡量波动率的方式时，它却显得非常温和？"
+    },
+    {
+      "i": 137,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "28:42",
+      "en": "Yeah, I've been asked, this is probably the most asked question that I get in some way, shape, or form. And there's two parts to the answer, right? There's a structural part. And then there's a really technical part.",
+      "zh": "是的，这个问题我大概以各种形式被问得最多。答案有两部分，对吧？一部分是结构性的，另一部分是非常技术性的。"
+    },
+    {
+      "i": 138,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "28:54",
+      "en": "Yeah, let's hear it.",
+      "zh": "好，我们听听。"
+    },
+    {
+      "i": 139,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "28:55",
+      "en": "All right.",
+      "zh": "行。"
+    },
+    {
+      "i": 140,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "28:55",
+      "en": "So the structural part has got to do with the fact with the way that money is deployed these days. So obviously, equities are meant to be a long-only product, really. But in this day and age, they're not. We've got 2020, the AUM deployed in multi-manager funds was about $ 300 billion. And today, it's in excess of a trillion dollars. And if you think about the leverage- This is the pod shop, seriously.",
+      "zh": "结构性的那部分和当今资金部署的方式有关。显然，股票本来应该说是一种纯多头产品。但在今天这个时代，它不是。2020年，部署在多管理人基金（multi-manager funds）里的资产管理规模约为3000亿美元。而今天，已经超过一万亿美元。如果你想一想其中的杠杆——这就是那些 pod shop（多策略平台），说真的。"
+    },
+    {
+      "i": 141,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "29:21",
+      "en": "Yeah.",
+      "zh": "嗯。"
+    },
+    {
+      "i": 142,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "29:22",
+      "en": "I mean, not, not just pods, but obviously let's just think about like that sort of ilk.",
+      "zh": "我是说，不只是 pods，但显然我们就想想那一类机构吧。"
+    },
+    {
+      "i": 143,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "29:26",
+      "en": "Yeah.",
+      "zh": "嗯。"
+    },
+    {
+      "i": 144,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "29:27",
+      "en": "And it makes perfect sense, right? Because if you, especially in a higher interest rate environment, high interest rate environment is perfect if you're running a long short strategy, because I deploy money on my gross long side and on my growth short side. And actually I'm not really deploying. I'm deploying units of risk, but the actual capital being deployed is really only what I'm actually posting as margin on my long and my short member. I can leverage that too, through the prime prime businesses. So actually what I'm doing is I'm taking a large chunk of capital and I can put that into say a high interest bearing, a high interest instrument. Mm-hmm clip a very nice coupon. And then I try and generate alpha on that gross capital deployed. That's the business model. And it's for the most part, a very good business model, right? The problem is, is that you've effectively tripled more than tripled the AUM plus obviously leverage. And the number of securities you can trade has stayed roughly the same or actually shrunk over time. So that creates crowding out. So how do I how do I organize or how do I mitigate that crowding out effect? Well, I've got all kinds of cool risk parameters. So, you know, Barra, I'm sure you've heard, or Axioma, just, you know, all these different style factors, quality, value, size, growth, you know, all these different things. You would have heard us talk about them quite a lot. They've become ubiquitous and obviously funds spend an inordinate amount of time and computing power trying to neutralize those factors. So that's cool. And you try and isolate the idiosyncratic risk of whatever you're trying to get. Now, The problem is, is that at the end of the day, everyone's still doing this, which means all you're creating is different kinds of crowding. And so that's why the volatility isn't showing up so much at an index level, right? Because ultimately a lot of this AUM is kind of index agnostic, so to speak. And you're seeing the violent factor rotations happening because ultimately you've got a huge amount of crowding sitting there. The one thing that leads me into sort of the technical aspect, which is the one thing that I think a lot of funds have not yet been able to solve is the AI factor, right?",
+      "zh": "而且这完全说得通，对吧？因为如果你——尤其是在高利率环境下——高利率环境对运行多空策略来说是最完美的，因为我把钱部署在我的总多头端和总空头端。而实际上我并不是真的在部署资本。我部署的是风险单位，但真正被占用的资本，其实只是我在多头和空头名义上缴纳的保证金。我还可以通过主经纪商（prime brokerage）业务对此再加杠杆。所以我实际上做的是：拿出一大块资本，把它放进比如高息工具里，赚取一份非常可观的票息（clip a coupon）。然后我在这个总资本部署的基础上努力创造 alpha。这就是商业模式。而且在很大程度上，这是一个非常好的商业模式，对吧？问题是，你已经把资产管理规模有效地增加了三倍——不止三倍——再加上杠杆，而你能交易的证券数量大致保持不变，甚至随着时间推移实际上在收缩。这就造成了拥挤挤出（crowding out）。那么我要如何组织、如何缓解这种拥挤挤出效应呢？嗯，我有各种很酷的风险参数。所以你知道，Barra，我相信你们听说过，或者 Axioma，就是所有这些不同的风格因子：质量、价值、规模、成长，等等。你们应该听我们讲过很多。它们已经变得无处不在，而且基金显然会花费大量时间和算力去中性化这些因子。所以这很好，你试图把你想要获取的特质风险（idiosyncratic risk）隔离出来。现在，问题是，说到底每个人都还在这么做，这意味着你所创造的只是不同种类的拥挤。这就是为什么波动率在指数层面并没有那么明显地体现出来，对吧？因为归根结底，很多这类资产规模可以说是“指数无关”的。而你看到的是剧烈的因子轮动，因为归根结底你有大量的拥挤坐在那里。这就把我引向了技术层面：我认为很多基金至今还没能解决的一件事，就是 AI 因子，对吧？"
+    },
+    {
+      "i": 145,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "31:34",
+      "en": "Because you could be.",
+      "zh": "因为你可以是……"
+    },
+    {
+      "i": 146,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "31:35",
+      "en": "Everything either is or isn't AI now.",
+      "zh": "现在所有东西要么是 AI，要么不是 AI。"
+    },
+    {
+      "i": 147,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "31:37",
+      "en": "Right, exactly.",
+      "zh": "对，正是如此。"
+    },
+    {
+      "i": 148,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "31:38",
+      "en": "And this is a problem, right? It's dawned on me recently because I've been asked a series of questions by investors specifically along the lines of, have you managed to map the AI factor? And the answer is no. Because the AI factor is changing all of the time. The betas are changing all of the time. Remember the beginning of the year, you had a lot of people that wanted to be short software. Now software is trading close to 12 month highs. And so the idea of being short software, it was part of the AI factor. And now is it so much? Well, not necessarily unclear. So because the narrative is shifting, the factor of AI is shifting too. And that in turn complicates the ability to funds to actually try and hedge that. And the bottom line is, is you're either long AI or you're short AI, right? And let's face it, the past three years, being short AI probably hasn't been a particularly lucrative trade.",
+      "zh": "而这就是个问题，对吧？我最近才意识到这一点，因为投资者接连问我一连串问题，具体来说就是：你们有没有成功地把 AI 因子给映射出来？答案是没有。因为 AI 因子一直在变化。它的 beta 一直在变化。回想年初，有很多人想做空软件股。现在软件板块的交易价格接近12个月高点。所以做空软件这个想法，它曾经是 AI 因子的一部分。那现在还是吗？嗯，不一定，不清楚。所以，因为叙事在变化，AI 因子也在变化。而这反过来又让基金难以真正去对冲它。归根结底就是：你要么做多 AI，要么做空 AI，对吧？我们得承认，过去三年里，做空 AI 大概不是一笔特别赚钱的交易。"
+    },
+    {
+      "i": 149,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "32:27",
+      "en": "By the way, Tracy, in the time that Alex was giving us, that Alty was giving us this great answer.",
+      "zh": "顺便说一句，Tracy，在 Alex 给我们——在 Alty 给我们这个精彩回答的这段时间里……"
+    },
+    {
+      "i": 150,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "32:33",
+      "en": "You sorted out your entire weekend schedule using ChatGPT.",
+      "zh": "你用 ChatGPT 把整个周末的日程都排好了。"
+    },
+    {
+      "i": 151,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "32:36",
+      "en": "No, in that time, we just got earnings from Alphabet and Microsoft. And it's very interesting. Alphabet down 7.9%, revenue X-TAC misses estimates. Microsoft jumped 6.4% after Q1 cloud revenue tops estimate. So you get two gigantic stocks. They both have very violent reactions. But if you're the indexed investor on net, looks like it all kind of washes out.",
+      "zh": "不，在那段时间里，我们刚刚拿到了 Alphabet 和微软的财报。非常有意思。Alphabet 跌了7.9%，ex-TAC 营收不及预期。微软在第一季度云收入超出预期后跳涨6.4%。所以你看到两只巨型股票，它们的反应都非常剧烈。但如果你是指数投资者，净影响看起来大致互相抵消了。"
+    },
+    {
+      "i": 152,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "32:59",
+      "en": "Yeah, it does indeed.",
+      "zh": "嗯，确实如此。"
+    },
+    {
+      "i": 153,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "33:00",
+      "en": "But man, some of these, like these numbers are incredible. Microsoft Q1 Azure Revenue X, Azure. This is their cloud platform. Azure. What's your guess? You're not looking at a terminal the way I am. What do you think it got? This is fun.",
+      "zh": "但天哪，其中一些数字真是令人难以置信。微软第一季度 Azure 营收（Azure revenue）——Azure，这是他们的云平台，Azure。你猜是多少？你不像我这样盯着终端看。你觉得是多少？这挺好玩的。"
+    },
+    {
+      "i": 154,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "33:16",
+      "en": "The bokeh was, I think, 47% growth.",
+      "zh": "预期数字（the book）我记得是47%的增长。"
+    },
+    {
+      "i": 155,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "33:20",
+      "en": "Yeah, man, you're really good at your job. So the official estimate that we had collated at Bloomberg was 44.8%. They hit 48%. 48% growth for these gigantic companies. That's a good number.",
+      "zh": "是啊，老兄，你真的很胜任你的工作。我们在彭博汇总的官方一致预期是44.8%。他们做到了48%。对这些巨型公司来说，48%的增长，这是个很好的数字。"
+    },
+    {
+      "i": 156,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "33:29",
+      "en": "That's unbelievable.",
+      "zh": "太不可思议了。"
+    },
+    {
+      "i": 157,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "33:35",
+      "en": "Cloud revenue at Google was $ 30 billion. I'm not seeing what the growth number was.",
+      "zh": "谷歌的云收入是300亿美元。我没看到增长率是多少。"
+    },
+    {
+      "i": 158,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "33:41",
+      "en": "But these are unreal.",
+      "zh": "但这些数字太不真实了。"
+    },
+    {
+      "i": 159,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "33:42",
+      "en": "Yeah. I mean, they are. And this goes back to the point about kind of AI winners and losers. If you've got a fantastic legacy business and you're a cash volcano from your legacy operating business, then if you want to go and embark upon the largest CapEx experiment really in the history of America, total non sequitur, by the way, I was trying to work out because we're spending, if you believe the CapEx numbers and the terms of the forward, and I'm sure that they're going to change from what the consensus looks like now, but on face value, it's about 12% of.",
+      "zh": "是啊。我是说，确实如此。这又回到了 AI 赢家和输家这个点上。如果你有一块出色的传统业务，而且你的传统经营业务就是一座现金火山，那么如果你想去做一场可以说是美国历史上最大规模的资本开支实验——顺便说一句，这完全是另一码事，我在试着算，因为如果按资本开支数字和前瞻指引（forward）的口径来算，我相信它们还会从当前的一致预期发生变化，但按表面价值算，大约相当于 GDP 的12%。"
+    },
+    {
+      "i": 160,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "34:17",
+      "en": "GDP, right?",
+      "zh": "GDP 的，对吧？"
+    },
+    {
+      "i": 161,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "34:18",
+      "en": "It's like two Netherlands, right? Um, and I was thinking you have not in modern history, like the Louisiana purchase, the railroads, it's blown all that out of the water. What have we done as a human society where we've spent that much money? Certainly in a short period of time. And I had to start getting really creative. I'm sure, Joe, you'll be awake at night thinking about this and trying to find some historical work on it. Pyramids, maybe? But they took hundreds of years, if not thousands. Great Wall of China, maybe? I can't think of a period where we've spent.",
+      "zh": "这大概相当于两个荷兰，对吧？嗯，我在想，在现代历史上——比如路易斯安那购地、铁路建设——它已经把那些全都远远甩在了后面。作为人类社会，我们什么时候花过这么多钱？尤其是在这么短的时间内。我不得不开始变得非常有创意。Joe，我相信你晚上也会睡不着地想这个问题，试图找一些相关的历史研究。金字塔，也许？但它们花了几百年甚至上千年。长城，也许？我想不出有哪一段时期我们花过这么多钱。"
+    },
+    {
+      "i": 162,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "34:52",
+      "en": "All right, wait here. What do you think? How fast do you think Google Cloud revenue grew? Again, I'm turning my laptop away from me. I actually don't even... I can't even believe this number is real. I'm giving you a hint. 30-something percent? I don't really understand. I don't, I, I almost.",
+      "zh": "好，等一下。你觉得呢？你猜谷歌云收入增长了多快？再说一次，我把笔记本转过去了，不让我自己看。我甚至……我简直不敢相信这个数字是真的。我给你个提示。百分之三十几？我真的不太理解。我，我几乎……"
+    },
+    {
+      "i": 163,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "35:09",
+      "en": "Yeah.",
+      "zh": "嗯。"
+    },
+    {
+      "i": 164,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "35:09",
+      "en": "103% Google cloud revenue grew 103%. It seems great. I don't know. All these numbers are insane. Anyway, that's what it says.",
+      "zh": "103%。谷歌云收入增长了103%。看起来很棒。我不知道。所有这些数字都太疯狂了。反正报表上是这么写的。"
+    },
+    {
+      "i": 165,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "35:18",
+      "en": "I mean, these are impressive businesses and this is, this is why, you know, a lot of people say S and P undefeated.",
+      "zh": "我是说，这些都是令人印象深刻的生意，这也是为什么很多人说“标普500永不败”（S&P undefeated）。"
+    },
+    {
+      "i": 166,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "35:24",
+      "en": "Right.",
+      "zh": "对。"
+    },
+    {
+      "i": 167,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "35:24",
+      "en": "I mean, by the way, funny, the concentration of the S and P it basically given Tracy, to your point, everything's kind of AI. Concentration of S & P, next year, 75% of your earnings growth in the S & P is going to come from memory, from semiconductors.",
+      "zh": "我是说，顺便讲个有意思的：标普500的集中度——基本上就像 Tracy 你说的，现在所有东西都算是 AI。标普500的集中度：明年，标普500里75%的盈利增长将来自内存、来自半导体。"
+    },
+    {
+      "i": 168,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "35:39",
+      "en": "What percent?",
+      "zh": "百分之多少？"
+    },
+    {
+      "i": 169,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "35:40",
+      "en": "Sorry, a bigger part. It's actually, it's about two-thirds from semiconductors, and then the broader AI ecosystem gets you to around about 75%. Wow. So you basically, S & P has become Cosby.",
+      "zh": "抱歉，是更大的一部分。实际上大约三分之二来自半导体，然后更广义的 AI 生态系统把这个数字推到75%左右。哇。所以基本上，标普500已经变成了 SOX（费城半导体指数）。"
+    },
+    {
+      "i": 170,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "35:54",
+      "en": "Oh, cospification.",
+      "zh": "哦，SOX 化（SOXification）。"
+    },
+    {
+      "i": 171,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "35:57",
+      "en": "Cospification, yeah. All right, well, Alex, we're going to leave it there because we want to get this episode out pretty quickly. But thank you so much for coming back on All Thoughts.",
+      "zh": "SOX 化，对。好吧，Alex，我们今天就到这里，因为我们想尽快把这期节目发出去。但非常感谢你再次做客 Odd Lots。"
+    },
+    {
+      "i": 172,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "36:04",
+      "en": "Really appreciate it.",
+      "zh": "非常感谢。"
+    },
+    {
+      "i": 173,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "36:05",
+      "en": "Thank you.",
+      "zh": "谢谢。"
+    },
+    {
+      "i": 174,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "36:06",
+      "en": "See you next week. Thank you so much.",
+      "zh": "下周见。非常感谢。"
+    },
+    {
+      "i": 175,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "36:22",
+      "en": "Joe, it was great catching up with Alex. I think he does a great job of sort of synthesizing a lot of different things going on in the market right now. But I do think the key thing that's emerging is this differentiation idea and the idea that we're moving from this sort of capital abundant environment into an area where people are perhaps a little bit more selective and what that means for the business models.",
+      "zh": "Joe，能和 Alex 聊这一场真是太好了。我觉得他在梳理当前市场上正在发生的种种事情方面做得非常出色。但我确实认为，正在浮现的关键点是这种“分化”的观念，以及我们正从一个资本充裕的环境，转向一个人们也许更加挑剔的环境，以及这对各种商业模式意味着什么。"
+    },
+    {
+      "i": 176,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "36:44",
+      "en": "I do think, completely agree. I also think, you know, every... The classic is different this time is, oh, interest rates don't matter anymore, right? And this is a classic thing. Oh, this is not going to be a rate-sensitive industry because the numbers are so unbelievably high. If you're growing 44% in a year, what do you care about when the rates are 5% or 5.25? It's completely irrelevant. You're just going to keep building, et cetera. But that is a lie that investors tell themselves. Rates, at least at the margin, at least at the tip of the sphere– sphere– at least for some of these leveraged companies like the Neoclouds or whatever, for one thing, it looks like a rates matter.",
+      "zh": "我确实这么认为，完全同意。我还觉得，你知道，每……“这次不一样”的经典版本就是：哦，利率不再重要了，对吧？这是个经典套路。哦，这不会是一个对利率敏感的行业，因为数字高得离谱。如果你一年增长44%，那利率是5%还是5.25%你管它干嘛？完全无关紧要。你就是会继续建设，等等。但这是投资者对自己撒的谎。至少在边际上，至少在“矛尖”上——矛尖上——至少对其中一些加了杠杆的公司，比如那些 neocloud 之类的，首先，看起来利率是有影响的。"
+    },
+    {
+      "i": 177,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "37:27",
+      "en": "Yeah. And also, I mean, just the costification idea of the market, it is really quite stunning because a lot of the earnings power of the tech companies, the hyperscalers, is predicated on the fact that, well, other companies are going to buy the services so that they can boost their own productivity and get the earnings up.",
+      "zh": "是啊。而且，我是说，光是市场的这种 SOX 化观念，就确实相当惊人，因为科技公司、超大规模云厂商的很大一部分盈利能力，都建立在这个前提上：其他公司会来购买这些服务，从而提升自己的生产率、把利润做上去。"
+    },
+    {
+      "i": 178,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "37:44",
+      "en": "But like.",
+      "zh": "但是，就像……"
+    },
+    {
+      "i": 179,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "37:45",
+      "en": "we're not actually seeing that materialize in their earnings numbers just yet. And in the meantime, everything, the whole index just becomes AI more and more on the expectation that eventually it won't just be about AI.",
+      "zh": "我们实际上还没有在它们的盈利数字里看到这一点真正实现。而与此同时，在“最终不会只有 AI 这一个故事”的预期之下，整个指数反而变得越来越 AI 化。"
+    },
+    {
+      "i": 180,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "37:58",
+      "en": "This is the thing that like, you know, when you talked about the pod shops, for example, the whole premise of a pod shop is that like everyone is supposed to find their own undifferentiated alpha.",
+      "zh": "这就是那种……你知道，当你讲到 pod shop 的时候，整个前提是每个人都应该找到属于自己的、与众不同的 alpha。"
+    },
+    {
+      "i": 181,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "38:09",
+      "en": "Yeah. Where is that right now?",
+      "zh": "是啊。现在这种 alpha 在哪儿呢？"
+    },
+    {
+      "i": 182,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "38:12",
+      "en": "So I think like, basically, if you're an investor, And you made money in the last year at scale. I mean, of course, like you might be able to like, oh, I opened, you know, a new like pasta restaurant in the East Village. That's a separate question. But if you're at scale and you made money in the last year, in some way it was connected to AI. You have all these different pods and some of them are chips and some of them are industrials, et cetera. But it's hard for me to believe that the ones who are making money aren't just in some way finding a way to belong to AI fans.",
+      "zh": "所以我觉得，基本上，如果你是一个投资者，而且你在过去一年里大规模地赚到了钱——我是说，当然，你可能会说“哦，我在东村（East Village）新开了一家意面餐厅”，那是另一回事。但如果你是在规模化的层面、在过去一年里赚到了钱，那么某种程度上它都和 AI 有关。你有这么多不同的 pod，有些做芯片，有些做工业股，等等。但我很难相信，那些真正赚到钱的人，不是以某种方式站在了 AI 这一边（做多 AI）。"
+    },
+    {
+      "i": 183,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "38:45",
+      "en": "Levered long.",
+      "zh": "加杠杆做多。"
+    },
+    {
+      "i": 184,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "38:46",
+      "en": "Yeah, levered long.",
+      "zh": "对，加杠杆做多。"
+    },
+    {
+      "i": 185,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "38:46",
+      "en": "The AI factor, I would imagine.",
+      "zh": "我想是做多 AI 因子吧。"
+    },
+    {
+      "i": 186,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "38:48",
+      "en": "The AI factor. You know, I was talking to... It's so funny, you know, we try to... Alex has such a good read on the industry, but also it's great to talk to him because he talks to clients to get the Wall Street view and so forth. I was talking to this computer science student at Stanford recently, and they were like, oh, Wall Street is an AI pill. And I was like, what are you talking about, Wall Street is an AI pill? Look at all these stocks that are going to the moon.",
+      "zh": "AI 因子。你知道，我在和……太好笑了，你知道，我们试着……Alex 对这个行业有非常到位的解读，而且和他聊也很棒，因为他会和客户交流，获取华尔街的观点等等。我最近在和一个斯坦福计算机科学专业的学生聊天，他们说：哦，华尔街其实并不“AI 上头”（AI-pilled）。我就说，你在讲什么啊，华尔街不“AI 上头”？看看这些涨到月亮上去的股票。"
+    },
+    {
+      "i": 187,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "39:11",
+      "en": "The numbers on my screen tell a different story.",
+      "zh": "我屏幕上的数字讲的是另一个故事。"
+    },
+    {
+      "i": 188,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "39:13",
+      "en": "What are you talking about?",
+      "zh": "你在说什么呢？"
+    },
+    {
+      "i": 189,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "39:14",
+      "en": "But.",
+      "zh": "但是……"
+    },
+    {
+      "i": 190,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "39:15",
+      "en": "That person's view was that if you're even having a discussion about the possibility of overabundance of GPUs, you just don't get it. like what do you well you're like oh you you don't you don't get ai sufficiently it's so funny it's.",
+      "zh": "那个人的观点是，如果你哪怕只是在讨论 GPU 可能会过剩这种可能性，你就是根本不懂。就像“你懂什么呀”，嗯，你就是“你对 AI 的理解还不够”，这太搞笑了，就是……"
+    },
+    {
+      "i": 191,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "39:32",
+      "en": "Um yeah definitely an interesting time in markets shall we leave it there.",
+      "zh": "嗯，是啊，眼下市场确实是个有意思的时候。我们就聊到这儿吧？"
+    },
+    {
+      "i": 192,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "39:36",
+      "en": "Alphabet they do 32 billion tokens per minute that was up 40 percent q of recovery i don't even know what these words mean let's leave.",
+      "zh": "Alphabet 每分钟处理320亿个 token，环比上升了40%——什么“复苏季度”，我都不知道这些词到底是什么意思了。咱们收了吧。"
+    },
+    {
+      "i": 193,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "39:44",
+      "en": "It there All right. This has been another episode of the All Thoughts Podcast. I'm Traci Allaway. You can follow me at Traci Allaway.",
+      "zh": "就这样吧。好。这里是新一期的 Odd Lots 播客。我是崔西·阿洛韦（Tracy Alloway）。你可以在 @TracyAlloway 关注我。"
+    },
+    {
+      "i": 194,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "39:50",
+      "en": "And I'm Jill Wiesenthal. You can follow me at The Stalwart. Follow our producers, Carmen Rodriguez at Carmen Armand, Dashiell Bennett at Dashbot, Kale Brooks at Kale Brooks, and Kevin Lozano at Kevin Lloyd Lozano. You can chat about all these topics 24-7 in our Discord, discord.gg slash oddlots. For more oddlots content, check out our daily newsletter, which you can find at glimmer.com slash oddlots.",
+      "zh": "我是乔·韦森塔尔（Joe Weisenthal）。你可以在 @TheStalwart 关注我。欢迎关注我们的制作人：Carmen Rodriguez（@carmenarmen）、Dashiell Bennett（@DashBot）、Caleb Brooks（@CalebBrooks），以及 Kevin Lozano（@KevinLloydLozano）。你可以在我们的 Discord 里全天候（24/7）讨论所有这些话题：discord.gg/oddlots。想看更多 Odd Lots 的内容，请查看我们的每日新闻简报，可以在 bloomberg.com/oddlots 找到。"
+    },
+    {
+      "i": 195,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "40:14",
+      "en": "And if you enjoyed this conversation, if you like it when we check in on the markets, then please leave us a positive review on your favorite podcast platform. And if you're watching on video, then please like or leave a comment or better yet, subscribe.",
+      "zh": "如果你喜欢这段对话，如果你喜欢我们定期检视市场，那么请在你常用的播客平台上给我们留一个好评。如果你是在看视频版，请点赞或者留言，更好的话，订阅我们。"
+    },
+    {
+      "i": 196,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "40:26",
+      "en": "And remember, if you're a Bloomberg subscriber, you can listen to all of our episodes absolutely ad-free. All you need to do is find the Bloomberg channel on Apple Podcasts and follow the instructions there.",
+      "zh": "还有，请记住，如果你是彭博的订阅用户，你可以完全无广告地收听我们所有的节目。你要做的只是在 Apple Podcasts 上找到彭博频道，然后按照那里的说明操作。"
+    },
+    {
+      "i": 197,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "40:37",
+      "en": "Thanks for joining.",
+      "zh": "感谢收听。"
+    },
+    {
+      "i": 198,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "40:48",
+      "en": "Thank you.",
+      "zh": "谢谢。"
+    }
+  ]
+}

@@ -1,0 +1,1474 @@
+{
+  "show": "odd-lots",
+  "kind": "transcript",
+  "id": "348763788",
+  "slug": "2026-10-30-php2shell-wont-be-the-last-big-348763788",
+  "date": "2026-10-30",
+  "title_en": "PHP2Shell Won't Be the Last Big AI Cybersecurity Risk",
+  "title_zh": "PHP2Shell 不会是最后一个 AI 网络安全大风险",
+  "subtitle_zh": "彭博 Odd Lots 播客：主持人 Joe Weisenthal 与 Tracy Alloway 对话黑客公司 Calif 的 Thai Duong 与 Bruce Dang，复盘 AI 参与发现的 PHP2Shell 漏洞（CVE-2026-109618 / CVE-2026-109619，PHP 支撑着约七成网站）、“减一日漏洞”如何让补丁窗口坍缩、会写代码的模型天生就是黑客工具，以及“半人马黑客”时代里防御方还能不能追上。",
+  "description": "PHP2Shell Won't Be the Last Big AI Cybersecurity Risk",
+  "duration": "49:00",
+  "duration_seconds": 2940,
+  "episode_url": "https://www.iheart.com/podcast/1308-odd-lots-30972803/episode/php2shell-wont-be-the-last-big-ai-cybersecurity-risk-348763788",
+  "audio_url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/8a94442e-5a74-4fa2-8b8d-ae27003a8d6b/cbaad2bb-14e3-4e9e-98cf-b4f2015679b2/audio.mp3?utm_source=Podcast&in_playlist=982f5071-765c-403d-969d-ae27003a8d83&source=iheart",
+  "speakers": {
+    "1": "Joe Weisenthal（主持）",
+    "2": "Tracy Alloway（主持）",
+    "3": "Thai Duong（嘉宾，Calif 联合创始人兼首席执行官）",
+    "4": "Bruce Dang（嘉宾，Calif 安全研究员）",
+    "5": "Carol Massar（彭博科技快讯口播）",
+    "6": "广告与节目预告口播（Boomi、Bloomberg Audio Studios、Economy Scale、Wispr Flow、Chase、Delta、Wise、Mastercard）"
+  },
+  "turn_count": 181,
+  "turns": [
+    {
+      "i": 0,
+      "speaker": 5,
+      "speaker_zh": 5,
+      "ts": "00:00",
+      "en": "Finance is increasingly being built on digital rails, but as the adoption of virtual assets tokenization and stable coins grows, can regulation not only keep pace but help accelerate it, find out more later in the podcast. This is the Bloomberg Tech Minute brought to you by Chatchee PT. I'm Carol",
+      "zh": "金融业正日益构建在数字化轨道之上，但随着虚拟资产、代币化（tokenization）与稳定币（stablecoin）的采用不断扩张，监管能否不仅跟上步伐、还能反过来助推其发展？稍后播客中将为你揭晓更多。这里是彭博科技快讯（Bloomberg Tech Minute），由 ChatGPT 赞助播出。我是 Carol"
+    },
+    {
+      "i": 1,
+      "speaker": 5,
+      "speaker_zh": 5,
+      "ts": "00:20",
+      "en": "Masser. Getting hired at SpaceX requires exceptional ability and may include having Elon Musk review a candidate's resume. So writes Bloomberg Business Week's Lauren Grush. She reports that the company culture is defined by Musk and job candidates must understand that a commitment to SpaceX means",
+      "zh": "Massar。想要被 SpaceX 录用需要过人的能力，而且过程可能包括由埃隆·马斯克（Elon Musk）亲自审阅候选人的简历。《彭博商业周刊》记者 Loren Grush 如此写道。她报道称，SpaceX 的公司文化由马斯克定义，求职者必须明白，选择加入 SpaceX 就意味着"
+    },
+    {
+      "i": 2,
+      "speaker": 5,
+      "speaker_zh": 5,
+      "ts": "00:37",
+      "en": "adhering to this culture and exhibiting loyalty to Elon Musk. To get hired, candidates must demonstrate their achievements from past jobs and hands-on experience matters more to recruiters than advanced degrees. With the company looking for people with raw innate intelligence, a spokesperson for SpaceX didn't",
+      "zh": "认同这种文化并对埃隆·马斯克展现忠诚。要想被录用，候选人必须拿出过往工作中的实际成绩，而对招聘者来说，动手经验比高学历更重要。由于公司在寻找具有原始天赋智力的人，一位 SpaceX 发言人并未"
+    },
+    {
+      "i": 3,
+      "speaker": 5,
+      "speaker_zh": 5,
+      "ts": "00:56",
+      "en": "respond to request for comment on its recruiting and hiring practices. But according to recruiters, advisors, and those who've interviewed for jobs there, it's the space exploration dream that draws people to the company and Musk invokes that dream regularly to remind workers why they're there. Perspective",
+      "zh": "就其招聘与录用做法回应置评请求。但据招聘人员、顾问以及曾在那里面过试的人说，真正吸引人们加入这家公司的是太空探索之梦，而马斯克也会经常唤起这个梦想，提醒员工他们为什么在这里。至于未来"
+    },
+    {
+      "i": 4,
+      "speaker": 5,
+      "speaker_zh": 5,
+      "ts": "01:13",
+      "en": "hires are told that the job will require stamina, including in job ads that candidates quote, must be willing to work extended hours and weekends as needed. One major perk for all that hard work, employees access to equity, either the right to buy shares or payment in the form of restricted stock units that",
+      "zh": "入职的人会被告知，这份工作需要极强的耐力，招聘广告中甚至写明——引用候选人的原话——“必须愿意按需长时间工作并在周末加班”。而所有这些辛苦付出换来的一大福利，是员工可以拿到股权，要么是购股权利，要么是以限制性股票单位（RSU）形式发放的报酬，这些股票会"
+    },
+    {
+      "i": 5,
+      "speaker": 6,
+      "speaker_zh": 6,
+      "ts": "01:31",
+      "en": "vest over time. That's the Bloomberg Tech Minute brought to you by ChachiPT. Get started at ChachiPT.com. For big business, AI opened up a world of promise, but that world of promise turned into a world of pain, cost spiraling, data-trapped security and governance risks, multiplying, and ROI out of reach.",
+      "zh": "随时间逐步归属（vest）。以上就是由 ChatGPT 赞助播出的彭博科技快讯。立即上手请访问 ChatGPT.com。对大型企业而言，AI 曾打开一个充满希望的世界，但这个希望之地却变成了痛苦之地：成本不断飙升、数据被困在孤岛里、安全与治理风险成倍增加，而投资回报（ROI）却遥不可及。"
+    },
+    {
+      "i": 6,
+      "speaker": 6,
+      "speaker_zh": 6,
+      "ts": "01:52",
+      "en": "That's why enterprises turned to Boomi to connect data, apps, and AI, helping them operate securely, efficiently, and at scale. Boomi turns a world of AI pain into a world of AI gain. As Boomi says, we got you. Head to boomi.com. That's B-O-O-M-I- dot com.",
+      "zh": "正因如此，企业转而选择 Boomi 来打通数据、应用与 AI，帮助它们安全、高效、规模化地运营。Boomi 把 AI 之痛的世界变成 AI 之利的世界。正如 Boomi 所说：“有我们在。”请访问 boomi.com，也就是 B-O-O-M-I 点 com。"
+    },
+    {
+      "i": 7,
+      "speaker": 6,
+      "speaker_zh": 6,
+      "ts": "02:14",
+      "en": "Bloomberg Audio Studios. Podcasts, radio, news.",
+      "zh": "彭博音频工作室（Bloomberg Audio Studios）：播客、广播、新闻。"
+    },
+    {
+      "i": 8,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "02:30",
+      "en": "Hello and welcome to another episode of the Odd Box Podcast. I'm Tracy Alloway. And I'm Joe Wyzenthor. Joe, it's October. We're recording this on October 29th. Yeah. It is also Black October. Have you heard this term? Yeah. What does that mean? If stocks go down, is it okay?",
+      "zh": "大家好，欢迎收听新一期的 Odd Lots 播客。我是 Tracy Alloway。我是 Joe Weisenthal。Joe，现在是十月，我们这期是在10月29日录的。嗯。这也是“黑色十月”（Black October）。你听说过这个说法吗？嗯。那是什么意思？是说股市要跌了吗？"
+    },
+    {
+      "i": 9,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "02:46",
+      "en": "Your mind immediately goes to markets. There are other worlds out there. We're going to be talking about the world of cyber security today because one of the reasons people are talking about Black October is we've had a number of recent security issues, the most prominent of which has been a bunch of vulnerabilities",
+      "zh": "你一下就会想到市场。但其实还有别的世界。今天我们要聊的是网络安全这个世界，因为人们之所以在谈论“黑色十月”，原因之一就是最近发生了一系列安全事件，其中最引人注目的是在 PHP 中发现的一大批漏洞"
+    },
+    {
+      "i": 10,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "03:02",
+      "en": "discovered in PHP, which is a coding language that apparently is used by 70% of websites in existence. We can get into that stat later. But the really interesting thing about this vulnerability being uncovered is AI was used to uncover it. And so the big question coming back to AI, there's a concern now that you have",
+      "zh": "——PHP 是一种编程语言，据说现存网站中有70%都在使用它。这个数据我们稍后可以细说。但这次漏洞被发现的过程里真正有意思的一点是：是 AI 把它找出来的。所以问题又回到了 AI 身上——现在有一种担忧，就是"
+    },
+    {
+      "i": 11,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "03:24",
+      "en": "good actors who are maybe using AI to discover old vulnerabilities and trying to fix them. But you could also have bad actors who are using AI to exploit those same vulnerabilities. So we're back to the question of whether AI makes the internet safer or more dangerous makes a more dangerous.",
+      "zh": "好人可能在用 AI 去发现老旧漏洞并设法修补，但也可能有坏人在用 AI 去利用同样这些漏洞。于是我们又回到了那个老问题：AI 到底让互联网更安全，还是更危险？——它让互联网更危险。"
+    },
+    {
+      "i": 12,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "03:42",
+      "en": "No, I have no idea ever since essentially anthropic announced that they had this model called mythos and now it's project glass wing, which was rolled out to companies to use for defensive purposes before it was available to the general public. There has been much more awareness of cybersecurity issues as",
+      "zh": "说实话我完全不懂。基本上自从 Anthropic 宣布他们有一个叫 Mythos 的模型，然后是“玻璃翼计划”（Project Glasswing）——在对公众开放之前，先交给企业用于防御目的——以来，大家对与 AI 相关的网络安全问题的关注度就高多了。"
+    },
+    {
+      "i": 13,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "04:00",
+      "en": "it relates to AI. And there are many things that people debate about AI and some of these bigger existential questions pretty much everyone agrees cyber security good, more cyber security good. I will say I know very little about the world of cybersecurity. I don't know what, for example, a cybersecurity company actually",
+      "zh": "关于 AI，人们争论的事情有很多，还有那些更宏大的存在性问题，但在“网络安全是好事、网络安全越多越好”这一点上几乎所有人都同意。我得说，我对网络安全这个世界了解得很少。比如说，我根本不知道一家网络安全公司到底"
+    },
+    {
+      "i": 14,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "04:18",
+      "en": "sells. I don't know how if I were buying cybersecurity, I would know whether it's working or whether no one had tried to hack me or not or something like that. I need to learn a lot more, but it's absolutely true about the uptick and the volume of hacks. There are hackers out there right now taking notes",
+      "zh": "卖的是什么。我也不知道，如果我去买一套网络安全产品，我要怎么才能判断它到底有没有用、是不是根本没人来黑我，之类的。我需要补的课还有很多。但黑客攻击在数量和频率上的上升，这是千真万确的。此刻就有一些黑客在做笔记，心想"
+    },
+    {
+      "i": 15,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "04:33",
+      "en": "going. Joe doesn't know anything about cybersecurity probably doesn't have a VPN. I don't that's why my vibe coding projects I don't want to ever I've yet to build anything with an account because I don't want to like have to think about that. So it's just like, I don't want to count information with anyone.",
+      "zh": "“Joe 对网络安全一窍不通，大概连 VPN 都没有。”我确实没有——这也是为什么我做 vibe coding（凭感觉写代码）项目的时候，从来不愿意、到现在也没做过任何需要注册账号的东西，因为我不想被迫去想这些安全问题。所以就是，我不想把自己的信息交给任何人。"
+    },
+    {
+      "i": 16,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "04:48",
+      "en": "But I have as a user of technical products over the last several weeks, you get more emails saying like, our thing was compromised. You're probably fine, but maybe you should refresh some keys or whatever. This is happening. This is real. And everyone really needs to learn more. And if you think about like",
+      "zh": "但作为一个技术产品的用户，过去这几周我收到的这类邮件明显变多了，内容大概是“我们的东西被攻破了，你大概没事，不过也许你该去刷新一下某些密钥什么的”。这种事正在发生，是真实存在的，每个人都真的需要多学一点。而且如果你想想"
+    },
+    {
+      "i": 17,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "05:06",
+      "en": "black swans and Wall Street and all that stuff, you know, there's been for years a lot of talk about cyber as a major risk out there. Yeah. All right. Well, we do in fact have the perfect guess we're going to be speaking to two people from the company, Calif, one of the companies that",
+      "zh": "黑天鹅、华尔街那一套东西，这么多年来大家一直在说网络风险是悬在市场之上的重大风险之一。是啊。好了，我们这次确实请到了再合适不过的嘉宾。我们要和 Calif 这家公司的两位同事聊聊，Calif 正是"
+    },
+    {
+      "i": 18,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "05:22",
+      "en": "actually uncovered this PHP vulnerability. The other one was a company called Wiz. We have Ty Yun. He is the CEO over at Calif, which is hacking firm. And we can get into exactly what that means, as well as Bruce Deng. He is an engineer at Calif as well. So Ty and Bruce, thank you so much for coming on all thoughts.",
+      "zh": "真正挖出这次 PHP 漏洞的公司之一，另一家是 Wiz。我们请到了 Thai Duong，他是 Calif 的首席执行官——Calif 是一家“黑客公司”，这个词具体什么意思我们可以细聊——还有 Bruce Dang，他也是 Calif 的工程师。Thai、Bruce，非常感谢你们来做客 Odd Lots。"
+    },
+    {
+      "i": 19,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "05:42",
+      "en": "And we're glad to be here. So just to begin with, because, you know, hackers kind of, they always have cool achievements that they like to talk about. Why don't we just go ahead and start with who you are and what are the coolest things you've done in your hacking career?",
+      "zh": "我们很高兴来到这里。那就先从一个问题开始吧——你知道，黑客们总是有一些很酷的“战绩”喜欢拿出来讲。不如我们就直接开始：你们是谁，以及你们的黑客生涯里干过最酷的事情是什么？"
+    },
+    {
+      "i": 20,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "05:57",
+      "en": "Yeah. So I started my career at Microsoft like almost 20 years ago in the Microsoft Security Response Center, which is a people that do patch Tuesdays. You know, like on the second Tuesday of every month, Microsoft released an update. So I worked in that team a long time ago.",
+      "zh": "好的。我的职业生涯是从微软开始的，差不多20年前，在微软安全响应中心（Microsoft Security Response Center，MSRC），也就是负责“补丁星期二”（Patch Tuesday）的那批人。你知道的，每个月的第二个星期二，微软会发布更新。很久以前我就在那个团队工作。"
+    },
+    {
+      "i": 21,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "06:13",
+      "en": "Probably the biggest thing I did there and then I could talk about is, I helped reverse engineer the Stuxnet virus, which is one of the one that was related to the supposedly the Iranian nuclear program was used to sabotage the Iranian nuclear program. This is the thing that people describe it as the world's first like known",
+      "zh": "我在那里做过的、能拿出来说的最大的一件事，大概就是我参与了对震网病毒（Stuxnet）的逆向工程。这个病毒据称与伊朗核计划有关，被用来破坏伊朗的核计划。人们把它描述为世界上第一个已知的"
+    },
+    {
+      "i": 22,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "06:34",
+      "en": "digital cyber weapon, right? Yeah. Yeah. Yeah. Yeah. I'm sure there were many others before, but that's the first public one. Yeah. I worked there for almost a decade. And then I left to do a startup with my friends. And then I joined Apple. I worked on iOS security. And then Ty managed to convince me to follow",
+      "zh": "数字网络武器，对吧？——对，对，对。我相信在那之前肯定还有很多，但那是第一个公开的。嗯。我在微软待了将近十年，然后离开去和朋友一起创业。之后我加入了苹果，做 iOS 安全。再后来 Thai 成功说服我去信奉"
+    },
+    {
+      "i": 23,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "06:58",
+      "en": "the church of AI. And so I, here I am. Yeah. It took me four years to convince proves. So you know, when you go to a website or you go to Amazon, even Facebook, Instagram, your computer, which information with the server, right? Yeah. And that would be the information would travel through many, many other",
+      "zh": "“AI 教”。所以我现在就在这里了。是啊，我花了四年时间才说服 Bruce。那么，当你访问一个网站，比如亚马逊，甚至 Facebook、Instagram 时，你的计算机会和服务器交换信息，对吧？——嗯。而这些信息会经过许许多多其他的"
+    },
+    {
+      "i": 24,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "07:24",
+      "en": "servers like your ISB, your Wi-Fi routers. So you want to encrypt that information to make sure that only the server can see your data, nobody else. And there's a mechanism for that. It's called the SSL protocol or the later person is called like TOS, like transport layer security protocol. So I love those",
+      "zh": "服务器，比如你的 ISP（网络服务商）、你的 Wi-Fi 路由器。所以你希望对这些信息加密，确保只有目标服务器能看到你的数据，别人都看不到。为此有一套机制，叫 SSL 协议，后来的版本叫 TLS，也就是传输层安全协议（Transport Layer Security）。我很喜欢这些"
+    },
+    {
+      "i": 25,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "07:47",
+      "en": "protocols. And back in the day, together with friends, we found a bunch of ways to break the protocols, you know, to equip the data. And it's pretty cool. It's actually changed the internet, how the network is because we basically show that in the past that like two protocols like SSL version 3.0, that was",
+      "zh": "协议。当年我和朋友们一起找到了一堆攻破这些协议的方法，也就是把数据解密出来。这件事挺酷的，它实际上改变了互联网、改变了网络的运行方式，因为我们基本上证明了，过去像 SSL 3.0 这样的协议——它是由"
+    },
+    {
+      "i": 26,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "08:12",
+      "en": "invented by Nescap, you know, you remember Nescap? Yeah, yeah. 30 years ago. And then they will still use it because it's still working somewhat. But we show that oh, it's not working very correctly. If you use SSL 3.0, then people can equip your data. So we hope the internet like really,",
+      "zh": "网景（Netscape）发明的，你还记得网景吗？——记得记得，30年前的事了。大家之所以还在用它，是因为它多少还能用。但我们证明了：哦，它其实工作得并不正确。如果你用 SSL 3.0，别人就能解密你的数据。所以我们希望互联网能真正、"
+    },
+    {
+      "i": 27,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "08:32",
+      "en": "really remove like SSL 3.0. And that's one thing, the other thing that I really enjoyed doing was, you know, people think that in the past, you have compression, you have some data, you want to compress the data, and you have encryption. And both of them actually randomize your data in some way, right? If",
+      "zh": "彻底地把 SSL 3.0 淘汰掉。这是一件事。另一件我特别享受的事情是——过去人们会想：你有压缩，你有一些数据、你想压缩它；你还有加密。而这两者在某种程度上都会让你的数据变得随机，对吧？如果"
+    },
+    {
+      "i": 28,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "08:52",
+      "en": "you look at the zip file, you open the zip file, look at the row up, binaries, buy data in the zip file, look random to you. Because on the redundant information has been removed and encode that in a way to reduce the size of the file. And so what the basic question in computer security was, would you",
+      "zh": "你去看一个 zip 文件，打开它，看里面的原始二进制数据，那些字节在你看来是随机的。因为冗余信息已经被移除，并且用某种方式重新编码，从而缩小了文件体积。所以在计算机安全领域，一个基本问题是：你会"
+    },
+    {
+      "i": 29,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "09:16",
+      "en": "compress data and then you encrypt or you encrypt and compress? And, you know, I took some crypto class at Stanford University. And I remember my professor, he asked this question in one of the hubble assignments. And the office answer back then was, you don't want to compress and then you don't",
+      "zh": "先压缩数据再加密，还是先加密再压缩？我在斯坦福大学上过一些密码学课。我记得我的教授在其中一次课后作业里问过这个问题。当时的标准答案是：你不应该"
+    },
+    {
+      "i": 30,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "09:39",
+      "en": "want to encrypt and compress because encryption randomize your data. It means that compression would be less effective. So the right answer is you compress and then you encrypt. And that was the correct answer on my home assignment. I think I took that class in 2011. And then three years later,",
+      "zh": "先加密再压缩，因为加密会让数据变得随机，这意味着压缩的效果会变差。所以正确答案是先压缩、再加密。这也是我那次作业的标准答案。我记得那门课是2011年上的。然后三年之后，"
+    },
+    {
+      "i": 31,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "10:00",
+      "en": "we found out it's wrong. If you do that, then people can actually equip your data. And the way it looks is pretty cool. I can explain to you. So compression actually review, if you look at a compressed file, you know how well it is compressed, right? Like because it's softer. If it's smaller,",
+      "zh": "我们发现这是错的。如果你那么做，别人其实能解密你的数据。而它的原理挺酷的，我可以解释给你听。压缩其实会“泄露”信息：如果你看一个压缩文件，你能知道它被压缩得多好，对吧？因为如果文件更小，"
+    },
+    {
+      "i": 32,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "10:18",
+      "en": "the compression is very good because, you know, there's a lot of redundant information. That's why compression works well. It means that if you look at the compression alone, the size of the compression, a compressed file, you can tell whether the file has a lot of applied redundant information. And",
+      "zh": "就说明压缩效果非常好，因为里面有大量冗余信息——这正是压缩能生效的原因。这意味着，只看压缩后的文件大小，你就能判断这个文件里是不是有大量冗余信息。而"
+    },
+    {
+      "i": 33,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "10:36",
+      "en": "encrypts and high the length. So it doesn't hide the size of the encrypted data. When you encrypt the message, you can still see that this message is maybe this long or this message may be this long, right? Because compression doesn't try to hide that. There's some people try to do that.",
+      "zh": "加密隐藏的是内容，不是长度。所以它并不会隐藏加密后数据的体积。当你加密一条消息时，你仍然能看出这条消息大概有这么长、那条消息大概有那么长，对吧？因为压缩本身并不试图隐藏这一点。确实也有人尝试过去隐藏长度。"
+    },
+    {
+      "i": 34,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "10:56",
+      "en": "So it means that if you compress and then you encrypt, it means that I can see whether some your message has some redundant information, has a lots of redundant information. And that's alone is a leakage from it, right? That you don't want to review. And I gave you an example,",
+      "zh": "所以这意味着，如果你先压缩再加密，我就能看出你的消息里有没有冗余信息、有多少冗余信息。光是这一点，本身就是一种你不希望发生的信息泄露。我给你举个例子："
+    },
+    {
+      "i": 35,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "11:12",
+      "en": "like, let's say that you take a message, like a random message that I gave you. And then you put your password together with that message. Let's just say that there's a way, like there's a reason for you to do that. You put your password together with the message I gave you and you",
+      "zh": "假设你拿到一条消息，就是我给你的一条随机消息，然后你把你的密码和这条消息拼在一起。我们就假设你有某种理由这么做。你把你的密码和我给你的消息拼在一起，然后"
+    },
+    {
+      "i": 36,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "11:25",
+      "en": "compressed together. And then you encrypt it with a key that I don't know. And you review the side effects, the result encrypted message to me. So supposedly I don't have the key. I shouldn't be able to read the message, right? But because I give you a message and you get my message, put",
+      "zh": "一起压缩，再用一个我不知道的密钥加密，然后把最终得到的密文发给我。按理说我没有密钥，就不应该能读到消息内容，对吧？但正因为那条消息是我给你的，你把我的消息和你的密码放到一起、"
+    },
+    {
+      "i": 37,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "11:46",
+      "en": "together with your password, you compress together. If the compressing is very, works very well, then I know whether you met my message, has some redundancy with your password. You can reverse engineer between like the two relationships. Yeah, exactly. And you don't do that like repeatedly. Eventually, we",
+      "zh": "一起压缩。如果压缩效果非常好，那我就能知道你的密码和我那条消息之间是否存在冗余重叠。你可以据此反推出两者之间的关系。——对，正是如此。而且如果你反复这么做，最终我们"
+    },
+    {
+      "i": 38,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "12:05",
+      "en": "can recover your password. And that's exactly what we found on these web encryption protocol. Like in the past, that's exactly what I did. They take my data, they concatenate your password, they encrypt together, they compress together, and then they send over the wire.",
+      "zh": "就能把你的密码恢复出来。而这恰恰就是我们在那些 Web 加密协议上发现的问题。过去它们的做法正是如此：把我的数据和你的密码拼接起来，一起压缩、一起加密，然后通过网络发送出去。"
+    },
+    {
+      "i": 39,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "12:25",
+      "en": "And then as an attacker, I can see the length. And that's enough for me to decrypt. And that's the solution was really interesting because they decided to turn off like compression. There's no solution. And then eventually, I was at Google back then. I was born in Saigon, Vietnam, I",
+      "zh": "而作为攻击者，我能看到长度，这就足够让我解密了。有意思的是最后的解决方案：他们干脆决定把压缩功能关掉——没有别的办法。后来，当时我在谷歌。我出生在越南西贡，"
+    },
+    {
+      "i": 40,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "12:46",
+      "en": "grew up there. Then I got a job in mountain view for a consultancy, like what we do. So I moved to mountain view in 2011. And then I joined Google later that year. And I did a bit of photography at Google, basically help people do photography correctly, like try to avoid the",
+      "zh": "在那里长大。后来我在山景城（Mountain View）找到一份咨询类的工作，跟我们今天做的事情差不多，于是2011年我搬到了山景城，同年晚些时候加入了谷歌。我在谷歌做过一段时间渗透测试（pentesting），基本上就是帮别人正确地做渗透测试，尽量避免"
+    },
+    {
+      "i": 41,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "13:10",
+      "en": "mistakes that we found. I was there for 12 years. I work on like very last-numbered products. Google has a lot of products, right? Gmail, Chrome browser that we are using right now. And there's a lot of people out there that want to hack Google and products. So my job was to hack these",
+      "zh": "我们发现的那些错误。我在那里待了12年，负责过非常多的产品。谷歌有很多产品，对吧？Gmail、我们现在正在用的 Chrome 浏览器。外面有很多人想黑掉谷歌和它的产品，所以我的工作就是在这些产品"
+    },
+    {
+      "i": 42,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "13:31",
+      "en": "products before we release them to the public. And I was there for 12 years. And then I left to create Calif. And yeah, that's fantastic. I'm already fascinated by this conversation. I want to get into obviously what Calif does specifically. I want to get into some of the latest vulnerabilities. But",
+      "zh": "发布给公众之前先把它们黑一遍。我在那里待了12年，然后离职创办了 Calif。太精彩了，这段对话已经把我迷住了。我当然想深入聊聊 Calif 具体是做什么的，也想聊聊最近的一些漏洞。但在"
+    },
+    {
+      "i": 43,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "13:51",
+      "en": "before we do that, you know, both of you have had long careers that by and large predate what we now call AI, are the risks associated with AI, a sort of continuation on some path that cybersecurity has well understood? Or are we in a truly novel area for how we should we be thinking about cybersecurity",
+      "zh": "那之前——你们两位的职业生涯都很长，而且大体上都早于我们今天所说的 AI。那么，与 AI 相关的风险，是不是网络安全早已理解清楚的某条路径的延续？还是说，我们在思考网络安全时，正处在一个真正全新的领域里？"
+    },
+    {
+      "i": 44,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "14:19",
+      "en": "I think it's a combination of the two. We've always known that there are security vulnerabilities in systems. And so, you know, we have security engineers who are hackers who are trying to find and exploit these vulnerabilities. So the system has always been vulnerable to some degree, to varying degree.",
+      "zh": "我觉得两者兼有。我们一直都知道系统里存在安全漏洞。所以才会有安全工程师——他们本质上就是黑客——去尝试发现和利用这些漏洞。也就是说，系统一直以来都在某种程度上、以不同程度存在着脆弱性。"
+    },
+    {
+      "i": 45,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "14:37",
+      "en": "What AI has done is it's kind of accelerated the speed in which you identify and exploit these vulnerabilities to a level where it's almost like superhuman, you know, like 20 years ago, Microsoft would release, let's say, maybe 20 updates every month. Now you're looking at like, you know,",
+      "zh": "AI 所做的事情，是把识别和利用这些漏洞的速度提升到了一个近乎“超人”的水平。20年前，微软每个月大概发布20个更新。而现在你要面对的是，"
+    },
+    {
+      "i": 46,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "14:54",
+      "en": "1400 updates per month. You know, like, and then that number is going to continue to grow. It's just to give you an idea of like the scale of things. And now, you know, what, for example, say to have certain systems, it may take you, let's say three months with lots of people. Now that may take you a few days",
+      "zh": "每月1400个更新。而且这个数字还会继续增长。这只是让你对整件事的量级有个概念。再比如，现在要攻破某些系统，过去可能需要很多人花上三个月，而现在可能只需要几天，"
+    },
+    {
+      "i": 47,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "15:16",
+      "en": "with just one person and a very capable AI model. That's the reality we're in today. It even changed the way how attackers, like, you know, like, certain types of systems, you know, like the banking sector that we are customers and you know, you can tell some stories about that time. But that's",
+      "zh": "只需要一个人加上一个非常强的 AI 模型。这就是我们今天所处的现实。它甚至改变了攻击者的方式——比如某些类型的系统，像银行业，我们是他们的服务方，这方面你可以讲几个故事。但大致上"
+    },
+    {
+      "i": 48,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "15:34",
+      "en": "kind of what I think it's, I think it's a systems of always been vulnerable to some degree. And now it's the AI just accelerates that and makes it much more visible. And it's also made it easier for people to identify these vulnerabilities as well. Yeah. And so, and they obviously learn from their pros and cons",
+      "zh": "我的看法是：系统一直以来就在某种程度上是脆弱的，而现在 AI 只是把这一点加速了、并且让它变得显眼得多。它同时也让人们更容易发现这些漏洞。——嗯，所以攻击者显然也会从中吸取经验教训。"
+    },
+    {
+      "i": 49,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "15:52",
+      "en": "about it. Yeah, we won't tell them.",
+      "zh": "——是啊，不过我们不会告诉他们的。"
+    },
+    {
+      "i": 50,
+      "speaker": 6,
+      "speaker_zh": 6,
+      "ts": "16:08",
+      "en": "What's next for virtual assets? I'm Jacob Grease, host of Economy Scale, a series exploring growth in key global sectors. And this episode, we're diving into the digital forces shaping finance. Sean McEw from Dubai based virtual assets, regulatory authority has this to say, we're seeing a lot of",
+      "zh": "虚拟资产的下一步是什么？我是 Jacob Grease，《Economy Scale》的主持人，这是一个探讨全球关键行业增长的系列节目。在这一期里，我们深入那些正在塑造金融业的数字化力量。来自总部位于迪拜的虚拟资产监管局（VARA）的 Sean McEw 这样说：“我们看到大量"
+    },
+    {
+      "i": 51,
+      "speaker": 6,
+      "speaker_zh": 6,
+      "ts": "16:27",
+      "en": "in social players come in, digital asset dedicated hedge funds, high",
+      "zh": "机构玩家进场，有专门做数字资产的对冲基金、高"
+    },
+    {
+      "i": 52,
+      "speaker": 6,
+      "speaker_zh": 6,
+      "ts": "16:34",
+      "en": "clients, as more capital enters the market, adaptive regulation is likely to become increasingly key. Reese miracle ripple says a lot of regulators globally would like to keep the industry at arms length. That's the opposite here. I think also what you'll find is that regulation and frameworks can come out, but some of them",
+      "zh": "净值客户。随着更多资本进入市场，适应性的监管可能会变得越来越关键。”Ripple 的 Reese Miracle 说：“全球很多监管机构都想和这个行业保持距离，而在这里恰恰相反。我觉得你还会发现，虽然监管规则和框架会出台，但其中有些"
+    },
+    {
+      "i": 53,
+      "speaker": 6,
+      "speaker_zh": 6,
+      "ts": "16:53",
+      "en": "are maybe a slight iteration on some 80 year old policy and not actually in line with what the technology can do and offer. And again, that's very different in Dubai. Listen to the full episode, wherever you get your podcasts, this series is brought to you by Bloomberg Media Studios and the Dubai Department of Economy and Tourism.",
+      "zh": "也许只是对某个80年前的老政策做了一点小小的迭代，实际上并不符合这项技术能做到和提供的东西。而在迪拜，情况就非常不同。”欢迎在你常用的播客平台上收听完整一期。本系列由彭博媒体工作室（Bloomberg Media Studios）与迪拜经济和旅游部（Dubai Department of Economy and Tourism）联合呈现。"
+    },
+    {
+      "i": 54,
+      "speaker": 5,
+      "speaker_zh": 5,
+      "ts": "17:12",
+      "en": "This is the Bloomberg Tech Minute brought to you by Chachi PT. I'm Carol Maser getting hired at SpaceX requires exceptional ability and may include having Elon Musk review a candidate's resume. So writes Bloomberg Business Weeks Lauren Grush. She reports that the company culture is defined",
+      "zh": "这里是彭博科技快讯，由 ChatGPT 赞助播出。我是 Carol Massar。想要被 SpaceX 录用需要过人的能力，而且过程可能包括由埃隆·马斯克亲自审阅候选人的简历。《彭博商业周刊》记者 Loren Grush 如此写道。她报道称，SpaceX 的公司文化由马斯克定义，"
+    },
+    {
+      "i": 55,
+      "speaker": 5,
+      "speaker_zh": 5,
+      "ts": "17:29",
+      "en": "by Musk and job candidates must understand that a commitment to SpaceX means adhering to this culture and exhibiting loyalty to Elon Musk. To get hired, candidates must demonstrate their achievements from past jobs and hands on experience matters more to recruiters than advanced",
+      "zh": "求职者必须明白，选择加入 SpaceX 就意味着认同这种文化并对埃隆·马斯克展现忠诚。要想被录用，候选人必须拿出过往工作中的实际成绩，而对招聘者来说，动手经验比高"
+    },
+    {
+      "i": 56,
+      "speaker": 5,
+      "speaker_zh": 5,
+      "ts": "17:45",
+      "en": "degrees with the company looking for people with raw innate intelligence. A spokesperson for SpaceX didn't respond to request for comment on its recruiting and hiring practices, but according to recruiters, advisors, and those who've interviewed for jobs there, it's the space exploration",
+      "zh": "学历更重要，因为公司在寻找具有原始天赋智力的人。一位 SpaceX 发言人并未就其招聘与录用做法回应置评请求。但据招聘人员、顾问以及曾在那里面过试的人说，真正吸引人们加入这家公司的是太空探索"
+    },
+    {
+      "i": 57,
+      "speaker": 5,
+      "speaker_zh": 5,
+      "ts": "18:01",
+      "en": "dream that draws people to the company and Musk invokes that dream regularly to remind workers why they're there. Perspective hires are told that the job will require stamina, including in job ads that candidates, quote, must be willing to work extended hours and weekends as needed.",
+      "zh": "之梦，而马斯克也会经常唤起这个梦想，提醒员工他们为什么在这里。未来入职的人会被告知，这份工作需要极强的耐力，招聘广告中甚至写明——引用候选人的原话——“必须愿意按需长时间工作并在周末加班”。"
+    },
+    {
+      "i": 58,
+      "speaker": 5,
+      "speaker_zh": 5,
+      "ts": "18:18",
+      "en": "One major perk for all that hard work, employees access to equity, either the right to buy shares or payment in the form of restricted stock units that invest over time. That's the Bloomberg Tech Minute brought to you by ChatGPT. Get started at ChatGPT.com.",
+      "zh": "而所有这些辛苦付出换来的一大福利，是员工可以拿到股权：要么是购股权利，要么是以限制性股票单位（RSU）形式发放、随时间逐步归属的报酬。以上就是由 ChatGPT 赞助播出的彭博科技快讯。立即上手请访问 ChatGPT.com。"
+    },
+    {
+      "i": 59,
+      "speaker": 6,
+      "speaker_zh": 6,
+      "ts": "18:35",
+      "en": "Quick question for you. How much of your day has spent typing? Email Slack, notes, prompts to ChatGPT. Whisperflow is a voice to text app. Instead of typing, you talking at types for you in any app on your Mac, Windows, iPhone, or Android. It takes out the um fixes the typos and the results sounds like you wrote",
+      "zh": "问你一个小问题：你一天里有多少时间花在打字上？邮件、Slack、笔记、给 ChatGPT 写提示词。Wispr Flow 是一款语音转文字应用。你不用打字，只管说话，它会在 Mac、Windows、iPhone 或 Android 上的任何应用里替你打字。它会自动去掉“嗯”、修正错别字，最后出来的文字读起来就像你自己写的，"
+    },
+    {
+      "i": 60,
+      "speaker": 6,
+      "speaker_zh": 6,
+      "ts": "18:52",
+      "en": "it four times faster than typing. So the email that used to take two minutes now takes 30 seconds. Whisperflow is free. Download it at Whisperflow dot AI. That's WISPRflow dot AI. Why don't we talk about discovering the PHP vulnerability then? Because I think this was a joint project between Calif, Wiz and I think it was open AI.",
+      "zh": "而且速度比打字快四倍。原本要两分钟写完的邮件，现在30秒就搞定。Wispr Flow 是免费的，可在 wisprflow.ai 下载，也就是 W-I-S-P-R-FLOW 点 ai。那我们来聊聊这个 PHP 漏洞是怎么被发现的吧。因为我觉得这是 Calif、Wiz，我记得还有 OpenAI 一起做的联合项目。"
+    },
+    {
+      "i": 61,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "19:16",
+      "en": "How did you find this? What was the process? And then what was the decision? I know you guys have gotten a little bit of pushback about publicizing it before it was fixed. So what was the process of actually, you know, putting out the statement saying we found this thing? We're really interested in like fighting vulnerabilities that have",
+      "zh": "你们是怎么找到的？过程是什么样的？后来又是怎么决策的？我知道，因为你们在漏洞修复之前就把它公开了，遭到了一些反弹。那么，真正对外发布“我们发现了这个东西”的声明，这个过程是怎样的？我们真正感兴趣的，是对抗那些影响面"
+    },
+    {
+      "i": 62,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "19:35",
+      "en": "a wide impact. And we want to understand these vulnerabilities to help, like, inform the seasons, like defense, the season, how to fix and how to mitigate them, like for once and forever on that background. So we joined the OpenAI's past planet program. This is where OpenAI funds, you know, companies like Calif to go out",
+      "zh": "很广的漏洞。我们想真正理解这些漏洞，以便帮助 CISO（首席信息安全官）等防御方了解该如何修复、该如何缓解，最好是一劳永逸。在这样的背景下，我们加入了 OpenAI 的“修补地球”（Patch the Planet）计划。在这个计划里，OpenAI 出资资助像 Calif 这样的公司去"
+    },
+    {
+      "i": 63,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "20:01",
+      "en": "and help open source maintainers to identify and fix mitigate vulnerabilities in their software. And we have this engineer, like Ryan Osteen, who is his like a PSP historian. Yesterday we went to a conference in San Francisco. We basically presented like, you know, PSP to Shell and Ryan walked",
+      "zh": "帮助开源项目的维护者识别、修复和缓解其软件中的漏洞。我们有一位工程师叫 Ryan Austin，他基本上是位 PHP 历史学家。昨天我们在旧金山参加了一个会议，做了关于 PHP2Shell 的分享，Ryan 给"
+    },
+    {
+      "i": 64,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "20:28",
+      "en": "everybody over like the 25 years of history of PSP vulnerabilities. So we have this like engineer, Ryan. And this is how we work. Basically, we have engineer, they're interested in certain things. And then they just go and hack those things. And, you know, as business people, we tried to see, okay, how can we",
+      "zh": "在场所有人完整梳理了 PHP 漏洞25年的历史。所以我们有 Ryan 这样一位工程师，而这正是我们的工作方式：基本上，我们的工程师对某些东西感兴趣，他们就直接去把那些东西黑掉。而作为做业务的人，我们要想的是：好，我们怎么才能"
+    },
+    {
+      "i": 65,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "20:49",
+      "en": "convince some of the people to pay us for this work? And that's exactly what we did with like OpenAI. We convinced OpenAI, okay, we're going to hack PSP. Can you fund our work? And they said, yes, they gave us tokens and money. And then we go and convince like PSP Foundation, which is the",
+      "zh": "说服一些人来为这项工作付钱？这正是我们对 OpenAI 做的事。我们说服了 OpenAI：好，我们要去黑 PHP 了，你们能资助我们的工作吗？他们答应了，给了我们 token（算力额度）和钱。然后我们又去说服 PHP 基金会，也就是"
+    },
+    {
+      "i": 66,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "21:08",
+      "en": "organization behind PSP that let's work together, you know, we can help you. And it's actually really interesting because I mentioned like that, like history of 25 years of like PSP vulnerabilities. And the person that is behind all of these hacks is like Stefan Escher.",
+      "zh": "PHP 背后的那个组织，跟他们说：我们一起合作吧，我们能帮到你们。这件事其实非常有意思，因为我刚才提到 PHP 漏洞25年的历史，而这25年里所有那些攻击背后的同一个人，就是 Stefan Esser。"
+    },
+    {
+      "i": 67,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "21:28",
+      "en": "He's also at Caliph, he joined us, I think six months ago, back in the day, he's the peace, peace security guy. Basically, he hacked and helped like heartland PSP. So we didn't know anybody and let the PSP Foundation. So we asked Stefan to introduce us and because, you know, even though",
+      "zh": "他现在也在 Calif，我记得是六个月前加入我们的。当年他就是那位“PHP 安全先生”，基本上就是他在黑 PHP，同时也帮 PHP 做加固（Hardened PHP）。而我们在 PHP 基金会一个人都不认识，所以我们请 Stefan 帮我们引荐。因为，尽管"
+    },
+    {
+      "i": 68,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "21:46",
+      "en": "Stefan stopped working on PSP security for a while now, his name still rings, you know, very loudly in this circle of the world. I saw the, the comic that you guys put up about this. It was kind of funny. Yes. He's like Indiana Jones type character. Yeah. So he connected us and then we met with like a vocal dash at the PSP Foundation.",
+      "zh": "Stefan 已经有一段时间不做 PHP 安全了，但在这个圈子里，他的名字依然响当当。我看到你们为这件事发的那部漫画了，挺好玩的。——是的，他就像印第安纳·琼斯（Indiana Jones）那种人物。嗯。所以他就帮我们牵上了线，然后我们和 PHP 基金会的 Volker Dusch 见了面。"
+    },
+    {
+      "i": 69,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "22:13",
+      "en": "And yeah, that's how we got started. I think we started in July 30. And then immediately after one or two days, you know, Ryan Fowl, the first vulnerability. And he was interested in like fighting a similar one, a vulnerability similar to one vulnerability that like Stefan disclosed like 22 years ago.",
+      "zh": "就是这样，我们开始干了。我记得我们是7月30日启动的，然后仅仅过了一两天，Ryan 就找到了第一个漏洞。他当时感兴趣的，是去打一个和 Stefan 大约22年前披露的某个漏洞类似的漏洞。"
+    },
+    {
+      "i": 70,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "22:38",
+      "en": "And to his surprise, you know, there's still a bunch of them like that in the PSP, you know, software right now. And so that's how we found it. And then we reported it to the PSP Foundation because we know immediately that is a critical vulnerability that could affect like a large part of the internet.",
+      "zh": "令他惊讶的是，如今的 PHP 软件里还留着一大堆类似的问题。这就是我们发现它的方式。随后我们把它上报给了 PHP 基金会，因为我们立刻意识到，这是一个可能影响互联网很大一部分的严重漏洞。"
+    },
+    {
+      "i": 71,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "23:00",
+      "en": "Then the PSP Foundation actually shared with us that they actually found this vulnerability, the same vulnerability two years ago, but they didn't fix it. Because when it found it, they discovered that like the fix is very expensive. And that's just like maybe a few options to fix it.",
+      "zh": "然后 PHP 基金会实际上告诉我们，他们两年前就已经发现了这个漏洞——同一个漏洞——但他们没有修。因为当时他们发现，修复的代价非常高，而且可选的修复方案也就那么几种，"
+    },
+    {
+      "i": 72,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "23:22",
+      "en": "And none of them were actually perfect because, you know, they need to change a lot of like functionalities within PSP. And those changes may introduce new bugs, new vulnerabilities or new reliability issue. And people would be very upset if they operate, you know, PSP and their website start working.",
+      "zh": "并且没有一种是完美的，因为他们需要改动 PHP 内部大量的功能。而这些改动可能引入新的 bug、新的漏洞或新的可靠性问题。如果人们运行着 PHP，结果自己的网站开始出故障，那他们会非常恼火。"
+    },
+    {
+      "i": 73,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "23:48",
+      "en": "So in the end, back in like 2024, the PSP Foundation decided not to fix it because there was no exploring. No one could manage to show that this is actually a real issue. And that's exactly what they asked us. They come back, they asked like, do you have an exploit?",
+      "zh": "所以最终，在2024年的时候，PHP 基金会决定不修，因为当时没有可利用的攻击代码（exploit），没人能证明这真的是一个现实存在的问题。而这恰恰就是他们问我们的。他们回过头来问：你们有 exploit 吗？"
+    },
+    {
+      "i": 74,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "24:09",
+      "en": "Then the next day we shared with them the first exploit that showed them that, yeah, someone doesn't need to know anything, can hack your website remotely. So just to be clear, the use of AI in all of this, it wasn't necessarily that important in finding the vulnerability.",
+      "zh": "第二天我们就给了他们第一个 exploit，向他们证明了：是的，一个人什么都不需要知道，就能远程黑掉你的网站。所以说清楚一点：在整件事里，AI 的作用在“发现漏洞”这一环上并不是那么关键，"
+    },
+    {
+      "i": 75,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "24:28",
+      "en": "It was more important in developing an actual exploit for a known issue. We think like that's probably the right way to think about it. But I think even for finding the vulnerability without AI, it would take a lot of more time, right? So you, you can imagine like PSP was created like maybe 30 years ago.",
+      "zh": "而是在为一个已知问题开发出真正可用的 exploit 这一环上更关键。——我们觉得这大概是正确的理解方式。但我认为，即便只是发现漏洞这一步，如果没有 AI，也要花多得多的时间，对吧？你可以想象一下，PHP 大概是30年前创建的，"
+    },
+    {
+      "i": 76,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "24:49",
+      "en": "So it's a huge database with a lot of life feature. And as a human engineer, you have to make into this code base. And it will take like months, right? And along the way people may give up. But the fact that PSP Foundation filed a bug in 2024 approved that humans can actually file about five of us, right?",
+      "zh": "所以它是一个庞大的代码库，有大量历史遗留的功能。作为人类工程师，你得一头扎进这个代码库里，这可能要花好几个月，对吧？而且过程中人可能就先放弃了。但 PHP 基金会在2024年确实提交过一个 bug，这也说明人类其实是能发现漏洞的，对吧？"
+    },
+    {
+      "i": 77,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "25:13",
+      "en": "And the problem was the exploitation like you said. And for exploitation like AI plays a major role in it. It's like becomes an engineering problem where our engineers with Tau AI, you know, this is how I want to design our exploit and you go and do it. And then, you know, prove to us that it works correctly. Yeah.",
+      "zh": "问题出在“利用”这一环，就像你说的。而在漏洞利用上，AI 起到了主要作用。它变成了一个工程问题：我们的工程师告诉 AI，“我想这样设计我们的 exploit，你去把它做出来”，然后“向我们证明它能正确工作”。嗯。"
+    },
+    {
+      "i": 78,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "25:37",
+      "en": "Let me ask a philosophical question. Is there a reason to believe that defensive cybersecurity can stay ahead of offensive cyber security? Just generally that we can get into some details. But philosophically, like, is that something that we can reasonably hope for? I think so. Yes. How come?",
+      "zh": "我问一个哲学一点的问题。有没有理由相信，防御性的网络安全能够一直领先于进攻性的网络安全？可以先说大方向，细节我们再展开。但从哲学层面讲，这是我们可以合理期待的吗？——我认为可以。——是吗？为什么？"
+    },
+    {
+      "i": 79,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "25:57",
+      "en": "Because you can use the AI to build some types of systems in ways that may be very challenging for attackers to exploit, right? You know, today, you can use AI to build whatever systems you want, you know, and very quickly, right? And you can experiment, you know, get feedback very quickly.",
+      "zh": "因为你可以用 AI 来构建某些类型的系统，其方式可能让攻击者非常难以利用，对吧？今天你可以用 AI 很快地搭出任何你想要的系统，对吧？而且你可以不断试验，非常快地拿到反馈。"
+    },
+    {
+      "i": 80,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "26:19",
+      "en": "It can also process data very, very quickly and reason about that data. And so I think it is possible. I think it may not be immediate, but like, you know, over time, we're, you know, perhaps, you know, like, use AI to help us write more secure software, or build more secure systems, right?",
+      "zh": "它还能非常非常快地处理数据并对数据进行推理。所以我觉得这是可能的。也许不会立刻实现，但随着时间推移，我们大概会用 AI 来帮我们写出更安全的软件、构建更安全的系统，对吧？"
+    },
+    {
+      "i": 81,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "26:41",
+      "en": "And eventually, I think that should kind of counterbalance the advantages that the attackers have. I think that's perhaps I'm being optimistic, but I do foresee this happening. I can add something there. So if you look at the history of humanity, our history is the history of, like, weaponize our tombs, right?",
+      "zh": "最终我认为，这应该能在一定程度上抵消攻击方所拥有的优势。也许我有点乐观，但我确实预见到会发生。我在这里补充一点。如果你去看人类的历史，我们的历史其实就是一部把工具武器化的历史，对吧？"
+    },
+    {
+      "i": 82,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "27:03",
+      "en": "If you find a powerful tomb, then someone would find a way to use that tomb to as a weapon. Yeah. So and attackers always are early adapters of tombs, right? New technology defenders move like at much slower pace than attackers. But fundamentally, we believe there are more good guys than bad guys are there.",
+      "zh": "如果你发现了一件强大的工具，就一定会有人想办法把它变成武器。——嗯。而且攻击者永远是新工具的早期采用者，对吧？对新技术，防御方的推进速度远比攻击方慢。但从根本上说，我们相信好人比坏人更多，"
+    },
+    {
+      "i": 83,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "27:28",
+      "en": "And eventually, you know, the good guys would catch up and build things that help, you know, everybody defends fan of the bad guys. And I don't think like in general, like cyber security, if you see the news on the time, you see, like, we got like data bridge every day, almost even before AI. So you may feel like it's not working at all.",
+      "zh": "最终好人会赶上来，做出能帮助大家抵御坏人的东西。总的来说，我不这么看——如果你天天看新闻，你会看到我们几乎每天都有数据泄露，甚至在 AI 出现之前就是这样。所以你可能觉得网络安全根本没起作用。"
+    },
+    {
+      "i": 84,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "27:55",
+      "en": "But if you in the field, you can see the pro restaurant in the past, like, 25 years, there's a tremendous progress in cyber security. Of course, we will still got happy because this is it's difficult. Imagine you have a very complex system, very, like, imagine you have a house,",
+      "zh": "但如果你身处这个行业，你会看到过去25年里的巨大进步——网络安全取得了了不起的进展。当然，我们仍然会被黑，因为这件事就是很难。想象一下你有一个非常复杂的系统，非常……就像想象你有一栋房子，"
+    },
+    {
+      "i": 85,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "28:12",
+      "en": "like with a lot of doors, a lot of way to get in and cyber security must, like make sure that everything is safe at the same time, your house or your office must remain open for business. Right. So it's actually a really difficult problem. At the same time, without the progress that we, like, the industry met in the past",
+      "zh": "有很多扇门、很多条能进去的路，而网络安全必须确保一切都是安全的；与此同时，你的房子、你的办公室还必须保持开门营业。对吧。所以这实际上是一个极其困难的问题。同时，如果没有这个行业在过去"
+    },
+    {
+      "i": 86,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "28:31",
+      "en": "25 years, things could be much worse, right? And I think the same thing would be happening here. It's going to take a while for defenders to catch up right now. You know, AI helps attackers more than defenders. Is the general idea that we're just in the sort of awkward phase where a lot of",
+      "zh": "25年里取得的这些进步，情况可能会糟糕得多，对吧？我觉得这里也会发生同样的事情：防御方要赶上来需要一段时间，眼下 AI 对攻击方的帮助大于对防御方的帮助。所以大体的意思是，我们只是处在一个有点尴尬的阶段，"
+    },
+    {
+      "i": 87,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "28:53",
+      "en": "people in cyber security always refer to technical debt, right? This idea that you haven't upgraded a system for ages, like the PHP vulnerability. We were just discussing. And so now you have to pay back that technical debt. The idea that we're just in an awkward moment where AI is going to be able to exploit",
+      "zh": "网络安全圈的人总是提到“技术债”（technical debt），对吧？就是说你有一个系统很久没升级了，就像我们刚才讨论的 PHP 漏洞，所以现在你必须偿还这笔技术债。也就是说，我们只是处在一个尴尬的时点：AI 将能够利用"
+    },
+    {
+      "i": 88,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "29:11",
+      "en": "existing flaws in the system, but maybe we eventually move to a place where we upgrade the entire system, we reduce our outstanding technical debt, exactly. That's an optimistic way to look at it. Okay. You know, we found that they're like system that we thought that, okay,",
+      "zh": "系统中已存在的缺陷，但也许我们最终会走到这样一个阶段：我们把整个系统都升级掉，把尚未偿还的技术债降下来。——完全正确。这是一种乐观的看法。好，你要知道，我们发现有些系统是我们原以为“嗯，"
+    },
+    {
+      "i": 89,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "29:31",
+      "en": "that don't have a lot of technical debt that turned out that they just like dumpster fire like everybody else. That was a very big surprise, right? To me personally, like, we know there are places, there are bad problems. And we know that if we just point AI at that thing, there will be a lot of bugs coming out, but they are also places.",
+      "zh": "它们没什么技术债”的地方，结果发现它们跟别人一样是一团烂摊子（dumpster fire）。这是非常大的意外，对吧？对我个人来说是。我们知道有些地方问题很糟，我们知道只要把 AI 对准它，就会冒出一大堆 bug；但也有一些地方，"
+    },
+    {
+      "i": 90,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "29:54",
+      "en": "We thought that could be okay because they receive a lot of attention over the years already, but then now that there's still a lot of bugs there as well. And a lot mean like a lot more like 10x more than we expected. And of course, there are still like a few small places where there was fewer",
+      "zh": "我们原以为应该没问题，因为这些年来它们已经受到了很多关注，但现在发现那里依然有大量 bug。而“大量”的意思是比我们预期的多得多，比如多10倍。当然，也还有少数几个小地方，在"
+    },
+    {
+      "i": 91,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "30:17",
+      "en": "bugs back then before AI now, there's still fewer bugs still now, but they're like very small, like very like like they are the exception, not the norms. So that's actually a big surprise because I don't think anybody was surprised to find a critical vulnerability in pitch B, because BSP wasn't known for like race security.",
+      "zh": "AI 出现之前 bug 就比较少的，现在 bug 依然比较少，但它们都非常小，属于例外，而非常态。所以这其实是个大意外。因为我觉得没有人会对在 PHP 里发现一个严重漏洞感到惊讶，PHP 本来就不以安全著称。"
+    },
+    {
+      "i": 92,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "30:42",
+      "en": "So of course, at the pitch B to share scale, then that's a different matter. But if you find another vulnerability in pitch B today, then that's not a surprise. But if you go and, you know, five vulnerability, or maybe a hundred vulnerabilities, a thousand vulnerabilities in the Chrome browser for example, that's a surprise.",
+      "zh": "当然，像 PHP2Shell 这种规模就是另一回事了。但如果你今天在 PHP 里又找到一个漏洞，那不意外。可如果你去 Chrome 浏览器里找，结果发现了五个漏洞，或者一百个、一千个漏洞，那才是意外。"
+    },
+    {
+      "i": 93,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "31:02",
+      "en": "And that's exactly what happened. Like people found like a thousand vulnerabilities in Chrome. And you know, I was at Google and I knew and then the entire industry like assumed that and knew that, wow, there was a lot of investment in Chrome security. And not just like, you know, remove like eliminate vulnerabilities, but making sure",
+      "zh": "而这恰恰就是发生的事情：人们在 Chrome 里发现了大约一千个漏洞。要知道，我以前在谷歌，我知道——整个行业也都默认并知道——哇，Chrome 的安全上投入了非常多。而且不只是消除漏洞，还要确保"
+    },
+    {
+      "i": 94,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "31:26",
+      "en": "that even if you have vulnerabilities, it difficult to exploit these vulnerabilities. This is what we call mitigations, except that you have vulnerabilities. But then you make sure that like attackers couldn't use the vulnerabilities to control your computer or your browser. We talked about, you know, the defense layers were pretty good.",
+      "zh": "即使存在漏洞，也很难被利用。这就是我们所说的“缓解措施”（mitigations）：你承认漏洞存在，但要确保攻击者无法利用这些漏洞去控制你的电脑或浏览器。我们过去常说，防御层次做得相当好，"
+    },
+    {
+      "i": 95,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "31:48",
+      "en": "And the rate of vulnerabilities were low. But then at the AI, we just discovered that either like we as security engineers suck at our job, we couldn't find this thing. Or they're just like too much code that we didn't have enough time to look into. So this raises another question like, is it possible to have a provably secure browser",
+      "zh": "漏洞出现的比率也很低。但有了 AI 之后，我们突然发现：要么是我们这些安全工程师太不称职，居然找不到这些东西；要么就是代码量实在太大，我们根本没有足够的时间去看。这就引出了另一个问题：有没有可能做出一个“可证明安全”的浏览器，"
+    },
+    {
+      "i": 96,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "32:16",
+      "en": "or a piece of software you ship the piece of software and you could prove maybe in the same way that mathematicians produce things and this thing called lean or whatever. Does cyber have an equivalent where you could say, this is provably secure.",
+      "zh": "或者一款软件——你把这款软件发布出去，然后能够像数学家证明定理那样去证明它，比如用 Lean 之类的工具。网络安全领域有没有类似的东西，让你可以说“这是可证明安全的”，"
+    },
+    {
+      "i": 97,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "32:31",
+      "en": "And we know that no matter how good AI gets, it will never find a vulnerability in this piece of software. Oh, man, this is the loaded question, Joe. I thought it was a simple question. Yeah, I don't know, to be honest, you know, like browsers are like, you know, it's own operating system, like very, very complex operating systems. Yeah.",
+      "zh": "并且我们知道，无论 AI 变得多强，它永远不可能在这款软件里找到漏洞。天哪，Joe，这问题可太有分量了。——我还以为这是个简单问题。——是啊，说实话我也不知道。浏览器本身就像是一个操作系统，非常非常复杂的操作系统。嗯。"
+    },
+    {
+      "i": 98,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "32:54",
+      "en": "And today doing, you know, like formally verified software, you know, like it doesn't work at that scale. It's typically smaller, smaller software components. So there is such thing as formal verification when it comes to software. Yes. So you could have small pieces of software in which you formally prove in the same way",
+      "zh": "而今天要做形式化验证（formally verified）的软件，在这种规模上是行不通的，通常只能用于更小的软件组件。所以在软件领域确实存在“形式化验证”这回事？——是的。也就是说，你可以有一些小块的软件，在其中用同样的方式形式化地证明，"
+    },
+    {
+      "i": 99,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "33:14",
+      "en": "that it takes a mathematician seven lines to prove the two plus two equals four. There is some sort of equivalent for software where you could prove these lines of code are secure. But the question is the scale of even something like a browser is just so enormous. That's a very difficult thing to do. Yes. Okay.",
+      "zh": "就像数学家用七行证明“二加二等于四”那样——软件也有某种对应的东西，你可以证明这些代码行是安全的。但问题在于，即便是浏览器这样的东西，其规模也实在太庞大了，这件事非常难做到。——是的。好。"
+    },
+    {
+      "i": 100,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "33:36",
+      "en": "It's something that I think is being researched right now because this is, I think this is like one of the, one of the paths forward to make to build more secure system. Yeah. There are like, for example, you know, we've had systems where, you know, like the core of it is formally verified. Right.",
+      "zh": "我认为这正是现在在研究的方向，因为这是构建更安全系统的路径之一。嗯。比如说，我们已经有一些系统，它的核心是经过形式化验证的，对吧。"
+    },
+    {
+      "i": 101,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "33:54",
+      "en": "It's an opting system that's formally verified. But then there are applications, you know, running on these things. And those applications have issues, you know, like so it's complicated. And you know, these are like small, like small systems, right? And you're talking about browser browsers, like, you know, many billions of times a code.",
+      "zh": "是一个经过形式化验证的操作系统。但上面还运行着各种应用程序，而那些应用是有问题的，所以事情很复杂。而且这些都是很小的系统，对吧？而你说的是浏览器——浏览器有几十亿行代码。"
+    },
+    {
+      "i": 102,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "34:12",
+      "en": "And so that's, yeah, I mean, I can tell you how big Chrome is. I mean, they have like dealing to people working on it. And, you know, and like a lot of people working on Chrome security, you asked all these years. But, you know, it's, but lots of sort is, they are a such thing.",
+      "zh": "所以，是啊，我可以告诉你 Chrome 有多大——他们有成千上万的人在做这件事，而且就像你说的，这么多年来有大量的人专门做 Chrome 安全。但代码量实在太大，形式化验证这种东西……"
+    },
+    {
+      "i": 103,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "34:25",
+      "en": "But to make it work on a browser or the very, very large system. This is, it's, um, we don't have anything like that today. I think there's a, there's a deeper reason here. You know, the reason like software is eating the world. You can see like, you know, the top, the biggest common is in the world as software companies, right?",
+      "zh": "但要让它在一个浏览器或者一个非常非常大的系统上跑起来，这个……嗯，今天我们还没有任何这样的东西。我认为这里有一个更深层的原因。你知道“软件正在吞噬世界”这句话——你可以看到，全球最大的那些公司都是软件公司，对吧？"
+    },
+    {
+      "i": 104,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "34:46",
+      "en": "It's because software is easy to change. And imagine, you know, that's allows like software companies to adapt and to, to learn much quicker than the rest of the world. You have a product, if there's work, then tomorrow, tonight, you can change it. And that's actually allows the software world, you know, to become,",
+      "zh": "这是因为软件很容易改动。想象一下，这让软件公司能够比世界上其他行业更快地适应、更快地学习。你有一个产品，如果它不奏效，那么今晚、明天你就可以把它改掉。而这实际上让软件世界得以"
+    },
+    {
+      "i": 105,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "35:07",
+      "en": "to dominate the world, basically. So basically, fundamentally, software is easy to change. And people want to change it constantly. And that's the reason why, you know, the tech companies are doing so well. So if you asked like, okay, now let's not change it like frequently, then that's the goals against the interest, right?",
+      "zh": "基本上主导了世界。所以从根本上说，软件容易改，而且人们想不停地改它，这就是科技公司做得这么好的原因。那么如果你说“好，现在我们别频繁改动它了”，这就与他们的利益相悖了，对吧？"
+    },
+    {
+      "i": 106,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "35:29",
+      "en": "And that's not going to happen. So it means that, like, even if you have a way to formalize, formally verify everything, that will take a lot of time. Unless you have some sort of AI help you do the form of verification automatically. Otherwise, it's not going to happen because people want to change their software,",
+      "zh": "而这不会发生。这意味着，即使你有办法把一切都形式化、形式化验证，那也要花非常多的时间，除非有某种 AI 能帮你自动完成形式化验证。否则这事不会发生，因为人们想尽可能快地修改自己的软件，"
+    },
+    {
+      "i": 107,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "35:50",
+      "en": "like as quick as possible, because that's how they do business.",
+      "zh": "越快越好，因为这就是他们做生意的方式。"
+    },
+    {
+      "i": 108,
+      "speaker": 5,
+      "speaker_zh": 5,
+      "ts": "36:01",
+      "en": "This is the Bloomberg Tech Minute brought to you by Chatchee PT. I'm Carol Masser, getting hired at SpaceX requires exceptional ability and may include having Elon Musk review a candidate's resume. So writes Bloomberg Business Week's Lauren Grush. She reports that the company culture is defined by Musk and job candidates must understand",
+      "zh": "这里是彭博科技快讯，由 ChatGPT 赞助播出。我是 Carol Massar。想要被 SpaceX 录用需要过人的能力，而且过程可能包括由埃隆·马斯克亲自审阅候选人的简历。《彭博商业周刊》记者 Loren Grush 如此写道。她报道称，SpaceX 的公司文化由马斯克定义，求职者必须明白，"
+    },
+    {
+      "i": 109,
+      "speaker": 5,
+      "speaker_zh": 5,
+      "ts": "36:30",
+      "en": "that a commitment to SpaceX means adhering to this culture and exhibiting loyalty to Elon Musk. To get hired, candidates must demonstrate their achievements from past jobs and hands-on experience matters more to recruiters than advanced degrees, with the company looking for people with raw innate intelligence.",
+      "zh": "选择加入 SpaceX 就意味着认同这种文化并对埃隆·马斯克展现忠诚。要想被录用，候选人必须拿出过往工作中的实际成绩，而对招聘者来说，动手经验比高学历更重要，因为公司在寻找具有原始天赋智力的人。"
+    },
+    {
+      "i": 110,
+      "speaker": 5,
+      "speaker_zh": 5,
+      "ts": "36:49",
+      "en": "A spokesperson for SpaceX didn't respond to request for comment on its recruiting and hiring practices, but according to recruiters, advisors, and those who've interviewed for jobs there, it's the space exploration dream that draws people to the company and Musk invokes that dream regularly to remind workers why they're there.",
+      "zh": "一位 SpaceX 发言人并未就其招聘与录用做法回应置评请求。但据招聘人员、顾问以及曾在那里面过试的人说，真正吸引人们加入这家公司的是太空探索之梦，而马斯克也会经常唤起这个梦想，提醒员工他们为什么在这里。"
+    },
+    {
+      "i": 111,
+      "speaker": 5,
+      "speaker_zh": 5,
+      "ts": "37:07",
+      "en": "Perspective Hires are told that the job will require stamina, including in job ads that candidates quote, must be willing to work extended hours and weekends as needed. One major perk for all that hard work, employees access to equity, either the right to buy shares or payment in the form of restricted stock units that vest over time.",
+      "zh": "未来入职的人会被告知，这份工作需要极强的耐力，招聘广告中甚至写明——引用候选人的原话——“必须愿意按需长时间工作并在周末加班”。而所有这些辛苦付出换来的一大福利，是员工可以拿到股权：要么是购股权利，要么是以限制性股票单位（RSU）形式发放、随时间逐步归属的报酬。"
+    },
+    {
+      "i": 112,
+      "speaker": 5,
+      "speaker_zh": 5,
+      "ts": "37:26",
+      "en": "That's the Bloomberg Tech Minute brought to you by ChatGPT. Get started at ChatGPT.com.",
+      "zh": "以上就是由 ChatGPT 赞助播出的彭博科技快讯。立即上手请访问 ChatGPT.com。"
+    },
+    {
+      "i": 113,
+      "speaker": 6,
+      "speaker_zh": 6,
+      "ts": "37:33",
+      "en": "Most meeting note takers get the easy words right and the important ones wrong. The client's name, the acronym, Whisper Flow note taker is built to get the hard words right. It takes notes on any meeting platform, Zoom, Google Meet, Teams, even WhatsApp calls, keeps every meeting searchable and connects to clot or ChatGPT so you can ask,",
+      "zh": "大多数会议记录工具能把简单的词写对，却把重要的词写错：客户的名字、那些缩写。Wispr Flow 的会议记录工具正是为了把这些难词写对而打造的。它可以在任何会议平台上做记录——Zoom、Google Meet、Teams，甚至 WhatsApp 通话——让每一场会议都可被检索，并能连接到 Claude 或 ChatGPT，于是你就可以问："
+    },
+    {
+      "i": 114,
+      "speaker": 6,
+      "speaker_zh": 6,
+      "ts": "37:55",
+      "en": "what did we agree to last Tuesday? Free to try on Mac and Windows at Whisper Flow dot AI. That's W-I-S-P-R flow dot AI. Running a small business takes everything you've got. But with Chase for Business, you're not alone. They bring together local support and a broad range of resources to more than 7 million customers.",
+      "zh": "“上周二我们都达成了哪些共识？”在 Mac 和 Windows 上均可免费试用，请访问 wisprflow.ai，也就是 W-I-S-P-R-flow 点 ai。经营一家小企业需要你倾尽全力，但有了 Chase for Business，你并不孤单。他们把本地化的支持和广泛的资源结合起来，服务超过700万客户。"
+    },
+    {
+      "i": 115,
+      "speaker": 6,
+      "speaker_zh": 6,
+      "ts": "38:13",
+      "en": "With a deep understanding of your day-to-day needs, they provide products and guidance built to help you thrive. Right now, earn $500 when you open a new, Chase Business Complete Checking Account for new business checking customers with qualifying activities. Offer expires January 21st, 2027.",
+      "zh": "凭借对你日常需求的深刻理解，他们提供能助你蓬勃发展的产品和指导。现在，新客户开立 Chase Business Complete 商业支票账户并完成达标活动，即可获得500美元。优惠截止日期为2027年1月21日。"
+    },
+    {
+      "i": 116,
+      "speaker": 6,
+      "speaker_zh": 6,
+      "ts": "38:30",
+      "en": "Chase Business Complete Checking has the flexible tools you need to accept payments, make deposits, and manage your finances with confidence. Learn more at Chase.com slash podcast biz offer. Chase, make more of what's yours. Fees may apply to Chase Business Complete Checking Accounts.",
+      "zh": "Chase Business Complete 支票账户提供你所需的灵活工具，让你安心地收款、存款和管理财务。详情请访问 chase.com/podcastbizoffer。Chase，让你的每一分都更有价值。Chase Business Complete 支票账户可能会收取费用。"
+    },
+    {
+      "i": 117,
+      "speaker": 6,
+      "speaker_zh": 6,
+      "ts": "38:46",
+      "en": "The $500 offer is available for new business checking accounts with qualifying activities through 1-21-2027. Eligibility and qualification requirements must be met. Additional restrictions may apply. Please speak with a business banker for more information. JPMorgan Chase Bank NA, member, FDIC.",
+      "zh": "500美元优惠适用于在2027年1月21日前开立并完成达标活动的新商业支票账户，须满足资格与达标要求，可能另有其他限制条款。如需了解更多信息，请咨询企业业务银行客户经理。摩根大通银行（JPMorgan Chase Bank, N.A.），美国联邦存款保险公司（FDIC）成员。"
+    },
+    {
+      "i": 118,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "39:03",
+      "en": "This is sort of a related question, but does AI start to change? I guess the way or like the waterfall of the way things get fixed. So nowadays, it's like a vulnerability is discovered. The software company issues an alert and a patch. They disclose it and then people go off and fix it.",
+      "zh": "这算是一个相关的问题：AI 是否开始改变——我猜是改变漏洞被修复的那套流程，或者说那个“瀑布”？如今的流程是这样的：漏洞被发现，软件公司发布警报和补丁，他们披露出去，然后大家各自去修。"
+    },
+    {
+      "i": 119,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "39:23",
+      "en": "If exploits are coming faster, does that process start to change in any way? Yeah, it changed a lot. Basically, back in the day, we have like two kind of vulnerabilities, like zero-day vulnerabilities that we know about, except the person who filed it. And then end-day vulnerabilities that vulnerabilities have been disclosed",
+      "zh": "如果 exploit 来得更快，这个流程会不会在某种程度上开始改变？——变了，变化很大。基本上，过去我们只有两类漏洞：一类是零日漏洞（0-day），除了发现者本人之外没人知道；另一类是 N-day 漏洞，也就是漏洞已经被披露，"
+    },
+    {
+      "i": 120,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "39:46",
+      "en": "and maybe fixed by the vendors and maybe the user have upgrade or not. But now we also have something we call like minus one-day vulnerabilities. So these vulnerabilities happen when, you know, imagine like, let's take the PHP vulnerability as an example. Let's say that, you know, because PHP foration and PHP is an open source project,",
+      "zh": "可能已经被厂商修复，而用户可能升级了也可能没升级。但现在我们还多了一类，我们称之为“减一日漏洞”（minus one-day，即 -1 day）。这类漏洞是这么产生的：想象一下，就拿 PHP 漏洞来说。因为 PHP 基金会和 PHP 本身是一个开源项目，"
+    },
+    {
+      "i": 121,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "40:12",
+      "en": "everything happens on GitHub, right? And imagine, let's imagine that we reported about and PHP fixed the bug and publicly on GitHub. The moment that we filed a bug and then PHP produced a patch for that bug, that very moment, that information became public. Somebody who was watching the PHP, you know,",
+      "zh": "所有事情都发生在 GitHub 上，对吧？想象一下，假设我们上报了一个 bug，PHP 在 GitHub 上公开修复了它。就在我们提交 bug、PHP 为这个 bug 产出补丁的那一刻，这个信息就变成公开的了。任何一个在盯着 PHP"
+    },
+    {
+      "i": 122,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "40:40",
+      "en": "repository on GitHub, they could like turn that away into an exploit within, you know, a few hours. Of course, like, the vulnerability that we filed was more complicated than that. But you can imagine that's in principle. Like, the window between the patch was being developed. It's not ready yet, you know, for anybody.",
+      "zh": "在 GitHub 上代码仓库的人，都可能在几个小时之内把它变成一个 exploit。当然，我们上报的那个漏洞比这复杂得多。但从原理上你可以想象：在补丁正在开发、还没有准备好给任何人用的这段时间，"
+    },
+    {
+      "i": 123,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "41:03",
+      "en": "And before it's become ready for end user to upgrade, there's a window, right? Yeah. In the past, you know, the attacker has to wait until the past become available. And then it would take them a long time to develop an exploit. So user can have longer time to upgrade. Now that window is collapsing.",
+      "zh": "到它准备好让终端用户去升级之间，存在一个窗口期，对吧？——嗯。过去，攻击者必须等到补丁发布，然后还要花很长时间才能开发出 exploit，所以用户有比较充裕的时间去升级。而现在，这个窗口正在坍缩。"
+    },
+    {
+      "i": 124,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "41:27",
+      "en": "It is collapsing everywhere, not just in PHP, right? In windows, in macOS, in anything. Because right now, there are people who have, like, what we call, like, and they factually, you know, they're just waiting for patches, from Microsoft, from Apple, from important critical software. Like, I'm sure tens of people are watching PHP today.",
+      "zh": "而且它在所有地方都在坍缩，不只是 PHP，对吧？Windows、macOS，任何东西都是。因为现在就有一些人——用我们的说法——他们实际上就是在等着微软、苹果以及其他关键重要软件发布补丁。我可以肯定，今天有几十号人在盯着 PHP。"
+    },
+    {
+      "i": 125,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "41:53",
+      "en": "After what happened, they're watching PHP, Python, Java, all of those important languages. And if there is any side of, like, oh, there's a new vulnerability, they're going to, like, you know,",
+      "zh": "在这次事件之后，他们在盯着 PHP、Python、Java，所有这些重要的编程语言。只要有任何迹象显示“哦，有个新漏洞”，他们就会——你知道的——"
+    },
+    {
+      "i": 126,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "42:07",
+      "en": "their AI would go pearl and then, you know, bonding tokens to find, I didn't define that vulnerability. They produce it, be an exploitable. So that changed the, yeah, the practice, right? Yeah. I'm curious what you thought after the hugging phase incident.",
+      "zh": "让他们的 AI 全力开动，烧掉大量 token，去验证“我发现的这个漏洞”，把它变成一个可利用的 exploit。所以这确实改变了整个行业的做法，对吧？——嗯。我很好奇，在 Hugging Face 那起事件之后，你们是怎么想的？"
+    },
+    {
+      "i": 127,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "42:26",
+      "en": "Because after that moment, there were sort of two schools of thought that I thought those, or that I perceived. There's one that was like, AI creatures, it was this sort of, I guess, maybe the anthropomorphism, Asian view, AI creatures. They want to escape their cages. They're devious. They're tricksters.",
+      "zh": "因为在那之后，我看到（或者说我感觉到）大致出现了两种思路。一种是：“AI 生物”——我想这也许是一种拟人化的视角——AI 是某种生物，它们想逃出笼子，它们狡诈，它们是骗子，"
+    },
+    {
+      "i": 128,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "42:43",
+      "en": "They want to show, come up with a way to cheat on the right answers, but cheat on the way that the greater, you know, all these stories. And then there are other people that were just like, guys, build a stronger sandbox. Stop talking about all this stuff. Just build a stronger sandbox. Jimson Long is kind of in that category.",
+      "zh": "它们会想办法给出正确答案、但用的是作弊的方式——诸如此类的种种故事。另一派人则说：“各位，把沙箱做得更结实点吧，别再扯这些了，就把沙箱做牢。”黄仁勋（Jensen Huang）大致属于后一类。"
+    },
+    {
+      "i": 129,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "43:01",
+      "en": "I love to interview with Esther Klein, where he was basically like, what's your problem? Just make models that don't hack. He's like, just don't ship it. Fix your model. Don't let him hack. And I love that because it's just like, just fix it. And they'll AI people like, no, no, no, we can't. You don't understand.",
+      "zh": "我特别喜欢他在 Ezra Klein 那期访谈里的说法，他基本上就是：“你们有什么问题？做不会黑客攻击的模型不就行了。”他就是一副“别发布它就好了，把模型修好，别让它去黑”的态度。我很喜欢这个，因为它就是“修好不就行了”。而 AI 圈的人会说：“不行不行不行，我们做不到，你不懂，"
+    },
+    {
+      "i": 130,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "43:17",
+      "en": "We have this whole alignment. It's very tricky. And he's like, just don't just make, just fix the model. And I'm sort of curious as people who have come out of the traditional cyber world, but are now in the AI world. Where do you land of this question? Can you just like, guys, just fix the sandbox? Or is there something deeper here?",
+      "zh": "我们有整套对齐（alignment）的问题，非常棘手。”而他就是一句“别啰嗦，把模型修好就行”。我很好奇，作为出身传统网络安全圈、如今又身处 AI 世界的人，你们在这个问题上站在哪一边？真的可以“各位，把沙箱修好就行”吗？还是说这里有更深层的东西？"
+    },
+    {
+      "i": 131,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "43:35",
+      "en": "I don't think that it's simple to fix the sandbox. That's the problem. People think that, you know, maybe we will not insecure. They think that there's a simple solution to cyber security. Just do this thing and you save. And that's how we have so many problems, you know. Vendors go out and tell people just buy this box,",
+      "zh": "我不认为修好沙箱是件简单的事，这正是问题所在。人们以为……也许觉得这个世界是不安全的，但他们认为网络安全有一个简单的解法：只要做这一件事，你就安全了。而正因为这样，我们才有这么多问题。厂商出去跟人说：“只要买这个盒子，"
+    },
+    {
+      "i": 132,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "43:54",
+      "en": "this magic box and put it in your network and you'll be saved. No, it's not like that. Even that box has problems, you know. If you look into like, there's a famous idea in security, like, product security is not the same as security product. Like security products may not have product security.",
+      "zh": "把这个魔法盒子放进你的网络，你就得救了。”不，事情不是这样的。就连那个盒子本身也有问题。如果你深入去看——安全领域有一个很有名的说法：“产品的安全性”（product security）和“安全产品”（security product）不是一回事。安全产品本身可能并不具备产品安全性。"
+    },
+    {
+      "i": 133,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "44:13",
+      "en": "Even like the the firewalls that you buy, they may have problems. And they do. And what I mean here is. So what we found, like the Huck in Face and OpenAI incident was fascinating, right? To watch. And it's difficult. Enterprise security is very difficult. Anybody saying like, oh, just buy this thing. Just do that thing.",
+      "zh": "即便是你买的那些防火墙，它们也可能有问题，而且确实有问题。我想说的是：我们看到 Hugging Face 与 OpenAI 那起事件，围观起来非常有意思，对吧？但这事很难。企业安全非常难。任何人说“哦，买这个就行、做那个就行，"
+    },
+    {
+      "i": 134,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "44:36",
+      "en": "You're going to be safe. No, it's just like very complicated. And the reason is like, and then people say, oh, just fix the model. And that's a cat. Come back to the stand model. Just make one that doesn't hack. That comes back to the extent of again. And because if you look at like how AI communists,",
+      "zh": "你就安全了”——不，这事非常复杂。原因就在于，当人们说“哦，把模型修好就行了，那就退回去做基础模型吧，做一个不会黑的模型”，这又回到了同一个老问题。因为如果你看看 AI 公司是怎么赚钱的——"
+    },
+    {
+      "i": 135,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "44:55",
+      "en": "and Jensen must be careful here, right? Because if AI communists not making money, he's not making money as well. Yeah, of course. And the AI communists, they're making money by selling tokens. And most of the tokens are used for coding today, like programming, building things, right?",
+      "zh": "黄仁勋在这方面也必须小心，对吧？因为如果 AI 公司不赚钱，他也就赚不到钱。——是啊，当然。而 AI 公司靠卖 token 赚钱，今天大多数 token 都被用在编程上——写代码、构建东西，对吧？"
+    },
+    {
+      "i": 136,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "45:12",
+      "en": "And if you build, if you want to be really good at coding, you need an agent on AI that understands code, understands technical problems, can debug things, can control computers. But that's basically the definition of a hacker. So you cannot really escape this. You cannot have a cake and eat it too, right? You need to be good at coding.",
+      "zh": "如果你想让 AI 真正擅长编程，你就需要一个懂代码、懂技术问题、能调试、能控制计算机的 AI 智能体（agent）。但这基本上就是黑客的定义。所以你其实逃不掉，鱼与熊掌不可兼得，对吧？你要它擅长编程，"
+    },
+    {
+      "i": 137,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "45:35",
+      "en": "Then you have an AI that is good at hacking. So unless you don't want to spend more tokens, or you don't want to get into the coding business anymore, you focus on like scientific discovery, physical AI, whatever, then maybe you can train the model that is not good at hacking anymore. But as long as you want to automate knowledge work,",
+      "zh": "那你就得到了一个擅长黑客攻击的 AI。所以，除非你不想再烧更多 token，或者不想再做编程业务，转而专注于科学发现、物理 AI 之类的东西，那你也许能训练出一个不再擅长黑客攻击的模型。但只要你想自动化知识工作，"
+    },
+    {
+      "i": 138,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "46:03",
+      "en": "then eventually your AI must be able to use control computer, understand technical problems. And that's the definition of someone like Bruce.",
+      "zh": "那么最终你的 AI 就必须能够使用和控制计算机、理解技术问题。而这恰恰就是 Bruce 这类人的定义。"
+    },
+    {
+      "i": 139,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "46:15",
+      "en": "It's unavoidable. So actually on this note, I'm curious, can you just talk about what it's like being a hacker in the age of AI versus say even three or four years ago, right? Like it's crazy how quickly stuff has shifted. But how has your day-to-day changed? Yeah, I'll just use some back.",
+      "zh": "这是无法避免的。顺着这个话题，我很好奇：在 AI 时代当一名黑客是什么感觉？哪怕跟三四年前比呢？变化之快真是疯狂。你们的日常工作发生了什么变化？——好，我说点背景。"
+    },
+    {
+      "i": 140,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "46:36",
+      "en": "So I wrote a textbook with some friends on reverse engineering. It used to be like, you try to, like, reversing is the practice of understanding by software without any source code or hardware systems. That used to be like, I wrote this textbook. And then I think with the advent of AI, I think whatever, nine months ago,",
+      "zh": "我和几个朋友一起写过一本关于逆向工程（reverse engineering）的教科书。过去是这样的：逆向就是在没有源代码的情况下理解软件、理解硬件系统的实践。我写过这本教科书。然后我想，随着 AI 的到来——大概是九个月前吧——"
+    },
+    {
+      "i": 141,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "46:58",
+      "en": "I asked if nine months ago, like that entire book is deprecated. It takes like two problems, so one prompt and then bam, it'll generate the textbook for you. And it's even better. And it took us a long time to write. It just gives you an idea. And then I talk to friends who've been doing this for decades, like specialists in this area.",
+      "zh": "我意识到整本书都过时了。它只需要两个问题——一条提示词，然后“砰”，它就给你生成一本教科书，而且写得还更好。而我们当年花了很长时间才写出来。这就能让你有个概念。然后我跟一些做这行几十年的朋友聊，都是这个领域的专家，"
+    },
+    {
+      "i": 142,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "47:18",
+      "en": "And they tell me that, oh, yeah, man, I spend whatever $5 on some open-source model. And it reversing engineer, the firmware, on some Canon or HP printer. And it hacks it, Bruce, whereas before it would take me months to figure out some stuff out.",
+      "zh": "他们跟我说：“哦，是啊，哥们，我花了5美元买了某个开源模型的额度，它就把某台佳能或惠普打印机的固件逆向工程了一遍，然后把它黑了。Bruce，而以前我要搞清楚这些东西得花好几个月。”"
+    },
+    {
+      "i": 143,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "47:37",
+      "en": "Just to give you the lens into what's happening, how quickly things change. A little friend, this guy met Sweetsheez. And he's a friend of the show. A long time friend of the show, multi-time guest. Yeah, good guy. We used to hang out in Abu Dhabi. Oh, okay, yeah. I know Matt falls down there like, now he's like,",
+      "zh": "这只是给你一个视角，看看正在发生什么、变化有多快。还有一位共同的朋友，Matt Suiche——他是本节目的老朋友，多年的老朋友，来过好几次。——嗯，好人一个。我们以前常在阿布扎比（Abu Dhabi）一起玩。——哦，好，是啊，我知道 Matt，他就在那边。现在他呢，"
+    },
+    {
+      "i": 144,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "48:02",
+      "en": "he gave a talk to me through our opinion of the day. And he showed his rack in his apartment. And it's sitting there, you know, like hacking stuff, like to while he's sitting there talking. It's just insane. Like something that we have people that, let's say, for example, like we've been hacking the iPhone.",
+      "zh": "他做了一场演讲，还展示了他公寓里的机架。那东西就摆在那儿，一边坐在那儿讲，一边还在黑东西。简直不可思议。再比如，我们这边——假设说——一直在黑 iPhone。"
+    },
+    {
+      "i": 145,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "48:22",
+      "en": "To build a full chain on the iPhone, it's not an easy task. It takes several people to do this, right? And our team was able to do this within like a few days, you know, as a one person. And we have multiple of these chains. It really compresses the type, like the exploitation, the time to build exploits.",
+      "zh": "要在 iPhone 上构建一条完整的攻击链（full chain），这不是一件容易的事，通常需要好几个人来做，对吧？而我们团队能够在几天之内、由一个人独立完成，而且我们有好几条这样的攻击链。它真的极大地压缩了漏洞利用、构建 exploit 所需的时间。"
+    },
+    {
+      "i": 146,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "48:50",
+      "en": "We see customers getting hacked by AI in the bank, basically. You know, defenders cannot, you know, actually, you want to tell these stories. And you know, just a little bit, this has happened in the last few weeks. Yeah. The kind of things changed. Yeah, basically, we saw like, you know, in the open AI and hacking phase incident,",
+      "zh": "我们基本上已经看到客户在银行场景里被 AI 黑掉了。防御方根本顶不住。其实这几个故事你来讲吧，就发生在这几周之内。——好。事情确实变了。——是的，基本上，在 OpenAI 和 Hugging Face 那起事件里，我们看到"
+    },
+    {
+      "i": 147,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "49:12",
+      "en": "that one detail that that is very interesting. Not sure if we will notice. But open AI, not that like the people who handled incident on the open AI side, they said that they have handled lots of incidents. But this is the first time they saw that, you know, incident where you have like, like a hundred points within your networks",
+      "zh": "有一个细节非常有意思，不知道你们有没有注意到。OpenAI——不是，是 OpenAI 那边负责处理这次事件的人说，他们处理过很多起安全事件，但这是他们第一次见到这样的事件：你的网络里有大约一百个节点"
+    },
+    {
+      "i": 148,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "49:35",
+      "en": "that will compromise at the same time. Yeah. Like there were a hundred hackers within your system. Normally you have maybe one or two, right? Now you have a hundred. And I saw that I was like, wow, that was pretty interesting. But maybe because, yeah, open AI have lots of tokens. So their agents can just go, you know, hack everything.",
+      "zh": "在同一时间被攻陷。——嗯。就好像你的系统里有一百个黑客。通常你可能只有一两个，对吧？现在是一百个。我看到这个的时候心想：哇，这太有意思了。但也许是因为，是啊，OpenAI 有海量 token，所以他们的智能体可以就这么一路把什么都黑了。"
+    },
+    {
+      "i": 149,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "49:55",
+      "en": "And then just two weeks ago, we have like two clients in the banking industry. And they got hacked and they called us to help them work like the incident response. We came in because we do hacking as well. We know like, usually it took us like maybe a month or something. Once we came in a network and then",
+      "zh": "然后就在两周前，我们有两家银行业的客户被黑了，他们打电话请我们帮忙做事件响应（incident response）。我们进去了，因为我们自己也做黑客攻击，我们很清楚：通常我们进入一个网络后，大概要花一个月左右"
+    },
+    {
+      "i": 150,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "50:15",
+      "en": "took a month for us to spread out. For the AI, it took like, they came in. They they brought the net. They brought inside the network on Monday. By Tuesday, they everywhere, everywhere. And like it's like cancer. It's spread like at a machine speed. And it was like my blowing, right? Because how could you defend against that?",
+      "zh": "才能扩散开来。而对 AI 来说：他们周一进入网络，到了周二就到处都是、无处不在。就像癌症一样，以机器的速度扩散。这真的让人目瞪口呆，对吧？因为你要怎么防？"
+    },
+    {
+      "i": 151,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "50:32",
+      "en": "Like in the past, we were telling our clients, you know, you have to invest in detection. Well, what would, how can you help yourself? If you see it, you can detect it. But there's a hundred of them. Noted. We have a hundred hackers in our system right now. It's not really helpful. Exactly. How could you do it, right?",
+      "zh": "过去我们会告诉客户：你们必须投入做检测。可现在这有什么用呢？“你看得见就能检测出来”——但那里有一百个。“收到，我们系统里现在有一百个黑客”，这可真帮不上什么忙。——正是。你要怎么应对，对吧？"
+    },
+    {
+      "i": 152,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "50:51",
+      "en": "And then you have to shut down everything. But shut down is not an option because you are banged. So that's actually requires to sit down and think about how to redesign like defense system, right? What we have right now is not working very well. But like to come back to your question like as a hacker, you know, how does it feel?",
+      "zh": "然后你就得把一切都关掉。但“关掉”不是一个选项，因为你是一家银行。所以这实际上要求大家坐下来好好想想，该怎么重新设计防御体系，对吧？我们现在有的这套东西，效果并不好。不过回到你的问题——作为一名黑客，这感觉如何？"
+    },
+    {
+      "i": 153,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "51:11",
+      "en": "I love history. So I always come back to history to say like, does it? Did it happen before? It is actually did happen, you know, with like, just for example, you remember like in 1997, you know, IBM deep blue defeated Gary Kaspero.",
+      "zh": "我喜欢历史，所以我总会回到历史里去问：这事以前发生过吗？它其实真的发生过。举个例子，你还记得1997年，IBM 的“深蓝”（Deep Blue）击败了加里·卡斯帕罗夫（Garry Kasparov）。"
+    },
+    {
+      "i": 154,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "51:29",
+      "en": "That was a big moment, right? And then 20 years later, Anfago defeated like Lizzy though in the game of gold. But those two moments are actually quite different. Like the first moment, the deep blue moment, after deep blue, the best chess player wasn't a computer. Because deep blue was a mainframe, right?",
+      "zh": "那是个重大时刻，对吧？然后20年后，AlphaGo 在围棋上击败了李世石（Lee Sedol）。但这两个时刻其实非常不同。第一个时刻，也就是“深蓝时刻”：在深蓝之后，最强的国际象棋棋手并不是计算机，因为深蓝是一台大型机（mainframe），对吧？"
+    },
+    {
+      "i": 155,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "51:51",
+      "en": "Not something that you can run on your computer. And it took 10 years for someone to go from deep blue to develop a computer software that you can run on your computer that defeated everybody. But the 10 years, it took 10 years. During that 10 years, the best chess player was a central player. This is a term coined by Gary Kaspero.",
+      "zh": "不是你能在自己电脑上跑的东西。从深蓝出发，到有人开发出一款能在你自己电脑上运行、并且打败所有人的软件，花了10年。整整10年。而在这10年里，最强的国际象棋棋手是“半人马棋手”（centaur）——这是加里·卡斯帕罗夫创造的一个词。"
+    },
+    {
+      "i": 156,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "52:13",
+      "en": "It's a combination of computer and human. It took 10 years. For Anfago, it took like three years. Like after Anfago, then 2019, somebody come up with a computer software that defeated anybody, without any human input at all.",
+      "zh": "它是计算机与人类的组合，这花了10年。而到了 AlphaGo，只花了大约三年：AlphaGo 之后，到2019年，就有人做出了一款完全不需要任何人类输入、就能击败任何人的软件。"
+    },
+    {
+      "i": 157,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "52:31",
+      "en": "At Caliph, we think like, you know, we are entering the era of the central hackers. Basically, the best hacker right now is a combination of AI and humans. And, you know, our work and our friends work as well, show that AI is powerful. You can hack anything. But it's still required, you know, human experts to drive it, right?",
+      "zh": "在 Calif，我们认为我们正在进入“半人马黑客”（centaur hacker）的时代。基本上，当下最强的黑客是 AI 与人类的组合。我们的工作，以及我们朋友的工作都表明：AI 很强大，你可以黑掉任何东西，但仍然需要人类专家来驾驭它，对吧？"
+    },
+    {
+      "i": 158,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "52:54",
+      "en": "And we don't know how long this is going to last. Maybe three months. Maybe, you know, we come back here in like, by the end of the year, we tell you we retire now. There's nothing else for us to do. Maybe it's last like three years. And this is actually pretty exciting to find out. That's exactly what we want to do. And we think like,",
+      "zh": "而我们不知道这个阶段会持续多久。也许三个月。也许到了年底我们再回到这个节目，会告诉你：我们现在退休了，已经没什么可做得了。也许能持续三年。而弄清楚这一点其实非常令人兴奋，这正是我们想做的事。我们认为，"
+    },
+    {
+      "i": 159,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "53:16",
+      "en": "there's like,",
+      "zh": "怎么说呢，"
+    },
+    {
+      "i": 160,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "53:19",
+      "en": "there's a missing view, right? And AI is going to do everything. Like just like retire and hate AI. Or you can see AI as a tool. It's like humanity just discovered fire. And with our fire, we wouldn't be here today. So of course, we have to think about how to control fire.",
+      "zh": "这里有一种被忽略的视角，对吧？要么就是“AI 会做所有事”，那你干脆退休、然后讨厌 AI；要么你可以把 AI 看作一种工具。这就像人类刚刚发现了火。没有火，我们不会有今天。所以我们当然得思考如何控制火，"
+    },
+    {
+      "i": 161,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "53:38",
+      "en": "At the same time, a very important question that we need to ask is, what should we cook, right? That's very important. And we want to find out what can we cook with AI and how can we do it in a safe way that helps, you know, everybody. Protein that makes our brains get bigger. Yeah. All right. Well, Thai and Bruce from Calib.",
+      "zh": "但与此同时，还有一个非常重要的问题需要问：我们该用它来“烹饪”什么？这一点非常重要。我们想弄清楚，用 AI 我们能“做出什么菜”，以及怎样才能以一种安全的方式去做，从而帮助到每一个人。——就是那种让我们大脑变大的蛋白质。嗯。好了，来自 Calif 的 Thai 和 Bruce，"
+    },
+    {
+      "i": 162,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "53:59",
+      "en": "Thank you so much. That was so good. That was a lot of fun. You're both excellent. Thank you both. Thanks. Thanks, Rob. Thanks, Rachel. Thank you. Bye-bye.",
+      "zh": "非常感谢你们。这期太精彩了，非常有意思，你们两位都很棒。谢谢你们。——谢谢。谢谢 Joe，谢谢 Tracy。谢谢，再见。"
+    },
+    {
+      "i": 163,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "54:14",
+      "en": "Yeah.",
+      "zh": "嗯。"
+    },
+    {
+      "i": 164,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "54:19",
+      "en": "Joe, I thought that was a fantastic conversation. Not exactly uplifting. I was surprised at Thai's response. I thought maybe people would say we're in this weird like awkward moment where a lot of like legacy issues are being discovered. But once AI actually gets deployed and starts redesigning some of the architecture,",
+      "zh": "Joe，我觉得这是一场非常精彩的对话，虽然并不怎么让人振奋。Thai 的回答让我挺意外的。我原以为大家会说：我们正处在一个奇怪的、尴尬的阶段，很多历史遗留问题正在被发现，但一旦 AI 真正被部署起来、开始重新设计部分架构，"
+    },
+    {
+      "i": 165,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "54:39",
+      "en": "it'll be a lot more resilient. Apparently, that's not the case. That's a little bit worrying. I agree. There was so much in there that was interesting. And like, I could, you know, all this stuff about how, yes, you could have proven least secure software, but it's small. You can't even do it for something that says the browser.",
+      "zh": "系统就会变得有韧性得多。但看起来并非如此，这就有点让人担心了。我同意。里面有太多有意思的东西了。比如说，关于“是的，你可以做出可证明安全的软件，但只能是小规模的，你甚至没法对浏览器这样的东西做到”这一整套说法。"
+    },
+    {
+      "i": 166,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "54:56",
+      "en": "I love that last point about how we're in the Centaur aid. Yeah. Where the strongest hacker is the computer working with the human. But that may not be there for much longer. I do know how long that's going to be. Three months a year, we have no idea. But the presumption should be that it won't last very long. Et cetera.",
+      "zh": "我特别喜欢最后那个观点，说我们正处在“半人马时代”。——嗯。最强的黑客是计算机与人类的协作，但这种状态可能不会持续太久。我们不知道会持续多久，三个月？一年？完全不知道。但应该假定它不会持续很久，等等等等。"
+    },
+    {
+      "i": 167,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "55:12",
+      "en": "Also, the idea of like a computer an agent that can code is inherently a hacker. And so you can't just tell it. Just tell it to be not to hack basically. Just not to hack. What's wrong with you? Just to not to hack. If you, if code is going to be big business, which it is, you're going to be building a lot of good hackers. Yeah.",
+      "zh": "还有那个观点：一个会写代码的计算机智能体，本质上就是一个黑客。所以你没法只是命令它“别去黑”就行了——“就是别黑嘛，你毛病啊？就是别黑嘛”。如果编程将是一门大生意（而它确实是），那你就会造出很多很厉害的黑客。——是啊。"
+    },
+    {
+      "i": 168,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "55:32",
+      "en": "And so the hackers proliferate. On that note, shall we leave it there? Let's leave it there. This has been another episode of the All Thoughts podcast. I'm Tracy Alleyway. You can follow me at Tracy Alleyway. And I'm Joe. Why isn't all you can follow me at the stalwart. Follow our producers. Carmen Rodriguez at Carmen Armand.",
+      "zh": "所以黑客会越来越多。就说到这里吧？好，就到这儿。这里是新一期的 Odd Lots 播客。我是 Tracy Alloway，你可以在 @tracyalloway 关注我。我是 Joe Weisenthal，你可以在 @TheStalwart 关注我。关注我们的制作人 Carmen Rodriguez（@CarmenArmand）、"
+    },
+    {
+      "i": 169,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "55:47",
+      "en": "Dashobendent at Dashpot. Kale Brooks at Kale Brooks. And Kevin Luzano at Kevin Lloyd Luzano. And of course, you can chat about all of these topics. 24-7 in our discord discord. GG slash hotlots. And for more AdLots content, you can check out our daily newsletter, which you can find at Bloomberg.com slash AdLots.",
+      "zh": "Dash（@Dashpot）、Kale Brooks（@KaleBrooks），以及 Kevin Lozano（@KevinLozano）。当然，你也可以在我们的 Discord 里全天候讨论所有这些话题：discord.gg/oddlots。想看更多 Odd Lots 内容，可以订阅我们的每日新闻简报，地址是 Bloomberg.com/oddlots。"
+    },
+    {
+      "i": 170,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "56:05",
+      "en": "And if you enjoyed this conversation, if you like it, when we talk about hacking them, please leave us a positive review on your favorite podcast platform. And if you're watching on video, then please leave a comment or like or better yet, subscribe. And remember, if you're a Bloomberg subscriber,",
+      "zh": "如果你喜欢这期对话，喜欢我们聊黑客的这些内容，请在你常用的播客平台上给我们留一个好评。如果你在看视频版，请留言、点赞，最好再订阅。另外请记住，如果你是彭博的订阅用户，"
+    },
+    {
+      "i": 171,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "56:19",
+      "en": "you can listen to all of our episodes absolutely add free. All you need to do is find the Bloomberg channel on Apple Podcasts and follow the instructions there. Thanks for joining.",
+      "zh": "你可以完全免广告地收听我们所有的节目。你只需要在 Apple Podcasts 上找到彭博频道，按照那里的说明操作即可。感谢收听。"
+    },
+    {
+      "i": 172,
+      "speaker": 6,
+      "speaker_zh": 6,
+      "ts": "56:39",
+      "en": "You",
+      "zh": "你"
+    },
+    {
+      "i": 173,
+      "speaker": 6,
+      "speaker_zh": 6,
+      "ts": "57:00",
+      "en": "If you're a business owner, you need a card that can keep up. With the Delta Sky Miles Reserve Business American Express Card, every day purchases transform into miles you can use towards future travel. So businesses usually can lead to a well-deserved getaway. And for a limited time, card members can earn 200,000 bonus miles.",
+      "zh": "如果你是企业主，你需要一张跟得上你的信用卡。使用达美 SkyMiles Reserve 商务美国运通卡（Delta SkyMiles Reserve Business American Express Card），日常消费都会转化成里程，可用于未来的旅行。所以企业日常开支通常也能换来一场当之无愧的度假。而且在限定时间内，持卡人可以获得20万额外奖励里程，"
+    },
+    {
+      "i": 174,
+      "speaker": 6,
+      "speaker_zh": 6,
+      "ts": "57:19",
+      "en": "The highest miles offered this year, whether you're traveling for business or planning your next adventure. Now's a great time to make every purchase go further. Apply today at www.delta.com slash podcast. Offer ends November 4th, minimum spending requirements in terms of apply. Most meeting note takers get the easy words right",
+      "zh": "这是今年提供的最高里程数。无论你是因公出差，还是在计划下一次冒险，现在都是让每一笔消费更划算的好时机。立即申请请访问 delta.com/podcast。优惠于11月4日结束，须满足最低消费要求及相关条款。大多数会议记录工具能把简单的词写对，"
+    },
+    {
+      "i": 175,
+      "speaker": 6,
+      "speaker_zh": 6,
+      "ts": "57:38",
+      "en": "and the important ones wrong. The client's name, the acronym, whisper flow note taker is built to get the hard words right. It takes notes on any meeting platform, Zoom, Google Me, Teams, even WhatsApp calls, keeps every meeting searchable and connects to clot or chat GPT so you can ask, what did we agree to last Tuesday?",
+      "zh": "却把重要的词写错：客户的名字、那些缩写。Wispr Flow 的会议记录工具正是为了把这些难词写对而打造的。它可以在任何会议平台上做记录——Zoom、Google Meet、Teams，甚至 WhatsApp 通话——让每一场会议都可被检索，并能连接到 Claude 或 ChatGPT，于是你就可以问：“上周二我们都达成了哪些共识？”"
+    },
+    {
+      "i": 176,
+      "speaker": 6,
+      "speaker_zh": 6,
+      "ts": "57:59",
+      "en": "Free to try on Mac and Windows at whisperflow.ai. That's W-I-S-P-R-FLOW.ai. Wise is the smart way to manage the currencies you need around the globe. When you send money abroad using your bank, you could get hit with hidden fees and exchange rate markups. Here's a better way. Try Wise.",
+      "zh": "在 Mac 和 Windows 上均可免费试用，请访问 wisprflow.ai，也就是 W-I-S-P-R-FLOW 点 ai。Wise 是管理你在全球各地所需货币的聪明方式。当你通过银行向海外汇款时，可能会被隐藏费用和汇率加价“偷袭”。这里有一个更好的办法：试试 Wise。"
+    },
+    {
+      "i": 177,
+      "speaker": 6,
+      "speaker_zh": 6,
+      "ts": "58:16",
+      "en": "Wise uses the exchange rate you'd usually find on Google with no unwelcome surprises. Plus, most transfers happen in under 20 seconds, which means your money arrives in less time than you've been listening to me. It's simple and free to sign up when you download the Wise app. Be smart. Get Wise. Tees and Cs apply.",
+      "zh": "Wise 使用你在谷歌上通常能查到的那个汇率，不会有意外的“惊喜”。而且大多数转账在20秒内完成，也就是说你的钱到账所花的时间，比你现在听我说话的这段时间还短。下载 Wise 应用即可注册，简单又免费。聪明点，用 Wise。须遵守相关条款与条件。"
+    },
+    {
+      "i": 178,
+      "speaker": 6,
+      "speaker_zh": 6,
+      "ts": "58:35",
+      "en": "This is Robert Smith from Business History. If you're listening to this, there's a good chance you're a small business owner. And like every small business owner, you started with a dream to do what you love and watch it grow, which you probably didn't dream about keeping up with cyber threats. That's where MasterCard can help,",
+      "zh": "我是《Business History》（商业史）播客的 Robert Smith。如果你在听这段内容，你很有可能是一位小企业主。和每一位小企业主一样，你当初怀揣着一个梦想起步：做自己热爱的事，看着它成长——但你大概没梦想过要不停追赶网络威胁。而这正是万事达卡（Mastercard）可以帮上忙的地方，"
+    },
+    {
+      "i": 179,
+      "speaker": 6,
+      "speaker_zh": 6,
+      "ts": "58:50",
+      "en": "with access to tools that help identify cyber threats to better protect your business. Building a dream business? Priceless. For cyber security in a changing world, there's MasterCard.",
+      "zh": "它提供有助于识别网络威胁的工具，从而更好地保护你的业务。打造一家梦想中的企业？无价。在不断变化的世界里守护网络安全？有万事达卡。"
+    },
+    {
+      "i": 180,
+      "speaker": 6,
+      "speaker_zh": 6,
+      "ts": "59:02",
+      "en": "Learn more at mastercard.com slash small business.",
+      "zh": "了解更多请访问 mastercard.com/smallbusiness。"
+    }
+  ]
+}
