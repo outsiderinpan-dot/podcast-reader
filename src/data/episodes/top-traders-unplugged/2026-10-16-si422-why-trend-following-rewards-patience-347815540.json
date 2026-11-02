@@ -1,0 +1,1831 @@
+{
+  "show": "top-traders-unplugged",
+  "kind": "transcript",
+  "id": "347815540",
+  "slug": "2026-10-16-si422-why-trend-following-rewards-patience-347815540",
+  "date": "2026-10-16",
+  "title_en": "SI422: Why Trend Following Rewards Patience ft. Katy Kaminski",
+  "title_zh": "SI422：为什么趋势跟踪奖赏耐心 ft. 凯蒂·卡明斯基",
+  "subtitle_zh": "AlphaSimplex的凯蒂·卡明斯基与主持人尼尔斯·考斯楚普-拉森深入探讨地缘政治风险、通胀与危机阿尔法，并解析AQR与Quantica两篇论文，说明为何长期“持有”趋势策略既困难又关键。",
+  "description": "SI422: Why Trend Following Rewards Patience ft. Katy Kaminski",
+  "duration": "69:08",
+  "duration_seconds": 4148,
+  "episode_url": "https://www.iheart.com/podcast/256-top-traders-unplugged-31027498/episode/si422-why-trend-following-rewards-patience-ft-katy-kaminski-347815540",
+  "audio_url": "https://episodes.captivate.fm/episode/9810e584-cb1b-4840-9d9a-c0b97e86c6f0.mp3?source=iheart",
+  "speakers": {
+    "1": "Niels Kaastrup-Larsen 尼尔斯·考斯楚普-拉森（主持）",
+    "2": "Katy Kaminski 凯蒂·卡明斯基（嘉宾）",
+    "3": "节目旁白（播报）"
+  },
+  "turn_count": 226,
+  "turns": [
+    {
+      "i": 0,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "00:01",
+      "en": "They kind of highlighted that the average return in Trend was about 5.6% over a huge horizon. But they said if you took out the 20 largest months, and this is something equity investors know as well, the 20 largest months,",
+      "zh": "他们大致指出，趋势策略（Trend）在很长的时间跨度里平均回报约为5.6%。但他们说，如果剔除掉涨幅最大的20个月——这一点股票投资者也很清楚——那20个最大的月份，"
+    },
+    {
+      "i": 1,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "00:18",
+      "en": "you basically go to negative half a percent.",
+      "zh": "基本上就会变成负0.5%。"
+    },
+    {
+      "i": 2,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "00:23",
+      "en": "Welcome to top traders unplugged in markets, success doesn't come from predicting what happens next. It comes from being prepared for what you can't prepare for predict. In each episode, we go deep with some of the world's most thoughtful minds in investing, economics and beyond to understand how they",
+      "zh": "欢迎收听《顶级交易员揭秘》（Top Traders Unplugged）。在市场里，成功并不来自预测接下来会发生什么，而来自为你无法预测之事做好准备。在每一期节目中，我们都会与投资、经济及其他领域中最善于思考的一些头脑深入对话，去理解他们如何"
+    },
+    {
+      "i": 3,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "00:41",
+      "en": "think, how they prepare and how they decide and the experiences that shaped how they see the world. No noise, no shortcuts, just real conversations to help you think better and invest with confidence.",
+      "zh": "思考、如何准备、如何决策，以及那些塑造了他们世界观的经历。没有噪音，没有捷径，只有真实的对话，帮助你更好地思考，并有信心地投资。"
+    },
+    {
+      "i": 4,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "00:56",
+      "en": "Welcome and welcome back to this week's edition of the Systematic Investor series with Katie Kaminsky and I, Nils Castro Larsen, where each week we take the pulse of the global through the lens of a rules based investor. Katie, it is really, really great to have you back this week. How are you doing? I hear you've been traveling recently.",
+      "zh": "欢迎，也欢迎再次回到本周的《系统化投资者》（Systematic Investor）系列，我是主持人尼尔斯·考斯楚普-拉森（Niels Kaastrup-Larsen），今天与我搭档的是凯蒂·卡明斯基（Katy Kaminski）。每周我们都会以一位规则驱动型投资者（rules-based investor）的视角，为全球市场把脉。凯蒂，这周能再次请你来，真的非常高兴。你最近怎么样？我听说你一直在到处旅行。"
+    },
+    {
+      "i": 5,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "01:15",
+      "en": "Yes, I'm good. I was back in your home country as well. Spent a little time in Denmark recently and then I've been back in the U.S. i was also out in Palm Springs, so been a little bit of a globe dropper. Globetrotter this week? Absolutely. Did you manage to see any sights in Copenhagen?",
+      "zh": "嗯，我很好。我还回了一趟你的祖国——最近在丹麦待了些时间，然后又回到美国；我还去了趟棕榈泉（Palm Springs），所以这阵子算是四处“环球旅行”。——这周满世界跑啊？绝对的。那你在哥本哈根有没有去逛逛什么景点？"
+    },
+    {
+      "i": 6,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "01:34",
+      "en": "I mean, the best sites in Copenhagen are jumping in the canal. I did that one day. Even if it's cold, you still gotta do it, you know. Wow. Okay. You're more a Viking than I am, it sounds like.",
+      "zh": "我是说，哥本哈根最棒的“景点”就是跳进运河里，我某天就这么干了。哪怕天冷，你也得跳一下，你懂吧。——哇，好吧。听起来你比我还像个维京人。"
+    },
+    {
+      "i": 7,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "01:48",
+      "en": "Anyways, we've got a great lineup of topics today. We've got a couple of papers and very importantly and very exciting, we have a speech that you did that we need to revisit. So quite a lot to talk about and to cover before we do that, as always. And it feels like it's been a little while.",
+      "zh": "不管怎样，今天我们准备了一大堆很棒的话题。有几篇论文，而且非常重要的是，我们还有一段你做过的演讲需要重新回顾。所以要聊、要讲的东西不少。在开始之前，一如既往——感觉已经过了挺长一段时间了。"
+    },
+    {
+      "i": 8,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "02:08",
+      "en": "I don't know why it feels a little bit longer this time since I spoke with you. But what's going on? What's been on your radar? Well, I mean, I think it's been, I've been so focused on geopolitical risk this year. I think the things on my radar is more sort of where are we going",
+      "zh": "我也不知道为什么这次感觉距上次和你聊隔得更久了些。不过，最近怎么样？有什么是你一直在关注的？——嗯，我是说，今年我一直特别关注地缘政治风险（geopolitical risk）。我想我关注的更多是，我们正走向何方，"
+    },
+    {
+      "i": 9,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "02:27",
+      "en": "and sort of how long is this sort of chaotic environment going to keep going. And of course inflation is on everybody, everybody's radar and geopolitical risks. So I think, you know, really it's, it's an ideal time for managed futures. So we like chaos. So it's been a. It's been a good year, I'd say. Sure.",
+      "zh": "以及这种混乱的环境还会持续多久。当然，通胀是所有人、所有人都在关注的，还有地缘政治风险。所以我觉得，说真的，现在正是管理期货（managed futures）的理想时机。我们是喜欢混乱的。所以这一年，我会说，是不错的一年。——好的。"
+    },
+    {
+      "i": 10,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "02:45",
+      "en": "Well, that's exactly what we're going to be spending our time on today. But before that, you and I were having a little bit of tech issues before we started recording today. And I was, I was texting you, saying, oh, you've been hacked. And oddly enough, last night I watched this new, this new documentary",
+      "zh": "嗯，这正是我们今天要花时间的地方。不过在那之前，今天开始录制前你和我遇到了一点技术故障。我当时还给你发短信说“哦，你被黑了”。说来也巧，昨晚我看了Netflix上一部新纪录片，"
+    },
+    {
+      "i": 11,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "03:03",
+      "en": "on Netflix about the OpenAI hack into hawking Face, I think it's called. I mean, it's pretty scary stuff once you get into the detail. And also they were showing some of the text messages that these AIs were leaving on the message board and how they described some of them themselves as they shouldn't be subservient to humans.",
+      "zh": "讲的是OpenAI黑进……的事，我想片名叫“Hawking Face”之类的。我是说，一旦你深入细节，这东西挺吓人的。他们还展示了这些AI在留言板上留下的一些短信，以及它们如何描述自己——说它们不该屈从于人类。"
+    },
+    {
+      "i": 12,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "03:26",
+      "en": "And you're thinking, wow, I mean, this does not sound very good.",
+      "zh": "你就会想，哇，我是说，这听起来可不太妙。"
+    },
+    {
+      "i": 13,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "03:31",
+      "en": "Yeah, it's a little scary, I'd say. I mean, you know, the amount that we can replicate things, I guess, is a little scary. Yeah. I mean, are you. I mean, you're using AI today, right, in your home and your. I mean, everybody is. Right? I mean, and it's really accelerated in the last year or two",
+      "zh": "是啊，我会说有点吓人。我是说，我们能够复制这些东西的程度，我想，是有点吓人的。——嗯，我是说，你现在在生活和……里也在用AI吧？我是说，人人都在用，对吧？而且过去一两年它真的在加速，"
+    },
+    {
+      "i": 14,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "03:48",
+      "en": "at a pace that has been much more than I expected. I mean, we've been talking about it, but I think in the last year or two, it's really expanded. So. So, yeah, but are you just out of curiosity, I mean, are you at a point where you're saying, yeah, let me just automate everything",
+      "zh": "速度远超我的预期。我是说，我们一直在谈论它，但我觉得过去一两年它才真正扩张开来。所以……是啊。不过纯好奇问一下，你现在是到了那种“好，让我把这个领域里我做的一切都自动化”的地步，"
+    },
+    {
+      "i": 15,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "04:02",
+      "en": "that I do in this area with AI, or are you just saying, no, I'm going to ask prompt and then get a reply, or is it really running stuff for you AI? I mean, here's the thing. Is it make mistakes. It makes a lot of mistakes. It does the. And it lies. Right. So. So if you ask it to do something and you care about the",
+      "zh": "还是只是说“不，我就问一个提示（prompt），然后得到回复”，还是它真的在替你运行一些东西？——AI嘛，我是说，事情是这样的：它会犯错。它会犯很多错。而且它还会撒谎。对吧。所以，如果你让它做某件事，而你在意它的"
+    },
+    {
+      "i": 16,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "04:20",
+      "en": "credibility of it in any way, then you have to use it as a tool, not as sort of an automated autopilot. I mean, I think even if you have it write an email for you, you better proofread that thing because you never know what they might say. So, you know, I'd say it's a great tool for, you know, summarizing",
+      "zh": "可信度，那你就必须把它当成一个工具来用，而不是一种自动化的“自动驾驶”。我是说，我觉得即便你让它替你写一封邮件，你最好也把那玩意儿校对一遍，因为你永远不知道它会说些什么。所以，你知道，我会说它是个很棒的工具，用来做摘要、"
+    },
+    {
+      "i": 17,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "04:40",
+      "en": "things, doing tasks that are very, very tedious, but at the same time, it, it makes up stuff. So, you know, it's funny, I, I get at least one or two or three inbound emails every single day for the podcast just for people who want to, you know, promote a guest or whatever or product they want us to, to endorse or whatever.",
+      "zh": "做那些非常非常枯燥乏味的任务，但与此同时，它会编造东西。所以，你知道，有趣的是，我每天至少会收到一两三封主动发来的邮件，都是给这个播客的，就想推介某位嘉宾，或者某个他们想让我们背书的产品之类的。"
+    },
+    {
+      "i": 18,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "05:01",
+      "en": "It is and I see, I mean I would say 90% of those are written by AI. You can see it straight away. So anyways, interesting. Anyways, let's move on to a little bit of a quick trend following update. We obviously now in the fourth quarter of 2026. I do sense, at least as of yesterday that although it's been",
+      "zh": "而且我看得出来——我是说，我会讲那里头90%都是AI写的。你一眼就能看出来。所以，不管怎样，挺有意思。好了，我们进入一个简短的趋势跟踪（trend following）近况更新。我们现在显然处在2026年第四季度。至少截至昨天，我确实感觉到，虽然一直"
+    },
+    {
+      "i": 19,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "05:23",
+      "en": "quiet, it may have a slightly positive bi, you know, bias in terms of performance. But then I was just looking at the bonds today while we're talking and I'm thinking maybe that was, that was enough for for now because bonds are having a pretty good time and I, I'm pretty sure most of our friends and colleagues are short bonds.",
+      "zh": "很平静，但它在业绩上可能略偏正面。不过就在我刚刚说话时看着债市，我又想，也许眼下也就到此为止了，因为债券最近日子过得挺滋润，而我很确定我们大多数朋友和同行都在做空债券。"
+    },
+    {
+      "i": 20,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "05:43",
+      "en": "Having said that, it's still dominated by energy of course and you know, one or two of the currencies also making some moves, the yen, the euro.",
+      "zh": "话虽如此，行情仍然主要由能源主导，当然，还有一两种货币也有些动静——日元、欧元。"
+    },
+    {
+      "i": 21,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "05:53",
+      "en": "When you think back so far this year, anything that I was going to ask you because you have been around also for a very long time, is there something perhaps other than 2022 that this year reminds you of or is this really what 2022 felt like? With some differences, of course. I mean I think 2022 was so different than this year.",
+      "zh": "当你回望今年到目前为止——其实我本来要问你的是，因为你在这个行业也待了非常久——除了2022年之外，今年有没有让你想起哪个年份？还是说今年的感觉真的就像2022年，当然存在一些差别？——我是说，我觉得2022年和今年大不相同。"
+    },
+    {
+      "i": 22,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "06:21",
+      "en": "And that's what's interesting about Trend is and we can talk about this month particularly, but Trend is such a weird strategy that it's just latching onto the biggest prevailing themes. And I think we kind of tend to think like well oh, it was good for Trend. So this environment was similar, but it's actually very different.",
+      "zh": "而这正是趋势策略的有趣之处——我们可以专门聊聊这个月——但趋势是个非常奇特的策略，它就是会一头扎进当下最主导的那些主题里。我想我们往往倾向于觉得：哦，那段时间对趋势有利，所以那个环境是相似的，但其实非常不同。"
+    },
+    {
+      "i": 23,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "06:42",
+      "en": "I'd say that 2022, if you look at it, it was geopolitical risk. So the energy trade was similar. That's true. But the bond story was a little different and the equity story was completely different. I'd say that if you look this year, what's the prevailing theme? It's like we're living in a hedged world economy. In the cross asset sense.",
+      "zh": "我会说，如果你看2022年，那是地缘政治风险。所以能源那笔交易是相似的，没错。但债券的故事有点不同，而股票的故事则完全不同。我会说，如果你看今年，主导性主题是什么？就像是我们生活在一个“对冲的”世界经济里——从跨资产（cross-asset）的意义上讲。"
+    },
+    {
+      "i": 24,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "07:04",
+      "en": "You have this growth oriented AI boom positive trend in equities that has worked very well. That seems, that doesn't seem to be destabilized by this geopolitical risk theme that kind of represents fixed incomes linked to inflation and geopolitical risk. So those two themes have been somewhat hedged.",
+      "zh": "你有这股以增长为导向的AI热潮，在股票上形成正向趋势，而且运转得非常好；它似乎并没有被地缘政治风险这个主题所破坏——而地缘政治风险大致对应着与通胀和地缘风险挂钩的固定收益。所以这两个主题在某种程度上是相互对冲的。"
+    },
+    {
+      "i": 25,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "07:27",
+      "en": "So it feels actually like a nice relatively hedged trend environment this year where the two themes, you'd think they'd be at odds but they're actually working together at very different times during the year. And so I think Trend has been extremely diversified this year in that sense.",
+      "zh": "所以感觉今年其实是一个相当不错、相对“对冲”的趋势环境，两个主题你会以为它们彼此对立，但实际上它们在一年中非常不同的时点上协同发力。所以我认为，从这个意义上讲，趋势今年极其分散化。"
+    },
+    {
+      "i": 26,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "07:46",
+      "en": "If you look at a risk off move that is probably the most dangerous for trend following at this point. But you have been seeing some pivoting. So I feel like we're kind of. It's interesting. You, when you're in the space long enough, you can kind of feel the trends changing. You know what I'm saying, Niels? It's that.",
+      "zh": "如果你看一次避险（risk-off）行情，那在此刻对趋势跟踪来说可能是最危险的。但你确实看到了一些转向（pivoting）。所以我觉得我们有点……这很有意思。当你在这个领域待得够久，你就能感觉到趋势在变化，你懂我意思吗，尼尔斯？就是那种感觉。"
+    },
+    {
+      "i": 27,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "08:01",
+      "en": "And that happened in March as well. We saw that we had very strong trends last year and they pivoted to being long energy and sort of you started to see a very different narrative in bonds, for example, and also currencies. Last year was about de dollarization. This year it's been mixed. Right.",
+      "zh": "而三月也发生过这样的事。我们看到去年趋势非常强劲，然后它们转向做多能源，你开始看到债券出现一个非常不同的叙事，货币也是。去年的主题是“去美元化”（de-dollarization），今年则比较混杂。对吧。"
+    },
+    {
+      "i": 28,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "08:19",
+      "en": "So I would say it feels like we're kind of at the crux of are we shifting to a different narrative for the fall around the elections? Could it be risk off? Could it be AI concern?",
+      "zh": "所以我会说，感觉我们正处在一个关键的十字路口：我们是否在转向一个围绕秋季选举的不同叙事？会不会是避险？会不会是对AI的担忧？"
+    },
+    {
+      "i": 29,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "08:32",
+      "en": "Yeah, I mean I think those are very different worlds. It feels very hedged and equity investors are still happy this year, unlike 2022. I think some of them still have PTSD from that year. I was just at a conference and people actually said that they're like, I'm still traumatized by what happened to me in 2022 because",
+      "zh": "是啊，我是说，我觉得那是非常不同的两个世界。今年感觉很“对冲”，而且和2022年不同，股票投资者今年还是开心的。我想其中一些人还留着那年的创伤后应激（PTSD）。我刚参加了一个会议，人们真的说，他们还像是——“我仍被2022年发生在我身上的事弄得有心理阴影，因为”"
+    },
+    {
+      "i": 30,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "08:49",
+      "en": "I have a lot of bonds and they didn't help me. Yeah, it's so funny. I know we're going to talk about this, but it's so funny that when you think about, you know, relatively speaking, 6040 has worked for so many years and you have one bad year and then people feel completely traumatized, as if the other 38 years in the last",
+      "zh": "“我持有大量债券，而它们没帮到我。”——是啊，这太有意思了。我知道我们要聊这个，但真的很讽刺：相对而言，60/40组合这么多年来一直奏效，你碰上一个糟糕的年份，然后人们就觉得彻底受了创伤，好像过去40年里的另外38年"
+    },
+    {
+      "i": 31,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "09:08",
+      "en": "40 years didn't. Didn't happen. But anyways, it doesn't mean that we shouldn't reconsider, you know, 6040 because we may live in a different world. We'll come to that, of course. Let me just quickly run through the numbers and then we'll dig into it. Trend barometer as of last night finished at 50.",
+      "zh": "……好像都没发生过一样。不过话说回来，这并不意味着我们不该重新审视60/40，因为我们也许生活在一个不同的世界里。这个我们当然待会儿会讲到。让我先快速过一遍数字，然后我们再深入。截至昨晚，趋势晴雨表（Trend Barometer）收在50。"
+    },
+    {
+      "i": 32,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "09:24",
+      "en": "So that's still a pretty good, strong, strong reading. And when I look at the numbers, and these are as of Tuesday this week, we're recording Thursday beta 50 up another 73 basis points in October of 15.7% so far this SoC gen CTA up 65 basis points, up 16.41. SoC gen trend up 57 basis points in October, up 16.47.",
+      "zh": "所以这仍是一个相当好、相当强劲的读数。当我看这些数字时——它们截至本周二，我们周四录制——Beta 50在10月又上涨了73个基点，今年以来涨15.7%；法国兴业银行（SocGen）CTA指数上涨65个基点，涨16.41%；SocGen趋势指数10月上涨57个基点，涨16.47%。"
+    },
+    {
+      "i": 33,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "09:48",
+      "en": "Incredibly, how close they are this year anyways. And maybe a little bit surprising, the Short Term Traders Index is actually down 60 basis points so far this month. Up 5.58% so far this year in the traditional world. MSCI World is up 32 basis points, up 12.45 for the year.",
+      "zh": "真是难以置信，它们今年靠得这么近，总之。也许还有点点出人意料：短期交易者指数（Short Term Traders Index）本月到目前为止实际下跌了60个基点，今年以来上涨5.58%。在传统资产世界里，MSCI全球指数（MSCI World）上涨32个基点，年内涨12.45%。"
+    },
+    {
+      "i": 34,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "10:06",
+      "en": "If we take out US and Canada and look at the eve, it's down 1.46%. Not surprising, maybe, and only up 8.72 for the year. Just underscoring the US's importance in terms of driving this very narrow rally in equities. And then the World Government Bond index is down 18 basis points and is down now about 3% for the year.",
+      "zh": "如果我们剔除美国和加拿大、看EAFE指数，它下跌了1.46%。也许并不意外，年内也只涨了8.72%。这恰恰凸显了美国在驱动这轮股市“狭窄”涨势中的重要性。然后世界政府债券指数（World Government Bond Index）下跌18个基点，如今年内约下跌3%。"
+    },
+    {
+      "i": 35,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "10:29",
+      "en": "So not a great year for bonds again. And the S&P 500 up just shy of 1% as of last night and up 13.78% so far this year.",
+      "zh": "所以对债券来说，今年又不是个好年景。而标普500（S&P 500）截至昨晚上涨接近1%，今年以来涨13.78%。"
+    },
+    {
+      "i": 36,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "10:45",
+      "en": "Now, Katie, I teased already that you went to Copenhagen and besides jumping in the canal, which I have never tried, honestly, I know you also went there for another reason and that is to give a talk.",
+      "zh": "好了，凯蒂，我已经预告过你去了哥本哈根——除了跳进运河（说实话我从没试过），我知道你去那儿还有另一个原因，那就是去做一场演讲。"
+    },
+    {
+      "i": 37,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "11:03",
+      "en": "So I'm excited to hear what it was about and maybe you can take us through what took place at this. I think it was an alternative investment conference. Yes, it was the annual CFA and Finance Institute alternative investment conference. And before I say that, do you know, Niels, that you were actually mentioned during the conference?",
+      "zh": "所以我很想听听那是关于什么的，也许你可以带我们回顾一下在那里发生了什么。我想那是一个另类投资（alternative investment）会议。——是的，那是CFA协会（CFA Institute）金融与另类投资年度会议。在我说下去之前，你知道吗，尼尔斯，你其实在那个会议上被提到了？"
+    },
+    {
+      "i": 38,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "11:27",
+      "en": "So one of your friends, you were in the slides and I was like, Niels, so you got actually quoted in one of the presentations by, I think it's Matthew eats from 7am Anyway, so I was there sitting in one of the front rows and I go, nils. So we were, you know, it's kind of fun how everybody in this",
+      "zh": "你的一个朋友——你出现在幻灯片里——我当时就想：尼尔斯！所以你其实被引用在其中一场演讲里了，我记得是来自7AM的Matthew（马修）。总之，我当时就坐在前排某处，我就说“尼尔斯”。所以我们……你知道，挺好玩的是，这个圈子里的每个人"
+    },
+    {
+      "i": 39,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "11:45",
+      "en": "world were kind of connected and you know, you inspire a lot of people with what you're doing. So you were there too? I was there in spirit for sure. Thank you so much for mentioning that, needless to say. So just kind of turning to this talk. So this was a very fun talk.",
+      "zh": "其实都彼此相连，而且你知道，你在做的事情激励了很多人。——所以你当时也在场？我在精神上肯定到场了。非常谢谢你提到这一点，这不用多说。那么，回到这场演讲。这是一场非常有意思的演讲。"
+    },
+    {
+      "i": 40,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "12:02",
+      "en": "My friend Christoph Junga, who has also been, you know, a big follower of managed teachers, he asked me to give a talk in Copenhagen and he asked me to talk about crisis alpha inflation and geopolitical risk. And so that is a lot to ask. Right? But I was super excited because, you know, when you think",
+      "zh": "我的朋友克里斯托夫·容加（Christoph Junga）——他一直也是管理期货的忠实拥趸——请我到哥本哈根做一场演讲，他要我讲危机阿尔法（crisis alpha）、通胀和地缘政治风险。这可是很大一个题目，对吧？但我超级兴奋，因为你知道，当你思考"
+    },
+    {
+      "i": 41,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "12:23",
+      "en": "about these things, you big picture things, it helps us to kind of put where we are in the cycle in context. And it also helped me to kind of step back and think about some of the research that I had done, you know, in the past crises and how is today similar or different and what can we learn?",
+      "zh": "这些宏大的、全局性的东西时，它能帮我们把“当下处在周期的哪个位置”放进语境里去理解。它也帮我退后一步，去思考我过去做过的一些研究——关于历次危机的，以及今天与它们有何相似或不同，我们能学到什么。"
+    },
+    {
+      "i": 42,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "12:43",
+      "en": "And so it was, it was a fun exercise to do for this presentation and maybe I'll just give a quick summary of the different topics because it was fun.",
+      "zh": "所以，为这次演讲做这件事是一次很有意思的练习。也许我就快速概述一下几个不同的主题吧，因为挺有意思的。"
+    },
+    {
+      "i": 43,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "12:55",
+      "en": "So first of all, I talked about Geopolitical risk, which is sort of the cause of our concern. Then I talked a little bit about inflation and finally about crisis alpha. So maybe I'll just boil it down to each of those so it's not all at the same time. So geopolitical risk, as you know, I think on our last podcast",
+      "zh": "首先，我谈了地缘政治风险，那是我们担忧的根源。然后我稍微谈了通胀，最后谈危机阿尔法。所以也许我把它们各自拆解一下，免得一股脑全倒出来。地缘政治风险——你知道，我想在我们上一期播客里，"
+    },
+    {
+      "i": 44,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "13:16",
+      "en": "I talked about an article that we wrote on geopolitical risk. And I'm a kind of an academic nerd in some sense that whenever I don't know how to understand something, I love to kind of see what researchers are doing and understand what are they finding, you know, in the academic literature that can help us as investors",
+      "zh": "我谈过我们写的一篇关于地缘政治风险的文章。我在某种意义上算是个学术宅：每当我不知道该如何理解某件事，我就喜欢去看看研究者们在做什么，去理解他们在学术文献里发现了什么，这些东西能帮我们这些投资者"
+    },
+    {
+      "i": 45,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "13:35",
+      "en": "sort of get perspective on things like geopolitical risk, because we talk about it almost every single day and we know what it is intuitively. But as a quant, if you can't measure something and analyze it, then you can't manage it and you can't understand it. So I think what was the most exciting journey of looking at this",
+      "zh": "对诸如地缘政治风险这类事情有更宏观的视角，因为我们几乎每天都在谈论它，凭直觉我们也知道它是什么。但作为一个量化从业者（quant），如果你无法度量它、分析它，那你就无法管理它，也无法理解它。所以我觉得，在梳理这方面文献时最令人兴奋的一段旅程——我建议大家先从我们的文献综述读起，"
+    },
+    {
+      "i": 46,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "13:57",
+      "en": "literature and I suggest reading our paper review as a start. It's called Navigating Geopolitical Risk. You know, if you look at the current literature on geopolitical risk, it's using LLMs. And now there's also been an AI oriented geopolitical risk indicator that's been published.",
+      "zh": "它叫《驾驭地缘政治风险》（Navigating Geopolitical Risk）。你知道，如果你看当前关于地缘政治风险的文献，它们正在使用大语言模型（LLMs）。而现在还发表了一个面向AI的地缘政治风险指标。"
+    },
+    {
+      "i": 47,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "14:16",
+      "en": "It's not out in publication yet, but the data is available for anybody that basically looks at measuring what is happening in the world using news articles. And so they use. So the name of the key researcher is Matteo Icovella. I probably botched the name, so I apologize to him for that because my talent isn't very good.",
+      "zh": "它还没有正式出版，但数据是任何人都可以获取的，基本上是借助新闻文章来度量世界上正在发生什么。所以，那位关键研究者的名字是Matteo Icovella。我大概把名字念错了，为此我要向他道歉，因为我的意大利语不怎么样。"
+    },
+    {
+      "i": 48,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "14:40",
+      "en": "But they basically create this. And there's even a Bloomberg ticker where you can look at the overall level of geopolitical risk. And so there's a growing literature and I'm just going to tell you the summary of these. Everybody can go and read the paper and do more analysis themselves.",
+      "zh": "但他们基本上创建了这么个东西，甚至还有一个彭博（Bloomberg）代码，你可以在上面查看地缘政治风险的总体水平。所以这方面的文献在不断增长，我只是要告诉你们这些研究的概要。大家完全可以自己去读论文、做更多分析。"
+    },
+    {
+      "i": 49,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "14:57",
+      "en": "But you know, if you think about geopolitical risk and you look at it, how it's varied over time, first of all, it has been increasing in the more recent period and we've seen some shocks in geopolitical risk that are sizable. The US Iran conflict is an example. Secondly, they also allow you to measure this into like oil based",
+      "zh": "不过你知道，如果你思考地缘政治风险，看它随时间的变化：首先，在近一段时间它一直在上升，我们看到了一些规模可观的地缘政治风险冲击，美伊冲突就是一个例子。其次，它们还让你能把它拆分成基于石油的、"
+    },
+    {
+      "i": 50,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "15:18",
+      "en": "or energy based or threats or actions. And threats are, you know, we have a lot of threats these days, but threats and actions are slightly different things. And they also give you that granularity that you can look into the differences between those things and you can look at these things by country.",
+      "zh": "或基于能源的、威胁或行动。威胁嘛——你知道，如今我们有大量的威胁——但威胁和行动是略有不同的两回事。它们还给你这种颗粒度，让你能去审视两者之间的差异，并且能按国家来看这些东西。"
+    },
+    {
+      "i": 51,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "15:37",
+      "en": "But the key summary of this, and I'm not going to spend too much time on it because we can all look at it ourselves. First, geopolitical risk as measured by these indicators has increased in the recent period. Second, the findings in the literature that I think are the most useful are, number one, geopolitical risk does seem to be priced.",
+      "zh": "但这里的关键概要——我不会花太多时间，因为我们都能自己去看——第一，按这些指标度量的地缘政治风险在近段时间上升了。第二，我认为文献中最有用的发现是：其一，地缘政治风险似乎确实是被定价（priced）的。"
+    },
+    {
+      "i": 52,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "15:58",
+      "en": "So what does that mean? It means that we're all taking it on right now and there's systemic risk that we will get paid for. So we need to understand that it's a risk premia that exists. I'm not an equity person, but there also is an extensive literature that looks at the real firm level effects of geopolitical risk.",
+      "zh": "那是什么意思？意思是我们此刻都在承担它，而且存在一种我们会为此获得补偿的系统性风险。所以我们需要理解，这是一种存在的风险溢价（risk premia）。我不是做股票的人，但也有大量文献研究地缘政治风险在公司层面的真实影响。"
+    },
+    {
+      "i": 53,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "16:17",
+      "en": "So it is true that certain companies are more exposed to this than others, especially those with international trade exposure. So that is also nice to see that that is documented. So you need to actually care about that.",
+      "zh": "所以，确实某些公司比其他公司对此敞口更大，尤其是那些有国际贸易敞口的公司。所以，看到这一点被文献记录下来也很好，也就是说你确实需要去在意它。"
+    },
+    {
+      "i": 54,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "16:31",
+      "en": "And what was more interesting to me, and I'd like your thoughts on this after I say this to you, Niels, is that there was a recent paper in January also that focused on does geopolitical risk cause inflation?",
+      "zh": "而对我更有意思的是——我说完之后想听听你的想法，尼尔斯——今年1月还有另一篇论文，聚焦于“地缘政治风险是否会导致通胀”这个问题。"
+    },
+    {
+      "i": 55,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "16:44",
+      "en": "And essentially they say yes. So they show, using over 100 years of data across 44 different countries, that geopolitical risk foreshadows inflation. And they show that what this means is that when you have geopolitical risk, especially on the supply side, you will end up with a inflation risk premium or a structural inflation premium.",
+      "zh": "他们基本上给出的答案是“是”。他们利用横跨44个不同国家、超过100年的数据表明，地缘政治风险预示着通胀。他们展示的、这意味着的是：当你有地缘政治风险，尤其是在供给侧时，你最终会得到一个通胀风险溢价（inflation risk premium），或者说一种结构性的通胀溢价。"
+    },
+    {
+      "i": 56,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "17:12",
+      "en": "And that's exactly what we're living in right now. We're seeing that repricing or pricing of that inflation risk premia",
+      "zh": "而这恰恰是我们此刻正在经历的东西。我们正在看到市场对这种通胀风险溢价的重新定价或定价，"
+    },
+    {
+      "i": 57,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "17:20",
+      "en": "in markets. And so I think that for anybody who's a bond investor should make you a little nervous. And we can talk about that in a second. But the point is, is that geopolitical risk has risen. It has real effects on equity markets in terms of premia and SEC and real firm effects. And finally it causes inflation.",
+      "zh": "就在市场当中。所以我认为，对任何一个债券投资者来说，这都应该让你有点紧张。这一点我们可以马上聊。但要点是：地缘政治风险已经上升；它对股票市场在溢价和公司真实效应方面有实际影响；最后，它会导致通胀。"
+    },
+    {
+      "i": 58,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "17:40",
+      "en": "So inflation is here to some degree. And I think that was. That's a very useful sort of summary. That's my summary of, you know, kind of the literature on geopolitical risk.",
+      "zh": "所以通胀在某种程度上就在这里了。我觉得那是……那是一个非常有用的总结。那就是我对地缘政治风险相关文献的一个概括。"
+    },
+    {
+      "i": 59,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "17:51",
+      "en": "I mean, I think on top of everything you said, which I agree with, I think the other thing that kind of makes it interesting at the moment is that there are a few pardon upon trends happening at the moment that kind of reinforces it in addition to the typical. So even if you, so if you go back in time and you think about",
+      "zh": "我是说，我觉得在你说的这一切之上——我都同意——另一件让当下变得有意思的事情是，此刻有几股趋势同时在发生，进一步强化了这一点，而不只是那些典型的机制。所以，即便你——如果你回到过去去想地缘政治风险，"
+    },
+    {
+      "i": 60,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "18:14",
+      "en": "geopolitical risk, and again, I'm not an expert, but for example, we can imagine that when there is Tensions in the Middle east, oil prices go up. We've seen this before. This is what's happening right now. But then on top of, and that obviously interest rates go up, that means that there's a higher bill to be paid by the US Government.",
+      "zh": "再说一次，我不是专家，但举个例子，我们可以想象当中东局势紧张时，油价上涨。我们以前见过，这正是此刻在发生的事。但在此之上——显然利率会上升，这意味着美国政府要付的账单更高了。"
+    },
+    {
+      "i": 61,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "18:33",
+      "en": "They need to issue more bonds, so there's more, more paper coming to the market. But at the same time, we also have companies fighting for capital, driven to a large extent by AI. And then not only that, AI ties directly into the energy story because it's so energy demanding. So, so on top of what you've said, in a sense it's, it's like",
+      "zh": "他们需要发行更多债券，所以市场上来了更多“纸”（供给）。但与此同时，我们还有公司在争夺资本，这在很大程度上由AI驱动。不仅如此，AI还直接和能源的故事绑在一起，因为它太耗能源了。所以，在你所说的之上，某种意义上这就像"
+    },
+    {
+      "i": 62,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "18:58",
+      "en": "a perfect storm, which to me makes it, well, one more interesting. But it might also make the traditional portfolios a lot more vulnerable for a lot longer time, which is, and we know it's so difficult. We're going to talk about this later today in one of the papers. We know it's so difficult to change our minds about how we do",
+      "zh": "一场“完美风暴”（perfect storm）——对我来说这让事情更有意思，但它也可能让传统组合在长得多的时间里脆弱得多。而这——我们知道这有多难，今天晚些时候我们会在其中一篇论文里谈到——我们知道，要改变我们关于“如何做事”的想法是多么困难，"
+    },
+    {
+      "i": 63,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "19:22",
+      "en": "things, including how we invest. And I imagine that's also the case for investment committees that have been doing the same thing for decades. And suddenly someone raises their hand saying maybe we should do it completely differently and all the other ones are going to say, no, what's wrong with you?",
+      "zh": "……（如何）做事，包括我们如何投资。我想，对那些几十年来一直沿用同一套做法的投资委员会来说也是如此。突然间有人举手说“也许我们该完全换一种做法”，其他所有人都会说“不，你出什么问题了？”"
+    },
+    {
+      "i": 64,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "19:41",
+      "en": "So I do think we're at a very vulnerable point. When you look at investors, maybe if there is a bright spot in all of this, maybe the ones who might have an advantage are actually the younger generation because then they don't have all that legacy bias. And so anyways, they're just me rambling a few thoughts.",
+      "zh": "所以我确实认为我们正处在一个非常脆弱的节点。当你审视投资者时，也许如果说这一切里有个亮点，那可能占优的其实是年轻一代，因为他们没有那么多“遗留偏见”（legacy bias）。总之，这只是我随口唠叨的几点想法。"
+    },
+    {
+      "i": 65,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "20:07",
+      "en": "No, but I totally agree with you, Niels, and that was kind of the next point is that we always worry about what we anchor to, right? So our bias and our generation and our group of investors has been anchored to the 60 40, which makes total sense because in a low inflation environment with low geopolitical risk, it's a great,",
+      "zh": "不，我完全同意你，尼尔斯。而那其实正是我下一个要说的点：我们总是担心自己“锚定”在什么上，对吧？所以我们这一代人、我们这个投资者群体的偏见，一直锚定在60/40上，这完全说得通，因为在一个低通胀、低地缘政治风险的环境里，它是一个非常好的、"
+    },
+    {
+      "i": 66,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "20:29",
+      "en": "very diversified portfolio. But when you add geopolitical risk, de globalization and other threats, actually your portfolio becomes vulnerable. And I think that's kind of the key, and I do agree with you, is that younger people won't have that bias about bonds and maybe they won't have the same bias.",
+      "zh": "非常分散化的组合。但当你加入地缘政治风险、去全球化（de-globalization）和其他威胁时，你的组合其实就变得脆弱了。我觉得这就是关键，我也确实同意你：年轻人不会有那种对债券的偏见，也许他们不会有同样的偏见。"
+    },
+    {
+      "i": 67,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "20:52",
+      "en": "And you see that even the housing market, they don't have the same bias about interest rates, right? They're like, well, maybe I'll rent because, you know, it's too expensive to buy because 7% is too high, you know, for a mortgage. So I do agree with you that the next generation will be different about it. But there's a lot of us who.",
+      "zh": "你在房市上也能看到这一点——他们对利率没有同样的偏见，对吧？他们会想：嗯，也许我就租房吧，因为买房太贵了，7%的按揭利率太高了。所以我确实同意你说的，下一代在这一点上会不一样。但我们这些人里有很多……"
+    },
+    {
+      "i": 68,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "21:09",
+      "en": "And this is why it was fun to give this talk in Copenhagen, because in Denmark they love their bonds, right? Oh, yeah. I mean, it's so weird. Like, it's such a weird, interesting thing. The Swedes, they love the equities and the Danes, they're bond experts, they love bonds. And I just thought it was.",
+      "zh": "而这正是在哥本哈根做这场演讲有意思的地方，因为在丹麦他们热爱他们的债券，对吧？——哦，是啊。我是说，这太奇特了，是件如此奇特又有意思的事。瑞典人热爱股票，而丹麦人是债券专家，他们热爱债券。我当时就觉得这……"
+    },
+    {
+      "i": 69,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "21:25",
+      "en": "Someone came up to me after the talk and said, Katie, you talked about shorting bonds at an event in Denmark. How did you get away with that note? Because you're not Danish, it's okay, because we love your bonds. And actually I had some good questions in the audience because I was telling them inflation is a natural threat to your bonds.",
+      "zh": "演讲后有人走过来对我说：“凯蒂，你居然在丹麦的一个活动上谈论做空债券，你是怎么侥幸过关的？”——因为你不是丹麦人，所以没关系，我们爱你的债券。而且其实观众里有人问了很好的问题，因为我告诉他们，通胀是你债券的天敌。"
+    },
+    {
+      "i": 70,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "21:45",
+      "en": "And they were, you know, so I said the following things and I have this really cool paper that's called, and I still love it. It's called Bonds Behaving Badly. Yes. You know, and you. It's one of my favorite. It's a great title. Yeah. Because basically what do we show is that we show that bonds a",
+      "zh": "他们……所以，你知道，我说了下面这些话。我有一篇特别酷的论文，我至今仍然很喜欢它，叫《债券行为失当》（Bonds Behaving Badly）。——是的，你知道……那是我最喜欢的之一，标题起得真棒。——是啊。因为基本上我们要展示的是，我们发现债券"
+    },
+    {
+      "i": 71,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "22:02",
+      "en": "tend to co move sometimes with stocks when inflation is a key risk. That's what we've seen this year. That's what we've seen often over the last five years. Number two, bond volatility is elevated when infl is higher. That's what we've seen in 2022 especially. We're seeing it some this year as well.",
+      "zh": "在通胀是关键风险时，有时往往会和股票同向变动（co-move）。这就是我们今年看到的，也是过去五年里我们经常看到的。第二，当通胀更高时，债券波动率会升高。这尤其是我们2022年看到的，今年也有些如此。"
+    },
+    {
+      "i": 72,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "22:21",
+      "en": "And finally, bonds lose their safe haven status when inflation is high and stocks are down. So your kind of best buddy, the bond, it's still a good investment. I mean, that's what we had to talk about in this situation. It's just that bonds are a natural predator of bonds which never",
+      "zh": "最后，当通胀高企、股票下跌时，债券会失去其避险（safe haven）地位。所以你那“最好的伙伴”债券，它仍是一项不错的投资——我是说，在这种情形下我们不得不谈的就是这个——只不过，债券有一个天敌，而它在我们大部分投资生涯里从未"
+    },
+    {
+      "i": 73,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "22:40",
+      "en": "existed during most of our investment period is inflation. And we're in a world where we have structural inflation risk and uncertainty because of geopolitical risk and supply chain",
+      "zh": "存在过，那就是通胀。而如今我们身处一个存在结构性通胀风险和不确定性的世界，其根源在于地缘政治风险和供应链"
+    },
+    {
+      "i": 74,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "22:55",
+      "en": "issues. So I think for the typical investor, it's about kind of thinking about that. And that's why I love being a quant Niels, because what we do in the quant world is we say, okay, let's test this hypothesis. What are bonds for us? And, and then we look at the data recently, we say, oh, bonds are fabulous.",
+      "zh": "问题。所以我觉得，对普通投资者而言，关键在于去思考这一点。而这正是我热爱做量化（quant）的原因，尼尔斯，因为在量化世界里我们会说：好，让我们来检验这个假设——债券对我们而言究竟意味着什么？然后我们看近期的数据，会说“哦，债券棒极了”。"
+    },
+    {
+      "i": 75,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "23:15",
+      "en": "And then we look at the data over longer horizons or like Alex Grazerman and I did in over 800 years. And we say, ooh, bonds are good, but they're, they're vulnerable to, to, to inflation. And that sort of data gives us a, oh, it helps us get out of that bias. I think that, you know, more Sort of fundamental traditional investing",
+      "zh": "然后我们看更长时间跨度的数据——就像Alex Greyserman（亚历克斯·格雷瑟曼）和我在超过800年的数据上做的那样——我们会说“哦，债券是好的，但它们容易被通胀所伤”。而这类数据给了我们一个“啊哈”时刻，帮我们摆脱那种偏见；我想，更偏向基本面、传统投资的那一派"
+    },
+    {
+      "i": 76,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "23:37",
+      "en": "tends to have.",
+      "zh": "往往更容易有这种偏见。"
+    },
+    {
+      "i": 77,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "23:39",
+      "en": "I mean, you mentioned that the Danes love bonds.",
+      "zh": "我是说，你提到丹麦人热爱债券。"
+    },
+    {
+      "i": 78,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "23:43",
+      "en": "There is definitely one specific pension fund, which is the public pension fund of Denmark, that really, really loved their bonds because in their infinite wisdom they implemented a kind of, I think a leverage risk parity strategy of some sort,",
+      "zh": "确实有一家特定的养老基金——就是丹麦的公共养老基金——非常非常热爱他们的债券，因为凭借他们“无比的智慧”，他们实施了一种，我想是某种加杠杆的风险平价（leverage risk parity）策略，"
+    },
+    {
+      "i": 79,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "23:59",
+      "en": "pretty much at the low of interest rates. And of course they've had massive losses, which hurts Danish pensioners. But that's actually not my point. My point was that even this morning before we went on this recording, I was speaking to not a Danish large investor, but someone else",
+      "zh": "而且几乎是在利率的最低点实施的。当然，他们蒙受了巨额亏损，这伤害了丹麦的养老金领取者。但那其实不是我的重点。我的重点是，就在今天早上、我们开始录制之前，我还在和一位——不是丹麦的大型投资者，而是欧盟里的另一位——交谈，"
+    },
+    {
+      "i": 80,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "24:20",
+      "en": "in the European Union and they were saying, oh yeah, I mean, bonds are getting interesting, bonds look good again. And I'm thinking bonds look good again. You just had 10 years of no return and let alone real returns, probably somewhat negative. Right. And yet the bias is, as you rightly say, oh yeah, they look great.",
+      "zh": "他们说“哦是啊，我是说，债券正变得有意思起来，债券又看起来不错了”。我就想：债券又看起来不错了？你刚刚经历了10年的零回报，更别说实际回报（real returns）大概是负的。对吧。然而那种偏见——正如你恰当地指出的——就是“哦是啊，它们看起来棒极了”。"
+    },
+    {
+      "i": 81,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "24:43",
+      "en": "It's like they cannot fold people. They're always interested in bonds, even though the returns, I mean, if this was trend following, having not given a real return for 10 years, our industry would have been gone. So there is definitely a different treatment of certain assets, probably to some extent the same as equities. Right.",
+      "zh": "就好像人们永远不会对债券“死心”一样。他们总是对债券感兴趣，即便回报……我是说，如果换成趋势跟踪，10年没给出实际回报，我们这个行当早就完蛋了。所以对某些资产确实存在一种不同的待遇，大概和股票受到的待遇有些相似。对吧。"
+    },
+    {
+      "i": 82,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "25:04",
+      "en": "We had the 10, 12 year period after year 2000 where bonds, sorry, equities, were underwater. They didn't make a new high for 10 or 12 years, yet nobody talks about it. And if trend followers come up to say one year below a high watermark or, you know, two years would be a catastrophe, yet you have these",
+      "zh": "我们经历过2000年之后那10到12年，债券——抱歉，是股票——一直在水下（underwater）。它们10到12年没有创新高，然而没人谈论这件事。而如果趋势跟踪者出来说“有一年低于历史最高水位（high watermark）”，或者两年，那会被当成一场灾难，然而你却有这些"
+    },
+    {
+      "i": 83,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "25:26",
+      "en": "other asset classes that can go 5, 10 years from time to time without making a new high, yet that doesn't seem to scare people. It is so interesting to observe, in my opinion. Well, and I think that's why it was fun that you were mentioned in that talk about complexity. And it's this idea, Niels, it's this idea that things that you",
+      "zh": "其他资产类别，时不时能5年、10年不创新高，然而那似乎并不吓到人们。在我看来，观察这一点实在太有意思了。——嗯，我觉得这也是为什么在那个关于“复杂性”的演讲里提到你会很有意思。就是这样一个理念，尼尔斯：那些你"
+    },
+    {
+      "i": 84,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "25:47",
+      "en": "feel safe with, that you know, are less risky. And that's your perception, right? And I think the challenge of that is that you could be more vulnerable than you might have perceived in an adverse situation. And I think that's why, you know, you see an investor raising their hand and saying to me, Katie, I have PTSD from 2022 because",
+      "zh": "感到安全、你所了解的资产，风险更低。那是你的感知（perception），对吧？而我觉得其中的挑战在于：在不利情形下，你可能比你原以为的更脆弱。我想这就是为什么——你知道——你会看到一个投资者举手对我说：“凯蒂，我有2022年的创伤后应激，因为"
+    },
+    {
+      "i": 85,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "26:09",
+      "en": "my bonds weren't there and I don't know what to do. And so I think it's really this question of trying to be objective about it, looking at the data. And, and I do think, you know, because I got that exact question from someone, what about bonds? Should we have no bonds? And I said, absolutely not.",
+      "zh": "我的债券没顶用，我不知道该怎么办。”所以我觉得，这真的是一个要努力做到客观、去看数据的问题。而且我确实认为——你知道，因为我从某个人那里得到了那个一模一样的问题：“债券怎么办？我们要不要完全不持有债券？”我说：“绝对不要。”"
+    },
+    {
+      "i": 86,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "26:27",
+      "en": "I said, Bonds are great if the yield's high enough, because at some point when they sell off enough, then let's talk right now what's happening probably even today at some point, if the 5 year or the 10 year is high enough in return and you think that the AI, it starts to go to a risk off to some degree.",
+      "zh": "我说，如果收益率足够高，债券是很棒的，因为在某个时点，当它们跌得足够多时——那么我们就谈谈吧——就在此刻正在发生的、也许就在今天，在某个时点，如果5年期或10年期的收益率高到足够有回报，而你认为AI、市场在某种程度上开始转向避险（risk-off），"
+    },
+    {
+      "i": 87,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "26:50",
+      "en": "So it's a tricky world that we live in. At some point yields are high enough that it's attractive to you.",
+      "zh": "所以我们生活在一个棘手的世界里。在某个时点，收益率会高到对你有吸引力。"
+    },
+    {
+      "i": 88,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "26:57",
+      "en": "And the other thing, by the way,.",
+      "zh": "另外，顺便说一句——"
+    },
+    {
+      "i": 89,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "26:59",
+      "en": "You mentioned this thing about shorting bonds, and that's one other thing that I really remember, especially from the last episode, is always you have a little bit of a recency bias. But in 2022, I clearly remember that a lot of global macro firms actually had a pretty good narrative about why bond yields should go higher.",
+      "zh": "你提到做空债券这件事，那也是我印象特别深的另一点，尤其是从上一期节目里：你总是会有点近因偏见（recency bias）。但在2022年，我清楚地记得，很多全球宏观（global macro）公司其实对“为什么债券收益率应该走高”有一套相当不错的叙事。"
+    },
+    {
+      "i": 90,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "27:24",
+      "en": "But then when you looked at their books and their exposure, they had very little short bond exposure. And I think that again, even creeps into our world as soon as you leave the rules and you go into some level of discretionary decision making. It is so hard. And actually I was in Singapore a couple of weeks ago and",
+      "zh": "但当你去看他们的账本和敞口时，他们几乎没有做空债券的敞口。我想，那同样会悄悄爬进我们的世界——一旦你离开规则、进入某种程度的主观决策（discretionary decision making）。这太难了。而且其实几周前我在新加坡，"
+    },
+    {
+      "i": 91,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "27:46",
+      "en": "funnily enough, many of the people I met with actually traded bonds. So many of my clients apparently are bond traders out of Singapore. And they all said, oh, I mean one of them was like, he only trades JGBs. And can you imagine how difficult it would be to go from, you know, buying the dip for 25 years every time and now suddenly",
+      "zh": "有趣的是，我见到的很多人其实是做债券交易的。所以我很多客户显然都是在新加坡做债券交易的。他们都“哦……”，我是说，其中一位是这样：他只做日本国债（JGBs）。你能想象这有多难吗——25年来每次都在“逢低买入”，而现在突然间"
+    },
+    {
+      "i": 92,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "28:07",
+      "en": "having to short the highs every time? And he admitted that. He said it's so difficult. And I think this is one of the most underappreciated benefits that you get from a rules based strategy. Of course we know it from trend, but there may be other strategies, but it's just this complete agnostic view as to whether we should be long, short.",
+      "zh": "每次都要“逢高做空”？而且他也承认了。他说这太难了。我觉得这是规则驱动型策略带给你的、最被低估的好处之一。当然我们在趋势里知道这一点，但也许其他策略也有；就是这种对“我们该做多还是做空”完全不可知论（agnostic）的立场。"
+    },
+    {
+      "i": 93,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "28:30",
+      "en": "We just follow the rules.",
+      "zh": "我们只是遵循规则。"
+    },
+    {
+      "i": 94,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "28:32",
+      "en": "And so it's so easy for us to be short bonds.",
+      "zh": "所以对我们来说，做空债券非常容易。"
+    },
+    {
+      "i": 95,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "28:37",
+      "en": "And it is very meaningful from a total portfolio approach to have something like that. But, but I guess maybe on your travels, I know you've been around the US as well. Well, Niels, I mean, I think, I think you make a really important point and I think that's where the way that we as systematic investors",
+      "zh": "而且从一个总组合方法（total portfolio approach）的角度看，能有这样一种东西是非常有意义的。不过，我想也许在你四处奔走的过程中——我知道你也在美国各地跑过。——嗯，尼尔斯，我是说，我觉得你提出了一个非常重要的点，我想这正是我们作为系统化投资者"
+    },
+    {
+      "i": 96,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "28:56",
+      "en": "live our life and the frequency that we live at is so different. Right. So for example, there's a really big difference between a person that says, my job over my whole life is the short bonds. I mean, that sounds terrible. Like that's really hard to do versus somebody who says, okay, well",
+      "zh": "……生活方式、以及我们所处的“频率”是如此不同。对吧。举个例子，一个人如果说“我这辈子的工作就是做空债券”——我是说，那听起来很糟糕，那真的很难做到——和另一个人说“好吧，那"
+    },
+    {
+      "i": 97,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "29:13",
+      "en": "we're going to short bonds while we see opportunities. And that's kind of what trend is trying to do. And we're not going to make that call with our own gut feelings. We're going to make that call based on what the data tells us. And, you know, in general, it hasn't always worked.",
+      "zh": "我们就在看到机会时做空债券”之间，有着非常大的差别。而这正是趋势试图做的事。我们不会凭自己的直觉来做那个判断，我们会基于数据告诉我们的东西来做判断。而且你知道，总体来说，它并非一直奏效。"
+    },
+    {
+      "i": 98,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "29:27",
+      "en": "It didn't work well at all whenever we shorted in most of the history of trend. And we got accused for having long ball bond bias. Remember that? For years. Oh, you just. Long bonds. That's where you work, you know, And I was like, no. But so I think the frequency matters so much because having investments",
+      "zh": "在趋势历史上的大部分时间里，每当我们做空时它效果都很差。我们还被指控有“做多债券偏见”（long bond bias）。记得吗？好多年都是。“哦，你就是……就是做多债券，那才是你赚钱的地方”，你知道。我就想：不是的。但所以我以为，频率如此重要，因为拥有"
+    },
+    {
+      "i": 99,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "29:45",
+      "en": "that react to changing environments and that don't have the bias allows you. And that goes into my discussion on crisis alpha. So you just kind of softballed this to me. But it's really, for me, it's a frequency thing. If bonds just go back to being absolutely lovely, Trend's going to be back long again. That's the way it works. Yeah.",
+      "zh": "能对变化的环境做出反应、又没有那种偏见的投资，才能让你……这就进入了我关于危机阿尔法的讨论。所以你其实是把这个“喂”给了我（softball）。但对我来说，这真的是一件关于“频率”的事。如果债券重新变得绝对可爱，趋势又会重新做多。它就是这么运作的。——是啊。"
+    },
+    {
+      "i": 100,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "30:08",
+      "en": "And by the way, last week I did, you know, I was with Andrew on the podcast and we did a full, I think a full pitch for trend following and managed futures in general, as unbiased as we could possibly be. But of course, one of the points was the crisis alpha. And I said, oh, how lucky.",
+      "zh": "顺便说一句，上周，你知道，我和Andrew（安德鲁）一起上了播客，我们尽可能不带偏见地、完整地——我想是一次完整的——为趋势跟踪和整体管理期货做了一次“推介”。当然，其中一个要点就是危机阿尔法。我当时说，“哦，多幸运啊。”"
+    },
+    {
+      "i": 101,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "30:27",
+      "en": "I have the queen of a crisis alpha coming on next week. But we need to, we need to move on. As much as I would like to stay in Copenhagen, we need to move on a little bit because there are two papers that we want to spend maybe the, the last half hour or so on.",
+      "zh": "“我下周就有‘危机阿尔法女王’要来做客了。”但我们得往下走了。尽管我很想一直待在哥本哈根，我们还是要往前推进一点，因为有两篇论文，我们想也许把最后半小时左右花在上面。"
+    },
+    {
+      "i": 102,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "30:45",
+      "en": "And, and of course they're related to what we're talking about, so maybe we'll just mix it all together. But let's focus now on the paper you found that came out recently from aqr. And I think what the paper does great is that one, it, it zooms out. It helps us kind of understand the history of inflation.",
+      "zh": "而且它们当然和我们正在聊的话题相关，所以也许我们就把它们全都揉在一起。不过现在先聚焦你找到的那篇最近出自AQR的论文。我觉得这篇论文做得很棒的地方在于：其一，它把视角拉远（zooms out），帮我们理解通胀的历史。"
+    },
+    {
+      "i": 103,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "31:09",
+      "en": "It helps us understand that there are different kinds of inflation, different courses to inflation. So I think it ties nicely into what we just talked about. And I, I would really love if you could kind of take us through. It's a long paper from memory, take us through the highlights.",
+      "zh": "它帮我们理解通胀有不同种类、不同成因。所以我觉得它和我们刚才聊的内容衔接得很好。我真的很希望你能带我们过一遍——凭记忆它是篇长文——带我们看看重点。"
+    },
+    {
+      "i": 104,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "31:27",
+      "en": "But let's spend a little bit of time because I think it sets us up nicely for the last paper, which is from our friends over at Quantica who published one of their quarterly pieces, which are really some of the best research we get in our industry. So maybe you can take us into the AQR theme first.",
+      "zh": "不过我们花点时间，因为我觉得它很好地为我们铺垫了最后一篇论文，那篇来自我们在Quantica的朋友，他们发布了季度研究中的一篇，这些真的是我们这个行业能得到的最好的研究之一。所以也许你可以先带我们进入AQR这个主题。"
+    },
+    {
+      "i": 105,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "31:48",
+      "en": "So, I mean, if it's okay with you, Niels? I think I want to give a slight motivation for why I wanted to talk about this paper. And I think that has to do with a reflection on crisis alpha itself. Would that be fine? So, you know, in the same presentation in Copenhagen, I don't",
+      "zh": "那么，我是说，如果你不介意的话，尼尔斯？我想稍微说明一下我为什么想谈这篇论文。我觉得这和一场关于危机阿尔法本身的反思有关。可以吗？所以，你知道，在哥本哈根的同一场演讲里，我不"
+    },
+    {
+      "i": 106,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "32:04",
+      "en": "want to go back to Copenhagen, but basically Christoph asked me to talk about crisis alpha. And if you look at the original definition of crisis alpha, it's really profit opportunities during periods of market stress. And so since I talked about geopolitical risk, you know, I think",
+      "zh": "想再回到哥本哈根，但基本上Christoph（克里斯托夫）请我讲危机阿尔法。如果你看危机阿尔法最初的定义，它其实就是“市场承压时期的获利机会”。所以既然我谈了地缘政治风险，你知道，我认为"
+    },
+    {
+      "i": 107,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "32:20",
+      "en": "the key question we have right now is today's stress is not the same as past stress. One of the main stressors is inflation. It is geopolitical risk. And in the original paper, the main idea is really you need to be unbiased, so be aware of your biases. You need to be opportunistic.",
+      "zh": "我们此刻的关键问题是：今天的压力与过去的压力并不相同。主要的压力源之一是通胀，是地缘政治风险。而在最初那篇论文里，核心理念其实是：你需要不带偏见，所以要意识到你自己的偏见；你需要机会主义（opportunistic），"
+    },
+    {
+      "i": 108,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "32:40",
+      "en": "So you need to kind of be able to think about things differently and find different things.",
+      "zh": "所以你需要能够以不同的方式去思考问题、去发现不同的东西。"
+    },
+    {
+      "i": 109,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "32:46",
+      "en": "And finally you need to be liquid, so you need to be able to move. And those are the three key things I focused on in crisis alpha. And so if you turn that to today's world and you turn to sort of what AQR is doing here, if you think about the typical framework a lot of investors have used us for, that's this rms, the, you",
+      "zh": "最后，你需要有流动性（liquid），所以你需要能够“动”。这就是我在危机阿尔法里聚焦的三个关键要素。那么如果你把它套到今天的世界、套到AQR在这里做的事情上——如果你想想很多投资者一直在用的那个典型框架，也就是RMS，那个，你"
+    },
+    {
+      "i": 110,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "33:07",
+      "en": "know, RMS framework, the first responders, second responders, third responders. So risk mitigation, for those who don't know the term rms, but risk mitigation,. Yeah, so they have a great paper about this. But risk mitigation, they have the first responders, so things that",
+      "zh": "知道，RMS框架：第一响应者（first responders）、第二响应者、第三响应者。也就是风险缓释（risk mitigation）——给那些不知道RMS这个术语的人解释一下——但风险缓释，对吧。——是啊。所以他们有一篇关于这个的精彩论文。但风险缓释里，他们有“第一响应者”，也就是那些"
+    },
+    {
+      "i": 111,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "33:20",
+      "en": "react immediately to a shock, then they have the second responders, which is trnd that kind of likes difficult environments and then diversifiers. And so if you look at that framework, risk mitigation, from a perspective of geopolitical risk as this threat, then you need first responders that react instantly to stress from inflation",
+      "zh": "对冲击立即做出反应的东西；然后是“第二响应者”，也就是趋势——它算是喜欢困难环境；再然后是分散化资产（diversifiers）。所以如果你从这个框架、从“风险缓释”出发，把地缘政治风险视为这一威胁，那么你需要能对来自通胀的压力瞬间做出反应的“第一响应者”，"
+    },
+    {
+      "i": 112,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "33:42",
+      "en": "and geopolitical risk, you need second responders that react to these type of risks in the month, you know, weeks to months. And then you need stuff that's robust to that. And that's why this paper was great, because basically they come in and say, we're going to look at inflation, but not just with one perspective.",
+      "zh": "以及地缘政治风险；你需要能在数周、数月内对这类风险做出反应的“第二响应者”；然后你还需要对这类风险有韧性（robust）的东西。这就是为什么这篇论文很棒，因为基本上他们进场就说：我们要研究通胀，但不只用单一视角。"
+    },
+    {
+      "i": 113,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "34:02",
+      "en": "We're going to look at inflation at different perspectives, both rising inflation, stable inflation, falling inflation. And we're going to look at multiple different strategies and try and understand what strategies and approaches and assets like different types of inflationary environments.",
+      "zh": "我们要从不同视角研究通胀：上升的通胀、稳定的通胀、下降的通胀。而且我们要研究多种不同的策略，试图理解哪些策略、方法和资产喜欢不同类型的通胀环境。"
+    },
+    {
+      "i": 114,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "34:21",
+      "en": "Because we can't just, just paint it with one brush. And so that's why it was. So, you know, this paper fits very nicely into that narrative. If you're thinking about protecting from different types of inflation, you need different types of responders, Right. And they show this in the paper and they talk a lot about,",
+      "zh": "因为我们不能只用一把刷子来刷（一刀切）。所以这就是为什么……你知道，这篇论文非常契合那个叙事。如果你在想如何防范不同类型的通胀，你就需要不同类型的“响应者”，对吧。他们在论文里展示了这一点，并且大量谈到，"
+    },
+    {
+      "i": 115,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "34:39",
+      "en": "you know, commodities, and they show how commodities really work when inflation is spiking, but maybe not in a deflationary and other environments. And of course, trend is the one strategy in here that is the most robust to and likes inflationary periods, including deflationary",
+      "zh": "你知道，大宗商品（commodities）——他们展示了当通胀飙升时大宗商品真的奏效，但在通缩及其他环境中也许就不行。当然，趋势是这里唯一一个对通胀期最有韧性、也最喜欢通胀期——包括通缩期——的策略，"
+    },
+    {
+      "i": 116,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "34:56",
+      "en": "periods, more than any of the other investments that they looked at. And many of the more classic investments like private equity equity, they were very vulnerable to an inflationary shock and changes in inflation. Yeah. So one question, and this is something I'm sure you've dealt with",
+      "zh": "比他们考察的任何其他投资都更甚。而很多更经典的投资，比如私募股权（private equity）、股票，它们对通胀冲击和通胀变化非常脆弱。——是啊。那么有一个问题，而这个我相信你已经处理过"
+    },
+    {
+      "i": 117,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "35:15",
+      "en": "many times, the paper, it basically is telling us that we should prepare for inflation without predicting it. Question is, from a narrative point of view, from the conversations that you have, how do we explain to an investor that they should get protection when they, as most people only really",
+      "zh": "很多次了：这篇论文基本上告诉我们，我们应该为通胀做好准备，而不去预测它。问题是，从叙事的角度、从你所进行的那些对话来看，我们要如何向投资者解释——他们应该去获得保护，尽管像大多数人一样，其实只有在他们感觉到“哦，是的，现在有必要了”时才真正"
+    },
+    {
+      "i": 118,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "35:43",
+      "en": "want to have protection when they feel, oh, yes, now it's necessary. And usually, as we know, it's after the event. And I mean, of course, we often say to people, what's like buying insurance, it's too late to buy it after the hurricane. And even if we have the very, very solid argument of showing based",
+      "zh": "想要保护。而且通常，如我们所知，那是在事件发生之后。我是说，当然，我们经常对人们讲那个类比：这就像买保险，飓风过后你再买就太晚了。而且即便我们有非常非常扎实的论据，用证据表明"
+    },
+    {
+      "i": 119,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "36:06",
+      "en": "on evidence that the insurance of trend doesn't even cost you money, you're going to make money from it over time. But those type of narratives have not worked as well as one would have hoped, perhaps. So how do we get over this explanation problem?",
+      "zh": "趋势这份“保险”其实并不花你的钱，长期来看你还能从中赚钱。但这类叙事的效果并没有像人们希望的那样好。所以我们要如何越过这个“解释难题”呢？"
+    },
+    {
+      "i": 120,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "36:24",
+      "en": "Well, this is, I mean, and we'll talk about the Quantica paper in a minute, because that's sort of the central problem that most investors have with holding these strategies. And that's why I tend to like to lean on the RMS or the risk mitigation approach, because if you understand the role of an investment",
+      "zh": "嗯，这个……我是说，我们待会儿会谈到Quantica那篇论文，因为那正是大多数投资者在持有这些策略时面临的核心问题。这也是为什么我倾向于依靠RMS、也就是风险缓释的方法，因为如果你理解一项投资"
+    },
+    {
+      "i": 121,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "36:44",
+      "en": "in your portfolio, you might have a higher chance of holding it. And if you combine it in a way where it's understood what its role is, then you can be more successful not to kind of have the adverse behavioral effects that many investors suffer from. And I think what this AQR paper does is it allows us to kind",
+      "zh": "在你组合里的角色，你也许就有更高的几率持有它。而如果你以一种“其角色被理解”的方式把它组合进去，那你就更能成功地避免很多投资者所遭受的那些不利的行为效应。我觉得这篇AQR论文所做的，就是让我们能够开始"
+    },
+    {
+      "i": 122,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "37:06",
+      "en": "of start thinking about what could be our diversifiers, what could be our first responders if we change the threat not to just equity drawdowns, but to inflation as a key risk, because we're holding a lot of bonds, for example, and even that we're holding equities can be vulnerable as well. If the shock is big enough.",
+      "zh": "思考：我们的分散化资产可以是什么？我们的“第一响应者”可以是什么？——如果我们把威胁从单纯的股票回撤改成“通胀这一关键风险”的话。因为我们持有大量债券，比如，甚至我们持有股票也可能是脆弱的，如果冲击足够大的话。"
+    },
+    {
+      "i": 123,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "37:26",
+      "en": "And so I think from my perspective, you solve that, or at least attempt to solve that problem by having the right framework and the right roles defined in your portfolio. Otherwise it becomes a numbers game. And that's where you end up with kind of leaning on the stuff that you understand and that you are biased to hold and you're",
+      "zh": "所以我认为，从我的角度看，你通过在你的组合中拥有正确的框架、界定正确的角色，来解决——或至少尝试解决——那个问题。否则它就变成一场“数字游戏”，那样你最终就会倾向于依赖那些你了解、你有偏见去持有的东西，而你"
+    },
+    {
+      "i": 124,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "37:51",
+      "en": "just less protected and you react actually after the fact, which is not the way to do it.",
+      "zh": "只是保护更少，而且实际上是在事后才做出反应，那不是正确的方式。"
+    },
+    {
+      "i": 125,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "37:58",
+      "en": "I mean, Andrew, who obviously comes at this slightly differently and not as long as you and I been doing it, but, but a fresh perspective is always useful. And one of the things he mentioned last week was that, well, we need new narrative, we need new language. Even though the seven or eight arguments we went through are exactly",
+      "zh": "我是说，Andrew显然从稍微不同的角度切入，做的年头也不像你和我这么久，但一个新鲜的视角总是有用的。他上周提到的一件事是：嗯，我们需要新的叙事、新的语言。尽管我们过了一遍的那七八个论据，和我1991年入行时"
+    },
+    {
+      "i": 126,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "38:20",
+      "en": "the same as they were when I started in this industry in 1991. So. But sometimes, if you say so, I wonder, I mean, are there, I have two questions. Are there certain things we should try and explain differently? I sometimes, for example, this is not strictly related to bonds, but I sometimes see people talk about annualized alpha that",
+      "zh": "完全一模一样。所以……但有时候，如果你这么说，我会想，我是说，有没有——我有两个问题。有没有某些东西我们应该试着用不同的方式去解释？我有时候，举个例子——这不严格和债券相关——但我有时看到人们谈论我们产生的“年化阿尔法”（annualized alpha），"
+    },
+    {
+      "i": 127,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "38:45",
+      "en": "we produce versus say the S&P 500. This is a little bit technical, takes into account correlations and stuff like that. So it's not just a straight comparison. And I've seen it a few times being used. Maybe we need to talk more in that lingo with people. The other thing that I saw in the AQR paper, they have this, they",
+      "zh": "拿它和标普500相比。这个有点技术含量，考虑了相关性之类的东西，所以它不是一个直接的比较。我见过它被用过几次。也许我们需要更多用那种行话（lingo）和人们沟通。我在AQR论文里看到的另一件事是，他们做了这些很棒的图表和对比，其中一个是图表6（Exhibit 6），"
+    },
+    {
+      "i": 128,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "39:07",
+      "en": "create these wonderful charts and comparisons and one of them is Exhibit 6 where they show sensitivities to changes in headline inflation and its components. And they show all these different strategies and, or assets for that matter, the 60, 40 treasuries, US equities, et cetera, et cetera.",
+      "zh": "他们展示了各种策略对整体通胀（headline inflation）及其分项变化的敏感度。他们展示了所有这些不同的策略、或者说资产——60/40、国债、美国股票等等等等。"
+    },
+    {
+      "i": 129,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "39:27",
+      "en": "And then of course they also have commodities, gold, price trend, economic trend, et cetera, et cetera. And they show how correlation to inflation changes, you know, across different types of components like headline inflation, core food, energy. And it is pretty clear to see that price trend is.",
+      "zh": "然后当然他们也有大宗商品、黄金、价格趋势（price trend）、经济趋势（economic trend）等等等等。他们展示了与通胀的相关性如何在不同类型的分项之间变化，比如整体通胀、核心、食品、能源。而且相当清楚可见的是，价格趋势是——"
+    },
+    {
+      "i": 130,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "39:52",
+      "en": "It looks pretty, pretty, you know, robust, but I guess long winded. On question, do we need to adopt new language? Maybe because we are in a new regime.",
+      "zh": "它看起来相当相当有韧性，不过我说得太啰嗦了。回到那个问题：我们是否需要采用新的语言？也许因为我们正处在一个新的机制（regime）之中。"
+    },
+    {
+      "i": 131,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "40:09",
+      "en": "I mean, I think we definitely do because, you know. And what is that language? I don't know yet. But I mean even the term crisis alpha, it's. It rubs people the wrong way sometimes. And I get that and that, you know, I'm just very think about the historical meaning of it. We were thinking about things when we went through the biggest",
+      "zh": "我是说，我觉得我们绝对需要，因为你懂。而那门语言是什么？我还不知道。但我是说，即便“危机阿尔法”这个词本身，它有时候也会让人听着别扭。我理解这一点，而且你知道，我只是非常……想到它历史上的含义。我们是在经历有史以来最严重的"
+    },
+    {
+      "i": 132,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "40:28",
+      "en": "global financial crisis ever. And that's why I agree. I mean, what Is the language. How do we talk about, you know, how do we talk about dealing with risks related to inflation today? And how do we think about strategies like trend? What is the right framework for talking about these so that people understand what they're trying to do?",
+      "zh": "全球金融危机时想到这些东西的。这就是为什么我同意。我是说，那门语言是什么？我们要如何谈论，你知道，如何谈论应对今天与通胀相关的风险？我们要如何看待像趋势这样的策略？谈论这些的正确框架是什么，好让人们理解他们想做的事？"
+    },
+    {
+      "i": 133,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "40:49",
+      "en": "It's still hard, right? Because, you know, I think the term opportunistic, I think terms like second responders are kind of an example of evolving language that we're using to try and explain to people. I mean, I'm a huge fan of that because I think any investor understands when there's an emergency that things happen. Right.",
+      "zh": "这仍然很难，对吧？因为你知道，我觉得“机会主义”（opportunistic）这个词，我觉得像“第二响应者”这类词，算是我们正在演化、用来向人们解释的语言的一个例子。我是说，我非常喜欢那种说法，因为我觉得任何投资者都懂：当出现紧急状况时，事情会发生。对吧。"
+    },
+    {
+      "i": 134,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "41:09",
+      "en": "So you have someone that shows up first and it seems to be your commodities when it's inflation. And then you have something that shows up second and that seems to be trend. Right. It kind of says, ooh, this is exciting. We like chaos. And then you have other stuff that says, you know, is immune to it or less reactive.",
+      "zh": "所以你有某个最先到场的人，而在通胀时那似乎是你的大宗商品。然后你有某个第二到场的人，那似乎是趋势。对吧。它有点像在说“哦，这真刺激，我们喜欢混乱”。然后你还有其他东西，可以说，对它有免疫力或反应较小。"
+    },
+    {
+      "i": 135,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "41:26",
+      "en": "And so I think that is a narrative that any investor can understand who's played on a basketball team or, you know, has dealt with a sort of a strategic, you know, defensive moment. You know, we understand who's going to kind of be there for us and. And who's not. And I think that language has been helping some investors, but",
+      "zh": "所以我觉得那是一个任何投资者都能理解的叙事——只要他打过篮球队，或者经历过某种战略性的、你知道的防守时刻。你知道，我们明白谁会为我们到场、谁不会。我觉得那门语言一直在帮助一些投资者，但"
+    },
+    {
+      "i": 136,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "41:45",
+      "en": "I think we have to keep looking for ways to explain this in a way so that investors know what to expect. If you know what to expect, you can properly hold on to those type of investments over time. Yeah. Now, because you start, we started out talking about geopolitical risks, one of the things that is kind of closely associated with",
+      "zh": "我觉得我们必须不断寻找方法去解释这件事，好让投资者知道该期待什么。如果你知道该期待什么，你就能随着时间推移正确地持有那类投资。——是啊。那么，因为我们一开始在谈地缘政治风险，有一件与之紧密相关的事情是，"
+    },
+    {
+      "i": 137,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "42:06",
+      "en": "this, and this started really from day one of the Ukrainian crisis. People are talking about scarcity in commodities. And I remember we had people like Peter Zion on the podcast talking about, oh, soon Airbus and Boeing can't produce any planes because there's not going to be enough aluminum coming, because Russia is being.",
+      "zh": "这真的从乌克兰危机的第一天就开始了。人们一直在谈论大宗商品的稀缺性。我记得我们请过像Peter Zeihan（彼得·蔡汉）这样的人上播客，谈论“哦，很快空客（Airbus）和波音（Boeing）就没法造飞机了，因为不会有足够的铝供应，因为俄罗斯正被……”"
+    },
+    {
+      "i": 138,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "42:26",
+      "en": "I mean, it didn't happen, but the idea of scarcity and the idea of commodities in particular, being quite vulnerable when you have geopolitical risks, as we see right now in. In energy and where that forces, let me put it, politically correct, certain policies being reversed in terms of who you",
+      "zh": "我是说，那并没有发生，但“稀缺性”这个概念、以及“大宗商品尤其在你有地缘政治风险时相当脆弱”这个概念——正如我们此刻在能源上看到的——以及它如何迫使某些政策被逆转（让我用政治正确的说法），也就是关于你"
+    },
+    {
+      "i": 139,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "42:50",
+      "en": "buy diesel from at a time where you think that that is not exactly what we had in mind. But how do. So I seen there's this new push for commodities. Oh, maybe we should just add commodities to our portfolio. Slightly late, but. Okay. But my understanding, and you may know more about this than I do",
+      "zh": "向谁买柴油，而在这个时点你觉得那并不完全符合我们原本的设想。那么怎么办呢？我看到有这股新的、对大宗商品的追捧。“哦，也许我们就该把大宗商品加进组合里。”稍微晚了点，但……好吧。不过我的理解是——你可能比我更懂——"
+    },
+    {
+      "i": 140,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "43:13",
+      "en": "from a research point of view, my understanding is, yeah, great, commodities can help, but they also have long, long periods where they really are drag on your portfolio. So how do you, how do you, if someone come to you and say, well, I'm considering trend following all commodities, which one should I pick?",
+      "zh": "从研究的角度看，我的理解是：是啊，很好，大宗商品能帮上忙，但它们也有很长很长的时期真的是你组合的拖累。所以，如果有人来找你说“嗯，我在考虑趋势跟踪或者大宗商品，我该选哪个？”，你会怎么做？"
+    },
+    {
+      "i": 141,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "43:32",
+      "en": "How would you explain the difference? Well, I mean, and I think this is why it's good we're talking about this AQR paper because they actually talk about that a little bit at the end of their paper where they look at, you know, commodities as just an idea does have that correlation.",
+      "zh": "你会如何解释其中的区别？——嗯，我是说，我觉得这正是我们谈这篇AQR论文的好处，因为他们确实在论文末尾稍微谈到了这一点：他们研究了，你知道，大宗商品仅仅作为一个“想法”确实有那种相关性。"
+    },
+    {
+      "i": 142,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "43:47",
+      "en": "But a passive allocation to commodities over time is not very good risk adjusted returns. So that's where you know, if you want commodity exposure, active commodity risk using different types of strategies, not just necessarily just trend. And they mentioned that in the paper as well as trend are two ways",
+      "zh": "但长期被动地配置大宗商品，其风险调整后回报并不是很好。所以，那里就是你——如果你想要大宗商品敞口，用不同策略去主动管理大宗商品风险，而不一定只是趋势。他们在论文里也提到，除了趋势之外还有两种方式，"
+    },
+    {
+      "i": 143,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "44:08",
+      "en": "that you could think about being a little better in terms of how you adapt to commodities. And think about it, it's very episodic. Right. 2014 was a fantastic year for commodities for us in the trend space. And then I guess 2022 and then you know, 2026. So those three years were great. But what about the other years?",
+      "zh": "可以让你在适应大宗商品方面做得更好一点。想想看，它是非常“阵发式”（episodic）的，对吧。2014年对我们趋势领域来说，是大宗商品的一个绝佳年份。然后我想是2022年，然后你知道，2026年。所以那三年很棒。但其他年份呢？"
+    },
+    {
+      "i": 144,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "44:28",
+      "en": "I think, and actually 2014, wasn't that on the short side of what was. On the short side? Yeah, exactly. It wouldn't have helped you dynamically. Yeah, you're right, it's, it's the short side. But. And actually 2020 was the short side also. Yeah, it was also a good year for short.",
+      "zh": "我想，而且其实2014年——那不是在做空那一侧吗？——做空那一侧？——是啊，正是。它不会动态地帮到你（多头）。——是啊，你说得对，是做空那一侧。不过，其实2020年也是做空那一侧。——是啊，那也是做空的好年份。"
+    },
+    {
+      "i": 145,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "44:43",
+      "en": "So that's where you see like the big years, either down or up are opportunity sets. And that's kind of what AQR is highlighting as well. It's like, yes, you get this correlation, so maybe you do want some of that, but maybe you should have someone manage that exposure so that it's not just a raw exposure like bonds.",
+      "zh": "所以那就是你会看到的：那些大涨或大跌的大年份，才是机会集（opportunity sets）。这也正是AQR在强调的。就是说，是的，你得到了这种相关性，所以也许你确实想要一些；但也许你应该让人来管理那个敞口，这样它就不只是像债券那样的“原始敞口”（raw exposure）。"
+    },
+    {
+      "i": 146,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "45:02",
+      "en": "Because here's the argument with bonds. Bonds as a risk mitigator, at least they give you positive carry in return. Right. If they're not as much of a safe haven, then you just have to find other stuff too. And I think that's the narrative that we're in right now is that the world was pretty simple stocks and bonds.",
+      "zh": "因为关于债券的论点是这样的：债券作为风险缓释工具，至少它们给你正的持有收益（carry）。对吧。如果它们不那么算避险资产了，那你就得去找别的东西。我觉得这就是我们此刻所处的叙事：世界曾经很简单——股票和债券。"
+    },
+    {
+      "i": 147,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "45:21",
+      "en": "Now you want to think about commodities. But, but commodities aren't bonds. They're not very safe, they're very volatile. They do have the correlation properties we like, but we need to manage them.",
+      "zh": "现在你想考虑大宗商品。但大宗商品不是债券，它们并不很安全，它们波动很大。它们确实有我们喜欢的相关性特征，但我们需要管理它们。"
+    },
+    {
+      "i": 148,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "45:33",
+      "en": "Otherwise we might end up with very extreme outcomes. Yes, and maybe just for a little bit of a disclaimer because a lot of people think oh, commodities, I can just buy an etf. But hold on, there are Some really, really challenging ways. Some of these ETFs are put together. It has to do with roll yields and all sorts of things that can",
+      "zh": "否则我们可能最终得到非常极端的结果。——是的。而且也许做个小小的免责声明，因为很多人会想“哦，大宗商品，我买只ETF就行了”。但且慢，有些ETF的构建方式真的非常有挑战性，涉及到展期收益（roll yields）和种种可能"
+    },
+    {
+      "i": 149,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "45:56",
+      "en": "really hurt actual performance. So just be super careful and ask an expert before you get into any of that. Now also, Niels, we should point out, and they do point out this in that a lot of the indices are very energy focused. So you might end up having a very undiversified commodity exposure if you buy even an index.",
+      "zh": "真正损害实际业绩的东西。所以千万要小心，在你涉足之前先问问专家。此外，尼尔斯，我们还应该指出——他们也确实指出了——很多这些指数非常集中于能源。所以即便你买的是指数，也可能得到一个非常不分散的大宗商品敞口。"
+    },
+    {
+      "i": 150,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "46:16",
+      "en": "So if you care about wheat, which was actually a big mover this summer, you're not going to have a lot of exposure to that.",
+      "zh": "所以如果你在意小麦——它其实是今年夏天一个大波动品种——你不会有太多这方面的敞口。"
+    },
+    {
+      "i": 151,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "46:27",
+      "en": "You and I know, and I think maybe a few thousands of the people listening to us today, they know that all roads leads to trend and. But, but there is a but it doesn't mean that just because you're a trend investor or CTA investor that you get the exact result that you're hoping for. And this is my intro to another wonderful paper from our",
+      "zh": "你和我都知道，而且我想今天在听的也许有几千人知道：条条大路通趋势。但……但是有个“但是”——这并不意味着仅仅因为你是个趋势投资者或CTA投资者，你就能得到你所期望的那个确切结果。而这就是我要引出我们……的另一篇精彩论文的开场，"
+    },
+    {
+      "i": 152,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "46:50",
+      "en": "friends here in Switzerland, Quantica and the team there who have put out their Q3 research paper called Paid for Presence and another wonderful, it's a long one from memory and there are even some formulas in it which is not my specialty. But anyways, there are some really important things we need to talk about here.",
+      "zh": "来自我们在瑞士的朋友Quantica及其团队，他们发布了第三季度研究论文，题为《为“在场”付费》（Paid for Presence）。又是一篇精彩的——凭记忆它是篇长文，里面甚至有些公式，那不是我的专长。但总之，这里有一些非常重要的东西我们需要谈。"
+    },
+    {
+      "i": 153,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "47:15",
+      "en": "And of course in a simple way it's a little bit about the usual saying about time in the markets and timing the markets. They're not exactly the same thing.",
+      "zh": "当然，用简单的话说，它多少和那句老话有关：“在市场里的时间”（time in the markets）与“择时市场”（timing the markets）——它们并不完全是一回事。"
+    },
+    {
+      "i": 154,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "47:28",
+      "en": "However, I would love for you to set the stage of what it's about and then I might have some follow up topics I would love for you to comment on. Yes, I mean I love this paper. I thought it was a very unique twist and way that they tried to calculate, you know, sort of the impact of, you know, investor",
+      "zh": "不过，我很想请你先把它的主题铺垫一下，然后我可能有一些后续话题想请你评论。——好的，我是说，我很喜欢这篇论文。我觉得他们尝试计算、你知道，投资者择时对长期业绩影响的方式，是一个非常有新意的角度。所以Quantica做得非常好，先是"
+    },
+    {
+      "i": 155,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "47:52",
+      "en": "timing on performance over long time horizons. And so Quantica does a really good job of first kind of looking at long term indices and trying to understand the capital flows. Right. And sort of what the dollar invested. So like if you put your money in here, how much did you actually get?",
+      "zh": "去看长期指数，试图理解资金流（capital flows），对吧。以及“投入的一美元”（dollar invested）到底怎样。也就是说，如果你把钱投进去，你实际拿到了多少？"
+    },
+    {
+      "i": 156,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "48:10",
+      "en": "And investors as, as a, as a rule, they also looked at individual funds versus sort of an aggregate index and trying to understand if this is a composite level or if that's a index level. And that was super interesting. And they looked at public versus private funds as well to try and understand that.",
+      "zh": "而投资者，作为一条规律——他们也考察了单个基金与整体指数，试图理解这到底是在复合（composite）层面还是在指数层面。那超级有意思。他们还考察了公募与私募基金，试图理解这一点。"
+    },
+    {
+      "i": 157,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "48:29",
+      "en": "So it was, it was a very thorough and interesting, with lots of equations. So I love that in there. But let me just start with their motivation and I thought this was really good. They started off with a Very simple explanation about performance and trend. And we often say this with the term episodic or punchy or like we",
+      "zh": "所以这是一篇非常详尽、有意思、还带大量公式的论文。我很喜欢里面这一点。不过让我先从他们的动机讲起，我觉得这一点非常好。他们从一个关于趋势业绩的非常简单解释开始。我们经常用“阵发式”（episodic）或“爆发型”（punchy）这样的词，就像我们"
+    },
+    {
+      "i": 158,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "48:52",
+      "en": "use those terms, right. They kind of highlighted that the average return and Trend was about 5.6% over a huge horizon. But they said if you took out the 20 largest months, and this is something equity investors know as well. Oh yeah, 20 largest months, you basically go to negative half a percent. Right? So what does that tell us?",
+      "zh": "用那些词，对吧。他们大致指出，趋势在很长跨度里的平均回报约为5.6%。但他们说，如果剔除掉涨幅最大的20个月——这一点股票投资者也很清楚。——哦是啊，20个最大的月份。——基本上你就会变成负0.5%。对吧？那么这告诉我们什么？"
+    },
+    {
+      "i": 159,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "49:15",
+      "en": "It tells us that, you know, there's these shocks where like Trin reacts well and like does really, really good and then sort of those dominate the overall performance of the strategy over long horizons. So it's these months like last month where shorting bonds was, you know, or recently shorting bonds was great, that really drive",
+      "zh": "它告诉我们，你知道，存在这样的冲击：趋势反应良好、表现真的真的很好，然后这些时刻就主导了策略在长期里的整体业绩。所以正是这些月份——比如上个月做空债券很棒，或者说最近做空债券很棒——真正驱动"
+    },
+    {
+      "i": 160,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "49:34",
+      "en": "our performance. So if you think about that from a timing perspective, it's not like there's a theme, it's really about these episodic events. And so if the strategy is like that, similar to something that's punchy, like we used to like to say as well, it's really about just holding it and waiting for the punches. Right.",
+      "zh": "我们的业绩。所以如果你从择时的角度想，它并不是说有一个“主题”，而真的是关于这些阵发性事件。所以如果策略是这样、类似于那种我们过去爱说的“爆发型”（punchy）的东西，那关键真的就是持有它、等待那些“重拳”。对吧。"
+    },
+    {
+      "i": 161,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "49:55",
+      "en": "And I think that's where the narrative is challenging because people think that they can predict when the big run up is going to come. And what we tend to see, and this is why the paper was so interesting, is they looked at the index and they showed that, you know, it was about 1.7% or I think it was around 4 something percent was",
+      "zh": "而我觉得，这正是叙事变得有挑战性的地方，因为人们以为他们能预测大涨何时到来。而我们往往看到的——这也是为什么这篇论文如此有意思——是他们看了指数，并展示了：你知道，大概是1.7%，或者我想是4%点几，"
+    },
+    {
+      "i": 162,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "50:18",
+      "en": "the typical dollar invested return versus 5.6. So that means that people are getting out at the bottom or after we underperform and then they're buying after we already performed. And then the challenge with the punji strategy is let's say you invest right at the end of 2022, when the strategy is up 20",
+      "zh": "是典型的“投入的一美元”回报，对比5.6%。这意味着人们在底部、或者在我们表现不佳之后撤出，然后在我们已经表现过之后再买入。而这种“爆发型”策略的挑战在于：假设你正好在2022年底投资，那时策略涨了20%"
+    },
+    {
+      "i": 163,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "50:39",
+      "en": "or 30%, then there's negative returns and then you get out before you have a big run up again. You end up with very adverse returns relative to the index and they show. And I think what was the most interesting to me who's looked at this topic a lot in the past, they showed that this effect was",
+      "zh": "或30%，然后就出现负回报，然后你在下一次大涨之前又撤出。你最终会得到相对指数非常不利的回报，他们展示了这一点。而我觉得最有意思的是——作为一个过去大量研究过这个话题的人——他们展示了这种效应在"
+    },
+    {
+      "i": 164,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "50:59",
+      "en": "much more present in public funds than in private funds.",
+      "zh": "公募基金中比在私募基金中要明显得多。"
+    },
+    {
+      "i": 165,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "51:05",
+      "en": "And that to me showed something that I've seen and talked about for a long time. When I talk to institutions that have RMS buckets or that have a trend follower for a long time, they know that it comes back and it goes through cycles. So they tend to kind of use more rebalancing strategies instead.",
+      "zh": "而对我来说，这印证了我长期以来看到并谈论过的一件事。当我和那些设有RMS“桶”（buckets）、或长期持有趋势跟踪者的机构交谈时，他们知道它会回来、会经历周期。所以他们倾向于更多使用再平衡（rebalancing）策略。"
+    },
+    {
+      "i": 166,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "51:26",
+      "en": "So, okay, we've made some money, let's rebalance into equities and when it's down, oh, it's going to come back at some point. So maybe we rebalance into it and that actually might even do better or the same than the index. And then what we see in terms of capital flows and they showed",
+      "zh": "也就是：“好，我们赚了些钱，那就再平衡回股票；当它下跌时，哦，它迟早会回来的，那也许我们再平衡买回来”——而那实际上可能做得比指数更好或持平。然后我们在资金流方面看到的——他们也展示了"
+    },
+    {
+      "i": 167,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "51:43",
+      "en": "this is people return chasing like we've seen in every type of fund.",
+      "zh": "——就是人们在追逐回报（return chasing），就像我们在每一类基金里都看到的那样。"
+    },
+    {
+      "i": 168,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "51:49",
+      "en": "So return chasing is a really negative, has negative, negative results and it reduces the overall impact of the trend allocation in someone's portfolio kind of naturally leads. Into the first thing I wanted to get your thoughts on and that is, is this trend following specific meaning? Is this the behavior you only see in trend and.",
+      "zh": "所以追逐回报是一种非常负面、有负面结果的行为，它会降低趋势配置在某人组合里的整体影响。这自然地引出了我想听听你看法的第一件事，那就是：这是趋势跟踪特有的吗？我是说，这是你只在趋势里看到的行为吗？"
+    },
+    {
+      "i": 169,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "52:14",
+      "en": "Or I don't even know if there is an and all here. But I mean part of the reason why people can time is because it's a super liquid strategy. I mean if you were in private equity, you couldn't time it because you're locked in. So how do you think about those two things? Is it something you see elsewhere or. And is it much?",
+      "zh": "或者说，我都不知道这里有没有一个“and all”（诸如此类）。但我是说，人们之所以能择时，部分原因是它是一种流动性极强的策略。我是说，如果你在私募股权里，你就没法择时，因为你被锁定了。所以你怎么看这两件事？这是你在别处也看到的吗？而且它是不是很大程度"
+    },
+    {
+      "i": 170,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "52:38",
+      "en": "Is it driven by liquidity really? Well, I think it goes back to anything that's not something that you're biased to hold long. We already talked about this. It's, you know, when you're used to stocks and bonds, when they underperform, you hold them right. Versus and you wait, you know, you kind of like, like don't give",
+      "zh": "上真的由流动性驱动？——嗯，我觉得这要回到“任何你没有偏见去长期持有的东西”。我们已经谈过这一点。你知道，当你习惯了股票和债券，当它们表现不佳时，你会持有它们，对吧。相比之下——你会等待，你知道，你有点像是不会"
+    },
+    {
+      "i": 171,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "52:59",
+      "en": "up on stocks because you're like what am I going to do instead? I don't know. So whereas I think with trend, you know, people tend to get excited when they see it's working, see that as a confirmation that it works. And then if they stay too short term, they end up not getting those data points that kind of confirm that narrative. Right.",
+      "zh": "放弃股票，因为你会想“那我还能干什么？我不知道”。所以，而对于趋势，我觉得人们往往在看到你，看到它奏效时会兴奋，把它当成“它有效”的确认。然后如果他们停留得太短期，他们最终就拿不到那些能确认那个叙事的数据点。对吧。"
+    },
+    {
+      "i": 172,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "53:20",
+      "en": "And so I think it's pretty much the case for any sort of more complex strategy out there that's liquid enough that you can actually trade it. Right. So you're right. Private equity, you don't get to see those numbers. You don't get to see when valuations would have been lower. And same thing with the liquid assets like real estate.",
+      "zh": "所以我觉得，对于市面上几乎任何一种更复杂、又流动到足以让你真正去交易的策略，情况都差不多。对吧。所以你说得对。私募股权，你看不到那些数字，你看不到估值什么时候本会更低。房地产这类非流动资产也一样。"
+    },
+    {
+      "i": 173,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "53:36",
+      "en": "You can't tell if your house is worth less. You could guess, but you don't know. So I think the fact that you can actively trade it is sort of a hindrance that it causes people to kind of be more focused on short term. And we know that people focus on recent events. So it's not surprising. Okay, I have a follow up question.",
+      "zh": "你没法判断你的房子是不是贬值了。你可以猜，但你不知道。所以我觉得，“你能主动交易它”这个事实，某种程度上反而是个障碍——它导致人们更聚焦于短期。而我们知道人们会聚焦于近期事件。所以这并不意外。——好，我有个后续问题。"
+    },
+    {
+      "i": 174,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "53:59",
+      "en": "I know you have a foot in both camps, so maybe you're the right person to ask. So one of the, again, pardon the pond trends we've seen in recent years is that our space have become kind of very liquid, liquid alts, ETFs, mutual funds, daily liquidity, usage funds for that matter.",
+      "zh": "我知道你两边都涉足，所以也许你是问这个问题的合适人选。近年来我们看到的又一股——请原谅我又说“趋势”——潮流是，我们这个领域变得非常有流动性：流动性另类（liquid alts）、ETF、共同基金、每日流动性，甚至UCITS基金。"
+    },
+    {
+      "i": 175,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "54:20",
+      "en": "That liquidity combined with the fact that those investors for the most part are anonymous to us, we don't know who actually buys these products.",
+      "zh": "那种流动性，再加上这样一个事实：那些投资者对我们来说基本上是匿名的，我们不知道到底是谁在买这些产品。"
+    },
+    {
+      "i": 176,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "54:33",
+      "en": "We know at least I feel from my experience that when things are good, performance is strong. That's not a problem. People are not going to sell it, but. And you never hear from the investors anyway. But when things are tough, that's exactly where we get paid to do our job. And that is to help people hold on and understand that everything",
+      "zh": "我们知道——至少凭我的经验感觉到——当情况好、业绩强劲时，那不是问题。人们不会卖掉它，而且你反正也听不到投资者的声音。但当情况艰难时，那恰恰是我们“拿钱办事”的地方，也就是帮助人们坚持持有、理解一切"
+    },
+    {
+      "i": 177,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "54:58",
+      "en": "is fine and that they just need to sit tight and stick with it. You can't do that if your investor is anonymous. And given the fact that we're now giving them products where they can even trade intraday, their trend product, that could be not necessarily a great combination for our space.",
+      "zh": "都没问题，他们只需要坐稳、坚持下去。如果你的投资者是匿名的，你就没法这么做。而鉴于我们现在给他们的产品甚至能让他们日内（intraday）交易他们的趋势产品，考虑到"
+    },
+    {
+      "i": 178,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "55:18",
+      "en": "Given everything we've talked about so far and the important, and given what Quantica is concluding the importance of actually holding on to these strategies.",
+      "zh": "我们目前为止谈到的一切，以及Quantica得出的结论——真正持有这些策略的重要性——这可能对我们这个领域来说未必是个很好的组合。"
+    },
+    {
+      "i": 179,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "55:30",
+      "en": "How do you think about that? So, you know, I've thought about this question because you asked me this question before, especially thinking about the ETF space and being a participant there and sort of the lack of transparency into who your client is, know your client. But I do think this means that it's even more important that we",
+      "zh": "你怎么看这一点？——所以你知道，我思考过这个问题，因为你以前也问过我，尤其是想到ETF领域、并作为其中的参与者，以及那种“不知道你的客户是谁”（know your client）的透明度缺失。但我确实认为，这意味着“沟通”变得更加重要，因为"
+    },
+    {
+      "i": 180,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "55:51",
+      "en": "communicate because the onus of that conversation has now been passed on to sort of model portfolio builders or those that might have the ability to actually have those conversations. So I don't think that it means that the conversation isn't happening. I just think that the conversation is moved.",
+      "zh": "那场对话的责任如今被转交给了模型组合（model portfolio）的构建者，或那些真正有能力进行这些对话的人。所以我不认为这意味着对话没有发生，我只是认为对话被“转移”了。"
+    },
+    {
+      "i": 181,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "56:12",
+      "en": "And so it means that it's even more important for us to provide the information to those, those that are attempting to kind of help people hold on to managed futures. And I think what we're seeing is, and this is where my hope runs with model portfolio design and also investors that are going",
+      "zh": "所以这意味着，对我们而言，向那些试图帮助人们坚持持有管理期货的人提供信息，变得更加重要。而我觉得我们正在看到的——这也是我寄希望于的地方——是模型组合的设计，以及那些将要"
+    },
+    {
+      "i": 182,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "56:33",
+      "en": "to create a framework similar to the RMS that I talked about before, where you have a model portfolio that is designed specifically with a specific goal that perhaps includes managed futures in with other alternatives so it becomes less of a line item in their portfolio. And it's really the firms that are providing those model portfolios,",
+      "zh": "创建一个类似我之前谈到的RMS框架的投资者：你有一个模型组合，专为某个特定目标而设计，也许把管理期货和其他另类资产一起纳入，这样它就不再是他们组合里一个孤立的“条目”。而真正提供那些模型组合的公司，"
+    },
+    {
+      "i": 183,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "56:56",
+      "en": "similar to the consultants in the institutional space that need to kind of need to help with that narrative. And I think, you know, it's true for every alt, not just managed futures. Right. So I think that is where the conversation is happening. But it's just not directly coming to us, which is, you know, you lose that control.",
+      "zh": "就像机构领域里的顾问（consultants）一样，需要在叙事上提供帮助。而且我觉得，你知道，这对每一种另类资产都成立，不只是管理期货。对吧。所以我认为对话就发生在那里，只是它不是直接来到我们这里，而这，你知道，你就失去了那种掌控。"
+    },
+    {
+      "i": 184,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "57:18",
+      "en": "And I agree with that. Yeah. Okay, so I'm gonna try and, and put two thoughts into one question for you.",
+      "zh": "我同意这一点。——是啊。好，那我要试着把两个想法揉进一个问给你的问题里。"
+    },
+    {
+      "i": 185,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "57:25",
+      "en": "And, and that is if we think about the difficulty of holding on to trend following from a psychological point of view, is that different from the difficulty of holding onto it within a, let's call it an institutional investment process point of view? I think these are two slightly different things because institutions,",
+      "zh": "那就是：如果我们从心理角度思考“坚持持有趋势跟踪”的难度，它和在一个——我们就叫它“机构投资流程”的角度——坚持持有它的难度，是不同的吗？我觉得这是两件略微不同的事，因为机构"
+    },
+    {
+      "i": 186,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "57:55",
+      "en": "for the most part, they do understand the diversification benefit and all of that. And I guess following on to that, does this tell us anything about quote, unquote, performance chasing versus let's call it institutional decision making, so to speak? Do you know what I'm trying to.",
+      "zh": "在很大程度上，他们确实理解分散化好处以及诸如此类的东西。而且我想顺着这点问：这有没有告诉我们一些关于所谓“追逐业绩”（performance chasing）与所谓“机构决策”之间的东西？你明白我想说……"
+    },
+    {
+      "i": 187,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "58:15",
+      "en": "Yeah, I mean, so it's interesting you're asking that question because I think a lot of decision making is about, you know, detaching the short term emotion from the decision making and the advantage that institutions have. It's both an advantage and also some of them, that's why they're thinking about total portfolio approach.",
+      "zh": "——是啊，我是说，你问这个问题很有意思，因为我觉得很多决策都关乎把短期的情绪从决策中剥离出来，而机构拥有的优势——它既是优势，也是……其中一些机构之所以在考虑总组合方法的原因。"
+    },
+    {
+      "i": 188,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "58:33",
+      "en": "It's also a constraint for them in some sense too. They can't react very easily to anything. And even us as systematic investors, we have a process so we can't react based on our emotions in a daily basis. And so I think for the institutional space, the challenger is just a little different. Right.",
+      "zh": "对它们而言这在某种意义上也是一种约束。它们没法轻易对任何事情做出反应。而且即便是我们作为系统化投资者，我们也有一套流程，所以我们没法基于每天的情绪去反应。所以我觉得对机构领域来说，挑战只是稍微不同。对吧。"
+    },
+    {
+      "i": 189,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "58:50",
+      "en": "Maybe it's a new CIO change or some sort of other shock that causes those type of re evaluation or change in board, you know, constituency change in consultant that also causes sometimes change and causes institutions to make decisions. But I think you're right in that the frequency that you have",
+      "zh": "也许是一次新的CIO（首席投资官）变更，或某种其他冲击，导致了那类重新评估；或者是董事会构成的变化、顾问的变化，那有时也会导致变化、导致机构做出决策。但我觉得你说得对：你能够"
+    },
+    {
+      "i": 190,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "59:12",
+      "en": "access to those decisions can increase the probability of adverse decisions. And that's exactly what day trading research tells us. Right. So if you allow people to day trade, they, they tend to make more mistakes and more sudden emotional decisions. So the more that we can kind of slow down that process in any",
+      "zh": "接触到那些决策的频率，会增加不利决策的概率。而这恰恰是日内交易（day trading）研究告诉我们的。对吧。所以如果你允许人们做日内交易，他们往往会犯更多错误、做出更多突然的情绪化决策。所以，我们越能以任何方式"
+    },
+    {
+      "i": 191,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "59:34",
+      "en": "way, the better the results will be. And I think the positive of model portfolios, let's say for the retail space, because the truth is people need diversification. Right, Neil, So how do we get it to them? And I think they need to be in liquid vehicles so they can actually access them. Right.",
+      "zh": "放慢那个流程，结果就会越好。而我觉得模型组合的好处在于——比如说对零售领域——因为事实是人们需要分散化，对吧，尼尔斯。那我们要怎么把它给到他们？而且我觉得他们需要处在流动的工具里，才能真正接触到它们。对吧。"
+    },
+    {
+      "i": 192,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "59:53",
+      "en": "But secondly then they need to be packaged in such a way that they, you know, they, they are not as amenable to sort of short term recency bias. Yeah. Let me, I've got two more questions I want to put to you.",
+      "zh": "但其次，它们需要以一种方式被打包，使它们，你知道，不那么容易受到短期近因偏见的影响。——是啊。让我，我还有两个问题想问你。"
+    },
+    {
+      "i": 193,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "60:10",
+      "en": "If you were a member of a institutional investment board, investment Committee, however we call it.",
+      "zh": "如果你是机构投资董事会、投资委员会——不管我们怎么称呼它——的一员。"
+    },
+    {
+      "i": 194,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "60:18",
+      "en": "Can you, can you think of a process structure maybe of how you would go about kind of creating a structure or process that enabled you to invest in trend following, but actually also hold onto it in the long run? I mean, is there something that they could build around that particular allocation that would prevent them from being involved",
+      "zh": "你能不能想出一种流程或结构，也许是你将如何着手创建一种结构或流程，让你能够投资于趋势跟踪，但又能真正长期持有它？我是说，有没有什么东西，他们可以围绕那笔特定配置去搭建，从而防止自己卷入"
+    },
+    {
+      "i": 195,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "60:49",
+      "en": "in too many short term decisions?",
+      "zh": "太多短期决策？"
+    },
+    {
+      "i": 196,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "60:53",
+      "en": "Well, I mean, I think that is what has been the success. Because if you think about any sort of institutional process, they have target portfolios, they have benchmarks, and it's really about creating an understanding to the board and to the investment team what the expectations are, what the role is",
+      "zh": "嗯，我是说，我觉得那正是成功所在。因为如果你想想任何机构流程，他们都有目标组合（target portfolios）、有基准（benchmarks），而关键真的在于让董事会和投资团队理解预期是什么、角色是什么，"
+    },
+    {
+      "i": 197,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "61:14",
+      "en": "and sort of appropriate benchmarks and relative to long term expectations. I mean, just even understanding the simple concept that like Quanica said, 20 months made up most of the performance of trend over these years, so we gotta hold on for those months is already something that if somebody understands that then they",
+      "zh": "以及合适的基准、相对于长期预期。我是说，哪怕只是理解Quantica所说的那个简单概念——20个月构成了这些年趋势业绩的大部分，所以我们必须为那些月份坚持持有——如果某人理解了这一点，那他们"
+    },
+    {
+      "i": 198,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "61:38",
+      "en": "have a higher chance of holding it. It doesn't mean that they won't start questioning it when it's not working, which we always see. So I think it's really a question of having the right role, having the right to set the right expectations and the right understanding about the strategy so that someone can actually",
+      "zh": "就有更高的几率持有它。这并不意味着当它不奏效时他们不会开始质疑它——我们总是看到这种情况。所以我觉得这真的是一个“拥有正确角色、设定正确预期、对策略有正确理解”的问题，好让某人能够真正"
+    },
+    {
+      "i": 199,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "61:58",
+      "en": "hold on to the allocation. Yeah, final question.",
+      "zh": "坚持持有那笔配置。——是啊。最后一个问题。"
+    },
+    {
+      "i": 200,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "62:03",
+      "en": "Sometimes it's all about the packaging, right?",
+      "zh": "有时候，这一切都关乎“包装”（packaging），对吧？"
+    },
+    {
+      "i": 201,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "62:07",
+      "en": "And another quote, unquote trend that we've seen in recent years, even though it's not a new one. Let me say that, and this might go back to this, creating a structure whereby people could hold on to it. Is the portable alpha product. I mean, is it, does it really help if we can combine trend with",
+      "zh": "还有另一个近年来我们看到的所谓“趋势”——尽管它并不是一个新的——让我这么说，而这也许能回到“创建一个让人们能坚持持有它的结构”这件事：那就是便携式阿尔法（portable alpha）产品。我是说，如果我们能把趋势和"
+    },
+    {
+      "i": 202,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "62:31",
+      "en": "something else as we've seen Corey and his team have lots of success with. Is that the solution? I mean, we just simply pair it so it doesn't show up as volatile as it does individually. And that's the way we give the vitamin with the candy or whatever the analogy is. Oh, that's a good analogy for that. Yeah.",
+      "zh": "别的东西结合起来——就像我们见过Corey（科里）和他的团队取得很大成功那样——真的有帮助吗？那是解决方案吗？我是说，我们就干脆把它配对，这样它就不会像单独持有时那样显得波动大。那就是我们“把维生素混进糖果里”的方式，或者不管那个类比是什么。——哦，那是个很好的类比。是啊。"
+    },
+    {
+      "i": 203,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "62:55",
+      "en": "No, I mean it's not the solution for everyone, right? I mean it's the solution for some because I think the challenge is that if you really are amenable to following equity performance and you need that in your portfolio, but you need the diversification, but you can't hold it separately, then actually it makes",
+      "zh": "不，我是说，它不是对每个人的解决方案，对吧？我是说，它是对某些人的解决方案，因为我觉得挑战在于：如果你真的愿意跟随股票业绩、你的组合里需要它，但你需要分散化，又没法单独持有它，那么把"
+    },
+    {
+      "i": 204,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "63:17",
+      "en": "a lot of sense to combine equities with trend. And what I will also point out, and I mentioned this in rebalancing and some of it, we even did some studies on this, this even back in our, in my book with Alex, this idea of, you know, buying the dip or rebalancing a strategy for trend with equities actually works reasonably well.",
+      "zh": "股票和趋势结合起来其实非常合理。我还要指出——我在再平衡里也提到过，其中一些我们甚至做过研究，甚至早在我那本和Alex（亚历克斯）合著的书里——这个想法：你知道，“逢低买入”，或者把趋势和股票一起做再平衡，其实效果相当不错。"
+    },
+    {
+      "i": 205,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "63:37",
+      "en": "So there are some sort of cohesive portfolio characteristics between equities and trend that you can combine. Because I got that question from people as well. Well, why are we going to have equities and trend? We can just buy both. And I said, well, if you put them together, then you can manage them together.",
+      "zh": "所以股票和趋势之间有一些“内聚的”组合特征，你可以把它们组合起来。因为我也从人们那里得到过这个问题：“那为什么我们要分别持有股票和趋势？我们两个都买不就行了。”我说：“嗯，如果你把它们放在一起，你就能一起管理它们。”"
+    },
+    {
+      "i": 206,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "63:54",
+      "en": "And so there are some benefits to that. But I think the primary benefit is for investors that want and need equity like returns, but have limited diversification in a world where inflation and other threats are real, particularly to their bond portfolios. If they can buy and hold an investment like that better than",
+      "zh": "所以那样是有一些好处的。但我觉得主要的好处，是面向那些想要并需要“类股票”回报、但分散化有限的投资者——在一个通胀和其他威胁都真实存在的世界里，尤其是对他们的债券组合而言。如果他们能买入并持有一个那样的投资，比"
+    },
+    {
+      "i": 207,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "64:14",
+      "en": "they can just holding trend alone, which we've seen from the Quantica paper that some people can't, then that is a product for that type of investor and they do reasonably well. They underperform equities sometimes when equities are up, but they're still up, and then they have that protection, that trend",
+      "zh": "他们单纯持有趋势要好——我们从Quantica那篇论文看到有些人做不到——那么那就是为那类投资者打造的产品，而且它们表现相当不错。当股票上涨时它们有时跑输股票，但它们仍是上涨的，然后它们拥有那份保护，也就是趋势"
+    },
+    {
+      "i": 208,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "64:33",
+      "en": "helps them not do as badly when equities are down. So I think that it's kind of a more. It's a packaged way for them to kind of hold the strategy in some sense. Yeah, I mean, we started out our conversation an hour ago talking about bonds and the love of bonds.",
+      "zh": "帮助它们在股票下跌时不至于跌得那么惨。所以我觉得这是一种……是一种“打包”的方式，让他们在某种意义上持有这个策略。——是啊，我是说，我们一个小时前开始这段对话时，谈的就是债券和对债券的热爱。"
+    },
+    {
+      "i": 209,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "64:55",
+      "en": "So maybe we shouldn't always think about portable alpha products being equities plus trend. Maybe we should really start thinking about bonds plus trend as well.",
+      "zh": "所以也许我们不该总是把便携式阿尔法产品想成“股票加趋势”。也许我们真的应该开始考虑“债券加趋势”了。"
+    },
+    {
+      "i": 210,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "65:07",
+      "en": "Final point.",
+      "zh": "最后一点。"
+    },
+    {
+      "i": 211,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "65:09",
+      "en": "You mentioned your own and Alex's wonderful book on trend following, a book that everybody should have on their bookshelf. But I also want to just say thank you for taking the time to read the upcoming book that I wrote with Richard Brennan. We're super excited about it. The process has taken so long.",
+      "zh": "你提到了你自己和Alex那本关于趋势跟踪的精彩著作，一本每个人都该放在书架上的书。但我也想说的是，谢谢你有时间去读我即将出版的、和Richard Brennan（理查德·布伦南）合写的书。我们对此超级兴奋。这个过程花了太长时间。"
+    },
+    {
+      "i": 212,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "65:29",
+      "en": "You know all about that, but I think maybe, hopefully we're down to the point about deciding about a font that they should use in the book. So I hope this is the final stretch. I don't think we can take much more of this detailed work, but hopefully it'll be out. Excited about that.",
+      "zh": "你对此了如指掌，但我想也许，希望我们已经到了“决定书里该用什么字体”这一步。所以我希望这是最后冲刺阶段了。我觉得我们没法再承受更多这种细节工作了，但希望它会出版。为此兴奋。"
+    },
+    {
+      "i": 213,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "65:48",
+      "en": "You'll have to sort of get a real copy too, because I love that. Yeah, no, absolutely. Well, at least you. You've had one of, of maybe only five people in the world had a chance to, to read it. And, and, and since we're still talking, I'm. I'm thinking you might, you might have enjoyed it. I don't know. We'll see. It was great.",
+      "zh": "你也得弄一本实体书，因为我很喜欢那个。——是啊，不，绝对的。嗯，至少你……你是全世界也许只有五个人里有幸读到它的人之一。而且既然我们还在聊，我就……我就想，你也许、你也许还挺喜欢它的。我不知道。走着瞧。它很棒。"
+    },
+    {
+      "i": 214,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "66:05",
+      "en": "I'm looking forward to getting a copy too. So like a physical copy so I can show it off. Like look at this. Absolutely, absolutely. Anyways, it's and by the way I should start. I mean probably not good enough about these things, but we should start plucking it so that we can get most people buying it when it comes out.",
+      "zh": "我也期待弄到一本。所以要一本实体书，好让我可以炫耀，就像“看看这个”。——绝对的，绝对的。总之，顺便说一句，我应该开始……我是说，我在这些事情上大概做得不够好，但我们应该开始“推销”（plug）它，好让尽可能多的人在它出版时买它。"
+    },
+    {
+      "i": 215,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "66:22",
+      "en": "But it is called or will be called the Trend Following Manifesto. So anyways we'll tease it more as we get closer. Anyways, this was wonderful Katie. Just as great as it always is. So thank you so much for the prep work and for despite all your heavy traveling, being fully engaged and alive on this early morning in Boston for you.",
+      "zh": "但它叫——或者说将会叫——《趋势跟踪宣言》（The Trend Following Manifesto）。所以总之，等临近时我们会更多地预告它。总之，这期太棒了，凯蒂。一如既往地精彩。所以非常感谢你所做的准备工作，也感谢你在繁重的旅行之余，为了你这边波士顿的清晨，还如此全情投入、精力充沛。"
+    },
+    {
+      "i": 216,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "66:46",
+      "en": "So thank you so much. To show your appreciation for Katie and all the other wonderful co hosts, please go to your favorite podcast platform, leave a rating and review. That's the best way to show that you appreciate the work that they put in every single week. Next week I will be joined by Mark and that would be your chance",
+      "zh": "所以非常感谢。要表达你对凯蒂以及所有其他精彩联合主持人的欣赏，请去你最喜欢的播客平台，留下评分和评论。那是表明你欣赏他们每周付出工作的最好方式。下周我将与Mark（马克）一起，那会是你"
+    },
+    {
+      "i": 217,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "67:07",
+      "en": "to get him to tackle some of your questions. So feel free as usual to email them to me. The email is infoptraders unplugged.com and I will do my very best to get them answered. Anyways, from Katie and me, thank you ever so much for listening. We look forward to being back with you next week.",
+      "zh": "让他解答你一些问题的机会。所以请一如既往地随时把问题发邮件给我。邮箱是 info@toptradersunplugged.com，我会尽全力让它们得到解答。总之，代表凯蒂和我，非常感谢你们的收听。我们期待下周再回来与你们相见。"
+    },
+    {
+      "i": 218,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "67:24",
+      "en": "And until next time, as usual, take care of yourself and take care of each other.",
+      "zh": "而在下次之前，一如往常，照顾好你自己，也照顾好彼此。"
+    },
+    {
+      "i": 219,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "67:31",
+      "en": "Thanks for listening to Top Traders Unplugged. If you feel you learned something something of value from today's episode, the best way to stay updated is to go on over to your favorite podcast platform and follow the show so that you'll be sure to get all the new episodes as they're released.",
+      "zh": "感谢收听《顶级交易员揭秘》（Top Traders Unplugged）。如果你觉得从今天的节目中学到了有价值的东西，保持更新的最好方式就是去你最喜欢的播客平台关注本节目，这样你就能确保在新剧集发布时全部收到。"
+    },
+    {
+      "i": 220,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "67:45",
+      "en": "We have some amazing guests lined up for you, and to ensure our show continues to grow, please leave us an honest rating and review. It only takes a minute and it's the best way to show us you love the podcast. We'll see you next time on Top Traders Unplugged. This podcast expresses the greatest the views of its hosts and",
+      "zh": "我们为你准备了一些了不起的嘉宾，而为了确保我们的节目持续成长，请给我们留下一个真诚的评分和评论。这只需一分钟，也是向我们表明你喜爱这个播客的最好方式。下次在《顶级交易员揭秘》再见。本播客表达的是其主持人及"
+    },
+    {
+      "i": 221,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "68:01",
+      "en": "the guests appearing on the podcast as of the date of its recording, and such views are subject to change without notice. Top Traders Unplugged do not have any duty or obligation to update the information contained herein. Furthermore, Top Traders Unplugged make no representation",
+      "zh": "参与节目的嘉宾在录制当日的观点，且此类观点可能在不另行通知的情况下发生变化。《顶级交易员揭秘》不承担更新此处所含信息的任何责任或义务。此外，《顶级交易员揭秘》不对其准确性"
+    },
+    {
+      "i": 222,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "68:12",
+      "en": "to its accuracy and it shall not be assumed that past investment performance is an indication of future results. Moreover, wherever there is a potential for profit, there is also the possibility of loss. This content is made available for educational purposes only and should not be used for any other purpose.",
+      "zh": "作任何陈述，且不应假定过去的投资业绩是未来结果的指示。此外，凡存在获利可能之处，也存在亏损的可能。本内容仅为教育目的而提供，不应用于任何其他目的。"
+    },
+    {
+      "i": 223,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "68:25",
+      "en": "The information contained in this podcast does not constitute and should not be construed as investment advice or an offer to sell or a solicitation to buy any securities or related financial instruments in any jurisdiction. Certain information contained herein concerning economic trends",
+      "zh": "本播客所含信息不构成、也不应被解释为投资建议，或出售任何证券或相关金融工具的要约、或在任何司法辖区购买该等证券或工具的招揽。此处所含有关经济趋势"
+    },
+    {
+      "i": 224,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "68:38",
+      "en": "and performance is based on or derived from information provided by independent third party sources. Top Traders Unplugged may believe that the sources from which such information are obtained are reliable. However, Top Traders Unplugged cannot guarantee the accuracy of such information and has not independently verified the accuracy",
+      "zh": "和业绩的某些信息，是基于或源自独立第三方来源提供的信息。《顶级交易员揭秘》可能相信获取此类信息的来源是可靠的。然而，《顶级交易员揭秘》无法保证此类信息的准确性，也未独立核实此类信息的准确性"
+    },
+    {
+      "i": 225,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "68:51",
+      "en": "or completeness of such information or the assumptions on which such information is based. This podcast, including the information contained herein, may not be reproduced, copied, republished, or posted, in whole or in part, in any form, without the prior written consent of Top Traders Unplugged.",
+      "zh": "或完整性，或此类信息所依据的假设。本播客（包括此处所含信息）未经《顶级交易员揭秘》事先书面同意，不得以任何形式全部或部分复制、拷贝、重新发布或张贴。"
+    }
+  ]
+}
