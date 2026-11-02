@@ -1,0 +1,1408 @@
+{
+  "show": "money-stuff",
+  "kind": "transcript",
+  "id": "347286866",
+  "guid": "d48864e5-24e3-4186-b8de-b4de00f38870",
+  "slug": "2026-10-09-jeremy-maletz-347286866",
+  "date": "2026-10-09",
+  "title_en": "Jeremy Maletz",
+  "title_zh": "Jeremy Maletz：从山羊对冲到数据中心风险——Susquehanna 的预测市场生意",
+  "subtitle_zh": "《Money Stuff》主播 Matt Levine 对话 Susquehanna International Group 宏观交易与预测市场主管 Jeremy Maletz：体育博彩之外的预测市场，给加州牧羊人的法律风险做场外大宗对冲、成交在 Kalshi 上的三方合约、机构风险对冲的定价与相关性难题，以及数据中心禁建令与 OpenAI 破产风险这块数千亿美元尚未被覆盖的市场。",
+  "description": "Jeremy Maletz",
+  "duration": "54:25",
+  "duration_seconds": 3265,
+  "episode_url": "https://www.iheart.com/podcast/1308-money-stuff-the-podcast-164725399/episode/jeremy-maletz-347286866",
+  "audio_url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/ee4336cb-155f-4488-90e0-b1400134e40e/d48864e5-24e3-4186-b8de-b4de00f38870/audio.mp3?utm_source=Podcast&in_playlist=77e6a3a7-290d-4a82-8164-b14001353ef2&source=iheart",
+  "speakers": {
+    "1": "Matt Levine（主持）",
+    "2": "Jeremy Maletz（嘉宾）",
+    "3": "Bloomberg Audio Studios（旁白）"
+  },
+  "turn_count": 173,
+  "turns": [
+    {
+      "i": 0,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "00:03",
+      "en": "Bloomberg Audio Studios.",
+      "zh": "彭博音频工作室（Bloomberg Audio Studios）。"
+    },
+    {
+      "i": 1,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "00:05",
+      "en": "Podcasts.",
+      "zh": "播客。"
+    },
+    {
+      "i": 2,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "00:06",
+      "en": "Radio.",
+      "zh": "电台。"
+    },
+    {
+      "i": 3,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "00:07",
+      "en": "News.",
+      "zh": "新闻。"
+    },
+    {
+      "i": 4,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "00:09",
+      "en": "Hello and welcome to the Money Stuff Podcast. I'm Matt Levine. I write the Money Stuff column for Bloomberg Opinion. And today we have a guest, who's Jeremy Mallitz, who is the head of goat markets at Susquehanna International Group.",
+      "zh": "大家好，欢迎收听《Money Stuff》播客。我是 Matt Levine，为彭博观点（Bloomberg Opinion）撰写《Money Stuff》专栏。今天我们请来了一位嘉宾——Jeremy Maletz，他是 Susquehanna International Group（海纳国际集团）的“山羊市场”主管。"
+    },
+    {
+      "i": 5,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "00:23",
+      "en": "You could say that. Generally goes a little better on business cards if you say head of prediction markets, but goat markets works too. Head of prediction markets. I've been head of macro for a long time at Susquehanna. And in a lot of ways, the prediction markets kind of grew out of that because as head of macro, we had quite a bit of focus around elections during election years. We got involved in trading the election over in Europe where you could trade their prediction market style contracts on say Betfair. And we would also use some of the products that exist, say like predicted, even if you can't trade on it for informational purposes. So I'd known about it for a long time. The macro kind of transitioned into the prediction markets, which started out as a side project and now is a very large business for us.",
+      "zh": "你可以这么说。一般来说，名片上印“预测市场主管”会更体面一点，不过“山羊市场”也凑合。预测市场主管。我在 Susquehanna 做宏观主管已经很多年了。而从很多方面看，预测市场业务正是从宏观这块长出来的——因为作为宏观主管，每逢选举年我们都会把相当多的精力放在选举上。我们参与过在欧洲交易选举，在那里你可以交易类似预测市场式的合约，比如 Betfair 上的。我们也会用一些已有的产品，比如 Polymarket，哪怕你不能在上面交易，也会拿它当信息参考。所以我了解这一行已经很久了。宏观慢慢过渡到了预测市场，它起初只是个副业项目，如今对我们来说已经是一门非常大的生意。"
+    },
+    {
+      "i": 6,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "01:12",
+      "en": "My model is that there are all these prop trading firms that had 23-year-old interns who got into crypto as a hobby and then that became their crypto business. And it might be natural to assume that many prop trading firms also get into prediction markets as a hobby because of sports betting. Is there any of that at Sales Call Hunter, or is it strictly like, oh, it's election markets?",
+      "zh": "我的模型是这样的：有那么多自营交易公司，当年是23岁的实习生把加密货币当成业余爱好来捣鼓，后来这就成了公司的加密业务。那么很自然地可以假设，很多自营交易公司也会因为体育博彩而把预测市场当成业余爱好来做。Susquehanna 有没有这种情况？还是说严格来讲就是“哦，这是选举市场”？"
+    },
+    {
+      "i": 7,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "01:38",
+      "en": "So when we first started the prediction market journey, sports weren't a part of predictions in that way. But that being said, there's quite a lot of overlap. And there are certainly a lot of people that are passionate about sports, myself included, the other head of prediction markets. We really got to know each other through sports as some of the DraftKings-style places became more prevalent, trying to understand the some of the opportunities and just being passionate about, you know, all forms of prediction. And so I wouldn't say that it was necessarily directly connected. Like the genesis of our business came from the macro angle, but it's kind of hard to disconnect them because, you know, people at Susquehanna are just very into predicting anything that we can. And there's certainly very large markets around sports betting in this world.",
+      "zh": "我们刚踏上预测市场这段旅程时，体育还不是那种意义上的预测的一部分。话虽如此，两者的重叠其实相当多。而且肯定有很多人热爱体育，我自己也算一个——另一位预测市场主管也是。我们其实是通过体育才熟络起来的，当时一些类似 DraftKings 的平台越来越流行，我们想去搞明白其中的一些机会，也纯粹是出于对各种形式“预测”的热情。所以我不会说这两件事一定有直接联系——我们业务的起点来自宏观这个角度——但很难把它们完全割裂开，因为 Susquehanna 的人就是对任何能预测的东西都特别着迷。而这个世界上围绕体育博彩的市场无疑是极其庞大的。"
+    },
+    {
+      "i": 8,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "02:27",
+      "en": "When you think about like your overall book of business in the prediction markets, I'm going to ask you the split of sports and non-sports.",
+      "zh": "当你想到自己在预测市场上的整体业务盘子，我要问你体育和非体育的占比。"
+    },
+    {
+      "i": 9,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "02:36",
+      "en": "There's obviously different ways to kind of measure it. Certainly sports is more than half. You know, it's probably sitting somewhere in the, you know, it's not 90%, but it kind of fluctuates by season two. Like it's probably more now with football going on. It's a little less in the summer. It's on this World Cup. But certainly sports is, you know, a very large part of the predictions business overall. I think there's some good reasons why that's the case. The biggest ones being that There was already a market for sports through all the regulated operators in certain states that existed. And this huge amount of sort of latent demand that sort of found a product that's a better product in a lot of ways. The other stuff is new, so it's growing. So I can tell you that the other non-sports businesses are actually growing faster than the sports business. But the sports business is obviously coming from a much higher overall level.",
+      "zh": "衡量方式显然有好几种。体育肯定占一半以上。它大概落在这么一个区间——不是90%，但也会随赛季波动。比如现在橄榄球赛季进行时占比会更高，夏天会低一些，世界杯期间又是另一番景象。但体育无疑在整个预测业务里占非常大的一块。我觉得这背后有些很好的原因。最大的一点是，在某些州，通过各种持牌运营商，体育市场本来就已经存在了，还有一大批潜在需求，它们找到了一个在很多方面都更好的产品。而其他品类是新东西，所以在增长。所以我可以告诉你，非体育业务实际上比体育业务增长得更快，只不过体育业务的基数显然要高得多。"
+    },
+    {
+      "i": 10,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "03:27",
+      "en": "Okay. So here's how I think about your business. And tell me if this is wrong. I think of there being like three components. There's classic like flow market making where you are making markets on sports elections, some third category, and you're, you know, quoting a bid and an ask and trading with, let's say, retail customers and hoping to earn the spread. There's parlays, which I don't know how big of your business that is, but I think it's really interesting that like traditional sports makes make a lot of money on parlays and to compete with that Kalshi has to offer parlays, which are called like combos or whatever. And I gather that you're in that business. It just seems like interestingly different from the classic market making business. And then the third thing is what I started talking about, which is the goat hedging, which is like you have a block trade OTC-ish business where you will like. do bespoke hedges for corporate and institutional clients on prediction market events? Are those kind of the three areas?",
+      "zh": "好。那我来说说我是怎么理解你这块业务的，说错了你纠正我。我觉得大概有三个组成部分。第一是经典的做市（flow market making）：你在体育、选举还有某个第三类事件上做市，报出买价和卖价，跟——比方说——散户客户成交，指望赚取买卖价差。第二是串关（parlays），我不知道它在你业务里占多大比重，但我觉得很有意思的是，传统体育博彩在串关上赚很多钱，而要跟它竞争，Kalshi 就必须提供串关——它们被叫作“组合”（combos）之类的。我理解你们也在做这块，它看起来跟经典做市业务有意思地不一样。第三件事就是我刚才开始讲的那个——山羊对冲（goat hedging）：你们有一块类似场外（OTC）的大宗交易业务，会为企业和机构客户就预测市场事件做定制化对冲。大致就是这三块吗？"
+    },
+    {
+      "i": 11,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "04:27",
+      "en": "Kind of. I would probably lump the first two together. They're different market structures to market make, but the fundamental principles are the same in that it's still flow-based. We're responding in a different mechanism, but we have our model, we have our pricing, it's largely automated. They function the same from kind of a principles perspective, even if the- They're.",
+      "zh": "差不多吧。我大概会把前两块归到一起。它们做市的市场结构不同，但根本原理是一样的——都还是基于订单流（flow）。我们用不同的机制去响应，但我们有自己的模型、自己的定价，大部分是自动化的。从原理角度看，它们运作方式是一样的，哪怕……它们是——"
+    },
+    {
+      "i": 12,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "04:47",
+      "en": "Interestingly different to me, but I can see why from your business, they're both flow automated trading.",
+      "zh": "在我看来它们有意思地不一样，但我能理解，从你的业务角度看，两者都是基于订单流的自动化交易。"
+    },
+    {
+      "i": 13,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "04:52",
+      "en": "Exactly. The way that we actually handle something, like the details are different, but like philosophically, I think they're kind of the same. And the main thing being that like everything is happening electronically and, you know, it's in sort of this all to all screen type ecosystem. The block business, that institutional business is meaningfully different. And I do believe that's the next phase. And it's where a lot of my personal time is going into now.",
+      "zh": "没错。我们实际处理某件事的方式——细节不同，但从理念上我觉得它们大致一样。关键的一点是，一切都以电子方式发生，处在这种“所有对所有”（all-to-all）的屏幕化生态系统里。而那块大宗业务、机构业务则有实质性的不同。我确实认为那是下一个阶段，也是我现在投入大量个人精力的地方。"
+    },
+    {
+      "i": 14,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "05:14",
+      "en": "What's the split there? I assume the volume is much bigger in the float business. Much bigger. I assume you are charging wider spreads on the OTC-ish business?",
+      "zh": "那两块的比例是怎样的？我猜订单流业务的成交量要大得多——大得多。我猜你们在类似场外的那块业务上收的价差更宽？"
+    },
+    {
+      "i": 15,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "05:24",
+      "en": "Generally, although spread is a little bit of a weirder concept in that OTC business.",
+      "zh": "一般来说是的，不过在场外业务里，“价差”是个有点更奇怪的概念。"
+    },
+    {
+      "i": 16,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "05:28",
+      "en": "Because you're not on both sides. Right.",
+      "zh": "因为你们不做双边。对吧。"
+    },
+    {
+      "i": 17,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "05:31",
+      "en": "Most of those are positions that we're going to hold for the entirety. It's almost a little bit of a hybrid in some ways between sort of financial markets and insurance in that we have to do underwriting. We use the prediction market's to help with that price discovery and that underwriting. So it's a valuable input to help us to price these trades. But the actual market that exists there is not as relevant outside of the price. Like whether there's $ 1, 000 of liquidity or $ 50, 000 of liquidity on the screen, it doesn't make a difference if the customer wants to do $ 50 million of size. And so what we've really been setting up is to try to take the really big risks on and risks that the current insurance industry doesn't cover. to basically sort of bridge those gaps in a lot of the emergent risks. Okay.",
+      "zh": "那里大部分头寸我们是要一直持有到期的。它在某种程度上有点像金融市场与保险之间的混合体——我们得做承保（underwriting）。我们会借助预测市场来辅助价格发现和承保。所以市场是个很有价值的输入，帮助我们给这些交易定价。但除此之外，那里实际存在的市场就不那么重要了。不管屏幕上有1,000美元的流动性还是50,000美元的流动性，只要客户想做5,000万美元的规模，这都没区别。所以我们真正在搭建的，是去承接那些非常大的风险——那些当前保险行业并不覆盖的风险——去填补很多新兴风险里的这些缺口。好。"
+    },
+    {
+      "i": 18,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "06:15",
+      "en": "So let's talk about the goat hedge. I read about this like in August, there's stories about this guy who owns a goat herding business in California. Yes. And California law basically was, looks like it was going to require him to pay minimum wage to his goat herders 24 hours a day. And that would have been bad for business. And he like wanted to draw attention to his plight, I guess, and or actually insure against it. And so he found an insurance broker who found you, or found Susquehanna, and he ended up buying a contract where he paid $ 50, 000 for $ 500, 000 of coverage against the risk that California didn't do something to change this law. Right. And that trade printed to Kalshi. You did a, I say OTC like over the counter, but you did a- A block trade on Kalshi. You did a bilateral trade with him that instead of just signing a contract and putting it in a drawer, it printed to Kalshi. Kalshi published the terms of the bet, basically, which is fairly complicated terms. It's like if any of these 12 things happened that would relieve his pain, then the bet paid off for you. And if none of them happened, then he got his $ 500, 000. And that printed to Kalshi. Then anyone who wanted to could trade it, which I'm very curious who traded it. But we'll talk about that later. So you've talked about when people come to you for a $ 50 million trade or whatever, Like you can look at cow sheep prices and even though you're not like, you know, just laying off the risk immediately, like you have a sense of what the market implied probability is. But here there was no market implied probability because the contract didn't exist before you did the block trade. How'd you price the goat risk?",
+      "zh": "那我们来聊聊山羊对冲。我大概八月读到这件事：有报道说加州有个人经营着一家牧羊业务。是的。而加州的法律看起来基本上要要求他一天24小时都给牧羊工支付最低工资。这对生意来说会很糟糕。他大概是想引起大家对他困境的关注，或者其实是想为此投保。于是他找到了一家保险经纪，经纪又找到了你，或者说找到了 Susquehanna，最后他买入了一份合约：他支付5万美元，换取50万美元的保障，对冲的是“加州没有采取任何措施来改变这条法律”这一风险。对吧。而这笔交易成交在 Kalshi 上。你们做了一笔——我说是场外（OTC）交易，但你们其实是——一笔 Kalshi 上的大宗交易。你们跟他做了一笔双边交易，而这份合约不是签完就塞进抽屉里，而是成交到了 Kalshi 上。Kalshi 公布了这场对赌的条款——条款相当复杂：如果这12件事里有任何一件发生、能解除他的痛苦，那么这笔对赌就由你赢；如果一件都没发生，那他就拿到他的50万美元。这一切成交在 Kalshi 上。于是任何想交易的人都可以交易它——我很好奇到底谁交易了它，这个我们稍后再谈。你之前讲过，当有人来找你做一笔5,000万美元的交易之类的，你可以去看牛羊价格，即便你不是——你知道——立刻把风险转嫁出去，你对市场隐含概率也有个概念。但这里没有市场隐含概率，因为在你们做这笔大宗交易之前，这份合约根本不存在。你们是怎么给这个山羊风险定价的？"
+    },
+    {
+      "i": 19,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "08:00",
+      "en": "So we had a guy that got on the phone and talked to a lot of people. And he literally talked to goat herders.",
+      "zh": "我们有个人拿起电话跟很多人聊。他是真的去跟牧羊工聊了。"
+    },
+    {
+      "i": 20,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "08:06",
+      "en": "Sure.",
+      "zh": "好。"
+    },
+    {
+      "i": 21,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "08:07",
+      "en": "He talked to lobbyists. He talked to all the people who would have an opinion, plus some of our other internal research. We have our own research. We basically canvassed as much information as we possibly could to come up with an opinion on what we thought the fair probability was.",
+      "zh": "他跟游说者聊，跟所有会有观点的人聊，再加上我们内部的一些研究——我们有自己的研究。我们基本上是把能拿到的信息都摸了一遍，好形成一个关于我们认为的公允概率的意见。"
+    },
+    {
+      "i": 22,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "08:21",
+      "en": "Did you have pre-existing goat research?",
+      "zh": "你们此前有现成的山羊研究吗？"
+    },
+    {
+      "i": 23,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "08:24",
+      "en": "We did not have pre-existing goat research, but we certainly have a lot of kind of political research. In general... We are in the business of trying to price random things. So we have networks that we understand where to go to, to figure out how to price random things.",
+      "zh": "我们没有现成的山羊研究，但我们确实有很多政治方面的研究。总的来说……我们干的就是给各种稀奇古怪的东西定价这行。所以我们有自己的人脉网络，知道该去哪儿找答案，才能给这些稀奇古怪的东西定价。"
+    },
+    {
+      "i": 24,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "08:52",
+      "en": "What is the history of Susquehanna being in the business of knowing how to price random things? Is that like, because you've gotten into prediction markets? Or is that like from the time Jeff Yass was a baby, he was taking any bets that people came to him with?",
+      "zh": "Susquehanna “懂得如何给稀奇古怪的东西定价”这门本事，历史有多久了？是因为你们进入了预测市场才有？还是说从 Jeff Yass 还是个婴儿时起，只要有人来跟他打赌，他就照单全收？"
+    },
+    {
+      "i": 25,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "09:04",
+      "en": "I mean, I think that is probably true. I don't know, baby, but like six, maybe? Yeah, no, I think that it's always been very much in our culture. I mean, I came to Susquehanna through a recruiting poker tournament 20 years ago. You had some questions earlier about kind of like market making, like I think there's different forms of flow market making, some that are trying to strictly balance and they're using all the different flow signals, and some that are trying to say, we're going to try to come up with a fair price on this and use all the information we have to constantly come up with a fair price and then take the risk wherever it is. We've always been very much in the latter category. It's much more about we're trying to figure out what's fair as opposed to we're just trying to balance the order flow. Obviously, you do both. But I think that mentality has been in our culture of like try to price a thing, figure out what's fair. And we have a lot of random businesses at Susquehanna that are pricing random things. We're in the insurance business. like the official non-predictions insurance business as well. And a lot of that has been pricing random risks that people have. The predictions angle helps us to take that to the next level, but it's always something that we've done.",
+      "zh": "我是说，我觉得那多半是真的。我不知道婴儿时期，但六岁、也许吧？是的，不，我觉得这一直都是我们文化里根深蒂固的一部分。我是20年前通过一场招聘扑克锦标赛加入 Susquehanna 的。你前面问过关于做市的一些问题——我觉得订单流做市有不同的形式：有些是严格追求平衡，利用各种不同的订单流信号；有些则是说，我们要努力为某个东西找出一个公允价格，动用我们掌握的一切信息不断算出公允价，然后不管风险落在哪儿都接下来。我们一直属于后面这一类。这更多是“我们要搞清楚什么是公允的”，而不是“我们只想平衡订单流”。当然，两件事你都会做。但我觉得这种心态一直在我们的文化里——给一个东西定价，搞清楚什么是公允的。我们在 Susquehanna 有很多稀奇古怪的业务，都是在给稀奇古怪的东西定价。我们也做保险业务——就是那种正式的、与预测无关的保险业务，其中很大一部分就是在给人们拥有的各种奇特风险定价。预测这个角度帮助我们把这件事提升到了下一个层次，但这始终都是我们在做的事情。"
+    },
+    {
+      "i": 26,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "10:13",
+      "en": "So why, when the good guys showed up, Why couldn't you be like, go see the insurance people? What makes something an insurance product versus a prediction markets block trade?",
+      "zh": "那么，当牧羊人找上门时，为什么你不能直接说“去找保险公司”呢？到底是什么让一个东西成为保险产品，而不是预测市场上的一笔大宗交易？"
+    },
+    {
+      "i": 27,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "10:22",
+      "en": "Insurance in general is very good at understanding. We have this large data set of things that have happened in the past. We know how to pool all this risk. We've got great procedures, et cetera. So you're looking for a standard property product. They're going to totally understand how to do that. They're not in the business of here's some new thing that just happened and we're going to figure it out. Like that's just not really how insurance works.",
+      "zh": "保险行业总体上非常擅长这样理解：我们有一大批过去发生过的事情的数据集，我们知道如何把这些风险汇集（pool）起来，我们有完善的流程等等。所以如果你要的是一份标准的财产险产品，他们完全懂得怎么做。但他们不干这种事——“这里有个刚发生的新东西，我们来想办法搞定”。这基本不是保险的运作方式。"
+    },
+    {
+      "i": 28,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "10:43",
+      "en": "Not even at Susquehanna?",
+      "zh": "连 Susquehanna 也不干？"
+    },
+    {
+      "i": 29,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "10:44",
+      "en": "Well, at Susquehanna, that's how it works. But, you know, we are kind of in the insurance business sort of, but I wouldn't say we have like an insurance ethos.",
+      "zh": "嗯，在 Susquehanna，就是这么干的。但你知道，我们算是某种程度上在做保险业务，但我不会说我们有一种“保险理念”（insurance ethos）。"
+    },
+    {
+      "i": 30,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "10:51",
+      "en": "Okay. I'm not saying ethos. I'm saying like the product, right? Like you have an ethos that is product agnostic, like we'll take a bet, right? Yeah. And then the question is, is the bet expressed as a calci block trade or as a contract called insurance? Like, is it just like, You get better capital treatment for that? Why print this to Kelsey rather than to the insurer?",
+      "zh": "好。我说的不是理念，我说的是产品，对吧？你的理念是“产品无关紧要”——我们接下这个赌注，对吧。是啊。那问题就是，这个赌注是以 Kalshi 大宗交易的形式表达，还是以一份叫作“保险”的合约来表达？是不是因为后者你能获得更好的资本处理（capital treatment）？为什么把这笔交易成交到 Kalshi 上，而不是给保险公司？"
+    },
+    {
+      "i": 31,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "11:09",
+      "en": "Oh, so that is a good question. There are kind of three mechanisms really for which we can take on one of these trades right now. We can do a contract that's printed to a prediction market. We can do a swap and we can do a regulated insurance product. There are kind of advantages and disadvantages to all of them. If you print it on an exchange- You have the most transparency. It's on exchange. It's cleared. All of those things are valuable to certain people. You do it as a swap, then it has more favorable capital treatment sometimes, but it's not on exchange. We might link it to an exchange. You do it as an insurance product. There are some advantages sometimes to being a regulated insurance product. There's also some fees and some other drawbacks. So our goal when we talk to one of these people isn't really to push them in one direction or another. Our goal is to understand what makes the most sense for them. There are some players out there that say, we really want to do this on an exchange. It's important to us. There are some that say, we aren't anywhere near close to being able to connect to one of these exchanges. We've got a million things we've got to figure out on our compliance side, but we want you to take this risk. Can you do it in a different way? And our goal is just to figure out how to take the risk. We're kind of execution platform agnostic.",
+      "zh": "哦，这是个好问题。眼下我们承接这类交易大致有三种机制。我们可以做一份成交到预测市场上的合约，可以做一笔掉期（swap），也可以做一份受监管的保险产品。这三者各有利弊。如果你把它成交到交易所上，透明度最高——它在交易所、经过清算，这些对某些人很有价值。如果做成掉期，有时资本处理更有利，但它不在交易所，我们也许会把它挂钩到某个交易所。如果做成保险产品，作为受监管的保险产品有时有些优势，但也有一些费用和其他弊端。所以当我们跟这些客户谈时，我们的目标其实不是把他们往某个方向推，而是搞清楚对他们来说什么最合理。有些参与者会说“我们真的想在交易所上做，这对我们很重要”；也有些会说“我们离能接入这些交易所还差得远，合规这边有一堆事要解决，但我们想让你接下这个风险，你能不能换个方式做？”我们的目标就是想清楚怎么把风险接下来。我们在执行平台上是中立的、不挑的（platform agnostic）。"
+    },
+    {
+      "i": 32,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "12:17",
+      "en": "I assume if you face a hedge fund, they want to do a swap. And I assume if you face a goat herder, he probably can't do a swap. He's probably... not allowed to do.",
+      "zh": "我猜如果你面对的是一家对冲基金，他们想做掉期。而我猜如果你面对的是一个牧羊人，他大概做不了掉期，他多半是……不被允许做。"
+    },
+    {
+      "i": 33,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "12:26",
+      "en": "That's oftentimes more true, although there are exceptions in terms of how some of this goes. But yeah, for someone like a goat herder, it's way easier to do this audit exchange for sure.",
+      "zh": "这种情况往往更是如此，尽管具体怎么操作也有例外。但是的，对像牧羊人这样的人来说，在交易所上做这件事肯定容易得多。"
+    },
+    {
+      "i": 34,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "12:35",
+      "en": "So tell me more about like, you're a hedge fund, you want to do a bet. You come to you, you're like, hey, I want to do a bet. You like write up the bet. Like you have yourself and good lawyers. The hedge fund has their trader and good lawyers. You can like hash out the payoff mechanism of the bet. The goat herder bet, is like a tri-party bet. There's you, there's the goat herder, and you have lawyers, and maybe he has lawyers, and then there's Kalshi. The contract that you enter into is not like you sign it and the goat herder signs it. It's like you buy and sell a product on the exchange that is listed, approved, run by the CFTC by Kalshi. How does that work? Who writes that contract and who has input into that contract?",
+      "zh": "那再多讲讲：假设你是一家对冲基金，你想做一笔对赌。你找到我们——呃，找到你，说“嘿，我想做笔对赌”。你把这笔对赌写出来。你这边有你的人和好律师，对冲基金那边有他们的交易员和好律师，你们可以把对赌的赔付机制敲定。而牧羊人那笔对赌是一笔三方交易：有你、有牧羊人，你这边有律师，也许他也有律师，然后还有 Kalshi。你们签的合约不是“你签、牧羊人签”那种，而是你们在交易所上买卖一个已经上市的产品——这个产品由 Kalshi 挂牌、经 CFTC 批准并运营。这是怎么运作的？谁来写这份合约，谁对这份合约有话语权？"
+    },
+    {
+      "i": 35,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "13:19",
+      "en": "Ultimately, in that scenario, Kalshi writes the contract, but It's a discussion.",
+      "zh": "在那种情形下，最终是 Kalshi 来写这份合约，但这是一个商量的过程。"
+    },
+    {
+      "i": 36,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "13:23",
+      "en": "But you wouldn't trade it with a goat herder unless you were both happy with the terms, right?",
+      "zh": "但除非你俩都对条款满意，否则你不会跟牧羊人做这笔交易，对吧？"
+    },
+    {
+      "i": 37,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "13:26",
+      "en": "Right, right. So they ultimately are the ones that sign off on it. It's on their exchange. But we have meaningful input, right? We really do all work together. We are all discussing what the different terms are. And at the end of the day, everyone's kind of incentivized to get terms that cover the actual risk, right? We want to cover the goat herder's risk. They want to cover their risk. Cal Street understands that this market is in many ways being created by to help facilitate this specific risk here, this trade. And that's kind of part of the beauty of prediction markets is how easy it is to create these new markets now, like the fact that it can be done in the form of a day. So we're all kind of incentivized to work together. So I would say it's a collaborative process. Like Kalshi has a lot of experience writing these contracts. We have a lot of experience doing it as well. The goat herder may be a little bit less, but he knows what his risks are. He knows the risks better than anybody.",
+      "zh": "对，对。所以最终拍板签字的是他们，是在他们的交易所上。但我们有实质性的话语权，对吧？我们真的是一起协作。大家都在讨论各项条款。说到底，每个人其实都有动力去达成能覆盖真实风险的条款，对吧？我们想覆盖牧羊人的风险，他们也想覆盖自己的风险。Kalshi 明白，这个市场在很多方面就是为促成这里这个特定风险、这笔交易而创造出来的。而这正是预测市场的美妙之处之一——如今创造这些新市场是多么容易，一天之内就能搞定。所以我们大家都有动力协作。我会说这是一个协作的过程。Kalshi 在撰写这类合约上经验丰富，我们也是；牧羊人也许经验少一些，但他知道自己的风险是什么——他比任何人都清楚。"
+    },
+    {
+      "i": 38,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "14:15",
+      "en": "Intuitively, having worked at a bank, If you were doing an ISDA with a hedge fund, you'd probably say to me that everyone wants it to cover all the risks and be fair. But you're getting a little edge in on the contract, right? And they're trying to get a little edge in on the contract. Kalshi, I think, has a genuine incentive to... If something happened where the goat herder was disappointed, where he didn't get... the payoff, things didn't work out for him politically, and also your contract didn't pay out, like that would kind of be a windfall for you, right? And vice versa, like if his contract paid out any other thing you wanted, that'd be a windfall for him. But like for Kalshi, they want like the right result in either case, I think, right? Because they're sort of reputationally trying to build this business. So is it like helpful to the business to have like a neutral arbiter, like during the contract and the determination of the payoff?",
+      "zh": "凭直觉说，我在银行干过——如果你跟一家对冲基金签 ISDA，你多半会跟我说，大家都希望它覆盖所有风险、公平合理。但你会想在合约上占一点小便宜，对吧？他们也想在合约上占一点小便宜。而 Kalshi，我觉得有一种真正的动力……假如出了什么状况，牧羊人失望了，他没拿到赔付，政治上事情没对他有利，同时你的合约也没赔付，那对你来说反倒是一笔意外之财（windfall），对吧？反过来，如果他的合约赔付了、或者任何你想要的结果出现，那对他就是意外之财。但对 Kalshi 来说，我觉得无论哪种情况，他们想要的都是“正确的结果”，对吧？因为他们在声誉上是要把这门生意做起来。所以，在合约以及赔付认定过程中，有一个中立的仲裁方，对这门生意是不是有帮助？"
+    },
+    {
+      "i": 39,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "15:09",
+      "en": "So I guess what I would say is, first of all, I don't think that that sort of haggling over terms and trying to win that has been my experience in this so far. Like we are also trying to build the business here and we actually don't want a situation where we win, but the other side like didn't get covered on their risk.",
+      "zh": "我想说的是，首先，我不觉得那种为条款讨价还价、非要争个输赢的做法——至少到目前为止这不是我在这行的经验。我们同样是在努力把这门生意做起来，我们其实并不想要那种“我们赢了，但对手方没保到自己的风险”的局面。"
+    },
+    {
+      "i": 40,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "15:26",
+      "en": "Have you ever like retroactively, have you ever like written a contract where like in hindsight, the other side didn't get covered and you're like, yeah, we'll just pay you anyway.",
+      "zh": "你有没有过事后回头看，发现某份合约没保到对手方，然后你说“行，我们还是照付给你”？"
+    },
+    {
+      "i": 41,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "15:34",
+      "en": "That specific scenario hasn't happened. We've been involved in some contracts where we might have realized there's some form of an edge case where theoretically something could happen, but we've never actually had that edge case happen in a situation that's sort of a relationship type business where we've had a relationship with the other side. There are edge cases in sort of the general screen markets that happen here and there every once in a while. We're making our money on the price at the end of the day. We're charging a little bit of edge on the price. We don't want to make our money on the contract terms. The worst thing that can happen is we don't want the next story about the goat herder to be like, oh, he lost his hedge and he lost his business. That's horrible ultimately. And you mentioned in your article, which is fair, part of the reason we wanted to do this trade was because We think there's some degree of edge in the trade. Although to be honest, we priced this one pretty fair. A large reason was because we think this is an important business for predictions overall. And we wanted more proof of concept out there. We want people to see this is what can be done. We'll win in the long run if this business takes off. And our role right now is really to bootstrap the liquidity of this business and to show what's possible.",
+      "zh": "那种特定情形还没发生过。我们参与过一些合约，事后可能意识到存在某种边缘情形（edge case），理论上某件事可能发生——但我们从没真的碰上那种边缘情形，尤其是在那种关系型业务里，我们跟对手方是有长期关系的。在一般的屏幕化市场里，边缘情形确实时不时会出现。说到底我们靠价格赚钱，我们在价格上收一点点优势。我们不想靠合约条款赚钱。最糟糕的情况是——我们不希望关于牧羊人的下一篇报道变成“哦，他对冲失败，把生意也赔没了”。那终究太糟糕了。你在文章里提到——这说得没错——我们想做这笔交易的部分原因，是觉得这笔交易里有某种优势（edge）。不过老实说，这一笔我们定价定得相当公允。一个很大的原因是，我们认为这对整个预测业务是一门重要的生意，我们想让更多“概念验证”（proof of concept）出现在市场上。我们希望人们看到“原来能做成这样”。如果这门生意起飞，长远来看我们会赢。而我们现在的角色，其实就是把这门生意的流动性引导培育起来（bootstrap），并展示它的各种可能。"
+    },
+    {
+      "i": 42,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "16:41",
+      "en": "Okay. So when I read about this trade, it was probably, I don't know, a week after you printed it, something like that? And I looked at the screen for this contract, which, you know, you printed a $ 500, 000 notional trade with this code herder. And when I looked at the screen for the Kelsey contract, it had something like $ 500, 476 of volume. So I think that's your trade plus somebody or some people who found this trade after I wrote about it. And like, you know, nine other articles were written about it. Like, I think that picked up and When I looked this morning, there was a total of $ 655, 000 of volume. The contract resolved. You won, which means he also won. When I wrote about it, it had traded tiny, tiny, tiny size in the 80s, which means it traded down from the price you paid, which means that you looked a little like you got picked off by the goat herder, which I think I said to you. But in the long run, you did fine. And it's hard to extrapolate from that little volume. Who traded this thing?",
+      "zh": "好。我读到这笔交易时，大概是在你们成交之后一周左右吧？我看了这份合约的屏幕——你们跟这个牧羊人成交了一笔名义本金50万美元的交易。我看 Kalshi 合约的屏幕时，上面的成交量大概是500,476美元。所以我想那就是你们的这笔交易，再加上在我写了它之后发现这笔交易的某个人或某些人。然后大概还有另外九篇报道写了它。我觉得它就热起来了。今早我看时，总成交量是65.5万美元。合约已经结算了。你赢了——这意味着他也赢了。我写它的时候，它只成交了极小极小的量，价格在80多（美分），意味着它从你支付的价格往下了，也就是说你看上去有点像被牧羊人“捡漏”了（picked off）——这话我当时也跟你说了。但长远看你过得不错。而且从这么点成交量很难外推。到底是谁在交易这东西？"
+    },
+    {
+      "i": 43,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "17:47",
+      "en": "You know, there are just a lot of people that are passionate.",
+      "zh": "你知道，就是有很多人特别有热情。"
+    },
+    {
+      "i": 44,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "17:51",
+      "en": "Like some money stuff readers, clearly.",
+      "zh": "比如说，显然有一些《Money Stuff》的读者。"
+    },
+    {
+      "i": 45,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "17:52",
+      "en": "Some money stuff readers. There's a lot of people in the predictions ecosystem that are passionate super forecasters that look over every market and they probably have some tools to help them find ones where there's any form of volume and they try to make a prediction in a trade. And if they think that they have some kind of an opinion, they do it. My guess is that's where this came from, although I can't know for sure. It's also possible that I'm sure some people read your article and saw some of the other publications and were like, oh, I want to get involved in this.",
+      "zh": "一些《Money Stuff》的读者。预测生态系统里有很多人，是热情超高的“超级预测者”（super forecasters），他们会把每个市场都过一遍，大概还有些工具帮他们找到任何有成交量的市场，然后去做预测、去交易。只要他们觉得自己有某种观点，就会去做。我猜这就是来源，不过我不能百分百确定。也有可能——我肯定有些人读了你的文章、看到其他媒体，就想“哦，我也想参与进来”。"
+    },
+    {
+      "i": 46,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "18:19",
+      "en": "But the overall- You could buy it at lower than the price Susquehanna paid, which feels like a good deal.",
+      "zh": "但整体上——你可以用比 Susquehanna 支付的价格更低的价格买到它，这感觉像是笔划算的买卖。"
+    },
+    {
+      "i": 47,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "18:24",
+      "en": "In theory, you could, yeah.",
+      "zh": "理论上是可以，是的。"
+    },
+    {
+      "i": 48,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "18:25",
+      "en": "Also, I wrote about this. In theory, if instead of $ 400 a volume, there was $ 10 million a volume after you printed the trade, you could have laid off your risk, right? Yeah. Depending on, you might have lost money if it had all been at 85. But also, with the amount of volume there actually was, ultimately, if you just take the beginning and the end of the trade- the law was changed in some way that helps him. I don't actually know the details, but like the bet resolved to the law was changed. So he got $ 0 on his bet and you got your 500,000 back. You didn't pay out the $ 500, 000, but he could have like sold his position, right? Like he paid 10 for it. He could have sold it at 15.",
+      "zh": "而且，这点我写过了。理论上，如果成交量不是400美元，而是在你们成交之后有1,000万美元的量，你本来是可以把风险转嫁出去的，对吧？是啊。这得看情况——如果全都成交在85，你可能还会亏钱。但同样，就实际有的那点成交量而言，说到底，如果你只看这笔交易的开头和结尾——法律以某种对他有利的方式改了。我其实不知道细节，但对赌结算成了“法律被改了”。所以他那笔对赌拿到0，而你拿回了你的50万。你没赔那50万美元出去，但他本来是可以卖掉他的头寸的，对吧？他花10（美分）买的，本可以在15卖掉。"
+    },
+    {
+      "i": 49,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "19:01",
+      "en": "He certainly could have. And, you know, to be clear, like, There were pieces of news that came out in the interim around– I don't know if the nation was following this with bated breath, but– I.",
+      "zh": "他当然可以。而且，说清楚一点，中间确实出了一些相关新闻——我不知道全国人民是不是在屏息关注这件事，但——"
+    },
+    {
+      "i": 50,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "19:12",
+      "en": "Should have been. I'm probably the most interested person and I did not follow it.",
+      "zh": "本来应该关注的。我大概是最感兴趣的那个人，可我都没跟进。"
+    },
+    {
+      "i": 51,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "19:16",
+      "en": "There were pieces of certain news that came out around it and if you were in the weeds of it, the probability might have been moving around a little bit here and there and you can interpret things in certain ways. You're right. The volume wasn't super high. In theory, you could have a scenario though where someone puts on a hedge trade– And then decides after the fact like, oh, you know what? Like this is now trading at such a level. Like I'm going to take off some of my hedge, all of my hedge. Maybe I don't need the hedge anymore. Something else happened. Like that's one of the great things about this form of hedging as opposed to say like some just like an insurance contract is it feels like a financial product, right? You can get out of your risk.",
+      "zh": "围绕它确实出了一些新闻，如果你钻在里面细看，概率可能时不时会来回动一动，你会以某种方式去解读这些信息。你说得对，成交量不算高。但理论上会有这样一种情形：有人建了一笔对冲交易，事后又决定“哦，你知道吗，现在它交易到这个水平了，我要平掉一部分对冲、或全部对冲，也许我不再需要这个对冲了，发生了别的事”。这正是这种对冲形式相比——比如说一份纯保险合约——的一大妙处：它感觉像个金融产品，对吧？你可以从风险里退出。"
+    },
+    {
+      "i": 52,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "19:51",
+      "en": "It feels like an exchange-traded product.",
+      "zh": "它感觉像一个交易所交易产品（ETP）。"
+    },
+    {
+      "i": 53,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "19:53",
+      "en": "Right, like an exchange-traded financial product. The ecosystem needs to scale up and we're trying to bootstrap that scaling, but– Once it gets to that point, our hope would be like, yeah, trades come to us. We put them up. There's an active market in this thing. Other people might have similar risks. And ultimately, people can trade in and out of their position. If they want to come back to us and they say, hey, the market's trading here now, would you let us out? Would you let us add? Those are all flexible things that we can do here that wouldn't be possible without the market existing. Okay.",
+      "zh": "对，像一个交易所交易的金融产品。这个生态系统需要扩大规模，我们正在努力引导这种扩张，但——一旦到达那个点，我们的希望是：交易找上我们，我们把它挂上去，这东西就有了一个活跃的市场。别人可能有类似的风险，最终大家就能进进出出自己的头寸。如果他们回头来找我们说“嘿，市场现在交易到这个价了，你能让我们退出吗？能让我们加仓吗？”——这些都是我们在这儿能灵活做到的事，而如果没有这个市场存在，就不可能做到。好。"
+    },
+    {
+      "i": 54,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "20:24",
+      "en": "And let's talk about capital and funding. When you print this trade to Kelshi, if I'm a retail trader on Kelshi, If I want to bet on something that has a 90% probability of happening, I put up $ 0. 90 on the dollar. That's what you do here, right? You're putting up.",
+      "zh": "我们来谈谈资本和资金。当你把这笔交易成交到 Kalshi 上，如果我是 Kalshi 上的散户，我想赌一件发生概率90%的事，我每美元押0.90美元。这里你们也是这么做的，对吧？你们押的是——"
+    },
+    {
+      "i": 55,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "20:39",
+      "en": "$ 450, 000.",
+      "zh": "45万美元。"
+    },
+    {
+      "i": 56,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "20:39",
+      "en": "He's putting up $ 50, 000. It all goes to Kalshi. You get, I guess, Fed funds on your cash or whatever. And when the contract resolves, either you get the $ 500, 000, which is what happened, or he gets the $ 500, 000. I assume that when Susquehanna is trading options, it's more capital efficient.",
+      "zh": "他押5万美元。钱全都进到 Kalshi。你们大概就……在自己的现金上赚点联邦基金利率之类的。合约结算时，要么你拿到那50万美元——事实就是这样——要么他拿到那50万美元。我猜 Susquehanna 交易期权时，资本效率会更高。"
+    },
+    {
+      "i": 57,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "21:00",
+      "en": "Yes, it is. And I think that ultimately that's one of the areas that we hope to see predictions evolve over time.",
+      "zh": "是的，更高。我觉得这最终也是我们希望看到预测市场随时间演进的方向之一。"
+    },
+    {
+      "i": 58,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "21:06",
+      "en": "I've heard recently that Kashi is rolling out leverage for at least some institutional. Right.",
+      "zh": "我最近听说 Kalshi 正在推出杠杆，至少对部分机构是这样。对吧。"
+    },
+    {
+      "i": 59,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "21:11",
+      "en": "And I think that'll be very helpful, getting forms of margin and leverage. Realistically, what helps the most here in this form of business is something that looks a little bit like portfolio margin. Say that we have 100 of these trades on where all of them are us selling 5% to 10% of something that's not super likely to happen happening. That's what the insurance business looks like. A lot of risks are people wanting to cover some not very likely thing that happens, but if it happens, it's catastrophic. You have 100 of those things on. They're all uncorrelated. In theory, you shouldn't actually have to fund 95 cents on the dollar on all of those, right? That's not super efficient. For now, we're kind of just saying, we're going to figure out how to fund these things.",
+      "zh": "我觉得那会非常有帮助——引入各种形式的保证金和杠杆。现实地说，对这类业务帮助最大的，是某种看起来有点像组合保证金（portfolio margin）的东西。假设我们有100笔这类交易，全都是我们卖出某件不太可能发生的事的5%到10%——这就是保险业务的样子。很多风险都是人们想保某个不太可能发生、但一旦发生就是灾难性的事情。你手上有100个这样的头寸，它们彼此都不相关。理论上你其实不该对全部这些都按每美元押95美分来占用资金，对吧？那效率太低了。眼下我们基本就是在说，我们会想办法搞定这些交易的资金占用。"
+    },
+    {
+      "i": 60,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "21:59",
+      "en": "How do you find, like, is that like Jeff Yass's equity or like, is someone giving you that portfolio margin in some form, you know?",
+      "zh": "那这笔钱是从哪儿来的——是 Jeff Yass 的自有资金，还是有人以某种形式给你们提供那种组合保证金？"
+    },
+    {
+      "i": 61,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "22:04",
+      "en": "So in traditional options business, the prime broker is going to give you a portfolio margin. Here, there is no portfolio margin yet, right? So we're just funding the cash, right? And it makes the trades a little bit more expensive. It means that if you have a really long dated trade, so let's say, for example, someone wanted to insure against the Olympics being canceled in LA, which is years away, that becomes very challenging to do on an exchange in the current setup because then your cost of capital for having your 90 plus percent on for that long is meaningful, right? A shorter dated trade is much easier.",
+      "zh": "在传统期权业务里，是主经纪商（prime broker）给你组合保证金。而在这里，目前还没有组合保证金，对吧？所以我们就是自己出资金占用现金，对吧？这让交易成本稍微贵一些。这意味着，如果你有一笔期限很长的交易——比方说有人想给洛杉矶奥运会被取消这件事投保，那可是好几年以后的事——在目前的设置下，这就很难在交易所上做，因为你要为90%以上的资金占用那么长时间付出可观的资本成本，对吧？期限短一些的交易就容易得多。"
+    },
+    {
+      "i": 62,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "22:54",
+      "en": "Okay. So I want to talk about like your general OTC book. I say OTC, I feel like technically the goat herder trade is not over the counter because you printed on an exchange.",
+      "zh": "好。我想谈谈你整体那块场外（OTC）账簿。我说 OTC，但我觉得严格来讲牧羊人那笔交易并不是场外的，因为你们成交在了交易所上。"
+    },
+    {
+      "i": 63,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "23:04",
+      "en": "Institutional risk hedging is kind of the term that we use internally to.",
+      "zh": "“机构风险对冲”（institutional risk hedging）是我们内部用来——"
+    },
+    {
+      "i": 64,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "23:06",
+      "en": "Talk about it. In that book, first of all, like how many trades do you have? Is it like hundreds? Is it like Dozens?",
+      "zh": "——称呼它的说法。在那块账簿里，首先，你们有多少笔交易？是几百笔？还是几十笔？"
+    },
+    {
+      "i": 65,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "23:13",
+      "en": "It sort of fluctuates from time to time, but it's more in the dozens than the hundreds now. We're obviously hoping to grow it.",
+      "zh": "它时不时会波动，但目前更接近几十笔，而不是几百笔。我们当然希望能把它做大。"
+    },
+    {
+      "i": 66,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "23:18",
+      "en": "What's the split between true OTC swaps and on exchange?",
+      "zh": "真正的场外掉期和交易所交易之间的比例是怎样的？"
+    },
+    {
+      "i": 67,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "23:25",
+      "en": "I don't know exactly in terms of the number of trades. In terms of the size, the larger trades tend to be more likely to be a swap.",
+      "zh": "按交易笔数我不太清楚具体比例。按规模看，越大的交易越倾向于做成掉期。"
+    },
+    {
+      "i": 68,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "23:31",
+      "en": "And what's the margining on that? Is that like unsecured? Is that like you're posting daily collateral?",
+      "zh": "那这块的保证金安排是怎样的？是无担保的？还是你们每天缴纳抵押品？"
+    },
+    {
+      "i": 69,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "23:38",
+      "en": "The margin is generally just negotiated. There are certainly some of those trades where we put up zero. In the GoHerder trade, if we did it on swap, we would probably say, I think you can probably trust we're good for $ 450, 000. There could be larger trades where.",
+      "zh": "保证金通常就是谈出来的。确实有些交易我们一分保证金都不交。在牧羊人那笔交易里，如果我们做成掉期，我们大概会说“我觉得你可以相信我们，这45万美元我们跑不了”。也有些更大的交易——"
+    },
+    {
+      "i": 70,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "23:51",
+      "en": "We- You'd take his 50 there. Probably.",
+      "zh": "那——你们会收他那5万作为保证金。多半会。"
+    },
+    {
+      "i": 71,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "23:53",
+      "en": "But when you start talking about larger types of situations, we might have to put up margin. The other side might be given an ability to do margin. When you're on swap, it's all case by case basis. It also provides us with quite a lot of flexibility that we may not have with a pure binary prediction market. To give you an example, we've had parties that have come to us interested in saying, we're really concerned about a moratorium happening on data centers in our state or in our county or whatnot. But if that happens, what we're really exposed to is now the depreciation of the chips. Can we come up with something that has a trigger that's like a prediction market-based trigger, binary trigger? Does this thing happen? But then pays out based on the price of an asset, whether that's the price of chips or the price of compute or sometimes the price of power. And we're pretty flexible at being able to do that because, again, if we have a reasonable index to settle to- that value is, that's kind of our bread and butter, right? Moving into a financial asset and doing that as a firm. So that's the thing that we're good at and it covers their risk more directly, all the better, right? So we're very happy to be creative when it comes to that swap and that can go to the margin. We're going to look at all the components of it and try to figure out what's the best way to get this thing done that sort of fits all the parties. And again, we're looking at this business long-term. So we do want them to be ultimately be happy as well with what's happening because we want repeat customers and Some of these are small communities. We want one data center to tell another, like, oh, we got this thing and it was helpful. So that is our goal.",
+      "zh": "但当你开始谈更大类型的情形时，我们可能就得交保证金，对手方也可能被赋予缴纳保证金的能力。做成掉期时，一切都要逐案处理（case by case）。它还给了我们相当大的灵活性，这是纯粹的二元预测市场未必有的。举个例子：有些方来找我们，很担心他们所在州或县对数据中心出台禁建令（moratorium）。但真那样的话，他们真正暴露的风险其实是芯片的贬值。我们能不能设计一个东西，触发器是类似预测市场的、二元的触发器——这件事发生不发生？——但赔付却基于某个资产的价格，无论是芯片价格、算力价格，有时是电力价格。我们在这方面相当灵活，因为——再说一次——只要我们有一个合理的指数可以结算，那就……那个价值，正是我们的看家本领，对吧？转向一种金融资产、以公司身份去做，这正是我们擅长的；如果它能更直接地覆盖他们的风险，那就更好了，对吧？所以在掉期这块，我们非常乐意发挥创意，也可以延伸到保证金安排上。我们会审视它的所有组成部分，努力找出最能促成这件事、又能兼顾各方的方式。而且再说一次，我们是长期看这门生意的，所以我们确实希望他们最终也对结果满意，因为我们想要回头客。这里面有些是很小的圈子，我们希望一个数据中心去告诉另一个：“哦，我们搞了这个东西，很有用。”这就是我们的目标。"
+    },
+    {
+      "i": 72,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "25:25",
+      "en": "One thing I always thought about is the Cal Shoes will tell you, like, we got into this business because people want to hedge election risk. And, like, there's the story of Jane Street getting the election right and, like, losing a bucket of money because they got the directional impact of it wrong. And I always thought that was very, like, illustrative because, like, there are people in the world who are like, I think that Trump will be bad for the S & P. And so I want to buy... a hedge on Trump getting elected because I have all this S and P exposure, but it's totally the wrong hedge because like, you know, the S and P goes up, right? Like when you have people hedging the election, is that the thing you talked about where it's like, there's an election trigger and that a financial asset payoff, or is it like people who are like, I'm in a very regulated industry. I'm going to be shut down if the Democrats win. What is the intuition behind people doing election hedges?",
+      "zh": "我一直想到的一点是：Kalshi 会告诉你，“我们做这门生意，是因为人们想对冲选举风险”。而且有那个 Jane Street 把选举判断对了、却亏了一大笔钱的故事——因为他们把方向性的影响判断错了。我一直觉得这个例子很有启发，因为世上有些人是这么想的：“我觉得特朗普对标普500（S&P）不利，所以我想买入一份对冲特朗普当选的合约，因为我有这么多标普敞口。”但这完全是对冲错了方向，因为你知道，标普反而涨了，对吧？那么当有人来对冲选举时，是你说的那种“有一个选举触发器、挂钩某个金融资产赔付”的结构，还是那种“我处在一个受高度监管的行业，如果民主党赢了我就得关门”的人？人们做选举对冲背后的直觉是什么？"
+    },
+    {
+      "i": 73,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "26:13",
+      "en": "I think those are more just binary. It's just who's going to win. And I do think that generally- Why is that a hedge?",
+      "zh": "我觉得那些更多只是二元的，就是谁会赢。我确实认为总的来说——“那为什么算对冲？”"
+    },
+    {
+      "i": 74,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "26:18",
+      "en": "Who's hedging what there?",
+      "zh": "那里是谁在对冲什么？"
+    },
+    {
+      "i": 75,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "26:19",
+      "en": "So I think there's a few different angles. One of them is like you said, this would be just very bad for my business. And I do think that the things that are the real businesses, like this is bad for my business, that's probably the thing that's a little bit slower to pick up because it takes longer to get someone who has a real money business to start doing this. That's a totally new product. It makes sense why the financial players get involved first.",
+      "zh": "我觉得有几个不同的角度。其中一个就像你说的，“这对我的生意会非常糟糕”。我确实认为，那些真正的实体业务——就是“这对我的生意不利”这类——反而起量会慢一些，因为要让一个有真金白银业务的人开始做这种全新的产品，需要更长时间。这也说得通，为什么金融类玩家会先参与进来。"
+    },
+    {
+      "i": 76,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "26:43",
+      "en": "Well, but also like if you have a real money business, like if you sell ball bearings, you're not going to get shut down if like one side wins the election. I could name some firms that might get shut down if one side wins the election. Right.",
+      "zh": "嗯，但同样，如果你做的是真金白银的实体生意，比如你卖滚珠轴承，你不会因为某一方赢了选举就被关门。我倒是能说出几家可能会因为某一方赢选举而被关掉的公司。对吧。"
+    },
+    {
+      "i": 77,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "26:55",
+      "en": "So oftentimes it might be a situation where it's not like you're going to get shut down, but there could certainly be economic impact to your business, right? And you could want to sort of hedge out some of the economic impact.",
+      "zh": "所以很多时候，情形不一定是你会被关门，但你的生意确实可能受到经济上的冲击，对吧？你可能就想对冲掉一部分这种经济冲击。"
+    },
+    {
+      "i": 78,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "27:06",
+      "en": "I'm just wondering like how modelable that is, right? Is this like Politically committed CEOs were like, oh, if the Democrats win, it's going to be a disaster for me. But like, that's not empirically true. I feel like people's intuitions about the effect, even Jane Street's intuitions about the effect of an election on like their business or asset prices are unreliable. And it's a strange way to hedge.",
+      "zh": "我只是在想这东西有多可建模，对吧？是不是那种“政治上站队的 CEO”会说“哦，民主党赢了对我来说就是灾难”，但这在经验上并不成立？我觉得人们对选举影响的直觉——哪怕是 Jane Street 对选举如何影响其业务或资产价格的直觉——都靠不住。而且这是种很奇怪的对冲方式。"
+    },
+    {
+      "i": 79,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "27:28",
+      "en": "I can give you an example. Oftentimes, I think if it's a real business, it's much more targeted. It's much less like vibes, this party is going to crush me, but more say, again, people just to go back to the data centers, because it's the thing we're hearing more about than everything else combined. And I wouldn't say it's like the majority of the trades we've done to date, but it's by far the majority of the interest that we're getting. If you're a data center operator in Texas, you've got a governor election, data centers are 100% on the ballot. Now they could come and they could say to us something like, we actually want to hedge the moratorium risk, but you could also get a pretty reasonable proxy for just hedging the governor race. And those two things wind up being extremely correlated. So I think with the real money business, it comes more down to like, what is the actual policy that's going to impact me?",
+      "zh": "我可以给你举个例子。通常如果是实体业务，它会更有针对性，远不是那种“凭感觉、这个党会把我碾碎”，而更像是——还是回到数据中心吧，因为这是我们听到最多的话题，比其他所有加起来都多。我不会说它是我们迄今做过的交易里的多数，但它绝对是我们收到的兴趣里的绝大多数。如果你是德州的一家数据中心运营商，遇上周长选举，数据中心议题百分之百在选票上。他们可以来找我们说，“我们其实想对冲禁建令风险”，但你也可以得到一个相当合理的替代品——直接对冲州长选举。而这两件事最后会高度相关。所以我认为，对实体业务来说，它更多归结为：“到底哪项具体政策会冲击到我？”"
+    },
+    {
+      "i": 80,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "28:14",
+      "en": "Okay. So like you're a data center developer and you're like, if the election goes one way, there'll be a moratorium. If the election goes the other way, there won't be a moratorium. There's a moratorium contract that you can buy from Susquehanna and there's an election contract. There's, let's say, no basis risk in the moratorium contract, right? If there's a moratorium, you get paid. If there's no moratorium, you don't get paid. There's somewhat obviously... basis risk and the election contract. Like they're highly correlated, but there's like obvious basis risk. Why are you buying the election contract? Is it cheaper? Is it more fun? Like what's, is it, is it the more holistically a threat than like a more, like what's going on there?",
+      "zh": "好。那假设你是个数据中心开发商，你想：“如果选举往这个方向走，就会有禁建令；往那个方向走，就没有。”有一份禁建令合约，你可以从 Susquehanna 买；还有一份选举合约。比方说禁建令合约没有基差风险（basis risk），对吧？——如果真出禁建令，你就获赔；没有，你就不获赔。而选举合约显然有一些……基差风险，它们高度相关，但基差风险很明显。那你为什么要买选举合约？是它更便宜？更好玩？还是说——它整体上是个更全面的对冲？到底怎么回事？"
+    },
+    {
+      "i": 81,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "28:51",
+      "en": "I think the way that the conversation kind of happens is the party might not actually even know at the beginning that there is a moratorium market. Yeah, but you can tell them. Which is why I think that realistically.",
+      "zh": "我觉得对话往往是这么展开的：对方一开始可能根本不知道还有一个禁建令市场。是啊，但你可以告诉他们。这也是为什么我认为，现实地说——"
+    },
+    {
+      "i": 82,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "29:01",
+      "en": "Why are you selling them the election one?",
+      "zh": "——你们为什么要卖给他们选举那个？"
+    },
+    {
+      "i": 83,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "29:02",
+      "en": "In that scenario, I don't think we've done a lot of sort of like real money business trading the election. The people who want to trade the election itself are much more likely to be a firm that's on the financial side, where they're looking at the financial impact, like a hedge fund, for example. They're looking at their portfolio risk and all the ways that their portfolio is going to move based on that election.",
+      "zh": "在那种情形下，我觉得我们并没有做过很多实体业务去交易选举本身。想交易选举本身的，更可能是金融这边的公司，他们看的是财务影响，比如一家对冲基金。他们看的是自己组合的风险，以及组合会因这场选举而以哪些方式波动。"
+    },
+    {
+      "i": 84,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "29:22",
+      "en": "So they're like, my portfolio has some basis risk to the moratorium contract, some basis risk to the election contract. So neither one is a perfect hedge to my overall portfolio. Right.",
+      "zh": "所以他们像是：“我的组合对禁建令合约有一些基差风险，对选举合约也有一些基差风险，所以两者都不是我整个组合的完美对冲。”对吧。"
+    },
+    {
+      "i": 85,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "29:31",
+      "en": "And I think that most hedge funds that have portfolios are are used to trying to break down factors. And election is absolutely an important factor, and you've probably seen some of the baskets that banks put out of, here's all these different products that you should put on to bet on Republicans winning or Democrats winning.",
+      "zh": "我觉得大多数有组合的对冲基金，都习惯于去拆解各种因子。而选举绝对是一个重要因子。你大概也见过银行推出的一些“篮子”（baskets）——“这里有各种产品，你可以押共和党赢或民主党赢。”"
+    },
+    {
+      "i": 86,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "29:48",
+      "en": "And those are- Your portfolio looks like one of those baskets you're calling Susquehanna for a hedge. Right.",
+      "zh": "而那就是——你的组合看上去就像那些篮子之一，你打电话给 Susquehanna 来做对冲。对吧。"
+    },
+    {
+      "i": 87,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "29:52",
+      "en": "And you can hedge that by putting on that basket. But again, that basket is actually oftentimes a dirtier hedge. You have the ability to, you could close some of your risk, but a lot of these firms might like those positions. They don't want to close the risk. So if what you're worried about is what's the impact going to be on this portfolio, you can hedge the election directly. And I think that's where you're more likely to see the election. Plus, to be honest, people have a lot of opinions on the election. I think you have a lot of people who just think one side is going to win or not. It's a market that obviously trades a lot. If you're a real money business, I think in general, you're probably going to go narrower. And that's what we see. Like the real money businesses, they're looking for things that are much narrower the firms that are closer to financial markets are often looking for things that are broader.",
+      "zh": "你可以通过建立那个篮子来对冲。但同样，那个篮子其实往往是个更“脏”的对冲。你可以平掉一部分风险，但很多这类公司其实喜欢那些头寸，不想把风险平掉。所以如果你担心的是“这场选举会对这个组合产生什么影响”，你可以直接对冲选举。我觉得这就是你更可能看到用选举来对冲的地方。而且老实说，人们对选举有很多观点。我觉得有很多人就是想当然地认为某一方会赢或不会赢。这显然是个交易量很大的市场。如果你是实体业务，我觉得总体上你可能会走得更窄一些。这也是我们所看到的：实体业务在找那些窄得多的东西，而更接近金融市场的那些公司，往往在找更宽泛的东西。"
+    },
+    {
+      "i": 88,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "30:33",
+      "en": "And then is that because they're hedging a broader portfolio or because they're taking directional risk with you?",
+      "zh": "那这是为什么——是因为他们在对冲一个更宽泛的组合，还是因为他们在跟你做方向性风险（directional risk）？"
+    },
+    {
+      "i": 89,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "30:38",
+      "en": "I think it can be both. Obviously, when we are doing this institutional business, we're really trying to focus on the hedging trades in most markets. Now, in an election market, especially a big one like, say, Senate control, those are liquid enough markets with things going back and forth that we're happy to take on the other side of someone else having an opinion and it's their alpha trade. If someone wanted a very, very bespoke thing. Like if some hedge fund came to us and they were like, you want to put on this goat herder hedge, we would be less likely to take it on.",
+      "zh": "我觉得两者都可能。显然，我们做这类机构业务时，在大多数市场里真正聚焦的是对冲型交易。不过在一个选举市场里，尤其是像参议院控制权这种大市场，它们流动性足够好、来回拉锯，我们也乐意去接对手方“有观点”的另一边——那是他们的 alpha 交易。但如果有人想要一个非常非常定制的东西，比如某家对冲基金来找我们说“你想不想接下这个牧羊人对冲”，我们接的可能性就更低。"
+    },
+    {
+      "i": 90,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "31:05",
+      "en": "I wrote about, you did a hedge for a Spanish soccer team getting relegated. That is like a blazing red alarm adverse selection risk, possibly, right? And I assume, and I wrote this, that I assume that your due diligence involved like modeling how much money they would lose by getting relegated and making sure that you were hedging something less than 100% of that. 100%. Yes. How much adverse selection due diligence is there in these markets? Are people coming to try to pick you off? You know what I mean? Are politicians betting against themselves? Is getting adversely selected by people who know more about these markets a big risk on the OTC side, or is it all pretty up and up?",
+      "zh": "我写过——你们做过一笔对冲，是一家西班牙足球队降级。那可是个刺眼的红色警报，是很可能的逆向选择（adverse selection）风险，对吧？我猜——我也这么写了——你们的尽职调查包括建模他们降级会亏多少钱，并确保你们对冲的额度低于那个数的100%。100%。是的。这类市场里有多少逆向选择的尽调？有没有人来试着“捡你的漏”（pick you off）？你懂我意思吗？会有政客押注自己输吗？被那些比你还懂这些市场的人逆向选择，在场外这边是不是个大风险，还是说一切都挺光明正大？"
+    },
+    {
+      "i": 91,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "31:47",
+      "en": "To this point, we haven't really experienced that on the OTC side. If we're going to show a big size and a tight price... We want to have an understanding of the story, right? And we actually really want to work with the other side to understand.",
+      "zh": "到目前为止，我们在场外这边还没真正碰到过那种情况。如果我们要报一个大额、紧价的单——我们希望搞清楚背后的故事，对吧？而且我们其实很想跟对手方一起去弄明白。"
+    },
+    {
+      "i": 92,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "31:59",
+      "en": "You say a tight price. I assume you're not showing people two-sided markets on these things.",
+      "zh": "你说“紧价”。我猜你们不会在这些东西上给人报双边市场。"
+    },
+    {
+      "i": 93,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "32:04",
+      "en": "There are times that we do. There are times that we will show a two-sided market. A lot of the times it is one-sided, but there are some parties that actually want a two-sided market and will make that.",
+      "zh": "有时候我们也会。有时候我们会报双边市场。很多时候是单边的，但确实有些对手方想要双边市场，那我们就会报。"
+    },
+    {
+      "i": 94,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "32:12",
+      "en": "And tell me, so you said you want to understand the story, but what's the story of a two-sided market? It's just the hedge fund wants to speculate or.",
+      "zh": "那告诉我，你说你们想搞清楚背后的故事，可双边市场的故事又是什么？就是那家对冲基金想投机，还是……"
+    },
+    {
+      "i": 95,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "32:20",
+      "en": "So sometimes it's coming through a broker, right? And brokers are just used to- We want to get a two-sided market. We want to show the width. That's sort of part of their process. In that case, we're happy to do it. Usually, if it's a broker, they're more likely to ask for a two-sided market. Not always, but more likely.",
+      "zh": "有时候它是通过经纪商（broker）来的，对吧？经纪商就是习惯——“我们要一个双边市场，我们要看到买卖两端的宽度”，这是他们流程的一部分。那种情况下我们乐意做。通常如果是经纪商，他们更可能要求双边市场，不总是，但更可能。"
+    },
+    {
+      "i": 96,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "32:34",
+      "en": "You say brokers. A broker comes to you with, we have an anonymous client who wants to take a position on the Texas election. Can you show us a two-sided market? So you don't really have a sense of the story there.",
+      "zh": "你说经纪商。一个经纪商来找你说：“我们有个匿名客户想在德州选举上建仓，你能给我们报个双边市场吗？”那这种情况下你就没什么头绪去了解背后的故事了。"
+    },
+    {
+      "i": 97,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "32:43",
+      "en": "So if it's something that's kind of more general, right? If it's the Texas election, there's a lot of information out there.",
+      "zh": "如果是那种比较普遍的东西，对吧？如果是德州选举，市面上的信息很多。"
+    },
+    {
+      "i": 98,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "32:49",
+      "en": "You're not likely to be adversely selected by someone.",
+      "zh": "你不太容易被谁逆向选择。"
+    },
+    {
+      "i": 99,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "32:51",
+      "en": "We're not that worried about adverse selection. And so it's fine to throw a two-sided market. They could have an opinion and that's okay, right? If they're like, we want you to build this market from scratch and it's this very specific thing, go back to the goat trade. We've obviously talked about that one a good amount today.",
+      "zh": "我们不太担心逆向选择。所以报个双边市场没问题。他们可以有观点，这没关系，对吧？但如果他们说“我们想让你从零建这个市场，而且是这么个非常具体的东西”——回到那笔山羊交易吧，今天我们显然聊了它不少。"
+    },
+    {
+      "i": 100,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "33:05",
+      "en": "It's like the best paradigm. Right.",
+      "zh": "它简直是绝佳的范例。对吧。"
+    },
+    {
+      "i": 101,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "33:07",
+      "en": "No, it is great. Obviously, we're going to need to know the story, right? You can't design the trade that you have the opinion on to get your alpha trade against us. We're not going to be able to get out of the risk in some very random specific thing. So it really comes down to the specificity. If it's a really narrow trade, we want to have a conversation. We want to understand why you want to do it. And part of that is so we don't get adversely selected. Part of that is so that we make sure we actually design the right product that actually takes your risks on. If you come in in a liquid market, I want to predict who's going to control the Senate. That's fine. We'll make you a two-sided market in size. We feel comfortable. There's enough trading in that market that we could probably get out of a position in that. And, you know, we know enough about it that we're not that concerned that someone's going to adverse select us.",
+      "zh": "不，它确实很棒。显然，我们需要知道背后的故事，对吧？你不能设计一笔你有观点的交易，来做你的 alpha 交易、跟我们对着赌。我们没法在某个非常随机的具体东西上把风险了结掉。所以这真归结于“具体程度”。如果是一笔非常窄的交易，我们想聊一聊，想搞清楚你为什么要做。这么做一部分是为了不被逆向选择，一部分是为了确保我们真的设计出了能承接你风险的正确产品。如果你进的是一个流动性好的市场——“我想预测谁将控制参议院”——那没问题，我们会给你报一个我们有把握的双边市场、给出规模。那个市场交易足够多，我们大概能把头寸了结掉，而且我们对它了解够多，不太担心被人逆向选择。"
+    },
+    {
+      "i": 102,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "33:48",
+      "en": "In crude numbers, this book of RTC trades, like, are you laying off like 10% of it or like 90% of it or like?",
+      "zh": "粗略地说，这块场外（OTC）交易账簿，你们是把其中大约10%的风险转嫁出去，还是90%，还是？"
+    },
+    {
+      "i": 103,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "33:54",
+      "en": "Probably closer to the 10% than the 90%.",
+      "zh": "大概更接近10%，而不是90%。"
+    },
+    {
+      "i": 104,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "33:55",
+      "en": "That's what I thought, yeah.",
+      "zh": "我也是这么想的，是的。"
+    },
+    {
+      "i": 105,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "33:56",
+      "en": "This is a business where we are the vast majority of the time holding all of the risk.",
+      "zh": "这是一门绝大多数时候我们都自己扛着全部风险的生意。"
+    },
+    {
+      "i": 106,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "34:03",
+      "en": "I assume if this business is like 100x where it is today, you'll be laying off 90% of the risk.",
+      "zh": "我猜如果这门生意做到今天的100倍大，你们会把90%的风险转嫁出去。"
+    },
+    {
+      "i": 107,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "34:08",
+      "en": "Yeah, for sure.",
+      "zh": "是的，肯定。"
+    },
+    {
+      "i": 108,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "34:09",
+      "en": "If everything gets super liquid, you won't be holding. Absolutely. You won't be like a giant insurance company. Right.",
+      "zh": "如果一切都变得超级流动，你们就不会一直持有。当然。你们就不会像一家巨型保险公司那样。对吧。"
+    },
+    {
+      "i": 109,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "34:14",
+      "en": "And I think there's different ways that we ultimately can wind up laying off that risk. Some of it can be the markets are liquid enough that we're just doing it in the markets. That'll probably work for some things. And the broader you get, the easier that is. So I can absolutely envision a scenario that's not so far in the future where there's a liquid enough market in, say, will Texas have a moratorium on data centers that we can trade in and out of that. When you start talking about things that are hyper-specific, you're a lot further from that. Our goal is we really do want to work with people in the insurance industry because they're used to all different forms of syndication and sharing and things like that. And so that's probably one of the better ways that we can ultimately wind up sharing some of that, like laying off some of that risk is to potentially share some of it with someone who's in the insurance space. And I think that's probably a much easier way to go for the specific things.",
+      "zh": "我觉得最终我们转嫁这些风险有不同的方式。其中一部分可以是市场流动性足够好，我们就直接在市场里做——这对某些东西大概行得通，而且标的越宽泛，这越容易。所以我完全能设想一个并不遥远的场景：比如“德州会不会对数据中心下禁建令”，会有一个流动性足够好的市场，我们能在里面进出。但当你开始谈那些极其具体的东西时，你就离那个场景远得多了。我们的目标是，我们确实想跟保险行业的人合作，因为他们习惯于各种形式的辛迪加（syndication）、风险分担等等。所以这大概是我们最终分担、转嫁部分风险的较好方式之一——也许就是跟保险领域的人分担一部分。我觉得对那些具体的东西来说，这条路大概要好走得多。"
+    },
+    {
+      "i": 110,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "35:04",
+      "en": "Let's say a data center moratorium trade is- not that liquid. I don't know if that's true, but Texas governor is really liquid. Are you taking $ 100 million of data center risk and laying off $ 50 million in the governor election and taking some basis? Is there a factor correlation model of hedging this stuff?",
+      "zh": "假设一笔数据中心禁建令交易——没那么流动。我不知道是不是真的，但德州州长（选举）非常流动。你们会不会承接1亿美元的数据中心风险，然后在州长选举里转嫁5,000万，承担一些基差？有没有一套因子相关性模型来对冲这些东西？"
+    },
+    {
+      "i": 111,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "35:23",
+      "en": "It's more that it influences how we will act. So we're more likely to try to lean into a position in some of those other markets. Most of them, if you're taking a massive trade and you're going to just sort of like, put this massive trade on and have the basis risk. Like there's still not quite the liquidity in like Texas governor to be like, we're going to put on this massive trade. We're probably going to impact that market in the process. And we're probably going to wind up with some degree of basis risk there too. So it's more of a, we have this on, we understand the important factors that are our risk factors that we have. We're going to sort of use that both to change what we think is fair, because there can be information in some of these trades and also to potentially try to sort of reduce the factors as we can. But that being said, we understand that a lot of these are we need to basically manage our risk budget effectively. And some of it can be done through laying off and all those things. A lot more of it has to be done through being selective in terms of what are the trades that we're going to put on, what trades make sense. And when we look at data centers and just the total size of the risk that's probably uncovered right now, it's in the hundreds of billions of dollars. So it's definitely something we have to put a lot of thought into of like, how do we ultimately at scale? And right now it's not like it's big enough to be like it's eaten up all of anybody's risk budget for us. But at scale, we need to understand how this looks when you have some massive risk that the world has and they need someone to be the capacity on the other side. And that's a good part of the reason why we actually do kind of invite competition to a degree in that like, We want other capacity. We want to grow the markets. And we think we'll ultimately actually win to that, even if it means we maybe are competing with more forms of insurance syndicates that are doing some of these things too. We actually welcome that.",
+      "zh": "更多是它会影响我们的行为。所以我们更可能在那些其他市场里去顺势建仓。大多数情况下，如果你接了一笔巨大的交易，然后就打算把这笔巨单扛着、承担基差风险——德州州长市场其实还没有那种流动性，让你能说“我们要下这笔巨单”。我们大概率会在这个过程中冲击那个市场，最后自己也会带上一定程度的基差风险。所以更多的是一种：我们手上有这个头寸，我们理解那些构成我们风险因子的重要因子，我们会既用它来改变我们认为的公允价（因为这些交易里可能含有信息），也用它来尽可能去削减这些因子。话虽如此，我们明白这里面很多都需要我们有效地管理自己的风险预算（risk budget）。其中一部分可以通过转嫁等方式来做，但更多的必须靠“精选”——即哪些交易我们要接、哪些交易说得通。当我们看数据中心，看那大概尚未被覆盖的风险总规模时，那是数千亿美元级别的。所以这绝对是我们必须深思熟虑的东西：我们最终如何规模化？现在它的规模还没大到把我们的风险预算全吃光。但在规模化时，我们需要理解：当世界上存在某种巨大的风险、需要有人来做对手方产能（capacity）时，这会是什么样子。这也正是我们其实在某种程度上欢迎竞争的一大原因——我们想要其他产能，我们想把市场做大。我们相信最终我们其实会赢，哪怕这意味着我们要跟更多同样在做这些事的保险辛迪加竞争。我们其实是欢迎的。"
+    },
+    {
+      "i": 112,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "37:06",
+      "en": "I love the idea that prediction markets are basically sports gambling now, and the vision is they're basically society's hedge against data center risk. Yeah.",
+      "zh": "我很喜欢这个说法：预测市场现在基本上就是体育博彩，而它的愿景是——它们基本上是全社会对冲数据中心风险的工具。是啊。"
+    },
+    {
+      "i": 113,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "37:19",
+      "en": "You know, things happen in mysterious ways. It makes total sense. I suppose. But I always thought when I first wanted to start building a prediction markets desk, you know, it's four years ago now. I really did envision this institutional hedging case as the reason to do it. I've got a story I've told a few times now about a friend who's CFO of a musical instrument company that was concerned about tariffs, and that was kind of part of the light bulb in my head. That was the original reason we really wanted to do it. The path goes through sports, because sports has sort of built the space. It's created a lot of volume, a lot of interest on it. But I do firmly believe that if prediction markets is ultimately successful- the long-term success will be predicated on this institutional hedging. And that's for ecosystem reasons, because you need a robust ecosystem that has a combination of different types of market participants. And hedging is a really important part, right? If you think about traditional financial markets.",
+      "zh": "你知道，事情以奇妙的方式发生。我猜这完全说得通。但我一直记得，最初我想搭建一个预测市场交易台时——那已经是四年前了——我确实就是把这种机构对冲场景当作做它的理由。我讲过好几遍一个故事：我有个朋友是一家乐器公司的 CFO，担心关税，那差不多就是我脑子里亮起灯泡的一刻，也是我们当初真正想做这件事的初衷。这条路要经过体育，因为体育某种意义上撑起了这个领域，创造了大量成交量和大量关注。但我确实坚信，如果预测市场最终要成功，它的长期成功将取决于这种机构对冲。这是出于生态系统的原因——你需要一个稳健的生态系统，里面有各种不同类型市场参与者的组合。而对冲是其中非常重要的一环，对吧？你想想传统金融市场就知道了。"
+    },
+    {
+      "i": 114,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "38:14",
+      "en": "People are not looking for alpha. Exactly. The traditional market, great source of people who are not looking for alpha are retail sports gamblers, but data center hedgers are a much Right.",
+      "zh": "那些人不是在找 alpha。没错。在传统市场里，“不找 alpha 的人”的一大来源是散户体育赌客，但数据中心对冲者则是好得多的（来源）——对吧。"
+    },
+    {
+      "i": 115,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "38:24",
+      "en": "You absolutely do. If your entire market is built from people who they're trying to predict, and there's a reason why that's the first people in predictions. It's prediction markets. People are trying to predict the outcome. You can build something there, but it's not as robust because you don't have the type of variety of reasons people are trading. It's a much more robust ecosystem if you have the hedging in there as well. I think there's some hedging now, but I'm not going to go and tell you that that's the majority of the order flow that you see in predictions today. But I do honestly think it needs to be if it's going to become what it needs to become.",
+      "zh": "你绝对需要他们。如果你整个市场都是由“试图去预测”的人构成的——这也正是为什么他们是预测市场里的第一批人，它就叫预测市场嘛，人们试图预测结果——你可以在那上面建起些东西，但它没那么稳健，因为你缺少人们交易的各种各样的理由。如果里面也有对冲，生态系统就会稳健得多。我觉得现在有一些对冲，但我不会跟你说那是你在今天的预测市场里看到的大部分订单流。但我确实老实认为，如果它要成为它必须成为的样子，那就得是对冲。"
+    },
+    {
+      "i": 116,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "38:57",
+      "en": "Is it the majority of the order flow in your institutional hedging book slash OTC book?",
+      "zh": "在你的机构对冲账簿／场外账簿里，它占订单流的多数吗？"
+    },
+    {
+      "i": 117,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "39:03",
+      "en": "In the institutional hedging book, yes. The majority is definitely hedging.",
+      "zh": "在机构对冲账簿里，是的。绝大多数肯定是对冲。"
+    },
+    {
+      "i": 118,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "39:06",
+      "en": "As opposed to hedge fund alpha trades.",
+      "zh": "而不是对冲基金的 alpha 交易。"
+    },
+    {
+      "i": 119,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "39:08",
+      "en": "Yes, for sure. But again, that volume relative to the overall predictions volume is still very small as of today.",
+      "zh": "是的，肯定。但同样，相对于整个预测市场的成交量，这块量到今天为止仍然非常小。"
+    },
+    {
+      "i": 120,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "39:14",
+      "en": "Yeah.",
+      "zh": "是啊。"
+    },
+    {
+      "i": 121,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "39:24",
+      "en": "Thank you.",
+      "zh": "谢谢。"
+    },
+    {
+      "i": 122,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "39:30",
+      "en": "Sorry to circle back to sports, but like sports hedging. So some sports hedging is like you're doing a promotion and you're whatever. But like how much sports hedging is sports teams hedging themselves?",
+      "zh": "抱歉又绕回体育，但说说体育对冲。有些体育对冲是——你在做个促销活动之类的。但体育对冲里，有多少是运动队给自己对冲？"
+    },
+    {
+      "i": 123,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "39:42",
+      "en": "I don't think that there's a lot of sports teams.",
+      "zh": "我觉得运动队自己做的并不多。"
+    },
+    {
+      "i": 124,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "39:45",
+      "en": "Have you done more than one? Because there's one publicly reported Spanish soccer relegation trade. Have you done more than like three?",
+      "zh": "你们做过不止一笔吗？因为公开报道过的那笔西班牙足球降级交易就一笔。你们做过超过三笔之类的吗？"
+    },
+    {
+      "i": 125,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "39:51",
+      "en": "So not all of it is in sort of this current era of predictions either. There's been history of different types of OTC transactions where sports teams might hedge some kind of risk or another, whether it's how far they advance or whatnot. Sports teams don't want to put on a trade that's a direct bet against themselves a lot of the time, and there are reasons for that, partially just kind of optics. But then there's a lot of businesses that are intrinsically tied up with the sports teams, right? You could say you have some... network that has media rights and they need a team to make the playoffs or even just like they've got some high marking matchup that's going to happen on Christmas or some key day and like they want the teams to be good. You've got the sponsors, you've got all these mouths that are tied up with it, right? And we're probably seeing more of them involved in saying like, we really want to hedge some of the risks that we have on there. The different players that have intrinsic risks tied up in the performance of a sports team or even just a player. And then obviously there's the promotion stuff too, which is real. There's a lot of promotions that are based on sports teams and we're seeing more of them start to say, well, we can hedge our promotion risk. Or even we can launch a promotion if we can hedge the risk, right? We want to do a promotion where if you pick all the NCAA March Madness winners, you get a billion dollars or something, but you need someone to actually be the one who's going to take that on and Those are things that we're willing to do, right? You need some mechanism to be able to do that.",
+      "zh": "并非全都发生在当前这个预测市场时代。历史上就有各种类型的场外交易，运动队可能会对冲某种风险，无论是能晋级到多远之类的。运动队很多时候不想下一笔“直接押自己输”的交易，这有其理由，部分纯粹是形象（optics）问题。但还有很多业务与运动队内在绑定，对吧？你可以说你有某个……拥有转播权的媒体网络，需要某支球队打进季后赛；或者圣诞节或某个关键日子有一场高收视的对决要发生，他们希望这些球队状态好。你还有赞助商，有这么多张“嘴”都跟它绑在一起，对吧？我们大概会看到更多这样的主体参与进来说“我们真的想对冲我们在其中的一些风险”。这些玩家对一支运动队、甚至只是一个球员的表现，有内在绑定的风险。然后当然还有促销活动那块，那是真实的。有很多促销是基于运动队的，我们看到越来越多这样的主体开始说“嗯，我们可以对冲我们的促销风险”，甚至“只要能对冲风险，我们就可以推出一个促销”，对吧？我们想做一个促销：如果你把 NCAA 疯狂三月（March Madness）所有胜者都猜中，就给你10亿美元之类的，但你需要有人真的来接下这个风险。而这些正是我们愿意做的事，对吧？你需要某种机制才能做成。"
+    },
+    {
+      "i": 126,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "41:15",
+      "en": "My impression is that sports markets, first of all, are pretty liquid. And second, there's a lot of correlated trades, right? Like someone who's like, I want to hedge my media rights to some sports team. Like you can lay that off in a lot of places. Yes. Does that work by like you do a big trade and then you try to lay it off? Does it work by like you do a big trade and then like there's some dashboard of like how much Knicks risk you have and you're like, Adjust the prices on your flow market making on the next?",
+      "zh": "我的印象是，首先，体育市场相当流动。其次，有很多相关联的交易，对吧？比如有人说“我想对冲我持有的某支运动队的转播权”，你可以在很多地方把它转嫁出去。是的。那这运作方式是——你做一笔大交易，然后试着转嫁出去？还是——你做一笔大交易，然后有个仪表盘显示你有多少尼克斯（Knicks）风险，你就调整你在尼克斯上做市报单的价格？"
+    },
+    {
+      "i": 127,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "41:41",
+      "en": "It's probably more the second. I would say relative to most firms out there, we tend to have more liberal attitudes towards risk. We really focus on the expectancy of the trade. We take on some big trade and we have next risk, right? We're going to tune some of our parameters to try to ultimately over a longer, slower period of time, work out of that risk in the market. But we're not going to go and sort of just try to get out of all of it now because that's more expensive, which by the way, is exactly what we do in traditional financial markets too. If we get a big risk put to us, we work out of it slowly. You want to paying less to work out of it if you work out of it over a longer period of time. And we're willing to take the higher return for the longer period of risk. And that's firm policy overall.",
+      "zh": "大概更多是第二种。我会说，相对于市面上大多数公司，我们对风险的态度往往更开放。我们真正关注的是交易的期望值（expectancy）。我们接下一笔大交易、有了尼克斯风险，对吧？我们会调一些参数，试图在一段更长、更慢的时间里，最终在市场里把这个风险消化掉。但我们不会马上去把所有风险都平掉，因为那样更贵——顺便说一句，这正是我们在传统金融市场里的做法。如果有一笔大风险甩给我们，我们会慢慢消化。你在更长的时间里消化，付出的成本就更低。我们愿意为承担更长时间的风险换取更高的回报。这是公司整体的政策。"
+    },
+    {
+      "i": 128,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "42:23",
+      "en": "Yeah, I guess it's like in general in the prediction market OTC hedging business, like how much tuning of parameters is there, right? So like the goat herder like goes nowhere, right? Like there's no other correlated trade, right? But like when you're thinking of the risk budget for like Texas elections, these things are all correlated, right? You know, if someone comes to you and is like, I want to do a data center moratorium, you're like, I have so much Texas election risk, like we're going to show a bad price on that because like it would, you know, add too much to our risk. Or like you sell a lot of data center moratoriums and you like, adjust the flow market making price on the Texas governor race. I mean, think about it the right way. Is it sort of dashboard of factors and correlations that is kind of like feeding into all of these trades or like are a lot of these trades so one-off that you evaluate them on their own?",
+      "zh": "是啊，我猜总的来说，在预测市场场外对冲这块业务里，有多少参数的调校，对吧？牧羊人那个哪儿也去不了，对吧？没有其他相关联的交易，对吧？但当你考虑德州选举这类风险预算时，这些东西都是相关的，对吧？如果有人来找你说“我想做一笔数据中心禁建令”，你会说“我已经有这么多德州选举风险了，所以我们要在这上面报个差价格，因为它会给我们的风险加太多”。或者你们卖了很多数据中心禁建令，就调整在德州州长选举上做市的价格。我意思是——该用什么正确的框架来想这件事？是有那么一个由因子和相关性组成的仪表盘，反哺进所有这些交易里，还是说很多这类交易都是一次性的、你们就单独评估它们？"
+    },
+    {
+      "i": 129,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "43:08",
+      "en": "So there's definitely a little of both. Obviously, there's plenty of these things that are one-off and there's plenty of them that are short-dated enough that like by the time you would have gone and done anything, the event is over. Mm-hmm. There are certainly some where we have things for longer periods of time. And I'd like to give you a very clean answer, but it's actually kind of a messy problem. Part of it is, okay, we got this position. How did we get it? Is there information in that? Should we actually change our fair values is sort of the first question based on this position that got put to us.",
+      "zh": "那肯定两者都有一点。显然，有很多这类东西是一次性的，也有很多期限短到——等你想去做点什么的时候，事件已经结束了。嗯。当然也有一些我们会持有更长时间。我想给你一个非常干净的答案，但这其实是个挺杂乱（messy）的问题。其中一部分是：好，我们有了这个头寸，它是怎么来的？这里面有信息吗？基于这个甩给我们的头寸，我们到底该不该改变我们的公允值——这是第一个问题。"
+    },
+    {
+      "i": 130,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "43:35",
+      "en": "So the question is, is there information in the trade that should cause our fair values to change? Or are we further from home? You don't care if you're further from home.",
+      "zh": "所以问题是：这笔交易里有没有信息，应该导致我们的公允值改变？还是说我们离“家”（中性）更远了？如果你们只是离中性更远，你们并不在意。"
+    },
+    {
+      "i": 131,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "43:44",
+      "en": "We care about both. But the first question when we have a trade is, is there information in this trade? Obviously, if some of these things we've talked about have been, this seems very much like a hedging trade, but not everything that we do is like, this is definitely a hedging trade on the other side. So the first question is, here's a trade. Let's try to understand how this should impact what the probability is of these things happening. Once we've done that, then we're going to look at our risk and we're going to look at it across all the different factors that we have. And generally, we're going to say, okay, we would need to be compensated a little bit more to put on more risk now that we've got a lot of risk on. And we would probably be willing to take risk off for zero expectancy right now to reduce our risk. We would do it for the dead fair price, no bid as spread at all. And that's kind of how it works with most of our risk. And it's the same thing here. Now, the factors and parameters are trickier here, right? Because as you've pointed out, You can't just throw it into sort of some market model to spit out all your correlations and tell you what your risk factors are.",
+      "zh": "两者我们都在意。但当我们有一笔交易时，第一个问题是：这笔交易里有没有信息？显然，我们聊过的一些东西“这看上去非常像一笔对冲交易”，但并不是我们做的每笔都这样，“对面肯定是一笔对冲交易”。所以第一个问题是：这儿有笔交易，我们来试着理解它应当如何影响这些事情发生的概率。搞定之后，我们再去看我们的风险，会横跨我们所有的不同因子去看。通常我们会说：好，我们现在已经背了很多风险，要再增加风险，我们就需要多得一点补偿；而为了降低风险，我们现在大概愿意以零期望值把风险减掉——我们愿意按完全公允的价格来做，买卖价差为零。这基本就是我们大多数风险的运作方式，这里也一样。不过在这里，因子和参数更棘手，对吧？因为正如你指出的，你不能直接把它扔进某个市场模型，让它吐出你所有的相关性、告诉你你的风险因子是什么。"
+    },
+    {
+      "i": 132,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "44:37",
+      "en": "That's just because it's like there's not second by second time series for 20 years.",
+      "zh": "那只是因为，它没有那种长达20年、逐秒的时间序列数据。"
+    },
+    {
+      "i": 133,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "44:41",
+      "en": "You've got a lot of second order effects that happen. You can't just throw a quant model at this. You have to think really hard about how are these things correlated. For example, how is the Senate race in New Hampshire correlated with this? data center moratorium risk in Texas. They're correlated, right? They're less correlated than, you know, with the Texas race. And there's no like long history of data that's going to just give you the answer. So that's part of our process.",
+      "zh": "你会碰到很多二阶效应（second order effects）。你不能直接拿个量化模型套上去，你得非常认真地去想这些东西是怎么相关的。举个例子，新罕布什尔州的参议员选举，跟这个德州的数据中心禁建令风险是怎么相关的？它们是相关的，对吧？它们的相关性比跟德州那场选举要弱。而且没有那种漫长的历史数据能直接给你答案。所以这是我们流程的一部分。"
+    },
+    {
+      "i": 134,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "45:07",
+      "en": "In like 10 years, you'll be able to throw a quant model at it, right? Some of it, sort of.",
+      "zh": "大概10年后，你就能拿个量化模型套上去了，对吧？其中一部分，差不多吧。"
+    },
+    {
+      "i": 135,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "45:10",
+      "en": "It'll certainly be a lot easier to just throw a model at it in 10 years than it is today.",
+      "zh": "10年后直接套模型，肯定比今天要容易得多。"
+    },
+    {
+      "i": 136,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "45:14",
+      "en": "In part because you'll have correlation of like actual events, which is hard because, you know, Senate elections are every two years or, you know, but like But then there's correlations of like the price time series on Kelshi, right? Which gives you some maybe information?",
+      "zh": "部分原因是你会有真实事件之间的相关性——这很难，因为参议院选举每两年才一次，或者，你知道——但还有 Kalshi 上价格时间序列的相关性，对吧？那也许能给你一些信息？"
+    },
+    {
+      "i": 137,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "45:28",
+      "en": "It gives you some, yeah. And I think that as you get more history and those markets become more liquid, you will absolutely be able to use that information more to sort of back out what some of the correlations are. All that being said, there's a lot of markets that are new also. So many of these markets exist for a period of time and then they go away. And so you still are going to have to figure out how to do the classification of like, these are the buckets, right? This is like a legislation contract. It's in California. How is that related to when we go back eight years, like another legislation contract in California? There's definitely a lot of expertise that's required. And ultimately it's figuring out how to make the quant models understand some of the things that are our intuition about knowing that this product is kind of correlated to this other product for these intrinsic reasons. It's really just creating a map of what does causality in the world look like? Because that is the thing about predictions. The breadth is phenomenal, right? In Calci, there's over 100,000 markets as of right now. So obviously we don't trade every one of those markets, but understanding how they're all interconnected. And that is why, why is it useful to have a background as a macro trader? Well, it's because I spent a long time trying to think about how one thing impacts another on like a really broad scale. And that translates well to understanding risk and predictions.",
+      "zh": "它能给你一些，是的。我觉得随着历史数据越来越多、这些市场越来越流动，你绝对能更多地利用这些信息去反推出一些相关性。话虽如此，也有很多市场是全新的。很多这类市场存在一段时间然后就消失了。所以你仍然得搞清楚如何做分类——“这些是桶（buckets），对吧？这是一份加州的立法合约，它跟我们回头看八年前另一份加州立法合约是怎么关联的？”这里面确实需要大量专业知识。归根结底，是要想办法让量化模型理解我们的一些直觉——即“这个产品跟那个产品因为某些内在原因是相关的”。这其实就是在绘制一张“世界上的因果关系长什么样”的地图。因为预测这件事的特点就在于——它的广度是惊人的，对吧？Kalshi 上现在有超过10万个市场。显然我们不会去交易其中每一个，但要理解它们全都如何相互关联。而这正是——为什么有宏观交易员的背景会很有用？因为我曾花很长时间去思考一件事如何在非常宏观的尺度上影响另一件事。这能很好地迁移到理解预测中的风险上。"
+    },
+    {
+      "i": 138,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "46:42",
+      "en": "So like you clearly do elections, do legislation, you do sports. Like, is there like, don't do entertainment, do do entertainment. We'll do it if someone asks.",
+      "zh": "所以你们显然做选举、做立法、做体育。那有没有——“别做娱乐”，还是“做娱乐”？——“有人要我们就做”。"
+    },
+    {
+      "i": 139,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "46:50",
+      "en": "We'll do it if someone asks.",
+      "zh": "有人要我们就做。"
+    },
+    {
+      "i": 140,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "46:51",
+      "en": "Someone came to you and was like, I need $ 5 million on the Oscar winner. You'd be like, Yeah, let's do it for that.",
+      "zh": "有人来找你说“我要在奥斯卡最佳影片获奖者上押500万美元”，你会说“行，为这个我们做”。"
+    },
+    {
+      "i": 141,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "46:58",
+      "en": "Assuming that I understood why they wanted to do the trade. Yeah, I think we would be.",
+      "zh": "前提是我搞清楚他们为什么想做这笔交易。是的，我觉得我们会——"
+    },
+    {
+      "i": 142,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "47:03",
+      "en": "Able to do it. You'd find some price.",
+      "zh": "——能做。你们会找出某个价格。"
+    },
+    {
+      "i": 143,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "47:05",
+      "en": "We'd find a price, yeah. Like, Oster's a good example of, like, there's a pretty decent amount of liquidity in the market. Like, those prices are pretty good. And ultimately, it takes less volume than you'd think to get a good price. price signal out of a market. It's not millions of dollars necessary. It's probably tens of thousands of dollars, at which point I'm not saying it's perfect, but you've got a pretty good ballpark for what the fair value is after something like tens of thousands and you get more than that on Oscars. So I think like Oscars where there's that much interest, those prices are probably pretty good. We can make a market around it to a hedger and feel pretty comfortable that we probably are making a market around a pretty fair value. We'll do our own research too, but it's a really good starting place.",
+      "zh": "我们会找出价格，是的。奥斯卡就是个好例子——那个市场里有相当不错的流动性，那些价格相当好。而且说到底，要从一个市场里得出一个好的价格信号，需要的成交量比你想象的少。并不需要几百万美元，大概就是几万美元的量级——我不是说那就完美了，但有了几万美元之后，你对公允值就有了一个相当不错的大致范围（ballpark），而奥斯卡上的量比那还多。所以我觉得像奥斯卡这种有那么多关注的，价格大概相当好。我们可以围绕它给一个对冲者做市，并且相当有把握地认为我们是在一个相当公允的价值附近做市。我们也会做自己的研究，但那是一个很好的起点。"
+    },
+    {
+      "i": 144,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "47:46",
+      "en": "What's the right intuition for what a market around it is? So like, let's say that like someone winning an Oscar is at 25%. Are you making like a 24, 26 market for $ 5 million?",
+      "zh": "那“围绕它做市”正确的直觉是什么？比方说某人拿奥斯卡的概率是25%，你们是报一个24／26的市场、500万美元的量吗？"
+    },
+    {
+      "i": 145,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "47:57",
+      "en": "Kind of depends. It's probably a little wider than, than 24, 26, but not going to be 10%.",
+      "zh": "得看情况。大概会比24／26稍宽一点，但不会宽到10%。"
+    },
+    {
+      "i": 146,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "48:02",
+      "en": "Yeah.",
+      "zh": "是啊。"
+    },
+    {
+      "i": 147,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "48:02",
+      "en": "It's tighter than that. It's somewhere in between those. And it sort of depends a little bit on some of the specific dynamics. Like again, you know, we might think they're hedging, but you're never a hundred percent sure. So we're going to talk about all those things and it's sort of a case by case decision, but.",
+      "zh": "比那更紧。它介于这两者之间。而且这在一定程度上取决于一些具体的动态。同样，我们可能觉得他们是在对冲，但你永远没法百分百确定。所以我们会把这些都聊一遍，这是个逐案的决定，但——"
+    },
+    {
+      "i": 148,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "48:15",
+      "en": "Yeah.",
+      "zh": "是啊。"
+    },
+    {
+      "i": 149,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "48:16",
+      "en": "Two's a little tight, but might be closer to two than 10. All right.",
+      "zh": "2（个点）有点紧，但可能更接近2，而不是10。好吧。"
+    },
+    {
+      "i": 150,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "48:19",
+      "en": "What else should we talk about?",
+      "zh": "我们还能聊点什么？"
+    },
+    {
+      "i": 151,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "48:20",
+      "en": "On the institutional front, I do think that probably one of the biggest things that ultimately we will probably see within the next few months is some of these really large trades around some of these big products, like hundreds of millions of dollars. And we actually do see.",
+      "zh": "在机构这块，我确实认为，未来几个月我们大概会看到的最重要的事情之一，是围绕某些大产品的一些非常大的交易——数亿美元级别的。而且我们确实看到——"
+    },
+    {
+      "i": 152,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "48:34",
+      "en": "Big products, meaning like data center moratorium?",
+      "zh": "“大产品”，是指像数据中心禁建令这种？"
+    },
+    {
+      "i": 153,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "48:36",
+      "en": "Like a data center moratorium, or some of the things that are like, I think you've written about this, like OpenAI and Anthropic have bankruptcy risks that are sort of priced into the market, but nobody can hedge them. Every data center is exposed to one of these massive labs where if one of those- That's interesting.",
+      "zh": "像数据中心禁建令，或者一些这样的东西——我想你写过这个——比如 OpenAI 和 Anthropic 有某种被市场定价的破产风险，但没人能对冲它。每一家数据中心都暴露在这些巨型实验室（labs）中的某一个之下，如果其中一个——“这有意思。”"
+    },
+    {
+      "i": 154,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "48:52",
+      "en": "To me, that's like OpenAI CDS, right? But there's no CDS, there's no bonds. So there's effectively an OpenAI CDS is you and your prediction markets.",
+      "zh": "对我来说，那就相当于 OpenAI 的 CDS（信用违约掉期），对吧？但没有 CDS，也没有债券。所以实际上，OpenAI 的“CDS”就是你和你的预测市场。"
+    },
+    {
+      "i": 155,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "49:03",
+      "en": "I mean, yeah. So those markets have existed. I mentioned the moratoriums, but I think that is the two things we hear the most in the data center space. And I know I keep coming back to this, but it's just because it's what we hear over and over again. It's that and then it's the tenant bankruptcy.",
+      "zh": "我是说，是的。那些市场已经存在了。我提到过禁建令，但我觉得那是我们在数据中心领域听到最多的两件事。我知道我一直绕回这个，但就是因为我们一遍又一遍地听到它。一个是禁建令，另一个就是租户破产（tenant bankruptcy）。"
+    },
+    {
+      "i": 156,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "49:17",
+      "en": "So that's interesting. So like there's trillions of dollars of open AIs debt in the world, but it's not debt, it's leases, right? Right. And the people who are long that debt are data center developers and financiers, right? Right. And they want to lay off some of that debt to like, back when there was a single name CDS market, like, there were people who would get long debt by buying CDS. I assume that you are not going to warehouse hundreds of billions of dollars of OpenAI bankruptcy risk.",
+      "zh": "这就有意思了。世界上有数万亿美元的 OpenAI 债务，但它不是债务，是租约（leases），对吧？对。而做多那些“债务”的人，是数据中心的开发商和融资方，对吧？对。他们想把其中一部分债务转嫁出去——就像当年有单一名称 CDS 市场时，有些人会通过买 CDS 来做多债务。我猜你们不会去囤积（warehouse）数千亿美元的 OpenAI 破产风险。"
+    },
+    {
+      "i": 157,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "49:48",
+      "en": "Probably not hundreds of billions of dollars.",
+      "zh": "大概不会是数千亿美元。"
+    },
+    {
+      "i": 158,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "49:49",
+      "en": "I assume that if you're getting into that trade in size, you are somehow intermediating it to someone who wants OpenAI credit exposure and does not own a data center. Is that right?",
+      "zh": "我猜如果你们要大规模介入那笔交易，你们是在以某种方式把它中介给某个想要 OpenAI 信用敞口、但并不拥有数据中心的人。对吗？"
+    },
+    {
+      "i": 159,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "50:00",
+      "en": "I don't know that it's as simple as we're going to find the other side of the trade. It's more likely that we would want to find parties that are willing to partner with us. Like this is one of those situations where there's a massive risk that sort of outsizes everything else that the world wants to hedge. And how can you basically help provide capacity? So we would put on the size that ultimately we're comfortable with, which would be large, but it's not going to be hundreds of billions of dollars.",
+      "zh": "我不确定它简单到“我们会去找这笔交易的对手方”。更可能的是，我们会想找到愿意跟我们合作的伙伴。这是那种情况之一：存在一个巨大的风险，它盖过了世界上其他一切想被对冲的东西。那你基本上要怎样帮助提供产能（capacity）呢？所以我们会接下我们最终觉得舒服的那个规模——那会很大，但不会是数千亿美元。"
+    },
+    {
+      "i": 160,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "50:25",
+      "en": "Yeah. You say like that the world wants to hedge. Like apparently the world wants to take trillions of dollars of open-ended credit risk, right? Like, well, selling bonds, right? Like someone wants that credit risk. And it's not necessarily that the data center developers want it in the concentration that they have it in, but like, you know.",
+      "zh": "是啊。你说“世界想对冲”。但显然世界想承接数万亿美元的开放式信用风险，对吧？就像——嗯，卖债券，对吧？有人想要那个信用风险。而且不一定是数据中心开发商想要他们现在持有的那种集中度，但，你知道。"
+    },
+    {
+      "i": 161,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "50:44",
+      "en": "Could it be packaged?",
+      "zh": "它能不能被打包？"
+    },
+    {
+      "i": 162,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "50:44",
+      "en": "Could it be packaged, yeah.",
+      "zh": "它能不能被打包，是的。"
+    },
+    {
+      "i": 163,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "50:46",
+      "en": "It's a great thought. And, you know, we love those types of like innovative things. I don't know that we've gotten to the idea of like figuring out how to package and syndicate and all that yet. We're probably not quite there yet, but absolutely we need to figure out how do we create the structures where we can actually take down some of this risk. Certainly the data centers don't particularly want this. And also I think one of the keys is if you can actually start taking out some of these risks, it makes these projects way more financeable, right? Like what we've heard from some of the parties is actually if we can get the right product, we actually wind up getting paid to take off risk, right? Because they get a better financing rate from the banks. Ultimately the banks would be willing to do more of these projects. Like there's a lot of efficiency that ultimately just comes from it. And we've been told legitimately like, If you can get this to work at this right price, it actually will save us money. It's not just that we're taking a risk off the table. So that's where things really start to change is if you can start to sort of create this integrated system where like the banks are saying like, okay, this is what you do. Like they do with other forms of insurance. Like you want this loan, you need to have this product that's part of it. And everyone's trying to figure out data centers right now and in AI because you went from nothing to this incredible amount of dollars that's in there. And it's all you hear about in financial circles and it moves the markets more than any other vector.",
+      "zh": "这是个很棒的想法。你知道，我们喜欢这类创新的东西。我不确定我们已经想到“怎么去打包、辛迪加分销”那一步。我们大概还没到那儿，但绝对需要想清楚：我们如何构建出一些结构，让我们真的能吃下其中一部分风险。当然，数据中心方并不特别想要这个风险。而且我觉得关键之一是：如果你真能开始剥离其中一些风险，会让这些项目变得好融资得多，对吧？我们从一些对手方那里听到的是——如果我们能拿到合适的产品，我们最终甚至是“拿钱来剥离风险”的，对吧？因为他们能从银行拿到更好的融资利率。最终银行会愿意做更多这类项目。这里面蕴含着大量效率。有人一本正经地跟我们说过：“如果你能把这东西以合适的价格做成，它其实会帮我们省钱。”而不只是我们把一个风险从桌面上拿走了。事情真正开始改变的地方就在这里：如果你能开始构建这种一体化的系统，让银行说“好，这就是你要做的”——就像他们对其他形式保险做的那样，“你想要这笔贷款，你就得有这个产品作为其中一部分”。现在所有人都在琢磨数据中心、琢磨 AI，因为你从什么都没有，一下子到了这么多令人难以置信的钱砸在里面。这是你在金融圈里唯一听得见的东西，它比任何其他因素都更能撼动市场。"
+    },
+    {
+      "i": 164,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "52:06",
+      "en": "I tend to think that like, If the need is to bear $ 10 trillion of Frontier Lab and hyperscaler credit risk, that's like– it's like it'd be Susquehanna.",
+      "zh": "我倾向于这么想：如果需求是要承担10万亿美元的前沿实验室（Frontier Lab）和超大规模云厂商（hyperscaler）的信用风险，那——那基本上就是 Susquehanna 了。"
+    },
+    {
+      "i": 165,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "52:15",
+      "en": "No, it's not. It is not going to be us that ultimately is going to take all that risk. It's going to be– It's going to be us that bootstraps it, right? We need to get the proof of concept.",
+      "zh": "不，不是。最终接下所有这些风险的不会是我们。会是我们来把它引导启动（bootstrap），对吧？我们需要做出概念验证。"
+    },
+    {
+      "i": 166,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "52:24",
+      "en": "You're going to run a CDS desk and like– I'm just going to say AIG, but like some insurance company is.",
+      "zh": "你们会去运营一个 CDS 交易台，然后——我就直说 AIG 吧——某家保险公司会——"
+    },
+    {
+      "i": 167,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "52:32",
+      "en": "Going to own– That's absolutely what we'd like. We like taking risk. We'd like to take some of the risk, but what we'd really like to do is to build that market in an efficient way. So we become this cog that helps that market to function efficiently, which is our role, right? We take on risk, but we help the market to function efficiently. And ultimately, yeah, we're working with an AIG or we're working with whichever insurers and other sort of like mechanisms that there are to distribute that risk, right? Like It's funny because a lot of the things in prediction, we're just like, yeah, we'll warehouse it because we're big enough that like most of the prediction things, like we can just be like, yeah, we'll take it, whatever. It's millions of dollars. You're big for a goat herder.",
+      "zh": "——持有（这些风险）。那正是我们希望的。我们喜欢承担风险，我们愿意承担其中一部分，但我们真正想做的，是以一种高效的方式把那个市场建起来。于是我们变成让那个市场高效运转的一个齿轮（cog），这就是我们的角色，对吧？我们承担风险，但我们帮助市场高效运转。而最终，是的，我们会跟一家 AIG 合作，或跟任何保险公司、以及其他各种分销该风险的机制合作，对吧？有意思的是，预测市场里很多东西我们就是“行，我们囤着”，因为我们足够大——大多数预测类的东西，我们就能直接说“行，我们接了，无所谓”，那不过是几百万美元。对一个牧羊人来说你们算大的。"
+    },
+    {
+      "i": 168,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "53:07",
+      "en": "We're big for a goat herder. You're big for a soccer relegation. Right.",
+      "zh": "“对一个牧羊人来说你们算大的。你们对一次足球降级也算大的。”对吧。"
+    },
+    {
+      "i": 169,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "53:10",
+      "en": "But we're small for the entirety of data center. So we can take down trades that are large, but like I suppose- Gives you a little humility when you're used to feeling like you're the big player until you get involved in data centers. Like, oh, we're looking for $ 10 billion. Like, okay, let's think about how.",
+      "zh": "但相对于整个数据中心领域，我们就很小了。所以我们可以接下很大的交易，但我想——当你习惯了觉得自己是个大玩家，直到你卷入数据中心，这会给你一点谦卑。比如“哦，我们要找100亿美元”，那就“好吧，我们来想想怎么——”"
+    },
+    {
+      "i": 170,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "53:28",
+      "en": "To do this. Jeremy Mallitz, thank you so much for joining us.",
+      "zh": "——做成这件事。Jeremy Maletz，非常感谢你来做客。"
+    },
+    {
+      "i": 171,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "53:31",
+      "en": "Thank you for having me here. It's been very fun.",
+      "zh": "谢谢你们邀请我来，非常有趣。"
+    },
+    {
+      "i": 172,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "53:38",
+      "en": "And that was the Money Stuff Podcast. I'm Matt Levine. You can find my work by subscribing to the Money Stuff newsletter on Bloomberg.com. We'd love to hear from you. You can send an email to moneypod at bloomberg.net. Ask us a question and we might answer it on the air. right now and leave us a review. It helps more people find the show. The Money Stuff Podcast is produced by Anna Mazarakis and Moses Andon. Our theme music was composed by Blake Naples. Amy Keene is our executive producer and Cheryl Brumley is Bloomberg's head of podcasts. Thanks for listening to the Money Stuff Podcast. We'll be back next week with more stuff.",
+      "zh": "以上就是本期的《Money Stuff》播客。我是 Matt Levine。你可以在 Bloomberg.com 上订阅《Money Stuff》通讯来找到我的作品。我们很想听到你们的意见，可以发邮件到 moneypod@bloomberg.net，向我们提问，我们也许会在节目里回答。现在就给我们留个评价吧，这能帮更多人发现这个节目。《Money Stuff》播客由 Anna Mazarakis 和 Moses Andon 制作，主题音乐由 Blake Naples 作曲。Amy Keene 是我们的执行制作人，Cheryl Brumley 是彭博的播客主管。感谢收听《Money Stuff》播客，我们下周带来更多“stuff”。"
+    }
+  ]
+}
