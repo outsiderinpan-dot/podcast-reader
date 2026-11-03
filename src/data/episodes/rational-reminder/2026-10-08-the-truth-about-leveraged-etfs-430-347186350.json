@@ -1,0 +1,1984 @@
+{
+  "show": "rational-reminder",
+  "kind": "transcript",
+  "id": "347186350",
+  "slug": "2026-10-08-the-truth-about-leveraged-etfs-430-347186350",
+  "date": "2026-10-08",
+  "title_en": "The Truth About Leveraged ETFs | #430",
+  "title_zh": "杠杆ETF的真相 | #430",
+  "subtitle_zh": "Ben Felix、Dan Bortolotti 与 PWL Capital 助理财富顾问 Kelly Thomas 先复盘婚姻财务那期的盲点，再依据 Bessembinder、Cederburg、Sammon 与 Murray 等最新研究，重新检验“每日重置必然造成损耗”这一流行说法，并讨论杠杆究竟适合谁。",
+  "description": "The Truth About Leveraged ETFs | #430",
+  "duration": "66:11",
+  "duration_seconds": 3971,
+  "episode_url": "https://www.iheart.com/podcast/256-the-rational-reminder-podc-30926926/episode/the-truth-about-leveraged-etfs-430-347186350",
+  "audio_url": "https://dts.podtrac.com/redirect.mp3/traffic.libsyn.com/secure/rationalreminder/RR_-_EP._430_AMA_-_AUDIO_V1.mp3?dest-id=763774&source=iheart",
+  "speakers": {
+    "1": "Benjamin Felix（主持）",
+    "2": "Dan Bortolotti（主持）",
+    "3": "Kelly Thomas（嘉宾）",
+    "4": "节目旁白（旁白）"
+  },
+  "turn_count": 245,
+  "turns": [
+    {
+      "i": 0,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "00:00",
+      "en": "Welcome to episode 430 of the Rational Reminder Podcast. We're hosted by me, Benjamin Felix, Chief Investment Officer, Dan Bordelotti, Portfolio Manager, and today joined by Kelly Thomas, Associate Wealth Advisor at PWL Capital. Good to have you, Kelly. Thank you and glad to be here.",
+      "zh": "欢迎收听 Rational Reminder 播客第430期。本期由我——Benjamin Felix（本杰明·菲利克斯），首席投资官，与 Dan Bortolotti（丹·博尔托洛蒂），投资组合经理共同主持，今天还请来了 PWL Capital 的助理财富顾问 Kelly Thomas（凯莉·托马斯）。很高兴你能来，Kelly。——谢谢你们，很高兴来到这里。"
+    },
+    {
+      "i": 1,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "00:22",
+      "en": "By request, Kelly, you're here from the audience. We'll talk about that in a second. I do want to mention before we get into the main part of the episode that we are hosting a private webinar to celebrate the launch of David Booth's book, Stay Calm, which you heard him talk about",
+      "zh": "应听众要求，Kelly 这次是从听众席上来的，稍后我们会谈到这一点。在进入本期主体内容之前，我想先提一件事：我们即将举办一场私人网络研讨会，庆祝 David Booth（大卫·布斯）新书《Stay Calm》（保持冷静）出版——"
+    },
+    {
+      "i": 2,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "00:37",
+      "en": "on a recent episode. That webinar is going to be hosted by me and Cameron. It's on November 4th at 12.50 p.m. Eastern time, and the first 250 Canadian residents to sign up for the webinar event will receive a free copy of David's book, Stay Calm. Nice. Really cool. Yeah, kind of a neat little",
+      "zh": "他在最近一期节目里谈到过这本书。这场研讨会将由我和 Cameron 主持，时间是11月4日东部时间中午12:50，前250名报名参加该活动的加拿大居民将获得一本免费的 David Booth 著作《Stay Calm》。——太好了。——真的很酷。——是啊，是个挺不错的"
+    },
+    {
+      "i": 3,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "00:57",
+      "en": "event and an opportunity to get a free copy of his book. That should be cool.",
+      "zh": "小活动，也是拿一本他新书的好机会。应该会很有意思。"
+    },
+    {
+      "i": 4,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "01:06",
+      "en": "In the main part of the episode, we are going to talk about leveraged ETFs. It's a very nerdy discussion. We will get to that in a second, but before we get into that, I do want to debrief our recent episode on the finances of marriage. We received what I would call a comically accurate",
+      "zh": "本期的主体内容，我们要聊杠杆ETF（leveraged ETFs）。这是一场非常“书呆子”式的讨论，稍后会进入。不过在那之前，我想先复盘一下我们最近那期关于婚姻财务的节目。我们收到了一条我认为堪称“精准到好笑”的"
+    },
+    {
+      "i": 5,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "01:24",
+      "en": "comment about the content of that episode. So I'm just going to read the comment. The commenter says, guys, I respect you a ton, but this conversation would be much more interesting if you added at least one woman. I read that and I was like, oh, yeah, that's so obvious. What",
+      "zh": "评论。我这就念一下。这位留言者说：“各位，我非常尊重你们，但如果这场对话里能加入至少一位女性，会有意思得多。”我看完后的反应是：“哦，对啊，这也太明显了。我们到底在"
+    },
+    {
+      "i": 6,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "01:39",
+      "en": "are we doing? Even better if she was a financial advisor or financial services professional, because what you often label so easily as crazy is just not from another point of view. And you do have a ton of blind spots, for example, to a woman spending two months of salary on a",
+      "zh": "干什么呢？”如果她是财务顾问或金融服务业人士那就更好了，因为你们动辄轻率地贴上“疯狂”标签的东西，换一个视角看其实完全正常。你们确实有大量盲点。举个例子，对一位女性来说，花两个月工资买一颗"
+    },
+    {
+      "i": 7,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "01:53",
+      "en": "diamond might not seem crazy. Also for a woman who might have stepped into marriage with over $1 million in assets, she is the one who has to pause her career to do IVF, to expand her family. It doesn't matter if she has more money. Certain things just matter to women and you guys are not",
+      "zh": "钻石，未必显得疯狂。还有，一位带着超过100万美元资产走进婚姻的女性，恰恰是她必须暂停事业去做试管婴儿（IVF）、去扩大家庭的。她钱更多并不能改变这一点。有些事情就是对女性更重要，而你们几个并不是"
+    },
+    {
+      "i": 8,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "02:08",
+      "en": "ladies, which is in fact true, Dan. Undeniable. Yes. Undeniable. So to address that feedback, we are joined by Kelly Thomas, who is an associate wealth advisor at PWL. Kelly, you and I chatted about this when we worked together in person recently at a PWL event.",
+      "zh": "女性——这倒是事实，Dan。——无法否认。——是的。——无法否认。所以为了回应这条反馈，我们请来了 PWL 的助理财富顾问 Kelly Thomas。Kelly，前不久我们在一次 PWL 活动上一起共事时聊过这件事。"
+    },
+    {
+      "i": 9,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "02:25",
+      "en": "You have listened to the marriage episode. You also read that comment. We laughed about it together. Can you help us with our blind spots? Talk us through it. Absolutely. So it was a really interesting episode. And it brought up some really interesting topics. The first one that I had",
+      "zh": "你听了那期婚姻节目，也看了那条评论，我们还一起笑过。你能帮我们补上盲点吗？给我们讲讲。——当然。那真是一期很有意思的节目，也带出了一些非常有意思的话题。我第一个有想法的"
+    },
+    {
+      "i": 10,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "02:40",
+      "en": "some insights about was spend thrifts, tightwads, and the mental load of spending. So we talk about people being either a spend thrift or a tightwad. But I think there's more to it than how easily someone spends money. What is the money actually being spent on? Who is responsible for household",
+      "zh": "是关于“大手大脚的人”（spendthrifts）、“吝啬鬼”（tightwads）以及花钱背后的精神负荷（mental load）。节目里我们把人分成大手大脚型或吝啬型，但我认为事情不止于一个人花钱有多爽快。这些钱究竟花在了什么上？谁在为家庭"
+    },
+    {
+      "i": 11,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "03:00",
+      "en": "spending? Who thinks of do your kids need clothes? Groceries? Birthday presents? School supplies activities? All the little random things that keep the house running? One spouse may look like the spend thrift simply because they're the person doing most of the spending on behalf of the family.",
+      "zh": "开支负责？谁会去想孩子要不要买衣服？要不要买菜？生日礼物？学习用品？课外活动？这些维持家庭运转的零零碎碎的小事？其中一方之所以看起来像大手大脚，可能仅仅是因为他/她是代表家庭完成大部分消费的那个人。"
+    },
+    {
+      "i": 12,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "03:17",
+      "en": "Meanwhile, the tightwad might just have fewer household purchases running through the account or the spending might be mostly personal discretionary. So are we really comparing apples to apples in this situation? And then how much of what looks like a spending personality is actually tied to",
+      "zh": "与此同时，那个“吝啬鬼”可能只是账户上经手的家庭采购更少，或者他/她的花销大多是个人自由支配的。那么在这种情况下，我们真的是在同类比同类吗？还有，那些看起来像“花钱性格”的东西，有多少其实和"
+    },
+    {
+      "i": 13,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "03:33",
+      "en": "household rules and the mental load? So when we talk about financial compatibility, we should look at how much someone spends, what they're spending on, why they're spending it, and who is carrying responsibility for making those purchases? Makes sense. So are spend thrifts and tightwads actually",
+      "zh": "家庭分工和精神负荷有关？所以当我们谈“财务契合度”时，应该看一个人花了多少、花在什么上、为什么花，以及是谁在承担这些采购的责任。——有道理。那么“大手大脚的人”和“吝啬鬼”究竟"
+    },
+    {
+      "i": 14,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "03:51",
+      "en": "personality types? Or can the rules people take on in a household and make them look that way?",
+      "zh": "是性格类型？还是说人们在家里承担的角色分工，会让他们看起来像那样？"
+    },
+    {
+      "i": 15,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "03:57",
+      "en": "Yeah, it's interesting perspective. I think that's a great point. As you know, it may just be one partner or the other is just responsible for more expenses that are family-related as opposed to individual. And those are very different things. I certainly know",
+      "zh": "——是啊，这个视角很有意思，我觉得说得非常好。你知道，可能只是伴侣中的一方承担了更多与家庭相关、而非个人相关的开支，而这两者差别很大。我确实认识"
+    },
+    {
+      "i": 16,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "04:12",
+      "en": "of people who spend quite generously on their kids or on family priorities, but don't spend a lot on themselves. So where do they fall in that tightwad, bend-through-ift continuum? I don't know. It's a good perspective. Early, we have other blind spots.",
+      "zh": "一些人，他们在孩子身上、在家庭优先事项上花得相当大方，但在自己身上花得很少。那他们在“吝啬鬼—大手大脚”这条连续谱上落在哪个位置？我不知道。这是个很好的视角。——Kelly，我们还有别的盲点。"
+    },
+    {
+      "i": 17,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "04:32",
+      "en": "Another of the topics that I thought about was the pre-nub and the cost of career sacrifices. Pre-nub absolutely focused a lot on the wealth that you bring into a marriage. But what about the financial inequality that develops during the marriage? So one partner might take parental",
+      "zh": "我想到的另一个话题是婚前协议（prenup）与事业牺牲的代价。婚前协议当然很大程度上聚焦于你带进婚姻的财富。但婚姻存续期间形成的财务不平等呢？比如一方可能休育儿"
+    },
+    {
+      "i": 18,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "04:49",
+      "en": "leave, have reduced hours, or pass up on promotions and opportunities, take on more childcare, cost is much bigger than today's lost income. So there's career progression, future earning potential retirement savings, CPP and pension implications. So while it often is a joint family",
+      "zh": "假、减少工时、放弃晋升和机会、承担更多育儿责任，其代价远大于今天损失的那点收入。这里还牵涉职业发展、未来赚钱能力、退休储蓄、CPP（加拿大养老金计划）和养老金的影响。所以尽管这往往是一个共同的家庭"
+    },
+    {
+      "i": 19,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "05:08",
+      "en": "decision, the financial consequences may fall disproportionately on one person. So how do we account for that in financial planning? The standard law, I think, does make some effort to go in that direction, and account for some of that. But what I've seen really productive pre-nub or marriage",
+      "zh": "决定，其财务后果却可能不成比例地落在一个人身上。那么在财务规划中，我们要怎么把这一点考虑进去？——我认为标准法律确实有在朝这个方向做一些努力，会把其中一部分纳入考量。但依我看，那些真正有成效的婚前协议或婚姻"
+    },
+    {
+      "i": 20,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "05:25",
+      "en": "contract discussions among clients who are getting married, that has tended to be a big part of the focus and a big part of the sort of acknowledgement in the way the document is being drafted, definitely a big one, to keep in mind. Another one of the topics that was an interesting one. And",
+      "zh": "契约谈判——在即将结婚的客户当中——这一点往往是讨论的重点，也是文件起草方式中很大一部分“共识确认”的内容，这绝对是一个需要牢记的重点。——另一个很有意思的话题，"
+    },
+    {
+      "i": 21,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "05:41",
+      "en": "it just had me thinking about how joint finances are addressed. And so you mentioned financial infidelity, but then there's also financial autonomy. It's an important distinction to make having someone keeping secrets about their money or looking it as I have financial independence. Transparency",
+      "zh": "它让我思考共同财务到底是怎么处理的。你们提到了“财务不忠”（financial infidelity），但还有“财务自主”（financial autonomy）。做一个区分很重要：一个人对自己的钱保密，和把它看作“我有财务独立”，是两回事。透明"
+    },
+    {
+      "i": 22,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "06:00",
+      "en": "doesn't mean that your partner knows about every dollar that you're spending or needing to approve every purchase or every purchase needs to be a joint discussion. It's that both partners should have access to money that's in their own name, have credit in their own name, and then understanding",
+      "zh": "并不意味着你的伴侣知道你花出去的每一块钱，也不意味着每笔消费都需要对方批准、每笔支出都要共同讨论。它的含义是：双方都应该能支配以自己名义持有的资金、拥有以自己名义建立的信用，并且对整个财务全貌有"
+    },
+    {
+      "i": 23,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "06:18",
+      "en": "of the full financial picture. Because we look at the situations, what happens if the marriage relationship ends tomorrow? And everything is in one person's name. That puts the other person at a huge disadvantage going forward on their own while on paper having things separate can",
+      "zh": "了解。因为我们要看这样的情形：如果这段婚姻关系明天就结束，而所有东西都在一个人名下，那另一方在往后独自生活时就会处于极大的劣势。虽然在纸面上把资产分开有时可能"
+    },
+    {
+      "i": 24,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "06:36",
+      "en": "come across a secrecy. It's all about that communication and having that open communication connecting on what you think is an appropriate amount to spend, like you guys mentioned in that episode, but also having that space to have the financial independence as well. That's",
+      "zh": "显得像是有所隐瞒。但关键在于沟通——保持开放的沟通，就像你们在那期节目里提到的，就要花多少钱才算合适达成一致，同时也要给彼此留出拥有财务独立的空间。这一点"
+    },
+    {
+      "i": 25,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "06:52",
+      "en": "interesting because there is financial infidelity. So like hiding doing stuff that you know your partner wouldn't like you to do in keeping the secret. There's also consideration for financial abuse where if one partner has for whatever reason the control of more of the finances and they're using",
+      "zh": "很有意思，因为确实存在“财务不忠”，也就是隐瞒、去做你知道伴侣不希望你做的事并保守秘密。此外还要考虑“财务虐待”：如果一方出于某种原因掌控了大部分财务，并且利用"
+    },
+    {
+      "i": 26,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "07:08",
+      "en": "that to control parts of the relationship, that can also be very, very unhealthy. So it's one thing to say while you shouldn't hide stuff from your partner, but it's another thing there can be some very unhealthy money relationships in marriages. Yeah, remember, therapist friend of mine made a comment",
+      "zh": "这一点去控制关系中的某些部分，那也会非常非常不健康。所以说“你不该对伴侣隐瞒事情”是一回事，但婚姻中确实可能存在一些非常不健康的金钱关系，这又是另一回事。——是啊，我记得我一位做治疗师的朋友说过一句话，"
+    },
+    {
+      "i": 27,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "07:24",
+      "en": "about this where she said, if you have the money available to leave, but you choose to stay, that's when you know that you're in a healthy relationship. But if you don't have access to the money and you can't leave, it puts you in a really tough spot. So having that ability to stand on",
+      "zh": "她说：如果你手上有足以离开的钱，但你选择留下来，那时你才知道自己处在一段健康的关系里。可如果你根本拿不到钱、走不了，那就把你放进了一个非常艰难的境地。所以拥有那种能够自立"
+    },
+    {
+      "i": 28,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "07:43",
+      "en": "their own two feet if something were to happen is so, so important. Good perspective. We should have just had you with us when we did that episode of figuring that out now. Yeah, in hindsight, it's obvious, but glad you came on to help us with our thinking on those. And we do appreciate the",
+      "zh": "的能力，以防万一出什么事，这一点实在是太重要了。——很好的视角。早知道做那期节目时就把你请来了。——是啊，事后看很明显，但很高兴你能来帮我们理清这些想法。我们也真的很感谢"
+    },
+    {
+      "i": 29,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "08:01",
+      "en": "comment from the listener pointing out what is in hindsight very obvious. We should have you on Kelly to talk about other topics, not specific to from a female's perspective, but just from another advisor perspective, because I think it's always helpful to have different voices. It's one of the",
+      "zh": "那位听众的评论，指出了事后看来非常明显的东西。Kelly，我们真该请你来谈谈别的话题——不一定是从女性视角出发，而是从另一位顾问的视角，因为我觉得有不同的声音总是有帮助的。这也是"
+    },
+    {
+      "i": 30,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "08:17",
+      "en": "things I think that the way the podcast has really changed over the last little while is just the number of different people we've had on from the firm. All of those perspectives, I think, really add to the whole constellation of opinions we're trying to offer here.",
+      "zh": "我认为这档播客最近真正发生变化的一点：我们从公司里请来了很多不同的人。所有这些视角，我觉得都实实在在地丰富了我们想在这里呈现的那一整片观点星图。"
+    },
+    {
+      "i": 31,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "08:32",
+      "en": "Yeah, I would love to. And it's just getting into those conversations and getting more people engaged, hearing something from one person can make a lot of sense to some, but not others. And then hearing it a different way in someone else's words can really help that understanding.",
+      "zh": "——是啊，我很乐意。就是要进入这些对话、让更多人参与进来。同一件事，从一个人嘴里说出来，可能对某些人很有道理，对另一些人却无感；而换一个人、用另一种说法讲出来，往往真的能帮上理解。"
+    },
+    {
+      "i": 32,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "08:48",
+      "en": "It speaks to an interesting thing, which is that like, and maybe you would have reached it anyway, Kelly, but it's less obvious that this would have happened if we had not been together at PWL summit. We kind of read that comment at the same time, and we're both talking about it laughing",
+      "zh": "这其实说到了一个有意思的现象：Kelly，也许你本来也会走到这一步，但如果我们当时没有一起在 PWL 峰会上，这件事会不会发生就不那么确定了。我们几乎同时读到了那条评论，两个人一起聊、一起笑，"
+    },
+    {
+      "i": 33,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "08:59",
+      "en": "about it. Then it was just like, well, we usually come on the podcast, talk about it. But I don't know if those same types of conversations happen as naturally when you have to send a message on teams or send me an email or whatever. All right, should we get into our main topic, leverage ETFs? Let's do it. Absolutely.",
+      "zh": "然后就自然而然地说：那不如上播客聊聊。但如果必须靠在 Teams 上发消息或者给我写邮件之类的方式，我不确定同样这类对话还能不能那么自然地发生。——好了，我们进入本期的主题：杠杆ETF吧？——开始吧。——当然。"
+    },
+    {
+      "i": 34,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "09:19",
+      "en": "So back in episode 379, which is a while ago now, this is episode 430. I had mentioned just like offhand, it was an AMA episode, and I just made this kind of throw a comment about how leverage ETFs with daily resets suffer from something called decay. And I was attributing the decay to the",
+      "zh": "回到第379期——那已经是好一阵子之前了，现在是第430期。那是一期“问我任何问题”（AMA）节目，我随口抛出一句评论，说带每日重置的杠杆ETF会受到一种叫“衰减”（decay）的现象拖累。而且我当时把这个衰减归因于"
+    },
+    {
+      "i": 35,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "09:39",
+      "en": "daily resets specifically. The idea is basically that daily rebalancing of the leverage ratio in a leverage ETF causes this adverse effect called decay that makes leverage ETFs with daily resets bad long term holdings. They give you daily leverage to X or whatever, but if you hold them for longer than",
+      "zh": "每日重置本身。这个说法的基本逻辑是：杠杆ETF对杠杆比率进行每日再平衡，会造成一种叫“衰减”的不利效应，使得带每日重置的杠杆ETF成为糟糕的长期持有标的。它们给你的是每日的2倍或3倍杠杆，但如果你的持有期超过"
+    },
+    {
+      "i": 36,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "09:57",
+      "en": "that, there's the story that they're bad. That at the time is just this fact that existed in my head. There had been previous academic papers on it. It's something I've read about, and I just thought I knew. I made that comment. And in the rapture reminder community, user Pernito",
+      "zh": "一天，坊间的说法就是它们很糟糕。在当时，这对我来说就是脑子里的一条“事实”。此前有过相关学术论文，我读过，就以为自己懂了。我说了那番话之后，在 Rational Reminder 社区里，用户 Pernito"
+    },
+    {
+      "i": 37,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "10:12",
+      "en": "pointed out that that idea had been debunked. And I was like, whatever I read. Okay. And then IP Parcos is the other user who then very patiently kind of walked me through why the daily resets didn't matter. And he had done all this in his own analysis using simulations with different",
+      "zh": "指出这个说法早已被推翻。我当时的反应是：“随便吧，我去看看。”好。接着另一位用户 IP Parcos 非常耐心地给我讲了一遍，为什么每日重置其实无关紧要。他自己做了完整分析，用不同"
+    },
+    {
+      "i": 38,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "10:32",
+      "en": "rebalancing frequencies to show that the rebalancing frequency doesn't really matter on expectation. So I had that in my head and I was like, that's pretty interesting. And then we had Hank Besson Bender on an episode 397. And he had a paper on single stock ETFs, but he had done a bunch of math",
+      "zh": "再平衡频率做了模拟，用来证明在期望值意义上，再平衡频率其实并不重要。我把这事记在心里，觉得挺有意思。后来我们在第397期请来了 Hendrik Bessembinder（亨德里克·贝斯宾德）。他有一篇关于单一股票ETF的论文，但他围绕这个问题做了大量数学"
+    },
+    {
+      "i": 39,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "10:47",
+      "en": "around. And actually, he had directly refuted this idea that daily resets are a bad thing. And then we had James Choi on episode 399. And he also made pretty favorable comments about these things as long-term holdings and about how the daily resets didn't really matter. And so I was like, okay,",
+      "zh": "推演，而且他直接反驳了“每日重置是坏事”这个观点。然后我们在第399期请来了 James Choi（詹姆斯·崔）。他也对把这类产品作为长期持有标的给出了相当正面的评价，同样认为每日重置其实无关紧要。于是我想：好，"
+    },
+    {
+      "i": 40,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "11:03",
+      "en": "there's something here. The daily resets in these leverage ETFs are not as bad as I thought at least. So I started looking for research on it. And I ended up starting that literature search right when Marcos Simon and Chris Murray had released a new paper on leverage ETFs. And they",
+      "zh": "这里面有东西。这些杠杆ETF的每日重置，至少没有我原先以为的那么糟糕。于是我开始查找相关研究。而我启动这轮文献检索的时候，恰好赶上 Marco Sammon（马可·萨蒙）和 Chris Murray（克里斯·默里）发布了一篇关于杠杆ETF的新论文。他们"
+    },
+    {
+      "i": 41,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "11:18",
+      "en": "talked about a lot of the same kind of stuff is really interesting paper. And we are actually going to have Marcos and Chris on to talk about that paper. But we went back and forth over a few emails that are really good discussion. I learned a bunch. So then all that all culminates in kind",
+      "zh": "谈到了很多同样的内容，是一篇非常有意思的论文。我们实际上会请 Marco 和 Chris 上节目聊这篇论文。不过在那之前，我们通过几轮邮件往来做了很好的讨论，我学到不少。所以这一切最终汇聚成"
+    },
+    {
+      "i": 42,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "11:30",
+      "en": "of the notes that I have to talk about in this episode before I continue any comments from you guys on leverage ETFs. Did you have preconceived notions about leverage ETFs like I did? Yeah, definitely did. The idea of leverage always makes things riskier, bigger swings. And so the potential for loss is much larger.",
+      "zh": "了我在本期要讲的这些笔记。在我继续之前，先问问你们对杠杆ETF的看法：你们有没有像我一样，对杠杆ETF抱有先入为主的成见？——有，绝对有。杠杆这个概念总是让事情风险更高、波动更大，因此潜在亏损也大得多。"
+    },
+    {
+      "i": 43,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "11:51",
+      "en": "So I had the same thoughts as he that it didn't make sense. These ETFs have been around for a long time. And I can remember doing a blog about them way back in the day. Like when it was a horizon's ETFs here in Canada that I think had the first ones available at least in the Canadian marketplace. I remember having the exact same",
+      "zh": "所以我一开始和 Ben 想的一样，觉得这事说不通。这类ETF已经存在很长时间了。我记得很久以前我还写过一篇关于它们的博客。当时在加拿大，我想是 Horizons ETFs 最早推出了这类产品——至少在加拿大市场上是这样。我记得我们进行过完全相同的"
+    },
+    {
+      "i": 44,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "12:11",
+      "en": "discussion that you had been or with somebody who had pointed out to me, it's not just the leverage. It's this daily reset. It's that if it's like up 10, down 10, up 10, down 10, you think you're coming out ahead, but you're not. I had assumed frankly that that was just a fact, just the math. Until as",
+      "zh": "讨论——Ben，就像你经历的那样：有人向我指出，问题不只是杠杆，而是这个每日重置。就是说如果涨10%、跌10%、涨10%、跌10%，你以为自己是赚的，其实并没有。说实话，我一直以为那就是个事实，就是数学本身。直到"
+    },
+    {
+      "i": 45,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "12:31",
+      "en": "you said, you know, you pointed out that apparently in the real world, it's not proven to be the case. We're going to get into it a lot more detail. The more volatile the markets are, the more DDTFs are likely to deliver surprising returns. But that's not the same as saying right off the",
+      "zh": "像你说的那样，你指出现实世界里，这件事并没有被证明成立。我们会讲得更细。市场波动越大，杠杆ETF越可能带来令人意外的回报。但这并不等于一上来就说"
+    },
+    {
+      "i": 46,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "12:48",
+      "en": "bat, daily reset equals a loser's game. It's quite a bit more subtle than that. So I'm glad that you debunked it because I think we all have to sometimes step back and say, maybe some of the premises that we have believed for a long time aren't true. And if somebody shows us that",
+      "zh": "“每日重置等于输家的游戏”。事情要比这微妙得多。所以我很高兴你把这个说法推翻了，因为我觉得我们所有人有时候都必须退一步说：也许我们长期以来相信的某些前提并不成立。如果有人向我们证明"
+    },
+    {
+      "i": 47,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "13:06",
+      "en": "that's the case, then we need to admit it. And so I'm saying one of the nice things with having a podcast community of people that are way smarter than me because you can say stuff. And there's like thousands of people listening. If you say something that's wrong, they'll check you pretty quickly.",
+      "zh": "确实如此，那我们就得承认。所以我要说的是，拥有一个由比我聪明得多的人组成的播客社区，好处之一就是：你可以随便说，有几千人在听，如果你说错了什么，他们很快就会纠正你。"
+    },
+    {
+      "i": 48,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "13:20",
+      "en": "Well, it definitely forces you to do your fact checking before you record something, right? And that is never a bad thing. Yeah. So this, that's pretty crazy. $10,000 invested in the pro shares ultra pro S&P 503 X leverage GTF when it launched back in 2009. $10,000 will be worth $1.3",
+      "zh": "——这确实会迫使你在录制之前做好事实核查，对吧？这从来都不是坏事。——是啊。所以说，这个数字相当惊人：在2009年 ProShares UltraPro S&P 500（3倍杠杆ETF，代码 UPRO）发行时投入1万美元，这1万美元今天将价值130万"
+    },
+    {
+      "i": 49,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "13:39",
+      "en": "million today. That is more than 10 times the dollar amount that you'd have in a regular S&P 500 ETF. It's pretty crazy. Leverage is using any form of financing to obtain asset exposure greater than your own equity. And it can play a sensible role in asset allocation. It can also be a disaster.",
+      "zh": "美元。这比你在一只普通标普500 ETF 里能拿到的金额多出10倍以上。相当疯狂。杠杆，指的是使用任何形式的融资，获得超出自有资本的资产敞口。它可以在资产配置中扮演合理的角色，也可能是一场灾难。"
+    },
+    {
+      "i": 50,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "13:58",
+      "en": "Leveraged ETFs are very straightforward way to get leverage exposure to stocks. And that's why I think they're interesting. You can use margin or options or whatever. People are very comfortable with ETFs. You can hold ETFs in any account type. I have more comments on that part of the later.",
+      "zh": "杠杆ETF是获得股票杠杆敞口的一种非常直接的方式，这也是我认为它们有意思的原因。你可以用保证金、期权或者别的什么，但人们对ETF非常熟悉。任何账户类型都可以持有ETF。关于这一点，我后面还有更多评论。"
+    },
+    {
+      "i": 51,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "14:12",
+      "en": "Like, why would you use a leverage GTF? But they're just such a simple tool. A big thing and Kelly, you kind of alluded to this is whether leverage makes sense for people that just period, regardless of the source, the means of getting it. That's like asking, should I invest in stocks",
+      "zh": "比如，你为什么会用杠杆ETF？但它们就是这样一种极其简单的工具。还有一个大问题——Kelly，你刚才多少提到了这一点——就是杠杆本身对一个人来说究竟合不合理，且不论其来源、不论获取杠杆的手段。这就像在问“我该投资股票"
+    },
+    {
+      "i": 52,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "14:26",
+      "en": "or bonds? We can't tell you whether leverage makes sense for you. But what I've tried to do in these notes here is think through like what is the framework for how you decide whether leverage makes sense for your situation. It's really interesting because it's super normal to use a lot of",
+      "zh": "还是债券”。我们没法告诉你杠杆对你是否合理。但我在这份笔记里试图做的，是想清楚一个框架：你该如何判断杠杆在你自己的情况下合不合理。这件事很有意思，因为用大量"
+    },
+    {
+      "i": 53,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "14:41",
+      "en": "more money to buy a house. Everyone's familiar with and comfortable with having a mortgage. The leverage has, I think, an overall bad reputation when it comes to the stock market. And that's probably a good thing. It is often used irresponsibly. And there is research on this by",
+      "zh": "借来的钱买房，是再正常不过的事。每个人都熟悉并且接受“有房贷”这件事。而在股票市场里，我认为杠杆的总体名声是坏的，这大概是件好事。它经常被不负责任地使用，也有研究专门讨论这一点——"
+    },
+    {
+      "i": 54,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "14:55",
+      "en": "overconfident traders. So they're borrowing money like trading on margin. And that does tend to lead to bad outcomes. But I don't think that because it can be used irresponsibly is a reason that nobody should use it at all. It's a tool that can be used sensibly. And I'll try to talk about",
+      "zh": "关于过度自信的交易者。他们借钱、用保证金交易，而这确实往往导致糟糕的结果。但我不认为“它可能被不负责任地使用”就构成“谁都不该用”的理由。它是一种可以被明智使用的工具。我会试着讲讲"
+    },
+    {
+      "i": 55,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "15:10",
+      "en": "what the sensible use cases are. What it's really doing is amplifying the amount of exposure that you get to an asset for each dollar that you invest in that asset. As I mentioned, one of the most straightforward ways to get access to leverage is using leverage ETFs. The way that they work",
+      "zh": "哪些是明智的使用场景。杠杆真正在做的事情，是放大你每投入一美元所获得的资产敞口。正如我提到的，获得杠杆最直接的方式之一就是使用杠杆ETF。它们的运作方式"
+    },
+    {
+      "i": 56,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "15:24",
+      "en": "is that you invest say it's a thousand dollars in a two X leveraged index ETF that gives you exposure to two thousand dollars of the index's daily returns. So you're doubling your exposure to the underlying asset. Now it also increases volatility. This is a really interesting piece. It can",
+      "zh": "是：假设你向一只2倍杠杆指数ETF投入1000美元，它给你的是对指数每日回报2000美元的敞口。也就是说你把自己对标的资产的敞口翻了一倍。同时它也会放大波动率。这一点非常有意思：它既可能"
+    },
+    {
+      "i": 57,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "15:41",
+      "en": "increase or decrease returns depending on the cost of leverage and what the underlying asset does. Like Dan, you mentioned volatility. If something is really, really volatile, even if the returns of the underlying asset are high, the leverage return can end up being below",
+      "zh": "提高也可能降低回报，取决于杠杆的成本以及标的资产的表现。Dan，你刚才提到波动率。如果某个东西波动非常非常大，那么即使标的资产的回报很高，杠杆策略的回报最终也可能低于"
+    },
+    {
+      "i": 58,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "15:57",
+      "en": "the underlying. If there's a lot of volatility or if the cost of leverage is high or if there's some combination. Quickly on that point, like the huge returns you described in that three X ETFs since 2009, 2009 was the bottom of the financial crisis. Since then, obviously stocks are always",
+      "zh": "标的资产本身——当波动很大、或者杠杆成本很高、或者两者兼有时就会这样。——关于这一点我补充一句：你描述的那只3倍ETF自2009年以来的巨额回报——2009年是金融危机的底部。自那以后，股票当然一直"
+    },
+    {
+      "i": 59,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "16:19",
+      "en": "volatile, but it's been a really nice 17 year run since then. There hasn't been a huge amount of volatility. We had a lot of years in that period where the market went up until the right or the vast majority. So that's obviously a huge reason why. Not only very good absolute returns,",
+      "zh": "是有波动的，但那之后是一段非常漂亮的17年行情。整体波动并不算大。在那段时间里，有很多年份市场几乎是单边上涨，或者绝大多数时候在上涨。所以这显然是回报如此惊人的一个巨大原因：不仅绝对回报非常好，"
+    },
+    {
+      "i": 60,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "16:40",
+      "en": "but absolute returns without a whole lot of volatility along the way. I mean, obviously over a period that long, there were some down turns. But not as many as probably in the long term average. And the direction of that, I guess your point is like you could get 8% annualized over 17 years",
+      "zh": "而且一路上并没有太多波动。当然，在这么长的时段里会有一些回撤，但可能没有长期平均水平那么多。顺着这个方向，我猜你的意思是：你可以在17年里拿到8%的年化回报，"
+    },
+    {
+      "i": 61,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "17:01",
+      "en": "and another simulation where you also got 8% annualized, but with way more volatility, the performance of the leverage DTF in the volatile data set is going to be a lot worse. Yes, because it increases volatility, it decreases your compound return over time.",
+      "zh": "而在另一组同样拿到8%年化、但波动大得多的模拟里，杠杆ETF在高波动数据集上的表现要差很多。——是的，因为它放大了波动率，就会降低你随时间累积的复合回报。"
+    },
+    {
+      "i": 62,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "17:21",
+      "en": "The other thing about the last 17 or so years then, I use that example at front because it's just such a big number. I thought it was super interesting to see, but the higher returns low volatility were big pieces of it. The other really big piece over that specific period was low",
+      "zh": "关于过去这17年左右，还有另一件事。我把那个例子放在最前面，是因为那个数字实在太大了，我觉得看起来非常有意思。但高回报、低波动只是其中的重要组成部分。在那段特定时期里，另一个非常重要的因素是低"
+    },
+    {
+      "i": 63,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "17:36",
+      "en": "financing costs. Low interest rates. Correct. And so you added a lot and it's like, oh, that's why it looks so good. And I have an example later on that we can speak to about if you start just a little bit earlier with a leverage of mutual fund that existed in I think it was 1994.",
+      "zh": "融资成本。——低利率。——对。所以这些加在一起，你就会明白：哦，原来它看起来这么好是这个原因。后面我有一个例子可以谈：如果你把起点稍微往前挪一点，用一只我记得是1994年就存在的杠杆共同基金，"
+    },
+    {
+      "i": 64,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "17:52",
+      "en": "Very different outcome just from having higher financing rates beginning from catching some more market downturns. You really got the lost decade in that case, but then in that case, it just recently broke even with an un leveraged fund. Overlapping period, but starting a little bit",
+      "zh": "结果会非常不同——仅仅是因为起点上的融资利率更高、又赶上了更多几次市场下跌。在那种情况下你真的会经历“失去的十年”，而直到最近，它才刚刚追平一只无杠杆基金。时段高度重叠，只是起点稍早"
+    },
+    {
+      "i": 65,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "18:07",
+      "en": "earlier, you can see how sensitive it is to the start date. And that's just because of things like just a different volatility environment, different financing costs, that fund has a slightly higher fee to, not that much though 50 basis point higher, I believe. We'll get into some of those details",
+      "zh": "一点点，你就能看出它对起始日期有多敏感。而这仅仅是因为波动环境不同、融资成本不同，那只基金的费用也略高一些——不过不算多，我记得高出50个基点。我们稍后会讲到这些细节。"
+    },
+    {
+      "i": 66,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "18:20",
+      "en": "in a minute. The case for leverage. There are different ways to think about leverage, but we're talking about this one specific case in theory. Young people with lots of human capital, that's lots of future earnings potential from working and low current financial wealth, meaning they don't",
+      "zh": "支持杠杆的理由。思考杠杆有很多种方式，但我们谈的是理论上的这一种特定情形：年轻人拥有大量人力资本（human capital）——也就是通过工作获得的大量未来收入潜力——而当前的金融财富很低，意味着他们"
+    },
+    {
+      "i": 67,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "18:38",
+      "en": "have much money to invest today. Those people that fit that profile should be borrowing to invest in the stock market because their human capital is like a big bond. So they're way overexposed to safe assets. And there's, there's a lot more to say about that, which I will say in a second.",
+      "zh": "今天没有多少钱可以投资。符合这一画像的人，应该借钱去投资股票市场，因为他们的人力资本就像一只巨大的债券。也就是说他们严重超配了安全资产。关于这一点还有很多可说的，我马上就讲。"
+    },
+    {
+      "i": 68,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "18:54",
+      "en": "But the idea is that if, and this is one of the things that I'm talking about, it's a big if that I will come back to later, if your human capital is a safe bond like asset, and you have low financial assets today, meaning low investments in things like stocks and bonds, your overall",
+      "zh": "核心逻辑是：如果——这正是我要讲的东西之一，是个大大的“如果”，我稍后会回来讨论——如果你的人力资本是一项安全的、类债券的资产，而你今天的金融资产又很低，也就是在股票、债券这类资产上的投资很少，那么你整体的"
+    },
+    {
+      "i": 69,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "19:10",
+      "en": "asset allocation is concentrated in safe assets in the safe human capital and it's lacking exposure to risky assets like stocks. Part of the idea here is that people have a constant ideal lifetime asset allocation. When most of your assets are in your human capital, you're way overexposed to",
+      "zh": "资产配置就集中在安全资产上——集中在那份安全的人力资本上——而缺乏对股票这类风险资产的敞口。这里的部分思路是：人有一个恒定的、理想的一生资产配置。当你大部分资产都在人力资本里时，你就严重超配了"
+    },
+    {
+      "i": 70,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "19:27",
+      "en": "fixed income and you should therefore borrow as much money as you can to invest in stocks. So that comes from Paul Samuelson had a paper in 1969. Robert Merton had a precursor paper in 1969, but his paper that supports leverage came out in 1971. So this is kind of the two big",
+      "zh": "固定收益，因此你应该尽可能多地借钱去投资股票。这个结论出自 Paul Samuelson（保罗·萨缪尔森）1969年的一篇论文。Robert Merton（罗伯特·默顿）在1969年有一篇前导性论文，但他真正支持杠杆的那篇论文发表于1971年。所以这算是两篇"
+    },
+    {
+      "i": 71,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "19:45",
+      "en": "foundational papers. Then there's another paper in 1992 that went into a little bit more detail on this theory. And so of 1992 paper, they treat human capital as an asset in the portfolio, and they show that a young worker with little financial wealth whose future earnings are relatively",
+      "zh": "奠基性论文。然后还有1992年的另一篇论文，把这套理论讲得更细一些。在那篇1992年的论文里，作者把人力资本当作组合中的一项资产，并证明：一位金融财富很少、未来收入相对"
+    },
+    {
+      "i": 72,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "20:00",
+      "en": "safe does optimally use leverage to reach their target equity exposure. That's just a model, it's whatever, but that's what their model says. They do some other interesting stuff here. They look at flexibility in labor supply. So that means if somebody has the ability to earn income by",
+      "zh": "安全的年轻工作者，最优做法确实是使用杠杆来达到其目标股票敞口。这只是个模型，不必太当真，但模型是这么说的。他们还做了一些其他有意思的东西，比如考察劳动供给的灵活性。意思是：如果一个人有能力通过"
+    },
+    {
+      "i": 73,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "20:15",
+      "en": "working a little bit more, if their labor supply is flexible, the effect of using leverage is even stronger. To think about it in simple terms, you can imagine a situation where the stock market crashes, which is a bad thing. But if you're in a type of job where you can just pick up more work",
+      "zh": "多干一点活来赚取收入——如果他的劳动供给是灵活的——那么使用杠杆的效应会更强。用简单的方式来想：你可以想象股市崩盘的情形，这是坏事。但如果你所处的那类工作，让你可以随时多接一些活、"
+    },
+    {
+      "i": 74,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "20:31",
+      "en": "or overtime hours or whatever it is to keep your income stable, your human capital is that much safer. And therefore, you should have more exposure to stocks. So again, it's an economic model from 1992. It's not the truth, but it's whatever it supports leverage in theory. They do also show",
+      "zh": "多加一些班或者别的什么来保持收入稳定，那你的人力资本就更安全了。因此，你就应该持有更多股票敞口。所以再说一遍：这是1992年的一个经济学模型，它不是真理，但它在理论上支持杠杆。他们还证明"
+    },
+    {
+      "i": 75,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "20:48",
+      "en": "on that paper that the more your income is correlated with the stock market, the less leverage the model calls for. And in some cases, it calls for no leverage if you have really, really risky human capital. So a lot of it does come down to this basic question, which is the title of motion mulevsky's book,",
+      "zh": "在那篇论文中：你的收入与股票市场的相关性越高，模型所要求的杠杆就越少。在某些情况下，如果你的人力资本风险非常非常高，模型要求的是零杠杆。所以很多事情最终都归结到这个基本问题上，也就是 Moshe Milevsky（莫谢·米列夫斯基）那本书的书名："
+    },
+    {
+      "i": 76,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "21:03",
+      "en": "are you a stock or a bond? Is your human capital stock like or bond like if you're human capital as a stock, you probably want to take less risk and financial markets. And if it's a bond, you can afford to take more risk and may want to use leverage when you're young. Now, I know this gets",
+      "zh": "《你是股票还是债券？》（Are You a Stock or a Bond?）。你的人力资本是类股票还是类债券？如果你的人力资本像股票，你大概想在金融市场上承担更少风险；如果它像债券，你就有能力承担更多风险，年轻时也许应该使用杠杆。我知道，人们听到"
+    },
+    {
+      "i": 77,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "21:18",
+      "en": "people really excited when they hear theories of supporting leverage and then they want to go bore lots of money and invest as much as possible in the stock market. But I think that the assumption of safe human capital really does need to be interrogated, which I'm going to do. I will interrogate",
+      "zh": "支持杠杆的理论时会非常兴奋，接着就想去借很多钱、尽可能多地投进股票市场。但我认为，“人力资本是安全的”这个假设确实需要被审视，我接下来就要做这件事。我要审视"
+    },
+    {
+      "i": 78,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "21:33",
+      "en": "the safety of human capital, but I'd love to hear your thoughts and experiences with people wanting to use leverage or not for maybe reasons like this. It does have an argument that it makes sense for someone who's younger to use leverage earlier on because you have very little assets",
+      "zh": "人力资本的安全性，但我很想听听你们的想法和经验：有没有人因为这类理由而想用或不想用杠杆。——确实有这样的论点：对年轻人来说，早期使用杠杆是合理的，因为你的资产很少，"
+    },
+    {
+      "i": 79,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "21:51",
+      "en": "and having that long time horizon can really make a difference. But it's the difference between what looks optimal on paper and what you can actually stick with if there is a downturn. Is that going to make you want to jump off or keep going? And so it can be really hard.",
+      "zh": "而拥有那么长的时间跨度真的能带来差别。但问题在于：纸面上看起来最优的方案，与你在真的出现下行时能坚持住的方案，是两回事。那种时候你会想跳车还是继续走下去？所以这可能真的很难。"
+    },
+    {
+      "i": 80,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "22:10",
+      "en": "This is just my personality. I don't find it really a compelling argument that when you're young and you don't have a lot of assets that you somehow not only need to be 100% stocks, but you need to be 200% stocks. If you want to invest in a 100% equity portfolio when you're young,",
+      "zh": "这只是我的性格使然。我并不觉得这个论点真有说服力：年轻人资产不多，就不知怎么的不仅需要100%配置股票，还得200%配置股票。如果你年轻时就想投一个100%股票的组合，"
+    },
+    {
+      "i": 81,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "22:29",
+      "en": "yeah, by all means go ahead as long as you're comfortable with that volatility. I'm not sure that I would encourage anybody to double that. Yes, we're comfortable with leverage in some situations and you mentioned, for example, buying a home. But people think of this in a fundamentally",
+      "zh": "那好，尽管去做，只要你能接受那样的波动。但我不确定我会鼓励任何人把这个比例再翻一倍。——是的，在某些情形下我们对杠杆是接受的，比如你提到的买房。但人们思考这件事的方式在根本上是"
+    },
+    {
+      "i": 82,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "22:48",
+      "en": "different way. We don't take out a mortgage because we want leveraged exposure to real estate. We take out a mortgage because we can't afford to buy a house. That is not the same thing as building an investment portfolio. You don't have to buy an investment portfolio today and then",
+      "zh": "不同的。我们办房贷，不是因为想要对房地产的杠杆敞口，而是因为我们买不起房。这和构建一个投资组合不是一回事。你并不需要今天就把一个投资组合整个买下来、然后"
+    },
+    {
+      "i": 83,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "23:06",
+      "en": "pay it off over years. You can put whatever you've got available to save into the market now and let that compound over time. You can't do that with a house. So leverage is the only opportunity. Most people will ever have to own a home. So it's really a fundamentally different decision.",
+      "zh": "用很多年慢慢还清。你可以把手上能存下来的钱现在就投进市场，让它随时间复利增长。房子做不到这一点。所以对大多数人来说，杠杆是他们这辈子唯一一次能够拥有住房的机会。因此这真是一个在根本上不同的决定。"
+    },
+    {
+      "i": 84,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "23:26",
+      "en": "And I will also say most people when they pay off their homes, don't reborrow the money in order to get leveraged exposure to real estate. They could, but they don't and they don't because most people are debt averse. A house is a less volatile asset than a stock portfolio.",
+      "zh": "我还要说一点：大多数人还清房贷之后，并不会再把钱借出来以获得对房地产的杠杆敞口。他们本可以这么做，但他们不做，因为大多数人是厌恶负债的。房子是一种比股票组合波动更小的资产，"
+    },
+    {
+      "i": 85,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "23:44",
+      "en": "Has some volatility as we're finding in the last couple of years. But it's just to me a very different decision that probably shouldn't be lumped in together. How is that? I don't know, man. You don't see the volatility, but we do actually have an hour expected returns document.",
+      "zh": "尽管正如我们过去几年所发现的，它也有一些波动。但对我来说，这就是一个非常不同的决定，大概不该被混为一谈。——怎么会呢？我不知道，哥们儿，你是看不到那个波动。——但我们确实有一份“预期回报”文件，"
+    },
+    {
+      "i": 86,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "24:00",
+      "en": "Research showing the difference between real estate index volatility and individual home volatility. And then the same thing with individual stocks. They're way more volatile than the stock market. But when you compare individual home volatility to stock index volatility, they're actually pretty",
+      "zh": "里面的研究显示房地产指数波动率与单套住宅波动率之间的差别。单只股票也是同样的道理：它们的波动远大于股票市场整体。但当你把单套住宅的波动率与股票指数的波动率相比时，两者其实相当"
+    },
+    {
+      "i": 87,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "24:16",
+      "en": "similar. Interesting. I always thought it would be funny. And I've said this before, if you had a ticker on your house that updated itself with the value of your house in real time, you would change your perception of how safe the offer is. Yeah, it would be horrible. Nobody",
+      "zh": "接近。——有意思。我一直觉得这会很好玩，我以前也说过：如果你家房子外面挂着一个实时更新的行情代码牌，随时刷新你房子的价值，你对它有多安全的看法就会彻底改变。——是啊，那会太可怕了。没人"
+    },
+    {
+      "i": 88,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "24:33",
+      "en": "would want to endure that. And of course, it's impossible to measure. But you get the point in theory. The volatility of house prices is kind of invisible. And sure, you look around, you see house prices fall, but you feel like your house is worth either what you paid for it",
+      "zh": "愿意忍受那种东西。当然，它实际上也无法测量。但理论上你明白我的意思：房价的波动在某种程度上是看不见的。诚然，你环顾四周会看到房价下跌，但你觉得自己那套房子要么值你当初付出的价钱"
+    },
+    {
+      "i": 89,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "24:51",
+      "en": "plus renovations, which is most people's formula, which is really unreliable. Or whatever it topped out at probably in 2022. That's what it's worth today. And I'm just waiting for it to come back. People don't have that same attitude towards stocks. And so enduring leverage, leverage",
+      "zh": "加上装修费——这是大多数人的算法，非常不靠谱；要么就值它大概在2022年摸到的那个高点，“那就是它今天的价值，我只是在等它回来”。人们对股票却不会有同样的态度。所以在股票市场上承受杠杆、承受杠杆"
+    },
+    {
+      "i": 90,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "25:09",
+      "en": "to volatility in the stock market is quite a bit more difficult behaviorally than having a mortgage. I think that's probably true. It is an interesting point about homes, their indivisible assets, large indivisible assets, stocks, like you can buy ETF units for 10 bucks",
+      "zh": "带来的波动，在行为层面上比背着一笔房贷要困难得多。——我觉得这大概是对的。关于房子有一个很有意思的点：它们是不可分割的资产，大额的不可分割资产。而股票呢，你可以花10块钱买ETF份额，"
+    },
+    {
+      "i": 91,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "25:28",
+      "en": "or whatever it is, but you can't buy home units. I mean, the closest thing you can do, I guess, is renting that you kind of have to use leverage. I think education is similar where it's a large upfront cost and the only way some people can pay for it is by taking a loans. But you're right.",
+      "zh": "或者别的什么金额都行，但你没法买“房子份额”。我猜最接近的做法就是租房——某种意义上你必须用杠杆。我觉得教育也类似：那是一笔大额的先期支出，而对某些人来说，付得起它的唯一办法就是贷款。但你说得对，"
+    },
+    {
+      "i": 92,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "25:42",
+      "en": "You never really forced to borrow to invest in stocks. So it is a different decision. That aside, we were mostly talking about the behavioral stuff, which is important for sure. But one big problem with the bond like human capital, therefore, you should leverage into stocks",
+      "zh": "你从来不会被真正强迫借钱去买股票。所以这确实是一个不同的决定。——撇开这一点不谈，我们刚才主要说的是行为层面的东西，那当然很重要。但“人力资本类债券、因此你应该加杠杆买股票”这个论证有一个大问题："
+    },
+    {
+      "i": 93,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "25:58",
+      "en": "argument is that young people specifically may have risk of your human capital. You look at whose labor is affected the most in a downturn. I don't think anybody would be surprised that young people tend to be more sensitive to broader economic risks. I think we're seeing that a lot right",
+      "zh": "年轻人，特别是他们的人力资本可能是有风险的。你看看在下行周期里，谁的劳动受到的冲击最大。我想没有人会意外：年轻人往往对更广泛的经济风险更敏感。我觉得我们现在就大量地看到这一点，"
+    },
+    {
+      "i": 94,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "26:17",
+      "en": "now with folks, especially in certain industries like software where young people I think are having a lot of trouble getting jobs compared to what it's looked like historically. And there's also the evidence that we have from Patrick Adams that many high-income households",
+      "zh": "尤其是在某些行业，比如软件业——我认为相比历史上的情况，年轻人现在找工作要困难得多。另外，我们还有来自 Patrick Adams（帕特里克·亚当斯）的证据：许多高收入家庭的"
+    },
+    {
+      "i": 95,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "26:32",
+      "en": "wage and business incomes do decline at the same time as the stock market. We can say that if you have this theoretically perfectly safe human capital and you know that it's never going to decrease when the stock market does, I do think the argument to borrow gets a little bit",
+      "zh": "工资收入和经营收入确实会与股票市场同时下滑。我们可以这么说：如果你拥有这种理论上完全安全的人力资本，而且你知道它在股市下跌时绝不会缩水，那我确实认为借钱的论据会变得稍微"
+    },
+    {
+      "i": 96,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "26:47",
+      "en": "stronger and I think even behaviorally that would help. But the reality for people is that you're always worried about losing your job at the same time as your portfolio and your savings decreasing. And the evidence at least from Patrick Adams work does show that that tends to happen",
+      "zh": "更强一些，我认为即使在行为层面上这也会有帮助。但人们的现实处境是：你总在担心失业与组合、储蓄缩水同时发生。而至少从 Patrick Adams 的研究来看，证据确实显示这种情况往往会发生，"
+    },
+    {
+      "i": 97,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "27:01",
+      "en": "and not only that, that people do tend to sell some of their liquid assets, including their stocks after a decline to make up some of that income shortfall when their income has fallen. So this idea that in theory, people should borrow because their human capital is safe, I think you",
+      "zh": "而且不止如此：在收入下滑之后，人们确实倾向于卖掉一部分流动资产，包括股票，来弥补收入缺口。所以“理论上人们应该借钱，因为他们的人力资本是安全的”这个想法——我认为你"
+    },
+    {
+      "i": 98,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "27:16",
+      "en": "have to really think carefully about how safe your human capital actually is. If your income does fall or if you think it could fall when the market drops, that poses an economic risk because you don't want to sell your portfolio after it declines. But I think it does really increase the behavioral",
+      "zh": "必须认真思考你的人力资本到底有多安全。如果你的收入确实会下跌，或者你认为它可能在市场下跌时下跌，那就构成了一种经济风险，因为你并不想在组合下跌之后把它卖掉。但我认为它确实也大大增加了行为层面的"
+    },
+    {
+      "i": 99,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "27:33",
+      "en": "risk too. Because you have to remember like when the stock market drops, it's not dropping for some abstract reason. It's dropping for some real thing that's happening in that moment, whether it's whatever COVID or tariffs or something. But everyone's like, oh no, this is",
+      "zh": "风险。因为你必须记住：股市下跌的时候，它不是因为某个抽象的原因在跌，而是因为那一刻正在发生的某件真实的事——不管是疫情、关税还是别的什么。而所有人的反应都是：“哦不，这次"
+    },
+    {
+      "i": 100,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "27:47",
+      "en": "going to be really bad. And you're not just worried about your stock portfolio at that point. You're worried about your income too. So I do think both the economic and behavioral considerations there need to be thought through very carefully for anyone that is thinking about doing this stuff.",
+      "zh": "会很糟。”在那个时刻，你不只是担心自己的股票组合，你也担心自己的收入。所以我确实认为，对任何在考虑做这类事情的人来说，经济层面和行为层面的这两重考量都需要被非常仔细地想清楚。"
+    },
+    {
+      "i": 101,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "28:00",
+      "en": "Now all that being said, on the assumption of safe human capital, which as we just said is a big assumption, there is this paper diversification across time from 2013 that argues in favor of what we've been talking about using a leverage for young people. In their case, they are suggesting",
+      "zh": "话虽如此，在“人力资本安全”这个假设之下——正如我们刚才说的，这是一个很大的假设——有一篇2013年的论文《跨期分散化》（Diversification Across Time），它支持我们一直在讨论的观点，即年轻人应该使用杠杆。在他们的情形里，作者建议"
+    },
+    {
+      "i": 102,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "28:18",
+      "en": "two times leverage early on. And they say it's for practical reasons because that's kind of what people can access. But I think that they would actually go higher if there were practical ways to do that. And one of the ways they illustrate the benefits of this approach, other than the theory",
+      "zh": "早期使用2倍杠杆。他们说这是出于现实考虑，因为那大致就是普通人能够获得的上限。但我认为，如果现实中有可行的办法，他们其实会加得更高。除了我们刚谈过的理论之外，他们展示这种方法好处的方式之一，是"
+    },
+    {
+      "i": 103,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "28:31",
+      "en": "that we just talked about, they compare two X leverage stock portfolios, which decline to 50% stocks and 50% bonds at retirement. So you're starting 200% stocks and that's declining over time to 50% stocks and 50% bonds. And they're comparing that to a non-leveraged portfolio that's constantly at 74%",
+      "zh": "把两组组合做对比：一组是2倍杠杆的股票组合，随时间下降，到退休时变成50%股票、50%债券。也就是说你从200%股票起步，随时间递减到50%股票、50%债券。他们把它与一个始终恒定在74%"
+    },
+    {
+      "i": 104,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "28:50",
+      "en": "stocks and 26% bonds. And the reason for that very specific benchmark allocation is that in their back tests, it produces the same mean retirement accumulation outcome as the leverage strategy, but it has a higher standard deviation of wealth. So they're kind of showing like you can get to the",
+      "zh": "股票、26%债券的无杠杆组合相比。之所以选这个非常具体的基准配置，是因为在他们的回测中，它产生的退休期财富累积均值与杠杆策略相同，但财富的标准差更高。所以他们其实是在展示：你可以到达"
+    },
+    {
+      "i": 105,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "29:07",
+      "en": "same place and the whole argument in this paper is that you can get to the same place on average with leverage, but you're actually doing it with what they're showing less standard deviation around that average. So they're saying basically it's safer to do this leverage thing",
+      "zh": "同一个位置——这篇论文的整个论证就是：用杠杆，你平均而言能到达同一个位置，但你所用的方式，正如他们所展示的，围绕这个均值的标准差更小。所以他们基本上是在说，做这件加杠杆的事"
+    },
+    {
+      "i": 106,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "29:22",
+      "en": "than it is to have a constant allocation. The idea here being once you reach retirement in one scenario, you're 50-50 and in the other scenario, you're 74% stocks, which I think a lot of people would say is a relatively aggressive portfolio for retirement. So you'd be more comfortable",
+      "zh": "比持有一个恒定配置更安全。这里的思路是：当你到达退休时，一种情形下你是50/50，另一种情形下你是74%股票——我认为很多人会说，对退休而言那是一个相对激进的组合。所以作为一个退休者，"
+    },
+    {
+      "i": 107,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "29:42",
+      "en": "as a retiree being at 50-50, but had you followed this strategy, if you were 100% stocks, let's say early in life and then decline to 50-50. By the time you got to retirement, you would have less than you would had you followed the leverage strategy. Is that the idea here?",
+      "zh": "处在50/50会更舒服。但假设你走的是另一条路：比如人生早期100%股票，然后递减到50/50。等你到退休时，你手上的钱会比走杠杆策略更少。这就是这里的思路吗？"
+    },
+    {
+      "i": 108,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "30:02",
+      "en": "Yeah, your retirement portfolio, you have a more volatile outcome. That's right. And you're rewarded with more stability once you get to retirement, as long as you endure more volatility when you're younger. Yeah, their premise in the paper and the reason they call",
+      "zh": "——是的，你的退休组合会面对一个波动更大的结果。——没错。而只要你年轻时承受了更多波动，作为回报，你到退休时会获得更多的稳定性。——是的，这篇论文的前提，也是他们把它叫作"
+    },
+    {
+      "i": 109,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "30:21",
+      "en": "diversification across time is that they want you to be taking more equal amounts of equity risk throughout each period of your life, as opposed to having when your portfolio is really large, when you're retired, you're taking a lot of equity risk at that time, but you could have taken",
+      "zh": "《跨期分散化》的原因，就是他们希望你在人生的每一个阶段承担大致相等数量的股票风险；而不是像现在这样——当你退休、组合规模非常大的时候，你在那个时点承担了大量股票风险，而这些风险你本可以"
+    },
+    {
+      "i": 110,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "30:34",
+      "en": "that equity risk earlier in life by using leverage and spread out the risk over time. So if you end up with an unlucky outcome where the risk shows up when you have a large portfolio close to retirement, you're getting this bad outcome, but you could have spread that risk out by",
+      "zh": "在人生更早的时候通过使用杠杆来承担，从而把风险在时间上摊开。所以如果你最终遭遇了一个不幸的结果——风险恰恰在你临近退休、组合很大的时候兑现了——你就承受了这个坏结果，但你本来可以通过"
+    },
+    {
+      "i": 111,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "30:48",
+      "en": "delivering up and taking more risk early on. That's the premise and that's where they get to title the paper. They assume the paper, bond, delight, like a very, very safe human capital that does not fluctuate, which is an assumption worth questioning in the paper to be fair, it does",
+      "zh": "在早期加杠杆、承担更多风险，把那份风险摊开。这就是它的前提，也是他们给论文起这个标题的由来。论文假设人力资本是类债券的——非常非常安全、不会波动——这是一个值得质疑的假设。公平地说，论文本身确实"
+    },
+    {
+      "i": 112,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "31:02",
+      "en": "acknowledge this. The way that they approach the target allocation in the paper is with the Merton Samuelson share, which comes from those foundational papers that I mentioned earlier. It's the ratio of the expected equity risk premium divided by the expected variance of stock",
+      "zh": "承认了这一点。论文中确定目标配置的方法，用的是“默顿—萨缪尔森份额”（Merton–Samuelson share），它来自我前面提到的那几篇奠基性论文。它是预期股权风险溢价，除以股票的预期方差，"
+    },
+    {
+      "i": 113,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "31:17",
+      "en": "returns multiplied by the investor's constant relative risk version. Lots of variables there, but think about it. If you have a higher equity risk premium, that's going to increase your target exposure to stocks. Lower variance of stock returns is going to increase your target exposure",
+      "zh": "再乘以投资者的恒定相对风险厌恶系数（constant relative risk aversion）。这里变量很多，但你想想：如果股权风险溢价更高，就会提高你对股票的目标敞口；股票回报的方差更低，也会提高你的目标"
+    },
+    {
+      "i": 114,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "31:32",
+      "en": "to stocks, and lower risk aversion is going to increase your exposure to stocks. The reality is each one of those things that I just said, the equity risk premium, the variance of stock returns and your constant relative risk aversion, those are all things that we don't know. I think this",
+      "zh": "股票敞口；风险厌恶程度更低，同样会提高你的股票敞口。而现实是，我刚才说的那几样东西——股权风险溢价、股票回报的方差、你的恒定相对风险厌恶系数——全都是我们并不知道的。我觉得这件事"
+    },
+    {
+      "i": 115,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "31:50",
+      "en": "can get pretty complicated to say, you should use 2x leverage because the Merton Samuelson share says so. Based on what assumptions, the other thing there is that if you have a high risk aversion, if you're highly risk averse, your optimal equity allocation is going to be lower.",
+      "zh": "可以变得相当复杂：你要说“你应该用2倍杠杆，因为默顿—萨缪尔森份额是这么算的”，那是基于什么假设？另外还有一点：如果你的风险厌恶程度很高，如果你是高度风险厌恶的，你的最优股票配置就会更低。"
+    },
+    {
+      "i": 116,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "32:06",
+      "en": "In the episode we did with James Troy, he had this spreadsheet, a very simple spreadsheet that took complex portfolio theory and boiled it down to a few inputs, bred in mid and up with that, but one of the inputs to it is risk aversion. So there's a very simple little thought experiment",
+      "zh": "在我们和 James Choi（詹姆斯·崔）做的那期节目里，他有一个电子表格，一个非常简单的表格，把复杂的组合理论浓缩成几个输入项，然后据此算出结果。其中一个输入项就是风险厌恶。所以你可以做一个非常简单的小思想实验"
+    },
+    {
+      "i": 117,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "32:20",
+      "en": "that you can do to figure out what your risk aversion is, but target allocation swing wildly around risk aversion. So it's another thing where it's like, we can make this theoretical case for leverage, but it's so sensitive to things like those inputs that you do have to question it a little bit.",
+      "zh": "来搞清楚自己的风险厌恶程度是多少。但目标配置会围绕风险厌恶剧烈摆动。所以这又是一个例子：我们可以为杠杆做出这套理论论证，但它对那些输入项如此敏感，以至于你确实得对它打个问号。"
+    },
+    {
+      "i": 118,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "32:34",
+      "en": "There is a more recent, well, our listeners are pretty familiar with this paper, but it's Scott Cedarberg and his co-authors paper beyond the status quo. They do this lifecycle model of an American household and they run all these simulations and rooted in long-term historical",
+      "zh": "还有一篇更近期的——好吧，我们的听众对这篇论文已经相当熟悉——是 Scott Cederburg（斯科特·塞德堡）与其合著者的《超越现状》（Beyond the Status Quo）。他们做了一个美国家庭的生命周期模型，跑了大量模拟，这些模拟扎根于长期历史"
+    },
+    {
+      "i": 119,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "32:48",
+      "en": "data. They're doing the block bootstrap. It's pretty neat paper. We've had Scott on a few times that people want to learn about it about the research. In the newest version of that paper, it in the older version too, but the results, I think, changed a little bit in the newer version.",
+      "zh": "数据，用的是分块自助法（block bootstrap）。这是一篇相当漂亮的论文。我们请 Scott 上过几次节目，想深入了解这项研究的人可以去听。在那篇论文的最新版本里——旧版本也有——但我觉得新版本的结果有些变化。"
+    },
+    {
+      "i": 120,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "33:01",
+      "en": "They allow leverage in one of their simulations, and when they do that, and the cost of borrowing is 1.4% above the risk-free rate, which is a pretty realistic cost of leverage for most households. The optimal allocation for the household is, again, 2x leverage early on,",
+      "zh": "在其中一组模拟里他们允许使用杠杆。当他们这样做，且借贷成本高于无风险利率1.4%——这对多数家庭来说是一个相当现实的杠杆成本——该家庭的最优配置，再一次是早期使用2倍杠杆，"
+    },
+    {
+      "i": 121,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "33:20",
+      "en": "decreasing over time while investing in a portfolio of approximately 34% domestic stocks and 66% international stocks. So there's just another, I don't know, interesting example of research that's looked at should people be using leverage and found that it can be optimal",
+      "zh": "随时间递减，同时投资于一个大约34%本国股票、66%国际股票的组合。所以这又是一个——我不知道怎么说——有意思的研究例子：它考察了人们究竟该不该使用杠杆，并发现这在模型中可能是最优的。"
+    },
+    {
+      "i": 122,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "33:38",
+      "en": "in a model. But as we talked about, models are not reality and people are not spreadsheets. It's so hard to look at what's perfect on paper compared to what happens in real life and how you experience it and how you react to it and what actually makes sense for you. I agree.",
+      "zh": "——但正如我们谈过的，模型不是现实，人也不是电子表格。要把纸面上完美的东西，与现实生活中真正发生的事、你如何体验它、你如何反应、什么才真正适合你放在一起比较，是非常难的。——我同意。"
+    },
+    {
+      "i": 123,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "33:56",
+      "en": "So that's kind of the setup. Could leverage ever make sense for somebody? Yeah, maybe. But you get a lot of volatility. You have the chance for total wipeouts. You can lose all your money with leverage, which is harder to do when you're investing in an",
+      "zh": "以上就是大致的铺垫。杠杆对某个人来说有没有可能真的合理？是的，也许有。但你会承受很大的波动，你还面临被彻底清零的可能。用杠杆你可能把钱全部亏光，而当你投资一只"
+    },
+    {
+      "i": 124,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "34:09",
+      "en": "index fund. In a leverage index fund, though, you can get closer. I don't know if you have any leverage index funds to go to zero yet, but it's possible. Especially when you get into 3x, you get a really big downward move in a day, because the daily resets do help a bit, but it could happen.",
+      "zh": "指数基金时，这件事要难得多。不过在一只杠杆指数基金里，你会更接近那种结果。我不知道目前是否已有杠杆指数基金归零，但这是可能的。尤其是当你上到3倍杠杆、又碰上一天之内非常大的下跌——因为每日重置确实有帮助——但这仍可能发生。"
+    },
+    {
+      "i": 125,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "34:23",
+      "en": "That's not very fun. It can still look good on paper. You can still run a million simulations and be like, no, no, no, you're better off with leverage. It's like, well, if you lose all your money, even if it's a relatively unlikely outcome, I don't know how likely it is that somebody's just",
+      "zh": "那一点都不好玩。它在纸面上仍然可以看起来很好。你仍然可以跑一百万次模拟，然后说：“不不不，用杠杆你更好。”可问题是，如果你把钱全亏光了——即使这是一个相对不太可能发生的结果——我不知道一个人在那种时候还能"
+    },
+    {
+      "i": 126,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "34:37",
+      "en": "going to be like, well, this is part of the expected range of outcomes. Better get back into it. I'm skeptical. That sort of leads into another thing is that it's one thing to talk about being young. Well, what are some of the characteristics? Well, you may have a lot of human capital ahead of you.",
+      "zh": "多大概率说：“嗯，这属于预期结果区间的一部分，最好赶紧重新进场。”我很怀疑。这就引出了另一件事：谈“年轻”是一回事，那年轻都有哪些特征呢？好吧，你未来可能有大量人力资本，"
+    },
+    {
+      "i": 127,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "34:53",
+      "en": "You don't have a lot of assets, but the other thing is you don't have any experience. One of the things that I think is really important, if you're going to be investing in an equity-heavy risky portfolio, especially a leveraged one, is you need to have been through",
+      "zh": "你没什么资产，但另一点是你没有任何经验。我认为非常重要的一点是：如果你要投资一个偏重股票的高风险组合，尤其是带杠杆的组合，你需要先经历过"
+    },
+    {
+      "i": 128,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "35:09",
+      "en": "the volatility before, so you can really assess your risk tolerance. And we've talked about this many times. I don't believe any person today who says that they're highly risk-current, if their only exposure to markets has been the last four years, because you had no idea how you're",
+      "zh": "那样的波动，才能真正评估自己的风险承受能力。这一点我们讲过很多次了。今天如果有谁说自己高度风险偏好（risk-tolerant），但他对市场的全部经历只有最近这四年，我是不会相信的，因为你根本不知道自己在"
+    },
+    {
+      "i": 129,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "35:28",
+      "en": "going to behave when the markets actually fall, because they barely fall in that period of time. If you're just getting started with an entry-level job, for example, and you're just investing, you don't really know what your risk tolerance is. By the time you've investing for 20, 25 years,",
+      "zh": "市场真正下跌时会作何表现，因为在那段时间里市场几乎没怎么跌过。举例来说，如果你刚开始做一份入门级工作、刚开始投资，你其实并不清楚自己的风险承受能力是什么。而等你投资了20年、25年之后，"
+    },
+    {
+      "i": 130,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "35:47",
+      "en": "now I think you have a much better understanding of what's in store for you. I would be more comfortable, frankly, with someone using leverage at that stage. Apparently, that makes no sense in the lifecycle model, but in terms of the experience model,",
+      "zh": "我觉得你会对等待自己的东西有更好的理解。说实话，一个人在那个阶段使用杠杆，我会更放心。显然，这在生命周期模型里说不通，但从“经验模型”的角度看，"
+    },
+    {
+      "i": 131,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "36:02",
+      "en": "it makes a lot more sense. It still makes sense. In those models, people in middle age still have leverage. I don't think that's crazy. For a battle-hardened investor, I would have much less of a problem with it. Just in short-term volatility, a 2x leveraged S&P 500 ETF,",
+      "zh": "它就合理得多。——在那些模型里它仍然说得通：中年人在模型里依然持有杠杆。我不认为那是疯狂的。对一个身经百战的投资者，我的抵触会小得多。——只说短期波动：一只2倍杠杆的标普500 ETF，"
+    },
+    {
+      "i": 132,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "36:20",
+      "en": "2x leveraged fell nearly 80% in the grade financial crisis, peak to trough. A 3x leveraged S&P 500 ETF fell nearly 80% at the beginning of COVID. That was a shorter time period for that drop too. Now, I mentioned this earlier, but you had to remember that we did not know at the",
+      "zh": "2倍杠杆，在金融危机中从峰值到谷底跌了近80%。一只3倍杠杆的标普500 ETF在疫情初期跌了近80%，而且那次下跌的时间跨度更短。我前面提过，但你必须记住：在那些时刻，我们并不知道"
+    },
+    {
+      "i": 133,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "36:39",
+      "en": "time that stocks would recover the way they did after those drops. Those were two genuinely scary periods where people were looking around like what the heck is happening, our thing is going to be okay. We didn't know at the time. They ended up being okay,",
+      "zh": "股票在那两次下跌之后会以那样的方式复苏。那是两段真正令人恐惧的时期，人们四处张望，心想“到底发生了什么，我们还能好吗”。当时我们不知道。它们最终是好了，"
+    },
+    {
+      "i": 134,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "36:52",
+      "en": "but I wasn't always at the time. Jason's wife did right in our club, but this recently, and he described it as buying a leveraged fund and holding it for the long run is appropriate only for people who can spend the rest of their lives in a sensory deprivation tank.",
+      "zh": "但在当时可不是这样。Jason Zweig（贾森·茨威格）最近在他的专栏里写道，他的描述是：买入一只杠杆基金并长期持有，只适合那些能够把余生都泡在感觉剥夺水箱（sensory deprivation tank）里的人。"
+    },
+    {
+      "i": 135,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "37:05",
+      "en": "Now, I think those short downturns, and this then speaks to your point about someone who's maybe in the last 10 years, they've been investing, and they live through COVID. Now is this sharp, quick drop. It was scary. There's a lot of uncertainty, but it came back so quick. You live",
+      "zh": "现在我想说说那些短暂的下行——这也正好回应你的观点：假设有人在最近10年一直在投资，他经历了疫情。那是一次急速、快速的下跌，很吓人，充满不确定性，但它回来得如此之快。你经历过"
+    },
+    {
+      "i": 136,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "37:21",
+      "en": "through that and you look back, it's like whatever, that wasn't so bad. But then you look at other markets, so there are markets that have not performed as well as the US. There's probably other stuff going on here, too. There's probably some tax inefficiency. There's probably some higher",
+      "zh": "之后回头看，就会觉得“无所谓，那也没那么糟”。但你再看看其他市场：有些市场的表现并不如美国。这里可能还有别的因素在起作用，可能存在一些税务上的低效，也可能存在更高的"
+    },
+    {
+      "i": 137,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "37:34",
+      "en": "financing costs. It's not just performance, but emerging markets, leverage ETFs made you worse off. After volatility drag fees and financing costs compared to just investing in the underlying assets for a long period of time. So that's one interesting example, but then the other one, and this is the",
+      "zh": "融资成本。所以并不只是业绩问题：在新兴市场，经过波动损耗（volatility drag）、费用和融资成本之后，杠杆ETF让你的处境变得更差，比不上长期直接投资标的资产。这是一个有意思的例子，但另一个例子——我认为这才是"
+    },
+    {
+      "i": 138,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "37:50",
+      "en": "one that I think really drives home. This is the 1994 example. A live 2x leverage S&P 500 mutual fund underperformed an S&P 500 ETF for decades. So in 1984 until just recently, within the last couple of months, underperformed by a lot. If you look at just the growth of wealth chart over time since",
+      "zh": "真正说明问题的——就是1994年那个例子。一只仍在运作的2倍杠杆标普500共同基金，在几十年里跑输了一只标普500 ETF。从1994年一直到最近，就在过去几个月之内，它都是大幅落后的。如果你只看自成立以来"
+    },
+    {
+      "i": 139,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "38:10",
+      "en": "inception, for most of its history, it was way under just along only SPY ETF, and then just recently pulled ahead. That's you've got a combination of you've got the .com bus, you've got the last decade, you've got a slightly higher fee. Like I mentioned earlier, I've got higher financing costs,",
+      "zh": "的财富增长曲线，你会发现：在它历史上的大部分时间里，它远远落后于一只单纯的 SPY ETF，直到最近才反超。这背后是一系列因素的叠加：你赶上了互联网泡沫破裂，赶上了“失去的十年”，费用略高一些——像我前面提到的——融资成本也更高，"
+    },
+    {
+      "i": 140,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "38:27",
+      "en": "particularly earlier on in its history, but you add all that up, and you can have these really long performance where it sucks. But if you held it from when it launched until now, you can look back and be like, oh, well, I came out ahead, but would you have held for the head? Probably not.",
+      "zh": "尤其是在它历史上的早期。但把这些全加起来，你就可能经历非常漫长的、表现糟糕透顶的时期。而如果你从它发行一直持有到现在，回头看会说：“哦，好吧，我最终是领先的。”但你真的能一直拿着吗？大概不能。"
+    },
+    {
+      "i": 141,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "38:40",
+      "en": "I probably have records for that. I would submit that probably zero investors held that funds to that whole period. I mean, I can't prove that, but that would be my guess. I think you're probably right. Unless they're dead, like the Mythical Fidelity Study about dead",
+      "zh": "——我大概有这方面的记录。我要说，从头到尾一直持有那只基金的投资者，人数可能是零。我没法证明，但这是我的猜测。——我觉得你大概是对的。除非他们已经去世了——就像那个传说中富达（Fidelity）关于已故"
+    },
+    {
+      "i": 142,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "38:56",
+      "en": "investors performing the best. Exactly. For all that to say, this stuff is not for the faint of heart. I think people look at the recent returns of leveraged US equity ETFs, and they're like, wow, I want that performance, but I shouldn't need to tell anyone that you can't buy past performance.",
+      "zh": "投资者表现最好的那个研究。——没错。说了这么多，意思就是：这东西不适合心理承受能力弱的人。我想人们看到美国股票杠杆ETF近期的回报，会说“哇，我想要那个业绩”，但我应该不需要告诉任何人：你买不到过去的业绩。"
+    },
+    {
+      "i": 143,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "39:13",
+      "en": "All that applies to just leverage. Should you use leverage? But then I want to talk about leverage ETFs. There are lots of different ways to get access to leverage. You can borrow from your broker, you can use a margin alone. You can use a line of credit, secured or unsecured. You can use",
+      "zh": "以上这些都适用于“杠杆本身”这个问题：你该不该用杠杆？但接下来我想专门谈谈杠杆ETF。获得杠杆有很多不同的途径：你可以向券商借钱，可以用保证金贷款，可以用信用额度（有抵押或无抵押），也可以用"
+    },
+    {
+      "i": 144,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "39:27",
+      "en": "derivatives like features or options. There are probably other ways to get access to borrowed money or financing to make leverage investments. Each one has its own trade-offs. The reason we're talking with leverage ETFs, like I mentioned earlier, is not an endorsement. I don't think they're the best",
+      "zh": "期货或期权这类衍生品。可能还有别的途径获得借款或融资来做杠杆投资。每一种都有它自己的取舍。像我前面说的，我们之所以谈杠杆ETF，并不是一种背书。我不认为它们是获得杠杆的"
+    },
+    {
+      "i": 145,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "39:42",
+      "en": "way to get leverage. They're just the most straightforward way. They're convenient. They're simple. They're non-recourse, which is interesting. You can't lose more than what you put into a leverage ETF. Whereas with other forms of borrowing, you can. If you borrow $100,000 and lose it,",
+      "zh": "最佳方式，它们只是最直接的方式：方便、简单。而且它们是无追索权的（non-recourse），这一点很有意思：你在一只杠杆ETF里最多只能亏掉你投进去的钱；而其他形式的借款则可能亏更多。如果你借了10万美元并把它亏光，"
+    },
+    {
+      "i": 146,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "39:57",
+      "en": "you owe that to whoever you borrow it from. But the most you can lose in a leverage ETF is what you put into it. Kind of an interesting feature. And then another really interesting one that I don't know if gets enough consideration is that you can put it into an account that would otherwise be",
+      "zh": "你就欠出借方10万美元。但在杠杆ETF里，你能亏的上限就是你投入的金额。这是个挺有意思的特性。另一个非常有意思、但我不确定是否得到足够重视的特性是：你可以把它放进一个原本"
+    },
+    {
+      "i": 147,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "40:12",
+      "en": "restricted from using margin. Like a tax sheltered account? Yeah, like an RSP. Yeah, exactly. They're not perfect. They're not the best way to get leverage. But they're super simple and they're interesting. And this daily reset thing is really interesting. That's the big thing that I",
+      "zh": "被限制使用保证金的账户里。——比如税收优惠账户？——对，比如 RRSP（注册退休储蓄计划）。——没错。它们并不完美，也不是获得杠杆的最佳方式，但它们极其简单，而且很有意思。而这个“每日重置”的事情非常有意思，这就是我"
+    },
+    {
+      "i": 148,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "40:27",
+      "en": "want to talk about next. I have been wrong about this in the past. I did a video in 2019 where I did talk about leverage ETFs being a bad way to get leverage because of the volatility decay. There was academic papers saying this at the time, the US regulators had given warnings to",
+      "zh": "接下来想重点谈的。我过去在这件事上错得离谱。我在2019年做过一个视频，当时我说杠杆ETF是获得杠杆的糟糕方式，原因是波动衰减。当时确实有学术论文这么讲，美国监管机构也向"
+    },
+    {
+      "i": 149,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "40:41",
+      "en": "investors at the time. So it wasn't just the me thing. The idea there is that a 2x leveraged index ETF aims to give you herbal, not just index any ETF, aims to give you twice the daily return of the underlying asset, net of fees and costs. So if a fund has at 2x exposure to the underlying",
+      "zh": "投资者发出过警告。所以那不只是我一个人的说法。当时的逻辑是：一只2倍杠杆指数ETF——其实任何指数ETF都一样——目标是给你标的资产每日回报的两倍，扣除费用和成本之后的两倍。所以如果一只基金今天对标的"
+    },
+    {
+      "i": 150,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "41:00",
+      "en": "index today and the index delivers a positive return, the fund's assets will increase in value which pushes down its leverage ratio. But because it's promising 2x daily leverage, it needs to reset. It needs to buy more stock exposure to push its leverage ratio back up.",
+      "zh": "指数有2倍敞口，而指数当天实现正回报，基金资产的价值就会上升，从而把它的杠杆比率压低。但因为它承诺的是每日2倍杠杆，它就必须重置：它需要买入更多股票敞口，把杠杆比率重新推上去。"
+    },
+    {
+      "i": 151,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "41:18",
+      "en": "Similarly, it needs to reset if stocks go down. The fund is always going to be selling stocks after they fall. So that mechanism has been used to argue against daily leverage ETFs for long-term investors. But this is the part that I think is incomplete and this part gets pretty nerdy.",
+      "zh": "同样，如果股票下跌，它也需要重置。也就是说，这只基金总是在股票下跌之后卖出股票。正是这个机制，被用来论证每日杠杆ETF不适合长期投资者。但我认为这部分论证是不完整的，而接下来这一段会相当“书呆子”。"
+    },
+    {
+      "i": 152,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "41:36",
+      "en": "There's an equation that we can show on the screen and also try and explain it. The equation is for the return drag. The return drag between L times the underlying return and the leverage portfolio return and is the number of rebalancing periods in this equation. L is the leverage ratio",
+      "zh": "有一个公式，我们可以放到屏幕上，同时也试着解释一下。这个公式算的是“回报拖累”（return drag）——即 L 乘以标的回报，与杠杆组合实际回报之间的差。式中的 n 是再平衡期数，L 是杠杆比率，"
+    },
+    {
+      "i": 153,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "41:51",
+      "en": "and sigma squared is the per period of variance of the underlying asset. If we rebalance this portfolio daily and in the formula is 252 and sigma squared is the daily variance of the underlying asset, if we move to weekly rebalancing just as an example to show the numbers and in the formula",
+      "zh": "σ² 是标的资产每期的方差。如果我们对这个组合做每日再平衡，公式里的 n 就是252，σ² 是标的资产的日方差。如果改成每周再平衡——这只是举例来说明数字——公式里的 n"
+    },
+    {
+      "i": 154,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "42:09",
+      "en": "decreases by a factor of 5. But sigma squared, which is now the weekly variance rather than a daily variance, also increases by a factor of 5. So they cancel each other out in the equation. Now that only works if there's no serial correlation. If the returns are random,",
+      "zh": "会缩小到原来的五分之一。但 σ²——此时是周方差而不是日方差——会放大到原来的5倍。所以它们在公式中相互抵消了。而这只有在不存在序列相关（serial correlation）、回报是随机的、"
+    },
+    {
+      "i": 155,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "42:24",
+      "en": "if they're unrelated from one period to the next. If there is serial correlation, the per period variance will not scale with the number of days in the period. With positive serial correlation, more frequent rebalancing is actually a good thing for the returns. And if it's negative,",
+      "zh": "各期之间互不相关时才成立。如果存在序列相关，每期方差就不会按该期天数的比例缩放。在正序列相关的情况下，更频繁的再平衡其实对回报是好事；而在负序列相关的情况下，"
+    },
+    {
+      "i": 156,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "42:37",
+      "en": "it's bad for returns. The main insight to kind of boil it down is that whether daily resets are good or bad depends on the specific return outcome that you get, which is not something that we can know in advance. And therefore, I think not something that should make you conclude",
+      "zh": "它对回报是坏事。把这一点提炼出来的核心洞见是：每日重置究竟是好事还是坏事，取决于你实际得到的那条具体回报路径，而这不是我们事先能够知道的。因此我认为，它不该让你事先就得出"
+    },
+    {
+      "i": 157,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "42:54",
+      "en": "that it's a bad thing in advance unless you knew what the future sequence of returns is going to be. So that's that part. And then the interesting thing is it becomes an empirical question, where you can just look like, okay, well, has it been good or bad?",
+      "zh": "“这是件坏事”的结论——除非你知道未来的回报序列会是什么样。这就是这一部分。而接下来有意思的地方在于，它变成了一个实证问题：你可以直接去看，好吧，那它到底是好事还是坏事？"
+    },
+    {
+      "i": 158,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "43:07",
+      "en": "You mean that equation didn't explain it enough for everyone? I mean, I just want to say Ben, for the record, putting the equation on the screen doesn't help. Before we get into the real world examples, just to clarify, joking aside, the point here, I think, my little brain themes to have",
+      "zh": "——你是说那个公式还不足以给大家讲明白？我要郑重声明，Ben：把公式放到屏幕上并没有什么帮助。——在进入现实世界的例子之前，我先澄清一下。玩笑归玩笑，我想这里的要点是，我这小脑瓜大致"
+    },
+    {
+      "i": 159,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "43:26",
+      "en": "inferred here that what you're saying is if you compare, say, daily resets to weekly resets, there isn't necessarily a dramatic difference in theory anyway. This idea that daily resets are bad sort of implies that less frequent resets would be better, but your argument here is",
+      "zh": "推断出来了：你的意思是，如果把每日重置与每周重置相比，至少在理论上并不一定存在巨大差异。“每日重置是坏事”这个说法，某种程度上暗示更低频的重置会更好，但你这里的论点是"
+    },
+    {
+      "i": 160,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "43:48",
+      "en": "not necessarily. It can make a difference depending on the specific return outcomes over those periods. So it's possible that if we have different serial correlation at the weekly and daily horizons, that there could be differences. And you do see that if you run the back tests,",
+      "zh": "不一定。它确实可能造成差异，取决于那些时段里具体的回报结果。所以，如果在周度和日度这两个时间跨度上序列相关不同，就有可能出现差异。而如果你跑回测，你确实会看到这一点，"
+    },
+    {
+      "i": 161,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "44:04",
+      "en": "like the community user that I mentioned earlier, he had all these back tests at different rebalancing frequencies and there will be differences. But I think the main point is that the differences between the reset frequencies are going to be basically random and they'll change",
+      "zh": "像我前面提到的那位社区用户，他做了各种不同再平衡频率的回测，确实会看到差异。但我认为主要的一点是：不同重置频率之间的差异基本上是随机的，它们会随着"
+    },
+    {
+      "i": 162,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "44:17",
+      "en": "just based on what sequence of returns you happen to get in that simulation. So daily is not inherently worse than weekly. It could be correct in many specific cases, but it could be better. It could be, and it could be better. Yeah. And then there are some pretty interesting examples",
+      "zh": "那次模拟中你恰好得到的回报序列而变化。所以每日重置并非天生就比每周重置差。在很多具体情形下它可能确实更差，但也可能更好。——对，可能更差，也可能更好。——然后还有一些挺有意思的例子，"
+    },
+    {
+      "i": 163,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "44:34",
+      "en": "about when it's better and when it's worse than I get into the empirical part. It's like when do we tend to have lots of bad days in a row and when do we tend to have lots of good days in a row? We will get in that in a second. One consideration that I did want to mention and this came up in",
+      "zh": "讲的是什么时候它更好、什么时候更差。这就进入实证部分了：什么时候我们往往会连续出现很多糟糕的日子，什么时候又往往连续出现很多好日子？我们马上会讲到。我还想提一个考量，这是在"
+    },
+    {
+      "i": 164,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "44:50",
+      "en": "the Rastrum under Community Discussion after my video on this topic is that a lot of the leverage ETFs are getting their leverage from swap contracts. So there's a whole other thing to think about where with a swap you have just other unique risks. So swap contract is entering into a contract",
+      "zh": "我发布那期关于这个话题的视频之后，Rational Reminder 社区讨论中出现的：很多杠杆ETF是通过互换合约（swap contracts）获得杠杆的。所以这里还有整整另一层需要考虑的东西——用互换，你会有一些独有的风险。所谓互换合约，就是与"
+    },
+    {
+      "i": 165,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "45:09",
+      "en": "with a financial institution and that's how they're getting the leverage. But now you've got counter-party risk. You've got the risk of a counterparty closing the contract after an extreme downward move in the asset, which has happened. There's an ETF LCDL, which was a single stock",
+      "zh": "一家金融机构签订合约，这就是它们获得杠杆的方式。但这样一来你就有了交易对手风险：你面临交易对手在标的资产出现极端下跌之后关闭合约的风险——而这确实发生过。有一只代码 LCDL 的ETF，它是一只单一股票"
+    },
+    {
+      "i": 166,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "45:24",
+      "en": "leverage ETF. This happened. The fund is now closed and on the fund webpage it has this whole description of what happened and it was exactly this. The swap contract had a provision for the contract closing. If there was a certain downward move in a day, that happened and the ETF became",
+      "zh": "杠杆ETF，这件事就发生在它身上。这只基金现在已经清盘，基金网页上有一整段对经过的描述，情况正是如此：那份互换合约里有一条条款，规定如果某一天出现特定幅度的下跌，合约将被终止。这确实发生了，于是这只ETF变得"
+    },
+    {
+      "i": 167,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "45:38",
+      "en": "worthless. Wow. Kind of an interesting story, but it's another risk to think about when you're using these funds. You've now introduced swaps into the structure of the fund. So the empirical evidence part of this is the part that I find really interesting. There is a 2026 working paper",
+      "zh": "一文不值。——哇。——算是个有意思的故事，但这也是你使用这类基金时需要考虑的又一项风险：你现在把互换引入了基金的结构之中。接下来，实证证据这部分是我觉得最有意思的。有一篇2026年的工作论文，"
+    },
+    {
+      "i": 168,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "45:54",
+      "en": "this is the best vendor paper that we talked to him about. It's focused on single stock leverage ETFs and it does look specifically at the claim that daily resets lead to underperformance relative to a static leverage portfolio, not rebalanced. And best vendor does explain in that paper, as we",
+      "zh": "就是我们和 Bessembinder（贝斯宾德）本人讨论过的那篇。它聚焦于单一股票杠杆ETF，并专门考察了这样一个论断：每日重置会导致其相对于一个不做再平衡的静态杠杆组合表现落后。Bessembinder 在那篇论文中确实解释了，正如我们"
+    },
+    {
+      "i": 169,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "46:10",
+      "en": "just talked about, that daily rebalancing can work against you in a specific realized return outcome, but not necessarily all outcomes. They're focused on single stock leverage ETFs and they do find in that case that daily resets do result in a cost over their frictionless benchmark due",
+      "zh": "刚才谈到的：每日再平衡在某一条具体的已实现回报路径上会对你不利，但并非在所有路径上都如此。他们聚焦的是单一股票杠杆ETF，并且确实发现，在那种情形下，每日重置相对于他们的无摩擦基准造成了成本，原因"
+    },
+    {
+      "i": 170,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "46:25",
+      "en": "to the specific return paths of individual stocks in their sample. So that's interesting, but we did talk to Hank when he was on this podcast about, do you think the same thing would apply to indexes? And he was kind of like maybe not because they are very different. Single stocks",
+      "zh": "在于其样本中个股的具体回报路径。这很有意思，但当 Hank 上我们这个播客时，我们确实问过他：你认为同样的结论适用于指数吗？他的回答大致是“也许不适用”，因为两者差别很大。单一股票"
+    },
+    {
+      "i": 171,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "46:40",
+      "en": "are more volatile. They obviously perform very differently from indexes and that next question of people down that empirical work. And there are a few papers. So there's a 2022 paper that asks whether investing in an index fund on margin and rebalancing once per holding period or using",
+      "zh": "波动更大，其表现显然与指数非常不同。接下来的问题就有人去做了这项实证工作，而且有好几篇论文。其中有一篇2022年的论文，问的是：用保证金投资指数基金、每个持有期只再平衡一次，与使用"
+    },
+    {
+      "i": 172,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "46:56",
+      "en": "a leverage ETF with daily resets would have produced better outcomes in historical data. And in that case, this is what I was alluding to a minute ago. The authors do find that leverage ETF returns were higher during strong bull and bear markets, but lower during moderate bull and bear",
+      "zh": "带每日重置的杠杆ETF，哪一种在历史数据中会产生更好的结果。在那项研究里——这就是我刚才暗示的内容——作者确实发现，在强劲的牛市和熊市中，杠杆ETF的回报更高；但在温和的牛市和熊市中，回报更低。"
+    },
+    {
+      "i": 173,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "47:11",
+      "en": "markets. So again, it just comes down to what the sequence of returns was in those specific periods. And this is an interesting point. They find that leverage ETFs provide reduced downside risk and are less risky than margin during every bear market since 1927.",
+      "zh": "所以再一次，这归结于那些特定时期的回报序列到底是什么。这里还有一个有意思的发现：他们发现，自1927年以来的每一次熊市中，杠杆ETF都提供了更低的下行风险，比保证金方式风险更小。"
+    },
+    {
+      "i": 174,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "47:25",
+      "en": "The reason for that when you think about it is that if you're resetting during a downward market move, so the market's going down every day, if you're not rebalancing, your leverage ratio is getting more and more aggressive because the value of assets is decreasing while you're",
+      "zh": "想一想，原因在于：如果市场在一路下行、每天都在跌，而你不做再平衡，你的杠杆比率会变得越来越激进——因为资产价值在不断缩水，而你的"
+    },
+    {
+      "i": 175,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "47:41",
+      "en": "low on balance is staying the same. If you're resetting every day, you're resetting back to your whatever it is, 2x leverage ratio. So you're limiting a little bit how much leverage exposure you have to the underlying asset. And so in a bunch of these papers, it does show up that in really,",
+      "zh": "贷款余额保持不变。如果你每天重置，你就会把杠杆比率重新调回到你设定的水平，比如2倍。所以你在一定程度上限制了自己对标的资产的杠杆敞口。因此在这批论文里，确实呈现出这样一个结果：在非常"
+    },
+    {
+      "i": 176,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "47:55",
+      "en": "really bad markets, you're actually better off with the more frequent resets, which is kind of neat. And there's no margin call and things like that, right? That you're getting at that from a practical point of view as an investor who just wants leveraged exposure to an index. This is just much",
+      "zh": "非常糟糕的市场里，更频繁的重置反而让你处境更好，这挺妙的。——而且也不会有追加保证金通知之类的事情，对吧？你说的是这个意思。——从实操角度看，一个只想获得指数杠杆敞口的投资者，这种方式实在"
+    },
+    {
+      "i": 177,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "48:14",
+      "en": "easier to implement and less likely of any kind of forced transaction. Let's put it that way. Yeah. And especially with those daily resets, because you're going to run into issues if there's a really, really big downward move in a day. But if you're resetting at the monthly horizon,",
+      "zh": "更容易执行，也更不容易出现任何形式的被迫交易。就这么说吧。——是的。而且尤其是有了那些每日重置：如果某一天出现非常非常大的下跌，你会遇到问题；但如果你是在月度尺度上重置，"
+    },
+    {
+      "i": 178,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "48:30",
+      "en": "you care about a big downward move in a month. It does shift the risk a little bit, or at least how the risk shows up. There is a 2025 working paper. This one's funded by pro shares, which is a competitive issues leverage ETF products. So it's kind of weird because there's a obvious conflict",
+      "zh": "你要担心的就是一个月内的大幅下跌。它确实在一定程度上改变了风险的性质，或者至少改变了风险呈现的方式。还有一篇2025年的工作论文。这一篇是由 ProShares 资助的，而 ProShares 是一家发行杠杆ETF产品的公司。所以这有点奇怪，因为存在明显的利益"
+    },
+    {
+      "i": 179,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "48:46",
+      "en": "there, but it is written by an academic. And I mean, you read the paper and it kind of lines up with some of the other research that we're talking about. They didn't smell conflicted when I read it, but it was interesting that it was funded by pro shares. So they look at multi-day leverage ETF",
+      "zh": "冲突。但论文是由一位学者撰写的。我的意思是，你去读这篇论文，它大致与我们谈到的其他研究相吻合。我读的时候并没有闻到利益冲突的味道，但它由 ProShares 资助这件事挺有意思。他们考察的是多日持有期下的杠杆ETF"
+    },
+    {
+      "i": 180,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "49:00",
+      "en": "returns and they find that long leverage ETFs align closely with portfolios without daily rebalancing that holding periods up to a quarter and reasonably closely out to a year. And then this is the other interesting part when their performance does diverge at the extremes, sizeable underperformance",
+      "zh": "回报，并发现：多头杠杆ETF在最长一个季度的持有期内，与不做每日再平衡的组合高度吻合；在最长一年的持有期内也吻合得相当好。接下来是另一个有意思的部分：当两者的表现在极端情形下确实出现分歧时，大幅跑输"
+    },
+    {
+      "i": 181,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "49:14",
+      "en": "is less likely than same sized outperformance. So again, there's that little bit of downside protection if you can call it that with the more frequent resets. So they conclude in this paper that daily leverage resets in leverage ETFs are not the problem that they have historically been",
+      "zh": "的可能性，小于同等幅度跑赢的可能性。所以，这又回到了那一点点下行保护——如果你愿意这么称呼它的话——它来自更频繁的重置。因此他们在这篇论文中得出的结论是：杠杆ETF中的每日杠杆重置，并不是历史上人们所"
+    },
+    {
+      "i": 182,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "49:28",
+      "en": "made out to be. Then there's another 2026 paper. And this is the one from Marco and Chris, which we will discuss with them in an upcoming episode. They study five determinants of leverage ETF performance volatility drag fees, financing costs, which products are launched, which is an",
+      "zh": "描绘的那个大问题。然后还有另一篇2026年的论文，就是 Marco（马可）和 Chris（克里斯）的那篇，我们会在即将推出的一期节目中和他们一起讨论。他们研究了杠杆ETF表现的五个决定因素：波动损耗、费用、融资成本、发行了哪些产品——这是一个"
+    },
+    {
+      "i": 183,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "49:43",
+      "en": "interesting point, and market timing. One thing that they make really clear in this paper is a volatility drag is a real thing. And leverage increases volatility drag because it increases volatility. Nothing to do with daily resets. Just you views leverage, you get more volatility, which is going",
+      "zh": "很有意思的点——以及市场择时。他们在这篇论文中讲得非常清楚的一点是：波动损耗是真实存在的，而杠杆会加剧波动损耗，因为它放大了波动率。这与每日重置无关。只要你使用杠杆，你就会得到更多波动，而这就会"
+    },
+    {
+      "i": 184,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "49:59",
+      "en": "to decrease your compound returns. And they do specifically mention in this paper that the daily resets are not causing that issue. It's just leverage causing that issue. They illustrate how volatility drag scales with volatility for two X leverage ETFs. We will put a chart up where you",
+      "zh": "降低你的复合回报。他们在论文中还特别指出：造成这个问题的是杠杆本身，而不是每日重置。他们展示了在2倍杠杆ETF中，波动损耗如何随波动率而放大。我们会放上一张图，你可以"
+    },
+    {
+      "i": 185,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "50:14",
+      "en": "can see how each increase in volatility drives a larger wedge between the annualized leverage return and the underlying asset return. They look at a concept here that's pretty interesting called the break even return, which is the return on an underlying asset that you have to earn in order",
+      "zh": "看到波动率每上升一档，就会在年化杠杆回报与标的资产回报之间撑开一个更大的楔形缺口。他们在这里考察了一个很有意思的概念，叫“盈亏平衡回报”（break-even return）：也就是标的资产必须达到的回报水平，"
+    },
+    {
+      "i": 186,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "50:30",
+      "en": "for the leverage strategy holding that asset to earn at least the same return as the underlying. So that means the math gets a little confusing to think about. But if you just take an example of an underlying asset with a daily volatility of 5%, a two X leverage ETF requires an annual return",
+      "zh": "持有该资产的杠杆策略才能至少赚到与标的资产相同的回报。这意味着这套数学关系想起来有点绕。但举个例子：如果一项标的资产的日波动率为5%，那么一只2倍杠杆ETF需要接近100%的年化回报，"
+    },
+    {
+      "i": 187,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "50:45",
+      "en": "of nearly 100%. Just to match the performance of the unlibert asset, not accounting for things like financing costs, volatility hurts a lot. And I think this really matters for individual stocks because they just tend to be so much more volatile. That's a great point. It's one thing to say you're",
+      "zh": "仅仅是为了追平无杠杆资产的表现——还没算融资成本这类东西。波动率的杀伤力非常大。我认为这一点对个股尤其重要，因为个股的波动往往要大得多。——说得太好了。说要获得对一个高度分散的股票组合的杠杆敞口，是一回事——"
+    },
+    {
+      "i": 188,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "51:04",
+      "en": "going to get leveraged exposure to a hugely diversified portfolio of equities, which still has pretty considerable volatility. But then if you apply that same concept, then as you've said, there's many, many products available that do do an inherently very volatile asset, i.e. an",
+      "zh": "尽管它仍然有相当可观的波动率。但如果你把同样的概念套用过去，正如你说的，市面上有非常非常多的产品，它们杠杆化的是一项本身波动就极大的资产，也就是"
+    },
+    {
+      "i": 189,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "51:23",
+      "en": "individual stock. Now it sounds like you're asking for a lot more trouble than you were. It's much riskier than the diversification. I've got some data on that in a second that's pretty alarming. Mark and Chris in their paper, they do find that leveraged index ETFs have been beneficial to",
+      "zh": "一只个股。这时候听起来你就是在自找更多麻烦，风险远大于分散化的那种。关于这一点，我马上会给出一些相当令人警惕的数据。Marco 和 Chris 在他们的论文中确实发现，杠杆指数ETF对"
+    },
+    {
+      "i": 190,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "51:41",
+      "en": "investors. Like that I grew good wealth creation from these things has been meaningful above and beyond. Just regular index ETFs, single stock leverage ETFs, some of them have done well, but they face much higher borrowing costs and I have the data on that in a minute that's mind-blowing.",
+      "zh": "投资者是有益的：这些产品带来的财富创造，实实在在地超出了一只普通指数ETF。至于单一股票杠杆ETF，其中一些表现不错，但它们面对高得多的借贷成本——我马上给出数据，那会令人震惊。"
+    },
+    {
+      "i": 191,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "51:57",
+      "en": "They've also got more volatility drag as we were just talking about. They've also got poor timing by investors. People tend to buy these things at the wrong times with single stocks specifically. This one's not from Mark and Chris, but there's separate research from Morningstar that just speaks",
+      "zh": "正如我们刚才谈到的，它们还有更多的波动损耗。此外，投资者的择时也很差——人们往往在错误的时点买入这些东西，单一股票类产品尤其如此。这一条不是来自 Marco 和 Chris，而是晨星（Morningstar）另外一项研究，专门讨论"
+    },
+    {
+      "i": 192,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "52:11",
+      "en": "to the performance of single stock ETFs with really interesting data. So they find that single stock leverage ETF investors have been more likely to lose over 75% of their investment than to outperform the underlying stock outright. And that 19% of single stock ETFs have lost over 75% since",
+      "zh": "单一股票ETF的表现，数据非常有意思。他们发现：单一股票杠杆ETF的投资者，亏损超过75%的可能性，比彻底跑赢标的股票的可能性还要大。而且自"
+    },
+    {
+      "i": 193,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "52:30",
+      "en": "inception, while only 18% have outperformed the stock they track. And that's outperformance by any amount, like loss of over 75% compared with any outperformance whatsoever. Huge range of outcomes now. Yeah, not good. Some have done really, really well. Like I think a leveraged",
+      "zh": "成立以来，19%的单一股票ETF亏损超过75%，而只有18%跑赢了它们所跟踪的股票。请注意，这里的“跑赢”是任何幅度的跑赢——也就是说，“亏损超过75%”对阵“哪怕一点点的跑赢”。结果分布的范围极其巨大。——是啊，不好看。有些确实做得非常好，比如我认为一只杠杆化的"
+    },
+    {
+      "i": 194,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "52:52",
+      "en": "Nvidia single stock ETF has done really, really well. No doubt. Most other ones have done really, really poorly. In this people, they look at the expense ratios for index and single stock ETFs, they find that'd be around 1% that I think nobody would be surprised to hear. The financing cost",
+      "zh": "英伟达（Nvidia）单一股票ETF表现非常非常好。——毫无疑问。——但绝大多数其他的都表现非常非常差。在这篇论文里，他们考察了指数类和单一股票类ETF的费率，发现大约在1%左右——我想没人听到这个数字会感到意外。而融资成本"
+    },
+    {
+      "i": 195,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "53:08",
+      "en": "those where it starts to get really interesting, they look at how much it costs the fund to get its leverage exposure to the underlying asset. Now, this is really important in Canada. Well, it depends on the fund actually. Some funds in Canada use cash leverage and that financing cost",
+      "zh": "才是真正开始变得有意思的地方。他们考察的是：基金为获得对标的资产的杠杆敞口，究竟付出了多少成本。这一点在加拿大特别重要。——嗯，其实要看具体基金。加拿大有些基金使用现金杠杆，那种融资成本"
+    },
+    {
+      "i": 196,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "53:23",
+      "en": "will show up in the MER. But if a fund is using swaps, the financing cost is not going to show up anywhere. And so you can look at the expense ratio of these things. And it's like, oh, it's 1%, that's not too bad. But that does not include the financing cost, particularly if they're using",
+      "zh": "会体现在管理费率（MER）里。但如果一只基金使用互换，融资成本就不会体现在任何地方。所以你看这些产品的费率，会觉得“哦，1%，还不算太糟”。但那并不包含融资成本，尤其是当它们使用"
+    },
+    {
+      "i": 197,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "53:39",
+      "en": "derivatives where the financing cost is built into the contract and it just doesn't show up as an expense anywhere. So they find that the 2X leverage index ETFs in their sample have financing spreads of about 0.5% above the risk free rate. People here are 0.5% though, that's not so bad, but it's above",
+      "zh": "衍生品时——融资成本被内嵌在合约里，根本不会作为费用出现在任何地方。他们发现，样本中的2倍杠杆指数ETF，其融资利差大约高出无风险利率0.5%。——大家可能觉得0.5%不算太糟，但它是在"
+    },
+    {
+      "i": 198,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "53:56",
+      "en": "the risk free rate. Now, when you add up the funding spread, the risk free rate, and the funds fees, the total cost of owning a 2X leverage ETF could easily be about 5% per year at the current risk free rate. That's pretty big hurdle to overcome. Right. So you think about how could these",
+      "zh": "无风险利率之上的。而当你把融资利差、无风险利率和基金费用加在一起，按当前的无风险利率计算，持有一只2倍杠杆ETF的总成本很容易达到每年约5%。这是一道相当高的门槛。——对。所以你想想，这些东西怎么可能"
+    },
+    {
+      "i": 199,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "54:13",
+      "en": "underperform at long periods of time while you're being 5% and that's at the current risk free rate, historically, it's been higher. So you're paying a lot for the exposure. And now, yeah, the single stock ETFs, so they have total costs around 12% because the financing spreads can be",
+      "zh": "在很长时间里跑输？你每年被扣掉5%，而这还是在当前无风险利率之下——历史上它更高。所以你为这份敞口付出了很高的代价。现在再看单一股票ETF：它们的总成本在12%左右，因为融资利差可以"
+    },
+    {
+      "i": 200,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "54:30",
+      "en": "nearly 10 percentage points above the risk free rate. A bigger hurdle for the single stocks. There's one more 2026 working paper. It takes a different approach to the analysis, but they're, again, directly defending leverage index funds for long-term investors. They explain that daily",
+      "zh": "高出无风险利率近10个百分点。对单一股票来说，这是一道更高的门槛。还有一篇2026年的工作论文。它对分析采取了不同的进路，但同样是在直接为面向长期投资者的杠杆指数基金辩护。他们解释说，每日"
+    },
+    {
+      "i": 201,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "54:44",
+      "en": "rebalancing produces convex payoffs, which is kind of what I was describing earlier, that differ from but do not underperformed linear benchmarks, and they show empirically that daily leverage rebalancing is not inherently value-destroying activity. These guys are pretty aggressive with",
+      "zh": "再平衡产生的是凸性收益（convex payoffs）——这大致就是我前面描述的东西——它不同于线性基准，但并不跑输线性基准；他们从实证上证明，每日杠杆再平衡并非本质上就是毁灭价值的活动。这几位作者在措辞和结论上相当"
+    },
+    {
+      "i": 202,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "54:58",
+      "en": "their language and their conclusion. They say the demonization of leveraged and inverse equity ETFs, particularly the false accusation that these funds erode value, the volatility decay, is a major disservice to investors that has likely discouraged long-term investors from using",
+      "zh": "激进。他们说：对杠杆型与反向型股票ETF的妖魔化，尤其是“这些基金通过波动衰减侵蚀价值”这一不实指控，是对投资者的重大伤害，很可能已经阻碍了长期投资者以有助于实现其财务目标的方式去使用"
+    },
+    {
+      "i": 203,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "55:13",
+      "en": "these products in ways that would help them achieve their financial goals. Pretty harsh, pretty aggressive language. As we've talked about, it's not obvious that everyone can just happily hold these for the long term, but maybe some people could. One other point that's worth",
+      "zh": "这些产品。措辞相当严厉、相当激进。正如我们谈过的，并不是每个人都能开开心心地长期持有这些东西，这一点并不显然；但也许有些人可以。还有一点值得"
+    },
+    {
+      "i": 204,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "55:28",
+      "en": "mentioning is that you don't have to hold just a leveraged 2x ETF. You can hold it alongside a regular ETF to reduce your overall leverage exposure in the underlying asset. So if you have 75% regular index fund with 25% 2x leveraged index fund, you've got a 1.25 times",
+      "zh": "一提：你不必只持有一只2倍杠杆ETF。你可以把它和一只普通ETF一起持有，以降低你对标的资产的整体杠杆敞口。比如你持有75%的普通指数基金加25%的2倍杠杆指数基金，你就得到了1.25倍的"
+    },
+    {
+      "i": 205,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "55:46",
+      "en": "leverage exposure, 125% exposure to the underlying asset. Now in that case, you would have to rebalance between the leveraged and non-leveraged fund to keep your 1.25x exposure. There are some index funds in Canada. They are the ones that I mentioned that are using cash",
+      "zh": "杠杆敞口，也就是对标的资产125%的敞口。在那种情况下，你需要在杠杆基金与非杠杆基金之间做再平衡，以维持1.25倍的敞口。加拿大有一些指数基金——就是我前面提到的那些使用现金"
+    },
+    {
+      "i": 206,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "56:02",
+      "en": "leverage that are 1.25x index funds. So there's one for Canadian equities, one for U.S. equities, they're interesting. I spent some time looking at the financing costs inside of those funds plus the fees, and it ends up being a bit more expensive than boring on margin to get the 1.25x",
+      "zh": "杠杆的1.25倍指数基金。一只投加拿大股票，一只投美国股票，挺有意思。我花了一些时间去看这些基金内部的融资成本加上费用，结果发现：要获得1.25倍的敞口，它比直接用保证金借款稍微贵一点。"
+    },
+    {
+      "i": 207,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "56:22",
+      "en": "exposure. There could be reasons why that can make sense for somebody. So leveraged is a double edge sword that amplifies positive and negative returns. It increases volatility and volatility drag, and it can come with high costs, both from fees and financing costs.",
+      "zh": "对某些人来说，这可能仍有其合理之处。所以，杠杆是一把双刃剑，它同时放大正回报与负回报；它提高波动率和波动损耗，并且可能伴随高昂的成本——既包括费用，也包括融资成本。"
+    },
+    {
+      "i": 208,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "56:36",
+      "en": "In theory, it can make sense for some investors to use it if they can stomach it to increase their exposure to stocks beyond the amount of capital they have to invest at that moment. It has been a commonly held belief by many, including me, and you, Dan, as you mentioned earlier, that daily",
+      "zh": "理论上，对某些投资者来说，如果他们扛得住，使用杠杆把股票敞口提高到超出当时可投资金的水平，是可以合理的。长期以来，很多人——包括我，也包括 Dan，就像你前面提到的——都持有一个普遍的看法：带每日重置的"
+    },
+    {
+      "i": 209,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "56:49",
+      "en": "reset leveraged index ETFs are just not good for long-term investors. Not a good tool for long-term investors, but more recent research has shown that that belief, that specific piece, the daily leverage being bad is probably unfounded. Daily leverage resets do not cause volatility drag, volatility",
+      "zh": "杠杆指数ETF就是不适合长期投资者，不是长期投资者的合适工具。但更近期的研究表明，这个看法中的那一条具体内容——“每日杠杆是坏事”——很可能是没有根据的。每日杠杆重置并不造成波动损耗；波动"
+    },
+    {
+      "i": 210,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "57:06",
+      "en": "causes volatility drag. And even so, despite the volatility drag, leverage has been useful for well diversified long-term investors in recent history, but as we mentioned, there can be some long periods where it really sucks. Single stock leveraged ETFs, which are being issued in huge numbers,",
+      "zh": "才造成波动损耗。即便如此，尽管存在波动损耗，在近年的历史中，杠杆对高度分散的长期投资者仍然是有用的；但正如我们提到的，也可能出现一些很长的时期，它真的糟透了。至于单一股票杠杆ETF——它们正在被大量发行——"
+    },
+    {
+      "i": 211,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "57:23",
+      "en": "are a lot harder to make the case for. I called them ETFs slop in a video in a podcast episode earlier this year, and I think this new research showing the impact of volatility drag and the high financing costs really does support my slop thesis. And the last thing I'll say is that if",
+      "zh": "要为它们辩护就难得多。今年早些时候，我在一个视频、一期播客里把它们称为“ETF泔水”（ETF slop），而我认为这些新研究展示的波动损耗影响和高昂融资成本，确实支持了我的“泔水论”。最后我要说的是，如果"
+    },
+    {
+      "i": 212,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "57:39",
+      "en": "anyone's thinking about using leverage, they're not sure whether they can stomach the extreme ups and downs, which we've given lots of caution about. You can use PWL Capital Psychometric Risk Tarant Assessment tool to investigate your risk tolerance. That's all I got. Anybody want to go",
+      "zh": "有人在考虑使用杠杆，却不确定自己能否扛得住那种极端的上下起伏——我们对此已经给出了大量警告——你可以使用 PWL Capital 的心理测量式风险承受能力评估工具（Psychometric Risk Tolerance Assessment）来考察自己的风险承受能力。我要讲的就这些。有没有人想回去"
+    },
+    {
+      "i": 213,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "57:55",
+      "en": "back to talking about spin thrifts and tightwats? My head's still spinning from that. Yeah, it's an interesting contrast, isn't it? I do think it's refreshing for us to kind of revisit ideas that we thought we had and to take a more academic approach to it and just say, hey,",
+      "zh": "聊“大手大脚的人”和“吝啬鬼”？——我脑子还在为刚才那些内容打转。——是啊，这是个很有意思的对照，不是吗？我确实觉得，对我们来说，重新审视那些我们自以为已经想清楚的观念，用更学术的方式去对待它，然后直说：“嘿，"
+    },
+    {
+      "i": 214,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "58:12",
+      "en": "maybe we were wrong. And I think in this case, we were clearly wrong about one of the premises. Does the advice change? It's not really. I don't think anybody's in PWL anyway is rushing to encourage clients to embrace these products. But let's at least be honest and say they may be",
+      "zh": "也许我们错了”——这是件令人耳目一新的事。我认为在这个案例中，我们在其中一个前提上明显错了。那么建议会因此改变吗？其实不会。反正我不认为 PWL 有谁会急着鼓励客户去拥抱这些产品。但至少让我们诚实地说：它们对某些人"
+    },
+    {
+      "i": 215,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "58:30",
+      "en": "appropriate for some people. And if you're going to evaluate them, then you need to understand how they work. That's right. I think from a planning perspective, you still want to bring it back to what is the money actually for? You need the higher expected returns or is what you have without",
+      "zh": "可能是合适的。而如果你要评估它们，你就需要理解它们是怎么运作的。——没错。我认为从规划的角度看，你还是要把它拉回到这个问题上：这笔钱到底是用来干什么的？你需要那个更高的预期回报吗，还是说不用"
+    },
+    {
+      "i": 216,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "58:48",
+      "en": "the leverage actually good enough? I've run many simulations and I'm sure that the team has done many since I used to run them where we show a client that yes, you could use leverage. But if instead of doing that, you just in this case, it would be a mortgage. We'd have people say, well,",
+      "zh": "杠杆、你现有的水平其实已经够好了？我跑过很多次模拟，我确信自从我以前跑那些之后，团队又跑了很多次。我们会向客户展示：是的，你可以用杠杆。但如果不这么做——在这个案例里就是一笔房贷——我们会有人说：“嗯，"
+    },
+    {
+      "i": 217,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "59:04",
+      "en": "I want to borrow against my heads to invest once they paid it off down the rare person that wants to do that. And we've shown them, well, hey, you could do that. Or if you just took those payments and invested them in your portfolio without using the leverage and like, how does that affect your",
+      "zh": "等我还清之后，我想拿房子做抵押借钱去投资。”——一旦还清就想这么做的人是极少数。我们会向他们展示：“好吧，嘿，你可以那样做。或者，如果你只是把那些月供拿去投入你的组合、不使用杠杆，那会怎样影响你的"
+    },
+    {
+      "i": 218,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "59:17",
+      "en": "ability to retire and how much you can spend in retirement? And usually it's not much. I think that's a great point, Kelly, but you really got to understand what you're trying to achieve and how much using leverage might impact that or not. I think that's an important idea that we all",
+      "zh": "退休能力，以及你在退休期间能花多少钱？”通常差别不大。——我觉得这是个很好的观点，Kelly。你真正要弄明白的是你想达成什么，以及使用杠杆对这个目标的影响有多大或有多小。我认为这是我们所有人"
+    },
+    {
+      "i": 219,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "59:32",
+      "en": "sometimes lose sight of. I mean, hopefully not as planners, but certainly as investors, we just sort of think, well, this might lead to higher returns. Advice, do we need higher returns? What's the ultimate goal? Exactly. And if you can achieve your goal with the return of a balanced",
+      "zh": "有时会忽略的一个重要观念。我的意思是，作为规划师希望不会，但作为投资者肯定会：我们就会想“嗯，这可能带来更高的回报”。等一下——我们需要更高的回报吗？最终目标是什么？——正是如此。如果你用一个平衡型"
+    },
+    {
+      "i": 220,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "59:49",
+      "en": "portfolio, and honestly, I believe most people can over time, then why are we having this discussion at all? Why are we starting from the premise that your goal as an investor should be to achieve the maximum return possible full stop? That's not a very articulate financial goal.",
+      "zh": "组合的回报就能达成你的目标——说实话，我相信大多数人随着时间推移都能做到——那我们究竟为什么还要进行这场讨论？为什么要从一个前提出发，即“你作为投资者的目标就应该是实现尽可能高的回报，句号”？那并不是一个表述清晰的财务目标。"
+    },
+    {
+      "i": 221,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "60:11",
+      "en": "Well, I don't think it's a real financial goal at all. It's the tool that you've used to achieve your goal. Yeah, a good point. Do you want to live a good life or do you want to have the perfect merchant share? Obviously, merchant share. It is an ancient discussion because some people might say",
+      "zh": "——嗯，我认为它根本不是一个真正的财务目标，它是你用来达成目标的工具。——对，说得好。你是想过上好的生活，还是想拥有完美的“默顿份额”？——显然，默顿份额。——这是个古老的辩题，因为有些人可能会说，"
+    },
+    {
+      "i": 222,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "60:28",
+      "en": "that the perfect merchant share is the best way to facilitate the perfect life. I don't know. No one's ever said that. You've probably right, Dan. It's the first time that it's ever been said. That's probably the first time that's ever been spoken. That's a fair point.",
+      "zh": "完美的默顿份额是通向完美人生的最佳途径。——我不知道，从没有人这么说过。——你说得大概没错，Dan，这是它第一次被说出来。——那大概是有史以来第一次有人这么讲。——这是个公允的说法。"
+    },
+    {
+      "i": 223,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "60:49",
+      "en": "We don't have any new reviews to read, which is pretty rare. We might now. We might help. Yeah. I don't know. Anything else to chat about? We have gotten that feedback, Dan. The people missed hearing us just chat about random stuff. They missed Cameron's book reviews and TV shows.",
+      "zh": "我们这次没有新的听众评论可以念，这挺少见的。——念完这期可能就有了。——可能会帮上忙。——是啊，我不知道。还有什么想聊的吗？——我们确实收到过那样的反馈，Dan：大家想念听我们闲聊各种杂七杂八的事，想念 Cameron 的书评和电视节目。"
+    },
+    {
+      "i": 224,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "61:05",
+      "en": "If I read books or watch TV, I'd have something to add, but are we boring people? Not possible. Kelly, we're throwing this one to you. I met the wealthy borrower last week. That was pretty cool. Very cool. That is cool. Yes, really nice guy. Where did you meet him in",
+      "zh": "——如果我看书或者看电视，我就能补充点什么。不过我们是不是让大家觉得无聊了？——不可能。——Kelly，这个问题抛给你。——我上周见到了“富有的借款人”（the wealthy borrower）。那挺酷的。——很酷。——确实很酷。——是的，人非常好。——你在哪儿见到他的，"
+    },
+    {
+      "i": 225,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "61:22",
+      "en": "Toronto, Ottawa? Actually in Winnipeg. I was at the IAFP conference and he was one of our speakers and so I got to have a chat with him one-on-one as well and used the I work with Ben. Come talk to me. Did it work? Yes, it did. That's cool. It's about who you know. Exactly.",
+      "zh": "多伦多还是渥太华？——其实在温尼伯。我当时在 IAFP 的会议上，他是我们的演讲嘉宾之一，所以我也和他一对一聊了聊，用的就是那句“我和 Ben 共事”。——来跟我聊聊吧。——管用吗？——管用。——挺酷的。——这就是人脉的作用。——没错。"
+    },
+    {
+      "i": 226,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "61:43",
+      "en": "That's the conference where Louis was being awarded his National Flancher Planning Award. Amazing. Yeah. Honestly, I have to say the evolution of planning culture at PWL over the last couple of years has been really incredible to watch. We've been able to attract so much great",
+      "zh": "——就是 Louis 在那里领取他的全国财务规划奖（National Financial Planning Award）的那个会议。——太棒了。——是啊。老实说，我必须说，过去几年 PWL 规划文化的演进，看起来真的令人难以置信。我们吸引了大量优秀的"
+    },
+    {
+      "i": 227,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "62:02",
+      "en": "talent, some of the best planners in the country as far as I'm concerned, and not even necessarily the most experienced ones, just really good young talent. I'm looking forward to kind of learning from them over the next few years because yeah, we really have built up an amazing",
+      "zh": "人才，在我看来是这个国家最好的一批规划师中的一些，而且并不一定是最资深的那些，只是非常出色的年轻人才。我期待在未来几年里向他们学习，因为是啊，我们真的建立起了一个了不起的"
+    },
+    {
+      "i": 228,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "62:19",
+      "en": "talent pool here now. It's super exciting. We have the financial planning office hours that we do. What is that once every couple of weeks? Sitting in those causes like yeah. There's cool planning knowledge, but there's also such interesting application of planning knowledge. How are we",
+      "zh": "人才库。这非常令人兴奋。我们有财务规划“办公时间”（office hours），大概每隔几周一次？坐在那些讨论里，是的——有很酷的规划知识，但也有对规划知识非常有意思的应用：我们如何"
+    },
+    {
+      "i": 229,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "62:35",
+      "en": "doing this really well for clients or what's a better way to communicate this idea or show this in our planning software? The brain power in there, Dan. Like you said, it's really cool to see. It's really interesting to talk to people who are working with clients every day, and so it's not",
+      "zh": "把这件事为客户做得非常好，或者有没有更好的方式把这个想法沟通出来、在我们的规划软件里呈现出来？那里面的脑力含量，Dan，就像你说的，看着真的很酷。和每天都在与客户打交道的人交流非常有意思，所以这不"
+    },
+    {
+      "i": 230,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "62:48",
+      "en": "just about concepts in planning, but how to deliver that message to clients because that's the thing they don't really teach you. You have to just learn that the hard way with experience, and just to hear other ways that people do things, successes they've had,",
+      "zh": "只是关于规划中的概念，而是关于如何把信息传递给客户——因为那正是他们不太会教你的东西。你只能靠经验、靠吃苦头去学。而能够听到别人做事的其他方式、他们取得的成功、"
+    },
+    {
+      "i": 231,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "63:04",
+      "en": "presenting plans to clients, and learn a lot from that. Yeah, and it goes back to what I mentioned earlier where like you just said, hearing someone explain something in a different way, there's always something you to learn, and there's always ways to improve, and so the fact that we do that",
+      "zh": "他们如何向客户呈现规划方案，并从中获益良多。——是啊，这又回到我前面提到的那点：就像你刚说的，听一个人用另一种方式解释同一件事，你总有东西可学，也总有改进的空间。所以我们能够定期"
+    },
+    {
+      "i": 232,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "63:20",
+      "en": "on a regular basis internally is amazing. Indeed. It's very cool. We're working on one project that we'll talk about on the podcast at some point in the future, but we're doing a survey for a select group of our clients, which I think is going to be pretty interesting, and that's",
+      "zh": "在内部做这件事，真的很棒。——确实。——非常酷。我们正在做一个项目，将来某个时候会在播客上谈到：我们在对一部分精选客户做一项调查，我认为会相当有意思，而且那项调查"
+    },
+    {
+      "i": 233,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "63:36",
+      "en": "hopefully going to go out in the next couple of weeks. It's about wealth psychology and money and happiness and all that kind of stuff. I think we're going to gain some really interesting insights from that survey that we can hopefully turn to some kind of research that we'll share",
+      "zh": "有望在未来几周内发出。它关乎财富心理学、金钱与幸福这一类话题。我想我们会从那项调查中获得一些非常有意思的洞见，并且希望把它转化为某种研究成果，将来分享"
+    },
+    {
+      "i": 234,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "63:47",
+      "en": "later. And then I mentioned a while ago on the podcast that we were going to start having clients on to kind of tell their stories about why they came to PBL, and it's super interesting because many of them are former DIY investors who are perfectly capable of doing all the stuff themselves.",
+      "zh": "给大家。另外，我前不久在播客上提过，我们打算开始请客户上节目，讲讲他们为什么来到 PWL。这非常有意思，因为他们中很多人是曾经的 DIY 投资者，完全有能力自己把所有这些事做下来。"
+    },
+    {
+      "i": 235,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "64:01",
+      "en": "They've decided to work with PBL, so I think hearing them talk through the way that they thought about that decision and what they think they benefit from working with PBL is going to be really interesting for listeners to hear. That is underway. Excellent. Well, Kelly, great to have",
+      "zh": "但他们决定与 PWL 合作。所以我认为，听他们讲清楚自己当初是怎么思考这个决定的、以及他们认为与 PWL 合作带来了什么好处，对听众来说会非常有意思。这件事已经在推进中了。——太好了。——好的，Kelly，很高兴"
+    },
+    {
+      "i": 236,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "64:15",
+      "en": "you on the episode and hope that we'll be more in the future. Yeah, thanks so much for having me. It was fun, but slightly terrifying. It doesn't get easier.",
+      "zh": "你能来上这期节目，希望以后还有更多次。——是啊，非常感谢你们请我来。很有趣，但也有点吓人。——这事不会变容易的。"
+    },
+    {
+      "i": 237,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "64:26",
+      "en": "All right, thanks guys, and thanks everyone for listening. Yeah. Thank you.",
+      "zh": "好了，谢谢大家，也感谢所有收听的人。——是啊。——谢谢。"
+    },
+    {
+      "i": 238,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "64:34",
+      "en": "Portfolio Management and brokerage services in Canada are offered exclusively by PBL Capital Inc, which is regulated by the Canadian Investment Regulatory Organization and is a member of the Canadian Investor Protection Fund. Investment Advisory Services in the United States of America",
+      "zh": "在加拿大，投资组合管理与经纪服务仅由 PWL Capital Inc 提供，该公司受加拿大投资监管组织（CIRO）监管，并且是加拿大投资者保护基金（CIPF）的成员。在美利坚合众国，投资咨询服务"
+    },
+    {
+      "i": 239,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "64:48",
+      "en": "are offered exclusively by one digital investment advisors LLC. One digital and PBL Capital are affiliated entities. However, each company has financial responsibility for only its own products and services. Nothing herein constitutes an offer or solicitation to buy or sell any security.",
+      "zh": "仅由 OneDigital Investment Advisors LLC 提供。OneDigital 与 PWL Capital 是关联实体，但每家公司仅对各自的产品和服务承担财务责任。本内容中的任何部分均不构成买卖任何证券的要约或招揽。"
+    },
+    {
+      "i": 240,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "65:04",
+      "en": "This communication is distributed for informational purposes only. The information contained herein has been derived from sources believed to be accurate, but no guarantee as to its accuracy or completeness can be made. Furthermore, nothing herein should be construed as investment,",
+      "zh": "本通讯仅为提供信息之目的而发布。本内容所含信息来自被认为准确的来源，但对其准确性或完整性不作任何保证。此外，本内容中的任何部分均不应被解释为投资、"
+    },
+    {
+      "i": 241,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "65:19",
+      "en": "tax, or legal advice, and or used to make any investment decisions. Different types of investments and investment strategies have varying degrees of risk and are not suitable for all investors. You should consult with a professional advisor to see how the information contained herein",
+      "zh": "税务或法律建议，也不应用于做出任何投资决策。不同类型的投资和投资策略具有不同程度的风险，并不适合所有投资者。您应咨询专业顾问，以了解本内容所含信息"
+    },
+    {
+      "i": 242,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "65:32",
+      "en": "may apply to your individual circumstances. All market indices discussed are unmanaged, do not incur management fees, and cannot be invested indirectly. All investing involves risk of loss and nothing herein should be construed as a guarantee of any specific outcome or profit.",
+      "zh": "如何适用于您的个人情况。本文所讨论的所有市场指数均为非管理型指数，不产生管理费用，且无法直接投资。所有投资均涉及亏损风险，本内容中的任何部分均不应被解释为对任何特定结果或利润的保证。"
+    },
+    {
+      "i": 243,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "65:46",
+      "en": "Past performance is not indicative of or a guarantee of future results. All statements and opinions presented herein are those of the individual hosts and or guests, are current only as of this communications original publication date and are subject to change without notice. Neither one",
+      "zh": "过往业绩并不预示也不保证未来结果。本内容中呈现的所有陈述与观点均属各主持人和/或嘉宾个人，仅在本通讯最初发布之日有效，且可能在不另行通知的情况下发生变化。OneDigital"
+    },
+    {
+      "i": 244,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "66:01",
+      "en": "digital nor PBL Capital has any obligation to provide revised statements and or opinions in the event of changed circumstances.",
+      "zh": "与 PWL Capital 均无义务在情况发生变化时提供修订后的陈述和/或观点。"
+    }
+  ]
+}
