@@ -22,6 +22,31 @@ const newer = idx > 0 ? list[idx - 1] : null;
 const older = idx < list.length - 1 ? list[idx + 1] : null;
 const base = import.meta.env.BASE_URL;
 
+// —— 时间戳转秒（"mm:ss" 或 "hh:mm:ss"） ——
+function tsToSec(ts: string): number {
+  const p = ts.split(':').map(Number);
+  return p.length === 3 ? p[0] * 3600 + p[1] * 60 + p[2] : p[0] * 60 + p[1];
+}
+
+// —— transcript 章节目录：仅当数据里真实存在 chapters 时才启用，绝不编造 ——
+const chapters = !article && ep.chapters && ep.chapters.length ? ep.chapters : [];
+// 每章定位到第一个 ts >= 章节 ts 的 turn 下标，供"点击目录滚动到正文"
+const chapterTargets: number[] = chapters.map((c) => {
+  const sec = tsToSec(c.ts);
+  const i = (ep.turns || []).findIndex((t) => t.ts && tsToSec(t.ts) >= sec);
+  return i >= 0 ? i : 0;
+});
+
+// —— 相关推荐：同分类下其他节目的最新单集；不足时回退到同节目 ——
+const catId = show.category || 'other';
+let related = ALL_EPISODES.filter((e) => {
+  if (e.slug === ep.slug || e.show === ep.show) return false;
+  return (getShow(e.show)?.category || 'other') === catId;
+}).slice(0, 3);
+if (related.length === 0) {
+  related = ALL_EPISODES.filter((e) => e.show === ep.show && e.slug !== ep.slug).slice(0, 3);
+}
+
 // —— article：把 blocks 预分组（连续的 li 合成一个有序列表），并给 h2 编号做锚点/目录 ——
 type Group =
   | { type: 'h2'; text: string; id: string }
@@ -45,7 +70,9 @@ if (article && ep.blocks) {
 }
 ---
 <BaseLayout title={`${ep.title_zh} · ${show.title}`} description={summary(ep)}>
-  <div class="wrap" style={`--accent:${show.accent}`}>
+  <!-- 阅读进度条（顶部细线，JS 驱动宽度） -->
+  <div class="progress-bar" aria-hidden="true"><span id="progress-fill"></span></div>
+  <div class="wrap has-player" style={`--accent:${show.accent}`}>
     <article>
       <div class="ep-header">
         <a class="back" href={`${base}shows/${show.slug}/`}>← {show.title_zh}</a>
@@ -73,18 +100,27 @@ if (article && ep.blocks) {
           )}
           <span>🎧 <a href={ep.episode_url} target="_blank" rel="noopener">原节目页 ↗</a></span>
         </div>
+        <div class="ep-actions">
+          <button class="action-btn" id="bm-btn" type="button">☆ 收藏</button>
+          <button class="action-btn" id="share-btn" type="button">⧉ 复制链接</button>
+        </div>
       </div>
 
       {(ep.subtitle_zh || ep.description) && <div class="ep-desc">{ep.subtitle_zh || ep.description}</div>}
 
-      <!-- 音频条：有 audio_url 用内置播放器，否则跳转官方 -->
-      <div class="audio-bar" data-audio={ep.audio_url || ''}>
-        <button class="play" id="play-btn" aria-label="播放/暂停">▶</button>
-        <div class="track">
-          <input type="range" id="seek" min="0" max="100" value="0" step="0.1" disabled />
-          <div class="time"><span id="cur">00:00</span><span>{ep.duration || '官方音频'}</span></div>
+      <!-- 固定底部播放器：有 audio_url 用内置播放器，否则跳转官方 -->
+      <div class="player" data-audio={ep.audio_url || ''}>
+        <div class="player-inner">
+          <button class="play" id="play-btn" aria-label="播放/暂停">▶</button>
+          <button class="p-btn" id="back15" title="后退 15 秒" aria-label="后退 15 秒">-15</button>
+          <button class="p-btn" id="fwd15" title="前进 15 秒" aria-label="前进 15 秒">+15</button>
+          <div class="track">
+            <input type="range" id="seek" min="0" max="100" value="0" step="0.1" disabled />
+            <div class="time"><span id="cur">00:00</span><span id="dur">{ep.duration || '官方音频'}</span></div>
+          </div>
+          <button class="p-btn" id="speed" title="播放倍速">1.0x</button>
+          <a class="ext" href={ep.audio_url || ep.episode_url} target="_blank" rel="noopener">官方音频 ↗</a>
         </div>
-        <a class="ext" href={ep.audio_url || ep.episode_url} target="_blank" rel="noopener">官方音频 ↗</a>
       </div>
 
       {article ? (
@@ -95,6 +131,7 @@ if (article && ep.blocks) {
             <div class="read-controls">
               <button class="icon-btn" id="font-dec" title="减小字号">A-</button>
               <button class="icon-btn" id="font-inc" title="增大字号">A+</button>
+              <button class="icon-btn" id="width-btn" title="切换阅读宽度 740/900">740</button>
             </div>
           </div>
 
@@ -141,6 +178,22 @@ if (article && ep.blocks) {
         </>
       ) : (
         <>
+          {/* 章节目录：仅当数据里真实存在 chapters 时渲染（PRD §8，不编造） */}
+          {chapters.length > 0 && (
+            <nav class="art-toc" data-targets={chapterTargets.join(',')}>
+              <div class="art-toc-title">章节</div>
+              <ol>
+                {chapters.map((c, i) => (
+                  <li>
+                    <a href="#" data-chapter={i} data-seek={c.ts}>
+                      {i + 1}. {c.title} <span class="toc-ts">{c.ts}</span>
+                    </a>
+                  </li>
+                ))}
+              </ol>
+            </nav>
+          )}
+
           <!-- Tabs + 阅读控件 -->
           <div class="tabs">
             <button class="tab active" data-tab="zh">中文精读</button>
@@ -149,6 +202,7 @@ if (article && ep.blocks) {
             <div class="read-controls">
               <button class="icon-btn" id="font-dec" title="减小字号">A-</button>
               <button class="icon-btn" id="font-inc" title="增大字号">A+</button>
+              <button class="icon-btn" id="width-btn" title="切换阅读宽度 740/900">740</button>
             </div>
           </div>
 
@@ -156,12 +210,16 @@ if (article && ep.blocks) {
           <div class="tab-panel active panel-zh" data-panel="zh">
             <div class="transcript">
               {(ep.turns || []).map((t) => (
-                <div class={`turn ${t.speaker === 1 ? 'host' : ''}`}>
+                <div class={`turn ${t.speaker === 1 ? 'host' : ''}`} data-idx={t.i}>
                   <div class="who">
                     {speakerLabel(ep, t.speaker_zh)}
                     {t.ts && <span class="ts" data-seek={t.ts}>{t.ts}</span>}
                   </div>
-                  <div class="body">{t.zh}</div>
+                  <div class="body">
+                    {t.zh}
+                    <button class="en-toggle" type="button" aria-expanded="false">英文</button>
+                    <div class="en-expand">{t.en}</div>
+                  </div>
                 </div>
               ))}
             </div>
@@ -171,9 +229,9 @@ if (article && ep.blocks) {
           <div class="tab-panel panel-en" data-panel="en">
             <div class="transcript">
               {(ep.turns || []).map((t) => (
-                <div class={`turn ${t.speaker === 1 ? 'host' : ''}`}>
+                <div class={`turn ${t.speaker === 1 ? 'host' : ''}`} data-idx={t.i}>
                   <div class="who">
-                    {`Speaker ${t.speaker}`}
+                    {speakerLabel(ep, t.speaker)}
                     {t.ts && <span class="ts" data-seek={t.ts}>{t.ts}</span>}
                   </div>
                   <div class="body">{t.en}</div>
@@ -186,7 +244,7 @@ if (article && ep.blocks) {
           <div class="tab-panel panel-zh bilingual" data-panel="bi">
             <div class="transcript">
               {(ep.turns || []).map((t) => (
-                <div class={`turn ${t.speaker === 1 ? 'host' : ''}`}>
+                <div class={`turn ${t.speaker === 1 ? 'host' : ''}`} data-idx={t.i}>
                   <div class="who">
                     {speakerLabel(ep, t.speaker_zh)}
                     {t.ts && <span class="ts" data-seek={t.ts}>{t.ts}</span>}
@@ -215,6 +273,28 @@ if (article && ep.blocks) {
           </a>
         )}
       </div>
+
+      {/* 相关推荐：同分类其他节目 / 回退同节目 */}
+      {related.length > 0 && (
+        <>
+          <div class="section-head">
+            <h2 class="section-title">相关推荐</h2>
+            <span class="section-note">同类主题的更多精读</span>
+          </div>
+          <div class="ep-list">
+            {related.map((e) => (
+              <a class="ep-row" href={`${base}ep/${e.show}/${e.slug}/`}>
+                <div class="date">{e.date.slice(5)}</div>
+                <div class="ep-main">
+                  <div class="t-zh">{e.title_zh}</div>
+                  <div class="t-en">{e.title_en}</div>
+                </div>
+                <div class="dur">{lengthLabel(e)}</div>
+              </a>
+            ))}
+          </div>
+        </>
+      )}
 
       <div class="footnote">
         {article ? (
@@ -245,7 +325,7 @@ if (article && ep.blocks) {
       });
 
       // 字号
-      var size = parseInt(localStorage.getItem('reading-size') || '17', 10);
+      var size = parseInt(localStorage.getItem('reading-size') || '18', 10);
       function setSize(s) {
         size = Math.max(14, Math.min(24, s));
         document.documentElement.style.setProperty('--reading-size', size + 'px');
@@ -255,12 +335,49 @@ if (article && ep.blocks) {
       if (inc) inc.addEventListener('click', function () { setSize(size + 1); });
       if (dec) dec.addEventListener('click', function () { setSize(size - 1); });
 
-      // 音频
-      var bar = document.querySelector('.audio-bar');
+      // 阅读宽度 740 / 900 切换（.wrap 与 .player-inner 共用 --reading-width）
+      var wbtn = document.getElementById('width-btn');
+      var rw = parseInt(localStorage.getItem('reading-width') || '740', 10);
+      function setW(v) {
+        rw = v;
+        document.documentElement.style.setProperty('--reading-width', v + 'px');
+        try { localStorage.setItem('reading-width', v); } catch (e) {}
+        if (wbtn) wbtn.textContent = v;
+      }
+      if (wbtn) {
+        wbtn.textContent = rw;
+        wbtn.addEventListener('click', function () { setW(rw === 740 ? 900 : 740); });
+      }
+
+      // 音频同步高亮：预读每段 ts，播放时高亮当前段
+      var turnEls = Array.prototype.slice.call(document.querySelectorAll('.panel-zh .turn'));
+      var turnSecs = turnEls.map(function (el) {
+        var tsEl = el.querySelector('.ts[data-seek]');
+        if (!tsEl) return -1;
+        var p = tsEl.getAttribute('data-seek').split(':').map(Number);
+        return p.length === 3 ? p[0] * 3600 + p[1] * 60 + p[2] : p[0] * 60 + p[1];
+      });
+      var playIdx = -1;
+      function syncHighlight(t) {
+        var idx = -1;
+        for (var i = 0; i < turnSecs.length; i++) { if (turnSecs[i] >= 0 && turnSecs[i] <= t) idx = i; else break; }
+        if (idx === playIdx) return;
+        if (playIdx >= 0) {
+          document.querySelectorAll('[data-idx="' + playIdx + '"]').forEach(function (el) { el.classList.remove('playing'); });
+        }
+        playIdx = idx;
+        if (playIdx >= 0) {
+          document.querySelectorAll('[data-idx="' + playIdx + '"]').forEach(function (el) { el.classList.add('playing'); });
+        }
+      }
+
+      // 音频（固定底部播放器）
+      var bar = document.querySelector('.player');
       var src = bar ? bar.getAttribute('data-audio') : '';
       var playBtn = document.getElementById('play-btn');
       var seek = document.getElementById('seek');
       var cur = document.getElementById('cur');
+      var durEl = document.getElementById('dur');
       var audio = null;
       function fmt(s) {
         s = Math.max(0, Math.floor(s || 0));
@@ -274,13 +391,35 @@ if (article && ep.blocks) {
           if (audio.paused) { audio.play(); playBtn.textContent = '❚❚'; }
           else { audio.pause(); playBtn.textContent = '▶'; }
         });
+        audio.addEventListener('loadedmetadata', function () {
+          if (audio.duration && durEl) durEl.textContent = fmt(audio.duration);
+        });
         audio.addEventListener('timeupdate', function () {
           if (audio.duration) { seek.value = (audio.currentTime / audio.duration) * 100; cur.textContent = fmt(audio.currentTime); }
+          syncHighlight(audio.currentTime);
         });
         audio.addEventListener('ended', function () { playBtn.textContent = '▶'; });
+        audio.addEventListener('seeked', function () { syncHighlight(audio.currentTime); });
         seek.addEventListener('input', function () {
-          if (audio.duration) audio.currentTime = (seek.value / 100) * audio.duration;
+          if (audio.duration) { audio.currentTime = (seek.value / 100) * audio.duration; syncHighlight(audio.currentTime); }
         });
+        // 倍速循环
+        var speeds = [1, 1.25, 1.5, 1.75, 2];
+        var spIdx = 0;
+        var spBtn = document.getElementById('speed');
+        if (spBtn) spBtn.addEventListener('click', function () {
+          spIdx = (spIdx + 1) % speeds.length;
+          audio.playbackRate = speeds[spIdx];
+          spBtn.textContent = speeds[spIdx] + 'x';
+        });
+        // ±15 秒
+        function skip(d) {
+          if (!audio.duration) return;
+          audio.currentTime = Math.max(0, Math.min(audio.duration, audio.currentTime + d));
+        }
+        var b15 = document.getElementById('back15'), f15 = document.getElementById('fwd15');
+        if (b15) b15.addEventListener('click', function () { skip(-15); });
+        if (f15) f15.addEventListener('click', function () { skip(15); });
       } else if (playBtn) {
         // 无直链：点击跳官方页
         playBtn.addEventListener('click', function () {
@@ -293,7 +432,120 @@ if (article && ep.blocks) {
           if (!audio) return;
           var parts = el.getAttribute('data-seek').split(':').map(Number);
           var sec = parts.length === 3 ? parts[0] * 3600 + parts[1] * 60 + parts[2] : parts[0] * 60 + parts[1];
-          audio.currentTime = sec; audio.play(); playBtn.textContent = '❚❚';
+          audio.currentTime = sec; audio.play(); playBtn.textContent = '❚';
+        });
+      });
+
+      /* ===== 阶段5：进度条 / 滚动记忆 / 收藏 / 分享 / 逐段英文 / 章节跳转 ===== */
+      // 从路径解析 show / slug（is:inline 脚本不能用 Astro 表达式，改读 DOM 与路径）
+      var baseAttr = document.documentElement.getAttribute('data-base') || '/';
+      var pth = location.pathname;
+      if (baseAttr !== '/' && pth.indexOf(baseAttr) === 0) pth = '/' + pth.slice(baseAttr.length);
+      var mEp = pth.match(/^\/ep\/([^/]+)\/([^/]+)\/?$/);
+      var showSlug = mEp ? mEp[1] : '';
+      var epSlug = mEp ? mEp[2] : '';
+      var titleEl = document.querySelector('.ep-title-zh');
+      var titleZh = titleEl ? titleEl.textContent : epSlug;
+
+      // 阅读进度条 + 滚动位置记忆
+      var fill = document.getElementById('progress-fill');
+      var PROG_KEY = 'pr-progress';
+      function readProg() { try { return JSON.parse(localStorage.getItem(PROG_KEY) || '{}'); } catch (e) { return {}; } }
+      function curPct() {
+        var h = document.documentElement;
+        var max = h.scrollHeight - window.innerHeight;
+        return max > 0 ? Math.min(1, Math.max(0, h.scrollTop / max)) : 0;
+      }
+      var saveTimer = null;
+      function onScroll() {
+        if (fill) fill.style.width = (curPct() * 100) + '%';
+        if (saveTimer || !epSlug) return;
+        saveTimer = setTimeout(function () {
+          saveTimer = null;
+          var all = readProg();
+          all[epSlug] = { show: showSlug, slug: epSlug, title_zh: titleZh, percent: curPct(), updatedAt: Date.now() };
+          try { localStorage.setItem(PROG_KEY, JSON.stringify(all)); } catch (e) {}
+        }, 300);
+      }
+      window.addEventListener('scroll', onScroll, { passive: true });
+      onScroll();
+      // 恢复上次阅读位置（仅在 2%~98% 之间，避免刚打开或已读完时跳动）
+      (function () {
+        if (!epSlug) return;
+        var it = readProg()[epSlug];
+        if (it && it.percent > 0.02 && it.percent < 0.98) {
+          var h = document.documentElement;
+          var max = h.scrollHeight - window.innerHeight;
+          window.scrollTo(0, it.percent * max);
+        }
+      })();
+
+      // 收藏
+      var bmBtn = document.getElementById('bm-btn');
+      var BM_KEY = 'pr-bookmarks';
+      function readBM() { try { return JSON.parse(localStorage.getItem(BM_KEY) || '[]'); } catch (e) { return []; } }
+      function bmRender() {
+        if (!bmBtn) return;
+        var on = readBM().indexOf(epSlug) >= 0;
+        bmBtn.classList.toggle('on', on);
+        bmBtn.textContent = on ? '★ 已收藏' : '☆ 收藏';
+      }
+      if (bmBtn) {
+        bmRender();
+        bmBtn.addEventListener('click', function () {
+          var arr = readBM();
+          var i = arr.indexOf(epSlug);
+          if (i >= 0) arr.splice(i, 1); else arr.push(epSlug);
+          try { localStorage.setItem(BM_KEY, JSON.stringify(arr)); } catch (e) {}
+          bmRender();
+        });
+      }
+
+      // 分享（复制链接）
+      var shBtn = document.getElementById('share-btn');
+      if (shBtn) shBtn.addEventListener('click', function () {
+        var url = location.href;
+        function done() {
+          var old = shBtn.textContent;
+          shBtn.textContent = '✓ 已复制';
+          setTimeout(function () { shBtn.textContent = old; }, 1500);
+        }
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          navigator.clipboard.writeText(url).then(done, done);
+        } else {
+          var ta = document.createElement('textarea');
+          ta.value = url; document.body.appendChild(ta); ta.select();
+          try { document.execCommand('copy'); } catch (e) {}
+          document.body.removeChild(ta); done();
+        }
+      });
+
+      // 逐段英文展开
+      document.querySelectorAll('.en-toggle').forEach(function (b) {
+        b.addEventListener('click', function () {
+          var turn = b.closest('.turn');
+          if (!turn) return;
+          var on = turn.classList.toggle('show-en');
+          b.setAttribute('aria-expanded', on ? 'true' : 'false');
+        });
+      });
+
+      // 章节目录：seek 音频 + 滚动到对应 turn
+      var tocNav = document.querySelector('.art-toc[data-targets]');
+      var targets = tocNav ? (tocNav.getAttribute('data-targets') || '').split(',').map(Number) : [];
+      document.querySelectorAll('a[data-chapter]').forEach(function (a) {
+        a.addEventListener('click', function (ev) {
+          ev.preventDefault();
+          var ts = a.getAttribute('data-seek');
+          var ci = parseInt(a.getAttribute('data-chapter'), 10);
+          if (audio && ts) {
+            var parts = ts.split(':').map(Number);
+            var sec = parts.length === 3 ? parts[0] * 3600 + parts[1] * 60 + parts[2] : parts[0] * 60 + parts[1];
+            audio.currentTime = sec; audio.play(); playBtn.textContent = '❚❚';
+          }
+          var ti = targets[ci] || 0;
+          var target = document.querySelector('.panel-zh .turn[data-idx="' + ti + '"]');
+          if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
         });
       });
     })();

@@ -64,6 +64,14 @@ import BaseLayout from '../layouts/BaseLayout.astro';
       }
       var timer;
       q.addEventListener('input', function () { clearTimeout(timer); timer = setTimeout(run, 150); });
+
+      // 支持首页搜索框跳转带 ?q= 参数：预填并自动执行一次
+      var initial = new URLSearchParams(location.search).get('q');
+      if (initial) {
+        q.value = initial;
+        var tryRun = function () { if (INDEX) run(); else setTimeout(tryRun, 100); };
+        tryRun();
+      }
     })();
   </script>
 </BaseLayout>

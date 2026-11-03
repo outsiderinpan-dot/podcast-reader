@@ -5,7 +5,8 @@ import CategorySections from '../components/CategorySections.astro';
 import Timeline from '../components/Timeline.astro';
 import { SHOWS } from '../data/shows';
 import { CATEGORIES } from '../data/categories';
-import { ALL_EPISODES, relDays } from '../lib/episodes';
+import { ALL_EPISODES, relDays, getEpisode, lengthLabel, summary } from '../lib/episodes';
+import { getShow } from '../data/shows';
 
 const base = import.meta.env.BASE_URL;
 const totalTurns = ALL_EPISODES.reduce((s, e) => s + (e.turn_count || 0), 0);
@@ -18,12 +19,30 @@ for (const s of SHOWS) {
   const id = s.category || 'other';
   counts[id] = (counts[id] || 0) + 1;
 }
+
+// 最新更新：全站倒序前 6 篇
+const latest = ALL_EPISODES.slice(0, 6);
+
+// 精选文章：静态配置（show + slug），构建期解析；缺失的条目自动跳过
+const FEATURED: { show: string; slug: string }[] = [
+  { show: 'lex-fridman', slug: 'jeff-kaplan' },
+  { show: 'rational-reminder', slug: '2026-10-22-how-leveraged-etfs-really-work-marco-348175224' },
+  { show: 'odd-lots', slug: '2026-10-24-how-a-chicago-restaurant-has-stayed-348318246' },
+  { show: 'money-stuff', slug: '2026-10-23-tice-brown-348258941' },
+];
+const featured = FEATURED
+  .map((f) => getEpisode(f.show, f.slug))
+  .filter((e): e is NonNullable<typeof e> => !!e);
 ---
 <BaseLayout title="Podcast Reader · 播客中英精读">
   <div class="wrap-wide">
     <section class="hero">
       <h1>把三四小时的播客，读成一篇文章</h1>
       <p>每周抓取全球优质播客的最新单集：投资类做逐句中文精读 + 英文原文对照，深度长谈类整理成值得读完的中文长文。按内容主题分类浏览，或在下方时间线里顺着日期往下翻。</p>
+      <form class="hero-search" action={`${base}search/`} method="get" role="search">
+        <input type="search" name="q" placeholder="搜索标题、正文、说话人，如「主动管理」「ETF」…" autocomplete="off" />
+        <button type="submit">搜索</button>
+      </form>
       <div class="stat-row">
         <div class="stat"><b>{SHOWS.length}</b>档节目</div>
         <div class="stat"><b>{ALL_EPISODES.length}</b>篇精读</div>
@@ -31,6 +50,59 @@ for (const s of SHOWS) {
         <div class="stat"><b>{latestDate ? relDays(latestDate) : '—'}</b>最近更新</div>
       </div>
     </section>
+
+    <!-- 继续阅读：由客户端读取本地阅读进度填充；无进度时整块隐藏 -->
+    <section class="continue-wrap" id="continue-wrap" hidden>
+      <div class="section-head">
+        <h2 class="section-title">继续阅读</h2>
+        <span class="section-note">根据你上次的阅读位置</span>
+      </div>
+      <div class="continue-grid" id="continue-grid"></div>
+    </section>
+
+    <div class="section-head">
+      <h2 class="section-title">最新更新</h2>
+      <a class="section-link" href={`${base}shows/#timeline`}>完整时间线 →</a>
+    </div>
+    <div class="mag-grid">
+      {latest.map((e) => {
+        const show = getShow(e.show);
+        return (
+          <a class="mag-card" href={`${base}ep/${e.show}/${e.slug}/`} style={`--accent:${show?.accent || 'var(--accent)'}`}>
+            <div class="mc-top">
+              <span class="mc-date">{e.date}</span>
+              <span class="mc-show">{show?.title_zh || e.show}</span>
+            </div>
+            <h3 class="mc-title">{e.title_zh}</h3>
+            <p class="mc-sub">{summary(e)}</p>
+            <div class="mc-foot"><span class="mc-len">{lengthLabel(e)}</span></div>
+          </a>
+        );
+      })}
+    </div>
+
+    {featured.length > 0 && (
+      <>
+        <div class="section-head">
+          <h2 class="section-title">精选文章</h2>
+          <span class="section-note">编辑挑选 · 值得静心读完</span>
+        </div>
+        <div class="feat-list">
+          {featured.map((e) => {
+            const show = getShow(e.show);
+            return (
+              <a class="feat-row" href={`${base}ep/${e.show}/${e.slug}/`} style={`--accent:${show?.accent || 'var(--accent)'}`}>
+                <div class="fr-main">
+                  <div class="fr-title">{e.title_zh}</div>
+                  <div class="fr-sub">{show?.title_zh || e.show} · {e.date} · {lengthLabel(e)}</div>
+                </div>
+                <span class="fr-arrow">→</span>
+              </a>
+            );
+          })}
+        </div>
+      </>
+    )}
 
     <h2 class="section-title">按主题浏览</h2>
     <CategoryNav counts={counts} />
@@ -43,4 +115,31 @@ for (const s of SHOWS) {
     </div>
     <Timeline limit={2} />
   </div>
+
+  <script is:inline>
+    // 继续阅读：读取本地阅读进度（Phase 5 写入），按更新时间倒序展示前 3 条
+    (function () {
+      var BASE = document.documentElement.getAttribute('data-base') || '/';
+      var wrap = document.getElementById('continue-wrap');
+      var grid = document.getElementById('continue-grid');
+      if (!wrap || !grid) return;
+      var data = {};
+      try { data = JSON.parse(localStorage.getItem('pr-progress') || '{}'); } catch (e) { data = {}; }
+      var items = Object.keys(data).map(function (k) { return data[k]; })
+        .filter(function (it) { return it && it.slug && it.show; })
+        .sort(function (a, b) { return (b.updatedAt || 0) - (a.updatedAt || 0); })
+        .slice(0, 3);
+      if (!items.length) return;
+      var html = '';
+      items.forEach(function (it) {
+        var pct = it.percent ? Math.round(it.percent * 100) : 0;
+        html += '<a class="continue-card" href="' + BASE + 'ep/' + it.show + '/' + it.slug + '/">' +
+          '<div class="cc-title">' + (it.title_zh || it.slug) + '</div>' +
+          '<div class="cc-bar"><span style="width:' + pct + '%"></span></div>' +
+          '<div class="cc-meta">读到 ' + pct + '%</div></a>';
+      });
+      grid.innerHTML = html;
+      wrap.hidden = false;
+    })();
+  </script>
 </BaseLayout>

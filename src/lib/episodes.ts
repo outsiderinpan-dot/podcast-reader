@@ -23,6 +23,13 @@ export interface Resource {
   url: string;
 }
 
+// 可选章节（PRD §8）：仅当数据里真实存在时才渲染目录，绝不编造。
+// ts 与 turns[].ts 同格式（"mm:ss" 或 "hh:mm:ss"）。
+export interface Chapter {
+  ts: string;
+  title: string;
+}
+
 export interface Episode {
   show: string;
   kind?: 'transcript' | 'article';
@@ -40,6 +47,7 @@ export interface Episode {
   speakers?: Record<string, string>;
   turn_count?: number;
   turns?: Turn[];
+  chapters?: Chapter[];
 
   // —— article 专属 ——
   subtitle_zh?: string;

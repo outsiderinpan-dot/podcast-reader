@@ -22,6 +22,8 @@ const base = import.meta.env.BASE_URL; // '/' 或 '/repo/'，用于 GitHub Pages
           document.documentElement.setAttribute('data-theme', t);
           var s = localStorage.getItem('reading-size');
           if (s) document.documentElement.style.setProperty('--reading-size', s + 'px');
+          var w = localStorage.getItem('reading-width');
+          if (w) document.documentElement.style.setProperty('--reading-width', w + 'px');
         } catch (e) {}
       })();
     </script>
