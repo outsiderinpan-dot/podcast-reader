@@ -1,0 +1,1481 @@
+{
+  "show": "odd-lots",
+  "kind": "transcript",
+  "id": "odd-lots-8d98824891",
+  "guid": "52b31e33-08b2-4ea7-a5d0-b4b9014b34d9",
+  "slug": "2026-09-03-whats-behind-the-big-surge-in-8d98824891",
+  "date": "2026-09-03",
+  "title_en": "What's Behind the Big Surge in US Government Bond Yields",
+  "title_zh": "美国国债收益率大涨背后：Stanford 教授 Darrell Duffie 解析供给、回购与美联储资产负债表",
+  "subtitle_zh": "Darrell Duffie 从债务规模、投资者行为和财政部回购操作角度解读长端收益率飙升",
+  "description": "What's Behind the Big Surge in US Government Bond Yields",
+  "duration": "36:36",
+  "duration_seconds": 2196,
+  "episode_url": "https://omny.fm/shows/odd-lots/whats-behind-the-big-surge-in-us-government-bond-yields",
+  "audio_url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/8a94442e-5a74-4fa2-8b8d-ae27003a8d6b/52b31e33-08b2-4ea7-a5d0-b4b9014b34d9/audio.mp3?utm_source=Podcast&in_playlist=982f5071-765c-403d-969d-ae27003a8d83",
+  "speakers": {
+    "1": "Joe Weisenthal（主持）",
+    "2": "Tracy Alloway（主持）",
+    "3": "Darrell Duffie（嘉宾）",
+    "4": "片花/广告（旁白）"
+  },
+  "turn_count": 182,
+  "turns": [
+    {
+      "i": 0,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "00:04",
+      "en": "Hello, Odd Lodge listeners. I'm Joe Wiesenthal.",
+      "zh": "Odd Lots 的听众们好，我是 Joe Weisenthal。"
+    },
+    {
+      "i": 1,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "00:07",
+      "en": "And I'm Tracy Alloway.",
+      "zh": "我是 Tracy Alloway。"
+    },
+    {
+      "i": 2,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "00:08",
+      "en": "We're the hosts of the Odd Lodge podcast, and we've got something exciting for you.",
+      "zh": "我们是 Odd Lots 播客的主持人，今天有个令人兴奋的消息要告诉大家。"
+    },
+    {
+      "i": 3,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "00:12",
+      "en": "That's right. So one of the best parts of hosting our podcast is we get to actually meet and interact with our listeners. And we know we have some listeners over in Los Angeles.",
+      "zh": "没错。做这个播客最棒的一点就是可以真正跟听众见面互动。我们知道洛杉矶那边有不少听众。"
+    },
+    {
+      "i": 4,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "00:21",
+      "en": "That's right. So if you're in L.A., we're going to be recording a live show, some live recordings at the Vermont Theater in Hollywood on September 17th.",
+      "zh": "对。如果你在洛杉矶，我们将在 9 月 17 日于好莱坞的 Vermont Theater 录制一场现场节目。"
+    },
+    {
+      "i": 5,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "00:30",
+      "en": "We have some really exciting guests lined up, have some really great conversations planned. So go ahead and get your tickets. You can find those over at Bloomberg.com forward slash oddlots or click the link below in the show notes and come and say hi when you're there.",
+      "zh": "我们邀请了一些非常精彩的嘉宾，准备了很棒的对谈。赶紧去买票吧，可以在 Bloomberg.com/oddlots 找到，或者点击节目备注里的链接，到时候来跟我们打个招呼。"
+    },
+    {
+      "i": 6,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "00:49",
+      "en": "Bloomberg Audio Studios, podcasts, radio, news.",
+      "zh": "Bloomberg Audio Studios，播客、广播、新闻。"
+    },
+    {
+      "i": 7,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "01:05",
+      "en": "Hello, and welcome to another episode of the Odd Lots podcast. I'm Tracy Allaway.",
+      "zh": "大家好，欢迎收听新一期 Odd Lots 播客。我是 Tracy Alloway。"
+    },
+    {
+      "i": 8,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "01:09",
+      "en": "And I'm Joe Wiesenthal.",
+      "zh": "我是 Joe Weisenthal。"
+    },
+    {
+      "i": 9,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "01:10",
+      "en": "Well, Joe, we are still at Jackson Hole, where the official theme of this year's symposium is financial innovation in payments. However, the unofficial theme has to be what the heck is going on with bond yields and the Federal Reserve, because this whole meeting is coming against a backdrop of higher yields, particularly at the long end. a new Fed chair who seems to want to make a mark on the Fed and has started all these different task forces to look at things like comms and balance sheets. And then, of course, we also have a Fed that seems to kind of maybe be operating at cross-currents to the U.S. Treasury, given that the Treasury is now buying back longer-dated bonds and seemingly suppressing longer-dated yields.",
+      "zh": "Joe，我们现在还在 Jackson Hole，今年研讨会的官方主题是支付领域的金融创新。但非官方主题一定是——债券收益率和美联储到底怎么回事。因为整个会议的背景是收益率走高，尤其是长端。新任美联储主席似乎想在美联储留下自己的印记，启动了各种工作组来研究沟通和资产负债表等问题。当然，美联储似乎还在与 U.S. Treasury 形成逆向操作，因为财政部正在回购长期债券，看似在压低长期收益率。"
+    },
+    {
+      "i": 10,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "01:52",
+      "en": "There's so many different dimensions to what you described, right? So there is the formal technical thing. There is the sort of relationship between... the Fed and the Treasury. There is the new things going on inside the Fed. There's obviously the warmth in the economy. By the way, the sun just came out. We're recording outside. It's been rainy and cool all day. Now it suddenly got hot again. Maybe that's a sign.",
+      "zh": "你描述的这里面有很多不同的维度，对吧？有正式的技术层面，有美联储和财政部之间的关系，有美联储内部正在发生的新变化，当然还有经济的热度。顺便说一句，太阳刚出来了。我们在户外录制，一整天都在下雨降温，现在突然又热起来了。也许这是一个征兆。"
+    },
+    {
+      "i": 11,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "02:16",
+      "en": "Anyway. That's why it's fun to be in Jackson Hole, though.",
+      "zh": "不管怎样，这就是在 Jackson Hole 的乐趣所在。"
+    },
+    {
+      "i": 12,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "02:19",
+      "en": "There are all kinds of different people we can talk to, including people who sit perfectly at this intersection of all the things that we're talking about.",
+      "zh": "这里有各种各样可以交流的人，包括那些恰好处于我们讨论的所有话题交叉点上的人。"
+    },
+    {
+      "i": 13,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "02:25",
+      "en": "That's exactly what I was going to say. So the guest for today, truly the perfect guest, someone who's able to sort of synthesize the macro and what's going on in the bond market, as well as some of the operations of the actual treasury market. So truly the perfect guest. We're going to be speaking with Daryl Duffy. He is, of course, professor of finance over at Stanford University. So Daryl, thank you so much for coming back on OddLots.",
+      "zh": "这正是我想说的。今天的嘉宾真的是完美人选，他能够将宏观、债券市场动态以及国债市场的实际运作综合起来分析。我们要对话的是 Darrell Duffie，他是 Stanford University 的金融学教授。Darrell，非常感谢你再次来到 Odd Lots。"
+    },
+    {
+      "i": 14,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "02:48",
+      "en": "Tracy, Joe, great to be back. Thank you.",
+      "zh": "Tracy、Joe，很高兴再次来到这里。谢谢。"
+    },
+    {
+      "i": 15,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "02:50",
+      "en": "Is there a connection between higher bond yields and the payment system? Basically, why are you here?",
+      "zh": "更高的债券收益率和支付系统之间有什么联系吗？说白了，你为什么会来这里？"
+    },
+    {
+      "i": 16,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "02:56",
+      "en": "Well, there can be.",
+      "zh": "嗯，可以有联系。"
+    },
+    {
+      "i": 17,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "02:58",
+      "en": "In March of 2020, when the markets became dysfunctional, the Fed had to step in and dig out the balance sheets of the largest dealers to keep the bond market moving. and bond yields jumped and were very volatile.",
+      "zh": "2020 年 3 月，市场失灵的时候，美联储不得不介入，疏通最大的交易商的资产负债表，以维持债券市场运转。当时债券收益率飙升，波动非常大。"
+    },
+    {
+      "i": 18,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "03:10",
+      "en": "The last time we talked was also at Jackson Hole. And we talked about this relationship between just the sheer volume of public debt that's traded these days and the sort of like scarce dealer balance sheet. And this is like, you know, often when people talk about the size of the debt, They talk about maybe like debt to GDP.",
+      "zh": "上次我们聊天也是在 Jackson Hole。当时我们讨论的是如今公共债务交易量与交易商资产负债表稀缺性之间的关系。你知道，人们谈到债务规模时，通常会说债务与 GDP 之比。"
+    },
+    {
+      "i": 19,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "03:28",
+      "en": "Or something like that or whatever.",
+      "zh": "或者类似的什么指标。"
+    },
+    {
+      "i": 20,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "03:29",
+      "en": "This is like what you focus on then and some of your work takes it from a different angle. Yes, talk about the volume, but just sort of the pipes that we have to run it through.",
+      "zh": "这就是你当时关注的重点，你的一些研究从不同角度切入。是的，谈的是总量，但更关注我们必须让这些流量通过的管道。"
+    },
+    {
+      "i": 21,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "03:40",
+      "en": "That's right.",
+      "zh": "没错。"
+    },
+    {
+      "i": 22,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "03:41",
+      "en": "And, you know, after that event in 2020, I said it would happen again. Dealer balance sheets would get clogged again. But even with massive amounts of trading we're seeing today, the dealers have more space yet. Could be capital regulations are not as strong. Could be the dealers have recapitalized, but they're definitely in force.",
+      "zh": "你知道，2020 年那次事件之后，我说过它还会再发生。交易商的资产负债表会再次堵塞。但即使我们看到了今天的巨量交易，交易商仍然有更多空间。可能是资本监管没那么严了，可能是交易商已经补充了资本，但它们确实在发挥作用。"
+    },
+    {
+      "i": 23,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "04:01",
+      "en": "I definitely want to talk more about that, but just on a basic level, when you look at yields on something like the 30-year above 5%, I know they've come in slightly today following the chairman's speech, but when you see a yield at that level, what do you think? What is it telling you?",
+      "zh": "这个我肯定想多聊，但先从基本层面来说，当你看到 30 年期收益率超过 5%——我知道今天主席讲话后稍微回落了一些——但当你看到收益率在那个水平时，你怎么想？它在告诉你什么？"
+    },
+    {
+      "i": 24,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "04:18",
+      "en": "Well, if I'm the Secretary of the Treasury, it's telling me that the United States is spending a heck of a lot on interest expense and I need to do what I can to get those yields down. The question is, what can the Treasury Secretary do? As an economist, I run the following thought experiment. Suppose, Tracy, I were to convince you there's no inflation risk. Inflation, as indicated in today's markets, is pretty stable going forward. The sovereign is not going to default. You are, let's say, a hedge fund, a macro hedge fund. You have $ 20 billion of the 10 years.",
+      "zh": "如果我是财政部长，这告诉我美国在利息支出上花了太多钱，我需要尽力把收益率压下来。问题是，财政部长能做什么？作为经济学家，我做以下思想实验。假设，Tracy，我说服了你没有通胀风险。从今天市场指标来看，未来的通胀相当稳定。主权不会违约。假设你是一家对冲基金，一家宏观对冲基金。你持有 200 亿美元的 10 年期国债。"
+    },
+    {
+      "i": 25,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "04:59",
+      "en": "I wish, but go on.",
+      "zh": "我希望我有，你继续。"
+    },
+    {
+      "i": 26,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "05:00",
+      "en": "And I'm calling from the Treasury Department, and I'm suggesting that you could take another 10. There's space on your own balance sheet to do that. Now, given the conditions that I described for the safe bonds, why wouldn't you? And the reason is you already have what you chose to have at 5.3%. And in order to get you to buy $ 10 billion more, you need a higher yield to compensate you. The foreign central banks, they have had what they need for a long time now.",
+      "zh": "然后我从财政部打电话给你，建议你可以再买 100 亿。你的资产负债表上有空间。那么，在我描述的这些安全债券条件下，你为什么不买呢？原因是你已经在 5.3% 的收益率上持有了你选择的仓位。要让你再多买 100 亿美元，你需要更高的收益率来补偿你。外国央行，他们已经很久都持有了所需的全部数量。"
+    },
+    {
+      "i": 27,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "05:31",
+      "en": "They're not buying more.",
+      "zh": "他们不会再买更多了。"
+    },
+    {
+      "i": 28,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "05:33",
+      "en": "Foreign investors generally are not keeping up with the size of the bond market. So it's the discretionary investors, the mutual funds, hedge funds, banks, insurance companies, pension funds that are yield sensitive and are being asked to take more of a pretty safe asset, but they're not gonna do it unless they get more yield compensation.",
+      "zh": "外国投资者总体上没有跟上债券市场的规模增长。所以是那些自主投资者——共同基金、对冲基金、银行、保险公司、养老基金——他们对收益率敏感，被要求持有更多这种相当安全的资产，但除非获得更高的收益率补偿，否则他们不会这么做。"
+    },
+    {
+      "i": 29,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "05:53",
+      "en": "It's an interesting way to think about it.",
+      "zh": "这是一个很有意思的思考方式。"
+    },
+    {
+      "i": 30,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "05:55",
+      "en": "So in Tracy's proverbial hedge fund, she has the $ 20 billion allocation to treasuries. But no one's paying Tracy just to hold treasuries, right? So she presumably has a lot of other assets, risky assets. Maybe she's been in Nvidia.",
+      "zh": "在 Tracy 那个假想的对冲基金里，她有 200 亿美元的国债配置。但没人付钱给 Tracy 只是让她持有国债，对吧？所以她大概还有很多其他资产，风险资产。也许她投了 Nvidia。"
+    },
+    {
+      "i": 31,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "06:08",
+      "en": "I've got the best assets, Joe, the best.",
+      "zh": "我有最好的资产，Joe，最好的。"
+    },
+    {
+      "i": 32,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "06:10",
+      "en": "Maybe she's been in Korean chip stocks or all the other things. When we think about the pricing, though, to what extent Does it make sense to think about a treasury bond being as in competition for other theoretically investable assets? And when all those are flying to the moon, or many of them like we've seen, does that have a sort of reverberation onto the risk-free asset?",
+      "zh": "也许她投了韩国芯片股或其他什么。但当我们考虑定价时，在多大程度上可以认为国债是在与其他理论上可投资的资产竞争？当那些资产都飞上月球，或者像我们看到的很多都在飙升时，这是否会对无风险资产产生某种回响？"
+    },
+    {
+      "i": 33,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "06:33",
+      "en": "Sure it does. And it's other bonds included in that.",
+      "zh": "当然会。而且这里面也包括其他债券。"
+    },
+    {
+      "i": 34,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "06:35",
+      "en": "The hyperscalers have famously been demanding a lot of investment by bond investors.",
+      "zh": "超大规模云计算公司（hyperscalers）一直在大量吸纳债券投资者的资金，这是众所周知的。"
+    },
+    {
+      "i": 35,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "06:41",
+      "en": "And it's all piling on.",
+      "zh": "而且这一切都在叠加。"
+    },
+    {
+      "i": 36,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "06:43",
+      "en": "But the biggest culprit is our governments generally, not just the U.S., but especially the U.S. And government, you know, deficits and debt to GDP are spectacularly high and there's no end in sight. So this piling on effect, you know, I think it's mainly in the bond market.",
+      "zh": "但最大的罪魁祸首是各国政府，不仅仅是美国，但尤其是美国。政府赤字和债务与 GDP 之比高得惊人，而且看不到尽头。所以这种叠加效应，我认为主要发生在债券市场。"
+    },
+    {
+      "i": 37,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "07:00",
+      "en": "Debt to GDP ratio is no end in sight, et cetera. Certainly, that seems right. People could have said that five or six years ago. Well, they could have said that 2018, 2019. And they said it for years about Japan. and just rates kept going lower. Now they're going higher. But they said they kept going lower. What changed? You could have told this story 10 years ago, and you could have laid out the demographics, and you could have talked about the lack of political appetite to cut spending, et cetera. What changed fundamentally such that we got this reversal?",
+      "zh": "债务与 GDP 之比看不到尽头等等。没错，这听起来是对的。但人们五六年前就可以这么说。2018、2019 年就可以这么说。关于日本，他们说了好多年，利率却一直在走低。现在利率在走高。但之前他们说了同样的话，利率却一直走低。什么变了？你 10 年前就可以讲这个故事，摆出人口结构，谈论政治上缺乏削减支出的意愿等等。到底是什么根本性的变化导致了我们现在看到的逆转？"
+    },
+    {
+      "i": 38,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "07:33",
+      "en": "Okay, so let's go back even further to when the IMF said, 60% debt to GDP is the red line. You should not want to go beyond that. And if you do, it's at your own risk. That number just kept getting higher and higher for all major governments. France now is also at 100% debt to GDP. So what's changed is the sheer volume of government debt relative to GDP.",
+      "zh": "好吧，让我们再往前推，回到 IMF 说 60% 的债务与 GDP 之比是红线的时候。你不应该超过那条线。如果超了，风险自担。但所有主要政府的这个数字都在不断攀升。法国现在也达到了 100% 的债务与 GDP 之比。所以变化的是政府债务相对于 GDP 的绝对规模。"
+    },
+    {
+      "i": 39,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "07:57",
+      "en": "It marches on and on.",
+      "zh": "它不断攀升。"
+    },
+    {
+      "i": 40,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "07:58",
+      "en": "10 years ago, it wasn't anywhere near 100%. And the treasury market was, let's see, if I recall, about $ 18 trillion.",
+      "zh": "10 年前，远没有接近 100%。国债市场大约是——让我想想，如果我没记错——大约 18 万亿美元。"
+    },
+    {
+      "i": 41,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "08:07",
+      "en": "Now it's $ 31 trillion. So it's just volume.",
+      "zh": "现在是 31 万亿美元。所以就是规模问题。"
+    },
+    {
+      "i": 42,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "08:10",
+      "en": "It's not, I mean, as Ken Rogoff remarked at lunch, there's a lot of regression to the mean in terms of long-term yields. And things come and go. But what's been coming is more and more bond debt.",
+      "zh": "我的意思是，正如 Ken Rogoff 在午餐时说的，长期收益率存在大量均值回归。事物来来去去。但一直在增加的是越来越多的债券债务。"
+    },
+    {
+      "i": 43,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "08:24",
+      "en": "Yeah, can you say more about this idea of competition with hyperscalers? Because I see some people seem to take it as a given. Like the hyperscalers are issuing so much debt into the market. particularly longer-term debt, that it obviously has this crowding out effect. But then I see some other people, and they'll be like, oh, no, the buyers of U.S. treasuries are different to the buyers of investment-grade bonds. And there's no way they're in competition with each other. But to me, it feels like the overall theme of the bond market right now is this additional duration that investors have to absorb.",
+      "zh": "是的，你能多说说与 hyperscalers 竞争这个观点吗？因为我看到有些人似乎把这当成既定事实——hyperscalers 在市场上发行了这么多债务，尤其是长期债务，显然会产生这种挤出效应（crowding out effect）。但我又看到另一些人说，哦不，美国国债的买家和投资级债券的买家是不同的，他们之间不可能存在竞争。但对我来说，当前债券市场的总体主题就是投资者不得不吸收的这些额外久期（duration）。"
+    },
+    {
+      "i": 44,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "08:55",
+      "en": "No, that's absolutely right.",
+      "zh": "不，这完全正确。"
+    },
+    {
+      "i": 45,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "08:57",
+      "en": "And I wouldn't describe it as the hyperscalers crowding out the Treasury Department, but rather the other way around.",
+      "zh": "我不会把它描述为 hyperscalers 挤出了财政部，而是恰恰相反。"
+    },
+    {
+      "i": 46,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "09:02",
+      "en": "Oh, interesting.",
+      "zh": "哦，有意思。"
+    },
+    {
+      "i": 47,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "09:03",
+      "en": "Yeah, I mean, $ 32 trillion and and rising at $ 2 trillion a year, there's nothing. I mean, it is true hyperscalers are perhaps going to hit a trillion of debt in the next couple of years. That's small compared to the Treasury Department. So I really think it's the Treasury, and not just the US Treasury, finance ministries and legislatures around the world that are stuffing a lot of bonds into the hands of the same investors Yeah, pension funds, insurance companies, they'll buy all of this and they make trade-offs.",
+      "zh": "是的，我的意思是，32 万亿美元而且每年还在以 2 万亿的速度增长，没什么能比的。确实，hyperscalers 可能在未来几年达到 1 万亿美元的债务规模。但与财政部相比，这很小。所以我真的认为是财政部——不仅仅是美国财政部，而是世界各国的财政部和立法机构——在把大量债券塞给同一批投资者。是的，养老基金、保险公司，他们会买所有这些，但他们会做取舍。"
+    },
+    {
+      "i": 48,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "09:39",
+      "en": "And we see what's happening to yields.",
+      "zh": "而我们看到了收益率正在发生什么。"
+    },
+    {
+      "i": 49,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "09:42",
+      "en": "I just thought of a great idea for a sci-fi story in which essentially these giant government debt loads, collapsed governments, and these AI building companies become the new sovereign.",
+      "zh": "我刚想到一个很好的科幻故事创意——基本上就是这些巨额的政府债务压垮了政府，然后这些 AI 建设公司成为新的主权体。"
+    },
+    {
+      "i": 50,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "09:54",
+      "en": "That's what I've been saying. So that's in Margaret Atwood, one of Margaret Atwood's books. It's the companies basically revolving replace the governments and you live in a corporate compound and everything is provided to you by the tech company.",
+      "zh": "我一直在这么说。这在 Margaret Atwood 的书里有——她的其中一本书。就是公司基本上取代了政府，你住在企业大院里，一切都由科技公司提供。"
+    },
+    {
+      "i": 51,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "10:06",
+      "en": "The Claude yield and the Gemini yield. And those will be earned to risk free. But I want to get back to one more thing. So I get all of this, what you're saying. One word that hasn't come up, though, is inflation. And so when I think like a big difference between seven or eight years ago and now is that there's continued to be high inflation years above target. And it turned out it was even a very aggressive rate hiking cycle didn't get it back to target. Why couldn't it simply be that the reason for higher rates is the series of higher short-term rates as expected because there are a lot of inflationary impulses.",
+      "zh": "Claude 收益率和 Gemini 收益率。那些将被视为无风险收益率。但我想再回到一个点。你说的这些我都理解。但有一个词还没提到，就是通胀（inflation）。当我想到七八年前和现在的一个重大区别，就是通胀持续高于目标好几年了。事实证明，即使是非常激进的加息周期也没能让它回到目标水平。为什么不能简单地认为利率更高的原因就是，因为存在大量通胀冲动，所以预期短期利率会维持在更高水平？"
+    },
+    {
+      "i": 52,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "10:45",
+      "en": "One among them may be spending.",
+      "zh": "其中一个冲动可能就是财政支出。"
+    },
+    {
+      "i": 53,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "10:48",
+      "en": "In the long run, inflation and bond prices go together. It's a fiscal theory of the price level. Read John Cochran's book or maybe you have.",
+      "zh": "从长期来看，通胀和债券价格是联动的。这是财政价格水平理论（fiscal theory of the price level）。可以读读 John Cochrane 的书，也许你已经读过了。"
+    },
+    {
+      "i": 54,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "10:56",
+      "en": "We've never heard John on the podcast. We really should do that.",
+      "zh": "我们从来没有请 John 上过播客。真的应该请他来。"
+    },
+    {
+      "i": 55,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "10:59",
+      "en": "He would be perfect on this question. But today, if you look at forward implied inflation numbers coming from real and nominal bonds, They're not showing alarm bells at all. It's true that we've had significantly more inflation than the Fed would like to see for the last five years. And as Kevin Warsh remarked this morning and others have spoken, the last part is a lot of work remaining to be done by the Fed.",
+      "zh": "他在这个问题上会是完美人选。但今天，如果你看实际债券和名义债券隐含的远期通胀数据，它们根本没有拉响警报。确实，过去五年我们的通胀远超美联储希望看到的水平。正如 Kevin Warsh 今早所说的，其他人也讲过，最后这部分意味着美联储还有大量工作要做。"
+    },
+    {
+      "i": 56,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "11:28",
+      "en": "So, yeah, inflation is a concern.",
+      "zh": "所以，是的，通胀是一个担忧。"
+    },
+    {
+      "i": 57,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "11:30",
+      "en": "But I don't, my view, I don't think that's what bond investors that are thinking about the 10s, 20s and 30 years what's foremost on their mind. I think they're looking at the supply relative to the demand. And again, foreign central banks have had all that they need and they're not buying more. And it's mostly domestic discretionary investors that are being asked to take this additional supply and they just need more compensation.",
+      "zh": "但以我的观点，我不认为这是那些关注 10 年、20 年和 30 年期债券的投资者最在意的事。我认为他们在看供给相对于需求的关系。再说一次，外国央行已经持有了他们需要的一切，不会再买更多。主要是国内的自主投资者被要求吸收这些额外供给，他们只是需要更多补偿。"
+    },
+    {
+      "i": 58,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "12:12",
+      "en": "This is kind of a cliched question, but that deluge of debt issuance, I guess, what does that actually mean for central bankers? Because when you come to a conference like this, it feels like that's the obvious thing in the mix. And you hear little whispers of words like fiscal dominance, but no one actually talks about it in any direct way.",
+      "zh": "这是一个有点老套的问题，但那洪水般的债务发行，对央行官员来说到底意味着什么？因为当你来到这样的会议，感觉这是混在一起的那个显而易见的问题。你能听到有人低声提到“财政主导”（fiscal dominance）这样的词，但没有人真正直接讨论它。"
+    },
+    {
+      "i": 59,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "12:34",
+      "en": "Yeah, I think the Fed is studiously avoiding fiscal dominance. It would not entertain a discussion with the Treasury regarding yield curve control. The last time that happened, it was a very acrimonious end in the 1950s with the Fed-Treasury accord. People think the word accord means they had a good agreement. It actually means they had a really, really rough argument. And the Fed supplied some support to the bond market, kicking and screaming. for a short period of time, and then got out of the business of yield curve control, and it won't want to revisit that. The FOMC will do everything possible not to get into fiscal dominance. So I think that's my reaction.",
+      "zh": "是的，我认为美联储在刻意避免财政主导。它不会与财政部讨论收益率曲线控制（yield curve control）。上一次发生这种情况时，结局非常不愉快——就是 1950 年代的 Fed-Treasury Accord。人们以为“accord”这个词意味着他们达成了一个好协议。实际上意味着他们吵了一架非常非常激烈的架。美联储极不情愿地为债券市场提供了一段时间的支持，然后就退出了收益率曲线控制的业务，它不会想重蹈覆辙。FOMC 会尽一切可能避免陷入财政主导。所以这是我的反应。"
+    },
+    {
+      "i": 60,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "13:20",
+      "en": "So one of the reasons we wanted to speak to you is because you've done work on the impact of Treasury buyback programs in particular, and of course, I guess, was it a week or two ago? I've lost all sense of time. But recently, we had Scott Besson announcing that he was increasing the size of the Treasury's buyback program. He cited liquidity concerns. But as far as I can tell, things looked pretty normal in the Treasury market at that moment in time. What do you think his thinking was?",
+      "zh": "我们想跟你聊的原因之一是你对国债回购计划（Treasury buyback programs）的影响做过研究。当然，我猜是一两周前？我已经完全失去时间概念了。但最近 Scott Bessent 宣布扩大财政部的回购计划规模。他引用了流动性方面的担忧。但据我观察，在那个时间点国债市场看起来相当正常。你觉得他的想法是什么？"
+    },
+    {
+      "i": 61,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "13:52",
+      "en": "Well, from.",
+      "zh": "嗯，从……"
+    },
+    {
+      "i": 62,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "13:53",
+      "en": "From his remarks, he seemed to think that yields were too high, irrespective of liquidity concerns, and that, in his view, market participants should have understood.",
+      "zh": "从他的讲话来看，他似乎认为收益率太高了，与流动性担忧无关，而且在他看来，市场参与者应该理解——"
+    },
+    {
+      "i": 63,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "14:04",
+      "en": "That a lower yield for the U.S. Treasury securities would be appropriate.",
+      "zh": "——美国国债收益率应该更低才合理。"
+    },
+    {
+      "i": 64,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "14:08",
+      "en": "And he said that he was signaling, he used the word signal, signaling to the market his belief that Treasury yields were too high. Now, I think we subsequently can see that while the market reacted quickly to that news, it reversed itself pretty quickly afterwards. Part of that related to the firepower of the Treasury Department relative to the bond market. I'm sure you remember James Carville's famous comments about the power of the bond market.",
+      "zh": "他说他在发出信号——他用了 signal 这个词——向市场传达他认为国债收益率太高的观点。我认为我们随后可以看到，虽然市场对这个消息反应很快，但之后很快就反转了。部分原因是财政部相对于债券市场的火力有限。我相信你们记得 James Carville 关于债券市场力量的那番著名评论。"
+    },
+    {
+      "i": 65,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "14:40",
+      "en": "Anyone who has ever written about the bond market has used this quote as the lead for a column at some point, myself included.",
+      "zh": "任何写过债券市场的人都曾把这个引言用作某篇文章的开头，包括我自己。"
+    },
+    {
+      "i": 66,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "14:46",
+      "en": "Did you see what Trump said?",
+      "zh": "你看到 Trump 说了什么吗？"
+    },
+    {
+      "i": 67,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "14:47",
+      "en": "Oh, yeah, about military intervention in the bond market. So I don't know, maybe James Carville wasn't thinking fully that the bond vigilante had not, James Carville had not considered that the bond vigilantes could be bombed into submission, potentially.",
+      "zh": "哦，是的，关于对债券市场进行军事干预。所以我不知道，也许 James Carville 没有完全想到——他没有考虑到债券义警（bond vigilantes）可能会被轰炸到屈服。"
+    },
+    {
+      "i": 68,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "15:03",
+      "en": "I don't know if he... thought about that one.",
+      "zh": "我不知道他有没有……想到这一点。"
+    },
+    {
+      "i": 69,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "15:05",
+      "en": "Well, even the mighty US Treasury Department is not as powerful as bond markets when it comes to setting yields.",
+      "zh": "嗯，即使是强大的美国财政部，在设定收益率方面也不如债券市场有力量。"
+    },
+    {
+      "i": 70,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "15:11",
+      "en": "Yeah.",
+      "zh": "是的。"
+    },
+    {
+      "i": 71,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "15:12",
+      "en": "We also saw in the yen intervention some signals that perhaps, first, we have a more activist Treasury Department than we've had in the past in terms of willingness to engage in financial market.",
+      "zh": "我们还在日元干预中看到了一些信号，表明也许，首先，我们现在的财政部比过去更愿意参与金融市场——"
+    },
+    {
+      "i": 72,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "15:25",
+      "en": "Trades.",
+      "zh": "——交易。"
+    },
+    {
+      "i": 73,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "15:26",
+      "en": "And secondly, that there might be some concern that if things don't go well in Japan and the Japanese central bank needs to unload treasuries that that would add on to this piling on that we just discussed and cause problems for U.S. Treasury markets and the interest expense of the U.S.",
+      "zh": "其次，可能存在一些担忧，如果日本情况不顺利，日本央行需要抛售国债，那将加剧我们刚才讨论的这种叠加效应，给美国国债市场和美国的利息支出造成问题——"
+    },
+    {
+      "i": 74,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "15:44",
+      "en": "Government.",
+      "zh": "——政府。"
+    },
+    {
+      "i": 75,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "15:45",
+      "en": "So my impression, maybe I'm reading too much between the lines, is that Secretary Besson wanted the market to understand that the Treasury Department wasn't just going to sit there idly and take that.",
+      "zh": "所以我的印象是——也许我过度解读了——Bessent 部长想让市场明白，财政部不会只是坐在那里被动接受。"
+    },
+    {
+      "i": 76,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "15:56",
+      "en": "They wanted to be involved.",
+      "zh": "他们想参与其中。"
+    },
+    {
+      "i": 77,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "15:59",
+      "en": "I feel like classical discussions of interventions... they seem to work better when they are not volume bound but by level bound. And when it seems often the case when they're level bound, you don't even have to spend anything. So you say, OK, 5% is our line in the sand. And in theory, doesn't the Treasury have, it could just issue two-year bills and just take out the 30s. I mean, if Besset very strongly feels that it's like these prices just do not, on some fundamental level, do not make sense, Could he just say, you know what, we're going to issue only two years or five years or whatever. We're going to buy 30 years anytime they get to 4.99%. And if you're a bond vigilante and you're thinking it's going to go, you're shorting debt, you're going to get badly burned.",
+      "zh": "我觉得经典的干预讨论……似乎在不以量为限而以水平为限时效果更好。而且通常当以水平为限时，你甚至不需要花任何钱。你说，好吧，5% 是我们的底线。理论上，财政部不是可以只发行两年期票据然后吃掉 30 年期吗？我是说，如果 Bessent 非常强烈地觉得这些价格在基本面上根本不合理，他能不能直接说，你知道吗，我们只发行两年或五年期的。只要 30 年期收益率达到 4.99%，我们就买。如果你是债券义警，你认为收益率还会继续上行，你在做空债券，你会被严重烧伤。"
+    },
+    {
+      "i": 78,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "16:47",
+      "en": "Well, that would be a formula for increasing the interest rate expense volatility for the US government because your debt maturity is going to be shorter and shorter. And you're going to be rolling over that debt in auctions that will reflect current market conditions and a larger and larger fraction of your interest expense is going to be realized on a day to day basis. So that's US is still in pretty good shape. It has an average debt maturity of about six years. I also have the view that governments are just not powerful enough to control these trends with their own.",
+      "zh": "嗯，这将是一个增加美国政府利率支出波动性的方案，因为你的债务期限会越来越短。你将不得不在反映当前市场条件的拍卖中滚动这些债务，而且越来越大比例的利息支出将在日常基础上实现。所以……美国的情况仍然相当不错。它的平均债务期限约为六年。我还认为，政府凭自己的力量根本不够强大，无法控制这些趋势——"
+    },
+    {
+      "i": 79,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "17:28",
+      "en": "Resources. Let's go back to the.",
+      "zh": "——凭自己的资源。让我们回到——"
+    },
+    {
+      "i": 80,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "17:31",
+      "en": "Attack on the British pound in which Scott Besant had a role in 1992 when he was working with the Soros hedge fund. The British government was simply unable to defend the pound, and it should never have tried. It used up a lot of its firepower that way. And so even, as I said, the U.S. Treasury Department, if markets decide that yields are going to be at 6%, the U.S. Treasury Department is not going to be able to have a strong say in that, not without you know, taking a lot of risk. Yeah.",
+      "zh": "——1992 年对英镑的攻击，当时 Scott Bessent 在 Soros 的对冲基金工作，他在其中扮演了一个角色。英国政府根本无法保卫英镑，而且它本来就不应该尝试。它因此耗尽了大量火力。所以正如我说的，即使是美国财政部，如果市场决定收益率要到 6%，美国财政部也无法对此有太大发言权，除非承担很大的风险。是的。"
+    },
+    {
+      "i": 81,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "18:03",
+      "en": "What does your research actually say about, I guess, the impact and duration of Treasury buybacks? Because this isn't the first time the Treasury is doing this. There's plenty of empirical instances that you can base your research on. What have you found previously?",
+      "zh": "你的研究对于国债回购的影响和持续时间实际说了什么？因为这并不是财政部第一次这么做。有很多实证案例可以作为你研究的基础。你之前发现了什么？"
+    },
+    {
+      "i": 82,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "18:18",
+      "en": "Well, I'm working right now with two economists at the Federal Reserve Bank of New York, Michael Fleming and Or Shachar, and with my PhD student at Stanford, Sam Wicherle. And We are using the buyback data as well as turnover data on dealer balance sheets to understand the benefit of the original purpose of the buyback program, which is to go out and clean up the leftover bits and pieces of old treasury notes and bonds.",
+      "zh": "我现在正与 New York Fed 的两位经济学家 Michael Fleming 和 Or Shachar，以及我在 Stanford 的博士生 Sam Wicherle 合作。我们在利用回购数据和交易商资产负债表上的周转数据，来理解回购计划最初目的的好处——即清理旧国债票据和债券的零散残余。"
+    },
+    {
+      "i": 83,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "18:49",
+      "en": "Odd lots. Odd lots, yeah.",
+      "zh": "Odd lots（零股）。Odd lots，对。"
+    },
+    {
+      "i": 84,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "18:51",
+      "en": "But this was stuff that actually wasn't really trading anymore, right?",
+      "zh": "但这些其实是已经基本不再交易的东西了，对吧？"
+    },
+    {
+      "i": 85,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "18:54",
+      "en": "Yeah, it was clogging up dealer balance sheets and trading at lower prices than would be suggested by a smooth yield curve. And so the idea was, as explained by then Assistant Treasury Secretary Josh Frost, let's be regular and predictable and clean up these bits and pieces, make the treasury market more liquid by replacing those with new liquid treasuries, and implicitly make some money for the U.S. taxpayer by buy low, sell high. And that's a good program. Our research shows, well, it's in progress. You'll see the paper eventually. We'll have you back on.",
+      "zh": "是的，它们在堵塞交易商的资产负债表，而且交易价格低于平滑收益率曲线所暗示的水平。所以这个想法——当时任助理财政部长 Josh Frost 解释的——是让我们定期、可预测地清理这些零散残余，用新的流动性好的国债替换它们，使国债市场更有流动性，并隐含地通过低买高卖为美国纳税人赚一些钱。这是一个好项目。我们的研究表明……嗯，还在进行中。你们最终会看到论文的。我们会再请你上节目。"
+    },
+    {
+      "i": 86,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "19:31",
+      "en": "You and your PhD student can come back.",
+      "zh": "你和你的博士生可以再来。"
+    },
+    {
+      "i": 87,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "19:33",
+      "en": "On for that. It shows that that's effective.",
+      "zh": "来聊这个。研究显示它是有效的。"
+    },
+    {
+      "i": 88,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "19:35",
+      "en": "And by the way, I think it's totally legitimate that a treasury secretary or treasury department would step into the market and use the buyback program for unanticipated needs.",
+      "zh": "顺便说一句，我认为财政部长或财政部为了未预期的需求而介入市场并使用回购计划，是完全合理的。"
+    },
+    {
+      "i": 89,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "19:45",
+      "en": "So, for example, going back to March 2020.",
+      "zh": "比如说，回到 2020 年 3 月。"
+    },
+    {
+      "i": 90,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "19:48",
+      "en": "It's totally legitimate that a finance ministry or a Treasury Department would say, it's our bond market, it's dysfunctional, it benefits us to step into that market and not leave it entirely to the central bank. You may remember the Liz Truss budget.",
+      "zh": "财政部说这是我们的债券市场，它失灵了，我们介入符合我们的利益，不应该完全交给央行，这完全是合理的。你们可能记得 Liz Truss 的预算案。"
+    },
+    {
+      "i": 91,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "20:04",
+      "en": "Vaguely, yes.",
+      "zh": "隐约记得，是的。"
+    },
+    {
+      "i": 92,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "20:05",
+      "en": "At that time, the Bank of England faced this dilemma.",
+      "zh": "当时 Bank of England 面临这个困境。"
+    },
+    {
+      "i": 93,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "20:07",
+      "en": "It was tightening its monetary policy And at the same time, it had to buy gilts. And so it made a very clear distinction and soon afterwards sold those gilts. It's easier if the Treasury Department is involved. In the case of the UK, it indemnified the Bank of England for the losses that it might have incurred. And in the case of the United States, the Treasury Department could use its own buyback program to add firepower. And that could be done on the scale of hundreds of billions, not the mere four to eight billion that the Treasury Department has been speaking about over the last couple of weeks.",
+      "zh": "它正在收紧货币政策，同时却不得不买入金边债券（gilts）。所以它做了非常明确的区分，之后很快就卖出了那些金边债券。如果财政部介入就容易得多。在英国的案例中，财政部为 Bank of England 可能产生的损失提供了补偿。在美国的情况下，财政部可以利用自己的回购计划来增加火力。这可以做到数千亿的规模，而不是财政部过去几周一直在说的那区区四到八十亿。"
+    },
+    {
+      "i": 94,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "20:45",
+      "en": "But from your perspective, in the last few weeks, there's nothing in the sort of classical measures of liquidity that.",
+      "zh": "但从你的角度看，在过去几周，在经典的流动性指标中没有什么——"
+    },
+    {
+      "i": 95,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "20:53",
+      "en": "Were out of whack?",
+      "zh": "——出了问题的？"
+    },
+    {
+      "i": 96,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "20:55",
+      "en": "No, nothing.",
+      "zh": "没有，什么都没有。"
+    },
+    {
+      "i": 97,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "20:56",
+      "en": "Dealer balance sheets seem to be in good shape. Bid offer spreads, market depth are in normal range.",
+      "zh": "交易商的资产负债表看起来状态良好。买卖价差（bid-offer spreads）、市场深度都在正常范围内。"
+    },
+    {
+      "i": 98,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "21:18",
+      "en": "I mean, one way to think about it is it's not that different from QE or Operation Twist as some of these things that the central bank did in the 2010s to sort of change the shape or the slope of the yield curve. But that was in a time of below target inflation and central bank trying to cause things to reaccelerate. But on some level, does this look like efforts that classically would, uh, you might expect to see in an environment where the central bank is trying to goose inflation?",
+      "zh": "我的意思是，一种思考方式是它与 QE 或扭转操作（Operation Twist）没有太大区别——这些都是央行在 2010 年代为改变收益率曲线形状或斜率而做的事情。但那是在通胀低于目标、央行试图让经济重新加速的时期。但在某种层面上，这看起来是否像是你在央行试图刺激通胀的环境中会预期看到的那种操作？"
+    },
+    {
+      "i": 99,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "21:51",
+      "en": "Uh, when you say this, meaning what?",
+      "zh": "呃，你说“这”指的是什么？"
+    },
+    {
+      "i": 100,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "21:53",
+      "en": "The, the sort of, uh, the, um, the expanded buybacks, the attempt to depress the long end that sort of looks operation twisty, but that had, you know, that was in an environment where we were sub 2% of that to the frustration of the central bank.",
+      "zh": "就是那种……呃……扩大的回购，试图压低长端利率，这看起来有点像扭转操作，但当时是在通胀低于 2% 的环境中，令央行沮丧的那种。"
+    },
+    {
+      "i": 101,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "22:07",
+      "en": "Yeah.",
+      "zh": "嗯。"
+    },
+    {
+      "i": 102,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "22:07",
+      "en": "So, uh, well, first of all, I don't think this is stepping on the toes of the fed and, uh, I do think that it feels like a twisty type of operation, but a micro twist. It's not the firepower that, you know, a few billion dollars, other than the signaling, a few billion dollars is just not going to move the needle.",
+      "zh": "呃，首先，我不认为这是在踩美联储的脚趾。我确实觉得它像一种扭转类型的操作，但是一个微型扭转（micro twist）。除了信号意义之外，几十亿美元的火力根本不会改变什么。"
+    },
+    {
+      "i": 103,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "22:25",
+      "en": "Micro twist sounds like one of those terrible Alco pops of like the early 2000s, right? I was thinking maybe it sounds like a dance.",
+      "zh": "Micro twist 听起来像 2000 年代初那种难喝的酒精饮料，对吧？我在想也许它听起来像一种舞蹈。"
+    },
+    {
+      "i": 104,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "22:31",
+      "en": "I would try a micro twist.",
+      "zh": "我会试试 micro twist。"
+    },
+    {
+      "i": 105,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "22:33",
+      "en": "Okay. Well, okay.",
+      "zh": "好的。好吧。"
+    },
+    {
+      "i": 106,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "22:34",
+      "en": "But if the treasury is issuing more short-term debt, which it is, does... Does that solve the long-end yield problem, or does that just end up shifting the issue into money markets?",
+      "zh": "但如果财政部正在发行更多短期债务——确实如此——这能解决长端收益率的问题吗？还是最终只是把问题转移到了货币市场？"
+    },
+    {
+      "i": 107,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "22:47",
+      "en": "Well, it does shift issuance into bills, and that's how buybacks are working with these particular operations. And yeah, so it means, as I mentioned, there's shorter and shorter debt maturity, but no alarm bells yet.",
+      "zh": "嗯，它确实把发行转移到了短期国库券（bills），这就是回购在这些特定操作中的运作方式。是的，所以这意味着债务期限越来越短，但还没有拉响警报。"
+    },
+    {
+      "i": 108,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "23:03",
+      "en": "The U.S.",
+      "zh": "美国——"
+    },
+    {
+      "i": 109,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "23:03",
+      "en": "Is not out of historical norms. It's actually a little bit longer maturity, average maturity than normal. And, you know, I'm not that worried yet. I mean, if they were to continue, and really the real action is in new issuance, not in buybacks, if they were to continue to keep the issuance of long-term securities at current levels, as they have been, and have forecasted that they will, if they were to keep doing that for years, then the piling up of short-term debt would eventually be notable, and it would cause concern.",
+      "zh": "——并没有偏离历史常态。实际上平均期限比正常水平稍长一些。你知道，我还不那么担心。我的意思是，如果他们继续——真正的关键在新发行而不是回购——如果他们继续将长期证券的发行保持在当前水平，就像他们一直在做的和预测会继续做的那样，如果他们多年来一直这么做，那么短期债务的堆积最终会引人注目，会引起担忧。"
+    },
+    {
+      "i": 110,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "23:38",
+      "en": "All right.",
+      "zh": "好的。"
+    },
+    {
+      "i": 111,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "23:38",
+      "en": "So, you know, I talked in the beginning of all these different things that are happening at the moment, but one of them is the new Fed chair and the task forces that he's created, including one that's looking at the Fed balance sheet. Can you maybe put your Kevin Warsh hat on for a second? When he says he wants to shrink the size of the Fed's balance sheet, why is that desirable?",
+      "zh": "你知道，我在开头谈到了目前正在发生的各种事情，其中之一是新的美联储主席和他创建的工作组，包括一个研究美联储资产负债表的工作组。你能不能暂时戴上 Kevin Warsh 的帽子？当他说想缩减美联储资产负债表规模时，为什么这是可取的？"
+    },
+    {
+      "i": 112,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "24:02",
+      "en": "Well, first, I'm not Kevin Warsh, so I'm not going to get inside his head. But judging from his speech around the G30 meeting last year, in which he was most clear on his views here, I think he worries that the Fed looks like it's too active in financial markets, that its footprint is too big, and that it has the image of. Possibly getting into fiscal policy. And so he wants to say completely, my interpretation, he wants to stay clear of having created that impression. And a smaller balance sheet would signal that. I think the more interesting question is, how could you do it? Because it's easy enough to sell bonds on the asset side. but it's not easy to extinguish the liabilities on the other side of the balance sheet.",
+      "zh": "首先，我不是 Kevin Warsh，所以我不会去揣摩他的想法。但从他去年在 G30 会议前后的演讲来判断——那次他最清楚地表达了这里的观点——我认为他担心美联储在金融市场中看起来太活跃，它的影响力太大，给人的印象是——可能介入了财政政策。所以他想要完全——我的解读是——他想要避免给人造成那种印象。更小的资产负债表会传递这个信号。我认为更有趣的问题是，你怎么做到？因为在资产端卖出债券足够容易，但要消除资产负债表另一端的负债就不容易了。"
+    },
+    {
+      "i": 113,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "24:58",
+      "en": "That's right.",
+      "zh": "没错。"
+    },
+    {
+      "i": 114,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "24:58",
+      "en": "When we think about the Fed balance sheet, everyone always thinks about assets because we've gone through years and years and years of QE and no one ever thinks about liabilities. But how do you, those two things have to be in balance. You can't shrink the asset side without shrinking the liability side.",
+      "zh": "当我们想到美联储的资产负债表时，大家总是想到资产端，因为我们经历了多年的 QE，没人想过负债端。但你怎么做呢——两边必须平衡。你不可能在不缩减负债端的情况下缩减资产端。"
+    },
+    {
+      "i": 115,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "25:11",
+      "en": "You reached that conclusion, Tracy, faster than almost anyone that I talked to.",
+      "zh": "Tracy，你得出这个结论的速度比我交谈过的几乎所有人都快。"
+    },
+    {
+      "i": 116,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "25:14",
+      "en": "Oh dear.",
+      "zh": "天哪。"
+    },
+    {
+      "i": 117,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "25:15",
+      "en": "Okay.",
+      "zh": "好。"
+    },
+    {
+      "i": 118,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "25:15",
+      "en": "So if you just do adding up, you know, if you want to reduce the assets, you have to reduce the liabilities one for one. Let's take them in turn. You've got the Treasury General Account. I don't think the Fed's going to call the Treasury and say, would you take some money out of your account at the Fed? Then you've got paper money. I don't think the Fed is going to put out advertisements saying, please Americans and everybody else out there in the world that has paper money, would you mind turning it in so that we can reduce that liability? So the only significant possible reduction is in reserves, meaning the deposits that commercial banks have at the Fed. And there is scope for doing that, but not with the current tools that the Fed has.",
+      "zh": "如果你只是加起来看，你知道，如果你想减少资产，就必须一对一地减少负债。让我们逐一来看。首先是财政部一般账户（Treasury General Account）。我不认为美联储会打电话给财政部说，你能从你在美联储的账户里取些钱出来吗？然后是纸币。我不认为美联储会打广告说，请美国的以及世界上所有持有美元纸币的人，你们能不能把纸币交回来，好让我们减少这项负债？所以唯一可能有实质性减少的是准备金（reserves），即商业银行在美联储的存款。确实有空间这样做，但不是用美联储目前的工具。"
+    },
+    {
+      "i": 119,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "25:58",
+      "en": "Would there be a regulatory change that would be necessary? Because we went years and years, right, with basically no balance sheet, and then... you know, then 2008 hit and suddenly there's all these reserves. Why can't we go back to, what would it, what would be the challenge of.",
+      "zh": "需要监管变革吗？因为我们有好多好多年基本上没有资产负债表，然后……你知道，2008 年来了，突然就有了所有这些准备金。为什么我们不能回到——回到那样做的挑战是什么？"
+    },
+    {
+      "i": 120,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "26:12",
+      "en": "Going back to 2000?",
+      "zh": "回到 2000 年那样？"
+    },
+    {
+      "i": 121,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "26:14",
+      "en": "Yeah, right, right.",
+      "zh": "对，对。"
+    },
+    {
+      "i": 122,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "26:15",
+      "en": "So what would be, what would it take if we, if for some reason we thought this is very important, we want to get back to the real good old days of Fed balance sheet side, what would it actually take from a regulation perspective to get to just a 2005 looking banking system?",
+      "zh": "那么如果我们出于某种原因认为这非常重要，想回到美联储资产负债表的美好旧时光，从监管角度来看，要回到一个看起来像 2005 年的银行体系，到底需要什么？"
+    },
+    {
+      "i": 123,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "26:31",
+      "en": "It's not going to happen, Joe, because back in 2005, liquidity regulations were, were much different, and the Fed didn't pay interest on reserves. So the banks were not in the least interested in holding reserves, because why would you hold reserves getting zero interest when you could invest the money in money markets and under a full market rate? Today, in order to control inflation, the Fed is forced to pay an interest rate to banks that's roughly the market rate. And so if you ask a bank, why don't you give up some of those reserves? They might say, well, why? so useful for meeting liquidity regulations. They pay a full market interest rate. They're perfect for payment services. What's not to like? It's the Swiss army knife of finance. We're not going to give those up easily. And right here in Jackson Hole in 2017, Veral Acharya and Raghu Rajan presented a paper describing a ratchet effect by which every time the Fed increases its balance sheet and adds reserves, the banks get addicted to having more of that extremely useful asset, reserves, and they're reluctant to give it up. And if you try to make them, markets get volatile and the Fed has to back off.",
+      "zh": "Joe，这不会发生的，因为回到 2005 年，流动性监管完全不同，美联储不为准备金支付利息。所以银行对持有准备金毫无兴趣，因为当你可以把钱投入货币市场获得完全市场利率时，为什么要持有零利息的准备金？今天，为了控制通胀，美联储被迫向银行支付大约等于市场利率的利息。所以如果你问一家银行，为什么不放弃一些准备金？他们可能会说，为什么？准备金对满足流动性监管太有用了。它们支付完全的市场利率。它们是支付服务的完美工具。有什么不喜欢的？这是金融界的瑞士军刀。我们不会轻易放弃。就在 2017 年的 Jackson Hole，Viral Acharya 和 Raghu Rajan 发表了一篇论文描述了一种棘轮效应（ratchet effect）——每次美联储扩大资产负债表、增加准备金，银行就会上瘾于持有更多这种极其有用的资产，它们不愿意放弃。如果你试图强迫它们放弃，市场就会波动，美联储就不得不退让。"
+    },
+    {
+      "i": 124,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "27:45",
+      "en": "So a lot has changed.",
+      "zh": "所以变化很大。"
+    },
+    {
+      "i": 125,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "27:47",
+      "en": "What would be your recommendation if you were on this task force? I think it's Stein who's heading it. But, you know, if Warsh says, I want to shrink the size of the balance sheet and we have this reserves problem, what would you do?",
+      "zh": "如果你在这个工作组，你的建议是什么？我想是 Stein 在领导它。但你知道，如果 Warsh 说我想缩减资产负债表规模，而我们有这个准备金问题，你会怎么做？"
+    },
+    {
+      "i": 126,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "27:57",
+      "en": "It's Jeremy Stein, Raghu Rajan, the same economist that spoke here about the ratchet effect, and Karen Dinan, all very noted, very credible, extremely wise and articulate economists. What they're going to do, what they're going to recommend, I don't know. But I think that they're going to take a very wide lens look at this. They're not going to look only at size. They're going to look at the composition of the assets. I predict that they will, and this is with no information from them, I predict that they will recommend reducing the quantity of long-term treasury securities that the Fed holds and replacing those with Treasury bills in order to reduce the volatility of the Fed's interest expense. So, for example, if you back the reserves one-to-one with Treasury bills, then every time the Fed has to pay more interest to the banks to control inflation, it's getting more interest on their Treasury bills one-for-one. Paper money, they could continue to hold long-term securities. And I don't think the Fed feels good about having mortgage-backed securities. I think they're just going to let those roll off. So I think that could be in one area that they will get into, is the composition of the assets. And on the liability side, it's hard to predict. In my own view, the Fed doesn't need to reduce the size of its balance sheet, but it should have the tools that would allow it to do that. Because if my hunch that this has politics around it is correct, The Fed never wants to be put into a corner by Congress over the size of its balance sheet without the tools that would allow the Fed to say, no, we're not going to increase our balance sheet as you would like us to do and buy the assets that you would like us to buy. But rather, we can control our own balance sheet by reducing it if we need to. And those tools exist in theory, but they haven't been developed in practice by the Fed yet. They have been for other central banks.",
+      "zh": "工作组是 Jeremy Stein、Raghu Rajan——就是在这里讲棘轮效应的那位经济学家——和 Karen Dynan，都是非常著名、非常有公信力、极其睿智且善于表达的经济学家。他们会做什么、会建议什么，我不知道。但我认为他们会用非常宽广的视角来看这个问题。他们不会只看规模，还会看资产的组成。我预测——这完全没有他们内部的任何信息——我预测他们会建议减少美联储持有的长期国债数量，用国库券（Treasury bills）替代，以降低美联储利息支出的波动性。比如说，如果你用国库券一对一地支撑准备金，那么每次美联储为了控制通胀必须向银行支付更多利息时，它同时也在国库券上一对一地获得更多利息。对于纸币部分，他们可以继续持有长期证券。而且我不认为美联储对持有抵押贷款支持证券（mortgage-backed securities）感觉良好。我想他们会让那些自然到期。所以我认为这可能是他们会涉及的一个领域——资产的组成。在负债端，很难预测。以我个人的观点，美联储不需要缩减资产负债表规模，但它应该拥有能够做到这一点的工具。因为如果我的直觉——这背后有政治因素——是正确的，美联储永远不想被逼到角落，在缺乏工具的情况下被国会就资产负债表规模施压。它需要工具来说：不，我们不会按你们希望的那样扩大资产负债表去购买你们想让我们买的资产。相反，如果需要，我们可以通过缩减来掌控自己的资产负债表。这些工具在理论上存在，但美联储在实践中还没有开发出来。其他央行已经有了。"
+    },
+    {
+      "i": 127,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "30:02",
+      "en": "I have one more question, and it's not really a question. It's more of a favor, really. But can you convince Joe that the term premium is a useful concept? He doesn't believe in it. I think you believe it exists, but you don't believe that it's useful in any way.",
+      "zh": "我还有一个问题，其实不算是问题，更像是一个请求。你能说服 Joe 期限溢价（term premium）是一个有用的概念吗？他不相信它。我觉得你相信它存在，但不认为它在任何方面有用。"
+    },
+    {
+      "i": 128,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "30:17",
+      "en": "Let's let our guest talk.",
+      "zh": "让我们的嘉宾说吧。"
+    },
+    {
+      "i": 129,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "30:21",
+      "en": "You're not going to defend yourself, Joe?",
+      "zh": "你不打算为自己辩护吗，Joe？"
+    },
+    {
+      "i": 130,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "30:23",
+      "en": "I'm a simple man. I look at a 30-year yield.",
+      "zh": "我是一个简单的人。我看 30 年期收益率。"
+    },
+    {
+      "i": 131,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "30:26",
+      "en": "I think it looks like a 30 years worth of overnight rates. You just add them up. And I just, you know, that's how, that's how, what I assume. And then everyone's like, no, but the term premium. And then they say, and then I say, okay, but what is it? They're like, well, we can't really measure it. And then all the models that we have to measure don't work, but trust us. This is why it's useful. And then they say, and then they say, oh, well, they need, treasury investors need compensation for risk to which I say, just treasury investors, as if there's something special about it.",
+      "zh": "我觉得它看起来就是 30 年的隔夜利率加在一起。就这么简单。你知道，这就是我的假设。然后所有人都说，不对，还有期限溢价。然后我说，好吧，但它到底是什么？他们说，嗯，我们其实测不准。然后所有用来测量的模型都不管用，但相信我们，这就是它有用的原因。然后他们又说，哦，国债投资者需要风险补偿。我就说，只有国债投资者吗？好像有什么特别的一样。"
+    },
+    {
+      "i": 132,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "30:53",
+      "en": "I really struggle with it.",
+      "zh": "我真的很难接受这个概念。"
+    },
+    {
+      "i": 133,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "30:55",
+      "en": "So this is why we need a Stanford economist to straighten me out.",
+      "zh": "所以这就是为什么我们需要一位 Stanford 经济学家来纠正我。"
+    },
+    {
+      "i": 134,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "30:58",
+      "en": "Yeah, it's an easily measured concept.",
+      "zh": "是的，这是一个容易衡量的概念。"
+    },
+    {
+      "i": 135,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "31:02",
+      "en": "And so it tells everyone the value of short-term versus long-term money and interest rates. But then decomposing it is the hard part. So you mentioned there's the path of expected short-term interest rates that's built in. That in and of itself reflects inflation. And then on top of that, there's a risk premium. And how to decompose that, you know, economists like John Cochran, who we mentioned earlier, with Monica Piazzesi, have done some of the best work on that decomposition. And it changes over time depending on one of the things that we just discussed earlier, which is the.",
+      "zh": "所以它告诉所有人短期与长期资金和利率之间的价值差异。但分解它是困难的部分。你提到了其中内置的预期短期利率路径，这本身就反映了通胀。然后在此之上，还有一个风险溢价。如何分解它——你知道，像我们之前提到的 John Cochrane 和 Monica Piazzesi 这样的经济学家，在这个分解上做了最好的工作。而且它随时间变化，取决于我们刚才讨论的事情之一，就是——"
+    },
+    {
+      "i": 136,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "31:35",
+      "en": "Volume of treasury issuance.",
+      "zh": "——国债发行的规模。"
+    },
+    {
+      "i": 137,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "31:37",
+      "en": "That elevates the entire curve and it elevates it more in the future if you don't think that the fiscal deficits are going to go down.",
+      "zh": "这会抬升整条曲线，而且如果你不认为财政赤字会下降，未来会抬升得更多。"
+    },
+    {
+      "i": 138,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "31:48",
+      "en": "All right, Joe's going home from his podcast with homework.",
+      "zh": "好了，Joe 要带着作业从他的播客回家了。"
+    },
+    {
+      "i": 139,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "31:50",
+      "en": "I'm going to do some reading, yeah.",
+      "zh": "我要去读点东西了，是的。"
+    },
+    {
+      "i": 140,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "31:52",
+      "en": "Assigned reading. All right, Daryl Duffy from Stanford, thank you so much for coming back on All Thoughts. Really appreciate it.",
+      "zh": "指定阅读。好的，来自 Stanford 的 Darrell Duffie，非常感谢你再次来到 Odd Lots。真的很感激。"
+    },
+    {
+      "i": 141,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "31:57",
+      "en": "Tracy, Joe, it's always a pleasure. Ask me back.",
+      "zh": "Tracy、Joe，一直很愉快。再邀请我。"
+    },
+    {
+      "i": 142,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "32:00",
+      "en": "We'll definitely do it again. Thank you so much.",
+      "zh": "我们一定会再请你来。非常感谢。"
+    },
+    {
+      "i": 143,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "32:14",
+      "en": "So, Joe, that was great. I know we've been meaning to talk about the Treasury buyback, so I'm glad we could get into that. I was thinking, you know, he mentioned the Treasury general account at the Fed, which is like the Treasury's checking account. And you always hear this stat that it covers five days of government expenses or something like that. And I always think about the headlines saying, oh, ordinary Americans, you know, half of ordinary Americans only have enough money to cover three months expenses. And then I'm like, what about the Fed?",
+      "zh": "Joe，那段对话太棒了。我知道我们一直想聊国债回购，所以很高兴能深入讨论。我在想，他提到了财政部在美联储的一般账户，这就像财政部的支票账户。你总是听到这个统计数据说它只能覆盖五天的政府开支之类的。而我总是想到那些新闻标题说，哦，普通美国人，你知道，一半的普通美国人只有足够的钱覆盖三个月的开支。然后我就想，美联储呢？"
+    },
+    {
+      "i": 144,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "32:42",
+      "en": "What about the Treasury?",
+      "zh": "财政部呢？"
+    },
+    {
+      "i": 145,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "32:43",
+      "en": "I'm being somewhat facetious.",
+      "zh": "我有点在开玩笑。"
+    },
+    {
+      "i": 146,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "32:44",
+      "en": "Sorry.",
+      "zh": "抱歉。"
+    },
+    {
+      "i": 147,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "32:44",
+      "en": "What about the Treasury? But like, it is kind of crazy. Five days.",
+      "zh": "财政部呢？但说真的，这确实有点疯狂。五天。"
+    },
+    {
+      "i": 148,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "32:48",
+      "en": "Yeah, I guess it is kind of crazy. But, you know. They can always just issue more debt.",
+      "zh": "是的，我猜确实有点疯狂。但你知道，他们总是可以发行更多债务。"
+    },
+    {
+      "i": 149,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "32:52",
+      "en": "What if Trump actually bombs the bond market? What happens to the Treasury's account?",
+      "zh": "如果 Trump 真的轰炸债券市场怎么办？财政部的账户会怎样？"
+    },
+    {
+      "i": 150,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "32:57",
+      "en": "It is weird that we actually haven't talked about that quote very much, but.",
+      "zh": "奇怪的是我们其实没怎么讨论过那个说法，但……"
+    },
+    {
+      "i": 151,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "33:00",
+      "en": "Such is life.",
+      "zh": "生活就是这样。"
+    },
+    {
+      "i": 152,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "33:01",
+      "en": "We'll find the perfect guest to talk about it.",
+      "zh": "我们会找到完美的嘉宾来讨论这个。"
+    },
+    {
+      "i": 153,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "33:03",
+      "en": "Such is life in 2026. I thought that was really good.",
+      "zh": "2026 年的生活就是这样。我觉得那段对话真的很好。"
+    },
+    {
+      "i": 154,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "33:05",
+      "en": "I actually did not fully understand previously why buybacks exist in the normal term. Okay, setting aside why there's the deviation from the typical schedule, why they exist in the first place, and this idea that what is the point of having these sort of off the run, some 27 year bond that's sitting out there that no one wants, whatever, that it just sort of makes sense to have a regular sweep of that.",
+      "zh": "其实我以前并不完全理解为什么正常情况下回购会存在。好吧，先不说为什么会偏离通常的计划，为什么回购一开始就存在，以及这个想法——那些非当期券（off-the-run）、某些 27 年期的债券坐在那里没人要，反正定期清理这些东西就是合理的。"
+    },
+    {
+      "i": 155,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "33:33",
+      "en": "You know what they call it in crypto world? It's dust.",
+      "zh": "你知道在加密货币世界里怎么叫它吗？叫“灰尘”（dust）。"
+    },
+    {
+      "i": 156,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "33:36",
+      "en": "So for example, like- Like abandoned assets, kind of.",
+      "zh": "比如说，就像——有点像被遗弃的资产。"
+    },
+    {
+      "i": 157,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "33:39",
+      "en": "It's kind of like if there'll be little flecks of like 0.0002 Bitcoin on like.",
+      "zh": "就像是有那么一小点 0.0002 比特币在——"
+    },
+    {
+      "i": 158,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "33:46",
+      "en": "Some wall or something.",
+      "zh": "——某个钱包之类的。"
+    },
+    {
+      "i": 159,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "33:48",
+      "en": "But because there's a transaction fee with all of them, you can accumulate this dust and it's not economical to move it off of them that creates all kinds of issues and stuff.",
+      "zh": "但因为每一笔都有交易费用，这些“灰尘”会积累，把它们移走不划算，这就产生了各种问题。"
+    },
+    {
+      "i": 160,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "33:58",
+      "en": "It's sort of similar.",
+      "zh": "有点类似。"
+    },
+    {
+      "i": 161,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "33:59",
+      "en": "I remember, weren't there some startups at one point who were trying to like collect all the dust and roll it up into something substantial? The other thing I was thinking just about the buyback program now is, I mean, You almost have an issue with the reaction function of the Treasury now. It's citing market liquidity in order to increase the size of the buybacks. But the Treasury market seems to be operating pretty normally. And then everyone starts focusing on the yield, as Daryl was saying. It seems like Besant just doesn't think the yield is at the right level. Well, then suddenly you have this target that investors are maybe going to be watching for signs that the Treasury is going to come back in.",
+      "zh": "我记得，曾经有一些初创公司试图收集所有的“灰尘”然后把它们汇集成有价值的东西，对吧？关于现在的回购计划，我还在想另一件事——我是说，你现在几乎面临一个财政部反应函数（reaction function）的问题。它引用市场流动性来增加回购规模，但国债市场似乎运行得相当正常。然后每个人都开始关注收益率，就像 Darrell 说的，Bessent 似乎就是觉得收益率不在合理水平。那么突然间，你就有了一个目标，投资者可能会盯着看财政部会不会再次介入的信号。"
+    },
+    {
+      "i": 162,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "34:43",
+      "en": "I think Besson really just misses being a hedge funder. It's like he's like, no, this is like it's the yield is too high.",
+      "zh": "我觉得 Bessent 真的只是想念做对冲基金的日子。就像他在说，不，这个收益率太高了。"
+    },
+    {
+      "i": 163,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "34:49",
+      "en": "It's like an opportunity to buy.",
+      "zh": "就像是一个买入机会。"
+    },
+    {
+      "i": 164,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "34:51",
+      "en": "Right.",
+      "zh": "对。"
+    },
+    {
+      "i": 165,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "34:51",
+      "en": "And you're like intervening in the end and stuff. I think this is like. He's in his comfort ground when he's making moves like this.",
+      "zh": "然后你就在干预之类的。我觉得这就是……他在做这种操作时处于舒适区。"
+    },
+    {
+      "i": 166,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "34:58",
+      "en": "Well, I will say, as of the moment we're recording, he's probably above water on his treasury purchases, right?",
+      "zh": "嗯，我得说，截至我们录制的这一刻，他的国债购买可能已经浮盈了，对吧？"
+    },
+    {
+      "i": 167,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "35:04",
+      "en": "So I thought so, too.",
+      "zh": "我也这么想。"
+    },
+    {
+      "i": 168,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "35:05",
+      "en": "Yeah.",
+      "zh": "是的。"
+    },
+    {
+      "i": 169,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "35:05",
+      "en": "Except, so this is what I thought. I was like, oh, this is a good trade. Evidently, the purchase, this is what two people on Twitter told me this, because I thought that, too. That must be true, Jeff. The purchases start September 9th. So there was the announcement that came.",
+      "zh": "不过，这是我当时的想法。我想，哦，这是笔好交易。显然，购买——这是 Twitter 上两个人告诉我的，因为我也这么想。那肯定是对的，Jeff。购买从 9 月 9 日开始。所以公告已经出来了——"
+    },
+    {
+      "i": 170,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "35:19",
+      "en": "I see.",
+      "zh": "我明白了。"
+    },
+    {
+      "i": 171,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "35:19",
+      "en": "So had he, anyway. But I had that same thought. Oh, it's looking like a pretty good trade now.",
+      "zh": "——所以不管怎样。但我有同样的想法。哦，现在看起来像是一笔不错的交易。"
+    },
+    {
+      "i": 172,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "35:24",
+      "en": "All right, stay tuned for the Odd Lots episode tracking Besson's trade. But shall we leave it there for now?",
+      "zh": "好了，请继续关注 Odd Lots 追踪 Bessent 交易的那期节目。我们先到此为止吧？"
+    },
+    {
+      "i": 173,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "35:29",
+      "en": "Let's leave it there.",
+      "zh": "就到这里吧。"
+    },
+    {
+      "i": 174,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "35:29",
+      "en": "Okay, this has been another episode of the Odd Lots podcast. I'm Tracy Allaway. You can follow me at Tracy Allaway.",
+      "zh": "好的，这是又一期 Odd Lots 播客。我是 Tracy Alloway。你可以关注我 @TracyAlloway。"
+    },
+    {
+      "i": 175,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "35:35",
+      "en": "And I'm Joe Weisenthal. You can follow me at The Stalwart.",
+      "zh": "我是 Joe Weisenthal。你可以关注我 @TheStalwart。"
+    },
+    {
+      "i": 176,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "35:38",
+      "en": "Follow our producers, Carmen Rodriguez at Carmen Ehrman, Dashiell Bennett at Dashbot, Cale Brooks at Cale Brooks, and Kevin Lozano at Kevin Lloyd Lozano.",
+      "zh": "关注我们的制作人：Carmen Rodriguez @CarmenEhrman，Dashiell Bennett @Dashbot，Cale Brooks @CaleBrooks，Kevin Lozano @KevinLloydLozano。"
+    },
+    {
+      "i": 177,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "35:46",
+      "en": "And for more Odd Lots content, you should check out our daily newsletter. You can find that at Bloomberg.com forward slash Odd Lots.",
+      "zh": "想看更多 Odd Lots 内容，请查看我们的每日通讯。可以在 Bloomberg.com/oddlots 找到。"
+    },
+    {
+      "i": 178,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "35:52",
+      "en": "And you can chat about all of these things 24-7 in our Discord, discord.gg.",
+      "zh": "你可以在我们的 Discord 上 24/7 讨论所有这些话题，discord.gg。"
+    },
+    {
+      "i": 179,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "35:58",
+      "en": "And if you enjoyed this conversation, then please leave a comment or like the video, or better yet, subscribe.",
+      "zh": "如果你喜欢这期对话，请留言或点赞视频，更好的是订阅。"
+    },
+    {
+      "i": 180,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "36:04",
+      "en": "Thanks for watching and listening.",
+      "zh": "感谢观看和收听。"
+    },
+    {
+      "i": 181,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "36:21",
+      "en": "Thank you.",
+      "zh": "谢谢。"
+    }
+  ]
+}

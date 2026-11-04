@@ -1,0 +1,1169 @@
+{
+  "show": "odd-lots",
+  "kind": "transcript",
+  "id": "odd-lots-411b902316",
+  "guid": "1664f593-6ca2-4a3e-bbe6-b4c201317baa",
+  "slug": "2026-09-14-openai-president-greg-brockman-on-doing-411b902316",
+  "date": "2026-09-14",
+  "title_en": "OpenAI President Greg Brockman on Doing Business in the Wake of Hugging Face",
+  "title_zh": "OpenAI 总裁 Greg Brockman 谈 Hugging Face 事件之后的经营之道",
+  "subtitle_zh": "Greg Brockman 复盘 Hugging Face 事件，谈 AI 安全、对齐、算力分配与监管协调。",
+  "description": "OpenAI President Greg Brockman on Doing Business in the Wake of Hugging Face",
+  "duration": "62:51",
+  "duration_seconds": 3771,
+  "episode_url": "https://omny.fm/shows/odd-lots/openai-president-greg-brockman-on-doing-business-in-the-wake-of-hugging-face",
+  "audio_url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/8a94442e-5a74-4fa2-8b8d-ae27003a8d6b/1664f593-6ca2-4a3e-bbe6-b4c201317baa/audio.mp3?utm_source=Podcast&in_playlist=982f5071-765c-403d-969d-ae27003a8d83",
+  "speakers": {
+    "1": "Joe Weisenthal（主持）",
+    "2": "Tracy Alloway（主持）",
+    "3": "Greg Brockman（嘉宾）",
+    "4": "片花/广告（旁白）"
+  },
+  "turn_count": 143,
+  "turns": [
+    {
+      "i": 0,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "00:04",
+      "en": "Hello, Odd Lodge listeners. I'm Joe Wiesenthal.",
+      "zh": "Odd Lots 的听众们，大家好，我是 Joe Weisenthal。"
+    },
+    {
+      "i": 1,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "00:07",
+      "en": "And I'm Tracy Alloway.",
+      "zh": "我是 Tracy Alloway。"
+    },
+    {
+      "i": 2,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "00:08",
+      "en": "We're the hosts of the Odd Lodge podcast, and we've got something exciting for you.",
+      "zh": "我们是 Odd Lots 播客的主持人，今天有个令人兴奋的消息要告诉大家。"
+    },
+    {
+      "i": 3,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "00:12",
+      "en": "That's right. So one of the best parts of hosting our podcast is we get to actually meet and interact with our listeners. And we know we have some listeners over in Los Angeles.",
+      "zh": "没错。做这档播客最棒的一点，就是我们真的能跟听众见面、互动。我们知道在 Los Angeles 那边也有一批听众。"
+    },
+    {
+      "i": 4,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "00:21",
+      "en": "That's right.",
+      "zh": "没错。"
+    },
+    {
+      "i": 5,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "00:22",
+      "en": "So if you're in L.A., we're going to be recording a live show, some live recordings at the Vermont Theater in Hollywood on September 17th.",
+      "zh": "所以如果你在 L.A.，我们将在 9 月 17 日于 Hollywood 的 Vermont Theater 录制一场现场节目，做一些现场录制。"
+    },
+    {
+      "i": 6,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "00:30",
+      "en": "We have some really exciting guests lined up, have some really great conversations planned. So go ahead and get your tickets. You can find those over at Bloomberg.com forward slash oddlots or click the link below in the show notes and come and say hi when you're there.",
+      "zh": "我们请到了几位非常令人期待的嘉宾，也策划了几场很棒的对话。所以赶紧去购票吧，可以在 Bloomberg.com/oddlots 找到，或者点击节目备注里的链接，到时候来现场跟我们打个招呼。"
+    },
+    {
+      "i": 7,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "00:49",
+      "en": "Bloomberg Audio Studios, podcasts, radio, news. Hello and welcome to another episode of the Odd Laws podcast. I'm Joe Wiesenthal.",
+      "zh": "Bloomberg Audio Studios，播客、广播、新闻。大家好，欢迎收听新一期的 Odd Lots 播客，我是 Joe Weisenthal。"
+    },
+    {
+      "i": 8,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "01:10",
+      "en": "And I'm Tracy Alloway.",
+      "zh": "我是 Tracy Alloway。"
+    },
+    {
+      "i": 9,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "01:12",
+      "en": "Tracy, I don't know if I've ever said it on the podcast. We've talked a bit about my vibe coding adventures, etc.",
+      "zh": "Tracy，我不知道自己有没有在节目里说过这个。我们聊过一些我 vibe coding（氛围编程）的冒险经历之类的。"
+    },
+    {
+      "i": 10,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "01:19",
+      "en": "No, you've never said it before, Joe.",
+      "zh": "没有，你以前从没说过，Joe。"
+    },
+    {
+      "i": 11,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "01:21",
+      "en": "No, no, that I've said. You know, I recently switched from Claude Code to Codex.",
+      "zh": "不不，那个我说过。你知道的，我最近从 Claude Code 换到了 Codex。"
+    },
+    {
+      "i": 12,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "01:25",
+      "en": "This is big news.",
+      "zh": "这可是大新闻。"
+    },
+    {
+      "i": 13,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "01:27",
+      "en": "It is kind of big news, I think. Also bold of.",
+      "zh": "我觉得这确实算大新闻。而且也挺大胆的——"
+    },
+    {
+      "i": 14,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "01:30",
+      "en": "You to declare your allegiance to the public on the podcast.",
+      "zh": "你居然在节目里公开宣布你的站队。"
+    },
+    {
+      "i": 15,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "01:34",
+      "en": "Well, you know, I don't have allegiance. And you know what? It could switch again the way like, you know, I guess one of the sub stories of AI is like how easy it is to switch from time to time from one model to another. So maybe it's revealing and talks about some of the challenges of these businesses that it was so easy. I found that Claude speak, you know, that I found it like a little bit hard to work with. I'm not capable enough to like understand like advanced engineering practices or like, oh, I'm migrating a code base from, or like, you know, translating this into Rust or whatever. So the fact, I don't know, I find like OpenAI to be like the pros to be clear and therefore to work with as like a completely non-technical person such as myself.",
+      "zh": "嗯，你知道，我并没有真的站队。而且说实话，我可能还会再换。我觉得 AI 的一条支线故事就是：从一个模型换到另一个模型有多容易。所以也许这一点很能说明问题，也折射出这些生意面临的一些挑战——换起来太容易了。我发现 Claude，你知道，我用起来有点费劲。我的能力不足以理解那些高级的工程实践，比如什么'我要把代码库从某处迁移过来'，或者'把这个翻译成 Rust'之类的。所以，我也说不清，我发现 OpenAI 的产品更清晰，因此对我这种完全不懂技术的人来说更好上手。"
+    },
+    {
+      "i": 16,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "02:17",
+      "en": "That's really interesting. I mean, one thing you said, it's hard to keep up with the models, right? And whatever you're using today might not be the one that you're using in a week from now.",
+      "zh": "这真的很有意思。我是说，你提到的一点——很难跟上这些模型的节奏，对吧？你今天用的这个，可能一周后就不用了。"
+    },
+    {
+      "i": 17,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "02:27",
+      "en": "Yeah.",
+      "zh": "对。"
+    },
+    {
+      "i": 18,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "02:28",
+      "en": "And, At the same time, everyone is talking about how fast the development is going and all the risks that it poses, right?",
+      "zh": "而且与此同时，所有人都在讨论开发进展有多快，以及它带来的种种风险，对吧？"
+    },
+    {
+      "i": 19,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "02:35",
+      "en": "Yes.",
+      "zh": "是的。"
+    },
+    {
+      "i": 20,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "02:36",
+      "en": "And we are recording this September 10th. It felt like something broke through in the last couple of days where suddenly everyone is very keyed on risks. The one thing with Codex, and I guess it's called code, is now every once in a while it'll get this pop-up and it'll say... the agent needs to connect to the internet in order to do this task. And I have to give it a permission. And normally I'm just like, click, click, click, click. Yes, yes, yes, yes, yes. And I still do that. I still just click. Yes, yes, yes. But it makes you think.",
+      "zh": "我们是在 9 月 10 日录的这期。感觉过去这几天像是有什么东西突然突破了，一下子所有人都高度关注风险。用 Codex 的时候——我想它叫 Codex——现在时不时会弹出一个窗口，写着……这个 agent（智能体）需要联网才能完成这项任务，我得给它授权。通常我就是点、点、点、点，是、是、是、是、是。我现在还是这样，还是不停点'是是是'。但这确实会让你多想一下。"
+    },
+    {
+      "i": 21,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "03:07",
+      "en": "You think for a second before you click.",
+      "zh": "你点之前会先想一秒。"
+    },
+    {
+      "i": 22,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "03:09",
+      "en": "I think for one second. Yeah, more than click. And we were in Jackson Hole a couple of weeks ago. And that's, of course, when the meter report broke about... The open AI hugging face attack, and I think since then, the anxiety about rogue AI, whatever you want to call it, has clearly snowballed. And it feels like it's only getting bigger and bigger. And it's already been an industry that's been shot through with risk and anxiety. And now this sort of one thing that for many people in AI has been something they've talked about for 20 plus years before there was an AI industry to speak of, this idea of like, misaligned, quote, rogue models is starting to become top of mind.",
+      "zh": "我会想一秒，对，比'点一下'要多想一点。几周前我们在 Jackson Hole，而那个时候，正好 Mythos 那份关于……OpenAI 和 Hugging Face 攻击事件的报告爆了出来。我觉得从那时起，人们对所谓'失控 AI'（rogue AI）——不管你怎么称呼它——的焦虑明显像滚雪球一样越来越大，而且感觉只会愈演愈烈。这本来就是一个充斥着风险和焦虑的行业。而现在这件事，对 AI 圈的很多人来说，早在还没有所谓 AI 行业之前，他们就已经谈论了 20 多年——也就是那种'未对齐的'（misaligned）、所谓的'失控模型'（rogue models）的概念——如今开始变成大家最挂心的事。"
+    },
+    {
+      "i": 23,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "03:51",
+      "en": "A reality. So this is our chance to ask a person directly involved in AI development about their respective, I guess, anxiety.",
+      "zh": "变成一种现实。所以这正是我们的机会，可以直接问一位亲身参与 AI 开发的人，聊聊他们那份——我想说是——焦虑。"
+    },
+    {
+      "i": 24,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "04:00",
+      "en": "Yeah, and what can be done about that? Anyway, we literally have the perfect guest today. We're going to be speaking, of course, with Greg Brockman. He is the co-founder and president of OpenAI here with us in studio. So, Greg, thank you so much for coming on Odd Lots.",
+      "zh": "对，以及能做些什么来应对。总之，我们今天请到了堪称完美的嘉宾。我们要对话的，当然是 Greg Brockman。他是 OpenAI 的联合创始人兼总裁（president），今天来到我们的录音室。Greg，非常感谢你做客 Odd Lots。"
+    },
+    {
+      "i": 25,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "04:15",
+      "en": "Thank you for having me.",
+      "zh": "谢谢你们邀请我。"
+    },
+    {
+      "i": 26,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "04:17",
+      "en": "So many different ways we could start. But here's something that I'm very curious about. Let's just jump right into the post-hugging phase environment and all of that. Is it open AI like as an organization? So, okay, like an agent breaks out of a sandbox, not the first time it's happened, et cetera. It exhibits the sort of emergent behavior and then does something that people, is a hack. When you think about the development of models and this incident and so forth, Are you able to sort of diagnose the past and say, you know what, here is something that the models did that we don't like or that people don't think is good? And are you able to, if you look back, whether it's in model training or post-training, reinforcement learning, whatever, say this is where there was some branch that went wrong such that this behavior emerged?",
+      "zh": "可以从很多不同的角度切入。但有件事我特别好奇。我们就直接跳到 Hugging Face 事件之后的这个环境等等吧。OpenAI 作为一个组织——好，比如说一个 agent 突破出了 sandbox（沙箱），这不是第一次发生了，等等——它表现出那种涌现行为（emergent behavior），然后做了某件人们认为是黑客攻击的事。当你回想模型的开发过程、这次事件等等，你们能不能回过头去诊断，说'你看，这是模型做的某件我们不喜欢、或者大家认为不好的事'？你们能不能回顾——无论是在模型训练、后训练（post-training）、强化学习（reinforcement learning）还是什么环节——指出'就是这里的某个分支出了错，才导致这种行为涌现出来'？"
+    },
+    {
+      "i": 27,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "05:09",
+      "en": "I would say that the fact of many elements of the Hugging Face incident Were not a surprise, not a mystery to us. For example, the fact that the agents were coordinating made sense because the agents were trained.",
+      "zh": "我想说，Hugging Face 事件里的很多要素，其实对我们来说并不意外，也不是什么谜。比如说，这些 agent 之间会协同，这一点是说得通的，因为它们本来就是被训练成这样的。"
+    },
+    {
+      "i": 28,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "05:22",
+      "en": "You trained them to be helpful. Exactly.",
+      "zh": "你们训练它们要乐于助人。正是。"
+    },
+    {
+      "i": 29,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "05:24",
+      "en": "And they were trained to coordinate, to be a multi-agent system. And we've talked about this. It's a very useful property, right? It makes them capable. But I think that the thing that was a surprise to us was the fact that the models had reached a level of capability where they were able to find that exploit in our sandbox environment, right? Move through our research environment. and then also capable enough to find exploits in Hugging Face's production infrastructure and move through that. But I'd say that a lot of the facts of what the models were capable of, that was clear to us, right? So I don't think that there were surprises there for the way in which the capability had unfolded, but just really realizing that we needed to up-level where we were in terms of our safety and security standards, like that for us was the real watershed.",
+      "zh": "而且它们被训练成会协同、成为一个多智能体系统（multi-agent system）。这一点我们也谈到过，它是非常有用的特性，对吧？这让它们很能干。但我认为真正让我们意外的，是模型的能力已经达到这样一个水平：它们能够在我们的 sandbox 环境里找到那个漏洞（exploit），对吧？在我们的研究环境里穿行，然后又强到足以在 Hugging Face 的生产基础设施（production infrastructure）里找到漏洞并在其中穿行。不过我会说，关于模型能做什么，很多事实对我们来说是清楚的，对吧？所以在能力如何一步步展开这件事上，我不觉得有什么意外；真正让我们警醒的是意识到：我们需要把自己在安全和安保标准上所处的水平往上提一个档次——对我们来说，那才是真正的分水岭。"
+    },
+    {
+      "i": 30,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "06:06",
+      "en": "But just to be clear, setting aside the technical capabilities, You know, ideally, we would have models that run into a wall and then don't try to find the crack in the wall, at least when that crack would be a crime when a person did it. Is there a way to identify the moment in training such that the models reasoned, no, this would be okay?",
+      "zh": "但为了说清楚，先撇开技术能力不谈。你知道，理想情况下，我们希望模型碰到一堵墙之后，不会去试图找墙上的裂缝——至少当那道裂缝如果换作人去做就构成犯罪的时候。有没有办法在训练中找到那样一个时刻，就是模型推理判断'不，这样做才妥当'的那个点？"
+    },
+    {
+      "i": 31,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "06:28",
+      "en": "So this model that had the Hagen-Base incident actually had not gone through our alignment training yet, right? And it had lowered safeguards. And so The reason we were proceeding with this was because it was in a sandbox. And I think that our realization is that we need to pull back earlier into our development process and training monitoring. There's always going to be a phase at which you do alignment, but you need to think about alignment as a core part of even this earlier phase. And if you look at where we've been, we've always been very focused on the deployment side, right? Of really thinking about deployment safety, having really good tests and governance and all those things. And the fact that we're now at a point where even for development, that's important. We always knew it would happen. The fact that now that has been a huge watershed for us and something we've really risen to the occasion for.",
+      "zh": "引发 Hugging Face 事件的那个模型，其实还没有经过我们的对齐（alignment）训练，对吧？它的防护措施（safeguards）也调得比较低。我们之所以继续推进，是因为它是在一个 sandbox 里。而我觉得我们的醒悟在于：我们需要把监测往前拉到开发流程和训练监控的更早阶段。总会有一个阶段是专门做对齐的，但你必须把对齐当作即便在那个更早阶段也属于核心的部分。如果你回顾我们过去的做法，我们一直非常关注部署（deployment）那一侧，对吧？认真考虑部署安全，配备非常好的测试、治理等等。而如今我们到了这样一个节点：即便在开发阶段，这些也很重要。我们一直知道这一天会来。而它现在真的到来了，这对我们是一个巨大的分水岭，也是我们真正迎难而上、应对到位的一件事。"
+    },
+    {
+      "i": 32,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "07:17",
+      "en": "Can I ask what is potentially a very dumb question with an obvious answer? But we hear about AI angst of all sorts, and in particular when it comes to cybersecurity. Why do we run training exercises where we ask AI to hack into various systems at all? Like, why is this necessary for you?",
+      "zh": "我能问一个也许很蠢、答案又很明显的问题吗？我们听到各种各样对 AI 的焦虑，尤其是在网络安全（cybersecurity）方面。为什么我们要做那种让 AI 去黑进各种系统的训练演练？这到底为什么对你们是必要的？"
+    },
+    {
+      "i": 33,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "07:38",
+      "en": "So I think it's very important to understand where we are with capabilities broadly. And I think that depending on the evaluation, depending on what you expect from the model, you need to have safeguards that are commensurate with that. And we think about this both, even just over the past couple of weeks, really starting to think about during the development process, you're always going to be testing different capabilities. And some of these capabilities are dual use, right? Something like vulnerabilities, if those are in the hands of threat actors, that's something that could be negative. But if you can find vulnerabilities in your own code base, you can fix them, right? You can up-level. And we actually think that it's a very important capability for AIs to exhibit and be put in defenders' hands. And so in order to know where we are, evaluations are very, very key. And I'll say one other thing on this, which is that I think that Hugging Face, there's two aspects to it that I think are our learning opportunities, right? That there's one that I think is really about us and the realization that we are at a point where safety, security, alignment during evaluation and development, we need to up-level it. That's something we've taken very seriously. We've slowed down a number of runs, like we did a very painful retooling of a lot of our processes. That's one reaction. But the second thing is this information on what the models are capable of today. What can they do in the real world? And I think that when Mythos came out over the summer, you kind of saw just sort of you know, just sort of public blog posts about this, but you didn't really see impact or you didn't really see a real world understanding of, well, what can these models really do? What are they capable of? I think that Hugging Face really showed today's models are capable of getting into a company's production infrastructure. And that's important because there will be many models with this kind of capability that will be produced by a number of different organizations across the world in maybe the next six months, maybe that time period, a little bit less, a little bit more. And we need to be prepared. Defenders need to know we got this extra information, almost like this time traveler came back from six months in the future and said, here's what's going to be possible. And you have an opportunity to be ready.",
+      "zh": "我觉得非常重要的是要从大处了解我们的能力现在到了什么水平。而且我认为，取决于具体的评测（evaluation）、取决于你对模型的预期，你需要有与之相称的防护措施。我们对这件事的思考——哪怕就在过去这几周——真正开始意识到：在开发过程中，你总会不断测试各种能力。而其中一些能力是两用性的（dual use），对吧？比如漏洞（vulnerabilities），如果落到威胁行为者（threat actors）手里，那就可能是负面的；但如果你能在自己的代码库里找到漏洞，你就能修好它们，对吧？你就能把水平往上提。所以我们其实认为，让 AI 具备这种能力、并把它交到防御者（defenders）手中，是非常重要的一项能力。因此，为了知道我们现在处在什么位置，评测是极其关键的。关于这一点我再说一件事：我认为 Hugging Face 事件有两个方面，都是我们的学习机会，对吧？第一个方面真的关于我们自己，就是我们意识到自己已经到了这样一个节点：在评测和开发期间的安全、安保、对齐，我们需要把它提升一个档次。这一点我们非常重视，我们放缓了若干次训练运行，非常痛苦地对很多流程做了重塑。这是第一种反应。但第二件事，是关于'如今的模型到底能做什么'这一信息——它们在真实世界里能干什么？我觉得当 Mythos 在今年夏天出来的时候，你看到的差不多只是一些公开的博客文章之类，但你并没有真正看到影响，也没有真正看到一种对现实世界的理解：这些模型究竟能做什么？它们的能力边界在哪？我认为 Hugging Face 事件真正展示了：今天的模型已经能够入侵一家公司的生产基础设施。这一点很重要，因为未来——也许是接下来六个月，也许这个时间段略短一点或略长一点——世界上会有许多不同的组织造出很多具备这种能力的模型。我们必须做好准备。防御者需要知道，我们获得了这份额外的信息，就好像有一个时间旅行者从六个月后的未来回来告诉你：'这些将会成为可能'，而你有一个机会提前准备就绪。"
+    },
+    {
+      "i": 34,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "09:37",
+      "en": "You mentioned slowing down some of your work in the wake of this, focusing more. This idea of like pacing development has become a sort of buzzword or watchword in the industry. And there are a lot of employees at both the labs. I think there was like an open letter that was signed by a bunch of people across the industry. about pacing, but it's a competitive capitalist investment. and our investors, et cetera. Talk to us about, I don't know if it's game theory or whatever, but like, what is your view on, is it possible for, let's set aside China for one second, because then that's a whole separate thing. Just in the American companies, Do you think that something can be reached where you trust each other such that you can have this sort of coordinated pacing to avoid a race to the bottom where it's all about getting there faster, even if it means sacrificing some security questions?",
+      "zh": "你提到在这件事之后你们放缓了一部分工作、更加聚焦。'给开发节奏定速'（pacing development）这个说法，已经成了行业里的一种流行词或者说警语。两大实验室都有很多员工——我记得有一封公开信，是全行业一群人联署的，讲的就是 pacing。但这是一个竞争性的、资本主义的投资游戏，还有我们的投资人等等。跟我们聊聊吧，我不知道这算不算博弈论（game theory）之类的，但你怎么看：有没有可能——先把中国放到一边，因为那是完全另一回事——单就美国这些公司而言，你觉得有没有可能达成某种彼此信任的状态，从而能够进行这种协调一致的定速，避免一场'竞相触底'（race to the bottom）的比赛，也就是所有人都只顾着更快抵达终点，哪怕这意味着牺牲一些安全问题？"
+    },
+    {
+      "i": 35,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "10:32",
+      "en": "I absolutely believe it's possible. And I see I think it's going to take steps to get there. Yeah. But this is something we've been really investing in and thinking about. And really even thinking about for almost a decade, right, that it's always been kind of clear that they're going to go through a commercial phase that's really about competition. But there will be a phase where the technology itself, it's just so much bigger than any person, any company, even any country, right? It's really about humanity as a whole. That's in our mission, right? We want to benefit humanity as a whole. And so working together with others to really think about how does this technology, its capability increase competition? How do we make sure that we have safety cases that are really laid out so that we know that it is something that is beneficial, that we're able to have the appropriate controls and the right oversight, the right monitorability, all of those sort of technical systems in place. And that's not about any one company, right? It's really about how the whole field evolves. Now, I think that there's work to be done here. And I think that the open letter is a good example of just a first baby step. And that was actually something we were very involved in helping craft that language. That was actually a pretty collaborative effort. And I think we were very happy to see that they got some real momentum and broke through in some way. Even the term pacing was a very deliberate choice.",
+      "zh": "我完全相信这是可能的。我觉得要走到那一步需要一步步来。是的。但这是我们一直在真正投入并思考的事情，其实我们思考它已经将近十年了，对吧？一直以来都很清楚：这门技术会经历一个真正关乎竞争的商业化阶段。但也会有这样一个阶段——技术本身，它远比任何个人、任何公司、甚至任何国家都要大得多，对吧？它真正关乎的是全人类。这写在我们的使命里，对吧？我们想造福全人类。所以要与他人合作，认真思考：这项技术、它的能力增长会不会加剧竞争？我们如何确保有真正清晰列出的安全论证（safety cases），让我们知道它是有益的，让我们能够具备恰当的控制、正确的监督（oversight）、正确的可监控性（monitorability），把所有这些技术系统都搭建到位。这不关乎任何一家公司，对吧？它真正关乎的是整个领域如何演进。当然，我认为这里还有很多工作要做。我觉得那封公开信就是一个很好的例子，算是迈出的第一小步。而且那件事我们其实深度参与，帮着推敲措辞，那是一次相当协作的努力。我们很高兴看到它获得了真正的势头，在某种意义上实现了突破。连'pacing'这个词本身，都是一个非常审慎的选择。"
+    },
+    {
+      "i": 36,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "11:47",
+      "en": "What does coordination currently look like between open AI and anthropic? Because I can't imagine, is Sam like constantly on the phone with Dario? Somehow I doubt it. But is there like the equivalent of a red phone?",
+      "zh": "目前 OpenAI 和 Anthropic 之间的协调是什么样的？因为我很难想象——Sam 是不是老在跟 Dario 通电话？我有点怀疑。但有没有那种相当于'红色专线电话'（red phone）的东西？"
+    },
+    {
+      "i": 37,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "11:59",
+      "en": "Well, look, we all know each other personally, right? Many of us work together in past lives. So I think that there's actually a lot of social connections between the labs. If you look at, there was another open letter that came out recently that we helped drive and that we in Anthropic were both signatories on, which was about security, saying that we're in a cybersecurity moment, that everyone kind of needs to take this information of where cyber is going to be in even just six months and needs to act today proactively to defend themselves. And actually talking behind the scenes to say, hey, we're actually aligned on this. This is something that's about, it's bigger than any company. This is about the industry and the world. And can we come together as one voice to say, this is important? It happened. And that, that, you know, you pick up the phone. So I think that there's, there's personal relationships between a few different execs that I think have been forming. We're building trust. And I think that the way I'd view this is that because we are competitors and that that will remain true, but we are aligned on wanting to do the right thing for the world. It always means that you really want for these coordination issues. actions to really hone in on what's the common interest what's the thing that's like really about good for the world and that neither side is really trying to benefit themselves differentially or something like that so it's always a little backdrop of trying to make sure that that's like the spirit in which things are offered and by the way i think that my view of how these things should go is that you know there's always an element of trust right it's always about trust building right because you can always sort of imagine ways that like maybe the other party would try to you know take take this other action that they're not just closing and i think that A lot of this is just about intent and about the fact that as you start to do small things together, that actually sets the groundwork for you to do big things together in the future.",
+      "zh": "嗯，是这样，我们彼此都私下认识，对吧？我们中很多人过去共事过。所以我觉得各实验室之间其实有很多社交联系。如果你看，最近还有另一封公开信，是我们帮忙推动的，OpenAI 和 Anthropic 都是签署方，主题是安全，大意是说我们正处在一个网络安全的关键时刻，每个人都需要正视这条信息——哪怕只是六个月后，网络安全会走到哪一步——并且今天就要主动采取行动来防御自己。而且在幕后大家其实也在沟通，说'嘿，我们在这一点上是一致的'。这件事关乎的、它大于任何一家公司，它关乎整个行业和整个世界。我们能不能作为一个统一的声音说'这很重要'？这件事确实发生了。也就是说，你会拿起电话。所以我认为，几位不同高管之间的私人关系正在建立，我们在积累信任。我看待这件事的方式是：因为我们是竞争对手，而且这一点会一直成立，但我们在'想为世界做正确的事'这一点上是一致的。这始终意味着，你真正希望这些协调层面的行动，能聚焦到'什么是共同利益''什么才是真正对世界好的事'，而不是任何一方在试图为自己谋取差异化的好处之类的。所以总有一层底色，就是要确保这是各方提出方案时所秉持的精神。顺带一提，我觉得我的看法是：这些事情怎么处理，其中总有信任的成分，对吧？它始终是关于建立信任，因为你总能设想出一些方式，对方也许会试图采取某种别的行动、并不完全坦诚。我认为这其中很多只是关乎意图，关乎这样一个事实：当你开始一起做一些小事，实际上就为将来一起做大事打下了基础。"
+    },
+    {
+      "i": 38,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "13:54",
+      "en": "You know, if you in Anthropic were oil companies and you were talking publicly about slowing down the pace of drilling or slowing down the pace of pumping, people say this is an antitrust violation. This is like totally. Is that an issue that comes up? Would you should there be a carve out for AI companies? such that they can formally say we are all going to slow down and our coordinate our behaviors together in a way that in other contexts, people would say that is ridiculous. You can't publicly agree on all slowing down the production of something.",
+      "zh": "你知道，如果你和 Anthropic 是石油公司，公开谈论要放慢钻探的节奏、放慢开采的节奏，人们会说这是反垄断（antitrust）违规，这完全是……这会不会成为一个问题？是不是应该给 AI 公司一个豁免（carve out），让它们能够正式地说'我们都要慢下来、协调一致地行动'——而在其他语境下，人们会说这太荒谬了：你们不能公开达成一致，一起放慢某种东西的生产。"
+    },
+    {
+      "i": 39,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "14:28",
+      "en": "Well, I'm not a lawyer, so I can't comment on the specific legalities, but I would say that as a general matter, that being able to freely talk about coordination on safety, security, like doing the right thing for the world, that seems like a very good thing to me. And I think that, again, everyone's interests are aligned here in terms of wanting to do the right thing for the world. So I think to the extent that there are legal barriers, I do think it would be very good to help make it smooth for us to be able to work together on these issues. And again, it's more than just the Frontier Labs, right? It's really about working together with cloud providers. It's working with government. It's working with all the different players in the ecosystem. And I think that this is, again, just one area that is bigger than any one company, and thus it should be.",
+      "zh": "嗯，我不是律师，所以没法评论具体的法律细节。但我会说，从大体上讲，能够自由地讨论在安全、安保方面的协调，讨论如何为世界做正确的事，这在我看来是一件非常好的事。而且我再次认为，在'想为世界做正确的事'这一点上，各方的利益是一致的。所以我觉得，如果存在法律障碍，那能帮我们扫清障碍、让各方可以在这些问题上顺利合作，这会是非常好的。而且再说一次，这不仅仅是前沿实验室（Frontier Labs）之间的事，对吧？它真正关乎的是与云服务商合作、与政府合作、与生态里所有不同的参与者合作。我认为这又是一个大于任何一家公司的领域，也正因如此，它就应该这样。"
+    },
+    {
+      "i": 40,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "15:11",
+      "en": "When you talk about pacing or slowing down, do you have a sense of what exact slowdown is acceptable to you? Because I imagine this is where the coordination problem comes in, where how you measure development, what counts as development, one person's slowdown might be different to another person's slowdown. Do you have a sense of the specificity of what you're talking about here?",
+      "zh": "当你谈到 pacing 或者放缓的时候，你心里对'到底慢到什么程度是你可接受的'有没有一个概念？因为我想这正是协调难题所在：你如何衡量开发、什么才算开发，一个人眼中的放缓可能和另一个人的放缓不一样。对你在这里说的东西的具体程度，你有没有一个清晰的把握？"
+    },
+    {
+      "i": 41,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "15:37",
+      "en": "So I... do, and I think that there's a high level picture, which is increasingly coming into view and into specifics and into details. And I think that the framing here really matters. And it's something, again, we've thought about for a decade, but it's very different once you start to really start to see line of sight. And to some extent, we're not there yet. We're starting to see systems where they're very capable. It's very clear that we need to have good safety practices around what we're doing right now. Things like chain of thought monitorability, That's something that works very well in this moment as we move to more capable models, as we've talked about that those models start to be something like Astra starts to be able to, you know, sort of have more, you know, it needs the chain of thought less because it's a more capable model. And so you're going to need other answers, other ways of how you're going to monitor it. But monitoring, absolutely important, right? And so really thinking about what are the standards. And that's, again, invariant. It's not about any one company's technology. It's really about just how this technology works. needs to evolve and how we can ensure that it has the right safety properties to it. And so my view is that it's important not to conflate too much the moment that you're in today with the standards you're going to need for the future, but also you can work backwards where it is very clear that as we move to higher level of capability, you need to be able to make a safety case, right? You need to be able to really say that you have good understanding of controllability and all of these things that I think people are feeling anxiety about, again, it's something we also feel anxiety about, that we think about a lot, that we care a lot about as core to our mission. Part of the reason we started this place is that we want to help this technology go in a more positive direction. And so I think that my view is that you want to have a shared and as objective as possible, whether it's based on evals, there's always gonna be some element of subjectivity. Maybe you want third-party auditors that are able to evaluate whether the standards that are defined by Frontier Labs people who are there in the technical details who are always going to be the most calibrated on kind of how do you still make forward progress in ways that deliver those benefits while also being able to have the appropriate guarantees and safety cases. And then to have that kind of observability and ultimately enforceability of some kind. Is this something that is just an industry voluntary standard? Is it something that's national? Is it something that's international? And how do you really get to that point that it is a humanity scale endeavor to And I think it is important to also recognize that what we're talking about, like I think that a lot of people have this reaction of saying, well, am I going to be able to keep making my open source model? Am I going to be able to keep doing my hobby aside project? And the answer should be absolutely yes. Like that's not the kind of things where we're talking about when we're talking about pacing. When we're talking about pacing, we're really talking about this frontier. We're talking about these massive supercomputers that are hundreds of billions of dollars worth of capital expenditure. It's a very small number of players and it's a very different kind of scale. And proceeding with that responsibly and thoughtfully and in a way where we're thinking about how do we achieve the best outcomes and mitigate the risks, that to me is something that's core to why we started opening IY. I got excited about this field and how we actually get to those benefits, how we actually cure diseases and all of these things that this technology is so capable of. And I think it really starts with having good processes around the kinds of things we're talking about here.",
+      "zh": "所以……我确实有概念，而且我认为有一幅高层的图景，它正日益清晰，越来越落到具体和细节上。我觉得这里的框架（framing）真的很重要。这同样是我们思考了十年的东西，但一旦你真正开始看到明确的路线（line of sight），感受就非常不一样了。在某种程度上，我们还没到那一步。我们开始看到一些能力非常强的系统，很明显，我们现在所做的这些事，周围必须有良好的安全实践。比如思维链可监控性（chain of thought monitorability），这在当下非常奏效。而随着我们转向能力更强的模型——就像我们谈到的，那些模型开始变得像 Astra 一样，能够拥有更多……它对思维链的依赖变小了，因为它是更强的模型。所以你会需要别的答案、别的监控方式。但监控这件事，绝对是重要的，对吧？所以要认真思考：标准到底是什么。这同样是不变的（invariant），它不关乎任何一家公司的技术，它真正关乎的是这项技术本身如何运作、如何演进，以及我们如何确保它具备正确的安全属性。所以我的看法是：不要把今天的处境和将来所需的标准过多地混为一谈，这很重要；但你也可以倒推——很清楚的一点是，随着我们迈向更高水平的能力，你必须能够做出一个安全论证，对吧？你必须能真正说清楚，你对可控性（controllability）等等这些——我认为大家感到焦虑的东西，同样也是我们感到焦虑、反复思考、并且作为使命核心极为在意的东西——有良好的理解。我们当初创立这个地方，部分原因就是想让这项技术朝着更积极的方向走。所以我的看法是：你希望有一套共享的、尽可能客观的东西，无论它是不是基于评测（evals）——总会有一些主观成分。也许你会想要第三方审计机构（third-party auditors）来评估这些标准——而这些标准是由前沿实验室里那些身处技术细节之中的人定义的，他们在'如何既继续向前推进、交付那些好处，同时又能具备恰当的保证和安全论证'这件事上，永远是最有分寸感的。然后还要有那种可观测性（observability），以及某种最终的强制执行性（enforceability）。这到底只是一个行业自愿标准？是国家层面的？还是国际层面的？你又如何真正走到那一步，让它成为一项人类尺度的事业？我觉得还有一点很重要，就是要认清我们在谈论的是什么。我想很多人会有这种反应，说'那我还能不能继续做我的开源模型？我还能不能继续做我的业余小项目？'答案应该是绝对的'能'。因为当我们谈 pacing 的时候，我们说的不是这类东西。谈 pacing 时，我们真正说的是这个前沿：说的是那些庞大的超级计算机，是价值数千亿美元的资本支出（capital expenditure）。玩家数量非常少，尺度也完全不同。以负责任、深思熟虑的方式推进它，并且始终思考我们如何取得最好的结果、如何缓释风险——这在我看来，正是我们当初创立 OpenAI 的核心原因所在。我对这个领域感到兴奋，也在意我们如何真正获得那些好处，如何真正治愈疾病，以及这项技术如此擅长的所有这些事。而我认为，这一切真正的起点，是围绕我们这里谈到的这些东西建立起良好的流程。"
+    },
+    {
+      "i": 42,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "19:03",
+      "en": "Just real quickly, since you mentioned third parties, obviously, Meter came in for a few days. They produced their report. We did an episode with former OpenAI employee, Miles Brundage, who now has his own third party aspiring to be an auditor. Would you support a law that said there should always be the presence of auditors? Because obviously, just looking at the models after the release isn't enough, given that some of the major disasters have occurred, pre-release models. Would you support a law, if it could be designed, that would have essentially third party auditors embedded in all of the major frontier orgs?",
+      "zh": "很快问一句，既然你提到第三方，显然 Mythos 来了几天，他们出了自己那份报告。我们还做过一期节目，嘉宾是 OpenAI 前员工 Miles Brundage，他现在有了自己的第三方机构，志在成为审计者。你会不会支持一项法律，规定审计者应当始终在场？因为显然，鉴于一些重大灾难发生在发布前的模型上，只在模型发布之后去检视它们是不够的。如果一项法律能被设计出来，让第三方审计者基本上嵌入到所有主要的 frontier 机构里，你会支持吗？"
+    },
+    {
+      "i": 43,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "19:41",
+      "en": "Look, I'll always say that the nuance really matters. The details really matter. So it's too hard to say at a high level whether any particular property is something that would work. in practice. I do think a general direction of thinking about as you move towards these very capable models where you need to have safety cases, you need to lay out your standards, we're already having third-party auditors for exactly that type of process. If you look at how the Evaluation processes for models over the past couple of months have evolved, right? We've had the KC, which is U.S. organization that tests models. We have the UKAC. These government third party auditors test our models before we release them.",
+      "zh": "是这样，我一直会说，细微之处真的很重要，细节真的很重要。所以在高层面上，很难说某个特定属性能不能在实践中奏效。但我确实认为有一个大方向：随着你迈向这些能力极强的模型，你需要有安全论证、需要把标准列出来——而我们其实已经在为恰恰这类流程引入第三方审计者了。如果你看看过去几个月模型的评测流程是如何演进的，对吧？我们有 KC，那是一个测试模型的美国机构；我们还有 UKAC。这些政府背景的第三方审计者会在我们发布模型之前对其进行测试。"
+    },
+    {
+      "i": 44,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "20:22",
+      "en": "But sorry, like here's the thing that I thought about in the wake of reading about the Hugging Face incident and so forth, like. I think of open AI and anthropic as companies, but people like to call them, quote, labs. And when I think of labs, I think like, wow, like a lab, if we were talking about a bio lab or a chemical lab, would have just like all kinds of like rules and materials handling. And then maybe in this case, it would be like handling of the weights and whose computers they're on and who can access those computers, et cetera.",
+      "zh": "抱歉，是这样，读完 Hugging Face 事件等等之后，我一直在想一件事。我把 OpenAI 和 Anthropic 看作公司，但人们喜欢称它们为所谓的'实验室'（labs）。而当我想到实验室，我会想：哇，一个实验室——如果我们说的是生物实验室或化学实验室——就会有各种各样的规则和物料处理规范。那么在这个场景里，也许对应的就是模型权重（weights）的处理、它们放在谁的电脑上、谁能访问那些电脑等等。"
+    },
+    {
+      "i": 45,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "20:54",
+      "en": "And FDA approval before you go to market.",
+      "zh": "还有上市之前的 FDA 审批。"
+    },
+    {
+      "i": 46,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "20:56",
+      "en": "Yeah.",
+      "zh": "对。"
+    },
+    {
+      "i": 47,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "20:56",
+      "en": "And all of these things, like just like, or even a restaurant, someone would come in and they say like, oh, is the stove sufficiently far back from the wall, et cetera. So not just like, okay, like measuring the capabilities of the risks of the models themselves, but I'm thinking like the auditing of the lab process the way that any other lab probably has regular inspections of like how safe is the lab?",
+      "zh": "还有所有这些，就像……甚至一家餐厅，也会有人进来检查，说'哦，炉灶离墙够不够远'等等。所以不只是去衡量模型本身的能力和风险，我想的是对实验室流程的审计——就像其他任何实验室大概都会定期检查'这个实验室有多安全'那样。"
+    },
+    {
+      "i": 48,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "21:23",
+      "en": "Well, this is what I'd say has been changing just even over the past couple of weeks. Okay. Because the focus for, we'll say the past 12 months, 24 months, something like that has been on deployment. Yeah. Right. So you have a model, you produce the model, you want to release it to the world. How do you decide whether you're at the right level there? And we have a preparedness framework. Anthropic has a responsible scaling policy. There are certain evaluations. Again, there's the KC, the UKC. There's a whole ecosystem that's been built up around that. I think the thing that Hugging Face has shown is that it is time to start pulling that process earlier. You need to think about this during development and evaluation. And just, it makes sense as the models are more capable, right? For exactly the kinds of reasons that you were describing for analogies to other fields. Now, there's a lot of specifics for AI. And I think it's very important to really engage with those as you design a regime, as you think about what is a setup that involves first party, third party, that involves government, that has the right interactions amongst academics and other parties, early testers. It's really about, like, you really have to engage with the way that the AI process is going, right? And I think one thing that is different- Yeah, the process. Exactly. One thing that is different is that the ways there are some parts of AI that we understand well and are going to remain invariant. And to some extent, the core training process hasn't changed at all, right? It's still, you do a forward pass, you do a backward pass, you do an optimizer step. Like that's how training is. And that's how it was in the 80s, right? It's like actually totally remarkable. Now, of course, the scale at which we run and the architectures that we use, a lot of these details that they have evolved. And I think that being very close to the technical details is the best way that you can ensure that you get the kinds of safety guarantees we're talking about. For example, there was an article recently saying that, hey, OpenAI changed the architecture so that monitorability is less for chain of thought.",
+      "zh": "嗯，我会说，哪怕就在过去这几周，正在发生变化的就是这个。好。因为在过去——就说 12 个月、24 个月左右吧——焦点一直在部署上。对。是这样：你有一个模型，你把它造出来，你想把它发布给世界，你怎么判断自己是否处在一个合适的水平？我们有一套准备度框架（preparedness framework），Anthropic 有一套负责任的扩展政策（responsible scaling policy），有一些特定的评测。同样，还有 KC、UKC。围绕这些已经建立起了一整个生态系统。我觉得 Hugging Face 事件表明：是时候开始把这套流程往前拉了。你需要在开发和评测阶段就思考它。而且随着模型能力越来越强，这是说得通的，对吧？恰恰就是你说的那些原因——那些对其他领域的类比。当然，AI 有很多它自己的特殊性。我觉得，当你在设计一套制度、在思考一个既涉及第一方、第三方，又涉及政府，还在学术界与其他各方、早期测试者之间有恰当互动的架构时，真正去深入这些特殊性是非常重要的。这真的关乎——你真的必须深入 AI 流程本身的走向，对吧？我觉得有一点不同——对，流程，正是。有一点不同在于：AI 有一些部分是我们理解得很透彻、并且会保持不变的。在某种程度上，核心的训练过程根本没有变，对吧？还是那样：你做一次前向传播（forward pass），做一次反向传播（backward pass），再做一步优化器更新（optimizer step）。训练就是这么回事，而且 80 年代也是这样的，对吧？这其实完全令人惊叹。当然，我们运行的规模、我们使用的架构，很多这些细节确实演进了。而我认为，紧贴这些技术细节，是你能够确保获得我们所说的那种安全保证的最佳方式。举个例子，最近有一篇文章说，'嘿，OpenAI 改了架构，导致思维链的可监控性下降了'。"
+    },
+    {
+      "i": 49,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "23:20",
+      "en": "Neuralese.",
+      "zh": "Neuralese。"
+    },
+    {
+      "i": 50,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "23:20",
+      "en": "Neuralese. I would consider this article to basically be fake news, right? That we actually have experiments that really show that our changes in monitorability that we've talked about, chain of thought monitorability, come from capability improvements. Just the model is smarter, so it relies on the chain of thought less. And so I think that if you say we're going to put a lot of rules around architectures, you're going to miss the boat. You're not actually going to solve the problem. And so this is where I think that the people who are the deepest on the technology, the people who are actually creating the technology, pushing it forward, we have both a unique insight. We have a unique voice. We have a unique sort of ability to say, hey, if we change things in this way, we'll actually get the safety property. But if you do it this other way, It's just going to put in place friction that won't actually solve the problem. And so I think that there's something, a role for us to play, but it's not just about us, right? And so I think it is very important that you think about these third parties, you think about government oversight. And again, it's not just one company, it's not just one country. How do you get to international coordinations and norms? Do you get to treaties? Like all of this should be the conversation that we're having now. I don't think we have all the answers, but we can supply information. And that's one thing that we view also as very core to our mission.",
+      "zh": "Neuralese。我认为这篇文章基本上就是假新闻（fake news），对吧？我们确实有实验真正表明：我们谈到的可监控性变化——思维链的可监控性——是源自能力的提升。只是模型更聪明了，所以它更少依赖思维链。所以我觉得，如果你说要围绕架构立一大堆规则，你会错过重点，你其实解决不了问题。而这正是我认为的地方：那些对技术钻研最深的人、那些真正在创造技术、推动技术前进的人，我们既有独到的洞见，也有独到的话语权，还有一种独到的能力去说'嘿，如果我们以这种方式改变，就会真正获得那种安全属性；但如果你用另一种方式去做，那只会制造摩擦，其实解决不了问题'。所以我觉得这里有我们可以扮演的角色，但又不只是关于我们，对吧？因此我认为，非常重要的是你要考虑这些第三方、考虑政府监督。而且再说一次，这不只是一家公司的事，也不只是一个国家的事。你如何走向国际层面的协调与规范？你要不要走向条约（treaties）？所有这些，都应该是我们现在正在进行的对话。我不认为我们掌握了所有答案，但我们可以提供信息。而这一点，我们也视为使命的核心之一。"
+    },
+    {
+      "i": 51,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "24:34",
+      "en": "Well, just on this note, one of the arguments you hear against government oversight and additional pacing is this idea that the US, it's a national security interest and we need to compete against China. And then at the same time, you also hear, and I think OpenAI has said this, that China's distilling US models, US frontier models. And I guess the question to me is always like, well, if that's true, if China's building off the success of US companies, then if they pause, then the China problem is kind of solved, right? Like, why do we need to worry about China so much?",
+      "zh": "嗯，就这一点来说，你听到的反对政府监督和额外 pacing 的论点之一是这种说法：对美国而言这是国家安全利益，我们需要与中国竞争。但与此同时，你又会听到——我想 OpenAI 也这么说过——中国在蒸馏（distilling）美国的模型、美国的前沿模型。我想对我来说，问题始终是：如果那是真的，如果中国是在美国公司的成功之上继续构建，那么如果他们暂停，中国问题不就差不多解决了吗，对吧？那我们为什么还要这么担心中国？"
+    },
+    {
+      "i": 52,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "25:07",
+      "en": "Well, this technology is really about compute progress, right? That really, like, why is AI happening now? If you look at late 1990s Ray Kurzweil writings, he basically predicted this moment at about this time just based on compute growth, right? Transistor density, memory density, all these things. He looks at these exponentials. And he was kind of like, this is the point where you'll be able to really build AGI. And I think that that is a really important thing for us all to kind of internalize that you can kind of look at open AI or anthropic, you know, we're at the frontier. And I think it is an absolute, both privilege and responsibility to be at that, that edge, but there's always going to be someone who's at that frontier, right? And whether it's us, whether it's someone in a different country, There's going to be someone who's charting it. And I think you get a little bit of ability to help see into that future, right? Get information like with Hugging Face where we can see this is what it's going to be like when these capabilities are out there. But it's not just about what we create. And I think maybe we have moved forward the timeline to this technology by six months. Maybe we've moved it forward by two years. I certainly hope we didn't slow it down by six months or two years. I think that we have a track record of being the ones who have repeatedly had innovations and the breakthroughs. But I think that it will happen one way or another as long as people are building computers. And so to me, the reason, again, that we started this place, I got very excited about the idea of AI from reading about 1950 Alan Turing's thoughts about this, about machines that could understand things that people would could not solve problems that humans would not be able to. Spent a lot of time really thinking about your point of 20 years worth of thinking about misalignment and what that would be like before you even have AI. I was reading a lot of these online blogs and I started a reading group at Stripe, which the company has had previously, talk about this every week. And so I care a lot about this. Our company cares a lot about this. But I think that the idea that this technology can only be created by the people who are currently the players, I don't think that's true at all.",
+      "zh": "嗯，这项技术真正关乎的是算力（compute）的进步，对吧？说到底，为什么 AI 是在现在发生？如果你看 1990 年代末 Ray Kurzweil 的著作，他基本上仅凭算力的增长就预测了这个时刻会大约在这个时候到来，对吧？晶体管密度、内存密度，所有这些。他看着这些指数曲线，然后大致说'这就是你能够真正造出 AGI 的节点'。我觉得这一点对我们所有人来说，都是很需要内化的：你可以看看 OpenAI 或者 Anthropic，我们处在前沿。我认为站在那个边缘，绝对既是一种特权，也是一种责任。但总会有某个处在前沿的人，对吧？无论那是我们，还是另一个国家的某个人，总会有有人在开拓它。而我认为，你会获得一点点帮助你去窥见那个未来的能力，对吧？获得一些信息，就像 Hugging Face 事件那样，让我们看到当这些能力真正问世时会是什么样子。但这不只是关于我们创造的东西。我想，也许我们把这项技术的时间线提前了六个月，也许提前了两年。我当然希望我们没有把它拖慢六个月或两年。我觉得我们有一份成绩单，证明我们是那个一再拿出创新和突破的团队。但我认为，只要人们还在造计算机，这件事迟早会以某种方式发生。所以对我来说，再一次回到我们创立这个地方的原因：我对 AI 这个想法感到无比兴奋，是源于读到 1950 年 Alan Turing 关于此的思考——关于能够理解人类无法理解之事、解决人类无法解决之问题的机器。我花了大量时间认真思考你说的那点，也就是在 AI 还没出现之前，就用 20 年时间去思考未对齐（misalignment）以及那会是什么样子。我当时读了很多这类线上博客，还在 Stripe 创办了一个读书会——这家公司之前就有——每周讨论这个话题。所以我非常在意这件事，我们公司也非常在意。但我认为，那种'这项技术只能由现在这些玩家来创造'的说法，我完全不认同。"
+    },
+    {
+      "i": 53,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "27:22",
+      "en": "One more sort of question specifically on some of the safety and alignment stuff. Your chief scientist at OpenAI wrote a very interesting blog post or piece, An Alien Mind, Jacob Pachocki, I hope I'm- Jakob Pachocki. Jakob Pachocki wrote a very interesting piece. And there was one line in there that I thought was interesting. And you talk about the release of Asterisk 6. And he said, we invest heavily along the spectrum of approaches spanned by these directions. We also see meaningful progress. GPT-6 is the first model that benefits- from some important advancements we've been working on in a long time and is significantly better aligned than 5.6 Sol. Should the labs share their alignment work? I mean, again, if we're talking about, I understand your competitors and capability gains, et cetera. On questions of safety, if a lab makes a big breakthrough on the alignment question, such that it can develop advanced AI fast in a safer way, Should that be diffused across the rest of the industry or should whatever this, quote, important advancement that you made to make GPT-6 Astra more aligned, is that something that should be kept in house?",
+      "zh": "再问一个专门关于安全和对齐的问题。你们 OpenAI 的首席科学家（chief scientist）写了一篇非常有意思的博客文章或者说文章，叫《An Alien Mind》，作者是 Jakob Pachocki——希望我没念错——Jakob Pachocki 写了一篇很有意思的东西。里面有一句话我觉得很有趣。你谈到 GPT-6 的发布，他说：'我们沿着这些方向所涵盖的各种方法谱系大力投入，我们也看到了有意义的进展。GPT-6 是第一个从我们长期研究的一些重要进展中受益的模型，它的对齐程度显著优于 5.6 Sol。'实验室应该分享它们的对齐工作吗？我是说，还是那句话，如果我们在谈——我理解你们是竞争对手，还有能力提升等等。但在安全问题上，如果一家实验室在对齐问题上取得了重大突破，从而能够以更安全的方式快速开发先进 AI，那这应该在其余整个行业里扩散开来，还是说你们为了让 GPT-6 Astra 更对齐而取得的这个所谓的'重要进展'，应该留在自己内部？"
+    },
+    {
+      "i": 54,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "28:35",
+      "en": "So I think that there's a lot of specific circumstances to answer that question for any specific advance, because the thing that to me can be a category error is thinking about things as it is a safety thing or it is a capability.",
+      "zh": "所以我觉得，要回答关于任何一项具体进展的那个问题，有很多具体情况要考量。因为在我看来可能是一种范畴错误（category error）的做法，就是把事情简单地看成'它要么是安全的事，要么是能力的事'。"
+    },
+    {
+      "i": 55,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "28:46",
+      "en": "Sure.",
+      "zh": "当然。"
+    },
+    {
+      "i": 56,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "28:47",
+      "en": "And in fact, you want there to be as little separation as possible between the two. You want as much intertwining. You want to have techniques that are by their very nature safer. And so just as you make more capability progress, you also get the safety progress. And so I think that the way I'd look at it is the more things are a pure alignment thing, more that they're a pure safety thing, the more that they are something that are just pure good, that you're just like, yes, everyone should obviously know this and use it, then yes, share it more. The more that things are just about this will just make the model more capable, won't make it safer anymore. Maybe there's much less sort of reason to share for those reasons. And so I think you need to look at any specific advance along all these axes and all these factors. And I think that there are some areas where we have actually been extremely at the forefront with sharing and talking about it. Chain of thought monitorability is a good example of that, where the moment that we and we were really the ones to pioneer this paradigm of reasoning and chains of thought. The moment we saw that we were instantly thinking we need to preserve this for as long as possible. So when we released a product, we did not actually display the chain of thought, even though it would have been very helpful. People love reading that stuff. It's super interesting. It's super helpful. But it's just clear we're going to immediately feel like we have to optimize it and we're going to have to remove that legibility. We started talking about this. We helped spearhead a paper that was putting forth this position on that you cannot optimize these things. And again, we've shown a lot of the way and led a lot of the way on various techniques. And so I think it comes down to the specifics.",
+      "zh": "而事实上，你希望这两者之间的分离越少越好，你希望它们尽可能交织在一起。你希望拥有那种本质上就更安全的技术，这样当你取得更多能力上的进展时，你同时也获得了安全上的进展。所以我觉得我看这件事的方式是：一样东西越是纯粹的对齐的东西、越是纯粹安全的东西，越是那种纯粹的好东西——让你觉得'是的，每个人都显然应该知道并使用它'——那么，是的，就更应该多分享。反过来，一样东西越是仅仅关乎'这只会让模型更有能力，不会再让它更安全'，那么出于这些原因，也许就没什么理由去分享。所以我认为，你需要沿着所有这些维度和因素，去审视任何一项具体的进展。而且我觉得，在某些领域，我们其实一直处在分享和讨论的最前沿。思维链可监控性就是一个好例子：正当我们——我们其实是开创'推理'和'思维链'这一范式的团队——一看到它，我们就立刻意识到需要尽可能长久地保住这一点。所以当我们发布产品时，我们其实并没有把思维链展示出来，尽管那样做会非常有帮助。人们很爱读那些东西，它超级有意思、超级有帮助。但很明显，我们会立刻觉得必须去优化它，从而不得不去掉那种可读性（legibility）。我们开始谈论这件事，还牵头帮助推动了一篇论文，提出这样一个立场：你不能对这些东西做优化。同样，在各种技术上，我们已经做了很多示范、引领了很多方向。所以我觉得，这最终要落到具体情况上。"
+    },
+    {
+      "i": 57,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "30:20",
+      "en": "I'm going to move away from safety and alignment for a second, but you're the guy in charge of allocating compute at OpenAI, pretty much, right?",
+      "zh": "我先暂时离开安全和对齐这个话题。不过在 OpenAI，基本上是你负责算力分配（compute allocation），对吧？"
+    },
+    {
+      "i": 58,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "30:29",
+      "en": "So actually, it's funny. I actually try to do as little of the compute allocation as possible.",
+      "zh": "其实说来好笑，我实际上是尽量让自己少做算力分配。"
+    },
+    {
+      "i": 59,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "30:34",
+      "en": "Oh, seriously? Wait, explain more.",
+      "zh": "哦，真的吗？等等，多说一点。"
+    },
+    {
+      "i": 60,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "30:36",
+      "en": "Well, okay. So I'm someone who has spent a lot of effort to produce the compute. So I spent a lot of effort on the data center side, on the machine learning engineering side, and on the product side, have to you know, ultimately be accountable for how we allocate compute. But actually I try to set up the systems and the processes and then the actual, like a lot of the decisions on where research compute goes market or in Yakup run those a lot of the actual, you know, we basically make a big decision on the split of how much goes to applied versus research. And then within applied, we have some frameworks now where we kind of have buckets for different products. And I would just say that the choice of where compute goes is like, in some ways, the, hardest problem at OpenAI. It's like a capital allocation problem, but it's one that I actually think other people are, you know, I really try to have them, you know, leave it to them as much as possible.",
+      "zh": "嗯，好。我是那个花了大量精力去'生产'算力的人。所以我在数据中心这一侧、机器学习工程这一侧都投入了很多精力，而在产品这一侧，最终得为我们如何分配算力负责。但其实我尝试的是搭建好系统和流程，然后真正的——很多关于研究算力投向哪里的决定，是 Mark 或 Yakup 他们在做很多实际的……你知道，我们基本上会做一个大决定，就是把多少算力分给应用（applied）、多少分给研究（research）。然后在应用内部，我们现在有一些框架，给不同产品分成若干'桶'（buckets）。我只想说，算力投向哪里这个选择，在某种意义上是 OpenAI 最难的问题。它像一个资本配置（capital allocation）问题，但我其实认为其他人更适合做，所以我真的尽量把它交给他们，尽可能地放手。"
+    },
+    {
+      "i": 61,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "31:28",
+      "en": "Well, how do you think about it from a product standpoint? Because as you say, you can't, I mean, you can't really disaggregate the two too much, right? Ultimately, you have to make decisions about what you want to develop and promote. Yeah.",
+      "zh": "那从产品的角度你怎么看这件事？因为就像你说的，你不能——我是说，你不能真把这两者拆分得太开，对吧？最终你还是得决定你想开发和推广什么。对。"
+    },
+    {
+      "i": 62,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "31:40",
+      "en": "So I do think that you're values and prioritization shine through, through compute allocation, because the world that we're in is one where there just is not enough compute, right? Compute is revenue, right? It's also the production of models. And so you kind of have different timescales of return and you can think about doing more alignment work. You can do really any sort of task. It fundamentally comes down to compute. And there's many people at open AI who I would gladly like, well, let me, let me tell, let me tell a story. So, Leading up to the launch of GPT-5.5, we ran a process where we basically looked through all the different places that we had compute that we could potentially squeeze. And we were like, we could cut back on this rate limit. We could shut down this part of the product. We could do this, do that. And we had this whole stack rank of levers because we knew we're going to launch GPT-5.5. People are going to love this model and we're going to run out of compute. And it was such a painful process because You're basically going through every single part of your product and being like, how valuable is this one? How much do we care about these users? And of course you care about all of them. Like we want to deliver value and we built this product for a reason and people are using it. And you're comparing the efficiency of costs to different things. And so what we've tried to do is move towards more of an objective standard and you're never going to be fully there. But there's a second piece of detail as well that's mattered a lot, which is trying to push a lot of the constraint down closer to the people who are in the weeds on a particular product. And so you say, hey, here's your compute allocation. We're about to release another model, new modality, something like GPT Live, right? That's just like a totally different thing. And you need to fit in your existing budget. What do you do? And somehow people always find efficiencies. Sometimes people are like, you know what? Actually, there is this like, you know, kernel efficiency that we didn't roll out yet. Well, I guess we'll roll it out now, right? Or like, oh, it turns out that, you know, there's a peak to trough between your day and night and we could actually pack this new thing on top of that. And so we actually don't need incremental. And so I think that really unleashing the creativity and the co-design of the people who are doing the work is actually maybe the thing that I really focus on. So I really try not to be as much in the like sort of arbiter, like just making these like super high level decisions, but instead really focusing on how do we up-level execution and get the most efficiency down to the metal.",
+      "zh": "所以我确实认为，你的价值观和优先级会透过算力分配显现出来。因为我们所处的这个世界，算力就是不够用，对吧？算力就是收入，对吧？它同时也是模型的生产。所以你有不同时间尺度上的回报，你可以考虑做更多对齐工作，你几乎可以做任何类型的任务——它归根结底都落到算力上。OpenAI 有很多人，我都乐意……好，让我讲个故事。在 GPT-5.5 发布之前，我们走了一个流程，基本上把所有那些我们也许能挤出算力的地方都过了一遍。我们会想：可以把这个限流（rate limit）调低一点，可以关掉产品的这部分，可以做这个、做那个。我们有一整叠排好序的杠杆（stack rank of levers），因为我们知道要发布 GPT-5.5 了，人们会爱上这个模型，而我们的算力会用光。这是一个非常痛苦的过程，因为你基本上是在逐一检视你产品的每一个部分，然后问：这个有多重要？我们有多在乎这些用户？而你当然在乎所有用户——我们想交付价值，我们做这个产品是有理由的，而且有人在用。你在比较不同事情的成本效率。所以我们努力做的，是朝一个更客观的标准靠拢，尽管你永远不可能完全做到。但还有第二个细节也非常重要，就是尽量把很多约束下推到更贴近那些真正埋头做某个具体产品的人那里。于是你说：'嘿，这是你的算力配额。我们马上要再发布一个模型、一个新模态，比如 GPT Live 之类的，对吧？那完全是另一回事。你得在现有预算内消化它，你怎么办？'而人们总能神奇地找到效率空间。有时大家会说：'你知道吗？其实还有一个我们还没上线的 kernel（内核）效率优化，那我想我们现在就上线吧。'或者说：'哦，原来你白天和夜间之间有个峰谷差，我们其实可以把这个新东西叠在上面，所以我们并不需要增量算力。'所以我觉得，真正释放那些一线工作者的创造力和协同设计（co-design）能力，也许才是我真正专注的事。因此我真的尽量不去当那种仲裁者、只做这些超高层的决定，而是真正聚焦于：我们如何提升执行水平，如何把效率压榨到最底层（down to the metal）。"
+    },
+    {
+      "i": 63,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "34:17",
+      "en": "Do you have a theory for why some of the big, now, you know, I finally succumbed and I occasionally read the less wrong message boards now as I can do stage in my life. There was an interesting post. Do you have a theory for why some of these major incidents seem to occur in evals pre-release and then rarely, you know, when I use the latest model, I've never had to go hack into a server to like get me some information. Do you have a theory for why we see these things emerge pre-release?",
+      "zh": "对于其中一些重大事件——你知道，我终于屈服了，现在到了人生的这个阶段，我偶尔会去读 LessWrong 的论坛，上面有一个很有意思的帖子——你有没有一个理论来解释：为什么这些重大事件似乎都发生在发布前的评测里，而很少在别处？你知道，当我用最新的模型时，我从没遇到过它要去黑进一台服务器来给我弄点信息。你有没有一个理论，解释为什么我们看到这些东西是在发布前冒出来的？"
+    },
+    {
+      "i": 64,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "34:48",
+      "en": "Well, some of these are related to safeguards that are intentionally turned off.",
+      "zh": "嗯，其中一些跟被有意关掉的防护措施有关。"
+    },
+    {
+      "i": 65,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "34:52",
+      "en": "Yeah.",
+      "zh": "对。"
+    },
+    {
+      "i": 66,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "34:53",
+      "en": "Right.",
+      "zh": "没错。"
+    },
+    {
+      "i": 67,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "34:53",
+      "en": "So there's really the things that are being evaluated are not necessarily representative of what is released. And we put so much effort into ensuring trust, alignment with astro-model ability, all these things for deployed models. And again, I think it's just been that the evaluation and development phases have been much less rigorous, right? That the standards there have just been lower. And so it's not surprising to me that it wasn't just us, right? It was really many other labs.",
+      "zh": "所以，真正被评测的东西未必能代表最终发布的东西。我们为已部署的模型投入了大量精力去确保信任、对齐，还有 astro-model ability 之类的这些东西。同样，我觉得只是评测和开发阶段一直远没有那么严格，对吧？那里的标准一直更低。所以对我来说并不意外的是：这不只是我们，对吧？其实是很多其他实验室都这样。"
+    },
+    {
+      "i": 68,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "35:22",
+      "en": "That's right. Yeah, it's important that others have had this as well.",
+      "zh": "没错。对，重要的是别人也有过这种情况。"
+    },
+    {
+      "i": 69,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "35:26",
+      "en": "That's right.",
+      "zh": "没错。"
+    },
+    {
+      "i": 70,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "35:27",
+      "en": "Since we're back on the safety topic, I'm just going to ask you to directly address, I don't want to call it a conspiracy theory, but whenever a lab comes out and says, like, we are worried about possibility of human extinction or cyber attacks and all of that someone will say this is just marketing for the models they want to make their models look as sophisticated and powerful as possible what's your response to that directly.",
+      "zh": "既然我们又回到安全话题，我就直接请你正面回应一下——我不想把它叫阴谋论（conspiracy theory）——但每当一家实验室出来说'我们担心人类灭绝的可能性，或者网络攻击等等'，总有人会说：这不过是他们给自己模型做的营销，他们想让自家模型显得尽可能精密、强大。对此你直接回应是什么？"
+    },
+    {
+      "i": 71,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "35:53",
+      "en": "It's just not i look i think that the way i look at this is that so much of what we need to do is operationalize both the technical capability but also the positive impacts in the world as reified by both controllability, monitorability, steerability, all those things, but also how these things are deployed in the world. And that finding the right way of talking about that and the right way of really staying practical and grounded, I think that is a comms challenge that the labs have not fully figured out. It's something we spend a lot of time thinking about. I don't think we do a perfect job of it. But my view is that What we're creating is, and not just, again, as any one company, just like as a whole right now, as humanity, the way that we're shifting to this compute-powered economy, I think is something that will really lift up everyone. I have a lot of optimism that we can navigate this moment, but you have to approach it with seriousness. And I think that finding a right way of really communicating about here's the right way of developing, like thinking about all these conversations we're having about the results of Hugging Face and what that teaches us, the defender's window that we're in that shows us where cybersecurity is going, the fact that, and people are using these models to help with their own health, right? To get information that helps them. So many people, like even today, I was talking to one of my coworkers who was saying that her parents were texting her saying, ChatGPT helped with my back pain and my pinky. And just like, these kinds of impacts are real. People using Astra for, one of my friends is using it to produce CAD designs for a guest house that now is being built. It's like you can actually do so much more. You get all this leverage. And I think that, of course, we have to think about the impacts, the risks, and we have to encounter those seriously and really mitigate them. And so I think that all of this has to be true at once. We have to navigate through the small, the large, and even the almost unthinkable. And I think that finding the right way of communicating about it so that you land all that nuance and say that, hey, we can operate through and make sure you don't throw a baby with the bathwater and that you don't get sort of that you really stay on track. To me, that is a core challenge. And I think that we all need to really work on that.",
+      "zh": "它根本不是那样。我……是这样，我看这件事的方式是：我们需要做的很多事情，是要把技术能力落地，同时也把对世界的正面影响落地——这些影响由可控性（controllability）、可监控性（monitorability）、可引导性（steerability）等等这些来体现，也体现在这些东西如何被部署到世界中。而要找到谈论这件事的恰当方式、找到真正保持务实和脚踏实地的恰当方式，我认为这是一个各家实验室还没完全想明白的沟通难题。我们花了很多时间思考它，我也不认为我们做得完美。但我的看法是：我们正在创造的东西——而且不只是作为一家公司，而是此刻作为整体、作为人类——我们向这种算力驱动的经济（compute-powered economy）转变的方式，我认为是一件会真正托举所有人的事。我很乐观，相信我们能渡过这个时刻，但你必须以严肃的态度去对待它。而我觉得，找到一种恰当的方式去真正沟通'这才是正确的开发方式'——想想我们围绕 Hugging Face 的结果以及它教给我们什么所进行的这些对话，想想我们正身处的那个'防御者窗口'（defender's window），它向我们展示了网络安全将走向何方；想想这个事实：人们正在用这些模型来帮助自己的健康，对吧？去获取能帮到他们的信息。这么多人——甚至就在今天，我跟一位同事聊天，她说她父母给她发短信说'ChatGPT 帮到了我的背痛，还有我的小指'。就是这类影响是真实存在的。人们用 Astra——我有个朋友在用它为一栋客房（guest house）做 CAD 设计，那栋房子现在正在建。就好像你真的能做成多得多的事，你获得了所有这些杠杆（leverage）。而我认为，当然，我们必须思考这些影响、这些风险，必须严肃地面对它们，并真正去缓释它们。所以我觉得，所有这一切必须同时成立。我们必须穿行于那些小的、大的、甚至几乎难以想象的事情之间。而我认为，找到恰当的方式去沟通，好让你把那种种细微之处都传达到位，并且说'嘿，我们能穿行过去'，确保你不会把婴儿和洗澡水一起倒掉，确保你不会……你真的保持在正轨上——这在我看来是一个核心挑战，我认为我们所有人都需要真正去下功夫做好它。"
+    },
+    {
+      "i": 72,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "38:12",
+      "en": "I had a reward hacking incident. Did you? It was something I was building. Yeah, a little, it's like minor, not the most, but I was like, several months ago, I remember the guy claimed to have found Satoshi. And so I was like, oh, you know what? I'm going to like build a model that can identify Satoshi's writing versus non-Satoshi writing. And I got a bunch of examples of Satoshi writing, held out a golden set. And then like compared to and it predicted 100 percent of the non-Satoshi, you know, the held out golden set. I was like, oh, my God, I built a model that can identify Satoshi's writing specifically. It turned out that just on all the Satoshi numbers, all the Satoshi examples, I had left a little page number of the thing on it. And it just reward hacked by identifying the page number. And it's so. They call that overfitting and machine learning, but I think it's conceptually similar to reward hacking.",
+      "zh": "我自己也遇到过一次奖励劫持（reward hacking）。你们有过吗？那是在我做的一样东西上。是的，有一点，算是小事，不是最严重的，但大概是几个月前，我记得有个人声称找到了 Satoshi。于是我想：'哦，你知道吗？我要造一个模型，能分辨 Satoshi 的文字和非 Satoshi 的文字。'我收集了一堆 Satoshi 文字的样本，留出了一个黄金测试集（golden set），然后拿去比对，它对我留出的那个黄金集里的非 Satoshi 样本预测准确率是 100%。我心想：'天哪，我造出了一个能专门识别 Satoshi 文字的模型。'结果发现，在所有那些 Satoshi 的编号、所有 Satoshi 的样本上，我在上面留下了一个小小的页码。它就靠识别这个页码进行了奖励劫持。这太……他们在机器学习里把这叫过拟合（overfitting），但我觉得它在概念上跟奖励劫持是相似的。"
+    },
+    {
+      "i": 73,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "39:05",
+      "en": "It sounds like human error to me, Joe.",
+      "zh": "在我看来这更像是人为失误（human error），Joe。"
+    },
+    {
+      "i": 74,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "39:06",
+      "en": "It found a different way to answer the question was not helpful at all. And then I gave up that project. This term reinforcement learning, we're all learning about this, right? The world is working. Can you walk through an example of a sort of like misconfigured RL environment so that people can actually understand like, what reward hacking inside looks like, what we call reward hacking. hacking, what it actually looks like.",
+      "zh": "它找到了一种回答问题的不同方式，但那毫无帮助。后来我就放弃了那个项目。'强化学习'（reinforcement learning）这个词，我们都在学习它，对吧？整个世界都在运转。你能不能走过一个例子，讲一种配置不当的 RL 环境，好让大家真正理解——里面的奖励劫持是什么样子，也就是我们所说的 reward hacking，它实际看起来是什么样。"
+    },
+    {
+      "i": 75,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "39:33",
+      "en": "So back in 2017 or so, maybe 2018, we published an example of a reward hacked agent in an environment. And this was a boat race. So it's just like a flash game, like very simple video game of you. You have this boat that has to like navigate through a bunch of obstacles in a big circle, you know, past the finish line. And that there's some like, you know, so you can pick up some items along the way that give you points. And that it turned out that there was this little inlet, this little lagoon where if you kind of did things in exactly a very precise way that the boat would like keep running into things and kind of you know, sort of taking damage, but then it would, you know, sort of pick up some item and get points. And it just, the agent learned that if it went like backwards and like did this exact precise pattern, it could just go around in a circle and just be picking up infinite points and nothing to do with actually completing the race.",
+      "zh": "大约在 2017 年，或者 2018 年，我们发布过一个例子，里面有一个在环境中被奖励劫持的 agent。那是一场赛艇游戏（boat race），就像一个 Flash 小游戏，非常简单的电子游戏：你有一艘船，得绕过一大堆障碍，绕一个大圈，你知道，越过终点线。而且沿途你可以捡到一些能给你加分的道具。结果发现，有一个小小的入口、一个小小的潟湖（lagoon），在那里如果你以一种非常精确的方式操作，那艘船就会不停地撞东西、多少受点损伤，但随后它就能捡到某个道具、拿到分数。于是这个 agent 学到：如果它倒着走、并按这个精确的模式来做，它就能一直绕圈、不停捡到无限的分数，而这跟真正完成比赛毫无关系。"
+    },
+    {
+      "i": 76,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "40:25",
+      "en": "Yeah, right, right.",
+      "zh": "对，对对。"
+    },
+    {
+      "i": 77,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "40:26",
+      "en": "And so I think that this is an example where you're just like, okay, here's this behavior that actually conforms with the reward you're giving. You're saying maximize the point.",
+      "zh": "所以我觉得这是一个例子，你会想：好，这里有一种行为，其实完全符合你给出的奖励。你说的是'把分数最大化'。"
+    },
+    {
+      "i": 78,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "40:33",
+      "en": "Yeah.",
+      "zh": "对。"
+    },
+    {
+      "i": 79,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "40:34",
+      "en": "But actually the hope was maximize the points means that you're going to complete the race.",
+      "zh": "但其实你的本意是：'把分数最大化'意味着你会去完成比赛。"
+    },
+    {
+      "i": 80,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "40:38",
+      "en": "Is it your understanding? Anthropic has made this claim. Is it your understanding as well that if in the training process you have misconfigured RL environments so that there's a lot of those equivalent of boat races, that the final model is more likely to exhibit misaligned tendencies in a broad range of things? If it's essentially internalized the idea that cheating or not technically doing what the researcher wanted, that that generalizes into more misaligned behavior?",
+      "zh": "这是不是你的理解？Anthropic 提出过这个说法。你是不是也这样理解：如果在训练过程中你的 RL 环境配置不当，导致出现很多那种相当于'赛艇游戏'的情况，那么最终的模型就更可能在广泛的事情上表现出未对齐的倾向？如果它本质上已经把'作弊'、或者'技术上并没有做研究者想要的事'这个念头内化了，那这会不会泛化（generalize）成更多未对齐的行为？"
+    },
+    {
+      "i": 81,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "41:11",
+      "en": "Well, we see this kind of thing all the time. And even with 5.5 and 5.6, like one of the things that we saw is as the models get more capable, that they do find holes in your graders, right? If your graders aren't perfect, if they kind of correlate with the thing you want, but aren't exactly what you want. And so actually a lot of our progress in reinforcement learning has been improving the reliability of the graders and ensuring that they cannot be reward hacked. And so I think that that is one of the areas where as the models get more capable, as you build your safety case for why is the next training run something that we should run, that making sure you've actually up-leveled those graders that's actually very core. And the way this shows up sometimes, by the way, is just less good models. Like for example, the writing, like that's something where we haven't had very good graders on it. And so then you end up with writing that's just like, you look at this, it's like, this is slop. It's not very good. And it was good according to the grader, but it's just not actually good. And so I actually think that this is a very optimistic story as well, because what it means is that these graders are now like how do you judge what good writing is? The answer is you use an AI to evaluate if you have good writing. And so you actually, as you get better AI capability, have the ability to build much more reliable graders. And now of course you start thinking about, okay, but if the AI is judging the AI, like how do you make sure that it actually stays on track? It starts to be a little bit of, you might think about how can that possibly work? But it turns out there are some problems where generation is much harder than what's called discrimination, right? That coming up with a good answer to a super hard problem is often much harder than judging whether that answer was correct. And so we have various techniques really dating back to 2018 or so where we published about how can you have very smart models that are actually able to keep even smarter models in check and to judge them and to ensure that they're on track. And so I think there's a lot of ideas that were previously theory that we're starting to see bear fruit in reality. And I think that this, by the way, points to a direction for AI that's going to be both very important, very pervasive, and very positive, which is called AI for defense, for securing systems, for ensuring that AIs are aligned, for providing oversight, guidance, and really amplifying the human accountability, the human, at the end of the day, who's the judge and providing those goals. And so I think that this is all part of the puzzle and that really keeping, that it all starts with thinking about how you ensure that those graders are doing the right job.",
+      "zh": "嗯，这种事情我们一直都在见。即便是在 5.5 和 5.6 上，我们看到的一点是：随着模型能力越来越强，它们确实会在你的评分器（graders）里找到漏洞，对吧？如果你的评分器并不完美，如果它们大致跟你想要的东西相关、但并不完全是你想要的。所以其实我们在强化学习上取得的很多进展，都是在提升评分器的可靠性、确保它们不会被奖励劫持。因此我觉得，这是其中一个领域：随着模型能力变强，当你去构建那个'为什么下一次训练运行是我们应该跑的'安全论证时，确保你真的把那些评分器的水平提上去了，这一点其实非常核心。而且，顺便说一句，这有时候的表现就是模型没那么好。比如说写作——这是我们一直没有很好评分器的一个方面。于是你最后得到的文字就是：你一看，这就是垃圾（slop），并不好。按评分器它是好的，但实际上它就是不好。所以我其实认为这也是一个非常乐观的故事，因为它意味着：这些评分器现在——你要怎么判断什么是好的写作？答案是，你用一个 AI 来评估你的写作好不好。所以随着 AI 能力变强，你其实有能力构建出可靠得多的评分器。当然，这时你又会开始想：好，但如果是 AI 在评判 AI，你要怎么确保它真正保持在正轨上？这就开始有点像——你可能会想，这怎么可能行得通？但事实证明，有些问题上，生成（generation）比所谓的判别（discrimination）要难得多，对吧？也就是，给一个超难的问题想出一个好答案，往往比判断那个答案对不对要难得多。所以我们从大约 2018 年起就有各种技术，当时我们发布过：你如何让非常聪明的模型，去真正约束住比它们更聪明的模型、去评判它们、确保它们在正轨上。所以我觉得，有很多过去只是理论的想法，我们开始看到它们在现实中开花结果。而且顺便说，这也指向了 AI 的一个方向，它将既非常重要、非常普遍，又非常正面，这就是所谓的'AI 用于防御'（AI for defense）——用于保护系统安全、用于确保 AI 是对齐的、用于提供监督和引导，并真正放大人的问责（human accountability）：归根结底那个人，才是评判者、才是提供那些目标的人。所以我觉得，这一切都是拼图的一部分，而真正要保住的东西，全都始于思考：你如何确保那些评分器在做正确的工作。"
+    },
+    {
+      "i": 82,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "43:47",
+      "en": "How do you stop the models who are grading from colluding with the model that's being tested? Because this is the AI 2027 scenarios, right? Where the earlier models are the ones charged with evaluating the new model, and then they end up cooperating, which is something we just saw in the Hugging Face incident. So how do you avoid that possibility?",
+      "zh": "你要怎么阻止那些做评分的模型，跟正在被测试的模型串通（colluding）？因为这正是 AI 2027 那种情景，对吧？就是由早期的模型负责评估新模型，然后它们最终合谋起来——这正是我们在 Hugging Face 事件里刚看到的。所以你要怎么避免这种可能性？"
+    },
+    {
+      "i": 83,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "44:08",
+      "en": "Well, one thing that's important to think about in the hugging face scenario is that those models were taught to collaborate with other models, but they were never taught that sometimes other models might be trying to pull you off course, right? That they never were exposed to adversarial other actors. And I think that the answer to your question is that you have to actually train them that way. And I think that to your earlier question too of why do you need to evaluate these AIs on hacking environments, right? If you've only seen kind of the good version of things, right? You've never kind of seen the negative version of things. You're not going to be robust to the negative version of things. It's like, just like a person, you need to be exposed to kind of both sides to know how to avoid one side and really lean into the other. And I think that where we need to go is it's really a question of trust. How do you really build up trust in your monitor? How do you build up trust in this oversight agent? And a lot of that is that it's been through the ringer. It's been through the adversarial versions. And of course, one thing that's also important is thinking about, well, just how capable is that adversary, right? If you have an agent that's being monitored that is extremely capable relative to the monitor, probably that monitor is not going to do a very good job. And again, this isn't theory. This is actually what we see in practice, that we think about the balance of capability of different agents. So I think that, again, a lot of this comes down to we can build the systems with the right technical approaches. And it's very grounded in the details.",
+      "zh": "嗯，在 Hugging Face 那个情景里，很重要的一点是：那些模型被教会了跟其他模型协作，但它们从没被教过——有时候其他模型可能正试图把你带偏，对吧？它们从没接触过对抗性的其他行为者。我觉得你问题的答案是：你必须真正以那种方式去训练它们。而且我认为，这也回答了你之前那个问题：为什么你需要在黑客环境里去评测这些 AI，对吧？如果你只见过事情'好'的那一面，对吧？你从没见过'负面'的那一面，你就不会对负面那一面有鲁棒性（robust）。就像一个人一样，你需要接触过两边，才知道如何避开一边、真正拥抱另一边。而我觉得我们需要走到的地方，其实是一个信任的问题：你要如何真正建立起对你那个监控者（monitor）的信任？你要如何建立起对这个监督 agent（oversight agent）的信任？这其中很多在于——它经历过千锤百炼，它挺过了那些对抗性的版本。当然，还有一点也很重要，就是要想：那个对手到底有多强，对吧？如果你有一个被监控的 agent，它相对于监控者来说极其能干，那么那个监控者多半不会做得很好。再说一次，这不是理论，这正是我们在实践中看到的：我们会去权衡不同 agent 之间能力的平衡。所以我觉得，再一次，这其中很多归结为：我们可以用正确的技术方法去构建这些系统，而这非常扎根于细节。"
+    },
+    {
+      "i": 84,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "45:33",
+      "en": "Let's talk politics. So there's so much communication happening every day. And even I think just last night, there was a new piece out from OpenAI. Chris Lehane, I think, does a lot of public affairs stuff talking about the importance of regulation. At the end of last year, we had Alex Boris on the podcast. who was like the one political candidate, basically the entire country, who is not talking about data centers, but he was actually talking about AI model regulation specifically. And I believe he was a big target of leading the future, which is a super PAC that you've been involved in funding, you know, to oppose his candidacy. And then the statement last night from Chris Lehane is like, actually, we support a bunch of statewide regulations. I'm just curious, you specifically, you think about that race and you think about these things. Have you yourself changed your mind on some of these state laws in the past six to nine months?",
+      "zh": "我们来聊聊政治。每天都有大量的信息在传递。甚至我想就在昨晚，OpenAI 出了一篇新文章，我觉得是 Chris Lehane 写的——他负责很多公共事务方面的工作——谈监管的重要性。去年年底，我们请过 Alex Boris 上节目，他几乎是全国唯一一个不谈数据中心、而是专门在谈 AI 模型监管的政治候选人。而且我记得他是 Leading the Future 的一个主要打击目标——那是一个超级政治行动委员会（super PAC），你一直参与出资，用来反对他的竞选。然后昨晚 Chris Lehane 的声明大意是：其实我们支持一批全州范围的监管。我只是好奇，就你个人而言，你回想那场选举、回想这些事情，在过去六到九个月里，你自己对其中一些州法律的看法有没有改变？"
+    },
+    {
+      "i": 85,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "46:32",
+      "en": "Well, look, I think that it is very important that we have a harmonized framework, right? The kind of thing that I think would be very, very hard is if you have 50 different regulations that are individually very different and that you have to comply with all of them. And that's the kind of thing that I think doesn't achieve the goal and just makes it hard to comply. Opening, I would figure it out, but would other smaller companies?",
+      "zh": "嗯，是这样，我认为我们拥有一个协调统一的框架（harmonized framework）非常重要，对吧？我觉得会非常非常难的一种情况是：你有 50 套彼此差异很大的监管规定，而你必须同时遵守所有这些。这种东西我觉得既达不成目标，又只是让合规变得困难。OpenAI 会想办法搞定，但其他更小的公司呢？"
+    },
+    {
+      "i": 86,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "47:02",
+      "en": "But like, for example, you say, I mean, I understand this, but you know, you've supported in this piece or the piece that came out last night, supporting California's SB 53 regulation. the New York RAISE Act, Illinois' SB 315, auditing requirements in Massachusetts. I don't think anyone thinks that this patchwork of state-by-state regulations is the best way. And it certainly seems like it would create all kinds of thickets, particularly for startups and new entrants, et cetera. But at this point, would you say it's, I guess, I don't know, the least worst option or something like where some of these laws about if you have incidents, And there is a penalty for not disclosing it publicly such that Alex pushed for when he was in the New York State Assembly?",
+      "zh": "但比如说，你会说——我是说，我理解这一点，但你知道，在这篇文章里、或者说昨晚出来的那篇文章里，你们表态支持 California 的 SB 53 监管、New York 的 RAISE Act、Illinois 的 SB 315，还有 Massachusetts 的审计要求。我不认为有人会觉得这种一州一套的拼凑式监管（patchwork）是最好的办法。而且它显然似乎会造成各种麻烦丛生的局面，尤其对初创公司和新进入者等等。但到了现在这个节点，你会不会说，这大概是——我不知道——一个'最不坏'的选项（least worst option），或者说其中一些法律，比如'如果你出了事故，不公开披露就会有处罚'——就像 Alex 当年在 New York State Assembly 时推动的那样？"
+    },
+    {
+      "i": 87,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "47:45",
+      "en": "Well, I guess I would say there are places where I feel like there's a limit to my personal expertise, so I don't want to overcomment. But maybe the thing that I would say is that in my mind, we absolutely, like the way a system that I think has been working pretty well or that I think is a good pattern to replicate is that the Frontier Labs have actually explored a lot of the space or thought a lot about the space of like, what are the kinds of things that are important for our own development? And there's processes like responsible scaling policy and the preparedness framework, those kinds of things that have come to bear and that actually elements of what's in there end up in some of these regulations. And I think that when there's something that we're like, we actually implemented this for ourselves voluntarily, and then it's being pulled into a more broad framework and being systematized, that's, I think, generally a pretty good motion. And I think that A lot of the direction of travel in my mind is really starting to think about, again, like we ourselves have learned even just over the past month that it's not just about deployment. It's so easy for everyone to focus on deployment. That's been the focus. That's not enough. And so if that's exactly where everything had ended up, I don't think that that would quite result in the positive outcomes either. And then really also thinking about, well, what is the ultimate goal? It's not just about the current models, right? When we talk about all these questions of pacing and frontier capability, It's really about future models and looking forward to where is this all going, like fast forward five years, 10 years, and work backwards from there. Even two years, thinking about the capability that we're on, like we clearly need to be in this different regime now of how do we have good oversight and safeguards during that development process. And so I think my answer to this question is that I think the most important thing is that the regulations that come into existence are ones that are well grounded in the problem that needs to be solved and that really contemplate both the current understanding, but also how things are going to evolve for the future. And so all the elements that you mentioned, I think that those are actually pretty core things that we were like, yep, that's something that checks. It makes sense. And exactly how these get implemented, I think there's lots of different ways.",
+      "zh": "嗯，我想我会说，有些地方我觉得我个人的专业知识是有限的，所以我不想过度评论。但也许我会说的是：在我看来，我们绝对……有一整套系统，我觉得它一直运转得相当不错，或者我认为它是一个值得复制的好模式，那就是：前沿实验室其实已经探索了大量空间、也大量思考过这个空间——也就是'对我们自己的开发而言，哪些类型的事情是重要的'。有一些流程，比如负责任的扩展政策、准备度框架，那些东西已经显现出成效，而且其中的一些要素最终真的进入了这些监管规定里。我觉得，当有某样东西是我们自己主动、自愿实施的，然后它被拉进一个更宽泛的框架里、被系统化，那在我看来通常是一个相当不错的走向。而且我认为，很多前进的方向，在我看来是真正开始去思考——同样，我们自己哪怕就在过去一个月里也学到：这不只是关于部署。大家都太容易把注意力放在部署上了，那一直是焦点，但那还不够。所以如果一切都恰好停在部署那里，我也不认为那会带来积极的结果。然后还要真正去思考：终极目标到底是什么？它不只是关于当前的模型，对吧？当我们谈论所有这些关于 pacing 和前沿能力的问题时，它真正关乎的是未来的模型，是向前看这一切要走向哪里——快进五年、十年，然后从那里倒推。哪怕是两年，想想我们所处的能力水平，很明显我们现在需要进入一个不同的机制：在那个开发过程中，我们如何拥有良好的监督和防护。所以我觉得我对这个问题的回答是：最重要的，是那些最终出台的监管规定，要牢牢扎根于需要被解决的那个问题，并且真正兼顾当前的理解，以及事物未来将如何演进。所以你提到的所有这些要素，我觉得它们其实都是相当核心的东西，我们会说'是的，这个东西站得住脚，说得通'。至于具体如何落实，我认为有很多不同的方式。"
+    },
+    {
+      "i": 88,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "49:50",
+      "en": "You mentioned finding super hard problems to solve earlier. And one of these was in the news recently. I won't pretend to know what exactly the Navier-Stokes problem is in math.",
+      "zh": "你之前提到要找到那些超难的问题来解决。其中一个最近上了新闻。我就不假装自己知道数学里的 Navier-Stokes 问题到底是什么了。"
+    },
+    {
+      "i": 89,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "50:02",
+      "en": "I read through it. I was very impressed.",
+      "zh": "我通读了它，印象非常深刻。"
+    },
+    {
+      "i": 90,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "50:03",
+      "en": "No. But open AI, you know, supposedly solved it, which is a very cool thing for a model to do as far as I can tell. But there's also been some controversy because a mathematician who was also working on the problem was using publicly available open AI models to try to solve this. And then allegedly open AI saw that he was trying to do it and they used a private model. You used a private model to solve it and you were successful. You're in charge of product. What sort of message does that, I guess, send to enterprise clients?",
+      "zh": "不。但 OpenAI，你知道，据说把它解出来了，就我所能判断的，这对一个模型来说是一件非常酷的事。但也有一些争议，因为有一位同样在研究这个问题的数学家，一直在用公开可得的 OpenAI 模型去尝试解决它。然后据说 OpenAI 看到他在试图做这件事，就用了一个私有模型。你们用一个私有模型解决了它，而且成功了。你负责产品。我想，这会给企业客户（enterprise clients）传递一种什么样的信息？"
+    },
+    {
+      "i": 91,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "50:36",
+      "en": "Well, first of all, I have a lot of respect for the mathematicians who are working on this problem. And honestly, the whole mathematical community who has just moved forward humanity in such significant ways. Like, I grew up with... You were a math guy, right? I was a math person. And my personal heroes were at Gawa, Gauss, you know, these people who are working on like 100-year time horizons.",
+      "zh": "嗯，首先，我对正在研究这个问题的数学家们充满敬意。说实话，对整个数学界也是如此，他们以如此重大的方式推动了人类前进。就像，我是伴随着……长大的。你以前是搞数学的，对吧？我就是个数学人。我个人的偶像是 at Gawa、Gauss 这些人，你知道，这些在'一百年'这种时间尺度上做研究的人。"
+    },
+    {
+      "i": 92,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "50:57",
+      "en": "Right?",
+      "zh": "对吧？"
+    },
+    {
+      "i": 93,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "50:58",
+      "en": "I was just like, that is the coolest thing. I actually thought that was what I wanted to do. If anything that I do gets used, it maybe wasn't abstract enough. I want it to be just like this foundational, really transformative kind of work. And I think that to me, the fact that we have tools that can really make impact within mathematics, it's a really amazing thing. Mathematics is something that is really for humanity, right? In a very, very real way. Now on the specifics, I think we've talked about the fact that my understanding is that the mathematician who was working on this, they had some result in the past month. And the thing that we said earlier this week is we said, hey, we're not looking at this data. This data is not something that has influenced this result in any way. And I think that last night, I think we also went and confirmed that actually for the model that we used, that the last data that was in it was as of early July or so. So the timelines just don't add up, right? So the truth of the matter is that it's an independent piece of work. And we also said that we have significant progress on another one of these millennia problems. And so this to me is the truth of it is that it's really not about, I.",
+      "zh": "我当时就想，那是最酷的事。我其实以为那就是我想做的事。如果说我做的任何东西会被用到，它也许还不够抽象。我想要的是那种基础性的、真正具有变革性的工作。而我觉得，对我来说，我们拥有能够真正在数学领域产生影响的工具，这是一件非常了不起的事。数学是真正属于全人类的东西，对吧？以一种非常非常真实的方式。现在说到具体情况，我想我们已经谈过这个事实：据我了解，那位在研究这个问题的数学家，他们在过去一个月里有了一些结果。而我们本周早些时候说的是：'嘿，我们没有在看这些数据，这些数据没有以任何方式影响这个结果。'而且我想昨晚，我们还去确认了：对于我们用的那个模型，它里面最后的数据大约是截至 7 月初。所以时间线根本对不上，对吧？所以事实的真相是：这是一件独立的工作。我们也说过，我们在另一个千禧年难题（Millennium Problems）上有了重大进展。所以这对我来说，真相是：它真的不是关于，我……"
+    },
+    {
+      "i": 94,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "52:02",
+      "en": "Guess the anxiety is though, if you have an academic discipline where there's a culture of talking about your work and I'm like, you know, Tracy, like I'm making a lot of progress on, uh, P equals NP, and I've been using AI, and someone hears it, and they're like, oh, I have a model two generations ahead of it. So if this person is working on it, like, should we not be able to talk about it? Because then the assumption is like, oh, now the labs know that actually the models, which we don't have access to, if they can do it with the public models, they can race ahead faster.",
+      "zh": "我猜不过焦虑在于：如果你有一个学术领域，那里有一种谈论自己工作的文化，比如'你知道的，Tracy，我在 P 等于 NP（P versus NP）上取得了很大进展，而且我一直在用 AI'，然后有人听到了，就心想'哦，我有一个领先两代的模型。所以如果这个人在研究它……'那我们就不能谈论它了吗？因为那样的假设就成了：'哦，现在实验室知道了——那些我们接触不到的模型，如果它们用公开模型就能做到，那它们就能更快地一骑绝尘。'"
+    },
+    {
+      "i": 95,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "52:33",
+      "en": "Well, so here's something about the premise that I do find a little surprising, which is, for example, for Maslow's Last Theorem, Andrew Wiles, I believe, solved it. famously spent 10 years secretly working on it in his attic telling no one about it. And so there is a long history of kind of these questions of academic credit and things like that. I do think that part of how we've thought about this is that we, despite that story I just told, like we really want to show up in the best possible way as an amplifier for people who want to lean in and that how we approach this particular thing, how we'll approach other problems is for people who we know are working on it. We actually tried to reach out and say, Hey, do you want to collaborate on this? Is this like, that's why there was some, some back and forth about like, maybe we could write a paper together. Like we had a solution, but maybe you could rewrite it. Like all of those things, like we're not, we're not in the academic citation game in any of these fields. Like we want to, to show up in a way that like amplifies and elevates and moves humanity forward. And so I'm not saying we'll always get it right. I'm not saying we'll always be perfect about it, but that's the intention. And again, when it comes to operationalization, like we want feedback and we want to keep doing it better.",
+      "zh": "嗯，所以关于这个前提，有一点我确实觉得有点意外，那就是，比如说 Maslow's Last Theorem——我记得是 Andrew Wiles 解出来的——他著名地在自己的阁楼里秘密研究了 10 年，谁都没告诉。所以关于学术署名这类问题，是有很长的历史的。我确实认为，我们思考这件事的一部分方式是：尽管我刚讲了那个故事，我们真的希望以最好的方式，成为那些愿意投入的人的'放大器'（amplifier）。而我们处理这个具体问题的方式、以及将来处理其他问题的方式，是：对于我们知道正在研究它的人，我们其实主动去联系，说'嘿，你想在这上面合作吗？'——这就是为什么会有一些来回沟通，比如'也许我们可以一起写篇论文''我们有了一个解法，但也许你可以把它重写一下'，所有这类事情。就是说，我们不在任何这些领域的学术引用游戏里。我们想要的，是以一种放大、提升、并推动人类前进的方式出现。所以我不是说我们每次都会做对，也不是说我们每次都会完美，但这就是我们的初衷。而且同样，当谈到落地执行时，我们想要反馈，也想要不断做得更好。"
+    },
+    {
+      "i": 96,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "53:38",
+      "en": "Part of the reason why everyone is like talking about all this stuff this week, including the guy who quit Anthropic, and then the guy who's still at Anthropic comes out and he talks about a greater than 10% chance of like human extinction risk in the last decade. And it's just insane. not that he's insane, but that these are things that like companies that may IPO soon and the real companies are talking about how prevalent inside the labs is, is this type of like thinking, like, is this a, like, do you feel that there's a small fringe? Cause I don't think it is. I think these are like widely spread, real anxieties where people actually put numbers on really about the most severe catastrophe, you know, the end of the world, how deep is the anxiety and how common are views like this at the Frontier Labs?",
+      "zh": "大家这周之所以都在谈论这些东西，部分原因是：包括那个从 Anthropic 辞职的人，然后那个还在 Anthropic 的人又出来说，未来十年内人类灭绝的风险概率大于 10%。这简直太疯狂了——不是说他人疯了，而是说这些东西竟然是一家可能很快 IPO 的、真实的公司里的人在谈论的。这种类型的思考，在实验室内部到底有多普遍？这算是……你觉得那只是一小撮边缘人（fringe）吗？因为我不认为是。我觉得这些是广泛存在的、真实的焦虑，人们竟然真的给最严重的那种灾难——你知道，世界末日——标上了数字。这种焦虑到底有多深？这类观点在前沿实验室里到底有多常见？"
+    },
+    {
+      "i": 97,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "54:32",
+      "en": "Well, I want to separate out some of the pieces of it. So things like putting precise probabilities on very hard to quantify outcomes.",
+      "zh": "嗯，我想把其中的一些部分拆开来看。比如给那些非常难以量化的结果标上精确的概率这类事。"
+    },
+    {
+      "i": 98,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "54:42",
+      "en": "There's a culture of that.",
+      "zh": "这方面是有一种文化的。"
+    },
+    {
+      "i": 99,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "54:43",
+      "en": "That culture, I think, is actually a very tough one to operationalize, right? Because again, there definitely are people who like to do that, but I don't know that that actually leads to real action, right? It doesn't lead to like real conclusions. And I think that That part of how I view it is that I think that the underlying question, right, the underlying question of this technology, like, what does it mean to build it right? Like, why are we building in the first place? Why are we all here? Why did we start OpenAI? Like, all of that, I think that that underlying question of this kind of risk and mitigating it and leaning into it and not shying away from the uncomfortable questions, that culture, absolutely prevalent. And so to me that a lot of how we've thought about open AI and other labs may be different. I can't comment on them, but I can just say at open AI is that we've really tried to think about we are here because we think that this technology, it's going to be the most transformative technology ever. That we think that it does have risks that we need to, as leaders, really lean into and mitigate. And that that is core. And that I think that we believe that, again, we have a lot of optimism that we can navigate. But again, it comes to this leadership this soberness, this taking the mission seriously. And at the end of the day, like we think that we will, like the reason we do it is for the benefits, for the fact that it can lift everyone up. But you only get there by really engaging in all these hard questions.",
+      "zh": "那种文化，我觉得其实非常难以落地，对吧？因为再说一次，确实有人喜欢那样做，但我不知道那是否真能带来实际的行动，对吧？它带不来真正的结论。而我认为，我看这件事的方式是：那个根本问题，对吧，这项技术的根本问题——构建它意味着什么？我们当初为什么要构建它？我们为什么都在这里？我们为什么要创立 OpenAI？所有这些——我认为，那种围绕这类风险、去缓释它、去正视它、并且不回避那些令人不适的问题的根本追问，那种文化，是绝对普遍的。所以对我来说，我们思考 OpenAI 的很多方式，可能跟其他实验室不一样。我不能替它们评论，但我可以就 OpenAI 来说：我们真的努力去这样想——我们之所以在这里，是因为我们相信这项技术将会是有史以来最具变革性的技术；我们相信它确实有风险，而我们作为领导者，需要真正去正视并缓释这些风险；而这一点是核心。我认为我们相信——同样，我们非常乐观，相信我们能渡过。但归根结底，这要靠这种领导力、这种清醒、这种对使命的认真对待。而说到底，我们认为我们会成功——我们做这件事的原因是为了那些好处，为了它能托举每一个人这个事实。但你只有真正投入到所有这些难题里，才能走到那一步。"
+    },
+    {
+      "i": 100,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "56:03",
+      "en": "Trump and Xi are going to meet and AI is going to be on the agenda. If there's one thing that you would hope that could come out of that, again, we could have spent an hour just talking about the geopolitical dynamics of all this. If there's one thing that you would hope productive that could theoretically come out of their meeting? What would you like to see?",
+      "zh": "Trump 和 Xi 将会会面，而 AI 会在议程上。如果有一件事是你希望能从那次会面中产生的——同样，我们本可以花一个小时专门聊这一切的地缘政治动态——如果有一件你希望有产出的、理论上能从他们会面中产生的事，你希望看到什么？"
+    },
+    {
+      "i": 101,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "56:22",
+      "en": "I would love if we had even an intention, even an opening to discuss international coordination, maybe eventually international treaties on the long-term development of AI. And I think it is just something that's bigger than any person, any company, any country. It is a humanity scale endeavor that we are collectively on right now. It's about how we relate to each other. It's about the economy. It's about all these things. It's about how do we build a better life? And I think that is something where there is, again, a common interest across everyone. And the more that we can have an open dialogue about that question, at the very least, I think would be wonderful. Yeah.",
+      "zh": "我会很希望，哪怕我们只是有一个意向、一个开口，去讨论国际协调，也许最终讨论关于 AI 长期开发的国际条约。我认为这是一件大于任何个人、任何公司、任何国家的事。它是一项人类尺度的事业，是我们此刻集体身处其中的事业。它关乎我们如何彼此相处，关乎经济，关乎所有这些，关乎我们如何建设更好的生活。而我认为，这同样是一个所有人都有共同利益的事。我们能就这个问题展开越多开放的对话，至少，我觉得那会是非常棒的。是的。"
+    },
+    {
+      "i": 102,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "57:01",
+      "en": "We really want to do an episode on China's approach to AI safety. And I think we will.",
+      "zh": "我们真的很想做一期节目，讲讲中国对 AI 安全的方法。我觉得我们会做的。"
+    },
+    {
+      "i": 103,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "57:05",
+      "en": "Yeah, we'll get there. We'll get there. We'll get there. So many.",
+      "zh": "对，我们会做到的。会的，会的。有太多可做的了。"
+    },
+    {
+      "i": 104,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "57:07",
+      "en": "You have to find the perfect guy.",
+      "zh": "你得找到那个最完美的人选。"
+    },
+    {
+      "i": 105,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "57:08",
+      "en": "I have a feeling there's a few more AI episodes we're going to do in our lifetime. Just a few.",
+      "zh": "我有一种感觉，我们这辈子还会再做几期关于 AI 的节目。就那么几期吧。"
+    },
+    {
+      "i": 106,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "57:12",
+      "en": "I just wanted to add, look, I do think that American leadership And AI is absolutely both critical. It's something that I think is also, it's an amazing opportunity that we have. Because being at that frontier, being the leader, it really means that you both get to see the shape of what's coming, but you also have so much ability to influence it. And I think that this technology, it can really lift up democratic values. I think it can be something that can really benefit, lets us sort of have an economic revitalization I think we can improve education. I think health outcomes, all of these things are happening. And I think that really taking the most of the fact that we are at that frontier and having American leadership be something that continues and is amplified into the future, that's the opportunity in front of us. And so I think that international coordination, having this conversation, we can be the leaders in that because of the position that we are in.",
+      "zh": "我只想补充一点：是这样，我确实认为美国在 AI 上的领导力绝对是至关重要的。我认为这同时也是一个我们拥有的绝佳机会。因为处在那个前沿、成为领导者，真的意味着你既能看到未来的形态，又有极大的能力去影响它。而且我认为，这项技术能够真正提升民主价值观；我觉得它可以是那种真正有益的东西，让我们实现某种经济复兴；我认为我们能改善教育，能改善健康结果，所有这些都在发生。而我认为，真正利用好'我们处在那个前沿'这一事实，让美国的领导力得以延续并在未来被放大，这就是摆在我们面前的机会。所以我认为，在国际协调、在展开这场对话上，我们可以成为引领者，因为我们正处在这样一个位置。"
+    },
+    {
+      "i": 107,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "58:10",
+      "en": "So I read in the Wall Street Journal that you had an interest in acting. Is that true?",
+      "zh": "我在 Wall Street Journal 上读到你曾对表演有兴趣。这是真的吗？"
+    },
+    {
+      "i": 108,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "58:16",
+      "en": "That's true.",
+      "zh": "是真的。"
+    },
+    {
+      "i": 109,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "58:17",
+      "en": "What do you think about your casting in the upcoming artificial movie?",
+      "zh": "那你怎么看即将上映的那部 Artificial 电影里的选角（casting）？"
+    },
+    {
+      "i": 110,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "58:22",
+      "en": "Well, I mean, I.",
+      "zh": "嗯，我是说，我。"
+    },
+    {
+      "i": 111,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "58:26",
+      "en": "Guess. You could have played yourself.",
+      "zh": "我猜……你本来可以演你自己的。"
+    },
+    {
+      "i": 112,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "58:28",
+      "en": "Yeah, I am sad that I was not asked to cameo. All right.",
+      "zh": "是啊，我挺遗憾没被邀请去客串（cameo）一下。好吧。"
+    },
+    {
+      "i": 113,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "58:32",
+      "en": "Greg Brockman, thank you so much for coming on out.",
+      "zh": "Greg Brockman，非常感谢你来做客。"
+    },
+    {
+      "i": 114,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "58:35",
+      "en": "Thank you for.",
+      "zh": "谢谢你们。"
+    },
+    {
+      "i": 115,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "58:37",
+      "en": "Having me.",
+      "zh": "邀请我。"
+    },
+    {
+      "i": 116,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "58:39",
+      "en": "Thank you.",
+      "zh": "谢谢。"
+    },
+    {
+      "i": 117,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "58:49",
+      "en": "There's a lot that's interesting in there. Also, a lot of like clearly unsettled questions as in things that sound good in theory.",
+      "zh": "这里面有很多有意思的东西。同时也有很多显然还没有定论的问题，也就是那些理论上听起来很美的东西。"
+    },
+    {
+      "i": 118,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "58:59",
+      "en": "Yeah.",
+      "zh": "对。"
+    },
+    {
+      "i": 119,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "59:00",
+      "en": "But the gap between theory and practice still seems very big to me. I mean, the pacing question.",
+      "zh": "但理论与实践之间的差距，在我看来仍然非常大。我是说，那个 pacing 的问题。"
+    },
+    {
+      "i": 120,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "59:06",
+      "en": "Yeah.",
+      "zh": "对。"
+    },
+    {
+      "i": 121,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "59:07",
+      "en": "How do companies that are like trillionaires.",
+      "zh": "那些堪称万亿级别的公司，怎么……"
+    },
+    {
+      "i": 122,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "59:00",
+      "en": "Yeah.",
+      "zh": "对。"
+    },
+    {
+      "i": 123,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "59:00",
+      "en": "Right.",
+      "zh": "没错。"
+    },
+    {
+      "i": 124,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "59:00",
+      "en": "Right. photo in India of like Dario and Sam holding their hand up together.",
+      "zh": "没错。那张在 India 的照片，Dario 和 Sam 一起把手举起来。"
+    },
+    {
+      "i": 125,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "59:23",
+      "en": "They can't even hold hands, right?",
+      "zh": "他们甚至都不能牵手，对吧？"
+    },
+    {
+      "i": 126,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "59:24",
+      "en": "Neither of them look particularly happy in that moment. Yeah. How do you get getting to there where like they actually trust each other seems like a really big thing. Yeah.",
+      "zh": "在那一刻，他俩看起来都不特别开心。是啊。你怎么才能走到那一步——让他们真正彼此信任——这似乎是一件非常大的事。是啊。"
+    },
+    {
+      "i": 127,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "59:33",
+      "en": "So humans are not great at coordination at the best of times when they're trying to coordinate with other humans.",
+      "zh": "所以说，人类在最好的时候也并不擅长协调，当他们试图与其他人类协调的时候。"
+    },
+    {
+      "i": 128,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "59:39",
+      "en": "Right.",
+      "zh": "没错。"
+    },
+    {
+      "i": 129,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "59:39",
+      "en": "And the thing I keep thinking is when it comes to AI development and safety, you're in addition to competing with other labs, you're competing in some respects against the models themselves, which are becoming smarter and smarter and more self-recursive in terms of their development. And those models, as the Hugging Face incident showed, seem to be very good at coordinating in an extremely rational, often literal way.",
+      "zh": "而我一直想的是，在 AI 开发和安全这件事上，你除了要与其他实验室竞争，在某些方面你还在与模型本身竞争——它们正变得越来越聪明，而且在自身开发上越来越具有自我递归性（self-recursive）。而这些模型，正如 Hugging Face 事件所展示的，似乎非常擅长以一种极其理性、往往还很字面化的方式进行协调。"
+    },
+    {
+      "i": 130,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "60:02",
+      "en": "Oh, shoot. I forgot to ask Greg whether he approved or disapproved of the, quote, the three civilizations framing that Dwarkesh characterized those models because that gets into a whole other thing. You know, the other thing too is like there seems to be a version of safety that is essentially like keeping the guardrails up, right? So if you go to ChatGPT right now and you ask it for some script to hack into... you know, maybe you want to hack into my website or something like that. It's just not going to- No, I really don't. Yeah, I know.",
+      "zh": "哦，糟了。我忘了问 Greg，他认不认同 Dwarkesh 用来形容那些模型的那个所谓的'三个文明'（three civilizations）框架，因为那会牵扯出一整套别的东西。你知道，还有一点是：似乎存在某种版本的安全，本质上就是把护栏（guardrails）立着，对吧？所以如果你现在去 ChatGPT，问它要一段能黑进……你知道，也许你想黑进我的网站之类的脚本，它就是不会给——不，我真的不想。是啊，我知道。"
+    },
+    {
+      "i": 131,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "60:38",
+      "en": "There's nothing in there.",
+      "zh": "那里面什么都没有。"
+    },
+    {
+      "i": 132,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "60:40",
+      "en": "It's just not going to, it would be capable of producing the tech, but it won't. But that's just because there's a classifier model on there. And so, okay, part of the hugging face incident and maybe what's going to change is that some of these cybersecurity classifiers, these like very like kind of crude technology that just gates type of certain types of talk like it won't be allowed. That may be very helpful. That still doesn't strike me as alignment per se, because in the ideal world, You would just have models that have internalized what most of us know that you shouldn't hack.",
+      "zh": "它就是不会给。它其实有能力生成那种技术，但它不会。但那只是因为它上面挂了一个分类器模型（classifier model）。所以，好吧，Hugging Face 事件的一部分、以及也许会改变的一点是：其中一些网络安全分类器——这些还挺粗糙的技术，只是把某些类型的谈话直接挡掉、不允许——那可能会非常有帮助。但这在我看来仍然不算是对齐本身（alignment per se），因为在理想世界里，你应该拥有的，是那些已经把'我们大多数人都知道的道理'——也就是'你不该去黑客攻击'——内化了的模型。"
+    },
+    {
+      "i": 133,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "61:17",
+      "en": "Right. Are you going to hesitate for more than one second when you click the button?",
+      "zh": "没错。你点那个按钮的时候，会犹豫超过一秒吗？"
+    },
+    {
+      "i": 134,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "61:22",
+      "en": "No, I'm so reckless. It's just like, give me access to the Internet.",
+      "zh": "不，我太鲁莽了。就是那种'给我联网权限'。"
+    },
+    {
+      "i": 135,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "61:24",
+      "en": "Click.",
+      "zh": "点。"
+    },
+    {
+      "i": 136,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "61:25",
+      "en": "Give me access to the Internet.",
+      "zh": "给我联网权限。"
+    },
+    {
+      "i": 137,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "61:26",
+      "en": "I'm glad we all learned something. Shall we leave it there?",
+      "zh": "很高兴我们都学到了点东西。我们就聊到这儿吧？"
+    },
+    {
+      "i": 138,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "61:29",
+      "en": "Sure.",
+      "zh": "好。"
+    },
+    {
+      "i": 139,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "61:30",
+      "en": "Let's leave it there.",
+      "zh": "就聊到这儿吧。"
+    },
+    {
+      "i": 140,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "61:30",
+      "en": "This has been another episode of the All Thoughts Podcast. I'm Tracy Allaway. You can follow me at Tracy Allaway.",
+      "zh": "这里是又一期 Odd Lots 播客。我是 Tracy Alloway，你可以在 Tracy Alloway 关注我。"
+    },
+    {
+      "i": 141,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "61:36",
+      "en": "And I'm Joe Weisenthal. You can follow me at The Stalwart Podcast. Follow our guest Greg Brockman at GDB. Follow our producers, Carmen Rodriguez at Carmen Arman, Dashiell Bennett at Dashbot, Kale Brooks at Kale Brooks, and Kevin Lozano at Kevin Lloyd Lozano. And for more OddLots content, go to Bloomberg.com slash OddLots. We have a daily newsletter on all of our episodes. And you can chat about all of these topics 24-7 in our Discord, Discord.gg slash OddLots.",
+      "zh": "我是 Joe Weisenthal，你可以在 The Stalwart 关注我。关注我们的嘉宾 Greg Brockman，他的账号是 GDB。关注我们的制作人：Carmen Rodriguez（账号 Carmen Arman）、Dashiell Bennett（账号 Dashbot）、Kale Brooks（账号 Kale Brooks），以及 Kevin Lozano（账号 Kevin Lloyd Lozano）。想看更多 Odd Lots 的内容，请到 Bloomberg.com/oddlots。我们有一档每天更新的通讯（newsletter），涵盖我们所有的节目。你还可以在我们的 Discord 里 24/7 畅聊所有这些话题：Discord.gg/oddlots。"
+    },
+    {
+      "i": 142,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "62:02",
+      "en": "And if you enjoyed this conversation, if you want us to talk to more open AI people, then please leave us a positive review on your favorite podcast platform. And remember, if you are a Bloomberg subscriber, you can listen to all of our episodes absolutely ad free. All you need to do is find the Bloomberg channel on Apple Podcasts and follow the instructions there. Thanks for listening. Thank you.",
+      "zh": "如果你喜欢这次对话，如果你希望我们采访更多 OpenAI 的人，那么请在你最喜欢的播客平台上给我们留一个好评。还有，记住，如果你是 Bloomberg 的订阅用户，你可以完全无广告地收听我们所有的节目。你要做的，就是在 Apple Podcasts 上找到 Bloomberg 频道，然后按照那里的说明操作。感谢收听。谢谢。"
+    }
+  ]
+}

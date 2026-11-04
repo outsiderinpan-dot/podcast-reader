@@ -1,0 +1,1169 @@
+{
+  "show": "odd-lots",
+  "kind": "transcript",
+  "id": "odd-lots-351508ca2a",
+  "guid": "4dabf3ec-4fc6-4bb9-a7a7-b4d601226e6f",
+  "slug": "2026-10-02-how-airlines-actually-hedge-higher-fuel-351508ca2a",
+  "date": "2026-10-02",
+  "title_en": "How Airlines Actually Hedge Higher Fuel Prices",
+  "title_zh": "航空公司到底如何对冲更高的燃油价格：对话 Qatar Airways 前集团资金主管 David Kang",
+  "subtitle_zh": "Qatar Airways 前资金主管 David Kang 揭秘航空燃油套保内幕，以及如何把收入武器化，反亏为盈。",
+  "description": "How Airlines Actually Hedge Higher Fuel Prices",
+  "duration": "53:31",
+  "duration_seconds": 3211,
+  "episode_url": "https://omny.fm/shows/odd-lots/how-airlines-actually-hedge-higher-fuel-prices",
+  "audio_url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/8a94442e-5a74-4fa2-8b8d-ae27003a8d6b/4dabf3ec-4fc6-4bb9-a7a7-b4d601226e6f/audio.mp3?utm_source=Podcast&in_playlist=982f5071-765c-403d-969d-ae27003a8d83",
+  "speakers": {
+    "1": "Joe Weisenthal（主持）",
+    "2": "Tracy Alloway（主持）",
+    "3": "David Kang（嘉宾）",
+    "4": "片花/广告（旁白）"
+  },
+  "turn_count": 143,
+  "turns": [
+    {
+      "i": 0,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "00:00",
+      "en": "Hey, Odd Lots listeners, the Odd Lots tour continues and our next stop is in Chicago.",
+      "zh": "嘿，Odd Lots 的听众们，Odd Lots 巡演继续，我们下一站是 Chicago。"
+    },
+    {
+      "i": 1,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "00:05",
+      "en": "That's right. Joe and I will be at the City Winery Chicago on October 15th for a live Odd Lots recording. Tickets are on sale now at Bloomberg.com forward slash Odd Lots.",
+      "zh": "没错。Joe 和我会在 10 月 15 日到 City Winery Chicago，做一场 Odd Lots 的现场录制。门票现在已经在 Bloomberg.com 斜杠 Odd Lots 上开卖了。"
+    },
+    {
+      "i": 2,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "00:15",
+      "en": "And of course, a special thank you to Barclays for supporting Odd Lots Live.",
+      "zh": "当然，还要特别感谢 Barclays 对 Odd Lots Live 的支持。"
+    },
+    {
+      "i": 3,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "00:20",
+      "en": "So that's October 15th at City Winery in Chicago. Get your tickets now.",
+      "zh": "所以就是 10 月 15 日，在 Chicago 的 City Winery。现在就去买票吧。"
+    },
+    {
+      "i": 4,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "00:28",
+      "en": "Bloomberg Audio Studios.",
+      "zh": "Bloomberg Audio Studios。"
+    },
+    {
+      "i": 5,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "00:30",
+      "en": "Podcasts, radio, news. Hello and welcome to another episode of the Odd Lots Podcast. I'm Traci Alloway.",
+      "zh": "播客、广播、新闻。大家好，欢迎收听新一期的 Odd Lots Podcast。我是 Traci Alloway。"
+    },
+    {
+      "i": 6,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "00:47",
+      "en": "And I'm Joe Weisenthal.",
+      "zh": "我是 Joe Weisenthal。"
+    },
+    {
+      "i": 7,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "00:49",
+      "en": "Joe, there's a topic that we've been wanting to do for a while. Yes, yes. And you would think it's kind of simple, but actually it's been really, really hard finding a perfect guest for this particular topic because it involves airlines. It involves a particular airline strategy. And airlines, having been a transportation correspondent for like a couple years, way back in the day, airlines They're weird about things. They're kind of secretive and they often don't want to talk about stuff.",
+      "zh": "Joe，有个选题我们一直想做。是的，是的。你会觉得这挺简单的，但其实要为这个特定话题找到一位完美的嘉宾真的非常非常难，因为它涉及航空公司。涉及一种特定的航空公司策略。而航空公司嘛——我早年做过大概两年交通口记者——航空公司对这些事情很敏感。他们有点遮遮掩掩，往往不愿意谈。"
+    },
+    {
+      "i": 8,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "01:15",
+      "en": "I actually didn't know this.",
+      "zh": "我其实之前都不知道这点。"
+    },
+    {
+      "i": 9,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "01:16",
+      "en": "Yes.",
+      "zh": "是的。"
+    },
+    {
+      "i": 10,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "01:17",
+      "en": "This is an industry thing that I didn't know that they have a reputation or a pattern of.",
+      "zh": "这是行业里的一个特点，我之前都不知道他们有这种名声或者说这种一贯的做法。"
+    },
+    {
+      "i": 11,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "01:23",
+      "en": "There's like two things in the airline world that I always wanted to know or see. And we're going to talk about one of them today. which is fuel hedging and the sort of inner workings of airline fuel hedging. But the second one, I always wanted to see a completed aircraft contract, like an actual aircraft order that included the discounts that airlines would get.",
+      "zh": "航空界有两样东西我一直想知道或者想看到。今天我们就要聊其中一样，就是燃油套保（fuel hedging），以及航空公司燃油套保的内部运作。但第二样，我一直想看到一份完整的飞机采购合同，也就是一份真实的飞机订单，里面包含航空公司能拿到的折扣。"
+    },
+    {
+      "i": 12,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "01:43",
+      "en": "Because when you.",
+      "zh": "因为当你——"
+    },
+    {
+      "i": 13,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "01:44",
+      "en": "See the announcement, like Virgin Atlantic orders, I don't know, a certain number of planes from Boeing or Airbus, it's always at the list prices. So you never actually get a good feel for what they're actually paying for it. So I always wanted to see that. Never did in my transportation career. But at least I'm going to satisfy the fuel hedging urge right now.",
+      "zh": "看到那种公告，比如 Virgin Atlantic 向 Boeing 或 Airbus 订购，我也说不准，多少架飞机，价格永远是按目录价（list price）来的。所以你其实根本没法真切感受到他们到底付了多少钱。所以我一直想看到那个。我做交通口记者那几年一直没看到。但至少现在我要满足一下对燃油套保的好奇心了。"
+    },
+    {
+      "i": 14,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "02:04",
+      "en": "I'm very excited about this episode because fuel hedging by airlines, you know, you hear about it all the time or you hear, you know, every time there's a big price, they're usually jumping oil.",
+      "zh": "我对这一期特别兴奋，因为航空公司的燃油套保，你知道的，你总是会听到，或者每当油价大涨的时候——通常都是油价跳涨——你就会听到。"
+    },
+    {
+      "i": 15,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "02:14",
+      "en": "There's something people talk about the airlines.",
+      "zh": "这是大家会谈到的、关于航空公司的一件事。"
+    },
+    {
+      "i": 16,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "02:16",
+      "en": "And we've all said it.",
+      "zh": "而且我们所有人都说过。"
+    },
+    {
+      "i": 17,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "02:18",
+      "en": "Right?",
+      "zh": "对吧？"
+    },
+    {
+      "i": 18,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "02:18",
+      "en": "This is what I'm fascinated by. All of these things that we talk about all of the time. Oh, did they hedge their fuel? And then the conversation stops there. And they're like, oh, they did hedge their fuel, so okay. Or they didn't hedge their fuel, so their stock is going down, whatever. But we all talk about it and have no idea actually what it means. And I'm very fascinated too by, okay, they have traders, right? And when we think of traders, we think of trading floors and all this stuff. But there's so much capital T trading activity happening on the corporate side that almost gets no coverage.",
+      "zh": "这正是让我着迷的地方。所有这些我们一直在谈的东西。哦，他们对冲燃油了吗？然后话题就到这儿为止了。大家就说，哦，他们对冲了燃油，那行吧。或者他们没对冲燃油，所以股价在跌，诸如此类。但我们大家都在谈它，却根本不知道它到底意味着什么。我还非常着迷于——好吧，他们有交易员，对吧？而我们一想到交易员，就想到交易大厅那一套。但在企业端（corporate side）有大量的、真正意义上的（大写 T 的）交易活动，几乎完全没有报道。"
+    },
+    {
+      "i": 19,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "02:52",
+      "en": "The other thing about fuel and airline costs. So fuel is, I think, the second biggest cost for airlines after labor, which makes sense. But it's also the most volatile cost. But people always imagine hedging as like, okay, airlines are worried about the price of oil going up, or to be more specific, the price of jet fuel going up. And so they want to lock in a certain cost so that they don't get caught out suddenly when prices spike, as they have been doing for jet fuel recently. But At the same time, there's always another lever that airlines pull when you see higher prices, higher oil prices, which is they raise fares or they raise fuel surcharges. So you can get this weird environment where you both lock in a certain price and oil starts to spike. Maybe the price you locked in is lower. And you can institute a fuel surcharge as well, because as we all know from doing these inflation episodes, if oil shortages... Yeah, yeah. Jet fuel shortages, everything else are in the news. Customers aren't really going to complain that much if they see a big fuel surcharge on their bill.",
+      "zh": "关于燃油和航空公司成本还有一点。燃油我认为是航空公司仅次于人力成本的第二大成本，这也说得通。但它又是波动最大的成本。人们总是把套保想象成——好，航空公司担心油价上涨，或者更具体地说，担心航空煤油（jet fuel）价格上涨。所以他们想锁定某个成本，这样当价格突然飙升时不会被打个措手不及，就像最近航空煤油价格一直在飙的那样。但与此同时，当油价走高时，航空公司总会拉另一根杠杆，那就是提高票价或者提高燃油附加费（fuel surcharge）。所以你会遇到这种奇怪的局面：你既锁定了某个价格，而油价又开始飙升。也许你锁定的价格更低。然后你还可以加收燃油附加费，因为——就像我们做那些通胀专题时都知道的——如果石油短缺……对，对。航空煤油短缺，其他各种东西都上了新闻。顾客看到账单上一大笔燃油附加费，其实不会抱怨太多。"
+    },
+    {
+      "i": 20,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "03:56",
+      "en": "Airline prices are very expensive these days.",
+      "zh": "现在机票价格非常贵。"
+    },
+    {
+      "i": 21,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "03:58",
+      "en": "Yeah, they are.",
+      "zh": "是的，确实贵。"
+    },
+    {
+      "i": 22,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "03:59",
+      "en": "But bookings are really high, too. People are flying.",
+      "zh": "但订票量也真的很高。大家都在坐飞机。"
+    },
+    {
+      "i": 23,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "04:01",
+      "en": "And I keep seeing all these things, new TSA records, new global records.",
+      "zh": "而且我不断看到这些东西，TSA 的新纪录、全球的新纪录。"
+    },
+    {
+      "i": 24,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "04:05",
+      "en": "We are flying a lot in this world.",
+      "zh": "在这个世界里我们坐飞机坐得可真多。"
+    },
+    {
+      "i": 25,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "04:08",
+      "en": "Of course, you know, if you hedged your oil and your competitor didn't, right, they're going to have to raise prices. Or if they're not going to lose money. And then it's like, OK, well, here's my opportunity, et cetera. So I'm very curious about how it all works, how.",
+      "zh": "当然，你知道的，如果你对石油做了套保而你的竞争对手没有，对吧，他们就不得不涨价。否则他们就要亏钱。然后这就变成，好，那这就是我的机会，等等。所以我非常好奇这一切到底是怎么运作的，怎么——"
+    },
+    {
+      "i": 26,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "04:23",
+      "en": "It feeds through.",
+      "zh": "怎么传导下去的。"
+    },
+    {
+      "i": 27,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "04:25",
+      "en": "And I'm just to a little bit of context, according to September 29th, back in February or March when the Iran war broke out, we were all staring at that Singapore jet fuel chart.",
+      "zh": "我来补充一点背景，按照 9 月 29 日的情况，回到今年二三月伊朗战争爆发那会儿，我们所有人都盯着那张新加坡航空煤油的走势图。"
+    },
+    {
+      "i": 28,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "04:36",
+      "en": "Well, one of us was. I was staring at the Europe jet fuel versus Brent crack spread. That's the difference.",
+      "zh": "好吧，是我们当中的某一个人。我当时盯着的是欧洲航空煤油对 Brent 的裂解价差（crack spread）。那就是两者之间的差额。"
+    },
+    {
+      "i": 29,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "04:44",
+      "en": "Sorry.",
+      "zh": "抱歉。"
+    },
+    {
+      "i": 30,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "04:45",
+      "en": "No, but it is true. This has been in the news. And of course, with oil prices spiking again with the shortage of diesel, this has suddenly become a very relevant topic. And you're absolutely right that a smart hedging strategy can be a competitive advantage for airlines. Disclosure, my dad flew for Southwest for a long time. A lot of my inheritance is somewhat unfortunately still in Southwest stock.",
+      "zh": "不，但这确实是真的。这事儿一直上新闻。而且当然，随着油价再次飙升、柴油短缺，这突然就成了一个非常切题的话题。你说得完全对，一个聪明的套保策略可以成为航空公司的竞争优势。声明一下，我爸在 Southwest 飞了很多年。我的继承资产里有相当一部分，说来不太走运，至今还是 Southwest 的股票。"
+    },
+    {
+      "i": 31,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "05:09",
+      "en": "Do you want me to pull up a ticker for you right now?",
+      "zh": "要不要我现在就给你调出行情代码看看？"
+    },
+    {
+      "i": 32,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "05:10",
+      "en": "No, I don't want to see it. I don't want to see it. But Southwest famously pioneered a certain hedging strategy that then got copied by everyone else with varying degrees of success. So it can be an enormously important factor for airlines. And I am so, don't show it to me, Joe. I don't want to, don't zoom out. It looks pretty good over like the past couple of years. Just don't zoom out.",
+      "zh": "不，我不想看。我不想看。但 Southwest 以开创某种套保策略而闻名，后来被其他所有人复制，成功程度参差不齐。所以这对航空公司可能是一个极其重要的因素。而我真的是——别给我看，Joe。我不想看，别把时间轴缩小。就过去这几年看着还挺不错的。就是别缩小。"
+    },
+    {
+      "i": 33,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "05:30",
+      "en": "No, wait a second. It's not that bad.",
+      "zh": "不，等一下。没那么糟。"
+    },
+    {
+      "i": 34,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "05:31",
+      "en": "Look, look.",
+      "zh": "看，看。"
+    },
+    {
+      "i": 35,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "05:33",
+      "en": "It's actually like, I was expecting worse.",
+      "zh": "其实吧，我本来以为会更糟。"
+    },
+    {
+      "i": 36,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "05:35",
+      "en": "For those who are just listening, I tilted my computer screen so Tracy could see the chart. It's not as bad as I expected, the way you led into that.",
+      "zh": "给那些只是在听的朋友说明一下，我把电脑屏幕倾斜了一下，好让 Tracy 能看到这张走势图。没有你铺垫得那么糟，我原本以为会更差。"
+    },
+    {
+      "i": 37,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "05:43",
+      "en": "Yeah.",
+      "zh": "对。"
+    },
+    {
+      "i": 38,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "05:43",
+      "en": "So. I'm very happy to say that we finally found the perfect guest to talk about all of this. Someone who did actual fuel hedging strategy at a major carrier and also did it in an extremely interesting way. We're going to be speaking with David Kang. He is former group treasurer over at Qatar Airways and also an all-round oil expert. So David, thank you so much for coming on All Thoughts.",
+      "zh": "所以呢。我很高兴地说，我们终于找到了一位完美的嘉宾来聊这一切。一位在一家大型航空公司真正做过燃油套保策略的人，而且是用一种极其有意思的方式去做的。我们要对话的是 David Kang。他是 Qatar Airways 的前集团资金主管（group treasurer），也是一位全方位的石油专家。David，非常感谢你来做客 Odd Lots。"
+    },
+    {
+      "i": 39,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "06:06",
+      "en": "Happy to be here.",
+      "zh": "很高兴来到这里。"
+    },
+    {
+      "i": 40,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "06:07",
+      "en": "We are so glad to have finally found you. Thank you so much for staying up late from Singapore. Why don't you just go ahead and tell us who you are, and why I just described you as a general oil market expert, in addition to being the former group treasurer of Qatar.",
+      "zh": "我们太高兴终于找到你了。非常感谢你在新加坡熬夜陪我们。不如你先介绍一下自己，以及为什么我刚才除了说你是 Qatar 的前集团资金主管之外，还把你形容成一位通才型的石油市场专家。"
+    },
+    {
+      "i": 41,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "06:25",
+      "en": "That is a long story. And I'm going to pretty much put into a synopsis where I traded effects in Toronto. I traded interest rates in New York. 425 Lexington was the building I was in for a Canadian bank, which is just down the road from you. And I Came back to Singapore, joined NatWest, sent to London to sell government bonds, and then became a bond trader with a Japanese trading house and lost my job in the 1998 Asian financial crisis. So then became an oil broker, and did that for about six, seven years. In 2006, my buddy, who was the MD of J.P. Morgan for Asia, the head of commodities for them, basically asked me to join him. And so then I moved from becoming an oil broker to a structurer. And then I went to Sumitomo, the Japanese trading house, and became the head of trading for Asian products. And it's just gone from there. And I've worked in the coal industry. I've worked in the LNG industry. So I'm pretty much an energy man, all in. But I think working for Qatar Airways, I learned a lot. well, the aviation industry and how technical it gets and how interesting it can get as well. It's a very interesting sector.",
+      "zh": "那是个很长的故事。我大致压缩成一段梗概：我在 Toronto 交易过股票（effects），在 New York 交易过利率。我当时在一栋叫 425 Lexington 的楼里，为一家加拿大银行做事，那地方离你们不远。后来我回到 Singapore，加入 NatWest，被派去 London 卖政府债券，之后在一家日本贸易公司做债券交易员，然后在 1998 年亚洲金融危机中丢了工作。于是我成了石油经纪商，做了大概六七年。2006 年，我的一个哥们儿——他是 J.P. Morgan 亚洲区的董事总经理（MD）、他们的大宗商品主管——基本上就是邀请我加入他。于是我从石油经纪商转做结构化产品设计（structurer）。然后我去了日本贸易公司 Sumitomo，成为亚洲产品交易主管。之后就一路做下来了。我在煤炭行业干过，也在 LNG 行业干过。所以我基本上就是个全身心投入的能源人。但我想在为 Qatar Airways 工作期间，我学到了很多——关于航空业，它能在技术上做到多深，也能变得多有意思。这是个非常有趣的行业。"
+    },
+    {
+      "i": 42,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "07:47",
+      "en": "We love airline episodes. Our listeners love airline episodes. So extremely excited about that. Just real quickly, what were the years you were at Qatar?",
+      "zh": "我们很爱做航空公司相关的期数。我们的听众也爱听航空公司相关的期数。所以对这块我特别兴奋。就快速问一下，你在 Qatar 是哪几年？"
+    },
+    {
+      "i": 43,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "07:54",
+      "en": "2011 to 2013. Well, two and a half to nearly three years.",
+      "zh": "2011 到 2013 年。嗯，两年半到差不多三年。"
+    },
+    {
+      "i": 44,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "08:00",
+      "en": "Got it.",
+      "zh": "明白了。"
+    },
+    {
+      "i": 45,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "08:01",
+      "en": "So former group treasurer. What is the basic expectation of that role within the airline? What is the obligation of the treasurer to do for the company?",
+      "zh": "那么，前集团资金主管。这个职位在航空公司内部基本的职责预期是什么？资金主管有义务为公司做些什么？"
+    },
+    {
+      "i": 46,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "08:12",
+      "en": "The actual title is vice president, treasury, and risk management.",
+      "zh": "实际的头衔是资金与风险管理副总裁（vice president, treasury, and risk management）。"
+    },
+    {
+      "i": 47,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "08:17",
+      "en": "Okay.",
+      "zh": "好的。"
+    },
+    {
+      "i": 48,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "08:18",
+      "en": "So basically, I do the treasury and I do the risk management for all financial products of the airline. So I protect the airline financially. That's what a treasurer does.",
+      "zh": "基本上，我负责航空公司的资金管理，也负责所有金融产品的风险管理。所以我在财务上保护这家航空公司。这就是资金主管做的事。"
+    },
+    {
+      "i": 49,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "08:30",
+      "en": "Who actually hedges? Because my understanding is that some of the U.S. carriers weren't as prevalent when it comes to hedging as they had been in the past.",
+      "zh": "到底谁会去做套保？因为我的理解是，一些美国航空公司在套保方面不像过去那么普遍了。"
+    },
+    {
+      "i": 50,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "08:38",
+      "en": "I think the U.S. carriers aren't as prevalent. It's because they got smacked in 2014 and 2015. So they realized, right, Delta recently, 2020, lost nearly over a billion dollars. So they were still hedging as well. But most of the American carriers, especially the small ones, especially the smaller airlines, They just put everything into the surcharge to pass all the costs on to the customer. And that's built into the ticket. Now, you will never see a ticket that tells you the percentage of your surcharge. It will just tell you it's a fuel surcharge. And then that's it. And some of them even have done away with that. They say, that's a ticket price. You pay it and you fly. Then that's it. Don't worry about the fuel. You want to get somewhere? Take it. So in that aspect, that's when some of the U.S. carriers actually dropped out because they don't have a hedge book big enough or rather they don't have a balance sheet big enough to maybe take on these risks of hedging. And that's what the international carriers do have is they have a balance sheet and they have a hedge book that's big enough. Plus, they have a revenue book that's big enough as well. And that's why they can charge the surcharge at the same time as they're hedging the fuel on the consumption side. So think of an airline very similar to an oil refinery. Okay, so what does an oil refinery do? It takes in crude, sends it to this crude distillation unit, the CDU, and all of that comes out on the other side of the products, right? So you've got LPG at the top, then you've got gasoline, and then you've got NAFTA, and then after that you've got your mildews, jet kerosene, and then your gas oil, and then after that the fuel residue. So all these are products that come out from crude. So what does a refinery do? They sell the crack. That's the difference between the product and the underlying crude. That's a spread. So they sell the product, which is basically producer hedging because it's called revenue hedging. They've got revenue here because they're selling the product. They're also buying, so they're at risk. So they need to buy the crude. So the same thing happens with airlines. And airlines, what we do is, I had to get creative for a number of reasons, which I won't go into, but Because of those reasons, we had to sit down and really think about how hedging is going to be because we had a 6.6 billion balance sheet and we were consuming, the first year of consumption was something like anywhere from 24 to 27 million barrels. The next year was added three more million barrels and then added up. So we hedged, we forecast out to three years. One of the reasons why we did that was because we were accepting 1.5 aircraft A month. And basically we were planning new routes, probably once every two months, we'd get a new route so we could schedule all this. We knew what was coming in. We knew the planes that were coming in. So our consumption was going up at a steady rate. So we understood what we were doing. And so we also saw that the world was, you know, was looking good. People were trying to fly again. And so, you know, we started buying at the bottom and hedging. But sometimes you have to look at the price really and start to think about it. And what's your probability when oil goes at triple digit? Because you use Brent as your proxy because the jet fuel market is too thin. Or the American carriers use heating oil as their proxy, not jet. Because like I said, the jet market is too thin. Northwest Europe, SIFJET, that's a very thin market now. So, you know, you cannot use these instruments to help you hedge, right? You have to go and use Brent as your proxy, where it's liquid and there are people at both sides of the table for Brent. I mean, if you go to a table, right, where there are airlines, they're the only buyers of jet fuel. So you've got a ton of, like, refineries saying, yeah, I've got jet fuel for you. I've got Glencore, Mercuria. The list goes on, right? VTOL. You'll also jet fuel to be online. Morgan Stanley was the two as well. I've dealt with Morgan Stanley, Goldman Sachs. I bought physical jet from them at certain locations around the planet.",
+      "zh": "我认为美国航空公司不那么普遍，是因为他们在 2014 和 2015 年被狠狠教训了一顿。所以他们意识到了，对吧，Delta 最近，2020 年，亏了将近超过 10 亿美元。所以他们当时也还在做套保。但大多数美国航空公司，尤其是小公司，尤其是较小的航空公司，他们干脆把一切都塞进附加费里，把所有成本都转嫁给顾客。而这已经含在票价里了。你永远不会看到一张机票告诉你附加费占多少百分比。它只会告诉你这是一笔燃油附加费。就这样。有些公司甚至把这个都取消了。他们说，这就是票价。你付钱，你飞。就这样。别操心燃油了。你想去某个地方？买票就是。所以从这个角度讲，那正是一些美国航空公司实际上退出的原因，因为他们的套保账簿（hedge book）不够大，或者说他们的资产负债表不够大，可能没法承担套保的这些风险。而国际航空公司确实拥有的，就是他们有一张足够大的资产负债表，有一个足够大的套保账簿。再加上，他们还有一个足够大的收入账簿（revenue book）。这就是为什么他们可以一边收取附加费，一边在消费端对燃油做套保。所以你可以把一家航空公司想得非常类似于一座炼油厂。好，那炼油厂做什么？它买进原油，送进这个原油蒸馏装置，也就是 CDU，然后所有东西都从另一端以产品的形式出来，对吧？最上面是 LPG，然后是汽油（gasoline），然后是石脑油（naphtha），再往后是中间馏分（middle distillates）、航空煤油，然后是瓦斯油（gas oil），再之后是燃料残渣（fuel residue）。所以这些都是从原油里出来的产品。那炼油厂做什么？他们卖裂解价差（the crack）。那就是产品与标的原油之间的差额。那是一个价差（spread）。所以他们卖产品，这基本上就是生产者套保，因为它叫收入套保（revenue hedging）。他们这边有收入，因为他们在卖产品。他们同时也在买，所以他们有风险敞口。所以他们需要买原油。航空公司发生的也是同样的事。而航空公司，我们做的是——因为若干原因我不得不发挥点创意，这些原因我就不细说了，但正是因为这些原因，我们必须坐下来认真思考套保该怎么做，因为我们有一张 66 亿美元的资产负债表，而我们的消费量——第一年的消费量大概在 2400 万到 2700 万桶之间。第二年又增加了 300 万桶，然后不断累加。所以我们做套保、做预测一直做到三年之后。我们这么做的一个原因是，我们每个月要接收 1.5 架飞机。基本上我们在规划新航线，大概每两个月就会拿到一条新航线，所以我们能把这些都排进日程。我们知道会有什么进来。我们知道会有哪些飞机进来。所以我们的消费量在以稳定的速度上升。所以我们清楚自己在做什么。而且我们也看到，你知道的，世界形势看起来不错。人们又开始想坐飞机了。于是，你知道的，我们就开始在低位买入并做套保。但有时候你真的必须看着价格，开始思考它。当油价涨到三位数时，你的概率是多少？因为你用 Brent 作为你的代理标的（proxy），因为航空煤油市场太薄了。或者美国航空公司用取暖油（heating oil）作为代理标的，而不是航空煤油。因为就像我说的，航空煤油市场太薄了。西北欧的 SIFJET，那是个现在非常薄的市场。所以，你知道的，你没法用这些工具来帮你套保，对吧？你必须去用 Brent 作为代理标的，那里流动性好，Brent 的桌子两边都有人。我是说，如果你去到一张桌子上，对吧，那里有航空公司，他们是航空煤油唯一的买家。所以你会看到一大堆，比如，炼油厂说，是的，我有航空煤油卖给你。我有 Glencore、Mercuria。名单还长着呢，对吧？Vitol。你还能在线上买到航空煤油。Morgan Stanley 当时也做这个。我跟 Morgan Stanley、Goldman Sachs 都打过交道。我在全球某些地点从他们那里买过实物航空煤油。"
+    },
+    {
+      "i": 51,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "13:22",
+      "en": "Okay, so there are these various entities that you can trade with. Let's start with what is the most plain vanilla thing, the sort of modal trade, perhaps, so to speak, of how I imagine there are all sorts of complex ways, complexifiers, etc. But what is the sort of core, most common trade that one would do? How does it walk us through the steps of it?",
+      "zh": "好，所以有这些各种各样可以跟你交易的实体。我们先从最普通的（plain vanilla）那种开始，也就是那种最常见的、可以说是典型的交易——我想象有各种各样复杂的方式、复杂的变体等等。但一个人会做的那种核心的、最常见的交易是什么？能不能给我们走一遍它的步骤？"
+    },
+    {
+      "i": 52,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "13:46",
+      "en": "Well, there's a swap. And the swap is actually a derivative of your futures market. So from your futures market, you can tell what the swap rate is, right? Two months out. So this is your swap rate for April. It takes into account May and June for the futures. Okay. And that's your April swap rate. So you would buy swaps. And when you buy swaps, it's symmetric. So, I mean, you could go up or go down and you could, you know, and if the price of all goes up, you're looking good because you've locked in your exposure and you've locked in your costs. But if it goes down, you bleed. So it's best to do swabs when I think oil is low and it's in the lower double digits, somewhere around $ 25, $ 35. It's not an issue to buy swabs. But as it gets, as it moves further up around $ 70 to $ 80, I think everybody starts to think about that risk going up because how long will oil stay elevated? So they'll try and do options. So they'll buy call options, but thing is you have to pay for that insurance. You have to pay a fee. You have to pay a premium. So some airlines are for lack of a better term, too cheap to pay for their calls. So they fund it. All right. By selling puts. So that's all they can afford is zero cost color. And they can use that. So you can buy options. You can do zero cost colors and you can do swaps. These are pretty much plain vanilla. But the stuff that I used to structure for J.P. Morgan was a target redemption note. And then you have a vanilla side on the option and you have the exotic side. So that's where it gets a little bit more complicated.",
+      "zh": "嗯，有掉期（swap）。而掉期实际上是你的期货市场的一个衍生品。所以从你的期货市场，你能推算出掉期利率是多少，对吧？往后两个月。所以这是你 4 月的掉期利率。它把期货的 5 月和 6 月都考虑进去了。好。那就是你的 4 月掉期利率。所以你会买入掉期。当你买入掉期时，它是对称的。我是说，价格可能涨也可能跌，如果油价涨了，你就处境不错，因为你锁定了你的敞口，也锁定了你的成本。但如果它跌了，你就会流血。所以最好是在油价低的时候做掉期——当它处于较低的两位数、大概在 25 美元、35 美元左右时。买入掉期不是问题。但当它进一步往上走到 70 到 80 美元左右时，我认为每个人都开始考虑那个上行风险了，因为油价会在高位停留多久？所以他们会尝试做期权。于是他们会买入看涨期权（call option），但问题是你得为那份保险付钱。你得付一笔费用。你得付一笔权利金（premium）。所以有些航空公司，怎么说呢，太抠门了，舍不得为他们的看涨期权付钱。于是他们给它融资。好。通过卖出看跌期权（put）。所以他们能负担得起的只有零成本领口（zero-cost collar）。他们可以用那个。所以你可以买期权。你可以做零成本领口，也可以做掉期。这些基本上都属于普通型（plain vanilla）。但我以前为 J.P. Morgan 做结构设计的东西是一种目标赎回票据（target redemption note）。然后你在期权上有一个普通端（vanilla side），还有一个奇异端（exotic side）。所以那才是它变得稍微更复杂一点的地方。"
+    },
+    {
+      "i": 53,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "15:32",
+      "en": "So the idea is that we have banks that are actually selling target redemption notes for the purposes of fuel hedging to airlines.",
+      "zh": "所以这个意思是，有一些银行实际上在向航空公司出售目标赎回票据，用于燃油套保的目的。"
+    },
+    {
+      "i": 54,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "15:40",
+      "en": "Okay. On the vanilla side, you do a zero cost collar with the airline. If I'm the bank, But on the back of it, I structure the note as a target redemption note. That means it's basically going to redeem in five months, redeem in one year, or redeem in two years. So off the back of that, on the exotic side, I can get you a better rate where you can buy the oil. And I can get you a better rate for your call options. That means I can basically pull the call options, but they're actually inside the money. It's like they're in the money. that I can sell to you, but with this exotic behind that. And so a lot of these exotics, they're called extendables. Some of them are just like selling, like what I did, a strangle. That means basically I sold both wings. I sold calls at the top above $ 120. I sold puts below $ 80. And wherever oil stayed in between, I would profit from that because The banks will be paying me the premium.",
+      "zh": "好。在普通端，你和航空公司做一个零成本领口。如果我是银行的话，但在它背后，我把这张票据结构设计成一张目标赎回票据。那意味着它基本上会在五个月后赎回、一年后赎回，或者两年后赎回。所以在那基础上，在奇异端，我可以给你一个更好的价格来买石油。我可以给你的看涨期权一个更好的价格。那意味着我基本上可以把看涨期权拉过来，但它们实际上是价内（in the money）的。就好像它们是价内的，我可以卖给你，但背后带着这个奇异结构。所以这些奇异产品里很多，它们叫可展期产品（extendables）。其中一些就像卖出——比如我做的那样——一个宽跨式（strangle）。那基本上意味着我卖出了两边的翼。我在上方 120 美元以上卖出看涨期权。我在下方 80 美元以下卖出看跌期权。而只要油价停留在中间，我就能从中获利，因为银行会付给我权利金。"
+    },
+    {
+      "i": 55,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "16:51",
+      "en": "It's so funny because I'm so used to thinking about those sorts of notes and structured products in Asia as being sold to like, yeah, to, you know, mom and pop, someone betting on like a big move or lack thereof in the Kospies, something like that. I hadn't even thought for a second that it could be related to fuel.",
+      "zh": "太有意思了，因为我太习惯于把亚洲的那类票据和结构化产品想成是卖给——是啊，卖给，你知道的，普通散户（mom and pop），某个在赌 KOSPI 会不会大幅波动或者不动之类东西的人。我甚至一秒钟都没想过它居然可能跟燃油有关。"
+    },
+    {
+      "i": 56,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "17:08",
+      "en": "Yeah.",
+      "zh": "是啊。"
+    },
+    {
+      "i": 57,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "17:11",
+      "en": "David, can I just ask, you said something really interesting earlier, which is that most of the fuel hedging is done via Brent trades as opposed to jet fuel because the actual jet fuel trading market is so thin. Does that mean that airlines end up being exposed to big differences between, I guess, the direction of the price of jet fuel and the price of Brent? Because sometimes, you does change very fast and very quickly, as we saw earlier this year?",
+      "zh": "David，我能问一下吗，你刚才说了件非常有意思的事，就是大部分燃油套保是通过 Brent 交易来做的，而不是航空煤油，因为实际的航空煤油交易市场太薄了。那是不是意味着航空公司最终会暴露在——我猜——航空煤油价格走向和 Brent 价格走向之间的巨大差异之下？因为有时候，你知道的，它变化得非常快、非常迅速，就像我们今年早些时候看到的那样？"
+    },
+    {
+      "i": 58,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "17:42",
+      "en": "It's a fair comment, right? I would say yes and no. So yes to the fact, right, that as an airline, what do we burn? We've been jet A1. So basically, we're exposed to the jet fuel market. We should hedge with jet, but the jet market's too thin. So that's why we use the Brent market. Now, for lack of a better term, again, it's better to have a hedge on than no hedge at all. If you cannot hedge in gent, then you're totally exposed, right? So for lack of a better proxy, people use Brent because it's the international carrier. Some airlines use, like in the United States, some of them use WTI, West Texas Intermediate. Some of them, or most of them, use heating oil because it's very close. So the heating oil spread between the jet and heating oil in the United States is tighter than what you would get. I mean, just recently you had heating all versus TI go through a hundred dollars for the crack. Is it like $ 107? That's like insane amounts of money, right? It's 230 bucks per barrel while crude is trading at 110 and then Brent's trading at nearly 120 and metric tons. You've got probably like a $ 74 to $ 75 crack of gas oil in Europe. I'm not sure where the jet market is in Europe because it's so hard to pin down. There's no real open market for it. There are agencies like Argus or Platts, and they will print a number. But, you know, the numbers that they print sometimes have no offer on the back of that. And there's a bid. And then they just up it and they assume that there's an offer. But sometimes the market is offered and there's no bid. And then they just pick a number. So it's very arbitrary. So that's the reason why most people don't trust these agencies, with their jet forecasts. So they move either something they understand better and it's more liquid, like gas, London gas oil, heating oil in the United States.",
+      "zh": "这是个中肯的看法，对吧？我会说既是也不是。说‘是’，是因为这个事实，对吧，作为一家航空公司，我们烧的是什么？我们烧的是 Jet A1。所以基本上，我们暴露在航空煤油市场之下。我们应该用航空煤油来套保，但航空煤油市场太薄了。所以这就是为什么我们用 Brent 市场。那么，怎么说呢，再说一次，有套保总比完全没套保好。如果你没法用航空煤油套保，那你就完全暴露了，对吧？所以因为没有更好的代理标的，人们就用 Brent，因为它是国际承运的基准。有些航空公司用——比如在美国，有些用 WTI，也就是西德克萨斯中质原油（West Texas Intermediate）。其中一些，或者说大多数，用取暖油，因为它非常接近。所以在美国，航空煤油和取暖油之间的取暖油价差，比你能拿到的其他价差更窄。我是说，就在最近，取暖油对 WTI 的裂解价差冲破了一百美元。是不是差不多 107 美元？那可是疯狂的钱数，对吧？那是每桶 230 美元，而原油交易价在 110，然后 Brent 交易价接近每公吨 120。你在欧洲大概有 74 到 75 美元的瓦斯油裂解价差。我不确定欧洲的航空煤油市场在什么位置，因为它太难锁定了。它没有真正开放的市场。有像 Argus 或 Platts 这样的机构，他们会打出一个数字。但，你知道的，他们打出的数字有时候背后根本没有卖价（offer）。只有一个买价（bid）。然后他们就把它往上调，假设有那么一个卖价。但有时候市场上有卖价却没有买价。然后他们就随便挑一个数字。所以这非常随意。这就是为什么大多数人不信任这些机构的航空煤油预测。所以他们会转向某种他们更理解、流动性更好的东西，比如瓦斯油——London 的瓦斯油，或者美国的取暖油。"
+    },
+    {
+      "i": 59,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "19:56",
+      "en": "I just pulled up a chart, speaking of charts, on the terminal. And it's very interesting because if I go back, normalize it to early February, so before the war started, In March, basically, Brent crude rose 50%. Singapore jet fuel rose over 100% or more than doubled during that time. I could imagine just start there, like at least for that period from, say, March to the middle of May, you could have been a well-hedged carrier hedging Brent and still bleeding a lot if what you're buying is Singapore jet fuel.",
+      "zh": "说到走势图，我刚在终端上调出了一张图。非常有意思，因为如果我往回看，把它归一化到 2 月初，也就是战争开始之前——到了 3 月，基本上，Brent 原油涨了 50%。而新加坡航空煤油在那段时间涨了超过 100%，也就是翻了一倍还多。我能想象，就从那儿开始说，至少对于那段时期——比如说 3 月到 5 月中旬——你可能是一家做了充分套保、对冲 Brent 的航空公司，但如果你买的是新加坡航空煤油，你依然会大量流血。"
+    },
+    {
+      "i": 60,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "20:33",
+      "en": "Is true, but when I buy Singapore Jet Fuel, except for the incumbent.",
+      "zh": "确实如此，但当我买新加坡航空煤油时——除了那家在位的（incumbent）——"
+    },
+    {
+      "i": 61,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "20:40",
+      "en": "Wait, say that again?",
+      "zh": "等等，你再说一遍？"
+    },
+    {
+      "i": 62,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "20:41",
+      "en": "Can you explain what is, when I look at, tell me about this chart that we always pull up.",
+      "zh": "你能解释一下——当我看着——跟我说说这张我们总是调出来的走势图。"
+    },
+    {
+      "i": 63,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "20:46",
+      "en": "Is it not that meaningful?",
+      "zh": "它是不是没那么有意义？"
+    },
+    {
+      "i": 64,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "20:47",
+      "en": "Stop saying we, Joe.",
+      "zh": "别说‘我们’了，Joe。"
+    },
+    {
+      "i": 65,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "20:48",
+      "en": "Sorry, that I.",
+      "zh": "抱歉，那个我——"
+    },
+    {
+      "i": 66,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "20:50",
+      "en": "When I say we, I mean like all the people I talk with on the internet, not me and Tracy. Tell me about this chart that I've been looking at in ignorance.",
+      "zh": "我说‘我们’，指的是我在网上聊天的所有人，不是我和 Tracy。跟我说说这张我一直蒙在鼓里看着的走势图吧。"
+    },
+    {
+      "i": 67,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "20:58",
+      "en": "Singapore Jet is a different animal because there are certain trading houses with certain oil majors that control that market very heavily because they know that the only buyers of this market are the airlines. Right. And how would I put this nicely? Sometimes people talk to each other. Okay. And they agree on something. And then what they agreed on happens because all of them are looking the same way. And are trading the same way. So it's not a very objective market. It's a very subjective market. And that's why, like I said, only the incumbent in Singapore actually does some jet fuel hedging. Everybody else does not.",
+      "zh": "新加坡航空煤油是另一种物种，因为有一些贸易公司伙同一些石油巨头，非常重地控制着那个市场，因为他们知道这个市场唯一的买家就是航空公司。对吧。那我该怎么把这话说得婉转点呢？有时候人们会互相通气。好。然后他们就某件事达成一致。接着他们约定的事就发生了，因为他们所有人都朝同一个方向看。也都朝同一个方向交易。所以这不是一个很客观的市场。它是一个非常主观的市场。这就是为什么，就像我说的，在新加坡只有那家在位的公司实际上会做一些航空煤油套保。其他所有人都不做。"
+    },
+    {
+      "i": 68,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "21:45",
+      "en": "How much money can airlines actually make from raising just the fares and the fuel surcharges? Like, why even bother to hedge if, in theory, I mean, I'm sure you have thoughts on the price elasticity of air travel. But if, in theory, I could just fully pass on the additional fuel cost to the customer, why do I need to hedge at all?",
+      "zh": "航空公司仅仅靠提高票价和燃油附加费，实际上能赚多少钱？比如说，为什么还要费心去套保呢——理论上，我是说，我相信你对航空旅行的价格弹性有自己的看法。但如果理论上我可以把额外的燃油成本完全转嫁给顾客，那我还为什么需要套保呢？"
+    },
+    {
+      "i": 69,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "22:06",
+      "en": "Hedging helps, like I said, when oil prices are low. Because when oil prices are low, your fuel surcharge can't do anything. You cannot charge the person on the fuel, right? And your ticket price has to be low because oil is low. And usually when oil is low, usually the global economy is not doing well. It wasn't the case in 2014 and 2015, but most of the time in 1998, in 2008, in 2020 and right now what we're seeing with the uh you know the 2026 war between iran and the us and israel a lot of times right it's it's something to do with the global economy and geopolitics so what i would say is that hedging has its uses because it can protect you from a low level as it moves up so you're making money and you've locked in your costs so that's where using swaps and calls and zero-cost calls work. Now, at the same time, because oil is going up and it's part of what makes up an airline, you can charge the surcharge as well. So the airlines that want to make money can actually do that. The surcharge doesn't go through P & L, but the hedge goes through P & L. So then if the hedge goes up, nobody sees the surcharge coming in. Nobody sees the revenue from there. But they see the revenue coming in from the hedge. So if you've done it well and the market's still going up, the economy's improving, everybody wants to travel, people are paying up, they don't really care right now how much the surcharge is, you can make twice as much money while you can. But at the same time, you've got to be very aware and situationally aware that, like I said, it's like a refinery. Your ticket is the product. In that product, you have the ticket price. Now, nobody tells you what the ticket price is, but right now, I'll tell you, because of the fuel surcharge, the ticket price is probably 25% of the ticket charge.",
+      "zh": "套保有帮助，就像我说的，是在油价低的时候。因为当油价低时，你的燃油附加费什么也做不了。你没法在燃油上向乘客收费，对吧？而且你的票价必须低，因为油价低。而通常油价低的时候，全球经济往往也不太好。2014 和 2015 年不是这样，但大多数时候——1998 年、2008 年、2020 年，以及现在我们所看到的、你知道的、2026 年伊朗与美国和以色列之间的战争——很多时候，对吧，这都跟全球经济和地缘政治有关。所以我会说，套保有它的用处，因为它能在油价从一个低位往上走时保护你，这样你就在赚钱，而且你锁定了你的成本，所以这就是用掉期、看涨期权和零成本领口能奏效的地方。那么，与此同时，因为油价在上涨，而它是构成航空公司的一部分，你还可以收取附加费。所以想赚钱的航空公司实际上可以做到这一点。附加费不走损益表（P&L），但套保走损益表。所以如果套保涨了，没人看到附加费进来。没人看到来自那里的收入。但他们看到来自套保的收入进来。所以如果你做得好，而市场还在上涨、经济在改善、每个人都想旅行、人们愿意付钱、他们现在其实不太在乎附加费是多少，你就能在能赚的时候赚到两倍的钱。但与此同时，你必须非常清醒、对局势有觉知——就像我说的，它像一座炼油厂。你的机票就是产品。在那个产品里，你有票价。现在，没人告诉你票价是多少，但眼下，我来告诉你，因为燃油附加费的缘故，票价大概占机票总收费的 25%。"
+    },
+    {
+      "i": 70,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "24:17",
+      "en": "And that's true. You would say that would just be generally true globally, on average, right now.",
+      "zh": "这是真的。你会说这在全球范围内、平均而言、眼下大体上都成立。"
+    },
+    {
+      "i": 71,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "24:23",
+      "en": "Pretty much.",
+      "zh": "基本上是的。"
+    },
+    {
+      "i": 72,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "24:23",
+      "en": "Anyone who buys a ticket is 25%. Actually, you talked a little bit about the cost. So overall, when you say we talk about the cost of a flight or the cost of running an airline, is fuel basically 25% of the cost? Tracy mentioned that it was number two after labor. But for Qatar Airways, how significant was this one component for them?",
+      "zh": "任何买票的人都是 25%。其实，你稍微谈到了成本。所以整体上，当我们谈论一次航班的成本，或者运营一家航空公司的成本时，燃油基本上占成本的 25% 吗？Tracy 提到它是仅次于人力的第二大成本。但对 Qatar Airways 来说，这一个组成部分对他们有多重要？"
+    },
+    {
+      "i": 73,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "24:45",
+      "en": "44%.",
+      "zh": "44%。"
+    },
+    {
+      "i": 74,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "24:47",
+      "en": "Did you say 44%?",
+      "zh": "你说的是 44%？"
+    },
+    {
+      "i": 75,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "24:47",
+      "en": "Yes, I said 44%. That's the reason why I had to get creative. Wow. It was huge for us. I mean, you know, if you're like the rest of the world's airlines, right? So anywhere from 25, 30% of your cost is jet fuel. And then labor is a big cost. But labor for us was a low cost, very low cost, right? Because we were getting a lot of crew and we were paying them decently, but not You know, but prices would be better in Doha than it was back in their home country. So we had a lot of crew and, you know, cabin crew and flight tech as well from Eastern Europe, from Asia. And, you know, we kept the cost low on the labor side, but our cost, our exposure to the, you know, to the barrel, to jet fuel, right, was 44%. That's nearly half your expenses. Wow.",
+      "zh": "是的，我说的是 44%。那就是我不得不发挥创意的原因。哇。这对我们来说是巨大的。我是说，你知道的，如果你像世界上其他航空公司一样，对吧？那你成本里大概 25%、30% 是航空煤油。然后人力是一大成本。但对我们来说人力是低成本，非常低的成本，对吧？因为我们招了很多机组人员，我们付给他们的报酬还不错，但——你知道的——在 Doha 的待遇会比他们回国时的待遇更好。所以我们有很多机组人员，你知道的，客舱机组和飞行技术人员也有，来自东欧、来自亚洲。而且，你知道的，我们把人力端的成本压得很低，但我们的成本、我们对那个——你知道的——对每桶油、对航空煤油的敞口，对吧，是 44%。那几乎是您开支的一半。哇。"
+    },
+    {
+      "i": 76,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "25:41",
+      "en": "So you mentioned having to get creative, and this is actually the way you came to this particular program. But you published a paper all about a particular hedging strategy that you undertook while you were at Qatar. Why don't you, just to begin with, explain to us the problem that you were trying to solve for your employer here?",
+      "zh": "所以你提到不得不发挥创意，而这实际上正是你来到这个特定项目的路径。但你发表了一篇论文，专门讲你在 Qatar 期间所采用的一种特定套保策略。不如你先给我们解释一下，你当时在这里试图为你的雇主解决的问题是什么？"
+    },
+    {
+      "i": 77,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "26:02",
+      "en": "I'll just run this anecdote for you, just a little story. I'll keep it very short, right? But basically, our hedge book was down. a very decent amount of money, something like $ 280 million. So that's when I came on board and I had this hedge book and we were down $ 280 million. And as I was learning about the airline, because I come from a trading background, I'm not a corporate guy. So I have to learn how to be a corporate person. I have to learn about what the treasury is about and what the hedge book has and how I can add value. And in that time that I was trying to learn and add value, we were down to, we were at one point down $ 360 million. And so the CEO calls the CFO and I up to his office to chat with us. And basically he says to the CFO, Daniel Ho, when he says, Dan, why are we down $ 360 million? And I had just come on board, right? And I'm the group treasurer. And he, you know, do you know what a hospital pass is? Basically you pass the ball and you know, everybody's running for it and everybody can see you're going to get the ball and you get smacked. So that was me. So I got the hospital pass from Daniel and I talked to the CEO and I said, look, right. You know, chief, when oil goes up, right. We make money on swaps, right. You know, we lose money in the physical because we don't pay more, but we float in our exposure. And then when oil comes down, yes, we're losing on the hedge book, but jet fuel comes down as well. And when jet fuel comes down, we're making on the physical. And he said, look, you are losing on the hedge book. You're also losing on revenue management because, right, if oil is coming down, that means the probability is at that time when I was at Qatar Airways, the probability is that the global economy is not doing too hot. So it's not doing too hot, right? we will not be able to have people sitting in their seats. We cannot fill up the plane. So the aircraft is not going to take off. If the aircraft doesn't take off, we have fuel that we haven't burned. So we're losing money. We're losing money on revenue on the ticket, and we're losing money on the hedge book. And that was a double whammy. So the CEO was very, it was tough. He said, David, you're the group treasurer. I do not want to see you read any more on the balance sheet, do you understand? So that's when I came away from that meeting with him, with this now awareness that I actually had to do something where it's either we come out flat or make some money, but no red. So that's one of the reasons why I did what I had to do and get creative.",
+      "zh": "我就给你讲这么个轶事，一个小故事。我尽量讲得很短，对吧？但基本上，我们的套保账簿亏损了。一笔相当可观的钱，大概 2.8 亿美元。那就是我刚上任的时候，我接手了这个套保账簿，而我们亏了 2.8 亿美元。而我当时正在了解这家航空公司，因为我是交易出身，我不是企业口的人。所以我得学着怎么做一个企业人。我得了解资金管理是关于什么的、套保账簿里有什么、以及我能怎么增加价值。而在我试图学习和增加价值的那段时间里，我们一度亏到了 3.6 亿美元。于是 CEO 把 CFO 和我叫到他办公室跟我们聊。基本上他对 CFO——Daniel Ho——说，他说，Dan，我们为什么亏了 3.6 亿美元？而我才刚上任，对吧？而且我是集团资金主管。然后他，你知道的，你知道什么叫‘医院传球’（hospital pass）吗？基本上就是你把球传出去，然后你知道的，所有人都朝球跑去，所有人都看得到你要接到球，然后你被狠狠撞翻。那就是我。所以我从 Daniel 那里接到了这个‘医院传球’，然后我跟 CEO 说，听着，对吧。你知道的，头儿，当油价上涨时，对吧。我们在掉期上赚钱，对吧。你知道的，我们在实物上亏钱，因为我们并没有多付钱，但我们的敞口在浮动。然后当油价下跌时，是的，我们在套保账簿上亏损，但航空煤油也下跌。而当航空煤油下跌时，我们在实物上赚钱。然后他说，听着，你在套保账簿上亏损。你在收入管理上也在亏损，因为，对吧，如果油价在下跌，那就意味着——那时候我在 Qatar Airways，概率是——概率是全球经济不太火热。所以它不太火热，对吧？我们就没法让人们坐在他们的座位上。我们没法把飞机坐满。所以飞机就不会起飞。如果飞机不起飞，我们就有没烧掉的燃油。所以我们在亏钱。我们在机票收入上亏钱，也在套保账簿上亏钱。那是双重打击。所以 CEO 非常——那场面很难熬。他说，David，你是集团资金主管。我不想再在资产负债表上看到你的赤字（原文 read 应为 red），你明白吗？所以那就是我开完和他的会之后的收获，带着这份如今清醒的认识：我实际上必须做点什么，要么我们打平，要么赚点钱，但不能有赤字。所以那就是我不得不做我所做的事、去发挥创意的原因之一。"
+    },
+    {
+      "i": 78,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "29:08",
+      "en": "So this actually reminds me one of the first things that I learned as an airline correspondent, which was someone who had been in the business for a very long time as an airline consultant, basically told me that it's very much like running a grocery business in the sense that you have these fixed perishable costs. And if you don't sell everything right away or fill up the capacity of the airplane and all those costs, you eat them, right? It's like, you know, I don't know, you have like 10 bags of lettuce. Cauliflower, yeah. If you don't sell it on that day, you lose all that money. And so I always thought of airlines and air travel as this very perishable industry, even though one big part of the expense is very, I guess, fixed cost in the form of aircraft. But you have to get people in the plane- At a particular price on a certain day. Otherwise, you just lose money.",
+      "zh": "所以这实际上让我想起我做航空口记者时最早学到的东西之一，那就是一位在航空咨询这行干了很久的人基本上告诉我，这非常像经营一门生鲜杂货生意，因为你有着这些固定的、易腐的成本。如果你不马上把所有东西卖出去，或者不填满飞机的运力、以及所有那些成本，你就得自己吞下它们，对吧？就像，你知道的，我也说不准，比如你有 10 袋生菜。花椰菜，对。如果你当天没卖掉，你就损失了那所有的钱。所以我一直把航空公司和航空旅行看成一个非常易腐的行业，尽管开支中有一大块是非常——我想——固定的成本，也就是飞机的形式。但你必须在某个特定的日子、以某个特定的价格把人弄上飞机。否则，你就纯粹亏钱。"
+    },
+    {
+      "i": 79,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "30:01",
+      "en": "Right.",
+      "zh": "对。"
+    },
+    {
+      "i": 80,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "30:02",
+      "en": "I guess the idea is airline capacity is not something that you can hold in inventory.",
+      "zh": "我想这个意思是，航空公司的运力不是你能囤在库存里的东西。"
+    },
+    {
+      "i": 81,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "30:08",
+      "en": "Right.",
+      "zh": "对。"
+    },
+    {
+      "i": 82,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "30:08",
+      "en": "Exactly.",
+      "zh": "正是。"
+    },
+    {
+      "i": 83,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "30:09",
+      "en": "Yeah.",
+      "zh": "是啊。"
+    },
+    {
+      "i": 84,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "30:09",
+      "en": "It's super interesting, and I hadn't really thought about it that way. So, okay, your boss comes to you and says, stop losing money. I guess every boss of every trader everywhere would like to say that.",
+      "zh": "这超级有意思，我之前还真没从这个角度想过。那么，好，你老板来找你说，别再亏钱了。我想世界各地的每个交易员的每个老板都想说这句话。"
+    },
+    {
+      "i": 85,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "30:21",
+      "en": "Do better.",
+      "zh": "做得更好点。"
+    },
+    {
+      "i": 86,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "30:23",
+      "en": "Now you have your suddenly stop losing money thing. mandate in this environment what do you do after.",
+      "zh": "那么现在你有了这个突然冒出来的‘别再亏钱’的使命。在这样的环境下，你接下来做了什么？"
+    },
+    {
+      "i": 87,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "30:30",
+      "en": "That i sat down with my deputy treasurer and uh you know talked about it and looked at it from many different angles and you know then of course me coming from an oil trading background i look at a refinery and i see that they're a consumer and they're a producer and so i said look as an airline we have to produce something we're producing a seat for you to sit on to get you from point a to point b so we're producing that seat But what's in that seat? What goes on? So we kept on extrapolating until the point where we got the ticket. And then in the ticket, you have your fuel surcharge. And we ran correlations between the fuel surcharge and Brent. And the correlations came back around 75%, which is significant. And of course, for our hedge fund, and we buy the swap, right, we're 88% hedged, about 88% correlated with Jet. So the fuel surcharge is 75% correlated with Jet, and our Brent is 87% or 85% correlated with Brent. So we use Brent as the proxy, and in the surcharge, right, we now knew there was a correlation there. So that we can hedge. That is a product. That is something we sell. So in that ticket, we have a product and we have revenue and that's where you do revenue hedging. So you have consumption hedging and you have revenue hedging. So that's how we came, you know, we really extrapolate out the curve. We, you know, we sat down for a couple of weeks and really brainstormed and we came up with this. And from there, we went to the revenue management department, talked to Ankur Vandiver, who was the senior VP at that time of revenue management and his right-hand man, Sven Larsen. And we talked about this and even they didn't realize, right, that they were actually, they actually were long oil. I actually said, you know, you're long oil. That's how you get your revenue, right? Because you've built that long oil.",
+      "zh": "我就跟我的副资金主管坐下来，呃，你知道的，讨论这件事，从很多不同的角度看它，然后你知道的，当然了，我是石油交易出身，我看一座炼油厂，我看到他们既是消费者又是生产者，于是我说，听着，作为一家航空公司我们必须生产某种东西——我们在生产一个座位给你坐，把你从 A 点送到 B 点，所以我们在生产那个座位。但那个座位里有什么？都发生了些什么？所以我们不断往外推演，一直推到我们拿到机票为止。然后在机票里，你有你的燃油附加费。我们跑了燃油附加费和 Brent 之间的相关性。相关性结果大约在 75% 左右，这很显著。当然了，对我们的套保账簿来说——我们买入掉期，对吧——我们套保了 88%，与航空煤油大约 88% 相关。所以燃油附加费与航空煤油 75% 相关，而我们的 Brent 与 Brent 87% 或 85% 相关。所以我们用 Brent 作为代理标的，而在附加费里，对吧，我们现在知道那里存在相关性。所以我们可以套保。那是一个产品。那是我们卖出的东西。所以在那张机票里，我们有一个产品，也有收入，而那正是你做收入套保的地方。所以你有消费套保，也有收入套保。我们就是这么来的，你知道的，我们真的把整条曲线往外推演。我们，你知道的，坐下来花了几个星期认真头脑风暴，然后想出了这个。从那之后，我们去了收入管理部门，跟 Ankur Vandiver 谈——他当时是收入管理的高级副总裁——还有他的左右手 Sven Larsen。我们谈了这件事，甚至连他们都没意识到，对吧，他们实际上、他们实际上是做多石油的。我实际上说，你知道的，你们是做多石油的。你们就是这么获得收入的，对吧？因为你们已经内建了那个做多石油的头寸。"
+    },
+    {
+      "i": 88,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "32:39",
+      "en": "Through the surcharge, right? Yes. Wait, so the basic idea was that because the airline was in fact long oil, because you could charge higher prices when oil prices went up. that you could use that to buy a certain option strategy that would have been riskier without the extra operating revenue. Is that what you mean?",
+      "zh": "通过附加费，对吧？是的。等等，所以这个基本思路是，因为航空公司实际上是做多石油的——因为当油价上涨时你可以收更高的价格——你就可以利用这一点去买某种期权策略，而这种策略如果没有那笔额外的营业收入，本会更冒险。你是这个意思吗？"
+    },
+    {
+      "i": 89,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "33:04",
+      "en": "Absolutely. All right. So what happens is now we're long fuel on one side on the ticket. We're short fuel because to fly the plane or to fly the aircraft, you need jet fuel to take off. So we're short fuel on one side, but long fuel on the other side. So now... What do we think about? We think about doing like a producer hitch. And that's one of the reasons why we did the strangle where we sold calls. Now, uh, when we sold calls, they're not naked because right. They had the surcharge in there protecting that call. So yes, if we got, if the calls got taken out or, you know, they were exercised. Yes. A surcharge would take care of that call of those calls that we sold. So we're protected there. Now, on the downside, we've sold puts. Now, if the oil goes down and we're selling puts, it's good for us anyway. So yes, we'll eat some loss on the puts, but the thing is we're going to be buying cheaper jet because it's going down in price. So this whole strangle or this strategy, there was no, for lack of a better word, nudity to it. There were no naked parts to it. And we covered all bases. We looked only at direction, not so much. We didn't take a view of where oil was going to go. What we did was, right, we understood that there would be a price mean reversion. It was holding at a hundred bucks. It would do that for five months and we would come away either flat, slightly losing a little bit of money or making a decent amount. And we kind of got lucky.",
+      "zh": "完全正确。好。所以现在发生的是，我们在机票这一端是做多燃油的。我们是做空燃油的，因为要飞这架飞机、或者说要飞这架飞行器，你需要航空煤油才能起飞。所以我们在一端做空燃油，但在另一端做多燃油。那么现在……我们会想到什么？我们想到做类似一个生产者套保（producer hedge）。那就是我们做那个卖出看涨期权的宽跨式（strangle）的原因之一。那么，呃，当我们卖出看涨期权时，它们不是裸的，因为，对吧。它们里面有附加费在保护那个看涨期权。所以是的，如果我们——如果那些看涨期权被打爆，或者你知道的，它们被行权了。是的。一笔附加费就会照顾掉我们卖出的那些看涨期权。所以我们在那一端是受保护的。那么，在下行这一端，我们卖出了看跌期权。现在，如果油价下跌、而我们在卖看跌期权，那反正对我们是好事。所以是的，我们会在看跌期权上吃掉一些亏损，但问题在于我们将以更低的价格买入航空煤油，因为它价格在下跌。所以这整个宽跨式、或者说这个策略，没有——怎么说呢——没有裸露的部分。它没有裸的部分。我们覆盖了所有的可能性。我们并没有那么看重方向。我们没有对油价将走向何方下判断。我们做的是，对吧，我们理解到会有一个价格均值回归（mean reversion）。它当时稳定在一百美元。它会在五个月里维持那样，而我们最后要么打平、要么稍微亏一点点钱、要么赚到一笔可观的钱。而我们算是有点走运。"
+    },
+    {
+      "i": 90,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "34:51",
+      "en": "It had to stay within a certain band, right?",
+      "zh": "它必须待在某个区间之内，对吧？"
+    },
+    {
+      "i": 91,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "34:54",
+      "en": "Correct.",
+      "zh": "没错。"
+    },
+    {
+      "i": 92,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "34:54",
+      "en": "Okay, okay.",
+      "zh": "好，好。"
+    },
+    {
+      "i": 93,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "34:55",
+      "en": "So this is very interesting. I guess from the perspective of any... You know, again, I think in our heads, someone hears the word trader, and they think someone at their computer trying to make money, right? And every day you're trying to get more cash, etc. However you want to do it. How much then... of the job of the trader in any corporation, not the speculator, but the someone who's using the markets for their own business needs, how much then is the job to actually identify the natural trade of the corporation? So what you discovered or what you were able to clarify is that because of the ticket charge, Qatar Airlines was structurally long-branded. So that allowed you to create this sort of position without a view. So how much is the job of anyone in your seat, either today or at a different airline, or maybe even a different company who is in a trading capacity to truly understand the business so that they understand, you know, what is the company's sort of, I guess, natural exposure or natural direction to any given market?",
+      "zh": "所以这非常有意思。我想从任何……你知道的，再说一次，我觉得在我们脑子里，一个人听到‘交易员’这个词，就会想到某个坐在电脑前想赚钱的人，对吧？而且你每天都在想办法搞到更多现金，等等。不管你想怎么搞。那么，在任何一家公司里，交易员这份工作——不是投机者，而是那个为自身业务需求使用市场的人——这份工作里有多少，实际上是去识别出这家公司的天然交易（natural trade）？所以你发现的、或者你能够厘清的是，因为机票收费的缘故，Qatar Airways 在结构上是做多石油的（原文 long-branded 应为 long oil）。这就让你能够建立这种不带方向判断的头寸。那么，坐在你这个位置上的任何人——无论是今天、还是在另一家航空公司、甚至也许是在另一家处于交易角色的公司——这份工作里有多少，是要真正理解这门业务，好让他们理解，你知道的，这家公司对任何一个给定市场的、我想是天然敞口或者天然方向是什么？"
+    },
+    {
+      "i": 94,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "36:13",
+      "en": "I've only worked for an airline in a corporate sense, so I can only talk about that. But what I can say is that the word hedging is a bit of a misnomer.",
+      "zh": "在企业意义上我只为一家航空公司工作过，所以我只能谈那个。但我能说的是，‘套保’这个词有点名不副实。"
+    },
+    {
+      "i": 95,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "36:24",
+      "en": "Okay.",
+      "zh": "好。"
+    },
+    {
+      "i": 96,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "36:24",
+      "en": "It's actually a view, right? It's actually a trade. And it's a good word that you said that, you know, these traders in the corporate, they don't call themselves traders because, right, that sends compliance into a fit because they believe that hedging is is good for them. So compliance goes ballistic. And they'll say, no, no, we're not trading. We're hedging. So what do we hedge? We're a consumer. We have to buy whatever we're consuming in order to lock that price in. If we're a producer, we've got to sell to make sure we lock in our revenue that we made at the top. So the word trading is not very well accepted at corporates. They don't believe in it. And auditors don't like it either. But I think if I can find that little bit of a tweak where I can get something as a product and the product is linked to the underlying risk that I have, which is exposure to jet fuel, I'm sure in another company you can find links like that. And then you can put on hedges that will protect you. It's like the food market. It's perishable. It's got to be within one day. I'm sure that somebody's going to be able to find out that with certain techniques they can prolong that. And by prolonging that, now they're long vegetables. They're not short. Something in that vein.",
+      "zh": "它实际上是一个判断（view），对吧？它实际上是一笔交易。而你说得很好，你知道的，公司里的这些交易员，他们不称自己为交易员，因为，对吧，那会让合规部门抓狂，因为他们相信套保对他们是好的。所以合规部门会暴跳如雷。然后他们会说，不不，我们不是在交易。我们是在套保。那我们套保什么？我们是消费者。我们必须买入我们所消费的东西，以便把那个价格锁定。如果我们是生产者，我们就得卖出，以确保锁定我们在高位赚到的收入。所以‘交易’这个词在公司里不太被接受。他们不相信它。而且审计师也不喜欢它。但我想，如果我能找到那么一点点变通，让我能把某个东西拿到手当作产品，而这个产品又和我所面临的底层风险——也就是航空煤油敞口——挂钩，那么我确信在另一家公司你也能找到这样的关联。然后你就能建立保护你的套保头寸。这就像食品市场。它是易腐的。它必须一天之内处理掉。我确信总会有人能够发现，用某些技术他们可以把它延长。而通过延长它，现在他们就做多蔬菜了。他们不是做空。就是那一类的东西。"
+    },
+    {
+      "i": 97,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "37:52",
+      "en": "I just want to hear the sort of stories of how much money you made from this particular hedge and what happened at Qatar Airways when this was unveiled to your management.",
+      "zh": "我就想听听那种故事，你从这个特定的套保里赚了多少钱，以及当这套东西向你的管理层揭晓时，Qatar Airways 发生了什么。"
+    },
+    {
+      "i": 98,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "38:06",
+      "en": "Okay. It was $ 130 million. And actually that year our revenue side lost 65. So if not for my hedge, we would have lost money. But on top of that, because of my hedge, right. Going out the curve, we may have lost that money at that time, but because of that hedge and making money, I was able to give the revenue department the ability to cut fares. So Qatar Airways used to be a follower. They'd follow EK, sometimes even EY, right? So EK is Emirates, EY is Etihad. So they're always a follower. And when Emirates cut, then they cut fares, right? When Emirates put up the fares, they put up their fares. But I worked with Ankur and I gave him advantage, first mover advantage, and he took advantage of that. And he cut fares by 20% and then we led the market, right? And sorry to say, bums on seats. We sold. I mean, you know, we had every plane that was nearly 80 to 90% full. So we were able to give them that ability and they were able to make use of it. So I think as with anything that you do in life, you always try to add value to that food chain.",
+      "zh": "好。是 1.3 亿美元。而且实际上那一年我们的收入端亏了 6500 万。所以如果不是因为我的套保，我们本来会亏钱。但除此之外，因为我的套保，对吧。沿着曲线往外走，我们那时候也许亏了那笔钱，但因为那个套保、并且赚了钱，我得以给收入部门降价的能力。所以 Qatar Airways 过去是个跟随者。他们会跟随 EK，有时甚至跟随 EY，对吧？EK 是 Emirates，EY 是 Etihad。所以他们总是个跟随者。当 Emirates 降价，他们就降票价，对吧？当 Emirates 提价，他们就提票价。但我和 Ankur 合作，我给了他优势，先发优势（first mover advantage），而他抓住了这个优势。他把票价降了 20%，然后我们就引领了市场，对吧？而且恕我直言，‘屁股坐上座位’（bums on seats）。我们卖爆了。我是说，你知道的，我们每一架飞机都接近 80% 到 90% 的满载。所以我们能给他们那种能力，而他们也能够加以利用。所以我想，就像你在生活中做的任何事一样，你总是试着给那条食物链增加价值。"
+    },
+    {
+      "i": 99,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "39:38",
+      "en": "Since you brought up the other Middle Eastern airlines, I'm going to ask what is a potentially sensitive question, but I'm sure a lot of people will be wondering about this. There are many sensitive questions I could ask when it comes to the Middle Eastern airlines, but this one in particular, the UAE, Qatar, a lot of those regions are supposedly not drowning in oil, but they have a lot of oil. Why the need to source jet fuel externally in the first place? Why couldn't, you know, these countries subsidize, subsidize? I'm using air quotes here for those watching on video. Why couldn't they subsidize their airlines with, I don't know, exchanging Brent with a refinery down in wherever for a lower price jet fuel for their airlines?",
+      "zh": "既然你提到了其他中东航空公司，我要问一个可能有点敏感的问题，但我相信很多人都会好奇这个。关于中东航空公司我可以问很多敏感问题，但这一个尤其特别——UAE、Qatar，那些地区按理说并不是泡在石油里，但他们有很多石油。那为什么一开始就需要从外部采购航空煤油呢？为什么，你知道的，这些国家不能补贴——补贴？我在这里给看视频的朋友比个引号手势。为什么他们不能补贴他们的航空公司，比如说，用 Brent 跟某个地方的炼油厂交换，为他们的航空公司换来价格更低的航空煤油呢？"
+    },
+    {
+      "i": 100,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "40:26",
+      "en": "I think with the airline industry, because you have a hub. And then you have your spokes, right? So you fly all over the world, but everybody flies through the Middle East. Now, we can only take so much jet fuel on one aircraft and we go long haul. We've got to fill up on the other side. So, I mean, it's the other side who basically commands the price. So it's not us, right?",
+      "zh": "我想在航空业，因为你有一个枢纽（hub）。然后你有你的辐条（spokes），对吧？所以你飞遍全世界，但每个人都飞经中东。那么，我们一架飞机只能带这么多航空煤油，而我们飞的是长途。我们必须在另一端加油。所以，我是说，基本上是另一端在主导价格。所以不是我们说了算，对吧？"
+    },
+    {
+      "i": 101,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "40:52",
+      "en": "I see.",
+      "zh": "我明白了。"
+    },
+    {
+      "i": 102,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "40:52",
+      "en": "So, yes, I mean, you know, with Qatar Petroleum, right? Okay, just... It's not the most pleasant of experiences dealing with QP because they had a subsidiary named Wokod, W-O-K-Q-O-D, Wokod. And they used to sell us jet fuel at 3.65 a gallon. And when we fly to Dubai and lift jet from Dubai, Chevron's selling it at 295 a gallon. So we were getting screwed 70% by our own national petroleum company.",
+      "zh": "所以，是的，我是说，你知道的，跟 Qatar Petroleum，对吧？好，就……跟 QP 打交道并不是最愉快的经历，因为他们有一家子公司叫 Wokod，W-O-K-Q-O-D，Wokod。他们过去以每加仑 3.65 的价格卖给我们航空煤油。而当我们飞到 Dubai、从 Dubai 提取航空煤油时，Chevron 卖的是每加仑 2.95。所以我们被我们自己的国家石油公司坑了 70%。"
+    },
+    {
+      "i": 103,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "41:29",
+      "en": "That's amazing.",
+      "zh": "太惊人了。"
+    },
+    {
+      "i": 104,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "41:30",
+      "en": "So, you know, when we took delivery of the 787s, the Dreamliners, we told the world that we were using them for training by going to Dubai and back, right, to train the crew. But actually we were going there. Literally we flew there on fumes, probably like, you know, we had like, Five tons or less, maybe four, three or four. We're flying there on fumes and literally we cannot circle Dubai airport once. We have to land straight away. And when we land, we can lift a hundred tons of fuel.",
+      "zh": "所以，你知道的，当我们接收 787、也就是 Dreamliner 时，我们告诉全世界说我们用它们做训练，靠往返 Dubai，对吧，来训练机组。但实际上我们是去那儿加油。毫不夸张地说，我们是靠一点点残油飞过去的，大概，你知道的，我们只有，五吨或更少，也许四吨，三四吨。我们靠残油飞过去，而且毫不夸张地说，我们连在 Dubai 机场上空盘旋一圈都做不到。我们必须立刻降落。而当我们降落时，我们就能提取一百吨燃油。"
+    },
+    {
+      "i": 105,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "42:07",
+      "en": "You were tankering fuel from Dubai.",
+      "zh": "你们是在从 Dubai 偷运（tankering）燃油回来。"
+    },
+    {
+      "i": 106,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "42:10",
+      "en": "Yes. Yes. And we were putting it in our own tanks at Doha international airport. And we had about storage capacity of about 9, 10 million gallons. So, you know, that's pretty decent. It will be a day's cover for the airline should we not get any jet fuel from anywhere else. We can still fly for a day.",
+      "zh": "是的。是的。而且我们把它注入我们自己在 Doha 国际机场的油罐里。我们有大约 900 万到 1000 万加仑的储存能力。所以，你知道的，那相当可观。如果我们从任何其他地方都拿不到航空煤油，那将够这家航空公司撑一天。我们仍然能飞一天。"
+    },
+    {
+      "i": 107,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "42:32",
+      "en": "Interesting.",
+      "zh": "有意思。"
+    },
+    {
+      "i": 108,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "42:33",
+      "en": "Give us your sense right now. The people who are in your seat or equivalent seats elsewhere in the industry, give us an update of what they're dealing with right now, September 29th. between the ticker revenue side, which I assume is booming, and then the price of, you know, the surging price of oil and refined products?",
+      "zh": "现在给我们讲讲你的判断。那些坐在你位置上、或者在行业里其他相当位置上的人，给我们更新一下他们眼下——9 月 29 日——正在应对什么，一边是我猜正欣欣向荣的收入端，另一边是，你知道的，石油和精炼产品价格飙升的问题？"
+    },
+    {
+      "i": 109,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "42:53",
+      "en": "I think with respect to airlines or respect to.",
+      "zh": "我想就航空公司而言，或者说就——"
+    },
+    {
+      "i": 110,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "42:57",
+      "en": "Yeah, with respect to airlines.",
+      "zh": "对，就航空公司而言。"
+    },
+    {
+      "i": 111,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "42:59",
+      "en": "What is the, what is the, how are they doing on the sort of fuel side these days?",
+      "zh": "他们最近，在燃油这一块做得怎么样？"
+    },
+    {
+      "i": 112,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "43:04",
+      "en": "I think they're very wary of the consumption hedging, and they're mainly passing it through to the customer right now because they don't know what to do. Because, you know, a lot of airlines in 2020 lost a lot of money. Fuel hedging. Delta dropped over $ 1 billion. Let's just say a very highly ranked Asian airline basically lost nearly $ 2 billion. And, yeah, so, you know, it's not easy to work or to see what the geopolitics are bringing you. But what you can do is look, right? At the end of the day, it's a pass-through to the customer. So you use your ticket as your weapon of choice. And that's pretty much what I did as well. This pricing mechanism that I kind of thought up, I basically weaponized the revenue.",
+      "zh": "我想他们对消费套保非常警惕，而且他们眼下主要是把它转嫁给顾客，因为他们不知道该怎么做。因为，你知道的，2020 年很多航空公司在燃油套保上亏了很多钱。Delta 亏了超过 10 亿美元。就这么说吧，一家排名非常高的亚洲航空公司基本上亏了近 20 亿美元。而且，是的，所以，你知道的，要判断地缘政治会给你带来什么并不容易。但你能做的是，听着，对吧？归根结底，这是向顾客的转嫁。所以你把你的机票当作你选定的武器。而那基本上也是我所做的。这个我算是想出来的定价机制，我基本上是把收入武器化了。"
+    },
+    {
+      "i": 113,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "44:00",
+      "en": "Has anyone else used that structure since?",
+      "zh": "从那以后还有别人用过那个结构吗？"
+    },
+    {
+      "i": 114,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "44:03",
+      "en": "You know something? I have no idea. But I was going to attend a treasury conference in Singapore to talk about what I had done And my CEO said, no, go, you're not talking at that treasury conference, right? Because we do not want to give our secrets away because nobody else is doing it. And one of the reasons why they're not doing it is because, again, it's the auditors, it's the sovereign wealth funds that probably own some of the airlines that are not, they don't feel it's kosher to sell oil because you're a consumer. I think it's a lack of understanding. for most people and a lack of understanding for most treasurers in their roles there that they cannot think like a horse with blinders. They cannot only see that basically by hedging the airline and keeping it safe, all you see is buying fuel. There's other aspects of the airline as well. And you've got to take all that into account and then cook up a strategy of your own and create something so that you can benefit from it.",
+      "zh": "你知道吗？我完全不知道。但我本来要去参加一个在 Singapore 的资金管理会议，讲讲我做过的事，然后我的 CEO 说，不行，你不能去那个资金管理会议上讲，对吧？因为我们不想把我们的秘密泄露出去，因为没有别人在做这件事。而他们不做的原因之一，又是——是审计师，是那些可能持有部分航空公司股权的主权财富基金（sovereign wealth funds），他们不觉得卖石油是合规的（kosher），因为你是个消费者。我认为这是一种理解上的缺失。对大多数人来说，对大多数资金主管在他们的岗位上来说，他们不能像戴着眼罩的马那样思考。他们不能只看到——基本上，通过给航空公司套保、保住它的安全，你所看到的只是买燃油。航空公司还有其他的方面。你必须把这一切都考虑进去，然后酝酿出你自己的策略、创造出某种东西，好让你能从中受益。"
+    },
+    {
+      "i": 115,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "45:13",
+      "en": "So I realize that this isn't strictly an airline question right now, but it's in the news. It is a refined products topic. There's all this talk and it could happen, this idea of, you know, we have this diesel crisis in the United States. Diesel prices are surging. It's possible that the U.S. is going to implement a ban on diesel exports. When you hear this, what do you think about?",
+      "zh": "所以我意识到这眼下严格来说不是个航空公司的问题，但它在新闻里。它是一个精炼产品的话题。有这么多议论，而且它可能发生，就是这个说法，你知道的——我们在美国有这场柴油危机。柴油价格在飙升。美国有可能要实施一项柴油出口禁令。当你听到这个时，你会想到什么？"
+    },
+    {
+      "i": 116,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "45:41",
+      "en": "Okay, maybe it's not right for me to say this, but I think of taco. You know, trumpled chicken.",
+      "zh": "好，也许我不太该这么说，但我想到的是 taco。你知道的，就是那个‘Trump 总会临阵退缩’（TACO）的说法。"
+    },
+    {
+      "i": 117,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "45:45",
+      "en": "Yeah, yeah, yeah.",
+      "zh": "对，对，对。"
+    },
+    {
+      "i": 118,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "45:48",
+      "en": "But specifically on this question of whether a country will ban the export of a refined product and how it ripples through markets.",
+      "zh": "但具体到这个问题——一个国家是否会禁止一种精炼产品的出口，以及它如何在市场中激起涟漪。"
+    },
+    {
+      "i": 119,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "45:57",
+      "en": "Well, Russia's done that, and China's done that somewhat, all right? But Russia's the second biggest diesel exporter on the planet. So a lot of diesel has been taken out of the whole complex. And honestly, right now, Europe's pretty short, and that's one of the reasons why London Gas Hall has just gone through the roof. Also, this export ban, a lot of it was rhetoric. So because of that rhetoric, you had diesel or heating oil in the U.S. come down instead of go up. Because a lot of the Gulf or Pad 3 in the United States is the kitchen. That's where all the refineries are. And so that's where all the product comes out of. New York Harbor, right, it's, you know, they don't have any access. They maybe have a small pipeline, but that's about it. For them, it's a seaborne trade for the Gulf to sell internally, right, to New York for their jet fuel or their diesel or their heating oil. So a lot of times what the East Coast does is they buy diesel from Europe. in order to make sure that they don't have, you know, a shortage at any one time. And so it now adds the point, right, that you've got the East Coast of the United States buying diesel and London Gas, all of course, is benefiting from that and heating oil is now taking a hit. And most of the heating oil, right, is going to Latin America anyway. So not very much is going to Europe, probably like 500,000 barrels per day. It's going to the ARA, 100,000 barrels a day to the UK and maybe 150,000 to the rest. Oh, sorry. ARA is Europe. So yeah, it's not, it's not super significant from the Gulf, but I think there's a US Gulf coast trade where, you know, they'll run an AfriMax or they'll run a, you know, long range two or maybe even a Panamax through the Panama Canal and they'll transport that product to Asia. So it's going from the U.S. Gulf Coast to Chubu in Tokyo or in Japan.",
+      "zh": "嗯，Russia 做过那件事，China 也在一定程度上做过，好吗？但 Russia 是地球上第二大柴油出口国。所以很多柴油已经从整个体系里被抽走了。而且老实说，眼下 Europe 相当短缺，这也是为什么 London 瓦斯油（London gas oil）刚刚冲破天花板的原因之一。另外，这个出口禁令，很大程度上是嘴上说说（rhetoric）。所以正因为那些言论，你会看到美国的柴油或取暖油不涨反跌。因为美国的海湾地区、也就是 PADD 3，是那个‘厨房’。所有炼油厂都在那里。所以所有产品都是从那里出来的。New York Harbor，对吧，你知道的，他们没有什么通道。他们也许有一条小管道，但那基本就是全部了。对他们来说，这是一种海运贸易，靠海湾地区内部销售，对吧，卖给 New York 做他们的航空煤油、柴油或取暖油。所以很多时候美东海岸做的是从 Europe 买柴油。以确保他们在任何时候都不会，你知道的，出现短缺。所以这现在又加了一层，对吧，就是美东海岸在买柴油，而 London 瓦斯油，当然了，全都在从中受益，取暖油现在则在受打击。而且大部分取暖油，对吧，反正都是运往 Latin America 的。所以运往 Europe 的不太多，大概每天 50 万桶。它运往 ARA，每天 10 万桶到 UK，也许 15 万桶到其余地方。哦，抱歉。ARA 就是 Europe。所以是的，从海湾地区来看它不是特别重要，但我想有一条美湾沿岸（US Gulf Coast）的贸易线，你知道的，他们会跑一艘 AfriMax，或者跑一艘，你知道的，LR2（long range two），甚至也许是一艘 Panamax 穿过巴拿马运河，把那些产品运到亚洲。所以它是从美湾沿岸运到 Tokyo 或者说 Japan 的 Chubu。"
+    },
+    {
+      "i": 120,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "48:14",
+      "en": "Can't wait to heat my house in Connecticut this winter. David King, thank you so much for coming on OddLots. I should mention the paper if anyone wants further details. It's available on SSRN. It is Fuel hedging in the 21st century, what every airline can learn about proactively shaping revenue. Thanks so much, David.",
+      "zh": "我都等不及今年冬天在 Connecticut 给我家供暖了。David Kang，非常感谢你来做客 Odd Lots。我应该提一下那篇论文，如果有人想了解更多细节。它在 SSRN 上可以找到。标题是《Fuel hedging in the 21st century, what every airline can learn about proactively shaping revenue》。非常感谢你，David。"
+    },
+    {
+      "i": 121,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "48:35",
+      "en": "Thank you very much for having me. I appreciate it.",
+      "zh": "非常感谢你们邀请我。我很感激。"
+    },
+    {
+      "i": 122,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "48:50",
+      "en": "Joe, I'm so glad we finally got someone to talk about fuel hedging in detail. I have to say, the story about Qatar Airways tankering oil from Dubai back to Doha is one of my now all-time favorite airline fuel stories. My top story, I've told this on the podcast before, but I think it's been years, was when Silverjet, the business class only carrier, sort of luxury airline carrier, when they were about to go out of business. their creditors cut credit lines for fuel spending. And so the CEO of the company was putting the entire fuel bill on his personal credit card. You hear about stories like this. The personal credit card. the rewards points were for British Airways miles. So he ended up with a bunch of BA miles.",
+      "zh": "Joe，我太高兴我们终于请到有人来详细聊聊燃油套保了。我得说，Qatar Airways 从 Dubai 把油偷运回 Doha 的那个故事，如今是我最爱的航空燃油故事之一了。我最爱的那个故事——我以前在播客里讲过，但我想那已经是好几年前了——是 Silverjet，那家只飞商务舱的航空公司、算是豪华航空公司，当他们快要倒闭的时候。他们的债权人削减了燃油支出的授信额度。于是那家公司的 CEO 把整笔燃油账单都刷在了他自己的个人信用卡上。你会听到这样的故事。那张个人信用卡。它的奖励积分是 British Airways 的里程。所以他最后攒下了一大堆 BA 里程。"
+    },
+    {
+      "i": 123,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "49:40",
+      "en": "That's amazing.",
+      "zh": "太惊人了。"
+    },
+    {
+      "i": 124,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "49:41",
+      "en": "That's great.",
+      "zh": "太棒了。"
+    },
+    {
+      "i": 125,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "49:43",
+      "en": "FedEx got its start too with a bunch of like the founder putting a bunch of the debt on his personal credit card. It's pretty wild.",
+      "zh": "FedEx 起步的时候也是这样，创始人把一大堆债务刷在了他的个人信用卡上。这真是相当疯狂。"
+    },
+    {
+      "i": 126,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "49:52",
+      "en": "To think about.",
+      "zh": "想想看。"
+    },
+    {
+      "i": 127,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "49:52",
+      "en": "I thought that was great.",
+      "zh": "我觉得那太棒了。"
+    },
+    {
+      "i": 128,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "49:53",
+      "en": "I think the really interesting thing from that episode to me was I know, I guess it's interesting, and I'm not surprised. They don't like the term traders in the corporate context, but that's what they are.",
+      "zh": "我觉得那一集里真正有意思的一点，对我来说是——我知道，我猜这挺有意思的，而且我一点也不惊讶。他们在公司语境里不喜欢‘交易员’这个词，但他们就是交易员。"
+    },
+    {
+      "i": 129,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "50:05",
+      "en": "Right, you have to have a directional view.",
+      "zh": "对，你必须有一个方向性的判断。"
+    },
+    {
+      "i": 130,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "50:07",
+      "en": "Selling calls and buying puts and all this stuff. But the idea is, again, like, you know, a trader in the typical environment is just seeking to max out P & L. And this idea that it's like, you don't have to take a directional view if you really understand the core idea I guess, structural position of the company already on the market. And the job is to balance that out. And you can understand how complex it gets because, you know, this idea that like, OK, the revenue could go up during times of higher oil prices, figuring out that sensitivity, how much you can pass through. You think of like an airline, of course, they're short oil, right? Of course, they're implicitly short oil. And that in certain environments, they could actually be implicitly long oil. And you have to really identify that exposure. I think that's really interesting. No, totally.",
+      "zh": "卖出看涨期权、买入看跌期权，还有这一整套东西。但这个思路是，再一次，就像，你知道的，一个典型环境下的交易员只是在追求把损益（P&L）最大化。而这个说法是——你不必下一个方向性的判断，如果你真的理解那个核心思路，我想，也就是公司在市场上已经存在的结构性头寸。而这份工作是去把它平衡掉。你能理解它变得有多复杂，因为，你知道的，这个说法是——好，收入可能在油价更高的时期上升，搞清楚那个敏感度，你能转嫁多少。你会想到比如一家航空公司，当然了，他们是做空石油的，对吧？当然了，他们是隐性做空石油的。而在某些环境下，他们实际上可能是隐性做多石油的。而你必须真正识别出那个敞口。我觉得这真的很有意思。不，完全是。"
+    },
+    {
+      "i": 131,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "50:57",
+      "en": "I think this is an underappreciated aspect of the airline business, which is there is that other lever to pull. And it's sort of it reminds me of the bakery episode.",
+      "zh": "我觉得这是航空生意里一个被低估的方面，那就是还有另一根杠杆可以拉。而这有点让我想起那期烘焙坊（bakery）的节目。"
+    },
+    {
+      "i": 132,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "51:06",
+      "en": "Yeah.",
+      "zh": "对。"
+    },
+    {
+      "i": 133,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "51:07",
+      "en": "Remember where we were talking about how a baker in Chicago increases his prices when the cost of eggs goes up because everyone sees it in the news. There's a lot of elasticity, I guess, baked in. to prices for airfares when you're having a big oil shock. But on the other hand, if we, you know, evolve into actual physical shortages, which is a possibility, I guess we'll see what happens then.",
+      "zh": "记得吗，我们当时谈到 Chicago 的一个面包师如何在鸡蛋成本上涨时提高他的价格，因为每个人都在新闻里看到了。当出现大的石油冲击时，机票价格里我想是内建了很大的弹性。但另一方面，如果我们，你知道的，演变成实际的实物短缺——这是一种可能——我想我们到时候再看会发生什么吧。"
+    },
+    {
+      "i": 134,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "51:31",
+      "en": "When I just right now think about the airline industry seems to encapsulate so many things with the economy right now, which is that like the cost of everything is going up. And also people are flying like crazy. I mean, the numbers are really huge. And so it's like, At least if we were to only look at the airline industry, we're like, the global economy, the.",
+      "zh": "我此刻一想到航空业，它似乎浓缩了当下经济的这么多东西，那就是——各种东西的成本都在上涨。而且人们还在疯狂地坐飞机。我是说，那些数字真的非常庞大。所以这就像，至少如果我们只看航空业，我们会觉得，全球经济，这个——"
+    },
+    {
+      "i": 135,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "51:53",
+      "en": "Economy is hot.",
+      "zh": "经济很火热。"
+    },
+    {
+      "i": 136,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "51:55",
+      "en": "People look at these sticker prices. They complain about how they know prices are going up, and yet total travel just keeps going up.",
+      "zh": "人们看着这些标价。他们抱怨说他们知道价格在上涨，然而总旅行量却一直在上升。"
+    },
+    {
+      "i": 137,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "52:04",
+      "en": "It does not seem to have dented activity at all. This is a hot economy.",
+      "zh": "它似乎丝毫没有削弱经济活动。这是一个火热的经济。"
+    },
+    {
+      "i": 138,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "52:09",
+      "en": "All right, shall we leave it there?",
+      "zh": "好吧，我们就聊到这儿？"
+    },
+    {
+      "i": 139,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "52:10",
+      "en": "Let's leave it there.",
+      "zh": "就聊到这儿吧。"
+    },
+    {
+      "i": 140,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "52:11",
+      "en": "This has been another episode of the All Thoughts Podcast. I'm Traci Allaway. You can follow me at Traci Allaway.",
+      "zh": "这是 Odd Lots Podcast 的又一期节目。我是 Traci Allaway。你可以在 Traci Allaway 这个账号关注我。"
+    },
+    {
+      "i": 141,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "52:16",
+      "en": "And I'm Joe Wiesenthal. You can follow me at The Stalwart. Follow our producers, Carmen Rodriguez at Carmen Irma, Dashiell Bennett at Dashbot, Cale Brooks at Cale Brooks, and Kevin Lozano at Kevin Lloyd Lozano. And for more OddLots content, go to Bloomberg.com slash OddLots. We have a daily newsletter and all of our episodes. And you can share about all these topics 24-7 in our Discord, Discord.gg slash OddLots.",
+      "zh": "我是 Joe Wiesenthal。你可以在 The Stalwart 这个账号关注我。关注我们的制作人：Carmen Rodriguez，账号 Carmen Irma；Dashiell Bennett，账号 Dashbot；Cale Brooks，账号 Cale Brooks；还有 Kevin Lozano，账号 Kevin Lloyd Lozano。想获取更多 Odd Lots 内容，请访问 Bloomberg.com 斜杠 OddLots。我们有每日简报（newsletter）和我们所有的期数。你还可以在我们的 Discord 里全天候（24-7）讨论所有这些话题，Discord.gg 斜杠 OddLots。"
+    },
+    {
+      "i": 142,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "52:40",
+      "en": "And if you enjoyed this conversation, if you want Joe and I to do more episodes on the airlines, then please leave us a positive review on your favorite podcast platform. And remember, if you are a Bloomberg subscriber, you can listen to all of our episodes absolutely ad-free. All you need to do is find the Bloomberg channel on Apple Podcasts and follow the instructions there. Thanks for listening.",
+      "zh": "如果你喜欢这段对话，如果你想让 Joe 和我做更多关于航空公司的期数，那么请在你最喜爱的播客平台上给我们留一个好评。还有，记住，如果你是 Bloomberg 的订阅用户，你可以完全无广告地收听我们所有的期数。你要做的就是在 Apple Podcasts 上找到 Bloomberg 频道，然后按照那里的说明操作。感谢收听。"
+    }
+  ]
+}

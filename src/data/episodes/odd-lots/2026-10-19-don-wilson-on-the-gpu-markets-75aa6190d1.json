@@ -1,0 +1,1513 @@
+{
+  "show": "odd-lots",
+  "kind": "transcript",
+  "id": "odd-lots-75aa6190d1",
+  "guid": "80dab570-fb6b-445e-b20e-b4e5015a3603",
+  "slug": "2026-10-19-don-wilson-on-the-gpu-markets-75aa6190d1",
+  "date": "2026-10-19",
+  "title_en": "Don Wilson on the GPU Market's Trillion Dollar Question",
+  "title_zh": "Don Wilson（DRW）谈 GPU 市场的万亿美元之问",
+  "subtitle_zh": "DRW 创始人 Don Wilson 解析 GPU 期货、算力市场与永续合约的经济逻辑。",
+  "description": "Don Wilson on the GPU Market's Trillion Dollar Question",
+  "duration": "26:59",
+  "duration_seconds": 1619,
+  "episode_url": "https://omny.fm/shows/odd-lots/don-wilson-on-the-gpu-markets-trillion-dollar-question",
+  "audio_url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/8a94442e-5a74-4fa2-8b8d-ae27003a8d6b/80dab570-fb6b-445e-b20e-b4e5015a3603/audio.mp3?utm_source=Podcast&in_playlist=982f5071-765c-403d-969d-ae27003a8d83",
+  "speakers": {
+    "1": "Joe Weisenthal（主持）",
+    "2": "Tracy Alloway（主持）",
+    "3": "Don Wilson（嘉宾）",
+    "4": "片花/广告（旁白）"
+  },
+  "turn_count": 186,
+  "turns": [
+    {
+      "i": 0,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "00:03",
+      "en": "Bloomberg Audio Studios.",
+      "zh": "Bloomberg Audio Studios。"
+    },
+    {
+      "i": 1,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "00:05",
+      "en": "Podcasts.",
+      "zh": "播客。"
+    },
+    {
+      "i": 2,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "00:06",
+      "en": "Radio.",
+      "zh": "广播。"
+    },
+    {
+      "i": 3,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "00:07",
+      "en": "News.",
+      "zh": "新闻。"
+    },
+    {
+      "i": 4,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "00:18",
+      "en": "Hello and welcome to another episode of the Odd Lodge Podcast. I'm Joe Weisenthal.",
+      "zh": "大家好，欢迎收听新一期的 Odd Lots 播客。我是 Joe Weisenthal。"
+    },
+    {
+      "i": 5,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "00:23",
+      "en": "And I'm Tracy Allaway.",
+      "zh": "我是 Tracy Alloway。"
+    },
+    {
+      "i": 6,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "00:24",
+      "en": "Tracy, we're here in Chicago, second year in a row that we've done a live show here in a Great city for us.",
+      "zh": "Tracy，我们现在人在 Chicago，这是我们连续第二年在对我们意义重大的这座城市做现场节目了。"
+    },
+    {
+      "i": 7,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "00:30",
+      "en": "That's right.",
+      "zh": "没错。"
+    },
+    {
+      "i": 8,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "00:31",
+      "en": "We're going to be talking to someone who we spoke with last year, but a lot has changed in 12 months. This is someone who is trying to build a market for compute, right?",
+      "zh": "我们今天要聊的这位嘉宾，去年我们也对谈过，但这 12 个月里变化太大了。他一直在尝试为算力（compute）构建一个市场，对吧？"
+    },
+    {
+      "i": 9,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "00:41",
+      "en": "Right.",
+      "zh": "对。"
+    },
+    {
+      "i": 10,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "00:41",
+      "en": "So we're going to be speaking with Don Wilson. He is the founder and CEO of DRW. He is really at the forefront of this effort to build futures markets for things like GPUs and so forth. So check out the conversation. We talked to you, Don, basically exactly a year ago, last time we were here. We talked about things like GPU futures. But in like AI time, it might as well have been 10 years ago because so much has changed. We want to talk GPU market structure, all that stuff.",
+      "zh": "所以今天我们要对谈的是 Don Wilson。他是 DRW 的创始人兼 CEO。在为期货——比如 GPU 期货等等——构建市场这件事上，他真正走在了最前沿。那就来听听这段对话吧。Don，上一次我们来这里的时候，差不多正好是一年前，我们跟你聊过 GPU 期货这类话题。但按 AI 的时间尺度来算，那简直像是 10 年前了，因为变化太大了。我们想聊聊 GPU 的市场结构，以及所有这些东西。"
+    },
+    {
+      "i": 11,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "01:08",
+      "en": "The last couple of days.",
+      "zh": "过去这几天。"
+    },
+    {
+      "i": 12,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "01:09",
+      "en": "Have actually been kind of interesting in the AI trade world. Everyone's watching CoreWeave. Everyone's watching CoreWeave bonds. There was an anthropic investor meeting before the IPO.",
+      "zh": "在 AI 交易的世界里其实挺有意思的。大家都在盯着 CoreWeave。大家都在盯着 CoreWeave 的债券。Anthropic 在 IPO 之前开了一场投资人会议。"
+    },
+    {
+      "i": 13,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "01:20",
+      "en": "A little jitters.",
+      "zh": "有点小紧张。"
+    },
+    {
+      "i": 14,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "01:21",
+      "en": "Maybe their revenue only grew up, whatever, 50% versus 51%. I don't know the exact numbers. Give us your read right now. Is there a little slowdown happening in AI? Are we shifting into a lower gear? Is there anything in the trajectory that's changed?",
+      "zh": "也许是他们的营收增速只涨了，随便说个数字，50% 对比 51%。我不知道确切的数字。你现在怎么看？AI 是不是出现了一点放缓？我们是在换到低速挡吗？这条增长轨迹里有什么发生变化了吗？"
+    },
+    {
+      "i": 15,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "01:38",
+      "en": "Any new thing that's growing this fast is not going to grow at a constant rate. The first derivative isn't going to be constant. The second derivative isn't going to be constant. So to me, this is just kind of expected volatility. I don't know, maybe people went on vacation in August so they didn't consume as many anthropic tokens.",
+      "zh": "任何一个增长这么快的新事物，都不可能以恒定的速度增长。一阶导数不会恒定，二阶导数也不会恒定。所以对我来说，这不过是意料之中的波动（volatility）。我也说不准，也许是大家 8 月都去度假了，所以没消耗那么多 Anthropic 的 token。"
+    },
+    {
+      "i": 16,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "02:04",
+      "en": "But you're not reading anything more into it than that.",
+      "zh": "但你并没有从中解读出更多的东西。"
+    },
+    {
+      "i": 17,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "02:06",
+      "en": "I'm not. OK.",
+      "zh": "没有。好。"
+    },
+    {
+      "i": 18,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "02:08",
+      "en": "Wait, so with something like CoreWeave, a big part of what you're doing with Compute Exchange and silicon data is this idea that if you create a market for compute, then cloud companies can hedge their future revenue streams and the cost of capital can come down. In a week like this, when you see the yield on a CoreWeave bond at 15%, what does that tell you? Is the suggestion that, well, if compute futures were up and running, all of CoreWeave's problems would be solved?",
+      "zh": "等等，那么像 CoreWeave 这种情况，你在 Compute Exchange 和 Silicon Data 上做的一大块工作，其核心理念就是：如果你为算力建立起一个市场，那么云厂商就能对冲（hedge）它们未来的收入流，资本成本（cost of capital）也能降下来。在这样一周里，当你看到 CoreWeave 债券的收益率高达 15% 时，这说明什么？是不是想说，如果算力期货已经跑起来了，CoreWeave 的所有问题就都解决了？"
+    },
+    {
+      "i": 19,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "02:38",
+      "en": "I do think that it's highlighting the massive need for risk management products. Think about if you're a neocloud and you sign contracts with the most creditworthy people companies in the world, then you're fine, right? But there are a lot of other consumers of GPUs that are not the most credit-worthy companies in the world. And if you're a neocloud, you want to be able to sell to them. And so I think what the market's saying is, if you're selling on-demand compute or you're selling to less credit-worthy entities, then your cost of capital is just going to be higher. Now, imagine once GPU futures exist, you can, as a neocloud, buy the GPUs, deploy them in your data center, sell a strip of GPU futures, and then just sell on-demand compute if you want. Or sell six-month contracts to less creditworthy companies that can post a big percentage of the contract value up front.",
+      "zh": "我确实认为这凸显了对风险管理（risk management）产品的巨大需求。想想看，如果你是一家新型云厂商（neocloud），跟世界上信用最好的公司签了合约，那你就没问题，对吧？但还有很多其他的 GPU 使用者并不是世界上信用最好的公司。而作为一家 neocloud，你是希望能把算力卖给他们的。所以我认为市场在说的是：如果你卖的是按需算力（on-demand compute），或者你卖给的主体信用没那么好，那你的资本成本就是会更高。那么，想象一下一旦有了 GPU 期货，作为一家 neocloud，你可以买入 GPU、把它们部署到你的数据中心、卖出一整条（a strip）GPU 期货，然后如果你想的话就去卖按需算力。或者把六个月期的合约卖给那些信用较差、但能预付一大比例合约金额的公司。"
+    },
+    {
+      "i": 20,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "03:45",
+      "en": "And the market is going to.",
+      "zh": "而市场将会。"
+    },
+    {
+      "i": 21,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "03:49",
+      "en": "Reward companies that do that that basically just have on a giant basis trade heavily, their cost of capital is going to be much lower.",
+      "zh": "奖励那些这么做的公司——它们基本上就是持有一个巨大的基差（basis）头寸并大量交易，它们的资本成本会低得多。"
+    },
+    {
+      "i": 22,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "04:00",
+      "en": "Terry mentioned, okay, the GPU futures don't exist yet. And there's some message from the White House, like national security, et cetera. And he's like, I don't get it. Do you get it? Can you tell us something about why these products don't exist yet? Maybe what the regulatory hesitancy is about the listing?",
+      "zh": "Terry 提到，好吧，GPU 期货还不存在。而且白宫那边放出了一些信息，比如国家安全之类的。他就说，我搞不懂。你懂吗？你能不能给我们讲讲，为什么这些产品到现在还不存在？也许监管在上市（listing）这件事上的顾虑到底是什么？"
+    },
+    {
+      "i": 23,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "04:19",
+      "en": "Yeah, and just remind us what the state is of regulatory approval at the moment.",
+      "zh": "对，也顺便提醒我们一下，目前监管审批进展到哪一步了。"
+    },
+    {
+      "i": 24,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "04:23",
+      "en": "So right now, there's a comment period that's open. The CFTC extended it. If they don't do anything, then the futures can get listed November 9th. Now, conveniently, November 9th is after November 3rd.",
+      "zh": "现在有一个正在开放的意见征询期（comment period）。CFTC 把它延长了。如果他们什么都不做，那么这些期货就能在 11 月 9 日上市。而巧的是，11 月 9 日刚好在 11 月 3 日之后。"
+    },
+    {
+      "i": 25,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "04:40",
+      "en": "And so maybe....",
+      "zh": "所以也许……"
+    },
+    {
+      "i": 26,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "04:45",
+      "en": "Some people in Washington will be more comfortable with the Compute Futures launching. I don't know. I can't explain what the concern is. I've heard all sorts of different theories. One theory is that some of the indices are not very robust.",
+      "zh": "Washington 的一些人会对算力期货的推出更放心一些。我不知道。我没法解释这个顾虑到底是什么。我听到过各种各样的说法。有一种说法是，某些指数不够稳健（robust）。"
+    },
+    {
+      "i": 27,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "05:03",
+      "en": "Yeah, okay, so I'm actually very curious about this, the robustness of the indices, because a lot of GPUs are sold via bilateral offtake.",
+      "zh": "好，那其实我对这一点非常好奇，就是这些指数的稳健性，因为很多 GPU 是通过双边包销（bilateral offtake）。"
+    },
+    {
+      "i": 28,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "05:14",
+      "en": "Agreements.",
+      "zh": "协议来出售的。"
+    },
+    {
+      "i": 29,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "05:14",
+      "en": "Right.",
+      "zh": "对。"
+    },
+    {
+      "i": 30,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "05:15",
+      "en": "So it's like Anthropic has some deal with SpaceX.",
+      "zh": "就比如说 Anthropic 跟 SpaceX 有某种交易。"
+    },
+    {
+      "i": 31,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "05:18",
+      "en": "Right.",
+      "zh": "对。"
+    },
+    {
+      "i": 32,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "05:18",
+      "en": "To use their compute. We don't really know the price of that. Why should anyone feel confident then when they look at an index of GPU prices that like it actually represents something resembling the save the market here?",
+      "zh": "用他们的算力。我们其实并不知道那笔交易的价格。那么，当有人去看一个 GPU 价格指数时，凭什么就会有信心，觉得它真的反映了跟当前市场大致相符的情况呢？"
+    },
+    {
+      "i": 33,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "05:33",
+      "en": "Listen, I think it's buyer beware. learn about the index that you're trading futures on. Silicon Data, that team has done an amazing job of collecting massive amounts of data, and it's focused on on-demand compute from neoclouds. There are a lot of neoclouds. There are very few hyperscalers. So their index is focused on neoclouds, of which there are many. And there is a lot of transparency about on-demand compute. And, you know, they've done a very good job to create an index that, you know, will be IOSCO compliant.",
+      "zh": "听着，我觉得这是买家自行小心（buyer beware）。你要去了解你在其上做期货交易的那个指数。Silicon Data 那个团队在收集海量数据方面做得非常出色，而且它聚焦的是来自 neocloud 的按需算力。neocloud 有很多家，而超大规模云厂商（hyperscalers）非常少。所以他们的指数聚焦在 neocloud 上，而这类公司数量众多。而且按需算力这块透明度很高。他们做出了一个很好的指数，一个将符合 IOSCO 标准的指数。"
+    },
+    {
+      "i": 34,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "06:18",
+      "en": "That's the benchmark. Some of the other.",
+      "zh": "这就是那个基准（benchmark）。其他的一些。"
+    },
+    {
+      "i": 35,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "06:21",
+      "en": "Providers I don't think have ever heard the phrase IOSCO compliant.",
+      "zh": "指数提供商，我觉得他们可能压根就没听说过『符合 IOSCO 标准』这个说法。"
+    },
+    {
+      "i": 36,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "06:25",
+      "en": "So IOSCO is the.",
+      "zh": "所以 IOSCO 是。"
+    },
+    {
+      "i": 37,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "06:31",
+      "en": "I don't know, it's the kind of group of international regulators that I think in 2013 came up.",
+      "zh": "我也说不太准，它大概是一个由各国监管机构组成的国际组织，我记得是在 2013 年提出了。"
+    },
+    {
+      "i": 38,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "06:37",
+      "en": "With a best practices approach for indices.",
+      "zh": "一套针对指数的最佳实践（best practices）方法。"
+    },
+    {
+      "i": 39,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "06:42",
+      "en": "Oh, we should do an IOSCO episode one day.",
+      "zh": "哦，我们哪天应该做一期专门讲 IOSCO 的节目。"
+    },
+    {
+      "i": 40,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "06:46",
+      "en": "Now that you've been working on the futures contract for a while, can you maybe tell us what you've learned about, I guess, the pricing trajectory for GPUs over time? Because this is one of the concerns, right? You can say you're bullish on the compute markets, But it doesn't necessarily mean that you're bullish on the value of a single GPU. It can depreciate over time. Maybe it gets more efficient and people move on to new things.",
+      "zh": "既然你已经在这个期货合约上做了有一阵子了，你能不能跟我们讲讲，关于 GPU 价格随时间变化的轨迹，你都了解到了些什么？因为这是其中一个顾虑，对吧？你可以说你看好（bullish）算力市场，但这并不一定意味着你看好单块 GPU 的价值。它可能会随时间贬值（depreciate）。也许效率提高了，人们转去用新的东西了。"
+    },
+    {
+      "i": 41,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "07:10",
+      "en": "So that is the trillion dollar question. I'm glad I asked it. And that is why these futures need to exist. Because nobody knows what the value of a B200 will be four years from now, five years from now. And, you know, and so by introducing futures contracts that trade, you know, way out, I think initially the CMEs futures contracts are going to go out three years and, you know, as they become more liquid, they'll.",
+      "zh": "这就是那个价值万亿美元的问题。我很高兴有人问到了它。这也正是这些期货为什么必须存在的原因。因为没有人知道一块 B200 在四年后、五年后会值多少钱。所以，通过引入那些可以交易到很远期限的期货合约——我想 CME 最初的期货合约会做到三年期——而随着它们流动性变好，它们会。"
+    },
+    {
+      "i": 42,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "07:45",
+      "en": "Go out more.",
+      "zh": "做到更远的期限。"
+    },
+    {
+      "i": 43,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "07:49",
+      "en": "But, you know, that enables people to hedge that. Back in November of, you know, almost a year ago, the price of H100s, the hourly on-demand price, had just been declining, declining, declining, and everybody was saying, why do you need GPU futures?",
+      "zh": "但这就能让大家去对冲这个风险。回到差不多一年前的那个 11 月，H100 的价格——就是每小时的按需价格——一直在跌、跌、跌，每个人都在说，你要 GPU 期货干嘛？"
+    },
+    {
+      "i": 44,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "08:09",
+      "en": "These things just go down.",
+      "zh": "这些东西只会往下走。"
+    },
+    {
+      "i": 45,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "08:11",
+      "en": "And then, you know, right around Thanksgiving, they turned around and kind of went up and to the right. And what happened, you know, it was Anthropix's newest model came out, which was a massive step up in usefulness. And all of a sudden, there was a ton of demand for inference. And, you know, more recently, we've seen, you know, looking at B200, B300, and H100 prices, another surge upward in price. And, by the way, at the same time that the Silicon Data token index price has plummeted.",
+      "zh": "然后，就在感恩节（Thanksgiving）前后，它们掉头转向，一路往右上方走。发生了什么呢？是 Anthropic 最新的模型出来了，实用性有了巨大的跃升。突然间，推理（inference）的需求暴涨。而且，最近我们看 B200、B300 和 H100 的价格，又出现了一轮价格的向上飙升。顺便说一句，与此同时，Silicon Data 的 token 指数价格却暴跌了。"
+    },
+    {
+      "i": 46,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "08:55",
+      "en": "Yeah, it's interesting.",
+      "zh": "是啊，很有意思。"
+    },
+    {
+      "i": 47,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "08:56",
+      "en": "And so.",
+      "zh": "所以说。"
+    },
+    {
+      "i": 48,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "08:58",
+      "en": "Yeah, I mean, these things are volatile. They can go up, they can go down, and a hedging instrument is badly needed.",
+      "zh": "是啊，我是说，这些东西波动性很大。它们能涨，也能跌，而市场非常需要一个对冲工具（hedging instrument）。"
+    },
+    {
+      "i": 49,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "09:21",
+      "en": "Just as a hypothetical, let's say GPUs depreciate over time and there's more demand but in general the value goes down which is something we've seen in a lot of commodity markets right in that case does having a market where you're able to hedge your future gpu revenue streams does that just enable people to i guess borrow more and overbuild versus genuinely reduce risk you're just allowing people to borrow against the same risk, ostensibly with a hedge, but the underlying isn't actually moving in your favor.",
+      "zh": "就作为一个假设，比方说 GPU 随时间贬值，需求虽然更多，但总体上价值是往下走的——这是我们在很多大宗商品市场里都见过的情况，对吧？那么在那种情况下，有一个能让你对冲未来 GPU 收入流的市场，是不是只是让人们能够借更多的钱、过度扩建（overbuild），而不是真正降低了风险？你只是让人们对着同样的风险去借钱，表面上有一个对冲，但底层资产其实并没有朝对你有利的方向走。"
+    },
+    {
+      "i": 50,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "09:57",
+      "en": "Does that make sense?",
+      "zh": "我这么说讲得通吗？"
+    },
+    {
+      "i": 51,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "09:58",
+      "en": "No. I mean, here, the reason it doesn't make sense is that for a futures contract to exist, there has to be a willing buyer and a willing seller, right? So your hypothesis would work if they could just go and sell futures contracts at some price that was made up maybe too high, and there was kind of infinite demand for that. Okay, well, sure. But there has to be a rational buyer on the other side. And so I think what we'll see is that those forward contracts are going to be, are in fact going to be at lower prices just because there's so much hedging demand to sell in the forward space.",
+      "zh": "讲不通。我是说，之所以讲不通，是因为一份期货合约要存在，就必须有一个愿意买的人和一个愿意卖的人，对吧？所以你的假设要成立，前提是他们能随便以一个凭空定出来的、也许过高的价格去卖期货合约，而且对它有近乎无限的需求。好，那当然行。但另一边必须有一个理性的买家。所以我认为我们会看到的是，那些远期合约（forward contracts）实际上会以更低的价格成交，正是因为远期市场上有大量的对冲性卖出需求。"
+    },
+    {
+      "i": 52,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "10:34",
+      "en": "And there will need to be, you know.",
+      "zh": "而且，你知道，还得有。"
+    },
+    {
+      "i": 53,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "10:37",
+      "en": "Investors who want to generate a return by buying those futures contracts.",
+      "zh": "那些想通过买入这些期货合约来获取回报的投资者。"
+    },
+    {
+      "i": 54,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "10:44",
+      "en": "What is the– if we cast out a few years, what is the sort of ecosystem of clouds and inference providers that needs to exist for this to be a rich market? Because if the future of AI is just– let's say the future of AI were just anthropic and open AI. And the future of cloud were just meta, Alphabet, and Amazon. There wouldn't need to be a futures market. It would just be all bilateral agreements, offtake agreements, et cetera.",
+      "zh": "如果我们往后看几年，需要存在一个什么样的云和推理提供商生态系统，才能让这个市场足够丰富？因为如果 AI 的未来只是——假设 AI 的未来就只有 Anthropic 和 OpenAI，而云的未来就只有 Meta、Alphabet 和 Amazon，那就根本不需要一个期货市场了。那样就会全都是双边协议、包销协议等等。"
+    },
+    {
+      "i": 55,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "11:17",
+      "en": "Yep.",
+      "zh": "是的。"
+    },
+    {
+      "i": 56,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "11:17",
+      "en": "So how much like. How fat of a tale of non-open AI and anthropic inference do we need such that this is a useful vault market that cannot just be solved by bilateral agreements?",
+      "zh": "那么，我们需要有多『厚』的一条非 OpenAI、非 Anthropic 的推理长尾（tail），才能让它成为一个有用的、无法仅靠双边协议就能解决的市场？"
+    },
+    {
+      "i": 57,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "11:32",
+      "en": "Well, I mean, I think we're already there. I mean, look at the growing use of open source models. I mean, it's exploded. And you're seeing companies with many billion dollar valuations that have just been created to put open source models on GPUs and sell the tokens.",
+      "zh": "嗯，我是说，我觉得我们已经到那一步了。看看开源模型（open source models）越来越多的使用量。它是爆发式增长的。你会看到一些估值高达许多亿美元的公司，它们成立的唯一目的就是把开源模型跑在 GPU 上、然后卖 token。"
+    },
+    {
+      "i": 58,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "11:51",
+      "en": "Right.",
+      "zh": "对。"
+    },
+    {
+      "i": 59,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "11:53",
+      "en": "You know, like fireworks and together. And so we already have a really rich ecosystem.",
+      "zh": "比如 Fireworks 和 Together 这类公司。所以我们其实已经有一个非常丰富的生态系统了。"
+    },
+    {
+      "i": 60,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "12:01",
+      "en": "Is it rich enough yet?",
+      "zh": "但它够丰富了吗？"
+    },
+    {
+      "i": 61,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "12:03",
+      "en": "For sure. Okay, interesting.",
+      "zh": "当然够。好，有意思。"
+    },
+    {
+      "i": 62,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "12:04",
+      "en": "Yeah.",
+      "zh": "嗯。"
+    },
+    {
+      "i": 63,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "12:05",
+      "en": "Should we talk about perpetuals?",
+      "zh": "我们要不要聊聊永续合约（perpetuals）？"
+    },
+    {
+      "i": 64,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "12:07",
+      "en": "Yeah.",
+      "zh": "好。"
+    },
+    {
+      "i": 65,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "12:09",
+      "en": "Can I ask another?",
+      "zh": "我能再问一个吗？"
+    },
+    {
+      "i": 66,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "12:10",
+      "en": "Yeah, go for it.",
+      "zh": "好，你问吧。"
+    },
+    {
+      "i": 67,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "12:11",
+      "en": "Can I ask, on GPU futures, So one of the other things that people say, the skeptics, is they say GPU or compute is not homogenous enough for a futures market. And there's a few different things. They say there's different software arrays, and that could significantly change the value. There's also the fact that there's, at least in the inference part of AI, there's a lot of other players who want AMD and and etched and all these other tranium and whatever the Microsoft one was and.",
+      "zh": "我能问一下关于 GPU 期货的问题吗？怀疑论者还会说的另一点是，他们说 GPU 或者算力不够同质化（homogenous），没法做成一个期货市场。这里面有几个不同的点。他们说存在不同的软件阵列（software arrays），这会显著改变价值。还有一个事实是，至少在 AI 的推理这一端，有很多其他玩家想要 AMD、Etched，还有其他各种芯片，以及 Microsoft 那个叫什么来着，还有。"
+    },
+    {
+      "i": 68,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "12:48",
+      "en": "TPUs, et cetera.",
+      "zh": "TPU 之类的等等。"
+    },
+    {
+      "i": 69,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "12:49",
+      "en": "And this is just way too diverse of a market to really be captured in an index. How confident are you that either the market is going to be homogenous enough for futures or that there will be enough sophistication about the sort of basis between the H100 index versus something similar such that this market can serve a diverse provider base?",
+      "zh": "而这个市场实在是太过分散、太过多样了，很难真正被一个指数捕捉进去。你有多大把握，要么这个市场会变得足够同质化以支持期货，要么人们对于 H100 指数与类似东西之间的基差（basis）会有足够老练的理解，从而让这个市场能够服务于一个多样化的供应商群体？"
+    },
+    {
+      "i": 70,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "13:13",
+      "en": "Yeah.",
+      "zh": "嗯。"
+    },
+    {
+      "i": 71,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "13:14",
+      "en": "I mean, first of all, the amount of money going into, you know, just H-100s or just B-200s is large enough to support a single futures market. Now, in addition to that, these other things are very correlated. And so, you know, people will be able to trade a basis on these things.",
+      "zh": "我是说，首先，光是投在 H100 或者光是投在 B200 上的资金规模，就已经大到足以支撑一个单独的期货市场了。除此之外，这些其他的东西彼此高度相关。所以人们是能够在这些东西之间交易基差的。"
+    },
+    {
+      "i": 72,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "13:33",
+      "en": "Versus whatever it is. And, you know, maybe... obviously, you know, these are going.",
+      "zh": "对着不管是什么东西做基差交易。而且，也许……显然，这些都是要。"
+    },
+    {
+      "i": 73,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "13:40",
+      "en": "To be off of kind of the, the baseline standard configuration, whatever. But, and so maybe, uh, somebody's planning on doing a training run and they need a giant cluster. Well, that's going to bear a premium, of course. But, but, you know, if the demand for inference goes up massively, then guess what? That training run is also going to be more expensive. So it's just a basis between the things.",
+      "zh": "基于某种基线的标准配置之类的。但，所以也许，呃，有人正打算做一次训练跑（training run），他们需要一个巨大的集群。好吧，那当然会带有溢价（premium）。但是，你要知道，如果推理需求大幅上升，那会怎样？那次训练跑也会变得更贵。所以这只是这些东西之间的一个基差而已。"
+    },
+    {
+      "i": 74,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "14:05",
+      "en": "That's one thing.",
+      "zh": "这是一方面。"
+    },
+    {
+      "i": 75,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "14:06",
+      "en": "The other thing is, um, that eventually, and, you know, we may be getting close, you'll be able to trade futures contracts on the output, on the tokens themselves.",
+      "zh": "另一方面是，嗯，最终——而且我们可能已经快到了——你将能够对产出、对 token 本身交易期货合约。"
+    },
+    {
+      "i": 76,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "14:19",
+      "en": "Oh, token futures. Token futures.",
+      "zh": "哦，token 期货。token 期货。"
+    },
+    {
+      "i": 77,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "14:21",
+      "en": "And so, you know, again, there's, of course, a diverse number of tokens and people will put up the same objections. But I think that over time, that's going to be possible. And By the way, that will introduce a really interesting possibility, which is, now think about if you go.",
+      "zh": "所以，当然，token 也有很多种，人们会提出同样的反对意见。但我认为随着时间推移，这会变得可行。而且，顺便说一句，这会引入一个非常有意思的可能性，那就是——现在想象一下，如果你去。"
+    },
+    {
+      "i": 78,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "14:42",
+      "en": "And rent GPUs, you pay the on-demand price.",
+      "zh": "租一些 GPU，你付按需价格。"
+    },
+    {
+      "i": 79,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "14:46",
+      "en": "And then you load up an open source model, and you start selling tokens through OpenRouter or something. Well, can you do that profitably or not? Well, that profit margin that you can generate.",
+      "zh": "然后你加载一个开源模型，开始通过 OpenRouter 之类的平台卖 token。那么，你能不能盈利地做这件事？你能创造出的那个利润率。"
+    },
+    {
+      "i": 80,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "15:00",
+      "en": "Is akin to.",
+      "zh": "就类似于。"
+    },
+    {
+      "i": 81,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "15:04",
+      "en": "What an oil refinery does or what a soybean crush plant does.",
+      "zh": "一家炼油厂所做的事，或者一家大豆压榨厂所做的事。"
+    },
+    {
+      "i": 82,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "15:11",
+      "en": "So we're going to have a crack spread.",
+      "zh": "所以我们要有一个裂解价差（crack spread）了。"
+    },
+    {
+      "i": 83,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "15:13",
+      "en": "So in oil, we call it a crack spread. In soybeans, we call it a crush spread. So you heard it here first. At DRW, we call this the crunch spread.",
+      "zh": "在石油里，我们管它叫裂解价差（crack spread）。在大豆里，我们管它叫压榨价差（crush spread）。所以你可是最早在这里听到的：在 DRW，我们把它叫做 crunch spread。"
+    },
+    {
+      "i": 84,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "15:25",
+      "en": "That's great.",
+      "zh": "太棒了。"
+    },
+    {
+      "i": 85,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "15:26",
+      "en": "Wait, is this token futures or something you're actively working on, it sounds like?",
+      "zh": "等等，这个 token 期货是……听起来像是你正在积极推进的东西吗？"
+    },
+    {
+      "i": 86,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "15:29",
+      "en": "Yes. Okay.",
+      "zh": "是的。好。"
+    },
+    {
+      "i": 87,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "15:30",
+      "en": "Okay.",
+      "zh": "好。"
+    },
+    {
+      "i": 88,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "15:31",
+      "en": "What sort of stage would you say you're at?",
+      "zh": "你会说你现在处在什么样的阶段？"
+    },
+    {
+      "i": 89,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "15:34",
+      "en": "I mean, it's the thought stage, but I mean, here, to be fair, the silicon data token index is providing some pretty interesting data and is widely discussed.",
+      "zh": "我是说，还处在构思阶段。不过说句公道话，Silicon Data 的 token 指数正在提供一些相当有意思的数据，而且被广泛讨论。"
+    },
+    {
+      "i": 90,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "15:50",
+      "en": "So that's a start.",
+      "zh": "那算是个开端。"
+    },
+    {
+      "i": 91,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "15:54",
+      "en": "And so just going back to GPU futures for a second, so every time a new chip comes out, that needs to be a separate contract and a new pool of liquidity. Is that right? Is that how you're thinking of it?",
+      "zh": "那我们再回到 GPU 期货上说一下，每次有一款新芯片出来，是不是就需要一个单独的合约和一个新的流动性池（pool of liquidity）？是这样吗？你是这么想的吗？"
+    },
+    {
+      "i": 92,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "16:05",
+      "en": "Correct.",
+      "zh": "没错。"
+    },
+    {
+      "i": 93,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "16:06",
+      "en": "Okay.",
+      "zh": "好。"
+    },
+    {
+      "i": 94,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "16:06",
+      "en": "And how do you, I mean, it seems kind of challenging.",
+      "zh": "那你怎么……我是说，这似乎挺有挑战性的。"
+    },
+    {
+      "i": 95,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "16:09",
+      "en": "You have to like keep.",
+      "zh": "你得跟上。"
+    },
+    {
+      "i": 96,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "16:10",
+      "en": "Up with the technological cycle, which is very rapid.",
+      "zh": "跟上这个非常快速的技术周期。"
+    },
+    {
+      "i": 97,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "16:14",
+      "en": "It's rapid, but not that rapid. Right.",
+      "zh": "它快，但没那么快。对吧。"
+    },
+    {
+      "i": 98,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "16:18",
+      "en": "And, and you're probably not going to launch a futures contract for every single one. You're going to launch futures contracts for the ones that are in the major ones. And, uh, You know, but that's okay. I mean, there are different, you know, think about how many electricity contracts.",
+      "zh": "而且，你多半不会为每一款芯片都推一个期货合约。你会为那些主要的芯片推期货合约。呃，你知道，但这没关系。我是说，有不同的——想想有多少种电力合约。"
+    },
+    {
+      "i": 99,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "16:33",
+      "en": "There are for every little node. And I mean, you know, thousands of them.",
+      "zh": "每一个小小的节点都有一个合约。我是说，你知道，有几千种之多。"
+    },
+    {
+      "i": 100,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "16:38",
+      "en": "There's a lot of oil contracts too. We just usually talk about two of them typically. Just out of curiosity, and this is actually sort of separate from the futures conversation, but I guess like as a technologist with multiple businesses, et cetera, are you, how assailable is NVIDIA's dominance today? Like, what's your read on that? Because this is a constant question, whether any of these other chip makers can actually eat into NVIDIA's position. What's your take there?",
+      "zh": "石油合约也有很多种，我们平时通常只会聊到其中两种。纯粹出于好奇——这其实跟期货这个话题有点分开——但我想，作为一个手握多项业务的技术专家之类的，你怎么看，NVIDIA 今天的主导地位有多容易被撼动？你是怎么读的？因为这是一个一直被问的问题：这些其他芯片厂商里，有没有谁能真正侵蚀 NVIDIA 的地位。你怎么看？"
+    },
+    {
+      "i": 101,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "17:06",
+      "en": "Sure. I think that the space is going to continue to grow. And I can't, it's unlikely that NVIDIA will be able to maintain the market share that they have maintained. But I'm pretty confident that NVIDIA will continue.",
+      "zh": "当然。我认为这个领域会继续增长。而我没法……NVIDIA 不太可能维持住它一直以来的市场份额。但我相当有信心，NVIDIA 会继续。"
+    },
+    {
+      "i": 102,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "17:25",
+      "en": "To grow as a company.",
+      "zh": "作为一家公司继续成长。"
+    },
+    {
+      "i": 103,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "17:42",
+      "en": "You know, last year when we spoke, we were talking about AI use in general at DRW. And I think you said people were using agents to sort of debate investment theories or risk allocation and things like that. But you weren't using AI to actually deploy risk at that time. Joe mentioned that things change very, very fast in the world of AI. 12 months later, has that changed? What's AI doing for you now?",
+      "zh": "你知道，去年我们聊的时候，谈的是 DRW 内部对 AI 的整体使用。我记得你说，大家用 AI 智能体（agents）来辩论投资理论或者风险配置之类的东西。但那时候你们并没有用 AI 去实际部署风险（deploy risk）。Joe 提到，在 AI 的世界里变化非常非常快。12 个月过去了，这有变化吗？现在 AI 在为你做些什么？"
+    },
+    {
+      "i": 104,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "18:05",
+      "en": "Yeah, no, I mean, there's definitely more adoption. There's more frontline.",
+      "zh": "是的，我是说，采用度肯定更高了。有更多一线的。"
+    },
+    {
+      "i": 105,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "18:10",
+      "en": "Adoption, for sure.",
+      "zh": "采用，这是肯定的。"
+    },
+    {
+      "i": 106,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "18:12",
+      "en": "Has your token budget gone up?",
+      "zh": "你们的 token 预算涨了吗？"
+    },
+    {
+      "i": 107,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "18:14",
+      "en": "The token budget goes up. Yes, it goes up.",
+      "zh": "token 预算在涨。是的，它在涨。"
+    },
+    {
+      "i": 108,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "18:17",
+      "en": "The token use is like this exponential chart. It's pretty interesting.",
+      "zh": "token 的使用量就像一条指数级增长的曲线。挺有意思的。"
+    },
+    {
+      "i": 109,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "18:23",
+      "en": "Do you have, there's another question, like across your businesses, have you figured out optimal internal token allocation. We've asked this to a lot of executives and at least up until recent, they're like, we're just still trying to figure this out, but you must have everyone, of course, everyone wants more. I assume everyone always wants the frontier token cost. Have you solved the question of like internal token allocation yet?",
+      "zh": "还有一个问题，就是在你旗下的各项业务之间，你们有没有搞清楚最优的内部 token 分配（token allocation）？我们问过很多高管，至少到最近为止，他们都还说，我们还在摸索这个问题。但你们肯定——当然，每个人都想要更多。我想每个人都想要前沿模型（frontier）的 token。你们解决了内部 token 分配这个问题了吗？"
+    },
+    {
+      "i": 110,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "18:46",
+      "en": "Well, here, I mean, I think the most important thing is to be thoughtful about how you route the, the inference requests and, and, And not every inference request needs to go to a frontier model. And so that's the thing that we're trying to optimize for, is minimize token spend by optimally routing inference requests.",
+      "zh": "嗯，我是说，我觉得最重要的是，要用心地去考虑你如何路由（route）这些推理请求。而且并不是每一个推理请求都需要送到前沿模型去。所以这正是我们努力优化的方向：通过最优地路由推理请求，来把 token 开销降到最低。"
+    },
+    {
+      "i": 111,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "19:11",
+      "en": "Now shall we ask about perpetuals? OK, perps, go.",
+      "zh": "那我们现在来聊聊永续合约吧？好，perps（永续合约），开始。"
+    },
+    {
+      "i": 112,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "19:16",
+      "en": "Why is Terry wrong about perps? I mean, listen, here.",
+      "zh": "为什么 Terry 对 perps 的看法是错的？我是说，听着，这里。"
+    },
+    {
+      "i": 113,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "19:25",
+      "en": "In my view, are... Terry's in the audience, by the way.",
+      "zh": "在我看来，它们就是……顺便说一句，Terry 今天也在观众席里。"
+    },
+    {
+      "i": 114,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "19:28",
+      "en": "I know.",
+      "zh": "我知道。"
+    },
+    {
+      "i": 115,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "19:28",
+      "en": "But you're also his client, so.",
+      "zh": "但你也是他的客户嘛，所以。"
+    },
+    {
+      "i": 116,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "19:30",
+      "en": "I know.",
+      "zh": "我知道。"
+    },
+    {
+      "i": 117,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "19:31",
+      "en": "And Terry and I enjoy talking about this. My view is that perps serve a useful economic purpose.",
+      "zh": "而且 Terry 和我都很喜欢聊这个话题。我的看法是，perps 有其有用的经济目的。"
+    },
+    {
+      "i": 118,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "19:43",
+      "en": "They are futures contracts. And I mean, here.",
+      "zh": "它们就是期货合约。我是说，这里。"
+    },
+    {
+      "i": 119,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "19:49",
+      "en": "I'll give you a couple examples. The, you know, a lot of people like to buy the crude oil ETF. Yeah, the crude oil ETF generally, you know, at one point, it was always in the front month future, and it broadcast to the world exactly what day it would roll from that futures to the next futures contract. And I don't know, there was probably a little bit of slippage in that, a little bit of inefficiency. Now they've kind of like, now they do it over a window and they hold the first three contracts and whatever.",
+      "zh": "我给你举几个例子。很多人喜欢买原油 ETF（crude oil ETF）。是的，一般来说，原油 ETF 在某个阶段一直持有近月（front month）期货，而且它会向全世界明确公布它会在哪一天从那个期货合约展期（roll）到下一个期货合约。我也说不准，这里面大概会有一点滑点（slippage）、一点低效。现在他们有点像，现在他们会在一个时间窗口内完成展期，并且持有前三个月的合约之类的。"
+    },
+    {
+      "i": 120,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "20:18",
+      "en": "But there's still a lot of slippage.",
+      "zh": "但仍然有很多滑点。"
+    },
+    {
+      "i": 121,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "20:19",
+      "en": "Now imagine a PERP that is tied to, let's say, the Brent Index.",
+      "zh": "现在想象一个跟——比方说——Brent 指数挂钩的 PERP。"
+    },
+    {
+      "i": 122,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "20:26",
+      "en": "And an ETF that just buys that.",
+      "zh": "还有一个只是买入那个。"
+    },
+    {
+      "i": 123,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "20:32",
+      "en": "PERP. I mean, I think that that would be much more efficient experience for the ETF. And of course, that doesn't mean that that's a useful hedging instrument for an oil producer.",
+      "zh": "PERP 的 ETF。我是说，我觉得对那只 ETF 来说，那会是一种高效得多的体验。当然，这并不意味着它对一个石油生产商来说是个有用的对冲工具。"
+    },
+    {
+      "i": 124,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "20:46",
+      "en": "It's not.",
+      "zh": "它不是。"
+    },
+    {
+      "i": 125,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "20:47",
+      "en": "An oil producer needs to hedge way out the curve. Great. You can have monthly and quarterly futures and PERPs side by side.",
+      "zh": "石油生产商需要沿着曲线向远期对冲（hedge way out the curve）。很好。你可以让月度、季度期货和 PERP 并排存在。"
+    },
+    {
+      "i": 126,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "20:56",
+      "en": "They actually augment.",
+      "zh": "它们其实是互相。"
+    },
+    {
+      "i": 127,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "20:59",
+      "en": "One another and.",
+      "zh": "补充的，而且。"
+    },
+    {
+      "i": 128,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "21:01",
+      "en": "And that's a good thing. Here's another example.",
+      "zh": "这是件好事。这里还有一个例子。"
+    },
+    {
+      "i": 129,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "21:04",
+      "en": "Suppose you are a retail investor and you own a hard-to-borrow stock. And all the hedge funds want to short. They're paying 100% annualized to short this stock. If you have that stock in your retail account, your broker is probably not saying to you, hey, by the way, we're going to give you 300 basis points a day because you're holding this Hard to borrow stock.",
+      "zh": "假设你是一个散户投资者（retail investor），你持有一只很难借到的股票（hard-to-borrow stock）。所有的对冲基金都想做空它。他们为了做空这只股票，要付出年化 100% 的借券成本。如果那只股票在你的散户账户里，你的券商大概不会跟你说：嘿，顺便提一下，因为你持有这只难借的股票，我们每天给你 300 个基点（basis points）。"
+    },
+    {
+      "i": 130,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "21:33",
+      "en": "Okay, that would be 1,000% annualized, but.",
+      "zh": "好吧，那换算成年化就是 1,000%，但。"
+    },
+    {
+      "i": 131,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "21:35",
+      "en": "30 basis points a day. But whatever. So you're not getting the benefit of owning that hard-to-borrow stock.",
+      "zh": "是每天 30 个基点。不过无所谓。所以你并没有享受到持有那只难借股票的好处。"
+    },
+    {
+      "i": 132,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "21:44",
+      "en": "Now, if instead you own the.",
+      "zh": "那么，如果你持有的是那个。"
+    },
+    {
+      "i": 133,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "21:46",
+      "en": "PER, then mechanically it's going to pass through. And so it's a real opportunity to democratize the financial markets.",
+      "zh": "PERP，那么从机制上它就会传导（pass through）给你。所以这是一个真正把金融市场民主化（democratize）的机会。"
+    },
+    {
+      "i": 134,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "21:59",
+      "en": "Right, so democratize. This word democratize, I've never really liked it because it just sounds good, but I don't know what it means. But in this case, it makes sense because in this case, what you're saying is there is an economic value that is not being captured currently by retail holders of certain stocks because no one's making the offer. But the demand would be there if they held that same exposure in.",
+      "zh": "对，所谓民主化。『民主化』这个词，我从来都不太喜欢，因为它听上去很好听，但我不知道它到底是什么意思。但在这个例子里，它讲得通，因为你在这里说的是，有一份经济价值，目前并没有被某些股票的散户持有者捕捉到，因为没有人来发出这个要约（offer）。但如果他们以另一种方式持有同样的敞口，那这个需求是存在的。"
+    },
+    {
+      "i": 135,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "22:21",
+      "en": "A different way. Correct.",
+      "zh": "另一种方式持有。没错。"
+    },
+    {
+      "i": 136,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "22:22",
+      "en": "And the same thing for the ETF, the oil ETF. I mean, that's probably a retail investor that wants to have exposure to oil.",
+      "zh": "ETF 也是一样，就是那只原油 ETF。我是说，那大概率是一个想持有石油敞口的散户投资者。"
+    },
+    {
+      "i": 137,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "22:29",
+      "en": "Here's a more efficient way to do it.",
+      "zh": "这里就有一个更高效的方式来实现它。"
+    },
+    {
+      "i": 138,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "22:31",
+      "en": "I get that it might be more useful and economically beneficial to some, but if the regulation says that a futures contract has to have an expiration date and these don't, why should it not?",
+      "zh": "我明白，它对某些人可能更有用、在经济上也更划算，但如果监管规定一份期货合约必须有一个到期日（expiration date），而这些没有，那为什么它不该被同样监管呢？"
+    },
+    {
+      "i": 139,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "22:42",
+      "en": "Where does it say that?",
+      "zh": "哪里写了这个规定？"
+    },
+    {
+      "i": 140,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "22:43",
+      "en": "I haven't read that. Does it not?",
+      "zh": "我可没读到过。难道没有吗？"
+    },
+    {
+      "i": 141,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "22:46",
+      "en": "Not that I've seen.",
+      "zh": "反正我没见到过。"
+    },
+    {
+      "i": 142,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "22:47",
+      "en": "I don't know. So Terry said they're swaps.",
+      "zh": "我不知道。所以 Terry 说它们是互换（swaps）。"
+    },
+    {
+      "i": 143,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "22:50",
+      "en": "And you said they're futures.",
+      "zh": "而你说它们是期货。"
+    },
+    {
+      "i": 144,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "22:51",
+      "en": "Why are they not swaps?",
+      "zh": "它们为什么不是互换呢？"
+    },
+    {
+      "i": 145,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "22:52",
+      "en": "I feel like this should be an easily settled debate.",
+      "zh": "我觉得这本该是一场很容易就能了结的辩论。"
+    },
+    {
+      "i": 146,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "22:55",
+      "en": "OK. So what's the difference? And I asked this question when Dodd-Frank was being drafted. And what's the difference.",
+      "zh": "好。那区别到底是什么？我在 Dodd-Frank 法案起草的时候就问过这个问题。期货和互换之间的区别。"
+    },
+    {
+      "i": 147,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "23:02",
+      "en": "Between a future and a swap? I have no idea. OK.",
+      "zh": "到底是什么？我完全不知道。好。"
+    },
+    {
+      "i": 148,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "23:06",
+      "en": "Well, the answer that I got from the person drafting the legislation for Barney Frank was, everybody.",
+      "zh": "嗯，我从那个为 Barney Frank 起草法案的人那里得到的答案是：每个人。"
+    },
+    {
+      "i": 149,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "23:13",
+      "en": "Knows that swaps are risky. What? I'm sorry.",
+      "zh": "都知道互换是有风险的。什么？抱歉。"
+    },
+    {
+      "i": 150,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "23:20",
+      "en": "A swap that is cleared has the same economic risk to society, to the holder, as a futures contract does.",
+      "zh": "一份经过中央清算（cleared）的互换，对社会、对持有者而言，其经济风险和一份期货合约是一样的。"
+    },
+    {
+      "i": 151,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "23:34",
+      "en": "I mean, we've gotten like lost.",
+      "zh": "我是说，我们已经有点。"
+    },
+    {
+      "i": 152,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "23:37",
+      "en": "We've like lost our minds with nomenclature.",
+      "zh": "我们已经在这种术语命名（nomenclature）上把脑子搞乱了。"
+    },
+    {
+      "i": 153,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "23:40",
+      "en": "But can you address directly Terry's point about leverage in that case? Like how do you manage the.",
+      "zh": "那在这种情况下，你能不能直接回应一下 Terry 关于杠杆（leverage）的观点？就是你要如何管理。"
+    },
+    {
+      "i": 154,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "23:45",
+      "en": "Leverage from these?",
+      "zh": "这些东西带来的杠杆？"
+    },
+    {
+      "i": 155,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "23:46",
+      "en": "No, I'm sorry.",
+      "zh": "不，抱歉。"
+    },
+    {
+      "i": 156,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "23:47",
+      "en": "Again, like there's this confusion. Well, if it's a perp, it must have massive leverage and auto deleveraging and all these horrible things.",
+      "zh": "再说一次，这里就是有这么一种误解：好像只要它是 perp，就一定带有巨大的杠杆、自动减仓（auto deleveraging），以及所有这些可怕的东西。"
+    },
+    {
+      "i": 157,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "23:57",
+      "en": "Wrong.",
+      "zh": "错。"
+    },
+    {
+      "i": 158,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "23:58",
+      "en": "You can, by the way, have a quarterly futures contract with massive leverage and auto deleveraging and all these horrible things. You don't. you could list a perp with reasonable leverage and no auto deleveraging, and it would be a very useful economic instrument.",
+      "zh": "顺便说一句，你完全可以有一个带着巨大杠杆、自动减仓以及所有这些可怕东西的季度期货合约。你并不需要那样。你也可以上市一个杠杆合理、没有自动减仓的 perp，它会是一个非常有用的经济工具。"
+    },
+    {
+      "i": 159,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "24:15",
+      "en": "Joe, next year, we're going to cut ourselves out of this conversation entirely and just have Terry and John to do.",
+      "zh": "Joe，明年我们要把自己完全从这场对话里剪掉，直接让 Terry 和 Don 来。"
+    },
+    {
+      "i": 160,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "24:20",
+      "en": "This on stage.",
+      "zh": "在台上做这件事。"
+    },
+    {
+      "i": 161,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "24:21",
+      "en": "It's crazy to think some of our most animated moments on the podcast will now be, what is the definition of a swap?",
+      "zh": "想想真是不可思议，我们播客上一些最激烈的时刻，如今竟然会是：互换的定义到底是什么？"
+    },
+    {
+      "i": 162,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "24:27",
+      "en": "But this is why.",
+      "zh": "但这正是为什么。"
+    },
+    {
+      "i": 163,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "24:30",
+      "en": "These are the conversations that we like to have. Okay, when 24-7 trading inevitably arrives?",
+      "zh": "这些正是我们喜欢进行的对话。好，当 7×24 小时全天候交易（24-7 trading）不可避免地到来时？"
+    },
+    {
+      "i": 164,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "24:38",
+      "en": "It's already here.",
+      "zh": "它已经来了。"
+    },
+    {
+      "i": 165,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "24:38",
+      "en": "What are you talking about?",
+      "zh": "你在说什么啊？"
+    },
+    {
+      "i": 166,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "24:39",
+      "en": "That's true.",
+      "zh": "确实是这样。"
+    },
+    {
+      "i": 167,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "24:40",
+      "en": "It is here.",
+      "zh": "它确实已经来了。"
+    },
+    {
+      "i": 168,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "24:40",
+      "en": "You're right. Does that change people's lives? Is that annoying? Is it annoying to have to think about risk at 1 a.m. on a Sunday?",
+      "zh": "你说得对。那会改变人们的生活吗？那烦人吗？周日凌晨 1 点还得去想风险问题，这烦人吗？"
+    },
+    {
+      "i": 169,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "24:48",
+      "en": "Just from a personal life.",
+      "zh": "就从个人生活的角度来说。"
+    },
+    {
+      "i": 170,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "24:49",
+      "en": "Won't someone think of a financial journalist?",
+      "zh": "难道就没有人替金融记者着想一下吗？"
+    },
+    {
+      "i": 171,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "24:51",
+      "en": "I mean, first of all, we've been trading crypto since 2014. Yeah, so you've been 24-7.",
+      "zh": "我是说，首先，我们从 2014 年就开始交易加密货币（crypto）了。是啊，所以你一直都是 7×24 小时的。"
+    },
+    {
+      "i": 172,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "24:54",
+      "en": "So I'm used to markets moving 24-7. I will tell you that our options market makers....",
+      "zh": "所以我已经习惯了市场 7×24 小时波动。我得告诉你，我们的期权做市商（options market makers）……"
+    },
+    {
+      "i": 173,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "25:07",
+      "en": "Are not happy about the prospect of, you know, making SOFR options markets over weekends.",
+      "zh": "对于要在周末去给 SOFR 期权市场做市这种前景，可一点都不高兴。"
+    },
+    {
+      "i": 174,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "25:13",
+      "en": "Yeah. And you know what? I'm very sympathetic to that.",
+      "zh": "是啊。而且你知道吗？我对此非常感同身受。"
+    },
+    {
+      "i": 175,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "25:17",
+      "en": "But they're happening.",
+      "zh": "但这些事正在发生。"
+    },
+    {
+      "i": 176,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "25:19",
+      "en": "You know what?",
+      "zh": "你知道吗？"
+    },
+    {
+      "i": 177,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "25:20",
+      "en": "It's just going to happen. We're going to have to figure out how to deal with it. All right.",
+      "zh": "它就是会发生。我们不得不想办法去应对它。好吧。"
+    },
+    {
+      "i": 178,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "25:25",
+      "en": "Don Wilson, thank you so much for coming back to Outlaws Live. We're just going to do it again next year, the year after that, and the year after that.",
+      "zh": "Don Wilson，非常感谢你再次来到 Odd Lots Live 现场。我们明年、后年、大后年都要再这么办一次。"
+    },
+    {
+      "i": 179,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "25:32",
+      "en": "That's right.",
+      "zh": "没错。"
+    },
+    {
+      "i": 180,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "25:32",
+      "en": "Thank you so much.",
+      "zh": "非常感谢。"
+    },
+    {
+      "i": 181,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "25:46",
+      "en": "That was another episode of the Odd Thoughts Podcast recorded live in Chicago. I'm Tracy Alloway. You can follow me at Tracy Alloway.",
+      "zh": "这是又一期在 Chicago 现场录制的 Odd Lots 播客。我是 Tracy Alloway，你可以在 TracyAlloway 这个账号关注我。"
+    },
+    {
+      "i": 182,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "25:53",
+      "en": "And I'm Joe Weisenthal. You can follow me at The Stalwart. Follow our producers, Carmen Rodriguez at Carmen Arman, Dashiell Bennett at Dashbot, Cale Brooks at Cale Brooks, and Kevin Lozano at Kevin Lloyd Lozano. For more OddLots content, go to Bloomberg.com slash OddLots for the daily newsletter and all of our episodes. And you can chat about all these topics 24-7 in our Discord, Discord.gg slash OddLots.",
+      "zh": "我是 Joe Weisenthal，你可以在 TheStalwart 这个账号关注我。也请关注我们的几位制作人：Carmen Rodriguez（账号 Carmen Arman）、Dashiell Bennett（账号 Dashbot）、Cale Brooks（账号 Cale Brooks），以及 Kevin Lozano（账号 Kevin Lozano）。想看更多 Odd Lots 的内容，请访问 Bloomberg.com/OddLots，那里有每日通讯（daily newsletter）和我们所有的节目。你还可以在我们的 Discord 里 7×24 小时畅聊所有这些话题：Discord.gg/OddLots。"
+    },
+    {
+      "i": 183,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "26:16",
+      "en": "And if you enjoyed this conversation, then please leave us a positive review on your favorite podcast platform. If you're watching the video, then please like or leave a comment or better yet, subscribe.",
+      "zh": "如果你喜欢这段对话，请在你常用的播客平台上给我们留一个好评。如果你在看视频，请点赞或留言，更好的是，订阅我们。"
+    },
+    {
+      "i": 184,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "26:26",
+      "en": "Thanks for watching and listening.",
+      "zh": "感谢收看和收听。"
+    },
+    {
+      "i": 185,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "26:39",
+      "en": "Thank you.",
+      "zh": "谢谢。"
+    }
+  ]
+}

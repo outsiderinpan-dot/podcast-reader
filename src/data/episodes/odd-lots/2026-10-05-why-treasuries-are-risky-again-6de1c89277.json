@@ -1,0 +1,809 @@
+{
+  "show": "odd-lots",
+  "kind": "transcript",
+  "id": "odd-lots-6de1c89277",
+  "guid": "924d0a40-8d01-4c5e-b43d-b4d7010d938b",
+  "slug": "2026-10-05-why-treasuries-are-risky-again-6de1c89277",
+  "date": "2026-10-05",
+  "title_en": "Why Treasuries Are 'Risky' Again",
+  "title_zh": "美国国债为何重新变得‘有风险’——对话 University of Chicago 的 Carolin Pflueger",
+  "subtitle_zh": "Carolin Pflueger 解析政策反应函数，以及国债‘债股联动’风险为何卷土重来。",
+  "description": "Why Treasuries Are 'Risky' Again",
+  "duration": "50:39",
+  "duration_seconds": 3039,
+  "episode_url": "https://omny.fm/shows/odd-lots/why-treasuries-became-risky-again",
+  "audio_url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/8a94442e-5a74-4fa2-8b8d-ae27003a8d6b/924d0a40-8d01-4c5e-b43d-b4d7010d938b/audio.mp3?utm_source=Podcast&in_playlist=982f5071-765c-403d-969d-ae27003a8d83",
+  "speakers": {
+    "1": "Joe Weisenthal（主持）",
+    "2": "Tracy Alloway（主持）",
+    "3": "Carolin Pflueger（嘉宾）",
+    "4": "片花/广告（旁白）"
+  },
+  "turn_count": 98,
+  "turns": [
+    {
+      "i": 0,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "00:00",
+      "en": "Hey, Odd Lots listeners, the Odd Lots tour continues and our next stop is in Chicago.",
+      "zh": "嘿，Odd Lots 的听众们，Odd Lots 巡演还在继续，我们下一站是 Chicago。"
+    },
+    {
+      "i": 1,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "00:05",
+      "en": "That's right.",
+      "zh": "没错。"
+    },
+    {
+      "i": 2,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "00:05",
+      "en": "Joe and I will be at the City Winery Chicago on October 15th for a live Odd Lots recording. Tickets are on sale now at Bloomberg.com forward slash Odd Lots.",
+      "zh": "Joe 和我将于 10 月 15 日在 City Winery Chicago 进行现场版 Odd Lots 的录制。门票现已在 Bloomberg.com/odd-lots 开售。"
+    },
+    {
+      "i": 3,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "00:15",
+      "en": "And of course, a special thank you to Barclays for supporting Odd Lots Live.",
+      "zh": "当然，还要特别感谢 Barclays 对 Odd Lots Live 的支持。"
+    },
+    {
+      "i": 4,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "00:19",
+      "en": "So that's October 15th at City Winery in Chicago. Get your tickets now.",
+      "zh": "所以就是 10 月 15 日，在 Chicago 的 City Winery。现在就抢票吧。"
+    },
+    {
+      "i": 5,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "00:27",
+      "en": "Bloomberg Audio Studios. Podcasts.",
+      "zh": "Bloomberg Audio Studios。播客。"
+    },
+    {
+      "i": 6,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "00:30",
+      "en": "Radio. News.",
+      "zh": "广播。新闻。"
+    },
+    {
+      "i": 7,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "00:43",
+      "en": "Hello and welcome to another episode of the Oddbots Podcast. I'm Tracy Alloway.",
+      "zh": "大家好，欢迎收听新一期的 Odd Lots 播客。我是 Tracy Alloway。"
+    },
+    {
+      "i": 8,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "00:47",
+      "en": "And I'm Joe Wiesenthal.",
+      "zh": "我是 Joe Weisenthal。"
+    },
+    {
+      "i": 9,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "00:48",
+      "en": "Joe, we're back in New York. Yeah. But the Jackson Hole episodes continue.",
+      "zh": "Joe，我们回到 New York 了。对。不过 Jackson Hole 系列还在继续。"
+    },
+    {
+      "i": 10,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "00:54",
+      "en": "That's true. You know what, by the way, oh my The 30-year rate, by the way, it's just straight up the last few weeks. But it's right around, as of the time that we're recording this, it's at 5.592. It has now hit the highest level since 2002. Wow. So a few weeks ago, we were looking at the yield curve and saying all these things. Oh, now highest level since 2007.",
+      "zh": "没错。对了，你知道吗，天哪，30 年期利率，顺便说一句，过去这几周就是一路直线往上冲。就在我们录这期节目的时候，它大概在 5.592。现在它已经触及了自 2002 年以来的最高水平。哇。所以几周前，我们还在看收益率曲线、说这说那的。哦，现在是自 2007 年以来的最高水平了。"
+    },
+    {
+      "i": 11,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "01:17",
+      "en": "Yeah.",
+      "zh": "对。"
+    },
+    {
+      "i": 12,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "01:19",
+      "en": "And then it was 2004 was the other year, and now we're getting higher since 2002. It really is both extraordinary speed and scale.",
+      "zh": "然后 2004 是另一个年份，现在我们又超过了，成了自 2002 年以来的最高。这速度和幅度都非同寻常。"
+    },
+    {
+      "i": 13,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "01:27",
+      "en": "Yeah.",
+      "zh": "对。"
+    },
+    {
+      "i": 14,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "01:28",
+      "en": "And the other thing that happened since Jackson Hole is we had a Fed rate hike.",
+      "zh": "而 Jackson Hole 之后发生的另一件事，是美联储（Fed）加了一次息。"
+    },
+    {
+      "i": 15,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "01:32",
+      "en": "We had a Fed rate.",
+      "zh": "美联储加了一次息。"
+    },
+    {
+      "i": 16,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "01:34",
+      "en": "And yet yields continue to soar. And so there's an open question over whether or not that rate hike is having its intended effect in terms of dampening down financial conditions and things like that. Yeah. Another big thing in the background, I feel like I have to list all these mega trends, but the other big thing is there's been this ongoing debate over Fed's communication style, the new communication framework, what does credibility mean when a central bank is in an inflation-fighting environment and things like that. We have to talk about all of this. Yeah.",
+      "zh": "可收益率还是继续在飙升。所以有一个悬而未决的问题：这次加息到底有没有起到它预期的效果，比如给金融状况降温之类的。对。背景里还有另一件大事——我感觉我必须把这些大趋势都列一遍——另一件大事是，围绕美联储的沟通风格、新的沟通框架，一直有一场持续不断的争论：当一家央行身处抗击通胀的环境时，公信力（credibility）到底意味着什么，等等。这些我们都得聊聊。对。"
+    },
+    {
+      "i": 17,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "02:10",
+      "en": "When you said another thing in the backdrop, I was like, which of the many things are you going to choose here? Because you could have said, oh, you know, this is against the backdrop of large deficits, against the backdrop of AI spending and the fact that big hyperscalers are spending it and borrowing at rates that are like the size of like pretty big nations, you could have said, in the backdrop of longstanding questions about U.S. global hegemony and the link between war and the dollar and so forth, et cetera. And so there are many backdrops. There are infinite backdrops.",
+      "zh": "你说‘背景里还有另一件事’的时候，我就想，这么多事情你要挑哪一件来说？因为你完全可以说，哦，你知道，这是在巨额赤字的背景下，是在 AI 支出的背景下——那些大型超大规模云厂商（hyperscalers）在花这些钱、并且在以相当于一些中等国家体量的规模借钱；你也可以说，这是在长期以来关于美国全球霸权、以及战争与美元之间联系等问题的背景下，等等等等。所以背景有很多，背景是无穷无尽的。"
+    },
+    {
+      "i": 18,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "02:46",
+      "en": "I could have gone on for a while, but I chose not to. No, there's so much going on at the moment.",
+      "zh": "我本来可以往下说一大串，但我选择了打住。不，现在发生的事情实在太多了。"
+    },
+    {
+      "i": 19,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "02:51",
+      "en": "But it all relates to rates.",
+      "zh": "但这一切都跟利率有关。"
+    },
+    {
+      "i": 20,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "02:52",
+      "en": "It all relates to rates. And we do, in fact, have the perfect guest, someone who can opine and share her research on many of these things. We're going to be speaking with Carolyn Pfluger. She is an associate professor at the University of Chicago Harris School of Public Policy, as well as a visiting scholar over at the Chicago Fed. And she presented a very famous paper at Jackson Hole a couple years ago. We didn't get a chance to talk to her when we were in Jackson Hole, but we're going to make it up right now. So Carolyn, thank you so much for coming on All Thoughts.",
+      "zh": "这一切都跟利率有关。而我们确实请到了最完美的嘉宾，一位能就其中许多话题发表见解、分享她研究的人。我们今天要对话的是 Carolin Pflueger。她是 University of Chicago Harris School of Public Policy 的副教授，同时也是 Chicago Fed 的访问学者。几年前她在 Jackson Hole 上发表过一篇非常有名的论文。我们在 Jackson Hole 的时候没机会跟她聊，但现在我们要补上。Carolin，非常感谢你来做客 Odd Lots。"
+    },
+    {
+      "i": 21,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "03:24",
+      "en": "Thank you for having me. It's really great to be here.",
+      "zh": "谢谢你们邀请我。能来这里真的很开心。"
+    },
+    {
+      "i": 22,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "03:26",
+      "en": "Why don't you give us the sort of, 3,000-foot overview of your research. What's your specialty here?",
+      "zh": "不如你先给我们一个高屋建瓴的概览，讲讲你的研究。你专攻的是哪一块？"
+    },
+    {
+      "i": 23,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "03:33",
+      "en": "So most broadly, I'm interested in how the macroeconomy, monetary policy, and inflation are reflected in bond markets and are in turn shaped by them. I think that's a pretty interesting topic because.",
+      "zh": "从最宽泛的层面说，我感兴趣的是宏观经济、货币政策和通胀如何反映在债券市场里，反过来又如何被债券市场所塑造。我觉得这是个挺有意思的话题，因为——"
+    },
+    {
+      "i": 24,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "03:46",
+      "en": "We do too.",
+      "zh": "我们也这么觉得。"
+    },
+    {
+      "i": 25,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "03:48",
+      "en": "You know, to me, the macroeconomy, inflation, unemployment, those are the big questions. They're not easy to answer, but that makes it all the more intriguing to me. And of course, financial markets are unique in that they're sophisticated, they're forward-looking. So a lot of these things get priced in, and that's what I find very interesting.",
+      "zh": "你知道，对我来说，宏观经济、通胀、失业，这些都是大问题。它们并不容易回答，但这反而让我更着迷。当然，金融市场的独特之处在于它们很成熟、很有前瞻性。所以很多东西都会被提前计入价格（priced in），这正是我觉得非常有意思的地方。"
+    },
+    {
+      "i": 26,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "04:05",
+      "en": "You said that you think about the way various things get reflected in the bond market, but then also how the bond market then reflects back onto, quote, the real economy or the real world or whatever. That part doesn't get discussed as much, it seems like for the most part, people, when they think about the link between the real economy and the bond market, It seems like they mostly make, you know, it goes in one direction. So it's interesting to me that you said reflected back.",
+      "zh": "你说你会思考各种因素如何反映到债券市场里，但同时也会思考债券市场又如何反过来反映到，打个引号，实体经济、或者说现实世界之类的上面。后面这部分似乎没怎么被讨论。感觉大多数人在想到实体经济和债券市场之间的联系时，基本上都认为，你知道，它是单向的。所以你说‘反过来反映’这点让我很感兴趣。"
+    },
+    {
+      "i": 27,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "04:33",
+      "en": "Yes.",
+      "zh": "对。"
+    },
+    {
+      "i": 28,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "04:33",
+      "en": "So that brings me to my research on the policy reaction function. Now, what is a policy reaction function? Just as a quick definition. Most simply, that's what markets or observers more broadly expect the Fed to do in response to economic conditions. So as a numerical example, if forecasters expect markets 2% inflation, they might forecast a 4% policy rate. If they expect 4% inflation, they might expect a 6% policy rate. So that would be a one-for-one adjustment, a perceived policy reaction coefficient of one. And that matters. This policy reaction function matters for at least two reasons. And one of them comes back to your question, this reflection back. which is that if the policy reaction function is well understood, then that means that as data comes out, unemployment, inflation, and so on, the policy rates will move in the direction that the Fed intended and thereby help with monetary policy transmission or maybe even speed it up before the next FOMC meeting.",
+      "zh": "这就说到我对政策反应函数（policy reaction function）的研究了。那么，什么是政策反应函数？先给个简单的定义吧。最简而言之，它就是市场、或者更广义上的观察者，预期美联储会如何针对经济状况作出反应。举个数字例子：如果预测者预期通胀是 2%，他们可能会预测政策利率是 4%；如果他们预期通胀是 4%，可能会预期政策利率是 6%。那就是一对一的调整，也就是被感知到的政策反应系数为一。而这一点很重要。这个政策反应函数之所以重要，至少有两个原因。其中一个又回到了你的问题，也就是这个‘反过来反映’。意思是说，如果政策反应函数被充分理解，那么当数据公布出来时——失业、通胀等等——政策利率就会朝美联储希望的方向变动，从而有助于货币政策传导（monetary policy transmission），甚至可能在下一次 FOMC 会议之前就把它加速推动起来。"
+    },
+    {
+      "i": 29,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "05:44",
+      "en": "So this is the market doing, quote, the Fed's work for it.",
+      "zh": "所以说，这就是市场在‘替美联储干活’。"
+    },
+    {
+      "i": 30,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "05:47",
+      "en": "Correct.",
+      "zh": "没错。"
+    },
+    {
+      "i": 31,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "05:48",
+      "en": "Yes.",
+      "zh": "对。"
+    },
+    {
+      "i": 32,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "05:48",
+      "en": "But you say only if the reaction function is understood, right?",
+      "zh": "但你说，前提是这个反应函数被理解了，对吧？"
+    },
+    {
+      "i": 33,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "05:53",
+      "en": "Correct. That's why the understanding is important, right? So if there is, you know, whatever the intended policy reaction function is, you know, if it's well understood, markets will adjust in response to inflation news coming out and unemployment news coming out and so on.",
+      "zh": "没错。这正是为什么‘被理解’很重要，对吧？所以，无论美联储心里想的那个政策反应函数是什么样的，只要它被充分理解，市场就会针对公布出来的通胀消息、失业消息等等作出调整。"
+    },
+    {
+      "i": 34,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "06:11",
+      "en": "How are you actually measuring how the market incorporates its future expectations of Fed policy? Because there are a number of ways that you could do it, you know, some obvious ones, but what are you looking at specifically?",
+      "zh": "那你具体是怎么去衡量市场如何把它对未来美联储政策的预期消化进去的？因为做这件事有好几种方法，你知道，有些是很明显的，但你具体看的是什么？"
+    },
+    {
+      "i": 35,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "06:23",
+      "en": "Yes, that's a great question. I mean, I think the main point is that a policy reaction function can and should be measured. And what my co-authors and I have done, I would think of is actually the most obvious way of doing it, which is, I think, always a good starting point. So this is joint work with my co-authors, Michael Bauer at the San Francisco Fed and Adi Sundaram at Harvard Business School. So we took two approaches. The first one is based on forecasts. We didn't run our own surveys because we wanted to know, you know, how have these perceptions changed over time, historically, over decades. And, you know, a policy reaction function is quite similar to a 1993 type Taylor rule, but there are important differences. The first difference is that it's forward-looking. So it's about expectations. The second difference is that it's a little bit shorter run. It's about the next couple of quarters, at most the next couple of years. And traditional monetary policy rules are used to describe historical data in a backward-looking manner. What we said is, hang on, rather than using this historical data, let's just use forecasts, survey data, interest rate forecasts. And it turns out that every month, There is a lot of richness in terms of the forecasts that are being produced for the policy rate. And so we use this data from the blue chip of financial forecasters, which asks, what is your forecast for the Fed funds rate? And what are the underlying assumptions that you used for inflation and output to come up with this policy rate forecast? So in a way, it's an ideal setup because it's asking, what is the rule for the Fed that you're plugging in? And so we just took this data that's forward-looking, you know, 30 to 50 forecasters, a couple of forecast horizons, up to six quarters out, and we ran the exact same regression that you would run for a monetary policy rule, but, you know, on this different data, forward-looking data. So, yeah, if you basically treat this, we can't run experiments on the macroeconomy, but if you treat this data as the best approximation of, experiment on the macroeconomy, we ran a regression of the forecasted Fed funds rate onto forecasted inflation and forecasted output relative to potential. And so the coefficients there on inflation would tell us when forecasters are forecasting high inflation, how much higher is the expected Fed funds rate and vice versa, for example. So that's the first methodology. The second one is closer to what I said about the macroeconomic announcement dates and rates moving in response. You can use that also to obtain a market perceived rule, just to say if inflation comes out higher or lower than expected. Let's say inflation comes out higher than expected and interest rates, say the two-year rate, goes up a lot. then that is also a regression that we run. You need a couple of observations, of course. It's a rolling window. But you can run this regression of how much do yields change onto what's the inflation news on that day. And that gives another way of getting a perceived reaction. function. It turns out that both of these methodologies often give very similar answers. And I love that because it makes me a lot more comfortable with either methodology.",
+      "zh": "对，这是个好问题。我的意思是，我觉得关键在于：政策反应函数是可以、也应该被衡量的。我和合著者们所做的，我会认为其实就是最显而易见的那种做法，而我觉得这往往是一个很好的起点。这是我和两位合著者的共同研究：San Francisco Fed 的 Michael Bauer，以及 Harvard Business School 的 Adi Sunderam。我们采用了两种方法。第一种基于预测。我们没有自己去跑调查，因为我们想知道，这些‘感知’在历史上、在几十年的时间里是如何随时间变化的。而且，你知道，政策反应函数跟 1993 年那种泰勒规则（Taylor rule）很相似，但有几个重要的区别。第一个区别是它是前瞻性的，讲的是预期。第二个区别是它的时间跨度更短一些，讲的是接下来几个季度，最多接下来几年。而传统的货币政策规则是用来以回溯的方式描述历史数据的。我们说的是：等等，与其用这些历史数据，不如直接用预测——调查数据、利率预测。结果发现，每个月针对政策利率产出的预测其实信息量非常丰富。所以我们用了 Blue Chip（金融预测者调查）的数据，它会问：你对联邦基金利率（Fed funds rate）的预测是多少？以及你为了得出这个政策利率预测，对通胀和产出用了什么样的底层假设？所以从某种意义上说，这是个理想的设定，因为它问的正是：你给美联储代入的那个规则是什么？于是我们就拿这份前瞻性的数据——大概 30 到 50 位预测者、几个预测期限、最远到六个季度之外——然后跑了跟货币政策规则一模一样的那个回归，只不过是在这份不同的、前瞻性的数据上跑。所以，是的，如果你基本上把它当作——我们没法在宏观经济上做实验，但如果你把这份数据当作对宏观经济做实验的最佳近似——我们就把‘预测的联邦基金利率’对‘预测的通胀’以及‘预测的产出相对于潜在产出的缺口’跑了一个回归。那么通胀那一项的系数就会告诉我们：比如当预测者预期高通胀时，预期的联邦基金利率会高出多少，反过来也一样。这就是第一种方法。第二种方法更接近我前面说的：在宏观经济数据公布日，利率会随之变动。你也可以用它来得到一个市场感知到的规则，就是说如果通胀公布出来比预期高或者比预期低。假设通胀比预期高，而利率——比如两年期利率——大幅上行，那么这也是我们要跑的一个回归。当然你需要若干个观测值，这是个滚动窗口（rolling window）。但你可以跑这样一个回归：收益率变动多少，对应当天的通胀消息是什么。这就给出了得到‘被感知到的反应函数’的另一种方法。结果发现，这两种方法往往给出非常相似的答案。我很喜欢这一点，因为这让我不那么纠结该用哪种方法，两种都更让我放心。"
+    },
+    {
+      "i": 36,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "10:11",
+      "en": "So one thing I'm curious about is, okay, you know, you look at market reactions and you get, there's one number there, right? There's a lot of different views of the market, but it's one number. Whereas if you're doing a survey, you're going to get, you can average them together, but you can see all the different views. Something I'm curious about with the surveys or anything is whether we see historical changes over time with respect to, I suppose, the spread or the dispersion of views, are there times where people in the market have, you know, there's a clear consensus of what market participants or forecasters perceive the reaction function to be? And are there times that we can point to where there is a lot of ambiguity on the part of market participants?",
+      "zh": "那我好奇的一点是：好，你看市场反应，得到的是一个数字，对吧？市场里其实有很多不同的看法，但它归结成一个数字。而如果你做的是调查，你会得到——你可以把它们平均起来，但你能看到所有不同的观点。我很好奇的是，无论用调查还是别的方式，我们能不能看到观点的‘价差’或者说分歧度（dispersion）随时间发生的历史变化？有没有某些时候，市场参与者或预测者对‘反应函数是什么’存在一个清晰的共识？又有没有某些时候，我们能指出市场参与者这边存在很大的模糊不清？"
+    },
+    {
+      "i": 37,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "11:01",
+      "en": "Yes, that's interesting. So we have focused on the variation over time in the point estimate of the reaction function. There clearly is a lot of heterogeneity across forecasters. We've looked at that a little bit, but we've really focused on how does it vary over time. But as one example, when there was a lot of agreement after Late 2011 was when the Fed came out and gave very clear date-based forward guidance. Interest rates will be at zero at least until mid-2013. At that point, all the Fed funds rate forecasts collapsed to zero and you'll see absolutely no dispersion. So that would be an example where that collapsed.",
+      "zh": "对，这很有意思。我们重点关注的是反应函数‘点估计’随时间的变化。预测者之间显然存在很大的异质性（heterogeneity）。我们也稍微看过这一点，但我们真正聚焦的是它如何随时间变化。举一个例子：2011 年底之后出现了高度一致，那是美联储站出来给出了非常清晰的、基于日期的前瞻指引（forward guidance）——利率将至少在 2013 年年中之前维持在零。在那一刻，所有联邦基金利率的预测都坍缩到了零，你会看到完全没有分歧。这就是一个‘分歧坍缩掉’的例子。"
+    },
+    {
+      "i": 38,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "11:47",
+      "en": "So what moves the needle when it comes to the market's policy reaction function? Is it the Fed actually doing something and raising or lowering rates? Or is it forward guidance? Is it having a press conference where they answer a question particularly well or badly? What do you observe in terms of what actually moves the needle?",
+      "zh": "那么，就市场感知到的政策反应函数而言，到底是什么能真正‘推动指针’、起决定作用？是美联储真的动手做了什么、加息或降息？还是前瞻指引？还是开一场记者会、在会上把某个问题回答得特别好或特别差？就‘到底什么真正起作用’这点，你观察到了什么？"
+    },
+    {
+      "i": 39,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "12:09",
+      "en": "Great question. And that's a question that my co-authors and I thought a lot about. I think, you know, just having measurement is extremely useful, whichever approach you choose, right? So in order, picking a framework or picking a communication strategy, evaluating it, I think is very important. So now what we looked at in terms of what moves the needle on the perceived reaction function, let me take you back to 2020. It was not a good time for any of us, but so that was the time of the pandemic. Initially inflation was extremely low and in 2021 inflation then picked up and there were some of these really big positive inflation surprises. And that was also the time where there was the discussion of, you know, is inflation permanent? Is it transitory? The T word.",
+      "zh": "好问题。这也是我和合著者们反复思考过的问题。我觉得，光是‘能有衡量’这件事本身就极其有用，无论你选哪种方法，对吧？因为这样才能去挑选一个框架、或挑选一种沟通策略，并去评估它，我觉得这非常重要。那么关于‘到底什么能推动被感知到的反应函数’，我们研究了什么——让我带你回到 2020 年。那对我们所有人来说都不是好时候，但那就是疫情期间。一开始通胀极低，到了 2021 年通胀就起来了，出现了一些非常大的正向通胀意外。那也是大家在讨论——你知道——通胀是永久的还是暂时的（transitory）的时候？那个 T 开头的词。"
+    },
+    {
+      "i": 40,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "13:03",
+      "en": "We need to get a transitory clock.",
+      "zh": "我们真得搞一个‘transitory（暂时）’计时钟了。"
+    },
+    {
+      "i": 41,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "13:04",
+      "en": "Yeah, yeah. Foreign.",
+      "zh": "对，对。（笑）"
+    },
+    {
+      "i": 42,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "13:05",
+      "en": "Yeah.",
+      "zh": "对。"
+    },
+    {
+      "i": 43,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "13:07",
+      "en": "The Fed initially just kept interest rates at zero. It was also the time when there was this now old new framework of average inflation targeting in 2021.",
+      "zh": "美联储一开始就是把利率维持在零。那也正是 2021 年推行这个如今已算‘旧’的‘新’框架——平均通胀目标制（average inflation targeting）——的时候。"
+    },
+    {
+      "i": 44,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "13:16",
+      "en": "Yeah.",
+      "zh": "对。"
+    },
+    {
+      "i": 45,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "13:20",
+      "en": "So the interest rates stayed at zero for quite a while, even though inflation was running at 5%, 6%. And the perceived reaction function that we saw at that time was extremely flat. So there was a perception that the policy rate would stay at zero pretty much irrespective of economic conditions. And you saw that, for example... In May 2021, that was a particularly positive inflation surprise. That was an inflation surprise of almost half a percent. So annualized, the surprise component was 6%. That's huge. And the two-year rate didn't move, not at all. And you also saw that in the forecasts, which were all very, very close to zero. And that was true for the forecasters who had higher inflation expectations. That was true for the ones who had lower inflation expectations. So that's a little bit the nice thing about our data set, because, of course, there was a very big good ship transitory, as Powell called it at some point at the time. A lot of people thought inflation was transitory, but not everyone. And by looking at this set of different forecasters, we can also see the ones who thought that inflation would be higher. And all of them expected zero interest rates.",
+      "zh": "所以利率在零上维持了相当长一段时间，尽管当时通胀已经跑到 5%、6%。而我们当时看到的被感知到的反应函数极其平坦。也就是说，大家觉得政策利率会一直待在零附近，基本上不管经济状况如何。比如你能看到……在 2021 年 5 月，那是一次特别大的正向通胀意外。那次通胀意外接近半个百分点。所以年化下来，那个‘意外’部分是 6%。这非常巨大。而两年期利率纹丝不动，一点都没动。你在预测里也能看到这一点，那些预测都非常非常接近零。而且无论是对通胀预期更高的预测者，还是通胀预期更低的预测者，都是如此。这正是我们这套数据集的一点妙处，因为当然，当时有一大批人登上了那艘‘暂时号’大船（good ship transitory），Powell 当时某个时候就是这么称呼的。很多人都认为通胀是暂时的，但并非人人如此。而通过看这一组不同的预测者，我们也能看到那些认为通胀会更高的人。而他们所有人都预期利率是零。"
+    },
+    {
+      "i": 46,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "14:46",
+      "en": "Hmm.",
+      "zh": "嗯。"
+    },
+    {
+      "i": 47,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "14:47",
+      "en": "And that I think is quite telling about, you know, the response that was anticipated at the time. And so then, you know, towards the end of 2021, the tone started to change and March 2022 was liftoff. At first, just 25 basis points. And then we saw these really, really big interest rate hikes repeatedly. And so after the Fed started to act, that's when in our data, we see that the perceived inflation response really picks up. It basically goes from zero to one between, say, early 2022 towards the end of 2023. So there was a very big increase in the perceived inflation response, but it occurred late and only after the Fed had started to act. So we call that the learning from actions channel.",
+      "zh": "我觉得这非常能说明问题，说明了当时大家所预期的那种反应。然后，到了 2021 年底，口风开始转变，2022 年 3 月就是‘起飞’（liftoff，首次加息）。一开始只加了 25 个基点（basis points）。然后我们看到一次又一次非常非常大的加息。所以在美联储开始行动之后，我们在数据里才看到，被感知到的通胀反应真的起来了。它基本上从零升到一，时间大概是从 2022 年初到 2023 年底。所以被感知到的通胀反应有了非常大的上升，但它发生得很晚，而且只在美联储已经开始行动之后才出现。所以我们将此称为‘从行动中学习’渠道（learning from actions channel）。"
+    },
+    {
+      "i": 48,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "15:54",
+      "en": "In a dream country that actually executes perfect monetary policy all the time, does it have a perfectly stable reaction function in central bank?",
+      "zh": "在一个理想国里——一个总是能执行完美货币政策的国家——它的央行是否会有一个完全稳定的反应函数？"
+    },
+    {
+      "i": 49,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "16:06",
+      "en": "That's a good question. And that goes back to, I think, the difference between a monetary policy rule and a reaction function. I don't think it has to be stable. It doesn't have to be perfectly stable over time. It also goes back to this much older discussion about rules versus discretion, right? If it was just a mechanical rule, then, you know, why are central banks needed at all? So there is, you know, conditions change. I don't think it needs to be stable. And, you know, the appropriate reaction may be different at different points in time. Actually, what we see in our data, we do a very simple exploration. We have an earlier paper in the Quarterly Journal of Economics, also with Michael and Adi, where we look at a longer time series of the perceived reaction to output. And we see that it varies over time and we try to systematize a little bit. When is this perceived reaction to output steep? When is it flat? And what we find is that it tends to be steeper during tightening cycles. So that's when Chairs Bernanke or Yellen would have said, we're going to be quite data dependent. And you see that in the data in that there is a stronger perceived response to output, whereas easings are often sudden and then not much else is expected. So that tends to be a time when the perceived policy reaction becomes flatter.",
+      "zh": "这是个好问题。这又要回到——我觉得——货币政策规则与反应函数之间的区别。我不认为它必须是稳定的，它不必随时间完全稳定。这也回到那个更古老的讨论：规则（rules）对相机抉择（discretion），对吧？如果它只是一条机械的规则，那你说，究竟为什么还需要央行呢？所以，情况是会变的。我不认为它需要保持稳定。而且，合适的反应在不同时间点可能是不一样的。实际上，我们在数据里看到——我们做了一个很简单的探索。我们更早有一篇发在《Quarterly Journal of Economics》上的论文，同样是和 Michael、Adi 一起写的，我们看了更长时间序列里‘被感知到的对产出的反应’。我们看到它随时间变化，我们试图把它稍微系统化一下：什么时候这种‘对产出的感知反应’是陡峭的？什么时候是平坦的？我们发现，它在紧缩周期里往往更陡峭。那正是 Bernanke 或 Yellen 主席会说‘我们要相当程度地依赖数据’（data dependent）的时候。你在数据里能看到，对产出有更强的被感知到的反应；而宽松往往是突然发生的，之后大家就不太预期还有别的动作了。所以那往往是被感知到的政策反应变得更平坦的时候。"
+    },
+    {
+      "i": 50,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "17:45",
+      "en": "So if the market's perceived reaction function moves the most when a central bank is actually doing something, so they're taking an action rather than perhaps just talking about it, what happens if a central bank wants to be gradual in terms of raising rates? Because we all remember 2022, the big liftoff, that was a pretty painful time for markets. Is there just an accepted trade-off here where maybe... you have to show the market that you're serious about inflation by actually doing something. And that helps the market change its perceived market function or its perceived policy function. And then that helps with actually fighting inflation. But the offset or the trade-off is that, you know, stocks are going to go down or there might be financial stability issues or something like that.",
+      "zh": "那么，如果市场感知到的反应函数在央行真正‘做点什么’的时候变动最大——也就是他们采取行动，而不只是嘴上说说——那如果一家央行想在加息上保持渐进，会发生什么？因为我们都记得 2022 年那次大‘起飞’，那对市场来说是相当痛苦的一段时间。这里是不是就存在一个大家默认接受的权衡：也许……你必须通过真正做点什么，来向市场表明你对通胀是认真的。而这有助于市场改变它感知到的那个函数、或者说感知到的政策函数。然后这又有助于真正抗击通胀。但代价或者说权衡在于，股票会下跌，或者可能出现金融稳定问题之类的。"
+    },
+    {
+      "i": 51,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "18:38",
+      "en": "Yes, that's very interesting. That gets me to a different branch of my research, which is, um, which is about the risks in treasury bond markets. You know, I have, I've worked on that, uh, for a long time going back and a fact that you may be aware of, but many people aren't is that treasury bonds were not always safe historically. So there were periods, especially during the seventies, eighties and nineties when Treasury bonds were viewed as quite risky. That was the period of bond market vigilantes, the inflation risk premium. And the way I measure that in the data is through the co-movement between bonds and stocks. So pre-2000, treasury bonds were actually quite stock-like, if you will, in their correlation with the bond market. And that's a recent paper with John Campbell and Luis Becerra at Harvard. Now, post-2000, treasury bonds were safe in the sense that they had a negative correlation with the stock market. And then in the most recent period, these types of bond risks have gone up again. There are many ways, many reasons to care about this type of bond risk. Most simply, if you're holding a portfolio that contains bond and stocks, having a positive correlation means that there is nowhere to hide. Right.",
+      "zh": "对，这非常有意思。这就把我引到了我研究的另一个分支，嗯，是关于国债（Treasury）市场里的风险。你知道，我研究这个已经很久了，往回追溯。有一个事实你可能知道，但很多人不知道：国债在历史上并不一直都是安全的。所以有一些时期——尤其是在七十年代、八十年代和九十年代——国债被视为相当有风险。那是‘债券义警’（bond vigilantes）、通胀风险溢价（inflation risk premium）的时期。我在数据里衡量它的办法，是通过债券和股票之间的联动（co-movement）。所以在 2000 年之前，国债其实相当‘像股票’（stock-like），就它们与股票市场的相关性而言。这是最近我和 Harvard 的 John Campbell、Luis Becerra 合写的一篇论文。而在 2000 年之后，国债是安全的，意思是它们与股票市场呈负相关。然后到了最近这段时期，这类债券风险又上升了。关心这类债券风险有很多方式、很多理由。最简单的一个：如果你持有一个同时包含债券和股票的投资组合，正相关就意味着无处可藏。对吧。"
+    },
+    {
+      "i": 52,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "20:11",
+      "en": "Another reason why 2022 was so painful.",
+      "zh": "这也是 2022 年那么痛苦的另一个原因。"
+    },
+    {
+      "i": 53,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "20:13",
+      "en": "That's right. And I think that is connected to monetary policy. So in the research that I've done on that, you know, I've asked what has changed in these bond risks? Is it nominal? Is it real? Why has it changed? Can we attribute it to deeper forces, the nature of shocks, luck versus policy? And what does it mean for yields going forward? Or not necessarily going forward, but just what does it mean for yields? What I've found in this research is that the inflation component in nominal bonds plays an important role. That's a very natural decomposition. So the US Treasury issues regular nominal bonds, which pay $ 100 10 years in the future. And then it also issues bonds that pay $ 100 increased by the inflation index 10 years in the future. And that means if you hold these inflation index bonds or tips, you don't really need to fear inflation. Whereas when you hold nominal bonds, that's of course exposed. And so if you look over time, the bond risks were so positive in the pre 2000 period. And for that, actually, I need to go to UK data because they've had inflation linked bonds for much longer. But in this UK data, you see that a big chunk of these bond risks were on the inflation side. And then post 2000, the inflation component became much smaller and both the nominal and the real treasury bond risks were negative. And then most recently, actually, the increase in bond risks has some similarities and some differences compared to the 1980s. The similarity is that bonds and stocks have moved together often when we see treasury bond yields going up, the stock market tanks. But the difference is, A, it's not as big. We're not back to the 1980s yet, at least according to my data. The other difference is that a good chunk of it most recently has been in the index bonds. So it's not necessarily about the inflation component in the same way. So I think to understand the change from the pre-2000 to post-2000, an important component is the inflation part. Why is that? Well, in the 1980s, stagflation was the thing that everyone was talking about. If you have a stagflation and you hold nominal bonds, that's terrible because they become worth less. The recession is terrible for stocks, so then they move together and bonds are risky. Post-2000, recessions tended to be more of the demand variety, which means also that recessions tended to be lower inflation, and so nominal bonds benefit from low inflation. And so then in some of my work with John and Luis, we have shown that this can explain why treasury bond risks changed around 2000. What the interesting question is that still remains is, Is, of course, you know, is it luck? You know, is this just if we experience supply shocks, is everything going to go back to the 1980s? Or is there also a degree of policy to it? So I have then, you know, lots of models and so on. But, you know, the punchline is that it really requires a perfect storm to go back to the 1980s risky bond markets. It requires the inflationary shocks. Let's say supply shocks. The typical one would be oil price shocks, or it could also be fiscal sort of lack of credibility, inflation expectations that start moving. So you need these type of inflationary shocks and you need a Fed that's willing or forced to accept a recession when these shocks happen. And I think that has been a little bit different in the past five years, uh, from, from the 1980s in the sense that, uh, the fed has been able to move more gradually. So that's the big, that's really, I think of it as two big differences that happened around 2000. One is the supply shocks changed to demand shocks, but of course, monetary policy also gained a lot of credibility. And the way that shows up in my data is as a more gradual inertial monetary policy rule. And that has the advantage that when supply shocks happen, a more gradual rule may be able to stick a soft landing. And if that's getting priced in, it means that stocks don't need to fall at the same time as the bond market.",
+      "zh": "没错。我觉得这跟货币政策有关。所以在我就此做的研究里，我问的是：这些债券风险里到底发生了什么变化？是名义（nominal）的，还是实际（real）的？为什么会变？我们能不能把它归因于更深层的力量——冲击的性质、运气对政策（luck versus policy）？这对未来的收益率意味着什么？或者不一定是未来，就是对收益率意味着什么？我在这项研究里发现，名义债券里的通胀成分扮演了一个重要角色。这是一个很自然的分解。美国财政部发行普通的名义债券，它在 10 年后支付 100 美元。同时它也发行另一种债券，10 年后支付的是按通胀指数上调后的 100 美元。这意味着如果你持有这些通胀指数债券、也就是 TIPS（通胀保值债券），你其实不太需要害怕通胀；而当你持有名义债券时，你当然是暴露在这个风险里的。所以如果你纵向看，2000 年之前那段时期债券风险是正的（也就是与股票同向）。为此我其实得去看英国的数据，因为他们的通胀挂钩债券历史要长得多。在这份英国数据里，你会看到这些债券风险中很大一部分来自通胀那一侧。然后到了 2000 年之后，通胀成分变得小了很多，名义的和实际的国债风险都变成了负的。而最近，债券风险的上升跟 1980 年代相比，其实有一些相似、也有一些不同。相似之处是：债券和股票又常常同向变动——我们经常看到国债收益率上行时，股市就暴跌。但不同之处是：第一，幅度没那么大。我们还没回到 1980 年代，至少按我的数据是这样。另一个不同是，最近这波里有相当大一部分出现在指数债券（index bonds）上。所以它未必是以同样的方式跟通胀成分有关。因此我觉得，要理解从 2000 年前到 2000 年后的这个变化，通胀部分是一个重要成分。为什么会这样？嗯，在 1980 年代，滞胀（stagflation）是所有人都在谈论的东西。如果你遇上滞胀、又持有名义债券，那很糟糕，因为它们变得不值钱了；而衰退对股票也很糟糕，于是它们同向变动，债券就有风险。2000 年之后，衰退往往更多是需求型的，这也意味着衰退往往伴随更低的通胀，于是名义债券受益于低通胀。所以在我和 John、Luis 的一些研究里，我们已经证明这可以解释为什么国债风险在 2000 年前后发生了变化。而仍然留下的、有意思的问题是：这当然是运气吗？就是说，如果我们经历供给冲击，是不是所有东西都会回到 1980 年代？还是说这里面也有政策的成分？所以我后来又做了很多模型之类的。但你知道，结论（punchline）是：要回到 1980 年代那种高风险的债券市场，真的需要一场‘完美风暴’（perfect storm）。它需要通胀型冲击，比如说供给冲击，典型的就是油价冲击；也可能是财政上某种公信力的缺失、通胀预期开始漂移。所以你需要这类通胀型冲击，而且你还需要一个在这些冲击发生时愿意或被迫接受衰退的美联储。我觉得过去这五年跟 1980 年代有点不一样，在于美联储能够以更渐进的方式行动。所以这就是……我真的把它想成 2000 年前后发生的两大区别。一个是供给冲击变成了需求冲击；但当然，货币政策也获得了大量公信力。而这一点在我数据里的体现，就是一条更渐进、更有惯性的货币政策规则。这样做的好处是：当供给冲击发生时，一条更渐进的规则也许能够实现软着陆（soft landing）。而如果这一点被计入价格（priced in），就意味着股票不必和债券市场同时下跌。"
+    },
+    {
+      "i": 54,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "25:06",
+      "en": "Let's talk about, because you mentioned perfect storm, you mentioned oil price shocks. People look, we said at the beginning, there are so many backdrops to this conversation. When you look at the interest rates, uh, where the 30 year is right now. What do you, like, how do you decompose, um, the factors just driving, uh, either in the last few years or even on the last few months or even weeks?",
+      "zh": "我们来聊聊——因为你提到了‘完美风暴’，提到了油价冲击。就像我们开头说的，这场对话有太多的背景。当你看利率、看 30 年期现在的水平时，你会怎么去分解，呃，那些驱动它的因素呢？无论是过去这几年，还是过去这几个月、甚至这几周？"
+    },
+    {
+      "i": 55,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "25:33",
+      "en": "Great. Um, so let me, let me take a slightly bigger perspective because as academics, we have the, we have the luxury of, uh, looking at longer data, but hopefully this is useful. So if I look at the past five years, um, what has changed, I think is that treasury bonds have become a lot riskier. That's the bond stock movement that I just talked about that has gone up a lot. And if you think about any sort of basic investment logic, if an asset is risky, investors should not be willing to pay as much for it or said differently. Investors should require a higher return to compensate for holding this risk. And so because these risks have gone up so much, that should really drive up the yield or drive down the price on bonds because they move inversely. And so that's something that I have been working on with. from Boston College and Adi Sundaram from HBS, we have asked, are these changing bond risks? Are they priced in? Can they help us explain some of these big trends in bond yields? The 10-year yield was at 11.5% in the 80s. Hard to imagine, no? And it came down a lot towards the 2010s. And then we've seen this very substantial reversal recently. And what we find is that the expected return that's priced in bond markets actually moves quite closely with bond stock cool movements in the data. Now you might think that's really simple, you know, why wouldn't we know that already? And the tricky thing is that at the same time, of course, a lot of other things changed in the bond market. Inflation came down. And when studying bond markets, really, we don't have that many not as much of a cross section. We don't have as many different assets as if we're, say, asking, you know, how is one stock price versus another? So that in this kind of these big time trends can lead to forecast errors and surprises. So that realized returns can sometimes look very different from expected returns. Anyway, so if we take advantage of similar forecast data to what I talked about earlier, And we just say, well, what's the return that you would expect on, say, a 10-year treasury bond if the yield next year turns out to hit exactly what informed forecasters were expecting it to be? And once you do that, so you take out some of this forecast error component, the relationship with bond stock movements is really striking. It's there for the U.S. It's across bond maturities. You can even see it across different developed markets, which had pretty different experiences sometimes. So there's pretty clear evidence that markets require a higher return when bonds are risky. And so we. Once we quantify that a little bit, and I'll call it a back of the envelope calculation, what we find is that roughly maybe a quarter of the decline between the mid-80s and 2010s in the 10-year yield was due to treasury bonds becoming better hedges. The other part being, among other things, inflation expectations went down. But over the past five years, or let's call it 2020 through 2025, The increase in the 10-year yield was really, the majority was, you can explain with changes in bonds becoming more stock-like. And, you know, of course, inflation expectations over the past five, six, seven years have been quite stable. We experienced high inflation, but if you look at long-term inflation expectations, they're quite stable. And I think that's the other side of the coin, that bond yields going up then reflect increasing risks and increasing required compensation for risks.",
+      "zh": "好。嗯，让我，让我把视角放得稍微大一点，因为作为学者，我们有这个‘奢侈’——可以去看更长的数据，但希望这有用。所以如果我看过去这五年，我觉得发生了变化的是：国债变得风险大得多了。那就是我刚才讲的债券-股票联动，它上升了很多。如果你想任何基本的投资逻辑：如果一项资产有风险，投资者就不应该愿意为它付那么高的价格；换句话说，投资者应该要求更高的回报，来补偿持有这份风险。所以，因为这些风险上升了这么多，它就应该真的推高债券的收益率、或者压低债券的价格，因为两者反向变动。这正是我一直在研究的——我和一位来自 Boston College 的（合作者）以及 HBS 的 Adi Sunderam 一起，我们问的是：这些不断变化的债券风险，它们被计入价格了吗？它们能帮我们解释债券收益率里的一些大趋势吗？10 年期收益率在 80 年代曾经高达 11.5%。很难想象，是吧？然后它一路下行到 2010 年代。而最近我们看到了非常大幅度的逆转。我们发现，债券市场里被计入价格的那个预期回报，实际上在数据里跟债券-股票的联动走得相当紧密。你可能会觉得这很简单——为什么我们以前不知道呢？棘手的地方在于：与此同时，债券市场里当然还有很多别的东西变了。通胀下来了。而且研究债券市场时，我们其实没有那么多——没有那么大的横截面（cross section）。我们不像，比如说，问‘一只股票的价格相对另一只如何’时那样，有那么多不同的资产。所以这类大的时间趋势可能导致预测误差和意外，以至于已实现回报（realized returns）有时看起来跟预期回报很不一样。总之，如果我们利用类似我前面讲的那种预测数据，我们就问：假如明年的收益率恰好落在消息灵通的预测者所预期的水平上，那么比如说一只 10 年期国债，你会预期的回报是多少？一旦你这么做——也就是把一部分‘预测误差’成分剔除掉——它跟债券-股票联动之间的关系就非常惊人。在美国数据里存在，跨越不同的债券期限都存在，你甚至能在不同的发达市场里看到，尽管它们有时经历相当不同。所以有相当清晰的证据表明：当债券有风险时，市场要求更高的回报。于是我们，一旦稍微量化一下——我把它叫作一个‘信封背面’式的粗略估算（back of the envelope calculation）——我们发现：10 年期收益率从 80 年代中期到 2010 年代的那段下行里，大约四分之一是由于国债变成了更好的对冲工具；另一部分则来自，其中包括，通胀预期的下降。但在过去这五年，或者我们叫它 2020 到 2025 年，10 年期收益率的上升，其实大部分都可以用‘债券变得更像股票’这一变化来解释。而且当然，过去这五、六、七年，通胀预期一直相当稳定。我们经历了高通胀，但如果你看长期通胀预期，它们相当稳定。而我认为这正是硬币的另一面：债券收益率上行，反映的是风险在上升、以及对风险所要求的补偿在上升。"
+    },
+    {
+      "i": 56,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "30:08",
+      "en": "How do we make bonds more bond-like again? Because if you think that what's driving yields is just investors asking for more compensation because the debt is perceived to be riskier than it has been previously, it feels like we need to return to a state where bonds could serve that hedging role or at least not be perceived to be as volatile or stock-like as you described.",
+      "zh": "那我们怎么才能让债券重新‘更像债券’呢？因为如果你觉得驱动收益率的只是投资者在要求更多补偿——因为债务被认为比以前更有风险——那感觉我们需要回到一种状态：债券能够重新发挥那个对冲角色，或者至少不被认为像你描述的那样波动大、那样‘像股票’。"
+    },
+    {
+      "i": 57,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "30:35",
+      "en": "I'd like to decompose that into... luck versus policy. If you remember in the 1990s, during the great moderation, people were discussing, economists were discussing, was this luck or was this policy? And I think one can similarly think about that here. There is certainly an element of luck here. The nature of the shocks hitting the economy, you know, that changes. And then there is the element of monetary policy, which As I mentioned before, having a more gradual approach to monetary policy priced in helps in keeping the bonds bond-like. Now, what is needed in the background for this gradual approach is probably something that one would call central bank credibility. If the trust is there that eventually the central bank will do what is needed, then that's something that would, you know, in my models is something that can keep the bonds bond-like.",
+      "zh": "我想把它分解成……运气对政策（luck versus policy）。如果你还记得 1990 年代，在‘大缓和’（great moderation）期间，人们在讨论、经济学家们在讨论：这是运气，还是政策？我觉得在这里也可以类似地思考。这里当然有运气的成分：冲击经济的那些冲击的性质，你知道，那是会变的。然后还有货币政策的成分——正如我前面提到的，让市场计入一种更渐进的货币政策，有助于让债券保持‘像债券’。而在这种渐进做法背后所需要的，大概就是人们所说的央行公信力（central bank credibility）。如果存在这样一种信任：央行最终会做需要做的事，那么在我的模型里，这就是能让债券保持‘像债券’的东西。"
+    },
+    {
+      "i": 58,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "31:38",
+      "en": "So that's interesting because you mentioned at least market-based measures of inflation expectations or break-evens. They have been pretty stable. So two things that call us to mind. First of all, I'm curious if you have a theory for why. Because if you have a central bank that's now missed its inflation target for five years, more or less, at this point, is it surprising that... that the market has not said, you know what, over the next 10 years, I do not feel as confident that the Fed will hit its inflation target as I used to, because I've already seen that you could go five years and it's not there. And then B, to my mind, if it is, doesn't that imply that actually the Fed is still seen as quite credible for all of their misses? If already the market is pricing in stable inflation, not very high above target, then why shouldn't we just surmise that, okay, the Fed is perceived as quite credible?",
+      "zh": "这很有意思，因为你提到，至少那些基于市场的通胀预期指标、或者盈亏平衡通胀率（break-evens），它们一直相当稳定。这让我们想到两件事。首先，我很好奇你对‘为什么’有没有一个理论。因为如果一家央行到现在已经差不多有五年没达到它的通胀目标了，那难道不奇怪吗——市场竟然没有说：‘你知道吗，在接下来的 10 年里，我不再像以前那样有信心美联储能命中它的通胀目标了，因为我已经看到你可以连续五年都到不了那个位置。’然后第二点，在我看来，如果真是这样，那不就意味着尽管美联储有这么多‘脱靶’，它其实仍被视为相当有公信力吗？如果市场已经在计入‘稳定的通胀、并不比目标高很多’，那我们为什么不干脆推断：好，美联储被感知为相当有公信力呢？"
+    },
+    {
+      "i": 59,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "32:42",
+      "en": "Yes, that's interesting. So I'm not an expert on how inflation expectations are formed. My colleague at Chicago, Stefan Nagel, has some really interesting work on that. He has really interesting things, work on that. Now, what I think we do see is that the point estimate, the level of the long-term inflation expectations has remained relatively stable. But at the same time, we have seen more volatility and we have seen a de-linking between the nominal and the real bonds. So before 2000, if you were looking at nominal 10-year treasuries versus the inflation index bonds, the correlation was very high because no one was really thinking about inflation, but that correlation has changed. So even though on average, I think the inflation, the average long-term inflation that's priced in looks very stable, you know, we have seen changes that are probably related to more uncertainty. And that's something that also in my 1980s paper, for example, I asked, you know, what's the counterfactual that explains best the bond market's the bond risks in 2021, 2022. And the answer was a combination of 1980s supply style shocks combined with a more inertial monetary policy like in the 2000s. And so that's something that generates more inflationary shocks, but the response of real rates and nominal rates is different because the monetary policy that's priced in is a little more inertial.",
+      "zh": "对，这很有意思。我并不是研究通胀预期如何形成的专家。我在 Chicago 的同事 Stefan Nagel 在这方面有一些非常有意思的研究，他在这上面有很棒的成果。那么，我觉得我们确实看到的是：长期通胀预期的‘点估计’、也就是它的水平，保持了相对稳定。但与此同时，我们看到了更多的波动，也看到了名义债券和实际债券之间的‘脱钩’（de-linking）。所以在 2000 年之前，如果你看名义的 10 年期国债对比通胀指数债券，相关性非常高，因为没人真正在想通胀；但这个相关性已经变了。所以尽管平均而言——我觉得被计入价格的那个平均长期通胀看起来非常稳定——我们也看到了一些变化，这些变化可能跟更多的不确定性有关。这也是，比如说在我那篇关于 1980 年代的论文里，我问的：什么样的‘反事实’（counterfactual）能最好地解释 2021、2022 年债券市场的债券风险？答案是：1980 年代式的供给冲击，与 2000 年代那种更有惯性的货币政策的组合。这样的组合会产生更多的通胀型冲击，但实际利率和名义利率的反应是不同的，因为被计入价格的货币政策更有惯性一些。"
+    },
+    {
+      "i": 60,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "34:32",
+      "en": "I don't know if you've done any specific research on this per se, but we started out talking about various megatrends, of which there are many. And maybe one of them we didn't mention is that the holders of U.S. debt has changed very dramatically in recent years. So, for instance, you have a lot more hedge funds present in the market. Do you notice anything or do you think about the changing, I guess, buyer base for U.S. treasuries at all and how it might relate to some of your work?",
+      "zh": "我不知道你有没有专门就这个做过研究，但我们一开始谈到了各种大趋势，这类趋势有很多。也许其中一个我们没提到的是：美国债务的持有者近年来发生了非常剧烈的变化。比如说，市场里出现了多得多的对冲基金。你有没有注意到、或者有没有思考过美国国债这个不断变化的‘买家基础’（buyer base），以及它跟你的一些研究可能有什么关系？"
+    },
+    {
+      "i": 61,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "35:02",
+      "en": "So the buyer base is certainly interesting. It's not really what my research is about. What I can say is that if you think about changing bond yields, right, so there has been, there was for a long time, there was a discussion. Is it a decline in the natural rate, which would be productive growth? Is it a change in the demand for scarce safe assets, or is it a change in the safety of treasuries themselves? What I can say is that the change in the safety of treasuries themselves is a substantial component. That doesn't mean that the other aspects don't matter, but there's certainly something to the changing riskiness of treasury bonds.",
+      "zh": "买家基础当然很有意思。不过它并不真的是我研究的对象。我能说的是：如果你想债券收益率的变化，对吧——长期以来一直有一个讨论：这究竟是自然利率（natural rate）的下降，也就是生产率增长的下降？是对稀缺安全资产需求的变化？还是国债自身安全性的变化？我能说的是：国债自身安全性的变化是一个相当重要的成分。这并不意味着其他方面不重要，但国债不断变化的风险度这件事，确实是有的。"
+    },
+    {
+      "i": 62,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "35:53",
+      "en": "So one of the things that people talk about a lot is just like, okay, let's say we perceive the central bank to be still fairly still credible. inflation is going to come back down at some point, maybe a little more volatile than we look. There are many aspects of the U.S. policymaking apparatus that I would say we could neutrally describe as volatile, right? So we obviously have a very volatile tariff schedule that has changed a lot over the last year and a half. There are two wars going on, and particularly the war in Iran specifically. There's at least a few different, there's all the spending associated with it. There's the shock to the price of oil. And then there's the question of whether the U S is even, uh, has a powerful enough military to win a war if it wanted and actually recapture the straight. And so then you start talking about like, well, you know, dollar hegemony and the U S is the superpower. And that has the effect. And it's like, wait, is the U S the superpower that we thought it was? Does this say anything? Is it all of these questions, whether the physical strength of the U.S. as a power and the domestic policy volatility, how much is that part of the story here?",
+      "zh": "所以人们经常谈论的一点是：好，就算我们认为央行依然相当有公信力，通胀在某个时点会重新回落，也许只是比看上去更波动一点。但美国的 policymaking apparatus 里，有很多方面我会说可以中性地描述为‘反复无常’（volatile），对吧？比如说，我们显然有一份非常反复无常的关税表，在过去一年半里变化很大。有两场战争正在进行，尤其是 Iran 那场。至少有好几个不同的——有与之相关的所有支出，有对油价的冲击。然后还有一个问题：美国是否，呃，拥有一支足够强大的军队，能在它想打的时候赢下一场战争、并真正重新夺回那个海峡（the Strait）。于是你就开始谈论：嗯，你知道，美元霸权，美国是超级大国，而这会带来那种效果。然后你就会想：等等，美国还是我们以为的那个超级大国吗？这说明了什么吗？所有这些问题——美国作为一个强权的‘实体实力’，以及国内政策的反复无常——在这个故事里到底占多大分量？"
+    },
+    {
+      "i": 63,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "37:17",
+      "en": "Great question. Yes. So, yeah, I have done a little bit of work thinking about the interlink between geopolitics and the safety in bond markets. I'll say that, you know, I find that is even a little bit broader and a longer horizon than what I usually study. But if you go back very far to the development of bond markets, they were pretty closely linked to winning wars and financing wars.",
+      "zh": "好问题。是的。所以，对，我确实做过一点点研究，思考地缘政治与债券市场安全性之间的相互关联。我得说，你会发现这甚至比我通常研究的范围更广、时间跨度更长。但如果你把债券市场的发展往回追溯到很久以前，它们跟‘打赢战争’和‘为战争融资’是紧密相连的。"
+    },
+    {
+      "i": 64,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "37:44",
+      "en": "Yeah.",
+      "zh": "对。"
+    },
+    {
+      "i": 65,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "37:46",
+      "en": "Hamilton recognized this in his address about the public debt in 1790, where he said, look, most countries that are involved in a war need bond markets and the US credit is, and I'll quote here, is the price of our liberty. So he was very aware of that. A famous example, or maybe the most famous example of this would also be the UK. The UK had a functioning, deep bond market with low borrowing rates prior to the Napoleonic Wars, and that helped it a lot. And then in turn, winning these wars made it the undisputed military and financial power for several decades to come. So you see that during this time, UK government borrowing rates were really low and stable. And then of course, the US in the second half of the 20th century has held a similar position with being the militarily strongest country, having low borrowing rates, and so on. So there's reason to think that these two advantages, military and financial, they're interlinked. And so. What I've thought about with my co-author Pierre Red from Columbia is in a model where financial markets can become deeper and the capacity to borrow can take different levels. How does this shape this interaction between financial markets and the military equilibrium? And so the basic idea is that if bond markets are really minuscule, they don't matter, right? Whoever has an exogenous advantage, if it's a natural moat or a mountaintop or whatever it is, that country is going to be the safest. It's going to be able to borrow at the capacity is a little bit higher, something different can happen. The country that maybe starts with an exogenous advantage may be able to save its way little by little into having a financial and military advantage. And in our model, there's something like a tipping point. If the system starts out on the one side, one hegemon keeps getting stronger and stronger. If the system starts out on the other side, you get convergence to the other hegemon. And then if borrowing capacity is very high, debt-to-GDP ratios are very high, the causality, if you will, can flow in the other direction with financial market expectations becoming self-fulfilling. So financial markets expect that one country is safer, they offer lower financing rates, and that allows for this investment to happen and which makes the expectations justified. Now, this last case we think of more as, my co-author and I think more of as a hypothetical. It's not necessarily what has happened, but it's kind of an interesting thing to think about that there could be a hegemonic transition that doesn't even involve war. It's just financial markets deciding and pricing in their expectations.",
+      "zh": "Hamilton 在 1790 年关于公共债务的演说里就认识到了这一点，他说：看，大多数卷入战争的国家都需要债券市场，而美国的信用——我这里引用他的话——‘是我们自由的代价’（the price of our liberty）。所以他对此非常清楚。一个著名的例子，或者说也许是最著名的例子，是英国（UK）。在拿破仑战争之前，英国就有一个运转良好、有深度的债券市场，借款利率很低，这对它帮助很大。反过来，打赢这些战争又让它在此后几十年里成为无可争议的军事与金融强权。所以你会看到，在那段时间里，英国政府的借款利率非常低、非常稳定。然后当然，美国在 20 世纪下半叶占据了类似的地位：军事上最强的国家、借款利率很低，等等。所以有理由认为，这两种优势——军事的和金融的——是相互关联的。于是，我和我在 Columbia 的合著者 Pierre Yared 一起思考的是：在一个金融市场可以变得更有深度、借款能力可以处于不同水平的模型里，这会如何塑造金融市场与军事均衡之间的相互作用？基本思路是：如果债券市场非常微小，它们就无关紧要，对吧？谁拥有外生优势——不管是一条天然的护城河、还是一座山顶、或者别的什么——那个国家就会是最安全的，它就能以（更低的利率）借款。而当借款能力稍微高一点时，就可能发生不一样的事情：那个一开始也许只是拥有外生优势的国家，可能能够通过一点一点地储蓄，最终获得金融和军事上的优势。在我们的模型里，存在某种‘临界点’（tipping point）。如果系统一开始处在这一侧，一个霸主就会变得越来越强；如果系统一开始处在另一侧，你就会收敛到另一个霸主。然后，如果借款能力非常高、债务对 GDP 比率（debt-to-GDP）非常高，那么因果关系可以说会朝反方向流动，金融市场的预期会变成自我实现（self-fulfilling）。也就是说，金融市场预期某个国家更安全，就给它更低的融资利率，而这又让那种投资得以发生，从而使预期变得合理。那么，最后这种情况，我和合著者更多把它当作一个假想。它未必是已经发生过的事，但有一点很有意思：可能存在一场霸主更替，甚至不涉及战争，只是金融市场在做决定、并把它们的预期计入价格。"
+    },
+    {
+      "i": 66,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "41:12",
+      "en": "Who is the best AI agent?",
+      "zh": "谁是最强的 AI agent？"
+    },
+    {
+      "i": 67,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "41:16",
+      "en": "Have you seen the yield on, what do you think, what do you think the yield on the Chinese, actually, the Chinese 30-year bond is?",
+      "zh": "你有没有看过那个收益率——你猜，你觉得中国那个……实际上，中国 30 年期债券的收益率是多少？"
+    },
+    {
+      "i": 68,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "41:26",
+      "en": "Tell me.",
+      "zh": "你说。"
+    },
+    {
+      "i": 69,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "41:26",
+      "en": "2%.",
+      "zh": "2%。"
+    },
+    {
+      "i": 70,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "41:27",
+      "en": "Wow. So, again, you know, I'm not putting words in the guest's mouth, but, you know, you're like talking about people are talking about a hegemonic transformation without a war. So we're at like 5.6. By the way, we're recording this September 29th. Who knows what it's going to be by the time we're listening. But yeah, the yield of the Chinese 30-year bond, 2% right now.",
+      "zh": "哇。所以，再说一次，你知道，我不是要往嘉宾嘴里塞话，但，你知道，你像是在说——人们在谈论一场没有战争的霸权更替。所以我们这边（美国 30 年期）大概在 5.6。顺便说一句，我们是 9 月 29 日录的这期。谁知道等大家听到的时候会变成多少。但是，对，中国 30 年期债券的收益率，现在是 2%。"
+    },
+    {
+      "i": 71,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "41:50",
+      "en": "That's crazy.",
+      "zh": "太疯狂了。"
+    },
+    {
+      "i": 72,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "41:51",
+      "en": "Yeah.",
+      "zh": "对。"
+    },
+    {
+      "i": 73,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "41:51",
+      "en": "I remember there was a moment a few years ago where a bunch of people got really into Chinese bonds, I guess because they were added to the index. So that would be an obvious catalyst. I wanted to go back to the perceived policy reaction function for a second and maybe talk about some of the recent things that Kevin Warsh has said. So he talked about wanting markets to be the ball, I guess. But he has also emphasized financial conditions, which are market-driven. And there seems to be a little bit of circularity there, I guess, where the Fed maybe is reacting to market-driven financial conditions, but then markets are reacting still to what they think the Fed will do. Is there any way of disaggregating those two? How do you get away from that reflexivity?",
+      "zh": "我记得几年前有一个时刻，一群人突然特别热衷中国债券，我想是因为它们被纳入了指数。所以那会是一个明显的催化剂。我想回到‘被感知到的政策反应函数’这个话题一秒，也许谈谈 Kevin Warsh 最近说的一些话。他说希望让市场来当那个‘球’（ball），我猜。但他也强调金融状况（financial conditions），而金融状况是由市场驱动的。这里似乎有一点循环的味道：美联储也许在对市场驱动的金融状况作出反应，但市场又在对他们认为美联储会做什么作出反应。有没有办法把这两者拆解开来？你怎么摆脱那种反身性（reflexivity）？"
+    },
+    {
+      "i": 74,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "42:47",
+      "en": "I can't really talk about what Warsh would say. You'd really need to ask him yourselves. What we did try in our estimation of the perceived reaction functions is we tried to include something about financial conditions. We included forecasts of the BAA, AAA spread, which get reported in the same data set. If I remember correctly, there was a little bit of a coefficient on that, but it didn't really change any of the other responses. So yeah, it's certainly a discussion whether the Fed responds to financial conditions because they reflect the macroeconomy or whether there's something separate. But we found that kind of in terms of the response to the macroeconomy, it didn't really change that all that much.",
+      "zh": "我没法真的去替 Warsh 说他会讲什么。你们真得自己去问他。不过我们在估计‘被感知到的反应函数’时，确实尝试纳入了一些关于金融状况的东西。我们纳入了对 BAA 与 AAA 利差（BAA-AAA spread）的预测，这些在同一份数据集里也有报告。如果我没记错，那上面是有一点点系数的，但它并没有真正改变其他任何反应。所以，是的，美联储究竟是因为金融状况反映了宏观经济才对其作出反应，还是说这里有某种独立的东西——这当然是个可以讨论的问题。但我们发现，就对宏观经济的反应而言，它并没有真的改变太多。"
+    },
+    {
+      "i": 75,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "43:39",
+      "en": "What's your view on supply as a factor in bond yields? This is a big question. People are like, well, bond yields are going up straightforwardly because they're issuing so many of them. How does supply fit into your framework?",
+      "zh": "你怎么看‘供给’作为债券收益率的一个驱动因素？这是个大问题。人们会说：嗯，债券收益率之所以上行，直白地说就是因为他们发了太多债券。那么供给在你的框架里是怎么摆进去的？"
+    },
+    {
+      "i": 76,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "43:53",
+      "en": "Yeah, supply is interesting. And my framework supply is very simple in the sense that, you know, in the end, the exposure, we're all taxpayers. And to the extent that we're also holding bonds, it's just, you know, going from one pocket to the other. Now, of course, the real world is a lot more complicated. There are people who are long bonds. There are people who are short bonds. In the paper where we look at how are bond stock co-movements priced, I think that's the closest that I can come to saying how this is priced. So you might have the idea that, well, bond markets are totally separate from the stock market. It's all about... type of investor who's holding too many bonds and thereby, if bonds become more volatile or this investor has to hold even more bonds, that's when they're not going to be willing to pay as much for bonds. That's when the prices fall and the yields go up. What is interesting, I think, what we find is that there is actually something about the co-movement with the stock market, which would suggest that these bond risks are at least to a first order priced against the stock market. That doesn't mean that additional specific bond market exposure for these investors doesn't matter. It's probably there also. But I think it's just kind of interesting that there is exposure to the stock market that matters for whether investors end up holding too much risk or not.",
+      "zh": "对，供给很有意思。在我的框架里，供给其实非常简单，意思是说：归根结底，就这个‘敞口’（exposure）而言，我们所有人都是纳税人。而在我们同时也持有债券的程度上，它只不过是从一个口袋进到另一个口袋。当然，现实世界要复杂得多：有人做多债券，有人做空债券。在我们研究‘债券-股票联动是如何被定价’的那篇论文里，我觉得那是我最接近能说清‘这是怎么被定价的’的地方。所以你可能会有这样的想法：嗯，债券市场跟股票市场完全没关系，一切都取决于……某类持有太多债券的投资者，从而，如果债券变得更波动、或者这个投资者不得不持有更多债券，那时候他们就不愿意为债券付那么多钱了。那时候价格就下跌、收益率就上行了。而我觉得有意思的是，我们发现：其实跟股票市场的联动本身是有作用的，这表明这些债券风险至少在一阶意义上（to a first order）是相对于股票市场来定价的。这并不意味着这些投资者额外的、特定的债券市场敞口不重要，那大概也存在。但我觉得挺有意思的是：对股票市场的敞口，会影响投资者最终是否持有了过多的风险。"
+    },
+    {
+      "i": 77,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "45:35",
+      "en": "I remember during the first Trump administration when he passed the tax cuts and they knew it was going to widen the deficit and people were like, oh, where's the money going to come from? And that whole time I was just thinking, well, he just passed a tax cut. We know where the money is going to come from. A bunch more people have dollars in their account and maybe they're not going to go out and buy treasuries necessary with it. But maybe they'll go out and buy a boat and then the boat owner will buy some stock and then the stockholder will buy some treasuries. It does seem as though when you see these fiscal events, they're often corresponding with some other part of the ledger having more cash.",
+      "zh": "我记得在第一任 Trump 政府时期，他通过了减税，他们知道这会扩大赤字，人们就说：哦，钱要从哪儿来？而那整段时间我一直在想：嗯，他刚刚通过了减税啊，我们知道钱会从哪儿来。一大批人账户里多了美元，也许他们不一定会拿这些钱去买国债，但也许他们会出去买一艘游艇，然后游艇卖家会去买一些股票，然后那个股东会去买一些国债。看起来确实是这样：当你看到这些财政事件时，它们往往对应着账本上另一个部分多了现金。"
+    },
+    {
+      "i": 78,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "46:13",
+      "en": "In the pocket. That's right. Yeah. So that's in economics, that's called recording equivalence. I think it's just a powerful argument, right? You always need to think about where does the money come from? Where does it go? And Of course, in reality, all of this is violated, but as a first approximation, I think it's still useful to think about.",
+      "zh": "‘进了口袋’。没错。对。这在经济学里叫作李嘉图等价（Ricardian equivalence）。我觉得它就是一个很有力的论点，对吧？你总是要想：钱从哪里来？又到哪里去？当然，在现实中这一切都被违反了，但作为一个一阶近似（first approximation），我觉得拿它来思考仍然有用。"
+    },
+    {
+      "i": 79,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "46:33",
+      "en": "It doesn't work in reality, but it works in theory and it has robust explanatory power. No, I've always found that to be very compelling.",
+      "zh": "它在现实里行不通，但在理论里行得通，而且它有很强的解释力。不，我一直觉得这一点非常有说服力。"
+    },
+    {
+      "i": 80,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "46:41",
+      "en": "Perfect for podcasts and posting online. All right, Carolyn, thank you so much for coming on OddLots. Really appreciate it.",
+      "zh": "非常适合拿来做播客、发到网上。好了，Carolin，非常感谢你来做客 Odd Lots。真的很感激。"
+    },
+    {
+      "i": 81,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "46:49",
+      "en": "Thank you. My pleasure. Thank you.",
+      "zh": "谢谢。我很荣幸。谢谢。"
+    },
+    {
+      "i": 82,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "47:03",
+      "en": "So, Joe, that was fascinating.",
+      "zh": "所以，Joe，刚才太精彩了。"
+    },
+    {
+      "i": 83,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "47:04",
+      "en": "Yeah, yeah.",
+      "zh": "是啊是啊。"
+    },
+    {
+      "i": 84,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "47:05",
+      "en": "Truly the perfect guest for this particular moment in time. My big takeaway, Bond's got to be more Bond-like.",
+      "zh": "真的是这个特定时刻最完美的嘉宾。我最大的收获是：债券得更‘像债券’。"
+    },
+    {
+      "i": 85,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "47:11",
+      "en": "Bond's got to be more Bond-like. By the way, I think maybe I'll make this a chart of the day or something in the newsletter. You should just look at the spread of between the generic Chinese tenure and the U.S.",
+      "zh": "债券得更‘像债券’。顺便说一句，我想也许我会把这个做成‘每日图表’（chart of the day）之类的放到 newsletter 里。你真该看看那个通用的中国十年期和美国（十年期）之间的利差。"
+    },
+    {
+      "i": 86,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "47:24",
+      "en": "Tenure.",
+      "zh": "十年期。"
+    },
+    {
+      "i": 87,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "47:24",
+      "en": "Because not only is it dramatic, I mean, it just flipped during COVID.",
+      "zh": "因为它不仅很夸张，我是说，它就在新冠期间反转了。"
+    },
+    {
+      "i": 88,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "47:32",
+      "en": "The U.S.",
+      "zh": "美国（这边）。"
+    },
+    {
+      "i": 89,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "47:33",
+      "en": "Was yielding much less than U.S. tenure yields were yielding much less than their Chinese counterparts up until late 2020. And since then, it's been a rocket. And now there's over 350 basis points spread between the two of them. It's pretty striking.",
+      "zh": "一直到 2020 年底，美国十年期的收益率都远低于中国的对应品种。而从那以后，它就像火箭一样往上蹿。现在两者之间的利差超过了 350 个基点。相当惊人。"
+    },
+    {
+      "i": 90,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "47:51",
+      "en": "That's on the spread. I would just argue that the longer term downward trend in Chinese bonds looks like it started in like late 2018, 2019 when they were added to the indices. So there's an argument to be made that the benchmark index providers are the future shapers of global hegemonies.",
+      "zh": "就利差而言，我只想补充一句：中国债券那个更长期的下行趋势，看起来是在 2018 年底、2019 年左右开始的，也就是它们被纳入那些指数的时候。所以可以说这样一个论点：基准指数提供商（benchmark index providers）才是未来全球霸权的塑造者。"
+    },
+    {
+      "i": 91,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "48:11",
+      "en": "Either way, I like the idea of, I mean, it's a really powerful idea that it's like, Can you have like a handing off of the hegemon? Can you have a handoff from the hegemon in the financial markets alone? But it's really interesting thinking about the way this compounds, right? Because if you have the financial advantage, if you could borrow money more cheaply, then you can reinvest that money into economic productivity, military, and so forth. And then you can see how these things compound together. and snowball over decades. And okay, so the US now wants to embark on this big effort of industrialization. We had that conversation with Chris Power of Hadrian in LA, talking about the ship gap and the robotics gap, etc. Well, we might do that, we might, but like, it's going to cost us a lot more to just from a sort of dollar standpoint, or resource standpoint, than it would have been, say, 10 or 15 years ago. You can meme invest.",
+      "zh": "不管怎样，我喜欢这个想法——我是说，这是个很有力的想法：你能不能来一场霸权的‘交接’？你能不能仅仅在金融市场里就完成一次霸权的交接？但去思考它是如何‘复利式’叠加的，真的很有意思，对吧？因为如果你有金融上的优势，如果你能更便宜地借到钱，那你就能把这些钱再投资到经济生产率、军事等等上面。然后你就能看到这些东西是如何彼此复利叠加、并在几十年间滚雪球般壮大的。好，那么美国现在想启动一场大规模的再工业化努力。我们在 LA 跟 Hadrian 的 Chris Power 有过那次对话，聊了‘造船差距’（ship gap）和‘机器人差距’（robotics gap）等等。嗯，我们也许能做到，也许能，但这从美元的角度、或者资源的角度来看，成本会比 10 年、15 年前高得多。你可以靠‘玩梗式投资’（meme invest）——"
+    },
+    {
+      "i": 92,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "49:10",
+      "en": "Your way to military superiority. You just have to come up with a better story than the other guy. That's right. And convince investors.",
+      "zh": "——一路‘梗’到军事优势。你只要讲一个比对手更好的故事就行了，没错，还得说服投资者。"
+    },
+    {
+      "i": 93,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "49:18",
+      "en": "That's right. All right. Shall we leave it there?",
+      "zh": "没错。好了，我们就聊到这儿吧？"
+    },
+    {
+      "i": 94,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "49:20",
+      "en": "Let's leave it there.",
+      "zh": "就聊到这儿吧。"
+    },
+    {
+      "i": 95,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "49:20",
+      "en": "This has been another episode of the All Thoughts Podcast. I'm Traci Allaway. You can follow me at Traci Allaway.",
+      "zh": "以上就是新一期的 Odd Lots 播客。我是 Tracy Alloway。你们可以在 @TracyAlloway 关注我。"
+    },
+    {
+      "i": 96,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "49:26",
+      "en": "And I'm Joe Weisenthal. You can follow me at The Stalwart. Follow our producers, Carmen Rodriguez at CarmenArmond, Dashiell Bennett at Dashbot, Kale Brooks at Kale Brooks, and Kevin Lozano at Kevin Lloyd Lozano. And for more OddLots content, go to Bloomberg.com slash OddLots or the daily newsletter in all of our episodes. And you can chat about all of these topics 24-7 in our Discord, Discord.gg slash OddLots.",
+      "zh": "我是 Joe Weisenthal。你们可以在 @TheStalwart 关注我。也关注我们的几位制作人：Carmen Rodriguez（@CarmenArmond）、Dashiell Bennett（@Dashbot）、Kale Brooks（@KaleBrooks），以及 Kevin Lozano（@KevinLozano）。想看更多 Odd Lots 的内容，请访问 Bloomberg.com/oddlots，或者订阅我们的每日 newsletter，以及收听我们所有的节目。你们还可以在我们的 Discord 里全天候畅聊所有这些话题：Discord.gg/oddlots。"
+    },
+    {
+      "i": 97,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "49:49",
+      "en": "And if you enjoyed this conversation, if you like it when we talk about the bond market, then please leave us a positive review on your favorite podcast platform. And remember, if you are a Bloomberg subscriber, you can listen to all of our episodes absolutely ad free. All you need to do is find the Bloomberg channel on Apple Podcasts and follow the instructions there. Thanks for listening. Thank you.",
+      "zh": "如果你喜欢这次对话，如果你喜欢我们聊债券市场，那么请在你最爱的播客平台上给我们留一个好评。还有，记住：如果你是 Bloomberg 的订阅用户，你可以完全无广告地收听我们所有的节目。你要做的就是在 Apple Podcasts 上找到 Bloomberg 频道，然后按照那里的说明操作即可。感谢收听。谢谢。"
+    }
+  ]
+}

@@ -1,0 +1,1305 @@
+{
+  "show": "odd-lots",
+  "kind": "transcript",
+  "id": "odd-lots-7f45967f87",
+  "guid": "b143850e-7e8f-4144-8299-b4e30171ca7d",
+  "slug": "2026-10-15-jeff-yans-plan-to-bring-the-7f45967f87",
+  "date": "2026-10-15",
+  "title_en": "Jeff Yan's Plan to Bring the Entire Financial Industry Onto Hyperliquid",
+  "title_zh": "Jeff Yan 谈把整个金融业搬上 Hyperliquid 的计划",
+  "subtitle_zh": "Hyperliquid Labs 联合创始人兼 CEO Jeff Yan 解读协议、部署者与永续合约如何承载全部金融。",
+  "description": "Jeff Yan's Plan to Bring the Entire Financial Industry Onto Hyperliquid",
+  "duration": "58:00",
+  "duration_seconds": 3480,
+  "episode_url": "https://omny.fm/shows/odd-lots/jeff-yans-plan-to-bring-the-entire-financial-industry-onto-hyperliquid",
+  "audio_url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/8a94442e-5a74-4fa2-8b8d-ae27003a8d6b/b143850e-7e8f-4144-8299-b4e30171ca7d/audio.mp3?utm_source=Podcast&in_playlist=982f5071-765c-403d-969d-ae27003a8d83",
+  "speakers": {
+    "1": "Joe Weisenthal（主持）",
+    "2": "Tracy Alloway（主持）",
+    "3": "Jeff Yan（嘉宾）",
+    "4": "片花/广告（旁白）"
+  },
+  "turn_count": 160,
+  "turns": [
+    {
+      "i": 0,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "00:03",
+      "en": "Bloomberg Audio Studios.",
+      "zh": "Bloomberg Audio Studios。"
+    },
+    {
+      "i": 1,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "00:05",
+      "en": "Podcasts.",
+      "zh": "播客。"
+    },
+    {
+      "i": 2,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "00:06",
+      "en": "Radio.",
+      "zh": "广播。"
+    },
+    {
+      "i": 3,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "00:07",
+      "en": "News.",
+      "zh": "新闻。"
+    },
+    {
+      "i": 4,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "00:19",
+      "en": "Hello and welcome to another episode of the Odd Lots podcast. I'm Joe Weisenthal.",
+      "zh": "大家好，欢迎收听新一期的 Odd Lots 播客。我是 Joe Weisenthal。"
+    },
+    {
+      "i": 5,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "00:24",
+      "en": "And I'm Tracy Alloway.",
+      "zh": "我是 Tracy Alloway。"
+    },
+    {
+      "i": 6,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "00:26",
+      "en": "Tracy, we're recording this.",
+      "zh": "Tracy，我们这次录制是在……"
+    },
+    {
+      "i": 7,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "00:27",
+      "en": "Tradie. Yeah.",
+      "zh": "交易员（tradie）那儿。对。"
+    },
+    {
+      "i": 8,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "00:29",
+      "en": "That's appropriate for this episode.",
+      "zh": "这跟本期节目还挺应景的。"
+    },
+    {
+      "i": 9,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "00:32",
+      "en": "Slip already, tradie. Tracy, we're recording this October 13th. In a couple days, we're going to be in Chicago. And we're going to, as we do when we go to Chicago. talk to some legends of the trading industry.",
+      "zh": "已经很有交易员范儿了啊。Tracy，我们这期是 10 月 13 号录的。再过几天我们就要去 Chicago 了。跟每次去 Chicago 一样，我们会去跟交易行业的一些传奇人物聊聊。"
+    },
+    {
+      "i": 10,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "00:43",
+      "en": "Yeah, it's great to go to Chicago.",
+      "zh": "是啊，去 Chicago 挺好的。"
+    },
+    {
+      "i": 11,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "00:46",
+      "en": "We've never done a floor tour of any of the actual trading places in Chicago.",
+      "zh": "我们还没去 Chicago 任何一个真正的交易场地做过交易大厅参观（floor tour）。"
+    },
+    {
+      "i": 12,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "00:50",
+      "en": "We should do that.",
+      "zh": "我们该去一趟。"
+    },
+    {
+      "i": 13,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "00:51",
+      "en": "Yeah, we should do that. But of course, it's always an exciting time to sort of like talk to the trader community because there are just so many interesting things happening like in the world of trading per se. One of them is, of course, the rise of prediction markets, etc. Essentially, I kind of think like we're in this moment where so many different instruments can be expressed as other instruments in various ways. So you could have stocks that are like tokenized. You can have tokens that are ETF-ized, like crypto tokens that are put in ETFs. You can have prediction markets that actually are sort of like functionally predicting a stock and then they become a stock. Essentially, you can replicate the economics of a stock. So all different types of things where like people are like rejiggering the way You can express a view with this incredible basket of new instruments and platforms to.",
+      "zh": "对，我们该去。不过话说回来，跟交易圈的人聊天总是很有意思，因为交易（trading）本身这个领域正在发生太多有意思的事。其中之一当然就是预测市场（prediction markets）的兴起等等。基本上，我觉得我们正处在这样一个时刻：很多不同的金融工具都能以各种方式用别的工具来表达。比如股票可以被代币化（tokenized）；代币也可以被 ETF 化，就是把加密代币装进 ETF 里；预测市场其实功能上是在预测某只股票，然后它就变成了一只股票。本质上，你能复制一只股票的经济敞口。所以各种各样的东西都有，人们正在用这一大堆了不起的新工具和新平台，重新改造你表达观点的方式，用它们……"
+    },
+    {
+      "i": 14,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "01:44",
+      "en": "Do it on.",
+      "zh": "……来承载。"
+    },
+    {
+      "i": 15,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "01:44",
+      "en": "Financialization on steroids. Can I go on a slight tangent for a second?",
+      "zh": "这就是打了兴奋剂的金融化（financialization on steroids）。我能稍微跑个题吗？"
+    },
+    {
+      "i": 16,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "01:48",
+      "en": "Yeah, sure.",
+      "zh": "好啊，当然。"
+    },
+    {
+      "i": 17,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "01:48",
+      "en": "So I have this media theory that I call the inverse pyramid.",
+      "zh": "我有一个媒体理论，我管它叫倒金字塔（inverse pyramid）。"
+    },
+    {
+      "i": 18,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "01:52",
+      "en": "Yeah.",
+      "zh": "嗯。"
+    },
+    {
+      "i": 19,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "01:53",
+      "en": "And so the way I think about traditional media, it was sort of like a food pyramid, right? And you had original reporting... was the layer at the bottom. So you had sort of old school reporters who were making phone calls.",
+      "zh": "我是这么看传统媒体的：它有点像食物金字塔（food pyramid），对吧？最底层是原创报道（original reporting）。也就是那些老派记者，一个个打电话去挖料。"
+    },
+    {
+      "i": 20,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "02:04",
+      "en": "Making scoops.",
+      "zh": "抢独家。"
+    },
+    {
+      "i": 21,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "02:05",
+      "en": "And then maybe you had in the next rung, you had some people writing editorials or opinion columns on them, maybe a little bit of like video eventually on top. Nowadays, the pyramid is completely inverse where the smallest layer is the original reporting. And then there's so much content built on top of that. I often think about finance today in those terms in the sense that the underlying is kind of the smallest part of the market now. And there are so many new instruments built on top of it, whether it's derivatives, futures and options, or now it's prediction markets and things like that. It just feels like You know, derivatives have been a bigger market than the underlying for a while, but it feels like the inversion of that pyramid is just getting bigger and bigger.",
+      "zh": "再往上一层，可能有一些人就这些报道写社论或评论专栏，最上面也许最终还有一点视频。如今这个金字塔完全倒过来了：最小的那一层是原创报道，上面却堆了海量的内容。我常常用这个框架来看今天的金融，意思是说，标的资产（underlying）现在是整个市场里最小的一部分，上面却建起了这么多新工具——不管是衍生品（derivatives）、期货和期权，还是现在的预测市场之类。感觉就是……你知道，衍生品市场比标的市场大已经有一阵子了，但这个金字塔的倒置好像还在越来越严重。"
+    },
+    {
+      "i": 22,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "02:49",
+      "en": "That's a great take. Right. And I didn't know where you were going with that until I did.",
+      "zh": "这个角度太棒了。真的。你讲之前我还不知道你要往哪儿引，讲完我就懂了。"
+    },
+    {
+      "i": 23,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "02:53",
+      "en": "I got there.",
+      "zh": "我这不是绕到了嘛。"
+    },
+    {
+      "i": 24,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "02:53",
+      "en": "But right. You think of something like SK Hynix or something like that. And OK, there is some company and there is a stock that trades. Then there's ADRs. And then there's 3x leveraged ADRs. And there's tokenized versions of it and so forth. And there's prediction markets on where will SK Hynix close in the next 10 minutes. I don't know if that exists. If it doesn't, it will exist at some point. It probably will.",
+      "zh": "但没错。你想一个像 SK Hynix 这样的东西。好，有这么一家公司，有一只股票在交易。然后有 ADR（美国存托凭证）。然后有 3 倍杠杆的 ADR。还有它的代币化版本等等。甚至还有预测市场，赌 SK Hynix 接下来 10 分钟会收在哪儿。我不知道这个存不存在，如果现在没有，迟早也会有。多半会有。"
+    },
+    {
+      "i": 25,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "03:15",
+      "en": "Et cetera.",
+      "zh": "诸如此类。"
+    },
+    {
+      "i": 26,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "03:16",
+      "en": "But, like, there is so much to do on this topic. And, of course... You know, we did that episode a few years ago with Austin Campbell talking about the potential for sort of blockchain to sort of unify and bring together a lot of different markets. I think it was one of the more compelling, quote, crypto, unquote, conversations that we've had, et cetera. And one of the things that's getting a lot of attention that combines all these things is this entity called Hyperliquid, which people who know it are obsessed with it, but it's not a household name yet. But the people who do know it are very into it.",
+      "zh": "但这个话题能聊的实在太多了。而且，当然……你知道，我们几年前做过一期，请了 Austin Campbell，聊区块链（blockchain）把很多不同市场统一、整合起来的潜力。我觉得那是我们做过的比较有说服力的一期所谓'加密'对话，等等。而最近有个把这些东西全结合在一起、很受关注的实体，叫 Hyperliquid。懂它的人对它极其着迷，但它还算不上家喻户晓。不过真正了解它的人都非常上头。"
+    },
+    {
+      "i": 27,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "03:49",
+      "en": "It's not a household name, even though it's been growing incredibly fast.",
+      "zh": "它还不是家喻户晓的名字，尽管增长快得惊人。"
+    },
+    {
+      "i": 28,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "03:53",
+      "en": "Yeah.",
+      "zh": "嗯。"
+    },
+    {
+      "i": 29,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "03:53",
+      "en": "The one thing I know about it before starting prep for this episode was the mascot.",
+      "zh": "在开始为这期做功课之前，我对它唯一知道的就是它的吉祥物。"
+    },
+    {
+      "i": 30,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "03:58",
+      "en": "Yeah.",
+      "zh": "嗯。"
+    },
+    {
+      "i": 31,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "03:59",
+      "en": "Which we have here, who's called Hyper. And I always approve of a company with a good mascot.",
+      "zh": "我们这儿就有一个，叫 Hyper。我一向欣赏有好吉祥物的公司。"
+    },
+    {
+      "i": 32,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "04:04",
+      "en": "So here we are.",
+      "zh": "所以就这样。"
+    },
+    {
+      "i": 33,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "04:05",
+      "en": "Well, you know, the company is a little bit sort of known for being a bit secretive. There's not like they don't do a ton of press. And so we're actually going to have to interview the mascot today because we weren't able. No, that's not true. Amazingly, we really do have. That'd be fun.",
+      "zh": "你知道，这家公司有点以神秘著称。他们不太做大量的媒体曝光。所以今天我们本来只能去采访那个吉祥物了，因为我们请不到……不，不是真的。神奇的是，我们还真请到了。那也挺好玩的。"
+    },
+    {
+      "i": 34,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "04:17",
+      "en": "Yeah.",
+      "zh": "是啊。"
+    },
+    {
+      "i": 35,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "04:17",
+      "en": "Yeah.",
+      "zh": "对。"
+    },
+    {
+      "i": 36,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "04:18",
+      "en": "Amazingly, we really do have the perfect guest on the podcast. Someone to move on to talk to for a long time. Jeff Yan, the co-founder and CEO of Hyperliquid Labs is here in studio with us. So Jeff, thank you so much for coming on Odd Lots.",
+      "zh": "神奇的是，我们真请到了最合适的嘉宾，一位可以聊上很久的人。Hyperliquid Labs 的联合创始人兼 CEO Jeff Yan 今天来到了我们的演播室。Jeff，非常感谢你来做客 Odd Lots。"
+    },
+    {
+      "i": 37,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "04:31",
+      "en": "Thanks for having me.",
+      "zh": "谢谢你们邀请我。"
+    },
+    {
+      "i": 38,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "04:32",
+      "en": "Why don't you give us the sort of basic view of like what Hyperliquid is today? I mean, this is, we're going to go into this, but just big picture, like someone says, what's Hyperliquid? What do you answer them?",
+      "zh": "不如你先给我们讲讲，如今的 Hyperliquid 到底是个什么东西？这个我们后面会细聊，但先从大方向说，如果有人问'Hyperliquid 是什么'，你怎么回答？"
+    },
+    {
+      "i": 39,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "04:43",
+      "en": "Yeah. So Hyperliquid is a protocol. Okay. The tagline or aspirational goal is housing all of finance. And I think the community is serious about that. So we can go into what that means. But the short of it is a neutral layer on which finance can ultimately happen. It's the same way that electronic trading was a step function improvement over pit trading only a couple of decades ago. We view hyperliquid, the protocol as hyperliquid. a sort of step function improvement over electronic but fragmented markets.",
+      "zh": "好。Hyperliquid 是一个协议（protocol）。它的口号或者说愿景目标，是承载整个金融业（housing all of finance）。我觉得这个社区是认真的。这个含义我们可以展开讲。简单说，它就是一个中立的层，金融活动最终可以在上面发生。就像仅仅一二十年前，电子交易（electronic trading）相对于场内喊价交易（pit trading）是一次阶跃式的提升；我们把 Hyperliquid 这个协议，看作是对电子化但割裂的市场的一次阶跃式提升。"
+    },
+    {
+      "i": 40,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "05:22",
+      "en": "So I know Joe said hyperliquid is not necessarily a household name just yet, but it might be on its way to becoming one because just a couple of months ago, Donald Trump was talking about hyperliquid and talking about US regulators working to bring hyperliquid to the US. At the moment, if you're in the US, you... quote unquote, are not allowed to use hyperliquid, although my understanding is a lot of people get around it using a VPN. When Trump said that, feel free to refute me on that. That's just what I read on Reddit. OK, but when Trump said that, were you aware that he was going to be talking about hyperliquid at that point?",
+      "zh": "我知道 Joe 说 Hyperliquid 还不算家喻户晓，但它可能正在往这个方向走，因为就在几个月前，Donald Trump 谈到了 Hyperliquid，说美国监管机构正想办法把 Hyperliquid 引进美国。目前，如果你人在美国，你是所谓'不允许'使用 Hyperliquid 的，尽管据我了解很多人用 VPN 绕过这个限制。Trump 说这话的时候——这一点你可以反驳我，我只是在 Reddit 上看到的——好，Trump 说这话的时候，你事先知道他要提 Hyperliquid 吗？"
+    },
+    {
+      "i": 41,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "06:02",
+      "en": "I was not aware. So that was a huge surprise to me. Hyperliquid labs are works on the protocol. I suppose it may be good to give a bit of a breakdown of the various pieces. There's the protocol. It's a neutral blockchain. It's a collection of permissionless set of validators who operate a network collectively, which is sort of a global view of a single consistent state. Hyperliquid Labs is a team that builds technology for this blockchain. And we are a super small team. And I think what the CFTC is referring to when they say they want to bring the protocol to the United States is that it is, in fact, against the terms of service of HyperLiquida XYZ and many other interfaces for US users to use the derivatives trading on the protocol. But the CFTC, I think the current administration, wants to kind of take a proactive approach towards on-chain rails for finance. I think it's a kind of technological view that markets can be improved and that the U.S. should not play a sort of, you know, extremely restrictive. We should not have an extremely restrictive view on this, but rather should find ways where it can incorporate this technology into the existing financial system.",
+      "zh": "我事先不知道。所以那对我来说是个大惊喜。Hyperliquid Labs 做的是这个协议。我想最好把各个部分拆解一下。首先是协议本身，它是一条中立的区块链（blockchain），由一组无需许可（permissionless）的验证者（validators）共同运营一个网络，形成一个对单一一致状态的全局视图。Hyperliquid Labs 是为这条区块链开发技术的团队，我们是一个超级小的团队。我觉得 CFTC 说想把协议带到美国，指的是：对美国用户来说，使用协议上的衍生品交易，其实违反了 Hyperliquid XYZ 以及很多其他前端接口的服务条款。但 CFTC，我猜是现任政府，想对金融的链上轨道（on-chain rails）采取一种更主动的态度。我觉得这是一种技术层面的观点：市场是可以被改进的，美国不应该采取那种极端限制性的立场，而应该想办法把这项技术纳入现有的金融体系。"
+    },
+    {
+      "i": 42,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "07:27",
+      "en": "So let's talk more about, I guess, what maybe the ecology or the ecosystem of hyperliquid and the players, because you mentioned the word protocol. And I have to say, it's like at various times, the Bitcoiners would say, no, this is the new protocol, the Internet of Money. And Ethereum people talked about, oh, it's a protocol. This word gets used a lot. So why don't you just talk a little bit about, okay, it's a blockchain, but it obviously has higher aspirations than sort of like a typical crypto project. But like, I understand there's validators, deployers, et cetera. Maybe like give us the landscape of who does stuff on HyperLiquid and like what their roles are.",
+      "zh": "那我们就多聊聊 Hyperliquid 的生态或者玩家吧，因为你提到了'协议'这个词。我得说，这个词被用得太多了：比特币派（Bitcoiners）会说'不，这才是新协议，是货币互联网（Internet of Money）'；Ethereum 那帮人也说'哦，这是个协议'。所以你不妨讲讲——好，它是一条区块链，但它的野心显然比一般的加密项目更大。据我了解，里面有验证者、部署者（deployers）等等。也许你可以给我们勾勒一下，在 Hyperliquid 上做事的都有谁，各自是什么角色。"
+    },
+    {
+      "i": 43,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "08:07",
+      "en": "Yeah, it's a good question. This is a very deep question.",
+      "zh": "嗯，这是个好问题，而且是个很深的问题。"
+    },
+    {
+      "i": 44,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "08:11",
+      "en": "Yeah, I know. Maybe it's a little.",
+      "zh": "是啊，我知道。可能有点（大）。"
+    },
+    {
+      "i": 45,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "08:13",
+      "en": "Yeah, it's a lot of stuff. But at a high level, a protocol is basically... It's kind of what it sounds like, you know, like there's like an HTTP protocol, like a TCP protocol. It's a messaging framework by which different validators in this case agree to communicate by these rules. And the interesting thing about a sort of a blockchain protocol as compared to a purely informational format protocol is that the rules under certain assumptions in this case, in the case of Hyperliquid, that two thirds of the stake of the network is what we call non Byzantine, which is to say that they operate under the normal rules of the protocol that you get all these great properties, which is that these validators can operate independently. And basically, that's all you don't really need to assume much more, the network will come to a consistent view of the world. And this is really important for finance, right? Because it's sort of a, it is kind of the first layer, if you're talking about the pyramid of like things that need to happen for a global financial system. If you think about it, the very, very base layer of the sort of information in the system is that everyone needs to agree. If we don't agree on what the ledger of balances is, for example, then all bets it off for money.",
+      "zh": "嗯，东西很多。但从宏观上讲，协议基本上就是……它就跟你听到这个词想到的差不多，就像有 HTTP 协议、TCP 协议一样。它是一套消息传递框架，在这个场景里，不同的验证者同意按这些规则来通信。区块链协议跟纯粹的信息格式协议相比，有意思的地方在于：在某些假设下——在 Hyperliquid 的场景里，就是网络中三分之二的质押（stake）是我们所说的'非拜占庭'（non-Byzantine），也就是说它们按协议的正常规则运作——你就能获得所有这些很好的性质：这些验证者可以各自独立运作。基本上这就是你需要的全部假设了，不用再假设更多，网络就能对世界达成一致的视图。这对金融极其重要，对吧？因为如果你谈论一个全球金融系统所需要的东西的金字塔，它算是第一层。你想，系统信息里最最底层的那一点，就是所有人都得达成一致。比如说，如果我们连余额账本（ledger of balances）是什么都无法达成一致，那'钱'这件事就全崩了。"
+    },
+    {
+      "i": 46,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "09:30",
+      "en": "So at a minimum, we all need to agree, like, there's this much in your account, this much in Tracy's account, this much in my account, and also, like, what the prices are. Like, there's some basic things that, like, every participant needs to agree on. And in a regulated exchange, that's pretty simple. We trust this company. They're going to market. But in a decentralized one, you need some trick to get... Not a trick, but you need some, like, mechanism to get independent validators to all agree.",
+      "zh": "所以最起码，我们所有人都得就一些事情达成一致，比如你账户里有多少、Tracy 账户里有多少、我账户里有多少，还有价格是多少。有一些基本的东西是每个参与者都得认同的。在一个受监管的交易所里，这很简单：我们信任这家公司，他们去做市。但在一个去中心化的交易所里，你需要某种技巧来……不是技巧，而是你需要某种机制，让这些独立的验证者全部达成一致。"
+    },
+    {
+      "i": 47,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "09:58",
+      "en": "Yes, and there can... I would draw the distinction It's kind of an orthogonal question of whether there is a regulated entity deploying the markets. And in fact, I think there very much will be. And it's not an either or. I think you can kind of benefit from the resiliency of an on-chain network, even if a single registered entity is has permissions over the markets that they deploy. The benefits of the technology are that if you want to run a 24-7, 365 exchange, it's not a simple task. And any sort of mistakes that you may make, whether it's with the matching engine, with the clearing, any of the vendors in the stack, ultimately, that is a single point of failure for a very critical piece of infrastructure for the financial system. If the rails on which it is built consists of a diverse distributed set of validators where one or even many can go down at any moment in time and the network still maintains its important properties, which is that everyone agrees on the state and that it continues progressing forward at the usual throughput, then all of a sudden you have a much more stable foundation on which to build your regulated exchange.",
+      "zh": "对，而且可以……我想做一个区分：是否存在一个受监管的实体来部署这些市场，这其实是个正交（orthogonal）的问题。事实上，我认为一定会有的。而且这不是二选一。我觉得你可以受益于链上网络的韧性（resiliency），哪怕是由单一注册实体对它部署的市场拥有权限。这项技术的好处在于：如果你想运营一个 7×24 小时、全年无休的交易所，这可不是件简单的事。你可能犯的任何错误——不管是撮合引擎（matching engine）、清算（clearing），还是技术栈里的任何供应商——最终都会成为金融系统这一关键基础设施的单点故障（single point of failure）。而如果它所依赖的底层轨道，是由一组多元、分布式的验证者构成，其中哪怕一个甚至很多个随时可能宕机，网络依然能保持它的重要性质——也就是所有人对状态达成一致，并以平常的吞吐量继续向前推进——那么一下子，你就有了一个稳定得多的基础，可以在上面搭建你那个受监管的交易所。"
+    },
+    {
+      "i": 48,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "11:09",
+      "en": "Maybe just to hammer this point home, could you walk us through an example of, say, you know, I buy a million dollars worth of a certain perpetual futures contract. What's your most popular perpetual futures at the moment?",
+      "zh": "也许为了把这一点讲透，你能不能给我们走一遍一个例子，比如说，我买入价值一百万美元的某种永续期货（perpetual futures）合约。你们目前最热门的永续期货是哪个？"
+    },
+    {
+      "i": 49,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "11:24",
+      "en": "It actually varies. So between real world assets or things like Bitcoin, I think right now it is the perpetuals on Bitcoin's price.",
+      "zh": "其实不固定。在真实世界资产（real world assets）和像 Bitcoin 这样的东西之间，我觉得现在是跟踪 Bitcoin 价格的永续合约最热门。"
+    },
+    {
+      "i": 50,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "11:32",
+      "en": "OK, well, let's say I buy a million worth of perps on Bitcoin. Who is actually taking the other side? Is there collateral involved? Where is the collateral kept? Who determines the liquidation price when the trade ultimately unwinds? And who loses money if, for whatever reason, I can't actually pay?",
+      "zh": "好，那假设我买入价值一百万的 Bitcoin 永续合约（perps）。到底是谁在做我的对手方？有没有抵押品（collateral）？抵押品存在哪儿？当这笔交易最终平仓时，谁来决定清算价（liquidation price）？如果因为某种原因我真的付不出钱，谁来承担亏损？"
+    },
+    {
+      "i": 51,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "11:51",
+      "en": "I was going to say, if by some miracle Tracy makes money, who is on the losing end? But anyway, yeah, walk us through how that works.",
+      "zh": "我本来想说，万一 Tracy 靠奇迹赚了钱，谁是亏钱的那一方？不过算了，是的，你给我们讲讲这套机制怎么运作。"
+    },
+    {
+      "i": 52,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "11:57",
+      "en": "Well, first of all, I just want to reiterate that as an American, you probably are not opening this position.",
+      "zh": "首先，我想再强调一下：作为一个美国人，你多半是不会开这个仓位的。"
+    },
+    {
+      "i": 53,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "12:03",
+      "en": "Pretend that I live in Singapore.",
+      "zh": "就当我住在新加坡吧。"
+    },
+    {
+      "i": 54,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "12:05",
+      "en": "If you're a Singaporean living in Singapore or a European living in Europe.",
+      "zh": "如果你是住在新加坡的新加坡人，或者住在欧洲的欧洲人。"
+    },
+    {
+      "i": 55,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "12:08",
+      "en": "For anyone who lives in a free country.",
+      "zh": "对任何住在自由国家的人来说。"
+    },
+    {
+      "i": 56,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "12:10",
+      "en": "No.",
+      "zh": "不。"
+    },
+    {
+      "i": 57,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "12:11",
+      "en": "Can I trade on my Austrian passport? This is an interesting question.",
+      "zh": "我能用我的奥地利护照来交易吗？这是个有意思的问题。"
+    },
+    {
+      "i": 58,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "12:14",
+      "en": "Probably in Austria.",
+      "zh": "大概在奥地利可以吧。"
+    },
+    {
+      "i": 59,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "12:14",
+      "en": "Yeah. All right. The mechanisms, all of which you mentioned, I believe, are not so different from futures contracts on a futures exchange. Perhaps the one that is interesting here is the, so there's a counterparty in the order book. The liquidation is set by the system. So it's not a subjective. It's not like someone actively setting a liquidation price.",
+      "zh": "好。你说的这些机制，我相信跟期货交易所上的期货合约并没有太大不同。也许这里比较有意思的一点是：订单簿（order book）里有一个对手方；清算价是由系统设定的，所以它不是主观的，不是有人在主动设定一个清算价。"
+    },
+    {
+      "i": 60,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "12:37",
+      "en": "It's rules-based.",
+      "zh": "它是基于规则的（rules-based）。"
+    },
+    {
+      "i": 61,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "12:38",
+      "en": "Yeah, it's a property of the clearing system. The unique thing here is that the clearing system is on-chain. So the threshold at which it happens and the mechanism by which the liquidation happens, which we can get into, it's analogous to what is a traditional default waterfall in a U.S.-regulated futures exchange, for example. Analogous, different names. That happens in an on-chain implementation. So the execution of what is called a hyper-core process kind of like you can view it as like a sub-module of the blockchain state itself, autonomously carries out the mechanisms of these things like clearing and liquidations.",
+      "zh": "对，它是清算系统的一个属性。这里独特的地方在于，清算系统是链上的。所以触发它的阈值，以及清算发生的机制（这些我们可以展开），跟比如美国受监管期货交易所里传统的违约瀑布（default waterfall）是类似的。类似，只是叫法不同。只不过它是在链上实现的。因此，那个叫 hyper-core 的进程的执行——你可以把它看作区块链状态本身的一个子模块——会自主地完成清算、爆仓这些机制。"
+    },
+    {
+      "i": 62,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "13:31",
+      "en": "A classic sign that something is going to be a big deal, in my opinion, is when like Bloomberg starts listing it. So for example, like years ago, I don't know, I think it was like 2012 or 2013 was the first time that on the terminal you could look up the Bitcoin price. It's like, oh, it's probably a sign. It's like maybe something is going to happen here. Recently, there is now a hype page and you can look at 24-7 things like they trade Brent there and they trade WTI and they trade S & P 500 and Circle and SanDisk and Micron and a bunch of other stuff.",
+      "zh": "在我看来，一样东西要火的一个经典信号，就是 Bloomberg 开始收录它。比如说，多年前，我记不清了，我想大概是 2012 或 2013 年，是终端上第一次能查到 Bitcoin 的价格。那时候感觉，哦，这大概是个信号，也许这里要有事情发生了。最近，现在有了一个 HYPE 页面，你能看到 7×24 小时交易的东西，他们那里交易 Brent、交易 WTI、交易 S&P 500，还有 Circle、SanDisk、Micron 以及一大堆别的东西。"
+    },
+    {
+      "i": 63,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "14:02",
+      "en": "And of course, it's got a lot of engagement. I saw it was super cool. It's a big deal. Kudos to you all for integrating the technology.",
+      "zh": "而且当然，它参与度很高。我看到了，特别酷。这是件大事。为你们把这项技术整合进来点个赞。"
+    },
+    {
+      "i": 64,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "14:09",
+      "en": "Yeah, there you go. OK, now here's a key thing. So I'm looking at, let's say, NVIDIA, an NVIDIA perp that trades on hyperliquid. And I believe it is issued by an entity called TradeXYZ. So let's bring in who is TradeXYZ? And how do they get in a position where they can issue an NVIDIA perp, like walk through, like how this emerged on hyperliquid.",
+      "zh": "对，就是这样。好，现在有个关键点。比如我在看 NVIDIA，一个在 Hyperliquid 上交易的 NVIDIA 永续合约。我记得它是由一个叫 TradeXYZ 的实体发行的。那我们来介绍一下 TradeXYZ 是谁？他们是怎么获得发行 NVIDIA 永续合约的资格的？给我们走一遍，这个东西是怎么在 Hyperliquid 上出现的。"
+    },
+    {
+      "i": 65,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "14:32",
+      "en": "So we use the word deploy because I think issue has many connotations. Um, this is a technical process by which anyone can use the network in different ways. You know, on the Bitcoin network, the same kind of foundational idea of globally consistent state distributed a set of participants. But on Bitcoin, you can move Bitcoin around. That's all you can do. On Hyperliquid, it's a lot more complex as a system that ultimately can power the financial system needs to be. And so one of these functionalities is that deployers can come. They stake some amount of the native token.",
+      "zh": "我们用'部署'（deploy）这个词，因为我觉得'发行'（issue）有太多别的含义。这是一个技术流程，任何人都可以用不同方式使用这个网络。你知道，在 Bitcoin 网络上，是同样的基础理念——全局一致的状态、分布式的一组参与者。但在 Bitcoin 上，你只能把 Bitcoin 转来转去，就只能做这个。在 Hyperliquid 上，它要复杂得多，因为一个最终要驱动金融系统的系统就必须这么复杂。其中一个功能就是，部署者可以进来，质押一定数量的原生代币。"
+    },
+    {
+      "i": 66,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "15:09",
+      "en": "How many hype do they have to buy to become a staker? Or how many do they have to accumulate? Yeah, they have to stake 500,000 currently.",
+      "zh": "他们要买多少 HYPE 才能成为质押者（staker）？或者说要攒够多少？对，目前他们得质押 500,000 个。"
+    },
+    {
+      "i": 67,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "15:16",
+      "en": "Hype.",
+      "zh": "HYPE。"
+    },
+    {
+      "i": 68,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "15:18",
+      "en": "Not $ 500, 000 worth of hype, but 500,000 hype coins.",
+      "zh": "不是价值 50 万美元的 HYPE，而是 50 万枚 HYPE 币。"
+    },
+    {
+      "i": 69,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "15:22",
+      "en": "Okay, keep going. And the stake is basically a way for them to unlock these deployment functionalities that are implemented on the blockchain itself. And they can effectively define an oracle, more of an oracle system, I suppose. It is a mechanism by which a perpetual contract tracks the one number that is exogenous to the system, which is the index price. That's kind of the beauty of a perpetual, right? It's so powerful, so expressive, and yet it really is kind of ultimately boils down to one number.",
+      "zh": "好，接着说。这个质押本质上是他们解锁部署功能的一种方式，这些功能是在区块链本身上实现的。他们实际上可以定义一个预言机（oracle），或者更准确说是一套预言机系统。它是一种机制，让永续合约去跟踪那个外生于系统的数字，也就是指数价格（index price）。这正是永续合约的妙处，对吧？它如此强大、如此富有表现力，但最终真的就归结为一个数字。"
+    },
+    {
+      "i": 70,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "15:57",
+      "en": "And this is really important, right? Because like a physical settled future, the future ends and you get the oil at the end. A cash settled future, there's some entity and it's like, okay, the future expires. With a PERP, it never really ends, but there needs to be a price oracle that it's always going to be, I guess, tethered.",
+      "zh": "这一点真的很重要，对吧？因为像实物交割的期货（physical settled future），合约到期结束，你最后拿到的是石油。现金交割的期货（cash settled future），有某个实体，然后合约到期就了结。而永续合约永远不会真正到期，但需要有一个价格预言机，让它始终，我猜，锚定在上面。"
+    },
+    {
+      "i": 71,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "16:15",
+      "en": "Why is it called an oracle as opposed to just like the underlying price?",
+      "zh": "为什么它叫预言机（oracle），而不干脆叫标的价格？"
+    },
+    {
+      "i": 72,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "16:20",
+      "en": "Well, oracle here has a specific... The meaning of the word oracle in a blockchain context is something that is published by a single or multiple publishers that track something that is off-chain. So it is not knowable from purely on-chain characteristics. This will change in the future because I think as spot markets move onto hyperliquid, you can imagine a system where The Oracle is actually no longer published, but rather derived from on-chain properties.",
+      "zh": "嗯，这里的预言机有一个特定的……在区块链语境里，'oracle'这个词的意思，是由单个或多个发布者发布的、跟踪某个链下事物的东西。所以它是无法纯粹从链上特征得知的。未来这会改变，因为我觉得随着现货市场（spot markets）迁移到 Hyperliquid 上，你可以想象一个系统，其中预言机不再是被'发布'的，而是从链上属性推导出来的。"
+    },
+    {
+      "i": 73,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "16:47",
+      "en": "Okay, just to finish the question about how the Hynix or the NVIDIA perp got there. So, okay, TradeXYZ, they're a deployer. They accumulate the hype so that they're allowed to deploy. How do they get the right or the ability to actually, okay, issue the NVIDIA perp or the Hynix perp?",
+      "zh": "好，把关于 Hynix 或 NVIDIA 永续合约是怎么上去的问题问完。好，TradeXYZ 是一个部署者。他们攒够 HYPE，于是获准部署。那他们是怎么获得真正发行 NVIDIA 永续合约或 Hynix 永续合约的权利或能力的？"
+    },
+    {
+      "i": 74,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "17:09",
+      "en": "It's a simple matter of sending a transaction to do the deployment. And the thing here is they're inheriting the technology of the order book, the clearing, sort of like the existence of USDC itself in a way that's kind of well connected to the sort of entire Circle infrastructure is another example of something that a deployer inherits. And they simply send the transaction designating the specifications of the contract and they, as deployers, push this, they or their system. In TradeXYZ's case, I believe there is a system of publishers of the Oracle price. And then the magic of it is that it is truly a distinct set of responsibilities between the protocol and the deployer, but together they kind of form this incredibly compelling ultimate product for the end user. And this is kind of this idea of modularity that I think is unique to on-chain financial systems.",
+      "zh": "这只是发一笔交易去做部署这么简单。这里的关键是，他们继承了订单簿、清算这些技术，还有 USDC 本身的存在——它以某种方式跟整个 Circle 基础设施紧密相连，这也是部署者继承的东西的另一个例子。他们只需发一笔交易，指定合约的规格，然后作为部署者，他们（或他们的系统）去推送这个价格。就 TradeXYZ 而言，我相信有一套预言机价格的发布者系统。而它的魔力在于，协议和部署者之间确实是两套各自独立的职责，但它们合在一起，就为终端用户构成了这个极具吸引力的最终产品。这就是模块化（modularity）的理念，我觉得它是链上金融系统独有的。"
+    },
+    {
+      "i": 75,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "18:10",
+      "en": "Where does the liquidity come from?",
+      "zh": "流动性从哪儿来？"
+    },
+    {
+      "i": 76,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "18:12",
+      "en": "Because this is a classic issue for new exchanges and new markets. How do you actually make sure that there's enough money floating around to take the other side of a trade?",
+      "zh": "因为这是新交易所、新市场的一个经典难题。你到底怎么确保外面有足够的钱来接一笔交易的对手方？"
+    },
+    {
+      "i": 77,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "18:21",
+      "en": "The liquidity is just, it's a free market. So it's an order book. Of course, whoever places an order must have the collateral necessary to back the order. But other than that, it is not really the protocol, simply mechanism by which buyers and sellers come together.",
+      "zh": "流动性就是……它是一个自由市场。所以就是一个订单簿。当然，任何下单的人都必须有支撑这笔订单所需的抵押品。但除此之外，协议本身并不提供流动性，它只是一个让买家和卖家凑到一起的机制。"
+    },
+    {
+      "i": 78,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "18:36",
+      "en": "It feels to me like to some extent the deployers like a TradeXYZ, but there are others. We keep mentioning them. There's others, the TradeParagon. There's some others I don't know all the names of. They're a little bit like an ETF issuer, right? Like in a traditional stock market, like they're a little bit like their response. ETF deployer. Yeah. But like, okay, like I'm good because some companies have like, you know, single stock ETFs, etc., they are responsible for this instrument maintaining a price to some underlying thing. In the case of ETF, there's usually a basket of conversion, et cetera. But like the thing I'm still trying to understand is like, can 10 people issue an NVIDIA perp? Like how do they get this particular slot in the thing as opposed to someone else?",
+      "zh": "在我看来，某种程度上，像 TradeXYZ 这样的部署者——不过还有别的，我们一直在提它们，还有 TradeParagon，还有一些我不知道全部名字的——他们有点像 ETF 发行方，对吧？就像在传统股票市场里，他们有点像……ETF 部署方。对。但好，就像有些公司做单只股票 ETF 等等，他们要负责让这个工具的价格跟某个标的东西保持一致。就 ETF 而言，通常有一篮子转换（basket of conversion）等等。但我还是想弄明白的是：能不能有 10 个人都发行 NVIDIA 永续合约？他们是怎么拿到这个特定的槽位（slot），而不是让别人拿到？"
+    },
+    {
+      "i": 79,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "19:28",
+      "en": "Yeah, so anyone can do it. So there's no protocol level. semantics about what the perpetual is the protocol you can view it as a kind of basket of tools and like a deployer can come and use it okay as they see fit and but you're i guess the second part of your question is like well what is kind of the mechanism by which this kind of scarce resource might yeah so that that is governed by an on-chain mechanism uh it's it's a dutch auction yeah and i guess in short it's basically it's it's a way to kind of allocate the square the scarce resource of deployment slots uh this is scarce because uh on-chain the Each order book, each kind of clearing system for a specific market takes computational resources of the network. So as the network scales, I think these resources become less scarce. But ultimately, they will always be a limiting factor of anyone that wants to deploy on the system. And the Dutch auction is a way whereby in every 31-hour interval, currently 31 is simply chosen so that the time at which the auction resets or changes time zones as it's relatively primed to the number 24. Um, but you know, approximately once a day, there's an opportunity for any deployer to deploy something. And the auction, the Dutch auction is nice because normal auctions have a few undesirable properties. The incentives are a bit odd. So you're kind of incentivized to penny the other bidders. Uh, you're, you're incentivized to withhold information and then spam it at the very end. Um, it has all these kind of like interesting, I would say suboptimal game theory properties. Dutch auctions are nice, especially in on-chain systems because they go in reverse. So the price starts at a value and it decreases linearly. And then it is kind of spam resistant because the first person who bids gets it. The price decreases in this case linearly, but I suppose it doesn't have to be linear. And it resets to twice the last clearing price. So there's a kind of natural, there's a natural correction mechanism by which it approaches the fair price. market value of the scarce resource.",
+      "zh": "对，任何人都可以做。所以在协议层面，对于'这个永续合约是什么'并没有语义规定；你可以把协议看作一篮子工具，部署者可以进来，按自己认为合适的方式使用它。好，我猜你问题的第二部分是：那么，分配这种稀缺资源的机制是什么？这是由一个链上机制来治理的，它是一个荷兰式拍卖（Dutch auction）。简单说，它基本上是一种分配'部署槽位'这种稀缺资源的方式。之所以稀缺，是因为在链上，每一个订单簿、每一个针对特定市场的清算系统，都要占用网络的计算资源。所以随着网络扩容，我觉得这些资源会变得不那么稀缺。但最终，它们对任何想在系统上部署的人来说，都会是一个限制因素。荷兰式拍卖的运作方式是：每隔 31 小时一个区间——目前选 31 只是为了让拍卖重置的时间点会换时区，因为它相对于 24 这个数算是互质的——嗯，但你知道，大约每天一次，任何部署者都有机会部署点东西。荷兰式拍卖的好处在于，普通拍卖有一些不太理想的性质：激励有点怪，你会被激励去比其他竞标者多压一点点价，你会被激励去藏住信息、然后在最后一刻狂发出去。它有这些我觉得算不上最优的、有意思的博弈论（game theory）性质。荷兰式拍卖很妙，尤其在链上系统里，因为它是反向的：价格从某个值开始，然后线性下降。而且它有点抗刷屏（spam resistant），因为第一个出价的人就拿到了。价格在这个例子中是线性下降的，但我想不一定非得线性。它重置为上一次清算价的两倍。所以有一种自然的纠偏机制，让它逼近这种稀缺资源的公允市场价值。"
+    },
+    {
+      "i": 80,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "21:39",
+      "en": "Do you get excited to see who wins those auctions? And do you have any idea of like, oh, well, they plan to do this or issue or deploy whatever if they win this auction? Or do you have an idea of like this particular deployer has come up with interesting ideas before?",
+      "zh": "你会因为想看谁赢下那些拍卖而兴奋吗？你会不会知道，哦，他们打算做这个，或者如果他们赢下拍卖就发行或部署某个东西？或者你会不会了解，某个特定的部署者以前就想出过有意思的点子？"
+    },
+    {
+      "i": 81,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "21:56",
+      "en": "I don't know. So it is a permissionless system. I actually don't personally track the auctions. I know there are tools that people have built where you can see they're pretty cool stats. This is another nice thing about on-chain systems that the data is transparent and verifiable and auditable. So anyone can build these really cool analytical tools about, oh, like these deployers, like you said, like tend to bid in these ways and they tend to use the tool in the specific way. But I personally am honestly just too busy to really look into this stuff in depth. But I do think it is very cool broadly to see what is being done, which is, taking these markets that are traditionally sort of confined in various ways and extending them, making them more broadly accessible, whether that's temporally, 24-7, whether that's sort of just giving retail or just everyone around the world a more equal access to the same financial opportunities. I'm a really big believer in that. And I think many people, whether they're building on-chain or even in traditional settings, I think many people work in finance worldwide. sort of towards the same end goal. We're really just taking different routes, but kind of all trying to make incremental progress. Ultimately, the thinking is that the financial system is there to better serve as many people on this planet as possible. And that is, I think that is, you know, many layers removed, but this sort of permissionless employment system ultimately is accomplishing that goal. Like one example here is the IPOs, especially this year, if you look at them, they're a really great example of how wealth is being created and tremendous amounts of wealth are being created, but it's being created in a way where it's gatekept. I don't think this is done intentionally. I think it's just a byproduct of how the markets work right now. But if you have trillion dollar, two trillion, three trillion dollar companies IPOing, you can pretty confidently say that most of the wealth creation has happened at that point. And so I think it is a failing or a sort of limitation of the existing system if up until that point, very few people have been able to trade these opportunities.",
+      "zh": "我不清楚。因为这是一个无需许可的系统，我个人其实并不追踪这些拍卖。我知道有人做了一些工具，你能看到一些很酷的统计数据。这是链上系统的另一个好处：数据是透明、可验证、可审计的。所以任何人都能做出这些很酷的分析工具，去发现，哦，就像你说的，这些部署者往往以这些方式出价，他们往往以特定方式使用这个工具。但说实话，我个人只是太忙了，没法真的深入研究这些东西。不过从宏观上看，看到大家在做的事情，我确实觉得很酷——就是把那些传统上以各种方式受限的市场拓展开来，让它们更可及，无论是时间上的 7×24 小时，还是仅仅给散户、给全世界每个人一个更平等地接触同样金融机会的通道。我对此深信不疑。我觉得很多人，不管是在链上还是在传统环境里构建，全世界很多金融从业者，其实都在朝同一个最终目标努力。我们只是走了不同的路线，但都在试图做渐进式的改进。归根结底，这个想法是：金融系统的存在，是为了尽可能更好地服务这个星球上尽可能多的人。我觉得这……你知道，中间隔了很多层，但这种无需许可的部署系统，最终正在实现那个目标。这里的一个例子就是 IPO，尤其是今年的 IPO，如果你去看，它们是一个很好的例子，说明财富是怎么被创造的——巨额财富正在被创造，但创造的方式是被'把门'（gatekept）的。我不觉得这是有意为之，我觉得这只是市场当前运作方式的一个副产品。但如果一家一万亿美元、两万亿、三万亿美元的公司来 IPO，你基本可以自信地说，大部分财富创造在那之前就已经发生了。所以我觉得，如果直到那个时点为止，只有极少数人能交易这些机会，那就是现有系统的一种缺陷或局限。"
+    },
+    {
+      "i": 82,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "24:01",
+      "en": "But I guess one question that I always have with this type of stuff is, OK, if you're buying shares in Anthropic or whatever, when they IPO, you're getting a claim on the company's dividend, right? Like there's going to be some Assuming they have a dividend.",
+      "zh": "但我猜我对这类东西一直有一个疑问：好，如果你在 Anthropic 之类公司 IPO 时买入它的股票，你拿到的是对公司股息的一份索取权（claim），对吧？也就是会有一些……假设它有股息的话。"
+    },
+    {
+      "i": 83,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "24:18",
+      "en": "There's going to be some.",
+      "zh": "会有一些的。"
+    },
+    {
+      "i": 84,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "24:19",
+      "en": "Free cash flow.",
+      "zh": "自由现金流（free cash flow）。"
+    },
+    {
+      "i": 85,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "24:20",
+      "en": "Right.",
+      "zh": "对。"
+    },
+    {
+      "i": 86,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "24:20",
+      "en": "There we go.",
+      "zh": "这就对了。"
+    },
+    {
+      "i": 87,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "24:21",
+      "en": "The net present value of all future cash flow. Whereas if I'm an unaccredited investor purchasing something that's tracking anthropic shares on a platform such as Hyperliquid, I'm not getting that cash flow.",
+      "zh": "所有未来现金流的净现值（net present value）。而如果我是一个非合格投资者（unaccredited investor），在 Hyperliquid 这样的平台上买一个跟踪 Anthropic 股票的东西，我就拿不到那份现金流。"
+    },
+    {
+      "i": 88,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "24:34",
+      "en": "But you're not getting the cash flow if you're trading futures on something as well, right? So I'm not saying that it's a strict improvement over the system. And I'm not saying that everyone... it doesn't actually make sense for everyone to trade these things. It's more that there are a non-zero number. There's like, I think an order of magnitude more people who benefit, who could benefit from something. And of course there's a, there's a parallel track of work, which is like, we should all be kind of working hard to educate as many people as possible so that, you know, the kind of like financial opportunity is just that it's an opportunity. I think the, you know, whether it fits someone's specific risk profile, I think is more of a question of education. But I think if the opportunity itself is completely gated off, then that's a non-starter. There's no way, no amount of education is going to get you out of that. So I think you kind of need both. And I think right now it's just, it is, there is just so much work to be done. But I think the first step is taking the system itself and making it fair and democratized.",
+      "zh": "但如果你交易的是某个东西的期货，你同样拿不到那份现金流，对吧？所以我并不是说这是对现有系统的严格改进。我也不是说每个人……其实并不是每个人都有理由去交易这些东西。更多的是说，有那么一批人——我觉得是数量级上更多的人——能从中受益。当然，还有一条并行的工作线，那就是我们都应该努力教育尽可能多的人，让这种金融机会就只是一个'机会'。我觉得它是否符合某个人的具体风险偏好，更多是个教育问题。但如果这个机会本身被完全挡在门外，那就根本没戏——再怎么教育也没法把你从那种处境里拉出来。所以我觉得两样你都需要。而现在就是，实在有太多工作要做。但我觉得第一步，是把系统本身变得公平、民主化。"
+    },
+    {
+      "i": 89,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "25:31",
+      "en": "You know, we've been talking a lot about just sort of like market structure of hyperliquid. And I do, I would like to get back to that, et cetera. But like, maybe people would be interested in a little bit about you and your background. You used to be at Hudson River Trading. You started Hyperliquid a few years ago, kind of after like the insane 2021 year that crypto had, et cetera. What were you, you're looking out into the world and it must've been kind of a, people might've thought it was a contrarian bet. Like, hey, crypto, that was just a bunch of like meme coins and stuff that was over. That was 2021, we moved on to AI. Why don't you talk to us a little bit about like, This choice. Oh, so you didn't raise any VC money? Talk to us about this choice to like pivot your career and take this big shot of building something new. And what did you see out in the financial system such that you thought there was this big missing piece that was lacking?",
+      "zh": "你知道，我们聊了很多 Hyperliquid 的市场结构（market structure）。我确实还想回到那个话题，等等。但也许大家会有兴趣了解一下你本人和你的背景。你以前在 Hudson River Trading。几年前你创办了 Hyperliquid，差不多是在加密圈疯狂的那段 2021 年之后，等等。当时你眼里的世界是怎样的？这在外人看来一定有点像逆向押注（contrarian bet）——嘿，加密，那就是一堆 meme 币之类的东西，已经过去了，那是 2021 年，我们已经转向 AI 了。你不如跟我们聊聊这个选择。哦，所以你没融任何 VC 的钱？跟我们说说你转型职业、下这一大注去构建新东西的这个选择。你在金融系统里看到了什么，让你觉得有一大块缺失的东西是市场缺的？"
+    },
+    {
+      "i": 90,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "26:25",
+      "en": "To your first point, Hudson River Trading, I worked there right out of college. Had an amazing experience and only positive things to say about them. They're obviously a wildly successful company, but when I was there, it felt like, You didn't, you didn't feel that day to day. Like it felt a lot like a startup, like a tech startup. And I think, I think they worked hard to kind of have that culture. And so, you know, learned a lot about markets and met great people. The idea with building an on-chain in, in 2023, the, the vision was a bit more laser focused and narrow. It was to build something on chain that people actually need. And when we look like that, when we looked around and, you know, just looked at what people were doing in the world and like, where could on-chain technology really improve things. You know, we didn't, we actually didn't see it as, oh, like crypto is only about meme coins, whatever, right? Like there are these exchanges that were offering perpetual futures in a centralized context and they were very clearly offering something that users benefited from and wanted. And there was amazing product market fit. And I think now you see this in traditional contexts where I think perps have kind of like crossed that threshold of acceptance, which is really cool. But even 2023, there were many venues in crypto offering these, but they were all doing it in a centralized manner. And so it was very clear to us, at least, that there was an opportunity to bridge the gap between the user experience and product experience on the one hand of a centralized perpetuals venue and the on-chain technology and the properties such as self-custodianship of your own capital, which is very important. I think the kind of counterparty risk of using an exchange is always going to be there, whether it's in a crypto or non-crypto context. And so if you could have your cake and eat it with those two properties, the idea was that this would be something that would be a step function improvement over what people had access to at that point.",
+      "zh": "先说你的第一点，Hudson River Trading，我一毕业就在那儿工作。体验非常棒，对他们只有正面的评价。他们显然是一家极其成功的公司，但我在那儿的时候，感觉是……你日常并不会感觉到那种成功。它很像一个初创公司，像一个科技初创公司。我觉得他们是努力去营造那种文化的。所以我学到了很多关于市场的知识，也结识了很棒的人。2023 年做链上这个东西的想法，那时的愿景要更聚焦、更狭窄一些：就是要在链上构建一个人们真正需要的东西。当我们那样去看，环顾四周，看大家都在世界上做什么，链上技术到底能在哪儿真正改善现状——我们其实并不觉得'哦，加密就是些 meme 币之类的'，对吧？当时有一些交易所在中心化的环境里提供永续期货，它们明显在提供一种用户受益、也想要的东西，产品市场契合度（product market fit）非常好。我觉得现在你在传统环境里也能看到这一点，永续合约已经跨过了那个被接受的门槛，这真的很酷。但即便在 2023 年，加密圈里已经有很多场所在提供这些了，只是它们全都以中心化的方式在做。所以至少对我们来说很清楚：这里有一个机会，去弥合一方面的中心化永续合约场所的用户体验和产品体验，与另一方面链上技术及其属性（比如对自己资金的自托管（self-custodianship），这非常重要）之间的鸿沟。我觉得使用交易所的对手方风险（counterparty risk）永远都会存在，不管是在加密还是非加密的环境里。所以如果你能鱼与熊掌兼得，同时拥有这两种属性，那么想法就是：这会是一个相对于人们当时能用到的东西的阶跃式提升。"
+    },
+    {
+      "i": 91,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "28:42",
+      "en": "How serious are you when you say you want to house all of finance? And what are you looking at next other than perps? Can we go old school and have physically settled commodities futures or something?",
+      "zh": "你说想承载整个金融业，这话有多认真？除了永续合约，你们下一步在看什么？我们能不能老派一点，搞实物交割的大宗商品期货之类的？"
+    },
+    {
+      "i": 92,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "28:52",
+      "en": "Is that possible for you?",
+      "zh": "这对你们来说可能吗？"
+    },
+    {
+      "i": 93,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "28:54",
+      "en": "I think we're very serious about the idea. Of course, it is aspirational. I think even 90% of all of finance would be a huge success and we're a long ways away. I think physical settlement is... Well, one is it's always going to have a very important place in society. I think this is kind of like a misconception about perps and honestly, just about our general vision. Like we're not trying to displace anything. In fact, I think the technology can benefit everyone who currently operates markets in a kind of a more traditional setting. And whether these markets are perpetual markets or settled dated futures, is irrelevant because ultimately you what you really need is an order book clearing system and you know global distribution concentration of liquidity all these properties kind of doesn't really matter what the underlying is and i personally am not very opinionated about you know what ought to exist i think the system to house all the finance should be a collection of tools we call these things primitives because i think they're kind of it evokes a lot more kind of interesting so you know how these things can compose with each other but anyway tools effectively tools for people to do what they need.",
+      "zh": "我觉得我们对这个想法非常认真。当然，它是一个愿景。我觉得哪怕承载全部金融业的 90%，都将是巨大的成功，而我们还差得很远。我觉得实物交割嘛……首先，它在社会中永远会有一个非常重要的位置。我觉得这是对永续合约、说实话也是对我们整体愿景的一种误解：我们并不是想取代什么。事实上，我觉得这项技术能惠及目前所有在比较传统的环境里运营市场的人。而这些市场是永续市场还是有到期日的交割期货，都无关紧要，因为你最终真正需要的，是一个订单簿加清算系统，以及全球分布、流动性集中这些属性——这些跟标的是什么其实关系不大。我个人对'什么应该存在'并不特别固执己见。我觉得那个承载全部金融业的系统，应该是一套工具的集合。我们把这些东西叫做原语（primitives），因为我觉得这个词能唤起更多有意思的联想，让你明白这些东西是怎么彼此组合的。总之，就是工具——实实在在让人们去做他们需要做的事的工具。"
+    },
+    {
+      "i": 94,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "30:13",
+      "en": "To do it's funny there's no hyper liquid uh wikipedia page really yeah i look because i was trying to see and uh it was or maybe there was and it was deleted and one of the moderators said typical crypto spam very doubtful this is a The page was deleted, but if you guys house 90% of finance one day.",
+      "zh": "有意思的是，Hyperliquid 真的没有一个 Wikipedia 页面。是的，我去查了，因为我想看看，结果……要么是没有，要么是曾经有但被删了，其中一个版主说'典型的加密垃圾内容，很怀疑这够得上收录标准'。页面被删了。但如果哪天你们承载了 90% 的金融业……"
+    },
+    {
+      "i": 95,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "30:33",
+      "en": "That sounds like my bio, which got deleted because I was a journalist of little notability.",
+      "zh": "这听起来跟我的个人简介一样，我那个也被删了，理由是我是一个'无足轻重'的记者。"
+    },
+    {
+      "i": 96,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "30:40",
+      "en": "You've got to stay humble.",
+      "zh": "你得保持谦逊。"
+    },
+    {
+      "i": 97,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "30:41",
+      "en": "I'm not going to call this person out by name, but this moderator is going to feel pretty dumb one day if you guys host 90% to 100% of finance. And he's like, very doubtful this is a notable time. Anyway, we'll be revisiting this page in the future. So you decide to build it. And you coded yourself. And this was when coding was still hard because now anyone can code. Can you talk a little bit about like what that was like, like building an exchange at your computer and like how that all worked, how long that took?",
+      "zh": "我不点名这位了，但如果哪天你们承载了 90% 到 100% 的金融业，这位版主会觉得挺蠢的。他还说什么'很怀疑这够得上收录标准'。总之，将来我们会回头再看这个页面的。所以你决定自己来建。而且是你自己写代码。那还是在写代码仍然很难的时候，因为现在谁都能写代码了。你能不能讲讲那是什么体验——在自己电脑上建一个交易所，这一切是怎么运作的，花了多长时间？"
+    },
+    {
+      "i": 98,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "31:11",
+      "en": "Well, we don't view it as building an exchange. It's really building kind of like a network. Yeah, so the important thing here was that we kind of looked around and tried to find something existing at that moment in time that could effectively, with an incremental improvement, How is all of finance? And the conclusion, unfortunately, was that there were many technological gaps. And it's a bit like probably if you were building consumer tech, something like that, in the early 2000s, maybe you realize, you kind of go down this rabbit hole of like, oh, wait, no, we got to do, oh, we got to buy computers. Like, oh, maybe the internet doesn't actually work that well. Like, maybe we should kind of work on some networking things. And this is where kind of the vision of, you know, like an AWS kind of analogy comes did come up i really think that the thought process and realizations and ultimate generalization of the infrastructure probably has some parallels between these two stories albeit of course hyperliquid at a much earlier stage in a smaller scale but that was effectively the the realization like okay i guess this thing is a lot bigger of a project to do it well it's a very big project and maybe a bit of just blind optimism or i think the fact that It was hard, was almost more inspiring to me. Like it felt, made it seem more worth doing. And it felt more like, well, if, if we don't at least give it a shot, like who will? And so, yeah, it kind of involved digging down way deep into the consensus layer of like, just how do these different nodes talk to each other? Questioning all of the assumptions about how networks were built at that time to kind of come up with a solution that ultimately can house all the finance. Because I think if you look around at even blockchains today, They're very admirable and they all have their own selling points, but I don't think any of them other than Hyperliquid has this precise vision of a global financial system can actually just have one global state.",
+      "zh": "嗯，我们并不把它看作建一个交易所，而更像是建一个网络。是的，所以这里重要的地方在于，我们环顾四周，试图找到某个在当时已经存在的东西，只要做一个渐进式改进，就能承载全部金融业。不幸的是，结论是：存在很多技术上的缺口。这有点像，如果你在 2000 年代初做消费科技之类的东西，也许你会意识到，你会掉进这个兔子洞：哦，等等，不行，我们得……哦，我们得买电脑；哦，也许互联网其实没那么好用；也许我们该去搞一些网络方面的东西。这就是那种类似 AWS 的类比会出现的地方。我真的觉得，这个思考过程、这些领悟，以及基础设施最终的通用化，这两个故事之间大概有一些平行之处——尽管 Hyperliquid 当然处在一个更早、规模更小的阶段。但这实际上就是那个领悟：好，我猜这件事要做好，是一个大得多的项目，是个非常大的项目。也许带着一点盲目的乐观，或者我觉得，'它很难'这件事，反而更让我受鼓舞。它让这件事显得更值得去做，更像是——嗯，如果我们都不至少试一试，那谁还会试？所以，是的，这需要深深钻研到共识层（consensus layer）：这些不同的节点到底是怎么彼此通信的？去质疑当时关于网络如何构建的所有假设，从而拿出一个最终能承载全部金融业的解决方案。因为我觉得，就算你看今天的那些区块链，它们都很令人敬佩，各有各的卖点，但我不觉得除了 Hyperliquid 之外，还有哪个有这样一个精确的愿景：一个全球金融系统其实可以只拥有一个全局状态。"
+    },
+    {
+      "i": 99,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "33:11",
+      "en": "You know, you mentioned computational resources as a constraint on not listings, deployments earlier, deployment auctions. What's been the evolution, I guess, of like your data needs? I'm really curious how big you guys are now. Are you running like 18 data centers that are all the size of three footballs or whatever cliche people like to use now? What's your token spend like now? And how much of a constraint is this really?",
+      "zh": "你知道，你前面提到计算资源是上市、部署、部署拍卖的一个约束。你们的数据需求大概经历了怎样的演变？我真的很好奇你们现在有多大。你们是不是在运营 18 个数据中心，每个都有三个足球场那么大，或者随便大家现在爱用的那种陈词滥调？你们现在的代币开销是多少？这到底是个多大的约束？"
+    },
+    {
+      "i": 100,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "33:40",
+      "en": "Yeah, that's a good question. It's, I think this is also a misconception about a few there. Um, the, first of all, like we actually don't run these things. Um, The foundation runs some validators, but ultimately it's currently the set of validators is 30 something and the top 27 of them by stake at any moment in time operate the network. The specifications for running a node are actually very minimal, which I think is quite cool and counterintuitive. Like I remember a validator at some point, I think tweeted something and was like, wow, my mind is blown. I just realized that on this machine, this like very, this kind of humble rudimentary machine that anyone can procure. There's no three-year line or exclusive contract needed with NVIDIA or anything like that. Like anyone can procure one of these. It's basically consumer hardware. You can run the global financial system on it. Of course, you know, not there yet, but that is the vision of like, it doesn't matter how many things are built. The network should not be prohibitively expensive to operate. That being said, you can't run it on your cell phone. So there is like some sort of trade-off here. I think a reasonable approach to take here is like, It should not be, like you said, data centers the size of football stadiums to run this thing. Like right now you need 128 gigs of RAM. Like that's not, you know, that's not like the cheapest laptop you can buy anywhere, but also you can buy a laptop with that spec. So yeah, that's kind of the sweet spot, I think.",
+      "zh": "嗯，好问题。我觉得这里也有一些误解。首先，这些东西其实不是我们来运营的。基金会（foundation）运营一部分验证者，但最终，目前验证者集合大概有三十多个，其中按质押排名前 27 的验证者在任何时刻运营着这个网络。运行一个节点的配置要求其实非常低，我觉得这挺酷、也挺反直觉的。我记得有个验证者某次发推说，哇，我震惊了，我刚意识到，就在这台机器上——这台非常朴素、基础、任何人都能买到的机器上——不需要跟 NVIDIA 签什么三年排队或者独家合同之类的，任何人都能买到一台这样的机器，它基本上就是消费级硬件——你居然能在上面运行全球金融系统。当然，还没到那一步，但这就是那个愿景：不管上面建了多少东西，运营这个网络都不应该贵得离谱。话虽如此，你没法在手机上运行它。所以这里存在某种权衡。我觉得一个合理的取向是：运行这东西不应该像你说的那样，需要足球场那么大的数据中心。比如现在你需要 128 GB 的内存（RAM）。这可不是你在哪儿都能买到的最便宜的笔记本，但你也确实能买到这个配置的笔记本。所以是的，我觉得这大概就是个甜蜜点（sweet spot）。"
+    },
+    {
+      "i": 101,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "35:10",
+      "en": "So you have this vision, maybe get to 100% or swallow all the finance, which pretty cool. Very ambitious. Hyperliquid itself, you don't do a lot of media, which is why we're thrilled to have you on. I believe you have a completely pseudonymous co-founder. There is not much known about your team in general.",
+      "zh": "所以你有这个愿景，也许做到 100%、吞下全部金融业，这挺酷的，非常有野心。Hyperliquid 本身，你们不太做媒体，所以我们特别高兴能请你来。我记得你有一位完全化名（pseudonymous）的联合创始人。总体上，外界对你们团队了解不多。"
+    },
+    {
+      "i": 102,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "35:33",
+      "en": "People know more about the mascot than the team members.",
+      "zh": "大家对那个吉祥物的了解，都比对团队成员的了解多。"
+    },
+    {
+      "i": 103,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "35:36",
+      "en": "I think people don't know if there's a specific address or whatever that they could call. Do you envision eventually that changing? Do you think there is going to be a demand for like, look, we're running a lot of the financial system through this platform. We sort of want to know the people who are running this, or do you envision it where it's like kind of like this sort of supreme neutrality? Like we don't know who's running the internet. We don't know who is running Bitcoin. Do you see, or do you see it that way where eventually like you and your team truly can like fade out and it's just a protocol like TCP IP is?",
+      "zh": "我觉得大家不知道有没有某个具体的地址之类的可以去找。你觉得这种情况最终会改变吗？你觉得会不会出现这样的需求——'看，我们正把大量金融系统跑在这个平台上，我们想知道运营它的人是谁'？还是说你会设想成一种极致的中立性——就像我们不知道谁在运营互联网，我们不知道谁在运营 Bitcoin。你是这么看的吗？最终你和你的团队真的可以淡出，它就只是一个像 TCP/IP 那样的协议？"
+    },
+    {
+      "i": 104,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "36:13",
+      "en": "Well, the team, I actually view the team as much bigger than labs. So who runs the thing? Well, it's really, it's really a collection, a constellation of different teams. So we mentioned per earlier, right? The NASDAQ traded ETF or digital asset treasury company. They're part of the team, right? They're, they're the team going to investors and explaining what this technology is.",
+      "zh": "嗯，说到团队，我其实把'团队'看得比 Labs 大得多。那么谁在运营这个东西？其实它是一组、一个由不同团队构成的星群。我们前面提到过，对吧？那个在 NASDAQ 交易的 ETF，或者数字资产财库公司（digital asset treasury company）。他们是团队的一部分，对吧？他们是去见投资者、解释这项技术是什么的那部分团队。"
+    },
+    {
+      "i": 105,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "36:37",
+      "en": "Right.",
+      "zh": "对。"
+    },
+    {
+      "i": 106,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "36:37",
+      "en": "And they're, you know, Dave is very well known. And, um, so I don't, I think this is, this is kind of like a miscategorization of, uh, who, runs the thing. Because like you said, who deploys a market? It's the deployer. Well, the deployers, there are many of them and there will continue to be more. And I think, you know, Kraken announced earlier.",
+      "zh": "而且，你知道，Dave 是非常知名的。所以我不……我觉得这是对'谁在运营这个东西'的一种类别误判。因为就像你说的，谁部署一个市场？是部署者。而部署者有很多，以后还会更多。我记得 Kraken 前面就宣布过。"
+    },
+    {
+      "i": 107,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "36:55",
+      "en": "You, for example, set the rules for each. So HIP3, you set the rules. You set the 31 hours. You set the thing about 500,000 hype tokens to be. You are a governing entity.",
+      "zh": "但比如说，是你们为每一个设定规则。HIP3，是你们定的规则。是你们定的 31 小时。是你们定的那 50 万枚 HYPE 代币的要求。你们是一个治理实体（governing entity）。"
+    },
+    {
+      "i": 108,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "37:08",
+      "en": "Well, this is no different from the Ethereum blockchain where the developers of the chain.",
+      "zh": "嗯，这跟 Ethereum 区块链没什么不同，那条链的开发者……"
+    },
+    {
+      "i": 109,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "37:11",
+      "en": "Yeah, but they don't have 90% of the world's finance either. Like what I'm saying is if you want to get, like, if the world is going to eventually have all finance beyond this chain, like, yeah, it is, like, the Ethereum blockchain, they've, like, gone sideways for several years. If the world is going to, like, be on this thing, do you think people are going to expect to want to be able to know more about the.",
+      "zh": "对，但他们也没有全世界 90% 的金融业。我想说的是，如果你们想做到，如果世界最终要把全部金融业放到这条链上——是啊，它就是 Ethereum 区块链，他们已经横着发展好几年了。如果世界要放到这个东西上，你觉得人们会不会期望、想要更多地了解……"
+    },
+    {
+      "i": 110,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "37:32",
+      "en": "People governing this platform? I guess what I wanted to say there was that the Ethereum blockchain is a, you know, it's a kind of collection of developers taking community feedback, but ultimately to you know, it has to be kind of written by developers, right? Like, unfortunately, maybe you're right. Like maybe at some point, software will no longer require developers to kind of oversee the conversion of thought and ideas, which is a very democratic process into code. Like maybe there will be no human intermediary of that process in the future, but for now there is. And so there's this kind of like role that developers play, but I would not say that the core ideas behind network are kind of owned by the developers. I would say it's kind of a, It's a manifestation of what a system should be. It should be fair. It should be transparent and like it should have, it's just support these kinds of, um, these tools.",
+      "zh": "……治理这个平台的人？我刚才想说的是，Ethereum 区块链是一群开发者在吸纳社区反馈，但归根结底，它得由开发者来写，对吧？很遗憾，也许你说得对：也许到某个时候，软件将不再需要开发者去监督把思想和想法——这是一个非常民主的过程——转化成代码。也许未来这个过程将没有人类中介，但现在是有的。所以开发者扮演着这样一种角色，但我不会说这个网络背后的核心理念归开发者所有。我会说，它是一种'系统应该是什么样'的体现：它应该公平，应该透明，应该支持这些工具。"
+    },
+    {
+      "i": 111,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "38:23",
+      "en": "Maybe a slightly different way of asking this question is like, okay, so with hip three, a builder can deploy a market and they set the Oracle for pricing and they set the leverage limits and settlement or whatever. And I trust the builder to do all of that. And it's all laid out very clearly and transparently. What exactly am I trusting Hyperliquid to do in that scenario? What is the provision that Hyperliquid is doing for me? And what am I trusting you will do?",
+      "zh": "也许换个稍微不同的问法：好，有了 HIP3，一个构建者可以部署一个市场，他们设定用于定价的预言机，设定杠杆上限、结算方式之类的。我信任这个构建者去做这一切，而且这一切都被非常清晰、透明地摆出来了。那么在这种情形下，我到底在信任 Hyperliquid 做什么？Hyperliquid 为我提供的到底是什么？我又在信任你们会做什么？"
+    },
+    {
+      "i": 112,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "38:58",
+      "en": "Well, if the question is for Hyperliquid Labs, then I think the trust assumption is that it really isn't the output of the The kind of like node software that exists. Right. And so there would be an assumption that it works. It kind of like adheres to the specification. And I think this is kind of true of any blockchain. Right. Like Ethereum has a specification. It has multiple client implementations. When you run a node, you pick an implementation and you run it. And I suppose you are trustee. that that implementation or you can read it, but you're generally trusting this very complex, you know, I want to say like millions of lines of code ultimately adhere to the rules of the blockchain. But like you said, all of the kind of quote unquote running of markets is done by a combination of the deployer specifying the specifications of the contract and publishing this Oracle price, which is a tether to some real world thing. And then the kind of technology itself is sort of a reflection of the deployer's intention. And when a user, I don't think there is an inherent trust going the other way from the protocol to the deployer because really users who use the a deployer's market trade, a deployer's markets, that's where the, trust is right like if you're trusting a contract to track the price of gold then the you are trusting implicitly that the deployer is pushing something that represents what they said it would do.",
+      "zh": "嗯，如果这个问题是针对 Hyperliquid Labs 的，那我觉得这里的信任假设，其实并不是针对现有那个节点软件的输出。对吧。所以会有一个假设，就是它能正常运作，它遵循规格说明。我觉得这对任何区块链都成立。对吧。比如 Ethereum 有一份规格说明，它有多个客户端实现（client implementations）。你运行一个节点时，会挑一个实现来跑。我想你是在信任那个实现——或者你可以去读它的代码，但你总体上是在信任这个非常复杂的、我想说有数百万行代码的东西，最终会遵循区块链的规则。但就像你说的，所有那种所谓'运营市场'的事，都是由部署者指定合约规格、并发布这个预言机价格（它是对某个真实世界事物的锚定）共同完成的。然后技术本身在某种程度上是部署者意图的一种反映。而对一个用户来说，我不觉得存在一种从协议指向部署者的、内在的反向信任，因为真正是那些使用某个部署者市场、交易某个部署者市场的用户——信任就在那里。对吧，就像如果你信任一个合约去跟踪黄金价格，那你就是在默默地信任这个部署者推送的东西，确实代表了他们所说它会做的事。"
+    },
+    {
+      "i": 113,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "40:50",
+      "en": "I don't know if this is like a great analogy or not, but, you know, like with the rise of ETFs and passive investing, there's all these questions about like, well, how far can that go? Don't we need some people like trade the underlying thing? Right. And I'm curious if like there's some sort of analogy with the concept of like oracles and how much like, you know, for example, several years ago, there was an incident with a Solana based thing called Mango Markets. where someone was accused of, it was something, I forget the token, but the size of the PERP trading relative to the underlying token, it got so extreme that it was very easy to manipulate the underlying price that transmitted through the Oracle, and then you'd make a lot of money because then the thing moves price. What are the constraints on how volume of PERPs relative to the underlying trading, and does that create a constraint for hyperlinked. There was also an incident, I think earlier this year, like there was a bad quote from Hynex and the Oracle price deviated very dramatically, causing some losses. But like, talk about the Oracle constraint.",
+      "zh": "我不知道这是不是个恰当的类比，但你知道，随着 ETF 和被动投资（passive investing）的兴起，有各种各样的问题，比如：那能走多远？我们难道不需要有一些人去交易标的本身吗？对吧。我很好奇，这跟预言机的概念是不是有某种类比，以及多大程度上……比如，几年前，有一个基于 Solana 的东西叫 Mango Markets 出过一起事件，有人被指控……是某个代币，我忘了是哪个，但永续合约的交易量相对于标的代币大到了极端的地步，以至于操纵那个通过预言机传导的标的价格变得非常容易，然后你就能赚一大笔钱，因为那个东西的价格会随之变动。永续合约的交易量相对于标的交易，有哪些约束？这会不会给 Hyperliquid 带来约束？我记得今年早些时候还有一起事件，Hynix 出了一个错误报价，预言机价格剧烈偏离，造成了一些亏损。你谈谈这个预言机约束吧。"
+    },
+    {
+      "i": 114,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "42:00",
+      "en": "Yeah, so I'll take those in reverse order. The Hynex thing, this is, you know, TradeXYZ, I think published a very detailed postmortem. So I'm just quoting here, but that falls in the category of implementation issue. Like their, you know, their system kind of worked as intended, but their system perhaps was not intuitive. And I think they indeed found it was not intuitive. I think there was, there were refunds and ultimately they sorted it out. And I think these things happen, but this is kind of, this is not unique to hyperliquid nor trade XYZ, nor even blockchain. This is just a software property that, you know, Apple ships operating systems with bugs and they patch it. So the first question I think is interesting. I think a priori, you might assume that the volume ratio needs, it's kind of capped. Like maybe you would say, oh, if there's more volume in purpose, then it doesn't work because the underlying trades less. But I don't actually think that's true. I think you can, I think it's healthy. And if you look at, for example, you know, futures tracking the S & P 500 versus the underlying components or even ETFs, right? Like there is a big volume differential there. I think the important thing is that the underlying can, needs to have smart people, smart people with the ability to provide liquidity into, price moves that do not reflect the underlying value of the thing. And so this is where the market design, the mechanism is really important. But you can imagine in a world where it is just perfect information about the underlying companies and someone trades a bunch of the perps because there's a lot more volume going on there or the futures, right? For the S & P 500. And then the underlying is traded very thinly and then the price moves 1%. Well, the fact that it's traded thinly does not really matter. What matters is someone needs to be like, that 1% move is not correct. Whatever size you want, I'm here to trade against you. And I think they are very, like, if you look at the S & P 500, I'm very confident that there are market makers who would happily trade at far less of a dislocation. And so you get this effect where the price discovery can happen on a derivative, and the underlying can still be, you know, a reflection of some, you know, some real value in the world.",
+      "zh": "嗯，我按相反的顺序来回答。Hynix 那件事，你知道，TradeXYZ 我觉得发布了一份非常详细的事后复盘（postmortem）。我这里只是引用一下，那属于'实现问题'这一类。就是说，他们的系统基本按预期运作了，但他们的系统也许不够直观，我觉得他们确实发现它不够直观。我记得有退款，最终他们把问题解决了。我觉得这类事情会发生，但这并非 Hyperliquid、TradeXYZ 甚至区块链所独有。这就是软件的一个属性罢了——你知道，Apple 发布的操作系统也带 bug，然后他们打补丁。所以第一个问题我觉得很有意思。我想，先验地（a priori），你可能会假设这个交易量比率需要有个上限。比如你可能会说，哦，如果永续合约的交易量更大，那它就行不通了，因为标的交易得更少。但我其实不认为这是真的。我觉得可以，我觉得这是健康的。如果你去看，比如说跟踪 S&P 500 的期货相对于其成分股、甚至 ETF，对吧？那里的交易量差异是很大的。我觉得重要的是，标的需要有一些聪明人，一些有能力为那些并不反映事物内在价值的价格波动提供流动性的人。所以这里市场设计、机制就真的很重要。但你可以想象一个世界，那里对标的公司有完美的信息，有人因为那儿交易量大得多而大量交易永续合约，或者对 S&P 500 来说交易期货，对吧？然后标的交易得非常清淡，价格动了 1%。嗯，交易清淡这个事实其实并不重要。重要的是，得有人说：那 1% 的波动是不对的，不管你想要多大规模，我都在这儿跟你做对手方。我觉得他们非常……如果你看 S&P 500，我非常有信心，存在一些做市商（market makers），他们会乐意在远小于这种错位的情况下就出手交易。于是你就得到这样一个效果：价格发现（price discovery）可以发生在一个衍生品上，而标的依然可以是，你知道，对世界上某种真实价值的一种反映。"
+    },
+    {
+      "i": 115,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "44:04",
+      "en": "Can deployers ever get rejected for having an oracle that you know, you just think wouldn't work because the underlying isn't liquid enough or like it's too hard to trace a price or something like that?",
+      "zh": "部署者会不会因为搞了一个你觉得行不通的预言机而被拒绝？比如说标的不够流动，或者价格太难追踪之类的？"
+    },
+    {
+      "i": 116,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "44:16",
+      "en": "The protocol does not even understand what that means. There's kind of like no semantic encoding in the protocol. What the protocol does know about is, well, if the, for example, there's a constraint at the protocol level where between two Oracle price updates, the relative difference between those two prices cannot be more than 1%. But this is like a hard enforced rule. And in fact, when you try to push an oracle price that's say 2% away, what happens is the protocol clamps it to be 1% away so that then you can push it again. It's actually relatively user-friendly. But this constraint you might think is important because given the sort of like set of leverage in the system, if you move it too quickly, then perhaps the system cannot mutate its state machine in an orderly way. But if you break it down into a composition of something that's more like a continuous price movement, then it's fine. So these kinds of like mathematical constraints, the protocol very much has a lot of intentionality sort of design mechanism, design around, but whether it's like, well, like this thing doesn't make sense. I just don't think that question can be answered.",
+      "zh": "协议根本不理解那是什么意思。协议里几乎没有语义编码（semantic encoding）。协议所知道的，是像这样：比如说，在协议层面有一个约束，两次预言机价格更新之间，这两个价格的相对差异不能超过 1%。这是一条硬性执行的规则。事实上，当你试图推送一个偏离比如说 2% 的预言机价格时，会发生的是，协议会把它钳制（clamp）到偏离 1%，这样你就可以再推一次。它其实相对用户友好。但你可能觉得这个约束很重要，因为鉴于系统里设定的那套杠杆，如果你价格动得太快，系统也许就无法有序地变更它的状态机（state machine）。但如果你把它拆解成一系列更接近连续价格变动的组合，那就没问题。所以这类数学约束，协议确实围绕它做了很多有意图的机制设计。但至于'哦，这个东西讲不通'这种判断——我不觉得这个问题能被回答。"
+    },
+    {
+      "i": 117,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "45:12",
+      "en": "It can't do subjective liquidity judgments.",
+      "zh": "它没法做主观的流动性判断。"
+    },
+    {
+      "i": 118,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "45:15",
+      "en": "It's the same way that like, if you have, if you're running a traditional exchange, futures exchange, and you have a, some vendor that provides the order book software, like that vendor surely does not, cannot know whether you are using, the order book represents something appropriate. They say, well, here's the thing, here's the technology. Like it allows people to place buy orders and sell orders. You can specify a price and a size and like, this is how it works.",
+      "zh": "这就好比，如果你在运营一个传统交易所、期货交易所，你有某个提供订单簿软件的供应商，那这个供应商显然不知道、也无从知道，你用的这个订单簿代表的是不是一个合适的东西。他们只会说：好，东西在这儿，技术在这儿。它让人们能下买单和卖单，你可以指定价格和数量，它就是这么运作的。"
+    },
+    {
+      "i": 119,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "45:35",
+      "en": "So we mentioned at the beginning, Hyperliquid, not a household name yet, but it is getting there. And it did get some attention this spring after the war in Iran broke out because here is a venue that had 24-7 WTI and Brent futures trading out. And so people are sickos and they want to know, or maybe they're not sickos. They really want, you know, unfortunately, the nature of war is it doesn't, you know, it's like all the time people want to see, OK, what's happening now. with the price of Brent at 1am on a Sunday morning, et cetera. Where's the price coming from? There's no Oracle, right? That's like transmitting. There's no actual live spot cash trading or anything. So talk to us about like what's happening at 1am on a Sunday, such that there is a price of a WTI perk.",
+      "zh": "我们开头提到过，Hyperliquid 还不算家喻户晓，但正在往那走。今年春天伊朗战争爆发后，它确实获得了一些关注，因为这是一个 7×24 小时交易 WTI 和 Brent 期货的场所。所以人们是'疯子'，他们想知道——或者他们不是疯子——他们真的很想……你知道，遗憾的是，战争的性质就是它不分时间，人们随时都想看：好，现在是什么情况。周日凌晨 1 点 Brent 的价格是多少，等等。这个价格是从哪儿来的？没有预言机，对吧？在那儿传导。也没有真正的实时现货现金交易之类的。所以你跟我们讲讲，周日凌晨 1 点到底发生了什么，才有一个 WTI 永续合约的价格。"
+    },
+    {
+      "i": 120,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "46:21",
+      "en": "Yeah. So this is up to the deployer, kind of like the previous question, the kind of semantics of what it means is a bit, it's kind of like up to the deployer to define. This is part of the specification of the contract, not in the protocol, but I do think an interesting thing to point out here is that the fact that perpetuals by and large today have an oracle source that is based on an underlying price 24-7 is interesting, but it's not necessary. You could actually have funding. So the mechanism of funding is basically is to kind of make the derivative trading no matter, sort of like over time converge to whatever the underlying price is. You can get that effect with periods of free-floating derivative trading. price and then periods of funding payments based on the discrepancy between the derivative and the underlying. Like if you work out the math for funding, you can relax that constraint and just, I think it will converge slower if there are periods with less funding, but I think the mechanism itself still accomplishes the goal.",
+      "zh": "嗯。这个由部署者决定，就像上一个问题一样，它到底意味着什么的语义，某种程度上是由部署者来定义的。这是合约规格的一部分，而不在协议里。但我确实觉得这里有一点值得指出：如今的永续合约大体上都有一个基于标的价格、7×24 小时的预言机来源，这很有意思，但并不是必需的。你其实可以有资金费率（funding）。资金费率的机制，基本上就是让衍生品交易价格随时间收敛到标的价格，不管中间怎么波动。你可以通过一段时间的衍生品自由浮动价格，再加上一段时间基于衍生品与标的之间差异的资金费率支付，来达到那个效果。就像如果你把资金费率的数学算清楚，你可以放松那个约束——我觉得如果有一些时间段资金费率更少，它会收敛得更慢，但我觉得这个机制本身仍然能达成目标。"
+    },
+    {
+      "i": 121,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "47:17",
+      "en": "Do you have any institutional traders on.",
+      "zh": "你们平台上有没有机构投资者在……"
+    },
+    {
+      "i": 122,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "47:21",
+      "en": "The platform now? I think many of the larger traders are institutions. It just requires significant sophistication to for example, market make in any setting.",
+      "zh": "……交易？我觉得很多较大的交易者都是机构。要在任何环境里比如做市，就是需要相当高的专业度。"
+    },
+    {
+      "i": 123,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "47:31",
+      "en": "So you're thinking, okay, look, you're here in the U.S. and you want to get a lot more finance. So presumably at some point, if that's going to happen, there are a lot of, quote, legacy institutions that may be interested in figuring out how their business can work on with hyperliquid beyond just the sort of trading shops, which are probably active. Like, can you talk about, like, what is the sort of like the volume today of Who do you see in five years? Could you see the VanEcks of the world or the Roundhills or the State Streets becoming deployers, issuing stuff? Like when you think about where Hyperliquid could become, could you imagine some of these household names like slotting into some of the part of the ecosystem here?",
+      "zh": "所以你在想，好，听着，你们身在美国，想拿到多得多的金融业份额。那么想必到某个时候，如果这要实现的话，有很多所谓'传统机构'（legacy institutions）可能会有兴趣去搞清楚，他们的业务怎么才能跟 Hyperliquid 一起运作，而不只是那些可能已经很活跃的交易公司。你能不能谈谈，今天的交易量大概是怎样的？五年后你会看到谁？你能想象世界上那些 VanEck、Roundhill、State Street 变成部署者、发行东西吗？当你想到 Hyperliquid 可能变成什么样子，你能想象其中一些家喻户晓的名字，嵌入到这个生态系统的某个部分吗？"
+    },
+    {
+      "i": 124,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "48:15",
+      "en": "Yeah, I think I would push back on them being quote unquote legacy. I think that's very much not the vision of Hyperliquid, at least not how we are sort of seeing an ideal future, you know, legacy implies that they will be disrupted, right? Or displaced. And I think the, the vision here is that, you know, the institutions you mentioned have great relationships with a bunch of their users, right? Like the users want to use them. They trust the brand and they provide a valuable service. I don't think any of that should change, but, but I think to your latter point, I think they should, it's in their interest to adopt new technology that improves their offering. There's a bit of like, The analogy here with the cloud in AWS, I don't know if back then when AWS first came out and went around telling people, this is a great technology, why don't you consider using the cloud? I don't know if the companies were like, wait, no, we built our own servers. Are you trying to disrupt us? I think there could have been that pushback, right? But then now, if you you know, fast forward to today.",
+      "zh": "嗯，我想对'所谓传统机构'这个说法提出一点反驳。我觉得那非常不符合 Hyperliquid 的愿景，至少不是我们眼中理想未来的样子。你知道，'传统'（legacy）暗示它们会被颠覆，对吧？或者被取代。而我觉得这里的愿景是：你提到的那些机构，跟它们的一大批用户有着很好的关系，对吧？用户想用它们，信任这个品牌，它们也提供了有价值的服务。我不觉得这些应该改变。但就你后面那点而言，我觉得它们应该——采用能改进自身产品的新技术，符合它们的利益。这里跟云计算和 AWS 有点类比：我不知道当年 AWS 刚出来、四处跟人说'这是项很棒的技术，你们要不要考虑用云'的时候，那些公司会不会说'等等，不行，我们自己建了服务器，你是想颠覆我们吗？'我觉得当时可能会有那种抵触，对吧？但现在，如果你快进到今天……"
+    },
+    {
+      "i": 125,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "49:15",
+      "en": "But basically you could see the VanEck's and various like eventually becoming deployed.",
+      "zh": "但基本上，你能想象 VanEck 之类的各种机构最终变成部署者。"
+    },
+    {
+      "i": 126,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "49:19",
+      "en": "But like that, I don't even think that's, I think it's remarkable and I think it's an important development, but I don't think it's a remarkable fact that that could happen. Okay. Right.",
+      "zh": "但那个，我甚至不觉得那……我觉得它很了不起，是个重要的进展，但我不觉得'这件事可能发生'本身有多令人惊讶。好，对。"
+    },
+    {
+      "i": 127,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "49:28",
+      "en": "This is a slightly weird question, but if you were to be regulated by the CFTC or the CME, could you see a world where the deployers are the ones who get regulated versus the protocol?",
+      "zh": "这是个有点怪的问题，但如果你们要受 CFTC 或 CME 监管，你能想象这样一个世界吗：被监管的是部署者，而不是协议？"
+    },
+    {
+      "i": 128,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "49:40",
+      "en": "I can very much see that world. I think that's an astute way to kind of frame it. I think it's a good kind of understanding of how, like we said, there are different roles in the setup. And I think in the same way that internet technology, TCP, IP, for example, is a technology, it It is used to kind of build financial stacks, but it is not regulated, right? The regulation sits at the layer where there are controls. And indeed, the deployers are the ones that exercise these controls. And so it's a very natural way for the protocol to continue playing its role as a networking liquidity infrastructure layer.",
+      "zh": "我非常能想象那个世界。我觉得这是个很敏锐的框定方式。我觉得这是对'就像我们说的，这个架构里有不同角色'的一种很好的理解。我觉得，就像互联网技术——比如 TCP/IP——是一项技术，它被用来搭建金融技术栈，但它本身不受监管，对吧？监管落在有控制权的那一层。而确实，部署者才是行使这些控制权的人。所以对协议来说，继续扮演它作为网络流动性基础设施层的角色，是一种非常自然的方式。"
+    },
+    {
+      "i": 129,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "50:21",
+      "en": "So just, you know, as Tracy mentioned, President Trump called out hyperliquids that come here. But what actually would have to happen so that an American could trade on hyperliquid in the good way without having to use a VPN? Like what needs to happen from a regulatory standpoint such that that actually could happen?",
+      "zh": "就像 Tracy 提到的，Trump 总统点名让 Hyperliquid 过来（进入美国）。但到底得发生什么，一个美国人才能以合规的好方式在 Hyperliquid 上交易，而不必用 VPN？从监管的角度看，需要发生什么，这件事才真能实现？"
+    },
+    {
+      "i": 130,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "50:40",
+      "en": "Well, again, if you're an American using a VPN, you're breaking the terms of the service.",
+      "zh": "嗯，再说一次，如果你是个用 VPN 的美国人，你就是在违反服务条款。"
+    },
+    {
+      "i": 131,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "50:44",
+      "en": "Don't do that, kid.",
+      "zh": "别那么干，孩子。"
+    },
+    {
+      "i": 132,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "50:46",
+      "en": "Yeah, I mean, again, it's strictly, it's not a laughing matter. You're breaking the rules. But for it to happen, there needs to be, the CFTC in this case needs to, it's a good question, like what they need to do, right? Like the, in some sense, the core principles of the CFTC are agnostic of the underlying technology, right? That's why they're called core principles, not like technological rules or something. But on the other hand, I think there is a certain gap in kind of just understanding of like, what is this stuff? It's kind of like hot off the presses in some sense, right? And then the kind of regulators, obviously, I think are, to everyone's benefit, they're conservative. I think they kind of, want to move quickly. They want to embrace innovation, but there's a very heavy responsibility with that because there's an existing system that by and large works well, serves many people and has protections built in place. So I think there's very naturally this gap of wanting to understand like, is this technology truly compatible with our core principles? And I think that's the kind of gap because ultimately I think the technology has a lot of benefits. And I think many people are beginning to see this. I think deployers see this because they are day in, day out using the technology. I think regulators you know, more conservative, slower to see it, but beginning to see it, that maybe if actually you can provably, anyone in the world can provably audit that the sum of user balances equals the amount of USCC sitting at this address. Like that is actually a really good property because even in traditional settings, there are a lot of regulations in place, but there's kind of a trust there, right? Like if someone asks, you have to tell them, right? Like, okay, like here's the bank, show them the bank account, show them the ledger of user balances. But like that is a sort of, process whereas if this is a property rather than a process all of a sudden i i just think this kind of like aha moment is it's quite beneficial so it's not like it's not like compliance or new tech it's kind of yeah i hope you.",
+      "zh": "是啊，我是说，再说一次，这很严格，不是开玩笑的事，你在违规。但要让这件事实现，就得……在这个例子里 CFTC 需要——这是个问题，他们到底需要做什么，对吧？某种意义上，CFTC 的核心原则（core principles）是与底层技术无关的，对吧？这就是为什么它们叫'核心原则'，而不是什么'技术规则'。但另一方面，我觉得在'这东西到底是什么'的理解上，确实存在一定的差距。它在某种意义上算是刚出炉的新事物，对吧？然后监管者，显然，我觉得是为了所有人的利益，他们是保守的。我觉得他们想快点行动，想拥抱创新，但随之而来的是一份非常沉重的责任，因为已经存在一个大体运作良好、服务了很多人、并且内建了保护机制的系统。所以我觉得，很自然地会有这样一个差距：想去搞清楚，这项技术是否真的跟我们的核心原则相容？我觉得那就是那个差距所在，因为归根结底，我认为这项技术有很多好处。我觉得很多人开始看到这一点了。部署者看到了，因为他们天天在用这项技术。监管者嘛，更保守，看得慢一些，但也开始看到了：也许，如果实际上任何人都可以可验证地（provably）审计出用户余额之和等于这个地址上存放的 USDC 数量——那其实是一个非常好的属性。因为即便在传统环境里，虽然有很多监管到位，但那里存在一种信任，对吧？就是如果有人来问，你得告诉他们，对吧？好，比如这家银行，给他们看银行账户，给他们看用户余额账本。但那是一种'流程'；而如果这是一种'属性'而非流程，那么一下子——我就觉得这种'恍然大悟'的时刻是相当有益的。所以这不是什么'合规 vs 新技术'的问题，而是——嗯，我希望你（明白）。"
+    },
+    {
+      "i": 133,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "52:38",
+      "en": "Feel a little bit guilty about making everyone pay attention 24 7 yeah break i think it should be an option you can take it yeah all these.",
+      "zh": "有点内疚，害得大家都得 7×24 小时盯盘。是啊，休息……我觉得这应该是个可选项，你可以选择休，是啊，所有这些。"
+    },
+    {
+      "i": 134,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "52:45",
+      "en": "Poor financial journalists working on weekends.",
+      "zh": "可怜的金融记者，周末还得干活。"
+    },
+    {
+      "i": 135,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "52:47",
+      "en": "Now i like being able to check quotes on the weekend jeff yen thank you so much for uh coming on the podcast Many more questions and things to dive into, but that was a fascinating introduction, and please come back sometime.",
+      "zh": "我倒是挺喜欢周末也能查报价的。Jeff Yan，非常感谢你来做客这个播客。还有很多问题和值得深挖的东西，但这是一次非常迷人的介绍，请以后一定再来。"
+    },
+    {
+      "i": 136,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "53:01",
+      "en": "Thank you for having me.",
+      "zh": "谢谢你们邀请我。"
+    },
+    {
+      "i": 137,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "53:15",
+      "en": "Tracy, that was a lot of fun. You know, I feel like we threw a lot at the listeners there, some of these terms.",
+      "zh": "Tracy，那聊得真开心。你知道，我觉得我们朝听众抛了不少东西，其中一些术语。"
+    },
+    {
+      "i": 138,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "53:20",
+      "en": "Yeah.",
+      "zh": "是啊。"
+    },
+    {
+      "i": 139,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "53:21",
+      "en": "And I would recommend people who are listening to do a little more research on what these things are, particularly how perps work. If you're in markets, if you care about futures, et cetera, I think it's very much worth knowing a little bit about the market structure of perps and how they fund, et cetera. Because regardless of what happens with hyperliquid specifically, et cetera, this, quote, primitive, unquote, of perps has been growing for a long time. And I think it's Very good reason to believe like they're going to be with us for a long time as a popular trading instrument.",
+      "zh": "我会建议正在听的人再多研究一下这些东西到底是什么，尤其是永续合约怎么运作。如果你在金融市场里，如果你关心期货等等，我觉得了解一下永续合约的市场结构、它们怎么做资金费率等等，是非常值得的。因为不管 Hyperliquid 具体会怎样，等等，永续合约这个所谓'原语'已经增长很长时间了。我觉得非常有理由相信，作为一种受欢迎的交易工具，它们会长期陪伴我们。"
+    },
+    {
+      "i": 140,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "53:57",
+      "en": "It feels very inevitable, as does 24-7 trading.",
+      "zh": "这感觉非常不可避免，7×24 小时交易也是如此。"
+    },
+    {
+      "i": 141,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "54:01",
+      "en": "At this point.",
+      "zh": "到了现在这个地步。"
+    },
+    {
+      "i": 142,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "54:01",
+      "en": "Do you have a take on why so many of these crypto things end up inventing their own language to go along with it?",
+      "zh": "你对这个有什么看法吗——为什么这么多加密的东西最后都发明了自己的一套语言来配套？"
+    },
+    {
+      "i": 143,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "54:11",
+      "en": "So, like, Deployer?",
+      "zh": "比如，部署者（Deployer）？"
+    },
+    {
+      "i": 144,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "54:12",
+      "en": "Deployer, Oracle.",
+      "zh": "部署者、预言机（Oracle）。"
+    },
+    {
+      "i": 145,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "54:15",
+      "en": "I don't totally know. Like, I would imagine that, like, the idea of, like, a price Oracle is probably one of these things that maybe even existed in computer stuff prior to trading. I don't know. It would be interesting to know. But the structure of Hyperliquid, to me, clearly feels distinct in many ways. One thing that we didn't get into, although we did, so, for example... Okay, so Ethereum exists. There are different exchanges that exist on Ethereum, right? So Uniswap exists on Ethereum. One thing that's interesting and distinct about Hyperliquid from Ethereum is that in the protocol itself, it sets the rules for the exchanges. So this idea that like, okay, there's this 31-hour interval via which a deployer can bid to list an item of their choosing.",
+      "zh": "我也不完全清楚。我想，价格预言机这个概念，也许是那种甚至在交易之前就已经存在于计算机领域的东西。我不知道。弄清楚会很有意思。但 Hyperliquid 的结构，对我来说，在很多方面明显是独特的。有一点我们没聊到——虽然我们聊到了——比如说……好，Ethereum 存在。Ethereum 上有不同的交易所，对吧？比如 Uniswap 就在 Ethereum 上。Hyperliquid 相对于 Ethereum 有一个有意思且独特的地方：在协议本身里，它为这些交易所设定了规则。所以就有了这个理念：好，有这个 31 小时的区间，部署者可以通过它来竞标，上架一个自己选定的项目。"
+    },
+    {
+      "i": 146,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "55:08",
+      "en": "Yeah.",
+      "zh": "嗯。"
+    },
+    {
+      "i": 147,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "55:08",
+      "en": "The fact that that's like baked into the HIP3 version of the protocol is very interesting and distinct. And the fact that the lab takes active governance in how these exchanges are run. I mean, look, you know, like we know, for example, that like on Solana or Ethereum, each probably has 10,000 dog coins, right? Those don't exist on Hyperliquid because there is this auction process. So you don't. You can't just like spam the network. It's like, oh, dog coins are hot. I'm going to list 100 dog coins. I think one other thing we didn't get into, but I think it's interesting. Let's say you and I assembled 500,000 hype tokens such that we could then be a deployer and bid into these auctions. Now there's already NVIDIA perps. There's already SK Hynix perps. For us to have a successful thing, part of our strategy is like, well, what's going to be the next big thing? such that maybe like Central Asian ETFs, like the Kazakhstan index, we think it's going.",
+      "zh": "这一点被内建进协议的 HIP3 版本里，非常有意思、也很独特。而且 Labs 对这些交易所怎么运营采取主动治理，这一点也是。我是说，你看，比如我们知道，在 Solana 或 Ethereum 上，各自大概都有一万个狗狗币（dog coins），对吧？这些在 Hyperliquid 上不存在，因为有这个拍卖流程。所以你没法……你没法直接刷屏这个网络，说什么'哦，狗狗币很火，我要上架 100 个狗狗币'。我觉得还有一点我们没聊到，但我觉得很有意思。假设你和我凑齐了 50 万枚 HYPE 代币，这样我们就能成为部署者、去这些拍卖里竞标。现在已经有 NVIDIA 永续合约了，已经有 SK Hynix 永续合约了。要想做成一件事，我们策略的一部分就是：嗯，下一个大热门会是什么？比如说中亚 ETF，像 Kazakhstan 指数，我们觉得它会……"
+    },
+    {
+      "i": 148,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "56:08",
+      "en": "To be hot.",
+      "zh": "……火起来。"
+    },
+    {
+      "i": 149,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "56:08",
+      "en": "So maybe our strategy is like, oh, let's build those. But there's probably this whole other metagame, and maybe at some point we should do an episode with one of the deployers, how you think about, look, what am I going to bid on such that my instrument becomes the thing that everyone wants to use? Lots of interesting questions.",
+      "zh": "所以也许我们的策略是，哦，那我们来建这些。但很可能还有一整套元博弈（metagame），也许到某个时候我们该做一期节目，请一位部署者来聊聊：你到底怎么思考——听着，我要去竞标什么，才能让我这个工具变成人人都想用的东西？有很多有意思的问题。"
+    },
+    {
+      "i": 150,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "56:25",
+      "en": "Oh, totally.",
+      "zh": "哦，完全同意。"
+    },
+    {
+      "i": 151,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "56:25",
+      "en": "Lots of game theory for deploying those new markets.",
+      "zh": "部署这些新市场里有很多博弈论。"
+    },
+    {
+      "i": 152,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "56:29",
+      "en": "But shall we leave it there for now?",
+      "zh": "但我们先聊到这儿吧？"
+    },
+    {
+      "i": 153,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "56:31",
+      "en": "Sure, let's leave it there.",
+      "zh": "好啊，就到这儿。"
+    },
+    {
+      "i": 154,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "56:31",
+      "en": "This has been another episode of the All Thoughts Podcast. I'm Tracy Allaway. You can follow me at Tracy Allaway.",
+      "zh": "这里是又一期的 All Thoughts Podcast。我是 Tracy Alloway。你可以在 Tracy Alloway 关注我。"
+    },
+    {
+      "i": 155,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "56:37",
+      "en": "And I'm Jill Wiesenthal. You can follow me at The Stalwart. Follow our producers, Carmen Rodriguez at Carmen Armin, Dashiell Bennett at Dashbot, Cale Brooks at Cale Brooks, and Kevin Lozano at Kevin Lloyd Lozano. And you can chat about all of these topics 24-7, including markets and crypto, in our Discord, discord.gg slash oddlots. And for even more OddLots content, check out our daily newsletter, which you can find at Bloomberg.com slash OddLots.",
+      "zh": "我是 Joe Weisenthal。你可以在 The Stalwart 关注我。关注我们的制作人：Carmen Rodriguez（Carmen Armin）、Dashiell Bennett（Dashbot）、Cale Brooks（Cale Brooks）、Kevin Lozano（Kevin Lloyd Lozano）。你可以在我们的 Discord（discord.gg/oddlots）里 7×24 小时聊所有这些话题，包括市场和加密。想看更多 Odd Lots 的内容，来看看我们的每日通讯（newsletter），在 Bloomberg.com/OddLots 就能找到。"
+    },
+    {
+      "i": 156,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "57:02",
+      "en": "And if you enjoyed this conversation, if you like it when we talk about the new rails of finance, then please leave us a positive review on your favorite podcast platform. And if you watched the video and you enjoyed the show, then please hit the like button or leave a comment or, better yet, subscribe.",
+      "zh": "如果你喜欢这期对话，如果你喜欢听我们聊金融的新轨道（new rails of finance），请在你喜欢的播客平台上给我们留个好评。如果你看了视频、喜欢这期节目，请点个赞、留个评论，或者最好订阅我们。"
+    },
+    {
+      "i": 157,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "57:18",
+      "en": "And remember, if you're a Bloomberg subscriber, you can listen to all of our episodes absolutely ad-free. Just find the Bloomberg channel on Apple Podcasts and follow the instructions there.",
+      "zh": "还有，记住，如果你是 Bloomberg 的订阅用户，你可以完全无广告地收听我们所有的节目。只要在 Apple Podcasts 上找到 Bloomberg 频道，按那里的说明操作就行。"
+    },
+    {
+      "i": 158,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "57:28",
+      "en": "Thanks for joining.",
+      "zh": "感谢收听。"
+    },
+    {
+      "i": 159,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "57:29",
+      "en": "Thank you. Thank you.",
+      "zh": "谢谢。谢谢。"
+    }
+  ]
+}

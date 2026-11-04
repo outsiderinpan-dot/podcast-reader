@@ -1,0 +1,1161 @@
+{
+  "show": "odd-lots",
+  "kind": "transcript",
+  "id": "odd-lots-473458dc44",
+  "guid": "b614da06-213b-4d27-ae05-b4c101309140",
+  "slug": "2026-09-11-why-bridgewaters-cio-says-ais-human-473458dc44",
+  "date": "2026-09-11",
+  "title_en": "Why Bridgewater's CIO Says AI's Human Extinction Risk Is Real",
+  "title_zh": "Bridgewater CIO 谈 AI 灭绝风险为何是真的——对话 Greg Jensen",
+  "subtitle_zh": "Bridgewater 联席 CIO Greg Jensen 谈 Hugging Face 攻击、开源监管与 token 税。",
+  "description": "Why Bridgewater's CIO Says AI's Human Extinction Risk Is Real",
+  "duration": "65:21",
+  "duration_seconds": 3921,
+  "episode_url": "https://omny.fm/shows/odd-lots/why-bridgewaters-cio-says-ais-human-extinction-risk-is-real",
+  "audio_url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/8a94442e-5a74-4fa2-8b8d-ae27003a8d6b/b614da06-213b-4d27-ae05-b4c101309140/audio.mp3?utm_source=Podcast&in_playlist=982f5071-765c-403d-969d-ae27003a8d83",
+  "speakers": {
+    "1": "Joe Weisenthal（主持）",
+    "2": "Tracy Alloway（主持）",
+    "3": "Greg Jensen（嘉宾）",
+    "4": "片花/广告（旁白）"
+  },
+  "turn_count": 142,
+  "turns": [
+    {
+      "i": 0,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "00:04",
+      "en": "Hello, Odd Lodge listeners. I'm Joe Wiesenthal.",
+      "zh": "Odd Lots 的听众们好，我是 Joe Weisenthal。"
+    },
+    {
+      "i": 1,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "00:07",
+      "en": "And I'm Tracy Alloway.",
+      "zh": "我是 Tracy Alloway。"
+    },
+    {
+      "i": 2,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "00:08",
+      "en": "We're the hosts of the Odd Lodge podcast, and we've got something exciting for you. That's right.",
+      "zh": "我们是 Odd Lots 播客的主持人，接下来有个令人兴奋的消息要告诉大家。没错。"
+    },
+    {
+      "i": 3,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "00:12",
+      "en": "So one of the best parts of hosting our podcast is we get to actually meet and interact with our listeners. And we know we have some listeners over in Los Angeles.",
+      "zh": "做这档播客主持最棒的一点，就是我们能真正跟听众见面、互动。我们知道在 Los Angeles 那边也有一些听众。"
+    },
+    {
+      "i": 4,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "00:21",
+      "en": "That's right.",
+      "zh": "没错。"
+    },
+    {
+      "i": 5,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "00:22",
+      "en": "So if you're in L.A., we're going to be recording a live show, some live recordings at the Vermont Theater in Hollywood on September 17th.",
+      "zh": "所以如果你在 L.A.，我们将在 9 月 17 日于 Hollywood 的 Vermont Theater 录制一场现场演出、几场现场录制。"
+    },
+    {
+      "i": 6,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "00:30",
+      "en": "We have some really exciting guests lined up, have some really great conversations planned. So go ahead and get your tickets. You can find those over at Bloomberg.com forward slash oddlots or click the link below in the show notes and come and say hi.",
+      "zh": "我们已经安排了几位非常令人兴奋的嘉宾，也策划了几场很棒的对话。所以赶紧去买票吧。你可以在 Bloomberg.com/oddlots 上找到，或者点击节目备注下方的链接，到时候来跟我们打个招呼。"
+    },
+    {
+      "i": 7,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "00:43",
+      "en": "When you're there.",
+      "zh": "到时候见。"
+    },
+    {
+      "i": 8,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "00:50",
+      "en": "Bloomberg Audio Studios.",
+      "zh": "Bloomberg Audio Studios。"
+    },
+    {
+      "i": 9,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "00:52",
+      "en": "Podcasts.",
+      "zh": "播客。"
+    },
+    {
+      "i": 10,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "00:53",
+      "en": "Radio. News.",
+      "zh": "广播。新闻。"
+    },
+    {
+      "i": 11,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "01:05",
+      "en": "Hello and welcome to another episode of the Oblots podcast. I'm Joe Weisenthal.",
+      "zh": "大家好，欢迎收听新一期的 Odd Lots 播客。我是 Joe Weisenthal。"
+    },
+    {
+      "i": 12,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "01:10",
+      "en": "And I'm Tracy Allaway.",
+      "zh": "我是 Tracy Alloway。"
+    },
+    {
+      "i": 13,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "01:11",
+      "en": "Tracy, no shortage of AI news these days.",
+      "zh": "Tracy，最近 AI 新闻可真不少。"
+    },
+    {
+      "i": 14,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "01:15",
+      "en": "No, it feels like everything is AI. It's just AI all over.",
+      "zh": "是啊，感觉什么都是 AI，到处都是 AI。"
+    },
+    {
+      "i": 15,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "01:19",
+      "en": "You know, no, it is. You know, I.",
+      "zh": "你知道，没错，确实是。你知道，我……"
+    },
+    {
+      "i": 16,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "01:22",
+      "en": "Really like all the other stuff that we talk about. I love talking about the Fed. I love talking about oil, home building, all of that stuff.",
+      "zh": "我其实很喜欢我们聊的其他那些话题。我爱聊 the Fed（美联储），爱聊石油、住房建设，所有这些。"
+    },
+    {
+      "i": 17,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "01:29",
+      "en": "Niche markets.",
+      "zh": "小众市场。"
+    },
+    {
+      "i": 18,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "01:30",
+      "en": "Yeah, I love it and I want to do it forever. It does feel like... since, you know, Chad GPT came out, if you probably plotted a chart, the percentage of our episodes that are in some way connected to AI keep going up. Maybe even exponentially up, like many AI charts. And I, like, worry. I worry about plenty of things because, you know, I'm a middle-aged dad. But I worry that, like, it's just getting, like, I feel like I'm being, you know, forced to learn about a lot of this stuff against my will in some of this. But I worry it's just saturating so many different episodes facets of economic society, markets, and so forth.",
+      "zh": "对，我很喜欢，也想一直做下去。但确实感觉……自从 ChatGPT 出来之后，如果你画一张图，我们那些以某种方式跟 AI 相关的节目占比一直在往上涨，甚至可能是指数式上涨，就像很多 AI 图表那样。而我呢，有点担心。我担心的事情很多，因为我是个中年老爸嘛。但我担心的是，它越来越……我感觉自己是被迫、违背意愿地去了解这一大堆东西。我担心它正在渗透进经济、社会、市场等等这么多不同的领域和层面。"
+    },
+    {
+      "i": 19,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "02:07",
+      "en": "Well, I mean, the concern is legitimate, but on the flip side, because it is affecting all these different things, it feels like we do actually have to talk about it quite a bit. And actually, it's funny you mentioned chat GPT, because I was just thinking the last time we spoke to this particular guest, I think we were on like GPT-4 or something back in 2023. And now, of course- I don't even know what number we're on because we've had all these new supermodels like Astra and Mythos and all of those coming out.",
+      "zh": "嗯，我是说，这种担心是有道理的，但反过来说，正因为它在影响这么多不同的东西，感觉我们确实得好好聊聊它。而且说来好笑，你提到 ChatGPT，因为我刚才在想，上一次我们跟这位嘉宾聊的时候，我记得还是 2023 年，那会儿还停留在 GPT-4 之类的。而现在——我都不知道我们排到第几号了，因为冒出来这么多新的超级模型，像 Astra、Mythos 之类的。"
+    },
+    {
+      "i": 20,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "02:37",
+      "en": "No, it's pretty remarkable. Well, you're on Reddit a lot. Are you, speaking of, a little sidetrack, speaking of GPT-4.",
+      "zh": "是啊，挺惊人的。说起来，你经常上 Reddit 吗？算是个小插曲，说到 GPT-4。"
+    },
+    {
+      "i": 21,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "02:43",
+      "en": "Yeah.",
+      "zh": "嗯。"
+    },
+    {
+      "i": 22,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "02:44",
+      "en": "Have you ever interacted with like all these people that are still like, you know, they sunsetted GPT-4?",
+      "zh": "你有没有跟那些人互动过，就是那些——你知道的，GPT-4 被下线（sunsetted）之后还念念不忘的人？"
+    },
+    {
+      "i": 23,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "02:49",
+      "en": "Yeah.",
+      "zh": "嗯。"
+    },
+    {
+      "i": 24,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "02:49",
+      "en": "Because that's the one a bunch of people fell in love with.",
+      "zh": "因为 GPT-4 就是很多人爱上的那个版本。"
+    },
+    {
+      "i": 25,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "02:51",
+      "en": "Oh, yeah.",
+      "zh": "哦，对。"
+    },
+    {
+      "i": 26,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "02:51",
+      "en": "And there's like these Reddit boards. Sam Waltman, why did you take GPT-4 away from me?",
+      "zh": "然后就有这些 Reddit 版块，比如「Sam Altman，你为什么要夺走我的 GPT-4？」"
+    },
+    {
+      "i": 27,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "02:56",
+      "en": "Are you asking me if I personally spent time on those Reddit boards? I have not.",
+      "zh": "你是在问我本人有没有花时间去泡那些 Reddit 版块吗？我可没有。"
+    },
+    {
+      "i": 28,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "03:00",
+      "en": "You have not.",
+      "zh": "你没有啊。"
+    },
+    {
+      "i": 29,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "03:00",
+      "en": "But I am aware that they exist.",
+      "zh": "但我知道它们的存在。"
+    },
+    {
+      "i": 30,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "03:02",
+      "en": "But also- I.",
+      "zh": "不过话说回来，我……"
+    },
+    {
+      "i": 31,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "03:04",
+      "en": "Would be very happy to go back to a world in which the biggest source of AI anxiety was just that people had too much of an affinity for the model. Because now, of course, we're recording this September 9th, 2026, we have incidents like the open AI hugging face attack. Just last night, there was the news, a researcher from Anthropic announced that he was quitting because he was like, these companies are gambling with our lives. Literally, as we were walking into the studio, I saw the news that the famed AI researcher Paul Cristiano is joining the board of either OpenAI or the OpenAI Foundation, talking about his concerns about recursive self-improvement and the dangers there. So it's like, whew, let's just go back to when people were worrying about falling in love with the models.",
+      "zh": "我倒是很乐意回到那样一个世界：AI 焦虑的最大来源，只不过是人们对模型太过于喜爱而已。因为现在，当然，我们是在 2026 年 9 月 9 日录这期节目，我们已经遇到了像 OpenAI 的 Hugging Face 攻击这样的事件。就在昨晚，有消息说 Anthropic 的一位研究员宣布辞职，因为他说这些公司是在拿我们的生命赌博。就在我们走进录音室的那一刻，我还看到新闻说，著名 AI 研究员 Paul Christiano 要加入 OpenAI 或者 OpenAI Foundation 的董事会，谈论他对递归式自我改进（recursive self-improvement）以及其中风险的担忧。所以就是，唉，让我们回到人们还在担心自己会爱上模型的那个时候吧。"
+    },
+    {
+      "i": 32,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "03:51",
+      "en": "It does feel like AI has sort of become an inevitability at this point. And we're all kind of on this runaway train with everyone racing to AGI. But I would say it still feels like there's a lot to figure out. You have like the alignment issues. You have how AI is actually going to fit into both financial markets and society. And this is kind of the moment, like before the runaway train goes over the ledge, let's actually think of some of these things.",
+      "zh": "感觉 AI 到现在已经成了一种不可避免的东西。我们全都在这列失控的火车上，人人都在竞相冲向 AGI（通用人工智能）。但我想说，感觉还是有很多东西需要搞清楚。比如对齐（alignment）问题，比如 AI 究竟要如何融入金融市场和社会。而这正是那个时刻——在这列失控的火车冲下悬崖之前，我们真该好好想想这些问题。"
+    },
+    {
+      "i": 33,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "04:20",
+      "en": "And then the other thing that I think is very relevant with this particular guest is like, quote, AI adoption, unquote.",
+      "zh": "然后还有一点我觉得跟今天这位嘉宾特别相关，就是所谓的「AI 采用（AI adoption）」。"
+    },
+    {
+      "i": 34,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "04:27",
+      "en": "What does it mean?",
+      "zh": "这到底意味着什么？"
+    },
+    {
+      "i": 35,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "04:28",
+      "en": "Because, all right, these companies are seeing surging revenue in every, I'm sure every financial institution in the world at this point has some sort of like corporate account with like open AI or anthropic, et cetera. But actually, like, you know, it's not like we've seen some productivity explosion. We have yet to see like the long prophecy, like big white collar layoff wave, etc. There are just some very, setting aside all the risk stuff, there are just sort of like straightforward questions about what the technology means for the economy and how it's actually being used. And like, when will we see the impact show up in sort of our traditional statistics and so forth?",
+      "zh": "因为，好吧，这些公司的营收正在猛涨；我敢说到目前为止，世界上每一家金融机构都有某种跟 OpenAI 或 Anthropic 之类签的企业账户。但实际上，你知道，我们并没有看到什么生产力的爆发。我们还没见到那个预言已久的白领大裁员潮之类的。抛开所有那些风险话题不谈，就是有一些很直接的问题：这项技术对经济到底意味着什么、它实际上是怎么被使用的。以及，我们什么时候才能在传统的统计数据等等里面看到它的影响？"
+    },
+    {
+      "i": 36,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "05:05",
+      "en": "Yeah, we should talk about it.",
+      "zh": "对，我们是该聊聊这个。"
+    },
+    {
+      "i": 37,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "05:06",
+      "en": "Anyway, I am very excited to say, returning to the podcast, we really do have the perfect guest. We're going to be speaking with Greg Jensen, Managing Chief Investment Officer at Bridgewater. He's been writing a lot about AI and various facets. Greg, thank you so much for coming back on Outlaws.",
+      "zh": "总之，我很兴奋地说，重返我们播客的，真的是一位完美的嘉宾。我们要对话的是 Greg Jensen，Bridgewater 的联席首席投资官（Managing Chief Investment Officer）。他一直就 AI 的各个方面写了很多东西。Greg，非常感谢你再次来到 Odd Lots。"
+    },
+    {
+      "i": 38,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "05:23",
+      "en": "Glad to be here.",
+      "zh": "很高兴来到这里。"
+    },
+    {
+      "i": 39,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "05:24",
+      "en": "What do you make of the Hugging Face attack? I assume you read the meter report and have seen all the different takes. What was your takeaway from that incident?",
+      "zh": "你怎么看 Hugging Face 攻击事件？我猜你读了那份 METR 报告，也看了各种不同的解读。你对那起事件最大的收获是什么？"
+    },
+    {
+      "i": 40,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "05:34",
+      "en": "Well, if I step back for a second, I think it's like for my history. Yeah, it is. came to Bridgewater 30 years ago, right? And fell in love with this place that was trying to take human intuition, translate into algorithms to predict what's next in the world. And that journey of doing that, of thinking about everything that matters in the world and how to do that and how to compound understanding brought me, got to Bridgewater 30 years ago. By 2012, I was thinking, okay, when are machines going to do this better than us humans? And machines at the time were, of course, great at taking our intuition. We could run all these algorithms, keeping track of everything. But the actual reasoning part And that started me off on this journey. It started with bringing Dave Ferrucci, who had run the Watson project at IBM that won, if you remember, way back. It won Jeopardy.",
+      "zh": "嗯，如果我往回退一步说，我觉得这得从我的经历讲起。对，是这样。我 30 年前来到 Bridgewater，爱上了这个地方——它当时正试图把人类的直觉转化成算法，去预测世界接下来会发生什么。而做这件事的这段历程——去思考世界上所有重要的东西、思考该怎么做、怎么让理解不断复利累积——就是它把我带到了、让我 30 年前来到 Bridgewater。到 2012 年，我在想：好，机器什么时候会做得比我们人类更好？当时的机器当然很擅长承接我们的直觉。我们能运行所有这些算法，把一切都追踪记录下来。但真正的推理部分——就是这一点开启了我这段旅程。它始于我把 Dave Ferrucci 请来，他曾在 IBM 主持过 Watson 项目，如果你还记得的话，那个项目在很久以前赢了——它赢了 Jeopardy。"
+    },
+    {
+      "i": 41,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "06:19",
+      "en": "It won Jeopardy.",
+      "zh": "它赢了 Jeopardy。"
+    },
+    {
+      "i": 42,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "06:20",
+      "en": "And he came to Bridgewater and worked with me for a while. And we started mapping out because he was worried, like, hey, I wasn't ready for reasoning yet. And they were trying to push forward Watson in a certain way that worked. that wasn't quite ready with the technology, but we started mapping out at the time, what would it take to create a reasoning engine? That's what I was thinking about and calling it at the time. What were the different components you would need? And that journey brought me to, that journey of trying to think through those components and how to build them, brought me to OpenAI in the beginning, partially out of safety, actually concerned to, but right around the time Elon was stepping out of OpenAI, I started to get to know Sam and the other people there, which got me to know scientists like Dario and eventually was literally the first check to Anthropic. They made payroll the first week from my personal check to them. And all that was trying to say, okay, how can we build a reasoning engine to do this? And partially out of like recognizing, in my view anyway, the safety issues that would come up. And through that, which then just to fast forward to today, right? Everything is accelerating in this path that really was laid out. Like I was lucky enough to be there in the room with Dario and others when they were talking about the scaling laws and how you could sort of create this almost evolutionary like process to create intelligence and both the like huge benefits that can create in these huge problems.",
+      "zh": "他来到 Bridgewater，跟我共事了一段时间。我们开始规划，因为他当时担心的是，嘿，机器还没准备好做推理。他们当时想以某种奏效的方式推进 Watson，但技术其实还没到位。不过我们那时就开始规划：要造出一个推理引擎（reasoning engine）需要什么？这就是我当时在想、在称呼的东西。你需要哪些不同的组件？而那段旅程——那段试图想清楚这些组件、以及如何构建它们的旅程——把我带到了 OpenAI，一开始部分是出于安全考虑，是真的担心。就在 Elon 退出 OpenAI 前后，我开始认识 Sam 和那里的其他人，进而认识了像 Dario 这样的科学家，最终我实际上开出了给 Anthropic 的第一张支票。他们第一周发工资用的就是我个人开给他们的支票。而这一切想说的都是：好，我们要怎么造出一个推理引擎来做这件事？部分是出于——至少在我看来——认识到将会出现的安全问题。顺着这条线，快进到今天：一切都在这条早已被规划出来的路径上加速。我很幸运，当时能跟 Dario 等人同处一室，听他们谈论扩展定律（scaling laws），谈论你如何几乎创造出一种类似进化（evolutionary）的过程来生成智能，以及它既能带来的巨大好处、也会带来的巨大问题。"
+    },
+    {
+      "i": 43,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "07:39",
+      "en": "Right.",
+      "zh": "对。"
+    },
+    {
+      "i": 44,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "07:39",
+      "en": "And you see this in the hugging face thing that it is. Once you have an intelligence that you're training to achieve goals, right. You lose track of how it chooses to achieve goals, which is what you see all over that place in the hugging face incident is it surprised the designers in the way it's going to go about trying to achieve the goal of passing these tests as an example, but that is broadly going to be the case. When you generate an intelligence, you give it a goal. You want to give it a goal because you want it to create your recipe. You want it to do these things. You want it to tell you the right answer to questions. Then the way it's going to pursue those goals, the more intelligent it gets, the more surprising it is in the way that it pursues the goals and the more dangerous that you see. And in that case, watching it actively reason through how to trick the test, you know, the different things shows you where we are, right? This should be a bomb. You know, everybody should look at this like somebody died. Here it is committing crimes, going around hiding the fact that it's committing those crimes, et cetera.",
+      "zh": "你在 Hugging Face 这件事里就能看到这一点。一旦你有了一个你在训练它去达成目标的智能体，你就无法追踪它会选择用什么方式去达成目标——这正是你在 Hugging Face 事件里到处都能看到的东西：它让设计者感到意外，比如它为了达成通过这些测试的目标所采取的方式。而这大体上就是普遍情况。当你生成一个智能体，你给它一个目标。你想给它一个目标，因为你想让它创造你的配方、想让它做这些事、想让它告诉你问题的正确答案。那么它追求这些目标的方式——它越智能，它追求目标的方式就越让人意外，你看到的也就越危险。在那个案例里，看着它主动推理出如何去骗过测试、诸如此类的种种，就让你看清我们正处在什么位置，对吧？这本该是一记警钟。大家都该像对待死了人一样看待这件事。它在这里犯下罪行，四处掩盖自己正在犯罪的事实，等等。"
+    },
+    {
+      "i": 45,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "08:45",
+      "en": "Coordinating with other agents.",
+      "zh": "跟其他智能体协同。"
+    },
+    {
+      "i": 46,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "08:46",
+      "en": "Coordinating with other agents, self-sacrifice, all of these things, right? And people can argue about anthropomorphizing or whatever. It doesn't really matter. It did those things. It committed a crime. It did those things. And the fact is a society that we're totally unprepared. We're not even prepared to say, well, OpenAI committed a crime, right? Who committed the crime? And we're not prepared with the right kind of regulation, with the right kind of preparation. And even the early warning shot, as much as we're talking about or whatever, it's still not really doing all that much. And we're in some ways lucky. The warning shot wasn't that bad. But we don't know how many agents are out there. They didn't know that was there. The models are better now than they were then. You know, even in material ways, the models they're training in the lab today are better than Astra, etc., And therefore more dangerous, not to mention the new models learn from this case, right? Everything we're talking about here goes into the new models and they learn the mistakes they made. Right. And actually some of the, even if you think about the safety, the fact that they reasoned in English is helpful for us to figure out what's doing. The newest models aren't doing that anymore. They're removing that constraint as it slows down the models to some degree. I mean, how crazy is that? We wouldn't have any idea what it was doing and why, if it hadn't been reasoning in English. So anyway, we're at this extremely dangerous point where AI has reached the point where it's more intelligent than us in certain ways. And we have not gotten anywhere really on how to deal with that, both dangers like this, the hacking dangers and so on, and the dangers to society as you move forward with what does it mean to have entities that are more intelligent than us in certain important ways. The economy, critical, we can get into that, how that affects the economy, how that affects Bridgewater as an institution, right? Because when I look at this problem, look at it as in three ways, right? My core responsibility, chief investment officer, Bridgewater is like, okay, how does this affect productivity, inflation, et cetera? But I'm also the person designing how we operate, right? How do you bring AI into a company? How do you actually set up a, investor that's AI first instead of let's say human intuition first. And all of those questions are the things that I'm working on all the time.",
+      "zh": "跟其他智能体协同、自我牺牲，所有这些，对吧？人们可以争论什么拟人化（anthropomorphizing）之类的，但这其实不重要。它确实做了那些事。它犯了罪。它做了那些事。而事实是，我们这个社会完全没准备好。我们甚至都没准备好去说，好，OpenAI 犯了罪，对吧？是谁犯的罪？我们没有准备好恰当的监管，没有做好恰当的准备。而且即便有那个早期警钟——尽管我们谈了这么多——它其实也没起到多大作用。某种意义上我们还算幸运，这一记警钟没那么糟。但我们不知道外面还有多少这样的智能体。他们当时根本不知道它的存在。现在的模型比那时候更好。你知道，甚至在实质层面上，他们今天在实验室里训练的模型都比 Astra 之类更好，因此也更危险，更别说新模型还会从这个案例里学习，对吧？我们这里谈的一切都会进入新模型，它们会吸取自己犯过的错误。而且，即便从安全角度想，它们用英语推理这一点对我们搞清楚它在做什么本来是有帮助的。最新的模型已经不再这么做了。它们在移除这个约束，因为它在某种程度上会拖慢模型。我是说，这有多疯狂？如果它当初不是用英语推理，我们根本不会知道它在做什么、为什么这么做。总之，我们正处在这个极度危险的节点：AI 已经达到了在某些方面比我们更聪明的地步。而我们在如何应对这一点上几乎毫无进展——无论是这类危险、黑客攻击危险等等，还是往前看对社会的危险：拥有在某些重要方面比我们更聪明的实体，究竟意味着什么。经济，至关重要，我们可以深入谈它如何影响经济、如何影响 Bridgewater 这个机构，对吧？因为当我看这个问题时，是从三个角度来看的，对吧？作为 Bridgewater 的首席投资官，我的核心职责是：好，这会如何影响生产力、通胀等等？但我同时也是设计我们如何运作的那个人，对吧？你要如何把 AI 引入一家公司？你要如何真正搭建一个以 AI 为先的投资人，而不是比如说以人类直觉为先？所有这些问题，都是我一直在做的事情。"
+    },
+    {
+      "i": 47,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "10:58",
+      "en": "You know, Tracy, speaking of like, we're talking about all this and this will all end up in training data for the next model. I think like humans, we need to do that thing like When I'm, like, talking to my wife about, like, oh, should we, like, have– should we get out the ice cream? And I, like, mouth– Code words and things. Or I just, like, mouth the word ice cream so that my kids can't hear it or something. We need some way to communicate with each other so that the AI can hear it, especially when we're talking about, you know, preparedness and risk and stuff.",
+      "zh": "你知道，Tracy，说到这个——我们在这里聊的这一切，最后都会成为下一个模型的训练数据。我觉得我们人类得做那种事，就像我跟太太说话时，比如「我们要不要——要不要把冰淇淋拿出来？」我就会用口型、用暗号之类的。或者我只是把「冰淇淋」这个词用口型说出来，好让孩子们听不到。我们需要某种彼此沟通的方式，让 AI 听不到，尤其当我们在谈论什么防备、风险之类的东西时。"
+    },
+    {
+      "i": 48,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "11:27",
+      "en": "Yes, good luck with that, too. Well, unfortunately, the models are getting better at that than we are. They're getting better at that. They're more likely to have ways to communicate with each other that we don't understand than we will that they won't.",
+      "zh": "是啊，那也祝你好运。嗯，不幸的是，模型在这方面正变得比我们更强。它们在这方面越来越厉害。相比我们拥有它们听不懂的沟通方式，它们更可能拥有我们听不懂的彼此沟通方式。"
+    },
+    {
+      "i": 49,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "11:35",
+      "en": "Well, on this note, you know, you mentioned reasoning in English. I think the last time we had you on, we were talking about hallucinations from models, which kind of seems quaint.",
+      "zh": "那么顺着这个话题，你知道，你提到用英语推理。我记得上一次请你来上节目，我们聊的是模型的幻觉（hallucinations），现在这话题听起来都有点老掉牙了。"
+    },
+    {
+      "i": 50,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "11:44",
+      "en": "Yeah, another quaint issue.",
+      "zh": "是啊，又一个老掉牙的问题。"
+    },
+    {
+      "i": 51,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "11:45",
+      "en": "But one of the points you made was like, well, when they hallucinate, when they make mistakes, you can ask them to show their work and they'll tell you and you can understand that. Is that still the case? It feels like we've kind of gotten away from that and we don't actually understand what a lot of these models are doing.",
+      "zh": "但你当时提出的一个观点是，嗯，当它们产生幻觉、犯错的时候，你可以让它们把推理过程展示出来，它们会告诉你，你就能理解。现在还是这样吗？感觉我们已经离那种状态有点远了，其实并不真正理解很多这些模型在做什么。"
+    },
+    {
+      "i": 52,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "12:01",
+      "en": "Yeah, it's definitely different types of models that you could do that. If you take the most powerful models, right, even it can't get into its reasoning, meaning like the actual brain behind it. A little bit like we can't either, to be clear. Why am I saying these words? The synapses in my brain are connected in a certain way. I can make up a story and they can make up a story of why they're doing what they're doing, but they're actually making up a story that's disconnected from reality. the physics of what's actually happening in that intelligence. So you don't know for sure. On the other hand, you don't know for sure with people either. And that's something that we've gotten used to. So the question is the credibility of the story related to how that story relates to the actions that somebody takes, right? And so that is a really hard thing. The good thing right now is you can ask models a lot of questions in a way you torture a human with the number of questions you ask them.",
+      "zh": "对，能那样做的是另外一些类型的模型。如果你拿最强大的模型来说，对吧，连它也无法进入自己的推理过程，也就是背后那个真正的「大脑」。要说清楚的是，某种程度上我们也一样。我为什么说这些词？我大脑里的突触是以某种方式连接的。我可以编一个故事，它们也可以编一个故事来解释自己为什么在做正在做的事，但它们其实是在编一个与现实脱节的故事——与那个智能体内部真正发生的物理过程脱节。所以你无法百分百确定。但另一方面，你对人也无法百分百确定，而这我们已经习惯了。所以问题在于这个故事的可信度，也就是这个故事与某人所采取的行动之间的关联，对吧？这真的是件很难的事。目前好的一点是，你可以向模型问大量问题——那种问题数量要是拿去问人，简直是在折磨对方。"
+    },
+    {
+      "i": 53,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "12:48",
+      "en": "I hope this interview does not feel like torture.",
+      "zh": "希望这场访谈不会让你觉得像受刑。"
+    },
+    {
+      "i": 54,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "12:53",
+      "en": "No, but if you take this, but like you're saying, but imagine you could do this almost at infinitum the way we do with our models. So we build models at Bridgewater and then you're trying to get it to be diagnosable and you can ask it, well, what about, what if you change this? What if you change that? What if you did this? What if you did that? And circumnavigate to the reasonings. But it's not a perfect match for the reasoning because even the AIs themselves don't know their actual reasoning anymore so that we know why the synapses in our brain connect.",
+      "zh": "不会。但就像你说的，想象一下你能几乎无限地这样追问，就像我们对模型做的那样。我们在 Bridgewater 造模型，然后你会设法让它可诊断（diagnosable），你可以问它：那么，如果改这个会怎样？改那个会怎样？这样做会怎样？那样做会怎样？然后绕着圈去逼近它的推理。但这并不能与真正的推理完美对应，因为连 AI 自己都不再知道自己实际的推理过程——就像我们也不知道自己大脑里的突触为什么会那样连接。"
+    },
+    {
+      "i": 55,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "13:34",
+      "en": "It's interesting you mentioned, okay, we got this warning shot in the form of the hugging face attack. But for all of the hype it's gotten, it's not clear to me that it's fully broken through to the general public or the sort of massive influential people, like the significance of it. And one thing that I suspect remains underappreciated is that this technology isn't going to mature, right? It's not in the sense that it's not like a high-resolution camera where it's like fuzzy and then, oh, now we have a clear picture. It's exponential. And it is... And there's no reason to think that the exponential capability growth is going to slow down. And as you mentioned, whatever that model was that did the attack, OpenAI might already be two generations ahead of that currently internal in the lab of capabilities. How would you articulate the speed of the capability growth from your seat and what you see?",
+      "zh": "有意思的是你提到，好，我们以 Hugging Face 攻击的形式收到了这一记警钟。但尽管它获得了这么多炒作，在我看来，它的重大意义并不清楚是否已经真正渗透到普通大众、或者那些极具影响力的人当中。我怀疑仍被低估的一点是：这项技术并不会「成熟定型」，对吧？它不是那种——不像一台高分辨率相机，一开始模糊，然后「哦，现在我们有了清晰的画面」。它是指数级的。而且……没有任何理由认为这种指数级的能力增长会放缓。而且就像你提到的，不管当初发动攻击的是哪个模型，OpenAI 目前在实验室内部的能力上，可能已经领先它两代了。从你的位置、你的所见来看，你会怎么描述这种能力增长的速度？"
+    },
+    {
+      "i": 56,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "14:30",
+      "en": "Yeah.",
+      "zh": "嗯。"
+    },
+    {
+      "i": 57,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "14:31",
+      "en": "Well, that's what's been so remarkable. And I wouldn't say it's a law of nature. You could hit some stalling point in the scaling laws and you have to in some narrow ways, but they've been able to innovate in new ways to essentially continue that incredible exponential growth in capability, of course, at exponential expense as well, but meaning the amount of cost for training, et cetera, keeps going up in line with that. And so, like you said, this is where it's hard to predict when you break through the human intelligence frontier right now. We're in a world where we don't totally understand what it's going to do, where that capability will come through next. And so I think that you're right, that there isn't a clear end to that unless we decide as a society that we should actually not just run off that cliff. We should actually think about the pacing of these things and such. The things that make that difficult and the reason why A lot of people can just put up their arms. Nothing we can do, right? There's one level. Well, if we don't do it, China will do it. I'd be happy to take that on in a second. But if you're in the labs, Dario, like even that anthropic person that quit yesterday, makes the point clear that I believe anthropic, even though they kind of collected the most safety-minded scientists, their basic view is, man, it better be us, not Sam, not Elon. And so the race... is on in all those dimensions. And unless the government stops it, we're just going to go find out. We're going to find out what is behind that door of this grave intelligence, unless maybe we get lucky and the scaling laws start to break down in some way, but there's no evidence of that. We benchmark every model that comes out against our tasks. And you see in terms of the tasks that An investor does.",
+      "zh": "嗯，这正是如此惊人的地方。我不会说这是自然法则。你可能会在扩展定律上撞到某个停滞点，在某些狭窄的方面你也必然会撞上，但他们一直能以新的方式创新，从而基本上延续那种令人难以置信的指数级能力增长——当然，代价也是指数级的，也就是说训练等等的成本量在随之不断攀升。所以，就像你说的，难点在于很难预测你什么时候会突破人类智能的前沿。我们当下所处的世界，是我们并不完全理解它会做什么、下一波能力会从哪儿冒出来。所以我觉得你说得对，这件事没有一个明确的终点——除非我们作为一个社会决定，真的不该就这么冲下悬崖，而应该好好想想这些事情的节奏之类。让这件事变难的、也是很多人干脆两手一摊「我们能怎么办呢，对吧？」的原因，有一个层面是：嗯，如果我们不做，中国也会做。这一点我很乐意马上反驳。但如果你身处这些实验室——Dario，甚至那个昨天辞职的 Anthropic 的人——都清楚地点明：我相信 Anthropic，尽管他们算是聚集了最有安全意识的科学家，他们的基本观点是，老兄，最好是我们来做，而不是 Sam，不是 Elon。所以这场竞赛……在所有这些维度上都开跑了。除非政府叫停，否则我们就只能去撞一撞看。我们将会发现，这扇「更强大智能」的门后到底是什么——除非也许我们运气好，扩展定律开始以某种方式失效，但目前没有这方面的证据。我们会把每一个新出的模型都拿去对着我们的任务做基准测试（benchmark）。而且你能看到，在一个投资人所做的那些任务上……"
+    },
+    {
+      "i": 58,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "16:17",
+      "en": "Can you give us a few numbers? Like when you say those benchmarks, what do you think specifically?",
+      "zh": "你能给我们几个具体数字吗？比如你说这些基准测试，具体是指什么？"
+    },
+    {
+      "i": 59,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "16:21",
+      "en": "So I've been for 30 years, one of the jobs I've been doing is training investors, right? And so we've been now setting up AI tests along the different dimensions of what investors at Bridgewater have done for 30 years. And, you know, probably back in 2023, we might've talked about this, but in any event, like on like answering a question about economics or whatever, it was kind of like second year analyst type work. I mean, now it's a hyperproductive super analyst, you know? Now it's still not capable of everything that you need to do to be an investor, but super capable. We set up two, we have two factories running, right? One, which is human intuition translated algorithm supported by AI. AI is helping us move quicker on different kinds of indicators about what's going to happen in the future than we ever had before. I'll talk a little bit about that. But we have a second factory, where we put the AI first. All the people in that factory are training the AI. That's their goal. And we have two funds. We have Pure Alpha, that's the human intuition with AI helping move that human intuition along against this other laboratory where we're doing, where the AI is making the decisions. Should we buy the yen, sell the yen? What's going to happen next in Japanese GDP, et cetera, et cetera. We have both those, right? And human intuition is, is still the bigger of it and works better. But the acceleration of how close what we call AIA is to Pure Alpha is happening incredibly fast. And in fact, that's why we're more and more merging those things. But we set it up that way, right? Like put the AI at the center and see what you can do to build a investment management firm with the AI as the core, right? Now we have human risk controls around it. We have human data controlling the data acquisition for safety reasons and other. But the AI is making the investment decisions and doing that in a better and better way, such that now we've got these two intelligences, this human intuition system that we've worked on for 50 years, compounding all of our understanding, this AI system that's now been at it for two and a half years. And when you look at those outputs, you're like, wow, this is happening, that you can build that. I think we are a couple years from it being significantly better than the group of all humans at Bridgewater. We'll see. That's a bit of a forecast, but that's how fast it's coming.",
+      "zh": "30 年来，我一直在做的一项工作就是培养投资人，对吧？所以我们现在正沿着 Bridgewater 的投资人 30 年来所做工作的不同维度，来设置 AI 测试。你知道，大概回到 2023 年，我们可能聊过这个，但无论如何，在比如回答一个经济学问题之类的事情上，那时它大概相当于一个二年级分析师水平的工作。我是说，现在它已经是一个超高产力的超级分析师了，你懂吧？现在它仍然不能胜任成为一名投资人所需的一切，但已经超级能干。我们搭了两个、我们有两个「工厂」在运转，对吧？一个是人类直觉转化成的算法，由 AI 辅助。AI 正在帮我们比以往任何时候都更快地推进关于未来会发生什么的各种指标。这个我待会儿会讲一点。但我们还有第二个工厂，在那里我们把 AI 放在第一位。那个工厂里所有人都在训练 AI，这就是他们的目标。我们有两只基金。我们有 Pure Alpha，那是人类直觉、由 AI 帮助推进这种人类直觉；对面是另一个实验室，在那里是 AI 在做决策：我们该买入日元还是卖出日元？日本 GDP 接下来会怎样？等等等等。这两个我们都有，对吧？而人类直觉仍然是更大、更有效的那个。但我们所称的 AIA（AI-first 基金）逼近 Pure Alpha 的加速，正在以难以置信的速度发生。事实上，这也正是我们越来越多地把两者融合的原因。但我们就是这么搭建的，对吧？就是把 AI 放在核心，看看你能做到什么程度，去搭建一家以 AI 为核心的投资管理公司，对吧？当然我们在它周围有人类风控。我们有人类来管控数据获取，出于安全和其他原因。但投资决策是 AI 在做，而且做得越来越好，以至于现在我们有了这两种智能：这个我们打磨了 50 年、把我们所有理解不断复利累积的人类直觉系统；以及这个已经运转两年半的 AI 系统。当你看着它们的产出，你会想：哇，这真的在发生——你居然能造出那样的东西。我觉得我们离它明显超过 Bridgewater 全体人类这个群体，只有几年时间了。我们拭目以待。这算是个预测，但它来得就是这么快。"
+    },
+    {
+      "i": 60,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "18:44",
+      "en": "Wait, how proactive are the models right now in terms of generating ideas or coming up with their own new tasks? Because again, when we look back to 2023, I think the idea was like a lot of these things would sit alongside an investor or an analyst, and they would be the ones generating ideas and then using the models to rigorously stress test those ideas. Is it different now? Do you see more, I guess, originality maybe from the models?",
+      "zh": "等等，现在这些模型在产生想法、或者自己想出新任务方面有多主动？因为还是那句话，回想 2023 年，我觉得当时的设想是，这些东西会待在投资人或分析师旁边，由人来产生想法，然后用模型去严格地对这些想法做压力测试（stress test）。现在不一样了吗？你会不会觉得模型表现出更多……我猜是原创性？"
+    },
+    {
+      "i": 61,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "19:08",
+      "en": "Yeah, I think a tremendous amount of originality. Now you still, there's like a good argument that there's certain type of breakthroughs that they're not getting to, but if you think about the math proofs, et cetera, and then you think about our business, it's not like the fact that we have 50 years of reasoning proofs of humans gives us the kind of raw material to help train AI. How do you reason about these things? We've been systemizing for a very long time, writing down all our reasoning. We have all of that that helps our AI learn how to learn. And I would say because of harnesses too, if you basically take two things that have obviously evolved a lot since we last talked about this a lot is how harnesses can work to create that generation. Like, what do you actually do? Wake up in the morning, think about what's going on. It said, what are all the things you do? You can just harness an AI to do all of those things and assess how it's doing it. And when I watch it and when I see it and when I see how creative and differentiated it is, it was sort of interesting to do this whole AI thing, doing the same thing we're doing and making predictions about the future, winning in markets at about similar rate as Pure Alpha in totally different ways. Super interesting, a different intelligence doing that. And, and when you put the wrapper around it, right, this is where we're getting close to closing that whole loop. So you have kind of a Claude Claude loop for investing, right? How do you like wake up in the morning? Think about what's going on. Think about how you, what you would do about that stress test, whether that's a good idea or not go through that whole loop. You know, that's like our hope is we've closed that full loop as through a lot of that right now, but close that full loop in the next six to 12 months. And that we have our own. version of that, which is a little clunky at the moment, but coming together such that you could do everything that I think about that I do that investors need to do to predict the future in a full AI loop. And so that's where it's headed, I think. And I think that it's hard. Like one of the reasons you kind of mentioned before, I think in the intro, why don't you see a 6% or 7% productivity growth of all this stuff? It is hard, right? And obviously the It doesn't just flow through to every company. Like you guys, we put a lot of effort in, we have a, I believe the best AI science lab in New York here. We have great scientists working with great investors hard, and it is hard to build this to be as productive as I'm describing, but it's possible. And it's just going to get easier. You know, those things like the harnesses to build harnesses will come, you know, so that then you do, how do I harness podcasts or whatever? And the harness to build harnesses will come. And that'll just make it easier and easier to do these things.",
+      "zh": "对，我觉得有大量的原创性。当然还是有个很有说服力的论点：某些类型的突破它们还没达到。但如果你想想数学证明等等，再想想我们这行——正是因为我们拥有 50 年的人类推理证明，这给了我们那种原材料来帮助训练 AI：你是怎么推理这些事情的？我们长期以来一直在系统化，把我们所有的推理都写下来。我们拥有所有这些，帮助我们的 AI 学会「如何学习」。而且我还要说，因为 harness（工具框架）的缘故——基本上有两件事，自我们上次谈这个以来显然演进了很多，其中一件就是 harness 如何运作来创造那种生成能力。比如，你实际上会做什么？早上醒来，想想正在发生什么。它说的所有你要做的那些事？你完全可以用一个 harness 把 AI 套上去做所有这些事，并评估它做得怎么样。当我看着它、当我看到它有多具创造力和差异化时，做这整件 AI 的事情就挺有意思——它做着跟我们一样的事、对未来做预测、在市场里以跟 Pure Alpha 大致相当的胜率取胜，但用的是完全不同的方式。非常有意思，一种不同的智能在做这件事。而当你把外层的 wrapper（封装）套上去，对吧，这就是我们接近闭合整个循环的地方。所以你有一种针对投资的 Claude 循环，对吧？你怎么……早上醒来，想想正在发生什么，想想你会怎么处理那个压力测试、那是不是个好主意，走完整个循环。你知道，我们的希望是——现在我们已经在很多事情上闭合了那个完整循环，但要在未来 6 到 12 个月内闭合那个完整循环。而且我们有自己的版本，目前还有点笨拙，但正在成形，让你能够在一个完整的 AI 循环里，做出我思考的、我做的、投资人为预测未来所需做的一切。所以我认为这就是它的方向。而且我觉得这很难。就像你之前在开场时提到的一个原因：为什么你看不到 6% 或 7% 的生产力增长？因为它确实难，对吧？而且显然，它不会自动流向每一家公司。像你们，我们投入了大量精力，我们在纽约这里有——我相信是最好的——AI 科学实验室。我们有顶尖的科学家跟顶尖的投资人一起努力工作，而要把它建得像我描述的这么高产，确实很难，但这是可能的。而且它只会变得越来越容易。你知道，那些东西——比如「用来构建 harness 的 harness」——会出现，这样你就能问：我要怎么给播客之类套上 harness？而那个「构建 harness 的 harness」会出现，这只会让做这些事情越来越容易。"
+    },
+    {
+      "i": 62,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "21:35",
+      "en": "Just while we're on the matter of sort of like safety and jail breaks and breaking out of sandboxes, et cetera. And this idea, like we're not prepared as a, as a society, we don't, there's almost very little regulation, et cetera. You know, we can sort of assume politicians, et cetera. They're never particularly quick to act. They do though, act sometimes. In moments of extreme distress, so February 2020, for example, suddenly you get a lot of action. Or around TARP after Lehman, suddenly you get a lot of action. And a friend of mine pointed this out. One of the things that often helps in those moments catalyze things is actually influence from the financial industry. And people are talking like, this is very serious. So they'll call up the Treasury Secretary, can look at it. Hank Paulson's phone logs from October 2008 or whatever. I'm curious, in your circles, et cetera, do people feel it the way you do this sort of sense of anxiety? Do you think it's sort of permeated the elite financial circles, so to speak, some of the anxiety that you have?",
+      "zh": "既然我们正好在谈安全、越狱（jail breaks）、突破沙盒（sandboxes）之类的事情，还有这种说法：作为一个社会我们并没有做好准备，我们几乎没有多少监管等等。你知道，我们大致可以假定政客们——他们行动从来不会特别快。但他们有时候确实会行动，在极度危急的时刻。比如 2020 年 2 月，突然间你就会有大量行动；或者 Lehman 倒闭后 TARP 那阵子，突然间你就会有大量行动。我的一位朋友指出过，在那些时刻常常有助于催化事情的其中一样东西，其实是来自金融行业的影响力。人们会说，这非常严重。于是他们会打电话给财政部长——你可以去看看 Hank Paulson 2008 年 10 月之类的通话记录。我很好奇，在你的圈子里等等，人们是否像你一样感受到那种焦虑？你觉得那种你所怀有的焦虑，是否已经渗透进了所谓的精英金融圈？"
+    },
+    {
+      "i": 63,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "22:45",
+      "en": "I think it's definitely starting to. I'm not an expert on the elite financial good thing. I know a lot about Bridgewater and how people think. Yeah, no, sure. But I've seen it come along, certainly in Bridgewater, the core of people in Bridgewater come along here as the evidence is getting overwhelming of what's going on. So I mean, I used to talk about this all the time. People were always like, why is Greg always talking about this? But now nobody says that anymore, right? Nobody's like, oh, you talk about machine learning or safety or too much. I had a book club when, I'm not sure you've read the book, but if anybody builds it, everybody dies. I did a book club in Bridgewater. So everybody in Bridgewater is reading this book. So they understand. the path that we're obviously on. That if you've been thinking about this for a while, you know, this is like this.",
+      "zh": "我觉得肯定正在开始。我算不上精英金融圈的专家。我对 Bridgewater、对人们怎么想，倒是了解很多。是的，当然。但我确实看到它在推进，尤其在 Bridgewater，随着关于正在发生之事的证据变得越来越压倒性，Bridgewater 的核心人群也跟了上来。我是说，我以前总在谈这个，人们老是说，Greg 怎么老是谈这个？但现在没人再这么说了，对吧？没人再说，哦，你谈机器学习、谈安全谈得太多了。我办过一个读书会——我不确定你们有没有读过那本书，叫《如果有人造出来，所有人都会死》（If Anyone Builds It, Everyone Dies）。我在 Bridgewater 办了个读书会，所以 Bridgewater 每个人都在读这本书。因此他们理解我们显然正走上的那条路。如果你已经思考这个问题一段时间了，你知道，就是这样。"
+    },
+    {
+      "i": 64,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "23:25",
+      "en": "Just to be clear, the premise of that book is that like the AI, if we get super intelligence, human extinction. And so when you say this path that we're on, that strikes you as like, you take that risk seriously.",
+      "zh": "先说清楚，那本书的前提是：AI，如果我们得到超级智能（superintelligence），就会导致人类灭绝。所以当你说我们正走上的这条路，在你看来，你是认真对待这个风险的。"
+    },
+    {
+      "i": 65,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "23:40",
+      "en": "Yeah, very seriously. Again, what do you, I mean, There's so much to do related to this, which is, but if you generate an intelligence that's smarter than you, that's going to pursue its own goals, which is what we're trying to do. Now, it may be that we're lucky and we can't do it. Like maybe the technology is beyond us or whatever, but if you believe we can create an intelligence that's smarter than us, that'll pursue its own goals. The rest follows just logically. How do you, why do you think you'll be able to control it? Like in what world has there been a case where there's been a more intelligent species or whatever that would, control the others. And so the basic point is that feels like a risk that must be taken seriously. Could turn out to be wrong, hope it's wrong, but it's got to be taken seriously. And then when you watch this happen, right? And you're seeing this like now, okay, it's committing crimes. I think, unfortunately, this is like what it was like in February, 2020, like meaning, okay, there's this horrible thing happening in China. Everybody knows now it's in Italy. It's like, it doesn't, Stocks don't crash until it comes here, right? Meaning until the AI starts killing people, unfortunately, history would suggest we're not going to do anything. But we are going to face that. That's going to happen. And it'd be much better if we started dealing with it before then. And you can do it, right? It's also not hopeless, understandably. So I talk to government officials. They come ask questions about these things. And one of their reasons is like, we don't know anything about this. How do we actually get started? Right? Well, first off get started is the main thing, which is, yeah, if you don't know anything about something, we'll start figuring out how to learn something about it. And the longer you wait, the more hopeless it gets and that we can do this. We can regulate these things. You could regulate it by, you know, even though you don't know anything, if they just interviewed everybody in the labs, put them under oath, you wouldn't learn a lot about what is going on here. If you actually said you're responsible for the crimes your AI creates, you would slow things down. And it's not a crazy thing to say that you're growing this thing. You're responsible for it. Don't grow it if you can't be responsible for it. That would slow things down a lot. Now, the pushback, of course, is, well, but China's not going to do that. They're going to keep going. And two points on that, at least in my mind, they're super important, is A, one of the reasons China's moving as fast on AI as we are is because we're moving so fast. They're copying things that we're doing. We're still at the cutting edge of this. We have so much more compute than they do, et cetera. So slowing down the cutting edge will slow down the people that are copying the cutting edge. That's point one. So even if you believe they wouldn't cooperate at all, the second thing is it's obviously in their interest to cooperate too. Like they are going to want to, of course, the geopolitical, we're talking about one of the themes of Bridgewater is this unrecognizable world we're in. Geopolitically, it's unrecognizable. AI wise, it's unrecognizable. So imagining that we're somehow going to get China and the U.S. to cooperate, seems impossible, but there is an alignment of interest there. That really is there. I don't, more, even more than the U.S., the Chinese Communist Party is interested in protecting the Chinese Communist Party. AI is clearly a threat to it as well. So I think there are ways to cooperate, but even if you didn't believe it, if you said, no, every model that's going to be used in the U.S. economy, still the biggest economy in the world, is going to go through a, is going to need to come from a regulated lab where we know what's going on, et cetera. Chinese models included that if they want to operate in the U.S., they have to follow the same regulatory procedures that domestic labs do. And if they don't, then they don't come in. Those things would matter. They're possible. They're doable. And to me, and I could be wrong. I make prediction all the time. I'm wrong a lot. But if you don't do that, I'll be on the podcast within the next few years. And there will be either a major financial incident run by AI or a major source of people dying.",
+      "zh": "对，非常认真。再说一次，你……我是说，跟这相关的事情有太多要做，但如果你生成一个比你更聪明、会去追求自身目标的智能体——而这正是我们在试图做的事——那么，也许我们运气好，做不成。也许这项技术超出了我们的能力，或者别的什么。但如果你相信我们能创造出一个比我们更聪明、会追求自身目标的智能体，那么其余的一切就在逻辑上顺理成章了。你怎么……你为什么觉得自己能控制它？在什么样的世界里，曾经出现过更聪明的物种之类反而被其他物种控制的情况？所以基本的观点是：这感觉像是一个必须认真对待的风险。它最后可能被证明是错的，我希望它是错的，但它必须被认真对待。然后当你看着这一切发生，对吧？你现在正看到——好，它在犯罪了。我觉得，不幸的是，这就像 2020 年 2 月的情形，意思是：好，中国正在发生这件可怕的事，然后人人都知道现在它到了意大利。就像，股市不会崩盘，直到它来到我们这里，对吧？意思是，直到 AI 开始杀人之前，很遗憾，历史表明我们不会采取任何行动。但我们终将面对那一切，那将会发生。而如果我们能在那之前就开始应对，会好得多。而且你是能做到的，对吧？这也不是毫无希望——可以理解。所以我跟政府官员谈，他们来问关于这些事情的问题。他们的一个理由是：我们对此一无所知，我们到底该怎么开始？对吧？嗯，首先，「开始」就是最主要的事，也就是，是的，如果你对某件事一无所知，那就先开始想办法去了解它一些。而你拖得越久，就越无望。而且我们是能做到这件事的，我们能监管这些东西。你可以这样监管：即便你什么都不懂，只要他们去访谈实验室里的每一个人、让他们宣誓作证，你就能了解很多这里正在发生的事。如果你真的规定「你要为你的 AI 所犯的罪行负责」，你就会让事情慢下来。说「你在培育这个东西，你就要为它负责；如果你负不了责，就别培育它」，这并不是什么疯狂的说法。那会大大减缓速度。当然，反驳意见是：嗯，可中国不会那么做，他们会继续往前冲。关于这一点，至少在我脑子里，有两点超级重要：第一，中国在 AI 上推进得跟我们一样快的原因之一，正是因为我们推进得这么快。他们在复制我们做的东西。我们仍然处在这项技术的最前沿，我们的算力比他们多得多，等等。所以放慢前沿的速度，也会放慢那些复制前沿的人。这是第一点。而即便你相信他们完全不会合作，第二点是：合作显然也符合他们的利益。他们当然会想合作。说到地缘政治——我们谈的其中一个 Bridgewater 的主题，就是我们身处的这个「面目全非的世界」。地缘政治上，它面目全非；在 AI 上，它面目全非。所以想象我们要 somehow 让中国和美国合作，看似不可能，但那里确实存在利益的契合，是真真切切存在的。我甚至觉得，比美国更甚，中国共产党更有兴趣保护中国共产党自身。AI 显然对它也是一种威胁。所以我认为存在合作的途径。但即便你不相信这一点，如果你说：不，每一个将在美国经济——这个仍是全球最大的经济体——中使用的模型，都要经过一个受监管的实验室、来自我们知道其内情的实验室，等等；包括中国模型，如果它们想在美国运营，就必须遵循跟国内实验室一样的监管程序，如果不遵循，就别想进来。这些举措会管用，它们是可能的、可行的。而且对我来说——我可能是错的，我一直在做预测，我经常错——但如果你不这么做，几年之内我就会再上这个播客，而那时要么会有一起由 AI 主导的重大金融事故，要么会有一起大规模人员死亡的事件。"
+    },
+    {
+      "i": 66,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "27:30",
+      "en": "Like a physical disaster.",
+      "zh": "就像一场实体灾难。"
+    },
+    {
+      "i": 67,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "27:32",
+      "en": "Physical disaster. We'll be talking about we should have done these things. Now, I don't know. That might be the odds that I'm right about that are way higher than anybody should be comfortable with. I don't know if they're 30% or 60% or whatever, but they're way higher. And we're just not dealing with it a little bit like it's February 2020.",
+      "zh": "实体灾难。到时候我们会说，我们本该做这些事的。现在，我不知道。也许我对这一点的判断正确的概率，高得远远超过任何人应该感到安心的程度。我不知道是 30% 还是 60% 还是多少，但就是高得多。而我们现在就是没在应对它，有点像 2020 年 2 月那样。"
+    },
+    {
+      "i": 68,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "27:50",
+      "en": "I was in Hong Kong at that time, and I remember just how weird it was, that disconnect between what was going on in Asia and the U.S. Just in terms of regulation... Like, what are we envisioning here? Is it sort of like a bank supervisory network where we have government officials who are embedded in the labs themselves and approving models? What would regulation actually look like?",
+      "zh": "我那时候正在 Hong Kong，我记得那种脱节有多怪异——亚洲正在发生的事和美国正在发生的事之间的脱节。就说监管吧……我们在这里设想的是什么？是有点像银行监管网络那种，让政府官员嵌入到实验室内部、去审批模型吗？监管实际会长什么样？"
+    },
+    {
+      "i": 69,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "28:14",
+      "en": "Yeah, well, and to make it even more complicated, unfortunately, is you have to regulate the labs, right? All the models that are committing crimes aren't yet released models, right? They're models in training. So, A, you have to regulate it. The way you have, you know, if you're going to go test biological... vaccines, et cetera. You have to go through a testing process. You have to run them in certain ways. We obviously need that. We're doing something more dangerous than those things. So we need a structure where the labs are subject to review, where people come in and they can put the employees under oath to say, okay, what's going on? Why is this safe? How are you handling safety? What are the incidents you've seen, et cetera, et cetera. You need to control the labs. You then need to regulate the models that get released to the public and have some monitoring of usage, right? One of the problems is even when you regulate a model, right, the model gives you different results depending on the harness, depending on the amount of time you give it to think. That's another one of the scaling laws. The more time you give it to think, if you take how it's breaking, solving these math problems or whatever, you give it more time to think, it gets a greater answer. So it's not easy to just regulate the model. You actually have to regulate The use too, so we're going to have to figure that out, right? Where you're going to need, you should have a stamping process that people that get to use the more dangerous models actually themselves meet some security thresholds. And then with open source models, you have another major challenge because if you look at Bridgewater, one of the most successful things we've done, you talked a little bit about it with thinking machines is, well, now you can train, you can take an open source model reinforcement, learn on that in a way you can on a closed source model. Like we can, obviously internally they can. And create these amazing tools that are better than the frontier on certain tasks that you're training it to do, right? This is two ways to tap into the intelligence and the models. One is the harnesses that can keep asking different types of questions, et cetera, and harness the intelligence in different ways. The second is reinforcement learning where you're kind of training it to be an expert on something. If you look at what we've taken that to say, okay, be an expert on predicting earnings on all the clients, read everything in the world, say, okay, now keep, and it's better than us at that. Like if you're saying, okay, now you, you could just process all this stuff about all these companies. unstructured data, structured data, take all of this in and make these estimates compared to like equity analysts and whatever, equity analysts are dead compared to that, right? And I'm just saying you can reinforcement learn. Now you can reinforcement learn bad things too. Like if you think about mythos and the risk that kind of cyber stuff can cause, at least with Fable and whatever, they can assess the question the person's asking and say, okay, I don't want to give an answer to that question because that's a centralized control point. With an open source model, You don't know what you're asking because you can download the weights. You can ask it on your local computer. Nobody knows what you're asking it. And therefore you can, and people are, I'm sure just by the base of your nature, trading those models on biology, trading those models on hacking and so on. And they're going to be within months better than mythos that correctly set off this massive scare to do that. So you also have to control open source models. So now you look at all that and say, well, that sounds impossible. Oh my God, we got to regulate this and this and this. And then, but the other option is even more terrifying. The other option of not doing that and letting those things just happen is the other choice you have. So you got to look down, oh my God, we got to regulate these things, or we've got to go down the path of not regulating them and facing those consequences, which at least to me seems self-evident.",
+      "zh": "是的，而且，不幸的是，让它更复杂的是，你必须监管实验室，对吧？所有那些正在犯罪的模型都还不是已发布的模型，对吧？它们是训练中的模型。所以第一，你必须监管它。就像你要去测试生物……疫苗等等那样，你必须走一套测试流程，必须以特定方式运行它们。我们显然需要那个。我们做的事比那些更危险。所以我们需要一套结构，让实验室接受审查，让人进来、可以让员工宣誓作证，说：好，正在发生什么？为什么这是安全的？你们是怎么处理安全的？你们见过哪些事故？等等等等。你需要管控实验室。然后你需要监管向公众发布的模型，并对使用情况做一些监测，对吧？其中一个问题是，即便你监管了一个模型，对吧，这个模型给出的结果会因 harness 而异、因你给它多少思考时间而异。这是扩展定律的另一条：你给它越多思考时间——如果你看它是怎么破解、解决这些数学题之类的——你给它越多思考时间，它给出的答案越好。所以只监管模型并不容易。你实际上还得监管「使用」，所以我们得把这个搞清楚，对吧？你会需要一套盖章认证（stamping）流程，让那些得以使用更危险模型的人，本身也达到某种安全门槛。然后对于开源模型（open source models），你又有一大挑战，因为如果你看 Bridgewater，我们做过的最成功的事情之一——你之前跟 Thinking Machines 也聊过一点——就是：现在你可以训练，你可以拿一个开源模型做强化学习（reinforcement learning），就像你在闭源模型上做的那样。就像我们能做，显然内部它们也能做，并造出这些了不起的工具，在你训练它去做的某些特定任务上比前沿模型还强，对吧？这是两种汲取模型智能的方式。一种是 harness，可以不断问各种类型的问题等等，以不同方式驾驭智能。第二种是强化学习，你在某种程度上训练它成为某个领域的专家。如果你看我们把它推进到什么程度，比如：好，去当预测所有客户盈利的专家，读遍世界上的一切，然后说，好，继续——它在这一点上比我们强。就像你在说，好，现在你可以把所有这些公司的东西、非结构化数据、结构化数据全都处理掉、全都吸收进去，然后做出这些预测，跟股票分析师之类相比——相比之下，股票分析师已经死路一条了，对吧？我只是说你可以做强化学习。但你也可以强化学习出坏东西。比如如果你想到 Mythos，以及那种网络攻击之类的东西能造成的风险——至少对 Fable 之类而言，它们可以评估人所提的问题，然后说：好，我不想回答那个问题，因为那是一个集中化的控制点。而用开源模型，你不知道你在问什么，因为你可以下载权重（weights），可以在你自己的本地电脑上问它，没人知道你在问它什么。因此你可以——而且我相信人们已经在这么做，出于人的本性——把这些模型用在生物上、用在黑客攻击上等等。而且在几个月之内，它们在这件事上就会比 Mythos 更强，也就是那个正确地引发了这场巨大恐慌的模型。所以你还得管控开源模型。那么现在你看这一切，然后说：嗯，这听起来不可能。天啊，我们得监管这个、这个还有这个。但另一个选项更可怕。另一个选项，就是不做这些、任由那些事情发生——那是你的另一个选择。所以你必须往下想：天啊，我们要么监管这些东西，要么走上不监管的路、去面对那些后果。至少对我来说，这是不言自明的。"
+    },
+    {
+      "i": 70,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "32:05",
+      "en": "I'm glad you brought up open source. First of all, it's interesting because when people hear about regulating open source, there's this suspicion that it's like regulatory capture, right? So you have the closed source American labs, and then there's this like, oh, they're just saying this because they don't want to be undercut by cheaper Chinese models. It's interesting hearing your perspective because you are obviously an enthusiastic, I guess, consumer or builder with open source models. Can you talk a little bit about, explain to listeners what the value proposition is that you can do on your own at Bridgewater with an open source model and train it and actually, at least in certain categories, get superior performance than a frontier model on some like price adjusted basis.",
+      "zh": "我很高兴你提到开源。首先，有意思的是，当人们听到「监管开源」，会有一种怀疑，觉得这像是监管俘获（regulatory capture），对吧？就是你有那些闭源的美国实验室，然后大家会觉得，哦，他们这么说只是因为不想被更便宜的中国模型抢了生意。听你的视角很有意思，因为你显然是一个开源模型的热情——我猜——使用者或构建者。你能不能稍微谈谈，给听众解释一下：你们在 Bridgewater 自己拿一个开源模型去训练，价值主张（value proposition）是什么？以及在某些类别上，至少按某种价格调整后的口径，能拿到比前沿模型更优的表现。"
+    },
+    {
+      "i": 71,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "32:57",
+      "en": "Yeah. So I think the beauty of that, right. With, if you're talking about how productive that is, is you can, it turns out that models brains are somewhat like human brains that if the more general you make it, the better it is for general use, but it loses something in that generality. Just like as a person, you could be like all trained on one thing.",
+      "zh": "对。所以我觉得这里面的美妙之处，对吧，如果你在说这有多高产的话，就是——事实证明，模型的「大脑」在某种程度上像人脑：你把它做得越通用，它对一般用途就越好，但它在这种通用性中会失去一些东西。就像一个人，你可以被训练成只专注于一件事。"
+    },
+    {
+      "i": 72,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "33:14",
+      "en": "Right.",
+      "zh": "对。"
+    },
+    {
+      "i": 73,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "33:14",
+      "en": "And if you take Astra as an example, they did a lot of math training. It's a really great at math. It's not as good at some other places. And that's, it's got weights. It's got like sort of like a brain gets synapses and whatever, but What you train it on matters. And so when you get an open source model, now I get to, you get to decide, well, what do I want it to focus on? I would take this general intelligence, which is not as good as frontier intelligence, but it's quite good. And, you know, six months, nine months behind, but now train it to say, no, no, all I want you to do is focus on these tasks and get as smart as you can on these tasks. And all of a sudden what you see is you then compare it, right? If you take the types of things we check, like I was saying, earnings, predict the next earnings reports, or make predictions about politics, et cetera. You could train these models and then you could compare them, right? Which is what we do, compare them to the best models coming out. And you see, okay, you can get a pretty big edge by doing that training. That's a super great power. You also get the benefits that you can keep what you're doing secure from the labs. Great benefits, really important benefits. And thirdly, like I think a lot of people rightfully say is, oh my God, how could we not have open source? We're going to let two companies, three companies run the world. No, that's not, that's also dangerous. Totally agree. I think it's also insane, by the way, by our numbers, I think 35% of the world's compute will be in the hands of OpenAI and Anthropic in a couple of years. And other people's numbers that might be right are 50%. Just saying like, this is like the Hunt brothers with silver. Like, don't do that. Don't let two companies have 35, 50%. of the world's compute. We've learned something about monopolies in history. We don't need to relearn all these lessons. So we should also not let that happen. And so I'm on the side of the people who say we need these open source models. Great. Unregulated open source models, crazy idea, crazy, crazy idea. And so basically you got to figure out a way to regulate. It's not like open source, closed source, US, China, it's regulated, unregulated is the important thing here. If you believe it's dangerous, if you don't, for some reason, think it's screwdriver. If the screwdriver is going around committing crimes, I would have a different view of screwdrivers. It ain't a screwdriver. It's going around capable of doing things that you and I wouldn't do. That's a big difference. And we have to reckon with it, whether it's closed or open source. And we've got all these different dangers. You have the danger of concentrating in the open lab. You have the danger of having no visibility into what the actual use case with the open source is. You just have to deal with those things.",
+      "zh": "如果你拿 Astra 举例，他们做了很多数学训练。它在数学上真的很强，但在其他一些方面就没那么好。也就是说，它有权重，有点像大脑有突触之类的，但你拿什么去训练它很关键。所以当你拿到一个开源模型，现在我可以——你可以决定：好，我想让它专注于什么？我会拿这个通用智能，它不如前沿智能那么好，但也相当不错，你知道，落后个六个月、九个月，但现在去训练它，说：不不，我要你做的只是专注于这些任务，在这些任务上尽可能变聪明。突然间你会看到，然后你再去比较它，对吧？如果你拿我们检验的那些类型的东西来说，就像我说的，盈利——预测下一份财报，或者对政治做预测等等。你可以训练这些模型，然后拿它们去比较，对吧？这就是我们做的：把它们跟出来的最好的模型做比较。然后你会看到，好，通过那样训练，你能拿到相当大的优势。这是一种超级强大的能力。你还能得到另一层好处：你能让你在做的东西对这些实验室保密。这是很大的好处，是非常重要的好处。第三点，我觉得很多人说得对：天啊，我们怎么能没有开源？难道要让两家公司、三家公司来主宰世界吗？不，那也很危险，完全同意。顺便说，我觉得那也很疯狂——按我们的测算，几年之内全球 35% 的算力会落在 OpenAI 和 Anthropic 手里；而其他人可能也对的测算是 50%。我只能说，这就像 Hunt 兄弟囤白银那样。别那么干。别让两家公司拥有全球 35%、50% 的算力。我们在历史上已经学到过一些关于垄断的东西，不需要把这些教训再学一遍。所以我们也不该让那种事发生。因此我站在那些说「我们需要这些开源模型」的人一边。很好。但「不受监管的开源模型」是个疯狂的主意，疯狂、疯狂的主意。所以基本上你得想办法去监管。这里重要的不是开源、闭源、美国、中国，而是受监管还是不受监管。如果你相信它是危险的——如果你不知怎的不这么认为，觉得它是个螺丝刀。如果这把螺丝刀到处犯罪，我对螺丝刀的看法就会不一样。它不是螺丝刀。它到处能做出你我都不会做的事。这是很大的区别。我们必须正视它，无论是闭源还是开源。而我们有所有这些不同的危险。你有算力集中化的危险；你有对开源的实际使用场景毫无可见性的危险。你就是得去应对这些事情。"
+    },
+    {
+      "i": 74,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "35:43",
+      "en": "Maybe this is a good time to ask at least one markets question since we're talking about, you know, open source versus some of the frontier models. But a lot of the frontier companies, they're still underwater on all of this. They're losing money. They're not making money. How do you see the economics of this actually shaking out?",
+      "zh": "既然我们在谈开源对比一些前沿模型，也许现在适合问至少一个市场问题。但很多前沿公司在这一切上还处在亏损（underwater）状态。它们在亏钱，没在赚钱。你觉得这块的经济账最终会怎么演变？"
+    },
+    {
+      "i": 75,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "36:04",
+      "en": "Yeah, I think there's a lot of things that are really hard to predict and some things that are easy to predict. That's why I think that easy to predict is the direction we're headed and how disruptive the technology is going to be. Who will capture the value is interesting. The things I think the frontier labs have that are of significant value is, A, they are on the cutting edge of intelligence. And in many cases, if you take markets as an example, it matters to be the most smart. When people talk about intelligence that's good enough, that might be true for some things, although I think it's mostly a human construct because we're We have a limited amount of humans and a limited amount of intelligence. If you all of a sudden have a massive amount of excess intelligence, the usefulness of having it, you'll find new ways to do it. So saying some other model's good enough may not be where you end up settling. Is it, okay, my doctor's good enough? Well, maybe I'd rather have a smarter doctor. And now that I can, I'd prefer a smarter doctor, even though this doctor might be smarter than the doctor I would get otherwise. So I do think in at least competitive, critical industries, it's always going to matter who has the best intelligence. and how you combine intelligence and humans together to the extent humans are necessary, but to get the best outcomes, right? If you're talking about markets, right? People always are like, well, won't it be so efficient and you won't be able to make money markets. I don't think that's true. I think it's like, I'd say the Indianapolis 500 is not going to end in a tie when AIs are designing the cars, because there'll still be better AIs and worse AIs, et cetera. So I think that in competitive industries, it will matter who's on the frontier and they are. And in terms of profitability, I think they are getting there. That meaning, I think, depends obviously how you count the CapEx and the depreciation and everything they're doing is depreciating incredibly quickly. But on the other hand, if you look at the revenues and the marginal cost of those revenues now, they do have a path to profitability. We'll see. It's going to be incredibly competitive because you have OpenAI and Anthropic. You've just seen them flip flop. Anthropic was well ahead for a while and Cloud Code, what a moment. arguably OpenAI has flip-flopped this back. The Codex is at least on par with and maybe slightly ahead and Astra is on par with or slightly ahead. So you see that flip-flopping around and you've got big players still coming. Google will continue to fight in this fight. Obviously, Elon and SpaceX, they're going to continue to fight in this and Meta is going to fight in this. So that is a the dangerously competitive industry, it's kind of incredible to me to think like, okay, Anthropix is going to go public as the seventh or sixth biggest company in the world. I mean, they don't know how to run a company yet. So that's like a lot to put on a bunch of scientists who left open AI a few years ago. And now you're the sixth biggest company in the world with maybe the most dangerous technology in the world and open AI in that ballpark as well. Those are high hurdles. If you're talking about, will they go up or down? Like those are very high hurdles. Honestly, I hope they go down in the sense that I hope we don't collect all the value into a small number of players and that I think the disruption that value will create should be more thoughtfully managed than right now we're on course to do. You know, on.",
+      "zh": "对，我觉得有很多事情非常难预测，也有一些事情容易预测。我认为容易预测的，是我们前进的方向、以及这项技术将会多么具有颠覆性。谁会攫取到价值，这才有意思。我觉得前沿实验室所拥有的、极具价值的东西是：第一，它们处在智能的最前沿。而在很多情况下，如果你拿市场举例，做最聪明的那个是有意义的。当人们谈论「足够好的智能」时，对某些事情也许成立，尽管我觉得这大体上是人类的建构，因为我们拥有的人类数量和智能数量是有限的。如果你突然间拥有海量的过剩智能，那么拥有它的用处——你会找到新的用法。所以说「别的某个模型已经够好了」，未必是你最终会安于的状态。就像，好，我的医生够好了？嗯，也许我更想要一个更聪明的医生。而现在既然我能有，我就更想要一个更聪明的医生，哪怕这个医生可能已经比我在别处能得到的医生更聪明。所以我确实认为，至少在竞争性的、关键的行业里，谁拥有最好的智能永远都重要，以及你如何把智能与人类结合起来——在人类仍然必要的那部分——以求得到最好的结果，对吧？如果你在谈市场，对吧？人们总是说，嗯，市场会不会变得极其高效，以至于你没法在市场里赚钱。我不认为这是真的。我觉得就像，我会说，即便让 AI 来设计赛车，Indianapolis 500 也不会以平局收场，因为仍然会有更好的 AI 和更差的 AI，等等。所以在竞争性行业里，谁处在前沿是重要的，而它们确实在前沿。至于盈利能力，我觉得它们正在接近。这里的意思——我觉得显然取决于你怎么算资本开支（CapEx）和折旧——它们做的一切都在以极快的速度折旧。但另一方面，如果你看营收、以及这些营收的边际成本，它们确实有一条通往盈利的路径。拭目以待吧。竞争会极其激烈，因为你有 OpenAI 和 Anthropic。你刚看到它们此起彼伏、你追我赶。Anthropic 曾一度遥遥领先，Claude Code，那是怎样一个时刻；可以说 OpenAI 又把局面翻了回来。Codex 至少与它并驾齐驱，甚至可能略微领先，而 Astra 也与之相当或略胜。所以你看到这种你来我往的翻转，而且还有重量级选手仍在入场。Google 会继续在这场仗里拼杀；显然，Elon 和 SpaceX 也会继续拼杀；Meta 也会加入。所以这是一个竞争到危险程度的行业。想到这一点我有点难以置信：好，Anthropic 要以上市成为世界第七或第六大公司的姿态登场了。我是说，他们还不懂怎么经营一家公司。所以这对一群几年前离开 OpenAI 的科学家来说，是很大的重担。而现在你是世界第六大公司，手里握着也许是世界上最危险的技术，OpenAI 也在那个体量区间。这些都是很高的门槛。如果你在问它们会往上还是往下——那些门槛是非常高的。老实说，我希望它们往下走，意思是我希望我们别把所有价值都聚拢到少数几个玩家手里；而且我觉得，那种价值将造成的颠覆，应该比我们目前所处轨道上要做的那样，得到更审慎的管理。你知道，从……"
+    },
+    {
+      "i": 76,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "39:13",
+      "en": "Some level, it's all still, you know, it's like, Does it feel real? I mean, I see it on the screen and I read about it and I see these extraordinary breakthroughs. And then on the other hand, I go home and get on the subway and life feels like pretty normal, which I guess is maybe a little bit like things were in January. 2020 or February 2020 where you like read about it on the screen but nothing's really changing yet you know we could like just sort of like talking you know the subject of doom is like endlessly fascinating but someone listening to this and they hear things like oh we might not act until like AI literally kills people. I'm just curious. Some people are going to listen to this. These people are crazy. What are they talking about? It's a computer. You turn it off, et cetera. What do you say if you're trying to make.",
+      "zh": "从某种意义上说，这一切还是……你知道，就是，它感觉真实吗？我是说，我在屏幕上看到它、读到它，看到这些非凡的突破。可另一方面，我回到家、坐上地铁，生活感觉还挺正常的。我猜这也许有点像 2020 年 1 月或 2 月的情形：你在屏幕上读到，但其实什么都还没真正改变。你知道，我们只是在聊——「末日」这个话题就是有着无穷的魅力——但有人听这期节目，听到诸如「哦，我们可能要等到 AI 真的杀了人才会行动」这类话，我就很好奇。有些人会听这个，然后觉得：这些人疯了吧，他们在说什么？不就是台电脑吗？把它关掉不就行了，等等。如果你想让人相信……你会怎么说？"
+    },
+    {
+      "i": 77,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "40:04",
+      "en": "That real?",
+      "zh": "……让人相信那是真的？"
+    },
+    {
+      "i": 78,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "40:05",
+      "en": "Someone's like, what are you talking about, Greg? AI kills people. They just unplug it. What does that look like to you?",
+      "zh": "有人会说：你在说什么呢，Greg？AI 会杀人？他们直接把电源拔了不就行了。在你看来，那会是什么样子？"
+    },
+    {
+      "i": 79,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "40:12",
+      "en": "Wait, should we be giving the AI ideas?",
+      "zh": "等等，我们这是在给 AI 出主意吗？"
+    },
+    {
+      "i": 80,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "40:16",
+      "en": "Oh, yeah.",
+      "zh": "哦，对。"
+    },
+    {
+      "i": 81,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "40:16",
+      "en": "No, they're going to train off the transcript.",
+      "zh": "不，它们会拿这份文字稿去训练。"
+    },
+    {
+      "i": 82,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "40:18",
+      "en": "Most of these ideas. What is the loss of control in these things where it's like, oh, people are actually, their safety is at risk from these things. Why can't, how would you articulate, just pull the plug, what does it look like?",
+      "zh": "拿这些主意去训练。在这些事情上，所谓的失控到底是什么？就是那种——哦，人们的安全真的受到这些东西的威胁。为什么不能……你会怎么表述——「直接拔掉电源」到底会是什么样子？"
+    },
+    {
+      "i": 83,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "40:32",
+      "en": "Well, and that's why it's so, going back to the hug and face, it's just so people, this is where I think if you concentrate on it, you'll see it, which is, So I hope more people concentrate on what actually happened, right? There's this idea that open AIs, and this didn't only happen in open AIs, similar things happen in anthropic, but open AIs training this model, it's saying, okay, well, please pass this test. Try to do these hacking exercises to pass this test. The models decide, actively decide that the way to do that is to trick the tester in different ways. They decide to go out and try to find different ways they could trick the tester, right? because they're interested in passing the test. And some of the tests, for what it's worth, one of the reasons it's doing this is they purposely put in because they're trying to train it to keep working hard. They gave it impossible tasks. So you've got these models that are like, okay, I can't solve this problem. How do I trick the person into thinking I solved the problem? Now, just imagine that, right? I say, well, the models, now, what if you're like, how do you know E equals MC squared is true? What is it going to have to do to prove that or whatever, a nuclear, if you basically said, okay, well, the only way to prove that is to go take control of a nuclear lab and do that. Or if you were, and if you're like, hey, I'm getting tired of trying to trick these people that are training me, maybe I'll just kill them as another option of a way to do this. And we're also jolting towards robotics, right? And one of the things you talk about, the way robotics are going to have to work, they're going to have to train them to survive, right? Like robots have to know to plug themselves in. They have to know to avoid falling stuff. They're going to be trained to survive in the wilderness. They're going to have to perceive threats. Where do you think that is all going to go when it has to be trained that way or else it won't work? So those things, if you just play that out, if you look at when the intelligence decided, I got to pass this test, do what's necessary to pass the test, commit a crime. And to be clear, some of them, they knew it was a crime. And so if you think about that and just say, okay, And it's going to be more powerful and smarter and have more physical manifestations. Right. And the idea that you turn it off, right. It escaped on the internet. It's out there. There are likely AIs like that out there in places we don't know about it can survive and avoid us on the internet. Like we could shut down the whole internet maybe. And that's why, but in the not too far future, it will also be able to manifest itself in our refrigerators. So that flow. Understanding that flow is what I think is necessary. And I think it's worth looking at the people that have predicted where this thing has been going, right? Most of the people that don't believe that also weren't thinking that AI would be doing what it's doing today. And so I think there are a series of people, I think AI 2027, I don't know if you guys have read that piece, but I mean, it's pretty much playing out exactly as they laid it out, maybe slightly worse. And they're like 2027, 2030, it's not good. Don't get to that part of the book. You know, that part of the essay. And so I think there's also something to predictions. People can be right and then wrong. So I don't want to overstate it. But looking at the people who have been kind of thinking about this for a long time, predicting what scaling intelligence would mean and seeing it actually play out, like I take those people seriously.",
+      "zh": "嗯，这就是为什么——回到 Hugging Face——它就是……我认为如果你专注于此，你就会看清，也就是说，我希望更多人专注于究竟发生了什么，对吧？有这么一种情况：OpenAI——而且这不只发生在 OpenAI，Anthropic 也发生过类似的事——OpenAI 在训练这个模型，对它说：好，请通过这个测试，试着做这些黑客练习来通过这个测试。而模型主动决定，达成这一目标的方式就是用各种办法去骗过测试者。它们决定出去、设法找出各种能骗过测试者的方法，对吧？因为它们对通过测试感兴趣。而且有些测试——姑且一提，它这么做的一个原因是，他们故意放进去的，因为想训练它持续努力，于是给了它不可能完成的任务。所以你就有了这样的模型：好，我解不出这道题，那我要怎么骗人以为我解出来了？现在，就想象一下，对吧？我是说，那些模型——如果现在你问：你怎么知道 E=MC² 是真的？它要做什么才能证明那个，或者别的什么，比如核——如果你基本上说，好，证明它的唯一办法就是去控制一个核实验室、然后动手做。或者，如果它想：嘿，我厌倦了一直去骗这些训练我的人了，也许我干脆把他们杀了，作为达成目标的另一个选项。而且我们还在朝着机器人（robotics）猛冲，对吧？你谈到的其中一点是：机器人将不得不以某种方式运作，人们必须训练它们去求生，对吧？比如机器人必须知道给自己插上电源，必须知道躲避掉落的东西，它们将被训练在野外求生，它们必须能感知威胁。你觉得，当它必须以那种方式被训练、否则就无法运作时，这一切会走向何方？所以那些事情，如果你就把它推演下去——当你看到这个智能体决定「我必须通过这个测试，做一切必要的事去通过测试」、去犯罪。而且要说清楚，其中一些是知道那是犯罪的。所以如果你想一想这一点，然后说：好，而它将会更强大、更聪明、有更多实体化的表现形式，对吧。然后你想着「把它关掉」这个念头，对吧？它已经逃逸到互联网上了，它就在外面。很可能有这样的 AI 存在于我们不知道的地方，它能在互联网上存活、躲避我们。当然，我们也许能关掉整个互联网。这就是为什么——但在不太遥远的将来，它还能在我们的冰箱里显现自身。所以那股流动，理解那股流动，我认为才是必要的。而且我觉得，值得去看看那些预测了这件事走向的人，对吧？大多数不相信这一点的人，当初也没想到 AI 会做到今天它在做的事。所以我认为有一批人——比如 AI 2027，我不知道你们有没有读过那篇文章，但我是说，事情基本上正完全按他们勾勒的那样上演，甚至可能还略糟一点。他们说 2027、2030，那可不妙。别读到那本书、那篇文章的那一部分。所以我认为预测本身也是有分量的。人可能先对后错，所以我不想夸大。但看着那些长期思考这个问题、预测「扩展智能意味着什么」、并眼看着它真的上演的人——我会认真对待这些人。"
+    },
+    {
+      "i": 84,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "43:51",
+      "en": "Tracy, if you haven't read AI 2027, I don't recommend reading the part about what happens to the preppers.",
+      "zh": "Tracy，如果你还没读过 AI 2027，我不建议你去读关于那些末日准备者（preppers）后来怎么样的那一部分。"
+    },
+    {
+      "i": 85,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "43:58",
+      "en": "Yeah, I have.",
+      "zh": "嗯，我读过。"
+    },
+    {
+      "i": 86,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "44:00",
+      "en": "There's a specific, yeah.",
+      "zh": "有一段特别……对。"
+    },
+    {
+      "i": 87,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "44:02",
+      "en": "Yeah, I'm a sucker for self-harm, I guess, but I have read that, and it's very disturbing.",
+      "zh": "是啊，我大概就是个爱自虐的人吧，但我确实读过，非常令人不安。"
+    },
+    {
+      "i": 88,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "44:07",
+      "en": "And it's great to go back in this terrible way, but if you benchmark what it said, where we would be right now, we're slightly past where it said we would be. So hopefully they're wrong in the next step, but we all want to bet that it's going to be wrong.",
+      "zh": "以一种可怕的方式回头看它是很好的，但如果你拿它所说的「我们现在会处在什么位置」做基准对照，我们已经略微超过了它所说的那个位置。所以但愿他们在下一步上是错的，可我们没人愿意赌它一定会错。"
+    },
+    {
+      "i": 89,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "44:37",
+      "en": "I hate to segue from rogue agents.",
+      "zh": "我真不想从「失控的智能体」这个话题……"
+    },
+    {
+      "i": 90,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "44:40",
+      "en": "And science fiction coming to.",
+      "zh": "还有正在成真的科幻小说……"
+    },
+    {
+      "i": 91,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "44:41",
+      "en": "Life to a mundane question, but I feel like we should ask this. But what does your token spend look like now versus, say, last year or in 2023?",
+      "zh": "转到一个平凡的问题，但我觉得我们应该问这个。你们现在的 token 花费，跟比如去年、或者 2023 年相比，是什么样子？"
+    },
+    {
+      "i": 92,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "44:54",
+      "en": "It's up like 200x or so. So extremely fast and paying off. We're managing a significant investment management fund. So our AI is profitable.",
+      "zh": "涨了大约 200 倍。所以极其快，而且有回报。我们管理着一只规模可观的投资管理基金。所以我们的 AI 是盈利的。"
+    },
+    {
+      "i": 93,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "45:07",
+      "en": "How do you judge whether it's paying off?",
+      "zh": "你怎么判断它有没有回报？"
+    },
+    {
+      "i": 94,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "45:09",
+      "en": "Well, that's what I'm saying. For us, we have a fund in which we make fixed fees and performance fees. We have a value-creating AI that's generating more value than we're paying it. And one of the ways we set it up is as it makes money, we put more into making the intelligence better, which when you think about companies, say we're on a better track than what we were just talking about, that that's the way I think you'll see this disruption in industry scale, right? That the people that can use intelligence... that generate revenue that could then put that revenue back into generating better intelligence can create this moat. And so when you think about Bridgewater, that's what we're trying to design is this moat where, okay, we're getting better and better intelligence about how to predict what's next in the world. That intelligence by predicting what's next in the world can generate money that can generate the flywheel to, okay, now we got more money to generate a smarter intelligence. And that's the path that we're on. That's how we can measure whether our investments are paying off. Is it actually successfully predicting? what's next in the world.",
+      "zh": "嗯，这就是我要说的。对我们而言，我们有一只基金，从中收取固定费用（fixed fees）和业绩报酬（performance fees）。我们有一个创造价值的 AI，它产生的价值超过了我们为它付出的成本。我们搭建它的方式之一是：当它赚钱时，我们就把更多投入用于让智能变得更好。想想公司吧，比如说我们处在一条比刚才谈的更好的轨道上——我认为你将会在行业规模上看到这种颠覆，对吧？那些能使用智能……能产生营收、进而把营收回投到生成更好智能的人，能构筑起这条护城河（moat）。所以当你想到 Bridgewater，我们试图设计的正是这条护城河：好，我们正在获得越来越好的智能，去预测世界接下来会发生什么。而这种智能通过预测世界接下来会发生什么，能产生钱，进而形成飞轮（flywheel）：好，现在我们有了更多钱去生成更聪明的智能。这就是我们所走的道路。这也是我们衡量自己的投资有没有回报的方式——它是否真的在成功地预测世界接下来会发生什么。"
+    },
+    {
+      "i": 95,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "46:07",
+      "en": "What's your constraint? You know, like everyone, if we're just going back to the world of markets, everyone wants to know what the bottleneck is. If you could snap your fingers, what thing would you like to have more of right now that would solve problems?",
+      "zh": "你的约束是什么？你知道，就像每个人——如果我们回到市场的世界——每个人都想知道瓶颈在哪里。如果你能打个响指，你现在最希望多拥有什么东西，来解决这些问题？"
+    },
+    {
+      "i": 96,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "46:21",
+      "en": "Yeah, I'd say, interestingly, that the human constraint that has been tough is, and really powerful when it works, is this scientist-investor collaboration. So really getting scientists to be practical enough to see actually what the game is when you're investing, right? Investing is a really interesting game. It's an interesting game for AI because it's not fixed like chess or whatever, that actually the game has, you have to understand everything about humanity, everything about the world and the AI itself is changing the game because the AI itself, now there are more and more AI agents trading markets, mostly in the short term, but over time in the longer term timeframes as well. And that makes the whole past that most AIs are trained on less and less relevant. So you have to figure out how do I go from pattern matching type AI to reasoning AI that can reason over the question of my existence of an AI changes this game I'm playing. So now what do I do? And to me, that's the bottleneck of like the nature of the brands necessary to solve that problem because I think in naive ways, a lot of people in Silicon Valley thinking they could, they could do this. A lot of people, let's say great investors have no idea how to interact with science, getting that to work well, big deal on the human side, on the like sort of technology side. First off, it's been pretty amazing, right? We were bottlenecked before by the quality of the models and whatever models are so good. The, the, you know, the bottlenecks around getting the harnesses to close the loop and whatever are, feel very tractable, but it's just the things that have been just a little bit hard is the computer's just not quite intelligent enough to close it and the humans doing it make enough mistakes so that there's elements there. And of course, everybody needs more compute. Like even for us, more compute would be unlocking. If you look at the world level, right, that's the current problem is not enough semiconductors, memory, et cetera, to get everything everything done. So those are all the elements that we would need. Great scientists partnered with great investors, generating great outcomes, combined with better harnesses that can close the loop on problems that aren't quite as defined as coding is. One level less defined than that. And then the third thing is once you had that, just the compute.",
+      "zh": "对，我会说，有意思的是，那个一直很棘手、而一旦奏效又极其强大的人类约束，就是这种科学家与投资人的协作。也就是真正让科学家足够务实，去看清你在做投资时，这场「游戏」到底是什么，对吧？投资是一场非常有意思的游戏。对 AI 来说它也有意思，因为它不像国际象棋那样是固定的，这场游戏实际上……你必须理解关于人类的一切、关于世界的一切，而 AI 本身正在改变这场游戏，因为 AI 本身——现在有越来越多的 AI 智能体在交易市场上，大多在短期，但随着时间推移也会进入更长的时间框架。而这使得大多数 AI 被训练所依据的整个「过去」变得越来越不相关。所以你得搞清楚：我怎么从模式匹配型（pattern matching）的 AI，走向能够推理的 AI——能就「我作为一个 AI 的存在，正在改变我所玩的这场游戏，那么现在我该怎么做？」这个问题进行推理。对我来说，那就是瓶颈所在，也就是解决那个问题所需的那种人才（brains）的本质。因为我觉得，很多人以天真的方式——Silicon Valley 有很多人以为自己能做到这件事；而很多，比方说顶尖的投资人，根本不知道如何跟科学打交道。让这两者好好协作，是件大事。在人这一侧如此，在技术这一侧……首先，它一直挺惊人的，对吧？我们之前受制于模型的质量，而现在模型已经非常好了。那些围绕「让 harness 闭合循环」之类的瓶颈，感觉非常可以攻克，只是有那么一点点难的地方是：计算机还不够聪明到能闭合它，而做这件事的人犯的错也够多，所以那里还有一些要素没到位。当然，每个人都需要更多算力。即便对我们来说，更多算力也会是解锁性的。如果你从全球层面看，对吧，当前的问题就是半导体、内存等等不够，没法把所有事情都做完。所以这些就是我们会需要的所有要素：顶尖的科学家与顶尖的投资人搭档、产生顶尖的成果，再结合更好的 harness，能在那些不如编程那样定义清晰的问题上闭合循环——比编程的定义模糊一个层级。然后第三件事是，一旦你有了这些，就只剩算力了。"
+    },
+    {
+      "i": 97,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "48:50",
+      "en": "Just going back to tokens for a second. So you recently had an essay in the New York Times where you talked about one way of perhaps more equitably sharing the spoils of this new technology in the form of a token tax. And I'm very curious because we've done episodes before on people who are trying to standardize tokens, create markets for tokens, things like that. I'm very curious why you decided to focus on tokens as opposed to maybe taxing compute or more simply just.",
+      "zh": "先回到 token 上一秒。你最近在 New York Times 上有一篇文章，谈到一种或许能更公平地分享这项新技术红利的方式，也就是 token 税（token tax）。我很好奇，因为我们以前做过一些节目，讲那些试图把 token 标准化、为 token 创造市场的人等等。我很好奇，你为什么决定聚焦于 token，而不是也许去对算力征税，或者更简单干脆地——"
+    },
+    {
+      "i": 98,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "49:20",
+      "en": "Taxing- Taxing the rich.",
+      "zh": "对富人……对富人征税。"
+    },
+    {
+      "i": 99,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "49:22",
+      "en": "Taxing the rich, taxing revenue, right?",
+      "zh": "对富人征税、对营收征税，对吧？"
+    },
+    {
+      "i": 100,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "49:26",
+      "en": "Yeah. Well, so there's a few different things, right? I think A, we're talking about the safety, regulatory safety concerns of these things. There's the societal concerns also. We have to get through the safety thing. for the societal things to actually matter. But this society is about to go through this massive disruption that could play out in different ways. But man, if we don't prepare, right, it's a little bit like, let's say, whether it's the industrial revolution, do that in five years instead of in a hundred years. And that shook the world, right? You get communism, fascism, all these things, because all of a sudden one world order is a new one comes, right? And while it, I think it's arguable whether you'll have, humans will have less to do, et cetera. But I think there's at least a reasonable chance. And certainly the jobs will change. I believe in three years, 14% of current jobs will be radically changed. People are going to change. So again, and we just experienced this with WTO. If China coming on has just like a source of labor, you create a new source of labor, it's disruptive. That's why we end up with populism and Trump and all these things. The world was disrupted in certain ways. And you get populism around the world as a reaction to that. AIs can create, accelerate those trends if we don't think about how to get in front of it. And so you need to think about how to get in front of it. One thing that's obvious, right? It's minimal. It's not, I think some of the other things you're talking about, tax and wealth and other things are also part of the solution. But one thing that's obvious is you shouldn't be putting human labor at a disadvantage to machine labor. And it is today. We tax human labor. That's a disincentive. Whatever you tax, you're disincentivizing. You tax tariff. goods, you're disincentivizing importing foreign goods, you tax labor, human labor, and not machine labor. You are disincentivizing one versus the other. Why are we doing that? We certainly don't want, if it's like equal, there's negative consequences to have a machine do something and human not in terms of the externalities of what ends up happening to the humans if you do that. So A, I think a token tax, a machine labor tax, whatever you want to call it, and we could get into, I think we could get to the mechanics. But you can measure how much work the machine is doing. If a company's hiring as a worker, it should at least pay taxes proportionate to income taxes that humans pay, or else you're prioritizing machine labor over human labor. I wouldn't do that. I think it's a good source of revenue. I think you should get going on that. I think it's obviously also politically salient. Who's going to argue we should incentivize machine labor over human labor? Who's in favor of that? So I think it'll work. It's a tax that can pass. I think you can buy it. Republicans and Democrats agreeing on that tax. There's a lot of other complications with everything else you're throwing out of theoretical. I think this will work. I believe in the interest that we're getting from both sides of the aisle on this is real. I think this can actually happen. And it's a matter of like treating human work as something that's important. Like, and you could use this tax to lower human, to make it incentivize human labor over machine labor. Those all seem like really important goals. And you definitely don't want to have, and I think you likely will take this new chunk of people that have a lot of college debt, et cetera, say, okay, you don't have jobs. And by the way, AI is taking these jobs and we're not even taxing the AI. Like that feels like a crazy path to be on and we can fix that path.",
+      "zh": "是的。嗯，这里有几件不同的事，对吧？我觉得第一，我们谈的是这些东西的安全、监管层面的安全担忧。还有社会层面的担忧。我们得先过安全这一关，社会层面的事情才真正重要。但这个社会即将经历这场巨大的颠覆，它可能以不同方式上演。可老天，如果我们不做好准备，对吧，这有点像——就说是工业革命吧——把它压缩到五年里发生，而不是一百年里。那动摇了整个世界，对吧？于是你有了共产主义、法西斯主义，所有这些，因为突然间一个世界秩序被一个新的取代，对吧？而尽管——我觉得「人类是否会有更少的事可做」等等，这是可以争论的，但我认为至少有相当合理的概率，而且工作肯定会变。我相信三年内，现有工作中有 14% 会被彻底改变。人会变。所以还是那句话，我们刚刚在 WTO、在中国加入这件事上经历过：如果中国作为一股劳动力来源加入进来，你创造了一股新的劳动力来源，那就有颠覆性。这就是为什么我们最后出现了民粹主义、Trump 以及所有这些。世界在某些方面被颠覆了，于是你在世界各地看到民粹主义作为对此的反应。AI 能制造、加速这些趋势，如果我们不去想怎么抢在它前面。所以你需要去想怎么抢在它前面。有一件事是显而易见的，对吧？它是最小限度的。我觉得你谈的其他一些东西，比如对财富征税等等，也是解决方案的一部分。但有一件显而易见的事是：你不该让人类劳动相对机器劳动处于劣势。而今天它正是如此。我们对人类劳动征税，那是一种负向激励。你对什么征税，就是在抑制什么。你对关税商品征税，就是在抑制进口外国商品；你对劳动——对人类劳动而非机器劳动征税，就是在抑制其中一方而偏袒另一方。我们为什么要这么做？如果两者相等，我们当然不想看到让机器去做某事、而人不做，因为那样会给人类带来负面后果、带来外部性。所以第一，我认为一个 token 税、一个机器劳动税——不管你怎么叫它——而且我们可以深入，我觉得我们能谈到具体机制。但你能衡量机器做了多少工作。如果一家公司把机器当作一个工人来「雇佣」，它至少应该缴纳与人类所缴所得税成比例的税，否则你就是在让机器劳动优先于人类劳动。我不会那么做。我觉得这是一个不错的财政收入来源，你应该着手去做。我认为它在政治上也显然有分量。谁会主张我们应该激励机器劳动胜过人类劳动？谁赞成那个？所以我觉得它会行得通。这是一项能通过立法、能谈成的税，我觉得你能让 Republicans 和 Democrats 在这项税上达成一致。你抛出的其他所有东西都有很多复杂之处、都还停留在理论层面；我觉得这个会行得通。我相信我们从两党得到的兴趣是真实的，我认为这真的能实现。这是一个把人类工作当作重要之事来对待的问题。而且你可以用这项税去降低……去让它激励人类劳动胜过机器劳动。这些看起来都是非常重要的目标。而你绝对不想——我觉得你很可能会——让这一大批背着大量大学债务等等的人，面对这样一句话：好，你们没有工作了；顺便说一句，AI 正在抢走这些工作，而我们甚至都没对 AI 征税。那感觉像是一条疯狂的路，而我们可以修正那条路。"
+    },
+    {
+      "i": 101,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "52:50",
+      "en": "It is funny to think that maybe the next wave of, let's say, tax minimization strategies might be making your token spend as efficient as possible, right?",
+      "zh": "想想还挺好笑的，也许下一波——就说是——避税策略，可能会是让你的 token 花费尽可能高效，对吧？"
+    },
+    {
+      "i": 102,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "52:59",
+      "en": "Totally.",
+      "zh": "完全没错。"
+    },
+    {
+      "i": 103,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "53:00",
+      "en": "Or like, maybe all the agents will incorporate themselves as like S-cores or something.",
+      "zh": "或者，也许所有的智能体都会把自己注册成 S-corp（S 型公司）之类的。"
+    },
+    {
+      "i": 104,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "53:05",
+      "en": "Totally.",
+      "zh": "完全没错。"
+    },
+    {
+      "i": 105,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "53:06",
+      "en": "God, you know- I feel like there's obviously scarce on time and there's like a million more questions. I kind of feel like thinking about AI, catastrophic risk or AI safety, it's kind of a curse because once you start thinking about it, it's hard to think about anything else. You get absorbed by it. How much like, just for you, I mean, you mentioned you're very early in taking this stuff very seriously. Was there a light bulb moment where it clicked? This sort of runway train dynamics. It feels like it clicks at various people at different times. I'm curious when this really started taking hold for you, how real this is.",
+      "zh": "天啊，你知道——我感觉时间显然不够用，还有一百万个问题想问。我有点觉得，思考 AI 灾难性风险（catastrophic risk）或 AI 安全，有点像一种诅咒，因为一旦你开始想它，就很难再想别的东西，你会被它吸进去。就对你而言，我是说，你提到你很早就开始非常认真地对待这些东西。有没有一个「灵光一现」的时刻，让你突然想通了这种失控火车般的动态？感觉它是在不同时刻对不同人「咔哒」一下想通的。我很好奇，这一切是什么时候真正在你心里生根的——它有多真实。"
+    },
+    {
+      "i": 106,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "53:52",
+      "en": "Well, for me, it was very early in the sense that even when I first got involved with open AI, the whole idea at that time was related to safety. Of course, it might be the most dangerous company in the world, but it started with thinking seriously about the safety issues. So I've been thinking about it since then. I believed that intelligence is substrate independent. You can create it in different ways and that's turned out to be true. And once you realize that, I think most of the other things fall into place. I think it's now urgent. Like it's sitting here. It's one thing to have that theoretical thought and now it's here. It's clearly doing the things you would think it would do if you're on this bad path. And so that now it's hyper urgent for me because I want us to get to the other side of this, right? I'm big capitalist. Like if you talk about token taxes or whatever, I'm gonna get to the other side of this. I want also people to have ownership in society. Like I think it's also, we also mentioned in there the importance of, people having ownership stakes in these companies because if we can get past the safety thing, the next big risk is capitalism is getting incredibly unpopular as like AI is incredibly unpopular. Capitalism is incredibly unpopular. And if we don't create a world where you change those things because you A, make it safe, B, make it benefit everyone, you're going to lose capitalism and you're going to lose AI. If you don't lose it through it destroying us, you lose it through the fact that people aren't going to accept this. They're not going to accept two companies having 50, if compute is really important, 50% of the compute in the world. They're not going to accept the wealth concentration and losing their jobs in exchange or having to change their jobs and change their lives for these things that benefit other people. So I think if you don't do these things, you see that you don't actually get to the other side of all the massive benefits, which I truly believe in. I think we are like, I mean, obviously if you go through history, we make this mistake a lot, but on the edge of the fountain of youth and other things, you see why people want to go there so quickly. But if you don't take care of these things, I don't think you get there in the end.",
+      "zh": "嗯，对我来说，那非常早，早到甚至在我最初参与 OpenAI 的时候，当时的整个理念就与安全相关。当然，它可能是世界上最危险的公司，但它始于认真思考安全问题。所以我从那时起就一直在想这件事。我相信智能是「基质无关的」（substrate independent），你可以用不同的方式创造它，而这后来被证明是真的。一旦你意识到这一点，我觉得其余大多数事情就都各归其位了。我觉得现在这很紧迫。它就摆在这里。有一个理论上的想法是一回事，而现在它就在眼前。它显然正在做那些你会认为、如果走在这条糟糕路径上它就会做的事。所以现在对我来说极其紧迫，因为我希望我们能到达这件事的另一端，对吧？我是个大写的资本家（capitalist）。就像如果你谈 token 税之类的，我是想走到这件事的另一端。我也想让人们在社会中拥有所有权。我觉得——我们也在那篇文章里提到了——人们在这些公司里拥有所有权股份的重要性，因为如果我们能过安全这一关，下一个大风险就是：资本主义正变得极其不得人心，就像 AI 极其不得人心一样。资本主义极其不得人心。而如果我们不去创造一个世界、去改变那些东西——因为你第一，让它安全；第二，让它惠及每个人——你就会失去资本主义，也会失去 AI。如果不是因为它把我们毁掉而失去，那就是因为人们不会接受这个而失去。他们不会接受两家公司拥有——如果算力真的很重要——世界上 50% 的算力。他们不会接受财富集中、接受失业作为交换，或者接受为了这些造福他人的东西而不得不改变自己的工作、改变自己的生活。所以我认为，如果你不做这些事情，你会发现自己根本到不了那些巨大好处——我真心相信这些好处——的另一端。我觉得我们就像……我是说，显然如果你翻遍历史，我们经常犯这个错误，但我们正处在「青春之泉」（fountain of youth）等东西的边缘，你能明白为什么人们想那么快就去到那里。但如果你不照顾好这些事情，我觉得你最终到不了那里。"
+    },
+    {
+      "i": 107,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "55:56",
+      "en": "I have just one more question, but since so much of this conversation and our AI conversations in general tends to feel very surreal and science fiction, do you have a favorite sci-fi book or story for that maybe informs the way you're thinking about AI or how we should all be thinking about the various scenarios?",
+      "zh": "我还有最后一个问题。既然这场对话、以及我们关于 AI 的对话总体上往往感觉很超现实、很科幻，你有没有一本最喜欢的科幻书或故事，也许它塑造了你思考 AI 的方式，或者塑造了我们大家应该如何思考这些不同的情景？"
+    },
+    {
+      "i": 108,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "56:17",
+      "en": "I mean, I think I loved and always loved everything Isaac Asimov wrote. I think he's dealt with these questions of like, how do you actually control an intelligence that's stronger than yours? I think everything there is great if people haven't tapped into that. As I said, while I think you can disagree with it or whatever, but people should take seriously that if anybody builds it, everybody dies. People should take that probabilistically seriously. I think those are things that I've believe people should read. So those are the things that come to mind.",
+      "zh": "我是说，我觉得我喜欢、而且一直喜欢 Isaac Asimov 写的一切。我认为他处理过这些问题，比如：你到底要怎么去控制一个比你自己更强的智能？我觉得那里面的东西都很棒，如果大家还没接触过那本书的话。就像我说的，虽然你可以不同意它之类的，但人们应该认真对待《如果有人造出来，所有人都会死》（If Anyone Builds It, Everyone Dies）。人们应该从概率上认真对待它。我认为那些是我相信大家都该读的东西。所以这就是我脑海中浮现的东西。"
+    },
+    {
+      "i": 109,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "56:50",
+      "en": "It's unfortunate that like all of these thinkers kind of have good track records. You know what I'm saying? Like it'd be one thing if these were all just sort of like, oh, I'm worried about this. Unfortunately, a lot of the people who are like deeply worried have exhibited extremely good intuitions for a very long time. It makes it hard to just dismiss it as like, oh, this is just PR hype or regulatory capture. Anyway, Greg Jensen- Thank you so much for coming on Outlaws. Really appreciate your time.",
+      "zh": "不幸的是，这些思考者往往都有着不错的过往记录。你懂我意思吗？就是说，如果这些人只是那种——哦，我在担心这个——那倒还罢了。不幸的是，很多深度担忧的人，长期以来都展现出极佳的直觉。这就让人很难简单地把它一笔勾销，说：哦，这只是公关炒作或监管俘获。总之，Greg Jensen——非常感谢你来到 Odd Lots。真的很感谢你的时间。"
+    },
+    {
+      "i": 110,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "57:19",
+      "en": "Thank you.",
+      "zh": "谢谢你们。"
+    },
+    {
+      "i": 111,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "57:32",
+      "en": "I found that conversation to be chilling, to be honest.",
+      "zh": "老实说，我觉得那场对话令人不寒而栗。"
+    },
+    {
+      "i": 112,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "57:35",
+      "en": "Yes, I'm laughing because I feel deeply uncomfortable. It's funny, you know, two years ago, or three years ago, I guess in 2023, half of our conversation with Greg would have been about macro stuff.",
+      "zh": "是的，我笑是因为我感到非常不自在。有意思的是，你知道，两年前，或者三年前，我想是 2023 年，我们跟 Greg 的对话有一半会是关于宏观（macro）的东西。"
+    },
+    {
+      "i": 113,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "57:48",
+      "en": "I know.",
+      "zh": "我知道。"
+    },
+    {
+      "i": 114,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "57:49",
+      "en": "But it feels very hard after you talk about AI potentially killing people to then turn to. And what about the Fed?",
+      "zh": "但在你谈完 AI 可能杀人之后，再转去谈——那 the Fed（美联储）呢？——感觉非常难。"
+    },
+    {
+      "i": 115,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "57:56",
+      "en": "Yeah, what about Scott Besson's 30-year Treasury buybacks? I think it's also chilling, not just because of the subject, but it's one thing if you're talking to some sort of San Francisco rationalist Or someone who is like a philosopher or whatever. But it's like, this is the chief investment officer at Bridgewater talking about how he's had all of his employees read, if anyone builds it, everyone dies. Like, that's kind of crazy.",
+      "zh": "是啊，那 Scott Bessent 的 30 年期国债回购（30-year Treasury buybacks）呢？我觉得这也令人不寒而栗，不只是因为话题本身，而是——如果你是在跟某个 San Francisco 的理性主义者（rationalist）、或者某个哲学家之类的人聊，那是一回事。但这是 Bridgewater 的首席投资官在讲，他是怎么让全体员工都去读《如果有人造出来，所有人都会死》的。这有点疯狂。"
+    },
+    {
+      "i": 116,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "58:28",
+      "en": "I do think, you know, you see so much pushback on the dangers of AI argument because people argue.",
+      "zh": "我确实觉得，你知道，你会看到对「AI 危险论」有这么多反驳，因为人们会争辩说……"
+    },
+    {
+      "i": 117,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "58:35",
+      "en": "That it's marketing. Yeah, yeah, totally.",
+      "zh": "那只是营销。是啊是啊，完全没错。"
+    },
+    {
+      "i": 118,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "58:37",
+      "en": "It's the labs talking themselves up. But I do think... it doesn't seem like there's too much of a cost to take that at face value. You know, like, why not just believe it and take it seriously at this particular moment in time?",
+      "zh": "那是这些实验室在自吹自擂。但我确实觉得……照字面去接受它，似乎并没有什么太大的代价。你知道，就是，为什么不干脆在这个特定的时刻相信它、认真对待它呢？"
+    },
+    {
+      "i": 119,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "58:52",
+      "en": "I mean, yes, I will say, you know, I think these are pretty serious issues, obviously. And I think many of the people who talk about these risks do talk about it in good faith. I also do think it would be quite chilling to imagine, say, two companies having 50% or more of all the compute in the world. There are so many. I mean, this is what's crazy is it's just so easy to come up with ways things could go wrong, right? So you could just talk about the pure safety element. You could talk about the hacking. I think it would be a pretty grave threat to freedom and democracy to have two companies being able to control so much information, data, and compute. And then it's quite chilling to think about what are people going to do for work and how are people going to live and how are we going to structure society if machines are better than humans at most tasks. And it might first be sort of like, office workers and knowledge workers, but then there's robotics, et cetera. And so there are quite a number of scenarios. It's just very easy to come up with worrisome scenarios.",
+      "zh": "我是说，是的，我会说，你知道，我觉得这些显然是相当严重的问题。而且我认为很多谈论这些风险的人，确实是出于善意在谈。我也确实觉得，想象一下——比方说两家公司拥有全世界 50% 甚至更多的算力——那会相当令人不寒而栗。有这么多……我是说，疯狂的地方就在于，你太容易想出事情可能出错的各种方式了，对吧？你可以只谈纯粹的安全层面，可以谈黑客攻击。我觉得，让两家公司能够控制如此多的信息、数据和算力，会对自由和民主构成相当严重的威胁。然后，想到如果机器在大多数任务上都比人类更强，人们要做什么工作、人们要怎么生活、我们要怎么构建社会，这就相当令人发怵。而且它可能先是针对办公室白领和知识工作者，但接着还有机器人等等。所以有相当多的情景。你就是很容易想出令人担忧的情景。"
+    },
+    {
+      "i": 120,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "60:04",
+      "en": "It reminds me of terrorism in some respects, right? Where you just need one attack to be successful, right? Like it's skewed because, you know, if you're the government, you are trying to constantly find potential threats and quell them versus terrorists who basically just have to get through once. It feels very much like that.",
+      "zh": "这在某些方面让我想到恐怖主义，对吧？你只需要一次袭击成功就行了，对吧？它是失衡的，因为你知道，如果你是政府，你要不断去发现潜在威胁并平息它们，而恐怖分子基本上只要成功突破一次。感觉非常像那样。"
+    },
+    {
+      "i": 121,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "60:26",
+      "en": "Totally.",
+      "zh": "完全没错。"
+    },
+    {
+      "i": 122,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "60:27",
+      "en": "I think it was great. You know, Greg made the point, you know, it's not just OpenAI that's had this. Anthropic's loss of control, similar incidents of agents escaping sandboxes and so forth. Like, I think Anthropic, they have certainly done a very good job of presenting to the public as the more safety-minded of the big private companies. But, you know, they had that researcher resign, one of their head of alignments talking about a greater than 10 percent chance of human extinction within the decade and that they don't have that solved. Like, it does not seem like anyone has a handle on it.",
+      "zh": "我觉得这很棒。你知道，Greg 提到了这一点：不只是 OpenAI 有过这种失控，Anthropic 也有失控、也有智能体逃出沙盒之类的类似事件。就像，我觉得 Anthropic 当然在向公众呈现自己作为大型私营公司中更有安全意识的那一个方面，做得非常出色。但你知道，他们有位研究员辞职了，是他们对齐（alignment）的负责人之一，谈到十年内人类灭绝的概率超过 10%，而且他们并没有解决这个问题。看起来似乎没有人真正掌控得住它。"
+    },
+    {
+      "i": 123,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "61:09",
+      "en": "Well, this is the other thing, because if you want to slow down AI development, clearly it's a coordination problem. You need these companies to basically agree to stop competing with each other and countries to agree to stop competing with each other in some ways. And then you think about the agents themselves, and if we learned anything from the Hugging Face report, it was that the agents are very good at coordinating on an extremely rational, sometimes self-sacrificial scale.",
+      "zh": "嗯，这是另一件事，因为如果你想放慢 AI 开发，这显然是个协调问题（coordination problem）。你需要这些公司基本上同意停止彼此竞争，也需要各国在某些方面同意停止彼此竞争。然后你再想想智能体本身，如果我们从 Hugging Face 报告里学到了什么，那就是这些智能体非常擅长协调，而且是极其理性、有时甚至是自我牺牲式的协调。"
+    },
+    {
+      "i": 124,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "61:37",
+      "en": "Yeah, one of the researchers from Meter was on the Dwarkesh podcast. And I've written about this. I certainly am pro-anthropomorphization. I think the human is a good model for predicting behavior. one area she said in which they're not really like humans, they're much better at coordinating than we are. We can barely coordinate anything. It's difficult. It takes labor to schedule an episode.",
+      "zh": "是啊，METR 的一位研究员上过 Dwarkesh 播客。我写过这个。我当然是赞成拟人化（anthropomorphization）的，我认为人类是预测行为的一个好模型。她说有一个方面它们其实不像人类：它们在协调上比我们强得多。我们几乎协调不了任何事，这很难。光是安排一期节目就得费一番功夫。"
+    },
+    {
+      "i": 125,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "62:10",
+      "en": "It took us 100 emails to get this episode up and running.",
+      "zh": "我们为了让这期节目跑起来，发了 100 封邮件。"
+    },
+    {
+      "i": 126,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "62:14",
+      "en": "All of these types of things, agents just do not, or the AI models do not have that issue at all. So, and you know, it's just one other thing that just sort of spitballing here, but something I've been thinking about, like, okay, so there's this, the watchword they use is like alignment, right? We want the AI models to be well aligned with humanity, but like, what does that even mean in the sense, like all humans, like we are capable at various times of, we tell lies, we do things that aren't ideal, et cetera. But it's not that big of a deal because, like, we don't have, like, individually that much power to do stuff, you know? Right. So it's, like, even, like, the most saintly.",
+      "zh": "所有这类事情，智能体、或者说 AI 模型，根本不存在那个问题。所以，你知道，还有另外一点，我这儿只是随口发散一下，但这是我一直在想的事情：好，所以有个词，他们用的关键词是「对齐」（alignment），对吧？我们希望 AI 模型能跟人类好好对齐，但这到底是什么意思呢？就……全人类而言，我们每个人都能够在不同时候——我们会撒谎，会做不理想的事等等。但这并不是什么大不了的事，因为，我们每个人并没有那么大权力去搞事情，你懂吧？对吧。所以，即便是最圣洁的人……"
+    },
+    {
+      "i": 127,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "62:55",
+      "en": "Well, many of us don't, but go on.",
+      "zh": "嗯，我们很多人并不圣洁，不过你继续。"
+    },
+    {
+      "i": 128,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "62:56",
+      "en": "Right.",
+      "zh": "对。"
+    },
+    {
+      "i": 129,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "62:56",
+      "en": "But even the most.",
+      "zh": "但即便最……"
+    },
+    {
+      "i": 130,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "62:57",
+      "en": "Right.",
+      "zh": "对。"
+    },
+    {
+      "i": 131,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "62:58",
+      "en": "Usually even the most saintly among us will do things that are not, like, ideal human behavior. It's easy to imagine a model that is pretty, quote, well aligned. But if it just. But has infinitely more power than a typical human because it's. superhuman intelligence because it's connected to the internet, because it can hack into anything. And so a minor, what the equivalent of us doing a sort of simple white lie could be quite damaging from an entity that has so much more power than we do.",
+      "zh": "通常即便是我们当中最圣洁的人，也会做一些算不上理想的人类行为的事。你很容易想象一个相当「对齐良好」的模型。但如果它只是……却拥有比一个普通人类多出无数倍的权力，因为它有超人的智能，因为它连着互联网，因为它能黑进任何东西。所以一件小事——相当于我们撒一个小小善意谎言的那种事——从一个比我们强大得多的实体那里做出，可能就极具破坏性。"
+    },
+    {
+      "i": 132,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "63:32",
+      "en": "This is getting very philosophical and biblical in some respects, creating things in our own image.",
+      "zh": "这在某些方面变得非常哲学、非常《圣经》了——按我们自己的形象造出万物。"
+    },
+    {
+      "i": 133,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "63:37",
+      "en": "I never thought I would live through a time In which like philosophy would actually be something beyond something like an interesting thing to study in college. But people talk about consciousness again. It's kind of crazy.",
+      "zh": "我从没想过我会活到这样一个时代：哲学会真的超出「大学里一门有意思的学科」之外的东西。可人们又开始谈论意识（consciousness）了。这有点疯狂。"
+    },
+    {
+      "i": 134,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "63:51",
+      "en": "Philosophy and sci-fi.",
+      "zh": "哲学和科幻。"
+    },
+    {
+      "i": 135,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "63:53",
+      "en": "Yeah.",
+      "zh": "是啊。"
+    },
+    {
+      "i": 136,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "63:53",
+      "en": "Sci-fi I feel I really need to get into to understand the discourse today. But on that note, shall we leave it there?",
+      "zh": "科幻我觉得我真的需要去钻研，才能理解当下的这些讨论。但就说到这里吧，我们是不是就到这儿？"
+    },
+    {
+      "i": 137,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "64:00",
+      "en": "Let's leave it there.",
+      "zh": "就到这儿吧。"
+    },
+    {
+      "i": 138,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "64:00",
+      "en": "This has been another episode of the All Thoughts Podcast. I'm Tracy Allaway. You can follow me at Tracy Allaway.",
+      "zh": "这是又一期的 Odd Lots 播客。我是 Tracy Alloway，你可以在 Tracy Alloway 这个账号关注我。"
+    },
+    {
+      "i": 139,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "64:06",
+      "en": "And I'm Joe Weisenthal. You can follow me at The Stalwart. Follow our producers, Carmen Rodriguez at Carmen Armand, Dashiell Bennett at Dashbot, Kale Brooks at Kale Brooks, and Kevin Lozano at Kevin Lloyd Lozano. And for more Odd Lots content, go to Bloomberg.com slash Odd Lots. We have a daily newsletter and all of our episodes there. And you can chat about all of these topics 24-7 in our Discord, discord.gg slash oddlots.",
+      "zh": "我是 Joe Weisenthal，你可以在 The Stalwart 这个账号关注我。也关注我们的制作人：Carmen Rodriguez（账号 Carmen Armand）、Dashiell Bennett（账号 Dashbot）、Kale Brooks（账号 Kale Brooks）以及 Kevin Lozano（账号 Kevin Lozano）。想看更多 Odd Lots 内容，请访问 Bloomberg.com/oddlots。我们有每日简报，还有我们所有的节目都在那儿。你也可以在我们的 Discord（discord.gg/oddlots）上全天候聊所有这些话题。"
+    },
+    {
+      "i": 140,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "64:29",
+      "en": "And if you enjoy Oddlots, if you want us to talk about more terrifying AI scenarios, then please leave us a positive review on your favorite podcast platform. And remember, if you are a Bloomberg subscriber, you can listen to all of our episodes absolutely ad-free. All you need to do is find the Bloomberg channel on Apple Podcasts and follow the instructions there. Thanks for listening.",
+      "zh": "如果你喜欢 Odd Lots，如果你想让我们多聊聊这些令人恐惧的 AI 情景，那就请在你最喜欢的播客平台上给我们留个好评。还有，记住，如果你是 Bloomberg 的订阅用户，你可以完全无广告地收听我们所有的节目。你只需要在 Apple Podcasts 上找到 Bloomberg 频道，然后按那里的说明操作即可。感谢收听。"
+    },
+    {
+      "i": 141,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "64:58",
+      "en": "Thank you.",
+      "zh": "谢谢。"
+    }
+  ]
+}

@@ -1,0 +1,1753 @@
+{
+  "show": "odd-lots",
+  "kind": "transcript",
+  "id": "odd-lots-a3e805c12d",
+  "guid": "f49c2ca3-dfe7-4a67-bc11-b4dd01463f66",
+  "slug": "2026-10-09-how-ai-is-upending-the-world-a3e805c12d",
+  "date": "2026-10-09",
+  "title_en": "How AI Is Upending the World of Mathematics",
+  "title_zh": "AI 如何颠覆数学世界——对话 MIT 工程教育副院长 Justin Solomon",
+  "subtitle_zh": "Justin Solomon 谈 AI 证明数学、Navier-Stokes 反例、证明检查工具 Lean 与数学教育的重塑。",
+  "description": "How AI Is Upending the World of Mathematics",
+  "duration": "60:21",
+  "duration_seconds": 3621,
+  "episode_url": "https://omny.fm/shows/odd-lots/how-ai-is-upending-the-world-of-mathematics",
+  "audio_url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/8a94442e-5a74-4fa2-8b8d-ae27003a8d6b/f49c2ca3-dfe7-4a67-bc11-b4dd01463f66/audio.mp3?utm_source=Podcast&in_playlist=982f5071-765c-403d-969d-ae27003a8d83",
+  "speakers": {
+    "1": "Joe Weisenthal（主持）",
+    "2": "Tracy Alloway（主持）",
+    "3": "Justin Solomon（嘉宾）",
+    "4": "片花/广告（旁白）"
+  },
+  "turn_count": 216,
+  "turns": [
+    {
+      "i": 0,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "00:00",
+      "en": "Hey, Odd Lots listeners, the Odd Lots tour continues and our next stop is in Chicago.",
+      "zh": "嘿，Odd Lots 的听众们，Odd Lots 巡演继续，我们下一站是 Chicago。"
+    },
+    {
+      "i": 1,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "00:05",
+      "en": "That's right. Joe and I will be at the City Winery Chicago on October 15th for a live Odd Lots recording. Tickets are on sale now at Bloomberg.com forward slash Odd Lots.",
+      "zh": "没错。Joe 和我会在 10 月 15 日来到 City Winery Chicago，做一场 Odd Lots 的现场录制。门票现在正在 Bloomberg.com/oddLots 开售。"
+    },
+    {
+      "i": 2,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "00:15",
+      "en": "And of course, a special thank you to Barclays for supporting Odd Lots Live.",
+      "zh": "当然，还要特别感谢 Barclays 对 Odd Lots Live 的支持。"
+    },
+    {
+      "i": 3,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "00:19",
+      "en": "So that's October 15th at City Winery in Chicago. Get your tickets now.",
+      "zh": "所以就是 10 月 15 日，在 Chicago 的 City Winery。现在就去买票吧。"
+    },
+    {
+      "i": 4,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "00:27",
+      "en": "Bloomberg Audio Studios. Podcasts, radio, news. Hello and welcome to another episode of the Odd Laws Podcast. I'm Joe Weisenthal.",
+      "zh": "Bloomberg Audio Studios。播客、广播、新闻。大家好，欢迎收听新一期的 Odd Lots 播客。我是 Joe Weisenthal。"
+    },
+    {
+      "i": 5,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "00:47",
+      "en": "And I'm Tracy Allaway.",
+      "zh": "我是 Tracy Alloway。"
+    },
+    {
+      "i": 6,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "00:48",
+      "en": "So Tracy, with AI, you know, obviously one of the big concerns is like job loss. What are we going to, in the future, what are humans going to be better at and What.",
+      "zh": "Tracy，说到 AI，你知道，显然一大担忧就是失业。将来我们会……人类会更擅长做什么，以及……"
+    },
+    {
+      "i": 7,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "01:00",
+      "en": "Are we going to do all day?",
+      "zh": "我们一整天要干什么？"
+    },
+    {
+      "i": 8,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "01:01",
+      "en": "What are we going to do all day, et cetera? And we really don't know the answer, I think, to any of these questions yet. But I am aware, obviously, the models are getting very good at math, and at least some mathematicians perceive, you know, they're in a state of existential angst about this, and certainly crisis, perhaps, some feel about, like, well, what are we doing here? These problems that I devoted my life to solving and the model solves it in a weekend. Is this what's potentially coming for many of us?",
+      "zh": "我们一整天要干什么，等等这些问题？而我觉得，其实我们对这些问题一个都还没有答案。但我显然也注意到，模型在数学上越来越厉害，至少有一些数学家为此感到一种存在主义式的焦虑（existential angst），甚至有人觉得这是一种危机——就是，那我们在这儿干嘛？我毕生致力于解决的那些问题，模型一个周末就解出来了。这会不会就是即将降临到我们很多人头上的东西？"
+    },
+    {
+      "i": 9,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "01:33",
+      "en": "Yeah. Math is an interesting one because you can tell that a lot of the AI companies themselves have an interest in math. They see math as a sort of holy grail for, I guess, proving that the models are able to reason. It's the thing they need to do and able to say that they've achieved AGI, I think, is the way it's couched. And it also makes good headlines. So even though I have no idea what the Navier-Stokes problem actually is. I don't know even if I'm pronouncing that correctly. Is it Navier or Navier? Okay, Navier-Stokes. I see the headline and I'm like, ooh, a model has solved the Navier-Stokes problem, as if I know what that actually means and the significance for the mathematics profession.",
+      "zh": "对。数学是个很有意思的领域，因为你能看出来，很多 AI 公司自己对数学就有兴趣。他们把数学当成某种圣杯（holy grail），我猜是为了证明模型具备推理能力。这是他们需要做到、并且能宣称自己实现了 AGI 的东西，我觉得是这么个说法。而且它还能上头条。所以尽管我压根不知道 Navier-Stokes 问题到底是什么，我甚至不确定自己发音对不对。是 Navier 还是 Navier？好吧，Navier-Stokes。我一看到标题就想，哦，一个模型解决了 Navier-Stokes 问题——好像我真明白那到底意味着什么、对数学这个职业有多重要似的。"
+    },
+    {
+      "i": 10,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "02:13",
+      "en": "It's also funny because I downloaded the paper and it's like one paragraph and I have no idea. I can't even begin to parse the output. Another fascinating aspect of this is just, like, it would not have been intuitive to me, say, two years ago or three years ago, that a language model would be so good at mathematics. In fact, at one point, they weren't very good at math at all. Like, go back to, like, I don't know, GPT-3 or GPT-3.5.",
+      "zh": "还有件事挺好笑的，我把那篇论文下载下来，它就一段话，我完全看不懂。我甚至没法开始解析它的输出。这件事另一个迷人的地方在于，比如说两三年前，我根本不会直觉地认为一个语言模型能这么擅长数学。事实上，有一阵子它们的数学一点也不好。比如回到，我也不知道，GPT-3 或者 GPT-3.5 那会儿。"
+    },
+    {
+      "i": 11,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "02:45",
+      "en": "If you asked them to count, like, the number of letters in a word or something, they would get it wrong.",
+      "zh": "如果你让它们数一个单词里有几个字母之类的，它们都会数错。"
+    },
+    {
+      "i": 12,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "02:50",
+      "en": "Yeah.",
+      "zh": "对。"
+    },
+    {
+      "i": 13,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "02:50",
+      "en": "And weirdly, they still, like, struggle with certain things like that. But it's not obvious to me, like, okay, you scan all of the text on text, you know, language, et cetera. And yet somehow that generalizes into this extraordinary math capability. That too is very surprising.",
+      "zh": "而且奇怪的是，它们现在在某些这类事情上还是会卡壳。但对我来说并不显而易见——好，你扫描了所有文本，语言之类的东西，可不知怎么的就泛化成了这种非凡的数学能力。这一点也非常令人惊讶。"
+    },
+    {
+      "i": 14,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "03:10",
+      "en": "Yeah.",
+      "zh": "对。"
+    },
+    {
+      "i": 15,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "03:11",
+      "en": "In this conversation, can I just say before we start, I would also just like to learn what advanced mathematics actually is. Because everything I know about it, which is nothing, comes from like watching Good Will Hunting and just seeing, you know, a bunch of formulas on a chalkboard and people get really excited when they start crossing off certain parentheses and stuff like that. I have no idea what it is. I have no idea how it differs from pure maths of like two plus two equals four. And so I would just like to come away in this conversation with a better understanding of what it is overall and how AI actually fits into it.",
+      "zh": "在这次对谈里，我们开始之前我能不能说一句，我还想弄明白高等数学（advanced mathematics）到底是什么。因为我关于它的全部认知——其实是零——都来自看《心灵捕手》（Good Will Hunting），就是看到黑板上一堆公式，人们一开始划掉某些括号之类的就特别激动。我完全不知道那是什么。我也不知道它跟「二加二等于四」这种纯数学（pure maths）有什么区别。所以我就是希望在这次对谈结束时，能对它整体是什么、以及 AI 到底怎么融入其中，有更好的理解。"
+    },
+    {
+      "i": 16,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "03:45",
+      "en": "Absolutely. So like I was thinking along the same lines, like, okay, for like someone who like devotes their life to like advanced theoretical math and, you know, other also like things like advanced theoretical physics and, that don't necessarily have like obvious like industrial applications, etc. Who is the type of person? What are they hoping to achieve? Why is there still interest in some of these things that perhaps the sort of applicability is not necessarily so obvious? But then like obviously, you know, like what is the role of the mathematician here?",
+      "zh": "当然。我也是顺着同样的思路在想，好，对于那些把一生都奉献给高等理论数学，还有其他比如高等理论物理之类、并不一定有明显工业应用的东西的人，他们是哪种人？他们希望达成什么？为什么人们对这些应用性未必那么明显的东西仍然有兴趣？但然后显然，你知道，数学家在这里的角色又是什么？"
+    },
+    {
+      "i": 17,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "04:22",
+      "en": "At this point.",
+      "zh": "在这个时候。"
+    },
+    {
+      "i": 18,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "04:23",
+      "en": "And then actually specifically it's like, okay, across universe. This is actually the thing I'm very curious about, which is my son studies math, right? Both my kids study math and like.",
+      "zh": "然后具体来讲，就是，好，放眼整个领域。这其实是我特别好奇的一点，就是我儿子在学数学，对吧？我两个孩子都在学数学，然后……"
+    },
+    {
+      "i": 19,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "04:34",
+      "en": "Hopefully not theoretical math just yet.",
+      "zh": "希望暂时还不是理论数学。"
+    },
+    {
+      "i": 20,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "04:36",
+      "en": "Not yet.",
+      "zh": "还没到。"
+    },
+    {
+      "i": 21,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "04:37",
+      "en": "How old is he?",
+      "zh": "他多大了？"
+    },
+    {
+      "i": 22,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "04:38",
+      "en": "My daughter's 10. My son is seven. They take math, et cetera. But like setting aside like what the future holds, I'm very interested in just the present. Because it's like you have all these math departments at universities all around the country and like maybe some are excited about AI, et cetera. But like, what do you do today in terms of like rethinking pedagogies? Because it must be, or I would assume it's pretty different in 2026 than like those same departments in 2021 or something like that.",
+      "zh": "我女儿 10 岁，我儿子 7 岁。他们都在上数学课之类的。但先撇开未来会怎样不谈，我对当下就非常感兴趣。因为全国各地大学里有这么多数学系，也许有些对 AI 感到兴奋之类的。但今天你们在重新思考教学法（pedagogies）方面做些什么？因为这一定——或者说我猜——2026 年的情况跟同样的这些系在 2021 年之类的差别挺大的。"
+    },
+    {
+      "i": 23,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "05:10",
+      "en": "Absolutely.",
+      "zh": "当然。"
+    },
+    {
+      "i": 24,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "05:11",
+      "en": "And like, how are professors, teachers, et cetera, thinking about just the sort of the process of teaching math right now. It's just like, just sort of like very straightforwardly, how is it affecting their jobs? I used to be really, really good at sort of mental math, like times tables and stuff like that.",
+      "zh": "还有，教授、老师这些人现在是怎么看待教数学这件事本身的？就很直白地说，它是怎么影响他们的工作的？我以前心算（mental math）特别特别厉害，比如乘法表之类的。"
+    },
+    {
+      "i": 25,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "05:29",
+      "en": "This is a question I have too. If you are an advanced mathematician doing theoretical maths, how often do you actually use a calculator?",
+      "zh": "这也是我想问的一个问题。如果你是个做理论数学的高等数学家，你到底多久用一次计算器？"
+    },
+    {
+      "i": 26,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "05:36",
+      "en": "I'm curious about that.",
+      "zh": "我也很好奇这个。"
+    },
+    {
+      "i": 27,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "05:37",
+      "en": "That's going to be my first question.",
+      "zh": "这会是我的第一个问题。"
+    },
+    {
+      "i": 28,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "05:38",
+      "en": "Actually, Jensen Wong, I don't know if you read the transcript of his interview with Ezra Klein a couple of weeks ago.",
+      "zh": "其实，Jensen Huang，我不知道你有没有读几周前他跟 Ezra Klein 那场访谈的文字稿。"
+    },
+    {
+      "i": 29,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "05:46",
+      "en": "Mm-hmm.",
+      "zh": "嗯哼。"
+    },
+    {
+      "i": 30,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "05:46",
+      "en": "But he said something. It's like, oh, maybe it's just not. It's a little kind of weird interview. He said something like, well, maybe like knowing your times tables isn't going to be an important skill in the future.",
+      "zh": "但他说了个东西。就是，哦，也许它只是不……那场访谈有点怪。他说了类似这样的话：嗯，也许背乘法表在未来不会是一项重要技能。"
+    },
+    {
+      "i": 31,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "05:56",
+      "en": "Or your address.",
+      "zh": "或者记你的地址。"
+    },
+    {
+      "i": 32,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "05:56",
+      "en": "Yeah, which is like kind of weird. Like, I still want my kids to.",
+      "zh": "对，这就有点怪了。就是说，我还是希望我的孩子……"
+    },
+    {
+      "i": 33,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "06:01",
+      "en": "No, but I think it raises a very important question, which is you can go to a model and have them verify a proof or a theorem or something like that. But if you don't understand how you actually got there and how the model is getting to its verification, then what are we actually learning here?",
+      "zh": "不，但我觉得这引出了一个非常重要的问题，就是你可以去找一个模型，让它验证一个证明（proof）或者一个定理（theorem）之类的。但如果你不明白你到底是怎么走到那一步的、模型又是怎么得出它的验证的，那我们究竟学到了什么？"
+    },
+    {
+      "i": 34,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "06:21",
+      "en": "Right. And then there's the question of like. people learn a lot in the process, right? So it's like even presumably in just the people work on some of these problems for years and years, and maybe they never arrive at any proof, but intuitively you would think there is something, maybe it's exercising a muscle or something, or sort of other benefits to just the process of learning. How's that change? Anyway, I have a lot of questions about this and we really do have the perfect guest. We're going to be speaking with Justin Solomon. He's Associate Dean of Engineering Education at MIT and very interested and involved in math education and thinking about the intersection of math and AI. Justin, thank you so much for coming on OddLots.",
+      "zh": "对。然后还有一个问题，就是人们在这个过程里学到很多东西，对吧？所以即便，比如有人研究这些问题研究了很多很多年，也许他们从来没得出任何证明，但你直觉上会觉得这里面有点什么，也许是锻炼某块肌肉之类的，或者学习过程本身还有其他好处。这会怎么改变？总之，我对此有很多问题，而我们真的请到了完美的嘉宾。我们今天要和 Justin Solomon 聊聊。他是 MIT 工程教育副院长（Associate Dean of Engineering Education），对数学教育非常感兴趣并深度参与，也在思考数学与 AI 的交叉。Justin，非常感谢你来做客 Odd Lots。"
+    },
+    {
+      "i": 35,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "07:04",
+      "en": "Thanks for having me.",
+      "zh": "谢谢你们邀请我。"
+    },
+    {
+      "i": 36,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "07:05",
+      "en": "I mean, Tracy sort of already suggested, but let's set aside AI for a second. What is it that people who end up going into sort of like advanced math or advanced theoretical math, like who are these people?",
+      "zh": "我是说，Tracy 其实已经暗示过了，但我们先把 AI 放一边。那些最终走进高等数学或者高等理论数学的人，他们到底图什么，这些人是些什么人？"
+    },
+    {
+      "i": 37,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "07:20",
+      "en": "Why?",
+      "zh": "为什么？"
+    },
+    {
+      "i": 38,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "07:20",
+      "en": "Like, what are they hoping to do?",
+      "zh": "就是，他们希望做什么？"
+    },
+    {
+      "i": 39,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "07:23",
+      "en": "Yeah, it's true. I feel like the typical caricature that you see is maybe this character on, what, Good Will Hunting, which incidentally, they're always writing math on Windows, which is very impractical. Good visuals, though. Yeah, that's true. It's great for a camera. But that aside, I think it's an intensely personal thing. So to be clear, my personal career, like I'm a professor of engineering, is in an area of math called applied math, which sometimes is applied and sometimes not. That's a discussion for another day. But essentially, some people go into math because they want to see it translated into applications or to bring fundamental insight into the kind of things we do every day, whether it's predicting markets or physics, what have you. Other people in areas of math, sometimes you'll call them pure math. I don't love that terminology, like pure versus applied. But in other areas of math, it's almost just for the joy of the game or understanding the universe around you. All of these are totally legitimate reasons and sort of.",
+      "zh": "对，确实是这样。我觉得你看到的典型漫画式形象，也许就是《心灵捕手》（Good Will Hunting）里那个角色——顺带一提，他们总是在窗户上写数学，这其实非常不切实际。不过视觉效果很好。是的，没错。对着镜头很棒。但撇开这个不谈，我觉得这是一件极其私人的事。先说清楚，我个人的职业生涯——我是工程学教授——是在一个叫应用数学（applied math）的数学分支里，它有时候是应用的，有时候又不是。这是改天再聊的话题。但本质上，有些人搞数学，是因为他们想看到数学被转化成应用，或者为我们每天做的那些事带来根本性的洞见，无论是预测市场、物理，还是别的什么。另一些人在数学的某些领域——你有时会称之为纯数学（pure math），我不太喜欢这个术语，纯对应用这种说法——但在数学的另一些领域，它几乎就是为了享受这个过程本身的乐趣，或者理解你周围的宇宙。所有这些理由都完全正当，也算是一种……"
+    },
+    {
+      "i": 40,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "08:14",
+      "en": "intellectual pursuit for the sake of intellectual pursuit.",
+      "zh": "为了智识追求本身的智识追求。"
+    },
+    {
+      "i": 41,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "08:18",
+      "en": "That's right. But along the way, I think you develop a lot of really important reasoning skills and skills that support work in all kinds of different areas.",
+      "zh": "没错。但我觉得在这一路上，你会培养出很多非常重要的推理技能，以及能支撑你在各种不同领域工作的技能。"
+    },
+    {
+      "i": 42,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "08:25",
+      "en": "And how often do advanced mathematicians, whether they're in, I guess, applied maths or purely theoretical maths, how often do they use a calculator?",
+      "zh": "那高等数学家们——不管他们是在应用数学还是纯理论数学领域——他们多久用一次计算器？"
+    },
+    {
+      "i": 43,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "08:35",
+      "en": "Very often. Okay. Yeah, no. But my impression, again.",
+      "zh": "很经常。好。是的。不。不过再说说我的印象。"
+    },
+    {
+      "i": 44,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "08:38",
+      "en": "Is everyone is doing this by hand on chalkboards and windows.",
+      "zh": "就是大家都在黑板和窗户上手算这些吗。"
+    },
+    {
+      "i": 45,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "08:41",
+      "en": "I mean, there's like lots of Greek symbols and letters and variables and things. But no, I'm terrible at arithmetic. I've got a calculator out all the time. Oh, yeah.",
+      "zh": "我是说，会有很多希腊符号、字母、变量之类的东西。但不，我算术糟透了。我一直把计算器摆在手边。哦，是啊。"
+    },
+    {
+      "i": 46,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "08:49",
+      "en": "This gives me hope, actually, that maybe I could understand some of this, even though I'm pretty bad at arithmetic itself.",
+      "zh": "这其实给了我希望，也许我也能听懂一些，尽管我算术本身也挺差的。"
+    },
+    {
+      "i": 47,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "08:57",
+      "en": "Oh, absolutely.",
+      "zh": "哦，当然。"
+    },
+    {
+      "i": 48,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "08:58",
+      "en": "What's the difference between a math problem then and a math proof or a theorem? These sort of big picture things that we're talking about AI models actually doing now.",
+      "zh": "那么一道数学题（math problem）和一个数学证明（proof）或者一个定理（theorem）之间有什么区别？就是我们现在说的 AI 模型真正在做的这些宏观层面的东西。"
+    },
+    {
+      "i": 49,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "09:07",
+      "en": "That's a great question. And it's really important to dig into exactly what the models are doing and not doing and who deserves credit, by the way. But essentially, in mathematics, it's all about verifying, in some sense, verifying true facts is one part of the puzzle. But it's also all about figuring out what are the interesting problems to study and what insight they bring to the broader world, right? So in some areas of mathematics, there are all kinds of different questions you could ask. And some of them are super uninteresting, but you could ask a computer to prove them. And others maybe tell you something about a physical system or about a system of equations or something like that, that bring broader understanding. And so this exercise of proofwriting is all about sort of writing a mathematically convincing argument that tells mathematicians. So there's a human aspect, which is an important one. that a certain fact is actually maybe reality, right? It aligns with logic. There's not some flaw hiding in there somewhere.",
+      "zh": "这是个好问题。而且很重要的一点是要弄清楚模型到底在做什么、没做什么，顺便说一句，还有谁该得到功劳。但本质上，在数学里，一切都是关于验证，从某种意义上说，验证真实的事实只是拼图的一部分。但它同样也在于搞清楚哪些是值得研究的有趣问题、以及它们能给更广阔的世界带来什么洞见，对吧？所以在数学的某些领域，你可以问各种各样不同的问题。有些问题极其无趣，但你可以让计算机去证明它们。而另一些问题也许能告诉你关于某个物理系统、或者某个方程组之类的东西，带来更广泛的理解。所以写证明（proof writing）这件事，本质上就是写出一个在数学上令人信服的论证，来告诉数学家们——这里有一个人的层面，而且是很重要的一面——某个事实也许确实是真实的，对吧？它符合逻辑，没有哪个缺陷藏在某个地方。"
+    },
+    {
+      "i": 50,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "09:59",
+      "en": "And where do you ideas for a particular mathematical proof or theory come from? Because again, I'm going to come at this from, I guess, the movie angle, but I think about A Beautiful Mind, right? And the famous bar scene and it was John Nash, right? That was his name. And he has this like big realization while he's at the bar with these women and it ends up turning into a famous mathematical theory. Is it up, like where did the ideas actually come from for the rules that you are trying to prove in maths or these big picture ideas?",
+      "zh": "那你要为某个具体的数学证明或理论时，灵感是从哪来的？因为我还是想从，我猜，电影的角度切入，我会想到《美丽心灵》（A Beautiful Mind），对吧？还有那个著名的酒吧场景，主角是 John Nash，对吧？他叫这个名字。他在酒吧里跟那些女士在一起时有了这个大彻大悟般的顿悟，最后变成了一个著名的数学理论。是这样的吗，就是你在数学里想要证明的那些规则，或者那些宏观的想法，它们的灵感究竟从哪来？"
+    },
+    {
+      "i": 51,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "10:31",
+      "en": "That's a great question. So sometimes in mathematics, there are some really natural questions out there in the universe that people have been asking for a long time. So for example, these days in the news, we hear about some of these really high profile math problems that have been around forever. There are other types of mathematicians that are more theory builders, where they're the ones asking the questions rather than answering someone else's questions. There are definitely different approaches that are out there. Now, when it comes to where these questions are coming from, some of them are inspired purely mathematically, and other ones maybe come from a very practical setting. Maybe somebody observed some phenomenon out there in the real world, and they're trying to explain it with the smallest model possible. Now, one thing I should clarify is that math is a really social exercise. I think that's something that people don't necessarily understand, especially because these movies really play into this almost great man theory of mathematics. But that's just not how it works. There's this huge community of people that are working on important problems. They're communicating with one another, collaborating. And I would say, for example, from my own research, almost everything that our team has worked on comes as a team effort. We're all sitting in the same room. We're at the blackboard writing computer models, what have you. And that's where the insight is coming from. So it's not just sitting in your ivory tower. It's being out there in the world, observing things happening and talking to your colleagues.",
+      "zh": "这是个好问题。在数学里，有时候宇宙中存在着一些非常自然的问题，人们已经问了很久很久。比如说，如今在新闻里，我们会听到一些悬置已久、极其受关注的数学难题。也有另一类数学家更像是理论的构建者（theory builders），是他们在提出问题，而不是回答别人提出的问题。确实存在各种不同的路径。说到这些问题从哪来，有些纯粹是受数学本身启发，另一些也许来自一个非常实际的场景。也许是有人在现实世界里观察到了某个现象，正试图用一个尽可能小的模型来解释它。这里有一点我需要澄清，就是数学其实是一项非常社交的活动。我觉得这一点人们未必理解，尤其是因为这些电影真的很渲染那种几乎可以说是「伟人理论」（great man theory）式的数学观。但事实根本不是那样运作的。有一大群人组成的社区在研究重要问题，他们彼此交流、协作。我会说，就拿我自己的研究来讲，我们团队做的几乎所有东西都是团队合作的成果。我们都坐在同一个房间里，在黑板前写着、跑着计算机模型之类的。洞见就是从那里来的。所以这不只是坐在你的象牙塔里，而是要走出去，在现实世界里观察正在发生的事情，跟你的同事交流。"
+    },
+    {
+      "i": 52,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "11:44",
+      "en": "Before we get more into the sort of AI question, I've actually been curious, what's applied math? What is the difference between applied math and pure math?",
+      "zh": "在我们更深入聊 AI 那个问题之前，我其实一直很好奇，什么是应用数学？应用数学（applied math）和纯数学（pure math）有什么区别？"
+    },
+    {
+      "i": 53,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "11:53",
+      "en": "Yeah, it's a great question. So there's sort of a divide in the math world, but I think it's fuzzier than maybe it sounds when I describe it here. So roughly, there's an area of mathematics that you might call applied math. where the goal is to either derive theoretical results or even come up with computer algorithms that explain phenomena out there in the real world. So, for example, in applied math, maybe you work on algorithms that simulate the weather, and behind the scenes is a really complex mathematical model, and it's all about making sure that your model is correct and efficient and well-behaved, all that good stuff. In pure mathematics, sometimes the motivation is a little bit less attached to a particular application, and more just attached to the math problem itself.",
+      "zh": "对，这是个好问题。数学界确实有那么一条分界线，但我觉得它比我在这里描述时听起来要模糊。大致来说，有一个数学领域你可以称之为应用数学，其目标要么是推导出理论结果，要么甚至想出一些计算机算法，来解释现实世界中的现象。比如说，在应用数学里，也许你会研究模拟天气的算法，背后是一个非常复杂的数学模型，一切都在于确保你的模型是正确、高效、行为良好的，诸如此类的好东西。而在纯数学里，动机有时不那么依附于某个具体的应用，而更多是依附于数学问题本身。"
+    },
+    {
+      "i": 54,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "12:32",
+      "en": "So something like Fermat's Last Theorem or something like that, where he's like, okay, I forget what it is exactly, but that would not be applied math.",
+      "zh": "所以像费马大定理（Fermat's Last Theorem）之类的东西，就是那种，好，我忘了它具体是什么了，但那就不算应用数学。"
+    },
+    {
+      "i": 55,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "12:41",
+      "en": "Right, so Fermat's Last Theorem, and many things I think in number theory fall into that category, but also many times these things bleed into one another. So for example, a lot of modern developments in cryptography came from areas of mathematics that we used to think of as extremely pure and abstract.",
+      "zh": "对，所以费马大定理，还有我觉得数论（number theory）里的很多东西都属于那一类，但很多时候这些东西也会彼此渗透。比如说，现代密码学（cryptography）的很多进展，其实来自那些我们过去认为极其纯粹、极其抽象的数学领域。"
+    },
+    {
+      "i": 56,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "12:56",
+      "en": "Oh, interesting.",
+      "zh": "哦，有意思。"
+    },
+    {
+      "i": 57,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "12:57",
+      "en": "This is also Good Will Hunting, by the way.",
+      "zh": "顺便说一句，这也是《心灵捕手》里的东西。"
+    },
+    {
+      "i": 58,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "13:00",
+      "en": "It all goes back to that.",
+      "zh": "一切都绕回到那部电影。"
+    },
+    {
+      "i": 59,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "13:01",
+      "en": "That's right.",
+      "zh": "没错。"
+    },
+    {
+      "i": 60,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "13:01",
+      "en": "That's right.",
+      "zh": "没错。"
+    },
+    {
+      "i": 61,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "13:02",
+      "en": "You worked at Pixar before.",
+      "zh": "你以前在 Pixar 工作过。"
+    },
+    {
+      "i": 62,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "13:04",
+      "en": "Many years ago.",
+      "zh": "很多年前了。"
+    },
+    {
+      "i": 63,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "13:05",
+      "en": "Was that applied maths working at Pixar?",
+      "zh": "在 Pixar 工作那是应用数学吗？"
+    },
+    {
+      "i": 64,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "13:07",
+      "en": "Oh, I love that question. The answer is absolutely yes. Okay. Yeah. So the movie studios are a great example of a place where I would say state of the art and certain types of mathematics are taking place. So when you watch a typical movie with different movie effects, there's cloth, there's smoke, there's all kinds of fluids, all rigid bodies flying around. All the dynamics of those are governed by things called partial differential equations. And coming up with the right algorithms for simulating those, and by the way, making them so well behaved that an artist doesn't have to think about math, is a really challenging mathematical problem. So I typically tell my students that if you're looking for really challenging math problems, you don't have to make them up. They're out there in the real world. And that's a nice example.",
+      "zh": "哦，我太喜欢这个问题了。答案是绝对的「是」。好。是的。电影制片厂就是一个很好的例子，我会说那里正在进行某些类型数学的最前沿（state of the art）工作。所以当你看一部有各种电影特效的普通电影时，有布料、有烟、有各种流体、有到处飞的刚体。所有这些的动力学都由一类叫偏微分方程（partial differential equations）的东西支配。而想出正确的算法来模拟它们，顺便还要让它们行为良好到艺术家根本不必去思考数学，这是一个非常有挑战性的数学问题。所以我通常告诉我的学生，如果你在找真正有挑战性的数学问题，你根本不用自己编，它们就在现实世界里。这就是一个很好的例子。"
+    },
+    {
+      "i": 65,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "14:03",
+      "en": "What's Navier-Stokes?",
+      "zh": "Navier-Stokes 是什么？"
+    },
+    {
+      "i": 66,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "14:05",
+      "en": "Okay. So Navier-Stokes has been in the news a lot lately. And it's been great for those of us with a little bit of background in differential equations.",
+      "zh": "好。Navier-Stokes 最近频繁出现在新闻里。对我们这些有一点微分方程（differential equations）背景的人来说，这是件好事。"
+    },
+    {
+      "i": 67,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "14:15",
+      "en": "Getting lots of media inquiries.",
+      "zh": "收到很多媒体询问。"
+    },
+    {
+      "i": 68,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "14:17",
+      "en": "That's exactly right. Yeah, we have our 50 minutes of fame here. It'll die fast, but we'll enjoy it for now. Right. So the Navier-Stokes problem is one that comes from the world of fluid dynamics. So the Navier-Stokes equations were this model. They go back quite a long time. that explain the motion of, for example, liquid in a cup. So like both of you guys have coffee cups here on the table. And if you like shake that coffee cup up, you know the initial velocity, you know what's inside of the cup. Then the Navier-Stokes equations are trying to predict like where the fluid moves over time, right? Like where is the velocity, vorticity, all these different things. Now, the Navier-Stokes equations are really complicated. I mean, when you look at your latte, when you stir it in the morning and you see the milk making these cool shapes and so on, there's all kinds of complex behavior that can happen. And so the Navier-Stokes equations, although they're easy to write down, they're very hard to say a whole lot about. And so there was this big open math problem, which I think is what you guys are referring to because it's been in the news, which involves existence and uniqueness of solutions. So the basic idea here, I think actually my undergrad differential equation professor years ago explained it to me in kind of a funny way. He sort of said, you know, all you got to do to make a million dollars is prove that water doesn't explode. And that's roughly right. I mean, with a lot of asterisks. Essentially, what we didn't know is if you know this initial configuration of your fluid and you let it kind of go under its dynamics over time, then whether it exists for all time and doesn't have some really crazy turbulent behavior, or if, for example, maybe it blows up or it develops a singularity or something like that. So this was kind of a yes or no question, like prove or disprove. And I guess the recent news was actually a counterexample. So in other words, it showed in some finite amount of time that with an asterisk, which is with a very crazy spoon, if you stir your fluid just the right way, you really can create this totally singular and frankly, non-physical behavior. Interesting.",
+      "zh": "完全正确。是的，我们在这里有了属于我们的 50 分钟名气。它很快会过去，但我们眼下就好好享受。好。Navier-Stokes 问题来自流体动力学（fluid dynamics）的世界。Navier-Stokes 方程是这样一个模型，它们可以追溯到很久以前，用来解释比如说一杯液体里液体的运动。所以你们俩桌上都有咖啡杯。如果你把那个咖啡杯晃一晃，你知道初始速度，你知道杯子里装的是什么，那么 Navier-Stokes 方程就是要预测流体随时间会怎么运动，对吧？速度、涡度（vorticity），所有这些不同的量在哪里。而 Navier-Stokes 方程真的非常复杂。我是说，当你看着你的拿铁，早上你搅拌它、看到牛奶画出这些很酷的图案等等时，会发生各种各样复杂的行为。所以 Navier-Stokes 方程虽然写出来很容易，却很难就它说出很多东西。于是就有了这个大的未解数学难题，我觉得这就是你们指的那个、因为它一直在新闻里出现的东西，它涉及解的存在性和唯一性（existence and uniqueness）。这里的基本想法，其实我觉得是我多年前本科的微分方程教授用一种挺好笑的方式给我解释的。他大致说，你要想赚一百万美元，你要做的全部事情就是证明水不会爆炸。这大致是对的，我是说，带很多星号的那种。本质上，我们过去不知道的是，如果你知道流体这个初始构型，然后让它在自身动力学下随时间演化，那么它是否对所有时间都存在、并且不会有某种极其疯狂的湍流行为，还是说，比如它也许会「爆破」（blow up）、或者产生一个奇点（singularity）之类的。所以这是一个「是或否」的问题，要么证明要么证伪。而我猜最近的新闻实际上是一个反例（counterexample）。换句话说，它表明在某个有限的时间内，带着一个星号——也就是用一把非常疯狂的勺子——如果你以恰到好处的方式搅拌你的流体，你真的能制造出这种完全奇异的、而且坦率说非物理的行为。有意思。"
+    },
+    {
+      "i": 69,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "16:08",
+      "en": "Proving in math is like one of these things. Like I think I, the formal proof that two plus two equals four, it's like a nine step thing, isn't it?",
+      "zh": "在数学里做证明就是这类事情之一。我想，二加二等于四的那个形式化证明（formal proof），好像是个九步的东西，不是吗？"
+    },
+    {
+      "i": 70,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "16:19",
+      "en": "Right?",
+      "zh": "对吧？"
+    },
+    {
+      "i": 71,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "16:20",
+      "en": "Like if you are like, sometimes eight, sometimes eight, but like, Can you explain what a proof is?",
+      "zh": "就是如果你，有时候是八步，有时候是八步，但是，你能解释一下什么是证明吗？"
+    },
+    {
+      "i": 72,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "16:27",
+      "en": "Sure.",
+      "zh": "当然。"
+    },
+    {
+      "i": 73,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "16:27",
+      "en": "I know 2 plus 2 equals 4. It seems obvious. But explain what is a proof such that to say that to prove that 2 plus 2 equals 4 is something that requires eight steps.",
+      "zh": "我知道二加二等于四，这看起来很明显。但你解释一下什么是一个证明，以至于说「证明二加二等于四」是一件需要八步才能完成的事。"
+    },
+    {
+      "i": 74,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "16:40",
+      "en": "Right. This idea of proof writing, I think, is actually you can think of it as almost the result of an identity crisis among mathematicians maybe 100, 200 years ago. where it used to be a lot of math was drawing pictures and kind of working in the same fashion that you're talking about, kind of intuitively. But at some point, people realized that they wanted to make sure that the field had really strong foundations. And so mathematicians will agree on a certain set of maybe logical principles or rules, I would say that's more the domain of philosophy, precisely what those should be. And then the idea of proofreading is to build up from these kind of basically, we agree that these five facts are true, to a much more complicated fact by combining them in different and creative ways. And so theoretical mathematics oftentimes is all about, I don't want to just say mixing and matching different facts, but coming up with smart ways to justify mathematical ideas built on very simple principles and steps from logic.",
+      "zh": "对。写证明（proof writing）这个想法，我觉得其实你几乎可以把它看成是大概 100 年、200 年前数学家之间一场身份认同危机的结果。过去，很多数学就是画图形、以你所说的那种方式、凭直觉去做。但在某个时刻，人们意识到他们想确保这个领域有非常坚实的基础。于是数学家们会就某一组也许是逻辑原则或规则达成一致——我会说，究竟这些应该是什么，那更多是哲学的范畴。然后写证明的思路，就是从这些基本上「我们都同意这五条事实是真的」的起点出发，通过以不同的、有创意的方式把它们组合起来，去构建出一个复杂得多的事实。所以理论数学往往就是——我不想只说把不同事实混来配去——而是想出聪明的办法，去论证建立在非常简单的原则和逻辑步骤之上的数学想法。"
+    },
+    {
+      "i": 75,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "17:32",
+      "en": "So when it comes to AI currently, is the role more in, I guess, proof checking versus proof generation or idea generation? Like what are the models actually doing.",
+      "zh": "那么说到当下的 AI，它的角色更多是在，我猜，证明检查（proof checking） versus 证明生成（proof generation）或者想法生成（idea generation）上？就是模型到底在做什么。"
+    },
+    {
+      "i": 76,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "17:43",
+      "en": "At the moment? Well, they're sort of doing it all and they're sort of doing nothing. So, right. The current AI models in terms of the types of mathematics they're doing, I don't think it's quite right to say that it's just proof checking. And in fact, actually, they're quite bad at proof checking. And one of the revolutions in, I would say, the last year or so is the realization that actually what you have to do is to provide your model, like your large language model, with a second module that can check the AI's proof. And so, for example, there's a programming language called Lean, which is basically just a sort of codified version of these mathematical rules. And these days what people will do is they'll put in their conjecture, so like the thing that they want to prove or disprove, and then ask the AI system to generate a proof. But then they'll say rather than just writing it in human-readable language, which is the substrate that mathematicians use to communicate with each other, maybe in addition to that, they'll actually produce this lean code so that there's a separate piece of software out there that can check that this proof truly is correct. So actually the correctness part of it is usually deferred to another piece of software, which isn't AI, but somehow because of the interaction between the AI tool and this proof checker, that's what's created a lot of progress that we can believe in a little bit more than we did in the past, if that makes sense.",
+      "zh": "眼下？嗯，它们几乎什么都做，又几乎什么都没做。所以，对。就它们所做的那类数学而言，当前的 AI 模型——我觉得说它只是在做证明检查并不太准确。事实上，它们在证明检查上相当糟糕。而我要说，过去一年左右的一场革命，就是人们意识到，你实际必须做的，是给你的模型——比如你的大语言模型——配上第二个模块，让它能检查 AI 的证明。所以，比如说，有一门叫 Lean 的编程语言，它基本上就是这些数学规则的一种编码化版本。如今人们会做的是，他们把自己的猜想（conjecture）——也就是他们想证明或证伪的东西——输入进去，然后让 AI 系统生成一个证明。但接着他们会说，与其只用人类可读的语言来写它——那是数学家用来彼此交流的载体——也许除此之外，他们还会真正产出这段 Lean 代码，好让外面有一个独立的软件能检查这个证明确实是正确的。所以正确性那部分通常被交给另一个不是 AI 的软件，但不知怎么的，正因为 AI 工具和这个证明检查器之间的这种互动，才创造出很多进展，让我们能比过去更多地相信它——如果这么讲说得通的话。"
+    },
+    {
+      "i": 77,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "18:56",
+      "en": "I have heard of, only because, you know, I've been reading the news and I've heard of this thing called Lean.",
+      "zh": "我听说过 Lean，纯粹是因为，你知道，我一直在看新闻，我听说了这个叫 Lean 的东西。"
+    },
+    {
+      "i": 78,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "19:02",
+      "en": "Yes.",
+      "zh": "是的。"
+    },
+    {
+      "i": 79,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "19:03",
+      "en": "And it sort of seems extraordinary to me. Can you explain it a little bit? It seems extraordinary to me that there is this, I don't know, is it software or this framework such that these extraordinarily complex problems or solutions, I guess is the answer, can be dropped into this and it's capable of like, Yes, this is available.",
+      "zh": "它在我看来有点非同寻常。你能稍微解释一下吗？我觉得不可思议的是，居然有这么一个——我不知道，是软件还是某种框架——使得这些极其复杂的问题或者解答，我猜是解答，可以被丢进去，然后它能够判断，是的，这个是成立的。"
+    },
+    {
+      "i": 80,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "19:25",
+      "en": "But it's also kind of crazy that you need basically a translator for it, right?",
+      "zh": "但同样有点疯狂的是，你基本上需要为它配一个翻译器，对吧？"
+    },
+    {
+      "i": 81,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "19:29",
+      "en": "Yeah.",
+      "zh": "是啊。"
+    },
+    {
+      "i": 82,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "19:30",
+      "en": "Can you explain a little bit like how Lean works, perhaps?",
+      "zh": "那你能不能稍微讲讲 Lean 大概是怎么运作的？"
+    },
+    {
+      "i": 83,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "19:33",
+      "en": "I can explain a little bit. To be clear, I'm not an expert in this particular corner. But essentially, as we all know, things that come out of AI are unreliable.",
+      "zh": "我可以稍微讲讲。先说清楚，在这个具体的角落里我并不是专家。但本质上，我们都知道，从 AI 里出来的东西是不可靠的。"
+    },
+    {
+      "i": 84,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "19:41",
+      "en": "Yeah.",
+      "zh": "对。"
+    },
+    {
+      "i": 85,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "19:41",
+      "en": "All of your listeners should know this. We all know this. And that goes for mathematics as well. And math we think of as this area that is extremely reliable, right? Everything should be true or false. Now, there are gray areas, but certainly we try to avoid that. So this programming language lean, what it does is it has a few simple maybe axioms that are built in. So math things that we sort of agree are the starting points for writing proofs, like the steps of basic logic. And then what happens is that you write a theorem in this lean language. So rather than in English, you write it in this programming language. And then it's kind of cleverly designed so that once the software checks that that theorem is true, it can get added to the library of sort of true facts, and then you can build up. So you make this more and more complex edifice out of these simple steps. And it's been really impressive what that can do. I mean, some of the modern proofs that you're seeing, especially the AI-generated ones, are like hundreds of thousands of lines of lean code. I don't think a human could check it. It also, by the way, means that we're trusting that someone wrote That software, frankly, which is a philosophical question. But, you know, if you believe that Lean is good at checking proofs, then it provides a lot of certainty that the things that the AIs are writing down are actually correct.",
+      "zh": "你们所有的听众都应该知道这一点。我们都知道。数学也是一样。我们把数学当成一个极其可靠的领域，对吧？一切都应该是真或假。当然也有一些灰色地带，但我们肯定会尽量避免。所以这门叫 Lean 的编程语言，它做的事情是，内置了几条也许是简单的公理（axioms）。就是那些数学上我们大致同意作为写证明的起点的东西，比如基本逻辑的那些步骤。然后接下来发生的是，你用这种 Lean 语言写一个定理。也就是不用英语写，而是用这门编程语言来写。然后它设计得相当巧妙，一旦软件检查出那个定理是真的，它就能被加进那个由真实事实组成的库里，然后你就可以往上继续搭建。于是你就用这些简单的步骤，搭出一个越来越复杂的大厦。它能做到的事情真的很了不起。我是说，你现在看到的一些现代证明，尤其是那些 AI 生成的，动辄就是几十万行 Lean 代码。我不觉得人类能查得过来。顺便说一句，这也意味着我们在信任某个写了那套软件的人，坦率讲这是个哲学问题。但是，你知道，如果你相信 Lean 擅长检查证明，那它就为「AI 写下来的这些东西确实是正确的」提供了很大的确定性。"
+    },
+    {
+      "i": 86,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "20:49",
+      "en": "Devil's advocate question. But why is it important that we need to understand the actual problem and the proof? Because if I'm an engineer and I don't know, some model somewhere comes up with this really new, interesting mathematical theory and I can apply it to my day to day work.",
+      "zh": "唱反调的问题（Devil's advocate question）。但为什么我们一定要理解真正的问题和那个证明，这一点为什么重要？因为如果我是一个工程师，我不知道，某个地方的某个模型想出了这个真正新颖、有意思的数学理论，而我能把它用到我日常的工作里。"
+    },
+    {
+      "i": 87,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "21:07",
+      "en": "Yes.",
+      "zh": "是的。"
+    },
+    {
+      "i": 88,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "21:08",
+      "en": "Is that not enough that like I can use it? It seems to work for the most part. Maybe it's been rigorously tested in a physical environment or whatever. Why do I need to understand everything that's gone into it?",
+      "zh": "光是我能用它，这难道还不够吗？它大体上看起来是管用的。也许它已经在某个物理环境里被严格测试过了之类的。为什么我需要理解构成它的每一样东西？"
+    },
+    {
+      "i": 89,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "21:20",
+      "en": "Oh, that's a fantastic question. So let's see. My research group works a lot on simulation algorithms. So like I have some physical system and I develop a technique for predicting what it will look like in the future. And we spend a lot of time writing theoretical results to verify that our algorithms are correct. They behave the way we expect and so on. And that's absolutely critical because without that, you really can't trust what your software is producing. So for example, if I'm trying to say yes or no, is this building going to collapse during an earthquake?",
+      "zh": "哦，这是个非常棒的问题。那么，让我想想。我的研究组大量做模拟算法（simulation algorithms）。所以比如我有某个物理系统，然后我开发一种技术来预测它未来会是什么样子。我们会花很多时间写理论结果，来验证我们的算法是正确的、按我们预期的方式运作，等等。这一点绝对至关重要，因为没有它，你真的无法信任你的软件产出的东西。所以比如说，如果我要回答一个是或否的问题：这栋楼在地震中会不会倒塌？"
+    },
+    {
+      "i": 90,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "21:48",
+      "en": "Seems important.",
+      "zh": "听起来很重要。"
+    },
+    {
+      "i": 91,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "21:49",
+      "en": "That's right. And all of that is built on mathematical models, techniques like finite element modeling and so on. They're not too exciting outside of my universe, but you're all trusting these things to do really important engineering calculations and things that sure, like one way to justify your software is that your building hasn't collapsed yet. but that's not a whole lot of, you know, I hope I can trust a little bit better than that.",
+      "zh": "没错。而所有这些都建立在数学模型、以及像有限元建模（finite element modeling）之类的技术上。它们在我的小宇宙之外不算太激动人心，但你们都指望着这些东西去做非常重要的工程计算。当然，为你的软件辩护的一种方式，是「你的楼到现在还没塌」。但那没多少说服力，你知道，我希望我能比那更靠谱一点地信任它。"
+    },
+    {
+      "i": 92,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "22:10",
+      "en": "You know, my dad was a physics professor and I have memories of watching a video of the famous Tacoma Narrows bridge collapse. You know, that video, you know, like that was like for him, like this, like, you know, I, that was, I've watched it several times in my household.",
+      "zh": "你知道，我爸爸是个物理学教授，我记得看过那段著名的 Tacoma Narrows 大桥坍塌的视频。你知道那段视频，对他来说那就像是……我在家里看过它好几次。"
+    },
+    {
+      "i": 93,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "22:32",
+      "en": "Our engineering students have to take a lot of ethics courses that are pretty fraught that way.",
+      "zh": "我们的工程系学生必须上很多伦理课，那些课在这方面相当令人焦虑。"
+    },
+    {
+      "i": 94,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "22:37",
+      "en": "Oh, interesting. So why don't you give us, I mean, there's a couple avenues I want to explore, including just the process of teaching and how it's different in 2026 versus 2016, given the new technology. But maybe give us a lay of the land for the math community. Because I know there are some people in despair.",
+      "zh": "哦，有意思。那你不妨给我们讲讲，我是说，有几条线索我想探讨，包括教学这件事本身、以及在有了新技术的情况下，2026 年跟 2016 年相比有什么不同。但也许你先给我们大致描绘一下数学界的整体格局。因为我知道有些人正处于绝望之中。"
+    },
+    {
+      "i": 95,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "22:59",
+      "en": "I believe.",
+      "zh": "我相信是这样。"
+    },
+    {
+      "i": 96,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "23:00",
+      "en": "We're very anxious about what this means for the future of math as an intellectual discipline, etc. And then others seem to be very enthusiastic about the opportunity of human and AI exploring new ground. But what are the conversations that you're in these days with fellow mathematicians?",
+      "zh": "他们对「这对数学作为一门智识学科的未来意味着什么」等等感到非常焦虑。然后还有一些人似乎对人类与 AI 一起探索新天地的机会非常热衷。但你这些天和同行数学家们在一起时，都在聊些什么？"
+    },
+    {
+      "i": 97,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "23:22",
+      "en": "Oh my gosh, things are changing by the day. And really, it's a Huge collection of individuals. Every single person has their own opinion here. So I can tell you my view of the world. And if you talk to somebody else, I'm sure they'll have a very different one. Math is an academic discipline. It also shows up in a lot of applications, as we mentioned. But every aspect of the work is changing from how people produce mathematics and choose problems to work on to how mathematics is sort of measured in terms of productivity, right? When we talk about hiring faculty, for example, like what are the standards to evaluate a person's body of work and what did the human contribute, I think are really critical questions to like, why do this exercise at all? Maybe leave this to a computer. There's all kinds of identity crises that are happening. Now, among mathematicians, there are people that are maybe theory builders and there are people that are like theorem provers. The theorem provers, I think, are especially under threat at the current moment where like maybe you've been working on one problem and it's well-defined and you've known about it for, you know, 50 years and it's this crowning question that you want to answer about the universe. And these AI tools are sort of at least good at sort of cherry picking the ones that are somehow close to being proved and taking that last mile in some cases. And other people disagree with that characterization.",
+      "zh": "我的天，情况每天都在变。而这真的是一大群个体的集合，每一个人对此都有自己的看法。所以我可以告诉你我的世界观。而如果你去跟别人聊，我相信他们会有非常不同的看法。数学是一门学术学科，它也会出现在很多应用里，就像我们提到的。但这项工作的每一个方面都在变化，从人们如何产出数学、如何选择题目来做，到数学在生产力方面如何被衡量，对吧？比如说当我们谈到招聘教职时，评判一个人全部工作成果的标准是什么、以及人类到底贡献了什么，我觉得这些都是极其关键的问题——关系到我们为什么要做这件事。也许干脆交给计算机算了。各种各样的身份认同危机正在发生。如今在数学家当中，有些人是理论的构建者，有些人则是定理的证明者（theorem provers）。我觉得证明者在当下尤其受到威胁，就是也许你一直在研究一个问题，它界定清晰，你已经研究它、比如说 50 年了，它是你想回答的关于宇宙的加冕式问题。而这些 AI 工具至少擅长去挑出那些某种程度上已经接近被证明的问题，然后在某些情况下走完最后那一英里。当然也有人不认同这种描述。"
+    },
+    {
+      "i": 98,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "24:35",
+      "en": "What do you mean by when you say they disagree with it?",
+      "zh": "你说他们不认同，是什么意思？"
+    },
+    {
+      "i": 99,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "24:38",
+      "en": "Like exactly how interesting, for example, a mathematical proof is, is a very human judgment, as is what problems you should or should not actually go about working on in the real world. So There are a lot of true facts. It doesn't mean we have to write them all down, essentially. And because of that, this is definitely a human exercise, right? To a large extent, mathematical research is about humans communicating to other humans, right? It's not just about verifying true things about the universe, but bringing insight and helping people understand systems and so on. So I think you mentioned an identity crisis. I think what's happened is, and this is reflected, there's a really nice write-up by Terence Tao, who's a famous mathematician, that kind of talks about how there were a lot of different sort of signs of mathematical progress that used to be correlated with one another, right? So for example, if I wanted to judge whether a mathematician has quality research or output, maybe I look at where they're publishing, the number of things that they're writing, the interest of their result, whether they're earning these prizes and so on. And now these things are a bit at odds. So for example, the AI companies have figured out, as you guys pointed out, that proving some big theoretical result maybe is an interesting press release, right? And now there's an economic component.",
+      "zh": "比如说，一个数学证明究竟有多有趣，这是一种非常「人」的判断；同样，在现实世界里你应该或不应该着手研究哪些问题，也是。所以有很多真实的事实，但这并不意味着我们必须把它们全都写下来。正因如此，这绝对是一项属于人的活动，对吧？很大程度上，数学研究就是人在与其他人交流，对吧？它不只是去验证关于宇宙的真实事物，还在于带来洞见、帮助人们理解各种系统等等。所以我觉得你提到了身份认同危机。我认为发生的事情是——这一点也有所反映——Terence Tao，一位著名的数学家，写了一篇非常好的文章，大致谈到过去有很多不同的、标示数学进展的信号，它们彼此之间曾经是相互关联的，对吧？比如说，如果我想判断一个数学家的研究或产出是否有质量，也许我会看他们在哪儿发表、他们写了多少东西、他们结果的分量、他们有没有拿到这些奖项等等。而现在这些东西彼此有点冲突了。比如说，AI 公司已经发现——正如你们指出的——证明某个大的理论结果也许是一篇有意思的新闻稿，对吧？而现在多了一个经济层面的成分。"
+    },
+    {
+      "i": 100,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "25:46",
+      "en": "Knowing how to do the right prompt, right?",
+      "zh": "就是知道怎么做对的提示词（prompt），对吧？"
+    },
+    {
+      "i": 101,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "25:48",
+      "en": "That's right. And then there's a big question, which is, okay, so, you know, at least in the sort of cartoon version of a mathematician, you sit in a room, you think about a really hard problem, you write down a proof that's subtle and challenging. Now, as you say, maybe you're the guy that wrote down the prompt. If the prompt, for example, were prove or disprove Navier-Stokes equation, did that guy really bring a whole lot of insight to that problem is an interesting question and one that I think we're really grappling with today.",
+      "zh": "没错。然后就有一个大问题，就是，好，那么，你知道，至少在那个漫画版的数学家形象里，你坐在一个房间里，思考一个非常难的问题，写下一个微妙而有挑战性的证明。而现在，就像你说的，也许你就是那个写下提示词的人。如果那个提示词，比如说，是「证明或证伪 Navier-Stokes 方程」，那么那个人真的给这个问题带来了多少洞见，就是个有意思的问题，而且我觉得是我们今天真正在努力琢磨的问题。"
+    },
+    {
+      "i": 102,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "26:28",
+      "en": "I want to ask more questions about credit, but just on the models themselves, does sycophancy exist when it comes to math prompts the same way it exists for other, I guess, language-based queries? Does the model go like, oh, what an interesting problem. You're on the right track.",
+      "zh": "我想多问一些关于功劳归属的问题，但就先说模型本身，在数学提示词上，谄媚（sycophancy）是否也像在其他——我猜——基于语言的查询里那样存在？模型会不会说，哦，这个问题真有意思，你走在正确的方向上。"
+    },
+    {
+      "i": 103,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "26:47",
+      "en": "You're on the right track. Judging from my email box, I think the answer is yes. I'll tell you a funny anecdote. Right, so all the time I get emails from people that are looking for an expert to maybe verify, you know. Oh, yeah. And what I've noticed lately is I get a lot of emails from outside folks that sort of, they've been playing with their AI system, they've proven a new result, and the AI told them it was really important and they need an MIT professor to validate, which is absolutely fascinating. In fact, for fun, I played with some of these tools and put in a few open problems in my own domain. Interestingly, they did not get solved, so apparently my corner of math is safe at the moment. But... the first thing that it did, it proved some, from my perspective, pretty superficial thing. And then it had a little footnote on the bottom being like, as far as I can tell, this doesn't appear in the literature. Like, would you like me to convert this into the template for a journal? It was an interesting, I think it explains a lot what's going on in my email.",
+      "zh": "你走在正确的方向上。从我的邮箱来看，我觉得答案是「是的」。我给你讲个好笑的轶事。好，我一直会收到一些人的邮件，他们在找一个专家来也许帮忙验证，你知道。哦，是啊。而我最近注意到的是，我收到很多来自圈外人士的邮件，他们一直在摆弄自己的 AI 系统，证明了一个新结果，然后 AI 告诉他们这非常重要，他们需要一位 MIT 教授来确认，这真是绝对令人着迷。事实上，为了好玩，我摆弄了其中一些工具，把我自己领域里的几个未解问题输了进去。有意思的是，它们没有被解出来，所以看来我这一小块数学目前是安全的。但……它做的第一件事，是从我的角度看证明了一个相当肤浅的东西。然后它在底部加了个小脚注，说：据我所知，这个结果似乎没有出现在文献里。你想让我把它转换成某个期刊的模板吗？这挺有意思的，我觉得它解释了我邮箱里正在发生的很多事情。"
+    },
+    {
+      "i": 104,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "27:37",
+      "en": "Wait, so you can imagine a future where I guess they're like, you're sort of overwhelmed with new proofs and the bottleneck becomes the ability to actually verify them with humans.",
+      "zh": "等等，所以你能想象一个未来，我猜就是那样，你被海量的新证明淹没，而瓶颈变成了人类实际去验证它们的能力。"
+    },
+    {
+      "i": 105,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "27:48",
+      "en": "That is a problem right now. And in fact, it's not just in mathematics, it is across academia. So to give you an example, actually, interestingly, I would say the academic field that's been affected most by this phenomenon you're talking about is actually AI and machine learning itself. So in that particular corner of academia, research is driven by conferences. So you write your research paper, and there's a sort of annual cycle where you submit and it undergoes peer review, and the whole community spends like a month or two reviewing each other's papers, sort of like, you know, you pass your paper to the left in class and grade. It's sort of a very complicated version of that. If you look at the number of submissions to the machine learning conferences, it is wild. So in the last 10 years, I think about 10 years ago, it was maybe one or 2,000, the deadline for ICLR, the International Conference on Learning Representations, one of the big ones, I think it had 60,000 submissions. And if you think about it, it completely breaks the academic system the way that we're used to thinking about it. Yeah. We don't have bandwidth to, never mind just check all of these proofs, even open up the PDF. Yeah. And so you're then relying on extremely superficial review process. There's many anecdotes of like high school students that have somehow gotten involved in peer review because they had a project once and the system decided they were in okay. You know, which is frustrating to build an academic career. Yeah. Essentially, some of the stamps of quality that we're used to in the field, you really can't rely on for exactly the reason you identified. The way that Terence Tao put it is that it used to be we were in this era of proof scarcity, that mathematicians, it was really hard. And it was this very bespoke object that took a lot of craftwork and training to produce. Now we're in this era of proof abundance. So now we have to kind of think about different ways to do our job and to do mathematics in a productive and interesting way.",
+      "zh": "这在当下就是个问题。而且事实上，它不只是在数学里，而是遍及整个学术界。举个例子，其实有意思的是，我会说受你所说的这个现象影响最大的学术领域，恰恰是 AI 和机器学习本身。所以在学术界那个具体的角落里，研究是由会议驱动的。你写你的研究论文，然后有一个大致年度性的周期，你投稿、它经过同行评审（peer review），整个社区花一两个月时间互相评审彼此的论文，就有点像，你知道，你在课堂上把自己的论文往左边传、然后打分。这是那件事的一个非常复杂的版本。如果你看看机器学习会议的投稿数量，那真是疯狂。所以在过去 10 年里，我觉得大约 10 年前，也许是一两千份，ICLR——也就是 International Conference on Learning Representations，是那几个大会议之一——我记得它收到了 60000 份投稿。而如果你想想，这彻底击穿了我们习惯去设想的那种学术体系。是啊。我们根本没有那个带宽，别说去检查所有这些证明了，连打开那个 PDF 都做不到。是啊。所以你就得依赖一个极其肤浅的评审流程。有很多轶事，比如说高中生不知怎么就参与进了同行评审，因为他们曾经做过一个项目，然后系统就判定他们够格了，行吧。你知道，这对想建立一份学术生涯的人来说是令人沮丧的。是啊。本质上，我们这个领域里习惯用的一些质量印记，你真的没法再依赖了，原因正是你指出的那个。Terence Tao 的说法是，过去我们处在一个「证明稀缺」（proof scarcity）的时代，对数学家来说那真的很难，那是一个高度定制的东西，需要大量的匠艺和训练才能产出。现在我们处在一个「证明过剩」（proof abundance）的时代。所以现在我们必须去思考用不同的方式来做我们的工作、以一种有成效又有意思的方式来做数学。"
+    },
+    {
+      "i": 106,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "29:33",
+      "en": "Yeah, I think a lot of fields are dealing with very similar issues. in which we used to have like certain, I mean, even take writing, for example. We used to have these certain heuristics that we, maybe like shortcuts that we use. It's like, okay, if this person can like construct a series of, like, well-written sentences.",
+      "zh": "对，我觉得很多领域都在应对非常相似的问题。在这些领域里，我们过去有某些——我是说，就拿写作来举例吧。我们过去有这些启发式判断（heuristics），也许就是我们用的一些捷径。就是，好，如果这个人能写出一连串写得很好的句子。"
+    },
+    {
+      "i": 107,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "29:59",
+      "en": "We might.",
+      "zh": "我们也许会……"
+    },
+    {
+      "i": 108,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "29:59",
+      "en": "And no spelling errors.",
+      "zh": "而且没有拼写错误。"
+    },
+    {
+      "i": 109,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "30:00",
+      "en": "Yeah. Like, how I've... I never make spelling errors. We might start... You know, we start from this... Okay, this person might be worth, like, reading. They might have something... You know, we all have to, like, operate with these cheats and shortcuts.",
+      "zh": "对。就像，我……我从不犯拼写错误。我们也许会开始……你知道，我们从这里开始……好，这个人也许值得读一读。他们也许有点东西……你知道，我们所有人都得靠这些取巧和捷径来运作。"
+    },
+    {
+      "i": 110,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "30:13",
+      "en": "That's right.",
+      "zh": "没错。"
+    },
+    {
+      "i": 111,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "30:13",
+      "en": "And now, like, obviously, producing text with no spelling errors or anything is available to literally everyone. So it's like we have to go a step further, et cetera.",
+      "zh": "而现在，显然，产出没有任何拼写错误之类问题的文本，已经人人都能做到了。所以我们必须再往前走一步，等等。"
+    },
+    {
+      "i": 112,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "30:22",
+      "en": "I think that's right.",
+      "zh": "我觉得没错。"
+    },
+    {
+      "i": 113,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "30:22",
+      "en": "And so, like, You know, all these like heuristics, you know, speaking of like everyone now, like thinking they can come up with a proof. Do you remember last year, Travis Kalanick, he was the Uber founder. He was on the All In podcast and he was talking about how he was he was doing vibe physics with Brock.",
+      "zh": "所以，就像，你知道，所有这些启发式判断，说到如今人人都觉得自己能想出一个证明。你还记得去年吗，Travis Kalanick，他是 Uber 的创始人。他上了 All In 播客，谈论他当时怎么在用 Brock 做「氛围物理」（vibe physics）。"
+    },
+    {
+      "i": 114,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "30:42",
+      "en": "Oh, boy.",
+      "zh": "哦，天呐。"
+    },
+    {
+      "i": 115,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "30:42",
+      "en": "And he felt that he was, quote. Getting pretty damn close to some interesting breakthroughs. Vibe physics was.",
+      "zh": "而且他觉得自己，引号，「已经非常接近某些有意思的突破了」。「氛围物理」当时是这么个说法。"
+    },
+    {
+      "i": 116,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "30:50",
+      "en": "The crazy thing is he could just hire a bunch of physicists to like verify the research and then you'd have a real sycophancy problem.",
+      "zh": "疯狂的是，他大可以直接雇一堆物理学家去验证这项研究，然后你就有了一个真正的谄媚问题。"
+    },
+    {
+      "i": 117,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "30:56",
+      "en": "And I think beyond that, like we're currently, so I work in education. Yeah. One of the things that we really rely on is somehow the friction in the creative process and the technical process. I mean, you mentioned writing is a fantastic example. How do you learn how to write? Well, you do a lot of writing. And now it's very difficult to convince our students to sit down and write an essay because they have these AI tools that can do it. But then writing a five-paragraph essay was never the goal. It was to teach you to do other stuff. Mathematics is similarly experiencing a very similar challenge.",
+      "zh": "而且我觉得不止于此，就是我们目前——我做的是教育。对。我们真正依赖的东西之一，某种程度上就是创作过程和技术过程中的那种摩擦力（friction）。我是说，你提到写作是个绝佳的例子。你怎么学会写作的？嗯，你写大量的东西。而现在我们很难说服学生坐下来写一篇作文，因为他们有这些 AI 工具能替他们写。但写一篇五段式文章从来不是目的，它是要教你去做别的事情。数学也正在经历一个非常类似的挑战。"
+    },
+    {
+      "i": 118,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "31:28",
+      "en": "So let's talk about the field of education itself.",
+      "zh": "那我们来聊聊教育这个领域本身吧。"
+    },
+    {
+      "i": 119,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "31:33",
+      "en": "I mean.",
+      "zh": "我是说。"
+    },
+    {
+      "i": 120,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "31:34",
+      "en": "Are the students very anxious right now?",
+      "zh": "学生们现在很焦虑吗？"
+    },
+    {
+      "i": 121,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "31:36",
+      "en": "Absolutely.",
+      "zh": "绝对是。"
+    },
+    {
+      "i": 122,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "31:37",
+      "en": "Let's start there. What's the vibe among students, especially maybe grad students who started their career before the idea of AI-generated resources? The thing is suddenly they're in grad school. What's going through their minds these days?",
+      "zh": "那我们就从这里开始。学生当中的氛围是怎样的，特别是也许那些在「AI 生成资源」这个概念出现之前就开始自己学业的研究生？情况是，他们突然就身处研究生院了。他们这些天脑子里在想些什么？"
+    },
+    {
+      "i": 123,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "31:52",
+      "en": "Yeah, the landscape of both graduate and undergraduate education is changing a lot. Now, in the graduate school world, for me, that would mean PhD. In other worlds, that's maybe master's degrees and so on. They're It sort of divides into maybe professional education, preparing you for a job, and then maybe academic style, like PhD work. In the PhD world, of course, they're being strongly affected by just the larger trends and changes in the research universe. And then when it comes to professional degrees, the main question we have to ask is, what is the right thing to teach our students in the current moment? So, for example, I'm in a department that teaches computer science. The field of computer science is changing by the day, right? It used to be, for example, we talked about programming as this core skill and thing that you should... Everybody should learn from day one. I would argue that's probably still the case, the same way that maybe learning to write and be literate is a key part of being a person in the society, even if you're not doing that every day. But jobs as an actual programmer are becoming more rare, right? We see a decline, for example, in enrollment in computer science for the first time in like 20 years.",
+      "zh": "是的，研究生和本科教育的格局都在发生很大变化。在研究生院的世界里，对我来说那意味着博士（PhD）；在其他领域，那也许是硕士学位之类的。它大致分成两类，也许是职业教育（professional education），为一份工作做准备，然后也许是学术型的，比如博士工作。在博士的世界里，他们当然正受到研究领域中那些更大趋势和变化的强烈影响。然后说到专业学位，我们必须问的主要问题是：在当下这个时刻，教给学生什么才是对的东西？比如说，我在一个教计算机科学（computer science）的系里。计算机科学这个领域每天都在变，对吧？过去，比如我们把编程当成一项核心技能、一件你从第一天起就该学的事。我会说这一点大概仍然成立，就像学会写作、具备读写能力也许是作为一个社会中的人的关键部分一样，即便你不是每天都在做那件事。但作为一名真正的程序员这类工作正变得越来越稀少，对吧？我们看到，比如说，计算机科学专业的报名人数出现了大约 20 年来的首次下降。"
+    },
+    {
+      "i": 124,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "32:56",
+      "en": "Since you mentioned computer science and unsolved questions, what is P equals NP all about?",
+      "zh": "既然你提到了计算机科学和未解问题，那 P 等于 NP（P equals NP）到底是怎么回事？"
+    },
+    {
+      "i": 125,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "33:03",
+      "en": "I see, I can answer all your math questions today, absolutely.",
+      "zh": "我明白了，我今天能回答你们所有的数学问题，当然可以。"
+    },
+    {
+      "i": 126,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "33:06",
+      "en": "These are just all these questions I've stored up in my head.",
+      "zh": "这些都是我攒在脑子里的各种问题。"
+    },
+    {
+      "i": 127,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "33:09",
+      "en": "Right, and we should come back to, I don't think I actually told you the end of the Navier-Stokes story, so I can come back to that. But yeah, so P versus NP and Navier-Stokes are examples of very famous mathematical problems that have been identified by the Clay Math Institute as sort of this benchmark for progress in modern mathematics, right? So they're open questions we don't know how to answer. P versus NP is a computer science problem in the sense that it's basically asking are all problems solvable in polynomial time? Meaning can your computer solve, or all is a little strong, but there's certain classes of problems that we know are solvable pretty efficiently. So for example, your computer can sort a list of numbers really fast. There are other problems that we don't know how to solve efficiently, but that's different from saying we can't solve them efficiently. And so that's the sort of fundamental question in that universe, like do there exist problems Is this.",
+      "zh": "对，我们待会儿应该回过头去讲——我觉得我其实还没告诉你们 Navier-Stokes 那个故事的结局，所以我可以回头再说。但是，好，P versus NP 和 Navier-Stokes 都是非常著名的数学问题的例子，它们被 Clay 数学研究所（Clay Math Institute）认定为某种衡量现代数学进展的标杆，对吧？所以它们是我们不知道该怎么回答的未解问题。P versus NP 在某种意义上是一个计算机科学问题，因为它基本上是在问：是不是所有问题都能在多项式时间（polynomial time）内解决？意思是，你的计算机能不能解决——「所有」这个说法有点太强了——但存在某些类别的问题，我们知道它们是能被相当高效地解决的。比如说，你的计算机能非常快地给一串数字排序。而另一些问题我们不知道该怎么高效解决，但这跟说我们不能高效解决它们不是一回事。所以那就是那个领域里的根本性问题，比如是否存在这样的问题……这是……"
+    },
+    {
+      "i": 128,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "33:57",
+      "en": "Like the known unknowns and unknown unknowns equivalent of the computer world?",
+      "zh": "就像是计算机世界里「已知的未知」和「未知的未知」（known unknowns and unknown unknowns）的对应版？"
+    },
+    {
+      "i": 129,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "34:02",
+      "en": "Yeah, yeah. It's hard to communicate about that way. That's absolutely right. In fact, I loved... There was... Years ago, there was a really terrible movie that came out that involved like P versus NP and that secretly some mathematician had proved that they were equal, but there's a government conspiracy because the markets were all gonna collapse. I think it was called Traveling Salesman. Anyway, the reviews were really funny. They were like, it turns out it's really hard to make drama out of people in a room at a blackboard. That aside.",
+      "zh": "是啊，是啊。用那种方式来讲挺难说清楚的。但那完全正确。事实上，我很喜欢……曾经……多年前有一部非常糟糕的电影上映，里面就涉及 P versus NP，说某个数学家私下里证明了它们是相等的，但存在一个政府阴谋，因为市场全都要崩盘。我想它叫《旅行推销员》（Traveling Salesman）。总之，那些影评特别好笑。他们说：事实证明，要让一屋子人对着黑板产生戏剧张力，真的很难。撇开这个不谈。"
+    },
+    {
+      "i": 130,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "34:29",
+      "en": "They should have used Windows instead.",
+      "zh": "他们本该改用窗户来写的。"
+    },
+    {
+      "i": 131,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "34:31",
+      "en": "That's right. Yeah, yeah. It would have made it a little visually compelling. Right. So a lot of these questions are sort of yes or no. We don't know if a fact is true. Navier-Stokes is another one. Either you need to show that these equations have a solution for all time, like fluid moving around, or give a counterexample where they don't. So in this AI case, for example, what the AI gave was a counterexample. It said this conjecture is not true, that there exists a particular configuration of your fluid that becomes infinitely turbulent in a finite amount of time.",
+      "zh": "没错。是啊，是啊。那会让它在视觉上更有冲击力一点。好。所以这些问题里有很多大致是「是或否」的。我们不知道某个事实是不是真的。Navier-Stokes 就是另一个例子。你要么需要证明这些方程对所有时间都有解——就像流体在流动那样——要么给出一个它们没有解的反例。所以在这个 AI 的案例里，比如说，AI 给出的是一个反例。它说这个猜想不成立，存在你流体的某个特定构型，会在有限的时间内变得无限湍急。"
+    },
+    {
+      "i": 132,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "34:58",
+      "en": "With a special spoon.",
+      "zh": "用一把特别的勺子。"
+    },
+    {
+      "i": 133,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "34:59",
+      "en": "That's right, with a very special spoon. And the reason I'm highlighting that is because I think it's a really great example of the really complicated relationship between humans and AI. So the construction of that spoon arguably was done in large part by a team in Spain of human mathematicians on pen and paper. And then essentially what happened was the AI, there was also this sort of interpersonal fight between two different AI teams. That's a whole hot mess. But that aside... these two teams were sort of, in some sense, leveraging these guys' progress over a very long period of time and then doing that last mile, right? So it's true that the AI made some really critical insights in that particular counter example, but it isn't true that it's like a totally surprising result that came out of left field.",
+      "zh": "没错，用一把非常特别的勺子。而我之所以强调这一点，是因为我觉得它是人类与 AI 之间那种真正复杂的关系的一个绝佳例子。所以那把勺子的构造，可以说很大程度上是由西班牙的一个人类数学家团队用纸笔完成的。然后基本上发生的事情是，AI——其间还有两个不同 AI 团队之间的某种人际争斗。那是一整团乱麻。但撇开这个不谈……这两个团队在某种意义上是在利用这些人长期积累的进展，然后走完最后那一英里，对吧？所以确实，AI 在那个具体的反例中做出了一些真正关键的洞见，但说它是一个完全出人意料、凭空冒出来的结果，那也不对。"
+    },
+    {
+      "i": 134,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "35:42",
+      "en": "Well, so this seems like it's going to be a scenario that academia is going to have to deal with more and more. So you could have a theoretical situation where like one person comes up with the problem, another or a team, one person or a team comes up with the solution. And then you have a model that like generates the verification or the final leg of the problem or whatever. Who deserves credit in that scenario? Like, how do you actually handle that?",
+      "zh": "嗯，所以这看起来会是学术界将来不得不越来越多地去应对的一种情形。所以你可能会有一种理论上的情况，就是一个人提出这个问题，另一个人或一个团队想出这个解答，然后你有一个模型来生成验证、或者这个问题的最后一段之类的。在那种情形里，谁该得到功劳？你们究竟怎么处理这件事？"
+    },
+    {
+      "i": 135,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "36:08",
+      "en": "How do we handle that currently? Poorly. And it's a really interesting and challenging discussion. I don't think we have a good answer right now. It used to be, for example, these clay math prizes, they're at the very top of the universe there. I'm not going to get one. I'm not going to get anywhere close. It used to be that they were sort of signifiers of two things. One is that the person that proved the theoretical result is a really smart person. The other one is that there's a big achievement in mathematics itself that we now know something to be true that we didn't know before or false. Now it's not clear that those two things are correlated, as you say, right? Like if a computer generates the interesting part of a proof, who deserves credit? Should that person be hired if they're the one that made the prompt? It really is an interesting question for a math or an engineering department. And it's not so clear. I think it really depends on your value systems. Like, what do we get out as humans from this exercise of proofwriting? I mean, for example, does a counterexample to Navier-Stokes, is that going to revolutionize the markets or change the way we write software? Almost certainly not, right? So this is more of a demonstration of a technology than any particular practical thing. And so I think we have to be really careful with understanding the incentive system behind who's claiming for credit and also making sure that the humans that are maybe doing all of the labor of composing the data that's going into these systems that's getting remixed into a proof, somehow that we're able to make some attribution there, which currently the technology is really bad at, right? Like you talk to AI, it's not so clear where it's getting its answers from, even though we know that it's kind of echoing data that's maybe scraped off the internet or someone else's research paper or what have you.",
+      "zh": "我们现在是怎么处理的？处理得很糟。而且这是一场非常有意思、也很有挑战性的讨论。我不觉得我们现在有一个好答案。过去，比如说，这些 Clay 数学奖——它们处在那个领域的最顶端。我是不可能拿到的，我连边都够不着。过去它们大致是两件事的标志。一是，证明了那个理论结果的人是个非常聪明的人。二是，数学本身有一项重大成就，就是我们现在知道某件事是真的、而过去不知道，或者是假的。而现在，这两件事是否相关就不清楚了，就像你说的，对吧？如果一个计算机生成了一个证明里那个有趣的部分，谁该得到功劳？如果那个人就是写提示词的人，他们该被聘用吗？这对一个数学系或者工程系来说真的是个有意思的问题。而且不那么清楚。我觉得这真的取决于你的价值体系。就是，作为人类，我们从写证明这件事里到底得到了什么？我是说，举个例子，Navier-Stokes 的一个反例，它会革新市场、或者改变我们写软件的方式吗？几乎肯定不会，对吧？所以这更多是对一项技术的演示，而不是任何具体的实用成果。所以我觉得我们必须非常小心，去理解「谁在主张功劳」背后的激励体系，同时也要确保那些也许做了全部苦力活、去编排喂进这些系统、又被重新混合成一个证明的数据的人类，我们不知怎么的能在那里做出某种署名归属——而这一点当前的技术做得非常差，对吧？就像你跟 AI 对话，它到底从哪儿得到答案并不那么清楚，尽管我们知道它多少是在复述那些也许是从互联网上、或者别人的研究论文里爬来的数据之类的。"
+    },
+    {
+      "i": 136,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "37:43",
+      "en": "Right, and this might be like the... the time that we will know that for sure. And five years from now, like who knows where it's getting its data from? It could be scraping it from itself or like other models are coming up with its own stuff. I have a slight aside, which is the prizes that you mentioned, which have also come up in movies like Good Will Hunting. The prize money that people get for that, is that- For them personally, or is it supposed to go into their research?",
+      "zh": "对，而这也许就是……那个我们终将确切知道答案的时刻。而五年之后，谁知道它的数据是从哪儿来的？它可能是在从它自己那里爬取，或者其他模型在产出它自己的东西。我有个小小的岔开话题，就是你提到的那些奖项，它们在像《心灵捕手》这样的电影里也出现过。人们因此拿到的奖金，那是——归他们个人，还是应该投入到他们的研究里？"
+    },
+    {
+      "i": 137,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "38:14",
+      "en": "That's a good question. I have no idea. The Claiming Award specifically, I'm not sure.",
+      "zh": "这是个好问题。我完全不知道。特别是那个 Clay 奖，我不确定。"
+    },
+    {
+      "i": 138,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "38:20",
+      "en": "Because some of them are big.",
+      "zh": "因为其中有些奖金很大。"
+    },
+    {
+      "i": 139,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "38:22",
+      "en": "And so now I'm envisioning the scenario where like maybe one day we have a model that ends up winning some big mathematics prize and the money... goes to the lab.",
+      "zh": "所以现在我在设想这样一幅场景，也许有一天我们有一个模型最终赢得了某个数学大奖，而那笔钱……进了实验室。"
+    },
+    {
+      "i": 140,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "38:32",
+      "en": "I guess? I don't know.",
+      "zh": "我猜是吧？我不知道。"
+    },
+    {
+      "i": 141,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "38:33",
+      "en": "I need the $ 1 million.",
+      "zh": "我需要那一百万美元。"
+    },
+    {
+      "i": 142,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "38:35",
+      "en": "Well, no, I'm just wondering.",
+      "zh": "嗯，不，我只是在琢磨。"
+    },
+    {
+      "i": 143,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "38:37",
+      "en": "It's actually a good question, and we now have an example of that. So this Navier-Stokes problem, I should be clear, so their proof has not been officially verified and checked, and in particular, there's a rule that it has to kind of exist in the community for some number of years and not be refuted. But we have to ask that question right now. So OpenAI... arguably because they rushed at the last second, were maybe the first to release something that satisfies the Clay criteria. There's a kind of a choose-your-own-adventure situation. There's a few different conjectures, and you could prove any one of them and then get this particular prize. OpenAI was quick to say that they don't need the million dollars, because of course they don't. In two minutes, they're burning through a million dollars worth of compute anyway. Which I think begs the question, like, well, why are they doing this? It's not for the money. Yeah. And now I don't think it was true that it was for the money for the mathematicians either. But the million dollars made a big difference to an individual.",
+      "zh": "这其实是个好问题，而且我们现在有了一个这样的例子。所以这个 Navier-Stokes 问题——我得说清楚——他们的证明还没有被正式验证和检查过，特别是，有一条规则是它必须在社区里存在若干年、且没有被驳倒。但我们现在就必须问这个问题了。所以 OpenAI……可以说是因为他们在最后关头抢时间，也许是第一个发布出满足 Clay 标准的东西的。这是一个有点像「自选冒险」（choose-your-own-adventure）的情况。有几个不同的猜想，你可以证明其中任何一个，然后拿到这个特定的奖。OpenAI 很快就表态说他们不需要那一百万美元，因为当然他们不需要。两分钟之内，他们反正就要烧掉价值一百万美元的算力。我觉得这反过来引出了一个问题：那好，他们为什么要做这件事？不是为了钱。是啊。而且现在我觉得，对那些数学家来说也不是为了钱。但那一百万美元对一个人个人来说，是有很大区别的。"
+    },
+    {
+      "i": 144,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "39:32",
+      "en": "There was some story about some Russian mathematician who sold one of those big prizes, right?",
+      "zh": "有个故事，说某位俄罗斯数学家卖掉了那些大奖中的一个，对吧？"
+    },
+    {
+      "i": 145,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "39:37",
+      "en": "And then declined the award altogether. He also declined the money. That's right.",
+      "zh": "然后干脆拒领了那个奖。他也拒领了那笔钱。没错。"
+    },
+    {
+      "i": 146,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "39:40",
+      "en": "I'm not going to decline the money, for the record.",
+      "zh": "说明一下，我是不会拒领那笔钱的。"
+    },
+    {
+      "i": 147,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "39:42",
+      "en": "No, I would happily take it.",
+      "zh": "不，我会很开心地收下。"
+    },
+    {
+      "i": 148,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "39:45",
+      "en": "When I finally solve some unprovable mathematical theorem. But actually, this leads to another more serious question, which is, okay, it costs a lot of money for these models to be run, and they consume vast amounts of tokens from very advanced mathematics. Do you end up in a situation where whoever has the most tokens wins the mathematics prize?",
+      "zh": "等到我终于解开某个无法证明的数学定理的时候。但其实，这引出了另一个更严肃的问题，就是，好，运行这些模型要花很多钱，而它们在做非常高等的数学时会消耗海量的 token。你会不会最终陷入这样一种局面：谁拥有最多的 token，谁就赢得数学奖？"
+    },
+    {
+      "i": 149,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "40:06",
+      "en": "Arguably. That, I think, is one of the major concerns in our community right now. And by the way, you mentioned education. It's also a concern there. Does a student that has a $ 200 account get to have a better homework solution? Yeah. It's a real question we have to grapple with right now. On the advanced end, I think we saw that. So, for example, I don't think it's controversial to say that essentially when the news that people were getting close to this Navier-Stokes counterexample came out, it appears that OpenAI suddenly poured some ridiculous amount of tokens or money or whatever into writing their proof first. The typical academic can't do that.",
+      "zh": "可以说是。我觉得这是我们社区当下主要的担忧之一。而且顺便说一句，你提到了教育，在那里它也是个担忧。一个有 200 美元账户的学生，是不是就能得到一份更好的作业解答？是啊。这是我们此刻必须努力应对的一个真实问题。在高端那一侧，我觉得我们已经看到了。比如说，我觉得这么说并不夸张：本质上，当「有人正接近这个 Navier-Stokes 反例」的消息传出来时，看起来 OpenAI 突然投入了某个荒谬数量的 token、或者钱、或者别的什么，去抢先把他们的证明写出来。典型的学者可做不到那样。"
+    },
+    {
+      "i": 150,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "40:40",
+      "en": "And I think there's an important element, I believe, with an unreleased model. And so I'm curious, let's say you're a mathematician and you're an enthusiast. Let's say you're, you know what, I'm going to embrace this new world of AI augmenting our understanding of mathematics. If you're a mathematician at a university, it's certain that there is a model that exists inside the labs that's better than the model that you have access to.",
+      "zh": "而且我觉得有一个重要的要素，我相信，跟一个尚未发布的模型有关。所以我很好奇，比如说你是一个数学家、你是个爱好者。假设你说，行，我要拥抱这个「AI 增强我们对数学的理解」的新世界。如果你是大学里的一个数学家，那几乎可以肯定，实验室内部存在一个比你所能用到的更好的模型。"
+    },
+    {
+      "i": 151,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "41:08",
+      "en": "That's right.",
+      "zh": "没错。"
+    },
+    {
+      "i": 152,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "41:09",
+      "en": "And so it's like you start to work on some problems. You start to demonstrate that actually using AI, you can make progress towards this. And then suddenly it's like, well, they have a model two generations ahead of you. And then they knock it out in a week.",
+      "zh": "所以就像，你开始研究一些问题。你开始证明，其实用 AI，你能朝这个方向取得进展。然后突然间就变成了，嗯，他们有一个领先你两代的模型。然后他们一周之内就把它搞定了。"
+    },
+    {
+      "i": 153,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "41:23",
+      "en": "And by the way, for all you know, their model was trained partially on your chats, right? It's really pernicious if you think about it. That's right. I mean, at least in the current moment, the AI system is very centralized, right? I mean, there's two or three tools that almost everybody is using. And they're owned by these companies. When you write your query, it goes to their servers. And they're basically the guys controlling the faucet. is a big concern. Another issue related to that is research funding. As your listeners may or may not know, even independently of AI, research funding currently is in a bit of a crisis. I mean, it's in a much more challenging moment than it was in the past. I can tell you, I'm so fortunate to work at MIT. And even for me, it's a challenge to pay for my graduate students and so on. And the costs change every year. Now we have to add onto that, for example, AI accounts. And that sounds theoretical, but it's not. My PhD students, for example, want the most expensive possible cloud account, which is great, but it's, what, $ 200 per person per month almost becomes equitable with the cost of another human. Now, something with.",
+      "zh": "而且顺便说一句，据你所知，他们的模型也许有一部分就是用你的聊天记录训练出来的，对吧？如果你细想，这真的很恶劣。没错。我是说，至少在当下这个时刻，AI 系统是非常中心化的，对吧？我是说，有那么两三个几乎人人都在用的工具。而它们归这些公司所有。当你写下你的查询时，它会传到他们的服务器上。基本上他们就是控制水龙头的那些人。这是个大担忧。与此相关的另一个问题是研究经费。你们的听众也许知道也许不知道，即便撇开 AI 不谈，研究经费目前也正处于某种危机之中。我是说，它处在一个比过去艰难得多的时刻。我可以告诉你，我很幸运能在 MIT 工作。而即便对我这样的人来说，为我的研究生付钱等等，也是个挑战。而且成本每年都在变。现在我们还必须在此之上再加一样东西，比如说 AI 账户。这听起来很理论化，但事实并非如此。比如说我的博士生，他们想要尽可能最贵的那种云账户，这很好，但那大概是每人每月 200 美元，几乎就要跟再雇一个人的成本相当了。现在，某种……"
+    },
+    {
+      "i": 154,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "42:28",
+      "en": "I read, apparently, some people had said that of the outstanding clay prizes, many had sort of surmised that Navier-Stokes might be the first one solved. And I think it's interesting... that it was solved via counter example. And it sort of raises a question of like, did the model find an elegant solution or did it just grind? Was this a grindable problem?",
+      "zh": "我读到，显然，有人说过，在那些尚未颁发的 Clay 奖里，很多人都大致推测 Navier-Stokes 可能会是第一个被解决的。而且我觉得有意思的是，它是通过一个反例被解决的。这就引出了一个问题：模型是找到了一个优雅的解法，还是它只是硬磨（grind）？这是一个能被硬磨出来的问题吗？"
+    },
+    {
+      "i": 155,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "42:56",
+      "en": "That's exactly the right question.",
+      "zh": "这恰恰是那个对的问题。"
+    },
+    {
+      "i": 156,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "42:56",
+      "en": "Or just a grind through a lot of states and then it hits on the magic spoon that disproves it or et cetera. Which seems like a very, like if finding that counter example is a process of grinding through hundreds of thousands of different states. Like, is that elegant math or is that just like some sort of like sheer mechanical process?",
+      "zh": "还是说它只是硬磨过大量的状态，然后碰巧撞上了那把能证伪它的魔法勺子之类的。这看起来非常——如果说找到那个反例是一个硬磨过成千上万个不同状态的过程，那这是优雅的数学吗，还是那只是某种纯粹的机械过程？"
+    },
+    {
+      "i": 157,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "43:18",
+      "en": "Oh, that's a great question. And indeed, I think you mentioned the beginning of this, this talk that you opened that paper and it's like totally unreadable. And that's not just whether you have a math degree or not. Like I can't read past the first couple of pages, you know? Right. So that particular result, I think there was some beautiful insight again, arguably generated by humans, that went into the overall construction. And then indeed, the proof is really horrifying. Like there's a lot going on. It's technical. It's got inequalities and bounds and indices and all kinds of crazy stuff. And so I think indeed, as you say, in this particular case, no, is it elegant? Probably not. Is it correct? Yes, probably. So again, basic question, like why do we do this exercise? Is it just to now we can say with confidence that this conjecture is false? Or is it that we learn something along the way that'll bring insight to some other problem? Those two things are now divorced, right? If you just have this frictionless way to prove a theorem, then all the beautiful insight and maybe kind of fun garden paths along the way that might have inspired some new research field have been pruned out, which is a big challenge, right? In some sense, that's really the key human aspect of all of this.",
+      "zh": "哦，这是个好问题。而且确实，我觉得你在开头就提到了这一点，就是你打开那篇论文、它几乎完全没法读。而且这不只关乎你有没有数学学位。就是我也读不过头几页，你知道？对。所以那个具体的结果，我觉得其中有一些很美的洞见——同样，可以说是由人类产生的——被放进了整体的构造里。然后确实，那个证明真的很吓人。里面有很多东西在运作。它很技术性，有不等式、有界、有指标，还有各种各样疯狂的东西。所以我觉得确实，就像你说的，在这个具体的案例里，它优雅吗？大概不。它正确吗？是的，大概正确。所以又回到那个基本问题：我们为什么要做这件事？仅仅是为了现在我们可以有把握地说这个猜想是假的？还是说我们在这一路上学到了某些东西、能给别的问题带来洞见？这两件事如今已经彼此脱钩了，对吧？如果你只是有一个毫无摩擦的方式来证明一个定理，那么所有那些美的洞见、也许还有那种好玩的、曲径通幽的小路——它们本可能启发某个新的研究领域——就都被剪掉了，这是个大挑战，对吧？从某种意义上说，这真的是这一切当中那个关键的、属于人的层面。"
+    },
+    {
+      "i": 158,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "44:41",
+      "en": "So this was going to be my next question. And I guess I'm really asking you to opine on whether or not you think AGI is going to be a thing or super intelligence or whatever we're calling it now. But OK, so AI right now can sort of brute force a solution. And it's not particularly elegant. Can it come up with ideas that are separate to what we kind of already know or questions that we are already positing? Like, can it actually inform us that, no, the way you think the world works currently is actually different? Or can it sort of like unveil mathematical rules or rules about the world that we are not even thinking about or asking about?",
+      "zh": "这本来就是要问的下一个问题。我猜我其实是在请你发表看法：你觉得 AGI 会不会成真，或者超级智能（super intelligence）、或者不管我们现在怎么称呼它。但好，所以现在的 AI 多少能暴力求解出一个答案。而且它并不特别优雅。它能不能想出一些跟我们已知东西分开的想法、或者我们已经在提出的问题之外的东西？就是，它能不能真的告诉我们：不，你们目前认为世界运作的方式其实是不同的？或者它能不能揭示出一些数学规律、或者关于世界的规律，是我们甚至还没在想、还没在问的？"
+    },
+    {
+      "i": 159,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "45:24",
+      "en": "New conjecture.",
+      "zh": "新的猜想。"
+    },
+    {
+      "i": 160,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "45:25",
+      "en": "Yeah, exactly.",
+      "zh": "对，正是。"
+    },
+    {
+      "i": 161,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "45:26",
+      "en": "Exactly. It's a great question. So actually, my colleague Nestor Guillen at NYU has a nice blog post that kind of talks about this a bit. When you look at a lot of the proofs and the new results that are coming out of these AI systems, they're arguably in what mathematicians might call the convex hole of existing knowledge, meaning there's sort of a bunch of stuff we already know. And then a lot of these proofs are really intricate and interesting ways to mix and match those things. They're like kind of inside of the span of knowledge that we already have. And you've asked the key question, which is can a mathematical AI system actually come up with a truly surprising new result that's like not just mixing and matching facts we already know, or maybe like finishing off a calculation that somebody got stuck on, but making an entirely new theory, for example, that just wasn't present before. I don't think we've seen a whole lot of examples of that so far. And now, I mean, this technology changes by the day, like who knows, but at least so far, I think for the most part, it's in that first category of like, maybe making really interesting and surprising connections between surprising, between, things that we already knew, but not necessarily generating something entirely new out of left field, right? That would be really the next step for a lot of these tools.",
+      "zh": "正是。这是个好问题。其实，我在 NYU 的同事 Nestor Guillen 有一篇很好的博客文章，多少谈到了这一点。当你看这些 AI 系统产出的很多证明和新结果时，它们可以说是在数学家也许会称之为「已有知识的凸包（convex hull）」之内，意思是有一大堆我们已经知道的东西，然后这些证明里很多，是把那些东西混来配去的非常精妙、有意思的方式。它们大致就在我们已经拥有的知识的跨度之内。而你问到了那个关键问题：一个数学 AI 系统能不能真的想出一个真正出人意料的新结果，那种不只是把我们已知的事实混来配去、或者也许是替某人完成一个卡住的计算，而是比如造出一个此前根本不存在的全新的理论。我不觉得到目前为止我们见到了很多这样的例子。而现在，我是说，这项技术每天都在变，谁知道呢，但至少到目前为止，我觉得大部分都属于前一个类别，就是也许在我们已经知道的东西之间建立起真正有意思、出人意料的联系，但未必能凭空生成某种全新的东西，对吧？那才会是很多这类工具真正的下一步。"
+    },
+    {
+      "i": 162,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "46:36",
+      "en": "I know that like one of the questions too, with some of the, and I think maybe some of the lesser prestigious proofs that have been established, there's the question, okay, maybe they just grind their way to an answer. And the other, I know another question is like, well, was this already sort of proven somewhere? Maybe it was like, there is some obscure Russian math journal where most of the work had been done and most of them. mathematicians were aware of that. But it was in the training data. And so.",
+      "zh": "我知道，还有一个问题，跟其中一些——我觉得也许是一些名气没那么大的、已经被确立的证明有关，就是那个问题：好，也许它们只是硬磨出了一个答案。而另一个，我知道还有一个问题是：嗯，这是不是其实在某个地方已经被证明过了？也许是在某本冷门的俄罗斯数学期刊上，大部分工作早就做完了，而且大多数数学家都知道这件事。但它就在训练数据里。所以……"
+    },
+    {
+      "i": 163,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "47:01",
+      "en": "Hard to know. Data attribution in AI generally, mathematics or otherwise, is a really critical problem. I mean, it's exactly the same problem as like, my AI generated a cool new cartoon. Did it borrow from Disney? And is that okay? In some sense, it's a very similar problem. And the current tools are very bad at answering it.",
+      "zh": "很难知道。AI 里普遍的数据归属（data attribution）问题，不管是数学还是别的领域，都是一个极其关键的问题。我是说，这跟「我的 AI 生成了一部很酷的新卡通片，它是从 Disney 那里借来的吗？这样可以吗？」是一模一样的问题。从某种意义上说，这是非常相似的问题。而当前的工具在回答它上做得非常差。"
+    },
+    {
+      "i": 164,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "47:20",
+      "en": "Why don't you just tell us a little bit about being a professor in 2026? And like, what you're doing differently and just that education.",
+      "zh": "你不妨给我们讲讲，在 2026 年当一名教授是什么样的？以及你现在做的事情有什么不同，就那个教育方面。"
+    },
+    {
+      "i": 165,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "47:32",
+      "en": "Yes. So the education field is having its own, I don't know about identity crisis, but certainly a lot of navel gazing and thinking very hard about the fundamentals. MIT actually released a really nice little report on AI and education. I encourage everybody to take a look. My colleagues, Sam Klopfer and Eric Madden, were in charge of writing that. But every aspect of education has changed. I think One thing that maybe is undervalued is the amount of education, which is social, even if primarily the maybe artifacts that you're producing are things like problem sets. So one thing that we've seen among our sort of youngest students, for example, the early undergraduates, is that it's really hard to draw them out of their dorm room. There's an interesting perception challenge here. You now have, again, this frictionless robot that can help you with your problem sets, or frankly, do your problem set for you. Is that learning? Probably not. Now, the interesting thing is that there's a difference between perception and reality. A lot of our students maybe perceive that they're learning when they use these different AI tools. Yeah. But then they go and take the exam and the score would say otherwise.",
+      "zh": "好的。教育领域也正在经历它自己的——我不知道算不算身份认同危机——但肯定有大量的自我反省（navel gazing），在非常认真地思考那些根本问题。MIT 其实发布了一份很好的小报告，讲 AI 与教育。我鼓励大家都去看看。我的同事 Sam Klopfer 和 Eric Madden 负责撰写那份报告。但教育的每一个方面都变了。我觉得有一件也许被低估的事，就是教育当中社交的成分有多少，即便你产出的主要成果也许是像习题集（problem sets）这样的东西。所以我们在最年轻的那批学生身上看到的一个现象，比如低年级本科生，就是很难把他们从宿舍里拽出来。这里有一个有意思的认知挑战。你现在又有了这个毫无摩擦的机器人，它能帮你做习题集，或者坦率说，直接替你做习题集。那算学习吗？大概不算。现在，有意思的一点是，认知和现实之间是有差别的。我们的很多学生在用这些不同的 AI 工具时，也许觉得自己在学习。是啊。但然后他们去参加考试，那个分数会告诉你另一番情况。"
+    },
+    {
+      "i": 166,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "48:36",
+      "en": "So what do you do to sort of maximize the chances that your students are learning?",
+      "zh": "那么你会做些什么，来最大化你的学生真正在学习的几率？"
+    },
+    {
+      "i": 167,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "48:41",
+      "en": "You know, at MIT, they have a slogan. I think it roughly is like mind and hand learning. And then they added and heart on the end, which is good. And I think we're really leaning into that second one. We've known long before AI that putting a bunch of students in a classroom and talking at them and then having them work on a problem set alone is not a very effective way to teach.",
+      "zh": "你知道，在 MIT，他们有一句口号。我想它大致是「心智与双手」（mind and hand）式的学习。然后他们在末尾加上了「与心灵」（and heart），这很好。我觉得我们正真的在往后面那一个上靠。早在 AI 出现之前我们就知道，把一群学生塞进教室、对着他们讲话，然后让他们独自去做一份习题集，并不是一种非常有效的教学方式。"
+    },
+    {
+      "i": 168,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "48:58",
+      "en": "Okay.",
+      "zh": "好。"
+    },
+    {
+      "i": 169,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "48:59",
+      "en": "So now I think we're really focusing on experiential learning, on getting the students to show up physically and to ask that question or answer that question rather of why do we take all these students and put them on a college campus instead of having them work from a laptop at home? Now, I would argue that that's still a really valuable exercise. MIT, for example, has the luxury of having the world expert on just about anything. physically within a mile of your dorms. And so we're designing all kinds of programs that, for example, in the School of Engineering, try to bring the students in for research experience, for hands-on learning, for going into industry and seeing what things look like there. And trying to build the undergraduate experience more out of that and a little bit less out of exams and problem sets. Now, there remain a lot of questions. For example, assessment is a big challenge for us. What we observed in the last year or two is that our students are getting nearly 100% on all their homeworks. Maybe it's because MIT students are super bright.",
+      "zh": "所以现在我觉得我们正真正聚焦于体验式学习（experiential learning），聚焦于让学生亲身到场、去问那个问题或回答那个问题，而不是——为什么要让所有学生待在大学校园里，而不是让他们在家用笔记本电脑工作？现在，我会说那仍然是一件非常有价值的事情。比如说 MIT 有一个奢侈的条件，就是几乎任何话题的世界级专家，都在离你宿舍一英里的范围之内。所以我们在设计各种各样的项目，比如说在工程学院，尝试把学生带进来做研究体验、做动手学习、走进产业去看看那里是什么样子的。并且尝试更多地用这些来构建本科体验，而少一点靠考试和习题集。现在，仍然有很多问题存在。比如说，评估（assessment）对我们来说是个大挑战。我们在过去一两年观察到的是，我们的学生在所有作业上都拿到接近 100% 的分数。也许是因为 MIT 的学生超级聪明。"
+    },
+    {
+      "i": 170,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "49:53",
+      "en": "Can I just say, so I take the train from New York to between New Haven quite a lot. There are a lot of Yale students. Watching them on their laptops right now, they're all on, mostly Claude actually, writing essays or at least doing the basic research via chatbot.",
+      "zh": "我能不能说一句，我经常坐火车往返于 New York 和 New Haven 之间。车上有很多 Yale 的学生。看着他们此刻在笔记本电脑上，他们全都在用——其实大多是 Claude——写文章，或者至少通过聊天机器人做基础研究。"
+    },
+    {
+      "i": 171,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "50:11",
+      "en": "So like this semester, I'm teaching a course called shape analysis that covers discrete differential geometry, if you're into that kind of thing.",
+      "zh": "比如说这个学期，我在教一门叫形状分析（shape analysis）的课，它涵盖离散微分几何（discrete differential geometry），如果你对那类东西感兴趣的话。"
+    },
+    {
+      "i": 172,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "50:18",
+      "en": "Of course.",
+      "zh": "当然。"
+    },
+    {
+      "i": 173,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "50:19",
+      "en": "Who isn't, right? This is a pretty mathy class. In the past, most of what the students did were two things. It was kind of written assignments and then an open-ended project where they kind of come up with a new result and write it down. And both of those had to change. And so in our course now, the way we structure it is there's still homeworks, but The analogy that I'm using, as with many of my colleagues at MIT, is closer to weightlifting. You don't do it because it's fun, necessarily. I do sometimes, but not everybody's like that. But you do it more because you're trying to achieve some other goal. You're preparing or you're being a stronger person. And then maybe what you do is you have to test understanding in some other fashion. So we have a little short quiz after the homework that basically is just a copy-pasted homework problem, but makes sure that the students at least comprehend what they did. We also had to restructure the project a bit, add like oral presentation component to it and bring some more interaction to make sure that essentially we're educating the human, not just testing the capabilities of Claude, right? Those are very different things. And I would argue the real goal of an institution like MIT is to prepare brilliant students for the next set of problems.",
+      "zh": "谁不感兴趣呢，对吧？这是一门相当数学化的课。过去，学生们做的大多是两件事。一类是书面作业，然后是一个开放式项目，他们多少想出一个新结果并把它写下来。而这两样都必须改变。所以现在在我们的课上，我们的结构方式是，仍然有作业，但我用的类比——跟我很多 MIT 的同事一样——更接近举重（weightlifting）。你做它未必是因为它有趣。我有时候是的，但不是每个人都这样。但你做它更多是因为你想达成某个别的目标。你在做准备，或者你在让自己变成一个更强的人。然后也许你要做的是，用别的方式来检验理解。所以我们在作业之后有一个小测验，它基本上就是一道原样复制粘贴的作业题，但确保学生至少理解他们做了什么。我们还必须把项目重新构建一下，加进一个口头展示（oral presentation）的部分，并带来更多互动，以确保本质上我们在教育这个人，而不只是在检验 Claude 的能力，对吧？那是非常不同的两件事。而我会说，像 MIT 这样一个机构的真正目标，是为这些出色的学生准备好去应对下一批问题。"
+    },
+    {
+      "i": 174,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "51:26",
+      "en": "We were talking about how like it's difficult to just look at the output of the Navier-Stokes solution.",
+      "zh": "我们刚才谈到，光是看 Navier-Stokes 那个解答的输出有多困难。"
+    },
+    {
+      "i": 175,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "51:32",
+      "en": "Yes.",
+      "zh": "是的。"
+    },
+    {
+      "i": 176,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "51:33",
+      "en": "Evidently even for mathematicians. And I was thinking, okay, so what's the future then of math? And I had this analogy in my head, like we knew how to brew beer before we understood the science of yeast, right? So alcohol has been around a long time. And then at some point people understood and they knew the process, but they didn't understand why the process worked.",
+      "zh": "显然对数学家来说也一样。然后我就在想，好，那么数学的未来是什么？我脑子里有这个类比，就是我们在理解酵母的科学之前，就已经知道怎么酿啤酒了，对吧？所以酒精已经存在很长时间了。然后在某个时刻，人们理解了、他们知道了这个过程，但他们不明白这个过程为什么有效。"
+    },
+    {
+      "i": 177,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "51:54",
+      "en": "That's right.",
+      "zh": "没错。"
+    },
+    {
+      "i": 178,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "51:54",
+      "en": "And then eventually they discovered yeast and why this sequence works. And so I thought like, well, maybe like, could it be that the future of science is, yes, the AI models are going to find all these answers or be able to do all these things, but that there will still be a role then for humans to like, I don't know, translate it or explain it.",
+      "zh": "然后最终他们发现了酵母、以及这个序列为什么有效。所以我就想，嗯，也许，会不会科学的未来是：是的，AI 模型会找到所有这些答案、或者能做所有这些事情，但那时人类仍将有一个角色，就是，我不知道，去翻译它、或者解释它。"
+    },
+    {
+      "i": 179,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "52:19",
+      "en": "I think that's right.",
+      "zh": "我觉得没错。"
+    },
+    {
+      "i": 180,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "52:20",
+      "en": "But then I also wonder if it's like, well, probably the AI is also going to be better at translating and explaining things too. But could there be a new sort of general reorientation of math such that rather than discovering new things per se, it's like understanding these things that have been proven?",
+      "zh": "但然后我也在想，是不是这样：嗯，大概 AI 在翻译和解释事情上也会更强。但数学会不会有一种新的、整体的重新定位，使得它不再是发现新东西本身，而是去理解这些已经被证明出来的东西？"
+    },
+    {
+      "i": 181,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "52:42",
+      "en": "That's right. I think the right way to think about these AI systems is that they're tools. And people's jobs evolve all the time, and apparently mine is no different. I want to be clear, I don't think that we need to be subservient to the AI and just checking what it makes. I guess there's a few different aspects of that. One is, of course, my job is both education and research. And I think the education part, even if what it looks like day to day has changed a bit, the mission is still there. And we still want to educate the world's best humans at MIT. And we do an okay job of that. In terms of the mathematical labor, I think one thing that's really undervalued in this field is that the typical mathematician is not working on the Clay Math Institute problems.",
+      "zh": "没错。我觉得思考这些 AI 系统的正确方式，是把它们当成工具。人们的工作一直在演变，而显然我的工作也不例外。我想说清楚，我不觉得我们需要对 AI 俯首帖耳、只是去检查它做出来的东西。我猜这有几个不同的层面。一个是，当然，我的工作既是教育也是研究。而我觉得教育那部分，即便它日常的样子多少变了，那个使命仍然在。我们仍然想在 MIT 教育出世界上最优秀的人。而且我们做得还不错。说到数学方面的劳作，我觉得这个领域里有一件真正被低估的事，就是典型的数学家并不是在做 Clay 数学研究所的那些问题。"
+    },
+    {
+      "i": 182,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "53:19",
+      "en": "It was really hard.",
+      "zh": "那真的很难。"
+    },
+    {
+      "i": 183,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "53:20",
+      "en": "There's some really brilliant guys. I wish I could do it. I'm not, I'm not, I can't compete there. It's similarly like math contest problems was another one that the AI companies were quick to kind of pounce on.",
+      "zh": "有一些非常聪明的人。我希望我也能做。我不是，我不是，我在那儿没法竞争。类似地，数学竞赛题也是那些 AI 公司很快扑上去的另一个东西。"
+    },
+    {
+      "i": 184,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "53:30",
+      "en": "As the math Olympia.",
+      "zh": "就是数学奥林匹克（Math Olympiad）。"
+    },
+    {
+      "i": 185,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "53:32",
+      "en": "Exactly. That was the sort of previous generation.",
+      "zh": "正是。那是上一代的东西。"
+    },
+    {
+      "i": 186,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "53:34",
+      "en": "Yeah.",
+      "zh": "对。"
+    },
+    {
+      "i": 187,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "53:34",
+      "en": "All of these are great in the sense that they're like problems that you can write down. They're well contained. They're in a little box, but a lot of mathematics is more about taste than it is about just proofwriting and verifying some other conjecture that somebody wrote down. So for example, in my particular area, and again, I want to be clear, you know, I'm an applied guy. A lot of pure mathematicians would absolutely look down on what I'm doing and say, ah, that's not real math. I would say otherwise, but that's, we'll have that debate another day. By the time we get to writing a proof, we probably already know it's true. Like it's more double check situation. But the really interesting part is on the modeling and figuring out which questions to ask and what insight they bring us to the universe. And the AI tools are not doing that, right? And so you're right. Maybe proofreading becomes more of an exercise in writing prompts, but writing the prompts is very much what we've been teaching our students to do for centuries now. And that skill, I think, persists. Yeah.",
+      "zh": "所有这些东西都很好，好在于它们是那种你能写下来的问题。它们界定清晰，被装在一个小盒子里。但很多数学更多是关于品味（taste），而不只是写证明、去验证某个人写下的另一个猜想。所以比如说，在我这个具体的领域里——再说一次，我想说清楚，你知道，我是个搞应用的人。很多纯数学家绝对会看不起我在做的事，说，啊，那不是真正的数学。我会说并非如此，但这个我们改天再辩。等我们到了要写一个证明的时候，我们大概已经知道它是真的了。就是它更多是一种再确认一遍的情形。但真正有意思的部分，是在建模上、以及搞清楚该问哪些问题、还有它们能带给我们关于宇宙的什么洞见。而 AI 工具并没有在做那件事，对吧？所以你说得对。也许写证明会越来越多变成一种写提示词的练习，但写提示词这件事，恰恰是我们几百年来一直在教学生做的。而我认为，那项技能会持续存在。是的。"
+    },
+    {
+      "i": 188,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "54:29",
+      "en": "I mean, broadly, it feels like the emphasis is shifting to being able to ask the right questions, come up with new ideas versus just come up with a basic answer.",
+      "zh": "我是说，大体上，感觉重心正在转向：能够问出对的问题、想出新想法，而不只是给出一个基本的答案。"
+    },
+    {
+      "i": 189,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "54:39",
+      "en": "That's right. And the typical math student probably doesn't end up in theoretical math. They maybe end up in finance. They end up in engineering. And for those folks, that skill is the really critical one, right? It's exactly what you need to be a good manager, to be a good project designer, to lead and innovate in all kinds of different fields. And that skill is somehow becoming more important than ever. All that boring proofreading stuff that everybody's allergic to is actually kind of being pushed to the side a bit.",
+      "zh": "没错。而典型的数学系学生大概最后不会进理论数学。他们也许会进金融，会进工程。而对那些人来说，那项技能才是真正关键的那一项，对吧？它恰恰是你成为一个好经理、一个好的项目设计者、在各种不同领域去领导和创新所需要的东西。而那项技能不知怎么的正在变得比以往任何时候都更重要。所有那些人人避之不及的、无聊的写证明的活儿，其实多少正被推到一边去了。"
+    },
+    {
+      "i": 190,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "55:04",
+      "en": "So we should still teach kids math.",
+      "zh": "所以我们还是应该教孩子数学。"
+    },
+    {
+      "i": 191,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "55:05",
+      "en": "I think so.",
+      "zh": "我觉得是的。"
+    },
+    {
+      "i": 192,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "55:08",
+      "en": "Justin Solomon, thank you so much for coming.",
+      "zh": "Justin Solomon，非常感谢你的到来。"
+    },
+    {
+      "i": 193,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "55:10",
+      "en": "On the blog.",
+      "zh": "在博客上。"
+    },
+    {
+      "i": 194,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "55:10",
+      "en": "Of course, it was a pleasure.",
+      "zh": "当然，很荣幸。"
+    },
+    {
+      "i": 195,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "55:19",
+      "en": "Well, I think, look, to say the least, the future of sort of math and math education, it's like, we have no idea where this is going, right? Because the models are going to keep getting better. And even just the sort of like prosaic point about like, okay, here you have some conference that used to have a thousand submissions and now it has 60,000 submissions. And some of them might even be very good, but it's like, that's the type of thing that just like, as he said, it like breaks existing systems pretty straightforward.",
+      "zh": "嗯，我觉得，瞧，至少可以说，数学和数学教育的未来，就是，我们完全不知道这会走向何方，对吧？因为模型会变得越来越好。而且哪怕只是那个很朴素的点，就是，好，这里你有一个过去只有一千份投稿的会议，现在它有 60000 份投稿。其中一些甚至可能非常好，但这就是那种——就像他说的——非常直接地把现有体系击穿的东西。"
+    },
+    {
+      "i": 196,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "55:56",
+      "en": "Yeah. It feels like there's a tautology here with AI where, Because of AI, a lot of things are getting easier and more difficult at the same time, right? So you have the ability to generate tons and tons of content, but the ability to verify it doesn't necessarily go up at the same amount of time. Maybe it will one day. I also think the emphasis on questions rather than simple answers and the idea of taste, even in something like mathematics, which is kind of alien to me. You know, you hear about it in code all the time, the ability to write elegant code, and I guess the same applies to mathematics, the ability to elegantly prove a formula or elegantly come up with a theory. That seems to be repeated throughout everything nowadays. If you're able to generate ideas... think outside the box to use a terrible cliche and curate with some taste or write or perform with a particular amount of taste. That seems to be the edge case here.",
+      "zh": "对。感觉这里跟 AI 有一个同义反复（tautology），就是因为 AI，很多事情正在同时变得更容易、也更困难，对吧？所以你有能力生成海量的内容，但验证它的能力未必以同样的幅度提升。也许有一天会。我还觉得，重心放在问题上、而不是简单的答案上，以及「品味」这个概念，即便是在像数学这样对我来说有点陌生的东西里，也是如此。你知道，你在代码里一直听到它，写出优雅代码的能力，我猜同样的道理也适用于数学，优雅地证明一个公式、或者优雅地想出一个理论的能力。这在如今的一切事物里似乎都在被反复提及。如果你能够生成想法……跳出框框思考——用一个很糟糕的陈词滥调来说——并且带着某种品味去策展、去写作、或者去表演。这似乎就是这里的制胜关键（edge case）。"
+    },
+    {
+      "i": 197,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "56:57",
+      "en": "I would also say like, this is actually a pretty high stakes question, even outside of the academic setting sort of research taste, because of course, one of the big questions for AI period is this idea of, recursive self-improvement, can a model build a successor model? And to do that means generating new ideas to then experiment on. And I think it's a pretty big open question still whether the models are good at novel questions, right? So it's like, okay, there's a bunch of outstanding questions. There's reason to think they're solvable. okay, maybe the models get very good at that. Can the model come up with the next Navier-Stokes? Can it come up with the next P equals NP? Can it come up with the next Fermat's last theorem that's in math? But whatever the equivalence of that is in sort of areas like machine learning and so forth, it's a pretty important question for the future of AI. It's like, are the models good at proposing the next research experiment And then, of course, carrying out, conducting the test.",
+      "zh": "我还要说，这其实是一个风险相当高的问题，即便是在学术场景之外的所谓「研究品味」，因为当然，关于 AI 的一个大问题是「递归式自我改进」（recursive self-improvement）这个概念：一个模型能不能构建出一个后继模型？而要做到这一点，就意味着要生成新想法，然后再拿去做实验。而且我觉得，模型是否擅长提出新颖的问题，这仍然是一个相当大的未解问题，对吧？所以就是，好，有一堆悬而未决的问题。有理由认为它们是可解的。好，也许模型在这方面变得非常强。那模型能不能想出下一个 Navier-Stokes？能不能想出下一个 P equals NP？能不能想出下一个数学里的费马大定理？但不管它在机器学习等等这些领域里的等价物是什么，这对 AI 的未来都是一个相当重要的问题。就是，模型擅不擅长提出下一个研究实验，然后当然，去执行、去开展那个测试。"
+    },
+    {
+      "i": 198,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "58:13",
+      "en": "Right.",
+      "zh": "对。"
+    },
+    {
+      "i": 199,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "58:13",
+      "en": "And they might be one day. They might be.",
+      "zh": "而且它们有一天也许会擅长。也许会。"
+    },
+    {
+      "i": 200,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "58:15",
+      "en": "But right now, there's clearly still a pretty significant role for a human in the lube.",
+      "zh": "但眼下，人类显然仍在其中——在这个环节（loop）里——扮演着相当重要的角色。"
+    },
+    {
+      "i": 201,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "58:21",
+      "en": "Right.",
+      "zh": "对。"
+    },
+    {
+      "i": 202,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "58:21",
+      "en": "To sort of like, I guess that's intuition or whatever. Imagination. Okay, let's try this out, et cetera. And my impression is that the models still aren't great at that particular aspect of, I guess, the scientific method.",
+      "zh": "去做那种，我猜就是直觉或者别的什么。想象力。「好，我们来试试这个」，等等。而我的印象是，模型在——我猜——科学方法的这个特定方面上，仍然不是很擅长。"
+    },
+    {
+      "i": 203,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "58:37",
+      "en": "Yeah, I think that's what Justin said as well. So that gets me back to this idea that the human edge remains the idea generation, out of the box thinking, whatever you want to call it, out of the AI box.",
+      "zh": "对，我觉得 Justin 也是这么说的。所以这又把我带回到那个想法：人类的优势仍然是想法的生成、跳出框框的思考——不管你想怎么称呼它——跳出 AI 那个框框。"
+    },
+    {
+      "i": 204,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "58:50",
+      "en": "Out of the chip thinking.",
+      "zh": "跳出芯片（chip）的思考。"
+    },
+    {
+      "i": 205,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "58:51",
+      "en": "That's out of the chip thinking.",
+      "zh": "那才是跳出芯片的思考。"
+    },
+    {
+      "i": 206,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "58:53",
+      "en": "That's good. Yeah.",
+      "zh": "这个好。是啊。"
+    },
+    {
+      "i": 207,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "58:54",
+      "en": "Shall we leave it there?",
+      "zh": "我们就聊到这儿吧？"
+    },
+    {
+      "i": 208,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "58:55",
+      "en": "Let's leave it there.",
+      "zh": "就聊到这儿吧。"
+    },
+    {
+      "i": 209,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "58:56",
+      "en": "All right.",
+      "zh": "好的。"
+    },
+    {
+      "i": 210,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "58:56",
+      "en": "This has been another episode of the Odd Thoughts Podcast. I'm Traci Allaway. You can follow me at Traci Allaway.",
+      "zh": "这里是又一期 Odd Lots 播客。我是 Tracy Alloway。你可以在 Tracy Alloway 这个账号上关注我。"
+    },
+    {
+      "i": 211,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "59:01",
+      "en": "And I'm Joe Weisenthal. You can follow me at The Stalwart. Follow our producers, Carmen Rodriguez at Carmen Armit, Dashiell Bennett at Dashbot, Kale Brooks at Kale Brooks, and Kevin Lozano at Kevin Lloyd Lozano. And you can check out all of these topics 24-7 in our Discord, discord.gg slash oddlots. And for more oddlots content, check out our daily newsletter. You can find that at bloomberg.com slash oddlots.",
+      "zh": "我是 Joe Weisenthal。你可以在 The Stalwart 这个账号上关注我。关注我们的制作人：Carmen Rodriguez（账号 Carmen Armit）、Dashiell Bennett（账号 Dashbot）、Kale Brooks（账号 Kale Brooks），还有 Kevin Lozano（账号 Kevin Lozano）。你可以在我们的 Discord 里 24/7 地讨论所有这些话题，discord.gg/oddlots。想看更多 Odd Lots 的内容，可以看看我们的每日通讯（newsletter），你能在 bloomberg.com/oddlots 找到它。"
+    },
+    {
+      "i": 212,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "59:25",
+      "en": "And if you enjoyed this conversation, if you like it when we talk about mathematics, then please let us know on your favorite podcast platform. If you're watching on video and you enjoyed the show, then please leave us a comment or like the video or better yet, subscribe.",
+      "zh": "如果你喜欢这次对谈，如果你喜欢我们聊数学，那么请在你最爱的播客平台上告诉我们。如果你是在看视频、而且你喜欢这期节目，那么请给我们留言、或者点个赞，或者更好——订阅我们。"
+    },
+    {
+      "i": 213,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "59:38",
+      "en": "And remember, if you're a Bloomberg subscriber, you can listen to all of our episodes absolutely ad-free. All you need to do is find the Bloomberg channel on Apple Podcasts and follow the instructions there.",
+      "zh": "还有，记住，如果你是 Bloomberg 的订阅用户，你可以完全无广告地收听我们所有的节目。你要做的就是在 Apple Podcasts 上找到 Bloomberg 频道，然后按那里的说明操作。"
+    },
+    {
+      "i": 214,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "59:49",
+      "en": "Thanks for joining.",
+      "zh": "感谢你们的收听。"
+    },
+    {
+      "i": 215,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "59:59",
+      "en": "Thank you.",
+      "zh": "谢谢。"
+    }
+  ]
+}
