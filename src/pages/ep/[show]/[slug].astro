@@ -37,6 +37,46 @@ const chapterTargets: number[] = chapters.map((c) => {
   return i >= 0 ? i : 0;
 });
 
+// —— 文章阅读模式：构建期把连续同一说话人（speaker_zh）的 turn 合并成段落组 ——
+// 原则：保持原始顺序、不改动原文、不删句、不再摘要/改写；仅做「同说话人连续语音合并」。
+// 每段保留其首个 turn 的时间戳与秒数（合并后仍能定位原始音频起点）、首个 turn 下标（供音频高亮/位置对齐）。
+type SpeechGroup = {
+  label: string;      // 说话人显示名（含角色）
+  role: 'host' | 'guest' | 'narr';
+  ts: string | null;  // 该段首个 turn 的时间戳
+  startSec: number;   // ts 对应秒数；无 ts 则 -1
+  firstI: number;     // 首个 turn 的 i（data-idx / 高亮锚点）
+  zh: string;         // 合并后的中文（直接拼接，不加改写）
+  en: string;         // 合并后的英文（空格拼接）
+};
+function roleOf(label: string): 'host' | 'guest' | 'narr' {
+  if (/主持|主持|Host|host/.test(label)) return 'host';
+  if (/旁白|片花|广告|Announcer|narrator/i.test(label)) return 'narr';
+  return 'guest';
+}
+const speechGroups: SpeechGroup[] = [];
+if (!article) {
+  for (const t of (ep.turns || [])) {
+    const label = speakerLabel(ep, t.speaker_zh);
+    const last = speechGroups[speechGroups.length - 1];
+    // 仅当说话人相同、且时间连续（同一说话人）时并入上一段
+    if (last && last.label === label) {
+      last.zh += t.zh;
+      last.en += (last.en ? ' ' : '') + t.en;
+    } else {
+      speechGroups.push({
+        label,
+        role: roleOf(label),
+        ts: t.ts ?? null,
+        startSec: t.ts ? tsToSec(t.ts) : -1,
+        firstI: t.i,
+        zh: t.zh,
+        en: t.en,
+      });
+    }
+  }
+}
+
 // —— 相关推荐：同分类下其他节目的最新单集；不足时回退到同节目 ——
 const catId = show.category || 'other';
 let related = ALL_EPISODES.filter((e) => {
@@ -177,7 +217,26 @@ if (article && ep.blocks) {
           )}
         </>
       ) : (
-        <>
+        <div class="reader" id="reader" data-lang="zh" data-mode="article">
+          <!-- 阅读控件区（sticky）：语言 tabs + 模式切换 + 字号/宽度 -->
+          <div class="reader-head">
+            <div class="tabs">
+              <button class="tab active" data-tab="zh">中文精读</button>
+              <button class="tab" data-tab="en">English</button>
+              <button class="tab" data-tab="bi">双语对照</button>
+              <div class="read-controls">
+                <button class="icon-btn" id="font-dec" title="减小字号">A-</button>
+                <button class="icon-btn" id="font-inc" title="增大字号">A+</button>
+                <button class="icon-btn" id="width-btn" title="切换阅读宽度 740/900">740</button>
+              </div>
+            </div>
+            <div class="mode-bar">
+              <span class="mode-label">阅读模式</span>
+              <button class="mode-btn active" data-mode="article">文章阅读</button>
+              <button class="mode-btn" data-mode="sentence">逐句精读</button>
+            </div>
+          </div>
+
           {/* 章节目录：仅当数据里真实存在 chapters 时渲染（PRD §8，不编造） */}
           {chapters.length > 0 && (
             <nav class="art-toc" data-targets={chapterTargets.join(',')}>
@@ -194,70 +253,45 @@ if (article && ep.blocks) {
             </nav>
           )}
 
-          <!-- Tabs + 阅读控件 -->
-          <div class="tabs">
-            <button class="tab active" data-tab="zh">中文精读</button>
-            <button class="tab" data-tab="en">English</button>
-            <button class="tab" data-tab="bi">双语对照</button>
-            <div class="read-controls">
-              <button class="icon-btn" id="font-dec" title="减小字号">A-</button>
-              <button class="icon-btn" id="font-inc" title="增大字号">A+</button>
-              <button class="icon-btn" id="width-btn" title="切换阅读宽度 740/900">740</button>
-            </div>
-          </div>
-
-          <!-- 中文 -->
-          <div class="tab-panel active panel-zh" data-panel="zh">
-            <div class="transcript">
-              {(ep.turns || []).map((t) => (
-                <div class={`turn ${t.speaker === 1 ? 'host' : ''}`} data-idx={t.i}>
-                  <div class="who">
-                    {speakerLabel(ep, t.speaker_zh)}
-                    {t.ts && <span class="ts" data-seek={t.ts}>{t.ts}</span>}
+          <!-- 视图一：文章阅读（默认）—— 连续段落，同说话人合并，时间戳弱化但可点 -->
+          <div class="view view-article">
+            <div class="art-transcript">
+              {speechGroups.map((g) => (
+                <div class={`art-group ${g.role}`} data-start={g.startSec} data-idx={g.firstI}>
+                  <div class="art-who">
+                    <span class="art-name">{g.label}</span>
+                    {g.ts && <span class="art-ts ts" data-seek={g.ts} title={`跳到 ${g.ts}`}>{g.ts}</span>}
                   </div>
-                  <div class="body">
-                    {t.zh}
-                    <button class="en-toggle" type="button" aria-expanded="false">英文</button>
-                    <div class="en-expand">{t.en}</div>
-                  </div>
+                  <p class="art-p-zh">{g.zh}</p>
+                  <p class="art-p-en">{g.en}</p>
                 </div>
               ))}
             </div>
           </div>
 
-          <!-- English -->
-          <div class="tab-panel panel-en" data-panel="en">
+          <!-- 视图二：逐句精读 —— 每段独立，保留说话人/时间戳/中英双语/逐段英文展开 -->
+          <div class="view view-sentence">
             <div class="transcript">
-              {(ep.turns || []).map((t) => (
-                <div class={`turn ${t.speaker === 1 ? 'host' : ''}`} data-idx={t.i}>
-                  <div class="who">
-                    {speakerLabel(ep, t.speaker)}
-                    {t.ts && <span class="ts" data-seek={t.ts}>{t.ts}</span>}
+              {(ep.turns || []).map((t) => {
+                const label = speakerLabel(ep, t.speaker_zh);
+                const role = roleOf(label);
+                return (
+                  <div class={`turn ${role}`} data-start={t.ts ? tsToSec(t.ts) : -1} data-idx={t.i}>
+                    <div class="who">
+                      {label}
+                      {t.ts && <span class="ts" data-seek={t.ts}>{t.ts}</span>}
+                    </div>
+                    <div class="body">
+                      <span class="t-zh">{t.zh}</span>
+                      <button class="en-toggle" type="button" aria-expanded="false">英文</button>
+                      <span class="t-en">{t.en}</span>
+                    </div>
                   </div>
-                  <div class="body">{t.en}</div>
-                </div>
-              ))}
+                );
+              })}
             </div>
           </div>
-
-          <!-- 双语对照 -->
-          <div class="tab-panel panel-zh bilingual" data-panel="bi">
-            <div class="transcript">
-              {(ep.turns || []).map((t) => (
-                <div class={`turn ${t.speaker === 1 ? 'host' : ''}`} data-idx={t.i}>
-                  <div class="who">
-                    {speakerLabel(ep, t.speaker_zh)}
-                    {t.ts && <span class="ts" data-seek={t.ts}>{t.ts}</span>}
-                  </div>
-                  <div class="body">
-                    {t.zh}
-                    <span class="en-line">{t.en}</span>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </>
+        </div>
       )}
 
       <!-- 上/下集导航 -->
@@ -311,18 +345,99 @@ if (article && ep.blocks) {
 
   <script is:inline>
     (function () {
-      // Tabs（仅对照型单集存在多个 tab）
-      var tabs = document.querySelectorAll('.tab[data-tab]');
-      var panels = document.querySelectorAll('.tab-panel');
-      tabs.forEach(function (tab) {
-        tab.addEventListener('click', function () {
-          tabs.forEach(function (t) { t.classList.remove('active'); });
-          panels.forEach(function (p) { p.classList.remove('active'); });
-          tab.classList.add('active');
-          var target = document.querySelector('[data-panel="' + tab.getAttribute('data-tab') + '"]');
-          if (target) target.classList.add('active');
+      /* ===== 阅读模式（文章/逐句）× 语言（中/英/双）统一状态机 =====
+       * 单页内两个视图并存，靠 #reader 的 data-mode / data-lang 纯 CSS 切换，
+       * 不刷新、不重渲染；切换模式时按时间戳把视口对齐到同一段，保住阅读位置。 */
+      var reader = document.getElementById('reader');
+      var HEAD_OFFSET = 120; // reader-head sticky 高度补偿
+
+      function tsSec(ts) {
+        if (!ts) return -1;
+        var p = ts.split(':').map(Number);
+        return p.length === 3 ? p[0] * 3600 + p[1] * 60 + p[2] : p[0] * 60 + p[1];
+      }
+      // 当前激活视图内所有带 data-start 的块（文章段 / 逐句段），DOM 顺序即时间升序
+      function activeBlocks() {
+        if (!reader) return [];
+        var mode = reader.getAttribute('data-mode') || 'article';
+        var sel = mode === 'article' ? '.view-article [data-start]' : '.view-sentence [data-start]';
+        return Array.prototype.slice.call(reader.querySelectorAll(sel));
+      }
+      // 视口顶部附近第一个可见块的起始秒（用于切换模式前记住位置）
+      function topVisibleStart() {
+        var blocks = activeBlocks();
+        for (var i = 0; i < blocks.length; i++) {
+          if (blocks[i].getBoundingClientRect().bottom > HEAD_OFFSET) {
+            var s = parseInt(blocks[i].getAttribute('data-start'), 10);
+            return isNaN(s) ? -1 : s;
+          }
+        }
+        return -1;
+      }
+      // 滚动到起始秒 <= sec 的最后一个块（instant=true 用于模式切换的无感对齐）
+      function scrollToStart(sec, instant) {
+        if (sec < 0) return;
+        var blocks = activeBlocks();
+        var target = null;
+        for (var i = 0; i < blocks.length; i++) {
+          var s = parseInt(blocks[i].getAttribute('data-start'), 10);
+          if (s >= 0 && s <= sec) target = blocks[i]; else if (s > sec) break;
+        }
+        if (!target) target = blocks[0];
+        if (!target) return;
+        var y = target.getBoundingClientRect().top + window.pageYOffset - HEAD_OFFSET;
+        window.scrollTo({ top: Math.max(0, y), behavior: instant ? 'instant' : 'smooth' });
+      }
+
+      // 音频同步高亮：始终作用于「当前视图」的块，切换模式后自动重算
+      var playEl = null;
+      function syncHighlight(t) {
+        var blocks = activeBlocks();
+        var cur = null;
+        for (var i = 0; i < blocks.length; i++) {
+          var s = parseInt(blocks[i].getAttribute('data-start'), 10);
+          if (s >= 0 && s <= t) cur = blocks[i]; else if (s > t) break;
+        }
+        if (cur === playEl) return;
+        if (playEl) playEl.classList.remove('playing');
+        playEl = cur;
+        if (playEl) playEl.classList.add('playing');
+      }
+
+      function setLang(l) {
+        if (!reader) return;
+        reader.setAttribute('data-lang', l);
+        document.querySelectorAll('.tab[data-tab]').forEach(function (t) {
+          t.classList.toggle('active', t.getAttribute('data-tab') === l);
         });
+      }
+      function setMode(m, keepPos) {
+        if (!reader) return;
+        var prev = keepPos ? topVisibleStart() : -1;
+        reader.setAttribute('data-mode', m);
+        document.querySelectorAll('.mode-btn').forEach(function (b) {
+          b.classList.toggle('active', b.getAttribute('data-mode') === m);
+        });
+        try { localStorage.setItem('pr-reading-mode', m); } catch (e) {}
+        // 视图内块集合变了，重置高亮锚点并按当前播放时间重算
+        playEl = null;
+        if (audio) syncHighlight(audio.currentTime);
+        if (prev >= 0) scrollToStart(prev, true);
+      }
+
+      document.querySelectorAll('.tab[data-tab]').forEach(function (tab) {
+        tab.addEventListener('click', function () { setLang(tab.getAttribute('data-tab')); });
       });
+      document.querySelectorAll('.mode-btn').forEach(function (b) {
+        b.addEventListener('click', function () { setMode(b.getAttribute('data-mode'), true); });
+      });
+      // 初始模式：读 localStorage，默认「文章阅读」
+      (function () {
+        var m = 'article';
+        try { m = localStorage.getItem('pr-reading-mode') || 'article'; } catch (e) {}
+        if (m !== 'article' && m !== 'sentence') m = 'article';
+        setMode(m, false);
+      })();
 
       // 字号
       var size = parseInt(localStorage.getItem('reading-size') || '18', 10);
@@ -347,28 +462,6 @@ if (article && ep.blocks) {
       if (wbtn) {
         wbtn.textContent = rw;
         wbtn.addEventListener('click', function () { setW(rw === 740 ? 900 : 740); });
-      }
-
-      // 音频同步高亮：预读每段 ts，播放时高亮当前段
-      var turnEls = Array.prototype.slice.call(document.querySelectorAll('.panel-zh .turn'));
-      var turnSecs = turnEls.map(function (el) {
-        var tsEl = el.querySelector('.ts[data-seek]');
-        if (!tsEl) return -1;
-        var p = tsEl.getAttribute('data-seek').split(':').map(Number);
-        return p.length === 3 ? p[0] * 3600 + p[1] * 60 + p[2] : p[0] * 60 + p[1];
-      });
-      var playIdx = -1;
-      function syncHighlight(t) {
-        var idx = -1;
-        for (var i = 0; i < turnSecs.length; i++) { if (turnSecs[i] >= 0 && turnSecs[i] <= t) idx = i; else break; }
-        if (idx === playIdx) return;
-        if (playIdx >= 0) {
-          document.querySelectorAll('[data-idx="' + playIdx + '"]').forEach(function (el) { el.classList.remove('playing'); });
-        }
-        playIdx = idx;
-        if (playIdx >= 0) {
-          document.querySelectorAll('[data-idx="' + playIdx + '"]').forEach(function (el) { el.classList.add('playing'); });
-        }
       }
 
       // 音频（固定底部播放器）
@@ -426,13 +519,12 @@ if (article && ep.blocks) {
           var a = bar.querySelector('.ext'); if (a) window.open(a.href, '_blank');
         });
       }
-      // 时间戳点击跳转
+      // 时间戳点击跳转（文章段 .art-ts 与逐句段 .ts 均含 class="ts" data-seek）
       document.querySelectorAll('.ts[data-seek]').forEach(function (el) {
         el.addEventListener('click', function () {
           if (!audio) return;
-          var parts = el.getAttribute('data-seek').split(':').map(Number);
-          var sec = parts.length === 3 ? parts[0] * 3600 + parts[1] * 60 + parts[2] : parts[0] * 60 + parts[1];
-          audio.currentTime = sec; audio.play(); playBtn.textContent = '❚';
+          audio.currentTime = tsSec(el.getAttribute('data-seek'));
+          audio.play(); playBtn.textContent = '❚❚';
         });
       });
 
@@ -530,22 +622,16 @@ if (article && ep.blocks) {
         });
       });
 
-      // 章节目录：seek 音频 + 滚动到对应 turn
-      var tocNav = document.querySelector('.art-toc[data-targets]');
-      var targets = tocNav ? (tocNav.getAttribute('data-targets') || '').split(',').map(Number) : [];
+      // 章节目录：seek 音频 + 滚动到当前视图对应位置（按时间戳，文章/逐句通用）
       document.querySelectorAll('a[data-chapter]').forEach(function (a) {
         a.addEventListener('click', function (ev) {
           ev.preventDefault();
           var ts = a.getAttribute('data-seek');
-          var ci = parseInt(a.getAttribute('data-chapter'), 10);
-          if (audio && ts) {
-            var parts = ts.split(':').map(Number);
-            var sec = parts.length === 3 ? parts[0] * 3600 + parts[1] * 60 + parts[2] : parts[0] * 60 + parts[1];
+          var sec = tsSec(ts);
+          if (audio && sec >= 0) {
             audio.currentTime = sec; audio.play(); playBtn.textContent = '❚❚';
           }
-          var ti = targets[ci] || 0;
-          var target = document.querySelector('.panel-zh .turn[data-idx="' + ti + '"]');
-          if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          if (sec >= 0) scrollToStart(sec, false);
         });
       });
     })();

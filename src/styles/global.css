@@ -443,3 +443,76 @@ footer.site-foot { border-top:1px solid var(--border); padding: 28px 0; font-siz
   .tl-month-label { flex-wrap: wrap; }
 }
 
+/* =========================================================
+   功能一：文章阅读模式（文章 / 逐句 双视图 + 中/英/双 语言）
+   —— 单页两视图并存，靠 #reader 的 data-mode / data-lang 纯 CSS 切换
+   ========================================================= */
+
+/* 阅读控件吸顶容器：语言 tabs + 模式切换 */
+.reader-head { position: sticky; top: 58px; z-index: 20; background: var(--bg); margin-top: 26px; }
+.reader-head .tabs { position: static; top: auto; margin: 0; border-bottom: none; }
+
+.mode-bar { display: flex; align-items: center; gap: 8px; padding: 8px 0 12px; border-bottom: 1px solid var(--border); }
+.mode-label { font-size: 12px; color: var(--text-faint); margin-right: 2px; }
+.mode-btn {
+  border: 1px solid var(--border); background: transparent; color: var(--text-soft);
+  border-radius: 999px; padding: 5px 15px; font-size: 13px; font-family: inherit; cursor: pointer;
+  transition: all .15s ease;
+}
+.mode-btn:hover { color: var(--accent); border-color: var(--accent); }
+.mode-btn.active { background: var(--accent); border-color: var(--accent); color: #fff; font-weight: 600; }
+
+/* 视图切换 */
+.reader[data-mode="article"] .view-sentence { display: none; }
+.reader[data-mode="sentence"] .view-article { display: none; }
+
+/* —— 文章阅读视图：连续段落，同说话人合并 —— */
+.art-transcript { padding: 24px 0 60px; }
+.art-group { padding: 4px 12px; margin: 0 -12px 24px; border-radius: 10px; }
+.art-group.playing { background: var(--accent-soft); }
+.art-who { display: flex; align-items: baseline; gap: 10px; margin-bottom: 6px; }
+.art-name { font-size: 13px; font-weight: 700; color: var(--text-soft); letter-spacing: .2px; }
+.art-group.host .art-name { color: var(--accent); }
+.art-group.narr .art-name { color: var(--text-faint); font-weight: 600; }
+/* 时间戳弱化：比正文小、淡，可点，hover 才醒目（PRD 2.4） */
+.art-ts {
+  font-size: 12px; color: var(--text-faint); opacity: .55; cursor: pointer;
+  font-variant-numeric: tabular-nums; transition: opacity .15s ease, color .15s ease;
+}
+.art-ts:hover { opacity: 1; color: var(--accent); text-decoration: underline; }
+.art-p-zh, .art-p-en { margin: 0; }
+.art-p-zh { font-size: var(--reading-size); line-height: 1.8; color: var(--zh); }
+.art-p-en { font-size: calc(var(--reading-size) - 1px); line-height: 1.75; color: var(--en); font-family: var(--font-en); }
+/* 文章视图语言可见性 */
+.reader[data-lang="zh"] .art-p-en { display: none; }
+.reader[data-lang="en"] .art-p-zh { display: none; }
+.reader[data-lang="bi"] .art-p-en { display: block; margin-top: 10px; padding-top: 10px; border-top: 1px dashed var(--border); opacity: .85; }
+
+/* —— 逐句精读视图：中/英/双 由 data-lang 驱动（PRD 2.5，保留逐段英文展开） —— */
+.turn .body .t-en { display: none; }
+/* 中文模式：默认只显示中文，点「英文」逐段展开 */
+.reader[data-lang="zh"] .turn.show-en .t-en {
+  display: block; margin-top: 10px; padding: 10px 14px; border-left: 2px solid var(--border);
+  background: var(--bg-soft); border-radius: 0 8px 8px 0;
+  color: var(--en); font-family: var(--font-en); font-size: calc(var(--reading-size) - 2px); line-height: 1.7;
+}
+/* 英文模式：只显示英文，隐藏中文与展开按钮 */
+.reader[data-lang="en"] .turn .body .t-zh { display: none; }
+.reader[data-lang="en"] .turn .body .t-en { display: block; color: var(--en); font-family: var(--font-en); font-size: calc(var(--reading-size) - 1px); }
+.reader[data-lang="en"] .en-toggle { display: none; }
+/* 双语模式：中文 + 英文（次要，虚线分隔） */
+.reader[data-lang="bi"] .turn .body .t-en {
+  display: block; color: var(--en); font-family: var(--font-en);
+  font-size: calc(var(--reading-size) - 2px); margin-top: 8px; padding-top: 8px;
+  border-top: 1px dashed var(--border); opacity: .85;
+}
+.reader[data-lang="bi"] .en-toggle { display: none; }
+/* 旁白段弱化 */
+.turn.narr .who { color: var(--text-faint); font-weight: 500; }
+
+@media (max-width: 640px) {
+  .art-group { margin: 0 -6px 20px; padding: 4px 6px; }
+  .mode-bar { flex-wrap: wrap; }
+  .art-who { gap: 8px; }
+}
+
