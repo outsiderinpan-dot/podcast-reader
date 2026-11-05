@@ -1,0 +1,1296 @@
+{
+  "show": "top-traders-unplugged",
+  "kind": "transcript",
+  "id": "346054698",
+  "guid": "909e049a-8435-4c91-aa24-e601307c1885",
+  "slug": "2026-09-23-oi24-why-power-trading-is-10-346054698",
+  "date": "2026-09-23",
+  "title_en": "OI24: Why Power Trading Is 10 Times Crazier Than Crypto ft. Cory Paddock",
+  "title_zh": "OI24：电力交易为何比加密货币疯狂十倍（ft. GBE 联合创始人 Cory Paddock）",
+  "subtitle_zh": "GBE 联合创始人 Cory Paddock 讲述电力市场的极端波动、日内交易逻辑与自营交易人才培养之道",
+  "description": "OI24: Why Power Trading Is 10 Times Crazier Than Crypto ft. Cory Paddock",
+  "duration": "59:31",
+  "duration_seconds": 3571,
+  "episode_url": "https://top-traders-unplugged.captivate.fm/episode/oi54-why-power-trading-is-10-times-crazier-than-crypto-ft-cory-paddock",
+  "audio_url": "https://episodes.captivate.fm/episode/909e049a-8435-4c91-aa24-e601307c1885.mp3",
+  "speakers": {
+    "1": "Moritz Seibert（主持）",
+    "2": "Cory Paddock（嘉宾）",
+    "3": "片花/广告（旁白）"
+  },
+  "turn_count": 159,
+  "turns": [
+    {
+      "i": 0,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "00:01",
+      "en": "And that scenario happens, happens a lot in trading. And as one gets more experienced, the ability to just recognize those days and recognize, you know what? Today's not the day. Today's not the day to fight for this loser, for this losing position.",
+      "zh": "而这种情形在交易里经常发生，经常发生。随着一个人经验越来越丰富，你就有能力去识别出这样的日子，然后意识到：你知道吗？今天不是那种日子。今天不是该为这个亏损单、这个亏钱的仓位死扛的日子。"
+    },
+    {
+      "i": 1,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "00:19",
+      "en": "There's more trading days ahead. Let's move past this one and go on to the next.",
+      "zh": "后面还有的是交易日。我们就翻过这一页，继续往下一个走。"
+    },
+    {
+      "i": 2,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "00:25",
+      "en": "Welcome to Top Traders Unplugged. In markets success doesn’t with some of the world’s most thoughtful minds in investing, economics, and beyond to understand how they think, how they prepare, and come from predicting what happens next, it comes from being how they decide, and the experiences that shaped how they see the world. No noise, no short-cuts, just real conversations prepared for what you can’t predict. In each episode we go deep to help you think better and invest with confidence.",
+      "zh": "欢迎收听 Top Traders Unplugged。在市场里，成功并不来自预测接下来会发生什么，而是来自为你无法预测的东西做好准备。在每一期节目中，我们都会与全球投资、经济及其它领域最有思想深度的一些人深入交流，去理解他们如何思考、如何准备、如何决策，以及那些塑造了他们看待世界方式的经历。没有噪音，没有捷径，只有真实的对话，帮助你把问题想得更清楚、更有信心地投资。"
+    },
+    {
+      "i": 3,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "01:03",
+      "en": "Hello and welcome to another episode of the Open Interest series on Top Traders Unplugged. This is episode number 24 and I'm your host, Moritz Seibert. So today's episode is a little different.",
+      "zh": "大家好，欢迎收听 Top Traders Unplugged 上 Open Interest 系列的新一期节目。这是第 24 期，我是你们的主持人 Moritz Seibert。今天这期有点不一样。"
+    },
+    {
+      "i": 4,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "01:15",
+      "en": "For the first time, I'll be speaking to a prop trading firm rather than a hedge fund or investment manager running external client money. Specifically, I'll be chatting with Cory Paddock, one of the two founders of GBE Energy, a power trading business based in Calgary in White Rock in Canada. Gbe, which by the way stands for God Bless Everyone, was founded in 2013 and trades US power markets with a particular focus on PJM, the large electricity market covering 13 US states. The team combines traders,",
+      "zh": "我第一次要对话的是一家自营交易公司（prop trading firm），而不是管理外部客户资金的对冲基金或投资管理机构。具体来说，我今天要聊的是 Cory Paddock，他是 GBE Energy 两位创始人之一——这是一家电力交易公司，总部在加拿大的 Calgary 和 White Rock。GBE（顺便说一句，这个名字代表 God Bless Everyone）成立于 2013 年，交易美国电力市场，尤其聚焦于 PJM——也就是覆盖美国 13 个州的大型电力市场。这个团队里有交易员、"
+    },
+    {
+      "i": 5,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "01:49",
+      "en": "meteorologists, quantitative developers and market analysts, all working to identify opportunities in power prices across different locations and time periods. Before we start, I want to give you some background on why I wanted to record an episode with gbe. Firstly, although power markets are very niche, they are opaque and they don't have as many market participants as, for example, the US Equity markets have. I personally find them super interesting. I mean, unlike equities and bonds and futures, power",
+      "zh": "气象学家、量化开发人员和市场分析师，大家共同努力，去发现不同地点、不同时段电力价格中的机会。在开始之前，我想先给大家讲讲，我为什么想做一期和 GBE 的节目。首先，尽管电力市场非常小众，它们不透明，市场参与者也不像比如美国股票市场那么多。我个人觉得它们超级有意思。我的意思是，和股票、债券、期货不同，电力"
+    },
+    {
+      "i": 6,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "02:22",
+      "en": "markets sit at the intersection of physics, weather, economics and market design. And understanding these dynamics better than other market participants is how GBE makes money.",
+      "zh": "市场正好处在物理学、天气、经济学和市场设计的交汇点上。而比其它市场参与者更好地理解这些动态，正是 GBE 赚钱的方式。"
+    },
+    {
+      "i": 7,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "02:33",
+      "en": "Moreover, electricity is central to all of our everyday lives. The functioning of societies, our economies, the energy transition, the increasing popularity of EVs, and more recently, the massive growth of AI data centers. We're going to need a lot more electricity in the future, and that is already having a major impact on power markets and prices. Secondly, and this is the other part of the GBE story that I found particularly interesting and that has to do with how they recruit and develop traders, the",
+      "zh": "此外，电力对我们每个人的日常生活都至关重要。社会的运转、我们的经济、能源转型、电动车（EV）越来越普及，以及最近 AI 数据中心的大规模增长。未来我们将需要多得多的电力，而这已经在对电力市场和电价产生重大影响。其次，这也是 GBE 故事里我觉得特别有意思的另一部分，和他们如何招募、培养交易员有关——"
+    },
+    {
+      "i": 8,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "03:02",
+      "en": "firm has developed quite a bit in how they built their trading teams. In the early years, they mainly recruited experienced traders and gave them the capital, technology and infrastructure to run their own books. But more recently they've shifted toward finding young and hungry people with the potential to become great traders and then developing them internally. So the philosophy behind all of this is that trading is a high performance discipline. Analytical",
+      "zh": "这家公司在如何搭建交易团队上已经有了不小的演进。早些年，他们主要招募有经验的交易员，给他们资金、技术和基础设施去运营自己的账簿（book）。但最近他们转向去发现那些年轻、有闯劲、有潜力成为优秀交易员的人，然后在内部培养他们。这一切背后的理念是：交易是一项高绩效的技艺。分析"
+    },
+    {
+      "i": 9,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "03:30",
+      "en": "ability is important, but so are probabilistic thinking, conviction, emotional composure, resilience, and the ability to learn from your results without being fooled by them. Okay, so that's a lot. But before we really get into the deep weeds, here are a few fun facts and quick facts about Corey. He's got an MBA from the University of Calgary, started his career at Transalta, a Calgary based utility and wholesale power marketing company.",
+      "zh": "能力很重要，但同样重要的还有概率化思维（probabilistic thinking）、信念、情绪上的沉稳、韧性，以及从自己的结果中学习、却不被结果所蒙蔽的能力。好，说了这么多。但在我们真正深入细节之前，先讲几个关于 Cory 的有趣小事实和快速事实。他拿到了 University of Calgary 的 MBA，职业生涯起步于 Transalta——一家总部在 Calgary 的公用事业及批发电力营销公司。"
+    },
+    {
+      "i": 10,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "03:57",
+      "en": "He then moved to a power trading hedge fund in Houston before starting GBE in 2013. He is, I find that very interesting, a lifelong athlete who played professional volleyball in my home country's Germany, second Bundesliga, and he has run a marathon in under two hours and 55 minutes. Boy, that is quick. That has been the longest ever introduction I've made. Corey probably a little bit scared because this is about electricity and not a lot of people really know the power markets that much or that",
+      "zh": "之后他去了 Houston 的一家电力交易对冲基金，然后在 2013 年创立了 GBE。我觉得很有意思的一点是，他是个终身运动员，曾在我的祖国德国的第二级别联赛（second Bundesliga）打过职业排球，还跑出过两小时 55 分以内的马拉松成绩。哇，那可真快。这是我做过的最长的一段开场介绍了。Cory 大概有点被吓到了，因为这期讲的是电力，而并没有多少人真正那么了解电力市场，或者说了解得那么"
+    },
+    {
+      "i": 11,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "04:27",
+      "en": "well, but you do. At any rate, welcome to Open Interest. It's great to have you on.",
+      "zh": "透彻，但你了解。不管怎样，欢迎来到 Open Interest，非常高兴请你来做客。"
+    },
+    {
+      "i": 12,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "04:32",
+      "en": "Thank you for having me. Yeah, that was quite an intro. Well, there we go. Well, let's get going. I mean, go from simple maybe to more complex if you don't mind. Could it give us like a 30,000 foot overview of how the cost of power have developed, how the US electricity markets work? Just something simple to get started. What are we talking about?",
+      "zh": "谢谢邀请。是啊，那可真是一段够长的开场。好，那我们开始吧。如果不介意的话，我们从简单的讲到更复杂的。你能不能给我们来个三万英尺高度的概览，讲讲电价是怎么发展起来的、美国电力市场是怎么运作的？就来点简单的开个头。我们到底在谈什么？"
+    },
+    {
+      "i": 13,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "04:57",
+      "en": "Oh my, that's quite a substantial question. Yes. Well, I think it's a very recent development in history compared to other commodities, other asset classes. And it goes back to kind of the 80s and 90s, early 2000s, when a fundamental insight was discovered where there could be this intersection between physics and economics in trying to optimize the economics of the power system. And this was not a super easy insight to come to a conclusion to. And there's a number of academics that",
+      "zh": "天哪，这可是个相当有分量的问题。是的。我觉得，相比其它大宗商品、其它资产类别，这在历史上是非常晚近的发展。它可以追溯到上世纪 80、90 年代、2000 年代初，当时人们发现了一个根本性的洞见：在试图优化电力系统经济性的过程中，物理学和经济学之间可以有这么一个交汇点。而这并不是一个特别容易就能得出的结论。当时有一批学者，"
+    },
+    {
+      "i": 14,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "05:37",
+      "en": "I think deserve a lot of credit going back into that period and then also politically for a number of red and blue states and purple states to come together at that time and decide this is a good idea to put together this kind of optimization effort. It's kind of impossible to imagine in today's political environment.",
+      "zh": "我认为在那个时期他们功不可没；而且在政治上，当时一批红州、蓝州和摇摆州（purple states）能够走到一起，认定搞这样一套优化努力是个好主意，这也很难得。在今天这样的政治环境下，这几乎是无法想象的。"
+    },
+    {
+      "i": 15,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "06:00",
+      "en": "So that's kind of setting the stage For I guess, how this came to be. And like you alluded to, it's a very interesting market that needs to combine the physics of how actually power flows.",
+      "zh": "所以这大致就是为它是怎么来的搭好了舞台。就像你提到的，这是一个非常有意思的市场，它需要把电力实际上如何流动的物理学结合起来。"
+    },
+    {
+      "i": 16,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "06:16",
+      "en": "And there's this constant tension between, for system operators",
+      "zh": "而对系统运营商（system operators）来说，这里面始终存在一种张力——"
+    },
+    {
+      "i": 17,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "06:21",
+      "en": "to maintain system reliability and to do so to minimize production cost. But always the scales are going to be tipped towards reliability and trying to figure out how to manage that in real time. I guess the other piece is the actual machines and fuel sources for all of the North American grids is quite substantially different depending on what the actual resource endowment is of a particular area.",
+      "zh": "一方面要维持系统可靠性，另一方面还要在做到这一点的同时把发电成本降到最低。但天平永远会向可靠性那边倾斜，然后你要想办法实时地去管理这个平衡。我想另一方面是，整个北美电网实际的机组和燃料来源差别相当大，这取决于某个特定区域实际的资源禀赋（resource endowment）。"
+    },
+    {
+      "i": 18,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "06:53",
+      "en": "So in Canada, we have quite a bit of hydroelectricity just based on our geography, centered mostly in British Columbia and Manitoba and Quebec. Whereas the United States is really not endowed with much hydro resource, so it has to depend on other resources. So historically that meant a lot of coal in most areas of the US and then gradually transferring to nuclear and then incorporating a lot of gas and then more recently wind and solar. So the actual fundamentals of how power is generating and has been generated",
+      "zh": "所以在加拿大，仅仅因为我们的地理条件，我们就有相当多的水电，主要集中在 British Columbia、Manitoba 和 Quebec。而美国其实并没有多少水电资源，所以它必须依赖其它资源。历史上这就意味着美国大部分地区用了很多煤，然后逐步转向核能，接着又纳入了大量天然气，最近则是风能和太阳能。所以电力是如何发电、一直以来如何发电的这些基本面，"
+    },
+    {
+      "i": 19,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "07:30",
+      "en": "has shifted a lot over, over the years. And market designs often are in response to what those technologies actually can, can do",
+      "zh": "这些年来已经发生了很大变化。而市场设计往往是对这些技术实际上能做什么的一种回应——"
+    },
+    {
+      "i": 20,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "07:42",
+      "en": "not only economically, but to maintain grid reliability. Yeah, and grid reliability means that, you know, you have to balance that grid and the load pretty much continuously, otherwise. You have blackouts instantaneously and 24, 7, 365.",
+      "zh": "不仅是经济层面，还有维持电网可靠性。是的，而电网可靠性意味着，你知道，你必须几乎不间断地让电网和负荷保持平衡，否则瞬间就会停电，而且是全天候 24/7/365 都要如此。"
+    },
+    {
+      "i": 21,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "07:59",
+      "en": "Yeah, exactly. No breaks, no holidays, no Thanksgiving, none of that. It has to be there all the time. You mentioned the fuel mix and how things have changed. Canada more with hydropower, the US less. So what is the current fuel mix roughly? I mean, is it predominantly gas? I guess still, but I guess it's changing.",
+      "zh": "对，正是这样。没有休息，没有假期，没有感恩节，什么都没有。它必须时刻都在。你提到了燃料结构（fuel mix）以及它是怎么变化的：加拿大更多靠水电，美国更少。那么现在大致的燃料结构是怎样的？我是说，是不是以天然气为主？我猜应该还是，但我猜它正在变化。"
+    },
+    {
+      "i": 22,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "08:22",
+      "en": "Yeah, I mean, we could speak about pgm, the market that I, that I know the best. So this is geographic. Let me, let me interrupt. What does PGM stand for? Oh, yeah, that's a good question. Most people don't know that. Yeah, so it would be, what is, it's going back to historical Pennsylvania, New Jersey, Maryland, I think Interconnection.",
+      "zh": "是啊，我是说，我们可以聊聊 PJM，也就是我最熟悉的那个市场。这是按地理划分的。让我打断一下——PJM 是什么的缩写？哦，对，这是个好问题。大多数人都不知道。是的，它要追溯到历史上的 Pennsylvania、New Jersey、Maryland，我记得是 Interconnection（互联）。"
+    },
+    {
+      "i": 23,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "08:44",
+      "en": "But PGM Interconnection would be the market or Independent System Operator. ISO, you'll hear that term reasonably often. You also hear RTO or Regional Transmission Operator. I think I've got all those acronyms. Right. Anyway, so PGM runs from New Jersey, Pennsylvania, Maryland, Virginia, West Virginia, Ohio, and then metro Chicago as well. So it's the biggest deregulated power market in the world. And it actually has a pretty distributed fuel mix and is pretty representative, I would say, of just",
+      "zh": "但 PJM Interconnection 就是这个市场，或者说独立系统运营商（Independent System Operator，ISO）——这个术语你会相当经常听到。你还会听到 RTO，也就是区域输电运营商（Regional Transmission Operator）。我想我把这些缩写都念对了。总之，PJM 覆盖 New Jersey、Pennsylvania、Maryland、Virginia、West Virginia、Ohio，还有芝加哥都会区。所以它是全球最大的放开管制（deregulated）的电力市场。而且它的燃料结构其实相当分散，我认为它很有代表性，大致就代表了"
+    },
+    {
+      "i": 24,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "09:22",
+      "en": "the, the American fuel mix writ large. So historically the backbone would be coal. And then on top of that, nuclear. And then as we went through the shale revolution, a bunch which sits, you know, there's a bunch of inexpensive gas that sits in the Marcellus in, in western Pennsylvania. So that initiated a pretty substantial coal to gas switchover. So this is going back",
+      "zh": "整个美国的燃料结构。历史上，支柱是煤。在此之上是核能。然后随着我们经历页岩革命，你知道，Western Pennsylvania 的 Marcellus 页岩里有储量很大的廉价天然气。这就引发了一场相当大规模的煤改气（coal to gas）转换。这要追溯到"
+    },
+    {
+      "i": 25,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "09:54",
+      "en": "roughly about 10 years is when. When that really started to come through. And meanwhile, like a lot of coal generators were kind of getting to end of life anyway and weren't really able to compete economically with gas. And then more recently, the additions of wind and solar to the mix, but you know, those would be in the kind of 10, 15, 20% range. So the rough pie, I don't have it exactly in front of me would be, you know, 40 gas, 15, 20 coal, 20 nuke,",
+      "zh": "大约 10 年前，那时候它才真正开始显现。与此同时，很多燃煤机组反正也快到寿命末期了，在经济上根本竞争不过天然气。再往后，就是风能和太阳能被加入到这个结构里，不过你知道，它们大概处在 10%、15%、20% 这样的区间。所以大致的这块饼图——我手头没有精确数字——大概会是，你知道，40% 天然气、15% 到 20% 煤、20% 核能，"
+    },
+    {
+      "i": 26,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "10:30",
+      "en": "depending on the day, and then wind and solar for the rest. On a lot of days, a lot more gas, a little bit of oil in there as well. But yeah, that's the mix for that particular area.",
+      "zh": "视当天情况而定，剩下的就是风能和太阳能。很多日子里天然气会多得多，里面也有一点点石油。不过是的，这就是那个特定区域的燃料结构。"
+    },
+    {
+      "i": 27,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "10:42",
+      "en": "So this is one grid, one geographical area that is connected across the 13 states, some of which you have mentioned. But then the US is heterogeneous. It has other electricity grids that are connected. Like Texas has its own ercot, which I think from what you're saying, is not at all connected to pjm, which then also means that power prices in Texas can be way different than in New York City, for example.",
+      "zh": "所以这是一张电网、一个地理区域，横跨这 13 个州互联互通，其中一些你已经提到了。但美国是异质的，它还有其它相互连接的电网。比如 Texas 有自己的 ERCOT，我想按你说的，它跟 PJM 完全不相通，这也就意味着 Texas 的电价可能和比如 New York City 的电价差得非常远。"
+    },
+    {
+      "i": 28,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "11:07",
+      "en": "Yeah, substantially different. Yeah. The mental model for to think about North America is it's actually set up in three major interconnections that actually span across Canadian and U.S. borders. So the Western interconnection, the Eastern interconnection, and then ERCOT or the Texas interconnection. And each of these run as their own giant machine with very little interconnection points between them, very little in the way of next to nothing in the way of AC or alternating current lines. There",
+      "zh": "是的，差得相当多。对。要理解北美，这个思维模型（mental model）是：它其实是由三大互联电网（interconnection）构成的，而且这些电网是横跨加拿大和美国边界的。也就是西部互联（Western interconnection）、东部互联（Eastern interconnection），然后是 ERCOT 或者说 Texas 互联。它们每一个都作为自己的巨型机器在运行，彼此之间的互联点非常少，交流电（AC，alternating current）线路几乎可以说是没有。有"
+    },
+    {
+      "i": 29,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "11:43",
+      "en": "are a few direct current lines that connect these two, these areas, but for the most part you should think of them as their own",
+      "zh": "少数几条直流（direct current）线路把这些区域连接起来，但大体上你应该把它们看作是各自独立的"
+    },
+    {
+      "i": 30,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "11:51",
+      "en": "separate grids. So the western interconnect would include British Columbia, Alberta, and then all the western states going down to California, Arizona, Colorado, et cetera. The eastern interconnection on the Canadian side would be Saskatchewan, Manitoba, Ontario, and then everywhere south of that. So getting into the Midwest states, New York, New England, and then running all the way down into Florida, and then Texas, liking to do its own thing, has kept separate all these years. And really this",
+      "zh": "分开的电网。西部互联会包括 British Columbia、Alberta，然后是一路往南到 California、Arizona、Colorado 等等的所有西部各州。东部互联在加拿大这一侧是 Saskatchewan、Manitoba、Ontario，然后是这些以南的所有地方，也就是进入中西部各州、New York、New England，再一路往南直到 Florida；而 Texas 喜欢自己单干，这么多年来一直保持独立。而这其实"
+    },
+    {
+      "i": 31,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "12:26",
+      "en": "is going back to kind of the history of electricity and how systems are built. Where Each of these interconnects started as smaller things and they just gradually got built out further and further based on where population centers were, industrial load centers, etc.",
+      "zh": "要追溯到电力的历史，以及系统是怎么建起来的。每一个互联电网起初都是规模较小的东西，然后它们就根据人口中心、工业负荷中心等等在哪里，一步步向外扩建得越来越远。"
+    },
+    {
+      "i": 32,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "12:44",
+      "en": "Yeah, you mentioned that you're. I think, if I remember that correctly, you were exclusively trading the PJM market, is that right?",
+      "zh": "嗯，你提到你们——我想，如果我没记错的话，你们过去是专门交易 PJM 市场的，对吧？"
+    },
+    {
+      "i": 33,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "12:51",
+      "en": "Almost exclusively, yeah. We were also participants in the MISO market, Midwest ISO, the New York market, the New England market, the Ontario market on the Canadian side. But most of our participation.",
+      "zh": "几乎是专门做这个，是的。我们也参与 MISO 市场，也就是 Midwest ISO，还有 New York 市场、New England 市场，以及加拿大这边的 Ontario 市场。但我们大部分参与"
+    },
+    {
+      "i": 34,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "13:06",
+      "en": "Yeah. Is in. Is in pgm and that's where most of our expertise lies.",
+      "zh": "是的，是在 PJM，我们绝大部分的专业能力也在那里。"
+    },
+    {
+      "i": 35,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "13:10",
+      "en": "And is. Is. So it's. Yeah, well, you have the expertise there in your background, but is it also because it is maybe the largest or does it have the most products available for you guys to touch and trade and arp.",
+      "zh": "而且——是啊，嗯，你们在那儿有专业背景，但这同时也是因为它可能是最大的市场吗？还是说它提供了最多的产品，让你们能够去接触、去交易、去套利（arb）？"
+    },
+    {
+      "i": 36,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "13:20",
+      "en": "Yes, I think that's also a good representation. Yeah, so it's, it's the largest market, the most liquid in the eastern interconnect. There's been substantial increases in liquidity on the ERCOT side in Texas over the last several years. But we've stayed within our expertise on the PGM side. I think what's interesting about it, and I came across this concept several years ago in studying games, I think a lot of the contracts in PGM have this right mix of skill and chance that make them particularly addicting.",
+      "zh": "是的，我觉得这也是一个很好的概括。对，所以它是东部互联里最大、流动性最强的市场。过去几年，Texas 那边 ERCOT 的流动性有了大幅提升。但我们还是守在自己擅长的 PJM 这一侧。我觉得有意思的一点是——我几年前在研究博弈时接触到这个概念——PJM 里的很多合约都有那种技能与运气的恰当组合，让它们特别让人上瘾。"
+    },
+    {
+      "i": 37,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "13:59",
+      "en": "So maybe that's one contributing factor that has contributed to the liquidity. Over a period of years. Just when you think you have things solved, something weird and strange happens.",
+      "zh": "所以这也许是为流动性做出贡献的一个因素，多年来一直如此。就在你以为自己已经把一切搞定的时候，总会发生一些古怪离奇的事情。"
+    },
+    {
+      "i": 38,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "14:12",
+      "en": "Maybe you get some bad luck or there's some piece of chance that enters the equation that just. That makes it more engaging.",
+      "zh": "也许你碰上了一些坏运气，或者有某种偶然因素进入了这个等式，就是……让它更有吸引力、更让人投入。"
+    },
+    {
+      "i": 39,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "14:21",
+      "en": "The other thing that might be addicting, at least to some, is the volatility that's included or comes with these markets. We'll speak about that in a bit, I guess. But when, when you speak about the PJM market, what is it that you trade? Because you're not logging into a Robin Hood account, putting in a ticker and trading PGM power. What is it that you trade?",
+      "zh": "另一件可能让人上瘾的东西，至少对某些人来说是，这些市场自带的那种波动性（volatility）。这个我们待会儿再聊。但是，当你说 PJM 市场的时候，你们交易的到底是什么？因为你又不是登录一个 Robin Hood 账户、输入一个代码就能交易 PJM 电力的。你们交易的到底是什么？"
+    },
+    {
+      "i": 40,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "14:43",
+      "en": "Yeah, it's a good question. So most of our trading is done on, on the ICE Exchange, the intercontinental exchange where a lot of commodities are traded. But we trade a product predominantly called PGM West Hub, which is a very strange product in that it's a hub of individual trading nodes within the PGM system. A bunch of those nodes sit in, those trading nodes sit within Western Pennsylvania. A bunch of those nodes sit in and around Washington D.C. and so somewhat geographically dispersed. But that",
+      "zh": "是啊，这是个好问题。我们大部分交易都是在 ICE 交易所上做的，也就是洲际交易所（Intercontinental Exchange），很多大宗商品都在那儿交易。但我们主要交易一个叫做 PJM West Hub 的产品，这是个很奇怪的产品，因为它是 PJM 系统内一个个独立交易节点（trading node）汇成的一个枢纽（hub）。其中一堆节点位于 Western Pennsylvania，另一堆节点位于 Washington D.C. 及其周边，所以在地理上有点分散。但那份"
+    },
+    {
+      "i": 41,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "15:23",
+      "en": "contract and that hub roughly give a good representation of power prices in pgm. Increasingly there's a lot more volatility throughout the entire pool. But historically that's where most of the market is done most of its trading. And so this futures contract",
+      "zh": "合约、那个枢纽，大致能很好地代表 PJM 的电价。如今整个电力池（pool）里的波动性越来越大。但历史上，市场的大部分交易都是在那儿完成的。所以这份期货合约"
+    },
+    {
+      "i": 42,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "15:45",
+      "en": "works in similar ways to crude or gas and that, you know, there's contracts that go out calendar years and then gradually move into prompt months or several months ahead of time. But where it's different compared to North American gas products is you start actually getting quite a bit more granularity, getting into individual weeks and balance of weeks next day and then even the current day or balance of day or bay pgm, which is a product that we spent a lot of time on throughout the years and continue to spend a",
+      "zh": "运作方式和原油或天然气类似，也就是有按整年（calendar years）延展的合约，然后逐渐过渡到近月（prompt months）或者往后几个月的合约。但它和北美天然气产品不同的地方在于，你实际上会开始得到多得多的颗粒度（granularity），细到单个星期、剩余周（balance of weeks）、次日（next day），甚至当天或者说当日剩余（balance of day，也就是 BAL PJM），这是我们多年来花了很多时间、并且继续花"
+    },
+    {
+      "i": 43,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "16:23",
+      "en": "lot of time on. And so that product itself is the weighted average of 5 minute prices in all of those nodes from hourning 8 to hourning 23 every single heavy load day, which is just business days during the week and so every day and the uniqueness of that contract as well is as you move throughout the day a bunch of the individual 5 minute prices and then eventually hourly prices become known but then there's still a bunch of unknowns for the rest of the remainder of the day and still lots of intraday volatility",
+      "zh": "大量时间的产品。这个产品本身，是每天所有那些节点在第 8 小时到第 23 小时（hour ending 8 到 hour ending 23）之间 5 分钟价格的加权平均，覆盖每一个高负荷日（heavy load day），也就是周内的工作日，所以是每一天。这份合约的独特之处还在于，随着你在一天的进程中推进，一堆单独的 5 分钟价格、以及最终的每小时价格会变得已知，但当天剩下的时间里仍然有一大堆未知数，日内仍然会有大量波动性"
+    },
+    {
+      "i": 44,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "17:05",
+      "en": "can happen. So as much as information has improved over the years, particularly on the weather forecasting side, you would think that we know how the grid is going to behave tomorrow when we're only 24 hours out. But it turns out actually no, we don't really know how power is actually going to flow on that day.",
+      "zh": "会发生。所以尽管这些年信息已经改进了很多，尤其是在天气预报方面，你会以为当我们距离明天只有 24 小时的时候，我们已经知道电网会怎么运行了。但结果其实是——不，我们并不真正知道那天电力实际上会怎么流动。"
+    },
+    {
+      "i": 45,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "17:26",
+      "en": "And the fundamentals can change substantially just in that kind of quick period. So that's a quick overview I guess not so quick overview of the product that we've traded. Yeah, well yeah, that is why these markets are interesting because I mean in some ways they are different to crude. I mean there's peak and baseload and there's a presumed different contracts for that. And you have maybe not in PGM but you have seasonalities and you know all these types of things that do play a role. By",
+      "zh": "而且基本面在这么短的一段时间里就可能发生很大的变化。所以这就是对我们交易的这个产品一个快速的概览——好吧，其实不算那么快速的概览。是啊，嗯，是的，这正是这些市场有意思的原因，因为我是说，在某些方面它们和原油不一样。我是说，有峰荷（peak）和基荷（baseload），而且想必有针对它们的不同合约。还有季节性（seasonality），也许 PJM 里不明显，但你有季节性，你知道，所有这些类型的因素确实都会起作用。顺"
+    },
+    {
+      "i": 46,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "17:58",
+      "en": "the way, are there options on these futures contracts as well?",
+      "zh": "便问一下，这些期货合约上也有期权（options）吗？"
+    },
+    {
+      "i": 47,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "18:02",
+      "en": "There's a little bit of monthly options, yeah, some monthly options, but not getting into historically there's been a little bit on the balance of day and next day side that has dried up a little bit more over the past several years. But yeah, not so much on on the option side. Increasingly though there's been, and this is, I'll give a, a quick shout out to a new exchange called Electron X. We actually just joined a Couple weeks ago they've taken this, this idea to a more granular level. So you know,",
+      "zh": "有一点点月度期权，是的，一些月度期权，但谈不上多——历史上在当日剩余（balance of day）和次日那边有过一点点，但过去几年这块更加萎缩了。不过是的，期权这边不多。但越来越多的情况是——这里我要快速点名致敬一个叫 Electron X 的新交易所。我们其实几周前才刚加入，他们把这个想法做到了更细的颗粒度层面。所以你知道，"
+    },
+    {
+      "i": 48,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "18:37",
+      "en": "when we're, when we're trading on ice, we're typically trading that entire strip. But now on this new exchange electronics you can actually trade each individual hour as a future individual futures contract. So that's been interesting for us. And my forecast is that a lot of market participants will join that game as well. It gives a lot of optionality and tools particularly for either load or renewables that have different shapes and don't necessarily want the entire exposure for all the hours. Maybe",
+      "zh": "当我们在 ICE 上交易的时候，我们通常交易的是整条合约带（strip）。但现在在这个新交易所 Electron X 上，你实际上可以把每一个单独的小时当作一份独立的期货合约来交易。所以这对我们来说很有意思。我预计很多市场参与者也会加入进来。它提供了很多选择权（optionality）和工具，尤其是对于那些负荷（load）或可再生能源，它们的形状各不相同，未必想要所有小时的全敞口。也许"
+    },
+    {
+      "i": 49,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "19:15",
+      "en": "they just want exposure or want to be able to hedge out their positions for select hours.",
+      "zh": "它们只想要某些特定小时的敞口，或者想能够对冲掉自己在选定小时里的仓位。"
+    },
+    {
+      "i": 50,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "19:21",
+      "en": "You mentioned earlier that electricity, because it needs to be balanced is 247 365. Does this mean your business is 247 365? Or maybe put differently, do you take markets into delivery or do you kind of like get out day ahead so that that doesn't become a problem and then you can have a good night's sleep?",
+      "zh": "你前面提到，电力因为需要保持平衡，所以是全天候 24/7/365 的。这是不是意味着你们的生意也是 24/7/365 的？或者换个说法，你们会把合约持有到交割（delivery），还是说你们会在日前（day ahead）就平仓退出，这样就不会有问题，然后你们能睡个好觉？"
+    },
+    {
+      "i": 51,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "19:41",
+      "en": "Yeah, no, we don't sleep very well. No, that's not good. No, no, that's the nature of the job though. We, we currently do not run a real time trading desk where you know, you're physically flowing power between different regions. Maybe check back with me in a few months on our progress there. And that's actually where I learned and how I learned the business in the first place. Kind of going back to my time in Transalta where doing shift work 24 7, 365 and at that point scheduling physical power",
+      "zh": "是啊，不，我们睡得并不好。不，那可不行。不不，不过这本来就是这份工作的性质。我们目前并不运营一个实时交易台（real time trading desk），也就是你真的在不同区域之间物理地输送电力。也许过几个月你再回来问问我们在这方面的进展。而这其实正是我当初学习、以及是怎么学会这门生意的地方。要追溯到我在 Transalta 的那段时间，那时做的是 24/7/365 的轮班工作，那时候要调度物理电力，"
+    },
+    {
+      "i": 52,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "20:18",
+      "en": "between the different interconnected regions. And so that market still is happening kind of non stop. But then meanwhile, I guess there's, there's, for our type of trading at least the exchange ICE closes down at 6pm every day to actually do server maintenance. Otherwise I think actually traders would continue trading it kind of all through the evening on the east coast. So that usually leaves a bunch of unsettled hours kind of going into the end of the day. And, and we, we typically would have positions",
+      "zh": "在不同互联互通的区域之间调度。所以那个市场其实是不间断地在运转。但与此同时，我想，至少对我们这种交易类型来说，ICE 交易所每天下午 6 点会关闭去做服务器维护。否则我觉得交易员实际上会在东海岸整个晚上一直交易下去。所以这通常会留下一堆未结算的小时，一直到当天结束。而且，我们通常会持有仓位，"
+    },
+    {
+      "i": 53,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "20:56",
+      "en": "open positions not only for, for the rest of the day going into delivery, but then also the next several days.",
+      "zh": "不仅持有当天剩余时间进入交割的未平仓头寸，还会持有接下来好几天的头寸。"
+    },
+    {
+      "i": 54,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "21:04",
+      "en": "Yeah, right, yeah, let's, let's speak about some of these trades or the way you trade maybe in a little bit more detail. I mean obviously, I mean maybe you want to speak about what it is that is GBE's edge or if there is kind of like something like that, things that you focus on. I presume that you're trading research driven, fundamentally informed as opposed to Systematic or quantitative",
+      "zh": "是啊，对，我们来更详细地聊聊这些交易，或者你们交易的方式。我的意思是，显然——也许你想谈谈 GBE 的优势（edge）是什么，或者是否存在这样的东西，你们关注的那些点。我猜你们做的是研究驱动、以基本面为依据的交易，而不是系统化（systematic）或量化（quantitative）的交易，"
+    },
+    {
+      "i": 55,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "21:29",
+      "en": "comes with the nature of that business. But speak to us a little bit about what would be kind of like a, if there is such a thing, like a standard trade, would that be more like a spread trade or an arbitrage or a position that you're taking to hold for a day or a couple of days? What usually gets you interested?",
+      "zh": "那更多是这门生意的性质决定的。但给我们讲讲，如果真有这么个东西的话，什么算是一笔标准交易——它更像是价差交易（spread trade）、套利（arbitrage），还是你建仓打算持有一天或几天的一个头寸？通常是什么会引起你们的兴趣？"
+    },
+    {
+      "i": 56,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "21:49",
+      "en": "Typically it's, I mean, this is going to sound a little bit pithy, but we try to understand what demand is going to look like and we try to understand what supply is going to look like and if there's a mismatch. So I mean, it's a little bit more complicated than that. But on the load side there's a lot of interesting variables. So it's a lot more tricky than just saying, oh, we think demand is going to be high or low. There's differences in demand between different sub regions and that can impact power, impact",
+      "zh": "通常是这样，我是说，这听起来会有点老套，但我们努力去理解需求会长什么样，努力去理解供给会长什么样，以及两者之间是否存在错配。所以我是说，它比这要更复杂一些。在负荷（load）这一侧有很多有意思的变量。所以它比单纯地说“哦，我们觉得需求会高或低”要棘手得多。不同子区域之间的需求是有差异的，而这会影响电力、影响"
+    },
+    {
+      "i": 57,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "22:26",
+      "en": "power flow. So we pay a lot of attention to that. There's various inflection points for load depending on the weather. So there's actually typically PGM and still is remains a summer peaking system, meaning demand is highest during the summer when kind of AC is running highest. But there's actually some sub zones within PGM that are transitioning more to winter peaking, whereby winter heating demand is actually exceeding summer AC demand. So that's one thing that's gradually shifting over time. And so throughout",
+      "zh": "电力潮流（power flow）。所以我们对此非常关注。负荷会根据天气有各种各样的拐点（inflection point）。所以实际上，PJM 通常是、而且现在仍然是一个夏季尖峰（summer peaking）系统，意思是需求在夏天最高，也就是空调开得最猛的时候。但 PJM 内部实际上有一些子区域正在更多地转向冬季尖峰（winter peaking），也就是冬季取暖需求实际上超过了夏季空调需求。所以这是随时间逐渐变化的一个点。而在一整天的"
+    },
+    {
+      "i": 58,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "23:09",
+      "en": "the day, each of these days have different load shapes and those shapes differ by season, by time of day, by sun angle. And so there's quite a few variables that go in to try and actually understanding whether basically the market or the market writ large has a good view on actually what load is. And so we try to understand load",
+      "zh": "过程中，每一天都有不同的负荷形状（load shape），而这些形状会因季节、因一天中的时段、因太阳角度而不同。所以要真正理解——基本上就是理解整个市场、或者说市场整体上对负荷究竟是多少有没有一个好的判断——这里面涉及相当多的变量。所以我们会努力去理解负荷，"
+    },
+    {
+      "i": 59,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "23:33",
+      "en": "really, really well. First and foremost, I would say yeah, a lot of our trades are kind of downstream of that. And then on the gen side we're trying to figure out, you know, does is there enough generation in the areas that actually need it? And then if not, you know, what's the kind of next megawatt up and what will that price be for that next megawatt once transmission is basically at its limit, trying to feed, you know, kind of areas and pockets of inexpensive generation into areas where load is high. And so",
+      "zh": "而且要理解得非常、非常好。我会说，首先，是的，我们很多交易都是从这个理解衍生出来的下游结果。然后在发电（gen）这一侧，我们要搞清楚，你知道，在真正需要电的那些区域，发电是否足够？如果不够，那么，下一兆瓦（next megawatt）来自哪里、当输电基本上达到极限、试图把廉价发电的区域和小块电力输送到高负荷区域时，那下一兆瓦的价格会是多少。所以"
+    },
+    {
+      "i": 60,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "24:14",
+      "en": "every day we'll go through, you know, a systematic routine of basically like a large checklist of okay, where do we think load is going to be for all these sub regions, all these regions writ large? What do we think supply looks like? Which generators are on, which ones are off? Do we think this one should be on, et cetera. And then is there enough actual transmission to get",
+      "zh": "每天我们都会走一遍一套系统化的流程，基本上就像一份很大的检查清单：好，所有这些子区域、所有这些区域整体上，我们认为负荷会在哪里？我们认为供给是什么样子？哪些机组开着、哪些关着？我们觉得这台应该开着，等等。然后，实际的输电能力是否足够，把"
+    },
+    {
+      "i": 61,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "24:40",
+      "en": "the inexpensive gen to the pockets that need it? And then from there, over time and through experience and through the pattern recognition, we basically make calls on whether the futures prices are, are trading too high or too low. And we take bets in either direction.",
+      "zh": "廉价的发电送到需要它的那些小块区域？然后从这里出发，随着时间推移、通过经验、通过模式识别（pattern recognition），我们基本上就会做出判断：期货价格是不是交易得太高或太低了。然后我们在任一方向上下注。"
+    },
+    {
+      "i": 62,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "24:58",
+      "en": "Where do you get that info from? I mean, other than the mineralogists which do weather forecasting. But how does one figure out what demand or generation is going to be? Because it's probably not a Bloomberg ticker that you can just put up and look at it.",
+      "zh": "这些信息你们是从哪儿来的？我是说，除了那些做天气预报的气象学家之外。但一个人到底是怎么搞清楚需求或发电会是多少的？因为这大概不是一个 Bloomberg 代码，你把它调出来看一眼就行了。"
+    },
+    {
+      "i": 63,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "25:13",
+      "en": "No, and it's not quite vibes either. So yes, we have a couple meteorologists on staff, there's a number of load forecasting vendors in the market that we subscribe to and then we also have our own internal models to try and ascertain where we think load's going to be. And then. Yeah, so a lot of the weather information is publicly available forecast generated by not only noaa, the gfs, but then also the Euro model. So all of that data is quite public and knowable. But the actual conversion into load forecasts, well",
+      "zh": "不是，而且也不完全是凭感觉（vibes）。所以，是的，我们有几位气象学家在职，市场上有很多负荷预测的供应商，我们订阅了它们，然后我们还有自己的内部模型，去试图确定我们认为负荷会在哪里。然后，是啊，很多天气信息是公开的预报，不仅由 NOAA 的 GFS 生成，还有欧洲模型（Euro model）生成的。所以所有这些数据都是相当公开、可获取的。但把它们真正转换成负荷预测，嗯，"
+    },
+    {
+      "i": 64,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "25:58",
+      "en": "that's. Yeah, that's kind of where the art comes in. On the generation side, there's a couple of interesting vendors that actually",
+      "zh": "那……是啊，那大致就是艺术（art）成分进来的地方。在发电这一侧，有几家很有意思的供应商，他们实际上会"
+    },
+    {
+      "i": 65,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "26:11",
+      "en": "monitor the production of plants in real time and they do this through some sensors that are located typically in farmers fields",
+      "zh": "实时监测电厂的产出，他们是通过一些传感器做到的，这些传感器通常装在农田里，"
+    },
+    {
+      "i": 66,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "26:23",
+      "en": "that sense how much power is actually coming out of the high voltage lines coming from the generators.",
+      "zh": "用来感应从发电机组出来的高压线路上实际上输送了多少电力。"
+    },
+    {
+      "i": 67,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "26:29",
+      "en": "Interesting, I didn't know that. Yeah, so those would be a couple of proprietary vendors that we would subscribe to. So we've got a bunch of historical data on that front and then there's other publicly available data sources out there on generation. People can look that up. So it's a combination, I would say, of publicly available data and a few private data sources. Power markets in general are very data rich. Even within each of the independent system operators. There's",
+      "zh": "有意思，我以前不知道。是啊，所以那会是几家我们订阅的专有数据供应商。所以在这方面我们有一大堆历史数据，然后还有其它一些关于发电的公开数据源，人们可以去查。所以我会说，这是公开可得数据和少数几个私有数据源的一种组合。电力市场总体上数据非常丰富。即使在每一个独立系统运营商内部，也"
+    },
+    {
+      "i": 68,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "27:02",
+      "en": "a lot of public data that gets generated not only for market participants but for the public as well. So we ingest and save all that data as well, not only for our own trading, but also model and tool building and going forward at least we, I mean, we've always taken the view that we're not quite sure what this data might mean in the future, but we're going to save it anyway. And I would say more recently there's been some interesting developments internally",
+      "zh": "会生成大量公开数据，不仅面向市场参与者，也面向公众。所以我们会摄取并保存所有这些数据，不仅用于我们自己的交易，也用于建模和工具搭建。至少往前看，我是说，我们一直抱着这样一种看法：我们不太确定这些数据将来可能意味着什么，但我们还是会把它存下来。而且我会说，最近我们在内部有了一些有意思的进展，"
+    },
+    {
+      "i": 69,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "27:33",
+      "en": "in that approach, or I guess validation over that approach. Yeah, and then you mentioned the pattern recognition, which I believe is then Your experience as a trader so that you have the mental ability to discover if and when something looks out of whack.",
+      "zh": "是关于这种做法的，或者我想是对这种做法的一种验证。嗯，然后你提到了模式识别（pattern recognition），我相信那就是你作为交易员的经验，让你有一种心智上的能力，去发现某个东西什么时候看起来不对劲（out of whack）。"
+    },
+    {
+      "i": 70,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "27:47",
+      "en": "That's right, yeah. These markets, because you know, they're not accessible to everyone that easily. I mean, if people make an effort, they can get to these markets for sure. But they're not kind of like open door. Here I am just, you know, click on the ticker and use your mouse and trade. PJM Power does it. I mean, I guess it's connected. It probably has the right level of darkness and opaqueness that makes it alpha rich. That allows for a prop trading business.",
+      "zh": "没错，是的。这些市场，因为你懂，并不是每个人都能那么轻易进入的。我是说，如果人们肯下功夫，他们肯定能进入这些市场。但它们并不是那种敞开大门、我就坐在这儿、点点代码、动动鼠标就能交易 PJM 电力的地方。我是说，我想它是有关联的。它大概有着恰当程度的“黑暗”和不透明，这让它 alpha 丰富（alpha rich），从而让一家自营交易公司"
+    },
+    {
+      "i": 71,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "28:14",
+      "en": "To thrive in our view. Yes. Yeah. And I can't possibly imagine trading anything else. And I've been thinking about this increasingly, like why this thing is so addicting. But I think it's one of the very few products that combines this amount of not only volatility but also the ability for your fundamental view to shine through. So typically in a lot of other markets where you might have some fundamental view, it might take several weeks, months, years for the market to come around to your story. Whereas",
+      "zh": "能够在其中蓬勃发展——在我们看来是这样。是的。是啊。我简直无法想象去交易任何别的东西。而且我越来越多地在想，为什么这东西这么让人上瘾。我认为它是极少数几个产品之一，不仅有这种程度的波动性，还能让你的基本面观点真正显现出来、发挥作用。所以通常在很多其它市场里，你可能有某种基本面观点，市场可能要花好几周、好几个月、好几年才会认同你的故事。而"
+    },
+    {
+      "i": 72,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "28:56",
+      "en": "with power, ultimately the power has to flow, the lights have to stay on. And so you just have to have the patience of a number of hours to see if your market view is right. Naturally you have to still control your bullets and your risk management throughout that. But there's lots of instances where you can't necessarily get bullied out of a position. If you play your cards right, eventually the price is going to be what the price is. I think it's just an interesting intersection where if your fundamental views are so",
+      "zh": "在电力这里，最终电力必须流动，灯必须亮着。所以你只需要有几个小时的耐心，就能看出你的市场观点对不对。当然，在整个过程中你仍然要管好你的子弹（bullets）、做好风险管理。但有很多情况下，你不一定会被人挤出一个仓位（bullied out of a position）。如果你牌打得对，最终价格就是它该有的价格。我觉得这只是一个很有意思的交汇点：如果你的基本面观点足够"
+    },
+    {
+      "i": 73,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "29:32",
+      "en": "strong and robust, you can wheel through where it might be trading on path.",
+      "zh": "强大、足够稳健，你就能熬过它在路径上（on path）可能交易到的那些位置。"
+    },
+    {
+      "i": 74,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "29:38",
+      "en": "What would you say is the average holding period of a trade when you're putting it on?",
+      "zh": "你会说，当你建一笔交易的时候，它的平均持有期是多久？"
+    },
+    {
+      "i": 75,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "29:43",
+      "en": "Let's say historically for myself and Jerry Zhang, my trading partner, probably 10 to 12 hours, something like that, maybe even less than that. Yeah, definitely. Intraday trading business, you have the occasional position that you keep overnight because you have a two or three day view.",
+      "zh": "这么说吧，历史上对我和 Jerry Zhang——我的交易搭档来说，大概是 10 到 12 小时，差不多这样，甚至可能更短。是的，绝对是日内的生意。你偶尔会持有一些隔夜仓位，因为你有一个两三天甚至更长的观点。"
+    },
+    {
+      "i": 76,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "30:01",
+      "en": "Still. Quite a few. Quite a few. But we're still, Yeah, a bunch would still stay within today. Yeah. Okay, you mentioned risk management. So when you, I mean it's kind of like, yeah, within 15 minutes or five minutes or by the end of the day, you know, whether you're right or wrong, you have the short average hold period per trade. I mean relative to say natural gas, which is a relatively, excuse me, relatively volatile market. How volatile on an annualized basis? If it makes",
+      "zh": "仍然有。相当多。相当多。但我们仍然——是啊，一大堆仓位还是会留在当天之内。好。你提到了风险管理。那么当你……我是说，这有点像是，是啊，在 15 分钟内、或 5 分钟内、或者到当天结束时，你就知道自己是对是错，你每笔交易的平均持有期很短。我是说，相对于比如天然气——不好意思——一个波动性相对较大的市场来说。按年化来算，波动性有多大？如果这样分析"
+    },
+    {
+      "i": 77,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "30:32",
+      "en": "sense to analyze the volatility, I don't know how volatile are these power markets?",
+      "zh": "波动性有意义的话，我不知道，这些电力市场到底有多大的波动性？"
+    },
+    {
+      "i": 78,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "30:38",
+      "en": "Maximum.",
+      "zh": "极大（Maximum）。"
+    },
+    {
+      "i": 79,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "30:43",
+      "en": "10X crypto. Yeah. 10X crypto, yeah. 10X crypto I think is probably the best way to describe it. And even within that, that's not just what today can settle versus yesterday. It's more what can happen in this five minutes compared to next five minutes and whipsawing back and forth.",
+      "zh": "10 倍于加密货币。是的。10 倍于加密货币，对。我觉得“10 倍于加密货币”大概是描述它最好的方式。而且即便在这之内，那也不只是今天相对于昨天能结算出多少，更多的是这五分钟相比下一个五分钟之间能发生什么，以及来回剧烈甩动（whipsawing）。"
+    },
+    {
+      "i": 80,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "31:07",
+      "en": "So with a setup like that, I mean things like we from kind of like a systematic trend following background we would have a position and it's sized in a certain way and there's a stop loss on an exit. We know how much we're going to lose. But I guess with that type of volatility and also that trading horizon putting a stop loss on the position, I mean you tell me, but I'd say it probably doesn't make much sense. The trade either works or you close it at some time with the time stop or you get wiped out",
+      "zh": "所以在这样一种设定下，我是说，像我们这种系统化趋势跟踪（trend following）背景的人，我们会有一个仓位，它按某种方式确定规模，还有一个止损（stop loss）作为退出。我们知道我们会亏多少。但我想，面对那种波动性、再加上那种交易时间跨度，在仓位上设止损——我是说，你说说看——但我会说这大概没什么意义。这笔交易要么奏效，要么你在某个时间点用时间止损（time stop）把它平掉，要么你就被"
+    },
+    {
+      "i": 81,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "31:35",
+      "en": "and it closes at zero and that's it and you do another trade.",
+      "zh": "彻底清仓，它归零平仓，就这样，然后你再做另一笔交易。"
+    },
+    {
+      "i": 82,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "31:39",
+      "en": "There's still a little bit enough time to put in stop losses but I think the, and it's still a very necessary thing but the slippage that can happen on particularly when prices get high is pretty extraordinary. So particularly on, on situations where you're initiating and having a short position you have to be pretty mindful around not only where the thing can trade on path but then where the thing can actually settle. And you know, we're increasingly entering these, these moments in times where you know, we're getting",
+      "zh": "还是有足够的时间去设止损的，但我觉得——而且设止损仍然是非常必要的——但可能发生的滑点（slippage），尤其是在价格变高的时候，是相当惊人的。所以特别在你要建立并持有一个空头仓位的情形下，你必须非常留心，不仅是这东西在路径上（on path）可能交易到哪里，还有它实际上可能结算到哪里。而且你知道，我们越来越多地进入这样的时刻和时段，我们正在迎来"
+    },
+    {
+      "i": 83,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "32:18",
+      "en": "into some pretty high priced power days just based on where the supply and demand fundamentals have arrived at these last several years. So there's definitely been this mismatch of investment",
+      "zh": "一些电价相当高的日子，仅仅因为这些年供需基本面走到了如今这个地步。所以确实存在投资"
+    },
+    {
+      "i": 84,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "32:35",
+      "en": "and load increase and those don't necessarily resolve in a matter of months. I think they will resolve over the coming years. It's unclear exactly when they'll resolve. But yeah, there's an enormous amount of, and this is actually, well, I'll give you some context as why this is actually happening. But there's an enormous amount of data center demand that's entered into the footprint just at the moment in time where a bunch of retirements were still happening in the grid. So that overlap was not seamless,",
+      "zh": "和负荷增长之间的这种错配，而这些不一定能在几个月内解决。我认为它们会在未来几年里解决。但具体什么时候解决并不清楚。不过是的，有大量的——这其实，好，我给你讲讲为什么这实际上正在发生的背景。有大量数据中心（data center）需求进入了这个版图，而恰恰在同一个时间点，电网里一大堆机组退役仍在发生。所以这种重叠并不无缝，"
+    },
+    {
+      "i": 85,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "33:11",
+      "en": "not good, not good. When you look at the distribution of your P now with the volatility of the underlying market, is your business more like a business where you have more winning trades than losing trades?",
+      "zh": "不好，不好。当你结合标的市场的波动性来看你们盈亏（P&L）的分布时，你们的生意更像是一种盈利交易多于亏损交易的生意吗？"
+    },
+    {
+      "i": 86,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "33:23",
+      "en": "I don't know, maybe like 70% winning trades, 30% losing trades and you win a little bit because your fundamental forecast is right or is it more like nah, many losers. But then the occasional blowout outlier trade where kind of like a handful of trades maybe in a given year are responsible for the P and L, which is what I would call our normal way of trading. But that's not true for everyone and not for every trading business.",
+      "zh": "我不知道，也许是像 70% 盈利交易、30% 亏损交易，你小赚一点，因为你的基本面预测对了；还是说更像是——不，很多亏损单，但偶尔有那么一两笔爆发性的离群交易（outlier trade），也就是在给定的某一年里，可能就那么几笔交易贡献了整个盈亏。我会说这是我们那种正常的交易方式。但这并不适用于所有人，也不适用于每一家交易公司。"
+    },
+    {
+      "i": 87,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "33:51",
+      "en": "So this is a great question. In working with our young traders, I described to them kind of the four stages of power trading, at least as I see it, which is initially you, you learn about the business and then you see all this tail risk, right? You see all these like high priced hours. So all you want to do is be, be long",
+      "zh": "这是个很好的问题。在带我们年轻交易员的过程中，我会向他们描述电力交易的四个阶段，至少按我的看法是这样：一开始，你了解这门生意，然后你看到了所有这些尾部风险（tail risk），对吧？你看到所有这些高价的时段。所以你唯一想做的就是做多，"
+    },
+    {
+      "i": 88,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "34:18",
+      "en": "most of the time. And so you sit there and you're long non stop. And then eventually you're like, I, I'm just tired of bleeding all this money. I, I don't want to be long nonstop. And then you enter into stage two, which is okay, I want to be short this stuff. And then so for the most part you stay short. You stay short and then invariably one of these tail risk days will kind of wipe out all of your short profits. And then you're like, okay, I need some new approach here. And then stage three usually",
+      "zh": "大部分时间都做多。于是你就坐在那儿，不停地做多。然后最终你会想：我，我实在是受够了这样一直流血亏钱。我，我不想一直做多了。然后你进入第二阶段，也就是：好，我想做空这东西。于是大部分时间你都保持做空。你保持做空，然后这些尾部风险日里 inevitably 会有某一天把你所有的空头利润统统清光。然后你会想：好，我需要某种新方法了。接着第三阶段通常"
+    },
+    {
+      "i": 89,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "34:52",
+      "en": "involves being short most of the time and then kind of avoiding the booby trap long days. So you're not necessarily catching them and going long, but you at least you miss them. So in that case you're generally quite profitable. But you miss out on the booby trap long days. And then the fourth stage, or kind of like the, I would say like the actualized stage of power trading would be, at least in our market setup would be a lot of the time you're short because market participants want to pay for",
+      "zh": "是大部分时间做空，然后设法避开那些“陷阱式”的做多日（booby trap long days）。所以你未必要抓住它们去做多，但至少你躲开了它们。所以在这种情况下你总体上相当盈利。但你错过了那些陷阱式的做多日。然后第四阶段，或者说我会称之为电力交易“自我实现（actualized）”的那个阶段，至少在我们的市场设定下是这样：很多时候你做空，因为市场参与者愿意为"
+    },
+    {
+      "i": 90,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "35:28",
+      "en": "that tail risk. And then on the booby trap days you actually pivot and you're long the stuff. And most of the gains for a given year will come through being long on the right days.",
+      "zh": "那种尾部风险付费。然后在那些陷阱日里，你实际上会调转方向做多。而某一年里的大部分收益，都会来自在正确的那些日子里做多。"
+    },
+    {
+      "i": 91,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "35:44",
+      "en": "Explosive move to the top side and you have the right position.",
+      "zh": "当价格向上爆发，而你手里正好有对的仓位。"
+    },
+    {
+      "i": 92,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "35:48",
+      "en": "Exactly. Yeah, but how is it sized on that day? Because it's kind of like a small position because you're like, ah, still too much of a scaredy cat to really go along. Then you're not making much money. So that's the other, probably the most important piece of that is to what extent are you long? If and when it happens?",
+      "zh": "正是。是啊，但那一天你的仓位规模是怎么定的？因为这有点像——如果是个小仓位，因为你想：啊，我还是太胆小了，不敢真的大举做多，那你就赚不到多少钱。所以这就是另一个、可能也是最重要的那一环：如果它真的发生了，你做多的程度有多大？"
+    },
+    {
+      "i": 93,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "36:08",
+      "en": "This is 100% true. This is the art of the thing. Knowing that this is the day and then sizing it appropriately and recognizing what the EV of that trade is before the rest of the market. And oftentimes it will involve a reasonably sized mark to market drawdown. Because to go and initiate a trade against the rest of the market and get enough size, you're going to need enough people to disagree with you.",
+      "zh": "这 100% 是真的。这就是这门手艺的艺术所在。知道这就是那一天，然后把仓位规模定得恰当，并且比市场其余人更早地识别出那笔交易的期望价值（EV）。而且这往往还会涉及一笔相当规模的按市值计价（mark to market）的回撤。因为要去建一笔逆着市场其余人方向、又有足够规模的交易，你就需要有足够多的人和你意见相左。"
+    },
+    {
+      "i": 94,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "36:38",
+      "en": "Wow. It rings a bell for our type of business. The biggest trades we get in are these outlier trades that go on and on and on. But while they're on that ride on that trend, you have to accept that give back and the pain and the unpleasantness of the market moving against you but not giving up on the position.",
+      "zh": "哇。这对我们这类生意很有共鸣。我们吃到的最大的那些交易，就是这些一直走、一直走、一直走的离群交易（outlier trades）。但当它们正处在那段趋势的行情里时，你必须接受那种回吐、那种痛苦、那种市场逆着你走的不爽，但又不放弃这个仓位。"
+    },
+    {
+      "i": 95,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "36:58",
+      "en": "Exactly. And that is where I believe traders separate themselves from civilians. It's not a normal characteristic to be comfortable in the uncomfortableness of that, that level of disagreeability and still have the confidence that you know something or you think you know something that the rest of the market doesn't.",
+      "zh": "正是。而我相信，这正是交易员把自己和普通人（civilians）区分开来的地方。在那种不舒服里还能感到自在，在那种程度的“众人皆反”里，还能保有一种信心——相信自己知道、或者以为自己知道某些市场其余人不知道的东西——这不是一种正常的性格特质。"
+    },
+    {
+      "i": 96,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "37:22",
+      "en": "That's part of why it is a craft and also a mental and psychological exercise which I personally think requires real time trading experience in the markets with real money.",
+      "zh": "这也是为什么它是一门手艺、也是一种心智和心理上的修炼的部分原因，我个人认为它需要在市场里用真金白银进行实时交易的经验。"
+    },
+    {
+      "i": 97,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "37:35",
+      "en": "Yes. That is the only way that you can actually get to that point and learn it. I fully agree. This is not something that you can watch from the stands and gain a bunch of experience. No, it doesn't do it down.",
+      "zh": "是的。那是你唯一能真正达到那个境界、学会它的方式。我完全同意。这不是那种你可以坐在看台上看、然后就能积累一大堆经验的东西。不，光看是学不会的。"
+    },
+    {
+      "i": 98,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "37:45",
+      "en": "No, it doesn't do it in your demo account. It is a great segue into your recruitment program and psychology of trading and what you do there. Gbe. But maybe before we go there, I mean this. I always like these war stories. Like looking back in the rearview mirror is the kind of like one massive standout trade, both part like terrible trade and also a massively successful trade where it's like that. That's one for the history books. That's the one that I remember.",
+      "zh": "不，在你的模拟账户（demo account）里也学不会。这正好是个绝佳的过渡，可以引到你们的招募计划、交易心理，以及你们在 GBE 做的那些事情。但在我们去那儿之前，我是说——我总是喜欢这些“战争故事”。就像从后视镜往回看，有没有那种一笔极其突出的交易，既包括那种糟糕透顶的交易，也包括那种大获成功的交易，就是那种——那是可以载入史册的一笔，是我会记住的那一笔。"
+    },
+    {
+      "i": 99,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "38:14",
+      "en": "Mm. Okay, I'll give you a summary of trades that I guess important in our history because I guess the P and L from those trades generated enough capital for us to start GB in the first place. So I would say any of the really big trades in our careers come from a paradigm shift in the market where something is fundamentally shifted. And we had some view on how that fundamental shift would change the topology of the grid. And oftentimes when there's a change in topology, it's a huge scramble to figure out how to",
+      "zh": "嗯。好，我给你概述几笔我猜想在我们历史上很重要的交易，因为我想那些交易的盈亏为我们提供了足够的资本，让我们最初得以创立 GBE。所以我会说，我们职业生涯里任何真正的大交易，都来自市场里的一次范式转变（paradigm shift），也就是某些东西在基本面上发生了转移。而我们对这种基本面转变会如何改变电网的拓扑结构（topology）有某种判断。很多时候，当拓扑结构发生变化时，大家就会手忙脚乱地去搞清楚该怎么"
+    },
+    {
+      "i": 100,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "39:02",
+      "en": "solve it. Eventually the market does, in combination with just load behavior and gen behavior and then also system operator behavior. But before that correction happens, there's usually",
+      "zh": "解决它。最终市场会解决，靠的是负荷行为、发电行为，再加上系统运营商行为的共同作用。但在那种修正发生之前，通常会有"
+    },
+    {
+      "i": 101,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "39:18",
+      "en": "a bunch of volatility. So we had, going into this one summer without, I guess, getting into the specifics, a view on the topology change. And it was to do with a couple of zones actually entering in the PGM system that used to be in the Midwest ISO. So portions of, of Ohio that were kind of coming into, into PGM and we just, we had a view on what their supply demand situation looked like and, and how prices were would react in response to that. And so there was, there was six days that summer that made up kind of",
+      "zh": "一大堆波动。所以，在进入某一个夏天之前——我想就不细讲具体情况了——我们对这次拓扑变化有一个判断。它跟几个区域实际进入 PJM 系统有关，而这些区域以前是在 Midwest ISO 里的。也就是 Ohio 的一些部分正在并入 PJM，而我们对它们的供需状况长什么样、以及价格会如何对此作出反应，有一个判断。所以那个夏天有六天，加起来大约构成了"
+    },
+    {
+      "i": 102,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "40:08",
+      "en": "85% of our P and L that year. But yeah, it comes back to just having that one fundamental insight about how things would behave. And then on the loss side,.",
+      "zh": "我们那年盈亏的 85%。不过是的，归根结底就是拥有那一个关于事情会如何演变的根本性洞见。然后在亏损那一侧，"
+    },
+    {
+      "i": 103,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "40:24",
+      "en": "This. Is painful stuff there for the most part to use. Kind of like the midwit meme, right? Load is strong, gen is weak, buy or sell and then same thing.",
+      "zh": "这……大部分是些痛苦的东西。有点像那个“中智（midwit）”梗图，对吧？负荷强、发电弱，买或卖，然后在"
+    },
+    {
+      "i": 104,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "40:43",
+      "en": "On. The top end of the spectrum. But there was a day where there was",
+      "zh": "光谱的另一端也是同样的道理。但曾经有一天，"
+    },
+    {
+      "i": 105,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "40:49",
+      "en": "a very specific transmission constraint on the grid and I was short that stuff and I thought that the macro picture would win and it didn't and I was too stubborn and then got out way too late. And just an example of how you can be in a position and",
+      "zh": "电网上出现了一个非常具体的输电约束（transmission constraint），而我做空了那东西，我以为宏观图景会胜出，结果没有，而我太固执了，然后平得太晚了。这就是一个例子，说明你怎么会守着一个仓位，"
+    },
+    {
+      "i": 106,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "41:18",
+      "en": "tell yourself stories around why you still should be in it as opposed to more coldly examining what's going on and having a more honest conversation with yourself around do I actually know something here or I'm just hoping it goes in my direction.",
+      "zh": "给自己讲各种故事，说服自己为什么还应该待在里面，而不是更冷静地审视到底在发生什么、跟自己进行一场更诚实的对话：我在这儿是不是真的知道些什么，还是我只是在盼着它往我的方向走。"
+    },
+    {
+      "i": 107,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "41:37",
+      "en": "And that scenario happens a lot in trading and as one gets more experienced the ability to just recognize those days and recognize, you know what? Today's not the day. Today's not the day to fight",
+      "zh": "而这种情形在交易里经常发生，随着一个人经验越来越丰富，你就有能力去识别出这样的日子，然后意识到：你知道吗？今天不是那种日子。今天不是该死扛"
+    },
+    {
+      "i": 108,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "41:52",
+      "en": "for this loser, for this losing position. There's more trading days ahead. Let's move past this one and go on to the next.",
+      "zh": "这个亏损单、这个亏钱的仓位的日子。后面还有的是交易日。我们就翻过这一页，继续往下一个走。"
+    },
+    {
+      "i": 109,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "42:02",
+      "en": "One of the reasons I'm addicted to systems trading is that I don't need to have that conversation with myself as to who's right or not or whether I'm smarter than anybody else. The system tells us to get out and we follow the system. End of story.",
+      "zh": "我之所以迷上系统化交易（systems trading），原因之一就是我不需要跟自己进行那种对话，去争谁对谁错、或者我是不是比别的任何人都聪明。系统叫我们退出，我们就跟着系统走。就这样，没什么好说的。"
+    },
+    {
+      "i": 110,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "42:15",
+      "en": "Yeah, that makes it easier on that, on that front quite a bit. Yep.",
+      "zh": "是啊，在那一方面，这让它轻松了不少。没错。"
+    },
+    {
+      "i": 111,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "42:21",
+      "en": "You mentioned that you were too stubborn to get out of the trade psychology of trading and I want to move into the recruiting part. My understanding, Corey, is that if I remember that correctly from our pre call, you're not currently trading anymore. You're much more focused on running the business, recruiting people and teaching them how to trade. So you freed yourself from looking at the markets, running a book and positions and risk 247 or at least for a big, big part of the day and you have no other people",
+      "zh": "你提到你当时太固执，没能及时退出那笔交易——交易心理。我想转到招募这部分。我的理解是，Cory，如果我没记错我们节目前的通话内容的话，你现在已经不再做交易了。你更多地专注于经营公司、招募人、教他们怎么交易。所以你把自己从盯市场、运营账簿、仓位和风险这种全天候、或者至少一天里很大一部分时间里解放了出来，而且你现在让其他人来"
+    },
+    {
+      "i": 112,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "42:51",
+      "en": "to it. Tell us a bit about how that works at GBE and why you've changed that recruiting process so that you're now focusing on getting motivated and hungry young, aspiring traders into the firm, as opposed to the veterans and experienced traders that obviously demand a bigger paycheck and have different ambitions.",
+      "zh": "接手这件事。给我们讲讲这在 GBE 是怎么运作的，以及你们为什么改变了那个招募流程，好让你们现在专注于把有动力、有闯劲、有抱负的年轻交易员招进公司，而不是那些显然要求更高薪水、也有不同抱负的老将和有经验的交易员。"
+    },
+    {
+      "i": 113,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "43:16",
+      "en": "So how does it work? That's a good question. When I look back on the past couple of years",
+      "zh": "那这是怎么运作的？这是个好问题。当我回顾过去这几年"
+    },
+    {
+      "i": 114,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "43:25",
+      "en": "and this whole process, it's been hugely gratifying, but at the same time infuriating at times because I've been coincidentally seeing the market really, really well and trying to teach young people what I'm seeing and when they should and shouldn't be executing. So we came to this insight just over three years ago",
+      "zh": "以及这整个过程，它极其令人欣慰，但同时又时不时令人抓狂，因为我恰好把市场看得非常、非常清楚，还要努力去教年轻人我看到的东西、以及他们什么时候该执行、什么时候不该执行。所以我们是刚刚三年多以前得到这个洞见的，"
+    },
+    {
+      "i": 115,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "43:56",
+      "en": "and we were originally actually inspired by our partner firm in the U.S. greenwich Commodities, which trades in the same markets, but trades financial transmission rights. That would be an entire other podcast to describe that craziness.",
+      "zh": "而且我们最初其实是受到我们在美国的合作公司 Greenwich Commodities 的启发，它在同样的市场里交易，但交易的是金融输电权（financial transmission rights，FTR）。要描述那种疯狂，够做整整另一期播客了。"
+    },
+    {
+      "i": 116,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "44:13",
+      "en": "But they had been quite successful in, in recruiting interns",
+      "zh": "但他们在招募实习生方面一直相当成功，"
+    },
+    {
+      "i": 117,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "44:20",
+      "en": "and teaching them, developing them, progressing them through internship into analysts and then associate traders and then full time traders after that. So we got inspired that it could be done in the first place. The other thing that happened is, I mean, we, Jerry and myself, we looked at each other and a little bit too late, but not too, too late, and discovered, you know, we're old.",
+      "zh": "教他们、培养他们，让他们从实习生一路晋升到分析师，然后到助理交易员（associate traders），再到全职交易员。所以我们受到的启发是：这件事首先是可以做成的。发生的另一件事是，我是说，我和 Jerry，我们俩互相看了看——有点太晚了，但还不算太太晚——然后发现，你知道，我们老了。"
+    },
+    {
+      "i": 118,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "44:51",
+      "en": "You know, I'm, I'm 46 at this point, but for, for a trader, that's pretty old. And we hadn't done a great job of, of developing our own tacit knowledge in these markets into another generation of traders. And so like you mentioned in the opening, traditionally we'd been working with more senior traders and then offering them a platform to apply their craft, and not only apply their craft, but have a, you know, 100% certainty over their compensation,",
+      "zh": "你知道，我现在 46 岁，但对一个交易员来说，这已经算相当老了。而且我们在把自己在这些市场里的隐性知识（tacit knowledge）传承给下一代交易员这件事上，做得并不好。所以就像你开场时提到的，传统上我们一直和更资深的交易员合作，然后给他们提供一个平台去施展他们的手艺，不仅是施展手艺，还能对自己的薪酬有 100% 的确定性，"
+    },
+    {
+      "i": 119,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "45:32",
+      "en": "which is a big question mark still in a lot of the bigger firms where, you know, bonuses are still very discretionary. And as a trader, one of your biggest stresses is after you wheel through all the pain of having a great year in the first place, am I actually going to get paid on this thing? So that's, that's one piece of the equation we wanted to just eliminate and still eliminate as a part of our strategy and culture, really. So anyway, we decided to really get serious about trying to pass along our knowledge",
+      "zh": "而在很多更大的公司里，这仍然是个大问号，你知道，奖金仍然非常靠自由裁量（discretionary）。而作为一名交易员，你最大的压力之一就是：在你熬过了做出一个漂亮年份的所有痛苦之后，我到底能不能真的拿到这笔钱？所以这是我们想要直接消除的一块，而且至今仍要把它消除掉，作为我们战略和文化的一部分。总之，我们决定真正认真地着手去传承我们的知识"
+    },
+    {
+      "i": 120,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "46:14",
+      "en": "and our way of trading. I guess the other insight that we had",
+      "zh": "以及我们的交易方式。我想我们拥有的另一个洞见是，"
+    },
+    {
+      "i": 121,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "46:21",
+      "en": "was we weren't really that confident that other more senior firms or established firms were recruiting well in the first place. And so if we continued on with our previous strategy, it would be depending on all those other firms recruiting people into the industry in the first place. So we felt like we could tell the story of power trading and why it's so compelling. And then also the story of YGPE is compelling and a great place to learn.",
+      "zh": "我们其实并不那么有信心，觉得其它那些更资深的公司或成熟公司一开始就把招募做得很好。所以如果我们继续沿用之前的策略，那就要依赖于所有那些其它公司先把人招进这个行业。于是我们觉得，我们能够讲好电力交易的故事、讲清楚它为什么这么有吸引力，也能讲好 GBE 为什么有吸引力、为什么是个学习的好地方这样的故事。"
+    },
+    {
+      "i": 122,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "46:54",
+      "en": "And I think that thesis has been validated now that we're kind of three years into this. So those are kind of the fundamental insights. The other thing that was happening that we felt would be kind of in our way or would help support the view was particularly right at that time. We felt like we were getting into this inflection point that we would have gone through when we were coming up in that we used to demonstrate our mastery of Excel and our seniors used to think that we were wizards. And now we're in a period",
+      "zh": "而且我觉得，如今我们做这件事差不多三年了，这个论点已经得到了验证。所以这些大致就是那些根本性的洞见。当时正在发生的另一件事，我们觉得它要么会挡我们的路、要么会帮助支撑这个观点，尤其是在那个时候——我们觉得我们正在进入这样一个拐点，就像我们自己成长起来时经历过的那样：那时我们靠展示自己精通 Excel，让前辈们觉得我们是巫师。而现在我们正处在一个时期，"
+    },
+    {
+      "i": 123,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "47:33",
+      "en": "where these young people under 25 and what they can do with LLMs is extraordinary. Now, do they still need an extraordinary or a high amount of context that sits within the tacit knowledge of firms? Absolutely right. It's not like you can just give a young person a bunch of capital and say, go make money in power markets.",
+      "zh": "这些 25 岁以下的年轻人，他们用大语言模型（LLM）能做到的事情非同寻常。那么，他们是否仍然需要大量存在于公司隐性知识之中的背景（context）？绝对需要。这不是说你可以直接给一个年轻人一堆资本，然后说：去电力市场里赚钱吧。"
+    },
+    {
+      "i": 124,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "47:57",
+      "en": "No, you still need to know and bully the LLMs into the right answer.",
+      "zh": "不行，你仍然需要懂行，并且把 LLM“逼”出正确的答案来。"
+    },
+    {
+      "i": 125,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "48:03",
+      "en": "But the speed at which models and tools can be turned around has been continuously surprising to me. And I would say just the seriousness in which this cohort of young people takes their craft and takes the work. We've been very impressed by.",
+      "zh": "但模型和工具能够被迭代出来的速度，一直让我感到惊讶。而且我会说，这一批年轻人对待自己手艺、对待工作的那份认真，让我们印象深刻。"
+    },
+    {
+      "i": 126,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "48:27",
+      "en": "The. Maybe that's the wrong word, average recruiter, average analyst that you're who are getting on board. Do they need to have a fascination for the power markets or are you more looking like, yeah, there's a person that just wants to be a trader, whether that equities or bonds or currencies, trading. Like somebody that kind of has an interest in markets and you take it from there.",
+      "zh": "那个……也许我用错词了。你们招进来的那些普通的应聘者、普通的分析师，他们需要对电力市场有一种着迷吗？还是说你们更多是在找那种——是啊，有个人就是想当交易员，无论是股票、债券还是外汇交易。就是那种对市场有点兴趣的人，然后你们从这里开始带。"
+    },
+    {
+      "i": 127,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "48:51",
+      "en": "Maybe they should know what a bit of an offer is. And the rest you're trying to teach them or you're looking for a little bit more in these people.",
+      "zh": "也许他们应该稍微懂一点什么是“报价（offer）”。剩下的你们去教他们，或者说你们在这些人身上要找的东西还要更多一点。"
+    },
+    {
+      "i": 128,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "48:59",
+      "en": "We are looking for individuals that have a demonstrated passion for trading. They can feel it in their soul that they want to trade",
+      "zh": "我们要找的是那些已经展现出对交易的热情的个体。他们能在灵魂深处感受到自己想要交易，"
+    },
+    {
+      "i": 129,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "49:11",
+      "en": "and they just don't know power exists. And really they're agnostic into how they want to apply their craft. They just know they want to trade. And oftentimes that gets expressed in trading their own account, building their own models, being at clubs, in school,",
+      "zh": "只是他们此前不知道电力这个东西存在。而且实际上，对于自己想怎么施展这门手艺，他们是无所谓、不设限的（agnostic）。他们只是知道自己想交易。而这种欲望常常表现为：交易自己的账户、搭建自己的模型、参加学校里的社团、"
+    },
+    {
+      "i": 130,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "49:34",
+      "en": "sports gambling, online poker, online gambling. So there's just an inherent drive and will to make money and to put on risk. And from there that's, in my view, the unteachable part is whether somebody wants it badly enough. And that's very much where. That's my own bias. That's where I kind of. That's my background. And then for somebody that has that kind of will, they'll go and learn the fundamentals, provided that they've got enough context and where to go and where and how they can learn that stuff, they'll",
+      "zh": "体育博彩、在线扑克、在线赌博。所以就有一种与生俱来的驱动力和意愿，去赚钱、去承担风险。而从那里开始，在我看来，那部分教不会的东西就是：一个人是否足够渴望它。而这很大程度上正是——这是我自己的偏好。这正是我某种程度上——这是我的背景所在。然后对于一个有那种意愿的人来说，他们会去学基本面，前提是他们有足够的背景、知道去哪儿学、以及怎么学那些东西，他们就会"
+    },
+    {
+      "i": 131,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "50:16",
+      "en": "go and do the work. And we've seen this time and time again with our most talented young people.",
+      "zh": "去下这个功夫。而在我们最有才华的那些年轻人身上，我们一次又一次地看到了这一点。"
+    },
+    {
+      "i": 132,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "50:24",
+      "en": "How long does that process take? So you have that person that has demonstrated a will to trade. That's what they want to do, that's their passion. But then they arrive at tbe. Maybe they know nothing or close to nothing about the power markets. What, what's the time period like? I mean, is this kind of like a three year or five year, one year educational process and then they go live or how long does it take?",
+      "zh": "这个过程要花多长时间？所以你有了那个已经展现出交易意愿的人。那是他们想做的事，那是他们的热情所在。但他们来到 GBE 时，也许对电力市场一无所知，或者几乎一无所知。那么这个时间段大概是什么样？我是说，这是一个三年、五年，还是一年的培养过程，然后他们才真正上线交易，还是说这需要多久？"
+    },
+    {
+      "i": 133,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "50:50",
+      "en": "It's a lot shorter than I would have thought. Okay. I think when we first started off, our mental model was that it probably would take a young intern and analyst about a year.",
+      "zh": "它比我原本以为的要短得多。好。我想我们刚开始的时候，我们的思维模型是，一个年轻的实习生和分析师大概需要一年时间。"
+    },
+    {
+      "i": 134,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "51:04",
+      "en": "Like an entire full cycle to go through and probably longer, actually. Probably like 16 to 18 months. So not like see an entire season, see an entire year. So see the winter season, the shoulder season, see the summer season of just analysis before they would be kind of even ready to make calls and be useful to the firm. But instead, what we've seen is in our most recent cases, that has been condensed down to six to eight months.",
+      "zh": "也就是走完一整个完整的周期，实际上可能还要更长。大概像 16 到 18 个月。所以不是看一整个季节、看一整个年份。而是要看过冬季、过渡季（shoulder season）、夏季，只做分析，然后他们才差不多准备好去做出判断、对公司有用。但相反，我们在最近的这些案例里看到的是，这已经被压缩到了六到八个月。"
+    },
+    {
+      "i": 135,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "51:40",
+      "en": "Wow. I'd say that's pretty fast. I think so too. But at the same time, we feel like we've seen enough in the work and the understanding of what's going on",
+      "zh": "哇。我会说那是相当快了。我也这么觉得。但与此同时，我们觉得，在他们的工作、以及他们对正在发生什么的理解上，我们已经看到了足够多的东西，"
+    },
+    {
+      "i": 136,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "51:59",
+      "en": "for these individuals to deploy capital. Yeah, we've been quite impressed and yeah, we're going to keep going.",
+      "zh": "足以让这些人去部署资本了。是啊，我们印象相当深刻，而且是的，我们会继续这么做下去。"
+    },
+    {
+      "i": 137,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "52:11",
+      "en": "So to the young and aspiring traders out there listening to us, go to the GBA website, give Corey a call. I assume this recruiting process is still ongoing. If you find the right.",
+      "zh": "所以，对正在听我们节目、那些年轻而有抱负的交易员们，去 GBE 的网站，给 Cory 打个电话。我猜这个招募过程还在继续。如果你们找到了对的人的话。"
+    },
+    {
+      "i": 138,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "52:23",
+      "en": "It's still ongoing. It's still ongoing. I say this pretty often depending on in a number of different circumstances, but Jerry and I are quite rational, greedy business people. And when something's working, we're going to keep doing it. And it's working, so we're going to keep doing it.",
+      "zh": "它还在继续。还在继续。这句话我在很多不同的场合都挺常说的：我和 Jerry 是相当理性、贪婪的生意人。当某件事奏效的时候，我们就会一直做下去。而它现在奏效，所以我们会一直做下去。"
+    },
+    {
+      "i": 139,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "52:42",
+      "en": "Good. As we're closing this down, Corey, what's your outlook for the power markets? I mean, yeah, I'm not sure if it makes sense to talk about prices, but more like, I mean, I guess these markets will grow. We're going to electrify our societies. We're going to be More dependent on power for AI, for, you know, EVs, for the,",
+      "zh": "很好。在我们收尾的时候，Cory，你对电力市场的展望是什么？我是说，是啊，我不确定谈论价格有没有意义，但更多的是——我是说，我想这些市场会增长。我们要让我们的社会电气化。我们要在 AI、电动车（EV）、"
+    },
+    {
+      "i": 140,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "53:07",
+      "en": "for the ecological transition that we're all working on. I mean, do you foresee that these markets will become larger, more liquid, more volume, more participants, more competitive, which wouldn't necessarily be a good thing for the alpha generation piece of your business? Or would you rather think, no, that's kind of like it's still too much of a niche opaque stuff, too complex and a lot of people will therefore stay out of it?",
+      "zh": "以及我们大家正在努力的生态转型上，更多地依赖电力。我是说，你预见到这些市场会变得更大、流动性更强、成交量更多、参与者更多、竞争更激烈吗？——而这对你生意里产生 alpha 的那部分未必是件好事。还是说你更愿意认为，不，这东西还是太小众、太不透明、太复杂，因此很多人会敬而远之、待在外面？"
+    },
+    {
+      "i": 141,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "53:33",
+      "en": "I think both of those scenarios are possible. Okay,. Going back to, even back 10 years ago, I would have thought it would have been inevitable over time that the market would have grown and we would have seen more and more participants enter into the arena. And we haven't necessarily seen that it's been a little bit more of a slower growth. But we can have a conversation around how bullish we want to be about AI, but the direction is still up and to the right. It's just a matter of how steep the",
+      "zh": "我觉得这两种情形都有可能。好。即便回到 10 年前，我原本会以为，随着时间推移，市场增长、我们会看到越来越多的参与者进入这个竞技场，这是不可避免的。但我们并不一定看到了这一点，它更多是一种偏慢的增长。不过，关于我们对 AI 想有多看多，我们可以好好聊聊，但方向仍然是向右上方的。这只是这条曲线有多陡峭"
+    },
+    {
+      "i": 142,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "54:08",
+      "en": "curve is. So the data center build out is still going to happen.",
+      "zh": "的问题。所以数据中心的建设仍然会发生。"
+    },
+    {
+      "i": 143,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "54:13",
+      "en": "Electrification of vehicles is still going to happen. Electrification of heat and buildings and further additions of air conditioning, that's still going to happen. It's just a matter of again, what are the time periods and the speed in which it's going to actually happen. But I think largely speaking, there's not a better commodity to be in. I mean, I'm pretty biased for the next 10 years. And there'll be cycles for sure. There'll be some stint of oversupply",
+      "zh": "车辆的电气化仍然会发生。供热和建筑的电气化、以及空调的进一步增加，那仍然会发生。这同样只是时间段和它实际发生的速度的问题。但我觉得大体上说，没有比这更好的大宗商品可以置身其中了。我是说，未来 10 年我相当有偏好（biased）。而且肯定会有周期。会有一段时间的供给过剩，"
+    },
+    {
+      "i": 144,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "54:49",
+      "en": "and then probably some stint of undersupply again in the same way that commodities have always been. But as you said, it's pretty impossible to imagine any kind of future human civilization with less electricity.",
+      "zh": "然后很可能又会有一段时间的供给不足，就像大宗商品一直以来那样。但正如你说的，几乎无法想象任何一种用电更少的未来人类文明。"
+    },
+    {
+      "i": 145,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "55:06",
+      "en": "I mean, it goes through these cycles here in Europe too. Sometimes you have a bank offering a product for retail investors to invest. And I think if this I might be completely wrong, but it may have been Barclays or Citibank and maybe that's 20 years ago they came up with an index kind of like or an ETN tracking US power markets.",
+      "zh": "我是说，在欧洲这边也会经历这些周期。有时候你会有一家银行面向散户投资者提供一个投资产品。而且我想，这一点我可能完全记错了，但那可能是 Barclays 或者 Citibank，大概是 20 年前，他们推出了一个类似指数、或者追踪美国电力市场的 ETN。"
+    },
+    {
+      "i": 146,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "55:25",
+      "en": "And I think more recently an ETF came out doing the same thing. I'm not entirely sure. So it kind of goes to show, yeah, there's like if things in the news, AI, power, demand, lo and behold, sooner than later, there's going to be a product, most likely an ETF form coming to the market so that everybody can participate in it. But then it's more like tracking along power exposure, which",
+      "zh": "而且我想最近又有一只 ETF 出来做同样的事情。我不完全确定。所以这多少说明了，是啊，如果某样东西上了新闻——AI、电力、需求——瞧吧，迟早会有一个产品、很可能是 ETF 的形式，来到市场上，让每个人都能参与其中。但那样它更多是追踪一篮子电力敞口，而这"
+    },
+    {
+      "i": 147,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "55:50",
+      "en": "may not necessarily be the best thing to always be long, that stuff. Given that you've explained to us that there is a risk premium in there and most of the time you like to be short.",
+      "zh": "未必是最好的东西去一直做多。既然你已经向我们解释了，那里面存在一个风险溢价（risk premium），而且大部分时间你都喜欢做空。"
+    },
+    {
+      "i": 148,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "56:00",
+      "en": "Unless you get into this new paradigm shift, which I feel like we might be halfway into. I guess the argument against a huge proliferation or expansion of the industry writ large would be",
+      "zh": "除非你进入这个新的范式转变，而我觉得我们可能已经走到一半了。我想，反对整个行业大规模扩散或扩张的那个论点是，"
+    },
+    {
+      "i": 149,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "56:15",
+      "en": "there hasn't been a market design that has really solved the physics and economics problem. So if that's the case, then you can imagine a world where pockets of power markets exist kind of throughout the world, and each of those pockets have their own idiosyncrasies, different rules, different politics, and then they stay reasonably insular and very niche. And that's another scenario that's entirely possible. But in either direction, I'm comfortable. I think",
+      "zh": "至今还没有一种市场设计真正解决了物理学和经济学的问题。所以如果是这样的话，你就能想象这样一个世界：世界各地零散地存在一些电力市场的小块（pockets），而每一块都有它们自己的特质、不同的规则、不同的政治，然后它们保持相对封闭、非常小众。那是另一种完全可能的情形。但无论朝哪个方向，我都很坦然。我想"
+    },
+    {
+      "i": 150,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "56:54",
+      "en": "we'll be fine regardless. Great, Corey. I think this is a great time to bring the conversation to a close. It's about an hour and I hope that we have not overwhelmed the audience. I mean, that has been absolutely a more niche topic than usual, but nevertheless I think extremely relevant and personally for me, super interesting. I think these markets are fascinating.",
+      "zh": "不管怎样我们都会没事的。太好了，Cory。我觉得现在是给这场对话收尾的好时机。差不多一个小时了，我希望我们没有把听众给整懵。我是说，这绝对是一个比平常更小众的话题，但尽管如此，我认为它极其相关，而且对我个人来说超级有意思。我觉得这些市场非常迷人。"
+    },
+    {
+      "i": 151,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "57:17",
+      "en": "So thanks Corey, for coming on the podcast today and telling us a bit about yourself gbe how you trade, how you recruit. I thought that was really cool.",
+      "zh": "所以谢谢你，Cory，今天来上这个播客，跟我们讲讲你自己、GBE、你们怎么交易、怎么招人。我觉得那真的非常酷。"
+    },
+    {
+      "i": 152,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "57:29",
+      "en": "And as usual for our listeners, I'll put some of the most important takeaways into our show notes and if you're interested in learning more about Corey's business, you will find him on the web. Should be pretty easy. And if you have any questions, you can of course always send us an email to infobtraders unplugged.com and we'll pick it up from there. So great, Corey. Thank you.",
+      "zh": "和往常一样，为了我们的听众，我会把一些最重要的要点放进我们的节目备注（show notes）里；如果你有兴趣了解更多关于 Cory 生意的信息，你可以在网上找到他，应该很容易。如果你有任何问题，当然随时可以给我们发邮件到 info@toptradersunplugged.com，我们会从那里接着聊。太好了，Cory。谢谢你。"
+    },
+    {
+      "i": 153,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "57:51",
+      "en": "Thank you. My pleasure. Thanks for listening to Top Traders Unplugged. If you feel you learned something of value from today's episode, the best way to stay updated is to go on over to your favorite podcast platform and follow the show so that you'll be sure to get the all all the new episodes as they're released. We have some amazing guests lined up for you and to ensure our show continues to grow, please leave us an honest rating and review. It only takes a minute and",
+      "zh": "谢谢。这是我的荣幸。感谢收听 Top Traders Unplugged。如果你觉得从今天这期节目里学到了有价值的东西，保持更新的最好方式就是去你喜欢的播客平台关注本节目，这样你就一定能在新剧集发布时收到它们。我们为你准备了一些很棒的嘉宾，而为了确保我们的节目持续成长，请给我们留下一个真诚的评分和评价。这只需要一分钟，"
+    },
+    {
+      "i": 154,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "58:16",
+      "en": "it's the best way to show us you love the podcast. We'll see you next time on Top Traders Unplugged. This podcast expresses the views of its hosts and the guests appearing on the podcast as of the date of its recording, and such views are subject to change without notice. Top Traders Unplugged do not have any duty or obligation to update update the information contained herein.",
+      "zh": "而且这是向我们表明你喜爱这个播客的最好方式。我们下次在 Top Traders Unplugged 再见。本播客表达的是其主持人以及出现在节目中的嘉宾在录制当天的观点，此类观点可能会在不另行通知的情况下发生变化。Top Traders Unplugged 没有任何义务或责任去更新其中包含的信息。"
+    },
+    {
+      "i": 155,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "58:33",
+      "en": "Furthermore, Top Traders Unplugged make no representation to its accuracy and it shall not be assumed that past investment performance is an indication of future results. Moreover, wherever there is a potential for profit, there is also the possibility of loss. This content is made available for educational purposes only and should not be used for any other purpose. The information contained in this podcast does not constitute and should not be construed as investment advice or an offer to sell or a solicitation",
+      "zh": "此外，Top Traders Unplugged 不对其准确性作出任何陈述，并且不应假定过往的投资业绩就是未来结果的指示。而且，凡是有盈利可能之处，也都有亏损的可能。本内容仅供教育目的提供，不应用于任何其它目的。本播客所含信息不构成、也不应被解释为投资建议，或出售要约或招揽"
+    },
+    {
+      "i": 156,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "58:55",
+      "en": "to buy any securities or related financial instruments in any jurisdiction. Certain information contained herein concerning economic trends and performance is based on or derived from information provided by independent third party sources.",
+      "zh": "在任何司法辖区购买任何证券或相关金融工具的招揽。此处所含关于经济趋势和表现的某些信息，是基于或源自独立第三方来源提供的信息。"
+    },
+    {
+      "i": 157,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "59:05",
+      "en": "Top Traders Unplugged may believe that the sources from which such information are obtained are reliable. However, Top Traders Unplugged cannot guarantee the accuracy of such information and has not independently verified the accuracy or completeness of such information or the assumptions on which such information is based.",
+      "zh": "Top Traders Unplugged 可能相信获取此类信息的来源是可靠的。然而，Top Traders Unplugged 无法保证此类信息的准确性，也没有独立核实此类信息的准确性或完整性，或此类信息所依据的假设。"
+    },
+    {
+      "i": 158,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "59:18",
+      "en": "This podcast, including the information contained herein, may not be reproduced, copied, republished or posted in whole or in part in any form without the prior written consent of Top Traders Unplugged.",
+      "zh": "本播客，包括其中所含信息，未经 Top Traders Unplugged 事先书面同意，不得以任何形式全部或部分复制、拷贝、重新发布或张贴。"
+    }
+  ]
+}

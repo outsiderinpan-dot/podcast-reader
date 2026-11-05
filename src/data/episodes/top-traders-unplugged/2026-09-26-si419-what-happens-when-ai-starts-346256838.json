@@ -1,0 +1,1224 @@
+{
+  "show": "top-traders-unplugged",
+  "kind": "transcript",
+  "id": "346256838",
+  "guid": "3a677105-d9ba-43be-abad-056c057f8879",
+  "slug": "2026-09-26-si419-what-happens-when-ai-starts-346256838",
+  "date": "2026-09-26",
+  "title_en": "SI419: What Happens When AI Starts Building the Portfolio ft. Nick Baltas",
+  "title_zh": "SI419: 当 AI 开始构建投资组合 ft. Nick Baltas",
+  "subtitle_zh": "Nick Baltas 解读用波动率调节趋势的争议，以及 Andrew Ang 用代理式 AI 做资产配置的框架。",
+  "description": "SI419: What Happens When AI Starts Building the Portfolio ft. Nick Baltas",
+  "duration": "65:34",
+  "duration_seconds": 3934,
+  "episode_url": "https://top-traders-unplugged.captivate.fm/episode/si419-what-happens-when-ai-starts-building-the-portfolio-ft-nick-baltas",
+  "audio_url": "https://episodes.captivate.fm/episode/3a677105-d9ba-43be-abad-056c057f8879.mp3",
+  "speakers": {
+    "1": "Alan Dunne（主持）",
+    "2": "Nick Baltas（嘉宾）",
+    "3": "片花/广告（旁白）"
+  },
+  "turn_count": 150,
+  "turns": [
+    {
+      "i": 0,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "00:01",
+      "en": "Welcome to Top Traders Unplugged. In markets success doesn’t with some of the world’s most thoughtful minds in investing, economics, and beyond to understand how they think, how they prepare, and come from predicting what happens next, it comes from being how they decide, and the experiences that shaped how they see the world. No noise, no short-cuts, just real conversations prepared for what you can’t predict. In each episode we go deep to help you think better and invest with confidence.",
+      "zh": "欢迎收听 Top Traders Unplugged。在市场里，成功并不来自于预测接下来会发生什么，而来自于为你无法预测的东西做好准备。在每一期节目中，我们都会与全球投资、经济以及更多领域里最有思想深度的一些头脑深入交流，去理解他们如何思考、如何准备、如何做决策，以及那些塑造了他们看待世界方式的经历。没有噪音，没有捷径，只有真实的对话，帮助你把事情想得更透彻、更有底气地去投资。"
+    },
+    {
+      "i": 1,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "00:36",
+      "en": "Welcome back to Top Traders Unplugged where each week we take the pulse of the markets from the perspective of a rules-based investor. My name is Alan Dunne and this week I'm sitting in for Niels who's away on his travels and I'm delighted to be joined by Nick Baltas. Nick, how are you doing?",
+      "zh": "欢迎回到 Top Traders Unplugged。每周我们都会从一名规则化投资者（rules-based investor）的视角来把脉市场。我叫 Alan Dunne，这周我替 Niels 代班，他出门旅行了。我很高兴这周请到了 Nick Baltas。Nick，你最近怎么样？"
+    },
+    {
+      "i": 2,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "00:51",
+      "en": "I am doing well, Alan. I'm doing well. How are you? Good. I know you've been traveling as well, so there was a bit of tension earlier, whether you going to make it or not, but you're here in good shape.",
+      "zh": "我很好，Alan，挺好的。你呢？——不错。我知道你最近也一直在外面奔波，所以之前还有点悬念，不确定你能不能赶得过来，不过你现在状态挺好地坐在这儿了。"
+    },
+    {
+      "i": 3,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "01:00",
+      "en": "But I'm here. It's been quite a good September, obviously back to school, back to work, it's been very busy - the kids going back to school and my son starts nursing, all that lot. So, it's been a busy month, I must say, but all very good, all very good.",
+      "zh": "反正我是到了。这个九月过得相当不错，显然是开学季、复工季，非常忙——孩子们返校，我儿子也开始上托班，一大堆事。所以不得不说这是很忙的一个月，但一切都很好，非常好。"
+    },
+    {
+      "i": 4,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "01:15",
+      "en": "Good. Yeah, well, it's busy and a positive month for trend following, so that always helps as well. So, everybody in the industry, I'm sure, is in good spirits. But we do always like to kick off with asking our guests what has been on their radar? What has been on your radar in the last number of weeks?",
+      "zh": "好。是啊，很忙，而且对趋势跟踪（trend following）来说是积极的一个月，这也总是有帮助。所以我相信行业里的每个人心情都不错。不过我们每次都习惯先问问嘉宾最近都在关注什么。过去这几周，你关注的是什么？"
+    },
+    {
+      "i": 5,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "01:32",
+      "en": "So, I don't know that it’s something in my radar, but certainly And obviously the background here is the fact that S&P is a cap-weighted the percentage of S&P 500 constituents (so, 500 stocks in the index) that have a negative beta to the index that they belong.",
+      "zh": "这么说吧，我不确定这算不算我一直在盯着的东西，但显然这里的背景是：S&P 是按市值加权（cap-weighted）的，而 S&P 500 成分股（也就是指数里的这 500 只股票）当中，对它们所属指数呈现负 beta（negative beta）的比例……"
+    },
+    {
+      "i": 6,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "01:48",
+      "en": "something that just caught my attention, and I don't think it caught index. The AI dominance is effectively building its own kind So, naturally you would think if I belong to an index, then more just my attention, I think it caught various people's attention likely I have a positive beta to it, partly because I'm part of of mini index within the index and all the rest are becoming less the index, obviously at smaller sizes you would expect that and it was part of a small article on Nifty, a couple of days",
+      "zh": "……这件事刚好引起了我的注意，而且我觉得不只是我，它引起了不少人的注意，它出自几天前 Nifty 上的一篇小文章。显然，AI 的主导地位实际上正在指数内部搭建出它自己的一个小型迷你指数（mini index），而其余的成分则变得越来越不那么与之相关。所以自然你会想，如果我属于某个指数，那我大概率对它是有正 beta 的，部分原因就是我是这个指数的一部分；当然在更小的权重上，你会预期这种关联变得更间接……"
+    },
+    {
+      "i": 7,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "02:22",
+      "en": "this will become less direct, but also because there's a significant correlated to it. So, this clustering and concentration is basically beta factor that is driving assets and stocks in this particular ago. This comes from GS, from Christian Mueller-Glissmann. He's case. So, using like a three-month calculation point in time, it's 45%. So, about half of the stocks in S&P 500 have a negative causing this effect. But again, that in itself is quite a running our kind of multi-asset strategy on the research",
+      "zh": "……但也因为有一个显著的 beta 因子，在驱动这个特定情形下的这些资产和股票。所以用某个时点的三个月口径来算，这个数字是 45%。也就是说，S&P 500 里大约有一半的股票对指数呈现负 beta，我觉得这简直令人震惊。而这种聚类和集中，基本上正在造成这样的效应。这来自 GS，来自 Christian Mueller-Glissmann，他在我们研究端跑那种多资产策略，他放出了一张非常简单、但你一看到就很有冲击力的图。我知道你看过这些图。"
+    },
+    {
+      "i": 8,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "02:55",
+      "en": "beta to the index which I think is just mind-blowing. Last side, and he put out a chart which is very, very simple but actually striking image once you see it. I know you've seen the pictures. time that we had this situation was in.com, but at the time the number was just a tad less than 20%. It's now almost 45%.",
+      "zh": "上一次我们见到这种情况还是在互联网泡沫（.com）时期，但那时候这个数字还只是略低于 20%，现在几乎到了 45%，非常惊人。它显示出来的，抱歉，它基本上显示出……我看过这些图，所以你能感同身受，对吧？"
+    },
+    {
+      "i": 9,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "03:19",
+      "en": "quite striking. So, what it shows is that, sorry, it shows basically I've seen the pictures. So, you can relate, right? Yes, I mean, it shows a dramatic… well, what looks like an acceleration on the chart. I mean people can check it out. It was in the FT, so you'll see it online or check out Goldman's research. I mean is energy probably is driving it to an extent as well, I guess?",
+      "zh": "是的，我的意思是，它显示出一种剧烈的……嗯，看起来像是图上的一种加速。大家也可以自己去查，它登在了 FT 上，你在网上能看到，或者去看 Goldman 的研究。我是说，能源在一定程度上可能也是驱动因素之一，我猜？"
+    },
+    {
+      "i": 10,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "03:41",
+      "en": "It could be. I mean there is not too much kind of discussion in which this was kind of projected. But that, in itself, even the actual paper from Grishman on that part aside from the fact that the market is getting concentrated and there's a lot of out of context, is quite a chart. So, not necessarily on my discussion as to whether bonds are defensive in this current environment and obviously this decoupling in the equity space is creating opportunities radar but let's say something that caught my attention in the last",
+      "zh": "有可能。我是说，关于这方面并没有太多讨论，当初就是这样预测出来的。但即便如此，抛开市场正在变得集中这个事实不谈，光是 Grishman 那份实际的论文本身，单独拿出来看，就是相当有冲击力的一张图。所以，不一定是在我的关注雷达上，但可以说是过去这几天里引起了我注意的一件事。至于当前环境下债券到底算不算防御性资产的讨论，以及显然股票领域里这种脱钩（decoupling）正在创造机会……"
+    },
+    {
+      "i": 11,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "04:02",
+      "en": "for dispersion. Some people talk about going long correlation, and so on, and so forth. So, that's kind of the background under couple of days.",
+      "zh": "……去创造分散化（dispersion）的机会。有些人谈论去做多相关性（going long correlation）等等，诸如此类。所以，这大致就是过去这几天里的背景。"
+    },
+    {
+      "i": 12,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "04:13",
+      "en": "So, noteworthy for sure? Yes. Well on my radar, I mean, probably similar in the sense of more noteworthy I would say… I've just view. I mean it is striking from my perspective. I mean, I do of tendency amongst analysts to view the fundamentals and then been following the debate in markets and amongst analysts about think the fiscal story is there in the background but at the perspective on yields? Do you lie in bed at night wondering why the market reaction as being very much linear and proportionate",
+      "zh": "所以，肯定值得关注吧？——是的。嗯，说到我自己的关注点，可能在某种意义上类似，但我会说更值得一提。我一直在跟进市场里以及分析师之间关于收益率的争论。你会不会半夜躺在床上琢磨，为什么收益率一直在涨？还是说你就照表面接受它在上行？……我觉得从我的角度看这很惊人。我确实认为财政的故事存在于背景之中，但与此同时，真正让我吃惊的是分析师有一种倾向：去看基本面，然后市场的反应却是非常线性、成比例的，而不把市场看作复杂的适应性系统（complex adaptive systems）。"
+    },
+    {
+      "i": 13,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "04:44",
+      "en": "the rise in yields. Obviously, everybody's been talking about the same time what's really struck me, in the last couple of days, just as opposed to markets are complex adaptive systems. A given bond market, the bond markets around the world for the last number looking at it, is the big repricing at the short end. Like change in the fundamentals at one time can have a big impact, other of weeks, but it just really strikes me it’s quite heated debate, the two-year yield has gone up 75 bips, or maybe a percent, at least",
+      "zh": "收益率的上升。显然，过去几周大家一直在谈论债市、谈论全球各地的债券市场，但这真的很让我吃惊：争论相当激烈，短期端出现了大幅重定价（repricing）。比如两年期收益率涨了 75 个基点（bps），也许有一个百分点了。基本面在某个时点的一次变化，可能带来很大的影响，而在另一些时候影响又很小。市场的仓位很重要（我们都知道这点），市场的动态、大家有没有触及止损线等等，所有这些似乎都被抹去了，人们试图找到那种非常线性的因果关系，而我认为这并不存在。"
+    },
+    {
+      "i": 14,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "05:21",
+      "en": "at times, between analysts as to what's driving this rise in yields, times can have a small impact. Marketing position matters (as we yields are rising or do you just take it as face value that they 75 bips, I would say, since the middle of August. So, there's as to whether it's… Is it economic growth, is it fiscal concerns, all know), the market dynamics, do people have barriers been this… And also, at the short end, around the world has repriced.",
+      "zh": "有时候，分析师之间会争论到底是什么在推动这轮收益率上升，究竟是因为……是经济增长，还是财政担忧？收益率在涨，还是说你就照表面接受它们在上行？我会说，自 8 月中旬以来涨了 75 个基点。而且短期端，全球范围内都在重定价。市场的仓位很重要（我们都知道这点），市场的动态、大家有没有触及止损线等等。"
+    },
+    {
+      "i": 15,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "05:48",
+      "en": "is it that people expect rates to be higher on average over time? being hit, hedges, etc., all of that seems to get removed and So, it's as if everybody now has taken a much more bullish view Is it the competition for capital and is that being driven people are trying to find this very linear cause and effect relationship more by budget deficits or the AI spend? Is it the debasement credibility on global growth or else sees the conflict in Iran staying on much",
+      "zh": "是不是因为人们预期利率长期平均会更高？是不是资本竞争，而这更多是由预算赤字还是由 AI 支出驱动的？是货币贬值（debasement）吗？所以，仿佛现在所有人都对全球增长采取了更乐观的看法，或者认为伊朗的冲突会持续更久。……大家有没有触及止损线、对冲等等，所有这些似乎都被抹去了，人们试图找到那种非常线性的因果关系。"
+    },
+    {
+      "i": 16,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "06:18",
+      "en": "are trending higher? which I don't think exists. But I'm curious to hear what's your longer. But I suppose my perspective on this is this kind issue? So, all of these things, and everybody has their own I mean I'm looking into my mortgage at the minimum and I'm trying seen some kind of multi-year or perhaps decade records in the quants would be extremely happy about, on prediction, and so and I wouldn't claim any particular expertise in that space.",
+      "zh": "……在上行？我并不认为那种（线性因果）存在。但我想听听你的看法，你的观点是什么？所以，所有这些因素，每个人都有自己的判断。我至少在盯着自己的房贷，试着去预测，我们看到某种多年、甚至可能是十年一遇的记录，量化投资者（quants）会为此非常高兴，诸如此类。我可不敢说自己在那个领域有什么特别的专长。"
+    },
+    {
+      "i": 17,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "06:46",
+      "en": "US in the UK as well. And even six months back… Is it six months? The one thing I would say, and that was like a quote I heard recently on, and so forth. But I think it's painting the picture of how Maybe six months back analysts were projecting rate cuts. For those to project what's going to happen the next time we have to do ,and I cannot recall exactly where this came from, but it was complex markets are today. Whether we see geopolitical tensions that have forgotten, that this was the case that was back in Feb",
+      "zh": "美国、英国也是如此。甚至就在六个月前……是六个月吗？也许六个月前分析师还在预测降息。对于那些已经忘记的人，这事就发生在 2 月，所以就在不久之前，市场的预测还是针对房贷利率会怎么走，诸如此类。我要说的有一点，那是我最近听到的一句话，记不清确切出处了。我觉得这描绘出了当今市场有多么复杂。无论我们看到地缘政治紧张局势在我们前面升温，还是它带来通胀影响，还是通胀更多是对某种东西的反应……"
+    },
+    {
+      "i": 18,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "07:23",
+      "en": "kind of running ahead of us, whether that would have inflation more about, it is very hard to predict not only because prediction or January. So, it's not that long ago that the projection was the mortgage. But I guess jokes aside, I mean some of them implications, whether the inflation is more of a reaction to is hard, but sometimes you cannot even tell today's situation.",
+      "zh": "……试着去预测下次我们要做决策时会发生什么。玩笑归玩笑，我是说其中一些含义是：预测之所以非常难，不仅因为预测本身就难，有时候你甚至说不清今天到底是什么状况。"
+    },
+    {
+      "i": 19,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "07:41",
+      "en": "that we're entering into kind of this normalization stage whereby To your point, it is a struggle to understand, point in central banks will start kind of easing and all we're seeing now it or the cause of it. At the minimum, I think rates have been is actually yields reaching those kind of levels that we haven't time, what is actually happening in the market, let alone also have been quite substantial. To your point we've the strongest contributor to trend following strategies.",
+      "zh": "……说我们正进入某种正常化（normalization）阶段，央行会开始宽松，可我们现在看到的却是收益率达到了我们一段时间以来没见过的水平。正如你说的，要去理解某个时点市场到底在发生什么、更别说其成因，是很吃力的。至少在我看来，利率一直是趋势跟踪（trend following）策略最强的贡献来源，而且这一点也相当显著。"
+    },
+    {
+      "i": 20,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "08:16",
+      "en": "seen for some time. I don't have a strong view, frankly speaking, predicting the markets. Obviously, that was not a quote that Absolutely. Yeah. I would imagine most programs will be short and benefiting quite substantially month-to-date and year-to-date.",
+      "zh": "……一段时间以来所没见过的。坦白说，我对预测市场没有很强的观点。显然那不是一句……没错，是的。我想大多数程序化策略现在都会是空头，并且在本月至今和年初至今都获益相当可观。"
+    },
+    {
+      "i": 21,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "08:29",
+      "en": "Yeah, well that's a good segue. We do always like to give see huge value in trend following as an element in a portfolio. you say certainly this month looking, certainly, across the managers about 3.7% as well. And year to date both SocGen Trend and SocGen the value of it as well as also, in August, we had more long Because if you think about it, if you've got a 60/40 portfolio and that we allocate to it very much, I'd say 80% of the cases concentrated for you guys as well. I think you were saying performance wise?",
+      "zh": "是啊，这正好是个不错的过渡。我们总是喜欢请各位管理人做一个业绩更新。你说这个月肯定……跨管理人来看大约 3.7%，年初至今 SocGen Trend 和 SocGen CTA 都是如此。我们非常看重趋势跟踪作为组合中一个组成部分的价值，可以说在 80% 的情况下我们都会配置它。因为你想，如果你有一个 60/40 的组合，把其中一些配置拿出来加到趋势跟踪上……8 月我们的多头也更集中。你们那边这个月表现如何？"
+    },
+    {
+      "i": 22,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "09:14",
+      "en": "CTA up about 15.2%, 15.25%. They're pretty much neck-and-neck. you've taken out some of the allocation and added it to trend positions in commodities that were contributing. But certainly, in fixed income short positions. And at the long end as our performance update and as you say it is a good month for trend And as we were chatting, just before we started recording, that following, that trend following exposure now is short bonds.",
+      "zh": "……CTA 上涨约 15.2%、15.25%，两者几乎并驾齐驱。你把一部分配置拿出来加到趋势跟踪上，之前是那些在贡献收益的商品多头头寸，当然现在则是固定收益的空头头寸。在长端，作为业绩更新，正如你说的，这对趋势跟踪是很好的一个月。就在开始录音前我们聊到，如今这种趋势跟踪的敞口是做空债券。"
+    },
+    {
+      "i": 23,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "09:37",
+      "en": "this is where you're seeing that kind of dynamic element of trend well, obviously, as I mentioned, there has been a very So that bond short is basically taking down your core long monthly number probably understates it a little bit because big repricing. So, interest rate futures, 2-year yields have position in bonds that you would have had. And by adding trend following exposure; what it can do to a multi-asset portfolio, it's up to the 23rd and yesterday was also a pretty good",
+      "zh": "这正是你看到趋势跟踪那种动态元素的地方。显然，正如我提到的，出现了一次很大的重定价（repricing）。所以利率期货、两年期收益率大幅波动，这个月度数字可能还略微低估了，因为截止到 23 号，昨天也相当不错。所以那个债券空头基本上在压低你本来会持有的债券核心多头。而通过加入趋势跟踪的敞口，它对一个多资产组合能做到的，我觉得非常有价值。"
+    },
+    {
+      "i": 24,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "10:11",
+      "en": "had a big move as well as I suppose the more publicized move to your portfolio you'd probably be net short bonds in this which I think is very valuable. It's been a good month following. SocGen Trend up about 3.7% and SocGen CTA Index up in bond markets. And I think this is often really where people move up. So, that's the kind of environment where you really see day. So, [it’s been a] very good month, very good year. And as I mean it's been a very good month, as you say. I think it's one",
+      "zh": "也有大幅波动，我想还有那个更被公开报道的债市上涨。所以你会看到，如果把趋势跟踪加入你的组合，你现在很可能是净做空债券的，我觉得这非常有价值。这是很好的一个月，SocGen Trend 涨约 3.7%，SocGen CTA 指数涨约……非常好的一个月、非常好的一年。我想人们往往正是在这里真正看到那种动态元素，市场也出现了上涨。"
+    },
+    {
+      "i": 25,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "10:36",
+      "en": "I think January was very strong this year and obviously the a very good month and a very good year so far. I think it's the month that we went past, August. I mean the rates have significantly year to date, nothing very extreme in either direction. I think outsized the contribution from anything else. Commodities and equities, with the dollar moves we've seen there's a bit of a lack of trendiness, obviously, come second and third but at some margin, which is",
+      "zh": "我觉得今年 1 月非常强劲，显然刚过去的 8 月也是很好的一年中很好的一个月。我认为到目前为止这是很好的一个月、很好的一年。利率的贡献显著超过了其它任何东西。年初至今，两个方向都没有什么极端的东西。商品和股票，加上我们看到的美元波动，排第二和第三，但有一定差距，这……"
+    },
+    {
+      "i": 26,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "11:08",
+      "en": "third best, at least from some of the stats I have, I think it's which was the case by the way for rates until maybe what, Q2? We basically driven by this month's activity. So, said differently, of the stronger months that we've seen in a number of years probably.",
+      "zh": "……排第三，至少从我掌握的一些数据看，我觉得这主要由本月的活动驱动。换句话说，这可能是我们多年来见到的较强劲的月份之一，利率直到大概二季度之前都是如此。"
+    },
+    {
+      "i": 27,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "11:26",
+      "en": "hadn't seen, actually, rates kind of trending. It's been more the beginning of the month rates, commodity and equities were the third best so far year in the last 15. So, 2014 obviously with of the last couple of months activity which, I guess, that's the basically kind of equal contributors to performance. And now that gap has widened by some amount precisely because rates other benefit of the diversification. Different contributors in the asset class at different points in time. But that's",
+      "zh": "实际上我们并没有看到利率出现明显的趋势。更多是最近几个月的活动，我猜这就是……月初的时候，利率、商品和股票基本上是相等的贡献来源。而现在这个差距扩大了一些，正是因为利率的贡献翻了一倍。所以这相当可观。这也是分散化的另一个好处——不同资产类别在不同时点成为不同的贡献来源。但这……"
+    },
+    {
+      "i": 28,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "11:55",
+      "en": "have doubled their contribution. So, it's been quite a dollar… substantial. Currency is a bit more of a mixed bag, I would say, Yeah, 2022. 2022, and then this year, so far so good.",
+      "zh": "……翻了一倍的贡献，所以相当可观。货币（Currency）我觉得更是喜忧参半。美元……——是的，2022 年。2022 年，然后今年到目前为止还不错。"
+    },
+    {
+      "i": 29,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "12:10",
+      "en": "So far so good. There's always the last day of the month or the last day of the year to navigate. But as you say it has… It has been a good month.",
+      "zh": "到目前为止还不错。总还有每月最后一天、每年最后一天要去应对。但正如你说的，这确实……确实是不错的一个月。"
+    },
+    {
+      "i": 30,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "12:20",
+      "en": "It has been very good. And I think you make the point as well. me, I just looked at it a few days ago, so I'm not sure if it's I mean, yields had been in a range. If you look at the 10-year moved much with the more recent run up. But volatility in yield, it had been a 3.5% to 5% range since October 2022, whipsawing, the bond market has been relatively contained. It's been very it had been very difficult. Obviously, the market had priced stable. I mean the magnitude move has been sizable and, obviously,",
+      "zh": "确实非常好。我想你也点到了这一点。我是说，收益率之前一直在一个区间里。如果你看 10 年期收益率，自 2022 年 10 月以来它一直在 3.5% 到 5% 的区间里，来回震荡（whipsawing）时非常难受。显然，市场自 2022 年以来大概三次定价了衰退，如今又翻转回一个更积极的经济增长情景。而现在我们开始看到那一走势在加速。我是说，债市的波动率一直被相对抑制，非常稳定。波动的幅度一直不小，而且显然……"
+    },
+    {
+      "i": 31,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "12:55",
+      "en": "in a recession probably three times since 2022 and now has flipped I think when you breach a psychological level like 5%, people back towards a much more positive economic growth scenario. tend to get very excited. But at the same time, from a volatility And now we're starting to see that move accelerate. So, interesting perspective, we're not seeing rising vol in the bond market.",
+      "zh": "……我认为当你突破像 5% 这样的心理关口时，人们往往会非常兴奋。但同时，从波动率的角度看，我们并没有看到债市波动率在上升。所以很有意思，想看看这会如何演变。有件有意思的事让我印象深刻。"
+    },
+    {
+      "i": 32,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "13:17",
+      "en": "to see how that evolves. Did an interesting thing that struck No. I mean and I'm seeing that also in the strength of the signals see, if it will come at a higher vol the net effect vol adjusted which are typically volatility scaled. I know they haven't basically is like flat. We haven't seen that the case. What we're seeing is strengthening of those signals which attests to the point shrunk or let's say they haven't actually moved... sorry…",
+      "zh": "不，我是说我也从信号的强度上看到了这一点，这些信号通常是按波动率缩放（volatility scaled）的。我知道它们并没有收缩，或者说它们其实并没有真的变动……抱歉……我们看到的是这些信号在增强，这印证了那句话：涨幅超过了伴随它的波动率。"
+    },
+    {
+      "i": 33,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "13:45",
+      "en": "that the move has been greater than the volatility at which it comes they haven't stayed flat. You could argue that the yield move you along.",
+      "zh": "……涨幅超过了伴随它出现的波动率。它们并没有保持平坦。你可以争论说收益率的波动……"
+    },
+    {
+      "i": 34,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "13:53",
+      "en": "Yes, yeah, obviously, and as people maintain those positions, the P&L attribution is that much greater than if you were seeing a very choppy and volatile run up. So that's favorable too. Less equities because equities have been a bit more challenging for the month. Right? Because you came into the month long and then, obviously, most of the markets have kind of retracted. Not by a significant amount but that's not like a positive month for equities, not too negative either. I think like less than a",
+      "zh": "是的，是啊，显然，随着人们维持这些头寸，盈亏归因（P&L attribution）就比你在一个非常震荡、波动很大的上涨中所看到的要大得多，所以这也是有利的。股票方面就差一些，因为股票这个月更有挑战性。对吧？因为你进入这个月时是多头，然后显然大多数市场都有所回撤。幅度不大，但这对股票来说不算一个正面的月份，也不算太负面。我觉得大概不到……"
+    },
+    {
+      "i": 35,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "14:23",
+      "en": "percentage, for example, I'm seeing some stats now. And commodities had been a standout in August? Mixed bag, a mixed bag for the month. So, you have some, obviously, some of the energy markets kind of performing but then some of the kind of more ags and softs have not actually delivered any performance or maybe detracted some performance, like flat for the month. It's actually quite striking that the month was like, flat, flat, flat except for ags, I should say.",
+      "zh": "……一个百分点，比如我现在看到的一些数据。商品在 8 月是个亮点吗？这个月喜忧参半。所以显然有些能源市场表现不错，但一些农产品（ags）和软商品（softs）实际上没有贡献任何收益，甚至可能拖累了一点，本月大致持平。实际上很惊人的是，这个月除了农产品之外，基本上是持平、持平、持平。"
+    },
+    {
+      "i": 36,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "14:49",
+      "en": "Yeah, well that's pretty much… That's the story by the way. That's the only story. It's a rates story. That's about it. 2022, I guess was a rates story, but it was also a dollar story as well. So, that accentuated.",
+      "zh": "是啊，这基本上就是……这就是那个故事，唯一的故事。这是一个利率的故事，就是这样。2022 年我猜是个利率的故事，但也是个美元的故事，所以那更被放大了。"
+    },
+    {
+      "i": 37,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "15:00",
+      "en": "It was a bit of commodity story in Q1 as well with inflation moves and, obviously, the geopolitical tensions as well.",
+      "zh": "一季度也有点商品的故事，伴随着通胀波动，当然还有地缘政治紧张局势。"
+    },
+    {
+      "i": 38,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "15:13",
+      "en": "I want to move on to some of the topics that we had prepared. And, I suppose, on the theme of that mix of volatility and trend and how to condition trend with volatility, there's a paper, a research note that came from the guys at Alpha Architect recently around the whole area of whether you can enhance a trend system or a momentum model by looking at the volatility environment. So, basically, the idea of trading faster in higher vol markets or trading slower in lower vol markets. You had a chance to go through the",
+      "zh": "我想转到我们准备好的一些话题上。我想，围绕波动率与趋势的混合、以及如何用波动率来调节趋势这个主题，Alpha Architect 的人最近出了一篇论文、一份研究笔记，讨论的是你能否通过观察波动率环境来增强一个趋势系统或动量模型。所以基本上就是，在更高的波动率市场里交易得更快、或在更低的波动率市场里交易得更慢这个思路。你有机会读过这篇……"
+    },
+    {
+      "i": 39,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "15:55",
+      "en": "paper? Yeah, I did take a look and thanks for pointing it out. I mean very simple and there could be nuances related to the results that the results are actually quite straightforward and the methodology, come from the design choices, and it's unclear to me whether we I have some kind of question marks around it. But, as you say, can generalize, but to kind of go a bit step by step, they're looking the punchline is should you adjust your kind of lookback window",
+      "zh": "……论文吗？——是的，我看了，谢谢你指出来。我是说，结果其实相当直白，方法论非常简单，可能有一些与设计选择相关的细微之处，我对它有一些疑问。但正如你说的，能不能推广还不清楚。不过一步步来说，他们在看的是，这个结论就是：你应该根据波动率来调整你的回看窗口（lookback window）吗？"
+    },
+    {
+      "i": 40,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "16:26",
+      "en": "into… And by the way, the whole idea is that this was a research as a function of vol? If vol increases, should you go faster? paper done in September 2017. So, they wanted to now extend with nine new years, if you like, in the sample, and see whether this If it drops, should you go slower? Can I reduce some of the is kind of VIX dependent. They use VIX as a measure of all VIX dependent false positives? Does that bring any value? That's kind of the lookback windows bringing more value vis-à-vis a static window.",
+      "zh": "……作为一个波动率的函数？如果波动率上升，你应该更快吗？顺便说一句，整个思路是，这是一篇 2017 年 9 月做的研究论文。所以他们现在想在样本里再加上九年的新数据，看看这是不是依赖于 VIX 的。他们用 VIX 作为衡量标准。如果波动率下降，你应该更慢吗？我能不能减少一些依赖 VIX 的假信号（false positives）？那能带来什么价值吗？这大致就是那个……"
+    },
+    {
+      "i": 41,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "17:04",
+      "en": "high level question. But if you like the approach, it is actually Yes.",
+      "zh": "……各种依赖 VIX 的回看窗口相对于一个静态窗口能否带来更多价值这个高层问题。但如果你喜欢这个方法，它其实非常简单。——是的。"
+    },
+    {
+      "i": 42,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "17:08",
+      "en": "So, it's this extension of this kind of research nine years do monthly rebalancing, which is another, perhaps, more of a simplified I don't know what is the 10 months. I don't really personally zone, I don't know how much statistical confidence we can build to a certain extent, more of a cross-sectional momentum strategy.",
+      "zh": "所以，这是把这类研究延长九年，做月度再平衡（monthly rebalancing），这也许更……简化版。我不确定那是不是 10 个月。我个人不知道我们能建立多少统计置信度，这在一定程度上更像一个横截面动量（cross-sectional momentum）策略。"
+    },
+    {
+      "i": 43,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "17:36",
+      "en": "S&P, US equities outside of S&P, international equities, global of VIX triggers, everything becomes very parameterized and quite which, by the way, is fully disclaimed in the article. And then use it, but I guess it's the 200 days, that's the closest I can Because if you're picking the best, it is not clear that this is assumption. I mean, in all fairness, and I guess being fair IG bonds, and then short-term US treasuries, those five ETFs. And the last point that I would flag in this whole kind of design",
+      "zh": "S&P、S&P 之外的美国股票、国际股票、全球……各种 VIX 触发器，一切都变得高度参数化，而且相当……顺便说一句，这在文章里是完全声明免责的。然后是投资级（IG）债券，以及短期美国国债，这五只 ETF。而我在这整个设计中要指出的最后一点是……"
+    },
+    {
+      "i": 44,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "18:09",
+      "en": "get to. It's like a 200 kind of moving average or some sort of to how trend followers would look at it from a directionality, sensitive to the choices you're making. As an example, the is that either you choose the top of the five or you choose the a long or a short position, but it just happens to be the better to the approach here, possibly the audience is a bit more retail the way that they design this, let's call it trend following strategy, a 200 days of a signal, that's the fixed. And then they have kind",
+      "zh": "……因为如果你挑最好的那个，并不清楚这在方向性上——趋势跟踪者会怎么从一个多头或空头方向来看它——但它恰好是……更好的那种。就他们设计这个、我们姑且称之为趋势跟踪策略的方式而言，可能受众更偏零售（retail）一些。用的是 200 天，那是最接近我能想到的一个 200 天信号，那是固定的。然后他们有……"
+    },
+    {
+      "i": 45,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "18:39",
+      "en": "later. So, the whole idea is about allocating into nine… sorry… first two out of the five. And if you happen to choose the two, of three windows depending on the level of VIX. So, if VIX is too of five. And obviously the same applies for the two. There is periods of high VIX in those nine years of extension of the research is that they choose either based on a dynamic window or on a you would allocate 50/50 notional. So, there's no volatility oriented, so they're looking at let's say five ETFs. How can I",
+      "zh": "……之后。所以整个思路是根据 VIX 的水平，在三个窗口之间做配置。如果 VIX 高，他们就用非常短期的窗口。我记不清确切数字了。在这九年延长研究里的高 VIX 时期，他们要么基于动态窗口、要么基于固定窗口来做。他们在看，比如说五只 ETF，我该怎么……"
+    },
+    {
+      "i": 46,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "19:23",
+      "en": "high they go very short-term. I cannot recall exactly the numbers, scaling, there's nothing as such. So, it’s a very simple design not just the relative performance perspective. That's point no shorting, so it's a long-only portfolio. You're always - top one or top two, equal weights, in dollar notional terms, but let's say short-term. If VIX is in an intermediate range they fixed window, either the best or the two best assets out of the allocate between the five ETFs should I use kind of momentum signals",
+      "zh": "……高就短期。设计非常简单，不做空，所以是一个纯多头（long-only）组合。你永远是——第一名或前两名，等权重，按美元名义金额，但没有波动率缩放，诸如此类。如果 VIX 处于中间区间，他们就用一个中间窗口。所以没有做空。我该怎么在这五只 ETF 之间配置，该用动量信号……"
+    },
+    {
+      "i": 47,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "20:00",
+      "en": "long the outperformer of the five or the two outperformers of monthly rebalancing. So, there is no follow the trend, no risk scaling, go to an intermediate window and then if VIX is low they go to are just three periods, three months actually. By the way, they into five ETFs. So, they have (and I'm kind of checking the list) no optimizations, no risk allocations. There's none of that.",
+      "zh": "……做多五只中表现最好的那只，或表现最好的两只，月度再平衡。所以没有跟随趋势、没有风险缩放，然后在 VIX 低时他们用一个更长的窗口。其实就是三个周期，实际上是三个月。顺便说一句，他们……没有优化、没有风险配置，这些都没有。"
+    },
+    {
+      "i": 48,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "20:20",
+      "en": "five based on their momentum. Now a few details here. This is, number one. Point number two, the fixed window uses 10 months. like a longer window. Now, obviously, as soon as you use kind and VIX? So, with three data points in what they call the red the five. So, we can just draw the parallels or maybe the differences So, as you say, it's very much aimed at an RIA type audience. Managing long-only portfolios and then assessing the merits of adding a momentum overlay.",
+      "zh": "……基于动量选出五只。这里说几个细节。这是第一点。第二点，固定窗口用的是 10 个月。就像用一个更长的窗口。显然一旦你用……以及 VIX。所以，用他们所谓的红区里的三个数据点。正如你说的，这非常面向 RIA（注册投资顾问）类型的受众。管理纯多头组合，然后评估加一个动量叠加层（overlay）的好处。"
+    },
+    {
+      "i": 49,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "20:45",
+      "en": "Perhaps, but there are times, for example, that you might find So, with all those caveats in place, what they find, broadly speaking, all that to say that there is no contradictory information to what I guess was the case back in 2017. Perhaps there's an argument is no significant value above and beyond a 10-month static lookback.",
+      "zh": "也许吧，但有时候你可能会发现……所以，在所有这些前提说明（caveat）之下，他们大致发现的是，除了 10 个月的静态回看之外，并没有显著的额外价值，我猜这在 2017 年也是如此。也许有个论点是……"
+    },
+    {
+      "i": 50,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "21:04",
+      "en": "after cost? And they have some analysis on this one. When they use that, I know without statistical confidence, there is one variation outperforming the other because one is in S&P and There is an argument that when you choose the best out of the five, some value. But as we know, with these type of studies and those triggers, it is hard to make a statistical case. And triggers themselves you're kind of outperforming. But frankly speaking, it's a period the other one in Treasuries. But US$100 in S&P is much more risky",
+      "zh": "……扣费之后？他们在这方面有一些分析。当他们用那些触发器时，确实有一种变体跑赢另一种，因为一个在 S&P 里、另一个在国债里。有个论点是，当你选五只里最好的那些时，你就在跑赢。但坦白说，那是一段……"
+    },
+    {
+      "i": 51,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "21:37",
+      "en": "by nature lend themselves to very low statistical power because the top two, there is no significant difference at all versus between 2020 and 2021 that you happen to be a bit more kind of moderate, you need the trigger to be activated. And guess what? The trigger is not going to be activated that many times because if it's too than US$100 in treasuries. So, but that is the mindset here. We're that volatility wasn't too high but it wasn't too low at the many times, then it's not even a trigger. So, the whole trigger",
+      "zh": "……本质上就导致统计功效（statistical power）非常低，因为你需要触发器被激活，而那只需要一个温和的波动。你猜怎么着？触发器不会有太多次被激活，因为如果它被激活太多次，那它就不算触发器了。所以在 2020 和 2021 之间，你恰好更多……前两名，相比之下根本没有显著差异。但 S&P 里的 100 美元比国债里的 100 美元风险大得多。所以，这就是这里的思路。"
+    },
+    {
+      "i": 52,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "22:11",
+      "en": "using the same two but coming from a kind of fixed window. So, same time. But if you look through the details, the rest of rabbit hole (and I'm not personally like a big fan of triggers talking about fixed notional. It's a fixed notional allocation.",
+      "zh": "……用的是同样的两只，但来自一个固定窗口。所以，是同一个时期。但如果你细看那些细节，其余的……兔子洞（rabbit hole）（我个人并不是触发器的忠实粉丝，在一个策略里），在那种情况下，似乎并没有增加显著……谈的是固定名义金额，是一个固定名义金额的配置。"
+    },
+    {
+      "i": 53,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "22:30",
+      "en": "in a strategy) doesn't seem, in that case, to add significant the periods, there is no statistical outperformance, neither value. That's the whole story. underperformance. Obviously, the good question is what happens Did selecting one condition on the VIX, it did outperform, but as 2020.",
+      "zh": "……的价值。这就是整个故事。在那些时期里，既没有统计上的跑赢，也没有跑输。显然，好问题是会发生什么……根据 VIX 选出某一个条件，它确实跑赢了，但正如你说的，这在很大程度上跟……2020 年有关。"
+    },
+    {
+      "i": 54,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "22:56",
+      "en": "you say, it was very much linked to, I think it was November 2020, exactly. Which was the month when the COVID vaccine was announced. And so, the small cap stocks, I think they were up 18% (I checked).",
+      "zh": "……正如你说的，它在很大程度上跟，我想是 2020 年 11 月，正是那个月宣布了新冠疫苗。所以那些小盘股（small cap），我想它们涨了 18%（我查过）。"
+    },
+    {
+      "i": 55,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "23:10",
+      "en": "I think up 10% or 11%. Yeah. I think I was looking into this one just a second ago. I think S&P at the time was like (exactly to your point) in double digits. And then the more kind of static strategy had like no treasuries at 1%.",
+      "zh": "我想涨了 10% 或 11%。是的。我刚才就在看这个。我想 S&P 当时是（正如你说的）两位数上涨。然后那种更静态的策略里国债只有 1%。"
+    },
+    {
+      "i": 56,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "23:22",
+      "en": "Yeah. I mean as you said, it’s concentration and small number of instances driving some of the changes. But I mean there is, I mean it is certainly, I suppose, an idea that I know some managers do model and do integrate into their trend strategies this idea of trading faster when market vol is higher and slower when it's not or when vol is lower. Have you looked at it yourself?",
+      "zh": "是啊。我是说，正如你说的，是集中度和少数几次事件在驱动一些变化。但我是说，这确实……我猜这是一个我知道一些管理人确实在建模、并整合进他们趋势策略里的思路：当市场波动率更高时交易得更快、当波动率更低时交易得更慢。你自己研究过这个吗？"
+    },
+    {
+      "i": 57,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "23:55",
+      "en": "So, I mean, that's the point I wanted to make as, I guess, as the disagreement with utilizing volatility, it's just that the way into signal strength that, by nature, more volatile regimes would or the lens through which I utilize, personally, volatility in bring your strength down. And if that is the case, depending as our research philosophy comes through the portfolio design, comes next remark above and beyond what this article discusses. Volatility through the scaling of the signal, comes through the risk budgeting",
+      "zh": "所以，我是说，这正是我想说的，我猜……我并不是不赞同使用波动率，只是我使用波动率的方式、或者说我个人利用波动率的视角，是把波动率纳入信号强度：本质上，更高波动的状态（regime）会把你的信号强度压低。如果真是这样，取决于……这算是超出这篇文章所讨论内容之外的下一个点评。我们的研究哲学是通过组合设计、通过信号的缩放、通过资产之间的风险预算（risk budgeting）来体现的。"
+    },
+    {
+      "i": 58,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "24:27",
+      "en": "to how you do volatility targeting at the top level, it could for us is a very important indicator and it's utilized in other between the assets. So, it's a bit more convoluted discussion without necessarily having to use a trigger, or rather a continuous function have implications as to how much risk is eventually deployed.",
+      "zh": "……体现在你在顶层如何做波动率目标（volatility targeting），它可能……对我们来说波动率是一个非常重要的指标，它在其它地方也被用到。所以这是一个更绕的讨论，不一定要用一个触发器，或者说用一个连续函数，它会对最终部署多少风险产生影响。"
+    },
+    {
+      "i": 59,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "24:47",
+      "en": "places. So, the way that we approach portfolio design is not because you're scaling by some that is continuous your estimate When those moves happen, I guess in a coordinated fashion, not of vol, to scale your portfolio and to assess the relative dissimilar in that mindset to utilizing volatility to be more dynamic.",
+      "zh": "……的地方。所以我们做组合设计的方式并不是……因为你是在按某个对波动率的连续估计来做缩放，来给你的组合做缩放并评估相对的……当那些波动以某种协调的方式发生时，我猜在这一点上并不与『利用波动率来更动态』的思路相异。"
+    },
+    {
+      "i": 60,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "25:07",
+      "en": "strength of the trend signals. Obviously, we're not using VIX because only do you have volatility spikes, but you have correlation every asset will have a different volatility, but in the But instead of us utilizing a different kind of window, depending spiking, which also has implications on how much dollar notional context of utilizing market volatility, we use parts thereof and the correlation structure as well. So that's how I would look on volatility, we scale our signals by volatility. So, we look",
+      "zh": "……趋势信号的强度。显然，我们不用 VIX，因为每个资产都会有不同的波动率，但在……与其根据波动率去用一个不同的窗口，我们是按波动率来缩放信号。所以我们会看，在利用市场波动率的语境下，我们用其中的一部分，以及相关性结构。"
+    },
+    {
+      "i": 61,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "25:36",
+      "en": "is required for a specific volatility target. So, I'm not in at it. I mean, essentially it's kind of a regime classification.",
+      "zh": "……在特定波动率目标下所需要的（美元名义金额）。所以我并不是不赞同……本质上它有点像一个状态分类（regime classification）。"
+    },
+    {
+      "i": 62,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "25:52",
+      "en": "Yes. If I come to that point, then the whole discussion becomes, can we identify a regime whereby a correction is more prevalent and is going to be more extreme? And if we could, then we could time trend following. So, now we're pivoting into the camp that says maybe we can identify trend regimes and maybe in that context we can utilize the volatility of the market. I mean, the reality is that this is a very hard gig, and I wouldn't necessarily argue that I can prove statistically, at least using data,",
+      "zh": "是的。如果我讲到那一点，那么整个讨论就变成了：我们能否识别出一种回调（correction）更普遍、而且会更极端的状态？如果能，那我们就能给趋势跟踪择时。所以现在我们又转到那个阵营，说也许我们能识别趋势的状态，也许在那个语境下我们能利用市场的波动率。我是说，现实是这是一件非常难的活儿，我不一定会说我能在统计上证明，至少用数据证明……"
+    },
+    {
+      "i": 63,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "26:34",
+      "en": "that this is a pursuit worth pursuing, if I may say. I think these are all areas where people do look at from the perspective of trying... I mean, obviously, you mentioned using volatility as an input in terms of market sizing and scaling.",
+      "zh": "……这是一条值得追求的路，容我这么说。我想这些都是人们确实会去关注的领域，是抱着尝试的心态……我是说，显然你提到把波动率用作市场头寸规模（market sizing）和缩放的一个输入。"
+    },
+    {
+      "i": 64,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "26:52",
+      "en": "But then I suppose it's then taking vol as another impulse as either a regime classification indicator or saying something about the likelihood of maybe an equity correction.",
+      "zh": "但接下来我想，就是把波动率当作另一种脉冲（impulse），要么作为一个状态分类指标，要么是在说一些关于股票回调可能性的东西。"
+    },
+    {
+      "i": 65,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "27:05",
+      "en": "I think my principles, and it's something I've discussed here, So, rather than trying to make the model much more parameterized the prudent thing to do is to say, well look, I just succumb to just to make it work, I think, to me, it's fairer to argue that maybe with you, maybe with Niels, is that there are periods the temptation of identifying any trend on something that is looking hey, this is supposed to be doing what it's supposed to be doing that we can accept the fact that predicting a reversion is hard",
+      "zh": "我想我的原则，这也是我在这里、也许跟你、也许跟 Niels 讨论过的，是：有些时期我们可以接受这样一个事实——预测反转（reversion）是很难的。所以，与其为了让模型奏效而把它弄得高度参数化，我觉得对我来说，更公允的说法是，也许……屈服于那种想在看起来几乎像白噪声（white noise）的东西上识别出某种趋势的诱惑。"
+    },
+    {
+      "i": 66,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "27:37",
+      "en": "when trends exist. If they do not exist, I'm not going to try to almost like white noise and I make either an active call to get recreate them with a more complicated structure. I'd rather or that there are no real trends in the market. And as you find other components that would allow me to navigate through, out of some of those markets, because I'm lacking conviction, or and perhaps complementing my trend allocation is the prudent thing said earlier on, we've been in the right space now, in the last",
+      "zh": "……当趋势存在时（预测反转很难）。如果趋势不存在，我不会试图用一个更复杂的结构去重新制造它们。我宁愿找其它的组件，让我能穿越那样的市场，也许补充我的趋势配置，才是对这项配置的长期可行性更审慎的做法。我是说，正如我前面说的，最近这几年我们一直处在对的空间里，却完全没有明确的方向。"
+    },
+    {
+      "i": 67,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "28:10",
+      "en": "I'm looking for systematic profiles that benefit from those to do for long term viability of the allocation. I mean that, that's regimes that would be complementary to trend following. few years, with no specific direction whatsoever. So perhaps my mantra, if you like, in this regard, from that perspective.",
+      "zh": "……我在寻找那些能从这些状态中获益、并且与趋势跟踪互补的系统化特征（systematic profiles）。所以也许这就是我在这方面、从这个角度出发的信条（mantra），因为我在那些市场里缺乏信念，或者说，正如前面讲的，我们这几年一直没什么明确方向。"
+    },
+    {
+      "i": 68,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "28:34",
+      "en": "It probably is fair to say though that I mean if you look at the performance of short-term managers and short-term momentum, they do tend to be stronger when you get probably higher realized volatility.",
+      "zh": "不过公允地说，我是想，如果你看短期管理人和短期动量的表现，当你得到更高的已实现波动率（realized volatility）时，它们往往更强。"
+    },
+    {
+      "i": 69,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "28:46",
+      "en": "For sure, for sure, but I guess my point is that is that a Calling the reversion is very hard, but if I were to be utilizing feature somebody should introduce to a more dynamic model? Because I would not disagree that being faster will get you better a fast model, I would have gotten it on time. The question is, around turning points. But my question then is do you time the can I deploy that speed dynamically, and will it be fast turning point or do you happen to be fast and when this arises you",
+      "zh": "当然，当然，但我想我的观点是：那是不是某个应该引入到更动态模型里的特征？因为要在转折点（turning point）附近做出判断是非常难的，但如果我用的是一个快速模型，我本来就能及时抓住它。问题在于，我能不能动态地部署那种速度，而它会不会快到足以……"
+    },
+    {
+      "i": 70,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "29:21",
+      "en": "enough to cut my exposures? That's a big question. happen to benefit because you're there? So, you see my point?",
+      "zh": "……快到足以削减我的敞口？这是个大问题。……你是去给转折点择时，还是只是恰好够快、当这种情况出现时你恰好在场从而受益？所以你明白我的意思吗？"
+    },
+    {
+      "i": 71,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "29:29",
+      "en": "I hear you, yeah. That's a big question. Okay, fair enough, interesting. It sounds like you're not going to be making any immediate changes on the back of these ideas. You're pretty stable in your assessment.",
+      "zh": "我懂你，是的。那是个大问题。好，说得通，有意思。听起来你不会因为这些想法就马上做任何改动。你的评估相当稳定。"
+    },
+    {
+      "i": 72,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "29:46",
+      "en": "I think, I mean, I have some views, that's a fair point. I mean, I think the way that the markets have been operating recently, recently, somebody was discussing about a specific indicator, for some thought to be put into how we act and interact with or achieving two timed specific market events, and I was those V shaped markets that we start seeing more often. I don't in the last couple of years (and we've discussed that quite at know if that is related to the economic regime or to the current",
+      "zh": "我想，我是说，我确实有一些看法，这是公允的。我想市场最近的运行方式……最近有人在讨论某个特定的指标，关于我们该如何应对、如何与那些我们越来越常看到的 V 型市场互动。我不知道那是跟经济状态有关，还是跟当前……过去几年里（我们也相当多地讨论过这个）有关，想着要去给某些特定的市场事件择时。"
+    },
+    {
+      "i": 73,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "30:23",
+      "en": "making changes using triggers, specifically in that world of QIS, like, okay, that's great, tell me your false positives and then presidential status in global markets, but the reality is that length), with very short live vol spikes that moderate very quickly we have seen them, we have seen trend following going through we're going to have a conversation. Because it’s great is not an easy path because proving statistical value is impossible, those V shapes with a bit of a scar. Thankfully, we're now here,",
+      "zh": "……用触发器来做改动，特别是在那个量化投资策略（QIS）的世界里，还有全球市场里的总统（政治）地位，但现实是，我们见过趋势跟踪穿越那些 V 型，带着一点伤疤。所幸我们现在在这里……那种非常短暂、很快就平复的实时波动率飙升（very short live vol spikes），长度上……证明统计价值是不可能的。如果你能挑出转折点，那很好，把你的假信号告诉我，然后我们再谈。因为这很棒。"
+    },
+    {
+      "i": 74,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "30:56",
+      "en": "(these are all the V shapes), that we have seen, basically, one if you can pick the turning points. but if you pick another 30 a year and a bit since the last V shape or at least the last per year for the last four years. I think these can cause significant just because you don't have that many observations. When this more aggressive V shape. I think the March event for this year turning points out of the 33 in total, then I'm not so sure that was not as contagious as Liberation Day was, with trend following",
+      "zh": "（这些都是 V 型），我们看到过的，基本上是自从上一个 V 型、或者至少上一个更剧烈的 V 型以来一年多一点。我想今年的 3 月事件不像『解放日』（Liberation Day）那样有传染性，趋势跟踪当时表现得非常非常好。如果你能挑出转折点……但如果你在总共 33 个里再挑出另外 30 个、每年挑出过去四年里的 30 个，那我就不那么确定你挑对的那些真的有效了。就因为你没有那么多观测值。"
+    },
+    {
+      "i": 75,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "31:43",
+      "en": "disappointment if somebody were to follow an unconstrained trend having done really, really well, and I think keeps on kind of particular article talks about three months… I was in a conversation those that you picked right are actually valid. But jokes aside, getting attention from serious investors.",
+      "zh": "……如果有人去跟随一个不受约束的趋势策略会失望。所以在某种意义上，我觉得它们确实制造了一种诱惑……那篇特定的文章谈到三个月……我当时正在一场对话里……趋势跟踪表现得非常非常好，而且我想它持续在吸引严肃投资者的关注。"
+    },
+    {
+      "i": 76,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "32:00",
+      "en": "follower. So, in some respect, I think they do create an invitation",
+      "zh": "……跟随者（follower）。所以在某种意义上，我认为它们确实制造了一种诱惑。"
+    },
+    {
+      "i": 77,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "32:03",
+      "en": "Very good. Well, switching gears, there is a second paper, a paper that you highlighted. It's very interesting and very topical and it's in the whole area of applying agentic AI to an asset allocation portfolio construction process. And I mean, certainly reading it at a high level, it's very much an eye-opener as to the way things may go looking forward in terms of institutional asset allocation.",
+      "zh": "非常好。那么换个话题，有第二篇论文，是你重点提到的一篇。它非常有意思、也很应景，是把代理式 AI（agentic AI）应用到资产配置和组合构建流程这个领域。我是说，至少从高层读下来，对于机构资产配置未来可能的走向，它非常让人大开眼界。"
+    },
+    {
+      "i": 78,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "32:31",
+      "en": "But the paper is from Andrew Ang. Do you want to give us, I suppose, the overview of the paper and then get into your thoughts on it? Yes. I mean, obviously, as you said, we're shifting gears in a way, And I mean those that haven't actually seen it, and I've read it The heuristics are more like no equal weighting, cap weighting, you have kind of the strategy review, which is this point of bringing happens is that we have one or two portfolio allocation methodologies.",
+      "zh": "但这篇论文来自 Andrew Ang。你想给我们，我想，概述一下这篇论文，然后再谈谈你的想法吗？——好的。我是说，显然正如你说的，我们在某种意义上换了话题。这篇论文来自 Andrew Ang，我想他相当有名。对于那些还没看过的人，我读过它……你会先有一个策略评审（strategy review），这是把……那些启发式（heuristics）更像是，不做等权重、不做市值加权，整合到一起。发生的是，我们有一两种组合配置的方法论。"
+    },
+    {
+      "i": 79,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "33:03",
+      "en": "is from Andrew Ang, I would imagine he’s quite well known. He another phase whereby all those portfolios, because they have is that, let's assume you have a big institution that has to put what they end up doing, post designing the portfolios, is that this is now the pipeline of the agents that they're kind of proposing of agents, their point is, human beings will do the analysis what you end up having is to say, well, I have 20 asset classes they're bringing forward is that (I'm kind of scrolling through",
+      "zh": "……他曾是 Columbia 的学者，后来做过 BlackRock 因子投资（factor investing）的负责人。我想他相当有名。他们最终做的，在设计好组合之后，是这样的：假设你有一个大型机构，必须把……这是他们提出的这些代理（agents）的流水线。他们提出的是（我正在翻这几天的笔记，更详细一点），人类会做分析，把所有这些数据点整合到一起。你最终会得到的是，比如说我有 20 个资产类别……"
+    },
+    {
+      "i": 80,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "33:31",
+      "en": "or the last two are special. One of them is a researcher. So, agent, which is, I would think, less of an agent and more of all the portfolio agents has two agents which are actually together all those data points. You have the CRO that is now a backtest based on today's composition as inferred by the last few days with a bit more detail, it's actually quite You put the specialist there, the CIO, some sort of forensic accounting interesting, is called an adversarial diversifier. So, this",
+      "zh": "……或者最后两个是特别的。其中一个是研究员（researcher）。所以，每个组合代理都有两个代理，它们其实是……一个回测（backtest），基于今天的构成，由……推断出来。你把专家（specialist）放在那里，CIO，某种法务会计（forensic accounting）……还有 CRO，他现在是一个……被称为对抗性分散者（adversarial diversifier）。所以，这个……"
+    },
+    {
+      "i": 81,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "34:12",
+      "en": "they assess the rest and they start voting between them. They make Maybe we do some sort of a mean variance or some sort of a risk historically, human beings will build their portfolios, and basically the covariance agent, and then everything goes to my notes because this is so many things I could actually talk here. There are so many things that we can go about, but that's or maybe 20 assets, I don't know, US equities, global equities to put forward, goes as follows, like six steps. The first",
+      "zh": "……他们评估其余的，然后他们之间开始投票。他们做……也许我们做某种均值方差（mean variance）或某种风险……历史上，人类会构建他们的组合，基本上……协方差（covariance）代理，然后一切都送到我这里，因为这实在是……这里有太多东西我其实可以讲。有很多我们可以展开的，但那……把这些数据点整合到一起。你有个 CRO，他现在是一个……也许是 20 个资产，我不知道，美国股票、全球股票……他们提出的东西如下，大概六步。第一步……"
+    },
+    {
+      "i": 82,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "34:42",
+      "en": "the specific agents, also have a composite score of Sharpe ratio, inverse volatility, and so on, and so forth. Some are return oriented, together a dynamic portfolio of multiple asset classes given a the CIO. So, CIO is a new agent here, and the CIO has to produce used to be an academic at Columbia. Then he used to be kind fascinating. I personally kind of found myself kind of drawn into so on, and so forth, but the scale at which they can operate and is now an agent that observes the rest and effectively builds a",
+      "zh": "……这些特定的代理，还有一个由 Sharpe 比率、逆波动率（inverse volatility）等等组成的综合评分（composite score）。有些偏收益导向，合在一起，给定某个……CIO。所以 CIO 是这里的一个新代理，CIO 必须产出一个……曾是 Columbia 的学者，然后他做过……迷人。我个人发现自己有点被这篇论文吸引进去了……一个基于今天构成的回测……它能运营的规模，以及……现在是一个观察其余代理、并有效构建一个……的代理。"
+    },
+    {
+      "i": 83,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "35:14",
+      "en": "this researcher will just do some active research, perhaps look some point about, obviously, whether that is computationally very the paper if I manage. It's more of a nice story to go through or European equities, and then treasuries, and corporate bonds, of a kind of an econometric or a statistical tool that produces quite special. The first one continues doing research. So, for drawdown and so on, and so forth. So, they try to basically about), all they try to bring forward is to say, with GenAI… sorry…",
+      "zh": "……这个研究员会做一些主动研究，也许会看……关于那是否在计算上非常高效或昂贵的一点。与其说它是一个代理，不如说更像一个……如果你读得下去，这更像是一个不错的故事。或者欧洲股票，然后国债、公司债……一种计量经济学或统计工具，它产出……相当特别。第一个持续做研究。所以……关于）他们试图提出的是，用 GenAI……抱歉……"
+    },
+    {
+      "i": 84,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "35:45",
+      "en": "one you have, let's say a macro agent. So, the macro agent now a memo for the board that is going to condense all this information budgeting, and that's about it. Well, the suggestion here is it just because you start seeing how the transition into agentic but I don't think we're shifting gears too much from how efficient or expensive. And they say, well, we're going to force and real estate, and so on, and so forth. I think they run an the attention they can have is limited by the fact that we operate",
+      "zh": "……一个，假设你有一个宏观代理（macro agent）。所以宏观代理现在……一份给董事会的备忘录（memo），它会把所有这些信息浓缩起来。预算，就这样。嗯，这里的建议是，只是因为你开始看到向代理式 AI 的过渡……因为它非常吸引人。我们会强迫……以及房地产等等。我想他们跑了一个例子……它能有的注意力受到一个事实的限制：我们是实时运作的、以人类的容量运作的。"
+    },
+    {
+      "i": 85,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "36:22",
+      "en": "certain level of risk, or maybe appetite, or kind of guidelines. module, and so on, and so forth. And then it's called governable into the latest innovation in the portfolio construction space score every agent now, with the voting that comes from all the principal component of the rest and tries to do opposite stuff.",
+      "zh": "……某个风险水平，或者胃口（appetite），或者指引。模块等等。然后它被称为可治理的（governable）……进入组合构建领域的最新创新……现在给每个代理打分，用来自所有代理的投票……其余部分的主成分（principal component），并试图做一些相反的事情。"
+    },
+    {
+      "i": 86,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "36:55",
+      "en": "into a recommendation and some reasoning. The interesting bit, and will do what? They will basically look into data, the economic with agentic AI, we cannot have scale. We can have some, as AI could have implications in many things that historically we each agent to only vote for a peer that is in the same group and to say, why don't you actually allow the scale that agents can give of the head of factor investing at BlackRock. And now he like mean variance in Black-Litterman. Some are more risk-based;",
+      "zh": "……变成一个建议和一些推理。有意思的部分是，他们会做什么？他们基本上会研究数据、经济状态……用代理式 AI，我们没法拥有（人类那种）规模。我们可以有一些……正如 AI 在很多事情上都可能有影响，历史上我们……让每个代理只能投票给同一组里的同伴（peer），以及说，你为什么不允许代理能给出的那种规模……BlackRock 因子投资的负责人。而现在他……均值方差、Black-Litterman。有些更偏风险；……"
+    },
+    {
+      "i": 87,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "37:24",
+      "en": "the first 19, everything is almost like formulaic. Later on there example of that model for March 2026. So, I think they have in real time and in human being capacities. Their point is they show into some analysis, and maybe I should pause in a second historical covariance estimation to bring this thing together.",
+      "zh": "……前 19 个，几乎一切都是公式化的（formulaic）。往后……那个模型 2026 年 3 月的例子。所以我想他们有……实时地、以人类的容量。他们的观点是，他们展示……做一些分析，也许我该在这里停一下……历史协方差估计（historical covariance estimation）来把这个东西整合到一起。"
+    },
+    {
+      "i": 88,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "37:42",
+      "en": "rest, and an historical aggregate measure of performance. and come up with new ideas to design a portfolio that perhaps down And it all starts with, I guess, a policy statement. What are used to do using people, and processes, and time, and various regime, macro indicators, market indicators, and all this agent they call it, productive dissent, which is about debating Those two combined on a 60/40 kind of scaling basis, give you the for you to kind of start reflecting, because I know I'm going",
+      "zh": "……其余部分，以及一个历史性的整体业绩度量。并想出新点子来设计一个组合，也许……而它全部始于，我想，一份政策声明（policy statement）。什么是……过去是靠人、流程、时间以及各种手段来做的……状态、宏观指标、市场指标，以及所有这些代理……他们称之为富有成效的分歧（productive dissent），就是关于辩论……那两个结合起来，按 60/40 那种缩放基础，给你……让你开始反思，因为我知道我要……"
+    },
+    {
+      "i": 89,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "38:29",
+      "en": "Now, why is that important? Because the whole aim is to build 18 assets to allocate. But let's say you have a number of agents, that there's an element of supervision rather than replacement one outside of the same peer group. So eventually out of 21 you you to run 20 portfolios? So, there are now actually there are delegation. So, you have the kind of the policy statement governing So, now here we are having, for all the asset classes, some projection institutions kind of manage their assets and how asset allocation",
+      "zh": "……现在，为什么这很重要？因为整个目标是构建……18 个可供配置的资产。但假设你有一批代理……有一个监督（supervision）而非取代的要素……同一同伴组之外的一个。所以最终在 21 个里你有……让你去跑 20 个组合？所以现在其实有……委托（delegation）。所以你有那种政策声明来治理……现在我们针对所有资产类别都有一些预测，机构如何管理他们的资产、资产配置如何……"
+    },
+    {
+      "i": 90,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "39:04",
+      "en": "set up Altbridge with another fund, I guess of his co-founders. parts of that process could be now abstracted. Obviously, human the risk parity, max diversification, minimum volatility. will come about is what is the economic regime, if it’s like expansion, because above and beyond it's almost like a framework. Let me just to keep on speaking now, in the example they show, if they were and peer review. So, between them, using natural language, they now that should allow us to elevate the level of abstraction,",
+      "zh": "……和另一位联合创始人，我猜是他的，一起设立了 Altbridge 这只基金。那个流程的一些部分现在可以被抽象化（abstracted）。显然，人类……风险平价（risk parity）、最大分散化（max diversification）、最小波动率（minimum volatility）。将会发生的是，经济状态是什么，如果是扩张（expansion）……因为在这之上，它几乎就像一个框架。让我继续……在他们展示的例子中，如果他们要在 2026 年 3 月跑他们的模型……用自然语言，他们之间……同伴评审（peer review）。这应该让我们能提升抽象的层级；……"
+    },
+    {
+      "i": 91,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "39:23",
+      "en": "are some tasks that they would have to undergo. But at least as the line can become like a permanent kind of agent. So, for composite score of all the agents. So, suddenly you have now the risks we can run at? What is the volatility? What is the expected each of whom is given a specific task to focus on a specific have 42 votes. The voting happens in… sorry… these are the in the loop is extremely important, but then that human in to run their model in March 2026, is that the CIO is actually",
+      "zh": "……有一些他们必须完成的任务。但至少……这条线可以变成一个永久性的代理。所以，对……所有代理的综合评分。所以突然间你现在有了……我们能承担的风险是多少？波动率是多少？预期收益是多少？……每一个都被赋予一个特定任务，专注于特定的……有 42 张票。投票发生在……抱歉……这些是……在环路里（in the loop）极其重要，但那个在环路里的人此时……CRO 其实是……"
+    },
+    {
+      "i": 92,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "40:08",
+      "en": "19, each of whom builds a portfolio based on the previous inputs debate between them and get them to a place whereby the adversarial can interact. So, the third one is a natural language audit trail. guide the process with a policy statement that a human being all the portfolio agents being informed by the asset class agents late cycle, a recession, a recovery, associated with some confidence.",
+      "zh": "……19 个，每一个都基于前面的输入构建一个组合……他们之间的辩论，把他们带到一个地方，让那个对抗性分散者……可以互动。所以第三个是一个自然语言审计轨迹（natural language audit trail）。用一份人类写的政策声明来引导流程……所有组合代理都由资产类别代理提供信息……周期后段（late cycle）、衰退、复苏，伴随着某种信心度。"
+    },
+    {
+      "i": 93,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "40:32",
+      "en": "Some are, as they call them, non-traditional, like a CVaR optimization asset class. And the main purpose is to come up with an expected reviews. Then they all vote to each other and the voting is even So, that's basically one of their first papers, I would imagine.",
+      "zh": "……有些是他们所称的非传统（non-traditional）方法，比如 CVaR 优化……资产类别。主要目的是得出一个预期的……评审。然后他们互相投票，而且投票是……所以这基本上是他们最早的一篇论文，我想。"
+    },
+    {
+      "i": 94,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "40:54",
+      "en": "getting a very different view to the voting mechanism between the the loop becomes more of a supervisor, more of the fiduciary example, in this application they have is maximum entropy. So, all the decisions, how much risk you should take, and so on, of return, capital market assumptions, volatilities and covariances.",
+      "zh": "……得到一个与代理之间投票机制非常不同的视角……环路里的那个人更多地变成一个监督者、更多的受托人（fiduciary）……例子，在这个应用里他们有最大熵（maximum entropy）。所以所有……决策、你该承担多少风险等等……收益、资本市场假设（capital market assumptions）、波动率和协方差。"
+    },
+    {
+      "i": 95,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "41:20",
+      "en": "would be writing and getting us the output from the CIO agent, who talk about the capital market assumptions and come up with So, if you were to go back and check how fiduciary requirements And I think that's important because it's not about identifying using different methodologies. And if I were to go through the methodologies return? What are the asset classes we can allow ourselves to managers… sorry… between the agents. So, the most popular allocation",
+      "zh": "……会撰写并给我们来自 CIO 代理的输出，他……谈谈资本市场假设并得出……如果你回过头去核查受托要求（fiduciary requirements）……我想那很重要，因为这不只是关于识别一个状态……用不同的方法论。如果我要过一遍那些方法论……收益？我们能允许自己投资的资产类别是哪些……最流行的配置……"
+    },
+    {
+      "i": 96,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "41:37",
+      "en": "is perhaps getting reshaped in the world of agentic AI. So, this a principle, they build portfolios, different portfolios return of the asset class of a volatility estimate and some confidence diversifier is trying to find pockets of correlations that the more interesting. So, every agent has to give six votes, a five, deploying, if you like, those recommendations and having, if you start by saying, what is the overall process? The overall process scheme in their example is not the most popular in the selection",
+      "zh": "……也许在代理式 AI 的世界里正在被重塑。所以这……作为一个原则，他们构建组合、不同的组合……资产类别的收益、一个波动率估计和某种信心度……分散者试图找出其余部分可能没有真正识别出的相关性的口袋（pockets of correlations）。更有意思。所以每个代理必须给出六票，一个五、一个四、一个三、一个二、一个一和一个负二。好，然后……先从说整个流程是什么开始。整体流程……在他们的例子里，这个方案在选择上并不是最流行的……"
+    },
+    {
+      "i": 97,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "42:21",
+      "en": "arguments in favor or against, who have already accounted for the this researcher is now finding maximum entropy as another possibility the overall summary. the board memo for the actual board to then decide upon, with an And you need to put this thing into a portfolio. What typically a regime, but it's also about producing an assessment of the identification are actually satisfied and deployed, there is, I guess, an audit He basically talks about agentic architecture for asset management.",
+      "zh": "……赞成或反对的论点，他们已经考虑了……这个研究员现在把最大熵作为另一种可能性找出来……整体总结。给实际董事会去做决定的董事会备忘录，附带一个……你需要把这个东西放进一个组合。通常会……一个状态，但也是关于产出一个对……的评估……那些识别实际上被满足并部署，我想有一个审计轨迹……他基本上谈的是资产管理的代理式架构（agentic architecture）。"
+    },
+    {
+      "i": 98,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "42:48",
+      "en": "or like a TPA, or drawdown constraint. And then the last category around that, and then put forward an investment case, like (just for kind of naming a few), there's like five categories. that they will make available to us. So, the last kind of group like, a sense of the truth versus the false positives in that of the CIO. And this is primarily driven by the macro uncertainty, invest in, and so on, and so forth? So, then what happens, and a four, a three, a two, a one and a minus two. Okay, and then there's",
+      "zh": "……或者像一个 TPA、或回撤约束（drawdown constraint）。然后最后一类……围绕那个，然后提出一个投资理由（investment case），举个例子……大概有五类。他们会提供给我们。所以最后那一组……像是在那其中真相与假信号（false positives）的感觉……CIO 的。而这主要由宏观的不确定性驱动，……"
+    },
+    {
+      "i": 99,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "43:18",
+      "en": "macro regime. So, you can see how one brings that next. And then rest might have not actually identified. So, now those 21 agents, audit trail through to be fully auditable. Anyway, I'm pausing and so forth. So, to summarize, through all that process of building a portfolio. The last one, and I found it very, very a memo, for that asset class. Then comes a, so-called covariance risk of that regime. Then you have asset class agents. So, now trail of those decisions. Then fourth kind of composable expertise.",
+      "zh": "……宏观状态。所以你能看到一个如何带来下一个。然后其余部分可能并没有真正识别出。所以现在那 21 个代理……审计轨迹，做到完全可审计（fully auditable）。反正，我停一下……等等。所以，总结一下，通过构建一个组合的整个流程。最后一个，我觉得非常非常……一份备忘录，针对那个资产类别。然后是一个所谓的协方差代理……那个状态的风险。然后你有资产类别代理。所以现在……那些决策的轨迹。然后第四种是可组合的专业能力（composable expertise）。"
+    },
+    {
+      "i": 100,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "43:51",
+      "en": "and so on, and so forth. All that to say that eventually what respect. So, how the whole story plays out… I'll try to summarize Yeah, it's very interesting. I scan through it myself and I mean, this situation the benchmark was a 60/40 portfolio, and I think about is what elements of the process is the outcome most sensitive as you say, there's a lot of rigor to it and there's, in the sense As you say, he tilted the allocation towards portfolio construction",
+      "zh": "……等等。所有这些是想说，最终……从这个意义上。所以整个故事如何展开……我试着总结一下。——是啊，非常有意思。我自己也浏览了一遍，我是说，正如你说的，它很有严谨性，而且在……这个情形里基准是一个 60/40 组合，我想……在于，这个结果对流程里的哪些要素最敏感……正如你说的，他把配置向组合构建技术倾斜了。"
+    },
+    {
+      "i": 101,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "44:39",
+      "en": "they came out at 44% equity. So, they came out with meaningfully, to from the perspective of…? Obviously, in this example, as you of applying multiple portfolio construction techniques that wouldn't techniques that the agents didn't really vote for. But they relatively meaningfully underweight equities. Maybe the macro be typical, I'm thinking in most investment committee processes regime was part of it, I don't know. Obviously, portfolio construction say, they ran it in March of 2026 and from a macro perspective,",
+      "zh": "……他们最终得出 44% 的股票。所以他们得出……从那个角度看，有意义地低配股票。显然在这个例子里，正如你……组合构建技术是那些代理其实并没有投票选的技术。但也许宏观状态是其中一部分原因，我不知道。显然，组合构建……我想在大多数投资委员会的流程里，他们是在 2026 年 3 月跑的，从宏观角度看……"
+    },
+    {
+      "i": 102,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "45:16",
+      "en": "were also relatively plain vanilla techniques, from memory, that 44%, that underweight equities, what did that stem from, people maybe would use one or two or maybe a couple more. But I the ones that had the highest allocation. So, I didn't get enough was a bit because they come up with capital market assumptions and mean you're not going through… And even like in the Allocator series, they concluded, it was late cycle with some stagflationary risks they have a mechanism. I suppose that ties to the macro regime.",
+      "zh": "……也是相对朴素（plain vanilla）的技术，凭记忆，人们也许会用一两种、或者再多几种。但我是说你又不会……甚至在我主持的 Allocator 系列里，和那些走他们流程的配置者交流……44%，那个低配股票，是源于什么呢……他们得出结论，是周期后段（late cycle），带有一些滞胀（stagflationary）风险，这我猜反映了当时能源市场正在发生的情况。所以显然他们更少强调历史资本市场假设，而是更多放在，我猜，前瞻性的估计上。"
+    },
+    {
+      "i": 103,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "45:55",
+      "en": "detail or I didn't delve in to understand what drove his decision. which I host, and speaking to allocators who go through their process, which I guess reflected, obviously, what was going on in energy they might say… I spoke to one recently hwo said they produced, So, obviously, they put less emphasis on historic capital market So, I'm kind of wondering at that. Obviously there's not a rigor would you say, reading the paper?",
+      "zh": "……细节，或者我没有深入去理解是什么驱动了他的决定。也就是我主持的那个，和那些走他们流程的配置者交流，我最近跟一个人聊过，他说他们产出……所以显然他们更少强调历史资本市场假设。读这篇论文，你会说有那种严谨性（rigor）吗？"
+    },
+    {
+      "i": 104,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "46:27",
+      "en": "markets at that time. So that made sense. I mean, so that's one I think it was three different portfolios, but here they're producing, returns and more on, I guess, forward-looking estimates. So yeah, there, but ultimately what really drives the tilting? And in I don't know, 15 or 20, effectively. I suppose what I'm curious that's a bit… Any insights on that or how do you think, ultimately thing. And then obviously you have the behavior of the CIO agent.",
+      "zh": "……当时市场的情况。所以那讲得通。我是说，所以那是一件事。我想那是三个不同的组合，但这里他们产出的是，我不知道，15 或 20 个，实际上。我猜我好奇的是……但归根结底，真正驱动这种倾斜的是什么？在这点上有没有什么见解，或者你认为归根结底……然后显然你有 CIO 代理的行为。"
+    },
+    {
+      "i": 105,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "46:57",
+      "en": "I mean it's not very obvious how it comes about because it is back now to the paper and your question, my gut feeling is that similar comment, but in a very different context to the one I made more like I'm not trusting my capital market assumptions because ultimately a combination of weighting schemes of different portfolio the mix of kind of contradicting macro signals at the mechanisms. I mean, my gut feeling goes as follows, and that's earlier on about trend following, reframing a model to give",
+      "zh": "我是说，它是怎么产生的并不很明显，因为它……回到这篇论文和你的问题，我的直觉是……更像是，我不信任我的资本市场假设，因为……归根结底是不同组合机制的加权方案的组合。我是说，我的直觉如下，那跟我前面关于趋势跟踪的评论类似，但语境很不同——重构一个模型来给出更好的估计……那个时点上宏观信号相互矛盾的组合。"
+    },
+    {
+      "i": 106,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "47:37",
+      "en": "abstracting a bit from an already abstract context here. I the regime is not very clear and because it looks a bit fluffy. time, and the fact that it was like a stagflation and a late cycle you a better estimate of what is ultimately unobservable, the current mean, ultimately the way we do asset allocation is not just informed regime ultimately still bears the risk of the model being wrong, type of a period, perhaps suggests allocation that is less by risks, and covariances, and capital market assumptions. I think",
+      "zh": "……从一个已经很抽象的语境里再抽象一点。我……这个状态并不很清楚，而且看起来有点模糊（fluffy）。……时间，以及它有点像滞胀、又是周期后段这个事实……给你一个对当前那个终究不可观测的东西的更好估计。我是说，归根结底我们做资产配置的方式，不只是由风险、协方差和资本市场假设来决定的。我想……"
+    },
+    {
+      "i": 107,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "48:17",
+      "en": "the other statement I would make is our ability to nowcast (if I should then rather tilt my allocation towards risk-oriented driven by capital market assumptions. So, I think the allocation and the allocation being incorrect, and ultimately leading I were to use a term we used earlier on), to nowcast the economic that the CIO goes for is less informed by return-oriented allocations to a loss. And I posed a question here. Should we instead and more heuristic allocation frameworks rather than trusting the",
+      "zh": "……我要说的另一点是，我们现在预测当前状态（nowcast）的能力（如果我用我们前面用过的一个词），去 nowcast 经济环境……那我应该更倾向于把配置偏向风险导向的……而这个配置是不正确的，并最终导致亏损。我在这里提出一个问题：我们是不是应该反而……更倾向于在那些我们无法判断的时候去分散化……比如市值加权、波动率目标、等权重、逆方差，这些是排名较高的一些组合……"
+    },
+    {
+      "i": 108,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "48:49",
+      "en": "environment in a very accurate manner, then I think we are more (so like cap-weighted, volatility targeted, equal weight, be more prone to diversify at the times that we cannot tell how inverse variance), these are some of the higher ranked portfolios prone to build some concentration in our portfolios.",
+      "zh": "……环境，以一种非常准确的方式，那么我们就更……比如市值加权、波动率目标、等权重、逆方差，这些是排名较高的一些组合，更容易在我们无法判断的时候去分散化……更倾向于在我们的组合里建立一些集中度。"
+    },
+    {
+      "i": 109,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "49:08",
+      "en": "data as much. That's my kind of gut feeling or maybe my interpretation. When the economic regime is more mixed, in terms of evidence the macro outcome is clear? So, if it's more unclear then we that the CIO chose which do not contain any capital market assumptions.",
+      "zh": "……数据那么多。这大致是我的直觉，或者我的解读。当经济状态更混合、在证据……宏观结果清楚的时候？所以如果它更不清楚，那么我们就……这是 CIO 选择的、不包含任何资本市场假设的组合。"
+    },
+    {
+      "i": 110,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "49:27",
+      "en": "and data points to categorize it with some confidence, we typically should vouch more towards diversification. So, kind of going These are no risk-based allocations. So, in my mind it's vouch more for diversification. Perhaps it's a very Yeah, yeah, that makes sense. And they end up with a more conservative portfolio, 44% equities, which is interesting. I mean, another thing that was interesting that was commented upon in the paper is how it's very hard to do a backtest.",
+      "zh": "……以及数据点，以某种信心度去归类它，我们通常会更倾向于分散化。所以，某种程度上……这些不是基于风险的配置。所以在我看来，这是……——是的，是的，讲得通。他们最终得到一个更保守的组合，44% 股票，这很有意思。我是说，论文里评论到的另一件有意思的事是，做回测（backtest）非常难。"
+    },
+    {
+      "i": 111,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "50:05",
+      "en": "I mean that's the most interesting for me. Backtest LLMs because they all currently incorporate information now that they wouldn't have had back running it in real time. I mean they do point out that you could… Some researchers have tried to limit the LLM models to use models that were only available at a point in time, but it sounds like that's not… Well, maybe those ones weren't even computationally strong enough at that time to run these types of analysis. So yeah, I mean, you",
+      "zh": "我是说那对我来说是最有意思的。给 LLM 做回测，因为它们现在全都纳入了它们当初实时跑的时候不会有的信息。我是说他们确实指出你可以……有些研究者试过把 LLM 模型限制成只用某个时点上可用的模型，但听起来那并不……嗯，也许那些模型在当时甚至没有足够的算力来跑这类分析。所以是啊，我是说，你……"
+    },
+    {
+      "i": 112,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "50:33",
+      "en": "have to kind of take it maybe at face value the merit a bit. I mean, as a researcher then how do you deal with that if you can't backtest, how do you evaluate?",
+      "zh": "……不得不也许照表面接受它、接受它的价值。我是说，作为一个研究者，如果你没法回测，你怎么处理？你怎么评估？"
+    },
+    {
+      "i": 113,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "50:46",
+      "en": "So that's an amazing question. That's why kind of reading it through I think what I find interesting is the fact that there the time that they start voting between them which one is being solved, let's say today we start building a backtest as of interesting and, I guess, challenging, from your perspective, that they make, by the way, just looking through my notes, you is here some suggestion that I would imagine can inform more accurately ways. The first one is the obvious, that you're using a model",
+      "zh": "所以这是个很棒的问题。这也是为什么读下来的时候……我觉得有意思的是这个事实，那里……他们之间开始投票、哪一个更好的那个时刻。假设我们今天开始构建一个截至今天的回测……有意思，而且我想，从你的角度看也有挑战性……顺便看一下我的笔记，他们提出……这里是某种我认为可以提供信息的建议……更准确的方式。第一个是显而易见的，你在用一个模型……"
+    },
+    {
+      "i": 114,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "51:21",
+      "en": "the better model, and so on, and so forth. Then we have the typical is LLM models are not deterministic, and even with the today. So, tomorrow we're going to have a new model and we're and more holistically asset owners. We cannot negate the fact might also have issues with regards to the fact that using the look-ahead bias, or maybe data mining bias that we always have in that was built today, perhaps to build estimates for yesterday.",
+      "zh": "……更好的模型，等等等等。然后我们有典型的……LLM 模型不是确定性的（non-deterministic），即使……今天。所以明天我们会有一个全新的模型，而我们……以及更整体地看资产所有者（asset owners）。我们无法否定这个事实……用今天构建的模型，也许去为昨天构建估计，可能也会有问题。前视偏差（look-ahead bias），或者我们在回测里总是有的数据挖掘偏差（data mining bias）。"
+    },
+    {
+      "i": 115,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "51:58",
+      "en": "same model with the same prompt, you might end up having a going to do the same thing. So, we come here in a year from today, put me into a lot of thoughts because there's a lot of forward-looking that having the power of parallelizing all those tasks and backtesting. If I look into backtests, most likely I can choose So, it has all the information baked in the model and even if you same LLM model, they call them monoculture risk. So, if all agents creating better estimates of maybe the macro regime, or the capital",
+      "zh": "……同一个模型、同一个提示词（prompt），你最终可能得到一个不同的答案……会做同样的事情。所以我们一年后的今天再来到这里……让我陷入很多思考，因为有很多前瞻性的偏差……那种把所有这些任务并行化（parallelizing）的能力，以及……如果我看看回测，很可能我可以选……所以它把所有信息都烘焙进了模型里，即使你……创建对宏观状态、或者资本市场假设的更好估计……"
+    },
+    {
+      "i": 116,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "52:31",
+      "en": "different answer. So, reproducibility is nowhere to be you and me, we have the same conversation with a year of a backtest. the one that looks better. So, I would imagine the agents themselves, seen with these type of models, at least as it stands, which market assumptions, or portfolio construction details, at follow the same model from one of the big kind of GenAI kind of were to contain the data as of when, the model still has the ability having 20 portfolio allocation schemes between them, perhaps they",
+      "zh": "……不同的答案。所以可复现性（reproducibility）在这类模型里根本无从谈起，至少就目前而言。你我进行同样的对话，一年之后的一个回测。看起来更好的那个。所以我想那些代理自己……跟随着来自某个大型 GenAI 厂商的同一个模型……本应包含截至某时的数据，这个模型仍然有能力……在它们之间有 20 种组合配置方案，也许它们……"
+    },
+    {
+      "i": 117,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "53:12",
+      "en": "the minimum should get us and investment boards more informed. Had we rerun history or had we asked the model twice at the same in itself creates a significantly harder task for someone biases and they fully disclaim. So, the discussion is actually start kind of voting more in favor of the better performing one.",
+      "zh": "……最低限度应该让我们和投资董事会（investment boards）更知情。假如我们重跑历史，或者在同一时间用略微不同的提示词问模型两次……本身会给某人制造一个显著更难的任务……偏差，而且他们完全声明免责。所以这个讨论其实……开始投票更倾向于表现更好的那个。"
+    },
+    {
+      "i": 118,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "53:35",
+      "en": "So, in this regard, I think there is value. In the architecture time, a similar question with a slightly different prompt, we would to, or has the knowledge in its parameterization of the future, companies, you might find yourself being exposed to some correlation not only to build a backtest, but suggesting that this is representative So, it's almost inherent now in the process what historically of it, I think there is value. And above and beyond, I think the",
+      "zh": "……所以在这方面，我觉得是有价值的。在这个架构里……一个类似的问题，用略微不同的提示词，我们会得到不同的……或者说它的参数化里有对未来的知识……公司，你可能会发现自己暴露于某种相关性……不仅是构建一个回测，而是暗示这有代表性……几乎现在内在地存在于流程中，历史上由人类做的……我觉得是有价值的。而且在这之上，我觉得……"
+    },
+    {
+      "i": 119,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "54:15",
+      "en": "have gotten two different backtests. And I think that's the has been human beings kind of assessing backtests. So, these are in the model. So, that's another interesting one. But overall, even if you contain, I guess, the input. The second part is, at of the methodology because it is not. Like, even with all the rest very nice. There is look-ahead bias by the way, in a variety of perspective is quite interesting.",
+      "zh": "……会得到两个不同的回测。我想那……一直是人类在评估回测。所以在模型里。所以那是另一个有意思的点。但整体来看，即使你包含了，我想，输入。第二部分是，在……非常 nice。顺便说一句，有各种各样的前视偏差。……的角度看相当有意思。"
+    },
+    {
+      "i": 120,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "54:40",
+      "en": "other challenge. Setting that aside, I mean a few other points two considerations. The other consideration which I find even more Just if you were to take this framework, and, obviously, it's applied from the perspective of longer-term asset allocation, multi-asset portfolio construction, but at the end of the day it's still building portfolios. If you were to apply it to building a trend portfolio, is there anything that you learned from the paper? Anything",
+      "zh": "……另一个挑战。把这个放一边，我是说，还有几点……两个考量。另一个我觉得更有意思的考量是……如果你就拿这个框架来用，显然它是从长期资产配置、多资产组合构建的角度应用的，但归根结底它仍然是在构建组合。如果你把它应用到构建一个趋势组合上，你从这篇论文里学到了什么吗？有什么……"
+    },
+    {
+      "i": 121,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "55:03",
+      "en": "that you thought, okay, that's something that would be implementable in the near term?",
+      "zh": "……你觉得，好，那是近期就可以落地的东西吗？"
+    },
+    {
+      "i": 122,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "55:08",
+      "en": "Yes. So, I think some parts are actually quite interesting because place that typically we go for one or two, and that's about it. agents. So, which is the expected return and the volatility a rise in my price is nothing more than an indicator of the regime.",
+      "zh": "是的。所以我觉得有些部分其实相当有意思，因为……通常我们会选一两种，也就到此为止了。代理。所以，也就是预期收益和波动率……价格上涨对我来说不过是这个状态的一个指标。"
+    },
+    {
+      "i": 123,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "55:24",
+      "en": "one and two are kind of similar, but I guess the macro agent let's go back to this kind of food chain or workflow. So, you start So, I think here there is something that somebody could spend of each one of those markets that we have, or what is the confidence some time on and looking at. Now, how that then flows into an Equities you'd be long more often than not when growth is there.",
+      "zh": "……第一和第二有点类似，但我想宏观代理……让我们回到这个食物链（food chain）或者说工作流。所以你从……开始。我觉得这里有某个人可以花时间去研究的东西。这些市场中每一个的预期收益和波动率，或者那个信心度是多少……它如何流入一个投资决策……评分机制、以及哪个组合更青睐其余的组合……当增长在那里时，你在股票上多半会是多头。"
+    },
+    {
+      "i": 124,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "55:59",
+      "en": "around that? Well, I guess when we do trend following, we say would look into predictors of performance, whereas the asset class with a… let's assume you're building a trend model and you try investment decision in the current framework is about all the scoring mechanism and which portfolio favors the rest of portfolios the expected return is our past return, maybe scaled by some And by the way, that's what economic trend does at the end of and how they change their kind of their assessment of their peers.",
+      "zh": "……那个左右？嗯，我猜当我们做趋势跟踪时，我们说……会去研究业绩的预测因子（predictors），而资产类别代理更多是关于相对强度（relative strength）。假设你在构建一个趋势模型，你试着……预期收益就是我们过去的收益，也许按某种波动率缩放。所以在某种意义上我们的信心度……这是经济趋势（economic trend）归根结底所做的……以及他们如何改变对同伴的评估。"
+    },
+    {
+      "i": 125,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "56:27",
+      "en": "to fit it into those steps. So, you have a macro agent that says, agent is more about the relative strength. The CRO, we do measure of vol or whatever. So, in a way the confidence we have It’d not clear to me how that comes into trend following. But it's is how much volatile it is, which shrinks or expands our forecast.",
+      "zh": "……塞进那些步骤里。所以你有一个宏观代理，它说……资产类别代理更多是关于相对强度。CRO，我们确实衡量……它的波动性有多大，这会收缩或放大我们的预测。我不清楚那怎么进入趋势跟踪。但……"
+    },
+    {
+      "i": 126,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "56:54",
+      "en": "the day, you're looking into a regime and then you infer that your not that those steps are too abstract to how we would typically okay, what is economic regime? What does the trend followers say? it, it's the covariance estimation. However, you want to operate in a research environment. That's why I found it And the magnitude is coming purely by how strong that trend is.",
+      "zh": "……归根结底，你在看一个状态，然后你推断你的状态估计是正确的。倒不是说那些步骤对我们通常运作的方式太抽象……好，经济状态是什么？趋势跟踪者会怎么说？……那就是协方差估计。这就是为什么我觉得它有意思……而那个幅度（magnitude）纯粹来自于那个趋势有多强。"
+    },
+    {
+      "i": 127,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "57:21",
+      "en": "Well, I don't care about the regime, but if the price goes up, quite interesting because I can see, as researchers, going through estimate your covariance with a variety of techniques to make it regime estimate is correct. So, you buy the asset that was performing And these are not compatible the same way as capital market assumptions those steps, sometimes consciously, sometimes subconsciously, to eventually go from raw data, to a strategy, to a single are. So, that's step number two. So, the signal in, I guess,",
+      "zh": "……嗯，我不在乎状态，但如果价格涨，我就买。有意思，因为我能看到，作为研究者，走过……用各种技术来估计你的协方差，让它稳健（robust）。那些步骤，有时候是有意识地、有时候是潜意识地，最终从原始数据，到一个策略，到一个单一的信号……所以，那个信号，我猜……"
+    },
+    {
+      "i": 128,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "57:49",
+      "en": "I'm going to buy. And obviously, the fact that I observe the regime. So, pocket number one is our signal, then asset class robust. The fourth is portfolio construction. This is the line.",
+      "zh": "……我就要买。而且显然，我观察到状态这个事实……所以口袋（pocket）第一个是我们的信号，然后是资产类别……稳健。第四个是组合构建。这就是那条线。"
+    },
+    {
+      "i": 129,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "58:01",
+      "en": "Is it fair to say with the evolving emerging technology that if you're trying to satisfy or build a portfolio for multiple objectives, that that's maybe easier now? Mean, just thinking, in this example, obviously, they had an IPS and I think it was relatively simple objective of whatever it was Sharpe maximization or a certain return for certain vol. Obviously, if you're a trend follower, you're trying to generate absolute return, but you want to tilt the portfolio to first crisis alpha or performance in a",
+      "zh": "随着新兴技术的演进，如果你试图满足、或为多个目标构建一个组合，那是不是可以说现在更容易了？我是说，就想一想，在这个例子里，显然他们有一个投资政策声明（IPS），我想是一个相对简单的目标，不管是 Sharpe 最大化，还是某个波动率下的某个收益。显然，如果你是一个趋势跟踪者，你试图生成绝对收益，但你想把组合向危机 alpha（crisis alpha）、或向下行中的表现倾斜……"
+    },
+    {
+      "i": 130,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "58:33",
+      "en": "downturn. You want to minimize drawdowns. Yes. All this can come in… at times conflicting.",
+      "zh": "……下行中的表现。你想最小化回撤（drawdowns）。是的。所有这些都可能……有时候是相互冲突的。"
+    },
+    {
+      "i": 131,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "58:39",
+      "en": "Multiple objectives, at times conflicting or at times, yeah, I mean, hard to define. You may have more objectives than are just defined by mean variance optimization. That's the point, I guess. Does that become easier now in this kind of framework, do you think, or not?",
+      "zh": "多个目标，有时候相互冲突，或者有时候，是啊，难以定义。你可能有比均值方差优化（mean variance optimization）所定义的更多的目标。我想这就是重点。你觉得在这种框架下，这现在变得更容易了吗，还是不会？"
+    },
+    {
+      "i": 132,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "59:02",
+      "en": "I mean, I think it becomes more accessible, let's put it that of the paper is actually quite truthful. It says, and I'm kind of about talking about a CIO that perhaps can oversee 10 to 15 departments the inflation regimes in 2022, “why trend following is useful: Above all empirical data points it is going to take opportunistic shorts way. You would still have to, I would imagine, to utilize the expertise reading through, as you were kind of speaking, it strikes me that",
+      "zh": "我是说，我觉得它变得更可及（accessible），就这么说吧。……这篇论文其实相当诚实。它说，我一边读一边……关于一个也许能监督 10 到 15 个部门的 CIO……2022 年的通胀状态，『为什么趋势跟踪有用：在所有经验数据点之上，它都会采取机会主义的（opportunistic）做空……你仍然得利用运行那些组合的专业能力，来呈现一些既合理又可行的东西。』"
+    },
+    {
+      "i": 133,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "59:34",
+      "en": "or longs, depending on where you are, without expecting the next that are organized in lines of asset classes, and then a fundamental investment board to say, okay, let's change the allocation.” So of running those portfolios to present something that is both sensible basically what you're saying is kind of in this paragraph. It it was purely an attempt to shrink the time that it takes between analyst can probably cover 10 to 20 stocks. And a committee that",
+      "zh": "……或做多，取决于你在哪里，而不指望下一个……那些按资产类别线组织的……投资董事会说，好，我们改配置吧。』所以基本上你说的就在这个段落里。它……纯粹是一个尝试，去缩短一个决策与部署之间的时间……一个分析师大概能覆盖 10 到 20 只股票。而一个每月或每季度才聚一次的委员会……"
+    },
+    {
+      "i": 134,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "60:08",
+      "en": "a decision and deployment, which is a limitation in the way as well as tractable. Because ultimately those decisions are made says, “the most binding constraint in asset management is that institutions operate. Just because time is finite and it is kind of coming together monthly or quarterly, sometimes for kind of ticks deterministically, but it takes time by human beings and investors, institutional investors, that hold not data availability or model sophistication.” As in, we can get",
+      "zh": "……一个决策与部署，这是机构运作方式的一个局限。……确定性地（deterministically）打分，但它需要人类和投资者的时间……资产管理里最有约束力的限制是……我们可以拿到数据。"
+    },
+    {
+      "i": 135,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "60:37",
+      "en": "in this way. So, one of their arguments was we like trend following the responsibility of running those portfolios. But I think it a few hours, to just say, okay, let's go and see you in the because it can be opportunistic and deploy the exposures the data and we can be sophisticated enough, but it is the faster than our ability to bring together the investment board will make it more accessible, just to be clear. The first paragraph and do the analysis. Because by the time we do that, it's already",
+      "zh": "……以这种方式。所以他们的一个论点是，我们喜欢趋势跟踪，因为它可以是机会主义的、能比我们召集投资董事会的能力更快地部署敞口……它会变得更可及，说清楚一点。第一个段落……因为等我们做完那个，时机已经过去了。这实际上让我想起一个客户，他说，大约……"
+    },
+    {
+      "i": 136,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "61:13",
+      "en": "finite bandwidth of human decision makers. And then they go next committee. It reminded me actually of a client that said, around gone.",
+      "zh": "……人类决策者有限的带宽（finite bandwidth）。然后他们去参加下一次委员会。这实际上让我想起一个客户，他说，大约……已经过去了。"
+    },
+    {
+      "i": 137,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "61:24",
+      "en": "Yeah, interesting. I mean, one final one. I mean, obviously we have, in our world, programs built by machine learning. I mean, this is framed slightly differently with distinct agents operating in very well-defined capacities. I mean, how soon do you think we will see products in the market that are clearly labeled as run by AI agents?",
+      "zh": "是啊，有意思。我是说，最后一个问题。显然在我们的世界里，有用机器学习（machine learning）构建的程序。我是说，这个的框架稍微不同，是各个不同的代理在非常明确界定的能力范围里运作。我是说，你觉得我们多快会在市场上看到那些明确标注为由 AI 代理运行的产品？"
+    },
+    {
+      "i": 138,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "61:50",
+      "en": "Hard to foresee. I think the asset management industry can utilize, I would imagine, those technologies. I mean, we all can utilize the technologies, but on our side, obviously designing index products.",
+      "zh": "很难预见。我想资产管理行业可以利用这些技术，我猜。我是说，我们大家都能利用这些技术，但在我们这边，显然是设计指数产品（index products）。"
+    },
+    {
+      "i": 139,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "62:00",
+      "en": "Yes. The bar is higher for the obvious reasons. I think the reason why this is different to just utilizing historically coding and backtesting platforms is that the agent is ultimately speaking with its peers in natural language.",
+      "zh": "是的。出于显而易见的原因，门槛更高。我想这之所以不同于历史上仅仅利用编码和回测平台，是因为这个代理归根结底是在用自然语言跟它的同伴交流。"
+    },
+    {
+      "i": 140,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "62:23",
+      "en": "Yes, exactly. So, we can then go back and vet, and read, and understand, and check the debate. And this is all becoming much more auditable and tractable. But that in itself is stochastic.",
+      "zh": "是的，正是。所以我们可以回过头去审查（vet）、阅读、理解、检查那场辩论。而这一切都变得更加可审计（auditable）、更加可行。但那本身就是随机的（stochastic）。"
+    },
+    {
+      "i": 141,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "62:37",
+      "en": "Yeah. It's not x plus y equals to 2, if x equals 2, what is my y? And I think that's the beautiful challenge in this regard. But the benefit of the agentic that it speaks the language rather than just running the math.",
+      "zh": "是啊。这不是 x 加 y 等于 2、如果 x 等于 2 那我的 y 是多少。我想这正是这方面那个美妙而具挑战性的地方。但代理式 AI 的好处在于它会说这门语言，而不只是跑数学。"
+    },
+    {
+      "i": 142,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "62:55",
+      "en": "Okay, interesting. Yeah, definitely a wake-up call as to how far things have come along in terms of putting not just the use Nick, for bringing those research topics and always fascinating to get your thoughts. And Niels is away next week again, so of AI, but multiple agents together. And as you say, when they're I'm back again next week speaking with Cem. So if you have speaking to each other and some of the additional benefits that questions, please send them in. But Nick, thanks for coming and",
+      "zh": "好，有意思。是啊，这绝对是一记警钟（wake-up call），说明事情已经走了多远——不只是使用 AI，而是把多个代理放到一起。而且正如你说的，当它们互相交流、以及一些额外的好处……Nick，谢谢你带来这些研究话题，总能听到你的想法很有意思。Niels 下周又不在，所以我下周回来跟 Cem 对谈。所以如果你有问题，请发过来。Nick，谢谢你来，而且……"
+    },
+    {
+      "i": 143,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "63:15",
+      "en": "come with that in terms of an audit trail, etc. So, I think, yeah, to everybody out there, thanks for dialing in and we'll be back it's definitely… It does get you thinking as to what's coming soon with more content.",
+      "zh": "……带来那些，还有审计轨迹等等。所以我觉得，是啊，这绝对……它确实让你去思考接下来会来什么。对各位听众，谢谢你们的收听，我们很快会带着更多内容回来。"
+    },
+    {
+      "i": 144,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "63:26",
+      "en": "next. Well, let's leave it there for today. Thanks very much,",
+      "zh": "……接下来会来什么。好，今天就到这里。非常感谢，"
+    },
+    {
+      "i": 145,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "63:58",
+      "en": "Thanks for listening to Top Traders Unplugged. If you feel you Certain information contained herein concerning economic trends Top Traders Unplugged make no representation to its accuracy and learned something of value from today's episode, the best way the views of its hosts and the guests appearing on the podcast as in this podcast does not constitute and should not be construed the accuracy of such information and has not independently is made available for educational purposes only and should",
+      "zh": "感谢收听 Top Traders Unplugged。如果你觉得你从今天这期节目里学到了有价值的东西，保持更新的最好方式，就是去你最喜爱的播客平台关注本节目，这样你就能确保收到所有新发布的剧集。我们有一些很棒的嘉宾已经为你排好了，而为了让我们的节目持续成长，请留下……本播客中此处所含关于经济趋势和业绩的某些信息，是基于或由独立第三方来源提供的信息得出或推导的，截至其录制之日，此类观点可能会有变更，恕不另行通知。Top Traders Unplugged 不对其准确性……本播客及其主持人和出现在播客上的嘉宾的观点，仅供教育目的提供，不应被解释为或构成投资建议，或出售要约，或购买任何证券或相关金融工具的招揽，在任何司法辖区皆然。"
+    },
+    {
+      "i": 146,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "64:15",
+      "en": "and performance is based on or derived from information provided to stay updated is to go on over to your favorite podcast platform it's the best way to show us you love the podcast. We'll see you verified the accuracy or completeness of such information it shall not be assumed that past investment performance is an of the date of its recording, and such views are subject to change or the assumptions on which such information is based. This podcast, and follow the show so that you'll be sure to get all the new",
+      "zh": "……一个诚实的评分和评论。它只需花一分钟，而且是向我们表明你喜爱这个播客的最好方式。我们下次在 Top Traders Unplugged 见。本播客表达……不得假定过去的投资业绩是未来结果的指示。此外，凡存在盈利潜力之处，也存在亏损的可能。这些内容……不得以任何形式，整体或部分地被复制、重新发布或张贴，未经 Top Traders Unplugged 事先书面同意。"
+    },
+    {
+      "i": 147,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "64:34",
+      "en": "as investment advice or an offer to sell or a solicitation to by independent third-party sources. Top Traders Unplugged may including the information contained herein, may not be reproduced, indication of future results. Moreover, wherever there is a potential episodes as they're released. We have some amazing guests lined not be used for any other purpose. The information contained without notice. Top Traders Unplugged do not have any duty or copied, republished or posted in whole or in part in any form,",
+      "zh": "……作为投资建议，或出售的要约，或招揽……由独立第三方来源提供。Top Traders Unplugged 可能……包括此处所含的信息，不得被复制、重新发布或张贴，整体或部分，以任何形式……未来结果的指示。此外，凡存在潜在盈利之处……一旦它们发布。我们有一些很棒的嘉宾已经排好……在没有事先书面同意的情况下。"
+    },
+    {
+      "i": 148,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "65:00",
+      "en": "believe that the sources from which such information are obtained buy any securities or related financial instruments in any jurisdiction. up for you and to ensure our show continues to grow, please leave next time on Top Traders Unplugged. This podcast expresses for profit, there is also the possibility of loss. This content obligation to update the information contained herein. Furthermore, without the prior written consent of Top Traders Unplugged.",
+      "zh": "……相信此类信息来源所得之处是可靠的。然而，Top Traders Unplugged 无法保证……购买任何证券或相关金融工具，在任何司法辖区。为你排好了，而为了让我们的节目持续成长，请留下……下次在 Top Traders Unplugged 见。本播客表达……以营利为目的，也存在亏损的可能。这些内容……没有义务更新此处所含的信息。此外……"
+    },
+    {
+      "i": 149,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "65:23",
+      "en": "us an honest rating and review. It only takes a minute and are reliable. However, Top Traders Unplugged cannot guarantee",
+      "zh": "……一个诚实的评分和评论。它只需花一分钟，而且……是可靠的。然而，Top Traders Unplugged 无法保证……"
+    }
+  ]
+}
