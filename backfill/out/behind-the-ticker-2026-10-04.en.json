@@ -1,0 +1,2787 @@
+[
+  {
+    "speaker": 1,
+    "ts": 0,
+    "text": "Welcome to Behind the Ticker, the podcast where we go beyond the symbol and into the"
+  },
+  {
+    "speaker": 1,
+    "ts": 9,
+    "text": "strategy."
+  },
+  {
+    "speaker": 1,
+    "ts": 10,
+    "text": "I'm Brad Roth, founder and chief investment officer at Thor Funds, and in each episode,"
+  },
+  {
+    "speaker": 1,
+    "ts": 16,
+    "text": "I sit down with ETF managers, CIOs, and industry leaders to break down how these funds are"
+  },
+  {
+    "speaker": 1,
+    "ts": 23,
+    "text": "actually built, how they behave in real markets, and how advisors use them in real portfolios."
+  },
+  {
+    "speaker": 1,
+    "ts": 29,
+    "text": "People just see a ticker symbol, but we know much more goes on behind the ticker."
+  },
+  {
+    "speaker": 1,
+    "ts": 40,
+    "text": "Hey, Paisley, welcome back to the show."
+  },
+  {
+    "speaker": 1,
+    "ts": 43,
+    "text": "Thanks for having me back."
+  },
+  {
+    "speaker": 1,
+    "ts": 45,
+    "text": "So before we get started, I know you've, this is your second time here, but can you give"
+  },
+  {
+    "speaker": 1,
+    "ts": 49,
+    "text": "everybody a refresher on your background, a bit about your new role over at Tema as"
+  },
+  {
+    "speaker": 1,
+    "ts": 54,
+    "text": "head of investment strategy?"
+  },
+  {
+    "speaker": 1,
+    "ts": 56,
+    "text": "Yeah, super excited to join Tema."
+  },
+  {
+    "speaker": 1,
+    "ts": 59,
+    "text": "I guess at the beginning of September this year."
+  },
+  {
+    "speaker": 1,
+    "ts": 61,
+    "text": "So very recent, but my background has kind of been all over the map."
+  },
+  {
+    "speaker": 1,
+    "ts": 66,
+    "text": "I kind of started my career in trading and portfolio management, specifically within"
+  },
+  {
+    "speaker": 1,
+    "ts": 70,
+    "text": "fixed income."
+  },
+  {
+    "speaker": 1,
+    "ts": 71,
+    "text": "So with all of the noise going around around rate hikes, maybe rate cuts next year, we'll"
+  },
+  {
+    "speaker": 1,
+    "ts": 77,
+    "text": "see near and dear to my heart from like a macro economic backdrop."
+  },
+  {
+    "speaker": 1,
+    "ts": 83,
+    "text": "So that's really kind of where I cut my teeth, as they say."
+  },
+  {
+    "speaker": 1,
+    "ts": 86,
+    "text": "And then I've spent like the last decade or so in more of like a multi-asset role, leading"
+  },
+  {
+    "speaker": 1,
+    "ts": 91,
+    "text": "investment strategy, talking to advisors, talking to institutional allocators about"
+  },
+  {
+    "speaker": 1,
+    "ts": 95,
+    "text": "how to build better portfolios, how to build more resilient portfolios based on their specific"
+  },
+  {
+    "speaker": 1,
+    "ts": 101,
+    "text": "objectives."
+  },
+  {
+    "speaker": 1,
+    "ts": 103,
+    "text": "So I've spent some time in the liquid alternative space, have spent some time in the"
+  },
+  {
+    "speaker": 1,
+    "ts": 107,
+    "text": "derivative income space, and I'm now at Tema where we're focused on thematic, active"
+  },
+  {
+    "speaker": 1,
+    "ts": 113,
+    "text": "equity solutions."
+  },
+  {
+    "speaker": 1,
+    "ts": 114,
+    "text": "So if you think about what's really driving the next frontier from a growth perspective,"
+  },
+  {
+    "speaker": 1,
+    "ts": 118,
+    "text": "what's driving economic activity, we'll talk about that today when we speak about dice."
+  },
+  {
+    "speaker": 1,
+    "ts": 123,
+    "text": "That's really what our DNA is."
+  },
+  {
+    "speaker": 1,
+    "ts": 125,
+    "text": "We're focused on fundamental active management, which I know in 2026 is crazy to say."
+  },
+  {
+    "speaker": 1,
+    "ts": 131,
+    "text": "I took the CFA exam years ago and I felt like we were starting to wonder whether active"
+  },
+  {
+    "speaker": 1,
+    "ts": 137,
+    "text": "management actually moves the needle."
+  },
+  {
+    "speaker": 1,
+    "ts": 140,
+    "text": "And I've actually been encouraged by the last couple quarters where more dispersion in the"
+  },
+  {
+    "speaker": 1,
+    "ts": 144,
+    "text": "markets is leading investors to rethink the role of active in their portfolio, especially"
+  },
+  {
+    "speaker": 1,
+    "ts": 148,
+    "text": "for risk mitigation purposes."
+  },
+  {
+    "speaker": 1,
+    "ts": 150,
+    "text": "So all that to be said, my role here at Tema, head of investment strategy is to help our"
+  },
+  {
+    "speaker": 1,
+    "ts": 156,
+    "text": "clients understand these exciting pockets of the market, how they fit within a portfolio,"
+  },
+  {
+    "speaker": 1,
+    "ts": 162,
+    "text": "and ultimately what it means from a forward-looking investment perspective."
+  },
+  {
+    "speaker": 1,
+    "ts": 166,
+    "text": "So excited to share more today about the firm and about one of our really exciting"
+  },
+  {
+    "speaker": 1,
+    "ts": 171,
+    "text": "strategies that just launched."
+  },
+  {
+    "speaker": 1,
+    "ts": 173,
+    "text": "So let's talk about the firm really quickly."
+  },
+  {
+    "speaker": 1,
+    "ts": 174,
+    "text": "You know, it was only founded in 2022."
+  },
+  {
+    "speaker": 1,
+    "ts": 177,
+    "text": "It's got a couple of backers and the platform has doubled in 2026 at four billion in assets."
+  },
+  {
+    "speaker": 1,
+    "ts": 182,
+    "text": "So just curious from a personal level, what drew you to Tema at this point in the firm's story?"
+  },
+  {
+    "speaker": 1,
+    "ts": 187,
+    "text": "Yeah, just that growth you mentioned."
+  },
+  {
+    "speaker": 1,
+    "ts": 188,
+    "text": "So I got a little bite of the startup bug after spending over a decade at like kind of"
+  },
+  {
+    "speaker": 1,
+    "ts": 194,
+    "text": "a large corporate investment management firm and really liked my ability to move the needle."
+  },
+  {
+    "speaker": 1,
+    "ts": 201,
+    "text": "You kind of participate fully in the upside and the downside, but being able to have autonomy"
+  },
+  {
+    "speaker": 1,
+    "ts": 205,
+    "text": "and really help drive outcomes and growth of the firm joining Tema, I think was super exciting."
+  },
+  {
+    "speaker": 1,
+    "ts": 211,
+    "text": "We're at this kind of intersection of where allocators are putting money to work and these"
+  },
+  {
+    "speaker": 1,
+    "ts": 218,
+    "text": "growth-oriented thematic parts of the market in doing so in a way that we're nimble because"
+  },
+  {
+    "speaker": 1,
+    "ts": 223,
+    "text": "we're so small."
+  },
+  {
+    "speaker": 1,
+    "ts": 224,
+    "text": "So as you mentioned, we launched in 2022."
+  },
+  {
+    "speaker": 1,
+    "ts": 227,
+    "text": "We've grown meaningfully."
+  },
+  {
+    "speaker": 1,
+    "ts": 228,
+    "text": "I think 2026 year to date as of the third quarter now, I think Tema was the second fastest"
+  },
+  {
+    "speaker": 1,
+    "ts": 236,
+    "text": "growing firm year to date in the active ETF space."
+  },
+  {
+    "speaker": 1,
+    "ts": 239,
+    "text": "Two of our strategies, NASA, which is space exploration, of course, and then Volt, which"
+  },
+  {
+    "speaker": 1,
+    "ts": 246,
+    "text": "is our electrification ETF, were two of those drivers."
+  },
+  {
+    "speaker": 1,
+    "ts": 250,
+    "text": "And so, again, it's just really exciting to be at the forefront of client conversations"
+  },
+  {
+    "speaker": 1,
+    "ts": 254,
+    "text": "and being able to kind of guide that narrative."
+  },
+  {
+    "speaker": 1,
+    "ts": 257,
+    "text": "Well, I had Yuri on not too long ago when we talked or not Yuri."
+  },
+  {
+    "speaker": 1,
+    "ts": 262,
+    "text": "Oh, geez."
+  },
+  {
+    "speaker": 1,
+    "ts": 263,
+    "text": "Now we're live and I forget his name."
+  },
+  {
+    "speaker": 1,
+    "ts": 264,
+    "text": "I had."
+  },
+  {
+    "speaker": 1,
+    "ts": 265,
+    "text": "Was it Moritz?"
+  },
+  {
+    "speaker": 1,
+    "ts": 266,
+    "text": "Yes."
+  },
+  {
+    "speaker": 1,
+    "ts": 266,
+    "text": "And we talked about the NASA ETF."
+  },
+  {
+    "speaker": 1,
+    "ts": 268,
+    "text": "Cool."
+  },
+  {
+    "speaker": 1,
+    "ts": 269,
+    "text": "I do I do like three of these a week and I end up like forgetting people's names."
+  },
+  {
+    "speaker": 1,
+    "ts": 273,
+    "text": "But anyways, it was it's super interesting and I love the thesis."
+  },
+  {
+    "speaker": 1,
+    "ts": 276,
+    "text": "I love the story."
+  },
+  {
+    "speaker": 1,
+    "ts": 277,
+    "text": "But today we're here to talk about DICE, which is a very new type of ETF."
+  },
+  {
+    "speaker": 1,
+    "ts": 281,
+    "text": "It's the Trading and Prediction Markets ETF launched September 9th on CBOE."
+  },
+  {
+    "speaker": 1,
+    "ts": 286,
+    "text": "It's actively managed, as you said."
+  },
+  {
+    "speaker": 1,
+    "ts": 288,
+    "text": "So at a high level, what is this fund?"
+  },
+  {
+    "speaker": 1,
+    "ts": 290,
+    "text": "What's it investing in and what's it doing?"
+  },
+  {
+    "speaker": 1,
+    "ts": 292,
+    "text": "Yeah, I want to start actually by saying what it's not, which will be very quick."
+  },
+  {
+    "speaker": 1,
+    "ts": 296,
+    "text": "But I think when people hear prediction market ETF, I think their first thought is like,"
+  },
+  {
+    "speaker": 1,
+    "ts": 301,
+    "text": "oh, it's an event contract ETF."
+  },
+  {
+    "speaker": 1,
+    "ts": 303,
+    "text": "So a lot of strategies or ETFs that have filed, they have not yet launched because"
+  },
+  {
+    "speaker": 1,
+    "ts": 308,
+    "text": "there's some pushback, but a lot of strategies have filed to launch strategies"
+  },
+  {
+    "speaker": 1,
+    "ts": 312,
+    "text": "in which they're actually trading event contracts."
+  },
+  {
+    "speaker": 1,
+    "ts": 315,
+    "text": "Those are binary outcomes, right?"
+  },
+  {
+    "speaker": 1,
+    "ts": 317,
+    "text": "If you're right, the ETF goes up."
+  },
+  {
+    "speaker": 1,
+    "ts": 318,
+    "text": "If you're wrong, the ETF can go to zero."
+  },
+  {
+    "speaker": 1,
+    "ts": 321,
+    "text": "What we sought to launch really ties back to our DNA at TEMA, which is an investment led firm."
+  },
+  {
+    "speaker": 1,
+    "ts": 327,
+    "text": "So with all of the noise in the active ETF space right now, I think a lot of advisors"
+  },
+  {
+    "speaker": 1,
+    "ts": 332,
+    "text": "are feeling fatigued, feeling like a lot of this is being launched just for marketing purposes."
+  },
+  {
+    "speaker": 1,
+    "ts": 336,
+    "text": "When we launched DICE, which again is kind of a clever ticker, I would say, given the prediction"
+  },
+  {
+    "speaker": 1,
+    "ts": 342,
+    "text": "market topic, we launched it with the intent of thinking about this is a massively growing"
+  },
+  {
+    "speaker": 1,
+    "ts": 348,
+    "text": "part of not only the US economy, but the global economy."
+  },
+  {
+    "speaker": 1,
+    "ts": 353,
+    "text": "How do we determine that it is?"
+  },
+  {
+    "speaker": 1,
+    "ts": 355,
+    "text": "We look at trading volumes."
+  },
+  {
+    "speaker": 1,
+    "ts": 356,
+    "text": "I think some of the more recent stats have shown just lately about 50 billion and kind"
+  },
+  {
+    "speaker": 1,
+    "ts": 362,
+    "text": "of monthly trading volume taking place."
+  },
+  {
+    "speaker": 1,
+    "ts": 365,
+    "text": "That's up double from where we started this year."
+  },
+  {
+    "speaker": 1,
+    "ts": 368,
+    "text": "What's driving that, right?"
+  },
+  {
+    "speaker": 1,
+    "ts": 369,
+    "text": "We had 2024, we had some of the election rhetoric kick off some of the trading activity"
+  },
+  {
+    "speaker": 1,
+    "ts": 375,
+    "text": "on say, Pauli Market and Kalshi."
+  },
+  {
+    "speaker": 1,
+    "ts": 378,
+    "text": "And then we had the World Cup earlier this summer that drove a lot of activity now."
+  },
+  {
+    "speaker": 1,
+    "ts": 383,
+    "text": "And the launch of DICE in September of 2026 was not coincidental."
+  },
+  {
+    "speaker": 1,
+    "ts": 388,
+    "text": "It's the beginning of the NFL season."
+  },
+  {
+    "speaker": 1,
+    "ts": 390,
+    "text": "That's where we know there is a lot of activity on these trading platforms."
+  },
+  {
+    "speaker": 1,
+    "ts": 394,
+    "text": "And then what's next around the corner as we enter the fourth quarter, the midterms."
+  },
+  {
+    "speaker": 1,
+    "ts": 398,
+    "text": "And so I think really looking at how we view the trading and prediction ETF DICE that we"
+  },
+  {
+    "speaker": 1,
+    "ts": 402,
+    "text": "launched was how do we invest in the infrastructure, the actual platforms that are driving this?"
+  },
+  {
+    "speaker": 1,
+    "ts": 407,
+    "text": "So again, started with what is DICE not?"
+  },
+  {
+    "speaker": 1,
+    "ts": 410,
+    "text": "It is not trading event contracts."
+  },
+  {
+    "speaker": 1,
+    "ts": 412,
+    "text": "It's trading the ecosystem, the infrastructure, the pipes that are driving all of this."
+  },
+  {
+    "speaker": 1,
+    "ts": 417,
+    "text": "And so we can talk about some of these specific plays, but really thinking about this is a"
+  },
+  {
+    "speaker": 1,
+    "ts": 421,
+    "text": "growing part of the market that anyone from sophisticated professionals down to individual"
+  },
+  {
+    "speaker": 1,
+    "ts": 426,
+    "text": "consumers is paying attention to."
+  },
+  {
+    "speaker": 1,
+    "ts": 429,
+    "text": "You can't look away from it."
+  },
+  {
+    "speaker": 1,
+    "ts": 430,
+    "text": "Every time you turn on your TV, when you're looking at ads, we're talking about ways to"
+  },
+  {
+    "speaker": 1,
+    "ts": 434,
+    "text": "place bets on different platforms."
+  },
+  {
+    "speaker": 1,
+    "ts": 437,
+    "text": "And so we know that the consumer is putting capital to work."
+  },
+  {
+    "speaker": 1,
+    "ts": 440,
+    "text": "So how can we take advantage of this from a long term, strategic, durable investment"
+  },
+  {
+    "speaker": 1,
+    "ts": 445,
+    "text": "perspective?"
+  },
+  {
+    "speaker": 1,
+    "ts": 446,
+    "text": "And that's again, comes back to we're the only prediction market ETF on the market today."
+  },
+  {
+    "speaker": 1,
+    "ts": 451,
+    "text": "And then we can also talk about some other unique aspects of the fund."
+  },
+  {
+    "speaker": 1,
+    "ts": 454,
+    "text": "Yeah, I definitely want to talk about what's in it."
+  },
+  {
+    "speaker": 1,
+    "ts": 457,
+    "text": "But I want to stay on the growth of this market because the trading volume is forecasted"
+  },
+  {
+    "speaker": 1,
+    "ts": 461,
+    "text": "to increase nearly 20 X to one trillion by 2030."
+  },
+  {
+    "speaker": 1,
+    "ts": 465,
+    "text": "At least that's what I was reading."
+  },
+  {
+    "speaker": 1,
+    "ts": 466,
+    "text": "So like what's what's driving that growth curve?"
+  },
+  {
+    "speaker": 1,
+    "ts": 469,
+    "text": "Like what do you think underlying is actually driving that?"
+  },
+  {
+    "speaker": 1,
+    "ts": 471,
+    "text": "I'll give you a real life example."
+  },
+  {
+    "speaker": 1,
+    "ts": 474,
+    "text": "Like you and I both have trading backgrounds."
+  },
+  {
+    "speaker": 1,
+    "ts": 476,
+    "text": "I got too busy to trade the bug hit me."
+  },
+  {
+    "speaker": 1,
+    "ts": 479,
+    "text": "I downloaded an interactive brokers to get back in the mix."
+  },
+  {
+    "speaker": 1,
+    "ts": 483,
+    "text": "And when I'm looking at even futures, guess what's there?"
+  },
+  {
+    "speaker": 1,
+    "ts": 486,
+    "text": "A prediction market."
+  },
+  {
+    "speaker": 1,
+    "ts": 487,
+    "text": "I can take that bet right there next to my chart."
+  },
+  {
+    "speaker": 1,
+    "ts": 489,
+    "text": "So I'm sure that has something to do with it, but kind of walk me through the thesis"
+  },
+  {
+    "speaker": 1,
+    "ts": 494,
+    "text": "over at the firm of what do you think is actually driving this volume?"
+  },
+  {
+    "speaker": 1,
+    "ts": 497,
+    "text": "That's exactly it."
+  },
+  {
+    "speaker": 1,
+    "ts": 498,
+    "text": "I mean, that's one of our holdings in dice as interactive brokers."
+  },
+  {
+    "speaker": 1,
+    "ts": 501,
+    "text": "And just for that reason, they're integrating the ability to trade contracts directly."
+  },
+  {
+    "speaker": 1,
+    "ts": 506,
+    "text": "So it's a seamless, you know, user experience."
+  },
+  {
+    "speaker": 1,
+    "ts": 509,
+    "text": "I would say you're not having to go out and download a different platform."
+  },
+  {
+    "speaker": 1,
+    "ts": 512,
+    "text": "It's being presented to you."
+  },
+  {
+    "speaker": 1,
+    "ts": 513,
+    "text": "And this is really the rise of advertising."
+  },
+  {
+    "speaker": 1,
+    "ts": 516,
+    "text": "And I think as I mentioned prior, everywhere we look, there's ads for"
+  },
+  {
+    "speaker": 1,
+    "ts": 519,
+    "text": "different, you know, whether it be sports gambling, online betting."
+  },
+  {
+    "speaker": 1,
+    "ts": 524,
+    "text": "And I think with just the rise of the proliferation of information overload, right?"
+  },
+  {
+    "speaker": 1,
+    "ts": 528,
+    "text": "If you're on Twitter, as we were joking, I still call it Twitter."
+  },
+  {
+    "speaker": 1,
+    "ts": 533,
+    "text": "You're just this constant flux of information."
+  },
+  {
+    "speaker": 1,
+    "ts": 535,
+    "text": "I think all of us feel it in our daily lives and the ability to transact or take"
+  },
+  {
+    "speaker": 1,
+    "ts": 540,
+    "text": "advantage of some of that data to make a profit, I think, is becoming increasingly"
+  },
+  {
+    "speaker": 1,
+    "ts": 544,
+    "text": "attractive. And so although we focus a lot on sports, because that was the"
+  },
+  {
+    "speaker": 1,
+    "ts": 548,
+    "text": "genesis of many much of this market, as well as crypto."
+  },
+  {
+    "speaker": 1,
+    "ts": 551,
+    "text": "And we can talk about that because some of these platforms are crypto native."
+  },
+  {
+    "speaker": 1,
+    "ts": 556,
+    "text": "And so their genesis several years ago was like blockchain, crypto world, that"
+  },
+  {
+    "speaker": 1,
+    "ts": 561,
+    "text": "it's just now starting to get into more of the online betting space."
+  },
+  {
+    "speaker": 1,
+    "ts": 566,
+    "text": "But as we look at the infrastructure build out, more and more of these, and I"
+  },
+  {
+    "speaker": 1,
+    "ts": 570,
+    "text": "don't want to call them blue chip names, but they're not like these dark corners"
+  },
+  {
+    "speaker": 1,
+    "ts": 574,
+    "text": "of like the dark web that are engaging in this."
+  },
+  {
+    "speaker": 1,
+    "ts": 577,
+    "text": "It's interactive brokers, as you mentioned, it's Coinbase, it's Robinhood,"
+  },
+  {
+    "speaker": 1,
+    "ts": 581,
+    "text": "Intercontinental Exchange, which is the parent company of the NICI."
+  },
+  {
+    "speaker": 1,
+    "ts": 586,
+    "text": "So as we think about this institutionalization, I would say, of this"
+  },
+  {
+    "speaker": 1,
+    "ts": 590,
+    "text": "space and the recognition that individual consumers as well as professionals"
+  },
+  {
+    "speaker": 1,
+    "ts": 596,
+    "text": "like ourselves are intrigued."
+  },
+  {
+    "speaker": 1,
+    "ts": 598,
+    "text": "Is there a ways for us to start thinking, huh, we have the Fed meeting, which"
+  },
+  {
+    "speaker": 1,
+    "ts": 602,
+    "text": "was of course has just since passed."
+  },
+  {
+    "speaker": 1,
+    "ts": 604,
+    "text": "There'll be another one in October and December."
+  },
+  {
+    "speaker": 1,
+    "ts": 607,
+    "text": "But is there a way for me to place a bet on that?"
+  },
+  {
+    "speaker": 1,
+    "ts": 610,
+    "text": "Or is there a way for me as an institutional hedge fund, perhaps, to"
+  },
+  {
+    "speaker": 1,
+    "ts": 615,
+    "text": "place a trade in a portfolio around next month's CPI print?"
+  },
+  {
+    "speaker": 1,
+    "ts": 621,
+    "text": "And so what started as, hey, I want to place a bet on the upcoming Dodgers"
+  },
+  {
+    "speaker": 1,
+    "ts": 625,
+    "text": "game based in Southern California, by the way, has now expanded into"
+  },
+  {
+    "speaker": 1,
+    "ts": 629,
+    "text": "something that's way more institutional in nature."
+  },
+  {
+    "speaker": 1,
+    "ts": 632,
+    "text": "And so the reach of that, the volume of the transactions that can take"
+  },
+  {
+    "speaker": 1,
+    "ts": 636,
+    "text": "place in some of these platforms is increasing alongside of that."
+  },
+  {
+    "speaker": 1,
+    "ts": 640,
+    "text": "So I think it's the seamless integration."
+  },
+  {
+    "speaker": 1,
+    "ts": 642,
+    "text": "And we mentioned some of those companies just now."
+  },
+  {
+    "speaker": 1,
+    "ts": 645,
+    "text": "I think it's the rise of advertising and media."
+  },
+  {
+    "speaker": 1,
+    "ts": 648,
+    "text": "All of these companies, especially in the sports world, are looking to make a buck."
+  },
+  {
+    "speaker": 1,
+    "ts": 653,
+    "text": "And then ultimately, the World Cup, the Olympics in 2028, which is also"
+  },
+  {
+    "speaker": 1,
+    "ts": 657,
+    "text": "going to be in Southern California."
+  },
+  {
+    "speaker": 1,
+    "ts": 659,
+    "text": "I mean, there's so many kind of global platforms of opportunities to"
+  },
+  {
+    "speaker": 1,
+    "ts": 664,
+    "text": "place a bet on binary outcomes."
+  },
+  {
+    "speaker": 1,
+    "ts": 667,
+    "text": "And that I think more so in the near term, what's really driving the volume"
+  },
+  {
+    "speaker": 1,
+    "ts": 672,
+    "text": "is going to be the midterms."
+  },
+  {
+    "speaker": 1,
+    "ts": 673,
+    "text": "We've seen a huge rise that kicked off, as I mentioned, in 2024 with the election."
+  },
+  {
+    "speaker": 1,
+    "ts": 677,
+    "text": "So with the midterms coming up, there is already a lot of activity"
+  },
+  {
+    "speaker": 1,
+    "ts": 681,
+    "text": "on these platforms for people that are kind of placing their views to make money."
+  },
+  {
+    "speaker": 1,
+    "ts": 687,
+    "text": "Well, I could have a whole other podcast on this."
+  },
+  {
+    "speaker": 1,
+    "ts": 689,
+    "text": "You mentioned the Dodgers, but we did get baseball ETFs this week."
+  },
+  {
+    "speaker": 1,
+    "ts": 691,
+    "text": "We actually got levered baseball ETFs this week, which, you know, we can again,"
+  },
+  {
+    "speaker": 1,
+    "ts": 696,
+    "text": "that is a conversation for another day."
+  },
+  {
+    "speaker": 1,
+    "ts": 698,
+    "text": "It is back to dice."
+  },
+  {
+    "speaker": 1,
+    "ts": 700,
+    "text": "We already talked about Kashi, Polymarket, but both of these companies are private."
+  },
+  {
+    "speaker": 1,
+    "ts": 705,
+    "text": "So can you walk us through how you're getting this exposure?"
+  },
+  {
+    "speaker": 1,
+    "ts": 708,
+    "text": "I'm assuming it's very similar to how you got SpaceX exposure in NASA"
+  },
+  {
+    "speaker": 1,
+    "ts": 713,
+    "text": "through that SPV structure."
+  },
+  {
+    "speaker": 1,
+    "ts": 715,
+    "text": "Yeah, that's exactly right."
+  },
+  {
+    "speaker": 1,
+    "ts": 716,
+    "text": "So again, I almost want to start with what is it not?"
+  },
+  {
+    "speaker": 1,
+    "ts": 721,
+    "text": "So just to be very clear, several of TEMA's ETFs have pre-IPO exposure."
+  },
+  {
+    "speaker": 1,
+    "ts": 727,
+    "text": "And you mentioned NASA, which was one that took place earlier this year."
+  },
+  {
+    "speaker": 1,
+    "ts": 732,
+    "text": "When we go out to get exposure to some of these pre-IPO companies,"
+  },
+  {
+    "speaker": 1,
+    "ts": 738,
+    "text": "this is not a short term, like kind of meme stock, like, hey,"
+  },
+  {
+    "speaker": 1,
+    "ts": 742,
+    "text": "let's get in the run up of the IPO and then sell it."
+  },
+  {
+    "speaker": 1,
+    "ts": 746,
+    "text": "As I mentioned at the onset, TEMA is very much an investment forward"
+  },
+  {
+    "speaker": 1,
+    "ts": 749,
+    "text": "or investment led firm."
+  },
+  {
+    "speaker": 1,
+    "ts": 751,
+    "text": "And so as we're making allocation decisions, we're very much looking at valuations."
+  },
+  {
+    "speaker": 1,
+    "ts": 755,
+    "text": "We're looking at higher quality."
+  },
+  {
+    "speaker": 1,
+    "ts": 757,
+    "text": "So we're thinking about the durability of these companies."
+  },
+  {
+    "speaker": 1,
+    "ts": 759,
+    "text": "These are strategic allocations for us."
+  },
+  {
+    "speaker": 1,
+    "ts": 762,
+    "text": "So through our operations and through some of our expertise and partnerships,"
+  },
+  {
+    "speaker": 1,
+    "ts": 766,
+    "text": "we have an upper hand, I believe, to give investors something that is very unique,"
+  },
+  {
+    "speaker": 1,
+    "ts": 771,
+    "text": "that they're not getting elsewhere."
+  },
+  {
+    "speaker": 1,
+    "ts": 772,
+    "text": "There's no other daily liquid ETFs, at least that I'm aware of as of today,"
+  },
+  {
+    "speaker": 1,
+    "ts": 777,
+    "text": "that provide exposure to Kashi, to Polymarket."
+  },
+  {
+    "speaker": 1,
+    "ts": 780,
+    "text": "And so DICE's ability to gain access to those pre-IPO."
+  },
+  {
+    "speaker": 1,
+    "ts": 784,
+    "text": "So we're doing these through an SPB, Special Purpose Vehicle."
+  },
+  {
+    "speaker": 1,
+    "ts": 789,
+    "text": "We're cognizant that ETFs, of course, are daily liquid vehicles."
+  },
+  {
+    "speaker": 1,
+    "ts": 792,
+    "text": "There's other strategies in the market that are following,"
+  },
+  {
+    "speaker": 1,
+    "ts": 797,
+    "text": "like State Street, for example, has PRIV,"
+  },
+  {
+    "speaker": 1,
+    "ts": 801,
+    "text": "which is an ETF that has like a 15% sleeve for private credit exposure."
+  },
+  {
+    "speaker": 1,
+    "ts": 805,
+    "text": "So investors can kind of think about this in the same way."
+  },
+  {
+    "speaker": 1,
+    "ts": 808,
+    "text": "These are daily liquid ETFs."
+  },
+  {
+    "speaker": 1,
+    "ts": 809,
+    "text": "We're not trying to cram a bunch of illiquid exposure within this."
+  },
+  {
+    "speaker": 1,
+    "ts": 813,
+    "text": "So again, what is this not?"
+  },
+  {
+    "speaker": 1,
+    "ts": 815,
+    "text": "This is not us just trying to be flashy and exciting and market this as,"
+  },
+  {
+    "speaker": 1,
+    "ts": 819,
+    "text": "oh, get pre-IPO exposure."
+  },
+  {
+    "speaker": 1,
+    "ts": 820,
+    "text": "No, we want to hold Kashi."
+  },
+  {
+    "speaker": 1,
+    "ts": 822,
+    "text": "We want to hold Polymarket irrespective of their pre-IPO or public stocks today."
+  },
+  {
+    "speaker": 1,
+    "ts": 828,
+    "text": "And I think I'm glad you brought up NASA."
+  },
+  {
+    "speaker": 1,
+    "ts": 830,
+    "text": "That's a prime example."
+  },
+  {
+    "speaker": 1,
+    "ts": 832,
+    "text": "We were able to procure exposure to SpaceX pre-IPO."
+  },
+  {
+    "speaker": 1,
+    "ts": 836,
+    "text": "I think a lot of people thought, oh, great, once at IPOs,"
+  },
+  {
+    "speaker": 1,
+    "ts": 839,
+    "text": "they're going to sell it out of the fund. Absolutely not."
+  },
+  {
+    "speaker": 1,
+    "ts": 840,
+    "text": "It's one of our largest holdings it continues to be to today."
+  },
+  {
+    "speaker": 1,
+    "ts": 843,
+    "text": "And the reason that we invested in it when we first launched NASA"
+  },
+  {
+    "speaker": 1,
+    "ts": 847,
+    "text": "was to give exposure to one of the most influential parts of the space economy."
+  },
+  {
+    "speaker": 1,
+    "ts": 852,
+    "text": "And if we loved it in March, we still love it today."
+  },
+  {
+    "speaker": 1,
+    "ts": 855,
+    "text": "And so the same thing goes for DICE."
+  },
+  {
+    "speaker": 1,
+    "ts": 857,
+    "text": "And so I think it's important to understand that we are"
+  },
+  {
+    "speaker": 1,
+    "ts": 860,
+    "text": "constraining how much of this pre-IPO exposure that we're putting in these funds."
+  },
+  {
+    "speaker": 1,
+    "ts": 864,
+    "text": "So Kashi and Polymarket, respectively, are about 7.5% in this SPV vehicle."
+  },
+  {
+    "speaker": 1,
+    "ts": 869,
+    "text": "So combined, they make up about 15%."
+  },
+  {
+    "speaker": 1,
+    "ts": 872,
+    "text": "So the other 85% exposure within DICE is publicly listed companies,"
+  },
+  {
+    "speaker": 1,
+    "ts": 877,
+    "text": "fully daily liquid, and so we're very much cognizant of that."
+  },
+  {
+    "speaker": 1,
+    "ts": 880,
+    "text": "And the last thing I'll say is these are active strategies."
+  },
+  {
+    "speaker": 1,
+    "ts": 884,
+    "text": "They're unique."
+  },
+  {
+    "speaker": 1,
+    "ts": 885,
+    "text": "I think they're really at the forefront."
+  },
+  {
+    "speaker": 1,
+    "ts": 887,
+    "text": "And then in addition to having some of this pre-IPO exposure,"
+  },
+  {
+    "speaker": 1,
+    "ts": 890,
+    "text": "which can be quite attractive for many investors,"
+  },
+  {
+    "speaker": 1,
+    "ts": 892,
+    "text": "these are priced, we feel, very attractively for their categories."
+  },
+  {
+    "speaker": 1,
+    "ts": 896,
+    "text": "DICE is about 75 basis points."
+  },
+  {
+    "speaker": 1,
+    "ts": 899,
+    "text": "So all of that kind of encompasses something unique for investors."
+  },
+  {
+    "speaker": 1,
+    "ts": 903,
+    "text": "But again, being cognizant that these are long term durable"
+  },
+  {
+    "speaker": 1,
+    "ts": 907,
+    "text": "and strategic allocations within these portfolios."
+  },
+  {
+    "speaker": 1,
+    "ts": 910,
+    "text": "I definitely want to talk about the other 85% of this here in a second."
+  },
+  {
+    "speaker": 1,
+    "ts": 915,
+    "text": "But I want to stay on the 15% Kashi Polymarket position,"
+  },
+  {
+    "speaker": 1,
+    "ts": 919,
+    "text": "just mechanically, for investors to understand."
+  },
+  {
+    "speaker": 1,
+    "ts": 922,
+    "text": "They're right now, you acquired that position about 10% to 13% below"
+  },
+  {
+    "speaker": 1,
+    "ts": 927,
+    "text": "where their most recent private valuations are."
+  },
+  {
+    "speaker": 1,
+    "ts": 929,
+    "text": "So you do own them at a premium."
+  },
+  {
+    "speaker": 1,
+    "ts": 932,
+    "text": "So what does that discount actually mean to shareholders"
+  },
+  {
+    "speaker": 1,
+    "ts": 936,
+    "text": "or is NAV adjusting to that?"
+  },
+  {
+    "speaker": 1,
+    "ts": 938,
+    "text": "Can you just walk us through whether or not that discount is baked into NAV"
+  },
+  {
+    "speaker": 1,
+    "ts": 942,
+    "text": "or help me there?"
+  },
+  {
+    "speaker": 1,
+    "ts": 943,
+    "text": "Yeah, yeah, great question."
+  },
+  {
+    "speaker": 1,
+    "ts": 945,
+    "text": "So we price these."
+  },
+  {
+    "speaker": 1,
+    "ts": 947,
+    "text": "We're not trying to be overly cute or complex with how we're pricing these."
+  },
+  {
+    "speaker": 1,
+    "ts": 951,
+    "text": "So the price at which we acquire these positions pre IPO"
+  },
+  {
+    "speaker": 1,
+    "ts": 954,
+    "text": "is how they are priced on a daily basis within the ETF."
+  },
+  {
+    "speaker": 1,
+    "ts": 958,
+    "text": "So let's just say for simplicity purposes, we buy Kashi at $75"
+  },
+  {
+    "speaker": 1,
+    "ts": 963,
+    "text": "and Polymarket at $100 every day"
+  },
+  {
+    "speaker": 1,
+    "ts": 967,
+    "text": "because those are not trading or not daily liquid."
+  },
+  {
+    "speaker": 1,
+    "ts": 969,
+    "text": "We're going to bring forth that valuation or that price on a daily basis"
+  },
+  {
+    "speaker": 1,
+    "ts": 973,
+    "text": "until we have an updated valuation, if they go through another funding round,"
+  },
+  {
+    "speaker": 1,
+    "ts": 977,
+    "text": "or until that stock individually goes public."
+  },
+  {
+    "speaker": 1,
+    "ts": 981,
+    "text": "So there's a bit of kind of stale component within these prices,"
+  },
+  {
+    "speaker": 1,
+    "ts": 984,
+    "text": "which, of course, is one of the I guess pushbacks"
+  },
+  {
+    "speaker": 1,
+    "ts": 988,
+    "text": "on some of the illiquid or private markets for better or for worse,"
+  },
+  {
+    "speaker": 1,
+    "ts": 991,
+    "text": "less volatility in the day to day market pricing,"
+  },
+  {
+    "speaker": 1,
+    "ts": 995,
+    "text": "but also the most realistic and accurate and appropriate way to price"
+  },
+  {
+    "speaker": 1,
+    "ts": 999,
+    "text": "if we don't have updated information."
+  },
+  {
+    "speaker": 1,
+    "ts": 1001,
+    "text": "So we're pricing these within the fund at the price"
+  },
+  {
+    "speaker": 1,
+    "ts": 1004,
+    "text": "in which we're procuring them in the pre IPO SPV structure."
+  },
+  {
+    "speaker": 1,
+    "ts": 1008,
+    "text": "Got it. All right."
+  },
+  {
+    "speaker": 1,
+    "ts": 1009,
+    "text": "Well, I didn't I actually didn't know how that works."
+  },
+  {
+    "speaker": 1,
+    "ts": 1011,
+    "text": "So you educated me there."
+  },
+  {
+    "speaker": 1,
+    "ts": 1012,
+    "text": "So let's talk about the other 85."
+  },
+  {
+    "speaker": 1,
+    "ts": 1015,
+    "text": "So you've got, as we talked about, interactive brokers,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1018,
+    "text": "Coinbase, Intercontinental Exchange, Robinhood, Circle."
+  },
+  {
+    "speaker": 1,
+    "ts": 1022,
+    "text": "You know, these are kind of broader financial infrastructure baskets"
+  },
+  {
+    "speaker": 1,
+    "ts": 1025,
+    "text": "than just prediction markets."
+  },
+  {
+    "speaker": 1,
+    "ts": 1027,
+    "text": "So I kind of know what the thread that connects them is."
+  },
+  {
+    "speaker": 1,
+    "ts": 1031,
+    "text": "But as part of your active strategy,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1033,
+    "text": "also to make sure you're evaluating these companies"
+  },
+  {
+    "speaker": 1,
+    "ts": 1037,
+    "text": "fundamentally to make sure that they're good investments,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1040,
+    "text": "or is it just, hey, they do prediction markets."
+  },
+  {
+    "speaker": 1,
+    "ts": 1042,
+    "text": "It's available for us to put in the fund."
+  },
+  {
+    "speaker": 1,
+    "ts": 1044,
+    "text": "Let's just put it in."
+  },
+  {
+    "speaker": 1,
+    "ts": 1046,
+    "text": "Yeah, really great question and a really important point"
+  },
+  {
+    "speaker": 1,
+    "ts": 1048,
+    "text": "that allows me to kind of tout"
+  },
+  {
+    "speaker": 1,
+    "ts": 1051,
+    "text": "the rigorous investment process, I would say, that we have at Tema."
+  },
+  {
+    "speaker": 1,
+    "ts": 1054,
+    "text": "I've worked at many firms that are completely systematic in nature,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1057,
+    "text": "and there is absolutely nothing wrong with that."
+  },
+  {
+    "speaker": 1,
+    "ts": 1059,
+    "text": "There is beauty in having a systematic process"
+  },
+  {
+    "speaker": 1,
+    "ts": 1062,
+    "text": "for portfolio construction."
+  },
+  {
+    "speaker": 1,
+    "ts": 1063,
+    "text": "Sometimes you remove the human emotion."
+  },
+  {
+    "speaker": 1,
+    "ts": 1066,
+    "text": "The way that Tema goes about portfolio construction,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1070,
+    "text": "I call it a systematic sandwich."
+  },
+  {
+    "speaker": 1,
+    "ts": 1072,
+    "text": "And you'll hear, you'll understand here in a moment."
+  },
+  {
+    "speaker": 1,
+    "ts": 1075,
+    "text": "But for the initial screen for many of these,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1077,
+    "text": "like think about the universe, whether it's prediction markets,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1080,
+    "text": "whether it's, you know, thematic, AI driven, biotech,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1084,
+    "text": "we have usually hundreds, thousands of available stocks,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1087,
+    "text": "especially if we're thinking globally."
+  },
+  {
+    "speaker": 1,
+    "ts": 1089,
+    "text": "And the dice in particular is not constrained to just U.S."
+  },
+  {
+    "speaker": 1,
+    "ts": 1092,
+    "text": "It has the ability to move outside our borders."
+  },
+  {
+    "speaker": 1,
+    "ts": 1096,
+    "text": "So if you think about that initial market,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1098,
+    "text": "oftentimes we're doing a systematic screen up front"
+  },
+  {
+    "speaker": 1,
+    "ts": 1101,
+    "text": "that is driven by industry, driven by sector,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1103,
+    "text": "driven by some of those components I mentioned earlier,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1106,
+    "text": "valuation, quality, cash flow, kind of that durability component."
+  },
+  {
+    "speaker": 1,
+    "ts": 1111,
+    "text": "Because again, these are long-term investments for us oftentimes."
+  },
+  {
+    "speaker": 1,
+    "ts": 1114,
+    "text": "So after that initial kind of quant screen,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1116,
+    "text": "as I call it, the systematic, the first layer of the bread"
+  },
+  {
+    "speaker": 1,
+    "ts": 1119,
+    "text": "on the systematic sandwich, that's really where the team starts"
+  },
+  {
+    "speaker": 1,
+    "ts": 1122,
+    "text": "to think about kind of bottom up more of a fundamental approach."
+  },
+  {
+    "speaker": 1,
+    "ts": 1126,
+    "text": "So dice is obviously focused on a part of the market"
+  },
+  {
+    "speaker": 1,
+    "ts": 1130,
+    "text": "that's pretty new."
+  },
+  {
+    "speaker": 1,
+    "ts": 1131,
+    "text": "I mean, some of these companies have been around"
+  },
+  {
+    "speaker": 1,
+    "ts": 1132,
+    "text": "for a couple of years now."
+  },
+  {
+    "speaker": 1,
+    "ts": 1134,
+    "text": "Their entrance into more of the prediction markets is fairly green."
+  },
+  {
+    "speaker": 1,
+    "ts": 1138,
+    "text": "And so really selecting companies that are tethered to this"
+  },
+  {
+    "speaker": 1,
+    "ts": 1142,
+    "text": "in some form or fashion, something that we really focus on a lot"
+  },
+  {
+    "speaker": 1,
+    "ts": 1146,
+    "text": "at TEMA is the purity of our strategies."
+  },
+  {
+    "speaker": 1,
+    "ts": 1149,
+    "text": "And so whether it's our electrification ETF,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1152,
+    "text": "whether it's NASA, whether it's dice,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1155,
+    "text": "we want to ensure that the holdings,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1157,
+    "text": "because these are more concentrated portfolios, right?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1160,
+    "text": "You're not going to open an ETF and see hundreds of different securities."
+  },
+  {
+    "speaker": 1,
+    "ts": 1164,
+    "text": "These are all thoughtfully put in here."
+  },
+  {
+    "speaker": 1,
+    "ts": 1166,
+    "text": "They're pure plays on the space."
+  },
+  {
+    "speaker": 1,
+    "ts": 1168,
+    "text": "And they really think about the entire kind of vertical"
+  },
+  {
+    "speaker": 1,
+    "ts": 1170,
+    "text": "or kind of pipeline of what goes into prediction markets."
+  },
+  {
+    "speaker": 1,
+    "ts": 1174,
+    "text": "So although we might just see at the front,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1176,
+    "text": "calcium or polymarket, the exchanges,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1180,
+    "text": "kind of the back end ecosystem that supports all this,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1182,
+    "text": "as we kind of sometimes call it in the industry, the plumbing,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1186,
+    "text": "is really important."
+  },
+  {
+    "speaker": 1,
+    "ts": 1187,
+    "text": "And so that's why Robinhood, Interactive Brokers, Coinbase,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1190,
+    "text": "some of the other allocations in the fund are looked through"
+  },
+  {
+    "speaker": 1,
+    "ts": 1194,
+    "text": "from both a systematic screening process"
+  },
+  {
+    "speaker": 1,
+    "ts": 1196,
+    "text": "and then a fundamental kind of bottom-up process"
+  },
+  {
+    "speaker": 1,
+    "ts": 1199,
+    "text": "to ensure that they fit within and we're comfortable holding them."
+  },
+  {
+    "speaker": 1,
+    "ts": 1203,
+    "text": "Because again, these aren't short-term allocations."
+  },
+  {
+    "speaker": 1,
+    "ts": 1207,
+    "text": "So hopefully that's helpful."
+  },
+  {
+    "speaker": 1,
+    "ts": 1208,
+    "text": "Yeah, super helpful."
+  },
+  {
+    "speaker": 1,
+    "ts": 1209,
+    "text": "So how should I think about this prediction markets as we talked about?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1215,
+    "text": "There's a crossover with sports betting, with politics, with crypto."
+  },
+  {
+    "speaker": 1,
+    "ts": 1218,
+    "text": "Is DICE a fintech playing?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1220,
+    "text": "Is it crypto-adjacent?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1222,
+    "text": "Like, how do you think about it?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1224,
+    "text": "Yeah, I think it's fair to say it's crypto-adjacent"
+  },
+  {
+    "speaker": 1,
+    "ts": 1226,
+    "text": "because a lot of this technology was born out of the crypto space."
+  },
+  {
+    "speaker": 1,
+    "ts": 1231,
+    "text": "So I think to sit here and say like,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1233,
+    "text": "there's no impact from crypto, I think would be silly."
+  },
+  {
+    "speaker": 1,
+    "ts": 1235,
+    "text": "Coinbase, for instance, is one of the holdings."
+  },
+  {
+    "speaker": 1,
+    "ts": 1237,
+    "text": "And this is a crypto infrastructure play."
+  },
+  {
+    "speaker": 1,
+    "ts": 1241,
+    "text": "Polymarket is crypto-native."
+  },
+  {
+    "speaker": 1,
+    "ts": 1243,
+    "text": "That was kind of some of their origins."
+  },
+  {
+    "speaker": 1,
+    "ts": 1244,
+    "text": "It runs on blockchain."
+  },
+  {
+    "speaker": 1,
+    "ts": 1247,
+    "text": "So as you think about some of these,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1248,
+    "text": "there is a little bit of kind of a tether to the crypto world."
+  },
+  {
+    "speaker": 1,
+    "ts": 1252,
+    "text": "But again, that's why I would say more just a reflection"
+  },
+  {
+    "speaker": 1,
+    "ts": 1254,
+    "text": "of where this technology was born out of"
+  },
+  {
+    "speaker": 1,
+    "ts": 1256,
+    "text": "and how it's being utilized today,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1257,
+    "text": "kind of moving beyond just the blockchain and beyond crypto."
+  },
+  {
+    "speaker": 1,
+    "ts": 1262,
+    "text": "So for an advisor kind of thinking about DICE,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1266,
+    "text": "how should they position it in a client portfolio?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1268,
+    "text": "I know that's a loaded question,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1269,
+    "text": "but it definitely deserves more love than a 5% sleeve in crypto."
+  },
+  {
+    "speaker": 1,
+    "ts": 1276,
+    "text": "There's definitely a more, in my opinion,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1279,
+    "text": "there's a more structural reason to own this"
+  },
+  {
+    "speaker": 1,
+    "ts": 1281,
+    "text": "with the whole advent of this market."
+  },
+  {
+    "speaker": 1,
+    "ts": 1283,
+    "text": "So if you're talking to an advisor,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1286,
+    "text": "how would you explain to them how they need to think about this?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1289,
+    "text": "What I've seen in practice is several advisors"
+  },
+  {
+    "speaker": 1,
+    "ts": 1293,
+    "text": "who have a schematic or even maybe like a sector rotation"
+  },
+  {
+    "speaker": 1,
+    "ts": 1297,
+    "text": "part of their portfolio allocation."
+  },
+  {
+    "speaker": 1,
+    "ts": 1300,
+    "text": "There's advisors out there that are just purely passive"
+  },
+  {
+    "speaker": 1,
+    "ts": 1303,
+    "text": "or maybe they've stepped into factors."
+  },
+  {
+    "speaker": 1,
+    "ts": 1304,
+    "text": "This might be a little bit too spicy saucy for them, of course."
+  },
+  {
+    "speaker": 1,
+    "ts": 1308,
+    "text": "But for advisors that have a sleeve in their portfolio"
+  },
+  {
+    "speaker": 1,
+    "ts": 1312,
+    "text": "that is thematic in nature,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1313,
+    "text": "which ultimately then is a way for a lot of these advisors"
+  },
+  {
+    "speaker": 1,
+    "ts": 1317,
+    "text": "to have something exciting to talk about their clients to"
+  },
+  {
+    "speaker": 1,
+    "ts": 1320,
+    "text": "on a quarterly basis."
+  },
+  {
+    "speaker": 1,
+    "ts": 1322,
+    "text": "There's more of a narrative there, right?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1325,
+    "text": "And so from an allocation perspective,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1327,
+    "text": "DICE especially, I view to be a thematic play."
+  },
+  {
+    "speaker": 1,
+    "ts": 1332,
+    "text": "We talked a little bit about some of this being crypto adjacent."
+  },
+  {
+    "speaker": 1,
+    "ts": 1335,
+    "text": "You're not going to have the volatility that you would"
+  },
+  {
+    "speaker": 1,
+    "ts": 1337,
+    "text": "in just holding Bitcoin or crypto directly."
+  },
+  {
+    "speaker": 1,
+    "ts": 1341,
+    "text": "So it could be a lower vol way to give clients access"
+  },
+  {
+    "speaker": 1,
+    "ts": 1345,
+    "text": "to the infrastructure like mentioning coin bases in here"
+  },
+  {
+    "speaker": 1,
+    "ts": 1348,
+    "text": "to have a play on that indirectly."
+  },
+  {
+    "speaker": 1,
+    "ts": 1352,
+    "text": "I think the way that I see it is if you take a step back"
+  },
+  {
+    "speaker": 1,
+    "ts": 1355,
+    "text": "and think about as you're investing across equities,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1359,
+    "text": "which are the dominant driver of risk in most portfolios,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1362,
+    "text": "you're taking on risk and you're taking on volatility"
+  },
+  {
+    "speaker": 1,
+    "ts": 1365,
+    "text": "to be compensated in the form of return."
+  },
+  {
+    "speaker": 1,
+    "ts": 1367,
+    "text": "And so as you think the opportunity set of like,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1370,
+    "text": "where's the economy growing?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1371,
+    "text": "I think a lot of people would agree that the U.S. economy"
+  },
+  {
+    "speaker": 1,
+    "ts": 1374,
+    "text": "tends to be the dominant driver from like a global perspective"
+  },
+  {
+    "speaker": 1,
+    "ts": 1377,
+    "text": "within U.S. in particular, we've been hyper focused"
+  },
+  {
+    "speaker": 1,
+    "ts": 1380,
+    "text": "over the last couple of years on technology and AI,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1383,
+    "text": "which continues to march full steam ahead."
+  },
+  {
+    "speaker": 1,
+    "ts": 1387,
+    "text": "There's so much other technology that's popping up"
+  },
+  {
+    "speaker": 1,
+    "ts": 1390,
+    "text": "on a daily basis that's driving innovation,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1394,
+    "text": "that's really driving GDP, the economy."
+  },
+  {
+    "speaker": 1,
+    "ts": 1397,
+    "text": "And so the way that I look at it,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1399,
+    "text": "DICE is a thematic way to play on this kind of niche part"
+  },
+  {
+    "speaker": 1,
+    "ts": 1404,
+    "text": "of the market that as of two years ago,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1407,
+    "text": "no one was really talking about mainstream."
+  },
+  {
+    "speaker": 1,
+    "ts": 1410,
+    "text": "And now it seems like everywhere I look, everywhere I go,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1414,
+    "text": "people have apps pulled up, people are advertising on television,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1419,
+    "text": "we're talking about midterms."
+  },
+  {
+    "speaker": 1,
+    "ts": 1421,
+    "text": "And again, even in our world of being more of an institutional investor,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1425,
+    "text": "we're starting to talk about these platforms"
+  },
+  {
+    "speaker": 1,
+    "ts": 1427,
+    "text": "for expressing views within portfolios."
+  },
+  {
+    "speaker": 1,
+    "ts": 1430,
+    "text": "And so I think this infiltration is again,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1432,
+    "text": "this kind of loops back to where we started."
+  },
+  {
+    "speaker": 1,
+    "ts": 1435,
+    "text": "How does an advisor allocate to this?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1437,
+    "text": "They think about it as they would anything else"
+  },
+  {
+    "speaker": 1,
+    "ts": 1439,
+    "text": "within a thematic AI driven kind of technology play."
+  },
+  {
+    "speaker": 1,
+    "ts": 1442,
+    "text": "And then you size that appropriately."
+  },
+  {
+    "speaker": 1,
+    "ts": 1446,
+    "text": "I don't think it would be a prudent allocation"
+  },
+  {
+    "speaker": 1,
+    "ts": 1448,
+    "text": "if you're throwing 20, 30% of your portfolio on this."
+  },
+  {
+    "speaker": 1,
+    "ts": 1451,
+    "text": "But if you have anywhere from say,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1452,
+    "text": "five to 10% of a total portfolio"
+  },
+  {
+    "speaker": 1,
+    "ts": 1454,
+    "text": "and a thematic part of the investment markets,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1457,
+    "text": "I think DICE can play an instrumental role in that."
+  },
+  {
+    "speaker": 1,
+    "ts": 1461,
+    "text": "So Paisley, you and I, while I was joking with you in the five minutes,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1464,
+    "text": "I saw you at FutureProof about what your day-to-day looks like now."
+  },
+  {
+    "speaker": 1,
+    "ts": 1468,
+    "text": "I've watched you over the last handful of years"
+  },
+  {
+    "speaker": 1,
+    "ts": 1471,
+    "text": "and you've definitely become more of an engagement voice."
+  },
+  {
+    "speaker": 1,
+    "ts": 1473,
+    "text": "Just curious, what's your day-to-day look like now"
+  },
+  {
+    "speaker": 1,
+    "ts": 1475,
+    "text": "compared to what it looked like five years ago?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1478,
+    "text": "I'm spending most of my time aggregating information,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1483,
+    "text": "like all of us are, and then finding a way to make it digestible."
+  },
+  {
+    "speaker": 1,
+    "ts": 1488,
+    "text": "My job, I see as it being a translator."
+  },
+  {
+    "speaker": 1,
+    "ts": 1491,
+    "text": "I look out at the market and with all of the noise,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1494,
+    "text": "but also all of the opportunity,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1496,
+    "text": "all of us are really feeling overwhelmed."
+  },
+  {
+    "speaker": 1,
+    "ts": 1498,
+    "text": "And so my role over the last few years has been,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1501,
+    "text": "how can I help advisors digest that information"
+  },
+  {
+    "speaker": 1,
+    "ts": 1504,
+    "text": "to make better decisions for their portfolio?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1508,
+    "text": "I think having an investment background"
+  },
+  {
+    "speaker": 1,
+    "ts": 1510,
+    "text": "helps give a little bit of credibility to that"
+  },
+  {
+    "speaker": 1,
+    "ts": 1512,
+    "text": "versus just coming from a marketing background."
+  },
+  {
+    "speaker": 1,
+    "ts": 1515,
+    "text": "But how do we build better portfolios?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1517,
+    "text": "How do we be prudently participating in the markets?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1521,
+    "text": "So my day-to-day is really focused on that digesting,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1525,
+    "text": "articulating, supporting advisors,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1527,
+    "text": "as well as institutional allocators, and supporting the business."
+  },
+  {
+    "speaker": 1,
+    "ts": 1531,
+    "text": "I think a lot of this is also just exciting and fun to talk about."
+  },
+  {
+    "speaker": 1,
+    "ts": 1535,
+    "text": "So if we can start conversations,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1537,
+    "text": "get people to pay attention to some of these pockets"
+  },
+  {
+    "speaker": 1,
+    "ts": 1540,
+    "text": "that come out of nowhere."
+  },
+  {
+    "speaker": 1,
+    "ts": 1542,
+    "text": "I mean, we were just talking earlier"
+  },
+  {
+    "speaker": 1,
+    "ts": 1544,
+    "text": "about some of the new technology."
+  },
+  {
+    "speaker": 1,
+    "ts": 1546,
+    "text": "I just downloaded Muse,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1547,
+    "text": "which is the new meta chatbot a couple of days ago."
+  },
+  {
+    "speaker": 1,
+    "ts": 1552,
+    "text": "Whether this ends up being the end all be all,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1554,
+    "text": "I'm sure there'll be 10 other versions of this,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1556,
+    "text": "but these are exciting parts of the market,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1558,
+    "text": "and they're driving the new frontier."
+  },
+  {
+    "speaker": 1,
+    "ts": 1561,
+    "text": "With so much noise out there,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1562,
+    "text": "a lot of us are just going to miss that."
+  },
+  {
+    "speaker": 1,
+    "ts": 1563,
+    "text": "So how can I help people see what's going on,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1565,
+    "text": "what's exciting, and then help allocate capital"
+  },
+  {
+    "speaker": 1,
+    "ts": 1568,
+    "text": "to these parts of the growing market?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1570,
+    "text": "Well, I think you're an exciting place, right?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1572,
+    "text": "We've got, you guys have launched the NAS ETF,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1574,
+    "text": "you've now launched DICE,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1575,
+    "text": "you also have a handful of other ETFs."
+  },
+  {
+    "speaker": 1,
+    "ts": 1579,
+    "text": "I guess last question would be,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1581,
+    "text": "what's like the through line for how you guys decide"
+  },
+  {
+    "speaker": 1,
+    "ts": 1584,
+    "text": "what to build next?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1585,
+    "text": "I know we're going to see more from you,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1587,
+    "text": "but what's that look like inside the building?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1591,
+    "text": "Yeah, so there's kind of two ways to go about this"
+  },
+  {
+    "speaker": 1,
+    "ts": 1595,
+    "text": "in this day and age."
+  },
+  {
+    "speaker": 1,
+    "ts": 1596,
+    "text": "There's firms out there,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1597,
+    "text": "and again, just want to preface,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1599,
+    "text": "like I'm not throwing shade at this."
+  },
+  {
+    "speaker": 1,
+    "ts": 1601,
+    "text": "There's multiple ways to be successful"
+  },
+  {
+    "speaker": 1,
+    "ts": 1603,
+    "text": "and to support clients."
+  },
+  {
+    "speaker": 1,
+    "ts": 1605,
+    "text": "You can either do the quantity game"
+  },
+  {
+    "speaker": 1,
+    "ts": 1607,
+    "text": "or you can do the quality game,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1609,
+    "text": "and many firms are finding themselves somewhere in between."
+  },
+  {
+    "speaker": 1,
+    "ts": 1613,
+    "text": "At TEMA, we try to find the intersection of"
+  },
+  {
+    "speaker": 1,
+    "ts": 1615,
+    "text": "what's our area of expertise?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1617,
+    "text": "And oftentimes, because we're such a small and lean firm,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1621,
+    "text": "we're partnering with research experts"
+  },
+  {
+    "speaker": 1,
+    "ts": 1624,
+    "text": "and outside advisors."
+  },
+  {
+    "speaker": 1,
+    "ts": 1625,
+    "text": "We're bringing in house expertise."
+  },
+  {
+    "speaker": 1,
+    "ts": 1627,
+    "text": "We just brought somebody in who has a really strong"
+  },
+  {
+    "speaker": 1,
+    "ts": 1630,
+    "text": "commodity background."
+  },
+  {
+    "speaker": 1,
+    "ts": 1632,
+    "text": "So thinking about just the growth of real assets"
+  },
+  {
+    "speaker": 1,
+    "ts": 1635,
+    "text": "and inflation hedging."
+  },
+  {
+    "speaker": 1,
+    "ts": 1637,
+    "text": "So we try to think about our broader spectrum"
+  },
+  {
+    "speaker": 1,
+    "ts": 1639,
+    "text": "of capabilities of where do we have expertise?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1643,
+    "text": "Where do advisors and investors need solutions?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1648,
+    "text": "I know there's a lot of multiple versions"
+  },
+  {
+    "speaker": 1,
+    "ts": 1650,
+    "text": "of the exact same flavor of vanilla ice cream out there."
+  },
+  {
+    "speaker": 1,
+    "ts": 1653,
+    "text": "Maybe your vanilla is a little bit better than the next,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1656,
+    "text": "but I think we try to ask ourselves,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1658,
+    "text": "is this really where we have expertise"
+  },
+  {
+    "speaker": 1,
+    "ts": 1659,
+    "text": "and we can be differentiated?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1661,
+    "text": "Because if we can't be differentiated"
+  },
+  {
+    "speaker": 1,
+    "ts": 1662,
+    "text": "and we're just going to be one fish in a broader sea,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1666,
+    "text": "probably not going to be very successful for us as a firm."
+  },
+  {
+    "speaker": 1,
+    "ts": 1669,
+    "text": "So how do we really concentrate our small, nimble firm"
+  },
+  {
+    "speaker": 1,
+    "ts": 1672,
+    "text": "on where the market's headed,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1675,
+    "text": "where we can add value from a fundamental,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1678,
+    "text": "kind of as I said, bottoms up process"
+  },
+  {
+    "speaker": 1,
+    "ts": 1679,
+    "text": "and finding security selection?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1681,
+    "text": "Because if we can't do that,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1683,
+    "text": "why are we going to come to market?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1684,
+    "text": "And then we're also willing to kind of go outside"
+  },
+  {
+    "speaker": 1,
+    "ts": 1687,
+    "text": "the confines of the play at safe."
+  },
+  {
+    "speaker": 1,
+    "ts": 1689,
+    "text": "And I think that's exactly the success"
+  },
+  {
+    "speaker": 1,
+    "ts": 1691,
+    "text": "that we saw earlier this year from a timing perspective"
+  },
+  {
+    "speaker": 1,
+    "ts": 1693,
+    "text": "of launching something like NASA,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1695,
+    "text": "coming to the market as we feel is a very opportune time"
+  },
+  {
+    "speaker": 1,
+    "ts": 1698,
+    "text": "for prediction markets and trading platforms through dice."
+  },
+  {
+    "speaker": 1,
+    "ts": 1702,
+    "text": "So we're willing to kind of take some of those bets"
+  },
+  {
+    "speaker": 1,
+    "ts": 1705,
+    "text": "within reason because of our expertise"
+  },
+  {
+    "speaker": 1,
+    "ts": 1707,
+    "text": "and because of what we see as kind of a spotlight"
+  },
+  {
+    "speaker": 1,
+    "ts": 1709,
+    "text": "on certain parts of the market."
+  },
+  {
+    "speaker": 1,
+    "ts": 1711,
+    "text": "Well, Paisley, I always enjoy our time together"
+  },
+  {
+    "speaker": 1,
+    "ts": 1714,
+    "text": "before I let you go,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1715,
+    "text": "where can people learn more about Tema"
+  },
+  {
+    "speaker": 1,
+    "ts": 1717,
+    "text": "and find everything they need to know about dice?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1720,
+    "text": "Yeah, temaetfs.com."
+  },
+  {
+    "speaker": 1,
+    "ts": 1723,
+    "text": "We just brought in some awesome marketing resources"
+  },
+  {
+    "speaker": 1,
+    "ts": 1725,
+    "text": "to join the firm."
+  },
+  {
+    "speaker": 1,
+    "ts": 1727,
+    "text": "So we're building out kind of our presence on socials,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1729,
+    "text": "whether it be X, whether it be LinkedIn."
+  },
+  {
+    "speaker": 1,
+    "ts": 1733,
+    "text": "So expect to see a lot more from us."
+  },
+  {
+    "speaker": 1,
+    "ts": 1735,
+    "text": "Like I said, we're small but growing very quickly."
+  },
+  {
+    "speaker": 1,
+    "ts": 1739,
+    "text": "So come to our website, find me on X"
+  },
+  {
+    "speaker": 1,
+    "ts": 1741,
+    "text": "or any of our other team members,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1743,
+    "text": "but we're excited to engage"
+  },
+  {
+    "speaker": 1,
+    "ts": 1744,
+    "text": "and really appreciate the opportunity for having us on."
+  },
+  {
+    "speaker": 1,
+    "ts": 1747,
+    "text": "All right. Thanks, Paisley. We'll see you soon."
+  },
+  {
+    "speaker": 1,
+    "ts": 1749,
+    "text": "Thanks."
+  }
+]

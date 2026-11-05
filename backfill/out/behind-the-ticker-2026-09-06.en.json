@@ -1,0 +1,2807 @@
+[
+  {
+    "speaker": 1,
+    "ts": 0,
+    "text": "Welcome to Behind the Ticker, the podcast where we go beyond the symbol and into the"
+  },
+  {
+    "speaker": 1,
+    "ts": 9,
+    "text": "strategy."
+  },
+  {
+    "speaker": 1,
+    "ts": 10,
+    "text": "I'm Brad Roth, founder and chief investment officer at Thor Funds, and in each episode,"
+  },
+  {
+    "speaker": 1,
+    "ts": 16,
+    "text": "I sit down with ETF managers, CIOs, and industry leaders to break down how these funds are"
+  },
+  {
+    "speaker": 1,
+    "ts": 23,
+    "text": "actually built, how they behave in real markets, and how advisors use them in real portfolios."
+  },
+  {
+    "speaker": 1,
+    "ts": 29,
+    "text": "Most people just see a ticker symbol, but we know much more goes on behind the ticker."
+  },
+  {
+    "speaker": 1,
+    "ts": 36,
+    "text": "Hey, Jeff, welcome to the show."
+  },
+  {
+    "speaker": 1,
+    "ts": 42,
+    "text": "Hi."
+  },
+  {
+    "speaker": 1,
+    "ts": 43,
+    "text": "Excited to be here."
+  },
+  {
+    "speaker": 1,
+    "ts": 44,
+    "text": "Thank you."
+  },
+  {
+    "speaker": 1,
+    "ts": 45,
+    "text": "Looking forward to a great conversation."
+  },
+  {
+    "speaker": 1,
+    "ts": 47,
+    "text": "So before we get started, why don't we give everybody a bit about your background?"
+  },
+  {
+    "speaker": 1,
+    "ts": 51,
+    "text": "You started at Pemko and Newport Beach."
+  },
+  {
+    "speaker": 1,
+    "ts": 53,
+    "text": "You've taken a couple of stops in Tokyo and London and then some years over at Thornburg."
+  },
+  {
+    "speaker": 1,
+    "ts": 57,
+    "text": "And Jen joined Aristotle in 2024, so can you walk us through that whole path?"
+  },
+  {
+    "speaker": 1,
+    "ts": 62,
+    "text": "Yeah."
+  },
+  {
+    "speaker": 1,
+    "ts": 63,
+    "text": "I'm happy to."
+  },
+  {
+    "speaker": 1,
+    "ts": 64,
+    "text": "I mean, you kind of nailed it."
+  },
+  {
+    "speaker": 1,
+    "ts": 65,
+    "text": "Started my career at Pemko."
+  },
+  {
+    "speaker": 1,
+    "ts": 66,
+    "text": "Didn't know a lot about the world of fixed income."
+  },
+  {
+    "speaker": 1,
+    "ts": 68,
+    "text": "It's one of those things that some folks want to go into investing, but not many folks"
+  },
+  {
+    "speaker": 1,
+    "ts": 72,
+    "text": "dream of being a bond investor, and so that was really my first foray, and it was fantastic."
+  },
+  {
+    "speaker": 1,
+    "ts": 77,
+    "text": "It really exposed me to a lot of very, very smart people that cared a lot about their career"
+  },
+  {
+    "speaker": 1,
+    "ts": 82,
+    "text": "and gave me a great background."
+  },
+  {
+    "speaker": 1,
+    "ts": 85,
+    "text": "But like a lot of people that go into the role of finance, you kind of want to move"
+  },
+  {
+    "speaker": 1,
+    "ts": 87,
+    "text": "from a more back office role into a little bit more of a front office role."
+  },
+  {
+    "speaker": 1,
+    "ts": 92,
+    "text": "So I had the opportunity to begin doing that."
+  },
+  {
+    "speaker": 1,
+    "ts": 94,
+    "text": "My career was in risk at that moment and exported a risk function from the Newport Beach office"
+  },
+  {
+    "speaker": 1,
+    "ts": 99,
+    "text": "at Pemko to Tokyo and then ultimately to London and then decided I wanted to make my way to"
+  },
+  {
+    "speaker": 1,
+    "ts": 105,
+    "text": "an MBA program."
+  },
+  {
+    "speaker": 1,
+    "ts": 106,
+    "text": "So I went to University of Chicago and got my MBA."
+  },
+  {
+    "speaker": 1,
+    "ts": 110,
+    "text": "And if I'm being honest, I probably would have said at that time I thought I would end"
+  },
+  {
+    "speaker": 1,
+    "ts": 114,
+    "text": "up back at a Pemko or a BlackRock."
+  },
+  {
+    "speaker": 1,
+    "ts": 117,
+    "text": "One of the really large firms of the world, quite a lot of prestige come along with those,"
+  },
+  {
+    "speaker": 1,
+    "ts": 121,
+    "text": "but I did something a little bit different over my summer internship and just picked"
+  },
+  {
+    "speaker": 1,
+    "ts": 126,
+    "text": "a really small hedge fund and worked there."
+  },
+  {
+    "speaker": 1,
+    "ts": 128,
+    "text": "And I remember walking in on day one and they just said, hey, Jeff, welcome to the team."
+  },
+  {
+    "speaker": 1,
+    "ts": 132,
+    "text": "It's five of us."
+  },
+  {
+    "speaker": 1,
+    "ts": 133,
+    "text": "Go find interesting things."
+  },
+  {
+    "speaker": 1,
+    "ts": 135,
+    "text": "And I was just like, what do you mean?"
+  },
+  {
+    "speaker": 1,
+    "ts": 137,
+    "text": "Like direct me a little bit more, but there's like, look, the world's your oyster."
+  },
+  {
+    "speaker": 1,
+    "ts": 142,
+    "text": "Just go see what you can do and find something interesting."
+  },
+  {
+    "speaker": 1,
+    "ts": 145,
+    "text": "And so that really changed my path as I looked forward."
+  },
+  {
+    "speaker": 1,
+    "ts": 148,
+    "text": "I wanted to be part of a small entrepreneurial team and ultimately joined Thornburg."
+  },
+  {
+    "speaker": 1,
+    "ts": 152,
+    "text": "It was a very well-established company, but fixed income was a smaller part of it."
+  },
+  {
+    "speaker": 1,
+    "ts": 156,
+    "text": "So I was employee number three on the tax well fixed income side and just really grew"
+  },
+  {
+    "speaker": 1,
+    "ts": 160,
+    "text": "it from there."
+  },
+  {
+    "speaker": 1,
+    "ts": 161,
+    "text": "So ultimately I became a portfolio manager on all their strategies and was head of investments"
+  },
+  {
+    "speaker": 1,
+    "ts": 166,
+    "text": "for about the first, last four or five years of my career and then decided that I wanted"
+  },
+  {
+    "speaker": 1,
+    "ts": 171,
+    "text": "to get back home to Newport Beach, which is kind of where my family is and where I grew"
+  },
+  {
+    "speaker": 1,
+    "ts": 175,
+    "text": "up in Southern California."
+  },
+  {
+    "speaker": 1,
+    "ts": 177,
+    "text": "So yeah, you're right."
+  },
+  {
+    "speaker": 1,
+    "ts": 178,
+    "text": "I've been with Aristotle here for the last couple of years, just an incredible team and"
+  },
+  {
+    "speaker": 1,
+    "ts": 183,
+    "text": "incredible fit and alignment with my background of what we'll talk about, I'm sure, and relative"
+  },
+  {
+    "speaker": 1,
+    "ts": 187,
+    "text": "value investing."
+  },
+  {
+    "speaker": 1,
+    "ts": 188,
+    "text": "Yeah, we're definitely going to get into that, but I always have to ask people before we"
+  },
+  {
+    "speaker": 1,
+    "ts": 191,
+    "text": "talk business, any hobbies, what do you like to do when you're outside of work?"
+  },
+  {
+    "speaker": 1,
+    "ts": 196,
+    "text": "Well, I love the ocean."
+  },
+  {
+    "speaker": 1,
+    "ts": 198,
+    "text": "I'd like to say I'm a great surfer."
+  },
+  {
+    "speaker": 1,
+    "ts": 199,
+    "text": "I'm a horrible surfer, but I literally get angry if my feet don't touch the water or"
+  },
+  {
+    "speaker": 1,
+    "ts": 204,
+    "text": "the sand at least a couple of times a week."
+  },
+  {
+    "speaker": 1,
+    "ts": 206,
+    "text": "So that was a little bit tougher being in Santa Fe, New Mexico and Thorbrick."
+  },
+  {
+    "speaker": 1,
+    "ts": 209,
+    "text": "So excited to be back."
+  },
+  {
+    "speaker": 1,
+    "ts": 211,
+    "text": "My real passion, I would say is sailing."
+  },
+  {
+    "speaker": 1,
+    "ts": 213,
+    "text": "So I'm a sailor."
+  },
+  {
+    "speaker": 1,
+    "ts": 214,
+    "text": "I play tennis."
+  },
+  {
+    "speaker": 1,
+    "ts": 215,
+    "text": "Those are my two things and then family as well, just keeps me busy on the day to day."
+  },
+  {
+    "speaker": 1,
+    "ts": 220,
+    "text": "But yeah, swimming, sailing, tennis, those are the big things."
+  },
+  {
+    "speaker": 1,
+    "ts": 225,
+    "text": "Love it."
+  },
+  {
+    "speaker": 1,
+    "ts": 226,
+    "text": "It's so funny, every time I talk to somebody on, you know, I'm over in Pittsburgh, every"
+  },
+  {
+    "speaker": 1,
+    "ts": 231,
+    "text": "time I talk to somebody who's in that Newport Beach, California area, they're always, it's"
+  },
+  {
+    "speaker": 1,
+    "ts": 234,
+    "text": "the same hobbies."
+  },
+  {
+    "speaker": 1,
+    "ts": 235,
+    "text": "It's like, I love the beach."
+  },
+  {
+    "speaker": 1,
+    "ts": 236,
+    "text": "And I'm over here, like I got to grind six months through winter while you guys go sailing."
+  },
+  {
+    "speaker": 1,
+    "ts": 241,
+    "text": "Yeah, it comes with its own costs, right?"
+  },
+  {
+    "speaker": 1,
+    "ts": 245,
+    "text": "And literally some of the cost side of things."
+  },
+  {
+    "speaker": 1,
+    "ts": 247,
+    "text": "And so I feel like there's no reason to be here if you're not going to connect with the"
+  },
+  {
+    "speaker": 1,
+    "ts": 251,
+    "text": "water."
+  },
+  {
+    "speaker": 1,
+    "ts": 252,
+    "text": "And so I think you've just got a natural selection."
+  },
+  {
+    "speaker": 1,
+    "ts": 253,
+    "text": "A lot of folks just naturally would gravitate towards the beach, the ocean, being outdoors"
+  },
+  {
+    "speaker": 1,
+    "ts": 258,
+    "text": "because you pay the price in terms of housing."
+  },
+  {
+    "speaker": 1,
+    "ts": 260,
+    "text": "So you kind of got to get out of the smaller house occasionally and just take advantage"
+  },
+  {
+    "speaker": 1,
+    "ts": 263,
+    "text": "of what you got."
+  },
+  {
+    "speaker": 1,
+    "ts": 264,
+    "text": "Love it."
+  },
+  {
+    "speaker": 1,
+    "ts": 265,
+    "text": "So let's talk about Aristotle funds."
+  },
+  {
+    "speaker": 1,
+    "ts": 267,
+    "text": "The firm has 16 billion across mutual fund lineup in July 30th of this year."
+  },
+  {
+    "speaker": 1,
+    "ts": 273,
+    "text": "You guys launched your first three ETFs."
+  },
+  {
+    "speaker": 1,
+    "ts": 275,
+    "text": "So can you give us just a quick high level of Aristotle and what got the firm into the"
+  },
+  {
+    "speaker": 1,
+    "ts": 280,
+    "text": "ETF wrapper now at this stage?"
+  },
+  {
+    "speaker": 1,
+    "ts": 283,
+    "text": "Yeah, so Aristotle has been around for a decade and a half really at this point or really"
+  },
+  {
+    "speaker": 1,
+    "ts": 288,
+    "text": "two decades."
+  },
+  {
+    "speaker": 1,
+    "ts": 289,
+    "text": "And so the name changed a little bit ago, but it was prior known as Pacific Asset Management."
+  },
+  {
+    "speaker": 1,
+    "ts": 294,
+    "text": "So it was under the guise of Pacific Life."
+  },
+  {
+    "speaker": 1,
+    "ts": 296,
+    "text": "So the team really has been together since about 2007 or even before, but it was incepted"
+  },
+  {
+    "speaker": 1,
+    "ts": 300,
+    "text": "in 2007 for all intents and purposes."
+  },
+  {
+    "speaker": 1,
+    "ts": 304,
+    "text": "And eventually it made its way under the Aristotle Capital brand."
+  },
+  {
+    "speaker": 1,
+    "ts": 308,
+    "text": "So Pacific Life also started PIMCO, which is where I started that they've got a pretty"
+  },
+  {
+    "speaker": 1,
+    "ts": 312,
+    "text": "good heritage of launching some pretty great firms, but eventually many of them do move"
+  },
+  {
+    "speaker": 1,
+    "ts": 317,
+    "text": "on."
+  },
+  {
+    "speaker": 1,
+    "ts": 318,
+    "text": "And so there's been a long rich history of really the philosophy of the firm, which is"
+  },
+  {
+    "speaker": 1,
+    "ts": 324,
+    "text": "looking to capture relative value across the credit spectrum."
+  },
+  {
+    "speaker": 1,
+    "ts": 327,
+    "text": "And so our four A&E ETFs, honestly, it's nothing magical that the world has been moving towards"
+  },
+  {
+    "speaker": 1,
+    "ts": 332,
+    "text": "the ETF side for quite some time."
+  },
+  {
+    "speaker": 1,
+    "ts": 335,
+    "text": "They're not new products, but we really wanted to be very thoughtful about how we rolled"
+  },
+  {
+    "speaker": 1,
+    "ts": 339,
+    "text": "them out to our audience."
+  },
+  {
+    "speaker": 1,
+    "ts": 341,
+    "text": "And so a lot of it was just kind of waiting and watching what our clients wanted, how"
+  },
+  {
+    "speaker": 1,
+    "ts": 346,
+    "text": "they consumed them, how we thought that we could bring our unique flavor into that product."
+  },
+  {
+    "speaker": 1,
+    "ts": 352,
+    "text": "And so ultimately we decided to launch with a suite of outcome-oriented products on our"
+  },
+  {
+    "speaker": 1,
+    "ts": 356,
+    "text": "multi-sector fixed income suite."
+  },
+  {
+    "speaker": 1,
+    "ts": 358,
+    "text": "And so they really take all that same application."
+  },
+  {
+    "speaker": 1,
+    "ts": 360,
+    "text": "Now there are nuances, but really focusing on that relative value side, but there's nothing"
+  },
+  {
+    "speaker": 1,
+    "ts": 365,
+    "text": "magical about why now or why the ETF wrapper beyond, we want to meet our clients where"
+  },
+  {
+    "speaker": 1,
+    "ts": 371,
+    "text": "they are."
+  },
+  {
+    "speaker": 1,
+    "ts": 372,
+    "text": "And we feel like this is a great foray and ability for us to take what we've been doing"
+  },
+  {
+    "speaker": 1,
+    "ts": 376,
+    "text": "and just apply it in a slightly different wrapper to meet our clients in a nuanced way."
+  },
+  {
+    "speaker": 1,
+    "ts": 381,
+    "text": "Well, let's get into the funds."
+  },
+  {
+    "speaker": 1,
+    "ts": 383,
+    "text": "I mean, like I said, you launched three fixed income ETFs, ARCP, which is your core plus,"
+  },
+  {
+    "speaker": 1,
+    "ts": 389,
+    "text": "ARMS, which is your multi-sector income, and SDUR, which is your short-term income fund."
+  },
+  {
+    "speaker": 1,
+    "ts": 396,
+    "text": "Start us off with a big picture."
+  },
+  {
+    "speaker": 1,
+    "ts": 398,
+    "text": "What does this suite give investors?"
+  },
+  {
+    "speaker": 1,
+    "ts": 399,
+    "text": "And like, why launch all three together?"
+  },
+  {
+    "speaker": 1,
+    "ts": 402,
+    "text": "Yeah."
+  },
+  {
+    "speaker": 1,
+    "ts": 403,
+    "text": "Well, again, I think a lot of this is every firm has its own unique flavor, right?"
+  },
+  {
+    "speaker": 1,
+    "ts": 408,
+    "text": "When clients are speaking with managers or doing due diligence, I think it's really incumbent"
+  },
+  {
+    "speaker": 1,
+    "ts": 413,
+    "text": "on the manager to explain not just why they're going to return good performance."
+  },
+  {
+    "speaker": 1,
+    "ts": 418,
+    "text": "That's what everyone is after."
+  },
+  {
+    "speaker": 1,
+    "ts": 419,
+    "text": "But to me, it's much more about the how, right?"
+  },
+  {
+    "speaker": 1,
+    "ts": 423,
+    "text": "What specifically are we trying to access?"
+  },
+  {
+    "speaker": 1,
+    "ts": 425,
+    "text": "In what way?"
+  },
+  {
+    "speaker": 1,
+    "ts": 426,
+    "text": "How is our team oriented?"
+  },
+  {
+    "speaker": 1,
+    "ts": 427,
+    "text": "How do we train people?"
+  },
+  {
+    "speaker": 1,
+    "ts": 428,
+    "text": "How do we compensate them and motivate them?"
+  },
+  {
+    "speaker": 1,
+    "ts": 431,
+    "text": "And all trying to look at the world in a slightly nuanced way, because there's lots of firms"
+  },
+  {
+    "speaker": 1,
+    "ts": 435,
+    "text": "out there, and there's lots of good firms out there, and there's no one single way of"
+  },
+  {
+    "speaker": 1,
+    "ts": 439,
+    "text": "being successful."
+  },
+  {
+    "speaker": 1,
+    "ts": 441,
+    "text": "And so really the way that I would talk about it is the multi-sector fixed income side,"
+  },
+  {
+    "speaker": 1,
+    "ts": 445,
+    "text": "you can think about Aristotle and kind of two quasi-distinct ARMS."
+  },
+  {
+    "speaker": 1,
+    "ts": 450,
+    "text": "Now, both of them access that relative value perspective, but when you do it within a single"
+  },
+  {
+    "speaker": 1,
+    "ts": 456,
+    "text": "silo part of fixed income, just bank loans, for instance, just corporates, just securitized"
+  },
+  {
+    "speaker": 1,
+    "ts": 462,
+    "text": "or CLOs, it's a little bit different in how you apply that relative value lens versus"
+  },
+  {
+    "speaker": 1,
+    "ts": 467,
+    "text": "the multi-sector lens."
+  },
+  {
+    "speaker": 1,
+    "ts": 468,
+    "text": "And so all three of these products that Esther, ARCP, and ARMS look a lot like many of the"
+  },
+  {
+    "speaker": 1,
+    "ts": 474,
+    "text": "mutual funds that we've had in our multi-sector suite for quite some time."
+  },
+  {
+    "speaker": 1,
+    "ts": 478,
+    "text": "And really the crux of them is accessing what I will argue is a very inefficient market"
+  },
+  {
+    "speaker": 1,
+    "ts": 484,
+    "text": "because of the way that many firms have what I believe to be an old construct of looking"
+  },
+  {
+    "speaker": 1,
+    "ts": 490,
+    "text": "only at the individual silos within the context of multi-sector."
+  },
+  {
+    "speaker": 1,
+    "ts": 495,
+    "text": "And so many firms are still set up to invest under a low tracking error, just benchmark"
+  },
+  {
+    "speaker": 1,
+    "ts": 501,
+    "text": "centric approach."
+  },
+  {
+    "speaker": 1,
+    "ts": 503,
+    "text": "And all of these products represent what I will talk about as being a suite of outcomes."
+  },
+  {
+    "speaker": 1,
+    "ts": 509,
+    "text": "And to me, that's what clients really should care about."
+  },
+  {
+    "speaker": 1,
+    "ts": 511,
+    "text": "They want a product to do something specific."
+  },
+  {
+    "speaker": 1,
+    "ts": 514,
+    "text": "They know when it's going to do well."
+  },
+  {
+    "speaker": 1,
+    "ts": 515,
+    "text": "They know when it may do less well."
+  },
+  {
+    "speaker": 1,
+    "ts": 517,
+    "text": "And that's okay because they know how it fits into the context of their portfolio."
+  },
+  {
+    "speaker": 1,
+    "ts": 521,
+    "text": "So really the way I would think about this suite of products is we have a little bit"
+  },
+  {
+    "speaker": 1,
+    "ts": 524,
+    "text": "from left to right on the duration spectrum."
+  },
+  {
+    "speaker": 1,
+    "ts": 526,
+    "text": "How much interest rate exposure do you want, as well as up and down on the credit spectrum?"
+  },
+  {
+    "speaker": 1,
+    "ts": 531,
+    "text": "How much risk are you willing to take in pursuit of a different outcome and different return"
+  },
+  {
+    "speaker": 1,
+    "ts": 536,
+    "text": "goals?"
+  },
+  {
+    "speaker": 1,
+    "ts": 537,
+    "text": "So at the heart of all three of these funds is a relative value process, like a bottom"
+  },
+  {
+    "speaker": 1,
+    "ts": 542,
+    "text": "up credit research combined with top down positioning."
+  },
+  {
+    "speaker": 1,
+    "ts": 546,
+    "text": "Can you walk us through what relative value actually means in a fixed income wrapper and"
+  },
+  {
+    "speaker": 1,
+    "ts": 551,
+    "text": "how your team actually implements that?"
+  },
+  {
+    "speaker": 1,
+    "ts": 553,
+    "text": "Yeah, it's something I'm passionate about."
+  },
+  {
+    "speaker": 1,
+    "ts": 555,
+    "text": "So I'll give an example here in a second, but let me first answer the question and then"
+  },
+  {
+    "speaker": 1,
+    "ts": 559,
+    "text": "hopefully I can bring it to life and something that really matters."
+  },
+  {
+    "speaker": 1,
+    "ts": 562,
+    "text": "So to me, relative value is the world of fixed income is all about income."
+  },
+  {
+    "speaker": 1,
+    "ts": 567,
+    "text": "It's all about yield."
+  },
+  {
+    "speaker": 1,
+    "ts": 569,
+    "text": "And so you can think about a suite."
+  },
+  {
+    "speaker": 1,
+    "ts": 571,
+    "text": "In today's fixed income world, bonds can range anywhere from three and a half, four-ish"
+  },
+  {
+    "speaker": 1,
+    "ts": 576,
+    "text": "type percent yields all the way to low to mid-teens on the riskier side of things."
+  },
+  {
+    "speaker": 1,
+    "ts": 582,
+    "text": "And so if I want to access, let's just say five percent, just doesn't matter, pick a"
+  },
+  {
+    "speaker": 1,
+    "ts": 586,
+    "text": "number, but five percent."
+  },
+  {
+    "speaker": 1,
+    "ts": 588,
+    "text": "I will argue that there are lots of ways to get five percent and there is the one with"
+  },
+  {
+    "speaker": 1,
+    "ts": 593,
+    "text": "the lowest potential volatility."
+  },
+  {
+    "speaker": 1,
+    "ts": 595,
+    "text": "This is an asset class that is usually meant to be less interesting, just more day to day,"
+  },
+  {
+    "speaker": 1,
+    "ts": 600,
+    "text": "a little bit more balanced to an investor's portfolio."
+  },
+  {
+    "speaker": 1,
+    "ts": 602,
+    "text": "And so the way I like to talk about it is much of the world of fixed income approaches"
+  },
+  {
+    "speaker": 1,
+    "ts": 608,
+    "text": "it from a, how do I get a lot of additional yield, a lot of additional return and be willing"
+  },
+  {
+    "speaker": 1,
+    "ts": 613,
+    "text": "to accept just a little bit of additional risk along with that?"
+  },
+  {
+    "speaker": 1,
+    "ts": 617,
+    "text": "And at the security level, I think that's the wrong approach."
+  },
+  {
+    "speaker": 1,
+    "ts": 620,
+    "text": "So relative value to me is almost the exact opposite."
+  },
+  {
+    "speaker": 1,
+    "ts": 623,
+    "text": "How do I get that yield target that I'm after and use the world of relative value to take"
+  },
+  {
+    "speaker": 1,
+    "ts": 628,
+    "text": "potential volatility out from that actual investment?"
+  },
+  {
+    "speaker": 1,
+    "ts": 632,
+    "text": "And the reason why I think that exists, and so now I'll come to an example, is because,"
+  },
+  {
+    "speaker": 1,
+    "ts": 637,
+    "text": "again, the world likes to think about the broad array of fixed income as almost distinctly"
+  },
+  {
+    "speaker": 1,
+    "ts": 643,
+    "text": "different asset classes."
+  },
+  {
+    "speaker": 1,
+    "ts": 645,
+    "text": "And so if you walk into many investment teams, what you will see is a distinct asset-backed"
+  },
+  {
+    "speaker": 1,
+    "ts": 650,
+    "text": "desk, a distinct CLO desk, a distinct investment-grade corporate desk, a distinct high-yield corporate"
+  },
+  {
+    "speaker": 1,
+    "ts": 655,
+    "text": "desk, a distinct bank loan desk, treasury desk and on down the line."
+  },
+  {
+    "speaker": 1,
+    "ts": 660,
+    "text": "And every one of them is tasked with looking within that realm to find good value."
+  },
+  {
+    "speaker": 1,
+    "ts": 665,
+    "text": "But the question becomes, who's looking across those individual desks?"
+  },
+  {
+    "speaker": 1,
+    "ts": 670,
+    "text": "And so I think the world is just wrong in the sense that it tends to think about fundamentals"
+  },
+  {
+    "speaker": 1,
+    "ts": 676,
+    "text": "and valuations as two separate parts of the investment structure."
+  },
+  {
+    "speaker": 1,
+    "ts": 681,
+    "text": "And so we try and keep those married throughout."
+  },
+  {
+    "speaker": 1,
+    "ts": 683,
+    "text": "Now, let me give you one example of how this really kind of came to play."
+  },
+  {
+    "speaker": 1,
+    "ts": 689,
+    "text": "So this is a very vulnerable time period, but it's just such a stark example that I"
+  },
+  {
+    "speaker": 1,
+    "ts": 693,
+    "text": "love going to it."
+  },
+  {
+    "speaker": 1,
+    "ts": 695,
+    "text": "So if you think about February of 2020, COVID was all over the front page of the Wall Street"
+  },
+  {
+    "speaker": 1,
+    "ts": 700,
+    "text": "Journal of New York Times."
+  },
+  {
+    "speaker": 1,
+    "ts": 701,
+    "text": "Everybody knew about COVID, but the world wasn't scared of COVID yet, right?"
+  },
+  {
+    "speaker": 1,
+    "ts": 705,
+    "text": "The markets were doing just fine."
+  },
+  {
+    "speaker": 1,
+    "ts": 707,
+    "text": "And so in mid-February, you had American Airlines, which is a large global air carrier, right?"
+  },
+  {
+    "speaker": 1,
+    "ts": 713,
+    "text": "It's a brand new five-year corporate high-yield bond at 3.75%."
+  },
+  {
+    "speaker": 1,
+    "ts": 719,
+    "text": "And so on that day, mid-February, the market said, issue our American Airlines 10 or five"
+  },
+  {
+    "speaker": 1,
+    "ts": 723,
+    "text": "years, 3.75%."
+  },
+  {
+    "speaker": 1,
+    "ts": 725,
+    "text": "That is the going rate for that amount of risk."
+  },
+  {
+    "speaker": 1,
+    "ts": 728,
+    "text": "And on that same day, you could go access American Airlines five-year debt, 3.75%, roughly"
+  },
+  {
+    "speaker": 1,
+    "ts": 733,
+    "text": "in a slightly different form."
+  },
+  {
+    "speaker": 1,
+    "ts": 735,
+    "text": "And think about this as basically secured financing."
+  },
+  {
+    "speaker": 1,
+    "ts": 738,
+    "text": "So it trades more like an asset-backed."
+  },
+  {
+    "speaker": 1,
+    "ts": 739,
+    "text": "It's called a WETC, Enhanced Equipment Trust Certificate."
+  },
+  {
+    "speaker": 1,
+    "ts": 742,
+    "text": "I won't get too far into the weeds, but basically when you step on an airplane, there's a good"
+  },
+  {
+    "speaker": 1,
+    "ts": 746,
+    "text": "chance that airline doesn't own the aircraft."
+  },
+  {
+    "speaker": 1,
+    "ts": 749,
+    "text": "What they do is they buy a bunch of aircraft, they put it in this special-purpose vehicle"
+  },
+  {
+    "speaker": 1,
+    "ts": 753,
+    "text": "off balance sheet, and so long as they make lease payments to that, they have the right"
+  },
+  {
+    "speaker": 1,
+    "ts": 756,
+    "text": "to fly that aircraft."
+  },
+  {
+    "speaker": 1,
+    "ts": 758,
+    "text": "So February, market said, same issuer, same tender, same yield, same risk, same thing."
+  },
+  {
+    "speaker": 1,
+    "ts": 763,
+    "text": "Well, fast forward to March."
+  },
+  {
+    "speaker": 1,
+    "ts": 765,
+    "text": "Now the world is afraid of COVID."
+  },
+  {
+    "speaker": 1,
+    "ts": 767,
+    "text": "And that corporate bond that priced just a month prior in February is now trading at"
+  },
+  {
+    "speaker": 1,
+    "ts": 772,
+    "text": "$0.27 on the dollar."
+  },
+  {
+    "speaker": 1,
+    "ts": 774,
+    "text": "That WETC, still not a good investment, but it's trading at $0.65 on the dollar."
+  },
+  {
+    "speaker": 1,
+    "ts": 779,
+    "text": "And so all of a sudden, the market said, same issuer, same tender, same yield, same risk."
+  },
+  {
+    "speaker": 1,
+    "ts": 784,
+    "text": "One month later, they say, well, one is worth more than double what the other one is worth."
+  },
+  {
+    "speaker": 1,
+    "ts": 789,
+    "text": "And why?"
+  },
+  {
+    "speaker": 1,
+    "ts": 790,
+    "text": "My argument would be because two different people sitting on two different desks, maybe"
+  },
+  {
+    "speaker": 1,
+    "ts": 794,
+    "text": "at two different offices on two separate continents, looked at those in isolation."
+  },
+  {
+    "speaker": 1,
+    "ts": 799,
+    "text": "And it wasn't that they missed that understanding of what each one had and what didn't."
+  },
+  {
+    "speaker": 1,
+    "ts": 804,
+    "text": "It was because generally, the top-level portfolio manager, a CIO, an investment committee, they"
+  },
+  {
+    "speaker": 1,
+    "ts": 810,
+    "text": "just allocate capital to those individual silos."
+  },
+  {
+    "speaker": 1,
+    "ts": 812,
+    "text": "Maybe they said, we think corporates are more interesting, so here you go."
+  },
+  {
+    "speaker": 1,
+    "ts": 816,
+    "text": "And so really the crux of it is we try and keep that decision married throughout the"
+  },
+  {
+    "speaker": 1,
+    "ts": 821,
+    "text": "investment process."
+  },
+  {
+    "speaker": 1,
+    "ts": 822,
+    "text": "And that takes place, maybe just to give one more example, and today, data centers are"
+  },
+  {
+    "speaker": 1,
+    "ts": 827,
+    "text": "all over the news."
+  },
+  {
+    "speaker": 1,
+    "ts": 828,
+    "text": "We all know they're borrowing, and they're issuing debt in asset-backed form, CMBS form,"
+  },
+  {
+    "speaker": 1,
+    "ts": 833,
+    "text": "investment-grade corporate form, high-yield corporate form, bank loans, private credit."
+  },
+  {
+    "speaker": 1,
+    "ts": 837,
+    "text": "They're very thoughtful about how they raise capital, but we on the investment side, I"
+  },
+  {
+    "speaker": 1,
+    "ts": 841,
+    "text": "think as a broad industry, haven't adapted to the way the world works today."
+  },
+  {
+    "speaker": 1,
+    "ts": 846,
+    "text": "And so that really is the crux of that relative value is finding ways to keep that yield at"
+  },
+  {
+    "speaker": 1,
+    "ts": 851,
+    "text": "a similar level, but take out a lot of potential volatility for the various states of the market"
+  },
+  {
+    "speaker": 1,
+    "ts": 857,
+    "text": "and future times."
+  },
+  {
+    "speaker": 1,
+    "ts": 859,
+    "text": "Well, let's get into the funds specifically themselves and how this process can apply"
+  },
+  {
+    "speaker": 1,
+    "ts": 865,
+    "text": "to each one."
+  },
+  {
+    "speaker": 1,
+    "ts": 866,
+    "text": "So let's start with ARCP, which is your CorePlus income."
+  },
+  {
+    "speaker": 1,
+    "ts": 869,
+    "text": "This is designed to deliver excess return over CoreBonds with minimal added volatility."
+  },
+  {
+    "speaker": 1,
+    "ts": 874,
+    "text": "So what is CorePlus actually doing, and how does ARCP compete with names like the Ag"
+  },
+  {
+    "speaker": 1,
+    "ts": 881,
+    "text": "or your former PIMCO CorePlus fund?"
+  },
+  {
+    "speaker": 1,
+    "ts": 884,
+    "text": "Well, so you bring up an interesting kind of point, kind of that active passive debate,"
+  },
+  {
+    "speaker": 1,
+    "ts": 889,
+    "text": "if it's just the Ag, and of course, very much an active manager who's right up the street"
+  },
+  {
+    "speaker": 1,
+    "ts": 893,
+    "text": "from us with the PIMCO side."
+  },
+  {
+    "speaker": 1,
+    "ts": 895,
+    "text": "And I'll talk about them a little bit differently, because I really do think that they serve"
+  },
+  {
+    "speaker": 1,
+    "ts": 899,
+    "text": "a different place in investors' portfolios."
+  },
+  {
+    "speaker": 1,
+    "ts": 901,
+    "text": "You know, I think the Ag is a very inexpensive product, and so the biggest benefit is you're"
+  },
+  {
+    "speaker": 1,
+    "ts": 905,
+    "text": "not paying a manager to generate those returns."
+  },
+  {
+    "speaker": 1,
+    "ts": 908,
+    "text": "And what the Ag is after, and we have to always keep in mind, it's not after anything in"
+  },
+  {
+    "speaker": 1,
+    "ts": 912,
+    "text": "particular, right?"
+  },
+  {
+    "speaker": 1,
+    "ts": 913,
+    "text": "It's not after income."
+  },
+  {
+    "speaker": 1,
+    "ts": 914,
+    "text": "It's not after a certain interest rate exposure or quality exposure or anything."
+  },
+  {
+    "speaker": 1,
+    "ts": 918,
+    "text": "It's just a set of rules that define what the benchmark is, and then they're just trying"
+  },
+  {
+    "speaker": 1,
+    "ts": 923,
+    "text": "to mimic that benchmark."
+  },
+  {
+    "speaker": 1,
+    "ts": 925,
+    "text": "And so its duration can move all over the place, and it's gone from four to six over"
+  },
+  {
+    "speaker": 1,
+    "ts": 929,
+    "text": "the last decade."
+  },
+  {
+    "speaker": 1,
+    "ts": 930,
+    "text": "The quality component has come way down as the treasury and Fed are buying treasuries"
+  },
+  {
+    "speaker": 1,
+    "ts": 935,
+    "text": "or terming out debt or engaging in operation twists, things change."
+  },
+  {
+    "speaker": 1,
+    "ts": 940,
+    "text": "And so it's not after an outcome, but it's great if you just want a go-to bond that"
+  },
+  {
+    "speaker": 1,
+    "ts": 945,
+    "text": "looks like the Ag, and you accept that it doesn't have your end goals in mind along"
+  },
+  {
+    "speaker": 1,
+    "ts": 950,
+    "text": "with it."
+  },
+  {
+    "speaker": 1,
+    "ts": 951,
+    "text": "So I think active manager has a place to play, regardless, just because we are after an outcome."
+  },
+  {
+    "speaker": 1,
+    "ts": 956,
+    "text": "I am very cognizant of the difference between a duration of four and six and how quality"
+  },
+  {
+    "speaker": 1,
+    "ts": 960,
+    "text": "shifts and relative value shifts."
+  },
+  {
+    "speaker": 1,
+    "ts": 963,
+    "text": "So that would be kind of the biggest thing, but the way I think about the Ag is just core"
+  },
+  {
+    "speaker": 1,
+    "ts": 968,
+    "text": "plus bonds and the Ag included within that is its outcome is meant to be kind of a teeter"
+  },
+  {
+    "speaker": 1,
+    "ts": 973,
+    "text": "totter of both things."
+  },
+  {
+    "speaker": 1,
+    "ts": 975,
+    "text": "Clients generally want an interesting level of income, an interesting level of total return,"
+  },
+  {
+    "speaker": 1,
+    "ts": 981,
+    "text": "and they also want right along with that balance to their portfolio, right?"
+  },
+  {
+    "speaker": 1,
+    "ts": 985,
+    "text": "It's meant to be a low volatility investment, ideally in many times the value of it will"
+  },
+  {
+    "speaker": 1,
+    "ts": 990,
+    "text": "actually go up as the value of equities go down in a recession, let's say."
+  },
+  {
+    "speaker": 1,
+    "ts": 994,
+    "text": "And so that's really what we're trying to accomplish with it."
+  },
+  {
+    "speaker": 1,
+    "ts": 997,
+    "text": "We're trying to say, all right, you have an Ag in mind."
+  },
+  {
+    "speaker": 1,
+    "ts": 1000,
+    "text": "We're trying to outperform that by 100 to 150 basis points throughout a cycle."
+  },
+  {
+    "speaker": 1,
+    "ts": 1004,
+    "text": "We've delivered well more than that for other very similar products."
+  },
+  {
+    "speaker": 1,
+    "ts": 1008,
+    "text": "And we don't think we have to give you a whole lot of additional volatility in order to achieve"
+  },
+  {
+    "speaker": 1,
+    "ts": 1012,
+    "text": "that outcome."
+  },
+  {
+    "speaker": 1,
+    "ts": 1013,
+    "text": "And so that application of how we look at the world would be very different than the"
+  },
+  {
+    "speaker": 1,
+    "ts": 1017,
+    "text": "application of how PIMCO looks at the world."
+  },
+  {
+    "speaker": 1,
+    "ts": 1020,
+    "text": "A lot of fixed income managers like to start from the top down."
+  },
+  {
+    "speaker": 1,
+    "ts": 1023,
+    "text": "What's the Fed going to do?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1024,
+    "text": "Are we going to be in a recession in 26 or 27?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1026,
+    "text": "What might be happening with oil and the war in Russia, Ukraine and all of these things?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1032,
+    "text": "And that's OK if you believe that they have a leg up on doing that and that's part of"
+  },
+  {
+    "speaker": 1,
+    "ts": 1036,
+    "text": "their process."
+  },
+  {
+    "speaker": 1,
+    "ts": 1037,
+    "text": "But we're going to approach the world from a very different perspective, right?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1040,
+    "text": "What are the individual companies doing?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1042,
+    "text": "What are consumers telling us and where can we access those individual balance sheets,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1046,
+    "text": "whether they be a consumer balance sheet, a corporate balance sheet, a government balance"
+  },
+  {
+    "speaker": 1,
+    "ts": 1049,
+    "text": "sheet in a nuanced way to deliver that return, but hopefully with a lot less volatility than"
+  },
+  {
+    "speaker": 1,
+    "ts": 1054,
+    "text": "its yield might suggest?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1057,
+    "text": "So taking a look at arms, which is the multi sector, first like quick question, biggest"
+  },
+  {
+    "speaker": 1,
+    "ts": 1064,
+    "text": "difference between core and multi sector, just you can go more places."
+  },
+  {
+    "speaker": 1,
+    "ts": 1068,
+    "text": "That's the biggest thing, right?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1069,
+    "text": "So we start with core, which is kind of investment grade only."
+  },
+  {
+    "speaker": 1,
+    "ts": 1072,
+    "text": "And then our core plus strategy, which is also very similar to many other, you start"
+  },
+  {
+    "speaker": 1,
+    "ts": 1075,
+    "text": "introducing the ability to buy in the high yield market, the below investment grade site,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1080,
+    "text": "but not too much, right?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1081,
+    "text": "You still want it to be just that ballast."
+  },
+  {
+    "speaker": 1,
+    "ts": 1083,
+    "text": "When you move to the world of multi sector, arms, strategic type products, you really"
+  },
+  {
+    "speaker": 1,
+    "ts": 1088,
+    "text": "open up that box."
+  },
+  {
+    "speaker": 1,
+    "ts": 1089,
+    "text": "And so the traditional multi sector portfolio is 60 percent investment grade, 40 percent"
+  },
+  {
+    "speaker": 1,
+    "ts": 1096,
+    "text": "below investment grade, and that's very similar to our arms products."
+  },
+  {
+    "speaker": 1,
+    "ts": 1099,
+    "text": "But what you get for that is instead of just beating the egg by 100 to 150 basis points"
+  },
+  {
+    "speaker": 1,
+    "ts": 1105,
+    "text": "throughout a cycle, now we're targeting 250 basis points, right?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1109,
+    "text": "Two and a half percent."
+  },
+  {
+    "speaker": 1,
+    "ts": 1110,
+    "text": "And so for clients that are saying, great, I've got my fixed income allocation, or maybe"
+  },
+  {
+    "speaker": 1,
+    "ts": 1115,
+    "text": "I don't need a core core plus product in my portfolio."
+  },
+  {
+    "speaker": 1,
+    "ts": 1119,
+    "text": "I want something more interesting, a higher level of yield and total return, but I still"
+  },
+  {
+    "speaker": 1,
+    "ts": 1124,
+    "text": "don't want the volatility of equities or private credit or private equity, right?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1130,
+    "text": "That's kind of that next step out."
+  },
+  {
+    "speaker": 1,
+    "ts": 1131,
+    "text": "So it's a different return target and investors accepting also along with that a"
+  },
+  {
+    "speaker": 1,
+    "ts": 1138,
+    "text": "little bit higher volatility versus a core core plus product."
+  },
+  {
+    "speaker": 1,
+    "ts": 1142,
+    "text": "So just curious, like how much flexibility the team has there in terms of being able"
+  },
+  {
+    "speaker": 1,
+    "ts": 1146,
+    "text": "to go anywhere, or do you have to keep a certain amount of exposures in certain parts"
+  },
+  {
+    "speaker": 1,
+    "ts": 1151,
+    "text": "of the market, like investment grade, high yield or floating rate?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1154,
+    "text": "Or is it just, hey, this is where our team sees opportunity, this is the direction we're"
+  },
+  {
+    "speaker": 1,
+    "ts": 1159,
+    "text": "going to go, or does it stay fairly diversified?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1163,
+    "text": "It will always stay fairly diversified, but right along with that, there is a lot of"
+  },
+  {
+    "speaker": 1,
+    "ts": 1167,
+    "text": "flexibility to ourselves and many managers in how they can migrate all of those different"
+  },
+  {
+    "speaker": 1,
+    "ts": 1173,
+    "text": "asset classes."
+  },
+  {
+    "speaker": 1,
+    "ts": 1175,
+    "text": "And so I'll go back to something I said earlier."
+  },
+  {
+    "speaker": 1,
+    "ts": 1177,
+    "text": "I think it's really incumbent for the end user or their advisors to make sure they"
+  },
+  {
+    "speaker": 1,
+    "ts": 1182,
+    "text": "understand where, how and why a manager might pull those individual levers."
+  },
+  {
+    "speaker": 1,
+    "ts": 1187,
+    "text": "And so, you know, in something like ARMS, we can have as little as 25% below investment"
+  },
+  {
+    "speaker": 1,
+    "ts": 1192,
+    "text": "grade, right?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1193,
+    "text": "And we can have up to mid 60 type percent investment grade."
+  },
+  {
+    "speaker": 1,
+    "ts": 1198,
+    "text": "And so we really want to be very cognizant of where and how we might pull that lever"
+  },
+  {
+    "speaker": 1,
+    "ts": 1204,
+    "text": "because in just a very broad brush, the world of high quality versus low quality at"
+  },
+  {
+    "speaker": 1,
+    "ts": 1208,
+    "text": "times, you may be paid to take that lower quality risk."
+  },
+  {
+    "speaker": 1,
+    "ts": 1212,
+    "text": "I would argue today you're not being well paid."
+  },
+  {
+    "speaker": 1,
+    "ts": 1214,
+    "text": "And so we don't want a whole lot of it."
+  },
+  {
+    "speaker": 1,
+    "ts": 1217,
+    "text": "And so we are very much on the low end of that range."
+  },
+  {
+    "speaker": 1,
+    "ts": 1221,
+    "text": "But I'll also go back."
+  },
+  {
+    "speaker": 1,
+    "ts": 1222,
+    "text": "It's not just as nuanced or I shouldn't even say it's not even just as simple as saying,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1227,
+    "text": "well, how much is investment grade and how much is below investment grade?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1230,
+    "text": "Because there might be time periods where agency mortgages look tremendously"
+  },
+  {
+    "speaker": 1,
+    "ts": 1233,
+    "text": "interesting versus corporates."
+  },
+  {
+    "speaker": 1,
+    "ts": 1235,
+    "text": "And agency mortgages are backed by the government."
+  },
+  {
+    "speaker": 1,
+    "ts": 1237,
+    "text": "So the default risk is de minimis to zero."
+  },
+  {
+    "speaker": 1,
+    "ts": 1240,
+    "text": "We can debate that, but very, very low, right?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1243,
+    "text": "You're getting a very different risk."
+  },
+  {
+    "speaker": 1,
+    "ts": 1245,
+    "text": "I always talk about bonds as we'd like to talk about them as distinct things in"
+  },
+  {
+    "speaker": 1,
+    "ts": 1250,
+    "text": "different wrappers and different terminology."
+  },
+  {
+    "speaker": 1,
+    "ts": 1252,
+    "text": "But at the end of the day, how much cash am I going to get?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1255,
+    "text": "When am I going to get it?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1256,
+    "text": "And how likely am I to get it?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1257,
+    "text": "So just timing, probability and quantity of cash flows."
+  },
+  {
+    "speaker": 1,
+    "ts": 1260,
+    "text": "And all of a sudden it's just a bond, right?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1263,
+    "text": "Doesn't matter what wrapper it is."
+  },
+  {
+    "speaker": 1,
+    "ts": 1265,
+    "text": "And so that's how I really think about the world."
+  },
+  {
+    "speaker": 1,
+    "ts": 1267,
+    "text": "And we at Aristotle think about the world from a multi-sector lens."
+  },
+  {
+    "speaker": 1,
+    "ts": 1270,
+    "text": "And so it's not just about investment grade or non-investment grade."
+  },
+  {
+    "speaker": 1,
+    "ts": 1273,
+    "text": "It's also CMBS or CLOs will have a very different risk return profile for the"
+  },
+  {
+    "speaker": 1,
+    "ts": 1280,
+    "text": "same rating versus corporates, for instance."
+  },
+  {
+    "speaker": 1,
+    "ts": 1283,
+    "text": "And so it's really quite a flexible product in terms of following that relative value."
+  },
+  {
+    "speaker": 1,
+    "ts": 1290,
+    "text": "But what I will say is we're very cognizant of the risk that we're taking on."
+  },
+  {
+    "speaker": 1,
+    "ts": 1294,
+    "text": "And that's, to me, what a benchmark does serve is it's not a benchmark of returns,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1299,
+    "text": "per se, and it's absolutely not a benchmark of duration or asset class allocation."
+  },
+  {
+    "speaker": 1,
+    "ts": 1304,
+    "text": "It's how much risk am I willing to take into the portfolio?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1307,
+    "text": "Because that's how I think an investor should think about a benchmark of you're"
+  },
+  {
+    "speaker": 1,
+    "ts": 1310,
+    "text": "giving a client or you're giving a manager the freedom and flexibility to go pursue"
+  },
+  {
+    "speaker": 1,
+    "ts": 1316,
+    "text": "an outcome, but they have to stay within a predefined level of risk in order to"
+  },
+  {
+    "speaker": 1,
+    "ts": 1320,
+    "text": "achieve that outcome."
+  },
+  {
+    "speaker": 1,
+    "ts": 1321,
+    "text": "Because if I give you treasury like returns and equity like volatility,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1325,
+    "text": "well, I've not done my job as a fixed income manager."
+  },
+  {
+    "speaker": 1,
+    "ts": 1328,
+    "text": "So still a very keen eye on risk, but recognizing relative value ebbs and flows"
+  },
+  {
+    "speaker": 1,
+    "ts": 1333,
+    "text": "throughout the market and cycle."
+  },
+  {
+    "speaker": 1,
+    "ts": 1335,
+    "text": "So let's talk about the third one, Esther, as you called it, the short term income ETF."
+  },
+  {
+    "speaker": 1,
+    "ts": 1340,
+    "text": "This is obviously, you know, you're more defensive, short duration play."
+  },
+  {
+    "speaker": 1,
+    "ts": 1344,
+    "text": "I guess my curiosity would lie of what's the case for actually using active"
+  },
+  {
+    "speaker": 1,
+    "ts": 1349,
+    "text": "management in short duration and these such defensive, hopefully low volatility"
+  },
+  {
+    "speaker": 1,
+    "ts": 1356,
+    "text": "securities?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1357,
+    "text": "I would say it's the same thing, right?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1359,
+    "text": "It's recognizing that if you think about the world from a fixed income in just"
+  },
+  {
+    "speaker": 1,
+    "ts": 1364,
+    "text": "two broad levers, which is what most people would think about the world of"
+  },
+  {
+    "speaker": 1,
+    "ts": 1368,
+    "text": "fixed income in, you can pull an interest rate lever."
+  },
+  {
+    "speaker": 1,
+    "ts": 1370,
+    "text": "You can bet on where the level of the Fed is going to move, the level of the"
+  },
+  {
+    "speaker": 1,
+    "ts": 1374,
+    "text": "front end part of the curve, two year treasuries versus 30 year treasuries."
+  },
+  {
+    "speaker": 1,
+    "ts": 1378,
+    "text": "It's very much a topic that we're talking about right now, just given deficits"
+  },
+  {
+    "speaker": 1,
+    "ts": 1382,
+    "text": "and curve steepening, or you can pull a credit lever."
+  },
+  {
+    "speaker": 1,
+    "ts": 1385,
+    "text": "You can say, well, I want to invest in very high quality companies or less"
+  },
+  {
+    "speaker": 1,
+    "ts": 1389,
+    "text": "quality companies, but the world is more nuanced than that and we've covered"
+  },
+  {
+    "speaker": 1,
+    "ts": 1394,
+    "text": "some of that, but the way I would think about short duration is it's for a"
+  },
+  {
+    "speaker": 1,
+    "ts": 1399,
+    "text": "client that doesn't want that interest rate risk."
+  },
+  {
+    "speaker": 1,
+    "ts": 1402,
+    "text": "And so the biggest benefit of interest rate risk is it tends to go in the"
+  },
+  {
+    "speaker": 1,
+    "ts": 1406,
+    "text": "opposite direction of credit risk and we've emerged from a world where that"
+  },
+  {
+    "speaker": 1,
+    "ts": 1409,
+    "text": "has not been the case over the last three to five years."
+  },
+  {
+    "speaker": 1,
+    "ts": 1413,
+    "text": "But we have to remember the starting point was we started from a Fed that was"
+  },
+  {
+    "speaker": 1,
+    "ts": 1417,
+    "text": "pinned at zero because we were in a disinflationary environment and today"
+  },
+  {
+    "speaker": 1,
+    "ts": 1420,
+    "text": "we're in an inflationary environment."
+  },
+  {
+    "speaker": 1,
+    "ts": 1422,
+    "text": "So we won't go too far down that rabbit hole unless you want to."
+  },
+  {
+    "speaker": 1,
+    "ts": 1425,
+    "text": "But the biggest benefit I think for a product like short duration is you're"
+  },
+  {
+    "speaker": 1,
+    "ts": 1429,
+    "text": "stripping out a lot of that potential interest rate exposure, which means"
+  },
+  {
+    "speaker": 1,
+    "ts": 1432,
+    "text": "you're stripping out a lot of that potential volatility, but you are still"
+  },
+  {
+    "speaker": 1,
+    "ts": 1437,
+    "text": "earning well in excess of what a low interest rate treasury would give you."
+  },
+  {
+    "speaker": 1,
+    "ts": 1442,
+    "text": "A low interest rate sensitive treasury would give you."
+  },
+  {
+    "speaker": 1,
+    "ts": 1446,
+    "text": "So that product today is yielding about 5%, versus the front end of the"
+  },
+  {
+    "speaker": 1,
+    "ts": 1450,
+    "text": "treasury curve is well below that level and most clients for a very safe"
+  },
+  {
+    "speaker": 1,
+    "ts": 1455,
+    "text": "investment would be hard pressed to get much above four."
+  },
+  {
+    "speaker": 1,
+    "ts": 1460,
+    "text": "Well, I actually do want to get into your macro read here in a second, but just"
+  },
+  {
+    "speaker": 1,
+    "ts": 1464,
+    "text": "curious, the active fixed income area in ETFs has been one of the fastest"
+  },
+  {
+    "speaker": 1,
+    "ts": 1470,
+    "text": "growing segments of the ETF industry."
+  },
+  {
+    "speaker": 1,
+    "ts": 1472,
+    "text": "So what is driving that shift and how much runway do you think it still has?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1478,
+    "text": "I think ETFs are easier to access."
+  },
+  {
+    "speaker": 1,
+    "ts": 1483,
+    "text": "I think for many clients, they like that if they just go on their brokerage"
+  },
+  {
+    "speaker": 1,
+    "ts": 1486,
+    "text": "account, once an ETF is up and running, it's really broadly available in most places."
+  },
+  {
+    "speaker": 1,
+    "ts": 1491,
+    "text": "As where mutual funds are a little bit different, right?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1493,
+    "text": "Mutual funds might be available on one platform and not another."
+  },
+  {
+    "speaker": 1,
+    "ts": 1497,
+    "text": "And so the sales process right along with it is a little bit different."
+  },
+  {
+    "speaker": 1,
+    "ts": 1500,
+    "text": "I will say the ETF wrapper itself has a lot of advantages."
+  },
+  {
+    "speaker": 1,
+    "ts": 1505,
+    "text": "It has some disadvantages, but those advantages are much more applicable"
+  },
+  {
+    "speaker": 1,
+    "ts": 1511,
+    "text": "to the world of equity securities, where you truly do generate capital gains"
+  },
+  {
+    "speaker": 1,
+    "ts": 1515,
+    "text": "and capital losses, and it just has a different tax regime than a mutual fund would."
+  },
+  {
+    "speaker": 1,
+    "ts": 1520,
+    "text": "And so as you start applying it to the world of fixed income, I think it gets"
+  },
+  {
+    "speaker": 1,
+    "ts": 1523,
+    "text": "very nuanced very quickly."
+  },
+  {
+    "speaker": 1,
+    "ts": 1524,
+    "text": "To me, the biggest benefit is the ability to transact with in-kind security."
+  },
+  {
+    "speaker": 1,
+    "ts": 1528,
+    "text": "So I'm not having to buy something to sell something."
+  },
+  {
+    "speaker": 1,
+    "ts": 1530,
+    "text": "It can just be a swap of cash for securities."
+  },
+  {
+    "speaker": 1,
+    "ts": 1534,
+    "text": "And so, again, it's a little bit more efficient."
+  },
+  {
+    "speaker": 1,
+    "ts": 1537,
+    "text": "But I think the reason why we've seen such a big rise is because it's really"
+  },
+  {
+    "speaker": 1,
+    "ts": 1541,
+    "text": "caught on in the world of equities, where it really does have some truly"
+  },
+  {
+    "speaker": 1,
+    "ts": 1545,
+    "text": "tremendous advantages to the product itself."
+  },
+  {
+    "speaker": 1,
+    "ts": 1548,
+    "text": "And then as clients have gotten comfortable with an ETF wrapper, they"
+  },
+  {
+    "speaker": 1,
+    "ts": 1551,
+    "text": "just want a lot of their other products to be in that wrapper as well."
+  },
+  {
+    "speaker": 1,
+    "ts": 1556,
+    "text": "So I do want your macro read, right?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1558,
+    "text": "Inflation is still elevated."
+  },
+  {
+    "speaker": 1,
+    "ts": 1559,
+    "text": "You know, rates and yields are back in the news."
+  },
+  {
+    "speaker": 1,
+    "ts": 1563,
+    "text": "Where do you see this?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1565,
+    "text": "I'm not going to hold you to this, so don't worry."
+  },
+  {
+    "speaker": 1,
+    "ts": 1567,
+    "text": "Where do you see rates going from here and how's that shaping how you guys"
+  },
+  {
+    "speaker": 1,
+    "ts": 1569,
+    "text": "are positioned in all of your products?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1572,
+    "text": "Yeah."
+  },
+  {
+    "speaker": 1,
+    "ts": 1572,
+    "text": "Well, whenever I kind of get that rates question, I always want to back up"
+  },
+  {
+    "speaker": 1,
+    "ts": 1575,
+    "text": "just a second and remind myself, this is really for myself, to remind myself"
+  },
+  {
+    "speaker": 1,
+    "ts": 1580,
+    "text": "that the world has changed and it's changed tremendously."
+  },
+  {
+    "speaker": 1,
+    "ts": 1585,
+    "text": "And it's because we as investors, for most people that are actively"
+  },
+  {
+    "speaker": 1,
+    "ts": 1588,
+    "text": "investing in their career today or saving as savers, most of us have existed"
+  },
+  {
+    "speaker": 1,
+    "ts": 1593,
+    "text": "in a world that is not normal."
+  },
+  {
+    "speaker": 1,
+    "ts": 1595,
+    "text": "And that is a world where interest rates were artificially pinned very"
+  },
+  {
+    "speaker": 1,
+    "ts": 1599,
+    "text": "low and for good reason, because they were trying to increase demand, what"
+  },
+  {
+    "speaker": 1,
+    "ts": 1603,
+    "text": "central banks were trying to do in the context of price stability, of keeping"
+  },
+  {
+    "speaker": 1,
+    "ts": 1609,
+    "text": "inflation in check, was actually to push the level of inflation up towards"
+  },
+  {
+    "speaker": 1,
+    "ts": 1613,
+    "text": "their target of 2% is what most central banks say."
+  },
+  {
+    "speaker": 1,
+    "ts": 1617,
+    "text": "And that's not the normal state of the world, but it's the normal state"
+  },
+  {
+    "speaker": 1,
+    "ts": 1621,
+    "text": "of the world for most of us and our financial history."
+  },
+  {
+    "speaker": 1,
+    "ts": 1624,
+    "text": "And that world is now no longer the case, right?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1627,
+    "text": "Today, inflation is too high."
+  },
+  {
+    "speaker": 1,
+    "ts": 1628,
+    "text": "We're trying to pull it down."
+  },
+  {
+    "speaker": 1,
+    "ts": 1629,
+    "text": "It's been too high for five plus years."
+  },
+  {
+    "speaker": 1,
+    "ts": 1631,
+    "text": "And I think that sets up a very nuanced picture for answering the question"
+  },
+  {
+    "speaker": 1,
+    "ts": 1635,
+    "text": "of where interest rates are going to go, right?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1638,
+    "text": "Today, we have an environment where inflation is too high and it's been"
+  },
+  {
+    "speaker": 1,
+    "ts": 1641,
+    "text": "too high for two long, five years."
+  },
+  {
+    "speaker": 1,
+    "ts": 1644,
+    "text": "And I think this Fed is much like we've transitioned from that world"
+  },
+  {
+    "speaker": 1,
+    "ts": 1647,
+    "text": "of low inflation to high inflation."
+  },
+  {
+    "speaker": 1,
+    "ts": 1649,
+    "text": "The new Fed share is also doing the same thing, right?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1651,
+    "text": "The old Fed share took over a world of low inflation, exited a world of high"
+  },
+  {
+    "speaker": 1,
+    "ts": 1654,
+    "text": "inflation, this Fed share wash has come in and all he has to contend with"
+  },
+  {
+    "speaker": 1,
+    "ts": 1658,
+    "text": "is a world of high inflation."
+  },
+  {
+    "speaker": 1,
+    "ts": 1659,
+    "text": "And so I think the reaction function is likely to be very different."
+  },
+  {
+    "speaker": 1,
+    "ts": 1662,
+    "text": "But importantly, we've also moved from this mentality of, well, high"
+  },
+  {
+    "speaker": 1,
+    "ts": 1667,
+    "text": "inflation is transitory, right?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1669,
+    "text": "First, we had a COVID shock."
+  },
+  {
+    "speaker": 1,
+    "ts": 1670,
+    "text": "Who can blame the world for that, right?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1671,
+    "text": "We had a supply chain disruption."
+  },
+  {
+    "speaker": 1,
+    "ts": 1673,
+    "text": "Then we had the reopening trade."
+  },
+  {
+    "speaker": 1,
+    "ts": 1675,
+    "text": "Then we had low interest rates and housing that moved into the prices of"
+  },
+  {
+    "speaker": 1,
+    "ts": 1679,
+    "text": "rents and all sorts of things."
+  },
+  {
+    "speaker": 1,
+    "ts": 1680,
+    "text": "And now maybe we have an oil shock or memory shock because of AI."
+  },
+  {
+    "speaker": 1,
+    "ts": 1684,
+    "text": "And this Fed share, I think is correctly looking at the world and being like,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1687,
+    "text": "well, if we have one shock after the other, eventually it's not a shock."
+  },
+  {
+    "speaker": 1,
+    "ts": 1691,
+    "text": "It's just the world that we live in."
+  },
+  {
+    "speaker": 1,
+    "ts": 1693,
+    "text": "And I make a joke, right?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1694,
+    "text": "Every year on December 31st, I'm going to be more healthy."
+  },
+  {
+    "speaker": 1,
+    "ts": 1698,
+    "text": "I'm going to go to the gym and something changes in the world."
+  },
+  {
+    "speaker": 1,
+    "ts": 1701,
+    "text": "My friend has a party or a birthday or something and I eat dessert and then,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1705,
+    "text": "oh, it's really nice and I don't want to go to the gym today."
+  },
+  {
+    "speaker": 1,
+    "ts": 1708,
+    "text": "And eventually it just becomes my state of affairs for the rest of the year."
+  },
+  {
+    "speaker": 1,
+    "ts": 1711,
+    "text": "I'm not quite as healthy as I want."
+  },
+  {
+    "speaker": 1,
+    "ts": 1713,
+    "text": "And so I think this Fed share is much more willing to pull that interest rate"
+  },
+  {
+    "speaker": 1,
+    "ts": 1716,
+    "text": "lever because really what it translates to do is we have too much"
+  },
+  {
+    "speaker": 1,
+    "ts": 1719,
+    "text": "demand chasing too few goods."
+  },
+  {
+    "speaker": 1,
+    "ts": 1721,
+    "text": "And it's hard."
+  },
+  {
+    "speaker": 1,
+    "ts": 1722,
+    "text": "It's a tough pill to swallow, but we need less demand."
+  },
+  {
+    "speaker": 1,
+    "ts": 1725,
+    "text": "And so I think the immediate direction of interest rates is higher from here."
+  },
+  {
+    "speaker": 1,
+    "ts": 1729,
+    "text": "I do think this Fed will ultimately acquiesce and raise rates, but I think"
+  },
+  {
+    "speaker": 1,
+    "ts": 1734,
+    "text": "that's the medicine and the ultimate cure is that inflation comes down."
+  },
+  {
+    "speaker": 1,
+    "ts": 1739,
+    "text": "And so over the medium term, I think interest rates are headed lower."
+  },
+  {
+    "speaker": 1,
+    "ts": 1743,
+    "text": "And I think that that's a really tremendous opportunity in the world of"
+  },
+  {
+    "speaker": 1,
+    "ts": 1746,
+    "text": "fixed income today."
+  },
+  {
+    "speaker": 1,
+    "ts": 1747,
+    "text": "So we are a little bit above duration."
+  },
+  {
+    "speaker": 1,
+    "ts": 1749,
+    "text": "And the first question I get is, well, why are you above weight duration?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1754,
+    "text": "If you think interest rates are moving higher?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1756,
+    "text": "And the biggest answer and reason that I believe that is because they're an"
+  },
+  {
+    "speaker": 1,
+    "ts": 1760,
+    "text": "excellent hedge to some of that credit exposure."
+  },
+  {
+    "speaker": 1,
+    "ts": 1763,
+    "text": "And so interest rates are probably moving a little bit higher, but today we"
+  },
+  {
+    "speaker": 1,
+    "ts": 1766,
+    "text": "exist in a world where everyone is stretched."
+  },
+  {
+    "speaker": 1,
+    "ts": 1768,
+    "text": "I think when we're talking, right, everyone on the other side of this,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1771,
+    "text": "myself, everybody, we all feel that pinch of higher interest rates, higher"
+  },
+  {
+    "speaker": 1,
+    "ts": 1775,
+    "text": "gas prices, higher food prices, everything costs more."
+  },
+  {
+    "speaker": 1,
+    "ts": 1779,
+    "text": "And so it doesn't take that much higher level of interest rates to see that"
+  },
+  {
+    "speaker": 1,
+    "ts": 1783,
+    "text": "demand function pull back."
+  },
+  {
+    "speaker": 1,
+    "ts": 1785,
+    "text": "And in that world, you'd see credit spreads widen."
+  },
+  {
+    "speaker": 1,
+    "ts": 1787,
+    "text": "So ultimately, I like the hedge of that."
+  },
+  {
+    "speaker": 1,
+    "ts": 1790,
+    "text": "And really what I like is, again, what is the outcome that we're trying"
+  },
+  {
+    "speaker": 1,
+    "ts": 1793,
+    "text": "to achieve, a lower volatility instrument that clients can use in concert"
+  },
+  {
+    "speaker": 1,
+    "ts": 1798,
+    "text": "with equities and other things."
+  },
+  {
+    "speaker": 1,
+    "ts": 1799,
+    "text": "So I really want to focus on that downside protection because I do think"
+  },
+  {
+    "speaker": 1,
+    "ts": 1802,
+    "text": "interest rates are moving lower over time and the direction is certainly down from here."
+  },
+  {
+    "speaker": 1,
+    "ts": 1808,
+    "text": "So, you know, last question, million dollar question, you kind of briefly"
+  },
+  {
+    "speaker": 1,
+    "ts": 1812,
+    "text": "answered it, was, you know, you've got these three ETFs."
+  },
+  {
+    "speaker": 1,
+    "ts": 1815,
+    "text": "How would you tell an advisor who's already got an existing diversified"
+  },
+  {
+    "speaker": 1,
+    "ts": 1819,
+    "text": "model portfolio, how would you recommend they kind of use them in their"
+  },
+  {
+    "speaker": 1,
+    "ts": 1823,
+    "text": "practice or where would you put them?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1826,
+    "text": "Yeah, to me, again, the most important question is, what are you trying to do"
+  },
+  {
+    "speaker": 1,
+    "ts": 1832,
+    "text": "and what do you have that's trying to do that?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1836,
+    "text": "And so one of the things I really have loved about my investing career and one"
+  },
+  {
+    "speaker": 1,
+    "ts": 1840,
+    "text": "of the things I really love about being here at Aristotle Pacific is the way"
+  },
+  {
+    "speaker": 1,
+    "ts": 1844,
+    "text": "that we generate returns is almost certainly going to be very different"
+  },
+  {
+    "speaker": 1,
+    "ts": 1847,
+    "text": "than the way that many other folks are attempting to generate returns."
+  },
+  {
+    "speaker": 1,
+    "ts": 1851,
+    "text": "And so if nothing else, it's very complimentary, right?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1854,
+    "text": "Not all things work at all times."
+  },
+  {
+    "speaker": 1,
+    "ts": 1855,
+    "text": "And I would say that about ourselves."
+  },
+  {
+    "speaker": 1,
+    "ts": 1857,
+    "text": "And I would certainly say it about anybody else, but it's you want a little"
+  },
+  {
+    "speaker": 1,
+    "ts": 1861,
+    "text": "bit of things that will zig when the other zags."
+  },
+  {
+    "speaker": 1,
+    "ts": 1863,
+    "text": "And so I would say really get to know the outcome that your manager is after"
+  },
+  {
+    "speaker": 1,
+    "ts": 1868,
+    "text": "the outcomes that we are after and how we're going to generate those returns"
+  },
+  {
+    "speaker": 1,
+    "ts": 1871,
+    "text": "and then where it potentially pairs well."
+  },
+  {
+    "speaker": 1,
+    "ts": 1874,
+    "text": "You know, to give you maybe a more succinct answer, you brought up PIMCO,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1877,
+    "text": "partly because it's my background."
+  },
+  {
+    "speaker": 1,
+    "ts": 1879,
+    "text": "Generally, they're going to invest from the top down."
+  },
+  {
+    "speaker": 1,
+    "ts": 1882,
+    "text": "And so again, that's fine, but we're going to do things very differently."
+  },
+  {
+    "speaker": 1,
+    "ts": 1886,
+    "text": "And so I think we're a very good compliment to some of those larger managers"
+  },
+  {
+    "speaker": 1,
+    "ts": 1890,
+    "text": "that take a much stronger macro view within their portfolios and they will win"
+  },
+  {
+    "speaker": 1,
+    "ts": 1894,
+    "text": "and lose by that, we aren't going to win and lose by the macro view."
+  },
+  {
+    "speaker": 1,
+    "ts": 1898,
+    "text": "And so if nothing else, it's a pretty interesting compliment to many"
+  },
+  {
+    "speaker": 1,
+    "ts": 1901,
+    "text": "of the larger players out there that really, just because of their size,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1905,
+    "text": "have to take a broad macro view instead of individual credits."
+  },
+  {
+    "speaker": 1,
+    "ts": 1909,
+    "text": "And are you being paid to take that risk and then where on the relative value"
+  },
+  {
+    "speaker": 1,
+    "ts": 1912,
+    "text": "spectrum, Jeff, I really appreciate you taking some time with me today."
+  },
+  {
+    "speaker": 1,
+    "ts": 1916,
+    "text": "Before I let you go, where can people learn more about Aristotle and these"
+  },
+  {
+    "speaker": 1,
+    "ts": 1920,
+    "text": "sweet, your suite of new three new ETFs?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1923,
+    "text": "Yeah, absolutely."
+  },
+  {
+    "speaker": 1,
+    "ts": 1924,
+    "text": "Welcome to visit our websites where Aristotle Pacific.com as well as"
+  },
+  {
+    "speaker": 1,
+    "ts": 1928,
+    "text": "AristotleFunds.com will both have those resources."
+  },
+  {
+    "speaker": 1,
+    "ts": 1931,
+    "text": "And then I'm trying post pretty regularly on LinkedIn."
+  },
+  {
+    "speaker": 1,
+    "ts": 1934,
+    "text": "And so if folks want to follow me there, that's where you can find me for"
+  },
+  {
+    "speaker": 1,
+    "ts": 1937,
+    "text": "some of those macro insights."
+  },
+  {
+    "speaker": 1,
+    "ts": 1938,
+    "text": "Again, Jeff, thanks again for hanging out with me."
+  },
+  {
+    "speaker": 1,
+    "ts": 1940,
+    "text": "Yeah, absolutely."
+  },
+  {
+    "speaker": 1,
+    "ts": 1941,
+    "text": "Great conversation."
+  },
+  {
+    "speaker": 1,
+    "ts": 1942,
+    "text": "Thank you."
+  }
+]

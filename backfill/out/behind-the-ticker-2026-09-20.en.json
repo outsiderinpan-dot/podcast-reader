@@ -1,0 +1,1322 @@
+[
+  {
+    "speaker": 1,
+    "ts": 0,
+    "text": "Welcome to Behind the Ticker, the podcast where we go beyond the symbol and into the"
+  },
+  {
+    "speaker": 1,
+    "ts": 9,
+    "text": "strategy."
+  },
+  {
+    "speaker": 1,
+    "ts": 10,
+    "text": "I'm Brad Roth, founder and chief investment officer at Thor Funds, and in each episode,"
+  },
+  {
+    "speaker": 1,
+    "ts": 16,
+    "text": "I sit down with ETF managers, CIOs, and industry leaders to break down how these funds are"
+  },
+  {
+    "speaker": 1,
+    "ts": 23,
+    "text": "actually built, how they behave in real markets, and how advisors use them in real portfolios."
+  },
+  {
+    "speaker": 1,
+    "ts": 29,
+    "text": "Most people just see a ticker symbol, but we know much more goes on behind the ticker."
+  },
+  {
+    "speaker": 1,
+    "ts": 36,
+    "text": "Hi, Bob, welcome to the show."
+  },
+  {
+    "speaker": 1,
+    "ts": 42,
+    "text": "Thank you, Brad."
+  },
+  {
+    "speaker": 1,
+    "ts": 43,
+    "text": "Good to be here."
+  },
+  {
+    "speaker": 1,
+    "ts": 44,
+    "text": "So why don't you give everybody your background?"
+  },
+  {
+    "speaker": 1,
+    "ts": 46,
+    "text": "I know we've got 40 years in business."
+  },
+  {
+    "speaker": 1,
+    "ts": 48,
+    "text": "You were a chief equity strategist at Nuvine, CIO of U.S. Equity at BlackRock."
+  },
+  {
+    "speaker": 1,
+    "ts": 53,
+    "text": "You retired and then you came back to Cross Market, CEO and CIO."
+  },
+  {
+    "speaker": 1,
+    "ts": 58,
+    "text": "Can you walk us through that arc and what pulled you out of retirement?"
+  },
+  {
+    "speaker": 1,
+    "ts": 61,
+    "text": "Yeah, let me do that part first."
+  },
+  {
+    "speaker": 1,
+    "ts": 63,
+    "text": "I had no intention of retiring."
+  },
+  {
+    "speaker": 1,
+    "ts": 65,
+    "text": "I was eligible for retirement, so technically took it, but knew I was coming back and thankfully"
+  },
+  {
+    "speaker": 1,
+    "ts": 74,
+    "text": "to Nuvine."
+  },
+  {
+    "speaker": 1,
+    "ts": 75,
+    "text": "So you just went through it briefly."
+  },
+  {
+    "speaker": 1,
+    "ts": 76,
+    "text": "I've been the investment management business my entire career."
+  },
+  {
+    "speaker": 1,
+    "ts": 81,
+    "text": "The consistent part has been managing money, U.S. large-cap money, mutual funds, SMAs,"
+  },
+  {
+    "speaker": 1,
+    "ts": 88,
+    "text": "and now ETFs, and I've had some management leadership opportunities along the way, taken"
+  },
+  {
+    "speaker": 1,
+    "ts": 96,
+    "text": "some of them, and they've extended me and hopefully we've done okay."
+  },
+  {
+    "speaker": 1,
+    "ts": 101,
+    "text": "So I always ask everybody before we get into the business side of this, outside of work,"
+  },
+  {
+    "speaker": 1,
+    "ts": 105,
+    "text": "what do you like to do?"
+  },
+  {
+    "speaker": 1,
+    "ts": 108,
+    "text": "I keep pretty busy with music."
+  },
+  {
+    "speaker": 1,
+    "ts": 111,
+    "text": "I direct the church choir and play keyboard, piano, and organ, and I'm on a bunch of faith-based"
+  },
+  {
+    "speaker": 1,
+    "ts": 119,
+    "text": "boards."
+  },
+  {
+    "speaker": 1,
+    "ts": 120,
+    "text": "They keep me busy, too."
+  },
+  {
+    "speaker": 1,
+    "ts": 121,
+    "text": "So I don't have a lot of spare time to chase other things, although I do try to get exercise."
+  },
+  {
+    "speaker": 1,
+    "ts": 128,
+    "text": "So let's talk about CrossMark."
+  },
+  {
+    "speaker": 1,
+    "ts": 130,
+    "text": "The firm has long heritage and value-based investing going back to the steward mutual"
+  },
+  {
+    "speaker": 1,
+    "ts": 135,
+    "text": "funds."
+  },
+  {
+    "speaker": 1,
+    "ts": 136,
+    "text": "There are parents who aren't familiar with CrossMark."
+  },
+  {
+    "speaker": 1,
+    "ts": 138,
+    "text": "Can you give us at a high level what's the firm and the philosophy?"
+  },
+  {
+    "speaker": 1,
+    "ts": 142,
+    "text": "Sure."
+  },
+  {
+    "speaker": 1,
+    "ts": 143,
+    "text": "CrossMark's been around since 1987."
+  },
+  {
+    "speaker": 1,
+    "ts": 146,
+    "text": "We are owned by AG Financial, which is the financial arm of the Assemblies of God Church."
+  },
+  {
+    "speaker": 1,
+    "ts": 153,
+    "text": "We manage both values-based and non-values-based money, depending on the client and what their"
+  },
+  {
+    "speaker": 1,
+    "ts": 160,
+    "text": "needs and desires are."
+  },
+  {
+    "speaker": 1,
+    "ts": 162,
+    "text": "We've managed SMAs for a long time, mutual funds in the last double-digit number of years,"
+  },
+  {
+    "speaker": 1,
+    "ts": 172,
+    "text": "and more recently ETFs."
+  },
+  {
+    "speaker": 1,
+    "ts": 174,
+    "text": "So in essence, help people line up their investments with their values."
+  },
+  {
+    "speaker": 1,
+    "ts": 181,
+    "text": "They can choose to do that with size and the SMA category."
+  },
+  {
+    "speaker": 1,
+    "ts": 186,
+    "text": "We can tailor it to their needs, wants, and desires, and it's a whole lot of fun trying"
+  },
+  {
+    "speaker": 1,
+    "ts": 192,
+    "text": "to meet their needs."
+  },
+  {
+    "speaker": 1,
+    "ts": 194,
+    "text": "So values-based investing often can get confused with ESG, but they're actually quite different."
+  },
+  {
+    "speaker": 1,
+    "ts": 200,
+    "text": "Can you walk us through how the CrossMark approach differs from what people think typically"
+  },
+  {
+    "speaker": 1,
+    "ts": 205,
+    "text": "of as ESG?"
+  },
+  {
+    "speaker": 1,
+    "ts": 206,
+    "text": "Yeah."
+  },
+  {
+    "speaker": 1,
+    "ts": 207,
+    "text": "Thanks for making that observation."
+  },
+  {
+    "speaker": 1,
+    "ts": 210,
+    "text": "It is confusing to people, although these days, I'm not sure what ESG is."
+  },
+  {
+    "speaker": 1,
+    "ts": 214,
+    "text": "It's become so blurred."
+  },
+  {
+    "speaker": 1,
+    "ts": 217,
+    "text": "Value-based investing simply helps people line up what it is they invest in with what"
+  },
+  {
+    "speaker": 1,
+    "ts": 225,
+    "text": "their values are."
+  },
+  {
+    "speaker": 1,
+    "ts": 227,
+    "text": "As a money manager, our responsibility is to figure out which companies to exclude from"
+  },
+  {
+    "speaker": 1,
+    "ts": 234,
+    "text": "a portfolio, which ones to use the phrase include, I call it, give an extra kiss, and"
+  },
+  {
+    "speaker": 1,
+    "ts": 241,
+    "text": "then along the way, how are we going to engage companies?"
+  },
+  {
+    "speaker": 1,
+    "ts": 246,
+    "text": "There might be issues that if they overcome them, we might be willing to invest in them."
+  },
+  {
+    "speaker": 1,
+    "ts": 252,
+    "text": "So it's a process whereby, obviously, we start with the characteristics of a good company,"
+  },
+  {
+    "speaker": 1,
+    "ts": 261,
+    "text": "a good plan, reasonable stock valuation, smart management, et cetera, et cetera."
+  },
+  {
+    "speaker": 1,
+    "ts": 270,
+    "text": "That's first and foremost, if you will, the secular characteristics to which we then add"
+  },
+  {
+    "speaker": 1,
+    "ts": 275,
+    "text": "the values-based piece to it, and that's how we create portfolios."
+  },
+  {
+    "speaker": 1,
+    "ts": 281,
+    "text": "So the framework you actually use is avoid, embrace, engage."
+  },
+  {
+    "speaker": 1,
+    "ts": 285,
+    "text": "Can you talk us through what each of those pieces actually mean in practice?"
+  },
+  {
+    "speaker": 1,
+    "ts": 289,
+    "text": "Sure."
+  },
+  {
+    "speaker": 1,
+    "ts": 291,
+    "text": "The avoid is what companies are we not going to invest in?"
+  },
+  {
+    "speaker": 1,
+    "ts": 296,
+    "text": "For example, companies that I like to say kill, maim, or a dick people, well own them."
+  },
+  {
+    "speaker": 1,
+    "ts": 305,
+    "text": "They're not good for society, if you will."
+  },
+  {
+    "speaker": 1,
+    "ts": 307,
+    "text": "And to be practical, I'm the large US equity manager, and so I use the Russell 1000 as"
+  },
+  {
+    "speaker": 1,
+    "ts": 314,
+    "text": "benchmark thousand largest companies in the US."
+  },
+  {
+    "speaker": 1,
+    "ts": 319,
+    "text": "Little more than 50 of them we exclude for the reasons I just gave you that add up to"
+  },
+  {
+    "speaker": 1,
+    "ts": 325,
+    "text": "about 6% of the capitalization of the universe."
+  },
+  {
+    "speaker": 1,
+    "ts": 328,
+    "text": "So it's notable, but it's not a problem getting a good diversified portfolio and seeking to"
+  },
+  {
+    "speaker": 1,
+    "ts": 337,
+    "text": "outperform."
+  },
+  {
+    "speaker": 1,
+    "ts": 338,
+    "text": "By the way, there is no statistical evidence that you give up anything having a values-based"
+  },
+  {
+    "speaker": 1,
+    "ts": 346,
+    "text": "portfolio relative to a non-values-based portfolio."
+  },
+  {
+    "speaker": 1,
+    "ts": 351,
+    "text": "So it's not like, well, how much do I have to give up to get these portfolios?"
+  },
+  {
+    "speaker": 1,
+    "ts": 356,
+    "text": "So that in brief is the exclude part, the include."
+  },
+  {
+    "speaker": 1,
+    "ts": 361,
+    "text": "I like to say, I use this phrase a minute ago, we like to give an extra kiss to companies"
+  },
+  {
+    "speaker": 1,
+    "ts": 367,
+    "text": "that are doing good."
+  },
+  {
+    "speaker": 1,
+    "ts": 369,
+    "text": "And that's measured lots of different ways, but it's an objective process."
+  },
+  {
+    "speaker": 1,
+    "ts": 373,
+    "text": "How do they treat their employees, their customers, their suppliers, their community?"
+  },
+  {
+    "speaker": 1,
+    "ts": 380,
+    "text": "And they get points, like I said, an objective measure."
+  },
+  {
+    "speaker": 1,
+    "ts": 383,
+    "text": "So if you score high on the secular side and the extra kiss, you're more likely to make"
+  },
+  {
+    "speaker": 1,
+    "ts": 391,
+    "text": "it in the portfolio."
+  },
+  {
+    "speaker": 1,
+    "ts": 393,
+    "text": "The third piece is, as you mentioned, the engage piece."
+  },
+  {
+    "speaker": 1,
+    "ts": 398,
+    "text": "Companies that are on the periphery."
+  },
+  {
+    "speaker": 1,
+    "ts": 400,
+    "text": "If you would do this or not do that company management, we might consider investing in"
+  },
+  {
+    "speaker": 1,
+    "ts": 406,
+    "text": "you."
+  },
+  {
+    "speaker": 1,
+    "ts": 407,
+    "text": "It's sometimes via a letter, it's sometimes a phone call, it's sometimes in coordination"
+  },
+  {
+    "speaker": 1,
+    "ts": 413,
+    "text": "with other money managers to move that process along, try to get their attention, and sometimes"
+  },
+  {
+    "speaker": 1,
+    "ts": 420,
+    "text": "we do."
+  },
+  {
+    "speaker": 1,
+    "ts": 421,
+    "text": "Interesting."
+  },
+  {
+    "speaker": 1,
+    "ts": 422,
+    "text": "So this show is about ETFs."
+  },
+  {
+    "speaker": 1,
+    "ts": 424,
+    "text": "You guys launched two ETFs back in July of 2025, CLCG, which is your large cap growth"
+  },
+  {
+    "speaker": 1,
+    "ts": 431,
+    "text": "and CLCV for large cap value."
+  },
+  {
+    "speaker": 1,
+    "ts": 435,
+    "text": "Just past the one year mark."
+  },
+  {
+    "speaker": 1,
+    "ts": 436,
+    "text": "Can you give us a big picture on the funds and really what they're trying to accomplish"
+  },
+  {
+    "speaker": 1,
+    "ts": 442,
+    "text": "and a whole they're trying to fill in the marketplace?"
+  },
+  {
+    "speaker": 1,
+    "ts": 445,
+    "text": "Yeah, Brad, these are both values based, as you mentioned, large cap growth and large"
+  },
+  {
+    "speaker": 1,
+    "ts": 452,
+    "text": "cap value."
+  },
+  {
+    "speaker": 1,
+    "ts": 453,
+    "text": "They're patterned after our SMAs."
+  },
+  {
+    "speaker": 1,
+    "ts": 456,
+    "text": "There are very few, in fact, we launched, there were no other faith-based, actively"
+  },
+  {
+    "speaker": 1,
+    "ts": 462,
+    "text": "managed large cap value and large cap growth products."
+  },
+  {
+    "speaker": 1,
+    "ts": 465,
+    "text": "So it fits that need and that niche for somebody who's looking to fill that hole in an ETF"
+  },
+  {
+    "speaker": 1,
+    "ts": 474,
+    "text": "to round out a portfolio."
+  },
+  {
+    "speaker": 1,
+    "ts": 475,
+    "text": "So the goal of the growth one is to beat other growth indices in particular, the Russell"
+  },
+  {
+    "speaker": 1,
+    "ts": 482,
+    "text": "1000 Growth Index, and on the value side, the same thing, the Russell 1000 Value Index."
+  },
+  {
+    "speaker": 1,
+    "ts": 488,
+    "text": "So actively traded, as we know, tax manages the ETFs are and liquidity available are the"
+  },
+  {
+    "speaker": 1,
+    "ts": 498,
+    "text": "characteristics of these ETFs."
+  },
+  {
+    "speaker": 1,
+    "ts": 501,
+    "text": "So the construction I look at it as a fairly specific mix, it's 75% quantitative, multi-factor,"
+  },
+  {
+    "speaker": 1,
+    "ts": 507,
+    "text": "25% this value overlay."
+  },
+  {
+    "speaker": 1,
+    "ts": 509,
+    "text": "Can you talk us through how those two pieces work together?"
+  },
+  {
+    "speaker": 1,
+    "ts": 512,
+    "text": "Sure."
+  },
+  {
+    "speaker": 1,
+    "ts": 513,
+    "text": "A couple words individually and then how we put them together, which is pretty simple."
+  },
+  {
+    "speaker": 1,
+    "ts": 518,
+    "text": "The secular piece, as I like to call it, is what's the company fundamentals look like?"
+  },
+  {
+    "speaker": 1,
+    "ts": 524,
+    "text": "What's the earnings progression, cash flow?"
+  },
+  {
+    "speaker": 1,
+    "ts": 527,
+    "text": "What's the valuation of the stock?"
+  },
+  {
+    "speaker": 1,
+    "ts": 529,
+    "text": "What's the assessment of the company's ability to engage and deliver on a strategic plan?"
+  },
+  {
+    "speaker": 1,
+    "ts": 537,
+    "text": "Lots of different return variables."
+  },
+  {
+    "speaker": 1,
+    "ts": 539,
+    "text": "There are several dozen variables in that quantitative secular piece."
+  },
+  {
+    "speaker": 1,
+    "ts": 546,
+    "text": "As I mentioned a minute ago, the 25%, the values-based piece, is objective as well."
+  },
+  {
+    "speaker": 1,
+    "ts": 554,
+    "text": "We score these and add them up for a company."
+  },
+  {
+    "speaker": 1,
+    "ts": 557,
+    "text": "And so in sense, there are two different scores."
+  },
+  {
+    "speaker": 1,
+    "ts": 560,
+    "text": "We add them up with the 75, 25 weighting, come up with an overall score."
+  },
+  {
+    "speaker": 1,
+    "ts": 565,
+    "text": "And that helps us, it's not the answer, it's the starting point to what might we put in"
+  },
+  {
+    "speaker": 1,
+    "ts": 569,
+    "text": "the portfolio, a high score and you're more eligible and more likely to make it in the"
+  },
+  {
+    "speaker": 1,
+    "ts": 574,
+    "text": "portfolio and vice versa."
+  },
+  {
+    "speaker": 1,
+    "ts": 577,
+    "text": "Just curious quickly, Bob, how often are you rerunning that screen?"
+  },
+  {
+    "speaker": 1,
+    "ts": 580,
+    "text": "Yeah, thanks for asking."
+  },
+  {
+    "speaker": 1,
+    "ts": 582,
+    "text": "Every day."
+  },
+  {
+    "speaker": 1,
+    "ts": 583,
+    "text": "Now the values part of it hardly ever changes."
+  },
+  {
+    "speaker": 1,
+    "ts": 587,
+    "text": "I shouldn't say hardly ever."
+  },
+  {
+    "speaker": 1,
+    "ts": 588,
+    "text": "It changes very slowly over time."
+  },
+  {
+    "speaker": 1,
+    "ts": 592,
+    "text": "The other 75%, parts of that change more often."
+  },
+  {
+    "speaker": 1,
+    "ts": 596,
+    "text": "But every day I get a new run, a computer run, which looks at the portfolio, looks at the"
+  },
+  {
+    "speaker": 1,
+    "ts": 603,
+    "text": "universe, gives us the quantitative ranking."
+  },
+  {
+    "speaker": 1,
+    "ts": 606,
+    "text": "Now, needless to say that when I got this morning, there's not a whole lot different"
+  },
+  {
+    "speaker": 1,
+    "ts": 610,
+    "text": "from the one I got yesterday."
+  },
+  {
+    "speaker": 1,
+    "ts": 611,
+    "text": "But where there are changes, we want to identify them and make sure we understand them."
+  },
+  {
+    "speaker": 1,
+    "ts": 616,
+    "text": "Yeah."
+  },
+  {
+    "speaker": 1,
+    "ts": 616,
+    "text": "And just out of curiosity, you talked about the factors such as valuation, earnings dynamics,"
+  },
+  {
+    "speaker": 1,
+    "ts": 621,
+    "text": "profitability."
+  },
+  {
+    "speaker": 1,
+    "ts": 623,
+    "text": "Which of these is doing the heavy lifting in this current market environment?"
+  },
+  {
+    "speaker": 1,
+    "ts": 628,
+    "text": "Yeah, at the moment, I would say the common factors of return on equity and"
+  },
+  {
+    "speaker": 1,
+    "ts": 635,
+    "text": "price to free cash flow are the most important."
+  },
+  {
+    "speaker": 1,
+    "ts": 639,
+    "text": "We are in an environment where the cycle, the economic cycle is fairly long in the"
+  },
+  {
+    "speaker": 1,
+    "ts": 645,
+    "text": "tooth, stocks are not all that cheap."
+  },
+  {
+    "speaker": 1,
+    "ts": 648,
+    "text": "There are a lot of question marks and issues around the world with interest rates and inflation"
+  },
+  {
+    "speaker": 1,
+    "ts": 653,
+    "text": "and more and oil prices and all those good things."
+  },
+  {
+    "speaker": 1,
+    "ts": 656,
+    "text": "So we are relying more heavily than ever on those two to repeat price to free cash flow"
+  },
+  {
+    "speaker": 1,
+    "ts": 662,
+    "text": "and return on equity."
+  },
+  {
+    "speaker": 1,
+    "ts": 664,
+    "text": "So let's dig a little bit deeper into CLCG."
+  },
+  {
+    "speaker": 1,
+    "ts": 667,
+    "text": "I don't want to name any positions, but your top 10 is nearly 60% of the fund."
+  },
+  {
+    "speaker": 1,
+    "ts": 671,
+    "text": "Can you walk us through how you get to that level of concentration and is concentration"
+  },
+  {
+    "speaker": 1,
+    "ts": 677,
+    "text": "part of this growth factor to enable you to get outsized returns?"
+  },
+  {
+    "speaker": 1,
+    "ts": 682,
+    "text": "Actually, the index, the Russell 1000 growth index is more concentrated than our portfolio."
+  },
+  {
+    "speaker": 1,
+    "ts": 688,
+    "text": "Many of the names you see in the top five or 10 are common names."
+  },
+  {
+    "speaker": 1,
+    "ts": 692,
+    "text": "They're the big names in the benchmark and actually more of them are underweights versus"
+  },
+  {
+    "speaker": 1,
+    "ts": 697,
+    "text": "the benchmark than overweights."
+  },
+  {
+    "speaker": 1,
+    "ts": 699,
+    "text": "So part of our risk management is if a name is 5% in the index, we could be plus 2 or minus 2."
+  },
+  {
+    "speaker": 1,
+    "ts": 706,
+    "text": "So even though I don't like a company, if it's 5% in the index,"
+  },
+  {
+    "speaker": 1,
+    "ts": 709,
+    "text": "we're going to have 3% in there for risk management purposes."
+  },
+  {
+    "speaker": 1,
+    "ts": 713,
+    "text": "So that's a lot of how you get those weightings."
+  },
+  {
+    "speaker": 1,
+    "ts": 717,
+    "text": "The growth index with the emphasis and prevalence of the magnificent 7 has grown in recent years"
+  },
+  {
+    "speaker": 1,
+    "ts": 726,
+    "text": "and that's why these portfolios can be more concentrated."
+  },
+  {
+    "speaker": 1,
+    "ts": 729,
+    "text": "But we actually have to repeat lower weightings in many of those top 10 than the benchmark."
+  },
+  {
+    "speaker": 1,
+    "ts": 736,
+    "text": "And so is that have to do?"
+  },
+  {
+    "speaker": 1,
+    "ts": 738,
+    "text": "So the other thing I noticed is for a growth fund, CLCG has a heavier overweight in terms"
+  },
+  {
+    "speaker": 1,
+    "ts": 744,
+    "text": "of financials towards the index."
+  },
+  {
+    "speaker": 1,
+    "ts": 747,
+    "text": "That's a little bit unusual for growth fund nowadays."
+  },
+  {
+    "speaker": 1,
+    "ts": 749,
+    "text": "Can you talk about that positioning?"
+  },
+  {
+    "speaker": 1,
+    "ts": 750,
+    "text": "Does it just have to do with diversification?"
+  },
+  {
+    "speaker": 1,
+    "ts": 753,
+    "text": "Yeah. So actually, we positively like many of the fundamentals."
+  },
+  {
+    "speaker": 1,
+    "ts": 758,
+    "text": "As you observe, there are fewer of them in the growth index than there are in the value index."
+  },
+  {
+    "speaker": 1,
+    "ts": 763,
+    "text": "But those that are there, we tend to pay attention to financial services."
+  },
+  {
+    "speaker": 1,
+    "ts": 767,
+    "text": "The banks are important to us in both portfolios."
+  },
+  {
+    "speaker": 1,
+    "ts": 773,
+    "text": "So let's move over to CLCV, which is your values fund."
+  },
+  {
+    "speaker": 1,
+    "ts": 776,
+    "text": "It's a very different construction, 56 holdings, much more spread out."
+  },
+  {
+    "speaker": 1,
+    "ts": 782,
+    "text": "What's driving that diversification difference between the two funds?"
+  },
+  {
+    "speaker": 1,
+    "ts": 786,
+    "text": "That is driven entirely by the benchmark."
+  },
+  {
+    "speaker": 1,
+    "ts": 790,
+    "text": "The growth index, the Russell 1000 growth index is far more concentrated than the value index."
+  },
+  {
+    "speaker": 1,
+    "ts": 796,
+    "text": "And therefore, there are fewer names that we must own that benchmark weight minus two, if you will."
+  },
+  {
+    "speaker": 1,
+    "ts": 803,
+    "text": "And so that enables us to own more names."
+  },
+  {
+    "speaker": 1,
+    "ts": 807,
+    "text": "And there are far more names."
+  },
+  {
+    "speaker": 1,
+    "ts": 808,
+    "text": "The Russell 1000 value index has more than 800 names."
+  },
+  {
+    "speaker": 1,
+    "ts": 813,
+    "text": "The Russell 1000 growth index has only about 300 names."
+  },
+  {
+    "speaker": 1,
+    "ts": 817,
+    "text": "So you can see that difference is the prime driver of what a portfolio looks like that's"
+  },
+  {
+    "speaker": 1,
+    "ts": 823,
+    "text": "trying to beat those benchmarks."
+  },
+  {
+    "speaker": 1,
+    "ts": 825,
+    "text": "So similarly to growth, we're seeing a little bit of a sector tilt overweight in financials."
+  },
+  {
+    "speaker": 1,
+    "ts": 829,
+    "text": "You've also got some overweight in industrials and information technology."
+  },
+  {
+    "speaker": 1,
+    "ts": 833,
+    "text": "Can you talk us through where you're finding value today and maybe some sectors you're trying"
+  },
+  {
+    "speaker": 1,
+    "ts": 837,
+    "text": "to avoid that don't look as attractive?"
+  },
+  {
+    "speaker": 1,
+    "ts": 839,
+    "text": "Yeah. So financials, a few more comments since we're overweight in both portfolios."
+  },
+  {
+    "speaker": 1,
+    "ts": 845,
+    "text": "We like financials, particularly the banks."
+  },
+  {
+    "speaker": 1,
+    "ts": 847,
+    "text": "There are several reasons."
+  },
+  {
+    "speaker": 1,
+    "ts": 848,
+    "text": "One, these stocks and our view are fairly cheap relative to the rest of the market."
+  },
+  {
+    "speaker": 1,
+    "ts": 854,
+    "text": "Two, they're the biggest beneficiaries of deregulation, which is happening at a quick pace."
+  },
+  {
+    "speaker": 1,
+    "ts": 862,
+    "text": "We don't read a lot about it because there's so much else in the news."
+  },
+  {
+    "speaker": 1,
+    "ts": 866,
+    "text": "And the balance sheets of financials, again, banks in particular,"
+  },
+  {
+    "speaker": 1,
+    "ts": 870,
+    "text": "are healthier today than normal at this point in the economic cycle"
+  },
+  {
+    "speaker": 1,
+    "ts": 874,
+    "text": "because a lot of the lending took place outside the banking system,"
+  },
+  {
+    "speaker": 1,
+    "ts": 878,
+    "text": "notably in private credit."
+  },
+  {
+    "speaker": 1,
+    "ts": 880,
+    "text": "So that's among the reasons we like the financials."
+  },
+  {
+    "speaker": 1,
+    "ts": 883,
+    "text": "Our underweights tend to be in the more defensive areas, consumer staples,"
+  },
+  {
+    "speaker": 1,
+    "ts": 890,
+    "text": "which are reasonable to expensive stocks with mixed fundamentals."
+  },
+  {
+    "speaker": 1,
+    "ts": 896,
+    "text": "We're also underweight healthcare, although we're looking hard to find some more"
+  },
+  {
+    "speaker": 1,
+    "ts": 899,
+    "text": "healthcare names in the portfolio."
+  },
+  {
+    "speaker": 1,
+    "ts": 901,
+    "text": "It's a good diversifier."
+  },
+  {
+    "speaker": 1,
+    "ts": 903,
+    "text": "So as we all know, growth has dominated value for much of the last decade."
+  },
+  {
+    "speaker": 1,
+    "ts": 908,
+    "text": "Where do you think we are in that cycle right now?"
+  },
+  {
+    "speaker": 1,
+    "ts": 910,
+    "text": "And does that setup for value look different than it has for a very long time?"
+  },
+  {
+    "speaker": 1,
+    "ts": 914,
+    "text": "Yeah, as you know, Brad, so far this year, value has crushed growth"
+  },
+  {
+    "speaker": 1,
+    "ts": 921,
+    "text": "after a lot of years where it's been the other way around."
+  },
+  {
+    "speaker": 1,
+    "ts": 923,
+    "text": "So our view is value has come back and deserves a place in the portfolio."
+  },
+  {
+    "speaker": 1,
+    "ts": 929,
+    "text": "I find a lot of portfolios that maybe don't get tended to all that often are way overweight growth"
+  },
+  {
+    "speaker": 1,
+    "ts": 935,
+    "text": "on an underweight value, have struggled this year,"
+  },
+  {
+    "speaker": 1,
+    "ts": 938,
+    "text": "getting a little more balance in the portfolio, we think make sense."
+  },
+  {
+    "speaker": 1,
+    "ts": 942,
+    "text": "So while we're talking about markets here a little bit, you're famous for your annual 10"
+  },
+  {
+    "speaker": 1,
+    "ts": 946,
+    "text": "predictions and event people kind of wait for every year."
+  },
+  {
+    "speaker": 1,
+    "ts": 949,
+    "text": "Can you give us a taste of what you're watching heading in the back half of 26 and maybe into 27?"
+  },
+  {
+    "speaker": 1,
+    "ts": 954,
+    "text": "Yeah, I don't give any thought to next year's predictions till December,"
+  },
+  {
+    "speaker": 1,
+    "ts": 960,
+    "text": "but you're always trying to monitor what's going on."
+  },
+  {
+    "speaker": 1,
+    "ts": 962,
+    "text": "I'd say what's really important now, both to get right or wrong, the 26 predictions"
+  },
+  {
+    "speaker": 1,
+    "ts": 970,
+    "text": "and how we will begin to look at 2027 is inflation."
+  },
+  {
+    "speaker": 1,
+    "ts": 975,
+    "text": "Inflation is not high, but it's not low as the Fed wants it to be."
+  },
+  {
+    "speaker": 1,
+    "ts": 982,
+    "text": "Probably where the Fed has said for five years in a row, this is the sixth year, inflation target"
+  },
+  {
+    "speaker": 1,
+    "ts": 987,
+    "text": "is 2%. They've missed the target, this will be the sixth year in a row."
+  },
+  {
+    "speaker": 1,
+    "ts": 993,
+    "text": "And so that I think in their ability or desire or willingness to tackle inflation will have a lot"
+  },
+  {
+    "speaker": 1,
+    "ts": 1000,
+    "text": "to do with the outlook going forward. So let's get back to the funds really quickly."
+  },
+  {
+    "speaker": 1,
+    "ts": 1006,
+    "text": "The important question here is for an advisor thinking about these funds,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1010,
+    "text": "how would you position them in a portfolio and does the value-based screen resonate"
+  },
+  {
+    "speaker": 1,
+    "ts": 1015,
+    "text": "with a broader audience than maybe people might expect?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1018,
+    "text": "Yeah, that last point is very interesting. We have a bunch of people in not just the ETFs,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1024,
+    "text": "but our longer-dated products that don't represent to be a faith in any way, shape,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1032,
+    "text": "or form. And when you ask them, well, then why are you in these products? The response"
+  },
+  {
+    "speaker": 1,
+    "ts": 1036,
+    "text": "truly is you've got good products, performance is good, you've got good service, we trust you,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1042,
+    "text": "given what you stand for, and therefore please invest our money. So it's interesting who might"
+  },
+  {
+    "speaker": 1,
+    "ts": 1048,
+    "text": "be there. But for FAs who are looking particularly for ETFs and want to create, as many do,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1056,
+    "text": "an asset allocation basket, for the active part of large cap US, there are not a lot of choices"
+  },
+  {
+    "speaker": 1,
+    "ts": 1063,
+    "text": "out there. We hope to be two of those choices that make sense."
+  },
+  {
+    "speaker": 1,
+    "ts": 1068,
+    "text": "So just curious at a company level with Crossmark, such a rich history in mutual funds,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1074,
+    "text": "what do you think you've learned or what is different maybe about being in the ETF"
+  },
+  {
+    "speaker": 1,
+    "ts": 1078,
+    "text": "space or ecosystem than being in the mutual fund or SMA space?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1082,
+    "text": "Yeah, a good subject. I remember about a year and a half ago saying to my management team,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1088,
+    "text": "we can survive without ETFs, but we are unlikely to thrive without ETFs. So let's go on and create"
+  },
+  {
+    "speaker": 1,
+    "ts": 1097,
+    "text": "a couple and we have more on the drawing board as time goes by. Look, the marketplace dictates"
+  },
+  {
+    "speaker": 1,
+    "ts": 1104,
+    "text": "to us what the vehicle should be. We're agnostic. I'll walk into a financial advisor's office and"
+  },
+  {
+    "speaker": 1,
+    "ts": 1111,
+    "text": "he might say, we have interest in large cap growth. What do you have for us? I say, well,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1117,
+    "text": "what do you want? Do you want a mutual fund? Do you want an SMA? Do you want an ETF? We're agnostic,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1123,
+    "text": "so help us figure out what it is you're trying to do with your clients and we have a product"
+  },
+  {
+    "speaker": 1,
+    "ts": 1129,
+    "text": "that fit the bill. I don't want to get too much into specifics, but one of my questions was,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1134,
+    "text": "are we going to see more from Crossmark? Are you just listening to the marketplace or are you"
+  },
+  {
+    "speaker": 1,
+    "ts": 1140,
+    "text": "actively know where your product roadmap is heading here in the near future?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1145,
+    "text": "So we feel we've got plenty of mutual funds and plenty of SMAs. We need and want more ETFs"
+  },
+  {
+    "speaker": 1,
+    "ts": 1155,
+    "text": "and we will round them out as time goes by. We want to make sure that the two that we've launched"
+  },
+  {
+    "speaker": 1,
+    "ts": 1162,
+    "text": "get critical mass, come into profitability before we bring the next two on board, but"
+  },
+  {
+    "speaker": 1,
+    "ts": 1169,
+    "text": "there will be more coming from Crossmark as time goes by."
+  },
+  {
+    "speaker": 1,
+    "ts": 1173,
+    "text": "Well, Bob, I can't tell you how much I appreciate your time with me today. Before I can let you go,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1178,
+    "text": "where can people learn more about Crossmark, your entire suite of products, and obviously,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1182,
+    "text": "these two ETFs? The best place to go is our website and there's lots of information there about"
+  },
+  {
+    "speaker": 1,
+    "ts": 1189,
+    "text": "who we are, what we manage, obviously, including the ETFs. Brad, thanks for the opportunity. It's"
+  },
+  {
+    "speaker": 1,
+    "ts": 1195,
+    "text": "been a joy on my side as well. Yeah, thanks for being with me today."
+  }
+]

@@ -1,0 +1,1862 @@
+[
+  {
+    "speaker": 1,
+    "ts": 0,
+    "text": "Welcome to Behind the Ticker, the podcast where we go beyond the symbol and into the"
+  },
+  {
+    "speaker": 1,
+    "ts": 9,
+    "text": "strategy."
+  },
+  {
+    "speaker": 1,
+    "ts": 10,
+    "text": "I'm Brad Roth, founder and chief investment officer at Thor Funds, and in each episode,"
+  },
+  {
+    "speaker": 1,
+    "ts": 16,
+    "text": "I sit down with ETF managers, CIOs, and industry leaders to break down how these funds are"
+  },
+  {
+    "speaker": 1,
+    "ts": 23,
+    "text": "actually built, how they behave in real markets, and how advisors use them in real portfolios."
+  },
+  {
+    "speaker": 1,
+    "ts": 29,
+    "text": "Most people just see a ticker symbol, but we know much more goes on behind the ticker."
+  },
+  {
+    "speaker": 1,
+    "ts": 36,
+    "text": "Hey, Mike."
+  },
+  {
+    "speaker": 1,
+    "ts": 41,
+    "text": "Welcome to the show."
+  },
+  {
+    "speaker": 1,
+    "ts": 42,
+    "text": "Thanks, Brad."
+  },
+  {
+    "speaker": 1,
+    "ts": 43,
+    "text": "Thanks for having me."
+  },
+  {
+    "speaker": 1,
+    "ts": 44,
+    "text": "So, why don't you take some time, give everybody a bit about your background?"
+  },
+  {
+    "speaker": 1,
+    "ts": 47,
+    "text": "I saw you went to Boston College for Economics and Finance, you were at FTI Consulting for"
+  },
+  {
+    "speaker": 1,
+    "ts": 51,
+    "text": "a little bit."
+  },
+  {
+    "speaker": 1,
+    "ts": 52,
+    "text": "I've got a couple buddies that are actually still there, and you joined Hilton Capital"
+  },
+  {
+    "speaker": 1,
+    "ts": 56,
+    "text": "in 2024."
+  },
+  {
+    "speaker": 1,
+    "ts": 57,
+    "text": "We're now a co-portfolio manager on HBDC."
+  },
+  {
+    "speaker": 1,
+    "ts": 61,
+    "text": "Can you just walk us through your career path and how it all unfolded?"
+  },
+  {
+    "speaker": 1,
+    "ts": 65,
+    "text": "Yeah, absolutely."
+  },
+  {
+    "speaker": 1,
+    "ts": 66,
+    "text": "Yeah."
+  },
+  {
+    "speaker": 1,
+    "ts": 67,
+    "text": "So, I've been in the business now since 2018."
+  },
+  {
+    "speaker": 1,
+    "ts": 69,
+    "text": "So like you mentioned, I graduated Boston College, Econ, and Finance degrees."
+  },
+  {
+    "speaker": 1,
+    "ts": 74,
+    "text": "Started my career at FTI in restructuring."
+  },
+  {
+    "speaker": 1,
+    "ts": 77,
+    "text": "So it was a consulting job, but it was a little bit more niche in the sense that it was looking"
+  },
+  {
+    "speaker": 1,
+    "ts": 80,
+    "text": "at companies that were going through the Chapter 11 restructuring process."
+  },
+  {
+    "speaker": 1,
+    "ts": 84,
+    "text": "So they were going through some sort of significant distress event for them."
+  },
+  {
+    "speaker": 1,
+    "ts": 87,
+    "text": "So we would come in there, primarily on the debtor side, work out the cash flow, liquidity"
+  },
+  {
+    "speaker": 1,
+    "ts": 92,
+    "text": "analysis that was needed to get this business, to get Chapter 11 protection and work out"
+  },
+  {
+    "speaker": 1,
+    "ts": 97,
+    "text": "some sort of deal with their creditors."
+  },
+  {
+    "speaker": 1,
+    "ts": 99,
+    "text": "So I did that for two years, really got in the weeds on detailed modeling and so forth."
+  },
+  {
+    "speaker": 1,
+    "ts": 105,
+    "text": "And I loved it."
+  },
+  {
+    "speaker": 1,
+    "ts": 106,
+    "text": "It was a great experience."
+  },
+  {
+    "speaker": 1,
+    "ts": 107,
+    "text": "But what I realized there was, hey, you know what, I love the strategy component, not so"
+  },
+  {
+    "speaker": 1,
+    "ts": 111,
+    "text": "much the deep implementation."
+  },
+  {
+    "speaker": 1,
+    "ts": 114,
+    "text": "And investing is much more focused on strategy and higher level thinking and less on, let's"
+  },
+  {
+    "speaker": 1,
+    "ts": 121,
+    "text": "go down to an accounting ledger and look at APAR analysis really, really deeply."
+  },
+  {
+    "speaker": 1,
+    "ts": 125,
+    "text": "So after two years of doing restructuring, I said, you know what, I want to go on the"
+  },
+  {
+    "speaker": 1,
+    "ts": 129,
+    "text": "investing side of finance instead of the restructuring side."
+  },
+  {
+    "speaker": 1,
+    "ts": 134,
+    "text": "So that actually led me to become a sell side equity analyst, which is kind of ironic because"
+  },
+  {
+    "speaker": 1,
+    "ts": 138,
+    "text": "now we're running a bond fund."
+  },
+  {
+    "speaker": 1,
+    "ts": 140,
+    "text": "But I was an equity analyst at a company called Wolf Research, which is, I believe, the fifth"
+  },
+  {
+    "speaker": 1,
+    "ts": 145,
+    "text": "or sixth largest sell side equity research shop in the US."
+  },
+  {
+    "speaker": 1,
+    "ts": 150,
+    "text": "So I worked under an institutional investor ranked analyst called Chris Sennick."
+  },
+  {
+    "speaker": 1,
+    "ts": 156,
+    "text": "He ran the macro and accounting and special sits product over at Wolf."
+  },
+  {
+    "speaker": 1,
+    "ts": 161,
+    "text": "But there I was his VP."
+  },
+  {
+    "speaker": 1,
+    "ts": 163,
+    "text": "So I was working primarily on the special sit side, special situation side of his book."
+  },
+  {
+    "speaker": 1,
+    "ts": 167,
+    "text": "So looking at niche spin offs, restructurings, asset sales, stuff that was kind of under"
+  },
+  {
+    "speaker": 1,
+    "ts": 173,
+    "text": "looked by the market and under followed and so forth."
+  },
+  {
+    "speaker": 1,
+    "ts": 176,
+    "text": "So we would do the detailed modeling and so forth, put a valuation target on that and"
+  },
+  {
+    "speaker": 1,
+    "ts": 180,
+    "text": "publish research to our clients, which were primarily long only asset managers and hedge"
+  },
+  {
+    "speaker": 1,
+    "ts": 185,
+    "text": "funds."
+  },
+  {
+    "speaker": 1,
+    "ts": 186,
+    "text": "And I did that for about three and a half years, really got in the weeds on, you know,"
+  },
+  {
+    "speaker": 1,
+    "ts": 190,
+    "text": "looking at valuations, looking at cash flow analysis and so forth and loved it there."
+  },
+  {
+    "speaker": 1,
+    "ts": 196,
+    "text": "But as I got into my late 20s, now in my 30s, I said, you know what, now's the time to really"
+  },
+  {
+    "speaker": 1,
+    "ts": 201,
+    "text": "put your money where your mouth is and let's take a crack on the buy side."
+  },
+  {
+    "speaker": 1,
+    "ts": 206,
+    "text": "So that's when I joined Hilton Capital Management in 2024."
+  },
+  {
+    "speaker": 1,
+    "ts": 212,
+    "text": "And we are now about a $4 billion asset manager."
+  },
+  {
+    "speaker": 1,
+    "ts": 216,
+    "text": "When I joined, it was about $2 billion."
+  },
+  {
+    "speaker": 1,
+    "ts": 218,
+    "text": "So we've really grown pretty substantially over the last two and a half years here."
+  },
+  {
+    "speaker": 1,
+    "ts": 223,
+    "text": "And originally, we had three products."
+  },
+  {
+    "speaker": 1,
+    "ts": 226,
+    "text": "It was a multi-asset tactical income strategy, which I'll get into a little bit, and that's"
+  },
+  {
+    "speaker": 1,
+    "ts": 230,
+    "text": "actually how HPDC became where it is now, a long only equity dividend and yield strategy,"
+  },
+  {
+    "speaker": 1,
+    "ts": 237,
+    "text": "and then a small cap strategy as well."
+  },
+  {
+    "speaker": 1,
+    "ts": 240,
+    "text": "So we run those three strategies."
+  },
+  {
+    "speaker": 1,
+    "ts": 241,
+    "text": "I personally run with our CIO, Alex Oxingham, the tactical income strategy, the dividend"
+  },
+  {
+    "speaker": 1,
+    "ts": 247,
+    "text": "and yield strategy, and then now HPDC as well."
+  },
+  {
+    "speaker": 1,
+    "ts": 250,
+    "text": "We launched last year in June of 2025 a new passive ETF called HPDC, the Hilton Capital"
+  },
+  {
+    "speaker": 1,
+    "ts": 257,
+    "text": "BDC Bond Fund, which is a little ironic because we're an active manager launching a passive"
+  },
+  {
+    "speaker": 1,
+    "ts": 264,
+    "text": "ETF."
+  },
+  {
+    "speaker": 1,
+    "ts": 265,
+    "text": "But there was a lot of thought process going into the index, and it being the first and"
+  },
+  {
+    "speaker": 1,
+    "ts": 270,
+    "text": "only pure play BDC bond ETF out there, we just wanted to offer a solution to get investors"
+  },
+  {
+    "speaker": 1,
+    "ts": 277,
+    "text": "to have a nice liquid alternative to get access in that space."
+  },
+  {
+    "speaker": 1,
+    "ts": 281,
+    "text": "So happy to go kind of how that came in to be."
+  },
+  {
+    "speaker": 1,
+    "ts": 285,
+    "text": "But yeah, now we're at Hilton about $4 billion with four strategies now."
+  },
+  {
+    "speaker": 1,
+    "ts": 289,
+    "text": "Yeah."
+  },
+  {
+    "speaker": 1,
+    "ts": 290,
+    "text": "I mean, we're going to go pretty deep on HPDC here in a second."
+  },
+  {
+    "speaker": 1,
+    "ts": 293,
+    "text": "Before we do that, though, I always like to ask people, when you're not working, what"
+  },
+  {
+    "speaker": 1,
+    "ts": 296,
+    "text": "do you like to do?"
+  },
+  {
+    "speaker": 1,
+    "ts": 297,
+    "text": "Any hobbies outside of work?"
+  },
+  {
+    "speaker": 1,
+    "ts": 298,
+    "text": "Yeah."
+  },
+  {
+    "speaker": 1,
+    "ts": 299,
+    "text": "So I do like to play golf quite a bit, which here at Hilton is kind of our flagship hobby."
+  },
+  {
+    "speaker": 1,
+    "ts": 307,
+    "text": "I also recently bought a house about a year and a half ago."
+  },
+  {
+    "speaker": 1,
+    "ts": 310,
+    "text": "So I'm really into home renovation and DIY projects these days."
+  },
+  {
+    "speaker": 1,
+    "ts": 314,
+    "text": "Yeah."
+  },
+  {
+    "speaker": 1,
+    "ts": 315,
+    "text": "Well, I have gone through the DIY phase of my life."
+  },
+  {
+    "speaker": 1,
+    "ts": 319,
+    "text": "Just make sure you're outsourcing the stuff that will get you hurt."
+  },
+  {
+    "speaker": 1,
+    "ts": 323,
+    "text": "Yeah, exactly."
+  },
+  {
+    "speaker": 1,
+    "ts": 325,
+    "text": "So let's get into HPDC."
+  },
+  {
+    "speaker": 1,
+    "ts": 327,
+    "text": "So it's the Hilton BDC corporate bond ETF."
+  },
+  {
+    "speaker": 1,
+    "ts": 330,
+    "text": "Like you said, you launched it in June of 2025 at a high level."
+  },
+  {
+    "speaker": 1,
+    "ts": 334,
+    "text": "What is this fund and what's the problem that it's solving?"
+  },
+  {
+    "speaker": 1,
+    "ts": 337,
+    "text": "Yeah, so like I mentioned, it's the first and only pure play BDC bond ETF out there."
+  },
+  {
+    "speaker": 1,
+    "ts": 342,
+    "text": "So BDCs just take a step back."
+  },
+  {
+    "speaker": 1,
+    "ts": 344,
+    "text": "It stands for Business Development Companies."
+  },
+  {
+    "speaker": 1,
+    "ts": 346,
+    "text": "They've been around for quite a while."
+  },
+  {
+    "speaker": 1,
+    "ts": 348,
+    "text": "They've actually been around since 1980 as an amendment to the Investment Company Act"
+  },
+  {
+    "speaker": 1,
+    "ts": 351,
+    "text": "of 1940."
+  },
+  {
+    "speaker": 1,
+    "ts": 353,
+    "text": "And what their purpose was and still is, is to lend to medium and small businesses, primarily"
+  },
+  {
+    "speaker": 1,
+    "ts": 359,
+    "text": "in the US."
+  },
+  {
+    "speaker": 1,
+    "ts": 360,
+    "text": "So think of them like banks without actually the deposits."
+  },
+  {
+    "speaker": 1,
+    "ts": 363,
+    "text": "So how they get their capital to lend out is primarily three ways."
+  },
+  {
+    "speaker": 1,
+    "ts": 366,
+    "text": "They issue bonds to the public market, they issue equity, and they also sometimes have"
+  },
+  {
+    "speaker": 1,
+    "ts": 371,
+    "text": "a direct line of credit as well."
+  },
+  {
+    "speaker": 1,
+    "ts": 373,
+    "text": "And then they lend these loans out to small and medium-sized companies, primarily floating"
+  },
+  {
+    "speaker": 1,
+    "ts": 377,
+    "text": "rate loans, which is now their asset side."
+  },
+  {
+    "speaker": 1,
+    "ts": 380,
+    "text": "And they make money off the spread of what they borrow on and what they can lend on."
+  },
+  {
+    "speaker": 1,
+    "ts": 384,
+    "text": "They were always kind of a small part of the market historically."
+  },
+  {
+    "speaker": 1,
+    "ts": 387,
+    "text": "But after the great financial crisis of 1809 and banking regulation really stepped up quite"
+  },
+  {
+    "speaker": 1,
+    "ts": 393,
+    "text": "a bit."
+  },
+  {
+    "speaker": 1,
+    "ts": 394,
+    "text": "BDCs filled a lot of the void that was left after the crisis in 2009."
+  },
+  {
+    "speaker": 1,
+    "ts": 398,
+    "text": "So BDC assets have grown pretty substantially over the last 15 or so years."
+  },
+  {
+    "speaker": 1,
+    "ts": 404,
+    "text": "And many folks know BDCs on the equity side."
+  },
+  {
+    "speaker": 1,
+    "ts": 406,
+    "text": "BizD, for example, is a very large ETF that tracks BDC equity."
+  },
+  {
+    "speaker": 1,
+    "ts": 411,
+    "text": "But there was nothing out there that tracked the BDC bonds themselves."
+  },
+  {
+    "speaker": 1,
+    "ts": 415,
+    "text": "So these are bonds that are directly issued by the BDCs themselves that are used to finance"
+  },
+  {
+    "speaker": 1,
+    "ts": 420,
+    "text": "the loans that they make in these small and medium-sized companies."
+  },
+  {
+    "speaker": 1,
+    "ts": 425,
+    "text": "What kind of attracted us to the space is, like I mentioned at Hilton, we've been running"
+  },
+  {
+    "speaker": 1,
+    "ts": 429,
+    "text": "our tactical income strategy, which is about two and a half billion of assets for over"
+  },
+  {
+    "speaker": 1,
+    "ts": 433,
+    "text": "25 years now, and have owned several of these bonds in the past."
+  },
+  {
+    "speaker": 1,
+    "ts": 437,
+    "text": "They're pretty short duration bonds, typically three to five years duration, and they have"
+  },
+  {
+    "speaker": 1,
+    "ts": 443,
+    "text": "pretty juicy spreads on them."
+  },
+  {
+    "speaker": 1,
+    "ts": 445,
+    "text": "They're typically about 200 to 300 basis points over like-duration treasuries, 100 to 200"
+  },
+  {
+    "speaker": 1,
+    "ts": 451,
+    "text": "basis points over like-duration IG corporates."
+  },
+  {
+    "speaker": 1,
+    "ts": 454,
+    "text": "And these bonds are overwhelmingly investment grade."
+  },
+  {
+    "speaker": 1,
+    "ts": 457,
+    "text": "So we've owned them for quite a while, and running the strategies, we said, hey, you"
+  },
+  {
+    "speaker": 1,
+    "ts": 460,
+    "text": "know what?"
+  },
+  {
+    "speaker": 1,
+    "ts": 461,
+    "text": "There's no ETF that actually tracks these bonds out there."
+  },
+  {
+    "speaker": 1,
+    "ts": 463,
+    "text": "And a lot of advisors and clients that we were talking to, yeah, they would own the"
+  },
+  {
+    "speaker": 1,
+    "ts": 466,
+    "text": "big bonds like the Aries and the Golubs out there."
+  },
+  {
+    "speaker": 1,
+    "ts": 469,
+    "text": "But some of the smaller ones out there, they would have no exposure to them."
+  },
+  {
+    "speaker": 1,
+    "ts": 473,
+    "text": "So we said, hey, you know what?"
+  },
+  {
+    "speaker": 1,
+    "ts": 474,
+    "text": "Let's wrap this up in an ETF."
+  },
+  {
+    "speaker": 1,
+    "ts": 475,
+    "text": "Let's make a really detail oriented index."
+  },
+  {
+    "speaker": 1,
+    "ts": 478,
+    "text": "There was no index out there, and then let's track it and launch this ETF."
+  },
+  {
+    "speaker": 1,
+    "ts": 482,
+    "text": "So now HBDC is the first and only pure play bond BDC and ETF out there."
+  },
+  {
+    "speaker": 1,
+    "ts": 489,
+    "text": "And when we constructed the index, we partnered with a German company called Selective."
+  },
+  {
+    "speaker": 1,
+    "ts": 493,
+    "text": "They're pretty large."
+  },
+  {
+    "speaker": 1,
+    "ts": 494,
+    "text": "They do a lot of indexes out there."
+  },
+  {
+    "speaker": 1,
+    "ts": 496,
+    "text": "And given that most of these BDC bonds are overwhelmingly the very large guys, as you"
+  },
+  {
+    "speaker": 1,
+    "ts": 501,
+    "text": "can imagine, like the Aries, the Blue Owls of the world out there, we didn't want it"
+  },
+  {
+    "speaker": 1,
+    "ts": 504,
+    "text": "to be overly concentrated in those BDCs themselves."
+  },
+  {
+    "speaker": 1,
+    "ts": 508,
+    "text": "So we actually capped the top two largest issuers at 10%, and then the second largest"
+  },
+  {
+    "speaker": 1,
+    "ts": 512,
+    "text": "issuers at eight, and then the following two at seven, and then everybody else is capped"
+  },
+  {
+    "speaker": 1,
+    "ts": 517,
+    "text": "at five."
+  },
+  {
+    "speaker": 1,
+    "ts": 518,
+    "text": "So the index itself and the ETF by and large actually overweights the smaller BDCs by design"
+  },
+  {
+    "speaker": 1,
+    "ts": 524,
+    "text": "to get you a little extra spread in the index."
+  },
+  {
+    "speaker": 1,
+    "ts": 529,
+    "text": "So currently right now, HBDC, it pays about a yield to maturity of about 6.7%."
+  },
+  {
+    "speaker": 1,
+    "ts": 535,
+    "text": "It's almost 95% investment grade bonds."
+  },
+  {
+    "speaker": 1,
+    "ts": 539,
+    "text": "And the spread on that is about, I think, 175 basis points over like duration treasuries."
+  },
+  {
+    "speaker": 1,
+    "ts": 543,
+    "text": "So it's pretty attractive yield and spread, especially for an overwhelmingly investment"
+  },
+  {
+    "speaker": 1,
+    "ts": 548,
+    "text": "grade portfolio."
+  },
+  {
+    "speaker": 1,
+    "ts": 550,
+    "text": "So we've been seeing in the news a lot about private credit."
+  },
+  {
+    "speaker": 1,
+    "ts": 554,
+    "text": "It's been one of the biggest stories in finance over the last few years."
+  },
+  {
+    "speaker": 1,
+    "ts": 557,
+    "text": "How does owning BDC bonds, given investors, never heard of a BDC bond, like access in"
+  },
+  {
+    "speaker": 1,
+    "ts": 564,
+    "text": "a way to that market?"
+  },
+  {
+    "speaker": 1,
+    "ts": 566,
+    "text": "Yeah."
+  },
+  {
+    "speaker": 1,
+    "ts": 567,
+    "text": "So I like to say it's tangentant to the private credit market."
+  },
+  {
+    "speaker": 1,
+    "ts": 572,
+    "text": "This ETF does not own the direct loans that these BDCs are making to these small and medium"
+  },
+  {
+    "speaker": 1,
+    "ts": 577,
+    "text": "sized companies."
+  },
+  {
+    "speaker": 1,
+    "ts": 579,
+    "text": "It's the bonds that they're issuing to get the capital so they can then lend out to these"
+  },
+  {
+    "speaker": 1,
+    "ts": 584,
+    "text": "small and medium sized companies."
+  },
+  {
+    "speaker": 1,
+    "ts": 586,
+    "text": "But that actually has some structural protections in place and why we like these bonds."
+  },
+  {
+    "speaker": 1,
+    "ts": 590,
+    "text": "So BDCs, by law, actually can only leverage up their balance sheets a max two to one."
+  },
+  {
+    "speaker": 1,
+    "ts": 595,
+    "text": "So what that means is for every $2 of debt, they have to have a dollar of equity cushion"
+  },
+  {
+    "speaker": 1,
+    "ts": 599,
+    "text": "below it."
+  },
+  {
+    "speaker": 1,
+    "ts": 601,
+    "text": "That's in comparison to banks that are levered at eight to one or even larger than that."
+  },
+  {
+    "speaker": 1,
+    "ts": 606,
+    "text": "So when you buy a bank bond, you're essentially buying a balance sheet that's levered eight"
+  },
+  {
+    "speaker": 1,
+    "ts": 610,
+    "text": "to one, and no one really bats an eye on some of these large cap banks."
+  },
+  {
+    "speaker": 1,
+    "ts": 614,
+    "text": "So there's substantially more equity cushion on these BDCs, and most BDCs, including the"
+  },
+  {
+    "speaker": 1,
+    "ts": 620,
+    "text": "large ones, like I mentioned, Aries and so forth, run their balance sheets significantly"
+  },
+  {
+    "speaker": 1,
+    "ts": 624,
+    "text": "more conservatively than their max statutory leverage ratios."
+  },
+  {
+    "speaker": 1,
+    "ts": 627,
+    "text": "Most of them are one to one or even less than one to one."
+  },
+  {
+    "speaker": 1,
+    "ts": 631,
+    "text": "So there's a lot of cushion in place."
+  },
+  {
+    "speaker": 1,
+    "ts": 632,
+    "text": "So just to kind of conceptualize that, if you run your balance sheet at a max two to"
+  },
+  {
+    "speaker": 1,
+    "ts": 637,
+    "text": "one ratio, you would need a 50% drawdown on the nav before the bonds would start to be"
+  },
+  {
+    "speaker": 1,
+    "ts": 643,
+    "text": "impaired, which is a pretty substantial credit event and has actually never happened throughout"
+  },
+  {
+    "speaker": 1,
+    "ts": 649,
+    "text": "the history of BDCs existing."
+  },
+  {
+    "speaker": 1,
+    "ts": 650,
+    "text": "And going back all the way to 1980, there has never been a BDC bond impairment."
+  },
+  {
+    "speaker": 1,
+    "ts": 656,
+    "text": "So there's been many credit cycles since 1980, and these bonds have held up quite well."
+  },
+  {
+    "speaker": 1,
+    "ts": 661,
+    "text": "So you talked a little bit about the index design in partnership with selectives."
+  },
+  {
+    "speaker": 1,
+    "ts": 666,
+    "text": "Can you walk us through the rules a little bit deeper?"
+  },
+  {
+    "speaker": 1,
+    "ts": 667,
+    "text": "So you've got investment grade, fixed rate, senior, unsecured, and then there's a 250"
+  },
+  {
+    "speaker": 1,
+    "ts": 671,
+    "text": "million minimum issue size."
+  },
+  {
+    "speaker": 1,
+    "ts": 673,
+    "text": "Why those screens?"
+  },
+  {
+    "speaker": 1,
+    "ts": 675,
+    "text": "Just talk us through the construction again."
+  },
+  {
+    "speaker": 1,
+    "ts": 676,
+    "text": "Yeah, absolutely."
+  },
+  {
+    "speaker": 1,
+    "ts": 678,
+    "text": "Just to clarify, so there actually is no investment grade mandate."
+  },
+  {
+    "speaker": 1,
+    "ts": 681,
+    "text": "So these bonds can go to junk bonds and we would still own them."
+  },
+  {
+    "speaker": 1,
+    "ts": 685,
+    "text": "Just over the space overwhelmingly right now is investment grade."
+  },
+  {
+    "speaker": 1,
+    "ts": 687,
+    "text": "And the reason why we did that is because if we went through a credit event, I would suspect"
+  },
+  {
+    "speaker": 1,
+    "ts": 692,
+    "text": "that some of these bonds would be downgraded."
+  },
+  {
+    "speaker": 1,
+    "ts": 695,
+    "text": "But due to the structural protections that we talked about, we wouldn't want to not own"
+  },
+  {
+    "speaker": 1,
+    "ts": 700,
+    "text": "these in the index."
+  },
+  {
+    "speaker": 1,
+    "ts": 701,
+    "text": "And we wanted to give investors a broad space of the BDC bonds themselves."
+  },
+  {
+    "speaker": 1,
+    "ts": 705,
+    "text": "So we didn't want to just isolate it to just investment grade."
+  },
+  {
+    "speaker": 1,
+    "ts": 708,
+    "text": "So right now it's 95 plus percent investment grade, but it could go down a little bit if"
+  },
+  {
+    "speaker": 1,
+    "ts": 712,
+    "text": "there ever is a significant credit event."
+  },
+  {
+    "speaker": 1,
+    "ts": 715,
+    "text": "But of the index criteria that we designed, like I mentioned, we have those structural"
+  },
+  {
+    "speaker": 1,
+    "ts": 720,
+    "text": "percentage caps on there to provide diversification benefits."
+  },
+  {
+    "speaker": 1,
+    "ts": 724,
+    "text": "The minimum issuance size of 250 million was in place mostly because we didn't really"
+  },
+  {
+    "speaker": 1,
+    "ts": 729,
+    "text": "want to have any sort of illiquidity events that could really impair some of our investors."
+  },
+  {
+    "speaker": 1,
+    "ts": 735,
+    "text": "When bond issuance are small than 250 million issuance sizes, it typically gets hard to"
+  },
+  {
+    "speaker": 1,
+    "ts": 739,
+    "text": "buy them."
+  },
+  {
+    "speaker": 1,
+    "ts": 740,
+    "text": "And given that we're rebalancing this index quarterly, we're obviously turning over the"
+  },
+  {
+    "speaker": 1,
+    "ts": 745,
+    "text": "index four times a year."
+  },
+  {
+    "speaker": 1,
+    "ts": 747,
+    "text": "And sometimes, like we did see earlier in this year, there could be some illiquid pockets"
+  },
+  {
+    "speaker": 1,
+    "ts": 752,
+    "text": "in the market."
+  },
+  {
+    "speaker": 1,
+    "ts": 754,
+    "text": "But that is overwhelmingly in the smaller issuances."
+  },
+  {
+    "speaker": 1,
+    "ts": 756,
+    "text": "So we put that cap limit of 250 and over to protect investors from that."
+  },
+  {
+    "speaker": 1,
+    "ts": 761,
+    "text": "And we did a liquidity stress test when we were putting the ETF together with the regulators."
+  },
+  {
+    "speaker": 1,
+    "ts": 768,
+    "text": "And to buy the least liquid bond in the portfolio, you would need about a daily inflow-outflow"
+  },
+  {
+    "speaker": 1,
+    "ts": 774,
+    "text": "of about 400 million."
+  },
+  {
+    "speaker": 1,
+    "ts": 776,
+    "text": "So that's a pretty substantial inflow-outflow of the ETF, which we don't even have those"
+  },
+  {
+    "speaker": 1,
+    "ts": 780,
+    "text": "assets in the ETF at the moment, hopefully we will soon."
+  },
+  {
+    "speaker": 1,
+    "ts": 784,
+    "text": "But that's meaning that it's pretty liquid and we're pretty happy with the construction"
+  },
+  {
+    "speaker": 1,
+    "ts": 789,
+    "text": "of it."
+  },
+  {
+    "speaker": 1,
+    "ts": 791,
+    "text": "So I've talked to a lot of advisors over the last 10 years."
+  },
+  {
+    "speaker": 1,
+    "ts": 796,
+    "text": "I've never heard someone talk to me about BDC bond exposure."
+  },
+  {
+    "speaker": 1,
+    "ts": 801,
+    "text": "So let's bring this back to very simple terms."
+  },
+  {
+    "speaker": 1,
+    "ts": 804,
+    "text": "Where do BDC bonds sit on the yield and risk spectrum compared to what they're more traditionally"
+  },
+  {
+    "speaker": 1,
+    "ts": 809,
+    "text": "used to hold like investment-grade corporates or high yields or the ag?"
+  },
+  {
+    "speaker": 1,
+    "ts": 814,
+    "text": "Yeah."
+  },
+  {
+    "speaker": 1,
+    "ts": 815,
+    "text": "Yeah."
+  },
+  {
+    "speaker": 1,
+    "ts": 816,
+    "text": "So if you look at a cap structure of a BDC or really any company, because a BDC is just"
+  },
+  {
+    "speaker": 1,
+    "ts": 821,
+    "text": "a company at the end of the day, you have equity, which is right at the bottom of the"
+  },
+  {
+    "speaker": 1,
+    "ts": 824,
+    "text": "Tron structure."
+  },
+  {
+    "speaker": 1,
+    "ts": 826,
+    "text": "So those guys that if when you're owning BISD and ARCC equity, yes, they have very large"
+  },
+  {
+    "speaker": 1,
+    "ts": 831,
+    "text": "dividends, but you're at the very bottom of the capital structure, meaning if there's"
+  },
+  {
+    "speaker": 1,
+    "ts": 834,
+    "text": "ever sort of an impairment to NAV and so forth, you're the first ones that are taking the losses."
+  },
+  {
+    "speaker": 1,
+    "ts": 839,
+    "text": "Then on top of the equity, you sometimes have preferred equity or convertible preferreds"
+  },
+  {
+    "speaker": 1,
+    "ts": 844,
+    "text": "as well."
+  },
+  {
+    "speaker": 1,
+    "ts": 846,
+    "text": "Those typically, if you have a significant event, obviously like a Chapter 11 type of"
+  },
+  {
+    "speaker": 1,
+    "ts": 852,
+    "text": "process, those would get wiped out as well."
+  },
+  {
+    "speaker": 1,
+    "ts": 854,
+    "text": "And then on top of that, that's where BDC bonds sit is the senior unsecured bonds."
+  },
+  {
+    "speaker": 1,
+    "ts": 860,
+    "text": "And then within bonds themselves, sometimes you have senior unsecured and you have junior"
+  },
+  {
+    "speaker": 1,
+    "ts": 864,
+    "text": "and so forth."
+  },
+  {
+    "speaker": 1,
+    "ts": 866,
+    "text": "All these bonds in our portfolio are senior unsecured."
+  },
+  {
+    "speaker": 1,
+    "ts": 869,
+    "text": "So they're on the very, very top of the bond structure, meaning that they sit pretty high"
+  },
+  {
+    "speaker": 1,
+    "ts": 874,
+    "text": "up there."
+  },
+  {
+    "speaker": 1,
+    "ts": 875,
+    "text": "There are, however, sometimes not all BDCs, but some companies do secured bonds, meaning"
+  },
+  {
+    "speaker": 1,
+    "ts": 880,
+    "text": "that they're tied directly to some sort of asset on their balance sheet."
+  },
+  {
+    "speaker": 1,
+    "ts": 883,
+    "text": "So those would sit above that."
+  },
+  {
+    "speaker": 1,
+    "ts": 885,
+    "text": "And then if there's any sort of secured direct lending or so forth line of credit, that would"
+  },
+  {
+    "speaker": 1,
+    "ts": 889,
+    "text": "sit at the very, very top."
+  },
+  {
+    "speaker": 1,
+    "ts": 891,
+    "text": "So when you look at a cap structure, I would say BDC bonds in HBDC sit towards the middle"
+  },
+  {
+    "speaker": 1,
+    "ts": 897,
+    "text": "or higher portion of the capital structure."
+  },
+  {
+    "speaker": 1,
+    "ts": 899,
+    "text": "So there's a lot of cushion below these bonds."
+  },
+  {
+    "speaker": 1,
+    "ts": 902,
+    "text": "So like we mentioned, you would need a significant credit event to even get, be worried about"
+  },
+  {
+    "speaker": 1,
+    "ts": 908,
+    "text": "these bonds."
+  },
+  {
+    "speaker": 1,
+    "ts": 910,
+    "text": "And that's kind of the opportunity here because the spreads and the yields maturities on these"
+  },
+  {
+    "speaker": 1,
+    "ts": 913,
+    "text": "bonds are, we think, discriminately high for a security that has a lot of structural"
+  },
+  {
+    "speaker": 1,
+    "ts": 920,
+    "text": "protections in place."
+  },
+  {
+    "speaker": 1,
+    "ts": 922,
+    "text": "So liquidity is always a question in a niche bond market."
+  },
+  {
+    "speaker": 1,
+    "ts": 925,
+    "text": "So how does the ETF for app or help that?"
+  },
+  {
+    "speaker": 1,
+    "ts": 928,
+    "text": "And how does the index handle liquidity at the security level?"
+  },
+  {
+    "speaker": 1,
+    "ts": 931,
+    "text": "Yeah."
+  },
+  {
+    "speaker": 1,
+    "ts": 932,
+    "text": "So well, within any ETF and with our ETF as well, you have creation and redemption units."
+  },
+  {
+    "speaker": 1,
+    "ts": 939,
+    "text": "So what that is is we have a lead market maker that would buy these securities or they could"
+  },
+  {
+    "speaker": 1,
+    "ts": 944,
+    "text": "do an in cash creation redemption."
+  },
+  {
+    "speaker": 1,
+    "ts": 947,
+    "text": "And so they're the ones that are actually trading it and putting it together."
+  },
+  {
+    "speaker": 1,
+    "ts": 951,
+    "text": "So what that does is even if there is, let's say, a million dollars in the ETF, which we"
+  },
+  {
+    "speaker": 1,
+    "ts": 956,
+    "text": "relatively small, which there is not, but in the case of this example, there could be,"
+  },
+  {
+    "speaker": 1,
+    "ts": 959,
+    "text": "and someone wants to put a $10 million buy order in the ETF, that would not impact the"
+  },
+  {
+    "speaker": 1,
+    "ts": 966,
+    "text": "trading dynamics of the ETF."
+  },
+  {
+    "speaker": 1,
+    "ts": 967,
+    "text": "The lead market maker would then buy all the bonds in the portfolio and then structure"
+  },
+  {
+    "speaker": 1,
+    "ts": 972,
+    "text": "that at the $10 million ticket price."
+  },
+  {
+    "speaker": 1,
+    "ts": 975,
+    "text": "So I think a lot of advisors mistakenly see an ETF that may only have a few assets in"
+  },
+  {
+    "speaker": 1,
+    "ts": 981,
+    "text": "maybe 10 million assets in it and say, oh, it's illiquid."
+  },
+  {
+    "speaker": 1,
+    "ts": 984,
+    "text": "If I put a big ticket order in it, it's going to be hard to buy or sell that ETF."
+  },
+  {
+    "speaker": 1,
+    "ts": 988,
+    "text": "It's not actually true."
+  },
+  {
+    "speaker": 1,
+    "ts": 989,
+    "text": "It's the underlying assets in the ETF that matter more so than the ETF itself."
+  },
+  {
+    "speaker": 1,
+    "ts": 994,
+    "text": "And given that the BDC bond market is now a $70 billion plus market, it's a very, very liquid"
+  },
+  {
+    "speaker": 1,
+    "ts": 1001,
+    "text": "market."
+  },
+  {
+    "speaker": 1,
+    "ts": 1001,
+    "text": "I wouldn't, well, I should say it's liquid enough, not extremely liquid, but it's liquid enough"
+  },
+  {
+    "speaker": 1,
+    "ts": 1005,
+    "text": "that any sizeable ticket order, like I mentioned, under $400 million daily,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1010,
+    "text": "should have no problem buying or selling HPDC."
+  },
+  {
+    "speaker": 1,
+    "ts": 1014,
+    "text": "So you guys just actually crossed $100 million in assets about seven months after launch."
+  },
+  {
+    "speaker": 1,
+    "ts": 1019,
+    "text": "What's been driving that demand from advisors?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1021,
+    "text": "What have you learned so far?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1022,
+    "text": "I mean, this is a very niche new market."
+  },
+  {
+    "speaker": 1,
+    "ts": 1024,
+    "text": "You're the only player in the space today."
+  },
+  {
+    "speaker": 1,
+    "ts": 1027,
+    "text": "So what's it like?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1028,
+    "text": "What have you learned?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1029,
+    "text": "Yeah."
+  },
+  {
+    "speaker": 1,
+    "ts": 1030,
+    "text": "So there's definitely a bit of a learning curve."
+  },
+  {
+    "speaker": 1,
+    "ts": 1033,
+    "text": "So when we meet with advisors and they say, okay, yeah, this looks really cool, but"
+  },
+  {
+    "speaker": 1,
+    "ts": 1037,
+    "text": "why don't I just own BizD?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1038,
+    "text": "It has a higher yield."
+  },
+  {
+    "speaker": 1,
+    "ts": 1039,
+    "text": "And then we have to explain what the TRON structure is and what equity versus debt is and so forth."
+  },
+  {
+    "speaker": 1,
+    "ts": 1044,
+    "text": "And I would say 85% to 90% of advisors that once we explain it to them,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1050,
+    "text": "they then get it pretty quickly."
+  },
+  {
+    "speaker": 1,
+    "ts": 1052,
+    "text": "And they say, oh, this is pretty attractive to me and so forth."
+  },
+  {
+    "speaker": 1,
+    "ts": 1056,
+    "text": "So that was definitely, we expected it, but we didn't expect it to be as thorough as it turned"
+  },
+  {
+    "speaker": 1,
+    "ts": 1063,
+    "text": "out to be that almost every single call we meet with advisor group was, okay, explain to me"
+  },
+  {
+    "speaker": 1,
+    "ts": 1067,
+    "text": "the difference between HPDC and BizD out there."
+  },
+  {
+    "speaker": 1,
+    "ts": 1070,
+    "text": "Why are you paying a lower yield than BizD and so forth?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1073,
+    "text": "That was the one thing."
+  },
+  {
+    "speaker": 1,
+    "ts": 1074,
+    "text": "But like I mentioned, we kind of give that 10, 15 minute educational lesson."
+  },
+  {
+    "speaker": 1,
+    "ts": 1081,
+    "text": "And then they usually get it pretty quickly."
+  },
+  {
+    "speaker": 1,
+    "ts": 1083,
+    "text": "Then the second thing is, as you probably are well aware of, this year has been,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1088,
+    "text": "there's no shortage of negative press in the private credit world out there."
+  },
+  {
+    "speaker": 1,
+    "ts": 1093,
+    "text": "There's a lot of fear taglines out there and so forth."
+  },
+  {
+    "speaker": 1,
+    "ts": 1098,
+    "text": "We could talk a little bit about that and why I think it's overblown."
+  },
+  {
+    "speaker": 1,
+    "ts": 1102,
+    "text": "And that's the second part of the conversations that we're having is, hey,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1104,
+    "text": "I hear that private credit is going to blow up any day now."
+  },
+  {
+    "speaker": 1,
+    "ts": 1107,
+    "text": "Nobody knows what's going on there and so forth."
+  },
+  {
+    "speaker": 1,
+    "ts": 1111,
+    "text": "And kind of going back to that educational lessons that we tell advisors is,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1115,
+    "text": "BDCs are actually remarkably transparent."
+  },
+  {
+    "speaker": 1,
+    "ts": 1118,
+    "text": "So even private BDCs, which some of them issue public bonds that are in HPDC,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1123,
+    "text": "every single one of them has to publish a 10K report with the SEC and file that."
+  },
+  {
+    "speaker": 1,
+    "ts": 1129,
+    "text": "And in the 10K, they put every single loan, classify it by the sector and so forth,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1134,
+    "text": "the terms and all that stuff out there."
+  },
+  {
+    "speaker": 1,
+    "ts": 1136,
+    "text": "So you can actually dig down into each and every BDC and see where they're lending money to"
+  },
+  {
+    "speaker": 1,
+    "ts": 1142,
+    "text": "and what the terms are and so forth."
+  },
+  {
+    "speaker": 1,
+    "ts": 1144,
+    "text": "So they're remarkably transparent, even though the press seems to love to say that they're not,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1149,
+    "text": "but they really are."
+  },
+  {
+    "speaker": 1,
+    "ts": 1151,
+    "text": "So that has been a hurdle for sure, is just kind of fighting the tide of the negative"
+  },
+  {
+    "speaker": 1,
+    "ts": 1155,
+    "text": "press cycle out there."
+  },
+  {
+    "speaker": 1,
+    "ts": 1156,
+    "text": "And don't get me wrong, there are some yellow flags and some red flags out there"
+  },
+  {
+    "speaker": 1,
+    "ts": 1160,
+    "text": "in the private credit world that we could talk about for sure."
+  },
+  {
+    "speaker": 1,
+    "ts": 1164,
+    "text": "But within the BDC space at large, again, these are smaller loans themselves,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1168,
+    "text": "just small and medium sized US-focused companies,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1171,
+    "text": "we're actually starting to see non-accruals and pick income and so forth stabilize and"
+  },
+  {
+    "speaker": 1,
+    "ts": 1175,
+    "text": "actually tick down."
+  },
+  {
+    "speaker": 1,
+    "ts": 1177,
+    "text": "So I think that has helped us a little bit recently."
+  },
+  {
+    "speaker": 1,
+    "ts": 1181,
+    "text": "And then there's also the kind of expansion that was in the late early 2020s and so forth"
+  },
+  {
+    "speaker": 1,
+    "ts": 1187,
+    "text": "of selling these private BDCs to a lot of advisors and so forth."
+  },
+  {
+    "speaker": 1,
+    "ts": 1191,
+    "text": "And then they didn't read the five print too closely and they say,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1194,
+    "text": "hey, I can only redeem my assets at 5% a quarter."
+  },
+  {
+    "speaker": 1,
+    "ts": 1197,
+    "text": "I want all my money back now, which that's a fair criticism."
+  },
+  {
+    "speaker": 1,
+    "ts": 1202,
+    "text": "But that has actually been a tailwind for HBDC because given that it is an ETF,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1207,
+    "text": "there is no lockups, there is no illiquidity events you can buy and sell it the same day"
+  },
+  {
+    "speaker": 1,
+    "ts": 1213,
+    "text": "if you really want to."
+  },
+  {
+    "speaker": 1,
+    "ts": 1215,
+    "text": "So that's been a bit of a tailwind for our ETF."
+  },
+  {
+    "speaker": 1,
+    "ts": 1218,
+    "text": "So for an advisor thinking about HBDC, how would they use it in a client's fixed income"
+  },
+  {
+    "speaker": 1,
+    "ts": 1224,
+    "text": "allocation?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1224,
+    "text": "Is this a core compliment?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1226,
+    "text": "Is it an income sleeve?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1227,
+    "text": "How do you educate on how it should be utilized?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1231,
+    "text": "I wouldn't be out here and say it's a substitute for the AG, your core bond fund,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1236,
+    "text": "because this is a more nichey part of the market and BDC bonds do gap out on their spreads"
+  },
+  {
+    "speaker": 1,
+    "ts": 1242,
+    "text": "when you get some sort of financial stress in the system."
+  },
+  {
+    "speaker": 1,
+    "ts": 1247,
+    "text": "I think that's a great buying opportunity because they always snap right back,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1250,
+    "text": "but they will be a little bit more volatile than your traditional investment grade bonds."
+  },
+  {
+    "speaker": 1,
+    "ts": 1254,
+    "text": "And we've run the analysis on that going back over the last five plus years."
+  },
+  {
+    "speaker": 1,
+    "ts": 1259,
+    "text": "The beta on these bonds is about 1.4, meaning that if spreads blow out about 100 basis points"
+  },
+  {
+    "speaker": 1,
+    "ts": 1264,
+    "text": "for investment grade bonds, we would expect BDC bonds to blow out about 140 basis points."
+  },
+  {
+    "speaker": 1,
+    "ts": 1268,
+    "text": "So they're not a direct substitute for your core bond fund."
+  },
+  {
+    "speaker": 1,
+    "ts": 1271,
+    "text": "What I think they are a good substitute is if you have any allocation towards alternatives out"
+  },
+  {
+    "speaker": 1,
+    "ts": 1277,
+    "text": "there and you're in some of these interval funds and you're in some of these private BDC funds out"
+  },
+  {
+    "speaker": 1,
+    "ts": 1281,
+    "text": "there and you're getting frustrated saying, hey, there's lockups in place."
+  },
+  {
+    "speaker": 1,
+    "ts": 1286,
+    "text": "They're not really performing that well."
+  },
+  {
+    "speaker": 1,
+    "ts": 1287,
+    "text": "The fees are incredibly high."
+  },
+  {
+    "speaker": 1,
+    "ts": 1289,
+    "text": "Some of them are 2% management fees and so forth."
+  },
+  {
+    "speaker": 1,
+    "ts": 1291,
+    "text": "I think this is a great substitute for that because this is liquid."
+  },
+  {
+    "speaker": 1,
+    "ts": 1294,
+    "text": "It's traded daily."
+  },
+  {
+    "speaker": 1,
+    "ts": 1295,
+    "text": "It's relatively cheap."
+  },
+  {
+    "speaker": 1,
+    "ts": 1297,
+    "text": "It's only 39 basis points and you're getting that exposure to the alternative asset"
+  },
+  {
+    "speaker": 1,
+    "ts": 1302,
+    "text": "management space via BDC bonds."
+  },
+  {
+    "speaker": 1,
+    "ts": 1305,
+    "text": "So that's where we're seeing a lot of traction there."
+  },
+  {
+    "speaker": 1,
+    "ts": 1308,
+    "text": "We're also seeing some traction with some insurance companies as well."
+  },
+  {
+    "speaker": 1,
+    "ts": 1312,
+    "text": "We are NAIC2C rated."
+  },
+  {
+    "speaker": 1,
+    "ts": 1315,
+    "text": "We just got that."
+  },
+  {
+    "speaker": 1,
+    "ts": 1317,
+    "text": "So some insurance companies have really started to embrace HPDC as well."
+  },
+  {
+    "speaker": 1,
+    "ts": 1321,
+    "text": "Well, Mike, I really appreciate you spending some time with me today."
+  },
+  {
+    "speaker": 1,
+    "ts": 1323,
+    "text": "Before I can let you go, where can people learn more about Hilton Capital and HPDC?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1329,
+    "text": "Yeah, sure."
+  },
+  {
+    "speaker": 1,
+    "ts": 1329,
+    "text": "So if you go to our website, which is hiltoncapitalmanagement.com,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1334,
+    "text": "you can go and see our strategies, all of them, and select HPDC."
+  },
+  {
+    "speaker": 1,
+    "ts": 1338,
+    "text": "And there's tons of fact sheets and marketing material out there for anyone that's interested."
+  },
+  {
+    "speaker": 1,
+    "ts": 1343,
+    "text": "Well, again, Mike, thanks for hanging out."
+  },
+  {
+    "speaker": 1,
+    "ts": 1345,
+    "text": "Yeah, thanks for having me."
+  },
+  {
+    "speaker": 1,
+    "ts": 1345,
+    "text": "Appreciate it."
+  }
+]

@@ -1,0 +1,1977 @@
+[
+  {
+    "speaker": 1,
+    "ts": 0,
+    "text": "Welcome to Behind the Ticker, the podcast where we go beyond the symbol and into the"
+  },
+  {
+    "speaker": 1,
+    "ts": 9,
+    "text": "strategy."
+  },
+  {
+    "speaker": 1,
+    "ts": 10,
+    "text": "I'm Brad Roth, founder and chief investment officer at Thor Funds, and in each episode,"
+  },
+  {
+    "speaker": 1,
+    "ts": 16,
+    "text": "I sit down with ETF managers, CIOs, and industry leaders to break down how these funds are"
+  },
+  {
+    "speaker": 1,
+    "ts": 23,
+    "text": "actually built, how they behave in real markets, and how advisors use them in real portfolios."
+  },
+  {
+    "speaker": 1,
+    "ts": 29,
+    "text": "Most people just see a ticker symbol, but we know much more goes on behind the ticker."
+  },
+  {
+    "speaker": 1,
+    "ts": 41,
+    "text": "Hey Doug, welcome to the show."
+  },
+  {
+    "speaker": 1,
+    "ts": 42,
+    "text": "Hi Brad, thank you for having me."
+  },
+  {
+    "speaker": 1,
+    "ts": 45,
+    "text": "So why don't you give everybody a bit about your background."
+  },
+  {
+    "speaker": 1,
+    "ts": 47,
+    "text": "I read you went to Johns Hopkins for physics and applied mathematics, and now you're managing"
+  },
+  {
+    "speaker": 1,
+    "ts": 53,
+    "text": "director and portfolio manager at Core Commodity."
+  },
+  {
+    "speaker": 1,
+    "ts": 56,
+    "text": "Can you kind of just walk us through your path and how you got to where you are today?"
+  },
+  {
+    "speaker": 1,
+    "ts": 59,
+    "text": "Absolutely."
+  },
+  {
+    "speaker": 1,
+    "ts": 60,
+    "text": "So in college, yes, I was studying physics."
+  },
+  {
+    "speaker": 1,
+    "ts": 63,
+    "text": "I always had a pension for math."
+  },
+  {
+    "speaker": 1,
+    "ts": 67,
+    "text": "I'd been programming for a long time, and I knew I wanted a career that I could use sort"
+  },
+  {
+    "speaker": 1,
+    "ts": 72,
+    "text": "of the problem-solving skills, some of the programming skills."
+  },
+  {
+    "speaker": 1,
+    "ts": 76,
+    "text": "And when I first learned about sort of quantitative finance and systematic trading and those sorts"
+  },
+  {
+    "speaker": 1,
+    "ts": 82,
+    "text": "of things, it was really appealing to me."
+  },
+  {
+    "speaker": 1,
+    "ts": 84,
+    "text": "And so I tacked on that applied math degree while I was there at Hopkins, and was hired"
+  },
+  {
+    "speaker": 1,
+    "ts": 91,
+    "text": "shortly after graduating here at Core Commodity, where I started as an analyst."
+  },
+  {
+    "speaker": 1,
+    "ts": 96,
+    "text": "I'm now my 13th year here as a portfolio manager, and just sort of worked my way up."
+  },
+  {
+    "speaker": 1,
+    "ts": 103,
+    "text": "It's a great organization, and it took a chance on me, and it's worked out very well."
+  },
+  {
+    "speaker": 1,
+    "ts": 107,
+    "text": "Yeah, I want to talk about the firm in a little bit, but before we get there, I always like"
+  },
+  {
+    "speaker": 1,
+    "ts": 111,
+    "text": "to ask people, when you're not behind the desk and work, and what do you like to do,"
+  },
+  {
+    "speaker": 1,
+    "ts": 114,
+    "text": "any hobbies?"
+  },
+  {
+    "speaker": 1,
+    "ts": 116,
+    "text": "Yes, let's see."
+  },
+  {
+    "speaker": 1,
+    "ts": 119,
+    "text": "So I don't have a ton of free time these days."
+  },
+  {
+    "speaker": 1,
+    "ts": 121,
+    "text": "I have a two-year-old boy at home that keeps me quite busy, but I try to get up a little"
+  },
+  {
+    "speaker": 1,
+    "ts": 127,
+    "text": "extra early in the morning and work out for about an hour, get some exercise in, and then"
+  },
+  {
+    "speaker": 1,
+    "ts": 132,
+    "text": "at the end of the day, try to wind down with a good fiction book, non-related to work kind"
+  },
+  {
+    "speaker": 1,
+    "ts": 138,
+    "text": "of reading to end the day."
+  },
+  {
+    "speaker": 1,
+    "ts": 140,
+    "text": "So that's what little free time I have."
+  },
+  {
+    "speaker": 1,
+    "ts": 142,
+    "text": "That's how I've been spending it these days."
+  },
+  {
+    "speaker": 1,
+    "ts": 144,
+    "text": "Yeah, it seems to be the recurring theme of people with small kids don't have free time."
+  },
+  {
+    "speaker": 1,
+    "ts": 150,
+    "text": "No, no."
+  },
+  {
+    "speaker": 1,
+    "ts": 151,
+    "text": "And I've got another on the way, so I will have even less."
+  },
+  {
+    "speaker": 1,
+    "ts": 155,
+    "text": "Well, congratulations."
+  },
+  {
+    "speaker": 1,
+    "ts": 157,
+    "text": "That's good to hear, and enjoy it while they're little, because mine are starting to grow"
+  },
+  {
+    "speaker": 1,
+    "ts": 160,
+    "text": "up pretty fast."
+  },
+  {
+    "speaker": 1,
+    "ts": 161,
+    "text": "But let's talk about Core Commodity Management."
+  },
+  {
+    "speaker": 1,
+    "ts": 164,
+    "text": "Can you give us a quick high level on the firm, and then you guys have partnered on the product"
+  },
+  {
+    "speaker": 1,
+    "ts": 169,
+    "text": "that we're going to talk about CCNR with SS and C-ALP."
+  },
+  {
+    "speaker": 1,
+    "ts": 172,
+    "text": "So can you talk about that partnership as well?"
+  },
+  {
+    "speaker": 1,
+    "ts": 174,
+    "text": "Absolutely, absolutely."
+  },
+  {
+    "speaker": 1,
+    "ts": 176,
+    "text": "So Core Commodity, as the name implies, is an asset management firm focused and dedicated"
+  },
+  {
+    "speaker": 1,
+    "ts": 182,
+    "text": "on Commodity's asset management, whether that is Commodity Futures or Natural Resource"
+  },
+  {
+    "speaker": 1,
+    "ts": 189,
+    "text": "Equities."
+  },
+  {
+    "speaker": 1,
+    "ts": 190,
+    "text": "All we do is Commodities."
+  },
+  {
+    "speaker": 1,
+    "ts": 192,
+    "text": "It's what we live and breathe."
+  },
+  {
+    "speaker": 1,
+    "ts": 195,
+    "text": "And we were founded by some of the most senior, longstanding Commodities Futures innovators"
+  },
+  {
+    "speaker": 1,
+    "ts": 203,
+    "text": "out there, dating back to many of whom date back to sort of the inception of Commodities"
+  },
+  {
+    "speaker": 1,
+    "ts": 210,
+    "text": "as an asset class."
+  },
+  {
+    "speaker": 1,
+    "ts": 212,
+    "text": "Our CIO was the creator, one of the creators of the Bloomberg Commodity Index."
+  },
+  {
+    "speaker": 1,
+    "ts": 219,
+    "text": "Back then it was the Dow Jones AIG Commodity Index."
+  },
+  {
+    "speaker": 1,
+    "ts": 222,
+    "text": "We've also reconstituted the CRB Index."
+  },
+  {
+    "speaker": 1,
+    "ts": 225,
+    "text": "So really Commodities Indexing was our core back when we first were getting started."
+  },
+  {
+    "speaker": 1,
+    "ts": 233,
+    "text": "And then we introduced Natural Resource Equities into our strategies back in 2010 or so."
+  },
+  {
+    "speaker": 1,
+    "ts": 240,
+    "text": "The firm goes back to 2003."
+  },
+  {
+    "speaker": 1,
+    "ts": 243,
+    "text": "And we really began integrating those Natural Resource Equities along with Commodity Futures"
+  },
+  {
+    "speaker": 1,
+    "ts": 247,
+    "text": "in some of our strategies back in 2010, including our flagship mutual fund product, J-C-R-I-X,"
+  },
+  {
+    "speaker": 1,
+    "ts": 256,
+    "text": "which is the Complete Commodity Strategy Fund, which is where we first partnered with SS&C"
+  },
+  {
+    "speaker": 1,
+    "ts": 261,
+    "text": "Alps."
+  },
+  {
+    "speaker": 1,
+    "ts": 262,
+    "text": "So they serve as the advisor on that fund."
+  },
+  {
+    "speaker": 1,
+    "ts": 264,
+    "text": "We are the sub-advisor."
+  },
+  {
+    "speaker": 1,
+    "ts": 266,
+    "text": "And that fund has been around again since 2010 and combines Natural Resource Equities"
+  },
+  {
+    "speaker": 1,
+    "ts": 271,
+    "text": "with Commodity Futures."
+  },
+  {
+    "speaker": 1,
+    "ts": 273,
+    "text": "It's roughly a third equities, two-thirds futures."
+  },
+  {
+    "speaker": 1,
+    "ts": 276,
+    "text": "I'm also a portfolio manager on that fund as well."
+  },
+  {
+    "speaker": 1,
+    "ts": 280,
+    "text": "And then back in 2012, we kind of launched our flagship Natural Resource Equity product,"
+  },
+  {
+    "speaker": 1,
+    "ts": 285,
+    "text": "which is what is in the CCNR ETF today."
+  },
+  {
+    "speaker": 1,
+    "ts": 289,
+    "text": "So even though the ETF was launched in 2024, it's a strategy we've been running since 2012"
+  },
+  {
+    "speaker": 1,
+    "ts": 295,
+    "text": "on a standalone basis and something we think is really different because, again, the firm"
+  },
+  {
+    "speaker": 1,
+    "ts": 300,
+    "text": "comes at commodities from that lens, like from that deep specialization in commodities."
+  },
+  {
+    "speaker": 1,
+    "ts": 307,
+    "text": "So as we talk more about CCNR, I think we'll get into how it really is under the hood"
+  },
+  {
+    "speaker": 1,
+    "ts": 311,
+    "text": "very different from some of the other things out there."
+  },
+  {
+    "speaker": 1,
+    "ts": 314,
+    "text": "Well, that's exactly where we're going."
+  },
+  {
+    "speaker": 1,
+    "ts": 316,
+    "text": "So let's get into CCNR."
+  },
+  {
+    "speaker": 1,
+    "ts": 317,
+    "text": "It's the Alps Core Commodity Natural Resources ETF."
+  },
+  {
+    "speaker": 1,
+    "ts": 321,
+    "text": "As you said, it launched in 2024."
+  },
+  {
+    "speaker": 1,
+    "ts": 322,
+    "text": "It's actively managed."
+  },
+  {
+    "speaker": 1,
+    "ts": 324,
+    "text": "So at a high level before we go deeper, what is this fund and what's the problem that it's"
+  },
+  {
+    "speaker": 1,
+    "ts": 328,
+    "text": "solving?"
+  },
+  {
+    "speaker": 1,
+    "ts": 329,
+    "text": "Absolutely."
+  },
+  {
+    "speaker": 1,
+    "ts": 330,
+    "text": "So what it is is trying to provide investors with exposure to upstream commodity producing"
+  },
+  {
+    "speaker": 1,
+    "ts": 337,
+    "text": "companies to better deliver the underlying natural resources or commodity price exposure"
+  },
+  {
+    "speaker": 1,
+    "ts": 345,
+    "text": "of the things those companies produce."
+  },
+  {
+    "speaker": 1,
+    "ts": 348,
+    "text": "So and why would you want to own that?"
+  },
+  {
+    "speaker": 1,
+    "ts": 351,
+    "text": "Generally what we see these products use for is diversification."
+  },
+  {
+    "speaker": 1,
+    "ts": 357,
+    "text": "Fund protection is obviously the biggest thing in commodities and certainly relevant"
+  },
+  {
+    "speaker": 1,
+    "ts": 362,
+    "text": "these days, but also access to growth and growth opportunities as well."
+  },
+  {
+    "speaker": 1,
+    "ts": 367,
+    "text": "So it's really trying to fit into an investor's portfolio to cover some of those diversification"
+  },
+  {
+    "speaker": 1,
+    "ts": 374,
+    "text": "and inflation sensitivity needs, but to do so in a way that we think sort of maximizes"
+  },
+  {
+    "speaker": 1,
+    "ts": 381,
+    "text": "those impacts."
+  },
+  {
+    "speaker": 1,
+    "ts": 383,
+    "text": "When you look at CCNR, it is much more upstream generally than some of the passive indices"
+  },
+  {
+    "speaker": 1,
+    "ts": 388,
+    "text": "out there."
+  },
+  {
+    "speaker": 1,
+    "ts": 389,
+    "text": "We're really focused on, within energy, we're focused on upstream oil and gas E&P companies,"
+  },
+  {
+    "speaker": 1,
+    "ts": 395,
+    "text": "the companies that are going out drilling wells and extracting oil and gas out of the"
+  },
+  {
+    "speaker": 1,
+    "ts": 400,
+    "text": "ground as opposed to purely focusing on large integrated energy companies like direct sands"
+  },
+  {
+    "speaker": 1,
+    "ts": 407,
+    "text": "and chevrons of the world."
+  },
+  {
+    "speaker": 1,
+    "ts": 409,
+    "text": "We generally include that industry, nothing against those companies, but when you look"
+  },
+  {
+    "speaker": 1,
+    "ts": 414,
+    "text": "at which industries are more sensitive and better reflect underlying crude or natural"
+  },
+  {
+    "speaker": 1,
+    "ts": 421,
+    "text": "gas prices, it's those companies closer to the underlying production, which kind of"
+  },
+  {
+    "speaker": 1,
+    "ts": 425,
+    "text": "makes sense."
+  },
+  {
+    "speaker": 1,
+    "ts": 426,
+    "text": "And that's what we do across the board."
+  },
+  {
+    "speaker": 1,
+    "ts": 429,
+    "text": "We deal it within the four main sectors we look at, energy, agriculture, base metals"
+  },
+  {
+    "speaker": 1,
+    "ts": 434,
+    "text": "and precious metals, and we're really trying to target the industries and companies that"
+  },
+  {
+    "speaker": 1,
+    "ts": 439,
+    "text": "are the most upstream and will best deliver the underlying commodity price exposure and"
+  },
+  {
+    "speaker": 1,
+    "ts": 444,
+    "text": "all the benefits that come with it."
+  },
+  {
+    "speaker": 1,
+    "ts": 446,
+    "text": "At the same time, highly diversified, usually over 300 names, roughly 300 names in the portfolio."
+  },
+  {
+    "speaker": 1,
+    "ts": 453,
+    "text": "The idea being, if we spread our risk around enough names, we will better deliver the underlying"
+  },
+  {
+    "speaker": 1,
+    "ts": 459,
+    "text": "commodity price exposure to the end investor."
+  },
+  {
+    "speaker": 1,
+    "ts": 462,
+    "text": "So a great example of where that was beneficial to us happened last year when a company, Freeport"
+  },
+  {
+    "speaker": 1,
+    "ts": 471,
+    "text": "Macmaran, had a mudslide event at their mine in Indonesia, the Graspburg Copper Mine, one"
+  },
+  {
+    "speaker": 1,
+    "ts": 481,
+    "text": "of the biggest copper mines in the world, second largest copper mine in the world."
+  },
+  {
+    "speaker": 1,
+    "ts": 485,
+    "text": "That sent copper prices up 4% that day because copper is a very tight market at the moment,"
+  },
+  {
+    "speaker": 1,
+    "ts": 491,
+    "text": "especially with AI data centers, all these uses we have for copper."
+  },
+  {
+    "speaker": 1,
+    "ts": 497,
+    "text": "But the stock of Freeport dropped like 20% on that day."
+  },
+  {
+    "speaker": 1,
+    "ts": 501,
+    "text": "So if you were just using Freeport as your proxy for copper, you would have been in trouble"
+  },
+  {
+    "speaker": 1,
+    "ts": 505,
+    "text": "on that day, but we held, I believe, 12 different copper miners in the portfolio, including"
+  },
+  {
+    "speaker": 1,
+    "ts": 511,
+    "text": "Freeport at the time."
+  },
+  {
+    "speaker": 1,
+    "ts": 513,
+    "text": "But our basket of those 12 names was up about 4% right along copper prices."
+  },
+  {
+    "speaker": 1,
+    "ts": 518,
+    "text": "I'd use that as an example because that's what we're trying to do across the commodity"
+  },
+  {
+    "speaker": 1,
+    "ts": 522,
+    "text": "complex is provide the underlying price exposure by diversifying across enough highly upstream"
+  },
+  {
+    "speaker": 1,
+    "ts": 529,
+    "text": "names."
+  },
+  {
+    "speaker": 1,
+    "ts": 531,
+    "text": "I want to talk a little bit deeper about that because it was a question I had for you specifically"
+  },
+  {
+    "speaker": 1,
+    "ts": 536,
+    "text": "which is, can you talk us through why upstream is better for commodity exposure rather than"
+  },
+  {
+    "speaker": 1,
+    "ts": 541,
+    "text": "the refiners and other downstream operations?"
+  },
+  {
+    "speaker": 1,
+    "ts": 544,
+    "text": "Absolutely."
+  },
+  {
+    "speaker": 1,
+    "ts": 545,
+    "text": "It goes back to that being closer to the commodity production, better delivers the underlying"
+  },
+  {
+    "speaker": 1,
+    "ts": 553,
+    "text": "exposure to the commodities that are produced, and that is where your benefits stem from."
+  },
+  {
+    "speaker": 1,
+    "ts": 557,
+    "text": "Your diversification, your inflation protection, that's coming from the underlying stuff that"
+  },
+  {
+    "speaker": 1,
+    "ts": 563,
+    "text": "those companies make as opposed to just idiosyncratic company, single company risk or equity beta."
+  },
+  {
+    "speaker": 1,
+    "ts": 571,
+    "text": "You're really getting the benefits to your portfolio from exposure to the underlying"
+  },
+  {
+    "speaker": 1,
+    "ts": 575,
+    "text": "natural resources."
+  },
+  {
+    "speaker": 1,
+    "ts": 578,
+    "text": "In our view, if you own the companies closest to that production, you're going to better"
+  },
+  {
+    "speaker": 1,
+    "ts": 584,
+    "text": "deliver that underlying natural resources exposure, and empirically, that has been the"
+  },
+  {
+    "speaker": 1,
+    "ts": 588,
+    "text": "way it's played out over time."
+  },
+  {
+    "speaker": 1,
+    "ts": 590,
+    "text": "We tend to see higher inflation sensitivities with those more upstream names."
+  },
+  {
+    "speaker": 1,
+    "ts": 594,
+    "text": "Can we talk about the structural case for commodities in general because I think it's"
+  },
+  {
+    "speaker": 1,
+    "ts": 599,
+    "text": "pretty underappreciated."
+  },
+  {
+    "speaker": 1,
+    "ts": 602,
+    "text": "Producers used to make up 35% of the S&P in the late 70s, and today it's like 5% while"
+  },
+  {
+    "speaker": 1,
+    "ts": 608,
+    "text": "tech is the third of the index."
+  },
+  {
+    "speaker": 1,
+    "ts": 611,
+    "text": "Can you walk us through what that shift means for investors going forward?"
+  },
+  {
+    "speaker": 1,
+    "ts": 614,
+    "text": "Absolutely."
+  },
+  {
+    "speaker": 1,
+    "ts": 615,
+    "text": "It's a great talking point and one that we've been focusing on quite a bit with investors."
+  },
+  {
+    "speaker": 1,
+    "ts": 622,
+    "text": "These are companies that make real things, the energy, the materials, and the food that"
+  },
+  {
+    "speaker": 1,
+    "ts": 628,
+    "text": "powers the world, that we need and need more of year in and year out as populations grow,"
+  },
+  {
+    "speaker": 1,
+    "ts": 636,
+    "text": "as standards of living rise, all these things we always use more and more and more of."
+  },
+  {
+    "speaker": 1,
+    "ts": 641,
+    "text": "In the age of AI now, electricity, power, energy is becoming even more of a huge area"
+  },
+  {
+    "speaker": 1,
+    "ts": 648,
+    "text": "and in some ways a bottleneck to a lot of that growth."
+  },
+  {
+    "speaker": 1,
+    "ts": 653,
+    "text": "That is incredibly important yet as you say, you look at something like the S&P 500, 5%"
+  },
+  {
+    "speaker": 1,
+    "ts": 660,
+    "text": "in commodity producers and the bulk of that in just a couple of companies."
+  },
+  {
+    "speaker": 1,
+    "ts": 665,
+    "text": "We feel that investors are, I think many investors assume they have exposure to these companies"
+  },
+  {
+    "speaker": 1,
+    "ts": 673,
+    "text": "that make all this real stuff because they own broad-based equities, but then when you"
+  },
+  {
+    "speaker": 1,
+    "ts": 678,
+    "text": "look under the hood, you see that you really don't."
+  },
+  {
+    "speaker": 1,
+    "ts": 680,
+    "text": "We think investors have been under-allocated to the space because of the rise of tech in"
+  },
+  {
+    "speaker": 1,
+    "ts": 688,
+    "text": "those indices as tech has basically over the last 50 years or so, it's become now over"
+  },
+  {
+    "speaker": 1,
+    "ts": 695,
+    "text": "a third of the index."
+  },
+  {
+    "speaker": 1,
+    "ts": 696,
+    "text": "When you looked back in the late 70s, early 80s, roughly a third of the index as you pointed"
+  },
+  {
+    "speaker": 1,
+    "ts": 701,
+    "text": "to was companies that make real stuff."
+  },
+  {
+    "speaker": 1,
+    "ts": 704,
+    "text": "That transition has shifted investor portfolios, maybe without them being fully aware of that."
+  },
+  {
+    "speaker": 1,
+    "ts": 711,
+    "text": "I think as we've highlighted that point with investors, it's really been one that they've"
+  },
+  {
+    "speaker": 1,
+    "ts": 720,
+    "text": "taken into account and has resonated with them because they see just how much exposure"
+  },
+  {
+    "speaker": 1,
+    "ts": 726,
+    "text": "they have to the Magnificent Seven or whatever we're calling it nowadays and how little they"
+  },
+  {
+    "speaker": 1,
+    "ts": 731,
+    "text": "have to these kinds of companies."
+  },
+  {
+    "speaker": 1,
+    "ts": 734,
+    "text": "We all understand and I think can see and get the demand side of the equation, but on"
+  },
+  {
+    "speaker": 1,
+    "ts": 739,
+    "text": "the supply side, I think I read you pointed out that a new copper mine can take 15 years"
+  },
+  {
+    "speaker": 1,
+    "ts": 744,
+    "text": "from planning to production, and investment in new production is really lagged."
+  },
+  {
+    "speaker": 1,
+    "ts": 749,
+    "text": "How big is that supply gap and where do we see it show up first?"
+  },
+  {
+    "speaker": 1,
+    "ts": 755,
+    "text": "I think it's very big and it varies depending on what market you're looking at."
+  },
+  {
+    "speaker": 1,
+    "ts": 759,
+    "text": "I think copper is a great example of, unlike technology companies, software companies,"
+  },
+  {
+    "speaker": 1,
+    "ts": 767,
+    "text": "the production of natural resources is not a light switch."
+  },
+  {
+    "speaker": 1,
+    "ts": 771,
+    "text": "Even if we invested the money we should have invested decades ago today, it's going to"
+  },
+  {
+    "speaker": 1,
+    "ts": 776,
+    "text": "take a very long time before that capex spend translates through to new production and new"
+  },
+  {
+    "speaker": 1,
+    "ts": 783,
+    "text": "supply and companies are reticent to do it these days."
+  },
+  {
+    "speaker": 1,
+    "ts": 787,
+    "text": "We had energy companies back prior to the pandemic spending, in many cases, these zombie companies"
+  },
+  {
+    "speaker": 1,
+    "ts": 795,
+    "text": "that had borrowed so much money and it was so profitable for Wall Street to lend money"
+  },
+  {
+    "speaker": 1,
+    "ts": 800,
+    "text": "to that industry."
+  },
+  {
+    "speaker": 1,
+    "ts": 801,
+    "text": "They borrowed so much money and all of a sudden when prices fell during the pandemic, many"
+  },
+  {
+    "speaker": 1,
+    "ts": 806,
+    "text": "companies ended up going bankrupt or really in financial straits."
+  },
+  {
+    "speaker": 1,
+    "ts": 811,
+    "text": "They've come around to a new mentality, which is capital restraint, focusing on improving"
+  },
+  {
+    "speaker": 1,
+    "ts": 819,
+    "text": "margins, returning cash flows to investors, and that's something we've seen in the mining"
+  },
+  {
+    "speaker": 1,
+    "ts": 822,
+    "text": "space as well."
+  },
+  {
+    "speaker": 1,
+    "ts": 825,
+    "text": "The problem is these companies are very comfortable, I think, in the position they are today, financially"
+  },
+  {
+    "speaker": 1,
+    "ts": 831,
+    "text": "very strong, shareholders are happy, they're paying down debt, they're buying back shares,"
+  },
+  {
+    "speaker": 1,
+    "ts": 838,
+    "text": "they're returning dividends to their shareholders."
+  },
+  {
+    "speaker": 1,
+    "ts": 841,
+    "text": "There's not really an appetite for capex spend and we haven't seen it and if prices go higher"
+  },
+  {
+    "speaker": 1,
+    "ts": 846,
+    "text": "because we're not increasing the supply to match the demand, the companies continue to"
+  },
+  {
+    "speaker": 1,
+    "ts": 851,
+    "text": "benefit."
+  },
+  {
+    "speaker": 1,
+    "ts": 852,
+    "text": "I think that gap is pretty wide, particularly in something like copper and we don't really"
+  },
+  {
+    "speaker": 1,
+    "ts": 858,
+    "text": "see many signs of it closing."
+  },
+  {
+    "speaker": 1,
+    "ts": 860,
+    "text": "We don't see a lot of investment in new greenfield supply."
+  },
+  {
+    "speaker": 1,
+    "ts": 863,
+    "text": "We sort of see incremental marginal technological improvements, enhancing productivity, brownfield"
+  },
+  {
+    "speaker": 1,
+    "ts": 871,
+    "text": "expansion, expanding existing mines, but we're not seeing a lot of greenfield development"
+  },
+  {
+    "speaker": 1,
+    "ts": 876,
+    "text": "and I think that's what we really need."
+  },
+  {
+    "speaker": 1,
+    "ts": 879,
+    "text": "It's sort of no secret that the copper market is extremely tight and it's heading for a"
+  },
+  {
+    "speaker": 1,
+    "ts": 885,
+    "text": "bigger imbalance in supply and demand by the end of the decade, yet we're not really seeing"
+  },
+  {
+    "speaker": 1,
+    "ts": 890,
+    "text": "any action happening to try to remedy that."
+  },
+  {
+    "speaker": 1,
+    "ts": 894,
+    "text": "Supply and demand in commodities generally means that the prices are going to have to"
+  },
+  {
+    "speaker": 1,
+    "ts": 898,
+    "text": "go up to compensate for that imbalance."
+  },
+  {
+    "speaker": 1,
+    "ts": 900,
+    "text": "Can we stay on copper and the AI data center trade here just for a minute just because"
+  },
+  {
+    "speaker": 1,
+    "ts": 906,
+    "text": "it's so popular?"
+  },
+  {
+    "speaker": 1,
+    "ts": 908,
+    "text": "We definitely have talked about copper, but other things like natural gas, uranium is"
+  },
+  {
+    "speaker": 1,
+    "ts": 913,
+    "text": "even being talked about again."
+  },
+  {
+    "speaker": 1,
+    "ts": 915,
+    "text": "How is CCNR positioned to take advantage of some of these different areas in commodity"
+  },
+  {
+    "speaker": 1,
+    "ts": 921,
+    "text": "exposure?"
+  },
+  {
+    "speaker": 1,
+    "ts": 922,
+    "text": "Yeah, it's one of the things I think that does set it apart from many of the passive"
+  },
+  {
+    "speaker": 1,
+    "ts": 927,
+    "text": "indices and competitors out there."
+  },
+  {
+    "speaker": 1,
+    "ts": 930,
+    "text": "Because we built this thing from the ground up and we built it in a way that we thought"
+  },
+  {
+    "speaker": 1,
+    "ts": 934,
+    "text": "made the most sense, we do include a lot of exposure to a lot of things you won't see."
+  },
+  {
+    "speaker": 1,
+    "ts": 938,
+    "text": "And other indices."
+  },
+  {
+    "speaker": 1,
+    "ts": 940,
+    "text": "Uranium is a great example."
+  },
+  {
+    "speaker": 1,
+    "ts": 941,
+    "text": "There's not a ton of uranium companies out there that one can own in a sufficiently"
+  },
+  {
+    "speaker": 1,
+    "ts": 946,
+    "text": "liquid fashion."
+  },
+  {
+    "speaker": 1,
+    "ts": 947,
+    "text": "But there are some and we generally include uranium as an industry in our portfolios."
+  },
+  {
+    "speaker": 1,
+    "ts": 953,
+    "text": "Natural gas, you can certainly, plenty of producers out there, but that's going to be"
+  },
+  {
+    "speaker": 1,
+    "ts": 956,
+    "text": "a huge area going forward."
+  },
+  {
+    "speaker": 1,
+    "ts": 959,
+    "text": "But so is some of the renewable and alternative energy, which are things that we have included"
+  },
+  {
+    "speaker": 1,
+    "ts": 963,
+    "text": "in our energy portfolio."
+  },
+  {
+    "speaker": 1,
+    "ts": 965,
+    "text": "When you look at the fact that roughly 20% of US power production is coming from renewable"
+  },
+  {
+    "speaker": 1,
+    "ts": 971,
+    "text": "and alternative sources, that should be in an energy portfolio in our mind."
+  },
+  {
+    "speaker": 1,
+    "ts": 976,
+    "text": "Even if passive indices, market cap weighted indices, these more legacy approaches don't"
+  },
+  {
+    "speaker": 1,
+    "ts": 981,
+    "text": "include those."
+  },
+  {
+    "speaker": 1,
+    "ts": 982,
+    "text": "So because we're actively managed, because we construct the portfolio the way we do,"
+  },
+  {
+    "speaker": 1,
+    "ts": 987,
+    "text": "we have tried to include those sorts of things that are more relevant to your point."
+  },
+  {
+    "speaker": 1,
+    "ts": 991,
+    "text": "AI data centers are a great point."
+  },
+  {
+    "speaker": 1,
+    "ts": 993,
+    "text": "We're going to need energy, kind of, I like to say all of the above."
+  },
+  {
+    "speaker": 1,
+    "ts": 999,
+    "text": "It's not just going to be the natural gas, although that is going to be a huge component"
+  },
+  {
+    "speaker": 1,
+    "ts": 1002,
+    "text": "of it."
+  },
+  {
+    "speaker": 1,
+    "ts": 1003,
+    "text": "It's also going to be these renewable and alternative sources."
+  },
+  {
+    "speaker": 1,
+    "ts": 1006,
+    "text": "It's going to be uranium."
+  },
+  {
+    "speaker": 1,
+    "ts": 1008,
+    "text": "We're going to need so much more energy."
+  },
+  {
+    "speaker": 1,
+    "ts": 1009,
+    "text": "We're not going to get to be that picky about where we get it from."
+  },
+  {
+    "speaker": 1,
+    "ts": 1013,
+    "text": "And I think that's one of the advantages our product provides, is that it does have that"
+  },
+  {
+    "speaker": 1,
+    "ts": 1017,
+    "text": "really broad based exposure."
+  },
+  {
+    "speaker": 1,
+    "ts": 1019,
+    "text": "So you don't have to try to predict, is it just going to be natural gas or solar or wind?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1025,
+    "text": "You kind of own it all."
+  },
+  {
+    "speaker": 1,
+    "ts": 1027,
+    "text": "And I'm very confident that we're going to need more and more energy going forward from"
+  },
+  {
+    "speaker": 1,
+    "ts": 1031,
+    "text": "all those different sources."
+  },
+  {
+    "speaker": 1,
+    "ts": 1033,
+    "text": "And I think it's one of the ways we're differentiated."
+  },
+  {
+    "speaker": 1,
+    "ts": 1036,
+    "text": "In metals, similarly, we include things like lithium specialty metals, these things that"
+  },
+  {
+    "speaker": 1,
+    "ts": 1042,
+    "text": "are becoming more and more relevant."
+  },
+  {
+    "speaker": 1,
+    "ts": 1045,
+    "text": "It's always been in the DNA of the product to try to include as many globally important"
+  },
+  {
+    "speaker": 1,
+    "ts": 1051,
+    "text": "relevant commodities as possible."
+  },
+  {
+    "speaker": 1,
+    "ts": 1055,
+    "text": "Just looking through the portfolio, I know you guys aren't allowed to really talk about"
+  },
+  {
+    "speaker": 1,
+    "ts": 1058,
+    "text": "individual names, but you've got agriculture-linked names and timber producers in here."
+  },
+  {
+    "speaker": 1,
+    "ts": 1065,
+    "text": "Why does things like agriculture and timber belong in a conversation in a commodity spun"
+  },
+  {
+    "speaker": 1,
+    "ts": 1071,
+    "text": "like this?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1072,
+    "text": "Absolutely."
+  },
+  {
+    "speaker": 1,
+    "ts": 1073,
+    "text": "So agriculture is obviously incredibly important."
+  },
+  {
+    "speaker": 1,
+    "ts": 1076,
+    "text": "It's all the food and everything that we need and use every day."
+  },
+  {
+    "speaker": 1,
+    "ts": 1080,
+    "text": "And it is one of the areas where it is more interesting, I think, on the equity side,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1086,
+    "text": "because it's not quite as direct a link as, say, on the energy side."
+  },
+  {
+    "speaker": 1,
+    "ts": 1091,
+    "text": "So you can't go out and buy publicly traded farming companies or corn companies or wheat"
+  },
+  {
+    "speaker": 1,
+    "ts": 1097,
+    "text": "companies like we see on the future side of things."
+  },
+  {
+    "speaker": 1,
+    "ts": 1100,
+    "text": "But what we can own are things like fertilizers, things like water companies, things like seed"
+  },
+  {
+    "speaker": 1,
+    "ts": 1106,
+    "text": "producers and herbicide and pesticide companies, all those inputs into the growing and production"
+  },
+  {
+    "speaker": 1,
+    "ts": 1112,
+    "text": "of food, including things like agricultural machinery tends to be one of the highly correlated"
+  },
+  {
+    "speaker": 1,
+    "ts": 1121,
+    "text": "areas to the underlying agriculture prices because you need John Deere tract or what"
+  },
+  {
+    "speaker": 1,
+    "ts": 1127,
+    "text": "have you to harvest all that food."
+  },
+  {
+    "speaker": 1,
+    "ts": 1130,
+    "text": "So sort of the inputs and the tools for the outputs is how we get it on the agriculture"
+  },
+  {
+    "speaker": 1,
+    "ts": 1135,
+    "text": "side."
+  },
+  {
+    "speaker": 1,
+    "ts": 1136,
+    "text": "And again, it's energy, stuff, and food."
+  },
+  {
+    "speaker": 1,
+    "ts": 1141,
+    "text": "That's kind of the three main things in natural resources, and that's how we get our exposure"
+  },
+  {
+    "speaker": 1,
+    "ts": 1146,
+    "text": "on the ag side."
+  },
+  {
+    "speaker": 1,
+    "ts": 1148,
+    "text": "So you've got some real international exposure, too, in the fund."
+  },
+  {
+    "speaker": 1,
+    "ts": 1151,
+    "text": "How important is the global scope versus a U.S.-only natural resources fund?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1156,
+    "text": "It's incredibly important."
+  },
+  {
+    "speaker": 1,
+    "ts": 1158,
+    "text": "Commodities are global, natural resources are global, they're produced all over the world,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1162,
+    "text": "they're consumed all over the world."
+  },
+  {
+    "speaker": 1,
+    "ts": 1164,
+    "text": "Certain geographies have certain natural resources and others don't."
+  },
+  {
+    "speaker": 1,
+    "ts": 1169,
+    "text": "When we look at things like platinum and PGM metals, a lot of that is coming from places"
+  },
+  {
+    "speaker": 1,
+    "ts": 1175,
+    "text": "like South Africa."
+  },
+  {
+    "speaker": 1,
+    "ts": 1177,
+    "text": "It's just what that country was blessed with in terms of its natural resources."
+  },
+  {
+    "speaker": 1,
+    "ts": 1181,
+    "text": "Here in the U.S., we have abundant crude oil, natural gas, and these hydrocarbon products."
+  },
+  {
+    "speaker": 1,
+    "ts": 1188,
+    "text": "But those get used all over the world, right?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1190,
+    "text": "So the portfolio is really meant to reflect that."
+  },
+  {
+    "speaker": 1,
+    "ts": 1195,
+    "text": "We tend to be, on average, I think about 40% U.S., with 60% being international."
+  },
+  {
+    "speaker": 1,
+    "ts": 1202,
+    "text": "And that's really more a function of what companies are available to us to invest in,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1207,
+    "text": "on which exchanges, can we access them?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1211,
+    "text": "And then we put everything together in the portfolio and that's kind of where it shakes"
+  },
+  {
+    "speaker": 1,
+    "ts": 1214,
+    "text": "out."
+  },
+  {
+    "speaker": 1,
+    "ts": 1215,
+    "text": "But also important, I think, in that is the fact that there's a correlation, an inverse"
+  },
+  {
+    "speaker": 1,
+    "ts": 1223,
+    "text": "correlation between broad commodity prices and the dollar."
+  },
+  {
+    "speaker": 1,
+    "ts": 1228,
+    "text": "When the dollar goes up, commodity prices tend to go down vice versa because it's purchasing"
+  },
+  {
+    "speaker": 1,
+    "ts": 1234,
+    "text": "power of a dollar."
+  },
+  {
+    "speaker": 1,
+    "ts": 1237,
+    "text": "So by having a portion of our portfolio outside the U.S., we're sort of enhancing that commodity-like"
+  },
+  {
+    "speaker": 1,
+    "ts": 1245,
+    "text": "nature of the product because we're not hedging that foreign currency exposure back to dollars."
+  },
+  {
+    "speaker": 1,
+    "ts": 1251,
+    "text": "We're keeping it in the local currency."
+  },
+  {
+    "speaker": 1,
+    "ts": 1254,
+    "text": "That adds an additional layer of enhancement of that commodity-like diversification you're"
+  },
+  {
+    "speaker": 1,
+    "ts": 1259,
+    "text": "getting."
+  },
+  {
+    "speaker": 1,
+    "ts": 1260,
+    "text": "Now, if you were in something that was more North America-focused, there is an index out"
+  },
+  {
+    "speaker": 1,
+    "ts": 1266,
+    "text": "there."
+  },
+  {
+    "speaker": 1,
+    "ts": 1267,
+    "text": "I won't pick on them, but they are more North American-focused natural resources."
+  },
+  {
+    "speaker": 1,
+    "ts": 1273,
+    "text": "You would see a lot more energy because that's what we have here in North America."
+  },
+  {
+    "speaker": 1,
+    "ts": 1278,
+    "text": "We have nothing against energy."
+  },
+  {
+    "speaker": 1,
+    "ts": 1279,
+    "text": "It's our largest sector as well, but we don't think it should be 80% of the portfolio."
+  },
+  {
+    "speaker": 1,
+    "ts": 1283,
+    "text": "We think it should be around about 40%."
+  },
+  {
+    "speaker": 1,
+    "ts": 1285,
+    "text": "So by diversifying globally, we're really getting at just that broader swath of natural"
+  },
+  {
+    "speaker": 1,
+    "ts": 1293,
+    "text": "resources exposure."
+  },
+  {
+    "speaker": 1,
+    "ts": 1294,
+    "text": "So just out of curiosity on the active side, is there a point in your process where it"
+  },
+  {
+    "speaker": 1,
+    "ts": 1302,
+    "text": "sounds like to me you're trying to get as correlated as exposure as you can using actual"
+  },
+  {
+    "speaker": 1,
+    "ts": 1308,
+    "text": "companies to get this commodity exposure instead of just going out and buying futures?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1313,
+    "text": "Is there any part of your process that you're looking at the fundamentals of a company and"
+  },
+  {
+    "speaker": 1,
+    "ts": 1318,
+    "text": "saying, hey, we don't want to own this company even though it gives us the exposure?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1324,
+    "text": "Absolutely."
+  },
+  {
+    "speaker": 1,
+    "ts": 1325,
+    "text": "So the way we actually do our active management, because as you point out as an actively managed"
+  },
+  {
+    "speaker": 1,
+    "ts": 1331,
+    "text": "fund, is we leverage a systematic data-driven quantitative process to do our portfolio construction."
+  },
+  {
+    "speaker": 1,
+    "ts": 1340,
+    "text": "But it's all very much rooted in common sense fundamentals."
+  },
+  {
+    "speaker": 1,
+    "ts": 1345,
+    "text": "The term that used to get used was quantum mental."
+  },
+  {
+    "speaker": 1,
+    "ts": 1347,
+    "text": "It's fallen out of favor, but that's the style of it."
+  },
+  {
+    "speaker": 1,
+    "ts": 1351,
+    "text": "So it's leveraging our expertise in commodities and our background as really fundamentals"
+  },
+  {
+    "speaker": 1,
+    "ts": 1357,
+    "text": "commodities people, along with my background that's more quantitative, technical, systematic."
+  },
+  {
+    "speaker": 1,
+    "ts": 1364,
+    "text": "And what we're doing is we're using a number of different what we call portfolio drivers"
+  },
+  {
+    "speaker": 1,
+    "ts": 1370,
+    "text": "or models."
+  },
+  {
+    "speaker": 1,
+    "ts": 1371,
+    "text": "Each one is looking at a single factor."
+  },
+  {
+    "speaker": 1,
+    "ts": 1375,
+    "text": "And some might be operating at a sector level to overweight or underweight sectors."
+  },
+  {
+    "speaker": 1,
+    "ts": 1379,
+    "text": "Some might be operating at an individual company level or an industry level within sectors."
+  },
+  {
+    "speaker": 1,
+    "ts": 1385,
+    "text": "So a couple examples that might make it a little more clear."
+  },
+  {
+    "speaker": 1,
+    "ts": 1389,
+    "text": "We'll look at things like the term structure in the futures markets on a sector level."
+  },
+  {
+    "speaker": 1,
+    "ts": 1394,
+    "text": "That's the futures term structure that's telling you something about supply and demand in those"
+  },
+  {
+    "speaker": 1,
+    "ts": 1400,
+    "text": "futures markets."
+  },
+  {
+    "speaker": 1,
+    "ts": 1401,
+    "text": "We'll translate that over and say, OK, all else being equal, if something like the energy"
+  },
+  {
+    "speaker": 1,
+    "ts": 1406,
+    "text": "sector is showing a lot of what we call backwardation or a tight market where supply and demand"
+  },
+  {
+    "speaker": 1,
+    "ts": 1413,
+    "text": "are mismatched in the favor of demand, outstripping, supply, all else being equal, we'd want to"
+  },
+  {
+    "speaker": 1,
+    "ts": 1420,
+    "text": "own more energy companies in our portfolio and less of the other sectors."
+  },
+  {
+    "speaker": 1,
+    "ts": 1425,
+    "text": "But then we might look within energy companies and look within, let's say, E&P companies"
+  },
+  {
+    "speaker": 1,
+    "ts": 1430,
+    "text": "and look at the extraction margins of each company and say, all else being equal, we'd"
+  },
+  {
+    "speaker": 1,
+    "ts": 1435,
+    "text": "prefer to own companies that can extract oil and gas out of the ground more cheaply than"
+  },
+  {
+    "speaker": 1,
+    "ts": 1440,
+    "text": "their competitors."
+  },
+  {
+    "speaker": 1,
+    "ts": 1441,
+    "text": "And so we'll say we want to have more exposure to those single names that are getting better"
+  },
+  {
+    "speaker": 1,
+    "ts": 1446,
+    "text": "margins and less exposure to the names with worse margins."
+  },
+  {
+    "speaker": 1,
+    "ts": 1449,
+    "text": "And we do that across a number of different factors, roughly 25 or so."
+  },
+  {
+    "speaker": 1,
+    "ts": 1454,
+    "text": "We're always looking to improve those, add new ones, take ones away when they no longer"
+  },
+  {
+    "speaker": 1,
+    "ts": 1460,
+    "text": "are adding alpha to the process."
+  },
+  {
+    "speaker": 1,
+    "ts": 1462,
+    "text": "But that's sort of the active management process."
+  },
+  {
+    "speaker": 1,
+    "ts": 1464,
+    "text": "The collection of, we think, sort of unique factors that we're looking at leveraging our"
+  },
+  {
+    "speaker": 1,
+    "ts": 1471,
+    "text": "expertise in commodities markets just applied systematically because when you have to practically"
+  },
+  {
+    "speaker": 1,
+    "ts": 1477,
+    "text": "manage a portfolio of 300 or more names, it kind of lends itself to that type of approach."
+  },
+  {
+    "speaker": 1,
+    "ts": 1484,
+    "text": "So with CCNR, it carries a lower beta than broader equities and a lower correlation to"
+  },
+  {
+    "speaker": 1,
+    "ts": 1489,
+    "text": "the S&P."
+  },
+  {
+    "speaker": 1,
+    "ts": 1490,
+    "text": "So I'm an advisor listening to this, and I've got a diversified model portfolio."
+  },
+  {
+    "speaker": 1,
+    "ts": 1494,
+    "text": "Like, two-parter, what's the case for having commodities exposure period?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1500,
+    "text": "And how would you use this fund in a diversified model portfolio?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1505,
+    "text": "Absolutely."
+  },
+  {
+    "speaker": 1,
+    "ts": 1506,
+    "text": "So the case for commodities exposure, right now, let's split that into the tactical case"
+  },
+  {
+    "speaker": 1,
+    "ts": 1513,
+    "text": "versus the strategic case."
+  },
+  {
+    "speaker": 1,
+    "ts": 1515,
+    "text": "We do think there is value in having a strategic allocation, mainly, again, for that diversified"
+  },
+  {
+    "speaker": 1,
+    "ts": 1520,
+    "text": "diversification and inflation sensitivity."
+  },
+  {
+    "speaker": 1,
+    "ts": 1522,
+    "text": "When you look at the things that are typically used for inflation sensitivity in a portfolio,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1529,
+    "text": "you're thinking commodities and natural resources, EM exposure, tips, those sorts of things,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1540,
+    "text": "the sensitivity to inflation is highest amongst commodities and natural resources by a wide"
+  },
+  {
+    "speaker": 1,
+    "ts": 1545,
+    "text": "margin."
+  },
+  {
+    "speaker": 1,
+    "ts": 1546,
+    "text": "That's important because if you have something that has a beta to inflation of five or six,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1554,
+    "text": "that means every dollar you put in your portfolio into that thing is going to cover an additional"
+  },
+  {
+    "speaker": 1,
+    "ts": 1560,
+    "text": "four or five dollars of exposure elsewhere, right?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1562,
+    "text": "And that's the idea, is you want to put the most inflation sensitive thing in because"
+  },
+  {
+    "speaker": 1,
+    "ts": 1568,
+    "text": "you're not going to own 100% of your portfolio in these things, you're trying to get the"
+  },
+  {
+    "speaker": 1,
+    "ts": 1573,
+    "text": "most bang for your buck through that high inflation sensitivity."
+  },
+  {
+    "speaker": 1,
+    "ts": 1577,
+    "text": "So that's where we see it being used."
+  },
+  {
+    "speaker": 1,
+    "ts": 1581,
+    "text": "Some advisors and end users have real assets buckets."
+  },
+  {
+    "speaker": 1,
+    "ts": 1586,
+    "text": "It fits nicely as a part of a real assets bucket."
+  },
+  {
+    "speaker": 1,
+    "ts": 1590,
+    "text": "But also, in the case of CCNR, I think it's important to keep in mind, they're not commodity"
+  },
+  {
+    "speaker": 1,
+    "ts": 1596,
+    "text": "futures, strictly speaking, they're equities."
+  },
+  {
+    "speaker": 1,
+    "ts": 1599,
+    "text": "And we think that they have a place sort of in your overall equity allocation as opposed"
+  },
+  {
+    "speaker": 1,
+    "ts": 1603,
+    "text": "to just a small sliver of a sliver of a real assets allocation."
+  },
+  {
+    "speaker": 1,
+    "ts": 1608,
+    "text": "Obviously, you take that with a grain of salt coming from me, but that is where we do see"
+  },
+  {
+    "speaker": 1,
+    "ts": 1614,
+    "text": "a good fit, like we talked about earlier, just trying to diversify that really tech-heavy"
+  },
+  {
+    "speaker": 1,
+    "ts": 1618,
+    "text": "broad equity you have because, again, the strategic case is diversification inflation"
+  },
+  {
+    "speaker": 1,
+    "ts": 1623,
+    "text": "protection."
+  },
+  {
+    "speaker": 1,
+    "ts": 1624,
+    "text": "The tactical case I think is really interesting these days is potentially a way to gain exposure"
+  },
+  {
+    "speaker": 1,
+    "ts": 1631,
+    "text": "to what's happening with infrastructure, AI, nearshoring and on-shoring trends, military"
+  },
+  {
+    "speaker": 1,
+    "ts": 1638,
+    "text": "spending and rearmament."
+  },
+  {
+    "speaker": 1,
+    "ts": 1641,
+    "text": "There's a lot of tailwinds to this asset class right now."
+  },
+  {
+    "speaker": 1,
+    "ts": 1647,
+    "text": "But we haven't really seen the investment dollars flow into it."
+  },
+  {
+    "speaker": 1,
+    "ts": 1650,
+    "text": "And like we talked about earlier, we haven't seen the CAPEX on the company side being"
+  },
+  {
+    "speaker": 1,
+    "ts": 1653,
+    "text": "spent like we've seen the CAPEX of the hyperscalers and things."
+  },
+  {
+    "speaker": 1,
+    "ts": 1657,
+    "text": "So these companies haven't ramped up spending in reaction to things like AI."
+  },
+  {
+    "speaker": 1,
+    "ts": 1663,
+    "text": "But they do stand to benefit greatly if all this infrastructure ends up getting built."
+  },
+  {
+    "speaker": 1,
+    "ts": 1667,
+    "text": "So from a tactical standpoint, we think it's a really interesting time and we see the risk"
+  },
+  {
+    "speaker": 1,
+    "ts": 1673,
+    "text": "and reward really being skewed less to the downside, I would say, because you haven't"
+  },
+  {
+    "speaker": 1,
+    "ts": 1680,
+    "text": "seen these companies doubling down on all this spending."
+  },
+  {
+    "speaker": 1,
+    "ts": 1683,
+    "text": "They've sort of just been sitting, enjoying good margins and we think investors are starting"
+  },
+  {
+    "speaker": 1,
+    "ts": 1688,
+    "text": "to take notice."
+  },
+  {
+    "speaker": 1,
+    "ts": 1690,
+    "text": "Well, Doug, I really appreciate you being here with me today."
+  },
+  {
+    "speaker": 1,
+    "ts": 1694,
+    "text": "But before I let you go, where can people learn more about core commodity and your CCNR"
+  },
+  {
+    "speaker": 1,
+    "ts": 1698,
+    "text": "ETF?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1699,
+    "text": "Absolutely."
+  },
+  {
+    "speaker": 1,
+    "ts": 1700,
+    "text": "More about the ETF, you can definitely find on our partners, the Alps Funds website and"
+  },
+  {
+    "speaker": 1,
+    "ts": 1706,
+    "text": "the CCNR page there."
+  },
+  {
+    "speaker": 1,
+    "ts": 1708,
+    "text": "We also have a website, corecommodityllc.com, that people can go to and take a look as well."
+  },
+  {
+    "speaker": 1,
+    "ts": 1713,
+    "text": "Well, again, thanks for being with me today, Doug."
+  },
+  {
+    "speaker": 1,
+    "ts": 1716,
+    "text": "I really appreciate it, Brad."
+  },
+  {
+    "speaker": 1,
+    "ts": 1717,
+    "text": "Thank you for having me."
+  }
+]

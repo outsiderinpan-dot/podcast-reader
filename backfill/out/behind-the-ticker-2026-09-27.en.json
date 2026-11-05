@@ -1,0 +1,1752 @@
+[
+  {
+    "speaker": 1,
+    "ts": 0,
+    "text": "Welcome to Behind the Ticker, the podcast where we go beyond the symbol and into the"
+  },
+  {
+    "speaker": 1,
+    "ts": 9,
+    "text": "strategy."
+  },
+  {
+    "speaker": 1,
+    "ts": 10,
+    "text": "I'm Brad Roth, founder and chief investment officer at Thor Funds, and in each episode,"
+  },
+  {
+    "speaker": 1,
+    "ts": 16,
+    "text": "I sit down with ETF managers, CIOs, and industry leaders to break down how these funds are"
+  },
+  {
+    "speaker": 1,
+    "ts": 23,
+    "text": "actually built, how they behave in real markets, and how advisors use them in real portfolios."
+  },
+  {
+    "speaker": 1,
+    "ts": 29,
+    "text": "Most people just see a ticker symbol, but we know much more goes on behind the ticker."
+  },
+  {
+    "speaker": 1,
+    "ts": 36,
+    "text": "Hey, Kevin, welcome back to the show."
+  },
+  {
+    "speaker": 1,
+    "ts": 43,
+    "text": "Hey, Brad."
+  },
+  {
+    "speaker": 1,
+    "ts": 44,
+    "text": "Good to see you again."
+  },
+  {
+    "speaker": 1,
+    "ts": 45,
+    "text": "So before we get started, why don't you give everybody a refresher on your background?"
+  },
+  {
+    "speaker": 1,
+    "ts": 49,
+    "text": "You've been in the ETF industry going back to 1999."
+  },
+  {
+    "speaker": 1,
+    "ts": 53,
+    "text": "You founded eInvesting in 1999, which sold to eTrade, and you've collaborated with Princeton"
+  },
+  {
+    "speaker": 1,
+    "ts": 59,
+    "text": "economist Burton."
+  },
+  {
+    "speaker": 1,
+    "ts": 60,
+    "text": "I'm going to screw that up, Marle Kelly, for over 20 years."
+  },
+  {
+    "speaker": 1,
+    "ts": 65,
+    "text": "Can you walk us through how that career unfolded?"
+  },
+  {
+    "speaker": 1,
+    "ts": 67,
+    "text": "Sure."
+  },
+  {
+    "speaker": 1,
+    "ts": 68,
+    "text": "Well, so I lived in San Francisco, and I was born and raised here, and I got out of school,"
+  },
+  {
+    "speaker": 1,
+    "ts": 75,
+    "text": "and I started in 1992 at a company called Robertson Stevens, which was the leading technology"
+  },
+  {
+    "speaker": 1,
+    "ts": 79,
+    "text": "investment bank in the world in the 80s and 90s here in San Francisco."
+  },
+  {
+    "speaker": 1,
+    "ts": 86,
+    "text": "When I had my interview, they said, you can start Monday, and I said, well, I don't know"
+  },
+  {
+    "speaker": 1,
+    "ts": 91,
+    "text": "anything."
+  },
+  {
+    "speaker": 1,
+    "ts": 92,
+    "text": "How can I start Monday?"
+  },
+  {
+    "speaker": 1,
+    "ts": 93,
+    "text": "And they said, well, go get this book, A Random Walkdown Wall Street, and read it over the"
+  },
+  {
+    "speaker": 1,
+    "ts": 97,
+    "text": "weekend."
+  },
+  {
+    "speaker": 1,
+    "ts": 98,
+    "text": "So I started by reading A Random Walkdown Wall Street, which, as you know, is a book"
+  },
+  {
+    "speaker": 1,
+    "ts": 102,
+    "text": "that really set the stage for index funds."
+  },
+  {
+    "speaker": 1,
+    "ts": 104,
+    "text": "There were no index funds when the book was first written by Bert in 1973, and he laid"
+  },
+  {
+    "speaker": 1,
+    "ts": 111,
+    "text": "out in three paragraphs his idea for a new type of investment fund, which was an index"
+  },
+  {
+    "speaker": 1,
+    "ts": 116,
+    "text": "fund, which a few years later, his friend John Bogle actually launched."
+  },
+  {
+    "speaker": 1,
+    "ts": 119,
+    "text": "So that's how I started, was reading about indexing, but I'm an Omaha person first and"
+  },
+  {
+    "speaker": 1,
+    "ts": 124,
+    "text": "foremost, and when I say that, I mean a Berkshire Hathaway, Warren Buffett, Charlie Munger, wannabe"
+  },
+  {
+    "speaker": 1,
+    "ts": 131,
+    "text": "in terms of how I think about business and investing."
+  },
+  {
+    "speaker": 1,
+    "ts": 134,
+    "text": "But I started working with Bert Malkiel in 1999 when I had an idea, which was to create"
+  },
+  {
+    "speaker": 1,
+    "ts": 140,
+    "text": "fractional shared brokers, because back then you had to buy 100 shares of a stock to buy"
+  },
+  {
+    "speaker": 1,
+    "ts": 145,
+    "text": "a stock directly, and that was expensive."
+  },
+  {
+    "speaker": 1,
+    "ts": 147,
+    "text": "It was a $30 trade, and then you had to buy 100 shares, so that was like $3,000."
+  },
+  {
+    "speaker": 1,
+    "ts": 152,
+    "text": "So people were sort of stuck going into mutual funds, and so anyhow, we built an online brokerage"
+  },
+  {
+    "speaker": 1,
+    "ts": 158,
+    "text": "firm that was the first fractional shared brokerage firm, which we called eInvesting,"
+  },
+  {
+    "speaker": 1,
+    "ts": 163,
+    "text": "and we sold it to eTrade."
+  },
+  {
+    "speaker": 1,
+    "ts": 165,
+    "text": "And Bert and I then started this thing called Active Index Advisors, which was basically"
+  },
+  {
+    "speaker": 1,
+    "ts": 170,
+    "text": "the first direct indexing platform."
+  },
+  {
+    "speaker": 1,
+    "ts": 173,
+    "text": "Bert said direct indexing back then."
+  },
+  {
+    "speaker": 1,
+    "ts": 176,
+    "text": "That's a more recent description of it, but Berton was the co-founder and chief investment"
+  },
+  {
+    "speaker": 1,
+    "ts": 182,
+    "text": "officer, and we hired some iShares people and built a direct indexing platform, and"
+  },
+  {
+    "speaker": 1,
+    "ts": 188,
+    "text": "sold that to Nautixus in 2004, and about the same time that we sold the company, Berton"
+  },
+  {
+    "speaker": 1,
+    "ts": 195,
+    "text": "had started to get interested in China and had started going to China and wrote a paper"
+  },
+  {
+    "speaker": 1,
+    "ts": 199,
+    "text": "about China, and we had some investors that heard about this and called us and said,"
+  },
+  {
+    "speaker": 1,
+    "ts": 205,
+    "text": "well, we want to add some China to our portfolio, and I said, okay, well, let me try to figure"
+  },
+  {
+    "speaker": 1,
+    "ts": 210,
+    "text": "that out, and that was 20 years ago, and I'm still stuck in emerging markets in China"
+  },
+  {
+    "speaker": 1,
+    "ts": 215,
+    "text": "trying to put together the best ways for people to invest long term."
+  },
+  {
+    "speaker": 1,
+    "ts": 219,
+    "text": "And as you may not know, Bert and I partnered with Guggenheim initially on that effort"
+  },
+  {
+    "speaker": 1,
+    "ts": 226,
+    "text": "and launched a number of China ETFs, including CQQQ, which was the first China tech ETF,"
+  },
+  {
+    "speaker": 1,
+    "ts": 234,
+    "text": "which we launched in 2010."
+  },
+  {
+    "speaker": 1,
+    "ts": 236,
+    "text": "And then in 2014, I realized that all the things I saw in China with billion of new consumers"
+  },
+  {
+    "speaker": 1,
+    "ts": 243,
+    "text": "getting their first computer, which was a smartphone, and then doing everything online,"
+  },
+  {
+    "speaker": 1,
+    "ts": 247,
+    "text": "I saw that that was going to spread to other countries, and Mercado Libre, which some of"
+  },
+  {
+    "speaker": 1,
+    "ts": 253,
+    "text": "your listeners may know, that the amazon.com of Brazil was the company that I first noticed,"
+  },
+  {
+    "speaker": 1,
+    "ts": 259,
+    "text": "and I said, well, this is a lot like the China internet companies, and that led to EMQQ,"
+  },
+  {
+    "speaker": 1,
+    "ts": 264,
+    "text": "which is focused on the emerging markets internet sector and has been for the last 12 years."
+  },
+  {
+    "speaker": 1,
+    "ts": 268,
+    "text": "And now, of course, AI is the next tech wave, and we, and it's also brought emerging markets"
+  },
+  {
+    "speaker": 1,
+    "ts": 276,
+    "text": "really back into favor, because as it turns out, emerging markets are quite important"
+  },
+  {
+    "speaker": 1,
+    "ts": 281,
+    "text": "in the AI world."
+  },
+  {
+    "speaker": 1,
+    "ts": 285,
+    "text": "And so we created a new brand, EMX ETFs, to build some AI related emerging market exposure"
+  },
+  {
+    "speaker": 1,
+    "ts": 294,
+    "text": "vehicles."
+  },
+  {
+    "speaker": 1,
+    "ts": 295,
+    "text": "Yeah."
+  },
+  {
+    "speaker": 1,
+    "ts": 296,
+    "text": "And I want to talk about that."
+  },
+  {
+    "speaker": 1,
+    "ts": 297,
+    "text": "So you have a really great suite through EMQQ global."
+  },
+  {
+    "speaker": 1,
+    "ts": 301,
+    "text": "I mean, you guys, EMQQ, FMQQ, you and I talked extensively last time about INQQ."
+  },
+  {
+    "speaker": 1,
+    "ts": 308,
+    "text": "So just out of curiosity, what was the reason or the thesis behind launching an entire new"
+  },
+  {
+    "speaker": 1,
+    "ts": 315,
+    "text": "brand and not just put everything under the existing brand?"
+  },
+  {
+    "speaker": 1,
+    "ts": 318,
+    "text": "Well, to be honest, it was kind of a coin toss, and it's not clear."
+  },
+  {
+    "speaker": 1,
+    "ts": 322,
+    "text": "We won't merge the whole thing together, but the EMX ETFs are actively managed."
+  },
+  {
+    "speaker": 1,
+    "ts": 329,
+    "text": "They're done in partnership with Tidal Financial Group, which you certainly know."
+  },
+  {
+    "speaker": 1,
+    "ts": 335,
+    "text": "Some listeners may know, but this is the white label platform that's the leading white label"
+  },
+  {
+    "speaker": 1,
+    "ts": 339,
+    "text": "platform that was founded by two of my good friends."
+  },
+  {
+    "speaker": 1,
+    "ts": 343,
+    "text": "When I launched EMQQ, Tidal wasn't in the business of white labeling."
+  },
+  {
+    "speaker": 1,
+    "ts": 349,
+    "text": "So there wasn't really a lot of choices 12 years ago, but so that's the reason for the"
+  },
+  {
+    "speaker": 1,
+    "ts": 356,
+    "text": "new brand."
+  },
+  {
+    "speaker": 1,
+    "ts": 357,
+    "text": "And again, I think it's possible we'll roll them together, but we were eager to get moving"
+  },
+  {
+    "speaker": 1,
+    "ts": 363,
+    "text": "and we set it up as a separate entity with any EMQQ global."
+  },
+  {
+    "speaker": 1,
+    "ts": 369,
+    "text": "Yeah, let's get right into Tigers."
+  },
+  {
+    "speaker": 1,
+    "ts": 371,
+    "text": "TGRZ, the EMX ETF, China AI, Tigers LLM ETF launched August 26th at a high level."
+  },
+  {
+    "speaker": 1,
+    "ts": 380,
+    "text": "Can you talk about what this fund is and the problem that it's really trying to solve?"
+  },
+  {
+    "speaker": 1,
+    "ts": 384,
+    "text": "Sure. Well, if you look at AI, the best way for people to get their arms around AI and"
+  },
+  {
+    "speaker": 1,
+    "ts": 390,
+    "text": "what's happening is to use the five-layer cake metaphor that Jensen Wong has popularized"
+  },
+  {
+    "speaker": 1,
+    "ts": 398,
+    "text": "or the five-layer AI stack."
+  },
+  {
+    "speaker": 1,
+    "ts": 400,
+    "text": "So if you look at what AI is, there's basically five layers."
+  },
+  {
+    "speaker": 1,
+    "ts": 404,
+    "text": "The bottom layer is power, energy, or more specifically electricity."
+  },
+  {
+    "speaker": 1,
+    "ts": 409,
+    "text": "The second layer is the chips layer."
+  },
+  {
+    "speaker": 1,
+    "ts": 413,
+    "text": "Now that's a catch-all that includes semiconductors, memory, optics, server, all of the hardware,"
+  },
+  {
+    "speaker": 1,
+    "ts": 423,
+    "text": "cables, racks, cooling, testing, all of the associated parts of the AI machinery in the"
+  },
+  {
+    "speaker": 1,
+    "ts": 432,
+    "text": "data center."
+  },
+  {
+    "speaker": 1,
+    "ts": 433,
+    "text": "And then of course the data center is sort of the third layer."
+  },
+  {
+    "speaker": 1,
+    "ts": 435,
+    "text": "So those first three layers are the infrastructure for AI."
+  },
+  {
+    "speaker": 1,
+    "ts": 442,
+    "text": "If you're a hyperscaler, they're at expense."
+  },
+  {
+    "speaker": 1,
+    "ts": 446,
+    "text": "This is one of the several questions that are trillion-dollar questions out there."
+  },
+  {
+    "speaker": 1,
+    "ts": 453,
+    "text": "One of them is, how will the hyperscalers get a return on this investment?"
+  },
+  {
+    "speaker": 1,
+    "ts": 459,
+    "text": "But if you're someone that is generating revenue from that infrastructure, it's a business"
+  },
+  {
+    "speaker": 1,
+    "ts": 466,
+    "text": "for you."
+  },
+  {
+    "speaker": 1,
+    "ts": 467,
+    "text": "You're the picks and shovels."
+  },
+  {
+    "speaker": 1,
+    "ts": 468,
+    "text": "So right now, and for several years going forward, there's going to be a lot of picks"
+  },
+  {
+    "speaker": 1,
+    "ts": 476,
+    "text": "and shovels needed."
+  },
+  {
+    "speaker": 1,
+    "ts": 478,
+    "text": "And this is where EM comes into play because it turns out, well, the main AI races between"
+  },
+  {
+    "speaker": 1,
+    "ts": 485,
+    "text": "China and the United States, the people that are most important in terms of the hardware,"
+  },
+  {
+    "speaker": 1,
+    "ts": 491,
+    "text": "the chips, are in Korea and Taiwan."
+  },
+  {
+    "speaker": 1,
+    "ts": 495,
+    "text": "And so those are the first three layers."
+  },
+  {
+    "speaker": 1,
+    "ts": 497,
+    "text": "Now on top of that infrastructure, the layer four is the models, the large language models,"
+  },
+  {
+    "speaker": 1,
+    "ts": 505,
+    "text": "which is what Jensen calls the magic layer."
+  },
+  {
+    "speaker": 1,
+    "ts": 508,
+    "text": "These are the real AI companies, if you will."
+  },
+  {
+    "speaker": 1,
+    "ts": 511,
+    "text": "We of course, in the US, we have Anthropic and Claude."
+  },
+  {
+    "speaker": 1,
+    "ts": 515,
+    "text": "We have OpenAI and ChatGPT, Google and Gemini, and there's several others out there."
+  },
+  {
+    "speaker": 1,
+    "ts": 521,
+    "text": "But those are the big three, let's say."
+  },
+  {
+    "speaker": 1,
+    "ts": 524,
+    "text": "Well, China, as some of your listeners know, has their own models, and they are different"
+  },
+  {
+    "speaker": 1,
+    "ts": 532,
+    "text": "than our models."
+  },
+  {
+    "speaker": 1,
+    "ts": 533,
+    "text": "The main difference is that the US models are all closed models."
+  },
+  {
+    "speaker": 1,
+    "ts": 537,
+    "text": "The China models are all open weight models."
+  },
+  {
+    "speaker": 1,
+    "ts": 539,
+    "text": "And what that means is that users can download the model onto their own machines."
+  },
+  {
+    "speaker": 1,
+    "ts": 548,
+    "text": "They can tweak and customize the models, the weights, if you will."
+  },
+  {
+    "speaker": 1,
+    "ts": 555,
+    "text": "They are just as good, nearly as good as our best models."
+  },
+  {
+    "speaker": 1,
+    "ts": 561,
+    "text": "And they're a fraction of the cost."
+  },
+  {
+    "speaker": 1,
+    "ts": 563,
+    "text": "In some cases, they're 90% less, and they're getting used."
+  },
+  {
+    "speaker": 1,
+    "ts": 569,
+    "text": "People don't appreciate how widely used the China Open models are now."
+  },
+  {
+    "speaker": 1,
+    "ts": 575,
+    "text": "According to many estimates, about 80% of US startups are using China models."
+  },
+  {
+    "speaker": 1,
+    "ts": 580,
+    "text": "For the reasons I describe, customizable on-premises, control your own data just as good as the"
+  },
+  {
+    "speaker": 1,
+    "ts": 588,
+    "text": "expensive models and very cost-effective."
+  },
+  {
+    "speaker": 1,
+    "ts": 595,
+    "text": "It's not just startups."
+  },
+  {
+    "speaker": 1,
+    "ts": 596,
+    "text": "Airbnb is built on top of China models."
+  },
+  {
+    "speaker": 1,
+    "ts": 600,
+    "text": "Some people probably know about the cursor acquisition, which was a big acquisition that"
+  },
+  {
+    "speaker": 1,
+    "ts": 605,
+    "text": "SpaceX made in the last couple of months."
+  },
+  {
+    "speaker": 1,
+    "ts": 608,
+    "text": "That company is built on top of China models because of the reasons I mentioned before."
+  },
+  {
+    "speaker": 1,
+    "ts": 614,
+    "text": "So the Tigers is meant to capture that layer."
+  },
+  {
+    "speaker": 1,
+    "ts": 617,
+    "text": "And the term Tigers is used in China to describe six specific models."
+  },
+  {
+    "speaker": 1,
+    "ts": 624,
+    "text": "So in China, you have the historic tech leaders like Alibaba and Tencent and Baidu, and they"
+  },
+  {
+    "speaker": 1,
+    "ts": 633,
+    "text": "have models, and mainly Alibaba's Quen model, or QN model, which is the most downloaded"
+  },
+  {
+    "speaker": 1,
+    "ts": 639,
+    "text": "model in the world in the last several months."
+  },
+  {
+    "speaker": 1,
+    "ts": 644,
+    "text": "But then you have these six companies that are described as the Tigers."
+  },
+  {
+    "speaker": 1,
+    "ts": 649,
+    "text": "And those are companies, all of which came from the same computer science lab."
+  },
+  {
+    "speaker": 1,
+    "ts": 654,
+    "text": "So Tsinghua University's computer science lab in Beijing is perhaps the best in the"
+  },
+  {
+    "speaker": 1,
+    "ts": 658,
+    "text": "world."
+  },
+  {
+    "speaker": 1,
+    "ts": 659,
+    "text": "And all six of the Tigers came from that lab."
+  },
+  {
+    "speaker": 1,
+    "ts": 662,
+    "text": "You have Z.ai, which is the largest holding of the Tigers, which was the first large language"
+  },
+  {
+    "speaker": 1,
+    "ts": 668,
+    "text": "model to ever go public anywhere in the world in Hong Kong earlier this year."
+  },
+  {
+    "speaker": 1,
+    "ts": 673,
+    "text": "You have Minimax, which was the second one to go public also in Hong Kong earlier this"
+  },
+  {
+    "speaker": 1,
+    "ts": 677,
+    "text": "year."
+  },
+  {
+    "speaker": 1,
+    "ts": 678,
+    "text": "Then you have Moonshot, which is the open model lab that created Kimmy K3."
+  },
+  {
+    "speaker": 1,
+    "ts": 685,
+    "text": "Now again, for AI followers, may remember in July, there was a lot of noise for a week,"
+  },
+  {
+    "speaker": 1,
+    "ts": 691,
+    "text": "basically, when Kimmy K3 launched, and it was nearly as good, or essentially as good"
+  },
+  {
+    "speaker": 1,
+    "ts": 696,
+    "text": "as our very best models, and again, at a fraction of the price."
+  },
+  {
+    "speaker": 1,
+    "ts": 702,
+    "text": "You also have a Step Fun."
+  },
+  {
+    "speaker": 1,
+    "ts": 705,
+    "text": "You have Baichuan AI, which is a healthcare focused model."
+  },
+  {
+    "speaker": 1,
+    "ts": 711,
+    "text": "And then you have ZeroOne.ai, which was founded by Google's former China head, Kai Fuli."
+  },
+  {
+    "speaker": 1,
+    "ts": 717,
+    "text": "So those are the Tigers, according to the official, there's no official list of these"
+  },
+  {
+    "speaker": 1,
+    "ts": 722,
+    "text": "companies, but those six."
+  },
+  {
+    "speaker": 1,
+    "ts": 725,
+    "text": "So our Tigers, the TGRZ, we're not limited to just those six."
+  },
+  {
+    "speaker": 1,
+    "ts": 730,
+    "text": "We can own Alibaba and others that have large language models, and that includes another"
+  },
+  {
+    "speaker": 1,
+    "ts": 737,
+    "text": "important company that will be part of the Tigers when it goes public, and potentially"
+  },
+  {
+    "speaker": 1,
+    "ts": 742,
+    "text": "via private investment beforehand, which the funds allowed to do, and we're exploring."
+  },
+  {
+    "speaker": 1,
+    "ts": 749,
+    "text": "And that's DeepSeek, the model that really put China on the map."
+  },
+  {
+    "speaker": 1,
+    "ts": 753,
+    "text": "And if you remember, it was only 20 months ago, January of 2025, when there was a lot"
+  },
+  {
+    "speaker": 1,
+    "ts": 760,
+    "text": "of things happening in the world back then."
+  },
+  {
+    "speaker": 1,
+    "ts": 762,
+    "text": "There was a renewed interest in emerging markets and international investing by investors"
+  },
+  {
+    "speaker": 1,
+    "ts": 769,
+    "text": "and institutional investors, but then you had the drop of DeepSeek."
+  },
+  {
+    "speaker": 1,
+    "ts": 773,
+    "text": "And remember, the investment world was already concerned about the CapEx that was going on,"
+  },
+  {
+    "speaker": 1,
+    "ts": 780,
+    "text": "and the amount of money that Anthropic and OpenAI needed, and people were concerned about"
+  },
+  {
+    "speaker": 1,
+    "ts": 786,
+    "text": "the payoff."
+  },
+  {
+    "speaker": 1,
+    "ts": 787,
+    "text": "And then this China model comes out of nowhere, and they say ours is just as good, and it"
+  },
+  {
+    "speaker": 1,
+    "ts": 792,
+    "text": "only cost us six and a half million dollars."
+  },
+  {
+    "speaker": 1,
+    "ts": 796,
+    "text": "And it had a significant impact, I believe, and video was down 35% on this news, and it"
+  },
+  {
+    "speaker": 1,
+    "ts": 801,
+    "text": "really threw into question whether this massive multi-trillion dollar spend was necessary."
+  },
+  {
+    "speaker": 1,
+    "ts": 808,
+    "text": "And so the reason DeepSeek isn't one of the tigers is that it was actually started by"
+  },
+  {
+    "speaker": 1,
+    "ts": 814,
+    "text": "a hedge fund."
+  },
+  {
+    "speaker": 1,
+    "ts": 815,
+    "text": "So the founder of DeepSeek was a math prodigy in China, and when he got to college, he was"
+  },
+  {
+    "speaker": 1,
+    "ts": 823,
+    "text": "already working on quantitative investment strategies using repurposed and video gaming"
+  },
+  {
+    "speaker": 1,
+    "ts": 829,
+    "text": "units that he bought, used, and then he started a hedge fund, which is done very well."
+  },
+  {
+    "speaker": 1,
+    "ts": 835,
+    "text": "And because, again, it was a quantitative hedge fund, they had a lot of Nvidia chips,"
+  },
+  {
+    "speaker": 1,
+    "ts": 839,
+    "text": "and he had a small team on the side develop this model, and now it's become a major player."
+  },
+  {
+    "speaker": 1,
+    "ts": 848,
+    "text": "And they just raised their first round of funding in the last two months, which was"
+  },
+  {
+    "speaker": 1,
+    "ts": 853,
+    "text": "a $7 billion A round, and the founder himself put in $3 billion."
+  },
+  {
+    "speaker": 1,
+    "ts": 857,
+    "text": "So what you're going to see in the next six months, and in fact, it's timely because"
+  },
+  {
+    "speaker": 1,
+    "ts": 863,
+    "text": "Moonshot, again, the model behind Kimmy, they just filed to do an IPO in Hong Kong this"
+  },
+  {
+    "speaker": 1,
+    "ts": 869,
+    "text": "morning or last night in Hong Kong, maybe by the end of this year or early next year."
+  },
+  {
+    "speaker": 1,
+    "ts": 874,
+    "text": "DeepSeek also is actively pursuing an IPO."
+  },
+  {
+    "speaker": 1,
+    "ts": 878,
+    "text": "So you're going to see these models hit the tape, if you will."
+  },
+  {
+    "speaker": 1,
+    "ts": 883,
+    "text": "And then the other thing you're going to continue to see is this competition between our leading"
+  },
+  {
+    "speaker": 1,
+    "ts": 888,
+    "text": "closed models, Anthropoc and OpenAI, which are both going to go public themselves,"
+  },
+  {
+    "speaker": 1,
+    "ts": 893,
+    "text": "right? And that's going to get a lot of coverage."
+  },
+  {
+    "speaker": 1,
+    "ts": 897,
+    "text": "But they're competing, and they're competing in the United States."
+  },
+  {
+    "speaker": 1,
+    "ts": 901,
+    "text": "And you saw a couple of months ago, there was some talk from the incumbents about maybe these"
+  },
+  {
+    "speaker": 1,
+    "ts": 909,
+    "text": "models, these open models are dangerous. Maybe we shouldn't allow these China open models."
+  },
+  {
+    "speaker": 1,
+    "ts": 916,
+    "text": "And the rest of the technology industry rebuked them. Sacha Nadella quite actively said,"
+  },
+  {
+    "speaker": 1,
+    "ts": 924,
+    "text": "look, that's not the way it works. These are great models. And that they were going to, in fact,"
+  },
+  {
+    "speaker": 1,
+    "ts": 929,
+    "text": "start employing DeepSeek themselves in their offerings. And that's continued to develop."
+  },
+  {
+    "speaker": 1,
+    "ts": 937,
+    "text": "There was a letter penned by Jensen Wong a few weeks ago during this public discourse about this."
+  },
+  {
+    "speaker": 1,
+    "ts": 945,
+    "text": "It was Jensen Wong wrote it over a weekend. He got, I think, 50 or 60 other tech CEOs to sign"
+  },
+  {
+    "speaker": 1,
+    "ts": 951,
+    "text": "the letter. It was his first tweet, apparently ever. And so this is going to continue, this"
+  },
+  {
+    "speaker": 1,
+    "ts": 958,
+    "text": "open model versus US closed model race. This morning, you see the news about hugging face"
+  },
+  {
+    "speaker": 1,
+    "ts": 966,
+    "text": "being acquired by NVIDIA. Hugging face, sort of the clearing chaos, if you will, for these models."
+  },
+  {
+    "speaker": 1,
+    "ts": 974,
+    "text": "And you've also seen reports that Moonshot is in active discussions with all of our leading"
+  },
+  {
+    "speaker": 1,
+    "ts": 979,
+    "text": "cloud providers for a revenue sharing deal. So this story is really just getting started with"
+  },
+  {
+    "speaker": 1,
+    "ts": 986,
+    "text": "the Tigers. Yeah, no. You've covered a lot there. And one of the things, I don't know how much you"
+  },
+  {
+    "speaker": 1,
+    "ts": 993,
+    "text": "are utilizing some of these models. I am an early adopter of all of them. I've basically"
+  },
+  {
+    "speaker": 1,
+    "ts": 1001,
+    "text": "started just testing with a lot of these things. It's actually interesting. The Kimmy K3 models"
+  },
+  {
+    "speaker": 1,
+    "ts": 1009,
+    "text": "seem to want to, when you give them something to do, they seem to want to go and actually do it."
+  },
+  {
+    "speaker": 1,
+    "ts": 1014,
+    "text": "It almost seems like our closed end models seem to want to keep your attention. And they don't,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1019,
+    "text": "yes, they perform, I would say, better, but it takes more of your time sometimes. And that's"
+  },
+  {
+    "speaker": 1,
+    "ts": 1025,
+    "text": "just something I've noticed that some of these open models or some of these Chinese models"
+  },
+  {
+    "speaker": 1,
+    "ts": 1029,
+    "text": "seem to take less of your time and do more work rather than you having to interact with this"
+  },
+  {
+    "speaker": 1,
+    "ts": 1034,
+    "text": "interface so much and so often. So very interesting stuff. And I think it's odd that this is all just"
+  },
+  {
+    "speaker": 1,
+    "ts": 1044,
+    "text": "getting started. But let's get back to Tigers, because I want to understand some of the things that"
+  },
+  {
+    "speaker": 1,
+    "ts": 1051,
+    "text": "could possibly end up in this fund later on. So right now, it's all models. Could you see"
+  },
+  {
+    "speaker": 1,
+    "ts": 1057,
+    "text": "as this, I should say all emerging market models, could you see that investment thesis"
+  },
+  {
+    "speaker": 1,
+    "ts": 1063,
+    "text": "expanding as the story changes, or would that be a totally different ETF?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1067,
+    "text": "No, we actually have seven different ETFs registered and effective. And the initial plan,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1079,
+    "text": "to be frank with you, was to make EMIQ, the Broad Emerging Markets AI Portrait,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1086,
+    "text": "sort of like an EMQQ for AI. And that's still one of the things we plan on launching. But that's"
+  },
+  {
+    "speaker": 1,
+    "ts": 1094,
+    "text": "a full stack emerging markets. And again, that was the first plan. But then our partners at"
+  },
+  {
+    "speaker": 1,
+    "ts": 1106,
+    "text": "Tidal said, well, why don't we take that stack, because there's a lot of little pieces in that"
+  },
+  {
+    "speaker": 1,
+    "ts": 1111,
+    "text": "stack that are the models, for example, but there's also GPUs, the NVIDIA competitors that are"
+  },
+  {
+    "speaker": 1,
+    "ts": 1120,
+    "text": "coming out of China, which there's four, two of which were founded by former NVIDIA people. And"
+  },
+  {
+    "speaker": 1,
+    "ts": 1127,
+    "text": "one was founded by the former head of China's business for AMD. There's the optics and lithography,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1135,
+    "text": "another layer where China sort of dominates. So we have full stack coming, but then we have"
+  },
+  {
+    "speaker": 1,
+    "ts": 1144,
+    "text": "pieces like the Tiger. So there will be one solution that owns all the parts of AI, and then"
+  },
+  {
+    "speaker": 1,
+    "ts": 1151,
+    "text": "several that are pieces of that, layers of the stack, if you will."
+  },
+  {
+    "speaker": 1,
+    "ts": 1156,
+    "text": "Just out of curiosity, I've had a couple of ETFs on the show that got early exposure to"
+  },
+  {
+    "speaker": 1,
+    "ts": 1163,
+    "text": "SpaceX while it was still private. Is that something that's a possibility in China with"
+  },
+  {
+    "speaker": 1,
+    "ts": 1167,
+    "text": "some of these things like Deep Sheik and Moonshot that aren't yet live? Are you able to"
+  },
+  {
+    "speaker": 1,
+    "ts": 1174,
+    "text": "through intermediaries get exposure there, or do you just have to wait?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1178,
+    "text": "Well, per the prospectus, we are like a lot of other ETFs these days able to put up to 15%"
+  },
+  {
+    "speaker": 1,
+    "ts": 1184,
+    "text": "into privates. And we are actively exploring that. Now, the Tiger has just launched a week ago, so"
+  },
+  {
+    "speaker": 1,
+    "ts": 1193,
+    "text": "we'll have to grow the asset base a bit. But I think it is absolutely possible. And"
+  },
+  {
+    "speaker": 1,
+    "ts": 1200,
+    "text": "it turns out having been involved with China and emerging markets for 20 years,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1208,
+    "text": "one of the best things I did 20 years ago when I got started was I"
+  },
+  {
+    "speaker": 1,
+    "ts": 1212,
+    "text": "I hired about 10 Chinese MBA students here in the Bay Area and had them work as analysts for me."
+  },
+  {
+    "speaker": 1,
+    "ts": 1221,
+    "text": "And I became very good friends with some of them. And some of them have now worked their way up into"
+  },
+  {
+    "speaker": 1,
+    "ts": 1226,
+    "text": "senior roles in investment banking in China. And so I know who to call"
+  },
+  {
+    "speaker": 1,
+    "ts": 1233,
+    "text": "once we're ready to put some money to work in that fashion. So we're absolutely looking at that."
+  },
+  {
+    "speaker": 1,
+    "ts": 1239,
+    "text": "Right now, it's a little premature, but it has been part of our thinking from the beginning."
+  },
+  {
+    "speaker": 1,
+    "ts": 1243,
+    "text": "And why we wanted to get the, as narrow as the fund is now, we wanted to get it out there so we"
+  },
+  {
+    "speaker": 1,
+    "ts": 1249,
+    "text": "could try to get that pre-IPO exposure to companies like Moonshot and DeepSeek in particular."
+  },
+  {
+    "speaker": 1,
+    "ts": 1256,
+    "text": "So as you said earlier, you're a Buffeteer. You've always been kind of an active value"
+  },
+  {
+    "speaker": 1,
+    "ts": 1261,
+    "text": "investor first. How does that value lens actually show up in a fund built around such"
+  },
+  {
+    "speaker": 1,
+    "ts": 1267,
+    "text": "frontier technology like AI models? Well, I don't know that it does. I mean,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1272,
+    "text": "I'm a businessman also. And to be very clear, the China, and this is probably the case with all"
+  },
+  {
+    "speaker": 1,
+    "ts": 1281,
+    "text": "large language models, including Anthropic and OpenAI, but these aren't making any money. These"
+  },
+  {
+    "speaker": 1,
+    "ts": 1287,
+    "text": "are not companies that are profitable. There's lots of question marks about if and when they will"
+  },
+  {
+    "speaker": 1,
+    "ts": 1295,
+    "text": "be profitable. How profitable can they be? There are a lot of people that I trust that have,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1306,
+    "text": "perhaps agree with as well, that there's going to be a lot of commoditization of the models and that"
+  },
+  {
+    "speaker": 1,
+    "ts": 1315,
+    "text": "it's going to be hard for them to have a moat and hold pricing power. And so now,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1321,
+    "text": "I guess important in that calculation, though, is that it's the open AI, the closed models that"
+  },
+  {
+    "speaker": 1,
+    "ts": 1328,
+    "text": "I think are the ones trying to develop that moat that are the ones most at risk. The open models,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1333,
+    "text": "I think, are going to rely on other revenue streams and ways to make money with their lower"
+  },
+  {
+    "speaker": 1,
+    "ts": 1341,
+    "text": "cost model. So I think that this is not an Omaha investment today. It's certainly not the tiger's"
+  },
+  {
+    "speaker": 1,
+    "ts": 1348,
+    "text": "part of it. They could end up becoming some of the most important companies in the world."
+  },
+  {
+    "speaker": 1,
+    "ts": 1353,
+    "text": "But obviously, right now, OpenAI and Anthropic are two of the most important companies in the"
+  },
+  {
+    "speaker": 1,
+    "ts": 1360,
+    "text": "world, but they're not profitable companies. And ultimately, in Omaha, investing is really"
+  },
+  {
+    "speaker": 1,
+    "ts": 1364,
+    "text": "simple. The reason companies have value is because they make profits for the owners of the company."
+  },
+  {
+    "speaker": 1,
+    "ts": 1370,
+    "text": "And the only way to grow that value is to grow the profits. And these companies are growing their"
+  },
+  {
+    "speaker": 1,
+    "ts": 1375,
+    "text": "revenue. Hopefully, they'll get into cash flow and earnings profitable mode. But right now,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1385,
+    "text": "I'd say this is a highly speculative part of the market. Now, there are other parts of the stack,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1392,
+    "text": "the AI stack, where I think there is value. And that's, right now, one of the other funds"
+  },
+  {
+    "speaker": 1,
+    "ts": 1403,
+    "text": "that we've registered, again, a very narrow fund is called the MAG3, the emerging markets AI MAG3,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1411,
+    "text": "or EMAG, and it which hasn't launched. But because what happened with me,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1418,
+    "text": "obviously, having been focused on tech and China and emerging markets for 20 years,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1423,
+    "text": "it was very natural for me to be early in thinking about AI and how it was shaping things."
+  },
+  {
+    "speaker": 1,
+    "ts": 1430,
+    "text": "And the thing that every investor saw, and I don't think they quite appreciate how big it is,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1437,
+    "text": "but emerging markets in the last 20 months since January of last year, they've outperformed the"
+  },
+  {
+    "speaker": 1,
+    "ts": 1442,
+    "text": "S&P by a decent amount. But there's basically three companies that are making all the money"
+  },
+  {
+    "speaker": 1,
+    "ts": 1450,
+    "text": "and providing all the return for investors. And those three, the MAG3, TSMC, Taiwan Semiconductor,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1458,
+    "text": "which is perhaps the most important company in the world, it may not be the highest"
+  },
+  {
+    "speaker": 1,
+    "ts": 1462,
+    "text": "market cap, but they make all of the chips for basically everybody, including at Vidya and Apple,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1468,
+    "text": "etc. So TSMC, and then you have the memory leaders, Samsung and Hynix. And those three"
+  },
+  {
+    "speaker": 1,
+    "ts": 1476,
+    "text": "companies combined are now 33% of the index. I mean, it's the most concentrated broad market index"
+  },
+  {
+    "speaker": 1,
+    "ts": 1486,
+    "text": "maybe ever. There's single country ETFs that are highly concentrated because they don't have that"
+  },
+  {
+    "speaker": 1,
+    "ts": 1492,
+    "text": "many companies. But this is very concentrated. It's significantly more concentrated than our"
+  },
+  {
+    "speaker": 1,
+    "ts": 1498,
+    "text": "market. And those three companies have also provided 80% of the return of emerging markets."
+  },
+  {
+    "speaker": 1,
+    "ts": 1508,
+    "text": "So emerging markets have done great, but it's been almost exclusively those three companies."
+  },
+  {
+    "speaker": 1,
+    "ts": 1515,
+    "text": "That have driven it. And it's wreaked havoc in the emerging markets, but positive havoc and"
+  },
+  {
+    "speaker": 1,
+    "ts": 1520,
+    "text": "negative havoc. So consider this. Since last January, again, 20 months ago, the MSCI Emerging"
+  },
+  {
+    "speaker": 1,
+    "ts": 1529,
+    "text": "Market Index, which is what I shares emerging market ETFs track, is up, I'm going to round these"
+  },
+  {
+    "speaker": 1,
+    "ts": 1536,
+    "text": "numbers, but call it 65%. The Vanguard Emerging Market ETF, which is the largest, it tracks the"
+  },
+  {
+    "speaker": 1,
+    "ts": 1544,
+    "text": "FTSE index. It's only up 30% in that same period. Why? Because the FTSE index doesn't own Korea."
+  },
+  {
+    "speaker": 1,
+    "ts": 1554,
+    "text": "And so people have known about that and it never seemed like it was that big of a deal. Korea wasn't"
+  },
+  {
+    "speaker": 1,
+    "ts": 1561,
+    "text": "that large of a market relative to the other emerging markets. But that one difference has led to"
+  },
+  {
+    "speaker": 1,
+    "ts": 1569,
+    "text": "a massive difference between the Vanguard Emerging Market ETF and the other MSCI related"
+  },
+  {
+    "speaker": 1,
+    "ts": 1580,
+    "text": "funds. Now, the other thing about the MAG-3, though, we have all these concerns"
+  },
+  {
+    "speaker": 1,
+    "ts": 1586,
+    "text": "about the CAPEX. How are we going to make any money? The hyperscalers are now cash flow negative."
+  },
+  {
+    "speaker": 1,
+    "ts": 1594,
+    "text": "They're tapping the debt markets. This is one of these trillion dollar questions I've talked to"
+  },
+  {
+    "speaker": 1,
+    "ts": 1599,
+    "text": "you about, right? Well, on the flip side of that, the MAG-3 are making so much money, it's hard for"
+  },
+  {
+    "speaker": 1,
+    "ts": 1607,
+    "text": "one to get your arms around. So between 2026, this year and next year, 2027, those three companies"
+  },
+  {
+    "speaker": 1,
+    "ts": 1615,
+    "text": "are expected to make 965 billion, 965 billion of profits. How much is that? In the entire"
+  },
+  {
+    "speaker": 1,
+    "ts": 1627,
+    "text": "history of Berkshire Hathaway, they have not made that much money. In Amazon's 30-plus years of"
+  },
+  {
+    "speaker": 1,
+    "ts": 1635,
+    "text": "existence, these companies are going to make three times as much as Amazon's made ever, right? So now,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1644,
+    "text": "the valuation is getting back to Omaha. If you look at those companies today,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1651,
+    "text": "in particular, Hynix and Samsung, their PE ratios, what do you think the PE ratio is for"
+  },
+  {
+    "speaker": 1,
+    "ts": 1661,
+    "text": "Hynix? I don't know. I'm going to guess. I'm going to say 58."
+  },
+  {
+    "speaker": 1,
+    "ts": 1667,
+    "text": "Three and a half. Oh, that's compelling."
+  },
+  {
+    "speaker": 1,
+    "ts": 1674,
+    "text": "Collectively, the MAG-3 have a PE ratio under five. There's multiple reasons. I mean, there's"
+  },
+  {
+    "speaker": 1,
+    "ts": 1688,
+    "text": "this fear that these are cyclical businesses, right? And they have been historically,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1697,
+    "text": "right? Micron in the US has been a boom and bust kind of operation. And the question, though,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1704,
+    "text": "is this a cyclical thing or a secular thing? And I think you'd have to say it's a secular thing."
+  },
+  {
+    "speaker": 1,
+    "ts": 1711,
+    "text": "Now, there's definitely competition coming, right? You see, you know, Amazon selling chips,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1718,
+    "text": "Google selling, a lot of people are getting into the chip business. So there is that element. And"
+  },
+  {
+    "speaker": 1,
+    "ts": 1723,
+    "text": "then there's a question about whether there will be new forms of memory that are better suited for AI."
+  },
+  {
+    "speaker": 1,
+    "ts": 1730,
+    "text": "But as of right now, I think people would be a little surprised. I mean, I just started asking"
+  },
+  {
+    "speaker": 1,
+    "ts": 1736,
+    "text": "people what they thought the PE was last week. And first reaction I got was 90 is what the PE was."
+  },
+  {
+    "speaker": 1,
+    "ts": 1743,
+    "text": "But it's three and a half. Kevin, though, with those, so I guess the question is just staying"
+  },
+  {
+    "speaker": 1,
+    "ts": 1751,
+    "text": "on these these three, is that where the bottleneck lies in this whole process? Because memory"
+  },
+  {
+    "speaker": 1,
+    "ts": 1756,
+    "text": "shortage and like in your opinion, is that what could slow this whole horse down?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1762,
+    "text": "Well, it is already slowing things down. I mean, it's not slowing down the hyperscalers,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1772,
+    "text": "but it's it's wreaking havoc amongst smaller players. I mean, there are a lot of companies"
+  },
+  {
+    "speaker": 1,
+    "ts": 1777,
+    "text": "that are small companies, not public companies necessarily, that are basically going out of"
+  },
+  {
+    "speaker": 1,
+    "ts": 1782,
+    "text": "business because that input cost of memory, in addition to being up several fold, they just"
+  },
+  {
+    "speaker": 1,
+    "ts": 1789,
+    "text": "can't get it. It's not available. I mean, there's a shortage. So that is a bottleneck. I think the"
+  },
+  {
+    "speaker": 1,
+    "ts": 1796,
+    "text": "biggest bottleneck that we may see is the power at the electricity. And we are moving ahead at a"
+  },
+  {
+    "speaker": 1,
+    "ts": 1804,
+    "text": "breakneck speed, but the power supply is not. And the all of the, you know, turbines and generators"
+  },
+  {
+    "speaker": 1,
+    "ts": 1813,
+    "text": "are sold out for years. They're resorting to recycling old retired airplanes and getting"
+  },
+  {
+    "speaker": 1,
+    "ts": 1821,
+    "text": "the engines off and turning those into power. Meanwhile, China has three times the power we"
+  },
+  {
+    "speaker": 1,
+    "ts": 1827,
+    "text": "have. And they have incredible velocity. Last year, China added more power than any country in the"
+  },
+  {
+    "speaker": 1,
+    "ts": 1834,
+    "text": "world has other than the U.S. and China. And in the last four years, they added more power than"
+  },
+  {
+    "speaker": 1,
+    "ts": 1840,
+    "text": "we have. So they've got three times the power. It's a lot cheaper. And I suspect that we will"
+  },
+  {
+    "speaker": 1,
+    "ts": 1846,
+    "text": "have a bottleneck in the U.S. I mean, there's obviously efforts to increase efficiency"
+  },
+  {
+    "speaker": 1,
+    "ts": 1853,
+    "text": "throughout the stack. But it just seems to me that that's a problem that's coming fast here."
+  },
+  {
+    "speaker": 1,
+    "ts": 1860,
+    "text": "But it's, if you compare and contrast to China versus U.S., China clearly has the lead at the"
+  },
+  {
+    "speaker": 1,
+    "ts": 1865,
+    "text": "power layer. We talked about the shortages at the chips layer. But there's also, I think,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1871,
+    "text": "going to be a shortage and a bottleneck at the optics layer because it optical,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1878,
+    "text": "basically what's happening is copper wires are getting replaced by optical connections. And"
+  },
+  {
+    "speaker": 1,
+    "ts": 1883,
+    "text": "there's a lot of reasons for that, mainly that's better and that doesn't leak as much as the copper."
+  },
+  {
+    "speaker": 1,
+    "ts": 1892,
+    "text": "So that might be another bottleneck. But I think power and continued shortages in the"
+  },
+  {
+    "speaker": 1,
+    "ts": 1899,
+    "text": "various parts of the chips layer optics is one that seems to me might be a problem. And I"
+  },
+  {
+    "speaker": 1,
+    "ts": 1906,
+    "text": "should also mention there was a, there was talk in Washington in the last month or two about"
+  },
+  {
+    "speaker": 1,
+    "ts": 1914,
+    "text": "possibly banning the Chinese optical suppliers, which I was pleased. I saw the CEO of the largest"
+  },
+  {
+    "speaker": 1,
+    "ts": 1925,
+    "text": "U.S. optical manufacturer where he was asked about this and he said, don't do it. Don't."
+  },
+  {
+    "speaker": 1,
+    "ts": 1931,
+    "text": "If you want to see shortages, take the Chinese, because they're the dominant supplier right now."
+  },
+  {
+    "speaker": 1,
+    "ts": 1937,
+    "text": "And so if you take that out, then even though this settlement is running the company that would"
+  },
+  {
+    "speaker": 1,
+    "ts": 1942,
+    "text": "benefit the most, he said, no, don't do that. Otherwise, we'll have a real bottleneck in that"
+  },
+  {
+    "speaker": 1,
+    "ts": 1948,
+    "text": "part of the stack. So, Kevin, just as we close here, just one quick question. Like, how should an"
+  },
+  {
+    "speaker": 1,
+    "ts": 1954,
+    "text": "advisor view this Tiger ZTF? To me, it seems a little bit more like thematic exposure rather"
+  },
+  {
+    "speaker": 1,
+    "ts": 1961,
+    "text": "than pure emerging markets. Like, you have that exposure with your EMQQ suite. This seems like"
+  },
+  {
+    "speaker": 1,
+    "ts": 1966,
+    "text": "pretty thematic. Is that the right way to think about it? It's absolutely thematic. I mean, again,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1970,
+    "text": "it's, I think that it's sensible for advisors to be wanting to figure out how AI is in their"
+  },
+  {
+    "speaker": 1,
+    "ts": 1978,
+    "text": "portfolios. And again, the emerging markets AI strategy that we will launch soon enough"
+  },
+  {
+    "speaker": 1,
+    "ts": 1984,
+    "text": "that will capture that. That's really a product made for advisors to just capture the AI theme"
+  },
+  {
+    "speaker": 1,
+    "ts": 1991,
+    "text": "within emerging markets. I think that these single layers, whether it's the MAG3 or the"
+  },
+  {
+    "speaker": 1,
+    "ts": 2000,
+    "text": "Tigers or the optics, these are more for active investors. And I'm sure there are advisors out"
+  },
+  {
+    "speaker": 1,
+    "ts": 2007,
+    "text": "there that are a bit more tactical. But for strategic allocations, I don't think that the"
+  },
+  {
+    "speaker": 1,
+    "ts": 2015,
+    "text": "Tigers really has a place. I think those companies have a place, but within a broader EMIQ,"
+  },
+  {
+    "speaker": 1,
+    "ts": 2023,
+    "text": "broad emerging market AI strategy. Well, Kevin, I always appreciate you coming on. I learn"
+  },
+  {
+    "speaker": 1,
+    "ts": 2028,
+    "text": "something every time. But before I can let you go, where can people learn more about the fund"
+  },
+  {
+    "speaker": 1,
+    "ts": 2032,
+    "text": "and EMX ETF? EMXETF.com is the easiest way to find out. Well, again, thanks for being here with me."
+  },
+  {
+    "speaker": 1,
+    "ts": 2042,
+    "text": "Okay, Brad. Thanks again. Great to see you. Bye."
+  }
+]

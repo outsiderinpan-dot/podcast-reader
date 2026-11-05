@@ -1,0 +1,1827 @@
+[
+  {
+    "speaker": 1,
+    "ts": 0,
+    "text": "Welcome to Behind the Ticker, the podcast where we go beyond the symbol and into the"
+  },
+  {
+    "speaker": 1,
+    "ts": 9,
+    "text": "strategy."
+  },
+  {
+    "speaker": 1,
+    "ts": 10,
+    "text": "I'm Brad Roth, founder and chief investment officer at Thor Funds, and in each episode,"
+  },
+  {
+    "speaker": 1,
+    "ts": 16,
+    "text": "I sit down with ETF managers, CIOs, and industry leaders to break down how these funds are"
+  },
+  {
+    "speaker": 1,
+    "ts": 23,
+    "text": "actually built, how they behave in real markets, and how advisors use them in real portfolios."
+  },
+  {
+    "speaker": 1,
+    "ts": 29,
+    "text": "Most people just see a ticker symbol, but we know much more goes on behind the ticker."
+  },
+  {
+    "speaker": 1,
+    "ts": 36,
+    "text": "Hey, Andrew, welcome back to the show."
+  },
+  {
+    "speaker": 1,
+    "ts": 43,
+    "text": "Hey Brad, thanks for having me back on."
+  },
+  {
+    "speaker": 1,
+    "ts": 45,
+    "text": "So for anybody who maybe missed our first conversation, it was a while ago."
+  },
+  {
+    "speaker": 1,
+    "ts": 49,
+    "text": "Can you kind of give everybody a refresher on your background, who you are, and how"
+  },
+  {
+    "speaker": 1,
+    "ts": 53,
+    "text": "you ended up here at Bend Creek?"
+  },
+  {
+    "speaker": 1,
+    "ts": 55,
+    "text": "Sure, yes."
+  },
+  {
+    "speaker": 1,
+    "ts": 57,
+    "text": "So when we first started to have our initial conversation, it was right after we launched"
+  },
+  {
+    "speaker": 1,
+    "ts": 62,
+    "text": "our ETF platform, I had spent a little over a decade with the family office in New York"
+  },
+  {
+    "speaker": 1,
+    "ts": 68,
+    "text": "and derived this unique strategy combination of fundamental analysis with data science"
+  },
+  {
+    "speaker": 1,
+    "ts": 73,
+    "text": "to kind of create this data signal processing approach to identifying structural advantage"
+  },
+  {
+    "speaker": 1,
+    "ts": 79,
+    "text": "business models for our portfolios."
+  },
+  {
+    "speaker": 1,
+    "ts": 82,
+    "text": "So we ended up launching three ETFs, PCUS, BCIL, and BCGS, which is our US international"
+  },
+  {
+    "speaker": 1,
+    "ts": 90,
+    "text": "and global ETFs using this approach."
+  },
+  {
+    "speaker": 1,
+    "ts": 94,
+    "text": "And when I came on, it was just kind of given the background, and I think we dove into the"
+  },
+  {
+    "speaker": 1,
+    "ts": 98,
+    "text": "Kelly criteria and some of the other information theory driven approaches that we used to identify"
+  },
+  {
+    "speaker": 1,
+    "ts": 104,
+    "text": "these businesses."
+  },
+  {
+    "speaker": 1,
+    "ts": 106,
+    "text": "So since we last spoke, I mean, a lot's happened, you rang the opening bell at the NISI, which"
+  },
+  {
+    "speaker": 1,
+    "ts": 110,
+    "text": "is cool, expanded the ETF platform, and now you've got this fund, which we're going to"
+  },
+  {
+    "speaker": 1,
+    "ts": 116,
+    "text": "talk about today."
+  },
+  {
+    "speaker": 1,
+    "ts": 117,
+    "text": "Can you kind of just give us a quick state of the firm today, like, what's going on?"
+  },
+  {
+    "speaker": 1,
+    "ts": 120,
+    "text": "How's it going?"
+  },
+  {
+    "speaker": 1,
+    "ts": 121,
+    "text": "What are you learning?"
+  },
+  {
+    "speaker": 1,
+    "ts": 123,
+    "text": "And just an overall update."
+  },
+  {
+    "speaker": 1,
+    "ts": 125,
+    "text": "Yeah, learning a lot."
+  },
+  {
+    "speaker": 1,
+    "ts": 127,
+    "text": "So today, as it states, I think we're a little just north of 300 million of AUM across our"
+  },
+  {
+    "speaker": 1,
+    "ts": 134,
+    "text": "four ETFs."
+  },
+  {
+    "speaker": 1,
+    "ts": 135,
+    "text": "As you mentioned, we've been launching one really close like almost every year at this"
+  },
+  {
+    "speaker": 1,
+    "ts": 139,
+    "text": "point."
+  },
+  {
+    "speaker": 1,
+    "ts": 140,
+    "text": "You know, we still think there's a lot of interesting white space opportunity in the"
+  },
+  {
+    "speaker": 1,
+    "ts": 144,
+    "text": "ETF market for actively managed ETFs."
+  },
+  {
+    "speaker": 1,
+    "ts": 147,
+    "text": "So we continue to think through what could make sense for our shareholders."
+  },
+  {
+    "speaker": 1,
+    "ts": 152,
+    "text": "So as you mentioned, we were honored to bring the Bell at the New York Stock Exchange."
+  },
+  {
+    "speaker": 1,
+    "ts": 156,
+    "text": "That was really an amazing experience."
+  },
+  {
+    "speaker": 1,
+    "ts": 160,
+    "text": "And we're looking forward to, I think this is going to be our third or fourth feature"
+  },
+  {
+    "speaker": 1,
+    "ts": 163,
+    "text": "proof in a couple of weeks."
+  },
+  {
+    "speaker": 1,
+    "ts": 165,
+    "text": "So we'll be there back to the in the ETF.oasis for anybody's watching this that shows up."
+  },
+  {
+    "speaker": 1,
+    "ts": 171,
+    "text": "Please stop by and say hi."
+  },
+  {
+    "speaker": 1,
+    "ts": 173,
+    "text": "But yeah, other than that, we're just constantly kind of refining our approach."
+  },
+  {
+    "speaker": 1,
+    "ts": 177,
+    "text": "I can't remember if we spoke about this last time, but my partner Anton Yen is our Chief"
+  },
+  {
+    "speaker": 1,
+    "ts": 182,
+    "text": "Data Scientist."
+  },
+  {
+    "speaker": 1,
+    "ts": 183,
+    "text": "And he's had a wonderful career and primarily as one of the top data scientists in the country"
+  },
+  {
+    "speaker": 1,
+    "ts": 188,
+    "text": "working at Lawrence Livermore National Laboratory, MIT and Lincoln Labs, DARPA, just a few."
+  },
+  {
+    "speaker": 1,
+    "ts": 197,
+    "text": "And we're constantly kind of going back and digging into our approach to make sure that"
+  },
+  {
+    "speaker": 1,
+    "ts": 202,
+    "text": "we're optimizing for our shareholders and investors."
+  },
+  {
+    "speaker": 1,
+    "ts": 205,
+    "text": "Well, I will see you at future proof."
+  },
+  {
+    "speaker": 1,
+    "ts": 208,
+    "text": "I will also be in the ETF.com oasis actually doing, I'm actually moderating a panel on"
+  },
+  {
+    "speaker": 1,
+    "ts": 215,
+    "text": "with a couple of ETF gatekeepers with the big, you know, big firms, like, can you let"
+  },
+  {
+    "speaker": 1,
+    "ts": 219,
+    "text": "us small guys in please?"
+  },
+  {
+    "speaker": 1,
+    "ts": 220,
+    "text": "Like, let's learn a little bit about that."
+  },
+  {
+    "speaker": 1,
+    "ts": 222,
+    "text": "So yeah, well, I'll see you there."
+  },
+  {
+    "speaker": 1,
+    "ts": 224,
+    "text": "It should be fun."
+  },
+  {
+    "speaker": 1,
+    "ts": 227,
+    "text": "Let's get into club."
+  },
+  {
+    "speaker": 1,
+    "ts": 228,
+    "text": "CLUB, it's the billionaires club ETF."
+  },
+  {
+    "speaker": 1,
+    "ts": 231,
+    "text": "You guys launched this May 5th of this year, actively managed at a high level."
+  },
+  {
+    "speaker": 1,
+    "ts": 235,
+    "text": "What's the fun?"
+  },
+  {
+    "speaker": 1,
+    "ts": 236,
+    "text": "What's the thesis?"
+  },
+  {
+    "speaker": 1,
+    "ts": 237,
+    "text": "Yeah."
+  },
+  {
+    "speaker": 1,
+    "ts": 238,
+    "text": "So as I mentioned, spent actually a little bit of 11 years with a family in New York."
+  },
+  {
+    "speaker": 1,
+    "ts": 243,
+    "text": "My primary responsibilities were direct public investing and direct private equity investing."
+  },
+  {
+    "speaker": 1,
+    "ts": 248,
+    "text": "And on the private side, actually spent a ton of time working with other large family"
+  },
+  {
+    "speaker": 1,
+    "ts": 252,
+    "text": "offices."
+  },
+  {
+    "speaker": 1,
+    "ts": 253,
+    "text": "So we've traveled around the U.S. and figure out opportunities that we could partner,"
+  },
+  {
+    "speaker": 1,
+    "ts": 258,
+    "text": "have synergies together, and work with other large families to make investments."
+  },
+  {
+    "speaker": 1,
+    "ts": 263,
+    "text": "And what I always found super interesting was hearing the back stories for how these"
+  },
+  {
+    "speaker": 1,
+    "ts": 267,
+    "text": "families generated their wealth."
+  },
+  {
+    "speaker": 1,
+    "ts": 270,
+    "text": "What was always interesting to me was that despite, in some cases, these families could"
+  },
+  {
+    "speaker": 1,
+    "ts": 275,
+    "text": "have started a company 100 years ago, 150 years ago, despite all of that, they all still"
+  },
+  {
+    "speaker": 1,
+    "ts": 280,
+    "text": "were pretty involved in these businesses."
+  },
+  {
+    "speaker": 1,
+    "ts": 282,
+    "text": "So they all obviously still have the shares and the securities, still driving their primary"
+  },
+  {
+    "speaker": 1,
+    "ts": 288,
+    "text": "wealth creation, even to this day."
+  },
+  {
+    "speaker": 1,
+    "ts": 291,
+    "text": "So over time, I just started thinking about the idea, like, oh, it'd be kind of interesting"
+  },
+  {
+    "speaker": 1,
+    "ts": 294,
+    "text": "if you put together a portfolio of all of these amazing family-started businesses that"
+  },
+  {
+    "speaker": 1,
+    "ts": 300,
+    "text": "have grown into these massive global tigies."
+  },
+  {
+    "speaker": 1,
+    "ts": 305,
+    "text": "And that kind of idea was just always in the back of my head."
+  },
+  {
+    "speaker": 1,
+    "ts": 308,
+    "text": "And as we were thinking through different data signals to identify these structurally"
+  },
+  {
+    "speaker": 1,
+    "ts": 313,
+    "text": "advantaged businesses, the one that popped into my head was, well, let's think through"
+  },
+  {
+    "speaker": 1,
+    "ts": 318,
+    "text": "wealth creation as a signal."
+  },
+  {
+    "speaker": 1,
+    "ts": 320,
+    "text": "And we started digging into it and we were really interested in the findings."
+  },
+  {
+    "speaker": 1,
+    "ts": 325,
+    "text": "And you could go back decades and you start to see this pretty high correlation with wealth"
+  },
+  {
+    "speaker": 1,
+    "ts": 329,
+    "text": "creation and then future performance of kind of the underlying business that they created."
+  },
+  {
+    "speaker": 1,
+    "ts": 335,
+    "text": "So that's kind of how it started."
+  },
+  {
+    "speaker": 1,
+    "ts": 337,
+    "text": "And we spent a lot of time going through it and coming up with our methodology and then"
+  },
+  {
+    "speaker": 1,
+    "ts": 341,
+    "text": "we decided to bring it to the market."
+  },
+  {
+    "speaker": 1,
+    "ts": 344,
+    "text": "Yeah."
+  },
+  {
+    "speaker": 1,
+    "ts": 345,
+    "text": "No, I want to talk more about that because the name grabs attention, right?"
+  },
+  {
+    "speaker": 1,
+    "ts": 348,
+    "text": "It's the Billionaire's Club."
+  },
+  {
+    "speaker": 1,
+    "ts": 349,
+    "text": "I know with you, it's just not a marketing hook, right?"
+  },
+  {
+    "speaker": 1,
+    "ts": 352,
+    "text": "You guys have gone back and looked at the data and figure out why this actually matters."
+  },
+  {
+    "speaker": 1,
+    "ts": 356,
+    "text": "So can you talk about the investment signal here and why this just isn't a fancy name"
+  },
+  {
+    "speaker": 1,
+    "ts": 361,
+    "text": "and you're hoping to try to raise money that way?"
+  },
+  {
+    "speaker": 1,
+    "ts": 364,
+    "text": "Right, exactly."
+  },
+  {
+    "speaker": 1,
+    "ts": 365,
+    "text": "So with Banker, you could always start to dig into science."
+  },
+  {
+    "speaker": 1,
+    "ts": 368,
+    "text": "And so for us, for the club in particular, there's a lot of amazing data out there, tons"
+  },
+  {
+    "speaker": 1,
+    "ts": 375,
+    "text": "of publicly available information."
+  },
+  {
+    "speaker": 1,
+    "ts": 377,
+    "text": "So it's not too challenging to find, you know, ownership levels for individuals and the"
+  },
+  {
+    "speaker": 1,
+    "ts": 384,
+    "text": "securities at their own and kind of go back and create your own matrix for, you know,"
+  },
+  {
+    "speaker": 1,
+    "ts": 390,
+    "text": "wealthy individuals and the underlying entities that they've created on top of kind of like"
+  },
+  {
+    "speaker": 1,
+    "ts": 394,
+    "text": "the fundamental analysis that's supporting all of our portfolios."
+  },
+  {
+    "speaker": 1,
+    "ts": 399,
+    "text": "So really, we've kind of created our own database for, you know, kind of stackwinding"
+  },
+  {
+    "speaker": 1,
+    "ts": 404,
+    "text": "the wealthiest individuals tied to these up-to-traded vehicles and the wealth creation"
+  },
+  {
+    "speaker": 1,
+    "ts": 411,
+    "text": "that that vehicle drove for them."
+  },
+  {
+    "speaker": 1,
+    "ts": 413,
+    "text": "So and the important nuance here is that this is a business that they have created, they"
+  },
+  {
+    "speaker": 1,
+    "ts": 419,
+    "text": "still have ownership in."
+  },
+  {
+    "speaker": 1,
+    "ts": 420,
+    "text": "It's not like what are billionaires owning in their personal portfolios and their investment"
+  },
+  {
+    "speaker": 1,
+    "ts": 425,
+    "text": "portfolios?"
+  },
+  {
+    "speaker": 1,
+    "ts": 426,
+    "text": "Like these are their businesses."
+  },
+  {
+    "speaker": 1,
+    "ts": 428,
+    "text": "That's right."
+  },
+  {
+    "speaker": 1,
+    "ts": 429,
+    "text": "So these are the companies that either they started, their family started, or, you know,"
+  },
+  {
+    "speaker": 1,
+    "ts": 433,
+    "text": "they had a primary end in driving the business forward."
+  },
+  {
+    "speaker": 1,
+    "ts": 437,
+    "text": "And yeah, it's not what they own today, right, across the spectrum of high-flying securities"
+  },
+  {
+    "speaker": 1,
+    "ts": 444,
+    "text": "or obviously it's ETFs, so it's not going to be like DC or private equity or anything."
+  },
+  {
+    "speaker": 1,
+    "ts": 448,
+    "text": "So we're not trying to mimic that."
+  },
+  {
+    "speaker": 1,
+    "ts": 450,
+    "text": "It's really just what generated their wealth."
+  },
+  {
+    "speaker": 1,
+    "ts": 453,
+    "text": "And for the most part, if you really think about it, it's kind of like a play on like"
+  },
+  {
+    "speaker": 1,
+    "ts": 458,
+    "text": "long-term momentum."
+  },
+  {
+    "speaker": 1,
+    "ts": 459,
+    "text": "Like these businesses have done so well."
+  },
+  {
+    "speaker": 1,
+    "ts": 461,
+    "text": "They have all the key attributes that, you know, we've talked about before, so they have"
+  },
+  {
+    "speaker": 1,
+    "ts": 465,
+    "text": "pricing power."
+  },
+  {
+    "speaker": 1,
+    "ts": 466,
+    "text": "They're usually either like monopolies or the monopolies or they have massive scale"
+  },
+  {
+    "speaker": 1,
+    "ts": 470,
+    "text": "or distribution."
+  },
+  {
+    "speaker": 1,
+    "ts": 471,
+    "text": "So they've done it."
+  },
+  {
+    "speaker": 1,
+    "ts": 472,
+    "text": "They've already like won, right?"
+  },
+  {
+    "speaker": 1,
+    "ts": 474,
+    "text": "That's why these people are so healthy."
+  },
+  {
+    "speaker": 1,
+    "ts": 476,
+    "text": "But I think what's interesting is when you have such a strong business model, it is hard"
+  },
+  {
+    "speaker": 1,
+    "ts": 481,
+    "text": "to displace it."
+  },
+  {
+    "speaker": 1,
+    "ts": 482,
+    "text": "So these businesses tend to like cheap that momentum going where you might have like an"
+  },
+  {
+    "speaker": 1,
+    "ts": 487,
+    "text": "underlying growth rate of loading the chains going forward for these businesses rather"
+  },
+  {
+    "speaker": 1,
+    "ts": 491,
+    "text": "than, you know, if you're fortunate enough to invest, you know, from the beginning or"
+  },
+  {
+    "speaker": 1,
+    "ts": 494,
+    "text": "if you're in there during the VC stage and you're compounding 50, 60% over a short period"
+  },
+  {
+    "speaker": 1,
+    "ts": 500,
+    "text": "of time."
+  },
+  {
+    "speaker": 1,
+    "ts": 501,
+    "text": "Like that's not what we're trying to do."
+  },
+  {
+    "speaker": 1,
+    "ts": 503,
+    "text": "We're identifying the business that have basically the early one."
+  },
+  {
+    "speaker": 1,
+    "ts": 506,
+    "text": "They generate a lot of wealth for these families and that's helping us identify them."
+  },
+  {
+    "speaker": 1,
+    "ts": 510,
+    "text": "And then we just want to stay involved with them, right?"
+  },
+  {
+    "speaker": 1,
+    "ts": 513,
+    "text": "So we basically want to sit at the table with these families and individuals and continue"
+  },
+  {
+    "speaker": 1,
+    "ts": 517,
+    "text": "to compound alongside with them."
+  },
+  {
+    "speaker": 1,
+    "ts": 519,
+    "text": "So out of curiosity, like a billion dollar number is like, it sounds arbitrary, but I'm"
+  },
+  {
+    "speaker": 1,
+    "ts": 526,
+    "text": "like, have you guys looked at the data of, you know, the spread between, you know, somebody"
+  },
+  {
+    "speaker": 1,
+    "ts": 532,
+    "text": "is at 500 million or somebody is at 10 billion?"
+  },
+  {
+    "speaker": 1,
+    "ts": 535,
+    "text": "Like is there a difference in maybe the compounded return or, you know, the benefits you get at"
+  },
+  {
+    "speaker": 1,
+    "ts": 542,
+    "text": "certain levels of wealth?"
+  },
+  {
+    "speaker": 1,
+    "ts": 543,
+    "text": "Or, you know, were you just kind of like running a basket of like, hey, let's look at everybody"
+  },
+  {
+    "speaker": 1,
+    "ts": 548,
+    "text": "that's got over a billion dollar net worth, the companies they own and is there like meaningful"
+  },
+  {
+    "speaker": 1,
+    "ts": 552,
+    "text": "signal there?"
+  },
+  {
+    "speaker": 1,
+    "ts": 553,
+    "text": "Yeah."
+  },
+  {
+    "speaker": 1,
+    "ts": 554,
+    "text": "I think it's less about the absolute dollar value."
+  },
+  {
+    "speaker": 1,
+    "ts": 557,
+    "text": "It's more about kind of the relative positioning versus the overall world, right?"
+  },
+  {
+    "speaker": 1,
+    "ts": 561,
+    "text": "So as, you know, you're scaling up and, you know, you're the 10th wealthiest person,"
+  },
+  {
+    "speaker": 1,
+    "ts": 566,
+    "text": "so that was 200 million, you know, 30 years ago over 20 billion today."
+  },
+  {
+    "speaker": 1,
+    "ts": 572,
+    "text": "The idea behind it is that if the business that drove that is, you know, one of the strongest"
+  },
+  {
+    "speaker": 1,
+    "ts": 579,
+    "text": "business models that we have globally today, and I think that's kind of how we thought"
+  },
+  {
+    "speaker": 1,
+    "ts": 584,
+    "text": "about it."
+  },
+  {
+    "speaker": 1,
+    "ts": 586,
+    "text": "We haven't looked specifically like today, like someone were 200 million in the business"
+  },
+  {
+    "speaker": 1,
+    "ts": 590,
+    "text": "state."
+  },
+  {
+    "speaker": 1,
+    "ts": 591,
+    "text": "What does that look like?"
+  },
+  {
+    "speaker": 1,
+    "ts": 593,
+    "text": "That, you know, just conceptually thinking through, it can make sense that the larger"
+  },
+  {
+    "speaker": 1,
+    "ts": 597,
+    "text": "the business, the harder that business is to disrupt."
+  },
+  {
+    "speaker": 1,
+    "ts": 601,
+    "text": "And so I think what you'll find is that the businesses are more resilient and maybe have"
+  },
+  {
+    "speaker": 1,
+    "ts": 607,
+    "text": "a little bit less volatility than somebody that's created something and they have a couple"
+  },
+  {
+    "speaker": 1,
+    "ts": 611,
+    "text": "hundred million dollars worth at this point."
+  },
+  {
+    "speaker": 1,
+    "ts": 615,
+    "text": "So just being a billionaire doesn't automatically like say you're in this portfolio, you apply"
+  },
+  {
+    "speaker": 1,
+    "ts": 620,
+    "text": "your own systematic framework on top."
+  },
+  {
+    "speaker": 1,
+    "ts": 622,
+    "text": "So like, how does a name actually earn a spot in this portfolio?"
+  },
+  {
+    "speaker": 1,
+    "ts": 626,
+    "text": "Yeah, so I mean, honestly, they have to be kind of ranked in the top 30 for what we're"
+  },
+  {
+    "speaker": 1,
+    "ts": 633,
+    "text": "saying and deeming these businesses have driven the most value creation for that individual"
+  },
+  {
+    "speaker": 1,
+    "ts": 639,
+    "text": "or family at any given point in time."
+  },
+  {
+    "speaker": 1,
+    "ts": 641,
+    "text": "So if you think about it, you know, you might have in the volatility, the underlying stock"
+  },
+  {
+    "speaker": 1,
+    "ts": 645,
+    "text": "can move people in and out of the portfolio, right?"
+  },
+  {
+    "speaker": 1,
+    "ts": 649,
+    "text": "So if you do have a position that, let's say, made its way in and is 28th in our rankings,"
+  },
+  {
+    "speaker": 1,
+    "ts": 654,
+    "text": "and then the stock has a rough earnings period and it goes down 20% and that individual has"
+  },
+  {
+    "speaker": 1,
+    "ts": 659,
+    "text": "75% of their net worth tied up into that stock, like they're going to drop another rank."
+  },
+  {
+    "speaker": 1,
+    "ts": 666,
+    "text": "So you will have some movement in and out, but it really is just kind of the top 30 value"
+  },
+  {
+    "speaker": 1,
+    "ts": 672,
+    "text": "creation businesses that are out there."
+  },
+  {
+    "speaker": 1,
+    "ts": 676,
+    "text": "Just curious too, I was looking at it says, you know, no single stock position above 10%"
+  },
+  {
+    "speaker": 1,
+    "ts": 682,
+    "text": "at the time of purchase."
+  },
+  {
+    "speaker": 1,
+    "ts": 683,
+    "text": "So like, is that constant?"
+  },
+  {
+    "speaker": 1,
+    "ts": 685,
+    "text": "Like what is the reason for that like concentration cap and like, why put that guard rail in place?"
+  },
+  {
+    "speaker": 1,
+    "ts": 690,
+    "text": "Yeah, so really, for volatility sake, it reached out a lot of analysis on like, what's the"
+  },
+  {
+    "speaker": 1,
+    "ts": 697,
+    "text": "ideal size of a portfolio and what the position size should be for club in particular, we've"
+  },
+  {
+    "speaker": 1,
+    "ts": 703,
+    "text": "chosen equal weight."
+  },
+  {
+    "speaker": 1,
+    "ts": 705,
+    "text": "So we have 30 positions, you know, if you talk to Anton, you know, we would probably"
+  },
+  {
+    "speaker": 1,
+    "ts": 709,
+    "text": "throw out the number, you know, 25 to 50 is probably the sweet spot for a number of positions"
+  },
+  {
+    "speaker": 1,
+    "ts": 715,
+    "text": "in a portfolio."
+  },
+  {
+    "speaker": 1,
+    "ts": 717,
+    "text": "And as far as concentration, I think it is important, especially since it is an ETF,"
+  },
+  {
+    "speaker": 1,
+    "ts": 724,
+    "text": "you know, there's retail investors, like everybody can buy it."
+  },
+  {
+    "speaker": 1,
+    "ts": 727,
+    "text": "I think we just don't want to have super concentrated positions that could be jarring"
+  },
+  {
+    "speaker": 1,
+    "ts": 733,
+    "text": "if one of them doesn't go well, right?"
+  },
+  {
+    "speaker": 1,
+    "ts": 735,
+    "text": "And so I think for us, it's less about making a call on an individual business."
+  },
+  {
+    "speaker": 1,
+    "ts": 740,
+    "text": "It's the theme, an idea that if you own a collection of these wealth generating assets,"
+  },
+  {
+    "speaker": 1,
+    "ts": 747,
+    "text": "you tend to do well over time."
+  },
+  {
+    "speaker": 1,
+    "ts": 749,
+    "text": "And so it is less about like, hey, we're gonna put 15% in this one, because this is"
+  },
+  {
+    "speaker": 1,
+    "ts": 753,
+    "text": "the one."
+  },
+  {
+    "speaker": 1,
+    "ts": 754,
+    "text": "No, but it's really like, look, we just want exposure to this basket of securities."
+  },
+  {
+    "speaker": 1,
+    "ts": 758,
+    "text": "And so that's why we're equating it."
+  },
+  {
+    "speaker": 1,
+    "ts": 762,
+    "text": "So when you kind of look at the portfolio, we've got like Walmart, Tesla, Amazon, Meta,"
+  },
+  {
+    "speaker": 1,
+    "ts": 766,
+    "text": "NVIDIA, you know, Walton, Musk, Bezos, Zuck, you know, how much of the portfolio ends up"
+  },
+  {
+    "speaker": 1,
+    "ts": 772,
+    "text": "being, you know, kind of mag seven versus some of those lesser known founder driven companies."
+  },
+  {
+    "speaker": 1,
+    "ts": 776,
+    "text": "Like I saw some names like Warner Music Group, like obviously there's a reason that's in"
+  },
+  {
+    "speaker": 1,
+    "ts": 781,
+    "text": "the portfolio."
+  },
+  {
+    "speaker": 1,
+    "ts": 782,
+    "text": "So it's nice to know like how some of these lesser known household names kind of get in"
+  },
+  {
+    "speaker": 1,
+    "ts": 785,
+    "text": "other than, you know, the ones that we all already know."
+  },
+  {
+    "speaker": 1,
+    "ts": 788,
+    "text": "Yeah."
+  },
+  {
+    "speaker": 1,
+    "ts": 789,
+    "text": "And so that was really the, probably the most interesting thing when you're diving into"
+  },
+  {
+    "speaker": 1,
+    "ts": 793,
+    "text": "it is obviously there's no need for an ETF."
+  },
+  {
+    "speaker": 1,
+    "ts": 795,
+    "text": "That's just, you know, another mag seven or the same, it's just not interesting, right?"
+  },
+  {
+    "speaker": 1,
+    "ts": 801,
+    "text": "So for us, what was compelling is that it's a global ETF."
+  },
+  {
+    "speaker": 1,
+    "ts": 804,
+    "text": "So we're looking across the world."
+  },
+  {
+    "speaker": 1,
+    "ts": 807,
+    "text": "So, you know, you might have like the Ortega family with Indidex, so Zara, the retailer,"
+  },
+  {
+    "speaker": 1,
+    "ts": 812,
+    "text": "or the CUNY family, CUNY Nagle, which is a logistics company in Switzerland and Europe."
+  },
+  {
+    "speaker": 1,
+    "ts": 819,
+    "text": "And so you end up with all of these global businesses."
+  },
+  {
+    "speaker": 1,
+    "ts": 822,
+    "text": "And I think what was also super compelling is over time you could kind of see which industries"
+  },
+  {
+    "speaker": 1,
+    "ts": 828,
+    "text": "are doing well as you go back through the decades."
+  },
+  {
+    "speaker": 1,
+    "ts": 831,
+    "text": "Like you might, if we were looking at this in like the 70s and 80s, it could probably"
+  },
+  {
+    "speaker": 1,
+    "ts": 835,
+    "text": "be like the large publishers or the car manufacturing family, right?"
+  },
+  {
+    "speaker": 1,
+    "ts": 839,
+    "text": "And then maybe moved into like the consumer staples driven families for a while."
+  },
+  {
+    "speaker": 1,
+    "ts": 843,
+    "text": "And then obviously as you kind of progress through the 2000s, you start to move more"
+  },
+  {
+    "speaker": 1,
+    "ts": 847,
+    "text": "or into tech oriented business modelism, you know, retailing distribution started to pick"
+  },
+  {
+    "speaker": 1,
+    "ts": 853,
+    "text": "up as well."
+  },
+  {
+    "speaker": 1,
+    "ts": 854,
+    "text": "So, you know, it is kind of like a state of the world as you're kind of looking through"
+  },
+  {
+    "speaker": 1,
+    "ts": 857,
+    "text": "it's like, no, these are the businesses that are driving real value growth in our economy."
+  },
+  {
+    "speaker": 1,
+    "ts": 862,
+    "text": "So why wouldn't you want exposure to those businesses?"
+  },
+  {
+    "speaker": 1,
+    "ts": 865,
+    "text": "And then, you know, again, if those slow down or kind of taper off a bit, then the new companies"
+  },
+  {
+    "speaker": 1,
+    "ts": 870,
+    "text": "that are driving industry growth kind of economic growth globally come into the portfolio."
+  },
+  {
+    "speaker": 1,
+    "ts": 876,
+    "text": "So how often are you kind of rerunning the screen and do you have any guardrails on kind"
+  },
+  {
+    "speaker": 1,
+    "ts": 882,
+    "text": "of U.S. non-U.S. exposure because I did see your benchmarked against MSCI AQUI, like is"
+  },
+  {
+    "speaker": 1,
+    "ts": 887,
+    "text": "there or is it kind of go anywhere?"
+  },
+  {
+    "speaker": 1,
+    "ts": 890,
+    "text": "Does it matter?"
+  },
+  {
+    "speaker": 1,
+    "ts": 891,
+    "text": "Let's go where the opportunities are."
+  },
+  {
+    "speaker": 1,
+    "ts": 892,
+    "text": "Yeah, it's kind of, we're going to pick the top 30, regardless of where they exist."
+  },
+  {
+    "speaker": 1,
+    "ts": 898,
+    "text": "Historically, you know, it's really been in, call it like the 40 to 60-ish percent ban"
+  },
+  {
+    "speaker": 1,
+    "ts": 905,
+    "text": "for international."
+  },
+  {
+    "speaker": 1,
+    "ts": 906,
+    "text": "You know, I would expect it to kind of like maybe stay within the 30 to 70, like that's"
+  },
+  {
+    "speaker": 1,
+    "ts": 913,
+    "text": "kind of the ban that we expect."
+  },
+  {
+    "speaker": 1,
+    "ts": 915,
+    "text": "But again, if it were to go 80, 20 international, that's where we would go."
+  },
+  {
+    "speaker": 1,
+    "ts": 919,
+    "text": "We're going to go where the wealth is being graded."
+  },
+  {
+    "speaker": 1,
+    "ts": 921,
+    "text": "So obviously, the U.S. has been a big hit for such a long period of time, you're always"
+  },
+  {
+    "speaker": 1,
+    "ts": 926,
+    "text": "going to have this disproportionate exposure there, which we're fine with."
+  },
+  {
+    "speaker": 1,
+    "ts": 931,
+    "text": "And then again, how often are you guys like kind of rerunning this?"
+  },
+  {
+    "speaker": 1,
+    "ts": 934,
+    "text": "Is it monthly, quarterly, annually, like when are you redoing the portfolio?"
+  },
+  {
+    "speaker": 1,
+    "ts": 937,
+    "text": "Yeah."
+  },
+  {
+    "speaker": 1,
+    "ts": 938,
+    "text": "So we update monthly, although we reserve the right to change our minds, but that's basically"
+  },
+  {
+    "speaker": 1,
+    "ts": 943,
+    "text": "the cadence that we've been using, you know, frankly, because they're just, if we did"
+  },
+  {
+    "speaker": 1,
+    "ts": 949,
+    "text": "it weekly or whatever, there's just not that much movement."
+  },
+  {
+    "speaker": 1,
+    "ts": 951,
+    "text": "You know, so monthly, though, you can definitely have, you know, two or three positions coming"
+  },
+  {
+    "speaker": 1,
+    "ts": 957,
+    "text": "out."
+  },
+  {
+    "speaker": 1,
+    "ts": 958,
+    "text": "So we feel like that's kind of the right cadence right now."
+  },
+  {
+    "speaker": 1,
+    "ts": 961,
+    "text": "But again, we could revisit that a little later today."
+  },
+  {
+    "speaker": 1,
+    "ts": 965,
+    "text": "So there's been a couple of founder-led ETF products launched recently."
+  },
+  {
+    "speaker": 1,
+    "ts": 969,
+    "text": "Michael Moynihan launched FFF, which is their Founders Fund."
+  },
+  {
+    "speaker": 1,
+    "ts": 972,
+    "text": "You've got GlobalX, Launch Boss, BOSS, like how do you think this fund kind of differs"
+  },
+  {
+    "speaker": 1,
+    "ts": 979,
+    "text": "and differentiates from some of these other like founder-led ETFs that we have launched?"
+  },
+  {
+    "speaker": 1,
+    "ts": 984,
+    "text": "Yeah."
+  },
+  {
+    "speaker": 1,
+    "ts": 985,
+    "text": "I mean, I think, again, just given my Family Office background, I think the framework for"
+  },
+  {
+    "speaker": 1,
+    "ts": 990,
+    "text": "why we're doing this is what differentiates it."
+  },
+  {
+    "speaker": 1,
+    "ts": 993,
+    "text": "Just kind of the understanding of, you know, the Family Office world, we understand kind"
+  },
+  {
+    "speaker": 1,
+    "ts": 999,
+    "text": "of these businesses and how they have driven such incredible wealth creation over time"
+  },
+  {
+    "speaker": 1,
+    "ts": 1004,
+    "text": "and really allowed these families to do so many other things as well."
+  },
+  {
+    "speaker": 1,
+    "ts": 1007,
+    "text": "I guess the way we're thinking about it is, you know, this is a vehicle that will allow"
+  },
+  {
+    "speaker": 1,
+    "ts": 1014,
+    "text": "shareholders to go in and participate in these amazing businesses."
+  },
+  {
+    "speaker": 1,
+    "ts": 1019,
+    "text": "And it's less about kind of what the family is doing with their capital now."
+  },
+  {
+    "speaker": 1,
+    "ts": 1023,
+    "text": "It's really, you know, these are the driving forces for that wealth creation."
+  },
+  {
+    "speaker": 1,
+    "ts": 1029,
+    "text": "We want to be involved."
+  },
+  {
+    "speaker": 1,
+    "ts": 1030,
+    "text": "It's another way to identify structural advantage assets and just getting shareholders"
+  },
+  {
+    "speaker": 1,
+    "ts": 1038,
+    "text": "into a portfolio with this collection."
+  },
+  {
+    "speaker": 1,
+    "ts": 1040,
+    "text": "Like these are amazing companies, right?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1042,
+    "text": "So, you know, and it's global."
+  },
+  {
+    "speaker": 1,
+    "ts": 1043,
+    "text": "And I think that also is a differentiator."
+  },
+  {
+    "speaker": 1,
+    "ts": 1045,
+    "text": "Again, it's not always about the U.S., like there's a lot of other businesses out there."
+  },
+  {
+    "speaker": 1,
+    "ts": 1050,
+    "text": "And I think it's important to not have all your eggs in one basket in the U.S."
+  },
+  {
+    "speaker": 1,
+    "ts": 1053,
+    "text": "And I think this is a good way to diversify, especially for investors that might not be"
+  },
+  {
+    "speaker": 1,
+    "ts": 1058,
+    "text": "as familiar with the international markets."
+  },
+  {
+    "speaker": 1,
+    "ts": 1061,
+    "text": "At the very least, like these businesses, for the most part, they'll know if they spend"
+  },
+  {
+    "speaker": 1,
+    "ts": 1066,
+    "text": "a little bit of time digging into it."
+  },
+  {
+    "speaker": 1,
+    "ts": 1068,
+    "text": "They'll be like, oh, yeah, like, you know, I know IndieGlobe, it's a unique globe in Japan."
+  },
+  {
+    "speaker": 1,
+    "ts": 1074,
+    "text": "Like, I understand."
+  },
+  {
+    "speaker": 1,
+    "ts": 1075,
+    "text": "Like, I know that brand."
+  },
+  {
+    "speaker": 1,
+    "ts": 1076,
+    "text": "And so I think it's also approachable, which there are some international and global"
+  },
+  {
+    "speaker": 1,
+    "ts": 1081,
+    "text": "portfolios that might feel less approachable or more opaque if you don't really know the market that well."
+  },
+  {
+    "speaker": 1,
+    "ts": 1089,
+    "text": "So, while we have a couple more minutes, I think it's, we've had a lot of new"
+  },
+  {
+    "speaker": 1,
+    "ts": 1093,
+    "text": "listeners and probably the first time that we've talked."
+  },
+  {
+    "speaker": 1,
+    "ts": 1095,
+    "text": "And I think it's important, maybe, if you can kind of talk a little bit and I mean, it's a repetition,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1100,
+    "text": "but that's OK."
+  },
+  {
+    "speaker": 1,
+    "ts": 1101,
+    "text": "The underlying framework that you use, which is structurally advantage businesses, like you've"
+  },
+  {
+    "speaker": 1,
+    "ts": 1106,
+    "text": "got network effects, brand equity, distribution modes."
+  },
+  {
+    "speaker": 1,
+    "ts": 1109,
+    "text": "Like, can you talk about your firms kind of like underlying thesis?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1113,
+    "text": "Because this, it rolls right into, I mean, kind of the framework of this fund, because a lot of these"
+  },
+  {
+    "speaker": 1,
+    "ts": 1119,
+    "text": "businesses already have these things."
+  },
+  {
+    "speaker": 1,
+    "ts": 1122,
+    "text": "So, if you could, can you just remind everybody about the thesis, the process, and why that"
+  },
+  {
+    "speaker": 1,
+    "ts": 1127,
+    "text": "moat or structurally advantage business is so important?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1131,
+    "text": "Sure."
+  },
+  {
+    "speaker": 1,
+    "ts": 1131,
+    "text": "So, just reminding, I'm a classically trained value investor, even though I don't sound like one anymore."
+  },
+  {
+    "speaker": 1,
+    "ts": 1138,
+    "text": "So, we kind of went through the value investments firm at Columbia and coming out of it, which"
+  },
+  {
+    "speaker": 1,
+    "ts": 1144,
+    "text": "basically means you dive in deep when you're doing your work on individual ideas."
+  },
+  {
+    "speaker": 1,
+    "ts": 1148,
+    "text": "So, when I first joined the family office, it was spending maybe six months on an idea where"
+  },
+  {
+    "speaker": 1,
+    "ts": 1155,
+    "text": "you're digging in, you're understanding every aspect of the business, how having evolved over"
+  },
+  {
+    "speaker": 1,
+    "ts": 1161,
+    "text": "time, what's driving the returns, like all of it."
+  },
+  {
+    "speaker": 1,
+    "ts": 1164,
+    "text": "And over my time at the family office, I really kind of created this framework for the types"
+  },
+  {
+    "speaker": 1,
+    "ts": 1169,
+    "text": "of attributes that businesses that compound throughout cycles, which is what our target was."
+  },
+  {
+    "speaker": 1,
+    "ts": 1176,
+    "text": "You know, at these very specific attributes."
+  },
+  {
+    "speaker": 1,
+    "ts": 1180,
+    "text": "And what I ended up doing was kind of creating this framework to say, okay, here are these kind"
+  },
+  {
+    "speaker": 1,
+    "ts": 1184,
+    "text": "of attributes, let's look for businesses globally that have similar attributes, right?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1189,
+    "text": "And you start to find really interesting businesses in all different sectors."
+  },
+  {
+    "speaker": 1,
+    "ts": 1194,
+    "text": "And, you know, as I was doing that, I was also becoming very interested in information theory."
+  },
+  {
+    "speaker": 1,
+    "ts": 1201,
+    "text": "And I think we chatted about Fortune's formula, but by willing to have some of how walks with"
+  },
+  {
+    "speaker": 1,
+    "ts": 1204,
+    "text": "the Kelly criterion. So, as I'm doing this, imagine on the side, I'm just getting super"
+  },
+  {
+    "speaker": 1,
+    "ts": 1210,
+    "text": "interested in the data science approach. And can we bring that into public market investing?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1218,
+    "text": "And really, over time, figured out that we're good. And, you know, if you think about it,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1222,
+    "text": "what we're really doing is making the process of diving into a company more efficient."
+  },
+  {
+    "speaker": 1,
+    "ts": 1227,
+    "text": "And again, you know, my friendship with Anton over the years, you know, we're chatting about this,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1234,
+    "text": "and that's his background, information theory and data signal processing, building complex"
+  },
+  {
+    "speaker": 1,
+    "ts": 1238,
+    "text": "simulations. So, I was bouncing these ideas off to Anton saying like, okay, well, here's my idea."
+  },
+  {
+    "speaker": 1,
+    "ts": 1244,
+    "text": "These are the fundamental attributes I like. Here's some of the quantitative stuff I've been"
+  },
+  {
+    "speaker": 1,
+    "ts": 1248,
+    "text": "working on. Like, how does this make sense that we can overlay this? And turns out that we could."
+  },
+  {
+    "speaker": 1,
+    "ts": 1254,
+    "text": "And, you know, it's really about finding, you know, very specific signal patterns"
+  },
+  {
+    "speaker": 1,
+    "ts": 1260,
+    "text": "that work in conjunction with these fundamental attributes to point you to these companies."
+  },
+  {
+    "speaker": 1,
+    "ts": 1265,
+    "text": "And, you know, the example I always, I was raised, I think it is helpful is if you have"
+  },
+  {
+    "speaker": 1,
+    "ts": 1269,
+    "text": "asset A and asset B, and they both compound at 10% over five years, and you come to me and you're"
+  },
+  {
+    "speaker": 1,
+    "ts": 1276,
+    "text": "like, well, which company is going to do better over the next five years? I'll look at asset A,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1280,
+    "text": "and let's say asset A was 10% every year, 10, 10, 10, 10, 10, 10. And then asset B was up 50,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1287,
+    "text": "down 30, up 20, down 15, but ends up in the same place. We would tell you that asset A is far more"
+  },
+  {
+    "speaker": 1,
+    "ts": 1295,
+    "text": "predictable, obviously, and is infinitely more valuable, because there's something going on with"
+  },
+  {
+    "speaker": 1,
+    "ts": 1300,
+    "text": "asset A that is allowing it to compound rateably at 10% with no volatility, right? So, they have"
+  },
+  {
+    "speaker": 1,
+    "ts": 1306,
+    "text": "absolute pricing power. There's something going on there, right? And again, nothing's ever 10%"
+  },
+  {
+    "speaker": 1,
+    "ts": 1310,
+    "text": "a year, but just for this exercise, asset A is telling us, hey, something is really interesting"
+  },
+  {
+    "speaker": 1,
+    "ts": 1317,
+    "text": "with this asset. Asset B, it's growing. So, it could be in a new industry that has new competitors"
+  },
+  {
+    "speaker": 1,
+    "ts": 1324,
+    "text": "coming in, creating up volatility, or it could just, you know, there could just be a lot of competitors"
+  },
+  {
+    "speaker": 1,
+    "ts": 1329,
+    "text": "in there in general, and people could come in or existing competitors to raise price or cut price,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1334,
+    "text": "and that's going to create a lot of signal noise for that business. And so, for us, we're looking for"
+  },
+  {
+    "speaker": 1,
+    "ts": 1340,
+    "text": "asset A's, obviously. We want companies that can rateably compound their capital with"
+  },
+  {
+    "speaker": 1,
+    "ts": 1347,
+    "text": "little volatility as you can. Not because we don't like volatility, it's because it tells you a lot"
+  },
+  {
+    "speaker": 1,
+    "ts": 1354,
+    "text": "about the underlying business, and it tells you that it has this edge. And then you can dig into"
+  },
+  {
+    "speaker": 1,
+    "ts": 1358,
+    "text": "the asset, like, oh, yeah, that makes sense, because they're a monopoly, or, you know, they've"
+  },
+  {
+    "speaker": 1,
+    "ts": 1363,
+    "text": "scaled up so much that they'd have incredible distribution and get product placement on all"
+  },
+  {
+    "speaker": 1,
+    "ts": 1367,
+    "text": "the shelves of grocery stores if it's a consumer-saving company. So, like, those are the signals"
+  },
+  {
+    "speaker": 1,
+    "ts": 1372,
+    "text": "that we're looking for, and that's the framework that we developed for, you know, all of our ETFs."
+  },
+  {
+    "speaker": 1,
+    "ts": 1377,
+    "text": "And then, bringing it back to Club, this is just a different perspective on finding those"
+  },
+  {
+    "speaker": 1,
+    "ts": 1382,
+    "text": "similar type of companies. So, with Club, you know, you're sitting with an advisor,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1388,
+    "text": "they've got a diversified model portfolio. Like, how would you advise them to kind of use this?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1392,
+    "text": "Is this a core equity holding, maybe a satellite? Like, how would, where does this fit?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1398,
+    "text": "Yeah, again, for all of our ETFs, you know, they're actively managed, right? So,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1404,
+    "text": "when you start to get into, like, you're tracking here, like, we're going to have tracking here,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1407,
+    "text": "because, one, especially if you're looking at versus MSCI World or SAP, there's hundreds or"
+  },
+  {
+    "speaker": 1,
+    "ts": 1413,
+    "text": "thousands of securities in these indices, we have priority. Step over, like, there's going to be"
+  },
+  {
+    "speaker": 1,
+    "ts": 1419,
+    "text": "volatility, we're not going to track exactly with the market. So, you know, this is not to"
+  },
+  {
+    "speaker": 1,
+    "ts": 1425,
+    "text": "displace your asset position in spiders or whatever. Like, that's not what we're trying to do."
+  },
+  {
+    "speaker": 1,
+    "ts": 1430,
+    "text": "So, it probably is more, you know, complimentary, whether it's a three to five percent position"
+  },
+  {
+    "speaker": 1,
+    "ts": 1438,
+    "text": "in your allocation, I think that's probably what makes the most sense, because it is a"
+  },
+  {
+    "speaker": 1,
+    "ts": 1444,
+    "text": "true active component. If you're an advisor and you only want active, well, then sure,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1449,
+    "text": "we think ours would be a very interesting core play for your active portfolio."
+  },
+  {
+    "speaker": 1,
+    "ts": 1453,
+    "text": "But if you are trying to blend and have, you know, interesting returns, but also"
+  },
+  {
+    "speaker": 1,
+    "ts": 1460,
+    "text": "fairly low tracking error, then you're going to want as much passive and then sprinkled in"
+  },
+  {
+    "speaker": 1,
+    "ts": 1464,
+    "text": "what we think are interesting active approaches like ours."
+  },
+  {
+    "speaker": 1,
+    "ts": 1468,
+    "text": "Well, Andrew, I really appreciate you spending some time with me today. Before I let you go,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1472,
+    "text": "where can people learn more about your firm and this ETF club?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1476,
+    "text": "So, they can go to bankreek.com, which is our advisor site, bankreeketfs.com,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1481,
+    "text": "which has, you know, information on our three core ETFs. And then billionairesbloodbtf.com,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1489,
+    "text": "which goes into detail, everything about club. And you can come talk to us at future booth."
+  },
+  {
+    "speaker": 1,
+    "ts": 1493,
+    "text": "Yeah, great. Well, I'll see you there. And I appreciate, you know, spending some time with me"
+  },
+  {
+    "speaker": 1,
+    "ts": 1497,
+    "text": "today. Appreciate it Brad. Thanks for having me back on."
+  }
+]
