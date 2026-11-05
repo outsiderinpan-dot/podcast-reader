@@ -1,0 +1,135 @@
+name: whisper-backfill
+
+# 专用历史回填：对一份指定清单（backfill/*.json）里的单集跑 Whisper 英文转写。
+# 与 weekly-scrape 的区别：不抓“最新几集”、不入飞书队列，而是按清单精准转写历史 C 类单集，
+# 产物（<prefix>.en.json + <prefix>.meta.json）汇总后 commit 回仓库 backfill/out/，供 QoderWork 拉回本地翻译。
+#
+# 全程不需要任何 LLM API Key（Whisper 是本地开源 ASR）。
+# 矩阵并行：每集一个 job（各自只转写 1 集，远低于 6h 上限），公开仓库标准 runner 免费。
+on:
+  workflow_dispatch:
+    inputs:
+      manifest:
+        description: '清单路径（仓库内，JSON 数组）'
+        required: false
+        default: 'backfill/whisper-batch1.json'
+      model:
+        description: 'Whisper 模型 tiny/base/small/medium'
+        required: false
+        default: 'small'
+
+permissions:
+  contents: write
+
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.set.outputs.matrix }}
+      model: ${{ steps.set.outputs.model }}
+      manifest: ${{ steps.set.outputs.manifest }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: set
+        run: |
+          MANIFEST="${{ github.event.inputs.manifest || 'backfill/whisper-batch1.json' }}"
+          MODEL="${{ github.event.inputs.model || 'small' }}"
+          node -e '
+            const fs=require("fs");
+            const m=JSON.parse(fs.readFileSync(process.argv[1],"utf8"));
+            const include=m.map((e,i)=>({idx:i,prefix:e.prefix}));
+            const out={model:process.argv[2],manifest:process.argv[1],matrix:JSON.stringify({include})};
+            fs.appendFileSync(process.env.GITHUB_OUTPUT,`matrix=${out.matrix}\nmodel=${out.model}\nmanifest=${out.manifest}\n`);
+          ' "$MANIFEST" "$MODEL"
+
+  transcribe:
+    needs: prepare
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    strategy:
+      fail-fast: false
+      matrix: ${{ fromJSON(needs.prepare.outputs.matrix) }}
+    env:
+      MODEL: ${{ needs.prepare.outputs.model }}
+      MANIFEST: ${{ needs.prepare.outputs.manifest }}
+      IDX: ${{ matrix.idx }}
+      PREFIX: ${{ matrix.prefix }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install ffmpeg
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+      - name: Cache Whisper model
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/whisper
+          key: whisper-model-${{ env.MODEL }}
+      - name: Install openai-whisper
+        run: pip install -U openai-whisper
+      - name: Resolve manifest entry
+        run: |
+          node -e '
+            const fs=require("fs");
+            const m=JSON.parse(fs.readFileSync(process.env.MANIFEST,"utf8"));
+            const e=Object.assign({},m[Number(process.env.IDX)],{model:process.env.MODEL});
+            fs.writeFileSync("entry.json",JSON.stringify(e));
+            fs.writeFileSync("audio_url.txt",e.audio_url);
+            console.log("entry:",e.prefix,"| audio:",e.audio_url.slice(0,80));
+          '
+      - name: Download audio
+        run: |
+          UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/124.0 Safari/537.36"
+          curl -L --fail --retry 3 --retry-delay 5 --max-time 900 -A "$UA" -o audio.in "$(cat audio_url.txt)"
+          ls -la audio.in
+          # 统一转成 16k 单声道 wav，whisper 更稳
+          ffmpeg -y -i audio.in -ar 16000 -ac 1 audio.wav
+      - name: Run Whisper
+        run: |
+          whisper audio.wav --model "$MODEL" --language en --task transcribe \
+            --device cpu --fp16 False --output_format json --output_dir out
+          ls -la out
+      - name: Convert to en.json + meta.json
+        run: |
+          node scripts/whisper-to-en.mjs out/audio.json out entry.json
+          ls -la out
+      - name: Upload transcript
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ env.PREFIX }}
+          path: |
+            out/${{ env.PREFIX }}.en.json
+            out/${{ env.PREFIX }}.meta.json
+          if-no-files-found: error
+
+  collect:
+    needs: [prepare, transcribe]
+    if: always() && needs.prepare.result == 'success'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Download all transcripts
+        uses: actions/download-artifact@v4
+        continue-on-error: true
+        with:
+          path: backfill/out
+          merge-multiple: true
+      - name: Commit transcripts back to repo
+        run: |
+          mkdir -p backfill/out
+          ls -la backfill/out || true
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add backfill/out 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "no transcript changes to commit"
+          else
+            n=$(ls backfill/out/*.en.json 2>/dev/null | wc -l)
+            git commit -m "chore(backfill): Whisper EN transcripts (${n} eps, model=${{ needs.prepare.outputs.model }})"
+            git push
+          fi
