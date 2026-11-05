@@ -82,8 +82,25 @@ jobs:
           '
       - name: Download audio
         run: |
-          UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/124.0 Safari/537.36"
-          curl -L --fail --retry 3 --retry-delay 5 --max-time 900 -A "$UA" -o audio.in "$(cat audio_url.txt)"
+          URL="$(cat audio_url.txt)"
+          # Buzzsprout 的 audio.buzzsprout.com CDN 对浏览器/默认 UA 返 403，
+          # 但对已知播客客户端 UA 放行；其它 host（megaphone 等）浏览器 UA 也能下。
+          # 故按 UA 链依次尝试，全失败才报错。
+          UAS=(
+            "Overcast/1.0 (+http://overcast.fm/podcasts)"
+            "Spotify/8.8.0"
+            "Podcasts/1.0 (iPhone; iOS 17)"
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/124.0 Safari/537.36"
+          )
+          ok=0
+          for UA in "${UAS[@]}"; do
+            echo "trying UA: $UA"
+            if curl -L --fail --retry 2 --retry-delay 5 --max-time 900 -A "$UA" -o audio.in "$URL"; then
+              ok=1; echo "downloaded OK with UA: $UA"; break
+            fi
+            echo "failed with UA: $UA"
+          done
+          if [ "$ok" != "1" ]; then echo "::error::all UAs failed for $URL"; exit 1; fi
           ls -la audio.in
           # 统一转成 16k 单声道 wav，whisper 更稳
           ffmpeg -y -i audio.in -ar 16000 -ac 1 audio.wav
