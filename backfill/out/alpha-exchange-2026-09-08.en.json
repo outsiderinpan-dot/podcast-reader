@@ -1,0 +1,2782 @@
+[
+  {
+    "speaker": 1,
+    "ts": 0,
+    "text": "Carey is a great place to start, and let's first define what Carey is, which I think most folks know."
+  },
+  {
+    "speaker": 1,
+    "ts": 5,
+    "text": "But Carey at its simplest is getting paid to hold a risk that somebody else needs you to take off their hands."
+  },
+  {
+    "speaker": 1,
+    "ts": 12,
+    "text": "It's the insurance premium of financial markets, and like insurance, it works until it doesn't."
+  },
+  {
+    "speaker": 1,
+    "ts": 18,
+    "text": "One of the first questions to ask is, is it structural? Why is it structural?"
+  },
+  {
+    "speaker": 1,
+    "ts": 23,
+    "text": "Is this noise that you're seeing, is there premium?"
+  },
+  {
+    "speaker": 1,
+    "ts": 26,
+    "text": "And there's an important balance here between the backtesting process"
+  },
+  {
+    "speaker": 1,
+    "ts": 30,
+    "text": "and setting out your hypothesis. And the order of that matters a lot."
+  },
+  {
+    "speaker": 1,
+    "ts": 34,
+    "text": "If backtest comes first, you tend to find that outcomes are less favorable."
+  },
+  {
+    "speaker": 1,
+    "ts": 39,
+    "text": "So some examples of Carey, one that is surely near and dear to your heart,"
+  },
+  {
+    "speaker": 1,
+    "ts": 44,
+    "text": "which we've already touched on, is the volatility Carey trade."
+  },
+  {
+    "speaker": 1,
+    "ts": 50,
+    "text": "Hello, this is Dean Curnutt, and welcome to the Alpha Exchange,"
+  },
+  {
+    "speaker": 1,
+    "ts": 54,
+    "text": "where we explore topics in financial markets associated with managing risk,"
+  },
+  {
+    "speaker": 1,
+    "ts": 58,
+    "text": "generating return, and the deployment of capital in the alternative investment industry."
+  },
+  {
+    "speaker": 1,
+    "ts": 68,
+    "text": "My guest today on the Alpha Exchange is Kimberly Gallant."
+  },
+  {
+    "speaker": 1,
+    "ts": 71,
+    "text": "She is the global head of QIS Structuring at CIBC."
+  },
+  {
+    "speaker": 1,
+    "ts": 76,
+    "text": "Kimberly, it's great to welcome you to the podcast today."
+  },
+  {
+    "speaker": 1,
+    "ts": 79,
+    "text": "Thank you, Dean. I'm really excited to be here."
+  },
+  {
+    "speaker": 1,
+    "ts": 81,
+    "text": "I'm really looking forward to this conversation around a product set that"
+  },
+  {
+    "speaker": 1,
+    "ts": 85,
+    "text": "has just been a big growth area on the street, and it's been a big growth area because the"
+  },
+  {
+    "speaker": 1,
+    "ts": 91,
+    "text": "client base has been increasingly consuming products through quantitative investment strategies."
+  },
+  {
+    "speaker": 1,
+    "ts": 97,
+    "text": "So we're going to learn a lot about this through you."
+  },
+  {
+    "speaker": 1,
+    "ts": 99,
+    "text": "First, get us underway with a little bit of your own career history,"
+  },
+  {
+    "speaker": 1,
+    "ts": 103,
+    "text": "how you got into this very esoteric world on the sell side."
+  },
+  {
+    "speaker": 1,
+    "ts": 107,
+    "text": "Sure, absolutely. As you said, I'm global head of QIS here at CIBC."
+  },
+  {
+    "speaker": 1,
+    "ts": 112,
+    "text": "I've been here about six months. The seed's great for me. It's actually combined sales and"
+  },
+  {
+    "speaker": 1,
+    "ts": 118,
+    "text": "structuring, which means that we're able to actually make sure that clients are really at"
+  },
+  {
+    "speaker": 1,
+    "ts": 122,
+    "text": "the center of everything we're doing. Prior to this, I basically grew up at JPMorgan."
+  },
+  {
+    "speaker": 1,
+    "ts": 126,
+    "text": "I started at JPMorgan as an intern. I was there for the next 18 years,"
+  },
+  {
+    "speaker": 1,
+    "ts": 131,
+    "text": "starting full-time in the institutional commodity business when we were building that out."
+  },
+  {
+    "speaker": 1,
+    "ts": 136,
+    "text": "Index was a big part of that. Then I spent most of my career at JPMorgan within the structuring"
+  },
+  {
+    "speaker": 1,
+    "ts": 142,
+    "text": "franchise, primarily focused on QIS, but dabbling in some other fun areas there."
+  },
+  {
+    "speaker": 1,
+    "ts": 147,
+    "text": "I landed at JPMorgan and I landed on that seed because I actually studied at the M&T program"
+  },
+  {
+    "speaker": 1,
+    "ts": 152,
+    "text": "at the University of Pennsylvania. I got the opportunity to study engineering and finance"
+  },
+  {
+    "speaker": 1,
+    "ts": 157,
+    "text": "and entrepreneurship. That's really the perfect combination of threads to lead someone into the"
+  },
+  {
+    "speaker": 1,
+    "ts": 163,
+    "text": "QIS space. It's actually that passion for entrepreneurship that led me to take on this"
+  },
+  {
+    "speaker": 1,
+    "ts": 169,
+    "text": "opportunity to get to lead the CIBC platform to the next level."
+  },
+  {
+    "speaker": 1,
+    "ts": 173,
+    "text": "QIS is quantitative investment strategies, as I alluded to. Give us the big picture of what this"
+  },
+  {
+    "speaker": 1,
+    "ts": 181,
+    "text": "product is. It obviously embeds complex exposures and derivatives, but frame it all out for us from"
+  },
+  {
+    "speaker": 1,
+    "ts": 189,
+    "text": "a 30,000-feet level to start. Sure. Maybe we can start with where it came from,"
+  },
+  {
+    "speaker": 1,
+    "ts": 194,
+    "text": "because I think understanding how and why this came about can really better describe"
+  },
+  {
+    "speaker": 1,
+    "ts": 199,
+    "text": "then it's a set of rules that you can trade in spot format, which doesn't tell you much that's"
+  },
+  {
+    "speaker": 1,
+    "ts": 204,
+    "text": "interesting. What's fascinating about QIS is that it isn't just one origin story. I was actually"
+  },
+  {
+    "speaker": 1,
+    "ts": 210,
+    "text": "reminded this spring when my daughter's first grade New York City public school class did a"
+  },
+  {
+    "speaker": 1,
+    "ts": 215,
+    "text": "unit on the Cinderella story. What's fascinating about that is that there were many versions of"
+  },
+  {
+    "speaker": 1,
+    "ts": 220,
+    "text": "that story that came throughout history from different parts of the world. My reaction was,"
+  },
+  {
+    "speaker": 1,
+    "ts": 226,
+    "text": "wow, this is QIS. QIS was born, obviously, from the academic literature, the work of folks like"
+  },
+  {
+    "speaker": 1,
+    "ts": 233,
+    "text": "FOM and French. It has its origin, obviously, in CTAs, in pension funds, trying to rethink how to"
+  },
+  {
+    "speaker": 1,
+    "ts": 241,
+    "text": "approach their risk models and their asset allocation. Part of the story comes from post-GFC"
+  },
+  {
+    "speaker": 1,
+    "ts": 247,
+    "text": "and the implementation of Volcker and all of the prop trading desks. The banks had great IP,"
+  },
+  {
+    "speaker": 1,
+    "ts": 253,
+    "text": "and they didn't know how to deploy that in a world where they couldn't implement it on their own,"
+  },
+  {
+    "speaker": 1,
+    "ts": 257,
+    "text": "and their sales partners came to them and said, let's package it and sell it to our clients."
+  },
+  {
+    "speaker": 1,
+    "ts": 262,
+    "text": "And part of that story comes from the commodity space, the commodity index space where I started"
+  },
+  {
+    "speaker": 1,
+    "ts": 267,
+    "text": "my career. What's really valuable about this, though, is that when all of these traditions"
+  },
+  {
+    "speaker": 1,
+    "ts": 272,
+    "text": "sort of converge together, at some point in the 2010s, the walls came down, and folks realized"
+  },
+  {
+    "speaker": 1,
+    "ts": 277,
+    "text": "that they were all trying to solve the same problem in different forums. We found that that's when"
+  },
+  {
+    "speaker": 1,
+    "ts": 283,
+    "text": "the value really started to be created because you started to get economies of scale. Each tradition"
+  },
+  {
+    "speaker": 1,
+    "ts": 289,
+    "text": "brought something to the space. You had the theory from academia. You had pension funds with demand"
+  },
+  {
+    "speaker": 1,
+    "ts": 295,
+    "text": "for transparency and diversification, and you had banks bringing the reality check on what survives"
+  },
+  {
+    "speaker": 1,
+    "ts": 300,
+    "text": "friction of the real world, along with the actual market access, of course. The convergence also"
+  },
+  {
+    "speaker": 1,
+    "ts": 306,
+    "text": "brought the benefit of economies of scale on data, technology, idea generation. You know how folks"
+  },
+  {
+    "speaker": 1,
+    "ts": 314,
+    "text": "from one asset class talking to folks from another asset class and learning from their shared mathematical"
+  },
+  {
+    "speaker": 1,
+    "ts": 319,
+    "text": "legacies or observed market patterns that you could test out in new applications. And then, of"
+  },
+  {
+    "speaker": 1,
+    "ts": 326,
+    "text": "course, the real benefit of this space is diversification, that many of these factors are"
+  },
+  {
+    "speaker": 1,
+    "ts": 332,
+    "text": "uncorrelated with each other. So what is QIS? QIS is an industry that has been developed to serve"
+  },
+  {
+    "speaker": 1,
+    "ts": 341,
+    "text": "all of these original challenges of the need for uncorrelated absolute return, the ability to harvest"
+  },
+  {
+    "speaker": 1,
+    "ts": 348,
+    "text": "factors. Effectively, it's about risk transfer that's happening between participants that hadn't"
+  },
+  {
+    "speaker": 1,
+    "ts": 353,
+    "text": "historically been connected in a streamlined and efficient fashion. And if you go back,"
+  },
+  {
+    "speaker": 1,
+    "ts": 358,
+    "text": "you're referencing the post-GFC era and prop desks having this IP that they wanted to"
+  },
+  {
+    "speaker": 1,
+    "ts": 365,
+    "text": "see if they could deploy. Are there milestones from back then that might have just been a step"
+  },
+  {
+    "speaker": 1,
+    "ts": 371,
+    "text": "function in terms of development, whether there is the first of its kind that paved the way for"
+  },
+  {
+    "speaker": 1,
+    "ts": 379,
+    "text": "growth in the segment? Are there a couple of flagship trades or areas of packaging exposures"
+  },
+  {
+    "speaker": 1,
+    "ts": 387,
+    "text": "that you look back on and say, boy, that was meaningful in terms of setting us up for future"
+  },
+  {
+    "speaker": 1,
+    "ts": 391,
+    "text": "growth? Yeah, so in my world, it definitely would have been the transition from commodity beta to"
+  },
+  {
+    "speaker": 1,
+    "ts": 397,
+    "text": "commodity alpha to uncorrelated sources return in the space. We knew that on other trading floors,"
+  },
+  {
+    "speaker": 1,
+    "ts": 404,
+    "text": "folks were obviously trading things like VIX carry in index format, and it was just"
+  },
+  {
+    "speaker": 1,
+    "ts": 410,
+    "text": "expanding the universe of folks that could participate in those trades. Equity factor"
+  },
+  {
+    "speaker": 1,
+    "ts": 415,
+    "text": "strategies starting to be offered in spot format. So again, the classic Fama French style exposures."
+  },
+  {
+    "speaker": 1,
+    "ts": 422,
+    "text": "So I think for me, it was both seeing that converge, but also we rearranged our business"
+  },
+  {
+    "speaker": 1,
+    "ts": 429,
+    "text": "around that in 2014, really pulling everything together so that we could serve what had become"
+  },
+  {
+    "speaker": 1,
+    "ts": 435,
+    "text": "a need to approach this from a cross-asset basis. You mentioned this idea of comparative"
+  },
+  {
+    "speaker": 1,
+    "ts": 441,
+    "text": "advantage. I think a lot of transactions in not just markets, but just in general,"
+  },
+  {
+    "speaker": 1,
+    "ts": 447,
+    "text": "are some version of people trade because they see comparative advantage in that trade."
+  },
+  {
+    "speaker": 1,
+    "ts": 452,
+    "text": "And I'm going back to my own career, which is really equity derivatives focused."
+  },
+  {
+    "speaker": 1,
+    "ts": 456,
+    "text": "This goes back 30 years, but I was a significant part of the advent of variant swaps on the S&P 500."
+  },
+  {
+    "speaker": 1,
+    "ts": 462,
+    "text": "And this always, to me, was a real conquest of putting together trades from a comparative"
+  },
+  {
+    "speaker": 1,
+    "ts": 469,
+    "text": "advantage standpoint, that the bank was in this position to package everything together,"
+  },
+  {
+    "speaker": 1,
+    "ts": 475,
+    "text": "take on the delta hedge, and just deliver the pure vol exposure. And as I understand it, and I'd"
+  },
+  {
+    "speaker": 1,
+    "ts": 482,
+    "text": "love for you just to explain this a little bit more, but a variant swap in the QIS round these"
+  },
+  {
+    "speaker": 1,
+    "ts": 488,
+    "text": "days would not just be a swap, but it would actually be the positions themselves with some rules around"
+  },
+  {
+    "speaker": 1,
+    "ts": 496,
+    "text": "how the delta hedging scheme is implemented that you can look through to the portfolio."
+  },
+  {
+    "speaker": 1,
+    "ts": 501,
+    "text": "I'd just love to learn a little bit more about that sense of transparency for the end user to be"
+  },
+  {
+    "speaker": 1,
+    "ts": 506,
+    "text": "able to look through this very complex mix of exposures, but down to almost the position level."
+  },
+  {
+    "speaker": 1,
+    "ts": 513,
+    "text": "Sure. That's a really interesting example. So over time, harvesting the volatility risk"
+  },
+  {
+    "speaker": 1,
+    "ts": 520,
+    "text": "premia in QIS format has evolved. And so it actually, the first strategies I was aware of,"
+  },
+  {
+    "speaker": 1,
+    "ts": 527,
+    "text": "well, the first were probably the VIX role trade. Then it evolved into delta hedged straddles or"
+  },
+  {
+    "speaker": 1,
+    "ts": 534,
+    "text": "strangles, the challenge there being you might have concentrated or not very consistent gamma"
+  },
+  {
+    "speaker": 1,
+    "ts": 542,
+    "text": "exposure that led us to actually implementing variant swaps. So instead of having one variant"
+  },
+  {
+    "speaker": 1,
+    "ts": 549,
+    "text": "swap, the idea would be that you would enter a new variant swap every day. So you could sell"
+  },
+  {
+    "speaker": 1,
+    "ts": 555,
+    "text": "weekly variants, monthly variants, depending on where you thought the highest opportunity set was."
+  },
+  {
+    "speaker": 1,
+    "ts": 561,
+    "text": "Not only did that give you a smoother gamma profile, of course, but then you're also able to monetize"
+  },
+  {
+    "speaker": 1,
+    "ts": 565,
+    "text": "some of the SKU that you wouldn't get if you were just trading out the money"
+  },
+  {
+    "speaker": 1,
+    "ts": 569,
+    "text": "to your point. At some point, I couldn't pinpoint the year. Clients realized they would prefer not to"
+  },
+  {
+    "speaker": 1,
+    "ts": 578,
+    "text": "sell the unbounded variant swap structure. And the banks had the technology from when we were"
+  },
+  {
+    "speaker": 1,
+    "ts": 586,
+    "text": "doing the original delta hedged straddles to deliver instead a portfolio of options. So that's"
+  },
+  {
+    "speaker": 1,
+    "ts": 593,
+    "text": "when it did converge to and today the most common VRP applications for just a very vanilla,"
+  },
+  {
+    "speaker": 1,
+    "ts": 599,
+    "text": "how do I harvest the volatility risk premia in equities would be, for example, to sell on a"
+  },
+  {
+    "speaker": 1,
+    "ts": 606,
+    "text": "daily basis a strip of options that are expiring in a week, that would be the one over k-squared"
+  },
+  {
+    "speaker": 1,
+    "ts": 612,
+    "text": "variant replication portfolio, where you're documenting exactly how much of each hypothetical"
+  },
+  {
+    "speaker": 1,
+    "ts": 617,
+    "text": "option you're selling and then how you're hedging that delta. And you can have the ability to"
+  },
+  {
+    "speaker": 1,
+    "ts": 623,
+    "text": "hedge that delta on the close, hedge that delta intraday. So that's where the industry has evolved"
+  },
+  {
+    "speaker": 1,
+    "ts": 628,
+    "text": "to. As you're talking about this industry, there's certainly seems to be a very big focus on cross"
+  },
+  {
+    "speaker": 1,
+    "ts": 634,
+    "text": "asset mixing different exposures. And if we start from the top, maybe you can break this down for"
+  },
+  {
+    "speaker": 1,
+    "ts": 641,
+    "text": "us, but at least my own rendering of how I think about markets and risk is in some ways, and this"
+  },
+  {
+    "speaker": 1,
+    "ts": 647,
+    "text": "is a crude statement, but you're either a short vol or long vol. You're either paying carry or"
+  },
+  {
+    "speaker": 1,
+    "ts": 652,
+    "text": "taking it in. And there's certainly a ton of nuance that you can add to that. But if you could just"
+  },
+  {
+    "speaker": 1,
+    "ts": 658,
+    "text": "give us some big picture of the types of exposures that folks are looking for through the QIS product,"
+  },
+  {
+    "speaker": 1,
+    "ts": 665,
+    "text": "maybe start big picture and then we can drill down a little bit."
+  },
+  {
+    "speaker": 1,
+    "ts": 669,
+    "text": "Sounds great. You said it. Selling vol, buying vol, I would say you want to make money or you"
+  },
+  {
+    "speaker": 1,
+    "ts": 675,
+    "text": "want to hedge. We actually have a lot of folks that come to us that want both, and we try to"
+  },
+  {
+    "speaker": 1,
+    "ts": 680,
+    "text": "explain to them why that is not necessarily a reasonable set of expectations. And that's part"
+  },
+  {
+    "speaker": 1,
+    "ts": 686,
+    "text": "of what makes this a market. So there are hedging strategies, could be systematic hedging strategies"
+  },
+  {
+    "speaker": 1,
+    "ts": 692,
+    "text": "where the value of doing it in QIS format is that you're just able to, like the variance replication"
+  },
+  {
+    "speaker": 1,
+    "ts": 698,
+    "text": "program, the bank is able to automate and take the labor out of the process for you, again, economies"
+  },
+  {
+    "speaker": 1,
+    "ts": 707,
+    "text": "of scale, or it could be providing some other convex based exposure, or perhaps the carry"
+  },
+  {
+    "speaker": 1,
+    "ts": 714,
+    "text": "drag is not as significant. And then, of course, a significant portion of the industry"
+  },
+  {
+    "speaker": 1,
+    "ts": 719,
+    "text": "is in the make money category. Within the how do we generate returns for investors,"
+  },
+  {
+    "speaker": 1,
+    "ts": 726,
+    "text": "there are two categories of strategies. And this is where that taxonomy starts to come in."
+  },
+  {
+    "speaker": 1,
+    "ts": 730,
+    "text": "There's obviously constantly a search for alpha. Alpha is rare and we can get into that. And then"
+  },
+  {
+    "speaker": 1,
+    "ts": 737,
+    "text": "there's, again, we have many different terms for this because this has come from so many different"
+  },
+  {
+    "speaker": 1,
+    "ts": 741,
+    "text": "origins, but there are factor strategies, alternative risk, premium, alternative beta, etc.,"
+  },
+  {
+    "speaker": 1,
+    "ts": 747,
+    "text": "where there is a risk transfer between different market participants. Sometimes that's carry,"
+  },
+  {
+    "speaker": 1,
+    "ts": 753,
+    "text": "momentum, etc., of all risk, premium, of course. And you by combining those together can hopefully"
+  },
+  {
+    "speaker": 1,
+    "ts": 760,
+    "text": "create a reasonably diversified portfolio. And so in your role, global head of QIS structuring,"
+  },
+  {
+    "speaker": 1,
+    "ts": 766,
+    "text": "I'm just thinking back to my own time in markets and just being a bit more of a plain vanilla"
+  },
+  {
+    "speaker": 1,
+    "ts": 771,
+    "text": "person, you really have sales and trading. Here you have three, and I'm sure there's plenty more"
+  },
+  {
+    "speaker": 1,
+    "ts": 777,
+    "text": "support on technology and so forth, but sales structuring and trading. Break that down for us."
+  },
+  {
+    "speaker": 1,
+    "ts": 785,
+    "text": "The interaction between these three different partners in the business just help us to understand"
+  },
+  {
+    "speaker": 1,
+    "ts": 791,
+    "text": "a little bit more where the different roles begin and end and how they interact."
+  },
+  {
+    "speaker": 1,
+    "ts": 797,
+    "text": "Absolutely. And ideally, there's a lot of overlap between them. So trading, of course,"
+  },
+  {
+    "speaker": 1,
+    "ts": 802,
+    "text": "classically is responsible for managing the risk of the market's organization. So when a strategy"
+  },
+  {
+    "speaker": 1,
+    "ts": 808,
+    "text": "is actually implemented, it's our trading partners that are the ones that are ensuring that if a"
+  },
+  {
+    "speaker": 1,
+    "ts": 813,
+    "text": "client has said that they're going long variance replication strategy with us, that somebody's"
+  },
+  {
+    "speaker": 1,
+    "ts": 818,
+    "text": "making sure that we have replicated the risk on the other side, either through the netting of"
+  },
+  {
+    "speaker": 1,
+    "ts": 824,
+    "text": "other positions or through going out and actually trading the replication portfolio."
+  },
+  {
+    "speaker": 1,
+    "ts": 829,
+    "text": "Trading's involvement throughout the process is really essential. I mentioned earlier this concept"
+  },
+  {
+    "speaker": 1,
+    "ts": 834,
+    "text": "of knowing where frictions break down and the concept of reality, that's a big part of what"
+  },
+  {
+    "speaker": 1,
+    "ts": 840,
+    "text": "trading's job is to achieve for us. Structuring typically holds the pen on the bulk of the QIS"
+  },
+  {
+    "speaker": 1,
+    "ts": 847,
+    "text": "business from building out the infrastructure and partnership with technology and our quant"
+  },
+  {
+    "speaker": 1,
+    "ts": 852,
+    "text": "partners to doing what is the fun and more glamorous part of the job, which is the core"
+  },
+  {
+    "speaker": 1,
+    "ts": 858,
+    "text": "research and developing the strategies. And very importantly, as many a structure has"
+  },
+  {
+    "speaker": 1,
+    "ts": 864,
+    "text": "been subjected to over the past nearly two decades of working with me,"
+  },
+  {
+    "speaker": 1,
+    "ts": 868,
+    "text": "staying on top of the performance of the strategies and continuously having a view"
+  },
+  {
+    "speaker": 1,
+    "ts": 872,
+    "text": "of whether that premium is still legitimate and compensate in the market, call it commentary."
+  },
+  {
+    "speaker": 1,
+    "ts": 878,
+    "text": "And then there's sales. And actually at CIBC, structuring and sales are both integrated into"
+  },
+  {
+    "speaker": 1,
+    "ts": 884,
+    "text": "one team. So sales is there to make sure that you don't have some really smart person sitting off"
+  },
+  {
+    "speaker": 1,
+    "ts": 891,
+    "text": "in a corner building some strategy that sounds good, but doesn't actually solve anyone's problem."
+  },
+  {
+    "speaker": 1,
+    "ts": 897,
+    "text": "So sales is working very closely with structuring to both inform the product development pipeline,"
+  },
+  {
+    "speaker": 1,
+    "ts": 902,
+    "text": "connect with clients, but really to make sure that we're anchoring what we're building and"
+  },
+  {
+    "speaker": 1,
+    "ts": 907,
+    "text": "the strategies we're developing back into some real client need. Again, the origins of this"
+  },
+  {
+    "speaker": 1,
+    "ts": 913,
+    "text": "business all came from some real need or some valid market hypothesis. A big part of sales'"
+  },
+  {
+    "speaker": 1,
+    "ts": 920,
+    "text": "job is to make sure that that tradition stays alive. And you touched on it a little bit there"
+  },
+  {
+    "speaker": 1,
+    "ts": 925,
+    "text": "in terms of the role of structuring is, especially as you see it, is to identify where"
+  },
+  {
+    "speaker": 1,
+    "ts": 933,
+    "text": "that compensation for, let's say bearing risk, so for generating carry is a, I'll just put it in"
+  },
+  {
+    "speaker": 1,
+    "ts": 939,
+    "text": "quotes, a good deal. And that these premium are time varying, they might get crowded at different"
+  },
+  {
+    "speaker": 1,
+    "ts": 946,
+    "text": "points in time. Maybe just take us through your big picture thought process on that. We can get"
+  },
+  {
+    "speaker": 1,
+    "ts": 952,
+    "text": "more specific, but just the big picture question as you and your team seem to be thinking a lot"
+  },
+  {
+    "speaker": 1,
+    "ts": 958,
+    "text": "about, which is where are there good deals to be had for bearing some risk?"
+  },
+  {
+    "speaker": 1,
+    "ts": 964,
+    "text": "Carry is a great place to start. And let's first define what carry is, which I think most folks"
+  },
+  {
+    "speaker": 1,
+    "ts": 968,
+    "text": "know. But carry at its simplest is getting paid to hold a risk that somebody else needs you to"
+  },
+  {
+    "speaker": 1,
+    "ts": 974,
+    "text": "take off their hands. It's the insurance premium of financial markets. And like insurance, it works"
+  },
+  {
+    "speaker": 1,
+    "ts": 980,
+    "text": "until it doesn't. One of the first questions to ask is, is it structural? Why is it structural?"
+  },
+  {
+    "speaker": 1,
+    "ts": 987,
+    "text": "Is this noise that you're seeing, is there premium? And there's an important balance here"
+  },
+  {
+    "speaker": 1,
+    "ts": 991,
+    "text": "between the backtesting process and setting out your hypothesis. And the order of that matters"
+  },
+  {
+    "speaker": 1,
+    "ts": 997,
+    "text": "a lot. If backtest comes first, you tend to find that outcomes are less favorable. So some examples"
+  },
+  {
+    "speaker": 1,
+    "ts": 1005,
+    "text": "of carry, one that is surely near and dear to your heart, which we've already touched on,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1010,
+    "text": "is the volatility carry trade. In equities, generally, there are certain market participants"
+  },
+  {
+    "speaker": 1,
+    "ts": 1016,
+    "text": "that have to be buyers of all due to their own capital structure. So top of mind are insurance"
+  },
+  {
+    "speaker": 1,
+    "ts": 1022,
+    "text": "companies with guaranteed annuity products where they've effectively written a put to the policy"
+  },
+  {
+    "speaker": 1,
+    "ts": 1026,
+    "text": "holder. Banks, of course, who are optimizing their regulatory capital and they have many different"
+  },
+  {
+    "speaker": 1,
+    "ts": 1031,
+    "text": "tools to do that. One of those is to buy S&P tails. These market participants will pay above fair"
+  },
+  {
+    "speaker": 1,
+    "ts": 1038,
+    "text": "value for puts because the alternative, holding the unhedged tail risk is ultimately going to cost"
+  },
+  {
+    "speaker": 1,
+    "ts": 1043,
+    "text": "them more in regulatory or solvency terms than paying the implied realized differential there."
+  },
+  {
+    "speaker": 1,
+    "ts": 1050,
+    "text": "That creates a carry opportunity. So there are investors who may be under a different"
+  },
+  {
+    "speaker": 1,
+    "ts": 1056,
+    "text": "capital regime that are looking for the economic trade there. And both market participants are"
+  },
+  {
+    "speaker": 1,
+    "ts": 1062,
+    "text": "rational. Now, not all volatility is created equal and not all parts of the wall surface. Again,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1069,
+    "text": "I don't have to tell you, not all parts of the wall surface are the same. Again, you have to test"
+  },
+  {
+    "speaker": 1,
+    "ts": 1074,
+    "text": "your hypothesis, not just with a back test, but by monitoring the actual flows. There are, of course,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1080,
+    "text": "natural sellers of volatility in the equity markets as well. Structured products can be a source of"
+  },
+  {
+    "speaker": 1,
+    "ts": 1087,
+    "text": "volatility demand as well as volatility supply. And so understanding if you are coming in and"
+  },
+  {
+    "speaker": 1,
+    "ts": 1092,
+    "text": "being a supplier of volatility, because you're looking to earn returns and you think that's your"
+  },
+  {
+    "speaker": 1,
+    "ts": 1097,
+    "text": "role in the ecosystem, well, are you participating in a part of the surface where there is currently"
+  },
+  {
+    "speaker": 1,
+    "ts": 1105,
+    "text": "more demand than supply for volatility? And that's something where, again, you have the"
+  },
+  {
+    "speaker": 1,
+    "ts": 1109,
+    "text": "structures who are thinking through that process and doing the analysis, but need to constantly be"
+  },
+  {
+    "speaker": 1,
+    "ts": 1114,
+    "text": "in touch with the folks who are responsible for managing those risks. And that's both sales,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1120,
+    "text": "who's originating in the business, but also traders who see the flows going through the markets."
+  },
+  {
+    "speaker": 1,
+    "ts": 1124,
+    "text": "Volatility risk premium is a cross asset phenomenon because there is demand for insurance in other"
+  },
+  {
+    "speaker": 1,
+    "ts": 1130,
+    "text": "markets as well. And options are obviously very convenient package for convex exposure."
+  },
+  {
+    "speaker": 1,
+    "ts": 1135,
+    "text": "But likewise in other markets, you need to always stop and ask yourself,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1139,
+    "text": "is this a market where the naturals are buyers or sellers of volatility? Commodity vol has been"
+  },
+  {
+    "speaker": 1,
+    "ts": 1148,
+    "text": "quite topical lately, and commodity vol has gotten thrown into one bucket. Commodities are not one"
+  },
+  {
+    "speaker": 1,
+    "ts": 1155,
+    "text": "market. There are dozens of markets underlying commodities, and even many, even just in the"
+  },
+  {
+    "speaker": 1,
+    "ts": 1160,
+    "text": "vol space. If you look at just within crude oil, WTI and Brent are very different volatility markets."
+  },
+  {
+    "speaker": 1,
+    "ts": 1168,
+    "text": "Post the advent of shale as North American producer balance sheets got more stretched,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1174,
+    "text": "what used to be a classic put buying program for the producers who are hedging against the risk"
+  },
+  {
+    "speaker": 1,
+    "ts": 1180,
+    "text": "that prices would drop, have converted into what are called producer three ways or put spread"
+  },
+  {
+    "speaker": 1,
+    "ts": 1186,
+    "text": "collars that are net short vega. And so in WTI, you tend to see the dominant flow. And I went to"
+  },
+  {
+    "speaker": 1,
+    "ts": 1194,
+    "text": "double check this with the traders last week to make sure we weren't seeing a shift here."
+  },
+  {
+    "speaker": 1,
+    "ts": 1198,
+    "text": "The dominant flow in WTI crude oil is actually net short vega, net vega selling from the corporates."
+  },
+  {
+    "speaker": 1,
+    "ts": 1205,
+    "text": "Whereas in Brent, we tend to see the opposite. You tend to see more buyers of volatility,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1210,
+    "text": "because you have more macro players, consumer participants, and non-North American producers"
+  },
+  {
+    "speaker": 1,
+    "ts": 1216,
+    "text": "that will tend to hedge buying puts. So again, keep anchoring back to you have this infrastructure,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1223,
+    "text": "you have the data, you have the ability to wrap these products with this market access"
+  },
+  {
+    "speaker": 1,
+    "ts": 1228,
+    "text": "in this very convenient wrapper, almost too convenient. Often the hard part is having the"
+  },
+  {
+    "speaker": 1,
+    "ts": 1233,
+    "text": "discipline to ask the question of, this backtest looks really good. Do I expect that to persist?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1240,
+    "text": "The backtest looks really good. Is it lucky or is it good?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1244,
+    "text": "And so I think starting with this more maybe economic thesis of, okay, you've got some"
+  },
+  {
+    "speaker": 1,
+    "ts": 1251,
+    "text": "maybe imbalance or a natural that needs to do something for business purposes,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1256,
+    "text": "whether it's being a buyer of all or seller of all, is a great place to start. I'm curious,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1261,
+    "text": "as you mentioned, had not known this about Brent versus WTI in terms of differential and supply"
+  },
+  {
+    "speaker": 1,
+    "ts": 1266,
+    "text": "demand for vol. Does that potentially manifest itself into some vol pairs strategy? Is that doable?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1275,
+    "text": "That's a big find on the street, for sure. And that's where QIS can get really fun."
+  },
+  {
+    "speaker": 1,
+    "ts": 1280,
+    "text": "Yes, there are strategies out there that will look to monetize the Brent volatility risk premium"
+  },
+  {
+    "speaker": 1,
+    "ts": 1286,
+    "text": "outright. And then there are strategies that will look to sell Brent vol and buy WTI vol."
+  },
+  {
+    "speaker": 1,
+    "ts": 1292,
+    "text": "And depending on how you construct that, you might get very different outcomes. And that's"
+  },
+  {
+    "speaker": 1,
+    "ts": 1297,
+    "text": "where once you've identified, okay, we can track the flows, we talked to the traders,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1302,
+    "text": "we know the corporate franchise, we believe that this is stable. Now we can spend the time on"
+  },
+  {
+    "speaker": 1,
+    "ts": 1309,
+    "text": "what AQR would call craftsmanship alpha of how do you make sure that you're implementing your"
+  },
+  {
+    "speaker": 1,
+    "ts": 1315,
+    "text": "strategy in a way where you're isolating the risks that you're interested in. And yes, that's"
+  },
+  {
+    "speaker": 1,
+    "ts": 1319,
+    "text": "exactly where the QIS structuring capabilities end up getting rolled out to maximize that opportunity."
+  },
+  {
+    "speaker": 1,
+    "ts": 1326,
+    "text": "Well, we should spend some time talking about the summer or really maybe just since"
+  },
+  {
+    "speaker": 1,
+    "ts": 1332,
+    "text": "late February, all of the vol in crude in general, how that's impacted both the structuring side"
+  },
+  {
+    "speaker": 1,
+    "ts": 1340,
+    "text": "in terms of creating new ideas in crude, but also the performance of existing strategies."
+  },
+  {
+    "speaker": 1,
+    "ts": 1346,
+    "text": "Before that, just touch on the broad concept of commodity carry, because that's a term and"
+  },
+  {
+    "speaker": 1,
+    "ts": 1353,
+    "text": "it's a little different in commodities because you have both vol curves and time curves,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1358,
+    "text": "calendar curves, help us understand what that means in the world of QIS."
+  },
+  {
+    "speaker": 1,
+    "ts": 1364,
+    "text": "Outside of VRP, there are typically two types of commodity carry, and they both rely upon"
+  },
+  {
+    "speaker": 1,
+    "ts": 1372,
+    "text": "time spreads for implementation. The classic, the one when I started was just called commodity alpha,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1380,
+    "text": "and actually back pre 2010, the sharp ratio is four to six, so it was alpha, no more, is a"
+  },
+  {
+    "speaker": 1,
+    "ts": 1386,
+    "text": "diversified portfolio of short time spreads and commodities. Now, that portfolio is a way to be"
+  },
+  {
+    "speaker": 1,
+    "ts": 1393,
+    "text": "compensated for a number of different risks that are in the market. So what are time spreads?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1399,
+    "text": "Time spreads are essentially the market traded price for a molecule today versus a molecule"
+  },
+  {
+    "speaker": 1,
+    "ts": 1406,
+    "text": "a month from now, three months from now, etc. Being short time spreads means you're short the front"
+  },
+  {
+    "speaker": 1,
+    "ts": 1413,
+    "text": "contract and long the back. But when you do that, you're taking on the risk that there will be some"
+  },
+  {
+    "speaker": 1,
+    "ts": 1420,
+    "text": "sort of disruption and there's not enough of the commodity to go around and prices in the front"
+  },
+  {
+    "speaker": 1,
+    "ts": 1426,
+    "text": "need to outperform prices in the back. So what types of risks are those? There's macro risk,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1432,
+    "text": "there's geopolitical risk, straight up hormones closing to infrastructure risk,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1437,
+    "text": "weather risk and seasonality, policy risk, biological risk. The conversations we have in"
+  },
+  {
+    "speaker": 1,
+    "ts": 1444,
+    "text": "the commodities markets are fascinating and grounded in what's happening day to day in the"
+  },
+  {
+    "speaker": 1,
+    "ts": 1450,
+    "text": "real world. What happened earlier this year with the commodity curve strategy, which is one of the"
+  },
+  {
+    "speaker": 1,
+    "ts": 1456,
+    "text": "most classic QIS strategies is investors were short time spreads across a portfolio. Now, in this"
+  },
+  {
+    "speaker": 1,
+    "ts": 1463,
+    "text": "instance, the performance, which actually led to the largest drawdown in the performance of these"
+  },
+  {
+    "speaker": 1,
+    "ts": 1470,
+    "text": "strategies in history, and they've been traded for over two decades, was entirely driven by the"
+  },
+  {
+    "speaker": 1,
+    "ts": 1476,
+    "text": "petroleum complex. We did not see contagion actually in the rest of the complex, which indicates it"
+  },
+  {
+    "speaker": 1,
+    "ts": 1481,
+    "text": "thankfully was not that crowded and you didn't see forced unwinds of other positions. But what"
+  },
+  {
+    "speaker": 1,
+    "ts": 1487,
+    "text": "happened again, is that while prices went up quite a bit, the magnitude of the move in time"
+  },
+  {
+    "speaker": 1,
+    "ts": 1495,
+    "text": "spreads, so the outperformance of the front contract versus the next contract was much more"
+  },
+  {
+    "speaker": 1,
+    "ts": 1500,
+    "text": "significant on a historical basis than the price move itself. And that is not a strategy being"
+  },
+  {
+    "speaker": 1,
+    "ts": 1510,
+    "text": "broken. That is a classic carry trade where you have taken on risk from another market participant,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1517,
+    "text": "so a producer who needs to hedge their forward production from a consumer who's trying to ensure"
+  },
+  {
+    "speaker": 1,
+    "ts": 1523,
+    "text": "that they have price certainty as they feed into their downstream pricing."
+  },
+  {
+    "speaker": 1,
+    "ts": 1528,
+    "text": "I've always looked at maybe the commonality in whether it's the VIX curve, the crude,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1534,
+    "text": "so the VIX is a vol curve, the crude time curve, and also the implied vol curve, even the treasury"
+  },
+  {
+    "speaker": 1,
+    "ts": 1539,
+    "text": "curve. Inversions are really about urgency, they're associated with volatility. Certainly,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1547,
+    "text": "if we map the inversions of the VIX curve relative to realized vol, we'd see a pretty common occurrence,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1554,
+    "text": "which is high realized vol drives the inversion. Same thing in commodity curve inversions, the time"
+  },
+  {
+    "speaker": 1,
+    "ts": 1560,
+    "text": "curve. So it's interesting to see across these markets. One thing you just said, I just love"
+  },
+  {
+    "speaker": 1,
+    "ts": 1566,
+    "text": "for you to follow up on, which is this idea of no contagion. So very crude, concentrated."
+  },
+  {
+    "speaker": 1,
+    "ts": 1572,
+    "text": "There were some modest inversions in things like corn that I noticed wheat. They're in some ways"
+  },
+  {
+    "speaker": 1,
+    "ts": 1577,
+    "text": "related to crude, fertilizer. A lot of these things are tied together. But I can imagine,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1583,
+    "text": "as someone implements a commodity curve strategy, and they're looking for diversification across"
+  },
+  {
+    "speaker": 1,
+    "ts": 1589,
+    "text": "these different curves, they've got to be in some ways relying on that these markets are going to"
+  },
+  {
+    "speaker": 1,
+    "ts": 1594,
+    "text": "behave reasonably differently. That maybe one of them gets shocked, but not all of them get"
+  },
+  {
+    "speaker": 1,
+    "ts": 1599,
+    "text": "shocked at once. Perhaps you can just tell us a little bit more about what you observed this"
+  },
+  {
+    "speaker": 1,
+    "ts": 1604,
+    "text": "last four or five months. Sure. And we actually put out a note on this as the market was going"
+  },
+  {
+    "speaker": 1,
+    "ts": 1610,
+    "text": "through the drawdown. I'd say, first of all, you're right. Yes, of course. So there were"
+  },
+  {
+    "speaker": 1,
+    "ts": 1615,
+    "text": "fundamental reasons why other commodity markets were being impacted. Natural gas is not petroleum,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1622,
+    "text": "but obviously it was impacted petroleum, and the products were impacted as well."
+  },
+  {
+    "speaker": 1,
+    "ts": 1626,
+    "text": "But on balance, the drawdown in petroleum explained all of the drawdown and the broader"
+  },
+  {
+    "speaker": 1,
+    "ts": 1632,
+    "text": "portfolios. There were other commodity time spreads that were generating positive returns to"
+  },
+  {
+    "speaker": 1,
+    "ts": 1637,
+    "text": "offset others. Small losses in areas where fertilizer concerns would have caused impact."
+  },
+  {
+    "speaker": 1,
+    "ts": 1643,
+    "text": "So commodities themselves, if you look at just, for example, the correlation matrix of"
+  },
+  {
+    "speaker": 1,
+    "ts": 1650,
+    "text": "the universe of front month rolling commodity futures tend to be less correlated with each other"
+  },
+  {
+    "speaker": 1,
+    "ts": 1654,
+    "text": "than other markets. So for example, if you were to look at the equity sectors, when you look at"
+  },
+  {
+    "speaker": 1,
+    "ts": 1660,
+    "text": "the correlation over a long time period of commodity time spreads, so the same thing. So if"
+  },
+  {
+    "speaker": 1,
+    "ts": 1665,
+    "text": "you were to create, for example, a rolling index or your loans, the third contract and short the"
+  },
+  {
+    "speaker": 1,
+    "ts": 1669,
+    "text": "first contract, there are clusters of correlation. So for example, products, which would be gasoline,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1677,
+    "text": "heating oil, gas oil, et cetera, and Brent and WTI, so petroleum will cluster together,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1683,
+    "text": "they'll have some positive correlation. But broadly, the rest of the complex is fairly"
+  },
+  {
+    "speaker": 1,
+    "ts": 1689,
+    "text": "uncorrelated. And so that is part of the reason why the commodity curve trade is so powerful."
+  },
+  {
+    "speaker": 1,
+    "ts": 1696,
+    "text": "You have this very real economic risk transfer that's happening, you're providing a real head"
+  },
+  {
+    "speaker": 1,
+    "ts": 1703,
+    "text": "through some market participant who has a different set of objectives than you."
+  },
+  {
+    "speaker": 1,
+    "ts": 1707,
+    "text": "A producer of crude oil or a farmer has a different set of objectives than a pension fund."
+  },
+  {
+    "speaker": 1,
+    "ts": 1712,
+    "text": "And each of those types of insurance that you're selling is uncorrelated with the others."
+  },
+  {
+    "speaker": 1,
+    "ts": 1717,
+    "text": "When you do go through a drawdown, and that's why when we put out the note, one of the questions"
+  },
+  {
+    "speaker": 1,
+    "ts": 1721,
+    "text": "we asked is, when you go through a drawdown, can you identify why you're going through the drawdown?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1727,
+    "text": "Is it related to one of those fundamental risks that you mapped out ahead of time?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1732,
+    "text": "And are you seeing the assets or the components that are causing the drawdown,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1737,
+    "text": "mathematically, as you're watching live markets, do they have a fundamental linkage"
+  },
+  {
+    "speaker": 1,
+    "ts": 1743,
+    "text": "to the physical event in the case of commodities that is causing the drawdown?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1749,
+    "text": "And that leads us to, I think, another topic that you'd mentioned you wanted to discuss,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1753,
+    "text": "which is this topic of crowding and correlation. You can have correlations evolve over time,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1760,
+    "text": "but when you see in the middle of a crisis, clustering of performance,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1765,
+    "text": "when there isn't an economic reason for certain assets to express co-movements,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1772,
+    "text": "that's a pretty good indicator that you have some sort of crowding."
+  },
+  {
+    "speaker": 1,
+    "ts": 1777,
+    "text": "And as you talk about crowding, I think about when enough folks crowded to a risk exposure,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1783,
+    "text": "the edge might come out of it. You can push risk premiums down by crowding into them,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1789,
+    "text": "and you had said that years ago the sharp ratio for some of these"
+  },
+  {
+    "speaker": 1,
+    "ts": 1794,
+    "text": "calendars was on the order of four no longer. Tell us about that alpha decay over time,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1801,
+    "text": "the extent of it, how much of it's just a function of efforts like QIS of just being able to package"
+  },
+  {
+    "speaker": 1,
+    "ts": 1808,
+    "text": "it and deliver it so efficiently to end users. I think there's a difference between"
+  },
+  {
+    "speaker": 1,
+    "ts": 1814,
+    "text": "something going from alpha to a genuine risk transfer and having a fair price of risk,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1820,
+    "text": "and something being crowded. We'll pick on commodity curve, which is one of my favorites,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1825,
+    "text": "and we've seen it go through all cycles. So yes, there was an era where commodity curve was alpha,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1830,
+    "text": "where there was just a lack of risk being deployed into the strategy,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1836,
+    "text": "and it was delivering well above the reasonable compensated sharp ratios."
+  },
+  {
+    "speaker": 1,
+    "ts": 1841,
+    "text": "Then it's gone through most of the last 20 years, where it's behaved as a reasonable factor"
+  },
+  {
+    "speaker": 1,
+    "ts": 1846,
+    "text": "delivering a sharp ratio of about one, which, by the way, is still pretty great for something"
+  },
+  {
+    "speaker": 1,
+    "ts": 1850,
+    "text": "that is broadly uncorrelated with equity risk premium and other factors."
+  },
+  {
+    "speaker": 1,
+    "ts": 1855,
+    "text": "Where it gets crowded, and I remember this in contrast to what happened earlier this year,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1861,
+    "text": "I remember summer of 2012, there was the worst drought on record in North America."
+  },
+  {
+    "speaker": 1,
+    "ts": 1867,
+    "text": "And so you had drawdowns start from natural gas, so it was hot, and there was a drawdown,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1873,
+    "text": "natural gas, corn, soybeans. But then we did start to see that contagion"
+  },
+  {
+    "speaker": 1,
+    "ts": 1879,
+    "text": "that we didn't see earlier this year. We started to see that contagion spread to other areas,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1884,
+    "text": "and that's a sign of crowding. After we identified the co-movement in these time spirits that"
+  },
+  {
+    "speaker": 1,
+    "ts": 1890,
+    "text": "otherwise should be uncorrelated, we started pushing more and understanding some other banks"
+  },
+  {
+    "speaker": 1,
+    "ts": 1896,
+    "text": "had sold 15 times levered structured notes linked to the commodity curve complex"
+  },
+  {
+    "speaker": 1,
+    "ts": 1904,
+    "text": "with a knockout that was down, if the strategy was down 2%."
+  },
+  {
+    "speaker": 1,
+    "ts": 1908,
+    "text": "And so that is exactly the type of mechanism that leads to not only has this thing become crowded"
+  },
+  {
+    "speaker": 1,
+    "ts": 1914,
+    "text": "because you've made it very easily accessible to the market with leverage, but you will also add"
+  },
+  {
+    "speaker": 1,
+    "ts": 1921,
+    "text": "a trigger point that a real insurance event will cause a rush to the exit."
+  },
+  {
+    "speaker": 1,
+    "ts": 1927,
+    "text": "So let's just run with that a little bit on the crowding side, because we're coming off of this"
+  },
+  {
+    "speaker": 1,
+    "ts": 1932,
+    "text": "unwind of this gigantic portfolio situational awareness running forex levered in an environment"
+  },
+  {
+    "speaker": 1,
+    "ts": 1940,
+    "text": "in which those names had already become incredibly volatile. And so if you are along for the ride,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1946,
+    "text": "you got to pay attention to folks that may be in over their skis from a sizing standpoint."
+  },
+  {
+    "speaker": 1,
+    "ts": 1953,
+    "text": "And crowding is something that just changes the reaction function. If enough people have to get"
+  },
+  {
+    "speaker": 1,
+    "ts": 1960,
+    "text": "out at the same time, it's definitely a risk management input that you want to learn about."
+  },
+  {
+    "speaker": 1,
+    "ts": 1965,
+    "text": "It's hard. It's hard to measure crowding. I just love for you to just talk a little bit more about"
+  },
+  {
+    "speaker": 1,
+    "ts": 1970,
+    "text": "how you and your team think about that as you design trades. You want to avoid crowding,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1976,
+    "text": "but I can imagine that you've got competitors around the street. They're similarly engaged in"
+  },
+  {
+    "speaker": 1,
+    "ts": 1982,
+    "text": "trying to craft trading strategies, and you might wind up in the same place in your search"
+  },
+  {
+    "speaker": 1,
+    "ts": 1986,
+    "text": "for alpha. Just talk to us about that crowding identification process."
+  },
+  {
+    "speaker": 1,
+    "ts": 1991,
+    "text": "That's exactly the point. And crowding is one of the three classic forms of failure in the QIS"
+  },
+  {
+    "speaker": 1,
+    "ts": 1996,
+    "text": "space. Crowding your strategy that used to work got really popular. What's interesting is it's"
+  },
+  {
+    "speaker": 1,
+    "ts": 2001,
+    "text": "hard to tell if a strategy is crowded in the beginning because, yes, the premium is getting"
+  },
+  {
+    "speaker": 1,
+    "ts": 2006,
+    "text": "compressed, but the inflows actually are driving the value of that portfolio up. So you have"
+  },
+  {
+    "speaker": 1,
+    "ts": 2013,
+    "text": "that performance that it's just because you have more investors coming into the space."
+  },
+  {
+    "speaker": 1,
+    "ts": 2019,
+    "text": "Then it's usually discovered when a tail event hits, and usually a small tail event would cause"
+  },
+  {
+    "speaker": 1,
+    "ts": 2025,
+    "text": "a small unwind, but because you have leverage in the system as well, you get a levered unwind."
+  },
+  {
+    "speaker": 1,
+    "ts": 2031,
+    "text": "So the assumption is that correlation is going to save you, but ultimately the market's overwhelmed"
+  },
+  {
+    "speaker": 1,
+    "ts": 2036,
+    "text": "by this correlated unwind. Passive exporters tend to be especially susceptible to crowding."
+  },
+  {
+    "speaker": 1,
+    "ts": 2043,
+    "text": "There are a lot of tools to understand the risks. It takes someone actually paying attention to them."
+  },
+  {
+    "speaker": 1,
+    "ts": 2048,
+    "text": "The investor, the fiduciary, the bank can help that as well, but there's also something that"
+  },
+  {
+    "speaker": 1,
+    "ts": 2055,
+    "text": "goes against human psychology of you want to stay in the winners and often the crowded strategies"
+  },
+  {
+    "speaker": 1,
+    "ts": 2062,
+    "text": "are outperforming before they break. So crowding can show up in the correlation. If math and the"
+  },
+  {
+    "speaker": 1,
+    "ts": 2068,
+    "text": "theory don't align, it's usually time to take a deeper look. If we go back a decade, we were in"
+  },
+  {
+    "speaker": 1,
+    "ts": 2074,
+    "text": "this incredibly low inflation environment. Rates were low, vol was low, and there didn't seem to be"
+  },
+  {
+    "speaker": 1,
+    "ts": 2081,
+    "text": "any end in sight. And of course, today we've got an entirely new set of prices. The back end of the"
+  },
+  {
+    "speaker": 1,
+    "ts": 2089,
+    "text": "bond market is 5.3%, at least in the 30-year. The crude is at 93. So there's a lot of change."
+  },
+  {
+    "speaker": 1,
+    "ts": 2096,
+    "text": "How does the change in the setup of market prices impact the structuring work that you do?"
+  },
+  {
+    "speaker": 1,
+    "ts": 2104,
+    "text": "So it's a really good question, and I think it begs the question of the whole process of how"
+  },
+  {
+    "speaker": 1,
+    "ts": 2108,
+    "text": "strategies are developed in the first place. This whole industry is pun intended, over-indexed"
+  },
+  {
+    "speaker": 1,
+    "ts": 2115,
+    "text": "on back tests. Some folks have called it the back-testing Olympics. It's really important again,"
+  },
+  {
+    "speaker": 1,
+    "ts": 2121,
+    "text": "I've mentioned many times now, the importance of starting with the hypothesis, starting with an"
+  },
+  {
+    "speaker": 1,
+    "ts": 2125,
+    "text": "economic observation, starting with understanding who's on the other side of the trade, and then"
+  },
+  {
+    "speaker": 1,
+    "ts": 2132,
+    "text": "going to test that analysis. And before you run your first back test, you want to understand what"
+  },
+  {
+    "speaker": 1,
+    "ts": 2137,
+    "text": "the data looks like. I'm a big believer in actually pulling your data together and looking at it."
+  },
+  {
+    "speaker": 1,
+    "ts": 2141,
+    "text": "But then you also want to test the dependency of that data on different regimes. And it has been"
+  },
+  {
+    "speaker": 1,
+    "ts": 2148,
+    "text": "hard. So there are certain strategies, so for example, not surprising that inflation hedging"
+  },
+  {
+    "speaker": 1,
+    "ts": 2154,
+    "text": "is very topical right now. And it's really hard to test what inflation hedging strategies,"
+  },
+  {
+    "speaker": 1,
+    "ts": 2161,
+    "text": "how they would have performed in prior regimes of higher rising inflation."
+  },
+  {
+    "speaker": 1,
+    "ts": 2166,
+    "text": "Just not that much of it, right? So understanding the macro footprint of these strategies is really"
+  },
+  {
+    "speaker": 1,
+    "ts": 2172,
+    "text": "important. And that actually brings into the fold an important set of partners that we haven't"
+  },
+  {
+    "speaker": 1,
+    "ts": 2177,
+    "text": "mentioned, which is our strategists. Having the conviction to say, this doesn't look right in"
+  },
+  {
+    "speaker": 1,
+    "ts": 2183,
+    "text": "the back test, but it makes sense economically in this regime is a much harder thing to do,"
+  },
+  {
+    "speaker": 1,
+    "ts": 2190,
+    "text": "but does often lead to better outcomes. And another just critical partner for"
+  },
+  {
+    "speaker": 1,
+    "ts": 2196,
+    "text": "you in the business is the client. And I can imagine that so much of the exploration and"
+  },
+  {
+    "speaker": 1,
+    "ts": 2201,
+    "text": "the product development is you guys are solving problems. And a lot of that just comes from"
+  },
+  {
+    "speaker": 1,
+    "ts": 2206,
+    "text": "helping or hearing and listening to what clients are up against. Just love for you to take us"
+  },
+  {
+    "speaker": 1,
+    "ts": 2211,
+    "text": "through a little bit of that process of the interaction with clients as an impetus for the"
+  },
+  {
+    "speaker": 1,
+    "ts": 2218,
+    "text": "product development cycle and how you iterate with clients."
+  },
+  {
+    "speaker": 1,
+    "ts": 2222,
+    "text": "I'll break clients down into two buckets on the institutional side. There are active users"
+  },
+  {
+    "speaker": 1,
+    "ts": 2229,
+    "text": "who will either come to us and say, I want your EMFX carry strategy, send me your one to 10 tickers"
+  },
+  {
+    "speaker": 1,
+    "ts": 2235,
+    "text": "you have in the space and all of the metadata on it. And then there are also folks who have been"
+  },
+  {
+    "speaker": 1,
+    "ts": 2240,
+    "text": "very active in the QIS space for a long time who are frankly part of the research process."
+  },
+  {
+    "speaker": 1,
+    "ts": 2246,
+    "text": "We'll be doing some analysis and new strategy. So you'll have the structure who will initially"
+  },
+  {
+    "speaker": 1,
+    "ts": 2251,
+    "text": "talk to trading and to sales and to our quant team and research. And then we'll have a set of"
+  },
+  {
+    "speaker": 1,
+    "ts": 2256,
+    "text": "clients, we'll sit down and say, okay, which clients we think are going to give us really"
+  },
+  {
+    "speaker": 1,
+    "ts": 2260,
+    "text": "good feedback on this. And by good feedback, I don't mean they're going to say, great job."
+  },
+  {
+    "speaker": 1,
+    "ts": 2265,
+    "text": "They're going to ask us questions to tear it apart, because we want to break the strategy"
+  },
+  {
+    "speaker": 1,
+    "ts": 2269,
+    "text": "before it goes live. And that's genuinely one of the most rewarding parts of the job."
+  },
+  {
+    "speaker": 1,
+    "ts": 2275,
+    "text": "And then there are clients who are, and there's a lot of folks in this camp now who are,"
+  },
+  {
+    "speaker": 1,
+    "ts": 2280,
+    "text": "shall we say QIS curious, who are trying to understand this space. They don't come to us and"
+  },
+  {
+    "speaker": 1,
+    "ts": 2286,
+    "text": "say, what's your EMFX carry strategy? Or can you show me your dynamic put ratio strategy?"
+  },
+  {
+    "speaker": 1,
+    "ts": 2293,
+    "text": "They come and say, this is the problem I'm trying to solve. Sometimes they can't even"
+  },
+  {
+    "speaker": 1,
+    "ts": 2298,
+    "text": "articulate the problem they're trying to solve. But some of the key themes we're hearing from,"
+  },
+  {
+    "speaker": 1,
+    "ts": 2303,
+    "text": "especially the asset on our community right now, we already mentioned inflation hedging,"
+  },
+  {
+    "speaker": 1,
+    "ts": 2307,
+    "text": "very topical, tail risk hedging topical in this environment. The constant challenge with tail"
+  },
+  {
+    "speaker": 1,
+    "ts": 2313,
+    "text": "risk hedging is that there are plenty of hedges that you can put on, but timing that is hard."
+  },
+  {
+    "speaker": 1,
+    "ts": 2318,
+    "text": "So folks tend to come to QIS, as opposed to a tactical solution, when they want to find something"
+  },
+  {
+    "speaker": 1,
+    "ts": 2324,
+    "text": "where the carry isn't so expensive that they can hold it until whatever tail event they were"
+  },
+  {
+    "speaker": 1,
+    "ts": 2328,
+    "text": "worried about is actually realized. Uncorrelated absolute return, always invoke, of course."
+  },
+  {
+    "speaker": 1,
+    "ts": 2335,
+    "text": "And actually, de-dollarization is a trend that's coming up. So folks tend to come to us"
+  },
+  {
+    "speaker": 1,
+    "ts": 2340,
+    "text": "more with those sorts of inquiries, and then we'll help them navigate to the pros and cons,"
+  },
+  {
+    "speaker": 1,
+    "ts": 2346,
+    "text": "and what economically should make sense. And how do we take the fact that we have the ability"
+  },
+  {
+    "speaker": 1,
+    "ts": 2351,
+    "text": "to package a bunch of dynamic positions all up, variance, swap, replication into a convenient,"
+  },
+  {
+    "speaker": 1,
+    "ts": 2357,
+    "text": "by the way, very cash efficient format, which has become increasingly important, given all the"
+  },
+  {
+    "speaker": 1,
+    "ts": 2364,
+    "text": "cash seems to be getting deployed into private assets these days. Another area of engagement"
+  },
+  {
+    "speaker": 1,
+    "ts": 2369,
+    "text": "absolutely with clients is, I think, investors on the institutional side are becoming much more"
+  },
+  {
+    "speaker": 1,
+    "ts": 2376,
+    "text": "proactive about setting up the governance in a way that allows their program in QIS to be successful."
+  },
+  {
+    "speaker": 1,
+    "ts": 2385,
+    "text": "Very curious about tell us where programs have worked and tell us where programs haven't."
+  },
+  {
+    "speaker": 1,
+    "ts": 2391,
+    "text": "Help educate us about how and why this factor makes money. Again, who is actually paying me"
+  },
+  {
+    "speaker": 1,
+    "ts": 2400,
+    "text": "to take on this risk? And so we also spend a lot of time educating clients, literally going through"
+  },
+  {
+    "speaker": 1,
+    "ts": 2405,
+    "text": "one fund we're working with where we're doing monthly teachings in a space and going through,"
+  },
+  {
+    "speaker": 1,
+    "ts": 2411,
+    "text": "here are the fundamentals, here's from the other side, here's when it works, here's when it doesn't"
+  },
+  {
+    "speaker": 1,
+    "ts": 2416,
+    "text": "work, so that they can document that and prepare for, again, long-term sustainable governance plan."
+  },
+  {
+    "speaker": 1,
+    "ts": 2423,
+    "text": "So in terms of what is currently topical, you certainly piqued my interest with"
+  },
+  {
+    "speaker": 1,
+    "ts": 2427,
+    "text": "de-dollarization. In what context and what are the set of potential exposures that might offset that?"
+  },
+  {
+    "speaker": 1,
+    "ts": 2435,
+    "text": "Work for a Canadian bank. Canadian investors have had a very favorable environment the last"
+  },
+  {
+    "speaker": 1,
+    "ts": 2441,
+    "text": "couple of decades, where if you look at the distribution, and I wish I had this chart handy,"
+  },
+  {
+    "speaker": 1,
+    "ts": 2448,
+    "text": "of the story simply, and this is not what a Canadian pension portfolio looks like,"
+  },
+  {
+    "speaker": 1,
+    "ts": 2453,
+    "text": "but if you look at the distribution of the 60-40 portfolio, just S&P and Global Ag,"
+  },
+  {
+    "speaker": 1,
+    "ts": 2459,
+    "text": "that left tail is pretty harsh as a U.S. dollar-based investor. Canadian pensions have"
+  },
+  {
+    "speaker": 1,
+    "ts": 2466,
+    "text": "Canadian dollar liabilities, and hence, if they have not been hedging their long-dollar exposure"
+  },
+  {
+    "speaker": 1,
+    "ts": 2473,
+    "text": "for the last couple of decades, dollar has been a fantastic"
+  },
+  {
+    "speaker": 1,
+    "ts": 2477,
+    "text": "risk-off asset with flat positive carry. I mentioned earlier there's no such thing as a"
+  },
+  {
+    "speaker": 1,
+    "ts": 2484,
+    "text": "hedge with positive carry. Well, the dollar has acted, has behaved as one. However, again,"
+  },
+  {
+    "speaker": 1,
+    "ts": 2490,
+    "text": "given the outperformance of the U.S. economy, the preponderance of opportunities to invest,"
+  },
+  {
+    "speaker": 1,
+    "ts": 2497,
+    "text": "especially in privates, which have obviously been a growing theme, being very U.S. dominated,"
+  },
+  {
+    "speaker": 1,
+    "ts": 2503,
+    "text": "it's very hard to find great investment opportunities that have as much of a global footprint"
+  },
+  {
+    "speaker": 1,
+    "ts": 2508,
+    "text": "or a home currency footprint as some investors might like, and they find themselves running"
+  },
+  {
+    "speaker": 1,
+    "ts": 2516,
+    "text": "long 50% U.S. dollar overlay versus whatever the home currency is, and this"
+  },
+  {
+    "speaker": 1,
+    "ts": 2520,
+    "text": "isn't just something we've heard from Canadian investors. It's been true across the G10,"
+  },
+  {
+    "speaker": 1,
+    "ts": 2526,
+    "text": "and so how do you start to take some chips off the table in a thoughtful manner?"
+  },
+  {
+    "speaker": 1,
+    "ts": 2533,
+    "text": "And can you use factors to be more thoughtful about doing so?"
+  },
+  {
+    "speaker": 1,
+    "ts": 2540,
+    "text": "Well, let's talk about tail risk hedging. VIX makes its way into a lot of QIS strategies,"
+  },
+  {
+    "speaker": 1,
+    "ts": 2546,
+    "text": "either from an implementation standpoint. Sometimes I've seen the VIX term structure"
+  },
+  {
+    "speaker": 1,
+    "ts": 2553,
+    "text": "be used as a trigger to implement a hedge, so it's a timing vehicle as well. Give us the current"
+  },
+  {
+    "speaker": 1,
+    "ts": 2560,
+    "text": "state of what you see big picture on, let's just call it equity hedging, maybe you could call it"
+  },
+  {
+    "speaker": 1,
+    "ts": 2565,
+    "text": "equity tail hedging, but something where you're paying some version of carry and premium to protect"
+  },
+  {
+    "speaker": 1,
+    "ts": 2571,
+    "text": "against unwelcome scenarios. In this environment, we're not seeing as much demand for strategies"
+  },
+  {
+    "speaker": 1,
+    "ts": 2580,
+    "text": "where you pay away carry, which is a little bit counterintuitive given there's so much uncertainty"
+  },
+  {
+    "speaker": 1,
+    "ts": 2586,
+    "text": "bubbling under the surface. There's so much concentration risk, so we are seeing folks"
+  },
+  {
+    "speaker": 1,
+    "ts": 2592,
+    "text": "looking for strategies that have positive convexity. They're willing to trade off certainty"
+  },
+  {
+    "speaker": 1,
+    "ts": 2598,
+    "text": "in exchange for a lower cost of carry, and those strategies have been challenging. So"
+  },
+  {
+    "speaker": 1,
+    "ts": 2605,
+    "text": "intraday momentum has been a strategy that's been very popular. It's a great application of"
+  },
+  {
+    "speaker": 1,
+    "ts": 2611,
+    "text": "the more advanced QIS technology that the banks have rolled out. It's been challenging as it's"
+  },
+  {
+    "speaker": 1,
+    "ts": 2615,
+    "text": "been chopped up. Put ratios have been something that had been very popular. They performed very"
+  },
+  {
+    "speaker": 1,
+    "ts": 2621,
+    "text": "well through 2020 and then had compounded losses through Liberation Day, for example."
+  },
+  {
+    "speaker": 1,
+    "ts": 2626,
+    "text": "That's a sell one by two downside? Yes, you can weight it in different ratios, etc. But"
+  },
+  {
+    "speaker": 1,
+    "ts": 2633,
+    "text": "exactly you'd sell something that's closer at the money to fund tail risk. Other types of strategies"
+  },
+  {
+    "speaker": 1,
+    "ts": 2640,
+    "text": "that have been obviously classically defensive cross as a trend. That's one that folks continue"
+  },
+  {
+    "speaker": 1,
+    "ts": 2646,
+    "text": "to look to allocate to as trend is one of those, again, flat to positive carry strategies that"
+  },
+  {
+    "speaker": 1,
+    "ts": 2653,
+    "text": "can give you convexity in a slower drawdown. But I think in this environment, there's actually been"
+  },
+  {
+    "speaker": 1,
+    "ts": 2659,
+    "text": "more demand for strategies that can protect you against a shallow sell off because there's concern"
+  },
+  {
+    "speaker": 1,
+    "ts": 2665,
+    "text": "that it's going to continue to be a bit of a bumpy ride. You mentioned earlier just around 60-40"
+  },
+  {
+    "speaker": 1,
+    "ts": 2672,
+    "text": "and the 60-40 portfolio, it's an underpinning to a lot of how we've just come to think about"
+  },
+  {
+    "speaker": 1,
+    "ts": 2679,
+    "text": "risk and maybe defraying loss. That co-movement is very positive these days. The stock market and"
+  },
+  {
+    "speaker": 1,
+    "ts": 2686,
+    "text": "the bond market are more joined at the hip than the bond market being a defrayer of risk. Then"
+  },
+  {
+    "speaker": 1,
+    "ts": 2692,
+    "text": "within the equity market, we almost have the opposite, which is the correlation among stocks,"
+  },
+  {
+    "speaker": 1,
+    "ts": 2697,
+    "text": "at least as nerds like me look at it on a daily basis, is incredibly low. The dispersion trade"
+  },
+  {
+    "speaker": 1,
+    "ts": 2704,
+    "text": "is being done successfully at levels that we've never seen before because this realized correlation"
+  },
+  {
+    "speaker": 1,
+    "ts": 2710,
+    "text": "is just so low. I'd be curious to hear you talk through both of those, the high correlation between"
+  },
+  {
+    "speaker": 1,
+    "ts": 2716,
+    "text": "stocks and bonds and the very low correlation among stocks. For those who've been around for a"
+  },
+  {
+    "speaker": 1,
+    "ts": 2722,
+    "text": "couple years now, how do those realities make their way into the thought process and the"
+  },
+  {
+    "speaker": 1,
+    "ts": 2727,
+    "text": "structuring process? I think you combine that also with the interesting dynamics in the correlation"
+  },
+  {
+    "speaker": 1,
+    "ts": 2735,
+    "text": "between spot and vol, so between the returns in equities and the level of volatility in equities"
+  },
+  {
+    "speaker": 1,
+    "ts": 2743,
+    "text": "with vol having historically been a hedge for a sell-off. As I think a lot of the conversations"
+  },
+  {
+    "speaker": 1,
+    "ts": 2750,
+    "text": "we've been having with clients, we're trying to take another step back and identify what is the"
+  },
+  {
+    "speaker": 1,
+    "ts": 2757,
+    "text": "underlying economic driver of why that is the case. In the case of the stock bond correlation,"
+  },
+  {
+    "speaker": 1,
+    "ts": 2768,
+    "text": "a big part of the driver there is the inflationary pressures. Inflation has continued to run hot,"
+  },
+  {
+    "speaker": 1,
+    "ts": 2774,
+    "text": "and we know that that correlation tends to run positive when inflation is above 3%."
+  },
+  {
+    "speaker": 1,
+    "ts": 2781,
+    "text": "Hence, inflation hedging strategies are in demand. Folks are looking for diversification"
+  },
+  {
+    "speaker": 1,
+    "ts": 2788,
+    "text": "away from equities because equities themselves are great allocation, and when the music stops"
+  },
+  {
+    "speaker": 1,
+    "ts": 2795,
+    "text": "with regards to the outperformance of S&P 500, they're looking for how can they build"
+  },
+  {
+    "speaker": 1,
+    "ts": 2802,
+    "text": "a more robust diversified portfolio there. You mentioned dispersion, that's a trade that has"
+  },
+  {
+    "speaker": 1,
+    "ts": 2808,
+    "text": "welcomed quite a lot of debate and the QIS arena. Again, classic strategy where there are specialists"
+  },
+  {
+    "speaker": 1,
+    "ts": 2816,
+    "text": "that will run dispersion strategies on the buy side, certainly, but for folks who want to participate"
+  },
+  {
+    "speaker": 1,
+    "ts": 2821,
+    "text": "in that trade and don't want to put someone in the seat and don't want to build the infrastructure"
+  },
+  {
+    "speaker": 1,
+    "ts": 2825,
+    "text": "around it. It's a great example where leaning into a bank's existing infrastructure and the economies"
+  },
+  {
+    "speaker": 1,
+    "ts": 2830,
+    "text": "of scale has been topical, so being able to trade that more dynamically or opportunistically"
+  },
+  {
+    "speaker": 1,
+    "ts": 2837,
+    "text": "has become more topical. I'd love to turn things around and ask you what you think has been the"
+  },
+  {
+    "speaker": 1,
+    "ts": 2842,
+    "text": "primary driver of this historically low correlation within the S&P 500 that seems to be largely driven"
+  },
+  {
+    "speaker": 1,
+    "ts": 2850,
+    "text": "by AI and the rise there. What other drivers, because our clients are going to ask, how do I"
+  },
+  {
+    "speaker": 1,
+    "ts": 2856,
+    "text": "think about managing my AI risk, the fact that I have outsized allocation or risk exposure in"
+  },
+  {
+    "speaker": 1,
+    "ts": 2863,
+    "text": "some of these recent IPOs or the outperformers, and how do I make sure that I'm not missing the"
+  },
+  {
+    "speaker": 1,
+    "ts": 2869,
+    "text": "upside trade, hence partially why we've seen spotball correlation be positive on a rally?"
+  },
+  {
+    "speaker": 1,
+    "ts": 2876,
+    "text": "It's so interesting. I've been thinking about this so much and I throw a couple of things out"
+  },
+  {
+    "speaker": 1,
+    "ts": 2881,
+    "text": "there. One, of course, as you said, there is the AI versus the rest of the index,"
+  },
+  {
+    "speaker": 1,
+    "ts": 2887,
+    "text": "but the AI part of the index is also epically uncorrelated. Just looked at the correlation of"
+  },
+  {
+    "speaker": 1,
+    "ts": 2892,
+    "text": "Microsoft to the other six and the Mag7, and at least over the last month, it's negative."
+  },
+  {
+    "speaker": 1,
+    "ts": 2898,
+    "text": "It's just really hard to get equities to be negatively correlated to each other over a"
+  },
+  {
+    "speaker": 1,
+    "ts": 2903,
+    "text": "period of time. I'm not sure it's that. I throw retail in there as just a gigantic force in markets."
+  },
+  {
+    "speaker": 1,
+    "ts": 2912,
+    "text": "People say retail flow, dumb money, not really. It's pretty intelligent and thoughtful. It is a"
+  },
+  {
+    "speaker": 1,
+    "ts": 2918,
+    "text": "little bit of a herd. I don't know, maybe that they're so focused on the single stock stories one"
+  },
+  {
+    "speaker": 1,
+    "ts": 2924,
+    "text": "day at a time that that creates daily low correlation. The other part that I just more"
+  },
+  {
+    "speaker": 1,
+    "ts": 2931,
+    "text": "recently have been just struggling with is, if I look at realized correlation in the S&P,"
+  },
+  {
+    "speaker": 1,
+    "ts": 2935,
+    "text": "that's basically all time low, but I could do the same in the Euro stocks, the Nikkei, the CAC,"
+  },
+  {
+    "speaker": 1,
+    "ts": 2941,
+    "text": "the DAX, and those indices have less to do with AI, especially Europe. This low correlation"
+  },
+  {
+    "speaker": 1,
+    "ts": 2948,
+    "text": "is everywhere in equity markets. I just don't know if it's a case where the consumption of"
+  },
+  {
+    "speaker": 1,
+    "ts": 2956,
+    "text": "selling correlation is itself creating low correlation. I don't know. These are all"
+  },
+  {
+    "speaker": 1,
+    "ts": 2961,
+    "text": "unprovable, but it's a fascinating development."
+  },
+  {
+    "speaker": 1,
+    "ts": 2965,
+    "text": "It feels a bit like there's been a bit of a free hedge that has been riding under the surface while"
+  },
+  {
+    "speaker": 1,
+    "ts": 2972,
+    "text": "bonds haven't been doing their job to hedge. Equities have kind of stepped up the plate"
+  },
+  {
+    "speaker": 1,
+    "ts": 2977,
+    "text": "themselves, which means that when that breaks, things are going to be worse than perhaps the"
+  },
+  {
+    "speaker": 1,
+    "ts": 2985,
+    "text": "markets were prepared for. Another topic that circulates in QIS circles is fixed income replacement,"
+  },
+  {
+    "speaker": 1,
+    "ts": 2992,
+    "text": "fixed income beta replacement. Either actually, typically folks don't mean replacing duration,"
+  },
+  {
+    "speaker": 1,
+    "ts": 2997,
+    "text": "they typically mean replacing the role of a bond in a portfolio,"
+  },
+  {
+    "speaker": 1,
+    "ts": 3001,
+    "text": "coming back to that hedge with positive carry role."
+  },
+  {
+    "speaker": 1,
+    "ts": 3005,
+    "text": "Yeah, and I think that's the key is at least my own thinking on markets is we've had a great run."
+  },
+  {
+    "speaker": 1,
+    "ts": 3011,
+    "text": "You said it yourself, there's just so many sources of uncertainty. Oftentimes, the geopolitics makes"
+  },
+  {
+    "speaker": 1,
+    "ts": 3017,
+    "text": "for a great front page of the journal, but typically more bark than bite. But you have to think"
+  },
+  {
+    "speaker": 1,
+    "ts": 3023,
+    "text": "through these things and try to be careful. And I think that search for diversifiers,"
+  },
+  {
+    "speaker": 1,
+    "ts": 3029,
+    "text": "especially in the absence of the bond market doing what it used to do,"
+  },
+  {
+    "speaker": 1,
+    "ts": 3033,
+    "text": "is such a critical undertaking, I think, for all institutional investors."
+  },
+  {
+    "speaker": 1,
+    "ts": 3038,
+    "text": "I'd love to finish with what's in the lab. You guys are constantly in the lab thinking about"
+  },
+  {
+    "speaker": 1,
+    "ts": 3044,
+    "text": "what's next, how do we refine our products. You said spending a lot of time on the existing"
+  },
+  {
+    "speaker": 1,
+    "ts": 3051,
+    "text": "portfolio of trades in the market is certainly very valuable, but you're also forward thinking."
+  },
+  {
+    "speaker": 1,
+    "ts": 3057,
+    "text": "And the markets are always pushing us to develop new ideas. What are one or two that are just most"
+  },
+  {
+    "speaker": 1,
+    "ts": 3065,
+    "text": "topical or most interesting to you right now in terms of the product development cycle?"
+  },
+  {
+    "speaker": 1,
+    "ts": 3070,
+    "text": "They're generally going to be linked back to the themes that I mentioned."
+  },
+  {
+    "speaker": 1,
+    "ts": 3074,
+    "text": "So maybe on the uncorrelated absolute return space, commodity time spreads are an area of"
+  },
+  {
+    "speaker": 1,
+    "ts": 3080,
+    "text": "particular passion of mine. An interesting one where we're trying to combine all the anthologies"
+  },
+  {
+    "speaker": 1,
+    "ts": 3087,
+    "text": "together of some academic literature and working with our trading desk to understand how flows"
+  },
+  {
+    "speaker": 1,
+    "ts": 3094,
+    "text": "have evolved, trying to pull in some of those clients who have been great partners over time"
+  },
+  {
+    "speaker": 1,
+    "ts": 3100,
+    "text": "to get their thoughts in the space. So we definitely have some interesting things"
+  },
+  {
+    "speaker": 1,
+    "ts": 3104,
+    "text": "we're rolling out there, always a lot going on in the volatility space, both in the carry and RV"
+  },
+  {
+    "speaker": 1,
+    "ts": 3113,
+    "text": "space, as well as on the defensive side of things. And then fixed income is broadly a smaller market"
+  },
+  {
+    "speaker": 1,
+    "ts": 3120,
+    "text": "in QIS. QIS tends to be at the core concentrated in the equities and commodities land, but interest"
+  },
+  {
+    "speaker": 1,
+    "ts": 3127,
+    "text": "rates and interest rate volatility are clearly central to the broader macroeconomic shifts"
+  },
+  {
+    "speaker": 1,
+    "ts": 3134,
+    "text": "that we're going through. And rates vol in particular is another one of those assets that"
+  },
+  {
+    "speaker": 1,
+    "ts": 3142,
+    "text": "gives you an opportunity for a tremendous amount of granularity to park yourself at the intersection"
+  },
+  {
+    "speaker": 1,
+    "ts": 3149,
+    "text": "of different market participants where there's shifting flows, but where you have folks who are"
+  },
+  {
+    "speaker": 1,
+    "ts": 3154,
+    "text": "looking to buy insurance and then some other sources of convexity where you can buy yourself some"
+  },
+  {
+    "speaker": 1,
+    "ts": 3161,
+    "text": "protection. And I can imagine that the rates vol component of markets is one in which QIS sets up"
+  },
+  {
+    "speaker": 1,
+    "ts": 3170,
+    "text": "quite well in the sense that the end user to speak the language of rates vol is very much a"
+  },
+  {
+    "speaker": 1,
+    "ts": 3177,
+    "text": "function of being in rates vol for a long time. And so having it packaged up, I think, and delivered"
+  },
+  {
+    "speaker": 1,
+    "ts": 3183,
+    "text": "in a way that someone who's not native to that market can access the big picture concepts without"
+  },
+  {
+    "speaker": 1,
+    "ts": 3190,
+    "text": "having to spend all day with so much of the microstructure of the markets, I think we would"
+  },
+  {
+    "speaker": 1,
+    "ts": 3195,
+    "text": "seem that QIS could do a great job in delivering that to the end user. In rates vol, an equity vol"
+  },
+  {
+    "speaker": 1,
+    "ts": 3203,
+    "text": "in whether it's equity financing trades or commodity markets, I think the real value of QIS is"
+  },
+  {
+    "speaker": 1,
+    "ts": 3211,
+    "text": "partially the efficient market access. But it's making sure that when you tap into the efficient"
+  },
+  {
+    "speaker": 1,
+    "ts": 3216,
+    "text": "market access, that it doesn't become a shortcut that hardens you from continuing to do the work"
+  },
+  {
+    "speaker": 1,
+    "ts": 3223,
+    "text": "of understanding the exposures you have on. And so I do think that there's this constant cycle"
+  },
+  {
+    "speaker": 1,
+    "ts": 3230,
+    "text": "of being deeply curious and having humility as you approach these markets because they'll surprise"
+  },
+  {
+    "speaker": 1,
+    "ts": 3237,
+    "text": "you constantly. And when things break, that's an opportunity to learn. When they're working,"
+  },
+  {
+    "speaker": 1,
+    "ts": 3243,
+    "text": "that's an opportunity to learn. And making sure that we're constantly helping clients understand"
+  },
+  {
+    "speaker": 1,
+    "ts": 3249,
+    "text": "the risks that are in their portfolios and making sure that the risks that make sense"
+  },
+  {
+    "speaker": 1,
+    "ts": 3255,
+    "text": "given their role in the ecosystem. Well, Kimberly, it's been great to connect,"
+  },
+  {
+    "speaker": 1,
+    "ts": 3259,
+    "text": "it's been great to host this conversation, and I really thank you for being a guest today."
+  },
+  {
+    "speaker": 1,
+    "ts": 3263,
+    "text": "Likewise, thank you. This has been a lot of fun."
+  },
+  {
+    "speaker": 1,
+    "ts": 3266,
+    "text": "You've been listening to the Alpha Exchange. If you've enjoyed the show, please do tell a friend."
+  },
+  {
+    "speaker": 1,
+    "ts": 3271,
+    "text": "And before we leave, I wanted to invite you to drop us some feedback."
+  },
+  {
+    "speaker": 1,
+    "ts": 3275,
+    "text": "As we aim to utilize these conversations to contribute to the investment community's"
+  },
+  {
+    "speaker": 1,
+    "ts": 3279,
+    "text": "understanding of risk, your input is valuable and provides direction on where we should focus."
+  },
+  {
+    "speaker": 1,
+    "ts": 3285,
+    "text": "Please email us at feedback at alphaexchangepodcast.com."
+  },
+  {
+    "speaker": 1,
+    "ts": 3290,
+    "text": "Thanks again and catch you next time."
+  }
+]

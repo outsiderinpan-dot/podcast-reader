@@ -1,0 +1,2637 @@
+[
+  {
+    "speaker": 1,
+    "ts": 0,
+    "text": "The last time we sat down to talk about AI and power, the debate was whether the grid"
+  },
+  {
+    "speaker": 1,
+    "ts": 23,
+    "text": "could handle it."
+  },
+  {
+    "speaker": 1,
+    "ts": 24,
+    "text": "That question has now been answered in basically the least comforting way possible, partly"
+  },
+  {
+    "speaker": 1,
+    "ts": 29,
+    "text": "unevenly and expensively."
+  },
+  {
+    "speaker": 1,
+    "ts": 31,
+    "text": "Welcome back to AI Exchanges."
+  },
+  {
+    "speaker": 1,
+    "ts": 33,
+    "text": "I'm Allison Nathan and I'm here together with George Lee, the co-head of the Goldman"
+  },
+  {
+    "speaker": 1,
+    "ts": 37,
+    "text": "Sachs Global Institute."
+  },
+  {
+    "speaker": 1,
+    "ts": 39,
+    "text": "Together we're co-hosting a series of episodes, exploring the rise of AI and everything it"
+  },
+  {
+    "speaker": 1,
+    "ts": 43,
+    "text": "could mean for companies, investors, and economies."
+  },
+  {
+    "speaker": 1,
+    "ts": 46,
+    "text": "George, great to see you again."
+  },
+  {
+    "speaker": 1,
+    "ts": 51,
+    "text": "Great to be here."
+  },
+  {
+    "speaker": 1,
+    "ts": 52,
+    "text": "So George, let's first set the table for people who have followed this series."
+  },
+  {
+    "speaker": 1,
+    "ts": 56,
+    "text": "When we first covered this topic, the shorthand was basically that AI would drive a step change"
+  },
+  {
+    "speaker": 1,
+    "ts": 63,
+    "text": "in data center power demand after nearly two decades of essentially flat electricity load."
+  },
+  {
+    "speaker": 1,
+    "ts": 69,
+    "text": "But since then, demand forecasts have gone up again, even as we've discussed many times,"
+  },
+  {
+    "speaker": 1,
+    "ts": 74,
+    "text": "models have become more efficient."
+  },
+  {
+    "speaker": 1,
+    "ts": 76,
+    "text": "The binding constraint has migrated away from megawatts and towards what I think of as all"
+  },
+  {
+    "speaker": 1,
+    "ts": 81,
+    "text": "the T's."
+  },
+  {
+    "speaker": 1,
+    "ts": 82,
+    "text": "We have turbines, transformers, transmission, and tradespeople."
+  },
+  {
+    "speaker": 1,
+    "ts": 85,
+    "text": "So new constraints entering the picture and the politics have arrived."
+  },
+  {
+    "speaker": 1,
+    "ts": 90,
+    "text": "So we have regulators, ratepayers, and neighbors now really having a seat at the table and"
+  },
+  {
+    "speaker": 1,
+    "ts": 95,
+    "text": "having a lot to say about this topic."
+  },
+  {
+    "speaker": 1,
+    "ts": 98,
+    "text": "So before we bring in the expert, George, what's the single biggest thing that's changed"
+  },
+  {
+    "speaker": 1,
+    "ts": 102,
+    "text": "in your mind on this topic?"
+  },
+  {
+    "speaker": 1,
+    "ts": 104,
+    "text": "I think one thing that kind of syncs with my expectations is the demand cycle continues."
+  },
+  {
+    "speaker": 1,
+    "ts": 109,
+    "text": "And what's fascinating is to watch as you described the supply chain gets stretched"
+  },
+  {
+    "speaker": 1,
+    "ts": 114,
+    "text": "all the way back from models, but to all of the physical affordances, really almost"
+  },
+  {
+    "speaker": 1,
+    "ts": 119,
+    "text": "all the way back to the base elements."
+  },
+  {
+    "speaker": 1,
+    "ts": 121,
+    "text": "And so this is one of the most complex, intricate, and global supply chains in the world."
+  },
+  {
+    "speaker": 1,
+    "ts": 127,
+    "text": "And it'd be fascinating to talk with our guests today about how that's playing out, where"
+  },
+  {
+    "speaker": 1,
+    "ts": 131,
+    "text": "the real bottlenecks are, and whether we can navigate those bottlenecks and the political"
+  },
+  {
+    "speaker": 1,
+    "ts": 137,
+    "text": "issues you described."
+  },
+  {
+    "speaker": 1,
+    "ts": 138,
+    "text": "Yes."
+  },
+  {
+    "speaker": 1,
+    "ts": 139,
+    "text": "So we have brought in what we think of as exactly the right people to talk about this"
+  },
+  {
+    "speaker": 1,
+    "ts": 142,
+    "text": "and help us untangle it all."
+  },
+  {
+    "speaker": 1,
+    "ts": 143,
+    "text": "Joining us again are my colleagues in Goldman Sachs Research, Brian Singer and Carly Davenport."
+  },
+  {
+    "speaker": 1,
+    "ts": 148,
+    "text": "Brian is the global head of GS Sustain, and he thinks about the innovation cycle and the"
+  },
+  {
+    "speaker": 1,
+    "ts": 154,
+    "text": "sustainability trade-offs of all of this."
+  },
+  {
+    "speaker": 1,
+    "ts": 156,
+    "text": "Carly is our America's utility team senior analyst."
+  },
+  {
+    "speaker": 1,
+    "ts": 160,
+    "text": "She puts the numbers on just how much power we're going to need and where it's all going"
+  },
+  {
+    "speaker": 1,
+    "ts": 164,
+    "text": "to come from."
+  },
+  {
+    "speaker": 1,
+    "ts": 165,
+    "text": "So, Brian Carly, welcome to the program."
+  },
+  {
+    "speaker": 1,
+    "ts": 167,
+    "text": "Thanks for having us."
+  },
+  {
+    "speaker": 1,
+    "ts": 168,
+    "text": "Thank you."
+  },
+  {
+    "speaker": 1,
+    "ts": 169,
+    "text": "Great to have you both."
+  },
+  {
+    "speaker": 1,
+    "ts": 170,
+    "text": "Carly, let's start with you."
+  },
+  {
+    "speaker": 1,
+    "ts": 172,
+    "text": "You and your team recently raised your overall U.S. power demand outlook."
+  },
+  {
+    "speaker": 1,
+    "ts": 177,
+    "text": "What prompted that change, and where does it leave us in terms of power demand?"
+  },
+  {
+    "speaker": 1,
+    "ts": 180,
+    "text": "Yes."
+  },
+  {
+    "speaker": 1,
+    "ts": 181,
+    "text": "So we recently raised our forecast up to a 3.5% cager through 2030, and that was up"
+  },
+  {
+    "speaker": 1,
+    "ts": 186,
+    "text": "from our prior forecast of about 3.2% cager through 2030."
+  },
+  {
+    "speaker": 1,
+    "ts": 190,
+    "text": "And we continue to be convicted in the demand cycle, as George was just mentioning."
+  },
+  {
+    "speaker": 1,
+    "ts": 195,
+    "text": "As we think about where we sit today in power demand growth, year-to-date we're up over"
+  },
+  {
+    "speaker": 1,
+    "ts": 199,
+    "text": "4%."
+  },
+  {
+    "speaker": 1,
+    "ts": 200,
+    "text": "And so we feel like we're already on our road to maintaining that 3% cager through 2030."
+  },
+  {
+    "speaker": 1,
+    "ts": 205,
+    "text": "Now what drove that forecast change?"
+  },
+  {
+    "speaker": 1,
+    "ts": 208,
+    "text": "The main thing was a positive revision in our data center power demand outlook."
+  },
+  {
+    "speaker": 1,
+    "ts": 212,
+    "text": "We use a data set from 451 research, and we saw a couple of things change."
+  },
+  {
+    "speaker": 1,
+    "ts": 217,
+    "text": "One is a lot of new projects were added to the queue as we continue to see focused development"
+  },
+  {
+    "speaker": 1,
+    "ts": 222,
+    "text": "in this area."
+  },
+  {
+    "speaker": 1,
+    "ts": 224,
+    "text": "And that has taken our data center power demand in 2030 up to about 108 gigawatts."
+  },
+  {
+    "speaker": 1,
+    "ts": 230,
+    "text": "Up from about 83 gigawatts before."
+  },
+  {
+    "speaker": 1,
+    "ts": 233,
+    "text": "So there's new projects being added that's point number one."
+  },
+  {
+    "speaker": 1,
+    "ts": 236,
+    "text": "Point number two is we're also seeing increased utilization of the existing data centers that"
+  },
+  {
+    "speaker": 1,
+    "ts": 240,
+    "text": "we have."
+  },
+  {
+    "speaker": 1,
+    "ts": 241,
+    "text": "So we've seen vacancy rates on data centers in the U.S. coming down across all of the"
+  },
+  {
+    "speaker": 1,
+    "ts": 246,
+    "text": "major data center markets."
+  },
+  {
+    "speaker": 1,
+    "ts": 248,
+    "text": "They're sitting today around 1% to 2%."
+  },
+  {
+    "speaker": 1,
+    "ts": 251,
+    "text": "Over the last few years they were ranging from about 2% to 7%."
+  },
+  {
+    "speaker": 1,
+    "ts": 255,
+    "text": "So we're seeing increased utilization and occupancy of existing infrastructure in addition"
+  },
+  {
+    "speaker": 1,
+    "ts": 261,
+    "text": "to the new projects that are getting added."
+  },
+  {
+    "speaker": 1,
+    "ts": 263,
+    "text": "And we forecast about a 3% vacancy rate in 2030 on a U.S. average basis."
+  },
+  {
+    "speaker": 1,
+    "ts": 268,
+    "text": "Brian it seems like just yesterday you were here with us but it was March."
+  },
+  {
+    "speaker": 1,
+    "ts": 272,
+    "text": "And at that time you just raised your data center power demand estimates."
+  },
+  {
+    "speaker": 1,
+    "ts": 276,
+    "text": "So here we are three or four months later."
+  },
+  {
+    "speaker": 1,
+    "ts": 279,
+    "text": "Last year we talked a lot about the impact of potential efficiency gains on that number."
+  },
+  {
+    "speaker": 1,
+    "ts": 284,
+    "text": "How has it played out from your perspective especially with the rise of agentic AI which"
+  },
+  {
+    "speaker": 1,
+    "ts": 289,
+    "text": "remarkably it was starting to inflect at the beginning of this year but is only continued"
+  },
+  {
+    "speaker": 1,
+    "ts": 294,
+    "text": "to grow."
+  },
+  {
+    "speaker": 1,
+    "ts": 295,
+    "text": "Yeah good question."
+  },
+  {
+    "speaker": 1,
+    "ts": 296,
+    "text": "If we go back to that period at the beginning of March we were projecting and our analysts"
+  },
+  {
+    "speaker": 1,
+    "ts": 300,
+    "text": "were projecting hyperscalar spending was at about 1.2 trillion for 2027."
+  },
+  {
+    "speaker": 1,
+    "ts": 306,
+    "text": "That's 1.7 trillion net."
+  },
+  {
+    "speaker": 1,
+    "ts": 309,
+    "text": "Our spending for 2029 was projected at 1.5 trillion."
+  },
+  {
+    "speaker": 1,
+    "ts": 312,
+    "text": "That's today at 2.1 trillion."
+  },
+  {
+    "speaker": 1,
+    "ts": 314,
+    "text": "So let's just start right there."
+  },
+  {
+    "speaker": 1,
+    "ts": 316,
+    "text": "That's a significant increase over a multi-year period in hyperscalar expected spending."
+  },
+  {
+    "speaker": 1,
+    "ts": 323,
+    "text": "Now let's work our way down to get to power demand and Carly referenced the 25% increase"
+  },
+  {
+    "speaker": 1,
+    "ts": 327,
+    "text": "in 2030 capacity build out."
+  },
+  {
+    "speaker": 1,
+    "ts": 330,
+    "text": "Additionally our TMT teams have raised their expectations for the shipments of AI related"
+  },
+  {
+    "speaker": 1,
+    "ts": 335,
+    "text": "servers."
+  },
+  {
+    "speaker": 1,
+    "ts": 337,
+    "text": "It's hard to ignore when you have all of those factors to not further raise forecasts even"
+  },
+  {
+    "speaker": 1,
+    "ts": 343,
+    "text": "though it's only been a handful of months and so that's what we've done."
+  },
+  {
+    "speaker": 1,
+    "ts": 347,
+    "text": "If we look globally so not just the U.S. but globally we see data center power demand in"
+  },
+  {
+    "speaker": 1,
+    "ts": 351,
+    "text": "2030 up about 170% from 2025 levels."
+  },
+  {
+    "speaker": 1,
+    "ts": 356,
+    "text": "We were at about 117% back at the beginning of March when we last spoke."
+  },
+  {
+    "speaker": 1,
+    "ts": 361,
+    "text": "So to put in perspective what is AI doing from a power demand perspective in addition"
+  },
+  {
+    "speaker": 1,
+    "ts": 366,
+    "text": "to data centers if we start the clock at the beginning of 2024 so the seven year period"
+  },
+  {
+    "speaker": 1,
+    "ts": 372,
+    "text": "through the end of the decade it's adding the power equivalent of the whole country"
+  },
+  {
+    "speaker": 1,
+    "ts": 376,
+    "text": "of Japan which is the number five power consuming country."
+  },
+  {
+    "speaker": 1,
+    "ts": 379,
+    "text": "So this is really significant thus far to your question on productivity."
+  },
+  {
+    "speaker": 1,
+    "ts": 384,
+    "text": "We haven't seen the productivity gains impact and negatively impact tech R&D budgets and"
+  },
+  {
+    "speaker": 1,
+    "ts": 389,
+    "text": "this is the big question out there as we think about the cycle is when will we get to a point"
+  },
+  {
+    "speaker": 1,
+    "ts": 395,
+    "text": "where consumers will see these productivity gains and say instead of spending the same"
+  },
+  {
+    "speaker": 1,
+    "ts": 400,
+    "text": "amount of money and consuming more tokens and compute I'm going to spend less money and"
+  },
+  {
+    "speaker": 1,
+    "ts": 405,
+    "text": "consume the same tokens and compute."
+  },
+  {
+    "speaker": 1,
+    "ts": 407,
+    "text": "I don't think we're there yet."
+  },
+  {
+    "speaker": 1,
+    "ts": 408,
+    "text": "Are we at a point today where consumers will think we can lower our tech R&D budgets and"
+  },
+  {
+    "speaker": 1,
+    "ts": 415,
+    "text": "not worry about our competitive positioning."
+  },
+  {
+    "speaker": 1,
+    "ts": 417,
+    "text": "I'm not sure we're there yet."
+  },
+  {
+    "speaker": 1,
+    "ts": 418,
+    "text": "Now you're in the middle of this and in the weeds every day."
+  },
+  {
+    "speaker": 1,
+    "ts": 421,
+    "text": "So I'm certainly interested in your view."
+  },
+  {
+    "speaker": 1,
+    "ts": 423,
+    "text": "Yeah I think what's fascinating about it is that all those expected or anticipated efficiency"
+  },
+  {
+    "speaker": 1,
+    "ts": 428,
+    "text": "gains are actually happening and yet the demand profile is both recovering those and expanding"
+  },
+  {
+    "speaker": 1,
+    "ts": 435,
+    "text": "at the rate you described."
+  },
+  {
+    "speaker": 1,
+    "ts": 436,
+    "text": "So the hill you describe is so steep on its face but it's actually almost greater than"
+  },
+  {
+    "speaker": 1,
+    "ts": 442,
+    "text": "it would seem because there is token efficiency taking hold in all of these systems."
+  },
+  {
+    "speaker": 1,
+    "ts": 447,
+    "text": "There's efficiency throughout the supply chain and we're overwhelming that with demand."
+  },
+  {
+    "speaker": 1,
+    "ts": 451,
+    "text": "So I think it even punctuates the demand profile even more strongly."
+  },
+  {
+    "speaker": 1,
+    "ts": 455,
+    "text": "One thing we are seeing consumers doing and I don't know if you're seeing this as well"
+  },
+  {
+    "speaker": 1,
+    "ts": 459,
+    "text": "is really taking a bit more of a closer look at how they're consuming tokens and where"
+  },
+  {
+    "speaker": 1,
+    "ts": 463,
+    "text": "they're consuming tokens."
+  },
+  {
+    "speaker": 1,
+    "ts": 464,
+    "text": "And that I think is the beginning of some level of trying to reduce consumption intensity"
+  },
+  {
+    "speaker": 1,
+    "ts": 469,
+    "text": "without necessarily negatively impacting output."
+  },
+  {
+    "speaker": 1,
+    "ts": 472,
+    "text": "I'm sure we'll see more of that but that doesn't mean that the aggregate token consumption"
+  },
+  {
+    "speaker": 1,
+    "ts": 476,
+    "text": "interest is instill pent up."
+  },
+  {
+    "speaker": 1,
+    "ts": 478,
+    "text": "Yeah one of the dynamics I'm observing is as we garner that efficiency and we think"
+  },
+  {
+    "speaker": 1,
+    "ts": 484,
+    "text": "more judiciously about token usage what that does is actually it opens the horizon of economically"
+  },
+  {
+    "speaker": 1,
+    "ts": 490,
+    "text": "addressable tasks within the enterprise."
+  },
+  {
+    "speaker": 1,
+    "ts": 493,
+    "text": "Tokens get cheaper you're more efficient with their usage and that expands the demand"
+  },
+  {
+    "speaker": 1,
+    "ts": 497,
+    "text": "toward the addressable market for this commodity and again fascinating set of multiple dynamics"
+  },
+  {
+    "speaker": 1,
+    "ts": 503,
+    "text": "playing out beneath the waves of your very ambitious estimates."
+  },
+  {
+    "speaker": 1,
+    "ts": 507,
+    "text": "Let's bring this back to power demand Carly because you've done a lot of work on the implications"
+  },
+  {
+    "speaker": 1,
+    "ts": 511,
+    "text": "regionally for the U.S. What surprised you most about where demand is growing and what's"
+  },
+  {
+    "speaker": 1,
+    "ts": 516,
+    "text": "driving that."
+  },
+  {
+    "speaker": 1,
+    "ts": 517,
+    "text": "Yeah let me maybe start with where we are today."
+  },
+  {
+    "speaker": 1,
+    "ts": 520,
+    "text": "The top three data center power demand markets in the U.S. are PJM which is the mid-Atlantic"
+  },
+  {
+    "speaker": 1,
+    "ts": 525,
+    "text": "market that houses about 35 percent of data center demand today."
+  },
+  {
+    "speaker": 1,
+    "ts": 530,
+    "text": "Second is ERCOT in Texas that houses about 15 percent of data center demand today."
+  },
+  {
+    "speaker": 1,
+    "ts": 536,
+    "text": "And then there's a tie for third between the southeast and the Pacific Northwest both"
+  },
+  {
+    "speaker": 1,
+    "ts": 539,
+    "text": "housing about 13 percent of power demand."
+  },
+  {
+    "speaker": 1,
+    "ts": 542,
+    "text": "So what do we expect to change or not through 2030 firstly we expect PJM to remain the dominant"
+  },
+  {
+    "speaker": 1,
+    "ts": 548,
+    "text": "data center market in the U.S. through 2030."
+  },
+  {
+    "speaker": 1,
+    "ts": 551,
+    "text": "We think that they'll maintain their share at 35 percent of overall U.S. power demand"
+  },
+  {
+    "speaker": 1,
+    "ts": 556,
+    "text": "and there's a few things we think remain attractive about that market."
+  },
+  {
+    "speaker": 1,
+    "ts": 560,
+    "text": "There's a lot of merchant nuclear capacity there that data center companies like."
+  },
+  {
+    "speaker": 1,
+    "ts": 564,
+    "text": "There's a high voltage transmission backbone and you have a lot of existing data center"
+  },
+  {
+    "speaker": 1,
+    "ts": 569,
+    "text": "clusters there that we think make it attractive for continued development."
+  },
+  {
+    "speaker": 1,
+    "ts": 573,
+    "text": "The second takeaway we've had from our analysis is what's surprising to us was that the MISO"
+  },
+  {
+    "speaker": 1,
+    "ts": 577,
+    "text": "market which is the midcontinent of the U.S. so think from Minnesota down to Louisiana"
+  },
+  {
+    "speaker": 1,
+    "ts": 583,
+    "text": "is going to overtake ERCOT the southeast and the northwest and become the second largest"
+  },
+  {
+    "speaker": 1,
+    "ts": 588,
+    "text": "data center market in the U.S. by 2030."
+  },
+  {
+    "speaker": 1,
+    "ts": 591,
+    "text": "We think they'll make up about 16 percent of the data center market in the U.S. by 2030."
+  },
+  {
+    "speaker": 1,
+    "ts": 597,
+    "text": "And what's interesting about MISO is you have a lot of regulated utilities that are actually"
+  },
+  {
+    "speaker": 1,
+    "ts": 601,
+    "text": "building the power generation capacity for these data centers versus a developer doing"
+  },
+  {
+    "speaker": 1,
+    "ts": 606,
+    "text": "it as you would see in a PJM or an ERCOT market."
+  },
+  {
+    "speaker": 1,
+    "ts": 610,
+    "text": "And so we see states like Iowa, Wisconsin, Louisiana and the regulated utilities there"
+  },
+  {
+    "speaker": 1,
+    "ts": 615,
+    "text": "driving a lot of this acceleration in the MISO market."
+  },
+  {
+    "speaker": 1,
+    "ts": 618,
+    "text": "And then lastly ERCOT in Texas we think you'll still see strong growth there."
+  },
+  {
+    "speaker": 1,
+    "ts": 623,
+    "text": "We see ERCOT as the third largest data center market in the U.S. by 2030."
+  },
+  {
+    "speaker": 1,
+    "ts": 628,
+    "text": "We think they'll make up about 14 percent of overall data center demand by the time we"
+  },
+  {
+    "speaker": 1,
+    "ts": 633,
+    "text": "get out there."
+  },
+  {
+    "speaker": 1,
+    "ts": 634,
+    "text": "And Texas has been a big focus recently given some of the governor's actions around auditing"
+  },
+  {
+    "speaker": 1,
+    "ts": 638,
+    "text": "data center projects."
+  },
+  {
+    "speaker": 1,
+    "ts": 640,
+    "text": "So there's some uncertainty on that growth outlook today, but where we stand now we still"
+  },
+  {
+    "speaker": 1,
+    "ts": 644,
+    "text": "see them as an important data center market."
+  },
+  {
+    "speaker": 1,
+    "ts": 646,
+    "text": "And why do you see the regulated utilities playing a bigger role in MISO?"
+  },
+  {
+    "speaker": 1,
+    "ts": 651,
+    "text": "What's their motivation for that?"
+  },
+  {
+    "speaker": 1,
+    "ts": 652,
+    "text": "Yeah, I think one part of it is it's a one-stop shop, right?"
+  },
+  {
+    "speaker": 1,
+    "ts": 656,
+    "text": "You come to the utility, they have the relationships with the regulators, they have the relationships"
+  },
+  {
+    "speaker": 1,
+    "ts": 660,
+    "text": "with the community."
+  },
+  {
+    "speaker": 1,
+    "ts": 661,
+    "text": "They can give you everything from the power plant to the transmission to the distribution"
+  },
+  {
+    "speaker": 1,
+    "ts": 666,
+    "text": "and you're working with one counterparty versus if you're in a deregulated power market,"
+  },
+  {
+    "speaker": 1,
+    "ts": 672,
+    "text": "you're having to work with the power developer for your power plant and then you're still"
+  },
+  {
+    "speaker": 1,
+    "ts": 675,
+    "text": "needing to work with the utility for your grid connection."
+  },
+  {
+    "speaker": 1,
+    "ts": 678,
+    "text": "And so it's a little bit more I think of a complex negotiation."
+  },
+  {
+    "speaker": 1,
+    "ts": 681,
+    "text": "The other piece of it is in a regulated utility market the regulators have full control over"
+  },
+  {
+    "speaker": 1,
+    "ts": 686,
+    "text": "what is being charged to customers at every point of the value chain."
+  },
+  {
+    "speaker": 1,
+    "ts": 690,
+    "text": "We don't have supply-demand dynamics necessarily driving pricing, it's set by a regulator."
+  },
+  {
+    "speaker": 1,
+    "ts": 694,
+    "text": "And so you can better manage some of the concerns on customer affordability we think in the"
+  },
+  {
+    "speaker": 1,
+    "ts": 699,
+    "text": "regulated markets."
+  },
+  {
+    "speaker": 1,
+    "ts": 701,
+    "text": "So Brian, you and I sang in harmony on the demand picture, but the real question is can"
+  },
+  {
+    "speaker": 1,
+    "ts": 705,
+    "text": "supply keep up with that very ambitious curve?"
+  },
+  {
+    "speaker": 1,
+    "ts": 708,
+    "text": "You have a framework that you've updated on sort of the theory of constraints in this."
+  },
+  {
+    "speaker": 1,
+    "ts": 713,
+    "text": "Talk through how you see the headwinds relative to our ability to build enough supply."
+  },
+  {
+    "speaker": 1,
+    "ts": 718,
+    "text": "Sure, so the good news as we highlighted is we have made these upward revisions to the"
+  },
+  {
+    "speaker": 1,
+    "ts": 721,
+    "text": "long-term outlook, but at the same time there are these growing constraints."
+  },
+  {
+    "speaker": 1,
+    "ts": 725,
+    "text": "And when we last spoke in March we talked about the six P's, I know you have some great"
+  },
+  {
+    "speaker": 1,
+    "ts": 730,
+    "text": "T's that I totally agree with Allison, your T's, we've talked about the six P's that are"
+  },
+  {
+    "speaker": 1,
+    "ts": 735,
+    "text": "both driving and constraining power growth, we've actually subsequently added a seventh"
+  },
+  {
+    "speaker": 1,
+    "ts": 739,
+    "text": "P's."
+  },
+  {
+    "speaker": 1,
+    "ts": 740,
+    "text": "So let's dig into them."
+  },
+  {
+    "speaker": 1,
+    "ts": 741,
+    "text": "So the first is the pervasiveness of AI."
+  },
+  {
+    "speaker": 1,
+    "ts": 743,
+    "text": "It still seems that as a now a driver of growth as it continues to expand size and scope."
+  },
+  {
+    "speaker": 1,
+    "ts": 749,
+    "text": "Then there's the productivity of servers, chips, models, and it doesn't look like today"
+  },
+  {
+    "speaker": 1,
+    "ts": 755,
+    "text": "that is driving as we talked about any kind of downward moves and budgets demand is still"
+  },
+  {
+    "speaker": 1,
+    "ts": 760,
+    "text": "pent up."
+  },
+  {
+    "speaker": 1,
+    "ts": 761,
+    "text": "Then there's the price of power."
+  },
+  {
+    "speaker": 1,
+    "ts": 763,
+    "text": "This we see as less of an issue and less of a concern for the hyperscalers."
+  },
+  {
+    "speaker": 1,
+    "ts": 768,
+    "text": "It is a big concern as I know we'll talk about for everyday consumers and communities."
+  },
+  {
+    "speaker": 1,
+    "ts": 775,
+    "text": "Policy."
+  },
+  {
+    "speaker": 1,
+    "ts": 776,
+    "text": "Now there's three sub P's within that, and Allison I think you referenced it a bit."
+  },
+  {
+    "speaker": 1,
+    "ts": 780,
+    "text": "There's permitting, there's pushback, and there's populism, and that is certainly rising"
+  },
+  {
+    "speaker": 1,
+    "ts": 785,
+    "text": "as a potential concern and constraint, although at the same time as I know we'll talk about"
+  },
+  {
+    "speaker": 1,
+    "ts": 790,
+    "text": "some of the governments are saying, hey, we just want to tackle this issue and just make"
+  },
+  {
+    "speaker": 1,
+    "ts": 793,
+    "text": "sure that it doesn't become a longer term constraint by trying to actually get the right"
+  },
+  {
+    "speaker": 1,
+    "ts": 798,
+    "text": "regulations in place today."
+  },
+  {
+    "speaker": 1,
+    "ts": 800,
+    "text": "Then we get to parts, and these are a couple of the T's with the transformers and turbines."
+  },
+  {
+    "speaker": 1,
+    "ts": 805,
+    "text": "One of the major turbine manufacturers on their most recent conference call said that they"
+  },
+  {
+    "speaker": 1,
+    "ts": 809,
+    "text": "expect that by the end of this year, they'll be halfway sold out for 2031."
+  },
+  {
+    "speaker": 1,
+    "ts": 814,
+    "text": "This is still a significant potential constraint, and it's not necessarily a constraint on overall"
+  },
+  {
+    "speaker": 1,
+    "ts": 819,
+    "text": "power demand."
+  },
+  {
+    "speaker": 1,
+    "ts": 820,
+    "text": "It's a constraint on how power is being sourced."
+  },
+  {
+    "speaker": 1,
+    "ts": 822,
+    "text": "I know we'll talk a little bit about that a bit more, but we still kind of think and"
+  },
+  {
+    "speaker": 1,
+    "ts": 826,
+    "text": "Carly's really taken the lead on this, that we'll see more natural gas, simple cycle in"
+  },
+  {
+    "speaker": 1,
+    "ts": 830,
+    "text": "the near term, and we'll see more renewables plus battery storage in the near term, natural"
+  },
+  {
+    "speaker": 1,
+    "ts": 835,
+    "text": "gas combined cycle in the medium term, nuclear in the longer term."
+  },
+  {
+    "speaker": 1,
+    "ts": 838,
+    "text": "Then we get to people."
+  },
+  {
+    "speaker": 1,
+    "ts": 839,
+    "text": "We are still absolutely in need of more electricians, welders that can handle high voltage connectivity."
+  },
+  {
+    "speaker": 1,
+    "ts": 846,
+    "text": "When power demand wasn't growing at all, which was the case in the US for a decade, there"
+  },
+  {
+    "speaker": 1,
+    "ts": 850,
+    "text": "was little incentive to go into these fields, and now the expectations have changed so significantly"
+  },
+  {
+    "speaker": 1,
+    "ts": 856,
+    "text": "that it just takes a while to respond when you need four years of training, at least"
+  },
+  {
+    "speaker": 1,
+    "ts": 860,
+    "text": "to be able to be effective and be certified."
+  },
+  {
+    "speaker": 1,
+    "ts": 863,
+    "text": "So the new P and the last P is physical environment, and this really relates to data center cooling."
+  },
+  {
+    "speaker": 1,
+    "ts": 869,
+    "text": "We've taken a harder look at where these data centers are being built and the ambient conditions"
+  },
+  {
+    "speaker": 1,
+    "ts": 873,
+    "text": "associated with that, more than half of them are built in areas with elevated physical"
+  },
+  {
+    "speaker": 1,
+    "ts": 877,
+    "text": "risk, either extreme temperatures, humidity, drought, and that limits some of the options,"
+  },
+  {
+    "speaker": 1,
+    "ts": 883,
+    "text": "especially for modern data centers, when it comes to certain of the cooling technologies"
+  },
+  {
+    "speaker": 1,
+    "ts": 887,
+    "text": "and it opens up a trade off of you either consume more water and less power or more power and"
+  },
+  {
+    "speaker": 1,
+    "ts": 893,
+    "text": "less water in places like the US, we think the priority is going to be minimizing water"
+  },
+  {
+    "speaker": 1,
+    "ts": 899,
+    "text": "use."
+  },
+  {
+    "speaker": 1,
+    "ts": 900,
+    "text": "And that could actually lead to the deployment of technologies that otherwise drive higher"
+  },
+  {
+    "speaker": 1,
+    "ts": 905,
+    "text": "power usage effectiveness and lower water usage effectiveness."
+  },
+  {
+    "speaker": 1,
+    "ts": 909,
+    "text": "Now those priorities aren't the same everywhere in the world."
+  },
+  {
+    "speaker": 1,
+    "ts": 911,
+    "text": "Our analysts view in China is that it's actually due to some of the regulations, their priorities"
+  },
+  {
+    "speaker": 1,
+    "ts": 916,
+    "text": "minimizing power consumption."
+  },
+  {
+    "speaker": 1,
+    "ts": 918,
+    "text": "And so in the areas in which the ambient conditions force this trade off, that might otherwise"
+  },
+  {
+    "speaker": 1,
+    "ts": 922,
+    "text": "lead to higher water usage effectiveness and less on the power front."
+  },
+  {
+    "speaker": 1,
+    "ts": 925,
+    "text": "So there's a lot of pieces that are going into this here, and that's how we kind of"
+  },
+  {
+    "speaker": 1,
+    "ts": 930,
+    "text": "see the constraints."
+  },
+  {
+    "speaker": 1,
+    "ts": 931,
+    "text": "Pieces, you added an extra P there."
+  },
+  {
+    "speaker": 1,
+    "ts": 933,
+    "text": "I feel compelled to continue the alliteration, but I'll stop myself."
+  },
+  {
+    "speaker": 1,
+    "ts": 936,
+    "text": "One thing there, Brian, what's interesting is Carly mentioned ERCOT as a real growth"
+  },
+  {
+    "speaker": 1,
+    "ts": 940,
+    "text": "area for this infrastructure, but there are some physical condition limitations that sort"
+  },
+  {
+    "speaker": 1,
+    "ts": 945,
+    "text": "of exemplifies this tension between power and water supply, right?"
+  },
+  {
+    "speaker": 1,
+    "ts": 949,
+    "text": "And you think about Western part of Texas in particular."
+  },
+  {
+    "speaker": 1,
+    "ts": 952,
+    "text": "That's right."
+  },
+  {
+    "speaker": 1,
+    "ts": 953,
+    "text": "And I think the cooling technologies are still improving and it's always hard to bet against"
+  },
+  {
+    "speaker": 1,
+    "ts": 957,
+    "text": "the engineers."
+  },
+  {
+    "speaker": 1,
+    "ts": 958,
+    "text": "And certainly when you have so much capital going into the innovation behind this, it's"
+  },
+  {
+    "speaker": 1,
+    "ts": 963,
+    "text": "fair to expect that there's going to be some improvements over time."
+  },
+  {
+    "speaker": 1,
+    "ts": 967,
+    "text": "But nobody wants, and I know we'll talk about this in a bit."
+  },
+  {
+    "speaker": 1,
+    "ts": 970,
+    "text": "Nobody wants water outages."
+  },
+  {
+    "speaker": 1,
+    "ts": 971,
+    "text": "Nobody wants power outages."
+  },
+  {
+    "speaker": 1,
+    "ts": 973,
+    "text": "And while there have been strong innovations, there are still some of these trade-offs that"
+  },
+  {
+    "speaker": 1,
+    "ts": 977,
+    "text": "are forcing the issue of power versus water."
+  },
+  {
+    "speaker": 1,
+    "ts": 980,
+    "text": "It's a lot more expensive to find new sources of water than it is to find new sources of"
+  },
+  {
+    "speaker": 1,
+    "ts": 985,
+    "text": "power."
+  },
+  {
+    "speaker": 1,
+    "ts": 986,
+    "text": "And that's in part why at least in the U.S., we think water minimization is going to be"
+  },
+  {
+    "speaker": 1,
+    "ts": 989,
+    "text": "the priority."
+  },
+  {
+    "speaker": 1,
+    "ts": 990,
+    "text": "As I'm listening to you both, essentially we have these astonishing numbers on the demand"
+  },
+  {
+    "speaker": 1,
+    "ts": 994,
+    "text": "side, but then this laundry list from Brian about the constraints to supply growth."
+  },
+  {
+    "speaker": 1,
+    "ts": 1000,
+    "text": "So are we just headed for a very big gap between demand and supply here?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1005,
+    "text": "Yeah."
+  },
+  {
+    "speaker": 1,
+    "ts": 1006,
+    "text": "It's certainly getting tighter in certain regions."
+  },
+  {
+    "speaker": 1,
+    "ts": 1008,
+    "text": "We don't forecast a nationwide power shortage by any means, but there are certain markets"
+  },
+  {
+    "speaker": 1,
+    "ts": 1014,
+    "text": "that we think are getting critically tight."
+  },
+  {
+    "speaker": 1,
+    "ts": 1016,
+    "text": "I think PJM would be at the top of our list there."
+  },
+  {
+    "speaker": 1,
+    "ts": 1020,
+    "text": "ERCOT today, we don't view as very tight."
+  },
+  {
+    "speaker": 1,
+    "ts": 1022,
+    "text": "We think it'll get tight as demand ramps in the 2028 timeframe."
+  },
+  {
+    "speaker": 1,
+    "ts": 1027,
+    "text": "But I think when you look at some of the markets and all again reference the regulated"
+  },
+  {
+    "speaker": 1,
+    "ts": 1031,
+    "text": "utility markets, you are seeing a lot of capacity being power generation capacity being added"
+  },
+  {
+    "speaker": 1,
+    "ts": 1036,
+    "text": "to the grid."
+  },
+  {
+    "speaker": 1,
+    "ts": 1037,
+    "text": "And as Brian alluded to, we see an all-of-the-above approach required to serve all of this demand."
+  },
+  {
+    "speaker": 1,
+    "ts": 1043,
+    "text": "So we expect to see a lot of natural gas, about 60% of data-centered demand we think"
+  },
+  {
+    "speaker": 1,
+    "ts": 1047,
+    "text": "will be met with natural gas, 40% we think will be met with renewables."
+  },
+  {
+    "speaker": 1,
+    "ts": 1052,
+    "text": "There are a few one-off nuclear power plant restarts that will help bridge some of that"
+  },
+  {
+    "speaker": 1,
+    "ts": 1056,
+    "text": "gap as well, but it is really all hands on deck to try to get as much of this capacity"
+  },
+  {
+    "speaker": 1,
+    "ts": 1061,
+    "text": "online as possible."
+  },
+  {
+    "speaker": 1,
+    "ts": 1063,
+    "text": "The one other piece that I would just mention is we talk a lot about the grid and the grid's"
+  },
+  {
+    "speaker": 1,
+    "ts": 1067,
+    "text": "availability and capacity to house all of this load."
+  },
+  {
+    "speaker": 1,
+    "ts": 1070,
+    "text": "There's been this solution called behind the meter that has come up a lot more lately."
+  },
+  {
+    "speaker": 1,
+    "ts": 1076,
+    "text": "And we think some of the pushback and the physical constraints that you've seen in markets"
+  },
+  {
+    "speaker": 1,
+    "ts": 1079,
+    "text": "like Texas have really built a stronger case for behind the meter."
+  },
+  {
+    "speaker": 1,
+    "ts": 1083,
+    "text": "And that basically is just an on-site power solution that is islanded from the rest of"
+  },
+  {
+    "speaker": 1,
+    "ts": 1087,
+    "text": "the power grid."
+  },
+  {
+    "speaker": 1,
+    "ts": 1089,
+    "text": "So you don't have to worry about, can I get connected to the grid or not."
+  },
+  {
+    "speaker": 1,
+    "ts": 1093,
+    "text": "You can just serve the data center with your on-site power plant."
+  },
+  {
+    "speaker": 1,
+    "ts": 1096,
+    "text": "And we recently raised our estimates there as well."
+  },
+  {
+    "speaker": 1,
+    "ts": 1099,
+    "text": "So we think you'll see about 30 gigawatts of behind the meter gas capacity by 2030, which"
+  },
+  {
+    "speaker": 1,
+    "ts": 1106,
+    "text": "is about 20, just over 20 gigawatts of power delivery."
+  },
+  {
+    "speaker": 1,
+    "ts": 1110,
+    "text": "So that makes up about 20% of our data center demand estimate by 2030."
+  },
+  {
+    "speaker": 1,
+    "ts": 1114,
+    "text": "So we think it's not only a mix of resource on the grid, but it's also a mix of on-grid"
+  },
+  {
+    "speaker": 1,
+    "ts": 1118,
+    "text": "and off-grid that's going to serve this demand."
+  },
+  {
+    "speaker": 1,
+    "ts": 1121,
+    "text": "One nuance there that's fascinating is clearly there's a big growth in behind the meter solutions."
+  },
+  {
+    "speaker": 1,
+    "ts": 1126,
+    "text": "But they may not be permanently behind the meter, right?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1129,
+    "text": "Part of that's driving this is the extraordinary length of the interconnect queue."
+  },
+  {
+    "speaker": 1,
+    "ts": 1133,
+    "text": "But I think one of the promises for regulated utility consumers is that capacity and supply"
+  },
+  {
+    "speaker": 1,
+    "ts": 1138,
+    "text": "is being built that ultimately might be reconnected to the grid and provide a little"
+  },
+  {
+    "speaker": 1,
+    "ts": 1142,
+    "text": "bit more resilience or different supply demand equation for them."
+  },
+  {
+    "speaker": 1,
+    "ts": 1146,
+    "text": "Is that the right way to think about it?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1148,
+    "text": "That would absolutely be our view that behind the meter is more of a bridge solution and"
+  },
+  {
+    "speaker": 1,
+    "ts": 1152,
+    "text": "it is not a long-term solution because we've heard time and time again from the largest"
+  },
+  {
+    "speaker": 1,
+    "ts": 1157,
+    "text": "data center customers that their preference is to be grid connected."
+  },
+  {
+    "speaker": 1,
+    "ts": 1161,
+    "text": "The grid offers a more cost-effective and a more reliable solution for especially large"
+  },
+  {
+    "speaker": 1,
+    "ts": 1166,
+    "text": "customers."
+  },
+  {
+    "speaker": 1,
+    "ts": 1167,
+    "text": "If we're talking multi-gigawatt scale type of data centers, you need the grid as a resource"
+  },
+  {
+    "speaker": 1,
+    "ts": 1172,
+    "text": "over time."
+  },
+  {
+    "speaker": 1,
+    "ts": 1173,
+    "text": "We are seeing some projects have the flexibility to do both."
+  },
+  {
+    "speaker": 1,
+    "ts": 1177,
+    "text": "If you have a project that's supposed to start in 2028, you can't get your grid connection,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1181,
+    "text": "you can go behind the meter and then transition over time, that's sort of the way we would"
+  },
+  {
+    "speaker": 1,
+    "ts": 1184,
+    "text": "think about it."
+  },
+  {
+    "speaker": 1,
+    "ts": 1185,
+    "text": "And regulators are actually tightening their stance on a lot of these connectivity issues."
+  },
+  {
+    "speaker": 1,
+    "ts": 1189,
+    "text": "So Carly, walk us through what that looks like today for companies dealing with this"
+  },
+  {
+    "speaker": 1,
+    "ts": 1194,
+    "text": "issue."
+  },
+  {
+    "speaker": 1,
+    "ts": 1195,
+    "text": "I mean, I think the regulatory uncertainty on how data center connections will be handled"
+  },
+  {
+    "speaker": 1,
+    "ts": 1200,
+    "text": "is probably the single most important issue facing power and utilities companies today."
+  },
+  {
+    "speaker": 1,
+    "ts": 1204,
+    "text": "The queues today are lengthy."
+  },
+  {
+    "speaker": 1,
+    "ts": 1206,
+    "text": "You could be sitting in the queue from anywhere two, three, five, seven years depending on"
+  },
+  {
+    "speaker": 1,
+    "ts": 1212,
+    "text": "which regional grid in the U.S. you're trying to connect to."
+  },
+  {
+    "speaker": 1,
+    "ts": 1216,
+    "text": "And that is a big deterrent for these data center customers that want to be up and running"
+  },
+  {
+    "speaker": 1,
+    "ts": 1220,
+    "text": "yesterday."
+  },
+  {
+    "speaker": 1,
+    "ts": 1221,
+    "text": "So I think the way that we're thinking about what are the mitigants that our companies"
+  },
+  {
+    "speaker": 1,
+    "ts": 1225,
+    "text": "are trying to put into place to address that one is behind the meter."
+  },
+  {
+    "speaker": 1,
+    "ts": 1229,
+    "text": "And then in the regulated markets, we're seeing a big push towards these special tariff structures"
+  },
+  {
+    "speaker": 1,
+    "ts": 1235,
+    "text": "that create a one standardized and two transparent formula that you can offer to a data center"
+  },
+  {
+    "speaker": 1,
+    "ts": 1241,
+    "text": "customer that already has the regulator stamp of approval to just try to streamline the"
+  },
+  {
+    "speaker": 1,
+    "ts": 1246,
+    "text": "process and make sure that everybody's on the same page about the timelines, the financial"
+  },
+  {
+    "speaker": 1,
+    "ts": 1251,
+    "text": "requirements, the customer protections that are needed to make sure that if and when you"
+  },
+  {
+    "speaker": 1,
+    "ts": 1255,
+    "text": "can connect to the grid, you're not going to put other customers at risk, whether that"
+  },
+  {
+    "speaker": 1,
+    "ts": 1260,
+    "text": "is of risk of reliability issues or risk of significant affordability implications."
+  },
+  {
+    "speaker": 1,
+    "ts": 1266,
+    "text": "And so we think that the proactive movement towards those special tariff structures in"
+  },
+  {
+    "speaker": 1,
+    "ts": 1270,
+    "text": "the regulated markets, coupled with new communications that we're seeing from the utilities around"
+  },
+  {
+    "speaker": 1,
+    "ts": 1276,
+    "text": "quantifying customer bill savings or also agreeing to not raise their rates to customers"
+  },
+  {
+    "speaker": 1,
+    "ts": 1281,
+    "text": "for a period of time is a way that the market can still prudently accommodate data center"
+  },
+  {
+    "speaker": 1,
+    "ts": 1287,
+    "text": "growth without putting at risk reliability or affordability."
+  },
+  {
+    "speaker": 1,
+    "ts": 1291,
+    "text": "That's certainly the economic theory of the case, but this collides with something that"
+  },
+  {
+    "speaker": 1,
+    "ts": 1295,
+    "text": "Allison referred to earlier, which is this another P populism, the pushback that is"
+  },
+  {
+    "speaker": 1,
+    "ts": 1300,
+    "text": "occurring in communities relative to building this supply, which as you say has a lot of"
+  },
+  {
+    "speaker": 1,
+    "ts": 1306,
+    "text": "both resilience and economic benefits, but it's getting increasingly challenging, particularly"
+  },
+  {
+    "speaker": 1,
+    "ts": 1310,
+    "text": "I would think in the PJM corridor, which is pretty densely populated."
+  },
+  {
+    "speaker": 1,
+    "ts": 1314,
+    "text": "So how do you see that tension playing out as to both of you?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1319,
+    "text": "Yeah, I can start."
+  },
+  {
+    "speaker": 1,
+    "ts": 1320,
+    "text": "It is hard to see how this goes away quickly, because there is just an understandable long"
+  },
+  {
+    "speaker": 1,
+    "ts": 1325,
+    "text": "history of NIMBYism even before we delve into the intricate details of the potential solutions."
+  },
+  {
+    "speaker": 1,
+    "ts": 1330,
+    "text": "Now we broadly see five different areas of the populism pushback, however we want to,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1335,
+    "text": "whatever P or T word we want to use."
+  },
+  {
+    "speaker": 1,
+    "ts": 1338,
+    "text": "First is there's going to be a power outage."
+  },
+  {
+    "speaker": 1,
+    "ts": 1340,
+    "text": "There are solutions, and some of the governments are actually putting that into place."
+  },
+  {
+    "speaker": 1,
+    "ts": 1344,
+    "text": "It's becoming licensed to operate for the data centers to be willing to be disconnected"
+  },
+  {
+    "speaker": 1,
+    "ts": 1349,
+    "text": "or to be cut off."
+  },
+  {
+    "speaker": 1,
+    "ts": 1350,
+    "text": "In the event the grid is about to undergo an outage."
+  },
+  {
+    "speaker": 1,
+    "ts": 1353,
+    "text": "So interoperability is a potential solution to that."
+  },
+  {
+    "speaker": 1,
+    "ts": 1356,
+    "text": "The second would be power price surges."
+  },
+  {
+    "speaker": 1,
+    "ts": 1358,
+    "text": "Really reference the take or pay contracts that are increasingly being signed."
+  },
+  {
+    "speaker": 1,
+    "ts": 1362,
+    "text": "And some of that works in certain regulated areas and the unregulated areas are trying"
+  },
+  {
+    "speaker": 1,
+    "ts": 1367,
+    "text": "to sort through it, especially on kind of the transmission side and the capacity side,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1371,
+    "text": "but that is a potential solution."
+  },
+  {
+    "speaker": 1,
+    "ts": 1373,
+    "text": "The third is on the waterfront will close loop cooling that doesn't consume water on"
+  },
+  {
+    "speaker": 1,
+    "ts": 1378,
+    "text": "a continuous basis and dry cooling, whether it's air cooling, whether it's chillers or"
+  },
+  {
+    "speaker": 1,
+    "ts": 1382,
+    "text": "dry cooling, those can be potential solutions against some come with greater power demand,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1386,
+    "text": "but that's a solution on the water minimization front."
+  },
+  {
+    "speaker": 1,
+    "ts": 1389,
+    "text": "Then you've got noise."
+  },
+  {
+    "speaker": 1,
+    "ts": 1390,
+    "text": "And there are some noise abatement technologies that can be put into the data centers to minimize"
+  },
+  {
+    "speaker": 1,
+    "ts": 1395,
+    "text": "some of that impact on the local community."
+  },
+  {
+    "speaker": 1,
+    "ts": 1397,
+    "text": "And the last, which is a bit more in kind of niche areas would be if the heat coming"
+  },
+  {
+    "speaker": 1,
+    "ts": 1402,
+    "text": "out of the data centers from the cooling rejection actually raises temperatures in certain communities."
+  },
+  {
+    "speaker": 1,
+    "ts": 1408,
+    "text": "And there are areas like Finland that are actually doing waste heat capture."
+  },
+  {
+    "speaker": 1,
+    "ts": 1411,
+    "text": "So that's a potential technology."
+  },
+  {
+    "speaker": 1,
+    "ts": 1413,
+    "text": "Maybe you need a colder environment to actually have a market for that."
+  },
+  {
+    "speaker": 1,
+    "ts": 1416,
+    "text": "I guess the point is that there are actual solutions that can actually help mitigate"
+  },
+  {
+    "speaker": 1,
+    "ts": 1421,
+    "text": "the five major concerns."
+  },
+  {
+    "speaker": 1,
+    "ts": 1423,
+    "text": "But again, that doesn't mean this is going away."
+  },
+  {
+    "speaker": 1,
+    "ts": 1425,
+    "text": "Yeah."
+  },
+  {
+    "speaker": 1,
+    "ts": 1426,
+    "text": "The only thing I would add is our view has been that the community pushback is real."
+  },
+  {
+    "speaker": 1,
+    "ts": 1430,
+    "text": "The customers are also very aware of it."
+  },
+  {
+    "speaker": 1,
+    "ts": 1433,
+    "text": "And I don't think there's a big interest from them to force their projects into communities"
+  },
+  {
+    "speaker": 1,
+    "ts": 1438,
+    "text": "that don't want them."
+  },
+  {
+    "speaker": 1,
+    "ts": 1439,
+    "text": "The message that we've gotten from a lot of our power and utilities companies is that"
+  },
+  {
+    "speaker": 1,
+    "ts": 1443,
+    "text": "for all of the communities where you're seeing really loud and strong and reasonable pushback,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1449,
+    "text": "there are other communities that are still actively courting data centers because they"
+  },
+  {
+    "speaker": 1,
+    "ts": 1453,
+    "text": "want the increase in the tax base, they want the construction jobs, they want the investments"
+  },
+  {
+    "speaker": 1,
+    "ts": 1458,
+    "text": "into the local community infrastructure that the data center customers are often providing."
+  },
+  {
+    "speaker": 1,
+    "ts": 1462,
+    "text": "And so we think a lot of this is maybe could create some more geographic concentration in"
+  },
+  {
+    "speaker": 1,
+    "ts": 1467,
+    "text": "where these data centers ultimately locate."
+  },
+  {
+    "speaker": 1,
+    "ts": 1469,
+    "text": "But those communities want it until they get it."
+  },
+  {
+    "speaker": 1,
+    "ts": 1472,
+    "text": "And then they are living through these issues and problems."
+  },
+  {
+    "speaker": 1,
+    "ts": 1475,
+    "text": "So we'll see how that evolves."
+  },
+  {
+    "speaker": 1,
+    "ts": 1476,
+    "text": "Yeah."
+  },
+  {
+    "speaker": 1,
+    "ts": 1477,
+    "text": "I think you make a great case, Brian, for the facts, I think, conspire against many"
+  },
+  {
+    "speaker": 1,
+    "ts": 1481,
+    "text": "of the concerns."
+  },
+  {
+    "speaker": 1,
+    "ts": 1483,
+    "text": "And there are technology mitigants."
+  },
+  {
+    "speaker": 1,
+    "ts": 1485,
+    "text": "And yet this is a matter of popular opinion, which gets shaped in all sorts of different"
+  },
+  {
+    "speaker": 1,
+    "ts": 1488,
+    "text": "ways."
+  },
+  {
+    "speaker": 1,
+    "ts": 1489,
+    "text": "And so it'll be really fascinating."
+  },
+  {
+    "speaker": 1,
+    "ts": 1491,
+    "text": "As a child of the 70s, I watched the nuclear power industry fall afoul of populist and"
+  },
+  {
+    "speaker": 1,
+    "ts": 1496,
+    "text": "political opposition."
+  },
+  {
+    "speaker": 1,
+    "ts": 1497,
+    "text": "And certainly is in my mind, that could be a real constraint to our ability to build"
+  },
+  {
+    "speaker": 1,
+    "ts": 1501,
+    "text": "the necessary supply here."
+  },
+  {
+    "speaker": 1,
+    "ts": 1503,
+    "text": "How much of this, George, do you think could also just be a bit of a trepidation on AI"
+  },
+  {
+    "speaker": 1,
+    "ts": 1507,
+    "text": "generally and not necessarily communities feeling like, OK, we want to be all in on"
+  },
+  {
+    "speaker": 1,
+    "ts": 1511,
+    "text": "that versus other industries in which they've supported development in the community, and"
+  },
+  {
+    "speaker": 1,
+    "ts": 1515,
+    "text": "maybe there's a job angle to this as well?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1517,
+    "text": "I think the fact that it's adjacent to AI and therefore inherits some of the trepidation,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1521,
+    "text": "as you say, about that is absolutely an issue."
+  },
+  {
+    "speaker": 1,
+    "ts": 1524,
+    "text": "But it's pretty profound."
+  },
+  {
+    "speaker": 1,
+    "ts": 1525,
+    "text": "I've read a survey recently that said that a plurality of Americans would prefer to have"
+  },
+  {
+    "speaker": 1,
+    "ts": 1529,
+    "text": "a nuclear power plant in their neighborhood versus a data center."
+  },
+  {
+    "speaker": 1,
+    "ts": 1532,
+    "text": "And while nuclear power plants are quite safe, demonstrably quite safe, that's a real commentary."
+  },
+  {
+    "speaker": 1,
+    "ts": 1537,
+    "text": "So again, I think this is going to be in some ways of all the things we've discussed here"
+  },
+  {
+    "speaker": 1,
+    "ts": 1542,
+    "text": "about the physical constraints, the supply chain, the locality, the grid connect."
+  },
+  {
+    "speaker": 1,
+    "ts": 1549,
+    "text": "This dimension of popular sentiment might be the steepest hill we have to climb in getting"
+  },
+  {
+    "speaker": 1,
+    "ts": 1553,
+    "text": "to the right balance of supply and demand here."
+  },
+  {
+    "speaker": 1,
+    "ts": 1555,
+    "text": "Carl, I want to ask you about this because we focused a lot in this discussion and prior"
+  },
+  {
+    "speaker": 1,
+    "ts": 1559,
+    "text": "discussions on hyperscalar balance sheets, capacity, appetite to invest."
+  },
+  {
+    "speaker": 1,
+    "ts": 1564,
+    "text": "But also that's equally true for the regulated utilities and unregulated utilities."
+  },
+  {
+    "speaker": 1,
+    "ts": 1569,
+    "text": "Do you see that their capital availability and access will be able to keep up and what"
+  },
+  {
+    "speaker": 1,
+    "ts": 1573,
+    "text": "are the constraints there?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1574,
+    "text": "They're a little bit different than in the hyperscalar world."
+  },
+  {
+    "speaker": 1,
+    "ts": 1576,
+    "text": "Yeah."
+  },
+  {
+    "speaker": 1,
+    "ts": 1577,
+    "text": "So I'll split it out into the regulated versus our independent power producers that we cover"
+  },
+  {
+    "speaker": 1,
+    "ts": 1581,
+    "text": "that are doing a lot of this."
+  },
+  {
+    "speaker": 1,
+    "ts": 1583,
+    "text": "On the regulated side, there is significant capital required."
+  },
+  {
+    "speaker": 1,
+    "ts": 1586,
+    "text": "We see capital investment for our regulated utilities coverage up 60% in the next five"
+  },
+  {
+    "speaker": 1,
+    "ts": 1591,
+    "text": "years versus the prior five year period."
+  },
+  {
+    "speaker": 1,
+    "ts": 1594,
+    "text": "But we're still seeing leverage ratios relative to what a credit downgrade kind of threshold"
+  },
+  {
+    "speaker": 1,
+    "ts": 1599,
+    "text": "would be."
+  },
+  {
+    "speaker": 1,
+    "ts": 1600,
+    "text": "We're still seeing about 100 basis points of cushion there."
+  },
+  {
+    "speaker": 1,
+    "ts": 1603,
+    "text": "And I think part of that is the companies have been proactive about issuing equity to"
+  },
+  {
+    "speaker": 1,
+    "ts": 1607,
+    "text": "help fund this growth."
+  },
+  {
+    "speaker": 1,
+    "ts": 1608,
+    "text": "We would expect incremental capital to be funded about 30% to 50% with equity."
+  },
+  {
+    "speaker": 1,
+    "ts": 1614,
+    "text": "And so we think they've taken a proactive stance there to make sure that they're doing"
+  },
+  {
+    "speaker": 1,
+    "ts": 1617,
+    "text": "this in a balance sheet safe way."
+  },
+  {
+    "speaker": 1,
+    "ts": 1619,
+    "text": "And then on the independent power producer side, we've actually seen positive momentum"
+  },
+  {
+    "speaker": 1,
+    "ts": 1624,
+    "text": "on the credit front."
+  },
+  {
+    "speaker": 1,
+    "ts": 1625,
+    "text": "This year was recently upgraded to investment grade, consolation is investment grade."
+  },
+  {
+    "speaker": 1,
+    "ts": 1629,
+    "text": "And even though some of the companies have stretched a little bit to do M&A, they have"
+  },
+  {
+    "speaker": 1,
+    "ts": 1634,
+    "text": "clear paths in the next 12 months to get leverage ratios back towards two times net debt to EBITDA"
+  },
+  {
+    "speaker": 1,
+    "ts": 1640,
+    "text": "or something like that."
+  },
+  {
+    "speaker": 1,
+    "ts": 1641,
+    "text": "So we think they're in a very healthy place balance sheet wise as well."
+  },
+  {
+    "speaker": 1,
+    "ts": 1644,
+    "text": "Fascinating."
+  },
+  {
+    "speaker": 1,
+    "ts": 1645,
+    "text": "So let's just conclude by asking both of you, what are you watching to determine how this"
+  },
+  {
+    "speaker": 1,
+    "ts": 1650,
+    "text": "power thesis is really playing out and whether the constraints are winning or the demand"
+  },
+  {
+    "speaker": 1,
+    "ts": 1654,
+    "text": "side is winning?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1655,
+    "text": "I think one piece would be if we can all agree that the public opinion and the regulatory"
+  },
+  {
+    "speaker": 1,
+    "ts": 1660,
+    "text": "uncertainty is probably the steepest hill to climb."
+  },
+  {
+    "speaker": 1,
+    "ts": 1663,
+    "text": "It would be tracking how many of these data center moratoriums are we seeing pop up across"
+  },
+  {
+    "speaker": 1,
+    "ts": 1668,
+    "text": "different states."
+  },
+  {
+    "speaker": 1,
+    "ts": 1669,
+    "text": "So I don't mean a local community, a real like a New York or what we've seen in Texas"
+  },
+  {
+    "speaker": 1,
+    "ts": 1674,
+    "text": "type of moratorium that really could cause some potential project delays or uncertainty"
+  },
+  {
+    "speaker": 1,
+    "ts": 1680,
+    "text": "from a project developer perspective of do I want to operate in this market?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1684,
+    "text": "I think that would probably be the piece that we would be most focused on, especially as"
+  },
+  {
+    "speaker": 1,
+    "ts": 1687,
+    "text": "we're leading into the elections in November and potential change over post that."
+  },
+  {
+    "speaker": 1,
+    "ts": 1691,
+    "text": "Yeah, I would concur absolutely with that."
+  },
+  {
+    "speaker": 1,
+    "ts": 1693,
+    "text": "I think there's probably going to be a little bit more nuance as to whether some of these"
+  },
+  {
+    "speaker": 1,
+    "ts": 1696,
+    "text": "moratoriums are really thoughtful, more of a thoughtful take of here's what we need to"
+  },
+  {
+    "speaker": 1,
+    "ts": 1701,
+    "text": "do to actually stimulate and continue with this development, not necessarily a shift"
+  },
+  {
+    "speaker": 1,
+    "ts": 1705,
+    "text": "away from being maybe pro business or pro development."
+  },
+  {
+    "speaker": 1,
+    "ts": 1708,
+    "text": "Or is this something that is actually going to be a little bit longer lasting?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1711,
+    "text": "If I'm looking at metrics to watch, do the just 2030 data center capacity, get revised"
+  },
+  {
+    "speaker": 1,
+    "ts": 1716,
+    "text": "up or down from here, call it the field of dreams data centers, the if you build them,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1721,
+    "text": "they will come and should that be in people's forecasts or not in the industry."
+  },
+  {
+    "speaker": 1,
+    "ts": 1725,
+    "text": "And then if I'm looking for an off the beaten path metric to watch, it would be nuclear"
+  },
+  {
+    "speaker": 1,
+    "ts": 1728,
+    "text": "contracting by hyperscalers only because that's going to have very little effect over the"
+  },
+  {
+    "speaker": 1,
+    "ts": 1733,
+    "text": "next five years."
+  },
+  {
+    "speaker": 1,
+    "ts": 1734,
+    "text": "And so it's always a nice metric that we think is somewhat indicative of the long term and"
+  },
+  {
+    "speaker": 1,
+    "ts": 1740,
+    "text": "whether they see this as something that they are really going to need the demand for."
+  },
+  {
+    "speaker": 1,
+    "ts": 1745,
+    "text": "And in addition from a sustainability lens, what their views are on carbon dioxide emissions"
+  },
+  {
+    "speaker": 1,
+    "ts": 1750,
+    "text": "mitigation."
+  },
+  {
+    "speaker": 1,
+    "ts": 1751,
+    "text": "Brian, Carly, thanks so much for joining us again."
+  },
+  {
+    "speaker": 1,
+    "ts": 1753,
+    "text": "And I'm sure you'll be back here soon with another update given how fast this is all"
+  },
+  {
+    "speaker": 1,
+    "ts": 1756,
+    "text": "evolving."
+  },
+  {
+    "speaker": 1,
+    "ts": 1757,
+    "text": "It's been a pleasure."
+  },
+  {
+    "speaker": 1,
+    "ts": 1758,
+    "text": "Thanks for the discussion."
+  },
+  {
+    "speaker": 1,
+    "ts": 1759,
+    "text": "George, what are your thoughts?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1761,
+    "text": "You added a lot throughout the conversation, but key takeaways."
+  },
+  {
+    "speaker": 1,
+    "ts": 1764,
+    "text": "Sure."
+  },
+  {
+    "speaker": 1,
+    "ts": 1765,
+    "text": "First of all, fascinating discussion."
+  },
+  {
+    "speaker": 1,
+    "ts": 1767,
+    "text": "And as a historical tech person, it's been really fun for me to try to understand this"
+  },
+  {
+    "speaker": 1,
+    "ts": 1771,
+    "text": "ecosystem as it directly impacts our growth."
+  },
+  {
+    "speaker": 1,
+    "ts": 1774,
+    "text": "It just strikes me that both the AI and power industries need to both coordinate and refine"
+  },
+  {
+    "speaker": 1,
+    "ts": 1779,
+    "text": "messaging campaigns that lay out the positive case for these investments in communities."
+  },
+  {
+    "speaker": 1,
+    "ts": 1785,
+    "text": "And Carly talked about there's a single state level data center moratorium today, but there"
+  },
+  {
+    "speaker": 1,
+    "ts": 1790,
+    "text": "are more than 300 regional or local moratoria going on around the country."
+  },
+  {
+    "speaker": 1,
+    "ts": 1795,
+    "text": "And that could really grow and inhibit all of what we've talked about here unless we"
+  },
+  {
+    "speaker": 1,
+    "ts": 1800,
+    "text": "do a better job of articulating the positive case for this infrastructure."
+  },
+  {
+    "speaker": 1,
+    "ts": 1803,
+    "text": "So it's a real imperative for these industries to coordinate and deliver, be fastening to"
+  },
+  {
+    "speaker": 1,
+    "ts": 1808,
+    "text": "watch it play out."
+  },
+  {
+    "speaker": 1,
+    "ts": 1809,
+    "text": "Absolutely."
+  },
+  {
+    "speaker": 1,
+    "ts": 1810,
+    "text": "But I, for one, took a little bit of comfort from the takeaway that we are not seeing tremendous"
+  },
+  {
+    "speaker": 1,
+    "ts": 1817,
+    "text": "constraints in terms of power demand."
+  },
+  {
+    "speaker": 1,
+    "ts": 1819,
+    "text": "We're not headed for outages."
+  },
+  {
+    "speaker": 1,
+    "ts": 1821,
+    "text": "It seems anytime soon."
+  },
+  {
+    "speaker": 1,
+    "ts": 1823,
+    "text": "So that was comforting to some extent."
+  },
+  {
+    "speaker": 1,
+    "ts": 1824,
+    "text": "You're right."
+  },
+  {
+    "speaker": 1,
+    "ts": 1825,
+    "text": "And what a testament to the free enterprise system that from the standing start of five"
+  },
+  {
+    "speaker": 1,
+    "ts": 1829,
+    "text": "or six years ago, we've gotten to a place where we can navigate these constraints."
+  },
+  {
+    "speaker": 1,
+    "ts": 1834,
+    "text": "Really remarkable."
+  },
+  {
+    "speaker": 1,
+    "ts": 1835,
+    "text": "Always a pleasure to speak with you, George."
+  },
+  {
+    "speaker": 1,
+    "ts": 1837,
+    "text": "Same."
+  },
+  {
+    "speaker": 1,
+    "ts": 1838,
+    "text": "The episode of Goldman Sachs exchanges was recorded on Wednesday, August 12th, 2026."
+  },
+  {
+    "speaker": 1,
+    "ts": 1842,
+    "text": "I'm Alison Ethan."
+  },
+  {
+    "speaker": 1,
+    "ts": 1843,
+    "text": "Thanks for listening."
+  },
+  {
+    "speaker": 1,
+    "ts": 1848,
+    "text": "The opinions and views expressed herein are as of the date of publication, subject to"
+  },
+  {
+    "speaker": 1,
+    "ts": 1851,
+    "text": "change without notice and may not necessarily reflect the institutional views of Goldman"
+  },
+  {
+    "speaker": 1,
+    "ts": 1854,
+    "text": "Sachs or its affiliates."
+  },
+  {
+    "speaker": 1,
+    "ts": 1856,
+    "text": "The material provided is intended for informational purposes only and does not constitute investment"
+  },
+  {
+    "speaker": 1,
+    "ts": 1860,
+    "text": "advice, a recommendation from any Goldman Sachs entity to take any particular action"
+  },
+  {
+    "speaker": 1,
+    "ts": 1863,
+    "text": "or an offer or solicitation to purchase or sell any securities or financial products."
+  },
+  {
+    "speaker": 1,
+    "ts": 1867,
+    "text": "This material may contain forward-looking statements."
+  },
+  {
+    "speaker": 1,
+    "ts": 1870,
+    "text": "Past performance is not indicative of future results."
+  },
+  {
+    "speaker": 1,
+    "ts": 1872,
+    "text": "Neither Goldman Sachs nor any of its affiliates make any representations or warranties expressed"
+  },
+  {
+    "speaker": 1,
+    "ts": 1876,
+    "text": "or implied as to the accuracy or completeness of the statements or information contained"
+  },
+  {
+    "speaker": 1,
+    "ts": 1879,
+    "text": "herein and disclaim any liability whatsoever for reliance on such information for any purpose."
+  },
+  {
+    "speaker": 1,
+    "ts": 1884,
+    "text": "Each name of a third-party organization mentioned is the property of the company to which it"
+  },
+  {
+    "speaker": 1,
+    "ts": 1888,
+    "text": "relates, is used here strictly for informational and identification purposes only, and is not"
+  },
+  {
+    "speaker": 1,
+    "ts": 1892,
+    "text": "used to imply any ownership or license rights between any such company and Goldman Sachs."
+  },
+  {
+    "speaker": 1,
+    "ts": 1896,
+    "text": "A transcript is provided for convenience and may differ from the original video or audio"
+  },
+  {
+    "speaker": 1,
+    "ts": 1900,
+    "text": "content."
+  },
+  {
+    "speaker": 1,
+    "ts": 1901,
+    "text": "Goldman Sachs is not responsible for any errors in the transcript."
+  },
+  {
+    "speaker": 1,
+    "ts": 1903,
+    "text": "This material should not be copied, distributed, published, or reproduced in whole or in part"
+  },
+  {
+    "speaker": 1,
+    "ts": 1907,
+    "text": "or disclosed by any recipient to any other person without the express written consent"
+  },
+  {
+    "speaker": 1,
+    "ts": 1910,
+    "text": "of Goldman Sachs."
+  },
+  {
+    "speaker": 1,
+    "ts": 1911,
+    "text": "Disclosures applicable to research with respect to issuers, if any, mentioned herein are"
+  },
+  {
+    "speaker": 1,
+    "ts": 1915,
+    "text": "available through your Goldman Sachs representative or at www.gs.com."
+  },
+  {
+    "speaker": 1,
+    "ts": 1922,
+    "text": "Goldman Sachs does not endorse any candidate or any political party."
+  },
+  {
+    "speaker": 1,
+    "ts": 1925,
+    "text": "Copyright 2026, Goldman Sachs, all rights reserved."
+  }
+]

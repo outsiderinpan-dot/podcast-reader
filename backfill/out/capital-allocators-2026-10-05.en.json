@@ -1,0 +1,3257 @@
+[
+  {
+    "speaker": 1,
+    "ts": 0,
+    "text": "I'm Ted Sides, and this is Capital Allocators."
+  },
+  {
+    "speaker": 1,
+    "ts": 12,
+    "text": "My guest on today's show is Stephen MacLennan, the Co-Chief Investment Officer of the Ontario"
+  },
+  {
+    "speaker": 1,
+    "ts": 18,
+    "text": "Teachers Pension Plan, where he oversees asset allocation for the $300 billion fund responsible"
+  },
+  {
+    "speaker": 1,
+    "ts": 24,
+    "text": "for the retirement security of 346,000 teachers."
+  },
+  {
+    "speaker": 1,
+    "ts": 29,
+    "text": "Stephen joined Ontario Teachers in 2003 and worked across credit, natural resources, infrastructure,"
+  },
+  {
+    "speaker": 1,
+    "ts": 37,
+    "text": "and total fund management before splitting the CIO seat with Gillian Brown in 2024, a"
+  },
+  {
+    "speaker": 1,
+    "ts": 42,
+    "text": "dual CIO structure that's unique among Canada's largest pension funds."
+  },
+  {
+    "speaker": 1,
+    "ts": 48,
+    "text": "Our conversation traces that path and discusses teachers' total portfolio strategy, including"
+  },
+  {
+    "speaker": 1,
+    "ts": 54,
+    "text": "the balance of top-down asset allocation with bottom-up investing, role of active management,"
+  },
+  {
+    "speaker": 1,
+    "ts": 59,
+    "text": "liquidity, leverage, and internal and external management."
+  },
+  {
+    "speaker": 1,
+    "ts": 63,
+    "text": "We cover where private equity, credit, infrastructure, hedge funds, and inflation-sensitive assets"
+  },
+  {
+    "speaker": 1,
+    "ts": 69,
+    "text": "earn their place in the portfolio, how AI-driven concentration risk factors into portfolio"
+  },
+  {
+    "speaker": 1,
+    "ts": 74,
+    "text": "resilience, and the evolution of the Canadian model with both enduring edges and eroding"
+  },
+  {
+    "speaker": 1,
+    "ts": 80,
+    "text": "competitive advantages."
+  },
+  {
+    "speaker": 1,
+    "ts": 83,
+    "text": "Before we get going, I'm excited to tell you about an amazing conference and offer a"
+  },
+  {
+    "speaker": 1,
+    "ts": 88,
+    "text": "discount to attend."
+  },
+  {
+    "speaker": 1,
+    "ts": 90,
+    "text": "Gavin Baker, Antonio Graciaz, and Ron Boscardi have created TomorrowX on November 17 and"
+  },
+  {
+    "speaker": 1,
+    "ts": 97,
+    "text": "18 in Austin, Texas."
+  },
+  {
+    "speaker": 1,
+    "ts": 99,
+    "text": "The two-day event will bring together CEOs, investors, and operators who move technology"
+  },
+  {
+    "speaker": 1,
+    "ts": 105,
+    "text": "to the frontier."
+  },
+  {
+    "speaker": 1,
+    "ts": 107,
+    "text": "Onstage will be an incredible lineup of speakers across AI, technology, and investing."
+  },
+  {
+    "speaker": 1,
+    "ts": 113,
+    "text": "Like Jensen Wong and the CEOs of Cerebrus, Cognition AI, Coinbase, Crusoe, Databricks,"
+  },
+  {
+    "speaker": 1,
+    "ts": 119,
+    "text": "DoorDash, Huggingface, and Perplexity, as well as WallStreet Titans, John Gray, Mark Rowan,"
+  },
+  {
+    "speaker": 1,
+    "ts": 126,
+    "text": "and David Solomon, and investors like Antonio, Gavin, Brad Gerstner, Joe Lonsdale, A16Z,"
+  },
+  {
+    "speaker": 1,
+    "ts": 133,
+    "text": "Wellington, and many more."
+  },
+  {
+    "speaker": 1,
+    "ts": 136,
+    "text": "The speakers are only one part of the program."
+  },
+  {
+    "speaker": 1,
+    "ts": 139,
+    "text": "Gavin's prodigious ex-presence has brought him connectivity with the most insightful,"
+  },
+  {
+    "speaker": 1,
+    "ts": 144,
+    "text": "positive influencers on Fintuit, Substack, and Reddit."
+  },
+  {
+    "speaker": 1,
+    "ts": 148,
+    "text": "Beyond the main stage, these top analysts and all attendees will get a chance to connect"
+  },
+  {
+    "speaker": 1,
+    "ts": 153,
+    "text": "directly with the companies they follow."
+  },
+  {
+    "speaker": 1,
+    "ts": 156,
+    "text": "The best of them earn a free seat to attend."
+  },
+  {
+    "speaker": 1,
+    "ts": 160,
+    "text": "It's gearing up to be an extraordinary high-signal industry event."
+  },
+  {
+    "speaker": 1,
+    "ts": 164,
+    "text": "Now, I may be biased."
+  },
+  {
+    "speaker": 1,
+    "ts": 166,
+    "text": "I recently became a senior advisor to Atreides and have partnered with iConnections for years."
+  },
+  {
+    "speaker": 1,
+    "ts": 172,
+    "text": "Then again, that really doesn't matter other than a disclosure."
+  },
+  {
+    "speaker": 1,
+    "ts": 176,
+    "text": "I'll be there for this unique first-time event, and I invite you to join me."
+  },
+  {
+    "speaker": 1,
+    "ts": 180,
+    "text": "Go to TomorrowXSummit.com and use the coupon code in the show notes for a discount."
+  },
+  {
+    "speaker": 1,
+    "ts": 188,
+    "text": "Hope to see you there, and thanks for spreading the word about TomorrowX."
+  },
+  {
+    "speaker": 1,
+    "ts": 193,
+    "text": "Capital Allocators is brought to you by AlphaSense."
+  },
+  {
+    "speaker": 1,
+    "ts": 197,
+    "text": "Every allocator sits at their desk for hours preparing the work around investment decisions,"
+  },
+  {
+    "speaker": 1,
+    "ts": 203,
+    "text": "getting up to speed on a new theme, prepping for the next investment committee meeting,"
+  },
+  {
+    "speaker": 1,
+    "ts": 207,
+    "text": "and tracking what changes across an entire portfolio."
+  },
+  {
+    "speaker": 1,
+    "ts": 211,
+    "text": "AlphaSense just launched something built to help."
+  },
+  {
+    "speaker": 1,
+    "ts": 214,
+    "text": "It's called Super Analyst, an always-on agent that works like a power user on your behalf."
+  },
+  {
+    "speaker": 1,
+    "ts": 220,
+    "text": "It draws on over 500 million premium sources, including broker research, expert transcripts,"
+  },
+  {
+    "speaker": 1,
+    "ts": 227,
+    "text": "company filings, and earnings calls, and keeps working long after you've gone home for the day."
+  },
+  {
+    "speaker": 1,
+    "ts": 232,
+    "text": "Point Super Analyst at a theme, company, or market, and it learns the coverage universe"
+  },
+  {
+    "speaker": 1,
+    "ts": 238,
+    "text": "so you can easily turn new insights into the briefs, models, and memos you'd otherwise build by hand."
+  },
+  {
+    "speaker": 1,
+    "ts": 245,
+    "text": "It was designed to work like an extension of your team,"
+  },
+  {
+    "speaker": 1,
+    "ts": 248,
+    "text": "so it remembers your projects, follows your templates and processes,"
+  },
+  {
+    "speaker": 1,
+    "ts": 251,
+    "text": "and links every output to its source so you can see where each conclusion came from."
+  },
+  {
+    "speaker": 1,
+    "ts": 257,
+    "text": "The best way to judge its quality is to give it a whirl."
+  },
+  {
+    "speaker": 1,
+    "ts": 260,
+    "text": "Pick the research task on your desk before your next committee meeting and hand it to Super Analyst."
+  },
+  {
+    "speaker": 1,
+    "ts": 266,
+    "text": "Start a free trial at alpha-sense.com-capital and see what it has ready for you."
+  },
+  {
+    "speaker": 1,
+    "ts": 273,
+    "text": "Capital Allocators is also brought to you by Ridgeline,"
+  },
+  {
+    "speaker": 1,
+    "ts": 277,
+    "text": "the investment management platform built for firms who are rethinking how work gets done."
+  },
+  {
+    "speaker": 1,
+    "ts": 283,
+    "text": "You're at your desk looking at a line graph of your firm's growth."
+  },
+  {
+    "speaker": 1,
+    "ts": 287,
+    "text": "The line is moving sideways, linear growth, and you know exactly why."
+  },
+  {
+    "speaker": 1,
+    "ts": 293,
+    "text": "You're constrained by your operational bandwidth that's been the same for so long,"
+  },
+  {
+    "speaker": 1,
+    "ts": 297,
+    "text": "it just feels like the cost of doing business."
+  },
+  {
+    "speaker": 1,
+    "ts": 300,
+    "text": "Ridgeline is built to change that line's trajectory,"
+  },
+  {
+    "speaker": 1,
+    "ts": 304,
+    "text": "to be the inflection point that takes your growth from incremental to accelerated,"
+  },
+  {
+    "speaker": 1,
+    "ts": 308,
+    "text": "with the team you already have in place."
+  },
+  {
+    "speaker": 1,
+    "ts": 311,
+    "text": "Ridgeline is the only AI-native investment management platform that brings together"
+  },
+  {
+    "speaker": 1,
+    "ts": 315,
+    "text": "the front, middle, and back office with one set of data and powerful AI agents"
+  },
+  {
+    "speaker": 1,
+    "ts": 320,
+    "text": "that automate away operational drudgery,"
+  },
+  {
+    "speaker": 1,
+    "ts": 323,
+    "text": "so your talent can shift from managing old technology to materializing new ideas."
+  },
+  {
+    "speaker": 1,
+    "ts": 329,
+    "text": "Ridgeline helps asset and wealth managers understand and improve their firm's growth"
+  },
+  {
+    "speaker": 1,
+    "ts": 334,
+    "text": "trajectory. To see how your firm compares to 16,000 of your peers, visit ridgeline.ai"
+  },
+  {
+    "speaker": 1,
+    "ts": 341,
+    "text": "slash trajectory. If you file form ADV, your firm is already there."
+  },
+  {
+    "speaker": 1,
+    "ts": 346,
+    "text": "Then talk to Ridgeline about how you can do more with the team you already have."
+  },
+  {
+    "speaker": 1,
+    "ts": 351,
+    "text": "Capital Allocators is also brought to you by Juniper Square,"
+  },
+  {
+    "speaker": 1,
+    "ts": 355,
+    "text": "the operations partner trusted by the leading private market GPs."
+  },
+  {
+    "speaker": 1,
+    "ts": 360,
+    "text": "One theme that keeps coming up on the show is GPs that build the strongest and most durable"
+  },
+  {
+    "speaker": 1,
+    "ts": 365,
+    "text": "relationships with LPs are the ones that have both strong returns and strong operations."
+  },
+  {
+    "speaker": 1,
+    "ts": 372,
+    "text": "AI raises the stakes on operations, and having Juniper Square as your operations"
+  },
+  {
+    "speaker": 1,
+    "ts": 377,
+    "text": "partner helps ensure your data is organized, accurate, and accessible so you can unlock"
+  },
+  {
+    "speaker": 1,
+    "ts": 383,
+    "text": "operational alpha. That's why thousands of GPs trust Juniper Square."
+  },
+  {
+    "speaker": 1,
+    "ts": 389,
+    "text": "Learn more at junipersquare.com slash capital allocators."
+  },
+  {
+    "speaker": 1,
+    "ts": 394,
+    "text": "Please enjoy my conversation with Steven McLennan."
+  },
+  {
+    "speaker": 1,
+    "ts": 399,
+    "text": "Steven, thanks so much for joining me."
+  },
+  {
+    "speaker": 1,
+    "ts": 401,
+    "text": "Thanks for having me, Ted, big fan of the podcast."
+  },
+  {
+    "speaker": 1,
+    "ts": 404,
+    "text": "I'd love you to take me back to the early experiences that later you could look back"
+  },
+  {
+    "speaker": 1,
+    "ts": 410,
+    "text": "and say influenced your investing."
+  },
+  {
+    "speaker": 1,
+    "ts": 412,
+    "text": "I'm not sure what it was. It was probably something related to the pop culture in the 80s,"
+  },
+  {
+    "speaker": 1,
+    "ts": 417,
+    "text": "the movies, and the TV shows of the time. My first foray into the investing world was"
+  },
+  {
+    "speaker": 1,
+    "ts": 424,
+    "text": "when my last year of high school, I did a co-op session at one of the local brokerage firms."
+  },
+  {
+    "speaker": 1,
+    "ts": 429,
+    "text": "It coincided with the first Gulf War. As tragic as those circumstances were for the people on"
+  },
+  {
+    "speaker": 1,
+    "ts": 435,
+    "text": "the ground, the connection between what was happening in the real world in terms of what"
+  },
+  {
+    "speaker": 1,
+    "ts": 440,
+    "text": "was going on in CNN, how that transmitted immediately into what was going on in the"
+  },
+  {
+    "speaker": 1,
+    "ts": 444,
+    "text": "markets. You could see that real-time reaction. That was the start of how I started to think about"
+  },
+  {
+    "speaker": 1,
+    "ts": 450,
+    "text": "the investing world. I've done a number of different things career-wise. Each of those"
+  },
+  {
+    "speaker": 1,
+    "ts": 454,
+    "text": "experiences has shaped me in terms of how I think about the world."
+  },
+  {
+    "speaker": 1,
+    "ts": 458,
+    "text": "What were some of those experiences and how did they shape your views?"
+  },
+  {
+    "speaker": 1,
+    "ts": 462,
+    "text": "Coming out of high school, I did an undergraduate degree in business and economics and finance."
+  },
+  {
+    "speaker": 1,
+    "ts": 467,
+    "text": "My first job out of school was working for Archer Daniels Midland, which is the big U.S."
+  },
+  {
+    "speaker": 1,
+    "ts": 473,
+    "text": "agribusiness company for the Canadian operations. It involved buying and selling grain and involved"
+  },
+  {
+    "speaker": 1,
+    "ts": 479,
+    "text": "logistics and involved hedging on the Chicago exchange. It was an interesting foray into the"
+  },
+  {
+    "speaker": 1,
+    "ts": 484,
+    "text": "business world. It wasn't necessarily a pure investment type of role. The plan was always"
+  },
+  {
+    "speaker": 1,
+    "ts": 489,
+    "text": "to go back to school to do my MBA. After my MBA, I ended up joining Merrill Lynch in their"
+  },
+  {
+    "speaker": 1,
+    "ts": 495,
+    "text": "Calgary office. Calgary is the energy hub of Canada, the Houston of Canada. It's a capital"
+  },
+  {
+    "speaker": 1,
+    "ts": 500,
+    "text": "intensive sector. There was a lot of capital raising required as part of that job. Merrill"
+  },
+  {
+    "speaker": 1,
+    "ts": 505,
+    "text": "was well positioned to do that. Combined with a lot of activity from U.S. companies coming in,"
+  },
+  {
+    "speaker": 1,
+    "ts": 511,
+    "text": "buying some of the Canadian E&P entities, I got exposure to that. For personal reasons,"
+  },
+  {
+    "speaker": 1,
+    "ts": 518,
+    "text": "my now wife wanted to move back to Toronto to go back to school and to be closer to family."
+  },
+  {
+    "speaker": 1,
+    "ts": 524,
+    "text": "I used that as an opportunity to think about what is the next stage of my career?"
+  },
+  {
+    "speaker": 1,
+    "ts": 528,
+    "text": "How do I want to position myself to get closer to the investment process? Move away from that"
+  },
+  {
+    "speaker": 1,
+    "ts": 534,
+    "text": "agent type of role as an investment banker to more of a principal type of role as an investor."
+  },
+  {
+    "speaker": 1,
+    "ts": 540,
+    "text": "Use that to go back to school. Did a mathematical finance degree here in Toronto."
+  },
+  {
+    "speaker": 1,
+    "ts": 544,
+    "text": "Then I joined teachers as a new entrant junior person. I joined the credit desk. Given my"
+  },
+  {
+    "speaker": 1,
+    "ts": 552,
+    "text": "background, it was a wide mandate at the time. This would have been 2003. The credit business"
+  },
+  {
+    "speaker": 1,
+    "ts": 557,
+    "text": "would have been your traditional corporate bonds, some private placements. Credit derivatives was"
+  },
+  {
+    "speaker": 1,
+    "ts": 562,
+    "text": "a growing business. That was where I spent the bulk of my time thinking about how best to use"
+  },
+  {
+    "speaker": 1,
+    "ts": 567,
+    "text": "that product to implement whatever views we thought were appropriate at the time. The GFC was a"
+  },
+  {
+    "speaker": 1,
+    "ts": 573,
+    "text": "credit derivative event. Lots of scars on my back from that particular experience. How do you deal"
+  },
+  {
+    "speaker": 1,
+    "ts": 579,
+    "text": "with liquidity, counterparties, risk positioning, blocking and tackling portfolio construction"
+  },
+  {
+    "speaker": 1,
+    "ts": 585,
+    "text": "was eventually elevated to be leading the credit team. It was a fantastic team."
+  },
+  {
+    "speaker": 1,
+    "ts": 591,
+    "text": "In 2013, the head of our capital markets group had been tasked with building a new program called"
+  },
+  {
+    "speaker": 1,
+    "ts": 596,
+    "text": "Natural Resources, which was a combination of our public commodity program, which we use for"
+  },
+  {
+    "speaker": 1,
+    "ts": 603,
+    "text": "its inflation characteristics, combined with an aspiration to grow a private natural resource"
+  },
+  {
+    "speaker": 1,
+    "ts": 609,
+    "text": "program to be a complement to those public commodities exposures. It was a great opportunity"
+  },
+  {
+    "speaker": 1,
+    "ts": 615,
+    "text": "for me to work with a new set of colleagues, work for a new boss, build a business and try to think"
+  },
+  {
+    "speaker": 1,
+    "ts": 621,
+    "text": "through what should that portfolio look like based on my experience prior to teachers in the energy"
+  },
+  {
+    "speaker": 1,
+    "ts": 628,
+    "text": "space. We were successful in growing the private part of that program to a level on the back of"
+  },
+  {
+    "speaker": 1,
+    "ts": 633,
+    "text": "some other organizational changes in terms of trying to streamline the number of programs or"
+  },
+  {
+    "speaker": 1,
+    "ts": 639,
+    "text": "places where private investing was being undertaken. They moved myself and several colleagues into a"
+  },
+  {
+    "speaker": 1,
+    "ts": 645,
+    "text": "renamed group called Infrastructure and Natural Resources. I had day-to-day responsibilities"
+  },
+  {
+    "speaker": 1,
+    "ts": 650,
+    "text": "for Natural Resources, got familiarity with the infra team, those assets and how those contribute"
+  },
+  {
+    "speaker": 1,
+    "ts": 656,
+    "text": "to the overall portfolio. In 2018, when the previous head of capital markets had been promoted to"
+  },
+  {
+    "speaker": 1,
+    "ts": 663,
+    "text": "become the CIO, he asked me to come over and help him set up a new team called Total Fund Management,"
+  },
+  {
+    "speaker": 1,
+    "ts": 670,
+    "text": "which has become known as this TPA concept. The thoughts around that TFM group were to combine"
+  },
+  {
+    "speaker": 1,
+    "ts": 676,
+    "text": "our asset allocation function with our treasury function. I always try to explain asset allocation"
+  },
+  {
+    "speaker": 1,
+    "ts": 682,
+    "text": "is what you want to buy, treasury is how do you pay for it. That was a great combination of my public"
+  },
+  {
+    "speaker": 1,
+    "ts": 688,
+    "text": "market experience combined with my private market experience. One of the learnings that I've had"
+  },
+  {
+    "speaker": 1,
+    "ts": 693,
+    "text": "over the course of my career is that public and private, notwithstanding that those two"
+  },
+  {
+    "speaker": 1,
+    "ts": 698,
+    "text": "groups of market participants from time to time are different religions, don't like each other or"
+  },
+  {
+    "speaker": 1,
+    "ts": 704,
+    "text": "like to debate and throw rocks at each other, they're tools to implement an overall policy view"
+  },
+  {
+    "speaker": 1,
+    "ts": 710,
+    "text": "or a portfolio view. Fast forward a couple of years, the CIO resigned. Organizationally, we took"
+  },
+  {
+    "speaker": 1,
+    "ts": 717,
+    "text": "the time to think about what the right structure going forward was going to be. We arrived at a"
+  },
+  {
+    "speaker": 1,
+    "ts": 722,
+    "text": "dual CIO or a co-CIO model. I'm one of the CIOs. We've divided the responsibilities between asset"
+  },
+  {
+    "speaker": 1,
+    "ts": 728,
+    "text": "allocation and my colleague, Jillian Brown, who is the CIO of public and private investing, is"
+  },
+  {
+    "speaker": 1,
+    "ts": 734,
+    "text": "responsible for those active programs. Tim, why don't we take a step back and have you share the"
+  },
+  {
+    "speaker": 1,
+    "ts": 739,
+    "text": "history of teachers? We were established in our current format in 1990. The origin story is that"
+  },
+  {
+    "speaker": 1,
+    "ts": 747,
+    "text": "in the 1980s, the teachers union and the province of Ontario, our joint sponsors, were getting"
+  },
+  {
+    "speaker": 1,
+    "ts": 754,
+    "text": "worried about the long-term sustainability of the plan. There was a number of different commissions"
+  },
+  {
+    "speaker": 1,
+    "ts": 759,
+    "text": "and studies undertaken. They arrived at creating an independent organization called the Ontario"
+  },
+  {
+    "speaker": 1,
+    "ts": 765,
+    "text": "Teachers Pension Plan Board. A couple of key things that were important at the outset were"
+  },
+  {
+    "speaker": 1,
+    "ts": 772,
+    "text": "independence, top-notch governance. The other requirement was to make sure that we were run"
+  },
+  {
+    "speaker": 1,
+    "ts": 777,
+    "text": "as a business and had that mindset of running a world-class asset manager. The first thing"
+  },
+  {
+    "speaker": 1,
+    "ts": 785,
+    "text": "that the board did was hired our founding CEO, Claude Lamarou. One of the first things Claude"
+  },
+  {
+    "speaker": 1,
+    "ts": 791,
+    "text": "did was hire our founding CIO, Bob Bertram. Concurrent with that, the plan was seeded with"
+  },
+  {
+    "speaker": 1,
+    "ts": 798,
+    "text": "a portfolio of non-marketable province of Ontario debentures. One of the first things Bob and Claude"
+  },
+  {
+    "speaker": 1,
+    "ts": 804,
+    "text": "did, which was pretty innovative at the time, was use financial engineering, a derivative program"
+  },
+  {
+    "speaker": 1,
+    "ts": 810,
+    "text": "to transform those non-marketable debentures into a liquid portfolio of global public equities."
+  },
+  {
+    "speaker": 1,
+    "ts": 817,
+    "text": "That was the first step to this journey of diversification across a number of different"
+  },
+  {
+    "speaker": 1,
+    "ts": 823,
+    "text": "asset classes. We're an early adopter of private equity, infrastructure, commodities, hedge funds."
+  },
+  {
+    "speaker": 1,
+    "ts": 829,
+    "text": "You fast forward to where we are now 35 years later. We're a $300 billion plan. We cover the"
+  },
+  {
+    "speaker": 1,
+    "ts": 836,
+    "text": "retirement security of the 346,000 active retired teachers in the province. We've got a global"
+  },
+  {
+    "speaker": 1,
+    "ts": 843,
+    "text": "footprint with offices in North America, in Europe, and in Asia. We've got a real track record of"
+  },
+  {
+    "speaker": 1,
+    "ts": 851,
+    "text": "direct internal deployment of asset management. That's resulted in a funding ratio of 111%,"
+  },
+  {
+    "speaker": 1,
+    "ts": 857,
+    "text": "which goes to the long-term sustainability of the plan."
+  },
+  {
+    "speaker": 1,
+    "ts": 861,
+    "text": "Through that entire experience, public markets, private markets, TFM, now you sit today as Co-CIO."
+  },
+  {
+    "speaker": 1,
+    "ts": 869,
+    "text": "How do you lay out the current strategy at OTPP?"
+  },
+  {
+    "speaker": 1,
+    "ts": 873,
+    "text": "Ultimately, we're trying to build a diversify portfolio that's going to be resilient across"
+  },
+  {
+    "speaker": 1,
+    "ts": 880,
+    "text": "a number of different economic environments to make sure that we're in a position to honor"
+  },
+  {
+    "speaker": 1,
+    "ts": 884,
+    "text": "that pension promise. I would divide that investment strategy along a couple of different"
+  },
+  {
+    "speaker": 1,
+    "ts": 890,
+    "text": "dimensions, one of which would be diversification. One would be we are believers in active management."
+  },
+  {
+    "speaker": 1,
+    "ts": 896,
+    "text": "Where and how do you focus your activities to deliver on that excess return?"
+  },
+  {
+    "speaker": 1,
+    "ts": 901,
+    "text": "Another one would be we're focused on ensuring we've got the right risk management framework in"
+  },
+  {
+    "speaker": 1,
+    "ts": 907,
+    "text": "place to deliver on that goal. The fourth one is we do use a prudent amount of leverage to"
+  },
+  {
+    "speaker": 1,
+    "ts": 913,
+    "text": "execute our investment plan. Those will be the four buckets."
+  },
+  {
+    "speaker": 1,
+    "ts": 916,
+    "text": "How do you think about the implementation of TPA or TFM?"
+  },
+  {
+    "speaker": 1,
+    "ts": 921,
+    "text": "It's ultimately about delivering the best risk-adjusted portfolio with all the tools that"
+  },
+  {
+    "speaker": 1,
+    "ts": 925,
+    "text": "you have at your disposal. I suppose our form of that, we probably started with a type of TPA"
+  },
+  {
+    "speaker": 1,
+    "ts": 934,
+    "text": "back in 2015 or 2016 when we went down the path of a one-teacher strategy where our board before"
+  },
+  {
+    "speaker": 1,
+    "ts": 943,
+    "text": "that would say, okay, management, what is the desired asset mix? Management would present to"
+  },
+  {
+    "speaker": 1,
+    "ts": 948,
+    "text": "the board. The board would say, okay, great, that's the right asset mix. Management would then go off,"
+  },
+  {
+    "speaker": 1,
+    "ts": 954,
+    "text": "try to build a portfolio to beat that asset mix. That asset mix had some characteristics of that"
+  },
+  {
+    "speaker": 1,
+    "ts": 960,
+    "text": "risk portfolio. One of the challenges with that is making sure there's alignment with what you're"
+  },
+  {
+    "speaker": 1,
+    "ts": 967,
+    "text": "actually trying to do. Pensions are paid with total return, not with active return or just"
+  },
+  {
+    "speaker": 1,
+    "ts": 973,
+    "text": "beta return. How do you make sure that you're in a situation where everybody's aligned to deliver"
+  },
+  {
+    "speaker": 1,
+    "ts": 979,
+    "text": "the best total return on a risk-adjusted basis? As we're going through that one-teacher strategy,"
+  },
+  {
+    "speaker": 1,
+    "ts": 985,
+    "text": "the board said, hey, look, we're signing off on this asset mix, but it's what you folks are"
+  },
+  {
+    "speaker": 1,
+    "ts": 991,
+    "text": "recommending to us. Why are we taking responsibility for that? Is there a way for you folks to be"
+  },
+  {
+    "speaker": 1,
+    "ts": 997,
+    "text": "responsible for the asset mix as much as we are? That moved us down this path of having much more"
+  },
+  {
+    "speaker": 1,
+    "ts": 1002,
+    "text": "flexible asset mix bands. The flip side to that is that that does not mean that you don't have a"
+  },
+  {
+    "speaker": 1,
+    "ts": 1008,
+    "text": "rigorous risk approach, which we do have. To me, a reference portfolio is more of a signal of"
+  },
+  {
+    "speaker": 1,
+    "ts": 1015,
+    "text": "risk appetite, not necessarily meant to give you a rigid portfolio construction exercise."
+  },
+  {
+    "speaker": 1,
+    "ts": 1022,
+    "text": "I always say, if you're going to tell me what the right risk appetite is, tell me that directly."
+  },
+  {
+    "speaker": 1,
+    "ts": 1029,
+    "text": "Then it's on management and the investment team to deliver the best risk-adjusted return"
+  },
+  {
+    "speaker": 1,
+    "ts": 1034,
+    "text": "to achieve that consistent with all the guardrails that you would have from a risk perspective."
+  },
+  {
+    "speaker": 1,
+    "ts": 1038,
+    "text": "Some of the downsides of having a reference portfolio is that over time, investment teams"
+  },
+  {
+    "speaker": 1,
+    "ts": 1043,
+    "text": "will gravitate to what those weights are. You can end up in a circumstance where, if for instance,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1049,
+    "text": "your reference portfolio is 60% equities, 40% fixed income, investment teams will be reluctant to"
+  },
+  {
+    "speaker": 1,
+    "ts": 1055,
+    "text": "deviate substantially away from those weights. You can be in the world where you have a lot of fixed"
+  },
+  {
+    "speaker": 1,
+    "ts": 1061,
+    "text": "income exposure, like we saw in 2020-2021, where the reason for having that in the portfolio may"
+  },
+  {
+    "speaker": 1,
+    "ts": 1067,
+    "text": "not be as compelling as what it once was. You end up in a circumstance where investment teams are"
+  },
+  {
+    "speaker": 1,
+    "ts": 1073,
+    "text": "reluctant to deviate even though they know that they should be deviating."
+  },
+  {
+    "speaker": 1,
+    "ts": 1078,
+    "text": "How do you bring it all together? Total fund management is focused on that top-down"
+  },
+  {
+    "speaker": 1,
+    "ts": 1083,
+    "text": "asset allocation function. How do you then layer in some of that bottom-up thinking?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1088,
+    "text": "That's where the real magic happens from an excess return perspective."
+  },
+  {
+    "speaker": 1,
+    "ts": 1092,
+    "text": "The top-down is more my domain. My colleague, Jillian, would be responsible for that bottom-up"
+  },
+  {
+    "speaker": 1,
+    "ts": 1098,
+    "text": "piece. Top-down, some of the levers would be, what is your active versus passive mix?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1103,
+    "text": "What is your leverage and liquidity formulation to implement that overall asset mix? The big thing"
+  },
+  {
+    "speaker": 1,
+    "ts": 1109,
+    "text": "that the team spends a lot of time on is where and how do you want to position the portfolio from"
+  },
+  {
+    "speaker": 1,
+    "ts": 1116,
+    "text": "a broader risk perspective? You can be complicated and we have a lot of different systems that go"
+  },
+  {
+    "speaker": 1,
+    "ts": 1121,
+    "text": "into that. Our simple way to think about it is, do we want the portfolio to be positioned"
+  },
+  {
+    "speaker": 1,
+    "ts": 1127,
+    "text": "aggressively, neutral or conservatively, depending on the market environment, overlaying what our"
+  },
+  {
+    "speaker": 1,
+    "ts": 1134,
+    "text": "risk return BOIs are to satisfy our actuarial objectives? We're a pension plant. We have"
+  },
+  {
+    "speaker": 1,
+    "ts": 1140,
+    "text": "fairly good line of sight in terms of what our liability profile is, not standing that that can"
+  },
+  {
+    "speaker": 1,
+    "ts": 1144,
+    "text": "be out 60, 70, 80 years. As you look today, that high level, do you want to be aggressive, neutral,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1151,
+    "text": "or conservative? How do you go about making that assessment? We have a couple of different"
+  },
+  {
+    "speaker": 1,
+    "ts": 1156,
+    "text": "planning horizons and investment committees to do that. The first is our planning investment process,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1163,
+    "text": "which is typical of the industry, but we do run an annual investment plan where we try to think"
+  },
+  {
+    "speaker": 1,
+    "ts": 1169,
+    "text": "about where we want the portfolio to be over a one-year horizon. We also think about the"
+  },
+  {
+    "speaker": 1,
+    "ts": 1175,
+    "text": "planning process over a five-year horizon. Five years, there's nothing magic about that. It's"
+  },
+  {
+    "speaker": 1,
+    "ts": 1180,
+    "text": "far enough in the future where you don't have to do anything immediately today, but it's near"
+  },
+  {
+    "speaker": 1,
+    "ts": 1185,
+    "text": "enough that you have to start taking action today if you want to accomplish it. The five-year"
+  },
+  {
+    "speaker": 1,
+    "ts": 1189,
+    "text": "horizon is driven by the fact that we do have a portion of the portfolio that's in illiquid assets."
+  },
+  {
+    "speaker": 1,
+    "ts": 1195,
+    "text": "We need to make sure that we've got the right buffer to be able to manage that because you never"
+  },
+  {
+    "speaker": 1,
+    "ts": 1199,
+    "text": "want to be in a position where you're a forced seller of an asset. That's why we spend a lot of"
+  },
+  {
+    "speaker": 1,
+    "ts": 1204,
+    "text": "time on planning out where do we think those allocations should go. We also overlay that with"
+  },
+  {
+    "speaker": 1,
+    "ts": 1209,
+    "text": "a rigorous liquidity and leverage system that's run by our risk team. That process of the one-year"
+  },
+  {
+    "speaker": 1,
+    "ts": 1215,
+    "text": "horizon, which is probably more relevant for risk positioning, is the beginnings of how we want"
+  },
+  {
+    "speaker": 1,
+    "ts": 1221,
+    "text": "to structure the portfolio. A one-year horizon is still an eternity in the investment business."
+  },
+  {
+    "speaker": 1,
+    "ts": 1226,
+    "text": "Within our total fund management team, there is a function which looks at more dynamic"
+  },
+  {
+    "speaker": 1,
+    "ts": 1232,
+    "text": "type of opportunities, how the market might be evolving, how does that compare to our original"
+  },
+  {
+    "speaker": 1,
+    "ts": 1237,
+    "text": "assumptions. The point of TFM isn't to be day trading the portfolio. These are big decisions."
+  },
+  {
+    "speaker": 1,
+    "ts": 1242,
+    "text": "We have a group that has a specific mandate within our capital markets team, which would be"
+  },
+  {
+    "speaker": 1,
+    "ts": 1247,
+    "text": "frequent in nature. The TFM team and this dynamic team is there to say, look, here's what we think"
+  },
+  {
+    "speaker": 1,
+    "ts": 1254,
+    "text": "the environment is. Here's what we think is currently priced in or not priced into the market."
+  },
+  {
+    "speaker": 1,
+    "ts": 1259,
+    "text": "How should we think about a portfolio adjustment driven by a couple of things? One would be"
+  },
+  {
+    "speaker": 1,
+    "ts": 1266,
+    "text": "risk mitigation type of approach. If there is a particular event on the horizon"
+  },
+  {
+    "speaker": 1,
+    "ts": 1271,
+    "text": "that if it were to happen would be unacceptable from a return or catastrophic loss perspective,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1277,
+    "text": "we probably would want to be thinking about that. The prototypical example of that would be"
+  },
+  {
+    "speaker": 1,
+    "ts": 1282,
+    "text": "going into Brexit 10 years ago. If you have a large portfolio of UK or pound-based exposure"
+  },
+  {
+    "speaker": 1,
+    "ts": 1288,
+    "text": "and you don't know what's going to happen, you might want to be thinking about"
+  },
+  {
+    "speaker": 1,
+    "ts": 1292,
+    "text": "aggressively trying to manage some of those risks. The other example would be we have an"
+  },
+  {
+    "speaker": 1,
+    "ts": 1297,
+    "text": "allocation in the portfolio. Markets have moved. Is it still going to perform its role in the"
+  },
+  {
+    "speaker": 1,
+    "ts": 1303,
+    "text": "portfolio given the repricing that's happened? An example of that would have been in 2022 with"
+  },
+  {
+    "speaker": 1,
+    "ts": 1310,
+    "text": "fixed income. We had an allocation to fixed income where adherence to that all-weather"
+  },
+  {
+    "speaker": 1,
+    "ts": 1315,
+    "text": "philosophy. When yields continue to go lower and lower, down to almost zero, we did a lot of analysis"
+  },
+  {
+    "speaker": 1,
+    "ts": 1323,
+    "text": "and our CIO at the time working with our CEO and the board said our expected return for fixed income"
+  },
+  {
+    "speaker": 1,
+    "ts": 1330,
+    "text": "is low because yields were close to zero. I totally understand that yields could go negative as they"
+  },
+  {
+    "speaker": 1,
+    "ts": 1335,
+    "text": "had done and were doing in Europe. Our view is that is less likely to happen in North America"
+  },
+  {
+    "speaker": 1,
+    "ts": 1341,
+    "text": "given some of the commentary from central banks and other authorities. Fixed incomes roll in the"
+  },
+  {
+    "speaker": 1,
+    "ts": 1346,
+    "text": "portfolio to be a offset or ballast to an equity shock is going to be more difficult. Why do we"
+  },
+  {
+    "speaker": 1,
+    "ts": 1354,
+    "text": "have this in the portfolio? There was a conscious decision to reduce our fixed income exposure"
+  },
+  {
+    "speaker": 1,
+    "ts": 1361,
+    "text": "that would have been driven in combination and discussion and research from that TFM group."
+  },
+  {
+    "speaker": 1,
+    "ts": 1366,
+    "text": "I'd love you to take us underneath the last time you went through your annual process,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1373,
+    "text": "where you came out on the five-year and the one-year thoughts."
+  },
+  {
+    "speaker": 1,
+    "ts": 1378,
+    "text": "We've spent a lot of time thinking about where do we need to focus our active activities. A typical"
+  },
+  {
+    "speaker": 1,
+    "ts": 1385,
+    "text": "example of that would be what are the prospective returns for private equity? Some of our peers"
+  },
+  {
+    "speaker": 1,
+    "ts": 1390,
+    "text": "in the US, for instance, have been aggressive in reducing what they would view as the expected"
+  },
+  {
+    "speaker": 1,
+    "ts": 1395,
+    "text": "return for those assets. We would take the view that it has become more competitive for private"
+  },
+  {
+    "speaker": 1,
+    "ts": 1400,
+    "text": "equity in terms of prospective returns. If you used to be earning five or six hundred basis"
+  },
+  {
+    "speaker": 1,
+    "ts": 1406,
+    "text": "points over whatever your comparator is, if it's less than that, then you probably want to think"
+  },
+  {
+    "speaker": 1,
+    "ts": 1412,
+    "text": "about what the implications are for the portfolio over that five-year time horizon. You'd never"
+  },
+  {
+    "speaker": 1,
+    "ts": 1417,
+    "text": "want to be in a position where you close a door. If market conditions change, there is a case to"
+  },
+  {
+    "speaker": 1,
+    "ts": 1422,
+    "text": "be made that those market conditions are changing, that you're not in a position to deploy because we"
+  },
+  {
+    "speaker": 1,
+    "ts": 1427,
+    "text": "do use partners. We also have a team of internal investors that can also execute managing that"
+  },
+  {
+    "speaker": 1,
+    "ts": 1433,
+    "text": "aspect of things as a pretty important part of the puzzle. When you want to flex down a little"
+  },
+  {
+    "speaker": 1,
+    "ts": 1438,
+    "text": "bit private equity in that scenario, how do you do it? You need to start thinking about where do"
+  },
+  {
+    "speaker": 1,
+    "ts": 1443,
+    "text": "you want it to be? How do you think about the team in place? Sometimes you need to have the"
+  },
+  {
+    "speaker": 1,
+    "ts": 1448,
+    "text": "forbearance to be able to not do something rash or erratic. We do have the benefit of being fully"
+  },
+  {
+    "speaker": 1,
+    "ts": 1455,
+    "text": "funded and having a flexible liquidity pool. We're never in a position where we need to"
+  },
+  {
+    "speaker": 1,
+    "ts": 1459,
+    "text": "get a number to a certain level. We've taken the approach that we should be looking at opportunities"
+  },
+  {
+    "speaker": 1,
+    "ts": 1465,
+    "text": "to reduce that when we think that the market or the pricing for those assets is attractive and is"
+  },
+  {
+    "speaker": 1,
+    "ts": 1472,
+    "text": "still consistent with our long-term return assumptions, but not unduly force that allocation"
+  },
+  {
+    "speaker": 1,
+    "ts": 1478,
+    "text": "more. In a scenario like this that you did think over five years, you might want to reduce relative"
+  },
+  {
+    "speaker": 1,
+    "ts": 1484,
+    "text": "to where you were, how do you toggle the external relationships versus the internal capabilities?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1491,
+    "text": "Part of this is reduction of the size of that program in dollar amounts. It's probably not as"
+  },
+  {
+    "speaker": 1,
+    "ts": 1497,
+    "text": "pronounced as what you would think because the fund is going to continue to grow. The asset allocation"
+  },
+  {
+    "speaker": 1,
+    "ts": 1502,
+    "text": "function tries to allocate on a percent basis because we're trying to scale up and down the"
+  },
+  {
+    "speaker": 1,
+    "ts": 1507,
+    "text": "overall portfolio. If you're a practitioner or a GP or an internal investor, you're also focused on"
+  },
+  {
+    "speaker": 1,
+    "ts": 1513,
+    "text": "how many dollars do I have. We actually haven't seen a substantial reduction in the dollar amount"
+  },
+  {
+    "speaker": 1,
+    "ts": 1520,
+    "text": "because as we forecast out these things, that acts as a bit of an offset to this percent reduction."
+  },
+  {
+    "speaker": 1,
+    "ts": 1526,
+    "text": "As you went from your five-year view to the one-year view, what were the things you were"
+  },
+  {
+    "speaker": 1,
+    "ts": 1531,
+    "text": "looking at changing? More recently, there's been a lot of discussion around our inflation-sensitive"
+  },
+  {
+    "speaker": 1,
+    "ts": 1537,
+    "text": "asset class, which is different than maybe some of our peers. We are an adherent to this fall"
+  },
+  {
+    "speaker": 1,
+    "ts": 1542,
+    "text": "weather building a resilient portfolio. Our inflation-sensitive asset class, which we have"
+  },
+  {
+    "speaker": 1,
+    "ts": 1548,
+    "text": "about 20% of our portfolio in right now, is there for two purposes. One is to provide a reasonable"
+  },
+  {
+    "speaker": 1,
+    "ts": 1555,
+    "text": "return in most environments in an inflation spike or an inflationary environment, which has"
+  },
+  {
+    "speaker": 1,
+    "ts": 1561,
+    "text": "historically in our estimation going forward is going to have a pretty bad impact on equity and"
+  },
+  {
+    "speaker": 1,
+    "ts": 1567,
+    "text": "bond portfolios. In those types of instances, our inflation-sensitive asset class is there to provide"
+  },
+  {
+    "speaker": 1,
+    "ts": 1574,
+    "text": "offsets to what we expect to be happening in our equity market. We have a couple of levers within"
+  },
+  {
+    "speaker": 1,
+    "ts": 1579,
+    "text": "that basket. Our inflation-sensitive would be our public commodities, which would include gold."
+  },
+  {
+    "speaker": 1,
+    "ts": 1584,
+    "text": "We have the private natural resource team, which I grew up in in the organization. It also contains"
+  },
+  {
+    "speaker": 1,
+    "ts": 1590,
+    "text": "a bucket of public market inflation-related product to give us that protection. We've spent a lot of"
+  },
+  {
+    "speaker": 1,
+    "ts": 1597,
+    "text": "time. What is that inflation environment going to look like? How do we need to position that part"
+  },
+  {
+    "speaker": 1,
+    "ts": 1600,
+    "text": "of the portfolio in a world that we would expect inflation to be more volatile and likely to run"
+  },
+  {
+    "speaker": 1,
+    "ts": 1607,
+    "text": "at a higher weight? The other one is on the equity basket in terms of how do you think about your"
+  },
+  {
+    "speaker": 1,
+    "ts": 1613,
+    "text": "equity composition? We've got private equity. We've got a venture group. We've got a public or"
+  },
+  {
+    "speaker": 1,
+    "ts": 1618,
+    "text": "a passive completion part of the portfolio. Across each of those dimensions, there's positives and"
+  },
+  {
+    "speaker": 1,
+    "ts": 1624,
+    "text": "negatives. On the passive side, the US concentration is something that we're trying to be thoughtful"
+  },
+  {
+    "speaker": 1,
+    "ts": 1632,
+    "text": "around in terms of how do you manage that. The reality is the US is still a pretty important"
+  },
+  {
+    "speaker": 1,
+    "ts": 1636,
+    "text": "market. If you want to have exposure to that AI or that technology growth theme,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1642,
+    "text": "it's difficult to find it in other markets. We spend a lot of time thinking about some of"
+  },
+  {
+    "speaker": 1,
+    "ts": 1646,
+    "text": "those issues below the surface. When you look at that one factor of AI and growth through a lens"
+  },
+  {
+    "speaker": 1,
+    "ts": 1653,
+    "text": "of risk, there's a lot of discussion of potential binary outcomes where this keeps going or maybe"
+  },
+  {
+    "speaker": 1,
+    "ts": 1660,
+    "text": "something changes significantly. How do you incorporate that into your thinking about risk"
+  },
+  {
+    "speaker": 1,
+    "ts": 1667,
+    "text": "in the portfolio? AI is changing so quickly that having a high conviction view is difficult."
+  },
+  {
+    "speaker": 1,
+    "ts": 1674,
+    "text": "We try to be humble. There's certain things that we don't know. You can debate whether"
+  },
+  {
+    "speaker": 1,
+    "ts": 1679,
+    "text": "other people know, but we want to be balanced and not be overconfident in our ability to predict"
+  },
+  {
+    "speaker": 1,
+    "ts": 1685,
+    "text": "what or how that AI theme is going to evolve. The other part of it is we want to make sure that"
+  },
+  {
+    "speaker": 1,
+    "ts": 1691,
+    "text": "we're looking at the portfolio from this all-weather perspective and that we're not overbatting on a"
+  },
+  {
+    "speaker": 1,
+    "ts": 1698,
+    "text": "particular outcome as it relates to AI. It's even more important given the range of outcomes associated"
+  },
+  {
+    "speaker": 1,
+    "ts": 1703,
+    "text": "with it to be thinking about this portfolio resilience, recognizing that there's upside"
+  },
+  {
+    "speaker": 1,
+    "ts": 1708,
+    "text": "associated with that. There's also potential downside to what happens if AI tips over to the"
+  },
+  {
+    "speaker": 1,
+    "ts": 1714,
+    "text": "extent that AI ends up being a positive productivity shock historically has benefited the equity part"
+  },
+  {
+    "speaker": 1,
+    "ts": 1720,
+    "text": "of the capital structure. What are some of the more recent dynamic shifts you made in that"
+  },
+  {
+    "speaker": 1,
+    "ts": 1725,
+    "text": "within a year bucket presumably on the liquid side? I alluded to some of the work that we've been"
+  },
+  {
+    "speaker": 1,
+    "ts": 1730,
+    "text": "doing on the inflation sensitive. There's been a lot of volatility in commodity markets. We've"
+  },
+  {
+    "speaker": 1,
+    "ts": 1735,
+    "text": "used that as an opportunity where appropriate linked the impact on other asset classes. If there's"
+  },
+  {
+    "speaker": 1,
+    "ts": 1741,
+    "text": "an inflation shock, how much of that inflation shock have you already captured? How do you think"
+  },
+  {
+    "speaker": 1,
+    "ts": 1746,
+    "text": "about liquidity? You mentioned using some leverage. Those two things can go together."
+  },
+  {
+    "speaker": 1,
+    "ts": 1753,
+    "text": "I would separate that into the triangle of leveraged liquidity and funding that's managed by"
+  },
+  {
+    "speaker": 1,
+    "ts": 1758,
+    "text": "our treasury team. Our risk team also helps us manage that part of the portfolio. Leverage and"
+  },
+  {
+    "speaker": 1,
+    "ts": 1765,
+    "text": "liquidity are important because what's going to get any investor into trouble and by trouble I mean"
+  },
+  {
+    "speaker": 1,
+    "ts": 1770,
+    "text": "get pushed out of a conviction view around where they think the portfolio should be structured"
+  },
+  {
+    "speaker": 1,
+    "ts": 1776,
+    "text": "would be one you have a liquidity event. You can't satisfy your near term obligations. Two is"
+  },
+  {
+    "speaker": 1,
+    "ts": 1783,
+    "text": "you lose a lot of money. The third is that you do things that your stakeholders aren't fans of."
+  },
+  {
+    "speaker": 1,
+    "ts": 1789,
+    "text": "On the liquidity side, it's especially important given that we do use derivatives to complete the"
+  },
+  {
+    "speaker": 1,
+    "ts": 1795,
+    "text": "portfolio. We do have a rigorous process around scenario analysis and downside circumstances"
+  },
+  {
+    "speaker": 1,
+    "ts": 1802,
+    "text": "to ensure that we always have substantial liquidity. That's a board limit for us. We do spend a lot of"
+  },
+  {
+    "speaker": 1,
+    "ts": 1808,
+    "text": "time monitoring that. There's been a number of instances both in the U.S. with some of the"
+  },
+  {
+    "speaker": 1,
+    "ts": 1813,
+    "text": "endowments going through the GFC as well as even in the Canadian pension space where some of this"
+  },
+  {
+    "speaker": 1,
+    "ts": 1818,
+    "text": "leverage items that didn't have a comprehensive liquidity management profile around it got some"
+  },
+  {
+    "speaker": 1,
+    "ts": 1825,
+    "text": "institutions into trouble where they were four sellers of assets at very inopportune time."
+  },
+  {
+    "speaker": 1,
+    "ts": 1830,
+    "text": "We certainly want to avoid that type of circumstance. We're going to take a quick"
+  },
+  {
+    "speaker": 1,
+    "ts": 1836,
+    "text": "break in the action to tell you about Brookfield. Brookfield invests in the thing behind the thing"
+  },
+  {
+    "speaker": 1,
+    "ts": 1842,
+    "text": "behind the next big thing. Their focus across infrastructure, energy, real estate, private"
+  },
+  {
+    "speaker": 1,
+    "ts": 1848,
+    "text": "equity and credit is helping to build the backbone of the global economy. Brookfield combines deep"
+  },
+  {
+    "speaker": 1,
+    "ts": 1854,
+    "text": "operational expertise with disciplined long-term investing, uncovering value and partnering"
+  },
+  {
+    "speaker": 1,
+    "ts": 1859,
+    "text": "alongside clients to shape tomorrow's economy today. Invest in the businesses that shape tomorrow."
+  },
+  {
+    "speaker": 1,
+    "ts": 1867,
+    "text": "Learn how you can own what's next at Brookfield.com slash own."
+  },
+  {
+    "speaker": 1,
+    "ts": 1872,
+    "text": "This is not an offer to sell or investment advice. Investing involves risk,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1876,
+    "text": "including the loss of capital. And now, back to the show."
+  },
+  {
+    "speaker": 1,
+    "ts": 1882,
+    "text": "What type of metrics do you use to calibrate the appropriate amount of liquidity?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1886,
+    "text": "We would use a LCR liquidity coverage ratio type of metric. It's not quite the same as what you"
+  },
+  {
+    "speaker": 1,
+    "ts": 1892,
+    "text": "would see with a bank or with a deposit taking institution because our liability structure is"
+  },
+  {
+    "speaker": 1,
+    "ts": 1898,
+    "text": "substantially different than a deposit based one would be akin to an LCR type of ratio"
+  },
+  {
+    "speaker": 1,
+    "ts": 1905,
+    "text": "customized for a pension plan. What's comfortable for you?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1909,
+    "text": "Comfortable for me is to be able to absorb a pretty substantial shock and not get pushed out of a"
+  },
+  {
+    "speaker": 1,
+    "ts": 1915,
+    "text": "position. It depends on what the size of the portfolio is. It has implications with currency"
+  },
+  {
+    "speaker": 1,
+    "ts": 1920,
+    "text": "hedging. A non-US based investor has a slightly different challenge with currencies where you're"
+  },
+  {
+    "speaker": 1,
+    "ts": 1927,
+    "text": "tending to hedge a illiquid long dated asset with a liquid security. You do have a maturity"
+  },
+  {
+    "speaker": 1,
+    "ts": 1934,
+    "text": "term mismatch. What tends to happen in a market shock is that the US dollar strengthens in this"
+  },
+  {
+    "speaker": 1,
+    "ts": 1941,
+    "text": "case versus the Canadian dollar. If you've done any hedging, you tend to have to post collateral"
+  },
+  {
+    "speaker": 1,
+    "ts": 1946,
+    "text": "against that. That would be one of the liquidity draws that would be factored into our LCR framework."
+  },
+  {
+    "speaker": 1,
+    "ts": 1952,
+    "text": "Have you thought about where to implement active management? Where did just gain passive exposure?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1958,
+    "text": "It comes down to where do you think you have an edge? That can be done both internally and"
+  },
+  {
+    "speaker": 1,
+    "ts": 1963,
+    "text": "externally. It's broader than you should just do infrastructure with external managers or"
+  },
+  {
+    "speaker": 1,
+    "ts": 1969,
+    "text": "internal managers. It comes down to what are the necessary ingredients for a particular strategy"
+  },
+  {
+    "speaker": 1,
+    "ts": 1975,
+    "text": "to be able to deliver an excess return? What were the drivers historically? What do you think"
+  },
+  {
+    "speaker": 1,
+    "ts": 1980,
+    "text": "those drivers are going to be going forward? That active versus passive discussion, which is more"
+  },
+  {
+    "speaker": 1,
+    "ts": 1985,
+    "text": "of a top-down decision, paired with the bottom-up where the bottom-up deal teams will then have to"
+  },
+  {
+    "speaker": 1,
+    "ts": 1991,
+    "text": "say, this is where we're going to focus our activities to achieve those types of outcomes."
+  },
+  {
+    "speaker": 1,
+    "ts": 1996,
+    "text": "Did you look across your asset classes? Where have you decided to use active versus passive on"
+  },
+  {
+    "speaker": 1,
+    "ts": 2001,
+    "text": "one lens and then internal versus external on another if you're filling in that two by two?"
+  },
+  {
+    "speaker": 1,
+    "ts": 2006,
+    "text": "In the equity space, passive equity versus an active public equity program has been much more"
+  },
+  {
+    "speaker": 1,
+    "ts": 2012,
+    "text": "challenging, at least for us. We have scale back that program. We do have a team that still does"
+  },
+  {
+    "speaker": 1,
+    "ts": 2018,
+    "text": "some active stockpicking. It's smaller than what it was a couple of years ago, given the fact that"
+  },
+  {
+    "speaker": 1,
+    "ts": 2024,
+    "text": "that's a difficult and competitive market. As we look at other asset classes, private equity,"
+  },
+  {
+    "speaker": 1,
+    "ts": 2028,
+    "text": "infrastructure and real estate being the big three, as well as venture. Venture introduces a"
+  },
+  {
+    "speaker": 1,
+    "ts": 2033,
+    "text": "different layer of complexity to the extent that those opportunities are successful. Using a hybrid"
+  },
+  {
+    "speaker": 1,
+    "ts": 2040,
+    "text": "model of external and internal, depending on where the market is and where we think we have"
+  },
+  {
+    "speaker": 1,
+    "ts": 2046,
+    "text": "competitive advantage to be able to deliver on that excess return, trying to be thoughtful around"
+  },
+  {
+    "speaker": 1,
+    "ts": 2051,
+    "text": "where we focus our internal resources. Where do we need to recognize that it's a activity that"
+  },
+  {
+    "speaker": 1,
+    "ts": 2057,
+    "text": "we're best served by going with an external partner? How do you think about the use of hedge"
+  },
+  {
+    "speaker": 1,
+    "ts": 2062,
+    "text": "funds in your portfolio? Hedge funds from a top-down perspective would fall into what we call"
+  },
+  {
+    "speaker": 1,
+    "ts": 2068,
+    "text": "our absolute return strategies. The theoretical piece of that is have a high expected return"
+  },
+  {
+    "speaker": 1,
+    "ts": 2075,
+    "text": "with low correlation to some of the other major factors we have, the equity and bonds."
+  },
+  {
+    "speaker": 1,
+    "ts": 2080,
+    "text": "Those are difficult to find. When you can find them, you need to be thoughtful around"
+  },
+  {
+    "speaker": 1,
+    "ts": 2085,
+    "text": "how are you considering the fee component of things. We do use hedge funds in that particular"
+  },
+  {
+    "speaker": 1,
+    "ts": 2091,
+    "text": "capacity to generate those non-correlated returns. In certain instances, if there's a certain skill"
+  },
+  {
+    "speaker": 1,
+    "ts": 2097,
+    "text": "set or a certain type of return stream that those individuals can deliver that we just won't be able"
+  },
+  {
+    "speaker": 1,
+    "ts": 2102,
+    "text": "to do internally, we are open to using that as a lever to implement our asset mix."
+  },
+  {
+    "speaker": 1,
+    "ts": 2107,
+    "text": "How have you thought about the internal use of hedge funds?"
+  },
+  {
+    "speaker": 1,
+    "ts": 2110,
+    "text": "We'd have a capital markets team and they would be engaged in hedge fund-like strategies. One example"
+  },
+  {
+    "speaker": 1,
+    "ts": 2116,
+    "text": "is that we do have a quantitative systematic research team. They would be using some of the"
+  },
+  {
+    "speaker": 1,
+    "ts": 2122,
+    "text": "similar techniques that you would see with some of the big-name hedge funds, but they would be"
+  },
+  {
+    "speaker": 1,
+    "ts": 2126,
+    "text": "doing that internally. You mentioned the venture and growth. How do you go about implementing that?"
+  },
+  {
+    "speaker": 1,
+    "ts": 2132,
+    "text": "Our venture team, Teachers Venture Growth, was established in 2019. It had the role in the"
+  },
+  {
+    "speaker": 1,
+    "ts": 2139,
+    "text": "portfolio at the time of giving us exposure to innovative companies that were not necessarily"
+  },
+  {
+    "speaker": 1,
+    "ts": 2145,
+    "text": "available in the public market space. That team has done a fantastic job. One of the milestones"
+  },
+  {
+    "speaker": 1,
+    "ts": 2152,
+    "text": "for a venture company is when they go public, I would argue a venture company going public is"
+  },
+  {
+    "speaker": 1,
+    "ts": 2158,
+    "text": "a feature, not a bug. From a portfolio perspective, it does introduce this tension between private"
+  },
+  {
+    "speaker": 1,
+    "ts": 2166,
+    "text": "and public investing. It's not to say that those instances didn't happen in the past with our"
+  },
+  {
+    "speaker": 1,
+    "ts": 2170,
+    "text": "private equity or our INR team. It wasn't as big an issue. We're trying to be practical between"
+  },
+  {
+    "speaker": 1,
+    "ts": 2176,
+    "text": "dealing with the mindset differences between a private and public investor with the fact that"
+  },
+  {
+    "speaker": 1,
+    "ts": 2183,
+    "text": "the TVG team would have the most familiarity and knowledge of those particular entities."
+  },
+  {
+    "speaker": 1,
+    "ts": 2190,
+    "text": "As those now IPO companies become more mature, you need to start thinking about how do you best"
+  },
+  {
+    "speaker": 1,
+    "ts": 2196,
+    "text": "position them. For the time being, we've made the determination that we want to keep the people with"
+  },
+  {
+    "speaker": 1,
+    "ts": 2201,
+    "text": "the best information closest to that asset for those individuals to be the most accountable with it."
+  },
+  {
+    "speaker": 1,
+    "ts": 2206,
+    "text": "How have you thought about the position size of something as we get some of these large-scale"
+  },
+  {
+    "speaker": 1,
+    "ts": 2211,
+    "text": "IPOs that you didn't have control over and now you do?"
+  },
+  {
+    "speaker": 1,
+    "ts": 2215,
+    "text": "These are world-class problems when you have an asset that has become a 10, 20, 30, 40 bagger."
+  },
+  {
+    "speaker": 1,
+    "ts": 2222,
+    "text": "It's a different form of problem in terms of having a concentration risk that you've grown into,"
+  },
+  {
+    "speaker": 1,
+    "ts": 2229,
+    "text": "as opposed to just having a large-size position. For some of these concentrated positions,"
+  },
+  {
+    "speaker": 1,
+    "ts": 2234,
+    "text": "we want to make sure that we're not overly concentrated as the market circumstances allow,"
+  },
+  {
+    "speaker": 1,
+    "ts": 2239,
+    "text": "regardless of how attractive those entities might be or what the forward-looking view might be for"
+  },
+  {
+    "speaker": 1,
+    "ts": 2244,
+    "text": "those companies. Have you approached some of your historical areas, the credit infrastructure"
+  },
+  {
+    "speaker": 1,
+    "ts": 2250,
+    "text": "and resources part of the board failures? Credit is an interesting one from a top-down perspective."
+  },
+  {
+    "speaker": 1,
+    "ts": 2256,
+    "text": "I grew up in the credit business here. I have a lot of affinity for the team there. It's got a"
+  },
+  {
+    "speaker": 1,
+    "ts": 2262,
+    "text": "great cash yield, can have a great sharp ratio or information ratio, has a form of risk premium from"
+  },
+  {
+    "speaker": 1,
+    "ts": 2270,
+    "text": "some volatility-related factor exposure. As I've transitioned to be more top-down, I recognize that"
+  },
+  {
+    "speaker": 1,
+    "ts": 2277,
+    "text": "it has a role for alpha generation. I'm always wrestling with the notion of credit, where from"
+  },
+  {
+    "speaker": 1,
+    "ts": 2283,
+    "text": "a portfolio construction perspective, when you want it to act like equity, it acts like fixed"
+  },
+  {
+    "speaker": 1,
+    "ts": 2290,
+    "text": "income. When it's a positive growth environment and equities are putting up big games, by construction,"
+  },
+  {
+    "speaker": 1,
+    "ts": 2296,
+    "text": "you're capped. The other challenge with credit is that then when you want it to act like fixed"
+  },
+  {
+    "speaker": 1,
+    "ts": 2301,
+    "text": "income, it acts like equity. It also has these other characteristics that depending on how extreme"
+  },
+  {
+    "speaker": 1,
+    "ts": 2308,
+    "text": "the overall macro environment is, you might be getting something that you don't want or need in"
+  },
+  {
+    "speaker": 1,
+    "ts": 2313,
+    "text": "the portfolio. What you described on credit is negative skew. How do you take that lens and decide"
+  },
+  {
+    "speaker": 1,
+    "ts": 2322,
+    "text": "how you want to implement that in the portfolio? We're fortunate that we have a wide scope of"
+  },
+  {
+    "speaker": 1,
+    "ts": 2328,
+    "text": "activities in the fund. Any one program is part of a bigger portfolio. How is it affected and"
+  },
+  {
+    "speaker": 1,
+    "ts": 2334,
+    "text": "how does it contribute to the overall portfolio? Another observation that I've had is diversification"
+  },
+  {
+    "speaker": 1,
+    "ts": 2340,
+    "text": "is a powerful portfolio tool. In any given period, it's likely to make you unhappy."
+  },
+  {
+    "speaker": 1,
+    "ts": 2346,
+    "text": "Most investment committees will look at the line item of all the asset classes or all the"
+  },
+  {
+    "speaker": 1,
+    "ts": 2351,
+    "text": "securities. We'll then gravitate to the things that are above the line and say,"
+  },
+  {
+    "speaker": 1,
+    "ts": 2356,
+    "text": "these are really great. The things below the line, the natural reaction will be,"
+  },
+  {
+    "speaker": 1,
+    "ts": 2360,
+    "text": "why are we doing that? You need to put in the context of what was the expected contribution"
+  },
+  {
+    "speaker": 1,
+    "ts": 2366,
+    "text": "of those things above the line and below the line? How do they interact? That's another way to"
+  },
+  {
+    "speaker": 1,
+    "ts": 2370,
+    "text": "express that diversification. How do we think each of these components is going to contribute to our"
+  },
+  {
+    "speaker": 1,
+    "ts": 2375,
+    "text": "overall objective to deliver a risk adjusted return? How do you layer that on to the risk"
+  },
+  {
+    "speaker": 1,
+    "ts": 2381,
+    "text": "reward and credit where it doesn't act the way you would like in different environments?"
+  },
+  {
+    "speaker": 1,
+    "ts": 2387,
+    "text": "We use a pretty simple growth versus inflation type of metric. You can start thinking about what"
+  },
+  {
+    "speaker": 1,
+    "ts": 2392,
+    "text": "type of environment you project to be out there. Credit does perform well in a low vol environment."
+  },
+  {
+    "speaker": 1,
+    "ts": 2400,
+    "text": "Other asset classes might not be performing quite as well. That's why I'm torn from a"
+  },
+  {
+    "speaker": 1,
+    "ts": 2405,
+    "text": "asset allocation perspective because in a big set of outcomes, it's going to perform well."
+  },
+  {
+    "speaker": 1,
+    "ts": 2410,
+    "text": "How do you think about those tail outcomes? What other parts of the portfolio do you need to be"
+  },
+  {
+    "speaker": 1,
+    "ts": 2415,
+    "text": "providing offsets to what might be going on for this particular asset class?"
+  },
+  {
+    "speaker": 1,
+    "ts": 2420,
+    "text": "One of those offsets would be infrastructure. I would love to hear how you've gone about"
+  },
+  {
+    "speaker": 1,
+    "ts": 2424,
+    "text": "implementing the infrastructure piece. We've been in infrastructure on the direct side since 2002-2003."
+  },
+  {
+    "speaker": 1,
+    "ts": 2431,
+    "text": "We were an early adopter of the asset class. Infrastructure has some interesting characteristics"
+  },
+  {
+    "speaker": 1,
+    "ts": 2436,
+    "text": "and it's loosely consistent with our overall risk profile. It's been a great contributor to the"
+  },
+  {
+    "speaker": 1,
+    "ts": 2442,
+    "text": "overall fund for the last 20 plus years. Our implementation has been to do that direct with"
+  },
+  {
+    "speaker": 1,
+    "ts": 2449,
+    "text": "the team. Those assets tend to be more scalable than what you might see in some other areas."
+  },
+  {
+    "speaker": 1,
+    "ts": 2454,
+    "text": "We've had a team in place not only here in North America but in Europe,"
+  },
+  {
+    "speaker": 1,
+    "ts": 2459,
+    "text": "in Asia that's been out there looking at those opportunities. It does provide that stability"
+  },
+  {
+    "speaker": 1,
+    "ts": 2464,
+    "text": "of cash flows and that exposure to that real rate, which is quite attractive when we're thinking"
+  },
+  {
+    "speaker": 1,
+    "ts": 2470,
+    "text": "about the overall portfolio. As you look across the entire portfolio,"
+  },
+  {
+    "speaker": 1,
+    "ts": 2474,
+    "text": "where do you end up on the proportion of your assets that are internal versus externally managed?"
+  },
+  {
+    "speaker": 1,
+    "ts": 2480,
+    "text": "There's no preset number. We try to be thoughtful and pragmatic that in certain instances,"
+  },
+  {
+    "speaker": 1,
+    "ts": 2486,
+    "text": "partners, in this case, GPs, are we getting good value for fee? In many instances, we do."
+  },
+  {
+    "speaker": 1,
+    "ts": 2493,
+    "text": "It depends on the market. It depends on how we feel. Our own internal capabilities are going to"
+  },
+  {
+    "speaker": 1,
+    "ts": 2498,
+    "text": "be able to execute on an appropriate risk return type of construct. There's no preset rules."
+  },
+  {
+    "speaker": 1,
+    "ts": 2504,
+    "text": "We would want to be thoughtful and flexible and not be in a situation where it needs to be a"
+  },
+  {
+    "speaker": 1,
+    "ts": 2509,
+    "text": "specific number that drives you to bucket filling, which can never be a good event."
+  },
+  {
+    "speaker": 1,
+    "ts": 2513,
+    "text": "What's the range of the proportion of external managers that you've had over time?"
+  },
+  {
+    "speaker": 1,
+    "ts": 2518,
+    "text": "Each group will have a different allocation and it also depends on the maturity level."
+  },
+  {
+    "speaker": 1,
+    "ts": 2523,
+    "text": "The ratio is anywhere from 10% to 30% on the external side."
+  },
+  {
+    "speaker": 1,
+    "ts": 2529,
+    "text": "When you look for an external manager, what does that process look like?"
+  },
+  {
+    "speaker": 1,
+    "ts": 2533,
+    "text": "We have dedicated teams, both private equity and other groups that are focused on those fund"
+  },
+  {
+    "speaker": 1,
+    "ts": 2538,
+    "text": "relationships. They would be going through a more typical origination funnel around what"
+  },
+  {
+    "speaker": 1,
+    "ts": 2544,
+    "text": "or where we're trying to bulk up our expertise or our exposures. They would go through a market"
+  },
+  {
+    "speaker": 1,
+    "ts": 2550,
+    "text": "screen, think about what the environment is in whatever sector or geography we're talking about,"
+  },
+  {
+    "speaker": 1,
+    "ts": 2556,
+    "text": "then would go out, meet partners and then start thinking about the appropriate way to allocate"
+  },
+  {
+    "speaker": 1,
+    "ts": 2561,
+    "text": "capital. What are some of the common characteristics of partners that you gravitate to?"
+  },
+  {
+    "speaker": 1,
+    "ts": 2566,
+    "text": "First and foremost, it's having a partner that wants us to be a partner with them."
+  },
+  {
+    "speaker": 1,
+    "ts": 2571,
+    "text": "That's important in terms of them being able to recognize that we can be more than just"
+  },
+  {
+    "speaker": 1,
+    "ts": 2576,
+    "text": "capital partners, but also be contributors to how they're thinking about their various businesses."
+  },
+  {
+    "speaker": 1,
+    "ts": 2582,
+    "text": "We also want to make sure that we're getting the return that we need for the fees that are being"
+  },
+  {
+    "speaker": 1,
+    "ts": 2587,
+    "text": "paid. I'd love to talk about the structure of your team. Maybe start at the top, this dual CIO"
+  },
+  {
+    "speaker": 1,
+    "ts": 2594,
+    "text": "structure, which isn't something you hear a lot about. How do you come together to make decisions?"
+  },
+  {
+    "speaker": 1,
+    "ts": 2600,
+    "text": "We do have this close CIO role, and that was on the back of the resignation of the prior CIO."
+  },
+  {
+    "speaker": 1,
+    "ts": 2606,
+    "text": "We took that as a chance to think about what would be best for the future. The fund's grown"
+  },
+  {
+    "speaker": 1,
+    "ts": 2612,
+    "text": "considerably over the last 35 years. The number of asset classes has grown. The number of investors"
+  },
+  {
+    "speaker": 1,
+    "ts": 2618,
+    "text": "that are within the investments group has grown substantially. The world's become a lot more"
+  },
+  {
+    "speaker": 1,
+    "ts": 2622,
+    "text": "complex. We made the decision to go with the dual CIO model, but we're clear that we each have our"
+  },
+  {
+    "speaker": 1,
+    "ts": 2629,
+    "text": "own domain and accountabilities. I'm responsible for the asset allocation. My colleague, Jillian"
+  },
+  {
+    "speaker": 1,
+    "ts": 2635,
+    "text": "Brown, is responsible for the public and private investing function. We've worked together for"
+  },
+  {
+    "speaker": 1,
+    "ts": 2640,
+    "text": "quite some time, so we're very familiar personalities to one another. Where we have a more formal"
+  },
+  {
+    "speaker": 1,
+    "ts": 2646,
+    "text": "overlap, in addition to oversee the overall portfolio, is that the regional offices report"
+  },
+  {
+    "speaker": 1,
+    "ts": 2652,
+    "text": "into me, and one of the prime objectives of our regional offices is to deliver active returns."
+  },
+  {
+    "speaker": 1,
+    "ts": 2658,
+    "text": "An easy example is that we have two major investment committees. We have a total fund"
+  },
+  {
+    "speaker": 1,
+    "ts": 2663,
+    "text": "investment committee, which would be those broader asset allocation functions, stocks,"
+  },
+  {
+    "speaker": 1,
+    "ts": 2667,
+    "text": "bonds, commodities. Matt is chaired by me. Jillian is a member of that committee, and she"
+  },
+  {
+    "speaker": 1,
+    "ts": 2672,
+    "text": "will be able to provide context to me either in the meeting or outside of the meeting."
+  },
+  {
+    "speaker": 1,
+    "ts": 2676,
+    "text": "We have another investment committee called the public and private investing committee."
+  },
+  {
+    "speaker": 1,
+    "ts": 2680,
+    "text": "Matt is chaired by her. I'm a member of that. Matt's responsible for the oversight of our"
+  },
+  {
+    "speaker": 1,
+    "ts": 2686,
+    "text": "large public and private investments. Those are the more formal structural parts of the fund."
+  },
+  {
+    "speaker": 1,
+    "ts": 2692,
+    "text": "Other things that we'd use to make sure that we're managing the portfolio effectively"
+  },
+  {
+    "speaker": 1,
+    "ts": 2698,
+    "text": "is we have weekly meetings with our CEO and CRO, where any of those edge items or decisions that"
+  },
+  {
+    "speaker": 1,
+    "ts": 2705,
+    "text": "are closer to use the concept of economic indifference, where there's not necessarily a"
+  },
+  {
+    "speaker": 1,
+    "ts": 2710,
+    "text": "right answer, there's some need for debate and discussion. The other part of this is making"
+  },
+  {
+    "speaker": 1,
+    "ts": 2716,
+    "text": "sure that we are constantly communicating with one another. Ultimately, it comes down to a level"
+  },
+  {
+    "speaker": 1,
+    "ts": 2720,
+    "text": "of trust and respect for each other's domain so that we don't end up with a major conflict when"
+  },
+  {
+    "speaker": 1,
+    "ts": 2727,
+    "text": "we're trying to make some of these key decisions. If there was a major issue, we would ultimately"
+  },
+  {
+    "speaker": 1,
+    "ts": 2731,
+    "text": "go to our CEO to help us arbitrate, but that hasn't been an issue to date."
+  },
+  {
+    "speaker": 1,
+    "ts": 2736,
+    "text": "What's an example of some of the more interesting conversations you've had on one or both of those"
+  },
+  {
+    "speaker": 1,
+    "ts": 2743,
+    "text": "investment committees of late? There's been a number of transactions that we've looked at"
+  },
+  {
+    "speaker": 1,
+    "ts": 2748,
+    "text": "on the private side across a number of sectors where we're trying to be thoughtful around the"
+  },
+  {
+    "speaker": 1,
+    "ts": 2752,
+    "text": "disruption risk for these businesses. AI generally, it's difficult to have high conviction."
+  },
+  {
+    "speaker": 1,
+    "ts": 2759,
+    "text": "We're in the investing business. That's part and parcel with making decisions under uncertainty,"
+  },
+  {
+    "speaker": 1,
+    "ts": 2764,
+    "text": "but there's been a lot of discussion and debate on that side. At the total fund level,"
+  },
+  {
+    "speaker": 1,
+    "ts": 2769,
+    "text": "recently it's related to overall risk positioning. As you look at that today on that lens of"
+  },
+  {
+    "speaker": 1,
+    "ts": 2776,
+    "text": "conservative, neutral, aggressive, how are you feeling about the world?"
+  },
+  {
+    "speaker": 1,
+    "ts": 2780,
+    "text": "It's a tricky world out there. We're probably of the view that we're best positioned to be"
+  },
+  {
+    "speaker": 1,
+    "ts": 2785,
+    "text": "a bit more in that neutral range. The challenge is that that can change. We try to be thoughtful"
+  },
+  {
+    "speaker": 1,
+    "ts": 2791,
+    "text": "and have a big debate about where or how we should be thinking about the overall portfolio"
+  },
+  {
+    "speaker": 1,
+    "ts": 2795,
+    "text": "positioning. As you look over the course of history, how often have you been in that neutral"
+  },
+  {
+    "speaker": 1,
+    "ts": 2800,
+    "text": "category compared to one of the ends? The bulk of the time you probably are in the neutral category,"
+  },
+  {
+    "speaker": 1,
+    "ts": 2805,
+    "text": "given the fact that markets are pretty good at pricing. My observation is that market efficiency"
+  },
+  {
+    "speaker": 1,
+    "ts": 2813,
+    "text": "is on average there efficient. There's always pockets where things are overpriced and other"
+  },
+  {
+    "speaker": 1,
+    "ts": 2818,
+    "text": "areas where they're underpriced. Generally, the starting point is that they're probably fairly"
+  },
+  {
+    "speaker": 1,
+    "ts": 2824,
+    "text": "priced, then you need to be quite selective. How do your internal and external investment teams"
+  },
+  {
+    "speaker": 1,
+    "ts": 2830,
+    "text": "share information and work together? That's something that we have spent a lot of time on over"
+  },
+  {
+    "speaker": 1,
+    "ts": 2836,
+    "text": "the last 10 or 15 years in terms of making sure we've got good information flow across those"
+  },
+  {
+    "speaker": 1,
+    "ts": 2842,
+    "text": "two groups. In some instances, they're more integrated. That is something that you need to"
+  },
+  {
+    "speaker": 1,
+    "ts": 2847,
+    "text": "focus on in terms of regular dialogue between those internal individuals, also making sure that"
+  },
+  {
+    "speaker": 1,
+    "ts": 2854,
+    "text": "there's the right connectivity between the direct teams and those funds. What are the areas where"
+  },
+  {
+    "speaker": 1,
+    "ts": 2860,
+    "text": "you found there to be more synergy between the internal and external teams? In some of the"
+  },
+  {
+    "speaker": 1,
+    "ts": 2864,
+    "text": "hedge fund spaces, we do have some large public market strategies that the partners in those"
+  },
+  {
+    "speaker": 1,
+    "ts": 2871,
+    "text": "spaces are true collaborators and have great dialogue with our internal teams in terms of"
+  },
+  {
+    "speaker": 1,
+    "ts": 2878,
+    "text": "challenges that we might have with how are we structuring a certain part of the portfolio?"
+  },
+  {
+    "speaker": 1,
+    "ts": 2883,
+    "text": "How do we think about liquidity? How do you use things like AI? You mentioned the regional"
+  },
+  {
+    "speaker": 1,
+    "ts": 2888,
+    "text": "offices reporting to you. What are those offices tasked with? For background, we have a team in"
+  },
+  {
+    "speaker": 1,
+    "ts": 2895,
+    "text": "Europe that would cover multiple sectors. It would include infrastructure. We have a venture group"
+  },
+  {
+    "speaker": 1,
+    "ts": 2901,
+    "text": "there. We have real estate investors there and we have private equity investors there. In Asia,"
+  },
+  {
+    "speaker": 1,
+    "ts": 2906,
+    "text": "we have a team in Singapore as well as a team in Mumbai. Those areas of focus would be more"
+  },
+  {
+    "speaker": 1,
+    "ts": 2913,
+    "text": "infrastructure, private equity and venture. We don't have a forced allocation by geography."
+  },
+  {
+    "speaker": 1,
+    "ts": 2918,
+    "text": "We want to be opportunistic and make sure that we're using that diversification lever."
+  },
+  {
+    "speaker": 1,
+    "ts": 2924,
+    "text": "Those teams are tasked with going out, finding sourcing and asset managing value out opportunities"
+  },
+  {
+    "speaker": 1,
+    "ts": 2930,
+    "text": "in those respective markets in those respective asset classes."
+  },
+  {
+    "speaker": 1,
+    "ts": 2934,
+    "text": "How did you think about the reporting lines of people on the ground looking at assets?"
+  },
+  {
+    "speaker": 1,
+    "ts": 2940,
+    "text": "We have been operating under a matrix model which requires both the asset class as well as the"
+  },
+  {
+    "speaker": 1,
+    "ts": 2946,
+    "text": "regional head to be supportive of a transaction to make sure that we're combining what is good"
+  },
+  {
+    "speaker": 1,
+    "ts": 2952,
+    "text": "for the overall portfolio with local knowledge that the deal teams in those regions are meant to"
+  },
+  {
+    "speaker": 1,
+    "ts": 2958,
+    "text": "bring. I'd love to ask you about the evolution of the Canadian model and the 20-something years"
+  },
+  {
+    "speaker": 1,
+    "ts": 2964,
+    "text": "you've been inside of teachers. What do you see as the remaining competitive advantages of the model?"
+  },
+  {
+    "speaker": 1,
+    "ts": 2972,
+    "text": "Independence of governance, diversification, varying degrees of internal management. 20 years ago,"
+  },
+  {
+    "speaker": 1,
+    "ts": 2978,
+    "text": "there was not a lot of folks that had those characteristics and had the pool of capital"
+  },
+  {
+    "speaker": 1,
+    "ts": 2983,
+    "text": "to be able to execute on those particular items. Fast forward to today, there is a lot more that"
+  },
+  {
+    "speaker": 1,
+    "ts": 2990,
+    "text": "would have a similar set of characteristics. The competition or the uniqueness of where we were"
+  },
+  {
+    "speaker": 1,
+    "ts": 2995,
+    "text": "20 years ago is substantially different. Some of the advantages would be we do have a long-term"
+  },
+  {
+    "speaker": 1,
+    "ts": 3000,
+    "text": "horizon. Now, that might not be differentiable versus another pension plan, but it is a difference"
+  },
+  {
+    "speaker": 1,
+    "ts": 3006,
+    "text": "versus a GP or another entity that might have a fixed life and has to do certain things with"
+  },
+  {
+    "speaker": 1,
+    "ts": 3011,
+    "text": "their portfolio. We have a long track record of being a good partner and being in a position to"
+  },
+  {
+    "speaker": 1,
+    "ts": 3017,
+    "text": "be able to deliver on whatever we say we're going to deliver on. The third item that does position"
+  },
+  {
+    "speaker": 1,
+    "ts": 3023,
+    "text": "us quite well is that we do have that institutional memory. We have all the processes in place,"
+  },
+  {
+    "speaker": 1,
+    "ts": 3029,
+    "text": "board governance, back office, middle office, deal professionals that all can execute. Sometimes"
+  },
+  {
+    "speaker": 1,
+    "ts": 3035,
+    "text": "that gets taken for granted when I speak to some of the peers in the US, elsewhere in the world."
+  },
+  {
+    "speaker": 1,
+    "ts": 3040,
+    "text": "That is something that they're like, oh my goodness, you got to build out all this infrastructure."
+  },
+  {
+    "speaker": 1,
+    "ts": 3045,
+    "text": "We have that already. Another advantage that we have is one single cohort of beneficiaries."
+  },
+  {
+    "speaker": 1,
+    "ts": 3051,
+    "text": "That allows us to build one portfolio with that portfolio being fully aligned across"
+  },
+  {
+    "speaker": 1,
+    "ts": 3056,
+    "text": "that group. There's a real affinity for our mission. Most people in their life have had a"
+  },
+  {
+    "speaker": 1,
+    "ts": 3063,
+    "text": "positive experience with a teacher. That acts as a great way for us not only to attract partners,"
+  },
+  {
+    "speaker": 1,
+    "ts": 3069,
+    "text": "but also to recruit and retain staff. The biggest one for the Canadian peer group is that we tend"
+  },
+  {
+    "speaker": 1,
+    "ts": 3076,
+    "text": "to be well-funded. In our case, we've got a funding ratio of 111%. People get into trouble,"
+  },
+  {
+    "speaker": 1,
+    "ts": 3082,
+    "text": "our investors get into trouble when they're forced into a risk spot that they're not comfortable with."
+  },
+  {
+    "speaker": 1,
+    "ts": 3086,
+    "text": "That's when mistakes get made. We can be the master of our own destiny, pick where on the risk"
+  },
+  {
+    "speaker": 1,
+    "ts": 3092,
+    "text": "curve we want to play based on where we think the best market opportunities are."
+  },
+  {
+    "speaker": 1,
+    "ts": 3097,
+    "text": "When you take into account that fully funded status, how do you think about the objectives"
+  },
+  {
+    "speaker": 1,
+    "ts": 3102,
+    "text": "of continuing to grow the pool compared to maintaining the fully funded status?"
+  },
+  {
+    "speaker": 1,
+    "ts": 3107,
+    "text": "It would be up to the sponsors. I don't want to overstep my role in this particular item,"
+  },
+  {
+    "speaker": 1,
+    "ts": 3112,
+    "text": "but we spend a lot of time thinking about where would you be optimally risked and how do you"
+  },
+  {
+    "speaker": 1,
+    "ts": 3117,
+    "text": "think about that as the funding ratio changes. That allows us to focus on what our actuarial"
+  },
+  {
+    "speaker": 1,
+    "ts": 3123,
+    "text": "return is, make sure that we're delivering on that to ensure pension solvency."
+  },
+  {
+    "speaker": 1,
+    "ts": 3128,
+    "text": "Where does that shake out in terms of a number?"
+  },
+  {
+    "speaker": 1,
+    "ts": 3131,
+    "text": "Our stated objective on a risk-adjusted basis is to deliver 7% nominal on a consistent basis."
+  },
+  {
+    "speaker": 1,
+    "ts": 3139,
+    "text": "What are some of the ways in which the early advantages of the Canadian model no longer exist?"
+  },
+  {
+    "speaker": 1,
+    "ts": 3147,
+    "text": "The ability to write a large check and get preferential deal terms with whoever the vendor"
+  },
+  {
+    "speaker": 1,
+    "ts": 3154,
+    "text": "of those, that is definitely eroded. There's been the broader increase in competition for"
+  },
+  {
+    "speaker": 1,
+    "ts": 3159,
+    "text": "many of these assets. More competition just means compressed expected returns. That's not"
+  },
+  {
+    "speaker": 1,
+    "ts": 3165,
+    "text": "necessarily unique to the Canadian model. That's a phenomenon that we've seen across all markets as"
+  },
+  {
+    "speaker": 1,
+    "ts": 3170,
+    "text": "more capital has flown in. The ability of that capital to access private asset returns or alternative"
+  },
+  {
+    "speaker": 1,
+    "ts": 3177,
+    "text": "returns has compressed excess return premium. How do you think about the strengths, in some cases,"
+  },
+  {
+    "speaker": 1,
+    "ts": 3183,
+    "text": "the disadvantages of your size? The strength of our size gives us scope across a number of"
+  },
+  {
+    "speaker": 1,
+    "ts": 3190,
+    "text": "different opportunities. We're not forced into one particular set of activities. It also helps"
+  },
+  {
+    "speaker": 1,
+    "ts": 3196,
+    "text": "with attracting and retaining staff in terms of being able to offer, do you want to be a good"
+  },
+  {
+    "speaker": 1,
+    "ts": 3202,
+    "text": "investor and hone all your skills across the investment lifecycle? That would include origination,"
+  },
+  {
+    "speaker": 1,
+    "ts": 3209,
+    "text": "asset management, execution, also across asset classes. I'm the case in point, I've done a number"
+  },
+  {
+    "speaker": 1,
+    "ts": 3214,
+    "text": "of different things, internally, public, private, putting it all together. The size of the business"
+  },
+  {
+    "speaker": 1,
+    "ts": 3220,
+    "text": "and the scope and scale of the business contributes to that aspect of things."
+  },
+  {
+    "speaker": 1,
+    "ts": 3225,
+    "text": "What are some of the most top-of-mind investment topics that you're wrestling with?"
+  },
+  {
+    "speaker": 1,
+    "ts": 3230,
+    "text": "When you think of how the world's changed since COVID, let's use that as a delineation point,"
+  },
+  {
+    "speaker": 1,
+    "ts": 3237,
+    "text": "big themes. One would be heightened cost of capital, could be because of higher inflation,"
+  },
+  {
+    "speaker": 1,
+    "ts": 3245,
+    "text": "higher risk-free rates generally transmitting into higher required returns across a number"
+  },
+  {
+    "speaker": 1,
+    "ts": 3251,
+    "text": "of different asset classes. The second one would be related to geopolitics that used to be"
+  },
+  {
+    "speaker": 1,
+    "ts": 3258,
+    "text": "predominantly focused on US China in terms of how those two great powers were going to think about"
+  },
+  {
+    "speaker": 1,
+    "ts": 3265,
+    "text": "and evolve through the next 5, 10, 15, 20 years. That's evolved into being a bit broader of late."
+  },
+  {
+    "speaker": 1,
+    "ts": 3271,
+    "text": "The third category would be technology, specifically AI. Those would be the three big"
+  },
+  {
+    "speaker": 1,
+    "ts": 3277,
+    "text": "things that we're trying to think about. How are those going to affect our overall portfolio?"
+  },
+  {
+    "speaker": 1,
+    "ts": 3283,
+    "text": "How are they going to affect the growth profile? How are they going to affect the inflation portfolio?"
+  },
+  {
+    "speaker": 1,
+    "ts": 3287,
+    "text": "How do we need to adjust now to make sure that we're still in a position to have a robust portfolio,"
+  },
+  {
+    "speaker": 1,
+    "ts": 3293,
+    "text": "recognizing that the range of outcomes have become significantly wider in our opinion over the last"
+  },
+  {
+    "speaker": 1,
+    "ts": 3300,
+    "text": "couple of years? If you look at your 5-year projections over each of those lens, cost of"
+  },
+  {
+    "speaker": 1,
+    "ts": 3307,
+    "text": "capital, geopolitics, technology, how are you trying to adjust the portfolio to best position"
+  },
+  {
+    "speaker": 1,
+    "ts": 3313,
+    "text": "for those changes? For each of them, we try to come at it with a degree of humility and say,"
+  },
+  {
+    "speaker": 1,
+    "ts": 3320,
+    "text": "what is the general direction of impact on growth and inflation? How is that going to"
+  },
+  {
+    "speaker": 1,
+    "ts": 3325,
+    "text": "interact with the various parts of the portfolio? I don't know if there are specific"
+  },
+  {
+    "speaker": 1,
+    "ts": 3330,
+    "text": "areas that I would want to comment on that, hey, look, we think that AI is going to lead to a giant"
+  },
+  {
+    "speaker": 1,
+    "ts": 3335,
+    "text": "productivity shock. That's going to be good for asset prices generally. I would hesitate to be"
+  },
+  {
+    "speaker": 1,
+    "ts": 3342,
+    "text": "overconfident in making those projections. We don't have high conviction on many of these items."
+  },
+  {
+    "speaker": 1,
+    "ts": 3347,
+    "text": "Let's make sure that we're running a balanced portfolio and that we've got the right"
+  },
+  {
+    "speaker": 1,
+    "ts": 3351,
+    "text": "set of scenarios in place to ensure that we don't end up in a circumstance of having a big"
+  },
+  {
+    "speaker": 1,
+    "ts": 3356,
+    "text": "drawdown in our face. What are the most important initiatives from teachers over the next couple"
+  },
+  {
+    "speaker": 1,
+    "ts": 3362,
+    "text": "of years? The big one is ensuring that we've got the right handle on how do we use AI as a business"
+  },
+  {
+    "speaker": 1,
+    "ts": 3371,
+    "text": "in terms of making sure we've got the right tooling for people and ultimately are using"
+  },
+  {
+    "speaker": 1,
+    "ts": 3377,
+    "text": "that technology to get to better decisions. That's what the real prize is here. There's obviously"
+  },
+  {
+    "speaker": 1,
+    "ts": 3383,
+    "text": "productivity enhancements. To me, it's how do you make sure you're using the access to all this"
+  },
+  {
+    "speaker": 1,
+    "ts": 3389,
+    "text": "information and the way that AI can analyze and manipulate that information to get to better"
+  },
+  {
+    "speaker": 1,
+    "ts": 3394,
+    "text": "decisions? Stephen, I want to make sure I get a chance to ask you a couple of closing questions."
+  },
+  {
+    "speaker": 1,
+    "ts": 3400,
+    "text": "What is the most rewarding thing you do outside of work? It's a pleasure to be the CIO of this"
+  },
+  {
+    "speaker": 1,
+    "ts": 3406,
+    "text": "institution to be a steward of capital for the 346,000 teachers in Ontario. It is quite busy."
+  },
+  {
+    "speaker": 1,
+    "ts": 3414,
+    "text": "Spending time with friends and family is pretty important. In the winter, I love snowboarding."
+  },
+  {
+    "speaker": 1,
+    "ts": 3419,
+    "text": "In the summer, we're very fortunate to have a cottage. Spending times outdoors and fishing."
+  },
+  {
+    "speaker": 1,
+    "ts": 3424,
+    "text": "What was your first paid job and what did you learn from it? In high school, I had the typical"
+  },
+  {
+    "speaker": 1,
+    "ts": 3429,
+    "text": "jobs in retail, lifeguarding. My first paid job would have been as a newspaper delivery boy for"
+  },
+  {
+    "speaker": 1,
+    "ts": 3435,
+    "text": "the Ottawa citizen. We had to show up every day, even though it probably only took 30 minutes or"
+  },
+  {
+    "speaker": 1,
+    "ts": 3440,
+    "text": "thereabouts. As I tie into my experiences and credit, the other aspect of being a paper boy was"
+  },
+  {
+    "speaker": 1,
+    "ts": 3447,
+    "text": "accounts receivable collection, because after you delivered the newspapers, you'd have to go back"
+  },
+  {
+    "speaker": 1,
+    "ts": 3451,
+    "text": "and collect every couple of weeks, the $3. Surprisingly, there was always a couple of houses"
+  },
+  {
+    "speaker": 1,
+    "ts": 3457,
+    "text": "that nobody was home, even though you could see that the TV was on. That was a lot of fun and"
+  },
+  {
+    "speaker": 1,
+    "ts": 3463,
+    "text": "a real lesson. Which two people have had the biggest impact on your professional life?"
+  },
+  {
+    "speaker": 1,
+    "ts": 3468,
+    "text": "From my experience in Calgary as an investment banker, one of my bosses was Chris Burley."
+  },
+  {
+    "speaker": 1,
+    "ts": 3474,
+    "text": "Chris was an incredibly bright, incredibly hard worker. He had a real knack which I still tried"
+  },
+  {
+    "speaker": 1,
+    "ts": 3481,
+    "text": "to emulate to this day around preparation for whatever meeting or whatever session negotiation"
+  },
+  {
+    "speaker": 1,
+    "ts": 3489,
+    "text": "used a useful exercise of game-thearing out or war-gaming out what the opposite side might be"
+  },
+  {
+    "speaker": 1,
+    "ts": 3495,
+    "text": "thinking about. The other piece would be I'd been fortunate. I've worked for all the CEOs,"
+  },
+  {
+    "speaker": 1,
+    "ts": 3501,
+    "text": "all the CIOs of teachers since inception. Each of them have sprinkled certain things and made"
+  },
+  {
+    "speaker": 1,
+    "ts": 3507,
+    "text": "impressions over time. Perhaps to coming to recency bias, which I know that you're not supposed to,"
+  },
+  {
+    "speaker": 1,
+    "ts": 3513,
+    "text": "I would want to give a shout out to Joe Taylor, our CEO, and Jillian Brown, my co-CIO, who"
+  },
+  {
+    "speaker": 1,
+    "ts": 3519,
+    "text": "have provided a support network not only on the investment side, but also on some of the"
+  },
+  {
+    "speaker": 1,
+    "ts": 3524,
+    "text": "broader issues as it relates to people or other areas of the overall puzzle of running a business."
+  },
+  {
+    "speaker": 1,
+    "ts": 3532,
+    "text": "Honorary mention would be to Ziad Hindo, who was the prior CIO, who was a great investor"
+  },
+  {
+    "speaker": 1,
+    "ts": 3539,
+    "text": "and had a great impact on me. One of the things that he always said and still sticks with me is"
+  },
+  {
+    "speaker": 1,
+    "ts": 3545,
+    "text": "that you need to do what you think is right for the portfolio. Even if some people are going to"
+  },
+  {
+    "speaker": 1,
+    "ts": 3550,
+    "text": "disagree with you, you need to believe in what you're doing. That has stuck with me and is"
+  },
+  {
+    "speaker": 1,
+    "ts": 3554,
+    "text": "certainly something that I've tried to maintain as I think about the portfolio now."
+  },
+  {
+    "speaker": 1,
+    "ts": 3558,
+    "text": "Steven, last one. What life lesson have you learned that you wish you learned a lot earlier in life?"
+  },
+  {
+    "speaker": 1,
+    "ts": 3564,
+    "text": "Earlier in my career, I had a lot of fear of missing out in terms of, hey, look, why did that"
+  },
+  {
+    "speaker": 1,
+    "ts": 3569,
+    "text": "individual get that particular opportunity or that job or that promotion? One piece of advice"
+  },
+  {
+    "speaker": 1,
+    "ts": 3574,
+    "text": "that I have gotten, which I wish I had learned earlier, was related to be thoughtful and think"
+  },
+  {
+    "speaker": 1,
+    "ts": 3580,
+    "text": "about what you think the next stage of your career is or what the next role is that you want to have."
+  },
+  {
+    "speaker": 1,
+    "ts": 3586,
+    "text": "That could be to get more technical knowledge. It could be to develop your leadership skills."
+  },
+  {
+    "speaker": 1,
+    "ts": 3590,
+    "text": "As other opportunities come along, don't get too stressed out if that particular role doesn't fit"
+  },
+  {
+    "speaker": 1,
+    "ts": 3595,
+    "text": "that opportunity. If you look at it that way and you say, hey, look, my peer just got this particular"
+  },
+  {
+    "speaker": 1,
+    "ts": 3600,
+    "text": "role and you might feel, oh my goodness, I wish I had that. Then you reflect on it and say, well,"
+  },
+  {
+    "speaker": 1,
+    "ts": 3604,
+    "text": "look, I don't even want to do that. Why am I getting all uppity about it?"
+  },
+  {
+    "speaker": 1,
+    "ts": 3608,
+    "text": "Steven, thanks so much for sharing this great overview of teachers."
+  },
+  {
+    "speaker": 1,
+    "ts": 3611,
+    "text": "Thank you for having me."
+  },
+  {
+    "speaker": 1,
+    "ts": 3613,
+    "text": "Thanks for listening all the way to the end. If you made it this far, how about one ask for me?"
+  },
+  {
+    "speaker": 1,
+    "ts": 3619,
+    "text": "Tell one friend about the show. It's the best way to keep growing this incredible community."
+  },
+  {
+    "speaker": 1,
+    "ts": 3626,
+    "text": "Thanks so much. And until the next one, stay curious and keep compounding knowledge,"
+  },
+  {
+    "speaker": 1,
+    "ts": 3632,
+    "text": "relationships, and capital a little bit at a time."
+  },
+  {
+    "speaker": 1,
+    "ts": 3638,
+    "text": "All opinions expressed by TED and podcast guests are solely their own opinions and do not reflect"
+  },
+  {
+    "speaker": 1,
+    "ts": 3642,
+    "text": "the opinion of capital allocators or their firms. This podcast is for informational purposes only"
+  },
+  {
+    "speaker": 1,
+    "ts": 3647,
+    "text": "and should not be relied upon as a basis for investment decisions. Clients of capital allocators"
+  },
+  {
+    "speaker": 1,
+    "ts": 3651,
+    "text": "or podcast guests may maintain positions and securities discussed on this podcast."
+  }
+]
