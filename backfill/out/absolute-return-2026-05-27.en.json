@@ -1,0 +1,1837 @@
+[
+  {
+    "speaker": 1,
+    "ts": 0,
+    "text": "Welcome, investors, to the Absolute Return Podcast, your source for stock market analysis,"
+  },
+  {
+    "speaker": 1,
+    "ts": 5,
+    "text": "global macro musings, and hedge fund investment strategies. Your hosts, Julian Clamajko and"
+  },
+  {
+    "speaker": 1,
+    "ts": 11,
+    "text": "Michael Kesslering aim to bring you the knowledge and analysis you need to become a more intelligent"
+  },
+  {
+    "speaker": 1,
+    "ts": 16,
+    "text": "and wealthier investor. This episode is brought to you by Accelerate Financial Technologies."
+  },
+  {
+    "speaker": 1,
+    "ts": 20,
+    "text": "Accelerate because performance matters. Find out more at AccelerateShares.com."
+  },
+  {
+    "speaker": 1,
+    "ts": 26,
+    "text": "Hey, everyone. Welcome to the Absolute Return Podcast. On today's show, we welcome special"
+  },
+  {
+    "speaker": 1,
+    "ts": 31,
+    "text": "guest, hedgingeer founder, Michael Watson. Hedgingeer is a technology company focused on applying AI,"
+  },
+  {
+    "speaker": 1,
+    "ts": 38,
+    "text": "data science, and risk management software to hedge funds and asset managers. On the show,"
+  },
+  {
+    "speaker": 1,
+    "ts": 43,
+    "text": "we discuss how he made the leap from working at Citadel to founding his own startup,"
+  },
+  {
+    "speaker": 1,
+    "ts": 48,
+    "text": "how hedge funds are implementing AI, where AI is most impactful within investment firms,"
+  },
+  {
+    "speaker": 1,
+    "ts": 54,
+    "text": "how the future of AI in investing will play out, and more. With no further ado, here's our show"
+  },
+  {
+    "speaker": 1,
+    "ts": 62,
+    "text": "on inside the AI hedge fund revolution with hedgingeer founder, Michael Watson."
+  },
+  {
+    "speaker": 1,
+    "ts": 67,
+    "text": "Excited to have Michael from hedgingeer on the show today chatting about AI, hedge funds,"
+  },
+  {
+    "speaker": 1,
+    "ts": 74,
+    "text": "and the future of investment management as we go through this technological revolution that seems"
+  },
+  {
+    "speaker": 1,
+    "ts": 80,
+    "text": "to be picking up speed on a daily basis. There's just so much innovation and development happening"
+  },
+  {
+    "speaker": 1,
+    "ts": 88,
+    "text": "on the AI side. It's like moving at the speed of light. But with that said, Michael, why don't"
+  },
+  {
+    "speaker": 1,
+    "ts": 93,
+    "text": "you provide us with an introduction? I know you spent more than eight years at Citadel,"
+  },
+  {
+    "speaker": 1,
+    "ts": 99,
+    "text": "running technology, data engineering. Tell us about yourself."
+  },
+  {
+    "speaker": 1,
+    "ts": 104,
+    "text": "Yeah, Julie, a pleasure to be on. Yeah, so you mentioned my former employer. We don't need to"
+  },
+  {
+    "speaker": 1,
+    "ts": 109,
+    "text": "go too much in the weeds on them, but when it was there, I ran all of the long, short equity"
+  },
+  {
+    "speaker": 1,
+    "ts": 114,
+    "text": "technology that would be used for research and portfolio analytics, risk, talent assessment,"
+  },
+  {
+    "speaker": 1,
+    "ts": 120,
+    "text": "and be able to turn that franchise or those three franchises into conveyor belts of alpha"
+  },
+  {
+    "speaker": 1,
+    "ts": 128,
+    "text": "generation. We put really talented people with great systems and data, and you can produce a very"
+  },
+  {
+    "speaker": 1,
+    "ts": 134,
+    "text": "steady stream of returns that have the risk profile that that platform is looking for."
+  },
+  {
+    "speaker": 1,
+    "ts": 140,
+    "text": "It's basically looked and breathed in that world for a long time, started as an individual"
+  },
+  {
+    "speaker": 1,
+    "ts": 144,
+    "text": "software engineer, focused on the risk, built a data catalog, ran data engineering, eventually"
+  },
+  {
+    "speaker": 1,
+    "ts": 148,
+    "text": "ran all the technology behind those franchises, and left to build on a engineer where we built"
+  },
+  {
+    "speaker": 1,
+    "ts": 154,
+    "text": "similar best practices in terms of infrastructure, data, et cetera. That's where we started about"
+  },
+  {
+    "speaker": 1,
+    "ts": 160,
+    "text": "three years ago, and then the whole AI tailwind has just transformed the business, and now we just"
+  },
+  {
+    "speaker": 1,
+    "ts": 166,
+    "text": "do AI implementations for asset managers and funds. We're on the ground floor for a lot of"
+  },
+  {
+    "speaker": 1,
+    "ts": 174,
+    "text": "times when an organization is first deploying out, Claude Enterprise. We're not working with"
+  },
+  {
+    "speaker": 1,
+    "ts": 178,
+    "text": "some larger, more quant funds and doing all of the training and development for their 100, 200"
+  },
+  {
+    "speaker": 1,
+    "ts": 185,
+    "text": "person engineering teams so that they're using just best-in-class workflows with Claude and other"
+  },
+  {
+    "speaker": 1,
+    "ts": 190,
+    "text": "agentic tools. On the ground floors, we go through these pretty transformative"
+  },
+  {
+    "speaker": 1,
+    "ts": 197,
+    "text": "deployments, only the institutional managers. We mainly work with funds on the smaller side,"
+  },
+  {
+    "speaker": 1,
+    "ts": 203,
+    "text": "like around 500 million in AUM, up to 50 billion, primarily discretionary, but that's not only the"
+  },
+  {
+    "speaker": 1,
+    "ts": 208,
+    "text": "case anymore. Cross-asset class will work with equities, equity longshore, equity bump venture,"
+  },
+  {
+    "speaker": 1,
+    "ts": 216,
+    "text": "private and publics. Then on the credit side, we'll work with special Sitch,"
+  },
+  {
+    "speaker": 1,
+    "ts": 221,
+    "text": "distressed, high yield, some managers can do structured products, and everything in between,"
+  },
+  {
+    "speaker": 1,
+    "ts": 230,
+    "text": "both for the research workforce, the front office, and then also operational pre-trade,"
+  },
+  {
+    "speaker": 1,
+    "ts": 236,
+    "text": "post-trade, treasury management, and then even into marketing investor relations."
+  },
+  {
+    "speaker": 1,
+    "ts": 242,
+    "text": "Do a lot of the firms that we have, they're more institutional in the sense that they have"
+  },
+  {
+    "speaker": 1,
+    "ts": 246,
+    "text": "different workflows, processes, systems. Sometimes that corresponds to also different"
+  },
+  {
+    "speaker": 1,
+    "ts": 251,
+    "text": "people as you start getting bigger. A lot of this information needs to flow through"
+  },
+  {
+    "speaker": 1,
+    "ts": 256,
+    "text": "efficiently and AI has been kind of transformational across the board. We just get a lot of at-bats"
+  },
+  {
+    "speaker": 1,
+    "ts": 262,
+    "text": "of doing this over and over again. We can afford to have more stories. We can afford to"
+  },
+  {
+    "speaker": 1,
+    "ts": 269,
+    "text": "make mistakes and learn from them. A lot of people, when they were doing AI deployments,"
+  },
+  {
+    "speaker": 1,
+    "ts": 274,
+    "text": "if you look at some of the people that have had churn in their AI teams, they didn't get the"
+  },
+  {
+    "speaker": 1,
+    "ts": 278,
+    "text": "luxury of making mistakes. We're kind of at a point where we have a pretty well-oiled machine"
+  },
+  {
+    "speaker": 1,
+    "ts": 285,
+    "text": "of how we deploy AI effectively in these asset managers, and now we're just going and chopping"
+  },
+  {
+    "speaker": 1,
+    "ts": 290,
+    "text": "wood. It's been great to start a company, take a lot of the experiences and expertise that you"
+  },
+  {
+    "speaker": 1,
+    "ts": 296,
+    "text": "develop over your 20s and 30s, and then transition into your 40s. I think I can actually put this"
+  },
+  {
+    "speaker": 1,
+    "ts": 303,
+    "text": "together, take out all of my last couple of decades of experience, and then assemble a great"
+  },
+  {
+    "speaker": 1,
+    "ts": 309,
+    "text": "experience, a great set of tools and systems that we deploy on. That's great. I do want to double"
+  },
+  {
+    "speaker": 1,
+    "ts": 314,
+    "text": "click on that. I'm always interested in people's journey as a transition, as you did, from a large"
+  },
+  {
+    "speaker": 1,
+    "ts": 321,
+    "text": "multi-manager hedge fund to founding your own startup."
+  },
+  {
+    "speaker": 1,
+    "ts": 326,
+    "text": "Yeah. I think one thing that at least was true for me is that it doesn't feel that different."
+  },
+  {
+    "speaker": 1,
+    "ts": 333,
+    "text": "What I do right now to what my experience was, where I was at in my previous company,"
+  },
+  {
+    "speaker": 1,
+    "ts": 339,
+    "text": "I think that there was a lot of reward for intrapreneurialism. It opposed to entrepreneurialism."
+  },
+  {
+    "speaker": 1,
+    "ts": 345,
+    "text": "It's intrapreneurialism, the same concept that you do within a company. I do think at"
+  },
+  {
+    "speaker": 1,
+    "ts": 350,
+    "text": "my previous, also the name Citadel, they get reward a lot of intra-entrepreneurialism. I"
+  },
+  {
+    "speaker": 1,
+    "ts": 356,
+    "text": "think I always thought of what I was doing there as though I was running my own company,"
+  },
+  {
+    "speaker": 1,
+    "ts": 361,
+    "text": "and trying to grow that the company, add value, have more people using my tools,"
+  },
+  {
+    "speaker": 1,
+    "ts": 368,
+    "text": "have people saying great things, and getting joy out of your customers. Most of my customers"
+  },
+  {
+    "speaker": 1,
+    "ts": 373,
+    "text": "there were fundamental analysts, data scientists, PMs, other people in operational"
+  },
+  {
+    "speaker": 1,
+    "ts": 379,
+    "text": "workflows. How do you build your own brand and company there? Doing that outside of that"
+  },
+  {
+    "speaker": 1,
+    "ts": 385,
+    "text": "environment, there's additional challenges. One is people don't have to use the thing that you're"
+  },
+  {
+    "speaker": 1,
+    "ts": 389,
+    "text": "building. They get to say, yeah, never mind. I'm just not going to pay you for this. In the same"
+  },
+  {
+    "speaker": 1,
+    "ts": 393,
+    "text": "way that eventually in that environment, they can let you go. I think they have a healthy culture"
+  },
+  {
+    "speaker": 1,
+    "ts": 396,
+    "text": "of embracing that. They're not healthy, however you want to interpret it, but there was an element"
+  },
+  {
+    "speaker": 1,
+    "ts": 402,
+    "text": "of you have to eat what you kill in that previous world. I think that did reflect that they had a"
+  },
+  {
+    "speaker": 1,
+    "ts": 407,
+    "text": "lot of similarities going and building your company here. The things you don't have here is"
+  },
+  {
+    "speaker": 1,
+    "ts": 412,
+    "text": "the second you leave one of these bigger brands, you're only as good as what you've done recently."
+  },
+  {
+    "speaker": 1,
+    "ts": 417,
+    "text": "You have no company, you have no brand, you have no logo on your Patagonia that you can walk around"
+  },
+  {
+    "speaker": 1,
+    "ts": 423,
+    "text": "Midtown with that gives you the stamp of approval. You're just your name and what you can do for"
+  },
+  {
+    "speaker": 1,
+    "ts": 429,
+    "text": "me right now. Where are you used to work great? You don't work there anymore. You're a nobody."
+  },
+  {
+    "speaker": 1,
+    "ts": 434,
+    "text": "You have to go and prove that what you can do is justify the money that I'm going to pay for you"
+  },
+  {
+    "speaker": 1,
+    "ts": 439,
+    "text": "and you have to go and eat what you kill in the real world. I think that that was, I think that's"
+  },
+  {
+    "speaker": 1,
+    "ts": 444,
+    "text": "a very healthy experience to go through, but I think losing that brand association that you get"
+  },
+  {
+    "speaker": 1,
+    "ts": 449,
+    "text": "with some of these firms, I think that was one of the things that everyone has to go through as"
+  },
+  {
+    "speaker": 1,
+    "ts": 453,
+    "text": "they go out and do their own thing. You don't have any of those resources. You want to go and"
+  },
+  {
+    "speaker": 1,
+    "ts": 458,
+    "text": "recruit, go figure it out. Go on LinkedIn yourself. You want to go and get your first"
+  },
+  {
+    "speaker": 1,
+    "ts": 464,
+    "text": "customer, pick up the phone and call. You want to figure out how you do a CICD deployment into"
+  },
+  {
+    "speaker": 1,
+    "ts": 470,
+    "text": "cloud, build it yourself. You want to go and figure out how these models work or how you use"
+  },
+  {
+    "speaker": 1,
+    "ts": 475,
+    "text": "these agent tools. Watch a DM YouTube video. You don't get an expert that you get to call."
+  },
+  {
+    "speaker": 1,
+    "ts": 480,
+    "text": "Now, I mean, you can't call people, but the extreme self-reliance that I think you need to have when"
+  },
+  {
+    "speaker": 1,
+    "ts": 487,
+    "text": "you do start your own thing, I think it's very healthy, but you realize how good you had it when"
+  },
+  {
+    "speaker": 1,
+    "ts": 492,
+    "text": "you had all of these great resources and systems and people at your disposal that a good company's"
+  },
+  {
+    "speaker": 1,
+    "ts": 500,
+    "text": "job is to be able to assemble those resources for their employees that you have in that previous"
+  },
+  {
+    "speaker": 1,
+    "ts": 505,
+    "text": "life. When you go and start your own thing, you have to start from scratch. What you do have"
+  },
+  {
+    "speaker": 1,
+    "ts": 509,
+    "text": "is you have all of the great learning experience resilience that you've been able to hone in"
+  },
+  {
+    "speaker": 1,
+    "ts": 514,
+    "text": "yourself to be able to go and persevere through that. At least I was able to carry that with me."
+  },
+  {
+    "speaker": 1,
+    "ts": 519,
+    "text": "Certainly, the credibility can take a while to build when you're not part of a larger organization"
+  },
+  {
+    "speaker": 1,
+    "ts": 526,
+    "text": "and you're starting something new on your own as a new brand and a new business in the market."
+  },
+  {
+    "speaker": 1,
+    "ts": 531,
+    "text": "Now, with that, you launched Engineer. What was the original insight behind the company?"
+  },
+  {
+    "speaker": 1,
+    "ts": 536,
+    "text": "Original insight was a lot of things that you build within larger asset managers like security"
+  },
+  {
+    "speaker": 1,
+    "ts": 542,
+    "text": "masters, data infrastructure, dashboards, how you build out an estimates database, how you"
+  },
+  {
+    "speaker": 1,
+    "ts": 549,
+    "text": "model out companies, how you understand relationships between companies and instruments,"
+  },
+  {
+    "speaker": 1,
+    "ts": 555,
+    "text": "how you do portfolio analytics, portfolio, or let's say risk decomposition, especially in"
+  },
+  {
+    "speaker": 1,
+    "ts": 561,
+    "text": "the equities world. Those workflows are very similar. If you look at the things that you have"
+  },
+  {
+    "speaker": 1,
+    "ts": 567,
+    "text": "in an MLP or a folly or a sig, Citadel, or a walleye, they all have different flavors of the"
+  },
+  {
+    "speaker": 1,
+    "ts": 575,
+    "text": "same software. If you wanted to start trying to serve as smaller firms, you could implement"
+  },
+  {
+    "speaker": 1,
+    "ts": 582,
+    "text": "some best practices and then redistribute that where you don't have to build it from scratch"
+  },
+  {
+    "speaker": 1,
+    "ts": 587,
+    "text": "each time. That was generally the narrative of what we originally started out on. It had nothing"
+  },
+  {
+    "speaker": 1,
+    "ts": 592,
+    "text": "to do with AI. There's opportunities for economies of scale. We understand the domain really well."
+  },
+  {
+    "speaker": 1,
+    "ts": 598,
+    "text": "We can go and transform that domain understanding into software and then redeploy that with some"
+  },
+  {
+    "speaker": 1,
+    "ts": 605,
+    "text": "white glove services on top at scale for an asset manager clientele. That price went between 500"
+  },
+  {
+    "speaker": 1,
+    "ts": 615,
+    "text": "million AUM to 10 billion AUM, primarily discretionary. The similarity with discretionary"
+  },
+  {
+    "speaker": 1,
+    "ts": 620,
+    "text": "managers is they oftentimes don't have as much technology or systems, but they have enough scale,"
+  },
+  {
+    "speaker": 1,
+    "ts": 625,
+    "text": "especially as they went maybe from 500 million to 5 billion. What got them there doesn't necessarily"
+  },
+  {
+    "speaker": 1,
+    "ts": 633,
+    "text": "get them from that 5 to 15. That oftentimes requires technology. That's a different core"
+  },
+  {
+    "speaker": 1,
+    "ts": 640,
+    "text": "competency. That was pre-AI the type of customers and clients that we were most successful with."
+  },
+  {
+    "speaker": 1,
+    "ts": 648,
+    "text": "It was great. We started to company profitable, hired some great people, made some mistakes,"
+  },
+  {
+    "speaker": 1,
+    "ts": 652,
+    "text": "we had some really good wins. AI has really transformed that. I think that for us when we"
+  },
+  {
+    "speaker": 1,
+    "ts": 659,
+    "text": "got private preview access to Quad Code in 2025, it really started changing the way that we were"
+  },
+  {
+    "speaker": 1,
+    "ts": 668,
+    "text": "thinking about how you scale expertise and how you can have a domain, especially on the technology"
+  },
+  {
+    "speaker": 1,
+    "ts": 675,
+    "text": "side of how you can understand a domain problem. For example, let's say about how you can derive"
+  },
+  {
+    "speaker": 1,
+    "ts": 683,
+    "text": "NAV, like the net asset value of a fund from individual transactions, as well as subscriptions"
+  },
+  {
+    "speaker": 1,
+    "ts": 692,
+    "text": "and redemptions and having accurate end of day pricing. Most people don't understand how you"
+  },
+  {
+    "speaker": 1,
+    "ts": 701,
+    "text": "could accomplish that with those four pieces of information. Before, it was very complicated to"
+  },
+  {
+    "speaker": 1,
+    "ts": 707,
+    "text": "build a system that could repeatedly do that, but then if you articulate it effectively and you also"
+  },
+  {
+    "speaker": 1,
+    "ts": 712,
+    "text": "understand technology really well, you're going to scale that best practice of how you want to build"
+  },
+  {
+    "speaker": 1,
+    "ts": 716,
+    "text": "a better system for calculating a complex organization's net asset value from core components"
+  },
+  {
+    "speaker": 1,
+    "ts": 722,
+    "text": "and lead on quality. That's not our business. We don't do back office NAV implementation,"
+  },
+  {
+    "speaker": 1,
+    "ts": 728,
+    "text": "but I think that just one example that for us was very transformative in how we start thinking,"
+  },
+  {
+    "speaker": 1,
+    "ts": 734,
+    "text": "like, oh, there's just something that we can really start pushing very hard on. We live in"
+  },
+  {
+    "speaker": 1,
+    "ts": 740,
+    "text": "brief, I think, in understanding how Quad Code worked. I think that that was the first"
+  },
+  {
+    "speaker": 1,
+    "ts": 745,
+    "text": "agentic harness that we really dug into. For an agent harness, I think one way I like to think"
+  },
+  {
+    "speaker": 1,
+    "ts": 751,
+    "text": "about it is LLM is just this massive power of light, this solar explosion of power. If you"
+  },
+  {
+    "speaker": 1,
+    "ts": 760,
+    "text": "want to take all the power of the sun and be able to then take a silicone wafer and carve out how"
+  },
+  {
+    "speaker": 1,
+    "ts": 769,
+    "text": "you want that chip design, like with lithography, you need to really harness the power of light"
+  },
+  {
+    "speaker": 1,
+    "ts": 774,
+    "text": "in order to have a level of control that could enable you to be able to create"
+  },
+  {
+    "speaker": 1,
+    "ts": 779,
+    "text": "what are the three, five, seven nanometer chips that you have to rely on a combination of TSMC"
+  },
+  {
+    "speaker": 1,
+    "ts": 786,
+    "text": "and ASML. The agent harness is kind of the same thing where you have this really powerful language"
+  },
+  {
+    "speaker": 1,
+    "ts": 792,
+    "text": "model that can do incredible next token prediction, but you need a way to transform next token"
+  },
+  {
+    "speaker": 1,
+    "ts": 798,
+    "text": "prediction to be able to do the type of work that you want it to. You can start controlling that"
+  },
+  {
+    "speaker": 1,
+    "ts": 803,
+    "text": "light force or that light into doing an explicit set of tasks. You give it very discrete options,"
+  },
+  {
+    "speaker": 1,
+    "ts": 809,
+    "text": "and then if you give it the right combination of discrete options with the correct context,"
+  },
+  {
+    "speaker": 1,
+    "ts": 813,
+    "text": "it can do very powerful things. We've been experiencing doing a ton with that understanding"
+  },
+  {
+    "speaker": 1,
+    "ts": 821,
+    "text": "of how the agentic harness works primarily through understanding Quad Code, but also Codex,"
+  },
+  {
+    "speaker": 1,
+    "ts": 826,
+    "text": "Open Code, Roo, Pi, Open Claw is almost a harness of harnesses, primarily to be able to build out"
+  },
+  {
+    "speaker": 1,
+    "ts": 835,
+    "text": "like AI native asset managers at scale in our existing clients."
+  },
+  {
+    "speaker": 1,
+    "ts": 841,
+    "text": "And so as AI provided this big unlock to your business and tangentially your clients,"
+  },
+  {
+    "speaker": 1,
+    "ts": 847,
+    "text": "hedge funds, asset managers, where do you see the best use cases right now?"
+  },
+  {
+    "speaker": 1,
+    "ts": 854,
+    "text": "Across the board, I mean, where we have the most transformational impact within our clients"
+  },
+  {
+    "speaker": 1,
+    "ts": 861,
+    "text": "is where we create a feedback loop where everything that a user, whether it's somebody on the front"
+  },
+  {
+    "speaker": 1,
+    "ts": 868,
+    "text": "office research side doing do-deal diligence by giving Quad access to a data room or an analyst"
+  },
+  {
+    "speaker": 1,
+    "ts": 876,
+    "text": "trying to model out a company from components is doing that with AI tool that allows us to"
+  },
+  {
+    "speaker": 1,
+    "ts": 885,
+    "text": "capture everything. So we want to capture what is the prompt that the users putting into the system,"
+  },
+  {
+    "speaker": 1,
+    "ts": 890,
+    "text": "oftentimes that's in co-work or Codex, and making sure that that prompt flows into a data system"
+  },
+  {
+    "speaker": 1,
+    "ts": 897,
+    "text": "that we can analyze later. Then when Quad decides to call the tool or goes through reasoning or pulls"
+  },
+  {
+    "speaker": 1,
+    "ts": 904,
+    "text": "in a skill or delegates to a sub agent, we capture all of that. When Quad then gives a response"
+  },
+  {
+    "speaker": 1,
+    "ts": 911,
+    "text": "of what it actually says an answer might be or goes and produces a document, we need to capture"
+  },
+  {
+    "speaker": 1,
+    "ts": 915,
+    "text": "that. And so by being able to follow the entire process of how a user uses AI to solve a problem,"
+  },
+  {
+    "speaker": 1,
+    "ts": 927,
+    "text": "we can then identify what went wrong, what went right. How could this user be better with AI?"
+  },
+  {
+    "speaker": 1,
+    "ts": 935,
+    "text": "What are they leaving on the table? How do they instruct it incorrectly? And then also what are"
+  },
+  {
+    "speaker": 1,
+    "ts": 941,
+    "text": "the tools and contacts that Quad or ChatGVT or whatever AI model you're using should have had"
+  },
+  {
+    "speaker": 1,
+    "ts": 948,
+    "text": "when it tried to accomplish this task? And by going through the process of capturing that data"
+  },
+  {
+    "speaker": 1,
+    "ts": 955,
+    "text": "and then analyzing that data, coming up with what the root cause was that caused like a frustration"
+  },
+  {
+    "speaker": 1,
+    "ts": 962,
+    "text": "or a failure here, and then having a framework to solve that, in that world it doesn't matter"
+  },
+  {
+    "speaker": 1,
+    "ts": 968,
+    "text": "what problem you're trying to solve where it's most impactful. Because I think you were asking"
+  },
+  {
+    "speaker": 1,
+    "ts": 972,
+    "text": "like, oh, is it more impactful for foreign office research? Or is it more impactful for like"
+  },
+  {
+    "speaker": 1,
+    "ts": 976,
+    "text": "portfolio construction or market monitoring? Or is it more impactful for back office,"
+  },
+  {
+    "speaker": 1,
+    "ts": 981,
+    "text": "cash reconciliation or portfolio financing optimization? Or for doing"
+  },
+  {
+    "speaker": 1,
+    "ts": 988,
+    "text": "wrecks against your PB versus the cash that you have within your shadow nav system?"
+  },
+  {
+    "speaker": 1,
+    "ts": 995,
+    "text": "Or for doing due diligence from your investors coming or being able to like,"
+  },
+  {
+    "speaker": 1,
+    "ts": 999,
+    "text": "create marketing material? So like, it seems like the question you were asking me is like,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1003,
+    "text": "which one of those is Quad most transformational to it? And my answer is all of them. But what's"
+  },
+  {
+    "speaker": 1,
+    "ts": 1009,
+    "text": "transformational is being able to capture all of that and then have a system that can identify"
+  },
+  {
+    "speaker": 1,
+    "ts": 1016,
+    "text": "how you make each one of those verticals better. And that is what we focus on in making sure that"
+  },
+  {
+    "speaker": 1,
+    "ts": 1024,
+    "text": "we orchestrate all of that within our clients deployment of AI across the enterprise. And I"
+  },
+  {
+    "speaker": 1,
+    "ts": 1032,
+    "text": "think if you do that right, and you could follow what Anthropics CISO is explained about how they"
+  },
+  {
+    "speaker": 1,
+    "ts": 1041,
+    "text": "do AI deployments within Anthropic, we make sure all of our clients do much of the same thing."
+  },
+  {
+    "speaker": 1,
+    "ts": 1045,
+    "text": "And then we leverage that so that we can enable like an operational workflow from an AI perspective"
+  },
+  {
+    "speaker": 1,
+    "ts": 1053,
+    "text": "to make sure that those systems get better. And there's ways to orchestrate all of it."
+  },
+  {
+    "speaker": 1,
+    "ts": 1057,
+    "text": "Happy to kind of go into what that looks like. It's a little technical understanding what open"
+  },
+  {
+    "speaker": 1,
+    "ts": 1060,
+    "text": "telemetry is. It's a way to be able to get traces of every single thing that the AI is doing or that"
+  },
+  {
+    "speaker": 1,
+    "ts": 1067,
+    "text": "that you're doing as an individual into one data model. You could then run agents on top. What we"
+  },
+  {
+    "speaker": 1,
+    "ts": 1072,
+    "text": "do is we run agents on top of that to analyze all of those different sessions. So for example, Julian,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1077,
+    "text": "every time that you have a conversation with Claude or with LGBT, that you want all of that data is"
+  },
+  {
+    "speaker": 1,
+    "ts": 1084,
+    "text": "captured sort of within your cloud, sort of within your environment. That's why I argue that your"
+  },
+  {
+    "speaker": 1,
+    "ts": 1088,
+    "text": "organization's most valuable data assets, any piece of data that you think is valuable,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1093,
+    "text": "your organization's usage of AI, that's more valuable than anything else. Because that will"
+  },
+  {
+    "speaker": 1,
+    "ts": 1097,
+    "text": "ultimately tell you everything that you need to know about how you can have AI run your business"
+  },
+  {
+    "speaker": 1,
+    "ts": 1102,
+    "text": "for you. If that data is sitting right there, we make sure that you're capturing that. And then"
+  },
+  {
+    "speaker": 1,
+    "ts": 1106,
+    "text": "second of all, we make sure that it's being analyzed and understood. And then actions are"
+  },
+  {
+    "speaker": 1,
+    "ts": 1111,
+    "text": "taking on top of that to make the AI better the next time it tries to do a similar task."
+  },
+  {
+    "speaker": 1,
+    "ts": 1115,
+    "text": "We probably break that down into three different ways. One is how does the user get better with"
+  },
+  {
+    "speaker": 1,
+    "ts": 1119,
+    "text": "training and understand how to prompt better? Two, how do you provide better data? And primarily"
+  },
+  {
+    "speaker": 1,
+    "ts": 1124,
+    "text": "to the form of MCP, but it doesn't have to be. So the model has the access to information that"
+  },
+  {
+    "speaker": 1,
+    "ts": 1129,
+    "text": "needs to make better decisions. And then three, how do you have better system context around"
+  },
+  {
+    "speaker": 1,
+    "ts": 1135,
+    "text": "workflows, common knowledge? That's a combination of both skill libraries as well as a knowledge"
+  },
+  {
+    "speaker": 1,
+    "ts": 1141,
+    "text": "layer that the model can pull from when it needs to do various different activities on the behalf"
+  },
+  {
+    "speaker": 1,
+    "ts": 1147,
+    "text": "of users. But if you bring it down into that three components, user improvement in training,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1152,
+    "text": "data, and a knowledge layer slash skill library that the model can pull from,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1158,
+    "text": "that's a big unlock. And then you want to make sure all three of those are getting better."
+  },
+  {
+    "speaker": 1,
+    "ts": 1161,
+    "text": "Users are understanding how to use these tools better. The data is getting better over time."
+  },
+  {
+    "speaker": 1,
+    "ts": 1165,
+    "text": "And sometimes that requires some thinking around what is the underlying data layer."
+  },
+  {
+    "speaker": 1,
+    "ts": 1168,
+    "text": "But oftentimes it's just being thoughtful on the MCPs that you're exposing or an MCP gateway that"
+  },
+  {
+    "speaker": 1,
+    "ts": 1174,
+    "text": "normalizes those MCPs together. And then lastly, what is your organizational knowledge? Oftentimes"
+  },
+  {
+    "speaker": 1,
+    "ts": 1179,
+    "text": "that's included within a skill library, but sometimes you want to be able to have an additional"
+  },
+  {
+    "speaker": 1,
+    "ts": 1185,
+    "text": "data platform data warehouse on top of that. But that's it. And so if you can have your"
+  },
+  {
+    "speaker": 1,
+    "ts": 1190,
+    "text": "deployment of AI auto detect which of those three things are lacking based off of actual usage,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1198,
+    "text": "and then just go and fix that. That's how you start having a flywheel that's really impactful."
+  },
+  {
+    "speaker": 1,
+    "ts": 1202,
+    "text": "So if you have analysts that are doing special sitch due diligence, there's a myriad of different"
+  },
+  {
+    "speaker": 1,
+    "ts": 1207,
+    "text": "things that they need to be able to think through whether they're going to build covenants,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1211,
+    "text": "new terms, opening up a new data realm. But if you're doing that through the lens of the cloud"
+  },
+  {
+    "speaker": 1,
+    "ts": 1217,
+    "text": "and like correcting cloud as it goes through a certain workflow and you capture all that,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1222,
+    "text": "and then you have another process that will pick that up and learn from it,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1225,
+    "text": "say, hey, the next time you see these situations, follow the exact same things that he or she is"
+  },
+  {
+    "speaker": 1,
+    "ts": 1230,
+    "text": "instructing you to do and then codify that within the skill library. The next time cloud goes and"
+  },
+  {
+    "speaker": 1,
+    "ts": 1235,
+    "text": "redos that same workflow, as long as those skills have been described correctly in the front matter,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1241,
+    "text": "so that cloud pulls in the rest of the skill context, it's going, oh, now I've realized that"
+  },
+  {
+    "speaker": 1,
+    "ts": 1246,
+    "text": "when I'm doing a covenants for this specific data role that I go to a different location,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1250,
+    "text": "I'm not going to make that same mistake again. And then you have the user saying, oh, well,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1253,
+    "text": "it's actually learning. It's actually getting better. This is great. And so that's just a"
+  },
+  {
+    "speaker": 1,
+    "ts": 1257,
+    "text": "microcosm of how you actually deploy AI within the organization effectively,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1263,
+    "text": "so that you don't just focus on, oh, it only works for research. It only works for backup."
+  },
+  {
+    "speaker": 1,
+    "ts": 1268,
+    "text": "It only works for portfolio or market monitoring. It should work for the whole firm. It's the same"
+  },
+  {
+    "speaker": 1,
+    "ts": 1274,
+    "text": "underlying next token prediction, LLM, underpinning all of this. And it's the same"
+  },
+  {
+    "speaker": 1,
+    "ts": 1280,
+    "text": "three levers that you have to pull to improve that in terms of users understanding how to use"
+  },
+  {
+    "speaker": 1,
+    "ts": 1284,
+    "text": "it better, better data, better system context. And that has nothing to do with front office,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1290,
+    "text": "back office, middle office. Awesome. At a higher level, I guess, when you,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1298,
+    "text": "it looks really great now that your business is focused on building on top of cloud in the future"
+  },
+  {
+    "speaker": 1,
+    "ts": 1305,
+    "text": "as other models catch up to for co-pilot and whatnot. Do you expect that you'll become"
+  },
+  {
+    "speaker": 1,
+    "ts": 1313,
+    "text": "more model agnostic in the future, or will it still be completely focused on cloud?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1320,
+    "text": "I think that right now we've ride the cloud wave because Anthropic built the best ecosystem for"
+  },
+  {
+    "speaker": 1,
+    "ts": 1328,
+    "text": "managing enterprise-wide AI. It's just full stop. If you wanted to play on a skill library to"
+  },
+  {
+    "speaker": 1,
+    "ts": 1333,
+    "text": "co-work as well as to cloud code, you can do that within one deployment and get a repo,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1340,
+    "text": "accept that to auto deploy, and all of your users in those two environments just automatically get"
+  },
+  {
+    "speaker": 1,
+    "ts": 1343,
+    "text": "it. If you want to be able to deploy out an MCP server across cloud code, cloud co-work,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1350,
+    "text": "cloud.ai, it's the same deployment. So like the ecosystem that they built there, that is what's"
+  },
+  {
+    "speaker": 1,
+    "ts": 1356,
+    "text": "differentiated cloud so far, but it's not the model. It's not just sign-in or opus or that much"
+  },
+  {
+    "speaker": 1,
+    "ts": 1364,
+    "text": "better. It's the ecosystem that they built. And so with that said, everything that we do,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1369,
+    "text": "it just focuses on what does a good ecosystem consist of. A skill library is not something"
+  },
+  {
+    "speaker": 1,
+    "ts": 1374,
+    "text": "that's unique to Anthropic. Anthropic started the skill library. They started the concept of"
+  },
+  {
+    "speaker": 1,
+    "ts": 1379,
+    "text": "a skill as an open standard, and now everyone's adopted skills. So if we create a skill library,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1384,
+    "text": "whether or not you use it for cloud or chat, it doesn't matter. So in that world, we already"
+  },
+  {
+    "speaker": 1,
+    "ts": 1388,
+    "text": "are a model agnostic. Same way with MCP. MCP started out of Anthropic. They made it in open"
+  },
+  {
+    "speaker": 1,
+    "ts": 1395,
+    "text": "standard. Not everyone uses it. And so that's essentially the same thing. And so in the way"
+  },
+  {
+    "speaker": 1,
+    "ts": 1401,
+    "text": "that you have usage analytics, open telemetry has nothing to do with Anthropic. Open telemetry is"
+  },
+  {
+    "speaker": 1,
+    "ts": 1406,
+    "text": "in a standard way that you understand lineage and traces for running software at scale. Now,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1413,
+    "text": "we just happened to be using that for Anthropic, but the hotel works for ChatGVT, works for any"
+  },
+  {
+    "speaker": 1,
+    "ts": 1418,
+    "text": "other major model provider, works for your data dog, all of these different systems,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1423,
+    "text": "all have hotel plugged in. We just made sure because we've been running software and asset"
+  },
+  {
+    "speaker": 1,
+    "ts": 1427,
+    "text": "managers for our entire professional lives that, oh yeah, now we're going to be deploying on AI."
+  },
+  {
+    "speaker": 1,
+    "ts": 1432,
+    "text": "Of course, we have hotel flowing through. And of course, we then look at the data to be able to"
+  },
+  {
+    "speaker": 1,
+    "ts": 1437,
+    "text": "understand how users are using this technology in the same way that when we would deploy software"
+  },
+  {
+    "speaker": 1,
+    "ts": 1442,
+    "text": "within an asset manager, we would look at data and say, like, what features are people actually"
+  },
+  {
+    "speaker": 1,
+    "ts": 1446,
+    "text": "using? Where are they struggling with using this software? How do we A-B test something and figure"
+  },
+  {
+    "speaker": 1,
+    "ts": 1452,
+    "text": "out what we should do next? How do you do that? You do that by collecting data. And so everything"
+  },
+  {
+    "speaker": 1,
+    "ts": 1456,
+    "text": "that I just described around how you deploy on AI within an asset manager has nothing to do with"
+  },
+  {
+    "speaker": 1,
+    "ts": 1460,
+    "text": "Anthropic. Anthropic just happened to be the best one that piece all that stuff together on day one."
+  },
+  {
+    "speaker": 1,
+    "ts": 1465,
+    "text": "And right now, I'm actually not even that bullish long term. I mean, I am bullish on Anthropic,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1470,
+    "text": "but I do feel as though we're almost peak anthropic because there is an element of model"
+  },
+  {
+    "speaker": 1,
+    "ts": 1474,
+    "text": "commoditization that exists. Right now, we're sponsoring a team at Lehigh that I have running"
+  },
+  {
+    "speaker": 1,
+    "ts": 1481,
+    "text": "a side project course. And they're basically taking every single agent harness and then every"
+  },
+  {
+    "speaker": 1,
+    "ts": 1486,
+    "text": "single model running through a set of benchmarks and saying what produces the best results,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1492,
+    "text": "what produces the lowest token consumption, which one's the fastest? And it doesn't matter"
+  },
+  {
+    "speaker": 1,
+    "ts": 1500,
+    "text": "like if that's not necessarily tying cloud code to Opus and Sonnet. Cloud code is like, I mean,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1507,
+    "text": "it's far more cost efficient to run it with DeepSeq than it is with or DeepSeq Pro than it is with"
+  },
+  {
+    "speaker": 1,
+    "ts": 1515,
+    "text": "Opus or even Sonnet for sure. It's a little bit slower enough to use the default hosted version"
+  },
+  {
+    "speaker": 1,
+    "ts": 1520,
+    "text": "and also like a lot of that is hosted within servers that are outside of the US jurisdiction."
+  },
+  {
+    "speaker": 1,
+    "ts": 1524,
+    "text": "So we don't really use that, but there's different ways that you can start assembling these things"
+  },
+  {
+    "speaker": 1,
+    "ts": 1529,
+    "text": "to use the best model plus the best harness and then use your skill library, use your MCP layer,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1537,
+    "text": "use your knowledge layer and use your usage observability on top of all of that,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1542,
+    "text": "but have nothing to do with cloud. So I think we already are like kind of agnostic in a sense where"
+  },
+  {
+    "speaker": 1,
+    "ts": 1547,
+    "text": "if every one of our clients is using what we consider to be best in class AI ecosystem right"
+  },
+  {
+    "speaker": 1,
+    "ts": 1553,
+    "text": "now and they're also giving us the best love, right? Like they have the partner network. I've"
+  },
+  {
+    "speaker": 1,
+    "ts": 1557,
+    "text": "at least been on calls, not often, but at least I've been on a call with Pat, who's a product"
+  },
+  {
+    "speaker": 1,
+    "ts": 1562,
+    "text": "manager of cloud code, asking us for feedback on all of that. I've been on conversations with"
+  },
+  {
+    "speaker": 1,
+    "ts": 1568,
+    "text": "their go-to-market team at Anthropic. If there's an organization that's giving us that love that"
+  },
+  {
+    "speaker": 1,
+    "ts": 1574,
+    "text": "also is building a great ecosystem, like I'm a business person just trying to put food on the"
+  },
+  {
+    "speaker": 1,
+    "ts": 1578,
+    "text": "table for my family. I'm going to go about getting business, adding dollars for clients"
+  },
+  {
+    "speaker": 1,
+    "ts": 1582,
+    "text": "any way that we can. And right now, that's the way that I'm writing. But there's nothing that"
+  },
+  {
+    "speaker": 1,
+    "ts": 1587,
+    "text": "we're doing inherently tying our cart to that course. It's an interesting notion, the potential"
+  },
+  {
+    "speaker": 1,
+    "ts": 1593,
+    "text": "commoditization of LLMs. And first, it was open AI in the lead, and then cloud, and then Gemini,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1599,
+    "text": "and then some of the open source you mentioned, deep seek. And those are becoming competitive."
+  },
+  {
+    "speaker": 1,
+    "ts": 1604,
+    "text": "And you got to look at it versus cost. So there's a lot of factors that go into that choice. So"
+  },
+  {
+    "speaker": 1,
+    "ts": 1611,
+    "text": "it's good to keep it, keep your options open, so to speak. Now, with respect to, say, hedge funds"
+  },
+  {
+    "speaker": 1,
+    "ts": 1617,
+    "text": "initially deploying AI, where do you see the highest ROI, or where do you see the most rapid uptake?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1626,
+    "text": "Oftentimes, data science teams, I mean, you see, well, I think there's two different areas."
+  },
+  {
+    "speaker": 1,
+    "ts": 1632,
+    "text": "You need somebody that's not afraid of code so far in order to make the most out of AI."
+  },
+  {
+    "speaker": 1,
+    "ts": 1641,
+    "text": "They're comfortable going in and looking at code. They don't need to be an expert, but they're"
+  },
+  {
+    "speaker": 1,
+    "ts": 1645,
+    "text": "comfortable doing it. And they haven't necessarily done it now for the first time for the people that"
+  },
+  {
+    "speaker": 1,
+    "ts": 1649,
+    "text": "are doing the most impressive stuff. Now, they maybe were never a developer, but they're somewhat"
+  },
+  {
+    "speaker": 1,
+    "ts": 1654,
+    "text": "comfortable with code. And then the second element is they're actually not a program. Like, their"
+  },
+  {
+    "speaker": 1,
+    "ts": 1659,
+    "text": "pedagogical background has been in equity research, credit research, maybe operations,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1665,
+    "text": "oftentimes data science. I think the people that are like best suited for this are the people that"
+  },
+  {
+    "speaker": 1,
+    "ts": 1670,
+    "text": "have been doing data science for a while. Maybe they were on the equity side. Now, they're on"
+  },
+  {
+    "speaker": 1,
+    "ts": 1674,
+    "text": "their engineering asset class, but they're like the data science, they accept their data analysts."
+  },
+  {
+    "speaker": 1,
+    "ts": 1679,
+    "text": "It's a title that exists in the industry. It's been pretty well understood. They've always had to"
+  },
+  {
+    "speaker": 1,
+    "ts": 1684,
+    "text": "understand a little bit of Python. They've had to write SQL. They also have to understand the"
+  },
+  {
+    "speaker": 1,
+    "ts": 1688,
+    "text": "business pretty well. And so those users are the ones that I think have used AI the best. So"
+  },
+  {
+    "speaker": 1,
+    "ts": 1695,
+    "text": "anybody that's doing kind of data science-y like work, they're the ones that are, I think,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1699,
+    "text": "doing the most impressive type of work. I think there are a lot of associates that I've seen"
+  },
+  {
+    "speaker": 1,
+    "ts": 1706,
+    "text": "that are like, they brought a little bit of Python, they've done some Python, maybe in their"
+  },
+  {
+    "speaker": 1,
+    "ts": 1710,
+    "text": "undergrad, they got a lot of exposure to that. They're AI-fying their entire process. And then"
+  },
+  {
+    "speaker": 1,
+    "ts": 1716,
+    "text": "obviously a lot of people on the quant side that are doing, again, they're naturally comfortable"
+  },
+  {
+    "speaker": 1,
+    "ts": 1720,
+    "text": "with code, but the code has been a means to an end. I think that's the commonality of all of that."
+  },
+  {
+    "speaker": 1,
+    "ts": 1725,
+    "text": "That code was never their job. It was a means to an end. And it's all primarily there on the"
+  },
+  {
+    "speaker": 1,
+    "ts": 1730,
+    "text": "research workflow. There's been more in kind of like back office where people are automating their"
+  },
+  {
+    "speaker": 1,
+    "ts": 1736,
+    "text": "job. I just don't think you see the same level of ambition. And that's not to be a knock on anyone"
+  },
+  {
+    "speaker": 1,
+    "ts": 1743,
+    "text": "that's doing like portfolio finance, treasury, or fund analytics. Now there's a lot of people that"
+  },
+  {
+    "speaker": 1,
+    "ts": 1748,
+    "text": "are doing some really interesting stuff there. But the people that are incentivized right now,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1754,
+    "text": "they're like the ones that work now already, 16, 18 hour days that were writing code even before"
+  },
+  {
+    "speaker": 1,
+    "ts": 1760,
+    "text": "this, but they were only doing that as a means to an end. They have a drive and an intrinsic"
+  },
+  {
+    "speaker": 1,
+    "ts": 1767,
+    "text": "motivation that I think has caught on really well right now with like this AI move. And that's"
+  },
+  {
+    "speaker": 1,
+    "ts": 1771,
+    "text": "where I think I see the most amount of interesting people just doing really impressive stuff."
+  },
+  {
+    "speaker": 1,
+    "ts": 1776,
+    "text": "Hope that helps. Yeah. And I feel like we're still very, very early stages in terms of"
+  },
+  {
+    "speaker": 1,
+    "ts": 1782,
+    "text": "AI adoption, particularly within hedge funds and asset management. Now that said, just given the"
+  },
+  {
+    "speaker": 1,
+    "ts": 1788,
+    "text": "pace of innovation and everything that's happening like the developments seem to be going at light"
+  },
+  {
+    "speaker": 1,
+    "ts": 1794,
+    "text": "speed, what do you think AI investing will look like in 10 years? 10 years? Yeah. Or maybe 12"
+  },
+  {
+    "speaker": 1,
+    "ts": 1805,
+    "text": "months or 24 months? I mean, 10 years. I couldn't, I can't, I have 10 years from now."
+  },
+  {
+    "speaker": 1,
+    "ts": 1817,
+    "text": "Maybe there'll be no humans left."
+  },
+  {
+    "speaker": 1,
+    "ts": 1822,
+    "text": "Yeah, I don't know. I mean, there still needs to be, people will still have capital and human beings"
+  },
+  {
+    "speaker": 1,
+    "ts": 1831,
+    "text": "will still have capital and they will allocate capital to the vehicles that give them the best"
+  },
+  {
+    "speaker": 1,
+    "ts": 1839,
+    "text": "risk adjusted returns. And that will be that decision making process will be driven by AI."
+  },
+  {
+    "speaker": 1,
+    "ts": 1854,
+    "text": "Like I will not make a discretionary allocation as a human being from an allocator's perspective"
+  },
+  {
+    "speaker": 1,
+    "ts": 1861,
+    "text": "of a pension fund or a teacher's retirement program. The boards will not be, I mean, there'll"
+  },
+  {
+    "speaker": 1,
+    "ts": 1872,
+    "text": "be humans that are likely overseeing the board, but those decisions will not be made by humans."
+  },
+  {
+    "speaker": 1,
+    "ts": 1877,
+    "text": "They will be made by AI. Those allocations will be and the redemptions and the types of data that"
+  },
+  {
+    "speaker": 1,
+    "ts": 1885,
+    "text": "flows into an allocator, whether that's you with a 401k or a more institutional LP"
+  },
+  {
+    "speaker": 1,
+    "ts": 1894,
+    "text": "will be near instantaneous and you will get real time feedback in terms of the performance"
+  },
+  {
+    "speaker": 1,
+    "ts": 1900,
+    "text": "of your investments with real understanding of any signal that exists in justification for any"
+  },
+  {
+    "speaker": 1,
+    "ts": 1908,
+    "text": "fees that are being produced there. But that allocate like the feedback loop, the manager"
+  },
+  {
+    "speaker": 1,
+    "ts": 1916,
+    "text": "assessment and the allocation, that's 100% AI from the allocator side. On the manager side,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1925,
+    "text": "you will have to use AI in order to have that feedback loop to the allocator be sufficient"
+  },
+  {
+    "speaker": 1,
+    "ts": 1932,
+    "text": "to justify any fees that you charge. And the only way that that can be done is if it is like 99%"
+  },
+  {
+    "speaker": 1,
+    "ts": 1941,
+    "text": "AI driven, whether or not that manager is AI 100% or not will be a question of"
+  },
+  {
+    "speaker": 1,
+    "ts": 1953,
+    "text": "the debate. But there'll be very few humans involved in that active manager role,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1963,
+    "text": "I mean again in 10 years. But there will still be humans that have capital"
+  },
+  {
+    "speaker": 1,
+    "ts": 1970,
+    "text": "that are that capital is being allocated on behalf of humans, how that capital is then"
+  },
+  {
+    "speaker": 1,
+    "ts": 1977,
+    "text": "managed and value accrued by the manager. Much of that is going to be driven by like AI."
+  },
+  {
+    "speaker": 1,
+    "ts": 1986,
+    "text": "And the number of people involved there are going to be in the very small, eventually that capital"
+  },
+  {
+    "speaker": 1,
+    "ts": 1998,
+    "text": "allocation will be the actual models themselves, the model providers like the infrastructure"
+  },
+  {
+    "speaker": 1,
+    "ts": 2004,
+    "text": "players over time, like they will be allocators themselves. And they will be allocating to like"
+  },
+  {
+    "speaker": 1,
+    "ts": 2012,
+    "text": "AI driven workflows. Now it'll be a question like, is the allocator and the manager the same?"
+  },
+  {
+    "speaker": 1,
+    "ts": 2019,
+    "text": "I think that will be interesting. And I see that there will be more and more kind of I think"
+  },
+  {
+    "speaker": 1,
+    "ts": 2026,
+    "text": "convergence of those two. I think the specialization of the allocator versus the manager versus the"
+  },
+  {
+    "speaker": 1,
+    "ts": 2031,
+    "text": "allocator. As the allocator is primarily being driven by AI to begin with, I think that you'll"
+  },
+  {
+    "speaker": 1,
+    "ts": 2036,
+    "text": "see kind of more convergence there. But yeah, I mean it's 10 years from now. But I think"
+  },
+  {
+    "speaker": 1,
+    "ts": 2044,
+    "text": "who an allocator is I think is going to transform as well. I think as governments spend more money"
+  },
+  {
+    "speaker": 1,
+    "ts": 2049,
+    "text": "on AI, you're going to see a larger allocation of government budgets going to AI as well. And so"
+  },
+  {
+    "speaker": 1,
+    "ts": 2057,
+    "text": "I think that you'll see just more of a rule of value and cash reserves by AI entities or AI"
+  },
+  {
+    "speaker": 1,
+    "ts": 2067,
+    "text": "providers. Not just coming from private enterprise, but public enterprise as well."
+  },
+  {
+    "speaker": 1,
+    "ts": 2075,
+    "text": "So like their cash reserves, although right now it's very much debt driven."
+  },
+  {
+    "speaker": 1,
+    "ts": 2081,
+    "text": "I do think that over, I mean it's equity and equity driven, but like there's a lot of debt"
+  },
+  {
+    "speaker": 1,
+    "ts": 2085,
+    "text": "going into buildouts. But I think eventually that does start approving a large capital reserve"
+  },
+  {
+    "speaker": 1,
+    "ts": 2094,
+    "text": "that I think will become a large allocator. And I think that those types of allocations will not be"
+  },
+  {
+    "speaker": 1,
+    "ts": 2101,
+    "text": "won't be to the types of managers that you and I are used to right now."
+  },
+  {
+    "speaker": 1,
+    "ts": 2107,
+    "text": "Makes a lot of sense. Well, we'll wrap it up there. Thanks Michael so much for coming on the show,"
+  },
+  {
+    "speaker": 1,
+    "ts": 2112,
+    "text": "chatting about AI in hedge funds and investing. And the future use cases were just absolutely"
+  },
+  {
+    "speaker": 1,
+    "ts": 2119,
+    "text": "tremendous and so much opportunities there. So thanks for sharing your expertise and everything"
+  },
+  {
+    "speaker": 1,
+    "ts": 2125,
+    "text": "you got going on at Hedgineer. Awesome Julien. It's been a pleasure. Thanks Michael. All right. Bye everyone."
+  },
+  {
+    "speaker": 1,
+    "ts": 2131,
+    "text": "Thanks for tuning in to the Absolute Return podcast. This episode was brought to you by"
+  },
+  {
+    "speaker": 1,
+    "ts": 2135,
+    "text": "Accelerate Financial Technologies. Accelerate because performance matters. Find out more"
+  },
+  {
+    "speaker": 1,
+    "ts": 2140,
+    "text": "at AccelerateShares.com. The views expressed in this podcast are the personal views of the"
+  },
+  {
+    "speaker": 1,
+    "ts": 2145,
+    "text": "participants and do not reflect the views of Accelerate. No aspect of this podcast constitutes"
+  },
+  {
+    "speaker": 1,
+    "ts": 2150,
+    "text": "investment, legal or tax advice. Opinions expressed in this podcast should not be viewed as a"
+  },
+  {
+    "speaker": 1,
+    "ts": 2154,
+    "text": "recommendation or solicitation of an offer to buy or sell any securities or investment strategies."
+  },
+  {
+    "speaker": 1,
+    "ts": 2159,
+    "text": "The information and opinions in this podcast are based on current market conditions and may"
+  },
+  {
+    "speaker": 1,
+    "ts": 2163,
+    "text": "fluctuate and change in the future. No representation or warranty expressed or implied is made on behalf"
+  },
+  {
+    "speaker": 1,
+    "ts": 2168,
+    "text": "of Accelerate. As to the accuracy or completeness of the information contained in this podcast,"
+  },
+  {
+    "speaker": 1,
+    "ts": 2173,
+    "text": "Accelerate does not accept any liability for any direct, indirect or consequential loss or damage"
+  },
+  {
+    "speaker": 1,
+    "ts": 2178,
+    "text": "suffered by any person as a result of relying on all or any part of this podcast and any liability"
+  },
+  {
+    "speaker": 1,
+    "ts": 2183,
+    "text": "is expressly disclaimed."
+  }
+]

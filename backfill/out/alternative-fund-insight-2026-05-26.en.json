@@ -1,0 +1,667 @@
+[
+  {
+    "speaker": 1,
+    "ts": 0,
+    "text": "Hello and welcome to this week's episode of the AFI podcast, where we will be discussing"
+  },
+  {
+    "speaker": 1,
+    "ts": 5,
+    "text": "the hedge fund sector's April rebound with regular guest Declan Quilligan and his colleague"
+  },
+  {
+    "speaker": 1,
+    "ts": 10,
+    "text": "Martin McCarthy, head of hedge funds for Europe at Citco. Also on the agenda will be the continued"
+  },
+  {
+    "speaker": 1,
+    "ts": 17,
+    "text": "flows into the space and how data integration and automation is changing the game in hedge funds."
+  },
+  {
+    "speaker": 1,
+    "ts": 24,
+    "text": "Before we start, a quick word about the AFI, private markets, wealth and innovation summit"
+  },
+  {
+    "speaker": 1,
+    "ts": 30,
+    "text": "coming to Mayfair on the afternoon of Thursday 25th of June. Please head to alternativefundinsight.com"
+  },
+  {
+    "speaker": 1,
+    "ts": 37,
+    "text": "slash events for more information. This podcast is brought to you in association with Citco,"
+  },
+  {
+    "speaker": 1,
+    "ts": 46,
+    "text": "the leading asset servicer with over $2 trillion of assets under administration."
+  },
+  {
+    "speaker": 1,
+    "ts": 52,
+    "text": "It's the top hedge fund administrator according to the AFI 500 research ranking."
+  },
+  {
+    "speaker": 1,
+    "ts": 57,
+    "text": "Citco acts as a true partner to its clients, dedicated to developing rich long term relationships"
+  },
+  {
+    "speaker": 1,
+    "ts": 64,
+    "text": "through gold standard services and industry leading technology. Head to citco.com for more information."
+  },
+  {
+    "speaker": 1,
+    "ts": 74,
+    "text": "Declan, thank you for joining me on today's AFI podcast."
+  },
+  {
+    "speaker": 1,
+    "ts": 77,
+    "text": "Thanks Will and thanks to yourself and AFI for hosting us. Certainly in the past we have discussed"
+  },
+  {
+    "speaker": 1,
+    "ts": 84,
+    "text": "introducing some people other than myself to our audience and I'm delighted today that we are joined"
+  },
+  {
+    "speaker": 1,
+    "ts": 90,
+    "text": "by Marty McCarthy who heads up our European hedge fund business and he certainly provides some of his"
+  },
+  {
+    "speaker": 1,
+    "ts": 96,
+    "text": "own insights into the hedge fund landscape and our discussion. So thank you very much."
+  },
+  {
+    "speaker": 1,
+    "ts": 101,
+    "text": "Great, thanks Declan and welcome Marty. We're going to kick off today by looking at what happened in"
+  },
+  {
+    "speaker": 1,
+    "ts": 107,
+    "text": "April. It was a big rebound by the hedge fund industry after losses in March. We're looking at"
+  },
+  {
+    "speaker": 1,
+    "ts": 113,
+    "text": "one of the strongest months this decade. So quite a positive story Declan, maybe you could start off"
+  },
+  {
+    "speaker": 1,
+    "ts": 122,
+    "text": "with the kind of top line numbers. Sure and as you say look April was quite a remarkable month"
+  },
+  {
+    "speaker": 1,
+    "ts": 130,
+    "text": "and I know we finished off last month talking about how hedge funds tend to be quite nimble in"
+  },
+  {
+    "speaker": 1,
+    "ts": 136,
+    "text": "volatile times and can reposition quickly following on from declines and really what we saw"
+  },
+  {
+    "speaker": 1,
+    "ts": 144,
+    "text": "in April is a validation of that. So the weighted average return across the asset that we service"
+  },
+  {
+    "speaker": 1,
+    "ts": 153,
+    "text": "with that's approximately 1.4 trillion of hedge fund assets and the weighted average return was"
+  },
+  {
+    "speaker": 1,
+    "ts": 159,
+    "text": "5.6% and yes I just said that's about one of the best monthly performances we've seen in"
+  },
+  {
+    "speaker": 1,
+    "ts": 165,
+    "text": "in a decade. So yeah look a sharp reversal from March's decline. March was a very poor month as we"
+  },
+  {
+    "speaker": 1,
+    "ts": 175,
+    "text": "touched on last month. The interesting thing very broad based so equity strategies led the way with"
+  },
+  {
+    "speaker": 1,
+    "ts": 182,
+    "text": "a weighted average return of around 7%. Global macro closed behind at 6%. Multi-strat came in at"
+  },
+  {
+    "speaker": 1,
+    "ts": 190,
+    "text": "4.7% and also strategies like fixed income arbitrage event driven came in positive as well so 1.9%,"
+  },
+  {
+    "speaker": 1,
+    "ts": 198,
+    "text": "1.3% respectively there. I think the notable feature was really the breadth across the board. So the"
+  },
+  {
+    "speaker": 1,
+    "ts": 204,
+    "text": "breadth of the recovery that certainly stood out. So 90% of funds posted positive returns"
+  },
+  {
+    "speaker": 1,
+    "ts": 212,
+    "text": "and also year to date we're back into positive territory which I think is quite positive and"
+  },
+  {
+    "speaker": 1,
+    "ts": 217,
+    "text": "reassuring for all stakeholders, managers, investors alike. So certainly first quarter"
+  },
+  {
+    "speaker": 1,
+    "ts": 224,
+    "text": "quite a bit of turbulence there. April is certainly a bit more stability after all that"
+  },
+  {
+    "speaker": 1,
+    "ts": 231,
+    "text": "volatility in the first quarter. Yeah and a bit of a familiar story when it comes to hedge funds"
+  },
+  {
+    "speaker": 1,
+    "ts": 238,
+    "text": "in terms of being among the first to capitalize on the comeback. It was very broad based across"
+  },
+  {
+    "speaker": 1,
+    "ts": 243,
+    "text": "different strategies. Obviously a big kind of tech fuelled upswing in equities but we also"
+  },
+  {
+    "speaker": 1,
+    "ts": 252,
+    "text": "had you know almost all other strategies gaining ground as you say and the multi-strats again"
+  },
+  {
+    "speaker": 1,
+    "ts": 260,
+    "text": "at the forefront to doing what they do best and it tees things up quite well for the rest of the"
+  },
+  {
+    "speaker": 1,
+    "ts": 266,
+    "text": "year I think. There are a couple of other interesting angles to it. The largest hedge funds really led"
+  },
+  {
+    "speaker": 1,
+    "ts": 272,
+    "text": "to performance recovery which was something of a reversal from the previous months."
+  },
+  {
+    "speaker": 1,
+    "ts": 279,
+    "text": "Yeah so look just read what you were saying. Look certainly I think the interesting aspect"
+  },
+  {
+    "speaker": 1,
+    "ts": 289,
+    "text": "of April was really that yeah just reinforced what everybody says about hedge funds, quick"
+  },
+  {
+    "speaker": 1,
+    "ts": 294,
+    "text": "readjustment, nimbleness, the asset class performing in Volatile and slightly more benign"
+  },
+  {
+    "speaker": 1,
+    "ts": 300,
+    "text": "time. So yeah to your point in respect of the largest funds leading the performance"
+  },
+  {
+    "speaker": 1,
+    "ts": 307,
+    "text": "recovery and the dispersion like that's quite interesting. So you know on the size point"
+  },
+  {
+    "speaker": 1,
+    "ts": 315,
+    "text": "in March the smaller funds held up better which is not always the case. In fact a considered"
+  },
+  {
+    "speaker": 1,
+    "ts": 321,
+    "text": "view is often that the larger guys do hold up better so I'm not really sure what the data"
+  },
+  {
+    "speaker": 1,
+    "ts": 327,
+    "text": "whether it really represents anything much but it was interesting that the smaller funds"
+  },
+  {
+    "speaker": 1,
+    "ts": 333,
+    "text": "did better in March but in April certainly there was a clear reversal of that with the larger guys"
+  },
+  {
+    "speaker": 1,
+    "ts": 339,
+    "text": "outperforming. So the way that we measure in terms of say size of funds we have a category"
+  },
+  {
+    "speaker": 1,
+    "ts": 348,
+    "text": "of greater than three billion in assets and certainly that category delivered"
+  },
+  {
+    "speaker": 1,
+    "ts": 354,
+    "text": "the wasted average return of 6.7% which was the strongest of any size category."
+  },
+  {
+    "speaker": 1,
+    "ts": 361,
+    "text": "You know why do you know what maybe the larger funds tended to have greater exposure to more"
+  },
+  {
+    "speaker": 1,
+    "ts": 366,
+    "text": "the liquid maybe more the tech. I don't really know it's quite nuanced really."
+  },
+  {
+    "speaker": 1,
+    "ts": 374,
+    "text": "And then in respect of look the dispersion I think is always interesting the spreads widened up to"
+  },
+  {
+    "speaker": 1,
+    "ts": 380,
+    "text": "11.2% from 10.2% the previous month so that's fairly notable. So it's not that"
+  },
+  {
+    "speaker": 1,
+    "ts": 388,
+    "text": "the worst performers were any worse it was just that the best managers actually pulled"
+  },
+  {
+    "speaker": 1,
+    "ts": 392,
+    "text": "significantly further ahead and I think that's you know that's quite healthy certainly in an"
+  },
+  {
+    "speaker": 1,
+    "ts": 399,
+    "text": "environment where people are looking at specific managers and stockpicking you know that type of"
+  },
+  {
+    "speaker": 1,
+    "ts": 405,
+    "text": "dispersion always is interesting and yeah there were some there were certainly some"
+  },
+  {
+    "speaker": 1,
+    "ts": 412,
+    "text": "outperformers there which is good. Yeah yeah and turning to flows now I was at an alternative"
+  },
+  {
+    "speaker": 1,
+    "ts": 419,
+    "text": "event on Monday where they were looking across hedge funds and private markets and there was"
+  },
+  {
+    "speaker": 1,
+    "ts": 426,
+    "text": "a lot of positivity around the hedge fund story. One allocator said he was seeing you know the most"
+  },
+  {
+    "speaker": 1,
+    "ts": 432,
+    "text": "positivity he'd seen in the past 15 years towards the space and you know judging by"
+  },
+  {
+    "speaker": 1,
+    "ts": 438,
+    "text": "Citco's data we've had more invested demand it remained robust in April so I'll turn to you Marty"
+  },
+  {
+    "speaker": 1,
+    "ts": 446,
+    "text": "what happened when it came to flows. Yeah thanks well look I think with market movements like this"
+  },
+  {
+    "speaker": 1,
+    "ts": 452,
+    "text": "we we always see you know increased investor activity but it's been really positive throughout"
+  },
+  {
+    "speaker": 1,
+    "ts": 459,
+    "text": "April actually on the back of that which is great you know our net inflows for the month"
+  },
+  {
+    "speaker": 1,
+    "ts": 464,
+    "text": "have committed nine billion which is about double marches figure and you know that includes"
+  },
+  {
+    "speaker": 1,
+    "ts": 472,
+    "text": "a gross inflow of about 16 billion which obviously is well ahead of the redemption figure which is"
+  },
+  {
+    "speaker": 1,
+    "ts": 478,
+    "text": "fantastic. I think that points also to you know strong investor sentiment and conviction"
+  },
+  {
+    "speaker": 1,
+    "ts": 485,
+    "text": "in the asset class which is driving you know I think a lot of the comments that you mentioned"
+  },
+  {
+    "speaker": 1,
+    "ts": 489,
+    "text": "they're driving that kind of narrative in the industry and you know we've seen a lot of that"
+  },
+  {
+    "speaker": 1,
+    "ts": 496,
+    "text": "movement and that activity in the multi-strat funds where about seven billion just over seven"
+  },
+  {
+    "speaker": 1,
+    "ts": 501,
+    "text": "billion of inflow in the period and that just points to the trend that we've seen with multi-strat"
+  },
+  {
+    "speaker": 1,
+    "ts": 508,
+    "text": "over the last couple of months you know investors are looking at diversification"
+  },
+  {
+    "speaker": 1,
+    "ts": 514,
+    "text": "after this management and how can they deploy their capital into asset classes that give that"
+  },
+  {
+    "speaker": 1,
+    "ts": 520,
+    "text": "return and give that flexibility so very very strong there but you know coupled with that"
+  },
+  {
+    "speaker": 1,
+    "ts": 526,
+    "text": "strong inflows also on the other strategies like while multi-strat is standout you know we still"
+  },
+  {
+    "speaker": 1,
+    "ts": 532,
+    "text": "seen positive inflows through equities over macro funder funds it's it's really all being"
+  },
+  {
+    "speaker": 1,
+    "ts": 539,
+    "text": "very strong particularly in the month of April. One thing to note I think is that on the larger"
+  },
+  {
+    "speaker": 1,
+    "ts": 545,
+    "text": "managers you know managers managing more than say 10 billion dollars in assets they've come"
+  },
+  {
+    "speaker": 1,
+    "ts": 552,
+    "text": "captured most of that inflow just under six billion and you know if we look at the regional aspect"
+  },
+  {
+    "speaker": 1,
+    "ts": 558,
+    "text": "of that Europe from a year-to-date perspective Europe is still the dominant region for inflows"
+  },
+  {
+    "speaker": 1,
+    "ts": 566,
+    "text": "it's currently running at about 24 billion for the year-to-date which is you know well ahead"
+  },
+  {
+    "speaker": 1,
+    "ts": 571,
+    "text": "right now at least of the Americas and Asia but just very strong sentiment in terms of strategies"
+  },
+  {
+    "speaker": 1,
+    "ts": 580,
+    "text": "and regions across the board and yeah certainly looking forward to the rest of the year it's"
+  },
+  {
+    "speaker": 1,
+    "ts": 586,
+    "text": "very very positive. Great thanks Marty you know it looks like managers are really focused now on"
+  },
+  {
+    "speaker": 1,
+    "ts": 592,
+    "text": "more sophisticated data integration strong strong support from administrators"
+  },
+  {
+    "speaker": 1,
+    "ts": 599,
+    "text": "you know all of that structured portfolio data they want faster access to it there's demand for"
+  },
+  {
+    "speaker": 1,
+    "ts": 606,
+    "text": "automation and moving beyond the kind of traditional and static approaches so it'd be"
+  },
+  {
+    "speaker": 1,
+    "ts": 612,
+    "text": "great to hear your take from the inside on on what's driving all of that. Yeah it's certainly"
+  },
+  {
+    "speaker": 1,
+    "ts": 618,
+    "text": "one of the key aspects that we are discussing with our managers right now you know in early"
+  },
+  {
+    "speaker": 1,
+    "ts": 625,
+    "text": "every conversation that we have is based on data the availability of data and how managers can use"
+  },
+  {
+    "speaker": 1,
+    "ts": 633,
+    "text": "that in a more efficient way I mean if we look I guess over the course of time and you know"
+  },
+  {
+    "speaker": 1,
+    "ts": 639,
+    "text": "what information we as administrators would have provided to managers typically your monthly nav"
+  },
+  {
+    "speaker": 1,
+    "ts": 645,
+    "text": "package maybe some reporting kind of interim month and so on but that has moved so much in"
+  },
+  {
+    "speaker": 1,
+    "ts": 652,
+    "text": "more recent times now to managers wanting you know structured data delivery wants to ingest"
+  },
+  {
+    "speaker": 1,
+    "ts": 659,
+    "text": "that data into their own systems and use this in kind of their own platforms and and it's really"
+  },
+  {
+    "speaker": 1,
+    "ts": 666,
+    "text": "focused on like the efficiency of delivery wanting the information in pretty much real time"
+  },
+  {
+    "speaker": 1,
+    "ts": 673,
+    "text": "and it's moved so far away from you know the static data reporting that's you know typically the"
+  },
+  {
+    "speaker": 1,
+    "ts": 678,
+    "text": "industry would have worked on in times gone by. The other interesting aspect is that and I think"
+  },
+  {
+    "speaker": 1,
+    "ts": 685,
+    "text": "this is where you know we play a pivotal role is that managers are looking for this data but at"
+  },
+  {
+    "speaker": 1,
+    "ts": 692,
+    "text": "the same time want to be able to process that without having to overhaul their own in-house"
+  },
+  {
+    "speaker": 1,
+    "ts": 699,
+    "text": "infrastructure so it's critically important for us to be able to facilitate that delivery to managers"
+  },
+  {
+    "speaker": 1,
+    "ts": 707,
+    "text": "and to managers of all sizes as well right so we're seeing the conversation with the larger"
+  },
+  {
+    "speaker": 1,
+    "ts": 712,
+    "text": "managers but also with the smaller guys as well and I think it just points to that operational"
+  },
+  {
+    "speaker": 1,
+    "ts": 720,
+    "text": "efficiencies that come particularly around like you know there's a huge shift in terms of operational"
+  },
+  {
+    "speaker": 1,
+    "ts": 725,
+    "text": "complexity which to some degree I think we've facilitated in the last couple of years in particular"
+  },
+  {
+    "speaker": 1,
+    "ts": 730,
+    "text": "to you know increase outsourcing and now that has moved on to kind of the availability of data"
+  },
+  {
+    "speaker": 1,
+    "ts": 737,
+    "text": "and how we can service our clients in that respect so yeah I think it puts us in a strong position"
+  },
+  {
+    "speaker": 1,
+    "ts": 742,
+    "text": "that that we're able to avoid those structures now and provide data platforms to facilitate"
+  },
+  {
+    "speaker": 1,
+    "ts": 751,
+    "text": "kind of the manager decision-making operational considerations and ultimately facilitating their"
+  },
+  {
+    "speaker": 1,
+    "ts": 757,
+    "text": "own inherent growth as they extend across different strategies and different markets"
+  },
+  {
+    "speaker": 1,
+    "ts": 762,
+    "text": "so yeah it's all data right now. Data, data, data. Yeah and Steve, what's your take?"
+  },
+  {
+    "speaker": 1,
+    "ts": 771,
+    "text": "Yeah look the only thing that I would add to what Marty said was that look all of the conversations"
+  },
+  {
+    "speaker": 1,
+    "ts": 778,
+    "text": "we're having clients at the moment are revolving around middle office solutions, transformation"
+  },
+  {
+    "speaker": 1,
+    "ts": 785,
+    "text": "initiatives we've spoken in the past in respect of us setting up a transformation office but very"
+  },
+  {
+    "speaker": 1,
+    "ts": 791,
+    "text": "specifically data plays with artificial intelligence now really beginning to power and impact the data"
+  },
+  {
+    "speaker": 1,
+    "ts": 799,
+    "text": "solutions being offered and data solutions available and really it's all about finally"
+  },
+  {
+    "speaker": 1,
+    "ts": 808,
+    "text": "easier access to data and certainly a lot of the traditional reporting everybody's looking at us"
+  },
+  {
+    "speaker": 1,
+    "ts": 815,
+    "text": "and it's either being replaced or being supercharged really with data solutions"
+  },
+  {
+    "speaker": 1,
+    "ts": 822,
+    "text": "laid there and yeah look these are conversations that we're having with our strategic clients the"
+  },
+  {
+    "speaker": 1,
+    "ts": 827,
+    "text": "whole time. I do think maybe we've spoken about a mixing up some of what we do speak about with"
+  },
+  {
+    "speaker": 1,
+    "ts": 837,
+    "text": "some other topics I think actually having a specific conversation and respect of"
+  },
+  {
+    "speaker": 1,
+    "ts": 841,
+    "text": "data and how AI is is really sort of supercharging this area is probably something worthwhile for"
+  },
+  {
+    "speaker": 1,
+    "ts": 847,
+    "text": "the future too Will. Yeah absolutely and AI is such a priority at the moment for the hedge fund"
+  },
+  {
+    "speaker": 1,
+    "ts": 854,
+    "text": "industry a lot of it driven by the multi-straps as well and that's middle office and also"
+  },
+  {
+    "speaker": 1,
+    "ts": 860,
+    "text": "increasingly in the research front of this area as well and expanding what they're able to do"
+  },
+  {
+    "speaker": 1,
+    "ts": 866,
+    "text": "so that would be great. Well I will leave it there for today Declan thank you as ever and Marty"
+  },
+  {
+    "speaker": 1,
+    "ts": 871,
+    "text": "great to have you on today. Thank you very much Will appreciate that thank you."
+  },
+  {
+    "speaker": 1,
+    "ts": 878,
+    "text": "Thank you to Declan and Martin and we will see you soon on the AFI podcast."
+  }
+]
