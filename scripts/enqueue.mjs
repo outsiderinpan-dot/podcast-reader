@@ -11,7 +11,7 @@
 //   每个节目在 shows.json 里带 source 字段：
 //     source="iheart"   → 走 iHeart 两步 API（列表 + 详情），拿 transcription.transcriptionLocation 字幕直链
 //     source="rss"      → 拉 RSS，优先用 <podcast:transcript> 标签里的字幕直链（Podcasting 2.0）
-//     source="official" → 跳过（article 类节目，如 lex-fridman，由 QoderWork 手动补录）
+//     source="official" → 跳过（article 类节目，由 QoderWork 手动补录）
 //   任一来源拿不到「带时间轴的官方字幕」时，统一兜底到 Whisper：
 //     下载音频（iHeart mediaUrl / RSS enclosure）→ whisper CLI 转写 → 解析 SRT → 入队
 //   Whisper 有预算上限（WHISPER_MAX_PER_RUN），避免首次回填 20 个节目把 6 小时 Actions 跑爆。
