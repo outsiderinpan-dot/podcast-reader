@@ -1,0 +1,903 @@
+{
+  "show": "behind-the-ticker",
+  "kind": "transcript",
+  "id": "behind-the-ticker-761630b8",
+  "guid": "Buzzsprout-19984148",
+  "slug": "2026-10-25-private-credit-exposure-without-the-lockups-761630b8",
+  "date": "2026-10-25",
+  "title_en": "Private Credit Exposure Without the Lockups | Mike O'Brien, Hilton Capital",
+  "title_zh": "不用锁定期也能拿到私募信贷敞口 | Mike O'Brien，Hilton Capital",
+  "subtitle_zh": "首只纯 BDC 债券 ETF HBDC 的指数设计、结构性保护与流动性解析。",
+  "description": "Private Credit Exposure Without the Lockups | Mike O'Brien, Hilton Capital",
+  "duration": "22:26",
+  "duration_seconds": 1346,
+  "episode_url": null,
+  "audio_url": "https://www.buzzsprout.com/2162961/episodes/19984148-private-credit-exposure-without-the-lockups-mike-o-brien-hilton-capital.mp3",
+  "speakers": {
+    "1": "Brad Roth（主持）",
+    "2": "Mike O'Brien（嘉宾）"
+  },
+  "turn_count": 110,
+  "turns": [
+    {
+      "i": 0,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "00:00",
+      "en": "Welcome to Behind the Ticker, the podcast where we go beyond the symbol and into the strategy. I'm Brad Roth, founder and chief investment officer at Thor Funds, and in each episode, I sit down with ETF managers, CIOs, and industry leaders to break down how these funds are actually built, how they behave in real markets, and how advisors use them in real portfolios.",
+      "zh": "欢迎收听 Behind the Ticker，这档播客带我们越过代码本身、走进策略深处。我是 Brad Roth，Thor Funds 的创始人兼首席投资官（CIO）。每一期节目，我都会和 ETF 基金经理、CIO 以及行业领袖坐下来聊一聊：这些基金究竟是怎么搭建起来的、在真实市场里表现如何，以及理财顾问在真实组合中是怎么用它们的。"
+    },
+    {
+      "i": 1,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "00:29",
+      "en": "Most people just see a ticker symbol, but we know much more goes on behind the ticker. Hey, Mike. Welcome to the show. Thanks, Brad. Thanks for having me.",
+      "zh": "大多数人看到的只是一个交易代码，但我们知道，代码背后（behind the ticker）的故事要多得多。嗨，Mike，欢迎来到节目。谢谢你，Brad，感谢邀请我来。"
+    },
+    {
+      "i": 2,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "00:44",
+      "en": "So, why don't you take some time, give everybody a bit about your background? I saw you went to Boston College for Economics and Finance, you were at FTI Consulting for a little bit.",
+      "zh": "那不如你先花点时间，跟大家介绍一下自己的背景？我看到你本科在 Boston College 读经济学和金融学，之后在 FTI Consulting 待过一段时间。"
+    },
+    {
+      "i": 3,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "00:52",
+      "en": "I've got a couple buddies that are actually still there, and you joined Hilton Capital in 2024. We're now a co-portfolio manager on HBDC. Can you just walk us through your career path and how it all unfolded?",
+      "zh": "我还有几个哥们儿现在依然在那儿。你在2024年加入 Hilton Capital，现在是 HBDC 的联席组合经理（co-portfolio manager）。能不能给我们讲讲你的职业路径，这一路是怎么走过来的？"
+    },
+    {
+      "i": 4,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "01:05",
+      "en": "Yeah, absolutely. Yeah. So, I've been in the business now since 2018. So like you mentioned, I graduated Boston College, Econ, and Finance degrees.",
+      "zh": "好的，没问题。我从2018年就入行了。就像你说的，我毕业于 Boston College，拿的是经济学和金融学学位。"
+    },
+    {
+      "i": 5,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "01:14",
+      "en": "Started my career at FTI in restructuring. So it was a consulting job, but it was a little bit more niche in the sense that it was looking at companies that were going through the Chapter 11 restructuring process.",
+      "zh": "我的职业生涯是从 FTI 的重组（restructuring）业务起步的。那是份咨询工作，但更细分一些——我们研究的是那些正在走 Chapter 11（美国破产法第11章）重组程序的公司。"
+    },
+    {
+      "i": 6,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "01:24",
+      "en": "So they were going through some sort of significant distress event for them. So we would come in there, primarily on the debtor side, work out the cash flow, liquidity analysis that was needed to get this business, to get Chapter 11 protection and work out some sort of deal with their creditors.",
+      "zh": "也就是说，这些公司正经历某种严重的困境事件。我们会介入，主要站在债务人一方，做出这家企业申请 Chapter 11 保护、并与债权人谈成某种协议所需要的现金流和流动性分析。"
+    },
+    {
+      "i": 7,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "01:39",
+      "en": "So I did that for two years, really got in the weeds on detailed modeling and so forth. And I loved it. It was a great experience. But what I realized there was, hey, you know what, I love the strategy component, not so much the deep implementation.",
+      "zh": "这份工作我做了两年，在细致建模等等上面下足了功夫。我很喜欢，那是一段很棒的经历。但我在那里意识到一件事：嘿，说实话，我热爱的是策略部分，对深层的执行落地没那么着迷。"
+    },
+    {
+      "i": 8,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "01:54",
+      "en": "And investing is much more focused on strategy and higher level thinking and less on, let's go down to an accounting ledger and look at APAR analysis really, really deeply.",
+      "zh": "而投资更聚焦于策略和更高层次的思考，而不是那种『我们钻进会计账簿里，把应付账款和应收账款（AP/AR）分析做到极深』的活儿。"
+    },
+    {
+      "i": 9,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "02:05",
+      "en": "So after two years of doing restructuring, I said, you know what, I want to go on the investing side of finance instead of the restructuring side.",
+      "zh": "所以做了两年重组之后，我就想：算了，我要去金融行业的投资这一侧，而不是重组这一侧。"
+    },
+    {
+      "i": 10,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "02:14",
+      "en": "So that actually led me to become a sell side equity analyst, which is kind of ironic because now we're running a bond fund. But I was an equity analyst at a company called Wolf Research, which is, I believe, the fifth or sixth largest sell side equity research shop in the US.",
+      "zh": "于是我成了卖方股票分析师——这有点讽刺，因为现在我们在管一只债券基金。我当时在 Wolfe Research 做股票分析师，我记得它是美国第五或第六大的卖方股票研究机构。"
+    },
+    {
+      "i": 11,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "02:30",
+      "en": "So I worked under an institutional investor ranked analyst called Chris Sennick. He ran the macro and accounting and special sits product over at Wolf.",
+      "zh": "我在一位登上《Institutional Investor》榜单的分析师 Chris Senyek 手下工作。他在 Wolfe 负责宏观、会计与特殊情境（special situations）这条产品线。"
+    },
+    {
+      "i": 12,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "02:41",
+      "en": "But there I was his VP. So I was working primarily on the special sit side, special situation side of his book. So looking at niche spin offs, restructurings, asset sales, stuff that was kind of under looked by the market and under followed and so forth.",
+      "zh": "我在他那里担任副总裁（VP），主要负责他业务里特殊情境这一块。也就是研究那些比较细分的分拆上市（spin-off）、重组、资产出售——那些被市场忽视、跟踪覆盖很少的东西。"
+    },
+    {
+      "i": 13,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "02:56",
+      "en": "So we would do the detailed modeling and so forth, put a valuation target on that and publish research to our clients, which were primarily long only asset managers and hedge funds.",
+      "zh": "我们会做细致的建模等等，给出一个估值目标，然后向客户发布研究报告——我们的客户主要是只做多（long-only）的资产管理公司和对冲基金。"
+    },
+    {
+      "i": 14,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "03:06",
+      "en": "And I did that for about three and a half years, really got in the weeds on, you know, looking at valuations, looking at cash flow analysis and so forth and loved it there.",
+      "zh": "这份工作我干了大约三年半，在估值、现金流分析等方面钻得很深，我也很喜欢在那里。"
+    },
+    {
+      "i": 15,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "03:16",
+      "en": "But as I got into my late 20s, now in my 30s, I said, you know what, now's the time to really put your money where your mouth is and let's take a crack on the buy side.",
+      "zh": "但到了快30岁、如今30多岁的时候，我就想：是时候言行一致、真金白银地去试一试了，那就到买方闯一闯吧。"
+    },
+    {
+      "i": 16,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "03:26",
+      "en": "So that's when I joined Hilton Capital Management in 2024. And we are now about a $4 billion asset manager. When I joined, it was about $2 billion.",
+      "zh": "于是我在2024年加入了 Hilton Capital Management。我们现在管理规模大约40亿美元；我刚加入的时候大概是20亿美元。"
+    },
+    {
+      "i": 17,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "03:38",
+      "en": "So we've really grown pretty substantially over the last two and a half years here. And originally, we had three products. It was a multi-asset tactical income strategy, which I'll get into a little bit, and that's actually how HPDC became where it is now, a long only equity dividend and yield strategy, and then a small cap strategy as well.",
+      "zh": "所以过去两年半我们的增长相当可观。最初我们有三条产品线：一条是多资产战术收益（multi-asset tactical income）策略——我待会儿会展开讲，HBDC 其实就是从它演化来的；一条是只做多的股票股息与收益（dividend and yield）策略；还有一条小盘股策略。"
+    },
+    {
+      "i": 18,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "04:00",
+      "en": "So we run those three strategies. I personally run with our CIO, Alex Oxingham, the tactical income strategy, the dividend and yield strategy, and then now HPDC as well.",
+      "zh": "我们运营这三条策略。我个人和我们的 CIO Alex Oxenham 一起管理战术收益策略、股息与收益策略，现在还有 HBDC。"
+    },
+    {
+      "i": 19,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "04:10",
+      "en": "We launched last year in June of 2025 a new passive ETF called HPDC, the Hilton Capital BDC Bond Fund, which is a little ironic because we're an active manager launching a passive ETF.",
+      "zh": "去年，也就是2025年6月，我们发行了一只新的被动型 ETF，叫 HBDC，即 Hilton Capital BDC Bond Fund。这有点讽刺，因为我们是一家主动管理机构，却在发行被动 ETF。"
+    },
+    {
+      "i": 20,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "04:25",
+      "en": "But there was a lot of thought process going into the index, and it being the first and only pure play BDC bond ETF out there, we just wanted to offer a solution to get investors to have a nice liquid alternative to get access in that space.",
+      "zh": "但我们在指数设计上投入了大量思考。作为市场上第一只、也是唯一一只纯粹聚焦 BDC 债券的 ETF，我们只是想提供一个解决方案，让投资者有一个流动性好的替代工具来进入这个领域。"
+    },
+    {
+      "i": 21,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "04:41",
+      "en": "So happy to go kind of how that came in to be. But yeah, now we're at Hilton about $4 billion with four strategies now. Yeah. I mean, we're going to go pretty deep on HPDC here in a second.",
+      "zh": "我很乐意讲讲它是怎么诞生的。总之，现在 Hilton 的规模大约40亿美元，有四条策略线。好，我们一会儿会深入聊聊 HBDC。"
+    },
+    {
+      "i": 22,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "04:53",
+      "en": "Before we do that, though, I always like to ask people, when you're not working, what do you like to do? Any hobbies outside of work? Yeah. So I do like to play golf quite a bit, which here at Hilton is kind of our flagship hobby.",
+      "zh": "不过在那之前，我总爱问一句：不工作的时候你喜欢做什么？工作之外有什么爱好吗？嗯，我确实挺爱打高尔夫的，这在 Hilton 算是我们的『招牌爱好』。"
+    },
+    {
+      "i": 23,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "05:07",
+      "en": "I also recently bought a house about a year and a half ago. So I'm really into home renovation and DIY projects these days. Yeah. Well, I have gone through the DIY phase of my life.",
+      "zh": "我还是一年半前刚买了房，所以最近特别迷房屋改造和 DIY 项目。是啊，我这辈子的 DIY 阶段已经过去了。"
+    },
+    {
+      "i": 24,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "05:19",
+      "en": "Just make sure you're outsourcing the stuff that will get you hurt. Yeah, exactly. So let's get into HPDC. So it's the Hilton BDC corporate bond ETF.",
+      "zh": "只要确保那些会让你受伤的活儿都外包出去就行。对，没错。那我们进入 HBDC 吧。它是 Hilton BDC Corporate Bond ETF。"
+    },
+    {
+      "i": 25,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "05:30",
+      "en": "Like you said, you launched it in June of 2025 at a high level. What is this fund and what's the problem that it's solving? Yeah, so like I mentioned, it's the first and only pure play BDC bond ETF out there.",
+      "zh": "就像你说的，你们在2025年6月发行了它。从大处讲，这只基金是什么？它解决的是什么问题？嗯，就像我提到的，它是市场上第一只、也是唯一一只纯粹的 BDC 债券 ETF。"
+    },
+    {
+      "i": 26,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "05:42",
+      "en": "So BDCs just take a step back. It stands for Business Development Companies. They've been around for quite a while. They've actually been around since 1980 as an amendment to the Investment Company Act of 1940.",
+      "zh": "先退一步说 BDC——它的全称是商业发展公司（Business Development Company）。这类机构已经存在很长时间了，实际上从1980年起就有了，是作为《1940年投资公司法》（Investment Company Act of 1940）的一项修正案设立的。"
+    },
+    {
+      "i": 27,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "05:53",
+      "en": "And what their purpose was and still is, is to lend to medium and small businesses, primarily in the US. So think of them like banks without actually the deposits.",
+      "zh": "它们当初的、也是至今不变的宗旨，就是向中小企业放贷，主要是在美国。所以你可以把它们理解成没有存款业务的银行。"
+    },
+    {
+      "i": 28,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "06:03",
+      "en": "So how they get their capital to lend out is primarily three ways. They issue bonds to the public market, they issue equity, and they also sometimes have a direct line of credit as well.",
+      "zh": "它们获得可放贷资金的途径主要有三种：在公开市场发行债券、发行股票，有时还会有直接的授信额度（line of credit）。"
+    },
+    {
+      "i": 29,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "06:13",
+      "en": "And then they lend these loans out to small and medium-sized companies, primarily floating rate loans, which is now their asset side. And they make money off the spread of what they borrow on and what they can lend on.",
+      "zh": "然后它们把这些钱以贷款形式放给中小型企业，主要是浮动利率贷款——这就是它们的资产端。它们赚的是借款成本与放贷利率之间的利差（spread）。"
+    },
+    {
+      "i": 30,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "06:24",
+      "en": "They were always kind of a small part of the market historically. But after the great financial crisis of 1809 and banking regulation really stepped up quite a bit.",
+      "zh": "从历史上看，它们一直只是市场中很小的一部分。但在2008年全球金融危机（great financial crisis）之后，银行业监管明显大幅收紧。"
+    },
+    {
+      "i": 31,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "06:34",
+      "en": "BDCs filled a lot of the void that was left after the crisis in 2009. So BDC assets have grown pretty substantially over the last 15 or so years.",
+      "zh": "BDC 填补了2009年危机之后留下的许多空白。所以过去大约15年里，BDC 的资产规模增长得相当可观。"
+    },
+    {
+      "i": 32,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "06:44",
+      "en": "And many folks know BDCs on the equity side. BizD, for example, is a very large ETF that tracks BDC equity. But there was nothing out there that tracked the BDC bonds themselves.",
+      "zh": "很多人是从股票这一侧认识 BDC 的。比如 BIZD 就是一只规模很大、跟踪 BDC 股票的 ETF。但市场上没有任何产品在跟踪 BDC 债券本身。"
+    },
+    {
+      "i": 33,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "06:55",
+      "en": "So these are bonds that are directly issued by the BDCs themselves that are used to finance the loans that they make in these small and medium-sized companies.",
+      "zh": "这些债券是由 BDC 自己直接发行的，用来为它们向中小企业发放的贷款融资。"
+    },
+    {
+      "i": 34,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "07:05",
+      "en": "What kind of attracted us to the space is, like I mentioned at Hilton, we've been running our tactical income strategy, which is about two and a half billion of assets for over 25 years now, and have owned several of these bonds in the past.",
+      "zh": "吸引我们进入这个领域的地方在于——就像我提到的，Hilton 运营战术收益策略已经超过25年，规模约25亿美元，过去也持有过好几种这类债券。"
+    },
+    {
+      "i": 35,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "07:17",
+      "en": "They're pretty short duration bonds, typically three to five years duration, and they have pretty juicy spreads on them. They're typically about 200 to 300 basis points over like-duration treasuries, 100 to 200 basis points over like-duration IG corporates.",
+      "zh": "它们是久期相当短的债券，通常久期在3到5年，而且利差很诱人：通常比同期限美国国债高出约200到300个基点（bps），比同期限投资级（IG）公司债高出100到200个基点。"
+    },
+    {
+      "i": 36,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "07:34",
+      "en": "And these bonds are overwhelmingly investment grade. So we've owned them for quite a while, and running the strategies, we said, hey, you know what?",
+      "zh": "而且这些债券绝大多数是投资级的。我们持有它们已经很长时间了，在管理这些策略的过程中，我们就想：嘿，你知道吗？"
+    },
+    {
+      "i": 37,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "07:41",
+      "en": "There's no ETF that actually tracks these bonds out there. And a lot of advisors and clients that we were talking to, yeah, they would own the big bonds like the Aries and the Golubs out there.",
+      "zh": "市场上根本没有一只 ETF 在跟踪这些债券。而我们交流的很多顾问和客户，他们确实会持有那些大型发行人的债券，比如 Ares、Golub 这些。"
+    },
+    {
+      "i": 38,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "07:49",
+      "en": "But some of the smaller ones out there, they would have no exposure to them. So we said, hey, you know what? Let's wrap this up in an ETF. Let's make a really detail oriented index.",
+      "zh": "但对于一些规模较小的发行人，他们则完全没有敞口。所以我们就说：嘿，干脆把它打包成一只 ETF 吧，做一个非常注重细节的指数。"
+    },
+    {
+      "i": 39,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "07:58",
+      "en": "There was no index out there, and then let's track it and launch this ETF. So now HBDC is the first and only pure play bond BDC and ETF out there.",
+      "zh": "当时市场上并没有这样的指数，那我们就来跟踪它，并发行这只 ETF。所以现在 HBDC 是市场上第一只、也是唯一一只纯粹的 BDC 债券 ETF。"
+    },
+    {
+      "i": 40,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "08:09",
+      "en": "And when we constructed the index, we partnered with a German company called Selective. They're pretty large. They do a lot of indexes out there.",
+      "zh": "在构建指数时，我们与一家叫 Solactive 的德国公司合作。他们规模相当大，做了很多指数。"
+    },
+    {
+      "i": 41,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "08:16",
+      "en": "And given that most of these BDC bonds are overwhelmingly the very large guys, as you can imagine, like the Aries, the Blue Owls of the world out there, we didn't want it to be overly concentrated in those BDCs themselves.",
+      "zh": "考虑到这些 BDC 债券绝大部分来自那些超大型机构——你可以想象，比如 Ares、Blue Owl 这一类——我们并不希望指数过度集中在这些 BDC 本身。"
+    },
+    {
+      "i": 42,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "08:28",
+      "en": "So we actually capped the top two largest issuers at 10%, and then the second largest issuers at eight, and then the following two at seven, and then everybody else is capped at five.",
+      "zh": "所以我们实际上把最大的两家发行人的权重上限设为10%，接下来两家设为8%，再往下两家设为7%，其余所有发行人的上限都是5%。"
+    },
+    {
+      "i": 43,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "08:38",
+      "en": "So the index itself and the ETF by and large actually overweights the smaller BDCs by design to get you a little extra spread in the index. So currently right now, HBDC, it pays about a yield to maturity of about 6.7%.",
+      "zh": "所以这个指数、以及这只 ETF，在设计上其实是刻意超配规模较小的 BDC，好让指数多赚一点利差。目前 HBDC 的到期收益率（yield to maturity）大约在6.7%。"
+    },
+    {
+      "i": 44,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "08:55",
+      "en": "It's almost 95% investment grade bonds. And the spread on that is about, I think, 175 basis points over like duration treasuries. So it's pretty attractive yield and spread, especially for an overwhelmingly investment grade portfolio.",
+      "zh": "其中接近95%是投资级债券，利差我记得大约是比同期限国债高175个基点。所以这个收益率和利差都相当有吸引力，尤其对一个以投资级为主的组合来说。"
+    },
+    {
+      "i": 45,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "09:10",
+      "en": "So we've been seeing in the news a lot about private credit. It's been one of the biggest stories in finance over the last few years. How does owning BDC bonds, given investors, never heard of a BDC bond, like access in a way to that market?",
+      "zh": "我们最近在新闻里看到很多关于私募信贷（private credit）的报道，它是过去几年金融界最大的话题之一。考虑到很多投资者从没听说过 BDC 债券，那么持有 BDC 债券在某种意义上是怎么帮他们接入那个市场的？"
+    },
+    {
+      "i": 46,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "09:26",
+      "en": "Yeah. So I like to say it's tangentant to the private credit market. This ETF does not own the direct loans that these BDCs are making to these small and medium sized companies.",
+      "zh": "嗯，我喜欢说它与私募信贷市场是『相切』的关系。这只 ETF 并不持有这些 BDC 向中小企业发放的直接贷款（direct loans）。"
+    },
+    {
+      "i": 47,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "09:39",
+      "en": "It's the bonds that they're issuing to get the capital so they can then lend out to these small and medium sized companies. But that actually has some structural protections in place and why we like these bonds.",
+      "zh": "它持有的是 BDC 为获取资金而发行的债券，这些资金随后被放贷给中小企业。而这实际上带来了一些结构性保护，也正是我们喜欢这些债券的原因。"
+    },
+    {
+      "i": 48,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "09:50",
+      "en": "So BDCs, by law, actually can only leverage up their balance sheets a max two to one. So what that means is for every $2 of debt, they have to have a dollar of equity cushion below it.",
+      "zh": "按法律规定，BDC 的资产负债表杠杆最高只能到2比1。这意味着每2美元的债务下面，都必须有1美元的股权作为缓冲垫。"
+    },
+    {
+      "i": 49,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "10:01",
+      "en": "That's in comparison to banks that are levered at eight to one or even larger than that. So when you buy a bank bond, you're essentially buying a balance sheet that's levered eight to one, and no one really bats an eye on some of these large cap banks.",
+      "zh": "相比之下，银行的杠杆是8比1，甚至更高。所以你买银行债券时，本质上买的是一个杠杆8比1的资产负债表，而对那些大型银行来说，根本没人会为此眨一下眼。"
+    },
+    {
+      "i": 50,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "10:14",
+      "en": "So there's substantially more equity cushion on these BDCs, and most BDCs, including the large ones, like I mentioned, Aries and so forth, run their balance sheets significantly more conservatively than their max statutory leverage ratios.",
+      "zh": "所以这些 BDC 的股权缓冲要厚得多。而且大多数 BDC，包括像我提到的 Ares 这样的大型机构，其资产负债表的运作都远比法定最高杠杆率保守。"
+    },
+    {
+      "i": 51,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "10:27",
+      "en": "Most of them are one to one or even less than one to one. So there's a lot of cushion in place. So just to kind of conceptualize that, if you run your balance sheet at a max two to one ratio, you would need a 50% drawdown on the nav before the bonds would start to be impaired, which is a pretty substantial credit event and has actually never happened throughout the history of BDCs existing.",
+      "zh": "大多数是1比1，甚至低于1比1，所以缓冲垫很厚。为了形象地理解一下：如果你的资产负债表按最高的2比1杠杆运作，那么净值（NAV）要回撤50%，这些债券才会开始出现减值——那是一次相当严重的信用事件，而且在 BDC 存在的整个历史上从未发生过。"
+    },
+    {
+      "i": 52,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "10:50",
+      "en": "And going back all the way to 1980, there has never been a BDC bond impairment. So there's been many credit cycles since 1980, and these bonds have held up quite well.",
+      "zh": "一路回溯到1980年，从来没有出现过 BDC 债券减值。自1980年以来经历了很多轮信用周期，这些债券的表现都相当稳健。"
+    },
+    {
+      "i": 53,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "11:01",
+      "en": "So you talked a little bit about the index design in partnership with selectives. Can you walk us through the rules a little bit deeper? So you've got investment grade, fixed rate, senior, unsecured, and then there's a 250 million minimum issue size.",
+      "zh": "你刚才稍微谈到了与 Solactive 合作的指数设计。能不能再深入讲讲规则？你们要求投资级、固定利率、高级无担保（senior unsecured），另外还有2.5亿美元的最低发行规模。"
+    },
+    {
+      "i": 54,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "11:13",
+      "en": "Why those screens? Just talk us through the construction again. Yeah, absolutely. Just to clarify, so there actually is no investment grade mandate.",
+      "zh": "为什么要设这些筛选条件？再给我们讲讲构建逻辑吧。好的，没问题。先澄清一点：其实并没有投资级的强制要求。"
+    },
+    {
+      "i": 55,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "11:21",
+      "en": "So these bonds can go to junk bonds and we would still own them. Just over the space overwhelmingly right now is investment grade. And the reason why we did that is because if we went through a credit event, I would suspect that some of these bonds would be downgraded.",
+      "zh": "也就是说，这些债券即使被降到垃圾级（junk），我们依然会持有。只不过目前这个领域绝大多数是投资级。我们这么做的原因是：如果真的经历一次信用事件，我估计其中一些债券会被下调评级。"
+    },
+    {
+      "i": 56,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "11:35",
+      "en": "But due to the structural protections that we talked about, we wouldn't want to not own these in the index. And we wanted to give investors a broad space of the BDC bonds themselves.",
+      "zh": "但由于我们谈到的那些结构性保护，我们并不希望因此就不在指数中持有它们。我们想给投资者一个覆盖面足够广的 BDC 债券敞口。"
+    },
+    {
+      "i": 57,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "11:45",
+      "en": "So we didn't want to just isolate it to just investment grade. So right now it's 95 plus percent investment grade, but it could go down a little bit if there ever is a significant credit event.",
+      "zh": "所以我们不想把范围仅仅限定在投资级。现在是95%以上为投资级，但如果真出现重大信用事件，这个比例可能会略微下降。"
+    },
+    {
+      "i": 58,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "11:55",
+      "en": "But of the index criteria that we designed, like I mentioned, we have those structural percentage caps on there to provide diversification benefits.",
+      "zh": "在我们设计的指数标准中，就像我提到的，我们设置了那些结构性的权重上限，以带来分散化的好处。"
+    },
+    {
+      "i": 59,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "12:04",
+      "en": "The minimum issuance size of 250 million was in place mostly because we didn't really want to have any sort of illiquidity events that could really impair some of our investors.",
+      "zh": "设置2.5亿美元的最低发行规模，主要是因为我不希望出现任何可能真正损害投资者的流动性不足事件。"
+    },
+    {
+      "i": 60,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "12:15",
+      "en": "When bond issuance are small than 250 million issuance sizes, it typically gets hard to buy them. And given that we're rebalancing this index quarterly, we're obviously turning over the index four times a year.",
+      "zh": "当债券发行规模小于2.5亿美元时，通常就很难买到。而这个指数我们是按季度再平衡的，也就是说一年要换手四次。"
+    },
+    {
+      "i": 61,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "12:27",
+      "en": "And sometimes, like we did see earlier in this year, there could be some illiquid pockets in the market. But that is overwhelmingly in the smaller issuances.",
+      "zh": "有时候——就像今年早些时候我们确实看到的——市场里会出现一些流动性很差的角落，但那绝大多数都集中在较小的发行规模上。"
+    },
+    {
+      "i": 62,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "12:36",
+      "en": "So we put that cap limit of 250 and over to protect investors from that. And we did a liquidity stress test when we were putting the ETF together with the regulators.",
+      "zh": "所以我们设了2.5亿美元及以上这道门槛，来保护投资者不受此影响。在跟监管机构一起搭建这只 ETF 时，我们还做了一次流动性压力测试。"
+    },
+    {
+      "i": 63,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "12:48",
+      "en": "And to buy the least liquid bond in the portfolio, you would need about a daily inflow-outflow of about 400 million. So that's a pretty substantial inflow-outflow of the ETF, which we don't even have those assets in the ETF at the moment, hopefully we will soon.",
+      "zh": "结果显示，要买下组合中流动性最差的那只债券，需要单日约4亿美元的净流入或净流出。对这只 ETF 来说是相当大的资金进出量——目前我们 ETF 的规模都还没到这个量级，希望很快会达到。"
+    },
+    {
+      "i": 64,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "13:04",
+      "en": "But that's meaning that it's pretty liquid and we're pretty happy with the construction of it. So I've talked to a lot of advisors over the last 10 years.",
+      "zh": "但这也说明它的流动性相当好，我们对它的结构设计很满意。过去10年里，我跟很多理财顾问聊过。"
+    },
+    {
+      "i": 65,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "13:16",
+      "en": "I've never heard someone talk to me about BDC bond exposure. So let's bring this back to very simple terms. Where do BDC bonds sit on the yield and risk spectrum compared to what they're more traditionally used to hold like investment-grade corporates or high yields or the ag?",
+      "zh": "却从没有人跟我提过 BDC 债券敞口。所以我们把它拉回到最朴素的层面：与他们传统上更习惯持有的品种——比如投资级公司债、高收益债（high yield）或者 AGG——相比，BDC 债券在收益与风险的谱系上处在什么位置？"
+    },
+    {
+      "i": 66,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "13:34",
+      "en": "Yeah. Yeah. So if you look at a cap structure of a BDC or really any company, because a BDC is just a company at the end of the day, you have equity, which is right at the bottom of the Tron structure.",
+      "zh": "嗯，如果你看一家 BDC——其实是任何一家公司，因为说到底 BDC 就是一家公司——的资本结构（capital structure），最底层是股权。"
+    },
+    {
+      "i": 67,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "13:46",
+      "en": "So those guys that if when you're owning BISD and ARCC equity, yes, they have very large dividends, but you're at the very bottom of the capital structure, meaning if there's ever sort of an impairment to NAV and so forth, you're the first ones that are taking the losses.",
+      "zh": "所以当你持有 BIZD 和 ARCC 的股票时，是的，它们的分红很高，但你处在资本结构的最底层——也就是说，一旦净值（NAV）出现减值之类的问题，你是第一批承担损失的人。"
+    },
+    {
+      "i": 68,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "13:59",
+      "en": "Then on top of the equity, you sometimes have preferred equity or convertible preferreds as well. Those typically, if you have a significant event, obviously like a Chapter 11 type of process, those would get wiped out as well.",
+      "zh": "在股权之上，有时还有优先股（preferred equity）或可转换优先股。如果遇到重大事件，比如明显是 Chapter 11 那种程序，这些通常也会被清零。"
+    },
+    {
+      "i": 69,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "14:14",
+      "en": "And then on top of that, that's where BDC bonds sit is the senior unsecured bonds. And then within bonds themselves, sometimes you have senior unsecured and you have junior and so forth.",
+      "zh": "再往上一层，就是 BDC 债券所在的位置——高级无担保债券（senior unsecured bonds）。而在债券内部，有时还分高级无担保和次级等等。"
+    },
+    {
+      "i": 70,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "14:26",
+      "en": "All these bonds in our portfolio are senior unsecured. So they're on the very, very top of the bond structure, meaning that they sit pretty high up there.",
+      "zh": "我们组合里的这些债券全都是高级无担保的，处在债券结构的最顶端，也就是说它们的位置相当靠前。"
+    },
+    {
+      "i": 71,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "14:35",
+      "en": "There are, however, sometimes not all BDCs, but some companies do secured bonds, meaning that they're tied directly to some sort of asset on their balance sheet.",
+      "zh": "不过，有时候——并非所有 BDC，但有些公司确实会发有担保债券（secured bonds），也就是直接与其资产负债表上的某类资产挂钩。"
+    },
+    {
+      "i": 72,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "14:43",
+      "en": "So those would sit above that. And then if there's any sort of secured direct lending or so forth line of credit, that would sit at the very, very top.",
+      "zh": "那类债券会排在更上面。而如果还有某种有担保的直接贷款授信额度之类，那它会排在最最顶端。"
+    },
+    {
+      "i": 73,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "14:51",
+      "en": "So when you look at a cap structure, I would say BDC bonds in HBDC sit towards the middle or higher portion of the capital structure. So there's a lot of cushion below these bonds.",
+      "zh": "所以从资本结构来看，我会说 HBDC 里的 BDC 债券处在资本结构的中部偏上位置，也就是说这些债券下面有很厚的缓冲。"
+    },
+    {
+      "i": 74,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "15:02",
+      "en": "So like we mentioned, you would need a significant credit event to even get, be worried about these bonds. And that's kind of the opportunity here because the spreads and the yields maturities on these bonds are, we think, discriminately high for a security that has a lot of structural protections in place.",
+      "zh": "就像我们提到的，你得遇到一次重大信用事件，才需要开始为这些债券担心。而这恰恰就是机会所在：我们认为，对一个拥有大量结构性保护的证券来说，这些债券的利差和到期收益率高得不成比例。"
+    },
+    {
+      "i": 75,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "15:22",
+      "en": "So liquidity is always a question in a niche bond market. So how does the ETF for app or help that? And how does the index handle liquidity at the security level?",
+      "zh": "在一个细分的债券市场里，流动性永远是个问题。那么 ETF 这个包装形式对此有什么帮助？指数在个券层面又是如何处理流动性的？"
+    },
+    {
+      "i": 76,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "15:31",
+      "en": "Yeah. So well, within any ETF and with our ETF as well, you have creation and redemption units. So what that is is we have a lead market maker that would buy these securities or they could do an in cash creation redemption.",
+      "zh": "嗯，任何 ETF——我们的这只也一样——都有申购赎回单位（creation and redemption units）。具体来说，我们有一家主做市商（lead market maker），它会去买入这些证券，或者也可以做现金方式的申购赎回。"
+    },
+    {
+      "i": 77,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "15:47",
+      "en": "And so they're the ones that are actually trading it and putting it together. So what that does is even if there is, let's say, a million dollars in the ETF, which we relatively small, which there is not, but in the case of this example, there could be, and someone wants to put a $10 million buy order in the ETF, that would not impact the trading dynamics of the ETF.",
+      "zh": "所以真正在交易、在把组合搭起来的是他们。这样一来，即便 ETF 里只有比如100万美元——这相对很小，实际并不是这样，但按这个例子来说可能会有——而有人想在这只 ETF 上下1000万美元的买单，也不会影响 ETF 的交易动态。"
+    },
+    {
+      "i": 78,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "16:07",
+      "en": "The lead market maker would then buy all the bonds in the portfolio and then structure that at the $10 million ticket price. So I think a lot of advisors mistakenly see an ETF that may only have a few assets in maybe 10 million assets in it and say, oh, it's illiquid.",
+      "zh": "主做市商会去买入组合里的全部债券，然后按1000万美元的规模来组织这笔交易。所以我觉得很多顾问会误解，看到一只 ETF 里可能只有几百万、一千万美元资产，就说：哦，它流动性差。"
+    },
+    {
+      "i": 79,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "16:24",
+      "en": "If I put a big ticket order in it, it's going to be hard to buy or sell that ETF. It's not actually true. It's the underlying assets in the ETF that matter more so than the ETF itself.",
+      "zh": "『如果我下一笔大单，买卖这只 ETF 会很困难』。实际上并非如此。真正重要的是 ETF 的底层资产，而不是 ETF 本身。"
+    },
+    {
+      "i": 80,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "16:34",
+      "en": "And given that the BDC bond market is now a $70 billion plus market, it's a very, very liquid market. I wouldn't, well, I should say it's liquid enough, not extremely liquid, but it's liquid enough that any sizeable ticket order, like I mentioned, under $400 million daily, should have no problem buying or selling HPDC.",
+      "zh": "而且 BDC 债券市场现在已经是一个700亿美元以上的市场，流动性非常好。我不会说……这么说吧，它的流动性足够好，算不上极度充裕，但足以让任何规模可观的大单——就像我提到的，单日4亿美元以内——买卖 HBDC 都不成问题。"
+    },
+    {
+      "i": 81,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "16:54",
+      "en": "So you guys just actually crossed $100 million in assets about seven months after launch. What's been driving that demand from advisors? What have you learned so far?",
+      "zh": "你们在发行大约七个月后资产规模刚刚突破1亿美元。是什么在推动顾问端的需求？到目前为止你们学到了什么？"
+    },
+    {
+      "i": 82,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "17:02",
+      "en": "I mean, this is a very niche new market. You're the only player in the space today. So what's it like? What have you learned? Yeah. So there's definitely a bit of a learning curve.",
+      "zh": "我是说，这是一个非常细分的新市场，你们今天是这个领域里唯一的玩家。那感觉如何？你们学到了什么？嗯，确实存在一定的学习曲线。"
+    },
+    {
+      "i": 83,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "17:13",
+      "en": "So when we meet with advisors and they say, okay, yeah, this looks really cool, but why don't I just own BizD? It has a higher yield. And then we have to explain what the TRON structure is and what equity versus debt is and so forth.",
+      "zh": "我们跟顾问见面时，他们会说：好吧，这看起来挺酷的，但我为什么不直接持有 BIZD 呢？它的收益率更高。然后我们就得解释什么是资本结构、股权和债务有什么区别等等。"
+    },
+    {
+      "i": 84,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "17:24",
+      "en": "And I would say 85% to 90% of advisors that once we explain it to them, they then get it pretty quickly. And they say, oh, this is pretty attractive to me and so forth.",
+      "zh": "我会说，85%到90%的顾问在我们解释之后很快就能理解，然后他们会说：哦，这对我来说挺有吸引力的。"
+    },
+    {
+      "i": 85,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "17:36",
+      "en": "So that was definitely, we expected it, but we didn't expect it to be as thorough as it turned out to be that almost every single call we meet with advisor group was, okay, explain to me the difference between HPDC and BizD out there.",
+      "zh": "这一点我们确实预料到了，但没想到会这么普遍——几乎每一次与顾问团队的电话会议，开场都是：好，给我讲讲 HBDC 和 BIZD 的区别。"
+    },
+    {
+      "i": 86,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "17:50",
+      "en": "Why are you paying a lower yield than BizD and so forth? That was the one thing. But like I mentioned, we kind of give that 10, 15 minute educational lesson.",
+      "zh": "为什么你们的收益率比 BIZD 低？诸如此类。这是第一个问题。但就像我提到的，我们会先做10到15分钟的科普讲解。"
+    },
+    {
+      "i": 87,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "18:01",
+      "en": "And then they usually get it pretty quickly. Then the second thing is, as you probably are well aware of, this year has been, there's no shortage of negative press in the private credit world out there.",
+      "zh": "然后他们通常很快就能明白。第二件事是——你大概也很清楚——今年私募信贷领域的负面报道一点也不缺。"
+    },
+    {
+      "i": 88,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "18:13",
+      "en": "There's a lot of fear taglines out there and so forth. We could talk a little bit about that and why I think it's overblown. And that's the second part of the conversations that we're having is, hey, I hear that private credit is going to blow up any day now.",
+      "zh": "外面有很多耸动的标题等等。这个我们可以聊一下，也可以说说为什么我认为它被夸大了。这也是我们对话的第二部分：『嘿，我听说私募信贷随时都要爆掉。』"
+    },
+    {
+      "i": 89,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "18:27",
+      "en": "Nobody knows what's going on there and so forth. And kind of going back to that educational lessons that we tell advisors is, BDCs are actually remarkably transparent.",
+      "zh": "『那里到底发生了什么没人知道』等等。而回到我们给顾问做的那个科普讲解：BDC 其实是极其透明的。"
+    },
+    {
+      "i": 90,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "18:38",
+      "en": "So even private BDCs, which some of them issue public bonds that are in HPDC, every single one of them has to publish a 10K report with the SEC and file that.",
+      "zh": "即便是私募 BDC——其中一些发行了进入 HBDC 的公开债券——每一家都必须向 SEC 提交并发布 10-K 报告。"
+    },
+    {
+      "i": 91,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "18:49",
+      "en": "And in the 10K, they put every single loan, classify it by the sector and so forth, the terms and all that stuff out there. So you can actually dig down into each and every BDC and see where they're lending money to and what the terms are and so forth.",
+      "zh": "在 10-K 里，他们会列出每一笔贷款，按行业分类，还有条款等等所有信息。所以你其实可以深入到每一家 BDC，看清它们把钱借给了谁、条款是什么等等。"
+    },
+    {
+      "i": 92,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "19:04",
+      "en": "So they're remarkably transparent, even though the press seems to love to say that they're not, but they really are. So that has been a hurdle for sure, is just kind of fighting the tide of the negative press cycle out there.",
+      "zh": "所以它们的透明度非常高，尽管媒体似乎很喜欢说它们不透明，但事实确实透明。这肯定是一道坎——就是在逆着负面报道的潮流而上。"
+    },
+    {
+      "i": 93,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "19:16",
+      "en": "And don't get me wrong, there are some yellow flags and some red flags out there in the private credit world that we could talk about for sure.",
+      "zh": "别误会我的意思，私募信贷领域确实存在一些黄灯和红灯信号，这些我们完全可以聊。"
+    },
+    {
+      "i": 94,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "19:24",
+      "en": "But within the BDC space at large, again, these are smaller loans themselves, just small and medium sized US-focused companies, we're actually starting to see non-accruals and pick income and so forth stabilize and actually tick down.",
+      "zh": "但整体来看 BDC 领域——再说一次，这些本身是较小的贷款，借款人是聚焦美国本土的中小企业——我们实际上开始看到非应计贷款（non-accrual）和 PIK 利息收入（payment-in-kind）等等趋于稳定，甚至开始回落。"
+    },
+    {
+      "i": 95,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "19:37",
+      "en": "So I think that has helped us a little bit recently. And then there's also the kind of expansion that was in the late early 2020s and so forth of selling these private BDCs to a lot of advisors and so forth.",
+      "zh": "我觉得这最近对我们有些帮助。另外还有2020年代初那波扩张——把私募 BDC 卖给大量顾问等等。"
+    },
+    {
+      "i": 96,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "19:51",
+      "en": "And then they didn't read the five print too closely and they say, hey, I can only redeem my assets at 5% a quarter. I want all my money back now, which that's a fair criticism.",
+      "zh": "结果他们没有仔细看小字条款（fine print），然后就说：嘿，我一个季度只能赎回5%的资产，我现在就要拿回全部的钱。这个批评是合理的。"
+    },
+    {
+      "i": 97,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "20:02",
+      "en": "But that has actually been a tailwind for HBDC because given that it is an ETF, there is no lockups, there is no illiquidity events you can buy and sell it the same day if you really want to.",
+      "zh": "但这实际上成了 HBDC 的顺风因素，因为它是一只 ETF：没有锁定期（lockup），不会出现流动性受限的情况，你真想的话当天就能买卖。"
+    },
+    {
+      "i": 98,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "20:15",
+      "en": "So that's been a bit of a tailwind for our ETF. So for an advisor thinking about HBDC, how would they use it in a client's fixed income allocation?",
+      "zh": "所以这对我们的 ETF 来说算是一股顺风。那么对于在考虑 HBDC 的顾问来说，他们会怎么把它用在客户的固定收益配置里？"
+    },
+    {
+      "i": 99,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "20:24",
+      "en": "Is this a core compliment? Is it an income sleeve? How do you educate on how it should be utilized? I wouldn't be out here and say it's a substitute for the AG, your core bond fund, because this is a more nichey part of the market and BDC bonds do gap out on their spreads when you get some sort of financial stress in the system.",
+      "zh": "它是核心配置的补充吗？是一个收益模块（income sleeve）吗？你们是如何教育大家该怎么用它的？我不会站在这里说它是 AGG、是你核心债券基金的替代品，因为这是市场中更细分的一块，而且当系统出现某种金融压力时，BDC 债券的利差确实会跳空走阔。"
+    },
+    {
+      "i": 100,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "20:47",
+      "en": "I think that's a great buying opportunity because they always snap right back, but they will be a little bit more volatile than your traditional investment grade bonds.",
+      "zh": "我认为那是绝佳的买入机会，因为它们总会很快回弹，但它们的波动性确实会比传统投资级债券大一些。"
+    },
+    {
+      "i": 101,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "20:54",
+      "en": "And we've run the analysis on that going back over the last five plus years. The beta on these bonds is about 1.4, meaning that if spreads blow out about 100 basis points for investment grade bonds, we would expect BDC bonds to blow out about 140 basis points.",
+      "zh": "我们对此做过回溯五年以上的分析。这些债券的贝塔（beta）约为1.4，意思是如果投资级债券的利差走阔约100个基点，我们预计 BDC 债券会走阔约140个基点。"
+    },
+    {
+      "i": 102,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "21:08",
+      "en": "So they're not a direct substitute for your core bond fund. What I think they are a good substitute is if you have any allocation towards alternatives out there and you're in some of these interval funds and you're in some of these private BDC funds out there and you're getting frustrated saying, hey, there's lockups in place.",
+      "zh": "所以它们不是你核心债券基金的直接替代品。我认为它们真正适合替代的，是你在另类资产（alternatives）上的配置——如果你持有一些区间基金（interval fund）、一些私募 BDC 基金，并且感到沮丧，觉得『嘿，这里存在锁定期』。"
+    },
+    {
+      "i": 103,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "21:26",
+      "en": "They're not really performing that well. The fees are incredibly high. Some of them are 2% management fees and so forth. I think this is a great substitute for that because this is liquid.",
+      "zh": "『它们表现并不怎么好，费用高得离谱，有些管理费高达2%』等等。我认为 HBDC 是这类持仓的绝佳替代品，因为它有流动性。"
+    },
+    {
+      "i": 104,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "21:34",
+      "en": "It's traded daily. It's relatively cheap. It's only 39 basis points and you're getting that exposure to the alternative asset management space via BDC bonds.",
+      "zh": "它每天交易，费率相对便宜，只有39个基点，而你通过 BDC 债券获得了对另类资产管理领域的敞口。"
+    },
+    {
+      "i": 105,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "21:45",
+      "en": "So that's where we're seeing a lot of traction there. We're also seeing some traction with some insurance companies as well. We are NAIC2C rated.",
+      "zh": "这就是我们看到大量落地需求的地方。一些保险公司那边也开始有起色。我们获得了 NAIC 2C 评级。"
+    },
+    {
+      "i": 106,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "21:55",
+      "en": "We just got that. So some insurance companies have really started to embrace HPDC as well. Well, Mike, I really appreciate you spending some time with me today.",
+      "zh": "这个评级我们刚刚拿到。所以一些保险公司也开始真正接纳 HBDC 了。Mike，非常感谢你今天抽出时间跟我聊。"
+    },
+    {
+      "i": 107,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "22:03",
+      "en": "Before I can let you go, where can people learn more about Hilton Capital and HPDC? Yeah, sure. So if you go to our website, which is hiltoncapitalmanagement.com, you can go and see our strategies, all of them, and select HPDC.",
+      "zh": "在放你走之前，大家可以从哪里进一步了解 Hilton Capital 和 HBDC？好的，当然。你可以上我们的网站 hiltoncapitalmanagement.com，查看我们所有的策略，然后选择 HBDC。"
+    },
+    {
+      "i": 108,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "22:18",
+      "en": "And there's tons of fact sheets and marketing material out there for anyone that's interested. Well, again, Mike, thanks for hanging out. Yeah, thanks for having me.",
+      "zh": "那里有大量的基金资料页（fact sheet）和宣传材料，感兴趣的人都可以去看。再次感谢你来做客，Mike。嗯，谢谢你们邀请我。"
+    },
+    {
+      "i": 109,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "22:25",
+      "en": "Appreciate it.",
+      "zh": "非常感谢。"
+    }
+  ]
+}

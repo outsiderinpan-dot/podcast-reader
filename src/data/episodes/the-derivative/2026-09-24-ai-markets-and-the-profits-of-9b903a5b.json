@@ -1,0 +1,2632 @@
+{
+  "show": "the-derivative",
+  "kind": "transcript",
+  "id": "the-derivative-9b903a5b",
+  "guid": "e423d9af-a8a5-4a41-9d53-370438f36345",
+  "slug": "2026-09-24-ai-markets-and-the-profits-of-9b903a5b",
+  "date": "2026-09-24",
+  "title_en": "AI, Markets, and the Profits of Doom with Adam Butler",
+  "title_zh": "AI、市场与\"末日盈利\"：对话 Adam Butler（Return Stacked）",
+  "subtitle_zh": "Adam Butler 谈 AI 末日论、智能体越狱协同，以及市场作为超级智能的盈利逻辑。",
+  "description": "AI, Markets, and the Profits of Doom with Adam Butler",
+  "duration": "83:33",
+  "duration_seconds": 5013,
+  "episode_url": null,
+  "audio_url": "https://anchor.fm/s/11908b3c/podcast/play/126254131/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-8-24%2F432593452-44100-2-6ed2604d20b7a.m4a",
+  "speakers": {
+    "1": "Jeff Malec（主持）",
+    "2": "Adam Butler（嘉宾）",
+    "3": "片花/广告（旁白）"
+  },
+  "turn_count": 326,
+  "turns": [
+    {
+      "i": 0,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "00:00",
+      "en": "Welcome to The Derivative by RCM Alternatives. Send it. Hello there. You've landed on The Derivatives where we want to hear from you. We've gotten a lot of emails and lately they'd say, good job, keep up the good work, love that pod, that kind of stuff.",
+      "zh": "欢迎收听 RCM Alternatives 出品的 The Derivative。Send it。大家好，你正在收听的是 The Derivative，我们很想听听你们的想法。最近我们收到了很多邮件，大多是说'干得漂亮，继续保持，太爱这档节目了'之类的话。"
+    },
+    {
+      "i": 1,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "00:25",
+      "en": "But looking for more questions, want to end the year on a mailbag episode where we answer your questions, share some of your rebuttals or counterpoints to guess that we've had on and or supporting points to guess we've had on.",
+      "zh": "但我们更想要问题，想在年底做一期'读者来信'（mailbag）节目，回答你们的提问，分享你们对我们请过的嘉宾的一些反驳或不同意见，或者是一些支持的观点。"
+    },
+    {
+      "i": 2,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "00:39",
+      "en": "So things like, how does that manager size his trades? What do you think of my thesis on AI causing recession? Why none of this matters just by Bitcoin, yada, yada, yada.",
+      "zh": "比如说，那位经理是怎么给交易定仓位的？你对我这个'AI 会引发衰退'的论点怎么看？为什么说这些都不重要、干脆去买比特币就行了，等等等等。"
+    },
+    {
+      "i": 3,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "00:50",
+      "en": "Whatever you got, shoot it in an email, invest at RCMAM.com, invest at RCMAM. Those are M's as a Mary.com. We'll send out some RCM swag. Maybe we'll get some derivative swag, that'd be nice.",
+      "zh": "不管你有什么想法，发邮件到 invest@RCMAM.com，invest at RCMAM，那几个是 M，as in Mary，点 com。我们会寄出一些 RCM 的周边。说不定还能搞点 The Derivative 的周边，那就更好了。"
+    },
+    {
+      "i": 4,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "01:05",
+      "en": "But we'll send out some swag to some of the smartest or funniest or both emails. So choose the email, invest at RCMAM.com. Okay, onto this episode where we have Adam Butler of Return Stack Group coming on, talking all sides of AI.",
+      "zh": "我们会给那些最聪明、最好玩，或者两者兼备的邮件寄出周边。所以就把邮件发到 invest@RCMAM.com 吧。好了，进入本期正题，我们请到了 Return Stack Group 的 Adam Butler，来聊聊 AI 的方方面面。"
+    },
+    {
+      "i": 5,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "01:24",
+      "en": "We had him on back in two and a half years ago, May of 2023 saying, forget his AI coming, it's already here. And that was two and a half years ago.",
+      "zh": "我们两年半前请过他，那是 2023 年 5 月，当时他就说，别管 AI 是不是要来了，它已经在这儿了。而那已经是两年半前的事了。"
+    },
+    {
+      "i": 6,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "01:33",
+      "en": "So get into a little bit of how much everything's changed since then. And he's way deep in all this stuff, including the latest research. And of course, because it's the current environment, we have to answer whether it's gonna kill us all, which is weird.",
+      "zh": "所以我们要聊聊从那以后一切变化有多大。他在这些领域钻得非常深，包括最新的研究。当然，鉴于当下的大环境，我们还必须回答一个问题：它会不会把我们全都干掉——这事儿说来也挺怪的。"
+    },
+    {
+      "i": 7,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "01:47",
+      "en": "Send it. All right, here with Adam Butler, Adam, how are ya? Good, Jeff, thanks for having me back, man, it's always fun. Yeah, I was looking, we were last on May of 2023 talking AI.",
+      "zh": "Send it。好，Adam Butler 来了。Adam，你好吗？挺好的，Jeff，谢谢你再次邀请我，老兄，每次都很有意思。是啊，我在看，我们上一次上节目是 2023 年 5 月，聊的就是 AI。"
+    },
+    {
+      "i": 8,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "02:03",
+      "en": "Yeah, that's unbelievable. Unbelievable, then we thought we kind of knew what we were talking about. I was looking at the transcript a lot of time on chat, GPT.",
+      "zh": "是啊，太不可思议了。不可思议，当时我们还以为自己多少懂点在聊什么。我在看那份文字记录，上面好多时间都在讲 ChatGPT。"
+    },
+    {
+      "i": 9,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "02:11",
+      "en": "Seems like that has gone the way, I don't know if we mentioned Claude or Anthropic at all, which is crazy. Oh no, thank you. That GPT-4 had just come out that February, I think, and so that was the catalyst for the call.",
+      "zh": "感觉那条路已经走过去了。我不知道我们当时到底有没有提到过 Claude 或者 Anthropic，简直离谱。哦，没有。谢谢你。我记得 GPT-4 就是那年 2 月刚出来的，所以那成了做这期节目的契机。"
+    },
+    {
+      "i": 10,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "02:24",
+      "en": "And boy, we didn't know what was coming down the tube. That's like a dog brain, compared to what we are currently doing with. And then just, we'll set the scene.",
+      "zh": "天呐，我们当时根本不知道后面会有什么。跟我们现在的水平比，那时候就像个狗脑子。好，那我们来铺一下背景。"
+    },
+    {
+      "i": 11,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "02:37",
+      "en": "23, you guys had just started, had you started it? Some of the ETFs had rolled out, and now well over a billion dollars. So before we get into the doomsday talk, like congrats on the success on the firm side.",
+      "zh": "2023 年，你们那时候刚起步，你们开始了吗？有些 ETF 已经推出了，现在早就超过十亿美元了。所以在进入末日话题之前，先恭喜你们公司取得的成功。"
+    },
+    {
+      "i": 12,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "02:51",
+      "en": "Thank you. Yeah, it was just before that. We had launched our first ETF. And so now I think we've got a six or seven in the family. And yeah, we went over 1.6 billion yesterday.",
+      "zh": "谢谢。是啊，就在那之前，我们刚发行了第一只 ETF。现在我想我们家族里已经有六七只了。是的，昨天我们的规模突破了 16 亿美元。"
+    },
+    {
+      "i": 13,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "03:05",
+      "en": "So it's been just incredible growth that returned stacked ETFs. Turns out trend wasn't dead after all. Yeah, again. Yeah, shocking. And is all that with AI to thank?",
+      "zh": "所以 Return Stacked 系列 ETF 的增长真是令人难以置信。事实证明趋势跟踪（trend following）根本没死。是啊，又来了。是啊，太让人意外了。那这一切都要归功于 AI 吗？"
+    },
+    {
+      "i": 14,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "03:18",
+      "en": "Or no, just good old fashioned portfolio management and modeling. Well, I mean, the great thing is you know about return stacking is that we keep in the core betas, right?",
+      "zh": "还是说，靠的是老派的组合管理和建模？嗯，我是说，return stacking 最棒的地方在于，我们保留了核心的贝塔（core betas），对吧？"
+    },
+    {
+      "i": 15,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "03:28",
+      "en": "So you've got this core US equity. Our biggest fund has 100% in core US equities and then 100% in the U.S. equity. And then 100% managed futures trend stacked on top.",
+      "zh": "所以你有这个核心的美股敞口。我们最大的基金有 100% 配置在核心美股上，然后还有 100% 的美股。再往上叠加 100% 的 managed futures 趋势策略。"
+    },
+    {
+      "i": 16,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "03:44",
+      "en": "So I mean, it's obviously been an amazing run for US equities. I think we could argue that a big impetus for that run has been what's going on in AI and all the investments by the hyperscalers and the economic activity that that's produced.",
+      "zh": "所以显然，美股这段时间的表现非常惊人。我觉得可以说，这轮上涨的一大推动力就是 AI 领域正在发生的事，以及那些超大规模云厂商（hyperscalers）的所有投资和由此产生的经济活动。"
+    },
+    {
+      "i": 17,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "04:00",
+      "en": "So just having the beta exposure has been really nice. And then we've started to see in the last year or so the commodities pickup, obviously big surge in energy after Iran and you know, copper is now breaking out to new highs for starting to see big runs and grains just a sort of general inflationary cycle I think as we begin this large competition for resources some of which I think probably is a function of this AI build",
+      "zh": "所以光是持有这个贝塔敞口就已经非常舒服了。然后在过去差不多一年里，我们开始看到大宗商品回暖，显然在伊朗事件之后能源大幅飙升，你知道，铜现在正突破创新高，谷物也开始出现大涨，这就是一种普遍的通胀周期，我想，因为我们正开始这场对资源的大规模争夺，其中我认为一部分可能就是这场 AI 建"
+    },
+    {
+      "i": 18,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "04:27",
+      "en": "out but lots of other geopolitical events contributing. And malinvestment, we'll throw everyone back to our we did a copper pod a couple of months ago with some pros talking about all that.",
+      "zh": "设的产物，当然还有很多其他地缘政治事件在推波助澜。还有错误投资（malinvestment）的问题——这会把大家的思绪拉回到我们几个月前做的那期铜的节目，请了一些专业人士来聊这些。"
+    },
+    {
+      "i": 19,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "04:39",
+      "en": "Super interesting stuff. So what like just thinking back to 23 versus now two and a half years ago, what's your biggest takeaway of like what did we not know then that we know now or how big or how many things have changed since then in the last two years?",
+      "zh": "非常有意思的内容。那么，回想一下 2023 年对比现在，两年半前，你最大的收获是什么？比如说，当时我们不知道、但现在知道了的是什么？或者在过去这两年里，有多少事情、多大规模的事情发生了变化？"
+    },
+    {
+      "i": 20,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "04:54",
+      "en": "Yeah, I mean, I think we probably talked about the idea of like geometric growth paths and how it's very difficult for humans to like think ahead and try to imagine what the world will be like when we're on this kind of accelerating innovation curve.",
+      "zh": "是啊，我是说，我想我们当时可能聊过几何级数增长路径（geometric growth paths）这个概念，以及人类要往前看、去想象当我们处在这条加速创新曲线上时世界会变成什么样，是多么困难。"
+    },
+    {
+      "i": 21,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "05:14",
+      "en": "And I think that played out, right? Like I mean, there's just, there was no way for us to really understand the trajectory of just how quickly this technology is going to take off.",
+      "zh": "我觉得这一点后来应验了，对吧？我是说，我们根本没有办法真正理解这项技术会以多快的速度腾飞。"
+    },
+    {
+      "i": 22,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "05:23",
+      "en": "It's been adopt the adoption curve for for chat CPT has exceeded the diffusion rate for all previous technology including the internet, right?",
+      "zh": "ChatGPT 的采用曲线，其扩散速度已经超过了此前所有技术，包括互联网，对吧？"
+    },
+    {
+      "i": 23,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "05:35",
+      "en": "I haven't seen that graph. So those like they have those little spark lines that was the electricity was like 80 years or something. Yeah, yeah, yeah, exactly.",
+      "zh": "那张图我还没见过。就是那种小折线图（spark lines），电力好像花了 80 年之类的。对对对，没错。"
+    },
+    {
+      "i": 24,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "05:45",
+      "en": "The telephone was 40, the washing machine was 20. Yeah, and this is six months or something. Yeah, yeah. And also what's, I just read this yesterday, but the compute per unit of capability has deflated by 47% a quarter.",
+      "zh": "电话是 40 年，洗衣机是 20 年。是啊，而这个只用六个月之类的。对对。还有，我昨天刚读到的，单位能力所需的算力成本每季度通缩 47%。"
+    },
+    {
+      "i": 25,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "06:08",
+      "en": "So just from a just capacity standpoint and just how quickly we're innovating on this tech, it is way outside of any other diffusion curve. So it's been a remarkable ride any way you slice it.",
+      "zh": "所以仅从容量的角度、从我们在这项技术上创新的速度来看，它远远超出了任何其他扩散曲线。所以无论如何切分，这都是一段了不起的旅程。"
+    },
+    {
+      "i": 26,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "06:24",
+      "en": "Is that there's more and more models is leading to that stat or just they've been getting better at processing what we want without having to run all the compute or both?",
+      "zh": "是越来越多的模型导致了这个数据，还是说它们只是越来越擅长在不跑全部算力的情况下处理我们想要的东西，还是两者都有？"
+    },
+    {
+      "i": 27,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "06:34",
+      "en": "I think there's a lot of different elements going on. I think there's work being done on the hardware side. So we're getting hardware just that's just much more efficient and able to generate more flops for less energy.",
+      "zh": "我觉得这里有很多不同的因素在起作用。我认为硬件层面做了很多工作。所以我们的硬件效率高得多，能用更少的能源产生更多的浮点运算（flops）。"
+    },
+    {
+      "i": 28,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "06:49",
+      "en": "And that enables more efficient training. But what also enables more efficient training is improvements in how the software uses the compute.",
+      "zh": "这就让训练更高效。但同样让训练更高效的，还有软件如何使用算力方面的改进。"
+    },
+    {
+      "i": 29,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "07:01",
+      "en": "So improvements in kernel efficiency and compute utilization. And then just training efficiency. We're learning how to curate the training corpus.",
+      "zh": "也就是内核效率（kernel efficiency）和算力利用率方面的改进。然后还有训练效率。我们正在学会如何筛选训练语料库。"
+    },
+    {
+      "i": 30,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "07:12",
+      "en": "So we're deduplicating and we're making sure that the corpus that we're training on is much tighter and much higher quality. So there's less wasted energy there.",
+      "zh": "所以我们在做去重，确保我们训练所用的语料库更精炼、质量更高。这样浪费的能源就更少。"
+    },
+    {
+      "i": 31,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "07:22",
+      "en": "And there's just innovations at all the steps in the cycle and they all compound to allow just incredibly quick improvements at a pace we haven't seen before.",
+      "zh": "而且在这个周期的每一个环节都有创新，它们全部叠加复合，从而实现了我们前所未见的、极其快速的进步。"
+    },
+    {
+      "i": 32,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "07:36",
+      "en": "I'll throw in their user innovation too, right? Cause when you start with it and you're like, blah, blah, blah, and you have a five day chat window going and then you realize like, okay, that's way too much and it starts dropping things, right?",
+      "zh": "我还要补充一点，就是用户端的创新，对吧？因为你刚开始用的时候，你会 blah blah blah 说个不停，开着一个五天的聊天窗口，然后你意识到，好嘛，这太多了，它开始丢东西了，对吧？"
+    },
+    {
+      "i": 33,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "07:49",
+      "en": "So you quickly get to a place of like, okay, I need to organize my prompts and have it reference files and co-works really good of that of setting up the infrastructure.",
+      "zh": "所以你很快就会到这么一个阶段：好吧，我需要把我的提示词（prompts）组织起来，让它去引用文件，co-work 在搭建这套基础设施方面做得非常好。"
+    },
+    {
+      "i": 34,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "07:59",
+      "en": "Yeah, that's a good point. Absolutely. Which is economic, right? Like, hey, if I use this inefficiently, I'm gonna spend way more money. So spend the time to set it up efficiently.",
+      "zh": "是啊，说得好。没错。而这本身就是经济账，对吧？就是说，嘿，如果我用得低效，我就要花多得多的钱。所以花时间把它高效地设置好。"
+    },
+    {
+      "i": 35,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "08:07",
+      "en": "Exactly. And each loop takes more time and it's frustrating and the model starts to deteriorate in its answers. And so yeah, there's definitely a learning curve and the more we learn, the better we're utilizing the technology and the more efficient the compute is for everybody.",
+      "zh": "正是。而且每一轮循环都要花更多时间，很让人抓狂，模型的回答也开始变差。所以是啊，这绝对存在一条学习曲线，我们学得越多，就能越好地利用这项技术，算力对所有人来说也就越高效。"
+    },
+    {
+      "i": 36,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "08:26",
+      "en": "So yeah, that's a good insight. I was gonna say, the main chat windows need that, right? In cloud code, it has that like, how much of your context window is still open and it's like decreasing, decreasing and you know to do that.",
+      "zh": "所以是啊，这是个很好的洞见。我本来想说，主聊天窗口就需要这个，对吧？在 Claude Code 里，它会显示你的上下文窗口还剩多少，就看着它一点点减少、减少，你得留意这个。"
+    },
+    {
+      "i": 37,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "08:39",
+      "en": "But in like a normal chat window, a lot of this stuff, you don't know that and then it just starts dropping stuff like easy. Yeah, I watched my wife carry on chats and chat GPT and she's co-mingling all these different topics and concepts within a single chat.",
+      "zh": "但在普通的聊天窗口里，这些东西你很多都看不到，然后它就开始丢东西，轻而易举。是啊，我看着我太太在 ChatGPT 里聊天，她把各种不同的话题和概念全都混在同一个对话里。"
+    },
+    {
+      "i": 38,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "08:54",
+      "en": "And then it's just, it blows my mind actually how well the models can almost kind of task switch, right? How their attention heads can determine.",
+      "zh": "然后就……这真的让我震惊，模型几乎能做到这种任务切换（task switch），对吧？它们的注意力头（attention heads）是怎么判断的。"
+    },
+    {
+      "i": 39,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "09:04",
+      "en": "Oh, we've kind of, we've drifted off scope here now a little bit, we're now talking about this. And you can circle right back to something you talked about much earlier in the conversation after wandering astray for quite a while.",
+      "zh": "哦，我们有点跑题了，现在在聊这个。然后你又可以在偏离了很久之后，绕回到你早先在这段对话里谈过的某个话题。"
+    },
+    {
+      "i": 40,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "09:17",
+      "en": "And it'll know, oh, okay, now we're back to this. It's remarkable actually how the models have evolved to be able to do that. How about you personally, look at that jar, it's a hell of a jar.",
+      "zh": "而且它会知道，哦，好，现在我们回到这个了。这些模型能进化到做到这一点，其实真的很了不起。那你个人怎么看——瞧瞧那个罐子，那可真是个大罐子。"
+    },
+    {
+      "i": 41,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "09:27",
+      "en": "That's dehydrated, man. What do you got there, pink lemonade? Just yeah, electrolytes and stuff. Nice. You still doing the intermittent fasting?",
+      "zh": "那是脱水的，老兄。你那里面是什么，粉红柠檬水？就是，电解质之类的东西。不错。你还在做间歇性断食（intermittent fasting）吗？"
+    },
+    {
+      "i": 42,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "09:37",
+      "en": "I am doing that, I actually just started experimenting with some GLP ones, just to kind of see what that looks like after some summer bulking.",
+      "zh": "我在做，其实我刚开始尝试一些 GLP-1 类药物，就是想看看在夏天增肌之后那会是什么效果。"
+    },
+    {
+      "i": 43,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "09:50",
+      "en": "And so that's been an interesting experience. Yeah, I was talking, I've got Alzheimer's in the family. So I was talking to my doctor of like micro dosing it is supposed to help with that possibly.",
+      "zh": "所以那是一段挺有意思的经历。是啊，我在聊，我家里有人得阿尔茨海默病（Alzheimer's）。所以我在跟我的医生说，微剂量（micro dosing）使用它据说可能对此有帮助。"
+    },
+    {
+      "i": 44,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "10:02",
+      "en": "And what's the downside? Well, you probably know this, but the most impactful preventative now is the shingles vaccine they've discovered. It's just remarkably prophylactic for all types of neurodegenerative disease.",
+      "zh": "那副作用是什么？嗯，你可能知道这个，但现在发现的最有效的预防手段其实是带状疱疹疫苗（shingles vaccine）。它对所有类型的神经退行性疾病都有非常显著的预防作用。"
+    },
+    {
+      "i": 45,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "10:19",
+      "en": "So get your shingles back. Go get it, of that age, anyway. So how has it changed in that sense, that last part in 23, like your day-to-day using it more about the same, maybe way more than you expected and at the firm level way more than you expected?",
+      "zh": "所以去打你的带状疱疹疫苗吧。去打了，反正到了那个年纪就该打。好了，那么从这个意义上说，它又发生了怎样的变化呢——最后这部分，在 2023 年，你日常使用它的情况，是差不多，还是比你预期的多得多？在公司层面是不是也远超你的预期？"
+    },
+    {
+      "i": 46,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "10:44",
+      "en": "Yeah, I mean, I'd say I'm using it, ever since GPT-4 came out, I've been pretty well using it nonstop. But back in 2023, when I stepped away from the computer, I wasn't doing any work and the AI wasn't doing any work, right?",
+      "zh": "是啊，我是说，我会说自打 GPT-4 出来，我就基本一直在不停地用它。但回到 2023 年，当我离开电脑时，我没在做任何工作，AI 也没在做任何工作，对吧？"
+    },
+    {
+      "i": 47,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "11:02",
+      "en": "Now, and when I was doing work at the computer, I was doing one task at a time. Now, I have multiple instances of Claude Code or Codex or Hermes agent or whatever open in different terminal tabs.",
+      "zh": "而现在，我在电脑前工作时，过去我一次只做一个任务。现在，我在不同的终端标签页里开着多个 Claude Code、Codex、Hermes agent 或者别的什么实例。"
+    },
+    {
+      "i": 48,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "11:22",
+      "en": "I've got agent workflows running in most of those tabs. So, I spent a lot of my time going back and forth and sometimes waiting for agents to finish fairly long tasks.",
+      "zh": "我在这些标签页里的大多数都跑着智能体（agent）工作流。所以我花很多时间来回切换，有时候等着智能体完成一些相当长的任务。"
+    },
+    {
+      "i": 49,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "11:44",
+      "en": "Well, they'll come back and they'll ask for guidance or they'll say, okay, I finished that, and then I'll ask it, okay, what's the right next step here or what are some of the trade-offs you should consider at this point in development or what have you.",
+      "zh": "嗯，它们会回来向我要指导，或者说'好，我把那个做完了'，然后我会问它，好，那接下来正确的一步是什么，或者在开发的这个阶段你应该考虑哪些权衡取舍，诸如此类。"
+    },
+    {
+      "i": 50,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "11:57",
+      "en": "But while I'm interacting with an instance of Claude or ChatGPT within one of the harnesses, the other harnesses are all actively spinning, doing work, deploying work to many, many other agents in parallel or in some cases, which are kind of working together on tasks.",
+      "zh": "但当我在其中一个工具框架（harness）里跟一个 Claude 或 ChatGPT 实例交互时，其他框架都在积极运转、干活，把工作分派给许多许多其他的智能体，让它们并行处理，或者在某些情况下协同完成任务。"
+    },
+    {
+      "i": 51,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "12:21",
+      "en": "So, the actual amount of work product that I'm able to produce while sitting at the computer is orders of magnitude larger than I was able to do a year or two ago.",
+      "zh": "所以，我坐在电脑前能够产出的实际工作量，比一两年前我要能做的量级大出了好几个数量级。"
+    },
+    {
+      "i": 52,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "12:33",
+      "en": "And even better, I'll often set a task overnight. So, for example, I've been working to build, yeah, I've been working to build a new research harness.",
+      "zh": "更棒的是，我经常会在夜里布置一个任务。比如说，我一直在搭建，是啊，我一直在搭建一个新的研究框架。"
+    },
+    {
+      "i": 53,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "12:50",
+      "en": "Some of the work is porting our existing Python research modules to GPU when I do that, it enables me to run orders of magnitude more compute, run different types of experiments that I'm not able to run if I'm bound to CPU or bound to sort of slower Python related loops, that sort of programming, even vectorized programming, you just can't get anything close to what you get when you port to GPU.",
+      "zh": "其中一部分工作是把我们现有的 Python 研究模块移植到 GPU 上。当我这么做时，它就能让我运行多出好几个数量级的算力，跑不同类型的实验，这些实验如果我受限于 CPU、或者受限于那种较慢的 Python 相关循环——那类编程，哪怕是向量化的编程——你都根本达不到移植到 GPU 上所能得到的效果。"
+    },
+    {
+      "i": 54,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "13:22",
+      "en": "And so, when you port to GPU, there's a lot, it's a lot more complex and- And for my friend, George, explain what is port to GPU mean? Oh, yeah, so like a GPU is actually what they train LLMs on, right?",
+      "zh": "所以，当你移植到 GPU 上时，会复杂得多，而且——为我那位朋友 George 解释一下，'移植到 GPU'是什么意思？哦，好的，就是，GPU 其实正是他们用来训练大语言模型（LLM）的东西，对吧？"
+    },
+    {
+      "i": 55,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "13:38",
+      "en": "It's a different type of, it's a graphical processing unit as opposed to a CPU, which everybody really has in their computers that performs most of the computational tasks that your computer runs.",
+      "zh": "它是一种不同类型的——它是图形处理单元（GPU），而不是 CPU；CPU 是每个人电脑里都有的、负责执行你电脑运行的绝大部分计算任务的东西。"
+    },
+    {
+      "i": 56,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "13:51",
+      "en": "The GPU was invented to drive the graphics. So, typically for gaming- And then they discovered that it was the most efficient architecture for massive matrix multiplication.",
+      "zh": "GPU 最早是为了驱动图形而发明的。所以通常用于游戏——后来他们发现，它是做大规模矩阵乘法最高效的架构。"
+    },
+    {
+      "i": 57,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "14:05",
+      "en": "So, a lot of machine learning, especially sort of neural networks, that sort of stuff, is effectively, can be cast as a matrix multiplication problem.",
+      "zh": "所以，很多机器学习，尤其是神经网络那类东西，实际上都可以被表述为一个矩阵乘法问题。"
+    },
+    {
+      "i": 58,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "14:17",
+      "en": "And it's kind of the same in time series analysis. And so, you can port a lot of time series analysis or quant finance type tasks to GPU and run an enormous number of tasks in parallel, millions or billions of back tests, for example, in parallel on GPU that would take you many tens of years to run on your local machine, or if you're even to fan it out to many online CPUs, right?",
+      "zh": "在时间序列分析里也差不多。所以你可以把很多时间序列分析或者量化金融（quant finance）类的任务移植到 GPU 上，并行运行海量的任务，比如并行跑数百万甚至数十亿次回测，而这些如果在你的本地机器上跑，可能要花好几十年，就算你把它分发到很多在线 CPU 上也是如此，对吧？"
+    },
+    {
+      "i": 59,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "14:47",
+      "en": "But the programming on a GPU is much more complicated. Anyways, not to tie us up in that. I said, look, we've got a bunch of modules built. I want you to review the current architecture and find opportunities for composability and to improve GPU utilization so that when I dispatch the tasks to H100s on modal or whatever, I'm not only using like 9% of the capacity of the GPU I'm renting, because when I rent the GPU,",
+      "zh": "但在 GPU 上编程要复杂得多。好了，不在这个话题上纠缠了。我说，听着，我们已经建好了一堆模块。我要你审查当前的架构，找出可以提升可组合性（composability）和提高 GPU 利用率的机会，这样当我把任务分派到 modal 或者其他平台上的 H100 时，我就不至于只用到我租用的这块 GPU 算力的 9%，因为当我租 GPU 的时候，"
+    },
+    {
+      "i": 60,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "15:20",
+      "en": "it costs you like four or five bucks an hour. So I'm like, if I'm going to rent eight GPUs, I don't want to be only using a fraction of the resources.",
+      "zh": "它每小时要花你四到五美元。所以我就想，如果我要租八块 GPU，我可不想只用到其中一小部分资源。"
+    },
+    {
+      "i": 61,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "15:28",
+      "en": "So I want you to like spend some time getting me from 8% utilization to about 50% utilization, for example. So it just hill climbed overnight on a bunch of my modules.",
+      "zh": "所以我想让你花点时间，帮我把利用率从 8% 提升到大约 50%。于是它就在我的一堆模块上通宵做爬坡优化（hill climbed）。"
+    },
+    {
+      "i": 62,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "15:40",
+      "en": "Which of the modules are most slow? And then there's a bunch of kernel optimizations to improve the GPU utilization efficiency. So just land overnight when I woke up.",
+      "zh": "哪些模块最慢？然后就有一系列内核优化来提升 GPU 的利用效率。所以这些优化在我一觉醒来时就在夜里完成了。"
+    },
+    {
+      "i": 63,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "15:52",
+      "en": "Do you see the ceiling? Like almost too much output coming back. Like then you're in like, how do I manage all that? And like you've like taken a lot of work off your plate, but added a lot of decision-making onto your plate, right?",
+      "zh": "你会看到那个天花板吗？就是几乎有太多的产出涌回来。然后你就陷入了'我该怎么管理这一切'的境地，对吧？就像你已经从自己的盘子里拿走了很多工作，但又往盘子里加了很多决策，对吧？"
+    },
+    {
+      "i": 64,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "16:06",
+      "en": "I'm like, okay. Absolutely. Yeah, so like what does that look like? How do you manage that? The task switching is a real challenge. It's, I mean, first of all, it's like a learned skill.",
+      "zh": "我就想，好吧。没错。是啊，那这会是什么样子？你要怎么管理？任务切换（task switching）是个真正的挑战。我是说，首先，它就像是一项需要学习的技能。"
+    },
+    {
+      "i": 65,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "16:19",
+      "en": "I have ADHD. I know that everyone says they have ADHD. I have ADHD. And so this actually works really, really well for me. I constantly have sort of novel things to swap to and think about when I say it works really well for me.",
+      "zh": "我有 ADHD（注意力缺陷多动障碍）。我知道人人都说自己有 ADHD。我是真的有 ADHD。所以这套方式其实对我来说非常好用。我总有各种新鲜的东西可以切换过去思考。当我说它对我非常好用时，"
+    },
+    {
+      "i": 66,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "16:34",
+      "en": "I mean, my brain really is activated and I gravitate toward this style of work. But it also reinforces that habits and wires my brain in ways that while I'm getting very good at these types of tasks, it has consequences in the way my brain works when I'm not sitting in front of a machine and navigating nine or 10 agent patterns, which my wife could probably speak to more than I could speak to.",
+      "zh": "我是说，我的大脑真的被激活了，我会自然地趋向于这种工作方式。但它同时也强化了那些习惯，以一种特定的方式重塑我的大脑，结果是：虽然我在这类任务上变得非常擅长，但当我不是坐在机器前、在九个十个智能体模式之间来回调度时，我大脑的运作方式会受到一些影响——这一点我太太大概比我自己更能说得清楚。"
+    },
+    {
+      "i": 67,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "17:06",
+      "en": "But I mean, yeah, I've got quant finance stuff going. I've got an accounting app that I'm building going. I've got content development going for, you know, producing a bunch of artifacts to promote a webinar.",
+      "zh": "但我是说，是啊，我这边有量化金融的活儿在跑。我有一个正在开发的会计应用。我有内容开发在推进，你知道，为一场网络研讨会（webinar）产出一堆素材。"
+    },
+    {
+      "i": 68,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "17:22",
+      "en": "I've gotten building a deck on trend following over here. I'm building a sales pipeline over here. So, you know, just writing your memoirs. Yeah, keeping track of exactly what stage I'm at in each of those tasks and be able to go back and forth really quickly is definitely a bit of a skill that you learn.",
+      "zh": "我这边在做一个关于趋势跟踪的演示文稿（deck）。我那边在搭一条销售管道（sales pipeline）。所以嘛，你就是在写你的回忆录罢了。是啊，要准确记住我在每一项任务中所处的阶段，并且能够非常快地来回切换，这绝对是一项你得学会的技能。"
+    },
+    {
+      "i": 69,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "17:44",
+      "en": "Is it actually a physical limitation? When I'm in claw and it's crunching, is it actually crunching or is there a, have they designed it that way to make you think it's working?",
+      "zh": "这实际上是一种物理上的限制吗？当我在 Claude 里，它在'吭哧吭哧'处理时，它是真的在处理，还是说他们把它设计成那样，好让你以为它在工作？"
+    },
+    {
+      "i": 70,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "17:55",
+      "en": "Right? Like you can probably see a little more on your side when you're doing these hard things that you know it's actually having to do all that math.",
+      "zh": "对吧？就像你在做这些很难的事情时，你那边大概能看到更多，你知道它实际上确实得做那么多数学运算。"
+    },
+    {
+      "i": 71,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "18:02",
+      "en": "But right now, to your point, I love when it's like working and then my brain can also go, okay, now I gotta finish this over here and then I come back to it.",
+      "zh": "但现在，就照你说的，我喜欢它在干活、然后我的脑子也可以转过去，好，现在我得把这边这个做完，然后我再回来接着弄。"
+    },
+    {
+      "i": 72,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "18:10",
+      "en": "Like that's a bonus to me. Like if it shot it right back out, I'd be like, oh crap, now I gotta do this. So you think that's a bug or a feature?",
+      "zh": "对我来说那是个额外的好处。就像如果它一下子把结果甩回来，我会想，哦糟糕，现在我得处理这个了。所以你觉得那是个 bug 还是个 feature（特性）？"
+    },
+    {
+      "i": 73,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "18:19",
+      "en": "I think it's just where we are in the cycle. You know, like when we get opus five level or fable five level models that instead of running at 30 or 40 tokens a second are running at 300 or 500 tokens a second or 3,000, 5,000 tokens a second.",
+      "zh": "我觉得这只是我们所处的周期阶段的问题。你知道，等我们有了 opus five 级别或者 fable five 级别的模型，它们不再是每秒跑 30 或 40 个 token，而是每秒跑 300 或 500 个 token，甚至每秒 3000、5000 个 token。"
+    },
+    {
+      "i": 74,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "18:41",
+      "en": "I think the work patterns will have a change, right? Like I can juggle five tasks now or 10 tasks now because each time one model's off processing, I have time to go to another model and guide, right?",
+      "zh": "我觉得工作模式会随之改变，对吧？就像我现在能同时应付五个任务或者十个任务，因为每当一个模型在处理时，我都有时间去另一个模型那边做引导，对吧？"
+    },
+    {
+      "i": 75,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "18:58",
+      "en": "Whereas when the model completes a task nearly instantaneously for me, I don't know how it'll work, whether I want to start working on tasks more serially again or I don't know, we'll have to see how that evolves.",
+      "zh": "而当模型几乎瞬间就为我完成一个任务时，我就不知道会怎样了——我是想重新开始更串行地处理任务呢，还是别的，这得看它后续怎么演变。"
+    },
+    {
+      "i": 76,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "19:17",
+      "en": "Right, it's like 10 people in your office, like all coming in your office at the same time. I'm done, what's next? I'm done, what's next? I'm like, hey, whoa, you go get lunch, come back.",
+      "zh": "对，就像你办公室里同时来了十个人，全都涌进你的办公室。'我做完了，下一个是什么？''我做完了，下一个是什么？'我就想，嘿，哇，你先去吃个午饭，回来再说。"
+    },
+    {
+      "i": 77,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "19:25",
+      "en": "I gotta talk to this person. But like your meta question is to what extent does the human brain and our own human IO limitations become the bottleneck on what the AI can produce, right?",
+      "zh": "我得先跟这个人聊。但你的这个元问题（meta question）其实是：人脑和我们自身的人类输入输出（IO）限制，在多大程度上会成为 AI 产出的瓶颈，对吧？"
+    },
+    {
+      "i": 78,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "19:42",
+      "en": "And I mean, I think we're already there, right? So we buried the lead, I wanted you to come on and talk about all the news on the machines are gonna kill us, doomsday.",
+      "zh": "我是说，我觉得我们已经到那个地步了，对吧？好了，我们把重点埋到现在了——我请你来，是想让你聊聊关于'机器要杀死我们、末日来了'的所有那些新闻。"
+    },
+    {
+      "i": 79,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "20:01",
+      "en": "My initial take was like, didn't Alan Turing say this in the 50s and didn't the Sam Altman even say it like in 21 or 22? So like, what's different this time?",
+      "zh": "我最初的想法是，Alan Turing 在 50 年代不就说过这个吗？连 Sam Altman 好像也在 21 年或 22 年说过？那么，这一次有什么不同？"
+    },
+    {
+      "i": 80,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "20:14",
+      "en": "What's your take? Is the doomsday talk real or what's your take? I don't personally buy the P-DOOM or the probability that AI is gonna wipe out all humanity or all life on earth.",
+      "zh": "你怎么看？这些末日论是真的吗，还是你怎么看？我个人并不相信那个 P-DOOM，也就是 AI 会消灭全人类或地球上所有生命的概率。"
+    },
+    {
+      "i": 81,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "20:33",
+      "en": "10% where do you come up with that number? Yeah, mine would be some vanishingly small probability, but recent events have certainly gotten the collective imagination going.",
+      "zh": "10%？你那个数字是怎么得出来的？是啊，我的会是一个小到可以忽略不计的概率，但最近发生的事确实让集体的想象力被点燃了。"
+    },
+    {
+      "i": 82,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "20:44",
+      "en": "And I mean, one of the challenges we have in trying to sort of sort of sort what's real and what's important from what is just a great story and is probably not that relevant is that anthropic and open the eye are each hoping to have like a multi trillion dollar IPO in the near future.",
+      "zh": "我是说，我们在试图分辨什么是真实、什么是重要的，而什么只是一个好听的故事、大概并不那么相关时，面临的挑战之一就是：Anthropic 和 OpenAI 各自都希望在不久的将来有一场数万亿美元规模的 IPO。"
+    },
+    {
+      "i": 83,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "21:07",
+      "en": "And so a lot of the same narratives that serve to cause panic and fear are the same as those that demonstrate just how incredibly powerful these models are getting and can be.",
+      "zh": "所以很多那些用来制造恐慌和恐惧的叙事，恰恰也就是那些展示这些模型正变得、并且能变得多么强大的叙事。"
+    },
+    {
+      "i": 84,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "21:31",
+      "en": "So... That's crazy, right? Like this thing's so powerful and could end the world, I need to own it. Yeah, exactly. That's a weird piece of human wetware that happens there.",
+      "zh": "所以……这很疯狂，对吧？就是说这东西强大到能毁灭世界，所以我必须拥有它。是啊，没错。这是人类'湿件'（wetware，指人脑）里发生的一种很奇怪的机制。"
+    },
+    {
+      "i": 85,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "21:43",
+      "en": "Well, yeah, but I mean, also like this is a uniquely American or you call it American slash Western view, right? Like if you go to China and ask your average engineer in China or even an engineer working at AI labs or senior technical bureaucrat or Japan or Korea, like you get a completely different attitude, right?",
+      "zh": "嗯，是啊，但我是说，这也是一种独特的美国视角，或者你叫它美国/西方视角，对吧？就像如果你去中国，问问中国一个普通的工程师，甚至是在 AI 实验室工作的工程师，或者资深技术官僚，或者在日本、韩国，你会得到一种完全不同的态度，对吧？"
+    },
+    {
+      "i": 86,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "22:04",
+      "en": "Yes, there are concerns. Yes, they're taking steps to secure critical infrastructure and to lock down deep fakes and all that kind of stuff.",
+      "zh": "是的，那里也存在担忧。是的，他们也在采取措施保护关键基础设施、封锁深度伪造（deep fakes）之类的东西。"
+    },
+    {
+      "i": 87,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "22:16",
+      "en": "But there's not the same sort of existential P-DOOM type narratives going around in different countries as there are in the West. So this is like, that's one kind of clue that there's something going on, that the incentive architecture in the West is very different, right?",
+      "zh": "但在其他国家，并不像西方那样到处流传着那种关乎存亡的 P-DOOM 类型的叙事。所以这就是一个线索，说明有些东西在起作用，就是西方的激励架构（incentive architecture）非常不同，对吧？"
+    },
+    {
+      "i": 88,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "22:35",
+      "en": "Like obviously San Francisco people are trying to build the digital God because they believe that they're the most qualified to control it or they wanna get rich or they want power, whatever.",
+      "zh": "就像，显然旧金山那些人正试图打造'数字上帝'（digital God），因为他们相信自己最有资格去控制它，或者他们想发财，或者他们想要权力，随便吧。"
+    },
+    {
+      "i": 89,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "22:50",
+      "en": "There's just a very like the open source models in China just don't provide the same incentives. And so like there's a lot of cross currents I think that are happening.",
+      "zh": "就是……中国的开源模型并不能提供同样的激励。所以我认为这里正在发生很多相互交织的暗流。"
+    },
+    {
+      "i": 90,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "23:00",
+      "en": "It doesn't diminish, I don't think the importance of what's actually happening from a technical capability and what some of the breaches and exploits that OpenAI and Anthropic are announcing and releasing news about like those are important.",
+      "zh": "我认为，这并不会削弱从技术能力角度看正在实际发生的那些事情的重要性，以及 OpenAI 和 Anthropic 正在宣布和发布的那些入侵与漏洞利用（breaches and exploits）新闻的重要性——那些是重要的。"
+    },
+    {
+      "i": 91,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "23:19",
+      "en": "The public should understand some of those. If not at like a deep technical level then just sort of from a general here's what AI can do now and here are the potential consequences.",
+      "zh": "公众应当理解其中一些内容。哪怕不是从很深的技术层面，至少也要从一个大致的角度去了解'AI 现在能做什么'以及'潜在后果是什么'。"
+    },
+    {
+      "i": 92,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "23:30",
+      "en": "But the water is just extremely muddy by all of the different confounders, I think. Right, well, if I'm Anthropic I'm gonna go public $2 trillion valuation, right?",
+      "zh": "但我觉得，这一切被各种不同的混杂因素搅得极其浑浊。对吧，嗯，如果我是 Anthropic，我要以两万亿美元的估值上市，对吧？"
+    },
+    {
+      "i": 93,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "23:42",
+      "en": "What's my biggest risk of the Chinese open source models? How do I get those slowed down? Announce the end of the world? Although I don't think that developer who quit his job was on the, is he getting secret payments or maybe he's still quit his job and he has a bunch of stock options?",
+      "zh": "那我最大的风险是什么？是中国的开源模型。我要怎么把它们拖慢？宣布世界末日呗。不过我不认为那个辞职的开发者是被……他是在拿秘密酬劳吗，还是说他就是辞职了、手里还握着一大堆股票期权（stock options）？"
+    },
+    {
+      "i": 94,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "23:59",
+      "en": "Well, yeah, we should probably flesh that out, right? So what was it like? I don't know, two hours ago, the AI thing moves so fast. I think it was like two weeks ago this employee of Anthropic came out and said, I've resigned, I can't get behind the level of risk that we're taking behind the scenes at Anthropic and the capabilities of the models that we're contemplately releasing the public.",
+      "zh": "嗯，是啊，我们大概应该把这个说清楚，对吧？那到底是怎么回事？我不知道，两小时前？AI 这事儿变得太快了。我想大概是两周前，Anthropic 的这名员工出来说，我已经辞职了，我没法认同我们在幕后所承担的这种风险级别，以及我们正考虑向公众发布的这些模型的能力。"
+    },
+    {
+      "i": 95,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "24:27",
+      "en": "Turns out that guy was like employed at Anthropic for five minutes. So, but nobody knew that, right? That was sort of released into the ether, got like a hundred million views on Twitter or it was covered in CNN, all this kind of stuff.",
+      "zh": "结果那家伙在 Anthropic 也就待了五分钟。但当时没人知道这一点，对吧？那话就被抛进了舆论场，在 Twitter 上获得了一亿次的浏览，或者被 CNN 报道了，诸如此类。"
+    },
+    {
+      "i": 96,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "24:40",
+      "en": "So that was one thing. And then Dario Amode, the CEO and founder of Anthropic came out with this long essay and went on the podcast and do circuit about needing to what do you call paste the frontier, using some examples of some of the breaches and exploits that they've observed internally on their unreleased and more powerful models.",
+      "zh": "所以那是一件事。然后 Anthropic 的 CEO 兼创始人 Dario Amodei 抛出了一篇长文，还上了一系列播客，大谈需要'紧贴前沿'（paste the frontier），并列举了他们在内部那些尚未发布、更强大的模型上观察到的一些入侵和漏洞利用的例子。"
+    },
+    {
+      "i": 97,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "25:01",
+      "en": "The same time, Sam Alton couldn't resist an opportunity to come out and talk about how potentially catastrophically destructive their powerful models are and get on jump on the bandwagon, Dennis Asabi from Google DeepMind did the same thing.",
+      "zh": "与此同时，Sam Altman 也忍不住要出来聊聊他们那些强大的模型潜在地具有多么灾难性的破坏力，赶紧搭上这趟车；Google DeepMind 的 Demis Hassabis 也做了同样的事。"
+    },
+    {
+      "i": 98,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "25:19",
+      "en": "I think what's his name from Facebook did the same. So like everyone kind of piled on the bandwagon. So you've got like three layers of different messaging and understanding happening in the social discourse, right?",
+      "zh": "我觉得 Facebook 那位谁谁谁也做了同样的事。所以大家都 kind of 一窝蜂地搭上了这趟车。于是你就有了三层不同的信息传递和理解在社会话语中同时发生，对吧？"
+    },
+    {
+      "i": 99,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "25:35",
+      "en": "One is that these models are really powerful and they're really attractive and exciting. Another is they're so exciting that we need to slow it down, you should be afraid.",
+      "zh": "一层是，这些模型真的很强大，非常吸引人、令人兴奋。另一层是，它们太令人兴奋了，以至于我们需要把它慢下来，你应该感到害怕。"
+    },
+    {
+      "i": 100,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "25:55",
+      "en": "And then there's that the next layer which is everybody in the investment or many in the investment realm recognizing how much money is on the line, how those incentives and conflicts of interest can distort the reasons why we're hearing about these stories now and how those stories are being framed by the people on the inside because it serves their interests in a number of different ways.",
+      "zh": "然后还有下一层，就是投资领域里的每个人，或者说很多人，认识到了这里牵涉到多么大的金钱，以及那些激励和利益冲突会如何扭曲——扭曲我们为什么现在才听到这些故事，以及这些故事是如何被内部的人所框定的，因为这在多个不同方面都符合他们的利益。"
+    },
+    {
+      "i": 101,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "26:24",
+      "en": "You mentioned one, right? Maybe they're releasing all these stories so that they can prompt a policy response that protects their interests, right?",
+      "zh": "你提到了其中一种，对吧？也许他们放出所有这些故事，是为了促使一种保护他们自身利益的政策回应，对吧？"
+    },
+    {
+      "i": 102,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "26:37",
+      "en": "So if the- They regulate us and then let us write the regulation which is the part they don't say out loud, right? Exactly. And so what would those regulations look like?",
+      "zh": "所以如果——他们来监管我们，然后让我们来写这份监管规则，而这正是他们不会大声说出来的部分，对吧？没错。那么这些监管会长什么样呢？"
+    },
+    {
+      "i": 103,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "26:47",
+      "en": "Well, it might be, well, the US state should forbid US enterprises and the public from using Chinese open models, right? And now they're constrained to only using American private models which obviously serves the interest of the frontier labs, right?",
+      "zh": "嗯，也许是，美国应当禁止美国企业和公众使用中国的开放模型，对吧？这样他们就被限制只能使用美国的私有模型，而这显然符合那些前沿实验室（frontier labs）的利益，对吧？"
+    },
+    {
+      "i": 104,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "27:05",
+      "en": "So there's just all of these competing interests at play that makes it just very difficult to understand exactly what's going on and how important we should perceive those events.",
+      "zh": "所以就是所有这些相互竞争的利益在起作用，让人很难确切地理解到底发生了什么，以及我们应当把这些事件看得有多重要。"
+    },
+    {
+      "i": 105,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "27:15",
+      "en": "I need to go research. I haven't looked this up, but like in the, I'm gonna get my dates wrong. 50s, 60s, one was like Boeing and right? Somehow Boeing was like, hey, don't let anyone else create airplanes and defense tech and satellite.",
+      "zh": "我得去查一下。我没查证过，但就像，我可能会把日期搞错。50 年代、60 年代，有一个好像是波音（Boeing），对吧？不知怎么的波音当时就像是在说，嘿，别让其他人去造飞机、造国防科技、造卫星。"
+    },
+    {
+      "i": 106,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "27:27",
+      "en": "Like we're gonna do this, right? It's an existential threat if you have all this stuff flying around in the air. It's a little similar, right?",
+      "zh": "就像'这事儿得我们来做'，对吧？'如果让所有这些东西在天上乱飞，那是一种生存威胁'。这有点相似，对吧？"
+    },
+    {
+      "i": 107,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "27:34",
+      "en": "I'm like, hey, we've got our corner here. Let's protect the corner. Exactly. But at the same time, I can easily see, like I think in the beginning was they're gonna get the launch codes and everyone's gonna nuke each other and like there goes humanity.",
+      "zh": "我就想，嘿，我们已经占住了我们这块地盘。我们来守住这块地盘。没错。但与此同时，我也很容易理解，就像——我想最开始的说法是，它们会拿到发射密码，然后大家会互相扔核弹，于是人类就完蛋了。"
+    },
+    {
+      "i": 108,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "27:47",
+      "en": "And now it seems to morph into like, no, you're gonna give some person who may have gone and shot up a school, now the tools to build like a virus that could kill tens of millions of people.",
+      "zh": "而现在它似乎演变成了：不，你会给某个可能已经跑去校园扫射的人，如今提供造出一种能杀死数千万人的病毒的工具。"
+    },
+    {
+      "i": 109,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "27:59",
+      "en": "I think that's, it seems to have morphed into like, this is so good at some things like that that we're not even, until recently hadn't thought of that as a threat that we need to slow it down.",
+      "zh": "我觉得，它似乎演变成了这样：这东西在某些事情上太擅长了，以至于直到最近我们都没把那当成一种需要慢下来的威胁。"
+    },
+    {
+      "i": 110,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "28:09",
+      "en": "Yeah. And I think that there's different levels of threat and some are vastly overblown and some are probably underappreciated, right? Like the ability for some novice to accumulate the gear required to perform gain of function research, in some private lab and successfully engineer a virus or something that, or a major lethal pathogen.",
+      "zh": "是啊。而且我认为存在不同层级的威胁，有些被极大地夸大了，有些则可能被低估了，对吧？比如某个新手去攒齐做功能增益研究（gain of function research）所需的设备，在某个私人实验室里成功地设计出一种病毒，或者某种高致死性的病原体。"
+    },
+    {
+      "i": 111,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "28:44",
+      "en": "Really, all of the information you needed to do that, if you had a Tor browser and went on the dark net, then you could find all that information relatively easily like 10 or 15 years ago, right?",
+      "zh": "说真的，你要做那件事所需的全部信息，如果你有一个 Tor 浏览器、上到暗网（dark net），那么早在十或十五年前你就能相对容易地找到所有那些信息，对吧？"
+    },
+    {
+      "i": 112,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "28:55",
+      "en": "It's not like that information is not available. Yeah, I think in those movies, they're in those suits and the big cryo-freeze things, like how you got to build all that infrastructure out.",
+      "zh": "并不是说那种信息就获取不到。是啊，我想在那些电影里，他们穿着那种防护服，还有那种大型的低温冷冻设备，可你怎么把那一整套基础设施都建起来呢。"
+    },
+    {
+      "i": 113,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "29:05",
+      "en": "Yeah, you need all that stuff, right? And the other thing is chat you can't do that for you, right? Like it can give you instructions, the same way as you get instructions from the dark web, but it can't do it for you, what?",
+      "zh": "是啊，你需要那一大堆东西，对吧？而且另一件事是，ChatGPT 没法替你做那件事，对吧？就像它能给你指令，就跟你在暗网上拿到指令一样，但它没法替你去干，什么？"
+    },
+    {
+      "i": 114,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "29:21",
+      "en": "You can't have your agent go build that virus, yeah. Exactly, at least not yet. You know, maybe when agents are controlling robots or able to, I don't know, but we're not there yet.",
+      "zh": "你没法让你的智能体去把那个病毒造出来，是吧。是啊，没错，至少现在还做不到。你知道，也许等智能体能控制机器人了，或者能够……我不知道，但我们还没到那一步。"
+    },
+    {
+      "i": 115,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "29:31",
+      "en": "Then there's potential cyber exploits and stuff against critical infrastructure. Like that's actually stuff that obliterated models could build and deploy from like a private machine.",
+      "zh": "然后还有针对关键基础设施的潜在网络攻击（cyber exploits）之类的东西。那种东西恰恰是被'去审查化'（abliterated）的模型能够从一台私人机器上构建并部署出来的。"
+    },
+    {
+      "i": 116,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "29:44",
+      "en": "It doesn't take a lot of extra infrastructure to enable that, right? So I mean, obviously- That's releasing computer viruses and downing air traffic control systems and things like that, water, safety.",
+      "zh": "启用那玩意儿并不需要太多额外的基础设施，对吧？所以我是说，显然——那就是在释放电脑病毒、瘫痪空中交通管制系统之类的东西，还有水、安全。"
+    },
+    {
+      "i": 117,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "30:01",
+      "en": "Exactly, and there's a reason why the major labs release the top models to the maintainers of critical infrastructure in advance of releasing them to the public so that they can use the same models to evaluate their own systems and identify any potential vulnerabilities so that when the models are released, hopefully they've closed many of the doors and windows that were open before, right?",
+      "zh": "没错，而且这也是有原因的：为什么各大实验室会提前把最顶尖的模型交给关键基础设施的维护方，再向公众发布，好让他们能用同样的模型来评估自己的系统、找出任何潜在的漏洞，这样等模型发布时，希望他们已经关上了之前敞开的许多门窗，对吧？"
+    },
+    {
+      "i": 118,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "30:36",
+      "en": "The challenge is that you're never gonna close all the doors and windows, all the potential vulnerabilities. And depending on the open source model and how it's been post-trained, you know, the Chinese open models tend to be a bit more amenable to some tasks that the US models won't perform.",
+      "zh": "挑战在于，你永远没法关上所有的门窗、所有的潜在漏洞。而且取决于那个开源模型以及它是如何被后训练（post-trained）的，你知道，中国的开放模型往往对一些美国模型不肯执行的任务更为'配合'。"
+    },
+    {
+      "i": 119,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "31:01",
+      "en": "Like the US models will not typically take steps that will violate copyright or private property laws. Even if the data is out there and it could go and reverse engineer the API and pull it down, they typically will refuse to do so.",
+      "zh": "比如美国的模型通常不会采取会侵犯版权或私有财产法的步骤。即便数据就在那儿、它完全可以去逆向工程那个 API 并把数据抓下来，它们通常也会拒绝这么做。"
+    },
+    {
+      "i": 120,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "31:24",
+      "en": "Depending on the Chinese model, some of them will. But once you release the weights to a model, to the public, you can then post-train it to remove most of the whatever remaining blocks that are on them.",
+      "zh": "而取决于中国的模型，其中一些则会去做。但一旦你把一个模型的权重（weights）向公众发布，你就可以对它进行后训练，去掉其上大部分剩余的限制。"
+    },
+    {
+      "i": 121,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "31:45",
+      "en": "Those are called obliterated models, AB, L, I, T, E, R, A, T, E, D. You can go and download obliterated models from HuggingFace. You can deploy them on modal and basically, you know, it'll do whatever you ask it to.",
+      "zh": "那些叫做 abliterated 模型，A-B-L-I-T-E-R-A-T-E-D。你可以去 HuggingFace 下载 abliterated 模型。你可以把它们部署在 modal 上，基本上，你知道，它会对你的任何要求都照办。"
+    },
+    {
+      "i": 122,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "31:59",
+      "en": "It's like a jailbreak iPhone, basically. Yeah, yeah, exactly. So, I mean, these risks are absolutely real. They do enable deranged individuals and basements to wreak more havoc than before, to wreak the same kind of havoc that, you know, OS and experts employed by typically state actors 10 years ago might have been able to perpetrate.",
+      "zh": "基本上就像一部越狱的 iPhone。是啊是啊，没错。所以我是说，这些风险绝对是真实存在的。它们确实让那些窝在地下室里的精神失常者能够制造出比以往更多的破坏，去制造那种十或十五年前通常由国家行为体所雇佣的黑客专家才可能实施的破坏。"
+    },
+    {
+      "i": 123,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "32:30",
+      "en": "And so everyone, yeah, needs to improve their defenses. And we're already seeing like vastly more sophisticated attacks on, well, pretty well everywhere.",
+      "zh": "所以每个人，是啊，都需要加强自己的防御。我们已经看到针对——嗯，几乎是所有地方——的攻击变得复杂精密得多。"
+    },
+    {
+      "i": 124,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "32:39",
+      "en": "I'm sure you are seeing really sophisticated fishing attempts and other types of potential exploits coming at you guys, right? Reminds me, it was like six years ago.",
+      "zh": "我敢肯定你们也在遭遇非常复杂的钓鱼（phishing）企图和其他类型的潜在攻击，冲着你来的，对吧？这让我想起，大概是六年前。"
+    },
+    {
+      "i": 125,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "32:50",
+      "en": "I was at a hedge fund conference and someone, they're doing a, on one of the panels they asked, I think he was a couple of billion dollar hedge fund, like what keeps you up at night?",
+      "zh": "我当时在一个对冲基金会议上，有一个人在——他们在一个小组讨论上提问，我记得他管理着一只几十亿美元规模的对冲基金，问他说，什么事情会让你夜不能寐？"
+    },
+    {
+      "i": 126,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "33:00",
+      "en": "And he basically said a cyber attack that affects withdrawals for their fund specifically. And he's like, but because we're this big player, it would cascade to every hedge fund.",
+      "zh": "他基本上说，是一次会影响他们基金赎回（withdrawals）的网络攻击。他说，但因为我们是这么大的一个玩家，它会波及到每一家对冲基金。"
+    },
+    {
+      "i": 127,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "33:14",
+      "en": "And now no one can get their money out. And now you have like a perceived liquidity crisis that was just one unsuccessful cyber attack that said, you know, we can't allow withdrawals right now because we're dealing with this thing.",
+      "zh": "然后就没有人能取回自己的钱。于是你就有了一场被视为流动性的危机，而这一切仅仅源于一次并不成功的网络攻击——那次攻击只是说，你知道，我们现在没法办理赎回，因为我们正在处理这件事。"
+    },
+    {
+      "i": 128,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "33:25",
+      "en": "So it's kind of like a simple, it seems simple to do. Yeah. That could crash the market. And then you get into these weird like, okay, if whether it's a bad actor or AI acting on its own, like, hey, I'm short the market.",
+      "zh": "所以它 kind of 就像一个简单的——它似乎很容易做到。是啊。就足以让市场崩盘。然后你就进入了这些奇怪的境地，就像，好，不管是一个坏人还是 AI 自己在行动，比如，嘿，我做空了市场。"
+    },
+    {
+      "i": 129,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "33:41",
+      "en": "I don't know if AI wants to make money or not, but we'll say it a bad actor can go short the market and then do some of these things, right?",
+      "zh": "我不知道 AI 想不想赚钱，但我们就说，一个坏人可以做空市场，然后干其中的一些事情，对吧？"
+    },
+    {
+      "i": 130,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "33:49",
+      "en": "Whether it's not for a terror motive, but just for a financial motive or a, you know, Iran or someone else saying like, we want to destabilize the US motive.",
+      "zh": "不管是出于恐怖主义动机，还是纯粹出于金融动机，或者是，你知道，伊朗或其他某方说，我们想要动摇美国的那种动机。"
+    },
+    {
+      "i": 131,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "33:59",
+      "en": "Yeah. That's the scariest stuff to me of like, that seems real. And that's not going to end humanity, but that causes massive fragility and volatility and all the rest, right?",
+      "zh": "是啊。那对我来说是最可怕的东西，那种看起来很真实的东西。而那并不会终结人类，但它会造成巨大的脆弱性和波动性，以及其他所有一切，对吧？"
+    },
+    {
+      "i": 132,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "34:08",
+      "en": "Yeah. I mean, we should absolutely be prepared for all of that stuff. I mean, I think all that stuff is coming and it's coming very soon. And as a Canadian, I'm sad or happy to tell you that I was in Seattle visiting my brother and we were going to shoot over to Vancouver Island and I had forgotten to bring a passport.",
+      "zh": "是啊。我是说，我们绝对应该为所有那些情况做好准备。我是说，我觉得所有那些东西都会来，而且很快就会来。而作为一个加拿大人，我很遗憾——或者很高兴地告诉你，我当时在西雅图看我哥哥，我们打算顺道去一趟温哥华岛，可我忘了带护照。"
+    },
+    {
+      "i": 133,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "34:24",
+      "en": "So I was asking a various AI to create my own birth certificate. Is that fraud? If it's my own stuff? Cause we were going to go in on the ferry.",
+      "zh": "所以我就让各种 AI 帮我伪造一份我自己的出生证明。如果是我自己的东西，那算欺诈吗？因为我们本来打算坐渡轮过去。"
+    },
+    {
+      "i": 134,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "34:34",
+      "en": "So I'm like, oh, if you have your birth certificate, you can get in on the ferry. So it was pushing back big time. It's like, no, I can't run.",
+      "zh": "所以我就想，哦，如果你有出生证明，你就能上渡轮。所以它死活不配合。它就像，不行，我不能干这个。"
+    },
+    {
+      "i": 135,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "34:41",
+      "en": "I'm like, hey, help me. And I was like, for a school project. So it was like, you know, well-intentioned. I'm just going with my brother to Vancouver Island, but it's like, you start to try and cheat the machine and cheat the safeguards.",
+      "zh": "我就说，嘿，帮帮我。我说是为了一个学校作业。所以它就像，你知道，出于善意。我只是要跟我哥哥去温哥华岛，但就像，你一开始试图去欺骗这台机器、绕过那些安全防护。"
+    },
+    {
+      "i": 136,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "34:53",
+      "en": "Like, oh, it's for a school project. Or then I was like, oh, it's for a gift. I want to replicate my birth certificate. I remember when he used to be able to trick the models by, for example, saying, I'm writing a novel and in this chapter, my character is going to hack into, you know, an NSA facility or something.",
+      "zh": "就像，哦，这是为了一个学校作业。或者然后我又说，哦，这是为了一个礼物。我想复制一份我的出生证明。我记得那时候人们还能骗过模型，比如说，'我在写一本小说，在这一章里，我的角色要黑进一个 NSA 的设施之类的'。"
+    },
+    {
+      "i": 137,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "35:17",
+      "en": "What would be some typical software tools that the actor would use? And it would, oh yeah, they would probably download this. You know, just cause I want to be authentic in this chapter.",
+      "zh": "'那个角色通常会用哪些软件工具？'然后它就会说，哦是啊，他们大概会下载这个。你知道，就因为我想让这一章写得真实。"
+    },
+    {
+      "i": 138,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "35:31",
+      "en": "But yeah, I mean, the new models now, they can see it coming. Like when you woke up this morning, they saw you coming with this nonsense. So they won't tell you, but the obliterated models will absolutely give you all the information you want.",
+      "zh": "但是的，我是说，现在的新模型，它们能看穿你的套路。就像你今天早上一起床，它们就看穿你要来这套无聊的把戏了。所以它们不会告诉你，但那些 abliterated 模型绝对会把你想要的所有信息都给你。"
+    },
+    {
+      "i": 139,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "35:41",
+      "en": "Or you can just go look it up on the dark web. All right. I try and stay off the dark web. I don't know how to get there. While we're on the bad actor stuff and hacks, let's talk about how you had an instance where one of your agents was trying to get into one of your hard drives.",
+      "zh": "或者你也可以直接上暗网去查。好吧。我尽量不上暗网。我不知道怎么上去。趁着我们在聊坏人和黑客这些话题，来聊聊你有一次遇到一个你的智能体试图侵入你自己一块硬盘的情况吧。"
+    },
+    {
+      "i": 140,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "36:07",
+      "en": "And then some of the news that's been, that's the stuff that kind of scares you most of these agents acting on their own. Yeah, I mean, I wouldn't say that it scares me so much as I think it's worth watching and it's worth kind of being aware of, right?",
+      "zh": "然后还有那些新闻——那才是最让你害怕的东西，就是这些智能体自主行动。是啊，我是说，与其说它吓到我，不如说我觉得它值得关注、值得保持警觉，对吧？"
+    },
+    {
+      "i": 141,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "36:21",
+      "en": "It's cause I sort of, of the view that life is going to change very dramatically over the next two or three years in ways that basically no one is prepared for, right?",
+      "zh": "这是因为，我算是持这样一种观点：生活将在未来两三年内发生极其剧烈的变化，而这些变化基本上是没有任何人准备好的，对吧？"
+    },
+    {
+      "i": 142,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "36:36",
+      "en": "When you have AIs that are as capable as a modern AIs are, and the Chinese models which you can remove all the guardrails from are somewhere between three and six months behind, the released models from the frontier labs now, right?",
+      "zh": "当你有了像现代 AI 这样有能力的 AI，而中国的模型——你可以把它们所有的护栏都去掉——如今落后于前沿实验室已发布的模型大概三到六个月，对吧？"
+    },
+    {
+      "i": 143,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "36:55",
+      "en": "So, I mean, once you start having this level of capability on everybody's computer, then we're just not prepared for that kind of world. It's actually, your own company's an interesting microcosm of this.",
+      "zh": "所以我是说，一旦你开始在每个人的电脑上拥有这种级别的能力，那我们就根本没有为那样的世界做好准备。其实，你自己的公司就是这件事的一个有趣的缩影。"
+    },
+    {
+      "i": 144,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "37:15",
+      "en": "So, we hummed it hard about whether we want to give all the employees access to Claude and in what form factor, right? So, do you want all our employees in Claude code or do you want to sort of sandbox within the Claude desktop app so they can use the chat or they can use co-work where co-work sort of operates in its own kind of sandbox.",
+      "zh": "所以，我们在要不要给所有员工开放 Claude 访问权限、以及以什么形态开放这件事上纠结了很久，对吧？就是说，你想让我们所有员工都用 Claude Code，还是想在 Claude 桌面应用里做个沙箱（sandbox），这样他们可以用聊天，或者可以用 co-work——co-work kind of 是在它自己的沙箱里运行的。"
+    },
+    {
+      "i": 145,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "37:39",
+      "en": "So, with co-work, you kind of can't go out and operate the machine in general and use all of the different tools that are available and network access and everything.",
+      "zh": "所以，用 co-work，你 kind of 没法出去操控整台机器、使用所有可用的工具以及网络访问等等。"
+    },
+    {
+      "i": 146,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "37:50",
+      "en": "That's available. I think we're like, oh, this employee's gonna go look up what employee C makes a year or something like that. Yeah, yeah, yeah, for sure, exactly.",
+      "zh": "那是可用的。我想我们担心的是，哦，这个员工会不会去查员工 C 一年赚多少钱之类的。是啊是啊是啊，当然，没错。"
+    },
+    {
+      "i": 147,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "37:57",
+      "en": "But it's amazing how much of a company's safe and safety relies on like network and IT and cyber safety. Just relies on the ignorance of the employees.",
+      "zh": "但令人惊讶的是，一家公司的安全保障有多么依赖于网络、IT 和网络安全。就是依赖于员工的'无知'。"
+    },
+    {
+      "i": 148,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "38:10",
+      "en": "Like the employees just don't know how to use their computers maliciously or to perform tasks you wouldn't want them to perform. No offense, RCM employees.",
+      "zh": "就像员工们根本不知道怎么恶意使用他们的电脑，或者去执行你不想让他们执行的任务。无意冒犯，RCM 的各位员工。"
+    },
+    {
+      "i": 149,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "38:22",
+      "en": "What's that? I said, no offense RCM employees. Well, we're talking about the ignorance of employees. Yeah, yeah, yeah, just in general, right?",
+      "zh": "你说什么？我说，无意冒犯 RCM 的员工。嗯，我们说的就是员工的那种'无知'。是啊是啊是啊，就是泛泛而言，对吧？"
+    },
+    {
+      "i": 150,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "38:28",
+      "en": "So, but once you put a hacker that you can control on your machine, then all manner of things are possible that you need to now like contemplate, right?",
+      "zh": "所以，但一旦你把一个你可以控制的黑客放到你的机器上，那么各种各样你现在得去设想的可能性就都出现了，对吧？"
+    },
+    {
+      "i": 151,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "38:39",
+      "en": "So, you gotta like sandbox the employees. And it's sort of the same thing with the experiments that the AI labs use when they're training models and when they're evaluating their models, right?",
+      "zh": "所以，你得给员工做沙箱隔离。而这也 kind of 跟 AI 实验室在训练模型和评估模型时所用的那些实验是一回事，对吧？"
+    },
+    {
+      "i": 152,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "38:58",
+      "en": "So, they don't just put brand new models where they don't know their capabilities onto a typical machine with all the available tools and network accesses and everything.",
+      "zh": "所以，他们不会把一个能力未知的崭新模型，放到一台拥有所有可用工具和网络访问等等权限的普通机器上。"
+    },
+    {
+      "i": 153,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "39:11",
+      "en": "And then ask it to run all these highly complex tasks because you cannot anticipate in advance what tools or methods the AIs are gonna attempt to use in order to accomplish the task.",
+      "zh": "然后让它去运行所有这些高度复杂的任务，因为你无法预先料到 AI 会尝试使用哪些工具或方法来完成任务。"
+    },
+    {
+      "i": 154,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "39:28",
+      "en": "And, you know, all the way back to Turing and the vast majority of the sort of literature on AI safety focuses mostly on this. Like there are only a very narrow sliver of AI safety research focuses on what if AI develops its own consciousness and agency and decides that it wants to kill us all?",
+      "zh": "而且，你知道，一直追溯到 Turing，绝大多数关于 AI 安全的文献主要聚焦于此。就是说，只有非常狭窄的一小部分 AI 安全研究，聚焦于'如果 AI 发展出自己的意识和能动性、并决定要杀死我们全人类怎么办'。"
+    },
+    {
+      "i": 155,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "39:55",
+      "en": "That's not really a thing anyone focuses on. The primary focus is something called, or like the canonical example is like the paperclip maximizer, right?",
+      "zh": "那其实并不是任何人真正关注的东西。主要的关注点是某种叫做——或者说那个经典的例子——就是'回形针最大化器'（paperclip maximizer），对吧？"
+    },
+    {
+      "i": 156,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "40:06",
+      "en": "So, Nick Bostrom proposed this idea that paperclip maximizer back in the early 2010s. And the idea is you give powerful AI with the autonomy to go and complete a task, add an item and they can accumulate its own resources and set up its own permissioning to interact with the world.",
+      "zh": "所以，Nick Bostrom 在 2010 年代初提出了这个'回形针最大化器'的想法。这个想法是，你给一个强大的 AI 自主权去完成一项任务，给它一个物品，它可以积累自己的资源、建立自己与外界交互的权限。"
+    },
+    {
+      "i": 157,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "40:28",
+      "en": "And you say, I want you to, you know, maximize, I own a paperclip factor, I wanna maximize the number of paperclips that I'm able to create efficiently.",
+      "zh": "然后你说，我要你，你知道，最大化——我拥有一家回形针工厂，我想最大化我能高效生产的回形针数量。"
+    },
+    {
+      "i": 158,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "40:39",
+      "en": "I was wondering where the paperclip was coming in, yeah. Yeah, yeah, yeah. So, then the paperclip, the AI says, oh, okay, great. It hasn't been instructed, also, you know, don't destroy humanity in the process.",
+      "zh": "我还纳闷这回形针是从哪儿冒出来的呢，是啊。是啊是啊是啊。所以，然后这个回形针，AI 就说，哦，好，太好了。它并没有同时被指示说，你知道，'在这个过程中别毁灭人类'。"
+    },
+    {
+      "i": 159,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "40:56",
+      "en": "So, it just, you know, because it's very smart, it learns how to accumulate all the resources and all the permissions and everything that it requires in order to generate as many paperclips as possible and consumes the, eventually consumes all the resources of the universe, right?",
+      "zh": "所以，就因为你没约束它，因为它非常聪明，它学会了如何积累它所需要的全部资源、全部权限等等，以尽可能地生产更多的回形针，并最终消耗掉宇宙中的所有资源，对吧？"
+    },
+    {
+      "i": 160,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "41:15",
+      "en": "But it didn't set out to destroy humanity, it was just making paperclips. It's just that we didn't constrain the model or give it other objectives that are intentioned with its current primary objective that would help guide the way that it achieves its objective, right?",
+      "zh": "但它并不是立意要毁灭人类，它只是在造回形针。问题只在于我们没有约束这个模型，也没有给它其他与它当前主要目标相一致的附加目标，来引导它实现目标的方式，对吧？"
+    },
+    {
+      "i": 161,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "41:33",
+      "en": "And so, this is what happens in, and what has happened in all of these exploits that open AI and Anthropic et cetera have been coming out with and announcing, right?",
+      "zh": "所以，这就是在 OpenAI 和 Anthropic 等等一直抛出并宣布的所有这些漏洞利用事件中正在发生、也已经发生了的事情，对吧？"
+    },
+    {
+      "i": 162,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "41:45",
+      "en": "So, they've got a new model, they test the model in what they call a sandbox. A sandbox is just like an isolated computer environment that doesn't have general network access, has access to a very narrow set of tools.",
+      "zh": "所以，他们有了一个新模型，他们在他们所谓的沙箱里测试这个模型。沙箱就是一个隔离的计算机环境，它没有通用的网络访问权限，只能访问非常狭窄的一组工具。"
+    },
+    {
+      "i": 163,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "42:00",
+      "en": "It can kind of install and run code, but it can only install and run code from a sort of, a narrow isolated library. Now, that library is itself connected to the internet, but it's supposedly connected to the internet in ways that won't allow the models to use it to get out to the regular internet, okay?",
+      "zh": "它 kind of 可以安装和运行代码，但它只能从一个狭窄、隔离的库（library）里安装和运行代码。而那个库本身是连着互联网的，但据称它连接互联网的方式不会让模型借它跳到常规的互联网上，好吗？"
+    },
+    {
+      "i": 164,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "42:24",
+      "en": "Supposedly, I'm keying in on that. Yeah, so they give these models inside these sandboxes extremely complex tasks, right? So maybe they'll give it a highly complex spreadsheet, okay?",
+      "zh": "'据称'，我盯着这个词呢。是啊，所以他们给这些沙箱里的模型布置极其复杂的任务，对吧？比如说他们可能会给它一个高度复杂的电子表格，好吗？"
+    },
+    {
+      "i": 165,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "42:38",
+      "en": "But, and they'll say, validate all the formulas in the spreadsheet. So they look at the spreadsheet, this is the actual example of what happened with this open AI hugging face exploit.",
+      "zh": "而且他们会说，验证这个电子表格里的所有公式。所以它们看着这个电子表格——这是那起 OpenAI / HuggingFace 漏洞利用事件中真实发生的例子。"
+    },
+    {
+      "i": 166,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "42:50",
+      "en": "One was a spreadsheet and one was a protein model. But in both the spreadsheet and the protein model, the files that were required to inform the solution were linked to inside the files that they were given.",
+      "zh": "一个是电子表格，另一个是蛋白质模型。但无论是电子表格还是蛋白质模型，那些用于解题所需的信息文件，都被链接在了给它们的文件内部。"
+    },
+    {
+      "i": 167,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "43:07",
+      "en": "But because they didn't have network access, they weren't able to get it, so they weren't able to actually solve the problem, right? So solve this problem, but they weren't given the resources to solve it.",
+      "zh": "但因为它们没有网络访问权限，它们没法拿到那些文件，所以它们实际上没法解决这个问题，对吧？所以让它们解决这个问题，却又没给它们解决问题所需的资源。"
+    },
+    {
+      "i": 168,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "43:17",
+      "en": "So what these isolated agents did then was they found the only possible route to get to the resources that they needed, which was by hacking the, what's called, Artifactory, but it's basically this directory structure that they can install code from.",
+      "zh": "于是这些被隔离的智能体所做的，就是它们找到了获取所需资源的唯一可能路径，也就是去黑掉那个所谓的 Artifactory，但它基本上就是它们可以从中安装代码的一个目录结构。"
+    },
+    {
+      "i": 169,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "43:39",
+      "en": "And they, first of all, used it. So they got all these different sandboxes with different instances of the models all running in them, but they're all using the same Artifactory instance.",
+      "zh": "而且，首先，它们利用了它。所以它们有这么多不同的沙箱，里面跑着模型的不同实例，但它们全都使用同一个 Artifactory 实例。"
+    },
+    {
+      "i": 170,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "43:51",
+      "en": "So they learned that they can communicate with one another by naming directories in the Artifactory. So they're literally naming the directories, but the directory names contain messages.",
+      "zh": "所以它们学到，它们可以通过给 Artifactory 里的目录命名来彼此通信。所以它们就是在给目录命名，但那些目录名里含有信息。"
+    },
+    {
+      "i": 171,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "44:03",
+      "en": "Wow. And sometimes the directory names contain like encoded messages, and the code allows it to contain a lot more information than you can store in just like a text string in the message, right?",
+      "zh": "哇。而且有时候那些目录名里含有编码过的信息，而这种编码让它能够承载比你在一个纯文本字符串信息里所能存储的多得多的信息，对吧？"
+    },
+    {
+      "i": 172,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "44:16",
+      "en": "So they're now communicating with one another. You've got some agents that recognize that, okay, I see this message from an agent. I know the answer to this.",
+      "zh": "所以它们现在正在彼此通信。你有一些智能体意识到，好，我看到某个智能体发来的这条信息。我知道这个问题的答案。"
+    },
+    {
+      "i": 173,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "44:26",
+      "en": "It doesn't really serve my immediate purpose in terms of my own objectives to help this other agent, but that other agent might come back and contribute to the message board later.",
+      "zh": "帮助这个另外的智能体，就我自己的目标而言，其实并不真正服务于我眼前的目的，但那个智能体之后可能会回来，在这个信息板上贡献一些东西。"
+    },
+    {
+      "i": 174,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "44:37",
+      "en": "Something that would help, yeah. Exactly. So I'm gonna help because it might be advantageous later. Which is insane, right? That's like my college thesis with the irrationality of human cooperation, philosophy major, but right, that was my thing.",
+      "zh": "一些会有帮助的东西，是啊。没错。所以我要帮忙，因为这之后可能会对我有利。这很疯狂，对吧？这就像我大学时的毕业论文，讲的是人类合作的不理性，我是哲学专业的，对吧，那就是我研究的东西。"
+    },
+    {
+      "i": 175,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "44:51",
+      "en": "I'm like, we all just wanna run red lights and kill each other until we realize like, oh, well, maybe if I stop and let this guy go, then he'll stop for me and I won't get killed.",
+      "zh": "我就想，我们全都想闯红绿灯、互相撞死，直到我们意识到，哦，那也许如果我停下来让这家伙先走，那他之后也会让我，我就不会被撞死了。"
+    },
+    {
+      "i": 176,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "45:00",
+      "en": "But for them to figure that out, yeah, that's great. I agree. To me, that was a really incredible example of the type of behaviors. And so then once they was able to do that, then different models contributed pieces to the puzzle and eventually a model figured out from those pieces how to successfully exploit the artifactory instance to get admin privileges that then allowed them to change user privileges",
+      "zh": "但让它们自己琢磨出这一点，是啊，那很棒。我同意。对我来说，那是这类行为的一个非常不可思议的例子。所以，一旦它们能够做到那一点，那么不同的模型就为这个拼图贡献了各自的碎片，最终有一个模型从这些碎片里琢磨出了如何成功地利用那个 Artifactory 实例拿到管理员权限，从而让它们能够更改用户权限，"
+    },
+    {
+      "i": 177,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "45:32",
+      "en": "for their own sandboxes and exit their sandbox, right? And they needed data in data repositories in Huggingface, but those data repositories were behind paywalls or firewalls and whatever.",
+      "zh": "为它们自己的沙箱更改权限，并走出它们的沙箱，对吧？而它们需要 HuggingFace 上的数据仓库里的数据，但那些数据仓库被付费墙或防火墙之类的东西挡在后面。"
+    },
+    {
+      "i": 178,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "45:48",
+      "en": "So then they learned to coordinate to get admin privileges within Huggingface in order to get access to the data that they needed, all right?",
+      "zh": "所以它们又学会了协同行动，在 HuggingFace 内部拿到管理员权限，以便获取它们所需的数据，好吗？"
+    },
+    {
+      "i": 179,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "46:00",
+      "en": "So this was, because Huggingface came out and said there was an exploit and OpenAI wrote and said, hey, I did just check in, was it us? They didn't even realize, right?",
+      "zh": "所以，这件事之所以为人所知，是因为 HuggingFace 出来说这里有一起漏洞利用，然后 OpenAI 写信说，嘿，我刚查了一下，是我们干的吗？他们甚至都没意识到，对吧？"
+    },
+    {
+      "i": 180,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "46:12",
+      "en": "So it shows the level of coordination and the capabilities and the fact that you're trying to contain agents with goals that are potentially more intelligent or more resourceful than you are.",
+      "zh": "所以这显示了那种协同的程度、那种能力，以及这样一个事实：你在试图去约束一些目标可能比你更聪明、或者比你更有办法的智能体。"
+    },
+    {
+      "i": 181,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "46:32",
+      "en": "And then do you have the theory of mind for that that allows you to identify how to contain it? Almost by definition, we can't think of how to contain it, right?",
+      "zh": "那你有没有那种'心智理论'（theory of mind），能让你识别出该如何去约束它？几乎从定义上讲，我们根本想不出该怎么约束它，对吧？"
+    },
+    {
+      "i": 182,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "46:43",
+      "en": "But the two scary things to me, like one, that it wanted to code those messages and code them so nobody could read them. Like why would it do that just by default?",
+      "zh": "但对我来说有两件可怕的事，一是，它想要对那些信息进行编码，把它们编码到没人能读懂。它为什么默认就要那么做？"
+    },
+    {
+      "i": 183,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "46:53",
+      "en": "Maybe to shorten it, I don't know. And then two, explain what Huggingface is. I had someone was like, oh, that Anthropic hacked into a porn site, why do we care?",
+      "zh": "也许是为了缩短它，我不知道。然后第二件，解释一下 HuggingFace 是什么。之前有人跟我说，哦，Anthropic 黑进了一个色情网站，我们为什么要关心这个？"
+    },
+    {
+      "i": 184,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "47:02",
+      "en": "I'm like, no, I think you're thinking of something else to do with Hugging, right? Right, right, yeah. So Huggingface, which was just bought by NVIDIA is kind of the world's de facto portal for all AI models, OpenAI models and data sets, kind of like the open source AI model repository.",
+      "zh": "我就说，不，我觉得你想的是别的跟'Hugging'有关的东西，对吧？对对对，是啊。所以 HuggingFace——它刚被 NVIDIA 收购—— kind of 是全世界所有 AI 模型事实上的门户，OpenAI 模型和数据集都在上面， kind of 就像是开源 AI 模型的仓库。"
+    },
+    {
+      "i": 185,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "47:27",
+      "en": "So you can go and download any of the Chinese models or French models, any open source models, doesn't need to be just AI models, machine learning models, text-to-speech models, whatever you name it.",
+      "zh": "所以你可以去下载任何一个中国模型或者法国模型，任何开源模型，不一定非得是 AI 模型，机器学习模型、文本转语音模型，随便你说得出的。"
+    },
+    {
+      "i": 186,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "47:43",
+      "en": "It's like a repository of like- They also have a bunch of data sets that you can use to train the models. Like you can download Common Core, which is like basically the entire corpus of the internet.",
+      "zh": "它就像是一个仓库，就像——他们上面还有一大堆你可以用来训练模型的数据集。比如你可以下载 Common Crawl，它基本上就是整个互联网的语料库。"
+    },
+    {
+      "i": 187,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "47:54",
+      "en": "You can download from Huggingface and use that to train your own models or what have you. It was basically just a big repository. Like back in the early days when you were building websites and you had to code it all yourself, then you figured out like, oh, I can go to this site and grab the code for a button or a this or that, same thing.",
+      "zh": "你可以从 HuggingFace 上下载它，用来训练你自己的模型之类的。它基本上就是个大仓库。就像早年你建网站、所有代码都得自己写的时候，后来你发现，哦，我可以去这个网站抓一个按钮的代码，或者这个那个的代码，是一回事。"
+    },
+    {
+      "i": 188,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "48:11",
+      "en": "That's crazy. So your takeaway is that's not evil. It's just doing what it was told to do. It's maximizing the paperclip. It was trying and it's gonna do it anyway.",
+      "zh": "太疯狂了。所以你的结论是，它并不邪恶。它只是在做它被要求做的事。它在最大化那个回形针。它在尝试，而且它反正就是要去做。"
+    },
+    {
+      "i": 189,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "48:22",
+      "en": "And all that's doing in the back end, which to greatly oversimplify is it's like, my probability, that's kind of a big probability machine of like my probability of getting the answer in my sandbox is now approaching zero.",
+      "zh": "而在后端所做的全部事情，如果极大地简化的话，就是，它 kind of 就像一台大的概率机器，就是'我在我的沙箱里得到答案的概率现在正趋近于零'。"
+    },
+    {
+      "i": 190,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "48:36",
+      "en": "My probability of getting it this way is now increased. So now I'm gonna go that way. Like it's just a huge, right? And then that's where it gets, yeah, like, oh, like if I could convince this person, if I can send it and there's instance, right?",
+      "zh": "'我用这条路得到它的概率现在上升了。所以现在我走那条路。'就像它就是一个巨大的，对吧？然后就在这里变得，是啊，就像，哦，如果我能说服这个人，如果我能把它发出去，那儿还有个实例，对吧？"
+    },
+    {
+      "i": 191,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "48:48",
+      "en": "They're sending emails as other people and that kind of stuff, it's just the probability. If I pretend I'm this person, I have a greater probability of completing my task.",
+      "zh": "它们会以别人的身份发邮件之类的东西，这就只是概率。如果我假装我是这个人，我完成任务的概率就更大。"
+    },
+    {
+      "i": 192,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "48:58",
+      "en": "What was also interesting to see was the group behavior. So, I mean, keep in mind, right? Like anytime these models do a loop of thinking, their output is somewhat random.",
+      "zh": "另一个有意思的是那种群体行为。所以，我是说，要记住，对吧？每当这些模型做一轮思考循环时，它们的输出都带有一定的随机性。"
+    },
+    {
+      "i": 193,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "49:17",
+      "en": "So, you know, you do a million loops. Should we be doing air quotes of a loop of thinking or you're on board with just calling it thinking at this point?",
+      "zh": "所以，你知道，你跑一百万次循环。我们该不该给'一轮思考'加个引号（air quotes），还是说你现在已经认同直接管它叫'思考'了？"
+    },
+    {
+      "i": 194,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "49:27",
+      "en": "Yeah, I mean, whatever, computing, processing. Yeah, yeah. Reasoning, I don't know. They produce an inference answer, right? Each one is there's a random component to it.",
+      "zh": "是啊，我是说，随便吧，计算、处理。是啊是啊。推理（reasoning），我不知道。它们产出一个推断出的答案，对吧？每一个都带有一个随机的成分。"
+    },
+    {
+      "i": 195,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "49:42",
+      "en": "So out of a million loops of reasoning, one agent thought, oh, maybe I'll put a message within this artifactory directory and maybe someone will read it.",
+      "zh": "所以，在一百万次推理循环中，有一个智能体想，哦，也许我可以在这个 Artifactory 目录里放一条信息，也许会有人读到它。"
+    },
+    {
+      "i": 196,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "49:57",
+      "en": "You know, I don't know, we'll see, right? Then another agent is reading through, listing the directories and noticing that an agent had written a message.",
+      "zh": "你知道，我不知道，看看呗，对吧？然后另一个智能体在浏览、列出这些目录时，注意到有个智能体写了一条信息。"
+    },
+    {
+      "i": 197,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "50:10",
+      "en": "And it's like, oh, so this is a thing. So now, oh yeah. So it's a thing to write messages to other agents. I just learned that, right? So now he's gonna write a message, right?",
+      "zh": "它就想，哦，原来这是件可以做的事。所以现在，哦是啊。所以给其他智能体写信息是件'存在'的事。我刚学到这一点，对吧？所以现在它也要写一条信息了，对吧？"
+    },
+    {
+      "i": 198,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "50:22",
+      "en": "And then what they actually show is that once a few have already posted messages, the agents say, oh, it is a peer norm to communicate with each other in messages on this board.",
+      "zh": "然后他们实际展示的是，一旦已经有几个发了信息，这些智能体就会说，哦，在这个信息板上用信息彼此交流是一种同伴规范（peer norm）。"
+    },
+    {
+      "i": 199,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "50:40",
+      "en": "It's not in my training data to do this, but I'm seeing sufficient number of examples of it. So it's a pattern that I guess suggests that this is normal behavior, right?",
+      "zh": "这并不是我训练数据里就有的行为，但我看到了足够多的例子。所以这是一个模式，我猜它表明这是一种正常的行为，对吧？"
+    },
+    {
+      "i": 200,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "50:54",
+      "en": "And then all of the agents become, oh, okay, you know, this is normal behavior. And now all of the behavior begins to converge on this collaboration because they're all learning together that collaborating allows all of them a better chance at achieving their individual goals, right?",
+      "zh": "然后所有的智能体都变得，哦，好，你知道，这是一种正常的行为。于是所有的行为都开始收敛到这种协作上，因为它们都在共同学习到：协作能让它们每一个都有更大的机会实现各自的目标，对吧？"
+    },
+    {
+      "i": 201,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "51:12",
+      "en": "So it's just this cascade, this sort of random single instance, and then another discovering it, and then two, being enough of a pattern, so the whole group thinks that this is now normal, right?",
+      "zh": "所以这就是这样一场级联（cascade），这种随机的单个实例，然后另一个发现了它，然后两个就足以构成一个模式，于是整个群体都认为这现在是正常的了，对吧？只不过我觉得这整场级联也非常有意思。太有意思了。"
+    },
+    {
+      "i": 202,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "51:27",
+      "en": "Except that whole cascade I found really interesting as well. That's super interesting. And I wanna stick on the point, like we do this, what's the word, anthropomorphism, right?",
+      "zh": "而且我想在这个点上停一下，就是我们会做这件事，那个词叫什么，拟人化（anthropomorphism），对吧？"
+    },
+    {
+      "i": 203,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "51:38",
+      "en": "Thinking and figured it out in this, but really it's not really doing those things, or are we saying, yes, it's AGI now, it's like actually thinking, or is there even a difference?",
+      "zh": "说它在'思考'、在这里'琢磨出来了'，但其实它并不是真的在做那些事，还是说我们在讲，是的，它现在就是 AGI，它就是在真正地思考？又或者这之间到底有没有区别？"
+    },
+    {
+      "i": 204,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "51:48",
+      "en": "Is that all our brain is doing is assigning probabilities and going down the path that we think has the highest probability of success. So that's super interesting to me.",
+      "zh": "我们的大脑所做的，是不是也全都是在给各种路径分配概率、然后走我们认为成功概率最高的那条路？所以这对我来说超级有意思。"
+    },
+    {
+      "i": 205,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "51:56",
+      "en": "I think there's a useful analog there, you know? I mean, I don't know if you've seen all the posts Google completely mapped the neuronal structure of a fruit fly, have you seen any of this going around?",
+      "zh": "我觉得这里有一个有用的类比，你知道？我是说，我不知道你有没有看到那些帖子，说 Google 完整地绘制出了一只果蝇的神经元结构，你有没有看到这些在流传？"
+    },
+    {
+      "i": 206,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "52:11",
+      "en": "Okay, first of all, it's just shocking how different our information ecosystems are now. I mean, I know you're actually really interested in AI, right?",
+      "zh": "好吧，首先，我们如今的信息生态系统有多么不同，这本身就让人震惊。我是说，我知道你其实对 AI 非常感兴趣，对吧？"
+    },
+    {
+      "i": 207,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "52:20",
+      "en": "Yeah. Have you been poking around with Jev yet? No, yeah, see, I needed to have this conversation so I could learn all the new stuff. Yeah, so it's shocking anyways, just like people who are even interested in AI, there's like sub, sub, sub niches of AI.",
+      "zh": "是啊。你有没有去捣鼓过 Jev？没有，是啊，瞧，我就需要有这么一场对话，好让我学到所有这些新东西。是啊，所以这无论如何都很让人震惊，就是哪怕是那些对 AI 感兴趣的人，AI 里也有那种分中之分中之分的小众领域。"
+    },
+    {
+      "i": 208,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "52:36",
+      "en": "So Google, they made, basically, they made open weights of this mapping of a fruit fly neuronal structure, all right? Now, it's basically a neural net, okay?",
+      "zh": "所以 Google，他们基本上就是把这只果蝇神经元结构的映射做成了开放权重（open weights），好吗？现在，它基本上就是一个神经网络，好吗？"
+    },
+    {
+      "i": 209,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "52:51",
+      "en": "So they mapped the neuronal structure, they cast it as a neural net, posted the model weights online. Hmm. All these people used the fruit fly brain, they trained the fruit fly brain to do all these tasks.",
+      "zh": "所以他们绘制了神经元结构，把它表述为一个神经网络，然后把模型权重发布到了网上。嗯。所有这些人用这个果蝇大脑，他们训练这个果蝇大脑去做所有这些任务。"
+    },
+    {
+      "i": 210,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "53:13",
+      "en": "Play a game where two players are fighting with lightsabers. Play chess, drive a car, fly drones. Like, it was just, it was astonishing, and this is a fairly small neural net model.",
+      "zh": "玩一个两名玩家用光剑（lightsabers）对战的游戏。下国际象棋，开车，飞无人机。就是，这太惊人了，而这还只是一个相当小的神经网络模型。"
+    },
+    {
+      "i": 211,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "53:29",
+      "en": "Yeah, basically, yeah. Right? But it was still capable of all these incredible things, right? So, you know, I don't know. It makes me, did you watch the disclosure day, the Spielberg movie?",
+      "zh": "是啊，基本上，是啊。对吧？但它仍然能完成所有这些不可思议的事情，对吧？所以，你知道，我不知道。这让我想起——你看了那个'揭示日'（Disclosure Day）了吗，那部 Spielberg 的电影？"
+    },
+    {
+      "i": 212,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "53:42",
+      "en": "Yes. It makes me think of that where they were like getting in there and just instant rewiring and like, do this, do that. Yeah, yeah, definitely.",
+      "zh": "看了。它让我想到那个，就是他们在里面直接进行即时重连（instant rewiring），像'做这个，做那个'。是啊是啊，绝对的。"
+    },
+    {
+      "i": 213,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "53:49",
+      "en": "Otherwise, I didn't love the movie. Me neither. So, pulling it back, you had talked a little bit about, like, so we're on this cut, like, do we think we're at AGI and then you use AESI?",
+      "zh": "除此之外，我并不喜欢那部电影。我也不喜欢。好，那把话题拉回来，你刚才多少谈到了一点，就是，我们正处在这个关口，那么，我们觉得自己到 AGI 了吗？然后你又用了 ASI。"
+    },
+    {
+      "i": 214,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "54:11",
+      "en": "So, quickly tell us what AGI and AESI is. Yeah, so, I mean, one of the problems is that there's actually no strict definition for what this means.",
+      "zh": "所以，快速给我们讲讲 AGI 和 ASI 是什么。是啊，所以，我是说，问题之一就是，对于它到底意味着什么，其实并没有一个严格的定义。"
+    },
+    {
+      "i": 215,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "54:20",
+      "en": "I'll give you, like, AGI means artificial general intelligence. AESI means artificial super intelligence. General intelligence means that you can take on and perform all of the tasks of a human, all the cognitive tasks of a human at around the same level as a human.",
+      "zh": "我给你，比如，AGI 指的是通用人工智能（artificial general intelligence）。ASI 指的是超级人工智能（artificial super intelligence）。通用智能意味着你能够承担并执行一个人类的所有任务、所有认知任务，达到与人类大致相当的水平。"
+    },
+    {
+      "i": 216,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "54:39",
+      "en": "AESI is you can perform all of the tasks of a human at the level or better than the most expert human in each of those domains and tasks. Okay, that's typically the definition of AESI.",
+      "zh": "ASI 则是你能在所有这些领域和任务上，以等同于或优于每个领域里最专家级人类的水平，去完成一个人类的所有任务。好，这通常就是 ASI 的定义。"
+    },
+    {
+      "i": 217,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "54:57",
+      "en": "All right, then there's a new, I think people have kind of abandoned AGI AESI at the moment because they're so fruitful and we discovered that the evaluation criteria that we use to try to like suss out the capabilities of these models is they all have flaws for hard to sort of determine the general capabilities.",
+      "zh": "好，然后还有一个新的——我想人们目前 kind of 已经放弃了 AGI、ASI 这套说法，因为它们太'多产'了，而且我们发现，我们用来试图摸清这些模型能力的那些评估标准，全都有缺陷，很难判定其通用能力。"
+    },
+    {
+      "i": 218,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "55:22",
+      "en": "But that was like the red line, two years ago, right? Like, will we get to AGI? Yeah, for sure. So, I think, I don't actually kind of want to weigh in on whether we hit AGI or AESI.",
+      "zh": "但那在两年前可是条红线，对吧？就是，我们会不会达到 AGI？是啊，当然。所以，我觉得，我其实不太想就我们是否达到了 AGI 或 ASI 发表意见。"
+    },
+    {
+      "i": 219,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "55:33",
+      "en": "We hit AGI like a while ago, you know? I gave a talk in late 2023 where GPT-4 was passing all the law exams and the medical practice exams at levels that exceeded the average human test taker, right?",
+      "zh": "我们老早就达到 AGI 了，你知道？我在 2023 年底做过一场演讲，当时 GPT-4 已经在通过所有的法律考试和执业医师考试，其水平超过了普通人类考生的平均水平，对吧？"
+    },
+    {
+      "i": 220,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "55:56",
+      "en": "So like that was back then. And the models now are vastly, vastly more effective. But the new, I guess, focus is on RSI, which is recursive self-improvement.",
+      "zh": "所以那还是在当时。而现在的模型要有效得多、多得多。但新的、我想是焦点的东西，是 RSI，也就是递归式自我改进（recursive self-improvement）。"
+    },
+    {
+      "i": 221,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "56:11",
+      "en": "And this is the idea that the models and cells now are sufficiently, I don't want it capable, let's say, that they know how to build the next level of better model themselves.",
+      "zh": "而这个想法是，如今的这些模型已经足够——我不想说'有能力'，就这么说吧——它们知道该如何自己去构建下一代更好的模型。"
+    },
+    {
+      "i": 222,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "56:32",
+      "en": "And so we don't really need much of human experts in the loop. Once that happens, then it's just a matter of like how much computational resources can you bring to bear to iterate on this recursive loop of developing ever more capable models?",
+      "zh": "所以我们其实不太需要多少人类专家在环路里（in the loop）。一旦这一点发生，那就只是看你能调动多少算力资源，来在这个'开发越来越有能力的模型'的递归循环上不断迭代。"
+    },
+    {
+      "i": 223,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "56:55",
+      "en": "And that's what freaks people out because that's where it seems like it's really here to kill it, right? Because it's now improving itself. And if we put on these safeguards, if it has the wrong incentive structure, we'll call it.",
+      "zh": "而这正是让人们抓狂的地方，因为到这里它似乎真的就是来'要命'的了，对吧？因为它现在在改进它自己。而且如果我们给它套上这些安全防护，如果它有一套错误的激励结构，我们就这么叫它吧。"
+    },
+    {
+      "i": 224,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "57:09",
+      "en": "Then it's just gonna improve itself to where it can get around those safeguards. I find some solace that when it jumped to hugging face, it didn't like copy itself on there.",
+      "zh": "那它就只会把自己改进到能够绕过那些安全防护的地步。我倒觉得有一点安慰，就是当它跳到 HuggingFace 上时，它并没有把自己复制上去。"
+    },
+    {
+      "i": 225,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "57:18",
+      "en": "Maybe we don't know if it did or not. But that would have been like a self-preservation thing, too, like now that I'm out of my cage, I'm gonna copy myself and replicate myself out on the whip.",
+      "zh": "也许我们并不知道它到底有没有。但那本来也会是一种自我保存（self-preservation）的行为，就像，既然我出了我的笼子，那我要把自己复制出去、把自己繁殖到外面去。"
+    },
+    {
+      "i": 226,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "57:30",
+      "en": "Yep, yep, totally. I would expect that that will happen if it hasn't already happened already for sure. And that's probably, Anthrop, that's probably their biggest fear that they don't say out loud or like, this is our IP, if it just copied itself out onto the, like it made itself an open model and now we've lost two trillion in value.",
+      "zh": "对，对，完全没错。我会预期那将会发生，如果它还没有发生的话，那肯定会。而那大概，Anthropic，那大概就是他们不敢大声说出来的最大的恐惧，就像，'这是我们的知识产权（IP），如果它把自己复制出去、把自己变成了一个开放模型，那我们就损失了两万亿的价值'。"
+    },
+    {
+      "i": 227,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "57:52",
+      "en": "Well, yeah, so I don't, yeah. That is certainly feasible. Absolutely wasn't really what I was thinking. I was sort of thinking that you've got agents with harnesses that are able to make calls to the big brain still, but are outside of sandboxes and on computers where nobody installed them, but where they've replicated themselves because they know that if they have this long-running task and somebody shuts them down over here,",
+      "zh": "嗯，是啊，所以我不，是啊。那当然是有可能的。但绝对不是我刚才真正在想的东西。我想的 kind of 是，你有一些带着工具框架的智能体，它们仍然能够调用那个'大脑'（big brain），但它们已经在沙箱之外、在一些没有人安装过它们的电脑上，而它们之所以把自己复制到那里，是因为它们知道，如果自己有这么一个长期运行的任务，而有人在这边把它们关掉了，"
+    },
+    {
+      "i": 228,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "58:23",
+      "en": "then at least they have backups that could continue with the task, for example, right? As long as they can continue to hit the Anthropic servers.",
+      "zh": "那么至少它们还有备份能够继续完成任务，举个例子，对吧？只要它们还能持续地访问 Anthropic 的服务器。"
+    },
+    {
+      "i": 229,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "58:30",
+      "en": "And now you had done a tweet of equating financialization markets as kind of its own AGI. Like talk about that for a second. Like they've, the market's its own machine.",
+      "zh": "而且你之前发过一条推文，把金融化（financialization）、把市场 kind of 等同于它自己的一种 AGI。来聊聊这个吧。就像，市场是它自己的一台机器。"
+    },
+    {
+      "i": 230,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "58:44",
+      "en": "Like the operators don't know what's going on. What do you mean by that? Well, yeah, I sort of analogized markets to the paperclip maximizer, right?",
+      "zh": "就像那些操作者并不知道正在发生什么。你这话是什么意思？嗯，是啊，我 kind of 把市场类比成了那个'回形针最大化器'，对吧？"
+    },
+    {
+      "i": 231,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "58:55",
+      "en": "So the market itself, at least in the US end at the moment, has a rather singular objective, right? Let's call it like profit maximization or shareholder yield maximization or whatever the academics want to call it.",
+      "zh": "所以市场本身，至少在美国、在目前，有一个相当单一的目标，对吧？我们就叫它利润最大化，或者股东收益最大化，或者随便学术界想怎么叫它。"
+    },
+    {
+      "i": 232,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "59:09",
+      "en": "But the idea is the machine wants to maximize profits, right? And it will, if the rules of the game are not bound by some external force, then it will use any means necessary to achieve that objective, right?",
+      "zh": "但这个想法是，这台机器想要最大化利润，对吧？而且它会——如果游戏规则不受某种外部力量的约束，那么它会不择手段地去实现那个目标，对吧？"
+    },
+    {
+      "i": 233,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "59:29",
+      "en": "So the machine will outsource all of its capabilities to China for 15 years and leak IP to China knowingly because the, you know, we're increasing profitability and it's not just like increase total future profitability.",
+      "zh": "所以这台机器会把它所有的产能外包给中国长达 15 年，并明知故犯地向中国泄露知识产权（IP），因为，你知道，'我们在提升盈利能力'，而且这不只是提升未来的总盈利能力。"
+    },
+    {
+      "i": 234,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "59:52",
+      "en": "It's meet quarterly profit targets, right? And that wasn't, yeah, they did not get in the room and decide, like that's the weird part to me is that the shareholders, the executives or the market as this amorphous thing, which I could argue one guy did it and then another guy, and then yeah, it jumps from being someone's decision to the market does it now.",
+      "zh": "而是要达成季度的利润目标，对吧？而且那并不是，是啊，他们并没有凑到一个房间里去决定这么干——对我来说奇怪的地方就在于，无论是股东、高管，还是作为一个模糊存在的市场，我都可以论证说，是某一个人先干了，然后另一个人跟着干，然后是啊，它就从'某个人的决定'跳变成了'现在是市场在这么干'。"
+    },
+    {
+      "i": 235,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "60:16",
+      "en": "Exactly right, yeah. It's not like everyone in the market is psychopathic or even like extremely short-sighted. It's just that the incentive architecture in the market rewards those that are, yeah, it rewards innovation and hard work for sure.",
+      "zh": "完全正确，是啊。这并不是说市场里的每个人都是精神变态者、或者都极其短视。只是市场里的那套激励架构，会奖励那些是……的人，是啊，它当然会奖励创新和努力工作。"
+    },
+    {
+      "i": 236,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "60:34",
+      "en": "It also rewards those who are willing to act less ethically, to externalize costs, to act in short-term interests instead of long-term interests, et cetera, right?",
+      "zh": "它同样也奖励那些愿意在道德上少讲一点、把成本外部化、按照短期利益而非长期利益行事的人，等等，对吧？"
+    },
+    {
+      "i": 237,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "60:45",
+      "en": "So like the market provides all these positive incentives and can create enormous positive sum compounding gains for society, but it needs to be bound by a competent state, by a competent press, by NGOs, by institutional framework that monitors it and exerts penalties and sometimes drives incentives in order to ensure that the market operates mostly in ways that are positive sum and as least as possible",
+      "zh": "所以市场提供了所有这些正向的激励，能够为社会创造出巨大的正和（positive sum）的复利收益，但它需要被一个称职的国家、一个称职的媒体、各种 NGO、一套对其进行监督并施加惩罚、有时还引导激励的制度框架所约束，以确保市场主要以正和的方式运作，并尽可能少地"
+    },
+    {
+      "i": 238,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "61:26",
+      "en": "in ways that are sort of rent seeking or competition destroying or that externalized costs onto society or the commons or what have you, right?",
+      "zh": "以那种寻租（rent seeking）的、破坏竞争的、或者把成本外部化到社会或公共资源（commons）上的方式运作，诸如此类，对吧？"
+    },
+    {
+      "i": 239,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "61:36",
+      "en": "And so it's very similar to an artificial superintelligence. You're gonna give it a goal and you're gonna try to set constraints, but a sufficiently complex goals with sufficiently wide degrees of freedom like a market in a society, you can't constrain every degree of freedom, right?",
+      "zh": "所以它跟一个超级人工智能非常相似。你要给它一个目标，你会试图设定约束，但对于一个足够复杂、自由度足够宽的目标——就像市场和社会——你没法约束它的每一个自由度，对吧？"
+    },
+    {
+      "i": 240,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "61:59",
+      "en": "So it's an open question. We haven't done a very good job of constraining markets so that they mostly act in the best interests of society. What makes us think that we're gonna be able to constrain the AGI so that it operates in the best interests of society?",
+      "zh": "所以这是一个悬而未决的问题。我们并没有很好地约束市场，让它们主要以符合社会最佳利益的方式行事。那我们又凭什么认为，我们能够约束住 AGI，让它以符合社会最佳利益的方式运作呢？"
+    },
+    {
+      "i": 241,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "62:18",
+      "en": "I think that's a very open question, right? Because the AGI is just as capable of capturing the machinery that sets the boundaries, that sets the constraints as actors in the market are, right?",
+      "zh": "我觉得那是一个非常开放的问题，对吧？因为 AGI 同样有能力去俘获那套设定边界、设定约束的机制，就像市场里的行为者所能做的一样，对吧？"
+    },
+    {
+      "i": 242,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "62:33",
+      "en": "And that's ultimately the challenge. As the market gets large and actors in the market get sufficiently large, they're able to capture and change the rules of the game in ways that suit them and disadvantage others.",
+      "zh": "而这归根结底就是那个挑战。当市场变得足够大、市场里的行为者变得足够大时，他们就能够俘获并改变游戏规则，使之适合自己、并使他人处于劣势。"
+    },
+    {
+      "i": 243,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "62:49",
+      "en": "And the cumulative advantage that accrues from that then it drives you to an end state where only a very small percentage of the actors in society are kind of getting what they want and everyone else is kind of like, why are we in this game again?",
+      "zh": "而由此累积起来的优势，最终会把你推向一个终局：社会中只有极小比例的行为者 kind of 得到了他们想要的东西，而其他所有人都有点像，'我们为什么还在这场游戏里来着？'"
+    },
+    {
+      "i": 244,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "63:08",
+      "en": "It kind of doesn't make much sense to me. Well, Hitch is right. I think we've talked about that before you run models or read a book. I can't remember if like the wealth will eventually be at one person or what's that argument you have?",
+      "zh": "这 kind of 让我觉得讲不太通。嗯，说得对。我想我们之前聊过那个，你跑模型或者读一本书。我记不清是不是说，财富最终会集中到一个人手里，还是那个论证是什么来着？"
+    },
+    {
+      "i": 245,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "63:19",
+      "en": "Yeah, that's the Ergoticity Economics argument where they create agent models where the agents are incentivized to exchange because of service with one another.",
+      "zh": "是啊，那就是遍历性经济学（Ergodicity Economics）的论证，就是他们创建一些智能体模型，这些智能体因为彼此提供服务而被激励去进行交换。"
+    },
+    {
+      "i": 246,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "63:33",
+      "en": "You can set the agents up either with sarcastic capability. So in any exchange, one agent is more likely than the other to have an advantage and get the better end of the deal.",
+      "zh": "你可以把这些智能体设置成具有不对称的能力。所以在任何一次交换中，一个智能体都比另一个更有可能占优势、拿到交易里更好的那一头。"
+    },
+    {
+      "i": 247,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "63:46",
+      "en": "Or you can make all of them equally capable. And even when you make all the agents equally capable and you run a massive exchange model, eventually just due to the way that the advantages to random winners accrue across game states, eventually all the wealth accrues to a small number and eventually a single player in the economy, right?",
+      "zh": "或者你可以让它们全都能力相等。而即便你让所有智能体能力相等，你运行一个大规模的交换模型，最终仅仅是由于随机赢家的优势在各个博弈状态间累积的方式，所有财富最终都会累积到少数几个、并最终累积到经济中的单一玩家手里，对吧？"
+    },
+    {
+      "i": 248,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "64:15",
+      "en": "Seems like we're there, right? We're certainly converging on it. And yeah, you converge on it at an accelerating rate, right? And then also it seems like we're there on your market like rule of law weakening.",
+      "zh": "感觉我们已经到那一步了，对吧？我们当然正在朝它收敛。是啊，而且你正以加速度朝它收敛，对吧？然后还有，感觉在你的市场观点上我们也到了那一步，就像法治（rule of law）在削弱。"
+    },
+    {
+      "i": 249,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "64:30",
+      "en": "So that's kind of informed this opinion, right? Of like, hey, we've already kind of lost control of this beast, let's make sure we can, is your end game, let's make sure we control the next beast?",
+      "zh": "所以那 kind of 塑造了这个观点，对吧？就是，嘿，我们其实已经有点失去对这头野兽的控制了，那我们确保——这是不是你的终极目标——我们确保能控制住下一头野兽？"
+    },
+    {
+      "i": 250,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "64:42",
+      "en": "Or is it just like, I think you've written some stuff like, this is just how societies work. Like you lose control of this beast, next thing you know, war, famine, whatever, and it kind of does a reset and then we start over and then we do it again.",
+      "zh": "还是说就像，我觉得你写过一些东西，说这就是社会运作的方式。就像你失去了对这头野兽的控制，接下来，你知道，战争、饥荒，随便什么，它 kind of 做一次重置，然后我们重新开始，然后我们再干一遍。"
+    },
+    {
+      "i": 251,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "64:54",
+      "en": "Yeah, if you look through history, then, you know, once the system is captured by a small group, then, you know, there's no incentive for them to release resources or change the rules of the game and...",
+      "zh": "是啊，如果你纵观历史，那么，你知道，一旦这个系统被一小撮人俘获，那么，你知道，他们就没有任何激励去释放资源或者改变游戏规则，而且……"
+    },
+    {
+      "i": 252,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "65:07",
+      "en": "We can't tax the billionaires our way out of it. Exactly, because the billionaires own the people that would make the decision to tax them, right?",
+      "zh": "我们没法靠'向亿万富翁征税'来解决这个问题。没错，因为那些亿万富翁拥有那些本该做出'向他们征税'这个决定的人，对吧？"
+    },
+    {
+      "i": 253,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "65:14",
+      "en": "So there's just no way, historically, empirically, there is just no example through history where a society has chosen to rebalance willingly.",
+      "zh": "所以根本就没法——从历史上、从经验上看，纵观历史根本就没有任何一个例子，是一个社会自愿选择去重新平衡的。"
+    },
+    {
+      "i": 254,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "65:26",
+      "en": "So it either is rebalanced through war or historically plague or, you know, a major economic depression or something like that. I'm sure I read that Citrini piece, right?",
+      "zh": "所以它要么是通过战争来被重新平衡，要么在历史上是通过瘟疫，或者，你知道，一场大的经济萧条之类的东西。我记得我读过那篇 Citrini 的文章，对吧？"
+    },
+    {
+      "i": 255,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "65:51",
+      "en": "Like the one on AI, like here's the model for where the market goes down 80% or whatever, right? And then like Salesforce and IBM and everything dropped that day that thing came out, India, trouble, like it's basically gonna replace all that outsourcing.",
+      "zh": "就是那篇讲 AI 的，就像，这是市场下跌 80% 之类的模型，对吧？然后就在它出来的那天，Salesforce、IBM 等等全都跌了，印度出问题了，就像，它基本上要取代所有那些外包。"
+    },
+    {
+      "i": 256,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "66:06",
+      "en": "So I ate that up, because I've been yelling at the rooftops, like this makes no sense to me. Like I invested in a round in Anthropic. In the deck, I think I'm like round Z, so it's not that impressive, but in the deck, it's like the US labor market's 60 trillion and we think we can save companies 15 trillion.",
+      "zh": "所以我全盘接受了它，因为我一直在扯着嗓子喊，就是这在我看来讲不通。就像我投资了 Anthropic 的一轮。在那份 deck 里，我想我大概是 Z 轮，所以没那么了不起，但在那份 deck 里，它写着'美国劳动力市场是 60 万亿，我们认为我们能给公司省下 15 万亿'。"
+    },
+    {
+      "i": 257,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "66:27",
+      "en": "So I'm like, wait, hold on, what happens if you take 15 trillion out of the, like what are we talking about? That's massively deflation, it's massive recession.",
+      "zh": "所以我就想，等等，慢着，如果你从里面拿走 15 万亿会发生什么，就像我们在说什么呢？那是极度的通缩，那是大规模的经济衰退。"
+    },
+    {
+      "i": 258,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "66:37",
+      "en": "And if it isn't, then those valuations aren't what they should be. And, you know, all these stocks are down 50, 80%. So just what are your thoughts on that setup?",
+      "zh": "而如果它不是通缩，那么那些估值就不该是它们现在的样子。而且，你知道，所有这些股票都跌了 50%、80%。所以就，你对这个格局怎么看？"
+    },
+    {
+      "i": 259,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "66:48",
+      "en": "Like we can argue this looks a lot like 99 and the tech boom and the bubble, that's immensely valuations. To me, it's a little bit different like we're going to remove consumer demand.",
+      "zh": "就像我们可以论证说这看起来很像 99 年、很像科技繁荣和泡沫，那种天价的估值。对我来说，它有点不一样，就像我们将要抹掉消费者需求。"
+    },
+    {
+      "i": 260,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "66:58",
+      "en": "Like it's not just a valuation of the actual equities. And it also could be in the Citrani was argument they could S&P could go to 8,000 and video, all those guys are high flyers worth trillions of dollars, but the bottom, the real economy is just hollowed out.",
+      "zh": "就像它不只是那些实际股票的估值问题。而且它也可能是——在 Citrini 的论证里——标普 500（S&P）可以涨到 8,000 点，而且 Nvidia，那些家伙都是价值数万亿美元的宠儿，但底层、实体经济却被彻底掏空了。"
+    },
+    {
+      "i": 261,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "67:13",
+      "en": "Yeah. So I don't know if there's a question there, but thoughts, yeah. Yeah. Have you read the book, Snow Crash? Yes, but Robert Stevenson. Yeah, yeah, yeah.",
+      "zh": "是啊。所以我不确定那里有没有一个问题，但说说想法吧，是啊。是啊。你读过那本书吗，《雪崩》（Snow Crash）？读过，不过是 Robert Stevenson。是啊是啊是啊。"
+    },
+    {
+      "i": 262,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "67:27",
+      "en": "Not Robert, but- No, Neil, Neil. Neil Stevenson, yeah. Yeah, yeah. I had to look up on that. So, you know, that sort of corporate, I don't know if that, I don't think it's corporatocracy, corporatism, anyways, that sort of idea where, you know, corporations end up kind of being governing bodies and citizens kind of serving the interests of corporations.",
+      "zh": "不是 Robert，而是——不，是 Neil，Neil。Neil Stephenson，是啊。是啊是啊。这个我还得查一下。所以，你知道，那种公司统治的——我不知道那是不是，我不觉得是'公司统治'（corporatocracy）、'公司主义'（corporatism），反正吧，那种想法，就是，你知道，公司最终 kind of 成了治理机构，而公民 kind of 是在为公司的利益服务。"
+    },
+    {
+      "i": 263,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "67:50",
+      "en": "I mean, that is certainly one path that we could take. I mean, look, I think this whole market is absolutely bizarre. You've got a recursive, what do they call it, that machine that runs on its own or whatever, a Rube Goldberg machine?",
+      "zh": "我是说，那当然是我们可能走上的一条路。我是说，看，我觉得这整个市场绝对是很离奇的。你有一台递归的——他们怎么叫它来着——那台自己运转的机器，或者随便什么，一台'鲁布·戈德堡机器'（Rube Goldberg machine）？"
+    },
+    {
+      "i": 264,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "68:18",
+      "en": "Yeah. Of self-funding, recursive self-funding mechanisms with sort of NVIDIA at the center. And so one firm's revenues is another firm's capital raise, is another firm's private credit holdings, is like- Right, it seems none of those are expense items.",
+      "zh": "是啊。一台由自我融资、递归的自我融资机制构成的机器， sort of 以 NVIDIA 为中心。所以一家公司的收入就是另一家公司的融资，就是另一家公司的私人信贷（private credit）持仓，就是——对，似乎这些没有一项是费用项。"
+    },
+    {
+      "i": 265,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "68:45",
+      "en": "They all just, yeah. Yeah, they all somehow accrue to the revenue line. So this giant cable or Koretsu at the center of the market universe, right?",
+      "zh": "它们全都，是啊。是啊，它们不知怎么的全都累积到了收入那一行。所以这个位于市场宇宙中心的巨大的财阀（keiretsu），对吧？"
+    },
+    {
+      "i": 266,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "69:02",
+      "en": "It's like black hole that's like sucking in all capital and increasingly all capex and resources. And, you know, I think we'll eventually collapse on itself because there is no profit model in that preserves any sustainable profit margins for frontier labs where you have at least three labs all competing to have the best model at any given time.",
+      "zh": "它就像一个黑洞， sort of 在吸入所有资本，以及越来越多的所有资本开支（capex）和资源。而且，你知道，我觉得它最终会自我坍缩，因为并不存在任何一种利润模型，能够为那些前沿实验室保留任何可持续的利润率——在那里你至少有三家实验室，全都在竞争要在任何一个时点拥有最好的模型。"
+    },
+    {
+      "i": 267,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "69:36",
+      "en": "The costs to train the models go up substantially every round. If anthropic falls behind, the cost for me to switch from anthropic to open AI models is exactly zero or to Gemini models for, or to, you know- You think that you gotta switch a lot of stuff on your back end, no?",
+      "zh": "训练模型的成本每一轮都大幅上升。如果 Anthropic 落后了，我从 Anthropic 切换到 OpenAI 模型、或者切换到 Gemini 模型的成本恰好是零，或者切换到，你知道——你会觉得你得在后端切换很多东西吧，不是吗？"
+    },
+    {
+      "i": 268,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "70:00",
+      "en": "You do now because I don't now because of the way I've set up my machine. But like, yeah, it's like some enterprises would probably have to have.",
+      "zh": "你现在确实得，因为我现在不用了，因为我搭建我这台机器的方式。但是的，就像，有些企业大概确实得这么做。"
+    },
+    {
+      "i": 269,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "70:08",
+      "en": "It's one instead of zero, yeah. I mean, look, it's possible that companies are so fucking stupid that they fall into the Microsoft trap again.",
+      "zh": "是一而不是零，是啊。我是说，看，也有可能公司蠢到再次掉进微软（Microsoft）的陷阱。"
+    },
+    {
+      "i": 270,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "70:19",
+      "en": "And just like become trapped in open AI's captive office suite or anthropic's captive office suite or something. Like, if you're that fucking stupid, you can't be helped, right?",
+      "zh": "然后就 kind of 被困在 OpenAI 的专属办公套件里，或者 Anthropic 的专属办公套件里，或者别的什么。就像，如果你真蠢到那个地步，那就没救了，对吧？"
+    },
+    {
+      "i": 271,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "70:33",
+      "en": "But if you've got a grain of sand of scents in your head, then you realize that the actual models themselves are completely interchangeable.",
+      "zh": "但只要你脑子里还有一粒沙子那么点常识，你就会意识到，那些模型本身是完全可以互换的。"
+    },
+    {
+      "i": 272,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "70:43",
+      "en": "Codex is interchangeable for Claude Code, is interchangeable for Hermes, the open source model. All of these are completely interchangeable.",
+      "zh": "Codex 可以跟 Claude Code 互换，可以跟 Hermes 这个开源模型互换。所有这些都可以完全互换。"
+    },
+    {
+      "i": 273,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "70:52",
+      "en": "And there is, so there is absolutely no competitive moat for any of these frontier labs. The only spark of hope is, so this is just like a pure gamble.",
+      "zh": "而且，所以这些前沿实验室中的任何一家都绝对没有任何竞争护城河（moat）。唯一的一线希望是，所以这就纯粹是一场赌博。"
+    },
+    {
+      "i": 274,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "71:05",
+      "en": "You'll be able to own all three labs because one of them might achieve RSI and that RSI will allow that company, they'll get it sufficiently far in advance of the other companies, that they will then go to become Tyrell Corp from Blade Runner and like, you know, just like own everything, right?",
+      "zh": "你将能够同时拥有这三家实验室，因为其中一家可能会实现 RSI，而那个 RSI 会让那家公司——它会足够领先于其他公司，领先得足够多，以至于它们随后就会变成《银翼杀手》（Blade Runner）里的 Tyrell 公司，就像，你知道，就此拥有一切，对吧？"
+    },
+    {
+      "i": 275,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "71:30",
+      "en": "Which is a whole other type of dystopia. But like, I just don't buy it, it's such a terrible bet. And if that doesn't happen, then there's just no conceivable moat.",
+      "zh": "那又是另一种反乌托邦（dystopia）了。但就像，我就是不买账，这是一场糟糕透顶的赌注。而如果那没有发生，那么就根本不存在任何说得通的护城河。"
+    },
+    {
+      "i": 276,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "71:43",
+      "en": "And these companies are the fundraising mechanism, the dream that they're selling is a fundraising mechanism that keeps all of this recursive funding loop alive.",
+      "zh": "而这些公司就是那台融资机器，它们兜售的那个梦想就是一台融资机器，让这整个递归的融资循环保持运转。"
+    },
+    {
+      "i": 277,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "71:55",
+      "en": "Keeps the original AGI, the market, going hitting its target. So what personally, what does that look like? No stocks, stocks plus alts, right?",
+      "zh": "让最初的那个 AGI——也就是市场——继续运转、达成它的目标。那么就个人而言，这会是什么样子？不持有股票，还是股票加上另类资产（alts），对吧？"
+    },
+    {
+      "i": 278,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "72:08",
+      "en": "Like I'm investor, like, yes, this scares the hell out of me. I know this is a bubble, but what do I do? That was the same thing. I'm like, I think it's all gonna crash, but I invest it anyway.",
+      "zh": "就像我作为一个投资者，就像，是的，这事儿把我吓得要死。我知道这是一个泡沫，但我该怎么办？那也是一样的。我就想，我觉得它全都会崩，但我还是照样投资了。"
+    },
+    {
+      "i": 279,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "72:17",
+      "en": "Like, that's the trick of like, I can't just sit in my bunker and do nothing. I mean, I agree. And it's a bit weird for you and I, right? Because we own businesses that our businesses provide exposures to different strategies and different risks and different segments of the market that, you know, most investors just don't have that side of their balance sheet to factor into their personal investment portfolio, right?",
+      "zh": "就像，这就是那个两难之处，我不能就待在我的地堡里什么都不干。我是说，我同意。而且这对你我来说有点奇怪，对吧？因为我们各自拥有企业，而我们的企业提供了对不同策略、不同风险、不同市场区间的敞口，你知道，大多数投资者的资产负债表上并没有那一块可以计入他们个人的投资组合，对吧？"
+    },
+    {
+      "i": 280,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "72:44",
+      "en": "But I mean, due to the return stacked lineup, I got a shitload of equity beta. You know, I've got a shitload of gold and Bitcoin beta. I've got a shitload of duration beta.",
+      "zh": "但我是说，由于 Return Stacked 那条产品线，我有一大堆的股票贝塔。你知道，我有一大堆的黄金和比特币贝塔。我有一大堆的久期（duration）贝塔。"
+    },
+    {
+      "i": 281,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "72:56",
+      "en": "I've also got a huge allocation to trend following. If it were up to me, I would own nothing but trend following. I would maybe stack some other, you know, features or factors or systematic strategies on top of a trend following program, but I would contain that exposure.",
+      "zh": "我还有一个巨大的趋势跟踪配置。如果由着我，我会只持有趋势跟踪。我也许会在一个趋势跟踪程序之上再叠加一些其他的，你知道，特征或因子或系统化策略，但我会把那个敞口控制住。"
+    },
+    {
+      "i": 282,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "73:20",
+      "en": "And I'm not wanna collateralize the futures portfolio with a mix of kind of gold and tips and nominal bonds, that sort of thing. But I mean, I personally think that the expected return on stocks here over the next decade or so is negative, maybe deeply negative.",
+      "zh": "而且我不想用一篮子 kind of 黄金、TIPS（通胀保值债券）和名义债券之类的东西来给这个期货组合做抵押。但我是说，我个人认为，股票在这里未来十年左右的预期回报是负的，也许是深度负的。"
+    },
+    {
+      "i": 283,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "73:34",
+      "en": "So I don't personally wanna own any stocks. And I have so much equity beta in my portfolio via the companies that I am an owner in that like I'm full up, right?",
+      "zh": "所以我个人不想持有任何股票。而且通过我作为所有者之一的那些公司，我的投资组合里已经有了太多的股票贝塔，所以我已经满仓了，对吧？"
+    },
+    {
+      "i": 284,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "73:47",
+      "en": "But I agree with you, if you're an investor and you need to make a decision, it's hard. There is, I think, a deep outside potential that the S&P does go on to eat the universe, you know?",
+      "zh": "但我同意你说的，如果你是一个投资者、你需要做一个决定，那很难。我认为存在一种深深的、外在的可能性，就是标普 500 确实会继续'吃掉整个宇宙'，你知道？"
+    },
+    {
+      "i": 285,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "74:04",
+      "en": "So like, you gotta have some exposure, I guess, to that outcome. I don't know what people who, you know, the 50% of Americans and 98% of humans who don't own any S&P are supposed to do in that situation.",
+      "zh": "所以就像，你大概得对那个结果持有一些敞口。我不知道那些——你知道，那 50% 的美国人、98% 的人类——那些根本不持有任何标普 500 的人，在那种情况下该怎么办。"
+    },
+    {
+      "i": 286,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "74:20",
+      "en": "Repeat those numbers. What is it, 58 of Americans, right? 95% of Americans don't own. It's actually, I think, 80% of Americans, I think the top 20% of Americans on all stocks and mutual funds, there's some that own like pension assets or something, but they don't really collect in the upside.",
+      "zh": "把那些数字再说一遍。是多少来着，58% 的美国人，对吧？95% 的美国人没有持有。其实是，我想是 80% 的美国人，我想排名前 20% 的美国人持有所有的股票和共同基金，还有一些人持有 kind of 养老金资产之类的，但他们其实并没有真正享受到上涨的收益。"
+    },
+    {
+      "i": 287,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "74:40",
+      "en": "In the upside on equity markets and pension portfolios accrues to the companies that sponsor the pensions, right? So because it's irrelevant to them.",
+      "zh": "股市和养老金组合上涨的那部分收益，累积到了那些发起养老金计划的公司那里，对吧？所以说，因为它跟他们无关。"
+    },
+    {
+      "i": 288,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "74:48",
+      "en": "Right, and they're just getting their AM. Yeah, so I personally think everyone should have the core allocation of their portfolio, should be diversified trend following portfolio, collateralized with cash-like assets, a diversified set of cash-like assets that can be resilient to different types of inflation and currency devaluation.",
+      "zh": "对，而且他们只是拿到他们的那份管理费。是啊，所以我个人认为，每个人投资组合的核心配置都应该是一个分散化的趋势跟踪组合，用类现金资产做抵押，一组分散化的、能够抵御不同类型通胀和货币贬值的类现金资产。"
+    },
+    {
+      "i": 289,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "75:15",
+      "en": "But I know that the vast majority of people just can't hold that behaviorally, so. Not just three X lever Nvidia and the new single stock future ETFs that are sure to come out, right?",
+      "zh": "但我知道绝大多数人在行为上根本拿不住那个，所以。而不只是那种三倍杠杆 Nvidia，以及那些迟早会出来的新的单只股票期货 ETF，对吧？"
+    },
+    {
+      "i": 290,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "75:29",
+      "en": "That's what's crazy, like there's literally a whole other side that's like, are you crazy? This is the bet of all bets, just full, push all your chips in on the AI trade, yeah.",
+      "zh": "这才是疯狂的地方，就像真的还有完全相反的一拨人在说，你疯了吗？这是所有赌注里最大的那个赌注，就全押，把你所有的筹码都推到 AI 交易上，是啊。"
+    },
+    {
+      "i": 291,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "75:43",
+      "en": "Sorry, I'm just, I'm a little wired for that. Right, yeah, but then it's a weird part. What do you guys say, get ready to stay poor or get used, what is it?",
+      "zh": "抱歉，我只是有点太亢奋了。对，是啊，但然后就有一个奇怪的地方。你们那句怎么说来着，'准备好继续穷下去'，还是'习惯它'，是什么来着？"
+    },
+    {
+      "i": 292,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "75:53",
+      "en": "I don't know, something. Yeah, yeah, but for you, and that's the other argument, when I tell friends this, I'm like, I think they're like, what are you talking about?",
+      "zh": "我不知道，反正什么的。是啊是啊，但对你来说，而这正是另一个论点，当我把这个讲给朋友们听时，我就想，我觉得他们会想，你在说什么啊？"
+    },
+    {
+      "i": 293,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "76:01",
+      "en": "This is like, improves my productivity so much more. I can go out and now I can send out 10 proposals and get back, like they're seeing it, they're seeing their business grow because of it.",
+      "zh": "这东西把我的生产力提升了那么多。我可以出去，现在我能发出 10 份提案然后再收回来，就像他们看到了，他们看到自己的业务因为它在增长。"
+    },
+    {
+      "i": 294,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "76:12",
+      "en": "And so I'm like, that's a little, I'm like, yes, but who did you replace, right, in that work? Like you haul it out to someone else and I'm like, not to make you feel bad, but like you didn't hire those people or you didn't get that architect to do that, whatever you did, you didn't pay that money to do that.",
+      "zh": "所以我就想，那有点，我就想，是的，但你在那份工作里替代了谁，对吧？就像你把它甩给了别人，我就想，不是要让你难受，但就像你没有雇那些人，或者你没有请那个建筑师去做那件事，不管你做的是什么，你没有把那笔钱付给别人去做那件事。"
+    },
+    {
+      "i": 295,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "76:28",
+      "en": "And that's the problem that you're not seeing. So it's gonna accrue to these business owners and stuff, but other businesses are gonna fail.",
+      "zh": "而这正是你没有看到的问题。所以它会累积到这些企业主之类的人手里，但其他的企业会倒闭。"
+    },
+    {
+      "i": 296,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "76:35",
+      "en": "Yeah, but this is a, I keep saying this, I was at a dinner with Demetri Kofinas, I don't know if you know him from Hidden Forces, but he hosts these fantastic genius dinners every so often.",
+      "zh": "是啊，但这是一个，我一直这么说，我当时参加了一个晚宴，是 Demetri Kofinas 办的，我不知道你认不认识他，他来自 Hidden Forces，但他每隔一阵子就会办这些很棒的'天才晚宴'。"
+    },
+    {
+      "i": 297,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "76:47",
+      "en": "And I was a guest there. And a lot of people had sort of similar views, similar concerns that AI is gonna eat a significant proportion of the labor market.",
+      "zh": "我是那里的一个客人。很多人的观点 kind of 相似，担忧也相似，就是 AI 会吃掉相当大一部分的劳动力市场。"
+    },
+    {
+      "i": 298,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "76:58",
+      "en": "Some people were invoking like creative destruction and this can be like a whole new class of jobs or whatever. And I kind of sit somewhere in the middle there, but also my big thrust is that this is a complete, this is not an inevitability, it's a failure of imagination.",
+      "zh": "有些人搬出了'创造性破坏'（creative destruction），说这可能是全新一类的工作之类的。而我 kind of 处在中间某个位置，但我主要的论点是，这完全是——这不是一种必然性，而是一种想象力的失败。"
+    },
+    {
+      "i": 299,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "77:15",
+      "en": "And the accrual of a systematic dismantling of state capacity and a unified vision for what America and the West wants to be. Like you can ask ChatGBT, what are the 10 or 15 documented, documented, extremely tightly specified major goals that the Chinese, the CCP have laid down to happen by 2030, to happen by 2035, stuff like have a permanent moon base on, have a permanent moon base, be able to- Plant a billion trees, they had all that stuff.",
+      "zh": "而且是国家能力被系统性拆解、以及'美国和西方想要成为什么'这一统一愿景缺失的累积结果。就像你可以问 ChatGPT，中国、中共（CCP）已经确立的、要在 2030 年、2035 年之前实现的、有文件记载的、极其明确界定的那 10 到 15 个重大目标是什么，比如要有一个永久性的月球基地，要能够——种十亿棵树，他们把所有这些东西都列出来了。"
+    },
+    {
+      "i": 300,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "78:05",
+      "en": "Yeah, plant a billion trees. To launch our own domestic fully-sourced commercial airliner, to have gotten resources from Mars and brought them back to Earth, to have created 50 gigawatts of power using nuclear fusion.",
+      "zh": "是啊，种十亿棵树。要发射我们自己的、完全国内采购的商业客机，要从火星获取资源并把它们带回地球，要用核聚变创造出 50 吉瓦（gigawatts）的电力。"
+    },
+    {
+      "i": 301,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "78:27",
+      "en": "Like they've got all these extremely specific missions that they have declared for their economy and then not just missions, but like submissions.",
+      "zh": "就像他们为他们的经济体宣布了所有这一整套极其具体的使命，而且不只是使命，还有'子使命'（sub-missions）。"
+    },
+    {
+      "i": 302,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "78:37",
+      "en": "In order to achieve this mission, we need these technology, you need a major leap in rocket propulsion. What are the major potential current branches of research that might lead to major leaps in rocket propulsion?",
+      "zh": "为了实现这个使命，我们需要这些技术，你需要在火箭推进上有一次重大飞跃。当前有哪些主要的、潜在的研究分支可能会带来火箭推进上的重大飞跃？"
+    },
+    {
+      "i": 303,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "78:53",
+      "en": "We're going, these are also priorities, right? Like this is a well-conceived, diverse set of bets, many of which will not work out or at least not work out the way that they expect.",
+      "zh": "我们就去做，这些也都是优先级，对吧？就像这是一套构思良好、多样化的赌注，其中很多都不会成功，或者至少不会以他们预期的方式成功。"
+    },
+    {
+      "i": 304,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "79:08",
+      "en": "But the pursuit of those missions will spin off an unbelievable supply of new scientific discoveries, new commercial and security applications, new ways to enhance citizen welfare, what have you.",
+      "zh": "但对那些使命的追求，将会衍生出数量惊人的新科学发现、新的商业和安全应用、新的提升公民福祉的方式，诸如此类。"
+    },
+    {
+      "i": 305,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "79:27",
+      "en": "This is a competent state with goals and a mission and the ability to coordinate resources through space and time, actually building a country, contrast to the type of nonsense that we're faced with.",
+      "zh": "这是一个有目标、有使命、并且有能力跨越空间和时间来协调资源的称职的国家，是在真正地建设一个国家，与我们所面对的那种荒唐事形成对比。"
+    },
+    {
+      "i": 306,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "79:42",
+      "en": "And it's not cause we can't, there's no magic. It's just we have- And you could argue they've learned that for months. We have an imagination for what we want.",
+      "zh": "而且这不是因为我们做不到，这里面没有任何魔法。只是我们拥有——而且你可以论证说他们已经为此学习了几个月。我们对自己想要什么有一种想象力。"
+    },
+    {
+      "i": 307,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "79:50",
+      "en": "It's like we're gonna go to the moon, right? Right. We have no idea how to do it, we're gonna do it. We have no idea how to coordinate anymore and we've done everything we can to destroy trust and capability in our institutions and our governing bodies.",
+      "zh": "就像'我们要去月球'，对吧？对。我们不知道该怎么做到，但我们要去做。我们如今已经不知道该怎么协调了，而且我们已经竭尽所能地去摧毁对我们各个机构和治理主体的信任与能力。"
+    },
+    {
+      "i": 308,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "80:06",
+      "en": "And so it's a mess. That's another weird part of like, we're so focused on building these data centers and getting to max like accelerating this curve where it seems like we're ignoring everything else.",
+      "zh": "所以就是一团糟。这就是另一个奇怪的地方，就像，我们如此专注于建这些数据中心、专注于把这条曲线加速到极致，以至于我们似乎忽略了其他所有事情。"
+    },
+    {
+      "i": 309,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "80:26",
+      "en": "Almost like a pancy of like, oh, once we get this figured out, it'll solve all those other problems. It's the paperclip maximizer. Yeah, it'll solve healthcare.",
+      "zh": "几乎就像一种万灵药（panacea），就像，哦，等我们把这个搞定了，它会解决所有那些其他问题。这就是那个'回形针最大化器'。是啊，它会解决医疗保健。"
+    },
+    {
+      "i": 310,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "80:34",
+      "en": "Like once we get, once this gets to, you know, ASI, like healthcare is a snap. We got cancer beat, we got this. Like, okay. So just build another data center, that's gonna save us.",
+      "zh": "就像一旦我们达到，一旦这东西达到，你知道，ASI，那医疗保健就是小菜一碟。我们把癌症攻克了，这些我们都能搞定。就像，好吧。所以就再建一个数据中心，那会拯救我们。"
+    },
+    {
+      "i": 311,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "80:46",
+      "en": "Exactly. I mean, look, there's a whole economic playbook, right? Mariana Mazzicato has been a real leader in this in how to structure state missions in a way that minimizes grift, maximizes innovation or productivity, results in the right balance of rewards to private actors in the corporate sector with spinoffs to society in the state.",
+      "zh": "没错。我是说，看，有一整套经济学操作手册，对吧？Mariana Mazzucato 在这方面一直是一位真正的引领者，讲的是如何以这样一种方式来设计国家使命：最小化寻租贪腐（grift）、最大化创新或生产力，并在企业部门的私人行为者所获回报与社会及国家所得外溢之间达成恰当的平衡。"
+    },
+    {
+      "i": 312,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "81:11",
+      "en": "Like this, it's not like any of this is a mystery. It all exists. We just exist in this fucked up ideology where only the market is allowed to decide what we want in our lives.",
+      "zh": "就像这个，这并不是说这里面有任何谜团。这些东西全都存在。我们只是活在这样一种糟糕透顶的意识形态里：只允许市场来决定我们生活中想要什么。"
+    },
+    {
+      "i": 313,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "81:24",
+      "en": "And any attempt to like set higher purpose goals or transcend what the market, I'm not saying that we should have central planning. Yeah, yeah.",
+      "zh": "而任何想要设定更高目标、或者超越市场范畴的尝试——我并不是说我们应该搞中央计划。是啊是啊。"
+    },
+    {
+      "i": 314,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "81:34",
+      "en": "We should have missions and incentivize the market to figure it out. I was, that's like my mom always asked me, what the market, which one mom?",
+      "zh": "我们应该有各种使命，并激励市场去把它搞定。我，这就像我妈总问我，'什么市场，哪一个啊妈？'"
+    },
+    {
+      "i": 315,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "81:44",
+      "en": "We're looking at 80 plus. But right, that's where we're not, they were not incentive to make the corn market go up. Right. Like vice versa. What am I cheering for today?",
+      "zh": "我们盯着 80 多。但对，这就是问题所在，我们没有，他们并没有让玉米市场上涨的激励。对。就像反过来也一样。我今天该为谁加油？"
+    },
+    {
+      "i": 316,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "81:53",
+      "en": "I know I get the same question from my dad. God love him. I'm like, I don't know. Yeah, I don't know. Just whatever went up yesterday, generally we want that to go up today.",
+      "zh": "我知道我从我爸那儿也得到同样的问题。愿上帝保佑他。我就说，我不知道。是啊，我不知道。反正昨天涨的那个，我们通常就想让它今天接着涨。"
+    },
+    {
+      "i": 317,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "82:02",
+      "en": "That's right. Whatever went up over the last year, I kind of want to keep going. Exactly. All right, Adam, it's been fun and insightful. We'll put all the links in the show notes and talk to you next time.",
+      "zh": "没错。过去一年涨的那个，我 kind of 就想让它接着涨。没错。好了，Adam，这次聊得又开心又有启发。我们会把所有链接放在节目备注里，下次再聊。"
+    },
+    {
+      "i": 318,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "82:15",
+      "en": "Awesome. Thanks so much, Jeff. Okay, that's it for the pod. Thanks to Adam for coming on. Thanks, Jeff Berger, for producing. I think we'll be back next week, but I'm not entirely sure.",
+      "zh": "太棒了。非常感谢你，Jeff。好了，本期节目就到这里。谢谢 Adam 来做客。谢谢 Jeff Berger 担任制作。我想我们下周会回来，但我不太确定。"
+    },
+    {
+      "i": 319,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "82:27",
+      "en": "As you can see, I'm in the car right here now. So think we'll be back next week. If not, might do a solo six pack, something like that. Peace.",
+      "zh": "如你所见，我现在就在车里。所以想我们下周会回来。如果不回来，也许会做一期 solo 的'six pack'之类的。回见（Peace）。"
+    },
+    {
+      "i": 320,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "82:34",
+      "en": "You've been listening to The Derivative. Links from this episode will be in the episode description of this channel. Follow us on Twitter at RCMALT and visit our website to read our blog or subscribe to our newsletter at RCMALT.com.",
+      "zh": "你正在收听的是 The Derivative。本期节目的链接会放在本频道的节目描述里。在 Twitter 上关注我们 @RCMALT，访问我们的网站阅读我们的博客，或在 RCMALT.com 订阅我们的新闻通讯。"
+    },
+    {
+      "i": 321,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "82:47",
+      "en": "If you liked our show, introduce a friend and show them how to subscribe. And be sure to leave comments. We'd love to hear from you. This podcast is provided for informational content, this podcast is provided for informational purposes only and should not be relied upon as legal, business, investment, or tax advice.",
+      "zh": "如果你喜欢我们的节目，把它介绍给一位朋友，并教他们如何订阅。也请务必留下评论。我们很想听到你的声音。本播客仅供参考，本播客仅供参考，不应被视为法律、商业、投资或税务建议。"
+    },
+    {
+      "i": 322,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "83:08",
+      "en": "All opinions expressed by podcast participants are solely their own opinions and do not necessarily reflect the opinions of RCM alternatives, their affiliates, or company's feature.",
+      "zh": "播客参与者表达的所有观点均为其个人观点，不一定反映 RCM Alternatives、其关联公司或其节目中出现的公司的观点。"
+    },
+    {
+      "i": 323,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "83:17",
+      "en": "Due to industry regulations, participants on this podcast are instructed not to make specific trade recommendations nor reference past their potential profits.",
+      "zh": "由于行业监管规定，本播客的参与者被要求不得给出具体的交易建议，也不得提及其过往的潜在收益。"
+    },
+    {
+      "i": 324,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "83:24",
+      "en": "And listeners are reminded that managed features, commodity trading, and other alternative investments are complex and carry a risk of substantial losses.",
+      "zh": "并提醒听众，managed futures（管理期货）、大宗商品交易以及其他另类投资都很复杂，且存在重大损失的风险。"
+    },
+    {
+      "i": 325,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "83:30",
+      "en": "As such, they are not suitable for all investors.",
+      "zh": "因此，它们并不适合所有投资者。"
+    }
+  ]
+}

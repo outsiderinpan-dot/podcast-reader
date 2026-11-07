@@ -1,0 +1,911 @@
+{
+  "show": "swimming-with-allocators",
+  "kind": "transcript",
+  "id": "swimming-with-allocators-165ce8a9",
+  "slug": "2026-09-30-ddq-why-lps-still-arent-buying-165ce8a9",
+  "date": "2026-09-30",
+  "title_en": "DDQ: Why LPs Still Aren’t Buying the Venture Comeback",
+  "title_zh": "DDQ 特辑：为什么 LP 还是不买风投回暖的账",
+  "subtitle_zh": "IPO 没能唤回 LP，两位主持辩论资金何时流向新兴管理人。",
+  "description": "DDQ: Why LPs Still Aren’t Buying the Venture Comeback",
+  "duration": "32:04",
+  "duration_seconds": 1924,
+  "episode_url": null,
+  "audio_url": "https://traffic.megaphone.fm/TGL4626351196.mp3",
+  "speakers": {
+    "1": "Alexa Binns（主持）",
+    "2": "Earnest Sweat（主持）",
+    "3": "片花/广告（旁白）"
+  },
+  "turn_count": 111,
+  "turns": [
+    {
+      "i": 0,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "00:00",
+      "en": "Buy smart, drive for less, and trade for more. That's Toyota Fortability. And it starts with a great deal on an all-wheel drive Camry, Corolla Cross, or Corolla Sedan with the latest features in tech, or Test Drive a spacious Grand Highlander or adventure-ready RAV4.",
+      "zh": "买得聪明，开得省钱，换得更多——这就是 Toyota 的实惠之道。现在入手 Camry、Corolla Cross 或 Corolla Sedan 的全轮驱动（AWD）版本就有超值优惠，最新科技配置一应俱全；或者去试驾空间宽裕的 Grand Highlander、随时能去撒野的 RAV4。"
+    },
+    {
+      "i": 1,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "00:15",
+      "en": "And with so many hybrid models available, you can enjoy longer trips without all the stops, while Toyota's legendary resale value means you could get more at trade-in.",
+      "zh": "而且混动车型选择这么多，你可以少停车、跑更远；再加上 Toyota 传奇般的保值率，置换的时候你还能多拿回一点。"
+    },
+    {
+      "i": 2,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "00:23",
+      "en": "Get a great deal today and a great value tomorrow. Shop toyota.com for deals and details. Toyota, let's go places. The action's on the court.",
+      "zh": "今天买到超值，明天换到高价。优惠和详情请上 toyota.com。Toyota, let's go places。好戏就在球场上。"
+    },
+    {
+      "i": 3,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "00:34",
+      "en": "And as the official beer sponsor of the NBA, Mikolov Ultra is getting fans closer to the game. With a chance to win courtside seats, merch, and more, visit mikolovultra.com slash courtside to enter.",
+      "zh": "作为 NBA 的官方啤酒赞助商，Michelob Ultra 正在把球迷拉得更靠近比赛。有机会赢场边座位、周边商品等等，请访问 michelobultra.com/courtside 参与。"
+    },
+    {
+      "i": 4,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "00:45",
+      "en": "Mikolov Ultra courtside, 26 to 27. No purchase necessary. Open to US Residence 21 Plus. Begins on October 1, 2026, and ends on June 30, 2027.",
+      "zh": "Michelob Ultra Courtside 26-27。无需购买即可参与。面向 21 岁及以上美国居民。活动自 2026 年 10 月 1 日开始，至 2027 年 6 月 30 日结束。"
+    },
+    {
+      "i": 5,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "00:53",
+      "en": "Multiple entry periods. See official rules at mikolovultra.com slash courtside for free entry, entry deadlines, prizes, and details. Welcome to Swimming with Allocators.",
+      "zh": "有多个参与时段。免费参与方式、参与截止时间、奖品及详情请见 michelobultra.com/courtside 上的官方规则。欢迎收听 Swimming with Allocators。"
+    },
+    {
+      "i": 6,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "01:05",
+      "en": "The VC podcast from the LP perspective. With your host, Alexa Benz. And Ernest Sepp. You ready? Let's dive in. Welcome back to Swimming with Allocators.",
+      "zh": "一档从 LP 视角出发的 VC 播客。主持是 Alexa Benz，还有 Ernest Sepp。准备好了吗？我们下水吧。欢迎回到 Swimming with Allocators。"
+    },
+    {
+      "i": 7,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "01:17",
+      "en": "It's DDQ time, so it's time for us to discuss, debate, and question. It's where Alexa and I underwrite the entire venture industry, and so we got some fun for today.",
+      "zh": "DDQ 时间到了，也就是我们要 discuss（讨论）、debate（辩论）、question（提问）的时候。在这个环节里，Alexa 和我会给整个 venture（风投）行业做一遍承保式的审视，所以今天我们准备了不少好玩的东西。"
+    },
+    {
+      "i": 8,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "01:30",
+      "en": "So football's back. That'll be relevant later. IPO season opened, I guess. And somehow, LP's we're hearing are still not writing checks. So I brought a few games and questions to Alexa that she has not seen today.",
+      "zh": "首先，橄榄球赛季回来了，这个后面会用到。IPO 季算是开启了。但不知道为什么，我们听到的说法是 LP 还是不肯开支票。所以我给 Alexa 带了几个游戏和问题，她今天事先完全没看过。"
+    },
+    {
+      "i": 9,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "01:48",
+      "en": "She has not seen this. This is real. We have no producer, which we probably should, to validate this. But you have to trust me. And then this is just a reminder for these DDQ episodes.",
+      "zh": "她真没看过，这是真的。我们没有制作人——其实我们应该有一个——来帮我核实这些。但你得信我。另外这也是给这些 DDQ 期数的一个提醒。"
+    },
+    {
+      "i": 10,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "02:04",
+      "en": "We take all questions or feedback and recommendations. So you can send your questions at contact at SwimmingWithAllocators.com or just reach out to us on LinkedIn or if you have our emails.",
+      "zh": "我们欢迎所有问题、反馈和推荐。你可以把问题发到 contact@SwimmingWithAllocators.com，或者直接在 LinkedIn 上找我们，如果你有我们的邮箱也行。"
+    },
+    {
+      "i": 11,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "02:17",
+      "en": "Alexa, are you ready to dive in? OK. That was a little hesitant, but all right. First, we'll start with Discuss, the first D. And I wanted to bring up first discussion of IPOs.",
+      "zh": "Alexa，准备好下水了吗？行，这个「好」有点勉强，不过没关系。我们先从第一个 D——Discuss（讨论）开始。我想先聊聊 IPO。"
+    },
+    {
+      "i": 12,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "02:37",
+      "en": "And unless you've been under a rock this summer, we had SpaceX come out. And it was priced in June of June 11th at $135, became trading on June 12th.",
+      "zh": "只要你这个夏天没躲在石头底下，就知道 SpaceX 出来了。它在 6 月 11 日定价 135 美元，6 月 12 日开始交易。"
+    },
+    {
+      "i": 13,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "02:57",
+      "en": "And it raised about $75 billion. It's not a mistake, $1 billion. The largest IPO ever. The first day, it closed at $2.1 trillion. And obviously, because this IPO, insiders have a lockup period, depending on 180 days or 365 days.",
+      "zh": "它募集了大约 750 亿美元——没听错，750 亿美元。史上最大的 IPO。首日收盘市值 2.1 万亿美元。而且显然，因为这是 IPO，内部人有锁定期（lockup），可能是 180 天，也可能是 365 天。"
+    },
+    {
+      "i": 14,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "03:22",
+      "en": "But since the listing, the pricing has slipped. And I don't know when you're going to be hearing this, but it's probably still slipped off the peak of $211 of a price.",
+      "zh": "但上市之后，股价已经回落了。我不知道你听到这期的时候是什么时候，但大概率它还是从 211 美元的高点往下掉了。"
+    },
+    {
+      "i": 15,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "03:35",
+      "en": "So with all of this happening, I've been talking to a lot of different people in the ecosystem of GPs and LPs. And I've heard a lot of different things, Alexa.",
+      "zh": "所以在这件事发生的过程中，我跟生态圈里很多 GP 和 LP 都聊过，也听到了很多不同的说法，Alexa。"
+    },
+    {
+      "i": 16,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "03:47",
+      "en": "So one, GPs have been saying that SpaceX event didn't restart LP activity, because we're not really seeing any distribution, and that a lot of managers haven't given distribution guidance if they even have that stock.",
+      "zh": "第一，GP 们一直在说，SpaceX 这件事并没有重启 LP 的活跃度，因为我们其实没看到什么分配（distribution），而且很多管理人即使持有这只股票，也没给出分配指引。"
+    },
+    {
+      "i": 17,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "04:07",
+      "en": "Also, conservative CIOs are still going to brand names. I've heard from a number of foundations and institutional LPs, and they're still feeling kind of hesitant.",
+      "zh": "另外，保守型的 CIO 还是在追大牌。我跟不少基金会和机构 LP 聊过，他们还是有点犹豫。"
+    },
+    {
+      "i": 18,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "04:21",
+      "en": "And there's just this movement to consensus. And I've heard from some early stage GPs that that $300 to $500 million outcome is becoming rarer and rarer.",
+      "zh": "而且就是有一种向共识靠拢的趋势。我也从一些早期 GP 那里听到，3 亿到 5 亿美元这种退出结果正变得越来越罕见。"
+    },
+    {
+      "i": 19,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "04:40",
+      "en": "It's actually the unicorn, because a lot of acquiring companies have gotten smart. And instead of offering a purchase price of $300 to $500 million, it's a lot cheaper just to give the founders a carve out of $15, $20, $50 million.",
+      "zh": "真正罕见的反而是独角兽，因为很多收购方学精了：与其开出 3 亿到 5 亿美元的收购价，不如直接给创始人切出 1500 万、2000 万、5000 万美元，这样便宜得多。"
+    },
+    {
+      "i": 20,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "05:01",
+      "en": "So what does that all tell us? It's like, oh, LPs aren't re-upping on a headline. They're not going to re-up until there's a wire. So my discussion is, what actually is going to move capital to emerging managers in 2027?",
+      "zh": "那这一切告诉我们什么？就是说，哦，LP 不会仅凭一个头条新闻就续投（re-up）。他们要等到真有 wire（资金到账）才会续投。所以我的讨论题是：2027 年到底什么才会把资金推向新兴管理人（emerging managers）？"
+    },
+    {
+      "i": 21,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "05:22",
+      "en": "If that's even a year, what do you think? Yeah, I think when we started doing this podcast, it was all about the denominator effect, where people weren't able to deploy more into venture because they were over-weighted and they hadn't seen any returns.",
+      "zh": "如果 2027 年还算一个「年份」的话。你怎么看？——是的，我觉得我们刚开始做这档播客的时候，全都是分母效应（denominator effect）的问题：大家没法往 venture 里投更多钱，因为他们已经超配了，而且还没见到任何回报。"
+    },
+    {
+      "i": 22,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "05:41",
+      "en": "I think the GPs are getting out ahead of themselves by sort of assuming that they can book the liquidity. And so they'll be returning. Maybe they've got an opportunity fund now.",
+      "zh": "我觉得 GP 现在有点跑在自己前面了，他们默认自己可以把流动性入账，也就是说他们会开始返还资金。也许他们现在有一只机会基金（opportunity fund）。"
+    },
+    {
+      "i": 23,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "05:56",
+      "en": "Maybe they're finally coming out for their next fund. Maybe you're a new manager talking to a new LP. And so we have the confidence as VCs to be like, we can start counting the money.",
+      "zh": "也许他们终于要发下一期基金了。也许你是个新管理人，在跟一个新的 LP 谈。所以我们这些 VC 就有底气说：我们可以开始把钱算进来了。"
+    },
+    {
+      "i": 24,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "06:10",
+      "en": "This must mean there's room now for new bets. The problem is solved. And what we've heard from a couple of the LPs on the show is it's not that easy.",
+      "zh": "这肯定意味着现在有新押注的空间了，问题解决了。但我们从节目里请到的几位 LP 那里听到的是：没那么简单。"
+    },
+    {
+      "i": 25,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "06:22",
+      "en": "There is the timing issue that you described in some cases you're locked up. In some cases, these people might actually decide to hold the stock that they've managed to get at a great price.",
+      "zh": "有你说的那种时间差问题：有些情况下你被锁定了；有些情况下，这些人可能真的会决定长期持有他们以很好的价格拿到的股票。"
+    },
+    {
+      "i": 26,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "06:36",
+      "en": "You're not necessarily selling that the minute that you get it distributed to you if that's an option, if they're giving it to you in the form of stock.",
+      "zh": "你不一定一拿到就立刻卖掉——如果这算一个选项的话，如果分配是以股票形式给你的。"
+    },
+    {
+      "i": 27,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "06:44",
+      "en": "And similarly, we were in the red as an asset class. So I also really liked Tricia Babson University's point that this capital, when it flows back in, it's flowing back into the full pot.",
+      "zh": "同样，我们作为一个资产类别还是亏损状态（in the red）。所以我特别认同 Babson University 的 Tricia 的观点：这些资金回流的时候，是回到整个大池子里的。"
+    },
+    {
+      "i": 28,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "07:05",
+      "en": "It's not just hers to redeploy. Yeah. Yeah. And I think that's something that's hard for GPs to understand. But when you have so much capital being raised over a 10, 15-year period with limited liquidity events, much more limited liquidity events, it's going to take time for that to shake out back in the ecosystem.",
+      "zh": "它不只是她一个人的钱可以重新配置。——嗯，嗯。我觉得这一点 GP 很难理解。在 10 年、15 年的时间里募了这么多资本，而流动性事件又这么有限、极其有限，那这些东西要重新在生态圈里消化回来，是需要时间的。"
+    },
+    {
+      "i": 29,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "07:39",
+      "en": "And so again, I think what's going to be needed is multiple exits. But then also, I think even the conversation about where the capital goes to after that has not reached the nuance that it should.",
+      "zh": "所以再说一次，我觉得需要的是多笔退出。但同时我也认为，关于资金回流之后到底流向哪里的讨论，还没有达到它应有的细致程度。"
+    },
+    {
+      "i": 30,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "08:01",
+      "en": "There's usually just pitting established brands versus not established brands. And I think it's a little bit, there's more layers to that because there are some established brands who are having real questions of, like, should they exist, both from internally as well as from the marketplace of founders and LPs.",
+      "zh": "通常大家就是把大牌和非大牌对立起来看。我觉得这里其实有更多层次，因为有些大牌机构正在被真实地质疑：它们还有存在的必要吗——这个质疑既来自内部，也来自创始人和 LP 的市场。"
+    },
+    {
+      "i": 31,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "08:25",
+      "en": "That's funny. This question around liquidity and locking more slots for managers was also something I wanted to discuss because we hadn't gotten a chance to talk about it.",
+      "zh": "有意思。围绕流动性、以及给管理人锁定更多份额这个话题，我本来也想聊，因为我们一直没找到机会谈。"
+    },
+    {
+      "i": 32,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "08:35",
+      "en": "I took some notes at Advancing DC, which is an emerging manager conference, where LPs present. They judge some pitches. They're available to answer questions.",
+      "zh": "我在 Advancing DC 上做了些笔记，那是一个新兴管理人会议，LP 会上台演讲、评审一些 pitch，也会现场答疑。"
+    },
+    {
+      "i": 33,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "08:47",
+      "en": "And wanted to share three of my favorite points from different LPs who presented. And maybe that sparks your memory of some things you've also been hearing kind of off the cuff.",
+      "zh": "我想分享三位不同 LP 讲的观点里我最喜欢的三个。也许这能勾起你的记忆，想起你最近随口听到的一些东西。"
+    },
+    {
+      "i": 34,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "09:02",
+      "en": "So Courtney, at ReCast Capital, said that nonstop talking is pretty obnoxious, and that unless you're saying something super engaging, let's have a conversation.",
+      "zh": "ReCast Capital 的 Courtney 说，一个人不停地讲其实挺招人烦的；除非你说的东西特别吸引人，否则我们还是好好对话吧。"
+    },
+    {
+      "i": 35,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "09:13",
+      "en": "I thought that was such a, like, sharpshooter straight way of explaining what it's like being on the other end of these like receiving these services.",
+      "zh": "我觉得这个说法特别一针见血，直白地说清楚了站在另一端、接受这些「服务」是什么感受。"
+    },
+    {
+      "i": 36,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "09:26",
+      "en": "Is it, do they mean just in person or online, too? I'm imagining that she probably takes plenty of online pitches, I mean, Zoom pitches as well.",
+      "zh": "她是说只是线下的场合，还是线上也算？我猜她应该也接很多线上 pitch，我是说 Zoom 上的 pitch。"
+    },
+    {
+      "i": 37,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "09:37",
+      "en": "Oh, no, I meant from someone constantly talking to the ether and posting. Oh, this was in the context of fundraising. So this is how to handle your first meeting with an LP.",
+      "zh": "哦不是，我指的是那种一个人对着空气不停地说、不停地发帖。——哦，这是在募资的语境下说的。所以这是讲你第一次跟 LP 开会该怎么处理。"
+    },
+    {
+      "i": 38,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "09:50",
+      "en": "OK, OK, cool. All right, list number two. Giada at San Francisco Employees Retirement System, on the question of how do you differentiate, like, how do you know what your differentiation even is?",
+      "zh": "OK，OK，明白了。好，第二条。San Francisco Employees Retirement System 的 Giada，关于「你怎么做差异化」这个问题——或者说，你怎么知道自己的差异化到底是什么？"
+    },
+    {
+      "i": 39,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "10:03",
+      "en": "She suggested you ask a friend, why did you invest in me? And what a healthy, smart way to go about this. Rather than sort of backing into what you think LPs want, it's like really figuring out what your superpower is, because, like, why did your friends trust you with their capital?",
+      "zh": "她建议你问问朋友：你当初为什么会投我？这是多么健康又聪明的做法。与其反推你以为 LP 想要什么，不如真正搞清楚你的超能力是什么——毕竟，你的朋友们为什么愿意把钱交给你？"
+    },
+    {
+      "i": 40,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "10:23",
+      "en": "And then third, final one, Erin at 50 South Capital, what a gem. He made a great point about all. I love Erin. I know. He's great. Erin also calling you out.",
+      "zh": "然后第三个，也是最后一个：50 South Capital 的 Erin，真是个宝藏。他讲了一个特别好的观点。——我喜欢 Erin。——我知道，他特别棒。Erin 还点名说你呢。"
+    },
+    {
+      "i": 41,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "10:35",
+      "en": "You should be on the show. Continue. We can all control our compliance to you. So he made the point that all GPs are impressive with these incredible past successes, but he considers his job to be figuring out the subset that has, like, insane future potential.",
+      "zh": "说你该上这个节目。你继续说吧，我们都听你的。所以他的观点是：所有 GP 都很厉害，都有了不起的过往战绩；但他认为自己的工作是找出那一小撮拥有疯狂未来潜力的人。"
+    },
+    {
+      "i": 42,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "11:00",
+      "en": "That's those are those are three good points. If you could ask a follow up question to any of those, which one would you ask? Like, which question and what would your follow up question be?",
+      "zh": "这三条都是好观点。如果你能对其中任何一条追问一个问题，你会问哪一条？问什么问题，你的追问会是什么？"
+    },
+    {
+      "i": 43,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "11:18",
+      "en": "I think, like, how to judge future potential is fast. Yeah, yeah. That's, that's, yeah. And I don't feel like we're in a market right now that is really digging into that.",
+      "zh": "我想想，就是「怎么快速判断未来潜力」这个问题。——嗯，嗯，对对对。而且我觉得我们现在的市场并没有真的在深挖这一点。"
+    },
+    {
+      "i": 44,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "11:37",
+      "en": "Like, what does that look like? What are the right signals for that other than, like, your past success? I think, you know, we've heard this over a number of our conversations, but this idea of being a founder magnet is something that I'm hearing from and from smart LPs in different ways of, like, are you just, are we just hearing about you all the time?",
+      "zh": "比如，那到底长什么样？除了你过往的成功之外，正确的信号是什么？——我觉得，这个我们在很多次对话里都听到过，但「创始人磁铁」（founder magnet）这个说法，我从不同的聪明 LP 那里听到过很多版本，比如：我们是不是随时随地都在听到你的名字？"
+    },
+    {
+      "i": 45,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "12:07",
+      "en": "Or you just kind of, like, it's kind of like the concept of, like, that's been put in movies where it's like, oh, if you say, if you say blue car, then all you'll do is see blue cars all day.",
+      "zh": "或者说，这就有点像电影里演的那种概念：如果你说了「蓝色的车」，那你一整天看到的就全是蓝色的车。"
+    },
+    {
+      "i": 46,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "12:19",
+      "en": "And this concept of people just becoming a part of the ecosystem and how fast it happens and how you become a node really fast. And so I think some of the best allocators are going to start to notice who becomes these nodes really fast.",
+      "zh": "还有这个概念——人们如何成为生态圈的一部分、这个过程有多快、你多快能成为一个节点（node）。所以我觉得，一些最好的 allocator 会开始注意到谁成为节点的速度特别快。"
+    },
+    {
+      "i": 47,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "12:43",
+      "en": "Another thing it makes me think of is how GB's often will forget to brag about themselves. They just want to talk about their strategy. And if they are talking about themselves, it's probably backward leading.",
+      "zh": "另一个让我想到的是，GP 常常忘了夸自己。他们只想讲自己的策略。而如果他们真在讲自己，那多半是向后看的。"
+    },
+    {
+      "i": 48,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "12:57",
+      "en": "Like, they think that the point is, like, traction. They think the point is, like, what are those superstar things I've done in the past? But maybe you need to be talking about your superstar qualities for the future.",
+      "zh": "比如他们以为重点是 traction（业务牵引力），以为重点是我过去做过哪些超级明星项目。但也许你该讲的是你面向未来的超级明星特质。"
+    },
+    {
+      "i": 49,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "13:14",
+      "en": "Yeah. Yeah. Or what you're doing in the present. I think this idea of, like, being able, it's a lot of times when you try to make your differentiation legible, which is a word that now I just hear all the time, to LPs and founders, when you're breaking it down, it could sound like everything that's been on every VC website.",
+      "zh": "嗯，嗯。或者你现在正在做的事情。我觉得这个想法是——很多时候当你想把自己的差异化变得「可辨识」（legible，这个词我现在真是天天听到），对着 LP 和创始人拆解清楚的时候，听起来可能跟每一个 VC 网站上写的都一样。"
+    },
+    {
+      "i": 50,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "13:40",
+      "en": "I wonder if there is a parallel. There's a lot of data that shows that female founders get asked more questions about their existing traction for their business and are not, like, really given the opportunity to present the big vision.",
+      "zh": "我在想这里面是不是有个平行的现象。有很多数据显示，女性创始人被问到更多的是关于业务现有 traction 的问题，而并没有真正获得展示宏大愿景的机会。"
+    },
+    {
+      "i": 51,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "14:01",
+      "en": "And I wonder for any female GPs listening, maybe we need to be more thoughtful about whatever questions we're receiving from potential allocators, making sure we also talk with forward thinking.",
+      "zh": "所以我想对正在收听的任何女性 GP 说：也许我们需要更用心地对待潜在 allocator 抛给我们的问题，确保我们也用前瞻的方式去表达。"
+    },
+    {
+      "i": 52,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "14:21",
+      "en": "If you're not asked a question about the big idea or how you're going to have big impact, you need to find a way to slide into talking about that, or else you don't get a chance.",
+      "zh": "如果没人问你那个大想法、没人问你打算怎么创造大影响，你就得想办法自己滑进那个话题，否则你就没有机会讲。"
+    },
+    {
+      "i": 53,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "14:32",
+      "en": "Yeah. I think there are clever ways to be authentic to who you are. But I think there are clever ways to, when you don't feel like you're being asked a question that's essential to your strategy and who you are, and also might be a sticking point that you think could make the allocator more interested, is your responsibility to figure a way out to do that.",
+      "zh": "嗯。我觉得有很多聪明的方式可以让你忠于自己是谁。但我也觉得，当你感觉对方没有问到一个对你的策略、对你这个人至关重要的问题——而这个问题可能恰恰是会让 allocator 更感兴趣的点——那你有责任自己想办法把它讲出来。"
+    },
+    {
+      "i": 54,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "14:55",
+      "en": "And so sometimes it's asking questions to them. Yeah, GPs, you can actually ask questions to LPs. Trust me, we've been doing it. And so, yeah, you have to find your own ways to do that.",
+      "zh": "所以有时候办法就是反问他们。是的，GP 们，你们其实是可以向 LP 提问的。相信我，我们一直在这么干。所以，对，你得找到自己的方式去做这件事。"
+    },
+    {
+      "i": 55,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "15:08",
+      "en": "And so the next one, the discussion point that I wanted to talk about was, one, take it in a victory lap. There is about a year ago, almost, episode 82.",
+      "zh": "那么下一个我想聊的讨论点是：第一，先来个胜利巡游（victory lap）。差不多一年前，几乎是整整一年前，第 82 期。"
+    },
+    {
+      "i": 56,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "15:22",
+      "en": "I know you all remember it. Two brilliant podcasters predicted what would happen. And we're starting to see it. Those two people said that LPs who went direct will eventually drift back to fund-to-funds, but only the ones that offer more than just a basket, right, of different funds.",
+      "zh": "我知道你们都记得。两位才华横溢的播客主预测了会发生什么，而现在我们开始看到了。那两个人说：那些走直投（direct）路线的 LP 最终会漂回基金中的基金（fund of funds），但只会回到那些能提供的不只是一篮子不同基金的产品。"
+    },
+    {
+      "i": 57,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "15:50",
+      "en": "So I can't remember which of us said that, but let's just both take the victory lap. It's starting to happen. And the reason why I wanted to bring that up is because I'm hearing from more and more fund-to-funds that the interests from institutional foundations and endowments and family offices are pinging top-tier fund-to-funds.",
+      "zh": "所以我记不清是我们俩谁说的了，那就都来一次胜利巡游吧。这事儿正在发生。我之所以想提这个，是因为我听到越来越多 fund of funds 说，机构基金会、捐赠基金和家族办公室的兴趣正在涌向头部 fund of funds。"
+    },
+    {
+      "i": 58,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "16:20",
+      "en": "And even public pensions are as well. And the funny thing, though, is that LPU told me, this also said that they were curious if that is a signal to a very frothy market, like a peak of a market, because that happened in 2020 and 2021 again.",
+      "zh": "甚至公共养老金也在这么做。不过有意思的是，有个 LP 跟我说，他们也在琢磨这是不是市场过热的信号，是不是市场见顶了，因为 2020 年和 2021 年也发生过同样的事。"
+    },
+    {
+      "i": 59,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "16:45",
+      "en": "And I say, maybe, but that's why you shouldn't time the market. And if it helps emerging managers, I'll take it. But these, I think the importance of fund-to-funds, since we've been doing this show, we've seen the pendulum swing on people going to do more directs.",
+      "zh": "我说，也许吧，但这正是你不该去择时市场的原因。而且如果这能帮到新兴管理人，那我乐意接受。不过我觉得 fund of funds 的重要性在于——自从我们做这档节目以来，我们看着钟摆往「大家去做更多直投」那边摆过去。"
+    },
+    {
+      "i": 60,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "17:07",
+      "en": "And I think, yeah, we'll see the big names of hugging face, SpaceX, and Anthropic, and OpenAI, and da-da-da-da-da. But there are hundreds and thousands of other companies that people invest in directly that will never see the light of day of an IPO or a liquidity event.",
+      "zh": "而且我觉得，是的，我们会看到 Hugging Face、SpaceX、Anthropic、OpenAI 这些大名鼎鼎的名字，等等等等。但还有成百上千家被直接投资的公司，永远等不到 IPO 或流动性事件的那一天。"
+    },
+    {
+      "i": 61,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "17:27",
+      "en": "And so the argument was, we don't want to do fee on fees. There's not much diversity in there's so many party rounds anyway now, I can just invest directly into these companies.",
+      "zh": "所以当时的论点是：我们不想付「费上加费」（fee on fees）；反正也没多少多样性，现在 party round 这么多，我直接投这些公司就行了。"
+    },
+    {
+      "i": 62,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "17:48",
+      "en": "What do you think, are you, do you feel like you're seeing and hearing similar things of like, OK, people starting to trust individuals who focus nothing but on emerging managers or just an asset class?",
+      "zh": "你怎么看？你是不是也看到、听到类似的情况——就是，好，人们开始信任那些只专注于新兴管理人、或者只专注于这一个资产类别的个人了？"
+    },
+    {
+      "i": 63,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "18:02",
+      "en": "Are you seeing different? Yes. I think the interest in fund-to-funds is actually a consensus around the barbell approach that so many of our guests talk about.",
+      "zh": "你看到的会不会不一样？——是的。我觉得对 fund of funds 的兴趣，其实是围绕杠铃策略（barbell approach）形成的共识，我们请到的很多嘉宾都在讲这个。"
+    },
+    {
+      "i": 64,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "18:15",
+      "en": "So if you're going to do, we see all the capital is going to a few names in venture, you can kind of do that direct, actually. There's room.",
+      "zh": "所以如果你要做——我们看到所有资本都在涌向 venture 里的少数几个名字——那部分你其实可以直接投。是有空间的。"
+    },
+    {
+      "i": 65,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "18:27",
+      "en": "They're willing to take conversations with new LPs. The thing that has also become consensus is having some play on the really early stage venture.",
+      "zh": "他们愿意跟新的 LP 谈。而另一件已经成为共识的事，是在极早期 venture 上有一些布局。"
+    },
+    {
+      "i": 66,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "18:38",
+      "en": "And so I think that's where consensus has finally kind of come around that you don't, that venture now is multiple asset classes. And so if you're going to have a small little bucket or sliver for the early stage emerging manager part of the barbell approach, if that's what you're going to be adopting, then yeah, you're going to go talk to the fund-to-funds.",
+      "zh": "所以我觉得，共识终于绕到了这一点：venture 现在是多个资产类别的集合。如果你要在杠铃策略里给早期新兴管理人那一端留一个小桶、一小条，如果你要采用这个策略，那么是的，你就会去找 fund of funds 谈。"
+    },
+    {
+      "i": 67,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "19:00",
+      "en": "All right, next we're jumping into the debate section of our DDQ podcast. Ernest, hypothetically, you learn that your GP just did a huge check into the latest round of insert AI lab, like opening AI at $1.2 trillion.",
+      "zh": "好，接下来我们跳进 DDQ 播客的 debate（辩论）环节。Ernest，假设你得知你的 GP 刚刚在「某家 AI 实验室」——比如 OpenAI——的最新一轮里开了一张巨额支票，估值 1.2 万亿美元。"
+    },
+    {
+      "i": 68,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "19:18",
+      "en": "How do you feel about this move? Why couldn't I get in at $900 million would be the question? Also, what is your strategy? Are you like, if I'm not an institutional allocator that's invested in Thrive, then I probably have a problem with that.",
+      "zh": "你对这个操作感觉如何？「为什么我没能在 9 亿美元的时候进去」大概就是那个问题吧。另外，你的策略是什么？你是不是那种：如果我不是一个投了 Thrive 的机构 allocator，那我大概会对这事有意见。"
+    },
+    {
+      "i": 69,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "19:44",
+      "en": "But yeah, I'm probably not too happy about that right now, but also could be wrong, right? I know in our last, I feel like our last DDQ, you had me rank which investments to do.",
+      "zh": "但 yeah，我现在大概不会太高兴，不过我也可能是错的。我记得在我们上一期——我觉得是上一期 DDQ 里，你让我给几个投资排序。"
+    },
+    {
+      "i": 70,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "19:58",
+      "en": "And I don't agree with anything that I said there. I would definitely take it. So this thing changes all the time. So yeah, that would probably be my response.",
+      "zh": "而我当时说的东西，我现在一条都不认同。我肯定会要这一笔。所以这事儿是一直在变的。对，所以这大概就是我的回答。"
+    },
+    {
+      "i": 71,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "20:13",
+      "en": "Did you have a follow-up? Because I have comments about this. I feel exactly the same way. I mean, I guess the devil's advocate side is kind of like, let's get some Lotto tickets.",
+      "zh": "你有没有追问？因为我对此有些评论。我的感受完全一样。我是说，我猜唱反调的那一面大概是：那就买点彩票吧。"
+    },
+    {
+      "i": 72,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "20:25",
+      "en": "They're not all going to go to zero. Some of these are going to be the companies of which the universe is built. So I'll take it at any price, which I guess is the logic of the GPs.",
+      "zh": "它们不会全部归零。其中一些会成为构成这个宇宙的公司。所以任何价格我都愿意要——我猜这就是 GP 的逻辑。"
+    },
+    {
+      "i": 73,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "20:37",
+      "en": "You're supposed to have some exposure. So I guess it just depends on what I already had exposure to, how frustrated or how pumped I am. This is going to be a question that one of our audience members asked me, but I'll just bring it here because it's kind of within the discussion.",
+      "zh": "你本来就该有一些敞口。所以我觉得这取决于我已经有了哪些敞口，我是有多沮丧还是有多兴奋。接下来这个问题是一位听众问我的，但我就放到这里讲，因为它跟我们正在讨论的内容有点关系。"
+    },
+    {
+      "i": 74,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "20:54",
+      "en": "And that question essentially was like, is AI Doom scroll real? Like, is all of the, hey, we've seen some crazy, like the Blair Witch Project of AI that's going on.",
+      "zh": "那个问题基本上是：AI 的「末日刷屏」（doom scroll）是真的吗？就是说，我们确实看到了一些很疯狂的东西，像是 AI 版的 Blair Witch Project（《女巫布莱尔》）。"
+    },
+    {
+      "i": 75,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "21:08",
+      "en": "And it has not stopped any interest. I will tell you that both nationally and internationally of people wanting to get into said companies. And it's actually made me, I'm sure you all can find anything piece about kind of like what's going on AI.",
+      "zh": "但它丝毫没有减少人们的兴趣。我可以告诉你，无论国内还是国外，想投进这些公司的人一点没少。而且这其实让我——我相信你们能找到任何一篇讲 AI 现状的报道。"
+    },
+    {
+      "i": 76,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "21:34",
+      "en": "But I'm sure I said this on the show before, but I think you should, the equivalent in history is actually the space race where people are thinking about not only being the first in progression, but like it's also some game theory involved, too, is that even if we agree to standards here, well, everyone and every nation agree to standards.",
+      "zh": "但我确定我以前在节目里说过：历史上真正的对应物其实是太空竞赛。人们想的不只是要在进展上第一个到达，这里面还有博弈论（game theory）的成分——即使我们在这里就标准达成一致，也就是所有人都同意、每个国家都同意标准。"
+    },
+    {
+      "i": 77,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "22:00",
+      "en": "And I think the play is there's also a fight for open weight models in America, in American-based ones. And so if you're a coalition of people who have already kind of the market share, it probably makes sense for you to then come together in this one aspect so that you can own the, hey, we'll provide those open weight models for everybody.",
+      "zh": "而且我觉得这盘棋里还有一场关于开放权重模型（open weight models）的争夺，争夺美国本土的模型。所以如果你是一个已经掌握了市场份额的联盟，那么在这一个点上联合起来大概就说得通了，这样你们就能占住那个位置：嘿，开放权重模型由我们来提供给所有人。"
+    },
+    {
+      "i": 78,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "22:27",
+      "en": "Yeah, I think because these bets are so big, I felt much smarter than myself. Dana Desians was explaining at his AGM that they think of themselves as indirect AI exposure.",
+      "zh": "是啊，我觉得因为这些押注实在太大了——有一位比我聪明得多的人，Dana Desians，在他的年度股东大会（AGM）上解释过，他们把自己定位为 AI 的间接敞口（indirect AI exposure）。"
+    },
+    {
+      "i": 79,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "22:43",
+      "en": "So that if one of these goes to zero, you want some diversification, and their bets are not there. Their bets are not in these small names. As an LP, I guess I do want to have both, right?",
+      "zh": "所以如果其中某个归零了，你需要一些分散化，而他们的押注不在那里，不在这些小名字上。作为一个 LP，我觉得我两种都想要，对吧？"
+    },
+    {
+      "i": 80,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "23:01",
+      "en": "Like you want to have some GPs who are like valuation sensitive and are investing in companies that are not just like marked to the last round, but are marked based on anything else.",
+      "zh": "比如你会想要一些对估值敏感的 GP，他们投的公司不是只按上一轮估值标价，而是按其他任何东西来定价。"
+    },
+    {
+      "i": 81,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "23:20",
+      "en": "Yes, but I'm actually actively challenging in my head on if AI goes bad, do we have a bigger issue? Like it's like 100% like the house of cards were, yes, 100%.",
+      "zh": "是的，但我其实在脑子里主动挑战自己：如果 AI 走向糟糕，我们是不是有一个更大的问题？就像百分之百的《House of Cards》（纸牌屋）那样——是的，百分之百。"
+    },
+    {
+      "i": 82,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "23:46",
+      "en": "It's like we won't have any water. We won't have any autonomy, and all our information will be used against us. I don't totally believe in that, right?",
+      "zh": "就像我们将没有水、没有自主权，我们所有的信息都会被拿来对付我们。我并不是完全相信这个，对吧？"
+    },
+    {
+      "i": 83,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "23:56",
+      "en": "I'm just saying if we play this out in that pushback. I think there's two ways that AI goes bad in this case. Like the scenario of just Armageddon, and they find a way to literally just send us all a version of COVID that none of us wake up one day.",
+      "zh": "我只是说，如果我们把这个反驳推演到底。我觉得在这种情况下 AI 变糟有两种方式：一种是纯粹的末日（Armageddon）情景，他们想办法给我们所有人送来一个版本的新冠，某天我们全都醒不过来了。"
+    },
+    {
+      "i": 84,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "24:13",
+      "en": "Or just one failed IPO could tank our economy for a decade. Yeah, yeah, yeah. OK, and our final segment, questions. These are questions we've received from the audience, or people have called us to ask for our advice.",
+      "zh": "另一种是，仅仅一次失败的 IPO 就能把我们的经济拖垮十年。——嗯，嗯，嗯。好，最后一个环节，questions（提问）。这些是我们从听众那里收到的问题，或者是有人打电话来向我们求建议。"
+    },
+    {
+      "i": 85,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "24:32",
+      "en": "And question number one from the audience. Is there a tactic, or was there a milestone, moment, or something that started to get momentum going for people to actually close?",
+      "zh": "听众的第一个问题：有没有什么战术，或者有没有某个里程碑时刻、某个东西，开始让势头真正起来，让人们真的关账（close）？"
+    },
+    {
+      "i": 86,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "24:46",
+      "en": "You've had first conversations with 100 potential LPs. What are those other tactics that we should be implementing? Oh, that's a great question.",
+      "zh": "你已经跟 100 个潜在 LP 做过第一次谈话了。还有哪些我们应该采用的战术？——哦，这个问题太好了。"
+    },
+    {
+      "i": 87,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "24:56",
+      "en": "Well, I want to plug that both of us will be at raise, the GP day, and my panel is actually on how do you continue to build momentum. So I would suggest all of you try to go to that.",
+      "zh": "嗯，我想先打个广告：我们俩都会去 Raise GP Day，而我的 panel 主题正好就是「如何持续积累势头」。所以我建议你们都尽量去参加。"
+    },
+    {
+      "i": 88,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "25:12",
+      "en": "But if you've been speaking to a lot of people, I'm getting more and more, I've heard this from LPs and believe this, but you have to raise before you start raising.",
+      "zh": "但如果你一直在跟很多人聊——我越来越多地听到这个说法，我从 LP 那里听到过，而且我也相信——你必须在开始募资之前就先「募好」。"
+    },
+    {
+      "i": 89,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "25:27",
+      "en": "And it's critical, based on whatever your size, or your fund, and strategy, that you align with anchors that can put you into business. And so I would spend most of your pre-raised time on finding the right anchors and selling them on why you should do this together.",
+      "zh": "而且关键在于，根据你的基金规模和策略，你要跟那些能把你「送进生意里」的锚定投资人（anchor）对齐。所以我会把你募资前的绝大部分时间花在找到对的 anchor，并说服他们为什么要跟你一起做这件事上。"
+    },
+    {
+      "i": 90,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "25:48",
+      "en": "And they'd be seen as the silent partner. And so from friends who have been very successful at fundraising, once having an anchor, then you're able to go to all the other people who want to see that momentum of other people closing.",
+      "zh": "他们会是那个沉默的合伙人（silent partner）。所以从那些募资非常成功的朋友那里我学到：一旦你有了一个 anchor，你就能去找所有其他人——那些人想看到别人关账的势头。"
+    },
+    {
+      "i": 91,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "26:03",
+      "en": "Because when you're starting out, nobody is incentivized to actually participate before the final close. So that's the answer and a plug. Yeah, I look forward to sitting in and listening to your panel at GP day, raise GP day.",
+      "zh": "因为当你刚起步的时候，没有人有动力在最终关账（final close）之前真的参与进来。所以这就是答案，外加一个广告。——好啊，我很期待去 Raise GP Day 现场旁听你的 panel。"
+    },
+    {
+      "i": 92,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "26:22",
+      "en": "What is your favorite new AI workflow? I'll let you go first. Oh, interesting. Mm. I get asked for lots of LP intros. And the most awesome thing I have done for myself lately is make sure there's a really good record of what LPs have told me they're looking for and what they aren't.",
+      "zh": "你最喜欢的新 AI 工作流是什么？——我先让你来。——哦，有意思。嗯。我经常被人请求介绍 LP。而我最近为自己做的最棒的一件事，就是确保有一份非常好的记录，记下 LP 们告诉过我他们在找什么、不找什么。"
+    },
+    {
+      "i": 93,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "26:51",
+      "en": "So I can quickly assess for myself if I get requests. Often it's like, I heard X episode, would you introduce me? And now I don't have to go back and remember, should I introduce you?",
+      "zh": "这样当我收到请求时，我可以很快自己做个判断。请求往往是这样的：我听了 X 那期节目，你能帮我介绍一下吗？现在我不必回头去想「我该不该介绍你」。"
+    },
+    {
+      "i": 94,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "27:08",
+      "en": "I've got a nice workflow in place that says, yes, happy to. Or you know what, the last time we exchanged emails, they told me this. And so I actually know it's already not a great fit.",
+      "zh": "我有一套很不错的工作流，它会告诉我：好，很乐意。或者：你知道吗，上次我们通邮件的时候他们是这么说的，所以我其实已经知道这不太合适。"
+    },
+    {
+      "i": 95,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "27:21",
+      "en": "Not a good use of your time or their time. And I don't have to feel bad about it. And final question I got from an acquaintance was, would you be interested in co-hosting this event with me?",
+      "zh": "这对你的时间、对他们的时间都不是好的利用，而且我也不必为此感到内疚。还有一个我从一位熟人那里收到的问题是：你愿不愿意跟我一起合办一场活动？"
+    },
+    {
+      "i": 96,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "27:35",
+      "en": "And very intrigued to hear your answer since Ernest and I host events together. The vision was very gloss, like insert fancy activity, skeet shooting, I don't know, horseback riding.",
+      "zh": "我特别想听你的回答，因为 Ernest 和我一起办活动。对方的设想非常光鲜，就是插入某种高级活动——飞碟射击、我不知道、骑马。很好奇你会怎么回答？"
+    },
+    {
+      "i": 97,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "27:57",
+      "en": "Curious, your response? We are open for doing different things, but we wanted them to be authentic to who we are. And I think what's really worked well for us are these 8 to 12 person dinners where everyone can connect.",
+      "zh": "我们对做不同的事情是开放的，但我们希望这些事情忠于我们自己是谁。我觉得对我们来说真正有效的，是那种 8 到 12 人的晚餐，每个人都能连上。"
+    },
+    {
+      "i": 98,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "28:17",
+      "en": "And we can have a thoughtful conversation that can go a lot of different directions. But we create an environment where there can be manufactured serendipity, because there's like interest.",
+      "zh": "我们可以有一场有深度的对话，它可以往很多不同的方向走。但我们创造的是一个可以出现「被制造出来的偶遇」（manufactured serendipity）的环境，因为大家有兴趣。"
+    },
+    {
+      "i": 99,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "28:33",
+      "en": "And there's a variety of different people who all have similar kind of interests. And so I think other things might take away from it. And I also think people, now that we're five, six years out of, five years out of COVID, I think we've gotten over the just doing things for the heck of it.",
+      "zh": "而且有一群各不相同、但兴趣又有点相似的人。所以我觉得别的东西可能会削弱这一点。而且我还觉得，现在我们距离新冠已经五年、六年了——五年了——我觉得我们已经过了那种「为了做而做」的阶段。"
+    },
+    {
+      "i": 100,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "28:55",
+      "en": "And what's more important is like, how can you intentionally gather people? And I'm actually reading a book about that right now, which is my last question that people send me, is like, what's a piece of advice or content?",
+      "zh": "更重要的是：你怎么有意图地把人聚到一起？其实我现在正在读一本讲这个的书，这也是别人发给我的最后一个问题——就是，有什么建议或者内容值得看？"
+    },
+    {
+      "i": 101,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "29:07",
+      "en": "Sorry, a one book or piece of content that people should consume. And my recommendation would be the art of gathering by Priya Parker. Really, really good.",
+      "zh": "抱歉，是「一本书或者一份人们应该去看的内容」。我的推荐是 Priya Parker 的 The Art of Gathering。真的非常好。"
+    },
+    {
+      "i": 102,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "29:21",
+      "en": "That really talks about how you think about bringing people together, be intentional, when to be exclusive. And so that's my answer to that one.",
+      "zh": "它真正讲的是你怎么去思考把人聚到一起：要有意图，也要知道什么时候该「排他」。所以这就是我对这个问题的回答。"
+    },
+    {
+      "i": 103,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "29:31",
+      "en": "And I will say my hot take on fancy LP events, like AGMs and stuff, a lot of alligators or high networks, we actually don't want you to spend our money.",
+      "zh": "我还要说说我对那些花哨的 LP 活动——比如 AGM 之类的——的犀利看法。很多 allocator 的聚会或者高端人脉局，我们其实并不希望你花我们的钱。"
+    },
+    {
+      "i": 104,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "29:46",
+      "en": "Like, we are investing in you to multiply our money. You are a wealth manager. You are not a party planner. And so my take is, if I want to go ski shooting, I will put it on my counter.",
+      "zh": "就是说，我们投资你，是为了让我们的钱翻倍。你是财富管理人，不是活动策划。所以我的看法是：如果我想去玩飞碟射击，我会自己刷卡。"
+    },
+    {
+      "i": 105,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "30:06",
+      "en": "And I will invite my own friends. I think some people, like, these are lovely sort of like cherries on top. If you're, like, going to have to go to this meeting anyway, maybe you get to enjoy a really nice whiskey.",
+      "zh": "我会请我自己的朋友。我觉得对有些人来说，这些东西是很可爱的锦上添花——如果你反正都要去参加这个会，也许你能顺便享受一杯很好的威士忌。"
+    },
+    {
+      "i": 106,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "30:25",
+      "en": "But ultimately, I do prefer to spend, like, to pick how I spend any excess capital. I think that's a perfect place to end. You later, allocator.",
+      "zh": "但归根结底，我更希望自己来挑选怎么花掉任何多余的资本。——我觉得这是个完美的收尾。回见，allocator。"
+    },
+    {
+      "i": 107,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "30:48",
+      "en": "After portfolio tile, investing with a smile. $5. Only at McDonald's for a limited time. Price and participation may vary. Promotion pricing may be lower than meal pricing.",
+      "zh": "组合拼盘，微笑投资。5 美元，仅限 McDonald's，限时供应。价格与参与门店可能有所不同。促销价格可能低于套餐价格。"
+    },
+    {
+      "i": 108,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "31:33",
+      "en": "Gift it your all. This holiday, gift it your all with Target and the perfect gifts for everyone on your list. For your oh-so-cheek sister, Target has 100% cashmere sweaters at just $45, trending trading cards for literally every collector.",
+      "zh": "全心送礼。这个假期，用 Target 全心送礼，为你清单上的每一个人找到完美的礼物。给你那位特别俏皮的姐妹，Target 有 100% 羊绒毛衣，只要 45 美元；给每一位收藏家，都有当红的交换卡。"
+    },
+    {
+      "i": 109,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "31:49",
+      "en": "For your Hogwarts superfan cousin, the Harry Potter 25th Anniversary Collection, new and exclusive sense for your beauty obsessed bestie, now that's just the thing.",
+      "zh": "给你那位 Hogwarts 铁粉表亲，Harry Potter 25 周年纪念系列；给你那位痴迷美妆的闺蜜，全新独家香型。"
+    },
+    {
+      "i": 110,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "31:58",
+      "en": "Target's got all the gifts, so you can gift it your all. Restrictions apply.",
+      "zh": "Target 有所有的礼物，让你可以全心送礼。须遵守相关限制。"
+    }
+  ]
+}

@@ -1,0 +1,2983 @@
+{
+  "show": "invest-like-the-best",
+  "kind": "transcript",
+  "id": "invest-like-the-best-928ca60d",
+  "slug": "2026-10-13-david-v-lez-building-nubank-and-928ca60d",
+  "date": "2026-10-13",
+  "title_en": "David Vélez - Building Nubank and the Future of Global Banking - [Invest Like the Best, EP",
+  "title_zh": "David Vélez：打造 Nubank 与全球银行业的未来",
+  "subtitle_zh": "Nubank 创始人 David Vélez 谈从巴西走向 100 个国家，以及 AI 如何重塑全球银行业。",
+  "description": "David Vélez - Building Nubank and the Future of Global Banking - [Invest Like the Best, EP",
+  "duration": "73:21",
+  "duration_seconds": 4401,
+  "episode_url": null,
+  "audio_url": "https://traffic.megaphone.fm/CLS2134103794.mp3",
+  "speakers": {
+    "1": "Patrick O'Shaughnessy（主持）",
+    "2": "David Vélez（嘉宾）",
+    "3": "片花/广告（旁白）"
+  },
+  "turn_count": 370,
+  "turns": [
+    {
+      "i": 0,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "00:00",
+      "en": "Ramp is the only platform built to make your finance team leaner, faster and better, saving businesses 5% annually on average so you can stay focused on growth.",
+      "zh": "Ramp 是唯一一个专为让你的财务团队更精简、更快、更出色而打造的平台，平均每年为企业省下 5% 的成本，让你专注于增长。"
+    },
+    {
+      "i": 1,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "00:10",
+      "en": "Ramp just opened for business in the United Kingdom, so if you're running a business in the UK, you can now use Ramp's AI-powered finance platform to manage cards, expenses, bills, approvals, and accounting all in one place.",
+      "zh": "Ramp 刚刚在英国开业，所以如果你在英国经营企业，你现在就可以用 Ramp 的 AI 财务平台来管理公司卡、报销、账单、审批和会计核算——全部在一个地方完成。"
+    },
+    {
+      "i": 2,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "00:22",
+      "en": "I run my business on Ramp and so should you. Learn more at ramp.com slash invest. Rogo is the AI platform purpose-built for financial institutions serving tens of thousands of bankers and investors at hundreds of leading firms worldwide.",
+      "zh": "我自己的公司就靠 Ramp 运营，你也应该如此。更多信息请访问 ramp.com/invest。Rogo 是专为金融机构打造的 AI 平台，全球数百家顶级机构的数万名银行家和投资人在用它。"
+    },
+    {
+      "i": 3,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "00:37",
+      "en": "Rogo's AI agents autonomously execute large chunks of your firm's workflows, they can screen deals, draft sims, run by or outreach, and do diligence on data rooms, all with full security and compliance handled.",
+      "zh": "Rogo 的 AI 智能体（AI agents）可以自主完成你机构工作流程中的大量环节：筛选交易、起草 CIM、发起或跟进 outreach，还能对 data room 做尽调，全程的安全与合规都由它处理。"
+    },
+    {
+      "i": 4,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "00:50",
+      "en": "Every action feeds Rogo Intelligence, the firm's context layer, turning years of deal experience into a secure, governed institutional memory that makes each new transaction stronger than the last.",
+      "zh": "每一个动作都会喂给 Rogo Intelligence，也就是机构的上下文层，把多年积累的交易经验变成安全、受治理的机构记忆，让下一笔交易比上一笔更强。"
+    },
+    {
+      "i": 5,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "01:00",
+      "en": "To learn more, visit rogo.com slash invest. Open AI, Cursor, Anthropic, Perplexity and Vercel all have something in common, they all use WorkOS.",
+      "zh": "想了解更多，请访问 rogo.com/invest。OpenAI、Cursor、Anthropic、Perplexity 和 Vercel 有一个共同点——它们都在用 WorkOS。"
+    },
+    {
+      "i": 6,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "01:11",
+      "en": "And here's why. To achieve enterprise adoption at scale, you have to deliver on core capabilities like SSO, SCIM, RBAC, and audit logs. That's where WorkOS comes in.",
+      "zh": "原因如下。要想实现大规模的企业级采用，你必须交付 SSO、SCIM、RBAC 和审计日志这类核心能力。这正是 WorkOS 发挥作用的地方。"
+    },
+    {
+      "i": 7,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "01:23",
+      "en": "Instead of spending months building these mission-critical capabilities yourself, you can just use WorkOS APIs to gain all of them on day zero.",
+      "zh": "不必花几个月自己构建这些关键能力，直接用 WorkOS 的 API，第零天就能全部拿到。"
+    },
+    {
+      "i": 8,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "01:31",
+      "en": "That's why so many of the top AI teams you hear about already run on WorkOS. WorkOS is the fastest way to become enterprise ready and stay focused on what matters most, your product.",
+      "zh": "这就是为什么你听说过的顶尖 AI 团队，很多都跑在 WorkOS 上。WorkOS 是让你最快达到企业级就绪、同时专注于最重要的东西——你的产品——的方式。"
+    },
+    {
+      "i": 9,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "01:41",
+      "en": "Visit workos.com to get started. So the last time we did this, I think you had 35 million customers and I have 140 million customers. So well done.",
+      "zh": "访问 workos.com 开始使用。所以，我们上次做这期节目的时候，我记得你有 3500 万客户，现在你有 1.4 亿客户了。干得漂亮。"
+    },
+    {
+      "i": 10,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "01:56",
+      "en": "Busy five years. Yeah, busy five years. One would be tempted to think that with that kind of growth, we've saturated the potential of Fintech as a category to create a new platform, digital, mobile-first, this sort of thing, and that we're maybe in the later innings of the Fintech technology transformation.",
+      "zh": "这是忙碌的五年。是啊，忙碌的五年。有了这样的增长速度，人们很容易以为金融科技（fintech）这个品类创造新平台的潜力已经被榨干了——数字化、移动优先这一套，也许我们已经走到金融科技技术改造的后半场。"
+    },
+    {
+      "i": 11,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "02:15",
+      "en": "I know that you think it's the exact opposite, and I'd love you to detail exactly why and what you think we can expect in the next five years, not just for New Bank, but for digital financial services globally.",
+      "zh": "我知道你认为恰恰相反，我很希望你详细说说为什么，以及你觉得未来五年我们能期待什么——不只是 Nubank，而是全球数字金融服务。"
+    },
+    {
+      "i": 12,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "02:27",
+      "en": "If you look at global consumer financial services, it's about a $10 trillion industry and still something like 90% of that industry goes through banking branches and is owned by incumbent banks.",
+      "zh": "如果你看全球消费金融服务，这是一个大约 10 万亿美元的产业，而其中仍然有大约 90% 走的是银行网点，并且掌握在传统在位银行（incumbent banks）手里。"
+    },
+    {
+      "i": 13,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "02:39",
+      "en": "So while there is a lot of New Banks and Fintechs across the world, a number of different areas, we are all of those Fintechs and all these New Banks together, we're less than 10% of that entire market.",
+      "zh": "所以，尽管全世界有大量新型银行和金融科技公司，把它们全部加在一起，也还不到整个市场的 10%。"
+    },
+    {
+      "i": 14,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "02:49",
+      "en": "Still in financial services, it's still almost as if 90% of the world was going to blockbuster to get VHS and DVDs, and Netflix-like services still had something like 10% of that industry.",
+      "zh": "在金融服务里，情况几乎就像世界上还有 90% 的人要跑去 Blockbuster 租 VHS 和 DVD，而 Netflix 式的服务只占这个行业的大约 10%。"
+    },
+    {
+      "i": 15,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "03:04",
+      "en": "So that transformation, that migration that you've seen in our industries, in media, with Netflix, in retail, with Amazon, with the Barnes & Noble, in transportation, with companies like Uber, that migration from incumbents to digitally native companies is still very, very early in financial services.",
+      "zh": "你在别的行业看到的那种转型、那种迁移——媒体行业有 Netflix，零售有 Amazon、有 Barnes & Noble，交通出行有 Uber 这样的公司——从在位者向数字原生（digitally native）公司的迁移，在金融服务里仍然非常非常早期。"
+    },
+    {
+      "i": 16,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "03:20",
+      "en": "I think New Bank is very unique, specifically in Brazil and Latin America, because we are really the only new bank in the world where we've fully surpassed the biggest incumbent bank.",
+      "zh": "我认为 Nubank 非常独特，尤其是在巴西和拉美，因为我们是全球唯一一家真正全面超越了最大在位银行的新银行。"
+    },
+    {
+      "i": 17,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "03:31",
+      "en": "In terms of scale, we now have in Brazil close to 120 million customers, so 65% of the Brazilian adult population is a customer of us. So in terms of sheer scale, it's very large, but even more than that, we become the primary bank account of the entire country.",
+      "zh": "在规模上，我们现在在巴西有接近 1.2 亿客户，巴西成年人口的 65% 是我们的客户。规模上它已经极大，但比这更重要的是，我们成了整个国家的主账户银行。"
+    },
+    {
+      "i": 18,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "03:46",
+      "en": "So about 60% of our customers use us as their primary bank account. We replace the incumbent bank. We're not a secondary wallet. We're not some money that you leave that.",
+      "zh": "我们大约 60% 的客户把我们当作主要银行账户。我们替代了在位银行，我们不是一个次级钱包，不是那种你放一点钱在里面的地方。"
+    },
+    {
+      "i": 19,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "03:54",
+      "en": "We are the primary institution where people are really banking day-to-day, and that is very unique to New Bank in Brazil, and increasingly we're doing that also in Mexico and Colombia.",
+      "zh": "我们是人们日常真正打交道的主力金融机构，这在巴西是 Nubank 独有的；而且在墨西哥和哥伦比亚，我们越来越多地也在做到这一点。"
+    },
+    {
+      "i": 20,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "04:05",
+      "en": "We think that this is a little bit of seeing the future of what will happen around the world over the next 10 to 20 years, where you would expect a lot of shift from market share, from the stealing incumbent banks, to the detailing native companies, and that is just migration of market share, but also you'll see a significant increase in market size as billions of people across the world entered the banking system.",
+      "zh": "我们认为这有点像让人看到了未来 10 到 20 年全世界会发生什么：市场份额会大量从在位银行手里转移到数字原生公司。这不仅是市场份额的迁移，市场规模本身也会显著扩大，因为全球数十亿人将进入银行体系。"
+    },
+    {
+      "i": 21,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "04:27",
+      "en": "You still have 3 billion people that are completely inside the banking system and don't have access to credit. I'd love to break this into two components.",
+      "zh": "你还有 30 亿人完全在银行体系之内、却拿不到信贷。我很想把这件事拆成两个部分来看。"
+    },
+    {
+      "i": 22,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "04:33",
+      "en": "You could imagine if you froze the product today and just worked on getting it in more people's hands, that could be one dimension of expansion, but then, of course, I'm sure you're thinking carefully about all the wonderful things that AI will allow you to do and technology will allow you to do for customers that you don't yet do today.",
+      "zh": "你可以想象，如果今天把产品冻住什么都不改，只是把它放到更多人手里，那是一个扩张的维度。但当然，我相信你正在认真思考 AI 和技术能让你为客户做的那些美妙事情——其中很多是你今天还没做的。"
+    },
+    {
+      "i": 23,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "04:49",
+      "en": "You talk through each of those levers to achieve this blockbuster to Netflix transition. The first phase of transformation that enabled a lot of the immigration in our industries was the smartphone, and this is the same thesis you see repeating through the smartphone is the moment that we get to serve consumers without all that physical infrastructure, we have such a gigantic cost structure advantage that we can pass that efficiency to the end",
+      "zh": "请你逐个讲讲实现这个 Blockbuster 到 Netflix 转变的杠杆。推动我们所在行业大部分迁移的第一阶段变革是智能手机，这也是你会反复看到的同一个论断：智能手机是我们能够不必依赖实体基础设施就服务业者的时点，我们有极其巨大的成本结构优势，可以把这种效率传递给终端——"
+    },
+    {
+      "i": 24,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "05:15",
+      "en": "customer via lower fees and better product. Just to give you a data point, we have 140 million customers with 10,000 employees, our competitors have 100 million customers with 100,000 employees, and 6,000 branches, and you start thinking about what the cost of real estate of the branches is gigantic, so our cost to serve a customer is about 3% of what a traditional incumbent bank is.",
+      "zh": "客户，表现为更低的费用和更好的产品。给你一个数据点：我们有 1.4 亿客户、10,000 名员工，而我们的竞争对手有 1 亿客户、10 万名员工、6,000 家网点。你想想房地产成本，网点的开支是巨大的，所以我们服务单个客户的成本大约是一家传统在位银行的 3%。"
+    },
+    {
+      "i": 25,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "05:40",
+      "en": "That means we have so much margin to give back to the customer via no fees, better experience, better interest rates, and overall a better product.",
+      "zh": "这意味着我们有极大的空间把利润返还给客户——零费用、更好的体验、更好的利率，以及整体上更好的产品。"
+    },
+    {
+      "i": 26,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "05:48",
+      "en": "That's pre-AI. We're still here in phase one of what a smartphone enabled. AI will be an additional multiplication on that efficiency to that because then you get to choose whether you want to have much more efficiency and you could automatize a lot of areas of the bank.",
+      "zh": "这还只是 AI 之前。我们仍然处在智能手机带来的第一阶段。AI 会在这一效率上再乘一遍，因为那时你可以自己选择要多大的效率，可以把银行里很多环节自动化。"
+    },
+    {
+      "i": 27,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "06:03",
+      "en": "You could imagine banks that have 500 billion customers with 5,000 employees within site or you can just decide to increase your level of ambition.",
+      "zh": "你可以想象一家银行有 5000 亿客户、却只用 5,000 名员工；或者你干脆决定把自己的野心调高。"
+    },
+    {
+      "i": 28,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "06:13",
+      "en": "For somebody like us, especially when we look at how early it is in the transformation for us is why don't we go to 100 countries and try to accelerate this transformation by New Bank being one of the leading digital financial services firm in the world.",
+      "zh": "对我们来说，尤其是看这场变革在我们这里还多么早期——为什么我们不去到 100 个国家，试着让 Nubank 成为全球领先的数字金融服务公司之一，从而加速这场变革？"
+    },
+    {
+      "i": 29,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "06:26",
+      "en": "What are the craziest things that you can imagine the product or a bank like yours doing for the customer in three or five years because technology has made things possible that weren't before?",
+      "zh": "你觉得你的产品、或者你这样一家银行，在三五年内能为客户做到的最疯狂的事情是什么？因为技术已经让很多以前不可能的事情变得可能。"
+    },
+    {
+      "i": 30,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "06:37",
+      "en": "Just like mobile made a lot of new things possible, we've got a much bigger wave now. If you really dreamed about what could be possible, what are some of those ideas?",
+      "zh": "就像移动让很多新事情变得可能一样，我们现在面对的是大得多的浪潮。如果认真畅想可能性，里面会有哪些想法？"
+    },
+    {
+      "i": 31,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "06:46",
+      "en": "We like to categorize the problems that we see in financial services in three buckets. One is access, second is cost, and the third is intelligence.",
+      "zh": "我们喜欢把在金融服务里看到的问题分成三个桶。第一个是可得性（access），第二个是成本（cost），第三个是智能（intelligence）。"
+    },
+    {
+      "i": 32,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "06:54",
+      "en": "On the access side, again, you still have 3 billion people in the world that don't have access to a credit product. It's crazy. Almost half of the world does not have access to credit.",
+      "zh": "在可得性这一边，全世界仍然有 30 亿人拿不到任何信贷产品。这很疯狂，差不多一半的人口没有信贷可得性。"
+    },
+    {
+      "i": 33,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "07:03",
+      "en": "Even countries like Mexico or Colombia, 13% credit card penetration. Why hasn't that happened yet? Because you needed the creation of a lot of data.",
+      "zh": "即便是墨西哥或哥伦比亚这样的国家，信用卡渗透率也只有 13%。为什么之前没发生？因为你需要先创造出大量数据。"
+    },
+    {
+      "i": 34,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "07:12",
+      "en": "You needed sophistication and credit underwriting. You needed the digitalization of these systems to happen. This is happening, cash goes away, disappears, enter a number of real-time payment systems as you've seen in Brazil with PICs or India with UPI.",
+      "zh": "你需要授信审批（credit underwriting）的成熟度，需要把这些系统数字化。这件事正在发生：现金在消失，大量实时支付系统出现，比如你在巴西看到的 Pix、在印度看到的 UPI。"
+    },
+    {
+      "i": 35,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "07:26",
+      "en": "There is a lot of transformation and catalysts that are accelerating the rails on which you increase access to consumer banking for the world.",
+      "zh": "有很多变革和催化剂正在加速底层基础设施，从而提升全世界消费者获得银行服务的程度。"
+    },
+    {
+      "i": 36,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "07:35",
+      "en": "This is going to be a massive opportunity. 10, 20 years from now, 100% of the population has access to banking services, 100% of the population have access to credit, 100% of small businesses have access to credit.",
+      "zh": "这会是一个巨大的机会。10 年、20 年之后，100% 的人口能获得银行服务，100% 的人口能获得信贷，100% 的小企业能获得信贷。"
+    },
+    {
+      "i": 37,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "07:46",
+      "en": "This is an insane push to global GDP. I don't think it's really understood how big of a model this could be for every single economy as you get half of your entire population in some areas access to banking.",
+      "zh": "这是对全球 GDP 的巨大推动。我不认为人们真正理解，当你在一些地区让一半人口获得银行服务时，这对每一个经济体可能意味着多么大的量级。"
+    },
+    {
+      "i": 38,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "07:57",
+      "en": "That's access side. Cost is the one that tends to be more hidden, especially in developed economies. US is generally a well-served banking services, especially if you're a high-income consumer.",
+      "zh": "这是可得性这一边。成本这一边往往更隐蔽，尤其是在发达经济体。美国的银行服务总体上是不错的，特别是如果你是高收入消费者。"
+    },
+    {
+      "i": 39,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "08:10",
+      "en": "When you look at the cost of that banking system, it's pretty significant in ways that are not readily apparent. For example, there's about $15 trillion of retail deposits in the US banking system, but banks pay on average about 40 basis point on yield a year.",
+      "zh": "但当你去看这套银行体系的成本，它相当高，只是不那么显眼。举例来说，美国银行体系里大约有 15 万亿美元的零售存款，而银行平均支付的年收益率大约只有 40 个基点。"
+    },
+    {
+      "i": 40,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "08:26",
+      "en": "In a world where your interest rates are four and a half, 5%, you look at the calculation of those $15 trillion, that's more or less $600 billion that are going to banks to pay for banking branches that in a digital banking environment would actually stay in consumers' pockets.",
+      "zh": "在利率是 4.5%、5% 的世界里，你把这 15 万亿美元算一下，差不多有 6,000 亿美元流向了银行、用来供养银行网点，而在数字银行环境里这些钱本来会留在消费者的口袋里。"
+    },
+    {
+      "i": 41,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "08:44",
+      "en": "That's a massive wealth tax, the fact that banks don't pay any yield. If you're high-income, you do, the lower you income, the less you get paid.",
+      "zh": "银行不付任何收益率，这就是一笔巨大的财富税。如果你是高收入者，你会拿到利率；收入越低，你拿到的越少。"
+    },
+    {
+      "i": 42,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "08:51",
+      "en": "That's a huge tax and that's a huge cost. Then you look at remittances, for example, in the US, $100 billion got out of the US. People pay 5% to 10% per transaction.",
+      "zh": "这是一笔巨大的税，也是巨大的成本。再比如汇款，在美国有 1,000 亿美元汇出美国，人们每笔交易要付 5% 到 10%。"
+    },
+    {
+      "i": 43,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "09:01",
+      "en": "That will go to zero. Remittances, moving money is you're moving bits. That will trend towards zero in a more competitive environment. Mostly account, people are paying $5 to $10, $15 per month in the US banking system for a bank account, and you look at Europe or developed economies, Japan, same thing.",
+      "zh": "这个费用会走向零。汇款、转账，本质上是在搬运比特，在竞争更充分的环境里它会趋近于零。账户方面也是，美国银行体系里人们每月要为一个银行账户付 5 到 10 美元、15 美元，你看欧洲或者日本这些发达经济体，同样的情况。"
+    },
+    {
+      "i": 44,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "09:17",
+      "en": "You see a huge amount of cost that consumers are paying that will eventually, with models such as ours that come to compete, will also compete away.",
+      "zh": "你会看到消费者承担着大量成本，随着像我们这样的模式进来竞争，这些成本最终也会被竞争掉。"
+    },
+    {
+      "i": 45,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "09:27",
+      "en": "Then finally, intelligence. I think this is also the one that is less understood and is beginning to be discussed with the advent of intelligence.",
+      "zh": "最后是智能。我认为这一点也是最不被理解、但随着智能的出现才开始被讨论的。"
+    },
+    {
+      "i": 46,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "09:35",
+      "en": "If you're in the top 1% of income, you have access to the best financial advice. You probably will have a private banker. The private banker is understanding all the bank accounts that you have, is optimizing your deposits, is thinking about what is the right tax-efficient structure.",
+      "zh": "如果你收入在前 1%，你能获得最好的财务建议，大概会有一位私人银行家。这位私人银行家了解你所有的银行账户，帮你优化存款，思考什么样的结构在税务上更高效。"
+    },
+    {
+      "i": 47,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "09:52",
+      "en": "If you need a loan, they're going to go and compete a bunch of different banks with each other and get you the base yield, but if you're in the lower 99%, especially the more you go in the bottom, you have access to nothing.",
+      "zh": "如果你需要贷款，他们会让几家银行互相竞价，帮你拿到最低的利率。但如果你属于下面那 99%，越往下走，你什么资源都没有。"
+    },
+    {
+      "i": 48,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "10:02",
+      "en": "Historically, there's been a lot of conversation about education is the answer. You just got to educate people. People don't have financial education.",
+      "zh": "历史上一直有很多讨论说答案是教育，只要教大家理财就行，说人们缺乏金融知识。"
+    },
+    {
+      "i": 49,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "10:08",
+      "en": "That never worked. People don't sit down to do classes. You're not going to solve this problem of intelligence through education. You're going to solve it through AI.",
+      "zh": "这从来没起作用。没有人会坐下来上课。你不可能通过教育解决智能这个问题，你会通过 AI 解决它。"
+    },
+    {
+      "i": 50,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "10:15",
+      "en": "That's where I think AI really will be transformational in financial services because it's almost providing every single person around the world super intelligence to be able to optimize their financial life on their behalf and remove a lot of these profit pools that exist today in banking that in an environment with intelligence will be competed away.",
+      "zh": "所以我认为 AI 在金融服务里真正具有变革性的地方在于，它几乎给全世界每一个人提供了一种超级智能，能够代表你去优化你的财务生活，并且把今天银行业里存在的许多利润池消除掉——在有智能的环境里，它们会被竞争掉。"
+    },
+    {
+      "i": 51,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "10:36",
+      "en": "Flesh that last piece out a little bit more. Wealthfront used to have this idea of self-driving money, which comes to mind like, okay, I've got some money.",
+      "zh": "请你把最后这一块再多展开一点。Wealthfront 以前有个概念叫自动驾驶的钱（self-driving money），这让我想到：好，我手里有一点钱。"
+    },
+    {
+      "i": 52,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "10:43",
+      "en": "Either I don't have it in the banking system, which is the worst. I come into the banking system. I'm earning 40 basis points instead of 4%.",
+      "zh": "要么我没把它放进银行体系，那是最糟的；要么我放进银行体系，只赚 40 个基点，而不是 4%。"
+    },
+    {
+      "i": 53,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "10:49",
+      "en": "I'm going to lousy starting position, but I certainly don't have investments or tax loss harvesting or all this other fancy stuff. What do you think that ends up being for the average person in a couple of years because of this intelligence bucket?",
+      "zh": "我的起点很差，我肯定没有投资、没有税务损失收割（tax-loss harvesting）这些高级操作。因为这个智能这块，你觉得几年之后对普通人来说会变成什么样子？"
+    },
+    {
+      "i": 54,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "11:00",
+      "en": "The first obvious rearrangement is those 600 billion that banks are keeping in their balance sheet to pay for banking branches, get rearranged, get forwarded to all the banking consumers because suddenly they realize, what am I doing with my money, leaving it at zero?",
+      "zh": "第一个显而易见的重新分配，就是那 6,000 亿美元——银行留在自己资产负债表上、用来供养网点的钱，会被重新分配、转给所有银行客户，因为他们突然意识到：我把钱留在零收益的地方是在干什么？"
+    },
+    {
+      "i": 55,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "11:18",
+      "en": "Especially when you think about compounding, what that means for savings and compounding interest. This is a lot of money being sent ultimately to pay banking branches.",
+      "zh": "尤其当你考虑复利，这对储蓄和复利意味着什么。这些钱说到底是在为银行网点买单。"
+    },
+    {
+      "i": 56,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "11:25",
+      "en": "You look at really any country around the world, any structure. You look at Mexican banking balance sheets, for example, or Brazilians. Where does exactly the same thing?",
+      "zh": "你看世界上任何一个国家、任何一种结构，比如看墨西哥或者巴西银行的资产负债表，情况完全一样。"
+    },
+    {
+      "i": 57,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "11:32",
+      "en": "The big income in banks, about 70% of their deposits, they pay zero and 30% they pay some yield generally to the highest income population or the corporates.",
+      "zh": "银行的大头收入在于——他们大约 70% 的存款是零成本，只有 30% 付一些利率，而且通常是付给最高收入人群或企业客户。"
+    },
+    {
+      "i": 58,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "11:41",
+      "en": "One of the things that you see in banking is in a perfectly competitive environment, the best product should win. If you're charging no fees, if you have the best experience, banking is a commodity product ultimately.",
+      "zh": "你在银行业会看到一件事：在完全竞争的环境里，最好的产品应该赢。如果你不收费，如果你有最好的体验，银行归根到底是个大宗商品式的商品。"
+    },
+    {
+      "i": 59,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "11:52",
+      "en": "So you should be able to get 100% of the market share. That doesn't happen because there is a lot of inertia in the system. The combination, the multiplication of intelligence with open banking, for example, PLED, PLED can connect 120 million accounts and you put intelligence on top of that.",
+      "zh": "那你本该能拿到 100% 的市场份额。但这没发生，因为系统里有巨大的惯性。把智能和开放银行（open banking）结合、相乘——比如 Plaid 能连接 1.2 亿个账户——你把智能加在上面。"
+    },
+    {
+      "i": 60,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "12:07",
+      "en": "You're effectively allowing each customer to know how to optimize their financial life and what are the fees coming. So I'll give you an example.",
+      "zh": "你实际上是在让每个客户知道如何优化自己的财务生活、有哪些费用在前面等着。我给你举个例子。"
+    },
+    {
+      "i": 61,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "12:14",
+      "en": "We're doing this in Brazil today where about 15 million are for customers. Every day we're telling them, hey, your bank account, your credit card in that or bank is due tomorrow.",
+      "zh": "我们在巴西今天就在这么做，服务大约 1,500 万非本行客户。每天我们告诉他们：嘿，你的银行账户、你在某某银行的信用卡明天要到期了。"
+    },
+    {
+      "i": 62,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "12:23",
+      "en": "You don't have any money there and they're going to charge you 15% interest rate per day. Let us give you some money so you can pay that credit card or refinance.",
+      "zh": "你那里没钱，他们会按每天 15% 的利率向你收费。让我们给你一笔钱，把那张信用卡还上或者做再融资。"
+    },
+    {
+      "i": 63,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "12:31",
+      "en": "You have this loan at 10% interest. Let us refinance that at 5% interest. It's ultimately a drive towards optimizing and removing a lot of those profit pools on behalf of the consumer.",
+      "zh": "你有一笔 10% 利率的贷款，让我们帮你按 5% 的利率做再融资。说到底，这是一个替消费者去优化、去消除那些利润池的过程。"
+    },
+    {
+      "i": 64,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "12:46",
+      "en": "In some products, small businesses do want to sit down with a banker, with a human and have that conversation. If you have millions of dollars to invest, you still probably want to see a human on the other side of the table and have that conversation.",
+      "zh": "在某些产品上，小企业确实想跟一位银行家、跟一个真人坐下来谈。如果你有几百几千万美元要投资，你大概还是想看到桌子对面有个人，好好谈一谈。"
+    },
+    {
+      "i": 65,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "12:59",
+      "en": "For certain consumer segments and for certain products, if you want to get a mortgage or certain sophisticated products, there is value in having a physical space.",
+      "zh": "对某些客群、某些产品——比如你要做房贷，或者某些更复杂的产品——有一个实体空间是有价值的。"
+    },
+    {
+      "i": 66,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "13:08",
+      "en": "But that might be 5% of the cases today versus if you have a savings account, a credit card or a loan, you just don't need that anymore. So I think the rationale would be effectively, yeah, we're trying to serve these customers, but it's ignoring that for the majority of people, especially the mass market, increasingly you just don't need it and you don't go to that physical infrastructure anymore.",
+      "zh": "但那可能只占今天 5% 的情况；如果你要的是储蓄账户、信用卡或贷款，你就不需要它了。所以我认为背后的道理就是：是的，我们在服务这些客户，但也要承认，对绝大多数人、尤其是大众市场，越来越不需要这些，你不会再走进那些实体设施了。"
+    },
+    {
+      "i": 67,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "13:26",
+      "en": "One of the questions that I think lots of investors and founders are wrestling with is what will be the best competitive advantages or moats in this new AI era when the cost to build new stuff digitally is much, much lower.",
+      "zh": "有一个问题我想很多投资人和创始人都很纠结：在这个新的 AI 时代，把新东西数字化建出来的成本大大降低了，最好的竞争优势或护城河（moat）会是什么。"
+    },
+    {
+      "i": 68,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "13:38",
+      "en": "If you had to imagine it like, you're some new founder, I strip everything away from you and your only goal is to kill New Bank, is to build a new company to attack New Bank, let's say in Brazil or in Latin America, what do you think you would do?",
+      "zh": "如果让你想象一下——你是个新创始人，我把你身上所有东西都剥掉，你唯一的目标就是干掉 Nubank，就是建一家新公司去打 Nubank，比如在巴西或者拉美，你会怎么做？"
+    },
+    {
+      "i": 69,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "13:49",
+      "en": "What would be the vector of attack on your own business? Which in a way was what we did to the incumbent banks 13 years ago, right? We were the disruptor going after incumbent banks.",
+      "zh": "打你自己业务的攻击向量是什么？这在某种程度上正是 13 年前我们对在位银行做的事，对吧——我们作为颠覆者去打传统银行。"
+    },
+    {
+      "i": 70,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "13:58",
+      "en": "So I think the early stage startup today that is AI native that detailed their biggest advantage will be the speed, the ability to move extremely quickly and launch a number of different products, especially if you're born unregulated, then you're going to be able to move fast.",
+      "zh": "我觉得今天的 AI 原生早期创业公司会说，他们最大的优势是速度，是极快推进、上线大量不同产品的能力；尤其如果你天生不受监管约束，你就能跑得很快。"
+    },
+    {
+      "i": 71,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "14:14",
+      "en": "By now we are fully regulated, we have banking licenses in a number of different countries and so we have to go at a certain pace, we have to be checking with regulators.",
+      "zh": "而我们现在是完全受监管的，我们在好几个国家持有银行牌照，所以我们必须以某种节奏前进，必须事事跟监管方确认。"
+    },
+    {
+      "i": 72,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "14:22",
+      "en": "Now I think specifically in financial services, but if you're banking, that will only get you up to a certain point because eventually you're going to need to be regulated as well.",
+      "zh": "我认为具体到金融服务，如果你不碰银行业务，那只能让你走到某个点，因为最终你也需要被监管。"
+    },
+    {
+      "i": 73,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "14:30",
+      "en": "And so I think in some areas, there's a lot of conversation about how AI disrupts software and that you can ask ChargeGPT or Codex to rebuild an entire software strategy, but you still cannot really get ChargeGPT to get your banking license and you still cannot really get them to have regulators give you license in six months instead of two or three years.",
+      "zh": "所以在某些领域，很多人讨论 AI 如何颠覆软件，说你可以让 ChatGPT 或 Codex 重建整套软件策略，但你还是没法让 ChatGPT 帮你拿到银行牌照，也没法让监管方在 6 个月而不是两三年里把牌照发给你。"
+    },
+    {
+      "i": 74,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "14:49",
+      "en": "Especially on credit or in certain products that we operate in, the amount of data that we have is pretty significant, right? So we have about 140 million customers.",
+      "zh": "尤其在信贷或者我们经营的某些产品上，我们拥有的数据量是相当可观的。我们有大约 1.4 亿客户。"
+    },
+    {
+      "i": 75,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "14:57",
+      "en": "For each customer, we have something like 20,000 to 30,000 data points across 13 different years. So this is a huge massive amount of information that allowed us to build a run foundation model.",
+      "zh": "每个客户身上我们大约有 2 万到 3 万个数据点，跨越 13 个不同的年份。这是极其庞大的信息量，让我们能够构建自己的基础模型（foundation model）。"
+    },
+    {
+      "i": 76,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "15:07",
+      "en": "We build our own foundation model for financial services for credit and this gives us a significant advantage in making credit decisions, for example, or collection decisions.",
+      "zh": "我们为金融服务、为信贷构建了自己的基础模型，这让我们在信贷决策、比如催收决策上有显著优势。"
+    },
+    {
+      "i": 77,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "15:16",
+      "en": "The early stage startup entrepreneur world, they would have the speed, they would have a much harder time getting to the level of data. So data becomes a significant mode now for more of the incumbents.",
+      "zh": "在早期创业者的世界里，他们会有速度，但很难达到那种数据量级。所以数据如今成了一条重要的护城河。"
+    },
+    {
+      "i": 78,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "15:27",
+      "en": "Companies like us, we're sort of in the sweet spot of benefiting the most from AI because in one way we already have the scale and the data and the brand and the trust and the licenses that will be hard for the early native startup to move.",
+      "zh": "像我们这样的公司正处在最能受益于 AI 的位置：一方面我们已经有规模、数据、品牌、信任和牌照，这些是早期的原生创业公司难以撼动的；"
+    },
+    {
+      "i": 79,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "15:41",
+      "en": "But also we still have the technology angle and the technology infrastructure to allow us to benefit from AI and what AI is creating and move even faster than we were moving before.",
+      "zh": "另一方面我们仍然有技术能力和技术基础设施，让我们能从 AI、从 AI 正在创造的东西中受益，比以前跑得更快。"
+    },
+    {
+      "i": 80,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "15:51",
+      "en": "Vanta automates compliance so your team can spend less time on security reviews and more time getting customers. Vanta cuts audit prep by 82% and gives you instant up-to-date proof of trust without all the manual work so you can close deals faster and with less friction.",
+      "zh": "Vanta 把合规自动化，让你的团队少花时间做安全审查，多花时间拿下客户。Vanta 把审计准备时间削减 82%，并提供即时更新的信任证明，不必手工操作，让你更快、更少摩擦地成交。"
+    },
+    {
+      "i": 81,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "16:07",
+      "en": "Customers report a 526% return on investment and more than 16,000 companies use Vanta, including Ramp, Harvey, and Snowflake. Get started with $1,000 off at vanta.com slash invest.",
+      "zh": "客户报告的投资回报率高达 526%，目前有 16,000 多家公司在用 Vanta，包括 Ramp、Harvey 和 Snowflake。到 vanta.com/invest 开始使用，立减 1,000 美元。"
+    },
+    {
+      "i": 82,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "16:21",
+      "en": "Ridgeline is the first end-to-end system of record with embedded AI for investment management firms running portfolio accounting, reconciliation, reporting, trading, and compliance on one unified platform.",
+      "zh": "Ridgeline 是第一套端到端的记录系统（system of record），内嵌 AI，让投资管理公司在一个统一平台上完成组合核算、对账、报告、交易和合规。"
+    },
+    {
+      "i": 83,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "16:32",
+      "en": "Firms are moving off legacy technology and on to Ridgeline because of how far ahead Ridgeline's AI features are compared to anything else in investment management software.",
+      "zh": "公司正在从遗留技术上迁走、转向 Ridgeline，因为 Ridgeline 的 AI 能力比投资管理软件里的其他任何东西都领先得多。"
+    },
+    {
+      "i": 84,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "16:41",
+      "en": "I've been hearing from a lot of investment managers about AI and they fall roughly into two camps, with some unsure where to even start and others convinced they can build their own order management system over a weekend.",
+      "zh": "我最近听到很多投资管理人谈 AI，他们大致分成两派：一些还不确定该从哪里开始，另一些则确信自己可以在一个周末之内搭出自己的订单管理系统。"
+    },
+    {
+      "i": 85,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "16:51",
+      "en": "The reality is that running an investment firm will always require governance, controls, and a single source of truth for your data. And no amount of AI, enthusiasm changes that requirement.",
+      "zh": "现实是，运营一家投资公司永远需要治理、控制，以及数据的单一事实来源（single source of truth）。再多的 AI 热情也改变不了这个要求。"
+    },
+    {
+      "i": 86,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "17:02",
+      "en": "Ridgeline is built on exactly that foundation, which is why I believe that the firms that come out ahead in the AI era will be the ones running on Ridgeline's unified platform.",
+      "zh": "Ridgeline 正是建立在这样的基础之上，所以我相信在 AI 时代胜出的公司，会是那些跑在 Ridgeline 统一平台上的公司。"
+    },
+    {
+      "i": 87,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "17:10",
+      "en": "If you're serious about your firm's AI strategy, Ridgeline should be part of that conversation and you can request a demo at ridgeline.ai. Can you build the pretty detailed timeline of when you first had the thought like, wow, AI is a thing that we need to take really seriously?",
+      "zh": "如果你认真考虑自己公司的 AI 战略，Ridgeline 应该是这场对话的一部分，你可以在 ridgeline.ai 申请一次演示。你能把这条相当详细的时间线讲一讲吗——你第一次意识到，哇，AI 是我们必须认真对待的东西，是什么时候？"
+    },
+    {
+      "i": 88,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "17:26",
+      "en": "And then as the leader of the business, how you have thought about rolling it out and being more aggressive with it over time. And I'm interested in the details.",
+      "zh": "然后作为这家企业的领导者，你这些年是如何思考把它铺开、如何越来越激进地投入它。我对细节感兴趣。"
+    },
+    {
+      "i": 89,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "17:34",
+      "en": "Like you said, you have your own foundation model, like how's that built? Is it open source that you've tuned based on your own data? Like, who do you work with?",
+      "zh": "就像你说的，你有自己的基础模型，它是怎么建起来的？是开源模型你用自有数据调优的吗？你们都跟谁合作？"
+    },
+    {
+      "i": 90,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "17:40",
+      "en": "What did you think about it? I'm really interested in your personal timeline, like how far back it goes and what the major hash marks have been.",
+      "zh": "你怎么看这件事？我很想知道你个人的时间线，能往回追多远，中间有哪些主要的刻度。"
+    },
+    {
+      "i": 91,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "17:46",
+      "en": "We started using machine learning since we started the organization, since 2013. And we looked at Brazilian interest rates for consumers paying 500 and 600% a year.",
+      "zh": "我们从公司成立就开始用机器学习了，从 2013 年开始。我们当时看到巴西消费者一年要付 500% 到 600% 的利率。"
+    },
+    {
+      "i": 92,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "17:55",
+      "en": "We said, there's an opportunity here to use better data and analytics and machine learning to price credit risk. And different than a lot of fintechs, we decided to take balance sheets, to take credit risk and to be capital intensive by default.",
+      "zh": "我们说，这里有一个用更好的数据、分析和机器学习来给信用风险定价的机会。和很多金融科技公司不同，我们决定承担资产负债表、承担信用风险，默认走资本密集的路。"
+    },
+    {
+      "i": 93,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "18:09",
+      "en": "And so we had already an organization that was very optimized for making decisions based on models and data. When the chat GPT moment came about three, four years ago, we started paying significant attention around how technology was going to facilitate some of the decisions.",
+      "zh": "所以我们已经有一个极其擅长基于模型和数据做决策的组织。当大约三四年前 ChatGPT 时刻到来，我们开始认真关注技术将如何促成其中一些决策。"
+    },
+    {
+      "i": 94,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "18:24",
+      "en": "And we acquired a company called Hyperplane in Palo Alto that was already working on doing foundation models for financial services. They were having such a hard time selling to the big incumbent banks.",
+      "zh": "我们收购了 Palo Alto 一家叫 Hyperplane 的公司，他们本来就在做金融服务的基础模型。他们当时很难把东西卖给大型在位银行。"
+    },
+    {
+      "i": 95,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "18:35",
+      "en": "Well, cycles were two years. They were not really able to move while the technology itself was fairly forward looking. So we bought that company, we integrated the team.",
+      "zh": "因为销售周期要两年，他们没法真正动起来，尽管技术本身是相当超前的。所以我们买下那家公司，把团队整合进来。"
+    },
+    {
+      "i": 96,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "18:44",
+      "en": "We think we were the first financial services firm in the world to build their own foundation model with its own proprietary data to do credit decisions specifically.",
+      "zh": "我们认为自己是全球第一家用自己的专有数据构建自己的基础模型、专门用于信贷决策的金融服务公司。"
+    },
+    {
+      "i": 97,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "18:53",
+      "en": "We even published all our own research. In this area, we developed an early advantage. We're now using our foundation model for fraud decisions, for Mexico, for Colombia, as we launched the US and our international markets.",
+      "zh": "我们甚至发表了自己的全部研究。在这个领域我们建立了先发优势。现在我们把基础模型用于欺诈决策，用于墨西哥、用于哥伦比亚，也用于我们进入美国和其他国际市场。"
+    },
+    {
+      "i": 98,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "19:05",
+      "en": "We can day one already come in with our own foundation model and understand how to use that data for making basic decisions that should accelerate our ability to come in.",
+      "zh": "我们可以在第一天就带着自己的基础模型进场，知道如何用那些数据做基础决策，这会加速我们的落地能力。"
+    },
+    {
+      "i": 99,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "19:15",
+      "en": "The data thing is such a good example of the scale advantage. And you're an investor, obviously, before starting a new bank. And so I'm sure you've thought about this endlessly.",
+      "zh": "数据这件事真是规模优势的绝佳例证。你在创办 Nubank 之前显然是做投资的，所以我敢说你把这个想过无数遍。"
+    },
+    {
+      "i": 100,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "19:22",
+      "en": "It sounds like scale is maybe the most important thing that will make new banks so competitively advantaged for the next 10 years or something.",
+      "zh": "听起来，规模可能是未来 10 年让新银行最具竞争优势的最重要因素。"
+    },
+    {
+      "i": 101,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "19:30",
+      "en": "Is that right? Like, does that feel like the right one to pick? I think it's case important, but you need it also with the right culture and the right systems.",
+      "zh": "是这样吗？你觉得该选的是它吗？我认为它确实重要，但你还必须配上对的文化、对的系统。"
+    },
+    {
+      "i": 102,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "19:36",
+      "en": "So one of the things we heard a lot in the early days was, well, how are you going to compete with the banks? The banks have scale. They have a hundred year history with a hundred million customers.",
+      "zh": "所以早期我们听到非常多的问题是：你怎么跟银行竞争？银行有规模，它们有一百年的历史、一亿客户。"
+    },
+    {
+      "i": 103,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "19:44",
+      "en": "How can you replicate that data? And going back to the analogy of Blockbuster, my answer was always, well, Blockbuster had a huge amount of data.",
+      "zh": "你怎么复制那份数据？回到 Blockbuster 那个类比，我的回答一直是：Blockbuster 也有海量数据。"
+    },
+    {
+      "i": 104,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "19:51",
+      "en": "Right. Imagine the amount of people coming in into the Blockbuster and seeing if they were looking at that VHS or the DVD or not or renting.",
+      "zh": "想想看，多少人走进 Blockbuster，看他们是在挑 VHS 还是 DVD、有没有租出去。"
+    },
+    {
+      "i": 105,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "19:57",
+      "en": "Did the data help them build a better search algorithm? No, because they were not capturing the data. They did not have the right systems to capture data.",
+      "zh": "那些数据帮他们做出更好的搜索算法了吗？没有，因为他们根本没在采集数据，他们没有采集数据的正确系统。"
+    },
+    {
+      "i": 106,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "20:05",
+      "en": "They didn't have the right culture, data culture to be making decisions based on data or based on models. And someone like Netflix was able to come in with no data and build a better algorithm and ultimately use that.",
+      "zh": "他们没有正确的数据文化，没有基于数据或模型做决策的文化。而像 Netflix 这样的人可以在零数据的情况下进场，做出更好的算法，并最终把它用起来。"
+    },
+    {
+      "i": 107,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "20:16",
+      "en": "Scale and data is important, but equally important is your systems and your culture. You ultimately being a culture that is using a lot of these data to make the right decisions.",
+      "zh": "规模和数据很重要，但同等重要的是你的系统和文化。最终你要成为一种大量使用数据来做正确决策的文化。"
+    },
+    {
+      "i": 108,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "20:26",
+      "en": "And this, I think, would differentiate NIO banks or more detail-in-native organizations like us versus the more traditional incumbent banks that are still operating with 15 different systems as a result of a huge amount of acquisitions that they did over the years.",
+      "zh": "这一点我认为会把新型银行或像我们这样的数字原生组织，与更传统的在位银行区分开来——后者因为多年大量收购，还在用 15 套不同的系统运作。"
+    },
+    {
+      "i": 109,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "20:40",
+      "en": "And they're still, if you look at a lot of the AI applications, how we use AI to transform Kabul. How do we get away from the mainframe? You're talking about 10, 15-year histories of going to the cloud.",
+      "zh": "他们仍然……如果你看很多 AI 应用、我们如何用 AI 改造核心系统、怎么脱离大机（mainframe），那讲的是 10 到 15 年的上云历程。"
+    },
+    {
+      "i": 110,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "20:50",
+      "en": "They're still in that process of going and putting systems on the cloud. How do you run that tactically in the culture to make sure you don't fall in the same trap that all the big players before you have fallen into, which is that you're suboptimally using your advantages and you don't have a good algorithm?",
+      "zh": "他们还在把系统搬上云的进程中。你要在战术上、在文化上怎么运营，确保自己不重蹈所有前人犯过的错——也就是没有最优地利用自己的优势、没有一个好算法？"
+    },
+    {
+      "i": 111,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "21:06",
+      "en": "What is the tactics of you making sure the team doesn't mess that up and actually does the opposite? I think the biggest difference is that historically, traditional banks saw their basis of competition as a lot of banking branches.",
+      "zh": "你确保团队不把它搞砸、反而做相反事情的具体打法是什么？我觉得最大的差别在于，历史上传统银行把它们的竞争基础看成大量银行网点。"
+    },
+    {
+      "i": 112,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "21:20",
+      "en": "But literally how consumers used to pick a bank is, I'm going to pick a bank that has a banking branch very close. And so that's why there was a huge amount of effort and energy into real estate and physical infrastructure.",
+      "zh": "而过去消费者选银行的方式实际上就是：我要选一家网点离我很近的银行。所以他们投入了巨大的精力和能量在房地产和实体设施上。"
+    },
+    {
+      "i": 113,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "21:31",
+      "en": "And obviously a lot of focus on building brands and building trust with consumers. In financial service, especially, you need to protect that trust with consumer.",
+      "zh": "当然也大量投入在建立品牌、与消费者建立信任上。尤其在金融服务，你必须保护消费者的这份信任。"
+    },
+    {
+      "i": 114,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "21:39",
+      "en": "That's very critical. So when we began the company, we did not have to spend energy or focus on an offline world. It's more of an online world.",
+      "zh": "这非常关键。所以我们创业时，不必把精力和焦点放在线下世界，我们面对的是线上世界。"
+    },
+    {
+      "i": 115,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "21:48",
+      "en": "And we saw technology and data as a way to build comparative advantage. And so since the beginning, we saw ourselves as a technology company, not a bank, technology company that happens to be in financial services.",
+      "zh": "我们把技术和数据看作构建比较优势的方式。从一开始我们就把自己看作一家科技公司，而不是一家银行——一家恰好在做金融服务的科技公司。"
+    },
+    {
+      "i": 116,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "21:59",
+      "en": "And therefore, the culture itself has a culture that uses data and analytics consistently for every single decision. And what our own foundation model has enabled us is the cost of putting a feature into a model has gone down significantly.",
+      "zh": "因此文化本身就是一种在每一个决策上一贯使用数据和分析的文化。而我们自己的基础模型带来的，是把一个特征放进模型的成本大幅下降。"
+    },
+    {
+      "i": 117,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "22:12",
+      "en": "For AI, you had to spend six months adding a new feature. If you wanted to test a new feature in a model, you had to spend several weeks work testing this feature, putting in the model, testing it around.",
+      "zh": "在 AI 之前，你要花六个月加一个新特征。如果你想在一个模型里测试一个新特征，你得花几周时间去测试这个特征、放进模型、反复验证。"
+    },
+    {
+      "i": 118,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "22:23",
+      "en": "With our own foundation model, you can test a number of different approaches much faster. Then the cost of creating a model, you have an email that has purple letters or yellow letters.",
+      "zh": "有了我们自己的基础模型，你可以快得多地测试很多不同的方法。然后创建模型的成本——比如你发一封邮件，标题用紫色字体还是黄色字体——"
+    },
+    {
+      "i": 119,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "22:34",
+      "en": "The cost of doing a specific experiment has gone down significantly. And so every decision in the organization can now be automatized and be done by model versus a human.",
+      "zh": "做一次具体实验的成本大幅下降。于是组织里的每一个决策现在都可以自动化、由模型而不是人来做。"
+    },
+    {
+      "i": 120,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "22:43",
+      "en": "That's what the AI is also enabling. So it kind of let us do what we were already doing at a much more significant scale. But the culture itself already existed since we saw this as a way to differentiate ourselves since the very beginning.",
+      "zh": "这也是 AI 正在 enabled 的东西。它让我们能在大得多的量级上继续做我们早就在做的事。但文化本身从一开始就存在，因为我们从一开始就把这当作差异化的方式。"
+    },
+    {
+      "i": 121,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "22:56",
+      "en": "How do you think the global financial system will change the most or needs to change the most in the next five years, totally away from your business?",
+      "zh": "你觉得未来五年全球金融体系会发生最大变化、或者最需要变化的地方是什么？完全撇开你自己的业务不谈。"
+    },
+    {
+      "i": 122,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "23:03",
+      "en": "What are the exogenous changes that you're most carefully watching that you think matter? One of the most transformational technologies in the world in French is going to be the first one is the end of cash.",
+      "zh": "你最密切关注的外生变化、你认为重要的那些是什么？我认为全球最具变革性的趋势里，第一个是现金的终结。"
+    },
+    {
+      "i": 123,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "23:15",
+      "en": "And this is happening really everywhere. There is a lot of big cash-heavy economies like Mexico, for example, or Indonesia or a lot of African countries.",
+      "zh": "这件事正在各个地方发生。有很多重现金的大型经济体，比如墨西哥、印度尼西亚，还有很多非洲国家。"
+    },
+    {
+      "i": 124,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "23:22",
+      "en": "Brazil used to be like that, where that cash will go away and will de-italize mostly through real-time payment systems. I think the implications of this, some of them are obvious.",
+      "zh": "巴西过去也是这样，那些现金会消失，主要通过实时支付系统实现去现金化。我觉得这件事的影响，有些是显而易见的。"
+    },
+    {
+      "i": 125,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "23:33",
+      "en": "You don't need banking branches or you need less. Some of them are less obvious, which is what happens to the economy, for example, the efficiency of banks when they don't need banking branches.",
+      "zh": "你不再需要银行网点，或者需要得更少。有些不那么明显，比如这对经济意味着什么，比如银行不需要网点时的效率。"
+    },
+    {
+      "i": 126,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "23:43",
+      "en": "The speed at which money moves in the economy, the amount of data that gets created in an economy that then can be used, for example, to provide access to credit.",
+      "zh": "货币在经济体中流转的速度，经济体中产生的、之后可以被用于比如提供信贷的数据量。"
+    },
+    {
+      "i": 127,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "23:52",
+      "en": "So that's a big catalyst. The second one is open finance and open banking across the world. This is basically the concept that you, as a consumer, own all the data that you have across all institutions and you're able to grab that data and share it with anybody else.",
+      "zh": "所以这是一个巨大的催化剂。第二个是全球的开放金融（open finance）和开放银行（open banking）。这基本上是一个概念：作为消费者，你在所有机构里的数据都归你自己所有，你能把这些数据抓出来，分享给任何别人。"
+    },
+    {
+      "i": 128,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "24:10",
+      "en": "So one of the biggest sources of inertia in financial services, but also let's call it telecom, for example, or utilities, is that you have a history with a specific company and you cannot transfer that history with somebody else that comes new.",
+      "zh": "金融服务里最大的惯性来源之一——但也可以说是电信，或者公用事业——就是你跟某一家公司有一段历史，而你没法把这段历史转移给一个新来的玩家。"
+    },
+    {
+      "i": 129,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "24:23",
+      "en": "And incumbents have benefited a lot from that inertia of data. The moment that you can connect all your history from all your services and pass it to somebody else, you're reducing that inertia and you're enabling more competition for your data.",
+      "zh": "在位者从这种数据惯性里获益极多。当你能够把自己在所有服务上的历史整合起来、交给别人时，你就降低了这种惯性，为你的数据引入了更多竞争。"
+    },
+    {
+      "i": 130,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "24:36",
+      "en": "And you can monitor that data as a consumer. You can grab your historical information with a bank and offer it to somebody else that is willing to pay for that if you decide to do so.",
+      "zh": "作为消费者，你可以监控自己的数据，可以把你和某家银行的历史信息拿给愿意为此付钱的其他机构，如果你自己这么决定的话。"
+    },
+    {
+      "i": 131,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "24:45",
+      "en": "Right now, social media does that without you deciding to do that, increasing you're going to be able to do that as a decision. And the reason open banking is important is because then it will decrease that inertia globally and will increase significant competition in banking.",
+      "zh": "现在社交媒体在没经过你决定的情况下就这么干了；以后你会把它变成一个自己做出的决定。开放银行之所以重要，是因为它会降低全球范围的惯性，并在银行业引入显著更多的竞争。"
+    },
+    {
+      "i": 132,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "24:58",
+      "en": "Banking today globally really is still very much an oligopoly structure. You have five, six banks in the US that own 60, 70% of all the assets, same in Europe, same in Asia, same in Latin America.",
+      "zh": "今天的全球银行业实际上仍然是寡头结构。美国有五六家银行掌握 60%、70% 的资产，欧洲、亚洲、拉美都一样。"
+    },
+    {
+      "i": 133,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "25:09",
+      "en": "So that will mean a less concentrated banking industry, much more fragmented, much more competition. Obviously, that translates into less fees and less cost.",
+      "zh": "那意味着一个集中度更低的银行业，更分散，竞争更激烈。显然，这会转化为更少的费用和更低的成本。"
+    },
+    {
+      "i": 134,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "25:17",
+      "en": "Big trend that has a couple of decades is the role of crypto and stable coins around the world. And what will eventually happen with increasingly people that are much more mobile in nature is that you operate in a combination of the fiat system in your country with a global offshore system.",
+      "zh": "另一个持续几十年的大趋势是加密货币和稳定币（stablecoin）在全球的角色。最终会发生的是，随着人们在本质上是日益流动的，你会在本国的法币体系和一套全球离岸体系之间同时运作。"
+    },
+    {
+      "i": 135,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "25:34",
+      "en": "Your lives go in between without you even realizing this. For a lot of countries around the world, it's really important. You've seen with the usage of access to Bitcoin, for example, stable coins.",
+      "zh": "你的生活在这两者之间来回切换，而你自己甚至没有意识到。对世界上很多国家来说这真的很重要，你已经看到比特币的采用、稳定币的使用。"
+    },
+    {
+      "i": 136,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "25:43",
+      "en": "Increasingly, they want to bank in the offshore system. They don't throw their banking system. They don't trust their fiat currency. Today, there's about 190 currencies around the world.",
+      "zh": "越来越多的人想在离岸体系里做银行，他们不信任自己的银行体系，不信任自己的法币。今天全世界大约有 190 种货币。"
+    },
+    {
+      "i": 137,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "25:55",
+      "en": "My view is that 10, 20 years from now, those 190 will be maybe 10 because the fiscal situation in so many countries around the world is so dire that a lot of that fiat money is not real money.",
+      "zh": "我的观点是，10 年、20 年之后，这 190 种可能只剩 10 种，因为世界上太多国家的财政状况太糟了，很多法币已经不是真正的货币。"
+    },
+    {
+      "i": 138,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "26:06",
+      "en": "This is basically crypto tokens. So increasingly, billions of people are going to be banking on the offshore world, US stable coin, but also Bitcoin and other type of assets.",
+      "zh": "那本质上就是加密代币。所以越来越多的人会在离岸世界里做银行：US 稳定币，也包括 Bitcoin 和其他类型的资产。"
+    },
+    {
+      "i": 139,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "26:15",
+      "en": "You see these two parallel systems interrelating with each other across the world. If you had to think about the US dollar and its importance, if it goes from 190 to 10 or something, do you think the US dollar is the reserve currency 10 years from now?",
+      "zh": "你会看到这两套平行体系在全球互相咬合运作。如果让你想想美元以及它的重要性——如果货币从 190 种缩到 10 种之类——你觉得 10 年之后美元还是储备货币吗？"
+    },
+    {
+      "i": 140,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "26:29",
+      "en": "Is it one of a few? What do you think its role will be in the world? There are two sides of that argument. You can make the case, US stable coins ultimately will be the big savior or one of the biggest saviors of the US dollar because it democratizes access to the US dollar.",
+      "zh": "它是其中几个之一？你觉得它在世界上的角色会是什么？这个论点有两面。你可以说 US 稳定币最终会是美元的大救星之一，因为它让获得美元的途径民主化了。"
+    },
+    {
+      "i": 141,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "26:45",
+      "en": "In a while, the fiscal situation in the US is not great and it's deteriorating fast. Still better than the fiscal situation for the other hundred and plus countries around the world.",
+      "zh": "没错，美国的财政状况不好，而且在快速恶化。但比起世界上其他一百多个国家的财政状况，还是好得多。"
+    },
+    {
+      "i": 142,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "26:56",
+      "en": "You look at the balance sheets of all of the central banks or countries in emerging markets in Latin America. It's way scarier and you don't have the sovereign capabilities, at least there is a lot of demand for the US stable coin.",
+      "zh": "你看看各国央行或者拉美新兴市场经济体的资产负债表，那边要吓人得多，而且没有主权能力——至少 US 稳定币有巨大的需求。"
+    },
+    {
+      "i": 143,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "27:07",
+      "en": "They're very little for the Brazilian stable coin, unfortunately. So the fact that stable coin exists for US dollar will ultimately mean that the US dollar maintains its power as a reserve currency for a very long time.",
+      "zh": "巴西稳定币的需求非常少，很遗憾。美元稳定币存在这一事实，最终意味着美元作为储备货币的权力会维持非常长的时间。"
+    },
+    {
+      "i": 144,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "27:18",
+      "en": "But it won't be unique. I think you'll have other five, six fiat currencies that people will be saving in and a few crypto tokens where you also be diversifying and I've always been a Bitcoin fan and it plays a role in a diversified investment portfolio.",
+      "zh": "但它不会是唯一。我觉得还会有五六个法币是人们会用来储蓄的，也有一些加密代币用于分散化。我一直是 Bitcoin 的粉丝，它在分散化的投资组合里扮演一个角色。"
+    },
+    {
+      "i": 145,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "27:33",
+      "en": "What's the most surprising thing do you think about the move away from cash? What would I not appreciate about the implications of that or how long it would take?",
+      "zh": "你觉得去现金化最让你惊讶的是什么？有哪些影响、或者它需要多长时间，是我不会意识到的？"
+    },
+    {
+      "i": 146,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "27:41",
+      "en": "What's surprising about going cashless? The main one is what this means for credit markets. For the majority of the world, in the majority of the world economies, still economies are very much offline and just think about this situation where you have a taco stand in a corner in Mexico City and you're selling through cash.",
+      "zh": "去现金化有什么让人惊讶的？主要一点是这对信贷市场意味着什么。对世界上大多数地区、大多数经济体来说，经济仍然非常线下化。想想这个场景：在墨西哥城街角有一个卖 taco 的摊子，全靠现金成交。"
+    },
+    {
+      "i": 147,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "27:57",
+      "en": "That transaction is not being recorded anywhere. That's a transaction that you're selling to somebody and it goes away and that taco stand cannot get credit today.",
+      "zh": "那笔交易没有被记录在任何地方。你卖给某人一份，钱就过去了，那个 taco 摊今天拿不到信贷。"
+    },
+    {
+      "i": 148,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "28:06",
+      "en": "Now that person has a history where every day they go and sell tacos and they get cash flow that's being recorded, but nobody can underwrite on top of that.",
+      "zh": "现在这个人有了一段历史：每天去卖 taco，有现金流被记录下来，但没人能基于它做授信。"
+    },
+    {
+      "i": 149,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "28:15",
+      "en": "The moment that that transaction goes into a digital ledger, that transaction happens digitally, then suddenly that taco seller can take that information to a bank and says, hey, look at my cash flow, give me access to credit and if you give me the access to credit, I can now have two taco stands or I can have five taco stands.",
+      "zh": "一旦那笔交易进入数字账本、以数字化方式发生，那个卖 taco 的人突然就能带着这些信息去找银行说：看我的现金流，给我信贷；而如果我能拿到信贷，我就可以有两个 taco 摊，或者五个 taco 摊。"
+    },
+    {
+      "i": 150,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "28:34",
+      "en": "Digitalization of the economy and what that enables for credit for a significant percentage of the world population is something that is not very well understood today and is a huge accelerant.",
+      "zh": "经济的数字化以及它为世界上相当大比例人口解锁的信贷，这一点今天还没有被很好理解，是一个巨大的加速器。"
+    },
+    {
+      "i": 151,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "28:43",
+      "en": "Again, you look at economies like Brazil, for example, something like 70% of all the employment in the country is still in small businesses.",
+      "zh": "同样，你看巴西这样的经济体，全国大约 70% 的就业仍然在小企业里。"
+    },
+    {
+      "i": 152,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "28:51",
+      "en": "It's not a big corporate small business. Same thing happens in India, for example, or South East Asia. A lot of these small businesses historically also dealt with cash.",
+      "zh": "不是大企业，是小企业。印度、东南亚也发生同样的事。这些小企业历史上也是靠现金交易。"
+    },
+    {
+      "i": 153,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "29:00",
+      "en": "Now they're digitalized and so this is trillions of dollars of credit being enabled for billions of people around the world. This could be a significant economic shift for economic mobility across the world and is a very exciting opportunity.",
+      "zh": "现在它们被数字化了，这就为全球数十亿人解锁了数万亿美元的信贷。这可能是全球经济流动性的重大转变，是一个非常令人兴奋的机会。"
+    },
+    {
+      "i": 154,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "29:16",
+      "en": "Do you think that you can create credit worthiness versus just predict or measure it once you have all this data? Is that one of the goals to help people become more credit worthy somehow?",
+      "zh": "你觉得有了这些数据之后，你能创造信用资质，而不只是预测或测量它吗？帮人变得更值得授信，是不是目标之一？"
+    },
+    {
+      "i": 155,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "29:27",
+      "en": "Yes, absolutely. The first thing you have to do is measure or record a lot of those transactions into a ledger and that's what the utilization of cash enables.",
+      "zh": "是的，绝对如此。第一件事是把大量交易记录进账本，而这正是现金退出所带来的。"
+    },
+    {
+      "i": 156,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "29:35",
+      "en": "Then with better algorithms and AI plays a role here and then also with better products, you can enable people to start building that credit history.",
+      "zh": "然后有了更好的算法——AI 在这里发挥作用——再加上更好的产品，你就能让人们开始建立那份信用记录。"
+    },
+    {
+      "i": 157,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "29:44",
+      "en": "So I'll give you an example. We were the first credit card for 30 million people in Latin America. When we used to ask banks why so many banks didn't give access to credit, what we heard is people don't want credit.",
+      "zh": "我举个例子。我们是拉美 3,000 万人的第一张信用卡。当我们去问银行为什么这么多银行不给信贷时，我们听到的是：人们不想要信贷。"
+    },
+    {
+      "i": 158,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "29:55",
+      "en": "People don't want a credit card. They are scared about paying taxes and so they're never going to use the product. But what really matters is when we realize is what they were really lacking was a product that really matched their needs.",
+      "zh": "人们不想要信用卡，他们害怕交税，所以他们永远不会用这个产品。但我们真正意识到的是，他们缺的其实是一个真正匹配他们需求的产品。"
+    },
+    {
+      "i": 159,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "30:06",
+      "en": "We started for a lot of people with a product that the first line was $20, a $20 credit line. When banks saw that product, they thought it was absurd, but in reality, people really appreciated that, that $20 was better than zero and those $20 became a hundred and the hundred became a thousand over a period of time and so you enable them to create a credit history through the right product and then you enable an AI copilot for that customer",
+      "zh": "对很多人来说，我们是从额度 20 美元的产品开始的。银行看到这个产品时觉得荒谬，但实际上人们非常感激——20 美元总比零好。那 20 美元变成 100，100 又随着时间变成 1,000，于是你通过合适的产品让他们建立了信用记录，然后你给那个客户提供 AI 副驾（AI copilot），"
+    },
+    {
+      "i": 160,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "30:32",
+      "en": "that tells them all the different moves and what they need to do in terms of spending and investing and savings to gain points and become more credit worthy.",
+      "zh": "告诉他在消费、投资、储蓄上该做的各种动作，来赢得积分、变得更值得授信。"
+    },
+    {
+      "i": 161,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "30:40",
+      "en": "And that's again, the concept of you providing a coach to somebody to improve their ability to access credit and improve their financial picture.",
+      "zh": "这同样是你为某人提供一个教练，去提升他获得信贷的能力、改善他的财务状况。"
+    },
+    {
+      "i": 162,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "30:48",
+      "en": "So absolutely, I think that's going to be a big enabler. How siloed are the individual countries in terms of how useful what you learn in one is helpful in another?",
+      "zh": "所以绝对，我认为这会是一个巨大的使能因素。各国之间在多大程度上是割裂的？你在一个国家学到的东西对另一个国家有多大用处？"
+    },
+    {
+      "i": 163,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "30:57",
+      "en": "Like when you went to Mexico from Brazil, how much of the learning from Brazil was portable versus something about Mexico that's just distinctive about that country?",
+      "zh": "比如你从巴西进墨西哥时，巴西的经验有多少是可迁移的，墨西哥又有哪些是这个国家独有的？"
+    },
+    {
+      "i": 164,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "31:05",
+      "en": "And then how do you think about all the countries you've learned in so far and exporting that and those learnings to other geographies? It's more exportable than we would have expected.",
+      "zh": "然后你怎么把迄今在所有国家学到的东西、把这些经验输出到其他地区？可迁移性比我们预想的要高。"
+    },
+    {
+      "i": 165,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "31:14",
+      "en": "The part that was less exportable, the biggest difference between at least a country like Brazil, Brazil was actually much more banked than unbanked.",
+      "zh": "不那么可迁移的部分——至少巴西这样的国家最大的不同在于，巴西其实更多是已经银行化的，而不是未银行化的。"
+    },
+    {
+      "i": 166,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "31:22",
+      "en": "And so when we went to Mexico, a lot of the conversations that we heard is like, well, but people in Mexico like cash that don't believe in digital payments or credit cards in the early years of Mexico, that was the biggest difference.",
+      "zh": "所以我们去墨西哥时，听到很多类似的说法：墨西哥人喜欢现金，他们不相信数字支付或信用卡。在墨西哥业务的最初几年，这是最大的差别。"
+    },
+    {
+      "i": 167,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "31:33",
+      "en": "When you go from a banked customer or banked country to an unbanked country, it's harder to compete. I always say that we are a shark in digital waters.",
+      "zh": "当你从一个已银行化的国家进入一个未银行化的国家，竞争就更难。我一直说，我们是数字水域里的鲨鱼。"
+    },
+    {
+      "i": 168,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "31:42",
+      "en": "When we are forced to compete in the offline world with banking branches, we're much less competitive. We don't have banking branches. We don't have ATMs.",
+      "zh": "当我们被迫在离线世界用银行网点去竞争时，我们的竞争力就差得多。我们没有银行网点，没有 ATM。"
+    },
+    {
+      "i": 169,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "31:49",
+      "en": "And so for a couple of years, it was harder for us to compete, even though we became the second largest bank in Mexico by now in the largest digital bank there.",
+      "zh": "所以头几年我们竞争起来更难，尽管我们现在已经是墨西哥第二大银行、那里最大的数字银行。"
+    },
+    {
+      "i": 170,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "31:59",
+      "en": "But as these countries digitalized also, including Mexico, then the world started looking closer to each other. And that's ultimately what you actually see across any other industry, right?",
+      "zh": "但随着这些国家也数字化，包括墨西哥，世界开始变得更像彼此。这其实也是你在其他任何行业看到的："
+    },
+    {
+      "i": 171,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "32:09",
+      "en": "You look at social media across the world is the same product. You look at Netflix, the same product, you look at Spotify, the same product, you look at Uber, the same product, Amazon, generally the same product.",
+      "zh": "你看全球社交媒体是同一个产品，Netflix 是同一个产品，Spotify 是同一个产品，Uber 是同一个产品，Amazon 大体也是同一个产品。"
+    },
+    {
+      "i": 172,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "32:20",
+      "en": "So I would say historically, there were a lot of particularities and the cash part was the specific one. The future looks much more homogeneous than the past, even for financial services.",
+      "zh": "所以我会说，过去有很多特殊性，现金就是那个特殊的东西。而未来看起来比过去同质得多，即便是金融服务。"
+    },
+    {
+      "i": 173,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "32:32",
+      "en": "If I forced you to put your investor hat on thinking about fintech writ large and where there might be other opportunities beyond the ones that you're focused on addressing, if I were to adopt the phrase of our great mutual friend, Mickey Malka, who said a couple of years ago, fintech is dead.",
+      "zh": "如果我逼你戴上投资人的帽子，想想广义的 fintech，除了你正在解决的机会之外可能还有哪些机会——如果用我们那位共同的挚友 Mickey Malka 几年前的那句话，fintech 已死。"
+    },
+    {
+      "i": 174,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "32:45",
+      "en": "Maybe he's the best fintech investor ever, and now he's doing less of that and more things in the eye and power and data and things like this.",
+      "zh": "他也许是有史以来最好的金融科技投资人，现在他在这上面花的时间少了，更多在 AI、算力、数据这些事上。"
+    },
+    {
+      "i": 175,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "32:52",
+      "en": "How would you frame the global opportunity to invest in fintech businesses of new companies, of startups versus companies like yours that had the scale can go take advantage of a lot of this thing?",
+      "zh": "你会怎么界定全球投资金融科技公司的机会——投新公司、投初创公司，还是投像你这样已经有规模、能利用这一切的公司？"
+    },
+    {
+      "i": 176,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "33:04",
+      "en": "If I think about that battle between if I want to invest in fintech, should I do it in the incumbents, your new incumbent, let's call you, and to pure startups, what do you think the opportunity set looks like?",
+      "zh": "如果我想投 fintech，我该投在位者、投你这个新在位者，还是投纯粹的初创公司，你觉得机会集长什么样？"
+    },
+    {
+      "i": 177,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "33:14",
+      "en": "I actually asked this question to Mickey last week because I saw him, he spent a lot of time in the AI and investing in AI companies, he was like, are you done with fintech really?",
+      "zh": "上周我实际问了 Mickey 这个问题，因为我见了他——他花了很多时间在 AI 上、在投 AI 公司——他反过来问我：你真的不搞 fintech 了吗？"
+    },
+    {
+      "i": 178,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "33:22",
+      "en": "I like this answer, which is, no, we're not. We are just doubling down on the larger neo banks or neo fintechs that are now writing the sweet spot between maintaining the ability to transform themselves through AI, but now have access to these modes of scale and data and brand and licenses.",
+      "zh": "我喜欢他的回答，他说：不，我们没有。我们只是在更大的新型银行、更大的金融科技平台上加倍下注，它们现在处在最佳位置——既保有通过 AI 自我转型的能力，又拥有规模、数据、品牌和牌照这些护城河。"
+    },
+    {
+      "i": 179,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "33:41",
+      "en": "He continues to be an investor of us, he continues to be an investor of a lot of startups. For the early entrant, I think he's going to be in areas that are potentially less obvious as an entry path.",
+      "zh": "他仍然是我们的投资人，也仍然投很多初创公司。对于新进入者，我觉得他会去那些作为切入路径不那么显然的领域。"
+    },
+    {
+      "i": 180,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "33:50",
+      "en": "It becomes a little bit harder and you probably are applications on top of AI models that you do. So there'll be specific applications, I think, of an entry path, but I think building a consumer brand with hundreds of millions of customers at this stage, unless you come up with something completely fundamental, different, it's going to be harder.",
+      "zh": "会变得更难，而且你做的可能是 AI 模型之上的应用。所以会有具体的应用作为切入路径；但我觉得在这个阶段，除非你拿出某个完全根本性的不同，否则要建立一个拥有数亿客户的消费品牌会更难。"
+    },
+    {
+      "i": 181,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "34:06",
+      "en": "Can you talk about this big announcement that you just made and why you're so excited about it, kind of what it means for the business? I think most people still identify neo bank as a Brazil neo bank or Latin America neo bank, which is what we are.",
+      "zh": "讲讲你们刚刚宣布的那件大事吧，你为什么这么兴奋，它在多大程度上意味着业务的什么。我想大多数人仍然把 Nubank 看作巴西的新型银行或者拉美的新型银行，我们确实如此。"
+    },
+    {
+      "i": 182,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "34:18",
+      "en": "But when you go back in time and look at our seed deck in 2013 and the way we thought about the opportunity, there's nothing specific about Brazil or Latin America around the thesis.",
+      "zh": "但你回到过去看我们 2013 年的种子轮 deck，看我们思考这个机会的方式，里面没有任何一点是专门关于巴西或拉美的。"
+    },
+    {
+      "i": 183,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "34:28",
+      "en": "The thesis really is that global retail banking will be transformed by the Italy native companies. And this is because the Italy native companies can solve the problems that financial services have better.",
+      "zh": "这个论断其实是：全球零售银行会被数字原生公司改造。这是因为数字原生公司能更好地解决金融服务的那些问题。"
+    },
+    {
+      "i": 184,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "34:42",
+      "en": "And these are the problems that cost, the access and the intelligence. And so we're excited about this announcement as we launch the US as a market.",
+      "zh": "这些就是成本、可得性和智能这三个问题。所以我们对这次宣布很兴奋——我们把美国作为一个市场启动。"
+    },
+    {
+      "i": 185,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "34:50",
+      "en": "And we also announced launching to upwards of 35 different countries a stablecoin backed account. Because this is the beginning of continuing to play in these thesis that is a global thesis in nature.",
+      "zh": "我们还宣布在 35 个以上国家推出稳定币支持的账户。因为这是继续践行这个论断的开端，而这个论断本质上是全球性的。"
+    },
+    {
+      "i": 186,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "35:00",
+      "en": "We think about our past 13 years as proving this model in Latin America and the countries that we operate. And I think we did. We're now the largest private financial institution in the entire continent.",
+      "zh": "我们把过去的 13 年看作在拉美和我们在的国家验证这个模式。我认为我们做到了。我们现在是整个拉美大陆最大的私营金融机构。"
+    },
+    {
+      "i": 187,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "35:10",
+      "en": "We have the highest net promoter score from a profitability perspective. We have the highest return of equity in a country like Brazil. So we kind of did all the checks and now is the moment to continue executing this multi decked vision of taking this model global.",
+      "zh": "我们有最高的净推荐值（Net Promoter Score）；从盈利能力看，在巴西这样的国家我们有最高的净资产收益率（return on equity）。所以我们差不多把每个对勾都打上了，现在是时候继续执行这份多年前 deck 里的愿景——把这个模式带到全球。"
+    },
+    {
+      "i": 188,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "35:24",
+      "en": "So we're very excited. The US is always a very competitive market. It is the biggest market in the world. There is a lot of very strong near banks and fintechs in the US that we'll be coming to compete with.",
+      "zh": "所以我们非常兴奋。美国始终是一个竞争极强的市场，它是全球最大的市场，那里有很多很强的新银行和 fintech 会来跟我们竞争。"
+    },
+    {
+      "i": 189,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "35:35",
+      "en": "But in reality, it's a market that's still dominated by big incumbent banks. So while there is a lot of fintechs, you look at where is the market, the market is still dominated by a few incumbent banks and some community banks.",
+      "zh": "但实际上，美国市场仍然由大型在位银行主导。虽然有大量 fintech，但你看市场在哪里——市场仍然被几家在位银行和一些社区银行主导。"
+    },
+    {
+      "i": 190,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "35:47",
+      "en": "Most of the banking in the US is still happening through banking branches. As if most of the video and media were happening through blockbusters, they still need to charge a lot and they need to pay zero yield effectively to be able to fund this physical infrastructure.",
+      "zh": "美国的大部分银行业务仍然通过网点完成。就好像视频和媒体大部分仍然发生在 Blockbuster 里——他们仍然必须收很高的费用，实际上必须支付零利率，才能为这套实体基础设施融资。"
+    },
+    {
+      "i": 191,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "36:01",
+      "en": "And there is a lot of comparative advantages that we bring to bear like our ability to do credit for the mass market or ability to do payments globally and there's something that we also announced with the feature, ability to really make customer levels fanatically, bring a consumer obsessed culture in an environment and industry where customers just don't really care about their banking relationships, especially for the US mass market.",
+      "zh": "而我们带来了很多比较优势，比如我们做大众市场信贷的能力、做全球支付的能力；还有一个我们这次一并宣布的方向，就是真正让客户变成狂热的粉丝，把一个客户根本不在乎自己银行关系的行业和环境中——尤其是美国大众市场——带入消费者痴迷的文化。"
+    },
+    {
+      "i": 192,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "36:22",
+      "en": "What do you think is going to be the hardest part about competing in the US? Building a very strong brand will be one of the hardest things.",
+      "zh": "你觉得在美国竞争最难的部分会是什么？建立一个非常强的品牌会是最难的事情之一。"
+    },
+    {
+      "i": 193,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "36:28",
+      "en": "US consumers mentioned brand as one of the key attributes to choose banks and it's not cheap and we want to do it in a way where we obviously have a lot of financial resources being very profitable.",
+      "zh": "美国消费者把品牌列为选择银行的关键属性之一，而这并不便宜；我们显然有充裕的财务资源、非常盈利，"
+    },
+    {
+      "i": 194,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "36:41",
+      "en": "But we want to do it in a way that is smarter and more capital efficient than simply coming in and invest in a marketing all over the place.",
+      "zh": "但我们想用一个比单纯冲进来、到处砸营销更聪明、更节省资本的方式来做。"
+    },
+    {
+      "i": 195,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "36:48",
+      "en": "So building an organic brand in an environment where there are so many strong banking brands might be one of the most difficult challenges that we'll do and that's critical to build trust with consumers because we want to become their primary bank account.",
+      "zh": "所以，在一个有众多强势银行品牌的环境里建立有机的品牌，可能是我们要面对的最难的挑战之一；这对与消费者建立信任至关重要，因为我们要成为他们的主要银行账户。"
+    },
+    {
+      "i": 196,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "37:01",
+      "en": "That's what we aspire to do. If I had every buy side analyst that covers New Bank here and you got to convince them of how they should think about your business through financial metrics, you mentioned return on equity earlier.",
+      "zh": "这就是我们的志向。如果我把每一位覆盖 Nubank 的买方分析师都请到这里，而你必须说服他们该用哪些财务指标来理解你的业务——你前面提到了净资产收益率。"
+    },
+    {
+      "i": 197,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "37:14",
+      "en": "Is that the metric that you would point them to as the barometer of how well you're doing? Are there other metrics that you would hope that investors would use to assess how good a job you're doing that are financial?",
+      "zh": "那是你会让他们紧盯的标尺吗？还有哪些你希望投资人用来评判你做得好不好的财务指标？"
+    },
+    {
+      "i": 198,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "37:25",
+      "en": "How do you think about that? Growth of number of customers and net promoter score and the cost to acquire that customer. So when you look at figuring out have you hit a vein and are you growing in a way where you've found an underserved market and you're able to offer a product than everybody else were able to offer, that's one of the key metrics, number, user count, NPS.",
+      "zh": "你们怎么考虑这些？客户数量的增长、净推荐值，以及获取那个客户的成本。当你在判断自己有没有挖到矿脉、你的增长是不是说明你找到了一个未被服务的市场、并且给出了别人给不出的产品时，那是关键指标之一——用户数、NPS。"
+    },
+    {
+      "i": 199,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "37:46",
+      "en": "But then are you doing it at a sustainable pace because you can buy your way into growth by spending a lot of money on marketing. So what is the equation there?",
+      "zh": "但你还得用可持续的节奏去做，因为你可以靠大量砸营销把钱买来增长。那这里的等式是什么？"
+    },
+    {
+      "i": 200,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "37:52",
+      "en": "What is your LTV to CAC and ultimately what is your return on equity? And the return on equity exemplifies the advantages that the business model could have when you compare us with the big incumbent banks in the countries that we operate.",
+      "zh": "你的 LTV 对 CAC 是多少？最终你的净资产收益率是多少？而净资产收益率体现的是，把我们和我们在的那些国家的大型在位银行相比，这个商业模式所能具备的优势。"
+    },
+    {
+      "i": 201,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "38:06",
+      "en": "We don't charge a lot of fees. We literally charge no fee. So we have less revenue, but then we end up with a return on equity that is two to three X their return on equity.",
+      "zh": "我们收的费用不多，我们几乎完全不收费，所以我们的收入更少，但最终我们的净资产收益率是他们的两到三倍。"
+    },
+    {
+      "i": 202,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "38:16",
+      "en": "That basically means that you found a cost structure advantage. You found a way to offer a product at better quality at a much lower cost. And if you find that in general is through technology, then you found yourself a moat.",
+      "zh": "这基本上意味着你找到了一个成本结构优势，你找到了一种以更高质量、低得多的成本提供产品的方式。如果你通常是通过技术找到它的，那你就找到了自己的护城河。"
+    },
+    {
+      "i": 203,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "38:28",
+      "en": "You found yourself a comparative advantage, especially in markets like banking that are in ways commoditized. So I think it would be also looking at that combination of return on equity.",
+      "zh": "你找到了自己的比较优势，尤其是在银行这样在某种意义上已经大宗商品化的市场。所以我想，也要看这个组合，看净资产收益率。"
+    },
+    {
+      "i": 204,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "38:36",
+      "en": "Talking about the US, one of the most interesting least appreciated aspect of it is that by now some of the US incumbent banks have higher return on equity, are more profitable than emerging back in banks.",
+      "zh": "说到美国，我认为最有趣、最少被欣赏的一点是：到现在为止，一些美国在位银行的净资产收益率比新兴市场银行更高、更赚钱。"
+    },
+    {
+      "i": 205,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "38:48",
+      "en": "There's some of the emerging market banks that we compete. That means your margin is my opportunity, right? The typical Amazon view or vessel view of that incredible ROI that even incumbent banks have, even on top of the huge amount of cost that you are using to provide your product, that means there is a significant opportunity to undercut.",
+      "zh": "有些正是我们在竞争的新兴市场银行。那就是你的利润率是我的机会，对吧？典型的 Amazon 式、Bezos 式的看法——即使在你们为提供产品付出的巨大成本之上，在位银行仍然有这么惊人的投资回报率——那意味着巨大的、可以被削掉的空间。"
+    },
+    {
+      "i": 206,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "39:06",
+      "en": "Who are your biggest influences? I know you've learned from some of the great entrepreneurs, some of the great investors out there. When you think about your whole new bank chapter of your life, who are the people that jump out that have most actually influenced how you think about something?",
+      "zh": "谁是你最大的影响者？我知道你向一些伟大的创业者、一些伟大的投资人学习过。当你回望自己人生里 Nubank 这一段，最先跳出来、实际影响了你思考方式的是哪些人？"
+    },
+    {
+      "i": 207,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "39:21",
+      "en": "Who are they and why did they influence you the way they did? We began the company as a reaction of a consumer pain, of me realizing how bad Consumer Bank in Brazil was and how painful it was and then realizing that this was a proxy for what the majority of the country was actually feeling.",
+      "zh": "他们是谁，又为什么那样影响了你？我们创办这家公司是对一种消费者痛点的反应——我意识到巴西的 Consumer Bank 有多糟糕、有多让人痛苦，然后意识到这其实是全国大多数人真实感受的一个缩影。"
+    },
+    {
+      "i": 208,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "39:38",
+      "en": "We always admire companies that are very consumer obsessed, that know that to when they need to be able to offer the best product and best service at a way that creates almost fanaticism.",
+      "zh": "我们一直非常钦佩那些极度以消费者为中心的公司，它们知道必须提供最好的产品和服务，并且做到近乎狂热的程度。"
+    },
+    {
+      "i": 209,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "39:50",
+      "en": "From that perspective, we were very inspired by Amazon since the very beginning of Amazon being the more traditional consumer obsessed company and how they build this consumer obsession and how they thought about that.",
+      "zh": "从这个角度，我们从一开始就深受 Amazon 启发——Amazon 是更传统的那种消费者痴迷（customer obsession）的公司，以及他们如何建立这种消费者痴迷、如何思考它。"
+    },
+    {
+      "i": 210,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "40:01",
+      "en": "We started Disney very carefully because this is a company that wants to create magic experiences. Maybe it's not super obvious, but even in banking, a boring banking product, we want to create a magical experience for customers.",
+      "zh": "我们也非常仔细地研究 Disney，因为这是一家想要创造魔法体验的公司。也许不那么显然，但即便在银行、在一个枯燥的银行产品里，我们也想为客户创造魔法般的体验。"
+    },
+    {
+      "i": 211,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "40:14",
+      "en": "What did you learn from Disney? That's an interesting one. I think it's the communication that you create with consumers and just simply the magic aspect of it.",
+      "zh": "你从 Disney 学到什么？这个挺有意思。我觉得是你与消费者之间建立的那种沟通，以及它那种魔法的本质。"
+    },
+    {
+      "i": 212,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "40:21",
+      "en": "When you enter a Disney park, the setup of that entry path that you have, it's almost like you're entering into a kingdom and the service that you get from everybody that works inside Disney and how they treat the young children, the spectacles that they create and the fireworks that they create, they're really thinking about how do you create a product that is magical in nature and that's something that we push our teams around is for something",
+      "zh": "当你走进一座 Disney 乐园，你走过的那条入口路径，几乎像是你正走进一个王国；Disney 里每一个工作人员给你的服务，他们如何对待小孩子，他们创造的盛景和烟花——他们真的在思考如何创造一个带有魔法的产品。这一点我们不断推给各个团队：一件像转账这么枯燥的事——"
+    },
+    {
+      "i": 213,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "40:44",
+      "en": "as boring as sending money. How do you create a magic experience out of that? The welcome kit that we're sending to our customers here in the US, when they receive that welcome kit of the first credit card, the first debit card, we're trying to create a magical experience in that moment and we're very inspired by that.",
+      "zh": "你如何从中创造出魔法体验？我们在美国寄给客户的欢迎礼盒，当他们收到第一张信用卡、第一张借记卡的那个礼盒时，我们想在那一刻创造一个魔法般的体验，我们深受那一点启发。"
+    },
+    {
+      "i": 214,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "41:00",
+      "en": "The customer obsession thing is something that sounds obvious now. Maybe Amazon really pioneered this way of thinking. Nothing's for free. What are the trade-offs associated with being so customer focused?",
+      "zh": "客户痴迷这件事现在听起来显然。也许真的是 Amazon 开创了这种思考方式。没有什么是免费的。如此以客户为中心，代价是什么？"
+    },
+    {
+      "i": 215,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "41:11",
+      "en": "Things become a popular thing to say and the temptation is like everyone's customer focused to varying degrees, but what does that actually mean?",
+      "zh": "它变成一个流行的说法，诱惑就在于：人人都说自己以客户为中心，程度不同而已，但那到底意味着什么？"
+    },
+    {
+      "i": 216,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "41:18",
+      "en": "What is the hard part about being so customer focused? I think the hard part is, as with any cultural value, is to do what you say you do. You see it in any company that has very nice sounding values on the wall, then the question is are they actually executing that, especially when it's inconvenient.",
+      "zh": "做到如此以客户为中心，难的地方在哪里？我觉得难的地方，和任何文化价值观一样，在于说到做到。你会看到任何公司墙上都挂着很好听的价值观，问题是他们是否真的在执行，尤其是在不方便执行的时候。"
+    },
+    {
+      "i": 217,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "41:37",
+      "en": "Most companies will be consumer obsessed, but then when they are certainly seeing themselves making more money because they invented a new fee, they're not, well, maybe I'm less consumer obsessed here and I want to make a little bit more money and you're prioritizing the short term versus the long term.",
+      "zh": "大多数公司会声称消费者至上，但当他们发现自己因为发明了一个新费用而多赚了点钱时，他们就会想：嗯，也许这里我不那么消费者至上，我想多赚一点——你就把短期放在了长期之前。"
+    },
+    {
+      "i": 218,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "41:51",
+      "en": "Actually, in the entire AI debate, you actually don't hear that much conversation about customers because there is so much energy and focus around how to use AI for efficiency and optimization.",
+      "zh": "其实在整场 AI 辩论中，关于客户的讨论并不多，因为太多的能量和注意力放在如何用 AI 提效率、做优化上。"
+    },
+    {
+      "i": 219,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "42:03",
+      "en": "There is much less conversation about consumer obsession here and this is where humans still are building the AI. The biggest complexities is actually prioritizing this value even when it's inconvenient to do so, especially from a financial perspective, but also the AI bro, the tech bro, is much more enamored today with the technology versus the consumer experience itself.",
+      "zh": "关于消费者痴迷的讨论少得多，而这里仍然是人在构建 AI。最大的难点其实是在不方便的时候依然把这个价值排在前面，尤其从财务角度看；而且 AI 那帮人、科技那帮人，今天更着迷的是技术本身，而不是消费者体验本身。"
+    },
+    {
+      "i": 220,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "42:28",
+      "en": "I'm really curious how you think about your own product, like literally the thing I see on my phone versus your own agent versus new agents being introduced in the marketplace.",
+      "zh": "我很好奇你怎么看待自己的产品——就是我在手机上看到的那个东西——以及你自己的智能体，还有市场上正在出现的新智能体。"
+    },
+    {
+      "i": 221,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "42:37",
+      "en": "Do you think there's a world where it actually matters that your marketing is to agents more than it is to humans? How do you think about that world or whether to provide your own interactive agents versus a product that you're clicking around in on your phone?",
+      "zh": "你觉得会不会存在这样一个世界：向智能体做营销比向人类做营销更重要？你怎么看那个世界，或者说，到底是提供你自己的交互式智能体，还是做一个在手机上点来点去的产品？"
+    },
+    {
+      "i": 222,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "42:49",
+      "en": "I think agents become a customer segment as important as consumers as a segment and you have to provide a product for the agent and you have to market to the agent and you have to do SEO for the agent.",
+      "zh": "我认为智能体会成为一个和消费者同等重要的客群。你必须为智能体提供产品，你必须向智能体营销，你必须为智能体做 SEO。"
+    },
+    {
+      "i": 223,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "43:00",
+      "en": "The same way we have under 18 segment and we have a small business segment. This is an entire segment and we're treating it as a segment. We have a team dedicated to understanding that segment and understanding the needs of that consumer, which is the agent.",
+      "zh": "就像我们有 18 岁以下客群、有小企业客群一样，这是一个完整的客群，我们是把它当一个客群来对待的。我们有专门的团队去理解这个客群、理解这个客户的需求，而这个客户就是智能体。"
+    },
+    {
+      "i": 224,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "43:12",
+      "en": "That would be equally important, but I don't think it's going to be necessarily 100% of that decision because I think still specifically in banking and this might be different in our segments, for example, but in banking, you go back to trust and branding and the human will want to know where your life savings are deposited and there is the human aspect of that.",
+      "zh": "那会同等重要，但我不认为它会 100% 决定一切。我觉得在银行业尤其——也许我们的其他客群不同——但你回到信任和品牌：人还是想知道自己一辈子的积蓄存在哪里，这里有人的因素。"
+    },
+    {
+      "i": 225,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "43:31",
+      "en": "You're still marketing to the human and you're still building the trust with the humans. You got to do both and also for some products, there'll be more delegation and for some products there'll be less delegation.",
+      "zh": "你仍然在向人营销，仍然在和人类建立信任。两样都要做；而且对某些产品会有更多委托，对某些产品会更少委托。"
+    },
+    {
+      "i": 226,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "43:41",
+      "en": "Specifically for areas like in Brazil where we have 65% of the entire country as a customer, we have the opportunity to be that agent to the consumer and the customer is coming directly to our app and asking our agent for support specifically with financial products and we can do it in a way where it's actually an open agent.",
+      "zh": "具体在巴西这样我们覆盖全国 65% 人口作为客户的地方，我们有机会成为消费者使用的那个智能体。客户直接来我们的 App 里问我们的智能体，特别是关于金融产品的问题，我们可以做到一种开放式智能体的形态——"
+    },
+    {
+      "i": 227,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "43:57",
+      "en": "Even provides product from third party banks and third party financial institutions. So there'll be a mix of this happening at the same time.",
+      "zh": "甚至提供第三方银行、第三方金融机构的产品。所以这些东西会同时混合发生。"
+    },
+    {
+      "i": 228,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "44:03",
+      "en": "If I think back to our original conversation five years ago and you just think about yourself, how you've changed the most in five years or what surprised you the most in the past five years, what comes to mind?",
+      "zh": "回想我们五年前那次对话，只想想你自己：五年来你变化最大的是什么，或者过去五年最让你惊讶的是什么，你会想到什么？"
+    },
+    {
+      "i": 229,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "44:13",
+      "en": "One big change has been this view around five years ago, everybody was working remotely, including us. In order to five years, we've realized how important it is to at least spend some meaningful time in person in an office and that's, I think, a bit counterintuitive even from what you were five years ago.",
+      "zh": "一个很大的变化是关于办公的看法。五年前人人都是远程办公，包括我们。五年里我们意识到，至少在办公室里面对面投入一些有意义的时间有多重要，我觉得这甚至相对五年前的你都有点反直觉。"
+    },
+    {
+      "i": 230,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "44:29",
+      "en": "In a perhaps counterintuitive way, increases the argument to spend time in person more because increasingly, the work that AI can do is more or less the work that people at home individually could do and so the individual at home will be competing with the eyes and will lose that battle.",
+      "zh": "以一种也许反直觉的方式，它反而加强了要多面对面的论点，因为 AI 能做的事情，大致就是人们各自在家里能做的事情；所以在家里单打独斗的那个人会去跟 AI 竞争，而且会输。"
+    },
+    {
+      "i": 231,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "44:49",
+      "en": "But the work around collaboration and coordination in presence physically, which is what humans needs to do, is what needs to be happening inside the office.",
+      "zh": "但围绕协作、协调、在场的这些工作——这才是人类需要做的事——需要发生在办公室里。"
+    },
+    {
+      "i": 232,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "44:57",
+      "en": "We went from remote to hybrid and we're spending significant much more time in the office. That has been one change. I think the second part is how the organization changes through AI specifically.",
+      "zh": "我们从远程走到混合，我们在办公室的时间多得多。这是一个变化。第二部分是组织如何随着 AI 改变。"
+    },
+    {
+      "i": 233,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "45:05",
+      "en": "We start paying attention in the technology, but when we tested it, it just didn't really work. Just to give an example, we use a lot of Clojure as a programming language and through 2025, we kept using a lot of the models for Clojure for programming specifically and it wouldn't work.",
+      "zh": "我们一直在关注这项技术，但我们测试的时候它并不真的好用。举个例子，我们大量使用 Clojure 这门编程语言，整个 2025 年我们一直在用各种模型写 Clojure、专门用来编程，就是不行。"
+    },
+    {
+      "i": 234,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "45:20",
+      "en": "It was really awful. As our most experienced engineer said, this is not going to work. So we were testing and Opus 4.6 came in in December of 25 and there was sort of the moment that a lot of people suddenly realized, no, this actually works.",
+      "zh": "真的很糟糕。我们最有经验的工程师说，这东西不可能行。我们一直在测试，然后 Opus 4.6 在 2025 年 12 月出现，那一刻很多人突然意识到：不，这个真的能用了。"
+    },
+    {
+      "i": 235,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "45:32",
+      "en": "We didn't catch that moment, that switch moment in December. We only catch it 60 days after as a couple of my partners and I were in California and we started meeting with a bunch of early stage entrepreneurs and we said, well, something fundamentally happened and we went starting to test a lot of the new models, the new GPT models from Clojure and said, holy shit, this is actually working now.",
+      "zh": "我们没抓住那个切换的时点，12 月我们错过了。我们是在 60 天之后才意识到的——我和几位合伙人在加州，见了一堆早期创业者，我们发现某些根本性的事情发生了。我们开始测试新模型、测试新的 GPT 模型写 Clojure，然后说：天哪，这现在真的能用了。"
+    },
+    {
+      "i": 236,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "45:52",
+      "en": "You can do Clojure very, very well and we're 60 days where it made a huge amount of difference between us and best in class companies that were using AI.",
+      "zh": "它的 Clojure 写得非常好。我们差了 60 天，而这 60 天让我们和最会用 AI 的一流公司之间出现了巨大的差距。"
+    },
+    {
+      "i": 237,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "46:01",
+      "en": "So we went back to Brazil and we went kind of a cold red around the entire organization and we took a step back and we're almost in the process of reinventing the entire organization.",
+      "zh": "所以我们回到巴西，在整个组织里掀起了一场风暴，我们退后一步，几乎是在重新发明整个组织。"
+    },
+    {
+      "i": 238,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "46:11",
+      "en": "We mapped out 120 different workflows across the entire organization. Coding is one of them, but everything from how do you do product design, you know your customer flows, internal audit, compliance, regulatory capital management, every part of the organization, 120 workflows were reinvented natively using AI tools.",
+      "zh": "我们梳理出全组织的 120 个不同的工作流。写代码只是其中之一，但从产品设计、了解你的客户（KYC）流程、内部审计、合规、监管资本管理，到组织的每一部分，120 个工作流都在用 AI 工具原生地重新设计。"
+    },
+    {
+      "i": 239,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "46:33",
+      "en": "We had to create a lot of eval infrastructure to be able to measure at every single step how these workflows get reinvented and I would say we are more advanced in some, we're less advanced in other ones, but the entire organization is being reinvented.",
+      "zh": "我们必须建大量的评测（eval）基础设施，才能在每一步上衡量这些工作流被重造成什么样。可以说有些进展更快，有些还慢一些，但整个组织都在被重新发明。"
+    },
+    {
+      "i": 240,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "46:49",
+      "en": "What's so exciting about this moment is we get to reinvent the way we do things with AI technology and frankly, a lot of the times is that you see huge amount of productivity gains is not even because of AI.",
+      "zh": "这个时点让人兴奋的是，我们得以用 AI 技术重新发明我们做事的方式。坦白说，很多时候你看到的巨大生产力提升甚至不是因为 AI。"
+    },
+    {
+      "i": 241,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "46:58",
+      "en": "It's simply there is always opportunity to be reinventing the way you do things actively and if we were to do it now without AI, we would find a productivity gains, but AI just augments the possibility to do that and that creates the opportunity, for example, for larger span of control, less manager, much more visibility.",
+      "zh": "而是说，总有空间去主动重新审视你做事的方式。如果今天我们不带 AI 去做，我们也会找到生产力收益；但 AI 放大了这种可能性，也带来了机会，比如更大的管理幅度（span of control）、更少的管理者、更多的可见性。"
+    },
+    {
+      "i": 242,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "47:17",
+      "en": "I personally went from having one direct report to 20 direct reports over that period because it just increases your ability to operate horizontally, it's less layers on the organization.",
+      "zh": "我个人在这段时间里从一个直接下属变成 20 个直接下属，因为它提升了你横向运作的能力，组织里的层级更少。"
+    },
+    {
+      "i": 243,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "47:27",
+      "en": "We went from 10 layers to five, so the organization went very horizontal. This is a bolt of adrenaline to the organization as well in terms of our ability to execute.",
+      "zh": "我们从 10 层变成 5 层，组织变得非常扁平。这对我们组织的执行力是一针肾上腺素。"
+    },
+    {
+      "i": 244,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "47:36",
+      "en": "Can you say more about what made that possible? So what was happening at one direct report and 10 layers and then now what's happening at 20 and five?",
+      "zh": "你能多讲讲是什么让它成为可能的吗？之前一个直接下属、10 层的时候是什么样，现在 20 个、5 层又是什么样？"
+    },
+    {
+      "i": 245,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "47:45",
+      "en": "I'm interested in literally like a day-to-day tactical thing. I'm sure most CEOs would rather have a flatter, higher bandwidth of information organization.",
+      "zh": "我想知道具体的、每天层面的战术。我相信大多数 CEO 都希望组织更扁平、信息带宽更高。"
+    },
+    {
+      "i": 246,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "47:54",
+      "en": "So how does it work? What changed in that? I think this is partly AI-related, partly the way we manage our organization, I think for a period of time.",
+      "zh": "那它是怎么运作的？里面改变了什么？我觉得这部分和 AI 有关，部分和我们管理组织的方式有关。有一段时间，"
+    },
+    {
+      "i": 247,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "48:02",
+      "en": "As we start scaling significantly and we went from a million customers to 140, the organization just takes a little bit of inertia of itself and that starts adding layers.",
+      "zh": "当我们开始大规模扩张，从 100 万客户做到 1.4 亿，组织会带上自身的惯性，然后开始加层级。"
+    },
+    {
+      "i": 248,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "48:12",
+      "en": "I think every fast-scaling organization goes through the same process because you see things breaking all over the place, right? You have all these growth pains and the easy answer when things are on fire is to just add managers to solve the fire immediately.",
+      "zh": "我想每个快速扩张的组织都会经历同样的过程，因为你到处都能看到东西在坏掉，有各种成长的疼痛；而着火时最简单的答案就是加管理者，立刻把火灭掉。"
+    },
+    {
+      "i": 249,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "48:26",
+      "en": "By sort of a natural organic process, we ended up very verticalized and we ended up with a structure that didn't give a lot of visibility. Partly what AI creates is it allows you to take a step back and reinvent everything about your business.",
+      "zh": "通过某种自然的、有机的过程，我们变得非常纵向化，形成了一种没什么可见性的结构。而 AI 带来的部分作用是，它让你能退后一步，重新发明你业务的一切。"
+    },
+    {
+      "i": 250,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "48:40",
+      "en": "That kind of leads to think for us to think about the way we were structured. Toby Lukia has talked about this, how he can now ask the company stuff because of AI can tell him stuff.",
+      "zh": "这就让我们开始思考我们原来的结构方式。Tobi Lütke 谈过这件事，因为 AI，他现在可以直接向公司提问，AI 能告诉他东西。"
+    },
+    {
+      "i": 251,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "48:49",
+      "en": "So the separation between him and ground truth based on data is gone. And that used to be this, I like this idea of the dictator's dilemma that as someone gets more powerful at the top of an organization, it's harder for them to know what is real and what is true.",
+      "zh": "于是他和基于数据的真实情况之间的隔阂消失了。我很喜欢独裁者困境（dictator's dilemma）这个概念：当一个人在组织顶端越来越有权力，他反而更难知道什么是真实的。"
+    },
+    {
+      "i": 252,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "49:02",
+      "en": "How do you stay up to date on what ground truth is or what is happening inside the business when it's gotten so big? Every part of that chain, there is a possibility for a message to get distorted and you get up the distorted vision by the time it navigates 10 different layers.",
+      "zh": "当业务变得这么大，你怎么保持对真实情况的了解？这条链上的每一环都可能让信息失真，等它穿过 10 个层级传到你这里，你得到的是一个扭曲的图景。"
+    },
+    {
+      "i": 253,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "49:18",
+      "en": "So simply by removing a lot of those layers, you are much closer to the ground truth and you reduce a lot of those layers by having information systems that have access to everything that's happening across the organization, a company brain that is proactive and reactive.",
+      "zh": "所以仅仅是移除很多层级，你就离真实情况近得多。你通过让信息系统能访问组织里发生的一切来减少这些层级——一个既主动又反应的公司大脑（company brain）。"
+    },
+    {
+      "i": 254,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "49:33",
+      "en": "It's actually sending me information about what we're doing from changing our AI transformation to how we're doing around launching certain products or metrics or features.",
+      "zh": "它会主动把信息推给我：我们的 AI 转型在推进什么，某些产品、指标或功能的上线情况怎么样。"
+    },
+    {
+      "i": 255,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "49:43",
+      "en": "You get directly to the ground truth. There is more about that mentality of how do you actually also actually go directly to the people doing the work.",
+      "zh": "你直接抵达真实情况。还有一种心态是：你怎么真的直接去找那些干活的人。"
+    },
+    {
+      "i": 256,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "49:51",
+      "en": "It's very comfortable as the organization takes its own shape to respect the channels. You'll see this in bigger organizations. You cannot jump a manager and ask the question to somebody that is actually doing the work.",
+      "zh": "当组织长成它自己的形状，尊重汇报渠道会让人很舒服。你在更大的组织里会看到这一点：你不能越过一个经理去问那个真正做事的人。"
+    },
+    {
+      "i": 257,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "50:04",
+      "en": "There is a specific chain of command that needs to be respected. This is more related, I think, of traditional organizations and here is more your approach of being a CEO.",
+      "zh": "有一条必须被尊重的指挥链。我觉得这更多是传统组织的做法，而这另一种是你作为 CEO 的做法。"
+    },
+    {
+      "i": 258,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "50:12",
+      "en": "It's like, no, I want to go talk to anybody that I have a question with and there is no respecting of a chain of command. Literally, I'll go to where it has access to the best information if I have a question or we're going to problem solve together if I see something that is not moving.",
+      "zh": "我会说：不，我想跟任何我有疑问的人直接谈，不存在对指挥链的尊重。字面意义上，我会去那个拥有最好信息的地方；如果我看到某件事没在推进，我们就一起解决问题。"
+    },
+    {
+      "i": 259,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "50:26",
+      "en": "So I think it's partly technology, partly its culture and attitude of you willing to be deep down integrated into the organization. How do you think all of this will affect your company or any company's ability to raise the overall average talent bar in the business?",
+      "zh": "所以我觉得这部分是技术，部分是企业文化和态度——你愿意深度嵌入到组织里面。你怎么看这一切对你公司、或者任何一家公司提升整体平均人才水准的能力的影响？"
+    },
+    {
+      "i": 260,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "50:41",
+      "en": "How can you use this to see how good each person is and help them get better or move people on that aren't as good? Like, have you thought about the performance culture management part of the data and the technology yet?",
+      "zh": "你怎么用这些来看清每个人有多好、帮助他们变得更好，或者让不够好的人离开？关于绩效文化和管理这一部分，你已经开始用数据和技术去思考了吗？"
+    },
+    {
+      "i": 261,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "50:55",
+      "en": "I think it's going to be transformational and I think this is an area that I'm surprised so few people have discussed about how AI is going to reinvent HR in the organizations.",
+      "zh": "我觉得这会是变革性的，我很惊讶几乎没什么人讨论 AI 将如何重新发明组织里的人力资源（HR）。"
+    },
+    {
+      "i": 262,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "51:05",
+      "en": "Because if you look at it the way it is today or for most organization is your manager gives you feedback every six months, tells you what you're doing well, what you're not doing well.",
+      "zh": "因为如果你看今天的做法、大多数组织的做法，是你的经理每六个月给你一次反馈，告诉你哪里做得好、哪里做得不好。"
+    },
+    {
+      "i": 263,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "51:15",
+      "en": "Generally, there's a lot of recency bias. So it's not really six months. It's like the last 30 days, what you did in the last 30 days, that's good or not.",
+      "zh": "通常里面有大量近因偏差（recency bias），所以那不是六个月，而是最近 30 天你做了什么，好还是不好。"
+    },
+    {
+      "i": 264,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "51:22",
+      "en": "Generally, it's not very actionable. It's like, you're doing this well, you're doing not, maybe you should do better. When does the type of feedback you would be giving an Olympic athlete?",
+      "zh": "通常它并不太可执行，比如你这个做得好、那个做得不好，也许你应该做得更好。这种反馈你会给一个奥运运动员吗？"
+    },
+    {
+      "i": 265,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "51:31",
+      "en": "That would be crazy. You would never be able to succeed. The Olympic athlete starts somebody that literally every day is coaching them and providing potential feedback.",
+      "zh": "那会太疯狂了，你根本不可能成功。奥运运动员身边是一个每天都教练他们、给他们即时反馈的人。"
+    },
+    {
+      "i": 266,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "51:40",
+      "en": "That is the opportunity that ultimately AI is going to create for every single person in an organization is you have Olympic athlete type of coaching.",
+      "zh": "这正是 AI 最终会为组织里每一个人创造的机会：你得到奥运选手级的教练。"
+    },
+    {
+      "i": 267,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "51:47",
+      "en": "And so what we're building a new bank in our HR operational system is literally every day, depending on where you are, if you're an engineer or a designer or a product manager, daily you should be able to get feedback from the AI, your AI co-pilot, if you're coding, is reviewing your pull requests and is telling you not only how you're using these tools, but how could you use them better?",
+      "zh": "所以我们在 Nubank 的 HR 运营系统里做的事情，是字面意义上每天、根据你的岗位——工程师、设计师还是产品经理——你都应该能从 AI 得到反馈。你的 AI 副驾，如果你在写代码，它在 review 你的 pull request，不仅告诉你你怎么在用这些工具，还告诉你怎么更好地用它们。"
+    },
+    {
+      "i": 268,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "52:08",
+      "en": "And it's very actionable and it's very specific to what you're doing. If you're a designer, is giving you feedback around how you're doing your job and how better you could do in your job.",
+      "zh": "它非常可执行，而且非常针对你正在做的事。如果你是设计师，它会就你怎么做你的工作、怎样做得更好给出反馈。"
+    },
+    {
+      "i": 269,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "52:18",
+      "en": "If you're a manager, managers right now have very little information, especially if you're managing a lot of people, that's the other thing about this large span of controls, there is this sense that you have to be having one-on-ones with every single person in your week.",
+      "zh": "如果你是管理者，管理者现在掌握的信息非常少，尤其当你管很多人的时候——这也是大管理幅度带来的另一件事。人们总觉得要每周和团队里每个人做一次一对一。"
+    },
+    {
+      "i": 270,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "52:30",
+      "en": "Those one-on-ones tends to be very low information density type of interchange. A manager that has access to all this information, this instrumentation is now seeing real time how every person in the team is actually doing and is allowing them to improve what they're doing.",
+      "zh": "那些一对一往往是信息密度很低的交流。一个能接触到所有这些信息的、被仪表化（instrumented）的管理者，现在能实时看到团队里每个人实际上做得如何，并且能帮他们改进正在做的事。"
+    },
+    {
+      "i": 271,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "52:45",
+      "en": "How do you stay up to speed on AI capabilities? Like, who are the people you rely on? What are the things you like to read? I feel like you need to time box it every day.",
+      "zh": "你怎么跟上 AI 能力的步伐？你依赖哪些人？你喜欢读什么？我觉得你得每天给自己划出一个时间段。"
+    },
+    {
+      "i": 272,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "52:53",
+      "en": "I can get one hour to read the updates or something. It's like a sports center for business. How do you do it? I'll spend a lot of time on X.",
+      "zh": "哪怕只是一小时来读那些更新之类的。它就像商业界的体坛快讯（SportsCenter）。你怎么做？——我会花很多时间在 X 上。"
+    },
+    {
+      "i": 273,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "52:59",
+      "en": "I think that's where you're seeing a lot of the development also. I have an agent that collates and summarizes a lot of the developments of what's going on on details.",
+      "zh": "我觉得那里也是你看到大量进展发生的地方。我有一个智能体，把 X 上的大量动态汇总、摘要给我。"
+    },
+    {
+      "i": 274,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "53:07",
+      "en": "I block specific time in my agenda to use these tools and to build products. This is something that I hadn't done for a very long time. I coded a non-custodial crypto app, for example.",
+      "zh": "我在日程里专门留出时间去使用这些工具、去构建产品。这是我很久没做的事了。比如我写了一个非托管（non-custodial）的加密应用，"
+    },
+    {
+      "i": 275,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "53:19",
+      "en": "That's something that we've discussed at Nubank for a very long time to do. I just went in and did a project. We asked all of our senior managers to build products every quarter on actual software and products so that we are integrated and very aware of what's going on.",
+      "zh": "这是我们在 Nubank 讨论了很久要做的事，我就是直接动手做了一个项目。我们要求所有高级经理每个季度都用真正的软件和产品做出东西，这样我们才身处其中、清楚地知道正在发生什么。"
+    },
+    {
+      "i": 276,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "53:34",
+      "en": "I don't think necessarily the answer is that I should be spending 70% coding. There are better people that will be much more productive coding than I am, but I think it's important for everybody in the organization to be actually not only reading, but actually using the tools actively to understand how fast the technology is going.",
+      "zh": "我不觉得答案一定是我该把 70% 的时间花在写代码上——有比我更能干、写代码效率更高得多的人。但我认为对组织里每个人重要的是，不只是阅读，而是真正主动使用这些工具，去理解技术走得有多快。"
+    },
+    {
+      "i": 277,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "53:51",
+      "en": "Your finance team isn't losing money on big mistakes. It's leaking through 1,000 tiny decisions nobody's watching. Ramp puts guardrails on spending before it happens.",
+      "zh": "你的财务团队不会因为某个大错误亏钱，而是从 1,000 个没人盯着的小决定里漏水。Ramp 在支出发生之前就给它装上护栏。"
+    },
+    {
+      "i": 278,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "54:00",
+      "en": "Real-time limits, automatic rules, zero firefighting. Try it at ramp.com slash invest. As your business grows, Vantage scales with you, automating compliance and giving you a single source of truth for security and risk.",
+      "zh": "实时限额、自动规则、零救火。到 ramp.com/invest 试用一下。随着你的业务成长，Vanta 与你一同扩张，自动化合规，为你的安全与风险提供单一事实来源。"
+    },
+    {
+      "i": 279,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "54:14",
+      "en": "Learn more at Vantage.com slash invest. RidgeLine offers one unified platform that automates away the complexity across portfolio accounting, reconciliation, reporting, trading, compliance, and more, all at scale.",
+      "zh": "更多信息请访问 vanta.com/invest。Ridgeline 提供一套统一平台，在规模上自动化掉组合核算、对账、报告、交易、合规等各种复杂性。"
+    },
+    {
+      "i": 280,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "54:26",
+      "en": "Schedule a demo at RidgeLine.ai. Every investment firm is unique, and generic AI chatbots don't understand your process. Rogo is built by finance professionals.",
+      "zh": "到 ridgeline.ai 安排一次演示。每家投资公司都独一无二，通用的 AI 聊天机器人不懂你的流程。Rogo 是金融专业人士打造的。"
+    },
+    {
+      "i": 281,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "54:37",
+      "en": "It's connected to your data, learns your process, and quickly produces client-ready outputs. Check them out at rogo.com slash invest. The best AI and software companies from OpenAI to Cursor to Perplexity use WorkOS to become enterprise-ready overnight, not in months.",
+      "zh": "它连接到你的数据、学习你的流程，快速产出可以直接交给客户的成果。到 rogo.com/invest 了解他们。从 OpenAI 到 Cursor 到 Perplexity，最好的 AI 和软件公司都用 WorkOS 一夜之间达到企业级就绪，而不是花几个月。"
+    },
+    {
+      "i": 282,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "54:53",
+      "en": "Visit workos.com to skip the unglamorous infrastructure work and focus on your product. If you think really carefully about it, how has what motivates you to keep doing this and keep fighting and keep building changed over the course of the new bank journey?",
+      "zh": "访问 workos.com，跳过那些不体面的基础设施工作，专注于你的产品。如果你认真想一想，是什么驱动你继续做这件事、继续战斗、继续建设——在 Nubank 这段旅程里，它发生了什么变化？"
+    },
+    {
+      "i": 283,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "55:09",
+      "en": "If you think back to the start, you and actually last time talked about this, what the original motivations were, and I mean not just the business opportunity, but the personal sources of drive, how has that evolved and what's it like today?",
+      "zh": "回想开始的时候，你上次其实也聊过这个——最初的动机是什么，我说的不只是商业机会，而是个人层面的驱动力来源。它如何演化，今天是什么样子？"
+    },
+    {
+      "i": 284,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "55:22",
+      "en": "I'm motivated by impact, by making it count, by doing something, we're investing time and energy in something that has a meaning and that has some kind of impact.",
+      "zh": "我的动力来自影响、来自让这件事有意义、来自把时间和能量投入某件有含义、有某种影响的事。"
+    },
+    {
+      "i": 285,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "55:32",
+      "en": "I went through a phase, even with new bank, where I started thinking, is there more stuff that I should be doing beyond new bank? I think all founders get starting on the company.",
+      "zh": "我经历过一个阶段，即使在 Nubank 里面，我开始想：除了 Nubank，我是不是该做更多别的事情？我想所有创始人都会有——"
+    },
+    {
+      "i": 286,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "55:40",
+      "en": "The company then has a significant growth and then you start asking your questions, what else could I be doing? Ultimately, I went through the other side of that analysis for about a year or two years, realizing that there's nothing else that I can imagine myself doing that could have more impact than taking new bank from where it is today to making it the next larger and going from three countries to a hundred countries or from a hundred million customers to a billion",
+      "zh": "公司创立，然后有显著的增长，然后你开始问自己：我还能做什么？最终，我花了大概一到两年从另一个方向走完这个分析，意识到我想象不出还有别的什么事，能比把 Nubank 从今天的位子带到下一个更大的规模、从三个国家到一百个国家、从一亿客户到十亿客户——"
+    },
+    {
+      "i": 287,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "56:04",
+      "en": "customers. What this means in terms of impacting financial services, impact for people around the world, for billions of people, access to financial services, and with that impact out there, it's impacting internally too.",
+      "zh": "更有影响力。这对金融服务意味着什么，对全世界数十亿人获得金融服务意味着什么；而这种影响也向内部传导。"
+    },
+    {
+      "i": 288,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "56:15",
+      "en": "It's like how I can also understand myself through bigger and newer challenges and how I can develop better as a leader to motivate an organization that has big ambitions and with big technology shifts, like AI can either decide to stay behind or stay in front.",
+      "zh": "就像我如何也能通过更大、更新颖的挑战来理解自己，如何能成为一个更好的领导者，去激励一个有宏大野心、面对巨大技术变革的组织：AI 你可以选择落在后面，也可以站在前面。"
+    },
+    {
+      "i": 289,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "56:33",
+      "en": "I think this technology shift forces every organization to think, in which side of this disruption do I want to be? I find that I'm more of a wartime general than a peace time general, and so when a disruption, a change in the world happens, it suddenly is a source of motivation.",
+      "zh": "我想这次技术变革会迫使每一个组织思考：我想站在这场颠覆的哪一边？我发现自己更像战时将军而不是和平时期将军，所以当一场颠覆、一次世界的变化发生时，它突然就成了动力的来源。"
+    },
+    {
+      "i": 290,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "56:50",
+      "en": "I get more energized to actually continue to execute that mission. What's an example of understanding yourself better because of growth? In what ways has that happened?",
+      "zh": "我会更有能量去继续执行那个使命。有什么例子是你因为成长而更了解自己的？在哪些方面发生了？"
+    },
+    {
+      "i": 291,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "56:59",
+      "en": "One of the questions that I personally had as I scaled the business is, will we need to bring much more professional managers at some point?",
+      "zh": "我在扩张业务时个人遇到的一个问题就是：我们是否需要到某个时刻引入更多职业经理人？"
+    },
+    {
+      "i": 292,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "57:07",
+      "en": "Because I didn't manage anybody before starting new bank, and then suddenly I found myself being the CEO of one of the largest banks in Latin America and asking myself, well, what does the organization need right now?",
+      "zh": "因为创办 Nubank 之前我没管过任何人，然后突然之间我成了拉美最大银行之一的 CEO，然后问自己：组织现在需要什么？"
+    },
+    {
+      "i": 293,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "57:18",
+      "en": "Do we need to go and hire a much more experienced manager? We did. We hired a lot of external talent because I concluded or thought that I was going to need that, but also then quickly realized that actually that's not what the organization needed.",
+      "zh": "我们是不是要去请一位更有经验的管理者？我们做了。我们招了很多外部人才，因为我得出结论、或者说我以为我需要那样；但很快我也意识到，那其实不是组织需要的。"
+    },
+    {
+      "i": 294,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "57:31",
+      "en": "What the organization needed was more of what I had already brought into the organization, which was this clear leadership, the motivation, the willingness to think really big and to dream very big and get people excited about doing something that feels impossible at the beginning.",
+      "zh": "组织需要的是我本来已经带进组织的那些东西：清晰的领导力、动力、愿意想得非常大、梦得非常大，让别人为一件开始看起来不可能的事兴奋起来。"
+    },
+    {
+      "i": 295,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "57:46",
+      "en": "Once something clicks and says, no, this is the right answer for me and for the organization, I can continue doing what I'm doing with much more confidence, especially when there's changes and shifts.",
+      "zh": "一旦某件事咔哒一声通了，你说：不，这对我和对组织都是正确答案，我可以带着更多的自信继续做我在做的事，尤其是在有变化和转折的时候。"
+    },
+    {
+      "i": 296,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "57:56",
+      "en": "There was always a little bit of a Latin question, am I pushing too hard? Am I asking too much from the team? Is this the right pace? The answer after 13 years of doing this and being a little bit more confident is, yes, I'm pushing enough.",
+      "zh": "一直有个有点拉丁式的疑问：我是不是推得太狠了？我向团队要得太多了吗？这是对的节奏吗？做了 13 年、自信一点之后的答案是：是的，我推得够狠。"
+    },
+    {
+      "i": 297,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "58:11",
+      "en": "It's my job to push very hard and to dream very big and to shoot very high, and then the organization will react and will push back if needed, but it's helpful to have somebody that is actively pushing the boundaries of what perhaps the company is ready to do.",
+      "zh": "我的工作就是非常用力地推、梦想得非常大、瞄准得非常高，然后组织会反应、会在需要时反推回来。但有一个人主动去推动公司也许尚未准备好的边界，是有帮助的。"
+    },
+    {
+      "i": 298,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "58:27",
+      "en": "What is the hardest part of doing that for a long period of time? The imposter syndrome. It's fine to be a founder at the beginning, but then suddenly when you see yourself running a very large organization, it's like, am I the right person relating this organization?",
+      "zh": "长时间做这件事，最难的部分是什么？冒名顶替综合征（imposter syndrome）。"
+    },
+    {
+      "i": 299,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "58:40",
+      "en": "You have to, through some thinking and through some experiences and through some feedback, answer that question for you at some point and answer it definitively on maybe for some reason you're not, but probably you are.",
+      "zh": "你必须通过一些思考、一些经历、一些反馈，在某个时点为自己回答那个问题，并且给出确定的答案——也许出于某种原因你不是，但很可能你就是。"
+    },
+    {
+      "i": 300,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "58:55",
+      "en": "That doesn't mean that necessarily at the founder will have all the answers and will have all the skills. You will need to continue bringing people that add a lot of complementary skills to you, but I think at least for me was surpassing that phase of having a voice in the head thinking, are you the right CEO for the business?",
+      "zh": "那并不意味着创始人一定拥有所有答案、拥有所有技能。你需要继续引入能为你补充大量互补技能的人。但至少对我来说，是跨过那个阶段——脑子里有个声音在问：你是这家公司合适的 CEO 吗？"
+    },
+    {
+      "i": 301,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "59:14",
+      "en": "And in making the shape between founder and CEO, because generally you will see founders having both titles, but they're very different functions.",
+      "zh": "以及把创始人和 CEO 这两个角色分开，因为你通常会看到创始人同时拥有两个头衔，但它们是非常不同的职能。"
+    },
+    {
+      "i": 302,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "59:21",
+      "en": "The founder and the CEO are very different functions that don't necessarily fit with each other. What's the key energy of each? The founder, it's impatient, huge amount of sense of urgency.",
+      "zh": "创始人和 CEO 是非常不同的职能，未必彼此契合。各自的关键能量是什么？创始人不耐烦，有极强的紧迫感。"
+    },
+    {
+      "i": 303,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "59:32",
+      "en": "The founder will want to go run very, very fast, will move fast, extremely fast. The CEO will need to be more patient. The CEO will need to be more systematic in how it makes decisions.",
+      "zh": "创始人想跑得非常非常快，动作极快。CEO 则需要更有耐心，需要在做决策时更成体系。"
+    },
+    {
+      "i": 304,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "59:44",
+      "en": "I will have to bring generally much more systems thinking into scaling the organization. And sometimes those things collude. If you have to be impatient on one end, you have to be patient on the other end, there might be conflicts in that nature.",
+      "zh": "我在给组织规模化时，通常需要带入更多系统思维。有时候这两者会冲突：如果一边要你不耐烦、另一边要你耐心，那类矛盾就会出现。"
+    },
+    {
+      "i": 305,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "59:57",
+      "en": "Generally you would think that CEOs are better managers. Founders don't tend to be good managers. Founders don't have a lot of patience or willingness to do one-on-ones and sit down and provide coaching to a team.",
+      "zh": "通常会认为 CEO 是更好的管理者，创始人往往不是好管理者。创始人没什么耐心或意愿去做一对一、坐下来给团队做辅导。"
+    },
+    {
+      "i": 306,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "60:09",
+      "en": "They just want to run. A lot of the time they tend to be much more ICs, individual contributors and managers. CEOs tend to be better managers because you have to build systems.",
+      "zh": "他们只想跑。很多时候他们更像是独立贡献者（individual contributor）而不是管理者。CEO 往往是更好的管理者，因为你必须建立系统。"
+    },
+    {
+      "i": 307,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "60:18",
+      "en": "You have to be thinking more from a system perspective. I think the key though for me has been to realize that the CEO title itself and the founder title, you can redesign in different ways too.",
+      "zh": "你必须更多从系统的角度思考。不过对我来说关键的一点是意识到，CEO 这个头衔和创始人这个头衔本身也可以被重新设计。"
+    },
+    {
+      "i": 308,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "60:28",
+      "en": "And it's being able to do both. It's being able to have a little bit more patience when you need a bit more patience. But generally you want to maintain more of the founder than the CEO.",
+      "zh": "而关键在于两者都能做。在需要更多耐心的时候多一点耐心。但总体上，你想保留更多创始人的一面，而不是 CEO 的一面。"
+    },
+    {
+      "i": 309,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "60:37",
+      "en": "And I think that's why founder-led companies continue to outperform for decades because if you have to choose, you choose more the founder than the CEO mode, especially in environments where there are big technology shifts, where a lot of the advantages, the assets of the founder come to bear and are more obvious than necessarily the advantages of the CEO.",
+      "zh": "我想这就是创始人领导的公司能持续几十年跑赢的原因：如果必须选择，你会选择更偏创始人而不是 CEO 的状态，尤其是在有巨大技术变革的环境里——那里创始人的资产和优势更能发挥作用、更加明显，胜过 CEO 的优势。"
+    },
+    {
+      "i": 310,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "61:00",
+      "en": "What was your lowest confidence moment personally in the entire history of the business? How'd you get through it? I think you go through a lot of different phases.",
+      "zh": "在整个公司发展史上，你个人信心最低的时刻是什么？你怎么走过来的？我想你会经历很多不同的阶段。"
+    },
+    {
+      "i": 311,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "61:09",
+      "en": "And I think scaling a business is hard, especially because you're consistently making decisions about situations that you don't really know.",
+      "zh": "而且我觉得规模化业务很难，尤其是因为你一直在对其实并不了解的情况做决策。"
+    },
+    {
+      "i": 312,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "61:15",
+      "en": "For example, I wanted to build a technology company, but I was not an engineer myself. So I needed to go and hire great CTOs and build a great technology organization.",
+      "zh": "比如我想建一家科技公司，但我自己不是工程师。所以我得去招很棒的 CTO、建一个很强的技术组织。"
+    },
+    {
+      "i": 313,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "61:24",
+      "en": "How did I know how to pick a great CTO at that point if I didn't have the experience or credit, whether it's a lot of specific to financial services and credit expertise?",
+      "zh": "那时候我怎么知道怎么选一个优秀的 CTO？我并没有相关经验。信贷呢？那是大量特定于金融服务和信贷的专业能力。"
+    },
+    {
+      "i": 314,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "61:33",
+      "en": "So there was a lot of questioning inside internally, a lot of the decisions that he made about building the team that made me ask myself the question, do we need to bring somebody with my experience from a big bank or from a big organization to run the organization?",
+      "zh": "所以内部有很多自我质疑。在组建团队这件事上做的很多决定，都让我问自己：我们是不是需要从一家大银行、一个大组织请来一个经验比我丰富的人来经营组织？"
+    },
+    {
+      "i": 315,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "61:46",
+      "en": "For a period of time, is this imposter syndrome that is asking you make question, is like, are you the right driver of the car as the car becomes more complex and goes faster and faster and faster and faster?",
+      "zh": "有一段时间，那种冒名顶替综合征在问你、让你质疑：当这辆车越来越复杂、越来越快，你是不是那个合适的司机？"
+    },
+    {
+      "i": 316,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "61:58",
+      "en": "What was the most emotional moment in the history of the business for you? Passing a number of different incumbent banks in Brazil was very emotional because for ten years all we heard again and again and again, especially from the local experts, was that it was impossible to compete with any bank, that we were going to get crushed, that we were going to die, that these were the most trusted brands in the ecosystem and that we",
+      "zh": "在公司历史上对你来说最动情的时刻是什么？超越若干家在位银行非常让人动情，因为十年里我们反复听到的——尤其是那些本地专家说的——是：跟银行竞争是不可能的，我们会被碾碎，我们会死掉，它们是生态里最受信任的品牌，我们"
+    },
+    {
+      "i": 317,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "62:23",
+      "en": "had no shot at being successful. Becoming the largest private bank in the entire country was something incredible. So it was emotional in terms of what we were able to achieve from a point of scale.",
+      "zh": "毫无成功的机会。成为全国最大的私营银行是一件了不起的事。所以从规模成就的角度，它让人动情。"
+    },
+    {
+      "i": 318,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "62:33",
+      "en": "Personally, I was born in Colombia and I had to live Colombia when I was eight because of all the security situation in Colombia as we grew up and I had to move to Costa Rica and Colombia was then our country number three.",
+      "zh": "就我个人而言，我出生在哥伦比亚，八岁那年因为哥伦比亚的安全局势不得不离开，我们在哥斯达黎加长大，然后哥伦比亚成为我们开展业务的第三个国家。"
+    },
+    {
+      "i": 319,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "62:45",
+      "en": "The moment that I was able to launch New Bank in Colombia, which we did in a big event with the president of the country at the same time, was very emotional as well because there was a bit of coming back home and delivering a product and a service that I thought was going to be very great for the country in an environment where I was being receptive by my people.",
+      "zh": "当我能在哥伦比亚推出 Nubank 的那一刻——我们办了一场大活动，这个国家的总统同时出席——也非常动情，因为那有点像是回家，交付了一件我认为对这个国家非常好的产品和服务，而那里是我的人民接纳了我的地方。"
+    },
+    {
+      "i": 320,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "63:06",
+      "en": "And it was video-casted and there were 100,000 people connected to the launch of New Bank in Colombia. It was very emotional too. It was very exciting.",
+      "zh": "那次还做了直播，有 10 万人在线连接看 Nubank 在哥伦比亚的发布。那也很让人动情，非常让人兴奋。"
+    },
+    {
+      "i": 321,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "63:13",
+      "en": "With all this experience now running the business, how would you define great leadership? And I'm especially interested in the subtle points of what defines in your opinion a great leader.",
+      "zh": "有了现在经营这家公司的全部经验，你会如何定义卓越的领导力？我特别感兴趣的是那些微妙的点——在你看来是什么界定了一位伟大的领导者。"
+    },
+    {
+      "i": 322,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "63:23",
+      "en": "With vision, you have to be able to see something that few people see, a world that is not as obvious right now. And I think with the massive information overload that we all live in, it's increasingly harder to have a differentiated point of view about something, about your industry, about your company, about how things are going to move.",
+      "zh": "第一是愿景（vision）：你必须能看到少数人看到的东西，看到一个眼下并不显然的世界。我觉得在我们所有人都处在巨大信息过载的当下，要形成对某件事——你的行业、你的公司、事情将如何演变——的差异化观点，越来越难。"
+    },
+    {
+      "i": 323,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "63:45",
+      "en": "So you have to have some kind of vision about the future that is differentiated. But then you have to be able to sell that vision. And selling is about inspiring people.",
+      "zh": "所以你必须有某种差异化的未来愿景。然后你必须能把那个愿景卖出去。而卖，是关于激励人。"
+    },
+    {
+      "i": 324,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "63:55",
+      "en": "And a lot of the time that vision will be very hard or almost feel impossible. And the natural reaction of most people when they are presented with an impossible vision is to push back and to declare it non-realistic, this phrase, it's not realistic that this is going to happen.",
+      "zh": "很多时候那个愿景会非常难、几乎看起来不可能。大多数人在面对一个不可能的愿景时，本能反应是反驳、宣布它不现实——这句话，这不现实、这不会发生。"
+    },
+    {
+      "i": 325,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "64:14",
+      "en": "What is not realistic? I mean, look at every single meaningful development in the history of the world. At some point, it was defined by somebody to be non-realistic, the amount of confidence that a lot of the experts or people use when they say it's not realistic.",
+      "zh": "什么是不现实？看看世界历史上每一个有意义的发展，它在某个时点都被某个人判定为不现实。那么多专家或者普通人说这不现实时所用的那种自信。"
+    },
+    {
+      "i": 326,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "64:28",
+      "en": "You have to be able to sell that vision in a way that a lot of people get motivated by that, that drives following and motivation. But then you have to be able to be a good listener and understand that sometimes you're actually going to be wrong.",
+      "zh": "你必须能把那个愿景卖出去，让很多人被它激励，从而带来追随和动力。然后你还必须是一个好的倾听者，理解有时候你其实是错的。"
+    },
+    {
+      "i": 327,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "64:44",
+      "en": "That vision that you have might not be fully complete. There is a mode in which you go against the consensus and you completely declare consensus as wrong and you are the complete revolutionary.",
+      "zh": "你的那个愿景也许并不完整。有一种模式是你逆流共识，把共识彻底判定为错误，你做一个彻底的革命者。"
+    },
+    {
+      "i": 328,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "64:58",
+      "en": "Nothing about the consensus makes any sense and you will reinvent absolutely everything. That is one mode. The other mode is you're consumed by consensus.",
+      "zh": "共识里的一切都没有意义，你要重新发明所有东西。那是一种模式。另一种模式是你被共识吞没。"
+    },
+    {
+      "i": 329,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "65:05",
+      "en": "You think about progress as being non-realistic and things will be the way they are today. What's hard I think about a great leader is you're navigating the middle.",
+      "zh": "你觉得进步是不现实的，事情会永远像今天这样。我觉得伟大领导者的难处在于，你要走在中间。"
+    },
+    {
+      "i": 330,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "65:15",
+      "en": "Consensus exists or status quo exists because you think about it from an evolutionary perspective. The vision of the world competed with all our visions of the world and it won.",
+      "zh": "共识之所以存在、现状之所以存在，你从演化的角度想想：关于世界的这个观点在和所有其他观点的竞争中胜出并存活下来了。"
+    },
+    {
+      "i": 331,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "65:25",
+      "en": "The world we see today was superior to our possible world that happened. There are elements of that status quo that exist because of a reason.",
+      "zh": "我们今天看到的世界，优于当时可能发生的其他世界。现状里的某些元素之所以存在，是有原因的。"
+    },
+    {
+      "i": 332,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "65:34",
+      "en": "You have to be able to understand what are those elements and they will continue to be here. But also, you have to be able to fight that conventional wisdom to see what are the elements will need to be changed.",
+      "zh": "你必须能理解哪些元素是有原因、还会继续存在的；但同时你也必须能挑战那种传统智慧，看清哪些元素是需要被改变的。"
+    },
+    {
+      "i": 333,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "65:44",
+      "en": "I think leadership is about knowing what doesn't have to change and pushing to change the things that have to change. That's a combination of conviction but also active listening and humility to know that you might not have all the answers and that you're going to need to change your mind actively when you do that.",
+      "zh": "我想领导力在于知道什么不需要改变，同时拼命推动那些必须改变的东西。那是信念、主动倾听和谦逊的结合——知道自己也许没有全部答案，需要在该改主意的时候主动改主意。"
+    },
+    {
+      "i": 334,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "66:01",
+      "en": "So, combining all those different factors I think is pretty critical for good leadership. If we think over the next five years for New Bank specifically, I'd love you to paint what you think is the bear case for the business and the case you worry about and are actively making sure it doesn't happen.",
+      "zh": "所以把这些不同的因素结合起来，我认为是卓越领导力的关键。如果我们看 Nubank 未来五年，我希望你描述一下你认为的熊市案例（bear case）——那个你担心、并且正在主动避免发生的版本。"
+    },
+    {
+      "i": 335,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "66:16",
+      "en": "Then, if I think about my rose-colored glasses on, the best possible story for New Bank over the next five years, I'd love to hear the two ends of the spectrum from your perspective.",
+      "zh": "然后，如果我戴上玫瑰色眼镜（rose-colored glasses），Nubank 未来五年最好的故事会是什么——我很想听听你眼中的两个极端。"
+    },
+    {
+      "i": 336,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "66:25",
+      "en": "The bear case is we are in these two countries in Latin America. We've saturated them completely, growth declines. We haven't really been able to find any other growth alternatives from a customer perspective.",
+      "zh": "熊市案例是：我们在拉美这两个国家已经把它们彻底做饱和了，增长下滑；从客户角度我们没能找到任何其他增长替代。"
+    },
+    {
+      "i": 337,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "66:36",
+      "en": "We have 65% of Brazil, very soon we're going to run out of Brazilians. Ideally, we would see the natality rate in Brazil in current people having more children but that's not happening.",
+      "zh": "我们拿了巴西的 65%，很快我们就没有巴西人可以拿了。理想情况下，我们会看到巴西的出生率、现在的人多生孩子，但那没有在发生。"
+    },
+    {
+      "i": 338,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "66:45",
+      "en": "So, we're going to run out of Brazilians. We did not succeed in internationalizing. We ended up being restricted to these three countries and growth saturated.",
+      "zh": "所以我们会把巴西人用完。我们国际化没成功，最终被限制在这三个国家里，增长饱和。"
+    },
+    {
+      "i": 339,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "66:54",
+      "en": "That's the bear case. Partly of that would also mean that we could not take advantage of a lot of the AI opportunities that enables also and so that's one reason why we're not able to internationalize.",
+      "zh": "那就是熊市案例。其中一部分也意味着我们没能利用 AI 带来的很多机会；这也是我们无法国际化的一个原因。"
+    },
+    {
+      "i": 340,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "67:04",
+      "en": "The bear case is the opposite of that is we truly took advantage of these thesis that we have around how much market share is going to be transferred from incumbent banks to digital and native companies over the next two to three decades and how that is going to be accelerated by technology shifts like real-time payment systems, open finance and AI.",
+      "zh": "熊市案例的反面是：我们真正兑现了自己那个论断——未来二三十年里，市场份额会从在位银行向数字原生公司大规模转移，而且这个转移会被实时支付系统、开放金融和 AI 这些技术变革加速。"
+    },
+    {
+      "i": 341,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "67:24",
+      "en": "We were able to ride those tailwinds from technology shifts and we were able to execute through a multi-country platform a global vision of new bank taking us to 100 plus countries over the next few decades and we were able to solve a lot of these big problems that we think that will be solved.",
+      "zh": "我们搭上了这些技术变革的顺风，通过多国平台执行了 Nubank 的全球愿景，在未来几十年走到 100 多个国家，并且解决了我们认为是必然会被解决的那些大问题。"
+    },
+    {
+      "i": 342,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "67:41",
+      "en": "3 billion people don't have access to credit, cash is becoming digital, more people need access to banking. If we have these cost structure advantage versus our competitors versus the industry players that's still on 90% of the 10 trillion dollar profit pool, if we have a cost structure that is 50x theirs and this is pre-AI, then that meant we were able to pass a lot of the efficiency back to the customer via higher yields, lower fees, better experience, fully",
+      "zh": "30 亿人拿不到信贷，现金正在数字化，更多人需要银行服务。如果相对竞争对手、相对仍占据 10 万亿美元利润池 90% 的那些行业玩家，我们有成本结构优势；如果我们的成本结构只有他们的五十分之一，而这还是 AI 之前的水平——"
+    },
+    {
+      "i": 343,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "68:06",
+      "en": "digitalized, integrating advice in our products and truly taking advantage of these internationalization opportunities. So that is the bull case.",
+      "zh": "那就意味着我们能把很多效率让渡给客户：更高的收益率、更低的费用、更好的体验、彻底数字化、把建议嵌入产品，并真正抓住这些国际化的机会。那就是牛市案例（bull case）。"
+    },
+    {
+      "i": 344,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "68:15",
+      "en": "When I had you last time five years ago, I already asked you my traditional closing question so I have a different one for you today. Again, across New Bank and the incredible experience that you've had building it so far, what is the most interesting lesson that you've learned about entrepreneurship?",
+      "zh": "五年前请你来那次，我已经问过我一贯的收尾问题，所以今天换一个。同样是在 Nubank 和你迄今建设它的这段非凡经历里，关于创业你学到的最有意思的一课是什么？"
+    },
+    {
+      "i": 345,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "68:30",
+      "en": "How to quickly ignore the imposter syndrome and how the fact that you are the person that had the vision and the energy to build something out of nothing, to give birth, that already is giving you a level of care for that company so high that it will make you become the right leader for a very long time.",
+      "zh": "如何快速无视冒名顶替综合征；以及这样一个事实——你是那个有愿景、有能量从无到有把东西建起来、给它生命的人，这本身已经给了你对这家公司极高的在意程度，它会让你在很多年里都成为正确的领导者。"
+    },
+    {
+      "i": 346,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "68:54",
+      "en": "I don't think anybody in the world cares as much for this company as I do, right? To a level that is almost miserable. You're a father, right?",
+      "zh": "我不觉得世界上有任何人像我这样在乎这家公司，在乎到近乎痛苦的程度。你是父亲，"
+    },
+    {
+      "i": 347,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "69:01",
+      "en": "You have children. Nobody will ever care so much about this company, about this company being successful. Then I will and that will make you put so much energy and focus to make it successful to the point that ultimately is what is going to make you be the right leader for the organization for a very long time independently of your expertise or your knowledge or whether you have the right experience.",
+      "zh": "你有孩子。没有人会比我更在乎这家公司、更在乎它成功。这会让你投入巨大的能量和专注去让它成功，最终正是这一点，会让你在很长时间里都是这个组织合适的领导者，不论你的专业能力、你的知识、你有没有合适的经验。"
+    },
+    {
+      "i": 348,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "69:23",
+      "en": "Just that insight, just that energy will make you the right person. It seems like you could decompose that into have more faith in yourself and be really persnickety about the vision that you want to go work on because if it's not something that's coming deep from your heart, from your gut, you won't get the benefit of this thing you just laid out.",
+      "zh": "就是这个洞见，就是这股能量会让你成为对的人。我觉得这可以拆成两部分：对自己有更多信念，同时对你要去做的那个愿景极度挑剔——如果它不是从你心底、从你的直觉里涌出来的，你就得不到你刚才说的这个好处。"
+    },
+    {
+      "i": 349,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "69:43",
+      "en": "Do you think those are the right two parts of that really interesting insight? Yeah, especially the second part you mentioned around the mission.",
+      "zh": "你觉得那是那个有意思洞见里正确的两部分吗？是的，特别是你提到的第二部分——使命。"
+    },
+    {
+      "i": 350,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "69:50",
+      "en": "That's a luxury and a blessing to find a mission that you truly are excited about because then that will really make you go the long way. Scaling a company won't be easy.",
+      "zh": "找到一个你真正为之兴奋的使命是一种奢侈和幸运，因为那才是真正让你走完全程的东西。规模化一家公司不容易。"
+    },
+    {
+      "i": 351,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "69:59",
+      "en": "It will be much more painful than anybody anticipates and if you don't have the level of conviction for the mission, it will be just harder to go.",
+      "zh": "它会比任何人预想的都痛苦；如果你对使命没有那种程度的信念，你就更难走下去。"
+    },
+    {
+      "i": 352,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "70:06",
+      "en": "How would you encourage other people to do a good job on that search? Like if someone's searching for a mission that's perfect for them, any advice that you would give them or any sign that they've got the right one?",
+      "zh": "你会怎么鼓励别人把这场寻找做好？如果有人正在寻找最适合他们的使命，你会给他们什么建议，或者有什么迹象说明他们找到了对的那个？"
+    },
+    {
+      "i": 353,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "70:16",
+      "en": "There is a level of certainty there in luck. There is a level of search, of listening carefully, of feeling that this is a project, this is a problem that you truly care about.",
+      "zh": "这里面有一定程度的确定性，也有运气。有某种程度的寻找、认真的倾听，去感觉到这个项目、这个问题是你真正在乎的。"
+    },
+    {
+      "i": 354,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "70:27",
+      "en": "This is something that if you really care about, you are not sleeping because you're thinking about it. You cannot imagine your life continuing if you do not decide to tackle it.",
+      "zh": "它是那种你真的在乎到睡不着觉、一直在想的事。如果你不去解决它，你无法想象自己的生活继续下去。"
+    },
+    {
+      "i": 355,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "70:37",
+      "en": "I think AI makes it harder, not easier just because the bar to start a company is now so much easier. You were probably just going to go and pursue problems that are easier to solve ultimately.",
+      "zh": "我觉得 AI 让这件事更难而不是更容易，只是因为创办公司的门槛现在低太多了，你最终很可能只是去追那些更容易解决的问题。"
+    },
+    {
+      "i": 356,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "70:46",
+      "en": "I think that's why some of the best founders that we're seeing right now are going for the impossible truly. There is this shift now into hardware and space and things that seem completely impossible because you're looking actively for those opportunities that will be harder and unique to you that you're going to get to believe that only you can really solve.",
+      "zh": "我想这就是为什么我们现在看到的一些最好的创始人真的在追不可能。现在有一波转向硬件、太空和那些看似完全不可能的事情，因为你主动去找那些更难的、对你独特的、你会相信只有你能解决的机会。"
+    },
+    {
+      "i": 357,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "71:05",
+      "en": "Incredible place to close, what an awesome closing thought, interesting lesson. Thank you as always so much for your time. Thank you so much, Patrick.",
+      "zh": "太棒的收尾，多么精彩的收尾思考、有意味的一课。再次非常感谢你的时间。谢谢你，Patrick。"
+    },
+    {
+      "i": 358,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "71:11",
+      "en": "It was awesome. If you enjoyed this episode, visit Colossus.com. You'll find every episode of this podcast complete with hand-edited transcripts.",
+      "zh": "太棒了。如果你喜欢这一集，请访问 Colossus.com。你会找到这个节目的每一集，配有手工编辑的逐字稿。"
+    },
+    {
+      "i": 359,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "71:20",
+      "en": "You can also subscribe to Colossus, our quarterly print, digital, and private audio publication featuring in-depth profiles of the founders, investors, and companies that we admire most.",
+      "zh": "你也可以订阅 Colossus，我们的季度性纸本、数字和私享音频刊物，深度报道我们最敬佩的创始人、投资人和公司。"
+    },
+    {
+      "i": 360,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "71:29",
+      "en": "Learn more at Colossus.com slash subscribe. Patrick O'Shaughnessy is the CEO of Positive Sum. All opinions expressed by Patrick and podcast guests are solely their own opinions and do not reflect the opinion of Positive Sum.",
+      "zh": "更多信息请访问 colossus.com/subscribe。Patrick O'Shaughnessy 是 Positive Sum 的 CEO。Patrick 及节目嘉宾表达的所有观点都仅为他们个人的观点，不代表 Positive Sum 的立场。"
+    },
+    {
+      "i": 361,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "71:44",
+      "en": "This podcast is for informational purposes only and should not be relied upon as a basis for investment decisions. Clients of Positive Sum may maintain positions in the securities discussed in this podcast.",
+      "zh": "本播客仅供参考，不应作为投资决策的依据。Positive Sum 的客户可能持有本播客中讨论的证券的头寸。"
+    },
+    {
+      "i": 362,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "71:54",
+      "en": "To learn more, visit psum.vc. You know how small advantages compound over time. That's true in investing and just as true in how you run your company.",
+      "zh": "想了解更多，请访问 psum.vc。你知道微小的优势如何随时间复利。这在投资里成立，在经营公司上同样成立。"
+    },
+    {
+      "i": 363,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "72:23",
+      "en": "Your spending system is your capital allocation strategy. Ramp makes it smarter by default. Better data, better decisions, better economics over time.",
+      "zh": "你的支出系统就是你的资本配置策略。Ramp 让它在默认状态下更聪明：更好的数据、更好的决定、随时间更好的经济性。"
+    },
+    {
+      "i": 364,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "72:30",
+      "en": "See how at ramp.com slash invest. As your business grows, Vanta scales with you, automating compliance and giving you a single source of truth for security and risk.",
+      "zh": "看看怎么做：ramp.com/invest。随着你的业务成长，Vanta 与你一同扩张，自动化合规，为你的安全与风险提供单一事实来源。"
+    },
+    {
+      "i": 365,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "72:39",
+      "en": "Learn more at Vanta.com slash invest. The best AI and software companies from OpenAI to Cursor to Perplexity use WorkOS to become enterprise ready overnight, not in months.",
+      "zh": "更多信息请访问 vanta.com/invest。从 OpenAI 到 Cursor 到 Perplexity，最好的 AI 和软件公司都用 WorkOS 一夜之间达到企业级就绪，而不是几个月。"
+    },
+    {
+      "i": 366,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "72:49",
+      "en": "Visit workos.com to skip the unglamorous infrastructure work and focus on your product. Ridgeline is redefining asset management technology as a true partner, not just a software vendor.",
+      "zh": "访问 workos.com，跳过那些不体面的基础设施工作，专注于你的产品。Ridgeline 正在重新定义资产管理技术，做你真正的伙伴，而不只是一个软件供应商。"
+    },
+    {
+      "i": 367,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "72:58",
+      "en": "They've helped firms 5x in scale, enabling faster growth, smarter operations and a competitive edge. Visit ridgelineapps.com to see what they can unlock for your firm.",
+      "zh": "他们帮助规模增长 5 倍的公司实现更快的增长、更聪明的运营和竞争优势。访问 ridgelineapps.com，看看他们能为你的公司解锁什么。"
+    },
+    {
+      "i": 368,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "73:08",
+      "en": "Every investment firm is unique and generic AI doesn't understand your process. Rogo does. It's an AI platform built specifically for Wall Street connected to your data, understanding your process and producing real outputs.",
+      "zh": "每家投资公司都独一无二，通用的 AI 不懂你的流程。Rogo 懂。它是专门为华尔街打造的 AI 平台，连接你的数据、理解你的流程、产出真实的成果。"
+    },
+    {
+      "i": 369,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "73:18",
+      "en": "Check them out at rogo.ai slash invest.",
+      "zh": "到 rogo.ai/invest 了解他们。"
+    }
+  ]
+}

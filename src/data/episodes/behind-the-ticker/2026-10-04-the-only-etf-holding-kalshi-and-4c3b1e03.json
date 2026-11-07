@@ -1,0 +1,1183 @@
+{
+  "show": "behind-the-ticker",
+  "kind": "transcript",
+  "id": "behind-the-ticker-4c3b1e03",
+  "guid": "Buzzsprout-19874178",
+  "slug": "2026-10-04-the-only-etf-holding-kalshi-and-4c3b1e03",
+  "date": "2026-10-04",
+  "title_en": "The Only ETF Holding Kalshi and Polymarket | Paisley Nardini, Tema ETFs",
+  "title_zh": "唯一同时持有 Kalshi 和 Polymarket 的 ETF | Paisley Nardini，Tema ETFs",
+  "subtitle_zh": "Tema 的 Paisley Nardini 拆解 DICE：不赌事件合约，而是投资预测市场背后的基础设施与 pre-IPO 敞口。",
+  "description": "The Only ETF Holding Kalshi and Polymarket | Paisley Nardini, Tema ETFs",
+  "duration": "29:10",
+  "duration_seconds": 1750,
+  "episode_url": null,
+  "audio_url": "https://www.buzzsprout.com/2162961/episodes/19874178-the-only-etf-holding-kalshi-and-polymarket-paisley-nardini-tema-etfs.mp3",
+  "speakers": {
+    "1": "Brad Roth（主持）",
+    "2": "Paisley Nardini（嘉宾）"
+  },
+  "turn_count": 145,
+  "turns": [
+    {
+      "i": 0,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "00:00",
+      "en": "Welcome to Behind the Ticker, the podcast where we go beyond the symbol and into the strategy. I'm Brad Roth, founder and chief investment officer at Thor Funds, and in each episode, I sit down with ETF managers, CIOs, and industry leaders to break down how these funds are actually built, how they behave in real markets, and how advisors use them in real portfolios.",
+      "zh": "欢迎收听 Behind the Ticker，这档播客带我们穿过代码符号、深入策略本身。我是 Brad Roth，Thor Funds 的创始人兼首席投资官（chief investment officer）。每一期节目，我都会坐下来和 ETF 管理人、CIO 以及行业领袖聊一聊：这些基金到底是怎么搭建起来的、在真实市场里表现如何，以及理财顾问在真实的组合中怎么使用它们。"
+    },
+    {
+      "i": 1,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "00:29",
+      "en": "People just see a ticker symbol, but we know much more goes on behind the ticker. Hey, Paisley, welcome back to the show. Thanks for having me back.",
+      "zh": "大多数人只看到一个代码符号（ticker symbol），但我们知道，代码背后的事情远不止于此。嘿，Paisley，欢迎回到节目。谢谢你们再邀请我来。"
+    },
+    {
+      "i": 2,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "00:45",
+      "en": "So before we get started, I know you've, this is your second time here, but can you give everybody a refresher on your background, a bit about your new role over at Tema as head of investment strategy?",
+      "zh": "那么在正式开始之前，我知道这是你第二次上节目了，能不能先给大家回顾一下你的背景，聊聊你在 Tema 新担任的投资策略主管（head of investment strategy）这个角色？"
+    },
+    {
+      "i": 3,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "00:56",
+      "en": "Yeah, super excited to join Tema. I guess at the beginning of September this year. So very recent, but my background has kind of been all over the map.",
+      "zh": "好，我特别开心能加入 Tema。大概是今年九月初入职的，所以时间还很短。不过我的背景算是相当多元，哪儿都沾一点。"
+    },
+    {
+      "i": 4,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "01:06",
+      "en": "I kind of started my career in trading and portfolio management, specifically within fixed income. So with all of the noise going around around rate hikes, maybe rate cuts next year, we'll see near and dear to my heart from like a macro economic backdrop.",
+      "zh": "我的职业生涯是从交易和组合管理起步的，具体是在固定收益（fixed income）领域。所以现在市场上到处都在讨论加息、明年可能降息之类的噪音——那就拭目以待吧——这些从宏观经济背景来看的话题，我是特别有感情的。"
+    },
+    {
+      "i": 5,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "01:23",
+      "en": "So that's really kind of where I cut my teeth, as they say. And then I've spent like the last decade or so in more of like a multi-asset role, leading investment strategy, talking to advisors, talking to institutional allocators about how to build better portfolios, how to build more resilient portfolios based on their specific objectives.",
+      "zh": "所以那真的算是我初出茅庐、打磨本领的地方，就像人们常说的那样。之后过去十年左右，我更多是在偏多资产（multi-asset）的角色里，牵头投资策略，跟理财顾问聊、跟机构配置方聊，谈怎么根据他们各自的具体目标去构建更好的组合、更有韧性的组合。"
+    },
+    {
+      "i": 6,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "01:43",
+      "en": "So I've spent some time in the liquid alternative space, have spent some time in the derivative income space, and I'm now at Tema where we're focused on thematic, active equity solutions.",
+      "zh": "所以我在流动性另类（liquid alternatives）领域待过一段时间，也在衍生品收益（derivative income）领域待过一段时间，现在到了 Tema，我们专注于主题型的主动股票解决方案。"
+    },
+    {
+      "i": 7,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "01:54",
+      "en": "So if you think about what's really driving the next frontier from a growth perspective, what's driving economic activity, we'll talk about that today when we speak about dice.",
+      "zh": "所以如果你想一想，从增长的角度看，什么才是真正驱动下一个前沿方向的东西、什么在驱动经济活动——我们今天聊 DICE 的时候会谈到这个。"
+    },
+    {
+      "i": 8,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "02:03",
+      "en": "That's really what our DNA is. We're focused on fundamental active management, which I know in 2026 is crazy to say. I took the CFA exam years ago and I felt like we were starting to wonder whether active management actually moves the needle.",
+      "zh": "这真的就是我们的基因（DNA）。我们专注于基本面主动管理（fundamental active management）——我知道在 2026 年说这话有点疯狂。我多年前考 CFA 的时候，就感觉我们已经开始怀疑主动管理到底能不能真的带来差别。"
+    },
+    {
+      "i": 9,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "02:20",
+      "en": "And I've actually been encouraged by the last couple quarters where more dispersion in the markets is leading investors to rethink the role of active in their portfolio, especially for risk mitigation purposes.",
+      "zh": "而过去几个季度其实让我挺受鼓舞：市场上出现了更多的分化（dispersion），这促使投资者重新思考主动管理在组合里的角色，尤其是从风险缓释的角度来看。"
+    },
+    {
+      "i": 10,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "02:30",
+      "en": "So all that to be said, my role here at Tema, head of investment strategy is to help our clients understand these exciting pockets of the market, how they fit within a portfolio, and ultimately what it means from a forward-looking investment perspective.",
+      "zh": "所以总的来说，我在 Tema 的角色——投资策略主管——就是帮助我们的客户理解这些令人兴奋的市场角落，理解它们如何放进一个组合里，以及从前瞻性的投资角度看，这到底意味着什么。"
+    },
+    {
+      "i": 11,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "02:46",
+      "en": "So excited to share more today about the firm and about one of our really exciting strategies that just launched. So let's talk about the firm really quickly.",
+      "zh": "所以我很期待今天多分享一些关于公司的情况，还有我们刚刚推出的一只非常令人兴奋的策略。那我们就先快速聊聊这家公司吧。"
+    },
+    {
+      "i": 12,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "02:54",
+      "en": "You know, it was only founded in 2022. It's got a couple of backers and the platform has doubled in 2026 at four billion in assets. So just curious from a personal level, what drew you to Tema at this point in the firm's story?",
+      "zh": "你知道，它 2022 年才成立，背后有几位支持者，而这个平台在 2026 年规模翻了一倍，达到 40 亿美元资产。所以从个人角度我很好奇，在公司故事的这个节点上，是什么吸引你加入 Tema 的？"
+    },
+    {
+      "i": 13,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "03:07",
+      "en": "Yeah, just that growth you mentioned. So I got a little bite of the startup bug after spending over a decade at like kind of a large corporate investment management firm and really liked my ability to move the needle.",
+      "zh": "对，就是你提到的那种增长。我在一家规模比较大的企业型投资管理公司待了十多年之后，稍微被创业的那股劲儿给咬了一口，而且我真的很喜欢自己能够带来实际改变的那种能力。"
+    },
+    {
+      "i": 14,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "03:21",
+      "en": "You kind of participate fully in the upside and the downside, but being able to have autonomy and really help drive outcomes and growth of the firm joining Tema, I think was super exciting.",
+      "zh": "你会完整地参与上行和下行，但能够拥有自主权、真正帮助推动公司的成果和增长——加入 Tema 我觉得是非常令人兴奋的事。"
+    },
+    {
+      "i": 15,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "03:31",
+      "en": "We're at this kind of intersection of where allocators are putting money to work and these growth-oriented thematic parts of the market in doing so in a way that we're nimble because we're so small.",
+      "zh": "我们正好处在一个交叉点上：一边是配置方正在把钱投向哪里，另一边是市场上这些以增长为导向的主题领域，而且我们的做法很灵活，因为我们足够小。"
+    },
+    {
+      "i": 16,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "03:44",
+      "en": "So as you mentioned, we launched in 2022. We've grown meaningfully. I think 2026 year to date as of the third quarter now, I think Tema was the second fastest growing firm year to date in the active ETF space.",
+      "zh": "就像你提到的，我们 2022 年成立，之后有了实质性的增长。我想截至今年三季度，2026 年至今 Tema 是主动 ETF 领域里增速第二快的公司。"
+    },
+    {
+      "i": 17,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "03:59",
+      "en": "Two of our strategies, NASA, which is space exploration, of course, and then Volt, which is our electrification ETF, were two of those drivers.",
+      "zh": "我们的两只策略——NASA，当然就是太空探索主题——还有 VOLT，也就是我们的电气化（electrification）ETF，是其中两个主要的驱动因素。"
+    },
+    {
+      "i": 18,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "04:10",
+      "en": "And so, again, it's just really exciting to be at the forefront of client conversations and being able to kind of guide that narrative. Well, I had Yuri on not too long ago when we talked or not Yuri.",
+      "zh": "所以说，能处在客户沟通的最前沿、能够去引导这套叙事，真的是很令人兴奋的事。嗯，我前不久请过 Yuri 上节目，我们聊过——不对，不是 Yuri。"
+    },
+    {
+      "i": 19,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "04:22",
+      "en": "Oh, geez. Now we're live and I forget his name. I had. Was it Moritz? Yes. And we talked about the NASA ETF. Cool. I do I do like three of these a week and I end up like forgetting people's names.",
+      "zh": "哦，天呐。现在正在录制，我却忘了他的名字。我请的是……是 Moritz 吗？对。我们聊了 NASA 那只 ETF。酷。我每周做大概三场这样的访谈，结果就是会忘记别人的名字。"
+    },
+    {
+      "i": 20,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "04:33",
+      "en": "But anyways, it was it's super interesting and I love the thesis. I love the story. But today we're here to talk about DICE, which is a very new type of ETF.",
+      "zh": "不过总之，那期特别有意思，我很喜欢那个投资逻辑，也很喜欢那个故事。但今天我们要聊的是 DICE，这是一种非常新型的 ETF。"
+    },
+    {
+      "i": 21,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "04:41",
+      "en": "It's the Trading and Prediction Markets ETF launched September 9th on CBOE. It's actively managed, as you said. So at a high level, what is this fund?",
+      "zh": "它是 Trading and Prediction Markets ETF（交易与预测市场 ETF），9 月 9 日在 CBOE 上市，如你所说，是主动管理的。那么从大的层面来说，这只基金是什么？"
+    },
+    {
+      "i": 22,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "04:50",
+      "en": "What's it investing in and what's it doing? Yeah, I want to start actually by saying what it's not, which will be very quick. But I think when people hear prediction market ETF, I think their first thought is like, oh, it's an event contract ETF.",
+      "zh": "它投的是什么、它在做什么？嗯，我其实想先说说它不是什么，这个很快就能讲完。我觉得当人们听到预测市场 ETF 的时候，第一反应会是：哦，这是一只事件合约（event contract）ETF。"
+    },
+    {
+      "i": 23,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "05:03",
+      "en": "So a lot of strategies or ETFs that have filed, they have not yet launched because there's some pushback, but a lot of strategies have filed to launch strategies in which they're actually trading event contracts.",
+      "zh": "很多策略、或者说已经申报的 ETF——它们还没上市，因为遇到了一些阻力——很多策略申报的都是真正去交易事件合约的产品。"
+    },
+    {
+      "i": 24,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "05:15",
+      "en": "Those are binary outcomes, right? If you're right, the ETF goes up. If you're wrong, the ETF can go to zero. What we sought to launch really ties back to our DNA at TEMA, which is an investment led firm.",
+      "zh": "那些是二元结果（binary outcomes），对吧？你猜对了，ETF 就涨；你猜错了，ETF 可能归零。而我们真正想要推出的东西，其实要回到 Tema 的基因，也就是一家以投资为主导的公司。"
+    },
+    {
+      "i": 25,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "05:27",
+      "en": "So with all of the noise in the active ETF space right now, I think a lot of advisors are feeling fatigued, feeling like a lot of this is being launched just for marketing purposes.",
+      "zh": "所以现在主动 ETF 领域噪音这么多，我觉得很多理财顾问都感到疲惫，觉得很多产品推出来纯粹是为了营销目的。"
+    },
+    {
+      "i": 26,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "05:36",
+      "en": "When we launched DICE, which again is kind of a clever ticker, I would say, given the prediction market topic, we launched it with the intent of thinking about this is a massively growing part of not only the US economy, but the global economy.",
+      "zh": "我们推出 DICE 的时候——不得不说，考虑到预测市场这个主题，这是个挺巧妙的代码——我们的初衷是把它看作一个不仅在美国经济、而且在全球经济中都在大规模增长的部分。"
+    },
+    {
+      "i": 27,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "05:53",
+      "en": "How do we determine that it is? We look at trading volumes. I think some of the more recent stats have shown just lately about 50 billion and kind of monthly trading volume taking place.",
+      "zh": "我们怎么判断它确实在增长？我们看交易量。我觉得近期的一些数据显示，最近的月度交易量大约在 500 亿美元。"
+    },
+    {
+      "i": 28,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "06:05",
+      "en": "That's up double from where we started this year. What's driving that, right? We had 2024, we had some of the election rhetoric kick off some of the trading activity on say, Pauli Market and Kalshi.",
+      "zh": "这比我们今年年初的水平翻了一倍。是什么在驱动这个增长，对吧？我们有 2024 年，一些选举言论启动了 Polymarket 和 Kalshi 上的部分交易活动。"
+    },
+    {
+      "i": 29,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "06:18",
+      "en": "And then we had the World Cup earlier this summer that drove a lot of activity now. And the launch of DICE in September of 2026 was not coincidental.",
+      "zh": "然后今年夏天早些时候有世界杯（World Cup），带动了大量的活动。而 DICE 在 2026 年 9 月上市，并不是巧合。"
+    },
+    {
+      "i": 30,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "06:28",
+      "en": "It's the beginning of the NFL season. That's where we know there is a lot of activity on these trading platforms. And then what's next around the corner as we enter the fourth quarter, the midterms.",
+      "zh": "那正是 NFL 赛季开始的时候。我们知道那个时候这些交易平台上的活动量非常大。那么接下来、就在转角处的，随着我们进入第四季度——中期选举（midterms）。"
+    },
+    {
+      "i": 31,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "06:38",
+      "en": "And so I think really looking at how we view the trading and prediction ETF DICE that we launched was how do we invest in the infrastructure, the actual platforms that are driving this?",
+      "zh": "所以我觉得，我们看待自己推出的这只交易与预测市场 ETF、也就是 DICE 的角度，其实是我们如何投资于驱动这一切的基础设施、投资于真正的平台本身？"
+    },
+    {
+      "i": 32,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "06:47",
+      "en": "So again, started with what is DICE not? It is not trading event contracts. It's trading the ecosystem, the infrastructure, the pipes that are driving all of this.",
+      "zh": "所以还是从 DICE 不是什么开始：它不交易事件合约。它交易的是生态系统、是基础设施、是驱动这一切的那些管道。"
+    },
+    {
+      "i": 33,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "06:57",
+      "en": "And so we can talk about some of these specific plays, but really thinking about this is a growing part of the market that anyone from sophisticated professionals down to individual consumers is paying attention to.",
+      "zh": "我们可以聊聊其中一些具体的标的，但核心思路是：这是市场中不断增长的一部分，从成熟的专业人士到普通个人消费者，所有人都在关注。"
+    },
+    {
+      "i": 34,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "07:09",
+      "en": "You can't look away from it. Every time you turn on your TV, when you're looking at ads, we're talking about ways to place bets on different platforms.",
+      "zh": "你没法把目光移开。每次你打开电视、看广告的时候，讲的都是如何在不同平台上下注。"
+    },
+    {
+      "i": 35,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "07:17",
+      "en": "And so we know that the consumer is putting capital to work. So how can we take advantage of this from a long term, strategic, durable investment perspective?",
+      "zh": "所以我们知道消费者正在投入真金白银。那么，从一个长期、战略、可持续的投资角度，我们怎么能抓住这个机会？"
+    },
+    {
+      "i": 36,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "07:26",
+      "en": "And that's again, comes back to we're the only prediction market ETF on the market today. And then we can also talk about some other unique aspects of the fund.",
+      "zh": "这又回到那句话：我们是目前市场上唯一的一只预测市场 ETF。之后我们还可以聊聊这只基金其他一些独特的地方。"
+    },
+    {
+      "i": 37,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "07:34",
+      "en": "Yeah, I definitely want to talk about what's in it. But I want to stay on the growth of this market because the trading volume is forecasted to increase nearly 20 X to one trillion by 2030.",
+      "zh": "对，我确实很想聊聊它里面装了什么。但我想先在这个市场的增长上多停留一下，因为交易量预计到 2030 年会增长将近 20 倍，达到 1 万亿美元。"
+    },
+    {
+      "i": 38,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "07:45",
+      "en": "At least that's what I was reading. So like what's what's driving that growth curve? Like what do you think underlying is actually driving that?",
+      "zh": "至少这是我读到的说法。那么，是什么在驱动这条增长曲线？你觉得底层真正推动它的到底是什么？"
+    },
+    {
+      "i": 39,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "07:51",
+      "en": "I'll give you a real life example. Like you and I both have trading backgrounds. I got too busy to trade the bug hit me. I downloaded an interactive brokers to get back in the mix.",
+      "zh": "我给你举个真实的例子。你和我都有交易背景。我后来太忙没空交易了，但那股交易的瘾又上来了，于是我下载了 Interactive Brokers，重新回到市场里。"
+    },
+    {
+      "i": 40,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "08:03",
+      "en": "And when I'm looking at even futures, guess what's there? A prediction market. I can take that bet right there next to my chart. So I'm sure that has something to do with it, but kind of walk me through the thesis over at the firm of what do you think is actually driving this volume?",
+      "zh": "结果我在看期货的时候，你猜旁边是什么？一个预测市场。我可以在图表旁边直接下那个注。所以我确信这跟增长有关系。不过还是请你带我梳理一下公司这边的逻辑——你觉得究竟是什么在推动这个交易量？"
+    },
+    {
+      "i": 41,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "08:17",
+      "en": "That's exactly it. I mean, that's one of our holdings in dice as interactive brokers. And just for that reason, they're integrating the ability to trade contracts directly.",
+      "zh": "正是如此。我是说，Interactive Brokers 就是我们 DICE 里的一只持仓，正是因为这个原因——他们把直接交易合约的功能整合了进去。"
+    },
+    {
+      "i": 42,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "08:26",
+      "en": "So it's a seamless, you know, user experience. I would say you're not having to go out and download a different platform. It's being presented to you.",
+      "zh": "所以这是一种无缝的用户体验。我会说，你不需要另外出去下载一个不同的平台，它就直接呈现在你面前。"
+    },
+    {
+      "i": 43,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "08:33",
+      "en": "And this is really the rise of advertising. And I think as I mentioned prior, everywhere we look, there's ads for different, you know, whether it be sports gambling, online betting.",
+      "zh": "而这其实也正是广告业的兴起。就像我前面提到的，我们放眼望去，到处都是各种广告——不管是体育博彩还是线上投注。"
+    },
+    {
+      "i": 44,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "08:44",
+      "en": "And I think with just the rise of the proliferation of information overload, right? If you're on Twitter, as we were joking, I still call it Twitter.",
+      "zh": "而且我觉得，随着信息的爆炸式增长、信息过载的普及——对吧？如果你在 Twitter 上，就像我们刚才开玩笑说的，我还是叫它 Twitter。"
+    },
+    {
+      "i": 45,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "08:53",
+      "en": "You're just this constant flux of information. I think all of us feel it in our daily lives and the ability to transact or take advantage of some of that data to make a profit, I think, is becoming increasingly attractive. And so although we focus a lot on sports, because that was the genesis of many much of this market, as well as crypto.",
+      "zh": "你就处在这样一种持续不断的信息洪流里。我觉得我们每个人在日常生活中都能感受到，而能够去交易、去利用其中一些数据来赚钱，这件事正变得越来越有吸引力。所以尽管我们花了很多篇幅在体育上——因为这个市场的起点很大程度上就是体育，还有加密货币。"
+    },
+    {
+      "i": 46,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "09:11",
+      "en": "And we can talk about that because some of these platforms are crypto native. And so their genesis several years ago was like blockchain, crypto world, that it's just now starting to get into more of the online betting space.",
+      "zh": "这个我们可以聊聊，因为其中一些平台是加密货币原生的（crypto native）。它们几年前的起点是区块链、加密世界，现在才刚开始进入更多的线上投注领域。"
+    },
+    {
+      "i": 47,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "09:26",
+      "en": "But as we look at the infrastructure build out, more and more of these, and I don't want to call them blue chip names, but they're not like these dark corners of like the dark web that are engaging in this.",
+      "zh": "但随着我们观察基础设施的建设，越来越多这类公司——我不想称之为蓝筹股（blue chip）名字，但它们确实不再是暗网（dark web）那些黑暗角落里在玩这个东西的人。"
+    },
+    {
+      "i": 48,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "09:37",
+      "en": "It's interactive brokers, as you mentioned, it's Coinbase, it's Robinhood, Intercontinental Exchange, which is the parent company of the NICI.",
+      "zh": "就是 Interactive Brokers，像你提到的；还有 Coinbase、Robinhood、Intercontinental Exchange，也就是 NYSE 的母公司。"
+    },
+    {
+      "i": 49,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "09:46",
+      "en": "So as we think about this institutionalization, I would say, of this space and the recognition that individual consumers as well as professionals like ourselves are intrigued.",
+      "zh": "所以当我们思考这个领域的机构化（institutionalization），以及认识到不光是个人消费者、连我们这样的专业人士都被它吸引的时候——"
+    },
+    {
+      "i": 50,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "09:58",
+      "en": "Is there a ways for us to start thinking, huh, we have the Fed meeting, which was of course has just since passed. There'll be another one in October and December.",
+      "zh": "有没有办法让我们开始这样想：嗯，我们有美联储（Fed）会议——当然这次已经开完了，10 月和 12 月还会各有一次。"
+    },
+    {
+      "i": 51,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "10:07",
+      "en": "But is there a way for me to place a bet on that? Or is there a way for me as an institutional hedge fund, perhaps, to place a trade in a portfolio around next month's CPI print?",
+      "zh": "那我有没有办法对这个下注？或者作为一家机构对冲基金，我有没有办法围绕下个月的 CPI 数据在组合里做一笔交易？"
+    },
+    {
+      "i": 52,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "10:21",
+      "en": "And so what started as, hey, I want to place a bet on the upcoming Dodgers game based in Southern California, by the way, has now expanded into something that's way more institutional in nature.",
+      "zh": "所以，一开始只是嘿，我想给马上要打的 Dodgers 比赛下注——顺便说一句，我就住在南加州——现在已经扩展成了一个性质上要机构化得多的东西。"
+    },
+    {
+      "i": 53,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "10:32",
+      "en": "And so the reach of that, the volume of the transactions that can take place in some of these platforms is increasing alongside of that. So I think it's the seamless integration.",
+      "zh": "因此它的影响范围、这些平台上能够发生的交易规模，也在随之增长。所以我觉得关键在于无缝整合。"
+    },
+    {
+      "i": 54,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "10:42",
+      "en": "And we mentioned some of those companies just now. I think it's the rise of advertising and media. All of these companies, especially in the sports world, are looking to make a buck.",
+      "zh": "我们刚刚提到了其中一些公司。我觉得另一个关键是广告和媒体的兴起。所有这些公司，尤其是在体育领域，都在想办法赚钱。"
+    },
+    {
+      "i": 55,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "10:53",
+      "en": "And then ultimately, the World Cup, the Olympics in 2028, which is also going to be in Southern California. I mean, there's so many kind of global platforms of opportunities to place a bet on binary outcomes.",
+      "zh": "然后最终还有世界杯、2028 年奥运会——那届奥运会也会在南加州举办。我是说，全球范围内有这么多平台、这么多在二元结果上下注的机会。"
+    },
+    {
+      "i": 56,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "11:07",
+      "en": "And that I think more so in the near term, what's really driving the volume is going to be the midterms. We've seen a huge rise that kicked off, as I mentioned, in 2024 with the election.",
+      "zh": "而我觉得，近期真正驱动交易量的更可能是中期选举。我们已经看到了巨大的增长，就像我提到的，起点是 2024 年的大选。"
+    },
+    {
+      "i": 57,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "11:17",
+      "en": "So with the midterms coming up, there is already a lot of activity on these platforms for people that are kind of placing their views to make money.",
+      "zh": "所以随着中期选举临近，这些平台上已经有大量的活动，人们在里面下注自己的观点来赚钱。"
+    },
+    {
+      "i": 58,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "11:27",
+      "en": "Well, I could have a whole other podcast on this. You mentioned the Dodgers, but we did get baseball ETFs this week. We actually got levered baseball ETFs this week, which, you know, we can again, that is a conversation for another day.",
+      "zh": "嗯，这个话题我都能再单独做一整期播客了。你提到了 Dodgers，但这周我们确实迎来了棒球 ETF。而且这周我们还迎来了杠杆棒球 ETF，这个嘛，又可以改天单独聊一次。"
+    },
+    {
+      "i": 59,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "11:38",
+      "en": "It is back to dice. We already talked about Kashi, Polymarket, but both of these companies are private. So can you walk us through how you're getting this exposure?",
+      "zh": "还是回到 DICE。我们已经聊了 Kalshi、Polymarket，但这两家公司都是私有的。那么你能给我们讲讲你们是怎么拿到这个敞口的吗？"
+    },
+    {
+      "i": 60,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "11:48",
+      "en": "I'm assuming it's very similar to how you got SpaceX exposure in NASA through that SPV structure. Yeah, that's exactly right. So again, I almost want to start with what is it not?",
+      "zh": "我猜跟你们在 NASA 里通过那种 SPV 结构拿到 SpaceX 敞口的方式非常类似。对，完全正确。所以我还是几乎想先说说它不是什么。"
+    },
+    {
+      "i": 61,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "12:01",
+      "en": "So just to be very clear, several of TEMA's ETFs have pre-IPO exposure. And you mentioned NASA, which was one that took place earlier this year.",
+      "zh": "所以说清楚一点，Tema 有好几只 ETF 都带有 pre-IPO（上市前）敞口。你提到的 NASA，就是今年早些时候做的一只。"
+    },
+    {
+      "i": 62,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "12:12",
+      "en": "When we go out to get exposure to some of these pre-IPO companies, this is not a short term, like kind of meme stock, like, hey, let's get in the run up of the IPO and then sell it.",
+      "zh": "我们去获取这些 pre-IPO 公司的敞口，并不是那种短期的、meme 股（meme stock）式的操作——嘿，让我们在 IPO 前的上涨阶段挤进去，然后卖掉。"
+    },
+    {
+      "i": 63,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "12:26",
+      "en": "As I mentioned at the onset, TEMA is very much an investment forward or investment led firm. And so as we're making allocation decisions, we're very much looking at valuations.",
+      "zh": "就像我一开始说的，Tema 是一家以投资为先、投资主导的公司。所以我们在做配置决策的时候，非常看重估值。"
+    },
+    {
+      "i": 64,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "12:35",
+      "en": "We're looking at higher quality. So we're thinking about the durability of these companies. These are strategic allocations for us. So through our operations and through some of our expertise and partnerships, we have an upper hand, I believe, to give investors something that is very unique, that they're not getting elsewhere.",
+      "zh": "我们看重更高质量。所以我们思考的是这些公司的持久性。对我们来说这些是战略性的配置。因此通过我们的运营、通过我们的一些专业能力和伙伴关系，我相信我们占有一定优势，能够给投资者提供非常独特、在别处得不到的东西。"
+    },
+    {
+      "i": 65,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "12:52",
+      "en": "There's no other daily liquid ETFs, at least that I'm aware of as of today, that provide exposure to Kashi, to Polymarket. And so DICE's ability to gain access to those pre-IPO.",
+      "zh": "据我所知，截至今天，没有其他每日流动性的 ETF 能够提供对 Kalshi、对 Polymarket 的敞口。所以 DICE 能够拿到这些 pre-IPO 标的，"
+    },
+    {
+      "i": 66,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "13:04",
+      "en": "So we're doing these through an SPB, Special Purpose Vehicle. We're cognizant that ETFs, of course, are daily liquid vehicles. There's other strategies in the market that are following, like State Street, for example, has PRIV, which is an ETF that has like a 15% sleeve for private credit exposure.",
+      "zh": "我们是通过 SPV，也就是特殊目的载体（Special Purpose Vehicle）来做这些的。我们很清楚，ETF 当然是每日流动性的工具。市场上还有其他策略也在跟进，比如 State Street 有 PRIV，那是一只 ETF，其中大约有 15% 的仓位是私人信贷（private credit）敞口。"
+    },
+    {
+      "i": 67,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "13:25",
+      "en": "So investors can kind of think about this in the same way. These are daily liquid ETFs. We're not trying to cram a bunch of illiquid exposure within this.",
+      "zh": "所以投资者可以用同样的方式来理解这个。这些都是每日流动性的 ETF，我们并不是想往里面硬塞一大堆缺乏流动性的敞口。"
+    },
+    {
+      "i": 68,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "13:33",
+      "en": "So again, what is this not? This is not us just trying to be flashy and exciting and market this as, oh, get pre-IPO exposure. No, we want to hold Kashi.",
+      "zh": "所以还是那句，这不是什么？这不是我们想做得花哨、刺激，然后把它营销成哦，来拿 pre-IPO 敞口。不是的，我们就是想持有 Kalshi。"
+    },
+    {
+      "i": 69,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "13:42",
+      "en": "We want to hold Polymarket irrespective of their pre-IPO or public stocks today. And I think I'm glad you brought up NASA. That's a prime example.",
+      "zh": "我们想持有 Polymarket，不管它们现在是 pre-IPO 还是公开交易的股票。而且我很高兴你提到了 NASA，那是个绝佳的例子。"
+    },
+    {
+      "i": 70,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "13:52",
+      "en": "We were able to procure exposure to SpaceX pre-IPO. I think a lot of people thought, oh, great, once at IPOs, they're going to sell it out of the fund. Absolutely not.",
+      "zh": "我们当时成功拿到了 SpaceX 的 pre-IPO 敞口。我想很多人以为，哦，太好了，等它 IPO 了，他们就会把它从基金里卖掉。绝对不是。"
+    },
+    {
+      "i": 71,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "14:00",
+      "en": "It's one of our largest holdings it continues to be to today. And the reason that we invested in it when we first launched NASA was to give exposure to one of the most influential parts of the space economy.",
+      "zh": "它是我们最大的持仓之一，而且到今天仍然是。我们最初推出 NASA 时投资它的原因，就是为了提供对太空经济中最具影响力部分之一的敞口。"
+    },
+    {
+      "i": 72,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "14:12",
+      "en": "And if we loved it in March, we still love it today. And so the same thing goes for DICE. And so I think it's important to understand that we are constraining how much of this pre-IPO exposure that we're putting in these funds.",
+      "zh": "如果我们三月份喜欢它，我们今天依然喜欢它。DICE 也是同样的道理。所以我觉得很重要的一点是，我们在限制放进这些基金里的 pre-IPO 敞口比例。"
+    },
+    {
+      "i": 73,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "14:24",
+      "en": "So Kashi and Polymarket, respectively, are about 7.5% in this SPV vehicle. So combined, they make up about 15%. So the other 85% exposure within DICE is publicly listed companies, fully daily liquid, and so we're very much cognizant of that.",
+      "zh": "Kalshi 和 Polymarket 在这个 SPV 载体里分别大约占 7.5%，所以加起来大约 15%。那么 DICE 里另外 85% 的敞口都是上市公司，完全每日流动，这一点我们非常清楚。"
+    },
+    {
+      "i": 74,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "14:40",
+      "en": "And the last thing I'll say is these are active strategies. They're unique. I think they're really at the forefront. And then in addition to having some of this pre-IPO exposure, which can be quite attractive for many investors, these are priced, we feel, very attractively for their categories.",
+      "zh": "最后我想说的是，这些都是主动策略，很独特，我认为它们真的处在最前沿。而且除了拥有一部分对很多投资者来说相当有吸引力的 pre-IPO 敞口之外，这些产品的定价在各自类别里我们觉得也非常有吸引力。"
+    },
+    {
+      "i": 75,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "14:56",
+      "en": "DICE is about 75 basis points. So all of that kind of encompasses something unique for investors. But again, being cognizant that these are long term durable and strategic allocations within these portfolios.",
+      "zh": "DICE 大约是 75 个基点（basis points）。所以所有这些加起来，为投资者构成了一个相当独特的东西。但同样，我们很清楚这些是组合里长期、可持续、战略性的配置。"
+    },
+    {
+      "i": 76,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "15:10",
+      "en": "I definitely want to talk about the other 85% of this here in a second. But I want to stay on the 15% Kashi Polymarket position, just mechanically, for investors to understand.",
+      "zh": "我确实很想马上聊聊这里另外 85% 的部分。但我想先在 15% 的 Kalshi、Polymarket 仓位上停留一下，纯粹从机制上讲，好让投资者理解。"
+    },
+    {
+      "i": 77,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "15:22",
+      "en": "They're right now, you acquired that position about 10% to 13% below where their most recent private valuations are. So you do own them at a premium.",
+      "zh": "你们现在——你们拿到这个仓位的价格，比它们最近一轮私募估值低了大约 10% 到 13%。所以你们确实是以溢价持有它们的。"
+    },
+    {
+      "i": 78,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "15:32",
+      "en": "So what does that discount actually mean to shareholders or is NAV adjusting to that? Can you just walk us through whether or not that discount is baked into NAV or help me there?",
+      "zh": "那么这个折价对持有人来说到底意味着什么？还是说 NAV（净资产值）会对它做调整？你能不能给我们讲讲，这个折价到底有没有被算进 NAV 里？帮我理解一下。"
+    },
+    {
+      "i": 79,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "15:43",
+      "en": "Yeah, yeah, great question. So we price these. We're not trying to be overly cute or complex with how we're pricing these. So the price at which we acquire these positions pre IPO is how they are priced on a daily basis within the ETF.",
+      "zh": "嗯嗯，好问题。我们对这些资产的定价——我们不想在定价上搞得太取巧或者太复杂。所以我们在 pre-IPO 阶段获取这些仓位的价格，就是它们在 ETF 里每天的定价。"
+    },
+    {
+      "i": 80,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "15:58",
+      "en": "So let's just say for simplicity purposes, we buy Kashi at $75 and Polymarket at $100 every day because those are not trading or not daily liquid.",
+      "zh": "所以简单起见，假设我们以 75 美元买入 Kalshi、以 100 美元买入 Polymarket，那么每天，因为它们不交易、也不是每日流动的，"
+    },
+    {
+      "i": 81,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "16:09",
+      "en": "We're going to bring forth that valuation or that price on a daily basis until we have an updated valuation, if they go through another funding round, or until that stock individually goes public.",
+      "zh": "我们都会沿用那个估值或价格，直到有新的估值出现——比如它们再进行一轮融资——或者直到那只股票单独上市。"
+    },
+    {
+      "i": 82,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "16:21",
+      "en": "So there's a bit of kind of stale component within these prices, which, of course, is one of the I guess pushbacks on some of the illiquid or private markets for better or for worse, less volatility in the day to day market pricing, but also the most realistic and accurate and appropriate way to price if we don't have updated information.",
+      "zh": "所以这些价格里确实有一点陈旧的成分，而这当然也算是——我想是针对非流动或私募资产的一个质疑点吧，无论好坏：一方面日常市场定价的波动更小，但另一方面，在我们没有更新信息的情况下，这也是最现实、最准确、最合适的定价方式。"
+    },
+    {
+      "i": 83,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "16:41",
+      "en": "So we're pricing these within the fund at the price in which we're procuring them in the pre IPO SPV structure. Got it. All right. Well, I didn't I actually didn't know how that works.",
+      "zh": "所以我们在基金内部对这些资产的定价，就是我们在 pre-IPO SPV 结构里取得它们的价格。明白了。好，嗯，我之前其实并不知道这个机制是怎么运作的。"
+    },
+    {
+      "i": 84,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "16:51",
+      "en": "So you educated me there. So let's talk about the other 85. So you've got, as we talked about, interactive brokers, Coinbase, Intercontinental Exchange, Robinhood, Circle.",
+      "zh": "所以你给我上了一课。那我们来聊聊另外那 85%。就像我们聊过的，你们有 Interactive Brokers、Coinbase、Intercontinental Exchange、Robinhood、Circle。"
+    },
+    {
+      "i": 85,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "17:02",
+      "en": "You know, these are kind of broader financial infrastructure baskets than just prediction markets. So I kind of know what the thread that connects them is.",
+      "zh": "你知道，这些其实是比预测市场更宽泛的金融基础设施篮子。所以我大概知道把它们串起来的那条线是什么。"
+    },
+    {
+      "i": 86,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "17:11",
+      "en": "But as part of your active strategy, also to make sure you're evaluating these companies fundamentally to make sure that they're good investments, or is it just, hey, they do prediction markets.",
+      "zh": "但作为你们主动策略的一部分，你们是不是也会从基本面角度评估这些公司，确保它们是好的投资？还是说只是嘿，它们做预测市场，"
+    },
+    {
+      "i": 87,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "17:22",
+      "en": "It's available for us to put in the fund. Let's just put it in. Yeah, really great question and a really important point that allows me to kind of tout the rigorous investment process, I would say, that we have at Tema.",
+      "zh": "我们可以放进基金里，那就放进去。嗯，非常好的问题，也是很重要的一点，让我可以稍微吹嘘一下我们在 Tema 有一套非常严谨的投资流程。"
+    },
+    {
+      "i": 88,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "17:34",
+      "en": "I've worked at many firms that are completely systematic in nature, and there is absolutely nothing wrong with that. There is beauty in having a systematic process for portfolio construction.",
+      "zh": "我在很多完全系统化（systematic）的公司工作过，那绝对没有任何问题。用系统化的流程来做组合构建，是有其美感所在的。"
+    },
+    {
+      "i": 89,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "17:43",
+      "en": "Sometimes you remove the human emotion. The way that Tema goes about portfolio construction, I call it a systematic sandwich. And you'll hear, you'll understand here in a moment.",
+      "zh": "有时候它能把人的情绪剔除掉。Tema 做组合构建的方式，我称之为系统化三明治（systematic sandwich）。你马上就会明白为什么这么叫。"
+    },
+    {
+      "i": 90,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "17:55",
+      "en": "But for the initial screen for many of these, like think about the universe, whether it's prediction markets, whether it's, you know, thematic, AI driven, biotech, we have usually hundreds, thousands of available stocks, especially if we're thinking globally.",
+      "zh": "但对很多这类策略的初筛来说——想想整个股票池，不管是预测市场，还是主题型的、AI 驱动的、生物科技的方向——我们通常有几百到几千只可选股票，尤其是如果从全球范围来看。"
+    },
+    {
+      "i": 91,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "18:09",
+      "en": "And the dice in particular is not constrained to just U.S. It has the ability to move outside our borders. So if you think about that initial market, oftentimes we're doing a systematic screen up front that is driven by industry, driven by sector, driven by some of those components I mentioned earlier, valuation, quality, cash flow, kind of that durability component.",
+      "zh": "而 DICE 特别的一点是，它并不局限于美国，它有能力走出美国国境。所以如果你想那个初始股票池，我们通常会先做一轮系统化筛选，依据是行业、板块，以及我前面提到的一些要素——估值、质量、现金流，也就是那种持久性的维度。"
+    },
+    {
+      "i": 92,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "18:31",
+      "en": "Because again, these are long-term investments for us oftentimes. So after that initial kind of quant screen, as I call it, the systematic, the first layer of the bread on the systematic sandwich, that's really where the team starts to think about kind of bottom up more of a fundamental approach.",
+      "zh": "因为再强调一次，这些对我们来说往往是长期投资。所以在最初那轮我称之为量化筛选、也就是系统化三明治第一层面包之后，团队才真正开始用更自下而上（bottom-up）的基本面方法去思考。"
+    },
+    {
+      "i": 93,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "18:46",
+      "en": "So dice is obviously focused on a part of the market that's pretty new. I mean, some of these companies have been around for a couple of years now.",
+      "zh": "DICE 显然聚焦在市场里一个相当新的部分。我是说，其中一些公司也才存在了几年而已。"
+    },
+    {
+      "i": 94,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "18:54",
+      "en": "Their entrance into more of the prediction markets is fairly green. And so really selecting companies that are tethered to this in some form or fashion, something that we really focus on a lot at TEMA is the purity of our strategies.",
+      "zh": "它们进入预测市场领域的时间还相当短。所以在挑选以某种形式与这个领域挂钩的公司时，我们在 Tema 非常看重的一点，是策略的纯度（purity）。"
+    },
+    {
+      "i": 95,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "19:09",
+      "en": "And so whether it's our electrification ETF, whether it's NASA, whether it's dice, we want to ensure that the holdings, because these are more concentrated portfolios, right?",
+      "zh": "所以不管是我们的电气化 ETF、NASA，还是 DICE，我们都想确保持仓——因为这些都是相对集中的组合，对吧？"
+    },
+    {
+      "i": 96,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "19:20",
+      "en": "You're not going to open an ETF and see hundreds of different securities. These are all thoughtfully put in here. They're pure plays on the space.",
+      "zh": "你打开一只 ETF，不会看到几百只不同的证券。这些都是经过深思熟虑放进去的，是这个领域的纯粹标的（pure plays）。"
+    },
+    {
+      "i": 97,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "19:28",
+      "en": "And they really think about the entire kind of vertical or kind of pipeline of what goes into prediction markets. So although we might just see at the front, calcium or polymarket, the exchanges, kind of the back end ecosystem that supports all this, as we kind of sometimes call it in the industry, the plumbing, is really important.",
+      "zh": "它们真正考虑的是构成预测市场的整条纵向链条或者说管线。所以尽管我们在前端可能只看到 Kalshi 或 Polymarket 这些交易所，但支撑这一切的后端生态系统——我们行业里有时称之为管道系统（plumbing）——是非常重要的。"
+    },
+    {
+      "i": 98,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "19:47",
+      "en": "And so that's why Robinhood, Interactive Brokers, Coinbase, some of the other allocations in the fund are looked through from both a systematic screening process and then a fundamental kind of bottom-up process to ensure that they fit within and we're comfortable holding them.",
+      "zh": "所以这就是为什么 Robinhood、Interactive Brokers、Coinbase 以及基金里其他一些持仓，都经过了系统化筛选流程和自下而上的基本面流程的双重审视，以确保它们合适、我们也愿意持有它们。"
+    },
+    {
+      "i": 99,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "20:03",
+      "en": "Because again, these aren't short-term allocations. So hopefully that's helpful. Yeah, super helpful. So how should I think about this prediction markets as we talked about?",
+      "zh": "因为再说一次，这些不是短期配置。所以希望这些解释有帮助。嗯，非常有帮助。那么我该怎么理解这个预测市场？就像我们聊到的，"
+    },
+    {
+      "i": 100,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "20:15",
+      "en": "There's a crossover with sports betting, with politics, with crypto. Is DICE a fintech playing? Is it crypto-adjacent? Like, how do you think about it?",
+      "zh": "它跟体育博彩、政治、加密货币都有交叉。DICE 算是一个金融科技（fintech）标的吗？它是加密货币相邻（crypto-adjacent）的吗？你会怎么定位它？"
+    },
+    {
+      "i": 101,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "20:24",
+      "en": "Yeah, I think it's fair to say it's crypto-adjacent because a lot of this technology was born out of the crypto space. So I think to sit here and say like, there's no impact from crypto, I think would be silly.",
+      "zh": "嗯，我觉得说它是加密货币相邻是公平的，因为这里面很多技术都诞生于加密货币领域。所以我坐在这儿说加密货币对它完全没有影响，我觉得那会很傻。"
+    },
+    {
+      "i": 102,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "20:35",
+      "en": "Coinbase, for instance, is one of the holdings. And this is a crypto infrastructure play. Polymarket is crypto-native. That was kind of some of their origins.",
+      "zh": "比如 Coinbase 就是持仓之一，而这本身就是一个加密货币基础设施标的。Polymarket 是加密货币原生的，那是它们的部分起源。"
+    },
+    {
+      "i": 103,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "20:44",
+      "en": "It runs on blockchain. So as you think about some of these, there is a little bit of kind of a tether to the crypto world. But again, that's why I would say more just a reflection of where this technology was born out of and how it's being utilized today, kind of moving beyond just the blockchain and beyond crypto.",
+      "zh": "它运行在区块链上。所以你在想这些公司的时候，确实跟加密世界有一点牵连。但同样，我觉得这更多是反映了这项技术诞生于何处，以及今天它如何被使用——正在超越区块链、超越加密货币本身。"
+    },
+    {
+      "i": 104,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "21:02",
+      "en": "So for an advisor kind of thinking about DICE, how should they position it in a client portfolio? I know that's a loaded question, but it definitely deserves more love than a 5% sleeve in crypto.",
+      "zh": "那么对于一位在考虑 DICE 的理财顾问来说，他们应该怎么在客户组合里配置它？我知道这是个很复杂的问题，但它绝对值得比加密货币里 5% 的仓位更多的关注。"
+    },
+    {
+      "i": 105,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "21:16",
+      "en": "There's definitely a more, in my opinion, there's a more structural reason to own this with the whole advent of this market. So if you're talking to an advisor, how would you explain to them how they need to think about this?",
+      "zh": "在我看来，随着这个市场的整体崛起，持有它绝对有更强的结构性理由。所以如果你在跟一位顾问沟通，你会怎么向他们解释该如何思考这个东西？"
+    },
+    {
+      "i": 106,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "21:29",
+      "en": "What I've seen in practice is several advisors who have a schematic or even maybe like a sector rotation part of their portfolio allocation.",
+      "zh": "我在实践中看到的是，有好几位顾问在组合配置里有一个主题型的框架，或者甚至有一个板块轮动（sector rotation）的部分。"
+    },
+    {
+      "i": 107,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "21:40",
+      "en": "There's advisors out there that are just purely passive or maybe they've stepped into factors. This might be a little bit too spicy saucy for them, of course.",
+      "zh": "外面也有一些顾问是纯粹被动的，或者他们刚刚涉足因子（factors）。当然，这个对他们来说可能有点太刺激、太重口味了。"
+    },
+    {
+      "i": 108,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "21:48",
+      "en": "But for advisors that have a sleeve in their portfolio that is thematic in nature, which ultimately then is a way for a lot of these advisors to have something exciting to talk about their clients to on a quarterly basis.",
+      "zh": "但对于组合里有一块主题型仓位的顾问来说——这最终也是很多顾问每季度能跟客户聊点令人兴奋话题的一种方式。"
+    },
+    {
+      "i": 109,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "22:02",
+      "en": "There's more of a narrative there, right? And so from an allocation perspective, DICE especially, I view to be a thematic play. We talked a little bit about some of this being crypto adjacent.",
+      "zh": "这里面有更多的叙事，对吧？所以从配置的角度看，我尤其把 DICE 视为一个主题型标的。我们也稍微聊了它有一部分是加密货币相邻的。"
+    },
+    {
+      "i": 110,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "22:15",
+      "en": "You're not going to have the volatility that you would in just holding Bitcoin or crypto directly. So it could be a lower vol way to give clients access to the infrastructure like mentioning coin bases in here to have a play on that indirectly.",
+      "zh": "你不会承受那种直接持有 Bitcoin 或加密货币的波动率。所以它可以是一种更低波动的方式，让客户接触到这些基础设施——比如里面提到的 Coinbase——从而间接地押注这个方向。"
+    },
+    {
+      "i": 111,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "22:32",
+      "en": "I think the way that I see it is if you take a step back and think about as you're investing across equities, which are the dominant driver of risk in most portfolios, you're taking on risk and you're taking on volatility to be compensated in the form of return.",
+      "zh": "我觉得我的思路是这样：如果你退一步想，当你在整个股票市场投资时——股票是大多数组合中风险的主导来源——你承担风险、承担波动，是为了以回报的形式获得补偿。"
+    },
+    {
+      "i": 112,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "22:47",
+      "en": "And so as you think the opportunity set of like, where's the economy growing? I think a lot of people would agree that the U.S. economy tends to be the dominant driver from like a global perspective within U.S. in particular, we've been hyper focused over the last couple of years on technology and AI, which continues to march full steam ahead.",
+      "zh": "所以当你思考机会集，比如经济在哪里增长，我想很多人都会同意，从全球角度看，美国经济往往是主导性的驱动力。而在美国内部，过去几年我们高度聚焦在科技和 AI 上，这个方向依然在全速推进。"
+    },
+    {
+      "i": 113,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "23:07",
+      "en": "There's so much other technology that's popping up on a daily basis that's driving innovation, that's really driving GDP, the economy. And so the way that I look at it, DICE is a thematic way to play on this kind of niche part of the market that as of two years ago, no one was really talking about mainstream.",
+      "zh": "但每天都有大量其他新技术在冒出来，它们在驱动创新，真正在驱动 GDP、驱动经济。所以我看待它的方式是：DICE 是一种主题型的方式，去押注市场里这么一个细分角落——两年前还没人在主流场合真正讨论它。"
+    },
+    {
+      "i": 114,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "23:30",
+      "en": "And now it seems like everywhere I look, everywhere I go, people have apps pulled up, people are advertising on television, we're talking about midterms.",
+      "zh": "而现在似乎我放眼望去、走到哪儿，人们都开着这些 app，电视上都在打广告，我们在谈论中期选举。"
+    },
+    {
+      "i": 115,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "23:41",
+      "en": "And again, even in our world of being more of an institutional investor, we're starting to talk about these platforms for expressing views within portfolios.",
+      "zh": "而且，即使在我们这个更偏机构投资者的圈子里，我们也开始谈论用这些平台在组合中表达观点。"
+    },
+    {
+      "i": 116,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "23:50",
+      "en": "And so I think this infiltration is again, this kind of loops back to where we started. How does an advisor allocate to this? They think about it as they would anything else within a thematic AI driven kind of technology play.",
+      "zh": "所以我觉得这种渗透——这又绕回到我们开始的地方：顾问该怎么配置它？他们会像对待任何其他主题型、AI 驱动的科技标的那样去思考它。"
+    },
+    {
+      "i": 117,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "24:02",
+      "en": "And then you size that appropriately. I don't think it would be a prudent allocation if you're throwing 20, 30% of your portfolio on this. But if you have anywhere from say, five to 10% of a total portfolio and a thematic part of the investment markets, I think DICE can play an instrumental role in that.",
+      "zh": "然后你把仓位规模定得合理。如果你把组合的 20%、30% 都扔到这上面，我不认为那是一个审慎的配置。但如果你在总投资组合里有，比如说，5% 到 10% 的主题型部分，我觉得 DICE 能在其中扮演一个非常关键的角色。"
+    },
+    {
+      "i": 118,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "24:21",
+      "en": "So Paisley, you and I, while I was joking with you in the five minutes, I saw you at FutureProof about what your day-to-day looks like now. I've watched you over the last handful of years and you've definitely become more of an engagement voice.",
+      "zh": "Paisley，你和我——刚才开场前那五分钟我还跟你开玩笑，我在 FutureProof 上见到你，聊你现在日常是什么样的。这几年我一直在观察你，你确实越来越成为一个善于对外交流发声的人了。"
+    },
+    {
+      "i": 119,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "24:33",
+      "en": "Just curious, what's your day-to-day look like now compared to what it looked like five years ago? I'm spending most of my time aggregating information, like all of us are, and then finding a way to make it digestible.",
+      "zh": "我只是好奇，你现在的日常和五年前相比是什么样的？我现在大部分时间都在聚合信息——我们大家都是这样——然后再想办法把它变得容易消化。"
+    },
+    {
+      "i": 120,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "24:48",
+      "en": "My job, I see as it being a translator. I look out at the market and with all of the noise, but also all of the opportunity, all of us are really feeling overwhelmed.",
+      "zh": "我把自己的工作看作是一个翻译者。我观察市场，面对所有的噪音、但也有所有的机会，我们所有人其实都感到不堪重负。"
+    },
+    {
+      "i": 121,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "24:58",
+      "en": "And so my role over the last few years has been, how can I help advisors digest that information to make better decisions for their portfolio?",
+      "zh": "所以我过去几年的角色一直是：我怎么帮助顾问消化这些信息，从而为他们的组合做出更好的决策？"
+    },
+    {
+      "i": 122,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "25:08",
+      "en": "I think having an investment background helps give a little bit of credibility to that versus just coming from a marketing background. But how do we build better portfolios?",
+      "zh": "我觉得有投资背景会为这件事增加一点可信度，而不是单纯出身于市场营销背景。但是，我们怎么才能构建更好的组合？"
+    },
+    {
+      "i": 123,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "25:17",
+      "en": "How do we be prudently participating in the markets? So my day-to-day is really focused on that digesting, articulating, supporting advisors, as well as institutional allocators, and supporting the business.",
+      "zh": "我们怎么才能审慎地参与市场？所以我的日常真的就聚焦在这上面：消化信息、清晰表达、支持顾问以及机构配置方，并支持公司的业务。"
+    },
+    {
+      "i": 124,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "25:31",
+      "en": "I think a lot of this is also just exciting and fun to talk about. So if we can start conversations, get people to pay attention to some of these pockets that come out of nowhere.",
+      "zh": "我觉得这里面很多事情本身也很令人兴奋、很有趣。所以如果我们能开启一些对话，让人们关注到某些凭空冒出来的领域，"
+    },
+    {
+      "i": 125,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "25:42",
+      "en": "I mean, we were just talking earlier about some of the new technology. I just downloaded Muse, which is the new meta chatbot a couple of days ago.",
+      "zh": "我是说，我们刚才还在聊一些新技术。我几天前刚下载了 Muse，那是 Meta 新的聊天机器人。"
+    },
+    {
+      "i": 126,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "25:52",
+      "en": "Whether this ends up being the end all be all, I'm sure there'll be 10 other versions of this, but these are exciting parts of the market, and they're driving the new frontier.",
+      "zh": "不管它最后是不是终极答案，我确信还会再出现 10 个别的版本，但这些都是市场里令人兴奋的部分，它们在驱动新的前沿。"
+    },
+    {
+      "i": 127,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "26:01",
+      "en": "With so much noise out there, a lot of us are just going to miss that. So how can I help people see what's going on, what's exciting, and then help allocate capital to these parts of the growing market?",
+      "zh": "外面噪音这么多，我们中很多人就是会错过这些东西。所以我怎么帮助人们看到正在发生什么、什么令人兴奋，然后帮助把资本配置到这些不断增长的市场领域里？"
+    },
+    {
+      "i": 128,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "26:10",
+      "en": "Well, I think you're an exciting place, right? We've got, you guys have launched the NAS ETF, you've now launched DICE, you also have a handful of other ETFs.",
+      "zh": "嗯，我觉得你们处在一个令人兴奋的位置，对吧？你们推出了 NASA 那只 ETF，现在又推出了 DICE，你们还有其他好几只 ETF。"
+    },
+    {
+      "i": 129,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "26:19",
+      "en": "I guess last question would be, what's like the through line for how you guys decide what to build next? I know we're going to see more from you, but what's that look like inside the building?",
+      "zh": "我想最后一个问题是：你们决定下一个要做什么产品的那条主线（through line）是什么？我知道我们还会看到你们更多动作，但在公司内部，这是怎样一个过程？"
+    },
+    {
+      "i": 130,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "26:31",
+      "en": "Yeah, so there's kind of two ways to go about this in this day and age. There's firms out there, and again, just want to preface, like I'm not throwing shade at this.",
+      "zh": "嗯，在这个年代，做这件事大致有两种路径。外面有些公司——我还是想先说明，我不是在暗讽谁。"
+    },
+    {
+      "i": 131,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "26:41",
+      "en": "There's multiple ways to be successful and to support clients. You can either do the quantity game or you can do the quality game, and many firms are finding themselves somewhere in between.",
+      "zh": "成功和服务客户的方式有很多种。你可以打数量这张牌，也可以打质量这张牌，而很多公司发现自己处在两者之间。"
+    },
+    {
+      "i": 132,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "26:53",
+      "en": "At TEMA, we try to find the intersection of what's our area of expertise? And oftentimes, because we're such a small and lean firm, we're partnering with research experts and outside advisors.",
+      "zh": "在 Tema，我们努力寻找的交叉点是：我们的专业领域在哪里？而且因为我们是一家这么小、这么精简的公司，我们经常和研究专家、外部顾问合作。"
+    },
+    {
+      "i": 133,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "27:05",
+      "en": "We're bringing in house expertise. We just brought somebody in who has a really strong commodity background. So thinking about just the growth of real assets and inflation hedging.",
+      "zh": "我们把外部的专业能力引进来。我们刚刚招进了一位在大宗商品领域背景非常强的人。所以想想实物资产（real assets）的增长和通胀对冲（inflation hedging）。"
+    },
+    {
+      "i": 134,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "27:17",
+      "en": "So we try to think about our broader spectrum of capabilities of where do we have expertise? Where do advisors and investors need solutions?",
+      "zh": "所以我们会尝试去思考自己更广的能力谱系：我们在哪里有专业能力？顾问和投资者在哪里需要解决方案？"
+    },
+    {
+      "i": 135,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "27:28",
+      "en": "I know there's a lot of multiple versions of the exact same flavor of vanilla ice cream out there. Maybe your vanilla is a little bit better than the next, but I think we try to ask ourselves, is this really where we have expertise and we can be differentiated?",
+      "zh": "我知道市面上有很多个版本的、味道完全一样的香草冰淇淋。也许你的香草比别人的稍微好一点，但我觉得我们会问自己：这真的是我们有专业能力、能够做出差异化的地方吗？"
+    },
+    {
+      "i": 136,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "27:41",
+      "en": "Because if we can't be differentiated and we're just going to be one fish in a broader sea, probably not going to be very successful for us as a firm.",
+      "zh": "因为如果我们做不到差异化，只是更大海洋里的一条鱼，那对我们公司来说大概不会很成功。"
+    },
+    {
+      "i": 137,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "27:49",
+      "en": "So how do we really concentrate our small, nimble firm on where the market's headed, where we can add value from a fundamental, kind of as I said, bottoms up process and finding security selection?",
+      "zh": "所以我们要怎么把这家小而灵活的公司，真正集中到市场走向哪里、我们能在哪里通过我所说的自下而上的基本面流程和个股选择来创造价值？"
+    },
+    {
+      "i": 138,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "28:01",
+      "en": "Because if we can't do that, why are we going to come to market? And then we're also willing to kind of go outside the confines of the play at safe.",
+      "zh": "因为如果我们做不到这一点，那我们为什么要进入市场？而且我们也愿意走出稳妥打法的框框。"
+    },
+    {
+      "i": 139,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "28:09",
+      "en": "And I think that's exactly the success that we saw earlier this year from a timing perspective of launching something like NASA, coming to the market as we feel is a very opportune time for prediction markets and trading platforms through dice.",
+      "zh": "我觉得这正是我们今年早些时候看到的那种成功——从时机角度看，推出像 NASA 这样的产品；而通过 DICE 进入市场，我们认为现在正是预测市场和交易平台一个非常好的时机。"
+    },
+    {
+      "i": 140,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "28:22",
+      "en": "So we're willing to kind of take some of those bets within reason because of our expertise and because of what we see as kind of a spotlight on certain parts of the market.",
+      "zh": "所以我们愿意在合理范围内下一些这样的注，因为我们具备专业能力，也因为我们看到市场的某些部分正处在聚光灯下。"
+    },
+    {
+      "i": 141,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "28:31",
+      "en": "Well, Paisley, I always enjoy our time together before I let you go, where can people learn more about Tema and find everything they need to know about dice?",
+      "zh": "好，Paisley，我一直很享受我们在一起的时光。在放你走之前——大家可以在哪里更多地了解 Tema，找到关于 DICE 需要知道的一切？"
+    },
+    {
+      "i": 142,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "28:40",
+      "en": "Yeah, temaetfs.com. We just brought in some awesome marketing resources to join the firm. So we're building out kind of our presence on socials, whether it be X, whether it be LinkedIn.",
+      "zh": "嗯，temaetfs.com。我们刚引进了一些非常出色的市场营销人才加入公司。所以我们正在搭建自己在社交媒体上的存在感，不管是 X 还是 LinkedIn。"
+    },
+    {
+      "i": 143,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "28:53",
+      "en": "So expect to see a lot more from us. Like I said, we're small but growing very quickly. So come to our website, find me on X or any of our other team members, but we're excited to engage and really appreciate the opportunity for having us on.",
+      "zh": "所以期待看到我们更多的动作。就像我说的，我们规模小但增长非常快。欢迎来我们的网站，在 X 上找我或者我们团队的其他成员，我们很期待与大家互动，也非常感谢给我们这个机会上节目。"
+    },
+    {
+      "i": 144,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "29:07",
+      "en": "All right. Thanks, Paisley. We'll see you soon. Thanks.",
+      "zh": "好的。谢谢你，Paisley。我们回头见。谢谢。"
+    }
+  ]
+}

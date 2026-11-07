@@ -1,0 +1,1241 @@
+{
+  "show": "exchanges",
+  "kind": "transcript",
+  "id": "exchanges-5152ea38",
+  "slug": "2026-09-01-the-outlook-for-data-center-power-5152ea38",
+  "date": "2026-09-01",
+  "title_en": "The Outlook for Data Center Power Demand as AI Token Use Grows",
+  "title_zh": "AI 词元消耗增长下数据中心电力需求展望 | Brian Singer & Carly Davenport, Goldman Sachs Research",
+  "subtitle_zh": "AI 驱动电力需求激增，从 hyperscaler 资本开支到七大约束与民粹风险的全景分析",
+  "description": "The Outlook for Data Center Power Demand as AI Token Use Grows",
+  "duration": "32:08",
+  "duration_seconds": 1928,
+  "episode_url": null,
+  "audio_url": "https://mgln.ai/e/1720/traffic.megaphone.fm/GLD2901245773.mp3",
+  "speakers": {
+    "1": "Allison Nathan（主持）",
+    "2": "George Lee（主持）",
+    "3": "Brian Singer（嘉宾）",
+    "4": "Carly Davenport（嘉宾）",
+    "5": "片花/广告（旁白）"
+  },
+  "turn_count": 152,
+  "turns": [
+    {
+      "i": 0,
+      "speaker": 5,
+      "speaker_zh": 5,
+      "ts": "00:00",
+      "en": "The last time we sat down to talk about AI and power, the debate was whether the grid could handle it. That question has now been answered in basically the least comforting way possible, partly unevenly and expensively.",
+      "zh": "上次我们坐下来聊AI和电力的时候，争论的焦点还是电网能不能扛得住。现在这个问题已经有了答案，而且基本上是最让人不寒而栗的那种——部分区域参差不齐，代价高昂。"
+    },
+    {
+      "i": 1,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "00:31",
+      "en": "Welcome back to AI Exchanges. I'm Allison Nathan and I'm here together with George Lee, the co-head of the Goldman Sachs Global Institute. Together we're co-hosting a series of episodes, exploring the rise of AI and everything it could mean for companies, investors, and economies.",
+      "zh": "欢迎回到 AI Exchanges。我是 Allison Nathan，身边这位是 Goldman Sachs Global Institute 的联席主管 George Lee。我们俩共同主持这一系列节目，一起探讨 AI 的崛起，以及它对企业、投资者和经济可能意味着什么。"
+    },
+    {
+      "i": 2,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "00:46",
+      "en": "George, great to see you again. Great to be here. So George, let's first set the table for people who have followed this series. When we first covered this topic, the shorthand was basically that AI would drive a step change in data center power demand after nearly two decades of essentially flat electricity load.",
+      "zh": "George，很高兴再次见到你。——我也很高兴来到这里。好，George，我们先给一路追随这个系列的听众搭个背景。我们第一次聊这个话题的时候，简单的总结就是：AI 将推动数据中心用电需求发生台阶式的跃升，而在那之前，电力负荷基本上已经平稳了近二十年。"
+    },
+    {
+      "i": 3,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "01:09",
+      "en": "But since then, demand forecasts have gone up again, even as we've discussed many times, models have become more efficient. The binding constraint has migrated away from megawatts and towards what I think of as all the T's.",
+      "zh": "但自那以后，需求预测一直在往上走，尽管我们讨论过很多次，模型已经变得更高效了。真正卡脖子的约束条件已经从兆瓦（megawatt）转移到了——我把它称作——所有的 T。"
+    },
+    {
+      "i": 4,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "01:22",
+      "en": "We have turbines, transformers, transmission, and tradespeople. So new constraints entering the picture and the politics have arrived. So we have regulators, ratepayers, and neighbors now really having a seat at the table and having a lot to say about this topic.",
+      "zh": "我们说的是涡轮机（turbine）、变压器（transformer）、输电线路（transmission），还有技术工人（tradespeople）。新的约束进入画面，政治也登场了。监管者、用电户、周边居民，现在真正在桌上有了一席之地，而且对这件事有很多要说的。"
+    },
+    {
+      "i": 5,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "01:38",
+      "en": "So before we bring in the expert, George, what's the single biggest thing that's changed in your mind on this topic? I think one thing that kind of syncs with my expectations is the demand cycle continues.",
+      "zh": "所以在请专家之前，George，这个话题上你觉得最大的变化是什么？——我觉得有一点跟我的预期是吻合的——需求周期在持续。"
+    },
+    {
+      "i": 6,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "01:49",
+      "en": "And what's fascinating is to watch as you described the supply chain gets stretched all the way back from models, but to all of the physical affordances, really almost all the way back to the base elements.",
+      "zh": "而且有意思的是，正如你描述的，供应链被拉得极长，从模型一直延伸到所有的基础设施，几乎要追溯到最底层的原材料。"
+    },
+    {
+      "i": 7,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "02:01",
+      "en": "And so this is one of the most complex, intricate, and global supply chains in the world. And it'd be fascinating to talk with our guests today about how that's playing out, where the real bottlenecks are, and whether we can navigate those bottlenecks and the political issues you described.",
+      "zh": "所以这是世界上最复杂、最精密、最全球化的供应链之一。我很期待今天跟嘉宾聊聊它是怎么展开的，真正的瓶颈在哪里，以及我们能不能突破这些瓶颈和你提到的政治问题。"
+    },
+    {
+      "i": 8,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "02:18",
+      "en": "Yes. So we have brought in what we think of as exactly the right people to talk about this and help us untangle it all. Joining us again are my colleagues in Goldman Sachs Research, Brian Singer and Carly Davenport.",
+      "zh": "是的。所以我们请来了我们认为最对的人来聊这些、帮我们把线理清楚。再次加入我们的，是我在 Goldman Sachs Research 的同事 Brian Singer 和 Carly Davenport。"
+    },
+    {
+      "i": 9,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "02:28",
+      "en": "Brian is the global head of GS Sustain, and he thinks about the innovation cycle and the sustainability trade-offs of all of this. Carly is our America's utility team senior analyst.",
+      "zh": "Brian 是 GS Sustain 的全球主管，他思考的是创新周期以及这一切带来的可持续性权衡。Carly 是我们美国公用事业团队的高级分析师。"
+    },
+    {
+      "i": 10,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "02:40",
+      "en": "She puts the numbers on just how much power we're going to need and where it's all going to come from. So, Brian Carly, welcome to the program.",
+      "zh": "她来把数字摆清楚：我们到底需要多少电力，电力从哪来。好，Brian、Carly，欢迎上节目。"
+    },
+    {
+      "i": 11,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "02:47",
+      "en": "Thanks for having us. Thank you. Great to have you both. Carly, let's start with you. You and your team recently raised your overall U.S. power demand outlook.",
+      "zh": "感谢邀请。谢谢。——很高兴你们二位都来了。Carly，我们先从你开始。你和你的团队最近上调了美国整体电力需求展望。"
+    },
+    {
+      "i": 12,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "02:57",
+      "en": "What prompted that change, and where does it leave us in terms of power demand? Yes. So we recently raised our forecast up to a 3.5% cager through 2030, and that was up from our prior forecast of about 3.2% cager through 2030.",
+      "zh": "是什么触发了这个调整？现在我们处于什么样的需求位置？——是的。我们最近把预测上调到了到2030年 3.5% 的复合年增长率（CAGR），此前我们的预测是到2030年约 3.2% 的 CAGR。"
+    },
+    {
+      "i": 13,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "03:10",
+      "en": "And we continue to be convicted in the demand cycle, as George was just mentioning. As we think about where we sit today in power demand growth, year-to-date we're up over 4%.",
+      "zh": "我们依然坚定地看好需求周期，正如 George 刚才说的。从电力需求增长的当前位置来看，今年到目前为止我们已经超过 4% 了。"
+    },
+    {
+      "i": 14,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "03:20",
+      "en": "And so we feel like we're already on our road to maintaining that 3% cager through 2030. Now what drove that forecast change? The main thing was a positive revision in our data center power demand outlook.",
+      "zh": "所以我们觉得自己已经走在维持到2030年 3% CAGR 这条路上。那是什么驱动了这次预测调整？最主要的驱动因素是对数据中心用电需求展望的上修。"
+    },
+    {
+      "i": 15,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "03:32",
+      "en": "We use a data set from 451 research, and we saw a couple of things change. One is a lot of new projects were added to the queue as we continue to see focused development in this area.",
+      "zh": "我们用了一个来自 451 Research 的数据集，看到了一些变化。第一，大量新项目加入了建设队列，因为专注的开发还在持续。"
+    },
+    {
+      "i": 16,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "03:44",
+      "en": "And that has taken our data center power demand in 2030 up to about 108 gigawatts. Up from about 83 gigawatts before. So there's new projects being added that's point number one.",
+      "zh": "这使得我们在2030年的数据中心用电需求预测上升到了大约 108 吉瓦（GW），此前这个数字约为 83 GW。新项目的增加，这是第一点。"
+    },
+    {
+      "i": 17,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "03:56",
+      "en": "Point number two is we're also seeing increased utilization of the existing data centers that we have. So we've seen vacancy rates on data centers in the U.S. coming down across all of the major data center markets.",
+      "zh": "第二点是，我们还看到现有数据中心的利用率在提升。美国各大主要数据中心市场的空置率都在下降。"
+    },
+    {
+      "i": 18,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "04:08",
+      "en": "They're sitting today around 1% to 2%. Over the last few years they were ranging from about 2% to 7%. So we're seeing increased utilization and occupancy of existing infrastructure in addition to the new projects that are getting added.",
+      "zh": "目前大约在 1% 到 2%。过去几年是 2% 到 7%。所以除了新增项目之外，现有基础设施的利用率和入驻率也在上升。"
+    },
+    {
+      "i": 19,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "04:23",
+      "en": "And we forecast about a 3% vacancy rate in 2030 on a U.S. average basis. Brian it seems like just yesterday you were here with us but it was March.",
+      "zh": "我们预计2030年美国平均空置率大约在 3%。——Brian，感觉你上次来才不久，但其实是三月份了。"
+    },
+    {
+      "i": 20,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "04:32",
+      "en": "And at that time you just raised your data center power demand estimates. So here we are three or four months later. Last year we talked a lot about the impact of potential efficiency gains on that number.",
+      "zh": "那时候你刚刚上调了数据中心电力需求的估计。然后三、四个月过去，我们又坐在这里了。去年我们讨论了很多潜在效率提升对那个数字的影响。"
+    },
+    {
+      "i": 21,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "04:44",
+      "en": "How has it played out from your perspective especially with the rise of agentic AI which remarkably it was starting to inflect at the beginning of this year but is only continued to grow.",
+      "zh": "从你的角度来看，情况是怎么演变的？尤其是随着代理型 AI（agentic AI）的兴起——值得一提的是，它今年年初刚开始拐点，之后一直在加速增长。"
+    },
+    {
+      "i": 22,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "04:55",
+      "en": "Yeah good question. If we go back to that period at the beginning of March we were projecting and our analysts were projecting hyperscalar spending was at about 1.2 trillion for 2027.",
+      "zh": "好的，好问题。我们回到三月初那个时间点——当时我们的分析师预测超大规模数据中心（hyperscaler）2027年的支出约为 1.2 万亿。"
+    },
+    {
+      "i": 23,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "05:06",
+      "en": "That's 1.7 trillion net. Our spending for 2029 was projected at 1.5 trillion. That's today at 2.1 trillion. So let's just start right there.",
+      "zh": "现在是 1.7 万亿。我们之前对2029年的支出预测是 1.5 万亿，现在已经到了 2.1 万亿。所以我们先把这个摆在这里。"
+    },
+    {
+      "i": 24,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "05:16",
+      "en": "That's a significant increase over a multi-year period in hyperscalar expected spending. Now let's work our way down to get to power demand and Carly referenced the 25% increase in 2030 capacity build out.",
+      "zh": "在多年时间跨度上，这是 hyperscaler 预期支出的一个显著增长。然后我们往下推，到电力需求这一层——Carly 提到了2030年装机容量建设 25% 的上修。"
+    },
+    {
+      "i": 25,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "05:30",
+      "en": "Additionally our TMT teams have raised their expectations for the shipments of AI related servers. It's hard to ignore when you have all of those factors to not further raise forecasts even though it's only been a handful of months and so that's what we've done.",
+      "zh": "此外，我们的 TMT 团队也上调了 AI 相关服务器出货量的预期。这些因素加在一起，即使只过了几个月，你也没法不去进一步上调预测——所以我们就是这么做的。"
+    },
+    {
+      "i": 26,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "05:47",
+      "en": "If we look globally so not just the U.S. but globally we see data center power demand in 2030 up about 170% from 2025 levels. We were at about 117% back at the beginning of March when we last spoke.",
+      "zh": "如果从全球来看——不仅仅是美国——我们看到2030年数据中心用电需求比2025年水平增长约 170%。三月初我们上次聊的时候，这个数字是约 117%。"
+    },
+    {
+      "i": 27,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "06:01",
+      "en": "So to put in perspective what is AI doing from a power demand perspective in addition to data centers if we start the clock at the beginning of 2024 so the seven year period through the end of the decade it's adding the power equivalent of the whole country of Japan which is the number five power consuming country.",
+      "zh": "为了让大家感受一下 AI 对电力需求的影响有多大——如果不只是数据中心，我们从2024年初算起，到本年代末这七年时间，新增的电力相当于整个日本的用电量，日本是世界排名第五的电力消费国。"
+    },
+    {
+      "i": 28,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "06:19",
+      "en": "So this is really significant thus far to your question on productivity. We haven't seen the productivity gains impact and negatively impact tech R&D budgets and this is the big question out there as we think about the cycle is when will we get to a point where consumers will see these productivity gains and say instead of spending the same amount of money and consuming more tokens and compute I'm going to spend less money and",
+      "zh": "所以到目前为止，这些量级是非常显著的。关于你问的效率问题——我们还没有看到效率提升对科技研发预算产生负面影响，这才是这个周期里最大的疑问：什么时候消费者会觉得效率红利已经到位了，然后说——我少花点钱，消耗同样的词元（token）和算力就好，而不是花同样的钱消耗更多"
+    },
+    {
+      "i": 29,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "06:45",
+      "en": "consume the same tokens and compute. I don't think we're there yet. Are we at a point today where consumers will think we can lower our tech R&D budgets and not worry about our competitive positioning.",
+      "zh": "消耗同样的 token 和算力。我觉得我们还没到那个点。今天有没有到那个点——消费者会想降低科技研发预算，同时不用担心竞争地位？"
+    },
+    {
+      "i": 30,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "06:57",
+      "en": "I'm not sure we're there yet. Now you're in the middle of this and in the weeds every day. So I'm certainly interested in your view. Yeah I think what's fascinating about it is that all those expected or anticipated efficiency gains are actually happening and yet the demand profile is both recovering those and expanding at the rate you described.",
+      "zh": "我不确定我们到了。你现在每天都在最前线、最细枝末节的地方。所以我很好奇你的看法。——是的，我觉得有意思的是，所有这些预期中的效率提升确实在发生，但需求曲线不仅吸收了这些效率增益，还在以你描述的速率增长。"
+    },
+    {
+      "i": 31,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "07:16",
+      "en": "So the hill you describe is so steep on its face but it's actually almost greater than it would seem because there is token efficiency taking hold in all of these systems.",
+      "zh": "你描述的这座山本身就非常陡峭，但实际上可能比看起来还要陡，因为在所有这些系统中 token 效率正在生效。"
+    },
+    {
+      "i": 32,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "07:27",
+      "en": "There's efficiency throughout the supply chain and we're overwhelming that with demand. So I think it even punctuates the demand profile even more strongly.",
+      "zh": "整个供应链都有效率提升，但需求的增长把这些全部盖过去了。所以我觉得这反而更加凸显了需求的强度。"
+    },
+    {
+      "i": 33,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "07:35",
+      "en": "One thing we are seeing consumers doing and I don't know if you're seeing this as well is really taking a bit more of a closer look at how they're consuming tokens and where they're consuming tokens.",
+      "zh": "我们确实看到消费者在做的一件事——不知道你是否也注意到了——他们真的在更仔细地审视自己是怎么消耗 token 的、在哪里消耗的。"
+    },
+    {
+      "i": 34,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "07:44",
+      "en": "And that I think is the beginning of some level of trying to reduce consumption intensity without necessarily negatively impacting output. I'm sure we'll see more of that but that doesn't mean that the aggregate token consumption interest is instill pent up.",
+      "zh": "我觉得这是某种程度的消费强度降低的开端，同时并不一定会影响产出。肯定还会有更多这样的趋势，但这不意味着 token 消耗的总量没有积压的需求。"
+    },
+    {
+      "i": 35,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "07:58",
+      "en": "Yeah one of the dynamics I'm observing is as we garner that efficiency and we think more judiciously about token usage what that does is actually it opens the horizon of economically addressable tasks within the enterprise.",
+      "zh": "是的，我观察到的一个动态是：随着我们获得效率、更审慎地使用 token，实际上是在拓宽企业里经济上可处理的任务范围。"
+    },
+    {
+      "i": 36,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "08:13",
+      "en": "Tokens get cheaper you're more efficient with their usage and that expands the demand toward the addressable market for this commodity and again fascinating set of multiple dynamics playing out beneath the waves of your very ambitious estimates.",
+      "zh": "token 变便宜了，使用效率更高了，这就把需求扩展到了这种商品的可触达市场。又是你那些非常大胆的预测下面在同时上演的一组迷人的动态。"
+    },
+    {
+      "i": 37,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "08:27",
+      "en": "Let's bring this back to power demand Carly because you've done a lot of work on the implications regionally for the U.S. What surprised you most about where demand is growing and what's driving that.",
+      "zh": "我们回到电力需求，Carly，你做了很多关于区域影响的分析。最让你惊讶的是什么——需求在哪里增长，是什么驱动的？"
+    },
+    {
+      "i": 38,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "08:37",
+      "en": "Yeah let me maybe start with where we are today. The top three data center power demand markets in the U.S. are PJM which is the mid-Atlantic market that houses about 35 percent of data center demand today.",
+      "zh": "好的，让我先从当前位置说起。美国数据中心用电需求排名前三的市场：第一是 PJM，就是中大西洋地区市场，承接了今天约 35% 的数据中心需求。"
+    },
+    {
+      "i": 39,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "08:50",
+      "en": "Second is ERCOT in Texas that houses about 15 percent of data center demand today. And then there's a tie for third between the southeast and the Pacific Northwest both housing about 13 percent of power demand.",
+      "zh": "第二是 ERCOT，在德克萨斯，承接约 15% 的数据中心需求。第三是东南地区和太平洋西北，并列，各自承接约 13%。"
+    },
+    {
+      "i": 40,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "09:02",
+      "en": "So what do we expect to change or not through 2030 firstly we expect PJM to remain the dominant data center market in the U.S. through 2030.",
+      "zh": "那到2030年我们预计有什么变化？首先，我们认为 PJM 将继续保持美国第一大数据中心市场的地位。"
+    },
+    {
+      "i": 41,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "09:11",
+      "en": "We think that they'll maintain their share at 35 percent of overall U.S. power demand and there's a few things we think remain attractive about that market.",
+      "zh": "我们认为他们会维持 35% 的份额。有几个因素让这个市场持续有吸引力。"
+    },
+    {
+      "i": 42,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "09:20",
+      "en": "There's a lot of merchant nuclear capacity there that data center companies like. There's a high voltage transmission backbone and you have a lot of existing data center clusters there that we think make it attractive for continued development.",
+      "zh": "那里有大量市场化运营的核电产能，数据中心企业很喜欢。有高压输电骨干网络，而且已经有很多成型的数据中心集群，我们认为这些会让它持续适合开发。"
+    },
+    {
+      "i": 43,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "09:33",
+      "en": "The second takeaway we've had from our analysis is what's surprising to us was that the MISO market which is the midcontinent of the U.S. so think from Minnesota down to Louisiana is going to overtake ERCOT the southeast and the northwest and become the second largest data center market in the U.S. by 2030.",
+      "zh": "我们分析得出的第二个要点，让我们惊讶的是 MISO 市场——它覆盖美国中部，从明尼苏达到路易斯安那——将会超过 ERCOT、东南和西北，成为2030年美国第二大数据中心市场。"
+    },
+    {
+      "i": 44,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "09:51",
+      "en": "We think they'll make up about 16 percent of the data center market in the U.S. by 2030. And what's interesting about MISO is you have a lot of regulated utilities that are actually building the power generation capacity for these data centers versus a developer doing it as you would see in a PJM or an ERCOT market.",
+      "zh": "我们认为到2030年 MISO 将占美国数据中心市场约 16%。有趣的是，在 MISO 地区，很多受监管的公用事业公司实际上在为这些数据中心建设发电容量，而不是像 PJM 或 ERCOT 市场那样由开发商来做。"
+    },
+    {
+      "i": 45,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "10:10",
+      "en": "And so we see states like Iowa, Wisconsin, Louisiana and the regulated utilities there driving a lot of this acceleration in the MISO market.",
+      "zh": "我们看到爱荷华州、威斯康星州、路易斯安那州，那里的受监管公用事业公司在推动 MISO 市场的加速增长。"
+    },
+    {
+      "i": 46,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "10:18",
+      "en": "And then lastly ERCOT in Texas we think you'll still see strong growth there. We see ERCOT as the third largest data center market in the U.S. by 2030.",
+      "zh": "最后，ERCOT——德克萨斯，我们认为那里还会保持强劲增长。我们预计 ERCOT 到2030年仍是美国第三大数据中心市场。"
+    },
+    {
+      "i": 47,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "10:28",
+      "en": "We think they'll make up about 14 percent of overall data center demand by the time we get out there. And Texas has been a big focus recently given some of the governor's actions around auditing data center projects.",
+      "zh": "我们认为到那时候他们会占约 14% 的整体数据中心需求。德州最近是关注焦点，因为州长对数据中心项目做了一些审计动作。"
+    },
+    {
+      "i": 48,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "10:40",
+      "en": "So there's some uncertainty on that growth outlook today, but where we stand now we still see them as an important data center market. And why do you see the regulated utilities playing a bigger role in MISO?",
+      "zh": "所以目前那个增长前景有一些不确定性，但就我们的判断来说，它仍然是重要的数据中心市场。——那为什么你觉得受监管的公用事业公司会在 MISO 中扮演更重要的角色？他们的动机是什么？"
+    },
+    {
+      "i": 49,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "10:51",
+      "en": "What's their motivation for that? Yeah, I think one part of it is it's a one-stop shop, right? You come to the utility, they have the relationships with the regulators, they have the relationships with the community.",
+      "zh": "是的，我觉得一部分原因是这是一站式服务，对吧？你找公用事业公司，他们跟监管者有关系，跟社区有关系。"
+    },
+    {
+      "i": 50,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "11:01",
+      "en": "They can give you everything from the power plant to the transmission to the distribution and you're working with one counterparty versus if you're in a deregulated power market, you're having to work with the power developer for your power plant and then you're still needing to work with the utility for your grid connection.",
+      "zh": "他们能给你从电厂到输电到配电的一切，你只需要对接一个交易对手。而如果在放松管制的电力市场，你得跟电力开发商谈电厂，然后还得跟公用事业公司谈并网。"
+    },
+    {
+      "i": 51,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "11:18",
+      "en": "And so it's a little bit more I think of a complex negotiation. The other piece of it is in a regulated utility market the regulators have full control over what is being charged to customers at every point of the value chain.",
+      "zh": "所以那是一种更复杂的谈判。另一部分是，在受监管的公用事业市场里，监管者对价值链上每一个环节向客户收取的费用有完全的控制权。"
+    },
+    {
+      "i": 52,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "11:30",
+      "en": "We don't have supply-demand dynamics necessarily driving pricing, it's set by a regulator. And so you can better manage some of the concerns on customer affordability we think in the regulated markets.",
+      "zh": "不一定是供需驱动定价，而是监管者来定。所以我觉得在受监管市场里，你能够更好地管理用户负担能力方面的顾虑。"
+    },
+    {
+      "i": 53,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "11:41",
+      "en": "So Brian, you and I sang in harmony on the demand picture, but the real question is can supply keep up with that very ambitious curve? You have a framework that you've updated on sort of the theory of constraints in this.",
+      "zh": "Brian，需求端我们俩唱的是同一个调，但真正的问题是供给能不能跟上那条非常激进的曲线。你有一个约束理论的框架，最近也做了更新。"
+    },
+    {
+      "i": 54,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "11:53",
+      "en": "Talk through how you see the headwinds relative to our ability to build enough supply. Sure, so the good news as we highlighted is we have made these upward revisions to the long-term outlook, but at the same time there are these growing constraints.",
+      "zh": "给我们讲讲你怎么看逆风和建设足够供给的能力之间的关系？好的，好消息是，就像我们强调的，我们上调了长期展望。但与此同时，约束条件也在增长。"
+    },
+    {
+      "i": 55,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "12:05",
+      "en": "And when we last spoke in March we talked about the six P's, I know you have some great T's that I totally agree with Allison, your T's, we've talked about the six P's that are both driving and constraining power growth, we've actually subsequently added a seventh P's.",
+      "zh": "我们上次三月聊的时候讲了六个 P。我知道你有一套很棒的 T，Allison，我完全同意。我们谈了六个 P，它们既在驱动也在约束电力增长。实际上我们后来又加了第七个 P。"
+    },
+    {
+      "i": 56,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "12:20",
+      "en": "So let's dig into them. So the first is the pervasiveness of AI. It still seems that as a now a driver of growth as it continues to expand size and scope.",
+      "zh": "那我们一个一个来。第一个是 AI 的无处不在（pervasiveness）。作为增长驱动力，AI 看起来还在持续扩大规模和范围。"
+    },
+    {
+      "i": 57,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "12:29",
+      "en": "Then there's the productivity of servers, chips, models, and it doesn't look like today that is driving as we talked about any kind of downward moves and budgets demand is still pent up.",
+      "zh": "然后是服务器、芯片、模型的生产力（productivity）。目前看起来，它并没有像我们讨论的那样推动预算下降——需求仍然处于积压状态。"
+    },
+    {
+      "i": 58,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "12:41",
+      "en": "Then there's the price of power. This we see as less of an issue and less of a concern for the hyperscalers. It is a big concern as I know we'll talk about for everyday consumers and communities.",
+      "zh": "再然后是电力价格（price）。这个我们认为对 hyperscaler 来说不太是问题、不太是顾虑。但对日常消费者和社区来说，这是一个很大的担忧，我知道后面会展开聊。"
+    },
+    {
+      "i": 59,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "12:55",
+      "en": "Policy. Now there's three sub P's within that, and Allison I think you referenced it a bit. There's permitting, there's pushback, and there's populism, and that is certainly rising as a potential concern and constraint, although at the same time as I know we'll talk about some of the governments are saying, hey, we just want to tackle this issue and just make sure that it doesn't become a longer term constraint by trying to actually get the right",
+      "zh": "第四个是政策（policy）。这里面有三个子 P，Allison 我觉得你之前提到了一点。有许可审批（permitting），有抵制（pushback），还有民粹主义（populism），这些确实在上升，可能成为关注和约束。但与此同时，我也知道我们会聊到，有些政府在说：嘿，我们就是要解决这个问题，确保它不成为长期约束——办法是现在就把正确的"
+    },
+    {
+      "i": 60,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "13:18",
+      "en": "regulations in place today. Then we get to parts, and these are a couple of the T's with the transformers and turbines. One of the major turbine manufacturers on their most recent conference call said that they expect that by the end of this year, they'll be halfway sold out for 2031.",
+      "zh": "监管法规落实到位。然后是零部件（parts），这里面就有几个 T 了——变压器和涡轮机。一家主要的涡轮机制造商在最近一次财报电话会上说，他们预计到今年年底，2031年的产能就已经卖出一半了。"
+    },
+    {
+      "i": 61,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "13:34",
+      "en": "This is still a significant potential constraint, and it's not necessarily a constraint on overall power demand. It's a constraint on how power is being sourced.",
+      "zh": "这仍然是一个重大的潜在约束，而且不一定是整体电力需求的约束，更多是电力来源方式的约束。"
+    },
+    {
+      "i": 62,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "13:42",
+      "en": "I know we'll talk a little bit about that a bit more, but we still kind of think and Carly's really taken the lead on this, that we'll see more natural gas, simple cycle in the near term, and we'll see more renewables plus battery storage in the near term, natural gas combined cycle in the medium term, nuclear in the longer term.",
+      "zh": "我知道后面会再多聊一些。但我们仍然认为——Carly 在这块做了大量的牵头工作——短期内会看到更多简单循环燃气发电（simple cycle gas），短期更多可再生能源加储能（battery storage），中期联合循环燃气发电（combined cycle），长期核电。"
+    },
+    {
+      "i": 63,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "13:58",
+      "en": "Then we get to people. We are still absolutely in need of more electricians, welders that can handle high voltage connectivity. When power demand wasn't growing at all, which was the case in the US for a decade, there was little incentive to go into these fields, and now the expectations have changed so significantly that it just takes a while to respond when you need four years of training, at least",
+      "zh": "然后是人力（people）。我们依然急需更多电工、焊工，能够处理高压连接。当电力需求完全不增长的时候——美国过去十年就是如此——进入这些行业的激励几乎没有。现在预期变化如此之大，但回应需要时间——至少需要四年的培训"
+    },
+    {
+      "i": 64,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "14:20",
+      "en": "to be able to be effective and be certified. So the new P and the last P is physical environment, and this really relates to data center cooling.",
+      "zh": "才能成为合格的、有认证的从业者。然后新增的第七个 P，也是最后一个 P，是物理环境（physical environment），这主要跟数据中心散热有关。"
+    },
+    {
+      "i": 65,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "14:29",
+      "en": "We've taken a harder look at where these data centers are being built and the ambient conditions associated with that, more than half of them are built in areas with elevated physical risk, either extreme temperatures, humidity, drought, and that limits some of the options, especially for modern data centers, when it comes to certain of the cooling technologies and it opens up a trade off of you either consume more water and less power or more power and",
+      "zh": "我们更仔细地审视了数据中心的建设选址和当地环境条件——超过一半建在物理风险较高的地区，极端温度、湿度、干旱，这限制了某些选项，尤其是现代数据中心的某些散热技术，打开了一个取舍：你要么多用点水、少用点电，要么多用电"
+    },
+    {
+      "i": 66,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "14:53",
+      "en": "less water in places like the US, we think the priority is going to be minimizing water use. And that could actually lead to the deployment of technologies that otherwise drive higher power usage effectiveness and lower water usage effectiveness.",
+      "zh": "少用水。在美国，我们认为优先方向是尽量减少用水。这实际上可能导致部署那些会提高电力使用效率（PUE）、降低水使用效率的技术。"
+    },
+    {
+      "i": 67,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "15:09",
+      "en": "Now those priorities aren't the same everywhere in the world. Our analysts view in China is that it's actually due to some of the regulations, their priorities minimizing power consumption.",
+      "zh": "这些优先方向在世界各地并不相同。我们的分析师认为在中国，由于某些监管政策，他们的优先方向是尽量减少电力消耗。"
+    },
+    {
+      "i": 68,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "15:18",
+      "en": "And so in the areas in which the ambient conditions force this trade off, that might otherwise lead to higher water usage effectiveness and less on the power front.",
+      "zh": "所以在环境条件迫使这种取舍的地区，可能会反过来——导致水使用效率更高、电力使用方面少一些。"
+    },
+    {
+      "i": 69,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "15:25",
+      "en": "So there's a lot of pieces that are going into this here, and that's how we kind of see the constraints. Pieces, you added an extra P there.",
+      "zh": "这里有非常多的因素在交织，这就是我们怎么看这些约束条件的。零部件——你多加了一个 P 啊。"
+    },
+    {
+      "i": 70,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "15:33",
+      "en": "I feel compelled to continue the alliteration, but I'll stop myself. One thing there, Brian, what's interesting is Carly mentioned ERCOT as a real growth area for this infrastructure, but there are some physical condition limitations that sort of exemplifies this tension between power and water supply, right?",
+      "zh": "我很想继续搞押头韵，但我还是忍住吧。有一件事，Brian，有意思的是 Carly 提到 ERCOT 是基础设施的真实增长区，但那里有一些物理条件限制，恰恰体现了电力和水之间的张力，对吧？"
+    },
+    {
+      "i": 71,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "15:49",
+      "en": "And you think about Western part of Texas in particular. That's right. And I think the cooling technologies are still improving and it's always hard to bet against the engineers.",
+      "zh": "想想德州西部尤其如此。——是的。我觉得散热技术还在不断进步，而且你永远不要跟工程师打赌。"
+    },
+    {
+      "i": 72,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "15:58",
+      "en": "And certainly when you have so much capital going into the innovation behind this, it's fair to expect that there's going to be some improvements over time.",
+      "zh": "特别是当这么多资本在投入背后的创新时，可以合理预期随着时间推移会有一些改善。"
+    },
+    {
+      "i": 73,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "16:07",
+      "en": "But nobody wants, and I know we'll talk about this in a bit. Nobody wants water outages. Nobody wants power outages. And while there have been strong innovations, there are still some of these trade-offs that are forcing the issue of power versus water.",
+      "zh": "但是没有人——我知道稍后会聊到——没有人想停水，没有人想停电。虽然创新很强，但仍然存在一些取舍在逼迫解决电力对水的问题。"
+    },
+    {
+      "i": 74,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "16:20",
+      "en": "It's a lot more expensive to find new sources of water than it is to find new sources of power. And that's in part why at least in the U.S., we think water minimization is going to be the priority.",
+      "zh": "找新水源比找新电力来源贵得多。这也是至少在美国我们认为水的最小化将是优先方向的部分原因。"
+    },
+    {
+      "i": 75,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "16:30",
+      "en": "As I'm listening to you both, essentially we have these astonishing numbers on the demand side, but then this laundry list from Brian about the constraints to supply growth.",
+      "zh": "我听你们两位聊，本质上就是需求端有这些惊人的数字，然后 Brian 列了一长串供给增长的约束。"
+    },
+    {
+      "i": 76,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "16:40",
+      "en": "So are we just headed for a very big gap between demand and supply here? Yeah. It's certainly getting tighter in certain regions. We don't forecast a nationwide power shortage by any means, but there are certain markets that we think are getting critically tight.",
+      "zh": "那我们是正在走向一个供需之间的大缺口吗？——是的。某些地区确实在变得更紧。我们并不是在预测全国性的电力短缺，但有些市场我们认为已经到了非常紧张的状态。"
+    },
+    {
+      "i": 77,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "16:56",
+      "en": "I think PJM would be at the top of our list there. ERCOT today, we don't view as very tight. We think it'll get tight as demand ramps in the 2028 timeframe.",
+      "zh": "我觉得 PJM 会排在我们的第一位。ERCOT 目前我们并不认为很紧张，但我们觉得到2028年前后需求爬坡时会变紧。"
+    },
+    {
+      "i": 78,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "17:07",
+      "en": "But I think when you look at some of the markets and all again reference the regulated utility markets, you are seeing a lot of capacity being power generation capacity being added to the grid.",
+      "zh": "但我觉得当你看一些市场——再次提到那些受监管的公用事业市场——你会看到大量发电容量在并入电网。"
+    },
+    {
+      "i": 79,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "17:17",
+      "en": "And as Brian alluded to, we see an all-of-the-above approach required to serve all of this demand. So we expect to see a lot of natural gas, about 60% of data-centered demand we think will be met with natural gas, 40% we think will be met with renewables.",
+      "zh": "正如 Brian 提到的，我们看到需要全都有（all-of-the-above）的能源方式才能满足所有需求。我们预计会看到大量天然气——约 60% 的数据中心需求将由天然气来满足，40% 由可再生能源满足。"
+    },
+    {
+      "i": 80,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "17:32",
+      "en": "There are a few one-off nuclear power plant restarts that will help bridge some of that gap as well, but it is really all hands on deck to try to get as much of this capacity online as possible.",
+      "zh": "还有一些单点核电重启项目也能帮助弥补部分缺口。但现在真的是全力以赴，尽可能把更多的容量投运。"
+    },
+    {
+      "i": 81,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "17:43",
+      "en": "The one other piece that I would just mention is we talk a lot about the grid and the grid's availability and capacity to house all of this load.",
+      "zh": "还有一个我想提的：我们聊了很多关于电网，关于电网承载这些负荷的能力。"
+    },
+    {
+      "i": 82,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "17:50",
+      "en": "There's been this solution called behind the meter that has come up a lot more lately. And we think some of the pushback and the physical constraints that you've seen in markets like Texas have really built a stronger case for behind the meter.",
+      "zh": "有一个叫表后电（behind the meter）的方案最近出现得越来越多了。我们认为，在德州这类市场看到的抵制和物理约束，实际上为表后电方案建立了更强的合理性。"
+    },
+    {
+      "i": 83,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "18:03",
+      "en": "And that basically is just an on-site power solution that is islanded from the rest of the power grid. So you don't have to worry about, can I get connected to the grid or not.",
+      "zh": "这本质上就是现场发电方案，跟外面的电网是孤岛式的。你不用操心能不能并网。"
+    },
+    {
+      "i": 84,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "18:13",
+      "en": "You can just serve the data center with your on-site power plant. And we recently raised our estimates there as well. So we think you'll see about 30 gigawatts of behind the meter gas capacity by 2030, which is about 20, just over 20 gigawatts of power delivery.",
+      "zh": "你可以直接用现场电厂给数据中心供电。我们最近也上调了这块的预期。我们预计到2030年会有约 30 GW 的表后电天然气容量，对应的实际电力交付量略超 20 GW。"
+    },
+    {
+      "i": 85,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "18:30",
+      "en": "So that makes up about 20% of our data center demand estimate by 2030. So we think it's not only a mix of resource on the grid, but it's also a mix of on-grid and off-grid that's going to serve this demand.",
+      "zh": "这大约占我们2030年数据中心需求估计的 20%。所以我们认为，不仅是电网内的资源组合，还有并网和离网的组合，都会来服务这个需求。"
+    },
+    {
+      "i": 86,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "18:41",
+      "en": "One nuance there that's fascinating is clearly there's a big growth in behind the meter solutions. But they may not be permanently behind the meter, right?",
+      "zh": "有一个有意思的细节是，表后电方案显然在大幅增长，但它们可能并不是永久性的表后电，对吧？"
+    },
+    {
+      "i": 87,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "18:49",
+      "en": "Part of that's driving this is the extraordinary length of the interconnect queue. But I think one of the promises for regulated utility consumers is that capacity and supply is being built that ultimately might be reconnected to the grid and provide a little bit more resilience or different supply demand equation for them.",
+      "zh": "推动这个方案的原因之一是并网排队时间长得离谱。但我觉得，对受监管公用事业的客户来说，有一个承诺是：这些容量和供给在建设过程中，最终可能会重新接入电网，给他们提供更多韧性、不同的供需格局。"
+    },
+    {
+      "i": 88,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "19:06",
+      "en": "Is that the right way to think about it? That would absolutely be our view that behind the meter is more of a bridge solution and it is not a long-term solution because we've heard time and time again from the largest data center customers that their preference is to be grid connected.",
+      "zh": "这样理解对吗？——那完全就是我们的看法——表后电更多是一种过渡方案，不是长期方案。因为我们一次又一次听到最大的数据中心客户说，他们的偏好是并网。"
+    },
+    {
+      "i": 89,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "19:21",
+      "en": "The grid offers a more cost-effective and a more reliable solution for especially large customers. If we're talking multi-gigawatt scale type of data centers, you need the grid as a resource over time.",
+      "zh": "电网提供了更具成本效益、更可靠的解决方案，对大客户尤其如此。如果我们说的是多 GW 级别的数据中心，你从长期来看是需要电网的。"
+    },
+    {
+      "i": 90,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "19:33",
+      "en": "We are seeing some projects have the flexibility to do both. If you have a project that's supposed to start in 2028, you can't get your grid connection, you can go behind the meter and then transition over time, that's sort of the way we would think about it.",
+      "zh": "我们看到一些项目具备双向灵活性。如果一个项目预计2028年启动，你拿不到并网，可以先走表后电，然后随着时间过渡到并网——大概就是这么个思路。"
+    },
+    {
+      "i": 91,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "19:45",
+      "en": "And regulators are actually tightening their stance on a lot of these connectivity issues. So Carly, walk us through what that looks like today for companies dealing with this issue.",
+      "zh": "监管者实际上正在收紧对并网相关问题的立场。所以 Carly，给我们讲讲今天企业面对这个问题的实际情况是什么样的。"
+    },
+    {
+      "i": 92,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "19:55",
+      "en": "I mean, I think the regulatory uncertainty on how data center connections will be handled is probably the single most important issue facing power and utilities companies today.",
+      "zh": "我觉得，关于数据中心并网会怎么处理的监管不确定性，可能是电力和公用事业公司今天面临的最重要的单一议题。"
+    },
+    {
+      "i": 93,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "20:04",
+      "en": "The queues today are lengthy. You could be sitting in the queue from anywhere two, three, five, seven years depending on which regional grid in the U.S. you're trying to connect to.",
+      "zh": "目前的排队时间很长。你可能在排队里待上两三年、五年、七年——取决于你要接入美国哪个区域电网。"
+    },
+    {
+      "i": 94,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "20:16",
+      "en": "And that is a big deterrent for these data center customers that want to be up and running yesterday. So I think the way that we're thinking about what are the mitigants that our companies are trying to put into place to address that one is behind the meter.",
+      "zh": "对希望立刻投入运营的数据中心客户来说，这是很大的阻碍。所以我们思考的是，企业正在采取哪些缓解措施——第一就是表后电。"
+    },
+    {
+      "i": 95,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "20:29",
+      "en": "And then in the regulated markets, we're seeing a big push towards these special tariff structures that create a one standardized and two transparent formula that you can offer to a data center customer that already has the regulator stamp of approval to just try to streamline the process and make sure that everybody's on the same page about the timelines, the financial requirements, the customer protections that are needed to make sure that if and when you",
+      "zh": "然后在受监管市场里，我们看到一个大的推动力走向特殊费率结构——一是标准化、二是透明的公式，你可以提供给数据中心客户，而且已经获得了监管者背书——目的就是简化流程，确保大家在时间表、资金要求、客户保护条款等方面达成共识，以确保当你"
+    },
+    {
+      "i": 96,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "20:55",
+      "en": "can connect to the grid, you're not going to put other customers at risk, whether that is of risk of reliability issues or risk of significant affordability implications.",
+      "zh": "能接入电网时，不会把其他客户置于风险之中——无论是可靠性风险还是显著的负担能力影响。"
+    },
+    {
+      "i": 97,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "21:06",
+      "en": "And so we think that the proactive movement towards those special tariff structures in the regulated markets, coupled with new communications that we're seeing from the utilities around quantifying customer bill savings or also agreeing to not raise their rates to customers for a period of time is a way that the market can still prudently accommodate data center growth without putting at risk reliability or affordability.",
+      "zh": "所以我们认为，在受监管市场里向特殊费率结构主动靠拢，加上我们看到公用事业公司在量化客户账单节省方面的新承诺、或者同意在一段时间内不涨价——这是市场在谨慎接纳数据中心增长的同时，不拿可靠性和负担能力冒险的一种路径。"
+    },
+    {
+      "i": 98,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "21:31",
+      "en": "That's certainly the economic theory of the case, but this collides with something that Allison referred to earlier, which is this another P populism, the pushback that is occurring in communities relative to building this supply, which as you say has a lot of both resilience and economic benefits, but it's getting increasingly challenging, particularly I would think in the PJM corridor, which is pretty densely populated.",
+      "zh": "这确实是经济学上的理想情况，但它碰撞上了 Allison 之前提到的——又是一个 P——民粹主义，社区对建设供给的抵制。虽然正如你所说，既有韧性收益也有经济收益，但确实越来越有挑战性，我想特别是在 PJM 走廊，那里人口很密集。"
+    },
+    {
+      "i": 99,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "21:54",
+      "en": "So how do you see that tension playing out as to both of you? Yeah, I can start. It is hard to see how this goes away quickly, because there is just an understandable long history of NIMBYism even before we delve into the intricate details of the potential solutions.",
+      "zh": "那你们两位怎么看这种张力的走向？——好的，我先来。确实很难看到这事能很快消失，因为在深入探讨解决方案的细节之前，邻避主义（NIMBYism）本身就有很长、可以理解的历史。"
+    },
+    {
+      "i": 100,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "22:10",
+      "en": "Now we broadly see five different areas of the populism pushback, however we want to, whatever P or T word we want to use. First is there's going to be a power outage.",
+      "zh": "我们大面上看到民粹主义抵制的五个方面——不管我们用什么 P 或 T 的措辞。第一，担心停电。"
+    },
+    {
+      "i": 101,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "22:20",
+      "en": "There are solutions, and some of the governments are actually putting that into place. It's becoming licensed to operate for the data centers to be willing to be disconnected or to be cut off.",
+      "zh": "这有解决方案，而且有些政府已经在落实了。对数据中心来说，自愿接受被切断供电、在电网即将发生事故时愿意被摘除，正在成为运营许可的一部分。"
+    },
+    {
+      "i": 102,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "22:30",
+      "en": "In the event the grid is about to undergo an outage. So interoperability is a potential solution to that. The second would be power price surges.",
+      "zh": "在电网即将发生事故时。所以互操作性是一个潜在解决方案。第二个是电价飙升。"
+    },
+    {
+      "i": 103,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "22:38",
+      "en": "Really reference the take or pay contracts that are increasingly being signed. And some of that works in certain regulated areas and the unregulated areas are trying to sort through it, especially on kind of the transmission side and the capacity side, but that is a potential solution.",
+      "zh": "这真的涉及到越来越多的照付不议（take-or-pay）合同的签署。这在某些受监管地区是有效的，非监管地区还在摸索，特别是输电和容量方面。但这是一个潜在解决方案。"
+    },
+    {
+      "i": 104,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "22:53",
+      "en": "The third is on the waterfront will close loop cooling that doesn't consume water on a continuous basis and dry cooling, whether it's air cooling, whether it's chillers or dry cooling, those can be potential solutions against some come with greater power demand, but that's a solution on the water minimization front.",
+      "zh": "第三是水——闭环冷却（closed-loop cooling），不需要持续消耗水，还有干式冷却，不管是风冷、冷水机组还是干冷，这些都能作为潜在方案，虽然有些会带来越多的电力需求，但在水的最小化方面是解决方案。"
+    },
+    {
+      "i": 105,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "23:09",
+      "en": "Then you've got noise. And there are some noise abatement technologies that can be put into the data centers to minimize some of that impact on the local community.",
+      "zh": "然后是噪音。有一些降噪技术可以装进数据中心，减少对当地社区的影响。"
+    },
+    {
+      "i": 106,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "23:17",
+      "en": "And the last, which is a bit more in kind of niche areas would be if the heat coming out of the data centers from the cooling rejection actually raises temperatures in certain communities.",
+      "zh": "最后一个，稍微小众一点——数据中心散热排出的热量会不会在某些社区推高温度。"
+    },
+    {
+      "i": 107,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "23:28",
+      "en": "And there are areas like Finland that are actually doing waste heat capture. So that's a potential technology. Maybe you need a colder environment to actually have a market for that.",
+      "zh": "有像芬兰这样的地方实际上在做废热回收（waste heat capture）。所以这也是一个潜在技术。当然你可能需要一个更冷的环境才能让这个市场成立。"
+    },
+    {
+      "i": 108,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "23:36",
+      "en": "I guess the point is that there are actual solutions that can actually help mitigate the five major concerns. But again, that doesn't mean this is going away.",
+      "zh": "我的意思是，确实有实际方案可以帮助缓解五大核心顾虑。但即便如此，也不意味着这事会消失。"
+    },
+    {
+      "i": 109,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "23:45",
+      "en": "Yeah. The only thing I would add is our view has been that the community pushback is real. The customers are also very aware of it. And I don't think there's a big interest from them to force their projects into communities that don't want them.",
+      "zh": "是的。我想补充的一点是：我们的看法一直是，社区的抵制是真实的。客户也非常清楚这一点。我觉得他们没有太大兴趣把自己的项目硬塞到不想要它的社区去。"
+    },
+    {
+      "i": 110,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "23:59",
+      "en": "The message that we've gotten from a lot of our power and utilities companies is that for all of the communities where you're seeing really loud and strong and reasonable pushback, there are other communities that are still actively courting data centers because they want the increase in the tax base, they want the construction jobs, they want the investments into the local community infrastructure that the data center customers are often providing.",
+      "zh": "我们从很多电力和公用事业公司那里得到的信息是：在那些你看到非常强烈、响亮、合理抵制的社区之外，还有其他社区仍然在积极争取数据中心——因为他们想要税收基数的增长、想要建设就业岗位、想要数据中心客户通常会带来的对当地基础设施的投资。"
+    },
+    {
+      "i": 111,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "24:22",
+      "en": "And so we think a lot of this is maybe could create some more geographic concentration in where these data centers ultimately locate. But those communities want it until they get it.",
+      "zh": "所以我们认为，这些可能最终会造成数据中心选址在地理上更集中。但这些社区是想要它——直到他们真的拿到它。"
+    },
+    {
+      "i": 112,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "24:32",
+      "en": "And then they are living through these issues and problems. So we'll see how that evolves. Yeah. I think you make a great case, Brian, for the facts, I think, conspire against many of the concerns.",
+      "zh": "然后他们就开始切身经历这些问题和麻烦了。所以我们会看它怎么演变。——是的，我觉得 Brian，你为事实构建了一个很好的论证。我认为事实本身会消解很多顾虑。"
+    },
+    {
+      "i": 113,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "24:43",
+      "en": "And there are technology mitigants. And yet this is a matter of popular opinion, which gets shaped in all sorts of different ways. And so it'll be really fascinating.",
+      "zh": "而且有技术缓解手段。但民意终究是民意，它被各种方式塑造。所以这会非常值得关注。"
+    },
+    {
+      "i": 114,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "24:51",
+      "en": "As a child of the 70s, I watched the nuclear power industry fall afoul of populist and political opposition. And certainly is in my mind, that could be a real constraint to our ability to build the necessary supply here.",
+      "zh": "作为七十年代长大的人，我目睹了核电行业如何受到民粹和政治反对的冲击。在我心里，那确实可能成为我们建设必要供给能力的真正约束。"
+    },
+    {
+      "i": 115,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "25:03",
+      "en": "How much of this, George, do you think could also just be a bit of a trepidation on AI generally and not necessarily communities feeling like, OK, we want to be all in on that versus other industries in which they've supported development in the community, and maybe there's a job angle to this as well?",
+      "zh": "George，你觉得这里面有多大程度上可能只是对 AI 本身的一些顾虑——而不是社区说好的我们要全力投入这个——而在其他行业他们确实支持过社区发展，也许还有就业方面的角度？"
+    },
+    {
+      "i": 116,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "25:17",
+      "en": "I think the fact that it's adjacent to AI and therefore inherits some of the trepidation, as you say, about that is absolutely an issue. But it's pretty profound.",
+      "zh": "我觉得它因为跟 AI 相邻，所以继承了人们对 AI 的那些顾虑——你说的没错，这确实是一个问题。但我觉得影响相当深远。"
+    },
+    {
+      "i": 117,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "25:25",
+      "en": "I've read a survey recently that said that a plurality of Americans would prefer to have a nuclear power plant in their neighborhood versus a data center.",
+      "zh": "我最近看到一份调查说，相当多数的美国人宁愿家旁边有核电站也不要有数据中心。"
+    },
+    {
+      "i": 118,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "25:32",
+      "en": "And while nuclear power plants are quite safe, demonstrably quite safe, that's a real commentary. So again, I think this is going to be in some ways of all the things we've discussed here about the physical constraints, the supply chain, the locality, the grid connect.",
+      "zh": "虽然核电站其实非常安全——已经证明非常安全了——但这确实是一个很有力的注脚。所以再次地，我觉得在我们今天讨论的所有这些——物理约束、供应链、选址、并网——当中，"
+    },
+    {
+      "i": 119,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "25:49",
+      "en": "This dimension of popular sentiment might be the steepest hill we have to climb in getting to the right balance of supply and demand here. Carl, I want to ask you about this because we focused a lot in this discussion and prior discussions on hyperscalar balance sheets, capacity, appetite to invest.",
+      "zh": "民意这个维度可能是我们达到供需平衡过程中最难翻的一座山。Carly，我想问你一下，因为我们在这次和之前的讨论中花了很多篇幅在 hyperscaler 资产负债表、产能、投资意愿上。"
+    },
+    {
+      "i": 120,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "26:04",
+      "en": "But also that's equally true for the regulated utilities and unregulated utilities. Do you see that their capital availability and access will be able to keep up and what are the constraints there?",
+      "zh": "但对受监管和非受监管公用事业公司来说也是同样的道理。你觉得它们的资本可得性和融资能力能够跟上吗？"
+    },
+    {
+      "i": 121,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "26:14",
+      "en": "They're a little bit different than in the hyperscalar world. Yeah. So I'll split it out into the regulated versus our independent power producers that we cover that are doing a lot of this.",
+      "zh": "那里的约束跟 hyperscaler 的世界不太一样。是的，那我把受监管的和独立发电商（IPP）分开来说。"
+    },
+    {
+      "i": 122,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "26:23",
+      "en": "On the regulated side, there is significant capital required. We see capital investment for our regulated utilities coverage up 60% in the next five years versus the prior five year period.",
+      "zh": "在受监管那边，确实需要大量资本。我们预计未来五年受监管公用事业覆盖的公司资本开支比前五年增长 60%。"
+    },
+    {
+      "i": 123,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "26:34",
+      "en": "But we're still seeing leverage ratios relative to what a credit downgrade kind of threshold would be. We're still seeing about 100 basis points of cushion there.",
+      "zh": "但我们仍然看到杠杆率相对于信用降级门槛还有空间——大概还有 100 个基点（bps）的缓冲。"
+    },
+    {
+      "i": 124,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "26:43",
+      "en": "And I think part of that is the companies have been proactive about issuing equity to help fund this growth. We would expect incremental capital to be funded about 30% to 50% with equity.",
+      "zh": "我觉得部分原因是企业一直在主动通过增发股票来为增长融资。我们预计增量资本的大约 30% 到 50% 将通过股权来融资。"
+    },
+    {
+      "i": 125,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "26:54",
+      "en": "And so we think they've taken a proactive stance there to make sure that they're doing this in a balance sheet safe way. And then on the independent power producer side, we've actually seen positive momentum on the credit front.",
+      "zh": "所以我认为它们在资产负债表安全方面采取了比较主动的立场。然后在独立发电商那边，我们实际上看到信用面的正面动力。"
+    },
+    {
+      "i": 126,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "27:05",
+      "en": "This year was recently upgraded to investment grade, consolation is investment grade. And even though some of the companies have stretched a little bit to do M&A, they have clear paths in the next 12 months to get leverage ratios back towards two times net debt to EBITDA or something like that.",
+      "zh": "Constellation 今年刚被上调至投资级。即使有些公司做了一些并购稍微撑了一下，他们也有清晰的路径在未来12个月内把杠杆率恢复到净债务/EBITDA 两倍的左右。"
+    },
+    {
+      "i": 127,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "27:21",
+      "en": "So we think they're in a very healthy place balance sheet wise as well. Fascinating. So let's just conclude by asking both of you, what are you watching to determine how this power thesis is really playing out and whether the constraints are winning or the demand side is winning?",
+      "zh": "所以从资产负债表角度看他们也很健康。——非常好。那我们最后来请你们两位分别说说：你们在关注什么来判断这个电力论点到底怎么落地——是约束在赢，还是需求在赢？"
+    },
+    {
+      "i": 128,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "27:35",
+      "en": "I think one piece would be if we can all agree that the public opinion and the regulatory uncertainty is probably the steepest hill to climb.",
+      "zh": "我觉得如果我们都同意公众舆论和监管不确定性可能是最陡的那座山的话——"
+    },
+    {
+      "i": 129,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "27:43",
+      "en": "It would be tracking how many of these data center moratoriums are we seeing pop up across different states. So I don't mean a local community, a real like a New York or what we've seen in Texas type of moratorium that really could cause some potential project delays or uncertainty from a project developer perspective of do I want to operate in this market?",
+      "zh": "那我会跟踪各州出现多少数据中心禁令（moratorium）。我说的不是地方社区层面的，而是像纽约或者德州那种真正的州级禁令——它确实可能从项目开发商的角度造成项目延迟或不确定性：我到底想不想在这个市场做项目？"
+    },
+    {
+      "i": 130,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "28:04",
+      "en": "I think that would probably be the piece that we would be most focused on, especially as we're leading into the elections in November and potential change over post that.",
+      "zh": "我觉得这可能是我们会最关注的维度，特别是在我们即将迎来十一月的选举和之后可能的政策更迭。"
+    },
+    {
+      "i": 131,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "28:11",
+      "en": "Yeah, I would concur absolutely with that. I think there's probably going to be a little bit more nuance as to whether some of these moratoriums are really thoughtful, more of a thoughtful take of here's what we need to do to actually stimulate and continue with this development, not necessarily a shift away from being maybe pro business or pro development.",
+      "zh": "是的，我完全同意这一点。我觉得可能还会有一些更细的考量——这些禁令中有多少是真正深思熟虑的，是一种我们需要做什么来继续推动发展的思考方式，不一定是转向不亲商、不亲发展。"
+    },
+    {
+      "i": 132,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "28:28",
+      "en": "Or is this something that is actually going to be a little bit longer lasting? If I'm looking at metrics to watch, do the just 2030 data center capacity, get revised up or down from here, call it the field of dreams data centers, the if you build them, they will come and should that be in people's forecasts or not in the industry.",
+      "zh": "还是说它会持续更长时间。如果让我看需要关注的指标：2030年的数据中心装机容量会从这个数字继续上调还是下调？叫它梦想之地（Field of Dreams）数据中心——你建好了他们就会来。行业里应不应该把这个假设放进预测？"
+    },
+    {
+      "i": 133,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "28:45",
+      "en": "And then if I'm looking for an off the beaten path metric to watch, it would be nuclear contracting by hyperscalers only because that's going to have very little effect over the next five years.",
+      "zh": "然后如果要找一个比较另类的关注指标，那就是 hyperscaler 的核电签约。因为它未来五年几乎不会有什么实际效果。"
+    },
+    {
+      "i": 134,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "28:54",
+      "en": "And so it's always a nice metric that we think is somewhat indicative of the long term and whether they see this as something that they are really going to need the demand for.",
+      "zh": "所以它是一个好的先行指标，我们认为它某种程度上指示了长期——以及他们是否真的觉得这些需求是长期存在的。"
+    },
+    {
+      "i": 135,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "29:05",
+      "en": "And in addition from a sustainability lens, what their views are on carbon dioxide emissions mitigation. Brian, Carly, thanks so much for joining us again.",
+      "zh": "再加一个可持续维度的视角：他们对碳排放减排的看法。——Brian、Carly，非常感谢你们再次来到这里。"
+    },
+    {
+      "i": 136,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "29:13",
+      "en": "And I'm sure you'll be back here soon with another update given how fast this is all evolving. It's been a pleasure. Thanks for the discussion.",
+      "zh": "我相信你们很快就会带着新的更新再回来，因为这一切演变得太快了。非常愉快。感谢这次讨论。"
+    },
+    {
+      "i": 137,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "29:19",
+      "en": "George, what are your thoughts? You added a lot throughout the conversation, but key takeaways. Sure. First of all, fascinating discussion. And as a historical tech person, it's been really fun for me to try to understand this ecosystem as it directly impacts our growth.",
+      "zh": "George，你有什么想法？你在整个讨论中补充了很多，讲讲关键收获吧。——当然。首先，非常精彩的讨论。作为一个在科技行业待了很多年的人，理解这个生态系统对我来说特别有趣，因为它直接影响我们的增长。"
+    },
+    {
+      "i": 138,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "29:34",
+      "en": "It just strikes me that both the AI and power industries need to both coordinate and refine messaging campaigns that lay out the positive case for these investments in communities.",
+      "zh": "我强烈感觉 AI 行业和电力行业都需要协同，并打磨一套传达正面价值的叙事，向社区讲清楚这些投资的好处。"
+    },
+    {
+      "i": 139,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "29:45",
+      "en": "And Carly talked about there's a single state level data center moratorium today, but there are more than 300 regional or local moratoria going on around the country.",
+      "zh": "Carly 提到今天只有一个州级数据中心禁令，但全国有超过 300 个区域或地方级别的禁令在进行中。"
+    },
+    {
+      "i": 140,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "29:55",
+      "en": "And that could really grow and inhibit all of what we've talked about here unless we do a better job of articulating the positive case for this infrastructure.",
+      "zh": "如果不好好把基础设施的正面故事讲清楚，这个数字可能会大幅增长，会阻碍我们今天谈到的所有事情。"
+    },
+    {
+      "i": 141,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "30:03",
+      "en": "So it's a real imperative for these industries to coordinate and deliver, be fastening to watch it play out. Absolutely. But I, for one, took a little bit of comfort from the takeaway that we are not seeing tremendous constraints in terms of power demand.",
+      "zh": "所以这些行业协同行动、把话说好是真正迫切的——也很值得观察。——完全同意。但我个人从这次讨论中获得了一些安慰：我们在电力需求方面并没有看到巨大的约束。"
+    },
+    {
+      "i": 142,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "30:19",
+      "en": "We're not headed for outages. It seems anytime soon. So that was comforting to some extent. You're right. And what a testament to the free enterprise system that from the standing start of five or six years ago, we've gotten to a place where we can navigate these constraints.",
+      "zh": "短期内不会面临停电，看起来也不是近期的事。这一点多少让人安心。——你说得对。从五六年前起步到现在，我们能够应对这些约束——这真是自由企业制度的一个有力证明。"
+    },
+    {
+      "i": 143,
+      "speaker": 5,
+      "speaker_zh": 5,
+      "ts": "30:34",
+      "en": "Really remarkable. Always a pleasure to speak with you, George. Same. The episode of Goldman Sachs exchanges was recorded on Wednesday, August 12th, 2026.",
+      "zh": "真的很了不起。George，跟你聊天总是很愉快。——我也是。本期 Goldman Sachs Exchanges 录制于2026年8月12日星期三。"
+    },
+    {
+      "i": 144,
+      "speaker": 5,
+      "speaker_zh": 5,
+      "ts": "30:42",
+      "en": "I'm Alison Ethan. Thanks for listening. The opinions and views expressed herein are as of the date of publication, subject to change without notice and may not necessarily reflect the institutional views of Goldman Sachs or its affiliates.",
+      "zh": "我是 Allison Nathan。感谢收听。本文所述观点和看法截至发布之日，如有更改恕不另行通知，不一定反映 Goldman Sachs 或其关联机构的机构立场。"
+    },
+    {
+      "i": 145,
+      "speaker": 5,
+      "speaker_zh": 5,
+      "ts": "30:56",
+      "en": "The material provided is intended for informational purposes only and does not constitute investment advice, a recommendation from any Goldman Sachs entity to take any particular action or an offer or solicitation to purchase or sell any securities or financial products.",
+      "zh": "本材料仅供参考，不构成投资建议、不构成 Goldman Sachs 任何实体采取任何特定行动的建议，也不构成购买或出售任何证券或金融产品的要约或邀请。"
+    },
+    {
+      "i": 146,
+      "speaker": 5,
+      "speaker_zh": 5,
+      "ts": "31:07",
+      "en": "This material may contain forward-looking statements. Past performance is not indicative of future results. Neither Goldman Sachs nor any of its affiliates make any representations or warranties expressed or implied as to the accuracy or completeness of the statements or information contained herein and disclaim any liability whatsoever for reliance on such information for any purpose.",
+      "zh": "本材料可能包含前瞻性陈述。过往业绩不代表未来表现。Goldman Sachs 及其任何关联机构不对本文所载声明或信息的准确性或完整性作任何明示或暗示的保证，并明确拒绝因此类信息用于任何目的而产生的任何责任。"
+    },
+    {
+      "i": 147,
+      "speaker": 5,
+      "speaker_zh": 5,
+      "ts": "31:24",
+      "en": "Each name of a third-party organization mentioned is the property of the company to which it relates, is used here strictly for informational and identification purposes only, and is not used to imply any ownership or license rights between any such company and Goldman Sachs.",
+      "zh": "文中所提及的第三方组织名称均为其所属公司的财产，此处仅严格用于信息和识别目的，不用于暗示任何此类公司与 Goldman Sachs 之间的所有权或许可权利。"
+    },
+    {
+      "i": 148,
+      "speaker": 5,
+      "speaker_zh": 5,
+      "ts": "31:36",
+      "en": "A transcript is provided for convenience and may differ from the original video or audio content. Goldman Sachs is not responsible for any errors in the transcript.",
+      "zh": "本转录稿仅供参考，可能与原始视频或音频内容有所差异。Goldman Sachs 对转录稿中的任何错误不承担责任。"
+    },
+    {
+      "i": 149,
+      "speaker": 5,
+      "speaker_zh": 5,
+      "ts": "31:43",
+      "en": "This material should not be copied, distributed, published, or reproduced in whole or in part or disclosed by any recipient to any other person without the express written consent of Goldman Sachs.",
+      "zh": "未经 Goldman Sachs 明确书面同意，任何人不得全部或部分复制、分发、出版或再版本材料，或将其披露给任何接收方以外的其他人。"
+    },
+    {
+      "i": 150,
+      "speaker": 5,
+      "speaker_zh": 5,
+      "ts": "31:51",
+      "en": "Disclosures applicable to research with respect to issuers, if any, mentioned herein are available through your Goldman Sachs representative or at www.gs.com.",
+      "zh": "关于文中提及的发行人的研究相关披露（如有），可通过您的 Goldman Sachs 代表获取，或访问 www.gs.com。"
+    },
+    {
+      "i": 151,
+      "speaker": 5,
+      "speaker_zh": 5,
+      "ts": "32:02",
+      "en": "Goldman Sachs does not endorse any candidate or any political party. Copyright 2026, Goldman Sachs, all rights reserved.",
+      "zh": "Goldman Sachs 不背书任何候选人或任何政党。Copyright 2026, Goldman Sachs, 保留所有权利。"
+    }
+  ]
+}

@@ -1,0 +1,1001 @@
+{
+  "show": "swimming-with-allocators",
+  "kind": "transcript",
+  "id": "swimming-with-allocators-bd9c0d72",
+  "slug": "2026-10-14-stop-taking-dumb-money-bd9c0d72",
+  "date": "2026-10-14",
+  "title_en": "Stop Taking Dumb Money",
+  "title_zh": "别再拿“傻钱”：Craig Schedler（Intuit Ventures）谈企业风投的直投与 LP 双轮",
+  "subtitle_zh": "Intuit Ventures 负责人 Craig Schedler 分享企业风投如何用 LP 出资、尽调基金与“翻译”内外需求创造价值。",
+  "description": "Stop Taking Dumb Money",
+  "duration": "48:56",
+  "duration_seconds": 2936,
+  "episode_url": null,
+  "audio_url": "https://traffic.megaphone.fm/TGL8506175310.mp3",
+  "speakers": {
+    "1": "Alexa Binns（主持）",
+    "2": "Earnest Sweat（主持）",
+    "3": "Craig Schedler（嘉宾）",
+    "4": "Shane Goudey（嘉宾）",
+    "5": "片花/广告（旁白）"
+  },
+  "turn_count": 122,
+  "turns": [
+    {
+      "i": 0,
+      "speaker": 5,
+      "speaker_zh": 5,
+      "ts": "00:01",
+      "en": "Every holiday season, I put pressure on myself to find the perfect gift, but getting it right isn't always easy. That's why Sephora is my go-to for holiday gifting.",
+      "zh": "每到节日季，我都会给自己施压，想挑到完美的礼物，但要选对可不容易。所以节日送礼，我首选 Sephora。"
+    },
+    {
+      "i": 1,
+      "speaker": 5,
+      "speaker_zh": 5,
+      "ts": "00:10",
+      "en": "Even if you're not a beauty shopper, Sephora has gifts for everyone, and their beauty advisors can help take the guesswork out of gifting. This holiday season, we all Sephora. Whether they're into fragrance, makeup, skin care, or hair care, Sephora makes it easy to find something thoughtful they'll actually love.",
+      "zh": "就算你平时不买美妆产品，Sephora 也有适合每个人的礼物，他们的美妆顾问还能帮你省去送礼靠猜的烦恼。这个节日季，我们都选 Sephora。无论对方喜欢香水、彩妆、护肤还是护发，Sephora 都能让你轻松挑到一份贴心、他们真正会喜欢的礼物。"
+    },
+    {
+      "i": 2,
+      "speaker": 5,
+      "speaker_zh": 5,
+      "ts": "00:26",
+      "en": "Shop gifts at Sephora and give something beautiful. Your Sausage McMuffin with Egg didn't change. Your receipt did. The Sausage McMuffin with Egg Extra Value meal includes a hash brown and a small coffee for just $5. Only at McDonald's for a limited time.",
+      "zh": "到 Sephora 挑礼物，送出一份美好。你的猪柳蛋麦满分（Sausage McMuffin with Egg）没变，变的是你的账单。猪柳蛋麦满分超值套餐包含一份薯饼和一杯小杯咖啡，只要 5 美元。仅限 McDonald's，限时供应。"
+    },
+    {
+      "i": 3,
+      "speaker": 5,
+      "speaker_zh": 5,
+      "ts": "00:42",
+      "en": "Price and participation may vary. Promotion pricing may be lower than meal pricing. Welcome to Swimming with Allocators, the VC podcast from the LP perspective.",
+      "zh": "价格和参与门店可能有所不同。促销价可能低于套餐价。欢迎收听 Swimming with Allocators，一档从 LP（有限合伙人）视角出发的风投播客。"
+    },
+    {
+      "i": 4,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "00:53",
+      "en": "With your host, Alexa Binz and Ernest Sepp. You ready? Let's dive in. Thank you so much for being here, Craig. Thank you for having me. It's great to be here today.",
+      "zh": "本期主持是 Alexa Binz 和 Ernest Sepp。准备好了吗？我们开始吧。非常感谢你来做客，Craig。谢谢你们邀请我，今天很高兴能来。"
+    },
+    {
+      "i": 5,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "01:04",
+      "en": "Absolutely. Before we get into everything that Into Adventures does, we'd love to learn a little bit about you and your journey leading Northwestern Mutual Ventures program and things that led up to you being at Into It.",
+      "zh": "当然。在我们聊 Intuit Ventures 做的这些事情之前，我们想先了解一下你本人，以及你一路带领 Northwestern Mutual Ventures 项目、最终来到 Intuit 的经历。"
+    },
+    {
+      "i": 6,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "01:20",
+      "en": "Yeah. I spent the first part of my career in investment banking and had the opportunity to work with a lot of founder-led businesses. That sort of piqued my curiosity around venture and what founders do and being able to support them and work with them.",
+      "zh": "好的。我职业生涯的前半段是在投资银行度过的，有机会跟很多创始人主导的企业打交道。这就勾起了我对风投的好奇——创始人都在做什么，以及怎么去支持他们、和他们共事。"
+    },
+    {
+      "i": 7,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "01:34",
+      "en": "And so I had the opportunity to join Northwestern Mutual back in 2014. Really at this, the inception of what became FinTech. It was just becoming a word.",
+      "zh": "所以我在 2014 年有机会加入了 Northwestern Mutual，正好是后来所谓金融科技（FinTech）的萌芽期。当时这个词才刚开始流行起来。"
+    },
+    {
+      "i": 8,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "01:44",
+      "en": "It was the very, very early days of what I'll call FinTech 1.0. So if you think back, it was all the disruption of consumer FinTech. It was disintermediating banks and insurance companies and incumbent wealth managers.",
+      "zh": "那是我所称的 FinTech 1.0 的最最早期。回想一下，那时候全都是面向消费者的金融科技的颠覆——它在对银行、保险公司和老牌财富管理机构做去中介化（disintermediation）。"
+    },
+    {
+      "i": 9,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "01:59",
+      "en": "And so it was this fascinating time for Northwestern Mutual to think about what does the future hold for us? And so it was tasked with standing up Northwestern Mutual Future Ventures, which was our corporate venture program, helping Northwestern Mutual prepare for that future that was at the time uncertain and what was going to happen and what their role was for it. And so I spent about 12 years building and running the team there.",
+      "zh": "所以对 Northwestern Mutual 来说，那是个很有意思的时期，要去思考未来会带给我们什么。于是我受命组建了 Northwestern Mutual Future Ventures，也就是我们的企业风投（corporate venture）项目，帮助 Northwestern Mutual 为当时还不确定的未来做准备——未来会发生什么、他们在其中扮演什么角色。我在那里花了大约 12 年来搭建并运营这个团队。"
+    },
+    {
+      "i": 10,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "02:25",
+      "en": "Invested in a lot of early successful kind of FinTech 1.0 companies. We were early investors in Betterment and in Chime and some very successful companies that delivered great financial results and performance, as well as strong strategic values.",
+      "zh": "我们投了很多早期成功的 FinTech 1.0 公司。我们是 Betterment 和 Chime 的早期投资人，还有一些非常成功的公司，它们既带来了出色的财务回报和业绩，也带来了很强的战略价值。"
+    },
+    {
+      "i": 11,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "02:40",
+      "en": "We built the program over the years. So from that seat saw how FinTech evolved, how InsureTech came into being, and more recently, WealthTech was the area that we were focused on pretty heavily. And so from that experience, had the opportunity to join into it.",
+      "zh": "这些年我们把这个项目一点点做起来。所以坐在那个位置上，我见证了金融科技（FinTech）如何演进、保险科技（InsureTech）如何兴起，而最近这几年，财富科技（WealthTech）是我们重点关注的领域。也正是凭借这段经历，我才有机会加入 Intuit。"
+    },
+    {
+      "i": 12,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "02:58",
+      "en": "And I think it's been a fascinating time to join into it as we look at how the technology landscape continues to evolve with AI and how that pushes technology forward and forces incumbents to look at their businesses in a different way. But what really tracked me into it was the breadth of the platform and the reach of it. So a lot of ways in which we can drive value across the organization. And so joined into it about a year ago now and really focusing on how we can drive",
+      "zh": "我觉得，加入 Intuit 正值一个很有意思的时期：我们看到技术格局如何随着 AI 不断演进，AI 如何推动技术向前，并迫使老牌企业用不同的眼光重新审视自己的业务。而真正吸引我加入 Intuit 的，是这个平台的广度和触达范围——我们能在整个组织的很多层面创造价值。所以我大约一年前加入了 Intuit，真正专注于我们如何能够推动"
+    },
+    {
+      "i": 13,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "03:29",
+      "en": "into it, drive insights and new opportunities for partnerships into into its businesses. So around our consumer businesses, so TurboTax and Credit Karma, looking at the future of consumer finance, and then also around our SMB product, our small business, you know, QuickBooks, obviously there, and then also our emerging mid-market business. So looking at our into an enterprise sweet and how we help mid-market businesses grow and succeed. So like I said, it's really just a",
+      "zh": "Intuit 把洞察和新的合作机会带进它各项业务里。比如围绕我们的消费者业务——TurboTax 和 Credit Karma——去看消费者金融的未来；还有围绕我们的小微企业（SMB）产品，也就是小企业，显然 QuickBooks 就在那里；再就是我们新兴的中端市场（mid-market）业务。所以是去看 Intuit Enterprise Suite，以及我们如何帮助中端市场企业成长和成功。就像我说的，这真的是一个"
+    },
+    {
+      "i": 14,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "03:58",
+      "en": "it's a fascinating platform and a great time to be into it. Craig, during our prep conversation, I was really intrigued by your experience at Northwestern Mutual and kind of being at the ground floor of building that out.",
+      "zh": "非常迷人的平台，而现在正是待在 Intuit 的好时候。Craig，在我们录制前的沟通里，我对你在 Northwestern Mutual 的经历、以及你算是从零开始搭建那个项目的过程特别感兴趣。"
+    },
+    {
+      "i": 15,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "04:15",
+      "en": "And I'm curious now that you're into it, what were some of the lessons you learned with developing, you know, a corporate venture program? It can look a lot of different ways that you've applied to into it. I think, you know, I've been through enough of this in, you know, a decade plus of being in corporate venture. I think the number one thing I've learned is you need to be very clear on your North Star. What does the organization need and want and value",
+      "zh": "我很好奇，如今你在 Intuit，你在搭建企业风投项目这件事上学到了哪些经验？它可以呈现出很多不同的形态，而你把哪些用到了 Intuit 上？——我觉得，我在企业风投这行干了十多年，经历得够多了。我认为我学到的头号经验就是：你必须非常清楚自己的北极星（North Star）是什么。组织需要一个企业风投项目做什么、想要什么、看重什么？"
+    },
+    {
+      "i": 16,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "04:44",
+      "en": "from a corporate venture program? And I don't think there's a right or wrong answer to that necessarily. I think there's variations of good and maybe not quite as good, but I think overall like every company is going to approach it differently, have different expectations and have different aspects of the program that they want to derive value from. So it can start with, you know, an M&A pipeline, you know, if you're simply looking for companies to get a toehold",
+      "zh": "——从这个项目里得到什么？我觉得这不一定有对错之分。有的是好，有的可能没那么好，但总体而言，每家公司都会用不同的方式去做，有不同的预期，也有各自想从这个项目里获取价值的不同侧面。所以它可以从一条并购（M&A）管线开始——如果你只是想找一些公司先占个落脚点（toehold），"
+    },
+    {
+      "i": 17,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "05:09",
+      "en": "in to understand and ultimately look to acquire those businesses, that's one way that that can be effective. I think one other way can be more financially driven if you're thinking about it strictly from a financial perspective, although within a corporate setting I think that can be a little bit of a challenge. But then I think that's like everything in between. I think what I've seen be successful is how can you really drive strategic insights? You know, I think the",
+      "zh": "去理解它们、并最终考虑收购这些业务，那是一种可行的方式。我觉得另一种方式可以更偏财务驱动——如果你纯粹从财务角度来考虑的话，尽管在企业内部这么做我觉得会有点挑战。然后中间还有各种形态。我见过真正成功的，是你能否真正带来战略洞察。我觉得，"
+    },
+    {
+      "i": 18,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "05:36",
+      "en": "business units and the GMs and, you know, the leaders of businesses across Intuit are spending a lot of their time focused on, you know, what their business is doing, what they're trying to build, what they're trying to deliver in the next quarter, the next year, the next couple of years even. And I view our role as supporting them and enhancing their knowledge with outside perspective.",
+      "zh": "Intuit 内部各个业务单元、总经理（GM）和业务负责人，把大量时间都放在自己的业务上——他们在做什么、想打造什么、下个季度、下一年、甚至未来几年要交付什么。而我把我们的角色定位为：用外部视角去支持他们、拓展他们的认知。"
+    },
+    {
+      "i": 19,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "05:57",
+      "en": "So how do we go about investing in companies that can deliver that value, that insight into our business? And so we can go about that a variety of ways, but really sort of coming back to when we meet a company, we say, hey, okay, that's something that's interesting to this part of our business, or we know this is on our strategic roadmap for next year. We need to help the business understand like, here's an approach and here's something that could be a potential",
+      "zh": "那么，我们怎么去投资那些能为业务带来这种价值、这种洞察的公司呢？做法可以有很多种，但归根结底，当我们遇到一家公司时，我们会说：嘿，好，这个东西对我们业务的这一块很有意思，或者我们知道它就在我们明年的战略路线图上。我们需要帮助业务去理解：这是一种思路，这是一个潜在的"
+    },
+    {
+      "i": 20,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "06:22",
+      "en": "partner. It could be some way that, you know, Intuit could potentially work with a company as part of a go-to-market strategy. You're overseeing both direct investments as well as some LP commits. And you've said you're surprised that more corporate venture programs don't also take this LP route. Yes, it's interesting to me. I think, again, a lot of corporate venture funds approach things differently. And I think primarily where they start is around direct investments. It's",
+      "zh": "合作伙伴，也可能是 Intuit 能以某种方式与一家公司合作、作为市场进入（go-to-market）战略的一部分。——你既负责直接投资，也做一些 LP 出资（LP commits）。你说过，让你意外的是，更多的企业风投项目并没有走 LP 这条路。——是的，这一点我觉得很有意思。我觉得，很多的企业风投基金做事方式各不相同。而我认为它们主要的起点大多是直接投资。这"
+    },
+    {
+      "i": 21,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "06:52",
+      "en": "sort of the most obvious route. There are startups, we're a company, we can allocate capital, we can invest in these companies, we can gather whatever value or we can, you know, partner with them in whatever way is important. So I think that's sort of where most corporate venture programs start.",
+      "zh": "算是最显而易见的路径：那里有初创公司，我们是一家企业，我们可以配置资本、可以投资这些公司、可以获取各种价值，或者以任何重要的方式与它们合作。所以我觉得，这就是大多数企业风投项目的起点。"
+    },
+    {
+      "i": 22,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "07:08",
+      "en": "I think the piece that does get missed is the LP element. And virtually every corporate venture fund that I know is, you know, they've got limited resources. They're resource constrained.",
+      "zh": "我觉得真正被忽略的那一块，是 LP 这个环节。而且几乎我认识的每一支企业风投基金，都是——他们资源有限，受到资源约束。"
+    },
+    {
+      "i": 23,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "07:21",
+      "en": "And in addition to doing sort of the venture aspect of it, there's the internal stakeholder management piece of it. And so I think corporate team, some corporate venture teams sometimes miss that. You can supplement and compliment what you're doing with direct investments with a thoughtful, well-structured LP program. And I think that gets overlooked for a few reasons. One is you sort of understand startups maybe, but then there's this other world of",
+      "zh": "而且除了做风投这部分，还有内部利益相关方管理这一块。所以我觉得，有些企业风投团队有时会忽略这一点：你可以用一个经过深思熟虑、结构良好的 LP 项目，来补充和增益你在直接投资上做的事。我认为这一点被忽视有几个原因。一是你也许大致懂初创公司，但另外还有那么一个充满"
+    },
+    {
+      "i": 24,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "07:49",
+      "en": "terms and jargon and funds that you don't get. There's GPs. What is that? You know, what does it mean to be an LP? So I think there's sort of an additional education element that sometimes isn't there. So I think that's number one. I think the other thing is it can be looked at as kind of like outsourcing your role as, you know, I was given this responsibility to make investments and develop relationships with startups and the startup ecosystem, but then I'm going to go have",
+      "zh": "术语、行话和基金的世界，是你搞不明白的。有 GP（普通合伙人），那是什么？做 LP 又意味着什么？所以我觉得这里还有一个额外的补课环节，而这个环节有时是缺失的。这是第一点。我觉得另一点是，它可能被看作是在把你的职责外包出去——就好像说，我拿到了这份职责，要去做投资、要和初创公司及初创生态建立关系，但接下来我却要去找"
+    },
+    {
+      "i": 25,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "08:18",
+      "en": "someone could be perceived as do it for me. And I think that's a very narrow way of looking at it as saying, you know, I'm just going to have someone do it for me. So it can be very complimentary.",
+      "zh": "别人，可能会被理解成让别人替我做。我觉得这是一种非常狭隘的看法，等于在说我就是找个人替我做。其实它可以是非常互补的。"
+    },
+    {
+      "i": 26,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "08:28",
+      "en": "And I think it does surprise me sometimes that more corporate venture teams don't use LP commitments as part of kind of a broader strategy to deliver on the strategic objectives.",
+      "zh": "所以我有时确实感到意外：更多的企业风投团队没有把 LP 出资作为更广泛战略的一部分，用来实现那些战略目标。"
+    },
+    {
+      "i": 27,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "08:41",
+      "en": "How would you advise an organization to start that process? You know, I've, we've had on the show before, you know, Deloitte, the Canada National Office, Deloitte Ventures, they started their approach of even getting to understand the marketplace by investing in firms. But let's say you've already done kind of, as you said, the first start with directs. Now, how do you incorporate this other toolkit, tool in the toolkit box of investing in funds? What's the",
+      "zh": "你会建议一个组织怎么开始这个过程呢？我们节目之前请过 Deloitte，就是 Deloitte 加拿大全国办公室、Deloitte Ventures，他们甚至是通过投资一些事务所来着手了解市场的。但假设你已经像你说的那样，先从直接投资起步了。那么，你要怎么把投资基金这个工具也纳入你的工具箱呢？什么是"
+    },
+    {
+      "i": 28,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "09:17",
+      "en": "right way and right approach? Yeah, I think it really starts with, you know, if you are starting from a direct investment first or a direct investment exclusive approach, as you are out making those investments, you're inevitably going to meet venture funds, like you're going to run into other funds, obviously, that are looking at the same types of deals, the same opportunities, the same broad category of companies. And so I think you can develop an appreciation for who",
+      "zh": "正确的方式和正确的路径？——是的，我觉得这真的要从这里说起：如果你是从直接投资优先、或者纯直接投资的方式起步，那么在你四处做这些投资的过程中，你不可避免地会遇到风投基金——你显然会碰到其他基金，它们在看同类型的项目、同样的机会、同一大类的公司。所以我觉得，你逐渐就能判断出谁"
+    },
+    {
+      "i": 29,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "09:44",
+      "en": "you think is a good investor and who's maybe not quite as good or someone that's a little more focused on what you, the types of investments that you're interested in. So I think that can happen very naturally through, you know, just sort of being in the venture ecosystem, you can say, hey, you know, we've now run across this fund, the last four opportunities we've looked at, they've also been investing in or looking at. And so you sort of see like, we're quickly",
+      "zh": "是好的投资人，谁可能没那么强，或者谁在你感兴趣的那类投资上更专注。所以我觉得，这可以非常自然地发生——只要你身处风投生态之中，你就能说：嘿，我们最近碰上了这支基金，我们看的最近四个项目，他们也在投或者也在看。于是你就发现，我们很快"
+    },
+    {
+      "i": 30,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "10:08",
+      "en": "developing a, there's pattern here that, you know, we're seeing and looking at the same opportunities. And so I think that's one way. I think the other way is just you do, you know, through a little bit of cold outreach, if you were just interested in getting to no funds, again, that you had seen or met or seen in other settings, I think that's a really good way to to do that. And, you know, I think very astute GPs will quickly recognize that, you know, we're",
+      "zh": "就形成了一个规律——我们在看同样的机会。所以这是一种方式。另一种方式是，你可以做一点点主动陌生联络（cold outreach），如果你只是想认识一些你见过、碰过、或在其他场合看到过的基金，我觉得这是很好的方式。而且我觉得，非常精明的 GP 会很快意识到，我们"
+    },
+    {
+      "i": 31,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "10:35",
+      "en": "seeing this and, you know, could they be a potential LP for the next fund kind of thing. But I think that's a really great way is just through the direct investment program, you're going to start running into or, you know, engaging with and interacting with other funds.",
+      "zh": "在看这些项目，进而想到他们会不会是我下一支基金的潜在 LP 之类的。但我认为，通过直接投资项目，你真的会开始碰到、并开始与其他基金接触和互动，这是非常好的方式。"
+    },
+    {
+      "i": 32,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "10:49",
+      "en": "And that's a really great way to sort of see how they think, how they invest, what types of investments are, you know, our core to their focus and thesis. It's one thing to assume, you know, you bump into people, then they're part of kind of like, okay, this is a nexus of people that we could potentially invest in. But when it comes to the actual diligently funds, you're already, you know, as an organization building out a new practice and skill set of investing in",
+      "zh": "而这也是很好的方式，去了解他们怎么思考、怎么投资，哪些类型的投资是他们关注和投资主题（thesis）的核心。碰上一些人是一回事——好，这些算是我们潜在可投的人脉节点。但真正要对基金做尽职调查（diligence）时又是另一回事——你作为一个组织，本来就已经在搭建投资初创公司这套全新的做法和技能，"
+    },
+    {
+      "i": 33,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "11:16",
+      "en": "startups. How do you think about developing diligently funds as well? Like, especially given, as you mentioned earlier, each corporate venture program has a specific different north star or should have a north star. So how do you align that with the diligence of a fund? It's a very different approach to direct investment. I think what becomes important, what you focus on, how you approach diligence is different from a direct investment, I think for a whole host of",
+      "zh": "那么你又怎么去培养对基金做尽调的能力呢？尤其是像你前面提到的，每个企业风投项目都有一个各自不同、或者说应该有一个北极星目标。那么你怎么把这个目标和对基金的尽调结合起来？——这与直接投资是很不一样的做法。我觉得，什么是重要的、你关注什么、你怎么做尽调，都跟直接投资不同，原因是有一大堆"
+    },
+    {
+      "i": 34,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "11:47",
+      "en": "reasons. And I think from the GP's perspective, they need to understand that the diligence a corporate or potential corporate LP is going to want to do is probably going to look different from what I'll call traditional institutional LP. But I think when a corporate starts to evaluate a first fund, I think there's a few important things to look at. Number one is does their investment thesis align to areas we care about? Number one, obviously, like this needs to be",
+      "zh": "原因。而且我觉得，站在 GP 的角度，他们需要明白：一家企业、或潜在的企业 LP 想要做的尽调，很可能跟我所说的传统机构 LP 不一样。但我认为，当一家企业开始评估一支基金时，有几件重要的事要看。第一，他们的投资主题是否与我们关注的领域一致？第一条很显然——这必须是一支"
+    },
+    {
+      "i": 35,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "12:15",
+      "en": "a fund that is investing in areas that we're interested in. I think similarly, you can't expect any fund to invest in 100% of things that you care about. Like, a fund is going to have a mandate. Let's just say you can see they're investing in fintech, right? That's a pretty broad category. And if I'm an insurance company, I can't expect every investment they do to align perfectly to insurance or to wealth management or whatever. Like, they're building a portfolio,",
+      "zh": "投资于我们感兴趣领域的基金。同样地，你不能指望任何一支基金 100% 都投在你关心的东西上。因为一支基金会有它的投资使命（mandate）。就说你能看出他们在投金融科技（fintech），对吧？那是个相当宽泛的类别。如果我是一家保险公司，我不能指望他们的每一笔投资都完美契合保险、或财富管理之类的。他们在构建一个投资组合，"
+    },
+    {
+      "i": 36,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "12:43",
+      "en": "they're trying to select the best companies that they believe have potential for outsized returns. And so not every investment is going to fit perfectly. So I think you need to be realistic on how much of the portfolio, how much of the focus is going to align to your specific areas of interest. I think the other thing is have a very candid conversation around how they approach engagement with LPs. There are lots of funds that say, we'll send you a quarterly capital",
+      "zh": "他们在努力挑选那些他们认为有潜力带来超额回报的最佳公司。所以不是每笔投资都会完美契合。因此我觉得，你需要现实一点：这个组合里、这个关注点里，到底有多大比例会与你具体感兴趣的领域一致。我觉得另一件事是，要就他们如何与 LP 互动进行非常坦诚的对话。有很多基金会说：我们会给你寄季度的资本"
+    },
+    {
+      "i": 37,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "13:12",
+      "en": "account statement, we might send you a semi-annual letter, and that's all we do. And that's fine. Like, if that's a fund's approach, then I think you need to know that, know that probably if you're a corporate LP, that's probably not a fund that you're going to want to invest in. So I think being very upfront with, you know, we're going to have certain expectations that are reasonable around, you know, maybe it's a quarterly call, it's a semi-annual in-person meeting, it's, you",
+      "zh": "账户对账单，可能再寄一封半年度信，我们能做的就这些。这也挺好。如果这就是某支基金的做法，那我觉得你需要知道这一点——如果你是企业 LP，那这大概率不是你会想投的基金。所以要非常直白地讲清楚：我们会有一些合理的预期，也许是每季度一次电话会、每半年一次线下会面，也许是你"
+    },
+    {
+      "i": 38,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "13:38",
+      "en": "know, whatever is the appropriate cadence for you to, that you want is the LP and for the GP to sort of manage their workload. I don't think it's reasonable to ask for like a seat on the investment committee or, you know, a right of refusal on investments or things that, you know, are going to alter the fund's investment approach. I think it's being realistic around what you can expect from a GP and similarly what the GP can expect in return. But I think then the other",
+      "zh": "作为 LP 想要的、以及便于 GP 管理自己工作量的那种合适的节奏。我不觉得要求一个投资委员会席位、或投资优先拒绝权（right of refusal）、或那些会改变基金投资方式的东西是合理的。我觉得要现实地看待：你能对 GP 有什么预期，反过来 GP 又能有什么预期。但我觉得，另外一件"
+    },
+    {
+      "i": 39,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "14:08",
+      "en": "thing that I think is extremely helpful, it sometimes gets overlooked, is if you are a corporate, potential corporate LP, talk to other LPs, ask for intros to other corporates, ideally, that have invested with them. And I think in my experience, corporate LPs are fairly transparent and will be somewhat frank around, this fund does an excellent job, this one maybe not quite as well, and, you know, it's a little bit of, during fundraising, GPs will promise a lot of things",
+      "zh": "我觉得极其有帮助、但有时被忽视的事是：如果你是一家企业、潜在的企业 LP，去和其他 LP 聊聊，请他们引荐其他（最好是已经投过这支基金的）企业。以我的经验，企业 LP 是相当透明的，也会比较坦率地说：这支基金做得非常出色，那支可能就没那么好。而且，在募资期间，GP 会承诺很多东西，"
+    },
+    {
+      "i": 40,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "14:39",
+      "en": "as they're out there, you know, and what's realistic or what have they done previously. Ask for the materials they send to their LPs, you know, is it a simple two-page letter that talks about financial performance and that's it, which is an approach, you know, if that works for their LPs, great. But again, it comes back to you as the corporate LP, you know, what are you looking for, and understanding what's possible again, what's realistic, and then having sort of that very",
+      "zh": "他们在外面募资时。所以要看什么是现实的、他们以前又做过什么。要一份他们寄给 LP 的材料看看——是不是就是一封简单的两页信，讲讲财务业绩就完了？这也是一种做法，如果这对他们的 LP 管用，那很好。但话说回来，这还是要落到你作为企业 LP 身上：你在找什么，并且理解什么是可能的、什么是现实的，然后就双方是否是潜在的合适对象，进行那种非常"
+    },
+    {
+      "i": 41,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "15:07",
+      "en": "open conversation up front to make sure and understand if it's a potential fit on both sides. I've had strategic LPs say, can we just have a download of your CRM? And you're like, well, interesting. I mean, how much do you want to give us?",
+      "zh": "开放的对话，事先把事情讲清楚。我就遇到过战略 LP 说：我们能不能直接下载你们的 CRM（客户关系管理）数据？你会想：嗯，有意思。那你们打算给我们出多少钱？"
+    },
+    {
+      "i": 42,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "15:23",
+      "en": "Yeah, and I think similarly, like, again, on the corporate side, like, you can't be asking for, like, a write-off for, like, if a company enters, if a corporate company enters an M&A process, you can't require any type of exclusivity or first look, last look, like, that's not, that's not market. You might want that. And if a good, you know, a good GP would want to include you in a process, obviously, but you can't ask for anything that's off-market, again, understanding,",
+      "zh": "是的，我觉得同样地，在企业这一侧，你不能要求某种特殊待遇——比如如果一家被投企业进入并购（M&A）流程，你不能要求任何形式的独家权、或优先看/最后看（first look, last look），那不是市场惯例。你也许会想要，一个好的 GP 显然也愿意把你纳入流程，但你不能要求任何偏离市场惯例的东西。同样，要理解"
+    },
+    {
+      "i": 43,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "15:48",
+      "en": "like, what market terms are. Because I think when you get into, if you do decide, yes, this is a fund we want to invest in, you get into the terms of an LP agreement are going to look very different than the terms on a direct investment, obviously. There's waterfalls, there's tax implications, there's, you know, all these things that need to be considered and evaluated. And it's developing that skill set, which is very different from making a direct investment.",
+      "zh": "什么是市场条款。因为我觉得，如果你确实决定了：对，这是我们想投的基金，那么接下来 LP 协议（LP agreement）的条款，显然会跟直接投资的条款大不相同。有分配瀑布（waterfall）、有税务影响，还有各种需要考虑和评估的东西。而培养这套技能，跟做直接投资非常不一样。"
+    },
+    {
+      "i": 44,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "16:15",
+      "en": "I'm fascinated, Craig, by sort of how these some areas get hot for a bit and then cool. And Northwestern into it, you, these are, these are companies that are massive entities that are not, that's not approved, there's plenty of value in fintech. But now you maybe have founders who don't want to identify as fintech or even GPs who say, well, we do fintech plus, we're also looking at these other things. Where do you see the opportunity right now in let's go fintech? Like,",
+      "zh": "Craig，我很着迷的一点是：有些领域会火一阵然后又降温。Northwestern Mutual 也好、Intuit 也好，这些都是体量庞大的机构——这并不是说金融科技没价值，金融科技里价值多的是。但现在你可能会遇到一些创始人不想把自己贴上金融科技的标签，甚至有些 GP 会说：我们做的是金融科技+，我们也在看其他这些东西。那么你现在觉得就叫金融科技这个机会在哪里？就像，"
+    },
+    {
+      "i": 45,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "16:54",
+      "en": "why pretend it's something different? There's probably lots of great investments to be done in this area. And I'm curious where you, where you're looking.",
+      "zh": "为什么要假装它是别的什么呢？这个领域里很可能有大量很棒的投资机会。我很好奇你在往哪儿看。"
+    },
+    {
+      "i": 46,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "17:05",
+      "en": "Yeah, it's interesting. I think if you look at it from a GP perspective, we've seen some evolution, I'll call it in how firms position themselves, what they look at.",
+      "zh": "是的，这很有意思。我觉得如果从 GP 的角度看，我们看到了一些演进——我称之为——各家机构如何给自己定位、看什么。"
+    },
+    {
+      "i": 47,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "17:18",
+      "en": "Fintech is by no means dead or anything like that. But I think what it has, like many things that evolved, you know, where the opportunities are around well described as like AI native fintech.",
+      "zh": "金融科技绝没有死掉之类的。但我觉得，就像很多演进中的事物一样，如今机会所在，被很好地描述为 AI 原生金融科技（AI native fintech）。"
+    },
+    {
+      "i": 48,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "17:28",
+      "en": "So how are you building vertical specific AI for financial services? And that can take a lot of different forms. So it can be everything from like an AI native accounts, accounts receivable management or revenue management product. It can be any of payroll, which like has fintech elements to it, like all these different areas are, I would say, very much have like a fintech core.",
+      "zh": "也就是：你如何为金融服务打造垂直领域的 AI？这可以有很多不同的形态。可以是 AI 原生的应收账款管理或营收管理产品，也可以是薪资发放（payroll）——它本身就带有金融科技的成分。所有这些不同领域，我会说，都非常有一个金融科技的内核。"
+    },
+    {
+      "i": 49,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "17:58",
+      "en": "But then it's like, how is AI enabling this to be better than incumbent solutions or even, you know, previous startups that have, you know, been around a little while, like what is, you know, how have, you know, how is this AI native, you know, series a company different from something that's more mature. And so I think that's obviously the biggest opportunity we've seen is around like vertical specific AI for financial services, and then like breaking that down into a whole host",
+      "zh": "但接下来的问题是：AI 如何让这东西比老牌解决方案、甚至比那些已经存在一段时间的初创公司更好？比如说，一家 AI 原生的 A 轮（Series A）公司，跟一个更成熟的东西相比，不同在哪里？所以我觉得，我们看到的最大机会，显然就是围绕面向金融服务的垂直 AI，然后再把它拆解成一大堆"
+    },
+    {
+      "i": 50,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "18:23",
+      "en": "of sub verticals within, within financial services. I think one of the advantages of having kind of these, these relationships as an LP as a corporate LP is, you know, informing the rest of the mothership on how to approach all the changes that are happening in the, in the world, frankly, but in specifically in your industry. Do you have anecdotes or stories around how these types of relationships or, you know, something that was outside of your sourcing channels you got from",
+      "zh": "金融服务内部的子垂直领域。——我觉得，作为 LP、作为企业 LP 拥有这些关系，其中一个好处就是：能把外面世界——坦白说尤其是你自己行业里——正在发生的所有变化，怎么去应对，反馈给母舰（mothership）的其余部分。你有没有什么轶事或故事，讲讲这类关系、或者某些在你常规项目源渠道之外的东西，你是怎么从"
+    },
+    {
+      "i": 51,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "19:04",
+      "en": "one of your relationships that helped inform the company on some insight? Yeah, I think going back to an earlier point, you know, corporate venture teams are generally lean. And so we can't see everything. We can't necessarily always see like the very, very nascent emerging spaces. We're not going to invest in, I'll use an example, agentic commerce is, you know, a very kind of within the fintech realm, the AI world, like very much in the nascent stage. And we're just from a, from a",
+      "zh": "你的某段关系里得到、并帮助公司获得某种洞察的？——是的，回到前面提到的一点：企业风投团队通常都很精简，所以我们没法什么都看到，未必总能看清那些非常非常初生的新兴空间。举个例子，代理式商务（agentic commerce）在金融科技、AI 世界里，还非常处于萌芽阶段。而我们单从"
+    },
+    {
+      "i": 52,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "19:38",
+      "en": "corporate venture on the direct side, we're not going to invest in a seed stage company doing agentic commerce. It's just, it's too early for us. And it's not necessarily something where we have direct line of sight to an into a product or an into a strategic initiative, specifically focused on that. But we conceived the opportunity and the potential for that. And so that's where we're going to leverage our LP network to say, what are you seeing? What have you invested in at the seed",
+      "zh": "企业风投的直接投资这一侧来说，我们不会去投一家做代理式商务的种子期公司。对我们来说太早了。而且它未必是我们能直接对应到某个 Intuit 产品、或某个专门聚焦于此的 Intuit 战略举措的东西。但我们看到了这个机会和它的潜力。所以这正是我们要借助 LP 网络的地方——去问：你们看到了什么？你们在种子期投过什么？"
+    },
+    {
+      "i": 53,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "20:04",
+      "en": "stage? Or maybe that was even, you know, too early for you, but you thought was a really awesome founder that you're going to stay in touch with. Could you make that intro for us? And so we recently did a session for, for a leadership team here around agentic commerce with that idea in mind that we had met a couple on our own. We wanted to, you know, supplement that and compliment that with what our, our, our GPs had seen and put together a really great session for our leadership",
+      "zh": "或者，也许那对你们来说都太早了，但你们觉得那是个特别棒的创始人，你们会保持联系——能不能帮我们引荐一下？所以，抱着这个想法，我们最近为这里的一个领导团队做了一场关于代理式商务的分享会。我们自己已经见过几家，我们想用 GP 们所看到的东西来补充和增益，为我们的领导团队呈现一场很棒的分享会，"
+    },
+    {
+      "i": 54,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "20:32",
+      "en": "team to have insight and perspective into an area that is, you know, around the corner, so to speak, but something that is, has as big ramifications and implications for us. And so wanting to do that, like that was a most recent example of that. Now we're going to take a quick break to speak with our sponsor. On the show today, we have our stellar partner and industry expert Shane Gowdy, leader of Sidley's venture funds practice. And now host of the podcast",
+      "zh": "让他们对一个可以说是就在眼前、但对我们有重大影响和意义的领域，获得洞察和视角。所以想做这件事——那就是最近的一个例子。——现在我们要稍作休息，跟我们的赞助商聊几句。今天来到节目现场的，是我们出色的合伙人、行业专家 Shane Gowdy，他是 Sidley 风投基金业务的负责人，现在也主持播客"
+    },
+    {
+      "i": 55,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "21:01",
+      "en": "talk VC. We highly recommend you listen, shifting topics a little bit. I know you started out your career in DC and we're always intrigued to hear from our, from our legal counsel, what we should be paying attention to on the, on the more government front. The invest act is one I would love to get sort of an update from you on and, and how the shift, shifting definition of accredited investors might affect our business. You know, one of the aspects which is already, which is",
+      "zh": "Talk VC。我们强烈推荐你去听。——稍微换个话题。我知道你的职业生涯起步于 DC（华盛顿特区），我们一直很想听听我们的法律顾问聊聊：在更偏政府这一侧，我们应该关注些什么。Invest Act（投资法案）就是我很想请你更新一下进展的，以及合格投资者（accredited investor）定义的变动会怎样影响我们的业务。——你知道，其中一个方面，已经"
+    },
+    {
+      "i": 56,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "21:37",
+      "en": "already a thing is the retailization of venture, right? Just the broader access to more people, to kind of traditional opportunities, which have been kind of foreclosed to them, just given investment accreditation standards and frankly, just level of sophistication to be able to invest in these kinds of deals. So, you know, there's that opportunity now where, you know, if the invest act kind of goes, it's a bipod, you know, widely bipartisan support. And, you know, there's",
+      "zh": "成为现实的，就是风投的零售化（retailization），对吧？就是让更多人能够接触到那些传统上对他们关着门的机会——之所以关着门，一是投资合格标准，二是坦白说，得有相应的成熟度才能投这类交易。所以现在就有了这个机会：如果 Invest Act 能推进——它是跨党派的，有着广泛的两党支持。而且里面"
+    },
+    {
+      "i": 57,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "22:10",
+      "en": "some very good things for venture in the act in the way of, you know, allowing much more opportunity to invest in secondaries without having to become registered advisors, you know, this 20% bucket rule. You know, and so there's some other, you know, kind of sweeteners in there to allow, it's just about access. It's about access and opportunity and that's always a good thing. But what I, you know, it's a little caveat mentor. It's kind of buyer beware because, you know, a lot",
+      "zh": "有一些对风投非常有利的内容，比如允许在不成为注册投资顾问的情况下，有更多机会投资二级份额（secondaries），也就是这个 20% 的篮子规则（bucket rule）。所以里面还有一些别的甜头来放开——说到底就是准入和机会，而那永远是好事。但我，你知道，这里有点买者自负（caveat emptor）的味道，因为很多"
+    },
+    {
+      "i": 58,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "22:39",
+      "en": "of, as you'll find in particular with emerging managers and working with the LPs when it's primarily high net worth or family office money, you know, the word sophistication is always in quotes. And so, you know, by opening markets up to people who have never really had an opportunity, that brings with it a lot of risk as well. And you just never know kind of the, this is a wonderful environment if I'm a litigator, you know, particularly a plaintiff's",
+      "zh": "——你会发现，尤其是在跟新兴管理人打交道、以及跟 LP 打交道时，如果资金主要来自高净值个人或家族办公室，成熟度（sophistication）这个词总是要打引号的。所以，把市场向那些从没真正有过机会的人打开，同时也带来了很多风险。你永远说不准——如果我是一名诉讼律师，尤其是原告"
+    },
+    {
+      "i": 59,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "23:06",
+      "en": "counsel, you know, with the kinds of opportunities that, you know, could come with a lot of, you know, potential cases because like, look, you know, one of these investors invest in a venture fund for the first time and then it goes belly up. And, you know, some of that is, you know, this is, they just expected some kind of venture guarantee to it all. And it was just, certainly you might be a smart person and you have a great net worth, but that doesn't always",
+      "zh": "方的律师，那这会是个绝妙的环境，因为可能带来大量潜在案子。你想想：这些投资人里有一位第一次投了一支风投基金，结果它翻了船（goes belly up）。其中一部分原因是，他们就是指望这一切有某种风投保证。当然，你也许是个聪明人、身家很高，但这并不总是"
+    },
+    {
+      "i": 60,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "23:31",
+      "en": "equate to a really great investor and what you're, and how to align those expectations. So, VCs just need to be super careful, you know, be careful what you wish for, because, you know, look, you know, having more capital in the market is always a good thing. So, I think that is a, that is a wonderful opportunity that the Invest Act allows the market to have. But I think it, it comes with its dangers. And from my perspective, I just know working with emerging managers or",
+      "zh": "等同于一个真正出色的投资人，也不等于你懂得如何让这些预期对齐。所以 VC 们必须格外小心——小心你所许的愿，因为，你想想，市场上有更多资本永远是好事。所以我认为，这是 Invest Act 给市场带来的一个绝佳机会。但我觉得它也伴随着风险。以我的视角，我只是清楚，跟新兴管理人、或者"
+    },
+    {
+      "i": 61,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "24:02",
+      "en": "like side funds to big funds where you can just think of the proverbial calls that we get about even filling out a subscription agreement and it becomes a 45 minute exercise of walking somebody through that. You could, you could very clearly see sophistication as in quotes. And, you know, I worry about, as a lawyer for these funds, I just worry about, you know, from a risk mitigation standpoint, what does that mean? So, I just think it, while the capital is available, I think VCs",
+      "zh": "跟从附属基金（side fund）到大基金打交道时——你只要想想我们接到的那些典型电话：光是填一份认购协议（subscription agreement），都变成了要花 45 分钟一步步带某人走完的过程。你能非常清楚地看到成熟度是打着引号的。作为这些基金的律师，我会担心，从风险缓释的角度看，这意味着什么？所以我觉得，虽然资本是有的，但 VC 们"
+    },
+    {
+      "i": 62,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "24:31",
+      "en": "just need to be a smart about kind of being purposeful about who you're onboarding. Not every investor has to be a strategically advantaged investor. But, you know, sometimes taking the money doesn't always, you know, result in great, you know, while you might be having an interim source of capital, they also don't tend to be just great repeat customers. And, you know, as you're building an institution and a franchise, trying to rely on a high net worth family office",
+      "zh": "就需要聪明一点，有目的地去选择你在引入谁。不是每个投资人都必须是有战略优势的投资人。但有时候，拿了钱并不总带来好结果——你也许得到了一个临时的资金来源，但他们往往也不会是很好的回头客。而当你在打造一家机构、一个品牌（franchise）时，去依赖一个高净值、家族办公室"
+    },
+    {
+      "i": 63,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "25:00",
+      "en": "kind of oriented space, unless you keep your funds at 20 million or 30 million or 50 million, you know, you're trying to build really an enterprise, you know, you're looking to cycle in new institutional commitments that will be around fund after fund after fund.",
+      "zh": "导向的这个圈子——除非你把自己的基金一直维持在 2000 万、3000 万或 5000 万的规模——否则你是真的想打造一家企业级机构，你会希望不断引入新的机构出资承诺，让它们一支基金接一支基金地长期陪着你。"
+    },
+    {
+      "i": 64,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "25:17",
+      "en": "So, I think it's also managing expectations about, you know, one's appetite and what really makes a great investor. And I think, you know, it's harder to do in a world where there's just a shotgun approach as opposed to a rifle approach. Yeah. No, in terms of managing relationships, I really hear you that if you are the first founder that a newly accredited investor is backing or the first VC manager that they're backing, that VC manager is taking on the responsibility of also",
+      "zh": "所以我觉得，这也是在管理预期——关于一个人的风险偏好，以及到底什么才造就一个出色的投资人。而且我觉得，在一个用霰弹枪（shotgun）而非步枪（rifle）方式行事的世界里，这更难做到。——是的。不，说到管理关系，我特别认同你说的：如果你是某个新晋合格投资者所支持的第一个创始人、或他们所支持的第一个 VC 管理人，那么这位 VC 管理人也就承担起了另一重责任，"
+    },
+    {
+      "i": 65,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "25:48",
+      "en": "being your basically your educator on the industry. And so you've added one more job title, you're now sort of like a wealth manager, educator on their behalf to say, yeah, these there's capital calls and maybe no distributions for a very long time, if ever. Yeah, yeah, welcome to venture.",
+      "zh": "也就是基本上要当他们在行业里的教育者。于是你多了一个头衔，你现在有点像一位财富管理人、替他们做教育，得告诉他们：是的，会有资本催缴（capital call），而且可能很长一段时间都没有分配（distribution），甚至永远没有。是啊是啊，欢迎来到风投世界。"
+    },
+    {
+      "i": 66,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "26:14",
+      "en": "Yeah, welcome to venture. Yeah, welcome to venture. You know, and then they start to finally learn what TV PI and DPI and what are all these fancy acronyms out the world where, you know, that, you know, success is always measured by and, oh, crap, you know, that's the kind of thing that now I may need to start to how to analyze these investments. And that's, you know, it's just not first nature to a lot of people. And, you know, so again, that maybe that's the,",
+      "zh": "是啊，欢迎来到风投世界。是啊，欢迎来到风投世界。然后他们才开始终于搞清楚 TVPI、DPI 是什么，以及外面这些花哨的缩写都是啥——要知道，成功与否总是用这些来衡量——然后哦，糟糕，这些东西现在我也许得开始学着怎么去分析这些投资了。而这，对很多人来说并不是与生俱来的本能。所以，也许这就是那种，"
+    },
+    {
+      "i": 67,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "26:40",
+      "en": "you know, old cranky guy on the lawn telling the kids to get off approach to the world. But I've just seen it be the case in practice that, you know, that that, you know, VCs, when it comes to kind of this retailization just need to be careful. And, you know, and that comes with like things like access funds and, you know, much larger organizations just raising capital for huge client bases. You know, those are the kinds of things that, you know, as a lawyer for",
+      "zh": "草坪上那个爱发脾气、冲孩子们嚷嚷滚开的老头式的处世态度。但我在实践中确实看到：VC 们在面对这种零售化时，就是需要小心。而这还伴随着一些东西，比如 access fund（准入型基金）、以及那些为庞大客户群募资的大得多的机构。这些都是那种，作为基金的律师，"
+    },
+    {
+      "i": 68,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "27:07",
+      "en": "the fund that you're just super protective about, and you're trying to be proactive in one's approach to not only how to do a fundraising and just look at kind of the capital that's at the table, but what does it mean from, you know, kind of a business operational standpoint in the future?",
+      "zh": "你会格外去维护、并且会努力在做法上保持主动的东西——不只是怎么做一次募资、只看摆在桌上的资本，还要想：从未来业务运营的角度看，这又意味着什么？"
+    },
+    {
+      "i": 69,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "27:21",
+      "en": "And how can you risk mitigate some of it or at least be aware of it as you take the capital off? Thank you for joining us on the show, Shane. If you're a GP or LP looking for expert guidance on fund formation and venture capital legal matters, you can visit Sidley's website, S-I-D-L-E-Y.com. And now back to our LP interview.",
+      "zh": "以及你怎么去缓释其中一些风险，或者至少在你接下这笔资本时心里有数？——谢谢你上我们的节目，Shane。如果你是正在寻找关于基金设立和风险投资法律事务专业指导的 GP 或 LP，可以访问 Sidley 的网站：S-I-D-L-E-Y.com。现在我们回到 LP 访谈。"
+    },
+    {
+      "i": 70,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "27:40",
+      "en": "To that point, where do you see corporate venture programs evolving, given there's so much change compared to where we were even five, six years ago?",
+      "zh": "说到这一点，你觉得企业风投项目会怎么演进？毕竟跟哪怕五六年前相比，变化都太大了。"
+    },
+    {
+      "i": 71,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "27:53",
+      "en": "Yeah, I think corporate venture has been through several phases. And I think the phase that we're entering now is, you know, when you start a corporate venture program, you know, whether, how you're leveraging, you know, GP relationships, I think there's a little bit of a honeymoon phase where it's, you know, we can do investments, we can develop relationships, we can start to, you know, deliver value. But it's like, what are you doing now that you've been around",
+      "zh": "是的，我觉得企业风投已经经历了几个阶段。我认为我们现在正进入的这个阶段是——当你启动一个企业风投项目，无论你是怎么利用 GP 关系的，我觉得都会有那么一段蜜月期：我们能做投资、能建立关系、能开始交付价值。但问题在于，当你已经存在了"
+    },
+    {
+      "i": 72,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "28:22",
+      "en": "year six, year seven, year eight, to show like there's real value being delivered here? And so I think it's the programs that are corporate managers that are thriving are really delivering on that, you know, on that narrative of, you know, here's how there's real actionable insights being delivered.",
+      "zh": "第六年、第七年、第八年，现在你在做什么，来证明这里确实在交付真正的价值？所以我觉得，那些真正蓬勃发展的项目、那些企业风投管理者，都在实实在在地兑现那个说法：看，我们就是这样交付了真正可落地的洞察。"
+    },
+    {
+      "i": 73,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "28:38",
+      "en": "And so I think that's where, again, the complement of, you know, of having an LP program becomes important to show in addition to what we're doing on the direct side, you know, we do have these additional relationships that drive value back to the mothership, so to speak, through our program. Roy Swan, who just recorded was talking about how kudos to anybody doing mission focused investing because it's actually twice as hard.",
+      "zh": "所以我觉得，这又回到了拥有一个 LP 项目的补充价值所在——它很重要，能表明：除了我们在直接投资这一侧做的事，我们确实还有这些额外的关系，能通过我们的项目把价值反哺回母舰。——Roy Swan 在我们刚录制的那期里就谈到，要向任何做使命导向投资（mission focused investing）的人致敬，因为这实际上难上加难。"
+    },
+    {
+      "i": 74,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "29:08",
+      "en": "You have strategic as well as financial goals. And corporate venture is very similar that you are picking from a smaller universe of deals. And there are sort of qualifiers that make it a relevant deal for you apart from the financial returns. What's that process look like when you and your team are looking at either, you know, an LP commit or a direct commit? Yeah, I think from that perspective, it's pretty interchangeable between direct and an LP. The way we approach it",
+      "zh": "你既有战略目标，也有财务目标。企业风投就很类似：你是从一个更小的项目池里挑选，而且除了财务回报，还有一些限定条件让一个项目对你来说是相关的。那么当你和你的团队在看一笔 LP 出资或一笔直接投资时，这个过程是什么样的？——是的，我觉得从这个角度看，直接投资和 LP 之间是相当可互换的。我们的做法是，"
+    },
+    {
+      "i": 75,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "29:52",
+      "en": "and the way that I think is important to approach it is, you need to be able to invest ahead of where the business is. So you'll see some corporate venture teams, and again, whether it's direct or LP, that say like, I need to have a business sponsor, I need to have someone that says they are going to work with this company or directly work with this fund and help support it, you know, so I need to have a business unit sponsor. That's an approach which I think makes it much more",
+      "zh": "而我觉得重要的做法是：你需要能够投资在业务当前所在的位置之前（invest ahead of where the business is）。所以你会看到一些企业风投团队——不管是直接投资还是 LP——他们会说：我需要有一个业务发起人（business sponsor），需要有个人说他们愿意跟这家公司合作、或直接跟这支基金合作并支持它，所以我需要有一个业务单元发起人。这是一种我觉得会让它更加"
+    },
+    {
+      "i": 76,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "30:18",
+      "en": "strategic. And I think to your point, Alexa, you take a relatively, you take already a frame set of operating, a framed opportunity set, you make it that much smaller. So I think that one from an opportunity set perspective is makes it challenging. And two, from a decision timeline perspective is challenging. You need to get by and if you need to sort of build that internal stakeholder, that can take, you know, weeks or however long, much longer. And if companies",
+      "zh": "战略化的做法。而且我觉得，Alexa，就像你说的，你本来面对的就是一个已经框定的经营/机会集合，你又把它进一步缩小。所以我认为，一是从机会集合的角度，这带来了挑战；二是从决策时间线的角度，也有挑战。你需要获得内部认可，如果你需要去搭建那个内部利益相关方的支持，那可能要花上好几周、甚至更久。而如果一家公司"
+    },
+    {
+      "i": 77,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "30:47",
+      "en": "raising a Series A or a fund is closing, like, you may need to make a decision in a much more, you know, accelerated time frame. So I think that that's a key element of it is, you know, what, you know, how do you sort of balance that strategic with the need to move more quickly.",
+      "zh": "在融 A 轮，或者一支基金正在关账（closing），那你可能就需要在一个快得多的时间框架内做决定。所以我觉得，这里的一个关键要素就是：你怎么在那种战略性和需要更快行动之间取得平衡。"
+    },
+    {
+      "i": 78,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "31:04",
+      "en": "So, and into it, and the way we did this at Northwestern Mutual as well is you need to be able to invest ahead of that. So you need to have from leadership, and again, this sort of goes back to the North Star of, we are going to look at areas aligned to key business priorities, the big bets of the organization and say, okay, you know, we're going to ensure alignment to that.",
+      "zh": "所以在 Intuit，以及我们在 Northwestern Mutual 当时的做法，都是你需要能够投在业务前面。所以你需要从领导层那里获得支持——这又回到了北极星：我们要看那些与关键业务优先级、组织的重大押注相一致的领域，并且说：好，我们要确保与这些保持一致。"
+    },
+    {
+      "i": 79,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "31:25",
+      "en": "But then within that, we're going to have some freedom within fences to make an investment. And as long as, you know, my team and my leadership is clear on what that is, then we should then we're going to make the investment. And yet we're going to want to, as part of diligence, I always say the best part of being corporate venture is I can tap into an expert network of, you know, 10,000 plus associates and into it and say, we're looking at this company, tell me what you think,",
+      "zh": "但在这个框架之内，我们会有一定的围栏内的自由（freedom within fences）去做投资。只要我的团队和我的领导层清楚这个边界是什么，那我们就该出手投资。而在尽调环节，我总会说，做企业风投最棒的一点是：我可以调动 Intuit 内部一万多名同事组成的专家网络，然后说：我们在看这家公司，告诉我你怎么看，"
+    },
+    {
+      "i": 80,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "31:53",
+      "en": "what would you, how would you integrate it, what would you pay for it, if we're trying to sell, like, that's an amazing leg up, I think, is to have that expert network. But I need to be able to use it as an expert network and not as a, as a mechanism that, you know, has to have approval rights on an investment. So being able to have that, again, that freedom with fences and the ability to invest ahead of that. I always felt like starting my venture career in corporate",
+      "zh": "你会怎么整合它、你愿意为它出多少钱、如果我们要卖的话。我觉得，拥有这样一个专家网络是极大的优势。但我需要能够把它当作专家网络来用，而不是当成一个必须对投资拥有审批权的机制。所以能够拥有那种围栏内的自由、以及投在业务前面的能力，这一点很重要。我一直觉得，我的风投职业生涯从企业"
+    },
+    {
+      "i": 81,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "32:20",
+      "en": "venture gave me such a leg up on a skill set that's really important, which is being able to cultivate relationships quickly in places that you might be a little bit outside. And so whether that's going into a new market of different startups that might be strategic to your company, or sometimes even more difficult is going internal and being able to gain trust and relationships and insights from those who work in the company and being able to judge both sides",
+      "zh": "风投起步，给了我在一项非常重要的技能上极大的优势——那就是能够在你可能有点局外的地方快速培养关系。无论是进入一个由不同初创公司构成的、可能对你公司有战略意义的新市场，还是有时候更难的——走进公司内部，能够从公司里的人那里赢得信任、建立关系、获取洞察，并且能够判断两边"
+    },
+    {
+      "i": 82,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "32:56",
+      "en": "and like, what is the actual truth? How have you, you know, dealt with that tension of managing translation? Yeah, the translation questions are a really great one. We spend, the very unique part of my role is we spend probably more time external than internal, and we need to balance that obviously.",
+      "zh": "以及到底什么才是真相？——你是怎么处理那种做翻译、传导（managing translation）的张力的？——是的，翻译这个问题问得非常好。我这个角色非常独特的一点是，我们花在外部的时间可能比内部还多，当然我们也需要平衡这一点。"
+    },
+    {
+      "i": 83,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "33:20",
+      "en": "But it is a very much a translation game. When it, when a startup that we're, whether we've invested in or one that we're thinking about investing in, you know, wants to work within to it, we need to sort of help them understand like, there's going to be a process, there's going to be here the stakeholders, this is not like an immediate, you know, every large organization has that sort of their own hierarchy and mechanism for, you know, for doing things like that. And so",
+      "zh": "但这确实很大程度上是一场翻译的游戏。当一家初创公司——不管是我们已经投过的、还是我们正在考虑投资的——想跟 Intuit 合作时，我们需要帮他们理解：会有一个流程、会有这些利益相关方，这不是一蹴而就的；每个大组织都有自己那套层级和机制来做这类事情。所以"
+    },
+    {
+      "i": 84,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "33:49",
+      "en": "helping that, helping that startup understand it. So we have to be able to, to your point, like be able to translate that to say, okay, yes, you want to do this, but you're going to need to do these things before that, or to get ready for the conversation. Or even if I think what happens most frequently as a company that we've either recently invested in or are close to investing and says, well, you know, put me in touch with this executive like next week. And it's like,",
+      "zh": "就是要帮那家初创公司理解这一点。所以我们必须能够——就像你说的——去翻译：好，是的，你想做这件事，但在那之前你得先做这些准备，或者为这场对话做好准备。甚至，我觉得最常发生的情况是：一家我们最近刚投、或快要投的公司会说，嗯，下周帮我联系一下某位高管。而我会想："
+    },
+    {
+      "i": 85,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "34:12",
+      "en": "you're not ready. Like we, there's only one, you only get one chance to make a first impression. And so I guarantee you, you're not ready. You might think you are, but I'm telling you you're not. And so I'd rather wait six months. And like, I think you have to trust, if you're a founder, you have to trust the, you know, the person on the corporate VC, the corporate VC team, just that they know their organization better than you do. And so if they say you're not ready,",
+      "zh": "你还没准备好。你只有一次机会去留下第一印象。所以我跟你保证，你还没准备好。你也许以为自己准备好了，但我告诉你，你没有。所以我宁愿等六个月。而且我觉得，如果你是一位创始人，你必须信任企业风投团队里的那个人——他们比你更了解自己的组织。所以如果他们说你没准备好，"
+    },
+    {
+      "i": 86,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "34:38",
+      "en": "like let's wait because this and this is happening internally, trust them. It's not just because they're trying to, you know, give you the cold shoulder or anything. It's because they probably know better than you do when you're ready. So I think that's really important is just to be able to know when to make that connection. I think similarly then on the other side, we need to help our large organizations, you know, love their technology. They love to build",
+      "zh": "那就等等吧，因为内部正在发生这这那那，请信任他们。这不是因为他们想给你冷脸或怎样，而是因为他们大概率比你更清楚你什么时候才算准备好。所以我觉得这一点非常重要：就是要懂得什么时候去建立那个连接。同样地，在另一边，我们需要帮助我们的大组织——他们热爱自己的技术，他们喜欢自己"
+    },
+    {
+      "i": 87,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "35:09",
+      "en": "things. We have a lot of really smart engineers and product teams building a lot of really awesome stuff. And so I think what you need to do is not come in and be confrontational and say, well, you're building this, but we found something better here. Like you can't take that approach.",
+      "zh": "打造东西。我们有很多非常聪明的工程师和产品团队，在造很多很棒的东西。所以我觉得你要做的，不是上来就针锋相对地说：你们在做这个，但我们在这儿找到了更好的。你不能采取那种方式。"
+    },
+    {
+      "i": 88,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "35:24",
+      "en": "That's not going to get you very far. But I think if you do it in the right way and say, hey, you know, we've invested in this company, you're doing this, this is complimentary to it.",
+      "zh": "那样走不远。但我觉得，如果你用对的方式去做，说：嘿，我们投了这家公司，你们在做这个，而这个跟它是互补的，"
+    },
+    {
+      "i": 89,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "35:34",
+      "en": "There's, you know, there's a partnership here. There's some relationship to be developed here and look at it that way. And so I think it also is over time, if you build that credibility internally, it makes those conversations so much easier. But I think there's broadly speaking within organizations, there can be sort of rejected antibodies to, you know, we didn't build it. This is something that's new and different. It's not something we are going to focus on or something",
+      "zh": "这里可以有一个合作，有一段关系可以培养——用那种眼光去看它。所以我觉得，随着时间推移，如果你在公司内部建立起那种可信度，这些对话就会容易得多。但我觉得， broadly 来说，组织内部可能会有那种排异的抗体：这不是我们自己造的，这是个新奇的、不一样的东西，不是我们要聚焦的、也不是"
+    },
+    {
+      "i": 90,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "36:01",
+      "en": "that's going to be a priority for us. But I think if you bring enough really good ideas and smart founders and those founders show up well at the right time, you know, you can develop really important relationships. And I think both the Northwestern Mutual and here at Intuit, you know, my teams have been able to do those things is to have like the key people to go to knowing who is maybe just more open generally, whether that's parts of the organization or individuals,",
+      "zh": "我们的优先事项。但我觉得，如果你带来足够多真正好的点子和聪明的创始人，而这些创始人又能在对的时机表现得好，你就能建立起非常重要的关系。我认为，无论是在 Northwestern Mutual 还是在这里 Intuit，我的团队之所以能做到这些，就是拥有那些关键的可对接的人——知道谁总体上可能更开放，无论是组织的某些部分还是个人，"
+    },
+    {
+      "i": 91,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "36:29",
+      "en": "and have those relationships that you can help facilitate, whether it's an existing portfolio company that we have, or if it's a fund that has a company that wants to meet, you know, a part of the organization, a part of our organization, like we can do that in a much more effective way because we built those relationships and can help them see this is really helpful to you and this is not some threat to what you're trying to do. And for those VCs listening who have been trained,",
+      "zh": "并且拥有这些我们能帮忙撮合的关系——不管是我们已有的组合公司，还是一支基金旗下有家公司想见我们组织的某个部分——我们都能以高效得多的方式做到，因为我们建立了那些关系，能帮他们看到：这对你真的有帮助，这不是对你想做的事情的某种威胁。——而对于那些在听的、被训练过的 VC 们，"
+    },
+    {
+      "i": 92,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "36:54",
+      "en": "don't do a deal. When that CVC is on the cap table too. What's the so many other GPs are listening? What's your sort of take on make room for Intuit? I think why we should be why you'd want to include us is that we have a demonstrated history of being able to deliver value to our portfolio companies. So I think if you talk to any one of the founders within the Intuit Ventures portfolio, they would say that Intuit has been additive to our business and been helpful. I think that",
+      "zh": "当股权结构表（cap table）上有那个 CVC（企业风投）时，就别做这笔交易。——那么多 GP 都在听，你怎么看给 Intuit 腾个位置（make room for Intuit）这件事？——我觉得，为什么你应该、也会愿意把我们纳入进来，是因为我们有一段被验证过的历史：我们能为组合公司交付价值。所以我觉得，如果你去问 Intuit Ventures 组合里的任何一位创始人，他们都会说 Intuit 对我们的业务是有增益的、是有帮助的。我认为"
+    },
+    {
+      "i": 93,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "37:30",
+      "en": "certain GPs take a negative view to corporates because admittedly, there are some that maybe aren't the most, they're not necessarily the best actors, but I think overall corporate VC as in, as a called an asset class or as an investor class is definitely professionalized over the last decade. I think you have a lot of teams now that are really, really strong and have done enough both internally within their organizations as well as in terms of direct investments they've",
+      "zh": "确实有些 GP 对企业方持负面看法，因为不可否认，有一些企业也许算不上是最……他们未必是最好的参与者。但我觉得，总体而言，企业风投作为一个所谓的资产类别、或投资人类别，在过去十年里显然已经专业化了。我觉得现在很多团队都非常非常强，无论是内部在其组织中，还是就他们所做的直接投资而言，都做得足够多，"
+    },
+    {
+      "i": 94,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "38:00",
+      "en": "made that they know how to act. They quickly develop good reputations and I would say overall GPs that look at corporate as undesirable, I think that's a very outdated view and yes, there are outliers to that, but I think overall corporates on a cap table I think should be viewed positively. I think there's some signal in it. I think it's an investor that as the old saying goes brings more than capital. And so I think from a GP perspective, it should be looked at as much more",
+      "zh": "以致他们懂得如何行事。他们很快就建立起好口碑。所以我会说，总体而言，那些把企业方看作不受欢迎的 GP，我觉得那是一种非常过时的看法——是的，其中有例外——但我觉得总体而言，股权结构表上有企业方，应该被正面看待。我觉得这里面有某种信号意义。俗话说，这是一个带来的不只是资本的投资人。所以我觉得，从 GP 的角度，它应该被更多地看作"
+    },
+    {
+      "i": 95,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "38:38",
+      "en": "of a positive than something that they should not want to do a deal or encourage a founder to exclude from around or anything like that. Taking back to our core audience, the emerging managers, GPs, is there any pet peeves or things you wish that GPs knew when they're approaching and pitching a corporate LP? Spend some time understanding the company from the outside and your knowledge is not going to be perfect, but you can't look at a pitch to a corporate. If",
+      "zh": "一种正面的存在，而不是他们应该不想与之做交易、或鼓励创始人把它排除在外的东西。——回到我们的核心受众，也就是新兴管理人、GP 们：当 GP 去接触并向一家企业 LP 做推介时，有没有什么让你抓狂的小毛病、或者你希望 GP 们懂得的事情？——花点时间从外部去了解这家公司。你的了解不可能完美，但你不能把一次对企业的推介，看得跟"
+    },
+    {
+      "i": 96,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "39:18",
+      "en": "you're a GP and you're pitching a corporate, you can't look at that meeting as the same as maybe the five others you had this week with family offices or endowments or traditional institutional investors. The line of questioning is probably going to be different. I think you need to tailor your pitch to it. It's almost like you need a separate deck or a modified deck because the points of diligence and the points of interest are going to be different. And so take a little bit",
+      "zh": "你作为 GP 向一家企业推介时——你不能把这场会，看得跟你这周和家族办公室、捐赠基金或传统机构投资者开的另外五场会一样。提问的路线很可能不同。我觉得你需要为你的推介量身调整。这几乎像是你需要一份单独的、或修改过的路演材料（deck），因为尽调的关注点和兴趣点会不一样。所以，花一点点"
+    },
+    {
+      "i": 97,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "39:46",
+      "en": "of time and understand that company more than just their website. If it's a public company, look at their last couple of quarterly releases, look at their investor day. Really try to understand it. And I think similarly, don't look at a corporate as someone who's going to instantly just turn on a whole bunch of revenue for your portfolio companies. As an LP, what I don't want is a GP that's just like, oh, okay, well, I would just invest it in a new DevOps tool,",
+      "zh": "时间，去比只看他们官网更深入地了解那家公司。如果它是一家上市公司，去看看他们最近几份季度财报发布、看看他们的投资者日。真正试着去理解它。同样地，我觉得，不要把一家企业看成是会立刻为你的一堆组合公司打开大量营收的人。作为 LP，我不想要的，是那种只会说：哦，好，那我就投一个新的 DevOps 工具，"
+    },
+    {
+      "i": 98,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "40:18",
+      "en": "introduce me to your engineering team. Yeah, I'm happy to. Obviously, I have a vested interest in the success of your fund and I want you to get into it as a customer, but don't expect that that's all I'm going to do is just make intros and that's going to solve like your portfolio companies, you know, go to market or whatever. So I think it's really for them to have a more nuanced understanding and I think it varies from corporate to corporate. The things that I might",
+      "zh": "把我介绍给你们工程团队的 GP。是的，我很乐意。显然，我对你们基金的成功有切身利益，我也希望你们能把 Intuit 发展成客户。但别指望我要做的就只是牵线搭桥、然后这就解决了你组合公司的市场进入（go-to-market）之类的问题。所以我觉得，这真的要他们有更加细致的理解，而且我认为这因企业而异。我可能会关注的东西，"
+    },
+    {
+      "i": 99,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "40:43",
+      "en": "be focused on are going to be different from another corporate and understand that they're going to want a different type of engagement than a traditional institutional LP.",
+      "zh": "会跟另一家企业不同；也要理解，它们想要的那种互动方式，会跟传统的机构 LP 不一样。"
+    },
+    {
+      "i": 100,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "40:55",
+      "en": "What is your relationship with CorpDev and like how do you all work together? I sit immediately adjacent to our CorpDev team. We both report into the same individual. So, you know, we obviously work closely together with very different focus areas and objectives.",
+      "zh": "——你跟企业发展部门（CorpDev）是什么关系？你们是怎么协作的？——我就紧挨着我们的 CorpDev 团队坐，我们俩都向同一个人汇报。所以显然，我们紧密协作，但关注领域和目标非常不同。"
+    },
+    {
+      "i": 101,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "41:15",
+      "en": "But it does, we do work together. You know, the question I get asked a lot is how many portfolio companies has Intuit acquired and we don't think about our mandate in any way as a pipeline.",
+      "zh": "但我们确实会一起协作。我经常被问到的一个问题是：Intuit 收购了多少家组合公司？而我们完全不把我们的使命当作一条并购管线来看。"
+    },
+    {
+      "i": 102,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "41:27",
+      "en": "M&A team does an awesome job. I was perfectly happy that they were acquired by somebody totally different. It's great on my numbers. Yeah, right. And you know, if that happens great, and if a company, if we have a portfolio company that's running a process, like we would obviously love to have Intuit included in that if we think it's something that makes sense.",
+      "zh": "并购（M&A）团队做得非常出色。如果它们被一家完全不同的公司收购，我也完全乐意——只要对我的数字好看就行。是啊，对。而且你知道，如果发生了那很好；如果我们有一家组合公司正在走并购流程，只要我们觉得合理，我们当然很乐意让 Intuit 也参与其中。"
+    },
+    {
+      "i": 103,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "41:47",
+      "en": "But it's not a mandate. It's not an expectation that we show them everything. And similarly, we collaborate, but we don't with sort of separate objectives and goals.",
+      "zh": "但这不是使命要求，也不是说就得把什么都拿给他们看。同样地，我们协作，但我们各自有不同的目标和目的。"
+    },
+    {
+      "i": 104,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "42:00",
+      "en": "But that is a question we get a lot. So, I think, you know, how many portfolio companies is Intuit acquired? The answer is one. Is that intentional? Is it because we wouldn't acquire a portfolio company? No, it's just not happened. So, I don't think just because from a founder perspective, or, you know, it's not like you should think about, okay, you know, Intuit's now on my cap table, they're going to buy me, like that as a general rule, you know, corporate",
+      "zh": "但这确实是我们经常被问到的问题。所以，Intuit 收购了多少家组合公司？答案是：一家。这是有意为之吗？是因为我们不会收购组合公司吗？不是，只是还没发生而已。所以我觉得，从创始人的角度，你不该这么想：好，Intuit 现在在我的股权结构表上了，他们就会来收购我。作为一般规律，企业"
+    },
+    {
+      "i": 105,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "42:26",
+      "en": "BCs don't think that way. So, it's not a path to it. But again, it's, I guess, a happy coincidence is what I'd prescribe it as. My last question is kind of hopefully we can crowdsource and get you some some answers or insights, but two part are one, what's one type of or category of company that you haven't seen that you want to see out there? And then two, what's one GP strategy, firm strategy that you haven't seen much of that you think needs to be out there? Wow. The first one",
+      "zh": "风投不会那么想。所以那不是一条通往被收购的路径。但同样，如果真发生了，我想我会把它描述成一种美好的巧合。——我的最后一个问题，希望能靠大家众包给你一些答案或洞见，分两部分：第一，有哪一类、或哪个类别的公司，是你还没见到、但希望市场上出现的？第二，有哪一种 GP 策略、或机构策略，是你还很少见到、但你觉得市场上需要出现的？——哇。第一个"
+    },
+    {
+      "i": 106,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "43:05",
+      "en": "maybe a little easier than the second. I think the first one I would say is what I'll describe as vertical specific wealth management. I think I'm a personal finance junkie. I've tried every tool out there. I've invested in a number from Northwestern Mutual and it into it. Personal finance fascinates me. It's this like never ending problem in many ways. And I think there's been so many attempts and great products built in certain ways. But I think, you know, there's still a large",
+      "zh": "也许比第二个容易一点。第一个，我会说是我描述的垂直领域的财富管理（vertical specific wealth management）。我觉得自己是个个人理财发烧友，市面上每个工具我都试过，我在 Northwestern Mutual 和 Intuit 也投过不少。个人理财让我着迷，它在很多方面是个永无止境的问题。我觉得已经有过很多次尝试、也造出了一些很棒的产品。但我认为，那里仍然有一大块"
+    },
+    {
+      "i": 107,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "43:35",
+      "en": "untapped market there. And I think where there's a real opportunity is if you think about yourself as a business, the largest line item is your salary, your income. And so I think if you look at various career paths, those career paths are going to have different impacts on your ability to achieve your financial objectives. And so I think financial planning for a doctor or an engineer or a teacher or working in tech is different. And so I think if you show up at an app or at a wealth",
+      "zh": "尚未开发的市场。我觉得真正的机会在于：如果你把自己当成一家企业来看，最大的一笔科目就是你的薪水、你的收入。所以我觉得，如果你去看各种不同的职业路径，这些路径会对你实现财务目标的能力产生不同的影响。所以我认为，给一位医生、工程师、老师、或在科技行业工作的人做财务规划，是不一样的。所以我觉得，当你打开一个 App、或一个财富"
+    },
+    {
+      "i": 108,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "44:11",
+      "en": "management tool, they're going to treat you the same. I don't think all those different categories of careers are going to have different income profiles, different volatility to income, all that. And I think financial planning largely misses that. And so I think anybody building in that, I would love to talk to them because I think it's incredibly, I think it's a missed opportunity.",
+      "zh": "管理工具时，它们会一视同仁地对待你。可我觉得，所有这些不同类别的职业，会有不同的收入结构、不同的收入波动性等等。而我认为，财务规划在很大程度上忽略了这一点。所以我觉得，任何在做这方面产品的人，我都很想跟他们聊聊，因为我认为这极其——我觉得这是一个被错失的机会。"
+    },
+    {
+      "i": 109,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "44:33",
+      "en": "And I think on the GP side, there's a lot, that one's a little bit more challenging. But I think where I still believe, and we've invested in a fund recently focused on, well described as like AI for the Main Street economy. So if you think about Intuit's business, a large piece of that is powering prosperity for small business owners. And I think we deliver a lot of really great solutions at Intuit. But there's a whole host of emerging companies focused on vertical AI for",
+      "zh": "而在 GP 这一侧，就有很多——那一个稍微更有挑战性。但我仍然相信的一个方向是：我们最近投了一支基金，聚焦于——很好地描述为面向 Main Street 经济（大众/小微实体经济）的 AI。如果你想 Intuit 的业务，其中很大一块就是为小企业主驱动繁荣（powering prosperity）。我觉得我们在 Intuit 交付了很多非常棒的解决方案。但还有一大批新兴公司，聚焦于面向"
+    },
+    {
+      "i": 110,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "45:06",
+      "en": "various lines of business or various types of businesses on, well, again, the Main Street economy, small businesses. And so I think those are the types of GPs that are really interesting. And I think are sort of going into a really interesting area of investing.",
+      "zh": "各种业务线、或各种类型企业的垂直 AI——还是那句，面向 Main Street 经济、面向小微企业。所以我觉得，那类 GP 真的很有意思，我认为他们正在进入一个非常有意思的投资领域。"
+    },
+    {
+      "i": 111,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "45:25",
+      "en": "In your crystal ball, can you kind of give us guidance of how the big companies are going to work with the little companies? I'm curious how these two are.",
+      "zh": "透过你的水晶球，你能不能给我们一些指引：大公司将来会怎么跟小公司协作？我很好奇这两者会如何"
+    },
+    {
+      "i": 112,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "45:42",
+      "en": "It's an age old question. And I think any organization that tells you they've solved that is probably not being 100% accurate. It's always going to be a challenge for one reason or another. No organization is perfect. And there's going to be fits and starts. And people move into different roles. And I think what founders get frustrated by, and I understand it is, large organizations have internal mobility. People take new opportunities. And the person",
+      "zh": "这是个老掉牙的问题。我觉得，任何告诉你我们已经解决了这个问题的组织，很可能说得不是 100% 准确。因为这样或那样的原因，它永远都会是个挑战。没有哪个组织是完美的，会有断断续续、时好时坏，人会调到不同的岗位。我觉得让创始人感到沮丧的——我也理解——是：大组织有内部流动，人会去抓新的机会。而那个"
+    },
+    {
+      "i": 113,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "46:11",
+      "en": "that was your internal champion just went from this business unit to a totally great opportunity. But it is no longer in any way relevant to what the startup is trying to build.",
+      "zh": "原本是你内部支持者（champion）的人，刚从这个业务单元跳去了一个非常棒的新机会，但那机会跟这家初创公司想打造的东西已经毫无关系了。"
+    },
+    {
+      "i": 114,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "46:19",
+      "en": "And so I know that frustrates founders immensely. And I think you just need to build a bigger coalition. And so I think just because you found one internal champion doesn't mean the work is done because that person can move on. And then you're like, now who do I go to? So I think you sort of need to build a coalition beyond that one person.",
+      "zh": "所以我知道这让创始人非常沮丧。我觉得你就是需要建立一个更大的联盟。所以，找到一位内部支持者，并不意味着工作就做完了，因为那个人可能会调走，然后你就傻眼了：现在我该去找谁？所以我觉得，你需要在那一个人之外，建立一个联盟。"
+    },
+    {
+      "i": 115,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "46:37",
+      "en": "So I think your question of how do you, how do large organizations and startups work together, I think it's evolving. I think large organizations have generally gotten better at it. And I think founders have gotten better as well over the years of navigating it. But I don't think there's any silver, sort of any like silver bullet to it. I think it's always going to be, you know, it's about relationships. And it's about building, you know, a coalition of supporters within an",
+      "zh": "所以我觉得，你问的大组织和初创公司怎么协作——我认为这在不断演进。我觉得大组织总体上已经做得越来越好了，而创始人这些年也越来越懂得怎么去驾驭它。但我不觉得有什么银弹（silver bullet）式的万能解法。我觉得这永远都关乎关系，关乎在一个组织内部"
+    },
+    {
+      "i": 116,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "47:04",
+      "en": "organization. And conversely, I think organizations need to have an understanding of like, we're going to partner with this company, more than one person has to have that relationship and understanding that, you know, you need to get sort of broader buy-in than from any one individual.",
+      "zh": "建立一个支持者联盟。反过来，我觉得组织也需要有这样的认识：我们要跟这家公司合作，那么必须有不止一个人拥有这段关系和理解——也就是说，你需要获得比任何单一个人更广泛的认同（buy-in）。"
+    },
+    {
+      "i": 117,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "47:20",
+      "en": "Craig, thanks so much for all the insights, stories, and just wisdom. Really appreciate you being on the podcast. Well, thank you for having me. It's been great.",
+      "zh": "Craig，非常感谢你分享的这些洞见、故事和智慧，真的很感激你能上我们的播客。——谢谢你们邀请我，这是一次很棒的体验。"
+    },
+    {
+      "i": 118,
+      "speaker": 5,
+      "speaker_zh": 5,
+      "ts": "47:31",
+      "en": "See you later, allocator. After portfolio tile, investing with a smile. Your sausage mcbuffin with egg didn't change. Your receipt did. The sausage mcbuffin with egg extra value meal includes a hash brown and a small coffee for just $5 only at McDonald's for a limited time. Price and participation may vary. Promotion pricing may be lower than meal pricing. They're running a cover two defense. But you're running to get game day deals on Uber Eats. Keep everyone",
+      "zh": "回头见，allocator（配置者）。组合之后，微笑投资（after portfolio tile, investing with a smile）。你的猪柳蛋麦满分没变，变的是你的账单。猪柳蛋麦满分超值套餐包含一份薯饼和一杯小杯咖啡，只要 5 美元，仅限 McDonald's，限时供应。价格和参与门店可能有所不同，促销价可能低于套餐价。——他们在打 cover two 防守，但你在奔向 Uber Eats 上抢比赛日优惠。让今晚"
+    },
+    {
+      "i": 119,
+      "speaker": 5,
+      "speaker_zh": 5,
+      "ts": "48:02",
+      "en": "at tonight's watch party fed with deals from your go to restaurants or stock up with deals on your favorite snacks and groceries. Whatever the occasion, get game day deals on Uber Eats all season long. It's not football without food. Uber Eats order now. Terms apply. Product availability varies by region. See app for details. Sam's club is the club for every holiday club. Guess who's joining the club this season? Walmart plus. Yep. Sam's club plus membership now comes with",
+      "zh": "看球派对上的每个人都吃饱——用你常去的餐厅的优惠，或者用你最爱的零食和生鲜的优惠囤货。无论什么场合，整个赛季都在 Uber Eats 上抢比赛日优惠。没有美食就不算橄榄球。Uber Eats，现在就下单。条款适用，产品供应因地区而异，详情请见 App。——Sam's Club 是每个节日都要去的俱乐部。猜猜这个赛季谁要加入俱乐部？Walmart+。没错。Sam's Club Plus 会员现在附带"
+    },
+    {
+      "i": 120,
+      "speaker": 5,
+      "speaker_zh": 5,
+      "ts": "48:31",
+      "en": "Walmart plus at no extra cost. Two memberships, one great price. Just 120 bucks a year can save you time and over $700. Want to get in on the membership duo of the century? Visit samsclub.com. Come join us. Sam's club annual plan only auto renews TNC apply estimate based on average combined Walmart plus and sam's club plus savings among members of both for one plus year versus non-member or club member pricing slash fees excludes membership fee see walmart plus terms and sam's club terms",
+      "zh": "Walmart+，且不额外收费。两个会员，一个超值价格。一年只要 120 美元，就能为你节省时间，还能省下超过 700 美元。想加入这个世纪会员组合吗？访问 samsclub.com，来加入我们吧。Sam's Club 仅限年费方案，自动续订，条款与条件适用。估算基于同时拥有两者的会员在一年以上、Walmart+ 与 Sam's Club Plus 合并计算的平均节省额，对比非会员或俱乐部会员的价格/费用，不含会员费。详见 Walmart+ 条款和 Sam's Club 条款，"
+    },
+    {
+      "i": 121,
+      "speaker": 5,
+      "speaker_zh": 5,
+      "ts": "48:53",
+      "en": "for more info",
+      "zh": "以了解更多信息。"
+    }
+  ]
+}

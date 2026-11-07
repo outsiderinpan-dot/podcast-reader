@@ -1,0 +1,2615 @@
+{
+  "show": "invest-like-the-best",
+  "kind": "transcript",
+  "id": "invest-like-the-best-8f79965e",
+  "slug": "2026-09-22-gabe-stengel-building-investing-superintelligence-invest-8f79965e",
+  "date": "2026-09-22",
+  "title_en": "Gabe Stengel - Building Investing Superintelligence - [Invest Like the Best, EP.492]",
+  "title_zh": "Gabe Stengel（Rogo）：打造投资超级智能",
+  "subtitle_zh": "Rogo 创始人兼 CEO Gabe Stengel 谈 AI 如何重塑投行尽调、资本募集与资本市场基础设施",
+  "description": "Gabe Stengel - Building Investing Superintelligence - [Invest Like the Best, EP.492]",
+  "duration": "65:50",
+  "duration_seconds": 3950,
+  "episode_url": null,
+  "audio_url": "https://traffic.megaphone.fm/CLS7922860814.mp3",
+  "speakers": {
+    "1": "Patrick O'Shaughnessy（主持）",
+    "2": "Gabe Stengel（嘉宾）",
+    "3": "片花/广告（旁白）"
+  },
+  "turn_count": 324,
+  "turns": [
+    {
+      "i": 0,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "00:00",
+      "en": "Ramp is the only platform built to make your finance team leaner, faster, and better, saving businesses 5% annually on average so you can stay focused on growth.",
+      "zh": "Ramp 是唯一一个为让你的财务团队更精简、更快速、更出色而打造的平台，平均能为企业每年省下 5% 的开支，让你专注于增长。"
+    },
+    {
+      "i": 1,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "00:11",
+      "en": "Ramp just opened for business in the United Kingdom, so if you're running a business in the UK, you can now use Ramp's AI-powered finance platform to manage cards, expenses, bills, approvals, and accounting all in one place.",
+      "zh": "Ramp 刚刚在英国开市展业，所以如果你在英国经营业务，现在就可以用 Ramp 的 AI 财务平台，在一个地方管理卡片、报销、账单、审批和会计。"
+    },
+    {
+      "i": 2,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "00:23",
+      "en": "I run my business on Ramp and so should you. Learn more at ramp.com slash invest. Rogo is the AI platform purpose-built for financial institutions serving tens of thousands of bankers and investors at hundreds of leading firms worldwide.",
+      "zh": "我自己的公司就用 Ramp 运营，你也应该如此。想了解更多请访问 ramp.com/invest。Rogo 是专为金融机构打造的 AI 平台，服务全球数百家顶级机构的数万名银行家和投资人。"
+    },
+    {
+      "i": 3,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "00:37",
+      "en": "Rogo's AI agents autonomously execute large chunk of your firm's workflows, they can screen deals, draft sims, run-buyer outreach, and do diligence on data rooms, all with full security and compliance handle.",
+      "zh": "Rogo 的 AI agent（智能体）能自主完成公司工作流中的很大一部分：筛选交易、起草 sim、发起买方触达、对数据室（data room）做尽调，全程有完整的安全与合规处理。"
+    },
+    {
+      "i": 4,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "00:50",
+      "en": "Every action feeds Rogo Intelligence, the firm's context layer, turning years of deal experience into a secure, governed institutional memory that makes each new transaction stronger than the last.",
+      "zh": "每一个动作都会喂给 Rogo Intelligence，也就是公司的上下文层，把多年的交易经验变成安全、受治理的机构记忆，让每一笔新交易都比上一笔更强。"
+    },
+    {
+      "i": 5,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "01:00",
+      "en": "To learn more, visit rogo.com slash invest. Open AI, Cursor, MP, and Vercel all have something in common, they all use WorkOS. To achieve enterprise adoption at scale, you have to deliver on core capabilities like SSO, SCIM, RBAC, and audit logs.",
+      "zh": "想了解更多请访问 rogo.com/invest。OpenAI、Cursor、MP 和 Vercel 有一个共同点：它们都在用 WorkOS。想要大规模实现企业级落地，你必须交付 SSO、SCIM、RBAC、审计日志这些核心能力。"
+    },
+    {
+      "i": 6,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "01:18",
+      "en": "Instead of spending months building these mission-critical capabilities yourself, you can just use WorkOS APIs to gain all of them on day zero.",
+      "zh": "与其花几个月自己搭建这些关键能力，不如直接用 WorkOS API，第一天就全部拿到。"
+    },
+    {
+      "i": 7,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "01:26",
+      "en": "Visit workos.com to get started. You and I have talked many times about this basic question that I'll start with over the last couple of years.",
+      "zh": "请访问 workos.com 开始使用。你我聊过很多次这个基本问题，过去几年我想就从它开始。"
+    },
+    {
+      "i": 8,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "01:38",
+      "en": "You are effectively trying to build investing super intelligence tools to help investors do their job much faster, better, cheaper, easier, higher quality, but it's starting to feel like, wow, we're really eating a lot of the core functions that even a very smart analyst or even portfolio manager was doing a couple of years ago.",
+      "zh": "你们实际上是在打造投资超级智能（investing super intelligence）工具，帮投资人更快、更好、更便宜、更轻松、更高质量地完成工作，但现在已经有点感觉：哇，我们真的在吃掉很多核心职能，甚至是非常聪明的分析师、乃至组合经理几年前还在做的那些事。"
+    },
+    {
+      "i": 9,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "01:57",
+      "en": "How do you think about that trajectory as you've seen it and lived it so far and where it's going over the next two years? I think two years is actually easier to reason about than 10 years or 20 years, because in two years, the best investors are going to be figuring out how to reinvent their own firms and reinvent themselves.",
+      "zh": "以你的亲历来看，你怎么看这条轨迹，未来两年它会走向哪里？我觉得两年其实比十年、二十年更容易推演，因为两年之内，最优秀的投资人就要开始琢磨怎么重塑自己的公司、重塑他们自己。"
+    },
+    {
+      "i": 10,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "02:14",
+      "en": "If you look at what happened to market making and quant trading, Jayden Street took 15 years to build the dominant franchise, and the world's best investors today are going to spend the next two to five years figuring out how to integrate AI into what they do.",
+      "zh": "看看做市和量化交易的历史就知道了：Jane Street 花了 15 年才建立起头部特许经营地位，而今天世界上最厉害的投资人，未来两到五年要琢磨的是怎么把 AI 整合进自己的工作。"
+    },
+    {
+      "i": 11,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "02:27",
+      "en": "Dario has the great line about everyone's going to have a data center full of geniuses or a country full of geniuses in the data center. What would Goldman do?",
+      "zh": "Dario 有句很棒的话：每个人的数据中心里都会有一个天才，或者数据中心里住着一整个国家的天才。那 Goldman 会怎么做？"
+    },
+    {
+      "i": 12,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "02:35",
+      "en": "What would Millennium do? What would Citadel do if they had a country full of geniuses show up? It would probably take them a while to figure out how to change the way they work, how to take advantage of that, how to integrate it into their system.",
+      "zh": "Millennium 会怎么做？Citadel 会怎么做？如果一整个国家的天才突然出现，他们大概也得花一阵子才能搞清楚怎么改变工作方式、怎么利用这股力量、怎么把它整合进自己的体系。"
+    },
+    {
+      "i": 13,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "02:45",
+      "en": "I think figuring out how to apply AI into the investment life cycle is the biggest challenge over the next five years for every great investor.",
+      "zh": "我认为，如何把 AI 应用到投资全周期（investment life cycle），是未来五年每一位伟大投资人面临的最大挑战。"
+    },
+    {
+      "i": 14,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "02:53",
+      "en": "There's been many companies on this trajectory where the product was, cognition is very famous for literally their ads now say, remember Devin, it's good now.",
+      "zh": "很多公司都在这条轨迹上走过，说到产品，Cognition 特别有名，他们现在的广告词干脆就是：还记得当年的 Devin 吗？现在它好用了。"
+    },
+    {
+      "i": 15,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "03:04",
+      "en": "Lots of now clearly great companies with great products had a stage of an AI business where the product stunk and now it's excellent. If you think about the couple increases in capability that we've seen just from the raw models, could you do the same thing for the eras of Rogo and its product?",
+      "zh": "现在很多显然很伟大、产品很优秀的公司，都曾经历过产品很烂的 AI 阶段，现在变得非常出色。如果只看底层模型本身带来的那几次能力跃升，你能不能把 Rogo 和它的产品也划分出几个时代？"
+    },
+    {
+      "i": 16,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "03:24",
+      "en": "You pick how many eras it is, I don't know, I frame it up, but what it could do at each level up to and including today? I actually tried starting Rogo two times before we got started.",
+      "zh": "你来定分成几个时代，我不好说，我起个头：在每个级别上、一直到今天，它分别能做到什么？其实在真正创办 Rogo 之前，我试过两次创业。"
+    },
+    {
+      "i": 17,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "03:35",
+      "en": "In high school, I had a friend whose dad was an investment banker who wanted an app for trying to track the basically equity exchange rate of two public companies as they were merging.",
+      "zh": "高中的时候，我有个朋友的爸爸是投资银行家，他想要一个 App，用来跟踪两家上市公司合并时基本面的换股比例。"
+    },
+    {
+      "i": 18,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "03:45",
+      "en": "We tried using really old AI techniques to do that, terrible. Then in college, before GBD-3 came out, we published a paper on AI assistance for econometrics and financial econometrics.",
+      "zh": "我们试着用很古老的 AI 技术去做，糟透了。大学时，在 GPT-3 出来之前，我们还发过一篇关于 AI 辅助计量经济学、金融计量经济学的论文。"
+    },
+    {
+      "i": 19,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "03:56",
+      "en": "We tried commercializing at the time and nothing worked at all. Then when we actually started the business, it was when GBD-3 came out, pre-chat, GBT.",
+      "zh": "当时也尝试过商业化，但完全跑不通。后来真正把公司做起来，是 GPT-3 刚出来的时候，ChatGPT 之前。"
+    },
+    {
+      "i": 20,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "04:05",
+      "en": "All the early days of Rogo, it was clear how magical it was. You could demo things that were cool. Nothing worked at all. I would say since things actually started to work, the eras are very tied to the model eras.",
+      "zh": "Rogo 早期，大家能看出它有多神奇，可以 demo 一些很酷的东西，但实际什么都不 work。如果要说事情真正开始能用起来的时间点，时代划分其实跟模型的时代高度绑定。"
+    },
+    {
+      "i": 21,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "04:17",
+      "en": "It was 01 Pro and then probably Opus 4.5. 01 Pro is the first time you got enough reliability where it was a good search tool, at the very least.",
+      "zh": "先是 o1 Pro，然后大概是 Opus 4.5。o1 Pro 是你第一次感到可靠性高到可以当一个不错的搜索工具。"
+    },
+    {
+      "i": 22,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "04:26",
+      "en": "You could say, help me calculate this financial metric for this business over the last 12 quarters. It could do it reliably enough where it wasn't so annoying that you would just do it yourself.",
+      "zh": "你可以说，帮我算一下这家公司过去 12 个季度的某个财务指标，它能可靠到不至于让你烦得干脆自己去做。"
+    },
+    {
+      "i": 23,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "04:37",
+      "en": "Even with Opus 4.5 and the last year, the end of 2025, end of the beginning of this year, the models just became capable of basically anything a junior investment professional or junior banker was doing as long as you gave it the right instructions and context.",
+      "zh": "到了 Opus 4.5，也就是去年，2025 年末、今年年初这段时间，模型基本上能完成初级投资专业人员或初级 banker 做的任何事，只要你给它正确的指令和上下文。"
+    },
+    {
+      "i": 24,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "04:50",
+      "en": "I think there was a first mover's disadvantage for a lot of applied AI companies because you thought you knew where the world was going and you wanted to build a product for it, but the models weren't quite there.",
+      "zh": "我觉得很多应用层 AI 公司其实吃了先发劣势的亏，因为你以为你看懂了世界要去哪里，想为那个未来做产品，但模型还没到位。"
+    },
+    {
+      "i": 25,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "04:59",
+      "en": "People would try it and go, this is terrible. This is garbage. You have a disadvantage. For us, we saw that too, but now what we've seen is, well, if you were right about the end state and where the models were going and you were building towards that, when they get there, it's magical.",
+      "zh": "人们一试就会说，这太烂了，这是垃圾。你就有了劣势。对我们来说我们也看到了这一点，但现在我们看到的是：如果你赌对了终局、赌对了模型的走向，并且一直朝那里建，等它们到位的那一天，就会变得非常神奇。"
+    },
+    {
+      "i": 26,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "05:15",
+      "en": "For me, a great product is all the feedback we get every day. People all day are saying, hey, this is transforming the way I work. I'm saving hundreds of hours a month.",
+      "zh": "对我来说，好产品就是每天收到的反馈。人们整天都在说：嘿，这东西在改变我的工作方式，我每个月省下几百个小时。"
+    },
+    {
+      "i": 27,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "05:24",
+      "en": "I am doing things I never could have done before and so I'm smarter as a result and I'm able to make better decisions and it's delightful and I like using it and it brings me joy in my day-to-day because the UX and the attention to detail in the craftsmanship is so obviously built for me and who I am.",
+      "zh": "我在做以前根本做不到的事，因此我变得更聪明，能做更好的决策；它让人愉悦，我喜欢用，它给我日常工作带来了快乐，因为 UX 和对细节的用心、对手艺的讲究，一看就是为我、为我是谁而打造的。"
+    },
+    {
+      "i": 28,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "05:42",
+      "en": "That's been the best part of the product. You would attribute that to, you took seriously all the compliance regulatory workflow, last mile hookup stuff and then the models became good enough and all of a sudden that was super valuable.",
+      "zh": "这就是产品最棒的地方。你会把这归因于：你认真对待了合规、监管、工作流、最后一公里对接这些事，然后模型变得足够好，这一切一下子就成了巨大的价值。"
+    },
+    {
+      "i": 29,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "05:57",
+      "en": "Well, there's also small details of understanding how someone within one of these firms works and building for it. I'll give you an example.",
+      "zh": "嗯，还有很多小细节，是理解这类机构里的人到底怎么工作，然后为之而设计。我给你举个例子。"
+    },
+    {
+      "i": 30,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "06:04",
+      "en": "We make it so easy for a managing director at a bank to email a markup of a deck, which is how they're typically doing these workflows anyway, except sending it to an analyst and sending it to our AI analyst over email and then returning that markup in 20 minutes as opposed to two days and at the same time alert the junior analyst on the deal what's happening and show them the full auditability of all the little markups that were made in case",
+      "zh": "我们把一件事做得极其顺滑：银行的 managing director 可以直接用邮件发一份 deck 的批注版——他们本来就是这么干活的——只不过以前是发给分析师，现在是发给我们的 AI 分析师，20 分钟就能把批注改好送回，而不是两天，同时还会给 deal 上的初级分析师发提醒，让他们看到每一处小改动的完整可追溯记录，万一他们想要这些信息。"
+    },
+    {
+      "i": 31,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "06:26",
+      "en": "they want to win. And that whole UX, that whole flow just makes it so much easier for this financial professional who has not logged in to a computer in 10 years but does have an iPad where they know how to mark these things up to actually adopt and use AI.",
+      "zh": "整套 UX、整个流程，让那些十年没在电脑上登录过、但有 iPad、知道怎么批注文件的金融专业人士，真正能用起来 AI。"
+    },
+    {
+      "i": 32,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "06:40",
+      "en": "And there are these small details of how you build a product that's great for a specific end user that you only know if you have the kind of spidey sense for what the job is.",
+      "zh": "就是这类小细节，决定了你能不能为特定终端用户做出优秀的产品，而这取决于你有没有那种对'这份工作到底怎么回事'的蜘蛛感（spidey sense）。"
+    },
+    {
+      "i": 33,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "06:51",
+      "en": "What is like the bleeding edge of what it can do that impresses you the most or what kinds of jobs? The coolest things that we're working on is taking these innovations like MaltBook.",
+      "zh": "现在最能让你兴奋的、它能做到的最前沿是什么？或者说是哪些工作？我们在做的一件最酷的事，是把 Moltbook 这样的创新用起来。"
+    },
+    {
+      "i": 34,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "07:02",
+      "en": "Imagine if every PM at a hedge fund had 10,000 agents that were just kind of fraternizing talking about ideas, reading through the notes, pontificating and then at the end of 24 hours of debate just gave you one idea.",
+      "zh": "想象一家对冲基金的每个 PM 都有一万个 agent 在一起社交、聊想法、翻笔记、高谈阔论，然后经过 24 小时的辩论，最后只给你一个想法。"
+    },
+    {
+      "i": 35,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "07:14",
+      "en": "And the reason you're able to do that is because investors are happy to pay $50,000 for one really good idea, whereas there's very few other domains where you can expand that many tokens just for one simple insight.",
+      "zh": "之所以能这么做，是因为投资人愿意为一个真正好的想法付 5 万美元，而其他很少有领域值得为一个简单的洞见烧掉那么多 token。"
+    },
+    {
+      "i": 36,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "07:26",
+      "en": "What we're seeing right now though is that the models are smarter than anyone I know, anyone I spend time with and it's plumbing connected to your context, informed about your thesis, tell it the way that you work and try and integrate it into what you do.",
+      "zh": "我们现在看到的是，模型比我知道的、和我共事的任何一个人都聪明，你要做的是把它接到你的上下文上，告诉它你的投资论点、你的工作方式，试着把它整合进你做的事里。"
+    },
+    {
+      "i": 37,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "07:38",
+      "en": "And so building out all the plumbing to actually collect that data, collect that context is what is cutting edge to make. It's always interesting to me for a product like this that you're opinionated about what it should be used to do, but in some sense people can be creative with how they use it.",
+      "zh": "所以，把所有收集数据和上下文的管道（plumbing）建起来，才是最前沿的事。像你们这样的产品让我感兴趣的点是，你们对它的用途有非常明确的主张，但同时又允许人们发挥创意去用它。"
+    },
+    {
+      "i": 38,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "07:52",
+      "en": "So you get to sort of reveal how people want to use it. If I adopted a God's eye view of it's Monday morning here in New York City, lots of the Rover users are probably fired up and using it right now.",
+      "zh": "所以你能看到大家想怎么用。如果我以上帝的视角看，现在是纽约的周一早上，很多 Rogo 用户应该正干劲满满地用它。"
+    },
+    {
+      "i": 39,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "08:02",
+      "en": "If I could somehow see into every instance of the product being used, what would I see? Who are the people? What are the predominant use cases?",
+      "zh": "如果我能看到产品被使用的每一个实例，我会看到什么？用户都是谁？主要的使用场景是什么？"
+    },
+    {
+      "i": 40,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "08:08",
+      "en": "How varied are they? Give us a sense of how it's being used right now as we record. Even though in so many ways, I think public equities is the best application of AI because all the data is available and so it's just about being as smart as possible, that's a very brute force framing.",
+      "zh": "差别有多大？给我们讲讲录制节目当下它是怎么被用的。尽管从很多方面看，我觉得公开市场股票是 AI 最好的应用场景，因为所有数据都是公开的，拼的就是谁更聪明，这个说法非常暴力美学。"
+    },
+    {
+      "i": 41,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "08:24",
+      "en": "Our early users in ICP and kind of core market is actually what I would describe as dealmakers or people that are transacting, who are buying companies, selling companies, helping coordinate transactions.",
+      "zh": "我们早期的用户和 ICP、也就是核心市场，其实是我说的 dealmaker，那些正在做交易的人：买公司的、卖公司的、撮合交易的。"
+    },
+    {
+      "i": 42,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "08:36",
+      "en": "And so a lot of what we do is both make people smarter but actually do the deal making. How do you prepare a data room? How do you unpack a data room?",
+      "zh": "所以我们做的很多事，既是让人更聪明，也是真的替他们把交易做了。比如怎么准备数据室？怎么拆解数据室？"
+    },
+    {
+      "i": 43,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "08:44",
+      "en": "How do you coordinate the call with the third parties to discuss the data room? How do you go through all of the initial steps through closing of a deal?",
+      "zh": "怎么协调和第三方的电话会来讨论数据室？怎么走完交易从启动到交割的所有步骤？"
+    },
+    {
+      "i": 44,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "08:53",
+      "en": "And so if you took a bird's eye view of all the folks using Rogo, I mean it's people who are either on the sell side of a transaction or the buying side of a transaction and are using it to basically prepare all the thoughts and materials to help execute that full deal.",
+      "zh": "所以，如果用鸟瞰视角看所有在用 Rogo 的人，他们要么在交易的卖方，要么在买方，用它来准备所有的想法和材料，帮助执行整笔交易。"
+    },
+    {
+      "i": 45,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "09:07",
+      "en": "Whether it's putting things into a data room, this is the company's model, this is the PowerPoint that describes their customers, these are the answers to the DDQ questions on what customer concentration is, or it's all the agents on the other side of that that are tearing through the data and mapping it to the firm's investment philosophy to say, oh great, you know, is it lower than the concentration risk profile that we would",
+      "zh": "不管是把东西放进数据室——这是公司的模型、这是介绍客户的 PPT、这是 DDQ（尽调问卷）里客户集中度问题的回答——还是交易另一侧的所有 agent 在撕数据、对照公司的投资哲学做匹配：哦，不错，这个集中度风险是不是低于我们基金想要的水准？"
+    },
+    {
+      "i": 46,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "09:27",
+      "en": "want for this fund too? And then the components of the system are people access it via all the classic channels you would access, an AI tool, email, chatbots, proactive alerts and those kind of things, but then Rogo's actually in a lot of the behind the scenes systems of these firms because when you're working on a deal, it's not just important for the human beings working on it, but you need to update your CRM, you need to update your portfolio monitoring systems,",
+      "zh": "而系统的各个组成部分，人们通过所有你熟悉的渠道去访问 AI 工具：邮件、chatbot、主动提醒之类，但 Rogo 实际上藏在这些机构很多幕后系统里。因为你做交易时，不光人要在上面干活，你还要更新 CRM、更新组合监控系统，"
+    },
+    {
+      "i": 47,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "09:55",
+      "en": "you need to update the way that you distribute information to your LPs after the fact and so half of our surface area is actually the underneath of the iceberg of interacting with these different systems of record based on what the humans are doing over the course of the deal.",
+      "zh": "还要更新事后向 LP 分发信息的方式。所以我们一半的工作面其实在冰山之下，是和各种记录系统（system of record）的对接，跟着人类在交易过程中的动作走。"
+    },
+    {
+      "i": 48,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "10:09",
+      "en": "So, deal makers today, when do you think you'll be able to give the same answer for junior analysts at a public equity hedge fund or something like this?",
+      "zh": "所以现在的用户还是 dealmaker。你觉得什么时候你也能给公开市场股票对冲基金的初级分析师同样的答案？"
+    },
+    {
+      "i": 49,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "10:19",
+      "en": "There's a process to their workflow as well, but it's very, very different. You're right that it's interesting that my first intuition would be public markets are the best place to do this because there's so much data available.",
+      "zh": "他们的工作流也有流程，但非常、非常不一样。你说得对，我第一直觉确实是公开市场最适合做这件事，因为有那么多数据可用。"
+    },
+    {
+      "i": 50,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "10:30",
+      "en": "When do you think that transition happens? I think that for our business, we need to have all the requisite domain knowledge of what it takes to be a great public markets investor.",
+      "zh": "你觉得这个转变什么时候会发生？我觉得对我们的业务来说，我们需要先具备成为一个优秀公开市场投资人所需的全部领域知识。"
+    },
+    {
+      "i": 51,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "10:42",
+      "en": "I don't know what it takes. I've never done it. I haven't spent nearly as much time as I should have with the folks that are great at it. And we need to both hire out that domain expertise and then figure out based on it how to apply the systems that we have built to that market.",
+      "zh": "我不知道那需要什么。我没做过。我也没花足够的时间和那些真正擅长的人待在一起。我们既要挖来那方面的领域专家，也要据此想清楚怎么把我们建好的系统应用到那个市场。"
+    },
+    {
+      "i": 52,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "10:56",
+      "en": "I have extreme conviction in the fact that the underlying systems and tools and infrastructure we have built will be invaluable to that market, but now we need the great chef who can figure out how to piece it together and create that kind of end state product and that last mile delivery for public equities investors.",
+      "zh": "我非常确信，我们建好的底层系统、工具和基础设施对那个市场会极其宝贵，但我们需要那个大厨，知道怎么把它们拼起来，做出那种终局产品，把公开股票投资人这最后一公里的交付做好。"
+    },
+    {
+      "i": 53,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "11:13",
+      "en": "I get pushed a lot by our board to think about expanding the ICP beyond just core banking. But the reality has been is there's been so much depth and time in this deal makers vertical.",
+      "zh": "董事会经常推我把 ICP 拓展到核心银行之外。但现实是，dealmaker 这个垂直方向还有太多深度、太多事情要做。"
+    },
+    {
+      "i": 54,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "11:26",
+      "en": "And then for my end state vision of actually being the full infrastructure for private markets where people can transact very effectively, that is far more important to the deal makers.",
+      "zh": "而且我的终局愿景是成为私募市场的完整基础设施，让人们能非常高效地完成交易，这对 dealmaker 重要得多。"
+    },
+    {
+      "i": 55,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "11:36",
+      "en": "Whereas for public equities, all that infrastructure, all those exchanges already exist. And so I'd like to serve them because I want to serve the most sophisticated, smartest users who have inordinate amounts of knowledge on the companies they track and the industries they follow.",
+      "zh": "而公开股票那边，所有的基础设施、所有的交易所都已经存在。我愿意服务他们，因为我想服务最专业、最聪明的用户，他们对自己跟踪的公司、研究的行业懂得多得超乎寻常。"
+    },
+    {
+      "i": 56,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "11:51",
+      "en": "And I'd like to make them even smarter because that sounds super cool. But I can build a huge, huge business just concentrating where I am today.",
+      "zh": "我想让他们更聪明，因为听起来太酷了。但光是深耕今天的市场，我就能做出一个非常大的、非常大的生意。"
+    },
+    {
+      "i": 57,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "11:58",
+      "en": "Interesting. So one takeaway from that would be a lot of the opportunity to build an AI business in a vertical is somewhere where there's lots of plumbing that's not yet built.",
+      "zh": "有意思。那这一点给我们的启发是：在一个垂直方向做 AI 公司的机会，往往在那些管道还没人建的地方。"
+    },
+    {
+      "i": 58,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "12:07",
+      "en": "Yes. And then applying your data on top of that. Exactly. I mean, part of the reason private markets are so attractive is because it's all done by humans, the coordination, the standardization, looking into things and the actual transacting.",
+      "zh": "对。然后再把你的数据叠加上去。没错，私募市场之所以诱人，部分原因正是一切靠人来做：协调、标准化、尽调、实际交易。"
+    },
+    {
+      "i": 59,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "12:21",
+      "en": "Whereas public equities, a lot of it has been automated. Based on what you know, what skills do you think investment professionals, broadly speaking, public and private should think about being or becoming more valuable as time progresses and which skills become, it kind of obvious the skills will become less valuable.",
+      "zh": "而公开股票很多已经自动化了。根据你的认知，你觉得投资专业人士——无论公开还是私募——应该培养哪些随时间越来越值钱的技能？哪些技能会贬值，这其实挺明显的。"
+    },
+    {
+      "i": 60,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "12:39",
+      "en": "What the hell are we going to do? I think can do the super nuts diligence and IC memo and objection handling and all this kind of stuff. Like that's a big part of a job for at least a junior person in the investing world.",
+      "zh": "那我们还干什么？我觉得那些硬核尽调、IC memo（投委会备忘录）、异议处理这类事都会交给 AI。对投资行业的初级人员来说，那是工作的很大一部分。"
+    },
+    {
+      "i": 61,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "12:51",
+      "en": "So what skills do you think people will still matter a lot in a couple of years? I mean, I want to preface it all with I worked in finance for two years.",
+      "zh": "那几年之后，你觉得哪些技能对人依然重要？我是说，我想先声明，我在金融行业只工作过两年。"
+    },
+    {
+      "i": 62,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "12:58",
+      "en": "And so I am a student of these guys, just as much as I'm fascinated by the technology and want to figure out how to use it. The world's best investors have a way of figuring out what matters and exercising their own judgment across a range of topics.",
+      "zh": "所以我既是这些投资高手的学生，也同样着迷于技术、想知道怎么用它。世界上最厉害的投资人有一套本事：判断什么重要，并且在各种问题上运用自己的判断力。"
+    },
+    {
+      "i": 63,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "13:13",
+      "en": "And I think juries still out on whether or not that is something that AI can eventually replace when move 37 happened and Lisa doll saw something I could never see.",
+      "zh": "我认为，AI 最终能不能取代这种本事，现在还没有定论。当年 Move 37 出现的时候，Lee Sedol 看到了我永远看不到的东西。"
+    },
+    {
+      "i": 64,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "13:22",
+      "en": "If that starts to happen in public equities, yeah, it's going to really change what matters. And if that really changes all of how that works, I mean, I think the core skill set is folks who can go out and gather data and inputs into their model that no one else will have.",
+      "zh": "如果类似的事开始发生在公开股票里，那确实会彻底改变什么是重要的。如果整个游戏规则真的变了，我觉得核心的技能就是能出去收集数据、把别人拿不到的输入喂进模型的能力。"
+    },
+    {
+      "i": 65,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "13:37",
+      "en": "If you can spend time in the field, if you can speak to experts, if you can develop a relationship graph of folks who can inform your model, maybe you're not the one that needs to calculate what your move 37 would be for a great public equities investment, but you can actually feed your model with data that no one else has too.",
+      "zh": "如果你能泡在一线、访谈专家、建立能反哺你模型的人际关系图谱，也许你不需要亲自算出你那记 Move 37，但你同样能喂给模型别人没有的数据。"
+    },
+    {
+      "i": 66,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "13:53",
+      "en": "Vanta automates compliance so your team can spend less time on security reviews and more time getting customers. Vanta cuts audit prep by 82% and gives you instant up to date proof of trust without all the manual work so you can close deals faster and with less friction.",
+      "zh": "Vanta 把合规自动化，让你的团队少花时间应对安全审查，多花时间拿客户。Vanta 把审计准备时间缩短 82%，给你随时更新的可信证明，省掉大量手工工作，让你更快、更顺畅地成交。"
+    },
+    {
+      "i": 67,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "14:09",
+      "en": "Customers report a 526% return on investment and more than 16,000 companies use Vanta, including Ramp, Harvey and Snowflake. Get started with $1,000 off at Vanta.com slash invest.",
+      "zh": "客户报告的投资回报率是 526%，超过 16,000 家公司在用 Vanta，包括 Ramp、Harvey 和 Snowflake。到 vanta.com/invest 开始使用，立减 1,000 美元。"
+    },
+    {
+      "i": 68,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "14:23",
+      "en": "Ridgeline is the first end to end system of record with embedded AI for investment management firms running portfolio accounting, reconciliation, reporting, trading and compliance on one unified platform.",
+      "zh": "Ridgeline 是第一个面向投资管理公司、内嵌 AI 的端到端记录系统，在一个统一平台上做组合会计、对账、报告、交易和合规。"
+    },
+    {
+      "i": 69,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "14:34",
+      "en": "Firms are moving off legacy technology and on to Ridgeline because of how far ahead Ridgeline's AI features are compared to anything else in investment management software.",
+      "zh": "各家机构正在甩掉老旧技术迁移到 Ridgeline，因为它的 AI 功能在投资管理软件里遥遥领先。"
+    },
+    {
+      "i": 70,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "14:43",
+      "en": "I've been hearing from a lot of investment managers about AI and they fall roughly into two camps, with some unsure where to even start and others convinced they can build their own order management system over a weekend.",
+      "zh": "我最近听到很多投资管理人聊 AI，他们大致分两派：一派不知道该从哪儿下手，另一派觉得自己一个周末就能搭一套订单管理系统。"
+    },
+    {
+      "i": 71,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "14:54",
+      "en": "The reality is that running an investment firm will always require governance, controls and a single source of truth for your data. And no amount of AI, enthusiasm changes that requirement.",
+      "zh": "现实是，经营一家投资公司永远需要治理、控制和数据的单一可信来源，再多的 AI 热情也改变不了这个要求。"
+    },
+    {
+      "i": 72,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "15:04",
+      "en": "Ridgeline is built on exactly that foundation, which is why I believe that the firms that come out ahead in the AI era will be the ones running on Ridgeline's unified platform.",
+      "zh": "Ridgeline 正是建立在这个基础上，所以我相信，在 AI 时代胜出的公司，会是那些跑在 Ridgeline 统一平台上的公司。"
+    },
+    {
+      "i": 73,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "15:13",
+      "en": "If you're serious about your firm's AI strategy, Ridgeline should be part of that conversation and you can request a demo at ridgeline.ai. Maybe it's a good time to talk about, I think about the assembly line, like if Rogo puts out some really useful output, I want to learn about each component part of the system that leads to that output.",
+      "zh": "如果你认真考虑公司 AI 战略，Ridgeline 应该出现在你的讨论里，你可以在 ridgeline.ai 申请一次 demo。也许是个好时机来聊聊流水线这件事：如果 Rogo 输出了一些很有用的成果，我想了解产生这个成果的系统里每一个零部件。"
+    },
+    {
+      "i": 74,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "15:31",
+      "en": "And I'm most especially interested in the data that you yourself have and use and buy and build and whatever and how you do that, how you think about data and then how you think about model.",
+      "zh": "我尤其关心你们自己拥有、使用、购买、构建的数据，你们怎么做数据、怎么思考数据，又怎么思考模型。"
+    },
+    {
+      "i": 75,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "15:39",
+      "en": "And these are both questions, one that I'm curious about your specific business for, but I also think that there will be some business like Rogo built in basically every vertical.",
+      "zh": "这是两个问题，一个是我对 Rogo 这个具体业务的好奇，另一个是我觉得基本上每个垂直行业都会长出像 Rogo 这样的公司。"
+    },
+    {
+      "i": 76,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "15:47",
+      "en": "And so I'm curious what can be abstracted to other professional services or other verticals that are interesting as well that will fall to AI progress.",
+      "zh": "所以我想知道，哪些东西可以抽象出来，复制到其他专业服务或其他有意思、会随着 AI 进步而爆发的垂直领域。"
+    },
+    {
+      "i": 77,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "15:55",
+      "en": "So talk us through specifically like the data and model piece and how that's evolved over time. The early days of Rogo is kind of this Rup Goldberg contraption where you had 60 different model calls.",
+      "zh": "跟我们具体讲讲数据和模型这两块是怎么随时间演进的。"
+    },
+    {
+      "i": 78,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "16:06",
+      "en": "A question comes in, you try to say, what companies is Patrick asking about? Now what are their tickers? Now how do I feed those tickers into an API called Bloomberg or Faxit or some internal dataset?",
+      "zh": "Rogo 早期有点像一台鲁布·戈德堡机（Rube Goldberg contraption）：一个问题进来，你先猜 Patrick 问的是哪些公司，再查这些公司的 ticker，再把 ticker 喂给 Bloomberg、FactSet 或某个内部数据集的 API。"
+    },
+    {
+      "i": 79,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "16:16",
+      "en": "It comes back and I need to call it different model to pull it all together and as the models get smarter, you kind of want to be less prescriptive, less of a Rup Goldberg machine and just think about what are the simplest, best highest quality tools and the same way that a few of the world's smartest human beings starting here tomorrow trying to be a great banker and investor, what are the tools that they would need that are not just",
+      "zh": "拿到结果还得再调另一个模型把东西拼起来。模型越来越聪明，你反而要少一些预设、少做鲁布·戈德堡机器，只想最简洁、最好、最高质量的工具。就像世上最聪明的几个人明天入职，想成为优秀的 banker 和投资人，他们需要哪些工具？而这些工具不只是"
+    },
+    {
+      "i": 80,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "16:35",
+      "en": "intrinsic to being smart, right? What are the data tools? What are the ways of going out and gathering information? What are the ways of auditing its own work?",
+      "zh": "聪明本身自带的东西，对吧？有哪些数据工具？有哪些出去收集信息的方式？有哪些审计自己工作的方式？"
+    },
+    {
+      "i": 81,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "16:43",
+      "en": "And then what are the ways of presenting it and pushing it back into the systems that it needs? And so for us, we spend a lot of time thinking through what are all the data inputs that a great banker or a great investor would need to actually do their job.",
+      "zh": "又有哪些把结果呈现出来、推送回它需要进入的系统的通道？对我们来说，我们花大量时间想清楚：一个好的 banker 或好的投资人做好工作需要哪些数据输入。"
+    },
+    {
+      "i": 82,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "16:54",
+      "en": "Then we spend a lot of time thinking about, great, when you're doing that job, what are all the compliance and regulatory requirements to make sure that if someday some Delaware court judge makes AI inputs and research discoverable, you have actually done it all the right way such that you're not intermingling information because the reality of AI investment judgment and AI banker outputs is that you're going to be able to see the full lineage of how",
+      "zh": "然后花大量时间想，当你做这份工作时，合规和监管要求有哪些，确保哪天某个特拉华州法官判定 AI 的输入和研究成果必须可披露时，你其实每一步都做得合规、没有混用信息，因为 AI 投资判断和 AI banker 产出的现实是，"
+    },
+    {
+      "i": 83,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "17:17",
+      "en": "those things are created. And then we spend a lot of time benchmarking these models and creating different evals and data sets so we can always decide what is the most performant, what is the cheapest from a token perspective, what is the lowest latency and route tasks to the appropriate type of models.",
+      "zh": "你会被看到完整的创建链条。我们还花大量时间对模型做 benchmark、建各种 eval 和数据集，这样我们总能判断哪个模型表现最好、token 成本最低、延迟最低，并把任务路由到合适的模型类型。"
+    },
+    {
+      "i": 84,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "17:31",
+      "en": "I'm sure your favorite question is, how do you ultimately compete with Anthropik and OpenAI who view finance as a big, one of the few categories that you see them talking about and thinking about, what can you do in the long run that's counter positioned against what they can or will do, do you think?",
+      "zh": "我猜这是你最爱的话题之一：怎么跟 Anthropic 和 OpenAI 竞争？它们把金融看成少数几个重点类目之一，已经在说、在想。你觉得长期你能做什么，和它们能做的或会做的形成差异化定位？"
+    },
+    {
+      "i": 85,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "17:46",
+      "en": "I mean, you want to build things that are perpendicular to what they want to build. And sometimes you might build a chatbot because that helps you go to market faster, but you should know there's a whole bunch of stuff underneath the surface that the labs are never going to build that we need to build for finance or for any other vertical.",
+      "zh": "我的意思是，你要建的东西要和它们想建的东西垂直。有时候你可能也会做一个 chatbot，因为那能帮你更快进市场，但你心里要清楚，水面底下有一大堆实验室永远不会去建的东西，而金融或者其他任何垂直领域都需要有人去建。"
+    },
+    {
+      "i": 86,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "18:01",
+      "en": "And when you think about financial services and capital markets, how many businesses are there that generate more than $5 or $10 billion by just going deep into those workflows in the data sets and how work is done, there's a huge amount of time and spend on top of very messy specific problems.",
+      "zh": "想想金融服务和资本市场，有多少公司靠深挖这些工作流、数据集和工作方式就能做到 50 亿、100 亿美元以上？在非常脏、非常具体的问题上，有大量的时间和支出。"
+    },
+    {
+      "i": 87,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "18:17",
+      "en": "And all of finance is a collection of different niches with different data sets, different definitions of good, different regulatory requirements.",
+      "zh": "整个金融是由一个个不同的利基市场组成的，各有各的数据集、各有各的对'好'的定义、各有各的监管要求。"
+    },
+    {
+      "i": 88,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "18:25",
+      "en": "And we can get to $5 billion in revenue by going deep across those things and creating the systems, the systems of record that help manage them.",
+      "zh": "我们可以在这些领域里做深，建成管理它们的记录系统，做到 50 亿美元收入。"
+    },
+    {
+      "i": 89,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "18:33",
+      "en": "That for Anthropik would kind of be like stopping on the side of the road to pick up a penny because they're on the pathway of trying to go from $100 billion in revenue to $1 trillion in revenue.",
+      "zh": "这对 Anthropic 来说，就像在奔向从 1,000 亿到 1 万亿收入的高速路上停车捡一枚硬币。"
+    },
+    {
+      "i": 90,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "18:42",
+      "en": "And there's so much depth to these systems that actually need to be built beyond just intelligence. Is there a favorite example of that of some like pain in the ass thing that you've had to wire up last mile things?",
+      "zh": "而这些系统需要建的深度远超单纯的智能。有没有一个你最喜欢的例子，某个特别烦人的东西，是你们不得不把最后一公里接通才行的？"
+    },
+    {
+      "i": 91,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "18:52",
+      "en": "Yeah, I mean, think about if you are ingesting MNPI because you are working on transactions or you're working on deals that have an effect on the market, the compliance requirements you have just in the auditability or what you can flag and how it feeds into the internal systems of an investment firm or a bank so that if you ever get audited or a regulator ever wants to see what you did, do you have all that plumbing in place that is pixel perfect?",
+      "zh": "嗯，想想 MNPI（重大非公开信息，material non-public information）的摄取：如果你在做交易、做会影响市场的 deal，光是可审计性、能标记什么、怎么接入投资公司或银行的内部系统，就已经有合规要求了。万一被审计、监管要看你做过什么，这些管道是不是像素级精确？"
+    },
+    {
+      "i": 92,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "19:17",
+      "en": "That's one example. Another example is if you actually want to transact, say you are a big public company buying another big public company and you need to send data back and forth, you actually need some sort of data room, something that is compliant, safe and secure that coordinates.",
+      "zh": "这是一个例子。另一个例子，如果你想真的完成交易，比如一家大型上市公司收购另一家大型上市公司，双方要来回传数据，你就需要一个数据室，既合规、安全，又能协调各方。"
+    },
+    {
+      "i": 93,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "19:31",
+      "en": "And ideally, it's not just some static kind of Dropbox folder, but something that's plugged into the way that you do work, your agents, your workflows.",
+      "zh": "理想情况下，它不能只是一个静态的 Dropbox 文件夹，而应该接入你的工作方式、你的 agent、你的工作流。"
+    },
+    {
+      "i": 94,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "19:39",
+      "en": "And I don't think OpenAir and Thropic will ever want to build a data room business. If you actually want to be the exchange for all of high finance and all of capital markets, you not just need to own the intelligence, you need to own the transaction venue, the communication venue, the workflows and all the data inputs that go into it.",
+      "zh": "我觉得 OpenAI 和 Anthropic 永远不会想去做一个数据室生意。但如果你想成为整个高端金融和资本市场的交易所，你不仅要拥有智能，还要拥有交易场所、沟通场所、工作流，以及进入这一切的所有数据输入。"
+    },
+    {
+      "i": 95,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "19:55",
+      "en": "It's interesting I asked about data and models, but actually it sounds like harness or infrastructure is probably the most important of the three.",
+      "zh": "有意思，我刚才问的是数据和模型，但听起来 harness（运行框架）或基础设施，可能是三者里最重要的。"
+    },
+    {
+      "i": 96,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "20:04",
+      "en": "Think about the fundamental difference between Claude Code when it came out and Claude Cowork versus OpenAI and ChatchBT. The models were actually fairly similar, but the harness and the way that it was presented from Claude was far better and it just allowed the models to exercise more of their long running capabilities.",
+      "zh": "想想 Claude Code 刚出来时、以及 Claude Cowork，和 OpenAI 的 ChatGPT 的根本差异：模型其实差不多，但 Claude 的 harness 和呈现方式要好得多，让模型得以释放更多长时间运行的能力。"
+    },
+    {
+      "i": 97,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "20:23",
+      "en": "And that's why they had a run up in usage and a huge amount of expansion. And it just shows the way that you harness these models is so, so important.",
+      "zh": "这就是它们用量猛涨、大幅扩张的原因。这也说明，驾驭这些模型的方式极其重要。"
+    },
+    {
+      "i": 98,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "20:30",
+      "en": "And I think people underappreciate that intelligence, the reasons that humans are high agency and can do a lot is not just because we have high raw recall and IQ and knowledge, but there's all these different microservices in your brand.",
+      "zh": "我觉得人们低估了智能这件事：人类之所以能动性高、能做成很多事，不只是因为我们记忆力强、IQ 高、知识多，而是你大脑里跑着一堆微服务（microservices）。"
+    },
+    {
+      "i": 99,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "20:43",
+      "en": "How do you put knowledge away? How do you retrieve it? How do you trigger things? Emotions are a way to trigger all these different microservices.",
+      "zh": "你怎么存知识？怎么取回来？怎么触发？情绪就是触发这些不同微服务的方式之一。"
+    },
+    {
+      "i": 100,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "20:49",
+      "en": "That's why a great investor might have great judgment is because they have good spidey sense for when they see this sort of thing in the market.",
+      "zh": "所以优秀投资人之所以有好的判断，是因为他们有一种蜘蛛感：在市场里看到某类东西时会被触发。"
+    },
+    {
+      "i": 101,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "20:55",
+      "en": "It actually triggers the recall from this event that informs a creative decision. All those kind of small microservices are things that need to be built out.",
+      "zh": "它会唤起对某段经历的回忆，进而形成一个创造性的决策。所有这些小型的微服务，都是需要有人去建出来的东西。"
+    },
+    {
+      "i": 102,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "21:03",
+      "en": "If I force you to become an investor and your only goal is to invest in roguelike businesses, like one of these businesses that's, let's say a vertical application that's wiring up the capabilities of AI to an industry, what features would you look for that would get you the most excited either in the industry or in the founder builder and their approach based on what you've learned?",
+      "zh": "如果逼你变成一个投资人，唯一目标是投 Rogo 式的公司——比如把 AI 能力接到某个行业上的垂直应用公司——根据你学到的经验，你会寻找哪些特征？行业上的、创始人或 builder 身上的、或者他们的打法上的？"
+    },
+    {
+      "i": 103,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "21:23",
+      "en": "A few things. One is the industry actually does have to have enough complexity and depth in the types of data, the types of systems of record that people use, the types of deployment models that you can spend a lot of effort solving those problems in order to have a wedge to solve everything else.",
+      "zh": "几点。第一，这个行业本身必须有足够的复杂度和深度：数据种类、人们使用的记录系统种类、部署模型的种类都得足够多，值得你花大力气去解决，这样你才有一个楔子去撬动其他一切。"
+    },
+    {
+      "i": 104,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "21:40",
+      "en": "Because if it's an industry that anyone can just walk into and sell the basic version of chat to BT or co-work or co-pilot immediately and you don't have to solve all these weird integrations, you're not going to have enough time to build all those things that are perpendicular to what you're doing.",
+      "zh": "因为如果是一个谁都能走进来、直接卖一个基础版 ChatGPT、Cowork 或 Copilot 的行业，不需要解决任何奇怪的集成，你就没有时间把那些和你主业垂直的周边都建起来。"
+    },
+    {
+      "i": 105,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "21:54",
+      "en": "And so the industry itself needs to be adjacent enough to the core market. So that's one thing. The second thing I would look for is domain expertise from the team and the founders.",
+      "zh": "所以行业本身要足够靠近核心市场，这是第一点。第二，我会看团队和创始人是否具备领域专长。"
+    },
+    {
+      "i": 106,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "22:03",
+      "en": "And I don't have unique domain expertise, but I had enough to get started. And then I was so curious about finance and money and capital markets.",
+      "zh": "我并没有独一无二的领域知识，但起步时够用。而且我对金融、资本和市场充满好奇。"
+    },
+    {
+      "i": 107,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "22:12",
+      "en": "And I grew up in New York and I was surrounded by people that all they could think about, all they could talk about was high finance and I was fascinated by it and I wanted to learn about it.",
+      "zh": "我在纽约长大，身边人满脑子、满嘴都是高端金融，我被它迷住了，想搞懂它。"
+    },
+    {
+      "i": 108,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "22:20",
+      "en": "And then we assembled a team that was uniquely passionate about it too. And so I have over 100 people that have spent time within investment banks or within investment firms across the world's best institutions.",
+      "zh": "然后我们组建了一支同样对它无比热忱的团队。我们有超过 100 位同事曾在投行或投资公司待过，来自世界上最顶尖的机构。"
+    },
+    {
+      "i": 109,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "22:30",
+      "en": "And so we can constantly take the models as they're released and harness them for finance. And our job is really to catch the change in the models and figure out how to apply it into these institutions.",
+      "zh": "这样我们就能持续地把新发布的模型为金融所用。我们的真正工作，是接住模型的每一次变化，想清楚怎么把它应用到这些机构里。"
+    },
+    {
+      "i": 110,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "22:41",
+      "en": "The final big thing I would look for is a business that's willing to constantly reinvent the core product and constantly willing to slash it to nothing.",
+      "zh": "最后一点，也是最重要的一点：公司要愿意不断重塑核心产品，愿意不断把它砍到几乎归零。"
+    },
+    {
+      "i": 111,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "22:51",
+      "en": "And I think anyone who their delivery method of their product is not something that they can fully cannibalize quickly, like a terminal or like a very specific UX or interface is not going to be agile enough to constantly reinvent every six months when there's a step change.",
+      "zh": "我认为，如果你的产品交付方式是那种没法快速自我蚕食的——比如一个终端机，或者某个非常具体的 UX、界面——你就不可能足够敏捷，在模型每半年一次阶跃时不断重建。"
+    },
+    {
+      "i": 112,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "23:08",
+      "en": "Let's an example of that that you've done, like a tear down and rebuild. The story, the anecdote I'm most inspired by is Max Lenchin, who talks about how to firm, they rebuild the fundamental ledger technology every year and they rebuild it for a few reasons.",
+      "zh": "你们自己有没有这种推倒重建的例子？让我最受启发的故事是 Max Levchin，他说他们公司每年都会重建底层账本技术，重建有几个原因。"
+    },
+    {
+      "i": 113,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "23:21",
+      "en": "One is it's the most interesting engineering problem and so all the engineers want to work on it. So it's a good way to retain talent, to teach engineers about the core fundamental business of a firm.",
+      "zh": "第一，这是最有意思的工程问题，所以工程师都想干这个，它是留住人才、让工程师理解公司核心业务的好办法。"
+    },
+    {
+      "i": 114,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "23:30",
+      "en": "But then number two, it's a good way to make sure that system doesn't ossify and it's constantly improving. And so we do that same exact thing for our harness and the core agentic system.",
+      "zh": "第二，这是防止系统僵化、让它持续变好的好办法。我们对自己的 harness 和核心 agent 系统做的是一模一样的事。"
+    },
+    {
+      "i": 115,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "23:39",
+      "en": "We are constantly looking at it, realizing we're not even at a local minima. It would be impossible if we were at a local minima because the models are changing so quickly and we know redo the whole thing.",
+      "zh": "我们不断审视它，意识到自己甚至还没走到局部最小值（local minima）。在模型变化这么快的情况下，根本不可能停在局部最小值，我们知道要把整个东西重做。"
+    },
+    {
+      "i": 116,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "23:49",
+      "en": "What's something that the models currently cannot do that if they could would really change the nature of the product? Compaction. So if you have 100 conversations with a single agent, how does it make sure that it's actually remembering the right things and compacting its memory into an amount of tokens that it can use every time and it has enough coherence and context on who you are and what you care",
+      "zh": "现在的模型有什么做不到、而一旦做到会真正改变产品形态的事？是记忆压缩（compaction）。比如你和同一个 agent 聊了 100 场，它怎么确保记住的恰好是该记的东西，把记忆压缩成每次能用的 token 量，同时保持足够的连贯性和对你的上下文——你是谁、你在乎什么——"
+    },
+    {
+      "i": 117,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "24:11",
+      "en": "about to make it feel like it's a true person that you're speaking to that, you know, learns more and more about you? That's a hard problem.",
+      "zh": "让它用起来像一个真正在跟你对话、越来越懂你的人。这是个难题。"
+    },
+    {
+      "i": 118,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "24:18",
+      "en": "And it compounds exponentially when you think about agents not just as a one-to-one. Right now, almost all agents are one-to-one. You use chat GBT individually, you use Copa individually, you use Gemini individually.",
+      "zh": "当 agent 不再只是一对一的时候，这个问题会指数级复杂化。现在几乎所有 agent 都是一对一的：你用 ChatGPT 是个人的，用 Copilot 是个人的，用 Gemini 也是个人的。"
+    },
+    {
+      "i": 119,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "24:29",
+      "en": "As soon as these are actually things that can sort with a lot of colleagues or in a slack channel with 100 people, have to work across an entire company, now the compaction problem just scaled exponentially because it's having conversations with 100 different people and needs to be able to coordinate across those things.",
+      "zh": "一旦这些东西要能和许多同事协作、或者在一个 100 人的 Slack 频道里工作、贯穿整个公司，记忆压缩问题就指数级放大，因为它在和 100 个不同的人对话，还要在这些人之间协调。"
+    },
+    {
+      "i": 120,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "24:44",
+      "en": "And so being able to take all of that memory, all those interactions and actually lodge it into the mental model or brain of that agent so that it can be persistent so that it can actually maintain context over the course of a bunch of interactions, that's something that the models are not great at today.",
+      "zh": "所以，能把所有这些记忆、所有交互沉淀进那个 agent 的心智模型或大脑，让它持久、能在多次交互中保持上下文，今天的模型还做得不好。"
+    },
+    {
+      "i": 121,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "24:59",
+      "en": "What do you think the major kinds of AI software businesses there are? So we've got companies like a cognition or a cursor or something that can grow unbelievably quickly.",
+      "zh": "你觉得 AI 软件公司主要分哪几类？像 Cognition 或 Cursor 这样的公司，可以长得极其快。"
+    },
+    {
+      "i": 122,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "25:08",
+      "en": "And I'm especially curious for you to compare this to the old classification system for software companies. I'm curious how people buy roguel, what kind of category you would put it in.",
+      "zh": "我特别想让你把它和老的软件公司分类体系对比一下。我想知道人们怎么买 Rogo，你会把它归到哪个类目。"
+    },
+    {
+      "i": 123,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "25:16",
+      "en": "Is it usage-based? Is it seat-based? Is it something else? Talk us through how people want to buy this stuff and what the emerging models are for AI software business.",
+      "zh": "是按用量计费？按席位计费？还是别的？给我们讲讲，大家想买这类东西的方式，以及 AI 软件公司正在浮现的商业模式。"
+    },
+    {
+      "i": 124,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "25:25",
+      "en": "We are a classic enterprise software business. We price per seat right now because our buyers are used to pricing per seat. They think of us in a similar category to Bloomberg, to FACTSET, to Capital IQ, to Pitchbook.",
+      "zh": "我们是一家经典的企业软件公司。我们现在按席位定价，因为我们的买家习惯按席位，他们把我们和 Bloomberg、FactSet、Capital IQ、PitchBook 放在同一个类目里。"
+    },
+    {
+      "i": 125,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "25:39",
+      "en": "And so we have to build a very human business. Every time you sign a deal, it requires an AE and a Solutions Architect of the Sales Engineer going in and shaking a lot of hands, explaining how it works, explaining how to integrate it.",
+      "zh": "所以我们必须建一个非常'人力驱动'的业务：每签一单，都需要 AE 加上 solution architect 或 sales engineer 去现场，握一大堆手，解释怎么运作、怎么集成。"
+    },
+    {
+      "i": 126,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "25:51",
+      "en": "You can't sign one deal where the usage just rises 100-fold. I look at how hard it was for Anthropic to sell to us, very easy, and the amount that we pay them has risen exponentially without a human loop because it's a token consumption model.",
+      "zh": "你不可能出现签一单、用量就涨一百倍的情况。你看 Anthropic 卖给我们多轻松，我们付给他们的钱在没有任何人工环节的情况下指数级增长，因为那是 token 消耗模型。"
+    },
+    {
+      "i": 127,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "26:05",
+      "en": "There's a lot of industries where riding the coattails of token consumption isn't going to work for enterprise sales, and we're one of those.",
+      "zh": "在很多行业，搭 token 消耗的顺风车做企业销售是行不通的，我们就是其中之一。"
+    },
+    {
+      "i": 128,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "26:12",
+      "en": "And so it's actually pretty interesting because we have to build a go-to-market machine five times faster than most enterprise sales organizations ever have to build.",
+      "zh": "所以其实挺有意思的：我们的 go-to-market 机器必须比大多数企业销售组织建得快五倍。"
+    },
+    {
+      "i": 129,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "26:20",
+      "en": "And so I do think there's the category that's just typical enterprise sales, but using AI models as a tailwind to build 100 times better products.",
+      "zh": "我确实认为有一个类别，就是典型的企业软件销售，只是把 AI 模型当作顺风车，做出好一百倍的产品。"
+    },
+    {
+      "i": 130,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "26:28",
+      "en": "And then there are the token brokers, the token consumption businesses, where you're selling in the parts of enterprise where they're used to buying usage-based tools, cursor, factory, cloud code, and others.",
+      "zh": "另一个类别是 token 中间商、token 消耗型公司，你卖进企业里本来就习惯按用量付费的部分，比如 Cursor、Factory、Claude Code 这些。"
+    },
+    {
+      "i": 131,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "26:38",
+      "en": "And so you can go much further commercially with fewer people. What's your prediction for how or if that will change in finance? I think that every business needs to go through two different pricing revolutions.",
+      "zh": "所以你可以用更少的人在商业上走得更远。你预测在金融里这种模式会怎么变，或者会不会变？我觉得每个生意都要经历两场定价革命。"
+    },
+    {
+      "i": 132,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "26:50",
+      "en": "You need to move to some sort of usage-based, and then you need to move to some sort of outcome-based. For me, if I can figure out a way to skip the token-based, skip the usage-based, simplify it for my users, and just wait until I can say, hey, Patrick, what if I just charge you for every good investment idea I give you, or what if I charge you for the quarterly report you send to LPs that I can do perfectly, or what if I charge you for every sim that",
+      "zh": "你先要转向某种按用量计费，然后再转向某种按结果计费。对我来说，如果能想办法跳过 token 计费、跳过用量计费，帮用户把账变简单，直接等到我能说：嘿 Patrick，如果我按每一个给你的好投资想法收费怎么样？如果我按那份我能完美完成的、发给 LP 的季报收费怎么样？如果我按你作为 banker 做的每一份 sim——"
+    },
+    {
+      "i": 133,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "27:09",
+      "en": "you create as a banker, I would much rather get there than have to figure out some random way of trying to assign dollars per token. That is something that we're not going to quite agree on because you're going to spend $100,000 on tokens and say, well, I get $100,000 of value, and I don't really know.",
+      "zh": "收费怎么样，那我宁愿直接走到那一步，也不想去琢磨怎么按 token 收钱。这点我们恐怕没法完全达成一致：你会花 10 万美元买 token，然后说，嗯，我得到了 10 万美元的价值吧，其实你并不知道。"
+    },
+    {
+      "i": 134,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "27:26",
+      "en": "But you know what the value is to you of a good investment idea because you can actually see how much money did I earn. Or you know what the value to you is if you can produce a sim if you're a bank because you know what you charge these firms to actually sell the business.",
+      "zh": "但一个好的投资想法对你值多少钱，你是知道的，因为你能看到自己到底赚了多少钱。如果你是 bank，一份 sim 值多少钱你也知道，因为你清楚你向这些公司收多少费来把生意卖掉。"
+    },
+    {
+      "i": 135,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "27:37",
+      "en": "Presumably, you can't change your seat price on the fly dynamically, at least with the same customer. So how do you deal with the problem of, in some ways, misalignment with the customer for your business, where if you do a great job and they use the thing way more, which costs you a lot of money, they become a worse customer?",
+      "zh": "按理说，至少对同一个客户你没法随时动态调整席位价格。那你怎么处理业务和客户之间的错配问题？如果你干得好、他们用得更多——这会让你花很多钱——他们反而成了更差的客户？"
+    },
+    {
+      "i": 136,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "27:54",
+      "en": "The reality is, is we are 1% of the way into our product roadmap, 99% of the innovation for capital markets is in front of us. And so what matters is that we're a good partner, we're a good steward of their AI strategy and they want to work with us in the future.",
+      "zh": "现实是，我们的产品路线图才走了 1%，资本市场 99% 的创新还在前面。所以重要的是我们是一个好的伙伴，是他们 AI 战略的好的守护者，是他们未来还想合作的对象。"
+    },
+    {
+      "i": 137,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "28:07",
+      "en": "It's so interesting to think about the shape of this in the future. You said you're 1% penetrated into the roadmap. Give us a sense of where you think this is all going from your product perspective, not industry-wide.",
+      "zh": "想想这件事未来的形态特别有意思。你说你们才渗透了路线图的 1%。从你们产品的角度——不是整个行业——给我们讲讲你觉得这一切会走向哪里。"
+    },
+    {
+      "i": 138,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "28:17",
+      "en": "If you have that much of the roadmap ahead of you, still, describe that to us. Think about the percentage of all capital markets' workflows, investment workflows, investment banking jobs that are still completely human-rate limited and done by human intermediaries.",
+      "zh": "既然你面前还有这么大的路线图空间，就描述给我们听吧。想想看，资本市场的工作流、投资工作流、投行的工作中，还有多大比例是完完全全受人的速度限制、由人类中间人来做的。"
+    },
+    {
+      "i": 139,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "28:34",
+      "en": "It's kind of similar to other parts of financial services, where 15 years ago, 20 years ago, every mortgage that someone got, you went in, you spoke to a banker at a local branch, and it felt like a very human decision, I'm buying a house, I'm taking out a loan, this is important, I need to speak to someone.",
+      "zh": "这和金融服务的其他部分很像：15 年、20 年前，每一笔房贷，你都要走进当地的网点，跟银行职员面谈，感觉那是一个极其'人'的决定——我要买房、我要借钱，这很重要，我得找人聊。"
+    },
+    {
+      "i": 140,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "28:50",
+      "en": "No one ever thought that you wouldn't want a human in the loop for that. Now, 40 to 50% of mortgages are just delivered online by platforms like Rocket Mortgage.",
+      "zh": "从没人觉得这种事不该有人参与。而现在，40% 到 50% 的房贷是像 Rocket Mortgage 这样的平台直接在线发放的。"
+    },
+    {
+      "i": 141,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "28:59",
+      "en": "I think there's going to be a huge amount of innovation in how companies transact, how companies raise capital, how companies raise debt. I think it'll be easier than it's ever been in 10 or 20 years for someone who's a business owner or someone who works at a company to go online and click a button and try to raise capital the way that someone can go on to Robinhood and click a button and buy an equity.",
+      "zh": "我觉得公司在交易、融资、发债的方式上会有大量的创新。我觉得十年或二十年后，一个企业主或在某公司工作的人，上网点一下按钮就能尝试融资，会比以往任何时候都容易，就像现在有人在 Robinhood 上点一下按钮就能买一只股票。"
+    },
+    {
+      "i": 142,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "29:19",
+      "en": "I think it'll take five minutes for KKR to figure out, can I sell this portfolio company and do another sponsor? Not five months. I think you're going to be able to price assets in order of magnitude less time, and as a result, markets are going to be more transparent, more liquid, more efficient, and there's going to be a whole bunch more activity.",
+      "zh": "我觉得 KKR 会用 5 分钟——而不是 5 个月——就搞清楚：我能不能把这个被投公司卖给另一家 sponsor？我觉得资产定价的时间会少一个数量级，结果是市场会更透明、更有流动性、更有效率，交易活动也会多得多。"
+    },
+    {
+      "i": 143,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "29:38",
+      "en": "I'm going to focus on the specific future of automated risk pricing, for lack of a better simple term. We're three years from now, and everything you just said is true, where I can raise single digit millions of dollars of better equity, kind of like filling out an online form, and the thing can just price the risk for me and give me an offer.",
+      "zh": "我想聚焦在自动化风险定价这个具体未来上，姑且用这个简单的说法。三年后的今天，你说的都成真了：我可以像填在线表格一样，为一家公司募到几百万美元的小额股权，而系统就为我完成风险定价、给出报价。"
+    },
+    {
+      "i": 144,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "29:56",
+      "en": "It's like open door for like every other year or something. What do you need to build that you don't already have to enable that sort of capital market future?",
+      "zh": "就像每隔一年就能 OpenDoor 估价一次似的。要实现这种资本市场未来，你还需要建什么你现在没有的东西？"
+    },
+    {
+      "i": 145,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "30:04",
+      "en": "It's actually a very similar strategy to Bloomberg's strategy. It was, I'm going to omit a lot of details here, but offer a little bit of data again in the door, build all the analytics and workflows on top that someone would need, and then provide the exchange and the communication platform where you can actually transact in a bunch of asset classes that before it was pretty opaque, Bloomberg Messenger.",
+      "zh": "这其实和 Bloomberg 的策略非常像。我不讲太多细节，大概是：先给一点数据让你进门，在上面搭建人们需要的全部分析和工作流，然后提供交易所和沟通平台，让你在以前很不透明的各类资产里真的能交易——Bloomberg Messenger。"
+    },
+    {
+      "i": 146,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "30:25",
+      "en": "For us, it's use a little bit of AI to get in the door, build out the full workflows, go from co-pilot chatbot to full autopilot tool, so I can make sure that I am 100% accurate on your IC memo or on the DDQs that you're doing, and then provide the communication channel between counterparties, so that if I have agents that can autopilot do the work, I can actually transact for you.",
+      "zh": "对我们来说，就是先用一点 AI 进门，把完整工作流建起来，从 co-pilot 式 chatbot 走到全自动的 autopilot 工具，确保你的 IC memo 或你在做的 DDQ 达到 100% 准确，然后提供交易对手之间的沟通渠道。这样如果我的 agent 能全自动做完这些工作，我真的就能替你完成交易。"
+    },
+    {
+      "i": 147,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "30:43",
+      "en": "The difference between what I need to build in Bloomberg Messenger is I don't need to build the communication channel for humans to transact.",
+      "zh": "我要建的东西和 Bloomberg Messenger 的区别在于：我不需要为人类交易建沟通渠道。"
+    },
+    {
+      "i": 148,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "30:49",
+      "en": "I need to build the communication channel for the agents to transact across these businesses across these investment firms. If you think about what is the actual infrastructure that needs to get built, think about what is the system that would allow a large private equity firm to feel comfortable having an agent negotiate a deal on its behalf, correspond with all the third-party consultants in the",
+      "zh": "我要建的，是让 agent 在这些公司、这些投资机构之间交易的沟通渠道。想想真正需要建的基础设施：一个让大型私募股权公司敢于让 agent 代表自己去谈交易、和交易所涉的所有第三方顾问——做 QoV（价值评估）的人、"
+    },
+    {
+      "i": 149,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "31:11",
+      "en": "transaction, the people doing the QoV, the legal advisors, and so on, and then actually run an auction process where you have a bunch of sponsors providing bits.",
+      "zh": "法律顾问等等——沟通，然后还能跑一个拍卖流程，让一堆 sponsor 出价，这样的系统。"
+    },
+    {
+      "i": 150,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "31:19",
+      "en": "There's a huge amount of software to be built out, and I think sometimes we talk about that as looking like an exchange for a lot of these asset classes that are not standardized.",
+      "zh": "这里有海量软件要建。我有时候觉得这看起来像一个为那些非标准化资产类别而设的交易所。"
+    },
+    {
+      "i": 151,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "31:27",
+      "en": "Tell us a little bit about the customer base today, like how much of it is giant banks versus investing firms. It's mostly large banks, and that's very simply because that was my background, right?",
+      "zh": "讲讲今天的客户构成吧，比如大型银行和投资公司各占多少。主要是大银行，原因很简单，因为那是我的背景，对吧？"
+    },
+    {
+      "i": 152,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "31:38",
+      "en": "I worked as an investment banker for just a handful of years doing buy side M&A coverage, which was super interesting, and so we started targeting the banks pretty early on for a few simple reasons.",
+      "zh": "我做过几年投资银行家，做买方 M&A 覆盖，特别有意思，所以我们很早就开始瞄准银行，有几个简单原因。"
+    },
+    {
+      "i": 153,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "31:49",
+      "en": "One is the investment banks are kind of the distribution channel for the rest of finance. A lot of the folks who then end up as great investors started in their first two years as an analyst at Goldman in the TMT program or something of that nature.",
+      "zh": "第一，投行是整个金融的分发渠道。很多后来成为优秀投资人的人，头两年都是在 Goldman 的 TMT 组或类似地方做分析师。"
+    },
+    {
+      "i": 154,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "32:00",
+      "en": "Two, they have the most seats by far, and so if you can land a bank like Bank of America, you can actually get in the hands of far, far, far more people than if you land the 10 best single portfolio manager public equities investors who each only have 10 investors.",
+      "zh": "第二，银行的席位数量遥遥最多。你拿下一个 Bank of America，能触达的人远远多于签下 10 个最好的单一组合经理股票投资人——每家才 10 个投资人。"
+    },
+    {
+      "i": 155,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "32:16",
+      "en": "If I think about a Bank of America or something, everyone's kind of wondering how deep into the adoption curve are we for enterprises using AI?",
+      "zh": "像 Bank of America 这种……大家其实都想知道，企业用 AI 到底走到采用曲线的什么位置了。"
+    },
+    {
+      "i": 156,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "32:23",
+      "en": "You have a biased sample because your customers are using Rogo and they're using it a lot, but give us a sense of where you think we are. It seems really hard to pin down a good answer.",
+      "zh": "你的样本有偏，因为你的客户在用 Rogo，而且用得很多，但还是给我们讲讲你的判断。这个问题好像真的很难给出确切答案。"
+    },
+    {
+      "i": 157,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "32:32",
+      "en": "I would say the majority of firms are seeing a huge amount of individual productivity, and they're trying to figure out how do we parlay that individual productivity into firm productivity that we can measure.",
+      "zh": "我会说，绝大多数公司看到了大量的个人生产力提升，他们在琢磨怎么把个人生产力变成公司层面可度量的生产力。"
+    },
+    {
+      "i": 158,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "32:44",
+      "en": "Speak to any individual banker at a bank we're deployed with. Life's great. They're like, I'm 100 times more efficient than I used to be. You'll speak to an MD who will say, Gabe, I sent five pages to a client that before I would have had to go back and forth with an analyst on over three days to create, and I made it in 10 minutes myself.",
+      "zh": "去问任何一个我们已部署的银行里的 banker，好日子啊，他们说自己效率是以前的 100 倍。会有 MD 跟我说：Gabe，我发给客户 5 页材料，过去我得和分析师来回磨三天，现在我自己 10 分钟就搞定了。"
+    },
+    {
+      "i": 159,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "33:02",
+      "en": "These are bankers who haven't done any sort of analysis in 25 years. They haven't actually opened an Excel file in 20 years, and they're able to do it themselves.",
+      "zh": "这些 banker 已经 25 年没做过任何分析，20 年没打开过 Excel 文件，现在自己能做了。"
+    },
+    {
+      "i": 160,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "33:10",
+      "en": "The problem is, where is that flowing through? Are you winning more deals? Are you actually transacting more? Are you servicing a part of the market that you haven't seen?",
+      "zh": "问题在于，这些生产力流向了哪里？你是不是赢了更多 deal？你是不是真的做了更多交易？你是不是在服务以前没覆盖的市场部分？"
+    },
+    {
+      "i": 161,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "33:19",
+      "en": "This is where it becomes not just an individual productivity to a problem, but a firm strategy problem. What's your plan? Do you want to use this thing to cut costs?",
+      "zh": "这就从个人生产力问题变成了公司战略问题：你的计划是什么？你是想用这个东西砍成本？"
+    },
+    {
+      "i": 162,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "33:27",
+      "en": "Do you want to use this thing to enter parts of the market that before didn't make sense to serve? You can look at a bank like JPMorgan, JPMorgan just announced that they're going to try and do a lot more M&A work for SMBs, for parts of the market that before they didn't think it made sense to go out and serve because the deal fees were probably too small and so you needed too many people to staff them.",
+      "zh": "还是想用它进入以前不值得服务的市场？看看 JPMorgan 就明白了。JPMorgan 刚刚宣布要做更多面向中小企业（SMB）的 M&A 业务，做那些以前觉得不值得去服务的市场部分，因为交易费太小、需要太多人才能做成单。"
+    },
+    {
+      "i": 163,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "33:45",
+      "en": "Well, now if you have a banker that can be a deal team of one, well, maybe you can enter parts of the market that before just made no sense.",
+      "zh": "现在，如果有一个 banker 能当'一个人的 deal 团队'，那你也许就能进入以前完全讲不通的市场。"
+    },
+    {
+      "i": 164,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "33:52",
+      "en": "So in some sense, the bottleneck at some point will be the creativity of the customer. Like you can provision unlimited capability and you're soon going to be just relying on them figuring out the answer.",
+      "zh": "所以某种意义上，未来的瓶颈会是客户的创造力：你可以提供无限的能力，很快就要靠他们自己找到答案。"
+    },
+    {
+      "i": 165,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "34:04",
+      "en": "It's them figuring out what they want to do, right? If you had 100 great investors start here tomorrow working for you, how would you channel that productivity?",
+      "zh": "得由他们决定自己要做什么，对吧？如果 100 个优秀投资人明天就来给你干活，你怎么把这些生产力导向出去？"
+    },
+    {
+      "i": 166,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "34:12",
+      "en": "It would take you a while to figure out what's the structure? Do they all work on different things? How much money do I give each of them? What do we attack?",
+      "zh": "你得花一阵子才搞得定：结构是什么样的？他们各干各的吗？每人给多少钱？我们进攻哪里？"
+    },
+    {
+      "i": 167,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "34:19",
+      "en": "Two years ago, the most obvious question in this would have been about accuracy and people to use the word hallucinations, which seems to have dropped out of the conversation.",
+      "zh": "两年前，关于这个最显而易见的问题本该是准确性，人们会提'幻觉（hallucinations）'这个词，而现在它几乎从对话中消失了。"
+    },
+    {
+      "i": 168,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "34:27",
+      "en": "And I can't remember the last time someone said hallucinations to me. Or can you teach us about that problem? Ensuring accuracy where accuracy matters a lot to the decimal?",
+      "zh": "我不记得上一次有人当着我的面提幻觉是什么时候了。还是说，你能给我们讲讲这个问题？在准确性关乎小数点的地方，你们是怎么保证准确的？"
+    },
+    {
+      "i": 169,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "34:37",
+      "en": "What's the nature of that these days? It's still super important. I think it's actually more important to be auditable than it is to be accurate.",
+      "zh": "现在这方面是什么情况？它依然极其重要。我觉得，可审计其实比准确更重要。"
+    },
+    {
+      "i": 170,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "34:45",
+      "en": "And obviously those two things are conflated. But what's really important is that I give you an answer. You know how to use it. And if it's not accurate and you don't know how to check it and it's hard to see where it came from, you can't use it at all, whether it's accurate or not, because you don't trust it.",
+      "zh": "这两件事当然经常被混为一谈。但真正重要的是：我给你一个答案，你知道怎么用它。如果它不准确、你又不知道怎么核对、也很难追溯来源，那无论它准不准，你都没法用，因为你不信任它。"
+    },
+    {
+      "i": 171,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "35:00",
+      "en": "If it's accurate most of the time, but even when it's not, it's very easy to see the assumptions that went in where the data was pulled from.",
+      "zh": "如果它大多数时候是准的，而就算不准时，你也很容易看到里面的假设、数据是从哪拉来的。"
+    },
+    {
+      "i": 172,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "35:06",
+      "en": "It's still actionable and it still saves you time. And then increasingly as these things go from co-pilot tools that you're just using for information retrieval to autopilots where you're trusting them not just to gather them information, but to execute on it, to have agency and actually make an investment decision or send an email, you need to have the full confidence that if you were to go back in and see why it made the decision, you would be able to understand why.",
+      "zh": "那它依然可用、依然帮你省时间。而且，当这些东西从单纯做信息检索的 co-pilot 工具，变成你不只让它收集信息、还让它执行、让它有能动性、真的去做投资决策或发邮件的 autopilot 时，你需要有十足的信心：回头去查它为什么做这个决定时，你能看得明白。"
+    },
+    {
+      "i": 173,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "35:28",
+      "en": "Because you're going to need to debug it. And the same way that there's going to be individual investors that make horrible decisions and you need to go in and see what went wrong.",
+      "zh": "因为你要能 debug。就像会有投资人做出糟糕的决定，你得进去看看哪里出了问题。"
+    },
+    {
+      "i": 174,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "35:35",
+      "en": "Was there an incorrect data input to someone to lie to them? What was going on? You're going to need to do the same thing with agents and then especially in parts of capital markets that have regulators that look at these things and need to make sure there's no foul play, if you can't explain why you made a decision and the data went in, that's not going to fly.",
+      "zh": "是数据输入错了？有人骗了他？到底发生了什么？你对 agent 也要做同样的事，尤其在有监管盯着、要确保没有小动作的资本市场角落，如果你解释不了你的决策和输入数据，那就行不通。"
+    },
+    {
+      "i": 175,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "35:53",
+      "en": "You were talking before about how you have to sell like a normal enterprise sales organization would. Do you have to grow or can grow many multiples faster than the fastest growing enterprise SaaS companies of the last era?",
+      "zh": "你之前说到你们得像正常企业销售组织那样去卖，但你们的增长必须、也能比上一个时代增长最快的企业 SaaS 公司快好几倍。"
+    },
+    {
+      "i": 176,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "36:05",
+      "en": "How do you solve that problem? You're rate limited by the speed of humans to some degree in enterprise sales. How do you hire enough people fast enough?",
+      "zh": "你怎么解决？企业销售在某种程度上受人类速度限制。你怎么尽快招到足够多的人？"
+    },
+    {
+      "i": 177,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "36:12",
+      "en": "Like how do you think about being able to grow at the right rate when you don't have the anthropic, cognition, API usage growth? It's so easy for them to grow 10x.",
+      "zh": "也就是说，在没有 Anthropic、Cognition 那种 API 用量增长的情况下，你怎么保持正确的增长速度？他们长 10 倍太容易了。"
+    },
+    {
+      "i": 178,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "36:22",
+      "en": "It's much harder for you. How do you solve that? The core problem we need to solve is how fast can you make a human being productive? As a sales person.",
+      "zh": "对你难得多。你怎么解决？我们要解决的核心问题是：让一个人有多快变成生产力？做销售的话。"
+    },
+    {
+      "i": 179,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "36:30",
+      "en": "Sales person. But anyone else as a marketer, as an SDR, as a post sales person, how quickly can they understand our business and help push us forward?",
+      "zh": "做销售，或者市场、SDR、post-sales 的任何角色，多快能理解我们的业务，帮我们往前冲？"
+    },
+    {
+      "i": 180,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "36:39",
+      "en": "And push customers forward and help our end users? And so enablement and training people and constantly retraining people is the fundamental problem that we and I assume other fast growing enterprise startups have to deal with.",
+      "zh": "推动客户前进、帮助我们的终端用户？所以 enablement、培训、不停地再培训，是我们、我猜也是所有高速增长的企业软件初创公司必须解决的根本问题。"
+    },
+    {
+      "i": 181,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "36:51",
+      "en": "So do you like use AI to build tools? Oh, the internal tools we have are kind of magical. First off, every internal conversation that happens at rogo is recorded.",
+      "zh": "那你会用 AI 来建工具吗？哦，我们的内部工具简直神奇。首先，Rogo 内部发生的每一次对话都被记录。"
+    },
+    {
+      "i": 182,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "37:01",
+      "en": "When anyone starts, we say, hey, just FYI, Patrick, you're always being recorded. It's always being filtered into the company brain. This is not in a kind of big brother situation.",
+      "zh": "任何人入职时我们都会说：FYI，Patrick，你随时都在被记录，所有内容都会汇入公司大脑，这不是老大哥那种氛围。"
+    },
+    {
+      "i": 183,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "37:11",
+      "en": "It's just everyone you're going to speak to is going to have granola or some meeting transcription running because they need to use it and they need to have excellent recall and they need to compound the knowledge that they have.",
+      "zh": "只是每个人开会都会用 Granola 或某种转录工具，因为他们需要用它、需要有出色的回忆能力、需要让知识复利。"
+    },
+    {
+      "i": 184,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "37:20",
+      "en": "And as a result, we just have this huge reservoir of information. And then we have all of these tools that people can use on top to say, oh, you know what?",
+      "zh": "结果就是我们有一个巨大的信息水库，然后人们可以在上面用各种工具去问：哦，你知道吗？"
+    },
+    {
+      "i": 185,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "37:27",
+      "en": "We're deploying with this sort of public equities firm in this sort of market. Have we ever served this kind of data before or are there use cases that might be helpful?",
+      "zh": "我们要给这类公开市场基金、在这个市场做部署，我们以前服务过这类数据吗？有没有可以参考的用例？"
+    },
+    {
+      "i": 186,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "37:34",
+      "en": "And you can pull in the conversation that appear of your have three weeks ago and you never even met that person because they're stationed in APAC.",
+      "zh": "然后你把三周前某位同事的对话调出来，而你甚至根本不认识那个人，因为他在 APAC。"
+    },
+    {
+      "i": 187,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "37:40",
+      "en": "Being able to sponge all that information in and then get it out to people when they need it is the core problem of enablement. So maybe describe the internal brain.",
+      "zh": "把这些信息全部吸收进来，再在对的时候传递给需要的人，这就是 enablement 的核心问题。那讲讲你们的内部大脑吧。"
+    },
+    {
+      "i": 188,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "37:49",
+      "en": "It's called Shrek for some reason because my engineers thought it would be hilarious to call it Shrek. There's a dashboard where you can see the swamp of everything that people are working on at any given time.",
+      "zh": "不知道为什么，它叫 Shrek，因为我们的工程师觉得叫 Shrek 很好笑。有一个 dashboard，你能看到所有人当下在忙什么的一片沼泽。"
+    },
+    {
+      "i": 189,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "38:00",
+      "en": "But it's connected to all of our different systems. It is very prescriptive about what it knows our company goals are. What are our values? What are the things we want to deliver to clients?",
+      "zh": "它连接了我们所有不同的系统。它非常明确地知道自己公司的目标是什么：我们的价值观是什么？我们想交付给客户什么？"
+    },
+    {
+      "i": 190,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "38:09",
+      "en": "What are our North Star metrics? And so it can shape every answer and deliverable that way. And it's both proactive and reactive. Someone can go in and say, I'm trying to get up to speed on how I should talk about model routing and how I should think about the value prop there for a very large institution and what the savings will be.",
+      "zh": "我们的北极星指标是什么？于是它用这些来塑造每一个回答和交付物。它既主动、也被动。有人可以进去说：我想尽快搞明白该怎么讲模型路由（model routing）、怎么向一家很大的机构讲它的价值、能省多少钱。"
+    },
+    {
+      "i": 191,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "38:29",
+      "en": "And it can pull out all that information for you. But it can also say, hey, Patrick, I see on your calendar on Thursday, you're meeting with this sort of private credit firm.",
+      "zh": "它就能把所有相关信息给你拉出来。但它也可以主动说：嘿 Patrick，我看到你周四的日程里要和一家私募信贷公司开会。"
+    },
+    {
+      "i": 192,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "38:38",
+      "en": "Here's all the information you should know, all of the use cases that will resonate. And then all of the types of ROI metrics that firms we've worked with in the past would want to hear.",
+      "zh": "这是你该知道的所有信息、能引起共鸣的用例，还有我们过去服务过的公司最想听的那些 ROI 指标。"
+    },
+    {
+      "i": 193,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "38:47",
+      "en": "So what's the sales pitch to talent? Let's say there's somebody that if you landed them tomorrow would be transformative because they're so high quality or well known or whatever.",
+      "zh": "那你们对人才的 pitch 是什么？假设明天你们挖到一个人，因为质量太高或名气太大，会让公司脱胎换骨。"
+    },
+    {
+      "i": 194,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "38:56",
+      "en": "What is the pitch to them to come work at Rogo versus go somewhere else that's exciting right now? Always depends on the person's motivation.",
+      "zh": "你用什么打动他，让他来 Rogo 而不是别的现在很火的地方？这永远取决于这个人的驱动力。"
+    },
+    {
+      "i": 195,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "39:04",
+      "en": "So it's hard to give a generic pitch. But my pitch for Rogo today for talent is AI is going to completely transform the world. The place that is going to be the most interesting is applied AI because that's where AI intersects with humanity.",
+      "zh": "很难有一个通用的说法。但我今天对人才的 pitch 是：AI 会彻底改变世界，最有意思的地方会是应用层 AI，因为那是 AI 和人类交汇的地方。"
+    },
+    {
+      "i": 196,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "39:18",
+      "en": "And so the companies that dictate how AI intersects with humans and touches humans are going to do the most interesting creative engineering and product work in the world.",
+      "zh": "所以，那些定义 AI 如何与人类交汇、如何触达人类的公司，会做世界上最有趣、最创造性的工程和产品的活。"
+    },
+    {
+      "i": 197,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "39:26",
+      "en": "Finance is a domain that is the catalyst for all human progress and innovation. And capital allocation is upstream of the financing of every company, every idea, every economy.",
+      "zh": "金融是催化一切人类进步和创新的那个领域，而资本配置是所有公司、所有想法、所有经济体获得融资的上游。"
+    },
+    {
+      "i": 198,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "39:38",
+      "en": "And so if you can make that more efficient, you can supercharge the world. And we're the category leading player who has the best shot on gold to not just be the $100 billion business to do it, but the $500 billion business that completely transforms capital markets.",
+      "zh": "如果你能让它更高效，你就能为世界加速。而我们是品类领导者，最有机会做成的不是一个 1,000 亿美元的生意，而是一个 5,000 亿美元、彻底改变资本市场的生意。"
+    },
+    {
+      "i": 199,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "39:51",
+      "en": "And there's such a depth and a complexity and an amount of interesting problems that's so exciting. And we have a killer group of people that is super smart, hungry, curious, and low ego that's going to do it.",
+      "zh": "这里有海量的深度、复杂度和有意思的问题，让人兴奋。我们有一批杀手级的人才：极聪明、饥饿、好奇、低 ego，做成这件事的就是他们。"
+    },
+    {
+      "i": 200,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "40:02",
+      "en": "Good fucking pitch. But it's quite an investor. Say more about this capital markets piece. Historically, as markets get more efficient and liquid, their positive impact, in my opinion, grows a lot.",
+      "zh": "这 pitch 真他妈漂亮。不过你是真懂投资。多讲讲资本市场这块吧。历史上，市场越有效率、越有流动性，在我看来它们的正面影响就会大很多。"
+    },
+    {
+      "i": 201,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "40:15",
+      "en": "You can chart this through market history, which isn't that long, 300, 400 years of proper markets. What do you think is possible? Where might this be going?",
+      "zh": "这在市场历史里是能画出来的，虽然市场史也没多长，就是 300、400 年真正意义上的市场。你觉得什么是可能的？会走向哪里？"
+    },
+    {
+      "i": 202,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "40:24",
+      "en": "And why do you believe that creating more or less friction, I guess, in capital markets can be so powerful? You're always at risk of sounding like the billionaire private equity guy saying that private equity is good for the world when you talk about how finance is good for the world.",
+      "zh": "你为什么相信给资本市场加一点或减一点摩擦会有这么大的力量？你谈金融如何造福世界的时候，总有听起来像个私募 billionaire 大佬在说 PE 对世界多好的风险。"
+    },
+    {
+      "i": 203,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "40:41",
+      "en": "But I like to think about the origins of high finance. And when you think about a business like J.P. Morgan, some of the origins are J. Pierpont Morgan helping connect European investors with the entrepreneurs in an emerging market, the United States, to finance railroads and the infrastructure build out.",
+      "zh": "但我喜欢回想高端金融的起源。想想 J.P. Morgan 这样的生意，它的源头之一是 J. Pierpont Morgan 帮欧洲的投资人对接新兴市场的美国的创业者，为铁路和基建融资。"
+    },
+    {
+      "i": 204,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "40:59",
+      "en": "And everything that allowed the U.S. to be a juggernaut economy. And that happened because there were intermediaries who helped connect folks who were risk takers and capital allocators with the folks who were entrepreneurial and wanted to innovate.",
+      "zh": "正是这一切让美国成了经济巨兽。之所以发生，是因为有中间人把冒险者、资本配置者，和那些有创业精神、想创新的人连接在了一起。"
+    },
+    {
+      "i": 205,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "41:13",
+      "en": "And that was something that had a profoundly great effect on the world. And now think about all the parts of the economy, all the parts of the U.S. domestically, but also internationally that can't tap into capital markets.",
+      "zh": "那件事对世界有深刻而伟大的影响。现在想想经济体里所有无法进入资本市场的角落，美国国内有，国际上也有。"
+    },
+    {
+      "i": 206,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "41:24",
+      "en": "Every emerging nation where you would struggle to raise capital, to finance your idea, to raise debt. And then the 300,000 American businesses that couldn't even tell you what Goldman Sachs does and J.P. Morgan doesn't have the time to go out and work with them because the business is too small.",
+      "zh": "每一个融资难、为想法筹钱难、发债难的新兴国家。还有 30 万家美国公司，它们连 Goldman Sachs 是干嘛的都说不清楚，而 J.P. Morgan 也没空出来服务它们，因为公司太小。"
+    },
+    {
+      "i": 207,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "41:41",
+      "en": "If you're able to speed up the rate at which entrepreneurs and company founders and individuals can tap into capital markets, you can accelerate all innovation.",
+      "zh": "如果你能加快创业者、公司创始人和个人进入资本市场的速度，你就能给一切创新提速。"
+    },
+    {
+      "i": 208,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "41:50",
+      "en": "What are you learning from your peers that are building companies kind of shaped like yours, but in other categories? I am learning how much aggression it takes to grow this quickly.",
+      "zh": "你从那些公司形状和你类似、但在其他品类的同行身上学到了什么？我学到了以这种速度成长需要多大的进攻性。"
+    },
+    {
+      "i": 209,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "42:03",
+      "en": "I am learning how much chewing glass it is on a day-to-day basis and how much conviction you need to have in the long-term, Tam and Sam, to make sure that you don't fuss over all the things that are going completely wrong every single day.",
+      "zh": "我学到了每一天有多像在嚼玻璃，你得多有长期信念——Tam、Sam——才能不去纠结每天都在大错特错的一切。"
+    },
+    {
+      "i": 210,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "42:17",
+      "en": "And I'll call someone like Winston at Harvey. And Winston's ability to just not worry about the 100 flesh wounds that are inflicted on him at any given time and just think about the kind of end-state goal of where he's going to be three years from now and the only two things that matter to get there is pretty amazing.",
+      "zh": "我会给 Harvey 的 Winston 打个电话。Winston 能做到完全不在意任何时刻别人给他带来的 100 处皮肉伤，只想三年后他要到达的终局，和通往那里的唯二重要的事，这真的很厉害。"
+    },
+    {
+      "i": 211,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "42:36",
+      "en": "What is the glass like and what is the aggression like? What does that mean? I worked during COVID, so I didn't even get to see what an office looked like.",
+      "zh": "嚼玻璃是什么滋味？进攻性是什么样子？那意味着什么？我创业赶上新冠疫情期间，甚至没见过办公室长什么样。"
+    },
+    {
+      "i": 212,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "42:44",
+      "en": "John, my co-founder and I used to joke that it's a very expensive business school education because we were just doing everything wrong. Didn't know how to hire, didn't know how to fire, didn't know how to mentor, didn't know how to manage, didn't know how to give feedback, didn't know how to set direction.",
+      "zh": "我和联合创始人 John 以前开玩笑说，这是一堂很贵的商学院课，因为我们什么都做不对：不会招人、不会开人、不会带人、不会管理、不会给反馈、不会定方向。"
+    },
+    {
+      "i": 213,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "42:55",
+      "en": "And a lot of the people problems that arise with scaling quickly feel like eating glass to me anyway. And so when people quit, when you have retention issues, when you spend six months recruiting a candidate and they don't join, that's chewing glass.",
+      "zh": "快速扩张带来的大部分人的问题，在我看来就是嚼玻璃。有人离职、留人出问题、花六个月招一个候选人结果他没来，那是嚼玻璃。"
+    },
+    {
+      "i": 214,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "43:09",
+      "en": "When you spend a bunch of time working on a product that gets completely washed over by the next model, that comes out and makes you feel like an idiot for spending all that time and capacity on something that was the wrong call, chewing glass.",
+      "zh": "你花一大段时间做一个产品，结果下一个模型出来把它整个碾过去，让你觉得自己像个傻瓜，把所有时间和产能花在了一个错误的决定上——嚼玻璃。"
+    },
+    {
+      "i": 215,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "43:22",
+      "en": "When you get rejected by 40 investors in a row before you're able to raise capital, chewing glass. And my experience of startup building is it's like a roller coaster where you have to feel the extreme highs and feel the extreme lows.",
+      "zh": "融资之前被 40 个投资人连续拒绝——嚼玻璃。而我对创业的体验是：它像过山车，你得感受极端的巅峰，也得感受极端的谷底。"
+    },
+    {
+      "i": 216,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "43:35",
+      "en": "And I'm a super emotional guy. And I try not to let the team feel it, but I will feel on top of the world at the high and like everything is cataclysmic at the low.",
+      "zh": "我是个情感很强的人。我尽量不让团队感觉到，但高峰时我真的觉得站在世界之巅，低谷时又觉得一切都在塌方。"
+    },
+    {
+      "i": 217,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "43:45",
+      "en": "But then if I look back at the journey, the lows get lower, the highs get much higher. And I look back three months ago at the low I was dealing with or the high I was dealing with, I was like, I could do that in my sleep now.",
+      "zh": "但回头看整段旅程，低谷越来越低，高峰越来越高。三个月前我在处理的那个低谷或那个高峰，现在我会说：那玩意儿我闭着眼睛都能应付。"
+    },
+    {
+      "i": 218,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "43:55",
+      "en": "And I think it's just about modulating those things and channeling the emotion to push the business forward, but not letting it distract you.",
+      "zh": "我觉得关键就是调节这些东西，把情绪引导到推动业务向前，而不让它分散你的注意力。"
+    },
+    {
+      "i": 219,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "44:03",
+      "en": "What about aggression? Like that seems kind of like a trope. You've interviewed Pat Grady. Pat Grady was at our board meeting on Wednesday and we presented what was an extremely aggressive plan for next year in terms of hiring goals, commercial goals, product goals.",
+      "zh": "那进攻性呢？听起来有点像一句口号。你采访过 Pat Grady。周三 Pat 参加了我们的董事会，我们拿出了一份在招人、商业化、产品上都极其激进的明年计划。"
+    },
+    {
+      "i": 220,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "44:18",
+      "en": "And one of the reasons I love Pat is because he boils everything down into like two bullet points and it's logically infallible. And he's just like, premise one, premise two, this is the result.",
+      "zh": "我爱 Pat 的原因之一，是他能把所有事浓缩成两条 bullet point，逻辑上无懈可击：前提一、前提二，这就是结论。"
+    },
+    {
+      "i": 221,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "44:30",
+      "en": "And he goes, Gabe, well, if everyone in finance is going to make a buying decision on AI in the next 18 months and they are definitely going to buy something, no matter what, even if you're not there, then the only thing that matters is that you can blitz the market as quickly as possible to make sure that you are there.",
+      "zh": "他说：Gabe，如果金融圈每个人未来 18 个月都要做一次 AI 采购决定，而且无论如何他们一定会买点东西——哪怕你还没到位——那唯一重要的，就是你能不能以最快的速度闪击市场，确保你在那儿。"
+    },
+    {
+      "i": 222,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "44:45",
+      "en": "Given that, do you think this plan is aggressive enough or no? The answer was no. And the reason it wasn't aggressive enough is because I was being soft.",
+      "zh": "既然如此，你觉得这个计划够激进吗？答案是不够。不够激进的原因，是我太手软了。"
+    },
+    {
+      "i": 223,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "44:54",
+      "en": "And I think the reality is you need to be so, so, so aggressive and underwrite all that risk and know the game that you're playing. And my goal as a venture-backed business is to increase the tails of the distribution.",
+      "zh": "我觉得现实是，你必须非常、非常、非常激进，把那些风险全部承保下来，知道自己在玩什么游戏。作为一个风投支持的公司，我的目标是拉大分布的尾部。"
+    },
+    {
+      "i": 224,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "45:05",
+      "en": "It's fine if it gets 30% more likelihood that I fail if the odds that I become a $100 billion company also increased by 20%. But you actually have to be okay with raising both of those tails at the same time.",
+      "zh": "就算失败概率多了 30% 也没关系，只要我成为 1,000 亿美元公司的概率也多了 20%。但你必须真的愿意同时把这两个尾部都抬上去。"
+    },
+    {
+      "i": 225,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "45:35",
+      "en": "This grows Vantage Scales with you, automating compliance and giving you a single source of truth for security and risk. Learn more at Vantage.com slash Invest.",
+      "zh": "随着你的业务成长，Vanta 也随之扩张，自动化合规，给你的安全与风险一个单一可信来源。了解更多请访问 vanta.com/invest。"
+    },
+    {
+      "i": 226,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "45:44",
+      "en": "Ridgeline offers one unified platform that automates away the complexity across portfolio accounting, reconciliation, reporting, trading, compliance and more, all at scale.",
+      "zh": "Ridgeline 提供一个统一平台，把组合会计、对账、报告、交易、合规等等的复杂性在规模化层面全部自动化掉。"
+    },
+    {
+      "i": 227,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "45:53",
+      "en": "Schedule a demo at Ridgeline.ai. Every investment firm is unique and generic AI chatbots don't understand your process. Rogu is built by finance professionals.",
+      "zh": "在 ridgeline.ai 预约一次 demo。每家投资公司都是独一无二的，通用 AI chatbot 不懂你的流程。Rogo 是金融专业人士打造的。"
+    },
+    {
+      "i": 228,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "46:03",
+      "en": "It's connected to your data, learns your process and quickly produces client-ready outputs. Check them out at rogu.com slash invest. The best AI and software companies from open AI to cursor to perplexity use WorkOS to become enterprise-ready overnight, not in months.",
+      "zh": "它连着你的数据、学习你的流程，很快产出可以直接交付客户的成果。去看看 rogo.com/invest。最好的 AI 和软件公司，从 OpenAI 到 Cursor 到 Perplexity，都用 WorkOS，一夜之间企业级就绪，而不是几个月。"
+    },
+    {
+      "i": 229,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "46:20",
+      "en": "Visit WorkOS.com to skip the unglamorous infrastructure work and focus on your product. What's the most emotional low that you faced? When we were raising our Series A, we didn't have any star investors in our cap table yet, but there was a great investor, David Tisch at Box Group, who was an early preceded seed investor, who introduced me to a bunch of all-time greats for the Series A.",
+      "zh": "访问 workos.com，跳过那些不体面的基础设施工作，专注你的产品。你经历过情绪上最低的低谷是什么？我们融 A 轮的时候，股东名单上还没有明星投资人，但有一位很棒的投资人，BoxGroup 的 David Tisch，他很早就投了我们的 pre-seed 和 seed，并为了 A 轮把我介绍给一批历史上最伟大的投资人。"
+    },
+    {
+      "i": 230,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "46:46",
+      "en": "And I thought, wow, I've seen what it does to get a blue chip investor in your cap table, what it does for recruiting talent, becoming more of a black hole for brand and customers and so on.",
+      "zh": "我想，哇，我见过一个蓝筹投资人进股东名单会带来什么：对招募人才、对品牌和客户变成黑洞等等的作用。"
+    },
+    {
+      "i": 231,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "46:56",
+      "en": "This is finally the opportunity we're going to have to do that. We've been building for two and a half years. And David introduced us to 40 investors, and I met with everybody.",
+      "zh": "这次终于就是我们要做成的机会，我们已经建了两年半。David 给我们介绍了 40 家投资人，我全都见了。"
+    },
+    {
+      "i": 232,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "47:04",
+      "en": "I met with Sequoia, Kleiner, Benchmark, everybody, and 40 people passed. And it wasn't just like, you get the email with the deck, and it's not exciting.",
+      "zh": "我见了 Sequoia、Kleiner、Benchmark，所有人，40 家全都 pass。而且不是那种发个带 deck 的邮件、对方觉得不够兴奋就完事。"
+    },
+    {
+      "i": 233,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "47:14",
+      "en": "It was like, oh, this is interesting. Let me meet Gabe. Oh, I kind of like Gabe. Let me spend an hour with him. Oh, Gabe, come to IC. Oh, Gabe, let's go to dinner.",
+      "zh": "而是：哦，这有意思，我来见见 Gabe。哦，我有点喜欢 Gabe，我跟他聊一个小时。哦，Gabe，来上 IC。哦，Gabe，一起吃个晚饭。"
+    },
+    {
+      "i": 234,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "47:20",
+      "en": "Oh, Gabe, come in for the weekend afterwards. You know what? We're going to pass. And it's so personal, because at that stage, it has nothing to do with anything but you, right?",
+      "zh": "哦，Gabe，周末再来一趟吧。然后说：你知道吗，我们要 pass。这件事极其私人，因为在那个阶段，一切都只关于你这个人，对吧？"
+    },
+    {
+      "i": 235,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "47:28",
+      "en": "It's like being broken up with by 40 girlfriends who, like, every time you fell in love, and then every time they said, eh, not for you. And that was actually Thrive, too, at the Series A.",
+      "zh": "就像被 40 个女朋友甩了，每一次你都坠入爱河，然后每一次对方说：嗯，不合适。Thrive 在 A 轮也是这样。"
+    },
+    {
+      "i": 236,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "47:38",
+      "en": "Thrive spent so much time with me. He went to dinner with Avery and Vince, fell in love with them and the firm, because they were awesome, and then crushing blow.",
+      "zh": "Thrive 和我花了很长时间。他去和 Avery、Vince 吃了饭，爱上了他们、爱上了这家公司，因为他们太棒了，然后是毁灭性的拒绝。"
+    },
+    {
+      "i": 237,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "47:46",
+      "en": "And luckily, Keith Reboy came basically a month after everyone else had rejected us, and Keith was like, Gabe, this isn't a contrarian bet. It's basically just Harvey for finance.",
+      "zh": "幸运的是，Keith Rabois 基本在其他所有人拒绝我们一个月之后来了。Keith 说：Gabe，这根本不是一笔逆向投资，这基本上就是金融版的 Harvey。"
+    },
+    {
+      "i": 238,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "47:55",
+      "en": "Why would I do it? And I said, Keith, if it's not contrarian, why did every single one of your friends just say it was a bad idea and not believe in me?",
+      "zh": "我为什么要投？我说，Keith，如果它不逆向，为什么你的每一个朋友刚刚都说这是个坏主意、都不信我？"
+    },
+    {
+      "i": 239,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "48:03",
+      "en": "Why do you think they didn't believe? For a lot of reasons. I think people underappreciated the TAM and finance, which was silly, but it's partly because I think SF has less intuition for finance, because they didn't fund Ion Group or Bloomberg or S&P or Faxette or Pitchbook, Morningstar, and so on.",
+      "zh": "你觉得他们为什么不信？原因很多。我觉得人们低估了金融的 TAM，这很傻，但部分原因我觉得 SF 对金融没那么强的直觉，因为他们没投过 Ion Group、Bloomberg、S&P、FactSet、PitchBook、Morningstar 这些公司。"
+    },
+    {
+      "i": 240,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "48:18",
+      "en": "And so there actually haven't been great venture-backed businesses in this market. And so there's no intuition for the kind of contours of the market and how large it is.",
+      "zh": "所以这个市场其实还没出过伟大的风投支持的生意，大家对市场的轮廓和体量没有直觉。"
+    },
+    {
+      "i": 241,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "48:26",
+      "en": "Two is the product was terrible. And so every investor said, oh, I work in finance. Let me use it. Is it going to transform what I do? And they tried it, and it was wrong half the time.",
+      "zh": "第二，产品当时很烂。每个投资人都会说，哦，我在金融工作，让我试试。它会不会改变我的工作？然后他们一试，一半是错的。"
+    },
+    {
+      "i": 242,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "48:34",
+      "en": "And they go, this is never going to work. And it's like, guys, you know we're on the exponential. It's going to work in six months or 12 months or 18 months or whatever it is.",
+      "zh": "他们就说，这东西永远成不了。但朋友们，你知道我们站在指数曲线上，六个月、十二个月或者十八个月它就会成。"
+    },
+    {
+      "i": 243,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "48:42",
+      "en": "I'm going to figure it out. And the final reason was people didn't think I could figure it out. People didn't have enough data points of watching me chew glass and watching me figure out what the next iteration would be.",
+      "zh": "我会把它搞定。最后一个原因是，大家觉得我搞不定。他们没有足够多的数据点，来看我嚼玻璃、看我一次次找出下一个迭代方向。"
+    },
+    {
+      "i": 244,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "48:53",
+      "en": "Where do you think changed after that? Because now it's a who's who of captable. Well, because I met all these guys very early on. And I met them at every single round.",
+      "zh": "你觉得那之后什么改变了？因为现在你们的股东名单是名人堂级别的。因为我和这些人在非常早期就认识，而且每一轮融资我都会去见他们。"
+    },
+    {
+      "i": 245,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "49:00",
+      "en": "And so every time I said, hey, we're going to do this. And they said, yeah, there's no way. And then every time we would do it. And by the way, a lot of the times it would manifest in a different way.",
+      "zh": "所以每次我说我们要做这件事，他们说，不可能。然后每一次我们都做到了。而且顺带说一句，很多时候它是以另一种形式兑现的。"
+    },
+    {
+      "i": 246,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "49:09",
+      "en": "You would actually lose the key employee you needed. Or that actually excellent customer that you thought you were in the land totally dissipated.",
+      "zh": "你甚至会丢掉最需要的那个关键员工。或者你以为稳稳拿下的那个极好的客户，突然就黄了。"
+    },
+    {
+      "i": 247,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "49:16",
+      "en": "But we kept figuring out what to do and kept navigating the market. And I think when you're investing in a market like today, especially at Applied AI, where it's so turbulent, so ambiguous, you need to underwrite the founders being able to be extremely dynamic.",
+      "zh": "但我们一直在找出该做什么、一直在市场里穿针引线。我觉得在今天这样的市场做投资，尤其是在应用 AI 这种极度动荡、极度模糊的领域，你承保的其实是创始人能不能极度动态。"
+    },
+    {
+      "i": 248,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "49:30",
+      "en": "Why do you think there aren't more credible financial services competitors? Distribution is really hard to crack. I think it's far more a people problem on building trust and delivering value and working with these institutions, then just an engineering and product problem.",
+      "zh": "你觉得为什么没有更多真正像样的金融服务竞争对手？分发真的很难破。我觉得要打进这些机构，靠的更多是建立信任、交付价值这类'人'的问题，而不只是一个工程和产品问题。"
+    },
+    {
+      "i": 249,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "49:46",
+      "en": "But then there's an enormously high engineering and product burden too. The standard to execute to really crack this market, I think is pretty high.",
+      "zh": "但工程和产品的门槛同样高得惊人。我认为，要真正打进这个市场需要达到的执行标准相当高。"
+    },
+    {
+      "i": 250,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "49:54",
+      "en": "And I was just so lucky that a number of the early people I hired were ex-finance and just killers. And we just hired folks from internet network who worked at Goldman or Citi or Jeffries or Apollo or Aries or Blackstone.",
+      "zh": "我很幸运，早期招的一批人都是金融出身，而且全是杀手。我们就从人脉网络里挖在 Goldman、Citi、Jefferies、Apollo、Ares、Blackstone 工作过的人。"
+    },
+    {
+      "i": 251,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "50:07",
+      "en": "And so we had a team of people who were die hard, ambitious, curious, smart, and then just good humans. Low ego, humble, young enough to be open-minded and to want to eat class too.",
+      "zh": "于是我们拥有这样一支团队：死忠、有野心、好奇、聪明，同时是好人。低 ego、谦逊，年轻到愿意保持开放，也愿意吃玻璃。"
+    },
+    {
+      "i": 252,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "50:19",
+      "en": "I'm also really curious how you've dealt with technical talent and what matters in a technical person on your team and how that has evolved.",
+      "zh": "我还很好奇你怎么对待技术人才，什么样的人在你的技术团队里重要，这个标准是怎么演变的。"
+    },
+    {
+      "i": 253,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "50:27",
+      "en": "One intuition might be the value of domain expertise from the technical person has gone up as the ease of execution has changed a lot. You don't need to be super technical to write good code or less so than in the past.",
+      "zh": "一种直觉可能是：随着执行难度发生很大变化，技术人员身上领域专长的价值上升了。写好代码不再需要像以前那么强的技术功底。"
+    },
+    {
+      "i": 254,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "50:39",
+      "en": "So what is the shape of the engineering or technical team look like over time? I'm asking this again because I'm curious about thinking about other companies that want to tackle this and whatever their industry might be.",
+      "zh": "那你的工程或技术团队的形状随时间是怎么变的？我再次问这个，是因为我好奇其他想攻进各自行业的公司会怎么做。"
+    },
+    {
+      "i": 255,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "50:49",
+      "en": "So I would say there's definitely problems where domain expertise is increasing in value and product intuition and having more of a GM-like mindset versus an engineer-like mindset is super, super important.",
+      "zh": "所以我想说，确实存在领域知识越来越值钱的场景，产品直觉、GM 式思维（而非工程师式思维）超级、超级重要。"
+    },
+    {
+      "i": 256,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "51:01",
+      "en": "There are also parts of our product surface area where it's like you just need raw, great engineering talent because you're scaling things up so aggressively.",
+      "zh": "也有一些产品面，你就是需要原始的、优秀的工程才华，因为你要极其激进地给系统扩容。"
+    },
+    {
+      "i": 257,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "51:08",
+      "en": "But if I look at the folks in our team who have been so excellent, a lot of them are former founders. They're folks who started businesses, persevered, ate glass, had a lot of product intuition, figured out how to channel it, and then the business may be petered out.",
+      "zh": "但如果我看我们团队里那些特别出色的人，很多是前创始人：创过业、扛过来了、吃过玻璃、有很强的产品直觉、知道怎么引导它，然后生意可能慢慢归于平淡。"
+    },
+    {
+      "i": 258,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "51:23",
+      "en": "And to the point you made, there's been a lot of companies trying to tackle financial AI. There's been a lot of really smart product-minded, engineering-minded domain experts who have tried to tackle finance AI and we've acquired six different fledgling financial AI startups.",
+      "zh": "就像你提到的那点，尝试做金融 AI 的公司有很多，有很多产品导向、工程导向、懂领域的聪明人试过金融 AI，我们已经收购了 6 家羽翼未丰的金融 AI 初创公司。"
+    },
+    {
+      "i": 259,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "51:37",
+      "en": "And so those former founders who can be galaxy-brained about the future of the product and navigate a course on what the UX should be but also have engineering chops and so they can constantly make the right decisions is super important.",
+      "zh": "所以那些前创始人，既能对产品的未来有 galaxy brain 级的想象力、为 UX 定方向，又有工程功底、能不断做出正确决策，这种人超级重要。"
+    },
+    {
+      "i": 260,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "51:48",
+      "en": "You said earlier to me before we were recording that this is the first time that we have a major innovators dilemma in this category. Can you describe what you mean by that?",
+      "zh": "录之前你跟我说，这是这个品类里第一次出现真正的创新者窘境（innovator's dilemma）。能讲讲你的意思吗？"
+    },
+    {
+      "i": 261,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "51:56",
+      "en": "Yeah, well, I think for a lot of investment firms and a lot of high-finance financial services, the last 10, 20 years have been pretty good.",
+      "zh": "我想，对很多投资公司、很多高端金融服务来说，过去 10 年、20 年过得相当不错。"
+    },
+    {
+      "i": 262,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "52:04",
+      "en": "You can make a lot of money being a capital allocator, being an investor. It's a very hard industry to enter. And then especially if you're in private markets, your businesses have some natural momentum because when you raise a fund and another fund and another fund, it's hard to mess up the business after that.",
+      "zh": "做资本配置、做投资人能赚很多钱。这是一个进入壁垒很高的行业。尤其如果你在私募市场，你的生意有某种天然的动量：募了一支基金、又一支、再一支之后，生意很难被搞砸。"
+    },
+    {
+      "i": 263,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "52:20",
+      "en": "And I'm sure there's 100 people who have started funds who know it's 100 times harder than I just described. But to be fair, there hasn't been a moment and a shock to the market where every investment firm, every bank is saying, oh, wow, I need to completely rethink what I'm doing.",
+      "zh": "肯定有 100 个募过基金的人知道这比我刚才描述的难 100 倍。但公允地说，从来没有一个时刻、一个对市场的冲击，让每家投资公司、每家银行都说：哇，我得彻底重新想我在做的事情。"
+    },
+    {
+      "i": 264,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "52:35",
+      "en": "And now there's going to be an opportunity for hundreds of AI-native disruptors, AI-native investment firms, AI-native investment banks to attack my business model, and I need to figure out what I'm going to do now.",
+      "zh": "而现在，机会属于成百上千的 AI 原生颠覆者、AI 原生投资公司、AI 原生投行，他们会进攻我的商业模式，我得想清楚我现在该怎么办。"
+    },
+    {
+      "i": 265,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "52:44",
+      "en": "And there has not been an innovators' dilemma for private equity firms, for hedge funds, for investment banks in the long term. AI-native, what does that term mean to you?",
+      "zh": "而对私募股权公司、对冲基金、投行来说，长期以来并没有真正的创新者窘境。AI-native 这个词对你意味着什么？"
+    },
+    {
+      "i": 266,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "52:54",
+      "en": "Like, what is the definition of that? In some ways, I think it just means willing to constantly reinvent everything you're doing and being so AI-pilled that you don't worry about what's possible or what might seem completely far-fetched, but you are just charting a trajectory towards integrating this alien fundamental technology into everything that you do.",
+      "zh": "它的定义到底是什么？在某种程度上，我觉得它就是愿意不断重塑你在做的一切，AI-pilled 到不去担心什么是可行的、或什么看起来荒诞不经，你只是径直地规划一条把这种外来的、基础性的技术整合进你所做一切的路径。"
+    },
+    {
+      "i": 267,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "53:19",
+      "en": "And it's showing up in every part of the business and there's no part of the business that you hold sacred that is immune to being revolutionary.",
+      "zh": "它体现在业务的每一个部分，业务里没有任何一部分是你供起来、免于被革命的。"
+    },
+    {
+      "i": 268,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "53:27",
+      "en": "How do you do that? Like, so you're a leader in a company that's very AI-pilled that want to make sure... Do you want to do everything you guys said in Rogo?",
+      "zh": "那怎么做？你领导着一家非常 AI-pilled 的公司……你们在 Rogo 说过的那些，你想全都做到吗？"
+    },
+    {
+      "i": 269,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "53:34",
+      "en": "And yet, I'm sure there are areas that you're unhappy with the status of how much AI is used to do X, Y, or Z. How do you do it as a leader?",
+      "zh": "我相信肯定有些地方，你对 AI 在 X、Y、Z 上被用到的程度还不满意。作为领导者你怎么推？"
+    },
+    {
+      "i": 270,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "53:41",
+      "en": "Like, how do you make sure that your company keeps doing this as a practice and habit versus like a one-time or... So, I'll give you a very simple thing, which is every month I have a report that gets sent to me that shows me every one of the company, how much are they using the various different AI tools we have, both the ones we've procured, the ones we've built internally, all of these different things.",
+      "zh": "你怎么让公司把它变成一种实践和习惯，而不是一阵风？我讲个非常简单的做法：每个月我都会收到一份报告，列出公司每个人对我们各种 AI 工具的使用量，包括外部采购的和内部自建的，所有这些。"
+    },
+    {
+      "i": 271,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "54:01",
+      "en": "And I have a stack ranking within every division of the top five power users and the bottom five users. And we post that everywhere, and the bottom user in each division gets a printout with a dunce cap and we post it around the office.",
+      "zh": "而且每个部门前五名的重度用户和后五名的用户我都做了排名。这些贴得到处都是，每个部门垫底的那位会收到一张印着傻瓜帽的打印照，贴满办公室。"
+    },
+    {
+      "i": 272,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "54:14",
+      "en": "And it's hilarious, but people know it's coming. And by the way, as we get bigger and fewer people know me and know it's kind of a joke and I'm funny, they're actually terrified.",
+      "zh": "这很好笑，但大家都知道会有这一出。而且顺带说一句，随着我们越来越大、和我熟、知道这是玩笑的人越来越少，他们是真的害怕。"
+    },
+    {
+      "i": 273,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "54:22",
+      "en": "And I hope they're not terrified and I hope that changes, but it's a strong incentive function to actually make sure you're using these things.",
+      "zh": "我希望他们别那么怕，也希望这会改变，但这是一个很强的激励函数，逼你真的把这些东西用起来。"
+    },
+    {
+      "i": 274,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "54:30",
+      "en": "If you were to list questions, let's say there's someone sitting down that runs one of these firms that's been a great business, hard fought, but a great business.",
+      "zh": "如果让你列一份问题清单——假设现在坐着一个经营着一把好生意的人，来之不易，但确实是好生意。"
+    },
+    {
+      "i": 275,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "54:38",
+      "en": "And these businesses tend to be quite simple from an organizational and technical standpoint. It's mostly humans, right? There's not a lot of overhead in lots of these businesses.",
+      "zh": "这类公司在组织和技术的角度往往相当简单，主要就是人，对吧？这些生意没什么管理开销。"
+    },
+    {
+      "i": 276,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "54:47",
+      "en": "Maybe they buy a lot of data or something. What questions would you encourage them to ask of themselves, of their business, to stand the best chance of navigating this transition effectively?",
+      "zh": "也许他们买很多数据。你会建议他们问自己、问自己的生意哪些问题，才能最大程度地有效穿越这次转型？"
+    },
+    {
+      "i": 277,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "54:59",
+      "en": "If you knew for sure that right now 90% of your enterprise value is in your people, your best investors, your best bankers are the people that bring in deals, bring in revenue.",
+      "zh": "如果你现在确定，90% 的企业价值在人身上：你最好的投资人、最好的 banker，是带来 deal、带来收入的人。"
+    },
+    {
+      "i": 278,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "55:10",
+      "en": "And actually, that's what accrues enterprise value. And in 10 years, the world's best investment firms, best banks will have 90% of their enterprise value, not in people, but in software and data and systems.",
+      "zh": "而企业价值实际上就是这么累积的。10 年后，世界上最棒的投资公司、最好的银行，90% 的企业价值将不在人身上，而在软件、数据和系统里。"
+    },
+    {
+      "i": 279,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "55:20",
+      "en": "What would you start doing? You would start trying to figure out how do you take all of what lives in the latent minds of your best people and putting it into a system that you own and operate autonomously?",
+      "zh": "你会开始做什么？你会开始琢磨：怎么把你最优秀那批人脑子里的隐性知识，装进一个你拥有、由你自主运行的系统里？"
+    },
+    {
+      "i": 280,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "55:31",
+      "en": "So that's a big one. The second thing I would think about is unpack every part of the deal life cycle. And in each one, try and chart, where do you think you are invaluable or you have data or you have domain expertise that no one else has?",
+      "zh": "这是个大问题。第二件我会思考的是：把交易生命周期的每一环拆开，在每一环里画出坐标：你觉得自己在哪些环节不可替代、拥有别人没有的数据、或者拥有别人没有的领域知识？"
+    },
+    {
+      "i": 281,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "55:48",
+      "en": "And then be diligent about saying, okay, do I actually have something that no one else has in this market? And is it a relationship? Is it context that no one else has?",
+      "zh": "然后认真地自问：在这个市场里，我真的有别人没有的东西吗？它是一段关系？是一份别人没有的上下文？"
+    },
+    {
+      "i": 282,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "55:56",
+      "en": "Or do I just think I'm smarter and better read on the subject area in the market, in which case AI is going to obviate that? Have you seen anyone be the most cutting-edge exemplar of this attitude in a big firm?",
+      "zh": "还是我只是自认为更聪明、对这个领域和市场更有研究——如果是后者，AI 会把这点优势抹平。你见过哪个大机构里的人成为这种态度最前卫的样板吗？"
+    },
+    {
+      "i": 283,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "56:08",
+      "en": "Like, is there a favorite example of a person that's just... Oh, yeah, there's a curious thing of this. It's the folks that today look the most prescient, sounded crazy batshit two years ago.",
+      "zh": "比如，有没有一个你最喜欢的人的例子？哦，有这么一件怪事：今天看起来最有先见之明的人，两年前听起来都像疯子。"
+    },
+    {
+      "i": 284,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "56:18",
+      "en": "They were the guys that came in and said, we need to record every conversation. You're going to be able to pipe in this conversation directly into my company brain and there's going to be a digital clone of me and then it's going to spit out the game theory on exactly what the investment should look like.",
+      "zh": "就是那些走进来说'我们要录下每一场对话。这场对话会被直接灌进公司大脑，会有我的数字分身，然后它会吐出博弈论推演，精确告诉你这笔投资该长什么样'的人。"
+    },
+    {
+      "i": 285,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "56:32",
+      "en": "And two years ago, everyone listened to those kind of guys and were like, what the heck is Patrick talking about? One example is there's a co-founder of Firmolus, John Montazzi, who was just prescient about where it was going and he wanted digital clones of all their best bankers.",
+      "zh": "两年前大家听到这种人说话，都会想：Patrick 到底在讲什么鬼。一个例子是 Firmolus 的联合创始人 John Montazzi，他对要去哪里极有先见之明，他想要所有最好 banker 的数字分身。"
+    },
+    {
+      "i": 286,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "56:44",
+      "en": "He wanted systems that could basically show up to calls, speak on his behalf, know how he thinks and then ingest that context. And then he wanted to build a system such that anyone in junior levels of that investment bank could leverage his expertise and context and relationships immediately so that that context and that data wasn't just powering his ability to be revenue generating, but it was a powering the ability of every junior",
+      "zh": "他想要那种能替他上电话会、代表他发言、懂他如何思考、然后把这些上下文吸收进来的系统。他还想建一套系统，让投行里任何初级的人都能立刻调用他的专业、上下文和人脉，让这些上下文和数据不只是支撑他一个人创造收入，而是让这个银行里每一个初级的人都能创造收入。"
+    },
+    {
+      "i": 287,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "57:06",
+      "en": "in that bank to be revenue generating. And so there are a number of folks who had their kind of move 37 moment where they realized, wow, this is going to be so much more profound than anyone's expecting.",
+      "zh": "所以有不少人迎来了自己的 Move 37 时刻，意识到：哇，这件事会比任何人预想的都深远得多。"
+    },
+    {
+      "i": 288,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "57:16",
+      "en": "What to you feels the most uncertain about the future of your business? I would say how quickly private markets actually do transform. If you think about why different types of asset classes have increased in transaction volume and have increased in liquidity, often it has to do with standardization because it gets easier than to track those assets and trade them.",
+      "zh": "对你来说，关于你生意的未来，什么最不确定？我会说，是私募市场到底能多快完成转型。想想为什么不同资产类别的交易量和流动性会上升，往往和标准化有关，因为资产的跟踪和交易变容易了。"
+    },
+    {
+      "i": 289,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "57:38",
+      "en": "Private markets have been immune to standardization because there's so much unstructured data. AI should fix that. That said, is there going to be a regulatory or a market force that forces some additional standardization that really accelerates the kind of transparency and liquidity you can have in private markets?",
+      "zh": "私募市场一直对标准化免疫，因为有太多非结构化数据。AI 应该能解决这一点。话虽如此，会不会有一股监管或市场力量，倒逼出额外的标准化，真正加速私募市场能拥有的透明度和流动性？"
+    },
+    {
+      "i": 290,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "57:54",
+      "en": "That's a little bit out of my control. The other thing is it's still unclear to me how much alpha will be left in the human relationships. I talk about that microcap M&A.",
+      "zh": "这部分不太受我控制。另一件事是，人类关系里最终会留下多少 alpha，到现在我也不清楚。我常讲微市值（microcap）M&A。"
+    },
+    {
+      "i": 291,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "58:05",
+      "en": "It's very hard to imagine that if you're a small business owner and you've been building a business for 20 years and you want to make sure that if you hand that business off to someone else that you trust them, that you can shake their hand, that that can be fully automated.",
+      "zh": "很难想象这样一个场景：你是一个小企业主，花了 20 年 build 一个生意，你想确保把它交给一个你信得过的人、能跟对方握握手——这种交接能被完全自动化。"
+    },
+    {
+      "i": 292,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "58:17",
+      "en": "But for a lot of sponsor owned businesses or things like secondaries or private credit or GPLP secondaries, I do think it can be fully automated.",
+      "zh": "但对很多 sponsor 持有的公司，或者二手份额（secondaries）、私募信贷、GP-LP 二手份额这类东西，我确实觉得可以完全自动化。"
+    },
+    {
+      "i": 293,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "58:25",
+      "en": "But how long it takes for the long tail of all these small businesses, all these medium-sized businesses, that have to deal with generational turnover for them to get comfortable clicking a button to sell their business as opposed to shaking the hand to someone, that's a little up in there to me.",
+      "zh": "但那些小公司、中型公司的长尾——那些要面对代际交接的——要他们愿意点一个按钮卖掉生意、而不是和人握手成交，需要多久？这一点我真心看不准。"
+    },
+    {
+      "i": 294,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "58:40",
+      "en": "If you had several new young founders here with us and they were curious about how to navigate and interface with private markets investors, what would you teach them?",
+      "zh": "如果现在有几位年轻的新创始人和我们在场，他们好奇该怎么和私募市场的投资人打交道，你会教他们什么？"
+    },
+    {
+      "i": 295,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "58:49",
+      "en": "What would you tell them to do, to not do? My style for fundraising might not be everyone's style. I'm super direct. I'm super transparent about what I'm worried about, where I want to go, but then you have to be very headstrong on that end state.",
+      "zh": "会让他们做什么、别做什么？我募资的风格未必适合每个人。我特别直接，特别透明地讲我担心什么、想去哪里，但你必须对那个终局极其坚定。"
+    },
+    {
+      "i": 296,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "59:06",
+      "en": "And then I would say it's about reps and relationships and the folks who come out of nowhere and lead the Series C or the Series D are the folks that I met at the seed and then the A and then the B and the C and they passed every time for all sorts of reasons.",
+      "zh": "然后我想说的是，靠的是次数和关系。那些横空出世、领投 C 轮或 D 轮的人，都是我在种子轮、然后 A 轮、B 轮、C 轮一路见过的人，每一轮他们都 pass 了，理由各种各样。"
+    },
+    {
+      "i": 297,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "59:18",
+      "en": "But they gather a lot more data on me and the business. Anything that you would encourage people to not do? I think there's a lot of the fake it till you make it and you need to have the bravado and the confidence in what you're doing, even if you're not fully confident.",
+      "zh": "但他们在我身上和这门生意上积累了更多的数据。有没有什么是你会劝大家别做的？我觉得有很多 fake it till you make it 的东西，你需要有那种气势和对自己所做事的信心，哪怕你并非完全确信。"
+    },
+    {
+      "i": 298,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "59:32",
+      "en": "I'm a deeply paranoid, deeply insecure, deeply scared person, but you need to put on the face and say that you are confident about where you're going, even in the moments where it's the ebb and flow, it's the ebb and flow.",
+      "zh": "我是一个深度偏执、深度不安、深度恐惧的人，但你必须摆出一副自信的面孔，说你对要去的方向有信心，哪怕在潮起潮落的时刻——潮起潮落就是常态。"
+    },
+    {
+      "i": 299,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "59:46",
+      "en": "And I think people can misinterpret that sometimes as like they need to pretend there's something they're not. I think that's not true. You need to believe that that 5% likelihood that you can be in $100 billion business is likely.",
+      "zh": "我觉得人们有时会误读这一点，以为自己得假装成并不是自己的样子。我觉得那不对。你要相信，那 5% 做成 1,000 亿美元公司的可能性是真实存在的。"
+    },
+    {
+      "i": 300,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "60:00",
+      "en": "And you don't need to pretend it's 100% likely, but you should be able to delineate with very clear roadmap and strategy how it is possible that you can become $100 billion business and then have confidence that if those things play out, you will be.",
+      "zh": "你也不必假装它是 100% 的概率，但你应该能用非常清晰的路线图和战略勾画出：你成为 1,000 亿美元公司是可能的，然后有信心，如果那些事情兑现，你就会成。"
+    },
+    {
+      "i": 301,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "60:15",
+      "en": "Why are you scared and insecure? I'm so paranoid about everything that can go wrong. Every day it feels like you're on the knife's edge of a thousand things collapsing, and I think the reality of this sort of business building is that it's a game of compounding momentum.",
+      "zh": "你为什么害怕、为什么不安？我对所有可能出错的事都偏执。每一天都像走在一千件事同时崩塌的刀尖上，而我觉得这类创业的现实是：这是一场动量复利的游戏。"
+    },
+    {
+      "i": 302,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "60:28",
+      "en": "How do you do every small thing to just race a little bit faster downhill and I'm just scared the momentum will stop? Or you hit a roadblock and then you go off course and then you need to recatalyze momentum.",
+      "zh": "怎么用每一件小事，让自己往下坡滑得再快一点点。我就是害怕动量停下来，或者撞上路障、偏离轨道，然后得重新点燃动量。"
+    },
+    {
+      "i": 303,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "60:40",
+      "en": "And it's so clear to me how hard it is to actually build a machine that gathers momentum. So if there's any stumbling block that holds that velocity, if I wasn't constantly petrified of those moments, I wouldn't be doing everything under the sun to prepare for them.",
+      "zh": "我看得太清楚了，打造一台能积累动量的机器有多难。所以如果有任何障碍会拖慢那个速度——如果我不时刻对这些时刻感到恐惧，我就不会想尽一切办法为它们做准备。"
+    },
+    {
+      "i": 304,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "60:54",
+      "en": "What have we missed? Like what that you've learned about building a company like this in this era where everything feels like a jump ball? Like it feels like there's going to be a rogo or a Harvey or whatever for every place that there can be, especially where the last mile wiring is hard and it's not just going to be anthropic, it's one company to rule them all or open AI.",
+      "zh": "我们漏掉了什么？关于在这样一个一切都像开放争球（jump ball）的时代打造这样的公司——感觉凡是能长出 Rogo 或 Harvey 的地方都会长出一个，尤其是最后一公里接线很难的地方，而且不会只有 Anthropic 或 OpenAI 一家通吃——关于这门生意到目前为止的体验，你觉得什么是真正重要却被我们忽略的？"
+    },
+    {
+      "i": 305,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "61:12",
+      "en": "What else have we missed that you think is really important to the experience so far of building the business? I think that there are going to be businesses that solve all these problems, but the businesses that do it are going to become black holes for talent and capital and brand and they're going to be able to siphon in the resources to actually execute.",
+      "zh": "还有哪些被我们忽略、你认为对建这门生意的体验真正重要的事？我认为会有公司解决所有这些难题，而做成的那些公司会变成人才、资本、品牌的黑洞，能把资源虹吸进来去真正执行。"
+    },
+    {
+      "i": 306,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "61:30",
+      "en": "Because AI is an amazing tailwind, but the execution bar is higher than it's ever been too to compete and everyone is getting pulled into the big leagues and is having their welcome to the NFL moment you have to move faster and be stronger and be more resilient and agile than you ever expected and having the right team is more important than ever.",
+      "zh": "因为 AI 是很棒的顺风，但竞争的门槛也是历史上最高的：每个人都被拽进大联盟，都有'欢迎来到 NFL'的时刻——你必须比你预想的更快、更强、更有韧性、更敏捷，而对的人的团队比以往任何时候都重要。"
+    },
+    {
+      "i": 307,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "61:49",
+      "en": "And the right team these days is extremely, extremely expensive. And so if you can't figure out what is the strategy to become a black hole for talent and capital as quickly as possible, I do think you are far more at risk at being roadkill of a lab or a company that can.",
+      "zh": "而今天对的团队极其、极其贵。所以如果你想不出一个快速成为人才和资本黑洞的战略，我真的觉得你更容易成为被某个做得到的实验室或公司碾过的路尸。"
+    },
+    {
+      "i": 308,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "62:05",
+      "en": "When I do these, I always ask my favorite question last, what is the kindest thing that anyone's ever done for you? I benefited so much by having parents who were enormously kind and generous and selfless, but it showed up in such different ways for my mother versus my father.",
+      "zh": "我做这类节目时总把我最喜欢的问题放在最后：别人为你做过的最善良的事是什么？我深受我父母的恩惠，他们极其善良、慷慨、无私，但母亲和父亲表达善良的方式完全不同。"
+    },
+    {
+      "i": 309,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "62:23",
+      "en": "And my mother's version of kindness was no matter what I did, I was amazing and smart and could do no wrong even though growing up, that was absolutely not the case but she instilled in me the confidence to believe in myself even when you were in those low trajectories where it felt like everything was going to go sideways, 40 knows in a row, anything right, 40 knows in a row, idiot failing out, flunking out, whatever it is.",
+      "zh": "我妈的善良是：不管我做了什么，我都棒、都聪明、不会犯错，尽管成长过程中根本不是那么回事。但她给了我一种自信，让我在那些低谷、感觉一切都要完蛋的时刻仍然相信自己——连续 40 个 no，任何一次，40 个 no、蠢货被刷、留级、管它是什么。"
+    },
+    {
+      "i": 310,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "62:48",
+      "en": "No matter what, she acted like I was maybe the smartest person on earth. That was irrational, but you need some of that irrational confidence that comes from just undying love.",
+      "zh": "无论如何，她的举止都像我是地球上最聪明的人。这是非理性的，但你需要一点那种从永恒的爱里长出来的非理性自信。"
+    },
+    {
+      "i": 311,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "62:58",
+      "en": "My dad was very different. My dad, if I came home and I'd done something wrong, would see thing, could barely look at me, couldn't understand it, right?",
+      "zh": "我爸非常不同。我做了错事回家，他几乎没法直视我，理解不了，对吧？"
+    },
+    {
+      "i": 312,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "63:06",
+      "en": "Like he was someone who was so disciplined, so good, had such high standards. And so his version of kindness was figuring out how does he understand who I am and why I am failing at this thing and then help me.",
+      "zh": "他是一个极其自律、极其优秀、标准极高的人，所以他版本的善良是：想办法理解我是谁、我为什么在这件事上失败，然后帮我。"
+    },
+    {
+      "i": 313,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "63:19",
+      "en": "He would sit down and go over every detail with me even though he sometimes just couldn't even understand why I had the opportunities I had and I couldn't take advantage of them and take the time to make me better while staying true to his principles and his standards of excellence and his definitions of good too.",
+      "zh": "他会坐下来陪我过每一个细节，尽管有时候他根本无法理解我为什么拥有这些机会却不加以利用。他一边花时间让我变好，一边忠于他的原则、他对卓越的标准、他对'好'的定义。"
+    },
+    {
+      "i": 314,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "63:36",
+      "en": "You're building a fascinating business. It's been so cool to watch it get better. Thanks for doing this with me. Thank you. All opinions expressed by Patrick and podcast guests are solely their own opinions and do not reflect the opinion of Positive Sum.",
+      "zh": "你在建一家迷人的生意。看着它一步步变好，真的太酷了。谢谢你今天和我做这期节目。谢谢。本节目中 Patrick 和各位嘉宾表达的观点仅为个人观点，不代表 Positive Sum 的立场。"
+    },
+    {
+      "i": 315,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "64:12",
+      "en": "This podcast is for informational purposes only and should not be relied upon as a basis for investment decisions. Clients of Positive Sum may maintain positions in the securities discussed in this podcast.",
+      "zh": "本播客仅供参考，不应作为投资决策的依据。Positive Sum 的客户可能持有本播客中讨论的证券的头寸。"
+    },
+    {
+      "i": 316,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "64:23",
+      "en": "To learn more, visit psum.vc. You know how small advantages compound over time that's true in investing and just as true in how you run your company.",
+      "zh": "了解更多请访问 psum.vc。你知道小优势会随时间复利——这在投资里如此，在经营公司上同样如此。"
+    },
+    {
+      "i": 317,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "64:52",
+      "en": "Your spending system is your capital allocation strategy. Ramp makes it smarter by default. Better data, better decisions, better economics over time.",
+      "zh": "你的支出系统就是你的资本配置策略。Ramp 让它天生更聪明：更好的数据、更好的决策、长期更优的单位经济。"
+    },
+    {
+      "i": 318,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "64:59",
+      "en": "See how at ramp.com slash invest. As your business grows, Vanta scales with you, automating compliance and giving you a single source of truth for security and risk.",
+      "zh": "到 ramp.com/invest 看看是怎么做到的。当你的业务增长，Vanta 随你扩张，自动化合规，给你的安全与风险一个单一可信来源。"
+    },
+    {
+      "i": 319,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "65:08",
+      "en": "Learn more at vanta.com slash invest. The best AI and software companies from open AI to cursor to perplexity use WorkOS to become enterprise ready overnight, not in months.",
+      "zh": "了解更多请访问 vanta.com/invest。最好的 AI 和软件公司，从 OpenAI 到 Cursor 到 Perplexity，都用 WorkOS，一夜之间企业级就绪，而不是几个月。"
+    },
+    {
+      "i": 320,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "65:17",
+      "en": "Visit workOS.com to skip the unglamorous infrastructure work and focus on your product. Ridgeline is redefining asset management technology as a true partner, not just a software vendor.",
+      "zh": "访问 workos.com，跳过那些不体面的基础设施工作，专注你的产品。Ridgeline 正在重新定义资产管理技术，做你真正的伙伴，而不只是一个软件供应商。"
+    },
+    {
+      "i": 321,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "65:27",
+      "en": "They've helped firms 5x in scale, enabling faster growth, smarter operations, and a competitive edge. Visit ridgelineapps.com to see what they can unlock for your firm.",
+      "zh": "他们已帮助规模扩大 5 倍的公司实现更快的增长、更聪明的运营和竞争优势。访问 ridgelineapps.com，看看他们能为你的公司解锁什么。"
+    },
+    {
+      "i": 322,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "65:37",
+      "en": "Every investment firm is unique and generic AI doesn't understand your process. Rogo does. It's an AI platform built specifically for Wall Street connected to your data, understanding your process, and producing real outputs.",
+      "zh": "每家投资公司都是独一无二的，通用 AI 不懂你的流程。Rogo 懂。它是专为华尔街打造的 AI 平台，连着你的数据、理解你的流程、产出真实的成果。"
+    },
+    {
+      "i": 323,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "65:47",
+      "en": "Check them out at rogo.ai slash invest.",
+      "zh": "到 rogo.ai/invest 看看吧。"
+    }
+  ]
+}

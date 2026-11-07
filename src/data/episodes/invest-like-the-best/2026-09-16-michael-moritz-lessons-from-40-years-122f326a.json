@@ -1,0 +1,2463 @@
+{
+  "show": "invest-like-the-best",
+  "kind": "transcript",
+  "id": "invest-like-the-best-122f326a",
+  "slug": "2026-09-16-michael-moritz-lessons-from-40-years-122f326a",
+  "date": "2026-09-16",
+  "title_en": "Michael Moritz - Lessons From 40 Years of Investing and Writing - [Invest Like the Best, E",
+  "title_zh": "Michael Moritz：40 年投资与写作的教训",
+  "subtitle_zh": "Sequoia 传奇投资人 Michael Moritz 回望家族史与局外人驱动力，谈 Iacocca、Steve Jobs、Ferguson、独狂式创造与 AI 时代。",
+  "description": "Michael Moritz - Lessons From 40 Years of Investing and Writing - [Invest Like the Best, E",
+  "duration": "73:56",
+  "duration_seconds": 4436,
+  "episode_url": null,
+  "audio_url": "https://traffic.megaphone.fm/CLS6587705018.mp3",
+  "speakers": {
+    "1": "Patrick O'Shaughnessy（主持）",
+    "2": "Michael Moritz（嘉宾）",
+    "3": "片花/广告（旁白）"
+  },
+  "turn_count": 305,
+  "turns": [
+    {
+      "i": 0,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "00:00",
+      "en": "Ramp is the only platform built to make your finance team leaner, faster, and better, saving businesses 5% annually on average so you can stay focused on growth.",
+      "zh": "Ramp 是唯一一个为让财务团队更精干、更快速、更出色而打造的平台，平均可为企业每年节省 5% 的开支，让你专心聚焦增长。"
+    },
+    {
+      "i": 1,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "00:11",
+      "en": "Ramp just opened for business in the United Kingdom, so if you're running a business in the UK, you can now use Ramp's AI-powered finance platform to manage cards, expenses, bills, approvals, and accounting all in one place.",
+      "zh": "Ramp 刚刚在英国开展业务，所以如果你在英国经营企业，现在就可以用 Ramp 的 AI 财务平台，在一个地方管理卡片、报销、账单、审批和会计。"
+    },
+    {
+      "i": 2,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "00:23",
+      "en": "I run my business on Ramp and so should you. Learn more at ramp.com slash invest. Rogo is the AI platform purpose-built for financial institutions serving tens of thousands of bankers and investors at hundreds of leading firms worldwide.",
+      "zh": "我自己的公司就靠 Ramp 运转，你也应该试试。更多详情访问 ramp.com/invest。Rogo 是专为金融机构打造的 AI 平台，服务于全球数百家顶尖机构里数以万计的银行家和投资人。"
+    },
+    {
+      "i": 3,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "00:37",
+      "en": "Rogo's AI agents autonomously execute large chunk of your firm's workflows. They can screen deals, draft sims, run buyer outreach, and do diligence on data rooms, all with full security and compliance handle.",
+      "zh": "Rogo 的 AI 智能体可以自主执行公司工作流程中很大一部分任务：筛选交易、起草 CIM（信息备忘录）、发起买方触达、审阅数据室做尽调，全程具备完整的安全与合规保障。"
+    },
+    {
+      "i": 4,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "00:50",
+      "en": "Every action feeds Rogo Intelligence, the firm's context layer, turning years of deal experience into a secure, governed institutional memory that makes each new transaction stronger than the last.",
+      "zh": "每一个操作都会汇入 Rogo Intelligence，也就是公司的上下文层，把多年的交易经验变成安全、受治理的机构记忆，让每一笔新交易都比上一笔更强。"
+    },
+    {
+      "i": 5,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "01:00",
+      "en": "To learn more, visit rogo.com slash invest. Open AI, Cursor, MP, and Vercel all have something in common. They all use WorkOS. To achieve enterprise adoption at scale, you have to deliver on core capabilities like SSO, SCIM, RBAC, and audit logs.",
+      "zh": "了解更多请访问 rogo.com/invest。OpenAI、Cursor、MCP 和 Vercel 有一个共同点：它们都使用 WorkOS。要在企业级市场实现规模化采用，你必须交付 SSO、SCIM、RBAC（基于角色的访问控制）和审计日志等核心能力。"
+    },
+    {
+      "i": 6,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "01:18",
+      "en": "Instead of spending months building these mission-critical capabilities yourself, you can just use WorkOS APIs to gain all of them on day zero.",
+      "zh": "不必花好几个月自己构建这些关键能力，直接用 WorkOS API，第零天就能全部拥有。"
+    },
+    {
+      "i": 7,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "01:26",
+      "en": "Visit workos.com to get started. Hello and welcome, everyone. I'm Patrick O'Shaughnessy, and this is Invest Like the Best. This show is an open-ended exploration of markets, ideas, stories, and strategies that will help you better invest both your time and your money.",
+      "zh": "访问 workos.com 即可开始使用。大家好，欢迎收听。我是 Patrick O'Shaughnessy，这里是 Invest Like the Best。这档节目是一场开放式探索，聊市场、理念、故事和策略，帮你更好地投资你的时间和金钱。"
+    },
+    {
+      "i": 8,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "01:41",
+      "en": "If you enjoy these conversations and want to go deeper, check out Colossus, our quarterly publication with in-depth profiles of the people-shaping business and investing.",
+      "zh": "如果你喜欢这些对话、想更进一步，来看看我们的季度刊物 Colossus，里面有对塑造商业与投资世界的人物的深度特写。"
+    },
+    {
+      "i": 9,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "01:49",
+      "en": "You can find Colossus along with all of our podcasts at Colossus.com. Patrick O'Shaughnessy is the CEO of PositiveSum. All opinions expressed by Patrick and podcast guests are solely their own opinions and do not reflect the opinion of PositiveSum.",
+      "zh": "Colossus 以及我们的所有播客都可以在 Colossus.com 找到。Patrick O'Shaughnessy 是 PositiveSum 的 CEO。Patrick 和节目中各位嘉宾表达的观点仅为个人观点，不代表 PositiveSum 的立场。"
+    },
+    {
+      "i": 10,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "02:05",
+      "en": "This podcast is for informational purposes only and should not be relied upon as a basis for investment decisions. Clients of PositiveSum may maintain positions in the securities discussed in this podcast.",
+      "zh": "本播客仅供参考，不应作为投资决策的依据。PositiveSum 的客户可能持有本播客讨论证券的头寸。"
+    },
+    {
+      "i": 11,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "02:16",
+      "en": "To learn more, visit psum.vc. When I was reading your book, one of the lines or the ideas that has really stuck with me ever since is, where does one person end and the next person begin?",
+      "zh": "了解更多请访问 psum.vc。我读你那本书的时候，有一句话、一个想法，从那以后一直留在我心里：一个人到哪里结束，下一个人在哪里开始？"
+    },
+    {
+      "i": 12,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "02:33",
+      "en": "And this deep dive that you took into the impact of one's history, family history, heritage on who a person is. I'm interested in this from so many angles as a parent, as a person interested in history, as a person interested in genetics, nature versus nurture.",
+      "zh": "你深入探究了一个人的家族史、传承对其为人的影响。我从太多角度对这件事感兴趣：作为父母，作为对历史感兴趣的人，作为对遗传学、天性与教养（nature versus nurture）感兴趣的人。"
+    },
+    {
+      "i": 13,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "02:50",
+      "en": "If I were to sum up the book in that question, what is your answer to that? What did you come away thinking after this deep study of your own family's history?",
+      "zh": "如果让我用那个问题来概括这本书，你的答案是什么？在如此深入地区研究自己家族的历史之后，你最终的思考是什么？"
+    },
+    {
+      "i": 14,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "02:58",
+      "en": "One of the things that came out of the book, which I didn't really expect, was discovering who I am and why I became whatever it is that I've become.",
+      "zh": "这本书写出后有一个连我自己都没料到的收获，就是发现了我是谁、我为什么会成为现在这个样子。"
+    },
+    {
+      "i": 15,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "03:11",
+      "en": "And that was an unexpected gift of the writing. And it came from this exploration of my family's past, in particular, my parents. Going back and excavating the deep memories of childhood, the sort of atmosphere in our home and in the general new year in which I grew up, helped me understand a lot about why I am who I am and react to certain things in the fashion that I do.",
+      "zh": "那是写作带来的一份意外馈赠。它来自对我家族往事的探索，尤其是对我父母的探寻。回头去发掘童年深处的记忆，去还原我们家里、以及我成长的那个世界里的整体氛围，帮我理解了很多：我为什么是现在这个样子，为什么以这样的方式对某些事情做出反应。"
+    },
+    {
+      "i": 16,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "03:45",
+      "en": "Because unwittingly, obviously, every parent leaves an imprint on a child. That's obviously especially true during the formative years. Whatever the formative years are, I'm no sort of child specialist or scientist.",
+      "zh": "因为每一位父母都会在不知不觉中给孩子留下印记，这显然在塑造人格的年头里尤为如此。至于塑造人格的年头到底是几岁，我又不是儿童专家或科学家。"
+    },
+    {
+      "i": 17,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "03:59",
+      "en": "Before you turn 12, 13, 14 years old, those imprints that you've absorbed in some manner, consciously or unconsciously, those remain with you.",
+      "zh": "在你满十二、十三、十四岁之前，那些以某种方式、无论有意识还是无意识地吸收进来的印记，都会留在你身上。"
+    },
+    {
+      "i": 18,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "04:13",
+      "en": "And both the angels and demons, I think, that you deal with for the rest of your life. What were yours? I'm so curious that you're performing on yourself the exercise that you're famous for doing with others that you invested in or hired, focusing on these first 14 years.",
+      "zh": "我想，无论是天使还是恶魔，你都得带着它们过完余生。你的天使和恶魔是什么？我特别好奇：你把你那套闻名于外的方法用在了自己身上——就是你审视你投资过、雇佣过的那些人的方法，聚焦头十四年。"
+    },
+    {
+      "i": 19,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "04:30",
+      "en": "What new understanding of yourself came out of this exercise? I grew up in this family of refugees from Nazi Germany and Wales. Refugees by definition are a minority.",
+      "zh": "从这次自我审视里，你对自己有什么新的认识？我成长于一个难民家庭，父母从纳粹德国逃到威尔士。难民，按定义就是少数。"
+    },
+    {
+      "i": 20,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "04:44",
+      "en": "Jewish refugees in Wales during the 1960s and 1970s were a further minority. People look at me today and they think, oh, here's this old white man, he's not a minority.",
+      "zh": "六十年代和七十年代威尔士的犹太难民，更是少数中的少数。今天人们看着我，会想：哦，这就是个白人老头，不是什么少数群体。"
+    },
+    {
+      "i": 21,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "04:57",
+      "en": "And I can understand that, but it's how an individual feels rather than how other people might look at you. It touched me in a variety of ways.",
+      "zh": "我能理解别人这么看，但一个少数者是自己内心如何感受，而不是别人怎么看你。这段经历在很多层面都触动了我。"
+    },
+    {
+      "i": 22,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "05:07",
+      "en": "My parents, they were never in the camps, they got out of Germany in the 1930s. And they were loath to use the word survivor because they always felt the word survivor denoted somebody who actually had survived the camps, but they were refugees and in their own way had survived.",
+      "zh": "我父母从来没有进过集中营，他们三十年代就离开了德国。他们很不愿用“幸存者”这个词，因为他们一直认为幸存者指的是真正从集中营里活下来的人；但他们是难民，也以他们自己的方式幸存了下来。"
+    },
+    {
+      "i": 23,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "05:27",
+      "en": "That motive to survive no matter what the odds were, even though the odds that I faced growing up weren't like my parents, I think the need to survive.",
+      "zh": "那种不顾一切也要活下去的冲动——尽管我成长过程中面临的处境和父母当年完全不同——我想，根子还是生存的需要。"
+    },
+    {
+      "i": 24,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "05:40",
+      "en": "When you think about surviving, you're thinking about, to some extent, living by your wits, being very suspicious of the motives of others, wondering where and how bad things will occur and happen and guard against them.",
+      "zh": "当你想着生存，某种程度上你就是在靠机智吃饭：对别人的动机高度怀疑，琢磨坏事会在哪里、以什么方式发生，并加以防范。"
+    },
+    {
+      "i": 25,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "05:58",
+      "en": "I think it gave me in retrospect, I didn't understand it at the time, a sort of drive-in grit that I wouldn't have had without that particular atmospheric backdrop.",
+      "zh": "事后回想，我觉得那股背景气氛赋予了我一种韧劲和狠劲；当时我并不自知，但如果没有那种氛围底色，我是不会有它的。"
+    },
+    {
+      "i": 26,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "06:10",
+      "en": "When you study it and you think about your own childhood, how did that transfer from your parents to you? Was it the stories they told? It was definitely not the stories they told because they didn't tell the stories.",
+      "zh": "当你回头研究这些、审视自己的童年，那种气质是怎么从父母传递到你身上的？是他们讲的故事吗？肯定不是他们讲的故事，因为他们根本没讲。"
+    },
+    {
+      "i": 27,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "06:21",
+      "en": "I didn't really get to know the stories until I sat down and began work on this book. What I did know was the general arc of history, obviously, this miserable, ferocious, catastrophic whirlwind in which they and millions of others were caught up, but they didn't talk about the past in the real detail that I much later, when I was thinking about the book, became interested in.",
+      "zh": "我是在坐下来开始写这本书的时候，才真正了解到那些故事的。我过去知道的只是历史的大致轮廓：那场吞噬了他们和数百万人的可怕、凶猛、毁灭性的风暴——但他们从不以真正的细节谈过去，而恰恰是那些细节，是我后来构思这本书时最想知道的。"
+    },
+    {
+      "i": 28,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "06:49",
+      "en": "It was just broad sweeps. I think it was much more the daily behavior, the reaction to events, the reaction to things, the sense that doom was not very far away.",
+      "zh": "他们讲的只是粗线条。我想，更多传递下来的是日常的举止、对事件的反应、对万物的态度，以及那种“大难并不遥远”的感觉。"
+    },
+    {
+      "i": 29,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "07:01",
+      "en": "The fact that if horrors had occurred in the past, there was a real need to be vigilant and wary about navigating daily life. There was a couple of stories in the book, one in particular where you talk about two separate people, one who decided to stay in Germany and one who decided to leave.",
+      "zh": "既然过去曾经发生过恐怖之事，那你就真的需要在日常生活里保持警惕、小心周旋应对。书里有两个人的故事，其中一段你讲到两个不同的人，一个决定留在德国，一个决定离开。"
+    },
+    {
+      "i": 30,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "07:20",
+      "en": "Quite a poignant and interesting on this topic of survivor or outsider, early instinct when things are changing to take notice and not double down and stick around.",
+      "zh": "关于幸存者或局外人这个话题，这非常令人感慨、也非常有意思：当环境开始变化时，早期的本能是有所察觉，而不是加倍押注、赖着不走。"
+    },
+    {
+      "i": 31,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "07:29",
+      "en": "Maybe tell that story and explain what you learned. The two individuals, Patrick, that you refer to were my grandfathers, my maternal grandfather and my paternal grandfather.",
+      "zh": "能讲讲那个故事、说说你学到了什么吗？Patrick，你说到的那两个人是我的两位祖父，我外祖父和我祖父。"
+    },
+    {
+      "i": 32,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "07:41",
+      "en": "I'll start with my paternal grandfather, who was a civil servant. He was a lower level judge in the judiciary in Bavaria, a province in southern Germany.",
+      "zh": "我先说父系祖父，他是一名文官，在巴伐利亚——德国南部的一个州——当过初级法官。"
+    },
+    {
+      "i": 33,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "07:53",
+      "en": "He had fought in World War I. He had somehow or other survived the horror of Verdun. He had been given his iron cross and he was, I think, a great believer in the German state, in the security that the state offered.",
+      "zh": "他参加过第一次世界大战，不知怎么竟从凡尔登的恐怖中活了下来，被授予铁十字勋章。我认为他对德国国家、对国家能提供的保障深信不疑。"
+    },
+    {
+      "i": 34,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "08:14",
+      "en": "And then much later in 1933, he lost his job. This is my assessment of the situation because he was a civil servant. He was by nature conservative, by nature somewhat cautious, but also had this great belief in the state and the endurance of the state and the durability of the state and that eventually the storm would blow over.",
+      "zh": "然后在 1933 年，他丢了工作。以上是我对局势的判断：他是文官，天性保守，天性有些谨慎，但他对国家、对国家的延续性和持久力怀有坚定的信念，相信风暴终会过去。"
+    },
+    {
+      "i": 35,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "08:40",
+      "en": "He also had a pension and the pension was very important to him as a means for survival. It was a combination of all of those things. He wasn't oblivious, obviously, to what was happening around him, but it did make him more reluctant to leave Germany, I think, until it was too late.",
+      "zh": "他还有退休金，而退休金对他这样求生存的人来说至关重要。是这一切叠加在一起。他对周围发生的事显然并不麻木，但我想，正是这些让他迟迟不愿离开德国，直到为时已晚。"
+    },
+    {
+      "i": 36,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "08:59",
+      "en": "And people forget, even if somebody had decided to leave Germany, there are all sorts of obstacles in the way. You had to find a place elsewhere that would accept you.",
+      "zh": "人们会忘记，即使一个人决定离开德国，也是一路障碍：你得找到一个愿意接纳你的地方。"
+    },
+    {
+      "i": 37,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "09:07",
+      "en": "You had to pay big taxes to the Nazi government in order to be able to secure your exit visa. So they're all these sorts of obstacles. So that was my paternal grandfather.",
+      "zh": "你还得向纳粹政府缴纳高额税款，才能拿到出境许可。所以到处是这样的障碍。这是我的父系祖父。"
+    },
+    {
+      "i": 38,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "09:19",
+      "en": "He and his wife eventually were shipped off east and disappeared from history. My maternal grandfather was cut from a different cloth. I was too callous as a youth to really understand this, but he died when I was about 16.",
+      "zh": "他和祖母最终被押送向东，从此消失在历史之中。我的母系祖父则完全是另一种质地。我年轻时太没心没肺，并不真正懂得这一点。他在我大约十六岁那年去世了。"
+    },
+    {
+      "i": 39,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "09:35",
+      "en": "He had been a cattle trader, which was one of the occupations that Jews were really permitted to do in Germany, but he was almost blind as a young man and completely blind by the time that I met him.",
+      "zh": "他生前做牲口贩子，那是当时德国犹太人几乎唯一被允许从事的职业之一。但他年轻时眼睛就几乎失明，到我认识他时已经完全看不见了。"
+    },
+    {
+      "i": 40,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "09:49",
+      "en": "But somehow or other had been able to carve out a comfortable living for himself and his family by trading in cattle in the rural village in northwestern Germany.",
+      "zh": "可不知怎么，他硬是在德国西北部一个乡村靠贩运牲口为自己和家人挣出了一份安稳日子。"
+    },
+    {
+      "i": 41,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "10:00",
+      "en": "My assessment of him in retrospect was that he was more streetwise. He was more entrepreneurial, wasn't burdened by the need to remain and collect a state pension because he'd always been able to sustain himself and look out for his future.",
+      "zh": "事后回想，我对他的评价是：他更懂街头智慧，更有企业家精神，也没有那种必须留下来领国家退休金的牵绊，因为他一直有能力自谋生路、为自己打算。"
+    },
+    {
+      "i": 42,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "10:18",
+      "en": "And he got out with his wife, my grandmother, but they got out by the skin of their teeth. They got out 72 hours before war broke out. 72 hours later, they too would have perished.",
+      "zh": "他和我的外祖母成功逃了出去，但真是千钧一发。他们是在开战前七十二小时离开的。再晚七十二小时，他们也会丧命。"
+    },
+    {
+      "i": 43,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "10:33",
+      "en": "What do you take from that? What is the big lesson from that instinct? How does that instinct imprinted on you and on the people you back throughout your life and career written about?",
+      "zh": "你从中汲取了什么？这个本能带来的是什么大教训？这个本能如何铭刻在你身上，又如何影响你这一生长河里支持、合作和书写过的人们？"
+    },
+    {
+      "i": 44,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "10:43",
+      "en": "I'm not sure that it's all that relevant to the people I've encountered in this journey through life, but it certainly has had consequences for me, particularly in times like the ones that we are living through at the moment and the atmosphere that is prevalent to some extent in the US and also in Western Europe.",
+      "zh": "我不确定这对这一路人生里我遇到的人是否都那么有直接相关性，但对我自己，它确实产生了后果，尤其是在我们正生活的这样的时代，以及某种程度在美国和西欧都弥漫的那种氛围里。"
+    },
+    {
+      "i": 45,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "11:04",
+      "en": "I think the necessity for always feeling that you have a bolt hole, that you have some place to go if the fire gets too hot. That's the lesson that I took away from my family history, clearly saying that you can never have enough passports.",
+      "zh": "我觉得，永远要觉得自己有一个应急藏身处（bolt hole），有一个万一火势太猛时可以去的地方。这就是我从家族历史里学到的教训——难怪人们常说，护照永远不嫌多。"
+    },
+    {
+      "i": 46,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "11:20",
+      "en": "Do you feel that especially true now? Say a bit about the state of the world, how you perceive the state of the world. It's an uncomfortable place for minorities.",
+      "zh": "你现在尤其有这样的感觉吗？谈谈你对当今世界的看法吧。"
+    },
+    {
+      "i": 47,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "11:30",
+      "en": "The United States and Western Europe writ large. It doesn't matter whether you're Asian or Muslim or black or Jewish. I understand the reasons and I want to be careful as well.",
+      "zh": "对少数群体来说，这个世界让人不安，美国以及整个西欧都是如此。无论你是亚裔、穆斯林、黑人还是犹太人。我理解背后的原因，我也想谨慎措辞。"
+    },
+    {
+      "i": 48,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "11:45",
+      "en": "I am not whining about anti-Semitism. I'm not complaining about it. I long ago came to terms with the fact that it's just a fact of life. It's been around for 2,500 years.",
+      "zh": "我不是在为反犹主义哭诉，也不是在抱怨它。我很早就已经接受了这个事实：它就是一种生活常态，已经存在了两千五百年。"
+    },
+    {
+      "i": 49,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "11:58",
+      "en": "It's not going to disappear in 2026 or 2030. It's always going to be with us. In fact, as we were talking about a few minutes ago, I think the fact that anti-Semitism was around and has been around and it's been something I've been conscious of all my life or all my sentient life, it's made me stronger.",
+      "zh": "它不会在 2026 年或 2030 年消失，它会永远和我们同在。事实上，就像我们几分钟前聊到的，反犹主义一直存在、我也一直有清醒的意识——在我整个有感知的人生里都如此——它反而让我更强大了。"
+    },
+    {
+      "i": 50,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "12:17",
+      "en": "I think it's disquieting if you're living in a society where in America, I think my simplistic way of thinking about who feels safe is the contingent of Americans who feel safe are white Christians who own guns.",
+      "zh": "如果你生活在美国这样的社会，那景象是令人不安的。我看待“谁感到安全”的方式很简单：在美国，觉得自己安全的群体，是拥有枪支的白人基督徒。"
+    },
+    {
+      "i": 51,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "12:34",
+      "en": "Everybody else feels a degree of insecurity, whether you're pursued by ICE or you go to a house of prayer that has to be guarded by police to ensure that that's safe and that exists in America.",
+      "zh": "其他人都有一定程度的不安全感：你可能被 ICE 追缉，你可能要去一座必须由警察站岗守卫才能确保安全的神殿礼拜——而这就是美国当下的现实。"
+    },
+    {
+      "i": 52,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "12:49",
+      "en": "It exists in the United Kingdom, in France, in other countries around Europe where far-right governments have come to the fore and obviously everybody has read about the recent elections in Germany of a far-right party in Saxony province.",
+      "zh": "这样的现实也存在于英国、法国以及欧洲其他国家，极右翼势力正在抬头；显然大家也都看到了德国萨克森州最近选举中极右翼政党的表现。"
+    },
+    {
+      "i": 53,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "13:06",
+      "en": "I think in times of economic distress where you have millions of people who've been tens of millions of people who feel they've been left behind, that feeling of despair can easily be whipped up into a horrendous stew by leaders with authoritarian impulses.",
+      "zh": "我认为，在经济困顿的时刻，当有千万人觉得自己被抛在时代后面，那种绝望感很容易被带有威权冲动的领导人搅成一锅可怕的乱流。"
+    },
+    {
+      "i": 54,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "13:28",
+      "en": "You're fortunate to put on your optimistic or hopeful hat and thinking about the future as it relates to this problem. Well, Victor Orban was booted from office.",
+      "zh": "你也很幸运，能戴上乐观或希望的帽子，去思考与此相关的未来。你看，Victor Orban 刚刚被选民赶下了台。"
+    },
+    {
+      "i": 55,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "13:38",
+      "en": "He was riding high a couple of years ago in some places that clearly are pushes to the center, which would be, I think, very consoling for people and a return to some modicum of civility in the various societies in which people like us travel.",
+      "zh": "几年前他在很多地方还风光无限。那些明显向中间回摆的力量，我想会让人们得到宽慰，也会让我们这些人往来的各个社会重新找回一点体面。"
+    },
+    {
+      "i": 56,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "13:56",
+      "en": "So here in America, clearly the midterms of the next 18 months after that are really going to shape how we're going to live in the next decade because there's been the imprint of one person on the last decade in America, I think in Britain, the person who's identified with the far-right Nigel Farage may well have had his best day and his best day may well be behind him.",
+      "zh": "所以在我们美国，显然十八个月之后的中期选举，将真正决定我们接下来十年怎么生活，因为过去十年，美国被一个人的印记深深压过。我觉得在英国，与极右翼挂钩的 Nigel Farage 可能已经过了他最好的日子，而他最好的日子很可能已经过去了。"
+    },
+    {
+      "i": 57,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "14:19",
+      "en": "I think it's different in France with Marie Le Pen and the elections next year. It's different in Spain and it's potentially different in Germany.",
+      "zh": "在法国，有 Marine Le Pen 和明年的选举，情况不一样；西班牙不一样，德国也可能不一样。"
+    },
+    {
+      "i": 58,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "14:28",
+      "en": "Do you think that the internet fundamentally changes the potential for civility and political moderation because it's so rewards, extremes, and attention?",
+      "zh": "你觉得互联网从根本上改变了体面与政治温和的可能性吗？因为它如此奖励极端、奖励注意力？"
+    },
+    {
+      "i": 59,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "14:38",
+      "en": "I think the three-letter answer is yes. I think it's been true of every form of new media from the beginning of the printing press. But obviously, the internet in the mobile telephony has made it far easier to spread false memes in Uendo, but it's a much larger, more amplified version of what occurred in Germany when radio took off during the 1930s and where the radio waves were dominated by extreme propaganda and racist views and loud lies told frequently.",
+      "zh": "我想三个字的答案是：会。我认为对自印刷机问世以来每一种新媒介都是如此。但显然，互联网和移动通信让虚假模因（memes）更容易、更快地传播。它是 1930 年代广播在德国兴起时所发生之事的一个放大无数倍的版本——那时电波被极端宣传和种族主义观点占据，大声的谎言被一遍遍播放。"
+    },
+    {
+      "i": 60,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "15:15",
+      "en": "Vanta automates compliance so your team can spend less time on security reviews and more time getting customers. Vanta cuts audit prep by 82% and gives you instant up-to-date proof of trust without all the manual work so you can close deals faster and with less friction.",
+      "zh": "Vanta 把合规自动化，让你的团队少花时间应付安全审查，多花时间拿下客户。Vanta 将审计准备时间削减 82%，为你即时提供最新的信任凭证，免去大量手工工作，让你更快、更少摩擦地成交。"
+    },
+    {
+      "i": 61,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "15:31",
+      "en": "Customers report a 526% return on investment and more than 16,000 companies use Vanta, including Ramp, Harvey, and Snowflake. Get started with $1,000 off at vanta.com slash invest.",
+      "zh": "客户报告的投资回报率高达 526%，已有超过 16,000 家公司使用 Vanta，包括 Ramp、Harvey 和 Snowflake。到 vanta.com/invest 开始使用，可立减 1,000 美元。"
+    },
+    {
+      "i": 62,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "15:45",
+      "en": "Ridgeline is the first end-to-end system of record with embedded AI for investment management firms running portfolio accounting, reconciliation, reporting, trading, and compliance on one unified platform.",
+      "zh": "Ridgeline 是首个嵌入 AI 的端到端记录系统（system of record），为投资管理公司在一个统一平台上完成投资组合记账、对账、报告、交易和合规。"
+    },
+    {
+      "i": 63,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "15:56",
+      "en": "Investors are moving off legacy technology and on to Ridgeline because of how far ahead Ridgeline's AI features are compared to anything else in investment management software.",
+      "zh": "投资人正在离开传统技术、转向 Ridgeline，因为在投资管理软件里，Ridgeline 的 AI 功能比其他任何产品都领先得多。"
+    },
+    {
+      "i": 64,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "16:05",
+      "en": "I've been hearing from a lot of investment managers about AI and they fall roughly into two camps, with some unsure where to even start and others convinced they can build their own order management system over a weekend.",
+      "zh": "我最近听到很多投资管理人聊 AI，他们大体分成两派：一派完全不知道从哪里起步，另一派坚信自己一个周末就能搭出一套订单管理系统（order management system）。"
+    },
+    {
+      "i": 65,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "16:16",
+      "en": "The reality is that running an investment firm will always require governance, controls, and a single source of truth for your data, and no amount of AI enthusiasm changes that requirement.",
+      "zh": "现实是，经营一家投资公司永远需要治理、控制和数据的单一事实来源（single source of truth），再多 AI 热情也改变不了这个要求。"
+    },
+    {
+      "i": 66,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "16:26",
+      "en": "Ridgeline is built on exactly that foundation, which is why I believe that the firms that come out ahead in the AI era will be the ones running on Ridgeline's unified platform.",
+      "zh": "Ridgeline 正是建在这个基础之上，所以我相信，在 AI 时代胜出的公司，会是那些运行在 Ridgeline 统一平台上的公司。"
+    },
+    {
+      "i": 67,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "16:35",
+      "en": "If you're serious about your firm's AI strategy, Ridgeline should be part of that conversation and you can request a demo at ridgeline.ai. Going back to your family's history, one of my favorite topics is this idea that you can learn so much about a person from what happens in their first 12, 13, 14 years, as you said.",
+      "zh": "如果你认真对待公司的 AI 战略，Ridgeline 应该是这场讨论的一部分。可以到 ridgeline.ai 申请一次演示。回到你家族的历史，我很喜欢的一个主题是：从一个人头十二、十三、十四年里发生的事，你能如此深切地了解这个人，正如你所说。"
+    },
+    {
+      "i": 68,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "16:53",
+      "en": "Carl Jung had this great idea of studying the unlived life of the parent. Another way of framing would be, this is a little trite, but you should be like who your father was supposed to be.",
+      "zh": "Carl Jung 有个很棒的想法：研究父母未曾活出的那部分人生。换一种说法——这话有点老生常谈——你本该活成你父亲本该成为的样子。"
+    },
+    {
+      "i": 69,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "17:05",
+      "en": "You should live the life that he was unable to or didn't quite, and that part of that imprinting is children observing their parents, what they're not going after, the risks they're not taking, and maybe running in that direction is a great way to explore.",
+      "zh": "他没能或没能完全活出的那种人生，你来活。父母给孩子留下印记的方式之一，就是孩子观察到父母没有去追求什么、没有去冒什么险，然后朝那个方向奔跑，也许正是极好的探索。"
+    },
+    {
+      "i": 70,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "17:21",
+      "en": "Back to the point about where does one person end and the next begin, like the break from the parents is really important. I'm curious how you arrived at this method of yours, this first 14-year interrogation method.",
+      "zh": "回到“哪里一个人结束、下一个人在哪里开始”这个点，与父母的决裂真的很重要。我很好奇，你是怎么发展出你这套方法的——这套头十四年审讯法。"
+    },
+    {
+      "i": 71,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "17:32",
+      "en": "When you first did it, how you do it, it's like what the method is and why you find it just so impactful in understanding a new person. I suppose I first came across it oddly in Detroit when I was a correspondent for Time Magazine.",
+      "zh": "你第一次用它是什么时候，怎么用的？这个方法究竟是什么？为什么你觉得它在了解一个新的人时如此有威力？我想，我第一次接触到它，说来奇怪，是在底特律，当时我给 Time Magazine 当记者。"
+    },
+    {
+      "i": 72,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "17:45",
+      "en": "With a colleague, I wrote a book about the Chrysler Corporation, but more importantly, the person who turned around Chrysler at the end of the 1970s and the beginning of the 1980s, and the man who was, for a time, the best-known business figure in America, even though today most people struggle to pronounce his last name, but he was a gentleman called Leia Koka.",
+      "zh": "我和一位同事合写了一本关于 Chrysler Corporation 的书。更重要的是，那是关于在七十年代末八十年代初让 Chrysler 起死回生的那个人，关于一度成为全美国最有名的商业人物——尽管今天大多数人都念不全他的姓——他叫 Lee Iacocca。"
+    },
+    {
+      "i": 73,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "18:09",
+      "en": "He was the son of Italian immigrants. In writing this book, we spent a fair amount of time interviewing Leia Koka, and what came through loud and clear was how much as the son of Italian immigrants who'd grown up in Pennsylvania, Lee grew up in Pennsylvania, he felt like an outsider.",
+      "zh": "他是意大利移民的儿子。写这本书时，我们花了不少时间采访 Iacocca，无比清晰地感受到的是：作为在宾夕法尼亚长大的意大利移民之子，Lee 在宾夕法尼亚长大，他总觉得自己是个局外人。"
+    },
+    {
+      "i": 74,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "18:33",
+      "en": "He worked in the automobile industry, and obviously in the upper echelons of the automobile industry where I think he was always viewed with suspicion, most notably when he worked at the Ford Motor Company by Henry Ford II and the other people who, obviously, everybody had immigrated, but who were much more members of the establishment, and Leia Koka never felt like a member of the establishment, and became very clear that all of that stemmed",
+      "zh": "他在汽车行业工作，而且是在汽车业的最高层，我想那里的人始终带着怀疑的眼光看他。最典型的是在 Ford Motor Company，Henry Ford II 和其他那些——显然大家的祖上都是移民——但更深建制派里的人。Iacocca 从来不曾觉得自己是建制派的一员，并且越来越清楚，这一切都可以追溯"
+    },
+    {
+      "i": 75,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "19:01",
+      "en": "from his childhood. As the years went by, he began to interpret many of the slights that then fell upon him, including not getting the top job at Ford to the fact that he was seen as an Italian immigrant.",
+      "zh": "到他的童年。随着岁月流逝，他开始重新解读那些降临到他头上的种种冷遇，包括没能拿到 Ford 的最高职位，而原因在他看来就是他意大利移民的身份。"
+    },
+    {
+      "i": 76,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "19:17",
+      "en": "If you think about the people who have harnessed that outsider energy, a lot of whom you've backed with great success, have you seen people graduate out of it, and when they do, does their drive and motivation go away or suffer?",
+      "zh": "想想那些把局外人之气化为动力的人——你支持过的很多人正是如此，并且取得了巨大的成功——你有没有见过人从那种状态里“毕业”出去？当他们走出去之后，他们的驱动力和动力会消失或减弱吗？"
+    },
+    {
+      "i": 77,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "19:31",
+      "en": "I want to answer the previous question a little bit as well. You asked when I've met various people and various founders over the years, spent so much time on their backgrounds.",
+      "zh": "我还想先回答一下上一个问题。你问到我这些年见过那么多人、那么多创始人，花了那么多时间研究他们的背景。"
+    },
+    {
+      "i": 78,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "19:40",
+      "en": "Many of these people are only 20 years old or 20 years old. So covering a big percentage, yeah. You're not exactly going to be able to ask them about their life in their 50s, so it's just natural to try to understand that.",
+      "zh": "很多人当时才二十岁上下，对吧？覆盖了很大比例，是的。你又没办法去问他们五十岁时的生活，所以自然要先去理解他们的早年。"
+    },
+    {
+      "i": 79,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "19:52",
+      "en": "I don't think people grow out of it. I think what happens is that people work with a certain intensity in their late teens and their 20s and maybe their early 30s, and that intensity for a whole variety of reasons diminishes over time.",
+      "zh": "我不觉得人们能从里面“毕业”。我觉得发生的是：一个人在快二十岁、二十几岁、也许三十出头时，会带着某种强度去打拼，而这种强度会因为各种各样的原因随时间减弱。"
+    },
+    {
+      "i": 80,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "20:09",
+      "en": "I think that's what changes. The inner being doesn't change, the outward intensity changes. When you were asking these questions, was there any one thing or set of things that you tended to be looking for?",
+      "zh": "我想变化的是这个。内在的那个“我”不会变，变的是外在的强度。当你问这些问题的时候，有没有某一件或某一类你总在寻找的东西？"
+    },
+    {
+      "i": 81,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "20:20",
+      "en": "Was it you coming away feeling as though someone had extreme drive? I tried to paint when I have some time. I'm not a good painter, but I really enjoy it, at least the way that I paint.",
+      "zh": "比如你是否带着“这个人有极强驱动力”的感觉离开？我试着打个比方——我有时画画，我不是好画家，但我真的很享受画画，至少享受我自己画的方式。"
+    },
+    {
+      "i": 82,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "20:33",
+      "en": "You make marks in different parts of the canvas and the marks seem unrelated. Maybe it's a color blue here and a color brown there. You're putting these marks and dots on the canvas.",
+      "zh": "你在画布的不同地方落下笔触，这些笔触看似毫不相干。这里一抹蓝，那里一抹褐。你在画布上留下这些印记和圆点。"
+    },
+    {
+      "i": 83,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "20:47",
+      "en": "There doesn't seem to be any composition there whatsoever. And then eventually, in my case, the picture comes out and it's bad, but there's a picture at the end of it.",
+      "zh": "看上去毫无构图可言。然后最终——以我的情况——画出来了，虽然很糟，但结尾总算有一幅画。"
+    },
+    {
+      "i": 84,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "20:56",
+      "en": "And it's the accumulation of all these different marks. And I think that's what happens when you're talking to people about their backgrounds.",
+      "zh": "它是所有这些不同笔触累积的结果。我觉得你和一个人聊他的背景时，道理是一样的。"
+    },
+    {
+      "i": 85,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "21:02",
+      "en": "You're looking for these little dots here and then eventually you put together this portrait for yourself of the individual. In searching for those dots, did you come to favorite questions that you always found yourself asking?",
+      "zh": "你在寻找这里一个小点、那里一个小点，最后你在心里拼出对这个人的肖像。在寻找这些圆点的过程中，你有没有总结出一些自己几乎每次都会问的偏爱问题？"
+    },
+    {
+      "i": 86,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "21:15",
+      "en": "There's one that comes to mind, which I've always found quite revealing is to ask somebody if they think back and had a chance to do one thing differently, one action differently.",
+      "zh": "有一个我立刻想到、也一直觉得很有穿透力的问题：请一个人回想过去，如果有机会把某一件事、某一个做法改变，"
+    },
+    {
+      "i": 87,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "21:31",
+      "en": "What is it that they would do? And I remember one person we interviewed for Sequoian who burst into tears when I asked that question. It turned out that he'd grown up as the son of an immigrant here in America.",
+      "zh": "他们会改什么？我记得为一个作者采访过一个人，听到这个问题他突然哭了起来。原来他在美国作为移民的儿子长大，"
+    },
+    {
+      "i": 88,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "21:46",
+      "en": "He was Hispanic. His father was very proud to have made it here and that his child was bright, his son was bright and he was getting good marks at school.",
+      "zh": "他是拉丁裔。父亲为全家人在美国立足而无比自豪，为儿子聪明、在校成绩好而骄傲。"
+    },
+    {
+      "i": 89,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "21:56",
+      "en": "And this fellow, probably when he was 12 or so, had gone down to a corner grocery store with a pall of his, Mr. Linson Candy, the shopkeeper who knew his father complained to his father and his father took him by the ear, took him back down to the candy store, made him apologize, made him empty his pockets.",
+      "zh": "这人大概十二岁时，和同伴去街角杂货店，从 Candy 店的 Linson 先生——店主——那里拿了糖果没付钱。店主向他父亲告状，他父亲揪着他的耳朵把他带回糖果店，逼他道歉，让他把口袋全掏出来。"
+    },
+    {
+      "i": 90,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "22:18",
+      "en": "The man I interviewed was so chaste and so embarrassed by bringing shame upon his family and his father, he just burst into tears. What's your answer to the question?",
+      "zh": "我采访的这位先生因为给家庭和父亲带来耻辱而无比羞愧、无比尴尬，一下子就哭了。那你自己对这个问题怎么回答？"
+    },
+    {
+      "i": 91,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "22:28",
+      "en": "What would you have done differently? You're a good interviewer. People don't listen to answers very often when they interview people. I think every child of parents feels this in one way or another.",
+      "zh": "你会改什么？你才是好记者。人们采访别人时很少真的听对方回答。我想，每个对父母有感情的人，都会以这样或那样的方式感受到这一点。"
+    },
+    {
+      "i": 92,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "22:40",
+      "en": "I felt it as I was writing the book that I was embarrassed and if I could erase one thing it would be the sum of my interactions and dealings with my parents, which I feel ashamed about today, but there's no going back.",
+      "zh": "写这本书时我意识到，我曾经让父母蒙羞。如果我能抹掉一件事，那就是我和父母之间所有互动的总和——那些我今天想起来仍觉羞愧的事，但没有回头路可走。"
+    },
+    {
+      "i": 93,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "22:59",
+      "en": "And I spent the first 16, 17 years of my life with them, but there were many things probably that I wished. And also when I was a younger man, I just encountered with them that I wished to gone differently because I didn't really understand who they were and so be it.",
+      "zh": "我人生头十六七年和他们一起度过，但很可能有很多事我希望当时能不一样。年轻时我和他们之间发生的许多事，我希望能有别的走向，因为我当时真的不了解他们是什么样的人。如此而已。"
+    },
+    {
+      "i": 94,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "23:15",
+      "en": "Do you think that was mostly a natural drive to create your own independence like every child goes through with their parents? Yeah. I'm sure that was some of it, arrogance was probably another part of fail of comprehension of what they themselves had experienced.",
+      "zh": "你觉得那主要是每个孩子对父母都会经历的那种自然冲动——争取自己的独立？是的。我确定那是一部分原因，傲慢大概是另一部分，还有没能体会"
+    },
+    {
+      "i": 95,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "23:31",
+      "en": "What had made them who they were, which I didn't understand. There's this notion of very small deeds in the book. I think the character's name was Anna.",
+      "zh": "他们亲身经历了什么、是什么把他们塑造成今天的样子，而我当时不懂。书里有一个“很小的善举”的概念，我想那个角色叫 Anna。"
+    },
+    {
+      "i": 96,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "23:39",
+      "en": "Yes. Can you talk about what you learned about the impact of small deeds? It was more than small deeds. So this lady that you refer to, whom I knew as a child, her first name was Anna.",
+      "zh": "对。能讲讲你从小事（small deeds）的影响里学到了什么吗？那比“很小的善举”更多。你说的这位女士，我儿时认识，她的名字叫 Anna。"
+    },
+    {
+      "i": 97,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "23:51",
+      "en": "When my father and uncle were growing up in Munich in the 1920s and the early 1930s, every sort of middle class, lower middle class household had a family servant.",
+      "zh": "我父亲和叔叔在二十年代和三十年代初的慕尼黑长大，那时中产、下中产的家家户户都请家庭佣人。"
+    },
+    {
+      "i": 98,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "24:05",
+      "en": "These were the days before washing machines and vacuum cleaners and all the rest of it. Those individuals in these households, when children were born, invariably became nannies as well.",
+      "zh": "那是洗衣机、吸尘器和这一切还没问世的年代。这些家庭里的佣人，一旦家里有了孩子，往往就兼任保姆。"
+    },
+    {
+      "i": 99,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "24:18",
+      "en": "For my father and my uncle, this lady Anna, who was that person in my grandfather's house, she became a surrogate. She was a nanny. She was a Roman Catholic.",
+      "zh": "对我父亲和叔叔来说，这位叫 Anna 的女士——她就是爷爷家里的那个人——成了他们的替代母亲。她是保姆。她是天主教徒。"
+    },
+    {
+      "i": 100,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "24:31",
+      "en": "Eventually left the employment of my grandparents. She married a railway worker in Bavaria who was also a Roman Catholic. They built their own house with their own hands.",
+      "zh": "她后来离开了我祖父母家，嫁给了巴伐利亚一位同样是天主教徒的铁路工人，夫妻俩亲手盖起了自己的房子。"
+    },
+    {
+      "i": 101,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "24:45",
+      "en": "She and her husband never forgot the Moritz family. They in the 1930s opened their house to my grandparents and my uncle and father at a time when it became very unpopular to have Jews come stay in rural Bavaria for their holidays.",
+      "zh": "她和丈夫从来没有忘记 Moritz 一家。三十年代，当在德国农村留宿犹太人已经很不合时宜的时候，他们还是把祖父母、我的父亲和叔叔接到家里来住。"
+    },
+    {
+      "i": 102,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "25:07",
+      "en": "But they did it for as long as possible. They didn't have children these two. They were horrified by the Nazis. They did everything possible to help my grandparents and my father and uncle.",
+      "zh": "他们尽可能地坚持了很长时间。他们两人没有孩子，对纳粹深恶痛绝，倾其所能地帮助我的祖父母、父亲和叔叔。"
+    },
+    {
+      "i": 103,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "25:20",
+      "en": "Then after the war, because the feelings were so intense between my father and my uncle and this lady Anna, they went back to Bavaria very soon after the end of the war, developed this very strong connection with her until she eventually died.",
+      "zh": "战争结束后，因为父亲和叔叔与这位 Anna 女士感情太深，他们战后不久就回到巴伐利亚，与她重新建立起非常紧密的联系，直到她去世。"
+    },
+    {
+      "i": 104,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "25:37",
+      "en": "I remember going and staying in her house, and the story of this house features in the book as well, as a young boy surrounded by the specters of the Nazi past.",
+      "zh": "我记得小时候去她的房子住——那座房子的故事也写进了书里——一个小男孩，被纳粹过去的幽灵所环绕。"
+    },
+    {
+      "i": 105,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "25:49",
+      "en": "But this lady was, I think what they say at Yad Vashem when they, the stoic knowledge men's on all the people who help Jews and others during World War II.",
+      "zh": "但这位女士，我想就像 Yad Vashem（以色列大屠杀纪念馆）在纪念那些二战期间帮助犹太人和其他人的人时所说的那样，"
+    },
+    {
+      "i": 106,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "26:01",
+      "en": "She was one of the righteous and had this ethical compass that she wouldn't allow anyone else to alter. What did you learn from these categories of people?",
+      "zh": "她是“义人”之一，心里有一具道德罗盘，不许任何人拨动。你从这一类人身上学到了什么？"
+    },
+    {
+      "i": 107,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "26:11",
+      "en": "I think you called them the resistors, the silent and the collabo's. This is a spectacular series that came out maybe 12 years ago, shot in France.",
+      "zh": "我想你把他们分成抵抗者、沉默的人和合作者（collaborators）。那是一部大约十二年前问世的精彩剧集，在法国拍摄。"
+    },
+    {
+      "i": 108,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "26:22",
+      "en": "Maybe it's a sick series tale about life in a French village during World War II and how some people resisted the occupation for as long as possible.",
+      "zh": "剧名也许叫 Suite Française，讲二战期间一个法国村庄里的生活：有些人尽可能长时间地抵抗占领。"
+    },
+    {
+      "i": 109,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "26:37",
+      "en": "Most people remained silent and some became active collaborators with the Nazis. And during COVID, when we were all on these long Zoom calls with lots of little pictures of 10 other participants that were in the Zoom room, I always used to look at each individual whom I knew on the whole, and I kept asking myself, well, if these people had been living in the French village in the 1940s, who would have stayed silent?",
+      "zh": "大部分人保持沉默，还有些人成了纳粹的积极合作者。新冠疫情期间，我们都在开那种漫长的 Zoom 会，屏幕上满是一张张小格子里其他十位参会者的脸，我总会看着每一个我大体认识的人，心里不停地问：如果这些人生活在四十年代的法国村庄里，谁会保持沉默？"
+    },
+    {
+      "i": 110,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "27:08",
+      "en": "Who would have resisted? And who would have been collabo's? So I was judging people whom I know and whom I work with, and it was an interesting exercise.",
+      "zh": "谁会起来抵抗？谁又会去做合作者？所以那是在评判我认识的人、一起工作的人，是个很有意思的练习。"
+    },
+    {
+      "i": 111,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "27:19",
+      "en": "I didn't tell anybody else about it at the time, obviously, but I knew everybody on these calls well enough to know who had the sort of backbone that this lady that we were just talking about had.",
+      "zh": "我当然当时没有告诉任何人，但会上每个人都足够为我所了解，我能看清谁有我们刚才所说的那位 Anna 女士那样的脊梁骨。"
+    },
+    {
+      "i": 112,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "27:31",
+      "en": "And they were always in the minority. How rare is it? Is it 1% resistors out of 100 people? How rare do you think that expression is? I think it's very rare because bad things happen in countries when most people stay silent.",
+      "zh": "而他们永远是少数。这种稀少到什么程度？是不是 100 个人里只有 1 个抵抗者？你觉得这种品质有多稀少？我认为非常稀少，因为坏事在一个国家发生，往往是因为大多数人保持沉默。"
+    },
+    {
+      "i": 113,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "27:46",
+      "en": "Very few actively resist. Do you think that most of the people that you've back in your career would be resistors? I'd have to think about that.",
+      "zh": "真正站出来抵抗的，是极少数。你觉得你这一路支持的人里，多数会成为抵抗者吗？这我得想一想才敢下结论。"
+    },
+    {
+      "i": 114,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "27:56",
+      "en": "I'd like to think so, but I'm not sure. Can you talk about the role that Bill Deeds played in your life? I'm always interested in these early moments of activation, and I'm curious when you first felt in life, whether it was with him or at some other time, when you first felt you were really good at something.",
+      "zh": "我愿意这么想，但不确定。能讲讲 Bill Doherty 在你的生命中扮演了什么角色吗？我一直对人早年那些被点亮的时刻很感兴趣，我好奇你人生中第一次真切地觉得自己“真的擅长某件事”是什么时候——是和他有关，还是在别的什么时刻。"
+    },
+    {
+      "i": 115,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "28:14",
+      "en": "I've never felt I'm really good at something. That's not false modesty on my part to this day. How can that be in face of the evidence? Well, I think everybody is plagued by doubts, maybe competitiveness.",
+      "zh": "我从来没有觉得自己真的擅长什么。这不是我在假谦虚，到今天还是这样。在这么多证据面前，怎么会这样？我想，也许每个人都有被疑虑困扰的一面，还有竞争性。"
+    },
+    {
+      "i": 116,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "28:27",
+      "en": "It's a failure on my part. I have a very difficult time celebrating good things and celebrating success. I think that you're self-aware about it.",
+      "zh": "这是我的一大失败。我很难为美好的事情喝彩、为成功庆祝。我想你对此是很自觉的。"
+    },
+    {
+      "i": 117,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "28:36",
+      "en": "Have you ever tried to reverse that? I think it's heritage. I think it's the fact that my mother always felt that disaster was always around the corner.",
+      "zh": "你试过扭转它吗？我想这是遗传。我母亲总觉得大难就在下一个拐角，"
+    },
+    {
+      "i": 118,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "28:46",
+      "en": "Doom was always around the corner. She died a few weeks before COVID. My mother was the predictor of doom. I remember as a kid growing up, she would have listened to the radio and inevitably the talk when we're having breakfast would be about some natural disaster that had occurred or a plane crash or something dreadful around the world.",
+      "zh": "末日就在下一个拐角。她去世时距新冠疫情爆发只有几周。我母亲就是那个预报灾难的人。我记得小时候，她会听收音机，我们吃早饭时的话题总会绕到世界上又哪里发生了自然灾害、坠机，或者其他什么坏事。"
+    },
+    {
+      "i": 119,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "29:07",
+      "en": "She died a few weeks before COVID. I felt sorry for her in a way that she missed COVID because this was the disaster that she'd been predicting or one of the natural disasters that she'd been predicting all her life.",
+      "zh": "她在新冠疫情前几周去世。我有点替她遗憾，因为她错过了新冠疫情——那正是她一辈子在预言的那类天灾中的一场。"
+    },
+    {
+      "i": 120,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "29:19",
+      "en": "She was cheated out of COVID, but I think it's that sort of sense being one step away from the precipice. Have you ever though been proud of a piece of work that you've done or created or felt that pride, like the emotion of it?",
+      "zh": "她错过了新冠疫情，但我想，就是那种离悬崖只差一步的感觉。你有没有曾经为自己完成或创造过的某件作品感到过骄傲？那种骄傲的情绪，你体会过吗？"
+    },
+    {
+      "i": 121,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "29:35",
+      "en": "I think I've always felt everything is unfinished and could be improved and none of it's ever been perfect. It's a never a satisfied moment.",
+      "zh": "我想我一直觉得一切都是未完成的、还能改进，从来没有什么东西是完美的。从来没有一个真正满足的时刻。"
+    },
+    {
+      "i": 122,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "29:46",
+      "en": "Sometimes when I paint and compare a painting to what I might have been able to paint 10 years ago or 15 years ago. So I see a road to improvement, but then you go to MoMA or the Met.",
+      "zh": "只是有时候我画画，会把一幅画和十年前、十五年前我可能画出的东西相比。所以你能看到进步的空间，可一转头你走进 MoMA 或 the Met，"
+    },
+    {
+      "i": 123,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "30:01",
+      "en": "You're diminished. And you're reduced to being an insignificant spec. What about feeling a pride for someone else, not so much for yourself?",
+      "zh": "人就渺小了，缩成了一个无足轻重的微粒。那为别人感到骄傲呢？不那么为己，而是为他人？"
+    },
+    {
+      "i": 124,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "30:10",
+      "en": "You back some of the most extraordinary people in business history for sure. You've written about some of the most extraordinary leaders, Alex Ferguson, others.",
+      "zh": "你支持的人里肯定有商业史上最非凡的一批人，你也书写过最非凡的领导者，Alex Ferguson，还有别人。"
+    },
+    {
+      "i": 125,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "30:17",
+      "en": "Have you felt proud of them? No, not necessarily. The relationship is different. And so those have been voyages of curiosity where they're the people who should feel proud of their accomplishments, not me as a bystander.",
+      "zh": "你为他们感到过骄傲吗？未必。那种关系是不一样的。那些旅程是好奇心的旅程，该为自己的成就感到骄傲的是他们，不是我这个旁观者。"
+    },
+    {
+      "i": 126,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "30:34",
+      "en": "I'm so curious about for someone that's been involved in so many fascinating things, unlikely things. What jumps out is the highest energy moments.",
+      "zh": "我特别好奇：一个卷入过这么多迷人而不相干的事的人，什么最跳出来？最高能量的时刻是什么？"
+    },
+    {
+      "i": 127,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "30:44",
+      "en": "What were the things along the whole journey that gave you the most energy? I know you're a deeply curious person, so maybe it's something there.",
+      "zh": "整段旅程里，哪些事给了你最多的能量？我知道你是个深度好奇的人，所以也许就在好奇本身那里。"
+    },
+    {
+      "i": 128,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "30:50",
+      "en": "I think it's family. Children. Moments associated with Harriet. My wife and I, we have two sons, and they're now in their thirties, and one of them's got a couple of grandkids.",
+      "zh": "我想是家庭。孩子们。与 Harriet 相关的那些时刻。我和妻子有两个儿子，现在都三十多岁了，其中一个已经给我添了孙辈。"
+    },
+    {
+      "i": 129,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "31:01",
+      "en": "I think it's deeply personal stuff. Back to Bill Dees. I lost my train of thought there for a minute. I'm curious the impact that he had on you, and I'm always interested in early impact that people have on others.",
+      "zh": "我想那是很私密的东西。回到 Bill Doherty——刚才我一度跑题了。我很好奇那个人对你有多大的影响，我一直对人早年的影响很感兴趣。"
+    },
+    {
+      "i": 130,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "31:14",
+      "en": "I grew up, as you know, in Britain. And when I left college, I really wanted to be a journalist. My goal was to work on one of the big, at that point, what were called the Fleet Street newspapers.",
+      "zh": "如你所知，我在英国长大。离开大学时，我真的很想当记者，目标是进一家当时所谓的 Fleet Street 大报。"
+    },
+    {
+      "i": 131,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "31:25",
+      "en": "This is a long time ago, it's 50 years ago, that everybody read. And there were papers for different sections of the population. And I wanted to work on one of the big, really well-regarded newspapers, but there were trade union rules because the unions had a big clamp down on the way in which they held the operators of these newspapers in a straight jacket.",
+      "zh": "那是很久以前了，五十年前，人人读报，不同人群各有自己的报纸。我想进一家德高望重的大报，但工会有规矩，因为工会把这些报纸的东家捆得死死的，"
+    },
+    {
+      "i": 132,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "31:49",
+      "en": "And one of the consequences was the newspaper editors, they weren't allowed to hire college graduates directly from college because the fear of the unions was that it would impede their ability, interfere with their ability to hire 16-year-olds straight out of high school.",
+      "zh": "后果之一是，报纸主编不能直接从大学招聘毕业生，因为工会担心这会妨碍他们招收十六岁的高中毕业生。"
+    },
+    {
+      "i": 133,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "32:08",
+      "en": "The result was that if I'd wanted to go and work on The Times or The Financial Times, Daily Telegraph, one of those papers, I would have to go and spend two or three years working on a small provincial newspaper.",
+      "zh": "结果就是，我要是想去 The Times、Financial Times 或 Daily Telegraph 这些报纸，就得先在一家外省小报干上两三年。"
+    },
+    {
+      "i": 134,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "32:19",
+      "en": "And I just didn't really want to do it. I was impatient, I was ambitious and all that sort of stuff. And I met this fellow, Bill Deeds, who was the editor of The Daily Telegraph and was a revered figure in British journalism and had actually in an earlier life been the figure on which Evelyn War had modeled one of the characters in his famous satirical novel called Scoop.",
+      "zh": "而我实在不想这么干。我没那份耐心，我野心勃勃。后来我遇到了这位先生——Bill Doherty，Daily Telegraph 的主编，英国新闻界的泰山北斗，而且早前还被 Evelyn Waugh 以他为原型写进了著名的讽刺小说 Scoop。"
+    },
+    {
+      "i": 135,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "32:45",
+      "en": "Deeds very kindly responded to a letter that I'd written to him applying for a job at The Daily Telegraph. He gave me half an hour in his office in Fleet Street and I remember it.",
+      "zh": "Doherty 好心回了我那封求职 Daily Telegraph 的信，在 Fleet Street 的办公室给了我半小时。我记得很清楚。"
+    },
+    {
+      "i": 136,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "32:56",
+      "en": "It was in the winter, it was raining and I asked him for advice and he told me that what he had wished he had done as a young man was go to America and he encouraged me to move to America.",
+      "zh": "那是个冬天，下着雨。我向他请教，他告诉我，他年轻时希望自己做过的事是去美国。他鼓励我搬到美国来。"
+    },
+    {
+      "i": 137,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "33:09",
+      "en": "I think that really helped propel me in this direction. So when you arrived here, what was the first big break or big move that you made that kicked off the story?",
+      "zh": "我想那次谈话真的推了我一把，让我朝这个方向走。那么你到了这里之后，第一个大突破、或者启动这段故事的大动作是什么？"
+    },
+    {
+      "i": 138,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "33:21",
+      "en": "Well, I got very lucky. I got hired by time straight out of school without any work experience. They were very willing to take a risk on a 22-year-old or 23-year-old without any real prior experience and that was my first big break.",
+      "zh": "我运气非常好。一出学校就被 Time 聘请了，没有任何工作经验。他们愿意在一个二十二三岁、毫无实战经验的年轻人身上冒险，那就是我的第一个大突破。"
+    },
+    {
+      "i": 139,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "33:36",
+      "en": "The episode with jobs and time was so fascinating in your history and I'm sure frustrating for you. What happened and what did you learn through that episode?",
+      "zh": "你历史里那段关于 Jobs 和 Time 的插曲特别引人入胜，我相信也一定让你很沮丧。到底发生了什么，你从那段经历里学到了什么？"
+    },
+    {
+      "i": 140,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "33:46",
+      "en": "It's a painful part of the past. This is three years after I joined Time. I'd taken a leave of absence by then I was working in San Francisco in the bureau there and had taken a leave of absence to write a book about Apple and for a variety of reasons because the magazine didn't have room enough to tell the tale of the private days of Apple which is what I was really interested in doing.",
+      "zh": "那是过去令人痛苦的一章。那是我加入 Time 三年后的事。当时我已在旧金山分社工作，请了长假去写一本关于 Apple 的书。由于种种原因——杂志没有足够的版面去讲 Apple 私底下那些日子，而那才是我真正想写的东西。"
+    },
+    {
+      "i": 141,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "34:08",
+      "en": "And then I was on this leave and I got a call from Time asking me to contribute to a profile of Steve that they wanted to run in what became a very famous edition of Time which was the Computer of the Year.",
+      "zh": "我在休假期间，Time 打电话来，让我为一篇关于 Steve 的人物稿供稿，他们想登在最终成了 Time 史上非常有名的那一期——“年度计算机”。"
+    },
+    {
+      "i": 142,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "34:24",
+      "en": "I think it was the only time in Time's history where they'd picked an inanimate object to celebrate for their big annual issue. I worked on this profile of Steve.",
+      "zh": "我想那是 Time 历史上唯一一次，把一个没有生命的东西选出来做他们年度大刊的主角。我写了那篇关于 Steve 的稿子。"
+    },
+    {
+      "i": 143,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "34:33",
+      "en": "Steve was convinced that he was going to be named Man of the Year even though nobody had told him that confirmed it, yes or no. But worst of all, the profile which he hated for very good reason I might say in his defense and I was appalled by for different reasons severed my relationship with Steve.",
+      "zh": "Steve 确信自己会被评为年度人物，尽管并没有人向他确认过，是还是不是。但最糟糕的是，那篇稿子——他非常讨厌它，说句公道话他讨厌得有道理——而我也因不同的原因对它感到惊骇——它切断了我与 Steve 的关系。"
+    },
+    {
+      "i": 144,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "34:57",
+      "en": "Back then at Time these things went through an editorial combine harvester so what came out in the bail at the end probably didn't resemble very much of the straw that got fed in and so the whole tone of the piece was malicious and nasty and underhanded.",
+      "zh": "当年在 Time，稿子要经过编辑的联合收割机，打进去的是麦秆，最后出来的那一捆多半已经面目全非，所以整篇稿子的语调变得刻薄、下作、不光明。"
+    },
+    {
+      "i": 145,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "35:16",
+      "en": "As I said, Steve disliked it and it was one of the reasons I left Time. I felt very, very disenchanted by the treatment of it all. Sadly, as a result of that really never repaired the relationship with Steve.",
+      "zh": "我说过，Steve 讨厌那篇文章，那是我离开 Time 的原因之一。整个事情的处理让我非常、非常心寒。可惜因为那件事，我和 Steve 的关系再也没能修复。"
+    },
+    {
+      "i": 146,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "35:30",
+      "en": "Were you in awe of him? No. Have you ever been in awe of anyone? That's a difficult question. The people that I've known who have done incredible, remarkable things are also flawed individuals and if you get to know them well you also see that aspect of it.",
+      "zh": "你对他怀有敬畏吗？没有。你有没有对任何人怀过敬畏？这是个难题。我认识的做过惊人、非凡事业的人，同时也是有缺陷的个体；如果你足够了解他们，你也会看到那一面。"
+    },
+    {
+      "i": 147,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "35:49",
+      "en": "So seeing that up close makes it difficult to hold anybody in awe because you see the flaws as well as all of their accomplishments and virtues.",
+      "zh": "所以近距离看到这些，就很难对任何人怀有敬畏，因为你既看到他们的缺陷，也看到他们的成就和美德。"
+    },
+    {
+      "i": 148,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "35:59",
+      "en": "Why were you not in awe of Steve? It seems like he's the person that the most people in our world were in awe of in living memory. I want to be careful here because I respected him.",
+      "zh": "你为什么对 Steve 没有敬畏？在我们这个世界里，他似乎是活着的人当中最让人敬畏的一位。我想谨慎一点，因为我尊重他。"
+    },
+    {
+      "i": 149,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "36:10",
+      "en": "I admired him tremendously. I was well aware of the fact that he had achieved things later obviously as well that I couldn't ever possibly have accomplishment but I think I knew some of the darker shades of him which made it difficult to hold him up as an object of unalloyed admiration.",
+      "zh": "我非常钦佩他。我很清楚，他后来成就的那些事是我永远都不可能做到的。但我想我了解他的一些更暗的颜色，这让我很难把他当作纯粹的、不掺一丝杂质的崇拜对象摆在那里。"
+    },
+    {
+      "i": 150,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "36:36",
+      "en": "But he's a heroic figure obviously. What's the role of monomania in all of these character studies and I'm curious to tie it back to this idea of the outsider, the survivor.",
+      "zh": "但他当然是英雄式的人物。独狂（monomania）在你这些人物研究里扮演什么角色？我很好奇把它和局外人、幸存者的概念连起来。"
+    },
+    {
+      "i": 151,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "36:47",
+      "en": "You see it now. This goes in generations. The monomania, when it comes to creating anything of value, it could be a piece of music. It could be a book.",
+      "zh": "你现在就会看到。这东西是代际相传的。独狂——当你要创造任何有价值的东西时，可能是一段音乐，可能是一本书，"
+    },
+    {
+      "i": 152,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "36:58",
+      "en": "It could be a painting. It could be a company. Complete obsession with the topic at hand and walking out the rest of the world, eliminating every unnecessary distraction.",
+      "zh": "可能是一幅画，可能是一家公司——全神贯注于手头的事，把世界的其他部分关在门外，剔除一切不必要的分心。"
+    },
+    {
+      "i": 153,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "37:10",
+      "en": "And there are downsides to this. People get hurt along the way. There isn't enough time for families or others or friends because of the monomania that you refer to but then great things sometimes come out of it.",
+      "zh": "而这样做有代价：一路上会有人受伤；因为独狂，留给家庭、留给别人、留给朋友的时间不够。但有时伟大的事情正是从这里面出来的。"
+    },
+    {
+      "i": 154,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "37:24",
+      "en": "Is the primary cost of monomania relationships typically? I suspect the answer is yes or maybe for some of these people feeling that they may have lived life differently if they had to live it over again because there were consequences to this monomania but yes, clearly relationships.",
+      "zh": "独狂的首要代价通常是不是人际关系？我想答案多半是“是”。也许对其中一些人来说，如果要重新活一遍，他们可能会换一种活法，因为独狂是有后果的。但没错，显然首先是关系。"
+    },
+    {
+      "i": 155,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "37:45",
+      "en": "Even in war, people don't really know him today but a very famous British author who was capable of writing 10,000 words a week with ease, 10,000 good words, not rubbish.",
+      "zh": "即使在战争年代也是——有一位非常有名的英国作家，如今人们不太记得他了，但他一周能轻松写下一万个字，一万个好字，不是废话。"
+    },
+    {
+      "i": 156,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "38:00",
+      "en": "He said, the greatest enemy to good art is the sight of the pram. The stroller in today's parlance is the sight of the stroller in the hallway.",
+      "zh": "他说，对好艺术最大的敌人，是看得见婴儿车（pram）。用今天的话说，就是走廊里摆着一辆 stroller（婴儿车）。"
+    },
+    {
+      "i": 157,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "38:11",
+      "en": "What about Frank Auerbach, the painter, Vassio Mano Manichal? Frank Auerbach has never got the recognition in this country that he deserves, although there's a retrospective of him coming here in the next two years to very significant museums around the country here.",
+      "zh": "那 Frank Auerbach 呢？那位画家，还有 Suite Française？Frank Auerbach 在这个国家得到的认可远远不够，尽管未来两年会有一些重量级美术馆为他举办回顾展。"
+    },
+    {
+      "i": 158,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "38:27",
+      "en": "He was a refugee from Nazi Germany. He died maybe five years or so ago. I didn't know him well but I got to know him a little bit and he was a complete obsessive, completely obsessed with his art, painted every day except he treated himself to one holiday.",
+      "zh": "他是从纳粹德国逃出来的难民，大概五年前去世了。我跟他不算很熟，但有过一些交往。他是一个彻底的痴迷者，完全沉迷于他的艺术，每天都画画，只给自己一种例外。"
+    },
+    {
+      "i": 159,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "38:47",
+      "en": "For many, many years he treated himself to one day off a year and every year he'd go to Brighton where there's a famous pier that's on the south coast of England and take the day off on Christmas Day.",
+      "zh": "很多很多年里，他每年只放自己一天假，每年都去 Brighton——英格兰南海岸那个有著名码头的地方——在圣诞节那天休息。"
+    },
+    {
+      "i": 160,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "39:00",
+      "en": "Every other day of the year he worked and I remember once talking to him, his wife had a house out on the English coast and I asked him once for the dinner, I said, so do you ever go out and visit Julia, your wife?",
+      "zh": "一年里其他每一天他都在工作。我记得有一次和他聊天，他太太在英格兰海岸边上有一处房子。我请他吃过饭，有一次我问他：你去不去 Julia——你太太——那边看望她？"
+    },
+    {
+      "i": 161,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "39:15",
+      "en": "He said, I've never been to the house. Now, this is probably ten years ago we were chatting and New York came up and he said, I love New York City, I just love it, it's so bustling with energy and going to Times Square and all the rest of it.",
+      "zh": "他说：我从没去过那所房子。大概十年前我们聊天时说到纽约，他说：我爱纽约，太爱了，那里生机勃勃，去 Times Square 之类的地方。"
+    },
+    {
+      "i": 162,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "39:32",
+      "en": "And so this conversation was maybe in 2012, 2013. Thank, were you just in New York? Oh yeah, I went there in 1967 and he had this routine where he had, and I knew some of these people who posed for him or know some of these people, all of his subjects are still alive.",
+      "zh": "那次对话大概是 2012 年、2013 年。（我说：）谢谢。你刚从纽约回来吗？哦，我是 1967 年去的。他有一套固定的做法——为他做模特的那些人里有一些我还认识——他所有画过的模特都还健在。"
+    },
+    {
+      "i": 163,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "39:55",
+      "en": "They posed for him once a week, he had this regular coterie of sitters and he painted these same individuals for his figurative work over the course of 30, 40 years and there's one of the subjects who lived in venisable places who once a week flew to London for his session with Frank because I think the sitters found it like therapy sitting for Frank but he'd go into an utter meltdown if the sitter was late and then similarly with his landscape",
+      "zh": "他们每星期来坐一次。他有一批固定的模特，三十几年、四十年里他一直画同样这些人来创作他的具象作品。其中一位模特住在很远很远的地方，每星期飞来伦敦做 Frank 的模特，因为我觉得这些模特觉得给 Frank 坐着让他画就像做治疗。可如果模特迟到，他会彻底崩溃。同样地，他的风景"
+    },
+    {
+      "i": 164,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "40:25",
+      "en": "paintings he painted the same landscape over and over and over again interpreting it but he lived for art. Really there was no time for, we had a song, Jake, but there was no time for anything else.",
+      "zh": "画也是一遍又一遍地画同一处风景，不断重新诠释。他就是为艺术而活，真的没有什么时间留给别的——我们有一首歌——总之没有时间留给任何其他事。"
+    },
+    {
+      "i": 165,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "40:40",
+      "en": "Do you get more energy from monomaniacs? You spend a lot of time around them. Do you prefer being with them over built-on slickers help? It's nice to have a mixture of friends and acquaintances some of whom have tied themselves to a particular master, others who are prepared to wander around and live life more casually but I've always found it more difficult to be around people who, and I like them and",
+      "zh": "你从独狂者身上汲取更多能量吗？你身边有很多那样的人。你宁可与他们为伍，还是与随性的人相处？朋友圈子杂一点挺好：有些人把自己绑在某个主人身上，有些人愿意四处游荡、更随意地过日子。但我一直发现，更难相处的是那种人——我喜欢他们、"
+    },
+    {
+      "i": 166,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "41:06",
+      "en": "enjoy being with them but who appear to be doing nothing. What did Don Valentine see in you and what did you see in him? So Don was the founder of Sequoia, he took a risk on me around 1985, hired me to join Sequoia. When Sequoia is a very small firm, we're sitting around this table here in your studio, it's probably large enough to accommodate all of the people who work for Sequoia at that point.",
+      "zh": "也乐意与之相处——但他们看起来无所事事。Don Valentine 在你身上看到了什么，你在他身上又看到了什么？Don 是 Sequoia 的创始人，大约 1985 年他在我身上下了注，把我招进 Sequoia。那时的 Sequoia 还非常小。想想要是把你录音棚里这张桌子摆开，大概装得下当时 Sequoia 的全部员工。"
+    },
+    {
+      "i": 167,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "41:34",
+      "en": "I was a journalist, I've been a journalist, but wanted to get into the venture business because I've become interested by it and had met some of the people who were running these firms, all of which were very small at the time and had written to five of them.",
+      "zh": "我当过记者——我一直在做记者——但想进入风投行业，因为我对此产生了兴趣，见过经营那些机构的一些人，他们当时全都很小。我给其中五个人写了信。"
+    },
+    {
+      "i": 168,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "41:50",
+      "en": "This was in the days when you didn't send emails, you actually wrote letters and had gone to see each of them, they were kind enough to give me some time.",
+      "zh": "那是还没有电子邮件的年代，你真的得写信，而且逐一去登门拜访，他们人都很好，愿意给我一些时间。"
+    },
+    {
+      "i": 169,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "41:58",
+      "en": "All Save Don said, we don't really know what to do with you because you don't have a technical background, you don't have an engineering degree of any sort, you don't really have any technical knowledge, you don't have any work experience in a Silicon Valley kind of company, you've been a journalist, so maybe you should go and find a role in public relations or marketing or something like that, which is not exactly what I wanted to do.",
+      "zh": "除了 Don 以外所有人都说：我们真不知道该怎么安置你，因为你没有技术背景，没有任何工程学学位，没有什么技术知识，没有在硅谷那种公司工作过的经验，你是个记者，所以也许你该去找个公关或市场之类的岗位。而这恰恰不是我想做的事。"
+    },
+    {
+      "i": 170,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "42:26",
+      "en": "Don was more willing to take a risk and the reason was fairly straightforward because he had seen people that he expected because they had big operating backgrounds in technology companies, a few of them come into the venture business and might be very successful and then he was aware of some who had carved out very successful lives as investors.",
+      "zh": "但 Don 更愿意冒险，原因相当直接：他见过一些人，凭着在技术公司里厚实的运营履历进入风投行业，其中少数人非常成功；他也知道有些人作为投资人闯出了非常成功的人生。"
+    },
+    {
+      "i": 171,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "42:50",
+      "en": "There was a fellow called Tommy Davis, I think, who started a fund called the Mayfield Fund. There was another guy who had been an insurance actuary, but the one that Don pointed to more than anybody else was a gentleman called Arthur Rock, who just celebrated his 100th birthday.",
+      "zh": "有一位叫 Tommy Davis 的人创立了一支叫 Mayfield Fund 的基金，还有另一位以前是保险精算师。但 Don 最常指向的，是一位叫 Arthur Rock 的先生——他刚庆祝了百岁生日。"
+    },
+    {
+      "i": 172,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "43:08",
+      "en": "He was an investment banker at a small boutique here in New York called Hayden Stone. This is back in the 1950s. He had had the moxie to organize the original breakout and financing of Fairchild Semiconductor and then in the 1960s, people won't know the names anymore, but he had helped finance Teledyne, Henry Singleton, who later became one of the early board members of our first board members at Apple, Scientific Data Systems and then became the chairman and original investor",
+      "zh": "Arthur Rock 早年在纽约一家叫 Hayden Stone 的小精品投行做过投资银行家，那是五十年代的事。他有胆识操办了 Fairchild Semiconductor 最初的拆分和融资。然后在六十年代——人们不再记得这些名字了——他帮助融资了 Teledyne、Henry Singleton——后来成了 Apple 早期董事会成员之一——还有 Scientific Data Systems，然后成了 Intel 的主席和第一天的原始投资人，"
+    },
+    {
+      "i": 173,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "43:43",
+      "en": "in Intel, day one, and then a few years later, backed Apple. Don said, look, there's nothing in this background that would have suggested to be successful.",
+      "zh": "几年后又支持了 Apple。Don 说：你看，这样的履历里，没有任何迹象表明他会成功。"
+    },
+    {
+      "i": 174,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "43:53",
+      "en": "That was the main reason. What did you see in him in the early days? A job. What did he teach you? Don didn't believe in teaching. He had a survivalist instinct, so he just believed in tossing people into the deep end and see if they drowned.",
+      "zh": "这就是最主要的原因。那你当年在他身上看到了什么？一份工作。他教会了你什么？Don 不相信“教”这一套。他有一种适者生存的本能，把人扔进深水区，看你沉不沉。"
+    },
+    {
+      "i": 175,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "44:12",
+      "en": "But I learned a lot by observation and listening. Good things and bad things. There was another gentleman at Sequoia named Pierre LeMond, who played a huge role in the rise of the semiconductor industry, and he too was something of an influence.",
+      "zh": "但我通过观察和倾听学到了很多，好的坏的都有。Sequoia 还有另一位叫 Pierre Lamond 的先生，他在半导体行业的崛起中扮演了巨大角色，对我也是一种影响。"
+    },
+    {
+      "i": 176,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "44:29",
+      "en": "But it was being in the middle of that me year, watching good things happen and bad things happen and gradually trying to form my own opinions about things.",
+      "zh": "关键是置身于那个漩涡中间，看着好事发生、坏事发生，慢慢试着形成自己的判断。"
+    },
+    {
+      "i": 177,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "44:41",
+      "en": "What do you think it teaches us about early stage investing that a journalist with no technical ability and no work experience can be one of the best investors of that type ever?",
+      "zh": "你觉得这件事告诉我们关于早期投资的什么——一个没有技术能力、没有工作经验的记者，能成为那个类型里最出色的投资人之一？"
+    },
+    {
+      "i": 178,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "44:53",
+      "en": "The venture business that I got into way back when is very different from the venture business today. There aren't many parallels. I don't know that I would flourish in today's venture business, Sid, for a whole variety of reasons.",
+      "zh": "我当年进入的那门风投生意，和今天的风投行业已经非常不同，没有什么可比性了。出于种种原因，我不知道自己今天还能不能如鱼得水。"
+    },
+    {
+      "i": 179,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "45:06",
+      "en": "Why not? I think it's become much more difficult. We had a variety of benefits back in the 80s and 90s. I think they began to dissipate maybe 15, 16 years ago that don't exist today.",
+      "zh": "为什么不能？我觉得这行变得更难了。八十年代和九十年代我们享有各种红利，我想它们大概十五六年前开始消散，今天已不复存在。"
+    },
+    {
+      "i": 180,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "45:20",
+      "en": "One of them being imperfect information. The pre-internet, unless you were very close to things, you didn't know what was happening. Today because the internet and some of the stuff that we were talking about earlier, everybody around the world knows exactly what's happening.",
+      "zh": "其一是信息的不完全。在没有互联网的时代，除非你离得很近，否则你根本不知道发生了什么。今天因为互联网，加上我们前面谈到的那些东西，全世界每个人都知道发生了什么。"
+    },
+    {
+      "i": 181,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "45:35",
+      "en": "Everybody's got access to the same information, or more or less the same information. So that's number one. Number two, there are just so many more entities of all stripes, individuals, two or three people banding together in a small firm.",
+      "zh": "大家拿到的信息都一样，或者差不多一样，这是第一。第二，现在有太多的参与者，各种各样的——个人、两三个人抱团成立的小公司，"
+    },
+    {
+      "i": 182,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "45:51",
+      "en": "At the other end of it, huge mutual funds pouring money into it, that the very early stage private market is very, very different. 40 years ago, 30 years ago, it was possible if you were an individual to form a relationship, a real relationship, close relationship with the people that you were getting into business with.",
+      "zh": "到另一端的巨型公募基金把钱涌进来——极早期的一级市场已经非常、非常不同。三四十年前，作为个人，你有可能和你要合作的人建立起真正的、亲密的关系。"
+    },
+    {
+      "i": 183,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "46:12",
+      "en": "That doesn't exist today. Particularly for a venture firm, there are just too many intermediaries in between. I'm not sure the luck that I had back then, and I was also catapulted right into the middle of the one place in the world where all of this stuff was happening.",
+      "zh": "今天不存在了。特别是对一家风投机构来说，中间隔着太多的中介。我也不确定我当年的那种运气——还有命运把我直接投进了全世界所有这些事情正在发生的那个地方的正中间。"
+    },
+    {
+      "i": 184,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "46:29",
+      "en": "So that's a huge competitive advantage too. I'm not sure that any of that translates today. I think moderately intelligent 14, 16-year-old who had his or her wits about it would have been able to succeed in the venture business in the mid-80s.",
+      "zh": "那也是巨大的竞争优势。我不确定这些优势能延续到今天。我觉得一个头脑中上、十五六岁、心里有数的人，在八十年代中期做风投这行都能成功。"
+    },
+    {
+      "i": 185,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "46:44",
+      "en": "Do you think the ecosystem is healthy today? I think it is if you're a founder. Pretty good. I like the quote that you've said often that your favorite investment was Sequoia.",
+      "zh": "你觉得今天的生态系统健康吗？如果你是创始人，我觉得挺好。相当不错。我很喜欢你说过的、常说的那句话：你最喜欢的投资是 Sequoia 本身。"
+    },
+    {
+      "i": 186,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "46:55",
+      "en": "What was going through your head as you took it over? Not to screw it up. The Sequoia that was around in 1995 was very different from the one that was around when I sort of stepped down in 2012, 2013.",
+      "zh": "当你接手的时候，脑子里在想什么？别把它搞砸了。1995 年的 Sequoia，和我 2012、2013 年前后卸任时的 Sequoia，已经非常不同。"
+    },
+    {
+      "i": 187,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "47:11",
+      "en": "Number one was not to screw it up. Number two was to ensure that everybody who worked there felt that we were only as good as our next investment and that we couldn't rest on the laurels of the past.",
+      "zh": "第一条是别搞砸。第二条，是要确保在那里工作的每一个人都觉得，我们只和我们下一笔投资一样好，我们不能躺在过去的桂冠上休息。"
+    },
+    {
+      "i": 188,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "47:25",
+      "en": "And then number three, take advantage of the new market opportunities that began to occur, whether it was eventually going overseas as Silicon Valley's share of startup activity, though still obviously the best place to be, became smaller.",
+      "zh": "然后第三，抓住开始出现的新市场机会，比如最终走出国门——硅谷在新创活动中的份额虽然显然仍是最好的地方，但毕竟在缩小。"
+    },
+    {
+      "i": 189,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "47:42",
+      "en": "So first of all, we went to Israel and we went most notably to China. Started another business called Sequoia Heritage, which is a very different business.",
+      "zh": "所以首先我们去了以色列，然后最重大的，是我们去了中国，还创办了另一家叫 Sequoia Heritage 的生意，那是非常不同的一门业务。"
+    },
+    {
+      "i": 190,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "47:55",
+      "en": "And are Kevin Welley some incredible talent? Yes. And Keith and our small and mighty heroic investment team then. I don't want to sound like Joan of Arc here.",
+      "zh": "还有 Keith 和 Roelening 这样了不起的人才，对吧？是的。还有 Keith 带着我们那支精干、强大而英勇的投资团队。我不想听起来像 Joan of Arc，"
+    },
+    {
+      "i": 191,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "48:07",
+      "en": "I felt doing right by our investors was really important. Most of our investments and investors were not for profits. I think making sure that we perform well for them.",
+      "zh": "但我觉得善待我们的投资人真的非常重要。我们的很多投资人是非营利机构。我想的是确保为他们做出好业绩。"
+    },
+    {
+      "i": 192,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "48:21",
+      "en": "I didn't want to be in that business where if we didn't perform well, we still got paid very handsomely. I think that's part of the problem with a lot of the aspects of the financial service.",
+      "zh": "我不想待在那种生意里——就算业绩不好，照样拿高额报酬。我觉得这是金融服务业很多方面的问题，"
+    },
+    {
+      "i": 193,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "48:33",
+      "en": "Providers of all sorts of different forms. And it has been for a long time, which is the firm that provided us well. But back clients may have done as well just investing in an index fund.",
+      "zh": "各类服务提供商长期以来都是这样：机构自己赚得很好，但客户就算去投一只指数基金，可能也照样干。"
+    },
+    {
+      "i": 194,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "48:44",
+      "en": "I did this with Doug. He told me the story of that one fund that you fought so hard to get back to par over 10 years or something like this.",
+      "zh": "我和 Doug 共事时，他给我讲过那只基金的故事——你们花了大概十年时间，拼命让那只基金回到面值。"
+    },
+    {
+      "i": 195,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "48:52",
+      "en": "We could have said to investors, well, look, you've had a lot of good times with us and you just got to accept the fact that you've got a fund here that isn't going to make any money.",
+      "zh": "我们本可以对投资人说：你们跟我们一起有过很多好时光，就得接受这只基金不会赚钱这个事实。"
+    },
+    {
+      "i": 196,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "49:05",
+      "en": "I certainly wasn't why I've liked that. It was a matter of pride. What did you learn about working with someone like Doug that was so different than you, but you had such a fruitful partnership?",
+      "zh": "而我绝对不喜欢那样。那是面子问题。与 Doug 这样和你天性截然相反、却又和你结出如此多成果的人共事，你学到了什么？"
+    },
+    {
+      "i": 197,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "49:14",
+      "en": "Tolerance. Anymore. I think you have to adjust. When you're trying to work in a team, you have to try to understand what the other people around you need, what's important to them, and feed that need with people who are wired, as you said, very, very differently.",
+      "zh": "宽容，还有懂得调整。在团队里工作，你得弄明白身边的人各自需要什么、什么对他们重要，然后去喂养那个需求——哪怕大家天性截然不同，就像你说的。"
+    },
+    {
+      "i": 198,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "49:35",
+      "en": "I think that's the most important thing I've learned about building a team or leading a team. I think today I'd be much better at it than I was 25 years ago, 30 years ago.",
+      "zh": "我想这是关于搭建一支团队、带领一支团队，我学到的最重要的一课。我觉得如今我会比二十五年前、三十年前做得更好。"
+    },
+    {
+      "i": 199,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "49:46",
+      "en": "I learned a lot of that actually from the way that I did this book maybe 10 or 11 years ago with a famous soccer manager called Alex Ferguson.",
+      "zh": "这些道理很大一部分其实是从写那本书里学来的——大概十或十一年前，我和一位著名的足球教练 Alex Ferguson 一起写了那本书。"
+    },
+    {
+      "i": 200,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "49:55",
+      "en": "I think one of his great skills was the ability to understand what motivated each of his individual players. How did you see him do that? I know he was famous for preferring players with tough upbrings.",
+      "zh": "我想他的一大本领，是懂得每一个球员各自被什么驱动。你是怎么看到他这样做的？我知道他有个名声：喜欢出身硬苦的孩子。"
+    },
+    {
+      "i": 201,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "50:08",
+      "en": "He's got this reputation, which is an unfair reputation of being very hard and harsh. That was certainly an aspect of the way that he managed, but he was a man who didn't want to be loved.",
+      "zh": "Ferguson 背着一个很硬、很严厉的名声，那是不公平的，虽然那无疑是他管理方式的一个方面。但他是个不图人爱的人。"
+    },
+    {
+      "i": 202,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "50:22",
+      "en": "He didn't want to be feared. He wanted to be respected by the individuals who played for him. So he was there for them, which people don't understand in their bleak dark times when they needed support.",
+      "zh": "他也不想被人怕，他要的是为他效力的人尊重他。所以他在他们身边——人们不明白这一点——在他们的灰暗时刻，在他们需要支持的时候，"
+    },
+    {
+      "i": 203,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "50:35",
+      "en": "When they were feeling lower than a snake's belly, he was there for them. None of that really gets written about. There was an incident I remember, I forget which year it was, but David Beckham had been playing for England in a World Cup competition where he got sent off and the British press was merciless about Beckham's perceived stupidity.",
+      "zh": "在他们情绪跌到谷底的时候，他都在。这些没人写。有一年我记得（具体哪年忘了），David Beckham 代表 England 踢世界杯比赛吃了红牌，英国媒体对 Beckham 所谓的愚蠢穷追猛打、毫不留情。"
+    },
+    {
+      "i": 204,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "50:58",
+      "en": "When Alex went to meet him at the Apple because he knew he needed an arm around his shoulder, those sorts of things, little things that happen out of sight, people aren't aware of them.",
+      "zh": "Alex 跑去见他，因为他知道 Beckham 需要有人搂一搂他的肩膀。那种事——看不见的小动作——没人知道。"
+    },
+    {
+      "i": 205,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "51:10",
+      "en": "There are no cameras around. Do you think you were so interested in him for almost like autobiographical reasons? That description kind of sounds like you.",
+      "zh": "因为周围没有摄像机。你当年对 Ferguson 那么感兴趣，是不是有几分自传式的原因？那个描述听起来有点像你自己。"
+    },
+    {
+      "i": 206,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "51:18",
+      "en": "He was much more skillful at it than I was. The reason the book came together was this. People for whatever reason had been badgering me to write a book about Silicon Valley and I was always very interested through the Sequoia lens of what it took to build two things, one of which was a business and endured for ourselves for Sequoia because there are all these tales of venture firms that had a period in the limelight and then blew up for whatever",
+      "zh": "他在这方面可比我在行得多。这本书之所以成形，原因在这里：不知为什么，人们一直催我写一本关于 Silicon Valley 的书，而我透过 Sequoia 的镜头，一直很有兴趣地看两样东西需要什么：其一，是怎样建一家能自我持续几十年的生意，因为太多风投机构的故事是风光一阵，"
+    },
+    {
+      "i": 207,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "51:43",
+      "en": "reason. The founders killed each other. All the partners killed each other and they all split up and it all became ugly. And then also the byproduct of it being what it took to have an enduring standalone company that a firm like Sequoia could invest in.",
+      "zh": "然后因为这样那样的原因炸掉——创始人互相残杀，合伙人全部翻脸、四分五裂、结局难看。其次，由此及彼，是懂得怎样让一家独立的伟大公司长盛不衰，Sequoia 这样机构投的就是这样的公司。"
+    },
+    {
+      "i": 208,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "52:01",
+      "en": "And I didn't want to do that through a Silicon Valley lens and there are enough books about Silicon Valley. So, I was casting around for a company or for an organization that had flourished over the course of multiple decades.",
+      "zh": "而我不想再用 Silicon Valley 的镜头来讲，关于 Silicon Valley 的书已经够多了。所以我在找一个几十年间持续兴旺的公司或组织。"
+    },
+    {
+      "i": 209,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "52:15",
+      "en": "I'd been a bit of a fan of Manchester United Football Club since I was a kid. It was this manager who took them over I think in 1986 and retired in 2013 when he took them over when they're in bad shape and then established a record over multiple seasons, 26 seasons of astonishing success that'll be almost impossible for anybody to duplicate.",
+      "zh": "我从儿时起就是 Manchester United Football Club 的球迷。这位教练我想是 1986 年接手、2013 年退休。他接手时球队情况糟糕，然后在二十六个赛季里建立了几乎无人可能复制的非凡战绩。"
+    },
+    {
+      "i": 210,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "52:40",
+      "en": "We had a PR guy who were or communications guy who worked for Sequoia and I'd shown him at that point when I finished the book and I showed him a draft of the book and he said, I can't tell because I ghosted the book, ghosted the book.",
+      "zh": "我们当时在 Sequoia 有一位负责公关的同事。书稿完成后，我把草稿拿给他看，他说：我分不清——这本书是我代笔的，我代笔的——"
+    },
+    {
+      "i": 211,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "52:55",
+      "en": "And this fella said to me, I can't tell what's you and what's Sir Alex. I said precisely. Do you believe in the great man theory of history?",
+      "zh": "这位老兄对我说：我分不清哪里是你、哪里是 Sir Alex。我说：正是如此。你相信历史的“伟人理论”吗？"
+    },
+    {
+      "i": 212,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "53:05",
+      "en": "I'm asking this question because I'm very interested by institutions that endure and what you've learned about how the ones that have endured have pulled that off like Sequoia.",
+      "zh": "我问这个问题，是因为我对能长存的组织非常感兴趣，想了解那些长存者——比如 Sequoia——是怎样做到的。"
+    },
+    {
+      "i": 213,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "53:15",
+      "en": "And I'm also pulled to people, of course, like Elon, who you were an early backer and partner to and ex.com, how they shape history. And it seems like we might have a few world historic figures alive and operating today.",
+      "zh": "同时我也当然被人这样的人物吸引，比如 Elon——你是他早期的支持者和伙伴，还有 exe.com——他们如何塑造历史。而似乎我们今天还活着几位世界历史级的人物。"
+    },
+    {
+      "i": 214,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "53:29",
+      "en": "What do you think is the balance of shaping history between these world historic people, great men and women and enduring institutions? The short answer to the question is I'm a great believer in the great person theory.",
+      "zh": "你认为在塑造历史方面，这些世界历史级的伟大男女与长存的机构之间，平衡在哪里？对这个问题，简短的回答是：我坚决相信伟人理论。"
+    },
+    {
+      "i": 215,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "53:43",
+      "en": "All these people that we've talked about, whether you just referred to Elon or we were talking about the Iacocca or Steve Jobs or you go into the political realm or the field of battle, it is about great leaders, great leaders.",
+      "zh": "我们谈到的这些人，无论你是刚提到的 Elon，还是我们说过的 Iacocca、Steve Jobs，或者走进政治领域、走进战场，起决定作用的都是伟大的领导者，伟大的领导者。"
+    },
+    {
+      "i": 216,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "53:58",
+      "en": "And obviously there are some terrible authoritarian figures that have cast black shadows over tens of millions of people and over multiple decades in different countries around the world for hundreds of years.",
+      "zh": "当然，也有一些可怕的威权人物，在世界上不同的国家，为祸千百万人、历时几十年乃至几百年，投下了黑色的阴影。"
+    },
+    {
+      "i": 217,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "54:12",
+      "en": "So for good and bad, I think the individual has an enormous impact on what is around him or her capable of on the good side of it, not the dark side of it, persuading others to achieve what's perceived as impossible.",
+      "zh": "所以不论好坏，我认为个人对自己所处环境的影响是巨大的——好的一面，不是黑暗的一面——是说服别人去完成被认为不可能的事。"
+    },
+    {
+      "i": 218,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "54:31",
+      "en": "I'm a huge acolyte of that theory. Do you think Elon is the great exemplar of that today? Yes. He may well be the greatest industrialist in the history of America.",
+      "zh": "我正是这一理论的信徒。你觉得 Elon 是今天这一理论最出色的例证吗？是的。他很可能是美国历史上最伟大的实业家。"
+    },
+    {
+      "i": 219,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "54:44",
+      "en": "What would you say about him? I don't know that I have anything to add other than it's impossible for me to understand how one individual has been able to achieve.",
+      "zh": "关于他你能说些什么？我想我没什么可补充的，只是无法理解一个人怎么能够成就这么多。"
+    },
+    {
+      "i": 220,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "54:54",
+      "en": "And I know he's a controversial figure, but I'm just looking at him through the lens of history and through an investor's lens. They have this phrase in Britain called gobsmacked.",
+      "zh": "我知道他是个有争议的人物，但我就是从历史和投资人这两个透镜在看他。英国人有句话叫 gobsmacked——目瞪口呆。"
+    },
+    {
+      "i": 221,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "55:08",
+      "en": "I'm completely gobsmacked by the scale of his achievements in a variety of different industries, which is the thing that sets him apart from others.",
+      "zh": "我对他在好几个不同行业里取得的成就的规模完全目瞪口呆，这正是他与他人拉开差距的地方。"
+    },
+    {
+      "i": 222,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "55:19",
+      "en": "Your finance team isn't losing money on big mistakes. It's leaking through a thousand tiny decisions nobody's watching. Ramp puts guardrails on spending before it happens.",
+      "zh": "Ramp：你的财务团队不是栽在大错误上，而是在没人盯着的一千个小决定里漏水。Ramp 在花钱之前就上好护栏。"
+    },
+    {
+      "i": 223,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "55:28",
+      "en": "Real-time limits, automatic rules, zero firefighting. Try it at ramp.com slash invest. As your business grows, Vantage scales with you, automating compliance and giving you a single source of truth for security and risk.",
+      "zh": "实时限额、自动规则、零救火。到 ramp.com/invest 试试。随着业务成长，Vanta 与你一同扩展，把合规自动化，为你的安全与风险提供单一事实来源。"
+    },
+    {
+      "i": 224,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "55:42",
+      "en": "Learn more at Vantage.com slash invest. Ridgeline offers one unified platform that automates away the complexity across portfolio accounting, reconciliation, reporting, trading, compliance, and more.",
+      "zh": "详情访问 vanta.com/invest。Ridgeline 提供一个统一平台，把投资组合记账、对账、报告、交易、合规等等的复杂度自动化掉，"
+    },
+    {
+      "i": 225,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "55:53",
+      "en": "All at scale. Schedule a demo at ridgeline.ai. Every investment firm is unique, and generic AI chatbots don't understand your process. Rogo is built by finance professionals.",
+      "zh": "全部规模化运行。到 ridgeline.ai 预约演示。每家投资机构都独一无二，通用的 AI 聊天机器人不懂你的流程。Rogo 由金融专业人士打造，"
+    },
+    {
+      "i": 226,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "56:05",
+      "en": "It's connected to your data, learns your process, and quickly produces client-ready outputs. Check them out at rogo.com slash invest. The best AI and software companies from open AI to cursor to perplexity use WorkOS to become enterprise-ready overnight, not in months.",
+      "zh": "接上你的数据，学习你的流程，快速产出可交付给客户的成果。到 rogo.com/invest 看看。从 OpenAI 到 Cursor 再到 Perplexity，最好的 AI 和软件公司都用 WorkOS 一夜之间具备企业级能力，而不是花上几个月。"
+    },
+    {
+      "i": 227,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "56:21",
+      "en": "Visit workOS.com to skip the unglamorous infrastructure work and focus on your product. What do you make of today's prevailing technology environment and how this changes all the things we've talked about?",
+      "zh": "访问 workos.com，跳过那些不上台面的基础设施活儿，专心做你的产品。你怎么看当今的技术环境，它如何改变我们谈到的这一切？"
+    },
+    {
+      "i": 228,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "56:33",
+      "en": "One of the other PayPal founders told me recently that he thinks people like Elon and other great entrepreneurs will probably do more things more than one company, expand out of monomania because all these tools give them so much leverage.",
+      "zh": "另一位 PayPal 创始人最近告诉我，他觉得像 Elon 这样的伟大企业家，凭借这些工具赋予的巨大杠杆，大概会在不止一家公司里做成更多的事，把独狂扩展开来。"
+    },
+    {
+      "i": 229,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "56:45",
+      "en": "You think that this is like a true tear in history that we now have intelligence? I don't know. If you go to China, you will find the founders of companies, or if you go to, I think, probably South Korea, which I know far less about, you will find that the creators of one company have really imperial ambitions and the creator of a company is along the way, or they take their one company and convert it into, look at Xiaomi, the manufacturers, these cars today",
+      "zh": "你觉得这真是历史上的一个裂口吗——我们现在拥有了智能？我不知道。如果你去中国，你会发现公司创始人——或者我想，去韩国也一样，那里我了解少得多——你会发现一家公司的创造者们怀着帝国式的野心，做成一家公司只是沿途的事；或者他们把一家公司变成——看看 Xiaomi，如今造汽车，"
+    },
+    {
+      "i": 230,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "57:16",
+      "en": "that exceed the quality and performance and other attributes of Porsches, but began in 2010 as a phone maker, as an Android licensee, I think.",
+      "zh": "品质、性能和其他指标超过 Porsche，但 2010 年起步时是做手机的，一家 Android 授权厂商，我想。"
+    },
+    {
+      "i": 231,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "57:27",
+      "en": "Creative people or these rare, rare people armed with this extraordinary selection of power in the tools that are at their fingertips or at the fingertips of the people who work for them, they're going to be able to do a lot more in the future than somebody might have been able to do in the past.",
+      "zh": "拥有如此非凡力量工具体系的创造者——这些极其稀缺的人，无论是他们自己还是他们手下的人，指尖上都有这些工具——他们将来能做成的事，会比过去的人多得多。"
+    },
+    {
+      "i": 232,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "57:46",
+      "en": "What is your model of this technology? As an observer of it, and I'm sure interested observer, how do you tell your family about it and what it will mean?",
+      "zh": "你对这门技术持什么态度？作为一个观察者——我相信也是个感兴趣的观察者——你会怎么跟家人讲它、讲它将意味着什么？"
+    },
+    {
+      "i": 233,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "57:55",
+      "en": "We don't talk about it. Well, not very much. It's kind of nice. People will always ask me, but I'm not a technologist, I'm not an A.I. Susie.",
+      "zh": "我们家里不太谈这个。嗯，谈得不多。这挺好。人们总会问我，但我不是技术人，也不是 AI 行家。"
+    },
+    {
+      "i": 234,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "58:03",
+      "en": "But you were so good at seeing what was going to play out, like if I think about so many of your investments, the thing seemed small, but it was then something that became like infrastructure that the Instacard or something, that the world was built on.",
+      "zh": "可你看事情演变的本事那么强——想到你那么多投资，起初一看上去是小事，后来却成了基础设施，比如 Stripe 那样的东西，世界就建在它上面。"
+    },
+    {
+      "i": 235,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "58:17",
+      "en": "Yeah. I had very little sense that a company could grow at the rate that some of these artificial intelligence companies have grown at today.",
+      "zh": "是的。对一家公司能以今天这些 AI 公司的速度增长，我几乎毫无概念。"
+    },
+    {
+      "i": 236,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "58:28",
+      "en": "I mean, it's beyond comprehension. I remember many years ago, this was at the dawn of the internet or probably after the dawn of the internet.",
+      "zh": "我是说，这超出理解。我记得很多年前，那大概是互联网黎明时分或之后不久，"
+    },
+    {
+      "i": 237,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "58:37",
+      "en": "And Tom Siebel, who started a well-known entrepreneur and had been seen as a very successful entrepreneur, I remember him wistfully saying one day, his company had sold for whatever it was, $10 billion, and he said very wistfully, that was back when $10 billion was worth a lot of money.",
+      "zh": "Tom Siebel——著名企业家，被视为非常成功的企业家——我记得他某天感慨地说，他的公司以某某价售出——那是十亿美元——他很感慨地说：“那可是十亿美元还很值钱的时候。”"
+    },
+    {
+      "i": 238,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "58:56",
+      "en": "Today, he looked back and he said, whether it was Facebook's IPO or Google, that was back when $100 billion was worth a lot of money. I think the idea that you can have a six-year-old company with trillions of dollars, nobody would have imagined that.",
+      "zh": "今天他回望过去，无论是 Facebook 的 IPO 还是 Google，“那可是千亿美元还很值钱的时候”。我觉得，一家六岁的公司值万亿美元这种念头，从前没人能想象。"
+    },
+    {
+      "i": 239,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "59:10",
+      "en": "Are you mostly excited about this technology or scared or both? I read what everybody else reads and have heard the boogeyman opine. I think I'm probably a bit more hopeful than others.",
+      "zh": "你对这门技术主要是兴奋，还是害怕，还是两者都有？我读大家读的东西，也听末日论者发表高见。我想我大概比别人多一分希望。"
+    },
+    {
+      "i": 240,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "59:25",
+      "en": "Again, I'm not an expert. I don't mean to diminish the dark side of what may or may not happen with AI. I do take some solace in the fact that Armageddon was predicted or a form of Armageddon was predicted when the first nuclear bomb was exploded and fortunately, here we are close to a century later and that hasn't occurred.",
+      "zh": "再说一遍，我不是专家。我不想轻慢 AI 可能带来也可能不带来的阴暗面。我从这件事里得到几分宽慰：第一次核爆时人们就预言 Armageddon——某种形式的世界末日——而幸运的是，将近一个世纪过去了，那并没有发生。"
+    },
+    {
+      "i": 241,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "59:49",
+      "en": "If you read all the stuff from the mid-1970s about the genetic revolution and how there were going to be scientists creating legions of individuals that they deemed suitable to walk on the face of the earth, that hasn't occurred either.",
+      "zh": "如果你读七十年代中期关于遗传革命的那些文章，说科学家们将创造大批他们认定配得上行走大地的人，那也没有发生。"
+    },
+    {
+      "i": 242,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "60:04",
+      "en": "Today, even though I'm absolutely certain that there's going to be enormous disruption in particular job sectors caused by AI, I think that it's going to create more jobs than are going to be lost.",
+      "zh": "尽管我完全确定 AI 会在特定行业造成巨大的破坏，我认为它将创造多于它消灭的岗位。"
+    },
+    {
+      "i": 243,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "60:17",
+      "en": "Everyone can say that this time is different, but there hasn't been a huge improvement in technology that has, in the last two or three centuries, led to lower employment in the long term.",
+      "zh": "谁都可以说“这回不一样”，但在过去两三百年里，还从没有一项重大技术进步在长期内拉低了就业。"
+    },
+    {
+      "i": 244,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "60:32",
+      "en": "There have been depressions and massive disruptions in sectors, but overall employment has grown. So I'm a little more optimistic. I think there'll be a lot of jobs that get created that we couldn't categorize today.",
+      "zh": "出现过萧条、出现过行业的巨大动荡，但整体就业在增长，所以我稍微乐观一点。我觉得会有很多今天还无法归类的岗位被创造出来。"
+    },
+    {
+      "i": 245,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "60:46",
+      "en": "Because AI produces prodigious amounts of new text and writing so easily, I think the value of extraordinary writing is going up, that can cut through the CF slop.",
+      "zh": "因为 AI 如此轻易地量产大量的新文字和新文章，我认为非凡写作的价值在上升——能穿透 AI 垃圾、杀出重围的那种写作。"
+    },
+    {
+      "i": 246,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "61:00",
+      "en": "How would you define extraordinary writing, having done quite a bit of it yourself? Again, you're too flattering and kind about that on that particular topic.",
+      "zh": "你自己写过不少，你会怎么定义非凡的写作？你又太抬举我了，在这一点上你总是这么客气。"
+    },
+    {
+      "i": 247,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "61:09",
+      "en": "It's hearing the unmistakable voice of the author. How do you do that as a writer? It's the same with the journey through life. The toughest thing, I think, for an individual, whether it's guiding them through what it is they want to do in life or what they want to put on paper.",
+      "zh": "是听得见作者独一无二的声音。作为写作者，怎么做到？这跟人生这段旅程是一样的。我觉得对一个人最难的事——无论是指引一个人弄清想在人生里做什么，还是要落到纸上——"
+    },
+    {
+      "i": 248,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "61:30",
+      "en": "Being in touch enough with your inner feelings and inner voice to allow those to conquer the pressures of the expectations of others. Joseph Campbell said the privilege of a lifetime is becoming who you are, but also that that's the hardest thing to do.",
+      "zh": "是足够贴近你内心的感受和内在的声音，让它们压过外界期望的压力。Joseph Campbell 说过：一生的特权是成为你自己。"
+    },
+    {
+      "i": 249,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "61:46",
+      "en": "I wish I'd been clever enough to say that. I completely agree. I think that's the struggle everybody has. And it's also the struggle when you put things down on paper.",
+      "zh": "但他也说过那是最难做到的事。我真希望那句漂亮话是我说的。我完全同意。我觉得那是每个人的挣扎，也是你把东西落到纸上时的挣扎。"
+    },
+    {
+      "i": 250,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "61:57",
+      "en": "Is there a moment in your own life that was the most important in becoming who you were, like the hardest part of doing it that's so valuable to do and it's so hard to do?",
+      "zh": "在你自己的人生里，有没有一个时刻，是“成为你自己”这件事上最重要的、最难却最有价值的那一步？"
+    },
+    {
+      "i": 251,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "62:07",
+      "en": "It makes me wonder about what the hardest part was for you. I don't think I've done it. Why not? What's the barrier that's left between you and who you are?",
+      "zh": "我倒想听听你的——对你来说最难的部分是什么。我不觉得自己做到了。为什么？在你和你本该成为的那个人之间，拦着什么？"
+    },
+    {
+      "i": 252,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "62:16",
+      "en": "It's one of my many weaknesses. I've always been too prone to live up to the pressures or expectations from the outside of my life. I've been too vital for Malthus then to let myself run free.",
+      "zh": "那是我的众多弱点之一。我总是太容易去迎合外界的压力和期望，没能由着性子放飞自己。"
+    },
+    {
+      "i": 253,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "62:28",
+      "en": "Is it a goal of the remainder of your life to do so? I'll try. I'm so struck by how unbelievably self-aware you seem, but then you're giving yourself poor grades that seem objectively wrong.",
+      "zh": "在余下的岁月里做到这一点，会是你的人生目标吗？我试试。我特别震惊：你看起来有着令人难以置信的自我觉察，可你给自己的分数，客观上似乎低得不公平。"
+    },
+    {
+      "i": 254,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "62:43",
+      "en": "What is that? I'm just still struggling to understand. I don't know. Maybe it's the specter of my mother. Can you say more about her? We didn't talk too much about her other than her doom prophecies.",
+      "zh": "这是什么毛病？我还在努力理解。我不知道。也许是我母亲的幽灵。能多讲讲她吗？除了她那些灾难预言，我们没怎么聊到她。"
+    },
+    {
+      "i": 255,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "62:55",
+      "en": "I owe her many things. She aroused my interest in art and a variety of things, but she would always find fault and no matter how good things or what I had done, I remember there was some newspaper coverage years ago in Britain when Yahoo became public and there were some stories about me in the British press.",
+      "zh": "我对她亏欠很多。她唤起了我对艺术的兴趣，还有对各种事物的兴趣。但她永远会挑毛病。无论事情多好、我做成什么——我记得多年前，英国有报纸报道 Yahoo 上市时登过一些关于我的报道。"
+    },
+    {
+      "i": 256,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "63:18",
+      "en": "I mean, she was convinced I was a crook. But you absolutely convinced that this police should come for me because there was no possible way that I could have participated in anything like this that could possibly be legal.",
+      "zh": "我的意思是，她认定我是骗子，坚信警察应该来抓我，因为我不可能参与任何像那样的事，还居然是合法的。"
+    },
+    {
+      "i": 257,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "63:33",
+      "en": "Did that hurt? No. By that point, I was more amused by it than anything else. Early did it hurt that nothing you did was satisfactory? No, because it was just a fact of life.",
+      "zh": "那受伤吗？不。到那个份上，我更多是觉得好玩。早年呢——当你做什么都不被称道时，那受伤吗？不，因为那就是生活的一个事实。"
+    },
+    {
+      "i": 258,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "63:45",
+      "en": "And yet it seems to have echoed. Yeah. If I get the boy out of the man. What is the experience of stepping back from Sequoia because you were sick?",
+      "zh": "然而它似乎在你身上留下了回声。是啊，但愿能把男人身上的那个孩子请出来。你当初因病退出 Sequoia，"
+    },
+    {
+      "i": 259,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "63:55",
+      "en": "What has that taught you? Well, first of all, I don't think leaders should stick around. If they have decided for whatever reason not to lead, they've got to get out of the way.",
+      "zh": "那教会了你什么？首先，我认为领导人如果因为这样那样的原因决定不再领导，就不该恋栈，得让路。"
+    },
+    {
+      "i": 260,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "64:05",
+      "en": "So I went cold turkey even though I tried to help Sequoia in what ways I could and was involved with a variety of companies, but it was as an individual contributor.",
+      "zh": "所以我干脆利落地抽身了。尽管我仍在力所能及的范围内帮助 Sequoia，也以个人贡献者的身份参与了一些公司的事务，"
+    },
+    {
+      "i": 261,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "64:16",
+      "en": "But it was not as leadership. I got out of there as quickly as possible because I didn't think it was fair for someone to linger in those sorts of meetings.",
+      "zh": "但不再是领导层。我尽可能快地离开，因为我觉得让一个不再掌舵的人在那种会议里逗留，对谁都不公平。"
+    },
+    {
+      "i": 262,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "64:24",
+      "en": "I'd lived through that myself. So it's allowed me to do things. When I was running Sequoia, it was talked about monomania and obsessions. I mean, that was it.",
+      "zh": "我自己就经历过那种局面。退下来让我得以做些事情。我经营 Sequoia 的时候——人们谈到独狂和痴迷——那说的就是这个。"
+    },
+    {
+      "i": 263,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "64:32",
+      "en": "It was everything every single day of the week. So it allowed me to do things I could write. My wife and I, about 25 years ago, we started a foundation, so we spent more time on that.",
+      "zh": "那是一周每一天的每一件事。所以退下来让我能写东西。我和妻子大约二十五年前创办了一支基金会，现在可以多花时间在上面。"
+    },
+    {
+      "i": 264,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "64:44",
+      "en": "In recent years, I spent more time on trying to help San Francisco, which is where I've lived, pushing 50 years, not quite, but to turn around and flourish.",
+      "zh": "近几年，我花更多时间帮助 San Francisco——我在这里住了将五十年，不到，但差不多——让它重振、重现繁荣。"
+    },
+    {
+      "i": 265,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "64:56",
+      "en": "Along with a wonderful co-founder, Griff Gaffney, I started their media business there as well, which is fun and I hope contributes to the life of the city called the San Francisco standard.",
+      "zh": "我和一位出色的联合创始人 Griffith 一起，在那里创办了一家媒体，叫 the San Francisco Standard，很好玩，我希望它为这座城市的公共生活做出了贡献。"
+    },
+    {
+      "i": 266,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "65:09",
+      "en": "Even then, I'm involved with what used to be called Sequoia heritage in a sort of advisory capacity, so there's plenty of stuff to do, which is fulfilling and unfulfilling at the same time because while there are a whole variety of things, it's not the obsessive monomaniacal focus on one thing.",
+      "zh": "即便如此，我仍然以某种顾问身份参与原来叫 Sequoia Heritage 的事务，所以有很多事可做。既充实，又不太充实——因为有各种各样的事，但没有对一件事的偏执狂式的专注。"
+    },
+    {
+      "i": 267,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "65:26",
+      "en": "Do you miss it? Yeah. There are aspects of it. But I miss aspects of it, but I know full well that I would not want to return to that way of life.",
+      "zh": "你会想念它吗？会。有某些方面想念。我怀念某些方面，但我非常清楚，我并不想回到那种生活方式。"
+    },
+    {
+      "i": 268,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "65:37",
+      "en": "Is it the flow state of it that you miss, the feeling of total immersion and forgetting yourself? Maybe I get that one on painting. It's a simpler life.",
+      "zh": "你想念的是那种心流状态吗？全然沉浸、忘掉自己的感觉？也许在画画里我能得到一点。那是更简单的生活。"
+    },
+    {
+      "i": 269,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "65:45",
+      "en": "You don't have to make decisions about how you allocate your time because your calendar is commanded by some other force. The difference between having your calendar dictated by others and being in complete control of your calendar yourself is my name.",
+      "zh": "你不必决定怎么分配自己的时间，因为你的日程被别的力量接管了。由别人支配你的日历，和你自己完全掌控你的日历，这中间的差别——是羡慕。"
+    },
+    {
+      "i": 270,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "66:04",
+      "en": "What's your hope for the standard? What are the principles that guide it? Griffin, I didn't set it up as a not-for-profit. One of the things that we wanted to do was to show that local journalism can be a profitable business, number one.",
+      "zh": "你对 the Standard 的期望是什么？指引它的原则是什么？Griffith，我没有把它注册成非营利机构。我们想证明的第一件事是：地方新闻可以是一门赚钱的生意。"
+    },
+    {
+      "i": 271,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "66:19",
+      "en": "Number two, it's to have a vibrant, interesting, diverting, but reliable source of information for people in San Francisco and the greater Bay Area for people who care about that sort of stuff.",
+      "zh": "第二，为 San Francisco 和大 Bay Area 里关心这类事情的人，提供一个有活力、有趣、引人入胜但可靠的新闻来源。"
+    },
+    {
+      "i": 272,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "66:33",
+      "en": "Number three, I've been very clear from day one, the news coverage. There's no proprietorial thumb on the scale when it comes to news coverage.",
+      "zh": "第三，我从第一天起就说得很清楚：新闻报道上，没有任何老板的手压在秤上。"
+    },
+    {
+      "i": 273,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "66:44",
+      "en": "Some of the stories and the standard I've been mentioned and referred to in ways that I wouldn't necessarily write myself. So that's fair game, but in the ideas and opinions area, it's center of right of center.",
+      "zh": "the Standard 登过一些提到我、指向我的报道，要是我自己写，未必会那么写。那就公平游戏。但在观点与理念板块，立场是中间偏右。"
+    },
+    {
+      "i": 274,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "66:59",
+      "en": "And that's what this is, and that's a much needed voice in San Francisco. As I think back to the book, and I put it down and wondered about what's going to last in me having read this.",
+      "zh": "这就是它的定位，而这是 San Francisco 非常需要的声音。回想起那本书，我放下书在想，读完之后什么会在我身上留存。"
+    },
+    {
+      "i": 275,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "67:11",
+      "en": "The thing I keep going back to, it's obviously selfish and context-dependent, is parenting. I have two young kids. How old are they? They're 12 and 10.",
+      "zh": "我一直回想起来的东西——显然是出于私心、也是依语境而定的——是育儿。我有两个小孩。他们多大？十二岁和十岁。"
+    },
+    {
+      "i": 276,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "67:19",
+      "en": "They're approaching the end of that window where you describe them as being imprinted in the file. You've already done the damage, Patrick. I know.",
+      "zh": "他们已经接近你所描述的那个会被印刻的窗口的尾声了。损害已经造成了，Patrick。我知道。"
+    },
+    {
+      "i": 277,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "67:26",
+      "en": "They're impaired for life. So I wonder, if you turn the whole exercise of exploring your own history and your family's history into how to think about the role of parenting, curious what comes to mind.",
+      "zh": "他们终身受损了。所以我在想：如果把探索你自己的历史、你的家族历史的整套做法，转换成“该怎么看待做父母的角色”，你会想到什么？"
+    },
+    {
+      "i": 278,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "67:39",
+      "en": "I think it's to arm the children with confidence. Simple as that by doing what? I don't know. I have to think hard about the handbook of parenting, but I think it's to instill that feeling of self-confidence and freedom and to try as a parent not to be sensorious.",
+      "zh": "我想，是给孩子们装上自信。就这么简单。通过做什么？我不知道。我得好好想想那本育儿手册，但我想是要灌输那种自信感和自由感，做父母的要尽量别当说教者。"
+    },
+    {
+      "i": 279,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "68:00",
+      "en": "Do you think, also thinking about the book, that an important lesson is that we cannot take progress for granted, positive progress? History is littered with examples of terrible things that happened over periods of time for millions of people all around the world, Russia, China, Iran, Africa, India.",
+      "zh": "你觉得——也是想着那本书——重要的一课是不是：我们不能把进步、积极的进步，视作理所当然？历史到处是可怕的例子：在一段时间里发生在千百万人身上——Russia、China、Iran、Africa、India。"
+    },
+    {
+      "i": 280,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "68:23",
+      "en": "There have been terrible things that have happened over the last thousand years. I think there's very little that separates the human from the beast, and it's remaining human and not becoming the beast that is everybody's challenge.",
+      "zh": "过去一千年里不断有可怕的事发生。我觉得，把人与野兽分开的那层东西很薄。保持人性、不变成野兽，是每个人的挑战。"
+    },
+    {
+      "i": 281,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "68:41",
+      "en": "How do you think you were most changed by the exercise of studying your family and writing the book? Understanding myself a little better. In the final analysis, what matters?",
+      "zh": "研究家族、写这本书这件事，让你自己变化最大的是什么？对自己的理解深了一点。归根结底，什么要紧？"
+    },
+    {
+      "i": 282,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "68:51",
+      "en": "I think it's two things. I think it's relationships with the people that you care about, knowing that we're all completely insignificant no matter what the individual has accomplished, trying to leave things a little better than they were before any of us got engaged with them.",
+      "zh": "我想是两样东西。我想是与你在乎的人的关系；明白无论个人有什么成就，我们都彻底渺小；努力让事情比我们来碰过它们之前好一点。"
+    },
+    {
+      "i": 283,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "69:10",
+      "en": "Do you get to write a next book? What topic peaks your curiosity? I've been playing around with this idea, which I don't know if I'll ever actually get around to writing, but I've been reading about it a fair amount.",
+      "zh": "你会写下一本书吗？什么题目挑起你的好奇心？我一直在琢磨一个念头——不知道自己最终会不会真的动手写，但已经读了不少相关的东西。"
+    },
+    {
+      "i": 284,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "69:24",
+      "en": "I'm very interested weirdly in Iran, Persia, of the 1940s, the collision of individuals from inside and outside Iran. Explain so much about the world we live in today.",
+      "zh": "说来奇怪，我对 1940 年代的 Iran、Persia 很感兴趣：来自伊朗境内外的各路人物之间的碰撞。那能解释我们今天生活的这个世界里的许多事。"
+    },
+    {
+      "i": 285,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "69:42",
+      "en": "I think what I've been thinking about is not nonfiction, but a blend of fiction and nonfiction. Now, as I said, I don't know if I'll ever get the narrative and the structure and the composition right, but it's my view of what has happened in Iran.",
+      "zh": "我想我构思的不是 nonfiction，而是 fiction 和 nonfiction 的混合。像我说的，我不知道自己能否把叙事、结构和谋篇拿捏到位，但那是我眼中 Iran 所发生的事。"
+    },
+    {
+      "i": 286,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "70:00",
+      "en": "It's this collision of personalities from very different backgrounds in different parts of the world that have failed to understand each other.",
+      "zh": "那是来自世界不同地方、背景迥异的人物之间的碰撞，他们没能互相理解。"
+    },
+    {
+      "i": 287,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "70:10",
+      "en": "It's pretty fascinating. One of the great things about your thinking and writing was how short some of the very famous memos and things were, what could go right, understanding for a company like Stripe where I understand the memo was quite short.",
+      "zh": "非常引人入胜。你的思想和文字里让人称道的一点，是那些著名的备忘录有多短——比如“What Could Go Right”、对 Stripe 这样公司的理解备忘录——我知道那份备忘录相当短。"
+    },
+    {
+      "i": 288,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "70:23",
+      "en": "I'm curious about that notion of compression and the power of compression, but if you were to write something like that about the state of the world and give it to your grandson or something today, you seem so good at identifying the things that matter that will determine where things will go.",
+      "zh": "我好奇“压缩”这个概念和压缩的力量。但如果你今天也写一份关于世界现状的备忘录，交给你孙子——你这么擅长识别那些决定事物走向的要害——"
+    },
+    {
+      "i": 289,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "70:38",
+      "en": "Again, you're too kind. For me, part of the training as a journalist, it's part of what I learned at college. Being able to distill things to their essence, keep it very short, has stood me in good stead over the years.",
+      "zh": "你又太抬举我了。对我来说，记者训练的一部分——也是我在大学里学到的——是怎样把事情蒸馏到本质，保持极短。这些年这让我受益匪浅。"
+    },
+    {
+      "i": 290,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "70:54",
+      "en": "Can that be taught? Seems like more valuable than ever. So much information and apartment. I don't know. I think it depends a lot on reading.",
+      "zh": "这种能力可以教吗？它似乎比以往任何时候都更有价值。信息实在太多，铺天盖地。我不知道。我想这很取决于阅读。"
+    },
+    {
+      "i": 291,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "71:03",
+      "en": "It's hard when people are fed a diet of a limited vocabulary. I am singling him out, but if you do these studies of the vocabulary of presidency in the United States, Trump's vocabulary is by far the lowest.",
+      "zh": "当人们被喂以贫乏的词汇时，这就很难。我并不是要单独针对他——但如果你研究美国总统的用词量，Trump 的词汇量是最低的，遥遥垫底。"
+    },
+    {
+      "i": 292,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "71:20",
+      "en": "I think he's got a vocabulary of about 2,400 words. Obama was maybe 4,500 words common vocabulary. And I think having a huge vocabulary at your fingertips that you can select from allows you to express complicated ideas in a simple manner.",
+      "zh": "我想他的词汇量大约 2400 个词。Obama 可能有 4500 个词的常用词汇量。我觉得，指尖上随时有一个庞大的词汇库可资挑选，能让你用简单的方式表达复杂的想法。"
+    },
+    {
+      "i": 293,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "71:41",
+      "en": "I love the book. I loved our conversation. I've loved all your writing. Oh, you're far too kind and flattering and gracious. The questions have been, as you can tell, thought-provoking and wonderful.",
+      "zh": "我喜欢这本书。我爱我们的对话。我爱你的全部文字。哦，你太客气、太抬举、太厚道了。你的问题——听得出来——发人深省，非常精彩。"
+    },
+    {
+      "i": 294,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "71:53",
+      "en": "I ask one final question every time I introduce someone. What is the kindest thing that anyone's ever done for you? Alley me. So beautiful, simple.",
+      "zh": "我每次介绍完一位嘉宾都会问最后一个问题：有没有谁为你做过最善良的事？Alley me. So beautiful, simple."
+    },
+    {
+      "i": 295,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "72:03",
+      "en": "What have you learned from your life? Tall words. Common theme. Mike, thanks so much for your time. Thank you. Really good. If you enjoyed this episode, visit Colossus.com.",
+      "zh": "你从你的人生里学到了什么？宏大的词。共同的主题。Mike，太感谢你的时间了。谢谢你。真的很好。如果你喜欢这一集，请访问 Colossus.com。"
+    },
+    {
+      "i": 296,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "72:14",
+      "en": "You'll find every episode of this podcast complete with hand-edited transcripts. You can also subscribe to Colossus, our quarterly print, digital and private audio publication featuring in-depth profiles of the founders, investors and companies that we admire most.",
+      "zh": "你会在那里找到这档播客的每一集，配有手工编辑的完整转录稿。你也可以订阅 Colossus——我们的季度纸本、数字与私人音频刊物，主打我们最敬仰的创始人、投资人和公司的深度特写。"
+    },
+    {
+      "i": 297,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "72:27",
+      "en": "Learn more at Colossus.com. You know how small advantages compound over time. That's true in investing and just as true in how you run your company.",
+      "zh": "详情访问 Colossus.com。你知道小优势如何随时间复利。这在投资里是真的，在经营你的公司上同样是真的。"
+    },
+    {
+      "i": 298,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "72:56",
+      "en": "Your spending system is your capital allocation strategy. Ramp makes it smarter by default. Better data, better decisions, better economics over time.",
+      "zh": "你的支出系统就是你的资本配置策略。Ramp 让它默认更聪明：更好的数据、更好的决定、随时间更好的经济学。"
+    },
+    {
+      "i": 299,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "73:03",
+      "en": "See how at ramp.com slash invest. As your business grows, Vanta scales with you, automating compliance and giving you a single source of truth for security and risk.",
+      "zh": "到 ramp.com/invest 看看。随着业务成长，Vanta 与你一同扩展，把合规自动化，为你的安全与风险提供单一事实来源。"
+    },
+    {
+      "i": 300,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "73:12",
+      "en": "Learn more at Vanta.com slash invest. The best AI and software companies from open AI to cursor to perplexity use WorkOS to become enterprise ready overnight, not in months.",
+      "zh": "详情访问 vanta.com/invest。从 OpenAI 到 Cursor 再到 Perplexity，最好的 AI 和软件公司都在用 WorkOS 一夜之间变得企业级就绪，而不是花上几个月。"
+    },
+    {
+      "i": 301,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "73:22",
+      "en": "Visit workos.com to skip the unglamorous infrastructure work and focus on your product. Ridgeline is redefining asset management technology as a true partner, not just a software vendor.",
+      "zh": "访问 workos.com，跳过那些不上台面的基础设施工作，专注于你的产品。Ridgeline 正在重新定义资产管理技术——作为真正的伙伴，而不只是一个软件供应商。"
+    },
+    {
+      "i": 302,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "73:31",
+      "en": "They've helped firms 5x in scale, enabling faster growth, smarter operations and a competitive edge. Visit ridgelineapps.com to see what they can unlock for your firm.",
+      "zh": "他们帮助规模扩大 5 倍的公司实现了更快的增长、更聪明的运营和竞争优势。访问 ridgelineapps.com，看看他们能为你的公司解锁什么。"
+    },
+    {
+      "i": 303,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "73:41",
+      "en": "Every investment firm is unique and generic AI doesn't understand your process. Rogo does. It's an AI platform built specifically for Wall Street connected to your data, understanding your process and producing real outputs.",
+      "zh": "每家投资机构都独一无二，通用 AI 不懂你的流程。Rogo 懂。它是专为 Wall Street 打造的 AI 平台，接上你的数据、理解你的流程、产出真实的成果。"
+    },
+    {
+      "i": 304,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "73:52",
+      "en": "Check them out at rogo.ai slash invest.",
+      "zh": "到 rogo.ai/invest 看看。"
+    }
+  ]
+}

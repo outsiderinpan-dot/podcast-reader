@@ -1,0 +1,1824 @@
+{
+  "show": "swimming-with-allocators",
+  "kind": "transcript",
+  "id": "swimming-with-allocators-2a79b9a0",
+  "slug": "2026-09-09-beyond-consensus-where-europes-next-great-2a79b9a0",
+  "date": "2026-09-09",
+  "title_en": "Beyond Consensus: Where Europe’s Next Great VCs Are Emerging",
+  "title_zh": "超越共识：欧洲下一批伟大 VC 正在何处崛起 | Firm 的 Henrik",
+  "subtitle_zh": "从 Slush 到基金中的基金，Henrik 谈欧洲 VC 的资本错配、社区催化剂与业绩驱动的配置之道。",
+  "description": "Beyond Consensus: Where Europe’s Next Great VCs Are Emerging",
+  "duration": "49:46",
+  "duration_seconds": 2986,
+  "episode_url": null,
+  "audio_url": "https://traffic.megaphone.fm/TGL5229503110.mp3",
+  "speakers": {
+    "1": "Alexa Binns（主持）",
+    "2": "Earnest Sweat（主持）",
+    "3": "Henrik（嘉宾）",
+    "4": "片花/广告（旁白）"
+  },
+  "turn_count": 225,
+  "turns": [
+    {
+      "i": 0,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "00:00",
+      "en": "This episode is brought to you by Google Chrome. You think you know a browser, but Gemini and Chrome? That's new. It can help you with practically anything on the web, like restoring a vintage motorcycle from a 50-page restoration block, or finally break down that long article you've had open for weeks.",
+      "zh": "本期节目由 Google Chrome 赞助播出。你以为自己很了解浏览器，但 Gemini 加上 Chrome？这可是全新的东西。它几乎能帮你搞定网上的任何事，比如照着一份 50 页的翻新手册把一辆复古摩托车修复如初，或者终于把那篇你开着好几周的长文读明白。"
+    },
+    {
+      "i": 1,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "00:16",
+      "en": "Gemini and Chrome is here for it. Ready to make anything online make sense? There's no place like Chrome. Check responses set up required compatibility and availability varies 18+.",
+      "zh": "Gemini 加 Chrome 就是为此而来。准备好让网上的一切都变得清清楚楚了吗？没有哪个地方比得上 Chrome。请查看相关说明，需完成设置，兼容性和可用性视情况而定，限 18 岁以上。"
+    },
+    {
+      "i": 2,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "00:26",
+      "en": "Modafinil from Mod.com is changing the way high performers get energy. Modafinil is a prescription treatment that engages multiple pathways in your brain to achieve steady energy and alertness for 10 to 12 hours.",
+      "zh": "来自 Mod.com 的 Modafinil（莫达非尼）正在改变高绩效人群获取精力的方式。Modafinil 是一种处方疗法，通过调动大脑中的多条通路，让你在 10 到 12 小时内保持稳定的精力和警觉。"
+    },
+    {
+      "i": 3,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "00:40",
+      "en": "And it's now available at mod.com to qualifying patients. Visit mod.com for a free consultation and get 10% off your first order plus free shipping with promo code SPOTIFY.",
+      "zh": "现在符合条件的患者可以在 mod.com 上获取它。访问 mod.com 预约免费咨询，首单还能享受九折优惠并免运费，优惠码 SPOTIFY。"
+    },
+    {
+      "i": 4,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "00:51",
+      "en": "That's promo code SPOTIFY at mod.com. Welcome to Swimming with Alligators, the VC podcast from the LP perspective. With your host, Alexa Binz, and Ernest Sepp.",
+      "zh": "优惠码 SPOTIFY，就在 mod.com。欢迎收听 Swimming with Allocators，一档从 LP（有限合伙人）视角出发的 VC 播客。本期主持是 Alexa Binz 和 Ernest Sepp。"
+    },
+    {
+      "i": 5,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "01:06",
+      "en": "You ready? Let's dive in. Thank you for having me. It's an honor and a pleasure. Awesome. You sort of entered this industry as a very eager teen, volunteering at Slush, which I believe is one of the largest startup conferences to date.",
+      "zh": "准备好了吗？我们开始吧。感谢你们邀请我，这是我的荣幸，也很开心能来。太好了。你算是很小就满怀热情地入了这一行，在 Slush 做志愿者——我记得那是迄今全球最大的创业大会之一。"
+    },
+    {
+      "i": 6,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "01:29",
+      "en": "What was it sort of that originally made you think this is where I belong? This is what I want to spend some time doing. Yeah, for sure. It's a great question.",
+      "zh": "最初究竟是什么让你觉得“这里就是我的归属，这就是我想花时间去做的”？是啊，当然，这是个好问题。"
+    },
+    {
+      "i": 7,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "01:38",
+      "en": "And I would say that I was always a planner's guide and my plan was to do something completely different. And it's always the case with people on your podcast as well who talk about their interest in the world of venture is that it's always serendipity.",
+      "zh": "我得说，我一直是个按计划行事的人，而我的计划本来是去做一件完全不同的事。你节目里那些聊到自己如何对风投产生兴趣的嘉宾也总是这样——一切都出于机缘巧合。"
+    },
+    {
+      "i": 8,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "01:49",
+      "en": "So my plan was to do something completely different. And then I had a guy who just brought me into the team at Slush. So I joined in 2015, I said, as a volunteer in the investor group, I was heading the meeting area.",
+      "zh": "所以我的计划本是做点完全不同的事。后来有个人直接把我拉进了 Slush 的团队。就像我说的，我 2015 年以志愿者身份加入投资人小组，负责会议接待区。"
+    },
+    {
+      "i": 9,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "02:02",
+      "en": "So I got to meet many of the people who ended up actually working together with me at some investments and so forth in later stage. But honestly, it took me at least four years to really understand that this is what I want to do.",
+      "zh": "因此我认识了很多后来真正跟我一起做投资等等的人。但老实说，我花了至少四年才真正明白，这就是我想做的事。"
+    },
+    {
+      "i": 10,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "02:15",
+      "en": "And that was after Sintin Investment Banking, which I always thought was going to be my thing. And I was pulled back on to the team then to head the investor operations of the conference in 2019.",
+      "zh": "那是在做投资银行之后——我一直以为投行才是我的方向。后来我又被拉回团队，在 2019 年负责这个大会的投资人运营。"
+    },
+    {
+      "i": 11,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "02:25",
+      "en": "And then sort of in the first few calls, the first one I ever had was with Sir Michael Meritz or Micah, so we have close friends call him, was that, OK, this is pretty special.",
+      "zh": "在最初的几通电话里，我打的头一通是跟 Sir Michael Moritz——朋友们都叫他 Micah——那次我心想：好，这真的很特别。"
+    },
+    {
+      "i": 12,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "02:34",
+      "en": "I was a naive young 20-something and got to talk to these legends of the industry and thought that, OK, this beats aligning logos in PowerPoint and doing Excel.",
+      "zh": "我当时是个天真、二十出头的年轻人，却能和这些行业传奇对话，心想：好，这可比在 PowerPoint 里对齐 logo、做 Excel 强多了。"
+    },
+    {
+      "i": 13,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "02:45",
+      "en": "So this for sure could be something for me in the future. Henry, you were telling me in the pre-conversation that that first conference was kind of mind-blowing.",
+      "zh": "所以这将来肯定可能是适合我的方向。Henrik，你在事前沟通里跟我说过，第一次办那场大会挺震撼的。"
+    },
+    {
+      "i": 14,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "02:54",
+      "en": "It was 25,000 attendees, about over 2,000, almost 3,000 investors, and you saw something like 3 trillion of AUM in the room. What did that vantage point teach you about how capital actually flows?",
+      "zh": "那届有两万五千名与会者，超过两千、将近三千位投资人，现场大概能看到 3 万亿美元的管理资产规模（AUM）。站在那个位置上，你学到了资本实际是怎么流动的？"
+    },
+    {
+      "i": 15,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "03:11",
+      "en": "Yeah, it's also one of those brilliant, brilliant questions. I think, of course, events are quite unique. It's a small touch point in a year for which most people come around just to have fun, to be honest.",
+      "zh": "是啊，这又是一个特别、特别棒的问题。我觉得，当然，这类活动很独特。它只是一年里一个小小的接触点，说实话大多数人来就是为了玩。"
+    },
+    {
+      "i": 16,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "03:25",
+      "en": "But of course, whatever we think about for the year is always very much driven by narrative. So in 2016 or in 2015, when I was a volunteer, it was all about decarbonization.",
+      "zh": "但当然，我们一整年所想的东西，往往很大程度上是被叙事驱动的。所以在 2016 年、或者说 2015 年我做志愿者的时候，主题全都是脱碳（decarbonization）。"
+    },
+    {
+      "i": 17,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "03:34",
+      "en": "We had Chris Salka on board. I got to meet him. It was really cool. That was the whole narrative that we were talking about. And then going forward from that, we went into Web 3 during my year.",
+      "zh": "我们请到了 Chris Salka，我还见到了他，真的很酷。那就是我们当时讨论的整个叙事。往后发展，到我负责那一年，我们进入了 Web3。"
+    },
+    {
+      "i": 18,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "03:44",
+      "en": "It was more on that spectrum already. So it was all about narrative. And that was pretty much what we learned as well. We reached out to the investors early in the year to understand what they want to talk about.",
+      "zh": "那时已经更偏向那个光谱了。所以一切都在讲叙事，这也基本是我们学到的东西。我们会在年初很早就去联系投资人，了解他们想聊什么。"
+    },
+    {
+      "i": 19,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "03:56",
+      "en": "And these were very strongly always, there was always a topic that some wanted to talk about. And once again, 2016 as a volunteer, all about that decarbonization, future of the planet type of conversation.",
+      "zh": "而这些联系总是非常强烈——总有某个话题是他们想聊的。同样，2016 年做志愿者时，全是那种脱碳、地球未来之类的话题。"
+    },
+    {
+      "i": 20,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "04:07",
+      "en": "What we then of course also understand is usually those are not the companies that grow up to become great out of those vintages. But that was strongly sort of my first touch point was that it's always story.",
+      "zh": "当然，我们后来也明白，通常那些年份里跑出来的伟大公司，恰恰不是围绕这些话题的。但那强烈地成为我的第一个接触点——一切都在于故事。"
+    },
+    {
+      "i": 21,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "04:18",
+      "en": "We are storytelling animals, of course. And that was clearly the number one thing that I took away from it, which is I think more evident always in hindsight as things tend to be.",
+      "zh": "当然，我们人类就是讲故事的动物。这显然是我从中得到的头号心得，而这类东西往往都是事后回看才更清楚。"
+    },
+    {
+      "i": 22,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "04:27",
+      "en": "Yeah, it's an interesting exercise to think if infrastructure or maybe energy are the topics of today, what's the topic next year? Yeah, for sure.",
+      "zh": "是啊，做个思想实验挺有意思：如果基础设施或者能源是今天的话题，那明年的话题会是什么？是啊，当然。"
+    },
+    {
+      "i": 23,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "04:41",
+      "en": "And it always changes. We do, even though it's a game of patient capital, and we invest over a horizon of at least 10 years plus for companies to actually start growing well, it steals something where we have that mindset of a short temperament in in essence and short attention span maybe to put it more well.",
+      "zh": "而且它总是在变。尽管这是一场耐心资本（patient capital）的游戏，我们的投资周期至少要 10 年以上，公司才能真正开始好好成长，但我们本质上仍是那种心态短、注意力也短的物种——说得婉转点大概是这样。"
+    },
+    {
+      "i": 24,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "05:03",
+      "en": "And the storyline can change. It can be one conversation or CNBC where suddenly, you know, Anthropicus is going to be the first company to be at an era of a trillion.",
+      "zh": "故事情节会变。可能就是 CNBC 上的一段对话，突然之间，你懂的，Anthropic 就要成为第一家市值上万亿美元的公司了。"
+    },
+    {
+      "i": 25,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "05:13",
+      "en": "And then suddenly, you know, there's a conversation by someone at Palantir who then shuts down the whole conversation. Now, again, that's that's going to be blown off the water.",
+      "zh": "然后突然间，Palantir 那边有人说了番话，又把整个讨论给压了下去。当然，那种说法转头就会被现实狠狠打脸。"
+    },
+    {
+      "i": 26,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "05:21",
+      "en": "So it is just how it is. And of course, BC is as a whole there. They're just as good, not as their next investment, but the last podcast that they heard.",
+      "zh": "所以事情就是这样。当然，VC 这个行业整体上也一样——他们的水准往往不取决于下一笔投资，而取决于他们最近听的那档播客。"
+    },
+    {
+      "i": 27,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "05:29",
+      "en": "So it's always like these narratives change a lot. And that was here is something that we also felt as one eight months ago, 20 somethings, we just set a narrative for the year.",
+      "zh": "所以这些叙事总是变来变去。而这里还有一点我们也感受到了：十八个月前，我们这群二十出头的人，就定下了一整年的叙事。"
+    },
+    {
+      "i": 28,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "05:37",
+      "en": "And that was sort of the story that we wanted to tell the world. And luckily, some people wanted to be part of that. And it was quite quite nice for us to experience for sure.",
+      "zh": "那就是我们想讲给世界听的故事。幸运的是，有人愿意成为其中的一部分。这段经历对我们来说确实相当美好。"
+    },
+    {
+      "i": 29,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "05:45",
+      "en": "You you told me early on in the job, you got to meet a lot of legends in the industry. And now your goal is to back future legends. Is there anything from those initial kind of meetings that you took away from what makes a great investor that you look for today?",
+      "zh": "你跟我说过，你入行很早，就见到很多行业里的传奇人物。而你现在的目标是扶持未来的传奇。从最初那些会面里，关于“什么造就一位伟大的投资人”，你有没有什么心得，是你今天仍在寻找的？"
+    },
+    {
+      "i": 30,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "06:06",
+      "en": "For sure. I would say that the connective the connective tissue, maybe it's not something that I necessarily would say is is a great investor per se.",
+      "zh": "当然有。我会说，那种起连接作用的“结缔组织”，也许并不一定是我眼中“伟大投资人”本身的特质。"
+    },
+    {
+      "i": 31,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "06:14",
+      "en": "But it was a character trait of these people who once again, the Michael Maritz is of the world and John Doris and so forth, Chris Suckers. They were surprisingly approachable always.",
+      "zh": "但它确实是这些人的性格特质——再一次，像 Michael Moritz 这类人、John Doerr 等等、Chris Salka。他们总是出人意料地平易近人。"
+    },
+    {
+      "i": 32,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "06:24",
+      "en": "They were very low ego as well. They sort of didn't need to be that anymore. You know, they had already made those status games that they didn't need to play that game anymore.",
+      "zh": "他们的自我（ego）也很低。他们不再需要那种东西了。你懂的，他们早已赢下了那些身份地位的游戏，不必再去玩了。"
+    },
+    {
+      "i": 33,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "06:33",
+      "en": "They were very open minded. So many of my sessions actually were about, OK, you know, what do you want to do during the year? But the rest of it was really, you know, them asking me practically, what are you interested in?",
+      "zh": "他们思想非常开放。我那几次谈话，其实是问“你这一年想做点什么”，但剩下的部分，真的是他们在反问我：“你对什么感兴趣？”"
+    },
+    {
+      "i": 34,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "06:44",
+      "en": "What are you going to do next? Are you going to do start a startup? Are you going to go into VC? So I got them them sort of as mentors very early on.",
+      "zh": "“你接下来打算做什么？要去创业吗？还是要进 VC？”所以我很早就把他们当成了导师。"
+    },
+    {
+      "i": 35,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "06:50",
+      "en": "So from a character perspective, this this sense is still something that I think is quite interesting in venture. Because we know many, many think that they are masters of the universe and they have to talk about every topic that's relevant to the world, whether it's, you know, you know, from from virology to Web three, of course, or politics, Middle East.",
+      "zh": "所以从性格角度看，这种特质在我眼里至今在风投圈仍很有意思。因为我们知道，很多人都自以为是“宇宙的主宰”，觉得世界上每一个相关话题都得谈一谈，不管是病毒学、Web3，当然，还是政治、中东。"
+    },
+    {
+      "i": 36,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "07:08",
+      "en": "And these were people who were sort of beyond that already. They were comfortable in who they are, comfortable in their sort of way of of approaching the world.",
+      "zh": "而这些人早已超越了那一层。他们对自己的身份很坦然，对自己看待世界的方式也很笃定。"
+    },
+    {
+      "i": 37,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "07:16",
+      "en": "And I think that's also something that we see now in managers that we really like is that they're they're centered. Yeah. Describing to me feels like like, like actual confidence, like being comfortable in your skin as opposed to bravado that has absolutely I think showed up in your thesis around like real expertise that if you really are somebody who has deep knowledge on something, you recognize",
+      "zh": "我觉得这也是我们在自己很喜欢的那些管理人身上看到的——他们很“定”。是的。你描述的这种，对我来说像是真正的自信，是安于自我，而不是那种虚张声势——我认为这恰恰体现在你关于真正专业度的论点里：如果你真的是某个领域有深厚知识的人，你会认识到"
+    },
+    {
+      "i": 38,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "07:39",
+      "en": "that you you know, you know better than the average person. Yeah. For sure. Yeah. So I think sort of the psychological trick is usually probably that many, many VC investors steal their fate is in a way in the hands of others.",
+      "zh": "你确实比普通人懂得更多。是的，当然。所以我觉得这里有个心理学上的小把戏：很多 VC 投资人，某种程度上，他们的命运其实握在别人手里。"
+    },
+    {
+      "i": 39,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "07:54",
+      "en": "And they also allocate the capital of others, which means that sort of somehow you need to compliment that. And very often it is to sort of play that you're a semi god who understands where the world is going and you are the one who makes kings and queens.",
+      "zh": "而且他们配置的是别人的资本，这意味着你得设法去弥补那种不安全感。很多时候，做法就是把自己扮成一个半神——一个懂世界走向、能“造王立后”的人。"
+    },
+    {
+      "i": 40,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "08:08",
+      "en": "And I think psychologically that's that's been also quite evident in many conversations that that we have is that people who lack that that sort of mindset that they're in the trench is actually building and have built something concrete.",
+      "zh": "我觉得从心理层面看，这在我们的很多对话里也很明显：那些缺乏“自己真在战壕里打拼、真造出过具体东西”这种心态的人，"
+    },
+    {
+      "i": 41,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "08:19",
+      "en": "They might be sort of more inclined to go that route. That's that's my take. Not not the psychiatrist or psychologist, but just the thought that came to mind when speaking about this.",
+      "zh": "可能更容易走上那条路。这是我的看法。我不是精神病医生也不是心理学家，只是聊到这个时冒出来的想法。"
+    },
+    {
+      "i": 42,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "08:31",
+      "en": "That I think is a fantastic entree to what what you are doing today with frame. But I don't want to I don't want to skip over your experience doing direct investing and also working with the Swiss insurer, because I think that gives great context for how you're approaching your own fund of funds.",
+      "zh": "我觉得这是对你今天在 Firm 所做的事情的一个绝佳引子。但我不想跳过你做直接投资、以及在瑞士那家保险公司工作的经历，因为我觉得那为你现在做自己的基金中的基金（fund of funds）提供了很好的背景。"
+    },
+    {
+      "i": 43,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "08:51",
+      "en": "So yeah, my entry into venture, of course, through slush was was then in Finland, so something quite quite local. I worked for NGP, which is the Nokia fund.",
+      "zh": "好，我进入风投，当然是通过 Slush，那是在芬兰，算是相当本地化的起点。我在 NGP 工作，也就是 Nokia 的基金。"
+    },
+    {
+      "i": 44,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "09:01",
+      "en": "We had offices all over the world, but Nokia was the only single LP, a very sort of at least stated to not be a CVC, but a financial investor.",
+      "zh": "我们在全球各地都有办公室，但 Nokia 是唯一的一个 LP，而且至少对外宣称自己不是 CVC（企业风险投资），而是一个财务投资人。"
+    },
+    {
+      "i": 45,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "09:09",
+      "en": "And of course, it showed you a little bit about that corporate strategic in the mirror of how we actually invest, then the first sort of, let's say real job after university then was was at a, let's say a smaller tempo driven early stage fund was that we've established a year prior.",
+      "zh": "当然，它也让你多少看到了那种企业战略视角，映射到我们实际的投资方式上。之后，大学毕业后的第一份“真正的工作”，是在一家规模较小、节奏驱动的早期基金——那是我们前一年刚设立的。"
+    },
+    {
+      "i": 46,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "09:23",
+      "en": "Much of the LP base was high net worth individuals, but also state backed as many funds, of course, in Europe are and will probably spend a few minutes talking about today as well.",
+      "zh": "它的 LP 群体很多是高净值个人，但也有国家背景的资金——就像欧洲很多基金一样，这点我今天大概也会花几分钟聊聊。"
+    },
+    {
+      "i": 47,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "09:33",
+      "en": "The tempo there was very different. That was a fund that came from a background of having having run an angel collective. And those angels also ended up as LP.",
+      "zh": "那里的节奏非常不同。那只基金的背景是运营过一个天使投资人集体（angel collective），而这些天使最后也成了 LP。"
+    },
+    {
+      "i": 48,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "09:40",
+      "en": "So it was intertwined in a very sort of active manner. Those LPs were very much involved. They ended up investing in some companies that we didn't, which were actually pretty good in hindsight, some of the names that you know of.",
+      "zh": "所以两者以一种非常活跃的方式交织在一起。那些 LP 深度参与，他们甚至投了一些我们没投的公司，事后看其实相当不错，其中有些名字你也知道。"
+    },
+    {
+      "i": 49,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "09:53",
+      "en": "And luckily we've got some slices into those companies as well through those checks. So it was really eye opening experience. And then on the other side, then the latest fund that I worked for had sent a single LP once again, but this time it was a it was an insurer.",
+      "zh": "幸运的是，我们也通过这些份额分到了一些那些公司的股份。所以那真是一次大开眼界的经历。而另一边，我最近工作的那只基金，又是单一 LP，只不过这次是一家保险公司。"
+    },
+    {
+      "i": 50,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "10:07",
+      "en": "So if you think about conservative, you obviously think about Switzerland and Swiss insurance. So that was very much the case. Nonetheless, we sort of ended up being able to do whatever we wanted.",
+      "zh": "说到保守，你自然会想到瑞士和瑞士的保险业。事实确实如此。尽管如此，我们当时基本上还是能为所欲为。"
+    },
+    {
+      "i": 51,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "10:18",
+      "en": "But then with a new chairman, new CEO, that started to shift again a little bit, which then of course for us ended the decision to start thinking about new things and then sort of this idea of a fund of fund reemerged from earlier conversations that my two colleagues had had already back when I was a free slush in 2018.",
+      "zh": "但后来换了新董事长、新 CEO，情况又开始有点转变，于是对我们来说，这就促使我们去思考新的方向，随后“基金中的基金”这个想法，从我两位同事早在 2018 年我在 Slush 做自由人时就有过的对话里重新浮现出来。"
+    },
+    {
+      "i": 52,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "10:37",
+      "en": "So they sort of emerged together once again to discuss this opportunity of a fund of fund with the learnings that all of us had from before.",
+      "zh": "所以他们又一起出现，凭借我们所有人此前积累的经验，来讨论基金中的基金这个机会。"
+    },
+    {
+      "i": 53,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "10:45",
+      "en": "We spoke about this in our pre-conversation, and we've had other guests talk about this who are also based in Europe on just kind of what the gap is within the ecosystems compared to the US.",
+      "zh": "我们在事前沟通里聊过这个，之前也有其他同样在欧洲的嘉宾谈过，就是欧洲各生态系统相比美国到底差在哪儿。"
+    },
+    {
+      "i": 54,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "11:00",
+      "en": "And it seems like the dominant narrative is that Europe simply needs to put more euros into the asset class to kind of fill that gap. What's your take on that?",
+      "zh": "而主流叙事似乎是，欧洲只需要往这个资产类别里投更多欧元，就能补上这个缺口。你怎么看？"
+    },
+    {
+      "i": 55,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "11:14",
+      "en": "Yeah, so my take quite simply is just it's a quality versus quantity problem. And many, I'd say the conversation very easy goes to the large headlight figures.",
+      "zh": "是啊，我的看法很简单：这是一个质量对数量的问题。而且我觉得，讨论很容易就滑向那些大而显眼的数字。"
+    },
+    {
+      "i": 56,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "11:29",
+      "en": "And of course, if you think about excesses, think about large companies who run a completely different level to the US, and we're always in competition.",
+      "zh": "当然，一想到“超额”，就会想到那些体量完全不在一个量级上的美国大公司，而我们总是在竞争。"
+    },
+    {
+      "i": 57,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "11:35",
+      "en": "We think about what's the new Silicon Valley, and in the Nordics, we talk about Silicon Valhalla as one idea and stuff like this, which is funny, but we always compete.",
+      "zh": "我们会想“新的 Silicon Valley 在哪儿”，在北欧我们还讲什么“Silicon Valhalla”之类的说法，挺好玩的，但我们始终在竞争。"
+    },
+    {
+      "i": 58,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "11:46",
+      "en": "But as I said, it's more of a quality issue, it's more of a misallocation problem as well. So in Europe, as I said, much of the incentives are driven by those state owned or state backed entities who drive those incentives away from performance simply.",
+      "zh": "但正如我说的，这更多是质量问题，也是错配（misallocation）问题。所以在欧洲，就像我说的，很多激励都由那些国有或国家背景的机构驱动，而这些激励恰恰偏离了业绩本身。"
+    },
+    {
+      "i": 59,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "12:01",
+      "en": "So in my way, it's sort of the same as thinking about bridge runs, which tend to be bridges to nothing. In my sense, many of these endeavors that we're doing in Europe is just throwing sort of good money after bad and misallocating that in a lovely way that everybody gets the chance to try doing venture.",
+      "zh": "在我看来，这就有点像那些“通往虚无之桥”。我觉得我们在欧洲做的很多事情，不过是在把好钱往坏钱里扔，以一种“皆大欢喜”的方式错配资本，让人人都有机会去试试做风投。"
+    },
+    {
+      "i": 60,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "12:19",
+      "en": "But for me, it's not really what sort of the capital part of venture or even the venture part of venture capital should be about. So my take is always that there should be a better way to allocate that capital, especially into the early stages.",
+      "zh": "但对我来说，这并不是风投里“资本”那部分、甚至“风险”那部分本该追求的东西。所以我的看法始终是：应该有更好的方式来配置这些资本，尤其是投到早期阶段。"
+    },
+    {
+      "i": 61,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "12:32",
+      "en": "So not only do we have a growth capital gap, but actually it starts at the early stages. So angel capital in Europe is roughly 20x lower than in the US.",
+      "zh": "所以我们不仅有成长期资本的缺口，实际上问题从早期就开始了。欧洲的天使资本大约比美国低 20 倍。"
+    },
+    {
+      "i": 62,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "12:42",
+      "en": "Pre-C it is roughly 10 or 13x lower in the US. So of course, from a funnel perspective, it just leads to less growth opportunities. And then there's a completely different thing that then from a competitive standpoint, it's still the US funds, it's the US LPs who even fund the exciting European funds.",
+      "zh": "到了 Pre-C（早期）阶段，欧洲大约比美国低 10 到 13 倍。所以从漏斗角度看，这直接导致成长机会更少。而另一件完全不同的事是，从竞争角度看，即便是那些激动人心的欧洲基金，出资的仍然是美国的基金、美国的 LP。"
+    },
+    {
+      "i": 63,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "13:01",
+      "en": "So all of those things are then driven from a competitive dynamic standpoint towards the US. So there's a few things that are happening there, but maybe the quality aspect is the first.",
+      "zh": "所以从竞争格局来看，所有这些都被推向美国。那边确实在发生一些事情，但也许质量问题才是第一位的。"
+    },
+    {
+      "i": 64,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "13:12",
+      "en": "No, it's fascinating if they have the sort of perspective of sitting in like one of the bigger conglomerates of Finland as well as the Swiss insurance.",
+      "zh": "不，这真的很吸引人——你既有在芬兰大型集团之一任职的视角，也有瑞士保险公司的视角。"
+    },
+    {
+      "i": 65,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "13:25",
+      "en": "So these are the behemoth organizations that innovation, besides government, that can really be supporting innovation, I was blown away by the stat that you shared that, I mean, it makes sense.",
+      "zh": "这些是除政府之外、真正能支撑创新的巨无霸机构。你分享的那个数据让我很震撼，我是说，这也说得通。"
+    },
+    {
+      "i": 66,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "13:39",
+      "en": "Swiss banks have 10 trillion in client assets and roughly 25% of global cross-border private wealth. So for now, why is it that it's the corporates and government that are more participatory as opposed to this private wealth?",
+      "zh": "瑞士的银行持有 10 万亿美元的客户资产，约占全球跨境私人财富的 25%。那么到目前为止，为什么更积极参与的是企业和政府，而不是这些私人财富？"
+    },
+    {
+      "i": 67,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "13:58",
+      "en": "Yeah, for sure. Of course, to generalize what we're doing here, to not piece everybody off, I would say that it's much about culture in many ways.",
+      "zh": "是啊，当然。为了不惹恼任何人，先给我们要做的事做个概括的话，我会说这在很大程度上关乎文化。"
+    },
+    {
+      "i": 68,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "14:08",
+      "en": "So if you think about the Swiss market, what it's doing is working perfectly. So the clients of these wealth management companies and the banks, what they look for in Switzerland, of course, is capital preservation, is the sort of conservative mindset of just safeguarding assets in many ways.",
+      "zh": "想想瑞士市场，它运转得非常完美。这些财富管理学院和银行的客户，在瑞士寻求的当然是资本保全，是那种在很多方面只是守护资产的保守心态。"
+    },
+    {
+      "i": 69,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "14:24",
+      "en": "And usually what they then do is then the incentive is to do that. You have an endowment model for your family office and you're focused on that pretty much.",
+      "zh": "所以他们通常的做法、他们的激励，就是去做那件事：为你的家族办公室套用一套捐赠基金（endowment）模式，然后基本就专注于此。"
+    },
+    {
+      "i": 70,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "14:32",
+      "en": "So it's once again, it's an incentive issue from our perspective who are in the market of tech and innovation, but for their perspective, they're getting what they're wanting to get.",
+      "zh": "所以这又是个激励问题——从我们这些身处科技与创新市场的人的角度看是这样，但从他们的角度看，他们得到的正是他们想要的。"
+    },
+    {
+      "i": 71,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "14:43",
+      "en": "But of course, that's changing. There are a lot of new endeavors in Switzerland and of course, broadly in Europe as well, more on the ground level side, but also from the government to start supporting the opportunity for pension funds to start investing more actively in Europe.",
+      "zh": "但当然，这正在改变。瑞士出现了很多新的尝试，广义上整个欧洲也是，既有民间层面的，也有政府层面开始支持养老金基金更积极地投资欧洲的机会。"
+    },
+    {
+      "i": 72,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "14:59",
+      "en": "That's a huge issue specifically in Germany, but also slightly in Switzerland. So there are endeavors that are taking place for sure, but still something that I think boils down to culture, where still we are years and years behind and many waves behind the U.S. in terms of venture financing, even though we have the old patrons of society from the Renaissance times who have been technically venture investors since hundreds",
+      "zh": "这在德国尤其是个大问题，在瑞士也略有。所以确实有不少尝试在推进，但我认为归根结底还是文化问题——在风险融资上，我们仍然落后美国很多年、很多个浪潮，尽管从文艺复兴时期起，我们就有那些社会的老赞助人，几百年来其实一直是风险投资人，"
+    },
+    {
+      "i": 73,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "15:26",
+      "en": "of years, but that sort of hasn't really trickled down into modern times. When we look at European venture today and how it's structured, which incentives do you think are actually being rewarded and what behavior do those incentives actually naturally produce?",
+      "zh": "但这种传统似乎并没有真正流传到现代。当我们审视今天的欧洲风投、它是如何构建的，你觉得哪些激励实际上正在被奖励，这些激励又自然催生出什么样的行为？"
+    },
+    {
+      "i": 74,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "15:45",
+      "en": "Yeah. I think it once again comes back to it, if governments essentially are 40% of the capital backing these funds, and in many ways also, of course, private companies through grants and other direct measures as well, it's pretty evident that whatever the governments are interested in, which usually it's policy, it's employment, sometimes it's some completely different aspects as well, then of course the incentives are going to be driven towards",
+      "zh": "是啊。我觉得这又回到那个点：如果政府实质上占了这些基金背后资本的 40%，而且很多情况下还包括私营企业通过拨款和其他直接措施出资，那么很显然，政府感兴趣的东西——通常是政策、就业，有时也是完全不同的方面——激励自然就会被推向"
+    },
+    {
+      "i": 75,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "16:12",
+      "en": "that. So of course, for a very long time and slush, we were thinking about these things very strongly and I already mentioned that about decarbonization, sustainability, so those who are driving forces behind what, for example, the EIF wanted you to do, and of course, that then led many funds to try to form a thesis around that, to fit that narrative.",
+      "zh": "那个方向。所以在 Slush，我们很长时间都在强烈地思考这些问题，我前面提到过脱碳、可持续性——这些正是比如 EIF（European Investment Fund，欧洲投资基金）希望你去做的事背后的驱动力，当然，这就导致很多基金试图围绕它形成一个论点，去贴合那个叙事。"
+    },
+    {
+      "i": 76,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "16:33",
+      "en": "And of course, it also leads you to be quite focused on a specific geography very often if you have a regional backer. So those are incentives that sort of, in my mind, tend to be quite misaligned towards performance.",
+      "zh": "当然，如果你有一个区域性的出资方，这也常常让你非常专注于某个特定地域。所以在我看来，这些激励往往与业绩相当错位。"
+    },
+    {
+      "i": 77,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "16:45",
+      "en": "But once again, what you learn from all these cases is, and many of the guests on your podcast have spoken about it as well, is that there are pretty much as many incentives as there are investors.",
+      "zh": "但再一次，从所有这些案例里你学到的是——你节目里的很多嘉宾也谈过——有多少个投资人，基本上就有多少种激励。"
+    },
+    {
+      "i": 78,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "16:55",
+      "en": "The family office has got completely different incentives, same thing for different regional backers as well. But for me, that's very clearly the case, is that it's very often that you don't focus on performance or on actually building up sort of from the ground up a functional system of supporting as many entrepreneurs as possible, doing sort of the stuff that Europeans are great at, which is sort of deep and very hard scientific work.",
+      "zh": "家族办公室的激励完全不同，不同的区域出资方也是如此。但对我来说很清楚的一点是：很多时候你并不专注于业绩，也不专注于从零开始搭建一个能真正支撑尽可能多创业者的、运转良好的系统，去做欧洲人擅长的事——也就是那种深入、非常硬核的科学工作。"
+    },
+    {
+      "i": 79,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "17:21",
+      "en": "And that's something that's lacking a little bit, commercializing that this is what, in my mind, of course, we could do a bit better in Europe.",
+      "zh": "而这恰恰是有点欠缺的地方：把它商业化。这就是在我看来欧洲本可以做得更好的地方。"
+    },
+    {
+      "i": 80,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "17:28",
+      "en": "What are some of those themes that are high priority today? Like I'm hearing these defense, obviously, and cybersecurity. Can you give us a little perspective of where capital is eager to go today in Europe?",
+      "zh": "今天有哪些高优先级的主题？我听到的是国防，显然，还有网络安全。你能不能给我们讲讲，如今在欧洲，资本最渴望流向哪里？"
+    },
+    {
+      "i": 81,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "17:47",
+      "en": "I think the framing was perfect, so where capital is eager to go, I think there's sort of the invisible hand of the market theory in this is that capital will always find a way to be used.",
+      "zh": "我觉得你这个提法非常到位——“资本渴望流向哪里”。这里有种市场“看不见的手”的理论：资本总会找到被用出去的办法。"
+    },
+    {
+      "i": 82,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "17:59",
+      "en": "And as much of it wants to flow into these sections where it can be used, and that's also sort of from a broad perspective, why, you know, foundational models are called frontier because they're on the frontier, they need to change, they need to renew, they need to create new things, not just the foundational layer.",
+      "zh": "而其中很大一部分想流入那些能被用起来的领域。从广义上说，这也是为什么基础模型（foundational models）被称为“前沿”（frontier）——因为它们处在前沿，需要改变、需要更新、需要创造新东西，而不只是那个基础层。"
+    },
+    {
+      "i": 83,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "18:14",
+      "en": "So frontier is something that needs more capital than the foundation. And that also you can see sort of in Europe in many ways, not that much on sort of the model or AI website, we have a couple of companies there for sure, we have, you know, devoured quite a bit of capital, but for sure it's all about European resilience.",
+      "zh": "所以“前沿”比“基础”需要更多资本。这一点你在欧洲也能从很多方面看到，倒不是在模型或 AI 网站层面——我们那儿当然也有几家公司，吞掉了不少资本——但更重要的是围绕欧洲的韧性（resilience）。"
+    },
+    {
+      "i": 84,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "18:30",
+      "en": "So that's something that sort of was sparked, of course, by the war in Ukraine, but even more so now when Trump came back to office and we sort of connectedly lost our minds on both sides of the ocean to us having to do something about that, whether it's sort of from a structural perspective, sort of re reshoring industrial capacity to Europe, or then of course, sort of the last resort of defence as well.",
+      "zh": "这当然是由乌克兰战争点燃的，但更甚的是当 Trump 重新上台，我们大西洋两岸几乎同时“清醒”过来，意识到必须为此做点什么——不管是从结构性角度把工业产能回迁（reshoring）到欧洲，还是国防这个最后的手段。"
+    },
+    {
+      "i": 85,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "18:57",
+      "en": "So that's clearly where it's going. So many times what we see and those managers that we're talking to nowadays as well, they used to be sustainability investors, now they invest in weapons, which is quite fun, or funny to see, of course.",
+      "zh": "所以这显然是资本的去向。很多时候我们看到、以及如今我们接触的那些管理人，他们过去是做可持续投资的，现在改投武器了，这看着还挺有趣，或者说挺搞笑的。"
+    },
+    {
+      "i": 86,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "19:11",
+      "en": "But that's honestly how it is, like that is a day to day thing, and that's something that EIF is affording, and once again, it's good that they do, but it's just very clear that the narrative shifts in very strongly, and that's where we are right now in the market.",
+      "zh": "但老实说事实就是如此，这是每天都在发生的事，也是 EIF 正在出钱支持的方向。同样，他们这么做是好事，只是很明显叙事转变非常剧烈，而这正是我们当下在市场中所处的位置。"
+    },
+    {
+      "i": 87,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "19:24",
+      "en": "Speaking of fund managers, your firm's website says that you back next-gen managers who operate at the esoteric edge. What does that actually mean, Henrik, and how do you underwrite it?",
+      "zh": "说到基金管理人，你们 Firm 的官网上写着，你们支持那些在“冷门前沿”（esoteric edge）运作的新一代管理人。这到底是什么意思，Henrik？你们又是怎么去甄别和承保（underwrite）的？"
+    },
+    {
+      "i": 88,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "19:42",
+      "en": "That's a wonderful question. My colleagues asked that as well when I wrote it, and we agreed that we liked the sound of it. But nonetheless, what we think about with that is that in many ways, how we as a group operate, everybody talks about consensus, these consensus that, and for us, what we're very excited about is people who can teach us something new.",
+      "zh": "这问题问得妙。我写这句话的时候，同事们也问过，我们一致认为喜欢它听起来的感觉。不过话说回来，我们的想法是：在很多方面，作为一个团队我们如何运作——人人都在谈共识（consensus），这个那个共识——而对我们来说，真正让我们兴奋的是那些能教给我们新东西的人。"
+    },
+    {
+      "i": 89,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "20:02",
+      "en": "So we're very, very open, open to be stupid in conversations we want to be. We want to learn something new anytime we meet people. And very often, as we discussed, you hear the same pitch over and over again.",
+      "zh": "所以我们非常、非常开放，愿意在对话中显得无知。每次见人，我们都想学到新东西。而正如我们聊过的，你往往一遍又一遍听到同样的推介（pitch）。"
+    },
+    {
+      "i": 90,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "20:15",
+      "en": "So we are very eager to meet managers who actually think about venture from a new perspective, hence also the type of archetypes we're looking at, we're quite open to meeting these sort of non-traditional investors who we probably will discuss very soon.",
+      "zh": "所以我们特别渴望见到那些真正从全新视角思考风投的管理人，这也是为什么我们关注的那类“原型”（archetypes）——我们很乐意去见这些非传统的投资人，我们很快会详细聊到。"
+    },
+    {
+      "i": 91,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "20:29",
+      "en": "But for us, something, sort of a mindset which is interesting in JT from Hydra, formerly at Andreessen, he has this quote about either investing in people who are in the flow or at the edge.",
+      "zh": "但对我们来说，有一种很有意思的心态，来自 Hydra 的 JT（他之前在 Andreessen），他有这么个说法：要么投那些身处“潮流之中”（in the flow）的人，要么投那些处在“边缘”（at the edge）的人。"
+    },
+    {
+      "i": 92,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "20:41",
+      "en": "And in portfolio construction, you need both. For us, we need both because we're very, very excited about those managers who operate in areas where they have a very unique insight groups that are maybe more illegible, which is very much the case in Europe.",
+      "zh": "而在组合构建里，你两者都需要。对我们来说也是如此，因为我们对那些在拥有独特洞察的领域运作的管理人非常兴奋——那些也许更“难以读懂”（illegible）的群体，这在欧洲尤其普遍。"
+    },
+    {
+      "i": 93,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "20:58",
+      "en": "Europe has so many different markets and so many talent clusters, which are completely invisible for outside sort of multi-platforms and so forth.",
+      "zh": "欧洲有如此多不同的市场、如此多的人才集群，而这些对于外部的多平台之类来说完全是隐形的。"
+    },
+    {
+      "i": 94,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "21:06",
+      "en": "And that's sort of where we want to fish. So those are the funds that we like to look at quite actively. Kudos for making us Google a word. One was the last time I looked something up in the dictionary.",
+      "zh": "而那正是我们想去“垂钓”的地方，所以那些就是我们非常积极去关注的基金。真得夸一下，你让我们去 Google 查了个词——那是我上次查字典都不知道是什么时候了。"
+    },
+    {
+      "i": 95,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "21:19",
+      "en": "So thank you, Henry. This community catalyst language that you use, how can you tell the difference between sort of like performative community and what you're really looking for?",
+      "zh": "所以谢谢你，Henrik。你用的这个“社区催化剂”（community catalyst）的说法，你怎么区分那种表演性的社区和你真正想找的东西？"
+    },
+    {
+      "i": 96,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "21:32",
+      "en": "Absolutely. That's a great question. I would say it's authenticity in many ways. So when we look at it once again, as you'll notice already, I'm one for quotes.",
+      "zh": "当然，这是个好问题。我会说，关键在于真实性（authenticity）。当你去看的时候——你大概已经注意到，我这人特别爱引用金句。"
+    },
+    {
+      "i": 97,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "21:43",
+      "en": "It makes a simple-minded person like me remember things better. So community catalyst is one of those things. People who actively have started building community and then sort of the investment part came as a bonus.",
+      "zh": "这能让我这种头脑简单的人记得更牢。“社区催化剂”就是这类说法之一：指那些主动开始搭建社区的人，然后投资那部分算是附带的红利。"
+    },
+    {
+      "i": 98,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "21:55",
+      "en": "So they build trust from the get-go. They might have spent years convening up people around a certain topic, a certain geography as is very often the case in Europe.",
+      "zh": "所以他们从一开始就建立起信任。他们可能花了好几年时间，围绕某个特定话题、某个特定地域把人聚起来——这在欧洲非常常见。"
+    },
+    {
+      "i": 99,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "22:04",
+      "en": "It's a completely fragmented market. For us, that's actually a feature and not a bug in the European system. Once again, while we like that.",
+      "zh": "这是一个完全碎片化的市场。对我们来说，这其实是欧洲体系的一个“特性”而非“缺陷”。再一次，我们很喜欢这一点。"
+    },
+    {
+      "i": 100,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "22:12",
+      "en": "And that is for me, the big part is that much of entry is always about chasing. And that was what I was doing also a lot when, of course, I was a junior direct investor just chasing deals, going through LinkedIn and just trying to find things instead of trying to attract.",
+      "zh": "而对我来说，很重要的一点是：很多入局者总是在追逐。这也是我自己做初级直接投资人时干过的事——只顾着追项目，翻 LinkedIn 到处找，而不是想办法去吸引。"
+    },
+    {
+      "i": 101,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "22:27",
+      "en": "And that's one of the learnings that I have now also on the LP side strongly with the conversation that we have with managers who have done this.",
+      "zh": "这也是我现在站在 LP 一方学到的一点，尤其是通过我们与那些真正做到这点的管理人的对话。"
+    },
+    {
+      "i": 102,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "22:34",
+      "en": "And this sort of came through having those conversations with those types of people. And that's one thing that we're starting to see very strongly.",
+      "zh": "而这正是通过与那类人对话得出的。这也是我们开始非常强烈看到的一点。"
+    },
+    {
+      "i": 103,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "22:41",
+      "en": "So maybe sort of to add to that, maybe already jumping the ship and we can take this again. But the archetype, so we look at, of course, the problem with the spin out is that you're always competing against the brand that you left.",
+      "zh": "所以，也许补充一点——可能有点跳 ahead 了，我们可以再回来。但那种“原型”，我们当然会看。spin out（分拆出来）的问题在于，你永远在跟你离开的那个品牌竞争。"
+    },
+    {
+      "i": 104,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "22:52",
+      "en": "So that's always the competition that you have. If you're a builder, an operator, you're always sort of have the tattoo of the company that you built or helped build on you all the time.",
+      "zh": "所以那永远是你的竞争对手。如果你是建设者、是运营者，你身上就一直带着你打造或参与打造的那家公司的“烙印”。"
+    },
+    {
+      "i": 105,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "23:01",
+      "en": "And these sort of non-traditional managers who have built communities who are specialists necessarily don't come from those two buckets, they're sort of unmarked in a way.",
+      "zh": "而这些搭建了社区的非传统管理人、这些专家，未必来自那两个类别，某种意义上他们是“没有烙印”（unmarked）的。"
+    },
+    {
+      "i": 106,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "23:10",
+      "en": "And they have the opportunity to sort of be authentically themselves and not sort of, how do you say, baggageed by the legacy of what they've done before, whether it would be as successful as anything.",
+      "zh": "他们有机会真实地做自己，而不被——怎么说呢——被过去的 legacy 所拖累，不管那过去有多成功。"
+    },
+    {
+      "i": 107,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "23:21",
+      "en": "So that's sort of how we view those things about community and archetypes in many ways. Now we're going to take a quick break to speak with our sponsor.",
+      "zh": "所以在很多方面，这就是我们看待社区和这些“原型”的方式。好，我们先快速休息一段，去和我们的赞助商聊聊。"
+    },
+    {
+      "i": 108,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "23:30",
+      "en": "What's an issue you've been helping a founder client with lately? Good question. So there's a few, I'll give you kind of two that are popping up all the time.",
+      "zh": "最近你在帮一位创始人客户处理什么难题？好问题。有好几个，我给你讲两个最近总冒出来的。"
+    },
+    {
+      "i": 109,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "23:45",
+      "en": "So I would say one that comes up quite a lot for me lately, interestingly enough, even though I'm not an employment lawyer, although we have a very exciting employment law group, is the kind of a disagreement or separation of one of the founders and the company.",
+      "zh": "我会说，最近我这边经常出现的一个，说来有趣，尽管我不是劳动法专业律师——尽管我们有一个非常出色的劳动法团队——是某位创始人与公司之间的分歧或分离。"
+    },
+    {
+      "i": 110,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "24:03",
+      "en": "And this has been happening earlier and earlier in the lives of companies, and frankly has gotten to a point where I now tell clients that when they're raising their first round, they say, hey, is it a problem that we've had this third co-founder that's not with us anymore?",
+      "zh": "而且这种事在公司生命周期的越来越早阶段发生，坦白说已经到了这种地步：现在我告诉客户，当他们在融第一轮时，如果说“嘿，我们曾有过第三位联合创始人，现在已经不在了，这会有问题吗？”"
+    },
+    {
+      "i": 111,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "24:17",
+      "en": "And the answer is, no, actually, this happens all the time now. And I don't think that your investors are going to care particularly about the fact that third investor is not here as long as it was handled correctly with advice of counsel and negotiated appropriately.",
+      "zh": "答案是：不，其实这现在太常见了。我不认为你的投资人会特别在意第三位创始人不在了这件事，只要它处理得当、有法律顾问的建议、并且经过了适当谈判。"
+    },
+    {
+      "i": 112,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "24:30",
+      "en": "Our employment law group is working with me very closely. Rebecca who's been on some of your podcasts, you know, is probably getting tired of phone calls from me, but it's a very kind of busy potent area lately, and I've been guiding a lot of companies through that, and sometimes, you know, with the board involvement.",
+      "zh": "我们的劳动法团队和我配合得非常紧密。Rebecca——她上过你们的一些播客——大概已经接我电话接到烦了，但这最近是个非常忙碌、非常棘手的领域，我一直在指导很多公司走过这个过程，有时还涉及董事会参与。"
+    },
+    {
+      "i": 113,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "24:50",
+      "en": "And the other one I'll give you a real quick one is, you know, these days, AI and data is all the rage, so I am involved in so many discussions about licensing, selling, transferring data between companies, AI labs, vice versa, or AI labs and other AI labs, and, you know, all the exciting issues that come with that, data privacy, you know, commercial considerations and definitions, and so on that, you know, we get in the weeds on.",
+      "zh": "另一个我快速说一下：如今 AI 和数据正当红，所以我参与了大量关于在公司之间、AI 实验室之间、或 AI 实验室与其他 AI 实验室之间授权、出售、转让数据的讨论，以及随之而来的所有激动人心的问题——数据隐私、商业考量与定义等等，我们都要深入细节去抠。"
+    },
+    {
+      "i": 114,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "25:24",
+      "en": "And you, at Sidley, are a liaison of AI internally, I understand. In the AI era, has that changed how you're working? Absolutely. It has, it's really transformed the way I am working in the kind of minutiae of day to day.",
+      "zh": "而我了解到，你在 Sidley 内部是 AI 的联络负责人。在 AI 时代，这是否改变了你的工作方式？绝对改变了。它真的彻底改变了我日常工作的细枝末节。"
+    },
+    {
+      "i": 115,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "25:41",
+      "en": "So, you know, I tell my clients when I, you know, theoretically boot up my computer every morning, although I never turn it off, the two things, the two apps that I open immediately are my Outlook and then ChatGPT.",
+      "zh": "所以，你懂的，我告诉客户，虽然我理论上每天早上开机——其实我从不关机——我会立刻打开的两个应用，一个是 Outlook，另一个就是 ChatGPT。"
+    },
+    {
+      "i": 116,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "25:54",
+      "en": "I now, by the way, you know, we kind of go back and forth, Claude, ChatGPT and other tools, so we're not, you know, we're agnostic to the tools, whichever one's better.",
+      "zh": "顺便说，我们现在会在 Claude、ChatGPT 和其他工具之间来回切换，所以我们不偏袒任何工具，哪个好用用哪个。"
+    },
+    {
+      "i": 117,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "26:03",
+      "en": "But the idea is that, you know, from the first minute that I log in, it is there as, you know, an assistant to what I do. It is empowering me.",
+      "zh": "但关键在于，从我登录的第一分钟起，它就在那里，作为我工作的助手。它在给我赋能。"
+    },
+    {
+      "i": 118,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "26:14",
+      "en": "I am able to do what used to take, you know, five billable hours in maybe five minutes now. Incredible. It is, it is absolutely incredible, so I'm able to do more work that way.",
+      "zh": "过去要花五个小时计费工作量的事，现在我大概五分钟就能做完。太不可思议了。确实，绝对不可思议，所以我能以此完成更多工作。"
+    },
+    {
+      "i": 119,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "26:28",
+      "en": "At the same time, you know, it has not taken away any of what I think is my value add, which is the experience, the human touch, the practicality, and being able to guide a client through a very sophisticated, you know, transaction, you know, negotiation and so on.",
+      "zh": "与此同时，它并没有夺走任何我认为属于我增值价值的东西——也就是经验、人性化的触感、务实，以及能够引导客户完成一笔非常复杂的交易、谈判等等的能力。"
+    },
+    {
+      "i": 120,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "26:47",
+      "en": "What has taken away is, hey, you know, I go to a board meeting now, I have an agent that drafts my board minutes, I can send those right after the board meeting, I don't need to ask an associate, I don't need to worry about the time that it takes them, I don't need to worry about writing off that time on the bill.",
+      "zh": "它拿走的，是嘿，比如我现在去参加董事会，我有一个 agent 帮我起草董事会会议纪要，会后我就能直接发出去，不用去麻烦一位 associate，不用担心他要花多少时间，也不用担心把那段工时从账单上核销掉。"
+    },
+    {
+      "i": 121,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "27:02",
+      "en": "So all of that stuff, frankly, you know, and this is the interesting part that we hear from clients is they say, well, you know, you guys have all this AI, and how come, you know, your profits are still so, so healthy and illegal industry and the answer is because we can actually do a lot more.",
+      "zh": "所以所有这些，坦白讲——这也是我们从客户那里听到的有意思之处——他们说：“你们有这么多 AI，怎么你们的利润在法律行业里还这么健康？”答案是：因为我们实际上能做更多的事。"
+    },
+    {
+      "i": 122,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "27:18",
+      "en": "But on an individual basis, we're able to do things quicker and more efficiently and we see that and we are, you know, working hard to communicate to clients that they can see the kind of cost savings passed on to them.",
+      "zh": "而且从个人层面，我们能更快、更高效地做事，我们看到了这一点，也在努力向客户传达：他们能看到那种成本节约被传递给他们。"
+    },
+    {
+      "i": 123,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "27:31",
+      "en": "Yeah. You're getting mic plus. And now back to our LP interview. I love that framing of, you know, being marked or unmarked or how close are you to that brand and how much have you built yourself.",
+      "zh": "好，现在回到我们的 LP 访谈。我很喜欢这种“被标记”或“未被标记”的说法——也就是你离那个品牌有多近、你自己又亲手打造了多少。"
+    },
+    {
+      "i": 124,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "27:49",
+      "en": "But this idea of building community and being nodes in the ecosystem is not new and we're starting to see more and more people with podcasts as you talk on a podcast right now.",
+      "zh": "但“搭建社区、成为生态系统里的节点”这个理念并不新鲜，而且我们看到越来越多的人做播客——就像你现在正在上播客一样。"
+    },
+    {
+      "i": 125,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "28:02",
+      "en": "What are you looking for? What have you seen? That's a kind of fresh approach to community building that allows fund managers to become more founder magnets or just, you know, community or just I should say industry thought leaders.",
+      "zh": "你在寻找什么？你见到过哪些——那种新颖的社区搭建方式，能让基金管理人变成更吸引创始人的“磁铁”，或者干脆说成为社区、或者说行业的思想领袖（thought leaders）？"
+    },
+    {
+      "i": 126,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "28:23",
+      "en": "So I would say they're sort of the macro idea of this is IRL, sort of AI can never be IRL. Just COVID, people want to meet, people want to go to run clubs and people, you know, on the venture side are of course also following this trend to meet people in real life.",
+      "zh": "我会说，宏观上的核心理念是 IRL（线下真实见面）——AI 永远无法替代 IRL。就像疫情之后，人们想见面、想去参加跑步俱乐部，而在风投这一侧，大家当然也在追随这个趋势，去现实中与人相见。"
+    },
+    {
+      "i": 127,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "28:38",
+      "en": "So events once again, slush is a part of that, but we a lot of the managers that we think about that spend time with and we like thoroughly, they're trying to build something very specific for a community that doesn't exist.",
+      "zh": "所以又是活动这一块，Slush 是其中一部分，但我们花很多时间相处、也非常喜欢的那些管理人，他们在试图为一个尚不存在的社群，打造一些非常具体的东西。"
+    },
+    {
+      "i": 128,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "28:49",
+      "en": "I don't know if you allow shout outs, but but in Europe we have we have several very interesting people have built sort of community ground up, you know, whether it's for operators who work in European high growth startups, you know, the founders always have their community of other founders.",
+      "zh": "不知道你们允不允许点名致意，但在欧洲，我们有好几位非常有意思的人，从零搭建起了社区——不管是为在欧洲高增长创业公司里工作的运营者，你知道，创始人总有他们自己的创始人社区。"
+    },
+    {
+      "i": 129,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "29:04",
+      "en": "Let's say the juniors still are our students, investors have their own communities, but sort of the middle layer, non executive layer of operators really didn't have something.",
+      "zh": "可以说，初级的人还是学生，投资人有他们自己的社区，但那个中间层、非高管层的运营者，其实一直没有属于自己的东西。"
+    },
+    {
+      "i": 130,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "29:14",
+      "en": "My former slush colleague ended up creating something which now actually is a fund, which is very interesting. There's one one gentleman who's building a really interesting community with sort of a taboo concept, which which is also very interesting also from an investment perspective.",
+      "zh": "我的一位 Slush 前同事最后创造了一个东西，如今它实际上已经成了一只基金，非常有意思。还有一位先生，在打造一个非常有意思的社区，围绕一个“禁忌”概念，从投资角度看也很有意思。"
+    },
+    {
+      "i": 131,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "29:28",
+      "en": "So he's built a community for post Soviet founders. So people all around the world who hail from sort of the post Soviet block of the world, very often Russians that moved away from Russia several years ago or later.",
+      "zh": "他为后苏联（post-Soviet）创始人搭建了一个社区。也就是来自世界各地、出身于后苏联阵营的人，很多时候是几年前或更晚从俄罗斯移居出来的人。"
+    },
+    {
+      "i": 132,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "29:42",
+      "en": "And he sort of created a very active community for them to meet and sort of built these nodes in different, you know, cities and different hubs around the globe to meet.",
+      "zh": "他为他们打造了一个非常活跃的社区，让他们相聚，并在全球不同的城市、不同的枢纽建立起这些连接的节点。"
+    },
+    {
+      "i": 133,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "29:51",
+      "en": "And now of course that spurred him to make absolutely insanely attractive investments and now spinning up a fund on top of that. So something unique, you know, there's always and for me, it's always that authenticity, whatever it might be, but that authenticity of building something which is truly sort of an extension of yourself.",
+      "zh": "而现在，这当然促使他做出了一些极具吸引力、疯狂出色的投资，并在此基础上正在筹备一只基金。所以这就是独特的东西。你知道，对我来说，永远是那种真实性——不管它是什么——那种打造一个真正是你自身延伸的东西的真实性。"
+    },
+    {
+      "i": 134,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "30:08",
+      "en": "And once it comes from the perspective of not trying to to chase, let's say something, you know, financial maybe per se directly, but but but something that comes from an inner need that you have felt.",
+      "zh": "而且一旦它出自一种“不去追逐”的视角——比如追逐某种直接的财务回报——而是源自你内心真切感受到的一种需要，"
+    },
+    {
+      "i": 135,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "30:19",
+      "en": "There's another one in the States as well and very prominent, soon to be a prominent potentially legendary fund who started with essentially a European embassy in the United States and now spinning out that into a fund, which is, you know, terrific team.",
+      "zh": "美国也有另一个，而且非常知名，很快会成为一只知名的、甚至可能传奇的基金——它起初基本上是一个“欧洲驻美大使馆”式的存在，如今正分拆成一只基金，团队非常出色。"
+    },
+    {
+      "i": 136,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "30:35",
+      "en": "And there's a very good methodology that they're they're approaching this by as well. So many examples to cover for sure. So those are such cool examples and such a variety to think like government folks from the embassy world versus people with Soviet roots.",
+      "zh": "而且他们推进此事的方法论也非常好。这样的例子太多了，说不完。这些例子真是太酷了，而且种类丰富——你想想，一边是来自大使馆世界的政府背景人士，一边是有苏联根基的人。"
+    },
+    {
+      "i": 137,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "30:53",
+      "en": "I have a college teammate of mine has a fund around science fair alumni. OK, apparently they giant is dork in every high school across the United States.",
+      "zh": "我大学的一位队友，就成立了一只围绕“科学竞赛（science fair）校友”的基金。好，看来在美国每一所高中里，他们都是那种超级书呆子（giant dorks）。"
+    },
+    {
+      "i": 138,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "31:03",
+      "en": "Yeah. And that's a wonderful winner. You really leaned into something real nerdy, real early. Yeah. Yeah, for sure. For sure. I should do something for Nordic Star Wars fans or something like this.",
+      "zh": "是啊，那是个绝妙的赢家——你真的一头扎进了某个特别书呆子气、又特别早期的东西。是啊，是啊，当然，当然。我或许也该为北欧的 Star Wars 粉丝做点什么之类的。"
+    },
+    {
+      "i": 139,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "31:17",
+      "en": "Exactly. Exactly. I think I think that's basically like all of the comedy writers that come out of Harvard are basically they would they would qualify in Europe.",
+      "zh": "没错，没错。我觉得这基本上就像所有从 Harvard 出来的喜剧编剧——他们在欧洲基本都能符合这个“书呆子”标准。"
+    },
+    {
+      "i": 140,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "31:27",
+      "en": "Yeah, for sure. For sure. We'll give a little overview of what frame is focused on. Sweetspot is sub 100 million, mostly Europe based or with a strong European link.",
+      "zh": "是啊，当然，当然。我们来简单概述一下 Firm 关注的方向。甜蜜点是规模低于 1 亿美元，大多以欧洲为基地、或与欧洲有很强的联系。"
+    },
+    {
+      "i": 141,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "31:43",
+      "en": "Can you tell us about sort of the constriction of this, like how you've thought about what the fund of funds what's going to make a successful fund of funds for you and why you've sort of set these qualifiers?",
+      "zh": "你能不能讲讲这方面的构建——你是怎么思考“什么样的基金中的基金才算成功”的，以及你为什么设下了这些限定条件？"
+    },
+    {
+      "i": 142,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "31:54",
+      "en": "Yeah, just a quick note to firm because that also explains a lot what we do and how we operate. So the idea was essentially that we we are firm in our underwriting we're firm in how we operate and we want to invest in firms.",
+      "zh": "好，先简单说一下 Firm 这个名字，因为它也解释了很多关于我们做什么、怎么运作的东西。这个想法本质上是：我们在承保上很“firm”（坚定），在运作方式上很“firm”，而我们要投资的是一家家“firm”（机构）。"
+    },
+    {
+      "i": 143,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "32:06",
+      "en": "So once again, the sort of quote Boeing me stated very early on that that we are funds are raised and firms are built then we look to invest in those those fund firm builders.",
+      "zh": "所以再引用一次很早就说过的那句话——“基金是募来的，而机构是建起来的”（funds are raised and firms are built）——于是我们就去找那些“建机构”的人来投资。"
+    },
+    {
+      "i": 144,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "32:16",
+      "en": "So that's sort of the joke about but the name, of course, there's there's an innuendo in that. But the aspect once again, this is really sort of a market need, a market pool.",
+      "zh": "所以这就是关于名字的玩笑，当然这里面还有一层双关。但另一方面，这真的是一种市场需求、一种市场空缺（market pull）。"
+    },
+    {
+      "i": 145,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "32:26",
+      "en": "So we talk about a lot of what's happening in Europe on the LP side. Then it's usually quite reactive. It seems to be quite passive as well, very often.",
+      "zh": "我们聊了很多欧洲 LP 端正在发生的事。那边通常相当被动（reactive），而且很多时候看起来也相当消极。"
+    },
+    {
+      "i": 146,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "32:35",
+      "en": "And it needs a signal to be allocated. So very often in Europe, what you can see is that, you know, if the IF or one of these comes in, then you as a family officer in the institutional payer might come in and invest.",
+      "zh": "它需要一个信号才会去配置。所以在欧洲你常常能看到，如果 IFC 或这类机构进场了，那么你作为家族办公室或机构投资人，可能才会进来投资。"
+    },
+    {
+      "i": 147,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "32:46",
+      "en": "And on the other side, what we also see is that these very, very interesting funds that I mentioned here and some others, they might be backed at day one by a prominent GP from a US fund or other sort of high network people around their networks, but very rarely do they have institutional backing from a European institution early on.",
+      "zh": "而另一方面，我们也看到，我这里提到的那些非常非常有意思的基金，还有其他一些，可能在第一天就由某只美国基金的知名 GP、或他们人脉圈里其他高净值人物出资，但很少在早期就有来自欧洲机构的机构级出资。"
+    },
+    {
+      "i": 148,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "33:06",
+      "en": "And in many ways, we find that to be a shame. And that was what we wanted to enter the market with this thought. And also in a separate way, many funds of funds are also driven always by incentives that also, once again, tend to be misaligned towards a performance.",
+      "zh": "在很多方面，我们觉得这很可惜。这也正是我们想带着这个理念进入市场的初衷。另外从单独的层面看，很多基金中的基金也总是被激励驱动，而这些激励同样往往与业绩错位。"
+    },
+    {
+      "i": 149,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "33:19",
+      "en": "So very often they build huge portfolios and then actually make the money out of creating SPVs for co-investment opportunities into those underlying companies.",
+      "zh": "所以他们常常搭建庞大的组合，然后靠为那些底层公司创造 SPV（特殊目的载体）跟投机会来赚钱。"
+    },
+    {
+      "i": 150,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "33:27",
+      "en": "So essentially, their feeder fund themselves, which once again, is a perfectly good business work. It's a great business model. And if your LPs want that, that's terrific.",
+      "zh": "所以本质上，他们自己就是“引流基金”（feeder fund）。这同样是一门完全正当的生意，是个很好的商业模式。如果你的 LP 想要这个，那太好了。"
+    },
+    {
+      "i": 151,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "33:36",
+      "en": "But the conversations that we had were about something completely different, where we're trying to build something quite concentrated to be in a deep partnership with the fund managers that we want to work with.",
+      "zh": "但我们进行的对话是关于一件完全不同的事：我们想打造一个相当集中的组合，与我们想合作的基金管理人建立深度的伙伴关系。"
+    },
+    {
+      "i": 152,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "33:46",
+      "en": "That's also, once again, an extension of who we are as people. We want to build those trusted relationships early on. We want to be able to be a same type of VC, LP to the VCs as the VCs want to be to the funds and to the founders that they back.",
+      "zh": "这同样是我们作为“人”的一种延伸。我们想尽早建立那些可信赖的关系。我们希望能成为 VC 心目中理想的那种 LP，就像 VC 希望成为他们扶持的基金和创始人心目中理想的那种角色一样。"
+    },
+    {
+      "i": 153,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "34:03",
+      "en": "You told me that you look for both European and U.S. firms and with any U.S. fund manager that you invest in, you look for some type of European slant.",
+      "zh": "你跟我说过，你们既看欧洲的机构，也看美国的机构；而对于你投资的任何美国基金管理人，你都会寻找某种欧洲角度。"
+    },
+    {
+      "i": 154,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "34:16",
+      "en": "Could you speak to a little bit of what those things you look for, whether it's like where folks are from, maybe they immigrated into the U.S.",
+      "zh": "你能不能具体讲讲你要找的那些东西，比如他们来自哪里，也许他们移民到了美国，"
+    },
+    {
+      "i": 155,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "34:25",
+      "en": "or have some commercial relationships? Yeah. So that's the core focus. With them, of course, we, as any other body, we're opportunistic to do other things as well.",
+      "zh": "或者有某种商业关系？是的。这就是核心关注点。当然，跟其他任何人一样，我们也会机会主义地做一些其他事。"
+    },
+    {
+      "i": 156,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "34:35",
+      "en": "So the core is Europe, the core is managers. Whether you link to Europe, we're also opportunistically investing in the U.S. and in sort of any fund in the U.S.",
+      "zh": "所以核心是欧洲，核心是管理人。无论你是否与欧洲有联系，我们也会机会主义地投资美国、投资美国的任何基金。"
+    },
+    {
+      "i": 157,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "34:43",
+      "en": "So we can do all of that. Our take, once again, we hail from Europe. We, as I said, already one of the quotes, I'll say it again, the market is fragmented.",
+      "zh": "所以我们都能做。我们的看法是——我们来自欧洲，就像我已经引用过的一句话，我再引用一次：市场是碎片化的。"
+    },
+    {
+      "i": 158,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "34:52",
+      "en": "For us, that's a feature, not a bug. We think that there are really interesting communities, really interesting people who can, you know, once again, catalyze those communities from different, you know, pools in Europe and hence, you know, be a long-term partner from a cultural perspective as well, which in the U.S.",
+      "zh": "对我们来说，这是特性，不是缺陷。我们认为欧洲有非常有意思的社群、非常有意思的人，他们能够从欧洲不同的池子里去“催化”这些社群，因而也能从文化角度成为长期的伙伴——而在美国，"
+    },
+    {
+      "i": 159,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "35:08",
+      "en": "is slightly different. There it's a bit more, it's less regional in many ways. It's more based on, on sort of the, the, the, the industry of employment or the work that you do or sort of the specific niche where you operate.",
+      "zh": "情况略有不同。那里在更多方面没那么区域化，更多是基于你所在的行业、你做的工作，或者说你运作的那个细分领域。"
+    },
+    {
+      "i": 160,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "35:21",
+      "en": "But in Europe, you have so many cultural differences where you can be sort of the Swiss German or the Swiss French or the Swiss Italian person for your founder forever.",
+      "zh": "但在欧洲，你有如此多的文化差异，你可以永远做你创始人身边那个瑞士德语区、瑞士法语区或瑞士意大利语区的人。"
+    },
+    {
+      "i": 161,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "35:31",
+      "en": "And they want to keep you on the cap table because they understand you and you understand them from a cultural perspective. So that's one thing that we find very interesting and sort of the Europe link in U.S. quite simply is that many very, very interesting, like, for example, the embassy that I mentioned, many others, prominent managers in Europe have moved on to the States to invest in both markets.",
+      "zh": "他们想把你留在股权结构表（cap table）上，因为他们理解你，你也从文化上理解他们。所以这是我觉得非常有意思的一点。而美国的“欧洲联系”很简单：很多非常有意思的人——比如我提到的那个“大使馆”式的基金，还有很多欧洲知名管理人——已经转去美国，同时在两个市场投资。"
+    },
+    {
+      "i": 162,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "35:53",
+      "en": "How do you sort of balance what you've described as sort of like being trend aligned, which is very helpful to your managers, being very helpful, like that government funding that follows the up rounds, et cetera, and being a bit counterculture and looking beyond sort of like the theme of the day as you're assessing kind of your own balance of your own portfolio.",
+      "zh": "你如何平衡——一方面是你所说的“顺应趋势”（trend aligned），这对你的管理人很有帮助，比如跟随那些上涨轮的政府资金等等；另一方面又是有点反主流文化、超越“当日主题”去审视？在你评估自己组合的平衡时，你是怎么看这两者的？"
+    },
+    {
+      "i": 163,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "36:27",
+      "en": "Yeah, there's sort of sounds like, you know, there's a lot of thinking there on how to be contrarian in the right way. Yeah, for sure. So the best way to do inventories, of course, to be contrarian and right and the best way to be a venture investor is to invest in a company before its consensus and then it shifts into consensus straight away.",
+      "zh": "是啊，听起来这里面有很多关于“如何以正确的方式做逆向投资者”的思考。是啊，当然。做投资最好的方式，当然是既逆向又正确；而做风投投资人最好的方式，是在一家公司还没形成共识之前就投进去，然后它马上就转向共识。"
+    },
+    {
+      "i": 164,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "36:46",
+      "en": "So there needs to be a narrative work behind the support around that. So much of the time that we spend with managers is of course understanding that if they do very wild sort of bioengineering investments to understand that there's actually sort of an, you know, there might be, you know, still a taboo in that market where you don't really do that very actively yet, but there's sort of regulation that's starting to come through that's giving",
+      "zh": "所以在这份支持背后，需要做叙事的工作。我们花与管理人的大量时间，当然是去理解：如果他们做非常大胆的生物工程投资，要理解那个市场里可能仍存在某种“禁忌”，你还不会很积极地去碰，但已经有监管开始落地，给出"
+    },
+    {
+      "i": 165,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "37:11",
+      "en": "the opportunity to do that, for example, in the US with peptides and the whole craze towards sort of, let's say, self-medicating in a positive way for the future from a trial perspective, where you see that the trend is going there, there's like macro trends that are driving towards something like this lack of trust in institutions, you know, from a health care perspective as well.",
+      "zh": "去做的机会——比如在美国，随着多肽（peptides）以及那种朝“自我用药”（以一种积极方式、着眼于未来）方向的整个热潮，从试验角度看，你会看到趋势正往那边走；还有一些宏观趋势在推动这类东西——比如从医疗角度看，人们对机构缺乏信任。"
+    },
+    {
+      "i": 166,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "37:29",
+      "en": "So there's these trends that are going that route and you have a way of finding companies early on who do something that's scientifically proven, but where they're still not that sort of underlying pool from the market, but it might shift.",
+      "zh": "所以有这些趋势正朝那个方向走，而你有办法早期就找到那些做着科学上已被验证之事的公司，尽管它们还不是市场底层的那个“池子”，但情况可能会转变。"
+    },
+    {
+      "i": 167,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "37:43",
+      "en": "So that's on that side. But as said, for a portfolio construction point of view, you can't only do that. So that's why I think the quote from JT about being in the flow or investing in into those edges, it's always a mix of both that you need to be doing.",
+      "zh": "这是那一面。但正如所说，从组合构建的角度，你不能只做那一面。所以我觉得 JT 那句关于“身处潮流之中”还是“投资边缘”的话很有道理——你总是需要两者兼做。"
+    },
+    {
+      "i": 168,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "37:57",
+      "en": "Once again, we're trying to build, as I said, a concentrated portfolio. We don't want to have, you know, seven funds in Europe that are doing, you know, defense or dual use.",
+      "zh": "再一次，我们想打造一个集中的组合。我们不希望在欧洲拥有七只都在做国防或军民两用（dual use）的基金。"
+    },
+    {
+      "i": 169,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "38:07",
+      "en": "We would like to invest in what in our mind would be the most interesting manager in that space, which would then, you know, perform the best.",
+      "zh": "我们想投的，是我们心中那个领域里最有意思的管理人，他随后也会表现最好。"
+    },
+    {
+      "i": 170,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "38:17",
+      "en": "And actually have this sort of portfolio of sort of a missed athlete in that sense, in all these categories. And that's that what we're trying to build.",
+      "zh": "并且真正打造出这样一种组合——在某种意义上像一名“混合项目运动员”（mixed athlete），在所有这些类别里都有布局。这正是我们想打造的。"
+    },
+    {
+      "i": 171,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "38:24",
+      "en": "But with our portfolio construction also doesn't really come from sort of having these preset conditions of, of trying to fit in, you know, specific managers, but it's much more driven by sort of the talent itself first.",
+      "zh": "但我们的组合构建，也不是真的来自于预设好一些条件、去硬套某些管理人，而更多是先由人才本身驱动。"
+    },
+    {
+      "i": 172,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "38:36",
+      "en": "And then we try to sort of retrofit what the, what the portfolio construction might look like. It seems like over the last five years, we've had a real pendulum swing from LPs, specifically family offices and foundations and even fund to funds wanting to do more direct deals.",
+      "zh": "然后我们再反过来去调整组合构建大概的样子。看起来过去五年里，我们看到 LP——尤其是家族办公室、基金会，甚至基金中的基金——出现了明显的钟摆式转向，都想做更多直接交易（direct deals）。"
+    },
+    {
+      "i": 173,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "38:59",
+      "en": "Before we get into how that impacts fund to funds, what do you think is driving that interest to just go straight to the cap table and invest, you know, your resources and time into direct deals?",
+      "zh": "在我们深入这如何影响基金中的基金之前，你觉得是什么在驱动这种兴趣——就是想直接进股权结构表、把你的资源和时间投到直接交易里？"
+    },
+    {
+      "i": 174,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "39:13",
+      "en": "Yeah, for sure. I would say it's, it's once again, it's fundamentally two things. So the first one obviously is that, you know, you can see the impact that venture has in financial terms, not just sort of sustainability, but in, in, in, in economic terms.",
+      "zh": "是啊，当然。我会说这根本上是两件事。第一件显然是，你能看到风投在财务层面产生的影响，不只是可持续性层面，而是经济层面。"
+    },
+    {
+      "i": 175,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "39:27",
+      "en": "So if you look at the market cap of the biggest companies, most of them are venture backed seven out of 10. Last time I checked them out, it might have ended a little bit with, with the AI issues.",
+      "zh": "如果你看那些最大公司的市值，它们大多数都有风投背景——十家里有七家。我上次查是这个比例，可能因为 AI 那些事，现在略有变化。"
+    },
+    {
+      "i": 176,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "39:37",
+      "en": "So, so it's very much that. So LPs can see that, you know, to, to be very horrible. Once again, you know, in terms of what Mark and Theresa would say, software ate the world and to be very cheeky about it, you can say the venture fed it.",
+      "zh": "所以很大程度上就是这个。LP 能看到——说得“可怕”一点，用 Mark 和 Theresa 会说的话来说，“软件吞噬了世界”（software ate the world），而更调皮地说，你可以说是“风投喂大了它”（the venture fed it）。"
+    },
+    {
+      "i": 177,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "39:51",
+      "en": "And in many ways that, of course, then feeds into the whole notion that we want to be in, in this world and invest into that world. The other side of it is, of course, once again, those companies and this industry has grown by 10x over the last 10, 15 years, more capital companies stay primers for longer, DPI unheard of, you want to be in the game directly.",
+      "zh": "在很多方面，这又进而催生了那种整体观念：我们想进入这个世界、投资这个世界。另一方面，当然，又是那些公司——过去 10 到 15 年，这个行业增长了 10 倍，更多资本涌入，公司更长时间保持私有，DPI（投入资本分配率）几乎闻所未闻，你想直接参与其中。"
+    },
+    {
+      "i": 178,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "40:10",
+      "en": "There's more access to SPVs, which of course might be quite costly for you, but nonetheless, there's more access. It's also much more legible concentration.",
+      "zh": "现在有更多接触 SPV 的机会，当然这对你来说可能相当昂贵，但无论如何，渠道更多了。而且集中度也更加“可读懂”（legible）。"
+    },
+    {
+      "i": 179,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "40:19",
+      "en": "Great topic that's been discussed already, no need to rehash it. So it's easier to read the markets. It's easier to understand what companies you need to be in.",
+      "zh": "这是个已经被讨论过的好话题，没必要再重复。所以更容易读懂市场，更容易理解你需要投哪些公司。"
+    },
+    {
+      "i": 180,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "40:26",
+      "en": "It's easier to see the power law and get access to that. So all these factors for me are quite evident in why people are doing what they're doing and once again, why that gives opportunity for the other side of the market who you usually cover here as well, the emerging managers to step in and take this early side of the market.",
+      "zh": "也更容易看清幂律（power law）并获取它。所以对我来说，所有这些因素都很清楚地解释了为什么人们在做他们在做的事，同样也解释了为什么这给了市场另一端——也就是你在这里通常覆盖的那些新兴管理人（emerging managers）——一个进入并占据市场这一早期端的机会。"
+    },
+    {
+      "i": 181,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "40:45",
+      "en": "And what can you share with us about fees, like whether you're passing a co-investment on directly? Yeah, for sure. So for us, we don't leave my fees.",
+      "zh": "关于费用，你能跟我们分享些什么吗？比如你们是否直接把跟投机会传递下去？是啊，当然。对我们来说，我们不收费用。"
+    },
+    {
+      "i": 182,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "40:56",
+      "en": "We try to be long term greetings, maybe the way to push it. We try to be incentive aligned as sent. That's our take on this business. It's a long term game.",
+      "zh": "我们努力做长期主义者——也许这么说更贴切。我们努力让激励保持一致。这是我们对这门生意的看法：这是一场长期的游戏。"
+    },
+    {
+      "i": 183,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "41:06",
+      "en": "There are many, many people in the industry who of course now are selling ridiculous SPVs and doing a big bank on that, and that's great for them.",
+      "zh": "行业里有很多人现在当然在兜售荒谬的 SPV，靠这个大赚一笔，那对他们来说很好。"
+    },
+    {
+      "i": 184,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "41:14",
+      "en": "But for us, it's not really the way to do venture. So as I said, what we're building here is sort of a co-investment loop where it's completely open fee free for a piece.",
+      "zh": "但对我们来说，这并不是做风投的方式。所以就像我说的，我们在这里打造的是一种跟投闭环（co-investment loop），对某一部分完全开放、免收费用。"
+    },
+    {
+      "i": 185,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "41:24",
+      "en": "They can do whatever feels right for them to up their risk-reward ratio. For us, we're fully incentivized by performance. That's the way we operate.",
+      "zh": "他们可以做任何他们认为合适的事，来提高自己的风险回报比。而对我们来说，我们完全由业绩驱动激励，这就是我们的运作方式。"
+    },
+    {
+      "i": 186,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "41:33",
+      "en": "We're a little bit more sharp on sort of upside carried in that regard as well, which our LPs are very happy with. They understand that we are sort of a performance driven fund of fund, not the fee-theater fund, even though we feed them a lot of like cheap, you know, fee less investment opportunities.",
+      "zh": "在这方面，我们对上行收益的 carried interest（业绩分成）也更“锋利”一些，我们的 LP 对此很满意。他们明白我们是一只业绩驱动的基金中的基金，而不是“费用剧场”（fee theater）式的基金，尽管我们喂给他们很多便宜、免收费用的投资机会。"
+    },
+    {
+      "i": 187,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "41:51",
+      "en": "So that's how we approach it. It's not how the broad market approaches it. It's not that unique. It's just how we feel we can have the best impact and would also fit into our long-term strategy, which we haven't shared yet.",
+      "zh": "这就是我们的做法。这不是大盘的做法，也并不独特，只是我们觉得这样能产生最好的影响，也契合我们的长期战略——那个战略我们还没对外讲过。"
+    },
+    {
+      "i": 188,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "42:03",
+      "en": "Then we'll be sharing later when that's relevant. But that's all fitting into this team that we have towards what we think role of a fund of fund could be in the future.",
+      "zh": "等到相关的时候我们会分享。但这一切都契合我们这个团队的构想，也就是我们认为基金中的基金未来能扮演的角色。"
+    },
+    {
+      "i": 189,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "42:14",
+      "en": "To that point, what do you think the role of the fund of fund will be over the next 10 years with, you know, there being such a movement towards direct deals by traditional LPs?",
+      "zh": "说到这一点，你觉得未来 10 年基金中的基金的角色会是什么？毕竟传统 LP 正如此明显地转向直接交易。"
+    },
+    {
+      "i": 190,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "42:27",
+      "en": "In many ways, you could think about it as a filter with a clear understanding of the incentive structure of those underlying sort of clients, in this case, being LPs.",
+      "zh": "在很多方面，你可以把它想成一个“过滤器”，对所服务的底层客户——这里指 LP——的激励结构有清晰的理解。"
+    },
+    {
+      "i": 191,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "42:40",
+      "en": "So based on whoever your LPs having a filtering mechanism that fits the requirements of those LPs is very interesting. So hence most of what we've been seeing is this sort of broad indexing approach where the LPs, in some cases, just want to have exposure to as many companies as possible.",
+      "zh": "所以，基于你的 LP 是谁，拥有一个符合这些 LP 要求的过滤机制，就非常有意思。因此我们看到的大多是一种广义的“指数化”（indexing）方式——某些情况下 LP 就是想尽可能多地接触到尽量多的公司。"
+    },
+    {
+      "i": 192,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "43:01",
+      "en": "What we've heard from some LPs that invest into fund of funds, they say that what they actually do is they would hope to just have a 1x return on the fund of fund, but they want those companies, those direct investment opportunities that they get to sort of be then that sort of pre-filtered mechanism of already sort of following them for a while, understanding from the inside of what's happening with those companies and then sort of",
+      "zh": "我们从一些投资基金中的基金的 LP 那里听到，他们说他们其实希望基金中的基金本身只要能有个 1 倍回报就行，但他们想要那些公司、那些直接投资机会——让它们成为一个预先过滤好的机制：已经跟踪了这些公司一段时间，从内部了解正在发生什么，然后再去"
+    },
+    {
+      "i": 193,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "43:25",
+      "en": "picking and choosing companies. Our view, of course, is that it's very hard to sort of pick and choose and get into those best cases because usually founders want to have someone on the inside, someone close by, some reputable people on board who's done this, you know, from the inside.",
+      "zh": "挑选公司。当然，我们的看法是，要挑挑拣拣、进入那些最好的项目非常难，因为创始人通常希望有一个“圈内人”、一个身边的人、一个有声望、真正从内部做过这件事的人加入。"
+    },
+    {
+      "i": 194,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "43:38",
+      "en": "So usually that ends up being a very sort of strategic approach. And for us as well, specifically in Switzerland, very often, you know, venture in essence from a family office side is very sort of strategic and very business development oriented as well.",
+      "zh": "所以那通常最终是一种非常战略性的做法。而对我们来说也一样，尤其在瑞士，从家族办公室角度看，风投往往非常战略性、也非常以业务拓展为导向。"
+    },
+    {
+      "i": 195,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "43:50",
+      "en": "We operate in the exact, you know, same business line as your principal interest is. So for us, you know, that's still going to be something that a fund of fund can do quite well in the future, just by sort of doing what they're their own own LP sort of want them to be doing.",
+      "zh": "“我们运营的正是和你主要利益完全相同的业务线。”所以对我们来说，这仍将是基金中的基金未来能做得相当好的一件事，只需去做他们自己的 LP 希望他们做的事。"
+    },
+    {
+      "i": 196,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "44:07",
+      "en": "And our approach is of course to do that, but with a more sort of deep relationship, but still have as we do with these, you know, binge marks and so forth with the emerging manager map, have a broad scope of understanding the market, you know, try to make good introductions, but then us and our focus is quite deep that is that firm capital has made a couple of these great resources.",
+      "zh": "而我们的做法当然是去做这件事，但用一种更深入的关系，同时仍像我们对这些基准工具等等那样，用新兴管理人图谱（emerging manager map）对市场有广泛的了解，尽量做好引荐；然后我们自己的关注点则相当深入——Firm Capital 已经打造了几个这样很棒的资源。"
+    },
+    {
+      "i": 197,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "44:28",
+      "en": "You just mentioned the emerging market manager map. Another I would recommend everybody take advantage of is the benchmarking tool. VC fund benchmarks.com.",
+      "zh": "你刚提到新兴管理人图谱。另一个我建议大家去用的，是这个基准工具：VCfundbenchmarks.com。"
+    },
+    {
+      "i": 198,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "44:39",
+      "en": "You pulled together all this data, what pitch book, Carter, Cambridge as it's, what would you say are some takeaways for you having built this tool on whose top quartile?",
+      "zh": "你把 PitchBook、Carter、Cambridge 等等来源的数据全都汇总到了一起——你会说，在打造了这个工具、看了谁属于第一梯队（top quartile）之后，你自己得到了哪些心得？"
+    },
+    {
+      "i": 199,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "44:53",
+      "en": "Yeah, I have a total around that as well, which when you click it, it shows you which metrics actually show you as top quartiles. You can just export that and send that to your LPs or the broader universe or, you know, your mother and dad to show off as a joke.",
+      "zh": "是啊，我也围绕这个做了一个东西，你点开它，它会告诉你到底是哪些指标让你进入第一梯队。你可以直接导出，发给你的 LP、发给更广泛的圈子，或者——开个玩笑——发给你爸妈炫耀一下。"
+    },
+    {
+      "i": 200,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "45:08",
+      "en": "And then if you don't happen to be top quarter, there's a message for you as well. So we try to be a little bit cheeky with these things. But in many ways, of course, it falls back to the same thing that, of course, you know, whether it's, let's say, you know, the new ways how founders talk about ARR or, of course, how VC managers talk about moik, there's always something underneath.",
+      "zh": "而如果你恰好不在第一梯队，也有一句给你的话。所以我们试着对这些东西调皮一点。但在很多方面，这当然又回到同一件事：不管是——比方说——创始人如今谈论 ARR 的新花样，还是 VC 管理人谈论 MOIC 的方式，底下总有些别的东西。"
+    },
+    {
+      "i": 201,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "45:31",
+      "en": "And so this for us, you know, it was sort of, is something, everything that we're building is usually it's an internal tool that we then feel that we want to externalize and usually do something like more or less serious about that.",
+      "zh": "所以对我们来说，我们打造的一切通常都是一个内部工具，然后我们觉得想把它外部化，并且或多或少认真地做点事情。"
+    },
+    {
+      "i": 202,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "45:43",
+      "en": "And with that benchmark, it was the same thing. Every conversation we have, everybody's top quartile. So that doesn't even matter. And we don't really look at the numbers.",
+      "zh": "那个基准工具也是一样。我们进行的每一次对话，人人都说自己是第一梯队。所以这根本不重要，而且我们其实也不看这些数字。"
+    },
+    {
+      "i": 203,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "45:50",
+      "en": "Once again, we're trying to understand the person was driving them with fears. They have strengths and weaknesses and do that in a much more rigid way.",
+      "zh": "再一次，我们试图理解的是这个人——是什么在驱动他们、他们有哪些恐惧、有哪些长处和短处——并用一种严谨得多的方式去做这件事。"
+    },
+    {
+      "i": 204,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "45:58",
+      "en": "So this is sort of an easy way for us to just, you know, chuck the managers in there, compare themselves and see, and for us also to see their actual performance.",
+      "zh": "所以这对我们来说是个简便的方法，把管理人丢进去，让他们自己比较，也让我们看到他们真实的业绩表现。"
+    },
+    {
+      "i": 205,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "46:08",
+      "en": "I think we should end on this last question. You joked in our pre conversation that fins make poor salespeople because they say it how it is.",
+      "zh": "我觉得我们应该用最后一个问题来收尾。你在事前沟通里开玩笑说，芬兰人做不好销售，因为他们有什么说什么。"
+    },
+    {
+      "i": 206,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "46:17",
+      "en": "What's the most transparent thing you wish more LPs would say out loud? Well, they should just answer their messages for one. It's pretty, pretty funny.",
+      "zh": "你最希望更多 LP 大声说出来的、最“透明”的一件事是什么？嗯，首先他们就该回消息，这挺搞笑的。"
+    },
+    {
+      "i": 207,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "46:26",
+      "en": "And then the other side is just saying, no, it's something that the frost came from, from what we did in direct investing as well. I'm a, you know, notorious people, please or who have worked through that a little bit and saying, no, all the time in venture helps.",
+      "zh": "另一方面就是直说“不”。这也是我们从直接投资里带出来的东西。我是个——你知道——出了名的“讨好型人格”（people pleaser），也在一点点克服，而在风投里一直说“不”确实有帮助。"
+    },
+    {
+      "i": 208,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "46:40",
+      "en": "But, but for us, what we tried to do was always say, no, face to face. Like as soon as we knew that this is not going to work for us for any reason, be very transparent with saying, no, for what the real reason is.",
+      "zh": "但对我们来说，我们努力做的是：永远当面说“不”。一旦我们知道这事因任何原因对我们行不通，就非常透明地说“不”，并说出真正的原因。"
+    },
+    {
+      "i": 209,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "46:50",
+      "en": "And it's always a human issue. Many ways, of course, there might be a portfolio construction thing and the other, but usually it's a human issue and try to be as, you know, honest, as possible with these things.",
+      "zh": "这在很多方面永远是一个“人”的问题。当然，也许有组合构建层面的因素，但通常这是个“人”的问题，所以要尽量诚实对待这些事。"
+    },
+    {
+      "i": 210,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "47:02",
+      "en": "Once again, why we talk about the sort of pro activity, directness, transparency, which for us is lacking. So just answer your mails. That's one thing and be, you know, honest with what works for you.",
+      "zh": "再一次，这就是为什么我们谈主动性、直接、透明——这些在我看来是欠缺的。所以就回你的邮件吧，这是一件事；并且对什么适合你保持诚实。"
+    },
+    {
+      "i": 211,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "47:13",
+      "en": "What does it, even for us, when we're talking to LPs and once again, we're completely fresh into this line of work, it's, it's really, you know, surprising how few people actually just tells us what's interesting.",
+      "zh": "即使对我们来说，当我们和 LP 谈的时候——再一次，我们完全是这行的新人——真的很让人惊讶，居然这么少的人直接告诉我们什么才是有意思的。"
+    },
+    {
+      "i": 212,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "47:23",
+      "en": "Because once again, we're trying to build this understanding of who's doing what, where we can be helpful, you know, once again, why we built this, these tools as well to be able to supply our friends with that type of, you know, relationships and connections that are, are, are, are useful for them.",
+      "zh": "因为再一次，我们想建立这种“谁在做什么”的理解，想明白我们能在哪里帮上忙——这也是我们打造这些工具的原因，好为我们的朋友提供那种对他们有用的人脉和连接。"
+    },
+    {
+      "i": 213,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "47:38",
+      "en": "But, but usually that's very difficult with LPs. We're very secretive, specifically in Europe. So in the US, it's, of course, like the defense, more financialized in Europe.",
+      "zh": "但通常跟 LP 打交道这非常难。他们非常保密，尤其在欧洲。在美国，当然，那更像是一种“防御”，更加金融化；而在欧洲，"
+    },
+    {
+      "i": 214,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "47:46",
+      "en": "It's very, very secretive in many ways. So just answer your mail. Just say, you know, hello, not for us. No, in any of the, you know, 30, 40 languages.",
+      "zh": "在很多方面都非常保密。所以就回你的邮件吧。就说一句“你好，对我们不合适”，用那 30、40 种语言里的任何一种都行。"
+    },
+    {
+      "i": 215,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "47:58",
+      "en": "Yeah, there's an AI tool that can help you with that. For sure. Thanks so much. Appreciate everything you're building for this community. It's really fun.",
+      "zh": "是啊，有个 AI 工具能帮你搞定这个。当然。太感谢了。我欣赏你为这个社群所做的一切，这真的很有意思。"
+    },
+    {
+      "i": 216,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "48:06",
+      "en": "It is my pleasure and honor to be, be part of this. So thank you very much for, for inviting me, appreciate it. You later, allocator. After portfolio tile, investing with a smile.",
+      "zh": "能参与其中是我的荣幸和光荣，所以非常谢谢你们邀请我，我很感激。回头见，allocator。带着微笑做投资。"
+    },
+    {
+      "i": 217,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "48:20",
+      "en": "Carhartt's holiday gift guides were built in collaboration with the greatest gift giver of all time, Santa Claus himself. Old St. Nick counts on Carhartt's durable gear to have his back through rain, sleep and snow on the biggest night of the year.",
+      "zh": "Carhartt 的节日礼物指南，是与史上最伟大的送礼者——圣诞老人本人——合作打造的。这位老圣尼古拉斯指望 Carhartt 耐用的装备，在一年中最重要的那一夜，为他遮风挡雨、顶住雨雪。"
+    },
+    {
+      "i": 218,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "48:33",
+      "en": "Because when everyone's counting on you to do your job, what else would you wear to work? Tap the banner to grab a gift for every hardworking person on your holiday shopping list or head to carhartt.com.",
+      "zh": "因为当所有人都指着你把活干好时，你还能穿什么去上班？点击横幅，为你节日购物清单上每一个辛勤工作的人挑份礼物，或者访问 carhartt.com。"
+    },
+    {
+      "i": 219,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "48:47",
+      "en": "From the first card you send to the last gift they unwrap, this holiday season, it's Zazzle all the way. Custom photo gifts, cards, decor and more holiday cards.",
+      "zh": "从你寄出的第一张贺卡，到他们拆开的最后一份礼物，这个节日季，一路都有 Zazzle。定制照片礼物、贺卡、装饰等等，还有节日贺卡。"
+    },
+    {
+      "i": 220,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "48:57",
+      "en": "They'll keep on the fridge year round. Zazzle, decorations that become traditions, gifts they'll cherish, Zazzle. Choose a product, add your photos and details and Zazzle does the rest.",
+      "zh": "那些贺卡会被他们整年贴在冰箱上。Zazzle，让装饰成为传统，让礼物被珍藏——Zazzle。选一件产品，加上你的照片和细节，剩下的交给 Zazzle。"
+    },
+    {
+      "i": 221,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "49:06",
+      "en": "Zazzle has helped over 30 million customers make moments into memories. Shop deals all season long at Zazzle.com. That's Z-A-Z-Z-L-E Zazzle.com.",
+      "zh": "Zazzle 已经帮助超过 3000 万客户把瞬间变成回忆。整个节日季都能在 Zazzle.com 淘到优惠。就是 Z-A-Z-Z-L-E，Zazzle.com。"
+    },
+    {
+      "i": 222,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "49:16",
+      "en": "Does checking your bank statements feel like digging through a dusty attic full of forgotten subscriptions and old free trials? Experian can help take the pain out of cancelling by handling it for you.",
+      "zh": "查看你的银行账单，是不是感觉像在翻一个满是灰尘的阁楼，里面全是被遗忘的订阅和早就过期的免费试用？Experian 可以帮你把取消订阅的痛苦去掉，替你搞定。"
+    },
+    {
+      "i": 223,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "49:29",
+      "en": "Think of it as operation, get your sanity back. Over 200 subscriptions are cancelable. So get started in the Experian app and see how much you could save.",
+      "zh": "把它想成一场“找回理智行动”。超过 200 项订阅都可以取消。所以在 Experian app 里开始吧，看看你能省下多少。"
+    },
+    {
+      "i": 224,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "49:39",
+      "en": "Results will vary. Not all subscriptions eligible. Savings not guaranteed. Paid membership with connected payment account required. See Experian.com for details.",
+      "zh": "结果因人而异。并非所有订阅都符合条件。不保证一定能省钱。需要付费会员并绑定支付账户。详见 Experian.com。"
+    }
+  ]
+}

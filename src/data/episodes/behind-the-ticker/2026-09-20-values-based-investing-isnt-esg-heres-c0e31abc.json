@@ -1,0 +1,655 @@
+{
+  "show": "behind-the-ticker",
+  "kind": "transcript",
+  "id": "behind-the-ticker-c0e31abc",
+  "guid": "Buzzsprout-19771410",
+  "slug": "2026-09-20-values-based-investing-isnt-esg-heres-c0e31abc",
+  "date": "2026-09-20",
+  "title_en": "Values-Based Investing Isn't ESG — Here's What It Actually Is | Bob Doll, Crossmar",
+  "title_zh": "价值观投资不是 ESG——它究竟是什么 | Bob Doll, Crossmark",
+  "subtitle_zh": "Crossmark 的 Bob Doll 拆解 avoid/embrace/engage 框架，以及 CLCG、CLCV 两只价值观型大盘 ETF 的构建逻辑。",
+  "description": "Values-Based Investing Isn't ESG — Here's What It Actually Is | Bob Doll, Crossmar",
+  "duration": "20:06",
+  "duration_seconds": 1206,
+  "episode_url": null,
+  "audio_url": "https://www.buzzsprout.com/2162961/episodes/19771410-values-based-investing-isn-t-esg-here-s-what-it-actually-is-bob-doll-crossmark.mp3",
+  "speakers": {
+    "1": "Brad Roth（主持）",
+    "2": "Bob Doll（嘉宾）"
+  },
+  "turn_count": 79,
+  "turns": [
+    {
+      "i": 0,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "00:00",
+      "en": "Welcome to Behind the Ticker, the podcast where we go beyond the symbol and into the strategy. I'm Brad Roth, founder and chief investment officer at Thor Funds, and in each episode, I sit down with ETF managers, CIOs, and industry leaders to break down how these funds are actually built, how they behave in real markets, and how advisors use them in real portfolios.",
+      "zh": "欢迎收听 Behind the Ticker，一档带你透过代码看策略的播客。我是 Brad Roth，Thor Funds 的创始人兼首席投资官。每一期节目，我都会和 ETF 基金经理、CIO 以及行业领袖坐下来聊，拆解这些基金到底是怎么构建的、在真实市场里表现如何，以及理财顾问在真实的投资组合中怎么用它们。"
+    },
+    {
+      "i": 1,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "00:29",
+      "en": "Most people just see a ticker symbol, but we know much more goes on behind the ticker. Hi, Bob, welcome to the show. Thank you, Brad. Good to be here.",
+      "zh": "大多数人看到的只是一个股票代码，但我们知道，代码背后的东西要多得多。嗨，Bob，欢迎上节目。——谢谢你，Brad，很高兴来到这里。"
+    },
+    {
+      "i": 2,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "00:44",
+      "en": "So why don't you give everybody your background? I know we've got 40 years in business. You were a chief equity strategist at Nuvine, CIO of U.S. Equity at BlackRock.",
+      "zh": "那你先跟大家介绍一下自己的背景吧。我知道你在这行已经 40 年了，你做过 Nuveen 的首席股票策略师，也在 BlackRock 担任过美国股票业务的 CIO。"
+    },
+    {
+      "i": 3,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "00:53",
+      "en": "You retired and then you came back to Cross Market, CEO and CIO. Can you walk us through that arc and what pulled you out of retirement? Yeah, let me do that part first.",
+      "zh": "后来你退休了，然后又回到 Crossmark 出任 CEO 兼 CIO。能给我们讲讲这段历程吗？是什么把你从退休生活里拉回来的？——好的，那我先说这部分。"
+    },
+    {
+      "i": 4,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "01:03",
+      "en": "I had no intention of retiring. I was eligible for retirement, so technically took it, but knew I was coming back and thankfully to Nuvine. So you just went through it briefly.",
+      "zh": "我本来并没有退休的打算。我只是到了符合退休条件的年纪，所以名义上办了退休，但我心里清楚自己还会回来，而且很幸运是回到 Nuveen。那我就简要地把这段经历过一遍。"
+    },
+    {
+      "i": 5,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "01:16",
+      "en": "I've been the investment management business my entire career. The consistent part has been managing money, U.S. large-cap money, mutual funds, SMAs, and now ETFs, and I've had some management leadership opportunities along the way, taken some of them, and they've extended me and hopefully we've done okay.",
+      "zh": "我整个职业生涯都在投资管理这个行业。始终不变的是管钱——美国大盘股的钱，先是共同基金、SMA（独立账户），现在又加上了 ETF。这一路上也遇到过一些管理层的机会，我接了其中几个，这些岗位对我都是历练，希望我们做得还算不错。"
+    },
+    {
+      "i": 6,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "01:41",
+      "en": "So I always ask everybody before we get into the business side of this, outside of work, what do you like to do? I keep pretty busy with music.",
+      "zh": "在聊业务之前，我总会问每位嘉宾一个问题：工作之外，你喜欢做什么？——我平时忙着玩音乐，挺充实的。"
+    },
+    {
+      "i": 7,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "01:51",
+      "en": "I direct the church choir and play keyboard, piano, and organ, and I'm on a bunch of faith-based boards. They keep me busy, too. So I don't have a lot of spare time to chase other things, although I do try to get exercise.",
+      "zh": "我担任教堂唱诗班的指挥，弹键盘、钢琴和管风琴，同时在好几个信仰类机构的理事会里任职，这些也挺占用我的时间。所以我没什么空闲去追别的爱好，不过我还是会尽量锻炼身体。"
+    },
+    {
+      "i": 8,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "02:08",
+      "en": "So let's talk about CrossMark. The firm has long heritage and value-based investing going back to the steward mutual funds. There are parents who aren't familiar with CrossMark.",
+      "zh": "那我们来聊聊 Crossmark。这家公司在价值观投资（values-based investing）上有很深的积淀，可以追溯到 Steward Mutual Funds。不过也有不少人还不熟悉 Crossmark。"
+    },
+    {
+      "i": 9,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "02:18",
+      "en": "Can you give us at a high level what's the firm and the philosophy? Sure. CrossMark's been around since 1987. We are owned by AG Financial, which is the financial arm of the Assemblies of God Church.",
+      "zh": "你能从大的层面给我们讲讲这家公司和它的投资理念吗？——当然。Crossmark 成立于 1987 年，我们的股东是 AG Financial，也就是 Assemblies of God 教会（神召会）旗下的金融机构。"
+    },
+    {
+      "i": 10,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "02:33",
+      "en": "We manage both values-based and non-values-based money, depending on the client and what their needs and desires are. We've managed SMAs for a long time, mutual funds in the last double-digit number of years, and more recently ETFs.",
+      "zh": "我们既管理价值观型（values-based）的资金，也管理非价值观型的资金，具体取决于客户以及他们的需求和意愿。我们做 SMA 已经很长时间了，共同基金也有十几个年头了，最近又开始做 ETF。"
+    },
+    {
+      "i": 11,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "02:54",
+      "en": "So in essence, help people line up their investments with their values. They can choose to do that with size and the SMA category. We can tailor it to their needs, wants, and desires, and it's a whole lot of fun trying to meet their needs.",
+      "zh": "所以本质上就是帮助人们让自己的投资与自己的价值观保持一致。——他们可以在 SMA 这个类别里按规模来选择，我们可以根据他们的需求、想法和意愿量身定制，努力去满足客户的需求，这件事本身非常有意思。"
+    },
+    {
+      "i": 12,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "03:14",
+      "en": "So values-based investing often can get confused with ESG, but they're actually quite different. Can you walk us through how the CrossMark approach differs from what people think typically of as ESG?",
+      "zh": "价值观投资经常会被人和 ESG 混为一谈，但两者其实很不一样。你能给我们讲讲 Crossmark 的做法和大家通常理解的 ESG 有什么区别吗？"
+    },
+    {
+      "i": 13,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "03:26",
+      "en": "Yeah. Thanks for making that observation. It is confusing to people, although these days, I'm not sure what ESG is. It's become so blurred. Value-based investing simply helps people line up what it is they invest in with what their values are.",
+      "zh": "嗯，谢谢你指出这一点。大家确实容易搞混，尽管如今我都不太确定 ESG 到底指什么了，它已经变得非常模糊。价值观投资做的事情很简单：帮助人们把自己投资的东西和自己的价值观对齐。"
+    },
+    {
+      "i": 14,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "03:47",
+      "en": "As a money manager, our responsibility is to figure out which companies to exclude from a portfolio, which ones to use the phrase include, I call it, give an extra kiss, and then along the way, how are we going to engage companies?",
+      "zh": "作为资产管理人，我们的责任是搞清楚：哪些公司要从组合里排除掉，哪些公司要——用我的话说——纳入进来、多给一个吻（extra kiss），以及在这个过程中，我们要怎么去和公司沟通接触（engage）。"
+    },
+    {
+      "i": 15,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "04:06",
+      "en": "There might be issues that if they overcome them, we might be willing to invest in them. So it's a process whereby, obviously, we start with the characteristics of a good company, a good plan, reasonable stock valuation, smart management, et cetera, et cetera.",
+      "zh": "有些公司可能存在问题，但如果它们解决了这些问题，我们也愿意投资。所以这是一个流程：显然，我们首先看的是一家好公司应具备的特征——好的规划、合理的股票估值、聪明的管理层，等等等等。"
+    },
+    {
+      "i": 16,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "04:30",
+      "en": "That's first and foremost, if you will, the secular characteristics to which we then add the values-based piece to it, and that's how we create portfolios.",
+      "zh": "这些是首要的、可以说是世俗层面（secular）的标准，在此之上我们再加一层价值观维度，我们就是这样构建投资组合的。"
+    },
+    {
+      "i": 17,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "04:41",
+      "en": "So the framework you actually use is avoid, embrace, engage. Can you talk us through what each of those pieces actually mean in practice? Sure.",
+      "zh": "所以你们实际使用的框架是「回避、拥抱、接触」（avoid, embrace, engage）。能给我们讲讲在实践中每一部分具体是什么意思吗？——好的。"
+    },
+    {
+      "i": 18,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "04:51",
+      "en": "The avoid is what companies are we not going to invest in? For example, companies that I like to say kill, maim, or a dick people, well own them.",
+      "zh": "「回避」就是我们不会投资哪些公司。比如说，我喜欢这么讲：那些害人性命、使人伤残、让人上瘾（addict）的公司，我们不会持有。"
+    },
+    {
+      "i": 19,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "05:05",
+      "en": "They're not good for society, if you will. And to be practical, I'm the large US equity manager, and so I use the Russell 1000 as benchmark thousand largest companies in the US.",
+      "zh": "可以说，这些公司对社会没有好处。说得实际一点，我管的是美国大盘股，所以我用 Russell 1000 作为基准，也就是美国最大的一千家公司。"
+    },
+    {
+      "i": 20,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "05:19",
+      "en": "Little more than 50 of them we exclude for the reasons I just gave you that add up to about 6% of the capitalization of the universe. So it's notable, but it's not a problem getting a good diversified portfolio and seeking to outperform.",
+      "zh": "按照我刚才说的那些理由，我们会排除其中 50 多家，加起来大约占整个投资范围市值的 6%。所以这个比例不算小，但要构建一个分散度良好、并力争跑赢基准的组合，完全不成问题。"
+    },
+    {
+      "i": 21,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "05:38",
+      "en": "By the way, there is no statistical evidence that you give up anything having a values-based portfolio relative to a non-values-based portfolio.",
+      "zh": "顺便说一句，从统计证据来看，持有价值观型组合相比非价值观型组合，你并没有牺牲什么收益。"
+    },
+    {
+      "i": 22,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "05:51",
+      "en": "So it's not like, well, how much do I have to give up to get these portfolios? So that in brief is the exclude part, the include. I like to say, I use this phrase a minute ago, we like to give an extra kiss to companies that are doing good.",
+      "zh": "所以并不存在「为了拿到这样的组合，我得放弃多少收益」这种问题。以上就是排除部分，简要地说。接下来是纳入部分——刚才我用了这个说法——我们愿意给那些在做善事的公司多一个吻（extra kiss）。"
+    },
+    {
+      "i": 23,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "06:09",
+      "en": "And that's measured lots of different ways, but it's an objective process. How do they treat their employees, their customers, their suppliers, their community?",
+      "zh": "衡量方式有很多种，但这是一个客观的流程：公司怎么对待员工、客户、供应商，怎么对待所在的社区？"
+    },
+    {
+      "i": 24,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "06:20",
+      "en": "And they get points, like I said, an objective measure. So if you score high on the secular side and the extra kiss, you're more likely to make it in the portfolio.",
+      "zh": "就像我说的，这些都会打分，是客观的衡量。所以如果一家公司在世俗指标和这个「加分项」上得分都高，它就更有可能进入组合。"
+    },
+    {
+      "i": 25,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "06:33",
+      "en": "The third piece is, as you mentioned, the engage piece. Companies that are on the periphery. If you would do this or not do that company management, we might consider investing in you.",
+      "zh": "第三部分就是你提到的「接触」。有些公司处在边缘地带，我们会跟公司管理层说：如果你能做这件事、或者不再做那件事，我们就可能考虑投资你。"
+    },
+    {
+      "i": 26,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "06:47",
+      "en": "It's sometimes via a letter, it's sometimes a phone call, it's sometimes in coordination with other money managers to move that process along, try to get their attention, and sometimes we do.",
+      "zh": "有时候是写信，有时候是打电话，有时候还会和其他资产管理人协调一致来推进这个过程，尽量引起他们的重视，有时候我们确实做到了。"
+    },
+    {
+      "i": 27,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "07:01",
+      "en": "Interesting. So this show is about ETFs. You guys launched two ETFs back in July of 2025, CLCG, which is your large cap growth and CLCV for large cap value.",
+      "zh": "有意思。这档节目是讲 ETF 的。你们在 2025 年 7 月推出了两只 ETF：CLCG，是你们的大盘成长基金；还有 CLCV，是大盘价值基金。"
+    },
+    {
+      "i": 28,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "07:15",
+      "en": "Just past the one year mark. Can you give us a big picture on the funds and really what they're trying to accomplish and a whole they're trying to fill in the marketplace?",
+      "zh": "刚过一周年。你能从整体上给我们讲讲这两只基金吗？它们到底想实现什么目标、想填补市场上的哪一块空白？"
+    },
+    {
+      "i": 29,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "07:25",
+      "en": "Yeah, Brad, these are both values based, as you mentioned, large cap growth and large cap value. They're patterned after our SMAs. There are very few, in fact, we launched, there were no other faith-based, actively managed large cap value and large cap growth products.",
+      "zh": "好的，Brad。就像你说的，这两只都是价值观型的，分别是大盘成长和大盘价值，它们是以我们的 SMA 策略为蓝本做的。同类产品非常少——事实上我们发行的时候，市场上没有别的信仰型（faith-based）主动管理大盘价值和大盘成长产品。"
+    },
+    {
+      "i": 30,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "07:45",
+      "en": "So it fits that need and that niche for somebody who's looking to fill that hole in an ETF to round out a portfolio. So the goal of the growth one is to beat other growth indices in particular, the Russell 1000 Growth Index, and on the value side, the same thing, the Russell 1000 Value Index.",
+      "zh": "所以它正好满足了这类需求和细分空白，适合那些想用一只 ETF 把这个空缺补上、让组合更完整的人。成长型基金的目标是跑赢其他成长指数，尤其是 Russell 1000 Growth 指数；价值那边也一样，对标 Russell 1000 Value 指数。"
+    },
+    {
+      "i": 31,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "08:08",
+      "en": "So actively traded, as we know, tax manages the ETFs are and liquidity available are the characteristics of these ETFs. So the construction I look at it as a fairly specific mix, it's 75% quantitative, multi-factor, 25% this value overlay.",
+      "zh": "我们知道，可以在盘中交易、税收管理（tax managed）、以及流动性可得，这些都是 ETF 的特点。从构建方式来看，我觉得这是一个相当明确的混合：75% 是量化多因子（multi-factor），25% 是价值观叠加层（values overlay）。"
+    },
+    {
+      "i": 32,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "08:29",
+      "en": "Can you talk us through how those two pieces work together? Sure. A couple words individually and then how we put them together, which is pretty simple.",
+      "zh": "你能给我们讲讲这两部分是怎么协同运作的吗？——好的。我先分别说几句，然后再讲我们怎么把它们合在一起，其实挺简单的。"
+    },
+    {
+      "i": 33,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "08:38",
+      "en": "The secular piece, as I like to call it, is what's the company fundamentals look like? What's the earnings progression, cash flow? What's the valuation of the stock?",
+      "zh": "我所说的世俗部分，看的是公司基本面怎么样：盈利增长路径如何、现金流如何、股票的估值是多少。"
+    },
+    {
+      "i": 34,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "08:49",
+      "en": "What's the assessment of the company's ability to engage and deliver on a strategic plan? Lots of different return variables. There are several dozen variables in that quantitative secular piece.",
+      "zh": "还有对公司执行并兑现战略规划能力的评估，涉及很多不同的回报变量。那个量化的世俗部分里有几十个变量。"
+    },
+    {
+      "i": 35,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "09:06",
+      "en": "As I mentioned a minute ago, the 25%, the values-based piece, is objective as well. We score these and add them up for a company. And so in sense, there are two different scores.",
+      "zh": "正如我刚才提到的，那 25% 的价值观部分同样是客观的。我们会给一家公司在这些维度上打分并加总。所以某种意义上说，有两套不同的分数。"
+    },
+    {
+      "i": 36,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "09:20",
+      "en": "We add them up with the 75, 25 weighting, come up with an overall score. And that helps us, it's not the answer, it's the starting point to what might we put in the portfolio, a high score and you're more eligible and more likely to make it in the portfolio and vice versa.",
+      "zh": "我们按 75、25 的权重把它们加总，得出一个综合分数。这能帮我们做判断——它不是答案，而是「哪些股票可以放进组合」的起点：分数高，你就更有资格、更有可能进入组合，反之亦然。"
+    },
+    {
+      "i": 37,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "09:37",
+      "en": "Just curious quickly, Bob, how often are you rerunning that screen? Yeah, thanks for asking. Every day. Now the values part of it hardly ever changes.",
+      "zh": "快速问一句，Bob，你们多久重跑一次这个筛选？——谢谢提问，每天都跑。当然，价值观那部分几乎不会变。"
+    },
+    {
+      "i": 38,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "09:47",
+      "en": "I shouldn't say hardly ever. It changes very slowly over time. The other 75%, parts of that change more often. But every day I get a new run, a computer run, which looks at the portfolio, looks at the universe, gives us the quantitative ranking.",
+      "zh": "我不该说「几乎不会变」，它是随时间非常缓慢地变化。另外那 75% 里有些部分变化更频繁。但我每天都会得到一次新的运算结果，一次计算机跑出来的结果，它会检视组合、检视整个股票池，给出量化排名。"
+    },
+    {
+      "i": 39,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "10:06",
+      "en": "Now, needless to say that when I got this morning, there's not a whole lot different from the one I got yesterday. But where there are changes, we want to identify them and make sure we understand them.",
+      "zh": "不用说，我今天早上拿到的结果和昨天的差别不大。但只要有变化，我们就会把它识别出来，确保自己理解这个变化。"
+    },
+    {
+      "i": 40,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "10:16",
+      "en": "Yeah. And just out of curiosity, you talked about the factors such as valuation, earnings dynamics, profitability. Which of these is doing the heavy lifting in this current market environment?",
+      "zh": "嗯，出于好奇再问一句：你提到了估值、盈利动能、盈利能力这些因子，在当前这个市场环境下，哪一个在真正出力、贡献最大？"
+    },
+    {
+      "i": 41,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "10:28",
+      "en": "Yeah, at the moment, I would say the common factors of return on equity and price to free cash flow are the most important. We are in an environment where the cycle, the economic cycle is fairly long in the tooth, stocks are not all that cheap.",
+      "zh": "目前我会说，最常见的两个因子——净资产收益率（return on equity）和股价对自由现金流（price to free cash flow）——是最重要的。我们所处的环境是：经济周期已经走了相当长的时间（long in the tooth），股票也不算便宜。"
+    },
+    {
+      "i": 42,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "10:48",
+      "en": "There are a lot of question marks and issues around the world with interest rates and inflation and more and oil prices and all those good things.",
+      "zh": "全球范围内还有很多问号和不确定性：利率、通胀，还有油价等等这些「好东西」。"
+    },
+    {
+      "i": 43,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "10:56",
+      "en": "So we are relying more heavily than ever on those two to repeat price to free cash flow and return on equity. So let's dig a little bit deeper into CLCG.",
+      "zh": "所以我们对这两个因子的依赖比以往任何时候都更重，再重复一遍：股价对自由现金流和净资产收益率。——那我们再深入聊聊 CLCG。"
+    },
+    {
+      "i": 44,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "11:07",
+      "en": "I don't want to name any positions, but your top 10 is nearly 60% of the fund. Can you walk us through how you get to that level of concentration and is concentration part of this growth factor to enable you to get outsized returns?",
+      "zh": "我不想点名具体持仓，但你们的前十大持仓几乎占到基金的 60%。能给我们讲讲你们是怎么做到这么高的集中度的吗？集中度是不是成长因子的一部分，用来帮你们获取超额收益？"
+    },
+    {
+      "i": 45,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "11:22",
+      "en": "Actually, the index, the Russell 1000 growth index is more concentrated than our portfolio. Many of the names you see in the top five or 10 are common names.",
+      "zh": "实际上，Russell 1000 Growth 指数比我们的组合还要集中。你看到的前五或前十大持仓里，很多都是大家共同持有的名字。"
+    },
+    {
+      "i": 46,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "11:32",
+      "en": "They're the big names in the benchmark and actually more of them are underweights versus the benchmark than overweights. So part of our risk management is if a name is 5% in the index, we could be plus 2 or minus 2.",
+      "zh": "它们都是基准里的权重股，而且其中相对基准低配的数量其实比超配的还多。我们的风险管理有一部分就是：如果某只股票在指数里占 5%，我们可以上下浮动 2 个百分点。"
+    },
+    {
+      "i": 47,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "11:46",
+      "en": "So even though I don't like a company, if it's 5% in the index, we're going to have 3% in there for risk management purposes. So that's a lot of how you get those weightings.",
+      "zh": "所以即使我不喜欢某家公司，只要它在指数里占 5%，出于风险管理的目的，我们组合里也会持有 3%。这些权重很大程度上就是这么来的。"
+    },
+    {
+      "i": 48,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "11:57",
+      "en": "The growth index with the emphasis and prevalence of the magnificent 7 has grown in recent years and that's why these portfolios can be more concentrated.",
+      "zh": "近几年，随着「七巨头」（Magnificent 7）的突出和主导，成长指数本身已经变得更集中了，这也是为什么这类组合可以更加集中。"
+    },
+    {
+      "i": 49,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "12:09",
+      "en": "But we actually have to repeat lower weightings in many of those top 10 than the benchmark. And so is that have to do? So the other thing I noticed is for a growth fund, CLCG has a heavier overweight in terms of financials towards the index.",
+      "zh": "但要再重复一次，我们在前十大里的很多股票上，权重其实是低于基准的。——那这一点又说明了什么呢？另外我注意到的是，作为一只成长型基金，CLCG 在金融板块上相对指数有明显的超配。"
+    },
+    {
+      "i": 50,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "12:27",
+      "en": "That's a little bit unusual for growth fund nowadays. Can you talk about that positioning? Does it just have to do with diversification? Yeah. So actually, we positively like many of the fundamentals.",
+      "zh": "这对如今的成长型基金来说有点不寻常。能谈谈这个配置吗？只是为了分散化吗？——嗯，其实我们确实喜欢其中很多公司的基本面。"
+    },
+    {
+      "i": 51,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "12:38",
+      "en": "As you observe, there are fewer of them in the growth index than there are in the value index. But those that are there, we tend to pay attention to financial services.",
+      "zh": "就像你观察到的，成长指数里的金融股比价值指数里少。但对于指数里存在的那些，我们往往会多加关注，尤其是金融服务。"
+    },
+    {
+      "i": 52,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "12:47",
+      "en": "The banks are important to us in both portfolios. So let's move over to CLCV, which is your values fund. It's a very different construction, 56 holdings, much more spread out.",
+      "zh": "银行股在我们的两只组合里都很重要。——那我们转到 CLCV，也就是你们的价值基金。它的构建方式很不一样，56 只持仓，分散得多。"
+    },
+    {
+      "i": 53,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "13:02",
+      "en": "What's driving that diversification difference between the two funds? That is driven entirely by the benchmark. The growth index, the Russell 1000 growth index is far more concentrated than the value index.",
+      "zh": "是什么造成两只基金在分散度上的差异？——这完全是由基准决定的。成长指数，也就是 Russell 1000 Growth 指数，比价值指数集中得多。"
+    },
+    {
+      "i": 54,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "13:16",
+      "en": "And therefore, there are fewer names that we must own that benchmark weight minus two, if you will. And so that enables us to own more names.",
+      "zh": "因此，那些我们必须持有、权重不能低于基准减 2 个百分点的股票就更少，这就让我们能够持有更多股票。"
+    },
+    {
+      "i": 55,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "13:27",
+      "en": "And there are far more names. The Russell 1000 value index has more than 800 names. The Russell 1000 growth index has only about 300 names. So you can see that difference is the prime driver of what a portfolio looks like that's trying to beat those benchmarks.",
+      "zh": "而且股票数量本来就多得多：Russell 1000 Value 指数有 800 多只成分股，Russell 1000 Growth 指数只有大约 300 只。所以你能看出，这个差异正是一个想要跑赢这些基准的组合长成什么样的首要决定因素。"
+    },
+    {
+      "i": 56,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "13:45",
+      "en": "So similarly to growth, we're seeing a little bit of a sector tilt overweight in financials. You've also got some overweight in industrials and information technology.",
+      "zh": "和成长那只类似，我们看到这里也有一定的板块倾斜，金融板块超配，另外工业和信息技术板块也有一些超配。"
+    },
+    {
+      "i": 57,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "13:53",
+      "en": "Can you talk us through where you're finding value today and maybe some sectors you're trying to avoid that don't look as attractive? Yeah. So financials, a few more comments since we're overweight in both portfolios.",
+      "zh": "能给我们讲讲你现在在哪里找到价值吗？另外有没有哪些你觉得吸引力不足、正在回避的板块？——好。先说金融，既然我们在两只组合里都超配，我多讲几句。"
+    },
+    {
+      "i": 58,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "14:05",
+      "en": "We like financials, particularly the banks. There are several reasons. One, these stocks and our view are fairly cheap relative to the rest of the market.",
+      "zh": "我们喜欢金融股，尤其是银行股。原因有几个。第一，在我们看来，相比市场其他部分，这些股票相当便宜。"
+    },
+    {
+      "i": 59,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "14:14",
+      "en": "Two, they're the biggest beneficiaries of deregulation, which is happening at a quick pace. We don't read a lot about it because there's so much else in the news.",
+      "zh": "第二，它们是放松监管（deregulation）最大的受益者，而放松监管正在快速推进。我们平时看不到太多相关报道，因为新闻里别的事情太多了。"
+    },
+    {
+      "i": 60,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "14:26",
+      "en": "And the balance sheets of financials, again, banks in particular, are healthier today than normal at this point in the economic cycle because a lot of the lending took place outside the banking system, notably in private credit.",
+      "zh": "另外，金融企业——尤其是银行——的资产负债表，今天比经济周期这个阶段的正常水平更健康，因为很多放贷活动发生在银行体系之外，尤其是在私募信贷（private credit）领域。"
+    },
+    {
+      "i": 61,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "14:40",
+      "en": "So that's among the reasons we like the financials. Our underweights tend to be in the more defensive areas, consumer staples, which are reasonable to expensive stocks with mixed fundamentals.",
+      "zh": "这些都是我们看好金融股的原因。我们低配的往往是偏防御的领域，比如必需消费品——这些股票估值从合理到偏贵都有，基本面也参差不齐。"
+    },
+    {
+      "i": 62,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "14:56",
+      "en": "We're also underweight healthcare, although we're looking hard to find some more healthcare names in the portfolio. It's a good diversifier.",
+      "zh": "我们也低配医疗保健板块，不过我们正在努力找，想在组合里多放一些医疗保健的股票，它是一个不错的分散化工具。"
+    },
+    {
+      "i": 63,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "15:03",
+      "en": "So as we all know, growth has dominated value for much of the last decade. Where do you think we are in that cycle right now? And does that setup for value look different than it has for a very long time?",
+      "zh": "我们都知道，过去十年的大部分时间里，成长股都压着价值股。你觉得我们现在处在这个周期的什么位置？价值股现在面临的格局，是不是和过去很长一段时间都不一样了？"
+    },
+    {
+      "i": 64,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "15:14",
+      "en": "Yeah, as you know, Brad, so far this year, value has crushed growth after a lot of years where it's been the other way around. So our view is value has come back and deserves a place in the portfolio.",
+      "zh": "嗯，Brad 你也知道，今年以来价值股把成长股打得很惨，而在此之前的很多年里情况正好相反。所以我们的看法是：价值已经回归，它值得在组合里占有一席之地。"
+    },
+    {
+      "i": 65,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "15:29",
+      "en": "I find a lot of portfolios that maybe don't get tended to all that often are way overweight growth on an underweight value, have struggled this year, getting a little more balance in the portfolio, we think make sense.",
+      "zh": "我发现很多可能平时不太打理的组合，严重超配成长、低配价值，今年都过得很艰难。让组合多一点平衡，我们认为是有道理的。"
+    },
+    {
+      "i": 66,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "15:42",
+      "en": "So while we're talking about markets here a little bit, you're famous for your annual 10 predictions and event people kind of wait for every year.",
+      "zh": "既然聊到了市场，你以每年的「十大预测」出名，大家每年都会等着看。"
+    },
+    {
+      "i": 67,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "15:49",
+      "en": "Can you give us a taste of what you're watching heading in the back half of 26 and maybe into 27? Yeah, I don't give any thought to next year's predictions till December, but you're always trying to monitor what's going on.",
+      "zh": "能不能给我们透露一点，你在 26 年下半年乃至 27 年会关注什么？——嗯，我一般要到 12 月才会去想明年的预测，但你总归是一直在盯着市场动向。"
+    },
+    {
+      "i": 68,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "16:02",
+      "en": "I'd say what's really important now, both to get right or wrong, the 26 predictions and how we will begin to look at 2027 is inflation. Inflation is not high, but it's not low as the Fed wants it to be.",
+      "zh": "我要说的是，现在真正重要的事情——无论是 26 年的预测判断对错，还是我们开始怎么看 2027 年——都是通胀。通胀不算高，但也没有低到 Fed 想要的水平。"
+    },
+    {
+      "i": 69,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "16:22",
+      "en": "Probably where the Fed has said for five years in a row, this is the sixth year, inflation target is 2%. They've missed the target, this will be the sixth year in a row.",
+      "zh": "很可能，Fed 已经连续五年——今年将是第六年——说通胀目标是 2%，而他们都没达到这个目标，这将连续第六年未达标。"
+    },
+    {
+      "i": 70,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "16:33",
+      "en": "And so that I think in their ability or desire or willingness to tackle inflation will have a lot to do with the outlook going forward. So let's get back to the funds really quickly.",
+      "zh": "所以我认为，他们治理通胀的能力、意愿或者决心，将很大程度上决定未来的前景。——那我们赶紧回到基金本身。"
+    },
+    {
+      "i": 71,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "16:46",
+      "en": "The important question here is for an advisor thinking about these funds, how would you position them in a portfolio and does the value-based screen resonate with a broader audience than maybe people might expect?",
+      "zh": "这里一个重要的问题是：对于一位在考虑这些基金的理财顾问来说，你会怎么在组合中给它们定位？另外，这种价值观筛选（values-based screen）会不会比人们想象的更能引起更广泛群体的共鸣？"
+    },
+    {
+      "i": 72,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "16:58",
+      "en": "Yeah, that last point is very interesting. We have a bunch of people in not just the ETFs, but our longer-dated products that don't represent to be a faith in any way, shape, or form. And when you ask them, well, then why are you in these products? The response truly is you've got good products, performance is good, you've got good service, we trust you, given what you stand for, and therefore please invest our money. So it's interesting who might",
+      "zh": "嗯，最后这一点非常有意思。不管是 ETF，还是我们那些历史更久的产品，都有相当多的客户完全不是以任何形式表明自己信仰的人。你问他们：那你们为什么买这些产品？他们的回答真的很实在：你们产品好、业绩好、服务好，鉴于你们所坚持的东西，我们信任你们，所以请把我们的钱交给你们来投。所以很有意思的是，会有什么样的人"
+    },
+    {
+      "i": 73,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "17:28",
+      "en": "be there. But for FAs who are looking particularly for ETFs and want to create, as many do, an asset allocation basket, for the active part of large cap US, there are not a lot of choices out there. We hope to be two of those choices that make sense.",
+      "zh": "出现在这里。但对于那些特别在找 ETF、想（像很多人那样）搭一个资产配置篮子的理财顾问（FA）来说，在美国大盘股的主动管理这一块，市场上的选择并不多。我们希望自己能成为其中两个说得过去的选择。"
+    },
+    {
+      "i": 74,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "17:48",
+      "en": "So just curious at a company level with Crossmark, such a rich history in mutual funds, what do you think you've learned or what is different maybe about being in the ETF space or ecosystem than being in the mutual fund or SMA space?",
+      "zh": "好奇问一下，从公司层面看，Crossmark 在共同基金领域有这么丰富的历史，你觉得你们学到了什么？或者说，做 ETF 和做共同基金、SMA 相比，在 ETF 这个领域或生态里有什么不一样？"
+    },
+    {
+      "i": 75,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "18:02",
+      "en": "Yeah, a good subject. I remember about a year and a half ago saying to my management team, we can survive without ETFs, but we are unlikely to thrive without ETFs. So let's go on and create a couple and we have more on the drawing board as time goes by. Look, the marketplace dictates to us what the vehicle should be. We're agnostic. I'll walk into a financial advisor's office and he might say, we have interest in large cap growth. What do you have for us? I say, well,",
+      "zh": "嗯，这是个好话题。我记得大概一年半以前，我跟我的管理团队说：没有 ETF 我们能活下来，但没有 ETF 我们很难繁荣发展。所以我们就动手做了几只，随着时间推移还有更多在规划之中。要知道，是市场决定我们该用什么载体，我们对此没有偏好（agnostic）。我走进一位理财顾问的办公室，他可能会说：我们对大盘成长有兴趣，你们有什么产品？我会说，嗯，"
+    },
+    {
+      "i": 76,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "18:37",
+      "en": "what do you want? Do you want a mutual fund? Do you want an SMA? Do you want an ETF? We're agnostic, so help us figure out what it is you're trying to do with your clients and we have a product that fit the bill. I don't want to get too much into specifics, but one of my questions was, are we going to see more from Crossmark? Are you just listening to the marketplace or are you actively know where your product roadmap is heading here in the near future?",
+      "zh": "你想要什么？想要共同基金？想要 SMA？还是想要 ETF？我们不挑载体，所以请帮我们弄清楚你想为客户做什么，我们总有合适的产品。——我不想太深入细节，但我的一个问题就是：我们还会看到 Crossmark 推出更多产品吗？你们只是在听市场的声音，还是说你们心里已经很清楚近期的产品路线图要往哪走？"
+    },
+    {
+      "i": 77,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "19:05",
+      "en": "So we feel we've got plenty of mutual funds and plenty of SMAs. We need and want more ETFs and we will round them out as time goes by. We want to make sure that the two that we've launched get critical mass, come into profitability before we bring the next two on board, but there will be more coming from Crossmark as time goes by.",
+      "zh": "我们觉得自己的共同基金已经足够多，SMA 也足够多。我们需要、也想要更多的 ETF，会随着时间把它们补齐。我们希望先确保已经发行的这两只达到足够的规模、实现盈利，然后再推出下两只，但 Crossmark 后续一定还会有更多产品。"
+    },
+    {
+      "i": 78,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "19:33",
+      "en": "Well, Bob, I can't tell you how much I appreciate your time with me today. Before I can let you go, where can people learn more about Crossmark, your entire suite of products, and obviously, these two ETFs? The best place to go is our website and there's lots of information there about who we are, what we manage, obviously, including the ETFs. Brad, thanks for the opportunity. It's been a joy on my side as well. Yeah, thanks for being with me today.",
+      "zh": "Bob，我真不知道怎么感谢你今天抽出时间。在放你走之前，大家可以在哪里更多地了解 Crossmark、你们整套产品线，当然还有这两只 ETF？——最好的地方就是我们的网站，上面有很多信息，介绍我们是谁、我们管理什么，当然也包括这些 ETF。Brad，谢谢你给我这个机会，我这边也非常愉快。——好，谢谢你今天来。"
+    }
+  ]
+}

@@ -1,0 +1,1489 @@
+{
+  "show": "swimming-with-allocators",
+  "kind": "transcript",
+  "id": "swimming-with-allocators-51f12cf2",
+  "slug": "2026-10-07-lp-destroys-fees-on-fees-51f12cf2",
+  "date": "2026-10-07",
+  "title_en": "LP Destroys ‘Fees on Fees’",
+  "title_zh": "Dan（Summation）：LP 炮轰'fees on fees'",
+  "subtitle_zh": "Summation 首号员工 Dan 谈捐赠基金式永续 PE FOF、层层收费争议与 LP 关系经营。",
+  "description": "LP Destroys ‘Fees on Fees’",
+  "duration": "42:41",
+  "duration_seconds": 2561,
+  "episode_url": null,
+  "audio_url": "https://traffic.megaphone.fm/TGL9266384123.mp3",
+  "speakers": {
+    "1": "Alexa Binns（主持）",
+    "2": "Earnest Sweat（主持）",
+    "3": "Dan（Summation，嘉宾）",
+    "4": "Shane Goudey（Sidley，赞助环节嘉宾）",
+    "5": "片花/广告（旁白）"
+  },
+  "turn_count": 183,
+  "turns": [
+    {
+      "i": 0,
+      "speaker": 5,
+      "speaker_zh": 5,
+      "ts": "00:00",
+      "en": "Buy smart, drive for less, and trade for more. That's Toyota Fortability. And it starts with a great deal on an all-wheel drive Camry, Corolla Cross, or Corolla Sedan with the latest features in tech, or Test Drive a spacious Grand Highlander or Adventure Ready RAV4.",
+      "zh": "聪明买车、省钱开车、高价置换，这就是 Toyota Fortability。先从一款优惠力度的全轮驱动 Camry、Corolla Cross 或 Corolla Sedan 开始，配备最新科技配置，或者试驾宽敞的 Grand Highlander 和越野范儿的 RAV4。"
+    },
+    {
+      "i": 1,
+      "speaker": 5,
+      "speaker_zh": 5,
+      "ts": "00:15",
+      "en": "And with so many hybrid models available, you can enjoy longer trips without all the stops, while Toyota's legendary resale value means you could get more at Trade-In.",
+      "zh": "混动版车型选择多多，长途出行不用频繁停靠加油；而 Toyota 传奇的保值率意味着你置换时能卖个更好的价钱。"
+    },
+    {
+      "i": 2,
+      "speaker": 5,
+      "speaker_zh": 5,
+      "ts": "00:23",
+      "en": "Get a great deal today and a great value tomorrow. Shop toyota.com for deals and details. Toyota, let's go places. Life is all about making decisions.",
+      "zh": "今天买得划算，明天更值钱。上 toyota.com 查看优惠详情。Toyota，让我们一起出发。人生就是不断做决定。"
+    },
+    {
+      "i": 3,
+      "speaker": 5,
+      "speaker_zh": 5,
+      "ts": "00:34",
+      "en": "Sometimes you make questionable ones. Like buying a new TV that's too big for the wall because the electronics store employee was a little too good at their job.",
+      "zh": "有时候你也会做一些让人摸不着头脑的决定，比如被电器店的销售忽悠得太到位，结果买了一台对家里那面墙来说实在太大的电视。"
+    },
+    {
+      "i": 4,
+      "speaker": 5,
+      "speaker_zh": 5,
+      "ts": "00:43",
+      "en": "Then sometimes you make great ones, like protecting your home and auto with Progressive. You get customized coverage options, so you can be sure you have the right coverage.",
+      "zh": "有时候你也会做非常明智的决定，比如给房子和车子投保 Progressive。定制化的保险方案让你确信自己买对了保障。"
+    },
+    {
+      "i": 5,
+      "speaker": 5,
+      "speaker_zh": 5,
+      "ts": "00:53",
+      "en": "Get your quote today at Progressive.com, Progressive Casualty Insurance Company affiliates and other insurers not available in all states. Welcome to Swimming with Alligators.",
+      "zh": "今天就上 Progressive.com 获取报价。Progressive Casualty Insurance Company 及其关联保险人在部分州不提供产品。欢迎收听 Swimming with Allocators。"
+    },
+    {
+      "i": 6,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "01:05",
+      "en": "The VC podcast from the LP perspective. With your host, Alexa Bins. And Ernest Slecht. You ready? Let's dive in. Then it's great to have you on the show.",
+      "zh": "一档从 LP 视角出发的 VC 播客。主持人是 Alexa Binz 和 Ernest Sepp。准备好了吗？让我们一起 dive in。Dan，非常高兴你能来到我们的节目。"
+    },
+    {
+      "i": 7,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "01:16",
+      "en": "Thanks for being on. Of course. One thing that I wanted to talk to you about that I was interested in from our pre-conversation was how you came from Baltimore.",
+      "zh": "感谢你来上节目。——应该的。之前预沟通时我特别感兴趣的一个话题是：你是怎么从 Baltimore 走出来的。"
+    },
+    {
+      "i": 8,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "01:27",
+      "en": "I'm not gonna stop there because it'd be like, how did you get out of Baltimore? No. How? How, you know, your background from Baltimore to Cornell and how you first got pulled into finance and private markets.",
+      "zh": "我这么说没有别的意思，不然听着就像'你怎么从 Baltimore 逃出来的？'——不是的。我想问的是：你的成长路径，从 Baltimore 到 Cornell，以及你最初是怎么被拉进金融和私募市场这个圈子的。"
+    },
+    {
+      "i": 9,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "01:42",
+      "en": "I just want you to share that story. Yeah. So, you know, I was born and raised right outside of Baltimore and I came out of the womb immediately knowing I want to allocate to venture and private equity funds.",
+      "zh": "就想请你分享一下这段故事。——好的。我出生在 Baltimore 郊区、也在那儿长大，可以说一出娘胎就知道自己以后要给 VC 和 PE 基金做配置。"
+    },
+    {
+      "i": 10,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "01:54",
+      "en": "My first word was actually it was an acronym. It was LPA. Now, in all seriousness, I always loved, kind of, you know, classic story, you know, math and science and reading, kind of sci-fi and all of that.",
+      "zh": "我说的第一个词其实是个缩写，是 LPA（有限合伙协议）。说正经的，我从小就喜欢那种经典套路——数学、科学、读书、科幻之类的东西。"
+    },
+    {
+      "i": 11,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "02:09",
+      "en": "My dad was recently retired actually, but he was for 37 years worked for the DOD as an engineer. So, you know, blowing stuff up and seeing what happens is literally about all I know of his job.",
+      "zh": "我爸最近刚退休，之前在美国国防部（DOD）做了 37 年工程师。所以对他这份工作，我基本只知道'把东西炸掉看看会发生什么'。"
+    },
+    {
+      "i": 12,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "02:21",
+      "en": "So I kind of always been, you know, cognizant of, you know, the kind of, you know, tech broadly. So, you know, everything from the, you know, computer games and runescape back in the day to, you know, my dad being an engineer, you know, I'd always kind of thought about that.",
+      "zh": "所以我一直对广义的科技领域比较敏感。从当年玩电脑游戏、跑 Runescape，到我爸是工程师，我一直会琢磨这方面的事。"
+    },
+    {
+      "i": 13,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "02:34",
+      "en": "And then, you know, somewhat also my mom being a public school teacher, also really respecting, you know, kind of folks that are doing things that are a little bit more, you know, call it, you know, selfless or, you know, kind of the more humanity side of things.",
+      "zh": "再加上我妈是公立学校的老师，我也特别尊敬那种做的事情更'无私'一点、更贴近人本身的人。"
+    },
+    {
+      "i": 14,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "02:48",
+      "en": "So, you know, long-winded way of saying, I got to Cornell and I originally actually applied into the arts and sciences program and then decided to be kind of econ or econ math or something in that vein.",
+      "zh": "啰嗦这么多，其实想说的是：我到了 Cornell 之后，一开始申请的是文理学院，后来决定读经济或者经济数学之类的方向。"
+    },
+    {
+      "i": 15,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "03:00",
+      "en": "And, you know, I kind of realized after I got to campus that I really, you know, I wanted to kind of marry, you know, the quantitative background, but also, you know, I'm much more of a people person, but also, you know, I knew I eventually wanted to do something that in some way, shape or form makes the world a better place.",
+      "zh": "进了校园之后我才慢慢意识到，我一方面想把量化背景结合起来，另一方面我其实更喜欢跟人打交道；而且我心里清楚，将来总归要做的，是某种形式上能让世界变得更好一点的事情。"
+    },
+    {
+      "i": 16,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "03:15",
+      "en": "You know, one of my, you know, great mentors is the CEO of a very large construction company. And, you know, he grew up East Baltimore, son of I think seven or eight and, you know, kind of classic American story pulled up by the brooch traps.",
+      "zh": "我很重要的一位导师是一家大型建筑公司的 CEO。他在东 Baltimore 长大，家里好像有七八个孩子，是很典型的美式'白手起家'故事。"
+    },
+    {
+      "i": 17,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "03:28",
+      "en": "And something I learned from him was, you know, not necessarily having to go out immediately and, you know, working for a nonprofit or whatever, but there are other ways to kind of, you know, go into this, you know, kind of lead the world to a better place, so to speak.",
+      "zh": "我从他身上学到的一点是：不一定要一毕业就跑去非营利机构工作，还有很多其他路径，可以让你以自己的方式把世界带向更好的方向。"
+    },
+    {
+      "i": 18,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "03:39",
+      "en": "So, I know I'm pulling on many threads there, but I ended up, you know, joining or kind of transferring into the operations research engineering department at Cornell, which, you know, it's kind of the, you know, if, you know, math, statistics, computer science, business, all kind of had, you know, a love child, so to speak that, that would be what OR is.",
+      "zh": "我知道我讲得有点散，但最后我转进了 Cornell 的运筹工程（Operations Research Engineering）系。这个专业怎么形容呢——如果数学、统计、计算机、商业生了一个'爱情结晶'，那就是 OR。"
+    },
+    {
+      "i": 19,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "03:58",
+      "en": "And, you know, I really enjoy kind of the quantitative side of things, but always, you know, was able to, you know, think that, okay, I'm going to do something more on the people side of things.",
+      "zh": "我确实很享受量化的一面，但心里也一直清楚：好，我将来要做的事情会更偏'人'这一侧。"
+    },
+    {
+      "i": 20,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "04:06",
+      "en": "I want to, you know, be able to go into a career where I can, you know, make enough money where I can give back in some way, shape or form over the long term.",
+      "zh": "我想找一份能让我赚到足够多的钱、从而能在长期里以某种方式回馈社会的职业。"
+    },
+    {
+      "i": 21,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "04:13",
+      "en": "And then I frankly just kind of fell in love with the venture capital, you know, industry broadly. The Cornell Endowment, I think it's about 10 billion.",
+      "zh": "后来我就这么坦率地爱上了整个 VC 行业。Cornell 的捐赠基金规模我记得大概是 100 亿美元。"
+    },
+    {
+      "i": 22,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "04:20",
+      "en": "You were there at this inflection point. Over those four years, is there a favorite story you can share? You're talking about sort of the human side of this and, like, just any favorite memory or something that comes to mind?",
+      "zh": "你正好在那个拐点上。那四年里，有没有一个你特别喜欢的故事可以分享？你刚才聊到了'人'这一面，有没有什么难忘的记忆或者第一时间冒出来的画面？"
+    },
+    {
+      "i": 23,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "04:34",
+      "en": "Yeah, I'd say there are two. One kind of reflects back on my past and one kind of ties in with summation now. You know, it kind of goes without saying and it's almost table stakes that I got to, you know, meet incredible people, you know, from all walks of life, some of the most successful investors, you know, in the world at a very young age.",
+      "zh": "有两个吧。一个是回望过去的，一个跟现在的 Summation 有关。不用多说、也几乎是标配：我在很年轻的时候就见到了各行各业非常了不起的人，包括全球最成功的一些投资人。"
+    },
+    {
+      "i": 24,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "04:53",
+      "en": "I mean, you know, the fact that, you know, when you're an LP, you're meeting typically with, you know, the heads of firms, you know, the managing partners and GPs and IR folks, you know, incredible exposure for a relatively young age.",
+      "zh": "毕竟作为 LP，你日常打交道的都是各家机构的掌门人——managing partner、GP、IR 团队，这对一个年轻人来说是相当难得的接触面。"
+    },
+    {
+      "i": 25,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "05:04",
+      "en": "But something that I really enjoyed was also, you know, getting to know other folks kind of in my shoes, you know, on the LP side of things.",
+      "zh": "但我特别享受的一点，是能认识到 LP 圈子里跟我处境相似的同行。"
+    },
+    {
+      "i": 26,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "05:10",
+      "en": "And one of the, you know, personally most gratifying moments was I got to meet the head of the Baltimore County Public School Teacher's Pension.",
+      "zh": "对我个人来说最有意义的一刻，是我见到了 Baltimore County 公立学校教师养老金的负责人。"
+    },
+    {
+      "i": 27,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "05:17",
+      "en": "And I got to, you know, we were at, I think it was a credit event, but I got to meet him and shake his hand and say thank you for, you know, what you and your team do.",
+      "zh": "当时是在一个应该是 credit 相关的活动上，我跟他握了手，然后对他说：'谢谢你和你的团队所做的一切。'"
+    },
+    {
+      "i": 28,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "05:24",
+      "en": "Like, my mom is a, you know, is a 30 year veteran of the system and, you know, because of your work, you know, was able to put me through Cornell without too many student loans and now being in a position where I am today.",
+      "zh": "因为我妈就是这个体系里干了 30 年的老兵。正是有你们的工作，她才能供我读完 Cornell、没让我背太多学生贷款，也才有我今天站在这个位置。"
+    },
+    {
+      "i": 29,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "05:34",
+      "en": "And that was, you know, kind of a full circle moment. Even if I, you know, still to this day, struggle to explain to my mom what private equity actually is, but that's another whole story.",
+      "zh": "那一刻真的是一种圆满。当然，直到今天我还是没跟我妈解释清楚私募股权到底是干什么的——这就是另外一个故事了。"
+    },
+    {
+      "i": 30,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "05:44",
+      "en": "You know, the other one, and I think it speaks to not only just kind of the, you know, kind of the, what the core of being an LP is, but I think also just a little bit on kind of the, you know, luck and serendipity and kind of non-linearity of, you know, the world broadly.",
+      "zh": "另一个故事，我觉得它不仅反映了做 LP 的核心是什么，也在某种程度上体现了这个世界的运气、机缘巧合和非线性。"
+    },
+    {
+      "i": 31,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "05:59",
+      "en": "Roger, the head of summation who was the head of private equity at Cornell when I was there, he, we were doing a lot of work on the European growth equity space and went over to a trip over in London and met with a number of managers and then over into Munich as well.",
+      "zh": "Roger 是 Summation 的创始人，我在 Cornell 的时候他是那边私募股权的负责人。当时我们在做很多欧洲 growth equity 的研究，就去伦敦出差见了一批管理人，之后又去了慕尼黑。"
+    },
+    {
+      "i": 32,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "06:16",
+      "en": "And one of the managers was a gentleman who had spun out of a, you know, large growth equity firm. He had founded their London office and it fit pretty well into kind of the, you know, kind of thesis that we, you know, were looking for.",
+      "zh": "其中一位管理人是从一家大型 growth equity 机构出来单干的，他之前创立了那家机构的伦敦办公室，跟我们当时想找的投资逻辑非常契合。"
+    },
+    {
+      "i": 33,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "06:27",
+      "en": "Ultimately, we didn't end up committing, I believe now we're still doing it in kind of an independent sponsor way, but got very, very close and, you know, did a lot of the work, et cetera.",
+      "zh": "最终我们没有出资，据我了解他现在还在以 independent sponsor 的方式做，但我们当时非常接近，也做了大量尽调工作。"
+    },
+    {
+      "i": 34,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "06:35",
+      "en": "But what's interesting is, you know, the first meeting we had there, he had Baltimore Orioles cufflinks on and we started chatting and of course, you know, I, you know, as a proud Baltimoreian, Baltimore on, if you will, I always like to, you know, bring up, you know, those references, but he mentioned that, you know, that was where he's from.",
+      "zh": "有意思的是，我们第一次见面时，他戴着一副 Baltimore Orioles 的袖扣。作为一个骄傲的 Baltimore 人，我一看到这种元素就想聊起来。他顺势提到他就是从那儿来的。"
+    },
+    {
+      "i": 35,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "06:53",
+      "en": "He went to high school there and he actually named his firm called Farview after the street that he grew up on in Baltimore. And, you know, that kind of hung out in the back of my mind.",
+      "zh": "他在那儿上的中学，甚至把自己创办的机构命名为 Farview——就是他在 Baltimore 长大的那条街的名字。这件事就悄悄留在了我脑子里。"
+    },
+    {
+      "i": 36,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "07:02",
+      "en": "And then, you know, we still keep in touch and he's a good friend of the firm. And, you know, fast forwarding to summation and I'll get into it in a little bit, but I effectively helped to kind of help Roger co-found the firm.",
+      "zh": "后来我们一直有联系，他也成了我们机构的好朋友。快进到 Summation——这个待会儿详细讲——我算是帮着 Roger 一起把这家机构联合创办了起来。"
+    },
+    {
+      "i": 37,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "07:13",
+      "en": "He's the founder, but I kind of helped on, you know, from day negative one. And, you know, as the first employee, you know, I helped with everything, but including hiring my now colleague Quinn, who runs our IR and BizDev efforts.",
+      "zh": "他是创始人，但我基本上是从'第 -1 天'就在帮忙。作为第一位员工，我什么都做，其中就包括招了我现在的同事 Quinn，她负责我们的 IR 和业务发展。"
+    },
+    {
+      "i": 38,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "07:24",
+      "en": "And, you know, by happenstance, she also happens to be from outside of Baltimore and, you know, around my age, so we didn't know each other.",
+      "zh": "巧的是，她也来自 Baltimore 郊区，年纪跟我差不多，但我们之前并不认识。"
+    },
+    {
+      "i": 39,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "07:32",
+      "en": "But essentially, it turns out as, you know, we were chatting and, you know, speaking through the, you know, the recruiting process, you know, found out that, you know, she was from Baltimore and, you know, we, you know, when did the classic, oh, you know, where exactly, you know, what street, et cetera.",
+      "zh": "在招聘流程中我们聊起来，才发现她也来自 Baltimore，然后就上演了那种经典桥段——'啊你具体在哪一块？哪条街？'之类的。"
+    },
+    {
+      "i": 40,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "07:46",
+      "en": "She was like, oh, I grew up on this small street, you know, down on all the Charles Street called Farview. And I was like, wait a second, hold on a second.",
+      "zh": "她说：'我从小长在 Charles Street 下面一条叫 Farview 的小街上。'我当时就：'等等，等一下。'"
+    },
+    {
+      "i": 41,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "07:54",
+      "en": "And then we ended up figuring out that this guy, John, who was the London guy, I believe his parents, I believe his parents sold their house to Quinn's now parents, and that was where she grew up.",
+      "zh": "最后我们搞清楚，那个伦敦 guy——John——他的父母当年把房子卖给了 Quinn 现在的父母，而那栋房子就是她长大的地方。"
+    },
+    {
+      "i": 42,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "08:07",
+      "en": "What I love in this story is it kind of puts together both what I've known from you and Roger, is that like you guys have the mathematical and analytical brains, but also really understand things are, this business is about relationships and how you married the two.",
+      "zh": "这个故事最打动我的地方，恰好印证了我对你和 Roger 的印象：你们既有数学和分析型的头脑，又真正理解这门生意是关于'关系'的，而且能把两者结合起来。"
+    },
+    {
+      "i": 43,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "08:24",
+      "en": "And you even noticing people, the cufflings and all that stuff and seeing how, oh, how do we build rapport is we're seeing, we talk about this on the GP side a lot, but like it's definitely also needed on the LP side of like, as things get faster, faster, breakneck pace, can you still cultivate strong relationships and notice things as everything else is moving fast?",
+      "zh": "你连别人戴的袖扣这种细节都会留意，然后想'啊这就是建立 rapport 的机会'。GP 那边我们经常聊这个，其实 LP 这边同样需要——在这个节奏越来越快、快到令人窒息的行业里，你能不能一边跟上速度，一边还能培养牢固的关系、留意到这些细节？"
+    },
+    {
+      "i": 44,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "08:48",
+      "en": "So that's awesome. You know, we've spoken to a lot of people on this podcast and you know, about starting new things and having all the experience.",
+      "zh": "这一点特别棒。我们在这个播客里跟很多人聊过'从零开始做一件新事情'，也聊过经验的价值。"
+    },
+    {
+      "i": 45,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "08:59",
+      "en": "Could you talk about kind of like when the summation opportunity came up, what you had learned from previous stops and what made this like, oh, I have to jump on to this opportunity?",
+      "zh": "那你能不能聊聊 Summation 这个机会出现的时候，你之前几段经历给了你什么样的积累，让你觉得'这个机会我必须抓住'？"
+    },
+    {
+      "i": 46,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "09:11",
+      "en": "So to help kind of round out and kind of set the stage. So I spent a great four years at Cornell. I primarily worked under Roger, the head of summation now, but also, you know, did the rest of the, you know, allocating across, you know, credit, hedge funds, et cetera.",
+      "zh": "那我先把背景补充完整。我在 Cornell 度过了非常棒的四年，主要跟着 Roger——也就是现在 Summation 的负责人——工作，同时也参与了 credit、hedge fund 等其他资产的配置。"
+    },
+    {
+      "i": 47,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "09:27",
+      "en": "I joke that I leave all of that to people much smarter than I am. You know, I did the CFA, et cetera. And then I ended up moving over to a firm called Summit Rockware, which is a large outsourced chief investment office, OCIO here in New York, which did very similar work, but instead of one client being, you know, Cornell, it was 40 clients, you know, ultra high network families, smaller foundations, et cetera.",
+      "zh": "我常开玩笑说这些资产我都交给比我聪明得多的人去做。我考了 CFA 之类的。后来我加入了一家叫 Summit Rockwood 的机构，是纽约一家大型的 outsourced CIO（OCIO），工作内容非常类似，只不过客户从 Cornell 一家变成了 40 家——超高净值家族、小型基金会等等。"
+    },
+    {
+      "i": 48,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "09:47",
+      "en": "And you know, there I was there for about two years and also saw, you know, kind of the more commercial side of the business. And you know, I wasn't directly interfacing with clients all that often, but you know, understanding, you know, a business that doesn't have a single captive pool of capital, you know, raising money, you know, kind of all of those things, the tax implications, et cetera.",
+      "zh": "我在那里待了大约两年，也看到了这门生意更商业化的一面。虽然我不经常直接面对客户，但能观察到一家没有单一锁定资金池的机构是怎么运作的——如何募资、税务影响等等。"
+    },
+    {
+      "i": 49,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "10:06",
+      "en": "You know, I kind of got to, you know, see that, you know, to you, to seal one of Roger's phrases, you know, there's more than one way to skin a cat.",
+      "zh": "借用 Roger 的一句口头禅：'条条大路通罗马'（there's more than one way to skin a cat）。"
+    },
+    {
+      "i": 50,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "10:13",
+      "en": "And I had a great experience there and I part of ways with them at the end of 2022. And, you know, at that time, of course, see it was, you know, not the world's best markets, you know, especially if you're a early mid-career allocator with want to venture and growth experience, you know, when the market's a tank, et cetera.",
+      "zh": "那段经历很棒，我在 2022 年底离开。当时市场环境当然不算好，尤其对于一个偏早期/中期职业阶段、想做 VC 和 growth 的配置人来说，市场正往下走。"
+    },
+    {
+      "i": 51,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "10:31",
+      "en": "And, you know, I was looking out all over the place and, you know, I'd always, you know, kept in touch with Roger and, you know, obviously thought very highly of him.",
+      "zh": "我就到处看机会，同时一直跟 Roger 保持联系，也一直非常敬重他。"
+    },
+    {
+      "i": 52,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "10:39",
+      "en": "And one day he called me up and said, hey, let's grab a coffee and catch up. It's been a couple months. And, you know, I went into the city and I realized he actually had an ulterior motive, which was, you know, hey, of course, obviously want to, you know, here are things that are going with you, et cetera.",
+      "zh": "有一天他给我打电话说：'嘿，来杯咖啡叙叙旧吧，好几个月没见了。'我进了城才发现他其实'别有用心'——当然也问了我最近的情况之类的。"
+    },
+    {
+      "i": 53,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "10:54",
+      "en": "But, you know, I actually have this, you know, idea I've been incubating, which is the, you know, this idea of, okay, I've done a great number of things at Cornell, really helped a great institution, but I've seen this kind of gap in the market for, you know, a new kind of breed of allocator, kind of innovation at the, you know, allocation layer.",
+      "zh": "但重点是：'我一直在酝酿一个想法——我在 Cornell 做了很多事情，帮到了一家很棒的机构，但也看到市场里存在一个空白，需要一种新品种的配置人，需要在配置这一层做创新。'"
+    },
+    {
+      "i": 54,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "11:11",
+      "en": "And, you know, he, you know, was explaining to me kind of this grand vision and said, you know, it's still very early days, you know, the board and CIO have signed off on it, so it's not, you know, and anything not kosher internally, but it's gotten to the point now where I can't do it just myself, you know, I need help, you know, more than nights and weekends.",
+      "zh": "他跟我描述了这个宏大的愿景，说：'还很早期，董事会和 CIO 都已经点头了，所以在内部完全是合规的；但现在已经到了我一个人搞不定的阶段，我需要帮手，不能只靠晚上和周末。'"
+    },
+    {
+      "i": 55,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "11:27",
+      "en": "Of course, right now it's just an idea I can't, you know, formally pay you, but of course, if this thing takes off, you know, you'll be employee number one and we'll take care of and so on and so forth.",
+      "zh": "'当然现在这只是一个想法，我没法正式付你薪水，但如果这事儿起来了，你就是 1 号员工，我们不会亏待你'，等等等等。"
+    },
+    {
+      "i": 56,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "11:35",
+      "en": "I would love to hear the summation model today. You were about three years in. And also, if that's shifted since what you thought you were joining, you know, like what has the market, where has the market taken you and what is summation today?",
+      "zh": "我很想听听 Summation 今天的模式。你加入也差不多三年了。跟你当初以为自己加入的东西相比，有没有变化？市场把你们带到了哪里？今天的 Summation 是什么样子？"
+    },
+    {
+      "i": 57,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "11:50",
+      "en": "So at summation, we, you know, the overall vision is we are trying to bring what we call true and down in style private equity out to the real world and heavy air quotes.",
+      "zh": "在 Summation，我们的整体愿景是把所谓的'真正的 endowment-style（捐赠基金式）私募股权'带到真实世界里——这里请自行加上重重的引号。"
+    },
+    {
+      "i": 58,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "12:01",
+      "en": "And, you know, of course that, you know, endowment investing can mean many things to many different people, but for us, you know, we think that it's more than just being a, you know, long-term kind of time horizon or kind of, you know, view of the world and having, you know, permanent capital, et cetera.",
+      "zh": "当然，'endowment investing' 对不同人意味着不同的东西。对我们来说，它不仅仅是长期视角、长期世界观、永久资本这些概念。"
+    },
+    {
+      "i": 59,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "12:19",
+      "en": "It's a number of other things that kind of really kind of go into, you know, kind of sum up into kind of one, you know, exact model that, you know, we didn't necessarily see, you know, reflected out there in the real world, but what was being offered internally to folks like a Cornell or a Ford Foundation or a Princeton or, you know, Pick Your, you know, Endowment Foundation.",
+      "zh": "还包括很多其他要素，最终汇总成一种非常具体的模式——这种模式在外部世界其实很难看到，而只被内部提供给 Cornell、Ford Foundation、Princeton 之类的机构，任你举例的捐赠基金会。"
+    },
+    {
+      "i": 60,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "12:40",
+      "en": "And so that being said, you know, at the end of the day, we are a private equity fund investor primarily, you know, we are investing globally in venture capital, growth equity and buyout funds.",
+      "zh": "话虽如此，说到底我们主要还是一个私募股权基金投资人（PE fund investor），在全球范围投资 VC、growth equity 和 buyout 基金。"
+    },
+    {
+      "i": 61,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "12:50",
+      "en": "We'll do some direct co-investments alongside them as well, but, you know, primarily the vast majority of our capital will be in the funds themselves.",
+      "zh": "我们也会做一些直接跟投（co-investment），但绝大部分资金还是投向基金本身。"
+    },
+    {
+      "i": 62,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "12:57",
+      "en": "And we are a single fund, a single co-mingled entity that's in an open-ended structure. And our job is to go out and find the best VC's growth equity and buyout firms in the world and partner with them and, you know, build a really, you know, interesting, you know, portfolio and, you know, kind of the best way that we can think of for asset owners to access private equity.",
+      "zh": "我们是一只基金，一个单一的 commingled 主体，采用开放式（open-ended）结构。我们的工作是出去找全世界最好的 VC、growth equity 和 buyout 机构，跟他们合作，构建一个真正有意思的组合——这是我们能想到的、资产持有人接触私募股权的最佳方式。"
+    },
+    {
+      "i": 63,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "13:19",
+      "en": "Yeah, that's definitely a headline grabber. And I think it really speaks to you and Roger's desire to like find this true kind of alignment with your investors because Alexa and I have been, you know, since we, I don't know, hopefully we're not the signal, but since we've been doing these interviews, our friends who are, you know, fund to funds and OCIOs and consulting firms have been having a hard go at it",
+      "zh": "这绝对是能上头条的说法。这也真的体现了你和 Roger 想跟投资人建立真正'利益一致'（alignment）的强烈意愿。因为自从 Alexa 和我开始做这些访谈以来——希望我们不是反向指标——我们那些在 fund of funds、OCIO 和咨询公司工作的朋友，日子一直不太好过。"
+    },
+    {
+      "i": 64,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "13:47",
+      "en": "in fundraising. And it comes back to a lot of times people saying fees on fees. Also, there's kind of pendulum swing of like entities thinking that they can do the direct investing into funds or direct assets themselves.",
+      "zh": "主要体现在募资上。归根结底，很多时候大家会吐槽'fees on fees'（层层收费）。另外还有一种钟摆式的摆动——一些机构觉得自己可以直接投基金或者直接投资产。"
+    },
+    {
+      "i": 65,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "14:04",
+      "en": "So yeah, I was gonna ask how this is being received, but it sounds like it's going pretty well. Any pushback you guys have heard or questions that have come up that have really kind of like made you think?",
+      "zh": "所以我本来想问：市场对这个模式的反应如何？听上去还不错。有没有听到过什么反对意见，或者让你真正思考的问题？"
+    },
+    {
+      "i": 66,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "14:16",
+      "en": "The good question. And I'll tie this into the, you know, kind of what's changed since launch. So I would say that, you know, across the board, you know, be it small endowments, pensions, you know, foundations, sovereigns, ultra high networks, family offices and any flavor of LP you could possibly talk to, you know, we've met with, you know, one or many of them.",
+      "zh": "这是个好问题。我可以顺着讲讲自成立以来的变化。总的来说，不管是小型捐赠基金、养老金、基金会、主权基金、超高净值家族办公室——你能想到的各类 LP，我们都跟其中一家或多家见过面。"
+    },
+    {
+      "i": 67,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "14:35",
+      "en": "And I would say that our model really has resonated with them. I think the question is, especially and, you know, to the benefit of us all, as private markets have become more and more important.",
+      "zh": "我们的模式确实引起了他们的共鸣。问题在于，尤其是——这对大家都有利——随着私募市场变得越来越重要。"
+    },
+    {
+      "i": 68,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "14:45",
+      "en": "And then of course, all of the dynamics around, you know, kind of a jam up in liquidity coming from, you know, venture and private equity markets, lack of distributions, et cetera.",
+      "zh": "再加上 VC 和 PE 市场流动性堵塞、分配不足等等一系列动态。"
+    },
+    {
+      "i": 69,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "14:54",
+      "en": "You know, there are a number of groups that say, wow, I, you know, I really, really like this model. I just can't do it right now. You know, I already have too much, you know, in my, you know, preexisting portfolio or some other need.",
+      "zh": "有不少机构会说：'哇，我真的非常喜欢这个模式，只是现在做不了。我在现有组合里已经超配了，或者有其他需求。'"
+    },
+    {
+      "i": 70,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "15:05",
+      "en": "And then you also have the kind of the holder slew of, you know, groups on the, you know, on the kind of arguably more conservative, you know, end of the spectrum that say, hey, this is a really great idea, but give us a call in three or four years once you've, you know, scaled to X amount of money, you know, you're a going concern, you can, you know, raise money on your own, et cetera.",
+      "zh": "还有相当一部分偏保守端的机构会说：'嘿，这个想法很好，但等三四年之后，你们规模做到某个量级、成为持续经营主体、能独立募资之后再联系我们。'"
+    },
+    {
+      "i": 71,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "15:24",
+      "en": "And then we'll give you a look. But, you know, I think really for us, it's, you know, we really find, you know, when we find the right LP that, you know, has the desire, you know, for, you know, and recognizes kind of the value and differentiation that we bring, it can be a very, very quick, you know, sales cycle per se.",
+      "zh": "'到那时我们再考虑。'但对我们来说，一旦遇到真正合适、认可我们价值和差异化定位的 LP，销售周期可以非常非常快。"
+    },
+    {
+      "i": 72,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "15:42",
+      "en": "I think, and it's, don't hold me to this, but I think something along the lines of the largest non-founding check that we've ever gotten, I think was written after, you know, a 20 minute phone call, which, you know, which just speaks to, and it was a very sophisticated person, you know, much wealthier than I will ever be, I think very highly of them.",
+      "zh": "别拿这句话钉死我，但我记得我们拿到过的最大一笔非创始人出资，是在一通 20 分钟的电话之后就打过来的。对方是非常成熟、远比我有钱的人，我也非常敬重他。"
+    },
+    {
+      "i": 73,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "16:01",
+      "en": "And it just speaks to, you know, when sophisticated people kind of understand the nuances of, you know, these markets and the, you know, the incentives and dynamics at play, and they, you know, and they see our model, it's, you know, it's a very kind of quick, kind of almost no-brainers per se.",
+      "zh": "这也说明，当成熟投资人真正理解了这些市场的细微之处、里面的激励和动态，再看到我们的模式时，几乎是不假思索就能拍板的事。"
+    },
+    {
+      "i": 74,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "16:16",
+      "en": "Now we're gonna take a quick break to speak with our sponsor. On the show today, we have our stellar partner and industry expert, Shane Gowdy, leader of Sidley's Venture Funds Practice, and now host of the podcast, Talk VC.",
+      "zh": "现在我们稍作休息，来跟我们的赞助方聊聊。今天来到节目的是我们出色的合作伙伴、行业专家 Shane Gowdy——Sidley 律所 Venture Funds 业务负责人，同时也是播客 Talk VC 的主持人。"
+    },
+    {
+      "i": 75,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "16:30",
+      "en": "We highly recommend you listen. The interest in secondaries, particularly in these specific names, seems like a fantastic carrot to sort of be dangling in front of your LPs.",
+      "zh": "我们非常推荐你去听。二级份额（secondaries）方面的兴趣，尤其是在某些特定项目上，似乎是可以在 LP 面前晃动的一根非常诱人的胡萝卜。"
+    },
+    {
+      "i": 76,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "16:41",
+      "en": "What is that, when people have packaged that together, what's an example of what that looks like? Yeah, so it's, whether it's secondaries or whether it's actually primaries, obviously in the world of Venture, you know, there's a lot of regulatory implications, in particular on the SPV side, about having an SPV comprised of secondary securities, because then that could blow your exemption and now you gotta become a fully registered advisor.",
+      "zh": "当大家把这些打包在一起时，具体长什么样？能举个例子吗？——好的。不管是二级份额还是一级份额，在 VC 世界里都会牵扯到很多监管问题，尤其是在 SPV 层面：如果你的 SPV 装的是二级证券，就可能打破豁免资格，那你就必须成为完全注册的顾问。"
+    },
+    {
+      "i": 77,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "17:07",
+      "en": "But just given the wealth of opportunity, there have been a number of intro firms who have just, you know, kind of stopped kicking the can down the road and decided that they're going to become registered advisors so that they can take advantage of these, not I wanna say once in a lifetime, because we've seen not quite to this order of magnitude, but before cycles in nature where there had been an attractive SPV opportunities,",
+      "zh": "但正因为机会太多，已经有一批风投机构决定不再拖延，直接注册成为投资顾问，好去抓住这些机会——我不想说是'一生一次'，因为以前也见过类似量级但没这么夸张的周期，那时候也有很吸引人的 SPV 机会，"
+    },
+    {
+      "i": 78,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "17:29",
+      "en": "but not quite like this. So the packaging really is just kind of giving an LP of you into what the relevant investment capacity and investment opportunity scope looks like for this fund.",
+      "zh": "但都不像现在这样。所以这种打包，其实就是给 LP 一个视角，让他们看到这只基金相关的投资额度和投资机会范围到底是什么样。"
+    },
+    {
+      "i": 79,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "17:42",
+      "en": "And that for an LP is almost the holy grail of, you know, what deals am I gonna get into, not only obviously through and as an LP in the main fund, but if I can be economically advantaged to either get direct, you know, access to deals, you know, with some portfolio companies where, you know, frankly, given the size of these deals, it's just rare is it that many of the main funds can take the whole opportunity available.",
+      "zh": "对 LP 来说，这几乎就是'圣杯'——我到底能拿到哪些 deal？不仅仅是作为主基金的 LP，而是如果能在经济上获得优势，直接接触到某些被投公司的 deal。老实说，鉴于这些交易的规模，主基金很少能吃下全部可投资额。"
+    },
+    {
+      "i": 80,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "18:06",
+      "en": "So there's just, there's a lot of excess deal opportunity for so many firms that they've got to, you know, have a pass the hat approach to getting their key LP's additional ability.",
+      "zh": "所以对很多机构来说，多出来的 deal 机会太多了，他们不得不'传帽子'式地给关键 LP 提供额外的投资额度。"
+    },
+    {
+      "i": 81,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "18:17",
+      "en": "And, you know, LP's are smart and they're taking advantage of, you know, that kind of access and that kind of opportunity to be able to, you know, structure a relationship that is obviously pointed and mindful about their commitment to the main funds, but looking more broadly to a more holistic relationship and, you know, when those do, those excess deal opportunities do come up, making sure that they're at the right spot in line",
+      "zh": "LP 也很聪明，他们在利用这种接触机会去搭建一种关系：既明确、上心地对待自己在主基金里的出资承诺，又着眼于更整体的关系；一旦那些多余的 deal 机会出现，确保自己排在合适的位置上，"
+    },
+    {
+      "i": 82,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "18:42",
+      "en": "to be able to invest in those deals and that the GP has them in mind to do that. And that can include, you know, we've seen a lot of increasing requests about transfers of LP interest.",
+      "zh": "能投进那些 deal，让 GP 心里也想着他们。这里面还包含——我们看到越来越多关于 LP 份额转让的请求。"
+    },
+    {
+      "i": 83,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "18:52",
+      "en": "So if you've got other LP's who are interested in getting liquidity by selling their interest, you know, we've seen a lot of new LP's and eventually funds not only be interested about, you know, direct opportunities into the portfolio companies themselves, but if there's secondary opportunities to pick up interest in this fund, in particular, if it's got a great portfolio, you know, there's no better way for them to get more access",
+      "zh": "如果别的 LP 想通过卖出份额获得流动性，我们就看到很多新 LP 和 endowment 基金，不仅关注直接投资被投公司的机会，也在留意二级份额——尤其是当这只基金的组合很棒时，没有比这更好的方式让他们拿到更多敞口了。"
+    },
+    {
+      "i": 84,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "19:15",
+      "en": "than to, you know, pick up another LP's commitment at a discount. So, you know, that for them has been, and that's also been a little interesting nugget of, at least not necessarily, I wouldn't say there's an overwhelming amount of that activity, but I think interest level has risen for very sophisticated institutional LP's to start asking those kinds of questions as they're coming into the main fund program.",
+      "zh": "那就是折价接手另一个 LP 的份额。对他们来说，这也是一个有意思的点——我不敢说这类交易量大得惊人，但确实能看到非常成熟的机构 LP 越来越有兴趣在参与主基金时问这类问题。"
+    },
+    {
+      "i": 85,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "19:37",
+      "en": "It's been a fascinating, you know, past year plus to kind of have these kinds of discussions. Yeah, these later stage deals definitely feel like they are garnering the majority of people's attention, capital, hype, is, are you seeing that slow down at all?",
+      "zh": "过去一年多做这类讨论真的非常有意思。——是的，这些后期 deal 显然吸走了大部分注意力、资金和炒作。你有没有看到这种势头在放缓？"
+    },
+    {
+      "i": 86,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "19:57",
+      "en": "Is, you know, is that a narrative of the beginning half of the year? And as we go into 2027, you know, are those opportunities still attractive?",
+      "zh": "这算不算只是今年上半年的叙事？进入 2027 年之后，这些机会还有吸引力吗？"
+    },
+    {
+      "i": 87,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "20:12",
+      "en": "Yeah, they are. I mean, I just, you know, given the title wave of interest in these just huge, you know, rounds that are going into these companies, again, it's the proverbial FOMO effect, not only at the VC level, but at the LP level, you know, they want to never have to answer to their own constituents that they haven't taken advantage and been a good fiduciary, and I just think that the risk meter is not always there",
+      "zh": "有。你看这一波对这些超大规模轮次的兴趣浪潮——还是那个老掉牙的 FOMO 效应，不仅在 VC 层面，在 LP 层面也一样：他们不想有一天要向自己的出资人交代，说自己没有抓住机会、没有尽到受托责任。我觉得在这些轮次里，风险标尺并不总是清晰"
+    },
+    {
+      "i": 88,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "20:45",
+      "en": "when it comes to these rounds, because there's no reduction in price and value happening to any of these companies, and so if you're missing out on that opportunity to be part of that, even if it's just a small part of some SPV, and you know, it's been the bane of a lot of companies' existence, of course, because everybody's trying to throw up an SPV to invest in these companies, and, you know, they're already very nervous about",
+      "zh": "的，因为这些公司的价格和价值并没有出现下调。所以如果你没能参与到其中——哪怕只是通过某个 SPV 拿到一小块——就会觉得错过了。当然这也让很多公司头疼不已，因为每个人都在搭 SPV 想投这些公司，公司本来就对"
+    },
+    {
+      "i": 89,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "21:10",
+      "en": "what their cap table looks like, and you could only imagine the proliferation, frankly, the kinds of negotiations that have gone on between companies and SPVs, which never in the world had taken place two, three, four years ago, of, you know, that they have the co-sale rights on investors not only apply to the SPV selling its interest in the company, but also the underlying LP's in an SPV, so that upward reach of control by the underlying companies",
+      "zh": "自己的股权结构（cap table）非常紧张。你可以想象——老实说——公司和 SPV 之间的谈判已经泛滥到什么程度：两三四年前根本不会发生的谈判，现在成了常态。比如公司要求共售权（co-sale rights）不仅约束 SPV 出售其在公司中的份额，也约束 SPV 底层的 LP——这种由底层公司向上延伸的控制权，"
+    },
+    {
+      "i": 90,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "21:42",
+      "en": "because they have such a significant leverage point when it comes to, you know, who gets what, allocation in these deals, they can almost ask for the world in some of this way, so it's been really interesting to see Venture's reaction to that, because often time that's the way that the GP's respond to LP's, and having that same kind of playbook put back on them, you know, it's been uncomfortable, I think,",
+      "zh": "因为他们在'谁能拿到多少额度'这个问题上有非常大的杠杆，几乎可以'狮子大开口'。所以看到 VC 圈对此的反应真的很有意思——因为这往往是 GP 对 LP 用的那一套，如今同样的剧本被反用到他们身上，我觉得在有些情况下他们会不舒服。"
+    },
+    {
+      "i": 91,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "22:05",
+      "en": "in certain situations, and in some ways, that's just part of getting into one of these rounds, this is just what you gotta do, and, you know, it's also educating LPs along the process, because I can remember the first time this happened, which was, you know, about a year ago when a company said that all these rights drag along and tag along and co-sale not only apply to your interest in the company,",
+      "zh": "从某种意义上说，这就是参与这类轮次的必要代价——你只能接受。同时也是一个教育 LP 的过程。我记得第一次出现这种情况大约是一年前，一家公司说，所有的 drag-along、tag-along 和共售权不仅约束你在公司里的份额，"
+    },
+    {
+      "i": 92,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "22:25",
+      "en": "but the LP's interest in these SPV's, you know, that just sort of blew people's minds in trying to educate people, and it's like, if you want the access, these are the kinds of things you may have to agree to, and all of that has been a fascinating exercise to try and rationalize and kind of talk people off the mountaintop from jumping off of it, and to just try to see what the value proposition is",
+      "zh": "还约束 LP 在 SPV 里的份额。这直接把大家惊到了。我们要去教育他们：'如果你想拿到额度，这些条款你可能就得接受。'整个过程非常有意思——一边帮人理性化，一边把他们从'山顶'劝下来别跳，一边还要看这些超大型 deal 的价值主张到底是什么。"
+    },
+    {
+      "i": 93,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "22:48",
+      "en": "in some of these kind of mega deals. Yeah, you're sort of the, maybe not on paper, but you are the equivalent of a common shareholder. You're getting in line, you know your place a little bit.",
+      "zh": "——在这些 mega deal 里。是的，你在纸面上也许不是，但实质上你就相当于一个普通股股东。你得排队，得知道自己的位置。"
+    },
+    {
+      "i": 94,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "23:01",
+      "en": "Yeah, that's right. Interesting. That's right, yeah. Thank you for joining us on the show, Shane. If you're a GP or LP looking for expert guidance on fund formation and venture capital legal matters, you can visit Sidley's website, S-I-D-L-E-Y.com, and now back to our LP interview.",
+      "zh": "——没错，有意思。就是这样。——Shane，感谢你来到我们的节目。如果你是 GP 或 LP，需要在基金设立和 VC 法律事务上寻求专业意见，可以访问 Sidley 的网站：S-I-D-L-E-Y.com。现在我们回到 LP 访谈。"
+    },
+    {
+      "i": 95,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "23:20",
+      "en": "There are two threads I kind of want to, I want to get some free financial advice right now, Dan. Fees on fees as a concept feels like it is out of control right now, particularly with the top 10 names.",
+      "zh": "我有两条线索想聊。Dan，我现在就想从你这里要点免费的理财建议。'Fees on fees'（层层收费）这个概念感觉现在已经失控了，尤其是在 top 10 那些名字上。"
+    },
+    {
+      "i": 96,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "23:33",
+      "en": "This is like the most extreme example of that we've ever seen. And you're coming from working with a guy who managed to avoid a bubble. So what are you all doing about that feeding frenzy?",
+      "zh": "这是我们见过的最极端的例子。而你正好跟一位成功避开泡沫的人一起工作。所以面对这种'抢食狂欢'，你们打算怎么做？"
+    },
+    {
+      "i": 97,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "23:51",
+      "en": "How do you approach this kind of do you need access to those hot names right now? Is there a way that you're accessing them that makes more sense?",
+      "zh": "你们怎么处理这个问题？现在是否必须接触那些热门名字？有没有一种更合理的方式去接触它们？"
+    },
+    {
+      "i": 98,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "24:04",
+      "en": "Or what should we be doing to have Cornell's outcomes where 2020 is not a bust of a year for private equity? I think, and of course, all the legal disclosures, this is not financial advice, et cetera, et cetera.",
+      "zh": "或者说，我们应该怎么做，才能像 Cornell 那样，让 2020 年不至于成为私募股权的'废年'？——我觉得，先说清楚所有法律免责：这不是理财建议，等等等等。"
+    },
+    {
+      "i": 99,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "24:17",
+      "en": "I am no lawyer or anything like that, but it's a really tough time. And again, every institution and individual is different. So it might wildly vary across the board, but I think our ethos is, and again, we are doing venture capital growth equity and buyout, we're roughly equal weighted to all three of those.",
+      "zh": "我也不是律师什么的，但当下确实是一个非常艰难的时期。同样，每家机构和每个人情况都不一样，做法可能天差地别。我们的理念是——再强调一下，我们做的是 VC、growth equity 和 buyout，三者大致等权重。"
+    },
+    {
+      "i": 100,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "24:45",
+      "en": "So that being said, inherently there is somewhat of the counterbalance of, in our buyout book, we tend to not do software or tech within our buyout book because we're already getting so much from the other two thirds.",
+      "zh": "话虽如此，本身就存在一种对冲：在我们的 buyout 组合里，我们尽量不做软件或科技，因为另外三分之二已经给了我们足够多的科技敞口。"
+    },
+    {
+      "i": 101,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "24:57",
+      "en": "So there already is an inherent kind of hedge where you have, in 2022, the best performing names were very boring, lower bin market industrials and waste services businesses, for example.",
+      "zh": "所以里面天然就有一种对冲。比如 2022 年，表现最好的名字反而是那些非常无聊的、中低端市场的工业和废物处理公司。"
+    },
+    {
+      "i": 102,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "25:11",
+      "en": "The opposite of you're high flying, private mag 10 or whatever it may be. But beyond that, I'd say that at the portfolio level, we really try to stick to our guns and say, hey, we are doing roughly two new names a year in venture, two new in growth, two new in buyout, here is our ballpark check size, here is the relatively small amount we'll do in direct co-investments as well, but we want to kind of stick to that path",
+      "zh": "跟那些高飞的'私募版 Magnificent 10'正好相反。除此之外，在组合层面我们会坚守自己的原则：VC 每年做大约两个新名字、growth 两个、buyout 两个；支票大小大致是这样，直接跟投的额度相对较小。我们想沿着这条路径走下去，"
+    },
+    {
+      "i": 103,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "25:39",
+      "en": "and not let some of that momentum or chase the shiny object kind of take us. So I would say that that's part of it, as well as speaking specifically kind of within a more venturi world with some of these quadruple layer STVs and other things, you know, to be completely honest, I'm disgusted by a lot of what I see and I think that there are a lot of bad actors that will come out, especially post the rumor of SpaceX",
+      "zh": "而不是被动能或者'追闪光物体'的心态带着走。这是一方面。另一方面，具体到更偏 VC 的世界里，面对那些四层嵌套的 SPV 之类的东西，说实话，我看到的很多东西让我感到恶心。我认为会出现很多坏行为者，尤其是在 SpaceX、"
+    },
+    {
+      "i": 104,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "26:10",
+      "en": "and Anthropica and OpenAI's, you know, IPOs and then, you know, you hear these crazy things about, you know, I didn't even know they existed, but forward contracts for, you know, employees' equity that are done through an SPV that's then syndicated elsewhere and, you know, it just kind of makes the hair into my next, you know, stand up.",
+      "zh": "Anthropic 和 OpenAI 的 IPO 传闻之后。你会听到一些疯狂的事情——我甚至不知道它们存在——比如针对员工股权的远期合约（forward contract），通过一个 SPV 完成，然后再在别处分销出去。听到这些我汗毛都竖起来了。"
+    },
+    {
+      "i": 105,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "26:26",
+      "en": "And I say this is a, you know, self-derogatory, very wise 31-year-old. A lot of it reminds me of the, you know, bubbly mentality of 21 and 22.",
+      "zh": "说这话的我，是一个'自嘲式非常成熟的 31 岁人'。很多东西让我想起 2021、2022 年那种泡沫心态。"
+    },
+    {
+      "i": 106,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "26:36",
+      "en": "However, the challenges this time, it's even more all-encompassing and a lot of these businesses are real businesses. So it is a little bit of a catch and a balance.",
+      "zh": "但这次的挑战是：范围更广、更全面，很多公司也是真正在做事的公司。所以这是一个需要拿捏的平衡。"
+    },
+    {
+      "i": 107,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "26:44",
+      "en": "You know, I think the way that we're thinking about it is, you know, A, we are, you know, alpha-seeking fiduciaries for our LPs, you know, we want to do true long-term outperformance and for us, you know, we, you know, we have done a lot of thinking around who, what managers do we want to partner with that we think are going to be, you know, skilled or at least better than, you know, most of the other folks out there",
+      "zh": "我们的思路是这样的：第一，作为 LP 的受托人，我们要追求 alpha，追求真正的长期超额收益。为此我们花了大量时间思考：我们想跟哪些管理人合作？谁真正有技术、或者至少比市面上大多数人更强，"
+    },
+    {
+      "i": 108,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "27:04",
+      "en": "at investing in a hype cycle. So when we think about, you know, our venture, you know, managers and our names, we're also being cognizant around, you know, how much exposure are we thinking we're going to get in some of those, you know, later stage, you know, arguably overvalued very, you know, you know, sexy names per se.",
+      "zh": "能在这种炒作周期里做出好投资？所以在思考 VC 管理人和名字时，我们也会留意：我们会在那些后期、估值可能过高、非常'性感'的名字上，拿到多少敞口。"
+    },
+    {
+      "i": 109,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "27:20",
+      "en": "And then also how much are you going to get in, you know, other areas that might be a little bit more contrarian or less in the vogue. And, you know, we, you know, I've alluded to it, we do some direct investments as well, primarily and for all intents and purposes, we're doing it alongside of our GPs in a relatively systematic way to essentially offset our own fee load.",
+      "zh": "同时，我们也会看那些更逆向、更不那么时髦的领域能拿到多少敞口。另外我前面提到过，我们也做一些直接投资——基本上就是跟我们的 GP 一起、以相对系统化的方式做，本质上是为了对冲我们自己的费率负担。"
+    },
+    {
+      "i": 110,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "27:40",
+      "en": "So, you know, for example, if one of our managers came to us and said, hey, you know, in this fund that you're in, we're putting in X amount of money into SpaceX or I guess, I don't know, let's see, Andrew, you know, we're doing that, we're voting with our fee, you know, we'll look at that, we'll underwrite the alignment and sanity check it and make sure the thesis is there and isn't something totally out of, you know, left field.",
+      "zh": "举个例子，如果我们某位管理人来说：'嘿，在你出资的这只基金里，我们准备把 X 金额投进 SpaceX，或者——我也不知道——比如 Anduril，我们要用管理费跟投。'我们会审视这个提议，做尽职调查、检查 alignment、做 sanity check，确保投资逻辑成立，而不是完全出乎意料的东西。"
+    },
+    {
+      "i": 111,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "28:01",
+      "en": "And then we'll probably write a small amount of, you know, direct dollars into that. Again, really at good economics to offset our fee load.",
+      "zh": "然后我们可能会写一小笔直接投资进去。同样，是在好的经济条款下，用来对冲我们的费率负担。"
+    },
+    {
+      "i": 112,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "28:09",
+      "en": "You know, we're not at, you know, asset pickers, it's not my job to sit there and say, you know, you should have done, you know, Helsing versus Andrew or, you know, the valuation is too high.",
+      "zh": "我们不是资产挑选者（asset picker），我的工作不是坐在那里说：'你应该投 Helsing 而不是 Anduril'，或者'这个估值太高了'。"
+    },
+    {
+      "i": 113,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "28:18",
+      "en": "Like I lead that to the GPs, you know, that all being said, I'll take an anecdote from, you know, one of my family office friends, you know, they met with a number of the, you know, call it the crossover late stage folks and on their tour of, you know, Silicon Valley on that trip, something like the same 10 names were in every single portfolio in different weights.",
+      "zh": "这些我会交给 GP 去判断。话虽如此，我讲一个我 family office 朋友的轶事：他们跟一批 crossover 后期机构见了面，在硅谷那趟行程里，几乎每一个组合里都出现了同样的 10 个名字，只是权重不同。"
+    },
+    {
+      "i": 114,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "28:42",
+      "en": "And again, I'm sure that like returns will be just fine, but at the end of the day, sometimes when you start seeing that, you realize that, okay, access to just some of these names is great for some people, but at this point, I think we're taking our foot off the gas a little bit.",
+      "zh": "我相信回报最终会不错，但说到底，当你开始看到这种情况，你就会意识到：对这些名字的额度对某些人很棒，但眼下我们打算稍微松一松油门。"
+    },
+    {
+      "i": 115,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "28:57",
+      "en": "And of course, you know, we'll let our managers, you know, direct the capital where they think is smart, but we're not trying to add our overlay on top of that.",
+      "zh": "当然，我们会让管理人把资金投向他们认为明智的地方，但我们不会在这之上再叠加一层自己的判断。"
+    },
+    {
+      "i": 116,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "29:06",
+      "en": "You know, that being said, if anybody wants to give me space to stock at, you know, they're, you know, series A valuation, you know, call my number, but, you know, besides that, you know, we're not, we're not trying to, you know, get, you know, get cute with little, you know, short-term pops or anything like that.",
+      "zh": "话虽如此，如果有人愿意按 SpaceX 的 A 轮估值给我一些股票，尽管打我电话。除此之外，我们不会去搞那些短期的小聪明。"
+    },
+    {
+      "i": 117,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "29:20",
+      "en": "When it comes to venture and even maybe growth equity, what are you looking for? I know you try to, you know, do the Rain Man and figure out, all right, how much exposure are we gonna have in kind of the hypey late stage names, what's gonna be kind of counter-cultural and non-consensus, but then you're meeting a person.",
+      "zh": "在 VC、甚至可能也包括 growth equity 上，你们到底在找什么？我知道你会像 Rain Man 一样去算：好，我们要在那些被爆炒的后期名字上放多少敞口，哪些要偏反共识、非主流。但最终你面对的是一个活生生的人。"
+    },
+    {
+      "i": 118,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "29:44",
+      "en": "So how, like, what do you, how much is kind of pre-scribed versus like, I'm also looking for these qualities in an investor? It somewhat depends.",
+      "zh": "那么有多少是事先规定好的，又有多少是'我作为投资人也在寻找的某种品质'？——这个要看情况。"
+    },
+    {
+      "i": 119,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "29:54",
+      "en": "I'd say it's somewhat top-down and somewhat bottoms up. And, you know, I'd say from, you know, the top-down perspective, as, you know, as I was mentioning around the, you know, the, you know, sticking to our guns as far as the number of new relationships a year, that was one of the learnings that came out of the, you know, 21, 22 timeframe around vintage year consistency.",
+      "zh": "我会说，既有 top-down 也有 bottom-up。从 top-down 视角来看，就像我提到的坚持每年新关系数量的原则——这是从 2021、2022 年那段时间总结出来的经验之一，也就是'年份一致性'（vintage year consistency）。"
+    },
+    {
+      "i": 120,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "30:12",
+      "en": "And, you know, every academic study, you know, you can cut and slice any of the data, any way you want. The number one thing to be a good private equity allocator is don't miss a vintage year.",
+      "zh": "所有学术研究——你可以用任何方式切数据——都指向同一个结论：做一个优秀的 PE 配置人，第一条就是不要漏掉任何一个 vintage year。"
+    },
+    {
+      "i": 121,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "30:23",
+      "en": "Be consistent and also don't necessarily, you know, over-allocate into years, you know, that might be hot, you know, not try to kind of time the market per se.",
+      "zh": "保持一致，同时也不要在某些'热年'过度配置，本质上是不要去试图择时。"
+    },
+    {
+      "i": 122,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "30:33",
+      "en": "And for us, I think that's really important. And then, you know, adding on another framework around, you know, to-inventure, to-in-growth equity, to-in-buy out, that's our specific portfolio construction.",
+      "zh": "对我们来说这一点非常重要。再叠加另一个框架：VC 两个、growth equity 两个、buyout 两个，这就是我们具体的组合构建方式。"
+    },
+    {
+      "i": 123,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "30:43",
+      "en": "And, you know, that also forces us to keep the bar exceptionally high. You know, I, you know, I have the best job in the world. I'm a kid in a candy shop.",
+      "zh": "这也逼着我们把门槛定得非常高。我可以说是全世界最棒的工作——就像糖果店里的小孩。"
+    },
+    {
+      "i": 124,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "30:50",
+      "en": "I get to meet with, you know, I look at probably eight or 900 things a year, you know, spend time, you know, meet with 200 plus, spend a lot of time with, you know, 75 to 100.",
+      "zh": "我一年可能会看八九百个项目，跟两百多个见面，跟其中 75 到 100 个深入接触。"
+    },
+    {
+      "i": 125,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "31:00",
+      "en": "And then it's my job every year to get it down to a list of, you know, something like 20 to 30 really high quality names across the board, across strategies, every possible, you know, way you could think.",
+      "zh": "然后我每年的工作，是把这份名单再压到大约 20 到 30 个真正高质量的名字——覆盖所有策略、你能想到的所有维度。"
+    },
+    {
+      "i": 126,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "31:11",
+      "en": "And then we have to do the hard work of putting that, you know, portfolio construction together and figuring out, you know, does this make sense now versus this other name that might be coming later?",
+      "zh": "接下来就得做苦活：把这些拼成一个组合，然后想清楚——现在做这个是不是合理？还是等之后可能出现的另一个名字？"
+    },
+    {
+      "i": 127,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "31:20",
+      "en": "But then this, we also have this exposure from here. And that's kind of the art of it. And, you know, for us, I think it's, when we go into a commitment, you know, it's, you know, we do a traditional, you know, institutional underwriting process, you know, we'll call all the references, we'll do background checks, et cetera, et cetera.",
+      "zh": "但我们已经在别处有了这类敞口。这就属于'艺术'的部分了。对我们来说，一旦要做出承诺，我们会走传统的机构化尽调流程：打遍所有 reference、做背景调查等等。"
+    },
+    {
+      "i": 128,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "31:35",
+      "en": "You know, we're really not trying, we're trying to be kind of, you know, sober and thoughtful and measured, while also being able to be opportunistic and, you know, move when we see something that is exceptional.",
+      "zh": "我们希望保持清醒、深思熟虑、有分寸，但同时也能够抓住机会——一旦看到真正出色的东西就要出手。"
+    },
+    {
+      "i": 129,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "31:44",
+      "en": "You know, for us, I think, you know, and even thinking back to Cornell, probably the shortest timeframe for meeting a manager to, you know, signing a, you know, a commitment was probably in the, you know, four months range.",
+      "zh": "对我们来说——即便回想在 Cornell 的时候——从见到一个管理人到签下承诺，最短的时间大概是四个月左右。"
+    },
+    {
+      "i": 130,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "31:55",
+      "en": "But I'd say it certainly tends to be much longer than that. And, you know, with these, you know, with this industry, a lot of it is that pattern recognition and starting to recognize, you know, what is common and what is different in the world.",
+      "zh": "但通常都会比这长得多。这个行业里很多东西靠的是模式识别——开始识别世界上哪些是共性、哪些是差异。"
+    },
+    {
+      "i": 131,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "32:07",
+      "en": "So, you know, when, you know, I'm out there meeting with a number of, you know, interesting GPs, you know, it can pretty quickly come to mind like, okay, this is actually very, very interesting.",
+      "zh": "所以当我在外面见一堆有意思的 GP 时，很快就能感觉出来：'好，这个真的非常非常有意思。'"
+    },
+    {
+      "i": 132,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "32:15",
+      "en": "I'm gonna, you know, metaphorically raise it up the chain and rope Roger, and if he's not already in the meeting and, you know, kind of get them started in that process there.",
+      "zh": "我就会（打个比方）把它'上报'，把 Roger 拉进来——如果他还没在这场会里的话——然后启动那个流程。"
+    },
+    {
+      "i": 133,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "32:24",
+      "en": "You know, as far as, you know, specifically what we're looking for, I mean, a lot of it is the, you know, kind of what you'd expect, you know, we're looking for, you know, professional, you know, fund managers that we could be with for hopefully multiple fund cycles and, you know, that hopefully, you know, knocking wood are going to, you know, totally explode in fun size down the road and, you know, kind of, you know,",
+      "zh": "至于具体我们在找什么，很多都是你会预期的那些：我们希望找到专业的基金管理人，可以陪我们走过多个基金周期；希望——敲敲木头——他们未来能规模爆炸式增长，"
+    },
+    {
+      "i": 134,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "32:44",
+      "en": "cater to a different set of LPs. You know, we're very open to emerging managers and first time funds. We tend to lean more towards, you know, first time, first time funds, not necessarily first time fund managers because at the end of the day, you know, when you are running a fund, it's not just going out and doing deals, it's also all the back office, it's raising money, it's XYZ, there's a lot of other things that,",
+      "zh": "然后服务另一批 LP。我们对新兴管理人和首只基金非常开放。我们更倾向于'首只基金'而不是'首次做管理人'——因为说到底，运营一只基金不只是出去做 deal，还包括中后台、募资等等一堆其他事情，"
+    },
+    {
+      "i": 135,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "33:09",
+      "en": "you know, aren't necessarily, you know, kind of the obvious sexy things you think about when you're running a firm. And, you know, if we're already taking that, you know, that risk of, you know, being a newer, you know, a newer fund or firm, you know, having, you know, that understanding that the person, you know, has in some way, shape, or form kind of done some of those things, you know, helps us get comfortable there.",
+      "zh": "这些并不是你开一家机构时会想到的那些'性感'事情。既然我们已经承担了投资新基金/新机构的风险，那么知道这个人以某种形式做过这些琐碎工作，会让我们更放心。"
+    },
+    {
+      "i": 136,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "33:29",
+      "en": "And then finally, I think, you know, in reality, you know, by definition, we are incredibly alpha seeking. You know, we think that there is alpha in, you know, every part of the, you know, venture and growth equity and private markets broadly.",
+      "zh": "最后，我觉得现实中，从定义上讲，我们极其追求 alpha。我们相信在 VC、growth equity 乃至整个私募市场的每一个角落都存在 alpha。"
+    },
+    {
+      "i": 137,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "33:41",
+      "en": "And, you know, for me, what I really try to understand is, you know, what is truly different and unique and interesting about, you know, you as a person or you as a firm or, you know, what would you bring to my portfolio?",
+      "zh": "对我来说，我真正想搞清楚的是：你这个人、你这家机构，究竟有什么真正与众不同、有意思的地方？你能给我的组合带来什么？"
+    },
+    {
+      "i": 138,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "33:52",
+      "en": "And, you know, frankly, you know, is that alpha or is that beta at the end of the day? And, you know, I think it's something certainly that, you know, I've gained in, you know, over the years, is, you know, getting a better lens on that.",
+      "zh": "说到底，那到底是 alpha 还是 beta？我觉得这些年我最大的收获，就是能有更好的眼光去分辨这两者。"
+    },
+    {
+      "i": 139,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "34:03",
+      "en": "And, you know, frankly, that can take so many different, you know, shapes and flavors. It's hard to kind of put into one easy to, you know, safe sentence, but, you know, I think, and, you know, you can obviously cut this if you want.",
+      "zh": "坦白说，它可以以各种形态和风格出现，很难用一句简单、安全的话概括。当然这段你们想剪就剪。"
+    },
+    {
+      "i": 140,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "34:15",
+      "en": "You know, there's the classic saying about pornography, which is, you know, when you see it, like when you are, you know, when you're an LP and you find something that's really interesting and, you know, you see that alpha potential there, you know, when you see it.",
+      "zh": "有一句关于'色情'的经典说法：'看到就知道了。'作为 LP，当你发现真正有意思的东西、看到里面的 alpha 潜力时，也是这种感觉——看到你就知道了。"
+    },
+    {
+      "i": 141,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "34:27",
+      "en": "But yes. As an interval fund, what is that end up, how does that end up affecting your decision making or your outcomes? Just like, how does that adjust the math?",
+      "zh": "——但没错。作为一个 interval fund，这最终会如何影响你的决策或结果？这套数学怎么调整？"
+    },
+    {
+      "i": 142,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "34:40",
+      "en": "Yeah, so I will, I will get a little nuance here. So technically, and I'm putting on my CFA nerd hat, technically we are, we're an open ended fun structure on an interval fund.",
+      "zh": "好，我稍微细化一下。技术上讲——我先戴上 CFA nerd 的帽子——严格来说我们是一个开放式（open-ended）基金结构，而不是 interval fund。"
+    },
+    {
+      "i": 143,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "34:53",
+      "en": "So obviously like open ended evergreen interval funds are very, you know, hot topic. One of my close friends who's also an LP went to an event yesterday at a law firm on this topic.",
+      "zh": "显然，open-ended、evergreen、interval fund 现在是非常热门的话题。我一位也是 LP 的好朋友昨天刚去一家律所参加了以此为主题的活动。"
+    },
+    {
+      "i": 144,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "35:06",
+      "en": "He was the only LP that showed up. There were over a hundred different GPs there. So this is very much in the mind, you know, more so on credit and buy out, but like in the venture world as well, like it is top of mind, you know, for all of the reasons why, you know, folks are kind of going into this channel for fundraising.",
+      "zh": "他是唯一到场的 LP，现场却有一百多位 GP。所以这个话题非常热——尤其在 credit 和 buyout 领域，但在 VC 圈也一样是当红话题。原因也很清楚：大家都在往这个渠道去募资。"
+    },
+    {
+      "i": 145,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "35:22",
+      "en": "You know, for us as an open ended vehicle, you know, we made that intention, we made that decision very intentionally. Again, going back to the whole idea of true endowment style, we wanted to replicate as close as we could what it would look like, you know, what it looked like when we, when what we were offering to the CIO at Cornell.",
+      "zh": "对我们这样一个 open-ended 载体来说，我们是有意做出这个决定的。回到'真正 endowment-style' 这个整体理念——我们想尽可能复现当年在 Cornell 提供给 CIO 的那种模式。"
+    },
+    {
+      "i": 146,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "35:39",
+      "en": "And at the end of the day, endowment is an open ended structure, you know, it's an indefinite life. And, you know, because of that, you know, we chose that model.",
+      "zh": "说到底，endowment 本身就是一个 open-ended 结构，是无固定期限的。正因为如此，我们选择了这种模式。"
+    },
+    {
+      "i": 147,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "35:47",
+      "en": "The difference with, you know, open ended versus evergreen, and it's a little nuanced is evergreen automatically reinvests your dividends. And then at some point, you know, you can elect to redeem and there might be gates or something like that.",
+      "zh": "open-ended 和 evergreen 的区别——有一点点细微——evergreen 会自动再投资你的分红，然后在某个时点你可以选择赎回，可能会有 gate（赎回限制）之类的机制。"
+    },
+    {
+      "i": 148,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "36:00",
+      "en": "And, you know, for us, it looks close, but it's a little different. And again, at Cornell, when the venture portfolio got a distribution, it would not go back to Rogers desk to redeploy.",
+      "zh": "对我们来说看起来相似，但略有不同。同样，在 Cornell，当 VC 组合收到分配时，钱不会回到 Roger 的桌上重新配置。"
+    },
+    {
+      "i": 149,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "36:11",
+      "en": "It would go back to the asset owner, the CIO. And of course, he could decide to go out and, you know, redeploy that into private equity, or it could go into the real assets or hedge fund or whatever portfolio he wanted to.",
+      "zh": "而是回到资产持有人——CIO 那里。当然他可以决定再投回私募股权，也可以投到 real assets、hedge fund，或者他想投的任何组合。"
+    },
+    {
+      "i": 150,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "36:22",
+      "en": "And for us, we're the same thing on both the entry and the exit were a cash flow past your vehicle. When our managers call capital from us, we call it from RLPs.",
+      "zh": "我们做法一样：进入端和退出端都是 cash flow pass-through 载体。当我们的管理人向我们 call capital 时，我们就向 LP call capital。"
+    },
+    {
+      "i": 151,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "36:30",
+      "en": "And when our managers send us distributions back, we send them back to RLPs. And then they can, of course, decide if they want to, to, you know, reinvest or re-up with us if they want to.",
+      "zh": "当管理人把分配打回来时，我们就打回给 LP。他们当然可以自己决定要不要再投资或加码。"
+    },
+    {
+      "i": 152,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "36:39",
+      "en": "With so much like efficiency, efficiency, efficiency with, you know, AI, I'm sure, I'm sure in all those meetings, not only the same 10 names, but everybody had an AI strategy.",
+      "zh": "现在讲效率、效率、效率都离不开 AI。我敢肯定在你那些会议里，不仅同样的 10 个名字反复出现，每一家还都有自己的 AI 战略。"
+    },
+    {
+      "i": 153,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "36:54",
+      "en": "I just want to know from your perspective, and we've spoken before, you always have said that how people, you know, treat others, especially when there's no specific benefit.",
+      "zh": "我想从你的角度听听——我们之前也聊过——你一直说，一个人怎么对待别人，尤其是在没有具体好处的时候，"
+    },
+    {
+      "i": 154,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "37:06",
+      "en": "So like service providers, placement agents, you know, peers, the GP or LP side, you've always felt is important. Why is it so much more important now than ever?",
+      "zh": "比如服务商、placement agent、GP 或 LP 同行——你一直觉得这一点很重要。为什么现在这一点比以往任何时候都更重要？"
+    },
+    {
+      "i": 155,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "37:17",
+      "en": "Great question. And yes, I, if I had a dollar for every time, I've had a, you know, conversation with the manager where, you know, the topic of AI came up, I'd probably be retired on the beach somewhere.",
+      "zh": "好问题。是的，如果每次跟管理人聊天时聊到 AI 都能给我一块钱，我可能已经退休躺在某个海滩上了。"
+    },
+    {
+      "i": 156,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "37:27",
+      "en": "But so it's certainly a stop of mine. But, you know, in all seriousness, I think as you were implying, you know, as, you know, knowledge and information gets more and more accessible and democratized and other barriers fall, at the end of the day, what is truly durable and sustainable?",
+      "zh": "所以这确实是我常聊的话题。但说正经的，就像你暗示的那样：随着知识和信息越来越容易获取、越来越民主化，其他壁垒也在倒下，那么最终真正持久、可持续的东西是什么？"
+    },
+    {
+      "i": 157,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "37:43",
+      "en": "And a lot of that, you know, other aspects too, but a large number of that is kind of relationships in the reputation that you have, you know, within your, you know, industry or with peers or whatever it may be.",
+      "zh": "答案有很多方面，但很大一部分是关系，是你在自己行业、同行或任何圈子里的声誉。"
+    },
+    {
+      "i": 158,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "37:53",
+      "en": "And, you know, I think part of it, you know, on my side, you know, a lot of the times the perception of LPs can be, you know, LPs are sitting up in this ivory tower and the managers must come grovel to them.",
+      "zh": "从我这边来说，很多时候大家对 LP 的印象是：LP 高高坐在象牙塔里，管理人得来求他们。"
+    },
+    {
+      "i": 159,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "38:05",
+      "en": "And, you know, they are the, you know, the king makers per se. And, you know, you really have to suck up to them. And, you know, sure, that can be the case at some places.",
+      "zh": "他们是所谓的'造王者'（kingmaker），你真得去巴结他们。诚然，某些地方确实是这样。"
+    },
+    {
+      "i": 160,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "38:14",
+      "en": "And I very much don't agree with that ethos. I think for us, we kind of, you know, Roger coming out of the GP world, you know, me coming from, you know, seeing multiple sides of the table and now building a business.",
+      "zh": "但我非常不认同这种风气。对我们来说，Roger 出身 GP 圈，我则是见过桌子的多个方位、现在又在创业。"
+    },
+    {
+      "i": 161,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "38:25",
+      "en": "And also frankly, just the way I was raised, you know, it's not just, you know, can you do something now in a transactional way that can get you some kind of tangible benefit in the near term?",
+      "zh": "而且坦白讲，也跟我从小受的教育有关——问题不只是：你现在能不能做一件交易性的事、给自己带来短期的切实好处？"
+    },
+    {
+      "i": 162,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "38:34",
+      "en": "You know, I personally had a lot of, you know, great mentors and friends and people who took a chance on me in a leap of faith for me and my, you know, personal development and career and whatnot.",
+      "zh": "我个人遇到过很多很棒的导师、朋友，愿意在我和我的个人成长、职业发展上冒险、给我一次机会。"
+    },
+    {
+      "i": 163,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "38:43",
+      "en": "And I love paying that forward whenever I can, be it, you know, a Cornell undergrad that's asking for, you know, thoughts on XYZ or, you know, a manager we're not even committed to asked for an intro to somebody in my network.",
+      "zh": "我也非常愿意把这份善意传递出去：无论是 Cornell 本科生来问我某个问题，还是我们没有出资的管理人请我帮他引荐人脉里的某个人。"
+    },
+    {
+      "i": 164,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "38:56",
+      "en": "And of course, within reason, I will, you know, 99 times out of 100, I'll jump at that opportunity. My takeaway, Dan, I am cracking up that the stereotype of the allocators is that they don't get the upside.",
+      "zh": "只要在合理范围内，一百次里有 99 次我都会毫不犹豫答应。——Dan，我最大的感触是：人们对配置人的刻板印象是'他们拿不到上行收益'，这让我笑得不行。"
+    },
+    {
+      "i": 165,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "39:10",
+      "en": "And so, you know, that's what's distinguishing me, the LP from the GP. And meanwhile, all of the people who want to come work with you and give their money to you are the GPs who don't want to pay two and 20.",
+      "zh": "所以这就是区分我这个 LP 和 GP 的地方。同时，所有想来跟你合作、把钱交给你的人，恰恰是那些不想付 2 and 20 的 GP。"
+    },
+    {
+      "i": 166,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "39:25",
+      "en": "So this is not lost on me. But if you want, if you want diversification across this asset class and not to be paying two and 20, you're going to put your money with an allocator.",
+      "zh": "所以我完全明白这一点。但如果你想在这个资产类别里做分散化、又不想付 2 and 20，你就得把钱交给一个 allocator。"
+    },
+    {
+      "i": 167,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "39:39",
+      "en": "It's true. I mean, you know, of course there are some people that, you know, can do it themselves or very happy with the providers or whatnot.",
+      "zh": "确实如此。当然也有一些人可以自己搞定，或者对现有服务商非常满意。"
+    },
+    {
+      "i": 168,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "39:50",
+      "en": "But, you know, at the end of the day, the, you know, called that, you know, the fund of funds is a, you know, I think it was invented well before I was born, the 70s or 80s.",
+      "zh": "但说到底，所谓的 fund of funds——如果我没记错——是在我出生之前很久、大概 70 或 80 年代发明的。"
+    },
+    {
+      "i": 169,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "39:59",
+      "en": "In what other area of the world are we still using 70s or 80s technology, especially in one as important as, you know, the fundamental layer connecting who has the capital with the people deploying the capital?",
+      "zh": "世界上还有哪个领域，我们仍在用 70、80 年代的技术？尤其是在这么重要的领域——连接有资本的人和部署资本的人之间的基础层。"
+    },
+    {
+      "i": 170,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "40:10",
+      "en": "I guess that's pretty insane. And, you know, it's, you know, of course, you know, we are, you know, very proud of what we're building here and it's great being, you know, an N of one, you know, I would not be surprised.",
+      "zh": "这想想挺疯狂的。当然，我们对自己正在构建的东西非常自豪，做一个'N of 1'（独一份）也很棒。我不会感到意外——"
+    },
+    {
+      "i": 171,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "40:22",
+      "en": "And frankly, I think, you know, in some senses would welcome if other groups kind of take this idea, you know, I think our impression of leaving on the world is this is the right way to go as far as, you know, where, you know, the public is moving, you know, the cost of equity beta has gone from expensive to basically free over, you know, Roger and certainly my lifetime.",
+      "zh": "而且坦白说，从某种意义上讲，如果其他机构也采纳这个想法，我们是欢迎的。我们想留给世界的印象是：这就是正确的方向。看看公开市场，在 Roger 的职业生涯里、更不用说在我这一生里，equity beta 的成本已经从昂贵变成基本免费。"
+    },
+    {
+      "i": 172,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "40:39",
+      "en": "And hopefully by the time that, you know, I'm, you know, retired sitting on a beach somewhere with my, you know, 15 Bernese mountain dogs, that, you know, the cost of allocation will be, you know, have broadly moved to something in this kind of general direction.",
+      "zh": "希望等到我退休、坐在某个海滩上、身边有 15 只伯恩山犬的时候，配置成本也已经整体朝这个方向移动。"
+    },
+    {
+      "i": 173,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "40:53",
+      "en": "Because I think it just sets everybody else up for success. And, you know, across the chain all the way from the portfolio companies to the, you know, to the GPs, to the LPs, to the asset owners.",
+      "zh": "因为我觉得这样能让链条上的每一个人都更容易成功——从被投公司，到 GP，到 LP，再到资产持有人。"
+    },
+    {
+      "i": 174,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "41:02",
+      "en": "Oh, it's been such a pleasure, Dan. Thank you. Absolutely. See you later, allocator. After portfolio tile, investing with a smile. Progressive's accident response can contact emergency services if you're in a major accident.",
+      "zh": "Dan，跟你聊得非常愉快，谢谢你。——非常荣幸。——回见，allocator。Progressive 让你微笑投资。Progressive 的 accident response 可以在你遇到重大事故时联系紧急救援服务。"
+    },
+    {
+      "i": 175,
+      "speaker": 5,
+      "speaker_zh": 5,
+      "ts": "41:20",
+      "en": "The only thing worse than someone you love being in an accident is not being able to help them. So progressive is here to help when you can't.",
+      "zh": "比所爱之人出车祸更糟的，就是你无法帮到他们。所以当你能帮不上忙时，Progressive 会出手相助。"
+    },
+    {
+      "i": 176,
+      "speaker": 5,
+      "speaker_zh": 5,
+      "ts": "41:28",
+      "en": "So get peace of mind knowing your loved ones are protected with progressive's accident response. Learn more at progressive.com. Progressive Casualty Insurance Company and Affiliates limited availability in California.",
+      "zh": "有了 Progressive 的 accident response，你可以安心，知道你所爱的人有所保障。更多信息请访问 progressive.com。Progressive Casualty Insurance Company 及其关联方，在加州的产品有限。"
+    },
+    {
+      "i": 177,
+      "speaker": 5,
+      "speaker_zh": 5,
+      "ts": "41:38",
+      "en": "Driver is responsible for emergency and towing charges not covered by the policy, coverage subject to policy terms and conditions. As wishlist grow, you know where to go.",
+      "zh": "驾驶人需自行承担保单未涵盖的紧急救援和拖车费用，保障范围以保单条款为准。心愿清单越来越长，你知道该去哪儿。"
+    },
+    {
+      "i": 178,
+      "speaker": 5,
+      "speaker_zh": 5,
+      "ts": "41:47",
+      "en": "Head to Ulta Beauty. We have gifts they'll love from brands like Tato One and Rare Beauty by Selena Gomez. Shop Beauty Faves to give or keep from Shark Beauty, Sol de Janeiro and more.",
+      "zh": "去 Ulta Beauty 吧。我们备好了他们一定会喜欢的礼物，来自 Tatcha、Rare Beauty by Selena Gomez 等品牌。选购 Shark Beauty、Sol de Janeiro 等美妆好物，送人自用两相宜。"
+    },
+    {
+      "i": 179,
+      "speaker": 5,
+      "speaker_zh": 5,
+      "ts": "41:58",
+      "en": "Not sure what they want? You can't go wrong with Balmain, Clinique or Redken and don't forget to put yourself on the list. Book a salon moment or add a little more sparkle to your season.",
+      "zh": "不确定他们想要什么？选 Balmain、Clinique 或 Redken 一定不会错。也别忘了给自己来一份。预约一次沙龙时光，或为这个季节增添一点闪耀。"
+    },
+    {
+      "i": 180,
+      "speaker": 5,
+      "speaker_zh": 5,
+      "ts": "42:08",
+      "en": "Shop holiday in store or at Ulta.com. Ulta Beauty. LinkedIn is pretty amazing at helping you grow your small business. We cannot stop your new clients from emailing you at 3 a.m.",
+      "zh": "在门店或 Ulta.com 选购节日好物。Ulta Beauty。LinkedIn 非常擅长帮你发展小型企业。我们无法阻止你的新客户在凌晨 3 点给你发邮件，"
+    },
+    {
+      "i": 181,
+      "speaker": 5,
+      "speaker_zh": 5,
+      "ts": "42:20",
+      "en": "We can help you sell, market and hire in one place. We cannot help you be in three places at once. And while we can't help you organize your calendar, LinkedIn can help you land more clients so you have a calendar to organize.",
+      "zh": "但我们可以在一个平台上帮你完成销售、营销和招聘。我们无法让你同时出现在三个地方。虽然我们没法帮你整理日历，但 LinkedIn 能帮你拿下更多客户，让你有日历可以整理。"
+    },
+    {
+      "i": 182,
+      "speaker": 5,
+      "speaker_zh": 5,
+      "ts": "42:36",
+      "en": "Grow your small business on LinkedIn. Learn more at LinkedIn.com slash small business.",
+      "zh": "在 LinkedIn 上发展你的小企业。了解更多请访问 LinkedIn.com/smallbusiness。"
+    }
+  ]
+}

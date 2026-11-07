@@ -1,0 +1,775 @@
+{
+  "show": "behind-the-ticker",
+  "kind": "transcript",
+  "id": "behind-the-ticker-a62f367b",
+  "guid": "Buzzsprout-19838251",
+  "slug": "2026-09-27-why-80-of-us-startups-are-a62f367b",
+  "date": "2026-09-27",
+  "title_en": "Why 80% of US Startups Are Now Running on Chinese AI Models | Kevin T. Carter, EMX ETFs",
+  "title_zh": "为什么 80% 的美国初创公司都在用中国 AI 模型 | Kevin T. Carter，EMX ETFs",
+  "subtitle_zh": "Kevin T. Carter 拆解中国 AI 开源模型'Tigers'、五层技术栈与新兴市场 MAG3 的投资逻辑。",
+  "description": "Why 80% of US Startups Are Now Running on Chinese AI Models | Kevin T. Carter, EMX ETFs",
+  "duration": "34:10",
+  "duration_seconds": 2050,
+  "episode_url": null,
+  "audio_url": "https://www.buzzsprout.com/2162961/episodes/19838251-why-80-of-us-startups-are-now-running-on-chinese-ai-models-kevin-t-carter-emx-etfs.mp3",
+  "speakers": {
+    "1": "Brad Roth（主持）",
+    "2": "Kevin T. Carter（嘉宾）"
+  },
+  "turn_count": 94,
+  "turns": [
+    {
+      "i": 0,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "00:00",
+      "en": "Welcome to Behind the Ticker, the podcast where we go beyond the symbol and into the strategy. I'm Brad Roth, founder and chief investment officer at Thor Funds, and in each episode, I sit down with ETF managers, CIOs, and industry leaders to break down how these funds are actually built, how they behave in real markets, and how advisors use them in real portfolios.",
+      "zh": "欢迎收听 Behind the Ticker，这档播客会带你透过代码看策略（beyond the symbol and into the strategy）。我是 Brad Roth，Thor Funds 的创始人兼首席投资官（CIO）。每一期节目，我都会坐下来和 ETF 基金经理、CIO 以及行业领袖聊一聊，拆解这些基金到底是怎么构建的、在真实市场里表现如何，以及理财顾问在真实的投资组合里怎么用它们。"
+    },
+    {
+      "i": 1,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "00:29",
+      "en": "Most people just see a ticker symbol, but we know much more goes on behind the ticker. Hey, Kevin, welcome back to the show. Hey, Brad. Good to see you again.",
+      "zh": "大多数人只看到一个交易代码（ticker symbol），但我们知道，代码背后还有很多门道。嘿，Kevin，欢迎再次来到节目。——嘿，Brad，很高兴又见到你。"
+    },
+    {
+      "i": 2,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "00:45",
+      "en": "So before we get started, why don't you give everybody a refresher on your background? You've been in the ETF industry going back to 1999. You founded eInvesting in 1999, which sold to eTrade, and you've collaborated with Princeton economist Burton.",
+      "zh": "那在我们正式开始之前，你先给大家回顾一下你的背景吧？你在 ETF 行业已经很久了，可以追溯到 1999 年。你在 1999 年创立了 eInvesting，后来卖给了 eTrade，你还和 Princeton 的经济学家 Burton 合作过。"
+    },
+    {
+      "i": 3,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "01:00",
+      "en": "I'm going to screw that up, Marle Kelly, for over 20 years. Can you walk us through how that career unfolded? Sure. Well, so I lived in San Francisco, and I was born and raised here, and I got out of school, and I started in 1992 at a company called Robertson Stevens, which was the leading technology investment bank in the world in the 80s and 90s here in San Francisco.",
+      "zh": "……名字我肯定要念错，是 Burton Malkiel，你们合作了 20 多年。你能给我们讲讲这段职业历程是怎么展开的吗？——好的。嗯，我一直住在 San Francisco，在这儿出生长大。毕业以后，我 1992 年入职了一家叫 Robertson Stephens 的公司，那是上世纪八九十年代全球领先的科技投行，就在 San Francisco。"
+    },
+    {
+      "i": 4,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "01:26",
+      "en": "When I had my interview, they said, you can start Monday, and I said, well, I don't know anything. How can I start Monday? And they said, well, go get this book, A Random Walkdown Wall Street, and read it over the weekend.",
+      "zh": "我去面试的时候，他们说，你周一就能来上班。我说，可我什么都不懂啊，怎么周一就能上班？他们说，那你去把这本书买来——《漫步华尔街》（A Random Walk Down Wall Street），周末读完。"
+    },
+    {
+      "i": 5,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "01:38",
+      "en": "So I started by reading A Random Walkdown Wall Street, which, as you know, is a book that really set the stage for index funds. There were no index funds when the book was first written by Bert in 1973, and he laid out in three paragraphs his idea for a new type of investment fund, which was an index fund, which a few years later, his friend John Bogle actually launched.",
+      "zh": "所以我的起点就是读《漫步华尔街》。你知道的，这本书真正为指数基金（index funds）奠定了基础。Bert 在 1973 年第一次写这本书的时候，市面上还没有指数基金。他用三段话阐述了他对一种新型投资基金的构想，也就是指数基金。几年之后，他的朋友 John Bogle 真的把它推了出来。"
+    },
+    {
+      "i": 6,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "01:59",
+      "en": "So that's how I started, was reading about indexing, but I'm an Omaha person first and foremost, and when I say that, I mean a Berkshire Hathaway, Warren Buffett, Charlie Munger, wannabe in terms of how I think about business and investing.",
+      "zh": "所以我入行是从读指数化投资开始的。但我骨子里首先是个 Omaha 人。我这么说的意思是，在思考商业和投资上，我是个想学 Berkshire Hathaway、Warren Buffett、Charlie Munger 的人。"
+    },
+    {
+      "i": 7,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "02:14",
+      "en": "But I started working with Bert Malkiel in 1999 when I had an idea, which was to create fractional shared brokers, because back then you had to buy 100 shares of a stock to buy a stock directly, and that was expensive.",
+      "zh": "不过我真正开始和 Bert Malkiel 合作是在 1999 年，当时我有个想法，就是做碎股经纪（fractional share brokerage）。因为那会儿你要直接买一只股票，得买 100 股，很贵。"
+    },
+    {
+      "i": 8,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "02:27",
+      "en": "It was a $30 trade, and then you had to buy 100 shares, so that was like $3,000. So people were sort of stuck going into mutual funds, and so anyhow, we built an online brokerage firm that was the first fractional shared brokerage firm, which we called eInvesting, and we sold it to eTrade.",
+      "zh": "一笔交易要 30 美元，然后你还得买 100 股，那就差不多 3000 美元了。所以大家多少被逼着去买共同基金（mutual funds）。总之，我们建了一家在线券商，是第一家做碎股交易的券商，我们把它叫做 eInvesting，后来卖给了 eTrade。"
+    },
+    {
+      "i": 9,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "02:45",
+      "en": "And Bert and I then started this thing called Active Index Advisors, which was basically the first direct indexing platform. Bert said direct indexing back then.",
+      "zh": "后来 Bert 和我一起创办了一家叫 Active Index Advisors 的公司，基本上是最早的直接指数化（direct indexing）平台。Bert 说，'直接指数化'这个叫法……"
+    },
+    {
+      "i": 10,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "02:56",
+      "en": "That's a more recent description of it, but Berton was the co-founder and chief investment officer, and we hired some iShares people and built a direct indexing platform, and sold that to Nautixus in 2004, and about the same time that we sold the company, Berton had started to get interested in China and had started going to China and wrote a paper about China, and we had some investors that heard about this and called us and said,",
+      "zh": "……那是比较近的说法。但 Bert 是联合创始人兼首席投资官，我们招了一些 iShares 的人，搭建了一个直接指数化平台，2004 年卖给了 Nautilus。差不多在卖出公司的那段时间，Bert 开始对中国感兴趣，开始往中国跑，还写了一篇关于中国的论文。有一些投资人听说了，就打电话给我们说，"
+    },
+    {
+      "i": 11,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "03:25",
+      "en": "well, we want to add some China to our portfolio, and I said, okay, well, let me try to figure that out, and that was 20 years ago, and I'm still stuck in emerging markets in China trying to put together the best ways for people to invest long term.",
+      "zh": "'我们想在投资组合里加一点中国敞口。'我说，好，那我来想办法搞清楚。那是 20 年前的事了，到现在我还扎在新兴市场（emerging markets）和中国里，努力拼出让人能长期投资的最佳方式。"
+    },
+    {
+      "i": 12,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "03:39",
+      "en": "And as you may not know, Bert and I partnered with Guggenheim initially on that effort and launched a number of China ETFs, including CQQQ, which was the first China tech ETF, which we launched in 2010.",
+      "zh": "你可能不知道，Bert 和我最初是和 Guggenheim 合作做这件事的，推出了一批中国 ETF，包括 CQQQ，那是第一只中国科技 ETF，我们在 2010 年推出。"
+    },
+    {
+      "i": 13,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "03:56",
+      "en": "And then in 2014, I realized that all the things I saw in China with billion of new consumers getting their first computer, which was a smartphone, and then doing everything online, I saw that that was going to spread to other countries, and Mercado Libre, which some of your listeners may know, that the amazon.com of Brazil was the company that I first noticed, and I said, well, this is a lot like the China internet companies, and that led to EMQQ,",
+      "zh": "然后到了 2014 年，我意识到我在中国看到的一切——数以亿计的新消费者拿到人生第一台电脑，其实就是一台智能手机，然后什么都在线上完成——这些会蔓延到其他国家。Mercado Libre，你们一些听众可能知道，就是巴西的 amazon.com，是我最早注意到的公司。我说，这跟中国的互联网公司太像了。这就催生了 EMQQ。"
+    },
+    {
+      "i": 14,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "04:24",
+      "en": "which is focused on the emerging markets internet sector and has been for the last 12 years. And now, of course, AI is the next tech wave, and we, and it's also brought emerging markets really back into favor, because as it turns out, emerging markets are quite important in the AI world.",
+      "zh": "EMQQ 专注于新兴市场互联网板块，过去 12 年一直是这样。而现在，AI 当然是下一波科技浪潮，它也把新兴市场重新带回了人们的视野，因为事实证明，新兴市场在 AI 世界里相当重要。"
+    },
+    {
+      "i": 15,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "04:45",
+      "en": "And so we created a new brand, EMX ETFs, to build some AI related emerging market exposure vehicles. Yeah. And I want to talk about that. So you have a really great suite through EMQQ global.",
+      "zh": "所以我们创建了一个新品牌 EMX ETFs，来打造一些与 AI 相关的新兴市场敞口工具。——嗯，这个我很想聊聊。你们通过 EMQQ Global 已经有一套很棒的产品线了。"
+    },
+    {
+      "i": 16,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "05:01",
+      "en": "I mean, you guys, EMQQ, FMQQ, you and I talked extensively last time about INQQ. So just out of curiosity, what was the reason or the thesis behind launching an entire new brand and not just put everything under the existing brand?",
+      "zh": "我是说，你们有 EMQQ、FMQQ，上次你和我详细聊过 INQQ。所以我就好奇，当初为什么要推出一个全新的品牌，而不是把所有东西都放在现有品牌下面？"
+    },
+    {
+      "i": 17,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "05:18",
+      "en": "Well, to be honest, it was kind of a coin toss, and it's not clear. We won't merge the whole thing together, but the EMX ETFs are actively managed.",
+      "zh": "嗯，说实话，这有点像抛硬币决定的，也不太明确，我们以后会不会把它们合并到一起。但 EMX ETFs 是主动管理型（actively managed）的。"
+    },
+    {
+      "i": 18,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "05:29",
+      "en": "They're done in partnership with Tidal Financial Group, which you certainly know. Some listeners may know, but this is the white label platform that's the leading white label platform that was founded by two of my good friends.",
+      "zh": "它们是和 Tidal Financial Group 合作做的，你肯定了解这家公司。有些听众可能也知道，这是领先的白标（white label）平台，由我的两位好朋友创办。"
+    },
+    {
+      "i": 19,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "05:43",
+      "en": "When I launched EMQQ, Tidal wasn't in the business of white labeling. So there wasn't really a lot of choices 12 years ago, but so that's the reason for the new brand.",
+      "zh": "我推出 EMQQ 的时候，Tidal 还没做白标这块业务。所以 12 年前其实没什么选择，这就是新品牌的原因。"
+    },
+    {
+      "i": 20,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "05:57",
+      "en": "And again, I think it's possible we'll roll them together, but we were eager to get moving and we set it up as a separate entity with any EMQQ global.",
+      "zh": "再说一次，我觉得我们有可能把它们合并，但当时我们急于起步，就把它设成了一个独立实体，跟 EMQQ Global 分开。"
+    },
+    {
+      "i": 21,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "06:09",
+      "en": "Yeah, let's get right into Tigers. TGRZ, the EMX ETF, China AI, Tigers LLM ETF launched August 26th at a high level. Can you talk about what this fund is and the problem that it's really trying to solve?",
+      "zh": "好，我们直接聊 Tigers 吧。TGRZ，也就是 EMX 的这只 ETF——China AI Tigers LLM ETF，8 月 26 日推出的。你能先从大方向上讲讲这只基金是什么，它到底想解决什么问题吗？"
+    },
+    {
+      "i": 22,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "06:24",
+      "en": "Sure. Well, if you look at AI, the best way for people to get their arms around AI and what's happening is to use the five-layer cake metaphor that Jensen Wong has popularized or the five-layer AI stack.",
+      "zh": "好的。嗯，如果你要看 AI，让人真正理解 AI 和当下正在发生什么，最好的方式就是用 Jensen Huang 带火的那个'五层蛋糕'（five-layer cake）比喻，也就是五层 AI 技术栈（AI stack）。"
+    },
+    {
+      "i": 23,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "06:40",
+      "en": "So if you look at what AI is, there's basically five layers. The bottom layer is power, energy, or more specifically electricity. The second layer is the chips layer.",
+      "zh": "所以如果你看 AI 是什么，基本上就是五层。最底层是电力、能源，更具体说是电。第二层是芯片层。"
+    },
+    {
+      "i": 24,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "06:53",
+      "en": "Now that's a catch-all that includes semiconductors, memory, optics, server, all of the hardware, cables, racks, cooling, testing, all of the associated parts of the AI machinery in the data center.",
+      "zh": "这一层是个大杂烩，包括半导体、内存、光学、服务器，所有硬件，还有线缆、机架、冷却、测试，以及数据中心里 AI 机器的所有相关部件。"
+    },
+    {
+      "i": 25,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "07:13",
+      "en": "And then of course the data center is sort of the third layer. So those first three layers are the infrastructure for AI. If you're a hyperscaler, they're at expense.",
+      "zh": "然后数据中心算是第三层。所以前三层是 AI 的基础设施。如果你是超大规模云厂商（hyperscaler），这些对你是开销。"
+    },
+    {
+      "i": 26,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "07:26",
+      "en": "This is one of the several questions that are trillion-dollar questions out there. One of them is, how will the hyperscalers get a return on this investment?",
+      "zh": "这是外面好几个'万亿美元问题'之一。其中一个就是：这些超大规模云厂商要怎么从这笔投资上获得回报？"
+    },
+    {
+      "i": 27,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "07:39",
+      "en": "But if you're someone that is generating revenue from that infrastructure, it's a business for you. You're the picks and shovels. So right now, and for several years going forward, there's going to be a lot of picks and shovels needed.",
+      "zh": "但如果你是靠这套基础设施来创收的人，那对你就是门生意。你就是'卖铲子的人'（picks and shovels）。所以现在，以及未来好几年，都会需要大量的'铲子'。"
+    },
+    {
+      "i": 28,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "07:58",
+      "en": "And this is where EM comes into play because it turns out, well, the main AI races between China and the United States, the people that are most important in terms of the hardware, the chips, are in Korea and Taiwan.",
+      "zh": "这正是新兴市场（EM）登场的地方，因为事实证明，AI 的主战场是在中国和美国之间，而在硬件、芯片方面最重要的玩家，其实在韩国和台湾。"
+    },
+    {
+      "i": 29,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "08:15",
+      "en": "And so those are the first three layers. Now on top of that infrastructure, the layer four is the models, the large language models, which is what Jensen calls the magic layer.",
+      "zh": "这就是前三层。那么在这套基础设施之上，第四层是模型，也就是大语言模型（large language models），Jensen 把这层叫做'魔法层'（magic layer）。"
+    },
+    {
+      "i": 30,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "08:28",
+      "en": "These are the real AI companies, if you will. We of course, in the US, we have Anthropic and Claude. We have OpenAI and ChatGPT, Google and Gemini, and there's several others out there.",
+      "zh": "这些才算得上是真正的 AI 公司。我们在美国当然有 Anthropic 和 Claude，有 OpenAI 和 ChatGPT，有 Google 和 Gemini，还有其他几家。"
+    },
+    {
+      "i": 31,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "08:41",
+      "en": "But those are the big three, let's say. Well, China, as some of your listeners know, has their own models, and they are different than our models.",
+      "zh": "但可以说那就是三巨头。而中国，你们一些听众知道，也有自己的模型，而且和我们的模型不一样。"
+    },
+    {
+      "i": 32,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "08:53",
+      "en": "The main difference is that the US models are all closed models. The China models are all open weight models. And what that means is that users can download the model onto their own machines.",
+      "zh": "主要区别在于，美国的模型都是闭源（closed）模型，中国的模型都是开放权重（open weight）模型。这意味着用户可以把模型下载到自己的机器上。"
+    },
+    {
+      "i": 33,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "09:08",
+      "en": "They can tweak and customize the models, the weights, if you will. They are just as good, nearly as good as our best models. And they're a fraction of the cost.",
+      "zh": "他们可以对模型、对权重进行微调和定制。这些模型和我们最好的模型几乎一样好，而成本只是其中的一小部分。"
+    },
+    {
+      "i": 34,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "09:23",
+      "en": "In some cases, they're 90% less, and they're getting used. People don't appreciate how widely used the China Open models are now. According to many estimates, about 80% of US startups are using China models.",
+      "zh": "有些情况下，成本低 90%，而且它们正在被使用。人们没意识到中国的开源模型现在用得有多广。据很多估计，大约 80% 的美国初创公司在用中国模型。"
+    },
+    {
+      "i": 35,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "09:40",
+      "en": "For the reasons I describe, customizable on-premises, control your own data just as good as the expensive models and very cost-effective. It's not just startups.",
+      "zh": "原因就是我说的那些：可定制、可本地部署（on-premises）、掌控自己的数据，跟那些昂贵的模型一样好，而且非常划算。而且不只是初创公司在用。"
+    },
+    {
+      "i": 36,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "09:56",
+      "en": "Airbnb is built on top of China models. Some people probably know about the cursor acquisition, which was a big acquisition that SpaceX made in the last couple of months.",
+      "zh": "Airbnb 就是建立在中国模型之上的。有些人可能知道 Cursor 那笔收购，那是 SpaceX 最近几个月做的一笔大收购。"
+    },
+    {
+      "i": 37,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "10:08",
+      "en": "That company is built on top of China models because of the reasons I mentioned before. So the Tigers is meant to capture that layer. And the term Tigers is used in China to describe six specific models.",
+      "zh": "那家公司也是建立在中国模型之上的，原因就是我前面提到的那些。所以 Tigers 就是要捕捉这一层。而'Tigers'这个词在中国用来指六家特定的模型公司。"
+    },
+    {
+      "i": 38,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "10:24",
+      "en": "So in China, you have the historic tech leaders like Alibaba and Tencent and Baidu, and they have models, and mainly Alibaba's Quen model, or QN model, which is the most downloaded model in the world in the last several months.",
+      "zh": "在中国，你有像 Alibaba、Tencent、Baidu 这样的老牌科技巨头，它们也有模型，主要是 Alibaba 的 Qwen 模型，过去几个月它是全球下载量最大的模型。"
+    },
+    {
+      "i": 39,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "10:44",
+      "en": "But then you have these six companies that are described as the Tigers. And those are companies, all of which came from the same computer science lab.",
+      "zh": "但另外有六家公司被称作 Tigers。这六家公司全都出自同一个计算机科学实验室。"
+    },
+    {
+      "i": 40,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "10:54",
+      "en": "So Tsinghua University's computer science lab in Beijing is perhaps the best in the world. And all six of the Tigers came from that lab. You have Z.ai, which is the largest holding of the Tigers, which was the first large language model to ever go public anywhere in the world in Hong Kong earlier this year.",
+      "zh": "北京 Tsinghua University 的计算机科学实验室，可能是全世界最好的。六只'Tiger'全都来自那个实验室。有 Z.ai，它是 Tigers 里最大的持仓，是全球第一家上市的大语言模型公司，今年早些时候在 Hong Kong 上市。"
+    },
+    {
+      "i": 41,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "11:13",
+      "en": "You have Minimax, which was the second one to go public also in Hong Kong earlier this year. Then you have Moonshot, which is the open model lab that created Kimmy K3.",
+      "zh": "还有 MiniMax，是第二家上市的，同样今年早些时候在 Hong Kong。然后是 Moonshot，就是那个打造出 Kimi K3 的开源模型实验室。"
+    },
+    {
+      "i": 42,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "11:25",
+      "en": "Now again, for AI followers, may remember in July, there was a lot of noise for a week, basically, when Kimmy K3 launched, and it was nearly as good, or essentially as good as our very best models, and again, at a fraction of the price.",
+      "zh": "再说一次，关注 AI 的人可能记得，七月份有一周闹得沸沸扬扬，就是 Kimi K3 发布的时候。它几乎、甚至基本上和我们最好的模型一样好，同样，价格只是其中的一小部分。"
+    },
+    {
+      "i": 43,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "11:42",
+      "en": "You also have a Step Fun. You have Baichuan AI, which is a healthcare focused model. And then you have ZeroOne.ai, which was founded by Google's former China head, Kai Fuli.",
+      "zh": "还有 StepFun。有 Baichuan AI，是一家专注医疗健康（healthcare）的模型公司。然后还有 ZeroOne.ai（01.AI），由 Google 前中国区负责人 Kai-Fu Lee 创办。"
+    },
+    {
+      "i": 44,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "11:57",
+      "en": "So those are the Tigers, according to the official, there's no official list of these companies, but those six. So our Tigers, the TGRZ, we're not limited to just those six.",
+      "zh": "所以这些就是 Tigers。虽然没有官方的名单，但就是这六家。所以我们的 Tigers，也就是 TGRZ，并不局限于这六家。"
+    },
+    {
+      "i": 45,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "12:10",
+      "en": "We can own Alibaba and others that have large language models, and that includes another important company that will be part of the Tigers when it goes public, and potentially via private investment beforehand, which the funds allowed to do, and we're exploring.",
+      "zh": "我们可以持有 Alibaba 以及其他有大语言模型的公司，其中还包括另一家重要公司，它上市后也会成为 Tigers 的一部分，而且可能在此之前就通过私募投资进入——基金是允许这么做的，我们正在探索。"
+    },
+    {
+      "i": 46,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "12:29",
+      "en": "And that's DeepSeek, the model that really put China on the map. And if you remember, it was only 20 months ago, January of 2025, when there was a lot of things happening in the world back then.",
+      "zh": "那就是 DeepSeek，真正让中国登上 AI 版图的模型。如果你还记得，那只是 20 个月前，2025 年 1 月，当时世界上正发生很多事情。"
+    },
+    {
+      "i": 47,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "12:42",
+      "en": "There was a renewed interest in emerging markets and international investing by investors and institutional investors, but then you had the drop of DeepSeek.",
+      "zh": "当时投资人和机构投资者对新兴市场和国际投资的兴趣重新升温，但紧接着 DeepSeek 就横空出世了。"
+    },
+    {
+      "i": 48,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "12:53",
+      "en": "And remember, the investment world was already concerned about the CapEx that was going on, and the amount of money that Anthropic and OpenAI needed, and people were concerned about the payoff.",
+      "zh": "记住，投资界当时已经在担心正在发生的资本开支（CapEx），担心 Anthropic 和 OpenAI 需要多少钱，人们担心回报能不能兑现。"
+    },
+    {
+      "i": 49,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "13:07",
+      "en": "And then this China model comes out of nowhere, and they say ours is just as good, and it only cost us six and a half million dollars. And it had a significant impact, I believe, and video was down 35% on this news, and it really threw into question whether this massive multi-trillion dollar spend was necessary.",
+      "zh": "然后这个中国模型凭空冒出来，说我们的模型一样好，而只花了我们 650 万美元。我相信它造成了重大影响，Nvidia 因为这个消息跌了 35%，它真的让人质疑，这种数万亿美元规模的巨额投入到底有没有必要。"
+    },
+    {
+      "i": 50,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "13:28",
+      "en": "And so the reason DeepSeek isn't one of the tigers is that it was actually started by a hedge fund. So the founder of DeepSeek was a math prodigy in China, and when he got to college, he was already working on quantitative investment strategies using repurposed and video gaming units that he bought, used, and then he started a hedge fund, which is done very well.",
+      "zh": "DeepSeek 之所以不是 Tigers 之一，是因为它其实是由一家对冲基金（hedge fund）创办的。DeepSeek 的创始人是中国的数学天才，上大学的时候他就已经在做量化投资策略了，用的是他买来二手的、改造过的 Nvidia 游戏显卡。后来他创办了一家对冲基金，做得非常好。"
+    },
+    {
+      "i": 51,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "13:55",
+      "en": "And because, again, it was a quantitative hedge fund, they had a lot of Nvidia chips, and he had a small team on the side develop this model, and now it's become a major player.",
+      "zh": "同样因为它是家量化对冲基金，他们有很多 Nvidia 芯片，他就让一个小团队在旁边开发这个模型，如今它已经成了一个主要玩家。"
+    },
+    {
+      "i": 52,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "14:08",
+      "en": "And they just raised their first round of funding in the last two months, which was a $7 billion A round, and the founder himself put in $3 billion.",
+      "zh": "他们就在最近两个月完成了第一轮融资，是一轮 70 亿美元的 A 轮，创始人自己投了 30 亿美元。"
+    },
+    {
+      "i": 53,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "14:17",
+      "en": "So what you're going to see in the next six months, and in fact, it's timely because Moonshot, again, the model behind Kimmy, they just filed to do an IPO in Hong Kong this morning or last night in Hong Kong, maybe by the end of this year or early next year.",
+      "zh": "所以接下来六个月你会看到的——而且时机很巧，因为 Moonshot，也就是 Kimi 背后的那家公司，今天早上、或者说昨晚在 Hong Kong 刚提交了 IPO 申请，可能今年年底或明年初上市。"
+    },
+    {
+      "i": 54,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "14:34",
+      "en": "DeepSeek also is actively pursuing an IPO. So you're going to see these models hit the tape, if you will. And then the other thing you're going to continue to see is this competition between our leading closed models, Anthropoc and OpenAI, which are both going to go public themselves, right? And that's going to get a lot of coverage.",
+      "zh": "DeepSeek 也在积极推进 IPO。所以你会看到这些模型陆续'敲钟上市'（hit the tape）。另一件你会持续看到的，是我们领先的闭源模型之间的竞争——Anthropic 和 OpenAI，它们自己也都将上市，对吧？这会有很多报道。"
+    },
+    {
+      "i": 55,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "14:57",
+      "en": "But they're competing, and they're competing in the United States. And you saw a couple of months ago, there was some talk from the incumbents about maybe these models, these open models are dangerous. Maybe we shouldn't allow these China open models.",
+      "zh": "但它们在竞争，而且是在美国本土竞争。几个月前你就看到，那些在位者（incumbents）里有种声音，说这些开源模型也许很危险，也许我们不该允许这些中国的开源模型。"
+    },
+    {
+      "i": 56,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "15:16",
+      "en": "And the rest of the technology industry rebuked them. Sacha Nadella quite actively said, look, that's not the way it works. These are great models. And that they were going to, in fact, start employing DeepSeek themselves in their offerings. And that's continued to develop.",
+      "zh": "结果整个科技行业都反驳了他们。Satya Nadella 非常明确地说，看，事情不是这么运作的，这些都是很棒的模型。而且他们事实上打算在自己的产品里也开始采用 DeepSeek。这个趋势一直在发展。"
+    },
+    {
+      "i": 57,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "15:37",
+      "en": "There was a letter penned by Jensen Wong a few weeks ago during this public discourse about this. It was Jensen Wong wrote it over a weekend. He got, I think, 50 or 60 other tech CEOs to sign the letter. It was his first tweet, apparently ever. And so this is going to continue, this open model versus US closed model race. This morning, you see the news about hugging face being acquired by NVIDIA. Hugging face, sort of the clearing chaos, if you will, for these models.",
+      "zh": "几周前，在这场公开讨论中，有一封信是 Jensen Huang 起草的。Jensen Huang 用一个周末写了它，我记得他拉了五六十位其他科技 CEO 来签名。据说那是他有生以来的第一条推文（tweet）。所以这场开源模型对阵美国闭源模型的竞赛还会继续。今天早上，你会看到 Hugging Face 被 Nvidia 收购的消息。Hugging Face 算是这些模型的交易中枢（clearing house）。"
+    },
+    {
+      "i": 58,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "16:14",
+      "en": "And you've also seen reports that Moonshot is in active discussions with all of our leading cloud providers for a revenue sharing deal. So this story is really just getting started with the Tigers. Yeah, no. You've covered a lot there. And one of the things, I don't know how much you are utilizing some of these models. I am an early adopter of all of them. I've basically started just testing with a lot of these things. It's actually interesting. The Kimmy K3 models",
+      "zh": "你也看到有报道说，Moonshot 正在和我们所有领先的云服务商积极洽谈一份收入分成（revenue sharing）协议。所以 Tigers 这个故事其实才刚刚开始。——嗯，是的。你讲了很多。有一点，我不知道你自己用这些模型用到什么程度。（就我来说）所有这些模型我都是早期尝鲜者，我基本上已经开始大量测试这些东西了。其实很有意思，Kimi K3 这些模型……"
+    },
+    {
+      "i": 59,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "16:49",
+      "en": "seem to want to, when you give them something to do, they seem to want to go and actually do it. It almost seems like our closed end models seem to want to keep your attention. And they don't, yes, they perform, I would say, better, but it takes more of your time sometimes. And that's just something I've noticed that some of these open models or some of these Chinese models seem to take less of your time and do more work rather than you having to interact with this",
+      "zh": "……当你给它们派个活儿，它们似乎就想直接去把活儿干完。而我们的闭源模型反倒好像想留住你的注意力。它们不是不干——是的，我觉得它们表现更好，但有时候会占用你更多时间。这就是我发现的一点：这些开源模型、这些中国模型，似乎占用你更少的时间、干更多的活，而不是让你反复去和这个……"
+    },
+    {
+      "i": 60,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "17:14",
+      "en": "interface so much and so often. So very interesting stuff. And I think it's odd that this is all just getting started. But let's get back to Tigers, because I want to understand some of the things that could possibly end up in this fund later on. So right now, it's all models. Could you see as this, I should say all emerging market models, could you see that investment thesis expanding as the story changes, or would that be a totally different ETF?",
+      "zh": "……界面交互那么多次。所以非常有意思。而且我觉得奇怪的是，这一切才刚刚开始。不过我们回到 Tigers 吧，因为我想了解一下后面可能纳入这只基金的一些东西。现在它全都是模型——我应该说全是新兴市场的模型。你觉得随着故事演变，这个投资主题会扩展吗？还是说那会是一只完全不同的 ETF？"
+    },
+    {
+      "i": 61,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "17:47",
+      "en": "No, we actually have seven different ETFs registered and effective. And the initial plan, to be frank with you, was to make EMIQ, the Broad Emerging Markets AI Portrait, sort of like an EMQQ for AI. And that's still one of the things we plan on launching. But that's a full stack emerging markets. And again, that was the first plan. But then our partners at Tidal said, well, why don't we take that stack, because there's a lot of little pieces in that",
+      "zh": "不，我们其实已经注册并生效了七只不同的 ETF。坦白说，最初的打算是把 EMIQ——那只宽基新兴市场 AI 全景（Broad Emerging Markets AI）产品——做成 AI 版的 EMQQ。这仍然是我们计划推出的产品之一。但那是一只覆盖全栈（full stack）的新兴市场产品。这也是最初的计划。但后来我们在 Tidal 的合作伙伴说，那不如我们把这个技术栈拆开，因为里面有很多小的部分，"
+    },
+    {
+      "i": 62,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "18:31",
+      "en": "stack that are the models, for example, but there's also GPUs, the NVIDIA competitors that are coming out of China, which there's four, two of which were founded by former NVIDIA people. And one was founded by the former head of China's business for AMD. There's the optics and lithography, another layer where China sort of dominates. So we have full stack coming, but then we have pieces like the Tiger. So there will be one solution that owns all the parts of AI, and then",
+      "zh": "……比如说模型这一部分，但还有 GPU，就是中国正在冒出来的 Nvidia 竞争对手，一共有四家，其中两家由 Nvidia 的前员工创办，还有一家由 AMD 中国区业务的前负责人创办。还有光学和光刻（lithography），这是中国多少占主导地位的又一层。所以我们会有全栈产品，但也会有像 Tiger 这样的细分部分。会有一只产品持有 AI 的所有部分，然后……"
+    },
+    {
+      "i": 63,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "19:11",
+      "en": "several that are pieces of that, layers of the stack, if you will. Just out of curiosity, I've had a couple of ETFs on the show that got early exposure to SpaceX while it was still private. Is that something that's a possibility in China with some of these things like Deep Sheik and Moonshot that aren't yet live? Are you able to through intermediaries get exposure there, or do you just have to wait?",
+      "zh": "……另外几只则是其中的细分部分，可以说是技术栈的各层。——我就好奇问一下，我之前请来过几只 ETF，它们在 SpaceX 还是私营公司的时候就拿到了早期敞口。在中国，像 DeepSeek、Moonshot 这些还没上市的公司，有没有可能这么做？你能通过中介拿到敞口吗，还是只能等？"
+    },
+    {
+      "i": 64,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "19:38",
+      "en": "Well, per the prospectus, we are like a lot of other ETFs these days able to put up to 15% into privates. And we are actively exploring that. Now, the Tiger has just launched a week ago, so we'll have to grow the asset base a bit. But I think it is absolutely possible. And it turns out having been involved with China and emerging markets for 20 years, one of the best things I did 20 years ago when I got started was I",
+      "zh": "嗯，按照招募说明书（prospectus），我们和现在很多 ETF 一样，最多可以把 15% 投到私募市场（privates）。我们正在积极探索这块。当然，Tiger 才刚推出一个星期，所以我们得先把资产规模做起来一点。但我认为这绝对可行。事实证明，做了 20 年中国和新兴市场，我 20 年前起步时做的最对的一件事就是……"
+    },
+    {
+      "i": 65,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "20:12",
+      "en": "I hired about 10 Chinese MBA students here in the Bay Area and had them work as analysts for me. And I became very good friends with some of them. And some of them have now worked their way up into senior roles in investment banking in China. And so I know who to call once we're ready to put some money to work in that fashion. So we're absolutely looking at that.",
+      "zh": "……我在湾区（Bay Area）招了大约 10 个中国 MBA 学生，让他们给我当分析师。我和其中一些人成了很好的朋友。他们中有人现在已经在中国投行里做到了高层职位。所以一旦我们准备好用这种方式投钱，我知道该给谁打电话。所以我们绝对在看这块。"
+    },
+    {
+      "i": 66,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "20:39",
+      "en": "Right now, it's a little premature, but it has been part of our thinking from the beginning. And why we wanted to get the, as narrow as the fund is now, we wanted to get it out there so we could try to get that pre-IPO exposure to companies like Moonshot and DeepSeek in particular.",
+      "zh": "现在还有点早，但这从一开始就是我们思路的一部分。这也是为什么我们想把这只基金——虽然现在范围很窄——先推出去，好让我们能尝试拿到像 Moonshot、特别是 DeepSeek 这类公司的 pre-IPO 敞口。"
+    },
+    {
+      "i": 67,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "20:56",
+      "en": "So as you said earlier, you're a Buffeteer. You've always been kind of an active value investor first. How does that value lens actually show up in a fund built around such frontier technology like AI models? Well, I don't know that it does. I mean, I'm a businessman also. And to be very clear, the China, and this is probably the case with all large language models, including Anthropic and OpenAI, but these aren't making any money. These",
+      "zh": "那你前面说过，你是个'巴菲特信徒'（Buffeteer），一直首先是个主动的价值投资者。那么这种价值视角，到底怎么体现在一只围绕 AI 模型这类前沿科技构建的基金里呢？——嗯，我不确定它真能体现出来。我是说，我也是个生意人。而且要说清楚，中国这些模型——所有大语言模型可能都是这样，包括 Anthropic 和 OpenAI——它们并不赚钱。这些……"
+    },
+    {
+      "i": 68,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "21:27",
+      "en": "are not companies that are profitable. There's lots of question marks about if and when they will be profitable. How profitable can they be? There are a lot of people that I trust that have, perhaps agree with as well, that there's going to be a lot of commoditization of the models and that it's going to be hard for them to have a moat and hold pricing power. And so now, I guess important in that calculation, though, is that it's the open AI, the closed models that",
+      "zh": "……并不是能盈利的公司。关于它们能不能盈利、什么时候盈利、能盈利到什么程度，有很多问号。有很多我信任的人——我可能也认同——认为模型会被大幅商品化（commoditization），它们很难建立起护城河（moat）、掌握定价权（pricing power）。所以现在，在这个判断里很重要的一点是，反而是那些闭源模型——"
+    },
+    {
+      "i": 69,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "22:08",
+      "en": "I think are the ones trying to develop that moat that are the ones most at risk. The open models, I think, are going to rely on other revenue streams and ways to make money with their lower cost model. So I think that this is not an Omaha investment today. It's certainly not the tiger's part of it. They could end up becoming some of the most important companies in the world.",
+      "zh": "——我认为是那些闭源模型在努力构筑护城河，也是风险最大的。开源模型呢，我觉得会依靠其他收入来源、用它们更低成本的模式去赚钱。所以我认为，这在今天不是一笔'Omaha 式'的投资。Tigers 这部分肯定不是。它们最后有可能成为世界上最重要的一些公司。"
+    },
+    {
+      "i": 70,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "22:33",
+      "en": "But obviously, right now, OpenAI and Anthropic are two of the most important companies in the world, but they're not profitable companies. And ultimately, in Omaha, investing is really simple. The reason companies have value is because they make profits for the owners of the company.",
+      "zh": "但显然，现在 OpenAI 和 Anthropic 已经是世界上最重要的两家公司了，可它们并不盈利。说到底，Omaha 的投资逻辑其实很简单：公司之所以有价值，是因为它们为公司所有者创造利润。"
+    },
+    {
+      "i": 71,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "22:50",
+      "en": "And the only way to grow that value is to grow the profits. And these companies are growing their revenue. Hopefully, they'll get into cash flow and earnings profitable mode. But right now, I'd say this is a highly speculative part of the market. Now, there are other parts of the stack, the AI stack, where I think there is value. And that's, right now, one of the other funds that we've registered, again, a very narrow fund is called the MAG3, the emerging markets AI MAG3,",
+      "zh": "而增长这种价值的唯一途径，就是增长利润。这些公司确实在增长营收，希望它们能进入现金流和盈利为正的阶段。但现在，我会说这是市场中投机性极强的一部分。不过 AI 技术栈里还有其他部分，我觉得是有价值的。这也是我们注册的另一只基金——同样范围很窄——叫 MAG3，也就是新兴市场 AI MAG3，"
+    },
+    {
+      "i": 72,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "23:31",
+      "en": "or EMAG, and it which hasn't launched. But because what happened with me, obviously, having been focused on tech and China and emerging markets for 20 years, it was very natural for me to be early in thinking about AI and how it was shaping things.",
+      "zh": "……或者叫 EMAG，还没推出。因为我显然已经专注科技、中国和新兴市场 20 年了，所以我很早就自然而然地去思考 AI 以及它如何重塑格局。"
+    },
+    {
+      "i": 73,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "23:50",
+      "en": "And the thing that every investor saw, and I don't think they quite appreciate how big it is, but emerging markets in the last 20 months since January of last year, they've outperformed the S&P by a decent amount. But there's basically three companies that are making all the money and providing all the return for investors. And those three, the MAG3, TSMC, Taiwan Semiconductor, which is perhaps the most important company in the world, it may not be the highest",
+      "zh": "每个投资人都看到了——但我觉得他们没完全意识到这有多夸张——过去 20 个月，也就是从去年 1 月至今，新兴市场跑赢 S&P 一大截。但基本上是三家公司在赚所有的钱、为投资人提供所有的回报。这三家，也就是 MAG3：TSMC（台湾半导体），也许是世界上最重要的公司，它未必是市值最高的，"
+    },
+    {
+      "i": 74,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "24:22",
+      "en": "market cap, but they make all of the chips for basically everybody, including at Vidya and Apple, etc. So TSMC, and then you have the memory leaders, Samsung and Hynix. And those three companies combined are now 33% of the index. I mean, it's the most concentrated broad market index maybe ever. There's single country ETFs that are highly concentrated because they don't have that many companies. But this is very concentrated. It's significantly more concentrated than our",
+      "zh": "……但它给几乎所有人造芯片，包括 Nvidia、Apple 等等。所以先是 TSMC，然后是内存双雄 Samsung 和 Hynix。这三家公司加起来现在占到指数的 33%。我是说，这可能是有史以来最集中的宽基市场指数了。有些单一国家 ETF 高度集中，是因为它们本来就没多少公司。但这个非常集中，比我们的……"
+    },
+    {
+      "i": 75,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "24:58",
+      "en": "market. And those three companies have also provided 80% of the return of emerging markets. So emerging markets have done great, but it's been almost exclusively those three companies.",
+      "zh": "……市场集中得多。而且这三家公司还贡献了新兴市场 80% 的回报。所以新兴市场表现很棒，但几乎全靠这三家公司。"
+    },
+    {
+      "i": 76,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "25:15",
+      "en": "That have driven it. And it's wreaked havoc in the emerging markets, but positive havoc and negative havoc. So consider this. Since last January, again, 20 months ago, the MSCI Emerging Market Index, which is what I shares emerging market ETFs track, is up, I'm going to round these numbers, but call it 65%. The Vanguard Emerging Market ETF, which is the largest, it tracks the FTSE index. It's only up 30% in that same period. Why? Because the FTSE index doesn't own Korea.",
+      "zh": "是它们在驱动。这在新兴市场里掀起了'大乱'，但既有正面的乱、也有负面的乱。想想看：去年 1 月以来，也就是 20 个月前，MSCI 新兴市场指数——就是 iShares 新兴市场 ETF 追踪的那个——涨幅，我取个整，就算 65% 吧。而 Vanguard 新兴市场 ETF，规模最大那只，它追踪的是 FTSE 指数，同期只涨了 30%。为什么？因为 FTSE 指数不含韩国。"
+    },
+    {
+      "i": 77,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "25:54",
+      "en": "And so people have known about that and it never seemed like it was that big of a deal. Korea wasn't that large of a market relative to the other emerging markets. But that one difference has led to a massive difference between the Vanguard Emerging Market ETF and the other MSCI related funds. Now, the other thing about the MAG-3, though, we have all these concerns about the CAPEX. How are we going to make any money? The hyperscalers are now cash flow negative.",
+      "zh": "所以大家早就知道这点，而且它看起来一直不是什么大事。相对于其他新兴市场，韩国并不是那么大的一个市场。但就是这一个差别，导致 Vanguard 新兴市场 ETF 和其他 MSCI 相关基金之间出现了巨大差距。那么关于 MAG3 的另一件事——我们都在担心资本开支（CapEx），担心怎么才能赚到钱，超大规模云厂商现在现金流为负，"
+    },
+    {
+      "i": 78,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "26:34",
+      "en": "They're tapping the debt markets. This is one of these trillion dollar questions I've talked to you about, right? Well, on the flip side of that, the MAG-3 are making so much money, it's hard for one to get your arms around. So between 2026, this year and next year, 2027, those three companies are expected to make 965 billion, 965 billion of profits. How much is that? In the entire history of Berkshire Hathaway, they have not made that much money. In Amazon's 30-plus years of",
+      "zh": "它们在动用债务市场。这就是我跟你聊过的那些'万亿美元问题'之一，对吧？好，反过来看，MAG3 赚的钱多到难以想象。在 2026 年——也就是今年——和明年 2027 年之间，这三家公司预计将创造 9650 亿、9650 亿美元的利润。这是多少？在 Berkshire Hathaway 的整个历史上，它都没赚过这么多钱。在 Amazon 30 多年的……"
+    },
+    {
+      "i": 79,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "27:15",
+      "en": "existence, these companies are going to make three times as much as Amazon's made ever, right? So now, the valuation is getting back to Omaha. If you look at those companies today, in particular, Hynix and Samsung, their PE ratios, what do you think the PE ratio is for Hynix? I don't know. I'm going to guess. I'm going to say 58.",
+      "zh": "……存在时间里，这些公司未来要赚的钱，是 Amazon 有史以来赚的总和的三倍，对吧？那么现在，估值这块又回到 Omaha 逻辑了。如果你今天看这些公司，特别是 Hynix 和 Samsung，它们的市盈率（PE）——你觉得 Hynix 的 PE 是多少？——我不知道，我猜猜，我说 58。"
+    },
+    {
+      "i": 80,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "27:47",
+      "en": "Three and a half. Oh, that's compelling. Collectively, the MAG-3 have a PE ratio under five. There's multiple reasons. I mean, there's this fear that these are cyclical businesses, right? And they have been historically, right? Micron in the US has been a boom and bust kind of operation. And the question, though, is this a cyclical thing or a secular thing? And I think you'd have to say it's a secular thing.",
+      "zh": "三点五。——哦，那太有吸引力了。——整个 MAG3 的市盈率加起来不到 5 倍。原因是多方面的。有一种担忧是，这些都是周期性（cyclical）生意，对吧？历史上确实如此，对吧？美国的 Micron 就是那种大起大落的买卖。但问题在于，这到底是周期性的，还是长期结构性的（secular）？我想你得说，这是长期结构性的。"
+    },
+    {
+      "i": 81,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "28:31",
+      "en": "Now, there's definitely competition coming, right? You see, you know, Amazon selling chips, Google selling, a lot of people are getting into the chip business. So there is that element. And then there's a question about whether there will be new forms of memory that are better suited for AI.",
+      "zh": "当然，肯定有竞争要来，对吧？你看，Amazon 在卖芯片，Google 也在卖，很多人都想进芯片这一行。所以有这个因素。然后还有一个问题是，会不会出现更适合 AI 的新型内存。"
+    },
+    {
+      "i": 82,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "28:50",
+      "en": "But as of right now, I think people would be a little surprised. I mean, I just started asking people what they thought the PE was last week. And first reaction I got was 90 is what the PE was.",
+      "zh": "但就目前而言，我觉得大家会有点吃惊。我上周才开始问别人觉得 PE 是多少，我得到的第一反应是 PE 有 90 倍。"
+    },
+    {
+      "i": 83,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "29:03",
+      "en": "But it's three and a half. Kevin, though, with those, so I guess the question is just staying on these these three, is that where the bottleneck lies in this whole process? Because memory shortage and like in your opinion, is that what could slow this whole horse down?",
+      "zh": "但它其实是三点五。——不过 Kevin，就这三家公司来说，我想问题就是：整个过程的瓶颈是不是就卡在这里？因为内存短缺之类的——在你看来，这会不会是让整匹马慢下来的原因？"
+    },
+    {
+      "i": 84,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "29:22",
+      "en": "Well, it is already slowing things down. I mean, it's not slowing down the hyperscalers, but it's it's wreaking havoc amongst smaller players. I mean, there are a lot of companies that are small companies, not public companies necessarily, that are basically going out of business because that input cost of memory, in addition to being up several fold, they just can't get it. It's not available. I mean, there's a shortage. So that is a bottleneck. I think the",
+      "zh": "嗯，它已经在拖慢速度了。我是说，它没有拖慢超大规模云厂商，但在小玩家之间掀起了大乱。有很多公司——小公司，未必是上市公司——基本上正在倒闭，就因为内存这项投入成本，除了涨了好几倍之外，他们根本买不到，货是没有的，出现了短缺。所以那确实是个瓶颈。我觉得……"
+    },
+    {
+      "i": 85,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "29:56",
+      "en": "biggest bottleneck that we may see is the power at the electricity. And we are moving ahead at a breakneck speed, but the power supply is not. And the all of the, you know, turbines and generators are sold out for years. They're resorting to recycling old retired airplanes and getting the engines off and turning those into power. Meanwhile, China has three times the power we have. And they have incredible velocity. Last year, China added more power than any country in the",
+      "zh": "……我们可能看到的最大瓶颈是电力。我们正在以惊人的速度推进，但电力供应跟不上。所有的涡轮机、发电机都已经被订满好几年了。他们只能去回收退役的旧飞机，把发动机拆下来改造成发电。与此同时，中国的电力是我们的三倍，而且他们推进的速度惊人。去年，中国新增的电力比世界上任何国家都多——"
+    },
+    {
+      "i": 86,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "30:34",
+      "en": "world has other than the U.S. and China. And in the last four years, they added more power than we have. So they've got three times the power. It's a lot cheaper. And I suspect that we will have a bottleneck in the U.S. I mean, there's obviously efforts to increase efficiency throughout the stack. But it just seems to me that that's a problem that's coming fast here.",
+      "zh": "——除了美国和中国之外。而在过去四年里，他们新增的电力比我们全国的总量还多。所以他们的电力是我们的三倍，而且便宜得多。我猜美国会出现瓶颈。我是说，显然各方都在努力提高整个技术栈的效率。但在我看来，这个问题正在快速逼近。"
+    },
+    {
+      "i": 87,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "31:00",
+      "en": "But it's, if you compare and contrast to China versus U.S., China clearly has the lead at the power layer. We talked about the shortages at the chips layer. But there's also, I think, going to be a shortage and a bottleneck at the optics layer because it optical, basically what's happening is copper wires are getting replaced by optical connections. And there's a lot of reasons for that, mainly that's better and that doesn't leak as much as the copper.",
+      "zh": "但如果你把中国和美国对比，在电力这一层，中国显然领先。我们讲了芯片层的短缺。但我认为，光学（optics）这一层也会出现短缺和瓶颈，因为基本上正在发生的，是铜线被光学连接取代。这有很多原因，主要是光学更好，而且不像铜那样有那么多信号泄漏。"
+    },
+    {
+      "i": 88,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "31:32",
+      "en": "So that might be another bottleneck. But I think power and continued shortages in the various parts of the chips layer optics is one that seems to me might be a problem. And I should also mention there was a, there was talk in Washington in the last month or two about possibly banning the Chinese optical suppliers, which I was pleased. I saw the CEO of the largest U.S. optical manufacturer where he was asked about this and he said, don't do it. Don't.",
+      "zh": "所以那可能是又一个瓶颈。但我认为电力，以及芯片层各部分持续的短缺——光学是在我看来可能出问题的一个。我还得提一下，过去一两个月 Washington 有讨论，说可能封禁中国的光学供应商。我很高兴看到美国最大光学制造商的 CEO 被问到这件事时，他说：别这么做，千万别。"
+    },
+    {
+      "i": 89,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "32:11",
+      "en": "If you want to see shortages, take the Chinese, because they're the dominant supplier right now. And so if you take that out, then even though this settlement is running the company that would benefit the most, he said, no, don't do that. Otherwise, we'll have a real bottleneck in that part of the stack. So, Kevin, just as we close here, just one quick question. Like, how should an advisor view this Tiger ZTF? To me, it seems a little bit more like thematic exposure rather",
+      "zh": "如果你想看到短缺，那就把中国供应商拿掉好了，因为他们现在是主导供应商。所以如果你把他们剔除，那么即便他执掌的这家公司会最受益，他还是说：不，别这么干，否则技术栈的这一部分会出现真正的瓶颈。——那么 Kevin，就在我们收尾之前，问一个快问题。理财顾问应该怎么看待这只 Tiger ETF？在我看来，它更像是一种主题敞口（thematic exposure），而……"
+    },
+    {
+      "i": 90,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "32:41",
+      "en": "than pure emerging markets. Like, you have that exposure with your EMQQ suite. This seems like pretty thematic. Is that the right way to think about it? It's absolutely thematic. I mean, again, it's, I think that it's sensible for advisors to be wanting to figure out how AI is in their portfolios. And again, the emerging markets AI strategy that we will launch soon enough that will capture that. That's really a product made for advisors to just capture the AI theme",
+      "zh": "……不是纯粹的新兴市场。比如说，你的 EMQQ 产品线就已经有那种敞口了。这个看起来相当主题化。这么理解对吗？——绝对是主题化的。我是说，我觉得对顾问来说，想弄清楚 AI 在自己投资组合里的位置是合理的。而我们很快会推出的那只新兴市场 AI 策略产品，就会捕捉到这一点。那真正是一款为顾问打造、专门捕捉新兴市场内部 AI 主题的产品。"
+    },
+    {
+      "i": 91,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "33:11",
+      "en": "within emerging markets. I think that these single layers, whether it's the MAG3 or the Tigers or the optics, these are more for active investors. And I'm sure there are advisors out there that are a bit more tactical. But for strategic allocations, I don't think that the Tigers really has a place. I think those companies have a place, but within a broader EMIQ, broad emerging market AI strategy. Well, Kevin, I always appreciate you coming on. I learn",
+      "zh": "在新兴市场内部捕捉 AI 主题。我觉得这些单一层级——不管是 MAG3、Tigers 还是光学——更多是给主动型投资者的。我相信外面也有一些偏战术型（tactical）的顾问。但对于战略性配置（strategic allocations），我不认为 Tigers 真的有它的位置。我觉得那些公司有位置，但要放在更宽泛的 EMIQ、也就是宽基新兴市场 AI 策略里。——嗯，Kevin，我一直很感谢你来做客，每次……"
+    },
+    {
+      "i": 92,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "33:48",
+      "en": "something every time. But before I can let you go, where can people learn more about the fund and EMX ETF? EMXETF.com is the easiest way to find out. Well, again, thanks for being here with me.",
+      "zh": "……我都能学到东西。但在放你走之前，大家去哪儿能了解更多关于这只基金和 EMX ETFs 的信息？——EMXETF.com 是最简单的了解途径。——好，再次感谢你能来。"
+    },
+    {
+      "i": 93,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "34:02",
+      "en": "Okay, Brad. Thanks again. Great to see you. Bye.",
+      "zh": "好的，Brad。再次感谢。很高兴见到你。再见。"
+    }
+  ]
+}

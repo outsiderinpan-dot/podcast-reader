@@ -1,0 +1,879 @@
+{
+  "show": "behind-the-ticker",
+  "kind": "transcript",
+  "id": "behind-the-ticker-54a8330b",
+  "guid": "Buzzsprout-19771374",
+  "slug": "2026-09-13-the-etf-that-invests-in-what-54a8330b",
+  "date": "2026-09-13",
+  "title_en": "The ETF That Invests in What Made Billionaires Rich — Not What They Buy Now | Andrew Skato",
+  "title_zh": "投资让亿万富翁致富的东西，而非他们现在买的东西：Bancreek Capital 的 Andrew Skatoff 谈 CLUB ETF",
+  "subtitle_zh": "Andrew Skatoff 拆解 Billionaires Club ETF：以财富创造为信号，持有富豪亲手创办并至今仍持股的结构性优势企业。",
+  "description": "The ETF That Invests in What Made Billionaires Rich — Not What They Buy Now | Andrew Skato",
+  "duration": "25:07",
+  "duration_seconds": 1507,
+  "episode_url": null,
+  "audio_url": "https://www.buzzsprout.com/2162961/episodes/19771374-the-etf-that-invests-in-what-made-billionaires-rich-not-what-they-buy-now-andrew-skatoff-bancreek-capital.mp3",
+  "speakers": {
+    "1": "Brad Roth（主持）",
+    "2": "Andrew Skatoff（嘉宾）"
+  },
+  "turn_count": 107,
+  "turns": [
+    {
+      "i": 0,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "00:00",
+      "en": "Welcome to Behind the Ticker, the podcast where we go beyond the symbol and into the strategy. I'm Brad Roth, founder and chief investment officer at Thor Funds, and in each episode, I sit down with ETF managers, CIOs, and industry leaders to break down how these funds are actually built, how they behave in real markets, and how advisors use them in real portfolios.",
+      "zh": "欢迎收听 Behind the Ticker，这档播客带你透过代码看策略。我是 Brad Roth，Thor Funds 的创始人兼首席投资官（CIO）。每一期节目，我都会坐下来和 ETF 基金经理、CIO 以及行业领袖聊一聊，把这些基金到底是怎么搭建的、在真实市场里如何表现、以及投顾如何在真实组合里使用它们，一层层拆解开来。"
+    },
+    {
+      "i": 1,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "00:29",
+      "en": "Most people just see a ticker symbol, but we know much more goes on behind the ticker. Hey, Andrew, welcome back to the show. Hey Brad, thanks for having me back on.",
+      "zh": "大多数人只看到一个交易代码，但我们知道，代码背后（behind the ticker）还有太多东西。嗨，Andrew，欢迎再次来到节目。嗨 Brad，谢谢你再次邀请我。"
+    },
+    {
+      "i": 2,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "00:45",
+      "en": "So for anybody who maybe missed our first conversation, it was a while ago. Can you kind of give everybody a refresher on your background, who you are, and how you ended up here at Bend Creek?",
+      "zh": "所以，如果有人可能错过了我们的第一次对话，那已经是好一阵子之前的事了。你能不能给大家简单回顾一下你的背景、你是谁，以及你是怎么来到 Bancreek 的？"
+    },
+    {
+      "i": 3,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "00:55",
+      "en": "Sure, yes. So when we first started to have our initial conversation, it was right after we launched our ETF platform, I had spent a little over a decade with the family office in New York and derived this unique strategy combination of fundamental analysis with data science to kind of create this data signal processing approach to identifying structural advantage business models for our portfolios.",
+      "zh": "当然可以。我们第一次交流的时候，正好是我们刚推出 ETF 平台之后。在那之前，我在纽约的一家家族办公室（family office）工作了十多年，摸索出了一套独特的策略组合——把基本面分析（fundamental analysis）和数据科学（data science）结合起来，形成一种数据信号处理（data signal processing）的方法，用来识别那些具有结构性优势（structural advantage）的商业模式，纳入我们的组合。"
+    },
+    {
+      "i": 4,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "01:22",
+      "en": "So we ended up launching three ETFs, PCUS, BCIL, and BCGS, which is our US international and global ETFs using this approach. And when I came on, it was just kind of given the background, and I think we dove into the Kelly criteria and some of the other information theory driven approaches that we used to identify these businesses.",
+      "zh": "后来我们推出了三只 ETF：PCUS、BCIL 和 BCGS，分别对应我们的美国、国际和全球 ETF，用的都是这套方法。我上次来做客时，也正是因为这个背景，我记得我们还深入聊了凯利公式（Kelly criterion）以及一些其他以信息论（information theory）为驱动、用来识别这些企业的方法。"
+    },
+    {
+      "i": 5,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "01:46",
+      "en": "So since we last spoke, I mean, a lot's happened, you rang the opening bell at the NISI, which is cool, expanded the ETF platform, and now you've got this fund, which we're going to talk about today.",
+      "zh": "那自从我们上次聊过之后，我是说，发生了不少事——你在 NYSE 敲了开市钟，挺酷的，还扩展了 ETF 平台，现在又有了这只我们今天要聊的基金。"
+    },
+    {
+      "i": 6,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "01:57",
+      "en": "Can you kind of just give us a quick state of the firm today, like, what's going on? How's it going? What are you learning? And just an overall update.",
+      "zh": "你能不能给我们快速讲讲公司现在的状况？最近怎么样？进展如何？你学到了什么？来个整体的更新。"
+    },
+    {
+      "i": 7,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "02:05",
+      "en": "Yeah, learning a lot. So today, as it states, I think we're a little just north of 300 million of AUM across our four ETFs. As you mentioned, we've been launching one really close like almost every year at this point.",
+      "zh": "是啊，学到很多。目前的状态是，我想我们四只 ETF 的管理规模（AUM）加起来略微超过 3 亿美元。你也提到，我们几乎每年都推出一只新基金。"
+    },
+    {
+      "i": 8,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "02:20",
+      "en": "You know, we still think there's a lot of interesting white space opportunity in the ETF market for actively managed ETFs. So we continue to think through what could make sense for our shareholders.",
+      "zh": "你知道，我们仍然觉得，在主动管理型 ETF（actively managed ETF）这块，ETF 市场上还有很多有意思的空白机会。所以我们一直在思考，什么样的产品对我们的股东（持有人）才是真正说得通的。"
+    },
+    {
+      "i": 9,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "02:32",
+      "en": "So as you mentioned, we were honored to bring the Bell at the New York Stock Exchange. That was really an amazing experience. And we're looking forward to, I think this is going to be our third or fourth feature proof in a couple of weeks.",
+      "zh": "就像你说的，我们很荣幸能在纽约证券交易所（New York Stock Exchange）敲钟，那真是一段非常棒的经历。而且我们很期待——我想再过几周，这将是我们第三次还是第四次登上 Future Proof 大会。"
+    },
+    {
+      "i": 10,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "02:45",
+      "en": "So we'll be there back to the in the ETF.oasis for anybody's watching this that shows up. Please stop by and say hi. But yeah, other than that, we're just constantly kind of refining our approach.",
+      "zh": "到时候我们会在 ETF.com Oasis 那里，如果有人在收看、也到现场的话，欢迎过来打个招呼。除此之外，我们就是不断地打磨、优化我们的方法。"
+    },
+    {
+      "i": 11,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "02:57",
+      "en": "I can't remember if we spoke about this last time, but my partner Anton Yen is our Chief Data Scientist. And he's had a wonderful career and primarily as one of the top data scientists in the country working at Lawrence Livermore National Laboratory, MIT and Lincoln Labs, DARPA, just a few.",
+      "zh": "我不记得上次有没有聊到过，我的合伙人 Anton Yen 是我们的首席数据科学家（Chief Data Scientist）。他有一份非常出色的履历，基本上是全美顶尖的数据科学家之一，先后在 Lawrence Livermore National Laboratory、MIT 和 Lincoln Labs、DARPA 等机构工作过，这只是其中几个。"
+    },
+    {
+      "i": 12,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "03:17",
+      "en": "And we're constantly kind of going back and digging into our approach to make sure that we're optimizing for our shareholders and investors.",
+      "zh": "我们会不断回过头去深挖我们的方法，确保我们是在为股东和投资者做优化。"
+    },
+    {
+      "i": 13,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "03:25",
+      "en": "Well, I will see you at future proof. I will also be in the ETF.com oasis actually doing, I'm actually moderating a panel on with a couple of ETF gatekeepers with the big, you know, big firms, like, can you let us small guys in please?",
+      "zh": "那我们在 Future Proof 见。我也会去 ETF.com Oasis，实际上我要主持一场圆桌，和几位大公司的 ETF『守门人』一起讨论——你知道，就是『能不能放我们这些小玩家进去啊？』"
+    },
+    {
+      "i": 14,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "03:40",
+      "en": "Like, let's learn a little bit about that. So yeah, well, I'll see you there. It should be fun. Let's get into club. CLUB, it's the billionaires club ETF.",
+      "zh": "这个咱们待会儿可以多了解一下。好，那到时候见，应该会很有意思。我们进入正题聊聊 CLUB 吧——CLUB，就是这只 Billionaires Club ETF（亿万富翁俱乐部 ETF）。"
+    },
+    {
+      "i": 15,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "03:51",
+      "en": "You guys launched this May 5th of this year, actively managed at a high level. What's the fun? What's the thesis? Yeah. So as I mentioned, spent actually a little bit of 11 years with a family in New York.",
+      "zh": "你们今年 5 月 5 日推出了这只基金，主动管理型。先从大方向说说，它的看点在哪？投资逻辑是什么？"
+    },
+    {
+      "i": 16,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "04:03",
+      "en": "My primary responsibilities were direct public investing and direct private equity investing. And on the private side, actually spent a ton of time working with other large family offices.",
+      "zh": "好。就像我提到的，我在纽约的一个家族里工作了差不多 11 年。我主要负责的是公开市场直接投资和私募股权（private equity）直接投资。在私募这块，我其实花了大量时间跟其他大型家族办公室打交道。"
+    },
+    {
+      "i": 17,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "04:13",
+      "en": "So we've traveled around the U.S. and figure out opportunities that we could partner, have synergies together, and work with other large families to make investments.",
+      "zh": "我们跑遍全美，去发现那些可以合作、能产生协同效应的机会，和其他大家族一起做投资。"
+    },
+    {
+      "i": 18,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "04:23",
+      "en": "And what I always found super interesting was hearing the back stories for how these families generated their wealth. What was always interesting to me was that despite, in some cases, these families could have started a company 100 years ago, 150 years ago, despite all of that, they all still were pretty involved in these businesses.",
+      "zh": "我一直觉得特别有意思的，是听这些家族讲述他们如何积累财富的背后故事。让我始终感到有趣的是，尽管在某些案例里，这些家族可能在一百年前、一百五十年前就创办了公司，但即便过了这么久，他们仍然深度参与在这些企业里。"
+    },
+    {
+      "i": 19,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "04:42",
+      "en": "So they all obviously still have the shares and the securities, still driving their primary wealth creation, even to this day. So over time, I just started thinking about the idea, like, oh, it'd be kind of interesting if you put together a portfolio of all of these amazing family-started businesses that have grown into these massive global tigies.",
+      "zh": "所以他们显然至今仍持有这些股份和证券，而这些资产即便到今天，依然是他们创造财富的主要驱动力。于是久而久之，我就开始琢磨一个想法：把这些由家族创办、后来成长为庞大全球巨头的了不起的企业凑成一个组合，应该会很有意思。"
+    },
+    {
+      "i": 20,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "05:05",
+      "en": "And that kind of idea was just always in the back of my head. And as we were thinking through different data signals to identify these structurally advantaged businesses, the one that popped into my head was, well, let's think through wealth creation as a signal.",
+      "zh": "这个想法就一直盘旋在我脑海深处。后来我们在思考用哪些不同的数据信号来识别这些具有结构性优势的企业时，我脑子里冒出来的一个信号就是——不如把『财富创造』当成一个信号来研究。"
+    },
+    {
+      "i": 21,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "05:20",
+      "en": "And we started digging into it and we were really interested in the findings. And you could go back decades and you start to see this pretty high correlation with wealth creation and then future performance of kind of the underlying business that they created.",
+      "zh": "我们开始深入研究，然后对发现的结果非常感兴趣。你可以回溯几十年，会看到财富创造与这些家族所创办的底层企业未来表现之间，存在相当高的相关性。"
+    },
+    {
+      "i": 22,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "05:35",
+      "en": "So that's kind of how it started. And we spent a lot of time going through it and coming up with our methodology and then we decided to bring it to the market.",
+      "zh": "所以大致就是这么起步的。我们花了大量时间去打磨、去形成我们的方法论，然后决定把它推向市场。"
+    },
+    {
+      "i": 23,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "05:44",
+      "en": "Yeah. No, I want to talk more about that because the name grabs attention, right? It's the Billionaire's Club. I know with you, it's just not a marketing hook, right?",
+      "zh": "是啊。不，我想多聊聊这个，因为这名字很抓眼球，对吧？就叫 Billionaires Club（亿万富翁俱乐部）。我了解你，这对你来说绝不只是个营销噱头，对吧？"
+    },
+    {
+      "i": 24,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "05:52",
+      "en": "You guys have gone back and looked at the data and figure out why this actually matters. So can you talk about the investment signal here and why this just isn't a fancy name and you're hoping to try to raise money that way?",
+      "zh": "你们是回过头去看了数据、弄清楚为什么这真的有意义的。那你能不能讲讲这里的投资信号是什么？为什么说这不只是一个花哨的名字、指望靠它去募资？"
+    },
+    {
+      "i": 25,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "06:04",
+      "en": "Right, exactly. So with Banker, you could always start to dig into science. And so for us, for the club in particular, there's a lot of amazing data out there, tons of publicly available information.",
+      "zh": "对，没错。在 Bancreek，我们总是会去深挖背后的科学。所以对我们来说，尤其是 CLUB 这只基金，外面有大量很棒的数据、海量可公开获取的信息。"
+    },
+    {
+      "i": 26,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "06:17",
+      "en": "So it's not too challenging to find, you know, ownership levels for individuals and the securities at their own and kind of go back and create your own matrix for, you know, wealthy individuals and the underlying entities that they've created on top of kind of like the fundamental analysis that's supporting all of our portfolios.",
+      "zh": "所以要找到个人对某只证券的持股比例之类的信息，并不算太难，你可以回过头去为这些富豪个人以及他们所创办的底层实体，建立属于你自己的一套矩阵——而这一切都建立在支撑我们所有组合的基本面分析之上。"
+    },
+    {
+      "i": 27,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "06:39",
+      "en": "So really, we've kind of created our own database for, you know, kind of stackwinding the wealthiest individuals tied to these up-to-traded vehicles and the wealth creation that that vehicle drove for them.",
+      "zh": "所以实际上，我们相当于建立了一个自己的数据库，用来梳理这些最富有的个人与他们所持有的上市工具之间的关联，以及这些工具为他们带来了多少财富创造。"
+    },
+    {
+      "i": 28,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "06:53",
+      "en": "So and the important nuance here is that this is a business that they have created, they still have ownership in. It's not like what are billionaires owning in their personal portfolios and their investment portfolios?",
+      "zh": "这里一个重要的细微之处在于：这些是他们亲手创办、并且至今仍持有股份的企业。它跟『亿万富翁现在在个人投资组合里持有什么』完全是两码事。"
+    },
+    {
+      "i": 29,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "07:06",
+      "en": "Like these are their businesses. That's right. So these are the companies that either they started, their family started, or, you know, they had a primary end in driving the business forward.",
+      "zh": "这些就是他们自己的企业。没错。所以这些都是要么由他们本人创办、要么由其家族创办，或者他们在推动企业发展中起到主导作用的公司。"
+    },
+    {
+      "i": 30,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "07:17",
+      "en": "And yeah, it's not what they own today, right, across the spectrum of high-flying securities or obviously it's ETFs, so it's not going to be like DC or private equity or anything.",
+      "zh": "而且，对，这不是他们今天持有什么，对吧——不管是各种高位飞涨的证券，还是别的；显然它是一只 ETF，所以里面不会有私募股权（private equity）之类的东西。"
+    },
+    {
+      "i": 31,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "07:28",
+      "en": "So we're not trying to mimic that. It's really just what generated their wealth. And for the most part, if you really think about it, it's kind of like a play on like long-term momentum.",
+      "zh": "所以我们并不是要去模仿那个。它真正关注的，是什么创造了他们的财富。而且大部分情况下，如果你仔细想想，这其实有点像是对长期动量（long-term momentum）的一种演绎。"
+    },
+    {
+      "i": 32,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "07:39",
+      "en": "Like these businesses have done so well. They have all the key attributes that, you know, we've talked about before, so they have pricing power.",
+      "zh": "这些企业表现得太出色了。它们具备我们之前聊过的那些关键特质，比如拥有定价权（pricing power）。"
+    },
+    {
+      "i": 33,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "07:46",
+      "en": "They're usually either like monopolies or the monopolies or they have massive scale or distribution. So they've done it. They've already like won, right?",
+      "zh": "它们通常要么是垄断者（monopoly）或寡头，要么拥有巨大的规模或分销网络。所以它们已经做到了，已经『赢』了，对吧？"
+    },
+    {
+      "i": 34,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "07:54",
+      "en": "That's why these people are so healthy. But I think what's interesting is when you have such a strong business model, it is hard to displace it.",
+      "zh": "这就是为什么这些人这么富有。但我觉得有意思的是，当你拥有如此强大的商业模式时，别人是很难把它撼动、取代掉的。"
+    },
+    {
+      "i": 35,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "08:02",
+      "en": "So these businesses tend to like cheap that momentum going where you might have like an underlying growth rate of loading the chains going forward for these businesses rather than, you know, if you're fortunate enough to invest, you know, from the beginning or if you're in there during the VC stage and you're compounding 50, 60% over a short period of time.",
+      "zh": "所以这些企业往往会把那种动量延续下去，未来可能仍有一个不错的底层增长率——而不是说，如果你有幸从一开始就投进去，或者在风投（VC）阶段就在里面，短时间内就能以 50%、60% 的速度复利增长。"
+    },
+    {
+      "i": 36,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "08:21",
+      "en": "Like that's not what we're trying to do. We're identifying the business that have basically the early one. They generate a lot of wealth for these families and that's helping us identify them.",
+      "zh": "那不是我们要做的事。我们要识别的，是那些基本上已经『早期胜出』的企业——它们为这些家族创造了大量财富，而这又反过来帮助我们识别出它们。"
+    },
+    {
+      "i": 37,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "08:30",
+      "en": "And then we just want to stay involved with them, right? So we basically want to sit at the table with these families and individuals and continue to compound alongside with them.",
+      "zh": "然后我们只是想一直参与其中，对吧？所以我们基本上就是想和这些家族、这些个人坐在同一张桌子上，和他们一起持续复利增长。"
+    },
+    {
+      "i": 38,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "08:39",
+      "en": "So out of curiosity, like a billion dollar number is like, it sounds arbitrary, but I'm like, have you guys looked at the data of, you know, the spread between, you know, somebody is at 500 million or somebody is at 10 billion?",
+      "zh": "我好奇一下，『十亿美元』这个数字听起来有点随意，但我想知道，你们有没有研究过数据——比如一个人身家 5 亿美元，和一个人身家 100 亿美元，两者之间的差距？"
+    },
+    {
+      "i": 39,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "08:55",
+      "en": "Like is there a difference in maybe the compounded return or, you know, the benefits you get at certain levels of wealth? Or, you know, were you just kind of like running a basket of like, hey, let's look at everybody that's got over a billion dollar net worth, the companies they own and is there like meaningful signal there?",
+      "zh": "在不同的财富层级上，复利回报或者说你能获得的好处，是不是有差别？还是说你们其实就是先撒一张网，『嘿，我们把所有净资产超过十亿美元的人、他们所拥有的公司都看一遍』，看看这里面有没有有意义的信号？"
+    },
+    {
+      "i": 40,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "09:13",
+      "en": "Yeah. I think it's less about the absolute dollar value. It's more about kind of the relative positioning versus the overall world, right? So as, you know, you're scaling up and, you know, you're the 10th wealthiest person, so that was 200 million, you know, 30 years ago over 20 billion today.",
+      "zh": "是的。我觉得这跟绝对的美元数值关系不大，更多的是相对于整个世界的相对定位。所以，随着规模往上走，比如你是全球第十富有的人——30 年前那可能意味着 2 亿美元，而今天则超过 200 亿美元。"
+    },
+    {
+      "i": 41,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "09:32",
+      "en": "The idea behind it is that if the business that drove that is, you know, one of the strongest business models that we have globally today, and I think that's kind of how we thought about it.",
+      "zh": "背后的理念是：如果驱动这一财富的那家企业，是我们当今全球范围内最强的商业模式之一，我想我们大致就是这么去理解它的。"
+    },
+    {
+      "i": 42,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "09:46",
+      "en": "We haven't looked specifically like today, like someone were 200 million in the business state. What does that look like? That, you know, just conceptually thinking through, it can make sense that the larger the business, the harder that business is to disrupt.",
+      "zh": "我们并没有专门去研究，比如说今天某人拥有 2 亿美元、这家企业会是什么样子。那……纯粹从概念上去想，是说得通的：企业越大，就越难被颠覆。"
+    },
+    {
+      "i": 43,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "10:01",
+      "en": "And so I think what you'll find is that the businesses are more resilient and maybe have a little bit less volatility than somebody that's created something and they have a couple hundred million dollars worth at this point.",
+      "zh": "所以我想你会发现，这些企业更具韧性，波动性可能也更低一些——相比那种刚刚创造出一些东西、目前价值两三亿美元的人。"
+    },
+    {
+      "i": 44,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "10:15",
+      "en": "So just being a billionaire doesn't automatically like say you're in this portfolio, you apply your own systematic framework on top. So like, how does a name actually earn a spot in this portfolio?",
+      "zh": "所以说，仅仅是个亿万富翁，并不自动意味着你就能进这个组合，你们还在上面套用了自己的一套系统化框架。那么，一只标的究竟是怎么挣得组合里的一席之位的？"
+    },
+    {
+      "i": 45,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "10:26",
+      "en": "Yeah, so I mean, honestly, they have to be kind of ranked in the top 30 for what we're saying and deeming these businesses have driven the most value creation for that individual or family at any given point in time.",
+      "zh": "是的。老实说，它们必须被排进我们所认定的前 30 名——也就是在任何给定时点上，为那个个人或家族创造了最多价值的那些企业。"
+    },
+    {
+      "i": 46,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "10:41",
+      "en": "So if you think about it, you know, you might have in the volatility, the underlying stock can move people in and out of the portfolio, right?",
+      "zh": "所以如果你想一想，在波动当中，底层股票的变动会让人进进出出这个组合，对吧？"
+    },
+    {
+      "i": 47,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "10:49",
+      "en": "So if you do have a position that, let's say, made its way in and is 28th in our rankings, and then the stock has a rough earnings period and it goes down 20% and that individual has 75% of their net worth tied up into that stock, like they're going to drop another rank.",
+      "zh": "比方说你有一个持仓，假设它挤进了名单、排在我们的第 28 位，然后这只股票遇到一个糟糕的财报期、下跌了 20%，而那个人有 75% 的净资产都押在这只股票上，那他就会再往下掉几个名次。"
+    },
+    {
+      "i": 48,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "11:06",
+      "en": "So you will have some movement in and out, but it really is just kind of the top 30 value creation businesses that are out there. Just curious too, I was looking at it says, you know, no single stock position above 10% at the time of purchase.",
+      "zh": "所以确实会有一些进进出出的变动，但它真正就是市面上创造价值最多的前 30 家企业。我还好奇一点，我看到上面写着，买入时任何单一个股的持仓都不超过 10%。"
+    },
+    {
+      "i": 49,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "11:23",
+      "en": "So like, is that constant? Like what is the reason for that like concentration cap and like, why put that guard rail in place? Yeah, so really, for volatility sake, it reached out a lot of analysis on like, what's the ideal size of a portfolio and what the position size should be for club in particular, we've chosen equal weight.",
+      "zh": "那这个比例是固定的吗？设置这样一个集中度上限、加上这道『护栏』，原因是什么？——是的，其实主要是出于波动的考虑。我们就『一个组合的理想规模、以及每只持仓应该占多大』做了大量分析。具体到 CLUB，我们选择了等权重（equal weight）。"
+    },
+    {
+      "i": 50,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "11:45",
+      "en": "So we have 30 positions, you know, if you talk to Anton, you know, we would probably throw out the number, you know, 25 to 50 is probably the sweet spot for a number of positions in a portfolio.",
+      "zh": "所以我们有 30 只持仓。你要是去问 Anton，我们大概会给出这样一个数字：一个组合里持仓数量在 25 到 50 之间，可能是最理想的区间。"
+    },
+    {
+      "i": 51,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "11:57",
+      "en": "And as far as concentration, I think it is important, especially since it is an ETF, you know, there's retail investors, like everybody can buy it.",
+      "zh": "至于集中度，我觉得这一点很重要，尤其是因为它是一只 ETF，有散户投资者，人人都能买。"
+    },
+    {
+      "i": 52,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "12:07",
+      "en": "I think we just don't want to have super concentrated positions that could be jarring if one of them doesn't go well, right? And so I think for us, it's less about making a call on an individual business.",
+      "zh": "我们只是不希望有那种超级集中的持仓，万一其中一只表现不好，会很刺眼、很吓人，对吧？所以对我们来说，这更少是关于对某一家具体企业下注。"
+    },
+    {
+      "i": 53,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "12:20",
+      "en": "It's the theme, an idea that if you own a collection of these wealth generating assets, you tend to do well over time. And so it is less about like, hey, we're gonna put 15% in this one, because this is the one.",
+      "zh": "它讲的是这样一个主题、一个理念：如果你持有一篮子这类能创造财富的资产，长期来看你往往会表现不错。所以它不是那种『嘿，我们要把 15% 押在这一只上，因为就是它了』。"
+    },
+    {
+      "i": 54,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "12:34",
+      "en": "No, but it's really like, look, we just want exposure to this basket of securities. And so that's why we're equating it. So when you kind of look at the portfolio, we've got like Walmart, Tesla, Amazon, Meta, NVIDIA, you know, Walton, Musk, Bezos, Zuck, you know, how much of the portfolio ends up being, you know, kind of mag seven versus some of those lesser known founder driven companies.",
+      "zh": "不是的，而是『看，我们只是想获得对这一篮子证券的敞口』，所以这才是我们做等权重配置的原因。那当你去看这个组合时，里面有 Walmart、Tesla、Amazon、Meta、NVIDIA——也就是 Walton、Musk、Bezos、Zuck 这些人。那么，组合里最终有多大比例是『Mag 7』（七巨头）这一类，又有多少是那些没那么家喻户晓的创始人驱动型公司？"
+    },
+    {
+      "i": 55,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "12:56",
+      "en": "Like I saw some names like Warner Music Group, like obviously there's a reason that's in the portfolio. So it's nice to know like how some of these lesser known household names kind of get in other than, you know, the ones that we all already know.",
+      "zh": "比如我看到有些名字像 Warner Music Group，显然它能进组合是有原因的。所以能了解一下，除了我们大家都已经熟知的那些之外，这些相对不那么耳熟能详的名字是怎么进来的，挺好的。"
+    },
+    {
+      "i": 56,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "13:08",
+      "en": "Yeah. And so that was really the, probably the most interesting thing when you're diving into it is obviously there's no need for an ETF. That's just, you know, another mag seven or the same, it's just not interesting, right?",
+      "zh": "是啊。所以当你深入去研究时，最有意思的一点大概就在于：显然没有必要再搞一只『又一份 Mag 7』、或者跟别人一模一样的 ETF，那没意思，对吧？"
+    },
+    {
+      "i": 57,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "13:21",
+      "en": "So for us, what was compelling is that it's a global ETF. So we're looking across the world. So, you know, you might have like the Ortega family with Indidex, so Zara, the retailer, or the CUNY family, CUNY Nagle, which is a logistics company in Switzerland and Europe.",
+      "zh": "所以对我们来说，真正有吸引力的是它是一只全球 ETF，我们是在全世界范围内去找。所以你可能会有 Ortega 家族和他们的 Inditex，也就是零售商 Zara；或者 Kühne 家族、Kuehne + Nagel，一家瑞士和欧洲的物流公司。"
+    },
+    {
+      "i": 58,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "13:39",
+      "en": "And so you end up with all of these global businesses. And I think what was also super compelling is over time you could kind of see which industries are doing well as you go back through the decades.",
+      "zh": "于是你最终会汇集到所有这些全球性的企业。我觉得同样非常吸引人的一点是，随着你回溯几十年，你能大致看出哪些行业在哪个时期表现得好。"
+    },
+    {
+      "i": 59,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "13:51",
+      "en": "Like you might, if we were looking at this in like the 70s and 80s, it could probably be like the large publishers or the car manufacturing family, right?",
+      "zh": "比如说，如果我们是在七八十年代看这个，那可能占主导的会是大型出版商，或者汽车制造家族，对吧？"
+    },
+    {
+      "i": 60,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "13:59",
+      "en": "And then maybe moved into like the consumer staples driven families for a while. And then obviously as you kind of progress through the 2000s, you start to move more or into tech oriented business modelism, you know, retailing distribution started to pick up as well.",
+      "zh": "然后有一阵子可能转向由日用消费品（consumer staples）驱动的家族。再往后，随着你进入 2000 年代，就明显开始更多转向科技导向的商业模式，零售和分销也开始崛起。"
+    },
+    {
+      "i": 61,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "14:14",
+      "en": "So, you know, it is kind of like a state of the world as you're kind of looking through it's like, no, these are the businesses that are driving real value growth in our economy.",
+      "zh": "所以，它某种程度上就像是一幅『世界的当下快照』——你透过它去看，会发现：不，这些才是真正在我们经济中驱动价值增长的企业。"
+    },
+    {
+      "i": 62,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "14:22",
+      "en": "So why wouldn't you want exposure to those businesses? And then, you know, again, if those slow down or kind of taper off a bit, then the new companies that are driving industry growth kind of economic growth globally come into the portfolio.",
+      "zh": "那你为什么不想要获得对这些企业的敞口呢？然后，如果这些企业放缓、或者势头稍微减弱，那么新的、正在驱动行业增长乃至全球经济增长的公司，就会进入这个组合。"
+    },
+    {
+      "i": 63,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "14:36",
+      "en": "So how often are you kind of rerunning the screen and do you have any guardrails on kind of U.S. non-U.S. exposure because I did see your benchmarked against MSCI AQUI, like is there or is it kind of go anywhere?",
+      "zh": "那你们多久重新跑一次这个筛选？在美国和非美国敞口上，你们有没有设什么护栏？因为我确实看到你们是以 MSCI ACWI 为基准的。是有约束，还是说 kind of『哪里有就去哪里』？"
+    },
+    {
+      "i": 64,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "14:50",
+      "en": "Does it matter? Let's go where the opportunities are. Yeah, it's kind of, we're going to pick the top 30, regardless of where they exist. Historically, you know, it's really been in, call it like the 40 to 60-ish percent ban for international.",
+      "zh": "这重要吗？我们就奔着机会去。——是的，大致上，我们会挑出前 30 名，不管它们在哪里。从历史上看，国际部分其实一直在、姑且说 40% 到 60% 左右这个区间里。"
+    },
+    {
+      "i": 65,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "15:06",
+      "en": "You know, I would expect it to kind of like maybe stay within the 30 to 70, like that's kind of the ban that we expect. But again, if it were to go 80, 20 international, that's where we would go.",
+      "zh": "我预计它大概会维持在 30% 到 70% 之间，这就是我们大致预期的区间。但话说回来，如果它真走到国际占 80、我们只占 20，那我们也就会跟着去那里。"
+    },
+    {
+      "i": 66,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "15:19",
+      "en": "We're going to go where the wealth is being graded. So obviously, the U.S. has been a big hit for such a long period of time, you're always going to have this disproportionate exposure there, which we're fine with.",
+      "zh": "我们要去财富正在被创造的地方。所以显然，美国在很长一段时期里都是一个大热门，你在那里总会有这种不成比例的敞口，对此我们是接受的。"
+    },
+    {
+      "i": 67,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "15:31",
+      "en": "And then again, how often are you guys like kind of rerunning this? Is it monthly, quarterly, annually, like when are you redoing the portfolio?",
+      "zh": "那再问一次，你们多久重新跑一遍这个？是每月、每季度还是每年？什么时候重新调整组合？"
+    },
+    {
+      "i": 68,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "15:37",
+      "en": "Yeah. So we update monthly, although we reserve the right to change our minds, but that's basically the cadence that we've been using, you know, frankly, because they're just, if we did it weekly or whatever, there's just not that much movement.",
+      "zh": "是的。我们是每月更新，尽管我们保留改变主意的权利，但这基本上就是我们一直采用的节奏。坦白说，因为如果我们改成每周或者别的频率，其实也没有那么多变动。"
+    },
+    {
+      "i": 69,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "15:51",
+      "en": "You know, so monthly, though, you can definitely have, you know, two or three positions coming out. So we feel like that's kind of the right cadence right now.",
+      "zh": "所以按月的话，你确实可能有两三个持仓会退出。因此我们觉得目前这个节奏大致是合适的。"
+    },
+    {
+      "i": 70,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "16:01",
+      "en": "But again, we could revisit that a little later today. So there's been a couple of founder-led ETF products launched recently. Michael Moynihan launched FFF, which is their Founders Fund.",
+      "zh": "不过我们还是可以今天晚点再回头讨论这个。那最近有几只创始人主导型（founder-led）的 ETF 产品推出了。Michael Moynihan 推出了 FFF，也就是他们的 Founders Fund。"
+    },
+    {
+      "i": 71,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "16:12",
+      "en": "You've got GlobalX, Launch Boss, BOSS, like how do you think this fund kind of differs and differentiates from some of these other like founder-led ETFs that we have launched?",
+      "zh": "还有 Global X 推出了 BOSS。那你觉得这只基金，和我们已经看到的其他一些创始人主导型 ETF 相比，有什么不同、又是怎么做出差异化的？"
+    },
+    {
+      "i": 72,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "16:24",
+      "en": "Yeah. I mean, I think, again, just given my Family Office background, I think the framework for why we're doing this is what differentiates it.",
+      "zh": "是啊。我觉得，还是由于我的家族办公室背景，我们做这件事背后的那套框架，正是它的差异化所在。"
+    },
+    {
+      "i": 73,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "16:33",
+      "en": "Just kind of the understanding of, you know, the Family Office world, we understand kind of these businesses and how they have driven such incredible wealth creation over time and really allowed these families to do so many other things as well.",
+      "zh": "就是对家族办公室那个世界的理解——我们懂这些企业，懂它们是如何在长期中驱动了如此惊人的财富创造，并且真正让这些家族得以去做那么多其他的事情。"
+    },
+    {
+      "i": 74,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "16:47",
+      "en": "I guess the way we're thinking about it is, you know, this is a vehicle that will allow shareholders to go in and participate in these amazing businesses.",
+      "zh": "我想我们这样去理解它：这是一只让股东（持有人）能够进去、参与到这些了不起的企业当中的工具。"
+    },
+    {
+      "i": 75,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "16:59",
+      "en": "And it's less about kind of what the family is doing with their capital now. It's really, you know, these are the driving forces for that wealth creation.",
+      "zh": "它关注的不是这个家族现在拿他们的资本在做什么，而真正是——这些企业才是那笔财富创造背后的驱动力。"
+    },
+    {
+      "i": 76,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "17:09",
+      "en": "We want to be involved. It's another way to identify structural advantage assets and just getting shareholders into a portfolio with this collection.",
+      "zh": "我们想要参与其中。这是识别结构性优势资产（structurally advantaged assets）的另一种方式，就是让持有人进入一个由这一批企业构成的组合。"
+    },
+    {
+      "i": 77,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "17:20",
+      "en": "Like these are amazing companies, right? So, you know, and it's global. And I think that also is a differentiator. Again, it's not always about the U.S., like there's a lot of other businesses out there.",
+      "zh": "这些都是了不起的公司，对吧？而且它是全球性的，我觉得这也是一大差异化之处。同样，它并不总是围绕美国，外面还有很多其他的企业。"
+    },
+    {
+      "i": 78,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "17:30",
+      "en": "And I think it's important to not have all your eggs in one basket in the U.S. And I think this is a good way to diversify, especially for investors that might not be as familiar with the international markets.",
+      "zh": "我觉得，不要把所有鸡蛋都放在美国这一个篮子里，这一点很重要。而我认为这是一种很好的分散方式，尤其是对于那些可能不太熟悉国际市场的投资者。"
+    },
+    {
+      "i": 79,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "17:41",
+      "en": "At the very least, like these businesses, for the most part, they'll know if they spend a little bit of time digging into it. They'll be like, oh, yeah, like, you know, I know IndieGlobe, it's a unique globe in Japan.",
+      "zh": "至少，这些企业大部分情况下，只要投资者花点时间去挖一挖，就会认得出来，会说『哦，对，这个我知道，是一家日本的公司』。"
+    },
+    {
+      "i": 80,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "17:54",
+      "en": "Like, I understand. Like, I know that brand. And so I think it's also approachable, which there are some international and global portfolios that might feel less approachable or more opaque if you don't really know the market that well.",
+      "zh": "就像，『我明白，我认得这个品牌』。所以我觉得它也很好上手——而有些国际或全球组合，如果你对那个市场了解不深，可能会让人觉得更难接近、或者更不透明。"
+    },
+    {
+      "i": 81,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "18:09",
+      "en": "So, while we have a couple more minutes, I think it's, we've had a lot of new listeners and probably the first time that we've talked. And I think it's important, maybe, if you can kind of talk a little bit and I mean, it's a repetition, but that's OK.",
+      "zh": "那么，趁着我们还有几分钟，我想我们有不少新听众，而且这大概是他们第一次听我们聊。所以我觉得，也许你可以稍微讲一讲——我是说，虽然有点重复，但没关系。"
+    },
+    {
+      "i": 82,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "18:21",
+      "en": "The underlying framework that you use, which is structurally advantage businesses, like you've got network effects, brand equity, distribution modes.",
+      "zh": "就是你用的那套底层框架，也就是结构性优势企业（structurally advantaged businesses）——比如网络效应（network effects）、品牌资产（brand equity）、分销护城河这些。"
+    },
+    {
+      "i": 83,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "18:29",
+      "en": "Like, can you talk about your firms kind of like underlying thesis? Because this, it rolls right into, I mean, kind of the framework of this fund, because a lot of these businesses already have these things.",
+      "zh": "你能不能讲讲贵公司这套底层投资逻辑？因为这个，它其实直接就衔接进了这只基金的框架，因为这里面很多企业本来就具备这些特质。"
+    },
+    {
+      "i": 84,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "18:42",
+      "en": "So, if you could, can you just remind everybody about the thesis, the process, and why that moat or structurally advantage business is so important?",
+      "zh": "所以如果可以的话，你能不能给大家再回顾一下这套逻辑、这个流程，以及为什么那条护城河（moat）、或者说结构性优势企业，如此重要？"
+    },
+    {
+      "i": 85,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "18:51",
+      "en": "Sure. So, just reminding, I'm a classically trained value investor, even though I don't sound like one anymore. So, we kind of went through the value investments firm at Columbia and coming out of it, which basically means you dive in deep when you're doing your work on individual ideas.",
+      "zh": "当然。先交代一下，我是个科班出身的价值投资者（value investor），尽管现在我听起来已经不太像了。我是在 Columbia 接受的价值投资训练，从那里出来——这基本上意味着，你在研究一个个具体投资想法时，会深挖到底。"
+    },
+    {
+      "i": 86,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "19:08",
+      "en": "So, when I first joined the family office, it was spending maybe six months on an idea where you're digging in, you're understanding every aspect of the business, how having evolved over time, what's driving the returns, like all of it.",
+      "zh": "所以我刚加入那家家族办公室时，会在一个投资想法上花大概六个月，去钻研、去理解这家企业的方方面面、它是如何随时间演变的、是什么在驱动回报——所有一切。"
+    },
+    {
+      "i": 87,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "19:24",
+      "en": "And over my time at the family office, I really kind of created this framework for the types of attributes that businesses that compound throughout cycles, which is what our target was.",
+      "zh": "而在我待在那家家族办公室的那段时间里，我真正建立起了一套框架，用来界定那些能够穿越周期持续复利的企业应该具备什么样的特质——这正是我们的目标。"
+    },
+    {
+      "i": 88,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "19:36",
+      "en": "You know, at these very specific attributes. And what I ended up doing was kind of creating this framework to say, okay, here are these kind of attributes, let's look for businesses globally that have similar attributes, right?",
+      "zh": "就是那些非常具体的特质。我最终做的，等于是搭出这样一套框架，说『好，就是这些特质，我们去全球范围内找具备类似特质的企业』，对吧？"
+    },
+    {
+      "i": 89,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "19:49",
+      "en": "And you start to find really interesting businesses in all different sectors. And, you know, as I was doing that, I was also becoming very interested in information theory.",
+      "zh": "然后你就会在各个不同的行业里，发现非常有意思的企业。而且，就在我做这件事的过程中，我也对信息论（information theory）产生了浓厚的兴趣。"
+    },
+    {
+      "i": 90,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "20:01",
+      "en": "And I think we chatted about Fortune's formula, but by willing to have some of how walks with the Kelly criterion. So, as I'm doing this, imagine on the side, I'm just getting super interested in the data science approach. And can we bring that into public market investing?",
+      "zh": "我想我们之前聊过《Fortune's Formula》这本书，William Poundstone 写的，讲的是凯利公式（Kelly criterion）那一套是怎么运作的。所以我在做这些的同时，想象一下，另一边我正对数据科学的方法越来越着迷，心想：我们能不能把它带进公开市场投资里？"
+    },
+    {
+      "i": 91,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "20:18",
+      "en": "And really, over time, figured out that we're good. And, you know, if you think about it, what we're really doing is making the process of diving into a company more efficient.",
+      "zh": "而真的，随着时间推移，我们发现我们能做到。而且，如果你想一想，我们真正在做的，是让『深入研究一家公司』这个过程变得更高效。"
+    },
+    {
+      "i": 92,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "20:27",
+      "en": "And again, you know, my friendship with Anton over the years, you know, we're chatting about this, and that's his background, information theory and data signal processing, building complex simulations. So, I was bouncing these ideas off to Anton saying like, okay, well, here's my idea.",
+      "zh": "再说，我和 Anton 这么多年的交情，我们经常聊这些，而这正是他的背景——信息论、数据信号处理、搭建复杂的模拟系统。所以我一直在跟 Anton 碰这些想法，说『好，那这是我的想法』。"
+    },
+    {
+      "i": 93,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "20:44",
+      "en": "These are the fundamental attributes I like. Here's some of the quantitative stuff I've been working on. Like, how does this make sense that we can overlay this? And turns out that we could.",
+      "zh": "『这些是我喜欢的基本面特质，这是我一直在研究的一些量化的东西。我们要怎么把它们叠加起来才说得通？』结果证明，我们真能这么做。"
+    },
+    {
+      "i": 94,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "20:54",
+      "en": "And, you know, it's really about finding, you know, very specific signal patterns that work in conjunction with these fundamental attributes to point you to these companies.",
+      "zh": "而这真的就是去寻找那些非常具体的信号模式，让它们和这些基本面特质相互配合，从而把你指向这些公司。"
+    },
+    {
+      "i": 95,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "21:05",
+      "en": "And, you know, the example I always, I was raised, I think it is helpful is if you have asset A and asset B, and they both compound at 10% over five years, and you come to me and you're like, well, which company is going to do better over the next five years? I'll look at asset A, and let's say asset A was 10% every year, 10, 10, 10, 10, 10, 10. And then asset B was up 50, down 30, up 20, down 15, but ends up in the same place. We would tell you that asset A is far more",
+      "zh": "我一直举的那个例子——我觉得挺有帮助的——是这样的：假设你有资产 A 和资产 B，它们在五年里都以 10% 的速度复利增长，然后你来问我，『哪家公司未来五年会表现更好？』我会看资产 A，假设 A 每年都是 10%，10、10、10、10、10；而资产 B 是先涨 50、再跌 30、又涨 20、再跌 15，但最后到了同一个位置。那我们会告诉你，资产 A 要"
+    },
+    {
+      "i": 96,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "21:35",
+      "en": "predictable, obviously, and is infinitely more valuable, because there's something going on with asset A that is allowing it to compound rateably at 10% with no volatility, right? So, they have absolute pricing power. There's something going on there, right? And again, nothing's ever 10% a year, but just for this exercise, asset A is telling us, hey, something is really interesting with this asset. Asset B, it's growing. So, it could be in a new industry that has new competitors",
+      "zh": "可预测得多，显然，而且价值要高出无数倍，因为资产 A 身上有某种东西，让它能够以 10% 的速率稳定复利、几乎没有波动，对吧？所以它拥有绝对的定价权，那里头有名堂，对吧？当然，现实中没有什么东西是每年稳稳 10% 的，但仅就这个练习而言，资产 A 在告诉我们：『嘿，这个资产身上有些东西真的很有意思。』而资产 B，它在增长，所以它可能处在一个有新竞争者"
+    },
+    {
+      "i": 97,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "22:04",
+      "en": "coming in, creating up volatility, or it could just, you know, there could just be a lot of competitors in there in general, and people could come in or existing competitors to raise price or cut price, and that's going to create a lot of signal noise for that business. And so, for us, we're looking for asset A's, obviously. We want companies that can rateably compound their capital with little volatility as you can. Not because we don't like volatility, it's because it tells you a lot",
+      "zh": "不断进入、从而制造出波动的行业里；或者也可能就是里头本来就有很多竞争者，人们会进来，或者现有竞争者会提价或降价，这些都会给这家企业制造大量的信号噪音。所以对我们来说，我们要找的显然是资产 A。我们想要的是那些能以尽可能低的波动稳定复利其资本的公司。这不是因为我们不喜欢波动，而是因为波动能告诉你很多"
+    },
+    {
+      "i": 98,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "22:34",
+      "en": "about the underlying business, and it tells you that it has this edge. And then you can dig into the asset, like, oh, yeah, that makes sense, because they're a monopoly, or, you know, they've scaled up so much that they'd have incredible distribution and get product placement on all the shelves of grocery stores if it's a consumer-saving company. So, like, those are the signals that we're looking for, and that's the framework that we developed for, you know, all of our ETFs.",
+      "zh": "关于这家底层企业的情况，它能告诉你这家企业拥有这种优势（edge）。然后你再深入去研究这个资产，就会『哦，对，说得通，因为它是家垄断企业』，或者『它已经扩张到如此规模，拥有惊人的分销能力，如果它是家消费品公司，就能把产品摆上所有杂货店的货架』。所以，这些就是我们要找的信号，也正是我们为自己所有 ETF 开发出的那套框架。"
+    },
+    {
+      "i": 99,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "22:57",
+      "en": "And then, bringing it back to Club, this is just a different perspective on finding those similar type of companies. So, with Club, you know, you're sitting with an advisor, they've got a diversified model portfolio. Like, how would you advise them to kind of use this?",
+      "zh": "然后，把话题拉回 CLUB，这只是找到类似这类公司的另一个视角。那么，就 CLUB 而言，假设你正和一位投顾坐在一起，他手上有一个分散化的模型组合。你会建议他们怎么去使用这只基金？"
+    },
+    {
+      "i": 100,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "23:12",
+      "en": "Is this a core equity holding, maybe a satellite? Like, how would, where does this fit? Yeah, again, for all of our ETFs, you know, they're actively managed, right? So, when you start to get into, like, you're tracking here, like, we're going to have tracking here, because, one, especially if you're looking at versus MSCI World or SAP, there's hundreds or thousands of securities in these indices, we have priority. Step over, like, there's going to be",
+      "zh": "它是核心股票持仓，还是也许是个卫星（satellite）配置？它到底适合放在哪里？——是的，还是那句话，我们所有的 ETF 都是主动管理的，对吧？所以当你开始深入，比如谈跟踪误差（tracking error），我们这里确实会有跟踪误差，因为，第一，尤其是如果你拿它跟 MSCI World 或者 S&P 去比，那些指数里有成百上千只证券，而我们只有优先挑出来的 30 只，所以肯定会有"
+    },
+    {
+      "i": 101,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "23:39",
+      "en": "volatility, we're not going to track exactly with the market. So, you know, this is not to displace your asset position in spiders or whatever. Like, that's not what we're trying to do.",
+      "zh": "波动，我们不会跟大盘完全同步。所以，这不是要取代你在 SPY 之类上的资产配置，那不是我们想做的事。"
+    },
+    {
+      "i": 102,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "23:50",
+      "en": "So, it probably is more, you know, complimentary, whether it's a three to five percent position in your allocation, I think that's probably what makes the most sense, because it is a true active component. If you're an advisor and you only want active, well, then sure, we think ours would be a very interesting core play for your active portfolio.",
+      "zh": "所以它更可能是一个补充性的角色，比如在你的配置里占 3% 到 5% 的仓位，我觉得这可能是最说得通的，因为它是一个真正意义上的主动成分。如果你是投顾、只想要主动型，那当然，我们认为我们的基金会是你主动组合里一个非常有意思的核心选择。"
+    },
+    {
+      "i": 103,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "24:13",
+      "en": "But if you are trying to blend and have, you know, interesting returns, but also fairly low tracking error, then you're going to want as much passive and then sprinkled in what we think are interesting active approaches like ours.",
+      "zh": "但如果你是想做混合，既要不错的回报、又要相当低的跟踪误差，那你就会想要尽可能多的被动配置，然后再撒入一些我们认为有意思的主动方法，比如我们这种。"
+    },
+    {
+      "i": 104,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "24:28",
+      "en": "Well, Andrew, I really appreciate you spending some time with me today. Before I let you go, where can people learn more about your firm and this ETF club?",
+      "zh": "Andrew，我真的很感谢你今天抽时间跟我聊。在放你走之前，大家可以从哪里了解更多关于贵公司、以及这只 ETF CLUB 的信息？"
+    },
+    {
+      "i": 105,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "24:36",
+      "en": "So, they can go to bankreek.com, which is our advisor site, bankreeketfs.com, which has, you know, information on our three core ETFs. And then billionairesbloodbtf.com, which goes into detail, everything about club. And you can come talk to us at future booth.",
+      "zh": "他们可以上 bancreek.com，那是我们面向投顾的网站；bancreeketfs.com，上面有我们三只核心 ETF 的信息；还有 billionairesclubetf.com，那个网站上有关于 CLUB 的一切详细内容。你们也可以到 Future Proof 大会的展位来找我们聊。"
+    },
+    {
+      "i": 106,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "24:53",
+      "en": "Yeah, great. Well, I'll see you there. And I appreciate, you know, spending some time with me today. Appreciate it Brad. Thanks for having me back on.",
+      "zh": "好，太好了，那到时候见。也感谢你今天抽时间跟我聊。——谢谢你，Brad，感谢你再次邀请我上节目。"
+    }
+  ]
+}

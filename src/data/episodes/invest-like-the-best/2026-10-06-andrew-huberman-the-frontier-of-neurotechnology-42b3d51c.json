@@ -1,0 +1,3159 @@
+{
+  "show": "invest-like-the-best",
+  "kind": "transcript",
+  "id": "invest-like-the-best-42b3d51c",
+  "slug": "2026-10-06-andrew-huberman-the-frontier-of-neurotechnology-42b3d51c",
+  "date": "2026-10-06",
+  "title_en": "Andrew Huberman - The Frontier of Neurotechnology - [Invest Like the Best, EP.494]",
+  "title_zh": "Andrew Huberman：神经技术的前沿（Invest Like the Best EP.494）",
+  "subtitle_zh": "Andrew Huberman 谈精力、睡眠、非侵入式读写神经系统的神经技术前沿与基因伦理。",
+  "description": "Andrew Huberman - The Frontier of Neurotechnology - [Invest Like the Best, EP.494]",
+  "duration": "74:09",
+  "duration_seconds": 4449,
+  "episode_url": null,
+  "audio_url": "https://traffic.megaphone.fm/CLS1239827470.mp3",
+  "speakers": {
+    "1": "Patrick O'Shaughnessy（主持）",
+    "2": "Andrew Huberman（嘉宾）",
+    "3": "片花/广告（旁白）"
+  },
+  "turn_count": 392,
+  "turns": [
+    {
+      "i": 0,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "00:00",
+      "en": "Ramp is the only platform built to make your finance team leaner, faster and better, saving businesses 5% annually on average so you can stay focused on growth.",
+      "zh": "Ramp 是唯一一个专为让财务团队更精干、更快、更强而打造的平台，平均每年为企业节省 5% 的开支，让你能专注于增长。"
+    },
+    {
+      "i": 1,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "00:10",
+      "en": "Ramp just opened for business in the United Kingdom, so if you're running a business in the UK, you can now use Ramp's AI-powered finance platform to manage cards, expenses, bills, approvals, and accounting all in one place.",
+      "zh": "Ramp 刚刚在英国开展业务，所以如果你在英国经营一家公司，现在就可以用 Ramp 的 AI 驱动财务平台，在一个地方管理卡片、报销、账单、审批和会计。"
+    },
+    {
+      "i": 2,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "00:22",
+      "en": "I run my business on Ramp and so should you. Learn more at ramp.com slash invest. Rogo is the AI platform purpose-built for financial institutions serving tens of thousands of bankers and investors at hundreds of leading firms worldwide.",
+      "zh": "我自己的公司就用 Ramp 运营，你也应该如此。更多详情见 ramp.com/invest。Rogo 是专为金融机构打造的 AI 平台，服务于全球数百家顶尖公司的数万银行家和投资人。"
+    },
+    {
+      "i": 3,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "00:37",
+      "en": "Rogo's AI agents autonomously execute large chunks of your firm's workflows, they can screen deals, draft sims, run by or outreach, and do diligence on data rooms, all with full security and compliance handled.",
+      "zh": "Rogo 的 AI 智能体（agents）能自主完成公司大部分工作流程，他们可以筛选交易、起草 sims（条款摘要）、进行外联、对数据室做尽职调查，而且安全与合规全部处理妥当。"
+    },
+    {
+      "i": 4,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "00:50",
+      "en": "Every action feeds Rogo Intelligence, the firm's context layer, turning years of deal experience into a secure, governed institutional memory that makes each new transaction stronger than the last.",
+      "zh": "每一个操作都会喂给 Rogo Intelligence（公司的上下文层），把多年的交易经验转化为安全、受治理的机构记忆，让每一笔新交易都比上一笔更扎实。"
+    },
+    {
+      "i": 5,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "01:00",
+      "en": "To learn more, visit rogo.com slash invest. Open AI, Cursor, Anthropic, Perplexity and Vercel all have something in common, they all use WorkOS.",
+      "zh": "了解更多请访问 rogo.com/invest。OpenAI、Cursor、Anthropic、Perplexity 和 Vercel 都有一个共同点——它们都在用 WorkOS。"
+    },
+    {
+      "i": 6,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "01:11",
+      "en": "And here's why, to achieve enterprise adoption at scale, you have to deliver on core capabilities like SSO, SCIM, RBAC, and audit logs. That's where WorkOS comes in.",
+      "zh": "原因是这样的：要想大规模实现企业级采用，你必须提供 SSO、SCIM、RBAC（基于角色的访问控制）和审计日志这些核心能力。WorkOS 就是为此而生。"
+    },
+    {
+      "i": 7,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "01:23",
+      "en": "Instead of spending months building these mission-critical capabilities yourself, you can just use WorkOS APIs to gain all of them on day zero.",
+      "zh": "不必花好几个月自己去搭建这些关键任务能力，你可以直接用 WorkOS 的 API，在第一天就获得全部功能。"
+    },
+    {
+      "i": 8,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "01:31",
+      "en": "That's why so many of the top AI teams you hear about already run on WorkOS. WorkOS is the fastest way to become enterprise ready and stay focused on what matters most, your product.",
+      "zh": "这就是为什么你听说的那些顶尖 AI 团队大多已经跑在 WorkOS 上。WorkOS 是让你最快达到企业级就绪、同时专注于最重要的东西——你的产品——的方式。"
+    },
+    {
+      "i": 9,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "01:41",
+      "en": "Visit workos.com to get started. There's a very interesting thing happening that relates to a piece of your work, which I haven't seen you talk about as much and so maybe it's a fun place to begin, which is that it feels like we're now bandwidth limited on the most talented people's ability to do work.",
+      "zh": "访问 workos.com 开始使用。有一件很有意思的事，跟你某一部分的工作有关，而我很少见你谈到它，所以也许是个不错的起点——就是我们似乎在最有才华的人做事能力上碰到了带宽瓶颈。"
+    },
+    {
+      "i": 10,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "02:01",
+      "en": "Like it used to be that the rest of the world couldn't keep up with the most talented people and so they would get frustrated that no one was moving as fast or as efficiently as they were.",
+      "zh": "过去是全世界跟不上最有才华的人，所以他们会沮丧，觉得没人像他们那样快、那样高效地推进。"
+    },
+    {
+      "i": 11,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "02:12",
+      "en": "There seems to be something flipping, which is actually some of these people would earn a really high return if they could generate more energy, maintain more energy, not burn out.",
+      "zh": "现在似乎有东西在翻转：其实有些这样的人，如果能产生更多精力、维持更多精力、不耗竭（burnout），回报会高得惊人。"
+    },
+    {
+      "i": 12,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "02:21",
+      "en": "I heard this from several great entrepreneurs this summer that I think maybe Elon has just gotten into everyone's head, that the real greats are going to run multiple companies.",
+      "zh": "今年夏天我从几位很棒的创业者那儿听到，我觉得 Elon 大概是钻进每个人的脑子里了——真正顶尖的人会同时运营好几家公司。"
+    },
+    {
+      "i": 13,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "02:29",
+      "en": "Technology unlocks so much potential for the most talented people and so this seems like an actual bottleneck is like these people's energy and I'd be curious in all your research and study what you've learned about the component parts of this, like generating energy, maintaining it, clean versus dirty fuel, long term performance, like all of these things are fascinating and I think actually important to the degree of progress and so I would love you to just riff",
+      "zh": "技术为最有才华的人解锁了巨大的潜力，所以真正的瓶颈似乎是这些人的精力。我很好奇，在你所有的研究和探讨里，关于这件事的各个组成部分——比如如何产生精力、维持精力、干净的燃料还是脏的燃料、长期表现——你学到了什么。这些东西全都引人入胜，而且我认为它们对推进的程度实际上很重要，所以我很想让你就随意展开聊聊"
+    },
+    {
+      "i": 14,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "02:54",
+      "en": "on all that for a while. With the caveat that Elon represents the apex of being able to do multiple huge things simultaneously and I don't think he has any peers in that regard.",
+      "zh": "这些话题聊上一阵。前提是 Elon 代表了能同时做几件大事的巅峰，在这点上我认为没人能与他比肩。"
+    },
+    {
+      "i": 15,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "03:08",
+      "en": "In fact, one of the best multi-billionaire investors from the Bay Area who may have gone to Stanford and been part of the PayPal early team has asked me, how is it that Elon does this?",
+      "zh": "事实上，湾区一位顶级的亿万富翁投资人——他可能上过 Stanford、也是 PayPal 早期团队的一员——问过我：Elon 到底是怎么做到这些的？"
+    },
+    {
+      "i": 16,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "03:19",
+      "en": "Physiologically. Physiologically. I mean, there are examples throughout history of people who seem to require less sleep, they just have more energy and most people can get their energy up.",
+      "zh": "生理上。生理上。我是说，历史上确实有些人似乎睡得更少、天生精力更充沛，而大多数人是可以把精力提起来的。"
+    },
+    {
+      "i": 17,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "03:29",
+      "en": "There are a lot of healthy ways to do that now and I think now we've undergone this huge shift whereby everyone understands you have to sleep eventually and you have to know your own sleep requirements.",
+      "zh": "现在有很多健康的办法可以做到这一点。我觉得我们经历了一个巨大的转变——大家都明白了，你终究得睡觉，而且得知道自己到底需要多少睡眠。"
+    },
+    {
+      "i": 18,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "03:39",
+      "en": "So to delude oneself into thinking you only need four or five hours because Elon only needs four or five hours, that's ridiculous. An honest self-assessment about how much sleep one actually needs to perform well and perhaps best and what you can get by on.",
+      "zh": "所以，仅仅因为 Elon 只需要睡四五个小时，就自欺欺人地以为自己也不需要那么多，那是荒谬的。你需要诚实地自我评估：为了表现好、甚至最好，你实际到底需要睡多久，以及最少能撑得住多少。"
+    },
+    {
+      "i": 19,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "03:53",
+      "en": "If you can't get that, that's an important thing to understand. But most people know like for me it's seven hours, I feel great, eight probably puts me into the day a little bit groggy, six I can manage just fine, five for one day or a sleepless night, I'm good.",
+      "zh": "如果睡不到那个量，这是你需要认清的。不过大多数人心里有数——就拿我来说，七个小时我感觉很棒，八个小时可能让我一整天有点昏昏沉沉，六个小时我也能应付得很好，五个小时——一天或一个不眠之夜——我也扛得住。"
+    },
+    {
+      "i": 20,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "04:06",
+      "en": "Two nights like that of four to zero hours of sleep and I'm cratered and I think most people are similar. What's really changed is that we have effective healthy ways to build our energy up.",
+      "zh": "连续两晚只睡四到零个小时，我就彻底垮了，我想大多数人也都差不多。真正改变的是，我们现在有有效又健康的方式把精力养起来。"
+    },
+    {
+      "i": 21,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "04:19",
+      "en": "We know to sleep, we can talk about exercise, caffeine, some people are using nicotine, yes it's addictive, it raises blood pressure but it does put people into that focused but relaxed mode.",
+      "zh": "我们知道要睡觉，可以谈谈运动、咖啡因，有些人还在用尼古丁——是的，它有成瘾性、会升高血压，但它确实能把人带入那种专注又放松的状态。"
+    },
+    {
+      "i": 22,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "04:28",
+      "en": "I always say if you really want the benefits of nicotine, don't use it very often. If you want the actual cognitive enhancing effects or the focus enhancing effects, then you have to not be a chronic user and then spike your system with nicotine at low amounts every once in a while.",
+      "zh": "我总说，如果你真想要尼古丁的好处，就别频繁使用。如果你想要的是那种实打实的认知提升或专注提升效果，那你就不能是长期慢性使用者，而是偶尔用低剂量的尼古丁给自己的系统来一下。"
+    },
+    {
+      "i": 23,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "04:42",
+      "en": "Being Elon aside with the understanding that he represents that extreme in terms of energy and sleep requirements being very low, I think what's really happening now is people are hopefully doing this self-assessment.",
+      "zh": "把 Elon 放到一边——毕竟在精力和睡眠需求极低这一点上他代表了那种极端——我认为现在真正在发生的，是人们正在做这种自我评估。"
+    },
+    {
+      "i": 24,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "04:53",
+      "en": "I would hope people would have an honest conversation about themselves and say at this point in my life, with or without kids, at this stage of my company, at this stage of my career, whatever it is, at this age, how much sleep do I need in order to feel awesome, good enough or it's not enough?",
+      "zh": "我希望人们能跟自己诚实地对话，说清楚：在我人生的这个阶段，不管有没有孩子，公司发展到什么阶段、职业生涯走到哪一步，诸如此类，在这个年纪，我到底需要睡多久，才能感觉状态极佳、或者足够好、又或者是不够？"
+    },
+    {
+      "i": 25,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "05:10",
+      "en": "I think most people know that, okay so that's step number one. The next one is something most people don't ever talk about which is some people actually just have more energy.",
+      "zh": "我觉得大多数人都清楚这一点，好，这是第一步。下一步是大多数人从不谈的——有些人天生就是有更多精力。"
+    },
+    {
+      "i": 26,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "05:19",
+      "en": "They can focus for long, long periods of time. They have a ton of energy to run, they have a ton of energy to then go work but what we never ask is what is that person's internal state?",
+      "zh": "他们能长时间、长时间地专注，有大量精力去跑步、有大量精力接着去工作，但我们从不问的是：这个人内在的状态到底是什么？"
+    },
+    {
+      "i": 27,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "05:29",
+      "en": "I know people that can do all of that but they're kind of redlining and they're using a lot of stimulants to do it or they're not using stimulants to do it but they're redlining and then at night they're having a hard time switching it off and so they're not resetting their system.",
+      "zh": "我认识能做到这一切的人，但他们其实一直在红线（redlining，超负荷）运转，靠大量兴奋剂撑着；或者他们不用兴奋剂，但同样在超负荷，结果到了晚上很难关掉自己，也就没法让系统复位。"
+    },
+    {
+      "i": 28,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "05:43",
+      "en": "Some people, however, are these like wake up at 4 a.m., work out, handle business, deal with family, go off to work, back to business, come home and they pivot and task switch really fast.",
+      "zh": "然而有些人，他们就像这样：凌晨四点起床、锻炼、处理事务、照顾家庭、去上班、回来接着处理业务、到家——他们的切换和转场非常快。"
+    },
+    {
+      "i": 29,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "05:55",
+      "en": "I don't think these things are necessarily stable features throughout our entire life. It seems to be a lot of young guys come up to me and they're like, what should I do?",
+      "zh": "我不认为这些东西是一生中都稳定的特质。好像有很多年轻小伙子来找我，问我：我该怎么做？"
+    },
+    {
+      "i": 30,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "06:01",
+      "en": "The Oracle said it best, like know thyself. You really have to be honest with yourself about what you need in order to do something for a long period of time.",
+      "zh": "德尔斐神谕说得好：认识你自己（know thyself）。你必须对自己诚实，搞清楚要把一件事做很久，你到底需要什么。"
+    },
+    {
+      "i": 31,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "06:08",
+      "en": "Now that said, I do recall working 80 even 100 hour weeks in graduate school and that served me well. I mean, eventually led me to tenure at Stanford, et cetera.",
+      "zh": "话虽如此，我确实记得读研时一周工作 80 甚至 100 个小时，那对我很有帮助，可以说最终让我拿到了 Stanford 的终身教职等等。"
+    },
+    {
+      "i": 32,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "06:16",
+      "en": "I do think that if you can pull it off, I think from zero to maybe first four years of starting a company or if you're in medical school, the goal is don't die.",
+      "zh": "我确实觉得，如果你能撑住——不管是创业从零到大概头四年，还是你在医学院——目标就是别垮（别把自己搞死）。"
+    },
+    {
+      "i": 33,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "06:26",
+      "en": "Get as much done as you can and don't impair yourself with an injury or chronic disease. We don't really define this thing optimization and then you start to pivot into how can I insert components of rest along the way, maybe during the day or across the week or the month that really allow me to access my best levels of focus and creativity, but I'd be naive and I'd be lying if I said somebody starting a company in the AI realm, in the Bay Area",
+      "zh": "尽可能多做成事，别让自己受伤或落下慢性病。我们还没真正给「优化」下定义，然后你开始转向：我怎么一路上穿插一些休息，可能是在一天当中、或一周、一个月里，好真正触达我最佳的专注和创造力。但如果我说，如今在 AI 领域、在湾区创业的人，你会把他们按下来然后说——"
+    },
+    {
+      "i": 34,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "06:52",
+      "en": "or elsewhere these days, you're going to sit them down and you go, listen, you really need eight hours of sleep, I do your resistance training, should do some breath work, like no, none of that.",
+      "zh": "「听着，你真需要睡八小时，去做阻力训练（resistance training），该练点呼吸法」——不，这些统统行不通。"
+    },
+    {
+      "i": 35,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "07:00",
+      "en": "What they should determine is how much energy they actually have and you've met these people, right? Jimmy Iveen or some of the folks doing AI at Metta and they just seem to have an extra gear.",
+      "zh": "他们真正该搞清楚的，是自己到底有多少精力。你见过这些人吧，Jony Ive 或者在 Meta 做 AI 的一些人——他们好像就是多一个挡位（extra gear）。"
+    },
+    {
+      "i": 36,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "07:13",
+      "en": "Some people have this extra gear. Now, there's one other component we can deep dive into any of these that nobody talks about and that's the ability to switch off your thoughts, your planning and your concerns at the end of your day and drop into sleep.",
+      "zh": "有些人就是有这个多出来的挡位。还有另一个成分——我们可以就其中任何一个深入——是没人谈的，那就是在一天结束时关掉思绪、计划和担忧，沉入睡眠的能力。"
+    },
+    {
+      "i": 37,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "07:24",
+      "en": "Can we go deeper in that one because to be very selfish about it, if I was to self-diagnose, the biggest problem I have is downshifting. Sometimes it will take literally four hours to go from a crazy, exciting, awesome day to literally even be able to fall asleep or just like stop the mind.",
+      "zh": "我们能深入讲讲这个吗？因为说实话，出于私心，如果让我自我诊断，我最大的问题就是降挡（downshifting）。有时候，从疯狂、兴奋、超棒的一天，到真正能睡着、能让大脑停下来，字面上要花四个小时。"
+    },
+    {
+      "i": 38,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "07:39",
+      "en": "If I could bestow myself with any gift, it would be what you're describing. So what is the research there of how to do that? So in terms of sleep, there are a couple of prerequisites for sleep.",
+      "zh": "如果我能赐给自己任何天赋，那就会是你描述的这种。那关于怎么做到，研究是怎么说的？说到睡眠，睡眠有几个前提条件。"
+    },
+    {
+      "i": 39,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "07:49",
+      "en": "There are a bunch of don'ts. So obviously, you don't want to drink caffeine too late, being under too much bright light late in the day can make it difficult, but a lot of us can't control that.",
+      "zh": "有很多「别做」。显然，咖啡因别喝得太晚，一天中晚些时候暴露在太强的光线下也会让人难入睡，不过这一点我们很多人控制不了。"
+    },
+    {
+      "i": 40,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "07:58",
+      "en": "Alcohol, cannabis, these things impair the quality of your sleep, help you get to sleep. We all know that by now. But in terms of being able to turn your thoughts off, this is a very, very difficult thing for people for good reasons.",
+      "zh": "酒精、大麻，这些东西会损害你的睡眠质量，尽管能帮你更快入睡——这道理我们现在都懂了。但说到能否关掉思绪，这对人来说极其困难，而且有充分的原因。"
+    },
+    {
+      "i": 41,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "08:10",
+      "en": "The brain wants to think, plan, remember, and organize itself around what's coming next because such a huge aspect of brain function is prediction of what's happening next.",
+      "zh": "大脑想要思考、计划、记忆，并围绕接下来要发生的事来组织自己，因为大脑功能中一个巨大的部分就是对接下来之事的预测。"
+    },
+    {
+      "i": 42,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "08:20",
+      "en": "So first requirement, turn your thoughts off. Second requirement is slow your heart rate down. Okay. So that's purely of body. And then third is you need to forget about the position of your limbs in space.",
+      "zh": "所以第一个要求，关掉思绪。第二个要求是把心率降下来，好，那是纯粹身体层面的。第三个，你得忘掉你的四肢在空间中的位置。"
+    },
+    {
+      "i": 43,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "08:33",
+      "en": "So let's work through each one systematically. For the first one, turning your thoughts off is a skill. We can think, we can predict, we can remember, but we also can get into pure sensation.",
+      "zh": "那我们就系统地把每一个过一遍。第一个，关掉思绪是一种技能。我们能思考、能预测、能记忆，但我们也能进入纯粹的感觉（sensation）。"
+    },
+    {
+      "i": 44,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "08:44",
+      "en": "And that's the gateway to turning off your thoughts. And this doesn't come from Eastern tradition per se, although this has been discussed for a long time in those traditions, but there's a neuroscience correlate to all of this, of course, and we can talk about those.",
+      "zh": "而这是关掉思绪的入口。这本身并非源自东方传统，尽管那些传统里早就讨论过，但这一切都有神经科学的对应机制，当然，我们可以聊聊那些。"
+    },
+    {
+      "i": 45,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "08:56",
+      "en": "So how do you do that? You have to focus on pure sensation. So you start focusing on the surface of your body. If you can detect your heart rate, some people are very good at what's called interoception.",
+      "zh": "那怎么做？你得专注于纯粹的感觉。你从关注身体表面开始。你能不能察觉自己的心率——有些人非常擅长所谓的内感受（interoception）。"
+    },
+    {
+      "i": 46,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "09:07",
+      "en": "They can actually get pretty accurate measurements of their heart rate without pressing on a vein or artery. And they're just listening to their own breathing.",
+      "zh": "他们其实能在不按血管（静脉或动脉）的情况下，相当准确地测出自己的心率，就靠听自己的呼吸。"
+    },
+    {
+      "i": 47,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "09:15",
+      "en": "They're listening to the sounds in the room. They're bringing their conscious awareness just to the body. And it generally helps, and this relates to the second thing, to slow the heart rate down by just doing long exhales.",
+      "zh": "他们在听房间里的声音，把意识仅仅带回身体。而这样做通常有助于——这也和第二件事有关——仅仅通过做长长的呼气就能把心率降下来。"
+    },
+    {
+      "i": 48,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "09:25",
+      "en": "Now this might sound very woo, but I want to be very clear. This is not meditation because meditation has you do something very different. Meditation has you focus all of your attention on your breathing or all of your attention on some region behind your forehead or your hands or whatever.",
+      "zh": "这听起来可能很玄（woo），但我想说清楚：这不是冥想，因为冥想让你做的是完全不同的事。冥想你把全部注意力放在呼吸上，或放在额头后方的某个区域、或手上，诸如此类。"
+    },
+    {
+      "i": 49,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "09:39",
+      "en": "In this sort of practice, what you do is you actually migrate your attention to your feet, to your legs, to your breathing, to sounds in the room and back again.",
+      "zh": "在这种练习里，你要做的是把注意力在不同地方迁移——到脚、到腿、到呼吸、到房间里的声音，再回来。"
+    },
+    {
+      "i": 50,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "09:47",
+      "en": "Now this might sound really squishy, but you're moving away from thinking and planning to pure sensation and perception. And you're literally bringing your perception into the present.",
+      "zh": "这听起来可能很虚，但你是从思考和计划转向纯粹的感觉和知觉，你是在字面意义上把知觉带回当下。"
+    },
+    {
+      "i": 51,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "09:57",
+      "en": "Remember this is one door in front of turning off your thoughts. To actually turn off your thoughts, your heart rate actually has to drop a certain amount.",
+      "zh": "记住，这是「关掉思绪」之前的第一道门。要真正关掉思绪，你的心率其实得下降到某个程度。"
+    },
+    {
+      "i": 52,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "10:06",
+      "en": "Those long exhales drop your heart rate through something called respiratory sinus arrhythmia. Arrhythmia makes it sound dangerous or bad, but it's actually very good.",
+      "zh": "那些长长的呼气通过一种叫呼吸性窦性心律不齐（respiratory sinus arrhythmia）的机制降低你的心率。「心律不齐」听起来危险或不好，其实它非常好。"
+    },
+    {
+      "i": 53,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "10:13",
+      "en": "As you're breathing, the size of your heart is literally changing based on the amount of space it has because of the movement of the diaphragm and the filling of the lungs.",
+      "zh": "在你呼吸时，心脏的大小其实在变，取决于它拥有的空间——因为膈肌的运动和肺的充盈。"
+    },
+    {
+      "i": 54,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "10:21",
+      "en": "And when we inhale, our heart rate actually speeds up a bit. When we exhale, the heart actually gets a little bit smaller volume-wise and the blood, therefore that's in it, moves a little bit quicker per unit volume.",
+      "zh": "吸气时心率其实会加快一点；呼气时，心脏的容积会稍微变小，其中的血液因此每单位体积流动得稍快一些。"
+    },
+    {
+      "i": 55,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "10:34",
+      "en": "And the brain sends a signal to slow the heart down. So when you exhale, you're slowing the heart rate down through this thing that we call the vagus nerve.",
+      "zh": "大脑随后发出信号让心脏放慢。所以当你呼气时，你是在通过所谓的迷走神经（vagus nerve）把心率降下来。"
+    },
+    {
+      "i": 56,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "10:41",
+      "en": "So if you want to slow your heart rate down anytime in waking to de-stress or just bring your level of activation down, or if you want to fall asleep, it really helps to do some long exhales until lungs are empty, and then just passive inhales.",
+      "zh": "所以，如果你在清醒时任何时候想降心率、减压、或只是把激活水平调低，或者想入睡，做几次长长的呼气、直到肺排空，然后只是被动地吸气，这会很有帮助。"
+    },
+    {
+      "i": 57,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "10:56",
+      "en": "Normally, when we're really activated, we're doing a lot of inhaling or passively exhaling. And then the last piece is to be able to turn off your perception of your limbs relative to you.",
+      "zh": "通常，当我们高度激活时，我们会大量吸气、被动呼气。而最后一块，是能够关掉你对四肢相对位置的感知。"
+    },
+    {
+      "i": 58,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "11:06",
+      "en": "That's something that we call proprioception. The three ways to do this, one is old school, everyone accepts it. One is pretty wacky sounding, and then there's a new technology that's coming out that I wish I had developed that I think is going to make people more comfortable with the second one.",
+      "zh": "这就是我们所说的本体感觉（proprioception）。要做到这一点有三个方法：一个是老派做法、人人都接受；一个听起来挺古怪；还有一种即将问世、我真希望是我发明的新技术，我觉得它会让人更容易接受第二个方法。"
+    },
+    {
+      "i": 59,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "11:21",
+      "en": "So here it goes. Believe it or not, there have been studies of what puts babies to sleep and what puts adults to sleep without pharmacology.",
+      "zh": "那就开始吧。信不信由你，已经有研究在探讨：不用药物，什么能让婴儿入睡、什么能让成人入睡。"
+    },
+    {
+      "i": 60,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "11:27",
+      "en": "And it turns out that the rocking pacing that we do with babies at a certain rate, parents figure this out on their own, puts them to sleep.",
+      "zh": "结果发现，我们以某种节奏摇晃婴儿——那种父母自己摸索出来的摇动——能让他们入睡。"
+    },
+    {
+      "i": 61,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "11:34",
+      "en": "It turns out that you can build, and they've done this for studies, a bed that rocks at a certain frequency, and adults will fall asleep very quickly.",
+      "zh": "原来你可以（研究里也真这么做了）造一张以某个频率摇晃的床，成人会很快入睡。"
+    },
+    {
+      "i": 62,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "11:42",
+      "en": "What it has to do with is the fact that when you're moving side to side, your eyes are generating under your closed eyelids, compensatory eye movements.",
+      "zh": "这背后的原因是：当你左右移动时，你的眼睛在闭合的眼睑下会产生补偿性眼动。"
+    },
+    {
+      "i": 63,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "11:50",
+      "en": "Our eye movements all the time are communicating through our brainstem to our cerebellum to control balance and proprioception. So when people are rocked this way, somehow they fall asleep more quickly.",
+      "zh": "我们的眼动一直在通过脑干（brainstem）向小脑（cerebellum）传递信号，以控制平衡和本体感觉。所以当人以这种方式被摇晃时，不知为何他们入睡更快。"
+    },
+    {
+      "i": 64,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "12:02",
+      "en": "That's interesting, actually. And the frequency at which that works best and fastest is known. Now, I don't have a rocking bed. I don't know anyone large enough to rock me and hold me.",
+      "zh": "这其实很有意思，而那个最有效、最快的频率是已知的。不过我没有一张会摇的床，我也不认识大到能抱着我摇的人。"
+    },
+    {
+      "i": 65,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "12:13",
+      "en": "And if they did, I don't know, I feel comfortable with that. I can't imagine you would either. So there are two ways to approach this. One is something that looks kind of wacky, but works, which is to mimic the eye movements under closed eyelids that help you forget about your limb position.",
+      "zh": "就算有，我也不确定这样我是否自在，我猜你也未必会。所以有两种途径：一种是看起来有点古怪但有效的——去模拟闭合眼睑下的眼动，它能帮你忘掉四肢的位置。"
+    },
+    {
+      "i": 66,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "12:28",
+      "en": "I've been talking about this a lot in public education recently, and I confess it makes me feel really weird as a neuroscientist. Somebody just prefaced this by saying, please don't just put the part out into the world about the eye movement thing without just allowing me to first say that this confuses the circuit between for the fiscinados, these direction selective cells in the retina, the accessory optic nuclei of the brainstem and the cerebellum.",
+      "zh": "最近我在公共科普里常讲这个，我承认身为神经科学家这让我很别扭。有人刚提前叮嘱我，别只把「眼动」那段丢到世界上，得先让我说清楚——这会扰乱一条回路：视网膜里的方向选择性细胞（direction-selective cells）、脑干的副视核（accessory optic nuclei）和小脑之间的这条回路。"
+    },
+    {
+      "i": 67,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "12:49",
+      "en": "And you forget about body position. And basically what you do is under closed eyelids, you move your eyes to one side, then the other slowly or fast, doesn't really matter.",
+      "zh": "于是你就忘了身体的位置。基本上你要做的是，在闭着眼睑的情况下，把眼睛转向一侧、再转向另一侧，慢或快都行，无所谓。"
+    },
+    {
+      "i": 68,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "12:58",
+      "en": "Then up, then down, you can roll them counterclockwise and clockwise. You can do a long exhale, but really what you're doing is confusing this system.",
+      "zh": "然后向上、向下，你也可以让眼球逆时针、顺时针地转动。你可以做一次长呼气，但你真正在做的是把这套系统搞糊涂。"
+    },
+    {
+      "i": 69,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "13:05",
+      "en": "The reason I got so interested in this, and the reason I went to the literature on rocking of babies and adults to fall asleep is because a group out of MIT approached me and they said, we'd like you to try this eye mask.",
+      "zh": "我之所以对这事这么感兴趣、之所以去翻那些关于摇晃让婴儿和成人入睡的文献，是因为 MIT 有一组人来找我，说：我们想让你试试这个眼罩。"
+    },
+    {
+      "i": 70,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "13:15",
+      "en": "The eyes are two pieces of brain. They're just not in the cranial vault, which makes them unusual in terms of parts of brain. So the eyes are an amazing gateway to the rest of the brain.",
+      "zh": "眼睛是两块大脑组织，只是没在颅腔里，这让它们作为脑的一部分显得与众不同。所以眼睛是通往大脑其余部分的绝佳门户。"
+    },
+    {
+      "i": 71,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "13:25",
+      "en": "Everyone knows about eye masks to get the darkness out. These guys have developed eye masks that measure rapid eye movement, because right now your whoop, your aura, your eight sleep, they're not measuring REM directly.",
+      "zh": "人人都知道眼罩是为了隔绝黑暗。但这几个人开发的眼罩能测量快速眼动（REM），因为现在你的 Whoop、你的 Oura、你的 Eight Sleep，它们都没有直接测量 REM。"
+    },
+    {
+      "i": 72,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "13:35",
+      "en": "This can measure REM directly, but they designed this mask specifically to make people fall asleep faster. I'm like, I want that thing. So I got to try it and it works very well in the daytime or at night.",
+      "zh": "这个能直接测量 REM，而且他们专门把这款眼罩设计成让人更快入睡。我当时就想：我想要这玩意儿。于是我试了，无论白天还是晚上都非常好用。"
+    },
+    {
+      "i": 73,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "13:46",
+      "en": "And what does it do? It generates these slow back and forth, up and down eye movements through a small amount of stimulation behind your ears, because it turns out you can access the extraocular muscles well enough from that location.",
+      "zh": "它是怎么做到的？它通过在你耳后施加一点刺激，产生缓慢的前后、上下眼动，因为事实证明从那个位置就足以触及眼外肌（extraocular muscles）。"
+    },
+    {
+      "i": 74,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "13:57",
+      "en": "So just an eye mask with some straps. You sometimes feel a little bit of the stimulation and you're out. And then once REM sleep starts, it actually helps amplify the REM stage, you can get much more REM.",
+      "zh": "所以就是一个带几条绑带的眼罩。有时你能感觉到一点点刺激，然后就睡着了。而一旦 REM 睡眠开始，它实际上还能放大 REM 阶段，让你得到多得多的 REM。"
+    },
+    {
+      "i": 75,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "14:09",
+      "en": "So I wish I had a stake in this company. I don't. These technologies are about seven to 12 months from release. I'm super excited about them.",
+      "zh": "我真希望自己持有这家公司的股份，但没有。这些技术大约还有七到十二个月发布，我为此非常兴奋。"
+    },
+    {
+      "i": 76,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "14:17",
+      "en": "I'm also super excited about the fact that people can just do this on their own and obviously babies get rocked. You could do the non-mask tool approach or you could use the mask.",
+      "zh": "同样让我兴奋的是，人们其实自己就能做到——婴儿当然会被摇。你可以用不戴眼罩的方法，也可以用这个眼罩。"
+    },
+    {
+      "i": 77,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "14:29",
+      "en": "I will say, and I don't want to take us too far off course, but for those interested in emerging technologies and AI, in particular neural technologies, I do think that in sleep, reading from and writing to the brain is going to be a huge area.",
+      "zh": "我想说——我不想扯得太远——但对那些对新兴技术、AI、尤其是对神经技术感兴趣的人来说，我确实认为在睡眠中读取和写入大脑将是一个巨大的领域。"
+    },
+    {
+      "i": 78,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "14:43",
+      "en": "But of course, I'm also interested in reading from and writing to the nervous system in waking states. You can imagine that within 12 months or a year of the release of the technology that I just described, you can imagine somebody developing eyeglasses like this that are stimulating some component of the autonomic nervous system so that I'm exceptionally focused at certain times a day.",
+      "zh": "当然，我对清醒状态下读取和写入神经系统也感兴趣。你可以想象，在我刚才描述的技术发布后十二个月或一年内，就会有人开发出这样的眼镜，刺激自主神经系统的某个部分，让我在一天中的某些时段极度专注。"
+    },
+    {
+      "i": 79,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "15:04",
+      "en": "And then when I'm walking home, I'm sort of in a slightly more relaxed state to capture some more of that energy. We're going to start shifting brain states into focus, into modes for learning, and we're going to start doing it with technologies.",
+      "zh": "然后当我走路回家时，我处于稍微放松一点的状态，好把那份精力再收一些回来。我们开始把大脑状态切换到专注、切换到学习模式，而且我们开始用技术来做到这一点。"
+    },
+    {
+      "i": 80,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "15:16",
+      "en": "Right now, we're doing cold showers, caffeine, exercise. We're doing inhale-emphasized breathing versus exhale-emphasized breathing to get more alert or calm.",
+      "zh": "眼下，我们在用冷水澡、咖啡因、运动；我们在用吸气主导还是呼气主导的呼吸法，来让自己更清醒或更平静。"
+    },
+    {
+      "i": 81,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "15:26",
+      "en": "If you think about it, all breathing exercises can be summarized as inhale-emphasized or exhale-emphasized. So yes, we can do that stuff deliberately, but you can imagine that pretty soon there will be non-invasive stimulation devices that will allow people to do this, but it will start in sleep because we're all kind of comfortable with the idea now of measuring our physiology in sleep, a little bit in waking states, but this is where this is going.",
+      "zh": "你想想看，所有呼吸练习其实都可以归为吸气主导或呼气主导。没错，我们可以刻意去做这些，但你能想象，很快就会有非侵入式刺激装置让人做到这些——而它会从睡眠开始，因为我们对「在睡眠中测量生理指标」这个念头现在多少都习惯了，清醒状态下也有点，但这就是它的走向。"
+    },
+    {
+      "i": 82,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "15:49",
+      "en": "So to return to this in sequence, you need to learn to turn your thoughts off. You need to forget about your body position and slow your heart rate down.",
+      "zh": "回到顺序上，你需要学会关掉思绪，需要忘掉身体位置，需要把心率降下来。"
+    },
+    {
+      "i": 83,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "15:56",
+      "en": "And the order in which you do that doesn't really matter. Ideally want to combine all three, but I think that's going to be a significant achievement for humanity because if you look at recovery from illness, healing, learning, stress control, burnout, right?",
+      "zh": "而做这些的顺序其实不重要，理想情况下是把三者结合起来。但我认为这将对人类是一项重大成就，因为无论是疾病康复、疗愈、学习、压力管理还是耗竭，你看对吧？"
+    },
+    {
+      "i": 84,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "16:11",
+      "en": "If you're going through grief or psychological stress or trauma healing, if you're trying to start a company and you got kids or even if you're just trying to work the maximum number of hours and you've got four hours to sleep and you're somebody who needs six, you want to be able to hit the pillow and shut it off.",
+      "zh": "如果你正在经历悲伤、心理压力或创伤疗愈，如果你在创业又有了孩子，又或者你只是想把工作时间拉到最长、却只有四小时能睡而你是那个需要六小时的人——你都希望一头倒在枕头上就能关机。"
+    },
+    {
+      "i": 85,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "16:24",
+      "en": "And we don't have good ways to do that except the tools I described. So I think we are starting to go about things in a more healthy way, but what I'm talking about is people doing a thorough self-assessment of sleep need, ability to turn off thoughts, and then training those things.",
+      "zh": "除了我描述的这些工具，我们并没有好办法做到这一点。所以我认为我们开始用更健康的方式来对待这些事，但我讲的是：人们要彻底地自我评估睡眠需求、关掉思绪的能力，然后去训练这些。"
+    },
+    {
+      "i": 86,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "16:40",
+      "en": "In fact, a lot of hard driving people will come to me and say, like, what workout should I do? How much time do you have? In graduate school, I worked out twice a week.",
+      "zh": "其实很多很有拼劲的人会来问我：我该做什么训练？我说，你有多少时间？我读研时一周锻炼两次。"
+    },
+    {
+      "i": 87,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "16:48",
+      "en": "I don't talk about this, but I lifted weights and I ran really far because I just want to maintain while I worked my ass off, publishing as many great papers as I could.",
+      "zh": "我不常提这个，但我举重、也跑很长的距离，因为我只是想在我拼命工作、尽可能多发好论文的同时，维持住身体。"
+    },
+    {
+      "i": 88,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "16:57",
+      "en": "And then later I'm doing, you know, three workouts a week with the weights. I do cardio three times a week, long, medium and short, take a day off, maybe I do some sauna and cold.",
+      "zh": "后来我一周做三次力量训练，一周做三次有氧——长、中、短各一次，休息一天，可能再蒸个桑拿、做个冷暴露。"
+    },
+    {
+      "i": 89,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "17:06",
+      "en": "My life's a little bit different now or a lot different. But I do think those first years, you're trying to just not die while you create this thing.",
+      "zh": "我现在的生活多少有点不一样，或者说很不一样。但我确实觉得，头几年你只是在努力别把自己搞垮，同时把这个东西创建出来。"
+    },
+    {
+      "i": 90,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "17:12",
+      "en": "Then you start moving into some, quote, unquote, balance and optimization. And then you get the people who have really achieved some level of mastery or virtuosity in their craft.",
+      "zh": "然后你开始走向所谓「平衡与优化」，接着你遇到那些在各自手艺上真正达到了某种精通或出神入化的人。"
+    },
+    {
+      "i": 91,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "17:22",
+      "en": "And you really get an assessment of how accurately their schedule matched who they really were at a physiological level by looking at them and going, like, they look like shit.",
+      "zh": "你只要看他们一眼、心里嘀咕一句「他们看起来糟透了」，就能相当准确地评估他们的作息有多贴合他们生理上的真实状态。"
+    },
+    {
+      "i": 92,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "17:32",
+      "en": "They have a chronic illness. They look 10 years older than they were supposed to, or they're certain people who are like phenoms, like an Elon, or you look at some people and you just go, oh my God, they just got an extra gear.",
+      "zh": "他们得了慢性病，看起来比应有的年龄老了十岁；或者有些就是奇才，比如 Elon 那样；或者你看着某些人，只能感叹：天哪，他们就是多一个挡位。"
+    },
+    {
+      "i": 93,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "17:43",
+      "en": "And I'm speculating here. But I'm guessing that Jack Dorsey was always a pretty calm, thoughtful guy. That's what people tell me of him. And that's how I experience him too.",
+      "zh": "这里是我在推测。但我猜 Jack Dorsey 一直是个相当平静、深思的人。别人也是这么跟我形容他的，我自己接触下来也是如此。"
+    },
+    {
+      "i": 94,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "17:52",
+      "en": "But I'm guessing he's also put some work into it. He's figured out that staying alert and calm all day and sleeping well at night is the key to having a really long, successful arc.",
+      "zh": "但我猜他也为此下了功夫。他明白了：整天保持清醒又平静、晚上睡好，才是拥有一段真正长久、成功旅程的关键。"
+    },
+    {
+      "i": 95,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "18:04",
+      "en": "Vanta automates compliance so your team can spend less time on security reviews and more time getting customers. Vanta cuts audit prep by 82% and gives you instant, up-to-date proof of trust without all the manual work so you can close deals faster and with less friction.",
+      "zh": "Vanta 把合规自动化，让你的团队花更少时间做安全审查、花更多时间获取客户。Vanta 将审计准备时间减少 82%，让你无需大量人工就能即时获得最新的信任证明，从而更快、更顺畅地成交。"
+    },
+    {
+      "i": 96,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "18:20",
+      "en": "Customers report a 526% return on investment and more than 16,000 companies use Vanta, including Ramp, Harvey, and Snowflake. Get started with $1,000 off at vanta.com slash invest.",
+      "zh": "客户报告的投资回报率高达 526%，超过 16,000 家公司在用 Vanta，包括 Ramp、Harvey 和 Snowflake。前往 vanta.com/invest 立省 $1,000 开始使用。"
+    },
+    {
+      "i": 97,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "18:34",
+      "en": "Ridgeline is the first end-to-end system of record with embedded AI for investment management firms running portfolio accounting, reconciliation, reporting, trading, and compliance on one unified platform.",
+      "zh": "Ridgeline 是首个面向投资管理公司、内嵌 AI 的端到端记录系统（system of record），在一个统一平台上运行投资组合会计、对账、报告、交易和合规。"
+    },
+    {
+      "i": 98,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "18:45",
+      "en": "Firms are moving off legacy technology and on to Ridgeline because of how far ahead Ridgeline's AI features are compared to anything else in investment management software.",
+      "zh": "各家公司正从遗留技术转向 Ridgeline，因为与投资管理软件里的其他产品相比，Ridgeline 的 AI 功能领先得太多。"
+    },
+    {
+      "i": 99,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "18:54",
+      "en": "I've been hearing from a lot of investment managers about AI and they fall roughly into two camps, with some unsure where to even start and others convinced they can build their own order management system over a weekend.",
+      "zh": "我从很多投资经理那里听到关于 AI 的看法，他们大致分两派：一些连从哪儿开始都不确定，另一些则坚信自己一个周末就能搭出订单管理系统（OMS）。"
+    },
+    {
+      "i": 100,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "19:04",
+      "en": "The reality is that running an investment firm will always require governance, controls, and a single source of truth for your data. And no amount of AI, enthusiasm changes that requirement.",
+      "zh": "现实是，经营一家投资公司永远需要治理、控制，以及数据的单一事实来源（single source of truth）。再多的 AI、再高涨的热情都改变不了这个要求。"
+    },
+    {
+      "i": 101,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "19:15",
+      "en": "Ridgeline is built on exactly that foundation, which is why I believe that the firms that come out ahead in the AI era will be the ones running on Ridgeline's unified platform.",
+      "zh": "Ridgeline 正是建立在这个基础之上，所以我相信，在 AI 时代脱颖而出的公司，会是那些跑在 Ridgeline 统一平台上的公司。"
+    },
+    {
+      "i": 102,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "19:23",
+      "en": "If you're serious about your firm's AI strategy, Ridgeline should be part of that conversation and you can request a demo at ridgeline.ai. Since you've been covering it for so long, I'm curious what you think the biggest challenge or problem or issue is facing your whole field.",
+      "zh": "如果你认真对待公司的 AI 战略，Ridgeline 应该是对话的一部分，可以在 ridgeline.ai 申请演示。既然你关注这个领域这么久了，我很好奇：你觉得整个领域面临的最大挑战、问题或症结是什么？"
+    },
+    {
+      "i": 103,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "19:38",
+      "en": "Like, if I think about this as the quest to learn and teach, to understand our health and our well-being and ways of making it better, what is the biggest challenge facing the field today?",
+      "zh": "如果把这件事看作探索「学习和教学、理解我们的健康与福祉、并找到让它更好的途径」，那么今天这个领域面临的最大挑战是什么？"
+    },
+    {
+      "i": 104,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "19:51",
+      "en": "I mean, I feel like the public discourse around health and longevity is a fucking disaster. It is a bunch of clowns and people are doubling and tripling down on the theatrics.",
+      "zh": "我的感觉是，围绕健康和长寿的公共讨论简直是一团糟。一群小丑，而且人们还在变本加厉地把噱头加码到两三倍。"
+    },
+    {
+      "i": 105,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "20:00",
+      "en": "I'm not saying I get everything right or that I have all the answers. I'm definitely not saying that. I got into this at the right time, but the downside is that it was so devoid of anyone else.",
+      "zh": "我不是说我什么都做对、什么都有答案，我绝不是这个意思。我是在恰当的时机进入了这个领域，但坏处是当时几乎没有别的人。"
+    },
+    {
+      "i": 106,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "20:12",
+      "en": "There are people talking about health only in their area that they worked on in their lab, but not broadly, that, you know, the bar for entry in public discourse around health is basically zero.",
+      "zh": "有些人只谈他们在实验室里研究的那一小块健康话题，而不广博地谈。你知道，进入健康公共讨论的门槛基本为零。"
+    },
+    {
+      "i": 107,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "20:21",
+      "en": "You know, it's like, you show your abs and you admit you're on steroids, you have a following. One dude shows his abs or some woman like shows her glutes and claims to be all natural and we believe them then and suddenly they have a following.",
+      "zh": "这就好比，你露出腹肌、承认自己在用类固醇（steroids），你就有粉丝。某个男的秀腹肌，或者某个女的秀翘臀，声称全自然，我们就信了，然后他们突然就有了追随者。"
+    },
+    {
+      "i": 108,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "20:32",
+      "en": "So I mean, if that's the bar for entry, I come from a field where having a PhD is even nearly sufficient. It's necessary, but not even nearly sufficient to say that you've contributed something to the understanding of the brain.",
+      "zh": "所以，如果那就是入门门槛的话——我来自一个领域，在那里，光有博士学位几乎都不够。它是必要的，但远不足以说明你对大脑的理解做出了贡献。"
+    },
+    {
+      "i": 109,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "20:44",
+      "en": "Like if we could take somebody like Tim Ferriss was talking about a lot of this stuff early on, the biohacking self-optimization. And what I love about Tim is he's remained Tim.",
+      "zh": "比如像 Tim Ferriss，他很早就在谈这些东西，生物黑客（biohacking）、自我优化。我喜欢 Tim 的一点是，他一直是他自己。"
+    },
+    {
+      "i": 110,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "20:52",
+      "en": "There was this period where he experimented. He had some things that he felt probably weren't a good idea, you know, he talks about those like things that he wishes he hadn't done and things that he's happy he did.",
+      "zh": "有过一段他到处做实验的时期。有些做法他自己也觉得可能不是好主意——他会谈那些他后悔做过的事，也谈那些他庆幸做过的事。"
+    },
+    {
+      "i": 111,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "21:02",
+      "en": "And then he's also in investing and all these other things that I think Tim's fantastic because he's being Tim. So I'm not referring to that.",
+      "zh": "然后他还在投资和其他许多事情里。我觉得 Tim 很棒，因为他在做自己。所以我说的不是他。"
+    },
+    {
+      "i": 112,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "21:09",
+      "en": "And then you started getting these more and more extreme versions where people were coming in with basically no science or health training and saying, Hey, like, here's how you optimize the mind and body.",
+      "zh": "然后你开始看到越来越极端的版本——有些人几乎没有任何科学或健康训练就冒出来，说：嘿，这就是你优化身心的方法。"
+    },
+    {
+      "i": 113,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "21:18",
+      "en": "And I know this because I'm doing all these things and I used to be fat and I'm not fat anymore. And I think that's fine in principle, but then it just keeps getting crazier and crazier.",
+      "zh": "我懂这类说法，因为他们会说「我做了所有这些，我以前很胖，现在不胖了」。原则上我觉得这没问题，但事情就越来越离谱。"
+    },
+    {
+      "i": 114,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "21:29",
+      "en": "And so what you've seen now is there's a big gap between, if I'm just honest, between the A tier public health educators and what used to be the B tier public educators is just getting bigger and bigger and bigger because one has to be true to self, but you also have to take the endeavor seriously.",
+      "zh": "所以现在你看到的是，坦白讲，A 档的公共健康教育者和曾经的 B 档教育者之间的差距越来越大、越来越大——一方面人要忠于自己，另一方面你也得把这件事当回事。"
+    },
+    {
+      "i": 115,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "21:44",
+      "en": "It's very easy to get attention. It's very hard to keep respect. So I do think that the public health discourse is harmed when it becomes about the theatrics.",
+      "zh": "吸引注意力很容易，赢得尊重却很难。所以我确实认为，当公共健康讨论沦为噱头时，它是被伤害的。"
+    },
+    {
+      "i": 116,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "21:53",
+      "en": "And I'm not trying to not name names here. I mean, I think everyone can look out on the landscape of everyone from Brian to me to Gary Brecca to Asprey to anyone else that are a lot in the space and just go like, who's persona resonates?",
+      "zh": "我这里不是要刻意避讳点名。我是说，我觉得每个人都能看看这个领域的版图——从 Bryan 到我，到 Gary Brecka，到 Asprey，再到这个领域里的很多人——然后问一句：谁的公众形象能引起共鸣？"
+    },
+    {
+      "i": 117,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "22:06",
+      "en": "Not just what captures the entertainment value. So what I would expect will happen next now that we've gone from high amounts of interest in this to this optimization optimization.",
+      "zh": "而不只是谁能抓住娱乐价值。所以，在人们对这个话题的高度兴趣已经走到「优化、再优化」之后，我预计接下来会发生的是——"
+    },
+    {
+      "i": 118,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "22:16",
+      "en": "Now it's turned into, are we over optimizing? I think we're going to see a downturn in the number of things that people are willing to do each day.",
+      "zh": "现在它变成了：我们是不是过度优化了？我觉得，人们每天愿意做的那些事的数量会迎来一个下行。"
+    },
+    {
+      "i": 119,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "22:22",
+      "en": "They're like, this is just too much. It's gotten kind of kooky. It's kind of crazy. And the characters, I need more serious peers. I need serious peers with training, you need their science or medicine, maybe pharmacology, and they're out there.",
+      "zh": "人们会说：这实在太多了，有点古怪，有点疯狂。而这些人物——我需要更严肃的同侪，需要受过训练的同侪，需要他们的科学或医学、也许药理学背景，而这些人是存在的。"
+    },
+    {
+      "i": 120,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "22:35",
+      "en": "But I think those people are going to rise to the surface. We haven't seen them yet. So I look forward to having colleagues like that. And then I think what's going to happen is we're going to get many, many more people trained as PhDs, trained as MDs, who are going to be doing serious science health discourse, not regressing to the TikTok dance model, the focus on me model, and really educating people in a way that's unique that I'm certain I haven't even tapped into.",
+      "zh": "但我相信这些人会浮现出来，我们还没见到他们。所以我期待有那样的同事。然后我认为接下来会发生的是，会有多得多的、受过博士训练、受过医学博士训练的人去做严肃的科学健康讨论，而不是倒退到跳 TikTok 舞蹈那一套、以自我为中心那一套，而是真正以一种独一无二的、我确信我自己都还没触及的方式去教育大众。"
+    },
+    {
+      "i": 121,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "22:59",
+      "en": "Someone's going to come along that's better than me. So I think this field is going to go into a downturn now, the public education around health and optimization, longevity, et cetera, is going to go into a bit of a downturn.",
+      "zh": "一定会有比我更强的人出现。所以我觉得，这个领域现在会进入一段低谷——关于健康、优化、长寿等等的公共教育，会进入一点低谷。"
+    },
+    {
+      "i": 122,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "23:11",
+      "en": "And then I think we're going to get an influx of a lot of great people. And then it will be where I would like to see it. How about on the research side, biggest problem facing the field?",
+      "zh": "然后我相信会涌入一大批优秀的人，届时它会变成我希望看到的样子。那研究层面呢？这个领域面临的最大问题是什么？"
+    },
+    {
+      "i": 123,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "23:19",
+      "en": "Well, I think the coolest problem that's also the biggest problem is how we can noninvasively write to the nervous system in sleep and waking states.",
+      "zh": "我觉得，既是最酷、同时也是最大的问题，是我们如何能在睡眠和清醒状态下非侵入式地写入神经系统。"
+    },
+    {
+      "i": 124,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "23:26",
+      "en": "So my best friend from childhood, Eddie Chang, is chair of neurosurgery at UCSF. He's a bioengineer. He's doing things similar-ish to what Neuralink is doing, but removing brain tumors in this kind of thing.",
+      "zh": "我从小一起长大的挚友 Eddie Chang 是 UCSF 的神经外科主任，他也是生物工程师。他做的事和 Neuralink 有些相似，但他还做切除脑肿瘤这类事。"
+    },
+    {
+      "i": 125,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "23:37",
+      "en": "I've been with him to surgeries like right up there next to the tumors patients is awake. He's probing areas of the brain. He has permission to map areas related to speech and language, et cetera.",
+      "zh": "我陪他上过手术台，就站在那儿、紧邻肿瘤旁边，病人是清醒的。他在探测大脑的各个区域，他获准去测绘与言语、语言相关的区域等等。"
+    },
+    {
+      "i": 126,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "23:46",
+      "en": "So breaching the skull is a big deal. The neurosurgeons say, well, you know, a titanium plate would be better, it's stronger, it lasts longer, but most people don't want to have to do that.",
+      "zh": "所以打开颅骨是件大事。神经外科医生说，嗯，钛板会更好，更结实、更持久，但大多数人并不想非得做到那一步。"
+    },
+    {
+      "i": 127,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "23:54",
+      "en": "They do it because they need something taken out like a tumor or an epileptic foci. I think the big one now is who can develop, will probably be ultrasound, but a noninvasive way of selectively activating or quieting brain areas with high amounts of temporal precision.",
+      "zh": "他们之所以开颅，是因为需要切除肿瘤或癫痫灶之类的东西。我认为现在的大问题是：谁能开发出——很可能用超声——一种非侵入式、能以极高的时间精度选择性激活或静默特定脑区的方法。"
+    },
+    {
+      "i": 128,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "24:11",
+      "en": "Like getting people who are in locked-in syndrome to speak as Eddie has done, or getting people who have a spinal injury to walk, which Neuralink and Eddie and others are trying to develop technologies to do, that is, that's heroic, right?",
+      "zh": "比如像 Eddie 那样让闭锁综合征（locked-in syndrome）患者重新说话，或者让脊髓损伤的人重新行走——Neuralink、Eddie 和其他人都正在努力开发能做到的技术——那是英雄之举，对吧？"
+    },
+    {
+      "i": 129,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "24:24",
+      "en": "But ultimately, and I'll go on record saying this, anyone who thinks that meta, open AI, anthropic or Elon's got Neuralink as his stated neural interest, anyone that thinks that those are LLM AI companies is perhaps going to be surprised at this prediction.",
+      "zh": "但追根究底，我这话撂在这儿：任何人如果以为 Meta、OpenAI、Anthropic，或者把 Neuralink 当作他明说的神经兴趣的 Elon——任何人如果以为这些是 LLM/AI 公司，也许都会被我这个预测惊到。"
+    },
+    {
+      "i": 130,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "24:43",
+      "en": "Every single one of those is going to be a biotech company. They're all interested in the brain. You talk to any of those guys, they may not have formal training in it, but they understand a lot of neuroscience and they will all tell you, here's the goal, right?",
+      "zh": "他们每一个最终都会成为生物技术公司。他们对大脑都感兴趣。你跟这些人里任何一个聊，他们也许没有正式的相关训练，但都懂很多神经科学，而且都会告诉你目标是什么，对吧？"
+    },
+    {
+      "i": 131,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "24:54",
+      "en": "The goal is to be able to read and write from your brain noninvasively. And there are straightforward ways to do that. So the big thing is, how can you stimulate a brain area with temporal and spatial precision?",
+      "zh": "目标是能够非侵入式地读取和写入你的大脑，而且做到这点有直接的办法。所以关键就是：你怎么能以时间和空间上的精度去刺激某个脑区？"
+    },
+    {
+      "i": 132,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "25:04",
+      "en": "How can you quiet that brain area with spatial and temporal precision? How can you dial up or down the level of quieting? Because it's one thing to say silent versus activated, but the nervous system has a lot of graded signals in it.",
+      "zh": "你怎么能以空间和时间的精度去静默某个脑区？你怎么把静默的程度调高或调低？因为「完全静默 versus 激活」是一回事，而神经系统里有大量分级（graded）信号。"
+    },
+    {
+      "i": 133,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "25:15",
+      "en": "And we don't think about those signals, but the communication between areas is gated, it's graded, thresholds for activation change, even just for things like drive and motivation.",
+      "zh": "我们平时不会去想这些信号，但区域之间的沟通是有门控的、是分级的，激活阈值会变，哪怕只是在驱动力和动机这样的事情上。"
+    },
+    {
+      "i": 134,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "25:24",
+      "en": "A noninvasive device where you could literally crank up your level of motivation by stimulating the nucleus accumbens and related pathways while engaging in a particular learning task or in hard work and then turning it off so that you can capture more energy, you have more of a square wave function on your energy output, that's coming.",
+      "zh": "一种非侵入式装置，能让你在投入某个学习任务或艰苦工作时，通过刺激伏隔核（nucleus accumbens）及相关通路来实打实地把动机水平调高，然后再关掉它，好让你收回更多精力——让你的精力输出更像方波——这就要来了。"
+    },
+    {
+      "i": 135,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "25:42",
+      "en": "And those companies are all about that. That's what the real arms race of AI is about. So I sort of chuckle when I think like, okay, like the LLMs are great or terrible, depending on who you are.",
+      "zh": "而那些公司全都奔着这个去。这才是 AI 真正的军备竞赛。所以想到「LLM 是伟大还是糟糕，取决于你是谁」时，我多少会觉得好笑。"
+    },
+    {
+      "i": 136,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "25:52",
+      "en": "And I believe they're great. I'm a big fan of AI. But the dynamic modulation of your own neural activity, using noninvasive technologies, not pharmacology, but then using AI to be able to understand, okay, this level of activation in this brain area for you, Patrick, is related to a hyper motivated brain state that makes it very hard for you to do anything else the rest of the day.",
+      "zh": "我相信它们是伟大的，我是 AI 的忠实拥趸。但真正关键的是对你自身神经活动的动态调控——用非侵入技术、不用药物，再用 AI 去理解：对你 Patrick 来说，某个脑区到这个激活水平，就与一种过度动机的脑状态相关，让你一天余下时间很难做别的。"
+    },
+    {
+      "i": 137,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "26:13",
+      "en": "And it will just learn to titrate. But you say, well, that sounds kind of science fiction. How far off is it? I mean, my eight sleep changes the temperature throughout the night to give me more REM sleep or deep sleep.",
+      "zh": "然后它会学会自己去滴定剂量。但你会说，那听起来有点科幻，还有多远？我的意思是，我的 Eight Sleep 整晚都在调温度，好让我有更多 REM 睡眠或深睡眠。"
+    },
+    {
+      "i": 138,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "26:24",
+      "en": "It's already doing that. It's just we're okay with these things in sleep. And it's doing that through a powerful but indirect method, temperature change.",
+      "zh": "它已经这么做了。只是我们对睡眠里的这些东西觉得可以接受。而它通过一种强有力但间接的手段——温度变化——来做到。"
+    },
+    {
+      "i": 139,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "26:32",
+      "en": "But it's no small thing to dynamically change and measure the degree of change in the nervous system in order to access a given state sleep or otherwise better.",
+      "zh": "但要动态地改变并测量神经系统的变化程度，以便更好地进入某个状态——睡眠或其他——这绝非小事。"
+    },
+    {
+      "i": 140,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "26:44",
+      "en": "And that's what these companies want to do. So my field of neuroscience has to embrace this. And they are that the people are trying to figure out what are the natural signals occurring in the brain when people think, when people see, when people move their limbs in a particular way, that's been the last 30, 40 years.",
+      "zh": "而这正是这些公司想做的。所以我的领域——神经科学——必须拥抱这一点，而人们也确实在这么做：过去三十四十年里，人们一直在弄清，当人思考、观看、以特定方式移动四肢时，大脑里自然发生的信号是什么。"
+    },
+    {
+      "i": 141,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "27:01",
+      "en": "That's all reading from the nervous system. Now it's about writing to the nervous system noninvasive. I have a stupid basic question. What is the method by which we can read and how precise is our ability to read activity?",
+      "zh": "那都是在读取神经系统。现在的关键是非侵入式地写入神经系统。我有个很基础、也许挺傻的问题：我们用来读取的方法是什么？我们读取活动的能力有多精确？"
+    },
+    {
+      "i": 142,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "27:11",
+      "en": "And what does activity even mean in different parts of the brain? Great questions. So it depends on how invasive you want to get. So most people understand, or if you have a no big deal that neurons communicate through action potentials, electrical signals, and we were taught, and it's still in the textbooks that they're always the same size and shape for a given neuron turns out that's not even true.",
+      "zh": "那在不同脑区，「活动」又意味着什么？好问题。这取决于你愿意侵入到什么程度。大多数人明白——或者你如果了解过就知道——神经元通过动作电位（action potentials）、电信号来交流，我们被教导、教科书至今也写着：对某个给定神经元而言，它的动作电位总是同样大小、同样形状；结果发现这甚至都不是真的。"
+    },
+    {
+      "i": 143,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "27:30",
+      "en": "So there's variability there, but we sort of have this all or none, like a neuron either fires or it doesn't, but they're graded potentials, you get to a threshold, the neuron fires communicates with the next neuron, depending on the milieu there, how many other inputs, what they're doing, the next neuron fires, you sort of set off a chain or not.",
+      "zh": "所以那里存在变异性，但我们大体还是把它当作「全或无」——神经元要么发放、要么不发放。但它们是分级电位（graded potentials），你达到一个阈值，神经元发放、与下一个神经元交流，取决于那里的环境、有多少其他输入、它们在做什么，下一个神经元是否发放，你算是引发了一条链、或者没有。"
+    },
+    {
+      "i": 144,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "27:45",
+      "en": "So you can record from neurons by putting an electro close to them extra cell recordings, you can put a bed of nails nearby, record lots of those extra cell signals, you can impale a neuron, record intracellularly, all of that requires breaching the skull, sticking wires basically down into the brain.",
+      "zh": "所以你可以通过把电极放在神经元附近来记录——胞外记录（extracellular recordings）；你可以在旁边放一片「钉子床」（多电极阵列），记录很多胞外信号；你可以刺入一个神经元做胞内记录（intracellular）。而所有这些都需要打开颅骨，基本上是把导线插进大脑。"
+    },
+    {
+      "i": 145,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "28:02",
+      "en": "The methods that are really exciting are things like ultrasound transcranial magnetic stimulation, which is used for the treatment of depression and other things.",
+      "zh": "真正令人兴奋的方法是超声、经颅磁刺激（TMS，transcranial magnetic stimulation）这类——后者用于治疗抑郁症和其他疾病。"
+    },
+    {
+      "i": 146,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "28:11",
+      "en": "The spatial control there of that's for stimulation is not great. The recording from the nervous system, you can go from what I just described, intracellular recording at the most extreme, then extra cell recording, and then you go all the way to like fMRI or EEG, when people see these like heat maps of the brain where you really can only measure signals in the surface, like at the cortex, which is interesting, but you're",
+      "zh": "就刺激而言，那里的空间控制并不好。而记录神经系统，你可以从我刚说的开始——最极端的是胞内记录，然后是胞外记录，再一直到 fMRI 或 EEG，人们看到的那些像大脑「热力图」的东西，其实你只能测量表面、比如皮层的信号，这固然有意思，但你——"
+    },
+    {
+      "i": 147,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "28:33",
+      "en": "not going to get to the deeper layers. A big problem now is how important is it to understand the natural patterns of activity in detail before we start poking around and stimulating with writing.",
+      "zh": "触及不到更深的层次。现在一个大问题是：在我们开始乱戳、用写入去刺激之前，究竟在多大程度上需要先详尽理解自然发生的活动模式？"
+    },
+    {
+      "i": 148,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "28:46",
+      "en": "And obviously there are two ways to write, at least two, you can use pharmacology. So what does most pharmacology do, whether it's alcohol, barbiturates, sedatives of some kind, what are you doing?",
+      "zh": "显然，写入至少有两条路，你可以用药理学。那大多数药物在做什么？无论是酒精、巴比妥类、某种镇静剂，你到底在做什么？"
+    },
+    {
+      "i": 149,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "28:57",
+      "en": "You're increasing the threshold for activation, you're quieting the brain by just increasing the threshold for activation, you're doing it indirectly by increasing inhibitory release, so there's less excitation overall.",
+      "zh": "你在提高激活阈值，你通过提高激活阈值来让大脑静默，你是通过增加抑制性释放间接做到的，于是整体的兴奋更少。"
+    },
+    {
+      "i": 150,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "29:07",
+      "en": "You think about Adderall, caffeine, nicotine, speed, modafinil, and you're talking about lowering the threshold, because those generally work by increasing neuromodulators that increase the likelihood that neurons will fire.",
+      "zh": "你想想 Adderall、咖啡因、尼古丁、冰毒（speed）、莫达非尼（modafinil），这些都是在降低阈值，因为它们通常通过增加神经调质（neuromodulators）来提高神经元发放的可能性。"
+    },
+    {
+      "i": 151,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "29:19",
+      "en": "So you're just kind of ramping up that baseline, creating higher RPM across the brain and body. That's why they lead to some shaking, some agitation, like everything's like primed to move, primed to fire, primed to think it's hard to shut off your mind when you're under the influence of stimulants, easier when you're under the influence of these other drugs that increase inhibition.",
+      "zh": "所以你是在抬高那个基线，让整个大脑和身体转速（RPM）更高。这就是为什么它们会带来一些颤抖、一些躁动——一切都蓄势待动、蓄势待发、蓄势待想。当你受兴奋剂影响时，很难关掉大脑；而受这些增加抑制的药物影响时，就更容易。"
+    },
+    {
+      "i": 152,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "29:37",
+      "en": "So the real question for trying to get to better reading and writing to the nervous system is about spatial and temporal precision and how willing you are to put something underneath the skin.",
+      "zh": "所以，要实现对神经系统更好的读取和写入，真正的问题在于空间和时间上的精度，以及你有多愿意往皮肤下面植入东西。"
+    },
+    {
+      "i": 153,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "29:48",
+      "en": "I say skin because you don't necessarily have to go under the skull. Let's take vagal stimulation, for example. Vagal stimulation, most people think about as a way to calm down, but most of the vagal pathways are excitatory.",
+      "zh": "我说「皮肤」，是因为你不一定非要打开颅骨。以迷走神经刺激为例。大多数人把迷走神经刺激想成一种让人平静的方式，但其实大多数迷走神经通路是兴奋性的。"
+    },
+    {
+      "i": 154,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "30:02",
+      "en": "And so common treatments for depression now, if somebody's willing, is to put a small, small than a penny sized stimulator under the skin of the neck and stimulate the vagus in order to overcome this sort of sedation that accompanies depression.",
+      "zh": "所以现在对抑郁症的一种常见疗法，如果病人愿意的话，是把一个比硬币还小的刺激器植入颈部皮肤下，刺激迷走神经，以克服抑郁症伴随的那种迟滞。"
+    },
+    {
+      "i": 155,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "30:16",
+      "en": "So vagal stimulation increases alertness. Neuroscientists have known this for a long time and a lot of people are getting pretty good results in their treatment of their depression by increasing vagal stimulation.",
+      "zh": "所以迷走神经刺激提高警觉度。神经科学家早就知道这一点，很多人通过增加迷走神经刺激，在抑郁症治疗上取得了相当不错的效果。"
+    },
+    {
+      "i": 156,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "30:27",
+      "en": "And it's dynamic. You can say, how do you feel? I feel okay. You can actually see this in real time. There's an amazing thing that my colleague, Carl Diceroth, one of the greatest bioengineers alive, that's talked about where he's talking to a patient and she's suicidally depressed.",
+      "zh": "而且是动态的。你可以问：你感觉怎么样？我感觉还行——你其实能实时看到这一切。我的同事 Karl Deisseroth——当今最伟大的生物工程师之一——讲过一个惊人的例子：他在跟一位病人交谈，那位女士有自杀念头、重度抑郁。"
+    },
+    {
+      "i": 157,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "30:41",
+      "en": "And then he starts increasing the stimulation on her vagus and she starts moving from that to a discussion about how she feels willing enough to go out and apply for a job.",
+      "zh": "然后他开始增加对她迷走神经的刺激，她就从那种状态转变，开始谈到自己觉得愿意出门去投份简历、申请一份工作了。"
+    },
+    {
+      "i": 158,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "30:49",
+      "en": "In real time, it just tells you that these excitatory mechanisms and these depressive mechanisms or inhibitory mechanisms are profound in terms of our perception of the outside world, our perception of ourself.",
+      "zh": "这实时地告诉你：这些兴奋性机制、这些抑郁性或抑制性机制，在我们对外部世界的感知、对我们自身的感知上，影响深远。"
+    },
+    {
+      "i": 159,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "30:59",
+      "en": "So this would be very nice to have. The question is, are you willing to go under the skin? I am. The guy that came up, not mainly through my lab, but he spent some time in my lab.",
+      "zh": "所以这要是有会很棒。问题是：你愿不愿意往皮肤下植入？我愿意。有个想出了点子的人——主要不是在我实验室做的，但他在我实验室待过一段时间。"
+    },
+    {
+      "i": 160,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "31:09",
+      "en": "He's now the head neurosurgeon at Neuralink, Matt McDougal, amazing guy, has a little receiver implanted under his skin of his hand between his thumb and his index finger.",
+      "zh": "他现在成了 Neuralink 的首席神经外科医生 Matt McDougal，很了不起的人——在他手上的皮肤下、拇指和食指之间植入了一个小接收器。"
+    },
+    {
+      "i": 161,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "31:19",
+      "en": "And his wife does too. And it opens their door to their home, to keys. Like I was like, what are you doing? He's like sort of biohacking Bay Area-ish kind of stuff.",
+      "zh": "他太太也有一个。它能打开他们家的门、当钥匙用。我当时就说：你在干嘛？他说这算是湾区那种生物黑客的小玩法。"
+    },
+    {
+      "i": 162,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "31:26",
+      "en": "He's like, yeah, like I'm just playing with the idea of what is it like to have a small device under your skin that can do stuff in the world for you?",
+      "zh": "他说：是啊，我就是玩玩这个念头——皮肤下有个小装置能替你在现实世界做点事，那会是什么感觉？"
+    },
+    {
+      "i": 163,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "31:34",
+      "en": "That's very Neuralink-ish. And obviously they have much bigger aspirations than that. But I think within 12 months, 20% of the entrepreneur real world will be asking, huh, if it's only as invasive as getting a piercing, yeah, maybe I want a little vagal stimulator.",
+      "zh": "这很 Neuralink 风格，而且显然他们的雄心远不止于此。但我认为在十二个月内，创业圈大概 20% 的人会开始琢磨：嗯，如果它的侵入程度就跟打耳洞差不多，也许我想要一个小迷走神经刺激器。"
+    },
+    {
+      "i": 164,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "31:55",
+      "en": "And that's coming next. People are thinking like peptides. What do we do? I'm not worried about peptides. I'm thinking implantable devices is where it's going to go next.",
+      "zh": "接下来就是这个。人们在琢磨肽类（peptides），说我们该用什么？我不担心肽类，我觉得可植入装置才是下一步的方向。"
+    },
+    {
+      "i": 165,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "32:01",
+      "en": "The commercially available vagal stimulators. Some have shown some promise. They're not super impressive to my neurosurgeon colleagues who like to get it under the skin and under the skull.",
+      "zh": "市面上能买到的迷走神经刺激器，有些显示出一些前景。但对我的神经外科同事——那些喜欢把它放到皮肤下、放到颅骨下的人来说——它们并不那么惊艳。"
+    },
+    {
+      "i": 166,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "32:11",
+      "en": "But I will say there's some interesting results there, but we're not quite there. But think about 10 years ago, if I told you, listen, you're going to be wearing a ring or a band on your wrist that measures your sleep and HRV.",
+      "zh": "不过我会说，那里确实有一些有趣的结果，但我们还没完全到位。可你想想十年前，如果我跟你说：听着，你会戴一枚戒指或一个腕带来测量你的睡眠和 HRV（心率变异性）。"
+    },
+    {
+      "i": 167,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "32:24",
+      "en": "That's pretty out there. I'm so fascinated by this. So there's reading, underlying activity of the brain at different levels of fidelity. There's writing you talked about ultrasound stimulation.",
+      "zh": "这听起来相当前卫。我对这个太着迷了。所以一边是读取，以不同保真度读取大脑的底层活动；一边是写入，你讲到了超声刺激。"
+    },
+    {
+      "i": 168,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "32:35",
+      "en": "I think there's electrical. I think there's magnetic stimulation, potentially, of these areas of the brain. One central part that I don't really know much about is the model of the brain itself.",
+      "zh": "我想还有电、还有磁，可以对这些脑区进行潜在的刺激。有一个我很不了解的核心部分，就是大脑本身的模型。"
+    },
+    {
+      "i": 169,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "32:44",
+      "en": "How far along in our understanding of that we even are, I know there's some things that we can say activation of this area produces this thing, but like it feels like we need those three things, like good input modalities, good reading methods and a model.",
+      "zh": "我们对它的理解究竟到了什么程度——我知道有些事我们可以说：激活某个区域会产生某种结果。但感觉我们还需要那三样东西：好的输入模态、好的读取方法，以及一个模型。"
+    },
+    {
+      "i": 170,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "32:56",
+      "en": "Yeah. I'm glad you're asking. I mean, these are my favorite topics. It's just that usually people are like, what peptide should I take? By the way, I mean, it depends on what your pain points are.",
+      "zh": "对。我很高兴你问这个——这些是我最喜欢的话题。只是人们通常问的是：我该吃什么肽？"
+    },
+    {
+      "i": 171,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "33:06",
+      "en": "So at the periphery, the retina, the cochlea, the tongue, the olfactory system, the skin, neuromuscular control, which isn't at the periphery, but I think we know pretty darn well how the nervous system works.",
+      "zh": "在周边部分——视网膜、耳蜗（cochlea）、舌头、嗅觉系统、皮肤，还有神经肌肉控制（后者其实不算周边）——我认为我们对神经系统如何运作已经了解得相当清楚了。"
+    },
+    {
+      "i": 172,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "33:20",
+      "en": "And we know how different wavelengths of light are transformed into visual images at a, not even at first approximation, but we understand that in significant detail how motion is processed.",
+      "zh": "我们知道不同波长的光如何被转成视觉图像，不只是粗略近似，而是有相当细节的理解；我们也理解运动是如何被处理的。"
+    },
+    {
+      "i": 173,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "33:30",
+      "en": "We understand a fair amount about memories, although I want to put that on the shelf for a moment because there's an important finding in the memory field that will make you feel like it's in kind of twilight zone, perhaps in neuroscience.",
+      "zh": "关于记忆，我们理解了不少，不过我想先把它搁一会儿，因为记忆领域有个重要发现，会让你觉得像是进了《阴阳魔界》（Twilight Zone），也许在整个神经科学里都是。"
+    },
+    {
+      "i": 174,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "33:41",
+      "en": "It worries me all the time. The hypothalamus. So circuits that are deep in the brain that control hunger, anger, sexual appetite, lack thereof, hormone secretion, those are switches.",
+      "zh": "它一直让我担忧。下丘脑（hypothalamus）——那些深在大脑里、控制饥饿、愤怒、性欲（或性欲缺乏）、激素分泌的回路——它们是开关。"
+    },
+    {
+      "i": 175,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "33:55",
+      "en": "So do we understand those? Yes. Do we understand everything? No. But we understand them. One of the reasons that GLPs are so effective, and one of the reasons they got so much velocity is because we understand where they bind in the brain and they bind to these hypothalamic and other areas, of course, that activate neurons that are involved in the suppression of appetite.",
+      "zh": "那我们理解它们吗？是的。我们理解一切吗？不。但我们理解它们。GLP（胰高血糖素样肽）类药物之所以这么有效、之所以发展得这么快，原因之一就是我们知道它们在大脑里结合在哪里——它们结合到下丘脑及其他一些区域，激活那些参与抑制食欲的神经元。"
+    },
+    {
+      "i": 176,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "34:16",
+      "en": "And so it's a very simple equation, really ramp these GLP levels up thousandfold. People aren't as hungry, but turns out they're not as driven for other things, too, if you get beyond a certain level.",
+      "zh": "所以这是一个很简单的等式：把这些 GLP 水平提高上千倍，人就没那么饿了。但结果发现，一旦超过某个水平，他们对其他事情的驱动力也下降了。"
+    },
+    {
+      "i": 177,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "34:26",
+      "en": "I think Sam Altman talked about his experience with that at one point and why he decided to either back off the dosage or stop taking them. So as you move in from the periphery of the sensory organs, right?",
+      "zh": "我记得 Sam Altman 一度谈到过他的亲身体验，以及他为什么决定减量或者干脆停用。那么，当你从感觉器官的周边往里走，对吧？"
+    },
+    {
+      "i": 178,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "34:37",
+      "en": "And as you move up from the base of the brain, the deeper limbic structures and hypothalamic structures to the prefrontal cortex, we can say, yeah, like your prefrontal cortex, we know based on lesion studies in humans, activation studies is really important for contextual learning, for strategy setting in different environments for suppression of impulse, what we call top down suppression.",
+      "zh": "当你从大脑底部往上、到更深的边缘系统（limbic）结构和下丘脑结构，再到前额叶皮层（prefrontal cortex），我们可以说：你的前额叶皮层，根据人类的损伤研究和激活研究，我们知道它对情境学习、在不同环境中设定策略、抑制冲动——也就是我们说的自上而下抑制——非常重要。"
+    },
+    {
+      "i": 179,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "34:59",
+      "en": "So do we understand what the prefrontal cortex is doing? Yeah. The place where it starts to get murky is at the level of memory. We'll talk about that in a moment.",
+      "zh": "那我们理解前额叶皮层在做什么吗？是的。开始变得模糊的地方，是在记忆的层面，我们待会儿再谈。"
+    },
+    {
+      "i": 180,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "35:08",
+      "en": "And at the level of thoughts, you won't find a chapter in a neuroscience textbook that says this is how thoughts are made. And we can talk about what's starting to emerge there, these dynamic attractor states.",
+      "zh": "而在「思维」的层面，你翻遍神经科学教科书也找不到一章写着「这就是思维如何产生的」。我们可以聊聊那里开始浮现的东西——那些动态吸引子状态（attractor states）。"
+    },
+    {
+      "i": 181,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "35:19",
+      "en": "We'll get to those in a moment. But here's the eerie results from the study of the hippocampus in memory that freak me out. And a lot of neuroscientists don't want to talk about this because it throws all the read write stuff that we were talking about earlier, all the technologies and pharmacology into a complicated place because it doesn't allow for clean matching of conceptual understanding of the brain from experiments to levers that actually allow us some control.",
+      "zh": "我们待会儿会讲到那些。但这里是关于海马体（hippocampus）在记忆中作用的研究里那些令人不安的结果，它们让我发毛。很多神经科学家不愿谈这个，因为它把我们前面谈的所有读取写入的东西、所有技术和药理学，都推向了一个复杂的境地——它不允许我们把对大脑的概念性理解，从实验干净地对应到那些真正能给我们某种控制的杠杆上。"
+    },
+    {
+      "i": 182,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "35:45",
+      "en": "The experiments are like this. Mark Mayford's lab has done this down at Scripps, Sissou Motonegawa, who won a Nobel for his work on immunoglobulins, but then became a very successful neuroscientist.",
+      "zh": "实验是这样的。Mark Mayford 的团队在 Scripps 做过这个；利根川进（Susumu Tonegawa），他因免疫球蛋白（immunoglobulins）的工作拿了诺贝尔奖，后来成了一位非常成功的神经科学家。"
+    },
+    {
+      "i": 183,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "35:55",
+      "en": "They've done these experiments where they have an animal do some sort of learning task, could either learn that they get shocked over here and not there, or they get a reward over here and not there, or they learn a maze, or they learn a lever press combination that gets them a reward, you know, they can learn pretty sophisticated things for a mouse.",
+      "zh": "他们做过这样的实验：让动物完成某种学习任务——学会「在这边会被电击、那边不会」，或者「这边有奖励、那边没有」，或者走迷宫，或者学会一套按键组合来获得奖励。对一个老鼠来说，它们能学会相当复杂的东西。"
+    },
+    {
+      "i": 184,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "36:12",
+      "en": "Monkeys can do this too. Humans can do this too. These are ways to read from the brain, including the hippocampus, a deep-ish brain structure.",
+      "zh": "猴子也能做到，人也能。这些都是读取大脑的方式，包括读取海马体——一个偏深的大脑结构。"
+    },
+    {
+      "i": 185,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "36:21",
+      "en": "And I've gotten pretty good, you can say, okay, these are the patterns of signals that happened as the animal learned. And here are the patterns of signals that occur every time the animal expresses this thing.",
+      "zh": "我自己也做得挺在行了：你可以说，好，这些是动物在学习时发生的信号模式，而这些是动物每次表现出这个行为时出现的信号模式。"
+    },
+    {
+      "i": 186,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "36:32",
+      "en": "We imagine there's a correlate where every time somebody serves a tennis ball the way they perfected it, that the same cluster of neurons is activated in the brain, they're communicating with each other, the same circuit rather, and in a particular sequence, A leads to B leads to C, and so on, you get the tennis serve.",
+      "zh": "我们设想到一个对应关系：每当一个人以他练熟的方式发一个网球，大脑里被激活的是同一群神经元，它们在彼此交流——准确说是同一条回路——并按某个特定顺序，A 引发 B、B 引发 C，如此下去，就产生了那个发球。"
+    },
+    {
+      "i": 187,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "36:47",
+      "en": "The data tell us that if you tag the neurons that were involved in this behavior and then reactivate them, you expect the behavior, right? And indeed, that's what you find.",
+      "zh": "数据告诉我们：如果你标记下参与这个行为的神经元，然后再激活它们，你会预期出现那个行为，对吧？而事实上，你确实看到的就是这样。"
+    },
+    {
+      "i": 188,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "37:01",
+      "en": "Hypothetically, you serve the tennis ball, I'm able to measure, let's just say with the highest degree of fidelity that the patterns of activation from start to finish that occurs, you toss the ball in the air and you serve, great.",
+      "zh": "假设你发了一个网球，我以最高的保真度测量到从头到尾发生的激活模式——你把球抛起、发球，很好。"
+    },
+    {
+      "i": 189,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "37:11",
+      "en": "Now I stamp those neurons with a chemical tag, this has been done, then I come back later and I activate those neurons in the same sequence and you do the serve perfectly and I say, great.",
+      "zh": "现在我给那些神经元盖上一个化学标记——这已经被做过了——然后我稍后回来，按同样的顺序激活那些神经元，你完美地完成了发球，我说：太好了。"
+    },
+    {
+      "i": 190,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "37:21",
+      "en": "But then they did the important control experiment. What if I activate those neurons in the opposite sequence? What if I activate all those neurons at once, like banging on the keys of the piano, it's not the same as playing the song, if I just say, what are all the keys involved in this motif of music?",
+      "zh": "但随后他们做了那个重要的对照实验。如果我按相反的顺序激活这些神经元呢？如果我一次性激活所有这些神经元呢——就像乱按钢琴键，那跟弹出一首曲子不一样。如果我只是列出这个音乐片段涉及的所有琴键，然后——"
+    },
+    {
+      "i": 191,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "37:37",
+      "en": "And instead I just bang on them all, you get a very different sound coming out of the piano, turns out you get the exact same behavior. This is problematic for the field of neuroscience, because what it says is that this notion of these circuits firing in a particular sequence, at least for memory, it's probably not true.",
+      "zh": "反过来只是把它们全部一起按下，钢琴发出的声音完全不同，但结果你得到的是完全一样的行为。这对神经科学是个麻烦，因为它意味着：这些回路按特定顺序发放这个观念，至少在记忆里，可能并不成立。"
+    },
+    {
+      "i": 192,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "37:54",
+      "en": "So now if I want to write to your nervous system, maybe I'm better off because all I have to do is activate these same neurons. And it doesn't matter what sequence I activate them in, that's kind of cool, right?",
+      "zh": "所以现在，如果我想写入你的神经系统，也许反而更好办，因为我要做的只是激活同一群神经元，而以什么顺序激活它们都无所谓——这挺酷的，对吧？"
+    },
+    {
+      "i": 193,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "38:04",
+      "en": "Like you want someone to walk, maybe you just need to activate the brain areas involved in walking, and the body and the other brain circuits will figure it out.",
+      "zh": "比如你想让一个人走路，也许你只要激活与走路相关的脑区，身体和其余的大脑回路自己会搞定。"
+    },
+    {
+      "i": 194,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "38:11",
+      "en": "But here's the problem. First of all, it's very hard to activate these select sets of neurons with high spatial and temporal fidelity to begin with.",
+      "zh": "但问题来了。首先，要用很高的空间和时间保真度去激活这些精选神经元群，本身就非常难。"
+    },
+    {
+      "i": 195,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "38:19",
+      "en": "But the other problem is these neurons, I didn't tell you, are all also involved in lots of other perceptions and behaviors. So it's not like you have a circuit for serving a tennis racket that isn't also used for some aspect of thinking and remembering about something from your childhood.",
+      "zh": "另一个问题是，这些神经元——我没告诉你——同时也参与大量其他知觉和行为。所以并不是说你有一条发网球的回路，它就不曾被用于某种思考、或回忆童年某件事的某个层面。"
+    },
+    {
+      "i": 196,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "38:34",
+      "en": "I mean, that's one of the beauties of the nervous system is it repurposes different neurons to participate in different circuits, depending on the perceptions and behaviors that you're experiencing, that you're engaging in.",
+      "zh": "我是说，这正是神经系统的美妙之处之一：它会重新调配不同的神经元去参与不同的回路，取决于你正在经历、正在投入的知觉和行为。"
+    },
+    {
+      "i": 197,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "38:45",
+      "en": "Our model of the brain works at the level of the periphery, at the deeper brain structures. But once you start getting into memory and thinking, it's complicated because we don't yet have a good model of whether or not the temporal ordering of firing of neurons matters.",
+      "zh": "我们对大脑的模型在周边层面、在更深的脑结构上是成立的。但一旦进入记忆和思考，就复杂了，因为我们还没有一个好模型来说明神经元发放的时间顺序到底重不重要。"
+    },
+    {
+      "i": 198,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "39:03",
+      "en": "And every textbook says it does. And the flow from like eyes to the thalamus up to the cortex to create a visual perception, we know that direction of flow is critical.",
+      "zh": "而每本教科书都说重要。从眼睛到丘脑（thalamus）再上行到皮层以产生一个视觉知觉的这个过程，我们知道这个流向至关重要。"
+    },
+    {
+      "i": 199,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "39:11",
+      "en": "If you cut that off at the level of this deeper brain structure, the thalamus, there's no perception. We know this from human patients, but memory, thinking, brain plasticity, these things all rest on the assumption that the temporal order matters.",
+      "zh": "如果你在丘脑这个更深的脑结构层面把它切断，就没有知觉——这是我们从人类病人身上知道的。但记忆、思考、大脑可塑性（plasticity），这些东西全都建立在「时间顺序重要」这个假设之上。"
+    },
+    {
+      "i": 200,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "39:26",
+      "en": "And apparently it doesn't. And that's one of the unspoken like within our field. And people are trying to understand that and what it means, but it's going to present a serious problem for the neurotechnologies.",
+      "zh": "可它显然并不重要。这是我们领域里一个心照不宣的秘密。人们在努力理解这一点及其含义，但它会给神经技术带来一个严重的问题。"
+    },
+    {
+      "i": 201,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "39:38",
+      "en": "Again, it's going to alleviate some problems because maybe you don't need as much spatial fidelity, but in my mind, this is a huge gap in understanding.",
+      "zh": "话说回来，它会缓解一些问题，因为你也许不需要那么多空间保真度。但在我看来，这是理解上的一个巨大缺口。"
+    },
+    {
+      "i": 202,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "39:47",
+      "en": "And then the other piece is that we don't really understand what a thought is. And so if you're going to get in there and start stimulating neurons in even just motor cortex to generate movement without the acknowledgement that these neurons are extensively interconnected with structures involved in thinking and planning, you could send the system into haywire.",
+      "zh": "再就是另一块——我们其实并不理解「一个念头」是什么。所以如果你进去、哪怕只是刺激运动皮层（motor cortex）的神经元来产生动作，而没有认识到这些神经元与涉及思考和计划的结构广泛互联，你就可能把整个系统搞得一团混乱。"
+    },
+    {
+      "i": 203,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "40:06",
+      "en": "That said, if there's a goal in mind, like drink the glass of water, the brain generally figures it out. And that's what's incredible. I mean, there are people working on brain damaged patients that are finding that if you just go to the areas of the brain where the signals are generated to inform the action output ends of the brain, then you can do pretty well.",
+      "zh": "话虽如此，如果心里有一个目标，比如「喝掉那杯水」，大脑通常能自己搞定，这正是它不可思议的地方。我是说，有些人在研究脑损伤病人，他们发现，你只要去到大脑里产生信号、为动作输出提供指令的那些区域，就能做得相当不错。"
+    },
+    {
+      "i": 204,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "40:27",
+      "en": "That's how my friend Eddie Chen gets people with Lockton syndrome to speak through a computer. He's not measuring from the speech production areas.",
+      "zh": "这就是我的朋友 Eddie Chang 让闭锁综合征病人通过电脑说话的方式。他测量的并不是言语产生区。"
+    },
+    {
+      "i": 205,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "40:33",
+      "en": "It's carefully characterized for many years, decades. The signals coming out of the speech planning areas. And because the signals can't get down to the pharynx and larynx, because speech is just the pharynx and larynx controlling exhales, what he's doing is just transforming those signals into electrical signals so that the person can talk through a computer.",
+      "zh": "多年来、几十年来，从言语计划区传出的信号已被仔细地表征。而这些信号传不到咽（pharynx）和喉（larynx）——因为说话无非就是咽和喉在控制呼气——所以他所做的，只是把那些信号转换成电信号，好让这个人通过电脑说话。"
+    },
+    {
+      "i": 206,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "40:51",
+      "en": "So there's advantages and disadvantages to this non-specificity. I think that's the big one. That's the really big one. What about all this excites you most and scares you most?",
+      "zh": "所以这种非特异性既有好处也有坏处。我认为那个才是大问题，真正的大问题。而这一切里，最让你兴奋、又最让你害怕的是什么？"
+    },
+    {
+      "i": 207,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "41:04",
+      "en": "Some of this, it feels to sort of strip me of my humanity or my identity in some weird way. If I knew that you could just like play me like a piano or something like this, given high precision technology that's underneath the skull or something.",
+      "zh": "这里面有些东西，我感觉会在某种奇怪意义上剥夺我的人性或我的身份。如果我知道，只要颅骨下有那种高精度的技术，别人就能像弹钢琴一样摆弄我——"
+    },
+    {
+      "i": 208,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "41:16",
+      "en": "The bigger question is like, where do you actually think we're going like five, 10 years from now? What kinds of things do you think we'll have?",
+      "zh": "更根本的问题是，你到底觉得五年、十年后我们会走向哪里？你觉得我们会拥有什么样的东西？"
+    },
+    {
+      "i": 209,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "41:21",
+      "en": "But I'm also just curious about the cyborg line here that we're probably going to cross that gets philosophically weird. After acknowledge I was born and raised in Palo Alto and I'm friends with the technology medical sector.",
+      "zh": "我也只是好奇那条赛博格（cyborg）界限——我们大概会跨过它，而它会让事情在哲学上变得古怪。我承认，我在 Palo Alto 出生长大，我跟科技和医疗圈的人都做朋友。"
+    },
+    {
+      "i": 210,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "41:32",
+      "en": "So sometimes I get a little bit of the blinders on about how other, you know, a lot of people are terrified of AI and I'm told lately that I'm not scared enough.",
+      "zh": "所以有时候，我对别处的情形会有点视野狭窄——你知道，很多人非常害怕 AI，而最近有人跟我说，我害怕得还不够。"
+    },
+    {
+      "i": 211,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "41:39",
+      "en": "But I acknowledge that people are concerned, afraid they don't understand it. But I remember the same discussions about computers, which is not to say that we don't need to be careful, but people are okay now with reading from the nervous system.",
+      "zh": "但我承认人们有所顾虑、害怕、不理解它。可我记得当年关于电脑也有过同样的讨论——这不是说我们不必小心，而是人们现在对「读取神经系统」这件事已经能接受了。"
+    },
+    {
+      "i": 212,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "41:50",
+      "en": "People are okay now with the fact that our phones are recording everything that we're saying. Remember why? Like is it really listening? Yeah.",
+      "zh": "人们现在也能接受手机在记录我们说的一切。还记得为什么吗？它真的在听吗？是啊。"
+    },
+    {
+      "i": 213,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "41:56",
+      "en": "How could it really know? It's a little bit like the autonomous driving in San Francisco. Like I got no Waymo. I didn't even think about it.",
+      "zh": "它怎么可能真的知道？这有点像旧金山的自动驾驶——我坐了 Waymo，压根没多想。"
+    },
+    {
+      "i": 214,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "42:02",
+      "en": "I just like got in. I think measurement of the nervous system directly in waking states is the next mental hurdle and I think it's going to be a healthy one to cross.",
+      "zh": "我就是坐进去了而已。我觉得，在清醒状态下直接测量神经系统，是下一道心理关卡，而我认为跨过它会是一件好事。"
+    },
+    {
+      "i": 215,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "42:12",
+      "en": "Right now we get heart rate, HRV and a few other things, but mostly heart rate and HRV and from that we get told how stressed we are, how well recovered we are, how well we are sleeping.",
+      "zh": "现在我们拿到的是心率、HRV 和其他几样，但主要就是心率和 HRV，然后据此被告知我们有多大的压力、恢复得如何、睡得有多好。"
+    },
+    {
+      "i": 216,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "42:23",
+      "en": "None of that is direct readout from the autonomic nervous system. I actually have a former postdoc of mine who did her undergraduate Stanford graduate work at Harvard.",
+      "zh": "这些全都不是从自主神经系统直接读出的。我其实有一位曾经的博士后，她本科在 Stanford、研究生在 Harvard 读。"
+    },
+    {
+      "i": 217,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "42:32",
+      "en": "And it was at Caltech briefly. Her name is Melissa Yilmaz. She's a brilliant neuroscientist and now biotechnologist. She's developing a tool.",
+      "zh": "也短暂在 Caltech 待过。她叫 Melissa Yilmaz，是一位才华出众的神经科学家，现在是生物技术创业者，正在开发一种工具。"
+    },
+    {
+      "i": 218,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "42:39",
+      "en": "It's like a little cuff that actually directly measures activity from the autonomic nervous system and then gives you a readout. This is so cool.",
+      "zh": "它像一个小小的袖带，能真正直接测量来自自主神经系统的活动，然后给你一个读数。这太酷了。"
+    },
+    {
+      "i": 219,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "42:47",
+      "en": "I got to try it. I'm going to do a readout at the end of the day of how different activities and different patterns of speech and breathing in you related to levels of distress versus use stress.",
+      "zh": "我试过它。我打算在一整天结束时做一次读数，看看你一天里不同的活动、不同的说话和呼吸模式，如何对应到痛苦（distress）与良性压力（eustress）的水平。"
+    },
+    {
+      "i": 220,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "42:58",
+      "en": "Right now we just think all levels of increased heart rate and decreased levels of HRV are bad, but she's discovering that there are certain things in your day like when you're stressed out doing things that you love that actually sets you up for better sleep, more focus that the data have hinted in that direction for a while, but these devices are the sort that she's developed and she's brought this to police departments, first responders, and",
+      "zh": "现在我们只是一味认为：心率升高、HRV 降低都是坏事。但她正在发现，你一天里某些事情——比如你在做自己热爱之事时的压力——反而为更好的睡眠、更专注的状态打下基础。数据早有这种暗示，而她开发的正是这类装置，她已经把它带到警察局、急救人员，以及——"
+    },
+    {
+      "i": 221,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "43:18",
+      "en": "eventually this will be a broadly available technology. Direct measurements from the nervous system of how stressed are you when you are stressed or are you actually doing great?",
+      "zh": "最终这会是一种普遍可得的技术：从神经系统直接测量——当你感到压力时，你到底有多大压力，又或者你其实状态很好？"
+    },
+    {
+      "i": 222,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "43:29",
+      "en": "You just are in a high arousal state that might change your perception of how stressed you are. I think accurate feedback about those things will have a real positive effect on our health metrics.",
+      "zh": "你只是处于高唤醒状态，而它可能改变你对自身压力的感知。我认为，关于这些的准确反馈会对我们的健康指标产生真正的积极影响。"
+    },
+    {
+      "i": 223,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "43:40",
+      "en": "Maybe you'll discover that there are a lot of things in your day that really stress you out that you weren't aware of. You'll also learn how long is the tail on your stress from a given stressful interaction, stress and air quotes.",
+      "zh": "也许你会发现，你一天里有很多事其实真的让你有压力，而此前你毫无察觉。你还会知道，一次令人压力的互动——带引号的「压力」——它留下的尾巴有多长。"
+    },
+    {
+      "i": 224,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "43:51",
+      "en": "How well are you focusing will probably need to be picked up from measurements of pupil size changes. This is how it's done in animals. This is why I think confidently it'll be done from eyeglasses.",
+      "zh": "你专注得多好，恐怕得从瞳孔大小的变化来测量。动物研究就是这么做的。所以我有把握地说，将来它会通过眼镜来做到。"
+    },
+    {
+      "i": 225,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "44:01",
+      "en": "So you need a lot of access from a wristband and eyeglasses or an eye mask and sleep. I think people are going to be really comfortable with that.",
+      "zh": "所以你需要通过腕带、眼镜，或者一个眼罩——在睡眠时——来获得大量信息。我觉得人们会对这感到非常自在。"
+    },
+    {
+      "i": 226,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "44:09",
+      "en": "The big one is how willing are people going to be to set up their entire brain for a vulnerability to non-invasive control? So we're not going to drop wires into people's brains for a while unless they have a clinical issue.",
+      "zh": "而最大的问题是：人们有多愿意把整个大脑暴露在一种可能被非侵入式操控的脆弱性之下？所以短期内我们不会把导线插进人的大脑，除非他们有临床问题。"
+    },
+    {
+      "i": 227,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "44:23",
+      "en": "Maybe something under the skin, but you still don't have access to all the neurons. What I want for me is I want access to all the neurons where I can turn things up or turn them down, at least by brain structure, and I have control over it.",
+      "zh": "也许可以往皮肤下放点东西，但你还是接触不到所有的神经元。就我个人而言，我想要的是接入所有神经元，能让我把它们调高或调低——至少按脑区来——而且由我自己掌控。"
+    },
+    {
+      "i": 228,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "44:35",
+      "en": "There has to be some benevolence written into that, you know, and vaulted into the device, right? We can't have things that are just like, and you just suddenly you're in a rage.",
+      "zh": "这里面必须写入某种善意，把它锁进装置里，对吧？我们总不能任由它让你一下子就暴怒。"
+    },
+    {
+      "i": 229,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "44:44",
+      "en": "You would hope that the company's building these things would put safeguards in place. They have them for vagal stimulators, why wouldn't they have them for brain stimulators?",
+      "zh": "你会希望打造这些东西的公司设立安全措施。他们给迷走神经刺激器都设了安全措施，为什么不给大脑刺激器也设呢？"
+    },
+    {
+      "i": 230,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "44:51",
+      "en": "And so the vulnerability or let's call it accessibility that I'm talking about would be the following. My lab when I was running a lab and a lot of people tickle neurons right to neurons, at least their activity a little or a little bit more or a lot these days, not through electrical stimulation, but by putting some sort of gene in them that isn't normally expressed in them.",
+      "zh": "所以我所说的脆弱性——或者说「可及性」——是这样的：我当年还在带实验室时，很多人会去「挠」神经元——对，挠神经元，至少影响它们的活动，如今是略微、稍多、甚至很多——不是通过电刺激，而是往它们里面导入一段平时并不表达的基因。"
+    },
+    {
+      "i": 231,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "45:12",
+      "en": "Typically, these are genes that express channels that come from either algae or other things like non human little things sound scary, right?",
+      "zh": "通常，这些基因表达的是来自藻类或其他非人小东西的离子通道，听起来挺吓人，对吧？"
+    },
+    {
+      "i": 232,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "45:21",
+      "en": "But the way this is done is you can do it locally by making one injection, okay, problem got to breach the skull or what a lot of people do is they will inject an animal with an adeno associated virus or some sort of virus that can stably express genes in all the types of cells that you want.",
+      "zh": "但做法是这样的：你可以局部地只打一针——好，问题是得开颅。或者很多人做的，是给动物注射腺相关病毒（adeno-associated virus）或某种病毒，这种病毒能在你想要的所有细胞类型里稳定表达基因。"
+    },
+    {
+      "i": 233,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "45:37",
+      "en": "You can direct them to neurons, you can direct them to immune cells, you do this by putting specific promoters sounds fancy, but straightforward and primates and mice and so on.",
+      "zh": "你可以把它们导向神经元，也可以导向免疫细胞——方法是用特定的启动子（promoters）。听着花哨，其实在灵长类、小鼠等动物身上直截了当。"
+    },
+    {
+      "i": 234,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "45:46",
+      "en": "You can do this in humans. They've done it in humans for other purposes, but it's more localized like into the eyes. So here's where we're going.",
+      "zh": "这在人身上也能做。人们已经为了其他目的在人身上做过，只是更局限，比如往眼睛里。所以，这就是我们要去的方向。"
+    },
+    {
+      "i": 235,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "45:52",
+      "en": "This is where we're going to end up. I know it sounds scary, but at some point in the not too distant future, if you're willing, it can be done safely, you get an injection of a virus.",
+      "zh": "这就是我们最终会抵达的地方。我知道这听起来吓人，但在不久的将来的某个时刻，如果你愿意，它是可以安全地做到的——你就是打一针病毒。"
+    },
+    {
+      "i": 236,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "46:00",
+      "en": "Everyone knows, oh my God, it's going to make me sick. No, it's not going to make you sick. It's not the active virus. The virus is just a vector, it's just a carrier for some genetic cargo that puts into your brain a channel such that if you have a hat on will cap or baseball cap that it can direct stimulation of only those neurons because it will cast a non specific stimulus like a cone of maybe light that can go through the skull like long wavelength light that",
+      "zh": "人人都怕：天哪，它会让我生病。不，它不会。它不是活性病毒，病毒只是一个载体（vector），一个携带某些遗传「货物」的载体，往你大脑里放进一种通道，这样一来，只要你能戴上帽子——一个鸭舌帽或棒球帽——它就能定向刺激仅限那些神经元，因为它会投出一束非特异性的刺激，像一个光锥那样，能穿过颅骨，比如长波长的光——"
+    },
+    {
+      "i": 237,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "46:26",
+      "en": "seems the most likely or ultrasound in a non specific way. So not illuminating or activating the whole brain, but it'll sort of send a beam of sound or light onto these neurons that if they express that tag will be active.",
+      "zh": "（这最有可能），或者以非特异方式用超声。所以它不是照亮或激活整个大脑，而是把一束声波或光投到这些神经元上，只要它们表达了那个标记，就会被激活。"
+    },
+    {
+      "i": 238,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "46:40",
+      "en": "You can increase the intensity of the light. You could flicker the light will work through all the different parameters that allow you to turn those neurons from inactive to active to more active to hyperactive and dial it down.",
+      "zh": "你可以增强光的强度，可以让光闪烁——各种各样的参数，能让你把这些神经元从非激活变成激活、再到更活跃、再到过度活跃，然后再调低。"
+    },
+    {
+      "i": 239,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "46:51",
+      "en": "And then with most likely through AI, you're not going to be turning a knob. You if you're somebody who is suffering from severe motivational issues or you have healthy levels of motivation, you want to ramp it up, we'll just increase the stimulation.",
+      "zh": "然后很可能通过 AI——你不会去拧一个旋钮。如果你是有严重动力问题的人，或者你有健康的动力水平、想把它拉高，系统就只需增加刺激。"
+    },
+    {
+      "i": 240,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "47:04",
+      "en": "Now, does this open up into people cranking the circuit for themselves? Yeah. But we also have this thing called caffeine and we also have this thing called methamphetamine.",
+      "zh": "那么，这会不会让人给自己把回路拧到最大？会。但我们也有咖啡因这种东西，也有冰毒（甲基苯丙胺）这种东西。"
+    },
+    {
+      "i": 241,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "47:14",
+      "en": "Methamphetamine is a problem 90% plus of the adult world's population drinks caffeine every day, which increases excitability in the brain basically.",
+      "zh": "冰毒是个问题，但世界上 90% 以上的成年人每天都摄入咖啡因，而咖啡因基本上是在提高大脑的兴奋性。"
+    },
+    {
+      "i": 242,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "47:22",
+      "en": "Yeah. It's like a blunt. Yeah. It blocks the thing that shuts down excitation, but you know, the net effect is more excitation. So you know how much coffee you can drink at a given time of day, given how much sleep you've had, you'll decide how much alertness you want to have.",
+      "zh": "对。它像一把钝器。它阻断的是那个关闭兴奋的东西，但净效果就是更多兴奋。所以你知道，在一天中某个时段、在你睡了多少的前提下，你能喝多少咖啡——你会决定自己想要多少警觉。"
+    },
+    {
+      "i": 243,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "47:37",
+      "en": "I don't have a better word for it. The opportunity or vulnerability of a given set of neurons will be set by some genetic thing that will be introduced through a virus.",
+      "zh": "我没有更贴切的词。某一组神经元的「可及性」或脆弱性，将由某种通过病毒导入的遗传物质来设定。"
+    },
+    {
+      "i": 244,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "47:48",
+      "en": "Maybe it's an AND gate. Maybe you also have to take a pill. So you can't just have the virus and the ultrasound, you need a third factor there.",
+      "zh": "也许它是一个「与门」（AND gate）。也许你还得同时吃一粒药。也就是说，光有病毒加超声还不够，你还需要第三个要素。"
+    },
+    {
+      "i": 245,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "47:55",
+      "en": "So it could be an AND gate. It could have any number of different safeguards in there, but these people with vagal stimulators can unplug them too.",
+      "zh": "所以它可能是一个与门，可能内置各种各样的安全措施——但那些装了迷走神经刺激器的人，也能把它拔掉。"
+    },
+    {
+      "i": 246,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "48:01",
+      "en": "I know it sounds scary, but it's absolutely going to happen for the people that want to do it. I think not everyone's going to want to do it.",
+      "zh": "我知道这听起来吓人，但对那些想做的人来说，它一定会发生。我想不是每个人都愿意做。"
+    },
+    {
+      "i": 247,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "48:09",
+      "en": "And right now, the reading and measurement from the brain and body are freaking some people out. I put out a post on X a few weeks ago, like, oh, if the cost of whole body MRI comes down, I can imagine most people would want it.",
+      "zh": "而现在，从大脑和身体读取和测量这件事，正在让一些人发毛。我几周前在 X 上发过一帖：如果全身 MRI 的成本降下来，我能想象大多数人都会想做。"
+    },
+    {
+      "i": 248,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "48:20",
+      "en": "I know people who have told me they've saved patients lives because they went and got this done and saw a tumor and we took it out and the neurosurgery community did not like that.",
+      "zh": "我认识的人告诉我，他们救过病人的命——因为去做了全身 MRI，发现了肿瘤，然后把它切除了。而神经外科界对此并不喜欢。"
+    },
+    {
+      "i": 249,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "48:29",
+      "en": "I thought it'd be like, oh, more business for them, but they did not like it. The public gaining more access to their own health data is scaring some sectors of medicine.",
+      "zh": "我以为他们会觉得，哦，那是更多的生意，但他们不喜欢。公众获得更多接触自己健康数据的途径，让医学的一些领域感到害怕。"
+    },
+    {
+      "i": 250,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "48:40",
+      "en": "Dermatologists, ophthalmologists love the AI and the more measurements better. But I think the Wall Street Journal just put something out saying like whole body MRIs basically said it's bad, but you don't have to do it.",
+      "zh": "皮肤科医生、眼科医生喜欢 AI，觉得越多测量越好。但我想《华尔街日报》刚发了篇文章，基本上是说全身 MRI 不好，但你也不必非做不可。"
+    },
+    {
+      "i": 251,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "48:52",
+      "en": "I'm assuming it's safe if the cost is low enough or insurance cover like I just don't get the logic. But my friends in medicine tell me we all know within 20 months, I don't know why 20 and not 24 within 20 months, it's going to be commonplace because the cost is coming down just like blood testing.",
+      "zh": "我假定只要成本足够低、有保险覆盖，它是安全的——我就是搞不懂那套逻辑。但我在医学界的朋友跟我说，我们都知道，二十个月内——我不知道为什么是 20 而不是 24——二十个月内它就会变得司空见惯，因为成本在下降，就像血液检测一样。"
+    },
+    {
+      "i": 252,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "49:08",
+      "en": "Everyone was resistant to blood testing and should genetic testing. I'm old enough to remember the 80s when it was like, will you get your genome mapped?",
+      "zh": "当年人们对血液检测、还有基因检测都有抵触。我年纪够大，还记得八十年代时大家都在争论：你会不会去把自己的基因组测序？"
+    },
+    {
+      "i": 253,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "49:15",
+      "en": "It was like, what if you have the Huntington's gene? What if you're going to get what do you want to know? They had like episodes of 60 minutes about this.",
+      "zh": "当时的问题是：如果你有亨廷顿氏病（Huntington's）基因呢？如果你迟早会得病，你想知道吗？《60 分钟》节目都为此做过好几期。"
+    },
+    {
+      "i": 254,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "49:21",
+      "en": "Now it's very simple. You want to know, you go take the test, you don't want to know, you don't take the test. No one's talking about whether or not getting your genetics done is worthwhile or not or scary or not.",
+      "zh": "现在很简单了：想知道，就去测；不想知道，就不测。没人再争论做基因检测到底值不值、吓不吓人。"
+    },
+    {
+      "i": 255,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "49:30",
+      "en": "It's up to you. Same thing with your blood. Your finance team isn't losing money on big mistakes. It's leaking through a thousand tiny decisions nobody's watching.",
+      "zh": "这由你自己决定。血液检测也一样。你的财务团队并不是因为大错而亏钱，而是在无人察觉的、成千上万个微小决定里一点点漏掉。"
+    },
+    {
+      "i": 256,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "49:40",
+      "en": "Ramp puts guardrails on spending before it happens. Real time limits, automatic rules, zero firefighting. Try it at ramp.com slash invest. As your business grows, Vantage scales with you, automating compliance and giving you a single source of truth for security and risk.",
+      "zh": "Ramp 在花出去之前就为支出设好护栏：实时限额、自动规则、零救火。到 ramp.com/invest 试试。当你的业务成长，Vanta 随之扩展，把合规自动化，为你提供一个安全与风险的单一事实来源。"
+    },
+    {
+      "i": 257,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "49:57",
+      "en": "Learn more at Vantage.com slash invest. Ridgeline offers one unified platform that automates away the complexity across portfolio accounting, reconciliation, reporting, trading, compliance and more all at scale.",
+      "zh": "更多详情见 vanta.com/invest。Ridgeline 提供一个统一平台，把投资组合会计、对账、报告、交易、合规等等的复杂性在规模化运作中自动化消解掉。"
+    },
+    {
+      "i": 258,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "50:09",
+      "en": "Schedule a demo at Ridgeline.ai. Every investment firm is unique and generic AI chatbots don't understand your process. Rogo is built by finance professionals.",
+      "zh": "到 Ridgeline.ai 预约演示。每家投资公司都独一无二，而通用 AI 聊天机器人并不理解你的流程。Rogo 由金融专业人士打造。"
+    },
+    {
+      "i": 259,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "50:20",
+      "en": "It's connected to your data, learns your process and quickly produces client-ready outputs. Check them out at rogo.com slash invest. The best AI and software companies from open AI to cursor to perplexity use WorkOS to become enterprise ready overnight, not in months.",
+      "zh": "它连到你的数据，学习你的流程，快速产出可直接交付客户的成果。到 rogo.com/invest 了解他们。从 OpenAI 到 Cursor 到 Perplexity，最好的 AI 和软件公司都用 WorkOS，一夜之间——而不是花上几个月——达到企业级就绪。"
+    },
+    {
+      "i": 260,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "50:36",
+      "en": "Visit WorkOS.com to skip the unglamorous infrastructure work and focus on your product. It's so interesting to me that through all this, so many of the things that you've written about or I've seen you talk about are indirect ways to affect these same end states and it sounds like what you think the arc is, is just away from the blunt tools and towards direct, highly precise tools through technology over time.",
+      "zh": "访问 WorkOS.com，跳过那些不光鲜的基础设施工作，专注于你的产品。让我特别有意思的是，在这一切之中，你写过或我见你谈过的很多东西，其实都是间接地影响这些同样的终态。而听起来，你认为的走向，就是随着时间推移，从钝器转向直接的、高度精密的技术工具。"
+    },
+    {
+      "i": 261,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "51:00",
+      "en": "More and more specificity. That's what you want as an experimental neurobiologist. The early days of neurobiology were like lesion this or find a patient who had a spike through his head and oh, that's what the orbital frontal cortex does.",
+      "zh": "越来越多的特异性。作为实验神经生物学家，这正是你想要的。神经生物学的早期，就像这样：制造某个损伤，或者找一个头部被钢钉钉穿的病人，然后哦，原来眶额皮层（orbital frontal cortex）是干这个的。"
+    },
+    {
+      "i": 262,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "51:10",
+      "en": "It's involved in morality. No, it's involved in contextual decision-making strategy. That's Phineas Gage. Certainly not the whole story, but it goes through HM.",
+      "zh": "它参与道德？不，它参与的是情境化决策和策略。那就是 Phineas Gage 的故事。当然，这远非故事的全貌，但它一路讲到 H.M.——"
+    },
+    {
+      "i": 263,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "51:18",
+      "en": "He's got lesions in his hippocampus. Can't remember new things. We now are at the level of tickling specific neurons that are involved in a particular memory or expression of a particular behavior using chemical genetic tags, using light, using sound.",
+      "zh": "H.M. 的海马体有损伤，无法记住新事物。而我们现在已经能做到去「挠」特定的神经元——那些参与某个记忆、或某个行为表达的神经元——用化学遗传标记、用光、用声音。"
+    },
+    {
+      "i": 264,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "51:33",
+      "en": "I mean, we only have so many different ways to manipulate neurons. But in the health realm, I love that you're bringing this up because it really bridges the two areas that we've been talking about, public health discourse and neuroscience, reading, writing to the nervous system.",
+      "zh": "我是说，我们操纵神经元的方式就那么多。但在健康这个领域，我很高兴你提起这个，因为它真正把我们一直在谈的两块——公共健康讨论，以及神经科学里对神经系统的读取和写入——连接了起来。"
+    },
+    {
+      "i": 265,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "51:47",
+      "en": "And it bridges the two because what are we talking about? Get morning sunlight. Why? To set your circadian rhythm, spike your cortisol. It seems like a blunt tool, but there's a circuit in place from your eye to your hypothalamus and on and on that is there for that purpose.",
+      "zh": "它把两者连起来，因为我们到底在谈什么？晒清晨的阳光。为什么？为了设定你的昼夜节律（circadian rhythm）、让皮质醇（cortisol）上来一下。它看起来是个钝器，但从你的眼睛到下丘脑，再往下、再往下，本来就有一条回路是为这个目的存在的。"
+    },
+    {
+      "i": 266,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "52:01",
+      "en": "So it's not biohacking, right? This is important. It's not like using a paperclip to fix my glasses. That's not what the paperclip was designed for.",
+      "zh": "所以它不是生物黑客，对吧？这一点很重要。它不像用回形针去修我的眼镜——回形针本来就不是为这个设计的。"
+    },
+    {
+      "i": 267,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "52:08",
+      "en": "It's not a good solution. It's a temporary solution. The problem with a lot of pharmacology, like SSRIs, believe it or not, helped so many people with true clinical grade OCD, they were overprescribed for depression.",
+      "zh": "那不是个好方案，只是个临时方案。很多药理学的问题在于，比如 SSRIs（选择性血清素再摄取抑制剂），信不信由你，它们帮了非常多真正临床级强迫症（OCD）的人，而它们被过度开给了抑郁症。"
+    },
+    {
+      "i": 268,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "52:20",
+      "en": "And really what they do is increase serotonin, which allows for more neuroplasticity. Now everyone's down on SSRIs, understandably so, although they have their place, but everyone's really excited about psilocybin.",
+      "zh": "而它们真正做的是增加血清素，从而带来更多神经可塑性。现在大家都在贬低 SSRIs，这可以理解，尽管它们有其一席之地；而大家对裸盖菇素（psilocybin）则非常兴奋。"
+    },
+    {
+      "i": 269,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "52:30",
+      "en": "What is psilocybin? It increases serotonin and massively so it unmasks lateral connections in the brain, allows you to form new associations in a very condensed timeframe.",
+      "zh": "什么是裸盖菇素？它大幅增加血清素，从而揭开（unmask）大脑里的横向连接，让你在一个非常压缩的时间窗里形成新的联结。"
+    },
+    {
+      "i": 270,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "52:40",
+      "en": "Sometimes it works great, sometimes not, but it's interesting. Same thing with MDMA. Create really massive increases in neuromodulators in a specific context that we're going to work on this thing, this pain, this issue, this trauma, this depression, and you get more plasticity than you do if you're just lazing away at the problem through talking about it day in, day out.",
+      "zh": "有时候它效果极好，有时候不然，但这很有意思。MDMA 也一样——在一个特定情境里造成神经调质的大幅激增：我们要来处理这件事、这种痛苦、这个问题、这段创伤、这种抑郁，于是你获得的可塑性，远超过你日复一日只是慢吞吞地谈论这个问题所得到的。"
+    },
+    {
+      "i": 271,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "52:59",
+      "en": "You need the therapy, but what did you really do to create plasticity? You put serotonin through the roof with psilocybin, or in the case of MDMA, you increase serotonin and dopamine and you have this heightened opportunity for plasticity, okay, TMS.",
+      "zh": "你需要治疗，但你到底做了什么来创造可塑性？你用裸盖菇素把血清素冲到天花板；或者在 MDMA 的情形，你增加血清素和多巴胺，于是获得了这个被放大的可塑性机会。好，还有 TMS。"
+    },
+    {
+      "i": 272,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "53:16",
+      "en": "Or what I think will soon happen is combine transcradial magnetic stimulation and pharmacology in order to work through a clinical issue. That is of emotions or mind, like depression, like PTSD.",
+      "zh": "或者我认为很快会发生的是：把经颅磁刺激（TMS）和药理学结合起来，以处理一个临床问题——情绪或心智上的问题，比如抑郁症、比如 PTSD（创伤后应激障碍）。"
+    },
+    {
+      "i": 273,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "53:28",
+      "en": "So these two things are going to start to intersect. ADHD with stimulants, yep, ramps up activity in the prefrontal cortex, and you can focus better on things that you normally wouldn't be able to focus on.",
+      "zh": "所以这两样东西会开始交叉。ADHD（注意缺陷多动障碍）用兴奋剂——没错，它会拉高前额叶皮层的活动，于是你能更好地专注在那些平时你根本无法专注的事情上。"
+    },
+    {
+      "i": 274,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "53:39",
+      "en": "It's just a non-specific focus enhancer because it increases activity there. You could also do sleep creatine, in particular when sleep deprived.",
+      "zh": "它只是一种非特异性的专注增强剂，因为它提升了那里的活动。你还可以借助睡眠和肌酸（creatine），尤其是在睡眠不足的时候。"
+    },
+    {
+      "i": 275,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "53:47",
+      "en": "Is it like Adderall? No. But those two things, great night's sleep, plus some caffeine, you're pretty close to Adderall level effects. It's just that the people taking Adderall aren't getting great sleep.",
+      "zh": "它像 Adderall 吗？不像。但这两样——一场好觉，加上一些咖啡因——你差不多就能接近 Adderall 水平的效果。只是吃 Adderall 的人往往没有睡好。"
+    },
+    {
+      "i": 276,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "53:58",
+      "en": "And so we were really talking about tools of different types, different margins of safety, but they are all very blunt because all these receptors are expressed everywhere.",
+      "zh": "所以我们其实是在谈各种类型、不同安全边际的工具，但它们全都非常钝，因为所有这些受体（receptors）都表达在每个地方。"
+    },
+    {
+      "i": 277,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "54:08",
+      "en": "So you get sexual side effects, weight gain or excessive weight loss with certain antidepressants or hypersexuality with certain drugs, et cetera, because these receptors are all over the brain.",
+      "zh": "所以你会看到：某些抗抑郁药带来性功能方面的副作用、体重增加或过度减重，某些药物带来性欲亢进，等等——因为这些受体遍布整个大脑。"
+    },
+    {
+      "i": 278,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "54:19",
+      "en": "The same thing with electrical stimulation, you just want more spatial and temporal specificity. It has to go that way. Neuroscience went that way in terms of reading and understanding the nervous system.",
+      "zh": "电刺激也是一样，你就是想要更高的空间和时间特异性，它必须朝那个方向走。神经科学在读取和理解神经系统方面就走过那个方向。"
+    },
+    {
+      "i": 279,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "54:28",
+      "en": "You can talk about Dario's work, for instance, no one talks about his work in this realm, but he was recording in Mike Berry's lab from retinas, usually Salamander retina or some other creature, and they record as many neurons as you could.",
+      "zh": "你可以拿 Dario 的工作来说，比如——没人谈他在这方面的研究——但他在 Mike Berry 的实验室里从视网膜做记录，通常是蝾螈（salamander）视网膜或别的什么生物，尽可能多地记录神经元。"
+    },
+    {
+      "i": 280,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "54:39",
+      "en": "And then you knew what visual signals you were giving the retina, so you knew the input, you knew the responses at the level of photoreceptors, the output cells, what we call ganglion cells, the signals going off to the brain.",
+      "zh": "然后你知道你给视网膜的是什么视觉信号，所以你知道输入，你知道光感受器（photoreceptors）层面的反应、知道输出细胞——也就是我们所说的神经节细胞（ganglion cells）——知道传向大脑的信号。"
+    },
+    {
+      "i": 281,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "54:48",
+      "en": "And the goal was get as much information about the total collection of neurons responding to an image so we can move from image to perception deep in the brain.",
+      "zh": "目标是尽可能多地获取关于「响应一幅图像的所有神经元」这一总集合的信息，好让我们从图像一路走到大脑深处的知觉。"
+    },
+    {
+      "i": 282,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "54:57",
+      "en": "Now you're still a few steps away from the actual perception, which takes place in the brain. But those and the guys that they were trained under, Marcus Meister and others, those were heroes of our field because dropping electrodes in an area and buzzing and like the animal goes into a rage or it starts mating or whatever, that's super cool.",
+      "zh": "当然，离实际在大脑中发生的知觉你还差几步。但这些人，以及带他们的导师——Marcus Meister 等人——都是我们领域的英雄。因为往某个区域插入电极、通上电，动物就暴怒、或者开始交配，诸如此类——那太酷了。"
+    },
+    {
+      "i": 283,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "55:15",
+      "en": "But then you have to move to like, what's the nature of the switch in real life? And people are studying those things. What moves an animal from exploring mating to actual mating?",
+      "zh": "但你得进一步问：现实里那个开关的本质是什么？人们在研究这些。是什么让动物从「试探性地求偶」进入「真正交配」？"
+    },
+    {
+      "i": 284,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "55:25",
+      "en": "What moves an animal from exploring an aggressive interaction to an actual aggressive interaction? But these are all still very low level behaviors and motivations.",
+      "zh": "是什么让动物从「试探性的攻击性互动」变成「真正的攻击性互动」？但这些还都是很低层的行为和动机。"
+    },
+    {
+      "i": 285,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "55:34",
+      "en": "And we're just starting to understand those. So the cyborg thing, like, can I increase your creativity? We're not even close to that. We don't even know what circuit.",
+      "zh": "我们才刚刚开始理解这些。所以「赛博格」那一套——比如，我能不能提高你的创造力？我们连边都还没摸到，我们甚至不知道是哪条回路。"
+    },
+    {
+      "i": 286,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "55:43",
+      "en": "Or IQ or something. Yeah, I mean, you could imagine stimulating more memory capacity, but you might give up something. You want to hear something super creepy?",
+      "zh": "或者智力（IQ）之类的。是的，我是说，你能想象刺激出更多的记忆容量，但你可能要牺牲掉别的什么东西。你想听一件特别瘆人的事吗？"
+    },
+    {
+      "i": 287,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "55:53",
+      "en": "This might freak out your audience, but it's true. So a few years back, there was a guy, his first name is He. That's how you pronounce it. H-E.",
+      "zh": "这可能会让你的听众吓一跳，但这是真的。几年前，有个人，他的名字念作 He——就是这么发的音，H-E。"
+    },
+    {
+      "i": 288,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "56:01",
+      "en": "I can't pronounce his last name. He actually had done his postdoctoral training at Stanford, and then he moved on to his own lab in China. He announced to the world at a meeting that he had done CRISPR in twin babies.",
+      "zh": "他的姓我发不准。他其实曾在 Stanford 做博士后，然后回到中国建立了自己的实验室。他在一个会议上向全世界宣布，他对一对双胞胎婴儿做了 CRISPR（基因编辑）。"
+    },
+    {
+      "i": 289,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "56:12",
+      "en": "He had deleted the HIV receptor. And the story was, and I don't know if it's true or not, but that the father of these children was HIV positive, and he wanted to save these kids from getting HIV AIDS.",
+      "zh": "他删除了 HIV 的受体。事情据说是——我不知道真假——孩子的父亲是 HIV 阳性，而他想让这些孩子免于感染 HIV、免于艾滋（AIDS）。"
+    },
+    {
+      "i": 290,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "56:24",
+      "en": "There was this moment in the medical science community where no one knew how people would react. Were they going to give them a Nobel Prize or throw them in jail?",
+      "zh": "在医学科学界有那么一个时刻，没人知道人们会作何反应。他们是要给他发诺贝尔奖，还是把他关进监狱？"
+    },
+    {
+      "i": 291,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "56:32",
+      "en": "He went to the end experiment. We know how to do this now. The technologies exist, but he just did it. And there was this really weird sociology around this in the science community where people who had worked with him prior, who had exchanged emails with him, their emails now were, like, people were digging into the emails, and it was clear that the communications from a lot of these people were sort of the, hey, be careful, but like, is it working?",
+      "zh": "他一路做到了底、做成了实验。我们现在知道怎么做了，技术已经存在，但他就这么直接做了。科学界围绕这件事出现了一种很奇怪的社会生态——那些以前跟他共事过、跟他通过邮件的人，现在人们开始翻检他们的邮件，而很清楚的是，很多人的通信无非是：嘿，小心点，但——它真的能成吗？"
+    },
+    {
+      "i": 292,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "56:55",
+      "en": "Is it working? But everyone was waiting. Like, if he gets in trouble, I didn't know the guy, right? And I didn't know the guy for the record.",
+      "zh": "它真的能成吗？但所有人都在观望：要是他惹上麻烦，我可不认识这家伙，对吧？说句实话，我本来就不认识他。"
+    },
+    {
+      "i": 293,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "57:01",
+      "en": "I didn't know the guy. I knew of him because, you know, I knew the lab he worked in, but it's like, am I going to be a part of this? Like, was I important for this important discovery or should I dissociate myself from this?",
+      "zh": "我不认识他本人，只是听说过他，因为我知道他待过的那个实验室。但那种感觉是：我要不要成为这件事的一部分？在这个重大发现里我算不算重要？还是我应该跟它撇清关系？"
+    },
+    {
+      "i": 294,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "57:11",
+      "en": "And it turns out the world decided, like, no, ethically, this is bad. The Chinese government came out and said that his lab would be taken away and he'll be punished in some way.",
+      "zh": "结果这个世界做出的裁定是：不，从伦理上这是错的。中国政府出面说，要撤掉他的实验室，他会被以某种方式惩处。"
+    },
+    {
+      "i": 295,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "57:19",
+      "en": "I don't know how he was going to be punished. You know what? Disappeared. Yeah. Do you know what that guy's doing right now? He has a laboratory purportedly in Austin, Texas.",
+      "zh": "我不知道他会被怎么惩处。你猜怎么着——他消失了。是啊。你知道这家伙现在在干什么吗？据说他在德州奥斯汀有个实验室。"
+    },
+    {
+      "i": 296,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "57:27",
+      "en": "Okay. Now, I don't know if that's true or not. So my first reaction is like, how did that happen? My second reaction is, wait, of course, he wasn't the only person doing this.",
+      "zh": "好。我不知道这到底是不是真的。所以我第一反应是：那怎么会发生？第二反应是：等等，当然了，他不是唯一一个在做这种事的人。"
+    },
+    {
+      "i": 297,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "57:38",
+      "en": "Like, you know, this is happening in labs all over the world is just no one's talking about it because he proved that it's dangerous to talk about.",
+      "zh": "我的意思是，这种事正在全世界的实验室里发生，只是没人说——因为他证明了「说出来」是危险的。"
+    },
+    {
+      "i": 298,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "57:45",
+      "en": "Now, I think it's very important to have the ethics and the committee set up for this kind of technology. But then you take a step back and say, like, where are we in the world of genetic engineering humans?",
+      "zh": "我认为，为这类技术设立伦理和委员会非常重要。但退一步看，你会问：在「对人类做基因工程」这件事上，我们到底走到哪了？"
+    },
+    {
+      "i": 299,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "57:55",
+      "en": "And you say, okay, well, they do testing of amniotic fluid in pregnant women babies. Commonplace people can refuse it, I believe, but in general, that's done.",
+      "zh": "然后你说：好吧，孕妇会做羊水检测，检查胎儿。这很常见，人们可以拒绝，我相信，但一般而言，这都在做。"
+    },
+    {
+      "i": 300,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "58:03",
+      "en": "People are screening embryos for IVF, they're companies like Herosite and Orchid. Some are more focused on trying to see if there are any diseases.",
+      "zh": "人们在为 IVF（试管婴儿）筛选胚胎，有像 Herosite 和 Orchid 这样的公司。有些更专注于看看有没有任何疾病。"
+    },
+    {
+      "i": 301,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "58:12",
+      "en": "Some are trying to link certain genetic patterns of expression to autism, but also to IQ, to height, et cetera. So you can see where this is going.",
+      "zh": "有些则试图把某些基因表达模式与自闭症联系起来，也与智力（IQ）、身高等等联系起来。所以你能看出这会走向哪里。"
+    },
+    {
+      "i": 302,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "58:21",
+      "en": "And then of course, there's this thing that we call partner selection. People choose, in most cases, not always, but they choose who to get sperm from or eggs from in the context of relationship, right?",
+      "zh": "然后当然，还有我们所说的「伴侣选择」。大多数情况下——虽非总是——人们会挑选，在一段关系里，用谁的精子、谁的卵子，对吧？"
+    },
+    {
+      "i": 303,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "58:31",
+      "en": "Or if people are using a sperm donor, they're choosing on the basis of like you look at the criteria and the criteria like height, where they go to school, what do they look like?",
+      "zh": "或者如果人们用的是精子捐赠者，他们是照着标准选的——你看那些标准：身高、上哪所学校、长什么样。"
+    },
+    {
+      "i": 304,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "58:40",
+      "en": "So the lines between these haven't been cleanly defined, but you can see there's a gradation there. Now, I don't know if he's actually in Austin, Texas, or if he's actually doing these experiments.",
+      "zh": "所以这些之间的界限并没有被清晰地划出来，但你能看到那里有一条渐变。话说回来，我不知道他是不是真在德州奥斯汀，也不知道他是不是真在做这些实验。"
+    },
+    {
+      "i": 305,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "58:51",
+      "en": "I don't know that. I want to be very clear, but I find it fascinating and important to understand that people are going to run with these technologies.",
+      "zh": "我不知道。我想说清楚这一点。但我觉得，认识到人们会拿着这些技术一路狂奔，这既迷人又重要。"
+    },
+    {
+      "i": 306,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "58:59",
+      "en": "How fast they run, where they get implemented isn't clear. What about memory? The HIV receptor supposedly is also linked to some aspects of neural circuit formation that are linked to memory.",
+      "zh": "他们跑得多快、会在哪里落地，并不清楚。那记忆呢？据说 HIV 那个受体也与神经回路形成的某些方面相关，而这些又与记忆相关。"
+    },
+    {
+      "i": 307,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "59:12",
+      "en": "So there was this other layer of those experiments that everyone knew in the neuroscience community but wasn't talking about, which was, was he actually trying to both render those kids immune from HIV infection, but also make them super smart?",
+      "zh": "所以那些实验还有一层，神经科学界人人都知道却没人说：他是不是既想让这些孩子对 HIV 感染免疫，又想让他们变得超级聪明？"
+    },
+    {
+      "i": 308,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "59:26",
+      "en": "And no one's been able to answer that question conclusively, but there is this idea that maybe people are genetically engineering people that have some gene expression or lack of gene expression, which renders them more cognitively or physically capable.",
+      "zh": "没人能对这个问题给出定论，但有这样一种想法：也许人们正在通过基因工程制造某些带有或缺乏某种基因表达的人，从而让他们在认知上或体能上更强。"
+    },
+    {
+      "i": 309,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "59:40",
+      "en": "And you go, oh, that sounds crazy. Yeah. And the full of statin gene has been mutated in animals and there are people doing gene therapy for full of statin to try and build more muscle.",
+      "zh": "你会说，哦，那听起来很疯狂。是啊。肌肉生长抑制素（myostatin）基因已经在动物身上被突变过，也有人正在做针对 myostatin 的基因治疗，试图长出更多肌肉。"
+    },
+    {
+      "i": 310,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "59:49",
+      "en": "So if this was 15 years ago and you and I were having this conversation, you'd be like, guys, that was mine. Guys, that was mine. Everything I just described has happened.",
+      "zh": "所以如果这是十五年前你我这样一场对话，你会说：老兄，那是科幻；老兄，太扯了。可我刚描述的每一件事都已经发生了。"
+    },
+    {
+      "i": 311,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "59:59",
+      "en": "Why it happened exactly what they were trying to do unclear, whether or not it's still ongoing, whether or not this guy's actually in Austin, Texas, doing these experiments where he's someplace else or he's sitting in a prison someplace in China.",
+      "zh": "至于到底为什么发生、他们究竟想做什么，还不清楚；它是否仍在进行也不清楚；这人到底是不是在奥斯汀做这些实验、还是在别处、还是正坐在中国某地的监狱里，都不清楚。"
+    },
+    {
+      "i": 312,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "60:10",
+      "en": "I don't know. Okay. I think it'll be interesting. The internet will tell us. Yeah. I guess I'm more excited than concerned, provided people are talking about it and people are thinking about it really carefully.",
+      "zh": "我不知道。好吧，我觉得这会很有意思，互联网会告诉我们答案。是啊，我想我是兴奋多于担忧——只要人们在谈论它、在认真思考它。"
+    },
+    {
+      "i": 313,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "60:20",
+      "en": "One of the beautiful things about social media is nothing stays a secret for very long. If at all, nothing stays a secret. There are no secrets anymore.",
+      "zh": "社交媒体美好的一点在于，没有什么秘密能藏太久——或者说压根什么秘密都藏不住，这世上再也没有秘密了。"
+    },
+    {
+      "i": 314,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "60:28",
+      "en": "You can have a vaulted conversation with somebody. That absolutely is true. But as soon as more than two people know about something, you can't exist in this world without leaving a digital footprint.",
+      "zh": "你可以跟某人有私密谈话，那当然属实。但只要一件事被超过两个人知道，你只要活在这个世界上，就难免留下数字足迹。"
+    },
+    {
+      "i": 315,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "60:39",
+      "en": "So sooner or later, we'll hear. It seems like the arc of all this is just control. Like control of genetics, control of brain states, control of all these things through technology over time.",
+      "zh": "所以迟早我们会听到风声。这一切的走向，似乎就是「控制」——随着时间推移，通过技术去控制基因、控制大脑状态、控制所有这些。"
+    },
+    {
+      "i": 316,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "60:52",
+      "en": "And this is very much like a William Gibson future is here just not evenly distributed yet. All the future is here type things. What excites you most of all this stuff?",
+      "zh": "这非常像 William Gibson 那句「未来已来，只是分布还不均匀」。诸如此类「未来都已在这里」的话。这一切里，最让你兴奋的是什么？"
+    },
+    {
+      "i": 317,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "61:02",
+      "en": "If you had to pinpoint, like if I forced you to go start a company or something and just focus on one thing. I spent a lot of time thinking about media and culture and just humans generally.",
+      "zh": "如果要一锤定音的话，比如我逼你去创办一家公司、只专注做一件事。我花了大量时间思考媒体、文化，以及笼统地说——人。"
+    },
+    {
+      "i": 318,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "61:11",
+      "en": "So to me, the most exciting thing is that because of social media, we're all in the same campus. X is that campus, Instagram to some degree, but those are the campuses for the communication about these things.",
+      "zh": "所以对我来说，最令人兴奋的是：因为有了社交媒体，我们都在同一个校园里。X 就是那个校园，Instagram 在某种程度上也是——它们是围绕这些事情交流的校园。"
+    },
+    {
+      "i": 319,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "61:26",
+      "en": "What I'm excited about is the idea that we've got so many more people learning about things in their field and adjacent to their field that there are a bunch of things that we can't predict that are going to happen.",
+      "zh": "让我兴奋的是这个念头：现在有远为更多的人在学自己领域内、以及领域相邻的东西，于是会有很多我们预测不到的事情发生。"
+    },
+    {
+      "i": 320,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "61:38",
+      "en": "Like someone in the human gene therapy space who's an amazing educator has the charisma and the ability to talk about these things, but also has the chops really understands it is going to move that space forward at tremendous velocity at some point.",
+      "zh": "比如，在人类基因治疗领域，有一位出色的教育者，他有人格魅力、有能力谈论这些东西，同时又有真功夫、真正理解它——到了某个时刻，他会以极高的速度推动这个领域向前。"
+    },
+    {
+      "i": 321,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "61:53",
+      "en": "The issue is that it was a scientist just like doing his thing and he just kind of went a rogue and did it. He didn't check with anybody. When I was coming up, you did experiments at night and the goal was like, don't kill yourself.",
+      "zh": "问题在于，那只是一个科学家在做自己的事，然后他有点走偏、径自把它做了。他没跟任何人商量。在我成长的年代，你会在晚上做实验，目标是：别把自己弄死。"
+    },
+    {
+      "i": 322,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "62:04",
+      "en": "Don't burn down the lab. Don't break protocol, but like do experiments. Now it's changed a little bit. Everyone's a little bit more paranoid.",
+      "zh": "别把实验室烧了，别违规，但要做实验。如今情况有点变了，每个人都更多疑了一些。"
+    },
+    {
+      "i": 323,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "62:10",
+      "en": "I'm excited that somebody and they're starting. I think that people are thinking about neuro technologies to read and write from the nervous system in awake states.",
+      "zh": "我兴奋的是，已经有人——而且他们在起步。我觉得人们正在思考用于在清醒状态下读取和写入神经系统的神经技术。"
+    },
+    {
+      "i": 324,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "62:20",
+      "en": "My own interest right now is really understanding the waking states. We understand slow wave sleep, deep sleep and one and two and three sleep wrote a whole chapter in the book about sleep, its architecture, how temperature changes one or the other heat up the bed in the morning or the room in the morning, you get more REM.",
+      "zh": "我自己现在的兴趣，是真正去理解清醒状态。我们理解慢波睡眠、深睡眠，以及一二三期睡眠——我在书里为睡眠写了整整一章，讲它的架构、讲温度如何变化、如何在早上把床或房间升温，从而让你获得更多 REM。"
+    },
+    {
+      "i": 325,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "62:34",
+      "en": "We know all that stuff. We know so much about sleep and how to measure and now nudge and maybe even dial in sleep really precisely with these I'm asked type tools, changing the room temp is pretty crude compared to that, but it's also helpful.",
+      "zh": "我们懂这些。关于睡眠我们了解得非常多——如何测量、如今如何微调，甚至用这些 Eight Sleep 之类的工具把睡眠精确地「调准」；相比之下，改房间温度相当粗糙，但也很有用。"
+    },
+    {
+      "i": 326,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "62:47",
+      "en": "I want to understand waking brain states. I don't know how to describe the state that we're in REM is not language about how you feel in REM.",
+      "zh": "我想理解清醒状态下的大脑状态。我不知道该如何描述我们此刻所处的状态——REM 并不是用来描述「你在 REM 里有什么感觉」的语言。"
+    },
+    {
+      "i": 327,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "62:56",
+      "en": "It's rapid eye movements. There's something associated with the state that we're in right now. Like I'm alert. I'm focused. I'm enjoying our discussion.",
+      "zh": "它只是快速眼动而已。而与我们此刻所处的状态相关的，是某种东西——比如我很清醒、很专注、我很享受我们的讨论。"
+    },
+    {
+      "i": 328,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "63:02",
+      "en": "What is this state? We need much better understanding of waking states and which waking states lend themselves better to which activities. Then we can start writing to the nervous system to generate those states with a lot of temporal and spatial precision.",
+      "zh": "这到底是什么状态？我们需要对清醒状态、以及哪些清醒状态更适合哪些活动，有更深的理解。那样我们就能开始写入神经系统，以极高的时间和空间精度去制造那些状态。"
+    },
+    {
+      "i": 329,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "63:17",
+      "en": "That to me seems like the most important thing to resolve right now and it's totally doable. I'm not the person to do it because I'm no longer running a lab.",
+      "zh": "在我看来，这是当下最该解决的事，而且完全做得到。我不是做这件事的人，因为我不再带实验室了。"
+    },
+    {
+      "i": 330,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "63:24",
+      "en": "The problem with neuroscience as a field is a little bit of problem with academia, but even the biotech sector related to neuroscience is that people tend to work on things that are like four degrees off from what their training was.",
+      "zh": "神经科学这个领域的问题，某种程度上也是学术界的问题——乃至与神经科学相关的生物科技板块的问题是：人们倾向于做跟自己受训方向相差四度左右的事。"
+    },
+    {
+      "i": 331,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "63:37",
+      "en": "Actually, even though I've never met him, I think Dario, even though I disagree with a lot of things I hear from him about AI, I think that it's interesting.",
+      "zh": "其实，尽管我从未见过 Dario，尽管我不同意我从他那里听到的关于 AI 的很多东西，我觉得他很有意思。"
+    },
+    {
+      "i": 332,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "63:44",
+      "en": "Something came up through neurosciences in this quite different but related field. Sam I've spoken to is extremely smart about the neuroscience, extremely smart as is Zuck, as is Andreessen and Elon obviously understands what he's trying to achieve with Neuralink and he's extremely savvy with respect to like what can be done now, where we need to go.",
+      "zh": "有些东西是从神经科学延伸进这个相当不同却相关的领域。我跟 Sam 聊过，他对神经科学极其敏锐、极其聪明——Zuck 也是，Andreessen 也是；而 Elon 显然明白他想用 Neuralink 达成什么，他在「现在能做到什么、我们需要往哪走」上极其精明。"
+    },
+    {
+      "i": 333,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "64:05",
+      "en": "In a lot of ways, the technologists who used to just engineer stuff, they're becoming neuroscientists and I love that because neuroscience has always benefited from bringing people in from other fields.",
+      "zh": "在很多方面，那些过去只做工程的技术人员，正在变成神经科学家，我很乐见其成——因为神经科学历来受益于从别的领域引进人才。"
+    },
+    {
+      "i": 334,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "64:17",
+      "en": "You can't give them the whole problem entirely because as soon as they sink their hands into a brain, they realize this is not a computer. It's something a whole lot more complicated, but bioengineers are getting very, very good.",
+      "zh": "你不能把整个问题全交给他们，因为一旦他们把手伸进一个大脑，就明白这不是电脑——它要复杂得多。但生物工程师正变得非常出色。"
+    },
+    {
+      "i": 335,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "64:30",
+      "en": "People like Eddie Chang, obviously Neuralink's doing this, Matt McDougal and the folks there and Sam Zuck and Dario, that's a pretty killer lineup and Elon, those four, those are the big four.",
+      "zh": "像 Eddie Chang 这样的人——Neuralink 显然也在做——Matt McDougal 和那里的一帮人，还有 Sam Altman、Zuck、Dario——那是一份相当强悍的阵容；还有 Elon。这四个人，是那「四大」。"
+    },
+    {
+      "i": 336,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "64:41",
+      "en": "Those are the athletes of brain exploration now. I think most people don't realize that and I'm not sitting here like where the kids say, I'm not trying to like glaze, I think it's just awesome.",
+      "zh": "他们就是当下探索大脑的运动员。我想大多数人还没意识到这点。我不是在这儿——用年轻人的话说——想拍谁的马屁（glaze），我只是觉得这太了不起了。"
+    },
+    {
+      "i": 337,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "64:50",
+      "en": "You want people coming in who have outside expertise and can leverage the best minds like the best neuroscientists and engineers. So I'm all excitement about it, frankly, but I think we need better definition of waking brain states.",
+      "zh": "你需要那些带着外部专长进来、能撬动最顶尖头脑——最顶尖的神经科学家和工程师——的人。所以坦白讲，我对此兴奋不已，但我觉得我们需要把清醒状态下的大脑状态定义得更清楚。"
+    },
+    {
+      "i": 338,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "65:01",
+      "en": "I think that's the biggie and the reason I mentioned those different silos that I've touched into is that anytime you see a field, whether or not it's action sports or it's science or it's medicine, take a big leap forward.",
+      "zh": "我认为那才是最大的问题。我之所以提到我触及的那些不同领域，是因为无论你看到的是极限运动、科学还是医学，每当一个领域要迈出一大步时——"
+    },
+    {
+      "i": 339,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "65:11",
+      "en": "There's always this thing that we talked about earlier where people get into it, some people go public facing, they kind of push the margins a little bit, then it gets too crowded.",
+      "zh": "总会出现我们之前谈过的那种情形：人们涌进来，有些人站到台前，把边界往外推一点点，然后那里变得太拥挤。"
+    },
+    {
+      "i": 340,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "65:19",
+      "en": "People start getting wacky to get more signal to noise on them. And then the thing kind of dies down. And then there's this surge of really accessible, useful technologies and information.",
+      "zh": "人们开始变得古怪，好让自己更出挑、提高信噪比。然后这股热潮多少会退下去。接着一波真正易用、有用的技术和信息就会涌来。"
+    },
+    {
+      "i": 341,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "65:29",
+      "en": "So I think 2027, 28 are going to be a low level noise in my estimation around the health space. I mean, that's what the book protocols was about.",
+      "zh": "所以在我看来，2027、28 年，围绕健康领域会是一段低噪音期。我是说，我那本《Protocols》讲的就是这些。"
+    },
+    {
+      "i": 342,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "65:38",
+      "en": "That's my thesis. We got it. I'm not going to keep talking about morning light. But God's sake, I'm starting to tire myself out. So the reason I can move on from it is because I know it for certain.",
+      "zh": "那是我的论点。说完了，我不会再老讲晨光了——天哪，我都快把自己讲腻了。我能从它上面往前走的原因，是我对此确信无疑。"
+    },
+    {
+      "i": 343,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "65:46",
+      "en": "What's in the book are the things I know for certain. So now that my thesis is turned in and people can do with it what they will, I think it has things of value, certainly information, but hopefully things of value to people.",
+      "zh": "书里写的都是我所确信的东西。现在我的「论文」已经交上去了，大家爱怎么用它就怎么用它。我觉得它里面有价值的东西——肯定有信息，也希望有真正对人有益的东西。"
+    },
+    {
+      "i": 344,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "65:58",
+      "en": "Now it's time to move into some other realm. And you can probably tell from today's conversation, I didn't realize this was going to come up.",
+      "zh": "现在是时候转向别的领域了。你大概从今天的对话也能看出来——我都没料到这些会被牵扯出来。"
+    },
+    {
+      "i": 345,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "66:03",
+      "en": "I am very, very interested in reading and writing from the awake nervous system. Eddie Chang and I talk three times a week for hours at a time.",
+      "zh": "我对清醒状态下神经系统的读取和写入，非常、非常感兴趣。Eddie Chang 和我一周聊三次，一聊就是好几个小时。"
+    },
+    {
+      "i": 346,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "66:11",
+      "en": "We take walks. Where is neuroscience? What's next? I'm just super excited. It's going to be great. I promise you there's safeguards we need in place, but like the best people are on these problems.",
+      "zh": "我们散步。神经科学走到哪了？下一步是什么？我就是超级兴奋，这会非常棒。我向你保证，我们是需要设好安全措施的——但最优秀的一批人正在攻克这些问题。"
+    },
+    {
+      "i": 347,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "66:23",
+      "en": "The best people. And that's why it pisses me off when the traditional media tries to slow these people down like, okay, everybody, make your public statement about how you're not going to blow up the world.",
+      "zh": "最优秀的一批人。所以每当传统媒体想把这些人拖慢，说「好，每个人都出来做个公开声明，说你不会炸掉世界」，我就来气。"
+    },
+    {
+      "i": 348,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "66:31",
+      "en": "It's like, of course. Like you want them to do that. Also, by the way, it doesn't pacify anybody. Of course we need the ethics. We need the safeguards in place, but I'm nothing but excitement about this.",
+      "zh": "这就好像——当然了，你也希望他们这么做。顺带一提，这其实安抚不了任何人。我们当然需要伦理、需要设好安全措施，但我对此只有兴奋。"
+    },
+    {
+      "i": 349,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "66:40",
+      "en": "And then again, I'm born and raised in Palo Alto. I did not exactly expect our discussion to focus so much on neurotech and waking brain states and things like this, but I honestly hope you and I can do this once a year to check in on the state of this stuff.",
+      "zh": "再说了，我在 Palo Alto 出生长大。我没料到我们的讨论会这么聚焦在神经技术、清醒大脑状态这些事上，但我真心希望你我每年能做一次这样的对话，来盘点一下这件事的进展。"
+    },
+    {
+      "i": 350,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "66:52",
+      "en": "It does seem like if you really think ahead from the current stuff in AI to where this is all going, of course, inevitably, the intimacy of technology into us is going to increase.",
+      "zh": "如果你真从现在 AI 的东西往前推演、想到这一切要走向何方，那确实——技术嵌入我们身内的亲密度，必然会不断提高。"
+    },
+    {
+      "i": 351,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "67:03",
+      "en": "And this is like the final frontier. So incredibly fun to talk to you about. When I do this, and I hope it's the first of many, I ask the same traditional closing question.",
+      "zh": "而这就像是最后的疆域（final frontier）。跟你聊这个太有意思了。我做这期节目——我希望是许多期里的第一期——都会问同一个传统的收尾问题。"
+    },
+    {
+      "i": 352,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "67:11",
+      "en": "What is the kindest thing that someone's done for you? The kindest thing. All right, this is a bit of a weird one, but I've carried the message that I got forward through basically everything.",
+      "zh": "有人为你做过的最善良的事是什么？最善良的事。好，这个问题有点怪，但基本上我一直带着我所得到的那句嘱托走过一切。"
+    },
+    {
+      "i": 353,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "67:22",
+      "en": "Once people hear it, if they thread it back through portions of today's conversation, I think they'll know how I've done that. So when I was in graduate school, I initially joined a different laboratory.",
+      "zh": "等人们听到它、再把它串回今天对话里的某些片段，我想他们就会明白我是怎么做到的。当年读研时，我最初加入的是另一个实验室。"
+    },
+    {
+      "i": 354,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "67:32",
+      "en": "You do rotations and I joined a laboratory doing excellent work that was very popular at the time, that was really on the cutting edge of molecular genetic techniques for looking at neurons.",
+      "zh": "研究生要做轮转（rotations），而我加入了一个实验室，它做着当时非常热门的出色工作，正处在用分子遗传技术观察神经元的最前沿。"
+    },
+    {
+      "i": 355,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "67:44",
+      "en": "And it was all the rage at the time. But I had this absolute love obsession for the work that I had done in my second rotation on stuff and in a field that was pretty crowded.",
+      "zh": "那在当时风靡一时。但我对我在第二次轮转里做的东西、对那个相当拥挤的领域里的工作，有一种近乎痴迷的热爱。"
+    },
+    {
+      "i": 356,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "67:56",
+      "en": "And I found myself having joined this other lab and sneaking into the lab that interested me more at night and doing experiments. And the woman who ran that lab, which is my graduate advisor, Barbara Chapman, she came to me one day and she just said, listen, I'm totally okay with the fact that you didn't join my lab.",
+      "zh": "我发现自己虽然进了那个别的实验室，却会在夜里偷偷溜进那个更让我感兴趣的实验室做实验。而掌管那间实验室、也就是我研究生导师的那位女士 Barbara Chapman，有一天来找我，直接说：听着，你没进我的实验室，我完全没问题。"
+    },
+    {
+      "i": 357,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "68:13",
+      "en": "Her lab was already very successful. Anyway, publishing papers and science, et cetera. And she said, but you just seem to really love this stuff.",
+      "zh": "她的实验室本来就已经很成功，论文、科研等等都很多。她说：可你看起来是真的热爱这个东西。"
+    },
+    {
+      "i": 358,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "68:20",
+      "en": "And the only thing that's really going to determine your success is how badly do you want to know the answers to the questions that you're working on?",
+      "zh": "而真正决定你能否成功的唯一东西，是你有多渴望知道你所研究的那些问题的答案。"
+    },
+    {
+      "i": 359,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "68:28",
+      "en": "I was like, okay, so I broke up with the other lab. I joined her lab. We published eight first author papers. My career went, but that was all the consequence of working on things to try and answer questions that I was most curious about.",
+      "zh": "我当时就：好，于是我离开了那个别的实验室，加入了她的实验室。我们发表了八篇我作为第一作者的论文。我的事业起来了——而这一切，都是去做那些最让我好奇的问题所带来的结果。"
+    },
+    {
+      "i": 360,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "68:43",
+      "en": "That was an incredibly kind thing to do. It also required a lot of humility and boldness on her part because she was basically saying like dump them, come back to me.",
+      "zh": "那是极其善良的一件事。她那边也需要极大的谦逊和勇气，因为她基本上是在说：甩掉他们，回到我这儿来。"
+    },
+    {
+      "i": 361,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "68:52",
+      "en": "And I had to trust that it wasn't because of some sense of rejection in her and it wasn't. She had extremely strong ego. Honestly, I think that's the kindest thing anyone's ever done for me because it showed a belief in me.",
+      "zh": "我得相信那不是出于她某种被拒绝的感觉，而确实不是。她其实有非常强大的自我（ego）。说实话，我觉得这是任何人对我做过的最善良的事，因为它表明了她对我的信任。"
+    },
+    {
+      "i": 362,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "69:04",
+      "en": "It showed that she understood that I didn't have enough self understanding and enough, frankly, enough guts to just say, I don't want to do the thing that everyone else is super excited about.",
+      "zh": "这表明她理解：那时我还没有足够的自我认知，坦白说，也没有足够的胆量去说出——我不想做别人都为之狂热的那件事。"
+    },
+    {
+      "i": 363,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "69:13",
+      "en": "I want to focus on the thing that I'm most excited about, which takes a strong mind and is much easier to do once you've had some significant success in a field.",
+      "zh": "我想专注于让我最兴奋的那件事——这需要一颗强大的心智，而一旦你在某个领域取得过一些重大成功，做起来就容易得多。"
+    },
+    {
+      "i": 364,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "69:22",
+      "en": "It's easy to do when you're like, oh, yeah, everyone said that that was done. That area was done. No one listens to that music, but then we had like two platinum albums.",
+      "zh": "当你处在我已经成功的状态时，这样做很容易——大家都说那个已经过时了、那个领域已经做完了，没人再听那种音乐了，可我们却出了两张白金唱片。"
+    },
+    {
+      "i": 365,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "69:28",
+      "en": "It's easy to just carry on. But when you're making the decision to go into this area that you know, most people like, why would you go there?",
+      "zh": "继续走下去很容易。但当你要做那个决定、走进一个大多数人都说「你为什么要去那儿」的领域时——"
+    },
+    {
+      "i": 366,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "69:35",
+      "en": "Like no one works on that anymore. And it turns out that the wheel of the field rotated to and I found myself exiting my PhD lab with the skills that were best suited to what was most important in the field next.",
+      "zh": "就好像再没人在做那个了。可结果，这个领域的轮盘转了回来，我发现自己离开博士实验室时掌握的技能，恰恰最适合接下来这个领域最重要的方向。"
+    },
+    {
+      "i": 367,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "69:49",
+      "en": "And I had to be very careful because now the landscape matched my internal curiosity. And now I had to make sure, yes, I'm going into this for the right reasons.",
+      "zh": "我得非常小心，因为如今外部环境正好与我的内在好奇吻合了，我得确认：我进入这件事，理由是正当的。"
+    },
+    {
+      "i": 368,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "69:57",
+      "en": "And it was true. And likewise, I was starting a podcast. I loved running a lab. I truly did love teaching at Stanford. I still do, but it was really, I just have this itch.",
+      "zh": "而事实也确实如此。同样地，当我开始做一个播客时——我很热爱带实验室，我真心热爱在 Stanford 教书，至今依然——但真的，我心里就是有那种痒。"
+    },
+    {
+      "i": 369,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "70:06",
+      "en": "I've got this knowledge in me that I know people can benefit from. I did not anticipate what came with being public facing. That was like not anticipated.",
+      "zh": "我肚子里有这些我知道别人能从中受益的知识。我没预料到站到台前会随之而来什么——那是完全没预料到的。"
+    },
+    {
+      "i": 370,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "70:13",
+      "en": "I had no training in that and being media and like, fuck it. I want to do this. And then I just pulled all the stops out and just went for it.",
+      "zh": "我在这方面没有任何训练，面对媒体就是：管他呢，我要做这个。然后我就把所有机关全部拉满，径直冲了上去。"
+    },
+    {
+      "i": 371,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "70:22",
+      "en": "Here we are. Can you see that line one more time? What was her phrasing of it? Success is determined by how precisely you match your genuine curiosity to the work that you do.",
+      "zh": "于是就有了今天的我们。你能再把那句话看一遍吗？她当初是怎么说的？——「你的成功，取决于你在多大程度上把真实的求知欲与你所做的事精准匹配起来。」"
+    },
+    {
+      "i": 372,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "70:32",
+      "en": "You do have to understand the field you're in and pay attention to it because all experiments are so hard. Building any company is hard. Doing any podcast, if it's done right, is hard.",
+      "zh": "你确实得理解你所在的领域、并关注它，因为所有实验都很难，打造任何公司都很难，把任何播客真正做好也都很难。"
+    },
+    {
+      "i": 373,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "70:42",
+      "en": "So you have to make sure that it's really true to you and not to puff him up too much. But I think one of the reasons why Elon is admired by so many people.",
+      "zh": "所以你务必要确保那对你来说是真实的。我也不想把他捧得太高，但我觉得，Elon 之所以被那么多人钦佩，原因之一——"
+    },
+    {
+      "i": 374,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "70:49",
+      "en": "Yeah, some people dislike him, but I think one of the reasons why deep down people either greatly admire him or envy him is not his money. It's his ability to ignore what people say about what he should be doing.",
+      "zh": "是啊，有些人不喜欢他，但我觉得，人们骨子里要么极钦佩他、要么极嫉妒他，原因不是他的钱，而是他能无视别人对他的「应该做什么」指手画脚。"
+    },
+    {
+      "i": 375,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "71:02",
+      "en": "I had a guy come on my podcast who I actually like and respect. And he was telling me all the things that Elon and the top technologists should be doing.",
+      "zh": "我请过一位我确实喜欢也尊重的人上我的播客，他在那儿告诉我 Elon 和顶尖技术人员应该做的这一堆那一堆事。"
+    },
+    {
+      "i": 376,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "71:09",
+      "en": "They should be helping people this way and that way. And I'm like, wait, electric cars and I do think open AI is heading to some very interesting things that relate to medicine and benevolence there and on and on.",
+      "zh": "说他们该这样那样地帮助人。我当时就想：等等——还有电动汽车；而我确实认为 OpenAI 正走向一些与医学、与善意相关的非常有趣的方向，如此等等。"
+    },
+    {
+      "i": 377,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "71:18",
+      "en": "And he's like, yeah, that's what they should be doing. Not this other stuff, not Mars. That's like telling Metallica to play the Grateful Dead.",
+      "zh": "而他说：对，他们就该做这些，别做别的，别去碰火星。这就像叫 Metallica 去弹 Grateful Dead 的歌。"
+    },
+    {
+      "i": 378,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "71:25",
+      "en": "Metallica are Metallica because that's what they love. That's the music they fucking love. And the Grateful Dead are the Grateful Dead because that's the music they love.",
+      "zh": "Metallica 之所以是 Metallica，是因为那是他们热爱的——是他们他妈热爱的音乐；Grateful Dead 之所以是 Grateful Dead，也因为那是他们热爱的音乐。"
+    },
+    {
+      "i": 379,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "71:33",
+      "en": "Like you have to be yourself. The big tragedy is when people don't go in the direction of their genuine curiosity because they're trying to quote, unquote, succeed.",
+      "zh": "你就是得做自己。最大的悲剧，是人们没有朝自己真实的求知欲走去，因为他们想所谓的——带引号的「成功」。"
+    },
+    {
+      "i": 380,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "71:43",
+      "en": "So the kind of thing someone did for me was to gently but very clearly tell me, follow your curiosity, answer the question, solve the problems related to that.",
+      "zh": "所以有人为我做的那件善事，就是温柔而非常清楚地告诉我：追随你的好奇心，回答那个问题，去解决与它相关的问题。"
+    },
+    {
+      "i": 381,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "71:53",
+      "en": "And you can't go wrong. And to not do that is kind of a slow death. A wonderful, awesome place to close. Andrew, thank you so much for your time.",
+      "zh": "你不会走错的；而不这么做，差不多就是一种缓慢的死亡。这是一个绝佳、精彩的收尾。Andrew，非常感谢你抽出时间。"
+    },
+    {
+      "i": 382,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "72:00",
+      "en": "Thanks. If you enjoyed this episode, visit Colossus.com. You'll find every episode of this podcast complete with hand edited transcripts. You can also subscribe to Colossus, our quarterly print, digital and private audio publication featuring in-depth profiles of the founders, investors and companies that we admire most.",
+      "zh": "谢谢。如果你喜欢本期节目，请访问 Colossus.com——你能找到这档播客的每一期，都配有手工编辑的文字稿。你也可以订阅 Colossus，我们按季度出版的纸质、数字与私密音频刊物，专门深度报道我们最敬佩的创业者、投资人和公司。"
+    },
+    {
+      "i": 383,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "72:18",
+      "en": "Learn more at Colossus.com slash subscribe. Patrick O'Shaughnessy is the CEO of Positive Sum. All opinions expressed by Patrick and podcast guests are solely their own opinions and do not reflect the opinion of Positive Sum.",
+      "zh": "更多详见 colossus.com/subscribe。Patrick O'Shaughnessy 是 Positive Sum 的 CEO。Patrick 及节目嘉宾表达的所有观点仅为个人观点，不代表 Positive Sum 的立场。"
+    },
+    {
+      "i": 384,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "72:32",
+      "en": "This podcast is for informational purposes only and should not be relied upon as a basis for investment decisions. Clients of Positive Sum may maintain positions in the securities discussed in this podcast. To learn more, visit psum.vc.",
+      "zh": "本播客仅供参考，不应作为投资决策的依据。Positive Sum 的客户可能持有本期播客所讨论证券的头寸。了解更多请访问 psum.vc。"
+    },
+    {
+      "i": 385,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "72:46",
+      "en": "You know how small advantages compound over time. That's true in investing and just as true in how you run your company. Your spending system is your capital allocation strategy.",
+      "zh": "你知道小小的优势如何随时间复利。这在投资里如此，在如何经营你的公司上同样如此。你的支出体系，就是你的资本配置策略。"
+    },
+    {
+      "i": 386,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "73:14",
+      "en": "Ramp makes it smarter by default. Better data, better decisions, better economics over time. See how at ramp.com slash invest. As your business grows, Vanta scales with you, automating compliance and giving you a single source of truth for security and risk.",
+      "zh": "Ramp 让这一切默认就更聪明：更好的数据、更好的决策、随时间更优的经济账。到 ramp.com/invest 看看。当你的业务成长，Vanta 随之扩展，把合规自动化，为你提供安全与风险的单一事实来源。"
+    },
+    {
+      "i": 387,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "73:27",
+      "en": "Learn more at Vanta.com slash invest. The best AI and software companies from open AI to cursor to perplexity use WorkOS to become enterprise ready overnight, not in months.",
+      "zh": "更多详见 vanta.com/invest。从 OpenAI 到 Cursor 到 Perplexity，最好的 AI 和软件公司都用 WorkOS，一夜之间——而非花几个月——达到企业级就绪。"
+    },
+    {
+      "i": 388,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "73:37",
+      "en": "Visit WorkOS.com to skip the unglamorous infrastructure work and focus on your product. Ridge line is redefining asset management technology as a true partner, not just a software vendor.",
+      "zh": "访问 WorkOS.com，跳过那些不光鲜的基础设施工作，专注于你的产品。Ridgeline 正重新定义资产管理技术，做一个真正的伙伴，而不仅仅是一个软件供应商。"
+    },
+    {
+      "i": 389,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "73:46",
+      "en": "They've helped firms five X and scale, enabling faster growth, smarter operations and a competitive edge. Visit ridge line apps.com to see what they can unlock for your firm.",
+      "zh": "他们已经帮一些公司实现 5 倍增长与规模化，带来更快的成长、更聪明的运营和竞争优势。访问 ridgelineapps.com，看看他们能为你的公司解锁什么。"
+    },
+    {
+      "i": 390,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "73:56",
+      "en": "Every investment firm is unique and generic AI doesn't understand your process. Rogo does. It's an AI platform built specifically for Wall Street connected to your data, understanding your process and producing real outputs.",
+      "zh": "每家投资公司都独一无二，而通用 AI 并不理解你的流程——Rogo 理解。它是专为华尔街打造的 AI 平台，连接你的数据、理解你的流程，产出真正的成果。"
+    },
+    {
+      "i": 391,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "74:07",
+      "en": "Check them out at rogo.ai slash invest.",
+      "zh": "到 rogo.ai/invest 了解他们。"
+    }
+  ]
+}

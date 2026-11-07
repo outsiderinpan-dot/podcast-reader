@@ -1,0 +1,2414 @@
+{
+  "show": "capital-allocators",
+  "kind": "transcript",
+  "id": "capital-allocators-cc62e35a",
+  "slug": "2026-09-14-ai-in-the-investment-office-abby-cc62e35a",
+  "date": "2026-09-14",
+  "title_en": "AI in the Investment Office – Abby Barlow, Laura Hill, Brian Sugrue, Jenny Heller, John La",
+  "title_zh": "投资办公室里的 AI：Abby Barlow、Laura Hill、Brian Sugrue、Jenny Heller、John Lawrence 等八位 CIO 谈 AI 落地",
+  "subtitle_zh": "八位 CIO 从单兵工具讲到机构大脑，勾勒出投资办公室应用 AI 的现在与边界。",
+  "description": "AI in the Investment Office – Abby Barlow, Laura Hill, Brian Sugrue, Jenny Heller, John La",
+  "duration": "66:13",
+  "duration_seconds": 3973,
+  "episode_url": null,
+  "audio_url": "https://traffic.libsyn.com/secure/tedseides/CA_-_AI_Comp_-_AUDIO_FINAL_V2.mp3?dest-id=482814",
+  "speakers": {
+    "1": "Ted Seides（主持）",
+    "2": "Abby Barlow（嘉宾）",
+    "3": "Laura Hill（嘉宾）",
+    "4": "Brian Sugrue（嘉宾）",
+    "5": "Jenny Heller（嘉宾）",
+    "6": "John Lawrence（嘉宾）",
+    "7": "Matt Bank（嘉宾）",
+    "8": "KK Rowland（嘉宾）",
+    "9": "John Webster（嘉宾）",
+    "10": "片花/广告（旁白）"
+  },
+  "turn_count": 298,
+  "turns": [
+    {
+      "i": 0,
+      "speaker": 10,
+      "speaker_zh": 10,
+      "ts": "00:00",
+      "en": "Capital Allocators is brought to you by AlphaSense. Every allocator sits at their desk for hours, preparing the work around investment decisions, getting up to speed on a new theme, prepping for the next investment committee meeting, and tracking what changes across an entire portfolio.",
+      "zh": "Capital Allocators 由 AlphaSense 为您呈现。每一位资产配置者都花大量时间坐在办公桌前，围绕投资决策做准备：快速上手一个新主题、为下一次投资委员会会议做功课、追踪整个投资组合里发生的变化。"
+    },
+    {
+      "i": 1,
+      "speaker": 10,
+      "speaker_zh": 10,
+      "ts": "00:20",
+      "en": "AlphaSense just launched something built to help. It's called Super Analyst, an always-on agent that works like a power user on your behalf.",
+      "zh": "AlphaSense 刚刚推出了一个为此打造的产品，叫 Super Analyst，一个全天候在线、像资深用户一样替你干活的智能体（agent）。"
+    },
+    {
+      "i": 2,
+      "speaker": 10,
+      "speaker_zh": 10,
+      "ts": "00:29",
+      "en": "It draws on over 500 million premium sources, including broker research, expert transcripts, company filings, and earnings calls, and keeps working long after you've gone home for the day.",
+      "zh": "它能够调用超过 5 亿条高端信息来源，包括券商研报、专家访谈纪要、公司披露文件和财报电话会，在你下班回家之后它还在继续工作。"
+    },
+    {
+      "i": 3,
+      "speaker": 10,
+      "speaker_zh": 10,
+      "ts": "00:41",
+      "en": "Point Super Analyst at a theme, company, or market, and it learns the coverage universe so you can easily turn new insights into the briefs, models, and memos you'd otherwise build by hand.",
+      "zh": "你只需要把一个主题、一家公司或一个市场交给 Super Analyst，它就会去学习相关研究范围，让你能轻松把新的洞见转化为简报、模型和备忘录——这些本来都得你手工去做。"
+    },
+    {
+      "i": 4,
+      "speaker": 10,
+      "speaker_zh": 10,
+      "ts": "00:54",
+      "en": "It was designed to work like an extension of your team, so it remembers your projects, follows your templates and processes, and links every output to its source so you can see where each conclusion came from.",
+      "zh": "它的设计目标是像你的团队延伸一样工作：它记得你的项目，遵循你的模板和流程，并且把每个产出都关联到来源，让你能看到每个结论从何而来。"
+    },
+    {
+      "i": 5,
+      "speaker": 10,
+      "speaker_zh": 10,
+      "ts": "01:06",
+      "en": "The best way to judge its quality is to give it a whirl. Pick the research task on your desk before your next committee meeting and hand it to Super Analyst.",
+      "zh": "判断它质量最好的方法就是亲自试一试。挑一个你下次投委会会议前桌上摆着的研究任务，交给 Super Analyst。"
+    },
+    {
+      "i": 6,
+      "speaker": 10,
+      "speaker_zh": 10,
+      "ts": "01:15",
+      "en": "Start a free trial at alpha-sense.com slash capital and see what it has ready for you. Allocators is also brought to you by Ridge Line, the investment management platform built for firms who are rethinking how work gets done.",
+      "zh": "到 alpha-sense.com/capital 开始免费试用，看看它为你准备了什么。Capital Allocators 也由 Ridge Line 为您呈现——Ridge Line 是一个投资管理平台，专为重新思考工作方式的机构打造。"
+    },
+    {
+      "i": 7,
+      "speaker": 10,
+      "speaker_zh": 10,
+      "ts": "01:34",
+      "en": "You're at your desk looking at a line graph of your firm's growth. The line is moving sideways, linear growth, and you know exactly why. You're constrained by your operational bandwidth that's been the same for so long it just feels like the cost of doing business.",
+      "zh": "你坐在办公桌前，看着公司增长曲线的折线图。线在横着走，线性增长，而你非常清楚为什么：你被运营带宽卡住了，而它长期不变，已经成了你做业务必须付出的成本。"
+    },
+    {
+      "i": 8,
+      "speaker": 10,
+      "speaker_zh": 10,
+      "ts": "01:52",
+      "en": "Ridge Line is built to change that line's trajectory, to be the inflection point that takes your growth from incremental to accelerated, with the team you already have in place.",
+      "zh": "Ridge Line 就是为了改变这条线的轨迹而生，成为那个拐点，让你的增长从渐进变成加速——用你现有的团队就能做到。"
+    },
+    {
+      "i": 9,
+      "speaker": 10,
+      "speaker_zh": 10,
+      "ts": "02:03",
+      "en": "Ridge Line is the only AI-native investment management platform that brings together the front, middle, and back office with one set of data and powerful AI agents that automate away operational drudgery so your talent can shift from managing old technology to materializing new ideas.",
+      "zh": "Ridge Line 是唯一一个 AI 原生的投资管理平台，把前台、中台、后台整合在一套数据之上，再加上强大的 AI 智能体，把繁琐的运营工作自动化掉，让你的人才从管理旧技术转向把新想法变成现实。"
+    },
+    {
+      "i": 10,
+      "speaker": 10,
+      "speaker_zh": 10,
+      "ts": "02:20",
+      "en": "Ridge Line helps asset and wealth managers understand and improve their firm's growth trajectory. To see how your firm compares to 16,000 of your peers, visit ridgeline.ai slash trajectory.",
+      "zh": "Ridge Line 帮助资产管理和财富管理公司理解并改善自身的增长轨迹。想了解你的机构与 16,000 家同行的对比，访问 ridgeline.ai/trajectory。"
+    },
+    {
+      "i": 11,
+      "speaker": 10,
+      "speaker_zh": 10,
+      "ts": "02:33",
+      "en": "If you file form ADV, your firm is already there. Then talk to Ridge Line about how you can do more with the team you already have. Capital Allocators is also brought to you by Juniper Square, the operations partner trusted by the leading private market GPs.",
+      "zh": "只要你的机构需要递交 Form ADV，你就已经在数据里了。然后再和 Ridge Line 聊聊怎么用现有团队做更多事。Capital Allocators 也由 Juniper Square 为您呈现——它是头部私募市场 GP 信赖的运营伙伴。"
+    },
+    {
+      "i": 12,
+      "speaker": 10,
+      "speaker_zh": 10,
+      "ts": "02:53",
+      "en": "One theme that keeps coming up on the show is GPs that build the strongest and most durable relationships with LPs are the ones that have both strong returns and strong operations.",
+      "zh": "节目里反复出现的一个主题是：与 LP 建立最牢固、最持久关系的 GP，往往是那些既有强劲业绩又有强劲运营的 GP。"
+    },
+    {
+      "i": 13,
+      "speaker": 10,
+      "speaker_zh": 10,
+      "ts": "03:05",
+      "en": "AI raises the stakes on operations, and having Juniper Square as your operations partner helps ensure your data is organized, accurate, and accessible so you can unlock operational alpha.",
+      "zh": "AI 抬高了运营的重要性门槛，而让 Juniper Square 做你的运营伙伴，能确保你的数据组织有序、准确、可访问，从而解锁运营层面的 alpha（operational alpha）。"
+    },
+    {
+      "i": 14,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "03:18",
+      "en": "That's why thousands of GPs trust Juniper Square. Learn more at junipersquare.com slash capital allocators. I'm Ted Sides, and this is Capital Allocators.",
+      "zh": "这就是为什么成千上万的 GP 信赖 Juniper Square。更多信息请访问 junipersquare.com/capitalallocators。我是 Ted Seides，这里是 Capital Allocators。"
+    },
+    {
+      "i": 15,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "03:40",
+      "en": "AI is top of mind for everyone in the investment business. Our summits are a buzz with curiosity about what others are doing. So I asked eight chief investment officers to share how they're using AI today, including what's working and what isn't, the tools they've adopted, and where they're headed next.",
+      "zh": "AI 是投资行业每个人心头最关注的话题。我们的峰会上到处都洋溢着对别人在做什么的好奇。所以我邀请了八位首席投资官（CIO）来分享他们今天如何使用 AI，包括哪些管用、哪些不管用、他们采用了哪些工具、以及下一步要去哪里。"
+    },
+    {
+      "i": 16,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "04:01",
+      "en": "They range in available resources from a single family office with one investment professional to one of the largest pension funds in the world with thousands.",
+      "zh": "他们可调用的资源差异很大：从只有一名投资专业人士的单一家族办公室，到拥有数千名员工的全球最大养老金之一。"
+    },
+    {
+      "i": 17,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "04:12",
+      "en": "What emerged is a picture of the current state of AI in the investment office, including preparing for meetings, conducting analysis, and leveling up decision making.",
+      "zh": "最终呈现出来的，是投资办公室（investment office）里 AI 现状的一幅图景，包括会议准备、开展分析、以及升级决策。"
+    },
+    {
+      "i": 18,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "04:22",
+      "en": "You'll hear some consistency in the tools used, alongside different views about how far AI should go. Taken together, there's a progression of opportunity in the investment office that awaits everyone in the seat.",
+      "zh": "你会听到大家在工具使用上有一些一致性，但对 AI 应该走多远看法不同。把这些放在一起看，投资办公室里有一条为每个坐在这个位子上的人准备的机会进阶之路。"
+    },
+    {
+      "i": 19,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "04:36",
+      "en": "So let's get started. Next up is Abby Barlow, CIO of Westwood Management, a single family office at which she is the sole investment professional.",
+      "zh": "那我们开始吧。第一位是 Abby Barlow，Westwood Management 的 CIO——这是一家单一家族办公室，而她是那里唯一的投资专业人士。"
+    },
+    {
+      "i": 20,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "04:47",
+      "en": "Why don't you tell me about your role and how you're using AI in it? I am the CIO for a single family office. I started here three years ago.",
+      "zh": "你能跟我说说你的角色，以及你在其中如何使用 AI 吗？我是单一家办的 CIO。我三年前加入这里。"
+    },
+    {
+      "i": 21,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "05:01",
+      "en": "I have not hired yet on my investment team. Part of the reason I have not hired is because I happen to start at the same time that AI was becoming a thing and have leaned into it to support me and become my analyst.",
+      "zh": "我的投资团队还没有招人。没有招人的部分原因是，我恰好赶在 AI 开始兴起的时候入职，所以我全力拥抱它，让它来支持我、成为我的分析师。"
+    },
+    {
+      "i": 22,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "05:21",
+      "en": "I joke with my team here in the family that my analyst's name is Claude. He works all hours of the night and he's amazing. I'm going to put him on our org chart.",
+      "zh": "我跟家里团队开玩笑说，我的分析师名字叫 Claude。他全天候工作到深夜，棒极了。我打算把他放进我们的组织架构图。"
+    },
+    {
+      "i": 23,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "05:32",
+      "en": "I mostly am using Claude. We feel comfortable that it's not training on our data and it's walled off in terms of privacy and security. We also have a co-pilot subscription.",
+      "zh": "我主要在用 Claude。我们确认它不会用我们的数据做训练，在隐私和安全上也是隔离的。我们也订了 Copilot。"
+    },
+    {
+      "i": 24,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "05:47",
+      "en": "It is not as good at this moment. Why don't you walk through the different ways that you're using Claude? A better question is almost how we're not using it.",
+      "zh": "但 Copilot 现阶段没有 Claude 好用。你能不能讲讲你用 Claude 的各种方式？更好的问题几乎是我们没有在用它做什么。"
+    },
+    {
+      "i": 25,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "05:58",
+      "en": "We are using it in every step of the process. From the first time a fund manager sends us a deck and we agree to take a meeting, I'm feeding the prep materials into Claude as a project.",
+      "zh": "我们在流程的每一步都用它。从基金经理第一次发来材料、我们同意约个会议开始，我就把会前材料作为项目喂给 Claude。"
+    },
+    {
+      "i": 26,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "06:15",
+      "en": "I'm saying summarize, help me prep, help me ask smart questions. It's amazing at that. All the way to the point where we're making an investment, you're at the 10 yard line.",
+      "zh": "我会说：帮我总结，帮我做准备，帮我想一些聪明的问题。它在这方面特别出色。一直到我们真正要做投资的时候，你已经站在对方的 10 码线了。"
+    },
+    {
+      "i": 27,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "06:29",
+      "en": "They are sending you legal document revisions in the final stages. I will take a red line. Got one recently. There were 185 tracked changes in this document, which historically I would skim them.",
+      "zh": "在最终阶段，他们会给你发法律文件的修订版。我会直接逐条看红线（redline）。最近就有一份，文件里有 185 处修订记录，以前我会大致扫一遍。"
+    },
+    {
+      "i": 28,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "06:49",
+      "en": "If anything seemed relevant, I would probably send it to counsel. We would pay them to review it. It would take a day or two or three. Now I can just take that, put it in Claude, and in one minute get back a good summary of what's relevant.",
+      "zh": "如果有什么看起来相关，我可能会发给外部律师，付费请他们审阅，要花上一两天甚至三天。现在我只需要把它放进 Claude，一分钟内就能拿到关于哪些内容相关的高质量总结。"
+    },
+    {
+      "i": 29,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "07:08",
+      "en": "It is better than what I could do on my own. We're saving a lot of time and money doing that. We ask better questions to the fund manager than we otherwise would.",
+      "zh": "它做得比我自己能做的还要好。我们在这方面节省了大量时间和金钱。我们也向基金经理提出了比原本更好的问题。"
+    },
+    {
+      "i": 30,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "07:20",
+      "en": "On the meeting notes and legal, what are some of the other ways you're using it in your process? We're building a lot of tools. Think of this as an app or a software program that historically you would maybe go buy from the market, benchmarking or a pacing model or portfolio company look through to understand what you own.",
+      "zh": "在会议纪要和法律文件之外，你在流程里还用到了哪些方式？我们在建很多工具。把它想成以前你可能要从市场上买回来的应用或软件，比如基准比较、出资进度（pacing）模型，或者穿透看组合里持有资产的工具。"
+    },
+    {
+      "i": 31,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "07:42",
+      "en": "But instead of paying someone to host that service and implement a tool, I said, I'm going to see what I can build first. This benchmarking tool is a great example where I used to in Excel build vintage year comparison across funds and peer groups.",
+      "zh": "但我没有付钱请别人托管这项服务、上线一个工具，而是说：我先看看自己能做出什么来。这个基准比较工具就是个很好的例子。以前我在 Excel 里做各基金和同行组按发行年份（vintage year）的对比。"
+    },
+    {
+      "i": 32,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "08:01",
+      "en": "It was messy. I would end up with 60 tabs in Excel. It took a long time. I got halfway through with one of those projects and I said, hey, Claude, look what I'm trying to do.",
+      "zh": "整个过程很乱，Excel 里最后会堆出 60 个工作表，要花很长时间。有次项目进行到一半，我说：Claude，看看我想做什么。"
+    },
+    {
+      "i": 33,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "08:15",
+      "en": "How would you approach this? In five minutes, it thought about that. It spit out an app. I iterated it with Claude to dial it into exactly what I wanted.",
+      "zh": "你会怎么处理这件事？它花了五分钟思考，直接生成了一个应用。我再和 Claude 一起迭代，把它调成我完全想要的样子。"
+    },
+    {
+      "i": 34,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "08:30",
+      "en": "It probably took me half a day to say, I have this amazing tool that I can now use. I've used it eight or 10 times since. What have been some of your other large use cases?",
+      "zh": "大概只花了半天，我就有了一个非常好用的工具，之后已经用了八到十次了。你还有哪些大的使用场景？"
+    },
+    {
+      "i": 35,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "08:44",
+      "en": "Investment committee decks. I've been going through this strategic review of our equity program, public equities. There's a 30-year history and it's complex.",
+      "zh": "投资委员会材料。我一直在对我们股票项目的战略评估做梳理——公开股票，有 30 年历史，非常复杂。"
+    },
+    {
+      "i": 36,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "08:56",
+      "en": "I'm trying to make a recommendation. I used Claude as a thought partner in laying out the setting. This is what we own. This is the history.",
+      "zh": "我试着给出一个建议，就把 Claude 当作思考伙伴来搭建整个局面：这是我们持有的东西，这是历史。"
+    },
+    {
+      "i": 37,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "09:09",
+      "en": "These are 20 things I'm thinking about. Help me organize my thoughts, recommend an agenda for a deck. Claude is available all the time. I'm laying in bed one night on my phone with Claude.",
+      "zh": "这是我在思考的 20 件事，帮我梳理思路，为一份材料推荐议程。Claude 随时都在。有天晚上我躺在床上用手机跟 Claude 聊。"
+    },
+    {
+      "i": 38,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "09:23",
+      "en": "What about this and what about that? Can you show me a draft of a PowerPoint? You can say if that's good or bad that I'm doing that at night, but it felt good to get it out of my head.",
+      "zh": "这个怎么样？那个怎么样？能不能给我看一版 PowerPoint 草稿？你可以评判我大晚上干这个好不好，但把脑子里的东西倒出来感觉很好。"
+    },
+    {
+      "i": 39,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "09:36",
+      "en": "The next morning, I come in and it's done stuff. How about tools you've used beyond Claude? I use chat GBT for lots of questions mostly. I know others are using perplexity.",
+      "zh": "第二天早上我来上班，它已经做完了不少东西。那除了 Claude 你还用哪些工具？我很多时候用 ChatGPT 问问题。我知道有人在用 Perplexity。"
+    },
+    {
+      "i": 40,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "09:47",
+      "en": "We went with Claude. It is more than we even know how to use at this point. Something that's worked well is I've asked AI to interview me in the goal of creating a context document for it to always have.",
+      "zh": "我们选了 Claude。以我们目前的能力，它能做的远超我们已知的用法。一个很有效的做法是：我让 AI 来采访我，目标是生成一份上下文文档让它永远可以参考。"
+    },
+    {
+      "i": 41,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "10:05",
+      "en": "I say, hey, Claude, let's take an hour. I want you to ask me everything about my organization, my business, myself, my working style, the history of this organization, the family, ask me anything.",
+      "zh": "我会说：Claude，我们花一个小时，你把关于我们组织、我的业务、我本人、我的工作风格、这个组织的历史、这个家族的一切都问我一遍，随便问。"
+    },
+    {
+      "i": 42,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "10:23",
+      "en": "I want the output at the end to be a document that is shared for any new project that you start working on. We want to create an enterprise-level context doc that everyone on the team is using consistently.",
+      "zh": "我希望最后产出一份文档，在你开始任何新项目时都能共享。我们想创建一个企业级的上下文文档（context doc），让整个团队都一致地使用。"
+    },
+    {
+      "i": 43,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "10:39",
+      "en": "We just hired a new person. He's been here three weeks. How valuable would it be for him to have some master context document to put into Claude before he asks it to do any little project?",
+      "zh": "我们刚招了一个新人，他来了三周。如果他在让 Claude 做任何小项目之前，能有一份这样的主上下文文档喂给它，那会多有价值？"
+    },
+    {
+      "i": 44,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "10:55",
+      "en": "It's going to know more about where he sits, what he's working on. What are examples of things that you thought you could use AI for that didn't really work?",
+      "zh": "Claude 就会更了解他的位置、他在做什么。那有哪些你以为可以用 AI、但实际上并不管用的例子？"
+    },
+    {
+      "i": 45,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "11:07",
+      "en": "It does make mistakes, especially when you're dealing with numbers and complexity. It gets me to a solid first draft. I need to thoroughly scrub it like a junior analyst would do.",
+      "zh": "它确实会犯错，尤其涉及数字和复杂情况时。它能给我一个扎实的初稿，但我得像审视初级分析师的产出那样彻底校对一遍。"
+    },
+    {
+      "i": 46,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "11:23",
+      "en": "You would never take something that analysts would give you the first time and be like, this is perfect. I'm showing it to the family now. It was double counting some of our commitments in our pacing model I was building.",
+      "zh": "你从来不会把分析师第一次交上来的东西直接说：太完美了，这就拿给家里看。它在我在建的出资进度模型里重复计算了我们的一部分出资承诺。"
+    },
+    {
+      "i": 47,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "11:35",
+      "en": "It's hard to catch that spot. I have gotten in a habit where I will ask it at the end of any deliverable, go back to the beginning of this conversation and what we were trying to accomplish, review the deliverable, triple check all the numbers again, find your own errors.",
+      "zh": "这种错误很难发现。我现在养成了一个习惯：在任何交付成果结束时我会说，回到这次对话的开头，回顾我们的目标，复查这份成果，把每个数字再核三遍，找出你自己的错误。"
+    },
+    {
+      "i": 48,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "11:52",
+      "en": "It will be like, oh, I missed these three things. How did you determine what data you're comfortable sharing with information that might be confidential coming from managers?",
+      "zh": "然后它就会说：哦，我漏了这三处。你是如何决定在来自基金经理、可能属于保密的信息中，哪些数据可以放心分享的？"
+    },
+    {
+      "i": 49,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "12:05",
+      "en": "I have been asking managers, how do you feel about LPs taking your legal docs, pitch decks, and putting them into AI? The answers I've gotten have been all over the place.",
+      "zh": "我一直在问基金经理：LP 拿你们的法律文件、路演材料放进 AI，你们怎么看？我得到的答案五花八门。"
+    },
+    {
+      "i": 50,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "12:17",
+      "en": "In general, they say, we just expect it's happening. We would assume that those LPs are treating it like we would want them to. As you look out a year from now, how are you thinking about continuing to lean into AI alongside of potentially bringing in humans to do some role?",
+      "zh": "总的来说，他们说：我们只是默认这事正在发生，我们会假设这些 LP 会用我们希望的方式来处理。站在一年后的时间点，你怎么考虑在可能引入人力承担某些角色的同时，继续深挖 AI？"
+    },
+    {
+      "i": 51,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "12:39",
+      "en": "I'm trying to push it as far as I can as these things are being built. It will get to be too much for me to handle on my own. When I hire someone, I would love someone who also wants to embrace these tools and keep building things.",
+      "zh": "我想在这些工具被不断建出来的过程中尽可能推远。总有一天靠我一个人会应付不过来。等我招人的时候，我希望对方也愿意拥抱这些工具、一起持续建设。"
+    },
+    {
+      "i": 52,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "12:57",
+      "en": "Claude will always be on my team. Whatever model is the one that is best, someday maybe we'll switch. The next frontier for me is I want to try to build a virtual EA for myself, an executive assistant.",
+      "zh": "Claude 永远都会在我的团队里。哪个模型最好就用哪个，也许某天我们会换。对我来说下一个前沿，是我想给自己建一个虚拟 EA，一个执行助理（executive assistant）。"
+    },
+    {
+      "i": 53,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "13:13",
+      "en": "I would love to build an agent to help me with email encounter. Abby showed just how far an individual can push AI. Laura Hill, CIO of $26 billion advocate health, introduces an important boundary to protect human judgment.",
+      "zh": "我很想建一个智能体来帮我处理邮件。Abby 展示了个人可以把 AI 推到多远。Laura Hill，260 亿美元规模 Advocate Health 的 CIO，划出了一条保护人类判断力的重要边界。"
+    },
+    {
+      "i": 54,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "13:32",
+      "en": "Laura, how are you in the team thinking about your AI strategy? We challenged the team to come up with a one-send soundbite. The soundbite that they came up with was we will use AI to augment human expertise, accelerate routine work and improve decision quality while preserving human judgment, confidentiality and accountability.",
+      "zh": "Laura，你和团队怎么思考你们的 AI 战略？我们让团队提炼一句话口号。他们想出来的是：我们使用 AI 来增强人类专业能力、加速常规工作、提升决策质量，同时保留人类判断、保密性和问责。"
+    },
+    {
+      "i": 55,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "13:54",
+      "en": "I prompt the team a lot, how will we not use AI? A lot of allocators are quick to say, oh, they can draft an investment memo. What's the purpose of your investment memo?",
+      "zh": "我经常向团队提问：我们在哪些方面不会使用 AI？很多资产配置者会马上说，哦，它可以起草投资备忘录。那你写投资备忘录的目的是什么？"
+    },
+    {
+      "i": 56,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "14:06",
+      "en": "For me, the purpose of an investment memo is to sit down and make yourself think, what are the bets I'm taking? What would make this blow up?",
+      "zh": "对我来说，投资备忘录的目的是坐下来逼自己想清楚：我在下什么赌注？什么情况会让它爆掉？"
+    },
+    {
+      "i": 57,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "14:13",
+      "en": "If we come back for a re-up in three or four years, what would make us pause or what could have gone wrong? I absolutely do not want AI doing that.",
+      "zh": "如果三四年后我们再来续投（re-up），什么会让我们犹豫？什么可能出错？我完全不想让 AI 来做这件事。"
+    },
+    {
+      "i": 58,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "14:22",
+      "en": "Let AI help you format it or make it look pretty or add some graphics. It should not be helping you answer that core question of looking around the corner.",
+      "zh": "可以让 AI 帮你排版、让它好看、加一些图表。但它不应该帮你回答那个看清前路的核心问题。"
+    },
+    {
+      "i": 59,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "14:34",
+      "en": "The team is excited for some of the time savings, but we all want to make sure that we're mindful of not using it in ways that would take away from our edge.",
+      "zh": "团队对一些节省时间的可能性很兴奋，但我们都想确保不把 AI 用在削弱我们优势的地方。"
+    },
+    {
+      "i": 60,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "14:45",
+      "en": "How are you using AI in your office right now? Three categories. We have the AI embedded in existing vendors. This is pretty nascent, pretty low evidence of vendors incorporating AI much in existing software.",
+      "zh": "你们办公室现在怎么用 AI？三个类别。第一类是嵌在现有供应商软件里的 AI。这一类还很初级，现有软件真正融入 AI 的证据还很少。"
+    },
+    {
+      "i": 61,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "15:01",
+      "en": "The second category, which is where we're using it the most, is the co-pilot suite. This has come a long way in the last year across SharePoint emails.",
+      "zh": "第二类是我们用得最多的，是 Copilot 套件。过去这一年，它在 SharePoint、邮件等方面进步很大。"
+    },
+    {
+      "i": 62,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "15:12",
+      "en": "One of the unique aspects that we have is being part of a large healthcare system, because we have an internal data science team. We've created an investment frame.",
+      "zh": "我们有一个独特条件：我们是大型医疗体系的一部分，内部有数据科学团队。我们做了一个投资大脑（investment brain）。"
+    },
+    {
+      "i": 63,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "15:20",
+      "en": "The private markets team has started it. They've named it GeneralGist. We've spent a lot of time working on how to set up the groundwork with uniform document titling categorization.",
+      "zh": "私募市场团队先起步，取名叫 GeneralGist。我们花了很多时间在打地基上：统一的文档命名和分类。"
+    },
+    {
+      "i": 64,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "15:33",
+      "en": "We already have it handling some routine work. Right now, it's ingesting all of our private markets statements, capital calls. It's extracting the data, which is different across every manager.",
+      "zh": "它现在已经在处理一些常规工作。眼下它在消化我们全部私募市场的对账单、资本催缴通知（capital call），提取数据——每家经理的格式都不一样。"
+    },
+    {
+      "i": 65,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "15:46",
+      "en": "It's fitting it out into a uniform Excel template that our analysts can then review. Then they get an email every Monday that shows which documents have been extracted.",
+      "zh": "它把结果整理进一个统一的 Excel 模板，让分析师来复核。每周一他们会收到一封邮件，显示哪些文档已经抽取完成。"
+    },
+    {
+      "i": 66,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "15:57",
+      "en": "We process it with human eyes. It's a perfect example of elevating analysts to work at the top of their license because they're progressing from data entry to actually review our status.",
+      "zh": "我们由人工来把关。这是把分析师提升到他们能力上限去工作的完美例子：他们从录入数据进阶到真正审阅我们的状况。"
+    },
+    {
+      "i": 67,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "16:08",
+      "en": "Healthcare is good at KPIs, iterations, metrics, and safety. Think about where is our edge? How can we use AI to get the other stuff out of the way so that we can really focus on where our edge is?",
+      "zh": "医疗行业擅长 KPI、迭代、指标和安全。想一想，我们的优势在哪里？怎么用 AI 把杂事清掉，好真正专注于我们的优势所在？"
+    },
+    {
+      "i": 68,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "16:22",
+      "en": "When you've looked at your tools, how did you decide to do it internally versus externally? Agnostic to whatever vendor may sell this, the principles are that we want to own our data.",
+      "zh": "在看工具的时候，你怎么决定内部自建还是外部采购？不管哪家供应商卖什么，我们的原则是：我们要拥有自己的数据。"
+    },
+    {
+      "i": 69,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "16:36",
+      "en": "We want to be able to own the output. The flaw with a lot of third parties is there's a barrier to re-extracting your information. There's going to be rent extracted.",
+      "zh": "我们要能拥有自己的产出。很多第三方的缺陷在于，你把信息重新取回来有障碍，中间会被抽租。"
+    },
+    {
+      "i": 70,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "16:47",
+      "en": "We want to maintain autonomy here. We're in a unique place that we recognize a lot of other allocators wouldn't have the resources we have. We're going to be able to customize, tweak, and iterate as we find out what works and what doesn't.",
+      "zh": "我们在这里想保持自主权。我们处在独特的位置，也承认很多其他资产配置者没有我们这样的资源。我们能够定制、微调、迭代，逐步弄清什么管用、什么不管用。"
+    },
+    {
+      "i": 71,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "17:02",
+      "en": "Is there anything you've explored with your team where you came away thinking the hype around AI surpassed the reality of what you could do?",
+      "zh": "有没有哪些你和团队探索过后，觉得 AI 的热度超过了它实际能做到的？"
+    },
+    {
+      "i": 72,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "17:12",
+      "en": "The external vendor solutions so far for document routing has not met expectations. We have chosen to build that internally. A lot of this is the vergenous nature of how GPs send documents.",
+      "zh": "到目前为止，外部供应商的文档路由方案没有达到预期。我们选择内部自建。很大一部分原因是 GP 发送文档的方式五花八门。"
+    },
+    {
+      "i": 73,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "17:28",
+      "en": "I'm extremely skeptical of the solutions that claim to be able to manage your inbox, manage data rooms. People are also selling LP portfolio insight.",
+      "zh": "我对那些声称能管理你的收件箱、管理数据室（data room）的方案非常怀疑。也有人卖 LP 组合洞察。"
+    },
+    {
+      "i": 74,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "17:39",
+      "en": "I haven't talked to a whole lot of LP colleagues that haven't had any external vendor success. What do you plan to work on over the next 12 months?",
+      "zh": "我跟 LP 同行聊下来，大家从外部供应商获得的成功案例很少。你们未来 12 个月计划做什么？"
+    },
+    {
+      "i": 75,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "17:49",
+      "en": "The boring hard part that's going to lay the foundation is continuing to get the data in order, consistent nomenclature, document descriptions, prompting.",
+      "zh": "那些枯燥但必须做、要打地基的事：继续把数据整理好，统一的命名规范、文档描述、提示词。"
+    },
+    {
+      "i": 76,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "17:58",
+      "en": "This is all stuff that we have to walk before you run. The definition of success, expanded use of AI agents to help with meeting prep, note prep, document drafting, data analysis.",
+      "zh": "这些都是先学会走才能跑的事。成功的定义是：扩大 AI 智能体在会议准备、纪要准备、文档起草、数据分析上的使用。"
+    },
+    {
+      "i": 77,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "18:10",
+      "en": "Big picture, those massive queries when you get a question about the portfolio of where do we have exposure to XYZ theme or company, that's a lot of hunting and pecking.",
+      "zh": "更大的图景是，当你被问到组合里我们在哪个主题或哪家公司有敞口时，那种跨海量数据的查询现在还是到处翻找。"
+    },
+    {
+      "i": 78,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "18:21",
+      "en": "That's where our investment brain will be able to help then monitoring the legacy funds. I would love minimal time spent on those legacy funds and way more time spent on our core competencies.",
+      "zh": "等我们的投资大脑建起来就能帮上忙，还有对遗留基金（legacy fund）的监控。我希望在遗留基金上花极少时间，把更多时间花在核心能力上。"
+    },
+    {
+      "i": 79,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "18:35",
+      "en": "It's not a better PowerPoint. It's not a better model. It's not a better memo. AI can do all of those, but it's speed to decision, differentiated relationships, differentiated viewpoint.",
+      "zh": "这不是说做一个更好的 PowerPoint，不是更好的模型，不是更好的备忘录。AI 能做所有这些，但真正的价值是决策速度、差异化的关系、差异化的观点。"
+    },
+    {
+      "i": 80,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "18:46",
+      "en": "The next year we'll be telling because there's a lot of promises, but not yet a lot of traction. Laura drew the line around preserving human judgment.",
+      "zh": "未来一年我们会有更多可讲的，因为现在承诺很多、真正落地的还不多。Laura 画出了保留人类判断力这条线。"
+    },
+    {
+      "i": 81,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "18:57",
+      "en": "Brian Chagru, CIO of Ireland based single family office, Shannon Bridge Investments picks up that thread with a practical look at using AI to create more space for that judgment.",
+      "zh": "Brian Sugrue，爱尔兰单一家族办公室 Shannon Bridge Investments 的 CIO，接着这个话题，谈谈如何用 AI 为判断腾出更多空间。"
+    },
+    {
+      "i": 82,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "19:10",
+      "en": "Brian would love to start with how you're currently using AI. There's three categories of things. The first is getting us to a point where a diligence process, a portfolio monitoring or management process can check all of the boxes in a timely manner, fill out our investment file on something we have said yes to and is in our portfolio or something that we've said no to, but we can build out the reasons and the investment memo as to why we've said",
+      "zh": "Brian，我们先从你现在怎么用 AI 聊起。有三类。第一类是让我们的流程——尽调流程、组合监控或管理流程——能及时把所有检查项打勾：把我们已经投了、在组合里的项目建档完善；对那些我们说不的项目，也能把理由和投资备忘录写得更充分，同时不积压一大堆工作。"
+    },
+    {
+      "i": 83,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "19:42",
+      "en": "no in a much more fulsome way without building a huge backlog of work. The second is a standardization that we have found AI tools extremely helpful for.",
+      "zh": "第二类是标准化。我们发现 AI 工具在这方面非常有用。"
+    },
+    {
+      "i": 84,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "19:54",
+      "en": "We know the output that we're looking for, but it becomes growing backlog of work to make sure that memos, reporting, performance can move everything into our standard house format in a much more efficient manner.",
+      "zh": "我们知道想要的产出长什么样，但要让备忘录、报告、业绩都高效地转成我们的统一内部格式，工作会不断积压。"
+    },
+    {
+      "i": 85,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "20:11",
+      "en": "The third is around preparation. I find it to be a great foil if I'm preparing for a diligence meeting with an existing manager, portfolio update.",
+      "zh": "第三类是准备。我发现它是个很好的对手盘，比如我在准备与现有基金经理的尽调会议、看组合更新时。"
+    },
+    {
+      "i": 86,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "20:20",
+      "en": "I can have a red team debate with AI based on here's our view of the portfolio, here's the update we've received, here's where I think there are issues.",
+      "zh": "我可以和 AI 做一次红队（red team）辩论：这是我们对组合的看法，这是我们收到的更新，这是我觉得有问题的地方。"
+    },
+    {
+      "i": 87,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "20:30",
+      "en": "Take the other side of the argument. I get to the meeting with the nuanced, slightly richer version of the conversation that I would otherwise had.",
+      "zh": "你站在对立面跟我辩论。这样到我真正开会时，我拿到的是一个更细腻、更丰富的版本，否则对话不会到这个深度。"
+    },
+    {
+      "i": 88,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "20:38",
+      "en": "The one thing we have not used it for is as a decision maker or a recommendation tool because I'm not that comfortable with the idea of that, maybe we'll get there.",
+      "zh": "我们唯一没用它做的事是当决策者或推荐工具，因为我对这个思路还不够放心，也许以后会到那一步。"
+    },
+    {
+      "i": 89,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "20:50",
+      "en": "We haven't crossed that hurdle yet. What are some things that you tried that you found AI didn't get to where you were hoping to? There's a broad category of things where it continues to disappoint and that's where you venture into areas you maybe don't understand.",
+      "zh": "我们还没跨过那道门槛。你试过哪些 AI 没达到你期望的东西？有一大类事它一直在让人失望，就是你涉足自己其实不太懂的领域。"
+    },
+    {
+      "i": 90,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "21:12",
+      "en": "What it can produce if I ask mediocre questions is something that seems to form fact checked, footnoted and probably fictional, but maybe not expert enough to recognize that.",
+      "zh": "如果我问平庸的问题，它能产出一堆看起来经过事实核查、有脚注、但很可能是虚构的内容，也许你不够专业，识别不出来。"
+    },
+    {
+      "i": 91,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "21:25",
+      "en": "I see it from the team as well. When they've leaned on their own experience, it produces garbage. In the three areas where you are using it actively, what's your tech stack?",
+      "zh": "我在团队身上也看到这一点。当他们靠自己的经验去用，它会产出垃圾。在你积极使用的这三个领域里，你们的技术栈（tech stack）是什么？"
+    },
+    {
+      "i": 92,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "21:38",
+      "en": "We are primarily using Claude as a secondary tool, chat GPT. We do have a portfolio management tool called Asura and they have built a huge amount of capabilities into their UI.",
+      "zh": "我们主要用 Claude，辅助用 ChatGPT。我们还有一个组合管理工具叫 Asura，他们在产品界面里内置了大量能力。"
+    },
+    {
+      "i": 93,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "21:53",
+      "en": "They have brought some of their own engineering expertise to help with some customized applications that they can now deliver extremely quickly for private markets.",
+      "zh": "他们贡献了自己的工程专长，帮我们做一些定制应用，现在能非常快地为私募市场交付。"
+    },
+    {
+      "i": 94,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "22:04",
+      "en": "As you look out over the next year, what are some of the projects you're hoping to take on using AI that are not in place today? The big one, we talk a lot in our organization about the hit by a bus risk.",
+      "zh": "展望未来一年，你希望用 AI 做哪些现在还没有的项目？最大的一个，我们组织里常说被公交车撞的风险（hit by a bus risk）。"
+    },
+    {
+      "i": 95,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "22:20",
+      "en": "LPs ask managers all the time, what's your key man who's going to run the show? It's true for us as well. If I disappear in the morning or if my principles were not around or available to share institutional memory, what is our process for how we can transition things smoothly?",
+      "zh": "LP 总是问基金经理：你的关键人物是谁？谁来掌舵？对我们来说也一样。如果我早上消失了，或者我们的委托人不在了、没法分享机构记忆，我们的流程能保证事情平稳交接吗？"
+    },
+    {
+      "i": 96,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "22:42",
+      "en": "AI as a tool for us to examine where there are gaps to help us generate some of the content that's required to take my and the team's institutional memory today, commit it to paper so that hopefully it's a positive transition in some number of years I'm handing everything off to another experienced CIO who can pick up the ball and continue to run, not go, oh my God, I've been left with a total dog here.",
+      "zh": "AI 可以作为一个工具，帮我们审视哪里有缺口、生成需要补全的内容，把我和团队的机构记忆落到纸面上。这样有望在若干年后是一次正向交接：把一切交给一位有经验的 CIO，他能接棒继续跑，而不是说天哪，我接手的是个烂摊子，不知从何开始。"
+    },
+    {
+      "i": 97,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "23:07",
+      "en": "I don't know where to start. Try to bring the operational side up to a grade A and above is the one big goal for us. A couple of practical pieces, cash forecasting, I would like to see us primarily leaning on AI for pointers on exposure risk, inefficiencies on cash holdings, what rates were exposed to on the borrowing side, what rates were capturing on the cash deposit side, mirroring that with our expectations on capital calls and distributions, capital commitments made",
+      "zh": "把运营水平提升到 A 级以上，是我们一个大目标。还有几个具体的：现金预测，我希望主要靠 AI 来提示敞口风险、现金持有的低效之处、借款端承受的利率、现金存款端捕获的利率，并与我们对资本催缴和分配、已做出的私募市场出资承诺的预期对应起来——那里大有可为。"
+    },
+    {
+      "i": 98,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "23:44",
+      "en": "to private markets, there's a lot that can be done there. The second would be on manager and portfolio monitoring. It's maybe a little easier in public markets.",
+      "zh": "第二是基金经理和组合监控。公开市场那边可能容易一些。"
+    },
+    {
+      "i": 99,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "23:55",
+      "en": "There's more readily available fluid information, I'd like to automate our process a little better on that. We have an organized calendar on manager updates, still a huge backlog of what I'd love to pull all my notes together from the last 10 meetings with that manager when I have a few hours and think about how their narrative has evolved or what I take this firm's fund two, three and four decks, they tell me their process has not changed.",
+      "zh": "信息更容易获得、更流动。我想把我们的流程自动化得更好一点。我们有按经理更新安排好的日历，但还积压很多：我希望有几小时时，能把与某位经理过去 10 次会议的笔记拉通，看他们的叙事如何演变；或者拿出他们第二期、第三期、第四期基金的材料，他们说流程没变——"
+    },
+    {
+      "i": 100,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "24:23",
+      "en": "What is their marketing materials telling us about their process and how it's evolving? These are questions that anybody who sat in a CIO seat has always wanted to answer.",
+      "zh": "他们的营销材料里关于流程和变化告诉我们什么？这些是每个坐过 CIO 位子的人一直想回答的问题。"
+    },
+    {
+      "i": 101,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "24:33",
+      "en": "These tools are grease to the wheels, making it easier to go out and find those answers. What does it take for you to get there compared to where you are today?",
+      "zh": "这些工具就是轮子上的润滑油，让我们更容易去找到那些答案。那相比现在，你需要什么才能走到那一步？"
+    },
+    {
+      "i": 102,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "24:44",
+      "en": "In theory, one of the great things about AI is that it can draw from unstructured and disparate data sources and put one narrative together.",
+      "zh": "理论上，AI 的一个巨大优势是它能从非结构化、分散的数据源里抽取信息，拼成一个完整的叙事。"
+    },
+    {
+      "i": 103,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "24:52",
+      "en": "If I could standardize the documentation that I have on a manager. There's a broader point here, which is how much time does using AI really save?",
+      "zh": "如果我能把手里关于某位经理的文档标准化。这里还有一个更大的问题：用 AI 到底能真正省下多少时间？"
+    },
+    {
+      "i": 104,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "25:04",
+      "en": "What I'm describing is a time-consuming preparation process to get to an answer. It's not two or three or four times faster than it will be otherwise.",
+      "zh": "我描述的其实是一个相当耗时的准备过程，然后才能拿到答案。并不是说就比原来快两、三、四倍。"
+    },
+    {
+      "i": 105,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "25:14",
+      "en": "It's a little bit faster and it facilitates the final steps, but all of the preparation on getting data quality right and getting the information organized, that's still true today.",
+      "zh": "它会快一些，也能促成最后几步，但把数据质量弄对、把信息组织好，这些前期准备工作今天依然一样存在。"
+    },
+    {
+      "i": 106,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "25:26",
+      "en": "What do you think it would take for you to start using AI to improve your decision making? The way I have the framework in my head if I was just sum up where AI is for us today is that it's not about producing analysis that we could not do before.",
+      "zh": "你觉得要具备什么条件，你才会开始用 AI 来改善你的决策？我脑子里有个框架，如果要总结 AI 在今天我们所处的位置：它不是产出我们以前做不到的分析。"
+    },
+    {
+      "i": 107,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "25:44",
+      "en": "It's about creating a little more space for us to use judgment in analysis. There's only so many errors in the day if I can save five or ten percent of those by letting AI consolidate data, analyze a transcript from a discussion, put all of that into some key notes so that I can sit back and take a little more time to think about what my next steps following a diligence meeting or a manager update, that's where it's opening",
+      "zh": "而是帮我们多腾出一点空间去运用判断。一天里能犯的错是有限的，如果我能通过让 AI 做数据整合、分析讨论纪要、把内容归纳成关键笔记，省掉其中百分之五到十，让我可以退后一步，花更多时间思考尽调会议或经理更新之后的下一步——那就是它在打开我们的视野。"
+    },
+    {
+      "i": 108,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "26:13",
+      "en": "our aperture a little bit right now. It has not opened our eyes to new sectors we're not exposed to. It hasn't helped me make investment decisions yet, hasn't helped me size positions better.",
+      "zh": "它还没有让我们看到我们没接触过的新领域，还没帮我做投资决策，还没帮我更好地确定仓位大小。"
+    },
+    {
+      "i": 109,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "26:26",
+      "en": "I don't know if we'll get there and maybe a little bit of a skeptic on whether it's really ever going to overtake that judgment piece where we're getting benefit today is carving out a little more space for judgment, taking up a little less time on producing analysis.",
+      "zh": "我不知道我们会不会走到那一步，也许在'它到底能不能真正接管判断'这件事上我有点怀疑。今天我们得到的好处，是腾出更多判断空间、少花时间在产出分析上。"
+    },
+    {
+      "i": 110,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "26:41",
+      "en": "Brian highlights both the power and limitations of using AI as a thought partner. Jenny Heller, president and CIO of Multifamily Office Brandywine Group Advisors, takes us from individual experimentation toward building AI across an investment team, with a particular focus on trust, verification, and turning a collection of one-off use cases into a shared operating system.",
+      "zh": "Brian 既展示了用 AI 做思考伙伴的威力，也点出了它的局限。Jenny Heller，多家族办公室 Brandywine Group Advisors 的总裁兼 CIO，把我们带向下一阶段：从个人尝试走向在整个投资团队建 AI，尤其关注信任、验证，以及如何把零散用例变成共享操作系统。"
+    },
+    {
+      "i": 111,
+      "speaker": 5,
+      "speaker_zh": 5,
+      "ts": "27:08",
+      "en": "Jenny, how are you using AI in your office now? A principle that underlies how we're using AI today and will continue to use it is building layers of trust.",
+      "zh": "Jenny，你们办公室现在怎么用 AI？支撑我们如今使用 AI、并将继续用它的一条原则，是一层一层地建立信任。"
+    },
+    {
+      "i": 112,
+      "speaker": 5,
+      "speaker_zh": 5,
+      "ts": "27:20",
+      "en": "One is trusting in the boundaries of AI, having confidentiality in the perimeter of where information goes. Everything we use is enterprise grade, nothing trains on our data.",
+      "zh": "第一层是信任 AI 的边界：信息流转的范围有保密围栏。我们用的所有东西都是企业级的，没有任何东西拿我们的数据做训练。"
+    },
+    {
+      "i": 113,
+      "speaker": 5,
+      "speaker_zh": 5,
+      "ts": "27:33",
+      "en": "If we ever use agents, which we're not doing yet, they'll be walled off in sandboxed before we let them loose. And this is what earns us permission to use it at all.",
+      "zh": "如果将来使用智能体——我们目前还没有——我们会先把它隔离在沙箱里再放开。正是这些让我们获得使用它的许可。"
+    },
+    {
+      "i": 114,
+      "speaker": 5,
+      "speaker_zh": 5,
+      "ts": "27:42",
+      "en": "Another thing we think about is having trust in the output, thinking about accuracy as a primal part of any of the work we do, which means that we have to have a verification discipline, keeping a human involved in any consequential decision as we get there, finally trusting each other, thinking about what the provenance is of anything that's produced over the long term, thinking about what's human and what's AI is important in ensuring",
+      "zh": "另一个是信任输出：把准确性当作我们任何工作的第一要素，这意味着我们要有验证纪律，在重要决策上始终有人参与；最后是彼此信任：长期来看，任何产出的出处是什么、哪些是人的、哪些是 AI 的，这种区分对确保每份工作的透明性都很重要。"
+    },
+    {
+      "i": 115,
+      "speaker": 5,
+      "speaker_zh": 5,
+      "ts": "28:06",
+      "en": "everyone has transparency in any piece of work. Today we've spent a year plus an undirected play inside of our office. We're using AI in manager meetings and diligence prep.",
+      "zh": "过去一年多，我们在办公室里的玩法是无定向的自发探索。我们用 AI 做经理会议和尽调准备。"
+    },
+    {
+      "i": 116,
+      "speaker": 5,
+      "speaker_zh": 5,
+      "ts": "28:17",
+      "en": "It could be running investor letters. We've connected ChatGBT and Cloud to our Slack channel. We can pull manager data. We can pull meeting notes together to come up with thoughtful updates before we enter a meeting, generating questions that I think are grounded in a longer history of data than you can consume independently to draw on our accumulated history with the manager.",
+      "zh": "也可以是审阅投资人信函。我们把 ChatGPT 和 Claude 接到了 Slack 频道里，可以拉取经理数据、把会议纪要汇集起来，在进入会议之前形成有思考的更新，生成一些我觉得扎根于更长数据历史的问题——这些数据靠你个人是消化不过来的——调用我们与该经理打交道的积累历史。"
+    },
+    {
+      "i": 117,
+      "speaker": 5,
+      "speaker_zh": 5,
+      "ts": "28:40",
+      "en": "Everyone on the team has different use cases now, but we do these manager assessment frameworks where we grade our managers before deciding whether they go in the portfolio or whether we're going to engage in a rehab.",
+      "zh": "团队里每个人现在的用例都不同。我们会做经理评估框架：在决定经理是否进组合、或者我们要不要参与整改（rehab）之前，给他们打分。"
+    },
+    {
+      "i": 118,
+      "speaker": 5,
+      "speaker_zh": 5,
+      "ts": "28:50",
+      "en": "I will pull a ton of information together beyond the memo. I can bullet point every part of the framework and ensure that I'm leveling out my own bias by looking at broader history.",
+      "zh": "我会把备忘录之外的大量信息汇集起来，把框架的每一部分列成要点，通过审视更长的历史来拉平我自己的偏见。"
+    },
+    {
+      "i": 119,
+      "speaker": 5,
+      "speaker_zh": 5,
+      "ts": "29:01",
+      "en": "The team is using it for portfolio and position analysis, actively using Cloud for Excel to recreate manager models and pressure test assumptions.",
+      "zh": "团队也在用它做组合和持仓分析，积极使用 Claude for Excel 来重建经理的模型、压测假设。"
+    },
+    {
+      "i": 120,
+      "speaker": 5,
+      "speaker_zh": 5,
+      "ts": "29:10",
+      "en": "One of the cool use cases has been around HR and mentorship. Whoever's responsible for a meeting will pull together meeting notes prior to a meeting.",
+      "zh": "一个很酷的用例是在人力资源和辅导带教上。谁负责某次会议，会前会把会议笔记拉通汇总。"
+    },
+    {
+      "i": 121,
+      "speaker": 5,
+      "speaker_zh": 5,
+      "ts": "29:18",
+      "en": "If I read through the notes and feel like an area needs to go deeper, I'll start using Cloud as a thought partner to have a back and forth on how can we deepen this line of questioning and then pull from that dialogue to then give that feedback back to the team.",
+      "zh": "我读完笔记后，如果觉得某个地方要挖得更深，我会用 Claude 当思考伙伴，来回探讨这条提问线怎么挖深，然后从那段对话里提炼出反馈给到团队。"
+    },
+    {
+      "i": 122,
+      "speaker": 5,
+      "speaker_zh": 5,
+      "ts": "29:32",
+      "en": "Everyone on the team filled out a sheet called How I Operate that focused on how they like to communicate, what some of their pet peeves are.",
+      "zh": "团队每个人都填过一张叫 How I Operate（我如何工作）的表，写自己喜欢的沟通方式、有哪些雷区。"
+    },
+    {
+      "i": 123,
+      "speaker": 5,
+      "speaker_zh": 5,
+      "ts": "29:39",
+      "en": "Before I was giving reviews to anyone on the team, I wrote the reviews and then I paired them in Cloud with the How I Operate language and said, how could I reframe some of what I've written so that this person can better hear it?",
+      "zh": "我之前给团队成员写绩效评估时，先写好评估，然后在 Claude 里结合 How I Operate 的内容问：我怎么改写我写的话，让这个人更容易听进去？"
+    },
+    {
+      "i": 124,
+      "speaker": 5,
+      "speaker_zh": 5,
+      "ts": "29:52",
+      "en": "Have you tried that haven't met your expectations in the hype of what AI might be able to do? We tried to pull together mid-diligence updates and this would sit between our issue memo, which is early stage diligence sharing with the team and our investment memo.",
+      "zh": "有没有你试过、但 AI 没达到你们预期的事？我们尝试用它来做尽调中期的更新汇报——它的位置在我们的问题备忘录（早期尽调阶段、与团队分享的）和投资备忘录之间。"
+    },
+    {
+      "i": 125,
+      "speaker": 5,
+      "speaker_zh": 5,
+      "ts": "30:07",
+      "en": "The thought was that the lead or associate director could pull together this update using AI in an hour. It was a failure. We got some great diligence updates.",
+      "zh": "设想是负责人或副总监用 AI 一小时就能汇出这份更新。结果失败了。我们倒是得到了很不错的尽调更新。"
+    },
+    {
+      "i": 126,
+      "speaker": 5,
+      "speaker_zh": 5,
+      "ts": "30:16",
+      "en": "The team was finding that they were spending hours and hours pulling it together because the context was too big. The questions weren't specific enough or the outputs that they were getting weren't conducive to the way they wanted to share information.",
+      "zh": "团队发现他们要花好几个小时去拼，因为上下文太大，问题不够具体，拿到的产出也不适合他们想要的分享方式。"
+    },
+    {
+      "i": 127,
+      "speaker": 5,
+      "speaker_zh": 5,
+      "ts": "30:29",
+      "en": "So then we put it more on the team to say, we're still going to do the mid-diligence updates, but it's on you to be informed as opposed to creating another layer of paperwork trying to use AI as a cover.",
+      "zh": "于是我们把责任交还给团队：我们还是会做尽调中期更新，但靠你自己去了解情况，而不是再造一层文书、把 AI 当遮羞布。"
+    },
+    {
+      "i": 128,
+      "speaker": 5,
+      "speaker_zh": 5,
+      "ts": "30:39",
+      "en": "I'm hesitant about how AI is used in memo writing. It can be helpful in producing a robust quality of returns analysis, something that's concrete and specific.",
+      "zh": "对 AI 参与备忘录写作我是谨慎的。它在产出扎实的回报分析上可以有帮助，那是具体、明确的东西。"
+    },
+    {
+      "i": 129,
+      "speaker": 5,
+      "speaker_zh": 5,
+      "ts": "30:49",
+      "en": "There's real limitations. If the problem site gets too big and too unstructured, the LLM start to lose their potency and their accuracy. The more structured and specific the question, the better the answer.",
+      "zh": "但局限性是真实的：如果问题域太大、太非结构化，大语言模型（LLM）就开始失去效力和准确性。问题越结构化、越具体，答案越好。"
+    },
+    {
+      "i": 130,
+      "speaker": 5,
+      "speaker_zh": 5,
+      "ts": "31:01",
+      "en": "How have you managed the trust of all of your data? Using enterprise-grade systems was step one, ensuring that the systems have a robust compliant structure built into them.",
+      "zh": "你们怎么解决对所有数据的信任问题？用企业级系统是第一步，确保系统内置强健的合规架构。"
+    },
+    {
+      "i": 131,
+      "speaker": 5,
+      "speaker_zh": 5,
+      "ts": "31:13",
+      "en": "The model isn't training on the data, at least that's what they say. Another component of it has been that we have been deliberately slow in turning on co-work, code, any of the use of agents because we want to understand how we can ring fence what we're building.",
+      "zh": "模型不会拿数据做训练——至少他们是这么说的。另一个方面是，我们有意在开启 co-work、code、任何智能体使用上放慢脚步，因为我们想先弄清怎么把我们正在构建的东西圈进围栏里。"
+    },
+    {
+      "i": 132,
+      "speaker": 5,
+      "speaker_zh": 5,
+      "ts": "31:32",
+      "en": "We know we want to get there and we have a path. I would love to have Clyde be able to connect with my email. I'm just not at a place yet where we can be sure that that's safe and secure until we get there.",
+      "zh": "我们知道要走到那一步，路径也有。我很想让 Claude 连上我的邮箱，但现在还到不了能确信那安全无虞的地步，在走到那一步之前——"
+    },
+    {
+      "i": 133,
+      "speaker": 5,
+      "speaker_zh": 5,
+      "ts": "31:43",
+      "en": "We're approaching it slowly. Where do you hope to be a year from now? The beginning of the arc was having this unstructured play. The next step will be level up the team.",
+      "zh": "我们一步一步慢慢推进。一年后你希望走到哪里？开头这一段是毫无结构的自发探索，下一步是把团队整体水平拉起来。"
+    },
+    {
+      "i": 134,
+      "speaker": 5,
+      "speaker_zh": 5,
+      "ts": "31:54",
+      "en": "We're structuring a number of teachings. We're going to have learned to code through Clyde that one of our wonderful managers, Sam Lesson, is going to teach a number of teams in the New York area.",
+      "zh": "我们正在组织一系列教学，其中会有通过 Claude 学编程——我们一位很出色的经理 Sam Lesson 会给纽约地区的几个团队授课。"
+    },
+    {
+      "i": 135,
+      "speaker": 5,
+      "speaker_zh": 5,
+      "ts": "32:05",
+      "en": "The goal is really to build flexibly so that we have an owned layer that sits above any model that can have all of the skills of our process built into it, where we can take all these one-off use cases that the team has and turn it into something that's more of a shared language and a shared ecosystem that the whole team can use.",
+      "zh": "目标其实是灵活地搭建：我们要有一个自有的层，位于任何模型之上，把流程的全部技能内置进去，把团队这些零散用例变成一种共享语言和共享生态，让整个团队都能用。"
+    },
+    {
+      "i": 136,
+      "speaker": 5,
+      "speaker_zh": 5,
+      "ts": "32:24",
+      "en": "What we'd like to do is start letting the LLMs selectively read data, whether it's tying into data rooms or tying into the underlying documents that will create a powerful knowledge layer.",
+      "zh": "我们想开始让 LLM 有选择地读取数据，不管是连到数据室还是底层文档，形成一个强大的知识层。"
+    },
+    {
+      "i": 137,
+      "speaker": 5,
+      "speaker_zh": 5,
+      "ts": "32:34",
+      "en": "I want AI to be at the core of our operating system as an investment team. Doing things like every time someone on my team writes a memo, the system can prompt them and say, well, instead of writing this for you, here are some questions.",
+      "zh": "我希望 AI 成为我们投资团队操作系统的核心。做到这样的程度：每当团队里有人写备忘录，系统会提示——我不用替你写，但我给你提几个问题。"
+    },
+    {
+      "i": 138,
+      "speaker": 5,
+      "speaker_zh": 5,
+      "ts": "32:46",
+      "en": "That I can ask to help you hone your own thinking, it can become more of a dialogue that we have a system that knows us well enough that it can gently flag anchoring bias or help pull in information historically that could be relevant that we may not be thinking of to strengthen a thesis.",
+      "zh": "帮你打磨自己的思考，让过程更像一场对话。系统足够了解我们，能温和地点出锚定偏差，或者帮我们把历史上可能相关、我们没想到的信息拉进来，强化论点。"
+    },
+    {
+      "i": 139,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "33:04",
+      "en": "Jenny describes the challenge of turning experimentation into an investment team operating system. John Lawrence, CIO of Rice University and president of Rice Management Company, lays out the next step, a roadmap from productivity to investment alpha.",
+      "zh": "Jenny 描述了把实验变成投资团队操作系统的挑战。John Lawrence，Rice University 的 CIO 兼 Rice Management Company 总裁，给出下一步：一张从生产力走向投资 alpha 的路线图。"
+    },
+    {
+      "i": 140,
+      "speaker": 6,
+      "speaker_zh": 6,
+      "ts": "33:21",
+      "en": "Why don't we start with how you're thinking about AI and the investment office. We're using it for everything. AI is such an amazing technology that can not only help us from productivity perspective, but from an investment perspective, we're ultimately hoping to get to a point where we can drive alpha out of utilizing AI.",
+      "zh": "我们先从你怎么看待 AI 和投资办公室聊起。我们什么都用它。AI 是一项了不起的技术，它不仅能从生产力角度帮我们，从投资角度我们也最终希望做到利用 AI 驱动 alpha。"
+    },
+    {
+      "i": 141,
+      "speaker": 6,
+      "speaker_zh": 6,
+      "ts": "33:43",
+      "en": "We're not there yet, but that's our ultimate goal. Next we have to set up the infrastructure, which is important. We have to empower the team as well and have to have buy-in from the team at the university.",
+      "zh": "我们还没到那一步，但那是最终目标。接下来得把基础设施搭好，这很重要。也要赋能团队，让团队和大学里的人都买账。"
+    },
+    {
+      "i": 142,
+      "speaker": 6,
+      "speaker_zh": 6,
+      "ts": "33:53",
+      "en": "There's hurdles we have to get over. We certainly have to do the right thing. There's risk with regards to data integrity and some of the output.",
+      "zh": "有些障碍要跨过。我们当然要做正确的事：数据完整性和一些产出都存在风险。"
+    },
+    {
+      "i": 143,
+      "speaker": 6,
+      "speaker_zh": 6,
+      "ts": "34:00",
+      "en": "We have to be mindful of that. I think it can be a meaningful productivity enhancer. It can be meaningful from an investment decision making perspective and then ultimately drive alpha generation.",
+      "zh": "我们必须对此保持清醒。我认为它可以是实实在在的生产力放大器，可以在投资决策上带来实质价值，并最终驱动 alpha 生成。"
+    },
+    {
+      "i": 144,
+      "speaker": 6,
+      "speaker_zh": 6,
+      "ts": "34:10",
+      "en": "How are you using AI today in the office? I'll walk you through a few examples. I probably have a dozen for you how we're already utilizing AI.",
+      "zh": "你们今天在办公室里怎么用 AI？我给你走一遍几个例子，大概有十几个场景，告诉我们已经在怎么用 AI 了。"
+    },
+    {
+      "i": 145,
+      "speaker": 6,
+      "speaker_zh": 6,
+      "ts": "34:19",
+      "en": "One that's a very easy win for us was we have a daily news summary delivered by AI. We see news from our investment partners or key investments as well.",
+      "zh": "其中一个对我们来说非常见效：AI 每天给我们推送一份新闻摘要，包括我们投资伙伴或重点投资标的的新闻。"
+    },
+    {
+      "i": 146,
+      "speaker": 6,
+      "speaker_zh": 6,
+      "ts": "34:28",
+      "en": "That's helpful for me as a CIO. One thing more helpful is the weekly summary of all the work that our team has done. We have multiple asset classes, multiple folks out traveling all the time.",
+      "zh": "这对我作为 CIO 很有帮助。更有帮助的是每周汇总整个团队完成的工作：我们有多个资产类别，很多人常年在外差旅。"
+    },
+    {
+      "i": 147,
+      "speaker": 6,
+      "speaker_zh": 6,
+      "ts": "34:40",
+      "en": "All this comes in one weekly summary, all of our manager meetings, all the manager letters. That's been tremendously helpful for our team as far as staying on top of the portfolio.",
+      "zh": "所有内容汇成一份每周摘要：我们所有经理会议、所有经理信函。对团队跟踪组合非常有帮助。"
+    },
+    {
+      "i": 148,
+      "speaker": 6,
+      "speaker_zh": 6,
+      "ts": "34:50",
+      "en": "Another thing that's been helpful is preparing for manager meetings. We have a tremendous amount of historical data with our current partners.",
+      "zh": "另一个有帮助的是为经理会议做准备。我们与现有伙伴之间有海量的历史数据。"
+    },
+    {
+      "i": 149,
+      "speaker": 6,
+      "speaker_zh": 6,
+      "ts": "34:57",
+      "en": "The new partners we also have some data as well, preparing pointed questions and due diligence. It's been helpful on the meeting prep side. On the front end, on our board memos, it's been tremendously positive beneficiary.",
+      "zh": "对新伙伴我们也有一些数据，用它来准备有针对性的问题和尽调。会前准备这一块很有用。在前期环节，我们的董事会备忘录方面，它是极大的正面助力。"
+    },
+    {
+      "i": 150,
+      "speaker": 6,
+      "speaker_zh": 6,
+      "ts": "35:11",
+      "en": "We save about a day of time. That's a very onerous process. It consolidates the work that our team has already done and puts it into a template for us.",
+      "zh": "我们大约节省一天的时间，那个流程非常繁重。它把团队已经完成的工作整合进我们的模板。"
+    },
+    {
+      "i": 151,
+      "speaker": 6,
+      "speaker_zh": 6,
+      "ts": "35:20",
+      "en": "Analyzing financial statements, AI has been great. Particularly when we look at co-investments, AI has been a fantastic set of eyes for us. Building valuation models and building financial models, Claude is good at this and it's been helpful when we start from scratch.",
+      "zh": "分析财务报表，AI 很棒，尤其看联合投资（co-investment）时，它是我们非常好的一双眼睛。搭建估值模型、搭建财务模型方面，Claude 很在行，从零开始的时候很有帮助。"
+    },
+    {
+      "i": 152,
+      "speaker": 6,
+      "speaker_zh": 6,
+      "ts": "35:36",
+      "en": "From operations perspective, processing incoming documents, the tool canoe, that's been helpful, automating a lot of the integration of those documents into our current systems, saves roughly 30 hours of time for our operations team.",
+      "zh": "运营方面，处理进来的文件，工具 Canoe 很有用，它把那些文件自动集成进我们现有系统，为运营团队省了大约 30 个小时。"
+    },
+    {
+      "i": 153,
+      "speaker": 6,
+      "speaker_zh": 6,
+      "ts": "35:51",
+      "en": "The culmination of all this is when you have 10 or 12 data points, it's a tremendous efficiency enhancer. It allows our team to spend more time on the value out of work that hopefully helps us make better investment decisions.",
+      "zh": "所有这些的集大成在于，当你有 10 到 12 个数据点时，它是巨大的效率放大器，让团队把更多时间花在增值工作上，希望以此帮我们做出更好的投资决策。"
+    },
+    {
+      "i": 154,
+      "speaker": 6,
+      "speaker_zh": 6,
+      "ts": "36:04",
+      "en": "We had an AI day for the team internally for our team. We prepared a memo for our board and we prepared a podcast. One thing that's fascinating with the podcast, we decided to use an AI-generated voice.",
+      "zh": "我们内部为团队办了一个 AI 日。我们给董事会准备了一份备忘录，还做了一档播客。播客里有一件很有意思的事：我们决定用 AI 生成的声音。"
+    },
+    {
+      "i": 155,
+      "speaker": 6,
+      "speaker_zh": 6,
+      "ts": "36:16",
+      "en": "We put about two hours of previous podcasts that I've done for our board AI took that. I found it remarkable as far as the likeliness of my voice as well.",
+      "zh": "我们把大约两小时我过去给董事会做的播客内容喂给了 AI。它模仿我声音的逼真程度让我惊叹。"
+    },
+    {
+      "i": 156,
+      "speaker": 10,
+      "speaker_zh": 10,
+      "ts": "36:27",
+      "en": "We're going to take a quick break in the action to tell you about Brookfield. Brookfield invests in the thing behind the thing behind the next big thing.",
+      "zh": "我们中途插播一段关于 Brookfield 的介绍。Brookfield 投资的是下一个大事件背后、再背后的那些事物。"
+    },
+    {
+      "i": 157,
+      "speaker": 10,
+      "speaker_zh": 10,
+      "ts": "36:37",
+      "en": "Their focus across infrastructure, energy, real estate, private equity and credit is helping to build the backbone of the global economy. Brookfield combines deep operational expertise with disciplined long-term investing, uncovering value and partnering alongside clients to shape tomorrow's economy today.",
+      "zh": "他们在基础设施、能源、房地产、私募股权和信贷上的布局，正在帮助构建全球经济的骨干。Brookfield 把深厚的运营专长和纪律性的长期投资结合起来，发现价值，与客户并肩，塑造明天的经济。"
+    },
+    {
+      "i": 158,
+      "speaker": 10,
+      "speaker_zh": 10,
+      "ts": "36:57",
+      "en": "Invest in the businesses that shape tomorrow. Learn how you can own what's next at Brookfield.com slash own. This is not an offer to sell or investment advice.",
+      "zh": "投资塑造明天的企业。去 brookfield.com/own 了解如何拥有未来。本内容不构成出售要约或投资建议。"
+    },
+    {
+      "i": 159,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "37:08",
+      "en": "Investing involves risk, including the loss of capital. And now, back to the show. What are some of the areas that you dove into hoping AI would help but hasn't?",
+      "zh": "投资有风险，包括本金损失的可能。现在欢迎回到节目。你有没有哪些领域，本来希望 AI 能帮上忙、但目前还没有？"
+    },
+    {
+      "i": 160,
+      "speaker": 6,
+      "speaker_zh": 6,
+      "ts": "37:20",
+      "en": "The real challenge is aggregating our data into one centralized data lake house which we're working on. It's easier said than done. That has taken more time than I would have expected.",
+      "zh": "真正的挑战是把自己的数据汇总到一个中心化的数据湖仓（data lakehouse），我们正在做这件事，知易行难，花的时间比我预期多。"
+    },
+    {
+      "i": 161,
+      "speaker": 6,
+      "speaker_zh": 6,
+      "ts": "37:30",
+      "en": "I was hoping we would have had this six months ago. We're still working on it. I'd love to hear what your tech stack looks like. On the front end, canoe has been fantastic for us as far as automating, processing when we have incoming documents and financial statements.",
+      "zh": "我本来希望半年前就搞定，现在还在推进。很想听听你们的技术栈长什么样。前端上，Canoe 在自动化处理我们进来的文件和财务报表方面非常出色。"
+    },
+    {
+      "i": 162,
+      "speaker": 6,
+      "speaker_zh": 6,
+      "ts": "37:47",
+      "en": "We're building a centralized data lake house. You can use Microsoft or Google. On top of that, we can utilize any platform, chat, GBT, quad, Google Gemini, Microsoft co-pilot.",
+      "zh": "我们在建中心化数据湖仓，可以用 Microsoft 或 Google。在上面我们可以用任何平台：ChatGPT、Claude、Google Gemini、Microsoft Copilot。"
+    },
+    {
+      "i": 163,
+      "speaker": 6,
+      "speaker_zh": 6,
+      "ts": "37:59",
+      "en": "We also use a tool called Hevia, which has been productive for our team. On the back end, assuming we have our data lake house in a good position, then we can utilize any one of the LLMs to access our data.",
+      "zh": "我们还用了一个叫 Hevia 的工具，对团队很有帮助。后端，假设我们的数据湖仓状态良好，那就可以让任何一个 LLM 去访问我们的数据。"
+    },
+    {
+      "i": 164,
+      "speaker": 6,
+      "speaker_zh": 6,
+      "ts": "38:10",
+      "en": "I'm hoping we can utilize our data to identify patterns. At scale, it's hard to connect all the data that we have. Allocators have tremendous amount of access to managers, to letters, to peer conversations, to conferences, to podcasts.",
+      "zh": "我希望我们能利用数据识别模式。规模一大，把所有数据连起来很难。资产配置者能接触到海量信息：经理、信函、同行交流、会议、播客。"
+    },
+    {
+      "i": 165,
+      "speaker": 6,
+      "speaker_zh": 6,
+      "ts": "38:26",
+      "en": "Listen to your podcast head. Aggregating all that data together can be a challenge, and then making better decisions. That's ultimately where we want to get.",
+      "zh": "比如来听听你这档播客。把所有这些数据聚合起来本身就是个挑战，然后才能做更好的决策，那正是我们最终要到达的地方。"
+    },
+    {
+      "i": 166,
+      "speaker": 6,
+      "speaker_zh": 6,
+      "ts": "38:35",
+      "en": "What have you found to have been the most effective uses of the various LLMs? I found chat, GBT, helpful from a qualitative perspective. Quad, when we build financial models, helpful from a quantitative perspective.",
+      "zh": "你会发现各个 LLM 最有效的用途分别是什么？我觉得 ChatGPT 在定性方面有帮助；Claude 在我们搭财务模型时，在量化方面有帮助。"
+    },
+    {
+      "i": 167,
+      "speaker": 6,
+      "speaker_zh": 6,
+      "ts": "38:49",
+      "en": "Using Hevia has been helpful building presentations for the investment discussion, tying some of the analysis together, putting this into our RMC rice management company template, which we have in Hevia.",
+      "zh": "用 Hevia 帮我们做投资讨论的演示文稿很有帮助，把一些分析串起来，套进我们在 Hevia 里的 RMC（Rice Management Company）模板。"
+    },
+    {
+      "i": 168,
+      "speaker": 6,
+      "speaker_zh": 6,
+      "ts": "39:06",
+      "en": "Tremendous efficiency gains across the board for all three of those platforms. As you look out over the next year, what are the steps you're hoping to take to get to the point where you're impacting alpha generation?",
+      "zh": "这三个平台整体上带来了巨大的效率提升。展望未来一年，为了真正影响 alpha 生成，你打算走哪些步骤？"
+    },
+    {
+      "i": 169,
+      "speaker": 6,
+      "speaker_zh": 6,
+      "ts": "39:18",
+      "en": "It's going to be proven at some point in five years or not if we're successful. I'm certainly hopeful we get there. A 10 basis point increase in annual returns would be worth it.",
+      "zh": "这件事如果做成了，五年内总会被证明有用或者没用。我当然希望我们能走到那一步。每年回报多 10 个基点就值了。"
+    },
+    {
+      "i": 170,
+      "speaker": 6,
+      "speaker_zh": 6,
+      "ts": "39:28",
+      "en": "I'm hopeful to find patterns and information that can allow us to make one or two better decisions a year. Minor increments in improvement can have major compounding effects in the future.",
+      "zh": "我希望能找到一些模式和信息，让我们一年能做对一两个更好的决策。小小的改进累积起来，未来会有巨大的复利效应。"
+    },
+    {
+      "i": 171,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "39:40",
+      "en": "In case you're wondering about John's AI-generated presentation for his board, here's a short clip from the introduction. Good luck telling the difference from John's real voice.",
+      "zh": "如果你好奇 John 给他董事会做的 AI 生成汇报是什么样，下面是一段开头剪辑，看你能不能听出它和 John 真声音的区别。"
+    },
+    {
+      "i": 172,
+      "speaker": 10,
+      "speaker_zh": 10,
+      "ts": "39:51",
+      "en": "Before we begin, I want to acknowledge that a considerable amount of this content and discussion you are about to hear was generated with the assistance of artificial intelligence.",
+      "zh": "在开始之前，我想说明：你们即将听到的内容中有相当一部分是在人工智能辅助下生成的。"
+    },
+    {
+      "i": 173,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "40:01",
+      "en": "In fact, this is not the real voice of John Lawrence. The narration for this presentation was also generated by AI. John explains why getting proprietary data organized is essential to improving decisions.",
+      "zh": "事实上，这不是 John Lawrence 本人的声音，这段汇报的旁白也是 AI 生成的。John 解释了为什么把专有数据整理好对改善决策至关重要。"
+    },
+    {
+      "i": 174,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "40:15",
+      "en": "Matt Bank, CIO of $14 billion OCIO Gem, is rethinking the investment workflow itself. He also describes how dramatically cheaper software development is allowing Gem to build customized tools internally instead of relying on outside vendors.",
+      "zh": "Matt Bank，140 亿美元规模的 OCIO 机构 Gem 的 CIO，正在重新思考投资工作流本身。他还讲到软件开发成本大幅下降，让 Gem 能在内部自建定制工具，而不依赖外部供应商。"
+    },
+    {
+      "i": 175,
+      "speaker": 7,
+      "speaker_zh": 7,
+      "ts": "40:34",
+      "en": "Matt, how have you thought about using AI strategically at Gem? Phase one for us was building out a foundational enterprise tool set, some internal development capabilities.",
+      "zh": "Matt，你在 Gem 是怎么从战略上考虑使用 AI 的？我们第一阶段是搭一套基础的企业工具集，加上一些内部开发能力。"
+    },
+    {
+      "i": 176,
+      "speaker": 7,
+      "speaker_zh": 7,
+      "ts": "40:49",
+      "en": "We needed to enable secure, decentralized experimentation across teams because everybody has a slightly different workflow. We're encouraging everybody to think like a shop floor four-person, deconstruct their workflow, sourcing, diligence, monitoring managers, portfolio management.",
+      "zh": "我们需要让安全、分散的实验在各个团队展开，因为每个人的工作流都略有不同。我们鼓励每个人都像车间一线员工那样思考，把自己的工作流拆解开来：寻源、尽调、经理监控、组合管理。"
+    },
+    {
+      "i": 177,
+      "speaker": 7,
+      "speaker_zh": 7,
+      "ts": "41:07",
+      "en": "Every stage has some bottleneck or limiting factor. You start with the lowest order stuff, and that has been time saving on data aggregation and retrieval, no taking apps.",
+      "zh": "每个环节都有某种瓶颈或限制因素。你先从最底层的事做起，我们在数据聚合和检索、记笔记应用这些方面已经省了时间。"
+    },
+    {
+      "i": 178,
+      "speaker": 7,
+      "speaker_zh": 7,
+      "ts": "41:19",
+      "en": "That saves junior team members time and cleaning and parsing, particularly for introductory calls we have with managers every week. For our marketables team, there's a lot of meeting prep that goes on, reviewing old call notes, letters that might have been written over the past several years.",
+      "zh": "这些给初级成员省出了时间，还有清洗和解析，尤其是每周和经理的介绍性电话会。对市场条线来说，大量会前准备：翻旧的电话纪要、过去几年写的信函。"
+    },
+    {
+      "i": 179,
+      "speaker": 7,
+      "speaker_zh": 7,
+      "ts": "41:34",
+      "en": "For a quick refresh, we want to be able to pull that together in a thoughtful way. For our private team, it's sector research. We do a lot in the independent sponsor market.",
+      "zh": "为了快速温故知新，我们想以有思考的方式把这些汇总起来。私募团队那边是行业研究，我们在独立发起人（independent sponsor）市场做得很多。"
+    },
+    {
+      "i": 180,
+      "speaker": 7,
+      "speaker_zh": 7,
+      "ts": "41:43",
+      "en": "Trying to get a baseline on a new sector is important. We're not so arrogant to think we're going to know more about geofabrics, extrusion relative to what the GP or the owners of that business know.",
+      "zh": "进入一个新行业，先拿到一个基线很重要。我们不至于自负到觉得自己比 GP 或企业老板更懂土工织物挤出成型这些东西。"
+    },
+    {
+      "i": 181,
+      "speaker": 7,
+      "speaker_zh": 7,
+      "ts": "41:55",
+      "en": "Can we get smart enough to ask better questions? In my seat, the bottleneck is consuming research, strategists, papers, podcasts. My commute is only 20 minutes.",
+      "zh": "我们能不能变得足够聪明，问出更好的问题？坐在我这个位子上，瓶颈是消化研究：策略报告、论文、播客。我每天通勤只有 20 分钟。"
+    },
+    {
+      "i": 182,
+      "speaker": 7,
+      "speaker_zh": 7,
+      "ts": "42:06",
+      "en": "The feasibility of getting through all of the ones I want to get through in a week, it's not a reasonable exercise. The next level is doing things more quickly and deeply.",
+      "zh": "想一周之内把所有想听的内容听完，这不是个现实的指望。下一层是做得更快、更深。"
+    },
+    {
+      "i": 183,
+      "speaker": 7,
+      "speaker_zh": 7,
+      "ts": "42:16",
+      "en": "How do you cut to the chase through data faster? For current manager meetings, that's monitoring theses through time and space. How have the stock positions evolved?",
+      "zh": "你怎么透过数据更快切中要害？就现有经理的会议而言，是跨越时间和空间监控论点：他们的股票持仓如何演变？"
+    },
+    {
+      "i": 184,
+      "speaker": 7,
+      "speaker_zh": 7,
+      "ts": "42:26",
+      "en": "Are there any inconsistencies in the way a manager is talking about that? If you're on a biotech call and someone's talking about a royalty stream on a drug, let's get some comps pulled together within the next five minutes and figure out how we might think about valuing that.",
+      "zh": "经理的表述有没有前后不一致？比如你在一个生物科技电话上，有人在讲某个药的特许权使用费流（royalty stream），那就五分钟内拉一些可比案例出来，弄清楚我们可能怎么给它估值。"
+    },
+    {
+      "i": 185,
+      "speaker": 7,
+      "speaker_zh": 7,
+      "ts": "42:39",
+      "en": "Where we've stopped short so far is decision-making and agency. We want to make sure everything we're doing is intentional. That last piece, amplifying the pace of decisions we've not executed on, in part because we're cautious about what the bleeding edge looks like and making sure we're being extremely thoughtful with client capital.",
+      "zh": "目前我们止步的地方是决策和自主行动（agency）。我们想确保每一件事都是有意为之。最后那块——加快决策的节奏——我们还没有做，一部分是因为我们对最前沿的样子保持谨慎，必须极其审慎地对待客户的资本。"
+    },
+    {
+      "i": 186,
+      "speaker": 7,
+      "speaker_zh": 7,
+      "ts": "42:59",
+      "en": "Does you look across that order from sourcing all the way to decision-making? What tools are you using? Claude, which has been a critical driver of internal development.",
+      "zh": "从寻源一直到决策这条链上，你们都在用哪些工具？Claude，它是内部开发的关键驱动力。"
+    },
+    {
+      "i": 187,
+      "speaker": 7,
+      "speaker_zh": 7,
+      "ts": "43:11",
+      "en": "Granola is the note-taking tool that people have congealed around as most useful. We have an internal search tool called Glean, which is model agnostic.",
+      "zh": "记笔记工具 Granola 是大家公认最有用的。我们有一个内部搜索工具叫 Glean，不绑定任何模型。"
+    },
+    {
+      "i": 188,
+      "speaker": 7,
+      "speaker_zh": 7,
+      "ts": "43:21",
+      "en": "It has basically driven the cost of search across the firm's various data sets to zero. Let everybody's best efforts to save things in a file structure that's useful that you can retrieve information from.",
+      "zh": "它基本上把全公司各种数据集的搜索成本降到了零，前提是大家都尽量把东西存进有用、可检索的文件结构里。"
+    },
+    {
+      "i": 189,
+      "speaker": 7,
+      "speaker_zh": 7,
+      "ts": "43:33",
+      "en": "Inevitably, over 20 years, things get hard to find. We've been able to stitch our SharePoint in with our Microsoft Teams, in with our CRM, Bipsync, in with Chronograph, which monitors PE-related cash flows.",
+      "zh": "20 年下来，东西难免会难找。我们已经把 SharePoint 和 Microsoft Teams、和 CRM 系统 Bipsync、和监控私募股权相关现金流的 Chronograph 串在了一起。"
+    },
+    {
+      "i": 190,
+      "speaker": 7,
+      "speaker_zh": 7,
+      "ts": "43:47",
+      "en": "You can just go on to this thing and ask it to pull various information. We continue to use a number of things that Gem alumni have helped build over time, Owl being one of them.",
+      "zh": "你可以直接到这个系统里问它调取各种信息。我们继续在用一些 Gem 校友陆续帮忙搭建的工具，Owl 就是其中之一。"
+    },
+    {
+      "i": 191,
+      "speaker": 7,
+      "speaker_zh": 7,
+      "ts": "43:57",
+      "en": "Campbell Wilson's firm is terrific. They pull from a lot of interesting data sources. They are using AI in thoughtful ways. That has plugged in nicely with our map of GPs and LPs.",
+      "zh": "Campbell Wilson 的那家公司非常棒，他们采集很多有意思的数据源，AI 用得也很讲究。这个跟我们 GP 和 LP 的地图接得很顺。"
+    },
+    {
+      "i": 192,
+      "speaker": 7,
+      "speaker_zh": 7,
+      "ts": "44:08",
+      "en": "We get a spit out every week from them in terms of position-level changes that they're seeing at the managers we have. However, if you rewind the calendar a year, about 90% of our spend and our tool set was externally developed.",
+      "zh": "他们每周给我们输出一份报告，是我们在投的这些经理仓位层面的变化。不过把日历倒回一年，我们大约 90% 的支出和工具集都是外部开发的。"
+    },
+    {
+      "i": 193,
+      "speaker": 7,
+      "speaker_zh": 7,
+      "ts": "44:24",
+      "en": "We were buying off-the-shelf things, trying to integrate them. Today that has flipped. 90% of the things we're developing are internal. We've got a team of three developers working full-time on building tool sets that are specific to our particular use cases and objectives.",
+      "zh": "当时我们买现成的产品、试着做集成。现在这个比例反过来了：我们开发的东西 90% 是内部的。我们有三位全职开发者，在为我们的特定用例和目标建工具集。"
+    },
+    {
+      "i": 194,
+      "speaker": 7,
+      "speaker_zh": 7,
+      "ts": "44:41",
+      "en": "One example would be they're in process on a sourcing tool that will instantly identify when title changes have happened at various firms, when deals have gotten done by certain people, people have left firms.",
+      "zh": "一个例子是他们正在做一款寻源工具，能在各种机构发生头衔变动、某些人完成交易、有人离开机构时立刻识别出来。"
+    },
+    {
+      "i": 195,
+      "speaker": 7,
+      "speaker_zh": 7,
+      "ts": "44:55",
+      "en": "It will plug that into a relationship map that helps the sourcing team get out in front of prospective manager relationships in the future. That's been helpful because you're not relying on the marketplace to invent this stuff or working with third parties.",
+      "zh": "它把这些接进一张关系图谱，帮寻源团队提前布局未来的潜力经理关系。这很有帮助，因为你不用等市场去发明这些东西，也不用依赖第三方。"
+    },
+    {
+      "i": 196,
+      "speaker": 7,
+      "speaker_zh": 7,
+      "ts": "45:09",
+      "en": "We're doing it directly. Our team generates about 30,000 lines of code per month. I'm told that's a lot. I don't know for a firm of our size, but it's up 10x from where that was last year.",
+      "zh": "我们自己在直接做。我们团队每月大概产出 3 万行代码，听说这很多。我不确定这对我们这种规模的公司意味着什么，但比去年已经涨了 10 倍。"
+    },
+    {
+      "i": 197,
+      "speaker": 7,
+      "speaker_zh": 7,
+      "ts": "45:20",
+      "en": "What are aspects that you've been hoping you could use AI to enhance that haven't worked? There's a gentic chatter about the capacity of the tool to take workflows end-to-end and execute on them.",
+      "zh": "有哪些你曾希望 AI 能增强、但实际没成功的地方？现在有一种流行的说法，说工具能端到端接手工作流并执行。"
+    },
+    {
+      "i": 198,
+      "speaker": 7,
+      "speaker_zh": 7,
+      "ts": "45:36",
+      "en": "We haven't really seen that in a cost-effective way work. We've had to meter some of our token usage because of things that were way out of bounds with respect to what the benefits were.",
+      "zh": "我们还没见过这在成本效益上真正跑得通。有些用途开销远远超出收益，我们不得不控制一些 token 用量。"
+    },
+    {
+      "i": 199,
+      "speaker": 7,
+      "speaker_zh": 7,
+      "ts": "45:49",
+      "en": "We're deploying capital to primarily third parties. There's so much unstructured data still that we can capture that will be time-saving and enhance the quality of our insights that we haven't really spent a ton of time on some of this.",
+      "zh": "我们主要把资本投给第三方，还有太多非结构化数据我们其实可以捕获，能省时间、提升洞察质量，所以还没有花太多精力在那些端到端的事情上。"
+    },
+    {
+      "i": 200,
+      "speaker": 7,
+      "speaker_zh": 7,
+      "ts": "46:04",
+      "en": "Let's solve this particular workflow. That'll save us three FTEs. We still have all the same people. In fact, we've added folks. We will continue to add folks who will be capable because of this tool, but it is by no means a panacea for operational expense.",
+      "zh": "我们更倾向解决某一个具体工作流，说它能帮我们省三个全职人力（FTE）——但实际上还是原来那拨人，事实上我们还加了人。因为工具赋能，我们会继续加人，但它绝不是运营成本的万能药。"
+    },
+    {
+      "i": 201,
+      "speaker": 7,
+      "speaker_zh": 7,
+      "ts": "46:20",
+      "en": "Part of the challenge is we've got a few folks on the team that feel strongly that the junior team members need to dig through things, learn how to prosecute the process in a way where we haven't been eager to make their lives that much easier.",
+      "zh": "挑战之一是，团队里有几位成员强烈认为，初级人员需要自己深挖东西、学会推进流程，所以我们并不急着把他们的生活变得那么容易。"
+    },
+    {
+      "i": 202,
+      "speaker": 7,
+      "speaker_zh": 7,
+      "ts": "46:34",
+      "en": "The core function is building out the dashboards, understanding the pattern recognition, making sure you're in the flow of the information in a way where you understand where all the pieces fit together, and then advance the ball.",
+      "zh": "核心职能是搭好仪表盘、理解模式识别、让自己处在信息流之中、知道各个环节怎么拼合，然后把球往前推进。"
+    },
+    {
+      "i": 203,
+      "speaker": 7,
+      "speaker_zh": 7,
+      "ts": "46:44",
+      "en": "As you look out, what do you think you'll be using AI for a year from now that you're not today? There's a ton of room between where we are and optimal in terms of our ability to capture information.",
+      "zh": "展望未来，一年后你会用 AI 做什么现在还没做的事？在信息捕获能力上，我们离最优还有非常大的空间。"
+    },
+    {
+      "i": 204,
+      "speaker": 7,
+      "speaker_zh": 7,
+      "ts": "47:00",
+      "en": "We are effectively in the mosaic business. We are responsible for taking in an evolution of facts and circumstances and trying to parse out whether we think they're predictive of the future or not.",
+      "zh": "我们做的其实是马赛克拼图生意：接收不断演变的事实和情况，尝试判断它们对未来有没有预测意义。"
+    },
+    {
+      "i": 205,
+      "speaker": 7,
+      "speaker_zh": 7,
+      "ts": "47:13",
+      "en": "Splitting that up is a critical task of manager selection. What if instead of the numbers, you could capture all the data? You could get the team out in the field traveling more, meeting with folks, all of the subtle cues.",
+      "zh": "把这层分辨清楚，是挑选经理的关键工作。如果抓的不只是数字，而是所有数据呢？你可以让团队更多地走出去差旅、见人，捕捉所有微妙的信号。"
+    },
+    {
+      "i": 206,
+      "speaker": 7,
+      "speaker_zh": 7,
+      "ts": "47:25",
+      "en": "If you could somehow organize those, get them into a system that allowed you to draw conclusions, see patterns, anything that can continue to push the flywheel faster.",
+      "zh": "如果能以某种方式把这些组织起来，放进一个能让你得出结论、看到模式的系统，任何能让飞轮转得更快的东西——"
+    },
+    {
+      "i": 207,
+      "speaker": 7,
+      "speaker_zh": 7,
+      "ts": "47:36",
+      "en": "That's the thing that if we could do quicker and better, we'd be more effective. We want to see everything that's worth seeing out there. That's a fantastic ambition.",
+      "zh": "那件事如果我们能做得更快更好，我们就会更有效。我们想看到外面所有值得看的东西。这个志向非常棒。"
+    },
+    {
+      "i": 208,
+      "speaker": 7,
+      "speaker_zh": 7,
+      "ts": "47:46",
+      "en": "The fun thing here, I tend to think of this more in the cosmic sense, ultimately you want a firm brain. We don't want to let the team and the thought processes that go into this atrophy, as long as we have sufficient agency, the flywheel is beginning to spin a lot faster and we're confident it's going to continue to.",
+      "zh": "有意思的地方是，我更从宇宙视角看这件事：最终你想要的是一个机构大脑。我们不想让团队和其中的思考过程萎缩退化。只要我们有足够的自主权，飞轮已经开始转得快多了，我们相信它会继续加速。"
+    },
+    {
+      "i": 209,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "48:04",
+      "en": "That takes us to the edge of using AI in actual investment decisions, but deliberately stops short. KK Rowland is embedding AI across the investment life cycle.",
+      "zh": "这就带到了在真实投资决策中使用 AI 的边缘，但我们是有意停下来的。KK Rowland 正在把 AI 嵌入投资生命周期的每个环节。"
+    },
+    {
+      "i": 210,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "48:15",
+      "en": "KK is global head of alternative investments for JP Morgan asset and wealth management, where $250 billion of the private bank's $500 billion in AUM is under her watch.",
+      "zh": "KK 是 J.P. Morgan 资产与财富管理（Asset and Wealth Management）的另类投资全球负责人，私人银行 5000 亿美元 AUM 中有 2500 亿美元由她分管。"
+    },
+    {
+      "i": 211,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "48:28",
+      "en": "Her team is currently using agents to create manager profiles, engage in red teaming, and generate signals that influence capital allocation.",
+      "zh": "她的团队目前正用智能体创建经理画像、进行红队对抗，并生成影响资本配置的信号。"
+    },
+    {
+      "i": 212,
+      "speaker": 8,
+      "speaker_zh": 8,
+      "ts": "48:37",
+      "en": "KK, how are you using AI inside the team? Alt in particular, runs on documents. Public markets are structured and normalized decades ago. Alt's never worth.",
+      "zh": "KK，你在团队内部怎么用 AI？另类投资尤其是一个靠文档运转的领域。公开市场的数据几十年前就被结构化和标准化了，另类从来没有。"
+    },
+    {
+      "i": 213,
+      "speaker": 8,
+      "speaker_zh": 8,
+      "ts": "48:51",
+      "en": "A fund arrives with a private placement memorandum, and then side letters, performance comms, as a GP reports in whatever format they choose.",
+      "zh": "一只基金来的时候带着私募备忘录（private placement memorandum），然后是附属函（side letter）、业绩通报，GP 想用什么格式报告就用什么格式。"
+    },
+    {
+      "i": 214,
+      "speaker": 8,
+      "speaker_zh": 8,
+      "ts": "49:01",
+      "en": "Every stage, we've had this skilled person reading documents, retyping the one that says our work was slow, it didn't scale, doing fun research, how we collect data from fund managers, how we move it into a diligence phase.",
+      "zh": "每一个环节，过去都要靠专业人员读文档、重新录入，我们的工作慢、没法规模化。从我们如何从基金经理那里收集数据、到如何把它推进尽调阶段——"
+    },
+    {
+      "i": 215,
+      "speaker": 8,
+      "speaker_zh": 8,
+      "ts": "49:15",
+      "en": "We pre-populate the first draft of an investment review committee memo. We do what's called a rent team before we go to invest for recommits.",
+      "zh": "我们现在会预填投资评审委员会（IRC）备忘录的第一稿。在去投委会做复审或者续投之前，我们会做所谓的红队（red team）。"
+    },
+    {
+      "i": 216,
+      "speaker": 8,
+      "speaker_zh": 8,
+      "ts": "49:23",
+      "en": "We use an agent alongside us to play devil's advocate in that process, the ongoing diligence making sure that we're staying in check with what the initial investment thesis was.",
+      "zh": "那个过程里我们用一个智能体在旁边扮演唱反调的角色（devil's advocate）。持续尽调中，我们确保自己没有偏离最初的投资论点。"
+    },
+    {
+      "i": 217,
+      "speaker": 8,
+      "speaker_zh": 8,
+      "ts": "49:34",
+      "en": "AI is typically taking that first path. We get that data in on a monthly or quarterly basis. It's also structured and onboarding, negotiating terms, doing the compare and construct is really helpful for us.",
+      "zh": "AI 通常先吃下第一道工序。数据按月或按季度进来。结构化、经理入驻、条款谈判、做对比和拼装，这些对我们帮助很大。"
+    },
+    {
+      "i": 218,
+      "speaker": 8,
+      "speaker_zh": 8,
+      "ts": "49:47",
+      "en": "We have a lot of portfolio construction tools where we've embedded AI in terms of how we generate simulations. The last piece of the process is all the servicing and the operations.",
+      "zh": "我们有很多组合构建工具，AI 已经嵌进了模拟生成的方式里。流程的最后一环是全部的服务和运营。"
+    },
+    {
+      "i": 219,
+      "speaker": 8,
+      "speaker_zh": 8,
+      "ts": "49:57",
+      "en": "Let's take in off probably a third of the workload of people just in the last six to nine months. AI is embedded into every aspect of our work stream.",
+      "zh": "就说过去六到九个月，它大概接走了三分之一的工作量。AI 已经嵌入我们工作流的方方面面。"
+    },
+    {
+      "i": 220,
+      "speaker": 8,
+      "speaker_zh": 8,
+      "ts": "50:06",
+      "en": "It's not bolted on the side, it is a part of everything. Let's dive into some of the specifics. Within JPMorgan, we have this go slash LLM suite.",
+      "zh": "它不是外挂在一旁，而是每件事的一部分。我们说点具体的。在 J.P. Morgan 内部，我们有这套 go/LLM 套件。"
+    },
+    {
+      "i": 221,
+      "speaker": 8,
+      "speaker_zh": 8,
+      "ts": "50:16",
+      "en": "We keep all of our client data in-house. We're using AI to organize the data around the tracking the themes. That could be everything from what's going on in healthcare and biotech right now, mixing across public and private information that we have available, all the way to Japanese corporate governance reform, using AI agents to ingest the news that we're seeing externally as well as the information that we have internally.",
+      "zh": "所有客户数据都留在内部。我们用 AI 围绕主题来组织数据，可以是目前医疗和生物科技领域在发生什么——把我们能拿到的公开和私有信息混在一起——一直到日本公司治理改革，用 AI 智能体消化外部的新闻和我们内部掌握的信息。"
+    },
+    {
+      "i": 222,
+      "speaker": 8,
+      "speaker_zh": 8,
+      "ts": "50:41",
+      "en": "The other places in AI is in these profiles. We create internal notes when we onboard a manager to say what the profile of that manager is. We have these living profiles to make sure that when we get call notes as words that they use change to describe the same thing as before or an investment thesis changes, how that's relating to the risk parameters that we put around a manager.",
+      "zh": "AI 的另一个用处是在这些画像上。经理入驻时我们会创建内部记录，描述这位经理的画像。我们维护这些活的档案：当我们拿到电话纪要，看他们用词是否变了——描述同一件事的说法和以前不同了、或投资论点变了，这些如何关联到我们在经理周围设置的风险参数。"
+    },
+    {
+      "i": 223,
+      "speaker": 8,
+      "speaker_zh": 8,
+      "ts": "51:03",
+      "en": "We use a lot of AI when it comes to coaching our own professionals as we bring on new people or as we try to educate our investment committee, our advisors, and ultimately our clients.",
+      "zh": "在辅导我们自己的专业人员上我们也大量使用 AI，无论是带新人，还是教育我们的投资委员会、顾问，以及最终的客户。"
+    },
+    {
+      "i": 224,
+      "speaker": 8,
+      "speaker_zh": 8,
+      "ts": "51:14",
+      "en": "I'd love you to jump into that profile of a manager. Walk me through how that works. Every manager looks somewhat different. Within an investment review committee, we have a lot of the same initial criteria of what we put out there.",
+      "zh": "请你细讲一下那个经理画像，展开说说它怎么运作。每家经理看起来都有点不同。在投资评审委员会里，我们设定的很多初始标准是共同的。"
+    },
+    {
+      "i": 225,
+      "speaker": 8,
+      "speaker_zh": 8,
+      "ts": "51:32",
+      "en": "What's their philosophy? What is the process by which they've generated that? What you want to make sure is that what a manager does is repeatable.",
+      "zh": "他们的投资哲学是什么？他们靠什么过程产生业绩？你要确保的是，经理做的事情是可复制的。"
+    },
+    {
+      "i": 226,
+      "speaker": 8,
+      "speaker_zh": 8,
+      "ts": "51:41",
+      "en": "In an investment review committee deck, it's setting up the agents to know the thesis that you originally underwrote, whether it was a year ago, three years ago, five years ago, which is the outcome of where that return is.",
+      "zh": "在投委会材料里，关键是把智能体设定为知道自己最初承保时的论点——是一年前、三年前还是五年前写下的——那才是回报结果的来源。"
+    },
+    {
+      "i": 227,
+      "speaker": 8,
+      "speaker_zh": 8,
+      "ts": "51:52",
+      "en": "When there's outsized winners or outsized losers, you make sure that it was in line with their original risk expectations. AI is able to help us do that because they're matching data to what we originally underwrote versus be swayed by the headlines that are coming in and out.",
+      "zh": "当出现过大的赢家或输家时，你要确认这与他们最初的风险预期是否一致。AI 能帮上忙，因为它把数据和最初承保的内容做对照，而不是被来来去去的新闻头条带偏。"
+    },
+    {
+      "i": 228,
+      "speaker": 8,
+      "speaker_zh": 8,
+      "ts": "52:06",
+      "en": "You mentioned using AI for your red teams. We'd love to hear how that works. We use AI to help us compare and contrast. We're on a fund six.",
+      "zh": "你提到用 AI 做红队，很想听听具体怎么运作。我们用 AI 帮助做对比。比如我们在看一只六期基金。"
+    },
+    {
+      "i": 229,
+      "speaker": 8,
+      "speaker_zh": 8,
+      "ts": "52:15",
+      "en": "We ingest the first five funds to help us preempt some of the questions that we're going to have about, is the firm growing faster than the people have grown?",
+      "zh": "我们把前五期的材料消化进来，帮我们预判一些会问到的问题：公司的成长是不是超过了人的成长？"
+    },
+    {
+      "i": 230,
+      "speaker": 8,
+      "speaker_zh": 8,
+      "ts": "52:24",
+      "en": "There's been a shift between funds three and four versus funds five and fund six. It starts preempting some of the questions that we should be thinking about so that when we do go on site with a manager, we can highlight specifics around some of these atteries.",
+      "zh": "三期、四期和五期、六期之间出现了变化。它会先提出一些我们本应思考的问题，这样真正去现场见经理时，我们就能针对这些痛点做具体的提问。"
+    },
+    {
+      "i": 231,
+      "speaker": 8,
+      "speaker_zh": 8,
+      "ts": "52:38",
+      "en": "The second thing we'll do is strategy mandate. We'll do private funds as an example. We'll say had the average hold changed, how quick they are to put the money out to work.",
+      "zh": "第二件事是策略授权。以私募股权基金为例，我们会看平均持有期有没有变化、他们把钱投出去的速度有多快。"
+    },
+    {
+      "i": 232,
+      "speaker": 8,
+      "speaker_zh": 8,
+      "ts": "52:46",
+      "en": "It goes through that level deeper so that we can get quicker to the key points that we think are driving the wins or the losses. The third thing in a red team that we look at is an investment process.",
+      "zh": "它会往更深处走一层，让我们更快切中我们认为驱动盈利或亏损的关键点。红队里看的第三件事是投资流程。"
+    },
+    {
+      "i": 233,
+      "speaker": 8,
+      "speaker_zh": 8,
+      "ts": "52:58",
+      "en": "From an AI perspective, a lava uses some of the call notes that our operational diligence team has or our investments diligence team has, compares and contrasts over prior calls to see if there's a shift in tone, shift in people, shift in how they talk about value creation.",
+      "zh": "从 AI 的角度，它用我们运营尽调团队或投资尽调团队的一些电话纪要，与以往通话对比，看语气有没有变化、人员有没有变化、他们谈论价值创造的方式有没有变化。"
+    },
+    {
+      "i": 234,
+      "speaker": 8,
+      "speaker_zh": 8,
+      "ts": "53:13",
+      "en": "AI is picking up on a lot of those transcripts that we're using to then preempt the question about, is this something we should be worried about?",
+      "zh": "AI 在大量消化这些文字记录，帮我们预先提出那个问题：这是我们该担心的事吗？"
+    },
+    {
+      "i": 235,
+      "speaker": 8,
+      "speaker_zh": 8,
+      "ts": "53:20",
+      "en": "It's amazing because we can create these agents and we can share them across partners and people so that we can see if there's something that someone on the growth equity team did that the private credit team wants to think about.",
+      "zh": "很了不起的一点是，我们创建这些智能体之后，可以在各合伙条线的人之间共享，看看成长股权团队做了什么、是私募信贷团队也值得思考的。"
+    },
+    {
+      "i": 236,
+      "speaker": 8,
+      "speaker_zh": 8,
+      "ts": "53:31",
+      "en": "We're using our agents across all those things to create synergies across creating red teams and then deviled advocates before we go to an investment committee so that we're best prepared to answer any questions that might get thrown away.",
+      "zh": "我们在所有这些环节使用智能体，在红队之间创造协同，在进投资委员会之前先唱反调，让我们做好最好的准备，应对可能抛来的任何问题。"
+    },
+    {
+      "i": 237,
+      "speaker": 8,
+      "speaker_zh": 8,
+      "ts": "53:41",
+      "en": "What tools are you using to integrate that? There's a couple of vendor tools that we use, AlphaSense on the back end. We use all of the models.",
+      "zh": "你们用什么工具来集成？有几个供应商工具，后端用 AlphaSense。模型我们全都用。"
+    },
+    {
+      "i": 238,
+      "speaker": 8,
+      "speaker_zh": 8,
+      "ts": "53:50",
+      "en": "We have a system within our LLM suite that helps us understand which one's the most efficient. We have what's called Connect Coach, which connects us internally to each other and then our DEA to advisors and clients.",
+      "zh": "我们的 LLM 套件里有一个系统，帮我们判断哪个最高效。我们还有一个叫 Connect Coach 的东西，把内部彼此连接起来，再把我们的数字员工助理（DEA）连到顾问和客户。"
+    },
+    {
+      "i": 239,
+      "speaker": 8,
+      "speaker_zh": 8,
+      "ts": "54:03",
+      "en": "We're using everything in our closed-loop ecosystem. There's not a model we haven't used or haven't tried. How have you thought about using the different tools to improve your Alpha generation, your decision-making?",
+      "zh": "在我们的闭环生态里我们什么都用，没有哪个模型是我们没用过或没试过的。你们怎么思考用不同工具来提升 alpha 生成、提升决策质量？"
+    },
+    {
+      "i": 240,
+      "speaker": 8,
+      "speaker_zh": 8,
+      "ts": "54:17",
+      "en": "A lot of it is still to be seen. What's here and measurable is the LLM signals that we're getting, where we get sentiment from a transcript, from our own transcripts, where we're questioning a manager, rethinking forward-looking risk factors.",
+      "zh": "很多还有待验证。已经存在且可衡量的，是我们从 LLM 拿到的信号：从纪要里提取情绪——从我们自己的尽调纪要——重新思考前瞻性风险因素。"
+    },
+    {
+      "i": 241,
+      "speaker": 8,
+      "speaker_zh": 8,
+      "ts": "54:33",
+      "en": "It's allowing us to better manage portfolios in the world of hedge funds right now. There's a lot of features that can be generated from tech sources as well as the numerical data.",
+      "zh": "它让我们能更好地管理对冲基金组合。在当下的对冲基金世界里，除了数字数据，还有很多特征可以从文本中生成。"
+    },
+    {
+      "i": 242,
+      "speaker": 8,
+      "speaker_zh": 8,
+      "ts": "54:43",
+      "en": "There's many more managers that are not buying or analyzing the raw alternatives data out there. In general, the Alpha generation from us is more of the signal that we're seeing to recognize that there's an emerging risk or a confidence factor in a manager, something that might make us lighten up exposure or use that next dollar elsewhere.",
+      "zh": "还有很多经理没有在采购、没有在分析市面上这些原始的另类数据。整体来说，我们的 alpha 生成更多体现在信号层面：识别出某个经理身上正在冒头的新兴风险或信心因素，它可能促使我们降低敞口，或者把下一块钱用到别处。"
+    },
+    {
+      "i": 243,
+      "speaker": 8,
+      "speaker_zh": 8,
+      "ts": "55:04",
+      "en": "A lot of it is in our uncorrelated hedge fund portfolios where we can look at macro managers, plant and relative value signals that we're seeing and incorporate that.",
+      "zh": "很多发生在我们低相关的对冲基金组合里，我们可以审视宏观经理、量化与相对价值上看到的信号并纳入进来。"
+    },
+    {
+      "i": 244,
+      "speaker": 8,
+      "speaker_zh": 8,
+      "ts": "55:14",
+      "en": "We're seeing some Alpha generation already because we've built Spectrum IQ and some of these other systems that are able to help us identify some of these things.",
+      "zh": "我们已经看到一些 alpha 生成，因为我们建了 Spectrum IQ 等系统，能够帮我们识别这些东西。"
+    },
+    {
+      "i": 245,
+      "speaker": 8,
+      "speaker_zh": 8,
+      "ts": "55:22",
+      "en": "What were some of the obstacles you had to overcome to deploy these tools into the investment process? Three things. One is the walls of JPMorgan, our own cybersecurity.",
+      "zh": "把这些工具部署进投资流程，你们克服过哪些障碍？三件事。第一是 J.P. Morgan 的高墙，我们自己的网络安全。"
+    },
+    {
+      "i": 246,
+      "speaker": 8,
+      "speaker_zh": 8,
+      "ts": "55:32",
+      "en": "Two is that because we have our own applied AI lab, we have a pretty high standard for the things that we want to use. I have over 50 engineers that work on $250 billion of asset that we oversee.",
+      "zh": "第二是因为我们有自己的应用 AI 实验室，所以对要使用的东西标准很高。我有超过 50 位工程师，服务于我们监管的 2500 亿美元资产。"
+    },
+    {
+      "i": 247,
+      "speaker": 8,
+      "speaker_zh": 8,
+      "ts": "55:46",
+      "en": "Everyone's been AI engineer. The third thing is the complexity of being a business that had over 40 years of data ingest to understand the nuances of the things that we had from the 90s up until today.",
+      "zh": "每个人都是 AI 工程师。第三件事是复杂性：作为一个有 40 多年数据沉淀的业务，要理解从 90 年代到今天这些数据里的细微差别。"
+    },
+    {
+      "i": 248,
+      "speaker": 8,
+      "speaker_zh": 8,
+      "ts": "56:01",
+      "en": "That took us almost two years. Every time we go to create what our tech agenda is for where we want to deploy AI next, it would take us between two and a half to three months to implement that idea.",
+      "zh": "这花我们差不多两年。以前每当我们要为下一步 AI 部署制定技术议程时，落地一个想法要两到三个月。"
+    },
+    {
+      "i": 249,
+      "speaker": 8,
+      "speaker_zh": 8,
+      "ts": "56:12",
+      "en": "Now that we have AI embedded in every aspect of what we do, it takes us two to three weeks to get something mocked up. What's on the agenda for the next year?",
+      "zh": "现在 AI 嵌入了我们所做的一切，做出一个原型只要两到三个星期。未来一年的议程上有什么？"
+    },
+    {
+      "i": 250,
+      "speaker": 8,
+      "speaker_zh": 8,
+      "ts": "56:22",
+      "en": "We are going from delivering something within 45 days to four to five days. That's what I'm looking forward to is making sure that it's clean enough to get as quickly as possible.",
+      "zh": "我们的交付时间正从 45 天压缩到四到五天。我期待的是保证又快又干净。"
+    },
+    {
+      "i": 251,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "56:33",
+      "en": "We finish with John Webster, Senior Managing Director and COO of Technology and Operations at CPP in New York. I'm going to start with John Webster, Senior Managing Director and COO of Technology and Operations at CPP in New York.",
+      "zh": "最后是 John Webster，纽约，CPPIB 的技术与运营高级董事总经理兼 COO。我先介绍 John Webster，纽约 CPPIB 的技术与运营高级董事总经理兼 COO。"
+    },
+    {
+      "i": 252,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "56:50",
+      "en": "John Webster, Senior Managing Director and COO of Technology and Operations at CPP Investments, the largest of the Maple Lake Canadian pension funds with $580 billion U.S. under management.",
+      "zh": "John Webster 是 CPPIB Investments 的高级董事总经理兼技术与运营 COO，加拿大'枫叶系'（Maple）养老金中规模最大的一只，管理着 5800 亿美元。"
+    },
+    {
+      "i": 253,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "57:03",
+      "en": "John brings all these ideas together at institutional scale, using AI to read everything, remember everything, and challenge everything. John, tell me how you're using AI at CPBIB.",
+      "zh": "John 把这些想法在机构级规模上汇聚起来：用 AI 阅读一切、记住一切、质疑一切。John，跟我们说说你在 CPPIB 怎么用 AI。"
+    },
+    {
+      "i": 254,
+      "speaker": 9,
+      "speaker_zh": 9,
+      "ts": "57:19",
+      "en": "Does it make us a better investor, better underwriting, better risk-taking, better decisions on behalf of 22 million Canadians? AI now touches every stage of our investment life cycle.",
+      "zh": "它有没有让我们成为更好的投资者——更好的承保、更好的风险承担、替 2200 万加拿大人做出更好的决策？AI 现在触及我们投资生命周期的每一个阶段。"
+    },
+    {
+      "i": 255,
+      "speaker": 9,
+      "speaker_zh": 9,
+      "ts": "57:31",
+      "en": "If there was a tagline, it's trying to get AI to help us read everything, remember everything, and challenge everything. The intent around read everything is cross all of our investment teams across total fund management at the Office of the I.O., bring as many eyeballs to bear on everything that we would have wanted to look at in the past but could never reach.",
+      "zh": "如果有句口号，那就是让 AI 帮我们读一切、记一切、质疑一切。'读一切'的本意是，横跨所有投资团队、横跨总基金管理办公室和 CIO 办公室，把尽可能多的注意力放到我们过去想看却永远看不过来的东西上。"
+    },
+    {
+      "i": 256,
+      "speaker": 9,
+      "speaker_zh": 9,
+      "ts": "57:49",
+      "en": "Language processing with LMS allowing us to read filings and earning course transcripts across a much broader universe than any team could have historically covered.",
+      "zh": "借助 LLM 的语言处理，我们可以阅读更大范围内的披露文件和财报电话会纪要，超出任何团队历史上能覆盖的范围。"
+    },
+    {
+      "i": 257,
+      "speaker": 9,
+      "speaker_zh": 9,
+      "ts": "57:56",
+      "en": "In places like secondaries and private equity, we've scaled our capacity to price and underwrite LP portfolios with tens to 100-plus underlying companies in a single transaction, so we evaluate more deals.",
+      "zh": "在二级市场份额（secondaries）和私募股权等领域，我们已经成数量级地提升了给 LP 组合定价和承保的能力——单笔交易可能有几十到一百多个底层公司——所以我们能评估更多交易。"
+    },
+    {
+      "i": 258,
+      "speaker": 9,
+      "speaker_zh": 9,
+      "ts": "58:07",
+      "en": "Our entire deal history is now curable, so that means for things like comparing governance rights in a new deal against the existing book, GP Intelligence, we can now draw on-demand relationship briefings from our own CRM pipeline and performance data, so every GP conversation is backed by our full institutional knowledge.",
+      "zh": "我们全部的历史交易现在都可检索。无论是把新交易的治理权利与存量账本比对，还是 GP 情报：我们现在可以基于自己的 CRM 管道和业绩数据按需生成关系简报，所以和 GP 的每次对话背后都是我们全部的机构知识。"
+    },
+    {
+      "i": 259,
+      "speaker": 9,
+      "speaker_zh": 9,
+      "ts": "58:23",
+      "en": "We've put in place an investment committee co-pilot, which encodes senior investors' decision heuristics plus proprietary deal history into diligence and investment committee prep.",
+      "zh": "我们还上线了一个投资委员会助手（co-pilot），把资深投资人的决策启发式规则和专有交易历史编码进尽调和投委会准备。"
+    },
+    {
+      "i": 260,
+      "speaker": 9,
+      "speaker_zh": 9,
+      "ts": "58:32",
+      "en": "Even at the individual IC member level, trying to make sure that we bring our entire institutional memory as an asset is much of the individual investor's institutional memory into everything that we do.",
+      "zh": "甚至在单个投委会成员层面，我们也尽量把整个机构记忆当作资产带进来，让个人投资人的机构记忆渗透到我们做的每一件事。"
+    },
+    {
+      "i": 261,
+      "speaker": 9,
+      "speaker_zh": 9,
+      "ts": "58:43",
+      "en": "We've got a lot of places where we're using AI to challenge everything we do. We have a memo coach, which is a multi-agent reviewer that stress tests draft investment committee recommendations through a whole range of distinct lenses, logic, risks, scenarios, value creation, even how the case is communicated, with the intent of bringing forward a prioritized set of questions and actions before the memo reaches the investment committee.",
+      "zh": "我们在很多方面用 AI 质疑我们所做的一切。我们有一个备忘录教练，一个多智能体审阅器，从一连串不同的独立视角给投委会建议初稿做压力测试：逻辑、风险、情景、价值创造、甚至论证的表达方式，目标是在备忘录上会之前，带出一套排好优先级的问题和行动清单。"
+    },
+    {
+      "i": 262,
+      "speaker": 9,
+      "speaker_zh": 9,
+      "ts": "59:04",
+      "en": "I'd love to tackle how you went from zero to where you are today. When ChachiP2 3.5 popped out of open AI three and a bit years ago, we made a deliberate choice to put the best frontier platforms in front of all colleagues in the organization as quickly as possible.",
+      "zh": "我很想听听你们是怎么从零走到今天的。当年 ChatGPT 3.5 从 OpenAI 出来的时候，我们做了一个有意识的决定：尽快把最好的前沿平台放到全组织每位同事面前。"
+    },
+    {
+      "i": 263,
+      "speaker": 9,
+      "speaker_zh": 9,
+      "ts": "59:23",
+      "en": "We tried other products before, but we felt the integrated work surface that you got in an open AI or an anthropic suited very well the way our investors think, work and make decisions.",
+      "zh": "之前我们也试过别的产品，但 OpenAI 或 Anthropic 提供的这种一体化工作台，非常契合我们投资人思考、工作和决策的方式。"
+    },
+    {
+      "i": 264,
+      "speaker": 9,
+      "speaker_zh": 9,
+      "ts": "59:34",
+      "en": "So, a lot of those things came out of the real understanding of our investors on the front line, making decisions, working with our partners, and they could then start to see how they could use the technology to scale and change parts of the investment decision making process.",
+      "zh": "所以这些东西大量来自一线投资人真实做决策、和伙伴打交道的理解，他们由此开始看到，怎么用这项技术去放大和改变投资决策流程中的某些环节。"
+    },
+    {
+      "i": 265,
+      "speaker": 9,
+      "speaker_zh": 9,
+      "ts": "59:48",
+      "en": "We're not saying there's the portal where you go to use AI, there are workflows and existing applications that we're building underpinned by AI, so we're trying to meet users where they do their work today and bring the best tools and skills to them in a way that is accessible.",
+      "zh": "我们并不是说有一个专门的 AI 门户网站，而是用 AI 做底座去改造工作流和现有应用，在用户今天工作的地方迎接他们，把最好的工具和技能以触手可及的方式送到他们面前。"
+    },
+    {
+      "i": 266,
+      "speaker": 9,
+      "speaker_zh": 9,
+      "ts": "60:05",
+      "en": "Giving people over the mental hump of being brave enough, courageous enough, confident enough to keep moving into the leading edge is part of what we're trying to do as well.",
+      "zh": "帮人们跨过心里那道坎——足够勇敢、足够有信心继续往最前沿挺进——也是我们要做的事情之一。"
+    },
+    {
+      "i": 267,
+      "speaker": 9,
+      "speaker_zh": 9,
+      "ts": "60:14",
+      "en": "People are going to have to be flexible and willing to lean in and use it in a variety of different ways. Wiring it together across 2,000 people in a way that reflects the heterogeneity of how people look at the world and their specific skills and judgment in a way that does bring the institutional perspective is non-trivial, but this technology is giving us the best chance of doing it.",
+      "zh": "人们必须灵活、愿意投入，用多种方式去使用它。把 2000 人的工作编织在一起，要尊重每个人看世界的方式、各自具体技能和判断的差异，同时又能带来机构视角——这绝非易事，但这项技术给了我们做成它的最好机会。"
+    },
+    {
+      "i": 268,
+      "speaker": 9,
+      "speaker_zh": 9,
+      "ts": "60:33",
+      "en": "If you look at the tools that you're using that are most effective, what are you using inside the organization? In order to read everything, you have to get your information into order.",
+      "zh": "看看你们用得最有效的工具，组织内部都在用什么？要读一切，首先你得把信息理顺。"
+    },
+    {
+      "i": 269,
+      "speaker": 9,
+      "speaker_zh": 9,
+      "ts": "60:42",
+      "en": "We've spent a lot of time across the last couple of years making sure our structured data is searchable, traceable, can be leveraged across the organization and we took a lot of time into making sure all of our investment recommendations of the past are old-fashionedly indexed and available.",
+      "zh": "过去几年我们花大量时间确保结构化数据可搜索、可追溯、能在整个组织被调用；也花了很多时间，用老派的方式把过去所有投资建议做好索引、随时可查。"
+    },
+    {
+      "i": 270,
+      "speaker": 9,
+      "speaker_zh": 9,
+      "ts": "60:57",
+      "en": "Then we've made the unstructured data available via knowledge platform, RAG and knowledge graphs. We now connect the knowledge graph into Clot.",
+      "zh": "然后我们让非结构化数据通过知识平台、RAG（检索增强生成）和知识图谱变得可用。现在我们已把知识图谱接到 Claude。"
+    },
+    {
+      "i": 271,
+      "speaker": 9,
+      "speaker_zh": 9,
+      "ts": "61:05",
+      "en": "You can connect it into OpenAI. You can connect it into CoPilot. We do use OpenAI. We do use Anthropic. We make those available in web-based chat form.",
+      "zh": "你可以把它接到 OpenAI，也可以接到 Copilot。我们确实既用 OpenAI 也用 Anthropic，以网页版聊天的形式开放。"
+    },
+    {
+      "i": 272,
+      "speaker": 9,
+      "speaker_zh": 9,
+      "ts": "61:14",
+      "en": "We also make them available in the desktop form so people can use the Clot code and Codex. In the next nine to 12 months, we will start to converge more on a consistent application landscape.",
+      "zh": "也以桌面端形式开放，这样人们可以用 Claude Code 和 Codex。未来九到十二个月，我们会开始向统一的应用版图收拢。"
+    },
+    {
+      "i": 273,
+      "speaker": 9,
+      "speaker_zh": 9,
+      "ts": "61:25",
+      "en": "Some of that will be waiting for the market to figure out what's going to win. There's a lot of choice out there at the moment and the choice is good.",
+      "zh": "其中一部分要等市场跑出赢家。现在选择太多了，而选择多是好事。"
+    },
+    {
+      "i": 274,
+      "speaker": 9,
+      "speaker_zh": 9,
+      "ts": "61:31",
+      "en": "It also means that as a buyer of enterprise technology, you're having to keep your options too open at this point in time. Most of what we're doing is making sure people are feeling fully conversant, very literate past the 20 hours of working with AI where they then start to understand how to get the best out of the machinery.",
+      "zh": "但作为企业技术的采购方，这也意味着现阶段你得给自己留多条路。我们做的绝大部分，是确保大家真正熟练——过了和 AI 磨合的那 20 个小时之后，人们开始理解怎么让这台机器发挥最大价值。"
+    },
+    {
+      "i": 275,
+      "speaker": 9,
+      "speaker_zh": 9,
+      "ts": "61:47",
+      "en": "What applications have you found effective when it moves towards the challenging and decision-making? If you look at the IC Memo coach, we have a privates platform that we've developed over the last five or six years.",
+      "zh": "在走向质疑和决策的时候，哪些应用你们觉得有效？看看 IC 备忘录教练。我们花五六年时间建了一个非上市资产平台。"
+    },
+    {
+      "i": 276,
+      "speaker": 9,
+      "speaker_zh": 9,
+      "ts": "62:01",
+      "en": "We found that the ability to embed lots of different challenge perspectives, being able to quickly understand the skew of upsides and downsides or quickly extract the beliefs on which the thesis is set out, where the evidence for that is strong, where the evidence is sparse, what metrics you might want to further go after, what things you want to monitor, bringing lots of different perspectives, which would be computationally hard in the",
+      "zh": "我们发现，能嵌入许多不同的质疑视角很有价值：快速看清上行和下行的偏向、快速提取论点建立在哪些信念之上、哪些地方证据强、哪些地方证据薄、该进一步追问哪些指标、该监控什么——把大量不同视角带进来，这在以前计算上很难做到。"
+    },
+    {
+      "i": 277,
+      "speaker": 9,
+      "speaker_zh": 9,
+      "ts": "62:26",
+      "en": "past to do. No one lens lets you see everything. If you can look at it through 10 different lenses relatively quickly, you can start to get a different sense of where the strong ones are and the weak spots are.",
+      "zh": "没有任何单一视角能让你看到全部。如果你能快速用 10 个不同的视角去看，就能开始感觉到哪里强、哪里弱。"
+    },
+    {
+      "i": 278,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "62:35",
+      "en": "As you have dove into all of the internal deal-making and public investing, curious what you found effective for the teams that are tasked with external manager selection?",
+      "zh": "你深入到内部交易和公开投资里去了，很好奇：对外部经理选择团队来说，你发现什么有效？"
+    },
+    {
+      "i": 279,
+      "speaker": 9,
+      "speaker_zh": 9,
+      "ts": "62:48",
+      "en": "I've probably just got a strategist's view on that. Technology never confers a lasting competitive advantage because whatever is available to you is available to everybody else.",
+      "zh": "我大概只能给个策略师视角的看法。技术从来不会带来持久的竞争优势，因为你能用的东西，别人也都能用。"
+    },
+    {
+      "i": 280,
+      "speaker": 9,
+      "speaker_zh": 9,
+      "ts": "62:57",
+      "en": "If you believe that as a base proposition, then what this technology can do is either amplify or undermine your existing competitive advantages.",
+      "zh": "如果你把这个当作基本前提，那么这项技术能做的，要么是放大、要么是削弱你已有的竞争优势。"
+    },
+    {
+      "i": 281,
+      "speaker": 9,
+      "speaker_zh": 9,
+      "ts": "63:06",
+      "en": "Our competitive advantages are organizational EQ. It's not to dismiss the IQ half of the equation where very bright people think carefully about investment theses.",
+      "zh": "我们的竞争优势在于组织的 EQ（情商）。这并非否定 IQ 那一半：非常聪明的人在认真思考投资论点。"
+    },
+    {
+      "i": 282,
+      "speaker": 9,
+      "speaker_zh": 9,
+      "ts": "63:17",
+      "en": "Our advantages are ultimately in the trust, the relationship, the standing, the patience, patience, and the state and Christensen law of conservation of attractive profits.",
+      "zh": "我们的优势最终在信任、关系、声誉、耐心——耐心，以及 Clayton Christensen 的吸引力利润守恒定律。"
+    },
+    {
+      "i": 283,
+      "speaker": 9,
+      "speaker_zh": 9,
+      "ts": "63:26",
+      "en": "When one part of the value chain is attacked, then value accrues to the adjacent parts of the value chain. If IQ is under attack, value is going to accrue to EQ.",
+      "zh": "当价值链的一环被冲击时，价值会流向价值链相邻的环节。如果 IQ 在被冲击，价值就会流向 EQ。"
+    },
+    {
+      "i": 284,
+      "speaker": 9,
+      "speaker_zh": 9,
+      "ts": "63:35",
+      "en": "Whilst it's really important we are forward on the use of the technology, one of the things all organizations have to do is work out, are they really competing on the IQ side or are they competing on the EQ side?",
+      "zh": "所以，虽然我们在技术应用上走在前面非常重要，但每个组织都必须想清楚：我们到底是在 IQ 一侧竞争，还是在 EQ 一侧竞争？"
+    },
+    {
+      "i": 285,
+      "speaker": 9,
+      "speaker_zh": 9,
+      "ts": "63:46",
+      "en": "Lots of our partners compete on the IQ side. They're leaning heavily into the technology. They are leaning appropriately heavily into it, but I hope with an understanding that what we do brilliantly might not be to become the next smartest investor, but make sure we continue to work with the smartest and best investors in the smartest and best way.",
+      "zh": "我们很多伙伴在 IQ 一侧竞争，他们大力投入技术，投入得也合理，但我希望他们明白：我们做得最出色之事不是成为最聪明的投资者，而是确保我们继续以最聪明的方式、与最聪明最优秀的投资者合作。"
+    },
+    {
+      "i": 286,
+      "speaker": 9,
+      "speaker_zh": 9,
+      "ts": "64:04",
+      "en": "What are some of the things you have tried using the LLMs that haven't been as effective as you would have thought today? If you roll back three years, I would have looked at the machinery as a way of bringing many different challenge perspectives to a problem.",
+      "zh": "你试过哪些用 LLM 但效果不如预期的事？往前回看三年，我会把这套机器看成给一个问题引入许多不同质疑视角的方式。"
+    },
+    {
+      "i": 287,
+      "speaker": 9,
+      "speaker_zh": 9,
+      "ts": "64:19",
+      "en": "The more ways you can challenge a problem, the more ways you can find insights that others haven't thought about. I don't think that's been true.",
+      "zh": "你质疑问题的角度越多，就越可能发现别人没想到的洞见。我觉得这一点并不成立。"
+    },
+    {
+      "i": 288,
+      "speaker": 9,
+      "speaker_zh": 9,
+      "ts": "64:24",
+      "en": "You've got to be far more deliberate about what are the lenses you want to bring to a problem? How do you codify those lenses? How do you make those lenses consistent across the organization?",
+      "zh": "你必须更有意识地想：你到底要带哪些视角来看这个问题？怎么把这些视角规则化？怎么让它们在组织内保持一致？"
+    },
+    {
+      "i": 289,
+      "speaker": 9,
+      "speaker_zh": 9,
+      "ts": "64:34",
+      "en": "The machinery and the platforms haven't caught up with doing that well at this point in time. What are some of the risks you've encountered?",
+      "zh": "现阶段机器和平台还没发展到能很好地支撑这一点。你们遇到过哪些风险？"
+    },
+    {
+      "i": 290,
+      "speaker": 9,
+      "speaker_zh": 9,
+      "ts": "64:42",
+      "en": "The big risk is that we put a lot of effort into this and it does not make us a better investor. That's the one we're focused on most, continuing to push ourselves to understand how we can judge whether we are making better investment decisions.",
+      "zh": "最大的风险是，我们投入大量精力，结果它并没有让我们成为更好的投资者。这是我们最聚焦的问题——不断逼自己去理解：怎么判断我们确实做出了更好的投资决策。"
+    },
+    {
+      "i": 291,
+      "speaker": 9,
+      "speaker_zh": 9,
+      "ts": "64:56",
+      "en": "It's still early in the technological revolution. We are getting to the point in the next 12 to 80 months where you've got to feel confident that you are getting a return on investment of the technology.",
+      "zh": "这场技术革命还早。接下来 12 到 18 个月，你会走到必须确信自己从这项技术上拿到了投资回报的阶段。"
+    },
+    {
+      "i": 292,
+      "speaker": 9,
+      "speaker_zh": 9,
+      "ts": "65:07",
+      "en": "In our case, that means we can really feel confident we are making substantially better investment decisions commensurate with the investment we're putting into it.",
+      "zh": "对我们来说，那意味着要真正确信：我们做出了与投入相称的、显著更好的投资决策。"
+    },
+    {
+      "i": 293,
+      "speaker": 9,
+      "speaker_zh": 9,
+      "ts": "65:15",
+      "en": "The areas I've outlined earlier, those people feel confident are real, benefits real opportunities now. The test case is always in a long-term investment opportunity which might play out over seven years.",
+      "zh": "我之前讲的那些领域，大家相信那里的收益是真实的、机会就在眼前。真正的考验永远是那些可能要七年才会兑现的长期投资机会。"
+    },
+    {
+      "i": 294,
+      "speaker": 9,
+      "speaker_zh": 9,
+      "ts": "65:26",
+      "en": "How do you know that it's helping you make a better decision that turns into a better outcome? We do need to figure it out. Thanks for listening all the way to the end.",
+      "zh": "你怎么知道它在帮你做出更好的决策、并最终变成更好的结果？我们确实还需要搞明白。谢谢大家一路听到这里。"
+    },
+    {
+      "i": 295,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "65:34",
+      "en": "If you made it this far, how about one ask from me. Tell one friend about the show. It's the best way to keep growing this incredible community.",
+      "zh": "如果你听到了最后，我有一个不情之请：把你的一个朋友介绍给我们。这是让这个了不起的社区成长最好的方式。"
+    },
+    {
+      "i": 296,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "65:44",
+      "en": "Thanks so much. But until the next one, stay curious and keep compounding knowledge, relationships, and capital a little bit at a time. All opinions expressed by TED and podcast guests are solely their own opinions and do not reflect the opinion of capital allocators or their firms.",
+      "zh": "非常感谢。在下一期之前，保持好奇，持续让知识、关系和资本一点点复利增长。Ted 和播客嘉宾表达的所有观点仅为个人观点，不代表 Capital Allocators 或其所在机构的立场。"
+    },
+    {
+      "i": 297,
+      "speaker": 10,
+      "speaker_zh": 10,
+      "ts": "66:02",
+      "en": "This podcast is for informational purposes only and should not be relied upon as a basis for investment decisions. Clients of capital allocators or podcast guests may maintain positions and securities discussed on this podcast.",
+      "zh": "本播客仅供参考，不应作为投资决策的依据。Capital Allocators 的客户或播客嘉宾可能持有本节目讨论的证券头寸。"
+    }
+  ]
+}

@@ -1,0 +1,793 @@
+{
+  "show": "swimming-with-allocators",
+  "kind": "transcript",
+  "id": "swimming-with-allocators-d17b2b87",
+  "slug": "2026-09-23-doing-good-is-not-the-trade-d17b2b87",
+  "date": "2026-09-23",
+  "title_en": "Doing Good Is Not the Trade-Off",
+  "title_zh": "做好事并非必然的取舍：对话 Ford Foundation 的 Roy Swan",
+  "subtitle_zh": "Ford Foundation 使命投资主管 Roy Swan 谈影响力投资如何既行善又赚钱，以及新书《Positive Sum》。",
+  "description": "Doing Good Is Not the Trade-Off",
+  "duration": "43:05",
+  "duration_seconds": 2585,
+  "episode_url": null,
+  "audio_url": "https://traffic.megaphone.fm/TGL7799249910.mp3",
+  "speakers": {
+    "1": "Alexa Binns（主持）",
+    "2": "Earnest Sweat（主持）",
+    "3": "Roy Swan（嘉宾）",
+    "4": "Shane Goudey（嘉宾）",
+    "5": "片花/广告（旁白）"
+  },
+  "turn_count": 96,
+  "turns": [
+    {
+      "i": 0,
+      "speaker": 5,
+      "speaker_zh": 5,
+      "ts": "00:00",
+      "en": "The action's on the court, and as the official beer sponsor of the NBA, Mikolov Ultra is getting fans closer to the game. With a chance to win courtside seats, merch, and more, visit MikolovUltra.com slash courtside to enter.",
+      "zh": "赛场之上好戏连连，作为 NBA 官方啤酒赞助商，Michelob Ultra 正让球迷们更贴近比赛。有机会赢取场边座席、周边商品等好礼，请访问 MichelobUltra.com/courtside 参与抽奖。"
+    },
+    {
+      "i": 1,
+      "speaker": 5,
+      "speaker_zh": 5,
+      "ts": "00:15",
+      "en": "Mikolov Ultra courtside, 26 to 27, no purchase necessary, opens to U.S. Residence 21+, begins on October 1, 2026, and ends on June 30, 2027, multiple entry periods.",
+      "zh": "Michelob Ultra Courtside 26-27 活动，无需消费即可参与，面向 21 岁及以上的美国居民开放，自 2026 年 10 月 1 日开始，至 2027 年 6 月 30 日结束，设多个参与时段。"
+    },
+    {
+      "i": 2,
+      "speaker": 5,
+      "speaker_zh": 5,
+      "ts": "00:24",
+      "en": "See official rules at MikolovUltra.com slash courtside for free entry, entry deadlines, prizes, and details. Hiring for my small business used to mean sorting through a pile of resumes and hoping I didn't miss the right person.",
+      "zh": "详情请见 MichelobUltra.com/courtside 上的官方规则，包括免费参与方式、参与截止时间、奖品等信息。以前我为自己的小企业招人，意味着要在一大堆简历里翻找，还盼着自己别漏掉了合适的人。"
+    },
+    {
+      "i": 3,
+      "speaker": 5,
+      "speaker_zh": 5,
+      "ts": "00:37",
+      "en": "Then I tried LinkedIn Hiring Pro. It's like the hiring partner I always wished I had. It reviews every applicant and surfaces the strongest-fit candidates for my role, so I know who to talk to first.",
+      "zh": "后来我试了 LinkedIn Hiring Pro。它就像我一直梦想拥有的那位招聘搭档。它会审阅每一位应聘者，并为我的岗位筛选出最匹配的候选人，让我知道该先和谁聊。"
+    },
+    {
+      "i": 4,
+      "speaker": 5,
+      "speaker_zh": 5,
+      "ts": "00:47",
+      "en": "You know, 60% of hirers found a candidate to interview in the first week using LinkedIn Hiring Pro. So hire right the first time. Post your job for free on LinkedIn today at linkedin.com slash quality.",
+      "zh": "你知道吗，使用 LinkedIn Hiring Pro 的招聘者中，有 60% 在第一周就找到了可以面试的候选人。所以，一次就把人招对。今天就上 LinkedIn 免费发布职位，网址是 linkedin.com/quality。"
+    },
+    {
+      "i": 5,
+      "speaker": 5,
+      "speaker_zh": 5,
+      "ts": "01:04",
+      "en": "Welcome to Swimming with Allicators, the VC podcast from the LP Perspectives, with your host, Alexa Binz, and Ernest Sepp. You ready? Let's dive in.",
+      "zh": "欢迎收听 Swimming with Allocators，这档来自 LP Perspectives 的风投播客，由你们的主持人 Alexa Binns 和 Earnest Sweat 联袂主持。准备好了吗？我们下水开聊。"
+    },
+    {
+      "i": 6,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "01:15",
+      "en": "Roy, it's a pleasure to have you back on Swimming with Allicators. Thanks for being on. I can't believe it's been 15 months. Time flies. I saw that in one of the emails.",
+      "zh": "Roy，非常高兴你能再次做客 Swimming with Allocators。感谢你的到来。真不敢相信已经过去 15 个月了，时光飞逝。我是在其中一封邮件里看到的。"
+    },
+    {
+      "i": 7,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "01:25",
+      "en": "Really, 15 months? Wow. Anyway, thanks so much for having me. Yeah, that's where I was actually going to start. It's been 15 months since we first had you on or record it.",
+      "zh": "真的吗，15 个月？哇。总之，太感谢你们邀请我了。是啊，这其实正是我想切入的地方。距离我们第一次请你上节目、录那一期，已经过去 15 个月了。"
+    },
+    {
+      "i": 8,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "01:37",
+      "en": "And I'm just curious, what's changed most in your worldview and work since then? Well, to be concise, I'll say that there are more opportunities to do more good things that make more money.",
+      "zh": "我很好奇，从那以后，你的世界观和工作发生了哪些最大的变化？嗯，说得简洁点，我会说：现在有越多机会去做越多好事，同时赚越多的钱。"
+    },
+    {
+      "i": 9,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "01:56",
+      "en": "How's that? That's a great way to start. I like that. I think everyone now is on the edge of their seat. They're like, wait, that's what we do for a living.",
+      "zh": "这话怎么说？这个开场太棒了，我喜欢。我想现在每个人都坐直了身子、跃跃欲试，心想：等等，这不就是我们靠它吃饭的那件事嘛。"
+    },
+    {
+      "i": 10,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "02:06",
+      "en": "Tell us how, Roy. Yeah, tell us more. What are the details? Well, let's start with a sense of urgency. And that sense of urgency from the Ford Foundation, mission investment perspective, doesn't come simply from making more money.",
+      "zh": "Roy，告诉我们你是怎么做到的。是啊，多讲讲，具体细节是什么？嗯，就从一种紧迫感说起吧。而这种紧迫感，从 Ford Foundation（福特基金会）使命投资（mission investment）的角度看，并不单纯来自于赚更多的钱。"
+    },
+    {
+      "i": 11,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "02:31",
+      "en": "It comes from the idea that the more we can do, the more we can invest in a way that helps people, the more positive impact we're going to have and the more money we're going to make for the foundation.",
+      "zh": "它来自于这样一个理念：我们能做的越多、能以帮助他人的方式去投资的越多，我们就能产生越大的正面影响，也就能为基金会赚到越多的钱。"
+    },
+    {
+      "i": 12,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "02:52",
+      "en": "We survived. The last time we received any funding was 1947 from the Henry Ford estate. So we've been living on our endowment. So it's absolutely essential that we make more money so we can pay our bills, which includes our grants, which is the biggest bill that we have to pay.",
+      "zh": "我们活下来了。我们上一次获得任何外部资金还是 1947 年，来自 Henry Ford 的遗产。所以一直以来我们都是靠自己的捐赠基金（endowment）过活。因此，我们必须赚更多的钱，才能付得起账单，这其中就包括我们的拨款（grants）——那是我们要付的最大一笔账单。"
+    },
+    {
+      "i": 13,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "03:15",
+      "en": "So I guess you can say that purpose can create urgency, and we certainly have no shortage of feeling a strong purpose here at the Ford Foundation.",
+      "zh": "所以我想你可以说，使命感能催生紧迫感，而在 Ford Foundation，我们显然从不缺乏强烈的使命感。"
+    },
+    {
+      "i": 14,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "03:29",
+      "en": "For listeners meeting you for the first time, how do you describe the mandate of the, this is a $1.3 billion mission related investments portfolio within the larger endowment, if I'm correct?",
+      "zh": "对于第一次认识你的听众，你会怎么描述你的职责范围？如果我没记错的话，这是一个规模 13 亿美元的使命相关投资（mission related investments）组合，隶属于更大的捐赠基金，对吗？"
+    },
+    {
+      "i": 15,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "03:42",
+      "en": "To be precise, we have a $1 billion notional endowment. It's an impact investing endowment. If you're in the foundation world, it's mission related investments.",
+      "zh": "准确地说，我们有一个 10 亿美元的名义捐赠基金（notional endowment）。这是一个影响力投资（impact investing）捐赠基金。如果你身处基金会领域，它就是使命相关投资（mission related investments）。"
+    },
+    {
+      "i": 16,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "03:56",
+      "en": "The other roughly $450 million, rounded up to $0.5 billion, is capital that we call our catalytic capital. If you're in the foundation world, it's program related investment.",
+      "zh": "另外大约 4.5 亿美元、凑整算作 5 亿美元的那部分资金，我们称之为催化资本（catalytic capital）。如果你在基金会圈子里，它就是项目相关投资（program related investment）。"
+    },
+    {
+      "i": 17,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "04:08",
+      "en": "That capital, that second category, can be used to generate the primary purpose is impact and financial is secondary. With the $1 billion, just to add more precision, because I know public pension funds will have a specific cost of capital for their, to properly service their retiree beneficiaries.",
+      "zh": "第二类资金可以用来创造——它的首要目的是影响力，财务回报是次要的。至于那 10 亿美元，我再讲精确一点，因为我知道公共养老基金会有一个特定的资本成本，用来妥善服务他们的退休受益人。"
+    },
+    {
+      "i": 18,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "04:42",
+      "en": "So our cost of capital is today roughly 9.5%. So if we're not making 9.5% with our $1 billion endowment, then we are eroding our corpus. So as a perpetual foundation, it means you need to make a financial hurdle rate of our legal spend rate, which is 5%, we spend more than that, plus inflation.",
+      "zh": "所以我们今天的资本成本大约是 9.5%。也就是说，如果我们的 10 亿美元捐赠基金赚不到 9.5%，那我们就是在侵蚀本金（corpus）。作为一家永续基金会，这意味着你需要达到一个财务门槛收益率（hurdle rate），也就是我们法定的支出率——5%，实际我们花得比这更多——再加上通胀。"
+    },
+    {
+      "i": 19,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "05:17",
+      "en": "That's how I get to the roughly 9.5%. From what I've seen, that hurdle rate is higher than many public pension funds and certainly in some sovereign wealth funds.",
+      "zh": "这就是我得出大约 9.5% 这个数字的方式。据我所见，这个门槛收益率高于许多公共养老基金，也肯定高于一些主权财富基金（sovereign wealth funds）。"
+    },
+    {
+      "i": 20,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "05:32",
+      "en": "But I provide that information to help people understand that impact investing has a spectrum of potential target investment returns. I remember from our last conversation, you spoke about how the work of the foundation, specifically in this investments, was also being kind of utilized as a proof point, right?",
+      "zh": "但我提供这个信息，是为了帮助大家理解：影响力投资的目标投资回报存在一个区间谱系（spectrum）。我记得在上次的对话里，你谈到基金会的工作——尤其是在这些投资上——也被当作一个佐证案例（proof point）来用，对吧？"
+    },
+    {
+      "i": 21,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "06:04",
+      "en": "To show that you can do good work and make money. And you said the portfolio has exceeded both your expected return and financial hurdle rates.",
+      "zh": "用来证明你既能做好事又能赚钱。你还说过，这个组合的表现已经超过了你们的预期回报率和财务门槛收益率。"
+    },
+    {
+      "i": 22,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "06:14",
+      "en": "What do you think has driven that most of that success? Divine intervention. Now let me put some flesh on those bones. The case has been proven over and over and over that doing well and doing good doesn't necessarily require a financial trade-off.",
+      "zh": "你认为大部分的成功是由什么驱动的？神的眷顾（divine intervention）。好了，让我给这副骨架添点血肉吧。这个论点已经被一次又一次地证明：做好事和做得好，并不一定需要在财务上做出取舍（trade-off）。"
+    },
+    {
+      "i": 23,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "06:45",
+      "en": "And even that term, I kind of cringe when I use that term because we don't even know what trade-off means until we get the final answer on our actual financial return.",
+      "zh": "甚至这个词——每次用到它我都有点发怵，因为在我们拿到实际财务回报的最终答案之前，我们根本不知道取舍到底意味着什么。"
+    },
+    {
+      "i": 24,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "07:02",
+      "en": "The reason why repetition is important is human psychology. So human psychology suggests that storytelling is more important than data. So the data has been out there for a while that you can do well and do good, meaning you can achieve market rate returns with impact investments, but we have to continuously prove it over and over again to build the narrative.",
+      "zh": "重复之所以重要，原因在于人性心理。人性心理表明，讲故事比数据更重要。数据其实早就摆在那里了——你可以既做得好又做好事，也就是说，通过影响力投资你能获得市场水平的回报，但我们必须不断地、一遍又一遍地去证明它，才能建立起这套叙事（narrative）。"
+    },
+    {
+      "i": 25,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "07:40",
+      "en": "And at some point, more people will believe the facts. Sometimes it's hard to believe the facts. What's your take on, from your seat, on the importance of narrative and how do we empower more people with narrative?",
+      "zh": "到了某个节点，就会有更多人相信这些事实。有时候，相信事实并不容易。那么从你所处的位置上，你怎么看叙事的重要性？我们又该如何用叙事去赋能更多人？"
+    },
+    {
+      "i": 26,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "07:55",
+      "en": "One of the things I learned from the research I did when writing my book is the extremely outsized influence of human nature, human psychology, neuroscientific triggers, et cetera.",
+      "zh": "我在为写书做研究时学到的一点是：人性、人类心理、神经科学触发机制（neuroscientific triggers）等等，其影响力之大是极其超乎寻常的。"
+    },
+    {
+      "i": 27,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "08:16",
+      "en": "So we've heard terms like pattern recognition, which means you see something, and if it's familiar, you feel more comfortable. That applies to humans and the way we see others.",
+      "zh": "我们都听过诸如模式识别（pattern recognition）这样的说法，意思是：你看到某个东西，如果它很熟悉，你就会感到更自在。这既适用于我们人类自身，也适用于我们看待他人的方式。"
+    },
+    {
+      "i": 28,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "08:38",
+      "en": "So to use the extreme case, there was a time when every person or animal who was outside that lonely cave where we were cold and shivering with our direct relatives, everything that moved outside was a threat, a predator.",
+      "zh": "举个极端的例子：曾经有那么一段时期，在那座我们和直系亲属一起挨冻发抖的孤零零洞穴之外，任何移动的人或动物都是威胁，都是捕食者。"
+    },
+    {
+      "i": 29,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "08:59",
+      "en": "And in order to go from a cave to a village to a town to a city, we had to suppress sort of what I'll call pattern recognition and tribal instincts in order to live together.",
+      "zh": "而为了从洞穴走向村庄、再走向城镇、再到城市，我们不得不压抑那种我称之为模式识别和部落本能（tribal instincts）的东西，才能共同生活在一起。"
+    },
+    {
+      "i": 30,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "09:13",
+      "en": "And we did that because we came to understand that there was greater value from the collaborative interactions that come with more people and more animals and et cetera than when we're alone in caves.",
+      "zh": "我们之所以这么做，是因为我们逐渐明白：与更多人、更多动物等等相伴而来的协作互动，其价值要大于我们独自待在洞穴里的时候。"
+    },
+    {
+      "i": 31,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "09:33",
+      "en": "In the investment world, the situation is obviously different than being in a cave, but it also is just easier to go with what you know, just generally speaking.",
+      "zh": "在投资世界里，情况显然和待在洞穴里不一样，但一般来说，顺从你所熟悉的东西也确实更容易。"
+    },
+    {
+      "i": 32,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "09:49",
+      "en": "And what we know from Nobel Prize-winning economist research is that when you're comfortable with a situation, you're actually willing to pay to maintain that situation or give up potential upside, and part of that has to do with a loss is more painful than a gain.",
+      "zh": "我们从诺贝尔经济学奖得主的研究中知道：当你对某种处境感到舒适时，你实际上愿意付出代价去维持这种处境，或者放弃潜在的上行收益，其中一部分原因在于——损失比收益更令人痛苦。"
+    },
+    {
+      "i": 33,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "10:10",
+      "en": "So I say that to say that even though it may be possible to have a better performing portfolio by allocating to a broader universe of asset managers, it requires evolved thinking and a different way of looking on returns.",
+      "zh": "我说这些是想表达：尽管通过配置到更广泛的资产管理人（asset managers）池子，你可能获得表现更好的组合，但这需要进化的思维方式，以及一种看待回报的不同视角。"
+    },
+    {
+      "i": 34,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "10:40",
+      "en": "So that is to say, current behavior that is narrowly tailored and not expansive and very affinity-based may not be economically rational, but it is psychologically rational given the point of view that many people who are similar to the people who are alone shivering in caves have not come to evolve to the broader possibilities outside the cave through cooperation.",
+      "zh": "也就是说，当前这种狭隘、不够开放、非常基于亲缘偏好（affinity-based）的行为，也许在经济上并不理性，但在心理上却是理性的——因为许多人就像那些独自在洞穴里挨冻发抖的人一样，尚未通过合作进化到能看见洞穴之外更广阔的可能。"
+    },
+    {
+      "i": 35,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "11:20",
+      "en": "You hinted at the research that you've done for this book, and I would love to introduce our audience to what you've been working on. This is positive sum is a true, I would refer to you as Roy, a intellectual historian.",
+      "zh": "你提到了为这本书所做的研究，我很想向我们的听众介绍一下你一直在做的事。这本《Positive Sum》（正和）是真的——Roy，我会把你称作一位思想史学者（intellectual historian）。"
+    },
+    {
+      "i": 36,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "11:37",
+      "en": "You have gone back to sort of understand why we're in the cave, right? I think it's interesting for anyone who is a history buff or thinks of themselves as a financier to sort of reflect back on what are these things that I have come to assume are true and why.",
+      "zh": "你回过头去，试图理解我们为什么还待在洞穴里，对吧？我觉得，对任何历史爱好者、或自认为是金融从业者的人来说，回头反思一下那些我一直以来认定为真的东西究竟是什么、又为什么为真，是件很有意思的事。"
+    },
+    {
+      "i": 37,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "12:03",
+      "en": "Your book really does sort of unpack the miseducation of those of us in the finance industry to use your own words. So could you jump in to some of these examples of what you've unpacked looking at the classic history books?",
+      "zh": "用你自己的话说，你的书确实拆解了我们这些金融行业人士所受的错误教育（miseducation）。那你能不能挑几个例子讲讲，你在翻看那些经典历史著作时都拆解出了什么？"
+    },
+    {
+      "i": 38,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "12:25",
+      "en": "I think on the last episode, we did get an incredible example of that Adam Smith and what it truly says. But maybe Milton Friedman, some of these examples you give of where we've been misinterpreting and misremembering the text.",
+      "zh": "我想在上一期节目里，我们确实得到了一个绝妙的例子——关于 Adam Smith（亚当·斯密）以及他真正说了什么。那也许可以谈谈 Milton Friedman（米尔顿·弗里德曼），讲讲你举的那些例子，说说我们在哪些地方误读、误记了原文。"
+    },
+    {
+      "i": 39,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "12:43",
+      "en": "Yeah, so I have been afflicted since my youth with a condition that requires me to question many things that most other people consider to be obvious.",
+      "zh": "是啊，我从年轻时起就落下了一种毛病——它让我不由得去质疑许多在大多数人看来理所当然的事情。"
+    },
+    {
+      "i": 40,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "13:02",
+      "en": "I've asked questions that people thought were silly questions from lots of folks who a lot of people think, well, that person won a Nobel Prize.",
+      "zh": "我问过一些别人觉得很傻的问题，而且是向很多人问的——那些人被许多人认为，嗯，人家可是拿了诺贝尔奖的。"
+    },
+    {
+      "i": 41,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "13:17",
+      "en": "Why are you asking them whether they're algorithms, right? So that led me to act upon the confusion I had about a few things in our capitalist system.",
+      "zh": "别人会说：你干嘛去问他们这些问题啊？对吧？正是这一点，促使我针对自己对我们资本主义体系里几件事的困惑付诸行动。"
+    },
+    {
+      "i": 42,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "13:35",
+      "en": "The first was Adam Smith, which I talked about before, and I wondered how was it possible that the person whose first book was the theory of moral sentiments, that person's economic philosophy got reduced down to a so-called invisible hand that essentially implies that morals and ethics don't belong in capitalism?",
+      "zh": "第一件是 Adam Smith，我之前谈过。我当时很纳闷：一个人的第一本书是《道德情操论》（The Theory of Moral Sentiments），可他的经济哲学怎么就被简化成所谓的看不见的手（invisible hand），而这实际上是在暗示道德和伦理不属于资本主义？"
+    },
+    {
+      "i": 43,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "13:59",
+      "en": "And the answer was, even though I was taught that in school, it was completely untrue. Milton Friedman, it's funny, I've said before to people there's a category of reading assignments that are, in fact, assigned but not read on the syllabus, and it was easy for me to look at the headline of that Milton Friedman famous essay, The Social Responsibility of Business is to increase its profits, and I could have an easy takeaway, which is, oh, business is",
+      "zh": "答案是——尽管我在学校里被这么教过——这完全是假的。说到 Milton Friedman，有意思的是，我以前跟人讲过，课程大纲上有一类阅读作业其实是布置了但没人读的。对我来说，看一眼 Milton Friedman 那篇著名文章的标题——《企业的社会责任就是增加其利润》（The Social Responsibility of Business Is to Increase Its Profits）——就很容易得出一个轻率的结论，那就是：哦，企业嘛，就是……"
+    },
+    {
+      "i": 44,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "14:35",
+      "en": "supposed to just, you know, that's shareholder privacy, essentially. And then I decided, you know, several years ago to actually read the essay, and I had to read it several times, I'm literally like 10 times, because I couldn't believe my eyes, because what I saw was surprising, because essentially that essay is a stakeholder capitalism essay. Basically, to summarize it, it says that businesses should follow the rules and",
+      "zh": "……就只管那个，你知道，本质上就是股东至上（shareholder primacy）。后来，大概在几年前，我决定真正去读这篇文章，结果我读了好几遍——说真的，差不多读了十遍——因为我简直不敢相信自己的眼睛，我看到的东西太令人意外了：这篇文章本质上其实是一篇讲利益相关者资本主义（stakeholder capitalism）的文章。基本上，概括来说，它讲的是企业应当遵守规则、"
+    },
+    {
+      "i": 45,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "15:12",
+      "en": "invest in workers and communities for the purpose of increasing enterprise value, which is not a, that's not the same as being socially responsible, that is what I'll call enlightened self-interest. I'm a committed capitalist.",
+      "zh": "……并且投资于员工和社区，其目的是提升企业价值（enterprise value）。这并不等同于承担社会责任，我把这叫作开明的自利（enlightened self-interest）。我是一个坚定的资本主义者。"
+    },
+    {
+      "i": 46,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "15:31",
+      "en": "But Friedman understood that even if people had a fair opportunity to participate in capitalism and gave it their best, that some people just aren't going to make it, given a competitive nature of capitalism. It's like the people who were scribes during, at the time when the printing press was created, they were super educated at the time, highly skilled, but that, you know, their gig was over. So, Friedman thought that we waste a lot of time",
+      "zh": "但 Friedman 明白：即便人们有公平的机会参与资本主义、并全力以赴，鉴于资本主义的竞争本质，还是有一些人注定无法成功。就像印刷术问世那个年代做抄写员（scribes）的人，他们在当时受过极好的教育、技艺高超，可他们那份活儿到头来还是没了。所以，Friedman 认为，我们浪费了大量时间，"
+    },
+    {
+      "i": 47,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "16:08",
+      "en": "worrying about freeloaders and cheaters when we come up with social programs. His belief was that most people want to contribute to society, most people understand that, you know, moral and ethical behavior is good for everyone, you know, unless of course they're driven by, you know, driven to fear and anxiety, and then it becomes survival, and then all bets are off. But ultimately, Friedman wanted to provide a basic income for everyone and",
+      "zh": "……在设计社会项目时，去操心那些吃白食的人和骗子。他的信念是：大多数人都想为社会做贡献，大多数人都明白，道德和伦理行为对所有人都有好处——当然，除非他们被恐惧和焦虑所驱使，那时就变成了一场生存之战，那么一切约定就都作废了。但归根结底，Friedman 想为每个人提供一份基本收入（basic income），"
+    },
+    {
+      "i": 48,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "16:49",
+      "en": "not worry about those cheaters because there's such a small number of them. Now, let me be clear, Friedman could be described as a libertarian, so he also thought, if we're going to do that, why do we need a kind of welfare system? And there's something to be said about that, by the way. I haven't studied it, but the point is it's not a stretch to think of the same person who believed in universal basic income would also believe in stakeholder capitalism.",
+      "zh": "……而不去担心那些骗子，因为他们的人数实在太少了。我要说清楚，Friedman 可以被描述为一名自由意志主义者（libertarian），所以他还会想：如果我们要那么做，那我们为什么还需要某种福利体系？顺便说一句，这个观点也有它的道理。我没深入研究过，但关键在于：认为同一个相信全民基本收入（universal basic income）的人也会相信利益相关者资本主义，这一点并不牵强。"
+    },
+    {
+      "i": 49,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "17:23",
+      "en": "Now, we're going to take a quick break to speak with our sponsor. On the show today, we have our stellar partner and industry expert, Shane Gowdy, leader of Sidley's Venture Funds Practice, and now host of the podcast Talk VC. We highly recommend you listen. If you get value from this podcast, we have Shane and his team to thank. So, appreciate you so much, Shane, for being a part of this show. And the perspective you bring, really, the bird's eye view is second to none.",
+      "zh": "现在，我们要稍作休息，和我们的赞助商聊几句。今天来到节目的是我们出色的伙伴、行业专家 Shane Goudey——Sidley 风险投资基金业务（Venture Funds Practice）的负责人，现在也是播客 Talk VC 的主持人。我们强烈推荐你去听。如果你从这档播客中有所收获，那要感谢 Shane 和他的团队。所以，Shane，非常感谢你参与这档节目。你带来的视角——那种俯瞰全局的鸟瞰视角——真的是无人能及。"
+    },
+    {
+      "i": 50,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "17:55",
+      "en": "So, thank you. Well, it's, as you know, Alex, I think the world of both you and Ernest and swimming with allocators and our partnership has been utter gold for us, whether it's content or just great, you know, industry speak or friendship. It's an honor to be here always and super excited to talk a little bit more about VC stuff going on. Our listeners have heard from many of the Sidley partners that Shane has introduced us to across the ecosystem. And today we get to hear",
+      "zh": "所以，谢谢你们。嗯，你知道的，Alex，我非常看重你和 Earnest 你们俩，还有 Swimming with Allocators，我们的这段合作对我们来说完全是金子般宝贵——无论是内容本身，还是那些很棒的行业交流，抑或情谊。能一直来这里是我的荣幸，我也特别兴奋能多聊聊正在进行的风投那些事儿。（主持：）我们的听众已经从 Shane 给我们引荐的众多 Sidley 合伙人那里听到过很多见解，遍布整个生态。而今天我们终于能听到……"
+    },
+    {
+      "i": 51,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "18:25",
+      "en": "from the boss himself running the venture venture program specifically on fund formation and operations for VC funds. So, in that context, I am curious what has been keeping you busy, Shane?",
+      "zh": "……亲自执掌风投项目、专门负责 VC 基金的设立（fund formation）与运营的这位老板本人。那么在这个背景下，我很好奇，Shane，最近都在忙些什么？"
+    },
+    {
+      "i": 52,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "18:41",
+      "en": "You know, what hasn't been keeping you busy. It is gangbusters on the fund formation front. You know, a lot of that is just not garden variety, but just regular mainline, main fund activity funds that have been, you know, last raised a couple years ago or coming back online. So, the normal course kind of every day, but there's also been just a ton of very deal specific work.",
+      "zh": "该问的是，有什么是不忙的。基金设立这块儿简直是火得不行。你知道，其中很多并不是什么稀罕玩意儿，而是常规的主流、主基金（main fund）活动——那些基金要么几年前刚完成上一轮募集，要么正重新回到市场上。所以基本上是每天都在走的常规流程，但同时也有大量非常针对具体交易（deal specific）的工作。"
+    },
+    {
+      "i": 53,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "19:10",
+      "en": "So, a lot of work in like co-investment funds and SPVs. Some of that tailored and tied to some of the main fundraising because oftentimes you'll have the commitments going into main funds tied to additional participation in SPVs or an opportunities fund. So, there's a lot going on in the way of a more holistic look in the LPs, institutional LPs viewpoint on how and where they're investing in venture and actually what bargain they're striking and a lot of that. So, it's a lot of",
+      "zh": "所以，有很多工作集中在跟投基金（co-investment funds）和 SPV（特殊目的载体）上。其中一部分是为主基金募集量身定制、并与之绑定的，因为你常常会看到：对主基金的出资承诺，是和额外参与 SPV 或机会型基金（opportunities fund）挂钩在一起的。所以，这里有很多东西在推进——一种更整体的视角，即从 LP、机构 LP 的出发点去看他们如何以及在何处投资风投、实际上在达成怎样的一桩交易，诸如此类。所以，这里面有大量的……"
+    },
+    {
+      "i": 54,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "19:42",
+      "en": "same as it ever has been with the acceleration, obviously, of the impact of AI and, you know, these $100 billion deal specific deals that have put a lot of gasoline in the tank of venture these days. But there's, you know, like it's whether it's defense tech or deep tech or a lot of life sciences activity, you know, venture is just hot now and not surprisingly that is you've gotten a lot of work on the fund information front. So, you know, but there's also been",
+      "zh": "……一如既往的老样子，同时伴随着——很显然——AI 影响的加速，以及那些动辄 1000 亿美元、针对具体交易的巨额案子，这些天给风投这潭水里加了不少汽油。但你看，无论是国防科技（defense tech）、深科技（deep tech），还是大量生命科学（life sciences）活动，风投现在就是火，而毫不意外地，这也让你们在基金设立这块接到了大量工作。所以，你知道，但同时也有……"
+    },
+    {
+      "i": 55,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "20:14",
+      "en": "a lot of trans migration of talent, people, you know, new people leaving old funds, starting new ones, there's, you know, new entrepreneurs who finally had exit opportunities or starting their own funds. So, you know, a lot of the just broader venture ecosystem has allowed there to be more activity and newer emerging managers, newer firms for established managers, and that's all resulted in just kind of a tidal wave of really, really great work on our side. Oh, I have so many questions",
+      "zh": "……大量人才的迁移流动，你知道，有人离开老基金、去创办新基金，也有一些创业者终于等来了退出机会、或者去创立自己的基金。所以，整个更广泛的风投生态带来了更多活跃因素——更多新兴管理人（emerging managers）、成熟管理人设立的新公司——这一切最终在我们这边汇成了一波又一波真正非常出色工作的浪潮。（主持：）哦，我有太多问题想问了。"
+    },
+    {
+      "i": 56,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "20:44",
+      "en": "based on this. So, starting with the top, you were describing sort of people coming back to market. Do you think that timing is working out for folks? Everybody was sort of sitting back waiting for DPI, waiting for, what's driving this now? What's changed?",
+      "zh": "就基于这些。那么，先从最重要的说起，你刚才在描述大家重新回到市场。你觉得这个时机对大家来说合适吗？之前所有人都往后靠着、等着 DPI（分配给 LP 的实收资本回报倍数，distribution to paid-in）、等着……现在到底是什么在驱动这波行情？发生了什么变化？"
+    },
+    {
+      "i": 57,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "21:04",
+      "en": "Yeah, I just think one is an investment opportunity. One is, you know, a lot of really great deals out there and the sort of FOMO, of course, it generates a lot of movement in venture and, you know, with a lot of these incredible rounds and really, frankly, early stage emerging companies, any AI, deep tech, defense tech areas popping up all over the place now. And a lot of it is also people coming from very large companies, open AI, Anthropics, starting new ventures. And that has been",
+      "zh": "是啊，我觉得一方面是投资机会。另一方面是，市面上有很多非常棒的交易，再加上那种 FOMO（错失恐惧症，fear of missing out），当然会在风投圈催生大量动作——你看现在，那么多不可思议的融资轮次，坦率地说还有很多早期新兴公司，AI、深科技、国防科技领域到处都在冒头。而且很多还来自超大型公司的人才，比如从 OpenAI、Anthropic 出来创办新事业的人。这一直是……"
+    },
+    {
+      "i": 58,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "21:36",
+      "en": "a lot of the opportunity cost if you don't have a fund out in market right now that you're not able to really take advantage of it unless you sit on a lot of dry powder. And frankly, from 2021, there's not a heck of a lot of dry powder left, to be honest, over just given the past year plus in the healthy spending that's gone on in the venture industry. So, you know, that lag or that sag of a lot of extra capital that really weighted down the timing of a lot of funds coming to market,",
+      "zh": "……巨大的机会成本：如果你现在没有一只基金在市场上，你就没法真正抓住这些机会，除非你手握着大量干火药（dry powder，即可动用资金）。而且坦率讲，从 2021 年到现在，说实话剩下的干火药已经不多了——毕竟过去一年多风投行业一直在大手笔地花钱。所以你看，那种滞后、那种过剩资本造成的沉闷，之前实实在在地拖慢了很多基金进入市场的时机，"
+    },
+    {
+      "i": 59,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "22:06",
+      "en": "you know, air has been let out of the balloon so that, you know, the normal market cycle is kind of just coming back now here in 2026 and a lot of people starting again thinking about early 2027 and this is about the time we start talking to those folks about their fund raises and getting all their documents ready so that around Thanksgiving Christmas time they're launching and then having first closes at the beginning of Q1. So, some of it is that, but I do think that there's",
+      "zh": "……如今气球里的气已经被放掉了，所以正常的市场周期在 2026 年这会儿正慢慢回归，很多人又开始琢磨 2027 年初了。而差不多就是这个时间点，我们开始和这些人聊他们的基金募集、把所有文件都准备妥当，好让他们在感恩节、圣诞节前后正式启动，然后在第一季度初完成首次关账（first close）。所以，一部分原因是这个，但我确实认为还有……"
+    },
+    {
+      "i": 60,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "22:34",
+      "en": "just been a little extra catapulting on some of the timing. So, someone who maybe was going to wait until 2027 in the mid 2027 late 2027 is now, I think that FOMO effect is really starting to impact a lot of people's decisions. And frankly, the availability of LP capital, you know, this is about the time of year when, you know, traditionally in years and decades past, you look at what capital is left to invest in a venture fund on the LP side in the last half of the year. And",
+      "zh": "……一些额外的、时机上的加速弹射。所以，那些原本可能打算等到 2027 年年中、甚至年底的人，现在——我觉得那种 FOMO 效应真的开始影响很多人的决策了。而且坦率说，LP 资金的可得性也很关键。你知道，差不多就是一年中的这个时候，按往年、乃至过去几十年的传统，你会去看 LP 这边在下半年还剩多少资金可以投到风投基金里。而……"
+    },
+    {
+      "i": 61,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "23:06",
+      "en": "usually it's not a ton, you know, they've been very strategic about planning for their asset manager, their fund managers who are raising these, not M's, you know, and they've been careful to allocate to those, you know, best of breed names. But then it's, you know, there's a lot less opportunity and capital available to invest in just in time funds coming on market right now. So, you know, and that all changes again in January or when fresh allocation buckets get filled up. And",
+      "zh": "……通常剩下的并不多。他们一直在非常有策略地为那些正在募资的基金管理人做规划，也一直在谨慎地把资金配置给那些同类中最优秀的名字（best of breed）。但这样一来，眼下能投到那些即时上线（just in time）新基金里的机会和资金就少了很多。所以你知道，这一切要到一月份、或者新的配置额度被重新填满时才会再次改变。而……"
+    },
+    {
+      "i": 62,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "23:35",
+      "en": "so there's just, there's a lot of discussion around about timing and planning and strategy and who's out in the market. And a lot of people are asking us, you know, which LPs are investing still this late in the year. And so, you know, it's helping clients kind of align and land their planes on the right part of the runway to be able to, you know, have really successful first closings to be able to launch them into, you know, great second closings, or if, you know,",
+      "zh": "……所以，围绕时机、规划、策略以及谁还在市场上，有大量的讨论。很多人来问我们：到了这一年这么晚的时候，还有哪些 LP 仍在投资。所以，我们是在帮客户对齐节奏、把他们的飞机降落在跑道合适的位置上，好让他们能有非常成功的首次关账，进而顺利推进到漂亮的第二次关账，或者，如果……"
+    },
+    {
+      "i": 63,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "23:58",
+      "en": "you're really advantaging to do it one and done, then, you know, how do you, how in a market like this do you help them navigate all that? Thank you for joining us on the show. Shane, if you're a GP or LP looking for expert guidance on fund formation and venture capital legal matters, you can visit Sidley's website, s-i-d-l-e-y dot com. And now back to our LP interview.",
+      "zh": "……你真的占尽优势、想一次搞定（one and done），那么在这样一个市场里，你又该如何帮他们把这一切都理清楚、导航过去呢？感谢你来到我们的节目，Shane。如果你是 GP 或 LP，正在寻求关于基金设立和风投法律事务的专业指导，可以访问 Sidley 的网站 sidley.com。现在，让我们回到 LP 访谈。"
+    },
+    {
+      "i": 64,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "24:19",
+      "en": "And now back to our LP interview. No, I am, I highly recommend this book because it gives you Roy has done all the work for you to understand how to start actually applying this in your day-to-day life. This is not just theory. It sort of transitions from the text to the applications. And maybe there are a couple stories from the book, Roy, if you have a favorite of what this looks like in practice. I think my favorite, possibly because a part of my sense of urgency has to do with",
+      "zh": "现在回到我们的 LP 访谈。不，我是说，我强烈推荐这本书，因为 Roy 已经替你把所有的功课都做完了，帮你理解该如何开始把这套理念真正运用到日常生活中。这不只是理论。它算是从文本过渡到了实际应用。Roy，也许你可以从书里讲几个故事，如果你有特别偏爱的、能展现它在实践中是什么样子的。我觉得我最喜欢的，可能部分原因在于我的那种紧迫感和……有关，"
+    },
+    {
+      "i": 65,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "25:14",
+      "en": "the fact that, you know, the more I can help folks, the better we serve humanity. I think it's the Pete's Davros work and the Nine Dean work and the MIT Sloan School Good Jobs Institute work. And the reason why is because those three entities and people, Pete's Davros has a team, Aaron Lee Kong has a team, Zaynab Tan has a team, but their leaves of each of their teams, the work they're doing is singularly focused on",
+      "zh": "……就在于这样一个事实：我能帮到的人越多，我们就越能服务于人类。我想那是 Pete Stavros 的工作、Nine Dean 的工作，以及 MIT Sloan 商学院好工作研究所（Good Jobs Institute）的工作。原因在于这三个机构和相关人物——Pete Stavros 有一个团队，Aaron Lee Kong 有一个团队，Zeynep Ton 有一个团队——但他们各自团队所做的工作，都单一地聚焦于……"
+    },
+    {
+      "i": 66,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "26:05",
+      "en": "workers, families, and strengthening what I'll call everyone beneath the 1% because it hits there. And the 1% benefit from that, but the focus is the 99%. And I see that, so that all fits with our quality jobs impact investing theme. And I think that is, it certainly rivals one of the other themes as being, well, all our themes are so important, but we have housing, we have healthcare, we have financial inclusion. But what I love about",
+      "zh": "……聚焦于工人、家庭，以及强化我所说的 1% 以下的所有人，因为它正中要害。那 1% 的人也从中受益，但焦点是那 99%。我看到了这一点，所以这一切都契合我们优质就业（quality jobs）的影响力投资主题。我觉得，它绝对能与我们其他主题中的任何一个相媲美——嗯，我们所有主题都很重要，我们有住房、有医疗健康、有普惠金融（financial inclusion）。但我之所以特别喜爱……"
+    },
+    {
+      "i": 67,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "26:46",
+      "en": "the quality jobs thing is it directly strengthens our democracy. And the reason why it directly strengthens our democracy is because of something that Peter Drucker, the person who was basically the father of management consulting and professional management, and Lewis Kelso, who was the creator of the employee stock ownership plan, they both knew that economic alienation erodes democracy and leads to authoritarianism. Peter Drucker saw that and, believe it or not, predicted the Holocaust",
+      "zh": "……优质就业这件事，是因为它直接强化了我们的民主。而它之所以能直接强化民主，源于 Peter Drucker（彼得·德鲁克）——那位基本上是管理咨询和职业管理之父的人——以及 Louis Kelso（路易斯·凯尔索，员工持股计划 ESOP 的创立者）都洞悉的一点：经济上的疏离（economic alienation）会侵蚀民主，并导向威权主义。Peter Drucker 看到了这一点，而且信不信由你，他还预言了犹太人大屠杀（Holocaust）——"
+    },
+    {
+      "i": 68,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "27:36",
+      "en": "in the early 1930s during the research he was doing for a book called The End of Economic Man, which is one of the 142 books in my bibliography. And Lewis Kelso studied the breakdown of democratic societies in, mostly in Europe, and realized it was because people didn't have enough of a piece of a pie to feel a part of the overall country's economic system. So he said, well, if we're trying to battle communism, actually, yeah, he studied also parts of Asia. If we're",
+      "zh": "……那是在 1930 年代初，他在为一本名为《经济人的终结》（The End of Economic Man）的书做研究期间——这本书是我参考文献里 142 本书中的一本。而 Louis Kelso 研究了民主社会的崩溃，主要是在欧洲，他意识到原因在于：人们没有分到足够大的一块蛋糕，因而无法感觉自己是国家整体经济体系的一部分。所以他说，如果我们要对抗共产主义——对，其实他也研究了亚洲的部分地区——如果我们……"
+    },
+    {
+      "i": 69,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "28:19",
+      "en": "trying to battle communism, the best way to do that is make everyone a capitalist, hence the Employee Stock Ownership Plan. That's what Pete Stavros, Aaron Lee Kong, Zaynep Ton, that's what they talk about, is making everyone an owner. When you sort of talk about these tools that aren't necessarily obvious to folks, if they haven't heard about them in the past, this is employee ownership trusts are a way that you can transition ownership as a business owner to your",
+      "zh": "……要对抗共产主义，最好的办法就是让每个人都成为资本家，于是就有了员工持股计划（Employee Stock Ownership Plan，ESOP）。这正是 Pete Stavros、Aaron Lee Kong、Zeynep Ton 他们在讲的——让每个人都成为所有者。当你谈到这些工具时，如果 folks 过去没听说过，它们其实并不那么显而易见。比如员工所有权信托（employee ownership trusts），它就是一种方式，让你作为企业主可以把所有权转移给你的……"
+    },
+    {
+      "i": 70,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "28:49",
+      "en": "employees if you're looking to retire or sell. Roy's putting these things on the map for those of us who haven't heard about them, so thank you. Boy, that's my next book. Roy, I think from that anecdote, what I get is there's an opportunity also for operators and founders on how to create cultures that, using your words, can create more internal capitalists in those companies. But from your book and other anecdotes, what can actually the asset managers venture capitalists",
+      "zh": "……员工手里——如果你正打算退休或出售公司。Roy 为我们这些没听说过这些东西的人把它们摆上了台面，所以谢谢你。天呐，这就是我下一本想读的书。Roy，我觉得从刚才那个故事里，我领悟到的一点是：对于运营者和创始人来说，也存在一个机会，去创造一种——用你的话说——能在公司内部培养出更多内部资本家的文化。但从你的书和其他故事来看，资产管理人、风险投资家们实际上……"
+    },
+    {
+      "i": 71,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "29:31",
+      "en": "take as their role and responsibility in using some of these tactics? Is it about who they invest in? Is it about how they diligence? Curious on what your answer would be on that?",
+      "zh": "……在运用其中一些策略时，应当把什么当作自己的角色和责任？是关于他们投谁吗？还是关于他们怎么做尽调（diligence）？我很好奇你会怎么回答这个问题？"
+    },
+    {
+      "i": 72,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "29:46",
+      "en": "Yeah, I would say that the fastest thing you can do at any given moment is also the hardest thing. And that is to question conventional wisdom. For example, I'll use a term that is a part of the legal vocabulary in the fiduciary world. There is this term non-financial factors.",
+      "zh": "嗯，我会说，你在任何时刻能做的最快的事，同时也是最难的事。那就是质疑传统智慧（conventional wisdom）。举个例子，我要用一个属于受托（fiduciary）领域法律词汇里的术语：有一个词叫非财务因素（non-financial factors）。"
+    },
+    {
+      "i": 73,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "30:17",
+      "en": "So let's take empathy and culture. They seem like non-financial factors. I would ask people to think more deeply, because let me just use the easiest to measure factor. The absolute easiest is attrition. Not even getting to innovation and productivity. So when you have a C-suite, and this is not my opinion, by the way, I rarely do things based purely on opinion. I typically like to understand the data. And I don't just take the data at face value, I kind of dig a little",
+      "zh": "就拿同理心（empathy）和文化来说吧。它们看起来像是非财务因素。但我会请大家想得更深入一些，因为让我用最容易被衡量的那个因素来说。绝对最容易衡量的是员工流失率（attrition）。甚至还用不着谈到创新和生产率。所以，当你有一个高管团队（C-suite）——顺便说一句，这不是我的个人观点，我很少纯粹基于观点去做事。我通常喜欢去理解数据。而且我不只是照单全收地看待数据，我还会往下深挖一……"
+    },
+    {
+      "i": 74,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "31:14",
+      "en": "bit deeper. I'm a rabbit hole guy. And so empathy and great culture instills a sense of loyalty and reduces attrition. Attrition is very costly. And there are some sectors where 200% annual attrition is not unusual. But when there's empathy and great culture, those numbers drop, and the value, the savings go right to the bottom line. So that's one of the challenges of just accepting things without questioning them. One of the problems is that",
+      "zh": "……点儿，我是个爱钻兔子洞（rabbit hole，即刨根问底）的人。所以，同理心和出色的文化能灌输一种忠诚感、降低流失率。员工流失的代价非常高。有些行业里，年度流失率达到 200% 都并不罕见。但当存在同理心和出色文化时，这些数字就会下降，而这些价值、这些节省下来的成本会直接落到利润底线（bottom line）上。所以，这就是不加质疑地照单全收所带来的挑战之一。其中一个问题是……"
+    },
+    {
+      "i": 75,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "31:59",
+      "en": "you can lose out on alpha. And I think the only way to generate alpha is to be a contrarian when it comes to the conventional wisdom, whether that be interpreting the interpretation of rules or whether what everyone else thinks is true is actually completely false. Yeah, Costco comes to mind on the one hand versus sort of what we've got happening in Silicon Valley right now with like a 996 culture that sort of burns through people",
+      "zh": "……你可能会错失 alpha（超额收益）。而我认为，生成 alpha 的唯一途径，就是在面对传统智慧时做一个逆向思考者（contrarian）——无论那是对规则的解读方式，还是别人都以为是真的东西其实完全是假的。（主持：）是啊，一方面会让人想到 Costco，另一方面则是眼下 Silicon Valley 正在发生的那种 996 文化，那种把人快速消耗殆尽的文化，"
+    },
+    {
+      "i": 76,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "32:42",
+      "en": "with the assumption that you're dispensable. Wait, what's 996? I don't remember. 9am to 9pm, six days a week. Oh yeah, okay. That's light work as far as I'm concerned. Yeah, I was going to say, I'm old school. Yeah, we were doing that in Wall Street.",
+      "zh": "……并且默认你是可以被随时替换掉的。等等，996 是什么来着？我记不清了。早 9 点到晚 9 点、一周六天。哦，对，好的。在我看来那还算轻松的活儿。是啊，我正想说呢，我是老派的人。是啊，我们在 Wall Street 那会儿就是这么干的。"
+    },
+    {
+      "i": 77,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "33:03",
+      "en": "That's nothing. Oh, that would be a half day. You know, it's funny, it reminds me, there are very, I'm going to state the name of a controversial figure, Elon Musk, and just extraordinary business person. The one thing I firmly agree with him is when he has this, he has this little thing where he talks about you got two people, one works 40 hours a week, the other works 100 hours a week. What do you think is going to happen? So I look, I feel",
+      "zh": "那算什么。哦，那只算半天而已。你知道，有意思的是，这让我想起——我要提一个有争议的人物的名字了——Elon Musk（埃隆·马斯克），一位极其出色的商业人士。我唯一坚定同意他的一点是，他有这么一个小段子：他说你有两个人，一个每周工作 40 小时，另一个每周工作 100 小时，你觉得会发生什么？所以我看着，我感觉……"
+    },
+    {
+      "i": 78,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "33:49",
+      "en": "that I'm being insensitive right now to the work balance crew, but let me explain though something that's I think really important to add to what I just said. And that is this.",
+      "zh": "……自己现在对那些讲究工作与生活平衡（work-life balance）的人有点不近人情，不过还是让我解释一下，我觉得有一点非常重要，需要补充到我刚才说的话里。那就是——"
+    },
+    {
+      "i": 79,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "34:03",
+      "en": "Wealth can be measured and defined in different ways. So for the people that want to become wealthy in the image of Elon Musk, then you might want to do that 100 hours a week of work.",
+      "zh": "财富可以用不同的方式来衡量和定义。所以，对那些想要以 Elon Musk 为模板变得富有的人来说，你或许就得每周工作 100 小时。"
+    },
+    {
+      "i": 80,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "34:19",
+      "en": "996 becomes 912, whatever, 912, 7. No, not even nine. What am I saying? I can't remember. So so all I'm saying is a lot of work. If you want that wealth, that's typically how it happens.",
+      "zh": "996 就变成 912，管它呢，912、7……不对，连九都不到。我在说什么呀？我都记不清了。所以我要说的就是：大量的工作。如果你想要那种财富，通常就是这么来的。"
+    },
+    {
+      "i": 81,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "34:36",
+      "en": "But if you want to be your daughter's soccer team coach, that's also wealth. And I've made those types of choices myself. I left an investment banking career. When my oldest daughter got a certain age, because I'm like, you know what, I have a different definition of wealth. And that definition means I want more time with my daughter and then my second daughter and I have zero regrets.",
+      "zh": "但如果你想当女儿足球队的教练，那同样是一种财富。我自己就做过这类选择。我放弃了投资银行的职业生涯——当我大女儿到了某个年纪的时候，因为我想，你知道吗，我对财富有一个不同的定义。而那个定义意味着，我想要有更多时间陪伴我的女儿，后来又陪伴我的二女儿，我对此毫无悔意。"
+    },
+    {
+      "i": 82,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "35:05",
+      "en": "I don't, you know, so I'm sorry, that was a bit of a tangent, but I did want to just chat about that. But but on the Silicon Valley piece, here's here's here's something that just came to mind. And that is the company anthropic. Here's why I thought of the company anthropic and Silicon Valley, traditional Silicon Valley culture. That is a lot of venture capital these days is based on making a lot of bets, setting impossible targets, I shouldn't say impossible,",
+      "zh": "我……所以抱歉，刚才有点跑题了，但我确实想聊聊那个。不过说到 Silicon Valley 这块，这里有个我刚想到的例子，那就是 Anthropic 这家公司。我之所以想到 Anthropic 和 Silicon Valley、想到传统的 Silicon Valley 文化，是因为如今很多风险投资都建立在广撒网下注、设定不可能的目标之上——我不该说不可能，"
+    },
+    {
+      "i": 83,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "35:48",
+      "en": "setting very aggressive targets, milestones, etc. growth, sort of metrics that are very difficult to achieve. So what did anthropic do? Anthropic sacrificed rapid growth, market share acquisition in order to focus more on humanitarian safeguards, controls, things like its constitutional AI.",
+      "zh": "……而是设定非常激进的目标、里程碑等等——增长，那种很难达成的指标。那么 Anthropic 做了什么呢？Anthropic 牺牲了快速增长、牺牲了市场份额的抢占，为的是更多地聚焦于人道主义层面的防护措施、管控，比如它的宪法式 AI（constitutional AI）。"
+    },
+    {
+      "i": 84,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "36:24",
+      "en": "When we were offered an opportunity to invest in anthropic in March of 2024, there were real questions about whether the country company would make it. It, you know, it had fallen so far behind the kind of foundational model race that it was it seemed extremely risky at that time for a lot of people. But at the end of the day, that public interest focus that initially slowed growth ended up being a big asset. Roy, from our last chat,",
+      "zh": "当我们在 2024 年 3 月获得投资 Anthropic 的机会时，人们是真的在打问号：这家公司能不能撑下去。你知道，它在基础模型（foundational model）竞赛中落后了太多，以至于在当时很多人看来风险极高。但说到底，那种最初拖慢了增长的公共利益导向，最终反而成了一大资产。（主持：）Roy，从我们上次聊天开始，"
+    },
+    {
+      "i": 85,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "37:06",
+      "en": "one thing that we left all of our audience with was just kind of like a reading list from you, because you read so many books and you've told us and I think maybe your editors told us as well that, you know, they made you cut some books off the bibliography because there are hundreds of them.",
+      "zh": "我们留给所有听众的一样东西，就是来自你的一份书单，因为你读了太多书。你告诉过我们——我想也许你的编辑们也告诉过我们——他们让你从参考文献里删掉了一些书，因为那数目有好几百本。"
+    },
+    {
+      "i": 86,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "37:26",
+      "en": "But I'm curious of not including the like myth and other books that you've mentioned, were there like one or two that really changed your perspective the most?",
+      "zh": "但我很好奇，撇开你已经提到的那些书（包括 myth 之类的）不谈，有没有哪一两本，是最真正改变了你视角的？"
+    },
+    {
+      "i": 87,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "37:35",
+      "en": "Yeah, so a couple things. Soon and very soon, if people go to positivesumbook.com, there will be my full annotated bibliography, all 142 books with a description of why the books were relevant to positive sum. That document itself I think is around 35 pages or so. But trust me, no, no, no, trust me. It's fun. It's fun. No, it's good. And you don't have to read it all in one, but it's I even have a section called the shortcut. So I cover the top books that I think",
+      "zh": "嗯，有几件事。很快，就在不久之后，如果大家去 positivesumbook.com，就能看到我完整的、带注释的参考文献——全部 142 本书，每一本都有一段说明，讲清楚这本书为什么与正和（positive sum）相关。这份文档本身我记得大概有 35 页左右。但相信我——不不不，相信我，很有意思的。真的很好玩。不，是真的好。而且你不必一口气全读完，我甚至专门设了一个叫捷径（the shortcut）的部分。所以我涵盖了那些我认为……"
+    },
+    {
+      "i": 88,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "38:18",
+      "en": "were most important to me. But let me tell you, I think the two that were most meaningful to me in my research, I think they were the end of Economic Man, which is Peter Drucker's first book. And it talks about how economic alienation leads to authoritarianism and talks about it from business systems perspective. Number one, number two, I'm going to say why nations fail, which is a book by Nobel Prize winners, Darren Asimoglou and James Robinson. And they provide",
+      "zh": "……对我最重要的顶尖书籍。但我告诉你，我觉得在我的研究中对我最有意义的两本——我想一本是《经济人的终结》（The End of Economic Man），那是 Peter Drucker 的第一本书。它讲的是经济疏离如何导向威权主义，并且是从商业体系的角度来谈的。这是第一本。第二本，我要说是《国家为什么会失败》（Why Nations Fail），作者是诺贝尔奖得主 Daron Acemoglu（达龙·阿西莫格鲁）和 James Robinson（詹姆斯·罗宾逊）。他们提供了……"
+    },
+    {
+      "i": 89,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "39:07",
+      "en": "the deeply researched proof that inclusive economies in the long run succeed in extractive economies in the long run fail. And that doesn't mean the extractors don't get rich, it just means everyone else fails. And I guess the third is more a document than a book. It's the Powell memo. And the reason why the Powell memo was so important was it's it is a brilliant blueprint on how a small number of people who are committed to a singular objective",
+      "zh": "……经过深入研究得出的证明：包容性经济（inclusive economies）从长远看会成功，而攫取性经济（extractive economies）从长远看会失败。这并不意味着那些攫取者不会发财，只是意味着其他所有人都会失败。而我想第三样与其说是一本书，不如说是一份文件，那就是 Powell 备忘录（the Powell memo）。Powell 备忘录之所以如此重要，是因为它是一份极其出色的蓝图，讲的是一小群致力于单一目标的人……"
+    },
+    {
+      "i": 90,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "40:06",
+      "en": "and are willing to pull their resources and patiently chip away. It's extremely powerful and effective. And I talk about in the book why Lewis Powell was perfectly suited to create that extraordinary blueprint. Now, spoiler alert, I completely disagree with the intentions.",
+      "zh": "……并且愿意汇集各自的资源、耐心一点点地啃。这是极其强大而有效的。我在书里谈到了，为什么 Lewis Powell（刘易斯·鲍威尔）是打造那份非凡蓝图的完美人选。好了，剧透警告——我完全不同意其中的意图。"
+    },
+    {
+      "i": 91,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "40:40",
+      "en": "But for anyone who wants to bring about change, it's a great blueprint and just plug in the type of change that you'd like to achieve. I have a bonus chapter that will be coming out in my book that's going to talk about the Powell memo, because what I've done, spoiler, spoiler alert, it's not just spoiler alert. The obvious first thing we recommend everybody read is positive sum. This is from all the newsletter slop that you get in your inbox",
+      "zh": "但对任何想要带来改变的人来说，它都是一份极佳的蓝图，你只要把自己想要实现的那种改变填进去就行。我书里还会出一个加映章节（bonus chapter），专门讲 Powell 备忘录，因为我已经做的——剧透，剧透警告——这不只是剧透警告而已。（主持：）我们推荐每个人读的第一件、也是最显而易见的东西，就是《Positive Sum》。相比你收件箱里每天收到的那些泛滥成灾的 newsletter 垃圾内容……"
+    },
+    {
+      "i": 92,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "41:10",
+      "en": "every day. I would say it will not remind you as clearly what the hell are we doing with these skills that we have. We're in these positions of incredible influence and power by determining where capital goes. And you may forget occasionally. What is it all for? And I recommend reading the book because it does remind you that you're the one in the driver's seat. Well said. Well said, yeah.",
+      "zh": "……（那些内容）可不会像这本书这样清晰地提醒你：我们究竟在拿自己拥有的这些技能做什么？我们身处这些拥有巨大影响力和权力的位置，决定着资本流向何方。而你偶尔可能会忘记：这一切到底是为了什么？我推荐读这本书，因为它确实会提醒你——坐在驾驶座上的人是你自己。说得好。说得好，是啊。"
+    },
+    {
+      "i": 93,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "41:45",
+      "en": "Roy, thanks so much for being on the podcast again. We'll have to have you again for the next book. Oh boy, I think the next one has to be fiction because those citations drove me crazy.",
+      "zh": "Roy，非常感谢你再次来到这档播客。等你出下一本书，我们一定还得再请你来。（Roy：）哦天呐，我想下一本得写小说了，因为那些引用注释快把我逼疯了。"
+    },
+    {
+      "i": 94,
+      "speaker": 5,
+      "speaker_zh": 5,
+      "ts": "41:57",
+      "en": "You later, allocator. After portfolio tile, investing with a smile. Bo's here. You know when a song leaves that breath in the beginning, or you hear that bit of feedback right at the end, those details are what make the song the song.",
+      "zh": "回见啦，allocator。带着微笑去投资。Bose 来了。你知道，当一首歌在开头留下那一口呼吸，或者你在结尾听到那一丝电流杂音时——正是这些细节，让一首歌成为它自己。"
+    },
+    {
+      "i": 95,
+      "speaker": 5,
+      "speaker_zh": 5,
+      "ts": "42:30",
+      "en": "With Bo's, you'll hear everyone. Your music deserves Bo's. And over $700. Want to get in on the membership duo of the century? Visit samsclub.com. Come join us, Sam's Club. Annual plan only, auto renews, TNC apply, estimate based on average combined, Walmart Plus and Sam's Club Plus savings among members of both for one plus year versus non-member or club member pricing slash fees. Excludes membership fee. See Walmart Plus terms and Sam's Club terms for more info.",
+      "zh": "有了 Bose，你能听见每一个人。你的音乐值得拥有 Bose，而且能省下超过 700 美元。想加入这对世纪会员组合吗？请访问 samsclub.com。来加入我们吧，Sam's Club。仅限年度计划，自动续费，须遵守条款与条件。该估算基于同时拥有 Walmart+ 和 Sam's Club Plus 会员、且会员满一年以上的用户，与非会员或普通会员的定价/费用相比所节省的平均合计数额。不含会员费。详情请见 Walmart+ 条款和 Sam's Club 条款。"
+    }
+  ]
+}

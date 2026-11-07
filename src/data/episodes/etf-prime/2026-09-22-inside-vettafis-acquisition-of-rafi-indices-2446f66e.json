@@ -1,0 +1,977 @@
+{
+  "show": "etf-prime",
+  "kind": "transcript",
+  "id": "etf-prime-2446f66e",
+  "guid": "https://etfprime.com/?p=50616",
+  "slug": "2026-09-22-inside-vettafis-acquisition-of-rafi-indices-2446f66e",
+  "date": "2026-09-22",
+  "title_en": "Inside VettaFi’s Acquisition of RAFI Indices with Tom Hendrickson &#038; Rob Arnott",
+  "title_zh": "VettaFi 收购 RAFI Indices 幕后：对话 TMX VettaFi 的 Tom Hendrickson 与 Syzygy 的 Rob Arnott",
+  "subtitle_zh": "复盘 VettaFi 收购 RAFI Indices 交易，Rob Arnott 阐述基本面指数的价值倾斜与再平衡阿尔法及主动量化新布局。",
+  "description": "Inside VettaFi’s Acquisition of RAFI Indices with Tom Hendrickson &#038; Rob Arnott",
+  "duration": "51:48",
+  "duration_seconds": 3108,
+  "episode_url": null,
+  "audio_url": "https://media.blubrry.com/etf_store/media.blubrry.com/etf_store/content.blubrry.com/etf_store/etf_prime_092226.mp3",
+  "speakers": {
+    "1": "Nate Geraci（主持）",
+    "2": "Tom Hendrickson（嘉宾）",
+    "3": "Rob Arnott（嘉宾）",
+    "4": "片花/广告（旁白）"
+  },
+  "turn_count": 119,
+  "turns": [
+    {
+      "i": 0,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "00:00",
+      "en": "Long horizon mean reversion is one of the most powerful forces at work in the capital markets. And with Rafi, you get a value tilt and you get a rebalancing alpha that is relentless.",
+      "zh": "长周期均值回归（mean reversion）是资本市场里最强大的力量之一。有了 RAFI，你既获得一个价值倾斜（value tilt），又获得一份永不停歇的再平衡阿尔法（rebalancing alpha）。"
+    },
+    {
+      "i": 1,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "00:21",
+      "en": "All right, joining me will be Tom Hendrickson, president of TMX vetify and Rob are not chairman of scissor G asset management, which was formerly known as research affiliates.",
+      "zh": "好，今天做客节目的是 TMX VettaFi 总裁 Tom Hendrickson，以及 Syzygy Asset Management 董事会主席 Rob Arnott——Syzygy 的前身就是 Research Affiliates。"
+    },
+    {
+      "i": 2,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "00:33",
+      "en": "And unless you've been living under a rock, you're likely aware that vetify recently closed on its acquisition of Rafi indices from research affiliates. That deal was first announced back in June, it then officially closed a little over a month ago. And I am extremely excited to bring you the two individuals at the very heart of this deal in Tom and Rob, who I would say both probably need no introduction. But I'll tell",
+      "zh": "只要你不是刚从那石头底下钻出来，多半已经知道：VettaFi 最近完成了从 Research Affiliates 收购 RAFI Indices 的交易。这笔交易最早在今年六月宣布，正式交割也就是一个多月前的事。我非常激动能把这笔交易正中心的两位请来——Tom 和 Rob，我敢说这二位大概都不需要我介绍。不过我还是说一下，"
+    },
+    {
+      "i": 3,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "01:02",
+      "en": "you, Tom is someone I've known for a while now. I think many longtime listeners are certainly familiar with Tom. He built ETF database, he then merged that with ETF trends. And of course, that ultimately became vetify, which he currently heads up. And before that, he actually led the charge for investopedia. So he's been in the investment data and media world for decades now. And then Rob again, really needs no",
+      "zh": "Tom 是我认识挺久的人了，我想很多老听众对他肯定不陌生。他打造了 ETF Database，后来把它和 ETF Trends 合并，最终演变成今天的 VettaFi，现在由他执掌。再往前，他还执掌过 Investopedia。所以他在投资数据和媒体这个圈子里已经摸爬滚打几十年了。然后是 Rob，他是真不需要介绍，"
+    },
+    {
+      "i": 4,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "01:31",
+      "en": "introduction. He's been called the father of fundamental index investing. He's been called the godfather of smart beta. I always say he's one of the sharpest investment minds that I've had the fortune of visiting with over the years.",
+      "zh": "人们称他是基本面指数投资之父，也称他是聪明贝塔（smart beta）教父。我一直说，他是过去这些年我有幸对话过的最敏锐的投资头脑之一。"
+    },
+    {
+      "i": 5,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "01:45",
+      "en": "And so the three of us are going to have a wide ranging conversation. I'm going to have them both take us behind the scenes of vetify's acquisition of Rafi indices. We'll find out how and why that all came together. I want to discuss vetify's indexing business overall, which that now powers over $260 billion in assets. I'm not sure people realize how big of a player vetify is becoming in the indexing",
+      "zh": "所以我们仨今天会有一场非常宽泛的对谈。我会请这两位带我们走进 VettaFi 收购 RAFI Indices 的幕后，看看这一切是怎么、又是为什么走到一起的。我还想聊聊 VettaFi 整体的指数业务——它现在支撑着超过 2600 亿美元的资产。我不确定大家是否意识到 VettaFi 在指数领域"
+    },
+    {
+      "i": 6,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "02:14",
+      "en": "world. So we'll talk about that. And then we'll also get into the current financial markets. Because if you have Rob joining, it would be an absolute crime not to talk about what's going on there and how he's viewing everything at the moment. So again, this will be a wide ranging conversation with two fantastic individuals. As always, questions or comments, you can find me on x at Nate Geracy, or you can go to etf",
+      "zh": "已经成长为多么大的一名玩家，所以我们会聊到这个。然后我们还会聊聊当前的金融市场。毕竟 Rob 坐在旁边，要是不聊聊市场正在发生什么、他此刻如何看待这一切，那简直是犯罪。所以再说一遍，这会是一场与两位杰出人士的精彩对谈。照例，有任何问题或评论，可以在 X 上找我，账号是 Nate Geraci，或者访问 etf"
+    },
+    {
+      "i": 7,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "02:40",
+      "en": "prime.com. So let me now welcome in Tom Hendrickson and Rob are not gentlemen. Thank you for joining me. I've really been looking forward to this conversation.",
+      "zh": "prime.com。那现在让我欢迎 Tom Hendrickson 和 Rob Arnott。二位，感谢加盟，我真的特别期待这次对话。"
+    },
+    {
+      "i": 8,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "02:51",
+      "en": "Nate, it's fantastic to be here. Thank you very much for sharing some time with us and your audience as well. Alright, so as I mentioned last month, TMX vetify formally completed its acquisition of Rafi indices from research affiliates. And Tom, I want to start with you because you and I have known each other for quite a while now. And we've had a lot of conversations in the past. I've watched as you've",
+      "zh": "Nate，能来到这里太棒了。非常感谢你把自己的时间和你的听众与我们分享。好，就像我上个月说的，TMX VettaFi 已经正式完成从 Research Affiliates 收购 RAFI Indices 的交易。Tom，我想先从你开始，因为你我认识相当久了，"
+    },
+    {
+      "i": 9,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "03:17",
+      "en": "made a number of acquisitions over the years. But I'll tell you, bringing Rafi indices under the vetify umbrella. This feels a little different. This is a huge deal given the footprint and branding that Rafi has established. Certainly the team Rob has built there and their presence and pedigree in the investment world. So take us behind the scenes. How did this all come together?",
+      "zh": "过去我们聊过很多次。这些年我看着你完成了一笔接一笔的收购。但我要说，把 RAFI Indices 收进 VettaFi 的版图，感觉有点不一样。考虑到 RAFI 建立起来的影响力和品牌，当然还有 Rob 带出来的团队，以及他们在投资界的地位和底蕴，这是一笔巨大的交易。带我们走进幕后吧，这一切是怎么促成的？"
+    },
+    {
+      "i": 10,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "03:41",
+      "en": "Yeah, thanks, Nate. Appreciate it. So so first and foremost, I want to get into the nuts and bolts of how the Rafi indices capability accelerates the strategy. But first and foremost, I want to provide some thanks and gratitude to Rob and his team.",
+      "zh": "好的，谢谢 Nate，很感激。我最想深入聊聊 RAFI Indices 这套能力如何加速我们战略的这些具体细节，但最最首先，我想向 Rob 和他的团队表达一些感谢和敬意。"
+    },
+    {
+      "i": 11,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "03:56",
+      "en": "It was an incredible process. We're going to talk a little bit more about that and maybe a few of the fun stories that are a company every deal that you get into the weeds because it is some hard yards to get from initial conversation to closing a deal. But to a person into a conversation, it was clear from the first conversation that the culture that Rob had built and that he had empowered his team members to deliver to clients was",
+      "zh": "这是一个非凡的过程。我们后面会多聊一些，也许还有几个有趣的故事。任何一笔交易，你深入到细节里就会知道，从初次对话到最终交割，中间是实打实的艰苦跋涉。但就人而言，从第一次对话就很清楚：Rob 建立的文化，以及他赋权团队成员为客户交付的那种文化，"
+    },
+    {
+      "i": 12,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "04:23",
+      "en": "incredibly in line with how we think about things that TMX Betify. And we're so thrilled to welcome not only, you know, the members of Rafi indices to the TMX Betify team, but to continue the partnership with Syzygy asset management as we will do into the future with Rob and others on the team there. So these things, oftentimes, you know, you need to be underpinned by everything that's in the Excel document and all of the deal",
+      "zh": "和我们 TMX VettaFi 的思维方式高度一致。我们不仅热烈欢迎 RAFI Indices 的成员加入 TMX VettaFi 团队，也同样欣喜能延续与 Syzygy Asset Management 的合作关系——未来我们也会和 Rob 以及那边的团队一起这么做。所以这些东西，当然往往需要 Excel 文档里的一切、"
+    },
+    {
+      "i": 13,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "04:51",
+      "en": "memo and all of that sort of thing, of course, and we'd like to talk a little bit about those key drivers. But for us, understanding that we were culturally aligned was key and critical. And really, that came down to a few things. One, we could tell that there's innate courage in the team, you know, Rob really, as you described me, pioneered fundamental indexing and that took a lot of courage in the face of, you know, what was",
+      "zh": "交易备忘录里的一切来支撑，我们也愿意聊聊那些关键驱动因素。但对我们来说，确认文化上彼此契合才是关键中的关键。这其实体现在几个方面。第一，我们能感受到这支团队骨子里的勇气。正如你介绍的那样，Rob 开创了基本面指数化（fundamental indexing），这在当时面对传统的"
+    },
+    {
+      "i": 14,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "05:16",
+      "en": "traditionally, you know, market cap weighted, traditional sort of indexing and that goes all the way back to the founding of research affiliates in 2002, of course. But the client centrism in terms of putting the client first and finding those win win win opportunities where everyone in the value chain has an opportunity to succeed together, incredibly important. And from the first conversation and throughout the conversation with",
+      "zh": "市值加权（market-cap weighting）指数格局时需要极大的勇气，当然，这一切要追溯到 2002 年 Research Affiliates 的成立。第二是客户至上：把客户放在第一位，去寻找那种让价值链上每一方都有机会共同成功的三赢机会，这无比重要。从第一次对话开始，并且贯穿与"
+    },
+    {
+      "i": 15,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "05:42",
+      "en": "the Rafi team, that was always at the forefront. So really highly aligned in that regard. And then just all of the shucks and jives that you have throughout the course of the conversation of the deal, but even going back and building on the relationship. In fact, Rob's been, you know, a key speaker at the exchange conference that we've hosted for the last five years. And there's been a great amount of trust built in terms",
+      "zh": "RAFI 团队的整个交流过程，这一点始终排在最前面。所以在这方面我们高度契合。然后当然还有整个交易过程中的各种曲折和插曲，但更根本的是双方长期关系的积累。事实上，Rob 已经连续五年在我们主办的 Exchange Conference 上做重要演讲，双方在如何沟通、"
+    },
+    {
+      "i": 16,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "06:06",
+      "en": "of, you know, how we can speak with each other and how we can solve problems together. And so the cultural alignment was was the most important element here. And it accelerates the vetified strategy. And so so we don't you mentioned, we have done a number of acquisitions. But all of those fit tightly into what I define as strategy accelerates. We don't have an M&A strategy at TMX vetified Nate, we have a strategy. And we look for",
+      "zh": "如何一起解决问题上建立了深厚的信任。所以文化契合是这里最重要的元素，它加速了 VettaFi 的战略。你提到我们做过不少收购，但它们都紧密契合我定义的\"战略加速器\"。我们 TMX VettaFi 没有并购战略，Nate，我们有的是业务战略，我们寻找的是"
+    },
+    {
+      "i": 17,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "06:38",
+      "en": "capabilities and people and client relationships that can accelerate that strategy. So again, I'm happy to dive deeper into these sorts of things. But you know, to Rob and team, thank you for the trust that you endowed upon us in terms of taking what has been built into the next phase of growth. And we're just incredibly excited about the future.",
+      "zh": "能够加速这个战略的能力、人才和客户关系。所以我很乐意再往深处聊这些。但我要再次对 Rob 和团队说：谢谢你们信任我们，把已经建成的一切带入下一个成长阶段。我们对未来无比兴奋。"
+    },
+    {
+      "i": 18,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "07:02",
+      "en": "We're deeply grateful to you guys because you've got the resources to take this entire product suite to the next level. It should be a trillion dollar product suite. And with you guys within 10 years, it will be a trillion dollar product suite.",
+      "zh": "我们也非常感激你们，因为你们有资源把整个产品线带上一个台阶。这应该是一个万亿美元量级的指数资产业务线。有你们在，十年之内，它就会成为一个万亿美元的产品线。"
+    },
+    {
+      "i": 19,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "07:17",
+      "en": "And it's going to be fun to help help you guys make that happen. It's going to be fun to watch it happen. Tom, talk a little bit more about vetify's indexing business overall. And as you heard me mention at the top, I'm seriously not sure people fully appreciate what a juggernaut this is turning into. And I'm not trying to butter your bread here. I just think there are a number of people who still associate",
+      "zh": "帮着你们把这件事做成会很有趣，看着它发生也会很有趣。Tom，再多聊聊 VettaFi 的指数业务整体吧。开头你也听到我说的了，我是真不确定大家是否充分意识到这台机器已经长成多么庞大的存在。我不是在拍你马屁，只是觉得还有不少人仍然把"
+    },
+    {
+      "i": 20,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "07:41",
+      "en": "vetify with ETF data and content. And that's it, right? Your platforms like ETF trends and ETF database, advisor perspectives, which all of those are great. But obviously vetify's business has evolved. And so talk about that and perhaps a longer term vision for the indexing business.",
+      "zh": "VettaFi 等同于 ETF 数据和内容，仅此而已，对吧？你们有 ETF Trends、ETF Database、Advisor Perspectives 这些平台，这些都很棒。但显然 VettaFi 的业务已经进化了。所以聊聊这个吧，也许也谈谈指数业务的长期愿景。"
+    },
+    {
+      "i": 21,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "08:01",
+      "en": "Yeah, so we think about ourselves and appreciate the opportunity to describe the business a bit more. We think about ourselves as a differentiated index provider, you know, with global scale and reach. And so, you know, first and foremost, that is the business, the core business that we're in is the business of indexing, which means, you know, creating, maintaining, designing, co creating, calculating",
+      "zh": "好的，我们对自己的定位是——也很感谢有机会更完整地描述这门生意——我们把自己看作一家差异化的指数提供商，具备全球的规模和触达。最核心的，我们从事的根本业务就是指数业务，也就是创建、维护、设计、共同创建、计算和"
+    },
+    {
+      "i": 22,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "08:23",
+      "en": "and ministering indices. We have over 2000 indices running on our index factory at the proprietary technology, 90 of which came as part of the Rafi indices acquisition. And like you mentioned, there's, there's a well north of $260 billion of assets under indexing on the platform. But you also touched on and we consider that our build capability, and really the sort of the core components of how we deliver indexing",
+      "zh": "管理指数。我们在自研的 Index Factory 技术平台上运行着超过 2000 条指数，其中 90 条是随 RAFI Indices 收购而来的。正如你所说，平台上被指数化的资产远不止 2600 亿美元。你也提到了我们的\"构建\"（build）能力，它是我们向客户交付指数解决方案、"
+    },
+    {
+      "i": 23,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "08:48",
+      "en": "solutions to clients and then ultimately how they deliver them to the end investor. The secret sauce really is our lineage and heritage in a connectivity to an investor audience. And so we do have a constellation of web properties, ETFDB, advisor perspectives in the UK market, ETF stream in the Canadian market TMX money. And we think about the ability to speak to that audience as very key and critical to how we can help our",
+      "zh": "进而由他们交付给终端投资者的核心组件。真正的秘方在于我们的血统、传承，以及我们与投资者受众的连接。我们有一组网站资产：ETFDB、面向英国市场的 Advisor Perspectives、面向加拿大市场的 ETF Stream，还有 TMX Money。我们认为，能够对话这群投资者的能力，"
+    },
+    {
+      "i": 24,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "09:17",
+      "en": "clients grow their product suite. So understanding what investors are looking at, we've talked a lot in the past made about behavioral data, we're very in tune to not only where the market is, but where the market's going, you know, where the proverbial puck is going. And so keeping abreast of you know, what the behavioral data is telling us and how we can deliver portfolio solutions, ultimately adding value to that",
+      "zh": "是我们帮助客户壮大产品线的关键所在。理解投资者在看什么——我们过去常谈行为数据（behavioral data），我们不仅紧跟市场现在在哪里，更紧跟市场要去哪里，也就是那句老话，冰球将要去的地方。所以持续把握行为数据告诉我们的信息，并据此交付投资组合方案，真正为投资者的旅程增值，"
+    },
+    {
+      "i": 25,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "09:43",
+      "en": "investor's journey. That's what we call our grow capability. So differentiated index provider, the way that we differentiate is bringing the grow capability to combine with the build capability. And like you say, we're on a journey ourselves and the there's a huge stair step up in our ability to deliver solutions to our investor audience with the RAFI indices capability. Historically, Betify has had a really rich history",
+      "zh": "这就是我们所说的\"增长\"（grow）能力。所以，差异化指数提供商的差异化之道，就是把 grow 能力和 build 能力结合起来。正如你所说，我们自己也在旅程之中，而 RAFI Indices 这套能力让我们的方案交付能力上了一个巨大的台阶。历史上，VettaFi 在主题投资"
+    },
+    {
+      "i": 26,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "10:10",
+      "en": "and legacy in the thematic investing space, you know, going back to creating the industry that now powers the largest master limited partnership fund, AMLP, back to 2012 or so. And so we've done a lot of really good work in that space. But as we all know, and I think that we'd agree that investors have needs across the entirety of their portfolio, the RAFI capability really allows us to speak to the core of an",
+      "zh": "（thematic investing）领域有非常深厚的积淀，可以追溯到 2012 年前后打造了如今支撑最大的有限合伙（MLP）基金 AMLP 的那套体系，我们在那个领域做了很多出色的工作。但如我们所知，我想大家也会同意，投资者的需求覆盖整个投资组合，而 RAFI 的能力让我们得以对话"
+    },
+    {
+      "i": 27,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "10:39",
+      "en": "investor's portfolio. And so now we can have a conversation that's not only in the thematic area of the portfolio and deliver solutions there, which you know, is really sort of dissecting sector strategies and delivering unique abilities to target investment outcomes for investors, extremely important, but also the core holdings on the equity side. And one of the other not to be missed capabilities that we now have",
+      "zh": "投资者组合的核心。所以现在我们的对话不再只局限于组合的主题部分——当然主题那侧也很有价值，也就是拆解行业策略、用独特能力帮助投资者瞄准投资结果，这极其重要——而是延展到股票端的核心持仓。另外，值得一提的、现在也纳入 VettaFi 版图的另一套能力是，"
+    },
+    {
+      "i": 28,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "11:05",
+      "en": "under the Betify umbrella is we have a full suite of fixed income capabilities. So we can speak to the entirety of the portfolio. And that's really helping accelerate our assets under edX and growth. But what more excitingly, it gives us more opportunities to to work more deeply with clients across more geographies.",
+      "zh": "我们拥有了完整的固定收益能力矩阵。这样我们就能对话整个投资组合，这正在加速我们指数化资产的增长。但更令人兴奋的是，它让我们在更多地域有更多机会与客户做更深度的合作。"
+    },
+    {
+      "i": 29,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "11:23",
+      "en": "Rob, let me bring you further into the conversation here. I'd love to have you just talk more about this deal from your perspective, why this made sense for you in the RAFI team. And Tom's talked about the cultural alignment here. You briefly commented earlier that you see this as a trillion dollar assets under indexing business. So talk more about the motivation from your side.",
+      "zh": "Rob，我想把你更多地拉进对话。我很想听你从你的角度多谈谈这笔交易：为什么对 RAFI 团队来说这是合理的选择。Tom 刚谈了文化契合，你也简要提过，你把它看作一个万亿美元级的指数资产业务。谈谈你这一侧的动机吧。"
+    },
+    {
+      "i": 30,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "11:46",
+      "en": "Sure, it's actually very simple. We're a lean organization. We do not have a deep distribution capability. We partnered with others for distribution. PIMCO and Schwab are our two largest relationships, or I should say, Schwab was, it's now a vetify relationship. And these relationships are our way of distributing product. With RAFI, the fundamental index, we went through a dozen years in which value under",
+      "zh": "没问题，其实很简单。我们是一个精简的组织，没有深厚的分销能力，我们靠与别人合作来分发产品。PIMCO 和 Schwab 是我们最大的两个合作关系——或者我该说，Schwab 以前是，现在它是 VettaFi 的关系了。这些关系就是我们分发产品的方式。RAFI 基本面指数经历了价值股跑输成长股的"
+    },
+    {
+      "i": 31,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "12:21",
+      "en": "perform growth. RAFI outperforms value relentlessly. The RAFI US versus S&P 500 has won in approximately seven out of every 10 years for the last 20 years, and has won by an average of two to two and a half percent per year, has won with volatility in that number of only two to two and a half percent.",
+      "zh": "十几年。而 RAFI 持续稳定地跑赢价值。RAFI 美国版对比标普 500，过去 20 年里大约每 10 年赢 7 年，年均赢 2% 到 2.5%，而且波动率也只有 2% 到 2.5%。"
+    },
+    {
+      "i": 32,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "12:47",
+      "en": "If you're adding two and a half percent with two and a half percent fall, that's pretty darn impressive. And it does so because it breaks the link with price. The strategy is powerful.",
+      "zh": "用 2.5% 的波动换来 2.5% 的额外收益，这相当惊人。而它之所以做到这一点，是因为它斩断了与价格的关联。这个策略是强大的。"
+    },
+    {
+      "i": 33,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "13:04",
+      "en": "But we also recognize that if you're beating value when value is underperforming the market, it doesn't get people excited. So we patiently waited for that cycle to turn in, it will. But it was turning into a long wait. And I'm not exactly young anymore. I'm now 72. So it was time to start thinking about how do we position my babies to grow up and be the kinds of successes that they can, should, and will be. And so",
+      "zh": "但我们也承认，当价值跑输市场的时候，你击败了价值并不能让人兴奋。所以我们耐心等待那个周期反转——它终究会来的。但这一等变得很漫长，而我不再年轻了，我现在 72 岁。所以是时候开始思考：如何让我的\"孩子们\"长大，成为它们能够、应该、也一定会成为的那种成功。于是"
+    },
+    {
+      "i": 34,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "13:39",
+      "en": "finding a proper home for this product suite made all the sense in the world. I was actually a little worried that one of the big players would come in, buy us in order to kill the products. Thankfully, that didn't happen. And Tom and his team came along and said, we've got a home for you. This is a beautiful fit with vetify's business with vetify's aspirations. And we can and we'll take it to the next level. And",
+      "zh": "为这套产品线找到一个合适的归宿，是天经地义的事。我其实有点担心某家巨头会来把我们买走，然后把产品雪藏。谢天谢地，那没有发生。Tom 和他的团队出现了，说：我们为你们准备了一个家。这与 VettaFi 的业务、与 VettaFi 的雄心完美契合，我们可以、也一定会把它带到下一个层次。"
+    },
+    {
+      "i": 35,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "14:09",
+      "en": "so I'm excited. A lot of folks when they sell a business, dust their hands off and say, okay, thanks. I'm often into the sunset. I intend to help this process to whatever extent vetify wants me to do so in order to help assure that these things take off to the to become the scale that they amply already deserve.",
+      "zh": "所以我很兴奋。很多人卖掉企业后就拍拍手，说好了，谢谢，然后隐入夕阳。而我打算在 VettaFi 需要的任何程度上继续帮助这个过程，确保这些产品真正起飞，达到它们早已完全配得上的规模。"
+    },
+    {
+      "i": 36,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "14:37",
+      "en": "Rob, I know you and I have talked about this previously, but you mentioned your babies. For people unfamiliar, do you mind briefly taking us through the history of Rafi indices? You know, I mentioned at the top, you do have the moniker of the godfather of smart beta. I don't know if you like that or not, but you are credited with pioneering fundamental indexing.",
+      "zh": "Rob，我知道你我之前聊过这个，但你刚才说\"我的孩子们\"。对于不熟悉背景的听众，你能不能简要带我们回顾一下 RAFI Indices 的历史？开头我提过，你有\"聪明贝塔教父\"的头衔，不知道你喜欢不喜欢这个称呼，但公认是你开创了基本面指数。"
+    },
+    {
+      "i": 37,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "14:57",
+      "en": "I think the term smart beta has lost all relevant meaning because it's such a catchy term that everyone attaches it to ideas that are smart, random or stupid. So smart beta itself doesn't mean anything. But I was I was pleased when Wall Street Journal attached that label to me. But in any event, that was good fun. The idea in fundamental index was really simple. The inspiration for it was the dot com bubble and the",
+      "zh": "我觉得 smart beta 这个词已经完全失去了意义，因为它太朗朗上口，人们把聪明的、随机的、愚蠢的主意都往上贴，所以 smart beta 本身什么都不意味了。不过当初《华尔街日报》把那个标签贴给我时，我还是挺高兴的，权当一乐。基本面指数的想法其实非常简单，它的灵感"
+    },
+    {
+      "i": 38,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "15:29",
+      "en": "subsequent bus. It came to my attention in early 2002, that in the first two years after the dot com bubble burst, the S&P was already down 27% on its way to being down 47%. And the median stock in the Russell 1000, Russell 3000, the median US company was up 20% in a horrible bear market. It was a horrible bear market for the frothy names at the top. It became a bear market for everything in the middle two quarters of 2002, a",
+      "zh": "来自互联网泡沫和此后的暴跌。2002 年初我注意到，在互联网泡沫破裂后的头两年里，标普已经跌了 27%——还在通往跌 47% 的路上——而 Russell 1000、Russell 3000 的中位数股票，也就是美国中位数公司，却在那场惨烈的熊市里涨了 20%。那是一场针对顶部泡沫股的惨烈熊市，"
+    },
+    {
+      "i": 39,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "16:10",
+      "en": "short, sharp six month bear market, which took the median stock in the Russell 3000 back down by about 20%. But most of the market was shrugging off this whole bear market. And I realized that the essence of the problem was cap waiting. Now, cap, if you want to track the market, you got to cap weight because the market is cap weighted. But if you're an investor, you don't have to. And if you wait companies",
+      "zh": "2002 年的后两个季度，一场短暂而剧烈的六个月熊市把 Russell 3000 的中位数股票又打下去约 20%，把中间层的股票也拖进了熊市，但市场大部分对这场熊市不以为然。我意识到问题的本质在于市值加权。你要想跟踪市场，就必须市值加权，因为市场本身就是市值加权的。但如果你是投资者，你不必如此。如果你按公司基本面规模来加权，"
+    },
+    {
+      "i": 40,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "16:39",
+      "en": "according to the fundamental size of their business, you wind up with a broadly diversified portfolio that instead of being indexed to look like the stock market is indexed to look like the macro economy. Well, that's going to have a value tilt.",
+      "zh": "你会得到一个广泛分散的组合——它不再是对着股票市场建模，而是对着宏观经济建模。而这天然会带有价值倾斜。"
+    },
+    {
+      "i": 41,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "16:55",
+      "en": "Growth stocks trading at frothy multiples are reweighted down to their economic footprint. Value stocks trading at deep discounts are reweighted up. So you always have this value tilt, one could view it as an alternative approach to building a core index, or a distinctly better approach to building a value index. It's both. In its distribution of the strategy Schwab uses it as a complement to cap waiting. Other",
+      "zh": "交易价格虚高的成长股会被重新调低到它们的经济足迹，深度折价的价值股会被重新调高，所以你永远带着这个价值倾斜。你可以把它理解为构建核心指数的另一种方式，也可以理解为构建价值指数的明显更好的方式。两者都是。在策略的分工上，Schwab 用它作为市值加权的补充，"
+    },
+    {
+      "i": 42,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "17:25",
+      "en": "investors use it as a demonstrably superior approach to value investing. That was the starting point. Now, the other element that's just fascinating is if the price of a stock moves and its fundamentals don't, the cap weighted index is okay, I'm along for the ride. You're now a bigger holding than what you were before. Rafi says, well, wait a minute, the fundamentals haven't moved. Thank you for that nice game. I'm going to",
+      "zh": "其他投资者则把它当作一个可证明更优的价值投资方法，这就是起点。另一个特别迷人的要素是：如果股价动了而基本面没动，市值加权指数会说，好的，我搭便车，你现在是比以前更大的持仓了。而 RAFI 说：等等，基本面没变，多谢送来的这笔收益，我要再平衡。"
+    },
+    {
+      "i": 43,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "17:53",
+      "en": "rebalance. So you get a rebalancing alpha from mean reversion. Long horizon mean reversion is one of the most powerful forces at work in the capital markets. And with Rafi, you get a value tilt, which may or may not help. And you get a rebalancing alpha that is relentless. This shows the performance of one Rafi strategy Schwab's fundamental index ETF for the US and compares it with I shares Russell 1000 value",
+      "zh": "于是你获得一份来自均值回归的再平衡阿尔法。长周期均值回归是资本市场最强大的力量之一。有了 RAFI，你得到一个价值倾斜——它可能有用也可能没用——还有一份持续不断的再平衡阿尔法。这张图展示了 RAFI 策略之一的表现：Schwab 的美国基本面指数 ETF，"
+    },
+    {
+      "i": 44,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "18:33",
+      "en": "index. And these are both investable. They're scalable. The turnover on Rafi is lower, lower than the turnover on Russell value. Over the past 13 years, it winds up giving you 400% return on your money instead of 280%. Last I checked 400% is a lot bigger than 280%. So so this is this is the power of Rafi. We then realized that there was another interesting idea. This came to us back in the late 2010s. And that's that core",
+      "zh": "对比 iShares Russell 1000 Value 指数。两者都是可投资、可扩展的。RAFI 的换手率（turnover）还低于 Russell 价值。过去 13 年，它给你的回报是 400%，而那边是 280%。据我所知，400% 可比 280% 大得多。这就是 RAFI 的力量。然后我们意识到还有另一个有趣的想法，这是 2010 年代后期来的：核心"
+    },
+    {
+      "i": 45,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "19:13",
+      "en": "investing, which anchors on cap waiting, really, it has to be cap waiting if you want to match the market. But you don't have to choose stocks just because they're frothy and expensive. Fun little thought experiment. Suppose I came to you and said, I have a brilliant strategy, it's going to attract trillions of dollars of assets. Here's what I do. I watch all of the stocks on the US stock market. If it crosses",
+      "zh": "投资锚定于市值加权——如果你想匹配市场，真的只能市值加权。但你不必仅仅因为股票泡沫又昂贵就选择它们。做个有趣的思维实验：假如我对你说，我有一个绝妙的策略，会吸引数万亿美元的资产。我这么做：我盯着美股全市场，只要一家公司挤进最有价值的 1000 强，我就买入；"
+    },
+    {
+      "i": 46,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "19:37",
+      "en": "into the 1000 most valuable companies, I buy it. If it falls out, that's it. That's the strategy. And I own it at market value. Wait, people would look at you like you're crazy. That's why would you do that? Why would you buy it just because it's soared? Well, we buy it because it's soared because the market's telling us it's going to go on to great success and a lot of these companies do, but some don't. Those become flip",
+      "zh": "一旦跌出去，就卖出，完事。这就是策略，全部按市值持有。人们会觉得你疯了：为什么要这么做？为什么仅仅因为一只股票飙升就买它？我们会说，买它是因为它飙升了——市场在告诉我们它会继续走向伟大，很多公司确实如此，但也有一些不会，那些就成了闪崩。"
+    },
+    {
+      "i": 47,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "20:00",
+      "en": "flops. But you know, most of them are big, solid companies that do awfully well. But you're buying stocks because they soared at an average valuation multiple twice that of the market. You're selling selling stocks because they tanked at an average valuation of that of the market. It doesn't make sense. What if you just change the selection paradigm to say, why don't we choose the 1000 largest businesses, economic",
+      "zh": "当然大多数是大而稳健、表现优异的公司。可你是在平均估值倍数达到市场两倍的价位买入\"飙升\"的股票，又在平均估值相当于市场水平的价位卖出\"暴跌\"的股票。这不合理。如果换掉选股范式呢——去选经济规模最大的 1000 家企业：因为业务在成功而买入，因为业务在衰退而卖出，会怎样？"
+    },
+    {
+      "i": 48,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "20:29",
+      "en": "footprint, buy a company because its business has been succeeding because and after its business has been faltering. This is Raquie research affiliates cap weighted index. And that's part of what vetify bought. So if you want to look at at Raquie, gosh, that's also now a live strategy. And here it is. Since its launch almost exactly a year ago, as compared with spider and voodoo. Well, there's only two lines",
+      "zh": "这就是 RAFI——Research Affiliates 的指数，对比市值加权指数——这也是 VettaFi 买下的资产的一部分。想看看 RAFI 的话，它现在也是一条实盘策略，这就是它：上线将近一整年，拿它和 spider、voodoo（即 SPY 和 VOO）比。嗯，图上其实只有两条线，"
+    },
+    {
+      "i": 49,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "21:00",
+      "en": "here, right? Well, spider and voodoo are the same index. And they're identical. The value add here is relentless. You wind up with an ending value. That's 140 basis points ahead of the S&P in just a year 140 basis points with relentless value add because we're not adding stocks just because they've soared.",
+      "zh": "对吧？因为 spider 和 voodoo 是同一条指数，完全重合。这里的增量价值是持续不断的：一年下来你的期末价值已经领先标普 140 个基点。140 个基点的持续增益，因为我们不再因为股票飙升就买入它们。"
+    },
+    {
+      "i": 50,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "21:25",
+      "en": "This strategy has 95% overlap. If 5% non overlap is driving 140 basis points of alpha, that means this 5%, the 5% we have S&P doesn't beats the 5% that S&P has and we don't by 2800 basis points in a single year. And that's live. That's not a back test. Funny thing is, this strategy has picked up 60 million of AUM should be 60 billion, but never mind that 60 million of AUM in its first year, we do not have distribution",
+      "zh": "这个策略与标普的重合度是 95%。如果 5% 的非重合部分就能驱动 140 个基点的阿尔法，那就意味着：我们有而标普没有的那 5%，在单一年份里跑赢标普有而我们没有的那 5% 达 2800 个基点。这是实盘，不是回测。有趣的是，这个策略第一年只积累了 6000 万美元的 AUM——本该是 600 亿，但没办法——6000 万美元，因为"
+    },
+    {
+      "i": 51,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "22:02",
+      "en": "capabilities. So it's it's still tiny. But here's another fun chart. This is Voo relative to spider going all the way back to 2010. So 16 years. Voo is ahead by 1%. That's six basis points a year. They are near clones, almost exactly the same.",
+      "zh": "我们没有分销能力。所以规模仍然很小。但再看这张有趣的图：这是 VOO 相对 spider 的表现，一路回到 2010 年，16 年。VOO 领先 1%，即每年 6 个基点。它们几乎是克隆品，几乎完全一样。"
+    },
+    {
+      "i": 52,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "22:23",
+      "en": "That skinny little six basis point difference has driven $200 billion more into the Voo index ETF than the spider ETF. Where's that six basis points come from? Six basis point fee differences, nine basis point fee versus three basis point fee.",
+      "zh": "就这 6 个基点的细小差距，让 VOO 这只 ETF 比 spider 多吸了 2000 亿美元。这 6 个基点从哪来？费率差了 6 个基点：9 个基点的费率对比 3 个基点的费率。"
+    },
+    {
+      "i": 53,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "22:43",
+      "en": "So of course, you get six basis points more that drives $200 billion. And then you've got this strategy, which in one year is that at 160 basis points. That's really remarkable. There's a lot of fun stuff going on here. I'm excited about the future of these products. We created a growth index, conventional growth indexes ask the simple question, what are the biggest market cap stocks? Now that'll bias you towards companies that are",
+      "zh": "所以你自然多拿 6 个基点，然后它就驱动了 2000 亿美元。而这边这个策略，一年就领先 160 个基点，真的太出色了。这里面有太多有意思的东西，我对这些产品的未来感到兴奋。我们还创建了一个成长指数。传统成长指数问的问题很简单：市值最大的股票是哪些？——这会把你的偏差引向"
+    },
+    {
+      "i": 54,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "23:13",
+      "en": "expensive, and then ask the question, which ones are trading even more expensive? Those are the growth stocks. Pardon me, those are the expensive stocks. Most growth stocks are expensive. Not all expensive stocks are growth. What if you choose your growth stocks based on how fast is the company actually growing? Look at trailing five year profit growth and sales growth and R&D spending is a good metric used by a lot",
+      "zh": "昂贵的公司；然后再问：哪些交易得更贵？这些就是成长股。抱歉，那些是昂贵的股票。多数成长股是贵的，但并非所有贵的股票都是成长。如果按公司真实增长的速度来选成长股呢？看过去五年的利润增长和营收增长，还有研发支出——很多成长型公司用它来衡量为未来增长再投入的力度，"
+    },
+    {
+      "i": 55,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "23:39",
+      "en": "of growth companies to gauge how much they're reinvesting in their future growth. So look at five year growth in R&D spending. Take the companies with the best five year average growth, and then weight them not by market cap, but by the dollar magnitude of the growth in video is still your number one holding, it's still over 10% of the Rafi growth index, just like it is over 10% of the Russell growth index. This index has been",
+      "zh": "是个好指标。看五年研发支出增长，挑出五年平均增速最高的公司，然后不按市值加权，而按增长的美元量级加权。Nvidia 仍然是第一大持仓，仍占 RAFI 成长指数的 10% 以上，就像它占 Russell 成长指数 10% 以上一样。这条指数从去年 6 月底"
+    },
+    {
+      "i": 56,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "24:04",
+      "en": "live since end of June of last year. And in a little over a year, it's added 1400 basis points. So these are really, really powerful strategies. And they, they start with a simple premise. And that is cap waiting is fine. But market cap already includes all of the information that we could know about future growth prospects. It's already in there. It's already baked into the price. What about finding out companies",
+      "zh": "开始实盘，一年多里已经增加了 1400 个基点。这些策略真的非常强大，而它们始于一个简单的信念：市值加权没问题，但市值已经包含了我们所能知道的关于未来增长前景的全部信息，已经 baked in 在价格里了。那去寻找具有基本面增长的公司会怎样？去获取再平衡阿尔法"
+    },
+    {
+      "i": 57,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "24:32",
+      "en": "that have fundamental growth? What about finding a rebalancing alpha? These are the key drivers of these strategies. So I'm proud of what we've built. And I'm excited to watch and see where how that if I can take it forward.",
+      "zh": "会怎样？这些才是这些策略的关键驱动。所以我为我们建立的一切感到自豪，也兴奋地看着它未来能被带到哪里。"
+    },
+    {
+      "i": 58,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "24:47",
+      "en": "Rob, that's an excellent overview of fundamental indexing. And I love the passion. And I can tell you these clearly are your babies. And so I always love hearing descriptions like that.",
+      "zh": "Rob，这是关于基本面指数化非常精彩的概述。我很喜欢这份热忱，看得出来这些确实是你的\"孩子们\"，所以我一直爱听这样的描述。"
+    },
+    {
+      "i": 59,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "24:56",
+      "en": "That was fantastic. Navigating the ETF market, get the precise data and analytics that smart investors rely on. Build a stronger portfolio today at etfdb.com Tom, let me come to you after we heard that excellent overview. You know, look, Rob and his team, they built these indices into what $180 billion in assets under indexing. And so how does vetify come in and continue to grow and expand that presence moving forward? Like essentially how",
+      "zh": "太精彩了。（片花）驾驭 ETF 市场，获取聪明投资者依赖的精准数据与分析。今天就到 etfdb.com 打造更稳健的投资组合。Tom，听完刚才那段精彩概述，我想把话筒递给你。Rob 和他的团队把这些指数做到了 1800 亿美元的指数化资产，那么 VettaFi 进来之后，如何继续壮大、扩展"
+    },
+    {
+      "i": 60,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "25:39",
+      "en": "will vetify take these rapid strategies to market now? Yeah, thanks, Nate. And Rob, that was a fascinating overview. Thank you for that too. So Nate, I think it builds on what I was talking about earlier. And so we have sat on, I think, some of the most robust investor behavioral data for a really long time. Now, so a bit of history. So the vetify brand has only been around since a few short years since 2022. But",
+      "zh": "这一版图，把这些 RAFI 策略真正推向市场？好的，谢谢 Nate。Rob，刚才那段精彩的概述也谢谢你。Nate，我觉得这接着我前面说的：我们手握非常扎实投资者行为数据已经很久了。说点历史：VettaFi 品牌从 2022 年才出现，到现在也就短短几年，但"
+    },
+    {
+      "i": 61,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "26:09",
+      "en": "the capabilities that are underpinning the brand, especially as it relates to some of the core indexing capabilities, but the investor behavioral data have been around for decades. You know, going back to ETF trends lineage in 2005, ETF database in 2009. And so we've had a front row seat to what investors are looking for for a really long period of time. And so we've built the strategy around being able to deliver the",
+      "zh": "支撑这个品牌的能力，尤其是最核心的指数能力和投资者行为数据，已经存在几十年了，可以追溯到 ETF Trends 2005 年的血脉、ETF Database 的 2009 年。所以长期以来，我们一直坐在观众席第一排看投资者在找什么。我们围绕这一点构建战略，把能力"
+    },
+    {
+      "i": 62,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "26:34",
+      "en": "capabilities in the geographies where these investors are have these needs and demands to the clients that we're working with. And so really the strategy, as Rob said, it's, it's simply stated, but there's a lot of execution. So we're going to take these strategies to new markets. We're doing a lot more across Europe. We're doing a lot more across Amia in more broadly. We're looking at other areas of the world, South",
+      "zh": "送到这些投资者所在的地区、这些需求和痛点存在的地方，交付给我们合作的客户。所以正如 Rob 所说，战略一句话就能讲清，但执行非常繁重。我们要把这些策略带到新市场。我们在欧洲做更多，在更广泛的美洲地区做更多，也在看世界其他地方——南美、"
+    },
+    {
+      "i": 63,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "27:03",
+      "en": "America, the APAC region, these are areas that we're excited to invest behind our build and growth strategy. And we think a lot of the conversations, not all of them, but a lot of conversations that we're having with clients, this solves a need that they have, and something that we can not only take what's been built as Rob touched on on the new growth indices, but we can continue to innovate. And we can take the core principles as Rob",
+      "zh": "亚太（APAC）——这些都是我们愿意在 build-and-growth 战略上加码投入的区域。我们与客户的大量对话——不是全部，但很多——正是在解决他们的一个需求：我们不仅能承接 Rob 提到的已经建成的东西，比如新的成长指数，还能持续创新。我们可以把 Rob"
+    },
+    {
+      "i": 64,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "27:31",
+      "en": "laid out, and we can build on those with the team to suit the client need in a way that is best fit for exactly what they're delivering to their ultimate clients. So we're excited about not only continuing the tremendous partnerships that we have. Rob touched on Schwab, for example, we do a lot of work with with Invesco. We're really excited about continuing to support those relationships. But we're also continuing to grow",
+      "zh": "阐述的核心原则拿过来，与团队一起在其上继续构建，贴合客户需求，以最契合他们最终交付物为目标。所以不仅继续我们已有的卓越伙伴关系让我们兴奋——Rob 提到了 Schwab，比如，我们也和 Invesco 有大量合作——我们很兴奋继续支持这些关系，"
+    },
+    {
+      "i": 65,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "27:57",
+      "en": "our book of clientele in new geographies. So we're, we couldn't be more thrilled to continue to do that. We're obviously focusing on indexing here today. But I have to ask both of you how you're viewing the proliferation of actively managed ETFs, because all we seem to hear about these days is the rise of active. I know I've uttered that phrase countless times on this podcast, it seems like that's all",
+      "zh": "同时继续在新地域拓展我们的客户版图。对此我们再高兴不过。我们今天当然聚焦在指数上。但我必须问问二位，你们如何看待主动管理型 ETF 的激增？因为我们眼下似乎听到的全都是\"主动型的崛起\"。我知道我在这个播客上都说过无数次这句话了，"
+    },
+    {
+      "i": 66,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "28:23",
+      "en": "anyone wants to talk about. And yet here, both of you are really leaning into indexing. And so I'm curious how you think about the value proposition of fundamental indexing relative to traditional stock picking, or even more systematic active ETFs.",
+      "zh": "好像大家只想聊这个。可你们二位却实实在在重仓押注指数。所以我很好奇，你们如何思考基本面指数相对于传统选股、甚至相对于系统化主动（systematic active）ETF 的价值主张。"
+    },
+    {
+      "i": 67,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "28:39",
+      "en": "And Rob will come back to you on that one. Well, systematic active ETFs. The dividing line between indexing and quant active is actually a blurry line. To me, the key attributes of indexes are low turnover, scalability, capacity. But if you did a quantitative process, what is that? It's a model portfolio. What is a model portfolio? It's an index. And so the lines blur. But with Syzygy, we are turning back to our roots of active management. And Syzygy,",
+      "zh": "Rob，这个我们稍后再回到你。（Rob）系统化主动 ETF——指数和量化主动之间其实是一条模糊的线。对我来说，指数的关键属性是低换手率、可扩展、有容量。但如果你跑的是一个量化流程，那是什么？是一个组合模型（model portfolio）。什么是组合模型？就是一条指数。所以边界是模糊的。而在 Syzygy，我们正在回归主动管理的根。Syzygy"
+    },
+    {
+      "i": 68,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "29:25",
+      "en": "Syzygy is an interesting name. I didn't come up with the name our client distribution chief came up with the name. It refers to alignment of celestial bodies. Sun, moon, earth, put those together. And what do you get? A total solar eclipse. So I took this picture about three weeks ago in Mallorca. And it's the solar eclipse. It's the run up to the eclipse and then the totality. I said to him, why do we want a weird name that",
+      "zh": "这个名字很有意思。名字不是我起的，是我们负责客户分发的高管起的。它指的是天体运行至一条直线上：太阳、月亮、地球排在一起，你得到什么？日全食。我大约三周前在 Mallorca 拍了这张照片，就是日全食——食渐近，然后全食。我跟他说，"
+    },
+    {
+      "i": 69,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "30:06",
+      "en": "people can't pronounce, let alone spell? And he said, it means alignment. So the whole focus is alignment. I've Tom alluded to looking for win, win, win outcomes. I want the end customer to be the biggest winner. I want our distribution partners to be big winners. And I'd like for us to also win.",
+      "zh": "为什么要一个大家念都念不出、更别提拼写的怪名字？他说，它的意思是\"对齐\"。所以全部重心就在对齐。Tom 也提到过寻找三赢的结果：我希望终端客户是最大的赢家，我希望我们的分销伙伴是大的赢家，同时我也希望我们自己能赢。"
+    },
+    {
+      "i": 70,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "30:27",
+      "en": "And so win, win, win is really the goal. Alignment is the essential feature. Now, let me illustrate with a specific example. Rafi beats capway value by about two, two and a half percent a year with two, two and a half percent volatility.",
+      "zh": "所以三赢是真正的目标，对齐是本质特征。我举一个具体的例子说明：RAFI 每年大约跑赢市值加权的价值风格 2% 到 2.5%，而波动只有 2% 到 2.5%。"
+    },
+    {
+      "i": 71,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "30:47",
+      "en": "Leverage that difference up 10 fold. Just take the difference portfolio. Now you're adding 20% with 20% fall. Then take a look at Raqui. We saw it added 140 basis points in its first year with 5% non overlap. Take that 5% up to 100. Just by the non overlap and then short the non overlap in the conventional index. You've now taken that 140 basis points, multiplied it by 20. That's 28%. Going back to the launch of Raqui, the index has",
+      "zh": "把这个差值十倍杠杆化——就取差值组合——你就是在 20% 的波动下增加 20%。然后看看 RAFI：它第一年以 5% 的非重合带来 140 个基点。把这 5% 的非重合放大到 100%，同时做空传统指数里的非重合部分——你就把这 140 个基点乘以了 20，那就是 28%。回到 RAFI 推出以来，这条指数"
+    },
+    {
+      "i": 72,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "31:22",
+      "en": "beat the S&P by 1% per year for now five years. 1% a year with 5% non overlap. That's a 20% long short strategy. So we're going to be diving deep into that space, seeking alignment in creating active strategies that capture the alpha engines on everything we've been looking at over the last 20 years, and adding it to our toolkit. We're already managers of the PIMCO All Asset product suite and their RAE product suite, which is",
+      "zh": "每年跑赢标普 1%，到现在五年了。每年 1%、5% 非重合，这就是一个 20% 的多空（long-short）策略。所以我们将深入这个领域，在对齐的目标下，创造能捕捉过去 20 年我们研究的一切背后的阿尔法引擎的主动策略，并把它加入我们的工具箱。我们已经管理着 PIMCO All Asset 产品系列和他们的 RAE 产品系列——"
+    },
+    {
+      "i": 73,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "31:59",
+      "en": "active quant, equity, value, and those products are about $30 billion. We're going back to, I've been an active manager all my life. The indexing focus was approached from an active perspective. No conventional cap weighted indexer would have said, Oh, let's do fundamental waiting. Let's do fundamental selection. You have to be an active quant to think along those lines. And so that's the essential driver of what we'll be",
+      "zh": "主动量化股票价值风格——这些产品大约 300 亿美元。我们要回归本源，我做了一辈子主动管理者。指数化的研究视角本来就是从主动的角度出发的。没有哪家传统市值加权指数公司会想到说：我们来搞基本面加权、基本面选股吧。你得是一个主动量化，才会顺着这个思路思考。这就是我们接下来要做的本质驱动。"
+    },
+    {
+      "i": 74,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "32:27",
+      "en": "doing. Tom made mention of continuous innovation. We're going to be innovating along parallel lines. We're going to be comparing notes to see if some of our ideas are looked to be a better fit on the index side, we'll go over to Tom and say, Hey, take a look at this. And we will be building strategies that key off of the alpha engines of the passive strategies that are now under the vetify umbrella. I couldn't be happier with the way",
+      "zh": "Tom 提到了持续创新。我们会沿着平行的线创新，互相对对表，看我们的某些想法是不是更适合放在指数那一侧——我们会去找 Tom 说：嘿，看看这个。同时我们会构建以 VettaFi 旗下被动策略的阿尔法引擎为核心的策略。对于这两个组织的契合方式，"
+    },
+    {
+      "i": 75,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "32:59",
+      "en": "these organizations fit together. The culture alignment is very real. The passion for what we're doing and what vetify is doing very real. The difference is resources. We're a small group with modest resources. And we accomplished a lot. We became a $220 billion asset manager indirectly through others. We sold the passive side of that business to vetify. So anyway, I think the fit is marvelous.",
+      "zh": "我再也满意不过了。文化契合是实实在在存在的，我们对自己在做的事、对 VettaFi 在做的事的热忱也是实实在在的。差别在于资源。我们是一小群人，资源有限，但成就了很多。我们间接通过别人成为了一家 2200 亿美元的资产管理人，把其中的被动端业务卖给了 VettaFi。所以，我觉得这个契合非常美妙。"
+    },
+    {
+      "i": 76,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "33:32",
+      "en": "Tom, anything you would add to Rob's comments there or any thoughts just regarding the proliferation of active ETFs? Yeah, Nate, so I'll take it up a level two and certainly tie it into, you know, the active strategies being delivered in ETF. I think something that's fascinating about our industry is how strong sort of the market dynamics are. There's more than 5,000 US listed ETFs as we sit here today. And I'm a big,",
+      "zh": "Tom，对 Rob 刚才的说法你有什么补充吗？或者关于主动 ETF 的扩散，你有什么想法？（Tom）好的 Nate，那我就再拉高一个层次，把它和 ETF 里交付的主动策略联系起来讲。我觉得我们这个行业最迷人的地方之一，是市场机制的力量有多强。我们今天坐在这里的时候，美国上市的 ETF 已经超过 5000 只。而我一直"
+    },
+    {
+      "i": 77,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "34:03",
+      "en": "big believer in the core principle that investor choice and ultimately consumer choice is a really powerful mechanism to suss out what the best ideas are. And what's great about the ETF wrapper is that, you know, you go back to its lineage, which actually the first ETF was launched on the Toronto Stock Exchange. So there's a bit of a Canadian tie in there. And we were certainly very proud of that across TMX. But now to go",
+      "zh": "坚信一个核心原则：投资者的选择，归根到底是消费者的选择，是甄别好想法的最强大的机制。ETF 载体（wrapper）美妙之处在于——回溯它的血脉，第一只 ETF 其实是在 Toronto Stock Exchange 多伦多的交易所上市的，所以这里面还有点加拿大的渊源，TMX 上下当然对此非常自豪。而从"
+    },
+    {
+      "i": 78,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "34:32",
+      "en": "from one to north of, you know, there's more than 10,000 ETFs from a global perspective, the choice for investors is phenomenal. It doesn't mean that everyone is good for every investor. And that applies across the spectrum. So whether it be active strategies, alternative strategies, core equity strategies, the different flavors are really powerful.",
+      "zh": "一只发展到全球超过 10000 只 ETF，投资者的选择空间是惊人的。这并不意味每一只都适合每一个投资者，这条规律贯穿整个光谱。无论是主动策略、另类策略还是核心股票策略，不同的风味本身就是强大的力量。"
+    },
+    {
+      "i": 79,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "34:56",
+      "en": "And ultimately, the market will decide which are the best for the portfolios. And there's a great sort of, you know, creative destruction mechanism here because it's never been easier to launch an ETF. In our opinion, it's never been harder to garner assets and investor attention because that has been diluted.",
+      "zh": "最终市场会决定哪些最适合投资组合。这里有一个很好的\"创造性破坏\"机制：因为发行一只 ETF 从未如此容易，而按我们的判断，募集资产、赢得投资者注意力也从未如此困难，因为注意力被稀释了。"
+    },
+    {
+      "i": 80,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "35:14",
+      "en": "So whether it's whether it's active strategies, or like I said, a whole host of other strategies that are delivered in the ETF wrapper, it's just a really exciting time because it's driven by such, you know, broad investor choice. And ultimately, I think that's a really powerful mechanism. And ultimately, investors will decide which products are best for them. We believe that a lot of the Rafi powered products are",
+      "zh": "所以，无论是主动策略，还是我说的其他各种各样通过 ETF 载体交付的策略，现在都是一个真正激动人心的时代，因为它由如此广泛的投资者选择所驱动。我相信这是一个非常强大的机制，最终投资者会自己决定哪些产品最适合他们。我们相信很多 RAFI 驱动的产品"
+    },
+    {
+      "i": 81,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "35:38",
+      "en": "excellent for investors. If you're looking for discipline, rules based, embedding some elements of what an active manager would do in an index wrapper, a lot of people find that very approachable, more than $180 billion of people find that really approachable at this stage. And to Rob's point, we think there's a lot of runway in that regard. So yeah, just that those are a couple of thoughts on the proliferation",
+      "zh": "对投资者来说非常优秀。如果你追求纪律、规则化，在一个指数载体里嵌入一些主动管理者会做的事——很多人觉得这非常亲和，超过 1800 亿美元的投资者资金现阶段就已经非常买账了。而且正如 Rob 所说，我们觉得这方面还有很长的跑道。所以，关于主动的扩散"
+    },
+    {
+      "i": 82,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "36:01",
+      "en": "of active, but more so the proliferation of different options for investors. I think that's extremely well said, we always talk about how ETFs are a meritocracy, and investors do vote with our hard earned money and they decide at the end. I guess if I were to drill down even a little bit further, I think we all know here that investment results are ultimately what is going to result in investors putting that hard money to work. It's the",
+      "zh": "——以及更重要的是关于投资者选项的扩散，分享这两点思考。（主持）说得非常好。我们一直说 ETF 是一个精英体制，投资者确实拿自己辛苦挣来的钱投票，最终由他们决定。我想如果再往下深挖一点：我们都知道，投资结果最终才是让投资者愿意把真金白银投下去的东西。是策略的表现，"
+    },
+    {
+      "i": 83,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "36:27",
+      "en": "performance of the strategies. It's the risk return profile. That trumps everything if we put aside aspects like distribution and some of the other things, you know, outside of the actual strategies themselves. And I guess this maybe will get us down the path towards talking financial markets. And so, Rob, I'll come back to you here. Why do you think fundamental indexing makes sense in today's market environment? You've",
+      "zh": "是风险回报特征。如果我们把分销等因素以及策略本身之外的其他东西放在一边，这些碾压一切。我想这也许能把我们引向聊金融市场。Rob，这里再回到你：你为什么认为基本面指数化在当下的市场环境里合理？你"
+    },
+    {
+      "i": 84,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "36:51",
+      "en": "talked about the history of the strategies, you've given some excellent examples. But why why do they make sense today? Thank you for framing the question in that way. We wrote a monograph for the CFA Research Foundation called the Active Side of Indexing. And I'd encourage your viewers to if you if you Google Rob are not active side of indexing, it'll pop right up. It's it's a monograph that looks at where",
+      "zh": "讲了策略的历史，也给了很多精彩的例子，但为什么它们在今天是合理的？（Rob）谢谢你用这个方式来提问。我们为 CFA Research Foundation 写过一篇专著，叫 The Active Side of Indexing。我鼓励你的听众去搜一搜，在 Google 上搜 \"Rob Arnott active side of indexing\"，它就会直接跳出来。那篇专著研究的正是指数基金"
+    },
+    {
+      "i": 85,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "37:24",
+      "en": "index funds trade. If you view passive as something that doesn't trade, what could be more passive than never trading? Then every strategy is an active strategy. And an index fund S&P has had 4% average turnover. Russell similar. That 4% is very active. It involves buying companies that are frothy and expensive after an enormous surge, selling companies that are cheap, out of favor, unloved after the price has already",
+      "zh": "在哪里交易。如果你把被动理解为\"不交易\"——还有什么比从不交易更被动的？——那么每一个策略都是主动策略。指数基金：标普 500 平均 4% 的换手率，Russell 也类似。这 4% 非常\"主动\"：它意味着在巨大飙升之后买入那些泡沫又昂贵的公司，在价格已经跌下去之后"
+    },
+    {
+      "i": 86,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "38:01",
+      "en": "fallen. And so that's a very active decision. We looked as part of that in a section of the paper called membership has its privileges. We looked at the S&P 500 versus the next 500. And what did we find? We found that back in the 1990s, as growth was surging in the dot com bubble, the relative valuation of the S&P with the next 500 was soaring. The market was pricing these stocks higher and higher relative to their fundamentals.",
+      "zh": "卖出那些便宜、失宠、没人疼的公司。所以这是一个非常主动的决定。那篇论文里有一节叫 membership has its privileges，我们研究了标普 500 对比 next 500，我们发现了什么？90 年代，随着成长在 dot-com 泡沫中飙升，标普相对 next 500 的估值在一路走高，"
+    },
+    {
+      "i": 87,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "38:41",
+      "en": "The actual cash flow, the profits of the S&P 500 and the next 500 had identical growth relative to one another, they were flat. Then the dot com bubble burst, the top 500 saw cash flow erode relative to the next 500, and the prices also fell. Over the last dozen years, since about 2014, we've seen the top 500 outperform the bottom 500 by an enormous margin. How'd the underlying fundamentals done? For the last",
+      "zh": "市场把这些股票相对其基本面的定价抬得越来越高。而实际的现金流——利润——标普 500 和 next 500 的增速相对彼此完全相同，是平的。然后 dot-com 泡沫破裂，前 500 的现金流相对 next 500 出现侵蚀，价格也随之下跌。过去十几年，大约从 2014 年起，我们看到前 500 大幅跑赢后 500。那底层基本面表现如何？过去"
+    },
+    {
+      "i": 88,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "39:25",
+      "en": "25 years, the next 500 has had cash flow grow 3% per annum faster than the S&P 500. Now, this is not a criticism of S&P, don't get me wrong. This is a simple fact, the largest companies suffer a top dog problem, the very business practices that got top dogs to the top, wind up being viewed as predatory once you're at the top. And so as a result, their businesses have grown slower than the next 500. How on earth",
+      "zh": "25 年，next 500 的现金流增速每年比标普 500 快 3%。这不是对标普的批评，别误会。这是一个简单事实：最大的公司受\"头狗问题\"（top dog problem）所累——正是那些把出头者送上顶端的商业做法，一旦你站上顶端，就会被视为掠夺性的。结果它们的业务增长比 next 500 慢。那它们到底怎么可能"
+    },
+    {
+      "i": 89,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "40:02",
+      "en": "could they have outperformed by a huge margin over the last dozen years? Very simple, the relative valuation soared. The next 500 were priced at price to cash flow 15% richer than the S&P 500 back in 2014. The next 500 were more expensive on a price to cash flow basis. Today it's flipped. The S&P 500 is at a S&P 500 is at an 80% valuation premium, 80% higher price to cash flow than the next 500. So you had 3% per annum",
+      "zh": "在过去十几年大幅跑赢？很简单，相对估值飙升了。2014 年时，next 500 的市现率（price to cash flow）比标普 500 贵 15%，next 500 在更贵的位置。今天反过来了：标普 500 享有 80% 的估值溢价，市现率比 next 500 高 80%。所以一边是现金流增速每年 3% 的"
+    },
+    {
+      "i": 90,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "40:43",
+      "en": "erosion in the rate of growth of cash flow and yet relative valuation soaring. I think the flood of money into index funds is driving a wedge in valuation between those two. If there's any mean reversion back to your original question, if there's any mean reversion, value and small cap should outperform large cap growth by an enormous margin in the coming decade. And so I think this is a fantastic time to pivot into fundamental index",
+      "zh": "相对侵蚀，另一边是相对估值飙升。我认为涌入指数基金的洪流正在两者之间撬开一道估值的裂缝。回到你最初的问题：如果存在任何均值回归，那么价值股和小盘股在未来十年应该大幅跑赢大盘成长股。所以我认为现在正是转向基本面指数、"
+    },
+    {
+      "i": 91,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "41:22",
+      "en": "into fundamental selection with cap weighting, the RACWI strategies, into small cap, into emerging markets value, I mean, other than the so-called bat stocks, Baidu, Alibaba and Tencent, other than the frothy growth names in China, emerging markets are really cheap. And people worry about geopolitical tensions. Pardon me, most of the emerging market stock markets are nowhere near Iran or Ukraine. So the geopolitical shocks",
+      "zh": "转向带市值加权的 fundamentals selection——也就是 RACWI 策略——转向小盘、转向新兴市场价值的好时机。我的意思是，除了所谓的 BAT 股票——Baidu、Alibaba 和 Tencent——除了中国那些泡沫的成长股，新兴市场真的很便宜。人们担心地缘政治紧张。抱歉，"
+    },
+    {
+      "i": 92,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "41:57",
+      "en": "aren't necessarily that big an issue for them. And yet it shows up in the pricing as being quite a bargain. I think this is a brilliant time for people to pivot.",
+      "zh": "大多数新兴市场的股市离 Iran 和 Ukraine 远着呢，所以地缘冲击对它们未必是什么大问题。但这却体现在定价上，显得非常便宜。我认为现在正是人们转向的好时机。"
+    },
+    {
+      "i": 93,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "42:08",
+      "en": "Tom, obviously, Vettify is now tasked with continuing to educate on fundamental indexing and bring these strategies to market. I know you're not one to get your crystal wall out and try to make predictions, but anything you would add to Rob's comments as to why fundamental indexing makes sense in today's market environment.",
+      "zh": "Tom，显然 VettaFi 现在肩负着继续普及基本面指数化、把这些策略推向市场的任务。我知道你不是那种掏出水晶球做预测的人，但关于基本面指数化为何在当下市场环境中合理，你想在 Rob 的评论之上补充什么吗？"
+    },
+    {
+      "i": 94,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "42:25",
+      "en": "The chorus of conversations that we're having with our clients, more and more are rhyming with some of the views that Rob is talking about. And because we are so long into sort of this market dynamic that we've had for upwards of 15 to 17 years.",
+      "zh": "我们和客户对话的大合唱里，越来越多的声音在与 Rob 说的这些观点押韵。因为我们已经身处这种市场动态太久太久了——超过 15 到 17 年了。"
+    },
+    {
+      "i": 95,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "42:42",
+      "en": "And so the question becomes, I feel like this trend may be coming to an end. This is reflecting a client type conversation. So how would I think about repositioning? And so that's what we're having really good meaty conversations with asset manager clients about what that could look like, and how you could deliver a repositioning that makes sense in an indexed, powered product. And so that's the question. But",
+      "zh": "于是问题就变成了——我是在转述客户式的对话——我感觉这个趋势可能接近尾声了，我该怎么考虑重新定位？所以我们和资产管理者客户正在进行非常扎实、有分量的对话：那可以是什么样子，如何在一个指数驱动的产品里交付一个合理的重新定位。所以问题就是这些。但"
+    },
+    {
+      "i": 96,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "43:14",
+      "en": "the rubber's going to meet the road in terms of when does the market dynamic change? And then how have you chosen to reposition? And like you said, that's where I'll concede not bringing out my crystal ball.",
+      "zh": "真正要见分晓的，是市场动态什么时候发生变化，以及到时候你选择了怎样重新定位。就像你说的，这一点我得承认——我不带水晶球。"
+    },
+    {
+      "i": 97,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "43:29",
+      "en": "Well, nobody's going to ring the bell and tell you exactly when that pivots coming. So those who are waiting and saying, I'll make the changes when the change is happening. You're you could well miss the boat.",
+      "zh": "是啊，没有人会敲钟告诉你这个转折到底哪天来。那些等着说\"等变化发生了我再做改变\"的人，很可能会错过这班船。"
+    },
+    {
+      "i": 98,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "43:44",
+      "en": "Well, of course, that's always a challenge for investors. Everybody's waiting to see what happens with the markets and you might be too late in making that shift. Tom, in terms of the markets, obviously always evolving, I would say the same with the indexing business that moves fast as well. We have a few minutes left here. I'm curious how you're thinking about the road ahead, like what does the roadmap look like",
+      "zh": "当然，这对投资者永远是个挑战。每个人都在等着看市场会怎样，而你做出转向的时候可能已经太晚了。Tom，就市场而言，它显然永远在进化，我想指数业务也一样，同样走得很快。我们还剩几分钟，我很好奇你如何看待前方的路，未来 12 或 24 个月的路线图"
+    },
+    {
+      "i": 99,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "44:09",
+      "en": "over say the next 12 or 24 months, just in terms of how you're viewing innovation, we've talked about how you're going to incorporate, you know, these strategies and to vetifies indexing business, but how are you thinking about innovation moving forward?",
+      "zh": "长什么样？就你如何看待创新而言——我们刚才聊了你如何把这些策略融入 VettaFi 的指数业务，但向前看，你如何思考创新？"
+    },
+    {
+      "i": 100,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "44:23",
+      "en": "Well, the best source of innovation is going to be it's going to come in the next 12 to 24 months from the same place that it's come in the last 12 to 24 months. And that's through talking to clients. And so like really getting in deep conversation and having a partner style conversation around co creation of indices. And so that can be, you know, brand new ideas, or it can be iterations on existing indices. Like I",
+      "zh": "最好的创新来源——未来 12 到 24 个月，它会来自过去 12 到 24 个月同样的地方：与客户交谈。真正深入地交流，进行一种伙伴式的、围绕指数共创的对话。它可以是全新的想法，也可以是在现有指数之上的迭代。正如我"
+    },
+    {
+      "i": 101,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "44:51",
+      "en": "mentioned, we've got more than 2000 indices on our shelves right now. And so we can certainly use a lot of that product to then iterate on top of the great thing about our business is that we're finding that we're in more client conversations in more geographies, ultimately, you know, the sum of all of those conversations are very additive.",
+      "zh": "所说，我们现在货架上有超过 2000 条指数，所以完全可以在这些产品之上继续迭代。我们业务美妙之处在于，我们发现自己在更多的地域里、进行更多的客户对话，归根到底，所有这些对话的总和是高度叠加的。"
+    },
+    {
+      "i": 102,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "45:11",
+      "en": "And so I think that it's it's more at bats, it's more client conversations, it's more capabilities that we now have in house. And certainly, the Rafi indices capability gives us, like I mentioned, a huge stair step up in terms of the style and type of conversation that we can have. So it's going to be a lot about execution, it's going to be a lot about listening to clients needs and demands, and that's going to be a lot about",
+      "zh": "所以我认为就是更多的上场次数、更多的客户对话、更多内部化的能力。当然，RAFI Indices 的能力——像我说的——让我们对话的风格和类型上了一个大台阶。接下来会是大量关于执行的东西，大量倾听客户的需求和诉求，以及大量"
+    },
+    {
+      "i": 103,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "45:35",
+      "en": "delivering solutions in a timely fashion. So those are sort of some some things that have worked to date, but we're now able to have a breadth of conversation about a, you know, a wider array of capability delivery in a way that, you know, we didn't have before the Rafi indices acquisition.",
+      "zh": "及时交付解决方案。这些是到目前为止行之有效的一些东西，但现在我们能够在更广的维度上有广度地对话能力交付，这是 RAFI Indices 收购之前我们不具备的。"
+    },
+    {
+      "i": 104,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "45:52",
+      "en": "And Rob, as you mentioned earlier, you're not riding off into the sunset here. You mentioned scissorgy. Talk a little bit more about what you have in store moving forward and maybe how you think of innovation. You gave us a preview earlier, but talk a little bit more about that.",
+      "zh": "Rob，正如你之前说的，你不是要隐入夕阳。你提到了 Syzygy。再多聊聊你们未来的打算，也许还有你如何思考创新。你刚才已经给我们预告过了，再展开讲讲。"
+    },
+    {
+      "i": 105,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "46:07",
+      "en": "Well, basically, we think of the marketplace for active quantitative strategies as falling into three broad categories. One, publicly available ETFs are our forays into ETF land are not yet profitable. But that's okay, because I've got a long horizon and my focus is on proof of concept. I shared with you the live results of a little $60 million ETF, just off the charts, efficacy in index land space, taking that and turning it into a 15050",
+      "zh": "大体上，我们认为主动量化策略的市场分成三个大类。第一，公开交易的 ETF。我们在 ETF 领域的尝试目前还没有盈利，但这没关系，因为我看的是长期，重心在验证概念。我给你们看了一只小小的 6000 万美元 ETF 的实盘结果——在指数领域的有效性好得夸张——把它转化成一个 15050"
+    },
+    {
+      "i": 106,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "47:00",
+      "en": "strategy that adjusts the weighting so it's less concentrated, so that the alpha can be steadier, that reduces reliance on borderline calls, stocks that are barely in this index and barely out of that index. Why should they get as much weight as ones that are wildly into this index and not that index? Those refinements can lead to a more powerful alpha engine. A 15050 strategy would be a very interesting ETF for the retail market, not too volatile, not",
+      "zh": "策略，调整加权方式使其更分散，让阿尔法更稳定。这会减少对边界判断的依赖——那些勉强进这条指数、又勉强出那条指数的股票，凭什么享受和稳稳在这条指数、稳稳不在那条指数里的股票同等的权重？这些改进可以造就更强大的阿尔法引擎。一个 15050 策略会是零售市场非常有趣的一只 ETF：波动不算大，进攻性不算强，"
+    },
+    {
+      "i": 107,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "47:39",
+      "en": "too aggressive, but steady, solid alpha potential. Then, for the institutional market, more customized and potentially more aggressive versions, and for the LP hedge fund market, 200, 200 strategies, take that 140 basis point difference, and instead of grossing it up to 100 on each side, which would give you 28% over that year, gross it up to 200% on each side, which would give you 56% in one year. Is that a wild eyed back test?",
+      "zh": "但阿尔法的潜力稳定而扎实。然后，机构投资者市场，可以做更定制、可能更进取的版本。对 LP 对冲基金市场，则是 200 对 200 的策略：把那 140 个基点的差值，不是按每边 100 加杠杆——那样一年下来给你 28%——而是每边 200% 加杠杆，那一年就给你 56%。这会是异想天开的回测吗？"
+    },
+    {
+      "i": 108,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "48:19",
+      "en": "No, I've actually got that in my personal portfolio. That's fun. Well, I'm very excited to see how that evolves moving forward and everything that you're doing. Rob, Tom, I want to give you the final word here. I know you're not riding off into the sunset. We've covered a lot of ground here today. Give us a few closing thoughts.",
+      "zh": "不，我自己的个人组合里就有这个。（主持）那很有趣。我很期待看到它未来如何演进，也期待你做的一切。Rob、Tom，我想把最后的发言权交给你们。我知道你们不是要隐入夕阳。我们今天覆盖了很多领域，给我们几句收尾的话吧。"
+    },
+    {
+      "i": 109,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "48:38",
+      "en": "Sure, Nate. Well, first and foremost, thanks for the opportunity. And again, appreciate Rob's belief in how we really can take his babies and grow them to where they can, should and will be. And moreover, I'm just really excited about the future, Nate. I know there's a lot of conversation about what the future may or may not look like, but I'm permanently or very solidly in the optimistic camp. And I think",
+      "zh": "好的 Nate。首先，感谢这个机会。再次感谢 Rob 相信我们真的能把他的\"孩子们\"养大到它们能够、应该、一定会去的地方。而且 Nate，我真的对未来非常兴奋。我知道有很多关于未来可能是什么样、可能不是什么样的讨论，但我始终——或者说非常坚定地——站在乐观派阵营。我认为"
+    },
+    {
+      "i": 110,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "49:10",
+      "en": "the world of ETFs is very emblematic of what people can do. And I think the growth and the proliferation that we touched on, whether it be active or other strategies delivered through this, this wrapper and the people that power the ecosystem, I'm more bullish on that than I've ever been. And I think that, you know, what we can do with the wrapping industry capability, and more importantly, the team, as part",
+      "zh": "ETF 的世界非常能体现人的能动性。我们谈到的增长和扩散，无论主动还是其他通过这个载体交付的策略，还有支撑这个生态系统的人们——我对它比以往任何时候都更看涨。我认为，凭借这个行业在 ETF 载体上的能力，更重要的是作为 TMX VettaFi 一分子、"
+    },
+    {
+      "i": 111,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "49:37",
+      "en": "of TMX Datify, as a component of TMX more broadly, I'm just I'm just really excited about it. And happy to have been able to share a little bit about that with your listeners. So thank you, Nate. And thank you, Rob.",
+      "zh": "作为更大范围 TMX 一个组成部分的团队，我真的非常兴奋。也很高兴能向你的听众分享这些。谢谢你 Nate，也谢谢你 Rob。"
+    },
+    {
+      "i": 112,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "49:49",
+      "en": "Well, perfect spot to end our conversation. Tom, Rob, greatly enjoyed this. Congratulations on the deal and your partnership. Again, I'm very excited to watch this moving forward. So thank you very much for joining me.",
+      "zh": "完美的收尾点。Tom、Rob，非常享受这次对话。祝贺你们达成交易、建立伙伴关系。同样，我非常期待继续见证这件事的演进。再次感谢加盟。"
+    },
+    {
+      "i": 113,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "50:02",
+      "en": "Nate, thanks for the invitation. Thank you, Nate. That was Tom Hendrickson, president of TMX Datify and Rob Arnot, chairman of Syzygy Asset Management, formerly known as Research Affiliates. That'll do it for this week's ETF Prime.",
+      "zh": "Nate，谢谢你的邀请。谢谢你 Nate。（主持）刚才这位是 TMX VettaFi 总裁 Tom Hendrickson，以及 Syzygy Asset Management——前身是 Research Affiliates——董事会主席 Rob Arnott。本周的 ETF Prime 就到这里。"
+    },
+    {
+      "i": 114,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "50:16",
+      "en": "Build your ETF expertise and separate yourself from your peers by registering for the ETF Institute Certified ETF Advisor program. You can learn more at cetf.org. Next week, I'll be joined by Ben Sklar, portfolio manager at Alliance Bernstein. So we'll be looking at several of their buffer ETFs.",
+      "zh": "（广告）打造你的 ETF 专业知识，与同行拉开差距——报名参加 ETF Institute 的 Certified ETF Advisor 项目，了解更多请访问 cetf.org。（主持）下周，AllianceBernstein 的基金经理 Ben Sklar 将做客节目，我们会研究他们旗下几只缓冲型（buffer）ETF。"
+    },
+    {
+      "i": 115,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "50:37",
+      "en": "And then I'll also be joined by Bill Perkins, founder and chief investment officer at Skyler Capital. So we'll be spotlighting the Skyler Electricity Futures ETF, which is a first of its kind. It offers exposure to US wholesale electricity futures.",
+      "zh": "之后，Skyler Capital 创始人兼首席投资官 Bill Perkins 也会做客，我们将聚焦 Skyler Electricity Futures ETF——这是一只首创产品，提供对美国批发电力期货的风险敞口。"
+    },
+    {
+      "i": 116,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "50:52",
+      "en": "So that should be interesting. Until then, have a great week, everyone. ETF Prime is hosted by Nate Jirisi, president of OTR Media LLC. Nate is also president of investment advisory firm Nova Diaz Wealth Management. While OTR Media and Nova Diaz are related by common ownership, they are separate and distinct entities. And anything discussed on this program should not be construed as an official statement by Nova Diaz. This",
+      "zh": "所以应该很有意思。在那之前，祝大家本周愉快。（免责声明）ETF Prime 由 Nate Geraci 主持，他是 OTR Media LLC 总裁，同时也是投资顾问公司 Nova Diaz Wealth Management 的总裁。虽然 OTR Media 和 Nova Diaz 存在共同所有权关系，但两者是相互独立的实体，节目中讨论的任何内容都不应被视为 Nova Diaz 的官方声明。本"
+    },
+    {
+      "i": 117,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "51:16",
+      "en": "program is for informational purposes only and does not constitute investment advice. Investing in ETFs involves risk, including possible loss of principle. Any past performance figures discussed are not necessarily indicative of future results. Some guests appearing on this program may also be financial sponsors of ETF Prime. OTR Media and Nova Diaz are not affiliated with VETIFY or any of its affiliates. VETIFY's",
+      "zh": "节目仅供参考，不构成投资建议。投资 ETF 存在风险，包括可能损失本金。节目中讨论的任何过往业绩数据未必预示未来结果。出席本节目的一些嘉宾也可能同时是 ETF Prime 的财务赞助方。OTR Media 和 Nova Diaz 与 VettaFi 或其关联公司没有从属关系。VettaFi"
+    },
+    {
+      "i": 118,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "51:37",
+      "en": "participation in this program should not be construed as an endorsement or an indication by VETIFY of the value of any OTR media or Nova Diaz product or service. Visit etfprime.com for more information.",
+      "zh": "参与本节目不应被解读为 VettaFi 对任何 OTR Media 或 Nova Diaz 产品或服务的价值作出的背书或认可。更多信息请访问 etfprime.com。"
+    }
+  ]
+}

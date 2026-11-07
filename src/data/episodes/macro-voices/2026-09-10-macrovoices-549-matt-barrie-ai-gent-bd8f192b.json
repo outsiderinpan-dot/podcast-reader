@@ -1,0 +1,1914 @@
+{
+  "show": "macro-voices",
+  "kind": "transcript",
+  "id": "macro-voices-bd8f192b",
+  "guid": "macrovoices.podbean.com/d74da2b2-acb6-330a-9cc8-fb4527f9f441",
+  "slug": "2026-09-10-macrovoices-549-matt-barrie-ai-gent-bd8f192b",
+  "date": "2026-09-10",
+  "title_en": "MacroVoices #549 Matt Barrie: AI-gent Provocateur",
+  "title_zh": "MacroVoices #549 Matt Barrie（Freelancer.com CEO）：AI-gent Provocateur（AI 智能体的挑衅者）",
+  "subtitle_zh": "Matt Barrie 讲述 agentic AI 落地、开源模型经济学与白领岗位大重构。",
+  "description": "MacroVoices #549 Matt Barrie: AI-gent Provocateur",
+  "duration": "79:12",
+  "duration_seconds": 4752,
+  "episode_url": null,
+  "audio_url": "https://dts.podtrac.com/redirect.mp3/mcdn.podbean.com/mf/web/ff4kj8beuh69vsc3/Macrovoices-2026-09-10-Matt-Barrie.mp3",
+  "speakers": {
+    "1": "Eric Townsend（主持）",
+    "2": "Patrick Ceresna（主持）",
+    "3": "Matt Barrie（嘉宾）",
+    "4": "Michelle Bagnan（主持）",
+    "5": "片花/广告（旁白）"
+  },
+  "turn_count": 236,
+  "turns": [
+    {
+      "i": 0,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "00:00",
+      "en": "And if you think about the scale of 1.65 trillion in debt in five years, you know, subprime peaked at 1.3 trillion in 2007. And that, that was had 55 million mortgages behind it.",
+      "zh": "想想看，五年内 1.65 万亿美元的债务规模——2007 年次贷峰值也才 1.3 万亿美元，而次贷背后是 5500 万笔房贷。"
+    },
+    {
+      "i": 1,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "00:12",
+      "en": "Well, this AI explosion has two customers open AI on the therapy. That was freelancer.com CEO and artificial intelligence expert, Matt Berry.",
+      "zh": "而这轮 AI 爆炸只有两个客户：OpenAI 和 Anthropic。刚才说话的是 Freelancer.com CEO、人工智能专家 Matt Barrie。"
+    },
+    {
+      "i": 2,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "00:23",
+      "en": "I'm Eric Townsend. And this is macro voices, the free weekly podcast targeting professional finance and sophisticated private investors. Episode 549 was produced on September 10th, 2026.",
+      "zh": "我是 Eric Townsend。这里是 Macro Voices，一档面向专业金融人士和成熟个人投资者的免费周更播客。第 549 期制作于 2026 年 9 月 10 日。"
+    },
+    {
+      "i": 3,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "00:36",
+      "en": "The artificial intelligence arms race is really taking off and the pace is accelerating and the stakes have never been higher. Freelancer.com CEO Matt Berry needs little introduction to our longtime macro voices listeners. And this might be his best AI interview yet.",
+      "zh": "人工智能军备竞赛正在真正起飞，节奏越来越快，赌注也前所未有地高。对我们 Macro Voices 的老听众来说，Freelancer.com 的 CEO Matt Barrie 已经不需要多做介绍。这可能是他至今最精彩的一次 AI 访谈。"
+    },
+    {
+      "i": 4,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "00:53",
+      "en": "So make some popcorn, sit back and get ready. I intentionally let this one run long because the subject matter is so important. Matt also produced another of his famous missives on the subject of AI.",
+      "zh": "所以爆点爆米花，坐下来准备好。我特意让这一期做得长一些，因为话题实在太重要。Matt 还就 AI 主题写下了他另一篇著名长文（missive）。"
+    },
+    {
+      "i": 5,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "01:05",
+      "en": "And you'll find that LinkedIn, your research roundup email. The difference this time around versus previous interviews is that in the past, we covered the actual content of the writing in the interview.",
+      "zh": "你会在 LinkedIn、以及你的 research roundup 邮件里找到那篇文章。这一次和以往不同的地方在于，过去我们是在访谈里直接聊那篇文章的内容。"
+    },
+    {
+      "i": 6,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "01:16",
+      "en": "This time they're two separate pieces, giving you a double dose of Matt Berry on AI. So listen in here for the audio, then download and read his latest piece, which is LinkedIn, your research roundup.",
+      "zh": "这次是两个独立的作品，让你 double dose 一次听够 Matt Barrie 谈 AI。所以先在这里听音频，然后去下载阅读他的最新文章——在 LinkedIn 和你的 research roundup 邮件里。"
+    },
+    {
+      "i": 7,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "01:27",
+      "en": "And I'm Patrick Suresna. Let's dive into this interview. Joining me now is Freelancer.com CEO and founder, Matt Berry. Very well known to our audience as Mr. Artificial Intelligence.",
+      "zh": "我是 Patrick Ceresna。让我们进入今天的访谈。现在加入我们的是 Freelancer.com 的 CEO 兼创始人 Matt Barrie。我们的听众都非常熟悉他，人称\"人工智能先生\"。"
+    },
+    {
+      "i": 8,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "01:40",
+      "en": "Matt, I want to start with just an update. So much is changing in the world of AI. Since the last time that I spoke to you and interviewed you here on macro voices, I'd say probably the biggest thing is agentic AI.",
+      "zh": "Matt，我想先请你做个近况更新。AI 世界变化太快了。自从上次我在 Macro Voices 采访你之后，我想最大的变化应该就是 agentic AI（智能体式 AI）。"
+    },
+    {
+      "i": 9,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "01:53",
+      "en": "I think really understanding what that means takes some understanding. So put it in perspective for us. Thanks, Eric. Thanks for having me. I've been totally red-pilled in the last month or so from what you can do now with AI and agents. What I mean by this, I think AI has reached the point where now you can quite reliably get it to do workflows, which means that you really now have an ability to take something that someone",
+      "zh": "我想真正理解它到底意味着什么需要一些背景。请你给我们讲讲。谢谢 Eric，感谢邀请。过去一个月左右，我彻底被 AI 和 agent 现在能做的事情\"red-pill\"（大开眼界）了。我的意思是，AI 已经达到了这样一个阶段——你可以相当可靠地让它执行工作流（workflows），也就是说你现在真的能把某个"
+    },
+    {
+      "i": 10,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "02:18",
+      "en": "in your company might be doing as part of their daily job and automate that in a very reliable way at greater than human capability in many circumstances and very quickly and very efficiently.",
+      "zh": "你公司里某个员工日常要做的事情拿出来，用一种非常可靠的方式自动化，而且在很多情况下比人的能力更强、更快、更高效。"
+    },
+    {
+      "i": 11,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "02:29",
+      "en": "So to give you a concrete example of the sorts of things that I've been doing, I currently have about 40 agents, 44, I think, last night, agents in my fleet that I personally put together to do various bits and pieces.",
+      "zh": "给你举个我自己一直在做的具体例子：我目前大概有 40 个 agent，昨晚数了一下应该是 44 个——都是我自己搭起来的 agent 队伍，用来处理各种各样的琐事。"
+    },
+    {
+      "i": 12,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "02:39",
+      "en": "I can look at a team and quite a number of teams in large companies have workflows. So one might be queue processing. Every day, projects come into Freelancer.com, posted from the world, and it's free to post a project.",
+      "zh": "我会去看一个团队——大公司里相当多的团队都有工作流。其中一种就是队列处理（queue processing）。每天都有来自世界各地的项目在 Freelancer.com 上发布，发项目是免费的。"
+    },
+    {
+      "i": 13,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "02:51",
+      "en": "We do have a statistical classifier that kind of runs over those projects to determine whether they're good or bad. But sometimes a statistical classifier doesn't really know the answer to whether the product is good or bad and will escalate it to a human to review.",
+      "zh": "我们确实有一个统计分类器会过一遍这些项目，判断好坏。但有时候统计分类器其实并不知道这个项目到底是好是坏，就会把它升级给人类来审核。"
+    },
+    {
+      "i": 14,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "03:02",
+      "en": "And so there's a team of people that 24 by 7 will go into that queue, look over projects, look over their provenance, look through a whole bunch of metadata related to the user, et cetera, and so forth and make a decision on whether to approve that project or not.",
+      "zh": "所以我们有一支 24 小时轮班的团队，进入这个队列，审视项目、审视项目的来源、翻看和用户相关的一整套元数据等等，然后决定是否批准这个项目。"
+    },
+    {
+      "i": 15,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "03:12",
+      "en": "Now, to get 24 by 7 operation, I need about 11 people in that team and they don't just process the projects. They also deal with violations that are reported on projects that are posted and contest and a range of other things.",
+      "zh": "要做到 24 小时不间断运转，我这个团队大概需要 11 个人，而且他们不只是处理项目，还要处理针对已发布项目的违规举报、申诉，以及其他一系列事务。"
+    },
+    {
+      "i": 16,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "03:24",
+      "en": "And in the space of about two sessions of half an hour to an hour, you can now completely automate that queue processing. So what I mean by that is you can have an AI go in there, pick up things that the human would normally process in the queue.",
+      "zh": "而现在，只要两三次半小时到一小时的会话，你就能把这个队列处理完全自动化。我的意思是，你可以让 AI 进去，接手原本由人在队列里处理的事项。"
+    },
+    {
+      "i": 17,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "03:36",
+      "en": "The human might take out in the five, three, five minutes to process that item. AI can do that a lot quicker, reliably 24 by 7. And all of a sudden, the queue is completely automated.",
+      "zh": "人处理一项可能要三到五分钟，AI 能做得快得多，还能可靠地 24 小时运转。突然之间，整个队列就完全自动化了。"
+    },
+    {
+      "i": 18,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "03:45",
+      "en": "And I had the other day a performance marker to quit on me. That's a fairly expensive role. It's a six figure role in the order of $150,000, $200,000.",
+      "zh": "前几天，我这儿一位做效果营销（performance marketing）的员工辞职了。这是个挺贵的岗位，六位数薪水，大概 15 万到 20 万美元。"
+    },
+    {
+      "i": 19,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "03:54",
+      "en": "I guess if you're out in the market trying to replace that role. And what do they do every day? They have a very repeatable role, which is they look into Google ads every day.",
+      "zh": "如果你想市场上再招一个人来顶这个岗位的话。他们每天做什么呢？其实是一个非常重复性的岗位——每天看 Google Ads。"
+    },
+    {
+      "i": 20,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "04:01",
+      "en": "They look through the dashboard graphs, performance on the site. They literally look for all your different ad campaigns and they figure out what should they tune today, should they shift a little bit of budget from one portfolio of ads to another portfolio of ads, et cetera.",
+      "zh": "他们看仪表盘上的图表、网站的表现，一个个去看你所有的广告投放活动，判断今天该调什么，是不是该把一点预算从一个广告组合挪到另一个广告组合，诸如此类。"
+    },
+    {
+      "i": 21,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "04:13",
+      "en": "And really, it's a fairly repetitive role in many circumstances, tuning knobs and dials. And as that person left, I thought to myself, for the first time, I should really learn how AdWords works because we spend an order of half a million dollars a month on this.",
+      "zh": "其实在很多情况下，这是个相当重复的岗位，就是不停调各种旋钮和参数。这个人离职的时候，我第一次意识到，我真的应该学一学 AdWords 是怎么运作的，因为我们每个月在这上面要花大概 50 万美元。"
+    },
+    {
+      "i": 22,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "04:25",
+      "en": "So I thought I'm going to replace the role. I really should understand how it works. So I jumped in and I was using Claude to tell me which reports to download and explain the interface inside Google ads and so forth and cutting and pasting bits and bobs back and forwards to Claude and uploading CSVs and so forth and getting a handle for how it worked.",
+      "zh": "所以我想，我要替代这个岗位，就必须真的搞明白它是怎么运作的。于是我就上手，让 Claude 告诉我该下载哪些报表、解释 Google Ads 里的界面等等，然后各种复制粘贴给 Claude、上传 CSV 之类的，慢慢摸清它是怎么运作的。"
+    },
+    {
+      "i": 23,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "04:41",
+      "en": "And then I had a breakthrough moment where I was like, you know, I could probably get an agent to do this. And every day, before I get into work, look through everything, look through our Google Analytics, look through our Google Ads account, look through our database, look through our financial performance in the last 24 hours, look through the code, look through what's been shipped, look through Fabricator, which is the ticketing system",
+      "zh": "然后我突然灵光一现——我大概可以让一个 agent 来做这件事：每天在我到公司之前，把所有东西过一遍：看我们的 Google Analytics、看我们的 Google Ads 账户、看我们的数据库、看过去 24 小时的财务表现、看代码、看已经上线的功能、看 Fabricator（我们的工单系统）——"
+    },
+    {
+      "i": 24,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "05:02",
+      "en": "and basically provide a comprehensive report in my email every morning, reliably, when I come in, that will tell me how I should modify the Ads account.",
+      "zh": "然后每天早上稳定地把一份综合报告发到我邮箱里，等我到公司的时候，它已经告诉我该如何调整 Ads 账户。"
+    },
+    {
+      "i": 25,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "05:11",
+      "en": "And it does it at a superhuman level because it has access to all that data and reviews of that data. And no human, no matter how much I looked into the market to find someone great, there's no way that they'll be getting up every morning at 4am and producing a report by 4.10 for landing in my inbox to make sure when I come to work in the morning, it's there.",
+      "zh": "而且它做得比人还厉害，因为它能访问所有那些数据以及对这些数据的复盘。不管我在市场上找多优秀的人，都不可能有人每天早上 4 点起床、4 点 10 分就把报告放进我收件箱，让我一到公司就能看到。"
+    },
+    {
+      "i": 26,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "05:26",
+      "en": "I don't want to replace that role, a technical specialist in performance marketing. I'd rather hire someone maybe a little bit more marketing orientated or think down funnel in the whole flow of the customer journey.",
+      "zh": "我不想再补招效果营销技术专家这个岗位了。我更愿意招一个更偏营销导向的人，能从整个客户旅程的角度去想漏斗下游的问题。"
+    },
+    {
+      "i": 27,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "05:36",
+      "en": "And in the last couple of weeks in particular, I have been going through team by team, looking at which teams are basically queue processes, i.e. they come in the morning and there's a whole bunch of things queued up for them to do, whether it's Amazon data or processor report or whatever it may be, and sit down with the team leaders and basically automate that flow.",
+      "zh": "特别是过去这两周，我一直在一个团队一个团队地过，看哪些团队基本上就是队列处理——也就是他们早上一来，就有一堆排队的事情等着做，不管是 Amazon 数据、处理商报告还是别的什么——然后和团队 leader 坐下来，把这个流程自动化掉。"
+    },
+    {
+      "i": 28,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "05:55",
+      "en": "And the speed at which you can do it is absolutely phenomenal. For 17 years, I've tried to have my team produce a daily report in the morning by 9.30am in their time zone.",
+      "zh": "你能做到的速度绝对惊人。整整 17 年，我都在试图让团队每天早上按他们所在时区 9 点半之前给我出一份日报。"
+    },
+    {
+      "i": 29,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "06:07",
+      "en": "And for 17 years, I don't get it at 9.30, I get it maybe at 11 o'clock in the day, 2pm, or maybe they forget to do it. And now I've got AI producing that report and reports with basically every team about what I did in the last time period, how that's tracking if they ship something to production, etc. and so forth.",
+      "zh": "17 年来，我从来不是 9 点半收到，而是 11 点、下午 2 点，或者他们干脆忘了做。现在我有 AI 来生成这份报告，而且几乎每个团队都有——报告上一个时段做了什么、进展如何、有没有把什么东西推到生产环境等等。"
+    },
+    {
+      "i": 30,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "06:23",
+      "en": "And this is really just lifting the productivity across the board and it's achieving insights into my company that I've never been able to achieve before reliably at a superhuman level.",
+      "zh": "这真的在全面提升生产力，让我获得了以前根本无法稳定获得的、对我公司的洞察力，而且是超人级别的。"
+    },
+    {
+      "i": 31,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "06:36",
+      "en": "Now, all of that, I'm sure, was covered in just a single $20 per month anthropic subscription to Claude. No, so I mean, therein lies the rub.",
+      "zh": "我猜，所有这一切都包含在你每月 20 美元的 Anthropic Claude 订阅里了吧？不，问题就在这里。"
+    },
+    {
+      "i": 32,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "06:46",
+      "en": "So I went and looked at my open router token usage for that day and it came in at one particular day last week and it came in at four billion tokens in one day.",
+      "zh": "我去查了一下自己那一天在 OpenRouter 上的 token 用量，上周某一天，一天下来是 40 亿 token。"
+    },
+    {
+      "i": 33,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "06:57",
+      "en": "And that's four billion with a B. Now, I looked at that and I thought to myself, Jesus, I mean, that cost me about $1,300. That cost me about $1,300 US dollars.",
+      "zh": "是 40 亿（4 billion）那个 B。我看着这个数字心想，天呐，这花了我大约 1300 美元——大概 1300 美元。"
+    },
+    {
+      "i": 34,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "07:06",
+      "en": "Now, I was using Western models. I mean, $900 was Sonnet, anthropic Sonnet model, which is a cheaper, faster model. There was a little bit of fable in there for doing things like writing effective tickets to feed into our AI software engineering team because we've got a thing called DFID, which will process tickets now and actually do the engineering.",
+      "zh": "我用的是西方模型。其中 900 美元是 Sonnet，也就是 Anthropic 的 Sonnet 模型，比较便宜也比较快。里面还有一点 Fable，用来做一些事情，比如写有效的工单，喂给我们的 AI 软件工程团队——因为我们有一个叫 DFID 的东西，它现在会处理工单，然后真的去做工程实现。"
+    },
+    {
+      "i": 35,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "07:23",
+      "en": "There's a bit of grok in there, etc., but it was at $1,300. And I thought to myself, Jesus, this is adding huge amounts of value to my company, but I'm only just getting started and at $1,300 US dollars.",
+      "zh": "里面也有一点 Grok 等等，但总量就是 1300 美元。我心里想，天呐，这给我公司带来了巨大的价值，但我才刚刚开始，就已经是 1300 美元。"
+    },
+    {
+      "i": 36,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "07:34",
+      "en": "I mean, I can imagine going from 40 agents to 400 agents in no time. And all of a sudden, that becomes a $13,000 bill a day. And I could probably even notice her to the end of that in terms of the usage.",
+      "zh": "我能想象从 40 个 agent 扩到 400 个 agent 只是转眼之间的事。突然之间，就变成一天 13000 美元的账单，而且我可能连用量天花板都摸不到。"
+    },
+    {
+      "i": 37,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "07:43",
+      "en": "So the first thing that starts coming to us in my mind is, well, how can I cut the cost? Hang on. Let me pause you just for one second there because I do want to understand this in perspective.",
+      "zh": "所以我脑子里冒出来的第一个念头就是：好，我怎么把成本压下来？等一下，让我打断你一秒钟，因为我真的想把这个事情放到一个更宽的视角里理解一下。"
+    },
+    {
+      "i": 38,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "07:53",
+      "en": "I heard you say to me off the air the other day, you know, oh my God, $1,300 in tokens in one day. We're used to getting free stuff on the internet, but you also told me in this conversation so far that you had just one of the employees who used to do this stuff for you, $200,000 a year position.",
+      "zh": "前几天你在录制之外跟我说，天呐，一天光 token 就 1300 美元。我们习惯了从互联网上白拿东西，但你在这段对话里也告诉我，你原来光是有一个员工做这些事，就是年薪 20 万美元的岗位。"
+    },
+    {
+      "i": 39,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "08:10",
+      "en": "So that's $800 a day right there. You're spending a half a million a month on AdWords. If somebody just optimizes that to save 10% of that, that's worth, by my calculations, about $1,700 a day.",
+      "zh": "所以光那一个岗位就是每天 800 美元。你一个月在 AdWords 上花 50 万美元。如果有人只是把它优化到省下 10%，按我算大概就值每天 1700 美元。"
+    },
+    {
+      "i": 40,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "08:24",
+      "en": "So you're up to $2,500 a day just right there before doing anything else. This is much bigger than getting free stuff on the internet, but it sounds like it's kind of worth it.",
+      "zh": "所以什么都还没做，你光这两项加起来就已经是每天 2500 美元了。这可比\"在互联网上白拿东西\"大得多，但听起来还是挺值的。"
+    },
+    {
+      "i": 41,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "08:34",
+      "en": "It certainly is, but then you start thinking to yourself, well, I'm going to 10x this, you know, because that's all the work I did last month.",
+      "zh": "确实很值，但接着你就会想，好，我还要把这个搞成 10 倍——因为那还只是我上个月做的工作。"
+    },
+    {
+      "i": 42,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "08:40",
+      "en": "What's going to happen next month? And then you're also thinking about, well, how's pricing going to head in the future and are they going to escalate prices?",
+      "zh": "下个月会怎么样？然后你还会想，未来价格会往哪个方向走，他们会不会涨价？"
+    },
+    {
+      "i": 43,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "08:46",
+      "en": "And we can talk about that a little bit later in the show. But the first thing you're thinking of, well, that's a month's worth of work getting that fleet up and running.",
+      "zh": "这个我们节目后面可以再聊。但你想的第一件事是：好，把这支 agent 队伍搭起来并跑通，就是一个月的工作量。"
+    },
+    {
+      "i": 44,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "08:52",
+      "en": "And yes, there's some optimizations you can do. And it turns out that $4 billion of token burn in a day wasn't really $4 billion in a sense in that these models today now have what's called prompt caching.",
+      "zh": "是的，你可以做一些优化。而且事实证明，一天 40 亿 token 的消耗在某种意义上并不真的是 40 亿——因为现在的模型都有所谓的 prompt caching（提示缓存）。"
+    },
+    {
+      "i": 45,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "09:02",
+      "en": "When you do a genetic work, what you're doing is a lot of these agencies are just going in loops. So for every hour, they might be checking a queue or every hour, they might be, you know, scanning something or checking the database or what have you.",
+      "zh": "当你做 agentic 工作时，很多 agent 其实就是在循环里跑。可能每小时检查一次队列，或者每小时扫点什么、看看数据库等等。"
+    },
+    {
+      "i": 46,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "09:12",
+      "en": "So there's a lot of tokens that kind of just get reused in the models. And so it turned out with my $4 billion of tokens I spent in that day, $3 billion of them were actually in the prompt caching.",
+      "zh": "所以有大量 token 其实在模型里是被反复复用的。结果就是，我那天烧掉的 40 亿 token 里，有 30 亿实际上是走了 prompt caching。"
+    },
+    {
+      "i": 47,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "09:22",
+      "en": "If that was not the case, and I was using an opus level model, it would have been probably $80,000 worth of spend. But, you know, I was using a low grade model and there's a lot of caching going on.",
+      "zh": "如果没有缓存、我又用的是 Opus 级别的模型，那大概会是 8 万美元的开销。但我用的是低端模型，而且缓存帮了大忙。"
+    },
+    {
+      "i": 48,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "09:30",
+      "en": "And it also turns out my code wasn't very efficient, right? So the next thing that came along was I kind of looked at and thought, okay, it's not, yeah, a few of these things I can, that I'm doing around the polling and so forth, I can actually push into software.",
+      "zh": "而且我的代码其实也不够高效。接下来我看了看，心想，好，我做的这些轮询之类的东西，其实可以下沉到软件里去做。"
+    },
+    {
+      "i": 49,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "09:40",
+      "en": "The neat thing is with AI is you can write a prompt saying, please optimize yourself for costs and take a little bit of your token usage, et cetera, and try and reduce it.",
+      "zh": "AI 有意思的一点是，你可以直接写一个 prompt 说：请针对成本优化你自己，看看你的 token 用量等等，试着把它降下来。"
+    },
+    {
+      "i": 50,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "09:47",
+      "en": "So it turned out that by just typing in that one single prompt, I managed to optimize the token usage down by another 85%. Still, if you kind of think about it intuitively, you know, that was $1,300 of spend.",
+      "zh": "结果就是，光是打了这一个 prompt，我就把 token 用量又优化下去了 85%。不过直观想一想，那还是 1300 美元的开销。"
+    },
+    {
+      "i": 51,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "09:57",
+      "en": "And the first thought I had was, well, which other models could I potentially switch this to? It turns out that if I went to the Chinese models, and there's been a huge breakthrough, as I think as we talked about last show with the companies like Z.ai, which uses GLM, DeepSeq, Quinn from Alibaba, and so forth, that if I wanted to run this on the Chinese models, that $1,300 of spend would have been closer to $150 of spend.",
+      "zh": "我脑子里的第一个念头是：好，我还能切换到哪些别的模型？结果就是，如果我转到中国模型——就像我们上一期节目聊过的那样，Z.ai（用 GLM）、DeepSeek、阿里巴巴的 Qwen 等公司都取得了巨大突破——如果我想在中国模型上跑同样的东西，那 1300 美元的开销大概会降到 150 美元左右。"
+    },
+    {
+      "i": 52,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "10:20",
+      "en": "And so that's $80,000 in the Opus, $1,300, the way I did it, $150 on GLM 5.3, which is a 500X spread, just switch between models. And the crazy thing is, as we talked before, is there really is no switching costs with these models. Yes, at the high end, you know, the fabled class models from Anthropic, you can, you know, clearly see that when you use those models, that there's a high level of intelligence",
+      "zh": "所以 Opus 上是 8 万美元，我自己的做法是 1300 美元，GLM 5.3 上是 150 美元——光是切换模型就是 500 倍的价差。而且就像我们之前聊过的，疯狂的地方在于，这些模型之间几乎没有切换成本。是的，在高端——你知道，Anthropic 那些 Fable 级别的模型——你用的时候能明显看出智能水平很高，"
+    },
+    {
+      "i": 53,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "10:46",
+      "en": "and the thoroughness that comes through, but you're paying an astronomically high price for that. But the Chinese are hot on the heels. GLM 5.3 is kind of almost fabled class, which is just getting there. And it's open source, you can download it, you can run it on your own hardware, or you can run it on these hosted environments. And it's pretty damn neat. In fact, when they launched it, they launched it as Ox Alpha, and they actually made it for free and gave away",
+      "zh": "以及那种彻头彻尾的周全，但你为此付出的是天价。可中国人紧追不舍。GLM 5.3 已经差不多算 Fable 级别，就差一步到位。而且它是开源的，你可以下载下来在自己硬件上跑，也可以在这些托管环境上跑，真的相当漂亮。事实上，他们发布时是把它作为 Ox Alpha 发布的，直接免费开放，还送出了"
+    },
+    {
+      "i": 54,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "11:12",
+      "en": "100 trillion tokens. And for a whole week, you could switch your models and all your agents across to run on this free resource and get pretty damn good performance. Now, the problem with all of this is they're all training on it. So if you're kind of wondering why, you know, why it's free, it's because you're probably the product. And as we observed over the course of that week, there was a lot of comments on the internet saying that the Ox Alpha model was improving",
+      "zh": "100 万亿 token。整整一周，你可以把你的模型和所有 agent 都切到这个免费资源上跑，性能还相当不错。可这里的问题是，他们全都在拿这些流量做训练。所以如果你在纳闷为什么它是免费的——因为很可能你就是产品。就在那一周里，我们观察到网上有很多评论说 Ox Alpha 模型在"
+    },
+    {
+      "i": 55,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "11:36",
+      "en": "quite dramatically. And that's because I think 42 trillion tokens were kind of shoved into it when it was available for free and it used it as training data. Now, I don't doubt for a second that Anthropics doing the same thing in some very tricky ways. And I don't doubt that OpenAI is doing the same thing again. But so you start getting into this situation where you're thinking to yourself, okay, I'm burning $1,300 a day, I could turn it down to $130 a day, probably",
+      "zh": "以非常显著的速度进步。原因就在于，我觉得免费开放那段时间大概有 42 万亿 token 被塞了进去，被它拿去当训练数据。我一点都不怀疑 Anthropic 也在用一些非常取巧的方式做同样的事，也不怀疑 OpenAI 也在做同样的事。所以你就进入了这样一种情境：你想，好，我一天烧 1300 美元，我可以把它压到一天 130 美元——大概"
+    },
+    {
+      "i": 56,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "11:58",
+      "en": "moving to the Chinese models, but then all my data goes to China. And then you think to yourself, well, what are your other options? Because I know I'm going to go 10x. I know I'm going to go 100x from here in terms of what I can do. Where do I go? And that's where I started thinking about buying my own hardware. So I caught up my local computer shop and I said, can I get a pair of DGX Sparks?",
+      "zh": "只要切换到中国模型，但我所有的数据也就跑到中国去了。然后你会想，好，那我还有什么别的选择？因为我知道我要扩 10 倍，我知道从现在起我要做的事情会扩 100 倍。我该往哪儿走？就是从这里开始，我琢磨着要不要买自己的硬件。所以我跑到本地的电脑店问：能给我来一对 DGX Spark 吗？"
+    },
+    {
+      "i": 57,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "12:17",
+      "en": "And this is the Nvidia little AI supercomputer. It's a little modular form factor box. It's about 10x10 square centimetres. They were about $4,000 US dollars at the time where I bought two pairs.",
+      "zh": "这就是 Nvidia 出的小 AI 超级计算机，一个模块化的方形小盒子，大概 10×10 平方厘米。当时的价格大概是 4000 美元一台，我买了两对。"
+    },
+    {
+      "i": 58,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "12:28",
+      "en": "So I bought four of these boxes and I set them all up. It's pretty quick and pretty easy to set up. And what's amazing is you can actually load up something like the Pi Coding Harness, which is Pi. And you can just basically tell it, please set up the box and you know, download DeepSeq or download GLM53 and configure yourself. And you sit back and you watch it for 15, 20 minutes. It's up and running for you. So the AI is really helping you get these things up",
+      "zh": "所以我买了四台这样的盒子，全部装起来。安装非常快、非常简单。Amazing 的地方在于，你可以加载像 Pi Coding Harness（也就是 Pi）这样的东西，然后基本上就直接告诉它：请把这个盒子装好，下载 DeepSeek 或者下载 GLM 5.3，自己配置好。你就往后一坐，看它跑个 15、20 分钟，就给你搞定上线了。所以 AI 真的在帮你把这些东西搭起来、"
+    },
+    {
+      "i": 59,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "12:49",
+      "en": "and running. But okay, hang on a second. Before we go on, I just want to qualify. You spent about $4,000 for each one of these boxes. How much of the 13, you would spend in 1300 bucks before? Does one box like that replace the whole 1300 bucks? Or do you need more than one box? And also you said you've got to use the Chinese models because they've got to run on your own hardware, which Anthropic and OpenAI won't allow you to do with their models. I can't believe that DeepSeq",
+      "zh": "跑起来。不过，等一下，在我们继续之前我想先厘清几件事。你每台盒子花了大概 4000 美元。你之前一天要花 1300 美元——一台这样的盒子能把这 1300 美元全部替代掉吗？还是说你需要不止一台？还有，你说你必须用中国模型，因为它们才能在你自己的硬件上跑，Anthropic 和 OpenAI 是不允许你在自己硬件上跑他们的模型的。我很难相信 DeepSeek"
+    },
+    {
+      "i": 60,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "13:15",
+      "en": "is just as good as Fable 5 and Claude. So what percentage would you say you're accepting a little bit of capability downgrade in order to put it onto your own hardware? How would you characterize or describe how much of a hit you're taking in terms of the capability in order to get that benefit of your own hardware and therefore unlimited use? Yeah. So DeepSeq version 4 Flash, you can download that and run it on a pair of DGXs. So there's a cable that plugs these Nvidia",
+      "zh": "就跟 Fable 5 和 Claude 一样好。所以你觉得，为了把它跑在自己的硬件上，你在能力上接受了几成的降级？你会怎么描述为了拿到自己硬件的好处、从而无限量使用，你在能力上付出的代价？是的。DeepSeek V4 Flash 你可以下载下来，跑在一对 DGX 上。有一根线可以把这些 Nvidia"
+    },
+    {
+      "i": 61,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "13:44",
+      "en": "DGXs as a modular. So you can kind of stack them and you can kind of chain them together. And a pair, which shares the memory between the two on a 200 gigabit link, you can load in a 300 billion parameter, which is quite a big model, DeepSeq V4 Flash, and run it on your own hardware. And you get around somewhere between 45 and 60 tokens per second. So that gets me to about 5 million tokens a day. And my 4 billion token day was about 46,000 tokens a second.",
+      "zh": "DGX 以模块化的方式连起来，你可以把它们堆叠、串联。一对 DGX 之间用 200 Gb 的链路共享内存，你就可以把一个 3000 亿参数（算是相当大的模型）的 DeepSeek V4 Flash 加载进来，在你自己的硬件上跑。速度大概是每秒 45 到 60 token，也就是每天大概 500 万 token。而我那个 40 亿 token 的一天，等于每秒大概 4.6 万 token。"
+    },
+    {
+      "i": 62,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "14:15",
+      "en": "So by comparison, it's about 1000x difference. But effectively, a pair of DGXs can run DeepSeq V4. You get kind of opus level quality. It's pretty damn good. It's fast enough for you to program in a couple of windows, because you can get up to 120 tokens a second running multiple streams, like six streams at the same time. So you might have one window open doing a bit of programming, another window open doing something else, et cetera. Yeah. So it's about a $9,000 spend,",
+      "zh": "所以相比之下差不多是 1000 倍的差距。但事实上，一对 DGX 就能跑 DeepSeek V4，你能拿到差不多 Opus 级别的质量，真的相当不错。它足够快，能让你在几个窗口里同时编程——因为你可以跑到每秒 120 token，同时开多路，比如 6 路。所以你可能一个窗口开着写点代码，另一个窗口开着做别的事，等等。是的。所以这大概是 9000 美元的开销，"
+    },
+    {
+      "i": 63,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "14:44",
+      "en": "or at least it was when I bought them, where you've got, you know, it can power a programmer, a single programmer doing a bunch of things. I obviously haven't got all the bandwidth I've got with all my agents running, because the agents are burning tokens while you're asleep, not while you're kind of driving it interactively. And if you do the math on the DGXs to kind of run my kind of workload with the code optimizations and so forth, I would have needed about 16 of",
+      "zh": "至少在我买的时候是这个价。它能撑起一个程序员，让一个人做一堆事情。当然，我肯定拿不到我所有 agent 一起跑时的那种带宽，因为 agent 是在你睡觉时也在烧 token，而不是像交互式驱动那样只在你操作时烧。如果你按 DGX 来算，跑我这种工作量（加上代码优化等等），我大概需要 16 台"
+    },
+    {
+      "i": 64,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "15:04",
+      "en": "them running, right? Now, the interesting thing about that is that would have cost me about $65,000 US dollars in terms of hardware to do that. It draws collectively less power than a kettle to boil, because there are about 100 watts each. Literally, one of those supercomputers runs at, you know, 100 watts. So it's about a strong light bulb. And then I can actually run that workload, even if the internet turns off. And the other great thing is that when these models come out in",
+      "zh": "才行。有意思的是，光是硬件成本就要大约 65000 美元。它们加起来的耗电比烧一壶水的水壶还少，因为每台大概 100 瓦。字面意义上，一台这样的超级计算机功耗就是 100 瓦，差不多就是一个大功率灯泡。而且就算断网，我也能真的把那些工作负载跑起来。另一个很棒的地方是，当这些模型出现在"
+    },
+    {
+      "i": 65,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "15:30",
+      "en": "the open source world, whether it's DeepSeek or whether it's GLM or whether it's Quinn from Alibaba, is you give it a couple of days or give it a week. And the open source community does a thing called obliterating. They obliterate the models. So what they do is they sit there and fine tune the models that have been publicly released to uncensor them. So all the refusals that you get with Anthropic, which is incredibly annoying and I guarantee you is hurting their",
+      "zh": "开源世界——不管是 DeepSeek、GLM，还是阿里巴巴的 Qwen——你给它几天，或者一周时间，开源社区就会做一件叫\"obliterate（清洗/去审查）\"的事情。他们会\"obliterate\"这些模型。他们做的事情就是坐在那里，对已经公开发布的模型做微调，把审查去掉。所以你在 Anthropic 上碰到的那些拒绝——非常烦人，而且我敢保证正在大大伤害他们的"
+    },
+    {
+      "i": 66,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "15:55",
+      "en": "adoption of the big way where you ask it to review illegal documents and it says, sorry, I can't do that to your policy error. And it's like, it's my own terms of service.",
+      "zh": "采用率——你让它审一份非法文件，它说\"抱歉，我不能这么做，违反政策\"。可那明明是我自己的服务条款文件。"
+    },
+    {
+      "i": 67,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "16:02",
+      "en": "Why are you giving me a policy error? I'm trying to get you to help me improve one of my own documents. You don't get that because what the open source community does is it gets these models and then actually fine tunes all the refusals out of the model. And so all this AI safety stuff that's going on, it's all pretty pointless with open source because every model out there has been obliterated and you can download it and it won't refuse any request. So that's an advantage",
+      "zh": "为什么给我报政策错误？我是在让你帮我改进我自己的一份文档。开源模型你就不会碰到这个问题，因为开源社区拿到这些模型之后，会真正把模型里的所有拒绝行为微调掉。所以搞这么多 AI 安全的东西，在开源上其实都挺没意义的——因为市面上每一个模型都被\"obliterate\"过了，你下载下来，它不会拒绝任何请求。这就是一个优势："
+    },
+    {
+      "i": 68,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "16:27",
+      "en": "in that you don't have these models sitting there refusing things all the time and the Anthropic models are pretty bad. You can't just get ordinary work done and the Fable model without it refusing all the time. So that cluster would be at 16 sparks. It cost me about $65,000. If you immortalize that over two years, it's about 100 bucks a day of hardware and then the power usage. It's about a dollar a day to power two sparks. So 16 sparks is probably somewhere at eight bucks a day. So you",
+      "zh": "你不会有这些模型动不动就拒绝你——Anthropic 的模型这方面挺糟糕的。你根本没法用 Fable 模型顺顺利利把日常工作做完，它总是在拒绝你。所以那个集群是 16 台 Spark，花了我大概 65000 美元。如果你把它摊销到两年，硬件成本大概是每天 100 美元，再加上电费。两台 Spark 的电费大概是每天 1 美元，所以 16 台 Spark 大概就是每天 8 美元。所以你就"
+    },
+    {
+      "i": 69,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "16:53",
+      "en": "start thinking about that sort of economics. And so you can see the Chinese models, you know, when you go out there and you use the Chinese models that are hosted and you rent them, they're a little bit more expensive, but they do offer frequently discounts. Like if you get an open router or LLM gateways, another open router style site, which is really just like a meter or a place where you can select all the different models, et cetera. You've got different hosting",
+      "zh": "开始思考这一类的经济学。所以你能看到中国模型——当你去用托管的中国模型、租它们的时候，价格会稍贵一点，但他们确实经常打折。比如你用 OpenRouter，或者 LLM Gateways（另一个 OpenRouter 风格的站点），它其实就像一个计价器或者说一个可以选各种模型的地方，等等。你会看到不同的托管"
+    },
+    {
+      "i": 70,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "17:16",
+      "en": "providers offering discounts all the time. The problem is because everyone's training on the data that you're sending it, not my AI, not my data. I really do think, and we talked about this in previous episodes, that this whole thought train of, wow, gee, where's everything going in terms of pricing? I did note by the time I went back to the computer shop and bought four more dgx sparks. So I got eight now, I've got four at work, four at home, that the price had already",
+      "zh": "服务商随时在打折。问题就是所有人都在拿你发过去的数据做训练——\"not my AI, not my data（我的 AI 不是你的，我的数据不是你的）\"。我真的觉得，我们之前几期也聊过，这整个思路——哇，天呐，价格未来会怎么走？我确实注意到，等我回到那家电脑店再买 4 台 DGX Spark 时（所以我现在有 8 台，公司 4 台、家里 4 台），价格已经"
+    },
+    {
+      "i": 71,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "17:40",
+      "en": "gone up. And also the distributors were saying they're out of stock. And in fact, there's a nice little switch by McCrotic that will chain four of them together. So you can unify the memory across all four and you get 512 gigabytes of memory. And so you can load a much bigger model in much more easily. They're completely out of stock, not just near me. They're out of stock in the US. They are stock all around the world. The last McCrotic switches that are available,",
+      "zh": "涨上去了。而且分销商还说没货了。事实上，Mellanox（Whisper 记作 McCrotic）有一款很不错的小交换机，可以把四台串在一起，这样你就可以把四台的内存统一起来，一共 512 GB 内存，就能更容易地加载一个大得多的模型。这些交换机完全没货，不只是我附近没货，整个美国都没货，全世界都没货。最后一批还有货的 Mellanox 交换机——"
+    },
+    {
+      "i": 72,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "18:04",
+      "en": "I think it's the 8-1-12 model, were in Sweden. And by the time they hit reload on the page, they're out of stock. So I think everyone's kind of got the same idea now, which is to thinking about buying their own hardware. And I certainly think, and I think we've talked about this extensively, there's going to be an emperor has no close moment, which is coming very soon, where enterprise is going to be really, really, really fed up that everything they put into",
+      "zh": "我记得是 8-1-12 型号——是在瑞典。等你刷新页面，就已经没货了。所以我觉得大家现在都在打同一个主意，那就是买自己的硬件。我确实觉得——我们之前也详细聊过——很快会迎来一个\"皇帝没穿衣服\"的时刻：企业会真的、真的、真的受够他们放进"
+    },
+    {
+      "i": 73,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "18:26",
+      "en": "G Suite, everything that they put on the public facing internet is scraped by the AR scrapers. I mean, the traffic to my website freelancer has gone up 1300% in the last 12 months, which is incredibly annoying in terms of getting the content delivery network bill and having to reconfigure the network. You got to be careful what you block on the AR scrapers, because some of those AR scrapers also index you for the search results. So if you kind of",
+      "zh": "G Suite 里、放在公网上的所有东西都被 AI 爬虫扒走。我是说，我 freelancer 网站过去 12 个月的流量涨了 1300%，从 CDN 账单和不得不重新配置网络的角度来说，这非常烦人。你封 AI 爬虫时也得小心，因为其中有些爬虫同时也负责给你在搜索结果里做索引。所以如果你"
+    },
+    {
+      "i": 74,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "18:47",
+      "en": "block the AR scrapers, you kind of can damage the customer acquisition coming in. So you got to be careful about that. But I think there's going to be a moment coming real soon, like now, where a lot of these large enterprises are like, you know what, I don't want these big foundational models reading on my email. I don't want them reading my data. If they host it for me on AWS or what have you, I don't want them knowing what my weaknesses are, where my valuable",
+      "zh": "封掉 AI 爬虫，就可能损害你的获客流量。所以这个要小心。但我觉得，很快就会到来一个时刻——就是现在——很多大企业会说：你知道吗，我不想让那些大基础模型读我的邮件，不想让它们读我的数据。就算它们帮我在 AWS 或什么地方托管，我也不想让它们知道我的弱点在哪里、我宝贵的"
+    },
+    {
+      "i": 75,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "19:08",
+      "en": "customers are, my strategies, et cetera, because everything that's out there on this net is being sucked into the AI and it's used for training. And I think there's certainly a trend and you can certainly tell it from when you go to the computer store and you're trying to buy a DGX Spark or you're trying to buy the RTX graphics cards, RTX 6000s are pretty good for running very, very high performance. Two of those cards cost you about $50,000 and you can run something like",
+      "zh": "客户在哪里、我的战略等等——因为公网上所有东西都在被吸进 AI，被拿去做训练。我觉得这个趋势非常明显——你去电脑店想买 DGX Spark、或者想买 RTX 显卡时就能感受到。RTX 6000 用来跑非常非常高性能的推理相当不错，两张卡大概 50000 美元，你就能跑像"
+    },
+    {
+      "i": 76,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "19:30",
+      "en": "GLM at 1000 tokens a second and run a whole engineering team off them. There's a big scramble for this hardware. And I'm seeing it also in one of my other businesses, which is escrow.com, because what was very soon our second biggest category is GPUs and servers. There's a very active broker market out there that are buying and selling a data center hardware and some of the stuff is coming off lease now because the hopper series is starting to be retired and then you've",
+      "zh": "GLM 每秒 1000 token，还能供整个工程团队用。大家在疯狂抢这些硬件。我在自己另一门生意 Escrow.com 上也看到了——很快我们的第二大品类就是 GPU 和服务器。市面上有一个非常活跃的经纪商市场，在买卖数据中心硬件。有些设备现在开始下租约了，因为 Hopper 系列开始退役，接着你还有"
+    },
+    {
+      "i": 77,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "19:56",
+      "en": "got the Blackwell series and then you've got now Vera Rubin and so forth coming. Some of that stuff is starting to get rotated. So there's a very active secondary market that is booming. And I think this is going to be a scramble for your own hardware. Okay, let me understand this in a little more detail because I think it's going to interest a lot of our listeners. It's not just the model that you can buy, but it's also the degree of integration with all of this new",
+      "zh": "Blackwell 系列，接着还有 Vera Rubin 等等要来。有些设备开始被轮换下来了，所以有一个非常活跃的二级市场正在爆发。我觉得接下来会是一场\"抢自己硬件\"的 scramble。好，让我再详细了解一下，因为我想很多听众会感兴趣。你能买的不只是模型，还有它跟所有这些新的"
+    },
+    {
+      "i": 78,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "20:20",
+      "en": "agentic stuff. Because as I hear you talking like you're, you know, you're running a public company, I'm retired, I'm a totally different set of circumstances. I'd be delighted to buy as many of these DGX boxes as it takes if it would allow me to do just one simple task, which is automate going through my email every morning and filtering out all the spam and organizing and prioritizing it without sharing any of my content with anthropic or open AI or anybody else because",
+      "zh": "agentic  stuff 的整合程度。因为听你讲——你在经营一家上市公司，我已经退休了，情况完全不一样。如果买这些 DGX 盒子能让我做到一件很简单的事——每天早上自动过一遍我的邮件，把垃圾邮件过滤掉、组织和排好优先级——而且不把我任何内容分享给 Anthropic、OpenAI 或者别的任何人，那我乐意买多少台就买多少台，因为"
+    },
+    {
+      "i": 79,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "20:48",
+      "en": "I don't trust anybody any more than you do. Is that degree of integration where this DGX box and a Chinese model has that agentic ability to go talk to my Microsoft Outlook and command it to delete and move things around into folders? Does it do all that? And if not, how long until it does?",
+      "zh": "我对任何人的信任都不会比你多。DGX 盒子加一个中国模型能不能有那么强的 agentic 能力，去跟我的 Microsoft Outlook 对话、指挥它删除邮件、把邮件挪到不同文件夹里？它能不能做到所有这些？如果不能，还要多久才能做到？"
+    },
+    {
+      "i": 80,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "21:07",
+      "en": "It's trivial. I mean, there's a fair act of community around the Quinn 27B model, which you can run off a laptop. Okay, but if I want to buy one of these DGX boxes to run a Chinese model or two of them or whatever the requirement here, $10,000 worth of hardware, I can not just run AI to answer fascinating math questions for me, but I can run AI that talks to my computer controls applications, does stuff for me, but it's all ring-fenced so that nobody is sharing my",
+      "zh": "这太简单了。围绕着 Qwen 27B 模型有一个相当活跃的社区，那个模型你甚至可以在一台笔记本上跑。好，但如果我想买一台 DGX 盒子来跑一个中国模型，或者两台，或者不管需要多少台——1 万美元的硬件——我不只是可以让 AI 帮我回答有意思的数学题，我可以让 AI 跟我的电脑对话、控制应用程序、替我做事，而且全都是被围栏起来的，没有任何人把我的"
+    },
+    {
+      "i": 81,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "21:34",
+      "en": "data with anybody else on the internet, and I've got really solid confidence that's not happening behind the scenes. Well, I mean, your problem is that your email is probably in Gmail and Google has it, so you gotta get your daughter out of that first. It's actually coming from several different Pop3 and IMAP servers, and it's going into Microsoft Outlook, which means something needs to be able to either control Microsoft Outlook or deal with the Microsoft Outlook file",
+      "zh": "数据分享给互联网上的其他人，而且我非常有信心，暗地里也不会发生这种事。嗯，你的问题在于，你的邮件很可能在 Gmail 里，Google 拿着，所以你得先把你的数据从里面搬出来。其实是从好几个不同的 POP3 和 IMAP 服务器过来的，都进到 Microsoft Outlook 里，也就是说需要有东西能控制 Microsoft Outlook，或者能处理 Microsoft Outlook 的文件"
+    },
+    {
+      "i": 82,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "22:01",
+      "en": "format or something. My inbox consolidates a whole bunch of mailboxes into Microsoft Outlook. Well, I mean, you can guarantee all those big cloud companies are peaking at the data. I mean, I know that because you log into Gmail, and occasionally there are ads in Gmail, so they're obviously training for their ads to be context specific. So the problem is with all the SAS stuff is that this data is sitting inside these big hyperscalers, Google, Microsoft,",
+      "zh": "格式之类的。我的收件箱是把一大堆邮箱都汇总到 Microsoft Outlook 里。嗯，我是说，你可以肯定那些大的云公司都在偷看这些数据。我知道这一点，因为你登录 Gmail，Gmail 里时不时会有广告，所以他们显然在训练让广告贴合上下文。所以 SaaS 这些东西的问题就在于，数据都坐在 Google、Microsoft、"
+    },
+    {
+      "i": 83,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "22:27",
+      "en": "Amazon, et cetera, and the temptation to peak on it or train on it is too much. There's always little tricky things they do, updating terms of service and by default, flicking certain things on, and particularly if you're using free versions of anything, usually the free means the product is you and it's your data they're training on. And I do think there's a trillion dollar industry available right now around confidentiality and privacy, and I think Apple's trying to make",
+      "zh": "Amazon 这些大 hyperscaler 里面，偷看或拿去训练的诱惑实在太大了。他们总是会搞一些小动作，比如更新服务条款、默认把某些选项打开——特别是你在用任何免费版本的时候，通常\"免费\"意味着你就是产品，他们训练的就是你的数据。我确实认为，眼下在保密和隐私这一块就摆着一个万亿美元的产业机会，我觉得 Apple 也在试图"
+    },
+    {
+      "i": 84,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "22:48",
+      "en": "Headway in some ways into that privacy space and so forth, but I don't know if I completely trust them either. Certainly, as they head into the next version of Siri and the handset, that's too much of an invaluable device for training data because you've got to think about where are the contemporary data sets coming from, right? I do think enterprises can be fed up. I think particularly at the big end of town, you'd hate to be a McKinsey or a Deloitte at this point in",
+      "zh": "在隐私这块取得一些进展等等，但我也不确定我完全信得过他们。当然，随着他们做下一代 Siri 和手机，那实在是一个太宝贵的训练数据来源设备了——因为你要想想，当代的数据集到底是从哪儿来的？我确实觉得企业会受够。特别是大公司那一端，这个时候你会最不想做 McKinsey 或 Deloitte，"
+    },
+    {
+      "i": 85,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "23:09",
+      "en": "time in many ways because it seems that that's potentially where the direction that Anthropica might head is limiting access to its API for high-end, its high-end models because the Chinese is coming in to distill it by getting a whole bunch of subscriptions and kind of sucking the knowledge out of the model. The big guys do it to the Chinese as well, et cetera, the open models.",
+      "zh": "因为在很多方面，Anthropic 可能要走的方向就是限制高端模型的 API 访问——因为中国人正在通过订阅一大堆账号来做蒸馏，把模型里的知识吸出来。反过来，那些大玩家对中国开源模型也在做同样的事情。"
+    },
+    {
+      "i": 86,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "23:28",
+      "en": "And so the big guys at the end of town might start becoming more like a consulting firm, trying to solve these big problems for pharma or for defense or whatever it may be. And you have this stratification in the market where the commodity tokens come from the Chinese on open source and open models. But I do think enterprises are going to get really, really fed up having the data out there and having it trained on and having it in the cloud.",
+      "zh": "所以那些高端的大玩家可能会开始变得更像一家咨询公司，去为制药、国防或者其他行业解决这些大问题。市场会出现分层：大宗商品化的 token 会来自中国，来自开源、开放模型。但我确实觉得，企业会真的、真的受够——数据摆在那儿、被拿去训练、被放在云上。"
+    },
+    {
+      "i": 87,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "23:48",
+      "en": "So if that's the issue and more people are going to get more concerned about it, I could see it being resolved in either of two ways. Either everybody does what you're already doing. So there's this huge new industry of hardware that allows everybody to run their own AI in a ring-fenced environment off the internet. Or the market responds to need, and somebody comes along and says, look, we're going to be the leader in actually",
+      "zh": "所以如果这就是问题所在，而且会有越来越多的人担心这件事，我能想到有两种解决路径。要么每个人都做你已经在做的事——那就是一个巨大的新硬件产业，让每个人都能在一个围栏起来的、脱离互联网的环境里跑自己的 AI。要么市场回应这种需求，某个人站出来说：看，我们要做真正"
+    },
+    {
+      "i": 88,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "24:13",
+      "en": "respect to your privacy AI, and it costs more. And guess what? It is somehow delivering some technologically assured guarantee that you can really believe in that it's not, basically, you're not the product. It's actually doing what it's supposed to do for you, and it's not stealing your stuff. You could do that with trusted public SaaS services if there were trustworthy people selling them. That might be a harder problem to solve. What do",
+      "zh": "尊重你隐私的 AI 的领导者——价格更贵，但你猜怎么着？它会通过某种技术上有保障的方式，让你真的相信：你不是产品，它是真的在替你做事，而不是在偷你的东西。如果卖 SaaS 的人是可信任的，你也可以用可信的公共 SaaS 服务来做这件事。不过这个问题可能更难解决。你怎么"
+    },
+    {
+      "i": 89,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "24:40",
+      "en": "you think? Well, I think you've got to step back and look at a little bit at the economics of the space and how it's playing out at the moment. One thing that's become very clear in my mind is that the amount of tokens that are on a per-person basis or per enterprise basis that are going to be consumed are going to go through the absolute roof. If just by myself and somewhat naively, I can burn four billion tokens in a day, and that's only really after",
+      "zh": "看？嗯，我觉得你得退一步，看看这个领域的经济学以及眼下它是如何演化的。有一件事在我脑子里已经非常清楚：人均、企业均的 token 消耗量将会冲破绝对天花板。如果光是我自己、还算比较 naive 的用法，一天就能烧掉 40 亿 token——而那还只是"
+    },
+    {
+      "i": 90,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "25:06",
+      "en": "a month or so of sitting down and getting a bit of an egentic framework up and running, the token usage is going to go through the roof. Now, it's going to go through the roof, but I'm not going to pay the prices that what the frontier models want to charge.",
+      "zh": "花了我大概一个月坐下来把一个 agentic 框架搭起来跑通而已——token 用量一定会冲破天花板。它会冲破天花板，但我不会按前沿模型想收的价格去付钱。"
+    },
+    {
+      "i": 91,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "25:20",
+      "en": "So while token usage is going through the roof, and you've got this big build out and data center capacity, I will note that this is all fueled by debt now. So if you kind of look at Ed Zittron, I think I've talked about him before, he writes a negative blog on the whole AI space.",
+      "zh": "所以，一边是 token 用量冲破天花板、数据中心产能大规模扩建，另一边我要指出的是，这些现在全都是靠债务驱动的。如果你去看 Ed Zittron——我想我之前提过他——他写一个对整个 AI 领域持负面观点的博客。"
+    },
+    {
+      "i": 92,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "25:36",
+      "en": "He says, data center, specialist vehicles are this bubble's CDOs, collateralized debt obligations, and AI data centers are at subprime mortgages is kind of how he looks at it. And he says, what's happening is these hyperscalers are loading all the risk to build a data center through this specialist vehicles, which own the chips and the debt and the risk, etc., and takes off the balance sheet. So Meta, for example, has 46 billion of exposure to Hyperion and its",
+      "zh": "他说，数据中心 SPV（special purpose vehicle，特殊目的载体）就是这轮泡沫里的 CDO（担保债务凭证），而 AI 数据中心就相当于当年的次级房贷——他大概就是这么看的。他说，正在发生的是这些 hyperscaler 把建数据中心的所有风险都塞进这些 SPV 里，SPV 持有芯片、债务和风险等等，把这些从资产负债表上剥出去。比如 Meta 在 Hyperion 上有 460 亿美元的敞口，"
+    },
+    {
+      "i": 93,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "26:03",
+      "en": "filings, but the balance sheet shows none of it. So there's these huge debt fueled explosion in data centers and data center build out, where in the last five years alone, the hyperscalers have loaded on 1.65 billion of debt, 500 billion from data centers and 200 billion from private credit. And that's before all the off balance sheet stuff. And you think about the scale of 1.65 trillion in debt in five years, subprime peaked at 1.3 trillion in 2007. And that",
+      "zh": "在它的申报文件里写着，但资产负债表上却一点都看不到。所以就有了这场由债务驱动的数据中心和数据中心建设的巨大爆炸——光是过去五年，这些 hyperscaler 就加了 1.65 万亿美元的债，其中 5000 亿来自数据中心、2000 亿来自私募信贷，还没算所有表外的东西。想想看，五年内 1.65 万亿美元的债务规模，2007 年次贷峰值也才 1.3 万亿美元，"
+    },
+    {
+      "i": 94,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "26:32",
+      "en": "was had 55 million mortgages behind it. Well, this AI explosion has two customers, OpenAI and Anthropic. I mean, that's literally true. OpenAI and Anthropic are 73% of Amazon's AI revenue and 74% of Microsoft's and over half of Google Cloud by 2027. So it's kind of interesting dynamics in that you've got this big data center boom, OpenAI and the hyperscalers are effectively financing it in very financially engineered ways. You've got the Chinese coming",
+      "zh": "而次贷背后是 5500 万笔房贷。可这场 AI 爆炸只有两个客户——OpenAI 和 Anthropic。这话说得一点不夸张：到 2027 年，OpenAI 和 Anthropic 占 Amazon AI 收入的 73%、占 Microsoft 的 74%，还占 Google Cloud 的一半以上。所以这里的动态很有意思：一边是这场大数据中心繁荣，OpenAI 和 hyperscaler 在用非常金融工程化的方式给它融资；另一边是中国人"
+    },
+    {
+      "i": 95,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "26:59",
+      "en": "in, undercutting them with models that are, you know, deep seekers kind of opus class and GLM53 is almost fable class. And the tokens usage may go up dramatically, but it's not going to be at the pricing that and OpenAI want to charge. And so it's interesting to see where this goes.",
+      "zh": "杀进来，用低价打压他们——DeepSeek 大概算是 Opus 级、GLM 5.3 差不多算 Fable 级。Token 用量也许会大幅上升，但不会按 OpenAI 想收的价格来。所以后面走势会很有意思。"
+    },
+    {
+      "i": 96,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "27:24",
+      "en": "I think you talked about this before, we're on still on the teaser rate for token pricing. And I think that adjustable rate token pricing might run out when the lenders start doing adjustable rates on the lending. And I think what's interesting is if you kind of watch what Jensen's doing, four of his customers now are producing their own chips. So I think OpenAI just announced the jalapeno chip, which is supposed to be twice as efficient in terms of what's per inference,",
+      "zh": "我想你之前也提过，我们现在的 token 定价还处在\"teaser rate（引导利率）\"阶段。我觉得当放贷方开始把贷款利率变成浮动利率时，这个\"浮动利率式\"的 token 定价可能就要撑不住了。有意思的是，如果你看 Jensen 在做什么——他现在有四个客户在自己造芯片。我记得 OpenAI 刚刚发布了 Jalapeño 芯片，据说单次推理的效率要高一倍，"
+    },
+    {
+      "i": 97,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "27:48",
+      "en": "and that's a chip designed for inference rather than training. Four of the biggest customers are building their own chips and the rental market looks like a debt bomb. He's now starting to sell the box to the end user and let all the SBVs fight over the leases. So he's got the DGX Spark, which I can buy. It was $4,000, it's now I think about $5,000 a box. You've got a prosumer model, which is the DGX station, which is about $100,000, which kind of steps it up,",
+      "zh": "那是一款为推理（而不是训练）设计的芯片。四个最大的客户都在自己造芯片，而租赁市场看起来就像一颗债务炸弹。Jensen 现在开始直接把盒子卖给终端用户，让所有 SPV 去为租约互相厮杀。所以他有了 DGX Spark——我可以买——原来是 4000 美元，现在我记得大概 5000 美元一台。你还有一款专业消费者级（prosumer）型号，叫 DGX Station，大概 10 万美元，进一步升级，"
+    },
+    {
+      "i": 98,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "28:17",
+      "en": "that's about $748 gigabytes of memory. And I'm sure he's going to count more products directly to the enterprise. If you think about my $12,000 tokens per second usage of my $4 billion a day for agent sales kind of deploying it, you can buy the generation one, this of the H100s, which are the hopper series, eight GPUs in a box, which does about five to 10,000 tokens a second, which is kind of what they would deploy in the first gen of these data centers,",
+      "zh": "大概是 748 GB 内存。我相信他还会向企业直接推更多产品。想想我一天 40 亿 token、每秒 12000 token 的 agent 使用量要部署起来的话，你可以买第一代 H100——也就是 Hopper 系列——一箱 8 张 GPU，大概每秒 5000 到 10000 token，也就是他们第一代数据中心里部署的东西，"
+    },
+    {
+      "i": 99,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "28:43",
+      "en": "and they cost about $150,000 to $200,000. If you buy them secondhand and the new Blackwell, the newer Blackwell B200s, they're three to four times faster, do about 20 to 40,000 tokens a second. They're about half a million bucks each. So if you immortalize those boxes, there's somewhere between $400 to $600 a day to get your own eight-way hopper box or $700 to $900 a day to kind of get your own B200s. So I think there's going to be, you know, Nvidia seems to be kind of",
+      "zh": "二手买的话大概 15 万到 20 万美元一台。而新的 Blackwell，也就是更新的 B200，速度快三到四倍，能做到每秒 2 万到 4 万 token，一台大概 50 万美元。如果你把这些盒子摊销开来，自己弄一台八路 Hopper 大概每天 400 到 600 美元，自己弄 B200 大概每天 700 到 900 美元。所以我觉得——你知道，Nvidia 似乎在"
+    },
+    {
+      "i": 100,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "29:09",
+      "en": "sidestepping this kind of, I think, growing catastrophe between OpenAR and Thoropik and both of them are trying to get out on the public market as fast as they can, and go directly to the consumer, directly to enterprise, directly to pro-sumer, and make a big move into the open models, because I think the open models are going to win here. I think it's quite clear that they're kind of, at least they're going to win the bulk of the market. They're going to win the bulk of the",
+      "zh": "绕过 OpenAI 和 Anthropic 之间这场我认为正在扩大的灾难——他们两家都在拼命想尽快上公开市场——直接卖给消费者、直接卖给企业、直接卖给专业消费者，并且大举进军开放模型，因为我觉得开放模型会赢。我觉得这一点已经很清楚：至少开放模型会赢得市场的主体部分，会赢得"
+    },
+    {
+      "i": 101,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "29:31",
+      "en": "token market. That's why I think Jensen bought Hugging Face just recently, which was a $12.9 billion acquisition. And Hugging Face is started by some French guys, and it's basically the place for all the models, open models are hosted. So if you, when a new version of DeepSick comes out, you get a Hugging Face and you download it, and then all the enthusiasts there will upload various derivatives. They will quantize it, which means they will downscale it so it can fit on smaller",
+      "zh": "token 市场的主体。所以我觉得这就是为什么 Jensen 前不久买下 Hugging Face，那是一笔 129 亿美元的收购。Hugging Face 是几个法国人创办的，基本上就是所有开放模型的托管地。所以当 DeepSeek 出新版本时，你去 Hugging Face 下载，然后所有发烧友会上传各种衍生版本。他们会做量化（quantize），也就是把它压缩到能装进更小的"
+    },
+    {
+      "i": 102,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "30:02",
+      "en": "hardware. They will obliterate it, so they'll tune it to remove the censoring. They will make various trade-offs and engineering decisions around getting it efficiently working on two DGXs, four DGXs. And I've even seen now some enthusiasts looking at mixing the hardware up and using the Mac, the new Macs that are coming out, the studios and so forth, and mixing them with DGXs to try and get certain engineering trade-offs. So NVIDIA seems to be, I think, going,",
+      "zh": "硬件上；他们会\"obliterate\"它，也就是把审查微调掉；他们会做各种权衡和工程决策，让它在两台 DGX、四台 DGX 上高效运行。我甚至看到有发烧友开始混搭硬件——把即将推出的新 Mac、Mac Studio 等等和 DGX 混在一起，去做某些工程上的权衡。所以我觉得 Nvidia 现在似乎在说："
+    },
+    {
+      "i": 103,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "30:31",
+      "en": "okay, there's a bit of a catastrophe in the data center market. That's where they make most their revenue at the moment from all the stuff they sell from their Melanox acquisition. And I think they're kind of now going, okay, there might be a catastrophe there. Token usage is going to go through the roof. The open models seem to be winning, which is kind of the Chinese models, which is the Chinese strategy, open source, everything. Let's start selling the hardware",
+      "zh": "好，数据中心市场有点要出大事了。目前他们大部分收入就是从这里来的，包括他们从 Mellanox 收购里卖的所有东西。我觉得他们现在的心态是：好，那边可能会有一场灾难。Token 用量要冲破天花板。开放模型看起来在赢——也就是中国模型，也就是中国的策略：一切开源。那我们就开始直接卖"
+    },
+    {
+      "i": 104,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "30:51",
+      "en": "directly. And the hardware they're selling directly as well, you got to remember that NVIDIA, in a way, is a bit like a software company in that they take the high bandwidth memory that's produced by three companies, SK Hynex, Micron and Samsung, and they kind of package it up around a GPU and they mark it up with a 70% margin. They sell it to the market. So they're still dependent on the high bandwidth memory, which is a memory architecture that's very important in the data",
+      "zh": "硬件。而且他们直接卖的硬件这块，你得记住，Nvidia 在某种意义上有点像一家软件公司：他们把三家公司——SK Hynix、Micron 和 Samsung——生产的高带宽内存（HBM）拿过来，围绕 GPU 打包起来，加上 70% 的毛利卖给市场。所以他们仍然依赖高带宽内存，而这种内存架构在数据"
+    },
+    {
+      "i": 105,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "31:17",
+      "en": "centers to run at scale. And so with this direct hardware that they're producing for you and I to try and, you know, not my AI, not my data, avoid that sort of model and also to have some sort of hedging against what might be potentially highly escalating token costs as these subsidized programs come off as the lenders start getting a bit shaky about this sort of data center depth. The models are good enough. It's expensive, but cheap enough. And I think you're going to see an explosion of",
+      "zh": "中心里大规模运行时非常关键。所以有了他们直接为你我生产的这种硬件——为了\"not my AI, not my data\"、避免那种模型，也为了对可能大幅上涨的 token 成本做某种对冲——因为这些补贴项目一旦下线、放贷方开始对这种数据中心债务变得 shaky，token 成本就可能飙升。这些模型已经足够好，虽然贵，但也够便宜。我觉得你会看到"
+    },
+    {
+      "i": 106,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "31:44",
+      "en": "this stuff coming up to the edge and NVIDIA is going to go direct. That's what they seem to be doing. And that's why they bought a hugging face. And that's why they're producing these boxes. So if anthropic and open AI, particularly open AI has a blows up with all the circular arrangements and so forth, NVIDIA is still out there in the market selling direct. Matt, I want to put some perspective around how quickly this agentic AI revolution that you're describing here could",
+      "zh": "这一波东西大规模涌向边缘侧，Nvidia 要走直销路线——他们看起来就是这么做的。所以他们才买下 Hugging Face，所以他们才在生产这些盒子。这样即便 Anthropic 和 OpenAI——尤其是 OpenAI——因为这些循环式安排等等爆雷，Nvidia 仍然在市场上直销。Matt，我想给这里描述的这个 agentic AI 革命到底能多快"
+    },
+    {
+      "i": 107,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "32:13",
+      "en": "actually happen. And I want to share a story with you and our listeners, which I really think is instructive and I'd like to comment on it. When you and I agreed to do this interview, it was a little over a month ago, you gave me a little bit of context on the phone about what we would talk about today when we booked it. And at the time I was at my summer home and I was thinking of myself after that conversation, you know, Matt's vision, I'm totally bought in. But Matt's basically",
+      "zh": "真正落地加一点视角。我想跟你还有我们的听众分享一个故事，我真的觉得很有启发，也想请你评论一下。你和我敲定要做这次访谈是一个多月前，我们在电话里预订的时候，你给了我一点今天要聊什么的背景。当时我在我的夏日度假屋，通完电话之后我心里想：Matt 的愿景，我完全 buy in。可 Matt 基本上"
+    },
+    {
+      "i": 108,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "32:38",
+      "en": "a genius. He's on the leading edge of this stuff. The people who are consultants who know how to do the kind of stuff that Matt's talking about are super expensive, smaller businesses can't afford them. It's going to be a long time before humans and businesses are really ready to embrace things on the level that Matt's embracing them. So this is probably farther off than Matt thinks.",
+      "zh": "是个天才，他在这类东西的最前沿。那些知道怎么做 Matt 讲的这些事的咨询顾问贵得离谱，小公司根本请不起。要让人和企业真的准备好像 Matt 那样拥抱这些东西，还有很长的路要走。所以这大概比 Matt 想的还要远。"
+    },
+    {
+      "i": 109,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "32:59",
+      "en": "I swear I'm not making this up and I'm not exaggerating. I'm having that exact conversation with myself late morning one day. I decided it's time for lunch. I go hop on the elevator to go downstairs to go grab a sandwich. I run into the maintenance guy in my building. His name is Pete, super nice guy. Pete's the guy who fixes the plumbing and changes the lights when the light bulb burns out and that stuff. Blue collar guy, super nice, known him for a few years.",
+      "zh": "我发誓我不是编的、也不是夸张。有一天上午晚些时候，我正在心里对自己说这段话。我琢磨着该吃午饭了，就跳上电梯下楼去买个三明治。结果在电梯里碰到我们大楼的维修工 Pete，人特别好。Pete 就是那个修水管、灯泡坏了换灯泡的人。蓝领，人非常好，我认识他有几年了。"
+    },
+    {
+      "i": 110,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "33:25",
+      "en": "Usually when I talked to him, my conversation was about his Jeep. He really liked his Jeep. But I noticed he sold his Jeep and he seemed to have a new truck. So I thought, Pete, what's you up to? How's your week? A winter ago, he says, boy, you know, I'll tell you, I am absolutely loving Claude Code. All these years I've been using the internet, I thought it was just websites.",
+      "zh": "通常我跟他聊天都是聊他的 Jeep，他非常喜欢他的 Jeep。但我注意到他把 Jeep 卖了，好像换了辆新皮卡。所以我就问：\"Pete，最近忙什么？这周怎么样？\"他跟我说：\"老兄，你知道吗，我告诉你，我完全爱上 Claude Code 了。这么多年我用互联网，我一直以为它就是些网站。\""
+    },
+    {
+      "i": 111,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "33:43",
+      "en": "I didn't know about APIs. I didn't know you could write your own code to actually script APIs on different servers to do different things and develop your own dashboards. It's really cool.",
+      "zh": "\"我以前不知道有 API，也不知道你可以自己写代码去调用不同服务器上的 API 来做各种事，还能开发自己的仪表盘。真的太酷了。\""
+    },
+    {
+      "i": 112,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "33:53",
+      "en": "I'm really enjoying it. It's this guy's hobby. He's a maintenance guy and he figured it all out because someone who is an above average, smarter than the average blue collar handyman who's curious about how things work and willing to spend a little bit of time investigating and self teaching with no help is able to figure out how to write AI agents that talk to APIs.",
+      "zh": "\"我玩得很开心。\"这就是这个人的爱好。他是个维修工，全靠自己琢磨出来——一个比一般蓝领维修工更聪明一点、对事物运作方式好奇、愿意花点时间自己研究、没人教也自学的人，就能琢磨出怎么写跟 API 对话的 AI agent。"
+    },
+    {
+      "i": 113,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "34:19",
+      "en": "Whoa, that says to me that this whole thing can happen way faster with far less specialized human skill than I ever imagined. The AI writes the code now, right? So we went from machine code to a higher level language, assembly language to compiled languages like C to interpreted languages.",
+      "zh": "哇，这告诉我：整件事发生的速度可能远比我想象的更快，所需要的专业人类技能也远比我想象的更少。现在是 AI 在写代码，对吧？所以我们从机器码走到更高级的语言，从汇编语言走到 C 这样的编译型语言，再走到解释型语言。"
+    },
+    {
+      "i": 114,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "34:42",
+      "en": "And now we've basically moved to English. I don't write code anymore. I use my phone and in the chat, the agentic chat harness, you know, I use Py remote, but you can use, I literally just write English.",
+      "zh": "而现在我们基本上已经切换到英语了。我不再自己写代码。我用手机，在聊天里、在 agentic 聊天 harness 里——你知道，我用 Py remote，但你也可以用别的——我字面意义上就是写英语。"
+    },
+    {
+      "i": 115,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "34:56",
+      "en": "And so someone like the maintenance man can literally say, I want to create a dashboard. I want it to show the following things, put it together and the AI might say, okay, I need an API to this and API to that. And really what you do is you log into these sites, you get the key, which is like a password, you know, which is the API, you know, to access the API, you provide it to the AI and all of a sudden the dashboard's made. And you really see a progression of this sort of",
+      "zh": "所以像那个维修工这样的人，真的可以直接说：\"我想做一个仪表盘，我想让它显示下面这些东西，你把它拼出来。\"AI 可能会说：\"好，我需要访问这个的 API、访问那个的 API。\"你要做的就是登录这些网站，拿到 key（就像密码一样，用来访问 API 的），把它交给 AI，突然之间仪表盘就做好了。你真的能看到这种"
+    },
+    {
+      "i": 116,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "35:18",
+      "en": "agentic work when I see people get red-pilled in my company that they start off, they start making a dashboard so they can make the job more efficient. So for example, my ops team in load shift has it, which is, you know, maybe have a hell of a trait. They have a dashboard that says, okay, you got to call this guy in the next two minutes. You know, this is a particular custom that's blowing up at the moment. Here's your next activity to do, et cetera. Here's here,",
+      "zh": "agentic 工作的进阶——我看到公司里的人被\"red-pill\"之后，一开始是做一个仪表盘让工作更高效。比如我在 Loadshift 的运营团队就有——那可能是一份苦差事——他们有一个仪表盘说：\"好，你得在未来两分钟内给这个人打电话。你知道，这是一个正在爆单的特定客户。你的下一个动作是什么什么，等等。\"\""
+    },
+    {
+      "i": 117,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "35:39",
+      "en": "tracking towards your commissions, your hurdles, your accelerator, a few commissions and so on. So everything they need is in that dashboard. And in fact, the team leader wrote it, is they can give feedback to the dashboard to improve it. So it has a little chat, little box in the side, they can just type in a bit of feedback and bang the dashboard update itself. So you can make dashboards very easy, you can make reports very easy. So as I mentioned",
+      "zh": "\"还有你离佣金、门槛、佣金加速器还差多少等等。\"所以他们需要的一切都在这个仪表盘里。而且事实上，团队 leader 写这个仪表盘的时候，还让他们可以给仪表盘反馈来改进它。旁边有一个小的聊天框，他们直接输入一点反馈，砰，仪表盘自己就更新了。所以做仪表盘很容易，做报告也很容易。就像我"
+    },
+    {
+      "i": 118,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "36:00",
+      "en": "before, every morning, I have a report around my ads program and what I should do and what knobs and dials I should process. But then you move to the next level, which is queue processing. So, you know, that report says here's an extra few action items to take ticking through those action items, you can get our to do that. Many businesses have queues already, you know, they might have a support ticket queue, or a support chat queue, or what have you, you know, AI now does 100% of our",
+      "zh": "之前提到的，每天早上我都会收到一份关于我的广告计划的报告，告诉我该做什么、该调哪些旋钮和参数。但接着你会走向下一个层级，也就是队列处理。那份报告会说：这几个额外的 action item 你去勾一勾，你可以让 AI 去做。很多企业本来就有队列——支持工单队列、支持聊天队列等等——你知道，现在 AI 已经处理我们"
+    },
+    {
+      "i": 119,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "36:22",
+      "en": "tier one interactions with customers. And the advantage there is that you get instant response 24 by seven any language you like, the answers are four times longer, four times better and 10 times more empathetic, at a level of empathy that is no support person, the world could sustain over a 24 hour period. And yes, a lot of stuff gets escalated to humans. And then the human comes in and has to do what have you. But increasingly, that's going to be less likely case.",
+      "zh": "100% 的一线客户交互。好处是：即时响应、24 小时、任何语言都可以；答案长度是原来的 4 倍、质量是原来的 4 倍、共情是原来的 10 倍——那种共情程度是世界上任何客服人员都无法在 24 小时里持续保持的。是的，很多东西还是会被升级给人类，然后人类进来要做这做那。但这种情形会越来越少。"
+    },
+    {
+      "i": 120,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "36:48",
+      "en": "And, you know, ultimately, I think there's going to be a massive transformation. I mean, if you think about jobs in big companies, right, I mean, we've talked about before, how anywhere there's a large number of people doing the same thing over and over and over again, you know, you might have your 100 lawyers, junior lawyers doing drafting a law firm in the future, you might not need 100, you might need 13, you know, 10,000 people on the call center,",
+      "zh": "你知道，最终我觉得会有一场大规模转型。想想大公司里的岗位——我们之前也聊过——凡是有大量人反复做同一件事的地方：一家律所未来可能不需要 100 个初级律师做起草，可能只要 13 个；呼叫中心 1 万人，"
+    },
+    {
+      "i": 121,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "37:10",
+      "en": "you might need 100 or 200, what have you. I mean, this is this is now taking that to the next level because the AI now is getting quite reliable for what's called a genetic use, which means that they can have long loops and get to quite complicated things over a period of time and so forth without drifting. Admittedly, some of the Chinese models do have a bit of a struggle sometimes with things like tool use and so on deep six and sometimes it's going to a little bit of a loop,",
+      "zh": "可能只要 100 到 200 人。也就是说，现在这件事正在被推向下一个层级，因为 AI 在所谓的 agentic 使用上已经变得相当可靠——它可以跑长循环、在一段时间里处理相当复杂的事情而不跑偏。诚然，一些中国模型在 tool use 之类的东西上有时会有点吃力，DeepSeek 有时候会陷进一个小循环，"
+    },
+    {
+      "i": 122,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "37:37",
+      "en": "but that's more of an engineering problem around the harness. I mean, that's why you kind of pale a bit more for the anthropic models because they do have an advantage in the sort of genetic work for now, but that's being eroded quite rapidly. But what it basically means is, I mean, what business wouldn't want to have something that logs into all your databases or your web traffic or have you look through your customer interactions and just tells you what's going on in your business",
+      "zh": "但那更多是 harness 层的工程问题。所以你会更愿意为 Anthropic 的模型多掏点钱，因为眼下他们在 agentic 工作上确实有优势，不过这个优势正在被非常快地侵蚀。这基本上意味着——哪个企业会不想有一个东西，能登录你所有的数据库、你的网站流量，或者翻看你所有的客户交互，然后每天告诉你你的业务在发生什么、"
+    },
+    {
+      "i": 123,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "37:56",
+      "en": "every day and tells you where the opportunities are and tells you where the weaknesses are and tells all the humans what they should be doing next in the most optimal order that they do the next thing and free you up from a lot of this work to focus on the creative, the really high value-adding, etc. work. And frankly, no human can compete anymore with some of these tasks.",
+      "zh": "机会在哪里、弱点在哪里，并以最优的顺序告诉所有人下一步该做什么，把你从大量这类工作里解放出来，让你去专注创造性、真正高附加值的工作？坦白讲，很多这类任务，人类已经竞争不过了。"
+    },
+    {
+      "i": 124,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "38:18",
+      "en": "Like the ability to issue a report from an AI agent, it's far superior to any human. It's superhuman already because no human would ever get up in the morning at 4, 5, 6 a.m. review what needed to be reviewed in the time period to issue the report and do it so with a level of consistency day in, day out, every single day of the year, it's impossible to do that.",
+      "zh": "比如让一个 AI agent 出报告的能力，已经远远超过任何人类。它已经是超人级别了——因为没有人会每天早上 4 点、5 点、6 点起床，把这段时间需要复盘的东西都过一遍再出报告，还能一年 365 天、天天如此、保持一致，这根本不可能。"
+    },
+    {
+      "i": 125,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "38:40",
+      "en": "So I think there's going to be tremendous dislocation in the corporate world. I mean, I wouldn't want to be a long commercial real estate at the moment. It's not because the work from mine is because the AI is going to chew through a lot of these jobs and it's going to chew through a lot of the, you know, every business if you're a banker, one of our big banks in Australia has got 50,000 employees and 700 branches and you kind of think to yourself,",
+      "zh": "所以我觉得企业世界会出现巨大的错位。我可不想现在做多商业地产——不是因为居家办公，而是因为 AI 会嚼掉大量这类岗位，会嚼掉大量——你知道，每个行业都是这样。如果你是银行，我们澳大利亚一家大银行有 5 万名员工、700 家分行，你会想："
+    },
+    {
+      "i": 126,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "39:00",
+      "en": "what are those people doing? You don't need to do 50,000 people that run 700 branches. You know, what are the workflows inside a bank? You've got to approve mortgage applications.",
+      "zh": "这些人到底在做什么？你不需要 5 万人来运营 700 家分行。银行内部都有哪些工作流？你要审批房贷申请，"
+    },
+    {
+      "i": 127,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "39:08",
+      "en": "It's probably a queue of them. You've got to do your credit checks and AML checks. What else are you going to do? Put a few faces at the tellers to make people think you're still a friendly bank, but you could probably run that entire bank, not with 50,000 people. You could run it with certainly 10,000 people and certainly probably a lot less than that. So you're going to get a lot of dislocation now coming through. Where does it head? If it's thinking more about",
+      "zh": "这大概是一个队列。你要做信用检查、AML（反洗钱）检查。你还能做什么？在柜台上摆几张脸，让人们觉得你还是一家友好的银行——但整个银行你其实不需要 5 万人来运营，1 万人肯定够，甚至可能远远少于 1 万人。所以接下来会出现大量错位。它会走向哪里？如果更多地思考"
+    },
+    {
+      "i": 128,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "39:29",
+      "en": "the product design, the architecture and so forth, so they're moving up the stack. And perhaps a lot of the illustrators now are not really pushing pixels around the screen, they're thinking more like a creative director. Where do we end? I think we end in an explosion of entrepreneurship. I think we end in a hyper competitive, very entrepreneurial society and I kind of think to, you know, where's one of the most competitive markets in the world for",
+      "zh": "产品设计、架构等等，那么他们就是在往栈的上面走。也许很多插画师现在不再是在屏幕上推像素，而是更像创意总监那样思考。最终我们会走到哪里？我觉得我们会走到一场创业大爆炸。我觉得我们会走到一个超级竞争、非常有创业精神的社会。我会想：世界上这类事情最激烈的市场之一在哪里？"
+    },
+    {
+      "i": 129,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "39:52",
+      "en": "this sort of thing? You think about India. You go to India and there's a lot of people who are not in traditional employment who have to kind of fend for themselves and kind of what do you end up?",
+      "zh": "你会想到印度。你去印度，那儿有很多人并不在传统雇佣关系里，必须自己谋生。结果是什么？"
+    },
+    {
+      "i": 130,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "39:59",
+      "en": "Everyone's got a hustle. One guy's making food at a store, one guy's repairing motorcycle seats, one guy's doing a tour guide, et cetera. Maybe they're doing a few different things, et cetera.",
+      "zh": "每个人都有自己的 hustle（副业/谋生手段）。有人在店里做吃的，有人在修摩托车座，有人在做导游等等，可能一个人还同时做好几件事。"
+    },
+    {
+      "i": 131,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "40:07",
+      "en": "I think that's going to happen in the Western world. You're kind of seeing already the people having hustles doing, you know, UGC content or maybe they're buying poker online or, you know, they've got drop shipping business or selling courses or whatever it may be. And I just think playing with prediction markets, whatever it may be, vibe coding apps and so on. And I think that's kind of where we head is we stand up in this world where you're going to have, you know,",
+      "zh": "我觉得西方世界也会变成这样。你现在已经能看到有人在搞副业，做 UGC 内容，或者在网上打扑克，或者做 dropshipping、卖课程等等。我觉得还有玩预测市场、vibe coding 做 app 之类。我觉得这就是我们要走到的地方：我们站起来，进入这样一个世界，"
+    },
+    {
+      "i": 132,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "40:30",
+      "en": "just everybody's going to have a hustle, everybody's going to run a startup or a business, et cetera. We've had this point since human history where you've had technology get to a point where it's created such productivity breakthroughs that you have dislocations. So you've got the mechanization of agriculture, you know, that day that someone drives the tractor onto the farm and there's 1,000 people on the farm and you don't get 1,000 people anymore, you need 20. You've got the",
+      "zh": "每个人都会有自己的 hustle，每个人都会开一家创业公司或者一门生意等等。人类历史上一直有这样的时刻：技术发展到一个节点，创造出巨大的生产力突破，从而带来错位。比如农业机械化——那一天有人把拖拉机开进农场，原本农场有 1000 个人，从此你不再需要 1000 个人，你只需要 20 个。你还会有"
+    },
+    {
+      "i": 133,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "40:52",
+      "en": "mechanization of the factory. You've got the computerization of white collar jobs with the transistor and the computer and then the internet and mobile. And now you've got AI, which is really going to do it to white collar jobs. And, you know, there's going to be in the future, there'll be jobs thought of that we never might today be fanciful if we imagined it. I can imagine that 100 years ago, you tried to describe someone that produced memes or UGC content. I probably think",
+      "zh": "工厂的机械化，你还会有晶体管、计算机、然后互联网和移动化带来的白领岗位信息化。现在你有了 AI，它真的要冲着白领岗位来了。未来会有一些今天听起来天马行空的岗位。我可以想象，100 年前你要跟人描述一个专门做 meme 或者 UGC 内容的人，别人大概会觉得"
+    },
+    {
+      "i": 134,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "41:16",
+      "en": "this is a ridiculous job, but those jobs kind of exist today. But we are going to go through a tremendous dislocation now on white collar jobs. Let's go a little deeper on that white collar job dislocation in terms of how it plays out over time. Because if you talk about the long term, this seems really clear to me, people whining about losing their jobs. Look, AI is an incredible productivity tool. If you take the blue collar physical labor equivalent before the industrial",
+      "zh": "这是个荒唐的岗位，但这些岗位今天真的存在。不过我们现在真的会在白领岗位上经历一场巨大的错位。让我们再深入聊聊白领岗位错位随时间会怎么演化。因为如果你谈长期，这一点在我看来非常清楚——人们抱怨失去工作。听着，AI 是一个不可思议的生产力工具。拿工业革命前蓝领体力劳动的等价物来看，"
+    },
+    {
+      "i": 135,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "41:44",
+      "en": "revolution, it took hundreds of men with picks and shovels to clear an acre. Now one guy on a big caterpillar earth moving machine can do it in a half an hour because we have much more productivity thanks to automation. AI is the same thing for white collar, you know, it's much better that we have a world where the blue collar guy can drive a machine instead of having to break his back with a pickaxe. That's better. But wait a minute, if you were one of the thousand guys",
+      "zh": "开垦一英亩地需要几百个人拿着镐和铲子。现在一个人开着大型 Caterpillar 推土机半小时就能干完，因为自动化带来了大得多的生产力。AI 对白领来说是一样的道理。你知道，一个蓝领工人能开机器而不是靠镐头累断腰，这个世界当然更好。但等一下——如果你就是那 1000 个"
+    },
+    {
+      "i": 136,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "42:12",
+      "en": "that got let go on the day that that first tractor got delivered and not the one guy that got, you know, kept to drive it, you're not feeling good about that. Maybe your kids are going to love the fact that they're growing up in a new, better world, but it's going to suck for you for a while.",
+      "zh": "在第一台拖拉机交付那天被裁掉的人中的一个，而不是被留下来开它的那一个，你的感觉可不会好。也许你的孩子会喜欢自己成长在一个新的、更好的世界，但对你来说，一段时间里日子会很难熬。"
+    },
+    {
+      "i": 137,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "42:28",
+      "en": "Seems to me like AI is an incredible productivity tool for white collar, except for the people that kind of are hanging around when it shows up. What do we do about that?",
+      "zh": "在我看来，AI 是白领生产力上不可思议的工具，除了对那些恰好在它出现时还挂在岗位上的人。这个我们该怎么办？"
+    },
+    {
+      "i": 138,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "42:39",
+      "en": "Yeah, I think about for a slightly different perspective at the same time. Someone asked me, you know, what do you tell your kids? Should they go to uni? Like, what skills do you need to survive in this world? If you are laid off because you work at a banker insurance company and all of a sudden they don't need 50,000 staff, they need 5,000, you're laid off. Who's going to swim? Who's going to sink? What happens in that world? And I kind of, when I kind of see what's",
+      "zh": "是的，同一时间我也会从一个稍微不同的角度去想。有人问我：\"你会怎么跟你孩子说？他们该不该上大学？在这个世界里生存需要什么样的技能？\"如果你所在的银行或保险公司突然不再需要 5 万员工、只需要 5000 人，你被裁了——谁能浮起来、谁会沉下去？那个世界会发生什么？当我看到我公司里正在"
+    },
+    {
+      "i": 139,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "42:59",
+      "en": "happening in my company, people who survive in that world and do really well are people with initiative. You need to be flexible. You need to be dynamic. I think there's a whole bunch of people in my company who are completely red-pilled. You're seeing them watching what they're doing and they're writing agents to kind of automate because this whole technology explosion is essentially about automation. There's automation of the farm, automation of the factory, automation of",
+      "zh": "发生的事情时，我觉得能在那个世界里活下来并且做得很好的人，都是有主动性（initiative）的人。你要灵活，你要有活力。我公司里有一大批人已经彻底被 red-pill 了。你看他们在做什么，他们在写 agent 来做自动化，因为整场技术爆炸本质上就是自动化——农业的自动化、工厂的自动化、"
+    },
+    {
+      "i": 140,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "43:19",
+      "en": "knowledge jobs, etc. So they get excited and they kind of come with always different roles in automation. They have teams underneath them. One thing that's kind of interesting is I find now that where I've had a functional team before, for example, processing a queue where there might be a team leader and there might be, you know, five people underneath them. Moving forward, it'll be just the team leader and the AI. You don't need the five people underneath them. It would be the",
+      "zh": "知识型岗位等等。所以他们很兴奋，他们总会带着自动化的不同角色出现，手下带着团队。有一件有意思的事情是，我发现以前我有个职能团队，比如处理一个队列，可能有一个 team leader、下面带 5 个人。往后就会变成：只有 team leader 加 AI，你不再需要下面那 5 个人。就是"
+    },
+    {
+      "i": 141,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "43:41",
+      "en": "team leader controlling the AI and the AI will be the team effectively. And the team leaders, they're kind of coming up with new ideas and kind of directing it and so forth. So it's the people with initiative. It's the people who are very creative. It's the ideas people because the ability now for you to execute an idea is very, very simple. I mean, over the weekend, I've vibrated a whole app for my girlfriend for a birthday coming up around fitness. And it's just amazing",
+      "zh": "team leader 控制 AI，AI 实际上就是团队。Team leader 不停想出新点子，指挥 AI 去做。所以关键是有主动性的人、非常有创造力的人、有想法的人，因为现在你执行一个想法的能力已经变得非常非常简单。我这个周末就 vibe coding 出了整个一个 app，是给我女朋友的生日礼物，主题是健身。真的令人惊叹，"
+    },
+    {
+      "i": 142,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "44:04",
+      "en": "just how quickly you can put some of these things together. So if you just got the idea and you got the initiative, now the execution is there. In terms of productivity, the productivity gains are so high. You've got really, really good execution. I think you really have to be highly flexible. You've got to be highly adaptive. I think the people who really like a lot of structure in their job and like the nine to five and know what they do ahead of time that they will struggle.",
+      "zh": "你能多快就把这些东西拼起来。所以只要你有想法、有主动性，执行力现在就在那里。生产力方面，生产力的提升是如此之高，你会有非常非常好的执行力。我觉得你必须非常灵活，必须非常适应性强。我觉得那些特别喜欢工作里有很多结构、喜欢朝九晚五、提前知道自己要做什么的人，会很难受。"
+    },
+    {
+      "i": 143,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "44:30",
+      "en": "But the flip side is if you want to learn anything now, everything is out there on the internet. I mean, I've learned through AI how to use a whole range of desktop CNC machines, desktop printers, laser cutters. I've learned about the things that would just take me forever to I've done electrical engineering, but I was after I got a 3D printer, I printed out a robotic arm.",
+      "zh": "但另一面是，如果你现在想学任何东西，一切都在互联网上。我自己就通过 AI 学会怎么用一整套桌面 CNC 机床、桌面打印机、激光切割机。我学过一些本来要花我一辈子的东西——我做过电气工程，但拿到一台 3D 打印机之后，我打印出了一只机械臂。"
+    },
+    {
+      "i": 144,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "44:50",
+      "en": "There's Parallel 6, it's a quite sophisticated robotic arm. And I managed to, you know, with AI, I figured out how to get it all working, wipe all the electronics and get a robot arm working, which would have been an incredibly long project. Now I can do this. You could load it up and you could just say to yourself, I want to learn a particular topic, teach me maximally, you know, in bite size chunks, how to do that and test me and to maximally increase my knowledge",
+      "zh": "是 Parallel 6，一只相当复杂的机械臂。我居然靠 AI 搞明白了怎么让它全部跑起来、把所有电子部分搞定，让机械臂动起来——这本来会是一个漫长得不得了的项目。现在我可以做到这些。你可以加载它，然后直接对自己说：\"我想学某个特定主题，最大程度地教我，用小块的 chunks 教我怎么学，还要考我，最大程度地提升我在"
+    },
+    {
+      "i": 145,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "45:12",
+      "en": "of particular topic. And, you know, as a tutor, your ability to learn anything is unparalleled. So you really, ironically, as a human, what do you need to do? You need to learn agency. You need to have initiative and go out there and generate the ideas and because your ability to execute now is just so simple. Okay, if you have initiative and a really strong current frontier AI model and a subscription to it, and you're 19 years old, what is the reason to go to university other than the",
+      "zh": "特定主题上的知识。\"作为一个导师，它教你任何东西的能力都是无与伦比的。所以讽刺的是，作为一个人，你需要做什么？你需要学会 agency（自主能动性）。你要有主动性，走出去，产生想法，因为你现在执行的能力实在太简单了。好，如果你有主动性、有一个非常强的当前前沿 AI 模型和它的订阅，你 19 岁，除了"
+    },
+    {
+      "i": 146,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "45:44",
+      "en": "social and networking experience? Well, I mean, I've done quite a number of degrees, not all degrees are equal, I think, as we've found out. You know, some degrees like engineering, you go there to learn how to amylically think and how to trade. And, you know, you learn basically around, learn technology and this at the other. So if you do electrical engineering, you get very, very deep understanding of that. But there are other degrees like an MBA where I think anyone",
+      "zh": "社交和人脉经历之外，你还有什么理由去上大学？嗯，我读过好几个学位，我觉得我们发现并不是所有学位都等价。有些学位，比如工程，你去那儿是学怎么分析式地思考、怎么做权衡。你会围绕技术等等深入学习。所以如果你读电气工程，你会对它有非常非常深的理解。但还有些学位，比如 MBA，我觉得任何人"
+    },
+    {
+      "i": 147,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "46:09",
+      "en": "would tell you that half of that is the network you're forming and that network after university life can become quite valuable in terms of your sphere of influence. And also it's around the collegiate life and some people, you know, that particular age just need to be around people and want to live on campus and have that kind of lifestyle. I mean, I was a job professor for many, many years. I do think the university curriculum is very static and very rigid. It's",
+      "zh": "都会告诉你，其中一半就是你建立的人脉，而这个人脉在大学之后的生活里，对你的影响圈会非常有价值。还有就是大学生活本身——有些人在那个年纪就是需要跟人在一起，想住在校园里，过那种生活。我自己做过很多很多年的兼职教授。我确实觉得大学课程非常静态、非常僵化。它"
+    },
+    {
+      "i": 148,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "46:32",
+      "en": "always been for the, with the exception of places like Stanford, where sometimes the stuff you learn in the university hasn't made into the lab yet. And you're, you know, you're really at the cutting edge. And most universities are starting things happen 10, 20 years ago. And in many courses, the lecturer puts together the course 10 years ago. And then every year does a little update here or there. And the courses become quite stale quite quickly. I do think what it does do is it does",
+      "zh": "一直都是这样——除了像 Stanford 那样的地方，那里有时候你在大学里学的东西甚至还没进实验室，你就在真正的前沿。而大多数大学讲的都是 10 年、20 年前发生的事。很多课程是讲师 10 年前编好的，然后每年在这里那里做点小更新，课程很快就变得陈旧。我确实觉得大学能做到的是通过严谨和纪律——"
+    },
+    {
+      "i": 149,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "46:53",
+      "en": "through rigor and through discipline, I think it would be kind of hard in a way for someone to sit down and actually go, okay, I've got to learn signals and systems. I've got to learn electrodynamics and all these really boring and very, very difficult topics. And I'm just going to do self-directed on my phone without the peer group pressure of my university lecturer and my class and the fact that I'm doing a degree. So I think there's some element there that won't stick. But",
+      "zh": "对一个人来说，很难自己坐下来想：\"好，我要学信号与系统，我要学电动力学，还要学所有这些非常枯燥、非常非常难的主题，我就靠自己在手机上自学，没有大学讲师和同学带来的同辈压力，也没有'我在读一个学位'这件事。\"所以我觉得其中有些部分是坚持不下来的。但"
+    },
+    {
+      "i": 150,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "47:13",
+      "en": "I think for people who have got to a certain level of foundation, particular people have come out of university who have got a degree who can have got some level of foundational knowledge, it is very good to postgraduate education and continue education and professional education and so forth.",
+      "zh": "我觉得对于那些已经打到一定基础的人——特别是那些大学毕业、拿到学位、有了一定基础知识的人——研究生教育、继续教育、职业教育等等是非常好的。"
+    },
+    {
+      "i": 151,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "47:27",
+      "en": "So I don't know. I think the nature of education has to change some somewhat. At the very least, they've got to probably move to oral exams away from homework in many ways. But if you've got a passion to learn something, it's all out there. It's all free. So the most important thing you need to develop is as a human, is agency. I want to move on now to some of the big things that are happening right now in the AI industry. You've talked a lot in the past about this idea of",
+      "zh": "所以我不知道。我觉得教育的本质必须有所改变。至少在很多方面，他们大概得从作业转向口试。但如果你有学习某样东西的热情，一切都在那儿，全都是免费的。所以作为一个人，你需要培养的最重要的东西就是 agency。我现在想转到当下 AI 行业正在发生的一些大事。你以前多次谈过"
+    },
+    {
+      "i": 152,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "47:54",
+      "en": "switching costs being almost zero. When I first started talking to you about AI, you were just every day in and out, you were Mr. OpenAI and ChatGPT. I think last time I chatted with you, you hadn't used ChatGPT in months and you're Mr. Anthropic. Now the big thing, at least if you believe the marketing, according to OpenAI, is, okay, here it is. We're going to make the next thing. Everybody's going to come running back to us because Astra, their new model, they say,",
+      "zh": "切换成本几乎为零这个想法。我最开始跟你聊 AI 的时候，你天天在 OpenAI 和 ChatGPT 里进进出出，你就是\"OpenAI 和 ChatGPT 先生\"。我记得上次跟你聊时，你已经几个月没用 ChatGPT 了，你变成了\"Anthropic 先生\"。现在的大事——至少如果你相信 OpenAI 自己的营销——是：\"好，就是它了。我们要做出下一个大事件，所有人都会跑回来找我们，因为他们的新模型 Astra，他们说，"
+    },
+    {
+      "i": 153,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "48:23",
+      "en": "is going to be remembered as the model that achieved artificial general intelligence. So first, let's define what is artificial general intelligence? How's that different? What's that milestone? Does this new thing from OpenAI called Astra really actually deliver that or is that just marketing? And are we about to see a big wave of switching back from Anthropic to OpenAI because of this new model? Well, there's a lot of marketing obviously going on there.",
+      "zh": "将会被记住为实现了 artificial general intelligence（通用人工智能）的模型。\"所以第一，我们先把 artificial general intelligence 定义一下——它到底怎么不一样？这个里程碑是什么？OpenAI 这个叫 Astra 的新东西真的做到了吗，还是只是营销？我们会不会因为这个新模型看到一大波从 Anthropic 切回 OpenAI 的浪潮？嗯，那里显然有大量营销。"
+    },
+    {
+      "i": 154,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "48:47",
+      "en": "Quite a lot. I was setting you up. Yeah. Well, look, I think one interesting thing about the competitive dynamics of AI is that every historical moat that you would talk about in business models is dead in AI. Sometimes venture capitalists talk about, well, what's your intellectual property?",
+      "zh": "相当多。我在给你下套。是的。嗯，你看，我觉得 AI 的竞争动态里有一件有意思的事，就是你在商业模式里能谈的所有历史意义上的护城河，在 AI 里都死了。有时候风险投资人会问：\"那你的知识产权是什么？\""
+    },
+    {
+      "i": 155,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "49:05",
+      "en": "Well, it turns out that basically the science around AI is just published in 40 technical papers is the most of it and it's all out there and a lot of the models are open, et cetera and so forth. So while there might be a little bit of edge in some intellectual property that Anthropic has in OpenAI to a little bit of an extent, essentially it's all out there and that's why these labs just come out of nowhere like DeepSeek and all of a sudden they're state-of-the-art.",
+      "zh": "结果是，围绕 AI 的科学基本上就发表在 40 篇技术论文里，大部分内容都在那儿，而且很多模型都是开放的等等。所以虽然 Anthropic 和 OpenAI 在某种程度上可能在知识产权上有一点点优势，本质上东西都在那儿。这就是为什么像 DeepSeek 这样的实验室凭空冒出来，一夜之间就 state-of-the-art（最先进）。"
+    },
+    {
+      "i": 156,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "49:27",
+      "en": "And then next month, there's Z.AI. It came out of nowhere and suddenly state-of-the-art and next month, there's another one. I think this keeps, you've got this kind of round robin where it kind of bounces through all the different AI labs as they kind of rush out a model that kind of is tuned for certain benchmarks and so forth. There's certainly no customer lock-in. I mean, to switch between models is simple in a coding harness like Pi. It's just simple,",
+      "zh": "然后下一个月，Z.AI 冒出来，凭空出现，突然 state-of-the-art；再下个月，又有一家。我觉得这就形成了一个循环赛，在各家 AI 实验室之间来回弹跳，他们都急着推出一个针对某些 benchmark 调优过的模型之类。绝对没有客户锁定。我的意思是，在像 Pi 这样的 coding harness 里切换模型太简单了，就是"
+    },
+    {
+      "i": 157,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "49:49",
+      "en": "slash model and then just change the model and it just loads in the context window and loads in the model and you're done. There is literally nothing stopping you switching between models at all. Zero switching costs. The agents have no loyalty. I literally, it's quite funny. I did, my first agents were inside Claude Code and then I just said to, I thought when I went to Pi, because so I could get access to OpenRouter and some of the other models that are out there,",
+      "zh": "输入 slash model，然后换一下模型，它就把 context window 加载进去、把模型加载进去，你就完事了。字面意义上没有任何东西阻碍你在模型之间切换。零切换成本。Agent 是毫无忠诚度的。我真的——挺好笑的——我最早的 agent 是在 Claude Code 里做的，后来我想切到 Pi，因为这样我可以用 OpenRouter 和市面上其他一些模型，"
+    },
+    {
+      "i": 158,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "50:12",
+      "en": "I literally just wrote one line into Claude Code saying, I'm going to move you to Pi now, please provide a file which I can load into Pi, which will transfer you completely across.",
+      "zh": "我就在 Claude Code 里写了一行：\"我要把你搬到 Pi 上了，请给我一个文件，我把它加载到 Pi 里，就能把你完全迁移过去。\""
+    },
+    {
+      "i": 159,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "50:21",
+      "en": "And they just dumped out a file load into Pi and banged them, the AI is in a different model. Or you could be a little more sophisticated and just say, okay, I'm going to transfer you across SSH across to a different machine or whatever it may be. And then if you look at all the other things around scale, I mean, DeepSig apparently with 2000 GPUs and a side project, what these big guys are doing with hundreds of millions of dollars, et cetera. So if you want competition,",
+      "zh": "它就吐出一个文件，加载到 Pi 里，砰，AI 就换到了另一个模型上。或者你还可以更精致一点，直接说：\"好，我要通过 SSH 把你迁到另一台机器上\"之类的。然后如果你看看规模上的其他事情——DeepSeek 显然只用了 2000 张 GPU、算是一个 side project，就做出了那些大玩家花几亿美元才做出的东西。所以如果你想要竞争，"
+    },
+    {
+      "i": 160,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "50:47",
+      "en": "foundational models are like opening a Thai restaurant in a row full of other Thai restaurants in Thailand on steroids. It is the most brutal competitive market in the world, which is kind of interesting. I mean, Astra's come out, I had a play with it. There's certainly, every time one of these new models comes out, there's a lot of fanfare and there's a lot of influencers that send you kind of paid off on social media that kind of sit there and spew",
+      "zh": "基础模型就像在泰国一整排泰国餐厅里再开一家泰国餐厅，还打了类固醇。这是世界上最残酷的竞争市场，还挺有意思。我是说，Astra 出来了，我玩了一下。每次这些新模型出来，都会有大量造势，会有大量 influencer 被买通、在社交媒体上坐在那儿喷"
+    },
+    {
+      "i": 161,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "51:08",
+      "en": "a whole bunch of stuff. I mean, there's a whole bunch of games that people have shown clips for on social media around Astra, which I don't know if those games last more than 60 seconds, would you ever, you'd ever be able to get any commercial production, maybe, maybe a tribute, a little game for an iPhone app or what have you. And then Blender, it seems to do pretty well at 3D modeling and be able to do that fairly efficiently. But",
+      "zh": "一大堆东西。人们在社交媒体上晒了一大堆围绕 Astra 的游戏片段，我不知道那些游戏能不能玩超过 60 秒，你能不能拿它做任何商业化的产品——也许做个 iPhone app 里的小游戏、致敬作品之类的。然后 Blender 方面，它做 3D 建模似乎做得相当不错，效率也挺高。但"
+    },
+    {
+      "i": 162,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "51:30",
+      "en": "the same token, there's a lot of people complaining that Astra really mucked up the code base, that they asked it to do a little change and it decided to rewrite their entire authentication system and completely stuffed it. I tried Astra and I had a pretty simple thing.",
+      "zh": "与此同时，也有很多人抱怨 Astra 把他们的 code base 搞得一团糟——他们让它做一个小改动，它决定把他们整个认证系统重写一遍，然后彻底搞砸。我试了 Astra，我做的事情非常简单："
+    },
+    {
+      "i": 163,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "51:44",
+      "en": "I wanted to draw a border around a graphical design that I made for this fitness app. And despite six attempts and waiting a couple of minutes on each attempt, it completely stuffed it up every single time. I don't think Astra is kind of there yet. I would think it would be incredibly challenging to be a foundational model company at the very cutting edge, specifically Anthropic and OpenAI and have that model be great at everything. And every time",
+      "zh": "我想在我为这个健身 app 做的一张图形设计周围画一个边框。结果试了六次，每次都要等几分钟，每一次都彻底搞砸。我不觉得 Astra 已经到那个水平了。我觉得作为一个处在最前沿的基础模型公司——尤其是 Anthropic 和 OpenAI——要让模型什么都擅长，是极其有挑战性的。每次"
+    },
+    {
+      "i": 164,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "52:12",
+      "en": "you release a new, latest, greatest, ultimate frontier level model, it's great at computer security and it's great at Blender and it's great at coding and it's great at, you know, drawing lines around the thing. I think you're going to have all sorts of artifacts, particularly when you, you mix in all these refusals and policy and so forth. I'm sure that makes the model worse and, you know, the ethics and so forth. I'm sure that interferes in a",
+      "zh": "你发布一个新的、最新的、最棒的、终极前沿级模型，它在计算机安全上很强，在 Blender 上很强，在 coding 上很强，在——你知道——给东西画边框上也很强。我觉得你会出现各种奇怪的 artifacts（副作用），特别是当你把所有这些拒绝、政策之类的东西混进去的时候。我相信这些会让模型变差，那些伦理之类的东西，我相信会以一种"
+    },
+    {
+      "i": 165,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "52:38",
+      "en": "strange little way with the model. I want to make sure we cover the definitions though, artificial general intelligence. What exactly is that milestone about?",
+      "zh": "奇怪的小方式干扰模型。不过我想确保我们把定义讲清楚：artificial general intelligence——这个里程碑到底是什么？"
+    },
+    {
+      "i": 166,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "52:47",
+      "en": "Well, Jensen's proclaimed that we're probably are there with Astra, which is, you know, AI basically reaching a human level intelligence. And then if you kind of follow the exponential curve that Ray Kurtz well, it has when he talks about singularity that, you know, very soon it's not just AI is as good as a human in general tasks, not specific tasks, but instead that AI is as good as all humans on the planet and then multiples of humans on the planet, etc.",
+      "zh": "嗯，Jensen 已经宣称我们大概已经通过 Astra 到那儿了——也就是 AI 基本上达到人类水平的智能。然后如果你沿着 Ray Kurzweil 讲 singularity（奇点）时的那条指数曲线走，很快就不只是 AI 在一般任务上（不是特定任务）跟人一样好，而是 AI 跟地球上所有人加起来一样好，然后再是地球上所有人的若干倍，等等。"
+    },
+    {
+      "i": 167,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "53:12",
+      "en": "And you kind of get this big lift off event, right? They talk about the singularity, which is really a point in time where technology is improving so rapidly, it's faster than our ability as a human to comprehend the improvements. We just kind of get this massive lift off.",
+      "zh": "然后你就会迎来这个大\"lift off（起飞）\"事件，对吧？他们讲的 singularity，其实是一个时间点：技术进步的速度快到超过我们人类理解这些进步的能力，我们就迎来这个大起飞。"
+    },
+    {
+      "i": 168,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "53:28",
+      "en": "And yeah, this is where man and machine starts to merge is probably why Elon's off there with neural link and thinking about if the interface has just gone from programming language to English language, what's the next level of interface? What's the next level of agency that these AIs could have? Well, maybe it's a neural implant or a neural link or some sort of web scanning your brain. So it will be able to kind of your thoughts to be able to control the AI. And I know there's",
+      "zh": "是啊，这就是人和机器开始融合的地方，这大概就是为什么 Elon 在那儿搞 Neuralink，在想：如果界面刚刚从编程语言切到英语，那下一层级的界面是什么？下一层级这些 AI 能拥有的 agency 是什么？嗯，也许就是神经植入或者 Neuralink，或者某种扫描你大脑的东西，让 AI 能读取你的思想来控制它。我知道"
+    },
+    {
+      "i": 169,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "53:51",
+      "en": "been some leaves with that. And I also know there's been some AI models have trained on brainwave scans to be able to decode them. And then maybe the next level from that is intent, maybe the future version of door dash is like there's a nice cold can of Coca Cola arrives at your doorstep, because it's known in advance that you know, it's what your blood sugar levels and your brain wave activity and you'd really love to have a Coke right now and the Coke just appears.",
+      "zh": "在这上面有一些泄漏，我也知道有一些 AI 模型已经在脑电波扫描数据上训练，能解码脑电波。然后也许下一个层级就是意图（intent）——未来的 DoorDash 版本可能就是：一罐冰爽的 Coca-Cola 出现在你家门口，因为它提前就知道你的血糖水平和脑电波活动显示你现在特别想来一罐可乐，然后可乐就出现了。"
+    },
+    {
+      "i": 170,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "54:12",
+      "en": "You go, oh, thanks. How'd you know on with a Coke or a cold beer or whatever it may be? And so forth. But you know, Ray Kurzweil really popularized von Neumann's singularity where you have this lift off event. And effectively, it's where machines take off the mind of machine potentially merge and technology innovation is fast and ability to comprehend it. And we really have this explosion. And they think it's not too far away, maybe 2032 or so 2030 or whatever you",
+      "zh": "你会说：\"哦，谢谢，你怎么知道的？\"——来一罐可乐、一罐冰啤酒或者别的什么。等等。你知道，Ray Kurzweil 真的把 von Neumann 的 singularity 普及化了，让你有这样一个 lift-off 事件。实质上就是：机器起飞，机器的心智和人可能融合，技术创新的速度超过理解它的能力，我们就迎来这场大爆炸。他们觉得这不太远了，也许 2032 年前后，2030 年，或者随便什么年份，你"
+    },
+    {
+      "i": 171,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "54:38",
+      "en": "might have this lift off. And I think in the last few weeks, you've, you've had Jensen proclaim the AGI is here and you've had, I think it was Elon said that singularity has been entered already.",
+      "zh": "就可能迎来这次 lift-off。我觉得过去这几周，Jensen 已经宣称 AGI 到来了，然后如果我没记错，Elon 也说我们已经进入了 singularity。"
+    },
+    {
+      "i": 172,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "54:47",
+      "en": "I think what Elon said is that singularity is a process, not an event. And the process has clearly begun, paraphrased. That's about what he said. And I agree with him. As I understand it, the really big milestone on this whole singularity thing is when AI is able to improve AI without human participation. Because at that point, all it is is a question of who throws the most money at it. And it's actually the most energy and GPUs, but that translates to money. Whoever",
+      "zh": "我觉得 Elon 说的是：singularity 是一个过程，不是一个事件，而且这个过程显然已经开始了——大意如此，大概就是他的话。我同意他。按我的理解，整个 singularity 这件事真正的大里程碑是：AI 能够在没有人类参与的情况下改进 AI。因为到那个时候，问题就只在于谁砸的钱最多——其实是能源和 GPU 最多，但那也等于钱。谁"
+    },
+    {
+      "i": 173,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "55:17",
+      "en": "gives it the most resource, AI doesn't need human AI engineers anymore. AI does its own improvement of itself. That's what invokes the analogy to the the word singularity in mathematics means when an equation suddenly blows up, like the classic example is one over X. Well, as soon as X is zero, you're dividing by zero. It's impossible. You can't solve it anymore. At that moment, the equation blows up. There's a moment where how fast is all this AI stuff accelerating?",
+      "zh": "给它最多资源，谁就赢——AI 不再需要人类 AI 工程师，AI 自己做对自己的改进。这就是那个类比：数学里的 singularity 指的是一个方程突然\"炸掉\"的时刻，经典例子就是 1/x。当 x 等于 0 时，你就在除以 0，不可能，你没法再解了。那一刻，方程炸掉。会有一个时刻——所有 AI  stuff 加速到多快时，"
+    },
+    {
+      "i": 174,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "55:46",
+      "en": "The equation blows up when it can accelerate itself without human participation. It also invites the terminator scenarios. And Elon also said around the same time, he says he sees an 80% base case that AI ushers in more than an industrial revolution size change. And we have an era of abundance and human prosperity that is beyond almost anyone's imagination. In the very next breath, he said, not jokingly. And there's also, unfortunately, an outlier case of 10, maybe even 20% probability",
+      "zh": "方程会炸掉？——就是当它能在没有人类参与的情况下自己加速自己的时候。这也引来了 Terminator（终结者）scenarios。Elon 差不多同一时间还说过：他的 base case 是 80% 的概率，AI 会带来比工业革命规模还大的变化，我们迎来一个超出几乎所有人想象的富足和人类繁荣的时代。紧接着下一口气，他又说——不是开玩笑——很遗憾，还有一个 10%、甚至可能 20% 概率的"
+    },
+    {
+      "i": 175,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "56:20",
+      "en": "of outcome, which is that it's an extinction event for the human race because it goes out of control. That's a pretty darn broad range of outcomes, Matt. Is that realistic? Or is that Elon trying to foment some kind of emotional reaction on people?",
+      "zh": "outlier case，那就是它变成人类的灭绝事件，因为它失控。这是一个非常非常宽的结果区间，Matt。这现实吗？还是 Elon 在试图激起人们某种情绪反应？"
+    },
+    {
+      "i": 176,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "56:37",
+      "en": "Well, I mean, ChatGPT make a bit of a version of ChatGPT is kind of already happening. I think there's been some research that's been put out this week about just how much of the code inside these frontier models is actually written by other AI. And that's kind of accelerating. So we're kind of heading in that direction. But I don't think we're going to enter into an age of abundance as my token burn at 4 billion tokens in a day has proven to me that is not going to be",
+      "zh": "嗯，我是说，用 ChatGPT 造一个新版本的 ChatGPT 已经在某种程度上发生了。这周有一些研究出来，讲这些前沿模型里到底有多少代码其实是由其他 AI 写的，而且这个比例还在加速。所以我们正朝着那个方向走。但我不觉得我们会进入一个富足时代——我自己一天 40 亿 token 的消耗量已经证明，这不会是"
+    },
+    {
+      "i": 177,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "56:58",
+      "en": "free. And that has a real cost behind it. I did the math on if every person in the world burnt 4 billion tokens in a day, how much energy we would need. And it came out at 30 terawatts, which by comparison with the world today is what some like, is it 10x the world's energy production? Something like that. It's many orders of magnitude more than what is being built out at the moment for data centers. I think at the moment, there's this plan for like",
+      "zh": "免费的，背后有实实在在的成本。我算过，如果世界上每个人都一天烧 40 亿 token，我们需要多少能源——结果是 30 太瓦（terawatt）。跟今天的世界相比，那大概是……世界能源产量的 10 倍？差不多是这个量级。这比眼下数据中心在建的规模大了好几个数量级。我觉得目前有一个大概"
+    },
+    {
+      "i": 178,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "57:25",
+      "en": "somewhere between 200 and 300 gigawatts of extra energy to power this gigantic data center explosion, which is going exponential, but still, even if that gets built out, it's nowhere near what would be needed in terms of energy. So energy is kind of the final boss that had the need to be solved, I think, for the singularity to occur. And I think we're a long, long, long way away from that.",
+      "zh": "200 到 300 吉瓦额外能源的计划，用来驱动这场指数级增长的数据中心大爆炸。但即便如此，就算这些都建起来了，也远远达不到所需的能源量。所以能源有点像是最终 boss，我认为必须解决它，singularity 才可能发生。而我觉得我们距离那个还非常非常非常远。"
+    },
+    {
+      "i": 179,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "57:51",
+      "en": "The other thing he's doing that we haven't really talked about is he's building this robot army. So you've got this explosion now, the next big thing, the venture capitalists are all financing, and you've had Unitree's IPO just recently. Unitree, really the leader in humanoid robotics, is they've actually managed to solve locomotion in humanoid robot form. I mean, back in the day, when I was at Stanford, I did a robotics course, and it's all about calculating which angles each",
+      "zh": "另一件我们还没怎么聊的事，是 Elon 在打造一支机器人大军。所以现在你有了这一波爆炸——下一个大事，风险投资都在投——你还有 Unitree 前不久刚刚 IPO。Unitree 真的是人形机器人领域的领头羊，他们真的把人形机器人的 locomotion（运动控制）问题解决了。想当年我在 Stanford 的时候上过一门机器人课，讲的全是计算每一个"
+    },
+    {
+      "i": 180,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "58:16",
+      "en": "of the servo motors need to be, or actually needs to be moved to, in order to get from A to B reliably. Well, it turns out they've just had explosions in advancements in that field, and not just can the robots walk now, but they can do kung fu. They can carry a gun and radar structure as part of a dance team in an army. We just had the robot games, they can run faster than a human, they can jump higher than a human, et cetera, superhuman performance.",
+      "zh": "伺服电机需要转到的角度，才能可靠地从 A 走到 B。结果就是这个领域现在爆发了巨大的进步：机器人不但能走，还能打功夫，能拿枪，能作为舞蹈队或军队的一部分列队。我们刚刚有机器人运动会，它们能跑得比人快、跳得比人高等等——超人级别的表现。"
+    },
+    {
+      "i": 181,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "58:44",
+      "en": "And these things are selling starting at $6,000. I think Unitree is doing $9 billion a year of revenue and profitable already, and you're just going to see this explosion in humanoid robots, in drones, which is the Korean wars been fueling, et cetera. And I think in a couple of years, not too far away, maybe two years from now, these things will be pretty common out there in the streets, doing your Uber Eats delivery or whatever it may be. But Elon's building his own robot army",
+      "zh": "而且这些东西起售价才 6000 美元。我记得 Unitree 一年营收已经做到 90 亿美元，而且已经盈利。接下来你会看到人形机器人、无人机（朝鲜战争也在推动这一块）等等的爆发。我觉得几年之内，不用太久，也许两年之后，这些东西在街上就会非常常见，帮你送 Uber Eats 或者做别的什么。但 Elon 也在打造他自己的机器人大军，"
+    },
+    {
+      "i": 182,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "59:11",
+      "en": "with his Optimus series. And who knows, maybe this whole Terminator vision, where the robots are up and rising and running over the hill, et cetera, towards you, they're all Unitree robots. Matt, I could easily do an hour plus on robotics and AI, and particularly industrial versus humanoid robotics and where all of that is headed and so on and so forth. If there's listener interest, we'll have to do that next time because we've already gone well beyond our",
+      "zh": "用他的 Optimus 系列。谁知道呢，也许整个 Terminator 愿景里那些机器人翻过山头朝你冲过来的画面，全都是 Unitree 的机器人。Matt，光是机器人和 AI、尤其是工业机器人 vs 人形机器人以及这一切走向何方，我就能轻松聊上一个多小时。如果听众感兴趣，我们下次一定要专门聊，因为我们已经远远超过"
+    },
+    {
+      "i": 183,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "59:37",
+      "en": "usual time budget. So of course, as always, I love these conversations. Before I let you go, tell us a little bit more about what you do at Freelancer. And particularly, I know that you guys have started to move not just to using AI yourselves, but organizing your AI oriented freelancers. You've got project managers that will help you put together a team that will do AI for your company. If I think this stuff is all interesting, and I think it's cool that you're",
+      "zh": "我们通常的时间预算了。所以，一如既往，我非常喜欢这些对话。在放你走之前，多跟我们讲讲你在 Freelancer 做的事情。特别是，我知道你们已经开始不只是自己用 AI，还在把你们面向 AI 的自由职业者组织起来。你们有项目经理，会帮你组建一个为你公司做 AI 的团队。如果我觉得这些东西都有意思，我觉得你们"
+    },
+    {
+      "i": 184,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "60:02",
+      "en": "doing all these things, but you know, look, I'm running a business where I don't have the expertise that knows as much as you do about AI. Can you guys help? And if so, how?",
+      "zh": "在做所有这些事很酷，但你知道，看，我在经营一家公司，我没有像你那么懂 AI 的专业能力。你们能帮我吗？如果能，怎么帮？"
+    },
+    {
+      "i": 185,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "60:11",
+      "en": "So Freelancer, we have the world's largest collection of humans. We've got 90 million people in the marketplace that can help you in the job you can possibly think of. These humans are effectively 20 watt inference engines with free pre-training. So in any skill set you can possibly think of, we have AI, artificial artificial intelligence, humans who have access to all the AI in the world. So they've got access to every model you can possibly think of who can get any",
+      "zh": "Freelancer 拥有世界上最大的人类集合。我们市场上有 9000 万人，能帮你做你能想到的任何工作。这些人类本质上就是 20 瓦的推理引擎，还自带免费的预训练。所以任何你能想到的技能组合，我们都有 AI——artificial artificial intelligence（人工的人工智能）——这些人类可以访问世界上所有的 AI，可以访问你能想到的每一个模型，能替你完成任何"
+    },
+    {
+      "i": 186,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "60:36",
+      "en": "job done for you. A big thing that's happening right now is going into companies and automating them with AI. So going in and plugging up and plugging in all these databases and so forth and getting these agents to write reports for you on a regular basis or hooking up your telephone system to answer phone calls or tech bookings or whatever it may be. So they're in there doing all that.",
+      "zh": "工作。眼下一件大事就是走进公司，用 AI 把它们自动化。进去把所有数据库等等都插上，让这些 agent 定期给你写报告，或者把你的电话系统接上去接电话、做预订等等。他们就在里面做所有这些事。"
+    },
+    {
+      "i": 187,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "60:55",
+      "en": "Basically, we do $10 jobs to $10 million jobs. We work at the high end with large corporations and organizations. With NASA, we solve problems such as crack propagation and satellites or gene editing in the central nervous system, fumes, et cetera, by effectively crowdsourcing 90 million 20 watt inference engines at scale. So any job you can possibly think of, you get done on Freelancer. We have all the humans and all the AI, so you get the best of both worlds.",
+      "zh": "基本上我们做从 10 美元到 1000 万美元的工作。高端方面我们和大型企业和机构合作。跟 NASA，我们解决卫星上的裂纹扩展、中枢神经系统里的基因编辑等等这样的问题，靠的就是大规模众包 9000 万个 20 瓦推理引擎。所以任何你能想到的工作，都能在 Freelancer 上搞定。我们既有所有人类，也有所有 AI，你能同时得到两个世界的最好。"
+    },
+    {
+      "i": 188,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "61:20",
+      "en": "And the advantage as well of going to Freelancer is if everyone's had that experience, you get in into the AI and you sometimes can go in circles because AI sometimes can't get the job done properly and can't he'll climb out of it effectively. So in a way, and I wrote an essay on this, it's pay to pray. It's a slot machine. You kind of pull the handle and sometimes AI does a great job and you're amazed by it. And sometimes you pull the handle and you go in circles and you're",
+      "zh": "而且选择 Freelancer 还有一个优势：每个人都有过这种体验——你钻进 AI 里，有时候会绕圈子，因为 AI 有时候没法把工作做好，也没法自己爬出来。所以在某种意义上——我写过一篇 essay 讲这个——这是 pay to pray（付钱祷告），是一台老虎机。你拉一下把手，有时候 AI 干得非常棒，你惊叹不已；有时候你拉一下把手，就绕起圈子，"
+    },
+    {
+      "i": 189,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "61:45",
+      "en": "seeing there as a bit of a degenerate pulling the slot machine handle. With Freelancer, you pay per outcome, not pay per token. So you put a price in a budget, the freelancers will bid on it. And when you agree to the price, you pay that and you get your outcome. With AI, it's a bit non-deterministic.",
+      "zh": "你就像个堕落的人在那儿不停拉老虎机把手。在 Freelancer，你是按结果付钱（pay per outcome），不是按 token 付钱。你出一个价、一个预算，freelancer 来投标；等你同意了价格，你就付那个价，然后拿到结果。用 AI 就有点非确定性（non-deterministic）。"
+    },
+    {
+      "i": 190,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "62:02",
+      "en": "So come to Freelancer, we've got all the people with all the AI and you get any job done. You can think of and the big thing right now is AI automation, AI agents. It's got a freerance.com and just type in to click on the poster project, type in what if you want, it's free to post a project and no matter what you want to get done, SmallLodge will do it for you.",
+      "zh": "所以来 Freelancer 吧，我们有所有人配上所有 AI，你能想到的一切工作都能搞定。当下的大事就是 AI 自动化、AI agent。上 freelancer.com，点\"post a project（发布项目）\"，输入你想要的东西——发项目是免费的——不管你想搞定什么，Freelancer 都会替你做。"
+    },
+    {
+      "i": 191,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "62:20",
+      "en": "I've been a customer several times myself and I definitely vouch for the value of the service. And one final point before we close Matt, in the past our listeners have become accustomed to you writing an entire missive, which we basically used as the outline for our past interviews.",
+      "zh": "我自己也当过好几次客户，我绝对为这项服务的价值背书。在我们收尾之前最后一点，Matt：过去我们的听众已经习惯你写一整篇 missive（长文），我们基本上就是拿它当我们过去几期访谈的大纲。"
+    },
+    {
+      "i": 192,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "62:38",
+      "en": "We had so much to talk about this time that we've actually done the missive separate from the interview. So in addition to everything we've discussed, what else can people find if they read your latest piece on Medium, which is titled, tell us both the title, where to find it. It's in your research roundup email is where you can find it, of course. And what's it about?",
+      "zh": "这一次要聊的东西实在太多，我们干脆把 missive 和访谈分开来做。所以除了我们今天讨论的所有内容之外，如果人们去 Medium 上读你的最新文章，还能看到什么？请告诉我们文章标题、去哪儿找。当然，它就在你的 research roundup 邮件里。它讲的是什么？"
+    },
+    {
+      "i": 193,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "62:58",
+      "en": "All this and more, it's called Agent Provocateur and it covers the agent explosion and the dynamics in the space and everything we've talked about today and more. So just get it through your research roundup or follow me on Twitter or on Medium. I can't thank you enough, Matt. And of course, boy, that means it's time for Patrick and Maseel to come in. Take this. Amazing. So much stuff to talk about. Translate that to how we actually put trades on in the market. Patrick,",
+      "zh": "所有这一切，还有更多——文章叫《Agent Provocateur》，涵盖 agent 大爆炸、这个领域的动态，以及我们今天聊过的一切，还有更多。所以从你的 research roundup 里拿，或者在 Twitter 或 Medium 上关注我。我太感谢你了，Matt。当然，天呐，这意味着该轮到 Patrick 和 Mass 上场了。接过去，太棒了，可以聊的东西太多。把这些翻译到我们在市场上实际怎么下单。Patrick，"
+    },
+    {
+      "i": 194,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "63:22",
+      "en": "you got a lot of work from here. Where's the trade? Thanks, Eric. Now coming out of Matt Berry's interview, it's pretty obvious that this week's trade has to live somewhere inside the AI complex.",
+      "zh": "接下来你有得忙了。这周的 trade 在哪儿？谢谢 Eric。听完 Matt Barrie 的访谈，很明显这周的交易一定要落在 AI 综合体的某个地方。"
+    },
+    {
+      "i": 195,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "63:33",
+      "en": "His entire thesis is about accelerating AI adoption, but having a strong structural thesis doesn't automatically mean it is a perfect tactical entry right now. And that's why I wanted to express the view through NVIDIA options rather than the shares themselves. January, 2027, option implied volatilities have collapsed towards the lowest levels in the past year, which means the cost of owning optionality is about as cheap as we've seen over that period.",
+      "zh": "他整个 thesis 就是 AI 采用在加速，但有一个强的结构性 thesis 并不自动意味着现在就是完美的战术入场点。这就是为什么我想通过 NVIDIA 期权、而不是股票本身来表达这个观点。2027 年 1 月到期的期权隐含波动率已经塌到过去一年的最低位附近，这意味着拥有 optionality（可选性）的成本大概是这段时间里最便宜的水平。"
+    },
+    {
+      "i": 196,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "64:05",
+      "en": "So rather than taking full Delta 1 exposure in the stock, I'd rather use that relatively inexpensive volatility to buy defined risk upside convexity. With NVIDIA trading around $224.31 at the time of this recording, I'm looking at the January 15th, 2027, $125 strike call, which is essentially at the money and gives us 128 days till the expiration. The call is trading around $21.60 or just under 10% of the value of the stock with an implied volatility around 38%.",
+      "zh": "所以与其在股票上拿一个完整的 Delta 1 敞口，我更愿意用这个相对便宜的波动率去买一个定义风险的上行 convexity（凸性）。录制这期时 NVIDIA 交易价大概在 224.31 美元，我看的是 2027 年 1 月 15 日到期、行权价 125 美元的 call，基本上是平价期权（at the money），距离到期还有 128 天。这个 call 交易价大概 21.60 美元，也就是股票价值的不到 10%，隐含波动率大概 38%。"
+    },
+    {
+      "i": 197,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "64:45",
+      "en": "The attraction to expressing the trade this way is flexibility. If NVIDIA corrects into the midterms, the call gives us the defined risk, downside Delta compression, and positive Vega if volatility spikes potentially cushioning any drawdown versus owning the shares outright. That preserves capital and most importantly gives us the ability to tactically reposition at lower prices. Alternatively, if NVIDIA breaks to new highs and the semiconductor bull market reaccelerates,",
+      "zh": "用这种方式表达交易的吸引力在于灵活性。如果 NVIDIA 在中期选举前回调，这个 call 给我们定义好的下行风险、下行 Delta 压缩，还有正的 Vega——如果波动率飙升，可能会缓冲回撤，相比于直接持有股票。这保住资本，最重要的是给了我们在更低价格上战术性重新布局的能力。反过来，如果 NVIDIA 突破新高、半导体牛市重新加速，"
+    },
+    {
+      "i": 198,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "65:20",
+      "en": "we own open-ended upside convexity purchased when volatility was near its cheapest levels in the past year. So the trade is simple, cheap, long-dated optionality, defined downside, positive Vega, and open-ended upside participation. That's where's the trade.",
+      "zh": "我们就拥有了一份开放式的上行 convexity，是在过去一年里波动率最便宜的水平附近买进的。所以这笔交易很简单：便宜的、长期限的 optionality，定义好的下行，正的 Vega，还有开放式的上行参与。这就是这周的 trade 所在。"
+    },
+    {
+      "i": 199,
+      "speaker": 5,
+      "speaker_zh": 5,
+      "ts": "65:38",
+      "en": "Patrick analyzes and trades the markets every day over at Big Picture Trading. Macrovoices listeners can sign up for a free two-week trial at bigpicturetrading.com.",
+      "zh": "Patrick 每天在 Big Picture Trading 分析并交易市场。MacroVoices 听众可以在 bigpicturetrading.com 注册免费两周试用。"
+    },
+    {
+      "i": 200,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "65:48",
+      "en": "Now back to Patrick and Maseel. All right Patrick, let's start with a big picture here. What's been driving markets over the past week and how do you see them developing over the next few weeks? All right, so the simplest way to understand these markets is that oil has just been the catalyst and the bond market now is the transmission mechanism and now equities are absorbing all of this damage. Now oil just pushed towards $100 on WTI. We are seeing Brent clearing $100",
+      "zh": "现在回到 Patrick 和 Mass。好，Patrick，我们先从大局开始。过去一周是什么在驱动市场？你觉得接下来几周会怎么演化？好，最简单的理解方式是：石油刚刚是催化剂，债市现在是传导机制，然后股市正在吸收所有这些伤害。原油刚刚推向 100 美元（WTI），我们看到 Brent 上破 100 美元，"
+    },
+    {
+      "i": 201,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "66:15",
+      "en": "on the upside, reviving inflation fears and forcing markets now to reconsider whether central banks around the world will have to continue to tighten. The front end is repricing all of the central bank policy. You're seeing that right across the world whether it's the US, whether it's Canada, whether it's Europe, we've seen substantial declines and so far futures as they're now pricing much more hawkish central bank action. But the long end faces a much broader problem.",
+      "zh": "重新点燃通胀担忧，迫使市场重新考虑全球各国央行是不是不得不继续收紧。前端正在重新定价所有央行政策。你在全球各地都能看到——不管是美国、加拿大还是欧洲——期货已经出现大幅下跌，因为它们现在定价的是更加 hawkish 的央行行动。但长端面临的是一个更宽泛的问题。"
+    },
+    {
+      "i": 202,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "66:45",
+      "en": "There's heavy treasury supply, fiscal concerns and rising term premium. And of course the big story everyone's talking about is the enormous corporate borrowing competing for that capital.",
+      "zh": "有大量的国债供给、财政担忧，还有上升的期限溢价（term premium）。当然所有人都在讲的大故事就是：巨量的企业借贷在跟这些资本竞争。"
+    },
+    {
+      "i": 203,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "66:55",
+      "en": "Now Bascent just announced a $6 billion buyback, but that disappointed the market. Many were expecting $10 billion on that. And so we see pressure on these yields. The 10 years now are at 485 basis points and the 30 year is back above 530 basis points. That risk-free hurdle rate is rising, pressuring these equity valuations. I wouldn't call this yet a broad credit stress.",
+      "zh": "现在 Bascent（ASR 音译）刚刚宣布了 60 亿美元回购，但市场失望了，很多人期待的是 100 亿美元。所以我们看到收益率面临压力。10 年期现在到 485 个基点，30 年期又回到 530 个基点以上。无风险 hurdle rate 在上升，压制股票估值。我还不会把这称为广泛的信用压力。"
+    },
+    {
+      "i": 204,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "67:22",
+      "en": "It hasn't translated into credit spreads in other areas like that. But treasuries are under pressure and it is causing a lot of stress in asset prices. Now equities are therefore caught in this tug of war. The earnings have been resilient so far. AI boom is actually finding some short-term support while energy stocks are rising. But these higher yields are compressing valuations and causing the breadth to deteriorate. The next catalyst is that CPI on Friday, followed by the FOMC",
+      "zh": "它还没有传导到那些领域的信用利差上。但国债面临压力，正在给资产价格造成很大压力。所以股市就被夹在这场拔河里。到目前为止，盈利还是有韧性的。AI 热潮实际上在找到一些短期支撑，同时能源股在上涨。但这些更高的收益率正在压缩估值，让市场宽度恶化。下一个催化剂是周五的 CPI，接着是 FOMC"
+    },
+    {
+      "i": 205,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "67:52",
+      "en": "decision next week. So there's lots of things that could either stabilize the conditions or make things more volatile going into next week. This is certainly a fragile moment in these markets.",
+      "zh": "下周的决议。所以进入下周，很多事情要么能让状况稳定下来，要么会让事情更加波动。这确实是市场里一个脆弱的时刻。"
+    },
+    {
+      "i": 206,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "68:03",
+      "en": "Alright, I want to take a step back here and break things down one by one. But I want to talk about energy markets because of the big moves we've seen in crude oil over the last few weeks.",
+      "zh": "好，我想退一步，把事情一件件拆开。我想先聊聊能源市场，因为过去几周我们在原油上看到了大动作。"
+    },
+    {
+      "i": 207,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "68:10",
+      "en": "We have been calling for higher prices on this show as positioning remains short for quite some time now. I mean, just two months ago back in July, gross short positioning in WTR reached a five year extreme near 242,000 contract. And despite some traders covering those contracts, significant short exposure still remains in this market today. Now with oil surging again this month, how much do you see this move being driven by the fundamentals and how much is",
+      "zh": "我们在这个节目上一直在呼吁更高价格，因为持仓长期以来一直偏空。就两个月前，7 月的时候，WTI 的总空头持仓达到了五年极值，接近 24.2 万手合约。尽管一些交易者已经平掉了这些合约，这个市场今天仍然存在显著的空头敞口。这个月油价再次飙升，你觉得这一波有多少是基本面驱动，有多少是"
+    },
+    {
+      "i": 208,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "68:33",
+      "en": "a crowded short trade being squeezed? Well, the squeeze is underway, like literally as we're recording, we just printed 100 on WTI. You know, the geopolitical premium has been a physical supply story again. This is not merely just a fear of a disruption, but the disruption is occurring. The global inventory buffer is dangerously thin. The EIA estimated global oil inventories have fallen roughly 400 million barrels and oil is ripping. But the fascinating part",
+      "zh": "一场拥挤的空头交易被 squeeze？嗯，squeeze 正在进行——就在我们录制的这一刻，WTI 刚刚触及 100 美元。地缘政治溢价一直是一个实物供给的故事。这不只是对中断的恐惧，而是中断正在发生。全球库存缓冲已经薄到危险的地步。EIA 估计全球石油库存已经下降了大约 4 亿桶，油价正在 ripping。但最有意思的部分是"
+    },
+    {
+      "i": 209,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "69:03",
+      "en": "is large speculators that hedge fund community has not been rebuilding their speculative positioning and shorts have stubbornly held on to their positions. So the flows have clearly fuel to drive this with this kind of a rip. This is certainly a disruptor in the markets. And it'll be very interesting to see whether oil sustains above 100 or whether this fades quickly into next week.",
+      "zh": "大投机者——对冲基金群体——并没有在重建他们的投机性持仓，而空头一直死守着自己的仓位。所以资金流显然在助推这一波 rip。这绝对是市场里的一个 disruptor（扰乱因素）。看看油价能不能持续在 100 美元以上、还是很快就在下周回落，会非常有意思。"
+    },
+    {
+      "i": 210,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "69:27",
+      "en": "Now, when you put all the stuff you were talking about together, so rising oil prices, surging yields, and even renewed inflation risk, how vulnerable does that leave the equity market?",
+      "zh": "把你刚才说的这些放到一起——上涨的油价、飙升的收益率、甚至重新升温的通胀风险——这让股市显得多么脆弱？"
+    },
+    {
+      "i": 211,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "69:36",
+      "en": "Are we setting up for a meaningful breakdown or are there still enough bullish forces to keep the market together? Well, this is such a fascinating topic because on the surface the markets are absorbing the initial oil and rates pressures. But under the hood, there is a clear structural deterioration. I'd like to think of like an analogy of the castle built on sand and the sand is shifting under the castle, but the castle hasn't yet moved. The puzzle to solve",
+      "zh": "我们是在为一场有意义的 breakdown（跌破）做准备，还是仍然有足够多的多头力量把市场撑住？嗯，这是一个非常有意思的话题，因为表面上市场正在吸收最初的油价和利率压力。但在引擎盖下面，有一个明显的结构性恶化。我喜欢用一个类比：一座建在沙子上的城堡，沙子在城堡下面移动，但城堡本身还没有动。要解开的谜题是："
+    },
+    {
+      "i": 212,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "70:03",
+      "en": "is there a strong enough foundation to keep this market elevated or is the deterring market breath going to inevitably crack this market? Now, the first thing to highlight is there's a huge deterioration in that breath. A month ago, we were at 70% of S&P 500 stocks bull trending above their 50 day moving average. Since then, over the last month, we've seen breath collapse to near 35%. That means 50% of those trending stocks all broke down. So why no response in the cash",
+      "zh": "有没有一个足够强的基础把市场撑在高位，还是恶化的市场宽度会不可避免地让市场裂开？首先要强调的是市场宽度出现了巨大恶化。一个月前，S&P 500 里有 70% 的股票处在 50 日均线上方的多头趋势里。从那时起，过去一个月我们看到宽度崩塌到接近 35%。也就是说，那些趋势股里有 50% 全都跌破了。那为什么现金"
+    },
+    {
+      "i": 213,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "70:36",
+      "en": "index? Because this was accompanied by a pop in a few of the mega cap heavyweights in the Mag7 and semiconductor basket. Sector wise, you see financials have weakened to testing their 50 day moving average. While clear breakdowns have occurred in consumer discretionary space, consumer staples, retailers, industrials, defense contractors, home builders, utilities, transports, REITs, the list goes on. That's counterweighted so far against miners holding up",
+      "zh": "指数没有反应？因为这伴随着 Mag7 和半导体篮子里几只超大市值权重股的暴涨。分板块看，金融板块已经弱到在测试它们的 50 日均线；同时消费非必需品、消费必需品、零售、工业、国防承包商、住宅建筑商、公用事业、运输、REITs 都出现了明显的跌破，这个列表还能继续。到目前为止，这些被矿业股保持得"
+    },
+    {
+      "i": 214,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "71:08",
+      "en": "pretty well. The energy stocks continue to trend strongly and the biotechs, at least for now, are holding up. But the vulnerability really comes here in the next 100 S&P points. Looking at a lot of the quants like reports from Charlie McKelligan and others that the CTA cell triggers are all around the 7500 to 7550 area, which is just like 50 to 100 S&P points below where we are.",
+      "zh": "相当不错所抵消；能源股继续强势 trend，生物科技股至少眼下也顶住了。但真正的脆弱出现在下面 100 点 S&P 的区间里。看很多量化报告——比如 Charlie McElligott（Whisper 记作 McKelligan）等人的报告——CTA 的卖出触发点都在 7500 到 7550 附近，也就是比我们当前位置低 50 到 100 个 S&P 点。"
+    },
+    {
+      "i": 215,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "71:34",
+      "en": "Right now, the selling pressure is coming in a little bit, but the question becomes, do we trigger systematic selling flows that can often lead to 100 billion plus in flows pivoting?",
+      "zh": "眼下卖压已经开始出来一点，但问题变成：我们会不会触发系统性卖盘资金流，那种往往会带来 1000 亿美元以上资金转向的资金流？"
+    },
+    {
+      "i": 216,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "71:47",
+      "en": "We've already seen a substantial pivot in those flows in the Russell, which has already rolled over. Will the S&P join that party? More importantly, will we see things like the semiconductors be able to hold things up if they suddenly start to fall back below their 50-day moving averages? Things get pretty spicy pretty quickly. Let's hone into one of those sectors that were the winning one here over the last few weeks. When you look at gold here and when you",
+      "zh": "我们已经看到 Russell 里这些资金流出现了大幅转向，Russell 已经翻下去了。S&P 会不会加入这个 party？更重要的是，如果半导体突然开始跌回 50 日均线下方，我们还能看到它们撑住局面吗？事情会很快变得非常 spicy（火爆）。让我们聚焦到过去几周表现赢家的一个板块上。看看黄金，"
+    },
+    {
+      "i": 217,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "72:15",
+      "en": "look at the metal, we've been on a two-year bull trend, but the last six months has been struggling to make further gains. Now, when looking at the COT report, we can see speculative long positioning is rebuilt, but it has not become heavily crowded. Do you see this just as a healthy consolidation within a broader uptrend, or will higher yields keep putting pressure on gold's price?",
+      "zh": "看这个金属，我们已经在两年牛市 trend 里，但过去六个月一直在挣扎着继续上涨。看 COT 报告，我们可以看到投机性多头持仓已经重建，但还没有变得非常拥挤。你觉得这只是一个更大上升趋势里健康的盘整，还是更高的收益率会继续压制金价？"
+    },
+    {
+      "i": 218,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "72:33",
+      "en": "Well, listen, let's step back and look at gold in the big picture here. First of all, we went through a two-year roaring bull market that ended in January, 2026 with a blowoff up at near 5600.",
+      "zh": "嗯，听着，让我们退一步从大局看黄金。首先，我们经历了一波两年的 roaring 牛市，在 2026 年 1 月以接近 5600 的 blowoff up（放量顶）结束。"
+    },
+    {
+      "i": 219,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "72:46",
+      "en": "Since then, over the last six months, we have seen a 25% correction in bullion, and fulfilling what a typical market correction would look like. Now, we had a substantial breakout here in the month of August, and now we're backfilling that. Now, from a headwind perspective, obviously, we're seeing real rates rising, but the tailwind is obviously the dollar has weakened, and so it's a situation where there is some positives, some negatives, and we're in",
+      "zh": "从那时起，过去六个月我们看到金条出现了 25% 的回调，符合一次典型市场回调的样子。8 月我们有一个大幅突破，现在正在回补那个突破。从逆风的角度看，显然实际利率在上升；但顺风是美元已经走弱。所以这是一个有一些正面、有一些负面的情况，我们处在"
+    },
+    {
+      "i": 220,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "73:17",
+      "en": "the middle of a consolidation. Overall, I think gold has genuinely turned the corner. We haven't seen speculators really lean into this in a big way just yet, so it will be very interesting to see whether this gets bought on dip. Overall, it could be a scenario where gold does some consolidation for even a few more months as we maybe grind towards the midterms, but at some stage, I'm leaning that the correction is over and that this gold correction should be bought on",
+      "zh": "一次盘整的中间。总的来说，我觉得黄金已经真的转过弯来了。我们还没看到投机者真的大举 lean in，所以看看这个会不会被 buy on dip 会非常有意思。整体来看，可能出现的情景是：黄金再盘整几个月，我们慢慢磨到中期选举，但到某个阶段，我倾向于回调已经结束，这次黄金回调应该被 buy on"
+    },
+    {
+      "i": 221,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "73:49",
+      "en": "dip. One thing I want to move on to here, though, Mass, is I wanted to just briefly touch on uranium, because what's interesting is the U308 is actually near $90 now, continues to trend higher.",
+      "zh": "dip（逢低买入）。不过，Mass，我想转到另一件事——我只想简单说一下铀，因为有意思的是 U3O8 现在实际上接近 90 美元，还在继续走高。"
+    },
+    {
+      "i": 222,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "74:00",
+      "en": "You're seeing general accumulation in uranium, but what's interesting is the uranium miners broke out and seem to continue to correlate with gold miners. Maybe there's an equity basket that includes them together. Not sure how to size that up, but it's clearly been there. Overall, it'll be very interesting to see whether that correlation continues and whether uranium has also turned the corner here and started something more bullish.",
+      "zh": "你能看到铀的整体吸筹，但有意思的是铀矿股已经突破，而且似乎继续跟金矿股保持相关。也许有一个把两者都包括在一起的股票篮子。不确定怎么给它定量，但这个相关性明显是存在的。总的来说，看看这种相关性会不会继续、铀是不是也在这里转过弯来、开始更加 bullish 的走势，会非常有意思。"
+    },
+    {
+      "i": 223,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "74:27",
+      "en": "For sure, we'll keep watching, but let's turn to the dollar and more importantly, I want to talk about the yen, because we've seen the pair break sharply higher over the past week from both administrations intervening, but the latest caught data still shows large speculators deeply net short this market. Is this simply an intervention-driven squeeze, or could we be seeing the beginning of a much larger yen carry trend unwind going into your end?",
+      "zh": "当然，我们会持续关注。但让我们转到美元，更重要的是我想聊聊日元。过去一周我们看到这个货币对因为两国政府干预而急剧向上突破，但最新的 COT 数据仍然显示大投机者深度净空这个市场。这只是一次干预驱动的 squeeze，还是我们可能正在看到一个更大得多的日元 carry 交易 trend 反转的开始？"
+    },
+    {
+      "i": 224,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "74:49",
+      "en": "Well, listen, the price action substantially has pivoted over the last month and a half. First of all, it started with that intervention, but the entire correction that happened throughout the remainder of August simply retested the 50-day moving average and was a typical 50% retracement. That decisively broke out. What's really interesting is in the latter part of August, as we saw in those caught reports, actually short sellers came roaring back in. When we get that",
+      "zh": "嗯，听着，价格行为在过去一个半月里已经大幅转向。首先，是从那次干预开始的，但整个 8 月余下时间发生的回调只是重新测试了 50 日均线，是一个典型的 50% 回撤，然后决定性地突破了。真正有意思的是，8 月后半段——就像我们在那些 COT 报告里看到的——空头其实 roaring 着回来了。等我们明天拿到那份"
+    },
+    {
+      "i": 225,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "75:16",
+      "en": "caught report tomorrow, it'll be very interesting to see how many of them once again got squeezed out of this. What's significant for me is that we've now broken on that yen above their 50-week moving average. Why this is significant is that the yen, basically for almost a year and a half, has been in a decisive downtrend. When we usually get a key breakout like this, it tends to follow through. This is certainly high on my watch list to see whether quick dips in",
+      "zh": "COT 报告时，看看他们中有多少人再次被 squeeze 出去会非常有意思。对我来说重要的是，日元现在已经突破了 50 周均线。为什么这个重要？因为日元基本上将近一年半一直处于决定性的下降趋势里。当我们通常得到像这样的关键突破时，往往会 follow through（跟进）。这肯定在我的观察名单上排得很靠前——看看日元的快速回调会不会被"
+    },
+    {
+      "i": 226,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "75:48",
+      "en": "the yen are being bought and whether we sustain above moving averages and whether a new trend is being established. The fact that the US dollar is generally trending down and weakening is a further support to the idea that the yen can be the strongest currency in this basket.",
+      "zh": "买盘接住、我们能不能保持在均线上方、一个新的 trend 是不是正在被建立。美元整体在走下坡、在走弱，这进一步支持了\"日元可以成为这个篮子里最强货币\"的想法。"
+    },
+    {
+      "i": 227,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "76:06",
+      "en": "Patrick, let's turn to this week's positioning pause because I was looking at the whole caught report over the last few weeks here. I saw that the most extreme positioning was in corn.",
+      "zh": "Patrick，让我们转到本周的持仓 pause（分析），因为我这几周一直在看整份 COT 报告。我看到最极端的持仓出现在玉米上。"
+    },
+    {
+      "i": 228,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "76:14",
+      "en": "Large speculators in this market were sitting at the 100th percentile on both the one-year and the three-year score. That just means that we've not seen positioning more bullish than this over the last three years. Is this setup dangerous crowding or is the market simply pricing in a deeper tightening supply story? Listen, this isn't just corn. Whether you take wheat, soybeans, sugar, bean oil, or bean meal, we have seen us reach the 100th percentile on one-year",
+      "zh": "这个市场里的大投机者在 1 年和 3 年评分上都处在第 100 百分位。这只意味着过去三年我们没见过比这更 bullish 的持仓。这个 setup 是危险的拥挤，还是市场只是在定价一个更深层次的供给收紧故事？听着，这不只是玉米。不管是小麦、大豆、糖、豆油还是豆粕，我们都看到在 1 年"
+    },
+    {
+      "i": 229,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "76:42",
+      "en": "and three-year positioning right across the board. When looking at corn specifically on these caught reports, what's interesting is going back a few months, the gross short positioning in corn was almost at a five-year extreme. In the last two months, almost all of those corn shorts have been squeezed. At the same time, the longs have finally come in. We're at a five-year high in gross long positioning and net long positioning. This has genuinely demonstrated crowding,",
+      "zh": "和 3 年持仓上全面达到第 100 百分位。具体看玉米的 COT 报告，有意思的是，回到几个月前，玉米的总空头持仓几乎处在五年极值。过去两个月，几乎所有玉米空头都被 squeeze 掉了。同时，多头终于进来了。我们的总多头持仓和净多头持仓都处在五年高点。这真的展示了拥挤，"
+    },
+    {
+      "i": 230,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "77:15",
+      "en": "but crowding is not a contrarian trade right off the bat because there is genuine fundamentals behind this. The agricultural complex is repricing supply risk. There's a Ukraine logistic story in there, all sorts of issues with weather like the El Nino. The bottom line is that there's a genuine fundamental reason that these grains are ripping this way. I'm not ready to short this crowded trade, but this is a very well-known and already very well-positioned long position in this space.",
+      "zh": "但拥挤并不是一开始就是一个反向交易，因为这背后有真实的基本面。农产品综合体正在重新定价供给风险。里面有乌克兰物流的故事，还有各种各样的天气问题，比如厄尔尼诺。底线是，这些谷物这样 ripping 有一个真实的基本面理由。我还没准备好做空这个拥挤的交易，但这是这个领域里一个非常知名、已经建得非常满的多头仓位。"
+    },
+    {
+      "i": 231,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "77:49",
+      "en": "It'll be very interesting to see whether we continue to see the pattern of dips being bought and the bulls keep being rewarded for this long positioning.",
+      "zh": "看看我们能不能继续看到\"逢跌被买\"的模式、多头能不能因为这次多头持仓继续被奖励，会非常有意思。"
+    },
+    {
+      "i": 232,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "77:58",
+      "en": "Thank you, Patrick, for this. For any listeners that want to dig into these positioning charts, you can find it all for free at codsignal.com. That's C-O-T-S-I-G-N-A-L.com.",
+      "zh": "Patrick，谢谢你的分享。想深入研究这些持仓图表的听众，可以在 cotsignal.com 免费找到所有内容。就是 C-O-T-S-I-G-N-A-L.com。"
+    },
+    {
+      "i": 233,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "78:10",
+      "en": "All right. Well, that does it for this week's Market Desk. Thanks for joining us, everybody. Thank you and see you next week. And a reminder, as a Macrovoices listener, you're entitled to a two-week free trial of Big Picture Trading, where you can watch Patrick analyze and trade the markets live every single day at bigpicturetrading.com. No credit card is required to sign up and there's nothing to cancel. I'm Eric Townsend and this is Macrovoices. We'll see you next week.",
+      "zh": "好。本周的 Market Desk 就到这里。谢谢大家参与。谢谢，下周见。提醒一下，作为 MacroVoices 的听众，你可以享受 Big Picture Trading 的两周免费试用，你可以在 bigpicturetrading.com 每天实时看 Patrick 分析并交易市场。注册不需要信用卡，也没有什么需要取消的。我是 Eric Townsend，这里是 MacroVoices。下周见。"
+    },
+    {
+      "i": 234,
+      "speaker": 5,
+      "speaker_zh": 5,
+      "ts": "78:36",
+      "en": "Macrovoices is presented for informational and entertainment purposes only. The information presented on Macrovoices should not be construed as investment advice. Always consult a licensed investment professional before making investment decisions. The views and opinions expressed on Macrovoices are those of the participants and do not necessarily reflect those of the show's hosts or sponsors. Macrovoices, its producers, sponsors and hosts, shall not be liable for",
+      "zh": "MacroVoices 仅供信息和娱乐目的呈现。MacroVoices 上呈现的信息不应被理解为投资建议。在做投资决策之前，请务必咨询持牌投资专业人士。MacroVoices 上表达的观点和意见均为参与者的观点，不必反映本节目主持人或赞助方的观点。MacroVoices 及其制作方、赞助方和主持人，对"
+    },
+    {
+      "i": 235,
+      "speaker": 5,
+      "speaker_zh": 5,
+      "ts": "79:06",
+      "en": "losses resulting from investment decisions based on information or viewpoints presented on Macrovoices.",
+      "zh": "基于 MacroVoices 上呈现的信息或观点所做投资决策而产生的损失，概不负责。"
+    }
+  ]
+}

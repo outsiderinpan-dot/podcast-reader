@@ -1,0 +1,1135 @@
+{
+  "show": "alpha-exchange",
+  "kind": "transcript",
+  "id": "alpha-exchange-723f53c3",
+  "guid": "c6f16aec-0593-4021-b798-f35e02ab4e82",
+  "slug": "2026-09-08-kimberly-gallant-global-head-of-qis-723f53c3",
+  "date": "2026-09-08",
+  "title_en": "Kimberly Gallant, Global Head of QIS Structuring, CIBC",
+  "title_zh": "Kimberly Gallant（CIBC QIS 结构化业务全球主管）：波动率风险溢价、商品期限价差 carry 与 QIS 的拥挤之辨",
+  "subtitle_zh": "CIBC 的 Kimberly Gallant 讲透 QIS 多源身世、carry 与风险转移的本质，以及如何识别拥挤与 alpha 衰减。",
+  "description": "Kimberly Gallant, Global Head of QIS Structuring, CIBC",
+  "duration": "54:54",
+  "duration_seconds": 3294,
+  "episode_url": null,
+  "audio_url": "https://cdn.simplecast.com/media/audio/transcoded/d3ecbb55-76a4-4204-bc4f-e03cea58585f/1f4671ad-c08e-4d33-affe-576e0f8c1d66/episodes/audio/group/97c07559-2652-447e-8535-1737ef21d6c3/group-item/67428124-3250-456a-9109-75172ba14967/128_default_tc.mp3?aid=rss_feed&feed=8g9ryFGf",
+  "speakers": {
+    "1": "Dean Curnutt（主持）",
+    "2": "Kimberly Gallant（嘉宾）"
+  },
+  "turn_count": 139,
+  "turns": [
+    {
+      "i": 0,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "00:00",
+      "en": "Carey is a great place to start, and let's first define what Carey is, which I think most folks know. But Carey at its simplest is getting paid to hold a risk that somebody else needs you to take off their hands.",
+      "zh": "Carry（持有收益）是个很好的切入点，我们先来定义一下什么是 carry——我想大多数人已经知道了。但最简单的说法是：你因为持有某个别人需要你从他手上接下来的风险而获得报酬。"
+    },
+    {
+      "i": 1,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "00:12",
+      "en": "It's the insurance premium of financial markets, and like insurance, it works until it doesn't. One of the first questions to ask is, is it structural? Why is it structural?",
+      "zh": "它是金融市场的保险费。就像保险一样，它管用——直到不管用的那天。所以首先要问的问题之一是：这是结构性的吗？为什么是结构性的？"
+    },
+    {
+      "i": 2,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "00:23",
+      "en": "Is this noise that you're seeing, is there premium? And there's an important balance here between the backtesting process and setting out your hypothesis. And the order of that matters a lot.",
+      "zh": "你看到的到底是噪音，还是真的有溢价？这里在回测过程和提出假设之间有一个很重要的平衡，而先后顺序非常关键。"
+    },
+    {
+      "i": 3,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "00:34",
+      "en": "If backtest comes first, you tend to find that outcomes are less favorable. So some examples of Carey, one that is surely near and dear to your heart, which we've already touched on, is the volatility Carey trade.",
+      "zh": "如果先做回测，你往往会发现结果不太理想。我说几个 carry 的例子——有一个肯定很合你心意，我们之前也提到过——就是波动率 carry 交易。"
+    },
+    {
+      "i": 4,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "00:50",
+      "en": "Hello, this is Dean Curnutt, and welcome to the Alpha Exchange, where we explore topics in financial markets associated with managing risk, generating return, and the deployment of capital in the alternative investment industry.",
+      "zh": "大家好，我是 Dean Curnutt，欢迎收听 Alpha Exchange。在这个节目里，我们探讨与风险管理、收益生成以及另类投资行业资本配置相关的金融市场话题。"
+    },
+    {
+      "i": 5,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "01:08",
+      "en": "My guest today on the Alpha Exchange is Kimberly Gallant. She is the global head of QIS Structuring at CIBC. Kimberly, it's great to welcome you to the podcast today.",
+      "zh": "今天做客 Alpha Exchange 的嘉宾是 Kimberly Gallant，她是 CIBC 的 QIS 结构化业务全球主管。Kimberly，很高兴今天请到您来到播客。"
+    },
+    {
+      "i": 6,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "01:19",
+      "en": "Thank you, Dean. I'm really excited to be here. I'm really looking forward to this conversation around a product set that has just been a big growth area on the street, and it's been a big growth area because the client base has been increasingly consuming products through quantitative investment strategies.",
+      "zh": "谢谢你，Dean。我很高兴来到这里，也很期待这次对话。这个产品线最近是华尔街的一大增长领域，之所以增长这么快，是因为客户群越来越多地通过量化投资策略（QIS）来消费这些产品。"
+    },
+    {
+      "i": 7,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "01:37",
+      "en": "So we're going to learn a lot about this through you. First, get us underway with a little bit of your own career history, how you got into this very esoteric world on the sell side.",
+      "zh": "所以今天我们要向您请教很多。先请您讲讲自己的职业经历，您是怎么进入卖方这个相当小众的领域的？"
+    },
+    {
+      "i": 8,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "01:47",
+      "en": "Sure, absolutely. As you said, I'm global head of QIS here at CIBC. I've been here about six months. The seed's great for me. It's actually combined sales and structuring, which means that we're able to actually make sure that clients are really at the center of everything we're doing. Prior to this, I basically grew up at JPMorgan.",
+      "zh": "当然可以。正如您所说，我是 CIBC 的 QIS 全球主管，来这里大约六个月了。这个起点对我来说很好，实际上是销售和结构化结合在一起，这意味着我们能够确保客户真正处于我们所做一切的中心。在此之前，我基本上是在 JPMorgan 成长起来的。"
+    },
+    {
+      "i": 9,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "02:06",
+      "en": "I started at JPMorgan as an intern. I was there for the next 18 years, starting full-time in the institutional commodity business when we were building that out.",
+      "zh": "我从实习生开始加入 JPMorgan，之后的 18 年都待在那里，最初全职加入时是在机构大宗商品业务，当时我们正在搭建那块业务。"
+    },
+    {
+      "i": 10,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "02:16",
+      "en": "Index was a big part of that. Then I spent most of my career at JPMorgan within the structuring franchise, primarily focused on QIS, but dabbling in some other fun areas there.",
+      "zh": "指数化是其中的重要组成部分。后来我在 JPMorgan 的大部分职业生涯都在结构化业务线（structuring franchise），主要专注于 QIS，也涉猎了一些其他有趣的领域。"
+    },
+    {
+      "i": 11,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "02:27",
+      "en": "I landed at JPMorgan and I landed on that seed because I actually studied at the M&T program at the University of Pennsylvania. I got the opportunity to study engineering and finance and entrepreneurship. That's really the perfect combination of threads to lead someone into the QIS space. It's actually that passion for entrepreneurship that led me to take on this opportunity to get to lead the CIBC platform to the next level.",
+      "zh": "我在 JPMorgan 落脚、并接手这个岗位，是因为我读过宾夕法尼亚大学的 M&T 双学位项目，有机会学习工程、金融和创业。这三条线索的组合，恰好把人引向 QIS 这个领域。正是对创业的那份热情，让我决定接下这个机会，把 CIBC 的平台带到下一个 level。"
+    },
+    {
+      "i": 12,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "02:53",
+      "en": "QIS is quantitative investment strategies, as I alluded to. Give us the big picture of what this product is. It obviously embeds complex exposures and derivatives, but frame it all out for us from a 30,000-feet level to start. Sure. Maybe we can start with where it came from, because I think understanding how and why this came about can really better describe then it's a set of rules that you can trade in spot format, which doesn't tell you much that's",
+      "zh": "QIS 就是量化投资策略（quantitative investment strategies），我刚才提到了。请您从宏观上讲讲这个产品到底是什么。它显然嵌入了复杂敞口和衍生品，但请先从三千英尺高空帮我们勾勒一下。——好的，也许我们可以从它的来历说起，因为理解它是怎么、为什么出现的，其实能帮助我们描述它。说到底，它是一套你可以用现货形式交易（spot format）的规则——这本身"
+    },
+    {
+      "i": 13,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "03:24",
+      "en": "interesting. What's fascinating about QIS is that it isn't just one origin story. I was actually reminded this spring when my daughter's first grade New York City public school class did a unit on the Cinderella story. What's fascinating about that is that there were many versions of that story that came throughout history from different parts of the world. My reaction was, wow, this is QIS. QIS was born, obviously, from the academic literature, the work of folks like",
+      "zh": "说明不了什么有趣的东西。QIS 迷人的地方在于，它不只是一个起源故事。今年春天我真正被提醒了一次——我女儿在纽约公立小学一年级的班上做了一个关于灰姑娘故事的单元。有意思的是，这个故事在历史上、在世界不同地方有许多个版本。我的反应是：哇，这不就是 QIS 吗。QIS 显然诞生于学术文献，诞生于像"
+    },
+    {
+      "i": 14,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "03:53",
+      "en": "FOM and French. It has its origin, obviously, in CTAs, in pension funds, trying to rethink how to approach their risk models and their asset allocation. Part of the story comes from post-GFC and the implementation of Volcker and all of the prop trading desks. The banks had great IP, and they didn't know how to deploy that in a world where they couldn't implement it on their own, and their sales partners came to them and said, let's package it and sell it to our clients.",
+      "zh": "Fama 和 French 这样学者的研究。它的源头显然也在 CTA（管理期货/趋势跟踪基金），在于养老基金试图重新思考如何处理风险模型和资产配置。故事的一部分来自金融危机之后、沃尔克规则（Volcker Rule）落地、自营交易台被清理的那个时期。银行手里有很好的 IP（知识产权），但在一个不能再用自己的资产负债表去实施的世界里，它们不知道怎么部署这些 IP。于是销售伙伴找到它们说：我们把它打包，卖给我们的客户吧。"
+    },
+    {
+      "i": 15,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "04:22",
+      "en": "And part of that story comes from the commodity space, the commodity index space where I started my career. What's really valuable about this, though, is that when all of these traditions sort of converge together, at some point in the 2010s, the walls came down, and folks realized that they were all trying to solve the same problem in different forums. We found that that's when the value really started to be created because you started to get economies of scale. Each tradition",
+      "zh": "故事的另一部分来自大宗商品领域、大宗商品指数领域——也就是我职业生涯开始的地方。但真正有价值的是，当所有这些传统在 2010 年代的某个时刻汇聚到一起时，墙被推倒了，大家意识到他们其实在不同的场地里试图解决同一个问题。我们发现，价值真正开始被创造，就是从这个时刻起，因为你开始获得规模经济。每一个传统"
+    },
+    {
+      "i": 16,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "04:49",
+      "en": "brought something to the space. You had the theory from academia. You had pension funds with demand for transparency and diversification, and you had banks bringing the reality check on what survives friction of the real world, along with the actual market access, of course. The convergence also brought the benefit of economies of scale on data, technology, idea generation. You know how folks from one asset class talking to folks from another asset class and learning from their shared mathematical",
+      "zh": "都给这个领域带来了自己的东西。你有学术界提供的理论；有对透明度和分散化有需求的养老基金；还有银行提供现实检验——看看什么能经受住真实世界的摩擦——当然还有真正的市场准入。这种融合还带来了数据、技术、想法生成上的规模经济。你知道的，一个资产类别的人跟另一个资产类别的人交流，从共同的数学"
+    },
+    {
+      "i": 17,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "05:19",
+      "en": "legacies or observed market patterns that you could test out in new applications. And then, of course, the real benefit of this space is diversification, that many of these factors are uncorrelated with each other. So what is QIS? QIS is an industry that has been developed to serve all of these original challenges of the need for uncorrelated absolute return, the ability to harvest factors. Effectively, it's about risk transfer that's happening between participants that hadn't",
+      "zh": "渊源或观察到的市场模式中互相学习，然后可以把这些模式放到新的应用场景里去检验。而这个领域真正的好处是分散化——很多因子之间是互不相关的。那么 QIS 是什么？QIS 是一个发展起来回应这些原始挑战的行业：对不相关绝对收益的需求、收割因子的能力。说到底，它是发生在参与者之间的风险转移，而这些参与者过去"
+    },
+    {
+      "i": 18,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "05:53",
+      "en": "historically been connected in a streamlined and efficient fashion. And if you go back, you're referencing the post-GFC era and prop desks having this IP that they wanted to see if they could deploy. Are there milestones from back then that might have just been a step function in terms of development, whether there is the first of its kind that paved the way for growth in the segment? Are there a couple of flagship trades or areas of packaging exposures",
+      "zh": "从来没有以一种精简高效的方式连接起来。——您刚才提到金融危机后的时期，自营交易台有这些 IP 想看看能不能部署出去。从那个时期到现在，有没有什么里程碑式的节点，比如在发展上是一次阶跃式的变化，有没有第一单开创性的交易为这个细分领域的增长铺了路？有没有几个旗舰交易或者打包敞口的方式，"
+    },
+    {
+      "i": 19,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "06:27",
+      "en": "that you look back on and say, boy, that was meaningful in terms of setting us up for future growth? Yeah, so in my world, it definitely would have been the transition from commodity beta to commodity alpha to uncorrelated sources return in the space. We knew that on other trading floors, folks were obviously trading things like VIX carry in index format, and it was just expanding the universe of folks that could participate in those trades. Equity factor",
+      "zh": "让你回望时觉得：哇，那对我们后来的增长意义重大？——是的。就我所在的领域而言，肯定是从大宗商品 beta 到大宗商品 alpha、再到这个领域中不相关收益来源的转变。我们知道，在其他交易台上，人们显然已经在以指数形式交易 VIX carry 之类的东西，这只是在扩大能够参与这些交易的人群范围。股票因子"
+    },
+    {
+      "i": 20,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "06:55",
+      "en": "strategies starting to be offered in spot format. So again, the classic Fama French style exposures. So I think for me, it was both seeing that converge, but also we rearranged our business around that in 2014, really pulling everything together so that we could serve what had become a need to approach this from a cross-asset basis. You mentioned this idea of comparative advantage. I think a lot of transactions in not just markets, but just in general,",
+      "zh": "策略开始以现货形式提供。所以还是经典的 Fama-French 风格敞口。对我而言，既看到这种融合，同时我们在 2014 年围绕它重组了业务，把所有东西真正整合到一起，以回应那种已经形成的、需要从跨资产角度来处理这一需求。——您提到了比较优势这个概念。我认为不只是市场里，总的来说很多交易"
+    },
+    {
+      "i": 21,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "07:27",
+      "en": "are some version of people trade because they see comparative advantage in that trade. And I'm going back to my own career, which is really equity derivatives focused.",
+      "zh": "都是人们因为在那笔交易中看到比较优势才去做的某种版本。这让我回顾自己的职业生涯，它其实一直是聚焦股票衍生物的。"
+    },
+    {
+      "i": 22,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "07:36",
+      "en": "This goes back 30 years, but I was a significant part of the advent of variant swaps on the S&P 500. And this always, to me, was a real conquest of putting together trades from a comparative advantage standpoint, that the bank was in this position to package everything together, take on the delta hedge, and just deliver the pure vol exposure. And as I understand it, and I'd love for you just to explain this a little bit more, but a variant swap in the QIS round these",
+      "zh": "这要追溯到 30 年前，但我是标普 500 方差互换（variance swap）诞生过程中的一个重要参与者。对我来说，这始终是一次真正的胜利：从比较优势的角度把交易搭建起来，银行处在能够将一切打包、承担 delta 对冲、只交付纯粹波动率敞口的位置上。据我理解——也请您再多解释一下——如今在 QIS 的世界里，方差互换"
+    },
+    {
+      "i": 23,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "08:08",
+      "en": "days would not just be a swap, but it would actually be the positions themselves with some rules around how the delta hedging scheme is implemented that you can look through to the portfolio.",
+      "zh": "不再只是一笔互换，而实际上是头寸本身，加上一些关于 delta 对冲方案如何实施、你可以穿透看到组合的规则。"
+    },
+    {
+      "i": 24,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "08:21",
+      "en": "I'd just love to learn a little bit more about that sense of transparency for the end user to be able to look through this very complex mix of exposures, but down to almost the position level.",
+      "zh": "我很想了解这种透明度的意义：终端用户能够穿透这一大堆非常复杂的敞口组合，一直看到接近单个头寸的层面。"
+    },
+    {
+      "i": 25,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "08:33",
+      "en": "Sure. That's a really interesting example. So over time, harvesting the volatility risk premia in QIS format has evolved. And so it actually, the first strategies I was aware of, well, the first were probably the VIX role trade. Then it evolved into delta hedged straddles or strangles, the challenge there being you might have concentrated or not very consistent gamma exposure that led us to actually implementing variant swaps. So instead of having one variant",
+      "zh": "好的，这是个很有趣的例子。随着时间推移，以 QIS 形式收割波动率风险溢价（volatility risk premium）一直在演变。我所知道的最早的策略——最早的可能是 VIX 展期交易（VIX roll trade）。然后演变成 delta 对冲的跨式或宽跨式组合，难点在于你的 gamma 敞口可能很集中或者不太稳定，这就促使我们实际去实施方差互换。所以不是只做一笔方差"
+    },
+    {
+      "i": 26,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "09:09",
+      "en": "swap, the idea would be that you would enter a new variant swap every day. So you could sell weekly variants, monthly variants, depending on where you thought the highest opportunity set was.",
+      "zh": "互换，而是每天新建一笔方差互换。这样，根据你认为机会最大的地方，你可以卖周度方差、月度方差。"
+    },
+    {
+      "i": 27,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "09:21",
+      "en": "Not only did that give you a smoother gamma profile, of course, but then you're also able to monetize some of the SKU that you wouldn't get if you were just trading out the money to your point. At some point, I couldn't pinpoint the year. Clients realized they would prefer not to sell the unbounded variant swap structure. And the banks had the technology from when we were doing the original delta hedged straddles to deliver instead a portfolio of options. So that's",
+      "zh": "这不仅让你得到更平滑的 gamma 曲线，而且还能变现一部分偏度（skew）——正如您所说，如果只是做虚值交易，你就拿不到这部分。某个时点——我说不准是哪一年——客户意识到他们宁愿不要卖出无上界的方差互换这种结构。而银行从当初做原始 delta 对冲跨式组合时就掌握了相关技术，可以改为交付一个期权组合。于是"
+    },
+    {
+      "i": 28,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "09:53",
+      "en": "when it did converge to and today the most common VRP applications for just a very vanilla, how do I harvest the volatility risk premia in equities would be, for example, to sell on a daily basis a strip of options that are expiring in a week, that would be the one over k-squared variant replication portfolio, where you're documenting exactly how much of each hypothetical option you're selling and then how you're hedging that delta. And you can have the ability to",
+      "zh": "两者融合到了一起。如今最常见的 VRP（波动率风险溢价）应用——比如一个很常规的问题：我怎么在股票里收割波动率风险溢价——举例来说，就是每天卖出一组一周后到期的期权条带（strip），那就是 1/K² 方差复制组合，你在里面精确记录卖出了多少每一只假想期权，以及如何对冲那个 delta。你还可以选择"
+    },
+    {
+      "i": 29,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "10:23",
+      "en": "hedge that delta on the close, hedge that delta intraday. So that's where the industry has evolved to. As you're talking about this industry, there's certainly seems to be a very big focus on cross asset mixing different exposures. And if we start from the top, maybe you can break this down for us, but at least my own rendering of how I think about markets and risk is in some ways, and this is a crude statement, but you're either a short vol or long vol. You're either paying carry or",
+      "zh": "在收盘时对 delta 进行对冲，或者在盘中对 delta 进行对冲。这就是行业演化到今天的样子。——听您讲这个行业，显然有一个非常大的焦点是跨资产、混合不同的敞口。如果我们从最高处开始——也许您帮我们梳理一下——至少我自己对市场与风险的解读，虽然话说得糙一点，就是：你要么做空波动率要么做多波动率，要么付出 carry 要么"
+    },
+    {
+      "i": 30,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "10:52",
+      "en": "taking it in. And there's certainly a ton of nuance that you can add to that. But if you could just give us some big picture of the types of exposures that folks are looking for through the QIS product, maybe start big picture and then we can drill down a little bit.",
+      "zh": "赚取 carry。当然这中间可以加很多细微差别。但如果您能大致讲讲大家通过 QIS 产品在寻找哪些类型的敞口——可以先讲大框架，我们再往下挖细节。"
+    },
+    {
+      "i": 31,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "11:09",
+      "en": "Sounds great. You said it. Selling vol, buying vol, I would say you want to make money or you want to hedge. We actually have a lot of folks that come to us that want both, and we try to explain to them why that is not necessarily a reasonable set of expectations. And that's part of what makes this a market. So there are hedging strategies, could be systematic hedging strategies where the value of doing it in QIS format is that you're just able to, like the variance replication",
+      "zh": "听起来很好。您说了：卖波动率、买波动率。我会说：要么你想赚钱，要么你想对冲。实际上很多人来找我们时两样都想要，我们会试着向他们解释为什么这不是一套合理的预期。而这正是这个市场之所以成为市场的一部分原因。所以有对冲类策略，可能是系统性对冲策略——用 QIS 形式来做它的价值在于，就像方差复制"
+    },
+    {
+      "i": 32,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "11:38",
+      "en": "program, the bank is able to automate and take the labor out of the process for you, again, economies of scale, or it could be providing some other convex based exposure, or perhaps the carry drag is not as significant. And then, of course, a significant portion of the industry is in the make money category. Within the how do we generate returns for investors, there are two categories of strategies. And this is where that taxonomy starts to come in.",
+      "zh": "计划那样，银行能够把它自动化、替你把人力从流程中拿掉——还是规模经济；或者它可能是提供某种基于凸性（convexity）的敞口，又或者 carry 的拖累没那么显著。当然，行业里相当大一部分属于'赚钱'这个类别。在'我们如何为投资者创造回报'里面，策略分两大类。这就是分类学开始起作用的地方。"
+    },
+    {
+      "i": 33,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "12:10",
+      "en": "There's obviously constantly a search for alpha. Alpha is rare and we can get into that. And then there's, again, we have many different terms for this because this has come from so many different origins, but there are factor strategies, alternative risk, premium, alternative beta, etc., where there is a risk transfer between different market participants. Sometimes that's carry, momentum, etc., of all risk, premium, of course. And you by combining those together can hopefully",
+      "zh": "显然一直在寻找 alpha。Alpha 是稀缺的，这个我们可以展开聊。然后——因为我们从太多不同的源头而来，所以对同一个东西有很多不同的叫法——因子策略（factor strategies）、另类风险溢价（alternative risk premium）、另类 beta（alternative beta）等等，其背后是不同市场参与者之间的风险转移。有时候是 carry、动量（momentum）等等，当然是所有风险溢价。把那些组合在一起，希望"
+    },
+    {
+      "i": 34,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "12:40",
+      "en": "create a reasonably diversified portfolio. And so in your role, global head of QIS structuring, I'm just thinking back to my own time in markets and just being a bit more of a plain vanilla person, you really have sales and trading. Here you have three, and I'm sure there's plenty more support on technology and so forth, but sales structuring and trading. Break that down for us.",
+      "zh": "就能构建一个合理分散的组合。——就您的角色而言，QIS 结构化业务全球主管——我回想我自己在市场里的岁月，我一直算是个比较'香草'的人——那边有销售和交易。而你们这里有三块——技术和诸如此类的支持肯定还有很多——销售、结构化和交易。给我们拆解一下"
+    },
+    {
+      "i": 35,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "13:05",
+      "en": "The interaction between these three different partners in the business just help us to understand a little bit more where the different roles begin and end and how they interact.",
+      "zh": "业务中这三个不同伙伴之间的互动，帮我们理解不同角色的边界在哪里、他们如何协作。"
+    },
+    {
+      "i": 36,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "13:17",
+      "en": "Absolutely. And ideally, there's a lot of overlap between them. So trading, of course, classically is responsible for managing the risk of the market's organization. So when a strategy is actually implemented, it's our trading partners that are the ones that are ensuring that if a client has said that they're going long variance replication strategy with us, that somebody's making sure that we have replicated the risk on the other side, either through the netting of",
+      "zh": "没问题。理想情况下，它们之间有很大重叠。交易，经典意义上负责管理做市机构自身的风险。所以当一个策略真正落地时，是我们的交易伙伴在确保：如果客户跟我们说要做多方差复制策略，有人确保我们在另一端复制了对应的风险——要么通过与其他头寸"
+    },
+    {
+      "i": 37,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "13:44",
+      "en": "other positions or through going out and actually trading the replication portfolio. Trading's involvement throughout the process is really essential. I mentioned earlier this concept of knowing where frictions break down and the concept of reality, that's a big part of what trading's job is to achieve for us. Structuring typically holds the pen on the bulk of the QIS business from building out the infrastructure and partnership with technology and our quant",
+      "zh": "轧差净额化，要么通过实际去交易复制组合。交易在整个流程中的参与是真正不可或缺的。我之前提到过那个概念——知道摩擦在哪里出问题、知道什么叫现实，那是交易为我们工作的一大核心。结构化通常执掌 QIS 业务的大部分，从与技术团队和量化伙伴合作搭建基础设施，"
+    },
+    {
+      "i": 38,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "14:12",
+      "en": "partners to doing what is the fun and more glamorous part of the job, which is the core research and developing the strategies. And very importantly, as many a structure has been subjected to over the past nearly two decades of working with me, staying on top of the performance of the strategies and continuously having a view of whether that premium is still legitimate and compensate in the market, call it commentary.",
+      "zh": "到做这份工作中有趣、更光鲜的部分——核心研究和开发策略。还有非常重要的一点——过去近二十年来我经手过很多结构——持续跟踪策略的表现，并不断判断那份溢价在市场上是否仍然得到了合理的补偿，就算作评论意见吧。"
+    },
+    {
+      "i": 39,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "14:38",
+      "en": "And then there's sales. And actually at CIBC, structuring and sales are both integrated into one team. So sales is there to make sure that you don't have some really smart person sitting off in a corner building some strategy that sounds good, but doesn't actually solve anyone's problem.",
+      "zh": "然后是销售。实际上在 CIBC，结构化和销售合并成了一个团队。所以销售存在的意义，是确保不会出现某个很聪明的人窝在角落里，做了一个听起来很好、但其实没解决任何人问题的策略。"
+    },
+    {
+      "i": 40,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "14:57",
+      "en": "So sales is working very closely with structuring to both inform the product development pipeline, connect with clients, but really to make sure that we're anchoring what we're building and the strategies we're developing back into some real client need. Again, the origins of this business all came from some real need or some valid market hypothesis. A big part of sales' job is to make sure that that tradition stays alive. And you touched on it a little bit there",
+      "zh": "销售与结构化非常紧密地合作，既为产品开发管线提供输入、连接客户，更重要的是把我们正在构建的东西、正在开发的策略，锚定回某个真实的客户需求。同样地，这个业务的所有起源都来自某个真实需求或某个有效的市场假设。销售工作的重要部分，就是确保这个传统延续下去。——您刚才也稍微提到了"
+    },
+    {
+      "i": 41,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "15:25",
+      "en": "in terms of the role of structuring is, especially as you see it, is to identify where that compensation for, let's say bearing risk, so for generating carry is a, I'll just put it in quotes, a good deal. And that these premium are time varying, they might get crowded at different points in time. Maybe just take us through your big picture thought process on that. We can get more specific, but just the big picture question as you and your team seem to be thinking a lot",
+      "zh": "结构化角色的定位，特别是在您看来，它是要识别出：为承担风险所获得的补偿——比如赚取 carry 的那部分——什么时候是一笔'好买卖'（我用引号说）。而且这些溢价是随时间变化的，在不同时点可能会变得拥挤。请您带我们讲讲您在这件事上的大思路，我们可以再细化，但就是这个大问题，您和您的团队似乎花了很多"
+    },
+    {
+      "i": 42,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "15:58",
+      "en": "about, which is where are there good deals to be had for bearing some risk? Carry is a great place to start. And let's first define what carry is, which I think most folks know. But carry at its simplest is getting paid to hold a risk that somebody else needs you to take off their hands. It's the insurance premium of financial markets. And like insurance, it works until it doesn't. One of the first questions to ask is, is it structural? Why is it structural?",
+      "zh": "心思思考的地方：在承担某些风险方面，哪里有划算的买卖？——Carry 是个很好的起点。我们先定义一下什么是 carry，我想大多数人知道。但最简单的说法是：你因为持有某个别人需要你替他接下来风险而获得报酬。它是金融市场的保险费。像保险一样，它管用，直到不管用。首先该问的问题是：它是结构性的吗？为什么是结构性的？"
+    },
+    {
+      "i": 43,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "16:27",
+      "en": "Is this noise that you're seeing, is there premium? And there's an important balance here between the backtesting process and setting out your hypothesis. And the order of that matters a lot. If backtest comes first, you tend to find that outcomes are less favorable. So some examples of carry, one that is surely near and dear to your heart, which we've already touched on, is the volatility carry trade. In equities, generally, there are certain market participants",
+      "zh": "你看到的是噪音吗？那里有溢价吗？回测过程和提出假设之间有一个重要平衡，先后顺序非常关键。如果回测在先，你会发现结果往往没那么好。说几个 carry 的例子——肯定很中您心意的一个、我们之前也提过的，是波动率 carry 交易。在股票市场上，一般来说有某类市场参与者"
+    },
+    {
+      "i": 44,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "16:56",
+      "en": "that have to be buyers of all due to their own capital structure. So top of mind are insurance companies with guaranteed annuity products where they've effectively written a put to the policy holder. Banks, of course, who are optimizing their regulatory capital and they have many different tools to do that. One of those is to buy S&P tails. These market participants will pay above fair value for puts because the alternative, holding the unhedged tail risk is ultimately going to cost",
+      "zh": "由于自身资本结构的缘故，必须是波动率的买方。首先想到的是有保证年金产品的保险公司——他们实际上是向保单持有人卖出了看跌期权。当然还有银行，它们在优化监管资本，手里有很多不同的工具，其中之一就是买标普的尾部（S&P tails）。这些市场参与者愿意以高于公允价值的价格买入看跌期权，因为另一个选择——持有未对冲的尾部风险——最终会在监管或偿付能力上让他们付出更多，比支付那个隐含-已实现的差价"
+    },
+    {
+      "i": 45,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "17:23",
+      "en": "them more in regulatory or solvency terms than paying the implied realized differential there. That creates a carry opportunity. So there are investors who may be under a different capital regime that are looking for the economic trade there. And both market participants are rational. Now, not all volatility is created equal and not all parts of the wall surface. Again, I don't have to tell you, not all parts of the wall surface are the same. Again, you have to test",
+      "zh": "还要贵。这就创造了一个 carry 机会。于是有些投资者，可能处在不同的资本制度下，就在寻找这笔经济上划算的交易。两边参与者都是理性的。不过，并非所有波动率都一样，并非波动率曲面的每一部分都一样。 Again——不用我提醒您——波动率曲面的不同部分并不相同。还是那句话，你必须检验"
+    },
+    {
+      "i": 46,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "17:54",
+      "en": "your hypothesis, not just with a back test, but by monitoring the actual flows. There are, of course, natural sellers of volatility in the equity markets as well. Structured products can be a source of volatility demand as well as volatility supply. And so understanding if you are coming in and being a supplier of volatility, because you're looking to earn returns and you think that's your role in the ecosystem, well, are you participating in a part of the surface where there is currently",
+      "zh": "你的假设，不只用回测，还要通过监控真实资金流。当然，股票市场里也有波动率的天然卖方。结构化产品既可以是波动率需求的来源，也可以是波动率供给的来源。所以你要理解——如果你进场做波动率的供给方，因为你想赚收益、并且认为这是你在生态系统中的角色——那么你是否参与了曲面中目前波动率"
+    },
+    {
+      "i": 47,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "18:25",
+      "en": "more demand than supply for volatility? And that's something where, again, you have the structures who are thinking through that process and doing the analysis, but need to constantly be in touch with the folks who are responsible for managing those risks. And that's both sales, who's originating in the business, but also traders who see the flows going through the markets.",
+      "zh": "需求大于供给的那一部分？这件事上，是结构化团队在做这个流程思考和具体分析，但他们必须与负责管理这些风险的人保持持续接触。那既包括开拓业务的销售，也包括看到市场资金流进来的交易员。"
+    },
+    {
+      "i": 48,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "18:44",
+      "en": "Volatility risk premium is a cross asset phenomenon because there is demand for insurance in other markets as well. And options are obviously very convenient package for convex exposure.",
+      "zh": "波动率风险溢价是一个跨资产现象，因为在其他市场同样存在对保险的需求。而期权显然是打包凸性敞口非常便利的形式。"
+    },
+    {
+      "i": 49,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "18:55",
+      "en": "But likewise in other markets, you need to always stop and ask yourself, is this a market where the naturals are buyers or sellers of volatility? Commodity vol has been quite topical lately, and commodity vol has gotten thrown into one bucket. Commodities are not one market. There are dozens of markets underlying commodities, and even many, even just in the vol space. If you look at just within crude oil, WTI and Brent are very different volatility markets.",
+      "zh": "但在其他市场也一样，你必须随时停下来问自己：这是一个天然客户在买波动率还是卖波动率的市场？大宗商品波动率最近相当热门，而大宗商品波动率被简单归成了一个桶。大宗商品不是一个市场。大宗商品下面有几十个市场，就算只在波动率领域里看也是这样。比如只看原油内部，WTI 和 Brent 是非常不同的两个波动率市场。"
+    },
+    {
+      "i": 50,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "19:28",
+      "en": "Post the advent of shale as North American producer balance sheets got more stretched, what used to be a classic put buying program for the producers who are hedging against the risk that prices would drop, have converted into what are called producer three ways or put spread collars that are net short vega. And so in WTI, you tend to see the dominant flow. And I went to double check this with the traders last week to make sure we weren't seeing a shift here.",
+      "zh": "页岩革命之后，随着北美生产商资产负债表吃紧，生产商过去那种经典的做法——买入看跌期权对冲价格下跌风险——已经转化为所谓的生产商三腿（producer three-ways）或看跌价差领口（put spread collars），净头寸是做空 vega。所以在 WTI 里，你往往能看到主导资金流——上周我还特意向交易员复核了一下，确认我们没有看到转向。"
+    },
+    {
+      "i": 51,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "19:58",
+      "en": "The dominant flow in WTI crude oil is actually net short vega, net vega selling from the corporates. Whereas in Brent, we tend to see the opposite. You tend to see more buyers of volatility, because you have more macro players, consumer participants, and non-North American producers that will tend to hedge buying puts. So again, keep anchoring back to you have this infrastructure, you have the data, you have the ability to wrap these products with this market access",
+      "zh": "WTI 原油的主导资金流实际上是净做空 vega，即企业端净卖出 vega。而在 Brent，我们往往看到相反情况：更多波动率的买方，因为那里有更多宏观玩家、消费端参与者，以及北美之外的生产商，他们倾向于买入看跌期权做对冲。所以 again，始终回到锚点上：你有这套基础设施，你有数据，你有能力把这些产品连同市场准入"
+    },
+    {
+      "i": 52,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "20:28",
+      "en": "in this very convenient wrapper, almost too convenient. Often the hard part is having the discipline to ask the question of, this backtest looks really good. Do I expect that to persist?",
+      "zh": "包进一个非常便利的外壳里——几乎便利过头了。难的部分往往是有没有纪律去问这个问题：这个回测看起来很好，我预期它能持续吗？"
+    },
+    {
+      "i": 53,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "20:40",
+      "en": "The backtest looks really good. Is it lucky or is it good? And so I think starting with this more maybe economic thesis of, okay, you've got some maybe imbalance or a natural that needs to do something for business purposes, whether it's being a buyer of all or seller of all, is a great place to start. I'm curious, as you mentioned, had not known this about Brent versus WTI in terms of differential and supply",
+      "zh": "回测看起来很好——它是运气好还是真的好？我觉得，从一个更有经济学色彩的论点出发是个很好的起点：好的，你发现了某种不平衡、某种天然客户出于商业目的必须做某件事——不管是买波动率还是卖波动率。——我很好奇，您提到——关于 Brent 和 WTI 之间在波动率的"
+    },
+    {
+      "i": 54,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "21:06",
+      "en": "demand for vol. Does that potentially manifest itself into some vol pairs strategy? Is that doable? That's a big find on the street, for sure. And that's where QIS can get really fun.",
+      "zh": "供需差异上我此前并不知道。这会不会体现为某种波动率配对策略？这做得到吗？这肯定是华尔街的一大发现。而这正是 QIS 可以变得很好玩的地方。"
+    },
+    {
+      "i": 55,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "21:20",
+      "en": "Yes, there are strategies out there that will look to monetize the Brent volatility risk premium outright. And then there are strategies that will look to sell Brent vol and buy WTI vol.",
+      "zh": "是的，市场上有些策略会直接去变现 Brent 的波动率风险溢价。还有一些策略会卖 Brent 波动率、买 WTI 波动率。"
+    },
+    {
+      "i": 56,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "21:32",
+      "en": "And depending on how you construct that, you might get very different outcomes. And that's where once you've identified, okay, we can track the flows, we talked to the traders, we know the corporate franchise, we believe that this is stable. Now we can spend the time on what AQR would call craftsmanship alpha of how do you make sure that you're implementing your strategy in a way where you're isolating the risks that you're interested in. And yes, that's",
+      "zh": "而根据你构建方式的不同，得到的结果可能非常不一样。当你确认了：好的，我们可以追踪资金流，我们跟交易员聊过，我们了解企业客户业务条线，我们相信这是稳定的——接下来就可以花时间研究 AQR 所说的工艺 alpha（craftsmanship alpha）：你怎么确保自己实施策略的方式，恰好隔离出你真正想要的那些风险。是的，那正是"
+    },
+    {
+      "i": 57,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "21:59",
+      "en": "exactly where the QIS structuring capabilities end up getting rolled out to maximize that opportunity. Well, we should spend some time talking about the summer or really maybe just since late February, all of the vol in crude in general, how that's impacted both the structuring side in terms of creating new ideas in crude, but also the performance of existing strategies.",
+      "zh": "QIS 结构化能力最终被施展出来、把机会最大化的地方。——我们应该花点时间聊聊夏天、或者说其实从 2 月底以来原油波动率的行情，它如何影响了结构化这一端——在原油上创造新想法——也影响了现有策略的表现。"
+    },
+    {
+      "i": 58,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "22:26",
+      "en": "Before that, just touch on the broad concept of commodity carry, because that's a term and it's a little different in commodities because you have both vol curves and time curves, calendar curves, help us understand what that means in the world of QIS.",
+      "zh": "在那之前，先简单谈谈大宗商品 carry 这个大概念，因为这是个术语，而且在大商品里它有点不一样，因为你既有波动率曲线又有时间曲线——日历曲线（calendar curves）。帮我们理解一下这在 QIS 世界里意味着什么。"
+    },
+    {
+      "i": 59,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "22:44",
+      "en": "Outside of VRP, there are typically two types of commodity carry, and they both rely upon time spreads for implementation. The classic, the one when I started was just called commodity alpha, and actually back pre 2010, the sharp ratio is four to six, so it was alpha, no more, is a diversified portfolio of short time spreads and commodities. Now, that portfolio is a way to be compensated for a number of different risks that are in the market. So what are time spreads?",
+      "zh": "在 VRP 之外，通常有两类大宗商品 carry，两者都依赖期限价差（time spreads）来实施。经典的那一种——我入行时它就叫大宗商品 alpha——实际上 2010 年之前它的 Sharpe 比率在 4 到 6，所以那是 alpha，仅此而已——它是一个做空大宗商品期限价差的分散化组合。这个组合是通过承担市场里的多种不同风险来获得补偿。那么什么是期限价差？"
+    },
+    {
+      "i": 60,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "23:19",
+      "en": "Time spreads are essentially the market traded price for a molecule today versus a molecule a month from now, three months from now, etc. Being short time spreads means you're short the front contract and long the back. But when you do that, you're taking on the risk that there will be some sort of disruption and there's not enough of the commodity to go around and prices in the front need to outperform prices in the back. So what types of risks are those? There's macro risk,",
+      "zh": "期限价差本质上就是今天一桶的成交价，对比一个月后、三个月后一桶的价格等等。做空期限价差意味着你做空前月合约、做远月合约。但当你这么做时，你承担的风险是：某种扰动发生、商品不够分了，近月价格需要跑赢远月价格。那么这些风险是哪些类型？有宏观风险、"
+    },
+    {
+      "i": 61,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "23:52",
+      "en": "there's geopolitical risk, straight up hormones closing to infrastructure risk, weather risk and seasonality, policy risk, biological risk. The conversations we have in the commodities markets are fascinating and grounded in what's happening day to day in the real world. What happened earlier this year with the commodity curve strategy, which is one of the most classic QIS strategies is investors were short time spreads across a portfolio. Now, in this",
+      "zh": "有地缘政治风险，飓风直接关停基础设施的风险、天气与季节性风险、政策风险、生物风险。我们在大宗商品市场里的对话非常迷人，因为它扎根于现实世界每天发生的事。今年早些时候商品曲线策略——那是最经典的 QIS 策略之一——发生的事情是，投资者在整个组合里做空期限价差。这一次，"
+    },
+    {
+      "i": 62,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "24:23",
+      "en": "instance, the performance, which actually led to the largest drawdown in the performance of these strategies in history, and they've been traded for over two decades, was entirely driven by the petroleum complex. We did not see contagion actually in the rest of the complex, which indicates it thankfully was not that crowded and you didn't see forced unwinds of other positions. But what happened again, is that while prices went up quite a bit, the magnitude of the move in time",
+      "zh": "其表现——实际上创下了这些策略有史以来最大的回撤，而它们已被交易超过二十年——完全由石油板块驱动。我们并没有看到整个板块其他部分的传染，这说明谢天谢地它没那么拥挤，你也没看到其他头寸被强制平仓。但发生的事情是：虽然价格涨了不少，但期限价差的变动幅度——"
+    },
+    {
+      "i": 63,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "24:55",
+      "en": "spreads, so the outperformance of the front contract versus the next contract was much more significant on a historical basis than the price move itself. And that is not a strategy being broken. That is a classic carry trade where you have taken on risk from another market participant, so a producer who needs to hedge their forward production from a consumer who's trying to ensure that they have price certainty as they feed into their downstream pricing.",
+      "zh": "也就是近月合约相对次近月合约的跑赢程度——从历史基准看远比价格本身变动更显著。这不是策略坏了。这就是经典的 carry 交易：你从另一个市场参与者那里承担了风险，比如一个需要对冲未来产量的生产商，或者一个在往下游定价传导时想要确保价格确定性的消费者。"
+    },
+    {
+      "i": 64,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "25:28",
+      "en": "I've always looked at maybe the commonality in whether it's the VIX curve, the crude, so the VIX is a vol curve, the crude time curve, and also the implied vol curve, even the treasury curve. Inversions are really about urgency, they're associated with volatility. Certainly, if we map the inversions of the VIX curve relative to realized vol, we'd see a pretty common occurrence, which is high realized vol drives the inversion. Same thing in commodity curve inversions, the time",
+      "zh": "我一直在看也许存在共性，不管是 VIX 曲线、原油——VIX 是波动率曲线，原油的时间曲线，还有隐含波动率曲线，甚至国债曲线。曲线倒挂本质上关于紧迫性，它们与波动率相关。确实，如果我们把 VIX 曲线的倒挂对照已实现波动率来做映射，会看到一个很常见的现象：高已实现波动率驱动倒挂。商品曲线、时间曲线的"
+    },
+    {
+      "i": 65,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "26:00",
+      "en": "curve. So it's interesting to see across these markets. One thing you just said, I just love for you to follow up on, which is this idea of no contagion. So very crude, concentrated.",
+      "zh": "倒挂也是这样。所以跨这些市场观察很有意思。——您刚才说的一点，我很想请您展开一下，就是'没有传染'这个概念。"
+    },
+    {
+      "i": 66,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "26:12",
+      "en": "There were some modest inversions in things like corn that I noticed wheat. They're in some ways related to crude, fertilizer. A lot of these things are tied together. But I can imagine, as someone implements a commodity curve strategy, and they're looking for diversification across these different curves, they've got to be in some ways relying on that these markets are going to behave reasonably differently. That maybe one of them gets shocked, but not all of them get",
+      "zh": "很原油、很集中。我注意到玉米、小麦有些温和的倒挂。它们在某种程度上与原油、化肥相关联。很多事情是绑在一起的。但我可以想象，当有人实施商品曲线策略、寻找这些不同曲线之间的分散化时，他们在某种程度上依赖于这些市场的表现会有合理程度的差异。也许其中一个受到冲击，但不是所有同时"
+    },
+    {
+      "i": 67,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "26:39",
+      "en": "shocked at once. Perhaps you can just tell us a little bit more about what you observed this last four or five months. Sure. And we actually put out a note on this as the market was going through the drawdown. I'd say, first of all, you're right. Yes, of course. So there were fundamental reasons why other commodity markets were being impacted. Natural gas is not petroleum, but obviously it was impacted petroleum, and the products were impacted as well.",
+      "zh": "受到冲击。也许您能再跟我们讲讲过去四五个月您观察到的情况。——好的。我们实际上在市场经历回撤期间发布了一份备忘录。首先我想说，你是对的。是的，当然。其他商品市场受到影响有基本面原因。天然气不是石油，但显然受到了影响；成品油也受到了影响。"
+    },
+    {
+      "i": 68,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "27:06",
+      "en": "But on balance, the drawdown in petroleum explained all of the drawdown and the broader portfolios. There were other commodity time spreads that were generating positive returns to offset others. Small losses in areas where fertilizer concerns would have caused impact.",
+      "zh": "但总体来看，广义组合中全部的回撤都由石油板块的回撤解释。有其他大宗商品期限价差产生了正回报，抵消了部分损失。在化肥担忧会造成冲击的领域，只是小幅亏损。"
+    },
+    {
+      "i": 69,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "27:23",
+      "en": "So commodities themselves, if you look at just, for example, the correlation matrix of the universe of front month rolling commodity futures tend to be less correlated with each other than other markets. So for example, if you were to look at the equity sectors, when you look at the correlation over a long time period of commodity time spreads, so the same thing. So if you were to create, for example, a rolling index or your loans, the third contract and short the",
+      "zh": "所以大宗商品本身——如果你只看近月展期商品期货这个 universe 的相关性矩阵——它们相互之间的相关性往往低于其他市场。比如说，如果你去看股票板块——对大宗商品期限价差在长时间维度上看相关性，情况一样——假如你构建一个滚动指数，比如做多第三月合约、做空"
+    },
+    {
+      "i": 70,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "27:49",
+      "en": "first contract, there are clusters of correlation. So for example, products, which would be gasoline, heating oil, gas oil, et cetera, and Brent and WTI, so petroleum will cluster together, they'll have some positive correlation. But broadly, the rest of the complex is fairly uncorrelated. And so that is part of the reason why the commodity curve trade is so powerful.",
+      "zh": "第一月合约，会看到相关性成簇。比如成品油——汽油、取暖油、瓦斯油等——还有 Brent 和 WTI，也就是石油会聚成一簇，彼此有一些正相关。但大体上，整个板块其余部分相关性相当低。这也是商品曲线交易如此强大的部分原因。"
+    },
+    {
+      "i": 71,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "28:16",
+      "en": "You have this very real economic risk transfer that's happening, you're providing a real head through some market participant who has a different set of objectives than you.",
+      "zh": "这里发生的是非常真实的经济性风险转移。你通过某个与你目标函数不同的市场参与者，提供了一份真实的保险。"
+    },
+    {
+      "i": 72,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "28:27",
+      "en": "A producer of crude oil or a farmer has a different set of objectives than a pension fund. And each of those types of insurance that you're selling is uncorrelated with the others.",
+      "zh": "原油生产商或农民的目标函数和养老基金不同。而你卖出的每一份这样的'保险'，彼此之间是不相关的。"
+    },
+    {
+      "i": 73,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "28:37",
+      "en": "When you do go through a drawdown, and that's why when we put out the note, one of the questions we asked is, when you go through a drawdown, can you identify why you're going through the drawdown?",
+      "zh": "当你真的经历回撤时——所以我们发备忘录时问的问题之一就是：当你经历回撤时，你能识别出回撤的原因吗？"
+    },
+    {
+      "i": 74,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "28:47",
+      "en": "Is it related to one of those fundamental risks that you mapped out ahead of time? And are you seeing the assets or the components that are causing the drawdown, mathematically, as you're watching live markets, do they have a fundamental linkage to the physical event in the case of commodities that is causing the drawdown?",
+      "zh": "它跟你事先勾勒的那些基本面风险有关吗？从数学上看，在你观察实时市场时，造成回撤的资产或成分，与大宗商品情况下引发回撤的真实物理事件，有基本面关联吗？"
+    },
+    {
+      "i": 75,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "29:09",
+      "en": "And that leads us to, I think, another topic that you'd mentioned you wanted to discuss, which is this topic of crowding and correlation. You can have correlations evolve over time, but when you see in the middle of a crisis, clustering of performance, when there isn't an economic reason for certain assets to express co-movements, that's a pretty good indicator that you have some sort of crowding.",
+      "zh": "这就引到我认为您之前提到想讨论的另一个话题：拥挤与相关性。——相关性会随时间演变。但当你在危机中段看到业绩抱团，而某些资产共同波动之间并没有经济上的理由时，那是你存在某种拥挤的相当好的信号。"
+    },
+    {
+      "i": 76,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "29:37",
+      "en": "And as you talk about crowding, I think about when enough folks crowded to a risk exposure, the edge might come out of it. You can push risk premiums down by crowding into them, and you had said that years ago the sharp ratio for some of these calendars was on the order of four no longer. Tell us about that alpha decay over time, the extent of it, how much of it's just a function of efforts like QIS of just being able to package",
+      "zh": "说到拥挤，我会想：当足够多的人挤进一个风险敞口，优势可能就被挤掉了。你可以通过拥挤进入来压低风险溢价。您说过，多年前这些日历策略的 Sharpe 比率一度在 4 这个量级——如今不再了。跟我们讲讲随着时间推移的 alpha 衰减、它的程度、其中有多少只是 QIS 这类努力的结果——把它打包"
+    },
+    {
+      "i": 77,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "30:08",
+      "en": "it and deliver it so efficiently to end users. I think there's a difference between something going from alpha to a genuine risk transfer and having a fair price of risk, and something being crowded. We'll pick on commodity curve, which is one of my favorites, and we've seen it go through all cycles. So yes, there was an era where commodity curve was alpha, where there was just a lack of risk being deployed into the strategy,",
+      "zh": "并以如此高效的方式交付给终端用户。——我认为，一个东西从 alpha 变成真正的风险转移、拥有公平的定价，和一个东西变得拥挤，是有区别的。就拿商品曲线开涮吧，它是我的最爱之一，我们看着它穿越了所有周期。是的，有一个时期商品曲线就是 alpha，那时部署到策略里的风险太少，"
+    },
+    {
+      "i": 78,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "30:36",
+      "en": "and it was delivering well above the reasonable compensated sharp ratios. Then it's gone through most of the last 20 years, where it's behaved as a reasonable factor delivering a sharp ratio of about one, which, by the way, is still pretty great for something that is broadly uncorrelated with equity risk premium and other factors.",
+      "zh": "它交付的回报远高于合理补偿的 Sharpe 水平。然后过去 20 年里的大部分时间，它表现得像一个合理的因子，交付大约 1 的 Sharpe 比率——顺便说一句，对于一个与股票风险溢价及其他因子大体不相关的东西来说，这仍然相当不错。"
+    },
+    {
+      "i": 79,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "30:55",
+      "en": "Where it gets crowded, and I remember this in contrast to what happened earlier this year, I remember summer of 2012, there was the worst drought on record in North America.",
+      "zh": "而当它变得拥挤时——我记得这与今年早些时候发生的事情形成对照——我记得 2012 年夏天，北美经历了有记录以来最严重的干旱。"
+    },
+    {
+      "i": 80,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "31:07",
+      "en": "And so you had drawdowns start from natural gas, so it was hot, and there was a drawdown, natural gas, corn, soybeans. But then we did start to see that contagion that we didn't see earlier this year. We started to see that contagion spread to other areas, and that's a sign of crowding. After we identified the co-movement in these time spirits that otherwise should be uncorrelated, we started pushing more and understanding some other banks",
+      "zh": "于是回撤从天然气开始——天气很热——天然气、玉米、大豆都出现回撤。然后我们确实开始看到今年早些时候没有看到的传染。我们看到传染扩散到其他领域，那就是拥挤的信号。在我们识别出这些本应不相关的期限价差之间的共同波动之后，我们开始推进更多研究，并了解到其他一些银行"
+    },
+    {
+      "i": 81,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "31:36",
+      "en": "had sold 15 times levered structured notes linked to the commodity curve complex with a knockout that was down, if the strategy was down 2%.",
+      "zh": "曾卖出 15 倍杠杆、挂钩商品曲线整个板块的结构化票据，带下行敲入条款——策略下跌 2% 就触发。"
+    },
+    {
+      "i": 82,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "31:48",
+      "en": "And so that is exactly the type of mechanism that leads to not only has this thing become crowded because you've made it very easily accessible to the market with leverage, but you will also add a trigger point that a real insurance event will cause a rush to the exit.",
+      "zh": "所以这正是那种机制：不仅这个东西因为你用杠杆把它变得极易被市场获取而变得拥挤，你还加了一个触发点——一旦发生真正的'保险事件'，就会出现争相出逃。"
+    },
+    {
+      "i": 83,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "32:07",
+      "en": "So let's just run with that a little bit on the crowding side, because we're coming off of this unwind of this gigantic portfolio situational awareness running forex levered in an environment in which those names had already become incredibly volatile. And so if you are along for the ride, you got to pay attention to folks that may be in over their skis from a sizing standpoint.",
+      "zh": "那我们就顺着拥挤这条线多聊一点，因为我们刚刚经历了一个巨型组合的平仓——情境感知、带着外汇杠杆在跑，而在那个环境下那些标的本身已经变得极其波动。所以如果你在车上，你必须注意那些在仓位规模上可能已经超滑雪道的人。"
+    },
+    {
+      "i": 84,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "32:33",
+      "en": "And crowding is something that just changes the reaction function. If enough people have to get out at the same time, it's definitely a risk management input that you want to learn about.",
+      "zh": "拥挤这件事只是改变了反应函数。如果有足够多的人必须同时离场，那绝对是一个你想去了解的输入项。"
+    },
+    {
+      "i": 85,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "32:45",
+      "en": "It's hard. It's hard to measure crowding. I just love for you to just talk a little bit more about how you and your team think about that as you design trades. You want to avoid crowding, but I can imagine that you've got competitors around the street. They're similarly engaged in trying to craft trading strategies, and you might wind up in the same place in your search for alpha. Just talk to us about that crowding identification process.",
+      "zh": "这很难。拥挤很难衡量。我很想请您多讲讲您和团队在设计交易时如何思考这一点。你想避开拥挤，但我能想象，华尔街周围的同行同样在琢磨 crafting 交易策略，你们寻找 alpha 的路上可能撞到同一个地方。跟我们讲讲那个拥挤识别的过程。"
+    },
+    {
+      "i": 86,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "33:11",
+      "en": "That's exactly the point. And crowding is one of the three classic forms of failure in the QIS space. Crowding your strategy that used to work got really popular. What's interesting is it's hard to tell if a strategy is crowded in the beginning because, yes, the premium is getting compressed, but the inflows actually are driving the value of that portfolio up. So you have that performance that it's just because you have more investors coming into the space.",
+      "zh": "这正是重点。拥挤是 QIS 领域三种经典失败形态之一：拥挤——你原来有效的策略变得非常流行。有趣的是，一开始很难判断一个策略是否拥挤，因为虽然溢价在被压缩，但资金流入实际上在推高那个组合的价值。所以你看到那段表现——只是因为更多投资者进入这个领域。"
+    },
+    {
+      "i": 87,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "33:39",
+      "en": "Then it's usually discovered when a tail event hits, and usually a small tail event would cause a small unwind, but because you have leverage in the system as well, you get a levered unwind.",
+      "zh": "然后通常要等到尾部事件冲击时才被发现。通常一个小的尾部事件只会引起小的平仓，但因为系统里有杠杆，你就得到一个带杠杆的平仓。"
+    },
+    {
+      "i": 88,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "33:51",
+      "en": "So the assumption is that correlation is going to save you, but ultimately the market's overwhelmed by this correlated unwind. Passive exporters tend to be especially susceptible to crowding.",
+      "zh": "所以原本的假设是相关性会救你，但市场最终被这种同步平仓所淹没。被动敞口尤其容易受拥挤影响。"
+    },
+    {
+      "i": 89,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "34:03",
+      "en": "There are a lot of tools to understand the risks. It takes someone actually paying attention to them. The investor, the fiduciary, the bank can help that as well, but there's also something that goes against human psychology of you want to stay in the winners and often the crowded strategies are outperforming before they break. So crowding can show up in the correlation. If math and the theory don't align, it's usually time to take a deeper look. If we go back a decade, we were in",
+      "zh": "有很多工具可以理解风险，关键是要有人真正去关注它们。投资者、受托人、银行都可以助一臂之力。但也有与人性相悖的地方：你想留在赢家上，而拥挤的策略在崩坏之前往往是跑赢的。所以拥挤会体现在相关性上。如果数学和理论对不上，通常就该深挖了。如果把时间拨回十年前，我们处在"
+    },
+    {
+      "i": 90,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "34:34",
+      "en": "this incredibly low inflation environment. Rates were low, vol was low, and there didn't seem to be any end in sight. And of course, today we've got an entirely new set of prices. The back end of the bond market is 5.3%, at least in the 30-year. The crude is at 93. So there's a lot of change.",
+      "zh": "一个通胀极低的时期。利率低、波动率低，而且看起来没有尽头。当然，今天我们得到的是完全不同的一组价格。债市长端在 5.3%，至少 30 年期是这样。原油在 93。所以变化很大。"
+    },
+    {
+      "i": 91,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "34:56",
+      "en": "How does the change in the setup of market prices impact the structuring work that you do? So it's a really good question, and I think it begs the question of the whole process of how strategies are developed in the first place. This whole industry is pun intended, over-indexed on back tests. Some folks have called it the back-testing Olympics. It's really important again, I've mentioned many times now, the importance of starting with the hypothesis, starting with an",
+      "zh": "市场价格的初始格局变化，如何影响你们所做的结构化工作？——这是个好问题，我觉得它引出了策略究竟如何被开发的整个流程问题。这整个行业——有意用这个词——过度锚定在回测上。有人称之为'回测奥运会'。重申一遍，我说很多次了，重要的是从假设出发、从"
+    },
+    {
+      "i": 92,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "35:25",
+      "en": "economic observation, starting with understanding who's on the other side of the trade, and then going to test that analysis. And before you run your first back test, you want to understand what the data looks like. I'm a big believer in actually pulling your data together and looking at it.",
+      "zh": "一个经济学观察出发、从理解交易的对手方是谁出发，然后再去检验那个分析。在你跑第一个回测之前，你要先了解数据长什么样。我非常相信要把数据拉出来看一看。"
+    },
+    {
+      "i": 93,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "35:41",
+      "en": "But then you also want to test the dependency of that data on different regimes. And it has been hard. So there are certain strategies, so for example, not surprising that inflation hedging is very topical right now. And it's really hard to test what inflation hedging strategies, how they would have performed in prior regimes of higher rising inflation.",
+      "zh": "然后你还要检验数据对不同市场机制（regime）的依赖度。这一直很难。某些策略——比如，通胀对冲现在非常热门，这不足为奇。而通胀对冲策略在高通胀/通胀上行的历史时期会如何表现，真的很难检验。"
+    },
+    {
+      "i": 94,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "36:06",
+      "en": "Just not that much of it, right? So understanding the macro footprint of these strategies is really important. And that actually brings into the fold an important set of partners that we haven't mentioned, which is our strategists. Having the conviction to say, this doesn't look right in the back test, but it makes sense economically in this regime is a much harder thing to do, but does often lead to better outcomes. And another just critical partner for",
+      "zh": "因为那样的时期没那么多，对吧？所以理解这些策略的宏观足迹非常重要。这就把一组我们还没提到的重要伙伴带进来：我们的策略师。有信心说出'这在回测里看起来不对，但在这个机制下经济上说得通'，是一件难得多的事，但往往带来更好的结果。另一个对"
+    },
+    {
+      "i": 95,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "36:36",
+      "en": "you in the business is the client. And I can imagine that so much of the exploration and the product development is you guys are solving problems. And a lot of that just comes from helping or hearing and listening to what clients are up against. Just love for you to take us through a little bit of that process of the interaction with clients as an impetus for the product development cycle and how you iterate with clients.",
+      "zh": "你来说同样关键的伙伴是客户。——我能想象，这么多探索和产品开发，其实是你们在解决难题。而其中很多就来自于帮助客户、听取和倾听客户面对什么。我很想请您带我们讲讲那个流程：与客户的互动如何成为产品开发周期的原动力，以及你们如何与客户迭代。"
+    },
+    {
+      "i": 96,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "37:02",
+      "en": "I'll break clients down into two buckets on the institutional side. There are active users who will either come to us and say, I want your EMFX carry strategy, send me your one to 10 tickers you have in the space and all of the metadata on it. And then there are also folks who have been very active in the QIS space for a long time who are frankly part of the research process.",
+      "zh": "我把机构端的客户分成两类。一类是活跃用户，他们会来找我们说：'我要你们的 EMFX carry 策略，把你在这个领域里的 1 到 10 个 ticker 和全部元数据发给我。'另一类是已经在 QIS 领域非常活跃很久的人，坦率地说，他们本身就是研究过程的一部分。"
+    },
+    {
+      "i": 97,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "37:26",
+      "en": "We'll be doing some analysis and new strategy. So you'll have the structure who will initially talk to trading and to sales and to our quant team and research. And then we'll have a set of clients, we'll sit down and say, okay, which clients we think are going to give us really good feedback on this. And by good feedback, I don't mean they're going to say, great job.",
+      "zh": "我们在做分析和新策略时，结构化人员起初会跟交易、销售、我们的量化团队和研究交流。然后我们会坐下来挑一批客户，说：好，哪些客户会给我们真正好的反馈？我说好的反馈，不是他们会说'干得漂亮'。"
+    },
+    {
+      "i": 98,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "37:45",
+      "en": "They're going to ask us questions to tear it apart, because we want to break the strategy before it goes live. And that's genuinely one of the most rewarding parts of the job.",
+      "zh": "而是他们会问问题、把它拆开来挑毛病，因为我们希望在策略上线之前就把它打碎。这真的是这份工作最有成就感的环节之一。"
+    },
+    {
+      "i": 99,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "37:55",
+      "en": "And then there are clients who are, and there's a lot of folks in this camp now who are, shall we say QIS curious, who are trying to understand this space. They don't come to us and say, what's your EMFX carry strategy? Or can you show me your dynamic put ratio strategy?",
+      "zh": "还有一类客户——现在有不少人属于这一阵营——姑且说是对 QIS 好奇（QIS curious）的人，他们试图理解这个领域。他们不会过来说：'你们的 EMFX carry 策略是什么？能给我看看你们的动态看跌比例（put ratio）策略吗？'"
+    },
+    {
+      "i": 100,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "38:13",
+      "en": "They come and say, this is the problem I'm trying to solve. Sometimes they can't even articulate the problem they're trying to solve. But some of the key themes we're hearing from, especially the asset on our community right now, we already mentioned inflation hedging, very topical, tail risk hedging topical in this environment. The constant challenge with tail risk hedging is that there are plenty of hedges that you can put on, but timing that is hard.",
+      "zh": "他们来了会说：'这是我想解决的问题'。有时候他们甚至无法言说自己要解决的问题是什么。但目前我们从资产所有者群体那里听到的几个关键主题——我们已经提过通胀对冲，非常热门；尾部风险对冲，在这个环境下也很热门。尾部风险对冲一直以来的难点是，可做的对冲有很多，但择时很难。"
+    },
+    {
+      "i": 101,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "38:38",
+      "en": "So folks tend to come to QIS, as opposed to a tactical solution, when they want to find something where the carry isn't so expensive that they can hold it until whatever tail event they were worried about is actually realized. Uncorrelated absolute return, always invoke, of course.",
+      "zh": "所以人们倾向于来找 QIS，而不是战术性解决方案，是因为他们想找一个 carry 不至于太贵、可以一直持有到他们所担心的那个尾部事件真正发生的东西。不相关的绝对收益，当然永远是硬需求。"
+    },
+    {
+      "i": 102,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "38:55",
+      "en": "And actually, de-dollarization is a trend that's coming up. So folks tend to come to us more with those sorts of inquiries, and then we'll help them navigate to the pros and cons, and what economically should make sense. And how do we take the fact that we have the ability to package a bunch of dynamic positions all up, variance, swap, replication into a convenient, by the way, very cash efficient format, which has become increasingly important, given all the",
+      "zh": "实际上，去美元化（de-dollarization）是一个正在抬头的趋势。所以人们带着这类问题来找我们的情况变多了，然后我们帮他们梳理利弊、经济上什么讲得通。还有，我们如何利用自己有能力把一堆动态头寸——方差互换复制——打包成一个便利的、顺便说现金效率极高的形式，这一点在当下越来越重要，因为"
+    },
+    {
+      "i": 103,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "39:24",
+      "en": "cash seems to be getting deployed into private assets these days. Another area of engagement absolutely with clients is, I think, investors on the institutional side are becoming much more proactive about setting up the governance in a way that allows their program in QIS to be successful.",
+      "zh": "现金似乎都被部署到私募资产里去了。——与客户合作的另一个领域，我觉得机构端的投资者正在更主动地建立治理，以便让他们的 QIS 计划能够成功。"
+    },
+    {
+      "i": 104,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "39:45",
+      "en": "Very curious about tell us where programs have worked and tell us where programs haven't. Help educate us about how and why this factor makes money. Again, who is actually paying me to take on this risk? And so we also spend a lot of time educating clients, literally going through one fund we're working with where we're doing monthly teachings in a space and going through, here are the fundamentals, here's from the other side, here's when it works, here's when it doesn't",
+      "zh": "'告诉我们哪些计划成功了，哪些没有成功。帮我们理解这个因子如何赚钱、为什么赚钱。再一次：到底是谁在付钱让我承担这个风险？'所以我们也花大量时间教育客户。 literally 有一家我们正在合作的基金，我们每月做一次授课，逐一讲解：基本面是什么、对手方是谁、什么时候有效、什么时候无效——"
+    },
+    {
+      "i": 105,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "40:16",
+      "en": "work, so that they can document that and prepare for, again, long-term sustainable governance plan. So in terms of what is currently topical, you certainly piqued my interest with de-dollarization. In what context and what are the set of potential exposures that might offset that?",
+      "zh": "以便他们把这些记录下来，为长期的、可持续的治理计划做准备。——说到当下什么是热点，您说去美元化确实吊起了我的胃口。在什么语境下？哪些潜在敞口可能对冲它？"
+    },
+    {
+      "i": 106,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "40:35",
+      "en": "Work for a Canadian bank. Canadian investors have had a very favorable environment the last couple of decades, where if you look at the distribution, and I wish I had this chart handy, of the story simply, and this is not what a Canadian pension portfolio looks like, but if you look at the distribution of the 60-40 portfolio, just S&P and Global Ag, that left tail is pretty harsh as a U.S. dollar-based investor. Canadian pensions have",
+      "zh": "在一家加拿大银行工作——过去几十年加拿大投资者的环境非常有利。如果你看分布——我真希望手头有那张图——简单讲这个故事，这并不是加拿大养老组合的样子，但如果你看 60/40 组合的分布——就是标普加全球综合债——对于美元计价的投资者，那条左尾相当残酷。加拿大的养老金"
+    },
+    {
+      "i": 107,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "41:06",
+      "en": "Canadian dollar liabilities, and hence, if they have not been hedging their long-dollar exposure for the last couple of decades, dollar has been a fantastic risk-off asset with flat positive carry. I mentioned earlier there's no such thing as a hedge with positive carry. Well, the dollar has acted, has behaved as one. However, again, given the outperformance of the U.S. economy, the preponderance of opportunities to invest,",
+      "zh": "承担加元负债，所以如果过去几十年他们一直没有对冲美元的长敞口，那么美元一直是一项出色的避险资产，carry 还持平为正。我之前说过，不存在正 carry 的对冲。嗯，美元的行为就正是如此。然而，同样地，鉴于美国经济的超额表现、投资机会的集中——"
+    },
+    {
+      "i": 108,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "41:37",
+      "en": "especially in privates, which have obviously been a growing theme, being very U.S. dominated, it's very hard to find great investment opportunities that have as much of a global footprint or a home currency footprint as some investors might like, and they find themselves running long 50% U.S. dollar overlay versus whatever the home currency is, and this isn't just something we've heard from Canadian investors. It's been true across the G10,",
+      "zh": "尤其在私募领域，而这显然是一个增长主题，且非常由美国主导——投资者很难找到像一些投资者希望那样具有全球足迹、或本币足迹的优秀投资机会。他们发现自己相对于本币持有高达 50% 的美元敞口，而且这不只是我们从加拿大投资者那里听到的，整个 G10 都是如此。"
+    },
+    {
+      "i": 109,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "42:06",
+      "en": "and so how do you start to take some chips off the table in a thoughtful manner? And can you use factors to be more thoughtful about doing so?",
+      "zh": "那么，你如何开始以一种深思熟虑的方式把一些筹码从桌上拿下来？你能否利用因子来做得更深思熟虑？"
+    },
+    {
+      "i": 110,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "42:20",
+      "en": "Well, let's talk about tail risk hedging. VIX makes its way into a lot of QIS strategies, either from an implementation standpoint. Sometimes I've seen the VIX term structure be used as a trigger to implement a hedge, so it's a timing vehicle as well. Give us the current state of what you see big picture on, let's just call it equity hedging, maybe you could call it equity tail hedging, but something where you're paying some version of carry and premium to protect",
+      "zh": "我们来谈谈尾部风险对冲。VIX 进入了很多 QIS 策略，有的是从实施角度。我见过有时用 VIX 期限结构作为触发来实施对冲，所以它也是择时工具。给我们讲讲您在大局上看到的眼前状况——就叫它股票对冲吧，或者叫股票尾部对冲——就是某种你支付一定形式的 carry 和溢价去保护"
+    },
+    {
+      "i": 111,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "42:51",
+      "en": "against unwelcome scenarios. In this environment, we're not seeing as much demand for strategies where you pay away carry, which is a little bit counterintuitive given there's so much uncertainty bubbling under the surface. There's so much concentration risk, so we are seeing folks looking for strategies that have positive convexity. They're willing to trade off certainty in exchange for a lower cost of carry, and those strategies have been challenging. So",
+      "zh": "免受不受欢迎情景的领域。——在这种环境下，我们看到对那种'付出 carry'的策略的需求并没有那么多，这有点反直觉，因为水面下有那么多不确定性、那么集中的风险。我们确实在看到人们寻找具有正凸性的策略。他们愿意牺牲确定性，换取更低的持有成本，而那些策略一直很有挑战。所以"
+    },
+    {
+      "i": 112,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "43:25",
+      "en": "intraday momentum has been a strategy that's been very popular. It's a great application of the more advanced QIS technology that the banks have rolled out. It's been challenging as it's been chopped up. Put ratios have been something that had been very popular. They performed very well through 2020 and then had compounded losses through Liberation Day, for example.",
+      "zh": "日内动量（intraday momentum）曾是很受欢迎的策略。它是银行推出的高级 QIS 技术的一个绝佳应用场景。但它一直很有挑战，因为它被来回打脸。看跌比例（put ratios）曾经也很受欢迎，它们在 2020 年表现很好，然后比如在'解放日'（Liberation Day）期间出现复合亏损。"
+    },
+    {
+      "i": 113,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "43:46",
+      "en": "That's a sell one by two downside? Yes, you can weight it in different ratios, etc. But exactly you'd sell something that's closer at the money to fund tail risk. Other types of strategies that have been obviously classically defensive cross as a trend. That's one that folks continue to look to allocate to as trend is one of those, again, flat to positive carry strategies that can give you convexity in a slower drawdown. But I think in this environment, there's actually been",
+      "zh": "那是卖一份、买两份的下行比例？——是的，可以用不同比例配置，等等。但准确地说，你会卖出更贴近平值的期权，为尾部风险提供资金。其他经典防御型策略：跨资产趋势。人们仍在持续配置它，因为趋势也是那种——again——carry 持平至正的、可以在较缓的回撤中提供凸性的策略。但我认为在这个环境下，实际上"
+    },
+    {
+      "i": 114,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "44:19",
+      "en": "more demand for strategies that can protect you against a shallow sell off because there's concern that it's going to continue to be a bit of a bumpy ride. You mentioned earlier just around 60-40 and the 60-40 portfolio, it's an underpinning to a lot of how we've just come to think about risk and maybe defraying loss. That co-movement is very positive these days. The stock market and the bond market are more joined at the hip than the bond market being a defrayer of risk. Then",
+      "zh": "对能够防范浅度下跌的策略的需求更多了，因为大家担心这仍将是一段颠簸的路。——您之前提到 60/40：60/40 组合是我们理解风险、以及消化损失的一个底层框架。如今这种共同波动非常正向——股市和债市更加唇齿相依，而不是债市扮演风险的消化器。而"
+    },
+    {
+      "i": 115,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "44:52",
+      "en": "within the equity market, we almost have the opposite, which is the correlation among stocks, at least as nerds like me look at it on a daily basis, is incredibly low. The dispersion trade is being done successfully at levels that we've never seen before because this realized correlation is just so low. I'd be curious to hear you talk through both of those, the high correlation between stocks and bonds and the very low correlation among stocks. For those who've been around for a",
+      "zh": "在股票市场内部，我们几乎看到相反的一面，即个股之间的相关性——至少就我这样的'书呆子'每天盯的东西来看——低得惊人。离散度交易（dispersion trade）正在以前所未有的水平被成功执行，因为这个已实现相关性实在太低了。我想听您把两者都讲一讲：股票和债券之间的高相关性，以及个股之间的超低相关性。对于过去几年一直关注的人来说，"
+    },
+    {
+      "i": 116,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "45:22",
+      "en": "couple years now, how do those realities make their way into the thought process and the structuring process? I think you combine that also with the interesting dynamics in the correlation between spot and vol, so between the returns in equities and the level of volatility in equities with vol having historically been a hedge for a sell-off. As I think a lot of the conversations we've been having with clients, we're trying to take another step back and identify what is the",
+      "zh": "这些现实如何进入思考过程和结构化过程？——我觉得你还要结合现货与波动率之间相关性中那些有趣的动态，也就是股票收益与股票波动率水平之间的关系——历史上波动率一直是下跌的对冲。我想，在我们与客户的大量对话中，我们正在试着再退后一步，弄清楚为什么会这样的"
+    },
+    {
+      "i": 117,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "45:57",
+      "en": "underlying economic driver of why that is the case. In the case of the stock bond correlation, a big part of the driver there is the inflationary pressures. Inflation has continued to run hot, and we know that that correlation tends to run positive when inflation is above 3%.",
+      "zh": "底层经济驱动是什么。就股债相关性而言，很大程度上是通胀压力。通胀持续偏热，而我们知道，当通胀高于 3% 时，那个相关性往往为正。"
+    },
+    {
+      "i": 118,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "46:21",
+      "en": "Hence, inflation hedging strategies are in demand. Folks are looking for diversification away from equities because equities themselves are great allocation, and when the music stops with regards to the outperformance of S&P 500, they're looking for how can they build a more robust diversified portfolio there. You mentioned dispersion, that's a trade that has welcomed quite a lot of debate and the QIS arena. Again, classic strategy where there are specialists",
+      "zh": "因此通胀对冲策略有需求。人们在寻找远离股票的分散化——因为股票本身是很好的配置，而当标普 500 的超额表现音乐停止时，他们想知道如何建立一个更稳健的、分散的组合。您提到离散度——那是一笔在 QIS 领域引发不少讨论的交易。同样，它是经典策略，买方当然"
+    },
+    {
+      "i": 119,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "46:56",
+      "en": "that will run dispersion strategies on the buy side, certainly, but for folks who want to participate in that trade and don't want to put someone in the seat and don't want to build the infrastructure around it. It's a great example where leaning into a bank's existing infrastructure and the economies of scale has been topical, so being able to trade that more dynamically or opportunistically has become more topical. I'd love to turn things around and ask you what you think has been the",
+      "zh": "有专家会运行离散度策略。但对于那些想参与这笔交易、又不想让人坐在驾驶座上、也不想围绕它建立基础设施的人来说，这是一个借助银行现有基础设施和规模经济的好例子。所以能够更动态或择机地交易它，变得越来越热门。——我想调转话题问您，您认为标普 500 内部"
+    },
+    {
+      "i": 120,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "47:22",
+      "en": "primary driver of this historically low correlation within the S&P 500 that seems to be largely driven by AI and the rise there. What other drivers, because our clients are going to ask, how do I think about managing my AI risk, the fact that I have outsized allocation or risk exposure in some of these recent IPOs or the outperformers, and how do I make sure that I'm not missing the upside trade, hence partially why we've seen spotball correlation be positive on a rally?",
+      "zh": "这种历史低相关性的主要驱动是什么，它似乎很大程度上由 AI 及其上涨所驱动。还有哪些驱动？因为我们的客户会问：我该怎么管理我的 AI 风险——我在这些新近 IPO 或跑赢的个股上有超额的配置或风险敞口——我怎么确保自己不会错过上涨的交易——这也是为什么我们在反弹中看到现货相关性转正的部分原因？"
+    },
+    {
+      "i": 121,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "47:56",
+      "en": "It's so interesting. I've been thinking about this so much and I throw a couple of things out there. One, of course, as you said, there is the AI versus the rest of the index, but the AI part of the index is also epically uncorrelated. Just looked at the correlation of Microsoft to the other six and the Mag7, and at least over the last month, it's negative.",
+      "zh": "非常有意思。我对这件事想了很多，我抛出几个想法。第一，当然，正如您所说，有 AI 对指数其余部分的对比。但指数里的 AI 部分本身也极度不相关。我刚看了 Microsoft 对 Mag 7 其余六只的相关性，至少过去一个月是负的。"
+    },
+    {
+      "i": 122,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "48:18",
+      "en": "It's just really hard to get equities to be negatively correlated to each other over a period of time. I'm not sure it's that. I throw retail in there as just a gigantic force in markets.",
+      "zh": "让股票之间在一段时间内负相关真的很难。——我不确定是那回事。我还把散户算进去，它在市场里是一股巨无霸力量。"
+    },
+    {
+      "i": 123,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "48:32",
+      "en": "People say retail flow, dumb money, not really. It's pretty intelligent and thoughtful. It is a little bit of a herd. I don't know, maybe that they're so focused on the single stock stories one day at a time that that creates daily low correlation. The other part that I just more recently have been just struggling with is, if I look at realized correlation in the S&P, that's basically all time low, but I could do the same in the Euro stocks, the Nikkei, the CAC,",
+      "zh": "人们说散户资金是聪明反被聪明误、是笨钱。其实不完全是。它相当聪明、相当有想法。它确实有点像羊群。我不知道——也许他们如此专注于一天一个单一个股的故事，反而创造了日度的低相关性。我最近一直在琢磨的另一个部分是：如果我看标普的已实现相关性，那基本是历史低位。但我对欧洲股票、日经、CAC、"
+    },
+    {
+      "i": 124,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "49:01",
+      "en": "the DAX, and those indices have less to do with AI, especially Europe. This low correlation is everywhere in equity markets. I just don't know if it's a case where the consumption of selling correlation is itself creating low correlation. I don't know. These are all unprovable, but it's a fascinating development.",
+      "zh": "DAX 也能看到同样的东西。而这些指数跟 AI 的关系更少，尤其欧洲。这种低相关性在股票市场里无处不在。我只是不知道，会不会是'卖出相关性'这种消费本身在制造低相关性。我不知道。这些都不可证伪，但这是一个迷人的进展。"
+    },
+    {
+      "i": 125,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "49:25",
+      "en": "It feels a bit like there's been a bit of a free hedge that has been riding under the surface while bonds haven't been doing their job to hedge. Equities have kind of stepped up the plate themselves, which means that when that breaks, things are going to be worse than perhaps the markets were prepared for. Another topic that circulates in QIS circles is fixed income replacement, fixed income beta replacement. Either actually, typically folks don't mean replacing duration,",
+      "zh": "感觉有点像，在债券没能尽到对冲职责的时候，水面下一直有一个免费的对冲在运行。股票自己站到了本垒板上，这意味着当那个机制崩坏时，情况可能比市场准备好的更糟。——另一个在 QIS 圈子里流传的话题是固收替代、固收 beta 替代。人们通常的意思其实不是替代久期，"
+    },
+    {
+      "i": 126,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "49:57",
+      "en": "they typically mean replacing the role of a bond in a portfolio, coming back to that hedge with positive carry role. Yeah, and I think that's the key is at least my own thinking on markets is we've had a great run.",
+      "zh": "他们通常指的是替代债券在组合中的角色——回到那个'有正 carry 的对冲'角色。嗯，我觉得这才是关键。至少在我自己对市场的思考里：我们有过一段好时光。"
+    },
+    {
+      "i": 127,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "50:11",
+      "en": "You said it yourself, there's just so many sources of uncertainty. Oftentimes, the geopolitics makes for a great front page of the journal, but typically more bark than bite. But you have to think through these things and try to be careful. And I think that search for diversifiers, especially in the absence of the bond market doing what it used to do, is such a critical undertaking, I think, for all institutional investors.",
+      "zh": "你自己也说了，不确定性来源实在太多。通常地缘政治很适合上当天的头版，但往往是雷声大雨点小。但你必须把这些想清楚、尽量小心。我觉得，尤其在没有债市做它过去该做之事的当下，对分散化来源的追寻，是所有机构投资者至关重要的课题。"
+    },
+    {
+      "i": 128,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "50:38",
+      "en": "I'd love to finish with what's in the lab. You guys are constantly in the lab thinking about what's next, how do we refine our products. You said spending a lot of time on the existing portfolio of trades in the market is certainly very valuable, but you're also forward thinking.",
+      "zh": "我很想用'实验室里有什么'来收尾。你们一直在实验室里琢磨下一步、如何打磨产品。您说过花大量时间研究市场上已有的交易组合当然非常有价值，但你们也在向前看。"
+    },
+    {
+      "i": 129,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "50:57",
+      "en": "And the markets are always pushing us to develop new ideas. What are one or two that are just most topical or most interesting to you right now in terms of the product development cycle?",
+      "zh": "而市场总在推着我们开发新想法。就产品开发周期而言，眼下最热门或让您最感兴趣的一两个是什么？"
+    },
+    {
+      "i": 130,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "51:10",
+      "en": "They're generally going to be linked back to the themes that I mentioned. So maybe on the uncorrelated absolute return space, commodity time spreads are an area of particular passion of mine. An interesting one where we're trying to combine all the anthologies together of some academic literature and working with our trading desk to understand how flows have evolved, trying to pull in some of those clients who have been great partners over time",
+      "zh": "它们大体都会回扣到我提到的那些主题。比如在无相关绝对收益领域，大宗商品期限价差是我个人特别有热情的方向。有一个有意思的项目，我们试图把所有选集汇编在一起——一些学术文献——并与交易台合作理解资金流如何演变，把那些长期合作很好的客户拉进来"
+    },
+    {
+      "i": 131,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "51:40",
+      "en": "to get their thoughts in the space. So we definitely have some interesting things we're rolling out there, always a lot going on in the volatility space, both in the carry and RV space, as well as on the defensive side of things. And then fixed income is broadly a smaller market in QIS. QIS tends to be at the core concentrated in the equities and commodities land, but interest rates and interest rate volatility are clearly central to the broader macroeconomic shifts",
+      "zh": "听取他们在这个领域的想法。所以我们在那边肯定有一些有意思的东西正在推出。波动率领域永远有很多事，既包括 carry 和 VRP 这一侧，也包括防御那一侧。然后，固收在 QIS 里总体是个更小的市场。QIS 核心往往集中在股票和大宗商品，但利率和利率波动率显然是我们正在经历的更广泛宏观经济转向的核心。"
+    },
+    {
+      "i": 132,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "52:14",
+      "en": "that we're going through. And rates vol in particular is another one of those assets that gives you an opportunity for a tremendous amount of granularity to park yourself at the intersection of different market participants where there's shifting flows, but where you have folks who are looking to buy insurance and then some other sources of convexity where you can buy yourself some protection. And I can imagine that the rates vol component of markets is one in which QIS sets up",
+      "zh": "利率波动率尤其是一种资产，给了你极大颗粒度的机会，让你把自己安放在不同市场参与者的交汇点上——那里有变动的资金流，有想买保险的人，也有其他凸性来源，让你可以给自己买点保护。——我可以想象，市场的利率波动率这一块，正是 QIS 能.setup 得相当好的领域，"
+    },
+    {
+      "i": 133,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "52:50",
+      "en": "quite well in the sense that the end user to speak the language of rates vol is very much a function of being in rates vol for a long time. And so having it packaged up, I think, and delivered in a way that someone who's not native to that market can access the big picture concepts without having to spend all day with so much of the microstructure of the markets, I think we would seem that QIS could do a great job in delivering that to the end user. In rates vol, an equity vol",
+      "zh": "因为终端用户要讲利率波动率的语言，很大程度上取决于你在这个市场泡了很久。所以把它打包好，以一个让非本土玩家不必整天埋首于市场微观结构、就能接触到大局概念的方式交付——我觉得我们会说 QIS 能把这件事很好地交付给终端用户。在利率波动率里，在股票波动率里，"
+    },
+    {
+      "i": 134,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "53:23",
+      "en": "in whether it's equity financing trades or commodity markets, I think the real value of QIS is partially the efficient market access. But it's making sure that when you tap into the efficient market access, that it doesn't become a shortcut that hardens you from continuing to do the work of understanding the exposures you have on. And so I do think that there's this constant cycle of being deeply curious and having humility as you approach these markets because they'll surprise",
+      "zh": "不管是股票融资交易还是大宗商品市场，我认为 QIS 的真实价值一部分是高效的市场准入。但关键是要确保，当你接入高效的市场准入时，它不会变成一个让你不再下功夫去理解自己持仓敞口的捷径。所以我确实认为，在接近这些市场时，要始终保持深度好奇和谦逊的循环，因为它们会不断"
+    },
+    {
+      "i": 135,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "53:57",
+      "en": "you constantly. And when things break, that's an opportunity to learn. When they're working, that's an opportunity to learn. And making sure that we're constantly helping clients understand the risks that are in their portfolios and making sure that the risks that make sense given their role in the ecosystem. Well, Kimberly, it's been great to connect, it's been great to host this conversation, and I really thank you for being a guest today.",
+      "zh": "让你吃惊。当东西崩坏时，那是学习的机会。当它在运转时，那也是学习的机会。并确保持续帮助客户理解他们组合里的风险，确保风险与他们在生态系统中的角色相匹配。——Kimberly，很高兴与您连线，很高兴主持这次对话，非常感谢您今天来做客。"
+    },
+    {
+      "i": 136,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "54:23",
+      "en": "Likewise, thank you. This has been a lot of fun. You've been listening to the Alpha Exchange. If you've enjoyed the show, please do tell a friend.",
+      "zh": "我也一样，谢谢您。这次太开心了。——您刚才收听的是 Alpha Exchange。如果您喜欢这个节目，请一定告诉一位朋友。"
+    },
+    {
+      "i": 137,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "54:31",
+      "en": "And before we leave, I wanted to invite you to drop us some feedback. As we aim to utilize these conversations to contribute to the investment community's understanding of risk, your input is valuable and provides direction on where we should focus.",
+      "zh": "在我们结束之前，我想邀请您给我们留一些反馈。因为我们希望利用这些对话为投资界对风险的理解做出贡献，您的意见很有价值，并为我们指出应该把重心放在哪里。"
+    },
+    {
+      "i": 138,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "54:45",
+      "en": "Please email us at feedback at alphaexchangepodcast.com. Thanks again and catch you next time.",
+      "zh": "请发邮箱到 feedback@alphaexchangepodcast.com。再次感谢，下次再见。"
+    }
+  ]
+}
