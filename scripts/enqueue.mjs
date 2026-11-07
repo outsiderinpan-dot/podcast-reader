@@ -557,11 +557,11 @@ async function enqueueCandidate(show, cand, existingIds) {
   return 1;
 }
 
-async function processShow(show, existingIds) {
+async function discoverCandidates(show, existingIds) {
   const source = show.source || (show.iheartId ? 'iheart' : show.feedUrl ? 'rss' : 'official');
   if (source === 'official' || (!show.iheartId && !show.feedUrl)) {
     log(`${show.slug}: source=${source}（article/官方类），跳过自动入队，由 QoderWork 手动补录`);
-    return 0;
+    return [];
   }
 
   let candidates = [];
@@ -571,7 +571,7 @@ async function processShow(show, existingIds) {
     const fresh = list.filter((e) => !existingIds.has(String(e.id))).slice(0, MAX_NEW);
     if (!fresh.length) {
       log(`${show.slug}: 无新单集`);
-      return 0;
+      return [];
     }
     log(`${show.slug}: 发现 ${fresh.length} 集新单集 → ${fresh.map((e) => e.id).join(', ')}`);
     for (const ep of fresh) {
@@ -590,12 +590,17 @@ async function processShow(show, existingIds) {
       .slice(0, MAX_NEW);
     if (!fresh.length) {
       log(`${show.slug}: 无新单集`);
-      return 0;
+      return [];
     }
     log(`${show.slug}: 发现 ${fresh.length} 集新单集`);
     candidates = fresh;
   }
+  return candidates;
+}
 
+// 保留旧签名以防外部 import；主流程已改为 round-robin（见 main）。
+async function processShow(show, existingIds) {
+  const candidates = await discoverCandidates(show, existingIds);
   let done = 0;
   for (const cand of candidates) {
     try {
@@ -623,15 +628,41 @@ async function main() {
   const existingIds = new Set(existing.map((r) => txt(r.fields?.ep_id).trim()).filter(Boolean));
   log(`队列已有 ${existingIds.size} 行；Whisper 兜底=${WHISPER_ENABLED}（model=${WHISPER_MODEL}, 上限=${WHISPER_MAX_PER_RUN}/次）`);
 
-  let total = 0;
-  for (const show of SHOWS) {
+  // 公平调度：先按 ISO 周次轮转 show 顺序，避免某些 show 永远排在数组末尾抢不到 Whisper 名额；
+  // 再把每个 show 的候选分槽位（slot 0/1/2...）跨 show round-robin 处理，
+  // 保证 WHISPER_MAX_PER_RUN 预算在 show 之间尽量均分。
+  const weekIdx = Math.floor(Date.now() / (7 * 24 * 3600 * 1000));
+  const rotated = SHOWS.length
+    ? Array.from({ length: SHOWS.length }, (_, i) => SHOWS[(i + weekIdx) % SHOWS.length])
+    : [];
+  log(`[调度] show 顺序已按周次 ${weekIdx} 轮转：${rotated.slice(0, 3).map((s) => s.slug).join(', ')}…`);
+
+  // Phase 1: discover candidates for every show (network list fetch + iheart detail).
+  const queues = [];
+  for (const show of rotated) {
     try {
-      total += await processShow(show, existingIds);
+      const cands = await discoverCandidates(show, existingIds);
+      if (cands.length) queues.push({ show, cands });
     } catch (err) {
-      log(`${show.slug} 整体失败: ${err.message}`);
+      log(`${show.slug} 发现失败: ${err.message}`);
     }
   }
-  log(`完成，新入队 ${total} 集（Whisper 实际用了 ${whisperUsed} 次），等待 QoderWork 翻译`);
+
+  // Phase 2: round-robin enqueue — process slot 0 of every show, then slot 1, then slot 2.
+  const maxRounds = queues.reduce((m, q) => Math.max(m, q.cands.length), 0);
+  let total = 0;
+  for (let i = 0; i < maxRounds; i++) {
+    for (const q of queues) {
+      const cand = q.cands[i];
+      if (!cand) continue;
+      try {
+        total += await enqueueCandidate(q.show, cand, existingIds);
+      } catch (err) {
+        log(`  ✗ ${cand.ep_id} 入队失败: ${err.message}`);
+      }
+    }
+  }
+  log(`完成，新入队 ${total} 集（Whisper 实际用了 ${whisperUsed} 次，round-robin ${maxRounds} 轮），等待 QoderWork 翻译`);
 }
 
 export {

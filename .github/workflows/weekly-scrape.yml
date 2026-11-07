@@ -16,7 +16,7 @@ on:
       whisper_max:
         description: '本次运行最多用 Whisper 转写几集（CPU 慢，回填时可临时调大）'
         required: false
-        default: '2'
+        default: '8'
       whisper_model:
         description: 'Whisper 模型 tiny/base/small/medium'
         required: false
@@ -75,6 +75,6 @@ jobs:
           MAX_NEW: ${{ github.event.inputs.max_new || '3' }}
           WHISPER_ENABLED: 'true'
           WHISPER_MODEL: ${{ github.event.inputs.whisper_model || 'base' }}
-          WHISPER_MAX_PER_RUN: ${{ github.event.inputs.whisper_max || '2' }}
+          WHISPER_MAX_PER_RUN: ${{ github.event.inputs.whisper_max || '8' }}
           SHOWS_FILTER: ${{ github.event.inputs.shows_filter || '' }}
         run: node scripts/enqueue.mjs
