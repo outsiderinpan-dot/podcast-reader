@@ -51,6 +51,7 @@ export interface Episode {
 
   // —— article 专属 ——
   subtitle_zh?: string;
+  summary_zh?: string;
   guest?: string;
   source_note?: string;
   word_count?: number;

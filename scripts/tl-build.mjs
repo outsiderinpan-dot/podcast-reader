@@ -65,6 +65,7 @@ const doc = {
   ...(meta.guid ? { guid: meta.guid } : {}),
   slug: meta.slug, date: meta.date,
   title_en: meta.title_en, title_zh: ed.title_zh, subtitle_zh: ed.subtitle_zh,
+  ...(ed.summary_zh ? { summary_zh: ed.summary_zh } : {}),
   description: meta.title_en, duration: dur, duration_seconds: durSec,
   episode_url: meta.episode_url || null, audio_url: meta.audio_url || null,
   speakers: ed.speakers, turn_count: turns.length, turns,

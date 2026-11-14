@@ -7,6 +7,7 @@
   "title_en": "PHP2Shell Won't Be the Last Big AI Cybersecurity Risk",
   "title_zh": "PHP2Shell 不会是最后一个 AI 网络安全大风险",
   "subtitle_zh": "彭博 Odd Lots 播客：主持人 Joe Weisenthal 与 Tracy Alloway 对话黑客公司 Calif 的 Thai Duong 与 Bruce Dang，复盘 AI 参与发现的 PHP2Shell 漏洞（CVE-2026-109618 / CVE-2026-109619，PHP 支撑着约七成网站）、“减一日漏洞”如何让补丁窗口坍缩、会写代码的模型天生就是黑客工具，以及“半人马黑客”时代里防御方还能不能追上。",
+  "summary_zh": "本期 Odd Lots 于「黑色十月」（Black October）录制，Tracy Alloway 与 Joe Weisenthal 对话黑客公司 Calif 的联合创始人兼 CEO Thai Duong 与安全研究员 Bruce Dang，复盘由 AI 参与发现的 PHP2Shell 漏洞（CVE-2026-109618 与 CVE-2026-109619）——PHP 支撑着约七成现存网站。嘉宾解释，AI 在「发现漏洞」环节并非决定性，真正的关键在于为已知问题快速开发出可用的 exploit；但对 PHP 这种三十年积累、代码量庞大的遗留系统，没有 AI 的排查将耗费多得多的时间。节目谈到自 Anthropic 推出 Mythos 模型与「玻璃翼计划」（Project Glasswing）后业界对 AI 网络安全的高度关注，以及「减一日漏洞」如何令打补丁的窗口坍缩。两人还拆解了 Web 加密协议的压缩侧信道：把用户数据与密码拼接后一起压缩加密，攻击者仅凭长度冗余就可能反推、恢复密码；并强调缓解措施（mitigations）的意义——即便漏洞存在也要让攻击者难以利用，没有「魔法盒子」式的简单解法。最惊人的判断来自事件响应（incident response）经验：人类黑客进入网络通常约一个月才扩散，而 AI「周一进入、周二就无处不在」，像癌症般以机器速度蔓延，让传统检测防御措手不及。这是一堂关于「半人马黑客」时代攻防失衡的机制课。",
   "description": "PHP2Shell Won't Be the Last Big AI Cybersecurity Risk",
   "duration": "49:00",
   "duration_seconds": 2940,

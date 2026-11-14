@@ -198,6 +198,13 @@ img { max-width: 100%; }
 
 .ep-desc { background: var(--bg-soft); border:1px solid var(--border); border-radius: 12px; padding: 16px 18px; font-size: 14px; color: var(--text-soft); line-height:1.7; margin: 22px 0; }
 
+/* 本集摘要（200-500字）：比一句话导语更实，置于正文前 */
+.ep-summary { background: var(--bg-card); border:1px solid var(--border); border-left: 3px solid var(--accent); border-radius: 12px; padding: 18px 20px 20px; margin: 0 0 22px; box-shadow: var(--shadow); }
+.ep-summary-title { font-size: 13px; font-weight: 700; color: var(--accent); letter-spacing: .06em; margin: 0 0 10px; display:flex; align-items:center; gap:7px; }
+.ep-summary-title::before { content:""; width:6px; height:6px; border-radius:50%; background: var(--accent); display:inline-block; }
+.ep-summary p { font-size: 15px; color: var(--text); line-height: 1.9; margin: 0; text-align: justify; }
+.ep-summary p + p { margin-top: 12px; }
+
 /* 固定底部音频播放器（PRD §9） */
 .player {
   position: fixed; left: 0; right: 0; bottom: 0; z-index: 60;

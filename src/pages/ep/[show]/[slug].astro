@@ -14,6 +14,10 @@ const { ep } = Astro.props as { ep: Episode };
 const show = getShow(ep.show)!;
 const rt = readingTime(ep);
 const article = isArticle(ep);
+// 本集摘要（200-500字）分段：按空行切成多段，frontmatter 预计算，避免内联多重 map 触发解析问题
+const summaryParas: string[] = ep.summary_zh
+  ? String(ep.summary_zh).split(/\n{2,}/).map((s) => s.trim()).filter(Boolean)
+  : [];
 
 // 上一集 / 下一集（同节目，按日期）
 const list = ALL_EPISODES.filter((e) => e.show === ep.show);
@@ -147,6 +151,13 @@ if (article && ep.blocks) {
       </div>
 
       {(ep.subtitle_zh || ep.description) && <div class="ep-desc">{ep.subtitle_zh || ep.description}</div>}
+
+      {summaryParas.length > 0 && (
+        <div class="ep-summary">
+          <div class="ep-summary-title">本集摘要</div>
+          {summaryParas.map((para) => <p>{para}</p>)}
+        </div>
+      )}
 
       <!-- 固定底部播放器：有 audio_url 用内置播放器，否则跳转官方 -->
       <div class="player" data-audio={ep.audio_url || ''}>
