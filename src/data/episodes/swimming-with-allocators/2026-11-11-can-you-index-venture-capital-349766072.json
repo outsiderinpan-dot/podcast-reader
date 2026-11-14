@@ -1,0 +1,1176 @@
+{
+  "show": "swimming-with-allocators",
+  "kind": "transcript",
+  "id": "349766072",
+  "slug": "2026-11-11-can-you-index-venture-capital-349766072",
+  "date": "2026-11-11",
+  "title_en": "Can You Index Venture Capital?",
+  "title_zh": "风险投资能被指数化吗？——对话 Verdis 的 Alex Kirk",
+  "subtitle_zh": "Verdis 的 Alex Kirk 讲述如何用指数化打法覆盖种子期、靠幂律捕获极端赢家。",
+  "description": "Can You Index Venture Capital?",
+  "duration": "47:53",
+  "duration_seconds": 2873,
+  "episode_url": "https://www.iheart.com/podcast/269-swimming-with-allocators-126968343/episode/can-you-index-venture-capital-349766072",
+  "audio_url": "https://traffic.megaphone.fm/TGL7407093731.mp3?source=iheart",
+  "speakers": {
+    "1": "Alexa Binns & Earnest Sweat（主持）",
+    "2": "Alex Kirk（嘉宾 · Verdis Investment Management）",
+    "3": "Shane Galley（嘉宾 · Sidley，中插赞助访谈）",
+    "4": "片花/广告（旁白）"
+  },
+  "turn_count": 144,
+  "turns": [
+    {
+      "i": 0,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "00:00",
+      "en": "This episode is brought to you by Indeed. You're ready to level up your business, but the pressure to find the right person to make that happen is intense. Indeed sponsor jobs can help carry the load. It boosts your job post to help it reach quality talent fast. Cut through the chaos with Indeed sponsor jobs.",
+      "zh": "本集节目由 Indeed 赞助播出。你已经准备好让业务更上一层楼，但要找到那个能帮你实现目标的合适人选，压力实在很大。Indeed 的赞助职位（Sponsored Jobs）可以帮你分担这份压力。它能让你的招聘信息获得推广，帮你快速触达优质人才。用 Indeed 赞助职位，从混乱的招聘中脱颖而出。"
+    },
+    {
+      "i": 1,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "00:18",
+      "en": "Get a $75 sponsor job credit at Indeed.com slash podcast, terms and conditions apply. Hirey now, then this is a job for Indeed sponsor jobs. From the first card you send to the last gift they unwrap. This holiday season, it's Zazzle all the way. Custom photo gifts, cards, decor and more.",
+      "zh": "访问 Indeed.com/podcast，即可获得 75 美元的赞助职位抵扣额度，需遵守相关条款。想马上招人？这正是 Indeed 赞助职位的用武之地。从你寄出的第一张贺卡，到他们拆开的最后一份礼物，这个假日季，一切就交给 Zazzle。定制照片礼物、贺卡、装饰品等等，应有尽有。"
+    },
+    {
+      "i": 2,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "00:39",
+      "en": "Holiday cards they'll keep on the fridge year round. Zazzle decorations that become traditions. Gifts they'll cherish? Zazzle. Choose a product, add your photos and details, and Zazzle does the rest. Zazzle has helped over 30 million customers make moments into memories. Shop deals all season long at Zazzle.com. That's Z-A-Z-Z-L-E.",
+      "zh": "他们会把假日贺卡一整年都贴在冰箱上。Zazzle 的装饰会成为家里的传统。想让他们珍藏的礼物？就选 Zazzle。挑一件产品，加上你的照片和信息，剩下的 Zazzle 帮你搞定。Zazzle 已经帮助超过 3000 万顾客把瞬间变成回忆。整个假日季都能在 Zazzle.com 上选购优惠。拼写是 Z-A-Z-Z-L-E。"
+    },
+    {
+      "i": 3,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "00:58",
+      "en": "Zazzle.com. The public markets solves the power-all problem. You can buy the whole distribution for a few basis points, which means you own every outlier by construction. And the same concept didn't really exist for seed stage, so we decided to build it ourselves.",
+      "zh": "Zazzle.com。公开市场（public markets）解决了幂律（power law）难题：你只花几个基点（basis points）就能买下整个分布，这意味着从组合结构上你就持有了每一个极端赢家（outlier）。而种子期（seed stage）此前几乎不存在同样的产品，所以我们决定自己造一个。"
+    },
+    {
+      "i": 4,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "01:15",
+      "en": "Welcome to Swimming with Alligators. The VC podcast from the LP perspective. With your host, Alexa Bans, and Ernest, you ready? Let's dive in. Our next guest is Alex Kirk. He is vice-president, Advertis. And I have been so pumped to have you on the show, Alex.",
+      "zh": "欢迎来到 Swimming with Allocators，一档从 LP 视角出发的风险投资（venture capital）播客。由你们的主持人 Alexa Binns 和 Earnest 带你们一起——准备好了吗？我们下水吧。今天请到的嘉宾是 Alex Kirk，他是 Verdis 的副总裁。Alex，我真的特别期待你能来上我们的节目。"
+    },
+    {
+      "i": 5,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "01:34",
+      "en": "As fun to fun's go, this is the most differentiated approach I have seen out there, and I'm so excited to hear about what you're doing. Thank you. It's great to be on with you guys. Absolutely. Before we jump into Verdes and what you all year approach this sort of quant approach to selecting managers,",
+      "zh": "就基金而言，这是我见过的最与众不同的打法，我特别期待听听你们在做的事。谢谢，很高兴能来上你们的节目。当然。在我们聊 Verdis、聊你们这套近乎量化（quant）的挑选管理人方法之前，"
+    },
+    {
+      "i": 6,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "01:55",
+      "en": "could we get the Alex allocator story? Sure. So I started my institutional investing career",
+      "zh": "能不能先讲讲 Alex 你自己的配置人（allocator）故事？好的。我的机构投资生涯"
+    },
+    {
+      "i": 7,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "02:06",
+      "en": "about 10 years ago in the classic asset allocation driven endowment style model. So allocating to managers across all the alternative asset classes. And when we started, we had a public markets book that I was covering, which was split between an equity strategy and a hedge fund portfolio.",
+      "zh": "大约十年前起步，走的是经典的、由资产配置驱动的大学捐赠基金（endowment）模式，也就是把资金分配到各个另类资产类别的管理人手里。我们刚开始的时候，我负责一块公开市场（public markets）的业务，里面分成股票策略和对冲基金（hedge fund）组合两部分。"
+    },
+    {
+      "i": 8,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "02:27",
+      "en": "And the other side of the book was a large allocation to private markets. And that included buy-out, growth equity, venture, real estate, and natural resources.",
+      "zh": "另一半则是大比例的私募市场（private markets）配置，包括并购（buy-out）、成长股权（growth equity）、风险投资（venture）、房地产和自然资源。"
+    },
+    {
+      "i": 9,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "02:39",
+      "en": "And what I really liked about this approach was one seeing everything that was out there, but two building strategies for each asset class. And building that into a portfolio with an extremely long time horizon. And so what I like about this was that it really allowed us to optimize for time,",
+      "zh": "我特别喜欢这种打法的地方有两点：一是能看到市面上所有的东西，二是为每个资产类别构建策略，再把它们搭进一个时间跨度极长的组合里。我喜欢它，是因为它真的让我们能够围绕“时间”来做优化，"
+    },
+    {
+      "i": 10,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "02:59",
+      "en": "which is a big, controllable component in compounding capital. And so I think I had a great foundation with being able to see all that as I started my career. The journey of the venture strategies, kind of the journey of your career, or this. Yes. What unlocked that you all shifted how you were wanting to approach venture?",
+      "zh": "而时间是资本复利（compounding）里一个很大、又可控的因素。所以我觉得，在职业生涯一开始就能见识到这一切，给了我非常好的底子。那聊聊风险投资这条策略线吧，这也算是你职业轨迹的一部分。是的。是什么契机让你们改变了切入风险投资的方式？"
+    },
+    {
+      "i": 11,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "03:22",
+      "en": "Yeah. So way back when for the family office, the original approach to venture was kind of the common thinking that you need to be in the brand name VC funds to get the attractive venture returns. So we invested in venture fund-of- funds products that had access",
+      "zh": "是这样。早些年，对于这个家族办公室（family office）来说，最初做风险投资走的是那种大众思路：你得投进那些大牌 VC 基金，才能拿到有吸引力的风险投资回报。所以我们投了一些风险投资的母基金（fund-of-funds）产品，它们能接触到"
+    },
+    {
+      "i": 12,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "03:46",
+      "en": "to these types of managers. But what we found over time was that as these firms and as these products scaled, the exposure that we were buying was much more multi-stage, often late-stage, which didn't really offer the same return profile we were looking for in an early-stage allocation.",
+      "zh": "这类管理人。但我们后来发现，随着这些机构和产品规模越来越大，我们买到的敞口变得越来越偏多阶段、常常是后期（late-stage），这跟我们想在早期配置里拿到的那种回报特征并不一样。"
+    },
+    {
+      "i": 13,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "04:06",
+      "en": "And that set us on our journey to build dedicated exposure at the earliest possible entry point. And so at a high level, what that looks like today is a highly diversified index approach across preceding seed by investing in funds, often sub-50 million dollar funds,",
+      "zh": "这就让我们踏上了一段旅程：在尽可能早的入场点上，构建专门的敞口。所以从大方向上看，我们今天的做法是一套高度分散的指数化（index）打法，覆盖 pre-seed 和 seed 阶段，通过投资基金来实现，而且常常是规模在 5000 万美元以下的基金，"
+    },
+    {
+      "i": 14,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "04:28",
+      "en": "often emerging managers and many of which are fund ones who are optimizing their portfolio construction for first-check exposure and outlier capture. And so at scale, that's about a fun commitment per month for us. And our strategy covers about 20 to 25 percent of all the seed",
+      "zh": "往往是新兴管理人（emerging managers），其中很多还是首支基金（fund one），他们把组合构建优化到能拿到首张支票（first-check）的敞口、能捕获极端赢家。所以做到现在的规模，我们每个月大约要出一笔基金的承诺额。我们的策略覆盖了全美所有种子期"
+    },
+    {
+      "i": 15,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "04:50",
+      "en": "stage companies in the US. That's amazing coverage and scale. Before we get into kind of how you all built that out and specifically finding the right managers and deciding that that was the right",
+      "zh": "公司的 20% 到 25%。——这个覆盖面和规模太惊人了。在我们深入讲你们是怎么把它搭起来的、具体怎么找到合适的管理人、怎么确定那才是对的"
+    },
+    {
+      "i": 16,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "05:05",
+      "en": "criteria, could you talk to me about having experienced with so many different other asset classes, how that prepped you for how you looked at venture in the past and today? Yeah, when you go back to the importance of just thinking with a really long time horizon and investing,",
+      "zh": "标准之前，能不能跟我聊聊——你接触过这么多其他资产类别，这些经历是如何为你过去和现在看待风险投资做准备的？是的，回过头看，关键在于用非常长的时间跨度去思考投资，"
+    },
+    {
+      "i": 17,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "05:26",
+      "en": "you know, how we worked across multi-asset class, this multi-asset class approach and thinking with that long time horizon, it allowed us to see that venture was this really unique asset class that benefited from a unique investment approach that was different from what we were doing across",
+      "zh": "就是我们怎么做多资产类别、这套多资产类别的打法，再加上用超长时间跨度去思考，让我们看到风险投资是一个非常独特的资产类别，它需要一套独特的投资方法，跟我们在"
+    },
+    {
+      "i": 18,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "05:44",
+      "en": "other areas of the portfolio and in many ways different from what others other allocators are doing in the early stage venture space. What was the key to realizing you wanted to do this in more of an index approach? How did you come how did the strategy come to be? When we were building the",
+      "zh": "组合其他板块所做的都不一样，在很多方面也跟其他配置人在早期风险投资领域的做法不同。——那你们意识到要用更偏指数化的方式来做，关键是什么？这套策略是怎么形成的？——我们在构建"
+    },
+    {
+      "i": 19,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "06:06",
+      "en": "strategy, we spent a lot of time studying the structure of asset classes, especially in the private markets and a big takeaway was that most private market asset classes look like your classic normally distributed bell shaped curve, meaning the mean and median returns are very similar and",
+      "zh": "这套策略的时候，花了大量时间研究各类资产类别的结构，尤其是在私募市场。一个很大的收获是：大多数私募市场资产类别看起来就像经典的正态分布钟形曲线，也就是说均值回报和中位数回报非常接近，"
+    },
+    {
+      "i": 20,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "06:32",
+      "en": "both are typically referred to as the beta return for the asset class. And in these asset classes, the aspirational approach is to drive alpha through selection. So, you know, picking the best managers to try and achieve top core tile returns. Seed stage looks much different from an asset class",
+      "zh": "两者通常都被称为这个资产类别的贝塔（beta）回报。在这类资产里，大家追求的做法是通过精选来创造阿尔法（alpha），也就是挑最好的管理人，去争取前四分位（top quartile）的回报。而种子期从资产类别"
+    },
+    {
+      "i": 21,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "06:55",
+      "en": "structure perspective and that's because of the power law where, you know, the thick right tail of the distribution, which is, you know, all of the outliers and all of the massive winners, it's driving the bulk of the return. And the biggest unlock here is that in a power law asset class,",
+      "zh": "结构的角度看就完全不同，原因就是幂律——分布右侧那条厚厚的尾巴，也就是所有的极端赢家和巨额回报，才是回报的主要来源。而这里最大的顿悟是：在一个幂律型的资产类别里，"
+    },
+    {
+      "i": 22,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "07:13",
+      "en": "the mean return is so much higher than the median driven by those outliers. And in fact, the mean return is often so much greater than the median return at seed that it historically sits right around the top core tile for the asset class. So, that was pretty eye opening for us because the takeaway",
+      "zh": "被那些极端赢家拉动的均值回报，比中位数回报高出太多。事实上，种子期的均值回报常常比中位数回报高出一大截，以至于从历史数据看，它就落在整个资产类别前四分位附近。这让我们大开眼界，因为由此得到的结论是"
+    },
+    {
+      "i": 23,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "07:29",
+      "en": "there is that if you back every single seed fund and every single seed company, you really get that top core tile asset class return. And the U.S. stock market, so thinking about public markets here, the U.S. stock market functions in a similar way where something like 4% of all companies",
+      "zh": "如果你把每一支种子基金、每一家种子期公司都投下来，你就真能拿到那个前四分位的资产类别回报。再看美国股市——也就是从公开市场的角度看——它的运行方式很类似：大约 4% 的公司"
+    },
+    {
+      "i": 24,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "07:49",
+      "en": "account for, you know, the whole return of the asset class. And the public markets solves the power law problem. You can buy the whole distribution for a few basis points, which means you own every outlier by construction. And the same concept didn't really exist for seed",
+      "zh": "就贡献了整个资产类别几乎全部的回报。而公开市场解决了幂律难题：你花几个基点就能买下整个分布，这意味着从结构上你就持有了每一个极端赢家。可同样的产品在种子期"
+    },
+    {
+      "i": 25,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "08:06",
+      "en": "stage, so we decided to build it ourselves. With those initial kind of thoughts of how it's a power law asset class, how do you all iterate on the strategy now that it feels like it's become a power power law asset class where there's like, there's a power law to the power law. And so,",
+      "zh": "几乎不存在，所以我们决定自己造一个。——在最初认定它是幂律型资产类别之后，现在感觉它已经变成了“幂律的幂律”、一个幂律之上还套着幂律的资产类别，那你们又是怎么迭代这套策略的？所以，"
+    },
+    {
+      "i": 26,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "08:30",
+      "en": "how has that impacted how you all think about finding new managers? I'm picturing some of these companies wearing like, those like booster things that make you fly in the ocean. Yeah, this is normal. Wait, wait an hour, some people are wearing jet packs, so like, does the strategy change? The strategy state remarkably consistent",
+      "zh": "这对你们怎么找新管理人有什么影响？——我脑子里浮现出这些公司里有人戴着那种能让人在海里飞起来的推进器。——是啊，这很正常。——等一小时再看，有些人还背着喷气背包了。那策略会变吗？——这套策略从我们起步到现在一直保持得惊人地稳定，"
+    },
+    {
+      "i": 27,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "08:57",
+      "en": "since we started. And so, I think what's changed for us is kind of the scale and the process that we've built. And so, when we first started, the goal was very much just to test our ability to access the seed market, given that we sit in Philadelphia. And it's not exactly the center of",
+      "zh": "我觉得对我们来说变化的是规模，以及我们建立起来的这套流程。刚起步的时候，目标其实很简单，就是验证我们有没有能力打进种子期市场——毕竟我们在费城（Philadelphia），那里并不算"
+    },
+    {
+      "i": 28,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "09:15",
+      "en": "the venture world. So, we had to build this sourcing pipeline and this network with a lot of ecosystem research and cold outreach. And we were able to get a feel for the early stage landscape over time. And I think credit a lot to our managers, especially in the early days. We have",
+      "zh": "风险投资世界的中心。所以我们不得不靠大量的生态研究和陌生开发（cold outreach），一点点搭建起这条项目来源管道和人脉网络，也随着时间推移慢慢摸清了早期投资的全貌。我觉得这里要很大程度上归功于我们的管理人，尤其是在早期。我们"
+    },
+    {
+      "i": 29,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "09:36",
+      "en": "a lot of amazing managers in the portfolio. Many were those first few commitments when we were getting started. And we're so helpful for us to lean on as we were building kind of the sourcing engine and function. And many of those managers we continue to back today. But I think that the",
+      "zh": "组合里有很多非常出色的管理人，其中不少就是我们刚起步时投出的头几笔。在我们搭建项目来源引擎和职能的过程中，他们给了我们极大的帮助，其中很多管理人我们直到今天还在继续支持。不过我觉得"
+    },
+    {
+      "i": 30,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "09:54",
+      "en": "sourcing work has changed as our network has expanded and we've become more well-known as an LP in the market. So, it was a lot of outbound initially. Now, it's a mix of inbound and outbound today. And so, that scaling has changed over time for us and both on that sourcing side and also on",
+      "zh": "随着人脉网络扩大、我们作为 LP 在市场上越来越有名，找项目这件事已经变了。一开始大量是主动出击（outbound），如今则是主动出击和找上门来（inbound）的组合。所以这种规模化在我们这儿是随时间变化的，既体现在项目来源这一侧，也体现在"
+    },
+    {
+      "i": 31,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "10:14",
+      "en": "the investing side and also on the portfolio and data side. We've got over 4,000 companies and something like 72 unicorns so far across 70 funds and I think 45 GP relationships since 2017. So, we've got this pretty robust historical data set and we've built a bunch of infrastructure",
+      "zh": "投资这一侧，还有组合和数据这一侧。自 2017 年以来，我们通过 70 支基金、我记得大约 45 段 GP 合作关系，投了超过 4000 家公司，到目前为止跑出了大约 72 家独角兽（unicorn）。所以我们有一套相当扎实的历史数据集，也搭建了不少基础设施"
+    },
+    {
+      "i": 32,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "10:34",
+      "en": "to help us manage and sort of extract insights from that. We have a lot of allocators that are outside that are just getting started and are outside of kind of like Silicon Valley or New York both domestically here in the US and internationally.",
+      "zh": "来帮我们管理数据、从中提炼洞察。——有很多刚起步的配置人，是在硅谷（Silicon Valley）或纽约之外的，无论是在美国国内还是海外。"
+    },
+    {
+      "i": 33,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "10:52",
+      "en": "What advice would you give them as they're building out that ecosystem and trying to make those first investments? You spoke to one, getting out there, two, leaning on your first investments to help you get some of that tribal knowledge. What are the tactics would you provide them?",
+      "zh": "你会给这些正在搭建自己生态、尝试投出头几笔的人什么建议？你刚说到两点：一是走出去，二是靠你的头几笔投资帮你积累那些“圈子内的门道”（tribal knowledge）。那你会给他们哪些具体的战术？"
+    },
+    {
+      "i": 34,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "11:11",
+      "en": "Yeah, I think it's really important to spend a lot of time understanding the market and the ecosystem and just the network of who's there before deploying capital. It's a really, really distributed ecosystem. There's hundreds, maybe thousands of funds in venture and all of them unique in some way and so",
+      "zh": "嗯，我觉得在投钱之前，花大量时间去理解这个市场、这个生态、以及里面都有谁，非常重要。这是一个极其分散的生态。风险投资里有几百家、甚至上千家基金，每一家都在某个方面独一无二，所以"
+    },
+    {
+      "i": 35,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "11:38",
+      "en": "spending a lot of time going to, there's a lot of great industry events now and conferences and networking events and many of them are not in our backyard so but reachable in many of the classic venture ecosystems and so spending a lot of time in those markets and figuring out",
+      "zh": "要花很多时间去参加——现在有很多很棒的行业活动、会议和社交场合，其中不少虽然不在我们家门口，但在那些经典的风险投资生态里都能够得着。所以要多花时间去这些市场里泡着，搞清楚"
+    },
+    {
+      "i": 36,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "12:01",
+      "en": "who the players are and meeting those folks. It really helps to paint the picture for what the market looks like and then you have a better frame when you start to point capital and then it compounds from there and that you have these relationships now that you can lean on to really",
+      "zh": "里面的玩家都有谁，去见这些人。这真的能帮你把整个市场的全貌描绘出来，等你开始投钱的时候就有了更好的判断框架，然后从那里开始滚雪球——因为你已经有了这些人脉，可以依靠它们来真正"
+    },
+    {
+      "i": 37,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "12:16",
+      "en": "help build out your strategy. I feel like there's an interesting tension between if you're working in one asset class where you're describing sort of that the median is the same as the average. You're leaning on some of these more soft skills. You sort of have a muscle for",
+      "zh": "帮你把策略搭起来。——我觉得这里有一种很有意思的张力：如果你做的是那种中位数等于平均值的资产类别，你会依赖一些更“软”的技能，你算是练出了一块"
+    },
+    {
+      "i": 38,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "12:40",
+      "en": "selecting managers and you have to turn that off then to really commit to your venture strategy. Are there some things that carry over from the more qualitative analysis in the venture strategy or is this all quantitative driven? No, there's certainly a non-quantative component for what we do.",
+      "zh": "挑选管理人的“肌肉记忆”，但要真正投入到你们的风险投资策略里，你又得把这块关掉。那么在风险投资策略里，有没有一些东西是从那种更定性的分析里延续过来的，还是说这一切都由量化驱动？——不，我们做的事里肯定有非量化的成分。"
+    },
+    {
+      "i": 39,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "13:07",
+      "en": "You know at the end of the day this is still very much a relationship driven business and while we have a kind of rooted in the numbers quantitative lens to how we've approached our portfolio and strategy as a whole, we focus a lot with managers on process and so",
+      "zh": "说到底，这仍然是一门非常靠关系驱动的生意。虽然我们在看待整个组合和策略时，用的是一套扎根于数字的量化视角，但和管理人打交道时，我们非常看重“流程”（process），所以"
+    },
+    {
+      "i": 40,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "13:32",
+      "en": "I think process can be more of a qualitative but for us that's really one of the most important things to underwrite and we spend a lot of time with GPs often fun ones. That's an entry point where we really like to build relationships with managers and we spend a lot of time thinking",
+      "zh": "我觉得流程可能更偏定性，但对我们来说，它真的是最需要认真评估（underwrite）的东西之一。我们花大量时间和 GP 相处，往往是首支基金——那是我们特别愿意和管理人建立关系的切入点，我们会花很多时间去琢磨"
+    },
+    {
+      "i": 41,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "13:52",
+      "en": "through process as opposed to things like track record and some of these other criteria that others may spend more time on in their underwriting process. When we think about process it's much more focused on understanding the portfolio construction, the sourcing function",
+      "zh": "流程，而不是像过往业绩（track record）以及别人在尽调中可能更花时间的其他标准。我们讲流程时，重点更多放在理解组合构建、管理人的项目来源职能、"
+    },
+    {
+      "i": 42,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "14:12",
+      "en": "that the manager has, their network and just really how they expect to deploy capital.",
+      "zh": "他们的人脉网络，以及他们究竟打算怎么把钱投出去。"
+    },
+    {
+      "i": 43,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "14:19",
+      "en": "We view this as the more controllable part of the early stage investing so the results in track record are far less controllable over time which means they're just generally harder to underwrite. So we choose to focus more heavily on process and a lot of that process is speaking with the manager",
+      "zh": "我们把这看作早期投资里更可控的部分；而结果和过往业绩随时间来看要不可控得多，也就意味着通常更难评估。所以我们选择把重心更多放在流程上，而流程评估的很大一部分就是和管理人聊，"
+    },
+    {
+      "i": 44,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "14:39",
+      "en": "getting an understanding for how they view the strategy and their long-term plan and all that. There's a concept that Aaron Gilman was telling us is sort of he's looking forward thinking as opposed to backward looking and it sounds like focusing on process gets you a picture of what",
+      "zh": "去理解他们怎么看这套策略、他们的长期规划等等。——Aaron Gilman 跟我们讲过一个概念，说他是向前看（forward-thinking），而不是向后看（backward-looking）。听起来，聚焦流程能让你对"
+    },
+    {
+      "i": 45,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "14:58",
+      "en": "could happen in the future. Exactly. So Alex with a steady portfolio I'm really intrigued by your future portfolio construction and what you look for in filling that is it a process of hey we're a little underweight in this strategy within seed and precede or we overweight in another or we",
+      "zh": "未来可能发生什么有一幅更清晰的图景。——正是如此。——那 Alex，在你已有稳定组合的基础上，我特别好奇你未来的组合构建：你在往里填的时候看重什么？是不是这样一种流程——“嘿，我们在 seed 和 pre-seed 里对这个策略稍微低配了一点，或者对另一个高配了”，还是说你们"
+    },
+    {
+      "i": 46,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "15:25",
+      "en": "just looking for you know all people who have high high potential for alpha I'm curious because at one of my mentors said as a fund manager that it is critical for you as a GP to understand where you fit in your LP's portfolio stack and so just I would love to hear you kind of you're thinking",
+      "zh": "只是在找那些阿尔法潜力很高的人？我好奇是因为我的一位导师在做基金管理人的时候说过，作为一个 GP，搞清楚自己在 LP 的组合栈（portfolio stack）里处于什么位置至关重要。所以我很想听听你的思路——"
+    },
+    {
+      "i": 47,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "15:43",
+      "en": "behind as you're continually like building upon the portfolio how do you decide what you're looking for. We think about the portfolio holistically from this index like coverage of the early stage venture market and what we try to do is not try and tip the portfolio in one direction or",
+      "zh": "在你不断往上搭这个组合的过程中，你是怎么决定要找什么样的标的。——我们是从“对早期风险投资市场做指数化覆盖”这个角度，整体地来看这个组合的。我们尽量不去把组合往某一个方向"
+    },
+    {
+      "i": 48,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "16:05",
+      "en": "another it's too difficult for us to make those calls and I think it invites a lot of you know consensus or bias kind of risk. So one part of our approach that helps us really stay rooted in this you know kind of strategy and approach long term is we have a preference for generalist",
+      "zh": "倾斜，因为那种判断对我们来说太难做了，而且我觉得它会带来很多共识或者偏见方面的风险。所以我们打法里有一个部分，能帮我们长期扎根于这套策略和方法，就是我们更偏好通才型（generalist）"
+    },
+    {
+      "i": 49,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "16:25",
+      "en": "strategies over specialized or you know factor focused strategies. We really like the generalist approach to the portfolio because it allows us to spread our exposure across the start at market without having to make any type of bet as to you know which is the right future sector to be in",
+      "zh": "策略，而不是专精型或者聚焦某个因子（factor）的策略。我们非常喜欢这种通才型的组合打法，因为它让我们能把敞口铺满整个初创市场，而不必去下任何“哪个才是未来该押对的赛道”这种注，"
+    },
+    {
+      "i": 50,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "16:46",
+      "en": "and our managers generally steer the portfolio exposure for us based on you know their read of what products are being built and where the founders are headed. It would you know I think instead of you know us steering that ourselves we've tried to remove that as much as we can and",
+      "zh": "我们的管理人通常会替我们把握组合敞口的方向，依据的是他们对“正在被打造什么产品、创始人正往哪走”的判断。我觉得，与其由我们自己来掌舵，我们尽可能地把这种主观判断拿掉，"
+    },
+    {
+      "i": 51,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "17:05",
+      "en": "let the portfolio really cap weight itself just based on where the market is moving. The one follow-up question to that is however I'm sure from that strategy if there's like technological shifts that we're experiencing right now with AI you're going to feel that",
+      "zh": "让组合完全按照市场的走向去做市值加权（cap-weight）。——针对这一点我有个追问：我相信在这样的策略下，如果我们正经历的 AI 这种技术变革，你肯定会感受到"
+    },
+    {
+      "i": 52,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "17:23",
+      "en": "as we're going through this transition period and before this becomes a ubiquitous just like part of technology you're going to feel that overweightness right. Yeah that's kind of how the cap weighting piece of this works and so you know I think if you look historically in the portfolio",
+      "zh": "——在我们经历这个过渡期、在它变成无处不在的技术组成部分之前，你会感受到那种超配（overweight），对吧？——对，这差不多就是市值加权这块的运作方式。我觉得如果从历史上看这个组合，"
+    },
+    {
+      "i": 53,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "17:43",
+      "en": "there have been shifts where let's say 10 years ago when we were getting started the market looked very different it was certainly less AI focused and there was an AI component in the portfolio and that's actually showing up today in that portfolio for these companies that weren't",
+      "zh": "里面是有过一些切换的。比如说 10 年前我们刚起步的时候，市场看起来非常不一样，那时肯定没这么聚焦 AI，但组合里已经有一部分 AI 的成分，而这部分如今真的在组合里显现出来了——那些当时并不是"
+    },
+    {
+      "i": 54,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "17:59",
+      "en": "you know the core focus for many of these funds but the generalist approach through the generalist approach managers who are still investing in these companies and spreading their bets across kind of a wide pool and so I actually don't remember what it would have been about it 10 years ago",
+      "zh": "很多基金核心押注对象的公司，正是靠通才型的打法——那些管理人仍然在投这些公司，把赌注分散到一个很宽的池子里。所以其实我记不清 10 年前"
+    },
+    {
+      "i": 55,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "18:16",
+      "en": "what what was the hot area but today it's it's obviously AI and there's a large portion of the portfolio going into AI but as we think about looking ahead we're pretty confident that there will be a number of winners both in the AI space and in kind of these lesser known areas that will",
+      "zh": "当时的热门领域是什么了，但今天显然是 AI，组合里有一大部分都投向了 AI。不过往前看，我们相当有信心：无论是在 AI 领域，还是在那些相对不那么知名的领域，都会跑出不少赢家，它们会"
+    },
+    {
+      "i": 56,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "18:35",
+      "en": "grow into being you know whatever the future winners tend to be. Your entry point you're looking at sub 50 funds fund ones what's the relationship over time as these GPs some of them go on to develop more franchises do they cycle out? Yeah it's a great question so for us it it comes",
+      "zh": "成长为未来的赢家该有的样子。——你的入场点是盯着 5000 万美元以下的基金、首支基金，那随着时间推移，当这些 GP 里有些人慢慢发展出更多“系列基金”（franchise）时，你们的关系会怎么变化？他们会退出循环吗？——这是个好问题。对我们来说，这要"
+    },
+    {
+      "i": 57,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "19:05",
+      "en": "back to the whole focus on process and how that manager is set up to deploy the fund and really execute the strategy over time and kind of multiple cycles and you know that's something that we can underwrite as part of our diligence process and we continue to kind of reevaluate that ahead of",
+      "zh": "回到我们对流程的整体关注上：这个管理人是怎么设置去部署基金、怎么随时间跨越多个周期真正执行策略的。这是我们尽调流程中可以评估的东西，而且我们会在"
+    },
+    {
+      "i": 58,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "19:24",
+      "en": "each fund cycle we're typically a continuing investor with our managers because you know we're believers in their process and where we do tend to cycle out is when their you know as material change to that process so you know like you mentioned the manager decides to materially change",
+      "zh": "每个基金周期之前重新评估。我们通常会作为持续投资人（continuing investor）跟投我们的管理人，因为我们相信他们的流程。而我们确实会退出循环的情况，是当那个流程发生重大变化时——就像你说的，管理人决定做出重大改变，"
+    },
+    {
+      "i": 59,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "19:43",
+      "en": "the strategy whether it's you know things like portfolio construction or the stage focus or you know various other reasons that does happen and it's often a natural process of scaling and evolving as a VC firm so our goal is to maximize the life cycle of that original",
+      "zh": "改变策略，无论是组合构建、阶段聚焦，还是其他各种原因，这确实会发生，而且往往是一家 VC 机构规模化、演进过程中的自然结果。所以我们的目标是把最初那套"
+    },
+    {
+      "i": 60,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "20:03",
+      "en": "process and strategy and but we do look to maximize the relationship of all of these managers for as long as we can now we're going to take a quick break to speak with our sponsor on the show today we have our stellar partner and industry expert Shane Galley leader of Sidley's venture funds",
+      "zh": "流程和策略的生命周期做到最长，我们也希望尽可能长久地维系和所有这些管理人的关系。——现在我们稍微休息一下，来聊聊今天节目的赞助方。今天请到的是我们出色的合作伙伴、行业专家 Shane Galley，他是 Sidley 风险投资基金"
+    },
+    {
+      "i": 61,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "20:21",
+      "en": "practice and now host of the podcast talk VC we highly recommend you listen if you get value from this podcast we have Shane and his team to thank so appreciate you so much Shane for being a part of this show and the perspective you bring really the birds I view is second and none so thank you",
+      "zh": "业务的负责人，现在也是播客 Talk VC 的主持人。我们强烈推荐你去听——如果你觉得这档播客有价值，那要感谢 Shane 和他的团队。所以非常感谢 Shane 参与我们的节目，你带来的视角真的是无可替代的“鸟瞰视角”（bird's-eye view），谢谢你。"
+    },
+    {
+      "i": 62,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "20:44",
+      "en": "well it's as you know Alex I think the world at both you and Ernest and swimming with allocators and our partnership has been utter gold for us whether it's content or just great you know industry speaker friendship it's an honor to be here always and I'm super excited to talk a little bit",
+      "zh": "嗯，Alex，你知道的，我非常敬重你和 Earnest、以及 Swimming with Allocators，我们的合作对我们来说完全是金子般宝贵——无论是内容层面，还是那种很棒的行业人脉和友谊。能来这里一直是我的荣幸，我也特别期待多聊一点"
+    },
+    {
+      "i": 63,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "21:02",
+      "en": "more about VC stuff going on our listeners have heard from many of the Sidley partners that Shane has introduced us to across the ecosystem and today we get to hear from the boss himself running the venture part venture program specifically on fund formation and operations for VC funds so",
+      "zh": "VC 圈正在发生的事。——我们的听众已经从 Shane 给我们引荐的众多 Sidley 合伙人那里听到过很多，遍及整个生态；而今天我们要听的，是亲自操盘风险投资板块、专门负责 VC 基金设立（fund formation）与运营的“老板本人”。所以"
+    },
+    {
+      "i": 64,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "21:25",
+      "en": "in that context I am curious what has been keeping you busy Shane yeah what hasn't been keeping you busy it is it is gangbusters on the fund formation front you know a lot of that is just not garden variety but just regular mainline main fund activity funds that have been you know last",
+      "zh": "在这个背景下，我很好奇最近忙些什么，Shane？——是啊，该问“有什么是不忙的”。基金设立这块真是火得不行。其中很多不是什么新奇花样，就是常规的、主线的主基金（main fund）活动——那些过去"
+    },
+    {
+      "i": 65,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "21:49",
+      "en": "couple years ago are coming back online so the normal course kind of every day but",
+      "zh": "几年里沉寂的基金如今重新活跃起来，就是那种日常的、常规的节奏。不过"
+    },
+    {
+      "i": 66,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "21:55",
+      "en": "there's also been just a ton of very deal specific work so a lot of work and like co-investment funds and SPVs some of that tailored and tied to some of the main fund racing because oftentimes you'll have the commitments going into main funds tied to additional participation in SPVs or at",
+      "zh": "也有大量非常针对具体交易（deal-specific）的工作，比如很多共同投资基金（co-investment funds）和 SPV 的活儿，其中一些是为主基金募资量身定制、并与之绑定的，因为经常会有这种情况：对主基金的出资承诺，会与额外参与 SPV 或"
+    },
+    {
+      "i": 67,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "22:13",
+      "en": "opportunities fund so there's there's a lot going on in the way of a more holistic look in the LPs institutional LPs viewpoint on how and where they're investing in venture and actually what bargain they're striking and a lot of that so it's a lot of same as it ever has been",
+      "zh": "机会基金（opportunities fund）挂钩。所以有很多事情在发生：从机构 LP 的角度，更全面地看待他们如何、在哪些地方投资风险投资，以及他们实际达成的是怎样一种“交易安排”。所以很多东西和以往没什么两样，"
+    },
+    {
+      "i": 68,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "22:32",
+      "en": "with the acceleration obviously of the impact of AI and you know these 100 billion dollar deal specific deals that have put a lot of gasoline in the tank of venture these days but there's you know like it's whether it's defense tech or de-tech or a lot of",
+      "zh": "只不过 AI 的影响显然在加速，还有那些上千亿美元的具体交易，给当下的风险投资油箱里加了很多油。无论是国防科技（defense tech）、深科技（deep tech），还是大量"
+    },
+    {
+      "i": 69,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "22:51",
+      "en": "life sciences activity you know venture is just hot now and not surprisingly that is you got a lot of work on the fund formation front so you know but but there's also been a lot of trans migration of talent people you know new people leaving old funds starting new ones there's",
+      "zh": "生命科学（life sciences）的活动，风险投资现在就是很火。不出所料，基金设立这块就有大量工作要做。但同时，人才也在大量流动（transmigration）：有人离开老基金、创立新基金，也有"
+    },
+    {
+      "i": 70,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "23:09",
+      "en": "you know new entrepreneurs who finally had exit opportunities are starting their own funds so you know a lot of the just broader venture ecosystem has allowed there to be more activity and newer emerging managers new newer firms for established managers and that's all resulted in",
+      "zh": "终于等到退出机会的创业者开始成立自己的基金。所以整个更广泛的风险投资生态催生了更多活动：更多新兴管理人、成熟管理人创立的新机构，而这一切都带来了"
+    },
+    {
+      "i": 71,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "23:27",
+      "en": "just kind of a tidal wave of really really great work on our side oh I have so many questions based on this so starting with the top you you're describing sort of people coming back to market do you think that timing is working out for folks everybody is sort of sitting back waiting for",
+      "zh": "我们这边一波接一波、真正出色的业务。——哦，就这些我有太多问题想问了。先从最上面这个说起：你说到很多人重新回到市场，你觉得时机对大家来说合适吗？之前所有人都往后坐着、等着"
+    },
+    {
+      "i": 72,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "23:46",
+      "en": "DPI waiting for what's what's driving this now what's changed yeah I just think one is investment opportunity one is you know a lot of really great deals out there in the sort of FOMO of course you pro-generates a lot of movement in venture and you know with a lot of these",
+      "zh": "DPI（投入资本分配率）、等着这个那个。那现在到底是什么在推动？发生了什么变化？——是，我觉得一是投资机会，二是市面上有很多非常棒的交易，再加上那种“怕错过”（FOMO）的情绪，当然会在风险投资里催生大量动作。而随着很多这样"
+    },
+    {
+      "i": 73,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "24:05",
+      "en": "incredible rounds and really frankly early stage emerging companies any AI deep tech defense tech areas popping up all over the place now and a lot of it is also people coming from very large companies open AI and tropics starting new ventures and that has been a lot of the",
+      "zh": "不可思议的融资轮次——坦白说，AI、深科技、国防科技领域的早期新兴公司如今到处冒出来。而且很多还是来自超大型公司的人，比如 OpenAI、Anthropic，出来创办新项目。这一直是很大的一部分"
+    },
+    {
+      "i": 74,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "24:27",
+      "en": "opportunity cost if you don't have a fund out in market right now that you're not able to really take advantage of it unless you have a lot you sit on a lot of dry powder and frankly from 2021 there's not a heck of a lot of dry powder left to be honest over just given the past",
+      "zh": "机会成本——如果你现在市面上没有一支基金，你就没法真正抓住这些机会，除非你手上坐着大量“干火药”（dry powder，即可动用资金）。而坦白讲，从 2021 年到现在，说实话剩下的干火药已经不多了，光是考虑到过去"
+    },
+    {
+      "i": 75,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "24:42",
+      "en": "year plus in the healthy spending that's gone on in the venture industry so you know that that lag or that sag of a lot of extra capital that really waited down the timing of a lot of funds coming to market you know air has been led out of the balloon so that you know the the normal",
+      "zh": "一年多里风险投资行业那种大手笔的花钱。所以，此前正是因为有大量多余资本积压、拖慢了很多基金入市的时机；如今气球里的气被放掉了，那种正常的"
+    },
+    {
+      "i": 76,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "24:58",
+      "en": "market cycle is kind of just coming back now here in 2026 and a lot of people starting again thinking about early 2027 and this is about the time we start talking to those folks about their fund raises and getting all their documents ready so that around Thanksgiving Christmas time",
+      "zh": "市场周期差不多就在 2026 年这会儿回归了。很多人重新开始盘算 2027 年初。而这差不多就是我们开始和这些人聊他们募资、把所有文件准备就绪的时候，好让他们在感恩节、圣诞节前后"
+    },
+    {
+      "i": 77,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "25:15",
+      "en": "they're launching and then having first closes the beginning of Q1 so some of it is that but I but I do think that there's just been a little extra catapulting on some of the timing so someone who maybe was going to wait until 2027 in mid 2027 late 2027 is now I think that FOMO effect is",
+      "zh": "启动募资，然后在第一季度初完成首次关账（first close）。所以一部分原因是这个。但我确实觉得，在时机上有一种额外的“弹射”效应：原本可能打算等到 2027 年——2027 年中或 2027 年末——的人，现在，我觉得那种 FOMO 效应"
+    },
+    {
+      "i": 78,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "25:36",
+      "en": "really starting to impact a lot of people's decisions and frankly the availability of LP capital you know this is about the time of year when you know traditionally in years and decades past you look at what capital is left to invest in a venture fund on the LP side in the last half of",
+      "zh": "真的开始影响很多人的决策了。而且坦白讲还有 LP 资金的可得性。你知道，一年中的这个时候——按过去几十年来的传统——你会看 LP 这边在下半年还剩多少资金能投进风险投资基金，"
+    },
+    {
+      "i": 79,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "25:54",
+      "en": "the year and usually it's not a ton you know they've been very strategic about planning for their asset manager their fund managers who are raising B's not M's you know and they've been careful to allocate to those you know best of breed names but then it's you know there's a lot",
+      "zh": "通常剩下的并不多。他们在为旗下正在募资的基金管理人做规划时非常有策略性——盯的是募十亿级、而非百万级的那些——而且一直很谨慎地把资金配给同类最佳（best of breed）的名字。但这样一来，能投给"
+    },
+    {
+      "i": 80,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "26:11",
+      "en": "lot less opportunity and capital available to invest in just in time funds coming on market right now so you know and and that all changes again in January or when fresh allocation buckets get filled up and so there's just there's a lot of discussion around about timing and planning and",
+      "zh": "此刻刚入市、“即时”（just-in-time）基金的机会和资金就少得多了。而这一切到了明年一月、当新的配置额度被重新填满时又会改变。所以围绕时机、规划和"
+    },
+    {
+      "i": 81,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "26:27",
+      "en": "strategy and who's out the market and a lot of people are asking us you know which LP's are investing still this late in the year and so you know it's helping clients kind of align to land their planes on the right part of the runway to be able to you know have really successful",
+      "zh": "策略、以及谁还在市场上，有很多讨论。很多人来问我们：都这么晚了、到一年末尾了，哪些 LP 还在投？所以这其实是在帮客户对齐节奏、让他们的“飞机”降落在跑道上正确的位置，好能有一个真正成功的"
+    },
+    {
+      "i": 82,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "26:41",
+      "en": "first closings to be able to launch them into you know great second closings or if you know they're really advantage you can do it one and done then you know how do you how do you how in a market like this do you help them navigate all that thank you for joining us on the show Shane if you're a GP",
+      "zh": "首次关账，进而开启漂亮的第二次关账（second close）；或者如果条件真的有利，也可以“一次性搞定”。那在这样的市场里，你是怎么帮他们驾驭这一切的？——谢谢你来上我们的节目，Shane。如果你是一位 GP"
+    },
+    {
+      "i": 83,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "26:56",
+      "en": "or LP looking for expert guidance on fund formation and venture capital legal matters you can visit Sidley's website s-i-d-l-e-y.com and now back to our LP interview and now back to our LP interview",
+      "zh": "或者 LP，正在寻找关于基金设立和风险投资法律事务的专业指导，可以访问 Sidley 的官网 s-i-d-l-e-y.com。现在，回到我们的 LP 访谈。现在，回到我们的 LP 访谈。"
+    },
+    {
+      "i": 84,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "27:11",
+      "en": "Alex and during our prep call you spoke a little bit about a trend or tendency of investors that kind of have to show their over preference for a certain factors that have some perceived or predictability um and that example you were talking about DCs uh having over preference for",
+      "zh": "Alex，在我们前期的沟通电话里，你稍微聊到一个趋势或者说倾向：投资人往往会表现出对某些“被认为有可预测性”的因子的过度偏好。你举的那个例子，是说 VC 对"
+    },
+    {
+      "i": 85,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "27:33",
+      "en": "serial entrepreneurs or even allocators having over preference for kind of you know big brand proven firms uh talk to me a little talk to the audience a little bit about you know how you diligence for that as well as like how do you keep yourself in check to not have those",
+      "zh": "连续创业者（serial entrepreneurs）的过度偏好，甚至是配置人对那些大牌、已被验证的机构的过度偏好。跟我、也跟听众聊聊：你们在尽调时是怎么应对这一点的，以及你们怎么克制自己、不去"
+    },
+    {
+      "i": 86,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "27:54",
+      "en": "you know follow that trend yeah so something we focus on as part of our thesis and our strategy is doing our best to remove structural biases within our venture portfolio um and that can mean a lot of things for us some of those are you know the preference for generalists over sector specialists",
+      "zh": "跟随那种潮流。——是，我们作为投资主张和策略一部分重点关注的一件事，就是尽最大努力去除风险投资组合里的结构性偏见（structural bias）。这对我们来说意味着很多东西，其中一些就是：偏好通才型而非行业专精型，"
+    },
+    {
+      "i": 87,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "28:16",
+      "en": "um you know we invest with both solo gps multi partner firms fund ones etc we want to make sure that we're seeing everything or that we're not narrowing ourselves and missing potential outliers so you know set another way we're we're trying to avoid rigid pattern matching",
+      "zh": "我们既投单人 GP（solo GP）、也投多合伙人机构、也投首支基金等等，我们要确保自己看到了全貌，不至于把视野收窄、错过潜在的极端赢家。换句话说，我们在努力避免僵化的“模式匹配”（pattern matching），"
+    },
+    {
+      "i": 88,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "28:35",
+      "en": "and there's a natural tendency in investing to pattern match and you know we're wired as humans to build heuristics and to look at what's worked before and try and use that to predict what will work next but venture is just such a unique asset class and the whole nature of outliers is that",
+      "zh": "而投资中天然就有一种做模式匹配的倾向。作为人类，我们天生就会建立启发式判断（heuristics），去看过去什么管用，然后试着用它来预测下一个管用的是什么。但风险投资就是这么一个独特的资产类别，而极端赢家的本质就是"
+    },
+    {
+      "i": 89,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "28:52",
+      "en": "they're disruptive and unpredictable and so when you take that very you know natural instinct of pattern matching and you try and apply it at early stage it it can actually stop being a tool and start being a structural bias and you can see where that leads once it's in place um you know",
+      "zh": "颠覆性和不可预测性。所以当你把那种非常自然的模式匹配本能，硬套到早期阶段时，它可能就不再是工具，而开始变成一种结构性偏见；一旦它成型，你能想见会把事情带向何方。"
+    },
+    {
+      "i": 90,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "29:13",
+      "en": "investors narrow down their sourcing to things that they can feel they can actually evaluate whether or not those are you know real patterns or or signal or just noise and so for you know I think you mentioned as a VC that's that could be the the proven serial repeat founder with the right",
+      "zh": "投资人会把项目来源收窄到那些他们觉得自己真能评估的东西上——无论那些究竟是真正的规律、是信号（signal），还是噪音（noise）。所以，我记得你提到过，对一个 VC 来说，这可能就是那种背景对路、已被验证的连续/重复创业者；"
+    },
+    {
+      "i": 91,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "29:32",
+      "en": "background the right pedigree for an allocator that can be the manager with a strong prior prior fund um you know the spin out from a brand name firm the track record that suggests some kind of repeatable edge I think all of that feels like discipline and nobody should be undisciplined",
+      "zh": "对一个配置人来说，这可能就是那位有着强劲前一支基金的管理人，比如从大牌机构分拆出来（spin-out）、过往业绩显示出某种可复制优势的人。我觉得所有这些感觉都像是“纪律”，而没有人应该不守纪律。"
+    },
+    {
+      "i": 92,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "29:51",
+      "en": "but you know I think what I'm more focused on is that early stage works very differently compared to almost anything else you can allocate to and you know in a power law business a very small number of these outliers drive the return for the whole asset class and it can be extremely costly",
+      "zh": "但我更关注的是：早期阶段的运作方式，和你能配置的几乎任何其他东西都非常不同。在一门幂律生意里，极少数这些极端赢家驱动着整个资产类别的回报；而在幂律生意里，"
+    },
+    {
+      "i": 93,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "30:11",
+      "en": "in a power law business to screen out potential outliers to the point where you know they're not in your funnel at all and you know there's lots of data out there that says things like you know fun ones tend not to have material track records but they generate strong performance and you know they",
+      "zh": "把潜在的极端赢家筛掉、筛到它们根本进不了你的漏斗（funnel），代价可能极其高昂。市面上有很多数据都表明：首支基金往往没有拿得出手的过往业绩，但它们能产生强劲的回报，而且它们"
+    },
+    {
+      "i": 94,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "30:29",
+      "en": "they have a a meaningful share of you know finding these outliers and the same goes for founders the fund one bias if you have more detail or data you could share on why you're excited about fund ones and so many people are nervous about them what is it you love there's this really",
+      "zh": "在发现这些极端赢家上占有相当可观的份额；对创始人来说也是一样。——关于“首支基金偏好”（fund one bias），如果你有更多细节或数据能分享，说说你为什么对首支基金这么看好？那么多人都对它们心里发怵，你到底喜欢它们哪一点？——有一个特别"
+    },
+    {
+      "i": 95,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "30:49",
+      "en": "interesting thing that happens at the fun one stage where your surface area for luck and your surface area for skill are are very unique to that fun one stage you know as you continue to invest and raise more funds your your surface area for luck actually decreases over time your surface",
+      "zh": "有意思的现象，发生在首支基金阶段：你“运气”的表面积和“实力”的表面积，在首支基金这个阶段都非常独特。随着你不断投资、募集更多基金，你“运气”的表面积其实会随时间下降，而你“实力”的"
+    },
+    {
+      "i": 96,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "31:08",
+      "en": "area for skill might increase over time but that luck component just naturally decays over time and so what we really like about that fun one stage for these managers is that that's mathematically when you're the luckiest and I know that luck and skill is kind of a you know a separate conversation",
+      "zh": "表面积可能会随时间上升，但那部分“运气”就是会自然地衰减。所以对这些管理人来说，我们特别喜欢首支基金这个阶段，是因为从数学上讲，那正是你运气最好的时候。我知道“运气与实力”本身算是另一个话题，"
+    },
+    {
+      "i": 97,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "31:27",
+      "en": "and investing but we think that that's an attractive it offers an attractive time to be investing with managers and we spend a lot of time focusing on you know finding these fun ones when we're looking for new relationships in our venture portfolio because of that component and also because",
+      "zh": "但我们认为，那是一个很有吸引力的、去投资这些管理人的时机。所以在为风险投资组合寻找新关系时，我们花大量时间专注去找这些首支基金——一方面是因为这个“运气”成分，另一方面也是因为"
+    },
+    {
+      "i": 98,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "31:48",
+      "en": "it allows us to back a manager that we then have a lot of runway for you know it really maximized the life cycle of the relationship there I love that that framework of skill versus luck and the surface area for it it immediately takes my mind to why a new band or new musician",
+      "zh": "它让我们能支持一位管理人，从而拥有很长的“跑道”（runway），真正把这段关系的生命周期拉到最长。——我特别喜欢这个“实力对运气”以及各自表面积的框架。它立刻让我想到：为什么一支新乐队或新音乐人"
+    },
+    {
+      "i": 99,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "32:09",
+      "en": "has such a great first album and has difficulty with their sophomore album because they've been waiting their entire lives to make this one album or one movie and and now they need to produce and maybe they have had some success for that second album and then you start to have an over",
+      "zh": "能做出那么棒的第一张专辑，却在第二张专辑（sophomore album）上犯难——因为他们用尽一生就等着做这一张专辑、或这一部电影；而现在他们得持续产出。也许他们第二张专辑取得了一些成功，然后你就开始对它有过度的"
+    },
+    {
+      "i": 100,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "32:33",
+      "en": "preference and so then you start to lose out on some luck because you've been now you're you have your frame of like oh I only can do this to be successful so that totally makes sense um what I'm curious on just kind of the future of the seed market where you see it going",
+      "zh": "偏好，于是你就开始错失一部分“运气”，因为你已经有了那种“哦，我只有这么做才能成功”的框架。所以这完全说得通。——我好奇的是种子期市场的未来，你觉得它会往哪走？"
+    },
+    {
+      "i": 101,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "32:54",
+      "en": "on our prep call you talked about there you know you've seen several three years on three years off of many cycles um first question about the the market what do you feel is genuinely different about this one yeah we we do our best um as it relates to how we invest not to let the macro side",
+      "zh": "在前期沟通电话里你提到，你已经见过好几轮“三年好、三年坏”的周期了。第一个关于市场的问题：你觉得这一轮真正不一样的地方在哪？——是，我们在“怎么投资”这件事上，尽量不让宏观"
+    },
+    {
+      "i": 102,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "33:18",
+      "en": "of things drive decision making but with that said this you know AI innovation super cycle where it has certainly shifted the market in a number of ways um and I you know I don't I think it applies to the entire market broadly but it's an important subset for sure",
+      "zh": "因素主导决策。话虽如此，这一轮 AI 创新超级周期（super cycle）确实在很多方面改变了市场。我不认为它广泛适用于整个市场，但它肯定是一个重要的子集，"
+    },
+    {
+      "i": 103,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "33:38",
+      "en": "and it feels like the speed at which companies can really scale has has accelerated and that's had a big impact on pricing both for you know entry values and also for exit values",
+      "zh": "而且感觉公司真正扩张的速度加快了，这对定价产生了很大影响——无论是入场估值，还是退出估值。"
+    },
+    {
+      "i": 104,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "33:51",
+      "en": "and I think that you know the biggest and most important shift has been on the exit value side or you know on the implied exit values so you know we're seeing trillion dollar evaluations IPOs you know that that has a profound impact on the investment case for these startups and it has",
+      "zh": "我觉得最大、最重要的变化发生在退出估值这一侧，也就是隐含的退出估值上。我们看到万亿美元估值的 IPO，这对这些初创公司的投资逻辑有深远影响，也对"
+    },
+    {
+      "i": 105,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "34:11",
+      "en": "a downstream effect on companies that sit at valuations below that so if you're if you're holding a five billion dollar valuation company in your portfolio and it's still growing and compounding tremendously as a business I think where these other companies are being valued now",
+      "zh": "估值低于那一水平的公司产生下游效应。比如说，如果你组合里持有一家估值 50 亿美元的公司，而它作为一家业务仍在大幅增长、复利式扩张，我觉得如今其他公司被估值的位置，"
+    },
+    {
+      "i": 106,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "34:30",
+      "en": "it changes your appetite a bit for continuing to hold on to these growing assets because you know you can see now what the market will allow them to grow into with some patience um or as before you might have seen that five billion dollar mark as you know a more obvious exit point",
+      "zh": "会稍微改变你继续持有这些成长型资产的意愿。因为现在你能看到，只要有点耐心，市场会允许它们长成什么样；而在以前，你可能会把 50 亿美元那个关口看作一个更明显的退出点。"
+    },
+    {
+      "i": 107,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "34:47",
+      "en": "so you know while I don't have to make those the selling decisions thankfully I you know I I certainly recognize the sentimental shift that's happening um you know largely because of what's going on with AI with that um those um characteristics of the market and how fast valuations can go up",
+      "zh": "所以，虽然这些卖出决策不用我来做——谢天谢地——但我确实意识到了正在发生的这种心态上的转变，很大程度上是因为 AI 带来的变化、以及市场的这些特征、估值能涨得多快，"
+    },
+    {
+      "i": 108,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "35:08",
+      "en": "um specifically if it's something within within or around AI um curious what do you think it's going to happen between the delineation of precedence because I've been talking to a few friends who are in that market and they believe there's a convergence that's going to happen for a certain",
+      "zh": "尤其是当标的是 AI 之内或围绕 AI 的东西时。——我好奇的是，你觉得 pre-seed 和 seed 之间的界限会怎么演变？因为我和几位在这个市场里的朋友聊过，他们相信某个"
+    },
+    {
+      "i": 109,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "35:28",
+      "en": "subset of asset classes or certain subset of company opportunities what's your view on it do you think they'll actually just merge and be kind of one thing yeah it seems like it's heading that way a bit um you know the clear delineation between what was preceded what was seed it it it feels like",
+      "zh": "子集的资产类别、或某个子集的公司机会会出现“融合”。你怎么看？你觉得它们真的会合并成一回事吗？——嗯，看起来是有点朝那个方向走。你知道，过去 pre-seed 和 seed 之间那条清晰的界线，感觉"
+    },
+    {
+      "i": 110,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "35:48",
+      "en": "it's blended a lot more of late to anything pre-series A and and we kind of think of it that way as well we look at it as kind of first institutional check stage um because the naming and the the framing can change over time and it does seem to be blending a bit and so our goal with that is to",
+      "zh": "最近融合得厉害，变成了“A 轮之前（pre-Series A）的一切”。我们差不多也是这么看的——我们把它看作“第一张机构支票”阶段（first institutional check）。因为命名和框架会随时间变化，而它确实在融合。所以我们在这方面的目标是"
+    },
+    {
+      "i": 111,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "36:08",
+      "en": "just stay rooted at whatever the earliest possible entry point is that doesn't really change you know the pricing might fluctuate or the terms might change a bit but um you know I think there will still be a first check stage whatever it's called and whatever the terms are I won't pretend to",
+      "zh": "扎根于尽可能早的那个入场点，这一点其实不会变。定价可能会波动、条款可能会略有变化，但我觉得无论它叫什么、条款如何，都还是会存在一个“首张支票”阶段。我不敢假装"
+    },
+    {
+      "i": 112,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "36:25",
+      "en": "know but um you know it seems like it is blending into more of that looser term kind of um stage right now how do you how do you appreciate um GPs having to sort of shift given the pricing too like I guess there there's the camp that sort of says we are going to be very committed to our ownership",
+      "zh": "自己全懂，但眼下它似乎确实在融合成那种更宽泛界定的阶段。——那你怎么看 GP 在定价压力下不得不做出的调整？我猜有一派是这么说的：“我们会非常坚守自己的持股比例、"
+    },
+    {
+      "i": 113,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "36:53",
+      "en": "we're going to be very committed to our entry price and you can trust us that we're not going to you know fall into the trap of the zirpera and then there's another set of GPs who are sort of saying the entry price is the entry price today and these are the best companies and you're",
+      "zh": "非常坚守我们的入场价，你可以相信我们不会掉进 ZIRP（零利率）时代的陷阱。”然后还有另一派 GP 大致是说：“今天的入场价就是入场价，这些是最好的公司，而你"
+    },
+    {
+      "i": 114,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "37:13",
+      "en": "you're paying us for access so we're we've got it and this is we're going to win these opportunities okay does one of do you need both in your index or are you preferential to one or the other if you're trying to hit the outlier or if you're trying to only get those outliers if the point",
+      "zh": "付钱给我们买的是‘入场机会’（access），所以我们拿到了，我们就要赢下这些机会。”那——你的指数里需要两派都有吗，还是你更偏好其中某一派？如果你要命中极端赢家、或者只想拿到那些极端赢家，如果这个指数的"
+    },
+    {
+      "i": 115,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "37:36",
+      "en": "of the index is to get the outliers are you in fact more open to the sort of like the price is the price yeah it's a great question and I would say that both are important and when we think about it it again it comes back to that whole notion of process and so we like consistency and so",
+      "zh": "意义就在于拿到极端赢家，那你是不是其实更能接受“价格就是价格”那一派？——这是个好问题。我会说两派都重要。当我们思考这件事时，又回到了“流程”这个整体理念上，所以我们看重一致性，"
+    },
+    {
+      "i": 116,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "38:02",
+      "en": "there you know there's there's a balance between deploying capital as quickly as possible into playing capital too slowly because you're waiting because things feel expensive or you know a number of a number of reasons so there is there's a blend there and I think the balance is that we",
+      "zh": "在“尽可能快地部署资本”和“因为在等、因为觉得贵或者其他种种原因而部署得太慢”之间，需要有个平衡。所以这里面是一种混合，而我觉得平衡点在于我们"
+    },
+    {
+      "i": 117,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "38:22",
+      "en": "like to stay on a process and and kind of the market what's happening in the market is the market and it's it's a bit out of anyone's control we are there's a portion where you know I think you said something like we're paying for access and and I think we would agree with that we are",
+      "zh": "希望坚守一套流程。市场怎样就是怎样，这在一定程度上不是任何人能控制的。有一部分——你刚说的那句“我们付钱买的是入场机会”——我觉得我们同意这个说法，我们确实是在"
+    },
+    {
+      "i": 118,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "38:39",
+      "en": "investing we like consistent deployment because if you're if you think about a typical three-year deployment window and that's across two years where things feel one way and one year where things feel another way and so let's say you change and and you change your your process and your behavior",
+      "zh": "为入场机会而投资。我们喜欢稳定的部署节奏，因为如果你想想典型的三年部署窗口——它跨越两年是一种感觉、一年是另一种感觉——那么假设你改变了流程和行为，"
+    },
+    {
+      "i": 119,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "38:57",
+      "en": "and now you're spread out more over five years those investments in years you know four and five have a shorter compounding window now and so they have to be better picks or better better companies ultimately what's so surprising about this sort of indexing approach is I don't",
+      "zh": "现在你把节奏拉长到五年，那么第四、第五年投出的那些项目，复利窗口就更短了，所以它们最终必须是更好的选择、更好的公司。——最终让我觉得这种指数化打法特别令人惊讶的是，我"
+    },
+    {
+      "i": 120,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "39:17",
+      "en": "see other people doing it and I consider this show a little bit of a listening tour of like what do they'll piece one what are they hunting for like selling is easier if you know what people are buying and you all initially were doing this as a single family office and your LP colleagues came",
+      "zh": "没看到别人也这么做。我把这档节目也当作一次“倾听之旅”——大家在找什么、在追什么，因为如果你知道别人在买什么，卖出去就容易多了。你们最初是作为一个单一家族办公室（single family office）在做这件事，然后你的 LP 同行们找上门来"
+    },
+    {
+      "i": 121,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "39:37",
+      "en": "to you and said hey can you take our capital to this is proof that this is something you know LPs are looking for is there like a posse are you guys all like the quant fund guy like it's there do you have a do you have a whatsapp of like ex hedge fund day day traders are all doing",
+      "zh": "说：“嘿，能不能也帮我们投这个？”这就证明这正是 LP 们在找的东西。那有没有那么一个“小团伙”？你们是不是都像那个“量化基金 guy”？有没有一个 WhatsApp 群，里面是一群前对冲基金日内交易员，都在做"
+    },
+    {
+      "i": 122,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "40:00",
+      "en": "the quant version of venture no um why why why is it you know it seems like this is a very very backable strategy this you know I think there's there's a gap there with just how you know the rest of the fund funds are maybe the rest of the allocator market historically has approached things and that's I mean that's certainly why we",
+      "zh": "风险投资的量化版本？——没有。嗯，为什么是这样呢？这看起来是一个非常非常值得支持的策略。我觉得这里有一道鸿沟，就在于其余的母基金、或者说其余配置人市场过去一贯的做事方式。这也正是我们"
+    },
+    {
+      "i": 123,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "40:28",
+      "en": "approach the the the asset class the way that we did so I think what what we're more in the minority on at times and so you know a whatsapp group would be helpful is um you know being an LP and trading notes with LPs who you know kind of think about the portfolio",
+      "zh": "当初会用那种方式去切入这个资产类别的原因。所以我觉得，有时候我们更像少数派——而一个 WhatsApp 群确实会有帮助——就是作为 LP，和那些同样这样思考组合"
+    },
+    {
+      "i": 124,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "40:49",
+      "en": "construction and things in the in the way that we do um we we have you know a number of our funds tend to be on the more diversified portfolio construction approach rather than more ownership driven things like that um and I think there's a big LP demand for you know that that more ownership",
+      "zh": "构建等等问题的 LP 交流笔记。我们有不少基金倾向于更分散的组合构建方式，而不是那种更以持股比例（ownership）驱动的做法。而且我觉得 LP 对那种更以持股"
+    },
+    {
+      "i": 125,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "41:08",
+      "en": "driven style and so when we know of LPs who are interested in kind of the same profile and portfolio construction that we are we we do tend to to share things around and um you know coalesce around some of these GPs because you know I think the the minority we're in the minority in the LP world",
+      "zh": "驱动的风格有很大的需求。所以当我们知道有 LP 对和我们一样的画像、一样的组合构建感兴趣时，我们确实会互相分享信息，并围绕其中一些 GP 抱团。因为我觉得，我们是少数派——在 LP 世界里，支持那种组合构建的"
+    },
+    {
+      "i": 126,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "41:30",
+      "en": "for for backing that type of portfolio construction my prediction is you will have copy cats Alex they're coming you can give him your money or you can try to do what he's doing it sounds easier to just give him your money yeah that's yeah that's probably better um Alex you know you reiterated",
+      "zh": "我们是少数派。——我的预测是，你会迎来一批“模仿者”（copycat），Alex，他们要来了。你可以把钱交给他，也可以试着自己去做他在做的事——听起来还是直接把钱交给他更省事。——是啊，那大概更好。——Alex，你在"
+    },
+    {
+      "i": 127,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "41:55",
+      "en": "a number of times through through this conversation the importance of process when your diligence in fund managers your own process um to the point what are a few of your favorite questions or tactics to really understand the fund manager who is across the table from you",
+      "zh": "这次对话里多次强调了“流程”的重要性——在尽调基金管理人时你自己的流程。那么，有哪几个你最喜欢的问题或战术，能帮你真正看懂坐在你对面的这位基金管理人？"
+    },
+    {
+      "i": 128,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "42:14",
+      "en": "one thing that we like to spend time with especially with let's say a fund one um is thinking through their long term kind of vision and goals for you know their fund maybe a few fund cycles into the future I think it really helps to understand what they see themselves doing with you know",
+      "zh": "我们喜欢花时间做的一件事——尤其是面对一支首支基金——是和他们一起想清楚他们对基金的长期愿景和目标，也许往后看几个基金周期。我觉得这真的有助于理解他们如何看待自己"
+    },
+    {
+      "i": 129,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "42:39",
+      "en": "kind of their firm and their strategy over time and a lot of managers most most managers I think that are doing this you know at seed really love the stage which they're investing I mean they're they're really driven by meeting founders and finding new founders and staying on kind of that",
+      "zh": "随时间推移要怎么经营自己的机构和策略。而且很多管理人——我觉得绝大多数在种子期这么做的人——是真心热爱自己投的这个阶段的。我是说，他们真正的驱动力来自见创始人、发现新创始人，并待在那个"
+    },
+    {
+      "i": 130,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "43:01",
+      "en": "forefront of you know the innovation curve and just being ahead of of all these new and next exciting things and so really understanding that and seeing what motivates the GP is something we spend time on them thinking through a relationship for you know multi fund multiple cycles of funds",
+      "zh": "创新曲线（innovation curve）的最前沿，领先于所有新的、下一个令人兴奋的东西。所以真正理解这一点、看清是什么在激励这位 GP，是我们会花时间去做的事，然后再去构思一段能跨越多个、多周期基金的关系。"
+    },
+    {
+      "i": 131,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "43:22",
+      "en": "and then we'll spend time going through the portfolio construction that's where we get into a little bit more of the quantitative side of the process you know if you picked let's say your fund size is 25 million walk us kind of backwards through the math on on how that 25 million is deployed and",
+      "zh": "然后我们会花时间过一遍组合构建，这就是我们进入流程中更量化那一侧的地方。比如假设你的基金规模是 2500 万美元，那就从后往前给我们算一遍这 2500 万是怎么部署的，"
+    },
+    {
+      "i": 132,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "43:39",
+      "en": "that that really helps to get and you know understand how the GP is thinking about portfolio construction and kind of how they arrived at the number that they arrived at for for fund raising and you know it's a simple kind of back of the envelope conversation but it teases out a lot of",
+      "zh": "这真的能帮你理解 GP 是怎么思考组合构建的，以及他们是怎么得出那个募资数字的。这是一种简单的“信封背面”式（back-of-the-envelope）的推算对话，但它能引出很多"
+    },
+    {
+      "i": 133,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "43:58",
+      "en": "they're thinking on things like the size of check they can write into rounds and this and that so it tends to be a kind of a helpful conversation what my last question is what strategies should people just stay away from within the seed market seed venture market this could be from the",
+      "zh": "他们关于“能在每一轮里开多大支票”之类的思考，所以这往往是一段很有帮助的对话。——我的最后一个问题是：在种子期、种子风险投资市场里，有哪些策略是大家干脆应该远离的？这可以从"
+    },
+    {
+      "i": 134,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "44:21",
+      "en": "perspective of a fund manager or an allocator I think it's really challenging to do the investing at multiple stages so you know I think we've seen not often but you'll see occasionally funds that are doing some at seed some at kind of series a like very multi-stage",
+      "zh": "基金管理人或配置人的角度来谈。——我觉得在多个阶段同时做投资是很有挑战性的。我们看到过——不算常见，但偶尔会看到——有些基金在种子期投一些、在 A 轮（Series A）投一些，非常“多阶段”地"
+    },
+    {
+      "i": 135,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "44:43",
+      "en": "blends in in deployment and I think that's really competitive I we it personally is in a huge fit for us I don't it it certainly can work for for some I think it's really competitive I think being in rooted in your stage it's a really important part for being able to successfully",
+      "zh": "在部署上混合起来。我觉得那竞争真的非常激烈；对我们个人来说非常不合适，但它对某些人确实能行得通。我觉得扎根于你自己的阶段，是能够成功地"
+    },
+    {
+      "i": 136,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "45:04",
+      "en": "access steals and deploy capital any other final thoughts on sort of things where you see yourself",
+      "zh": "拿到项目、部署资本的一个非常重要的部分。——还有没有其他最后的想法，比如哪些方面你会觉得自己"
+    },
+    {
+      "i": 137,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "45:14",
+      "en": "budding heads or having a different opinion than a typical allocator I think most of this has typically been where you know we're one side of the conversation versus another I think we're starting to see a shift towards kind of diversification in portfolio construction",
+      "zh": "会和别人“顶牛”、或者和典型配置人持不同意见？——我觉得大部分这类分歧，通常都是“对话的一方对另一方”。我认为我们开始看到组合构建正朝着分散化的方向转变，"
+    },
+    {
+      "i": 138,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "45:40",
+      "en": "and I think part of that is you know there's a lot of folks now who publish you know data carda things like that on on kind of the portfolio models and how the math kind of benefits you there as a fund manager and you know there's a number of these firms some in our portfolio some",
+      "zh": "我觉得一部分原因是，现在有很多人会发布数据、图表之类的东西，讲组合模型、以及作为基金管理人这套数学怎么对你有利。而且有不少这样的机构，有些在我们组合里，有些"
+    },
+    {
+      "i": 139,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "46:02",
+      "en": "just that we know or that are in the market who have who deploy diversified portfolio construction and they have struggled to raise over you know their early fund life and their early fun lives or their early funds are you know showing meaningful performance and you know meaningful success",
+      "zh": "只是我们认识的、或者市场上的，他们采用分散化的组合构建，早年在募首支基金时很挣扎，而他们的早期基金如今正拿出可观的业绩、可观的成功。"
+    },
+    {
+      "i": 140,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "46:21",
+      "en": "and so I think that there's a lot of evidence now that the that you can win both ways in venture and and so I think that is hopefully becoming a more mainstream kind of approach that's that LP's are recognizing and it seems like that's becoming the case well Alex thanks so much for being",
+      "zh": "所以我觉得现在有大量证据表明，在风险投资里两种方式你都能赢。我认为这有望成为一种更主流、被 LP 认可的做法，而且看起来正朝着这个方向发展。——好，Alex，非常感谢你"
+    },
+    {
+      "i": 141,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "46:46",
+      "en": "with allicators we really appreciate your insights your perspectives and we hope a lot of LP's reach out to you and a lot of great fund managers reach out to you as well thanks guys it's bitter block you later allocator after portfolio tile investing with a smile from the first card you",
+      "zh": "来上 Swimming with Allocators。我们真的很感谢你的洞见和视角，也希望有很多 LP 联系你、也有很多优秀的基金管理人联系你。——谢谢你们。好了，回头见，allocator 们，微笑投资。——从你寄出的第一张贺卡"
+    },
+    {
+      "i": 142,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "47:08",
+      "en": "send to the last gift they unwrap this holiday season it's Zazzle all the way custom photo gifts cards decor and more holiday cards they'll keep on the fridge year round Zazzle decorations that become traditions gifts they'll cherish Zazzle choose a product add your photos and details",
+      "zh": "到他们拆开的最后一份礼物，这个假日季，一切就交给 Zazzle——定制照片礼物、贺卡、装饰品等等。他们会把假日贺卡一整年都贴在冰箱上。Zazzle 的装饰会成为家里的传统。想让他们珍藏的礼物？就选 Zazzle。挑一件产品，加上你的照片和信息，"
+    },
+    {
+      "i": 143,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "47:25",
+      "en": "and Zazzle does the rest Zazzle has helped over 30 million customers make moments into memories shop deals all season long at Zazzle dot com that's ZAZ ZLE Zazzle dot com",
+      "zh": "剩下的 Zazzle 帮你搞定。Zazzle 已经帮助超过 3000 万顾客把瞬间变成回忆。整个假日季都能在 Zazzle.com 上选购优惠。拼写是 Z-A-Z-Z-L-E。Zazzle.com。"
+    }
+  ]
+}

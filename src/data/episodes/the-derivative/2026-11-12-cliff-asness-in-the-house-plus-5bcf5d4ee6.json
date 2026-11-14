@@ -1,0 +1,1680 @@
+{
+  "show": "the-derivative",
+  "kind": "transcript",
+  "id": "the-derivative-5bcf5d4ee6",
+  "guid": "d54d2b58-e836-4451-8d66-d44cf10d43ca",
+  "slug": "2026-11-12-cliff-asness-in-the-house-plus-5bcf5d4ee6",
+  "date": "2026-11-12",
+  "title_en": "Cliff Asness in the house, plus return resilience, stacking, and portable alpha with Corey Hoffstein",
+  "title_zh": "Cliff Asness 亲临现场：与 Corey Hoffstein 聊收益韧性、收益叠加与可携带 alpha",
+  "subtitle_zh": "Corey Hoffstein 复盘 Return Stack 研讨会：叠加策略、可携带 alpha 的 2008 教训与顾问业务韧性",
+  "description": "Cliff Asness in the house, plus return resilience, stacking, and portable alpha with Corey Hoffstein",
+  "duration": "61:13",
+  "duration_seconds": 3673,
+  "episode_url": "https://podcasters.spotify.com/pod/show/rcm-alts-the-derivative/episodes/Cliff-Asness-in-the-house--plus-return-resilience--stacking--and-portable-alpha-with-Corey-Hoffstein-e3s9g8p",
+  "audio_url": "https://anchor.fm/s/11908b3c/podcast/play/129335001/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-12%2F436590938-44100-2-90d77ef85fe7e.m4a",
+  "speakers": {
+    "1": "Jeff Malec（主持）",
+    "2": "Corey Hoffstein（嘉宾）",
+    "3": "片花/广告（旁白）"
+  },
+  "turn_count": 207,
+  "turns": [
+    {
+      "i": 0,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "00:00",
+      "en": "Welcome to the derivative by our Sam Alternatives, send it. Hello there. Welcome back to the derivative brought to you by our Sam Alternatives, where we recently helped sponsor the return stack event here in Chicago. I was in attendance and asked a few questions as I'm apt to do, from out there in the audience",
+      "zh": "欢迎收听 The Derivative，由 RCM Alternatives 呈现，send it。大家好，欢迎回到 The Derivative，本节目由 RCM Alternatives 赞助。我们最近赞助了在 Chicago 举办的 Return Stack 研讨会，我当时也去了现场，还一如往常地从台下观众席里问了几个问题，"
+    },
+    {
+      "i": 1,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "00:35",
+      "en": "and got back one answer from up there on stage saying, I know that voice, the derivative, which was kind of a cool callout. And here I thought I was just on here talking to my friend George and a few of my brothers, so thanks for listening. Okay, on this episode where we break down the return stacks and pose him with one of",
+      "zh": "结果台上有人回了我一句：「我认得这个声音，是 The Derivative 吧」，这一下点名还挺酷的。我本来还以为自己只是在这儿跟我的朋友 George 还有我几个哥们儿聊天呢，所以谢谢大家收听。好，这一期我们要把收益叠加（return stacking）拆开讲，请来的正是这"
+    },
+    {
+      "i": 2,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "00:53",
+      "en": "the creators of the whole concept, and I think he created the entire Quant-Leaning Podcast genre as well. Don't quote me on that. It's Cory Hofstein, a newfound, dished on what went down at the symposium across all the guest speakers, panelists, and one special guest, Cliff Asnist, send it.",
+      "zh": "整套概念的创造者之一——而且我觉得他还开创了整个偏量化播客（quant-leaning podcast）这个流派，这话你们可别拿去引用。他就是 Newfound 的 Corey Hoffstein，他会跟我们聊聊这场研讨会上都发生了什么，涵盖所有演讲嘉宾、圆桌 panel，以及一位特别嘉宾 Cliff Asness。send it。"
+    },
+    {
+      "i": 3,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "01:14",
+      "en": "All right, we're here with Cory Hofstein, the best voice and podcasting. That's an intro. That is an intro. And at the symposium, it was like bellowing through the speaker system. Did you work on that, or you've just naturally endowed? Well, I'm sure part of it is a genetic part of it is you're learned.",
+      "zh": "好，现在我们请到了 Corey Hoffstein，播客界最好的一副嗓子。这才叫开场介绍。这确实是个开场介绍。而且在研讨会现场，你那声音简直是从音响系统里轰出来的。这是你专门练过的，还是天生就这样？嗯，我敢说一部分是天生的，一部分是练出来的。"
+    },
+    {
+      "i": 4,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "01:37",
+      "en": "As you know, when you're a podcast host, you go into a little bit of podcast speaker voice. It may not be. It's not how I talk to my kids, that's for sure. It gets higher. What are you doing? That's right. That's right. Yeah. How are the kids doing? How old now?",
+      "zh": "你知道的，当播客主持人的时候，你会不自觉切进那种「播客播音腔」。可能不算吧——反正肯定不是我跟我孩子说话的腔调。音调会变高。你在干什么？没错。没错。Yeah。孩子们怎么样？现在多大了？"
+    },
+    {
+      "i": 5,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "01:51",
+      "en": "I got three and a half and one and a half, and everyone always talks about the terrible two, but I'll tell you that the three-nager age is really where they come into their own personality strong with a lot of opinions and school this year has been a little bit of a friction. Just everything's a little bit harder, but it's a lot of joy.",
+      "zh": "我家一个三岁半、一个一岁半。大家总在说「可怕的两岁」（terrible two），但我跟你说，三岁（threenager）才是他们真正长出自己的个性、主意特别多的时候。今年上学也有点小摩擦，就是什么都更难了一点，但快乐也是非常多的。"
+    },
+    {
+      "i": 6,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "02:09",
+      "en": "It's a lot of joy. It reminds you of what the meaning of life is about. And everyone tells you, right, my son's a senior had his last, ever athletic event I went to this year, so it's like in a second, it's gone. My wife hates it, but I'm like, so that was like the third of the 18 summers will be lucky to get with our children. Exactly.",
+      "zh": "确实快乐非常多。它会提醒你人生的意义到底是什么。而且每个人都跟你说过，对吧——我儿子今年读毕业班，我今年去看了他这辈子最后一次体育比赛，所以真的一转眼就没了。我老婆讨厌我这么算，但我还是这么算：那已经是我们有幸能陪孩子度过的 18 个夏天里的第 3 个了。没错。"
+    },
+    {
+      "i": 7,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "02:29",
+      "en": "I counted on like we're a quarter of the way to our son moving out of the house, and she's like, why are you doing this? I'm like, to make sure we appreciate every weekend. Yeah. Leave that quiet stuff at work. Don't bring that into the family. That's right. And do you consider yourself a Floridian yet? I guess I kind of have to.",
+      "zh": "我还算过，距离儿子搬出家门我们已经走完四分之一了，她就说：你干嘛非要这么算？我说：这样才能珍惜每一个周末啊。Yeah。这种量化（quant）毛病留在工作里就好，别带进家庭。没错。那你觉得自己现在算 Floridian（佛罗里达人）了吗？我想我大概不得不算了。"
+    },
+    {
+      "i": 8,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "02:47",
+      "en": "I've been here for four years now. Last time, I got and flooded out about house. I feel like that's a real Floridian experience, so I lost the car, my wife's wedding dress, all my diplomas. Like, yeah, if I'm not a Floridian, I don't know what else I am at this point. All my diplomas was that that's a little humble brag there.",
+      "zh": "我在这儿已经四年了。上一回我家房子被淹了。我觉得那才是真正地道的 Floridian 经历：车没了，我老婆的婚纱没了，我所有的学位证书也没了。所以 yeah，如果这样我都还不算 Floridian，我也不知道我现在还能算啥了。所有学位证书——你这儿还夹带了个凡尔赛啊。"
+    },
+    {
+      "i": 9,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "03:06",
+      "en": "How many of you had? All two of them. I'll do. But it was funny. I was talking to someone else about this the other day. We lost the first floor of the house we were renting at the time. The first floor, though, was like a guest room and a ton of storage. And I said, like, in reality, it was a wonderful purge.",
+      "zh": "你一共有几个证书？就两个，全在那儿了。行吧。不过挺有意思的，我前几天还跟别人聊这事：我们当时租的那栋房子，一整层都被淹了，但那一层其实就是一间客房加一大堆储物。所以我说，说实话那是一次非常棒的大清理。"
+    },
+    {
+      "i": 10,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "03:24",
+      "en": "Why was I dragging around my college in grad school diplomas with me from place to place to place to sit in storage? There was no need. I never hung them up. I never cared to look at them. All right. My wife's wedding dress. She didn't realize. She was not in touch. She was playing on Wearing it again, hopefully. Yeah.",
+      "zh": "我干嘛要把我大学和研究生阶段的文凭从一个地方搬到另一个地方，就为了放在储物间里？完全没必要。我从来没把它们挂起来过，也从来没想过要看一眼。好吧，还有我老婆的婚纱。她当时没意识到，也没太当回事——她还指望着哪天能再穿一次呢。Yeah。"
+    },
+    {
+      "i": 11,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "03:43",
+      "en": "It was a little sad. I got a great photo from our balcony looking down on our patio that I carried all this stuff out by hand. It's just like water sewage soaked wreckage with her wedding dress, you know, split on top. Yeah. That would have been good. We got rid of quite a bit of stuff we'd been lugging around for years.",
+      "zh": "是有点伤心。我在我们家阳台上拍了一张很棒的照片，俯瞰我们的露台——那些东西全是我一件件手动搬出去的，都是被污水泡烂的破烂，她的婚纱就摊在最上面。Yeah。那张照片应该挺不错的。我们扔掉了不少搬了好多年的东西。"
+    },
+    {
+      "i": 12,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "04:03",
+      "en": "We were talking about this at the symposium with someone because their office used to be in the old Revco building in Chicago here. Were you ever in that building? I don't think so. But they had all this crazy. I think they probably spent some customer money on art or something because then they ended",
+      "zh": "研讨会上我们还跟一个人聊到这个，因为他们公司以前就在 Chicago 这栋老的 Revco 大楼里办公。你进过那栋楼吗？我不记得进过。但他们有一堆很 crazy 的东西。我觉得他们大概是拿客户的钱去买艺术品之类的了，因为后来他们"
+    },
+    {
+      "i": 13,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "04:17",
+      "en": "up getting a little bit of trouble, but ignoring that, they had this great art collection, but great is in air quotes because some of it was like a naked pregnant woman with a gas can on a burning, pouring gas on a burning tree. So I could see your wedding dress soaked wedding dress on the patio picture would have come from. Yeah.",
+      "zh": "惹上了点麻烦。先不管这个，他们有一套很棒的艺术品收藏——「很棒」是要打引号的，因为其中有些作品比如：一个裸体的孕妇提着汽油桶，往一棵正在燃烧的树上浇汽油。所以我能想象出你那件泡烂的婚纱摆在露台上的那张照片是什么画风了。Yeah。"
+    },
+    {
+      "i": 14,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "04:37",
+      "en": "I would have taken a very tasteful art photo of it all and put it in a cart gallery somewhere. Love it. So was that just last week I was with you here at the symposium? I believe feels like it was months ago, but yeah, I guess last week was the symposium last Wednesday, October 28th. Yeah. So you got out of Chicago right in time.",
+      "zh": "我要是把那一切拍成一张非常有品味的艺术照，挂到某个画廊里去。太喜欢了。所以，我在研讨会现场跟你待在一起，那就是上周的事吧？我记得感觉像过去好几个月了，但 yeah，我想就是上周——研讨会是上周三，10 月 28 号。对。所以你算是赶得刚刚好，及时离开了 Chicago。"
+    },
+    {
+      "i": 15,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "04:58",
+      "en": "It's like 40s now here, Cole. We got the most unbelievable weather while we were in town. I was pretty nervous about hosting a symposium in Chicago in late October. That was a date that worked for the venue and our speakers and put it all together and",
+      "zh": "现在这边都只有华氏 40 几度了，Corey。我们在城里的那几天天气好得离谱。说实话，要在 10 月底的 Chicago 办研讨会，我当时挺紧张的。那个日期是场地和演讲嘉宾都能凑上的时间，好不容易把一切都凑齐，"
+    },
+    {
+      "i": 16,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "05:11",
+      "en": "I'm going, this is a real role, the dice in terms of I could show up and it could be freezing in snowy in Chicago or we could have a late summer and we got very lucky. Chicago put on a real show for us. Hey, we're good. So wanted to have you on talk through the symposium highlights was I'll just start overall.",
+      "zh": "我心里就想，这真是掷骰子：我到了以后，Chicago 可能已经冰天雪地，也可能还是夏末的样子。结果我们非常走运，Chicago 给我们上演了一场精彩表演。嘿，我们运气不错。所以今天想请你来聊聊研讨会的那些亮点，我就先从整体说起吧。"
+    },
+    {
+      "i": 17,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "05:41",
+      "en": "You guys put on a great show like well produced, not to say that it was overproducer I think but just everything was professional and on time and great. The venue was great in the CBOE old post office building. So wanted to start though with the end of the symposium where you called in some favors",
+      "zh": "你们这场活动办得非常棒，制作很精良——我不是说它过度包装，我觉得不是——而是一切都很专业、很准时、很棒。场地也特别好，就在 CBOE 的老邮局大楼里。不过我想先从研讨会的收尾那段说起，就是你动用了些人情、"
+    },
+    {
+      "i": 18,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "06:01",
+      "en": "or made a call and had cliff assness on but your intro to him was one of the best speeches I've ever heard, not to fluthe even some but yeah, yeah, floppers can't see everywhere with me. So what was I like to write that up? What's your relationship with Cliff? We can start there.",
+      "zh": "打了几个电话，把 Cliff Asness 请上台的那段。你给他的那段介绍，是我听过最好的致辞之一——不是要恭维你……不过 yeah，yeah，恭维在我这儿确实很管用。那写那段介绍是什么感觉？你跟 Cliff 是什么关系？我们可以从这儿聊起。"
+    },
+    {
+      "i": 19,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "06:20",
+      "en": "How'd you meet Cliff and all that but then I want to get into some of that intro because that was some funny parts. Yeah, so I don't want to overstate my relationship with Cliff. I'd say we're friends, it's not like I'm going over to his house for dinner but grab",
+      "zh": "你是怎么认识 Cliff 的等等，然后我还想深入聊聊那段介绍，因为里面有好多好玩的部分。Yeah，我不想夸大我跟 Cliff 的关系。我会说我们是朋友，但还没到我去他家吃晚饭的程度，就是偶尔一起"
+    },
+    {
+      "i": 20,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "06:34",
+      "en": "coffee with him and I've certainly chatted with him a number of times throughout the years. Cliff is someone who I've looked up to for a long time both for his contributions to the investment field but also someone who's trying to run and grow an asset management business.",
+      "zh": "喝杯咖啡，这些年我肯定也跟他聊过很多次。Cliff 是我长期以来一直仰慕的人，一方面是因为他对投资领域的贡献，另一方面也是因为他是一个在经营并壮大一家资产管理公司的人。"
+    },
+    {
+      "i": 21,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "06:52",
+      "en": "He has grown one of the largest hedge fund and asset management businesses in the world. That shouldn't be understated at how difficult that is. It's not just generating the returns but it's all the operations and compliance and everything that goes behind that and orchestrating that machine and I know he has partners and he",
+      "zh": "他把公司做成了全球最大的对冲基金和资产管理机构之一。这件事有多难，怎么强调都不过分。不只是做出业绩回报，还有背后所有的运营、合规等等一切，还要把这台机器协调运转起来。我知道他有合伙人，他也"
+    },
+    {
+      "i": 22,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "07:13",
+      "en": "would deflect owning all the credit for that but I recognize how difficult that is. And so to Cliff's credit very early on in the, oh, it's called mid 2010s or as a bunch of us who were writing research and Cliff was very generous in sharing that research.",
+      "zh": "会把这些功劳都推掉，但我明白那有多难。所以要说 Cliff 的可贵之处：早在——哦，应该叫 2010 年代中期——有一批像我们这样在写研究的人，Cliff 非常慷慨地分享这些研究。"
+    },
+    {
+      "i": 23,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "07:31",
+      "en": "Some of the research I wrote and ended up getting shared around AQR and Cliff was very, very public on Twitter and still is and just sort of cross paths on Twitter and replying to each other and built a relationship naturally that way. But this wasn't academic reasons academic level but you guys aren't doing it for universities",
+      "zh": "我写的一些研究最后在 AQR 内部被传阅，而 Cliff 在 Twitter 上非常非常公开，现在也是，我们就这样在 Twitter 上碰到、互相回复，很自然地建立了关系。但这并不是学术层面那种研究吧，你们又不是为大学做这个，"
+    },
+    {
+      "i": 24,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "07:52",
+      "en": "or something. You're doing it for you. No, this is, yeah, research that you're publishing that it's sort of twofold you're, I mean, it is marketing truly like you're trying to get people to learn about your firm and learn about the investment acumen you have but you're also putting some hopefully novel ideas out in the world.",
+      "zh": "还是别的什么，你们是在为自己做。不是，对，这就是你们发表的研究，它有两重意义：一方面它确实是营销，你想让大家了解你的公司、了解你有多深的投资功力；但另一方面，你也在往外输出一些希望是新颖的想法。"
+    },
+    {
+      "i": 25,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "08:08",
+      "en": "I think a lot of us do this because we like to share these ideas and get feedback. You're certainly not putting any alpha out there but there is stuff that, again, I'll give, this is Cliff's, Cliff's phrase, craftsmanship alpha that isn't really true alpha",
+      "zh": "我觉得我们很多人做这件事，是因为我们喜欢分享这些想法、获得反馈。你们当然不会把真正的 alpha（超额收益）放到外面，但确实有些东西——这里我要引用 Cliff 的说法，他叫它「手艺型 alpha」（craftsmanship alpha），它并不是真正意义上的 alpha，"
+    },
+    {
+      "i": 26,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "08:23",
+      "en": "but there are some ideas that you can share and get and share with colleagues at different firms and sharpen how you do things and that's the sort of stuff that we were talking about and publishing and, again, Cliff just to his credit didn't need to but interacted with all",
+      "zh": "但有些想法你可以拿出来分享，跟不同公司的同行交流，从而打磨自己做事的方法，这就是我们当时在讨论和发表的那类东西。同样，说句公道话，Cliff 其实没必要这么做，但他跟所有"
+    },
+    {
+      "i": 27,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "08:36",
+      "en": "of us who were doing it and so I just sort of naturally built a relationship with him over the years that way. I always had very positive interactions. He's been great in getting me terrific feedback or introducing me to people at his firm who could be giving me feedback. So it just, it just felt a very natural relationship.",
+      "zh": "在做这件事的人都有互动，所以我这些年就很自然地跟他建立了关系。我们的互动一直都非常正面。他很棒，会给我特别好的反馈，或者把我介绍给他公司里能给我反馈的人。所以，这就是一段非常自然的关系。"
+    },
+    {
+      "i": 28,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "08:53",
+      "en": "And then your intro had the recurring line cliff didn't, right? So you hammered about six of those. You wrote a lot of this pre-AI so you couldn't do a search to see what he had written. Yeah, the thing that I think of a couple of the Cliff, the thing about Cliff is that he",
+      "zh": "然后你那段介绍里有个反复出现的梗——「Cliff 没这么说过」，对吧？你敲了大概六次。你这段很多东西是在 AI 出现之前写的，所以你没法去搜一下他都写过些什么。Yeah，我想到几件事——关于 Cliff，有一点是他"
+    },
+    {
+      "i": 29,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "09:09",
+      "en": "is one of the most prolific writers and awarded authors in our field. I mean, he's just, I made the point that he won a Lifetime Achievement Award for his contributions to our field before he turned 40. He won it at my age right now at 39 and I'm thinking to myself like, well, no one's handing me a Lifetime Achievement Award by 39.",
+      "zh": "是我们这个领域里最多产、获奖最多的作者之一。我是说，他就……我在介绍里提到，他不到 40 岁就因为对这个领域的贡献拿了终身成就奖（Lifetime Achievement Award）。他得奖的时候正好是我现在的年纪，39 岁。我当时心里就想：嗯，没人会在我 39 岁的时候给我一个终身成就奖。"
+    },
+    {
+      "i": 30,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "09:36",
+      "en": "It really highlights how much research he published and contributed to the field. And so when you are writing stuff, it's hard not to just write something that ended up being like, well, Cliff actually already talked about this and turns out he talked about it 15 years ago in some article that you've never heard of.",
+      "zh": "这真的说明他发表了多少研究、给这个领域贡献了多少。所以当你自己在写东西的时候，很难不写出这样的东西：结果发现「呃，Cliff 其实早就讲过这个了」，而且他是 15 年前在某篇你从来没听说过的文章里讲的。"
+    },
+    {
+      "i": 31,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "09:53",
+      "en": "And if it wasn't Cliff, it was probably someone else at AQR because that's just the culture that he's helped establish there, that it's a culture of publishing research. And so, yeah, as a young guy writing weekly research notes, it just became sort of a part",
+      "zh": "如果不是 Cliff，那大概就是 AQR 的其他人，因为那正是他帮忙建立起来的文化——一种发表研究的文化。所以，yeah，作为一个每周写研究札记的年轻人，这就慢慢变成了"
+    },
+    {
+      "i": 32,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "10:09",
+      "en": "of my life that almost certainly someone would say, this thing you wrote reminded me of this thing Cliff wrote and it just sort of became a recurring joke that in my mind, always reminded me of the South Park episode where they just got compared to the Simpsons over and over and over. Simpsons did it. Simpsons did it. The Simpsons did it.",
+      "zh": "我生活的一部分：几乎一定会有人说，「你写的这个东西让我想起 Cliff 写过的某个东西」。这就变成了一个反复出现的玩笑，在我脑子里总会让我想起 South Park 的那一集——他们被拿来跟 the Simpsons 一遍又一遍地比较：「Simpsons 做过了。Simpsons 做过了。The Simpsons 做过了。」"
+    },
+    {
+      "i": 33,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "10:27",
+      "en": "And so for my life, it was sort of Cliff did it. And frankly, I don't even take that as an install. The fact that someone would say, your work reminds me of something Cliff wrote. I'm like, well, I must have A been on the right track and B, like that's not an insult,",
+      "zh": "所以在我的人生里，那就是「Cliff 做过了」。坦白说，我甚至不把这当成一种冒犯。有人会说「你的作品让我想起 Cliff 写的东西」，我会想：第一，说明我方向走对了；第二，这也不算侮辱，"
+    },
+    {
+      "i": 34,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "10:38",
+      "en": "you know, it reminds you of something that this incredibly talented and well-known Quant wrote. Great. That's flattery, frankly. And then he's well known for some spats on Twitter and whatnot, but it sounds like you and him were always eye to eye. He never had one of these. No, Twitter fans. Not that I know of.",
+      "zh": "毕竟它让人想起的是这位极有才华、名气极大的 quant（量化投资人）写的东西。太好了，坦白说这是恭维。然后呢，他也因为在 Twitter 上的一些口水战之类的事情出名，但听起来你跟他一直意见一致。他从没跟你吵过。没有，Twitter 骂战。至少我不知道有过。"
+    },
+    {
+      "i": 35,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "11:00",
+      "en": "I mean, maybe he would disagree. No, but I think we've always kept it copacetic. I mean, I have certain rules about engagement on Twitter. I don't talk politics. I stay out of the fray in certain areas, just as I joked with him when my AUM is a hundred",
+      "zh": "我是说，也许他会有不同意见。没有，我觉得我们一直都相处得很和睦。我在 Twitter 上的互动有一些自己的规则：我不谈政治，在某些领域我不下场掺和。就像我跟他开玩笑说的，等我的 AUM（管理资产规模）是他的"
+    },
+    {
+      "i": 36,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "11:17",
+      "en": "X and closer to his AUM, maybe I'll give myself a little bit more freedom to talk politics, but I don't quite have the... Yeah. I can't give myself a little bit of the rope to hang myself yet. So no, no, I don't have. I haven't gotten into any spats with him on Twitter, fortunately. And then last bit on him, part of me was weird.",
+      "zh": "一百倍、离他的 AUM 更近的时候，也许我会给自己多一点谈政治的自由，但我现在还不太有那个资本……Yeah。我还不能给自己递上那根能把自己吊死的绳子。所以没有没有，我很幸运，从没在 Twitter 上跟他吵过。然后关于他的最后一件事，我有一部分自己都觉得奇怪。"
+    },
+    {
+      "i": 37,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "11:37",
+      "en": "I was like a little fanboyish. Ooh, this is a celebrity. I'm like, and then my rebel side kind of caught myself. What up? Who cares? He's just a man. I'm excited because he's looking at a billionaire or am I excited because he's a Quant? Then I shook his hand coming out of the bathroom. So I'm like, oh, he's a normal guy.",
+      "zh": "我有点像个小迷弟：哦，这是个名人啊。然后我身上那股叛逆劲儿又把自己拉回来了：怎么了？谁在乎啊？他不就是个男人嘛。我兴奋是因为我看到的是个亿万富翁，还是因为他是个 quant？后来我在洗手间出来的时候跟他握了手，我就想：哦，他是个正常人。"
+    },
+    {
+      "i": 38,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "11:54",
+      "en": "He's got to take a leak like the rest of us. He's a totally normal guy who just has way more money than most of us and way more success in his career than most of us. But that said, like, you know, he's got this weird, weird sort of celebrity to him, right? Which is he's incredibly well-known in our field. Yeah.",
+      "zh": "他也得跟我们其他人一样上厕所。他就是个特别正常的人，只不过钱比我们大多数人多得多，事业也比我们大多数人成功得多。话虽如此，你知道，他身上有一种很奇怪的「名气」，对吧？就是他在我们这个领域里名气大到不行。Yeah。"
+    },
+    {
+      "i": 39,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "12:13",
+      "en": "But he can probably walk through the streets of New York and the vast majority of people would have no idea who he is, right? So it's like he goes certain places and he's the most well-known person in the room and he goes other places and he's completely anonymous.",
+      "zh": "但他走在 New York 街上，绝大多数人根本不知道他是谁，对吧？所以他去某些场合，他是全场最有名的人；去别的场合，他就完全是个无名氏。"
+    },
+    {
+      "i": 40,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "12:25",
+      "en": "But I know you get this because I heard people at my symposium go and you'd ask a question and they go, oh, I know that voice. Oh, that's Jeff, right? So you have, you know, some celebrity as well now that your podcast has taken off. People know who you are. They know your voice.",
+      "zh": "但我知道你也有这种体会，因为我在自己的研讨会上听到有人——你一提问题，他们就说：「哦，我认得这个声音。哦，是 Jeff 吧？」所以随着你的播客火起来，你现在也算有点名气了。大家知道你是谁，认得你的声音。"
+    },
+    {
+      "i": 41,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "12:41",
+      "en": "You go to certain rooms like you're known before you go come through the door and yet the majority of places you go probably, you know, no one knows who you are. So he's got this unique celebrity to him. Cliffs, a great guy is, I'll tell a funny clip story because I think it sort of rhymes with sort of who Cliff is.",
+      "zh": "你走进某些房间，人还没进门大家就已经认识你了；但你去的大多数地方，可能没人知道你是谁。所以他身上有这种很独特的名气。Cliff 是个很棒的人。我讲一个好笑的 Cliff 小故事吧，因为我觉得它某种程度上跟 Cliff 这个人是押韵的。"
+    },
+    {
+      "i": 42,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "12:59",
+      "en": "But I think it's a not, most people listening won't know this, but it's not by, means any secret. A bunch of us in the industry have a recurring dungeons and dragons game that we play. It's actually coming up on its seven year anniversary wildly enough. And Cliff was going to be part of the original group. Oh, nice.",
+      "zh": "不过我觉得……大多数听众不会知道这件事，但这绝对不是什么秘密：我们行业里有一群人定期玩 Dungeons & Dragons（龙与地下城）。说来离谱，这个局马上要满七周年了。而 Cliff 本来要成为最初那批人之一的。哦，不错。"
+    },
+    {
+      "i": 43,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "13:20",
+      "en": "So the very first time we went to play was November 2019. For whatever reason, his camera and Mike wouldn't work. And he just completely in classic cliff fashion rage quit out of the game, said, I'm not doing this. And then it was like, no, I'm out. I can't do this anymore. And so he had like created a character. There was backstory.",
+      "zh": "我们第一次玩是 2019 年 11 月。不知道什么原因，他的摄像头和麦克风就是不好使。然后他完全以最经典的 Cliff 风格怒气退游，说：我不玩了。然后就变成：不行，我不干了，我受不了了。可他都已经创建好角色了，还有背景故事。"
+    },
+    {
+      "i": 44,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "13:42",
+      "en": "And so we were just like, all right, I guess we're just free to do whatever we want with his, his little dwarf character that he had created. But it was pretty funny classic cliff. I'm just like complete rage quit. I think, I think going through the quant winter at that time, his temper was a little shorter.",
+      "zh": "所以我们当时就想：好吧，那他创造的那个小矮人角色，我们想怎么处理就怎么处理了。但这事儿挺好笑的，非常 Cliff——彻彻底底的怒气退游。我觉得，当时正处在量化寒冬（quant winter）里，他的脾气是短了一点。"
+    },
+    {
+      "i": 45,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "13:57",
+      "en": "I think now where things are going really well for their returns. Maybe he would have a little bit more patience with his computer not working. But it was a pretty funny experience. And then putting a bow on it, you had him on because he had written a paper however many years ago.",
+      "zh": "现在他们的业绩跑得这么好，我觉得也许他对电脑不好使这件事会更有耐心一点。但那次经历真的挺好笑。然后给这个话题打个蝴蝶结：你请他上台，是因为他很多年前写过一篇论文，"
+    },
+    {
+      "i": 46,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "14:12",
+      "en": "No, the answer, but a lot of it was the genesis, right, of return stacking, portable alpha, all these concepts. He was talking about 30 years ago. Yeah. So it was twofold. Cliff has written about all these ideas before there's a paper that he wrote back in the 94, 96 called, why not 100% equities?",
+      "zh": "那篇论文不一定给出了答案，但很多概念其实就是从那儿来的，对吧——收益叠加（return stacking）、可携带 alpha（portable alpha），所有这些概念，他 30 年前就在讲了。Yeah。所以有两方面原因。Cliff 早就写过所有这些想法：他在 94、96 年那会儿写过一篇论文叫《为什么不是 100% 股票？》（Why Not 100% Equities?）。"
+    },
+    {
+      "i": 47,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "14:31",
+      "en": "And there he talks about, you know, why applying leverage, even just to a stockup on portfolios. Both ex ante expected to be a better portfolio and empirically has been long term a better portfolio. But he also wrote this great paper called seven ideas for running big money for the long term.",
+      "zh": "在那篇文章里他讲到，为什么即使只是给一个股债组合加杠杆，从事前预期看都会是一个更好的组合，而且从实证看长期也确实是一个更好的组合。但他还写过一篇很棒的文章，叫《长期管理大资金的七个想法》（Seven Ideas for Running Big Money for the Long Term）。"
+    },
+    {
+      "i": 48,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "14:48",
+      "en": "And the reason I really like this paper is because one, it's largely been taken offline. AQR's compliance pulled it down for a variety of reasons. So most people actually haven't read it. So that's what I think makes it a great paper to talk about. But two, it just reinforces all these great fundamental ideas about investing that for",
+      "zh": "我特别喜欢这篇文章的原因有两个：第一，它基本上已经被下架了，AQR 的合规部门因为各种原因把它撤了下来，所以大多数人其实没读过。我觉得这正是它值得拿出来讲的原因。第二，它重申了所有这些关于投资的很棒的基本理念，而对"
+    },
+    {
+      "i": 49,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "15:07",
+      "en": "those of us who have been in the industry for a long time, it doesn't hurt to get a refresher on some of these core ideas. And some of them are as simple as like, if you want to earn return, you have to take risk. And I think sometimes we just forget that. Yeah, you got to stomach the drawdowns.",
+      "zh": "我们这些在行业里待了很久的人来说，重温一下这些核心理念并没有什么坏处。其中有些道理简单到——比如，你想要获得回报，就必须承担风险。我觉得有时候我们就是会忘记这一点。Yeah，你得扛得住回撤（drawdown）。"
+    },
+    {
+      "i": 50,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "15:22",
+      "en": "You know, your portfolio is better off diversified and levered. But the reality is most people are going to struggle with leverage. Your portfolio doesn't really know the difference between alpha and novel forms of beta. So go find the low hanging fruit and add them to your portfolio.",
+      "zh": "你知道，一个更分散、加了杠杆的组合其实更好。但现实是，大多数人会在杠杆这件事上挣扎。你的组合其实分不清 alpha（超额收益）和新型 beta（市场敞口）之间的差别。所以要去找那些唾手可得的果实，把它们加进你的组合里。"
+    },
+    {
+      "i": 51,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "15:36",
+      "en": "All these sort of like great ideas that I don't think it hurts us to just remind ourselves out. And so that was the idea of what my fireside chat with him was going to be about. And the idea was to go through the paper in order of these ideas. Of course, classic cliff. It's like interviewing him is like trying to glass a hurricane.",
+      "zh": "所有这些很棒的想法，我觉得时不时提醒自己一下没什么坏处。所以这就是我那场炉边对话（fireside chat）要聊的内容。原本的思路是按这些想法的顺序把文章过一遍。结果当然是——非常 Cliff。采访他就像试图去套住一场飓风。"
+    },
+    {
+      "i": 52,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "15:56",
+      "en": "He answers my first question and his finish sort of tees me up for question seven. And I'm flipping through pages like crazy, trying to figure out where to go next with the conversation. That's half the fun. You did a good, I saw you actually, I was looking at you instead of looking at him a couple of times. Yeah. Oh, my God.",
+      "zh": "他回答完我第一个问题，结尾就直接把我送到了第七个问题那儿。我就在那儿疯狂翻页，想搞清楚接下来这段对话该往哪儿走。这就是乐趣的一半嘛。你做得很好——我其实看到了，有几次我在看你而不是看他。Yeah。天哪。"
+    },
+    {
+      "i": 53,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "16:14",
+      "en": "Where is it going? Where are we going? How am I, and how am I going to land this, you know, this, this thing that was going to have a very natural conclusion, all of a sudden, I've already asked the last question and I'm back to question two and I need to figure out how to land this thing. And then he had two great quotes at all.",
+      "zh": "这是要往哪儿去？我们要去哪儿？我该怎么……我该怎么把这段本来会有一个非常自然的收尾的对话落地？突然之间我已经把最后一个问题问完了，又回到了第二个问题，我得想办法把这场对话收住。然后他还有两句特别棒的话。"
+    },
+    {
+      "i": 54,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "16:31",
+      "en": "I think it was tied in the same thing. But it's like we, we're putting all this rationality and then we, we know that some of the alphas because the market participants are irrational, right, greed and fear and the rest will move things outside of where they should be. That's what you can capture.",
+      "zh": "我觉得这两句是连在一起的。就是说：我们讲了这么多理性，可我们也知道，有些 alpha 之所以存在，正是因为市场参与者不理性，对吧——贪婪、恐惧等等，会把价格推到它本该在的位置之外，那才是你能捕捉到的东西。"
+    },
+    {
+      "i": 55,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "16:48",
+      "en": "He's like, so you know that, but then you think they're going to, you know, subscribe and redeem. What do you say? He's like, we, we want them to be a Vulcan when they're redeeming or subscribing. Yeah. Yeah. He wants to be a Vulcan, but you want everyone else to be irrational, so you can make some money. Yeah.",
+      "zh": "他说：所以你知道这一点，但同时又指望他们（客户）能理性地申购和赎回。你怎么说？他说：我们希望他们在赎回或申购的时候是瓦肯人（Vulcan）。Yeah。Yeah。他希望客户是瓦肯人，但又希望其他所有人都不理性，这样他才能赚到钱。Yeah。"
+    },
+    {
+      "i": 56,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "17:06",
+      "en": "He's like, that makes no sense. Yeah. I mean, he told the great story where he was called into a large pension, right? And they said, this meeting's really important. You know, you guys are in a big drawdown or either going to redeem or double down. And Cliffs said that is, that's the most logical choice, right?",
+      "zh": "他就说：这完全说不通。Yeah。我是说，他讲过一个很棒的故事：有一次他被叫去一个大型养老金机构，对方说，这个会议非常重要，你们现在回撤很大，我们要么赎回，要么加倍下注。Cliff 说，这是最符合逻辑的选择，对吧？"
+    },
+    {
+      "i": 57,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "17:21",
+      "en": "If you're in a big drawdown, either, right, you need to rebalance and re-up your allocation. The strategy's not broken and now you're underway. Or you've learned something about the strategy that maybe it is now broken. That's why it's in the drawdown and you should be redeeming entirely.",
+      "zh": "如果你正处在一波大回撤里，那么要么——对吧——你需要再平衡（rebalance）、把配置补回去，因为策略没有坏，而且现在你是低配的；要么就是你从这个策略里了解到一些东西，它可能真的坏了，所以才在回撤，那你就应该全部赎回。"
+    },
+    {
+      "i": 58,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "17:37",
+      "en": "So he said you should either be doubling down or redeeming. There's no in between. And so when they called him to say, hey, that's what we're going to do in this presentation. And I was like, oh, wow, this is, this is a meaningful presentation. He's trying to convince them to double down and, and oh, by the way, excited that, that",
+      "zh": "所以他说，你要么加倍下注，要么全部赎回，中间没有第三种选择。所以当他们打电话给他说「嘿，这次演示我们就要这么讲」的时候，我就想：哦，哇，这是一场很有分量的演示——他要说服他们加倍下注；而且顺便说一句，还挺开心他们"
+    },
+    {
+      "i": 59,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "17:51",
+      "en": "they actually think about the world correctly. That is the launch of Vulcan. Right. They're Vulcans. Yeah. They're Vulcans. They didn't change anything. They said, we're not doubling down and we're not redeeming. And I guess that meeting really didn't, didn't make much of a difference.",
+      "zh": "看这个世界的方式其实是正确的。这就是瓦肯人的诞生。对吧。他们是瓦肯人。Yeah。他们是瓦肯人。结果他们什么都没改，说：我们既不加倍下注，也不赎回。所以我猜那次会议其实并没有带来什么差别。"
+    },
+    {
+      "i": 60,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "18:04",
+      "en": "But again, it goes to like, you know, you want your clients to be Vulcans, but they're not going to be. That's just not human nature. Are you a Star Trek fan as well as a Dungeons and Dragons nerd? I am not. I am. But you know what a Vulcan is. What a Vulcan is, I would say, you know, sort of grow up with that stuff like with",
+      "zh": "但这又回到那点：你希望你的客户是瓦肯人，可他们不会是的，这就不符合人性。你既是 Star Trek 的粉丝，又是个 Dungeons & Dragons 宅吗？我不是。我是。但你知道瓦肯人是什么啊。瓦肯人是什么——我会说，你知道，就是跟着那些东西长大的，"
+    },
+    {
+      "i": 61,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "18:24",
+      "en": "what your parents were into. And I think my parents weren't really into Star Wars or Star Trek. We were, you know, they showed me Star Wars. I'll tell you, Darth Vader scared the pants off of me as a young kid, but we never really got into Star Trek. Yeah. And then his other great line was he's like still to this day. He flips out.",
+      "zh": "跟着你爸妈喜欢的东西长大的。我觉得我爸妈并不怎么迷 Star Wars 或 Star Trek。我们，你知道，他们给我放过 Star Wars。我跟你说，Darth Vader 把我小时候吓得够呛，但我们从来没真正迷上 Star Trek。Yeah。然后他的另一句金句是——他说直到今天他还是会炸毛。"
+    },
+    {
+      "i": 62,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "18:45",
+      "en": "It's like a red minus 12 bips and he emotionally can't handle it. And I'm like, here's this guy who's at all of these success. It's about long-term compounding of gains and no behavioral biases all of this. And he's still the lizard brain sees a red number and he loses it a little bit. And don't we all, right?",
+      "zh": "就是屏幕上出现一个红色的 -12 bps，他情绪上就受不了。我就想，这个人取得了这么多成功，讲的是长期复利、没有行为偏差这一整套东西，结果他的蜥蜴脑（lizard brain）一看到红色的数字还是会有点崩。可我们不都是这样吗，对吧？"
+    },
+    {
+      "i": 63,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "19:03",
+      "en": "I think his point was five bips up and five bips down. It's all flat. But he might try to be five bips up and five bips down at the end of the day. And you all know what? I agree with him. There's nothing that annoys me more than just being slightly down.",
+      "zh": "我觉得他的意思是，涨 5 个 bps 和跌 5 个 bps，其实都是平的。但他可能还是会试着让自己在收盘时是涨 5 个 bps 而不是跌 5 个 bps。而且你知道吗？我同意他。没有什么比只是稍微亏一点更让我烦躁的了。"
+    },
+    {
+      "i": 64,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "19:16",
+      "en": "At least when you're, when you're down big, you can like decompose where it came from slightly down. Like couldn't I just ended it the day slightly up? I'd feel so much better about that. I wanted, I wanted to, I'd already been talking a lot of the airtime with my question about",
+      "zh": "至少当你亏得很多的时候，你还可以去分解亏损来自哪里；稍微亏一点就——我就不能收盘的时候稍微涨一点吗？那样我会感觉好得多。我本来想——我其实已经占了太多时间了——我想问的问题是："
+    },
+    {
+      "i": 65,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "19:29",
+      "en": "just have your team make anything from 15 bips up and down gray instead of green or red. Right? That is a solution. Yeah, yeah, yeah, there you go. And then you had someone who mentioned that paper is still out there somewhere? A link? Can we put it in the show notes? Yeah. I mean, I've been sort of circulating this.",
+      "zh": "就是让你的团队把涨跌 15 bps 以内的都做成灰色，而不是绿色或红色。对吧？这就是个解决办法。Yeah，yeah，yeah，就是这样。然后当时有人提到那篇论文还在某个地方能找到？有链接吗？我们能放到节目笔记（show notes）里吗？Yeah。我是说，我一直在私下传这份论文。"
+    },
+    {
+      "i": 66,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "19:48",
+      "en": "Yes, I have a copy I can share with you, but there is one RIA out there that is hosting it on their website that if you Google for this paper, you, you can find it. It's the only copy of the paper that's currently online. It's been there for years. I don't know if they'll ever take it down.",
+      "zh": "是的，我手上有一份可以分享给你，不过有一家 RIA（注册投资顾问）把这篇论文挂在他们的网站上，你去 Google 搜这篇论文就能找到。这是目前网上唯一的一份，已经挂在那儿好多年了，我也不知道他们会不会哪天撤下来。"
+    },
+    {
+      "i": 67,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "20:04",
+      "en": "I'm not sure they're even aware they're hosting it. So it can be found. I would encourage people to go find it and download it. They will be now. We'll put it in the show notes as well. So getting, we started at the end. Now we'll go back to the beginning. The first panelist was Justin from memko. Yeah. He's fantastic.",
+      "zh": "我甚至不确定他们自己知道挂了这份东西。所以是能找到的，我鼓励大家去搜一下、下载下来。反正现在会有的。我们也会把它放到节目笔记里。那么，我们是从结尾开始聊的，现在回到开头。第一位圆桌嘉宾是来自 Memko 的 Justin。Yeah。他非常棒。"
+    },
+    {
+      "i": 68,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "20:34",
+      "en": "I'm going to get him on the pod probably sometime in the next year here. But what were some of your takeaways there? One of my favorite graphs he had was the, like, basically the adding of independent bets. I know sometimes we don't want to calm bets, but independent return streams, the volatility comes down.",
+      "zh": "我大概会在未来一年里找机会请他上节目。但你从他那场里得到了什么收获？我最喜欢他的一张图，基本上就是不断增加相互独立的下注。我知道有时候我们不愿意把它们叫「下注」，但独立的收益流（return streams）加进来，波动率就会下降。"
+    },
+    {
+      "i": 69,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "20:51",
+      "en": "And then he said, and by the way, there's firms out there that do this out to 200. He's like, this chart would go all the way to the far wall and it loses, it's slope, but it still goes down that far out. Yeah. So with Justin, who's someone I invited to come speak out?",
+      "zh": "然后他说，顺便讲一句，有些公司把这个做到 200 个独立收益流。他说：这张图会一直画到那面墙那么远，斜率会变平，但那么远的位置它还是在往下走。Yeah。那 Justin 呢，他是我邀请来讲的人，"
+    },
+    {
+      "i": 70,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "21:10",
+      "en": "I've, Justin and I have crossed paths in past lives as well as recently. We both been panelists at EQ derivatives, which is a popular, more institutional conference that happens. So I knew he'd be a great speaker and he's been a long-term advocate of portable alpha and what they do in the institutional space.",
+      "zh": "Justin 和我在过去的职业生涯以及最近都有交集。我们都在 EQ Derivatives 上做过圆桌嘉宾，那是一个偏机构、比较知名的会议。所以我知道他会是个很棒的演讲者，而且他长期在机构领域倡导可携带 alpha（portable alpha）以及他们在那块做的事情。"
+    },
+    {
+      "i": 71,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "21:27",
+      "en": "And what I wanted to do was bring someone who had that institutional background to explain how institutions think about this and how they're implementing it, but Justin also had a good grasp of what was really feasible for advisors to be able to do.",
+      "zh": "我想做的是找一个有机构背景的人，来解释机构是怎么思考这件事、又是怎么落地的，但 Justin 同时也很清楚，对理财顾问（advisor）来说什么是真正可行的。"
+    },
+    {
+      "i": 72,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "21:40",
+      "en": "Not everything an institution does an advisor can do, but a lot of these techniques translate. So that was the goal of getting Justin and what was fun for me is I do like a 10, 15-minute conversation with him beforehand, just to set up, sort of set the table for him to then go into the presentation.",
+      "zh": "机构做的事情，顾问并不是都能做，但很多技术是可以迁移过来的。所以这就是请 Justin 来的目的。而对我来说有意思的是，我事先跟他做了个 10 到 15 分钟的对话，算是给他铺垫一下、把桌子摆好，然后他再进入正式的演讲。"
+    },
+    {
+      "i": 73,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "21:56",
+      "en": "And then I was able to slink to the back of the room and listen to his presentation. And it always surprises me to watch what people pull their phones out and take pictures of this slide. Yeah. And that's a lot of that. And that slide you're talking about where he showed, but the more independent bets, more",
+      "zh": "接着我就能溜到会场后面去听他的演讲。而每次让我惊讶的是，大家会掏出手机拍某一张幻灯片。Yeah。很多人都会拍那张。你说的就是他展示的那张：越多相互独立的下注、越多"
+    },
+    {
+      "i": 74,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "22:13",
+      "en": "independent returns strings are able to add. You get that bald decay, but you also get that boost in sharp, right? And I think that was very powerful to people as we've been talking to people about these ideas of return stacking, right? Which is saying, hey, keep your core strategic box stock bond portfolio and overlay things",
+      "zh": "相互独立的收益流能够叠加进来，你就会看到那条曲线的衰减，但同时你也得到了夏普比率（Sharpe ratio）的提升，对吧？我觉得这一点对大家非常有冲击力，因为我们一直在跟人讲收益叠加（return stacking）这些想法，对吧？就是说：嘿，保留你核心的战略股债组合，然后在上面叠加"
+    },
+    {
+      "i": 75,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "22:33",
+      "en": "like manage futures, overlay things like carry or merger arbitrage or structural allocations to commodities and gold or whatever else, you know, long short equity, adventure and strategies. You know, whatever it is, overlay these things instead of getting rid of the socks and bonds.",
+      "zh": "管理期货（managed futures），叠加套息（carry）、并购套利（merger arbitrage），或者对大宗商品和黄金的结构性配置，或者别的什么，你知道，多空股票（long/short equity）以及其他各类策略。不管是什么，把这些叠加上去，而不是把股票和债券扔掉。"
+    },
+    {
+      "i": 76,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "22:49",
+      "en": "What you find, right, is as you add more and more of these independent bets, you do get that boost in sharp. You do get that in the overlay itself, that decreasing volatility and a lot of our clients are initial clients were very interested only in adding trend following, right?",
+      "zh": "你会发现，随着你叠加越来越多这样相互独立的下注，你确实会拿到夏普比率的提升，确实在叠加层本身体现出波动率的下降。我们很多客户，最早的客户，只对加趋势跟踪（trend following）感兴趣，对吧？"
+    },
+    {
+      "i": 77,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "23:08",
+      "en": "For all the reasons the listeners of this podcast will know, right? Yeah. And we'll get into that next. That was the next panel. But yeah. Great long-term track record. It's been uncorrelated to stocks and bonds and does well in the crisis period, both, you know, economic crisis periods as well as inflationary crisis periods.",
+      "zh": "出于所有那些听这档播客的人都知道的原因，对吧？Yeah。我们接下来就会讲到，那是下一场圆桌。但 yeah，趋势跟踪有很好的长期业绩记录，跟股票和债券都不相关，而且在危机时期表现好——无论是经济危机时期还是通胀危机时期。"
+    },
+    {
+      "i": 78,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "23:26",
+      "en": "But the feedback was people going, oh, I need to really think about adding more stuff to that overlay. I mean, maybe I'm overweight trend because their bias was towards trend following. And that's not inherently wrong. I think trend following is probably maybe the first thing most people should look towards",
+      "zh": "但大家的反馈是：「哦，我真的得好好想想在这个叠加层里加更多东西。」我是说，也许我超配了趋势，因为他们的偏好本来就偏向趋势跟踪。而这本身并没有错。我觉得趋势跟踪大概是大多数人第一个应该去看的方向，"
+    },
+    {
+      "i": 79,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "23:43",
+      "en": "if they already have a stock bond portfolio. But I think just in really convinced people, hey, that overlay that you're putting on top of the portfolio, you should really think about how you can maximally diversify that. If what you're trying to create is not something that's inherently always convex to stock",
+      "zh": "如果他们本来就有一个股债组合的话。但我觉得真正说服大家的是：嘿，你叠加在组合上面的那一层，你真的应该好好想想怎么才能把它做到最大程度的分散。如果你想创造的东西并不是一个天生就始终对股票"
+    },
+    {
+      "i": 80,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "24:01",
+      "en": "and bond to stocks and bonds, but more of an absentee return stream. And I think even someone asked him there, like, well, but you can't eat sharp ratio, right? Which is a famous advisor line. Yeah. But he cut, I can't remember his exact, but he cut through that well, like, well, but you're, you can keep the client longer, right?",
+      "zh": "和债券凸性（convex）的东西，而更像是一条绝对收益流（absolute return stream）。而且我觉得当时现场也有人问他：「呃，可是夏普比率不能吃啊」，对吧？这是理财顾问圈里很有名的一句话。Yeah。但他把这个问题切得很好，我记不清他的原话了，大概是：「可是这样你能把客户留得更久啊，对吧？」"
+    },
+    {
+      "i": 81,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "24:21",
+      "en": "They'll be a happier path, all those things. So like, yeah, and you can't even sharp ratio with leverage quite frankly. Right? So yeah, I'm not sure that's inherently true. But yes, sharp ratio definitely the more absolute return, you can create that stream.",
+      "zh": "客户的路径会更舒服，等等这些。所以 yeah，而且坦白说，你还能用杠杆去「吃」夏普比率，对吧？所以 yeah，我不确定「夏普比率不能吃」这话本身成立。但是没错，夏普比率确实是你能创造出的绝对收益流越多越好，"
+    },
+    {
+      "i": 82,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "24:37",
+      "en": "And again, I think there are limits to what can be done when you talk about doing this in mutual funds and ETFs versus what they can achieve in the institutional world. But the more uncorrelated return strings you can add, hopefully the more absolute return",
+      "zh": "而且我觉得，用共同基金（mutual fund）和 ETF 来做这件事，跟机构世界里能做到的程度相比，是有限制的。但你叠加进来的不相关收益流越多，希望这一层"
+    },
+    {
+      "i": 83,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "24:49",
+      "en": "that overlay becomes in practice and the easier it is to just keep the client invested in it. Yeah, and he had a bunch of stuff with a bunch of different hedge fund categories, insurance, link securities, multi-strats, all this stuff was part, was it intentional? Because this is what I was feeling during the time.",
+      "zh": "在实践中就越接近绝对收益，也就越容易让客户一直待在里面。Yeah，然后他讲了一大堆不同的对冲基金类别，保险挂钩证券（insurance-linked securities）、多策略（multi-strat）等等。这些东西一部分——这是刻意的吗？因为我当时在现场就是这种感觉："
+    },
+    {
+      "i": 84,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "25:08",
+      "en": "But to make it so complex that now return stacking seems easy in comparison to what the institutional guys were doing, I certainly wasn't intentional with some of this stuff, just from a compliance perspective, I have to be hands off and telling these guys what their slides can look like, right?",
+      "zh": "「他把这些讲得太复杂了，以至于跟机构人士在做的事情相比，收益叠加反而显得简单了。」有些东西我肯定不是刻意安排的，单从合规的角度讲，我必须对这些演讲嘉宾的幻灯片长什么样保持不干预，对吧？"
+    },
+    {
+      "i": 85,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "25:24",
+      "en": "I can't dictate to Justin what it's going to look like. I think what Justin was trying to show was saying, look, there's all these hedge fund categories, some of which maybe your average advisor won't have access to. But some of them, they will, like catastrophe bonds, they can now get access to in semi-liquid",
+      "zh": "我没法规定 Justin 的片子长什么样。我觉得 Justin 想表达的是：看，有这么多对冲基金类别，其中一些你普通的理财顾问可能拿不到；但另一些是可以的，比如巨灾债券（catastrophe bonds），现在可以通过半流动性（semi-liquid）"
+    },
+    {
+      "i": 86,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "25:42",
+      "en": "vehicles, right, those exist. They can get access to a lot of these alternative asset classes in risk premium in a variety of different vehicles that they couldn't 10 or 15 years ago. And then's the question of how can you use the capital efficiency afforded to you by the different funds to introduce those return streams as overlays?",
+      "zh": "工具拿到，对吧，这类工具是存在的。他们可以通过各种各样在 10 年、15 年前拿不到的载体，去接触很多这类另类资产类别和风险溢价（risk premium）。然后问题就是：你怎么利用不同基金所提供的资本效率（capital efficiency），把这些收益流以叠加层的方式引入进来？"
+    },
+    {
+      "i": 87,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "26:05",
+      "en": "I think Justin's point was, you know, some of these maybe you have access to, certainly a lot of the institutions have leaned into allocating to the pod shops. That's just not something your average advisor is going to be able to do. But that doesn't mean we shouldn't use the same philosophy of, yeah, you know, let's allocate",
+      "zh": "我觉得 Justin 的观点是：其中一些你也许能拿到；当然，很多机构已经倾向于配置到那些多经理平台（pod shops），而这不是普通理财顾问能做到的事。但这并不意味着我们不该采用同样的理念，也就是：好，那我们就去配置"
+    },
+    {
+      "i": 88,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "26:21",
+      "en": "to a diversified multi-strategy, multi-asset type overlay. But you can, with returns that get carry, get merger arm, right, so you're starting to build those. I mean, we have those as turnkey solutions, but I'll give you an extreme example, we have a fund that for every dollar you give us, we give you a dollar of global equities and",
+      "zh": "一个分散的、多策略、多资产类型的叠加层。但你可以用能拿到套息（carry）、能拿到并购套利（merger arb）的收益去做，对吧？所以你开始搭建这些东西。我是说，我们有那种一站式（turnkey）的解决方案，但我举个极端的例子：我们有一只基金，你每给我们 1 美元，我们就给你 1 美元的全球股票加上"
+    },
+    {
+      "i": 89,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "26:45",
+      "en": "a dollar of bonds. The idea there is not that we're going to, you're going to use it to create a bond overlay. The idea there is that you can replace some of your stock bond exposure with this fund. It's like 10% of your stocks and 10% of your bonds can be replaced by 10% in this fund.",
+      "zh": "1 美元的债券。这里的思路不是让你用它去做一个债券叠加层，而是你可以用这只基金替换掉你一部分的股债敞口。比如说，你 10% 的股票和 10% 的债券，可以用 10% 的这只基金来替换。"
+    },
+    {
+      "i": 90,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "27:03",
+      "en": "That 10% in this fund gives you the stock bond exposure back, but now you've 10% of your portfolio freed up to do with whatever you please. So maybe you take that 10% and go invest it in a cap bond strategy or fund, and the effective thing you've done is you've effectively overlaid your betas with that cap bond allocation.",
+      "zh": "这 10% 的基金把股债敞口还给了你，但现在你组合里腾出了 10% 的空间，想怎么用就怎么用。所以也许你拿这 10% 去投一个巨灾债券（cat bond）策略或基金，那么实际效果就是：你用那笔巨灾债券配置，在你的 beta 之上做了叠加。"
+    },
+    {
+      "i": 91,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "27:26",
+      "en": "And so you can, as long as liquid or semi-liquid vehicles exist that the advisor has access to for all these strategies, they don't have to exist in a prepackaged turnkey return stacking fund. All of this can be effectively returned stacked using capital efficiency tools. Yeah.",
+      "zh": "所以，只要针对所有这些策略都存在理财顾问能买到的流动性或半流动性工具，它们就不必被打包成一只预先包装好的一站式收益叠加基金。所有这些都可以用资本效率工具有效地实现收益叠加。Yeah。"
+    },
+    {
+      "i": 92,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "27:46",
+      "en": "And then I asked the question of him, which I wasn't super pumped with the answer, but it was getting late. But I was basically, did they try this too much portable alpha back in the 80s and early 90s and kind of got off sides with it? Or did they not do enough of it?",
+      "zh": "然后我问了他一个问题，我对那个答案不是很满意，但当时时间已经晚了。我基本上问的是：他们当年在 80 年代和 90 年代初，是不是把可携带 alpha（portable alpha）做得太过了、结果做砸了？还是说他们做得不够？"
+    },
+    {
+      "i": 93,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "28:03",
+      "en": "And when his answer was like, oh, bonds were yielding high and nobody cared. What were your thoughts on his answer or just your thoughts in general, that of like, have institute. It seems like all these institutions, especially the groups you have are doing it in spades now. Yeah. It's working. Everyone's happy with it.",
+      "zh": "而他的回答大概是：「哦，当时债券收益率很高，没人在乎这个。」你怎么看他的回答，或者你整体怎么看？就是说，机构——看起来所有这些机构，尤其是你请来的那一批，现在都在大规模地做这件事。Yeah。它有效，大家都对它很满意。"
+    },
+    {
+      "i": 94,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "28:20",
+      "en": "Why weren't they do, if it was in a paper 30 years ago, why weren't they doing it 30 years ago? Novel stuff takes a long time to catch on. There's, we know all too well. There's leverage a version in the industry. It did catch on in the 2000s, right? I mean, I think it was like 50% of the 50% of the top 50 pensions in the U.S. were",
+      "zh": "那为什么……如果 30 年前就有论文写过它，为什么他们 30 年前没做？新东西要花很长时间才能被接受。这一点我们太清楚了，这个行业里这种事的版本太多了。它在 2000 年代确实流行起来了，对吧？我是说，我记得当时大概是全美前 50 大养老金里有 50%"
+    },
+    {
+      "i": 95,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "28:40",
+      "en": "all implementing portable alpha going into 2008 and the vast majority were considering. I was going to double check me on that staff, but it's something to that effect, right? And the problem became the way portable alpha was implemented at that time, ended up being it's undoing.",
+      "zh": "都在实施可携带 alpha，进入 2008 年的时候，而且绝大多数还在考虑要做。这个数据你们别完全听我的，但大意就是这样，对吧？而问题在于，当时实施可携带 alpha 的方式，最终成了它的死因。"
+    },
+    {
+      "i": 96,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "28:57",
+      "en": "So the idea on paper was totally fine, operationally where and how it was implemented became a big problem for the sustainability and a lot of those programs blew up. And so post 2008, a lot of people wrote the idea off as being inherently unsustainable. We would argue it wasn't the idea.",
+      "zh": "所以这个想法在纸面上完全没问题，但在运营层面——在哪儿实施、怎么实施——成了可持续性的一个大问题，很多这样的项目都爆掉了。于是 2008 年之后，很多人就把这个想法判定为天生不可持续。而我们会说，问题不在想法本身，"
+    },
+    {
+      "i": 97,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "29:17",
+      "en": "It was the structure and I can talk about this, you know, what's different today. But it took, it took some turnover in people's bull, you know, people leaving firms and new people coming in and to reintroduce an idea with a new implementation structure that is much more sustainable. Yeah, I feel like that was the takeaway.",
+      "zh": "而在结构。这一点我可以讲讲今天有什么不同。但这需要一些人员更替，你知道，有人离开机构、有新人进来，然后才能用一个更可持续的新实施结构去重新引入这个想法。Yeah，我觉得这就是当时大家得到的结论。"
+    },
+    {
+      "i": 98,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "29:36",
+      "en": "The summary of O8 and people's minds was I was like, oh, when they tried this before, they overlavered and it didn't work. Yeah. But what's the nuanced answer there? Why, what was the structural problem? So in 2008, the way this was implemented, predominant way, there's a lot of, if you go",
+      "zh": "大家对 2008 年的总结是：「哦，他们以前试过这个，杠杆加过头了，所以没成。」Yeah。但更细致的答案是什么？为什么会这样？结构性的问题到底出在哪儿？在 2008 年，这个东西的主流实施方式——如果你回到"
+    },
+    {
+      "i": 99,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "29:50",
+      "en": "back to that period, there were a lot of weird implementations, but predominately worked like this. Well, oversimplified. Well, oversimplified. It worked like this. You were a large pensioner endowment. You wanted to add some alpha to your risk book. You had a big chunk of S&P 500, say $100 of it.",
+      "zh": "那个时期，会有很多奇怪的实现方式，但主流的做法是这样的。呃，说得太简化了。呃，是太简化了。它是这样运作的：你是一个大型养老金或者捐赠基金（endowment），你想给自己的风险敞口账本（risk book）加一点 alpha，你手上有一大块 S&P 500，比如说 100 美元。"
+    },
+    {
+      "i": 100,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "30:07",
+      "en": "You went to a bank and said, I would like to get this exposure on swap. I will give you $20. You give me $100 of S&P exposure on swap. I'm now left with $80 of cash with which I can go to a hedge fund and allocate to the hedge fund. The problem with that structure is that I only have $20 of collateral.",
+      "zh": "你去找一家银行说：我想通过互换（swap）拿到这个敞口。我给你 20 美元，你通过互换给我 100 美元的 S&P 敞口。这样我手上还剩 80 美元现金，可以拿去找一只对冲基金、把钱配给它。这个结构的问题在于，我只有 20 美元的抵押品（collateral）。"
+    },
+    {
+      "i": 101,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "30:29",
+      "en": "So if the S&P starts to go down and it chews through my collateral and I get a margin call, I have to go to the hedge fund and say, please let me redeem. Well, hedge funds at the time didn't have daily redemptions, right? Yeah. Or weekly. You were lucky if they had quarterly. And in 2008, a lot of them were putting up redemption gates.",
+      "zh": "所以如果 S&P 开始下跌，把我的抵押品一点点啃光，我收到追加保证金通知（margin call），我就得去找那只对冲基金说：请让我赎回。可当时的对冲基金没有每日赎回，对吧？Yeah。也没有每周赎回，能有季度赎回就算你运气好了。而在 2008 年，很多基金还设起了赎回闸门（redemption gates）。"
+    },
+    {
+      "i": 102,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "30:49",
+      "en": "What ended up happening is whether that, whether it became illiquid or correlated with equities in the tail, a lot of the beta positions got blown out. And you couldn't get access to your capital to rebalance because you were mixing liquid daily market leverage with these illiquid funds, right? And that's just, that was inherently poison.",
+      "zh": "最后发生的情况是：无论是它变得缺乏流动性，还是在尾部与股票相关，很多 beta 头寸都被打爆了。而你没法拿到自己的资本去做再平衡，因为你把每日流动的市场杠杆和这些不流动的基金混在了一起，对吧？这本身就是……那本质上就是毒药。"
+    },
+    {
+      "i": 103,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "31:10",
+      "en": "You were under, you were under-margined during this drawdown. And so a lot of these programs blew up. They wouldn't have blown up, by the way, if instead of overlaying this on equity, if they had replaced their bonds, right, if they had gone to a, and said, hey, we've got",
+      "zh": "在这轮回撤里你的保证金是不足的。所以很多这类项目都爆掉了。顺便说一句，如果他们不是把这个叠加在股票上，而是替换掉自己的债券，它们本来是不会爆的，对吧？如果他们当时去说：嘿，我们有"
+    },
+    {
+      "i": 104,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "31:25",
+      "en": "all these treasuries, let's turn those into cash and buy treasury futures or buy, you know, get the ag on swap, that would have been fine. Unfortunately, for regulatory reasons, a lot of these places either have to have bonds, if there's insurance-based stuff going on, and or they like to have the bonds for the",
+      "zh": "这么多国债，我们把它们变成现金，去买国债期货，或者，你知道，通过互换拿到这些敞口，那就完全没问题了。不幸的是，出于监管原因，很多这类机构要么必须持有债券（如果涉及保险类的业务），要么就是养老金自己喜欢持有债券，因为"
+    },
+    {
+      "i": 105,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "31:44",
+      "en": "pensions because they're explicitly liability matching to the future or just from a governance perspective, this made more sense to hold in the risk book to get it pushed across the line from a governance perspective. But either way, that mismatch was a big issue.",
+      "zh": "他们在明确地做负债匹配（liability matching）；或者仅仅是从治理的角度看，把它放在风险账本里更说得通，从治理角度更容易推动通过。但不管哪种情况，那种错配都是个大问题。"
+    },
+    {
+      "i": 106,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "32:00",
+      "en": "Today, you're seeing a lot more of what we'll call turnkey solutions, which is that alpha manager, that hedge fund manager is now saying, well, just give me all $100. And I will, within my fund, manage both the alpha and the beta for you, and I will do the rebalancing. Right. Exactly.",
+      "zh": "今天你会看到更多我们所说的一站式（turnkey）解决方案，也就是那位 alpha 管理人、那位对冲基金管理人现在会说：好吧，把 100 美元全都给我，我会在我的基金内部同时帮你管理 alpha 和 beta，而且再平衡由我来做。对吧。没错。"
+    },
+    {
+      "i": 107,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "32:20",
+      "en": "And that's exactly how we do it in our ETFs and other people do it in their ETFs and mutual funds. That these are now turnkey solutions where it's all being done by one manager.",
+      "zh": "这正是我们在自己的 ETF 里的做法，别人在他们的 ETF 和共同基金里也是这么做的。这些现在就是一站式解决方案，全部由一个管理人来完成。"
+    },
+    {
+      "i": 108,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "32:39",
+      "en": "Great segue, because the next panel, which you were on, I believe, was putting that in right as the manager, you had the institutional investor standpoint, then you had an institutional manager standpoint, how they're implementing it. So it was JP Morgan and a guy for AQR and yourself, I'm already forgot.",
+      "zh": "这个过渡很好，因为下一场圆桌——我记得你也在上面——讲的就是作为管理人怎么把这件事落地：你先有了机构投资者的视角，然后又有机构管理人的视角，讲他们是怎么实施的。所以是 JP Morgan、AQR 的一个人，还有你自己，我已经忘了……"
+    },
+    {
+      "i": 109,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "32:57",
+      "en": "And me, Adam Butler from Resolves Management, one of my partners in the Returns to Act ETFs, we was the host of the panel. I honestly, now talking about this, sounds like I was in a lot of stuff. I don't know how I ended up in so much stuff, but yes, I was a panelist on this one with",
+      "zh": "还有我，以及来自 Resolve Asset Management 的 Adam Butler，他是我在 Return Stacked ETF 上的合伙人之一，我担任那场圆桌的主持。说实话，现在这么一聊，听起来我参与了好多环节。我也不知道自己怎么被塞进了这么多事情里，但是的，那场圆桌我是嘉宾之一，同台的是"
+    },
+    {
+      "i": 110,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "33:14",
+      "en": "Peter Hept and Garrett Norman, Peter Hept from AQR and Garrett Norman from JP Morgan. Both of those, all three of us have a liquid 40 act fund, either mutual 100 ETF or for every dollar you invest, you'll get a dollar of large cap US equities plus a dollar of a managed future strategy.",
+      "zh": "Peter Hept 和 Garrett Norman，Peter Hept 来自 AQR，Garrett Norman 来自 JP Morgan。我们三个人都有一个流动性的 1940 年投资公司法（'40 Act）产品，要么是共同基金要么是 ETF：你每投 1 美元，就能得到 1 美元的美国大盘股，加上 1 美元的管理期货策略。"
+    },
+    {
+      "i": 111,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "33:33",
+      "en": "But they also have that institutional hedge fund background where that, what you were just talking about, where they're giving them all $100 and they're doing the beta inside of that product. Right, it was interesting there. It was mainly, I think, a crowd that's drinking the trend following managed features",
+      "zh": "但他们也都有那种机构对冲基金的背景，也就是你刚刚讲的那种：客户把 100 美元全都给他们，他们在产品内部把 beta 做掉。对，那场挺有意思的。我觉得台下主要是一群本来就已经喝下了趋势跟踪、管理期货"
+    },
+    {
+      "i": 112,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "33:49",
+      "en": "Kool-Aid to begin with, but then you three, especially drinking the Kool-Aid, but even within the U3, there's replication, there's a proprietary model that they don't show to the public. And then JP Morgan, a model that lists the positions daily through their ETFs.",
+      "zh": "这瓶 Kool-Aid 的人，但你们三个尤其是把这瓶 Kool-Aid 喝到底的。可即便在你们三个人内部也不一样：有做复制（replication）的，有 proprietary 模型但不对外公开的，然后 JP Morgan 则是通过他们的 ETF 每天公布持仓的模型。"
+    },
+    {
+      "i": 113,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "34:08",
+      "en": "So that was an interesting twist to me, even all three of you would probably fill out the same checkboxes of what you want in a platform and a program for trend following, but yet you implement it different ways. Yeah, that was the idea was to say, we all believe in this core concept that this is a great strategy.",
+      "zh": "所以对我来说这是一个很有意思的转折：你们三个人在一个趋势跟踪平台和项目上想要的东西，勾选的选项大概都一样，但实施的方式却各不相同。Yeah，那场圆桌的立意就是：我们都相信这个核心理念，相信这是一个很棒的策略。"
+    },
+    {
+      "i": 114,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "34:26",
+      "en": "Again, you give me a dollar, I'll give you a dollar of S&P 500 plus a dollar of managed features strategy, but the implementations are very, very different, right? As you mentioned, we do it with a replication-based approach for the managed features. The other big difference is on the equity side, we hold a lot of securities, and then we",
+      "zh": "还是那句话：你给我 1 美元，我给你 1 美元的 S&P 500 加上 1 美元的管理期货策略，但实施差异非常非常大，对吧？就像你提到的，我们在管理期货这部分用的是基于复制（replication）的方法。另一个大区别在股票端：我们持有大量证券，然后"
+    },
+    {
+      "i": 115,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "34:46",
+      "en": "true up the missing beta with S&P futures. AQR does it in a mutual fund, which helps shield their holdings. They trade a very long fat tail of markets, I think it's hundreds of markets. They use both price and economic trend, as well as other signals that they won't disclose.",
+      "zh": "用 S&P 期货把缺的那部分 beta 补齐。AQR 是在共同基金里做的，这有助于隐藏他们的持仓。他们交易的是一条非常长、非常肥尾的市场序列，我记得有几百个市场。他们同时使用价格趋势和经济趋势（economic trend），以及其他不会公开的信号。"
+    },
+    {
+      "i": 116,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "35:05",
+      "en": "They don't buy any securities, 100% of their S&P 500 exposures through futures, which has some interesting implications from both a tax efficiency, as well as a financing hurdle rate. Then you've got JP Morgan, who says, well, we are going to have some secret sauce.",
+      "zh": "他们不买任何证券，S&P 500 的敞口 100% 通过期货实现，这在税务效率（tax efficiency）和融资门槛利率（financing hurdle rate）两方面都有一些有意思的含义。然后是 JP Morgan，他们的说法是：好吧，我们是会有一些独门酱料（secret sauce）的。"
+    },
+    {
+      "i": 117,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "35:24",
+      "en": "We do trend plus this other systematic macro thing that we're not really going to talk about, but we think there's some alpha there, but their stock side is much more like ours, where they're buying some individual securities, and then trueing up with S&P futures.",
+      "zh": "我们做的是趋势，再加上另外一个我们不太愿意多讲的系统化宏观（systematic macro）策略，但我们觉得那里面有 alpha。不过他们的股票端就跟我们很像：买一些个股，然后用 S&P 期货补齐。"
+    },
+    {
+      "i": 118,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "35:39",
+      "en": "The point of the panel to me was, conceptually, we all agree this is a great idea. Where the rubber meets the road, I'm just going to keep throwing it apart. Which Mike Fibrick said way too many times. Yeah, where the rubber meets the road, or the devil's in the details, right?",
+      "zh": "对我来说那场圆桌的意义在于：在概念层面，我们都同意这是个好主意。但「说到落地」（where the rubber meets the road）——这句我就先不反复展开了，Mike Fibrick 说过太多次了。Yeah，「说到落地」，或者说「魔鬼在细节里」，对吧？"
+    },
+    {
+      "i": 119,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "35:55",
+      "en": "It was like, let's get into these details that actually make these funds in practice, potentially quite different. Did you have any debates? There wasn't any on stage, but backstage or anything of what, your replication stupid or you should be doing it this way, or there's, right? I mean, they couldn't say anything. I was the host.",
+      "zh": "就是说：我们来聊聊这些细节，正是这些细节让这些基金在实践中可能相当不一样。你们有过争论吗？台上没有，那台下呢，或者有没有什么「你的复制方法很蠢」「你应该这么做」之类的？对吧？我是说，他们什么也说不了，因为我是主持人。"
+    },
+    {
+      "i": 120,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "36:14",
+      "en": "So they had to agree with everything I said, or they were getting kicked out of the conference. No, you know, I think where we come down, and it's interesting because a lot of our clients will say, I really want to do this, but I can't allocate all of my money to just return stacked.",
+      "zh": "所以他们必须同意我说的一切，否则就要被赶出这个会议。不，你知道，我觉得我们最后落到的点是——这很有意思，因为我们很多客户会说：我真的很想做这个，但我不能把所有的钱都只配到收益叠加产品上。"
+    },
+    {
+      "i": 121,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "36:29",
+      "en": "The practical reality is I know my clients are probably going to hold some of my competitors. And that's not a problem to me because even if I do a really good job in replication, you know, some of these other managers, they may have an alpha. AQR has done incredibly well.",
+      "zh": "现实情况是，我知道我的客户很可能会持有一些我竞争对手的产品。而这对我来说不是问题，因为即使我在复制这件事上做得非常好，其他一些管理人可能真的有 alpha。AQR 就做得极其出色。"
+    },
+    {
+      "i": 122,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "36:42",
+      "en": "The other thing AQR has done is they've implemented trend following in some long short baskets that they're able to use to make the entire product more tax-efficient. There's some really novel, interesting stuff going on that, again, it just sort of depends on what the preferences of the client are.",
+      "zh": "AQR 做的另一件事是，他们把趋势跟踪实现在一些多空篮子（long/short baskets）里，用这些篮子让整个产品在税务上更高效。这里面有一些真正新颖、有意思的东西，而这归根结底取决于客户的偏好是什么。"
+    },
+    {
+      "i": 123,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "37:00",
+      "en": "And so I think, yeah, it's not, I don't think anyone was going to aggressively say, you're wrong. This is a bad idea. I think what it came down to is like, what does the client care about most? And then give it to, okay, do you do most of its in replication and you choose a manager, you believe has some alpha?",
+      "zh": "所以我觉得，yeah，没有人会激烈地说「你错了，这是个坏主意」。我觉得最后落到的是：客户最在意什么？然后把那个东西给他。好，那你到底是主要用复制来做，然后另外选一个你相信有 alpha 的管理人？"
+    },
+    {
+      "i": 124,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "37:17",
+      "en": "Or do you say, you want to what? I don't want a replication. I'm going to choose three managers that I think have alpha and we balance them together. And to the day, as much as I want people to buy our stuff, this symposium was about spreading the gospel of the idea, because I really believe that this is a rising tide, lifts all",
+      "zh": "还是说你会讲：你想要什么？「我不要复制，我要挑三个我认为有 alpha 的管理人，然后把他们平衡地组合在一起。」说到底，尽管我也希望大家买我们的产品，但这场研讨会的目的是传播这个理念的福音，因为我真的相信这是水涨众船高（a rising tide lifts all"
+    },
+    {
+      "i": 125,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "37:36",
+      "en": "boats, and this idea is so nascent that we all need to be working together to really grow it in the space. Which is just, as an aside, so hard for me, I'm in the bubble every day of this. So it's like, what do you mean, nation? It's like, it's out there. Everyone's doing it. Everyone's talking about it.",
+      "zh": "boats），而且这个理念还太早期，需要我们大家一起努力，才能真正在这个领域里把它做大。顺带说一句，这对我来说挺难的：我每天都泡在这个泡泡里。所以就会想：什么叫「早期」？它明明已经在那儿了，大家都在做，大家都在聊。"
+    },
+    {
+      "i": 126,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "37:52",
+      "en": "In my bubble, yes, but not in the wider lens of how many people are still just in 60, 40 or in some active stockpickery. Yeah, we barely scratched the surface in truth. And I would say the vast majority of people we talk to have never heard of return sacking or portable alpha. Yeah, I invited some advisors that I've never heard of.",
+      "zh": "在我的泡泡里是这样，但如果把镜头拉远，还有多少人仍然只是待在 60/40 里，或者在做某种主动选股（active stock picking）。Yeah，说实话我们才刚刚触及皮毛。我会说，我们接触到的绝大多数人从来没听说过收益叠加（return stacking）或者可携带 alpha。Yeah，我邀请过一些理财顾问，他们从来就没听说过这些。"
+    },
+    {
+      "i": 127,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "38:13",
+      "en": "I was like, come on, it's been on my, it's like a friend of mine. I'm like, he's been on my podcast before and that shows me you've never listened. Yeah. It was a double strike against you. You're no longer a friend. But it seemed like if I was on that, I'd be trying to get you to argue with them of replication versus single-strategy.",
+      "zh": "我就说：拜托，这可是……就像我的一个朋友，我说：他以前上过我的播客，这说明你从来没听过。Yeah。这是对你的双重扣分，你不再是我朋友了。不过感觉如果那场圆桌是我在台上，我会想办法让你们吵起来：复制派 vs 单一策略派。"
+    },
+    {
+      "i": 128,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "38:29",
+      "en": "But does anyone care anymore? It feels like it's just kind of become like, no, people are doing replication really well and it is what it is. Yeah, I mean, full credit to Andrew Beer, I think many years ago, there was a question of Ken replication to it. I think Andrew is, you know, that's stellar performance.",
+      "zh": "但现在还有人在乎这个吗？感觉这件事已经变成：不，大家把复制做得挺好的，它就是这样。Yeah，我是说，这要完全归功于 Andrew Beer。我记得很多年前，大家还在质疑复制到底行不行，而 Andrew 的表现，你知道，那是相当亮眼。"
+    },
+    {
+      "i": 129,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "38:47",
+      "en": "Ironically, it not replicated well, but done significantly outperform his benchmark. So no one really cares. I don't mean not replicated well as a knock. I mean, he's just, he somehow managed to get a high correlation with meaningful alpha to his benchmarks. So people are going, well, this replication thing is really interesting.",
+      "zh": "有意思的是，它复制得并不算精准，但却显著跑赢了他的基准，所以也没人真的在意。我说「复制得不精准」并不是在贬低他，我的意思是他不知怎么就做到了跟基准高度相关、同时又相对基准有明显的 alpha。所以大家就想：嗯，这个复制的东西还挺有意思。"
+    },
+    {
+      "i": 130,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "39:05",
+      "en": "We've now been doing replication for coming up on four years and I think our results speak for themselves in terms of being able to replicate the benchmark and category we're targeting. So I think it's just, with time, people gone, okay, that's good, it's just a question",
+      "zh": "我们做复制到现在快四年了，我觉得在能不能复制我们所瞄准的基准和类别这件事上，我们的结果自己会说话。所以我觉得这只是时间问题，大家会想：好，这挺好的，剩下的问题只是——"
+    },
+    {
+      "i": 131,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "39:19",
+      "en": "of, do I want the category average or do I have conviction in a certain manager? And if someone has conviction in a certain manager, then I'm not going to try to talk them out of it. You know, that's like, that's what they believe. And the weird chicken of the egg thing is you need the managers, right? Yeah.",
+      "zh": "我到底是要类别平均收益，还是我对某个管理人有信心（conviction）？如果一个人对某个管理人有信心，那我也不会去劝他别这么干，你知道，那就是他们相信的东西。而那个奇怪的先有鸡还是先有蛋的问题是：你需要那些管理人，对吧？Yeah。"
+    },
+    {
+      "i": 132,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "39:36",
+      "en": "You can't hold the replicators. You need the managers. Exactly. I need something to replicate at the end of the day. Exactly. I'm ready with my question of like, hey, but you guys use it as a topic. So this is super interesting to me because you probably get this all the time.",
+      "zh": "你不能只持有做复制的人，你需要那些管理人。没错。说到底我得有东西可以复制。没错。那我准备好我的问题了：嘿，可你们的产品本身就是股票加趋势。所以这对我来说超级有意思，因为你大概经常被人问到这个。"
+    },
+    {
+      "i": 133,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "39:49",
+      "en": "Like, hey, I have my return stack stocks plus trend, half of it's stocks or 100% stocks. And then you have stocks and trend. Why the double up in exposure, like we just saw we're recording on November or whatever. I can't read six, right? Yesterday, big, down day in stocks trend was long stocks.",
+      "zh": "就是：嘿，我有我的收益叠加组合，股票加趋势，其中一半是股票，或者 100% 是股票，然后你的产品里又有股票又有趋势。为什么要重复叠加这个敞口？就像我们刚看到的——我们录制的时候是 11 月几号来着，我看不清，6 号吧？昨天股市大跌，而趋势策略当时是做多股票的，"
+    },
+    {
+      "i": 134,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "40:12",
+      "en": "Last loss as well with some energy and stuff too. So that people get upset, hey, why don't you take out the stock? So that got talked a little bit on the panel, but what was your, what's your takeaway on that whole concept? Well, I, I think it's to myopic, right?",
+      "zh": "还做了一些能源之类的，所以也亏了。于是大家就会不满：嘿，你们为什么不把股票那块拿掉？这个话题在那场圆桌上也聊到了一点，但你对这整套说法的结论是什么？嗯，我觉得这个看法太短视了，对吧？"
+    },
+    {
+      "i": 135,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "40:26",
+      "en": "I think we're overly focused on the product and not thinking about the portfolio. So what do I mean by that? We have a stocks plus manage futures fund. We also have a bonds plus manage futures fund. And if someone says to me, they have no problem with equities being in my bonds plus",
+      "zh": "我觉得大家过度聚焦在产品上，而没有去想整个组合。这话什么意思？我们有一只「股票+管理期货」基金，也有一只「债券+管理期货」基金。如果有人跟我说，他对我的「债券+"
+    },
+    {
+      "i": 136,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "40:42",
+      "en": "manage futures fund, but they do have a problem with it being in my stocks plus manage futures fund, it means that they're focused on the line item and not about what this does at the portfolio level, right? Because if you have a 6040 and you want to manage futures overlay, well, you can either",
+      "zh": "管理期货」基金里有股票没有意见，但对我的「股票+管理期货」基金里有股票就有意见，那说明他关注的是单个条目（line item），而不是这个东西在组合层面起了什么作用，对吧？因为如果你有一个 60/40，又想要管理期货的叠加层，那你要么"
+    },
+    {
+      "i": 137,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "40:55",
+      "en": "sell some of your stocks and buy my stocks plus manage futures fund, or you can sell some of your bonds and buy to my bonds plus manage futures fund. Both of them are going to give you the identical manage futures overlay on top of your portfolio. Right? So you can't say you like the equities in one and not in the other.",
+      "zh": "卖掉一部分股票去买我的「股票+管理期货」基金，要么卖掉一部分债券去买我的「债券+管理期货」基金。这两者给你的，是完全相同的、叠加在你组合之上的管理期货层，对吧？所以你没法说你喜欢其中一个里的股票、却不喜欢另一个里的股票。"
+    },
+    {
+      "i": 138,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "41:13",
+      "en": "It's not really sort of a cohesive or coherent argument at the portfolio level. So then the question becomes, okay, do you want equities in the manage futures overlay at the portfolio level, right? Are you going to have the same answer if you're an 80% stock, 20% bond client allocator,",
+      "zh": "这在组合层面并不是一个自洽、连贯的论点。所以问题就变成了：好，那你在组合层面上，到底想不想在管理期货叠加层里包含股票，对吧？如果你是一个 80% 股票、20% 债券的配置者，你的答案会一样吗？"
+    },
+    {
+      "i": 139,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "41:34",
+      "en": "or if you're a 20 stock 80% bond allocator, like does that change your preference? That's sort of the next level of questioning. And the reality is what we found, and I think Quantico probably is the best published research on this, is like, yes, if you take equities out, you do reduce your correlation to equities",
+      "zh": "还是说如果你是 20% 股票、80% 债券的配置者，这会不会改变你的偏好？这是下一层次的追问。而现实是，我们发现的——我觉得 Quantico 大概是这方面发表过的最好的研究——就是：是的，如果你把股票拿掉，你确实会降低自己与股票的相关性，"
+    },
+    {
+      "i": 140,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "41:54",
+      "en": "on average over time that just makes sense. But you lose part of the diversification and you lose some of your return driver and the sharp of the trend program goes down. And so, yes, you might have to suffer at the line item level, a little bit more volatility",
+      "zh": "长期平均来看这是说得通的。但你会失去一部分分散化，也会失去一部分收益来源，趋势项目的夏普比率会下降。所以，是的，在单个条目层面你可能得忍受多一点波动，"
+    },
+    {
+      "i": 141,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "42:10",
+      "en": "as markets turn over, but at the portfolio level, we think a manage futures program that includes equity indices is a more fulsome program that has a higher sharp and is just overall a better, better program than one that doesn't have it. A more fulsome program? It's a good, good poem. I hear those three and five year. Yes.",
+      "zh": "因为市场会转向；但在组合层面，我们认为一个包含股票指数的管理期货项目，是一个更完整的项目，夏普比率更高，整体上比不含股票的项目更好。「一个更完整的项目」？这话不错，是好句。[我看到]那些三年、五年[期的数字]。Yes。"
+    },
+    {
+      "i": 142,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "42:32",
+      "en": "Three and downstairs. So working from home. The here, but, yeah, I guess I still, but you still get that question. People want, like, it just, like, clicks in their brand of, like, oh, I don't want to be doubled up. You're like, well, I think it came up a lot after the tear of tantrum loss, but I guess two",
+      "zh": "三年、[还有下行的那些]……我现在在家办公呢。但 yeah，我想你大概还是会被人问到这个问题。大家就是——这在他们脑子里一下就点着了：「哦，我不想被双倍叠加。」你就会说：嗯……我觉得这个疑问在关税风波（tariff tantrum）那波亏损之后被问得特别多，但我想是两"
+    },
+    {
+      "i": 143,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "42:49",
+      "en": "springs ago, 20, 25, right, when you launched and got kicked in the, yeah, I mean, it was about a year and a half after we launched, right? But what happened there is equities sold off, and at the same time, like when after prolonged equity, equity, bull market, no surprise, you, you're bold up in equities in the trend program.",
+      "zh": "个春天之前，2025 年，对吧？你们刚发产品就被狠狠踢了一脚。Yeah，我是说，那大概是我们发行之后一年半左右，对吧？当时发生的是股票大跌，同时——在一轮漫长的股票牛市之后，毫不意外，你在趋势项目里是超配股票的。"
+    },
+    {
+      "i": 144,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "43:09",
+      "en": "When they rolled over, equities might have lost 15 or 10 to 15 and trend lost 10 to 15, but it wasn't just the equities that got kicked in the teeth. It was like copper got kicked in the teeth and bonds got kicked in the teeth. And it was like, even when you remove the equities, there are other macro trades that are",
+      "zh": "当股票转向的时候，股票可能跌了 15%，或者说 10% 到 15%，趋势也亏了 10% 到 15%。但被打得满地找牙的不只是股票，铜也被打得满地找牙，债券也被打得满地找牙。所以说，即使你把股票拿掉，还有其他的宏观交易"
+    },
+    {
+      "i": 145,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "43:26",
+      "en": "happening at the same time that are often losing money as well. And so, okay, if I get rid of the equities, I'm just increasing my risk allocation to all this other stuff and all that other stuff isn't always uncorrelated to equities in a drawdown. Most people say, well, it's not equities.",
+      "zh": "在同时发生，而且往往也在亏钱。所以，好吧，如果我把股票去掉，我只是把风险配置提高到了所有其他的东西上，而那些东西在回撤里也并不总是与股票不相关。大多数人会说：嗯，那不是股票，"
+    },
+    {
+      "i": 146,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "43:41",
+      "en": "So it has a higher chance of being uncorrelated and that's true. But what we find during these periods of like big macroeconomic volatility is the number of regime bets that are being taken within a man's huge fund shrinks dramatically. And like, it doesn't matter whether it's like your bonds or currency or certain commodities",
+      "zh": "所以它更有可能不相关——这话没错。但我们发现，在这种宏观经济波动很大的时期，一只管理型基金内部所下的、基于宏观状态（regime）的下注数量会急剧收缩。而且不管它是债券、货币还是某些大宗商品，"
+    },
+    {
+      "i": 147,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "44:01",
+      "en": "or equities. Like, they're just such highly correlated bets to one another. You can often end up in the exact same position and that's counterintuitive, I think, to a lot of people, but that's just how the empirical data plays out. That's a great point. Yeah. Okay. Great. Now, you took it out and you're, well, there's two points to me.",
+      "zh": "或者股票，它们彼此之间的相关性就是高得惊人。你常常会落到完全相同的头寸上，我觉得这对很多人来说是反直觉的，但实证数据就是这样表现的。这点说得非常好。Yeah。好，很好。那么，如果你把股票拿掉，你就……嗯，对我来说这里有两个要点。"
+    },
+    {
+      "i": 148,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "44:21",
+      "en": "We have some extra exposure, but it's probably no more than 5, 10, 15% max, maybe of that trend exposure, right? The equity piece. It depends. Honestly, it depends on the time here. There's certainly been times where our trend program has come close to an extra 100% notion of equity. Right? That's what we'll cap out.",
+      "zh": "我们确实有一些额外的敞口，但大概最多不会超过趋势敞口的 5%、10%、15%，对吧？就是股票那一块。这要看情况，说实话要看时点。当然也有一些时候，我们的趋势项目接近额外 100% 的股票名义敞口，对吧？那是我们的上限。"
+    },
+    {
+      "i": 149,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "44:39",
+      "en": "But it can absolutely happen. But, you know, again, that just says we think equities are a great place to be. And it doesn't mean there isn't some offsetting debt in some other market. Right. Temporary, like if it switches, then we'll be on the other side. Yeah, exactly.",
+      "zh": "但这绝对可能发生。不过你知道，这也只说明我们当时认为股票是个很好的位置，而且并不意味着在别的市场上没有相反方向的抵消头寸。对。是暂时的，如果它切换了，我们就会站到另一边去。Yeah，没错。"
+    },
+    {
+      "i": 150,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "44:54",
+      "en": "Next panel after some coffee breaks, the, and these guys were my favorite when you brought actual advisors on the stage. Yeah. And they were sharing how they implemented, how what clients are asking for, how they put it into portfolios. Part of me, as much as I love the institutional guys, part of me just wanted to have advisors",
+      "zh": "接下来是茶歇之后的那场圆桌——这些人是我最喜欢的，因为你们把真正的理财顾问请上了台。Yeah。他们在分享自己是怎么落地的、客户在问什么、他们怎么把这些放进组合里。我有一部分——虽然我很喜欢那些机构人士——我有一部分就想让理财顾问"
+    },
+    {
+      "i": 151,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "45:22",
+      "en": "telling those stories all day, because they're more real, right? They're like connecting with me more. But yeah, what were your thoughts on all those guys? That was the one guy when I asked the question. He said, oh, I recognize that once, then I asked him after and he's like, yeah, I listened to you in the gym.",
+      "zh": "在那儿讲一整天的故事，因为他们更真实，对吧？他们更能跟我产生连接。但 yeah，你对那几位怎么看？有一位，我提问的时候他说：「哦，我认得这个声音。」后来我去问他，他说：「Yeah，我在健身房听你的节目。」"
+    },
+    {
+      "i": 152,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "45:37",
+      "en": "I'm like, that freaks me out a little. I don't know. I don't want to know where you listen to me. Yeah. Same for my podcast. I don't need to know where you're listening. Yeah. I mean, look, those were probably the two panels, other than Cliff, which everyone loves talking about Cliff. Yeah.",
+      "zh": "我就想，这让我有点毛骨悚然。我不知道……我不想知道你是在哪儿听我的。Yeah。我的播客也一样，我不需要知道你在哪儿听。Yeah。我是说，你看，除了 Cliff 那场——每个人都爱聊 Cliff——那两场大概是"
+    },
+    {
+      "i": 153,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "45:50",
+      "en": "Those panels with those advisors were the panels we got the most positive feedback about because again, that's like, they touched on the pragmatic realities of running money and how they think about using return stacking within their business. And when you have an audience that's predominantly RIAs, right, that's the language they speak.",
+      "zh": "我们收到最正面反馈的圆桌，因为同样地，它们触及了管理资金的现实层面，以及他们怎么思考在自己的业务里使用收益叠加。而当你的听众主要是 RIA（注册投资顾问）的时候，对吧，那就是他们的语言。"
+    },
+    {
+      "i": 154,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "46:12",
+      "en": "I can talk about these ideas in theory all day long. But what's more valuable to these RIAs is hearing how another RIA is using it in one case, how they're using it to try to make their entire business more resilient by making client portfolios more resilient.",
+      "zh": "我可以一整天都在讲这些理念的理论层面，但对这些 RIA 来说更有价值的是听到另一家 RIA 是怎么用它的：一个案例是他们如何用它让自己整个业务更有韧性（resilient），办法是让客户的组合更有韧性；"
+    },
+    {
+      "i": 155,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "46:32",
+      "en": "And in the second case, how they used it to win a big client account by operating a differentiated idea compared to their competitors, right, and that's meaningful stuff for an advisor in the audience. This isn't solely about what it does for the client. That obviously should come first and foremost.",
+      "zh": "另一个案例是他们如何用它赢下一个大客户，靠的是相对竞争对手做出差异化的想法，对吧？这对台下的理财顾问来说是很实在的东西。这不仅仅关乎它为客户做了什么——那当然应该放在第一位。"
+    },
+    {
+      "i": 156,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "46:51",
+      "en": "These are some of the, yeah, I mean, these are some of the knock-on effects that are important to these advisors who are running businesses. And so those were, we were really, really happy with how those panels turned out. And certainly something we plan on expanding next year's symposium.",
+      "zh": "这些是……yeah，我是说，这些是对那些在经营企业的理财顾问来说很重要的连带效应（knock-on effects）。所以那两场圆桌的结果我们真的非常满意，明年研讨会我们肯定计划把它扩大。"
+    },
+    {
+      "i": 157,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "47:07",
+      "en": "And then the first guy, and I'm not sure if we're supposed to share their names, so I'm not sharing them. But it was interesting. They're both from NAPA area where it winds down 25%, so I had some interesting conversations with them after about that. But he had a whole couple of slides on which MedFavor brought up 10 years ago or so.",
+      "zh": "然后第一位嘉宾——我不确定我们是不是应该说出他们的名字，所以我就不说了。但很有意思：他们俩都来自 Napa 那一带，[提到]缩水 25% 什么的，所以我事后跟他们聊了几句，挺有意思。但他有好几张幻灯片讲的是 Meb Faber 大概 10 年前提出的那个观点。"
+    },
+    {
+      "i": 158,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "47:27",
+      "en": "I'm like, hey, Mr. Advisor, you're quadruple levered to the stock market and most don't realize it, right? You've got your business, your clients' money, your money. I can't remember what the fourth thing is, but he had a nice charts of actually laying",
+      "zh": "就是说：嘿，顾问先生，你对股票市场是四倍杠杆，而大多数人根本没意识到，对吧？你有你的业务、你客户的钱、你自己的钱……第四样我记不清了，但他有很不错的图表，把这个"
+    },
+    {
+      "i": 159,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "47:40",
+      "en": "out that and why you need to do something about it, because it's going to hurt more than just your clients that hurts your bottom line, too. Yeah. This is something, I know, MedF has talked about for years. It's actually something I've also talked about for years where it's like, you expect",
+      "zh": "完整地列了出来，以及你为什么必须对此做点什么，因为它伤害的不只是你的客户，它也会伤到你的利润底线。Yeah。我知道 Meb Faber 讲这个讲了很多年，其实我自己也讲了很多年：就是你会"
+    },
+    {
+      "i": 160,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "47:55",
+      "en": "a portfolio manager to have 100% of their own money in their strategy, and I always thought that was kind of insane. It's like, well, if anyone's willing to do that, is it a sign of their own belief or just a lack of understanding of risk? Do you want someone to put 100% of their retirement, and what is that going to do to how they're",
+      "zh": "要求一个组合经理把自己 100% 的钱都放在他自己的策略里，我一直觉得这有点疯狂。就是说：如果一个人愿意这么做，这到底是他对自己有信念的表现，还是仅仅说明他不理解风险？你真的希望一个人把自己 100% 的退休金放进去吗？这会怎么影响他"
+    },
+    {
+      "i": 161,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "48:11",
+      "en": "going to manage the money, right? There are adverse effects of that, so anyway, so I think sometimes in this industry, we don't always consider sort of like what these choices have on our business values or anything like that. So for the advisors to hear, like, hey, by the way, the more resilient you make client",
+      "zh": "管理这笔钱的方式，对吧？那是有负面效应的。总之，我觉得有时候在这个行业里，我们并不总是会考虑这些选择会对我们的业务价值等等产生什么影响。所以对理财顾问来说，听到「嘿，顺便说一句，你把客户组合做得越"
+    },
+    {
+      "i": 162,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "48:28",
+      "en": "portfolios to draw downs, the more resilient your revenue is, the easier it is to get alone. Like, all of that stuff has knock-on effects, and again, as long as you're starting from a place of trying to do better for the client, trying to make them adding some weird thing just to save the business.",
+      "zh": "有回撤韧性，你的收入就越是更有韧性，日子也越好过」，所有这些都有连带效应。而且同样，只要你的出发点是想为客户做得更好，而不是为了保住生意硬塞一些奇怪的东西进去。"
+    },
+    {
+      "i": 163,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "48:46",
+      "en": "We're trying to make the client portfolio more resilient to economic and inflationary shocks. Great. That makes my business more resilient to economic and inflationary shocks, and man, if the advisor down the street's business loses 50% of its revenue during a big draw down, maybe I can buy them at a point-to-weekness.",
+      "zh": "我们是在努力让客户组合对经济冲击和通胀冲击更有韧性。很好。这也让我的业务对经济冲击和通胀冲击更有韧性；而且，天哪，如果街对面那家顾问公司在一轮大回撤里收入少了 50%，也许我就能在他们最虚弱的时候把他们买下来。"
+    },
+    {
+      "i": 164,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "49:05",
+      "en": "You know, like, all that sort of economic opportunity comes up in full alignment with doing better for the client, which I think is like unique, but also really profound. And that was something I think that really came through in, and he had just two mails",
+      "zh": "你知道，所有这些经济上的机会，都是跟「为客户做得更好」完全一致地出现的，我觉得这一点很独特，但也非常深刻。我认为这一点在那场里真的体现出来了，当时就是两位[嘉宾]"
+    },
+    {
+      "i": 165,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "49:21",
+      "en": "who did the conversation, and he had this great framework of regime sensitivity of the different portfolios they were building, and they were trying to move to a much more resilient score across all regimes. Yeah. I hadn't seen that done before, but it was like, okay, you know, you don't just show up",
+      "zh": "在做那场对话，其中他有一个很棒的框架，衡量他们在构建的不同组合对各种宏观状态（regime）的敏感度，他们在努力把组合在所有状态下的韧性得分大幅提高。Yeah。我以前没见过有人这么做。但这就变成：好，你知道，你不能只是站出来说"
+    },
+    {
+      "i": 166,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "49:41",
+      "en": "and be like, hey, we want to make sure you're comfortable and retirement. Okay. What does that really mean? And he actually threw each regime, which was basically like booming market, inflation, deflation, whatever, a score for each investment in the portfolio, for each of those regimes,",
+      "zh": "「嘿，我们想确保你退休过得舒服」。好，那这到底是什么意思？他真的给每一种状态——基本上就是市场繁荣、通胀、通缩等等——给组合里的每一项投资在每种状态下都打了一个分，"
+    },
+    {
+      "i": 167,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "49:57",
+      "en": "and then some of them up and be like, we're way over here, we're way over here. Yeah. I know he went to the firm because he was recently acquired, and he went to the parent company and said, hey, by the way, we're this big multi-billion dollar shop. Here's a projection of revenue.",
+      "zh": "然后把它们加总起来，说：「我们严重偏向这边，我们严重偏向这边。」Yeah。我知道[他这么做是因为]他们公司最近被收购了，他就去找母公司说：嘿，顺便说一下，我们是一家管理着几十亿美元的大公司，这是我们的收入预测。"
+    },
+    {
+      "i": 168,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "50:12",
+      "en": "Let me show you what happens to this revenue in these different stress periods if we don't make our portfolios more resilient. You know, we're going to lose tens of millions of dollars of revenue in a 2008. Like, can we survive that? Do you want to survive that? That's the nature of the business.",
+      "zh": "让我给你看看，如果我们不让组合更有韧性，在这些不同的压力时期这份收入会发生什么。你知道，在一次 2008 那样的危机里我们会损失几千万美元的收入。那么，我们能扛过去吗？你们想扛过去吗？这就是这门生意的本质。"
+    },
+    {
+      "i": 169,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "50:30",
+      "en": "And if we make these adjustments to client portfolios, here's an expectation, not only potentially, by the way, how these portfolios can grow faster, we're talking about diversification for protection. Diversification, when used as an overlay, can also enhance returns potentially.",
+      "zh": "而如果我们对客户组合做这些调整，这是一个预期——顺便说一句，不只是这些组合可能增长得更快；我们讲的是用分散化来做保护，但分散化当作叠加层来用的时候，也有可能提升收益。"
+    },
+    {
+      "i": 170,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "50:46",
+      "en": "But purely on the protection side, what happens if we reduce our drawdown by 10% compared to our benchmark, compared to our competitors? How much of a better position does that put us in just from an economic perspective? Yeah. Super interesting. And then the second guy of this helps win clients. It's a little weird, right?",
+      "zh": "但纯粹从保护这一侧看：如果我们的回撤相比基准、相比竞争对手减少了 10%，那仅从经济角度来讲，这会把我们放到一个好得多的位置上。Yeah。特别有意思。然后第二位嘉宾讲的是这有助于赢得客户。这有点怪，对吧？"
+    },
+    {
+      "i": 171,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "51:06",
+      "en": "We've got a lot of investors who listen here, not just advisors, but they're not just worried about helping. They are worried about helping the client, but how do you win new business? So that was interesting. If you just come to them with the same stuff, they're not paying attention.",
+      "zh": "我们这儿有很多听众是投资者，不只是理财顾问。但他们担心的不只是「怎么帮到客户」，还有「你怎么赢得新业务」。所以那段挺有意思的：如果你只是拿着同样的东西去找客户，他们根本不会在意。"
+    },
+    {
+      "i": 172,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "51:20",
+      "en": "Yeah, this was a very specific case where there was a family that they were working with part of the family. They didn't have all the family's money, there was a bunch of siblings. And in part of the estate plan included this, something called a flat, charitable lead",
+      "zh": "Yeah，这是一个非常具体的案例：有一个家族，他们服务的是这个家族的一部分，并没有拿到这个家族所有的钱，因为有一堆兄弟姐妹。而这个遗产规划（estate plan）的一部分，包含了一种叫做「固定慈善领"
+    },
+    {
+      "i": 173,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "51:35",
+      "en": "and nudity trust, I think is what it stands for when these clats have very specific rules about how the money has to be distributed and whatever's left over after these mandatory distributions can be given to be bequeathed to the beneficiaries of the trust tax-free.",
+      "zh": "先年金信托」（charitable lead annuity trust，CLAT）的东西，我想缩写是这个。这类 CLAT 对钱怎么分配有非常具体的规定，而在这些强制分配之后剩下的部分，可以免税地留给信托的受益人。"
+    },
+    {
+      "i": 174,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "51:52",
+      "en": "And so the idea is, let's say you've stuffed 10 million into the clat, if you can outgrow the mandatory distributions, meaningfully, now you have to make the distributions, but if you can outgrow the distributions meaningfully, you then can pass down quite a bit of money.",
+      "zh": "所以这个思路是：假设你往 CLAT 里塞了 1000 万，如果你能显著跑赢那些强制分配——你当然必须做这些分配——但如果你能显著跑赢它们，那你就能往下传承相当多的一笔钱。"
+    },
+    {
+      "i": 175,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "52:07",
+      "en": "So it's a great way to do something charitable, but also it's a way to manage your estate and estate taxes. So you have to balance these two mandates, right? I want to grow this thing as much as possible for the life of the clat, which I believe is 10 years, it's either seven or 10 years, while knowing I have to make distributions.",
+      "zh": "所以这是做慈善的一个好办法，但同时也是管理你的遗产和遗产税（estate tax）的一种方式。于是你必须平衡这两个任务，对吧？我想在 CLAT 的存续期内尽可能把它做大——我记得是 10 年，要么是 7 年要么是 10 年——同时我知道我必须做分配。"
+    },
+    {
+      "i": 176,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "52:26",
+      "en": "So this is the perfect sequence of returns problem for early retirees, right? Which is, you start taking distributions. In this case, you can't even be flexible about them, you can't adjust them, they have to get paid out. While at the same time, like the people who are inheriting this money, want it to grow",
+      "zh": "所以这就是提前退休者的完美「收益顺序问题」（sequence of returns problem），对吧？就是你开始往外取钱了。在这种情况下，你甚至没有一点弹性，你不能调整这些分配，它们必须付出去。与此同时，将来要继承这笔钱的人又希望它"
+    },
+    {
+      "i": 177,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "52:44",
+      "en": "as much as possible over that period. But if you take the max growth plan, you could suffer a drawdown early on that could make it so there's no money left. There's no money left. You permanently impair the clat and all of it gets spent in these distributions.",
+      "zh": "在这段时间里尽可能增长。但如果你采取最大增长的方案，你可能在早期就遭遇一轮回撤，导致最后没钱剩下。没钱剩下了。你就永久性地损害了这个 CLAT，所有的钱都在这些分配里被花光了。"
+    },
+    {
+      "i": 178,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "52:58",
+      "en": "But you just have it in bonds that can pay the distributions, then you're back to zero period. Exactly. So this was a question of, okay, can we think about, instead of just everyone coming at this saying, well, let me give you a 60, 40 stock bond mix, how can we think about",
+      "zh": "但如果你就把它全放在能付分配的债券里，那又回到了零增长。没错。所以这就是一个问题：好，我们能不能想一想——而不是所有人都上来说「那我给你一个 60/40 的股债组合吧」——我们怎么才能"
+    },
+    {
+      "i": 179,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "53:12",
+      "en": "building an optimal mix and then adding some overlays that can both add resiliency for that sequence of return risk and over a five, 10 year period have a very good chance of generating some positive access returns. Combining things like merger are been trend and gold and that stuff and saying, 10 years",
+      "zh": "构建一个最优的组合，然后再加一些叠加层，既能对那种收益顺序风险增加韧性，又能在 5 年、10 年的周期里有很大的概率产生一些正的超额收益（excess returns）？把并购套利、趋势、黄金这些东西组合起来，然后说：10 年"
+    },
+    {
+      "i": 180,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "53:31",
+      "en": "from now, I'm pretty sure this combination should add 100, 200, 300 basis points of annualized return per dollar, notional. And that's, I think, again, just gave them the ability to go to the client with a totally novel solution that no other advisor could compete with and they won the business. Yeah.",
+      "zh": "之后，我相当确定这个组合每 1 美元名义本金应该能增加 100、200、300 个基点（bps）的年化回报。我觉得这同样给了他们一种能力：拿着一个全新的解决方案去找客户，别的顾问完全没法竞争，于是他们赢下了这块业务。Yeah。"
+    },
+    {
+      "i": 181,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "53:53",
+      "en": "Does it ever, you ever sit back and be like, I actually have the easier job being a client and running all these models and all this then the advisor has to be like tax expert, investment expert, structuring expert, and then throw in psychologists, right? The market's down. They're on the phone all day talking to the client. Yeah. Yes.",
+      "zh": "你有没有过那种时候，往后一靠，心想：其实我这份活儿更容易——我就是跑跑这些模型什么的；而理财顾问得当税务专家、投资专家、结构专家，然后还得再加个心理医生的角色，对吧？市场一跌，他们整天都在电话上跟客户聊。Yeah。是的。"
+    },
+    {
+      "i": 182,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "54:14",
+      "en": "There are so many of these unique structures like a clap that these advisors deal with that I've never even heard of, right? Like we all live, we all sort of live in our own unique silos in the world of investments. I mean, sometimes I'll go talk to people who do private investments and they're using",
+      "zh": "这些理财顾问要处理的独特结构实在太多了，比如 CLAT 这种，我甚至从来没听说过，对吧？我们其实都各自生活在投资世界里自己独特的信息孤岛上。我是说，有时候我去跟做私人投资的人聊天，他们用的"
+    },
+    {
+      "i": 183,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "54:30",
+      "en": "a lingo that I've never heard of, you know, someone who works in bankruptcy areas, like it's just totally different and we all, we all think we know it all and then you go, you go outside your realm and you're like, I already heard some of these phrases. I'm going to recommend that come up with a better name than clap. Yeah.",
+      "zh": "那些行话我从来没听过，你知道，做破产领域的人，那就完全是另一个世界。我们总觉得自己什么都懂，然后一走出自己的地盘就会想：这些说法我一个都没听过。我要建议他们给 CLAT 起个比这更好的名字。Yeah。"
+    },
+    {
+      "i": 184,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "54:49",
+      "en": "I mean, you know, I'll say I just put together an illit for my, for my kids, an irrevocable life insurance trust and it's like one of those like, I can't ill it. Like can we get ill it? I mean, I guess irrevocable life insurance trust, but like, we need a better name. Yeah. What do you fish in for today? I have some ill it. Some ill it.",
+      "zh": "我是说，你知道，我就说我自己刚给我的孩子设了一个 ILIT，也就是不可撤销人寿保险信托（irrevocable life insurance trust），它就是那种——「I can't ILIT」——我们能不能来个「ILIT」的说法？我是说，好吧，不可撤销人寿保险信托，但我们需要一个更好的名字。Yeah。那你今天要点什么？我这儿有点 ILIT。来点 ILIT。"
+    },
+    {
+      "i": 185,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "55:10",
+      "en": "Hoping to grab some ill it down here. And that was it. Then there was cliff. You're going to do it again. Is this going to be an annual? I feel like this is a curse that I got into with my podcast, which I'm sure you, maybe you deal with the same thing is I did the first season of my podcast and went, man,",
+      "zh": "希望在这儿能搞到点 ILIT。然后就这些了，接着就是 Cliff 那场。你还会再办一次吗？这会变成年度活动吗？我觉得这是我做播客给自己招来的一个魔咒，我猜你可能也有同样的体会：我做完播客第一季的时候心想，天哪，"
+    },
+    {
+      "i": 186,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "55:33",
+      "en": "that was a lot of work and I'm not doing that again. Then the feedback was so good. I was like, well, I guess I'll do a second season and the feedback was good. No. I can do a third season. So, yeah. You know, at least you do seasons. I'm just not always on.",
+      "zh": "这活儿太多了，我不干了。结果反馈特别好，我就想：好吧，那我再做一季；第二季反馈也很好，[那就]再来第三季。所以 yeah。你知道，至少你还分季做，我根本就是不定时上线。"
+    },
+    {
+      "i": 187,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "55:45",
+      "en": "No, now I've given up on seasons and I just do it whenever I want, but I mean, my podcast will never grow because there's no, I'll do six episodes and six weeks and then be gone for six months. It's just totally. Yeah. Really nilly. But as far as the symposium goes, I mean, we grew probably, you know, headcount close",
+      "zh": "不，现在我已经放弃分季了，想做的时候才做。但我是说，我的播客永远长不大，因为完全没有规律：我会六周做六集，然后消失六个月，就是这么随性。Yeah。真的很随性（willy-nilly）。但说到研讨会，我们的规模大概增长了，你知道，人数接近"
+    },
+    {
+      "i": 188,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "56:04",
+      "en": "to 50 to 75 percent year over year. I would hope we do the same next year. I mean, we had a huge number of people that we had to put on the weightless this year simply because of venue capacity. So we got us next year. It's okay. What can that same space be reconfigured to hold more in that room?",
+      "zh": "同比增长了 50% 到 75%。我希望明年也能有同样的增长。今年我们有大量的人只能放进候补名单（waitlist），纯粹是因为场地容量。所以明年我们要看看：行，同一个空间能不能重新布置，好在那个厅里塞下更多人？"
+    },
+    {
+      "i": 189,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "56:24",
+      "en": "What is our real capacity limit comfortably? Do we have to find a new venue? These are great problems to have. It is a huge amount of work. I explained it sort of like planning a wedding. Yeah. You know, the feedback we get, particularly when we're able to get these organic conversations that we're not a part of, right?",
+      "zh": "我们真正舒服的容量上限是多少？我们是不是得换个新场地？这些都是很幸福的烦恼。工作量确实巨大，我把它形容成有点像筹办一场婚礼。Yeah。你知道，我们收到的反馈——尤其是当我们能促成这些我们自己都不参与的、自发产生的对话的时候，对吧？"
+    },
+    {
+      "i": 190,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "56:41",
+      "en": "Be able to say like, hey, this is someone that's been doing returns asking for three years in their business that I know you're new and you're considering it. Go talk to each other. Go ask him the questions that you're not comfortable asking us or go ask the questions",
+      "zh": "能够说：嘿，这位已经在自己的业务里做收益叠加三年了，而我知道你是新手、正在考虑。你们去互相聊聊吧。去问他那些你不好意思问我们的问题，或者去问那些"
+    },
+    {
+      "i": 191,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "56:53",
+      "en": "that you need to ask of another advisor that we're not going to understand about things that you're dealing with and making those connections in person are just hugely valuable to us. We go system at large. So, yeah, we want to continue to do it. We want to continue to do it as much of an open architecture way we can where we, I guess,",
+      "zh": "你需要问另一位顾问、而我们根本不会懂的问题——关于你正在面对的那些事情。让这种连接在线下发生，对我们、对整个生态系统来说都极有价值。所以 yeah，我们想继续办下去，而且想尽可能地用开放架构（open architecture）的方式来办，也就是我猜我们会"
+    },
+    {
+      "i": 192,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "57:11",
+      "en": "invite people who are technically our competitors. But again, my view is the more we can collectively educate the world about this idea. You know, again, the faster we'll increase adoption across the entire space. Yeah. It was like, I was talking with a guy from North Platte, Nebraska, which I'd been to.",
+      "zh": "邀请一些严格来说是竞争对手的人。但同样，我的观点是：我们越是能一起向外界普及这个理念，你知道，整个领域的采用速度就会越快。Yeah。当时我在跟一个来自 Nebraska 州 North Platte 的人聊天，那地方我去过。"
+    },
+    {
+      "i": 193,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "57:30",
+      "en": "It's where there's a huge rail station you can go up in the towers, like a aircraft control tower. So, we were talking about that and then the guys from NAPA. So, I'm like, country-wide, there's people from all over, yeah, which is incredible. And we had people from out of the country and not just my partners, we came in.",
+      "zh": "那儿有一个巨大的铁路编组站，你可以上到塔里，就像飞机控制塔一样。我们就在聊这个，然后还有那几位来自 Napa 的。所以我就想：这真是全国性的，人从各地都来了。Yeah，这太不可思议了。我们还有从国外赶来的人，而且不只是我的合伙人来，"
+    },
+    {
+      "i": 194,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "57:45",
+      "en": "We had people travel from different countries to get there and it's always humbling that people are getting on planes and spending their valuable time with us and so we really want to make sure that they have some valuable takeaways. And the feedback this year was, yeah, we absolutely need to do it again next year.",
+      "zh": "有人从不同的国家飞过来参加，这总会让我觉得很谦卑：大家登上飞机、把他们宝贵的时间花在我们这儿，所以我们真的很想确保他们能带走一些有价值的东西。今年的反馈是：yeah，我们明年绝对要再办一次。"
+    },
+    {
+      "i": 195,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "58:04",
+      "en": "And hopefully we'll continue to just refine and improve the product. So people walk away going like, yeah, I've gone three years in a row and every year I've gotten something really meaningful out of it. And the question, great, right? It wasn't like these are a bunch of wall flowers, just a note.",
+      "zh": "也希望我们能继续打磨和改进这个产品，让大家离场的时候会觉得：yeah，我连着来了三年，每一年都真的收获了一些很有意义的东西。而且提问环节很棒，对吧？台下并不是一群害羞不说话的人（wallflowers），顺便说一句。"
+    },
+    {
+      "i": 196,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "58:19",
+      "en": "Yeah, I told my team, I was like, you all better be prepared to ask questions if no one in the audience will. And I think the vast majority of the time we had to cut questions off, which is a great point. Yeah, exactly. Yeah. And they were good, smart questions, right? I mean, I know I can always count on you, Jeff.",
+      "zh": "Yeah，我跟我团队说过：你们最好都准备好提问，万一台下没人问的话。而且我觉得绝大多数时候我们不得不打断提问，这是个很好的「烦恼」。Yeah，没错。Yeah。而且都是很好的、聪明的问题，对吧？我是说，我知道我永远可以指望你，Jeff。"
+    },
+    {
+      "i": 197,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "58:32",
+      "en": "Like, you got to be there every year because you always ask good questions and you'll make sure the question gets asked. But yeah, I was shocked. I mean, I think with Cliff when I was on stage, I was like, we could probably just sit here for another hour just taking questions from the audience, but I got to get this guy home.",
+      "zh": "你就是每年都得到场，因为你总能问出好问题，而且你会确保那个问题被问出来。但 yeah，我挺吃惊的。我是说，Cliff 那场我在台上的时候就想：我们大概可以再坐一个小时光回答台下提问，但我得把这位送回家。"
+    },
+    {
+      "i": 198,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "58:48",
+      "en": "I was surprised that some young kid was in the audience and just shot a question right at him. I know. I started to give him a little ribbing of like, hold on a second, but yeah, yeah, yeah. You sure that's the question you want to ask? Well, great. Well, thanks for coming on. Congrats on the symposium.",
+      "zh": "我很惊讶，台下有个年轻小孩直接就朝他抛了个问题。我知道。我还开始小小地调侃了他一下：等一下……但 yeah，yeah，yeah，你确定这就是你要问的问题吗？好，太好了。嗯，谢谢你来上节目，恭喜研讨会成功。"
+    },
+    {
+      "i": 199,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "59:02",
+      "en": "Did you do any recordings or anything we can put in the show notes? We did. They're not out yet. Unfortunately, you know, some of our speakers share the recordings. Ironically, they reached out after saying, well, I really hope you recorded that. I would love to share it. And I said, well, you explicitly told us we weren't allowed to.",
+      "zh": "你们有没有做什么录像之类的，可以放到节目笔记里的？有，但还没放出来。遗憾的是，你知道，我们有些演讲嘉宾[不允许]分享录像。讽刺的是，他们事后又来找我们说：「我真的很希望你们录了那段，我太想分享了。」我就说：「呃，你明确告诉过我们不许录。」"
+    },
+    {
+      "i": 200,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "59:19",
+      "en": "So we didn't. You know, I think next year we'll just record everything and let people check in the afterwards. Yeah, delete what they don't want. But yeah, we have some recording. Some sessions will be going out. I guess they'll be on YouTube or share it selectively for people who ask, maybe we can",
+      "zh": "所以我们没录。你知道，我想明年我们就干脆全都录下来，然后让大家事后来审。Yeah，把不想要的部分删掉。但 yeah，我们有一些录像，有些场次会放出来，我猜会放到 YouTube 上，或者有选择地分享给来要的人，也许我们可以"
+    },
+    {
+      "i": 201,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "59:34",
+      "en": "add those to the show notes a little later. Love it. When's your next podcast? Unknown. It's a great question, Jeff. After the holidays. Yeah. Awesome. Thanks. Coming on. Enjoy the weekend. We'll talk to you soon. Appreciate it. As always, Jeff. Great chat. Okay. That's it for the pod. Thanks to Corey. Thanks to RCM for sponsoring.",
+      "zh": "稍后再把那些加到节目笔记里。太好了。你的下一期播客什么时候出？未知。这是个好问题，Jeff。节后再说。Yeah。棒。谢谢你来做客。周末愉快，我们很快再聊。谢谢你，一如既往，Jeff。聊得很开心。好，这期节目就到这儿。谢谢 Corey，谢谢 RCM 的赞助。"
+    },
+    {
+      "i": 202,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "59:58",
+      "en": "Thanks to the return stack team for having me at the symposium. Thanks to Jeff Berger for producing. I think we'll be back next week talking single stock futures for the extended holiday break where we're off from Thanksgiving through Christmas. Peace. We've been listening to the derivative links from this episode will be in the episode",
+      "zh": "谢谢 Return Stack 团队邀请我参加研讨会。谢谢 Jeff Berger 的制作。我想下周我们会回来聊单一股票期货（single stock futures），然后就是超长假期——我们从感恩节一直休到圣诞节。Peace。您正在收听的是 The Derivative，本期节目的链接会放在本频道的节目"
+    },
+    {
+      "i": 203,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "60:22",
+      "en": "description of this channel follow us on Twitter at RCM alt and visit our website to read",
+      "zh": "描述里。请在 Twitter 上关注我们 @RCMAlts，并访问我们的网站，阅读"
+    },
+    {
+      "i": 204,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "60:32",
+      "en": "and show them how to subscribe and be sure to leave comments we'd love to hear from you. This podcast is provided for informational purposes only and should not be relied upon as legal business investment or tax advice. All opinions expressed by podcast participants are solely their own opinions and do not necessarily",
+      "zh": "以及了解如何订阅，也请一定留言，我们很想听到你的声音。本播客仅供参考，不应被视为法律、商业、投资或税务建议而加以依赖。播客参与者表达的所有观点仅代表其个人意见，并不必然"
+    },
+    {
+      "i": 205,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "60:51",
+      "en": "reflect the opinions of RCM alternatives their affiliates for companies featured. Due to industry regulations participants on this podcast are instructed not to make specific trade recommendations nor reference past or potential profits and listeners are reminded",
+      "zh": "反映 RCM Alternatives、其关联公司或节目中提及的公司的观点。由于行业监管要求，本播客的参与者被要求不得给出具体的交易建议，也不得提及过去或潜在的利润；同时提醒听众，"
+    },
+    {
+      "i": 206,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "61:03",
+      "en": "that managed features commodity trading and other alternative investments are complex and carry a risk of substantial losses as such they are not suitable for all investors.",
+      "zh": "管理期货（managed futures）、商品交易以及其他另类投资十分复杂，并存在重大损失的风险，因此并不适合所有投资者。"
+    }
+  ]
+}

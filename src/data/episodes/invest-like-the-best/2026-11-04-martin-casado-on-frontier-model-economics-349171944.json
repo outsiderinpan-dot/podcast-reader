@@ -1,0 +1,2119 @@
+{
+  "show": "invest-like-the-best",
+  "kind": "transcript",
+  "id": "349171944",
+  "slug": "2026-11-04-martin-casado-on-frontier-model-economics-349171944",
+  "date": "2026-11-04",
+  "title_en": "Martin Casado on Frontier Model Economics, AI's Slowdown, and the Cursor Deal - [Invest Like the Best, EP.498]",
+  "title_zh": "Martin Casado 谈前沿模型经济学、AI 增速放缓与 Cursor 收购案",
+  "subtitle_zh": "a16z 的 Martin Casado 拆解前沿模型定价权、护城河迷思、资本约束与战略并购逻辑。",
+  "description": "Martin Casado on Frontier Model Economics, AI's Slowdown, and the Cursor Deal - [Invest Like the Best, EP.498]",
+  "duration": "65:13",
+  "duration_seconds": 3913,
+  "episode_url": "https://www.iheart.com/podcast/256-invest-like-the-best-with-30929543/episode/martin-casado-on-frontier-model-economics-ais-slowdown-and-the-cursor-deal-invest-like-the-best-ep-498-349171944",
+  "audio_url": "https://traffic.megaphone.fm/CLS7412616378.mp3?source=iheart",
+  "speakers": {
+    "1": "Patrick O'Shaughnessy（主持）",
+    "2": "Martin Casado（嘉宾）",
+    "3": "片花/广告（旁白）"
+  },
+  "turn_count": 262,
+  "turns": [
+    {
+      "i": 0,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "00:00",
+      "en": "Ramp is the only platform built to make your finance the leaner, faster and better, saving businesses 5% annually on average so you can stay focused on growth. Ramp customers grow 3.2 times faster than the average American business. Visa, Fersel, Cursor, Stripe, and 70,000 other businesses all run on Ramp.",
+      "zh": "Ramp 是唯一一个专为让你的财务团队更精简、更快速、更出色而打造的平台，平均每年为企业节省 5% 的开支，让你能专注于增长。Ramp 客户的增速是美国企业平均水平的 3.2 倍。Visa、Fersel、Cursor、Stripe 以及其他 70,000 家企业都在使用 Ramp。"
+    },
+    {
+      "i": 1,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "00:18",
+      "en": "Mind those two and so should yours. Learn more at ramp.com Rogo is the AI platform purpose built for financial institutions serving tens of thousands of bankers and investors at hundreds of leading firms worldwide.",
+      "zh": "留意这两点，你的企业也该如此。想了解更多信息，请访问 ramp.com。Rogo 是专为金融机构打造的 AI 平台，为全球数百家领先机构的数万名银行家和投资者提供服务。"
+    },
+    {
+      "i": 2,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "00:31",
+      "en": "Rogo's AI agents autonomously execute large chunk of your firms workflows. They can screen deals, draft sims, run buyer outreach, and do diligence on data rooms. All with full security and compliance handled.",
+      "zh": "Rogo 的 AI 智能体（agents）能自主执行贵公司大量的工作流程。它们可以筛选交易、起草材料、开展买方触达，并对数据室（data room）做尽职调查，同时把安全与合规全都搞定。"
+    },
+    {
+      "i": 3,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "00:43",
+      "en": "Every action feeds Rogo intelligence, the firm's context layer, turning years of deal experience into a secure governed institutional memory that makes each new transaction stronger than the last. To learn more, visit rogo.com slash invest.",
+      "zh": "每一个动作都会汇入 Rogo 的智能层——也就是公司的上下文层，把多年的交易经验转化成一套安全、受治理的机构记忆，让每一笔新交易都比上一笔更强。想了解更多信息，请访问 rogo.com/invest。"
+    },
+    {
+      "i": 4,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "00:58",
+      "en": "Open AI, cursor, and tropic, perplexity, and Versel all have something in common. They all use work OS, and here's why. To achieve enterprise adoption at scale, you have to deliver on core capabilities like SSO, SKIM, RBAC, and audit logs.",
+      "zh": "OpenAI、Cursor、Tropic、Perplexity 和 Vercel 都有一个共同点：它们都在使用 WorkOS，原因如下。要在企业级实现规模化落地，你必须交付一些核心能力，比如 SSO、SCIM、RBAC 和审计日志（audit logs）。"
+    },
+    {
+      "i": 5,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "01:15",
+      "en": "That's where work OS comes in. Instead of spending months building these mission critical capabilities yourself, you can just use work OS APIs to gain all of them on day zero. That's why so many of the top AI teams you hear about already run on work OS.",
+      "zh": "这正是 WorkOS 的用武之地。与其花上几个月自己去搭建这些关键任务级能力，你大可以直接用 WorkOS 的 API，在第零天就把它们全部拥有。这就是为什么你听过的那么多顶尖 AI 团队早就跑在 WorkOS 上了。"
+    },
+    {
+      "i": 6,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "01:29",
+      "en": "Work OS is the fastest way to become enterprise ready, and stay focused on what matters most, your product. Visit work OS.com to get started.",
+      "zh": "WorkOS 是让你的产品最快达到企业级就绪、并专注于最重要的东西——也就是你的产品——的方式。访问 workos.com 即可开始。"
+    },
+    {
+      "i": 7,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "01:42",
+      "en": "You recently wrote about four buckets of styles of investing that might be applied, called adventure. Private market tech, what's called? Can you enumerate those and just like say a sentence on heck of an H?",
+      "zh": "你最近写了一篇文章，讲可以套用到私募市场科技投资上的四种投资风格，好像叫『冒险』（adventure）之类的？你能把这几种列举一下，每种简单说一句话吗？"
+    },
+    {
+      "i": 8,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "01:52",
+      "en": "I'm just in this point in my career. I've been there for a decade. I've had hundreds of deals that I sit in these discussions, and I just realize people aren't communicating very well. Did this exercise where I'm like, what are the mindsets people bring to investing?",
+      "zh": "我只是走到了职业生涯的这个节点。我在这行已经待了十年，经手过几百笔交易，参加过无数次这样的讨论，我就是意识到，大家其实没在好好沟通。于是我做了这么一个练习：人们做投资时，到底带着怎样的心态？"
+    },
+    {
+      "i": 9,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "02:04",
+      "en": "I think there's basically four types of mindsets. The one that we were talking about before is like this traditional finance mindset, which is the correct proxy for the health of a business is the market it's going into and its finances.",
+      "zh": "我觉得基本上有四种心态。我们刚才聊的那一种是传统的金融心态，认为衡量一家公司健康程度的正确代理指标（proxy），是它所在的市场和它的财务数据。"
+    },
+    {
+      "i": 10,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "02:17",
+      "en": "What are the SaaS metrics? What is the size of the market? And that is a proxy for the entire business. So that's what clearly growth investors did this, but like more and more you see early stage series A people do this, which to me is a little bit discorded.",
+      "zh": "SaaS 指标是什么？市场有多大？这些就被当成整门生意的代理指标。所以成长期投资人（growth investors）显然是这么做的，但你会看到越来越多早期、A 轮（Series A）阶段的人也这么干，这在我看来有点错位。"
+    },
+    {
+      "i": 11,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "02:30",
+      "en": "Then there's what I call productive investors, which you believe you're investing in a productive asset and the productive asset is what's creating value. And if you believe in that as it creates value, it will create market. And as it creates value, you're going to have to find ways for the business to catch up to that value.",
+      "zh": "然后是我所说的生产性投资人（productive investors）：你相信自己投的是一项生产性资产，是这项资产在创造价值。如果你相信它创造价值，它就会创造出市场。而随着它创造价值，你得想办法让这门生意追上那份价值。"
+    },
+    {
+      "i": 12,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "02:45",
+      "en": "And so the type of diligence you do if you're a productive investor is more like, what is the technical approach? What are the adjacent markets? How fast is this like we do evolve? How close is it to a capturing value? Like that sort of stuff. Is this the right team to build it?",
+      "zh": "所以，作为一个生产性投资人，你要做的尽调更像是：技术路径是什么？相邻市场有哪些？这东西演化得有多快？它离捕获价值有多近？诸如此类。这是不是能把事情做成的正确团队？"
+    },
+    {
+      "i": 13,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "02:58",
+      "en": "Then there's what I call frontier investing. I think this is the romantic idealized version of VC from like the 60s and 70s, which is kind of yellow. Like founders know better than VCs and they've seen something that I don't see and they're going to go out there and do it and like, who am I to second guess them?",
+      "zh": "然后是我所说的前沿投资（frontier investing）。我觉得这是那种源自六、七十年代、被浪漫化、理想化的风险投资（VC）版本，基本上就是 YOLO（放手一搏）。就像创始人比 VC 更懂，他们看到了我没看到的东西，他们要出去干一番，我又凭什么去质疑他们？"
+    },
+    {
+      "i": 14,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "03:14",
+      "en": "And they almost like talent networks, right? Like I would say critics. And I mean, remember when he was investing in new tropics, he invested in soil and he invested in Oculus, he invested in Coinbase and in crypto.",
+      "zh": "他们几乎就像人才网络，对吧？我是说……我是说，还记得他当年做投资的时候吗，他投了 Anthropic，投了 Sol，投了 Oculus，投了 Coinbase，也投了加密货币。"
+    },
+    {
+      "i": 15,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "03:23",
+      "en": "I mean, it's like every science fiction trope from the 70s and 80s, you kind of invest in and you just don't overthink any of these things. So it's almost like this strong form of the productive. And then the last one and it is always so surprising how prevalent it is is speculative investors. They don't even care about the asset.",
+      "zh": "我是说，简直就是把七、八十年代的每一个科幻桥段都投了个遍，而且你根本不会去过度思考这些东西。所以这几乎是生产性投资的一种强化版。然后最后一种——它的普遍程度总是让我吃惊——就是投机性投资人（speculative investors）。他们甚至不在乎那项资产本身。"
+    },
+    {
+      "i": 16,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "03:41",
+      "en": "They just want to time a market. You'll see this like in crypto and in the secondary markets. They don't know about the underlying asset. They probably don't even know about the actual business metrics.",
+      "zh": "他们只是想给市场择时（time a market）。你会在加密货币和二级市场（secondary markets）里看到这种。他们不了解底层资产，甚至可能连实际的经营指标都不清楚。"
+    },
+    {
+      "i": 17,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "03:51",
+      "en": "But they're like, well, this looks cheap. It's clearly going to go up in value. Oh, this is the top of the market. You know, like I'm going to get out. They're trying to like time markets. They're actually just doing speculative. They're not really interested in like, will the business grow?",
+      "zh": "但他们就是，『嗯，这看起来很便宜，价值明显会涨。哦，这是市场顶部了，你知道吧，我要撤了。』他们想给市场择时。他们其实就是在做投机。他们并不真的关心这门生意会不会增长。"
+    },
+    {
+      "i": 18,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "04:04",
+      "en": "And again, the problem is is if you have all of these art types, you can justify any deal or not justify any deals. If you don't know what your beliefs are, you'll always justify whatever personal bias you have. If you think about yourself as a productive investor focused on, I love this idea that disruptive technologies.",
+      "zh": "再说一遍，问题在于，如果你把这些五花八门的类型全都混在一起，你就能给任何一笔交易找到理由，或者不给任何交易找理由。如果你不知道自己的信念是什么，你永远都会去为个人的偏见辩护。如果你把自己定位成一个生产性投资人，专注于——我很喜欢这个说法——颠覆性技术（disruptive technologies）。"
+    },
+    {
+      "i": 19,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "04:21",
+      "en": "You should not look at some of these traditional things that so many investors talk about. Talk about what you do look at. Like you look at so many companies. What is your method by which to assess whether or not someone might be creating a truly disruptive piece of technology, a valuable asset?",
+      "zh": "那你就不该去看那么多投资人挂在嘴边的传统指标。说说你到底看什么吧。你看过这么多公司，你用什么方法来判断某个人是不是在创造一项真正颠覆性的技术、一项有价值的资产？"
+    },
+    {
+      "i": 20,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "04:37",
+      "en": "So I only do computer science and testing and I only do infrastructure investing and I think infrastructure as an industry has a certain shape. Certain buying behaviors, the technology looks a certain way in the industry acts a certain way.",
+      "zh": "所以我只做计算机科学那一套，我只做基础设施（infrastructure）投资。我认为基础设施作为一个行业，有它特定的形态、特定的采购行为，技术呈现出特定的样子，行业也有特定的运作方式。"
+    },
+    {
+      "i": 21,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "04:51",
+      "en": "And so what you're trying to do is you're trying to take a technical approach and you're trying to map it into that technostrategic framework. And the way you do that, there's a number of approaches. One of them you're like, what are the leading companies doing internally?",
+      "zh": "所以你要做的，是拿一种技术路径，去把它映射进那个『技术—战略』框架里。做法有很多种。其中一种是：领先的公司内部在做什么？"
+    },
+    {
+      "i": 22,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "05:02",
+      "en": "And this will give you a glimpse on maybe this is how platforms evolve. Or perhaps the team that is doing this didn't it another context and now they're actually bringing it to this context. I think it's one of these things where like how much can you diligence without actually just using the numbers for a proxy?",
+      "zh": "这能让你瞥见，也许平台就是这样演化的。又或者，正在做这件事的团队，曾在别的场景里做过它，如今把它带到了这个场景里。我觉得这是那种『在不直接拿数字当代理指标的情况下，你到底能做多少尽调』的问题。"
+    },
+    {
+      "i": 23,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "05:20",
+      "en": "You can talk to customers will they use this? You can see if there's like adjacent budgets that are growing that could argue will fragment to become this. Or maybe you have early signs of willingness to pay but they actually haven't figured out the business model.",
+      "zh": "你可以去问客户，他们会不会用这个？你可以看看有没有正在增长的相邻预算，可以论证它会分裂出来变成这个东西。又或者，你也许已经看到早期付费意愿的信号，但他们其实还没想清楚商业模式。"
+    },
+    {
+      "i": 24,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "05:34",
+      "en": "I was thinking every tech wave, you know, been in the industry for 30 ways, every tech wave. People like hand ring about margins. I can't remember for the cloud. I remember from over I remember for the internet clearly now people worry about margins. So maybe you're like, there's a willingness to pay.",
+      "zh": "我一直在想，每一波科技浪潮——你知道，我在这行待了三十年，每一波科技浪潮，人们都会为利润率（margins）捶胸顿足。云的那波我不太记得了，我记得……互联网的那波我印象很深，如今人们又在担心利润率。所以也许你会想，付费意愿是有的。"
+    },
+    {
+      "i": 25,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "05:50",
+      "en": "And there's a lot of interest but we haven't figured out the cogs yet in the actual viable business model. So like you're using partial indicators not full indicators in order to do this. And so my team is a lot of technical people, product people, many have PhDs.",
+      "zh": "也有大量的兴趣，但我们还没搞清楚销货成本（COGS）和真正可行的商业模式。所以你是在用一些局部指标、而不是完整指标来做这件事。我的团队里有很多技术人、产品人，很多人有博士学位（PhD）。"
+    },
+    {
+      "i": 26,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "06:04",
+      "en": "We don't second guess the tech like the founder will know the tech better than us but we can't ask the question, how does this tech fit into the bottom platforms fit into spending? How does this tech fit in with our understanding of stickiness and defensibility?",
+      "zh": "我们不会去质疑技术本身——创始人对技术的理解肯定比我们强——但我们可以问：这项技术怎么嵌进底层平台、嵌进开支里？这项技术跟我们对于粘性（stickiness）和防御性（defensibility）的理解怎么契合？"
+    },
+    {
+      "i": 27,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "06:16",
+      "en": "And then we look at early market numbers and we'll say, hey listen, a financial investor would puket this but it actually shows that the customers are really interested to figure something out and will they be able to figure something out? So there's a lot of diligence you can do.",
+      "zh": "然后我们看早期的市场数据，我们会说，嘿，听着，一个财务型投资人看到这个会想吐，但它其实说明客户是真有兴趣去把某个东西搞明白——而他们能不能搞明白？所以你能做相当多的尽调。"
+    },
+    {
+      "i": 28,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "06:29",
+      "en": "We're with frontier investing. I don't think you do any of that. It's people, is this the best team to do this crazy thing and then you just yellow? You were saying before we hit start that nobody understands network effects. Can you explain what you meant? I've realized that even the most common terms you use, there's no consensus on.",
+      "zh": "而到了前沿投资，我觉得你这些都不做。就是看人，看这是不是做这件疯狂之事的最佳团队，然后你就 YOLO 一把。你在我们开始录之前说，没人真正理解网络效应（network effects），你能解释一下是什么意思吗？我意识到，就连我们最常用的那些术语，其实都谈不上有共识。"
+    },
+    {
+      "i": 29,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "06:44",
+      "en": "And so for example, network effects is the favorite one that I pick up. I asked you before. I messed it up. No, you didn't mess it up. You said what like a third of people say. So I said, so what is a network effect? And what did you say? I said a product that gets better as it adds a marginally user. Right.",
+      "zh": "所以举个例子，网络效应是我最爱挑的一个词。我之前问过你。我把它搞砸了。不，你没搞砸。你说的其实是大概三分之一的人会说的定义。所以我说，那到底什么是网络效应？你当时怎么说的？我说，一个每增加一个边际用户就会变得更好的产品。对。"
+    },
+    {
+      "i": 30,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "07:00",
+      "en": "So to me, this is almost a top logical definition because most products will get better as you add a user, right? They will find a bug. They will provide feedback. They will tell other people that doesn't say anything about defensibility.",
+      "zh": "所以对我来说，这几乎是个拓扑学式（topological）的定义，因为大多数产品在你增加用户时都会变好，对吧？他们会发现一个 bug，会给你反馈，会告诉别人——这其实说明不了任何关于防御性的东西。"
+    },
+    {
+      "i": 31,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "07:13",
+      "en": "But other people when they use the term network effects, they actually mean the original meaning of the term network effect from the 70s, which is a telephone network. Where when users join, they interact with each other that grows super linearly. And that's where you get like natural monopolies.",
+      "zh": "但另一些人用『网络效应』这个词时，他们其实指的是这个词在七十年代的原始含义，也就是电话网络。用户加入后会彼此互动，互动量随人数超线性（super-linearly）增长。这才是你得到天然垄断（natural monopolies）的地方。"
+    },
+    {
+      "i": 32,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "07:27",
+      "en": "And other people use the term network effect more to be like an actual flywheel, so like a self reinforcing flywheel. So not just like things get better, but like it's self reinforces in some sort of a way. This where you hear the term like data network effects.",
+      "zh": "还有人用『网络效应』这个词，更多是指一个真正的飞轮（flywheel），也就是一个自我强化的飞轮。不只是东西会变好，而是它以某种方式自我强化。这就是你会听到『数据网络效应』（data network effects）这个说法的地方。"
+    },
+    {
+      "i": 33,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "07:40",
+      "en": "But even in that sense, like you don't know if that self reinforcement is super linear or not. So you don't know if it makes it defensible or not. So you have this very common word that's on 70% of pitch decks where a founder is sitting in front to hit pitch. And nobody has consensus on what it means. And so how are you to find it?",
+      "zh": "但即便在那个意义上，你也不知道那种自我强化是不是超线性的。所以你不知道它到底能不能带来防御性。于是你就有了这么一个非常常见的词，出现在 70% 的商业计划书（pitch deck）里，创始人坐在投资人面前做路演，可没人对它的含义有共识。那你要怎么据此判断呢？"
+    },
+    {
+      "i": 34,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "07:58",
+      "en": "So I think the root of the confusion is not a definitional problem. I think the root of the confusion is conceptually we conflate the mechanism with the shape of the moat. There's many things that could create a moat, right? Like a brand scale, a two-sided marketplace network effect.",
+      "zh": "所以我觉得，这种混淆的根源不是定义问题。我认为根源在于，我们在概念上把『机制』和『护城河（moat）的形状』混为一谈了。有很多东西都能造出护城河，对吧？比如品牌、规模、双边市场、网络效应。"
+    },
+    {
+      "i": 35,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "08:18",
+      "en": "But that moat, to reason about that, is only really useful if it has some properties that makes the company defensible against somebody else. If that moat grows super linearly with scale, like a classic Metcalf Swann network effect, wood, that's really defensible. If it grows sub-linearly with scale, it may not be useful at all.",
+      "zh": "但那条护城河，你要去推理它，只有当它具备某些属性、能让公司抵御别人时，才真的有用。如果那条护城河随规模超线性增长，就像经典的梅特卡夫定律（Metcalfe's Law）式网络效应那样，那它就非常有防御性。如果它随规模亚线性（sub-linearly）增长，那它可能压根没用。"
+    },
+    {
+      "i": 36,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "08:39",
+      "en": "And so I think to you and I have a conversation of defensibility, I think the first thing we need to do is not conflate the shape of the moat within mechanism that caused it. So first, I think we should say the moat that we have is super linear, it's linear, or it's sub-linear with scale.",
+      "zh": "所以我觉得，你我要聊防御性，第一件事就是不要把护城河的形状和造成它的机制混为一谈。所以首先，我们应该说清楚：我们手上的这条护城河，随规模是超线性、线性，还是亚线性的。"
+    },
+    {
+      "i": 37,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "08:53",
+      "en": "And then the second thing, a lot of things actually contribute to a moat. For example, like we mentioned network effects will or scale effect. What's a scale effect? The scale effect, the scale effect, to me, is as the company scale, it can reduce unit economics normally because it has pricing power.",
+      "zh": "然后第二件事，很多东西其实都在为护城河做贡献。比如我们提到的网络效应，或者规模效应（scale effect）。规模效应是什么？对我来说，规模效应就是随着公司规模扩大，它能降低单位经济（unit economics），通常是因为它有了定价权（pricing power）。"
+    },
+    {
+      "i": 38,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "09:08",
+      "en": "For example, or maybe CAQ goes down because of brand. What's a two-sided marketplace that's very different to me than a network effect? That's where basically you've got self-inforcing supply and demand.",
+      "zh": "举个例子，又或者获客成本（CAC）因为品牌而下降。那双边市场（two-sided marketplace）呢？这在我看来跟网络效应很不一样。双边市场基本上是你有了自我强化的供给和需求。"
+    },
+    {
+      "i": 39,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "09:17",
+      "en": "So I think that there are many mechanisms, and then there's the shape, and then to have a discussion, I think you want to make sure that the shape is something that actually provides long-term defensibility.",
+      "zh": "所以我认为，机制有很多种，然后还有形状，而要展开讨论，我觉得你得确保那个形状是真正能提供长期防御性的东西。"
+    },
+    {
+      "i": 40,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "09:27",
+      "en": "And the last thing I'll say is it's almost impossible to have these conversations in isolation because we're actually talking about competitive equilibrium. Because if you have a network effect, then namely the competitor has a network effect too.",
+      "zh": "最后我想说的是，几乎不可能孤立地进行这些讨论，因为我们其实是在谈竞争均衡（competitive equilibrium）。因为如果你有网络效应，那么说白了，你的竞争对手也有网络效应。"
+    },
+    {
+      "i": 41,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "09:38",
+      "en": "And maybe if they have more capital than you can grow faster, that probably impacts the shape of your moat. You may not grow as fast marginally because they're stealing your customers or something like that.",
+      "zh": "也许如果他们的资本比你多、能增长得更快，那大概率会影响你护城河的形状。你在边际上可能就没法增长得那么快，因为他们在抢你的客户之类的。"
+    },
+    {
+      "i": 42,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "09:49",
+      "en": "And so I just think that we need a very, very basic concept, we need to not conflate the notion of the actual shape with the actual mechanism. And then I think we should enumerate the mechanisms because something like the definition that you had just doesn't really help anybody.",
+      "zh": "所以我就是觉得，我们需要一个非常非常基础的概念：不要把『实际的形状』和『实际的机制』混为一谈。然后我觉得我们应该把这些机制逐一列举出来，因为像你刚才那种定义，其实帮不到任何人。"
+    },
+    {
+      "i": 43,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "10:02",
+      "en": "Can you give examples of super linear linear sub linear just to bring it to life? Yeah, for sure. A common view of where network effects came from was from the 70s. I forgot the name of the economist that did it, but he worked at Bell Labs.",
+      "zh": "你能不能举几个超线性、线性、亚线性的例子，让它更鲜活一点？可以，当然。关于网络效应的一个常见说法源自七十年代。我忘了那位经济学家的名字，但他在贝尔实验室（Bell Labs）工作。"
+    },
+    {
+      "i": 44,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "10:13",
+      "en": "And he noticed for train networks and communications networks, the interactions of users grows with the square of the number of people that join. As a user joins, they can communicate to many other people. So the actual number of connections grows more than the number of users.",
+      "zh": "他注意到，对于铁路网络和通信网络，用户之间的互动量随加入人数的平方增长。一个用户加入后，他能跟很多其他人通信。所以实际的连接数增长得比用户数更快。"
+    },
+    {
+      "i": 45,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "10:31",
+      "en": "Therefore, the value grows more than just legally within adding. The same thing with destinations on a highway or destinations on a train. So that would mean that if you have two competing companies, one takes five million dollars of funding and the other takes five million dollars of funding.",
+      "zh": "因此，价值的增长比单纯随用户线性增长要快。高速公路上的目的地、铁路上的目的地也是同理。所以这意味着，如果你有两家竞争的公司，一家融了 500 万美元，另一家也融了 500 万美元。"
+    },
+    {
+      "i": 46,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "10:47",
+      "en": "But this one is marginally better, marginally larger. This one's a little bit larger. For the same amount of investment, it will grow faster than a challenger. The growth actually increases over time and that's why you get a monopoly.",
+      "zh": "但这一家在边际上更好、更大一点。这一家稍微大一点。对于同样一笔投资，它会比挑战者增长得更快。增长其实是随时间递增的，这就是为什么你会得到一个垄断。"
+    },
+    {
+      "i": 47,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "10:59",
+      "en": "Whereas sub linear means if I'm a leader and I invest the same amount as a challenger, I grow marginally slower than the challenger. That would be sub linear. Clearly, this is very important when it comes to modes because if you have two competing companies and there's a sub linear mode,",
+      "zh": "而亚线性意味着，如果我是领先者，我投同样多的钱，我在边际上的增长比挑战者慢。那就是亚线性。显然，这一点在护城河问题上非常重要，因为如果你有两家竞争的公司，而护城河是亚线性的，"
+    },
+    {
+      "i": 48,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "11:16",
+      "en": "the challenger will always catch up to the leader because the leader has to spend ever more money to grow. All things being equal. Favorite recent company examples of these different types? How many actual network effects in the Metcalfe's Law of Superlinear do you think they've actually been? Very few, I don't know.",
+      "zh": "那么在其他条件相同的情况下，挑战者总会追上领先者，因为领先者得花越来越多的钱才能增长。你最喜欢用哪些近来的公司做例子来对应这些不同类型？你觉得真正符合梅特卡夫定律式超线性的网络效应，实际存在过多少个？非常少，我也不知道。"
+    },
+    {
+      "i": 49,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "11:31",
+      "en": "I feel like this almost never happens. I think we can all agree the telcos. That's why we had to break them up. We could probably all agree LinkedIn. They haven't had to change very much and they seem to have permanent status. Social networking. But all of these examples, it's like the interconnections of people.",
+      "zh": "我感觉这种事几乎从不发生。我觉得我们都能同意电信公司（telcos）算一个，所以我们当年才不得不把它们拆分。我们大概也都能同意 LinkedIn。他们几乎不用怎么改变，却似乎拥有永久的地位——社交网络嘛。但所有这些例子，都是人与人之间的互联。"
+    },
+    {
+      "i": 50,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "11:48",
+      "en": "I would say GitHub was another one that had as effectively interconnections. It's interconnections of users, right? So I think they're not very many examples but when you have them, these are these very durable high value companies. So that to me would be like a classic network effect. Other companies probably are more scale effects.",
+      "zh": "我会说 GitHub 也算一个，它实际上也是互联。它是用户之间的互联，对吧？所以我觉得这样的例子并不多，但一旦你有了，这些就是非常持久、高价值的公司。所以对我来说，那才是经典的网络效应。其他公司可能更多是规模效应。"
+    },
+    {
+      "i": 51,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "12:05",
+      "en": "For example, people will say Uber. I'm not sure that that would fall the definition of a network effect. Maybe a two-sided marketplace because you have the drivers and you have the passengers. Maybe you could use that. But even then, you don't have a lock on either them.",
+      "zh": "举个例子，人们会说 Uber。我不确定那算不算符合网络效应的定义。也许算双边市场，因为你有司机、有乘客。也许你可以用这个说法。但即便如此，你对任何一方都没有锁定。"
+    },
+    {
+      "i": 52,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "12:19",
+      "en": "All drivers drive for everybody and all passengers could use anybody. That was more like a funding scale effect because they could raise more money and therefore the unit economics went down. My meta observation. So first off, I actually think the network effecting was more of a personal annoyance and me being a pedantic.",
+      "zh": "所有司机都给所有人开车，所有乘客也都能用任何一家。那更像是一种融资规模效应，因为他们能融到更多钱，从而单位经济就降下来了。我的一个元观察（meta observation）。首先，我其实觉得网络效应这事儿更多是我个人的一个执念，是我在咬文嚼字。"
+    },
+    {
+      "i": 53,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "12:34",
+      "en": "But I actually think defenseability in most is not really even worth talking about most of the time. Let me explain why. Here's my experience for what it's worth. If a market you're investing in is growing, then companies are not going to want to compete. There's like a lot of new white space that gets created.",
+      "zh": "但我其实觉得，防御性和护城河在大多数时候根本不太值得讨论。让我解释一下为什么。以下是我的经验，姑且一听。如果你投的市场在增长，那么公司之间是不会想去竞争的。会有很多新的空白地带（white space）被创造出来。"
+    },
+    {
+      "i": 54,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "12:49",
+      "en": "And so what they'll try and do is they'll try and just move into other white space. Talk about defenseability is kind of a second or third order thing if the market is growing. And if the market is slowing down or shrinking, normally it consolidates anyways independent of most or not.",
+      "zh": "所以它们会试图做的，就是直接挪进其他空白地带。如果市场在增长，谈防御性其实是第二、第三位的事情。而如果市场在放缓或萎缩，通常不管有没有护城河，它都会走向整合（consolidate）。"
+    },
+    {
+      "i": 55,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "13:04",
+      "en": "And so I do think we spend a lot of time as investors hand ringing about defense ability. When in practice, it doesn't really matter, especially in growing markets which we invest in. And we've seen this with AI. I remember early discussions on models. I could continue how many investors are like, I will never invest in a model.",
+      "zh": "所以我确实觉得，我们作为投资人花了太多时间为防御性捶胸顿足。可在实践中，它其实并不那么重要，尤其是在我们所投的增长型市场里。我们在 AI 上就见过这一幕。我记得早期关于模型的讨论，我能回想起有多少投资人说，我永远都不会投模型。"
+    },
+    {
+      "i": 56,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "13:21",
+      "en": "It'll never occur value. It's not defensible. That's fine. But as long as the market's growing in a large market, it's going to occur a lot of value. I remember this about the neoclouds. It never depends a little. The quality of revenue is bad. I think that we kind of trick ourselves as investors by thinking in terms of defense ability.",
+      "zh": "它永远不会创造价值，它没有防御性。那没关系。但只要市场在增长、而且是个大市场，它就会创造大量价值。我对那些新云（neoclouds）也是这个印象。有人说它永远不……收入质量差。我觉得我们作为投资人，有点被『用防御性来思考』这件事给骗了。"
+    },
+    {
+      "i": 57,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "13:36",
+      "en": "When if there's a growing market, it's kind of not even worth considering. Do you think that's a unique privilege of your stage of investor? And then once you get later stage public, I click someone that's buying the anthropic S1. It needs to probably think about defense ability.",
+      "zh": "因为如果有一个正在增长的市场，防御性甚至都不太值得考虑。你觉得这是不是你这个阶段的投资人特有的一种特权？一旦到了后期、公开市场——比如像有人在买 Anthropic 的 S-1——他可能就得考虑防御性了。"
+    },
+    {
+      "i": 58,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "13:51",
+      "en": "I mean, it depends on your thesis on the size of the market. I mean, if you believe we're 0.1% penetrated, this has got a long way to go and value will accrue. And if you're liquid, you can go in and out of the market of values accrues. I think the nature of venture has really changed actually in general.",
+      "zh": "我是说，这取决于你对市场规模的判断。如果你相信我们只渗透了 0.1%，那这事儿还有很长的路要走，价值会累积起来。而且如果它是流动的，你就能在价值累积时进出这个市场。我觉得风险投资（venture）的本质其实已经彻底变了。"
+    },
+    {
+      "i": 59,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "14:07",
+      "en": "If you read Arthur Rock, it was really frontier like investing. And people didn't think about quality of revenue. But you know, they didn't think about defense ability so much. It was like people and it was tech and it was new markets. Over the last 30 years, the tech market has grown so large.",
+      "zh": "如果你去读 Arthur Rock，那真的是前沿式投资。人们不会去想收入质量，也不太会去想防御性。就是看人、看技术、看新市场。而在过去三十年里，科技市场已经变得如此之大。"
+    },
+    {
+      "i": 60,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "14:25",
+      "en": "The amount of money that's available to investors has grown so much. And then the size of the private companies has got like a private company today, rivals, public companies, or just 10 years ago. And so I say in some level, VCs have actually become public investors.",
+      "zh": "投资人可用的资金增长了这么多。然后私募公司的体量也变大了——今天的一家私募公司，能跟十年前的上市公司相媲美。所以我在某种程度上说，VC 其实已经变成了公开市场投资人。"
+    },
+    {
+      "i": 61,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "14:39",
+      "en": "And then a lot of the people that have entered VC have come from more business school and traditional finance back on. So I think a lot of the mindset comes from that world. But I think it gets applied too early. Financial mindset gets applied too early. Like a traditional investing financial mindset gets applied too early.",
+      "zh": "然后很多进入 VC 这行的人，来自更偏商学院、传统金融的背景。所以我觉得很多那种心态就来自那个世界。但我认为它被套用得太早了。金融心态被套用得太早了。就是那种传统投资的金融心态被套用得太早。"
+    },
+    {
+      "i": 62,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "14:58",
+      "en": "And it's very often for example, I talk to like a junior investor and they're like, oh, the quality of revenue is bad. I'm like, call me. We didn't even know how to monetize the internet. Like business models always lag disruptive technologies. If you truly believe in investing in a disruptive technology,",
+      "zh": "而且很常见，比如我跟一个初级投资人聊，他们会说，哦，这家收入质量差。我就想说，拜托。当年我们连怎么把互联网变现都不知道。商业模式总是滞后于颠覆性技术。如果你真的相信自己在投一项颠覆性技术，"
+    },
+    {
+      "i": 63,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "15:15",
+      "en": "and that's what you truly believe in, A, you should believe it creates tam. So why would you worry about market size? Because it's creating market size. And B, it's disruptive. So we don't even know what the pricing model is. Like remember how long it took for us to go from like perpetual to like recurring years of hand-ringing et cetera.",
+      "zh": "而那正是你真正相信的东西，那么第一，你应该相信它会创造出潜在市场规模（TAM）。所以你为什么要担心市场规模？因为它正在创造市场规模。第二，它是颠覆性的，所以我们连定价模式是什么都还不知道。想想我们从永久授权（perpetual）走到订阅制（recurring）花了多长时间，中间捶胸顿足了多少年，等等。"
+    },
+    {
+      "i": 64,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "15:32",
+      "en": "And so my caution is, most investors should know what kind of investor they are. Maybe you're a financial investor. That's how you view the world. But then you're not actually evaluating tech. You're not evaluating the disruptive power tech. You're literally looking at the quality of revenue,",
+      "zh": "所以我的告诫是，大多数投资人应该清楚自己是哪一类投资人。也许你就是个财务型投资人，那是你看世界的方式。但那样的话，你其实并不是在评估技术，你并不是在评估技术的颠覆力。你就是在看收入质量，"
+    },
+    {
+      "i": 65,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "15:46",
+      "en": "which by the way is going to naturally move you towards non-disruptive technology. Because if it disrupts, you probably don't know what the business model is. You probably don't know what the tam is. On the other hand, if you believe I invest in tech and tech creates value. And that's the type of investor on you do that early.",
+      "zh": "而这顺便说一句，会自然而然地把你推向非颠覆性技术。因为如果它真颠覆，你大概不知道商业模式是什么，大概也不知道 TAM 是多少。反过来，如果你相信『我投的是技术，而技术创造价值』，那你就是那种在早期做这件事的投资人。"
+    },
+    {
+      "i": 66,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "16:03",
+      "en": "You should not consider these other things. I think it's less about, is there a right way to invest? No, these are all legitimate coherent right ways to invest. It's more about don't be confused in your basic approach. Because otherwise you become incoherent. You're like, oh, I'm a disruptive tech investor, but I'm looking for good NRR.",
+      "zh": "那你就不该去考虑那些别的东西。我觉得问题不在于『有没有一种正确的投资方式』。不，这些都是正当、自洽、正确的投资方式。问题更在于，别在你最基本的方法论上犯糊涂。否则你就会变得不自洽。你会说，哦，我是个颠覆性技术投资人，但我又想找净收入留存率（NRR）好看的。"
+    },
+    {
+      "i": 67,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "16:21",
+      "en": "Like it doesn't work that way. Vanta automates compliance. So your team can spend less time on security reviews and more time getting customers. Vanta cuts audit prep by 82% and gives you instant up-to-date proof of trust without all the manual work. So you can close deals faster and with less friction.",
+      "zh": "Vanta 让合规自动化，这样你的团队就能少花时间在安全审查上，多花时间去获客。Vanta 能把审计准备时间削减 82%，并即时提供最新的信任证明，免去所有人工操作。让你更快、更少摩擦地成交。"
+    },
+    {
+      "i": 68,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "16:40",
+      "en": "Customers report a 526% return on investment. And more than 16,000 companies use Vanta, including Ramp, Harvey, and Snowflake. Get started with $1,000 off at vanta.com slash invest. Ridgeline is the first end-to-end system of record with embedded AI for investment management firms",
+      "zh": "客户报告的投资回报率（ROI）高达 526%。超过 16,000 家公司在使用 Vanta，包括 Ramp、Harvey 和 Snowflake。访问 vanta.com/invest，立减 1,000 美元开始使用。Ridgeline 是首个为投资管理公司打造的、内嵌 AI 的端到端记录系统（system of record），"
+    },
+    {
+      "i": 69,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "16:59",
+      "en": "running portfolio counting, reconciliation, reporting, trading, and compliance on one unified platform. Firms are moving off legacy technology and on to Ridgeline because of how far ahead Ridgeline's AI features are compared to anything else in investment management software.",
+      "zh": "在一个统一的平台上运行投资组合核算、对账、报告、交易和合规。各家公司正在从遗留技术迁出、转到 Ridgeline 上，因为与投资管理软件领域的任何其他产品相比，Ridgeline 的 AI 功能都遥遥领先。"
+    },
+    {
+      "i": 70,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "17:14",
+      "en": "I've been hearing from a lot of investment managers about AI and they fall roughly into two camps, with some unsure where to even start and others convinced they can build their own order management system over a weekend.",
+      "zh": "我从很多投资管理人那里听到关于 AI 的声音，他们大致分成两个阵营：一些人根本不知道从哪儿下手，另一些人则坚信自己能在一个周末里搭出一套自己的订单管理系统（OMS）。"
+    },
+    {
+      "i": 71,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "17:25",
+      "en": "The reality is that running an investment firm will always require governance, controls, and a single source of truth through your data. And no amount of AI enthusiasm changes that requirement.",
+      "zh": "现实是，经营一家投资公司永远需要治理、控制，以及贯穿你全部数据的单一事实来源（single source of truth）。再多的 AI 热情也改变不了这个要求。"
+    },
+    {
+      "i": 72,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "17:35",
+      "en": "Ridgeline is built on exactly that foundation, which is why I believe that the firms that come out ahead in the AI era will be the ones running on Ridgeline's unified platform. If you're serious about your firm's AI strategy, Ridgeline should be part of that conversation and you can request a demo at Ridgeline.AI.",
+      "zh": "Ridgeline 正是建立在这个基础之上，这也是为什么我相信，在 AI 时代胜出的公司，会是那些跑在 Ridgeline 统一平台上的公司。如果你认真对待贵司的 AI 战略，Ridgeline 就该是这场对话的一部分，你可以在 ridgeline.ai 预约演示。"
+    },
+    {
+      "i": 73,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "17:52",
+      "en": "How would you describe the state of the union today in your world in infrastructure like obviously it's changing really, really fast. There's new kinds of companies, but there do seem to be some layers or some categories. Yeah, how would you describe what it looks like today?",
+      "zh": "你会怎么描述你所在领域——基础设施——今天的『国情咨文』（state of the union）？显然它变化得非常非常快，出现了新型的公司，但似乎确实有一些层次或者说类别。你会怎么描述它今天的样子？"
+    },
+    {
+      "i": 74,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "18:05",
+      "en": "Yeah, so for me, the definition of infrastructure is like the differentiation is actually technical, where I don't view SaaS or apps as that way. If you invest in a SaaS or apps company, it's like a technical investment, it's like a business model innovation.",
+      "zh": "对我来说，基础设施的定义，其区分点其实是技术性的，我不会把 SaaS 或应用（apps）看成那样。如果你投一家 SaaS 或应用公司，那不算技术投资，而更像是一种商业模式创新。"
+    },
+    {
+      "i": 75,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "18:19",
+      "en": "So because for us as a technical innovation, it has to sit kind of in the traditional technical stack. So the traditional technical stack for infrastructure is compute, network, storage, and databases, right? And each one of those has a sub components and they all have buyers. We're seeing that being kind of reformed with AI a bit.",
+      "zh": "所以对我们来说，作为一项技术创新，它必须坐在传统的技术栈里。基础设施的传统技术栈就是计算（compute）、网络（network）、存储（storage）和数据库（databases），对吧？每一块都有子组件，也都有对应的买家。我们看到这些正在被 AI 重塑。"
+    },
+    {
+      "i": 76,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "18:36",
+      "en": "And so all of them are being disrupted, but also now you have models which I would consider infrastructure. They look to me more like A6 than they look like traditional software. I mean, like the capital needs, the competitive pressures on them. And then I think they're disrupting the entire application stack above them.",
+      "zh": "所以它们全都在被颠覆，但与此同时，你现在还多了模型（models），我也会把模型算作基础设施。它们在我看来更像是资本密集型的东西，而不像传统软件——我是说，看它们的资本需求、它们承受的竞争压力。而且我觉得它们正在颠覆其上的整个应用栈。"
+    },
+    {
+      "i": 77,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "18:53",
+      "en": "Like we don't even know if they will layer. I mean, maybe you could argue with Jeff, you can kind of put them in software, but traditionally they're their own separate entity that you can't marry to software very well.",
+      "zh": "我们甚至不知道它们会不会分层（layer）。我是说，也许你可以跟 Jeff 争一下，你多少能把它们归进软件里，但传统上它们是自成一体的独立实体，你没法很好地把它跟软件绑在一起。"
+    },
+    {
+      "i": 78,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "19:02",
+      "en": "And so I would say we're in kind of a point of maximum disruption, but all of the infrastructure supporting software, whether it's five-coded or not, or whether it's to build models or not. I mean, that doesn't change like the major components. So I think we do have a bit of a traditional mindset of compute, network, storage, databases.",
+      "zh": "所以我会说，我们正处在一个颠覆最大化的节点上，但所有支撑软件的基础设施——不管它是不是被 vibe coding（氛围编程）出来的，也不管它是不是用来训练模型的——那些主要组件其实并没有变。所以我觉得我们确实还是有点传统思维定式：计算、网络、存储、数据库。"
+    },
+    {
+      "i": 79,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "19:17",
+      "en": "But we also throw up our hands and like, this is all changing so fast. Because for example, when you're worried about dev tooling in the past, you're worried about ergonomics for a human. And I don't really worry about that.",
+      "zh": "但我们也会两手一摊说，这一切变得太快了。因为举个例子，过去你担心开发工具（dev tooling）时，你担心的是给人的工效学（ergonomics）。而这一点我其实不太担心了。"
+    },
+    {
+      "i": 80,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "19:27",
+      "en": "And then actually a lot of the design decisions that we made as technologists were like, well, a human's going to be using this so it can't be too complicated. And then you would trade off things like safety or you trade off things like reliability. Well, you don't really have to do that anymore because the models are doing it.",
+      "zh": "而且实际上，我们作为技术人做的很多设计决策都是，嗯，这东西是给人用的，所以不能太复杂。然后你就会在安全性上做取舍，或者在可靠性上做取舍。可现在你其实不必再这么做了，因为是模型在用它。"
+    },
+    {
+      "i": 81,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "19:38",
+      "en": "So I think this is kind of the biggest refresh of computer science infrastructure. We've seen maybe since the internet, maybe forever. Would the shorthand for this be that each of those five portions of infrastructure are being refactored for agents? Is that overly simplifying? So I split it into two pieces.",
+      "zh": "所以我觉得，这大概是计算机科学基础设施自互联网以来、甚至也许是有史以来最大的一次刷新。这事儿的简版说法，是不是说基础设施的这五个部分每一个都在为智能体（agents）做重构？这么说是不是太简化了？我会把它拆成两块。"
+    },
+    {
+      "i": 82,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "19:55",
+      "en": "People are vibe coding a lot of stuff. There's most software being written never before, and that stuff has to run somewhere. That's not agents. That's just normal software. Maybe it's an agent that created it, maybe it's a human being created it, but it needs databases and it needs compute. So that's one thing.",
+      "zh": "人们正在 vibe coding 出很多东西。有史以来最多的软件正在被写出来，而这些东西得跑在某个地方。那不是智能体，那就是普通软件。也许是一个智能体创造了它，也许是一个人创造了它，但它需要数据库，需要算力。所以这是一件事。"
+    },
+    {
+      "i": 83,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "20:08",
+      "en": "It's like the product of agents. And then the other one is like we're building these new systems that have AI at the heart of them. And then how does that change it? Those are the two. So just assume way more software being built and has to be run and deployed somewhere.",
+      "zh": "这算是智能体的产物。另一件是，我们在搭建这些以 AI 为核心的新系统，那又会带来什么改变？就这两件事。所以你就假设会有多得多的软件被构建出来，而且必须在某个地方被运行和部署。"
+    },
+    {
+      "i": 84,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "20:20",
+      "en": "And then think that now we also have systems that actually create agents. It seems like each new wave of technology, there's a new kind of database that's needed. Are you seeing that across all the areas that you care about that because of AI? There's whole new entrance? Yeah, I think so.",
+      "zh": "然后再想想，我们现在还有了能真正创造智能体的系统。似乎每一波新技术，都会需要一种新的数据库。在你关心的所有这些领域里，你是不是都看到因为 AI 而冒出了全新的进入者（entrants）？是的，我觉得是这样。"
+    },
+    {
+      "i": 85,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "20:38",
+      "en": "I mean, I think a lot of infrastructure is getting a bit sleepy. And now because agents are very sophisticated, that's no longer the case. So for example, let's take OLTP. What is OLTP? OLTP is a transaction database. I think the oracles of the world. That's a pretty mature industry. You didn't see a lot of movement.",
+      "zh": "我是说，我觉得很多基础设施都有点变得昏昏欲睡了。而现在因为智能体非常老练，这种情况不再成立了。举个例子，就拿 OLTP 来说。什么是 OLTP？OLTP 就是事务型数据库（transaction database）。我觉得像 Oracle 那些。那是个相当成熟的行业，你看不到多少动静。"
+    },
+    {
+      "i": 86,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "20:52",
+      "en": "Maybe you saw like movement to the cloud or something like that. But now we're seeing really interesting companies that are like, you know what? The hard thing about using a database from a programmer standpoint is that databases always have their own languages. And they've had their own languages for technical reasons.",
+      "zh": "也许你看到过向云的迁移之类的。但现在我们看到一些非常有意思的公司，它们说，你知道吗？从程序员的角度看，用数据库最难的地方在于，数据库总是有它们自己的语言。而且因为技术原因，它们一直有自己的语言。"
+    },
+    {
+      "i": 87,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "21:07",
+      "en": "And it's really, really hard to have them work with normal programming languages. And one of the reasons is if you change that language, like anybody that knows the databases wouldn't know how to use it. And you'd have to like train a whole version of programmers to use this new language.",
+      "zh": "而且要让它们跟普通编程语言协作，真的非常非常难。原因之一是，如果你改动了那门语言，那么任何懂这些数据库的人都不会用了。你还得从头培训一整代程序员去用这门新语言。"
+    },
+    {
+      "i": 88,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "21:21",
+      "en": "But now we're actually seeing databases come out, which are entirely new way of thinking about databases. It's a way better properties. They don't really have to train anybody because the agents already know how to do it. I think these things are path dependent, like some sectors, a new entrance is going to come and change it.",
+      "zh": "但现在我们真的看到一些数据库出来了，它们是完全全新的思考数据库的方式，有更好的属性。它们几乎不用培训任何人，因为智能体早就知道该怎么做了。我觉得这些事情是有路径依赖（path dependent）的，有些板块会有新进入者来把它改掉。"
+    },
+    {
+      "i": 89,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "21:36",
+      "en": "Like databases, OLTP may look entirely different in five years. And some, the incumbent may figure it out and be like, hey, listen, we're just going to add a few things. Networking, of course, which is this I did my PhD in networking. So it's an area of special interest. I guess it's been so sleepy and boring for the last 15 years.",
+      "zh": "比如数据库、OLTP，五年后可能看起来完全不一样。而有些板块，在位者（incumbent）可能自己想明白，说，嘿，听着，我们只要加几样东西就行。网络（networking）当然也是——我做的是网络方向的博士（PhD），所以这是我特别感兴趣的一块。我猜过去十五年它一直太沉闷、太无聊了。"
+    },
+    {
+      "i": 90,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "21:51",
+      "en": "And now because these clusters that we're building are so large. And they've got like such rigid performance constraints. We're seeing net new networking companies come out for the first time since Arista using changes in the materials used to build them. You were seeing optical come up.",
+      "zh": "而现在，因为我们在搭建的这些集群如此庞大，而且有那么刚性的性能约束，我们看到自 Arista 以来第一批全新的网络公司冒了出来，用的是构建它们所用材料上的变化。你会看到光学（optical）在兴起。"
+    },
+    {
+      "i": 91,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "22:07",
+      "en": "And so there's a lot of interesting stuff in networking. Compute the whole notion of what are the abstractions to run in the agent on? Is it like a container? Is it a VM? Is it a durable workflow? Something like temporal? That is changing.",
+      "zh": "所以网络领域有很多有意思的东西。计算（compute）方面，『要在什么抽象之上运行一个智能体』这个整体概念——是容器（container）？是虚拟机（VM）？是像 Temporal 那样的持久化工作流（durable workflow）？这个正在变。"
+    },
+    {
+      "i": 92,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "22:21",
+      "en": "But I do think we're at a point of maximum disruption where many points of the infrastructure stack can be rebuilt. Could we spend a few minutes on models? The traffic S1 came out this week. Obviously a beautiful view into the business itself.",
+      "zh": "但我确实觉得我们正处在一个颠覆最大化的节点，基础设施栈上的很多环节都能被重建。我们能不能花几分钟聊聊模型？Anthropic 的 S-1 这周出来了，显然给了你一个看清这门生意本身的漂亮视角。"
+    },
+    {
+      "i": 93,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "22:34",
+      "en": "But I'm actually more interested because the infrastructure stuff in what you think about just the state of these things today. I'm interested in all the debates. Close versus open. The public frontier versus the private frontier that the companies keep for themselves. Movement of talent. Opportunities.",
+      "zh": "但其实我更感兴趣的，恰恰是基础设施那一块——你怎么看这些东西今天的状态。我对所有的争论都感兴趣。闭源对开源。公开的前沿（public frontier）对私有的前沿（private frontier），也就是公司留给自己用的那部分。人才的流动。机会。"
+    },
+    {
+      "i": 94,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "22:50",
+      "en": "Things that don't exist that should. Whatever's on your mind about these things and how you see them evolving. I'm fascinated to hear. So I think the biggest question is is what happens if and when the market slows down? Because I think we've got three years of data of what happens in the existing very big fast growing market.",
+      "zh": "那些还不存在、却应该存在的东西。关于这些东西你脑子里想的任何东西，以及你怎么看它们的演化，我都特别想听。所以我觉得最大的问题是，如果市场放缓——以及当它放缓时——会发生什么？因为我们已经有三年的数据，能看到在这个现存的、非常大、快速增长的市场里会发生什么。"
+    },
+    {
+      "i": 95,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "23:09",
+      "en": "And like what happens there is being on the frontier means you've got tremendous pricing power. Even if you're just an epsilon better than the next guy, you've got tremendous pricing power. There's no demand problem. You've got basically infinite demand.",
+      "zh": "在那里发生的情况是，处在前沿（frontier）意味着你有巨大的定价权。哪怕你只比下一个人强那么一丁点（epsilon），你也有巨大的定价权。不存在需求问题，你基本上有无限的需求。"
+    },
+    {
+      "i": 96,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "23:20",
+      "en": "And so these frontier models that are the best tend to get 80% plus of the market dollar weighted. And that's happened for three years. But you can argue the reason that's happening is because we've not saturated the market at all. And people don't want the smartest thing.",
+      "zh": "所以这些最好的前沿模型，往往会拿走按金额加权 80% 以上的市场份额。这种情况已经持续了三年。但你可以论证说，之所以会这样，是因为我们根本还没让市场饱和，而且人们要的就是最聪明的东西。"
+    },
+    {
+      "i": 97,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "23:35",
+      "en": "And so then under that view, there's nothing structural is going to change as long as the market's growing. And you could argue this is going to go on for quite a while because what is a penetration point? 1% or something like that. They say 3% of the enterprise. But actually from budget wise, it's like 1% or less.",
+      "zh": "所以在那种视角下，只要市场在增长，结构上就没有什么会变。你还可以论证说，这种情况会持续相当长的时间，因为渗透率才多少？1% 左右吧。他们说是企业里的 3%，但从预算角度看，其实是 1% 甚至更低。"
+    },
+    {
+      "i": 98,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "23:49",
+      "en": "And so there's just a lot to grow given how useful the technology is. The more interesting question to me is what happens if the market starts to saturate in pockets? So if that happens, things shift to open source. Will you lose pricing power on the frontier?",
+      "zh": "所以考虑到这项技术有多有用，还有巨大的增长空间。对我来说更有意思的问题是，如果市场在某些局部开始饱和，会发生什么？如果真发生，东西会转向开源（open source）。你会不会在前沿上失去定价权？"
+    },
+    {
+      "i": 99,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "24:04",
+      "en": "One thing that we don't really do a good job of accounting for when we model out the numbers for these companies is what happens if you invest in a model and then you don't get the next model out really quickly? Let's assume that anthropic stumbles and they don't release the model for six months.",
+      "zh": "有一件事我们在给这些公司建模、算数字时做得并不好，就是：如果你投了一个模型，然后你没能很快把下一个模型推出来，会发生什么？我们就假设 Anthropic 绊了一跤，六个月都没发布新模型。"
+    },
+    {
+      "i": 100,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "24:21",
+      "en": "What is the lifespan that you think of the previous model? A very short period of time. It's very, very short, which is entirely different than we've ever had in software. And software we've always assumed some long tail. But it turns out what happens if you put out the soda model and everybody loves it, then something internal happens.",
+      "zh": "你觉得上一个模型的寿命有多长？很短的一段时间。非常非常短，这跟我们在软件里历来拥有的东西完全不同。在软件里，我们总是假设会有某种长尾（long tail）。但结果是，如果你推出了 Sonnet 那个模型，人人都爱它，然后内部出了点事。"
+    },
+    {
+      "i": 101,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "24:37",
+      "en": "I don't know what's regulatory. I don't know if it's technical. I don't know if it's a bridge, whatever. And then you slip three months, right? It could be the case that you lose the entire market. In my experience, and I see a lot of these model graphs for maps, companies, and from pitches.",
+      "zh": "我不知道是监管原因，是技术原因，还是要做个过渡版本（bridge）什么的。然后你延误了三个月，对吧？很有可能你就把整个市场都丢了。以我的经验，我看过很多这类模型公司的模型曲线图，都是从路演材料里来的——"
+    },
+    {
+      "i": 102,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "24:49",
+      "en": "I would say the lifespan of a model is three to six months. So that means you have to release the next model. So again, for this conversation, I think it's a very interesting conversation. We should tease it apart. What happens if the market continues to grow and doesn't saturate? I think we already know.",
+      "zh": "我会说，一个模型的寿命是三到六个月。所以这意味着你必须发布下一个模型。所以再说一次，对于这场对话，我觉得这是个非常有意思的话题，我们应该把它拆开来看。如果市场继续增长、不饱和，会发生什么？我觉得我们已经知道了。"
+    },
+    {
+      "i": 103,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "25:02",
+      "en": "Because if three years of data, and it just means the frontier wins, and they do a great job and they create great models. Then what happens if either the use case is saturating, you don't need more intelligence, or the market starts slowing down for another reason. Nobody knows the answer to that.",
+      "zh": "因为有三年的数据，它就意味着前沿会赢，他们做得很棒，创造出很好的模型。那么，如果是用例在饱和——你不再需要更多智能——或者市场因为别的原因开始放缓，又会发生什么？没人知道答案。"
+    },
+    {
+      "i": 104,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "25:15",
+      "en": "I think there's a very real world where the value comes crashing back down into open source. And we'll see a shift that we've never seen, because software has always had a long tail of attention. On this trip, I've been asking a lot of people what percent of software coding tasks are already saturated,",
+      "zh": "我觉得有一个非常现实的世界，就是价值会轰然回落到开源里去。我们会看到一种前所未见的转变，因为软件历来都有注意力的长尾。这一路上我一直在问很多人，软件编程任务里已经有百分之多少被饱和了，"
+    },
+    {
+      "i": 105,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "25:30",
+      "en": "and the typical answer is very, very high percentage. That's been the biggest market. And yet, it still seems like people are spending like crazy on frontier tokens to do coding, which it seemed a little at odds. Like if I can do it with a six-month-old model or something that's vastly cheaper. Well, these are two different statements.",
+      "zh": "而典型的答案是，非常非常高的百分比。那一直是最大的市场。可即便如此，人们似乎还是在为做编程而疯狂地烧前沿 token，这看起来有点自相矛盾。就像，如果我用一个六个月前的模型、或者某种便宜得多的东西就能搞定。嗯，这是两个不同的说法。"
+    },
+    {
+      "i": 106,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "25:48",
+      "en": "This is a great thing to dig in on, but we need to be very careful. So statement number one is, I am not using more tokens. I have enough tokens. I've automated 95% already, so I can't automate anyone. And I think that we're getting pretty close to that. Comet number two is, therefore, I can use a cheaper model,",
+      "zh": "这是个很值得深挖的点，但我们得非常小心。所以，说法一是：我没有在用更多 token，我已经有足够的 token 了，我已经自动化了 95%，没法再自动化更多了。我觉得我们正在相当接近这个状态。说法二是：因此，我可以用一个更便宜的模型——"
+    },
+    {
+      "i": 107,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "26:04",
+      "en": "does not follow from Comet number one. So if you and I are competing startups, we've got Martin startup and Patrick startup, right? So we've got competing startups. And because we're in competitive equilibria, are you going to choose a donor model to compete with me?",
+      "zh": "——这并不能从说法一推出来。所以如果你我是竞争性的初创公司，我们有 Martin 初创公司和 Patrick 初创公司，对吧？所以我们是互相竞争的初创公司。而因为我们处在竞争均衡里，你会选一个更笨的模型来跟我竞争吗？"
+    },
+    {
+      "i": 108,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "26:18",
+      "en": "In competitive equilibria, you would always pay ten times more for the smartest model. Yeah, always, always, always. So there's this very open question of, will you saturate tasks so that you don't need a smarter model? And I think it's very hard to do that in a Darwinistic economic equilibria. When you're actually competing.",
+      "zh": "在竞争均衡里，你总会愿意为最聪明的模型多付十倍的钱。是的，永远、永远、永远。所以这就有一个非常开放的问题：你会不会把任务饱和到不再需要更聪明模型的地步？我觉得在一个达尔文式的经济均衡里，当你真的在竞争时，这非常难做到。"
+    },
+    {
+      "i": 109,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "26:39",
+      "en": "It's some of them may, but I think at the end of the day, it's about, can you get software out faster? Can you make it better and can you compete in a marketplace? And that will necessarily push you to the more intelligent thing. No, that said, clearly things will slow down because you're actually not spending more tokens.",
+      "zh": "其中一些也许会，但我觉得归根结底，关键是：你能不能更快地把软件推出去？你能不能把它做得更好？你能不能在市场上竞争？而这些必然会把你推向更智能的那个东西。话虽如此，显然增速会放缓，因为你其实并没有花更多 token。"
+    },
+    {
+      "i": 110,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "26:54",
+      "en": "And so either you have to increase prices, or you're going to have to go broad. But in my experience, the pricing is maintained, for sure. And because of the competitive equilibria, like you'll always want the smartest thing. And then we're just seeing a broadening use of these outside of code, general knowledge work.",
+      "zh": "所以你要么得提价，要么就得走宽（go broad）。但以我的经验，定价是稳住了，绝对稳住了。而且因为竞争均衡，你总会想要最聪明的东西。然后我们就看到这些模型在代码之外、在通用知识工作（general knowledge work）里的使用在变宽。"
+    },
+    {
+      "i": 111,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "27:11",
+      "en": "I'm a huge rock by user. It's like my favorite thing ever. And so I think we're starting to see, hey, I take over more and more of these. The same more about your personal experience with that. What you're doing with it, what you're learning from that experience. My new rock is so funny. I think I've got a full automation thing going on.",
+      "zh": "我是个超级 Rockbot 用户，它就是我最爱的东西。所以我觉得我们开始看到，嘿，它在接管越来越多的这些活儿。多跟我讲讲你自己用它的体验吧——你在拿它做什么，你从这段体验里学到了什么。我的新 Rockbot 太搞笑了，我觉得我搞了一整套自动化的东西在跑。"
+    },
+    {
+      "i": 112,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "27:26",
+      "en": "I know. So good. I just feel like I've waited my entire life for this power, this technology to show up, right? Like, I want Star Trek. I want to go home and I want my house to greet me. And I want to talk to it. And I want to have the face show up on the monitor. And I want the whole thing. We've never been able to do it.",
+      "zh": "我知道，太棒了。我就是觉得，我这辈子一直在等这种力量、这种技术出现，对吧？就像，我想要《星际迷航》（Star Trek）那种。我想回到家，我想让我的房子跟我打招呼，我想跟它说话，我想让那张脸出现在显示器上，我想要整套东西。我们从来没能做到过。"
+    },
+    {
+      "i": 113,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "27:43",
+      "en": "And now it's kind of trivial. So I use rock mop for a lot of stuff. I use my personal finances. My big hobby is modular synthesis. I like synthesizers like making music. Well, like the 1970s, like patching, tweaking type stuff. It helps me with a lot of that stuff. So I use it for a lot of like standard things.",
+      "zh": "而现在它几乎变得微不足道了。所以我用 Rockbot 干很多事。我用它管我的个人财务。我的一大爱好是模块化合成器（modular synthesis）。我喜欢合成器，喜欢做音乐。嗯，就像 1970 年代那种打补丁（patching）、调音的玩意儿。它帮我搞定很多这类事。所以我用它做很多标准的活儿。"
+    },
+    {
+      "i": 114,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "27:56",
+      "en": "But my new passion project is, I want rock mop to embody itself. I say, I want you to be the living AI in my house. That's what I want. And I wanted to just like Star Trek help me make this happen. And it's literally five stuff. Five stuff. Five stuff. So it's like, oh, let's try this. Yesterday about a few hundred dollars worth of gear.",
+      "zh": "但我新的痴迷项目是，我想让 Rockbot 把自己具身化（embody itself）。我说，我想让你成为我房子里那个活生生的 AI。这就是我想要的。我想要它就像《星际迷航》那样帮我把这事儿办成。而这真的就是一堆玩意儿。就是，哦，来试试这个。昨天买了大概几百美元的设备。"
+    },
+    {
+      "i": 115,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "28:16",
+      "en": "That's coming to the house. And like, I'm going to have it embody itself. So that what gear is it buying? I don't know. But even though it's like these weird, like these weird open source projects. And like, I mean, it's like this really obscures. Like I know some home automation stuff. Like I know like Zigbee. I know some home.",
+      "zh": "正在往家里寄。而且，我要让它把自己具身化。那它在买什么设备？我不知道。但即便是这些奇奇怪怪的开源项目——我是说，它选的这些东西真的特别冷门。我懂一些家庭自动化（home automation），比如我知道 Zigbee，我知道一些家居的东西。"
+    },
+    {
+      "i": 116,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "28:34",
+      "en": "But it's like really obscure stuff that it's decided to buy. But like, I just have it in my head. This vision of that kind of vintage view of what the future looks like. Like the 70s view. Like you watch that. Yeah, like I just want that. I've basically just been feeding it pictures and descriptions.",
+      "zh": "但它决定要买的是些真正冷门的东西。可我脑子里就是有这么一个画面，那种复古的、关于未来长什么样的想象，就像七十年代的那种视角。你看过那个吗？是啊，我就是想要那个。我基本上一直在给它喂图片和描述。"
+    },
+    {
+      "i": 117,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "28:48",
+      "en": "And I want it to create that by itself. And so I'll let you know how that goes. What is this and other experiences using this technology since you're probably in the point 001% of creativity using it? What does it tell you about what's coming? Yeah, this is it. I just feel people keep thinking of these things as software. And it's not.",
+      "zh": "我想让它自己去创造出那个东西。所以进展如何我会告诉你的。既然你可能是用这项技术最有创造力的那 0.001% 的人，那么这段以及其他使用体验，告诉了你什么关于『未来将至』的东西？是的，就是这样。我只是觉得，人们老是把这些东西当成软件。而它不是。"
+    },
+    {
+      "i": 118,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "29:07",
+      "en": "And I think we just keep mapping it to things like search. And it's not. And we really have created general flexible technology that can bring us many of these future things that we've always dreamed about. You just didn't have the technology to implement it.",
+      "zh": "我觉得我们就是一直在把它往『搜索』这类东西上套。而它不是。我们真的创造了一种通用、灵活的技术，能把我们一直梦想着的很多未来之物带给我们。你只是过去没有能实现它的技术罢了。"
+    },
+    {
+      "i": 119,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "29:22",
+      "en": "I just feel like we're so constrained from our presuppositions of what software can do that people aren't doing as many of these things. I'll give you another example. You know, it works with faith in world labs, great company. And one thing I realized as part of that and what they did is they created a model",
+      "zh": "我只是觉得，我们被自己对『软件能做什么』的先入之见束缚得太死，以致于人们没在做这么多这类事情。我再给你举个例子。你知道，它能跟 Fei-Fei 的 World Labs 协作，那是家很棒的公司。我在那件事里、在他们做的事情里意识到的一点是，他们创造了一个模型，"
+    },
+    {
+      "i": 120,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "29:36",
+      "en": "that would generate 3D scenes. They released a model called Atlas a few months ago. And that would like generate basically anything but also supported dynamics that would move. And I realized we're this close to being able to step into a movie. Imagine like me as Occupy wouldn't be happy with it.",
+      "zh": "那个模型能生成 3D 场景。他们几个月前发布了一个叫 Atlas 的模型。它基本上能生成任何东西，而且还支持会动的动力学（dynamics）。我意识到，我们离能『走进一部电影』只差一步之遥了。想象一下，比如换成是我，光这样我还不满足。"
+    },
+    {
+      "i": 121,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "29:52",
+      "en": "Imagine like having spirited away running and you throw on your VR glasses and you walk in. You're there. And like did you ever see sleep no more like the immersive? I went to it. Why isn't there a sleep no more in the R that you're walking in like the whole thing is going on?",
+      "zh": "想象一下《千与千寻》（Spirited Away）在跑，你戴上 VR 眼镜走进去，你就在那里了。你看过《不眠之夜》（Sleep No More）那种沉浸式演出吗？我去看过。为什么不能有一个 VR 版的《不眠之夜》，让你走进去，整个剧情就在你身边上演？"
+    },
+    {
+      "i": 122,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "30:07",
+      "en": "And like just for those that are listening sleep no more as an immersive play, which is three hours it was in this three story hotel or something like that building in New York and you're like running around trying to figure out and like hamlet is being played out or whatever. We're starting to realize how powerful this stuff is.",
+      "zh": "给正在听的人解释一下，《不眠之夜》是一部沉浸式戏剧，长达三小时，当时是在纽约一栋三层楼的酒店之类的建筑里，你在里面到处跑、试图搞明白剧情，而《哈姆雷特》（Hamlet）之类就在你身边上演。我们开始意识到这些东西有多强大。"
+    },
+    {
+      "i": 123,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "30:21",
+      "en": "A lot of these tropes and visions of the future from the 50s and 60s we can actually make. And I just think that the biggest constraint is no longer the tech. It's literally our creativity. And it's just because we've been beaten down by 30 years of software being a shit.",
+      "zh": "很多来自五、六十年代的关于未来的桥段和想象，我们其实真的能造出来。我只是觉得，最大的约束已经不再是技术，而实实在在是我们的创造力。而这只是因为我们被『三十年软件都很烂』这件事给磨得没脾气了。"
+    },
+    {
+      "i": 124,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "30:36",
+      "en": "I mean let's be honest software has sucked technology has been hard to use. Old people hate it. It's most often broken and now we're actually in a point where the stuff could actually start working. And so for me it's like I'm so excited for what this brings.",
+      "zh": "我是说，老实讲，软件一直很烂，技术一直很难用，老年人讨厌它，它还老是坏掉。而现在我们其实正处在一个节点，这些东西可能真的开始能用了。所以对我来说，我为它将带来的东西感到无比兴奋。"
+    },
+    {
+      "i": 125,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "30:49",
+      "en": "It's tempting to say you could just freeze the models and their current capability and still get all of what you described. So there's like a diffusion question I'd like to explore. Before we do that, what if anything do you think is missing from the models? Like how do you hope or wish or dream that the models themselves?",
+      "zh": "很容易说，你完全可以把模型冻结在它们当前的能力上，仍然能得到你描述的那一切。所以有一个关于扩散（diffusion）的问题我想探讨一下。在那之前，你觉得模型现在缺了什么，如果有的话？你希望、期待、梦想模型本身变成什么样？"
+    },
+    {
+      "i": 126,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "31:03",
+      "en": "So I think and I think you step back and you look at like what we know as an industry. The current tech stack anything that's digital with enough capital you can solve. And the reason is is because anything you can simulate on the computer, you can create RL environments for whether that's 3D using blender,",
+      "zh": "我觉得，你退一步看我们作为一个行业所知道的东西——当前的技术栈里，任何数字化的东西，只要有足够的资本，你都能解决。原因是，任何你能在计算机上模拟的东西，你都能为它创建强化学习（RL）环境，不管是用 Blender 做 3D，"
+    },
+    {
+      "i": 127,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "31:20",
+      "en": "whether that's general application use of a computer, whether it's code. You know, I have talked about this before. I think when it's all said and done, it's interesting to think about AI. The meta thing is that like you can take a money kid in and you can point it at a problem and it will solve that problem.",
+      "zh": "不管是对计算机的通用应用操作，还是代码。你知道，我以前也谈过这个。我觉得当一切尘埃落定，关于 AI 那个元层面（meta）有意思的地方在于：你可以拿一笔钱，把它对准一个问题，它就会去解决那个问题。"
+    },
+    {
+      "i": 128,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "31:36",
+      "en": "Like maybe it's expensive and at least you can solve it in the past. You'd be like blocked and engineering and you'd die. Now you can actually just direct money at problems and solve these problems. So I feel very confident saying anything in the digital world",
+      "zh": "也许它很贵，但至少你能解决它。过去你会在工程上卡死，然后就完蛋了。现在你真的可以拿钱直接砸向问题、把问题解决掉。所以我非常有信心地说，数字世界里的任何东西——"
+    },
+    {
+      "i": 129,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "31:47",
+      "en": "because you can create an environment and you can RL it and you can train on it, we can solve. So I just feel very comfortable. Anything you do with a computer and I will be able to do. Maybe it doesn't do it now, but like you can just see that path happening. What I don't know is does the same thing apply to physical universe?",
+      "zh": "——因为你能创建一个环境，能用 RL 去训练它、在它上面训练，我们都能解决。所以我感到非常踏实：任何你用计算机能做的事，AI 都将能做。也许它现在还做不到，但你就是能看到那条路径正在发生。我不知道的是，同样的规律适不适用于物理宇宙。"
+    },
+    {
+      "i": 130,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "32:02",
+      "en": "For sure you could set up a lab to like next speakers or whatever, you know, to do that. But like are the scaling curves the same? Is the distribution the same? So anything to do with robotics and the physical world and science and medicine, I have no idea if it follows the same laws. And so I think that's still an unlock.",
+      "zh": "当然你可以搭一个实验室之类的去做那个。但那些扩展曲线（scaling curves）是一样的吗？分布是一样的吗？所以任何跟机器人（robotics）、物理世界、科学、医学有关的东西，我完全不知道它是否遵循同样的规律。所以我觉得那还是一个有待解锁的东西。"
+    },
+    {
+      "i": 131,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "32:18",
+      "en": "But I feel very comfortable that the current digital side is done. How have you processed all this interesting security stuff? Breaches a vertical breach apocalypse. It's obvious that we're like entering a very interesting era in cyber. What do you make of all this? I lived through on the ground with formal studies in security.",
+      "zh": "但我对当前数字这一侧已经搞定这件事，感到非常踏实。你是怎么消化所有这些有意思的安全话题的？各种数据泄露、某个垂直领域的泄露、末日级的泄露。显然我们正在进入一个网络安全（cyber）上非常有意思的时代。你怎么看这一切？我可是有安全方向的正规学术训练、亲身经历过这些的。"
+    },
+    {
+      "i": 132,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "32:37",
+      "en": "I lived through the internet and it was way worse than this. Like by this time with the internet, we had worms and it cost billions of dollars of economic damage. We've taken out critical infrastructure. Remember Windows 95? No, I remember. Okay. Remember Windows 95? Just barely.",
+      "zh": "我经历过互联网时代，那时候比现在糟糕多了。到互联网的这个时候，我们已经有了蠕虫病毒（worms），造成了数十亿美元的经济损失。我们干掉过关键基础设施。还记得 Windows 95 吗？不，我记得。好吧。还记得 Windows 95 吗？勉强记得。"
+    },
+    {
+      "i": 133,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "32:55",
+      "en": "So it used to be that if you took Windows 95 and you installed it and it was connected to the internet, before the installer was done, it'd be infected. It's been taken away. It's not a joke, right? So like you do need to have time to patch it. It was so chaotic and there was so much mayhem.",
+      "zh": "过去是这样的，如果你拿 Windows 95 装上、连到互联网，安装程序还没跑完，它就已经被感染了。它就被攻陷了。这不是开玩笑，对吧？所以你确实需要有时间去打补丁（patch）。那时候太混乱了，一片狼藉。"
+    },
+    {
+      "i": 134,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "33:12",
+      "en": "And this is what happens every time you've got a new technology that changes the nature of how we run computers in the security posture. And we're definitely dealing with another one of those moments. And so I think we can look to what happened with the internet, which is like there's a few years of mayhem.",
+      "zh": "每次你有一项新技术改变了我们运行计算机的方式和安全态势（security posture），都会发生这种事。而我们现在肯定又在应对这样的时刻之一。所以我觉得我们可以参照互联网当时发生的情况，也就是会有几年的混乱期。"
+    },
+    {
+      "i": 135,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "33:28",
+      "en": "You do have breaches that cause real issues and then the industry evolves. And normally the way you think about security is like, well, the good guys be able to spend more money to the bad guys. If the answer is yes, which is typically the case, you will come up with a technical solution. And I think that will be the case here.",
+      "zh": "你确实会遇到造成真实问题的数据泄露，然后这个行业就会进化。通常你思考安全的方式是，嗯，好人能不能比坏人花更多的钱？如果答案是能——通常就是能——你就会想出一个技术方案。我觉得这次也会是这样。"
+    },
+    {
+      "i": 136,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "33:42",
+      "en": "And you're already starting to see it. These vulnerabilities that you see showing up, this is good. That means that somebody used the model to make things safer by pointing out the vulnerabilities. I think this is going exactly like you would expect it to go.",
+      "zh": "而且你已经开始在看到它了。这些冒出来的漏洞，这是好事。那意味着有人用模型指出了这些漏洞，从而让东西更安全。我觉得这一切正完全按你会预期的方式在走。"
+    },
+    {
+      "i": 137,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "33:54",
+      "en": "But I think the net impact that software will be much more secure because AI is also securing it. Can you talk about capital? There's very interesting things happening in capital markets. There's clearly lots of demand destruction happening.",
+      "zh": "但我认为净影响是，软件会安全得多，因为 AI 也在保护它。你能谈谈资本吗？资本市场上正在发生一些非常有意思的事。显然有大量的需求破坏（demand destruction）在发生。"
+    },
+    {
+      "i": 138,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "34:06",
+      "en": "We're not funding things that we would have in a different environment because the cost of capital to fund them is too high. And the cost is rising because the returns are so high on anything AI. I was like at this company this morning where if you and I had seen the deck five years ago,",
+      "zh": "有些东西我们不再去投了，换在别的环境下我们本来会投，因为给它们融资的资本成本太高了。而成本在上升，是因为任何跟 AI 沾边的东西回报都太高了。我今天早上还在一家公司，如果你我五年前看到那份路演材料，"
+    },
+    {
+      "i": 139,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "34:19",
+      "en": "it was an amazing software business and we should fund it. And now it seems to pale in comparison to other things that we could put our capital to. The capital itself feels like this interesting variable in this whole equation as a constraint. I'm curious how that feels to you.",
+      "zh": "它是一门了不起的软件生意，我们该投。可现在，跟我们能把资本投向的其他东西一比，它就相形见绌了。资本本身，感觉像是这整个等式里一个很有意思的变量，一个约束。我很好奇这对你来说是什么感受。"
+    },
+    {
+      "i": 140,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "34:34",
+      "en": "I sit on the boards with a lot of great companies that have the problem that you have. It's profitable, growing, 40, 50, 60 percent at scale, 300, 400, 500 million in ARR. What do those companies do? You can't really IPO because they're sub-scale, but they're great companies. And I think about my own personal portfolio.",
+      "zh": "我在很多了不起的公司的董事会里，它们都有你说的那个问题。公司是盈利的、在规模化下以 40%、50%、60% 增长，ARR 有三亿、四亿、五亿美元。这些公司该怎么办？你没法真的 IPO，因为它们规模还不够大，但它们是很棒的公司。我也会想我自己的个人投资组合。"
+    },
+    {
+      "i": 141,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "34:52",
+      "en": "I'm like whatever, I'm in muni bombs, man. I'd rather be in these companies, right? And so I think that everybody would be happy with an asset that grows 40 percent. Like you would be happy with your personal money being in there. If you can't see it. And so I still think these are very good companies. I feel it's more a question again.",
+      "zh": "我就想，管它呢，我买的是市政债（munis），老兄。我宁愿投这些公司，对吧？所以我觉得，人人都会乐意拥有一个以 40% 增长的资产。如果是你自己的钱，你也会乐意放进去，前提是你买得到。所以我仍然觉得这些是非常好的公司。我觉得这更多又是一个问题。"
+    },
+    {
+      "i": 142,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "35:11",
+      "en": "This is my naivety of not understanding this of like, are we going to see a shift in the market so that people can get exposure to this asset class? Because I think a risk profile is very, very different today. Nobody knows what's going to happen to AI when the market slows down. Nobody knows. It could be easy coming, easy go.",
+      "zh": "这是我不懂这方面的天真之处——我们会不会看到市场发生一种转变，让人们能够接触到这一类资产？因为我觉得今天的风险画像（risk profile）非常非常不同。没人知道市场放缓时 AI 会怎样。没人知道。它可能是来得快去得也快。"
+    },
+    {
+      "i": 143,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "35:26",
+      "en": "It could keep going forever. Like nobody really knows. And so the only free lunch I've ever seen in investing is diversification. And I would love to personally have one ask it. A best kit that includes these slower growing, but these assets that don't disappear",
+      "zh": "它也可能永远涨下去。就是没人真的知道。所以我在投资里见过的唯一免费午餐（free lunch），就是分散化（diversification）。而我个人非常想有一个资产组合包（asset kit），一个包含这些增长较慢、但不会消失的资产的组合包。"
+    },
+    {
+      "i": 144,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "35:41",
+      "en": "are most of the ones though that are in your mind extremely subjected to this disruption risk. There's lots of companies with that rough profile which seem terrifying in the face of how easy it's going to be to create software. I've been in for a guy. So for me, more software means you need more info. We don't vibe code databases yet.",
+      "zh": "不过，你心里想的那些公司，大多数是不是都极度暴露在这种颠覆风险之下？有很多具备那种画像的公司，在『创造软件将变得多么容易』面前，看起来是挺吓人的。对我来说，更多的软件意味着你需要更多的基础设施。我们还没到 vibe code 数据库的地步。"
+    },
+    {
+      "i": 145,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "35:59",
+      "en": "Like you do a very data like Snowflake be a well known example of kind of what you're talking about. Yeah, it's a great example. It's not just building it. It's really hard to have the long tailed features, the long tailed performance tweaks to actually operate these things is really, really tough.",
+      "zh": "比如说一家非常数据密集的公司，像 Snowflake，会不会是你说的这种东西的一个知名例子？是啊，这是个很好的例子。这不只是把它搭出来。真正难的是那些长尾功能、长尾的性能调优，去实际运营这些东西，真的非常非常难。"
+    },
+    {
+      "i": 146,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "36:12",
+      "en": "And so let's say that Snowflake is going 30% to 40% and the economics are good. Like I don't think that they're at any risk of being disrupted by AI. Maybe by data breaks, but that is like pre-AI type of thing. And so again, I'm very naive when it comes to these things. I'm a very simplistic thinker.",
+      "zh": "所以假设 Snowflake 在以 30% 到 40% 增长，而且经济性不错。我不觉得它们有任何被 AI 颠覆的风险。也许会被 Databricks〔颠覆〕，但那是一种前 AI 时代的东西。所以再说一次，我在这些事情上很天真。我是个非常简单的思考者。"
+    },
+    {
+      "i": 147,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "36:28",
+      "en": "My view is like I don't think AI is going to disrupt these. I think they are good businesses. I think more and more, the industry is going to want to wrap these up and get exposure. And I don't know what that looks like. It's kind of interesting. Like we're even seeing SPACs come back.",
+      "zh": "我的观点是，我不觉得 AI 会颠覆这些。我觉得它们是好生意。我觉得这个行业会越来越想把这些打包起来、获得敞口。我也不知道那会长什么样。这挺有意思的。比如我们甚至看到 SPAC 在回归。"
+    },
+    {
+      "i": 148,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "36:40",
+      "en": "I get a lot of calls now for companies that sit on the board out which are good companies where these SPACs are like, hey, listen, like we can make this stuff go public. So I think that the financial markets have to figure that out. There's a lot of companies that will be disrupted by AI. But there's a whole bunch that will not.",
+      "zh": "我现在接到很多电话，是那些我坐在董事会里的好公司，这些 SPAC 说，嘿，听着，我们能把这些东西弄上市。所以我觉得金融市场得把这个想明白。有很多公司会被 AI 颠覆。但也有一大批不会。"
+    },
+    {
+      "i": 149,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "36:53",
+      "en": "And I just think the market doesn't know what to do with them right now. Most meetings that you have around here, at least for me in the last, let's say, three months. Half the meeting is about compute. And that the product across categories just needs more compute that is available to accomplish its goals.",
+      "zh": "而我就觉得，市场现在不知道该怎么对待它们。你在这边开的大多数会，至少对我来说，在过去——比方说——三个月里，一半的会都在谈算力（compute）。就是说，跨各类别的产品，只是需要更多可用的算力来达成它的目标。"
+    },
+    {
+      "i": 150,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "37:09",
+      "en": "So there's another way of asking about the capital thing. You guys manage a ton of money. Everyone's deploying their funds at very fast paces. Each company that's working requires lots of capital. I'm trying to get a sense of the feel of how much capital itself is the constraint",
+      "zh": "所以还有另一种问资本这件事的方式。你们管理着海量的钱。每个人都在以非常快的节奏部署他们的基金。每一家在运转的公司都需要大量资本。我想感受一下，资本本身在多大程度上是那个约束——"
+    },
+    {
+      "i": 151,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "37:25",
+      "en": "that like if we just air dropped a trillion dollars more in all the funds, that would be a good thing. I said this before, but I've been a reiterate because it's so important. I really think the big disruption of AI is the fact that you can throw capital at problems.",
+      "zh": "就是说，如果我们给所有基金凭空多撒一万亿美元，那会是件好事。我以前说过，但我要再强调一遍，因为这太重要了。我真的觉得，AI 最大的颠覆在于，你可以拿钱去砸向问题。"
+    },
+    {
+      "i": 152,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "37:40",
+      "en": "In the history of tech, you haven't been able to do that because there's always an engineering problem, which just doesn't scale. The Mythical Man month is the Mythical Man month for the reason. Ten years ago, if I had five founders show up and asked for a billion dollars and I gave it to them, what would happen? It sits there.",
+      "zh": "在科技史上，你一直没法这么干，因为总有一个工程问题，它就是没法规模化。《人月神话》（The Mythical Man-Month）之所以是《人月神话》，是有原因的。十年前，如果有五个创始人跑来要十亿美元，而我给了他们，会发生什么？钱就搁在那儿。"
+    },
+    {
+      "i": 153,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "37:55",
+      "en": "Or they would detonate, right? They'd like hire a bunch of engineers and then you're really fucked. You can't throw capital at it. Can you explain the Mythical Man month? That's a very interesting idea. Yeah, so the Mythical Man month basically says that you can't increase the speed of engineering. It's like a natural law.",
+      "zh": "或者他们会把它引爆，对吧？他们会去雇一大堆工程师，然后你就真的惨了。你没法拿钱去砸它。你能解释一下《人月神话》吗？那是个很有意思的概念。可以。《人月神话》基本上是说，你没法提高工程的速度。这就像一条自然法则。"
+    },
+    {
+      "i": 154,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "38:13",
+      "en": "It's very sub-linear. It has to come with organizational communication. It's one of the conclusions. But the takeaway for those that are listening is that this comes from, I think Fred Brooks right under the 70s, which is basically like, you had these software projects and you wanted to get them out faster.",
+      "zh": "它是极度亚线性的。它必须配合组织沟通。这是其中一个结论。但对正在听的人来说，要点是，这出自——我想是 Fred Brooks，在七十年代——基本上就是说，你有这些软件项目，你想更快地把它们做出来。"
+    },
+    {
+      "i": 155,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "38:29",
+      "en": "And so they would throw more people at and then it would go slower. Engineering has always been this bottleneck. And in my experiences, and I had my own startup, I did it for ten years, right? It ended up being a very large business. This is totally true. You can't scale engineering.",
+      "zh": "于是他们就往里面塞更多人，然后进度反而更慢了。工程一直是这个瓶颈。以我的经验——我自己创业过，干了十年，对吧？它最后变成了一门非常大的生意。这一点千真万确：你没法规模化工程。"
+    },
+    {
+      "i": 156,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "38:43",
+      "en": "And to me, the biggest shifts, like we step back like industrial revolution level shift with AI is, I can take 20 people and I can give them a billion dollars and they can use that. Now, do they make 500 million from that billion or two billion? I have no idea.",
+      "zh": "而对我来说，最大的转变——我们退一步看，这是工业革命级别的转变——就是，我可以拿 20 个人，给他们十亿美元，他们能把这钱用起来。那他们能从这十亿里做出五亿，还是二十亿？我不知道。"
+    },
+    {
+      "i": 157,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "38:59",
+      "en": "But the fact that you can productively use that money is so new and it's so interesting. And so at some level, the capital markets need to figure this out because they are taking this money and using it. And if you look at anthropic and opening eye, they've probably raised more money and aggregate",
+      "zh": "但『你能有生产效力地把那笔钱用起来』这件事，是如此全新、如此有意思。所以在某种层面上，资本市场需要把这个想明白，因为他们正在拿这些钱、并用起来。如果你看 Anthropic 和 OpenAI，他们融到的钱加起来，可能比整个下游生态加起来还多，多出好几倍。"
+    },
+    {
+      "i": 158,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "39:14",
+      "en": "than the entire downstream ecosystem combined by a factor of whatever. They are these mechanisms of turning money into growth. So that's one side. But there's another side which is the debt side, which is quite a bit different than the equity side, which is I do think that currently I'm not a growth investor, not a public markets guy.",
+      "zh": "他们就是这些把钱变成增长的机制。所以这是一面。但还有另一面，就是债务那一侧，它跟股权那一侧相当不同。我确实觉得，目前——我不是成长期投资人，不是公开市场的人，"
+    },
+    {
+      "i": 159,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "39:30",
+      "en": "I'm not a debt guy. But here's what I'm sitting on the ground. We're running out of available debt. And if you're the Norway pension fund, are you going to give debt to a random neo-cloud or buy T-bills? And I think that we're just at a point where you don't have enough money to go around.",
+      "zh": "我也不是做债务的人。但以下是我在一线看到的情况：我们可用的债务正在耗尽。如果你是挪威养老基金，你会把债借给一家随便冒出来的新云（neo-cloud），还是去买国债（T-bills）？我觉得我们正处在一个钱不够分的节点。"
+    },
+    {
+      "i": 160,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "39:47",
+      "en": "So it's going to prefer the investment-grade companies. And then those that are not investment-grade will have a harder time. So scale wins again. Scale will win. And then it'll be a harder time raising debt. If your business model requires you to raise debt, there's just not enough debt to go out.",
+      "zh": "所以它会偏向那些投资级（investment-grade）的公司。然后那些不是投资级的，会更难。所以规模又一次胜出。规模会赢。然后如果你的商业模式需要你举债，你会更难融到债，因为根本没有足够的债务可放。"
+    },
+    {
+      "i": 161,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "40:01",
+      "en": "So I know what you're talking about capital is in general capital. You're going to see a ton of liquidity. I think that that feels fine to me. The debt side, I don't know these markets, but I definitely know it's harder to get debt now.",
+      "zh": "所以我明白你说的资本是什么意思——总的来说是资本。你会看到海量流动性。我觉得那没问题。债务那一侧，我不懂这些市场，但我确实知道现在更难拿到债了。"
+    },
+    {
+      "i": 162,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "40:12",
+      "en": "And I think what this will mean, if we want to have smaller players around that are not IG, they get debt. They're going to need to prepay, which means their customers are going to need to prepay. So I think over time, this all kind of flows back to the availability of cash and capital. Because you do have limited amounts of debt.",
+      "zh": "我觉得这将意味着，如果我们想让那些规模较小、不是投资级（IG）的玩家留在场里、拿到债务，他们就得预付款，也就意味着他们的客户得预付款。所以我觉得随着时间推移，这一切都会回流到现金和资本的可得性上。因为你确实只有有限量的债务。"
+    },
+    {
+      "i": 163,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "40:27",
+      "en": "This reminds me to ask about neo-labs, neo-clouds, inference providers and companies. I don't know if you call these infrastructure or what part of the stack. Yeah, that's all those infrastructures. So if you take those categories in turn, there's lots of them. Lots of them have been funded. Very few of them are at scale.",
+      "zh": "这提醒我去问问新实验室（neo-labs）、新云（neo-clouds）、推理提供商（inference providers）这些公司。我不知道你会把这些叫作基础设施，还是栈里的哪一部分。是的，那些全都是基础设施。所以如果你逐个看这些类别，它们有很多，很多都拿到了融资，但极少达到规模。"
+    },
+    {
+      "i": 164,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "40:44",
+      "en": "I'm curious how you think this plays out. Like what roles they should and will play, what the market feels like. These things are growing so unbelievably fast in those cases. I'm very interested by these companies. I'm curious what you think of these categories. Well, let's put neo-labs aside.",
+      "zh": "我很好奇你觉得这会怎么演变。就是它们应该、以及将会扮演什么角色，市场感觉如何。这些东西在这些情况下增长得快得难以置信。我对这些公司非常感兴趣。我很好奇你怎么看这些类别。嗯，我们先把新实验室放一边。"
+    },
+    {
+      "i": 165,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "41:01",
+      "en": "Because I think that's the least we'll define of all of them. I included them to be clear because so many of them seem to be building their own... They're becoming neo-class. Like every pitch. So many pitches turn into some version of like we're building a token factory with some degree of vertical integration.",
+      "zh": "因为我觉得那是它们所有里面定义最不清楚的。我把它们包括进来，说清楚一点，是因为它们中很多似乎在自建自己的……它们正在变成新云。就像每一份路演材料。太多路演都变成了某种版本的『我们在建一个带一定垂直整合的 token 工厂』。"
+    },
+    {
+      "i": 166,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "41:16",
+      "en": "And some neo-labs are going all the way down to like buying land and power and all the way up through the token. You know what I mean? So there's this year... Yeah, I think so. In my world, that wouldn't be considered a neo-lab. That'd be it. Like all neo-clouds want to be token factories.",
+      "zh": "而且有些新实验室一路往下走到买地、买电，一路往上走到 token。你懂我意思吗？所以有这么一种……是的，我觉得是。在我的世界里，那不会被算作新实验室。那就是〔新云〕。就像所有新云都想成为 token 工厂。"
+    },
+    {
+      "i": 167,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "41:28",
+      "en": "That would view if like your output is like a token of an existing model architecture or something else. Yeah, you're a neo-cloud. Like all of them want to do that and they will all verticalize. The actual real limitation right now is hardware supply. That's not capital. It's not debt. That's the actual real limitation and power.",
+      "zh": "那要看，如果你的产出是某个现有模型架构的 token 或别的什么。是的，你就是个新云。就像它们全都想干这个，而且它们都会垂直整合。当下真正的限制是硬件供应。那不是资本，不是债务。那才是真正的限制，还有电力。"
+    },
+    {
+      "i": 168,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "41:44",
+      "en": "So neo-cloud to me is one that actually provides the physical infrastructure that ends at tokens. And so they can provide GPUs. They can provide fine-tuning services or they can provide tokens. But it's like I think of like a data center that actually has the GPUs in it. That's what a neo-cloud is to me.",
+      "zh": "所以新云对我来说，是那种真正提供物理基础设施、终点落在 token 上的公司。所以它们可以提供 GPU，可以提供微调（fine-tuning）服务，或者可以提供 token。但我把它想成一个真的把 GPU 放在里面的数据中心。这就是新云对我的含义。"
+    },
+    {
+      "i": 169,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "41:59",
+      "en": "A neo-lab to me is give me a billion dollars. We're going to come up with a new model architecture. I love a lot of these business plans are like if we solve ASI, that's our business model. Like literally like that. And by the way, to be fair, that's what open AI's original thesis was.",
+      "zh": "新实验室对我来说是，给我十亿美元，我们要搞出一个新的模型架构。我很喜欢——很多这类商业计划就是，如果我们解决了 ASI（通用超级智能），那就是我们的商业模式。真的就是这样。而且顺便说一句，公平地讲，那正是 OpenAI 最初的论点。"
+    },
+    {
+      "i": 170,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "42:13",
+      "en": "And to some extent, anthropics, which is like if you solve the intelligence problem, the business model part is easy. So that's to me a neo-lab. It's new architecture, model training and sometimes they'll buy their own infrastructure and buy their own GPUs. But like that's not what they're building towards or selling.",
+      "zh": "在某种程度上，Anthropic 也是，就是说如果你解决了智能问题，商业模式那部分就简单了。所以那对我来说就是新实验室。它是新架构、模型训练，有时候他们会买自己的基础设施、买自己的 GPU。但那不是他们要构建或售卖的目标。"
+    },
+    {
+      "i": 171,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "42:27",
+      "en": "The real constraint right now is power. It is chips. It is materials. With that sort of a limitation, 80% of these things are going to go to the scale providers. 20% are just going to be kind of hard to reach places, nitchy type places. Like I have the relationship with a random government that has the power. It was kind of funny.",
+      "zh": "当下真正的约束是电力，是芯片，是材料。有这样的限制，这些东西里 80% 会流向规模化的提供商。20% 就只是一些比较难触达的地方、小众的地方。就像我跟某个掌握电力的随机政府有关系。这有点搞笑。"
+    },
+    {
+      "i": 172,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "42:47",
+      "en": "I bet this company a GPU marketplace. That's what it does. But it's like the most low level version of it. And like many of their GPS converted chicken sheds. You know, like chicken coops where like people in farms are like finding ways to provide it. So the market is so large, there will always be a significant portion.",
+      "zh": "我押注了一家做 GPU 市场（marketplace）的公司。它就是干这个的。但它是这事儿最底层的版本。就像他们很多 GPU 是改造鸡舍来的。你知道，就是鸡舍、鸡笼那种，农场上的人在想办法提供算力。所以这个市场太大了，永远会有相当大的一部分，"
+    },
+    {
+      "i": 173,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "43:05",
+      "en": "That just doesn't make sense for the SpaceX's to do. Like SpaceX is not going to go and find out how to create a marketplace of chicken coop GPUs. And I think this is what ended up happening is the 20% is large enough to have a very wide fragment of the array of folks.",
+      "zh": "是那些 SpaceX 级别的公司去做没意义的。就像 SpaceX 不会去研究怎么搭一个鸡舍 GPU 的市场。我觉得最终发生的情况是，那 20% 已经大到足以容纳一大批形形色色、非常分散的玩家。"
+    },
+    {
+      "i": 174,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "43:18",
+      "en": "But then the 80% of the market are going to be these homogenous things like SpaceX. I heard this story recently that someone asked Larry Page how much of compute will be orbital. And he said five nines. And the reason was it's just physics. Eventually it's all going to be in space. The actual spacing actually pencils out.",
+      "zh": "但接下来，80% 的市场会是这些同质的东西，像 SpaceX。我最近听到一个故事，有人问 Larry Page，未来会有多少算力在轨道上（orbital）。他说了五个九（five nines）。原因是，这就是物理。最终它全都会跑到太空里去。那个太空的账其实是算得过来的。"
+    },
+    {
+      "i": 175,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "43:34",
+      "en": "But the reason it makes the most sense is just regulatory. Just because it skirts it. Yeah. There's 500 proposed legislations to stop data center building the United States alone, including Texas. Right. Like if you can't build a data center of Texas, I don't know what we're doing anymore.",
+      "zh": "但它之所以最说得通，纯粹是监管原因。就是因为它绕开了监管。是的。光是美国，就有 500 项拟议中的立法要阻止数据中心建设，包括 Texas。对。就像，如果你连在 Texas 都建不了数据中心，我就不知道我们还在干嘛了。"
+    },
+    {
+      "i": 176,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "43:47",
+      "en": "If that regulatory pressure continues and you actually can't break ground. And I've heard from many of the top data center people like it's very tough to break ground right now. Then either you go international or you go into space. You're coming on these software companies growing 60%.",
+      "zh": "如果那种监管压力持续下去，你真的没法动工。而且我从很多顶尖的数据中心从业者那里听到，现在动工非常难。那么要么你走向国际，要么你走向太空。你正碰上这些以 60% 增长的软件公司。"
+    },
+    {
+      "i": 177,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "44:01",
+      "en": "Reminds you to ask about prevailing valuations in the market. And as a productive investor that's focused on disruptive assets being created. Even if the disruptive asset is truly incredibly valuable and great. Every one of those has a price that will ruin the return of investing in it. If it's too high.",
+      "zh": "这提醒我去问一问市场上流行的估值。而作为一个专注于『颠覆性资产被创造出来』的生产性投资人，即便那项颠覆性资产真的无比有价值、无比出色，它们每一个都有一个价格，如果太高，就会毁掉投资它的回报。"
+    },
+    {
+      "i": 178,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "44:19",
+      "en": "So this is another one of my bugaboo's. I don't know how you can be a VC and not believe tech rates value, which is the first conversation. And now I'm going to have a second conversation, which is I don't know how you can be a VC and not believe markets are efficient. What are we doing?",
+      "zh": "所以这又是我的一个执念（bugaboo）。我不知道你怎么能既做 VC、又不相信技术创造价值，这是第一个话题。现在我要讲第二个话题：我不知道你怎么能既做 VC、又不相信市场是有效的。我们到底在干嘛？"
+    },
+    {
+      "i": 179,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "44:30",
+      "en": "Like recapitalists, you have to believe markets are efficient. I think private markets are very efficient. And private markets figure out the price. And so I just don't try and bet against the market. I think a lot of people think that private markets aren't efficient. And so you can find the deal and find the non consensus deal.",
+      "zh": "就像，作为风险投资人，你必须相信市场是有效的。我觉得私募市场非常有效。私募市场会把价格定出来。所以我从不去跟市场对赌。我觉得很多人认为私募市场无效，所以你能找到那个交易、找到那个非共识的交易。"
+    },
+    {
+      "i": 180,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "44:46",
+      "en": "And all of those deals are incredibly competitive. And I didn't win by looking for a deal or whatever. I pay the market price and maybe I'll get a little discount for negotiating or whatever. But I never really worry about that. And so as a productive investor, I just trust that the markets are actually pretty smart.",
+      "zh": "而所有那些交易都竞争得极其激烈。我也不是靠去找某个交易之类的赢的。我付市场价，也许我会因为谈判之类拿到一点点折扣。但我从不真的为那个操心。所以作为一个生产性投资人，我就是相信市场其实相当聪明。"
+    },
+    {
+      "i": 181,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "45:03",
+      "en": "And I trust that the markets will value it given risk adjusted. And I believe that my diligence reduces that risk for me. I don't do it on market value. Yeah, I'm not trying to find a better price. I'm just trying to find a less riskier asset.",
+      "zh": "而且我相信，市场会在风险调整后给它估值。而我相信我的尽调为我降低了那份风险。我不是在市场价值上做文章。是的，我不是想找一个更好的价格。我只是想找一个风险更低的资产。"
+    },
+    {
+      "i": 182,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "45:16",
+      "en": "Doesn't it fall though that then the approach would be to actually try to index the private markets? Like you just try to own literally the market weights of... Oh, I would love to, but you can't. I would love to. Of course, yeah, so this is right. So there's where this all lends to. And this is kind of how we think about investing.",
+      "zh": "那这不就意味着，接下来的做法应该是真的去试图给私募市场做指数化（index）吗？就像你就去持有那些字面意义上的市场权重……哦，我太想了，但你做不到。我太想了。当然，是的，所以这就对了。所以这就是这一切引向的地方。这也差不多是我们思考投资的方式。"
+    },
+    {
+      "i": 183,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "45:30",
+      "en": "Of course, if I can have a 10 decks of every competitive deal. Like literally my dream would be I get five percent... If that was a cognition when you buy cursor. I have every cup. I've got five percent of every competitive. Like I really believe private markets are super efficient. I do. And I think that the consensus is actually smart.",
+      "zh": "当然，如果我能拿到每一个竞争性交易的 10%。字面意义上，我的梦想会是拿到 5%——比如那如果是 Cognition，当你买 Cursor 的时候。我拿到每一份，我拿到每一个竞争性交易的 5%。我是说，我真的相信私募市场超级有效，我真的这么认为。而且我觉得共识其实是聪明的。"
+    },
+    {
+      "i": 184,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "45:47",
+      "en": "Because I'm a capitalist and I believe in markets. And so if I could have five percent of every competitive deal where you've got legit investors and it not be happy. But you simply cannot do that. You can't do that for competitive reasons. You can't do that for capacity reasons.",
+      "zh": "因为我是个资本主义者，我相信市场。所以如果我能拿到每一个竞争性交易的 5%——那些有正经投资人参与的交易——我会乐坏了。但你根本做不到那样。出于竞争原因你做不到，出于容量原因你也做不到。"
+    },
+    {
+      "i": 185,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "46:00",
+      "en": "As an investor, you have to come up with how do I not run the competitive bus hub? Even more importantly, how do I not run out of our ability to keep track and help these companies? Because I do take the boards. I do get very involved, very involved. That's just impractical.",
+      "zh": "作为一个投资人，你必须想出：我怎么才能不把竞争性交易跑光？更重要的是，我怎么才能不耗尽我们持续跟进、帮助这些公司的能力？因为我确实进董事会，我确实深度参与，非常深度。那根本不现实。"
+    },
+    {
+      "i": 186,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "46:14",
+      "en": "So the way that we think about it, which you've heard before, but all of a restated is... For every legitimate sector. And by that legitimate sector, we define it as there's good founders in it. Because we don't second guest founders. They're risking their futures and the opportunity costs in their family's wealth.",
+      "zh": "所以我们思考它的方式——你以前听过，但我再重述一遍——是：对每一个正当的板块。而所谓正当板块，我们的定义是里面有好的创始人。因为我们不质疑创始人。他们在拿自己的未来、机会成本、以及家族的财富去冒险。"
+    },
+    {
+      "i": 187,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "46:29",
+      "en": "Then it's a good sector. We do the work to try to side for every good sector, which is the top company. And that means you look at the team, you look at the tech. And you look at the monetization potential. You look at the market growth potential. You look at all of that stuff. And then we choose the best one.",
+      "zh": "那它就是个好板块。我们下功夫，去为每一个好板块挑出那家最好的公司。这意味着你看团队、看技术、看变现潜力、看市场增长潜力，你看所有那些东西。然后我们选出最好的那个。"
+    },
+    {
+      "i": 188,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "46:43",
+      "en": "And then we assume that the market is efficient. That's kind of the approach. It's kind of an index, but we're actually segmenting it by market. Sometimes we get it right, and sometimes we get it wrong. But that way you're indexing the interesting markets. Yeah, there's this thing in indexing called stratified sampling.",
+      "zh": "然后我们假设市场是有效的。这差不多就是那套方法。它有点像做指数，但我们其实是按市场来分层的。有时候我们判断对，有时候判断错。但那样你就在给那些有意思的市场做指数化。是的，指数化里有个东西叫分层抽样（stratified sampling）。"
+    },
+    {
+      "i": 189,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "46:57",
+      "en": "It's from my old quantitatively. But you can buy a small subset of the index. And have your tracking error to the index be very low. Because actually literally what you're describing is effectively stratified sampling. Get the exposure to the best biggest to whatever per category. And that will perform similar. Yeah, okay.",
+      "zh": "那是出自我以前做量化（quant）的老本行。但你可以买入指数的一小部分，却让你对指数的跟踪误差（tracking error）非常低。因为实际上，字面意义上，你描述的正是分层抽样。拿到每个类别里最好、最大的那个的敞口，表现就会相近。是的，好的。"
+    },
+    {
+      "i": 190,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "47:14",
+      "en": "I think venture capital early on. And I wasn't there. I just read the books. I think it believed that tech created value. I mean, often there was no business to evaluate. And I just don't see so much hand ringing about bubbles or this or that or the other thing. The market price is the market price.",
+      "zh": "我觉得风险投资在早期——我不在场，我只是读那些书——它相信技术创造价值。我是说，那时候常常根本没有一门生意可供评估。而我也看不到那么多关于泡沫、这个那个的捶胸顿足。市场价就是市场价。"
+    },
+    {
+      "i": 191,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "47:31",
+      "en": "To me, there's always this huge dissonance when I'm talking with other investors. They're always declining the bubbles, which nobody can ever predict. But definition everybody's calling it a bubble. It's probably not a bubble. Like it's almost a bubble like when everybody's investing. Because they think there's still upsides.",
+      "zh": "对我来说，我跟其他投资人谈话时总有这种巨大的失调感。他们总是在宣称泡沫，而没人能预测泡沫。但按定义，如果人人都在喊它是泡沫，它大概就不是泡沫。就像，它几乎是个泡沫——当人人都在投的时候——因为他们觉得还有上行空间。"
+    },
+    {
+      "i": 192,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "47:45",
+      "en": "And then they don't somehow think private markets are efficient. Remember, I got VC canceled because I'm like non-consisting investing is dangerous. I once on Twitter was like, hey, listen, I think it's dangerous to invest against consensus because basically there's fall on capital risk. And from saying that, many prominent VCs came out.",
+      "zh": "然后他们又不知怎的不认为私募市场是有效的。记住，我被 VC 圈『取消』过，因为我说非共识投资是危险的。我曾经在 Twitter 上说，嘿，听着，我觉得逆着共识投资是危险的，因为基本上有本金全损的风险。就因为说了这话，很多知名 VC 站了出来。"
+    },
+    {
+      "i": 193,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "48:03",
+      "en": "And they're like, oh, like all of these deals that we've done were non-consensus. And I think there's something very tied to the ego and the identity of investors that they have to believe that they can truffle hunt and find the non-consisting they're smarter than everybody else.",
+      "zh": "他们说，哦，我们做过的所有这些交易都是非共识的。而我觉得，投资人身上有种东西跟自我（ego）和身份认同绑得很紧，他们必须相信自己能像刨松露一样挖出那些非共识的东西、相信自己比所有人都聪明。"
+    },
+    {
+      "i": 194,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "48:16",
+      "en": "But I think the reality is, is certainly if you look at our portfolio, the ones that return money were actually very, very competitive in general. I just think these marks are actually quite efficient. I love the idea of market efficiency and private markets being one area that you disagreed with lots of well-known.",
+      "zh": "但我觉得现实是，如果你看我们的投资组合，那些真正赚回钱的，一般来说其实都竞争得非常非常激烈。我就是觉得这些市场其实相当有效。我很喜欢『市场有效性』这个说法，也很喜欢私募市场是你在很多知名 VC 那里持异议的一个领域这件事。"
+    },
+    {
+      "i": 195,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "48:30",
+      "en": "Yeah, apparently a whole lot. Really all of them. Are there any other areas like that where you feel especially alone? Yes. There's another one that drives me nuts. This is my last one I promise. Another thing that drives me nuts is this belief that if you put money in private markets it doesn't somehow grow the time of private markets.",
+      "zh": "是的，显然跟一大票人意见相左。真的是所有那些人。还有没有别的领域，是你觉得自己特别孤立的？有。还有一个快把我逼疯的。这是我最后一个，我保证。另一件快把我逼疯的事，是这种信念：如果你把钱投进私募市场，它就不知怎的不会让私募市场的 TAM 增长。"
+    },
+    {
+      "i": 196,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "48:46",
+      "en": "I love roll-off. I think he's fantastic. He's probably intelligent guy. He's a great board member. But he gave this talk. Do you remember that TechCrunch distributed many investors believe this? So this isn't to call for a lot because I was actually a huge fan of his but he was like, venture capital is not an asset class.",
+      "zh": "我很喜欢 Roll-off。我觉得他非常出色。他大概是个很聪明的人。他是个很棒的董事会成员。但他做过一个演讲。你还记得那个 TechCrunch Disrupt 吗？很多投资人都信这一套。所以这不是要喷他——因为我其实一直是他的粉丝——但他当时说，风险投资不是一个资产类别。"
+    },
+    {
+      "i": 197,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "49:02",
+      "en": "There's only 20 startups that matter. And that's it. If there's too much money going in, you've overfunded private markets. And to me, this is ludicrous. Capital creates opportunities and markets and value. And even though there is so much more money that has gone into private markets",
+      "zh": "只有 20 家初创公司才重要。就这样。如果有太多钱涌进去，你就把私募市场过度融资了。而对我来说，这是荒谬的。资本创造机会、创造市场、创造价值。而且尽管在过去 20 年里"
+    },
+    {
+      "i": 198,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "49:18",
+      "en": "in the last 20 years, the value in the private markets has kept pace. You've gotten massive private companies, tons of opportunities, very large exits. And so this zero sum thinking about private markets. So bizarre. We're venture investors. We create value. Tech creates value. If you put more money in it, it'll grow.",
+      "zh": "有那么多钱涌进了私募市场，私募市场里的价值却跟上了步伐。你得到了巨型私募公司、大量机会、非常大的退出。所以这种对私募市场的零和（zero sum）思维，太离谱了。我们是风险投资人。我们创造价值。技术创造价值。如果你往里投更多钱，它会增长。"
+    },
+    {
+      "i": 199,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "49:39",
+      "en": "And you will be surprised. And maybe you won't be surprised. But I've been very surprised how calm in this mindset is. I'm very often I'll talk to a pretty senior GP. He's been investing for 20 years though. I go, there's too much money. I'm like, what are you talking about? There's been more money in there.",
+      "zh": "你会感到惊讶，也许你不会。但我非常惊讶，这种心态有多普遍。我常常跟一个相当资深的 GP 聊，他投了 20 年了。他说，钱太多了。我就想，你在说什么？钱一直往里进，"
+    },
+    {
+      "i": 200,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "49:52",
+      "en": "We need more ecosystem, more value, more investment. So I do believe money in private markets creates tam. It creates the investable tam. I think it creates value. And there's more opportunity to deploy money now in private markets than it ever has before. Even very simple examples of that are like, companies are not going public.",
+      "zh": "我们需要更多生态、更多价值、更多投资。所以我确实相信，投进私募市场的钱会创造 TAM，它会创造可投资的 TAM。我觉得它创造价值。而且现在私募市场里可部署资金的机会，比以往任何时候都多。就连非常简单的例子也是，比如公司都不去上市了。"
+    },
+    {
+      "i": 201,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "50:11",
+      "en": "Like if there's more private money available, why would you even go public? Again, we need to all step away from zero sum thinking. I think we all need to believe that technology creates value. Now especially now, we need to believe that capital enables technology to create value. And if that's the case, more money in private markets",
+      "zh": "就像，如果有更多私募资金可用，你为什么还要去上市？再说一次，我们都需要从零和思维里走出来。我觉得我们都需要相信技术创造价值。而尤其是现在，我们需要相信资本能让技术去创造价值。如果真是这样，那么投进私募市场的更多钱，"
+    },
+    {
+      "i": 202,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "50:27",
+      "en": "we shouldn't deploy the money and we should create the value. Your finance team isn't losing money on big mistakes. It's leaking through a thousand tiny decisions nobody's watching. Ramp puts guardrails on spending before it happens. Real-time limits, automatic rules, zero firefighting. Try it at ramp.com slash invest.",
+      "zh": "我们就该去部署那笔钱，我们该去创造价值。你的财务团队并不是在大的错误上亏钱。它是在一千个没人盯着的小决定里悄悄流失。Ramp 在支出发生之前就给它加上护栏。实时限额、自动规则、零救火。来 ramp.com/invest 试试。"
+    },
+    {
+      "i": 203,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "50:47",
+      "en": "As your business grows, Vanta scales with you, automating compliance and giving you a single source of truth for security and risk. Learn more at Vanta.com slash invest. Bridgeline offers one unified platform that automates away the complexity across portfolio accounting, reconciliation, reporting, trading, compliance, and more,",
+      "zh": "随着你的业务成长，Vanta 与你一同扩展，自动化合规，并为安全与风险提供单一事实来源。想了解更多信息，请访问 vanta.com/invest。Ridgeline 提供一个统一平台，把投资组合核算、对账、报告、交易、合规等各方面的复杂性都自动化掉，"
+    },
+    {
+      "i": 204,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "51:05",
+      "en": "all at scale. Schedule a demo at ridgeline.ai. Every investment firm is unique and generic AI chat plots don't understand your process. Rogo is built by finance professionals. It's connected to your data, learns your process, and quickly produces client-ready outputs. Check them out at rogo.com slash invest.",
+      "zh": "全部规模化完成。在 ridgeline.ai 预约演示。每一家投资公司都是独特的，通用的 AI 聊天机器人（chatbots）不懂你的流程。Rogo 由金融专业人士打造。它连接你的数据、学习你的流程，并快速产出可直接交付客户的成果。来看看他们吧，访问 rogo.com/invest。"
+    },
+    {
+      "i": 205,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "51:26",
+      "en": "The best AI and software companies from open AI to cursor to perplexity use work OS to become enterprise-ready overnight, not in months. Visit workOS.com to skip the unglamorous infrastructure work and focus on your product. You've been on MBAGM terms. You're like the player that's on fire.",
+      "zh": "从 OpenAI 到 Cursor 到 Perplexity，最好的 AI 和软件公司都在用 WorkOS，一夜之间、而不是花几个月就做到企业级就绪。访问 workos.com，跳过那些不光鲜的基础设施活儿，专注于你的产品。你在 M&A 上一直很活跃。你就像那个手感火热的球员。"
+    },
+    {
+      "i": 206,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "51:43",
+      "en": "You get like jump really high between cursor and 5-phase company and open router. You know, all of these in a very short period of time. Well done. But I'm more curious about lessons you learned about M&A and what's going on in this market having been a part of maybe the three biggest major scale M&A's in the last couple of months.",
+      "zh": "你在很短一段时间里，就在 Cursor、另一家公司和 OpenRouter 之间连连高高跃起。干得漂亮。但我更好奇的是，你在 M&A 上学到的经验，以及这个市场里正在发生什么——毕竟你参与了过去几个月里也许是三笔最大规模的 M&A。"
+    },
+    {
+      "i": 207,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "52:00",
+      "en": "So actually, I kind of have a history with strategic M&A going back to my company. So when I sold my company to VMware, it was a $1.26 billion exit, which at the time was the high, I think I beat David Sacks's Yammer. It was the highest acquisitions I've had. He was counting, yeah. He was kind of funny because catalysts,",
+      "zh": "其实，我跟战略 M&A 有点渊源，可以追溯到我自己那家公司。当年我把公司卖给 VMware 时，那是一笔 12.6 亿美元的退出，在当时是最高纪录——我想我超过了 David Sacks 的 Yammer。那是最高的收购价之一。他当时在数着，是的。这事儿挺搞笑的，因为 Catalyst，"
+    },
+    {
+      "i": 208,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "52:20",
+      "en": "catalysts showed me this chart. It was just multiples of revenue and the total exit. And there's two outliers and it was like, yeah, you're in your company. And they're like really close to each other. I was like, marginally better. I'm not going to use this moment. At the time, I think that was the highest acquisition",
+      "zh": "Catalyst 给我看了这张图。它就是收入的倍数和总退出额。上面有两个离群值，就像，是的，那是你和你的公司。它们俩挨得非常近。我就说，我在边际上更好一点。这种时刻我可不谦虚。在当时，我想那是软件领域里以收入倍数和价格计最高的收购，"
+    },
+    {
+      "i": 209,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "52:35",
+      "en": "of multiples of revenue and price software. And then actually, I was part of a deal that beat that, which was the tabular acquisition to Databricks. And then of course, Curtis, I think it was the largest price to fit acquisition ever. And of course, you know, faith he's acquisition is a very large acquisition.",
+      "zh": "在软件领域以收入倍数和价格计最高的收购。然后其实，我参与过一笔打破了那个纪录的交易，就是 Tabular 被 Databricks 收购。然后当然，Cursor，我想那是有史以来最大的一笔收购。而且当然，你知道，Figma 的收购也是一笔非常大的收购。"
+    },
+    {
+      "i": 210,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "52:48",
+      "en": "I've just been a part of a lot of these strategic M&A. And so I think my comment only goes to strategic M&A. I've noticed a few trends. One of them is there's almost always always deep personal alignment. Because it's a real risk for both sides. I think like Lisa Sue and Faith here. I think Michael Truel and Elon",
+      "zh": "我就是参与过很多这类战略 M&A。所以我想我的评论只针对战略 M&A。我注意到几个趋势。其中之一是，几乎总是、总是有深度的个人层面的契合。因为这对双方都是真实的风险。我想就像 Lisa Su 和这边这位。我想 Michael Truell 和 Elon，"
+    },
+    {
+      "i": 211,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "53:06",
+      "en": "are think like Alex and Patrick. I mean, you now almost always have people to have same visions of the future and they think about it the same way. Whether it's you think in terms of markets or you think in terms of infrastructure, you think in terms of data. That's almost always present. There's some existing alignment.",
+      "zh": "我是说，你现在几乎总是能看到人们对未来有同样的愿景，而且他们用同样的方式思考它。不管你是从市场的角度思考，还是从基础设施的角度、从数据的角度思考，那种契合几乎总是在的。总有一些既有的契合。"
+    },
+    {
+      "i": 212,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "53:24",
+      "en": "The second one is you have to take it from the mind of the buyer. So what the buyer is doing is they're basically buying an option on a large market. So in the case of VMware buying this Syrah, they're buying a $1 billion option on a $40 billion market. And so in order for that to make sense,",
+      "zh": "第二点是，你得从买方的头脑里去理解它。买方在做的，基本上是在买一个关于大市场的期权（option）。所以在 VMware 收购 Nicira 这个案子里，他们是在一个 400 亿美元的市场里买一个 10 亿美元的期权。而要让那说得通，"
+    },
+    {
+      "i": 213,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "53:40",
+      "en": "you kind of have to solve the inductive proof for them. You have to show them the base case, which is we have this business that sells in a networking. We can get that budget. And then you have to do the inductive step. And you guys have virtual machines. So if we attach this to a virtual machine, we can sell more.",
+      "zh": "你多少得替他们把那个归纳证明（inductive proof）解出来。你得给他们看基础情形（base case），也就是：我们有这门在网络领域销售的生意，我们能拿到那笔预算。然后你得做归纳的那一步。而你们有虚拟机（virtual machines）。所以如果我们把这个挂到虚拟机上，我们就能卖更多。"
+    },
+    {
+      "i": 214,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "53:57",
+      "en": "And then therefore for part of you, we can sell a whole bunch of these things. So you're almost because you're buying a future option on a market. The company's job is to show the inductive step. The company being acquired or both of them, the discussion clearing has to. Yeah, the discussion for the KMNA has to be",
+      "zh": "然后因此，对你们的一部分来说，我们能卖出一大堆这东西。所以几乎就是——因为你在买一个关于市场的未来期权——这家公司的活儿就是把归纳的那一步展示出来。被收购的公司，或者说双方，那场讨论必须……是的，那场关于 M&A 的讨论必须是："
+    },
+    {
+      "i": 215,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "54:11",
+      "en": "that you have the base case, you have the inductive step. Therefore you can get this to this market, which is like the large markets that happens. And that conversation in my experience is one kind of only founders can do and maybe investors that really understand strategically what is going on. But those conversations are almost like",
+      "zh": "你有基础情形，你有归纳的那一步。因此你能到达这个市场，也就是那个大市场——事情就是这样发生的。而以我的经验，那种对话基本上是只有创始人才能做的，也许还有那些真正从战略上理解正在发生什么的投资人。但那些对话几乎就像"
+    },
+    {
+      "i": 216,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "54:30",
+      "en": "really high stakes enterprise sales. I've been a part of a lot of more auctiony type M&A. You never have those conversations. You're looking at the financial metrics and the spreadsheets and kind of buying an asset, et cetera. And they've got a very different flavor. But I think that, especially with the timelines going down on tech,",
+      "zh": "非常高风险的企业级销售（enterprise sales）。我参与过很多更偏拍卖式（auctiony）的 M&A。你从不会有那种对话。你就是在看财务指标、看电子表格，某种意义上在买一项资产，等等。它们有一种非常不同的味道。但我觉得，尤其是随着科技的时间线在缩短，"
+    },
+    {
+      "i": 217,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "54:48",
+      "en": "I think we're going to see more and more strategic exits. And so I think it's probably important for people to get pretty smart of how these things look. And it's very different than they assume. And most people assume you should hire a banker and you should have an auction and get the highest price. Hiring a banker is fine.",
+      "zh": "我觉得我们会看到越来越多的战略性退出（strategic exits）。所以我想，让人们相当了解这些东西长什么样，可能很重要。而它跟他们假设的非常不同。大多数人都假设你应该雇个投行、办一场拍卖、拿到最高价。雇投行没问题。"
+    },
+    {
+      "i": 218,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "55:01",
+      "en": "You can do that if you want. But the idea that you're going to go to the Apex Predator or someone like whatever Mark Zuckerberg and played poker, like you're kidding yourself. These things are built on trust and telling out a story, not playing games or playing poker. And so I just think that there's a mindset",
+      "zh": "你想那么做可以做。但那个『你要去找顶级掠食者（Apex Predator），或者某个像 Mark Zuckerberg 那样的人，然后跟他玩扑克』的想法，你是在骗自己。这些东西是建立在信任和讲出一个故事之上的，不是玩游戏、不是打扑克。所以我就觉得，有一种心态"
+    },
+    {
+      "i": 219,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "55:16",
+      "en": "that you need to have if you're going to engage in these things. That's quite different than the intuition. So can you tell from your perspective the story of let's say the cursor since that's the biggest one of that acquisition since you're such an involved investor? Give us the story. We're just about ready to get a raise done.",
+      "zh": "是你如果要参与这些东西就必须具备的，它跟直觉相当不同。那你能不能从你的角度，讲讲比如 Cursor 那笔的故事，既然那是其中最大的一笔收购，而且你是个深度参与的投资人？给我们讲讲那个故事。"
+    },
+    {
+      "i": 220,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "55:30",
+      "en": "We'll raise a few billion dollars that was getting done. But this is about the time that Mithos came out. And if you worked backwards, you realize it probably costs. I don't know how much it costs, but it probably costs a three billion dollars to make Mithos. And so we're like, if cursor is going to build models,",
+      "zh": "我们当时差不多就要完成一轮融资了。我们要融几十亿美元，那笔快成了。但大约就在那个时候，Mythos 出来了。如果你倒推一下，你会意识到它大概花了——我不知道具体多少——但大概花了 30 亿美元来打造 Mythos。所以我们想，如果 Cursor 要去做模型，"
+    },
+    {
+      "i": 221,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "55:45",
+      "en": "we need to raise more money and get access to those compute. And so then of course, that kicks off strategic discussions. Like there's not a lot of people that have access to that much compute. And so then you have those conversations. And then of course, there's quite a bit of interest in the company",
+      "zh": "我们就需要融更多钱、拿到那些算力。所以那当然就启动了战略层面的讨论。因为没多少人能拿到那么多算力。所以你就有了那些对话。然后当然，作为结果，有不少买方对这家公司产生了相当大的兴趣，"
+    },
+    {
+      "i": 222,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "55:57",
+      "en": "as a result just because the company had by far the most users and by far the most data. And this is one of these great examples where on the end, SpaceX had the compute. When cursor did have the data, and had a team that had very successfully built models and built this practice and code was very important.",
+      "zh": "就因为这家公司拥有远远最多的用户、远远最多的数据。而这是那种绝佳的例子之一：在一端，SpaceX 有算力；而 Cursor 有数据，而且有一个非常成功地构建过模型的团队，构建过这个实践，而代码是非常重要的。"
+    },
+    {
+      "i": 223,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "56:13",
+      "en": "So there was just a lot of alignment. And it always helps to have a raise, because that helps actually set the value and set the price of these things. So that was actually a fairly straightforward deal. I'm curious if there's anything similar, less than wise, from OpenRouter or from Fitface company, WorldLabs.",
+      "zh": "所以就是有大量的契合。而且有一轮融资总是有帮助的，因为那有助于确定这些东西的价值和价格。所以那其实是一笔相当直接了当的交易。我很好奇，从 OpenRouter 或者 WorldLabs 那两段经历里，有没有什么类似的、值得分享的东西，也许能带来一些关于这类战略 M&A 的教训？"
+    },
+    {
+      "i": 224,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "56:30",
+      "en": "Anything else that is shareable from those two experiences that might bear some lessons from this kind of strategic M&A? So I'm going to go back to what I said, which is for these strategic M&A, the most important thing is the intuition, especially of a lot of investors is there's a deal going down. We need to play games.",
+      "zh": "所以我要回到我说过的话：对这类战略 M&A，最重要的是，很多投资人的直觉是——有一笔交易在推进，我们得玩游戏。"
+    },
+    {
+      "i": 225,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "56:47",
+      "en": "We need to leak it to the press. It drives me fucking nuts. We need to get other companies in. And you don't realize that you're literally dealing with the most sophisticated people on the planet. I just don't think you walk up to Zuckerberg. You're like, oh, like I'm going to beat you in poker, dude.",
+      "zh": "我们得把它泄露给媒体。这他妈快把我逼疯了。我们得把其他公司拉进来。而你没意识到，你字面意义上是在跟这个星球上最老练的人打交道。我就是不觉得你能走到 Zuckerberg 面前说，哦，我要在扑克上赢你，老兄。"
+    },
+    {
+      "i": 226,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "57:01",
+      "en": "That guy will fucking take out your sucker. Every one of these deals, and these are world record deals. The companies in a very good faith engage with the buyers. They didn't play any games. And they knew that they were worth a certain amount of money because they had done raises or they were market comps. And there's a lot of trust.",
+      "zh": "那家伙会把你吃得连渣都不剩。这里的每一笔交易——而且这些都是破世界纪录的交易——公司都非常善意（good faith）地与买方接触。他们没玩任何游戏。而且他们知道自己值多少钱，因为他们做过融资，或者有市场可比公司（market comps）。而且有大量的信任。"
+    },
+    {
+      "i": 227,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "57:21",
+      "en": "Having now done so many of these deals, I've just found that that approach for strategic M&A is the right approach. And I've been part of deals that are that size that have fallen apart because somehow a board member got into the head of the founder that, oh, you need to get competitors. You've got to leak it to the product.",
+      "zh": "在做了这么多这类交易之后，我就是发现，那种做法对战略 M&A 是对的路子。我也参与过那种量级、却因为某个董事会成员钻进创始人脑子里说『哦，你得把竞争对手拉进来，你得把它泄露给媒体』而崩掉的交易。"
+    },
+    {
+      "i": 228,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "57:39",
+      "en": "I mean, God, that open router, you know, it's like I got leaked. Did you notice, by the way, that world labs did not get leaked? Yeah, interesting. It didn't get leaked because we didn't tell anybody. It was like me. There's a few people. Open router was leaking constantly, right?",
+      "zh": "我是说，天呐，那个 OpenRouter，你知道，就像，我被泄露了。顺便，你有没有注意到 World Labs 没有被泄露？是的，有意思。它没被泄露，是因为我们没告诉任何人。就我，还有几个人。OpenRouter 则一直在泄露，对吧？"
+    },
+    {
+      "i": 229,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "57:51",
+      "en": "And I think a number of VCs think, oh, this is how you drive up the price or this is how you get it done. You see these things leak all the time. That destabilizes deals. Again, I think the most important thing is a structural thing. Like your intuition is an investor in particular that this is like some commodity asset",
+      "zh": "而我觉得一些 VC 认为，哦，这是你抬价的方式，或者这是你促成交易的方式。你会看到这些东西一直在被泄露。那会破坏交易的稳定性。再说一次，我觉得最重要的是一件结构性的事。就像，你作为投资人的直觉——尤其它——认为这是某种大宗商品资产，"
+    },
+    {
+      "i": 230,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "58:08",
+      "en": "and it's about playing poker. It's just wrong. If it's strategic deal for a lot of money, I think you need to view it very professionally. I think you need to develop a trust relationship. I think you need to do it in good faith. You should not leak these deals and realize that the people that are counter parties to this",
+      "zh": "是关于打扑克的。那就是错的。如果它是一笔金额很大的战略交易，我觉得你需要非常专业地看待它。你需要建立一种信任关系。你需要善意地去做。你不该泄露这些交易，而且要意识到，这件事的对手方"
+    },
+    {
+      "i": 231,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "58:23",
+      "en": "are the most sophisticated people in the industry. The founders and every one of these cases treated it that way. Michael Trull treated it that way in the team. Alex and Chris treated that way for open router and for sure faith they treated it. How are you seeing the role of investors evolve?",
+      "zh": "是这个行业里最老练的人。在这些案子里，创始人每一个都是那样对待的。Michael Truell 和他的团队是那样对待的。Alex 和 Chris 对 OpenRouter 是那样对待的，Figma 那边也肯定是那样对待的。你怎么看投资人这个角色的演变？"
+    },
+    {
+      "i": 232,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "58:35",
+      "en": "Both literally how it's evolving across these many, many boards that you're on, but also some commentary on if you think investors generally of your type are doing a good job or actually helping companies. It seems like because the stakes are so high, growth is so big, the capital dollar amounts are so big",
+      "zh": "既是字面意义上、在你所处的这么多这么多董事会里它是怎么演变的，也想听听你的一些评论：你觉得像你这类投资人整体来说做得好不好，是不是真的在帮到公司。似乎因为赌注这么高、增长这么大、资本的金额这么大，"
+    },
+    {
+      "i": 233,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "58:52",
+      "en": "that all these investors are overseeing. It's kind of crazy. Some commentary on the role of the investor. One thing I will say is venture is not what it used to be. The startup ecosystem is not what it used to be. I mean, if you look at the largest private companies right now, they would rival any public companies 20 years ago.",
+      "zh": "所有这些投资人在监督的东西，有点疯狂。谈谈投资人的角色吧。我要说的一点是，风险投资已经不是从前那个样子了。初创生态也不是从前那个样子了。我是说，如果你看现在最大的那些私募公司，它们能跟 20 年前的任何上市公司相媲美。"
+    },
+    {
+      "i": 234,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "59:08",
+      "en": "I think like Stripe or Databricks or like SpaceX before an IPO or an overall or these companies are massive. And so one of the problems is, is what it means to be a startup has shifted so much that now you have this undefined quagmire of who should probably be public investors investing in early stage startups.",
+      "zh": "我想像 Stripe、Databricks，或者 IPO 之前的 SpaceX，或者其他这类公司，都是巨无霸。所以问题之一是，『什么才算一家初创公司』已经变得太不一样了，以至于现在你有了这么一个没有明确界定的泥潭：本该是公开市场投资人的，却在投早期初创公司。"
+    },
+    {
+      "i": 235,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "59:30",
+      "en": "And I just don't think those intuitions are right. And so I think that's kind of the root of the confusion. I think maybe it just actually makes sense to start delineating a bit more on the private side or if you have later stage people investing in earlier stage companies, maybe a little bit more self-awareness.",
+      "zh": "而我就觉得那些直觉是不对的。所以我觉得那差不多就是混淆的根源。我觉得，也许在私募这一侧多做一点区隔其实是有道理的；或者说，如果后期的人在投更早阶段的公司，也许要多一点自我觉察。"
+    },
+    {
+      "i": 236,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "59:48",
+      "en": "Like for example, you wouldn't put me on a mining company board. So remember 2021 and we'd have these PE investors. And they would invest in these serious PE companies. I would sit on the board with these people. And it's like, is literally like putting me on the board of a mining company? Yeah. Yeah.",
+      "zh": "举个例子，你不会把我放进一家矿业公司的董事会。所以想想 2021 年，我们会有这些 PE 投资人。他们会投这些非常 PE 式的公司。我会跟这些人一起坐董事会。那简直就像把我放进一家矿业公司的董事会？是的。是的。"
+    },
+    {
+      "i": 237,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "60:03",
+      "en": "Like trying to like reason about the company through like burn. Like you're going to be miserable here. Because all we do is burn cash for a long time. It's more like kind of the blending of the lines because private companies are a real asset class for late stage investors. A lot of this is just growing pains.",
+      "zh": "就像试图通过烧钱率（burn）来推理这家公司。就像，你在这儿会很痛苦。因为我们所做的就是长时间地烧现金。这更像是界线在模糊，因为对后期投资人来说，私募公司是一类真实的资产。很多这只是成长的烦恼（growing pains）。"
+    },
+    {
+      "i": 238,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "60:23",
+      "en": "Like how much larger do you think the market is now than it was 30 years ago? Thousand times? So of course, of course, the interest is going to have to mature around that. And of course, you're going to have to view it like a kind of later stage investor, of course. But I just think that there's this funny identity crisis",
+      "zh": "就像，你觉得现在的市场比 30 年前大了多少？一千倍？所以当然，当然，围绕它的这套机制必然要成熟起来。而且当然，你将不得不像一个后期投资人那样去看待它，当然。但我就觉得，很多后期投资人身上有这么一种有意思的身份认同危机，"
+    },
+    {
+      "i": 239,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "60:39",
+      "en": "with a lot of later stage investors who view the world that way just because they're in private markets and their VCs think that, for example, I would never invest in a late stage company. Like I don't think it goes here. Like I'm like, what would I do? I go there and tell you how to run a finance app. I just not me. So I think that's it.",
+      "zh": "他们那样看世界，只是因为他们在私募市场里、他们是 VC，就认为——举个例子——我永远不会去投一家后期公司。就像，我不觉得那适合我。我会想，我去了能干嘛？我去那儿告诉你怎么运营一个金融 app 吗？那不适合我。所以我觉得就是这样。"
+    },
+    {
+      "i": 240,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "60:56",
+      "en": "It's basically the encourage of traditional banking and traditional finance and venture, which absolutely belongs there. I just think sometimes it kind of reaches a little bit too low. And then you have these issues. You have these issues in M&A where they're like, whatever, let's run an auction and let's do all this other stuff.",
+      "zh": "这基本上是传统银行、传统金融对风险投资的侵入，而它们绝对属于那里。我只是觉得，有时候它伸得有点太往下了。然后你就有了这些问题。你在 M&A 上有这些问题，他们会说，管它呢，我们来办一场拍卖，来做所有那些别的把戏。"
+    },
+    {
+      "i": 241,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "61:10",
+      "en": "You have it in the operations of a company where like you're 20 people on the radio up burn or they're over rotating on metrics for disruptive technology. I just feel like we need to kind of bring back traditional productive VC for some subset of this and there's enough market for everyone.",
+      "zh": "你在公司的运营上也有这些问题，比如你才 20 个人却在疯狂烧钱，或者他们在为颠覆性技术过度盯着那些指标。我就是觉得，我们需要为其中一部分把传统的生产性 VC 找回来，而且市场足够大，容得下每个人。"
+    },
+    {
+      "i": 242,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "61:26",
+      "en": "Has anything changed about how when you meet somebody for the first time like if I came and watched 10 meetings in a week with you 10 years ago and you started? And then I came today and watched 10 meetings with you. Have you changed how you conduct your early interactions with founders? Yeah, a lot.",
+      "zh": "有没有什么改变了——就是当你第一次见到某个人时的方式？就像，如果我来跟你一起在一周里看 10 场会，在 10 年前、你刚起步时；然后我今天再来跟你一起看 10 场会。你有没有改变你跟创始人进行早期互动的方式？有，改变很多。"
+    },
+    {
+      "i": 243,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "61:44",
+      "en": "I mean, I think most investors go through this, especially when you come from the operating world. You have to learn how to listen as an investor. And then you also have to learn how to ask the questions that you really care about so that you can answer the questions to yourself. And it's a very delicate balance.",
+      "zh": "我是说，我觉得大多数投资人都要经历这个过程，尤其是当你来自运营界的时候。你得学会作为一个投资人去倾听。然后你还得学会去问那些你真正在意的问题，好让你能自己回答那些问题。这是一个非常微妙的平衡。"
+    },
+    {
+      "i": 244,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "62:03",
+      "en": "I do feel like a lot of meetings with founders tend to be pretty performative on both sides. Like you don't know what to ask. And so you'll be like, who's your competition? And then a lot of it is just asking questions for asking questions, say, but again, it doesn't actually inform your decision.",
+      "zh": "我确实觉得，很多跟创始人的会，双方都倾向于相当表演性（performative）。就像你不知道该问什么。所以你会问，你的竞争对手是谁？然后很多就只是为了问而问，可它其实并不能给你的决策提供信息。"
+    },
+    {
+      "i": 245,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "62:18",
+      "en": "And then especially if you're an operator, you'll hear something you disagree with. And you kind of want to fix that problem. But that's kind of not your job. I have learned, and I'm not perfect. But the primary job is just to listen. A founder will tell you what they believe. If you disagree, you disagree. But that's what they believe.",
+      "zh": "然后尤其是如果你是个运营者，你会听到某个你不同意的东西。你就有点想去解决那个问题。但那有点不是你的活儿。我学到了——我并不完美——但首要的活儿就是倾听。一个创始人会告诉你他们相信什么。如果你不同意，你不同意就是了。但那就是他们所相信的。"
+    },
+    {
+      "i": 246,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "62:35",
+      "en": "So often they'll say something like, well, but I would do it better and therefore like it's a good investment. It's truly an art. You have to make a decision based on that meeting. There's a lot of silly questions you could ask that are not really going to inform that decision. What if Amazon does that? What is OpenAI? Like, whatever.",
+      "zh": "所以他们常常会说类似，嗯，但我会做得更好，因此这是笔好投资。这真的是一门艺术。你得基于那场会做一个决定。有很多愚蠢的问题你可以问，但它们其实不会给那个决定提供信息。如果 Amazon 也做那个怎么办？如果 OpenAI 呢？随便啦。"
+    },
+    {
+      "i": 247,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "62:51",
+      "en": "You can answer that yourself. Maybe you can figure out how they think. But there are key questions that you really want to know. And kind of knowing which ones those are during the time of the meeting and getting those in is a hard thing to do. And I think I've really refined my ability to do that.",
+      "zh": "那些你自己就能回答。也许你能借此摸清他们怎么想。但有一些关键问题是你真的很想知道的。而在开会的那段时间里，判断出哪些是关键问题、并把它们问进去，是件很难做到的事。而我觉得我真的磨练出了做这件事的能力。"
+    },
+    {
+      "i": 248,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "63:05",
+      "en": "Maybe a fun place to close is just to ask what has you most excited? We've talked about lots of the magic of this new era of technology and things that weren't possible before bottlenecks that are now gone. I know all of that excites you. But if you had to just step all the way back and describe why this job is so incredibly fun right now",
+      "zh": "也许一个有意思的收尾方式，就是问问什么最让你兴奋。我们已经聊了这个技术新时代的很多魔法，以及那些从前不可能、如今瓶颈消失的事情。我知道所有这些让你兴奋。但如果你不得不彻底退后一步，描述为什么这份工作现在如此难以置信地有趣，"
+    },
+    {
+      "i": 249,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "63:24",
+      "en": "and why you're most excited. I have more and more of the belief that this is an industrial revolution level shift. And for me, the industrial revolution went from basically a zero sum world to like a non-zero sum where value is being created. And that new value is being created. And I think this is a very similar shift",
+      "zh": "以及为什么你最兴奋。我越来越相信，这是一场工业革命级别的转变。而对我来说，工业革命是从一个基本零和的世界，走向一个非零和、价值被创造出来的世界。新的价值被创造出来。我觉得这是一场非常相似的转变，"
+    },
+    {
+      "i": 250,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "63:41",
+      "en": "where before to solve problems, you had to solve very complex engineering problems which basically didn't scale or were very tough. And then you'd have to maintain them. And that's why all software has always sucked. It's basically being a capital problem. I don't know about the real world yet. I think we'll get there.",
+      "zh": "在从前，要解决问题，你得去解决非常复杂的工程问题，而那些基本上没法规模化，或者非常艰难。然后你还得去维护它们。这就是为什么所有软件一直都很烂。它基本上变成了一个资本问题。现实世界我还不好说，我觉得我们会到那一步。"
+    },
+    {
+      "i": 251,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "63:55",
+      "en": "But I think we've turned this into a capital resourcing problem. And we're capital allocators. And so I just feel like we're just in this very, very strategic position to help drive the future in a much, much more direct way than we ever have been before. Because I think this is a scale up capital game that causes that to happen.",
+      "zh": "但我觉得我们已经把这件事变成了一个资本、资源的问题。而我们是资本配置者（capital allocators）。所以我就觉得，我们正处在一个非常非常有战略意义的位置上，能以一种比以往任何时候都直接得多的方式去帮助驱动未来。因为我觉得这是一场规模化的资本游戏，正是它促成了那件事。"
+    },
+    {
+      "i": 252,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "64:14",
+      "en": "I don't believe private markets have limited time. I think they have unlimited time and the more money that goes into them, the more value that it would be created. So I just feel like we're in this very privileged position, very key to the innovation chain. And we're both very lucky to be here.",
+      "zh": "我不相信私募市场有有限的容量。我觉得它们有无限的容量，而且投进去的钱越多，会被创造出来的价值就越多。所以我就觉得，我们正处在一个得天独厚的位置上，是创新链条里非常关键的一环。而我们俩都非常幸运能身处此地。"
+    },
+    {
+      "i": 253,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "64:28",
+      "en": "I love the every two-year schedule that we're on. I hope we get to do it again in the next two years. I can only imagine what the world is going to look like two years from now. Well, have our rockbots talking ahead. Thank you so much for your time. Thank you. If you enjoyed this episode, visit Colossus.com.",
+      "zh": "我很喜欢我们每两年一次的节奏。我希望接下来两年里我们能再来一次。我完全无法想象两年后这个世界会长成什么样。好吧，让我们的 Rockbot 们先聊着。非常感谢你抽出时间。谢谢。如果你喜欢这一集，请访问 Colossus.com。"
+    },
+    {
+      "i": 254,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "64:42",
+      "en": "You'll find every episode of this podcast complete with hand-edited transcripts. You can also subscribe to Colossus, our quarterly print digital and private audio publication, featuring in-depth profiles of the founders, investors, and companies that we admire most. Learn more at Colossus.com slash subscribe.",
+      "zh": "你会在这里找到这档播客的每一集，还配有手工编辑的文字稿。你还可以订阅 Colossus——我们那份季刊式的印刷、数字及私密音频出版物——它深度刻画我们最欣赏的那些创始人、投资人和公司。想了解更多信息，请访问 Colossus.com/subscribe。"
+    },
+    {
+      "i": 255,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "65:00",
+      "en": "Patrick O'Shaughnessy is the CEO of Positive Sum. All opinions expressed by Patrick and podcast guests are solely their own opinions and do not reflect the opinion of Positive Sum. This podcast is for informational purposes only and should not be relied upon as a basis for investment decisions.",
+      "zh": "Patrick O'Shaughnessy 是 Positive Sum 的 CEO。Patrick 及播客嘉宾表达的所有观点都仅代表他们个人，并不反映 Positive Sum 的观点。本播客仅供信息参考，不应被当作投资决策的依据。"
+    },
+    {
+      "i": 256,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "65:16",
+      "en": "Clients of Positive Sum may maintain positions in the securities discussed in this podcast. To learn more, visit psum.fc.",
+      "zh": "Positive Sum 的客户可能持有本播客中讨论的证券的头寸。想了解更多信息，请访问 psum.com。"
+    },
+    {
+      "i": 257,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "65:29",
+      "en": "www.patreon.com",
+      "zh": "www.patreon.com"
+    },
+    {
+      "i": 258,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "65:44",
+      "en": "You know how small advantageous compound over time that's true in investing and just as true in how you run your company. Your spending system is your capital allocation strategy. Ramp makes it smarter by default, better data, better decisions, better economics over time. See how at ramp.com slash invest. As your business grows,",
+      "zh": "你知道那些小小的优势会随时间复利叠加——这在投资里是真的，在你经营公司的方式上也一样真。你的支出系统就是你的资本配置策略。Ramp 让它默认更聪明：更好的数据、更好的决策、随时间更好的经济性。来看看怎么做，访问 ramp.com/invest。随着你的业务成长，"
+    },
+    {
+      "i": 259,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "66:00",
+      "en": "vanta scales with you, automating compliance and giving you a single source of truth for security and risk. Learn more at vanta.com slash invest. The best AI and software companies from open AI to cursor to perplexity use work OS to become enterprise ready overnight, not in months.",
+      "zh": "Vanta 与你一同扩展，自动化合规，并为安全与风险提供单一事实来源。想了解更多信息，请访问 vanta.com/invest。从 OpenAI 到 Cursor 到 Perplexity，最好的 AI 和软件公司都在用 WorkOS，一夜之间、而不是花几个月就做到企业级就绪。"
+    },
+    {
+      "i": 260,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "66:15",
+      "en": "Visit workos.com to skip the unglamorous infrastructure work and focus on your product. Ridgeline is redefining asset management technology as a true partner, not just a software vendor. They've helped firms 5x in scale, enabling faster growth, smarter operations and a competitive edge. Visit ridgelineapps.com to see what they can unlock",
+      "zh": "访问 workos.com，跳过那些不光鲜的基础设施活儿，专注于你的产品。Ridgeline 正在重新定义资产管理技术，做一个真正的伙伴，而不只是一个软件供应商。他们帮助公司实现了 5 倍规模增长，带来更快的成长、更聪明的运营和竞争优势。访问 ridgelineapps.com，看看他们能为你解锁什么，"
+    },
+    {
+      "i": 261,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "66:33",
+      "en": "for your firm. Every investment firm is unique, and generic AI doesn't understand your process. Rogo does. It's an AI platform built specifically for Wall Street connected to your data, understanding your process, and producing real outputs. Check them out at rogo.ai slash invest.",
+      "zh": "为你的公司。每一家投资公司都是独特的，通用的 AI 不懂你的流程。Rogo 懂。它是一个专为 Wall Street 打造的 AI 平台，连接你的数据、理解你的流程，并产出真正的成果。来看看他们吧，访问 rogo.ai/invest。"
+    }
+  ]
+}
