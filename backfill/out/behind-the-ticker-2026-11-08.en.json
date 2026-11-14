@@ -1,0 +1,1897 @@
+[
+  {
+    "speaker": 1,
+    "ts": 0,
+    "text": "Welcome to Behind the Ticker, the podcast where we go beyond the symbol and into the"
+  },
+  {
+    "speaker": 1,
+    "ts": 9,
+    "text": "strategy."
+  },
+  {
+    "speaker": 1,
+    "ts": 10,
+    "text": "I'm Brad Roth, founder and chief investment officer at Thor Funds, and in each episode,"
+  },
+  {
+    "speaker": 1,
+    "ts": 16,
+    "text": "I sit down with ETF managers, CIOs, and industry leaders to break down how these funds are"
+  },
+  {
+    "speaker": 1,
+    "ts": 23,
+    "text": "actually built, how they behave in real markets, and how advisors use them in real portfolios."
+  },
+  {
+    "speaker": 1,
+    "ts": 29,
+    "text": "Most people just see a ticker symbol, but we know much more goes on behind the ticker."
+  },
+  {
+    "speaker": 1,
+    "ts": 36,
+    "text": "Hey, Aaron, welcome to the show."
+  },
+  {
+    "speaker": 1,
+    "ts": 42,
+    "text": "Hey, thanks for having me."
+  },
+  {
+    "speaker": 1,
+    "ts": 44,
+    "text": "So why don't you start off by giving everybody a bit about your background?"
+  },
+  {
+    "speaker": 1,
+    "ts": 47,
+    "text": "I think I read you started at Merrill Lynch, a prudential, spent a handful of years over"
+  },
+  {
+    "speaker": 1,
+    "ts": 50,
+    "text": "at Morgan Stanley, and then you started your own advisory firm, and today you're the founder"
+  },
+  {
+    "speaker": 1,
+    "ts": 55,
+    "text": "and CEO of the Inside Ownership Index."
+  },
+  {
+    "speaker": 1,
+    "ts": 58,
+    "text": "You walk us through how that whole path unfolded."
+  },
+  {
+    "speaker": 1,
+    "ts": 61,
+    "text": "Yeah."
+  },
+  {
+    "speaker": 1,
+    "ts": 62,
+    "text": "Well, I think my grandmother gave me a little bit of money early on when I was 18, and I"
+  },
+  {
+    "speaker": 1,
+    "ts": 67,
+    "text": "just fell in love with the stock market."
+  },
+  {
+    "speaker": 1,
+    "ts": 70,
+    "text": "Eventually I wanted to get in the industry, and it was 2008."
+  },
+  {
+    "speaker": 1,
+    "ts": 76,
+    "text": "The only way I can get in was to sell insurance and nobody was hiring."
+  },
+  {
+    "speaker": 1,
+    "ts": 80,
+    "text": "Eventually, in 2010, the firms were hiring again, so I joined Merrill Lynch doing wealth"
+  },
+  {
+    "speaker": 1,
+    "ts": 87,
+    "text": "management in 2012."
+  },
+  {
+    "speaker": 1,
+    "ts": 92,
+    "text": "I joined Morgan Stanley, spent five and a half years there managing money for high-line"
+  },
+  {
+    "speaker": 1,
+    "ts": 96,
+    "text": "worth individuals."
+  },
+  {
+    "speaker": 1,
+    "ts": 97,
+    "text": "In 2017, I broke away and started my own, and really the reason why I left Morgan Stanley"
+  },
+  {
+    "speaker": 1,
+    "ts": 103,
+    "text": "was I wanted to do things that you can do at the wider houses, so I created a micro-cap"
+  },
+  {
+    "speaker": 1,
+    "ts": 111,
+    "text": "fund investing in thinly-traded, very small publicly-traded companies."
+  },
+  {
+    "speaker": 1,
+    "ts": 117,
+    "text": "Did a proxy contest in one, got on the board, and eventually sold that company in 2023,"
+  },
+  {
+    "speaker": 1,
+    "ts": 127,
+    "text": "and in 2024 is when I thought of the idea of the Inside Ownership Index while sitting"
+  },
+  {
+    "speaker": 1,
+    "ts": 132,
+    "text": "at the Berkshire Annual Meeting, because I'm a huge one buck then, and now I'm just focused"
+  },
+  {
+    "speaker": 1,
+    "ts": 137,
+    "text": "on that."
+  },
+  {
+    "speaker": 1,
+    "ts": 138,
+    "text": "We have the ETF and trying to build brand awareness and get the word out there."
+  },
+  {
+    "speaker": 1,
+    "ts": 143,
+    "text": "That's what I wanted to ask you."
+  },
+  {
+    "speaker": 1,
+    "ts": 144,
+    "text": "I mean, you stole one of the questions from me."
+  },
+  {
+    "speaker": 1,
+    "ts": 146,
+    "text": "This idea came out of the 2024 Berkshire Hathaway Annual Meeting."
+  },
+  {
+    "speaker": 1,
+    "ts": 151,
+    "text": "What were you thinking in that room, and how eventually did you turn this into an index?"
+  },
+  {
+    "speaker": 1,
+    "ts": 155,
+    "text": "Well, I was sitting there in 2020."
+  },
+  {
+    "speaker": 1,
+    "ts": 158,
+    "text": "I've been attending since 2017, and in 2024, it was the first meeting Charlie Munger wasn't"
+  },
+  {
+    "speaker": 1,
+    "ts": 163,
+    "text": "there because he had passed away."
+  },
+  {
+    "speaker": 1,
+    "ts": 166,
+    "text": "I just had in the back of my mind this fear, like, I have a lot of Berkshire stock."
+  },
+  {
+    "speaker": 1,
+    "ts": 171,
+    "text": "What am I going to do with my stock when Warren Buffett passes away?"
+  },
+  {
+    "speaker": 1,
+    "ts": 175,
+    "text": "Because I don't believe in a company the same way without him."
+  },
+  {
+    "speaker": 1,
+    "ts": 178,
+    "text": "Halfway through the meeting, it actually hit me that the S&P will actually be buying more"
+  },
+  {
+    "speaker": 1,
+    "ts": 184,
+    "text": "Berkshire essentially on the death of Warren Buffett."
+  },
+  {
+    "speaker": 1,
+    "ts": 188,
+    "text": "I just thought, well, a lot of people don't make that connection."
+  },
+  {
+    "speaker": 1,
+    "ts": 193,
+    "text": "The S&P is what's called Free Float Adjusted Market Gap."
+  },
+  {
+    "speaker": 1,
+    "ts": 198,
+    "text": "Berkshire might be a trillion dollars, but they're only counting the 200 billion that"
+  },
+  {
+    "speaker": 1,
+    "ts": 204,
+    "text": "he owns, or 20% that he owns, is not counted."
+  },
+  {
+    "speaker": 1,
+    "ts": 208,
+    "text": "When he dies, those shares will become free floating."
+  },
+  {
+    "speaker": 1,
+    "ts": 211,
+    "text": "I just thought, well, why would anybody want more exposure to Berkshire absent Warren Buffett?"
+  },
+  {
+    "speaker": 1,
+    "ts": 218,
+    "text": "In the same respect, who would want more exposure to Tesla without Elon Musk or Metta without"
+  },
+  {
+    "speaker": 1,
+    "ts": 224,
+    "text": "Mark Zuckerberg?"
+  },
+  {
+    "speaker": 1,
+    "ts": 225,
+    "text": "These guys are super geniuses."
+  },
+  {
+    "speaker": 1,
+    "ts": 227,
+    "text": "We should want more exposure to these companies while they're there and their ownership is"
+  },
+  {
+    "speaker": 1,
+    "ts": 230,
+    "text": "there and less so when they're gone."
+  },
+  {
+    "speaker": 1,
+    "ts": 234,
+    "text": "I came home from Omaha and just had to find all this ownership data."
+  },
+  {
+    "speaker": 1,
+    "ts": 242,
+    "text": "I looked at Bloomberg, CapIQ, FACTSET, all the data providers, and surprisingly, nobody"
+  },
+  {
+    "speaker": 1,
+    "ts": 248,
+    "text": "actually had the ownership data going back that far."
+  },
+  {
+    "speaker": 1,
+    "ts": 251,
+    "text": "I had to manually go through every proxy filing and collect the data myself."
+  },
+  {
+    "speaker": 1,
+    "ts": 257,
+    "text": "I went back 20 years to launch the index, but I went back 100 years to see what would"
+  },
+  {
+    "speaker": 1,
+    "ts": 264,
+    "text": "it look like had you invested."
+  },
+  {
+    "speaker": 1,
+    "ts": 269,
+    "text": "For 100 years, you could see that the best-performing companies had leadership at the top that was"
+  },
+  {
+    "speaker": 1,
+    "ts": 276,
+    "text": "responsible."
+  },
+  {
+    "speaker": 1,
+    "ts": 277,
+    "text": "Once those leaders were gone, the companies typically went through a decay."
+  },
+  {
+    "speaker": 1,
+    "ts": 284,
+    "text": "I went back 100 years, looked at the number one company in the world, and 1930-1950 was"
+  },
+  {
+    "speaker": 1,
+    "ts": 292,
+    "text": "General Motors and it was one man, Alfred Sloan, responsible."
+  },
+  {
+    "speaker": 1,
+    "ts": 297,
+    "text": "IBM was the biggest company in the world in the 70s and 80s."
+  },
+  {
+    "speaker": 1,
+    "ts": 301,
+    "text": "Again, there's one guy responsible for that."
+  },
+  {
+    "speaker": 1,
+    "ts": 305,
+    "text": "It was Thomas Watson Jr., the son of the founder."
+  },
+  {
+    "speaker": 1,
+    "ts": 309,
+    "text": "He was the chairman of the board for most of that time."
+  },
+  {
+    "speaker": 1,
+    "ts": 314,
+    "text": "Jack Welch with GE."
+  },
+  {
+    "speaker": 1,
+    "ts": 316,
+    "text": "The only exception I can really find is Apple has continued to do well despite Steve Jobs"
+  },
+  {
+    "speaker": 1,
+    "ts": 324,
+    "text": "not being around."
+  },
+  {
+    "speaker": 1,
+    "ts": 326,
+    "text": "There's exceptions, but for the most part, the index has a basket of stocks run by owners."
+  },
+  {
+    "speaker": 1,
+    "ts": 333,
+    "text": "Interesting."
+  },
+  {
+    "speaker": 1,
+    "ts": 334,
+    "text": "Well, we're going to get into the fun and the strategy here in a minute."
+  },
+  {
+    "speaker": 1,
+    "ts": 338,
+    "text": "Before we do that, though, I always like to ask every guest, what do you like to do when"
+  },
+  {
+    "speaker": 1,
+    "ts": 341,
+    "text": "you're not working?"
+  },
+  {
+    "speaker": 1,
+    "ts": 342,
+    "text": "Any hobbies?"
+  },
+  {
+    "speaker": 1,
+    "ts": 343,
+    "text": "I play a little bit of beach volleyball for exercise, and I read a lot."
+  },
+  {
+    "speaker": 1,
+    "ts": 351,
+    "text": "I go out to dinner, enjoy nice dinners."
+  },
+  {
+    "speaker": 1,
+    "ts": 354,
+    "text": "Love that."
+  },
+  {
+    "speaker": 1,
+    "ts": 355,
+    "text": "Let's get into OWN, which is the ETF behind the, or I should say in front of this index."
+  },
+  {
+    "speaker": 1,
+    "ts": 359,
+    "text": "The index is behind it, which is the inside ownership 100 ETF."
+  },
+  {
+    "speaker": 1,
+    "ts": 363,
+    "text": "This was launched on June 3rd at a high level."
+  },
+  {
+    "speaker": 1,
+    "ts": 367,
+    "text": "We touched on it, but really at a high level, what is this fun and what is the core problem"
+  },
+  {
+    "speaker": 1,
+    "ts": 370,
+    "text": "that it's solving?"
+  },
+  {
+    "speaker": 1,
+    "ts": 372,
+    "text": "Well, I like to tell people there's three ways you could index."
+  },
+  {
+    "speaker": 1,
+    "ts": 380,
+    "text": "The first is equal weighted."
+  },
+  {
+    "speaker": 1,
+    "ts": 381,
+    "text": "You could buy S&P 500 equal weighted and you systematically buy every single company equally"
+  },
+  {
+    "speaker": 1,
+    "ts": 387,
+    "text": "and every quarter you trim, the ones that go up and you feed the ones that go down."
+  },
+  {
+    "speaker": 1,
+    "ts": 393,
+    "text": "It's systematic by low sell high, right?"
+  },
+  {
+    "speaker": 1,
+    "ts": 397,
+    "text": "Or you recognize that there's going to be some extreme winners and they're going to"
+  },
+  {
+    "speaker": 1,
+    "ts": 403,
+    "text": "compound your earnings for a very long time and you want to increase your exposure as"
+  },
+  {
+    "speaker": 1,
+    "ts": 410,
+    "text": "those companies grow."
+  },
+  {
+    "speaker": 1,
+    "ts": 411,
+    "text": "You mark a cap weight or you recognize that there's going to be a handful of individuals"
+  },
+  {
+    "speaker": 1,
+    "ts": 419,
+    "text": "that really change the world, but you don't know which ones."
+  },
+  {
+    "speaker": 1,
+    "ts": 422,
+    "text": "Rather than index to market cap, you index to the individuals behind the corporation,"
+  },
+  {
+    "speaker": 1,
+    "ts": 428,
+    "text": "the owners."
+  },
+  {
+    "speaker": 1,
+    "ts": 429,
+    "text": "Again, you don't know which ones are going to really tick off, but you index to them."
+  },
+  {
+    "speaker": 1,
+    "ts": 438,
+    "text": "What you get is a handful of exceptional leaders that really hit the ball in the park, like"
+  },
+  {
+    "speaker": 1,
+    "ts": 443,
+    "text": "Jensen, Elon Musk, Warren Buffett, Mark Zuckerberg, Jeff Bezos."
+  },
+  {
+    "speaker": 1,
+    "ts": 449,
+    "text": "By indexing to these leaders, it's more power law driven, so you're getting more exposure"
+  },
+  {
+    "speaker": 1,
+    "ts": 455,
+    "text": "to these extraordinary companies, extraordinary leaders."
+  },
+  {
+    "speaker": 1,
+    "ts": 461,
+    "text": "The core argument that you made earlier, and I just want to touch on it again because for"
+  },
+  {
+    "speaker": 1,
+    "ts": 465,
+    "text": "the advisors listening to this show, I think it's important, the core argument is how the"
+  },
+  {
+    "speaker": 1,
+    "ts": 469,
+    "text": "S&P is actually built."
+  },
+  {
+    "speaker": 1,
+    "ts": 471,
+    "text": "Because it's free float adjusted, which means shares held by founders and controlling insiders"
+  },
+  {
+    "speaker": 1,
+    "ts": 477,
+    "text": "get excluded, so walk us through why that matters in practice."
+  },
+  {
+    "speaker": 1,
+    "ts": 481,
+    "text": "Think about it."
+  },
+  {
+    "speaker": 1,
+    "ts": 482,
+    "text": "The best investors in the world are actually not investors at all, they're entrepreneurs"
+  },
+  {
+    "speaker": 1,
+    "ts": 487,
+    "text": "who never sold."
+  },
+  {
+    "speaker": 1,
+    "ts": 488,
+    "text": "Why would you want to exclude shares that are held by the best investors or the best value"
+  },
+  {
+    "speaker": 1,
+    "ts": 494,
+    "text": "creators in the world?"
+  },
+  {
+    "speaker": 1,
+    "ts": 496,
+    "text": "It makes no sense."
+  },
+  {
+    "speaker": 1,
+    "ts": 498,
+    "text": "You should want to have more exposure to these companies while these leaders are there."
+  },
+  {
+    "speaker": 1,
+    "ts": 503,
+    "text": "So think, you have two companies, A and B."
+  },
+  {
+    "speaker": 1,
+    "ts": 505,
+    "text": "A, let's call them identical."
+  },
+  {
+    "speaker": 1,
+    "ts": 510,
+    "text": "Identical companies are doing identical things and identical size."
+  },
+  {
+    "speaker": 1,
+    "ts": 514,
+    "text": "But company B has a CEO who owns 20% of the company."
+  },
+  {
+    "speaker": 1,
+    "ts": 520,
+    "text": "Company A is run by a boardroom, with a CEO, a hired CEO, and a boardroom with really owns"
+  },
+  {
+    "speaker": 1,
+    "ts": 529,
+    "text": "no stock."
+  },
+  {
+    "speaker": 1,
+    "ts": 530,
+    "text": "The S&P will give you more exposure to company A, when probably company B is the one that"
+  },
+  {
+    "speaker": 1,
+    "ts": 536,
+    "text": "you want to maximize exposure to."
+  },
+  {
+    "speaker": 1,
+    "ts": 543,
+    "text": "The actual example I have for that is Intel and Nvidia."
+  },
+  {
+    "speaker": 1,
+    "ts": 548,
+    "text": "In July of 2020, Intel and Nvidia were identical companies."
+  },
+  {
+    "speaker": 1,
+    "ts": 553,
+    "text": "They're both $250 billion companies, almost the same weighting in the S&P, around 1%."
+  },
+  {
+    "speaker": 1,
+    "ts": 561,
+    "text": "Intel had seven times the revenue of Nvidia at that moment."
+  },
+  {
+    "speaker": 1,
+    "ts": 565,
+    "text": "Seven times the profits, a higher return on equity, and a higher free cash flow yield."
+  },
+  {
+    "speaker": 1,
+    "ts": 570,
+    "text": "But Nvidia had something Intel didn't."
+  },
+  {
+    "speaker": 1,
+    "ts": 573,
+    "text": "They had a CEO, a founder CEO with extreme ownership, who went to bed thinking about"
+  },
+  {
+    "speaker": 1,
+    "ts": 579,
+    "text": "the company, woke up thinking about it."
+  },
+  {
+    "speaker": 1,
+    "ts": 582,
+    "text": "And fast forward six years, Nvidia has created enormous wealth for shareholders of more than"
+  },
+  {
+    "speaker": 1,
+    "ts": 587,
+    "text": "2,000%."
+  },
+  {
+    "speaker": 1,
+    "ts": 589,
+    "text": "And Intel has underperformed the market."
+  },
+  {
+    "speaker": 1,
+    "ts": 591,
+    "text": "So I think investors have paid too little attention to how much the CEO and the board"
+  },
+  {
+    "speaker": 1,
+    "ts": 602,
+    "text": "own and what they're capable of, and probably too much attention to last year's earnings."
+  },
+  {
+    "speaker": 1,
+    "ts": 610,
+    "text": "And more and more, I think, studying the last year's earnings is going to be less predictive"
+  },
+  {
+    "speaker": 1,
+    "ts": 617,
+    "text": "of what future earnings are going to look like, especially with AI."
+  },
+  {
+    "speaker": 1,
+    "ts": 622,
+    "text": "The world is changing too fast, and using last year's earnings or earnings five years"
+  },
+  {
+    "speaker": 1,
+    "ts": 627,
+    "text": "ago is not going to tell you much about what earnings are going to look like five years"
+  },
+  {
+    "speaker": 1,
+    "ts": 632,
+    "text": "from now."
+  },
+  {
+    "speaker": 1,
+    "ts": 634,
+    "text": "So walk us through the methodology a little bit."
+  },
+  {
+    "speaker": 1,
+    "ts": 636,
+    "text": "You start with the S&P 500 as the entire universe, and then pick the top 100 by dollar"
+  },
+  {
+    "speaker": 1,
+    "ts": 642,
+    "text": "value of insider ownership, and then you wait by insider stake instead of market cap."
+  },
+  {
+    "speaker": 1,
+    "ts": 648,
+    "text": "So why dollar value rather than percentage?"
+  },
+  {
+    "speaker": 1,
+    "ts": 653,
+    "text": "Well, we want to be somewhat like market cap."
+  },
+  {
+    "speaker": 1,
+    "ts": 658,
+    "text": "So essentially, we're counting the market cap of each company by only the shares held"
+  },
+  {
+    "speaker": 1,
+    "ts": 665,
+    "text": "by insiders rather than all the shares outstanding."
+  },
+  {
+    "speaker": 1,
+    "ts": 669,
+    "text": "We're just taking a subset of the shares outstanding and using that to proportionally wait the"
+  },
+  {
+    "speaker": 1,
+    "ts": 674,
+    "text": "portfolio."
+  },
+  {
+    "speaker": 1,
+    "ts": 675,
+    "text": "And what my argument is is that that layer of shares has more informational value than"
+  },
+  {
+    "speaker": 1,
+    "ts": 686,
+    "text": "all the shares outstanding."
+  },
+  {
+    "speaker": 1,
+    "ts": 689,
+    "text": "So who owns those shares and how much their worth is very important."
+  },
+  {
+    "speaker": 1,
+    "ts": 696,
+    "text": "The fact that Larry Page and Sergei or Jeff Bezos or Mark Zuckerberg own this very high"
+  },
+  {
+    "speaker": 1,
+    "ts": 704,
+    "text": "dollar amount of shares, and they just start out that way, they grew to that value."
+  },
+  {
+    "speaker": 1,
+    "ts": 710,
+    "text": "So you're simply indexing to that dollar value as it grows."
+  },
+  {
+    "speaker": 1,
+    "ts": 717,
+    "text": "And then when they're gone, you're not going to have exposure to this company or much less."
+  },
+  {
+    "speaker": 1,
+    "ts": 724,
+    "text": "For example, Apple is still in the IO 100 because the dollar value of ownership by Tim"
+  },
+  {
+    "speaker": 1,
+    "ts": 731,
+    "text": "Cook and the chairman of the board, Art Levinson, they own about a billion dollars each."
+  },
+  {
+    "speaker": 1,
+    "ts": 739,
+    "text": "So it's still a significant value, so Apple still makes it just an underweighted position."
+  },
+  {
+    "speaker": 1,
+    "ts": 744,
+    "text": "So by using the dollar weight, you're not straying too far away from market cap."
+  },
+  {
+    "speaker": 1,
+    "ts": 751,
+    "text": "So it's essentially kind of like looking at market cap through the lens of skin of the"
+  },
+  {
+    "speaker": 1,
+    "ts": 756,
+    "text": "game."
+  },
+  {
+    "speaker": 1,
+    "ts": 757,
+    "text": "So all the data comes from, as you already mentioned, you went through all these proxy"
+  },
+  {
+    "speaker": 1,
+    "ts": 760,
+    "text": "filings, about 21,000 proxy filings over 21 years of data."
+  },
+  {
+    "speaker": 1,
+    "ts": 765,
+    "text": "I'm just curious, have you thought about or would you have any interest because it seems"
+  },
+  {
+    "speaker": 1,
+    "ts": 770,
+    "text": "like pretty heavy work?"
+  },
+  {
+    "speaker": 1,
+    "ts": 772,
+    "text": "Looking even farther down the line into some are small and mid-sized companies, rather"
+  },
+  {
+    "speaker": 1,
+    "ts": 777,
+    "text": "than just the largest that are already in the S&P 500, do you think there's additional"
+  },
+  {
+    "speaker": 1,
+    "ts": 781,
+    "text": "value potentially there?"
+  },
+  {
+    "speaker": 1,
+    "ts": 783,
+    "text": "There's additional value."
+  },
+  {
+    "speaker": 1,
+    "ts": 784,
+    "text": "Well, for one, small and mid-cap, the problem with that is now you're going to have a handful"
+  },
+  {
+    "speaker": 1,
+    "ts": 792,
+    "text": "of individuals really create significant value, and you don't know which ones those are going"
+  },
+  {
+    "speaker": 1,
+    "ts": 798,
+    "text": "to be."
+  },
+  {
+    "speaker": 1,
+    "ts": 799,
+    "text": "The problem with small and mid-cap is the best ones grow out of it."
+  },
+  {
+    "speaker": 1,
+    "ts": 804,
+    "text": "And large cap, you get maximum exposure all the way through time."
+  },
+  {
+    "speaker": 1,
+    "ts": 808,
+    "text": "So imagine investing in NVIDIA in 2020, and a year or two later, it grows out of being"
+  },
+  {
+    "speaker": 1,
+    "ts": 819,
+    "text": "a mid-cap."
+  },
+  {
+    "speaker": 1,
+    "ts": 820,
+    "text": "And now you have to go find another mid-cap."
+  },
+  {
+    "speaker": 1,
+    "ts": 822,
+    "text": "So that's the problem."
+  },
+  {
+    "speaker": 1,
+    "ts": 824,
+    "text": "A few companies really hit the ball in the park, and you want to maintain that exposure"
+  },
+  {
+    "speaker": 1,
+    "ts": 830,
+    "text": "to them and let them compound."
+  },
+  {
+    "speaker": 1,
+    "ts": 832,
+    "text": "And a problem with a small cap index is that the best ones are very quickly going to grow"
+  },
+  {
+    "speaker": 1,
+    "ts": 839,
+    "text": "out of it."
+  },
+  {
+    "speaker": 1,
+    "ts": 840,
+    "text": "So it doesn't work as well."
+  },
+  {
+    "speaker": 1,
+    "ts": 843,
+    "text": "And I tried to go further back for the index, but the problem was it was very hard to get"
+  },
+  {
+    "speaker": 1,
+    "ts": 849,
+    "text": "ownership data beyond 2004."
+  },
+  {
+    "speaker": 1,
+    "ts": 852,
+    "text": "A lot of the half the companies in the S&P actually don't even exist anymore back in"
+  },
+  {
+    "speaker": 1,
+    "ts": 857,
+    "text": "the 90s, because they were either acquired, went bankrupt, or they're just not around."
+  },
+  {
+    "speaker": 1,
+    "ts": 864,
+    "text": "So I tried to go back further than 20 years, but again, none of the data providers have"
+  },
+  {
+    "speaker": 1,
+    "ts": 871,
+    "text": "any ownership."
+  },
+  {
+    "speaker": 1,
+    "ts": 872,
+    "text": "Even the proxy filings are very hard to find beyond 20 years ago."
+  },
+  {
+    "speaker": 1,
+    "ts": 876,
+    "text": "Interesting."
+  },
+  {
+    "speaker": 1,
+    "ts": 877,
+    "text": "So when I was looking at the top portfolio holdings, it looks like NVIDIA, Alphabet,"
+  },
+  {
+    "speaker": 1,
+    "ts": 881,
+    "text": "Amazon, Meta, Tesla, Berkshire, an advisor might look at that and say, this looks a lot"
+  },
+  {
+    "speaker": 1,
+    "ts": 886,
+    "text": "like the S&P."
+  },
+  {
+    "speaker": 1,
+    "ts": 887,
+    "text": "Where does own actually diverge, start to diverge from the S&P?"
+  },
+  {
+    "speaker": 1,
+    "ts": 892,
+    "text": "Well, the position sizing, so the index is still the same companies."
+  },
+  {
+    "speaker": 1,
+    "ts": 899,
+    "text": "So for example, equal S&P 500 equal weighted and market cap weighted, it's still the same"
+  },
+  {
+    "speaker": 1,
+    "ts": 902,
+    "text": "500 companies, right?"
+  },
+  {
+    "speaker": 1,
+    "ts": 905,
+    "text": "But it's all in the waiting."
+  },
+  {
+    "speaker": 1,
+    "ts": 907,
+    "text": "So even though Google and NVIDIA and Amazon, they're the biggest position, they're extremely"
+  },
+  {
+    "speaker": 1,
+    "ts": 913,
+    "text": "over-weighted."
+  },
+  {
+    "speaker": 1,
+    "ts": 914,
+    "text": "So Google, for example, is at NVIDIA, are around 11% to 12% positions in the index."
+  },
+  {
+    "speaker": 1,
+    "ts": 923,
+    "text": "And Apple is still in there, but it's significantly under-weighted."
+  },
+  {
+    "speaker": 1,
+    "ts": 927,
+    "text": "So it's all in the waiting, really."
+  },
+  {
+    "speaker": 1,
+    "ts": 928,
+    "text": "So if you look at the top 10, you'll see Dell, you'll see Palantir, you'll see Oracle,"
+  },
+  {
+    "speaker": 1,
+    "ts": 938,
+    "text": "you know, these are still founder-led companies with significant ownership, so we get more"
+  },
+  {
+    "speaker": 1,
+    "ts": 945,
+    "text": "exposure."
+  },
+  {
+    "speaker": 1,
+    "ts": 946,
+    "text": "And if you look at the top 10 S&P, you're going to get like, you know, really, you're"
+  },
+  {
+    "speaker": 1,
+    "ts": 953,
+    "text": "going to get, I think, the last rebalance, ExxonMobil was in the top 10 of the S&P."
+  },
+  {
+    "speaker": 1,
+    "ts": 960,
+    "text": "You know, these are like no ownership type companies where, you know, insiders are just"
+  },
+  {
+    "speaker": 1,
+    "ts": 966,
+    "text": "hired CEOs, they really own no stock."
+  },
+  {
+    "speaker": 1,
+    "ts": 969,
+    "text": "You know, I went back a hundred years and looked at the top 10 companies through time"
+  },
+  {
+    "speaker": 1,
+    "ts": 973,
+    "text": "at every decade and, you know, what you see is newer companies."
+  },
+  {
+    "speaker": 1,
+    "ts": 981,
+    "text": "If you look at the top 10 companies today in the world, they were on average founded"
+  },
+  {
+    "speaker": 1,
+    "ts": 986,
+    "text": "in the year 2000."
+  },
+  {
+    "speaker": 1,
+    "ts": 988,
+    "text": "If you include OpenAI and Atropic, they were on average founded in the year 2000."
+  },
+  {
+    "speaker": 1,
+    "ts": 993,
+    "text": "And if you go to Europe and look at the top 10 companies in Europe, you'll find that they"
+  },
+  {
+    "speaker": 1,
+    "ts": 996,
+    "text": "were on average founded about 100 years ago."
+  },
+  {
+    "speaker": 1,
+    "ts": 999,
+    "text": "So this is the difference."
+  },
+  {
+    "speaker": 1,
+    "ts": 1001,
+    "text": "And you know, Europe has had no growth over the last 20 years, right?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1006,
+    "text": "So this tells you that it really takes an entrepreneur with skin in the game to really"
+  },
+  {
+    "speaker": 1,
+    "ts": 1012,
+    "text": "create disruptive value and change the world."
+  },
+  {
+    "speaker": 1,
+    "ts": 1015,
+    "text": "And you know, once those entrepreneurs are gone, typically, companies will go through"
+  },
+  {
+    "speaker": 1,
+    "ts": 1021,
+    "text": "a decay."
+  },
+  {
+    "speaker": 1,
+    "ts": 1023,
+    "text": "So your back test goes back to about 2005 and it shows roughly two percentage points"
+  },
+  {
+    "speaker": 1,
+    "ts": 1029,
+    "text": "of annual outperformance versus the S&P."
+  },
+  {
+    "speaker": 1,
+    "ts": 1032,
+    "text": "And also it shows some smaller drawdowns in 2008 as well as 2020."
+  },
+  {
+    "speaker": 1,
+    "ts": 1037,
+    "text": "Why do you believe just, you know, with all the analysis you've done on these companies,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1044,
+    "text": "why do owner-operated companies not only tend to outperform when things are good, but also"
+  },
+  {
+    "speaker": 1,
+    "ts": 1048,
+    "text": "hold up better in crisis?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1050,
+    "text": "Yeah, well, think about it like, you know, in 2008, there was a liquidity crunch and"
+  },
+  {
+    "speaker": 1,
+    "ts": 1056,
+    "text": "you know, companies didn't have access to capital."
+  },
+  {
+    "speaker": 1,
+    "ts": 1059,
+    "text": "But you know, it's these founders and these owner-operators have that access to capital."
+  },
+  {
+    "speaker": 1,
+    "ts": 1066,
+    "text": "And you know, secondly, they're able to pivot and make changes much quicker than a bureaucratic"
+  },
+  {
+    "speaker": 1,
+    "ts": 1070,
+    "text": "boardroom could, right?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1073,
+    "text": "Mark Zuckerberg, if he wants to hire an AI scientist and offer $200 million, he could"
+  },
+  {
+    "speaker": 1,
+    "ts": 1079,
+    "text": "do that with a stroke of a pen."
+  },
+  {
+    "speaker": 1,
+    "ts": 1081,
+    "text": "He doesn't have to go to a committee and get a vote, right?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1085,
+    "text": "So these owner-operators are able to make decisions quickly and make pivots and they"
+  },
+  {
+    "speaker": 1,
+    "ts": 1092,
+    "text": "have access to capital."
+  },
+  {
+    "speaker": 1,
+    "ts": 1094,
+    "text": "So when the world is really going wrong, like in 2008 or COVID pandemic, these owner-operator"
+  },
+  {
+    "speaker": 1,
+    "ts": 1103,
+    "text": "companies are more resilient, right?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1106,
+    "text": "In the general volatility period, I find the inside ownership index to be more volatile"
+  },
+  {
+    "speaker": 1,
+    "ts": 1113,
+    "text": "because it's more concentrated."
+  },
+  {
+    "speaker": 1,
+    "ts": 1115,
+    "text": "But when the world is really going wrong, something's happening, at least in the last"
+  },
+  {
+    "speaker": 1,
+    "ts": 1122,
+    "text": "two major global catastrophic events, which was 2008, 2009 and 2020, the S&P had deeper"
+  },
+  {
+    "speaker": 1,
+    "ts": 1133,
+    "text": "drawdowns."
+  },
+  {
+    "speaker": 1,
+    "ts": 1134,
+    "text": "Well, and it's just on your shirt, right?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1136,
+    "text": "I was just making the other point, so skin in the game, right?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1138,
+    "text": "When it's your money and the stock is getting smoked, you're going to want to pivot or make"
+  },
+  {
+    "speaker": 1,
+    "ts": 1143,
+    "text": "decisions a lot faster."
+  },
+  {
+    "speaker": 1,
+    "ts": 1146,
+    "text": "And so I have a feeling that during time of crisis, the resiliency of a founder, not"
+  },
+  {
+    "speaker": 1,
+    "ts": 1152,
+    "text": "only because they've got skin in the game, but it's also their baby wants to pull them"
+  },
+  {
+    "speaker": 1,
+    "ts": 1155,
+    "text": "out of the mud quite a lot quicker than maybe somebody who's just collecting a paycheck"
+  },
+  {
+    "speaker": 1,
+    "ts": 1160,
+    "text": "and eventually stock options."
+  },
+  {
+    "speaker": 1,
+    "ts": 1162,
+    "text": "Exactly."
+  },
+  {
+    "speaker": 1,
+    "ts": 1163,
+    "text": "So my favorite analogy is I like to call a hired CEO a zoo animal, a zoo lion."
+  },
+  {
+    "speaker": 1,
+    "ts": 1171,
+    "text": "A zoo lion gets spent every day whether it's successfully hunts or not, right?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1176,
+    "text": "Very often the hired CEO has a base salary, quarterly bonus, and very often a golden parachute,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1183,
+    "text": "right?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1184,
+    "text": "But the owner-operator CEO, I like to call a wild lion."
+  },
+  {
+    "speaker": 1,
+    "ts": 1187,
+    "text": "They're trained to survive."
+  },
+  {
+    "speaker": 1,
+    "ts": 1189,
+    "text": "They've already proven that they can survive in the world."
+  },
+  {
+    "speaker": 1,
+    "ts": 1192,
+    "text": "And when they don't successfully hunt, they feel the pain, they starve."
+  },
+  {
+    "speaker": 1,
+    "ts": 1196,
+    "text": "And they're able to make changes quicker and pivot."
+  },
+  {
+    "speaker": 1,
+    "ts": 1200,
+    "text": "And this guy named Matt Ridley, he wrote a book called How Innovation Works."
+  },
+  {
+    "speaker": 1,
+    "ts": 1207,
+    "text": "And how innovation really works is, for one, you can't innovate through committee."
+  },
+  {
+    "speaker": 1,
+    "ts": 1212,
+    "text": "And it's feedback loops, short feedback loops, trial and error."
+  },
+  {
+    "speaker": 1,
+    "ts": 1216,
+    "text": "And having the ability to make rapid changes."
+  },
+  {
+    "speaker": 1,
+    "ts": 1222,
+    "text": "And that's really how you create a separate value."
+  },
+  {
+    "speaker": 1,
+    "ts": 1224,
+    "text": "I mean, I just read a book about Jeff Bezos recently."
+  },
+  {
+    "speaker": 1,
+    "ts": 1228,
+    "text": "And what's crazy is he tried to eliminate communication."
+  },
+  {
+    "speaker": 1,
+    "ts": 1235,
+    "text": "Now, if you read a college textbook, they're going to talk about corporate communication,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1240,
+    "text": "improving it."
+  },
+  {
+    "speaker": 1,
+    "ts": 1241,
+    "text": "He's like, you know what?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1242,
+    "text": "I don't want to improve communication."
+  },
+  {
+    "speaker": 1,
+    "ts": 1243,
+    "text": "I want to eliminate it."
+  },
+  {
+    "speaker": 1,
+    "ts": 1245,
+    "text": "And that's how you really create innovation is by having these short feedback loops,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1253,
+    "text": "having the people actually working on the problem directly, pivoting and making changes."
+  },
+  {
+    "speaker": 1,
+    "ts": 1258,
+    "text": "And these large bureaucratic organizations tend to have layers of management and communication"
+  },
+  {
+    "speaker": 1,
+    "ts": 1265,
+    "text": "up and down before things really happen."
+  },
+  {
+    "speaker": 1,
+    "ts": 1269,
+    "text": "If you look at Tesla, for example, they made their patents for the electric car open source."
+  },
+  {
+    "speaker": 1,
+    "ts": 1276,
+    "text": "And yet these legacy car manufacturers still haven't been able to really create the electric"
+  },
+  {
+    "speaker": 1,
+    "ts": 1281,
+    "text": "car, right?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1283,
+    "text": "Yet all its patents have been open source."
+  },
+  {
+    "speaker": 1,
+    "ts": 1286,
+    "text": "And it's a structural problem."
+  },
+  {
+    "speaker": 1,
+    "ts": 1290,
+    "text": "So there are other owner-led funds in the space now."
+  },
+  {
+    "speaker": 1,
+    "ts": 1294,
+    "text": "We've got FFF, which is Michael Moynihan's product."
+  },
+  {
+    "speaker": 1,
+    "ts": 1298,
+    "text": "You've got Bang Creek's Billionaire Club, both of which I've had on the show."
+  },
+  {
+    "speaker": 1,
+    "ts": 1301,
+    "text": "And what's great is the three of you all come to the same conclusion, right?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1304,
+    "text": "Which is you got Skin in the Game and you're a founder-led company."
+  },
+  {
+    "speaker": 1,
+    "ts": 1308,
+    "text": "That's something you need to pay attention to."
+  },
+  {
+    "speaker": 1,
+    "ts": 1310,
+    "text": "But how is your index different than maybe how these funds are constructed other than"
+  },
+  {
+    "speaker": 1,
+    "ts": 1316,
+    "text": "maybe just screening for founders or billionaires?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1319,
+    "text": "Yeah."
+  },
+  {
+    "speaker": 1,
+    "ts": 1320,
+    "text": "Well, what I found, it's a little bit of the reverse order."
+  },
+  {
+    "speaker": 1,
+    "ts": 1324,
+    "text": "So what I find is sometimes you'll call a founder a founder after the fact."
+  },
+  {
+    "speaker": 1,
+    "ts": 1330,
+    "text": "So I'll give you an example."
+  },
+  {
+    "speaker": 1,
+    "ts": 1332,
+    "text": "Warren Buffett is not technically the founder of Berkshire."
+  },
+  {
+    "speaker": 1,
+    "ts": 1335,
+    "text": "He acquired Berkshire in 1965."
+  },
+  {
+    "speaker": 1,
+    "ts": 1337,
+    "text": "Howard Schultz is not the founder of Starbucks, right?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1340,
+    "text": "He acquired Starbucks from the Eleventh Store."
+  },
+  {
+    "speaker": 1,
+    "ts": 1342,
+    "text": "They become the founder later."
+  },
+  {
+    "speaker": 1,
+    "ts": 1345,
+    "text": "So it's really more about owner-operators."
+  },
+  {
+    "speaker": 1,
+    "ts": 1348,
+    "text": "And the difference is some of these other founder ETFs is they've required the founder"
+  },
+  {
+    "speaker": 1,
+    "ts": 1354,
+    "text": "to be in a leadership role in terms of either the chief executive."
+  },
+  {
+    "speaker": 1,
+    "ts": 1364,
+    "text": "They have to be in a C-suite."
+  },
+  {
+    "speaker": 1,
+    "ts": 1366,
+    "text": "For mine, they just have to be on the board."
+  },
+  {
+    "speaker": 1,
+    "ts": 1368,
+    "text": "They need also, for example, Google, Larry Page and Sergey Brand."
+  },
+  {
+    "speaker": 1,
+    "ts": 1372,
+    "text": "They're still in the office every day."
+  },
+  {
+    "speaker": 1,
+    "ts": 1374,
+    "text": "Sergey Brand is back in the office once AI became a big thing."
+  },
+  {
+    "speaker": 1,
+    "ts": 1377,
+    "text": "But they don't have a chief executive or chief technology officer type role."
+  },
+  {
+    "speaker": 1,
+    "ts": 1384,
+    "text": "But they don't need it, right?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1387,
+    "text": "They're in the office working on it every day."
+  },
+  {
+    "speaker": 1,
+    "ts": 1390,
+    "text": "So the difference is, I went back 100 years."
+  },
+  {
+    "speaker": 1,
+    "ts": 1393,
+    "text": "So for example, General Motors was the biggest company in the world in 1930 and it held that"
+  },
+  {
+    "speaker": 1,
+    "ts": 1399,
+    "text": "lead for more than 20 years."
+  },
+  {
+    "speaker": 1,
+    "ts": 1401,
+    "text": "General Motors was the biggest company in the world by 1950, 20 years later."
+  },
+  {
+    "speaker": 1,
+    "ts": 1408,
+    "text": "But it didn't have a founder at the top."
+  },
+  {
+    "speaker": 1,
+    "ts": 1411,
+    "text": "It had Alfred Sloan, who was a CEO and it was the first company to have a decentralized"
+  },
+  {
+    "speaker": 1,
+    "ts": 1419,
+    "text": "organization."
+  },
+  {
+    "speaker": 1,
+    "ts": 1420,
+    "text": "It was the first time a large company became decentralized."
+  },
+  {
+    "speaker": 1,
+    "ts": 1423,
+    "text": "So it held all these independent subsidiaries like Chrysler, Oldsmobile, Buick."
+  },
+  {
+    "speaker": 1,
+    "ts": 1432,
+    "text": "So again, IBM in the 80s, 1984 IBM was two and a half times larger than the next largest"
+  },
+  {
+    "speaker": 1,
+    "ts": 1443,
+    "text": "company in the world."
+  },
+  {
+    "speaker": 1,
+    "ts": 1445,
+    "text": "This is how dominant it was."
+  },
+  {
+    "speaker": 1,
+    "ts": 1447,
+    "text": "It held that lead for also like two decades."
+  },
+  {
+    "speaker": 1,
+    "ts": 1450,
+    "text": "It was run by Thomas Watson Jr., the son of the founder."
+  },
+  {
+    "speaker": 1,
+    "ts": 1455,
+    "text": "And he was the chairman of the board."
+  },
+  {
+    "speaker": 1,
+    "ts": 1456,
+    "text": "He retires in 1984 from the chairman role and completely retires."
+  },
+  {
+    "speaker": 1,
+    "ts": 1463,
+    "text": "Eight years after his retirement, IBM was now the top 10."
+  },
+  {
+    "speaker": 1,
+    "ts": 1467,
+    "text": "So we're talking about the most dominant company to ever exist, even to this day, because"
+  },
+  {
+    "speaker": 1,
+    "ts": 1471,
+    "text": "at two and a half times larger than the next largest company, that would be like Nvidia"
+  },
+  {
+    "speaker": 1,
+    "ts": 1475,
+    "text": "today being $12 trillion."
+  },
+  {
+    "speaker": 1,
+    "ts": 1478,
+    "text": "It was dominant and no one could compete."
+  },
+  {
+    "speaker": 1,
+    "ts": 1482,
+    "text": "And just eight years after his retirement, IBM falls out of the top 10."
+  },
+  {
+    "speaker": 1,
+    "ts": 1487,
+    "text": "So again, GE in 2000, largest company in the world, run by Jack Welch."
+  },
+  {
+    "speaker": 1,
+    "ts": 1495,
+    "text": "He retires in 2001."
+  },
+  {
+    "speaker": 1,
+    "ts": 1497,
+    "text": "General Electric will probably never make it the top 10."
+  },
+  {
+    "speaker": 1,
+    "ts": 1499,
+    "text": "Neither will Gerald Motors or IBM."
+  },
+  {
+    "speaker": 1,
+    "ts": 1504,
+    "text": "So the point is that once these owner operators, now we can call them owners, they're not necessarily"
+  },
+  {
+    "speaker": 1,
+    "ts": 1512,
+    "text": "founders, but Jack Welch owned a lot of GE stock."
+  },
+  {
+    "speaker": 1,
+    "ts": 1518,
+    "text": "Thomas Watson Jr. obviously owned a lot of IBM."
+  },
+  {
+    "speaker": 1,
+    "ts": 1521,
+    "text": "He was the son of the founder."
+  },
+  {
+    "speaker": 1,
+    "ts": 1524,
+    "text": "So it's really kind of like the reverse order."
+  },
+  {
+    "speaker": 1,
+    "ts": 1530,
+    "text": "Is these guys get labeled the founder even if there's more owners and they hit the ball"
+  },
+  {
+    "speaker": 1,
+    "ts": 1537,
+    "text": "in the park and then eventually they get labeled the founder?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1543,
+    "text": "So for an advisor who's listening to this, they're thinking about buying or owning owned."
+  },
+  {
+    "speaker": 1,
+    "ts": 1549,
+    "text": "How should they position the portfolio?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1551,
+    "text": "Do you think it's a replacement for the S&P?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1553,
+    "text": "Is it core holding?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1554,
+    "text": "Should it sit alongside of it?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1556,
+    "text": "Just like someone might hold equal weight and market cap weighted is just a third idea"
+  },
+  {
+    "speaker": 1,
+    "ts": 1560,
+    "text": "that can sit up there with them?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1563,
+    "text": "Yeah, well, I would replace the S&P because for one, what I like to tell advisors is because"
+  },
+  {
+    "speaker": 1,
+    "ts": 1572,
+    "text": "you're getting more of what's working, you could actually reduce equity exposure."
+  },
+  {
+    "speaker": 1,
+    "ts": 1578,
+    "text": "And I think that's the most prudent thing you do right now is in a 60-40 portfolio,"
+  },
+  {
+    "speaker": 1,
+    "ts": 1584,
+    "text": "you might want to be 50-50 right now at these equity prices."
+  },
+  {
+    "speaker": 1,
+    "ts": 1590,
+    "text": "What you could do is reduce exposure but still get exposure to the companies that are working"
+  },
+  {
+    "speaker": 1,
+    "ts": 1594,
+    "text": "the best."
+  },
+  {
+    "speaker": 1,
+    "ts": 1597,
+    "text": "And hopefully you can keep up with the market and when we do get that correction, you could"
+  },
+  {
+    "speaker": 1,
+    "ts": 1603,
+    "text": "add more exposure to the stock market."
+  },
+  {
+    "speaker": 1,
+    "ts": 1605,
+    "text": "But owned is a good way of maintaining your equity exposure but having less of it and"
+  },
+  {
+    "speaker": 1,
+    "ts": 1613,
+    "text": "still kind of keeping up with the market because again, you're having more of those technology"
+  },
+  {
+    "speaker": 1,
+    "ts": 1619,
+    "text": "names, the ones that are kind of keeping up with the market or the ones that are really"
+  },
+  {
+    "speaker": 1,
+    "ts": 1622,
+    "text": "carrying the market."
+  },
+  {
+    "speaker": 1,
+    "ts": 1624,
+    "text": "So Herron, I really appreciate you spending some time with me today."
+  },
+  {
+    "speaker": 1,
+    "ts": 1627,
+    "text": "Before I can let you go there, where can people learn more about the index as well as the"
+  },
+  {
+    "speaker": 1,
+    "ts": 1632,
+    "text": "ETF?"
+  },
+  {
+    "speaker": 1,
+    "ts": 1633,
+    "text": "Yeah, well, we have a website inside ownership.com, really easy inside ownership.com."
+  },
+  {
+    "speaker": 1,
+    "ts": 1641,
+    "text": "You can get information on the ETF and the index methodology."
+  },
+  {
+    "speaker": 1,
+    "ts": 1644,
+    "text": "I have a lot of videos on there as well where people could learn more about the methodology"
+  },
+  {
+    "speaker": 1,
+    "ts": 1650,
+    "text": "and they could contact me on LinkedIn."
+  },
+  {
+    "speaker": 1,
+    "ts": 1652,
+    "text": "I'm on LinkedIn quite a bit."
+  },
+  {
+    "speaker": 1,
+    "ts": 1653,
+    "text": "All right."
+  },
+  {
+    "speaker": 1,
+    "ts": 1654,
+    "text": "Well, hey, I appreciate you spending some time with me today."
+  },
+  {
+    "speaker": 1,
+    "ts": 1656,
+    "text": "Thanks for coming on."
+  },
+  {
+    "speaker": 1,
+    "ts": 1657,
+    "text": "Yeah, thanks for having me on."
+  }
+]
