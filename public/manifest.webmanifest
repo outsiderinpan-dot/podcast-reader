@@ -1,13 +1,23 @@
 {
   "name": "Podcast Reader · 金融播客中英精读",
-  "short_name": "PodcastReader",
-  "description": "每周自动更新的金融播客中文精读 + 英文原文对照",
-  "start_url": "/",
+  "short_name": "精读",
+  "description": "每周自动更新的金融播客中文精读 + 英文原文对照，含每集 200-500 字摘要。",
+  "start_url": ".",
+  "scope": "./",
   "display": "standalone",
+  "orientation": "portrait-primary",
   "background_color": "#ffffff",
   "theme_color": "#4f46e5",
   "lang": "zh-CN",
+  "categories": ["education", "news", "finance"],
   "icons": [
-    { "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "全部节目", "short_name": "节目", "url": "./shows/", "description": "浏览所有播客节目" },
+    { "name": "搜索", "short_name": "搜索", "url": "./search/", "description": "全站搜索单集与文字" }
   ]
 }

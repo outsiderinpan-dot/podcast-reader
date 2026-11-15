@@ -12,8 +12,16 @@ const base = import.meta.env.BASE_URL; // '/' 或 '/repo/'，用于 GitHub Pages
     <meta name="generator" content={Astro.generator} />
     <title>{title}</title>
     <meta name="description" content={description} />
+    <meta name="theme-color" content="#4f46e5" />
     <link rel="manifest" href={`${base}manifest.webmanifest`} />
     <link rel="alternate" type="application/rss+xml" title="Podcast Reader RSS" href={`${base}rss.xml`} />
+    <link rel="icon" type="image/svg+xml" href={`${base}icon.svg`} />
+    {/* iOS/Android「添加到主屏幕」独立窗口所需 */}
+    <link rel="apple-touch-icon" href={`${base}icons/apple-touch-icon.png`} />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="精读" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
     <script is:inline>
       // 首屏前应用主题，避免闪烁
       (function () {
@@ -74,6 +82,78 @@ const base = import.meta.env.BASE_URL; // '/' 或 '/repo/'，用于 GitHub Pages
           var k = a.getAttribute('data-nav');
           if ((k === 'home' && p === '/') || (k === 'shows' && p.indexOf('/shows/') === 0) || (k === 'search' && p.indexOf('/search') === 0)) a.classList.add('active');
         });
+      })();
+    </script>
+    {/* PWA：Service Worker 注册 + 轻量安装引导 */}
+    <script is:inline>
+      (function () {
+        var b = document.documentElement.getAttribute('data-base') || '/';
+        // 1) 注册 Service Worker（同源同 BASE 作用域）
+        if ('serviceWorker' in navigator) {
+          window.addEventListener('load', function () {
+            navigator.serviceWorker.register(b + 'sw.js').catch(function (e) {
+              console.warn('[pwa] SW register failed', e);
+            });
+          });
+        }
+        // 2) 已经是独立窗口运行（standalone）就不提示安装
+        var standalone = window.matchMedia('(display-mode: standalone)').matches
+          || window.navigator.standalone === true
+          || document.referrer.indexOf('android-app://') === 0;
+        if (standalone) return;
+        // 3) 每用户只主动提示一次；用户手动关闭后不再打扰
+        try { if (localStorage.getItem('pwa-prompt-dismissed') === '1') return; } catch (e) {}
+        var isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+        var btn = null, timer = null;
+
+        function showBar(text, actionLabel, onAction) {
+          if (btn) return;
+          btn = document.createElement('div');
+          btn.className = 'pwa-bar';
+          btn.innerHTML =
+            '<div class="pwa-bar-text">' + text + '</div>' +
+            '<button class="pwa-bar-act" type="button">' + actionLabel + '</button>' +
+            '<button class="pwa-bar-close" type="button" aria-label="关闭">×</button>';
+          document.body.appendChild(btn);
+          btn.querySelector('.pwa-bar-act').addEventListener('click', onAction);
+          btn.querySelector('.pwa-bar-close').addEventListener('click', function () {
+            try { localStorage.setItem('pwa-prompt-dismissed', '1'); } catch (e) {}
+            btn.remove(); btn = null;
+          });
+        }
+
+        // 3a) Chrome/Edge/Android：等 beforeinstallprompt
+        var deferred = null;
+        window.addEventListener('beforeinstallprompt', function (e) {
+          e.preventDefault();
+          deferred = e;
+          // 稍微延后，避免与首屏渲染抢焦
+          clearTimeout(timer);
+          timer = setTimeout(function () {
+            showBar('把「精读」装到主屏幕，独立窗口 + 离线可读', '安装', function () {
+              if (!deferred) return;
+              deferred.prompt();
+              deferred.userChoice.finally(function () {
+                deferred = null;
+                if (btn) { btn.remove(); btn = null; }
+              });
+            });
+          }, 4000);
+        });
+        window.addEventListener('appinstalled', function () {
+          if (btn) { btn.remove(); btn = null; }
+        });
+
+        // 3b) iOS Safari：无 beforeinstallprompt，提示手动路径（只提示一次）
+        if (isIOS) {
+          clearTimeout(timer);
+          timer = setTimeout(function () {
+            showBar('Safari 里点 <span class="pwa-ios-share">⎋</span> 分享 → 添加到主屏幕，即可离线阅读', '知道了', function () {
+              try { localStorage.setItem('pwa-prompt-dismissed', '1'); } catch (e) {}
+              if (btn) { btn.remove(); btn = null; }
+            });
+          }, 6000);
+        }
       })();
     </script>
   </body>

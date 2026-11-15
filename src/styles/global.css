@@ -523,3 +523,35 @@ footer.site-foot { border-top:1px solid var(--border); padding: 28px 0; font-siz
   .art-who { gap: 8px; }
 }
 
+/* —— PWA 安装引导条：固定在视口底部，一次性提示；用户关闭后不再出现 —— */
+.pwa-bar {
+  position: fixed; left: 50%; bottom: 18px; transform: translateX(-50%);
+  z-index: 9999;
+  display: flex; align-items: center; gap: 12px;
+  max-width: min(560px, calc(100vw - 24px));
+  padding: 10px 12px 10px 16px;
+  background: var(--bg-card); color: var(--text);
+  border: 1px solid var(--border); border-left: 3px solid var(--accent);
+  border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,.14);
+  font-size: 13.5px; line-height: 1.5;
+  animation: pwa-bar-in .28s ease-out both;
+}
+@keyframes pwa-bar-in { from { opacity: 0; transform: translate(-50%, 12px); } to { opacity: 1; transform: translate(-50%, 0); } }
+.pwa-bar-text { flex: 1 1 auto; min-width: 0; }
+.pwa-bar-act {
+  flex: 0 0 auto;
+  background: var(--accent); color: #fff;
+  border: 0; border-radius: 8px; padding: 6px 14px;
+  font-size: 13px; font-weight: 600; cursor: pointer;
+  box-shadow: 0 2px 6px var(--accent-soft);
+}
+.pwa-bar-act:hover { filter: brightness(1.06); }
+.pwa-bar-close {
+  flex: 0 0 auto;
+  background: transparent; color: var(--text-faint);
+  border: 0; font-size: 20px; line-height: 1; padding: 2px 6px; cursor: pointer;
+  border-radius: 6px;
+}
+.pwa-bar-close:hover { color: var(--text); background: var(--accent-soft); }
+.pwa-ios-share { display: inline-block; padding: 0 2px; color: var(--accent); font-weight: 700; }
+
