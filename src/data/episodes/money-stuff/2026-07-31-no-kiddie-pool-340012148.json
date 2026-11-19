@@ -1,0 +1,881 @@
+{
+  "show": "money-stuff",
+  "kind": "transcript",
+  "id": "340012148",
+  "guid": "089b710d-a0df-4ba0-977b-b4980108e6db",
+  "slug": "2026-07-31-no-kiddie-pool-340012148",
+  "date": "2026-07-31",
+  "title_en": "No Kiddie Pool",
+  "title_zh": "不许进儿童池（No Kiddie Pool）：Situational Awareness 被强平、Exoma 登记日乌龙与 SpaceX 结构性票据",
+  "subtitle_zh": "AI 对冲基金 Situational Awareness 因短期融资被强平、Exoma 登记日乌龙，以及银行借结构性票据向散户买入 SpaceX 看跌期权。",
+  "summary_zh": "本期由 Matt Levine 主持，Sylvia Killingsworth 首次担任客座主持。话题一是对冲基金 Situational Awareness：由前 OpenAI 员工 Leopold Aschenbrenner 创立，凭押注 AI 做大两年间回报约一千个百分点，但近几周 AI 回撤，加上他做多 AI 与存储芯片、做空软件公司两头不利，主经纪商发出追加保证金通知，被迫强平大量仓位，Citadel 折价接手其股票头寸，管理规模降到约一百亿美元。Matt 借此指出：用短期融资支撑长期高波动押注必然脆弱，回报过高本身就是杠杆的危险信号。话题二是生物科技公司 Exoma：以每股三十九美元现金加一份或有价值权（CVR）卖给 Ligand，却把登记日定在合并完成前一天，引发对登记日与 T+1 结算的混乱解读，随后撤回、按完成时点处理，Matt 认为这是把 CVR 误当成需要登记日的股息式分派。话题三是 SpaceX 结构性票据：表面是散户买入带下行保护的产品，实质是银行借此向散户买入 SpaceX 深度虚值看跌期权，因为这类保险很难直接从市场获得。",
+  "description": "No Kiddie Pool",
+  "duration": "26:54",
+  "duration_seconds": 1614,
+  "episode_url": "https://www.iheart.com/podcast/1308-money-stuff-the-podcast-164725399/episode/no-kiddie-pool-340012148",
+  "audio_url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/ee4336cb-155f-4488-90e0-b1400134e40e/089b710d-a0df-4ba0-977b-b4980108e6db/audio.mp3?utm_source=Podcast&in_playlist=77e6a3a7-290d-4a82-8164-b14001353ef2&source=iheart",
+  "speakers": {
+    "1": "Matt Levine（主持）",
+    "2": "Sylvia Killingsworth（客座主持）",
+    "3": "片花/广告（旁白）"
+  },
+  "turn_count": 107,
+  "turns": [
+    {
+      "i": 0,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "00:03",
+      "en": "Bloomberg Audio Studios, Podcasts, radio news. Who are you?",
+      "zh": "Bloomberg Audio Studios，播客、广播、新闻。你是谁呀？"
+    },
+    {
+      "i": 1,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "00:10",
+      "en": "I'm Sylvia Killingsworth.",
+      "zh": "我是 Sylvia Killingsworth。"
+    },
+    {
+      "i": 2,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "00:11",
+      "en": "How much introduction should we do with you?",
+      "zh": "我们该给你做多长的介绍呢？"
+    },
+    {
+      "i": 3,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "00:13",
+      "en": "I could give you my title, I could give you my middle name. I could give you my data birth social Security number.",
+      "zh": "我可以报我的头衔，可以报我的中间名，甚至可以报我的出生日期和社会安全号（Social Security number）。"
+    },
+    {
+      "i": 4,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "00:22",
+      "en": "Hello, and welcome to the Money Stuff Podcast, your weekly podcast where we talk about stuff related to money. I'm Matt Levian and I write The Moneystuff Colm for Bloomberg Opinion.",
+      "zh": "大家好，欢迎收听 Money Stuff 播客，这是我们的周更节目，聊聊跟钱有关的那些事儿。我是 Matt Levine，为 Bloomberg Opinion 撰写 Money Stuff 专栏。"
+    },
+    {
+      "i": 5,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "00:33",
+      "en": "And I'm Sylvia Killingsworth. I'm an editor at large for Bloomberg Ideas and Culture, and I run a great newsletter called on Books, which Matt has been featured and will be featured in.",
+      "zh": "我是 Sylvia Killingsworth，担任 Bloomberg Ideas and Culture 的特约编辑，还主理一份很棒的通讯叫 On Books，Matt 上过、以后也会再上。"
+    },
+    {
+      "i": 6,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "00:41",
+      "en": "The podcast has been featured. This is the Money Stuff Podcast, which usually features me and Katie Greyfield in my co host, but she is away for six months. Katie is on parental and so our plan was to have a rotating cast of guest hosts. And you are the first sacrificial victim.",
+      "zh": "是这档播客上过。Money Stuff 播客通常由我和联合主持 Katie Greifeld 一起，但她要离开六个月——Katie 去休育儿假了，所以我们打算请一批轮换的客座主持。而你就是第一个『牺牲品』。"
+    },
+    {
+      "i": 7,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "01:10",
+      "en": "Here I go, Here you go.",
+      "zh": "那我上了，你请。"
+    },
+    {
+      "i": 8,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "01:11",
+      "en": "You're talking about situational awareness. Now, yes, okay, you want to yes, I don't. I don't know what's to say. The guy blew up, I mean sorry, the guy didn't blow up. The latest report. So this is there's a hedge fund called Situational Awareness. It started by Leopold Ashanbrenner, who's a former Open AI employee who like left like age Yeah, he's like twenty five.",
+      "zh": "你要聊的是 Situational Awareness。好，行，你想聊，那我说。最新报道是这样的：有个家伙爆仓了——我是说，抱歉，他没真爆仓。有一家对冲基金就叫 Situational Awareness，由 Leopold Aschenbrenner 创立，他是 OpenAI 前员工，很年轻就离开了，也就二十五岁左右。"
+    },
+    {
+      "i": 9,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "01:32",
+      "en": "From Columbia, nineteen elevictorian.",
+      "zh": "哥伦比亚大学出来的，二〇一九届那种。"
+    },
+    {
+      "i": 10,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "01:34",
+      "en": "He wrote some essays in twenty twenty four called Situational Awareness, the gist of which is like, oh, boy is going to be really big, and enough people found that compelling that they aim a lot of money to run a hedge fund to basically bet that I would be really big, which broadly speaking, was a bet that worked really really really well for like the last two years. And he's like returned like a thousand percent by like tune, and you know, he's like very plugged into AI and seems to make good bets on like who will be the winners of the AI boom and all this stuff, and.",
+      "zh": "他在二〇二四年写了一系列叫 Situational Awareness 的文章，主旨就是『天哪，AI 会变得非常大』，很多人觉得这个说法有说服力，于是凑了一大笔钱成立对冲基金，本质上就是押注 AI 会做得很大。笼统地说，过去两年这个赌注回报好得不得了，他大概赚到了一千个百分点的回报。他对 AI 非常了解，似乎总能押中谁会是 AI 繁荣里的赢家，等等。"
+    },
+    {
+      "i": 11,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "02:08",
+      "en": "Did create he worked, He knows a lot of stuff, He understands how it works. He can see the future.",
+      "zh": "他确实能干，懂得很多，明白其中的运作机制，能看到未来。"
+    },
+    {
+      "i": 12,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "02:13",
+      "en": "So sorry. The news today is that he apparently got blown out of a lot of his positions because his prime brokers sent to margin calls. They like didn't have enough money, and so the prime brokers kind of helped him offload a lot of stuff. Citadel, the big hedge fund, ended up owning a lot of his public stock positions. He still has like a big anthropic stake. And like the reporting that I saw today was that his assets under management have declined to like ten billion.",
+      "zh": "抱歉。今天的消息是，他显然被强平掉了很多仓位，因为他的主经纪商（prime broker）发了追加保证金通知（margin call），钱不够了，于是主经纪商帮他甩掉了很多头寸。大型对冲基金 Citadel 最后接手了他不少公开股票仓位。他仍持有一大块 Anthropic 的股份。我今天看到的报道说，他的资产管理规模已经降到了大约一百亿美元。"
+    },
+    {
+      "i": 13,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "02:39",
+      "en": "Do lear.",
+      "zh": "缩水了。"
+    },
+    {
+      "i": 14,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "02:40",
+      "en": "But so that's the story. Basically, like he got margin called, you know, because there's been a drawdown in AI bets in the last couple of weeks, and so he was very long a lot of AI companies, memory chip companies, things like that, and very short you know, like software companies, and both of those moved against him for whatever reason, sure fundamental reasons, technical market sentiment reasons, people knowing that he had them, and maybe hunting him, like I don't know. But anyway, the movie against him. He got margin calls, He got blown out of a lot of his positions. Sit Itell now owns a lot of his thock bets and by the way, all of his trades like have recovered today. This is recording, which is like what happens when these things happen, right.",
+      "zh": "故事大概就是这样。基本上他被追加保证金了，因为过去几周 AI 押注出现回撤，他重仓做多很多 AI 公司、存储芯片公司之类，同时大幅做空软件公司，而这两头都朝不利方向走，原因难说——可能是基本面、技术面、市场情绪，也可能是大家知道他持有这些仓位、专门来狙击他，我不知道。总之行情对他不利，他收到追加保证金通知，很多仓位被强平，Citadel 现在接手了他不少股票押注。顺带一提，他所有的交易到今天都反弹回来了（这段是提前录制的），而这正是这类事情发生后的典型走向。"
+    },
+    {
+      "i": 15,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "03:18",
+      "en": "Oh, like as a result of this, as a result.",
+      "zh": "哦，是因为这件事，作为结果……"
+    },
+    {
+      "i": 16,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "03:20",
+      "en": "Of like the problem being fixed, and it's like these positions have moved from weekends. People who have a lot of margin leverage and might have to sell to strong hands have Stadelho like got him at a discoun and so now there's no more worry about selling pressure coming in these positions, and.",
+      "zh": "是问题被解决了。这些仓位从『弱手』转移到了『强手』——那些加了很高保证金杠杆、可能被迫卖出的人，被 Citadel 以折价接了盘，所以现在不用再担心这些仓位有抛压了，而且……"
+    },
+    {
+      "i": 17,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "03:38",
+      "en": "So everyone feels better.",
+      "zh": "所以大家都松了口气。"
+    },
+    {
+      "i": 18,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "03:39",
+      "en": "Everything's recovered, and so cidadel has made probably a lot of money in twelve hours.",
+      "zh": "一切都反弹回来了，所以 Citadel 大概在十二小时里赚了一大笔。"
+    },
+    {
+      "i": 19,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "03:45",
+      "en": "His bets weren't wrong. He just kind of caught out as they look a long time.",
+      "zh": "他的押注方向没错，只是一时被打了个措手不及，尽管这些看起来是长期的赌注。"
+    },
+    {
+      "i": 20,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "03:49",
+      "en": "Yeah, like they're down in the last month, but like they're way way up since the beginning of the year. Overall, kind of every stock he bought at the beginning of the year is up, you know. But what I wrote today is basically like if you're making like long term bets on like things like Anthropic that were kind of like didn't exist five years ago, sure now, like trillion dollar companies, if you're making these long term, extremely volatile bets, you have to expect that at some point there will be some volatility, right, Like some of these memory stocks will like go up a thousand percent, this is a little too much, and we'll go down a little shit, right, And if you are constantly running at I don't know what his leverage was, but let's say three times leverage. If you have ten billion of your own money and you're making thirty billion dollars of bets and you're constantly scaling out the bets as you make more money, then this will always be fragile, and at some point there will be a drawdown and you will have to pay back your debt and you will get margin calls and your prime brokers will make you sell your positions and you will be blown out of these long term bets because you had essentially.",
+      "zh": "对，它们过去一个月是跌的，但从年初到现在涨了非常多。总体上，他年初买的几乎每只股票都在涨。但我今天写的大意是：如果你对 Anthropic 这类东西做长期押注——它们五年前几乎还不存在，如今却是万亿美元级别的公司——如果你做这种长期、波动极大的押注，你就得预期到某个时刻一定会出现波动。比如某些存储股会涨一千个百分点，这有点过头了，然后又会跌一截。而如果你一直用——我不知道他的杠杆是多少，就假设三倍杠杆吧——如果你有一百亿美元自有资金，却做三百亿美元的押注，而且随着赚得越来越多不断把赌注加码放大，那这种结构永远是脆弱的，总会有某个时刻出现回撤，你不得不还债、收到追加保证金通知，主经纪商逼你卖出仓位，你就这样被强平出这些长期押注，因为你本质上用的是——"
+    },
+    {
+      "i": 21,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "04:50",
+      "en": "Short term finance, short term financing.",
+      "zh": "短期融资，短期资金。"
+    },
+    {
+      "i": 22,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "04:53",
+      "en": "Which is kind of what hedgemon margin debt is, right, And you know, if you think of like what sit at all those all they did, I mean a lot of things, but like, the deep thing they do is think about this, right, the deep thing they do is think about, like, if something bad happens, how do we survive, Like how do we make sure that our funding doesn't get pulled? And so some of that is having contracts that say, you know, instead of like we can get a margin call and blown out in twenty four hours, it's like, you know, we have longer term debt. Big hedgehes issue bonds for these reasons, but some of it is like just having a risk culture and a reputation of not getting blown up so that your prime brokers will not worry about you. Whether if you're like a twenty five year old you start a hedgehind two years ago, your prime berls will worry about you. And if you get a margin call and you're like, I need more time, guys, they'll say no. So I do think that, Like, you know, what I wrote today is that situational awareness is like essentially in the business of like thinking about the long term future of AI right, which has been a great business for them until two weeks ago. Sure sitde like in the business of thinking about funding risk and find the funding risk blew situational awareness and now Citadel owns their bets on AI. And I also I mentioned this in a footnote, but there's another guy who had bad funding for his anthropic bets. Like one way to think about Sam Bankman Freed is that he was a really smart venture capital investor in AI like he bought I think he had a couple of other like very cool positions, but certainly he was a very early, very big investor in anthropic and bought a stake in Anthropic that you know, they sold it a couple of years ago to in the bankruptcy estate. But like he had like eight percent of enormous yeah, you know, stuff that's worth tens of billions of dollars today. But he bought that with like the very worst short term funding imaginable, which is like money stolen from the customers cryptoi exchange. He would say, not stolen, right, and money borrowed money whatever, money from the customers of his crypto exchange. And when your crypto exchange, you know, when people try to with throw money and you're like, I'm sorry, I can't give you the money, it sounds really really bad, even though like like you know, the line is great, right, And so that worked out very very poorly for him. Leopold work in some sort of FTX fund at some point, like crucially did not do that, Like he borrowed money from banks on prime brokerage terms very you know, in very normal ways. But it does sort of lead to the same problem, which is you can be blown out of the bets prematurely, right, Like you know, if Sam Bankmanfree had kept his Anthropic bet, it would be worth one hundred billion dollars today, if Situational Awareness had kept their AI bets, like you know, they probably be you know, an eighty billion dollar fund in a year, right, like like it's just like you can't volatility.",
+      "zh": "而对冲基金的保证金债务差不多就是这么回事。你想想 Citadel 他们做的那些——他们做很多事，但深层的事情是这个：如果出了坏事，我们怎么活下来？我们怎么确保自己的资金不被抽走？其中一部分是靠合约安排，比如不是『二十四小时内就可能被追加保证金、被强平』，而是有更长期的债务——大型对冲基金正是出于这些原因发行债券。但另一部分则是靠一种风险文化和『不会爆仓』的声誉，让你的主经纪商不担心你。而如果你是个二十五岁、两年前才创办对冲基金的人，你的主经纪商就会担心你；你要是收到追加保证金通知说『兄弟们我需要多一点时间』，他们会说不行。所以我今天写的是：Situational Awareness 本质上干的是思考 AI 长期未来这门生意，直到两周前这都是一门很好的生意；而 Citadel 干的是思考资金风险这门生意，结果资金风险把 Situational Awareness 干掉了，现在 Citadel 拥有了他们对 AI 的押注。我还在脚注里提到，另一个人给他的 Anthropic 押注用了很糟糕的资金来源。有一种理解 Sam Bankman-Fried 的方式是：他其实是个非常聪明的 AI 风险投资人，他买过——我想他有几个非常牛的仓位，但他肯定是很早、很大手笔地投了 Anthropic，买下了一块股份，几年后在破产财产里卖掉了。他当时持有大约百分之八的 Anthropic，那在今天值几百亿美元。但他买这个用的是能想到的最糟糕的短期资金，也就是从他加密交易所客户那里弄来的钱——他会说不是偷的，对吧——以及借来的钱、客户存的钱等等。而当你的加密交易所……当人们想取钱、你却说『抱歉我给不出钱』，这听起来非常非常糟，尽管——你懂的那句台词很棒，对吧。结果对他非常非常不利。而 Leopold……关键在于他没有去搞某种 FTX 式的资金，他是按主经纪商条款、以很正常的方式向银行借钱。但这确实会导致同样的问题：你可能被过早地强平出局。如果 Sam Bankman-Fried 保住了他的 Anthropic 押注，今天会值一千亿美元；如果 Situational Awareness 保住他们的 AI 押注，一年后他们大概会是一支八百亿美元的基金。总之，你就是扛不住波动。"
+    },
+    {
+      "i": 23,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "07:53",
+      "en": "Is it the leverage or is it the term of the financing like the time I mean, and like.",
+      "zh": "到底是杠杆的问题，还是融资期限的问题——我是说时间，还有……"
+    },
+    {
+      "i": 24,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "08:03",
+      "en": "Their equity value is not zero. So if they had non callable leverage, right, like if they had issued bonds to finance these positions, like if they had issued like tenured, non call, non putable bonds, like they would just have the money and they would be fine.",
+      "zh": "他们的股权价值并不是零。所以如果他们用的是不可赎回的杠杆——比如发行债券来为这些仓位融资，如果发的是有期限、不可赎回、不可回售的债券，那他们就能稳稳拿着这笔钱，不会有事。"
+    },
+    {
+      "i": 25,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "08:22",
+      "en": "You know, I do think that, Yeah, you can both, I guess right.",
+      "zh": "我确实觉得，嗯，两者都有可能，我想是的。"
+    },
+    {
+      "i": 26,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "08:25",
+      "en": "Yeah. It's like I thought about a lot this sort of thing a lot in like the crypto world, Like this is what three hours was up to. In crypto, there are a lot of people who like think they're doing a like liquid markets trade, but are kind of doing a like venture capital trade. And if you're funding adventure, well, like like in crypto, this was more obvious because like people were putting money into like you know, things that had just been invented. But like Situational Awareness was making a long term bat on like a market going from like almost nothing to enormous, and so to have that bet pay off, you need to see it through for the long term. Like you could be wrong for a while, right, and they were really right for a while, which they just levered up the bet and that worked on poorly. Like to make a long term bet like that, you need long term funding. The other thing that like is crazy to me is their returns in their first like two years or one thousand percent, which like too good, it's too good. If they had not had any leverage, they would have returned I don't know, two hundred percent, like oh, like it would have been so good, and then they'd be fine, right, they'd be down, you know, thirty percent this month and they'd be like, well, sorry, guys, you're still up two hundred percent.",
+      "zh": "对。我在加密世界里想过很多这类事情，这就是 Three Arrows（三箭）在加密圈干的事。有很多人自以为在做流动性市场的交易，实际上做的却像风险投资交易。如果你的资金是……在加密圈这一点更明显，因为大家把钱投进刚刚被发明出来的东西。但 Situational Awareness 做的是一个长期押注，押一个市场从几乎为零涨到巨大，要让这个押注兑现，你得长期扛住它。你可能在一段时间里是错的，而他们其实很长时间都是对的，只是他们把这个赌注加了杠杆，结果就搞砸了。要做这样的长期押注，你就需要长期资金。另一件让我觉得疯狂的事是，他们头两年左右的回报是一千个百分点，这好得不真实。如果他们完全不加杠杆，回报我不知道，也许两百个百分点——哦，那也已经好得不得了，然后他们就会没事，本月回撤个百分之三十，还能说『抱歉各位，你们还是赚了两百个百分点』。"
+    },
+    {
+      "i": 27,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "09:39",
+      "en": "Your point being like that's like maybe a red flag kind of number.",
+      "zh": "你的意思是，那样的数字也许是个危险信号。"
+    },
+    {
+      "i": 28,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "09:43",
+      "en": "No, it's not exactly read. It's just like they do you just have yeah, but they don't mean like, you know, it's not like fake. It's just like that's the result of leverage. And I think it's you know, because they were a hedge fund and they're like, well, hedge funds par of money, and like, we really believe in this bet. So we want to, you know, make it as big as possible, right, But if you're levered portfolio returns two hundred percent, like you don't need more leverage, You're fine. Two hundred percent is great, Like you can just get two hundred percent, And they instead got a thousand percent and then got blown out this week.",
+      "zh": "不，也不完全是『危险』。只是……是的，但这不代表它是假的，那只是杠杆的结果。我觉得因为他们是对冲基金，就想『对冲基金是要赚钱的，我们又真心相信这个押注，所以要把它做到尽可能大』。但如果你的杠杆组合已经回报两百个百分点，你就不需要更多杠杆了，你已经很好了，两百个百分点很棒，你就拿着两百个百分点就好。可他们偏要拿到一千个百分点，然后这周被强平了。"
+    },
+    {
+      "i": 29,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "10:18",
+      "en": "So it seems like they weren't really very aware of the situation.",
+      "zh": "所以看起来他们对自己的『局势』（situational awareness）并不太有觉察。"
+    },
+    {
+      "i": 30,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "10:38",
+      "en": "You're the first guest host, and I sent you I think like last Friday. Yes, I was so excited about this I don't even know how to pronounce it. This company, this biotech royalty company called Exoma. They did something so weird and I was like, you were really getting thrown into the defense. We are a start in your podcast with a record date mix up?",
+      "zh": "你是第一位客座主持，我大概上周五就把这个发给你了。是的，我为这个激动坏了，我甚至不知道怎么念——这家公司，这家生物科技版权费（royalty）公司叫 Exoma，他们做了一件特别古怪的事。我当时想，你这是被直接扔进深水区了：一上来做播客就碰到登记日（record date）搞混的事。"
+    },
+    {
+      "i": 31,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "11:02",
+      "en": "There is no for me.",
+      "zh": "对我来说没什么深水区。"
+    },
+    {
+      "i": 32,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "11:05",
+      "en": "And you, I think rolled your eyes, but I didn't see it. So should we talk about Exoma? Yes? Should I tell this story?",
+      "zh": "我记得你翻了个白眼，但我没看见。那我们要不要聊聊 Exoma？要吗？要不要我讲这个故事？"
+    },
+    {
+      "i": 33,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "11:12",
+      "en": "Yes? You should? Because what is a record date?",
+      "zh": "要啊，你讲吧。因为——什么是登记日？"
+    },
+    {
+      "i": 34,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "11:14",
+      "en": "So there's two biotech royalty companies like Sooma has this like litigation going on. So what they did is they sold themselves to Ligan for thirty nine dollars a share in cash plus like a claim on that litigation. It's called the CVR continued.",
+      "zh": "有两家生物科技版权费公司。Exoma 有一场正在进行的诉讼，所以他们做的是把自己卖给了 Ligand，价格是每股三十九美元现金，外加对那场诉讼的一项索取权。这东西叫 CVR，也就是……"
+    },
+    {
+      "i": 35,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "11:27",
+      "en": "Value rate contention basically value right contingent value rate.",
+      "zh": "……或有价值权（contingent value right），基本上就是或有价值权。"
+    },
+    {
+      "i": 36,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "11:31",
+      "en": "So like, if in the next few years they win the litigation, the old shareholders get some money.",
+      "zh": "也就是说，如果未来几年他们打赢这场诉讼，老股东就能拿到一些钱。"
+    },
+    {
+      "i": 37,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "11:36",
+      "en": "If they don't, they don't, it's like potentially an IOU.",
+      "zh": "如果打不赢，就没有，它就像一张潜在的欠条（IOU）。"
+    },
+    {
+      "i": 38,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "11:38",
+      "en": "Yeah, it's a it's a flyer on this lawsuit. So like instead of like lieg in paying them cash for the expected value of the lawsuit, they get the upside on the downside of the lawsuit, And like, the CBR is probably worth that five bucks, like an expected value, And they agreed to sell themselves for those two things. And the merger closed on July fourteenth, And a few weeks before the merger closed, they put out of press release being like the record date for the distribution of the contingent value rights is five PM on July thirteenth, which is the day before the merger closing date. And so you had this situation where if you owned the stock on July thirteenth, you got the CVR, which is worth about five bucks, and if you own the stock on July fourteenth, you got the thirty nine dollars in cash.",
+      "zh": "对，这是押在这场诉讼上的一张『彩票』。所以 Ligand 没有按诉讼的预期价值付他们现金，而是让老股东承担诉讼的上行和下行。这个 CVR 按预期价值大概值五美元，他们同意以这两样东西把自己卖掉。合并在七月十四日完成，而在合并完成前几周，他们发了一份新闻稿，说或有价值权分派的登记日是七月十三日下午五点，也就是合并完成日的前一天。于是就出现了这样的局面：如果你在七月十三日持有股票，你拿到 CVR，价值大约五美元；如果你在七月十四日持有股票，你拿到三十九美元现金。"
+    },
+    {
+      "i": 39,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "12:23",
+      "en": "But those are slightly different.",
+      "zh": "但这两个日期不太一样。"
+    },
+    {
+      "i": 40,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "12:25",
+      "en": "The merger closing date so if you own the stock when the merger closed, you got the cash. Normally, if you own the stock on the merger closes, you get whatever you get right just cash or stock or CVRs or whatever. But for some reason, they put it an announcement saying that the CVR had a record date the day before the merger closed. And what that means because stock trades settlet plus one, so like, if you buy stock on Monday, you got the stock on Tuesday. What that means is that if you bought the stock on July thirteenth, which is like the Monday, the day before the merger closed, if you bought the stock on July thirteenth, the press release seemed to say you didn't get the CVR because you wouldn't set up until the next day, so you would get the thirty nine dollars, but you wouldn't get the CVR.",
+      "zh": "合并完成日，也就是说如果你在合并完成时持有股票，你就拿到现金。通常，如果你在合并完成时持股，你拿到的是什么就是什么——现金、股票、CVR 之类。但不知为何，他们发公告说 CVR 的登记日是合并完成的前一天。这意味着什么呢？因为股票是 T+1 结算，比如你周一买股票，周二才真正到手。这就意味着，如果你在七月十三日——也就是合并完成前一天的周一——买入股票，按那份新闻稿的说法你拿不到 CVR，因为你要到第二天才结算，所以你会拿到三十九美元，却拿不到 CVR。"
+    },
+    {
+      "i": 41,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "13:05",
+      "en": "That seems unfair.",
+      "zh": "这听起来不太公平。"
+    },
+    {
+      "i": 42,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "13:06",
+      "en": "It seems unfair and strange and not how mergers work, and also not what they had previously said. And like the merger proxy, they were like, you'll get the consideration at the merger clothing. But they put up this press release and people believed it, including like Nazdak, which told traders like you need to own it by Friday July tenth to get the CVR, and so on July thirteenth, the stock traded down. Basically, they traded down like it didn't trade to thirty nine. Some people thought, no, this is wrong, I will get the CVR, so traded like forty bucks. So a lot of people did a trade where you would buy the stock on Friday, you would get the CVR, and you'd sell the stock on Monday, thinking that you would keep the CVR because the record date was different from the merger closing date. And then like two days after the merger closed, they put out a shameful press release saying, nope, never mind, we're not using the record date. This was all wrong, like mergers close when they close, and so about that. So I've heard from people who like did this trade and were sort of laying low because they worried that the company would take the CVR away from them. But that appears to an they appear to have got it.",
+      "zh": "这既不公平，也很古怪，不是合并应有的运作方式，也和他们之前的说法不符。在合并委托声明书（proxy）里他们说『你会在合并完成时拿到对价』。但他们发了这份新闻稿，大家就信了，连 Nasdaq 都信了，还告诉交易者：你要在七月十日周五之前持有才能拿到 CVR。所以七月十三日那天股价下跌了——基本上它没有跌到三十九美元，有些人认为『不对，我会拿到 CVR』，所以成交在四十美元左右。于是很多人做了这样一笔交易：周五买入股票，拿到 CVR，然后周一卖出股票，以为自己能留住 CVR，因为登记日和合并完成日不同。结果合并完成两天后，他们发了一份很丢脸的新闻稿说：算了，别当真，我们不采用那个登记日，之前全搞错了，合并就是完成时点算数。就这样。我听到一些做了这笔交易的人一度低调行事，担心公司会把 CVR 从他们手里拿走。但看来是没事了，他们似乎拿到了。"
+    },
+    {
+      "i": 43,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "14:11",
+      "en": "They put out a press release like that.",
+      "zh": "他们真发了那样的新闻稿。"
+    },
+    {
+      "i": 44,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "14:13",
+      "en": "I don't really know.",
+      "zh": "我也说不太清。"
+    },
+    {
+      "i": 45,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "14:14",
+      "en": "People get very convinced when you said earlier like that's natural mergers work, right, and it was a press release just to say, oh, by the way the CVR.",
+      "zh": "你前面说『这才是合并正常的运作方式』，人们就很信服；而那份新闻稿只是想说『哦，顺便说一句，这个 CVR……』"
+    },
+    {
+      "i": 46,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "14:21",
+      "en": "Yeah, it's very strange, like people don't understand this stuff, like people get confused about how record dates work and X dates work. And in fact, I've mentioned Exoma previously bought another biotech company that like also messed up its record dates stuff. It put out a press release basically.",
+      "zh": "对，非常古怪。人们不理解这些东西，会对登记日、除权除息日（X date）怎么运作感到困惑。事实上我之前提过，Exoma 早先收购的另一家生物科技公司也把登记日的事情搞砸了，基本上也发了一份新闻稿。"
+    },
+    {
+      "i": 47,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "14:36",
+      "en": "Exoma bought a company that did this, and then Exoma sold itself to a company and did this.",
+      "zh": "Exoma 收购了一家有这种问题的公司，然后 Exoma 又把自己卖给一家公司，也来了一遍这种事。"
+    },
+    {
+      "i": 48,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "14:40",
+      "en": "Yes, yes, apparently this is common in biotexas to mess up record dates.",
+      "zh": "是的，是的，看来在生物科技行业，搞砸登记日是常事。"
+    },
+    {
+      "i": 49,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "14:44",
+      "en": "I don't really know what was it a similar thing where they put out a press release saying by the way they.",
+      "zh": "我不太清楚——是不是类似的情况，他们也发了份新闻稿说『顺便，他们……』"
+    },
+    {
+      "i": 50,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "14:48",
+      "en": "Put they put they put out an ambiguous press release.",
+      "zh": "他们发的是一份模棱两可的新闻稿。"
+    },
+    {
+      "i": 51,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "14:51",
+      "en": "Oh right, it's a opposing things and yeah.",
+      "zh": "哦对，就是那种自相矛盾的说法，嗯。"
+    },
+    {
+      "i": 52,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "14:54",
+      "en": "So like the press release said, if you own it through like August twenty fifth, and you get the thing. But it also said that August twenty five if it was the X date, which is a technical term meaning you don't get the thing. So it said you do and don't get the thing on August twenty fifth, And eventually they had to clarify it after the fact, after and the stock traded in between the price of the thing and the price without the thing, because some people read the press with these one way and some people read the press with this the other way. Similarly, here, like the stock traded between the price with the CVR and the press without the CVR because people genuinely didn't know how to take things and different people had different opinions and that's what makes the market.",
+      "zh": "那份新闻稿说，如果你一直持有到八月二十五日，你就能拿到这个东西；但它又说八月二十五日是除权除息日（X date）——这是个技术术语，意思是你拿不到这个东西。所以它说你在八月二十五日既能、又不能拿到这个东西。最后他们不得不在事后澄清，而在此期间股价就在『含这个东西的价格』和『不含这个东西的价格』之间波动，因为有些人这样读新闻稿、有些人那样读。类似地，这里股价也在『含 CVR 的价格』和『不含 CVR 的价格』之间波动，因为大家真的不知道该怎么理解，不同的人有不同的看法——而这正是市场的构成方式。"
+    },
+    {
+      "i": 53,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "15:29",
+      "en": "I know you don't really care about this, but I'm really hung up on this idea of why did they put out a press release saying what day the record date was or changing the record date? Do you think that they thought, like is it like a full on clerical error of like, because like would you put out a pressure release that just says, like, by the way, the closing date is.",
+      "zh": "我知道你其实不太在意这个，但我特别纠结这一点：他们为什么要发一份新闻稿，说明登记日是哪天、或者去改登记日？你觉得他们当时是怎么想的？这是不是一次彻头彻尾的文书差错？因为——你会专门发一份新闻稿只说『顺便，完成日是……』吗？"
+    },
+    {
+      "i": 54,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "15:47",
+      "en": "Well, I think that like there's sort of not a record date for a merger, like when the merger closes, the people who owned the stock get like the stuff, right, But like, I think that it occurred to someone at the company. We are distributing something we have, like this thing, the CVR, and we're giving it to people, And when a company gives shareholders something, that's a distribution right with a record And I think they just got confused about whether it was a distribution quote unquote, or whether it was just what happens in the.",
+      "zh": "嗯，我觉得合并这件事本身是没有登记日的——合并完成时，持股的人就拿到相应的东西。但我猜是公司里有人想到：我们要分派一样东西，我们有这个叫 CVR 的东西，要发给大家；而当一家公司给股东发东西时，那就是一次『分派』（distribution），分派是要有登记日的。我觉得他们就是被搞混了——分不清这算不算『分派』，还是只是合并里发生的事情。"
+    },
+    {
+      "i": 55,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "16:15",
+      "en": "Merger and right, do you think that they thought that they were trying to clarify like, by the way, whoever has the CVR on this date gets it.",
+      "zh": "……合并里的，对吧。你觉得他们是想澄清一下『顺便，谁在这一天持有 CVR，谁就拿到它』吗？"
+    },
+    {
+      "i": 56,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "16:21",
+      "en": "I think they were thinking that, like the mechanism for giving the shareholders the CVR was a thing called a distribution, and to do a distribution, you need to distribute it to shaholders a record as of a certain date. And so they were just like, this is how we give them the CVR. But that's not how you give them the CVR. The way you give them the CVR is the merger closes and poof they get the CVR. Right, It's just like a different mechanism.",
+      "zh": "我觉得他们是这么想的：给股东 CVR 的机制是一种叫『分派』的东西，而要做分派，你就得在某个登记日分派给股东。所以他们就想『这就是我们发 CVR 给股东的方式』。但那不是发 CVR 的方式。发 CVR 的方式是：合并一完成，砰，他们就拿到了 CVR。这是另一种机制。"
+    },
+    {
+      "i": 57,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "16:42",
+      "en": "So you're saying they were maybe treating it like a dividend. When you do a dividend, you put out a price. Really everyone, Okay, So maybe they were they thought it was.",
+      "zh": "所以你是说他们可能把它当成股息（dividend）来处理了。你派息的时候会发个公告……真的是所有人……好，那也许他们就是把它当成了——"
+    },
+    {
+      "i": 58,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "16:48",
+      "en": "A dividend, right, I see, right, that's right.",
+      "zh": "股息，对吧。我明白了，对，没错。"
+    },
+    {
+      "i": 59,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "16:50",
+      "en": "I think, why do I know that's good enough? Guess have you ever seen that before? Well, just those two times, just those two times.",
+      "zh": "我想，我为什么知道？够了。你以前见过这种事吗？嗯，就那两次，就那两次。"
+    },
+    {
+      "i": 60,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "16:56",
+      "en": "You see this in like people trading credit trades where they some people read a bond of nuture one way and some people read it the other way, and they think like the company can or can't strip assets from creditors or something, and they don't really know until either the company does it or like years later when they litigate it. Right, there's a certain like trade of.",
+      "zh": "你在信用交易里能看到这种情况：有些人这样读一份债券募集说明书（indenture），有些人那样读，他们以为公司能或不能从债权人手里剥离资产之类，而在公司真的动手、或者多年后打官司之前，他们其实并不确定。有一种交易就是……"
+    },
+    {
+      "i": 61,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "17:16",
+      "en": "Like right, the trade is like somebody's guessing that it is or isn't included and they have different pricing.",
+      "zh": "对，这种交易就是有人在猜『它算不算被包含进去』，并因此给出不同的定价。"
+    },
+    {
+      "i": 62,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "17:21",
+      "en": "Yeah, there's a trade of like reading the documents better than someone else, or like reading the documents better than the company, or like reading.",
+      "zh": "对，有一种交易就是比别人把文件读得更透，或者比公司自己把文件读得更透，或者……"
+    },
+    {
+      "i": 63,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "17:28",
+      "en": "The documents like something you might do if you were like a law school person, if you went to law school and you are like, oh, I had noticed in the contract that it says this, I'm gonna.",
+      "zh": "……把文件读透，这像是法学院出身的人会做的事：如果你上过法学院，你会说『哦，我注意到合同里写了这一条，我要……』"
+    },
+    {
+      "i": 64,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "17:36",
+      "en": "There's definitely like an industry of former lawyers who now do like discovering flaw trades at hedge funds. Sohthough, doesn't you don't have to go to law school, Like one thing I learned in finance is that you can. There are people who are good, intuitive natural lawyers even if they haven't been to law school.",
+      "zh": "确实有一整个行当，都是前律师现在在对冲基金里做这种『找漏洞』的交易。不过你并不一定得上法学院。我在金融圈学到的一点是：有些人天生就是敏锐的『直觉型律师』，即便没上过法学院也一样。"
+    },
+    {
+      "i": 65,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "17:51",
+      "en": "It would have been fun. I would have had a lot of fun.",
+      "zh": "那会很有意思的，我肯定会玩得很开心。"
+    },
+    {
+      "i": 66,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "17:54",
+      "en": "Yeah, you'd I mean right there are people who are good intuitive like finders of flaws and documents, who can be hedgephone managers without going to law school. And there are people who are good at spotting italicized commos who also want.",
+      "zh": "是啊，我是说，有些人天生就擅长在文件里凭直觉找漏洞，不上法学院也能当对冲基金经理；也有些人特别会挑出那些斜体的逗号，还想……"
+    },
+    {
+      "i": 67,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "18:05",
+      "en": "To be clear, My profession as an editor is finding flaws and documents.",
+      "zh": "说明一下，我作为编辑的本职就是在文件里找错。"
+    },
+    {
+      "i": 68,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "18:08",
+      "en": "Yeah. Well ye, different kinds, different kinds like not the not the lucrative kinds always.",
+      "zh": "是啊。嗯，不同类型的、不同类型的，而且不总是那种能赚大钱的类型。"
+    },
+    {
+      "i": 69,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "18:13",
+      "en": "No, they don't, maybe for the bold.",
+      "zh": "不，通常不赚钱，也许加粗的那些还行。"
+    },
+    {
+      "i": 70,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "18:32",
+      "en": "I feel like I spent all morning talking to you about structured notes. Yes, what do you want to know about structured notes?",
+      "zh": "我感觉我整个上午都在跟你讲结构性票据（structured notes）。好，关于结构性票据你想知道什么？"
+    },
+    {
+      "i": 71,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "18:39",
+      "en": "Okay? Is this a structured note?",
+      "zh": "好，这个算结构性票据吗？"
+    },
+    {
+      "i": 72,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "18:42",
+      "en": "Okay, let's let's do what this is.",
+      "zh": "好，我们来看看这是什么。"
+    },
+    {
+      "i": 73,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "18:44",
+      "en": "Okay.",
+      "zh": "好。"
+    },
+    {
+      "i": 74,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "18:44",
+      "en": "So there's a Bloomberg story this week about basically banks or financial firms are rolling out structured notes on SpaceX. So SpaceX went public about a month ago. Its stock has fallen below the IP price. It went up and then it went down. It's not a rough time, and banks are rushing to sell people structured notes on SpaceX. And I think the stuff like this is interesting because a structured note is kind of There's two ways to think about the trade, right. One way is we have these let's say retail clients, high net worth clients, individual clients, and we want to sell them stuff that they want to buy. And so the story here is something like SpaceX went down. We want to give you something that has SpaceX in the name, but like protects you from some downside won't go down as much as SpaceX. And so the Bloomberg story by lu Wang was like about banks are rushing to sell these high net worth clients something that looks like SpaceX with some downside protection. But if you look at the notes like they are something slightly different, which is the other way to think about structured notes, is that banks have these retail clients. The retail clients, yeah, the kind of buy whatever you sell them, and so the job of the structured notes business is to sell them the stuff you want to sell. And what happened here, I think it looks to me from looking at these structured debts is that the banks wanted to buy puts on SpaceX. They wanted to buy protection against SpaceX going down, probably because they had other clients who wanted to buy it from them, and they wanted to know buy it from someone else. And it is actually very easy to buy puts in the form of a structured note, and so the structured nottes have like roughly the shape of the retail investors give the bank money, The bank holds onto the money for a while for a year or two. When the note expires in a year or two, the bank gives the customers money back with a big interest payment. So like there's one, there's a Morgan Stanley one that pays back one hundred and forty cents on the dollars. So you put a one hundred dollars today and eighteen months you give back one hundred and forty dollars unless SpaceX is down a lot. I think in that case it's down fifty percent. SpaceX is down fifty percent, then you lose the same percentage of your money. So if you put a one hundred dollars SpaceX is down sixty percent, you get back forty dollars. So that to Morgan Stanley looks like they have bought a put on SpaceX. Yeah, like they have bought insurance on SpaceX's stock from their retail customers. It doesn't say that, right. What it says is like, this is a thing.",
+      "zh": "这周 Bloomberg 有一篇报道，大意是银行或金融公司正在推出以 SpaceX 为标的的结构性票据。SpaceX 大约一个月前上市，股价已经跌破发行价——先涨后跌，日子不太好过，而银行正争相向人们推销 SpaceX 的结构性票据。我觉得这类东西有意思，是因为结构性票据这个交易有两种理解方式。一种是：我们有一批零售客户、高净值客户、个人客户，我们想卖给他们想买的东西。所以这里的说法大致是『SpaceX 跌了，我们想给你一个名字里带 SpaceX、但能保护你一部分下行、不会像 SpaceX 那样跌那么多的产品』。Lu Wang 那篇 Bloomberg 报道讲的就是银行争相向这些高净值客户推销一种看起来像 SpaceX、又带下行保护的东西。但如果你去看这些票据本身，它们其实是稍微不同的东西——这就是理解结构性票据的另一种方式：银行有这些零售客户，这些客户基本上你卖什么他们就买什么，所以结构性票据业务的任务就是把你想卖的东西卖给他们。而这里发生的事，我看这些结构性债务后的判断是：银行想买 SpaceX 的看跌期权（put），想买 SpaceX 下跌时的保护，很可能是因为他们有别的客户想从他们手里买这个，而他们又想从别人那里买进。而以结构性票据的形式买看跌期权其实非常容易，所以这些票据大致的形状是：零售投资者把钱给银行，银行把钱持有一段时间，一年或两年；票据到期时，银行把钱还给客户并附一大笔利息。比如有一支 Morgan Stanley 的产品按每美元偿还一百四十美分，也就是你今天投入一百美元，十八个月后还你一百四十美元——除非 SpaceX 跌得很惨。我记得在那种情况下是跌百分之五十，如果 SpaceX 跌了百分之五十，你就按同样比例亏钱。所以如果你投一百美元、SpaceX 跌了百分之六十，你只拿回四十美元。对 Morgan Stanley 来说，这看起来就像他们买了 SpaceX 的看跌期权——他们从零售客户那里买到了 SpaceX 股票的保险。它不会这么写，它写的是『这是一个……』"
+    },
+    {
+      "i": 75,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "21:23",
+      "en": "That this is a structured note for the customer. This is a structured note link to SpaceX. Yeah, that gets you what exactly what does the retail investor think they're getting or what are they getting.",
+      "zh": "……对客户来说的结构性票据，这是一支挂钩 SpaceX 的结构性票据。对。那它到底给你什么？零售投资者以为自己在买什么，或者他们实际买到的是什么？"
+    },
+    {
+      "i": 76,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "21:33",
+      "en": "So the thing actually says on the perspective, which I don't know if any reads, but the securities are for investors who seek a return based on the performance of SpaceX and who are willing to risk their principle and forego current income and returns above the upside payment in exchange for the upside payment future and the limited protection against loss of principle. So what they're sort of saying is this is a way to get some exposure to SpaceX. But if SpaceX goes down a little bit, you don't lose.",
+      "zh": "文件里其实是这么写的——我不知道有没有人真去读——『这些证券面向那些希望获得基于 SpaceX 表现的回报、并愿意承担本金风险、放弃当期收入以及超过上行收益部分的更高回报，以换取上行收益、以及有限本金损失保护的投资者』。所以他们大致想说的是：这是一种获得 SpaceX 敞口的方式，但如果 SpaceX 只是小幅下跌，你不会亏钱。"
+    },
+    {
+      "i": 77,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "21:57",
+      "en": "Money a little bit up to a certain point.",
+      "zh": "……在一定幅度之内不会亏钱。"
+    },
+    {
+      "i": 78,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "21:59",
+      "en": "Yeah, SPAX goes down forty nine percent, you don't lose money. SpaceX goes up thirty nine percent, you get a forty percent return, which is better. SpaceX goes up one hundred percent, you get a forty percent return because you always get a forty percent return unless it goes down a lot. So, like there's a payoff graph in the thing, and it's just like a flat line above a certain you know, above down fifty percent, and then below that it looks like you on SpaceX.",
+      "zh": "对，SpaceX 跌百分之四十九，你不亏钱；SpaceX 涨百分之三十九，你拿到百分之四十的回报，更好；SpaceX 涨百分之一百，你还是拿百分之四十的回报——因为除非它大跌，否则你总是拿百分之四十的回报。文件里有一张收益曲线图，就是一条在某个点位之上（也就是跌幅不超过百分之五十）的平线，而在那之下它就像你持有 SpaceX。"
+    },
+    {
+      "i": 79,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "22:23",
+      "en": "So so it's limited at the top but not at the bottom.",
+      "zh": "所以它在上方有封顶，但在下方没有。"
+    },
+    {
+      "i": 80,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "22:26",
+      "en": "Yeah. Right, it's a flat return in almost all cases, except when SpaceX crashes you lose money. And so for Morgan Stantly, that's like we have bought insurance against a SpaceX crash from retail customers, and for the retail customers it's like, ooh, I get forty percent unless things go.",
+      "zh": "对。几乎在所有情况下都是固定回报，唯独 SpaceX 崩盘时你才亏钱。所以对 Morgan Stanley 来说，这相当于『我们从零售客户那里买到了 SpaceX 崩盘的保险』；而对零售客户来说，就是『哦，我拿百分之四十，除非情况变糟』。"
+    },
+    {
+      "i": 81,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "22:40",
+      "en": "Bad, right, right, Yeah, they like to see The.",
+      "zh": "……变糟。对，对。是啊，他们想看到的是……"
+    },
+    {
+      "i": 82,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "22:44",
+      "en": "Marketing is sort of like you're getting some sort of SpaceX pad that is like downside protected or whatever. But from Morgan Stanley's perspective, they're sourcing puts on SpaceX and it's hard to buy very out of the money puts. Why two reasons, So that's what you're warning something. You just want to buy insurance against SpaceX going down a lot, right, So you're like, I don't care if if it goes down ten percent, that's fine, but like, I want to buy insurance against it going down fifty percent. One. People don't like to sell you that because that's very out of the money put it's not worth very much. It has a very low probability of paying out, and so they can't charge you that much for it because it's like improbable, but in the state of the world where it pays out, it's very bad for them. They have to pad a lot of money. And also like something has gone wrong like the AI bad. Yeah, like the AI boom has collapsed or something. So in a world where SpaceX insurance pays out, like the people selling it to you will be very sad, and so they don't want to sell you that except at a very high price. And the other reason is like conversely, you don't want to buy that insurance from like some hedge fund. Yeah, because in a world where that insurance pays out like that hedge fund might have.",
+      "zh": "营销话术大致是『你买到的是某种带下行保护的 SpaceX 产品』之类的。但从 Morgan Stanley 的角度看，他们是在获取 SpaceX 的看跌期权，而深度虚值（out of the money）的看跌期权很难买到，有两个原因。你想买的其实是——你只想买 SpaceX 大幅下跌时的保险，对吧，所以你会说『跌百分之十我不在乎，那没事，但我想买它跌百分之五十时的保险』。第一，别人不太愿意卖给你，因为那是很深度虚值的看跌期权，本身不值多少钱，赔付概率很低，所以他们没法向你收很多钱（因为不太可能发生），可一旦在真的赔付的那个世界里，对他们非常不利，他们要赔很多钱；而且往往意味着出了大问题，比如 AI——AI 繁荣崩了之类。所以在 SpaceX 保险会赔付的那个世界里，卖保险给你的人会非常惨，因此除非价格很高，他们不想卖给你。第二个原因正相反：你也不想从某个对冲基金那里买这种保险，因为在那个保险会赔付的世界里，那家对冲基金可能已经——"
+    },
+    {
+      "i": 83,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "23:50",
+      "en": "Blown up, right, right, So you're saying, this is a way for them to get out that put without touching the very out of the money actual put.",
+      "zh": "……爆掉了。对，对。所以你是说，这是他们拿到那个看跌期权的一种方式，而不必去碰那个真正深度虚值的看跌期权本身。"
+    },
+    {
+      "i": 84,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "23:58",
+      "en": "This is a way for them to buy very out of the money puts on SpaceX from people who don't quite realize that they're selling out of the money puts on SpaceX their retail customers.",
+      "zh": "这就是他们从那些没太意识到自己正在卖出 SpaceX 深度虚值看跌期权的人——也就是他们的零售客户——那里买入 SpaceX 深度虚值看跌期权的方式。"
+    },
+    {
+      "i": 85,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "24:06",
+      "en": "So they didn't want to do it, so they got their retail customers.",
+      "zh": "所以他们不想直接做，就让自己的零售客户来做。"
+    },
+    {
+      "i": 86,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "24:08",
+      "en": "Of course. Of course, that's what structured nottes are. It's like structured notes are sourcing like weird volatility risk from your retail customers so that you can sell it to hedgepes.",
+      "zh": "当然，当然，结构性票据就是这么回事。结构性票据就是从你的零售客户那里获取各种古怪的波动率风险，好让你能把它卖给对冲基金。"
+    },
+    {
+      "i": 87,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "24:17",
+      "en": "So that's not a structured note. Was just a note with like a derivative in it.",
+      "zh": "所以那不算真正的结构性票据，只是一支里面嵌了衍生品的票据。"
+    },
+    {
+      "i": 88,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "24:21",
+      "en": "Yeah, but like why did they put that derivave? And I mean part of it is marketing. Part of it is like people want particular trades right like it. But part of it is like they have some inventory and they're like what weird stuff can we.",
+      "zh": "对，但他们为什么要放那个衍生品进去？我的意思是，一部分是营销，一部分是人们想要特定的交易……但还有一部分是他们手里有些『库存』，就想『我们能拼出什么古怪的东西来』。"
+    },
+    {
+      "i": 89,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "24:36",
+      "en": "You're sort of meeting several obligations.",
+      "zh": "你其实是在同时满足好几项需求。"
+    },
+    {
+      "i": 90,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "24:38",
+      "en": "At once, right, and like they're real magic thinking.",
+      "zh": "同时满足，对。而且这里真有点『魔法思维』。"
+    },
+    {
+      "i": 91,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "24:41",
+      "en": "About structured notes differently now, Yeah, you tell me.",
+      "zh": "我现在对结构性票据的看法不一样了。是啊，是你告诉我的。"
+    },
+    {
+      "i": 92,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "24:43",
+      "en": "That you keep getting pitched structured notes.",
+      "zh": "就是你会不断被人推销结构性票据。"
+    },
+    {
+      "i": 93,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "24:47",
+      "en": "Should I should? I guess I should be more skeptical.",
+      "zh": "我该……我想我应该更怀疑一些。"
+    },
+    {
+      "i": 94,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "24:49",
+      "en": "I think I told my financial advisor on my first day, like, by the way, I'm a former derivative structure, so don't come out with these structure does But no, Like I mean, like the whole game is like you're in the derivative lab. You're like a bucket of stuff, and you like pick stuff out of the bucket of stuff and you're like, how do I make this thing look cool? Like how do I make this How do I tell a story that's like, oh, this stuff is you should really buy this stuffy?",
+      "zh": "我想我第一天就跟我的理财顾问说了：『顺便，我是前衍生品结构化人员，所以别拿这些结构性票据来忽悠我。』不过——我是说，整件事的玩法就是：你在衍生品实验室里，面前有一桶各种零件，你从桶里挑出东西，然后想『我怎么把这东西做得看起来很酷？我怎么讲一个故事，让人『哦，这东西你真该买』？』"
+    },
+    {
+      "i": 95,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "25:15",
+      "en": "As you said, you have inventory.",
+      "zh": "就像你说的，你有『库存』。"
+    },
+    {
+      "i": 96,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "25:17",
+      "en": "It's like, yeah, it's interesting because you don't exactly have inventory. You have like some list of like options, exposures and like volatilities, and you're like, how can I turn this into a product that people will be excited to buy and their answers and like a lot of what banks are doing is you know, buying some puts from retail. But like you never say that.",
+      "zh": "是这样，有意思的是你并不真的有『库存』，你有的更像是一张清单：各种期权敞口、波动率之类，然后你想『我怎么把这些变成一个大家会兴奋想买的产品』，答案往往是——银行做的很多事情其实就是『从零售客户那里买一些看跌期权』，但你永远不会这么直说。"
+    },
+    {
+      "i": 97,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "25:37",
+      "en": "Is this financialization? Is this financializing something?",
+      "zh": "这算金融化（financialization）吗？这是在把什么东西金融化吗？"
+    },
+    {
+      "i": 98,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "25:41",
+      "en": "Is it financializing SpaceX stuff? M I mean this is just like it's just like you know, this is the business structure. Notes are old and noble business. And that was the Money Stuff Podcast.",
+      "zh": "是把 SpaceX 的东西金融化吗？嗯，我是说，这就是……结构性票据是一门古老而体面的生意。以上就是本期 Money Stuff 播客。"
+    },
+    {
+      "i": 99,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "26:04",
+      "en": "I'm Matt Levine, and I'm Katie Greifeld, and I'm Sylvia Killingsworth.",
+      "zh": "我是 Matt Levine，我是 Katie Greifeld，我是 Sylvia Killingsworth。"
+    },
+    {
+      "i": 100,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "26:08",
+      "en": "You can find my work by subscribing to the Money Stuff pouletter on Bloomberg dot com.",
+      "zh": "你可以在 Bloomberg.com 上订阅 Money Stuff 通讯来看我的作品。"
+    },
+    {
+      "i": 101,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "26:13",
+      "en": "And you can find me by subscribing to the on Books newsletter at Bloomberg dot com.",
+      "zh": "你也可以在 Bloomberg.com 上订阅 On Books 通讯来找到我。"
+    },
+    {
+      "i": 102,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "26:17",
+      "en": "We'd love to hear from you. You can send an email to Moneypod at Bloomberg dot net. Ask us a question and we might answer it on the air.",
+      "zh": "我们很想听到你的声音，可以发邮件到 Moneypod@Bloomberg.net，向我们提问，我们可能会在节目里回答。"
+    },
+    {
+      "i": 103,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "26:27",
+      "en": "right now and leave us a review. It helps more people find the show.",
+      "zh": "现在就给我们留个评价吧，这能帮更多人发现这档节目。"
+    },
+    {
+      "i": 104,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "26:31",
+      "en": "The Money Stuff Podcast is produced by Anamazerakis and Moses Onam.",
+      "zh": "Money Stuff 播客由 Ana Mazarakis 和 Moses Omame 制作。"
+    },
+    {
+      "i": 105,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "26:35",
+      "en": "Our theme music was composed by Blake Maples.",
+      "zh": "我们的主题音乐由 Blake Maples 作曲。"
+    },
+    {
+      "i": 106,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "26:38",
+      "en": "Amy Kean is our executive producer, and Cheryl Brumley is Bloomberg's Head of Podcasts. Thanks for listening to The Money Stuff Podcast.",
+      "zh": "Amy Kean 是我们的执行制作人，Cheryl Brumley 是 Bloomberg 播客负责人。感谢收听 Money Stuff 播客。"
+    }
+  ]
+}

@@ -1,0 +1,1792 @@
+{
+  "show": "top-traders-unplugged",
+  "kind": "transcript",
+  "id": "349997210",
+  "slug": "2026-11-14-si426-the-hard-part-isnt-buying-349997210",
+  "date": "2026-11-14",
+  "title_en": "SI426: The Hard Part Isn't Buying Trend Following ft. Yoav Git",
+  "title_zh": "SI426：难的不是买入趋势跟踪 —— 对话 Yoav Git",
+  "subtitle_zh": "Yoav Git 与代班主持 Alan Dunne 拆解 CTA 组合：收益凸性与敞口凸性的区别、债券与商品趋势在不同通胀环境下的作用。",
+  "summary_zh": "本期由 Alan Dunne 代班主持，对话 GreshamQuant 量化研究主管 Yoav Git，聚焦 CTA 组合的构建与理解。Yoav 先谈到年底招聘实习生，认为 AI 时代更应培养年轻人使用 AI 的能力。业绩上，截至 11 月 11 日 SocGen CTA 指数当月跌 3.2%、年内涨 10.2%，中期选举与偏高的通胀令能源多头受损。核心议题是凸性：他区分收益凸性（债券即时但不保证）与敞口凸性（CTA 机械地降低股票贝塔，确定但来得慢）；由于 CTA 内部按等风险配置，10% 的 CTA 只相当于约正负 3.5% 的股票敞口，却接近正负 10% 的债券敞口；速度越快，平均投入越低。分资产看，股票凸性约 35%、债券约 20%，商品与外汇趋势基本与股票不相关。通胀是最关键的变量：债券加商品趋势近似“通胀+4%”的全天候组合，股票则是随增长波动的增长型组合。他认为 AI 目前处于铺管道的基础设施阶段，并质疑 Man 集团关于滞胀的研究因数据切分过细而结论不稳。结论是：想要额外阿尔法就加商品趋势，想要债券凸性就直接用债券趋势，而追逐趋势跟踪的业绩反而损害投资者。",
+  "description": "SI426: The Hard Part Isn't Buying Trend Following ft. Yoav Git",
+  "duration": "70:39",
+  "duration_seconds": 4239,
+  "episode_url": "https://www.iheart.com/podcast/256-top-traders-unplugged-31027498/episode/si426-the-hard-part-isnt-buying-trend-following-ft-yoav-git-349997210",
+  "audio_url": "https://episodes.captivate.fm/episode/484a08f5-e32e-495d-91ae-48dbec812c44.mp3?source=iheart",
+  "speakers": {
+    "1": "Alan Dunne（主持）",
+    "2": "Yoav Git（嘉宾）",
+    "3": "片头/免责声明（旁白）"
+  },
+  "turn_count": 221,
+  "turns": [
+    {
+      "i": 0,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "00:01",
+      "en": "You know, CTAs are difficult to live with. You go down the stairs, come up the elevators, you might have three years with no performance. Your investment committee will look at you like an idiot. Why did you allocate this training?",
+      "zh": "要知道，CTA（管理期货）是很难长期共处的。它下跌时像走楼梯，上涨时像坐电梯，你可能连续三年都没有业绩。你的投资委员会会像看傻子一样看着你：你为什么要配置这个趋势策略？"
+    },
+    {
+      "i": 1,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "00:13",
+      "en": "Welcome to Top Traders Unplugged. In markets, success doesn't come from predicting what happens next. It comes from being prepared for what you can't predict. In each episode, we go deep with some of the world's most thoughtful minds in investing, economics and beyond to understand how they",
+      "zh": "欢迎收听 Top Traders Unplugged。在市场里，成功并不来自预测接下来会发生什么，而来自为你无法预测的事情做好准备。每一期节目，我们都会与投资、经济学以及其他领域中最善于思考的一些人深入交流，理解他们如何"
+    },
+    {
+      "i": 2,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "00:31",
+      "en": "think, how they prepare and how they decide and the experiences that shaped how they see the world. No noise, no shortcuts, just real conversations to help you think better and invest with confidence.",
+      "zh": "思考、如何准备、如何决策，以及那些塑造了他们看待世界方式的经历。没有噪音，没有捷径，只有真实的对话，帮助你想得更清楚、更有信心地投资。"
+    },
+    {
+      "i": 3,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "00:46",
+      "en": "Welcome back to Top Creators Unplugged, where each week we take the pulse of the market from the perspective of a rules based investor. My name is Alan Dunn. I'm sitting in this week for Niels who is away traveling and great to have Yoav with me this week. Yoav, how are you? Oh, pleasure, Absolutely wonderful. Actually.",
+      "zh": "欢迎回到 Top Traders Unplugged，每周我们都会从规则型投资者的视角来把脉市场。我是 Alan Dunne，这周替正在外出旅行的 Niels 代班，很高兴这周请到 Yoav。Yoav，你好吗？——哦，非常荣幸，感觉好极了，其实"
+    },
+    {
+      "i": 4,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "01:05",
+      "en": "I'm just back from, to this country and enjoying the beautiful but very cold weather. Yes, same here in Dublin. It's gone chilly but lovely kind of winter, winter sun and, but, but definitely a bit cooler. And where, where are we on your travels? Oh, all around. I've been to the USA and then I've been to the Middle east and,",
+      "zh": "我刚回到这个国家，正在享受这里美丽但非常寒冷的天气。——是的，Dublin 这边也一样，天变冷了，但是很可爱的冬天，有冬日阳光，不过确实凉了不少。你这趟都去哪儿了？——哦，到处跑。我去了美国，然后又去了中东，"
+    },
+    {
+      "i": 5,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "01:27",
+      "en": "and now I'm back in the UK and just preparing for Christmas. It's very exciting. Good. So good. We the final run in already? Yeah,. Yeah. What. Is it? Five or six weeks to go. So that's, yeah, pretty, pretty crazy, but lots to talk about as ever. You know, November has kicked off.",
+      "zh": "现在我回到英国，正准备过圣诞，非常期待。——很好，太好了。我们已经进入最后冲刺阶段了吗？——是啊。——什么？还剩五到六周？——所以是的，挺疯狂的，不过照例有很多可聊的。你知道，11 月已经开始了。"
+    },
+    {
+      "i": 6,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "01:46",
+      "en": "It's been an interesting month, I suppose we would say interesting and inadvertent commas for CTAs, but we'll get to that. But what's been on your radar? Oh, actually, because it's the end of the year, we, we're beginning the process of internships. We've, we've been running internships for many, many years",
+      "zh": "这个月很有意思，我想我们会给这个「有意思」加上引号，对 CTA 来说是这样，不过我们待会儿再谈。那你最近在关注什么？——哦，其实因为到年底了，我们开始启动实习生招聘流程，我们做实习生项目已经很多很多年了，"
+    },
+    {
+      "i": 7,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "02:06",
+      "en": "and we're looking for somebody in research and we're looking some for somebody in technology. We have someone already in business development and I find it really exciting. I mean in the days of AI, people kind of tend to think that investing in juniors is not something that you should do right because you can replace them with AI.",
+      "zh": "我们在招研究岗位，也在招技术岗位，业务发展方面已经有人选了，我觉得这件事非常令人兴奋。我的意思是，在 AI 时代，人们往往觉得不该在初级员工身上投入，因为你可以用 AI 取代他们。"
+    },
+    {
+      "i": 8,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "02:27",
+      "en": "But actually I think it's actually really important to develop the skills, the, the skills of using AI. I think a lot of people coming from university just, just have a very limited experience of how to use it in certainly in a company setting. And I think it's really important in investing in the next generation.",
+      "zh": "但实际上我认为，培养使用 AI 的技能非常重要。很多刚从大学出来的人，对如何在企业环境中使用 AI 的经验其实非常有限。我认为投资下一代人才非常重要。"
+    },
+    {
+      "i": 9,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "02:47",
+      "en": "And the way you kind of do that is by giving a meaningful project. I think the like, it's very. I've been to many banks where interns, you know, get exposure to what's going on but don't are just basically shadowing somebody more senior but actually don't get to do their own work. And I think it's really important.",
+      "zh": "而做到这一点的方式，就是给他们一个有意义的项目。我去过很多银行，那里的实习生虽然能接触到正在发生的事情，但基本上只是跟着某个更资深的人做影子实习，其实并不能做自己的工作。我认为这一点非常重要。"
+    },
+    {
+      "i": 10,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "03:11",
+      "en": "The value comes from giving them meaningful projects that they can do. And we've been very lucky in the past and I think, I hope that we're going to be lucky in the future. But we're just writing the spec for that and that has been keeping me busy. Great. Well, I'm sure that's a great opportunity for anybody, any young",
+      "zh": "价值来自给他们可以真正去做的、有意义的项目。过去我们一直很幸运，我希望将来也会这么幸运。我们现在正在写岗位说明，这让我一直很忙。——太好了。我相信对任何年轻人来说这都是一个很棒的机会，任何年轻的"
+    },
+    {
+      "i": 11,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "03:30",
+      "en": "researchers or programmers or whatever out there interested in developing a career. That would be a great opportunity. Have you started the interviewing process yet or. No? No, it's just about it. Just to go, about to go on the, on the website in applications. Very good. Yeah.",
+      "zh": "研究员、程序员，或者其他有志于发展职业的人，这都是个很好的机会。你们已经开始面试了吗？——还没有，马上就要开始了，招聘信息很快会挂到网站上开放申请。——很好。"
+    },
+    {
+      "i": 12,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "03:47",
+      "en": "Well, no doubt there will be a huge influx of applications on the back of this promotion.",
+      "zh": "毫无疑问，经过这次宣传，申请会大量涌进来。"
+    },
+    {
+      "i": 13,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "03:55",
+      "en": "The problem that young people have is that unemployment, youth unemployment in this country is enormous and it's very, actually very difficult to go through the process of finding a position. You know, so the problem is not really what my problem is not lack of applications. It's actually the opposite.",
+      "zh": "年轻人面临的问题是，这个国家的青年失业率非常高，走完找工作的整个流程其实非常艰难。所以对我来说，问题并不是申请太少，恰恰相反。"
+    },
+    {
+      "i": 14,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "04:13",
+      "en": "I think it just reflects the sad reality is that a lot of companies are just cutting, cutting back on the hiring process and it's make it very difficult for them. Interesting. Yeah, no, definitely it's from my own experience interviewing people at that stage. They seem to have all the right credentials these days.",
+      "zh": "我觉得这反映了一个可悲的现实：很多公司都在削减招聘，这让年轻人非常难。——有意思。是的，就我自己在这一阶段面试别人的经验来看，如今的候选人似乎什么都具备。"
+    },
+    {
+      "i": 15,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "04:37",
+      "en": "High academics, managed funds participated in various entities at university and done all of that. So it seems like the competition is stronger and greater than ever. But anyway, best of luck with that. So we have a great lineup. Some really interesting topics that we're going to get into around",
+      "zh": "学历很高，管理过基金，在大学里参与过各种活动，这些都做过。所以竞争看起来比以往任何时候都更激烈。总之，祝你招聘顺利。今天我们准备了很好的内容，围绕"
+    },
+    {
+      "i": 16,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "05:00",
+      "en": "building CTA portfolios and what it can do for your overall portfolio and all of that. So maybe just to talk about performance first, I didn't mention it being an interesting month so far for cta. So it's been a tough month. Obviously we've seen the bond market sell off correcting from I",
+      "zh": "如何构建 CTA 组合、以及它能为你的整体组合做些什么等话题展开。那我们先说说业绩吧，我刚才没提这个月对 CTA 来说很有意思。这一个月很难熬。显然我们看到债券市场从——我想是从"
+    },
+    {
+      "i": 17,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "05:22",
+      "en": "suppose from early October and that's carried forward into the early part of November and obviously we've had volatility in the equity market as well. Well after the midterms, really interesting moves after the midterms last Week abandoned kind of further weakness and obviously the likes of Nvidia with their own challenges.",
+      "zh": "10 月初开始的抛售与回调，并延续到了 11 月上旬，当然股票市场也出现了波动。中期选举之后的走势真的很有意思，上周中期选举后债券进一步走弱，还有像 Nvidia 这样面临自身挑战的公司。"
+    },
+    {
+      "i": 18,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "05:40",
+      "en": "But yeah from a CTA perspective to the 11th of November the SoC Gen CTA index is down 3.2% still up 10.2 on the year. SoC Gen Trends down 3.9 up 9.95 on the year that's to the 11th of November. And so yesterday was a good day for CTA so we'll probably see a little bit of a come back more. But yeah, I mean it's been a tough month.",
+      "zh": "不过从 CTA 的角度看，截至 11 月 11 日，SocGen CTA 指数下跌 3.2%，年内仍上涨 10.2%；SocGen Trends 指数下跌 3.9%，年内上涨 9.95%，这是截至 11 月 11 日的数据。昨天对 CTA 来说是不错的一天，所以我们大概还会看到一些反弹。但总的来说，这个月很难。"
+    },
+    {
+      "i": 19,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "06:05",
+      "en": "You have any observations from your side as to what's been interesting or challenging this month? Well, I think quite a few news items. Obviously the midterms have brought almost a reversal a lot in the, in the commodity market. So that, that was actually quite tough in, in the fixed income markets.",
+      "zh": "你这边有什么观察，这个月有什么有意思或者有挑战的地方吗？——我觉得新闻不少。显然中期选举让大宗商品市场几乎出现了全面反转，所以在固定收益市场这边其实也相当艰难。"
+    },
+    {
+      "i": 20,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "06:25",
+      "en": "I think the, the main issue, the main piece of news was actually inflation coming out a little bit higher than expected. I think running it. I think it's about 3 per annum in the US and that, and that has caused again another reversal. So we've seen September, September we've seen sort of done",
+      "zh": "我认为主要的问题、主要的新闻其实是通胀数据比预期略高一点。美国大概是年化 3% 左右，这又引发了新一轮反转。所以我们看到 9 月——9 月我们看到债券表现"
+    },
+    {
+      "i": 21,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "06:43",
+      "en": "very well by, by, by bonds then October was a little bit of a reversal and then, and then November is also very exciting in that respect and equities of course we are less exposed to specific risk like Nvidia but I think, but Nvidia is sufficiently large that it is projecting on the rest of the, the rest.",
+      "zh": "非常好，然后 10 月出现了一点反转，11 月在这方面同样很刺激。至于股票，当然我们对 Nvidia 这类个股风险的敞口比较小，不过 Nvidia 的体量足够大，会投射到其余所有资产上。"
+    },
+    {
+      "i": 22,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "07:06",
+      "en": "So equities I think equities are less of an issue. I think what has been happening is that the midterms really switched markets expectations of what's going to happen in Iran",
+      "zh": "所以股票方面，我认为股票问题不大。我觉得真正发生的事情是，中期选举彻底改变了市场对伊朗局势走向的预期，"
+    },
+    {
+      "i": 23,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "07:18",
+      "en": "but of course the Iranians think otherwise.",
+      "zh": "但当然，伊朗人并不这么想。"
+    },
+    {
+      "i": 24,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "07:24",
+      "en": "So that has been I think the most exciting things in November and I think that's where most CTAs are feeling the pain. Yeah. So from long energy positions basically. Exactly. So yeah that has been a big reversal actually.",
+      "zh": "所以我认为这是 11 月最刺激的事情，也是大多数 CTA 感到疼痛的地方。——是的，基本上是能源多头仓位。——没错。所以是的，那其实是一次很大的反转。"
+    },
+    {
+      "i": 25,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "07:43",
+      "en": "Very good. Well it's still a positive year. It's been, I mean a lot of the gains this year have come through in the first few months of the year I think maybe to May or so and it's been up and down a bit choppy since then but net, net still a very good year you would have to say for CJ's in a year where equities have had also done well.",
+      "zh": "很好。不过今年整体仍然是正收益。今年很多涨幅是在头几个月赚到的，我想大概到 5 月左右，之后就上上下下、比较震荡，但净算下来，你不得不说对 CTA 来说仍然是非常好的一年，而这一年股票同样表现不错。"
+    },
+    {
+      "i": 26,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "08:02",
+      "en": "And actually interestingly equities probably did well in the early part of the year as well. I've been. The indices have been pretty much up and down in a range I would say for the last six months or so as well. But they are all kind of, that's all related to what we're going to talk about.",
+      "zh": "而且有意思的是，股票大概也是在年初那段时间表现不错。过去六个月左右，指数基本上也是在一个区间里上下波动。不过这些都和我们今天要谈的内容有关。"
+    },
+    {
+      "i": 27,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "08:20",
+      "en": "And I know you've published a number of blogs of late all around, I suppose, you know, the role of CTAs in broader portfolios, convexity, you know, different types of convexity and putting all of that together. So where do you want to start on all of this? Oh, okay. So we're just going to talk a little bit about what does CTA bring",
+      "zh": "我知道你最近发布了不少博客，我想大体上是围绕 CTA 在更广泛组合中的角色、凸性（convexity）、不同类型的凸性，以及如何把这些整合起来。那你想从哪里开始谈？——好的。那我们就先谈谈 CTA 能给组合"
+    },
+    {
+      "i": 28,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "08:44",
+      "en": "to a portfolio. And yeah, and I think what's happened is that the, this is all being precipitated essentially by discussions with clients because they've come to us. And of course, with the bond equity correlation turning positive, the. Everybody's both, is both, both concerned about inflation.",
+      "zh": "带来什么。是的，我认为这一切本质上是由与客户的讨论催生的，因为他们主动来找我们。当然，随着债券与股票的相关性转正，大家都既担心通胀，"
+    },
+    {
+      "i": 29,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "09:03",
+      "en": "People have also been concerned about stagflation. People have been concerned about like how does a CTA in, into a 6040 portfolio and especially in this macroeconomic environment. So we started thinking about it in earnest sort of the beginning of June. And I just kind of, I think trying to put a little bit of structure over the process.",
+      "zh": "也担心滞胀（stagflation），还担心 CTA 该如何放进 60/40 组合里，尤其是在当前的宏观环境下。所以我们从 6 月初开始认真研究这个问题，我想做的就是给这个过程加上一点结构。"
+    },
+    {
+      "i": 30,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "09:31",
+      "en": "And what I kind of want to talk about is a lot of the people are very happy with just having, okay, here's, here's a liquid cta. My, my consultant have recommended me that I want to have something defensive in my portfolio. I've bought, you know, a mainstream liquid cta. Where do I go from here? Okay.",
+      "zh": "我想谈的是，很多人满足于这样：好了，我有一只流动性 CTA，我的顾问建议我在组合里配置一些防御性的东西，我买了一只主流的流动性 CTA，接下来我该往哪儿走？"
+    },
+    {
+      "i": 31,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "09:50",
+      "en": "And the problem is that a lot of the clients, if you look at this, how much. If you look at the total portfolio approach, everybody wants, you know, you actually want a lot of CTAs in your portfolio. You put it into your Claude, and Claude will tell you you want 20 CTAs. Okay. And people go, oh my God, this is a big number.",
+      "zh": "问题在于，很多客户如果从这个角度看——需要多少？如果你用总组合方法（total portfolio approach）来看，大家其实都想在组合里放很多 CTA。你把它丢进 Claude，Claude 会告诉你需要 20 只 CTA。人们会说，天哪，这个数字太大了。"
+    },
+    {
+      "i": 32,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "10:08",
+      "en": "And people are kind of afraid about what do I want to get out of the, out of, out of the cta. And you know, not Cloud may be very clever, but it's not really attuned to what investors actually want from a CTA book. So the way we've, I view it is that there are three ways potentially that you can have from a CTA basket.",
+      "zh": "而且人们其实并不清楚自己到底想从 CTA 里得到什么。Claude 也许很聪明，但它并不真正了解投资者想从一个 CTA 组合里得到什么。所以我的看法是，你对一个 CTA 篮子可能有三种诉求。"
+    },
+    {
+      "i": 33,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "10:31",
+      "en": "The first one is that you might want to think of it as like, it's a standalone, it's a hedge fund, it's part of a hedge fund book. I just wanted to have a highest standalone alpha. You just want to have that, and that's absolutely fine. The second view is people want to say equity convexity. We want crisis alpha.",
+      "zh": "第一种是，你可能把它当成一个独立的对冲基金，是对冲基金组合的一部分，你只想要最高的独立阿尔法（alpha）。你就想要这个，这完全没问题。第二种观点是，人们想要股票凸性，想要危机阿尔法（crisis alpha）。"
+    },
+    {
+      "i": 34,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "10:51",
+      "en": "We want to support the 60% allocation to equity that we want. And of course the last, the last discussion, which is actually more recent because people have been, you know, the bond index has not been done particularly well this year. They want to say, okay, how do I protect my bond exposures because I've got 40% in my portfolio in bonds.",
+      "zh": "我们想支撑我们对股票 60% 的配置。当然最后一个讨论其实是最近才出现的，因为债券指数今年表现并不好。人们会说：好，那我该怎么保护我的债券敞口？因为我组合里有 40% 是债券。"
+    },
+    {
+      "i": 35,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "11:09",
+      "en": "How do I get bond convexity and bond crisis alpha? So that's the kind of question that people have been talking to us and I've published before we, I published like two blogs talking a little bit about first of all convexity. And then, and then we can talk and try and maybe bring it all together",
+      "zh": "我该怎么获得债券凸性和债券危机阿尔法？这就是大家一直在和我们讨论的问题。此前我发布了两篇博客，先谈了凸性，然后我们可以试着把这一切整合起来，"
+    },
+    {
+      "i": 36,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "11:30",
+      "en": "sort of into a construction. Before we do maybe. I mean, convexity is a term that's thrown around a lot in the industry. So could we try and define that precisely before we start having a deep conversation about it? Oh, absolutely.",
+      "zh": "形成一个组合构建的框架。——在我们开始之前，凸性这个词在行业里被到处乱用，我们能不能先给它下一个精确的定义，再来深入讨论？——哦，当然可以。"
+    },
+    {
+      "i": 37,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "11:46",
+      "en": "No, no, no, you're absolutely right. So, so the way we, so essentially what we want to say is people understand correlation. So bond positive correlation, bond negative correlation, people can understand. You know, if equities goes up, bond are likely to go up or down. Okay, that's the definition of, of correlation.",
+      "zh": "不不不，你说得完全对。我们真正想说的是，大家理解相关性：债券正相关、债券负相关，人们能理解。也就是说，如果股票上涨，债券可能上涨或下跌，这就是相关性的定义。"
+    },
+    {
+      "i": 38,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "12:05",
+      "en": "Convexity is something nicer. So convexity, well, positive convexity is something nicer. It's a little bit like buying an option. It makes money both on the upside and on the downside. So the idea is, if I observe the equity market to go up 5% in expectations, what do I expect my, this asset class to do?",
+      "zh": "凸性是更漂亮的东西。正凸性更漂亮，它有点像买期权：上涨和下跌都能赚钱。所以这个思路是，如果我预期股票市场上涨 5%，我期望这个资产类别会怎么表现？"
+    },
+    {
+      "i": 39,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "12:25",
+      "en": "Like, okay, so in suppose Normally long term CTAs have got a sharp of 0.5 and they make, you know, so they make May 5% a year. If I see in the next quarter equity going up 5%, how much more do I expect equity CTAs to make? And, and that's really nice, but it's also very nice. The convexity means that it makes both on the plus side, on the",
+      "zh": "比如说，通常长期 CTA 的夏普比率（Sharpe ratio）是 0.5，一年大概赚 5%。如果我看到下个季度股票上涨 5%，那我期望股票 CTA 多赚多少？这很好，而且凸性的漂亮之处在于，它在正向和"
+    },
+    {
+      "i": 40,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "12:51",
+      "en": "negative side. So if you fit like a mod X function, it basically says, how much more do I expect a CTA to make money? If equities goes up 5% or down 5%, how much more does CTA give us? And of course most people are concerned about the negative side. You know, what happens if my equity portfolio is going down 5%? What happens?",
+      "zh": "负向都能赚钱。所以如果你拟合一个类似绝对值 |x| 的函数，它其实说的是：如果股票上涨 5% 或下跌 5%，我期望 CTA 多赚多少钱？当然，大多数人关心的是负向那一侧：如果我的股票组合下跌 5%，会发生什么？"
+    },
+    {
+      "i": 41,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "13:13",
+      "en": "And the problem, of course that we have is that although your book may look diversified, it is essentially a growth bet. Most of it is an essentially a growth bet. Okay, so, so a lot of the assets that you have, whether they are private equity, private credit, public credit, a lot of that are actually very positively correlated to equity.",
+      "zh": "而我们当然面临的问题是，尽管你的组合看起来分散，但它本质上是一个增长押注，大部分本质上都是增长押注。所以你持有的很多资产，无论是私募股权、私募信贷还是公开信贷，很多其实与股票高度正相关。"
+    },
+    {
+      "i": 42,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "13:34",
+      "en": "So that means that if equity go down 5%, they will tend to go on average down as well. Not necessarily, but you kind of expect them to go down as well. Okay. And CTAs have the beautiful behavior that it actually tends to go up when equity goes down. Okay. And, and that's what we kind of define as convexity and that gradient,",
+      "zh": "这意味着如果股票下跌 5%，它们平均来看也会倾向于下跌。不一定，但你会预期它们也下跌。而 CTA 有一种很漂亮的特性：股票下跌时，它往往会上涨。这就是我们定义的凸性，以及那个斜率——"
+    },
+    {
+      "i": 43,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "13:57",
+      "en": "which is how many, you know, if it goes down, if it has a convexity of say 15%, then for 5% drawdown in equities, we kind of expect to make an extra 75 basis points in the CTA space. Okay. For that quarter, that's kind of what we define as the convexity. And of course, the bigger the number, if it's 15%, that's good.",
+      "zh": "也就是，如果股票下跌，假设凸性是 15%，那么股票回撤 5% 时，我们大致期望在 CTA 这块多赚 75 个基点，就是那个季度。这就是我们定义的凸性。当然数字越大越好，15% 已经不错，"
+    },
+    {
+      "i": 44,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "14:19",
+      "en": "If it's 100%, it's even better. Right. So if, okay, so we kind of want that positive convexity and by the way, zero convexity, like if I just uncorrelated to equity, that's also great. It's already like it's already going to likely to help you because, you know, most of your assets are going down when equity is going down.",
+      "zh": "如果是 100% 就更好了。——对。所以我们想要的是正凸性；顺带说一句，零凸性，也就是与股票完全不相关，那也很棒，因为它已经很可能帮到你——毕竟股票下跌时你大多数资产都在跌。"
+    },
+    {
+      "i": 45,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "14:39",
+      "en": "Yeah, so, so that's kind of. So.",
+      "zh": "是的，所以大致就是这样。"
+    },
+    {
+      "i": 46,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "14:42",
+      "en": "I mean, in layman terms. So you obviously, you want assets and strategies that can deliver positive returns when equities are down and even better than if those returns are even bigger. The bigger the decline in equities. It's not fair to say that's capturing the idea of convexity. Yes, absolutely.",
+      "zh": "用外行的话说，你显然希望有些资产和策略能在股票下跌时带来正收益，而且股票跌得越多、这些收益越大就更好。这么说是不是就抓住了凸性的意思？——是的，完全正确。"
+    },
+    {
+      "i": 47,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "15:00",
+      "en": "But I think what is, what is important is that we should divide convexity into two things you can achieve. Like when equity goes down, there are two ways for you to make money. Okay. The first one is you happen to have a position, say in bonds or in commodities or in an other, in a different asset class.",
+      "zh": "但我认为重要的是，我们应该把凸性分成你可以获得的两种东西。当股票下跌时，你有两种方式赚钱。第一种是，你恰好在某个资产类别上有仓位，比如债券、大宗商品或其他不同的资产类别，"
+    },
+    {
+      "i": 48,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "15:18",
+      "en": "And that asset, that position, that assets seem to have a correlation with equity and you happened to. And they happen to go in the opposite direction. So, you know, the classic example is that for many years and when inflation was low, we saw if you're holding long bonds, when equity went down, bonded tend immediately to go up. Okay.",
+      "zh": "而这个资产、这个仓位似乎与股票有相关性，而且恰好朝相反方向走。经典例子是，很多年里、在通胀低的时候，我们看到如果你持有债券多头，股票下跌时债券往往会立刻上涨。"
+    },
+    {
+      "i": 49,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "15:41",
+      "en": "It was a risk on, risk off trade. And actually the same one that we saw in November. And bond provided a little bit of respite to, if you were long bonds, it provided respite to the long equity position because equity going down, bonds tended to go up. Okay? So that's, that's what we call, I would call like return convexity.",
+      "zh": "那就是风险偏好与风险规避（risk-on / risk-off）交易，其实和我们 11 月看到的一样。如果你持有债券多头，债券会给股票多头仓位带来一点喘息，因为股票下跌时债券往往上涨。所以这就是我所说的收益凸性（return convexity）。"
+    },
+    {
+      "i": 50,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "16:01",
+      "en": "Now there is something like exposure convexity because a CTA provides expo Exposure convexity. That means that when equity goes down, we will short equity in the same asset class. We will tend to become over time short that position. Okay, short that equity. And that of course essentially reduces your, your exposure.",
+      "zh": "另外还有一种敞口凸性（exposure convexity），因为 CTA 提供的是敞口凸性。意思是当股票下跌时，我们会在同一资产类别里做空股票，随时间推移我们往往会变成该仓位的空头，也就是做空股票。这当然实质上降低了你的敞口。"
+    },
+    {
+      "i": 51,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "16:21",
+      "en": "So CTAs act like as a mid midfield player, they to borrow from you. Alan and I listened to your blog, your webinar, it was really good. So you can be a midfield player and they will basically reduce, they will go down to defense and will reduce your exposure in equity. So that's like an exposure convexity. It's almost mechanical.",
+      "zh": "所以 CTA 就像一名中场球员——借用你 Alan 的说法。——我听了你的博客、你的网络研讨会，非常棒。——所以你可以把它当中场球员，它基本上会退到防守端，降低你的股票敞口。这就是敞口凸性，它几乎是机械的。"
+    },
+    {
+      "i": 52,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "16:43",
+      "en": "It will basically reduce your equity beta. It's different type of convexity.",
+      "zh": "它基本上会降低你的股票贝塔（beta）。这是一种不同类型的凸性。"
+    },
+    {
+      "i": 53,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "16:53",
+      "en": "How important is that distinction? I mean ultimately people, it's returns that, that drive performance. You know, you can't as people say, you can't eat a sharp racer. You can't eat position convexity. No, absolutely, you know, so, so, so how important is that distinction? I guess.",
+      "zh": "这个区分有多重要？毕竟对人们来说，驱动业绩的是收益。就像人们说的，你不能拿夏普比率当饭吃，也不能拿仓位凸性当饭吃。——不，当然。——那么这个区分到底有多重要？我想。"
+    },
+    {
+      "i": 54,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "17:13",
+      "en": "So I think it's important in terms of understanding the dynamics of, of like the timing of when each of them come come, become, become useful. So if you're holding bonds and bond, so and the second difference is the guarantee. Okay, so with, with exposure convexity it will come, it might come later.",
+      "zh": "我认为它的重要性在于理解两者各自何时开始发挥作用的动态与时点。如果你持有债券……第二个区别是确定性。对于敞口凸性，它一定会来，但可能来得晚一些。"
+    },
+    {
+      "i": 55,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "17:35",
+      "en": "So for example, a CTA which holds an, an exposure to equity allocation to equity, it will go short equity, but it will take its time to actually build up this position because a drawdown by definition comes after a big rally equity rally. So a CTA will start its life actually of a crisis of a drawdown being positive equity.",
+      "zh": "举例来说，一个持有股票配置敞口的 CTA，它会去做空股票，但需要时间才能真正建立这个仓位，因为按定义，回撤是发生在一轮大的股票上涨之后的。所以在一场危机、一次回撤开始时，CTA 其实是持有正的股票敞口的。"
+    },
+    {
+      "i": 56,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "17:56",
+      "en": "Okay, so it will be more painful. So actually a CTA initially will lose money from an equity exposure convexity. But after a month, or maybe a month or two depending on the speed of the, of the, of the position, it will turn negative. And it's guaranteed because it's completely mechanical.",
+      "zh": "所以它会更痛苦一些。实际上，CTA 一开始会因为股票敞口凸性而亏钱，但一个月后——或者取决于建仓速度，也许一到两个月后——它会转为负值。而且这是有保证的，因为它完全是机械的。"
+    },
+    {
+      "i": 57,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "18:14",
+      "en": "It will just take less beta, it will reduce your beta. And if it equity keeps going down, it will make money because it's going to be short equity. So, so it's one type of convexity. Whereas the convexity we get from bonds, for example, it's immediate, right? It so happens that these two asset classes during low inflation",
+      "zh": "它只是承担更少的贝塔，降低你的贝塔。如果股票继续下跌，它就会赚钱，因为它将做空股票。这是一种凸性。相比之下，我们从债券获得的凸性是即时的，对吧？恰好在低通胀时期这两个资产类别"
+    },
+    {
+      "i": 58,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "18:36",
+      "en": "tend to be negatively correlated. So if you're long bond and long equity, when equity goes down immediately bond make money. Exactly what we saw in November, right? It's what we call a first responder, what the consultants would like to call it. The problem with that is that it's not guaranteed.",
+      "zh": "往往呈负相关。所以如果你同时持有债券多头和股票多头，股票下跌时债券立刻赚钱——正是我们 11 月看到的情形，对吧？这就是咨询公司喜欢说的第一响应者（first responder）。问题在于，它没有保证。"
+    },
+    {
+      "i": 59,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "18:53",
+      "en": "It so happens that bonds and equities happen to have low correlation at negative correlation at Times, but sometimes in different environment, some of them are like positively correlated. So, so it's immediate, but it's not 100%. Right. It really depends on the macro environment and on the nature of the crisis as it plays out.",
+      "zh": "债券和股票只是恰好有时相关性低、呈负相关，但在不同的环境中，有时它们又是正相关的。所以它是即时的，但不是 100% 可靠。它确实取决于宏观环境，以及危机展开时的性质。"
+    },
+    {
+      "i": 60,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "19:13",
+      "en": "And I think the two, the two papers actually talk about that. So let's, so that's kind of the differences between the convexities and when you build up the portfolio, you kind of want a little bit of both in terms of how do you, how do you construct a defensive basket? Yeah.",
+      "zh": "我想那两篇论文其实都谈到了这一点。以上就是两种凸性之间的区别；当你构建组合时，你两种都想要一点。那么，你该如何构建一个防御性的篮子呢？——嗯。"
+    },
+    {
+      "i": 61,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "19:33",
+      "en": "So it's interesting, I mean as you say in your blogs, you talk about the. I suppose, you know, if, I suppose on a look through basis and this would have been the experience for much of the last decade. You know, if you actually, if you took money out of bonds and invested in a cta, you probably would have ended up with more bond exposure",
+      "zh": "这很有意思。就像你在博客里说的，我想从穿透（look-through）的角度看，而这在过去十年的大部分时间里都是这样的体验：如果你把钱从债券里拿出来投到 CTA 上，你最终的债券敞口可能反而更多，"
+    },
+    {
+      "i": 62,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "19:57",
+      "en": "because you're getting leveraged bond exposure in, in, in, in from the CTA side. So is that a good thing or a bad thing? Well, it's, it's about the construction. Right? It's if you understand the sizing. Yeah. You can understand what you kind of want. Yeah. Right. So, but, but the, the, the reality if, if the.",
+      "zh": "因为你从 CTA 那边获得的是加了杠杆的债券敞口。那这是好事还是坏事？——这取决于组合构建，对吧？如果你理解仓位规模，就能明白自己想要什么。——是的。——对。所以现实是，如果……"
+    },
+    {
+      "i": 63,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "20:19",
+      "en": "I think that the first blog is talking about the. In the real market, people invest dollars, okay. And if you, if you have 60, 40 allocation to equities and bonds, your risk allocation to equity is much higher because bonds are, let's say called 20% volatility per annum. Whereas, sorry, equity is equity. Equity. Yeah.",
+      "zh": "我想第一篇博客谈的就是这个。在真实市场里，人们投入的是美元。如果你有 60/40 的股票和债券配置，你在股票上的风险配置要高得多，因为债券的波动率是，比如说年化 20%——抱歉，我说错了，是股票，股票。——对。"
+    },
+    {
+      "i": 64,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "20:38",
+      "en": "Whereas bonds is around say 5, 6% volatility per, depending, I mean, and short term depends on which ones. It depends on which bond, depends on the duration, you know, but broadly much lower volatility, which is the right thing. So your 40% allocation to bonds doesn't actually have as much risk as your 60% allocation to equities.",
+      "zh": "而债券大概是年化 5%、6% 的波动率，这取决于——我是说短期要看是哪一种。取决于哪种债券、取决于久期，但总体上波动率低得多，这才是对的。所以你 40% 的债券配置实际承担的风险，并没有 60% 的股票配置那么多。"
+    },
+    {
+      "i": 65,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "20:57",
+      "en": "Now when it comes to CTAs, CTAs basically try to get equal risk in each asset class. And most CTAs, let's call it, run at 15% volume. What they will do is they will actually delever their position in equity and lever up the exposure in bonds so that both asset class internally within the CTA are running at 15%.",
+      "zh": "说到 CTA，CTA 基本上会试图让每个资产类别的风险相等。大多数 CTA，我们就说它们运行在 15% 的波动率上。它们会做的是：降低股票仓位的杠杆，提高债券敞口的杠杆，使得 CTA 内部两个资产类别都运行在 15%。"
+    },
+    {
+      "i": 66,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "21:24",
+      "en": "Okay, what does this mean from a convexity point of view to you? It means that if I look at the exposure convexity, okay.",
+      "zh": "那么从凸性的角度看，这对你意味着什么？意味着如果我看敞口凸性的话，"
+    },
+    {
+      "i": 67,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "21:34",
+      "en": "You get a very interesting behavior. So most people think that the reason why CTAs give, give, perform well when equity goes down is because of the equity. Right. It's because of exposure convexity, the CTA will go short and therefore it will make money. And what I'm saying is that actually does, it doesn't actually",
+      "zh": "你会看到一个非常有意思的现象。大多数人认为 CTA 在股票下跌时表现好的原因是股票，对吧，是因为敞口凸性，CTA 会做空因此会赚钱。而我要说的是，它其实并不"
+    },
+    {
+      "i": 68,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "21:56",
+      "en": "give you that much beta. So if you, because the internally the CTA levels down de leverer the equity exposure, then if you have a 10% CTA, you are basically getting plus minus three and a half percent exposure in equity. Okay. And that's relatively low. Okay.",
+      "zh": "给你那么多贝塔。因为 CTA 内部会降低股票敞口的杠杆，所以如果你有 10% 的 CTA 配置，你在股票上基本上只得到正负 3.5% 的敞口。这是相对较低的。"
+    },
+    {
+      "i": 69,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "22:21",
+      "en": "But if you are holding say but, but in terms of the bond exposure, from your perspective, if I'm, I've got a 10% exposure to a CTA, it's almost equivalent to being plus minus 10% depending on how bonds are going. So it's a much more efficient CTA is much more capital efficient",
+      "zh": "但如果从债券敞口的角度看，站在你的立场，如果我有 10% 的 CTA 敞口，那几乎相当于正负 10%，具体取决于债券怎么走。所以 CTA 在资本效率上要高得多——"
+    },
+    {
+      "i": 70,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "22:39",
+      "en": "when it comes to the bond sector than it is to the equity sector.",
+      "zh": "在债券板块上比在股票板块上更有效率。"
+    },
+    {
+      "i": 71,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "22:44",
+      "en": "So I think the first paper was like be aware of that, right?",
+      "zh": "所以我想第一篇论文的意思就是：要注意这一点，对吧？"
+    },
+    {
+      "i": 72,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "22:51",
+      "en": "If you're kind of relying on mechanical exposure adjustment for your equity portfolios, CTAs actually don't really offer that. Okay. And that was the first paper is that, is that you know, if you want to adjust your bond exposure so you take your 40% and you take 10% out of your bond exposure and you put it in a cta,",
+      "zh": "如果你指望 CTA 为你的股票组合提供机械的敞口调整，CTA 其实并不真正提供这个。第一篇论文讲的就是：如果你想调整债券敞口，把你 40% 的债券配置中拿出 10% 放进 CTA，"
+    },
+    {
+      "i": 73,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "23:14",
+      "en": "what you're going to get is you're going to get still, you know, when the going is good, you'll be, you'll get your original 40% exposure and when the going is bad, you get 20% exposure. So you actually get very decent mechanical sort of adaptive exposure from your CTA. But with the same thing.",
+      "zh": "你得到的是：行情好的时候，你仍然拥有原来 40% 的敞口；行情差的时候，你只有 20% 的敞口。所以你从 CTA 那里得到了相当不错的机械式自适应敞口。但同样的道理，"
+    },
+    {
+      "i": 74,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "23:34",
+      "en": "If you put 10% in your CTA, you only get 60 plus minus 3% exposure. And the, the last thing in the last point in the, in the paper, which is important, which is depending on it really depends on your speed. Okay. So, so one of the things which is important is active risk management,",
+      "zh": "如果你在 CTA 上放 10%，你在股票上只得到 60% 加减 3% 的敞口。论文里最后一点也很重要，那就是要看你的速度。所以其中一个重要的点是主动风险管理，"
+    },
+    {
+      "i": 75,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "23:56",
+      "en": "which is what CTAs do means that we like on average we are not fully in. Okay. You can't commit always 100% and then go minus 100%. When trend is negative, you have a very grad. You change your position gradually and that means that on average in a positive trend in equity, if you're a slow trend over",
+      "zh": "也就是 CTA 所做的事情，意味着我们平均而言并不是满仓的。你不可能一直满仓 100%，然后在趋势转负时一下子变成负 100%。你会逐步调整仓位，这意味着在股票的正趋势中，如果你是一个跨"
+    },
+    {
+      "i": 76,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "24:17",
+      "en": "the over a year, say you might get 60% exposure to equity, you give up a little bit. Okay. Which is fine because what you get is that if equity goes down over the year with a sharp one move, then you're likely to be minus 60% exposure. So that's what it gives you. Okay. With faster trend, the faster the trend, the less committing it",
+      "zh": "一年的慢速趋势，你可能只会有 60% 的股票敞口，你放弃了一点收益。这没关系，因为你得到的是：如果股票在这一年里出现一次急跌，你很可能持有负 60% 的敞口。这就是它给你的东西。趋势越快，它的投入就越"
+    },
+    {
+      "i": 77,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "24:42",
+      "en": "is because it changes itself so quickly. It's sort of, it always asks itself do am I still in a trend? Am I still in a trend? Am I still in a trend? Trend Then fast trend gives you on average less exposure. It acts faster, but it gives you a less exposure. So if a fast CTA will have plus minus three and a half.",
+      "zh": "少，因为它变化太快。它总是在问自己：我还在趋势里吗？我还在趋势里吗？我还在趋势里吗？那么快速趋势平均给你的敞口更少。它行动更快，但给你的敞口更少。所以如果是快速 CTA，会有正负 3.5%。"
+    },
+    {
+      "i": 78,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "25:07",
+      "en": "Sorry, a slow CTA must have plus minus three and a half in equity exposure. A fast CTA will only have maybe plus minus 2% exposure. So you should be aware that the speed selection also affects your convexity. This, the, it will arrive faster with a fast, with a fast trend, but overall on average it will actually be lower.",
+      "zh": "抱歉，慢速 CTA 的股票敞口应该是正负 3.5%，快速 CTA 可能只有正负 2% 的敞口。所以你要意识到，速度的选择也会影响你的凸性。用快速趋势，凸性会来得更快，但总体平均而言其实会更低。"
+    },
+    {
+      "i": 79,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "25:29",
+      "en": "So that's actually a very interesting something which comes in from the, like from the, from the mathematics. It's not, I'm not inventing the wheel here. Yeah. And I mean, I suppose there's a question of does it matter? I mean you could say your equity positioning. Is it your equity beta though that really matters for the CTA portfolio?",
+      "zh": "所以这其实是从数学里得出的一个非常有意思的东西，我这不是在重新发明轮子。——嗯。我想还有一个问题是：这重要吗？我是说，你可以说你的股票仓位——对 CTA 组合来说，真正重要的是你的股票贝塔吗？"
+    },
+    {
+      "i": 80,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "25:50",
+      "en": "You know, obviously, as you say, because you're going to pick up equity beta from your bond side, your commodity side, your currency side, which all combine as well alongside maybe a smaller short in equities. So.",
+      "zh": "显然，正如你说的，因为你会从债券端、商品端、货币端获得股票贝塔，这些都叠加在一起，再加上也许一个规模较小的股票空头。所以，"
+    },
+    {
+      "i": 81,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "26:04",
+      "en": "Does it matter? Well, so in a way, no. But I'm just going to say that it really, the type of, of protection that you're going to get from a CTA depends on the allocation to different asset classes within it. Sure. And it will play slightly differently. So and I think, I think that's kind of the, the, it's a very interesting.",
+      "zh": "这重要吗？某种意义上，不重要。但我想说的是，你从 CTA 得到的保护类型，取决于其内部对不同资产类别的配置。——当然。——而且它的表现会略有不同。我觉得这一点非常有意思。"
+    },
+    {
+      "i": 82,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "26:29",
+      "en": "People fail to appreciate that actually what you, what you get is that the convex, the protection that you get from the CTA is not actually necessarily coming just from equities.",
+      "zh": "人们没有意识到，你从 CTA 得到的凸性、得到的保护，并不一定只来自股票。"
+    },
+    {
+      "i": 83,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "26:41",
+      "en": "It comes. So the other primary source of convexity comes from the other asset classes. And there the behavior is very interesting.",
+      "zh": "凸性的另一个主要来源来自其他资产类别，而那里的行为非常有意思。"
+    },
+    {
+      "i": 84,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "26:54",
+      "en": "So what we find is that bond trend generally have positive convexity over all inflation environments. And the reason why we look at inflation environment as the explainer is because bond themselves actually are very dependent on inflation regime. So if we look at how bond provide protection to equity downturn,",
+      "zh": "我们发现，债券趋势在所有通胀环境下通常都具有正凸性。我们之所以用通胀环境作为解释变量，是因为债券本身其实非常依赖通胀状态（regime）。所以如果我们看债券在股票下跌时如何提供保护，"
+    },
+    {
+      "i": 85,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "27:23",
+      "en": "it really depends on inflation. If you go back historically and you look say on the 10 most severe drawdowns in equity over the last 65 years, what you find is that",
+      "zh": "它其实取决于通胀。如果你回到历史数据，看过去 65 年里股票最严重的 10 次回撤，你会发现："
+    },
+    {
+      "i": 86,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "27:39",
+      "en": "when inflation is high, bonds will perform well, you get a negative correlation. When inflation is, when inflation is low, bonds will perform well, the correlation is negative and they assist you in an equity drawdown. But when inflation is High is like what we're seeing at the moment. It's not necessarily so.",
+      "zh": "当通胀高时，债券会表现良好，你会得到负相关。当通胀低时，债券会表现良好，相关性是负的，在股票回撤时它们能帮到你。但当通胀高时——就像我们现在看到的情况——就不一定了。"
+    },
+    {
+      "i": 87,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "27:58",
+      "en": "I think around 4, 5% is kind of the middle ground.",
+      "zh": "我认为大约 4%、5% 是中间地带。"
+    },
+    {
+      "i": 88,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "28:03",
+      "en": "Above, above that level, you definitely start getting a very positive correlation between bonds and equity. So when equity goes down, bond goes down as well. And we saw that in, you know, in 2022, we saw 2 and a half like we saw 8 and 8% inflation and we saw equity tanking, and we saw bond tanking as well. Okay.",
+      "zh": "在那个水平之上，你肯定会开始看到债券与股票之间非常正的相关性。所以股票下跌时，债券也下跌。我们在 2022 年就看到了，通胀到了 8%，股票大跌，债券也大跌。"
+    },
+    {
+      "i": 89,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "28:24",
+      "en": "And that's, that's what it is. But, but bond trend, interestingly, is actually immune to that because CTA is kind of tend to flip their positions. So it kind of detects the change in correlation regime between bonds and equities. And by and large, even during high inflation periods, bond offers a distant positive convexity.",
+      "zh": "情况就是这样。但有意思的是，债券趋势其实对此免疫，因为 CTA 往往会翻转自己的仓位，所以它能检测到债券与股票之间相关性状态的变化。总体来看，即使在高通胀时期，债券也能提供明显的正凸性。"
+    },
+    {
+      "i": 90,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "28:47",
+      "en": "So just in terms of numbers, equity convexity is like 40. We say 35%.",
+      "zh": "单就数字而言，股票凸性大概是 40，我们说 35%。"
+    },
+    {
+      "i": 91,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "28:56",
+      "en": "Bond convexity is around sort of 20%. So actually very, very decent. If we look at the other asset classes, if we look at commodity trend and FX trend, what we see is essentially a flat. They're actually uncorrelated. They are relatively uncorrelated to equity. So what you get is you get general alpha from commodities.",
+      "zh": "债券凸性大约 20%，其实相当不错。如果看其他资产类别，看商品趋势和外汇趋势，我们看到的基本上是平的——它们其实与股票不相关，相对不相关。所以你得到的是来自商品的普遍阿尔法。"
+    },
+    {
+      "i": 92,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "29:17",
+      "en": "So in a crisis, commodity trend is likely to work because it works all the time. So you're likely to make money out of that, that. Not because it has positive complexity, just because it's uncorrelated. That's already better than most of your asset classes. But it's kind of flat.",
+      "zh": "所以在危机中，商品趋势很可能奏效，因为它一直都在奏效。你很可能从中赚钱——不是因为它有正凸性，只是因为它不相关。这已经比你大多数资产类别好了。但它基本是平的。"
+    },
+    {
+      "i": 93,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "29:33",
+      "en": "It's not, it's neither, it's neither positive nor negative to equity downturns. If anything, commodity is slightly negative, but, but that's kind of the interplay. So what you have is you have a CTA is built off a second responder, which at the moment, at the beginning of the, the, of the, the",
+      "zh": "它对股票下跌既不是正也不是负。真要说，商品略微偏负，但这大概就是各部分之间的相互作用。所以你手上这个 CTA 是由第二响应者构成的，而在股票下跌刚开始的时候，"
+    },
+    {
+      "i": 94,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "29:52",
+      "en": "downturn in equity is actually likely to go down because it's the equity exposure, because it's, it starts being positive and then after a while it will kick in and it will give you meaningful from a risk perspective. It will give you minimum, minimum performance. And we can see that because if, again, if we look at historical",
+      "zh": "它其实很可能下跌，因为那是股票敞口——它一开始是正的，过一段时间才会启动，然后从风险的角度给你有意义的、最低限度的表现。我们能看到这一点，因为如果我们再看历史上的"
+    },
+    {
+      "i": 95,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "30:11",
+      "en": "crisis in the past, if you sort them by the length of crisis, right, you will see that equity trend is very helpful in protracted long drawdowns because it then changes its exposure. It is, it goes negative. It really helps sort of the, it really starts making money. But if you have very sharp drawdown followed by recovery, then",
+      "zh": "危机，按危机持续时间排序，你会发现股票趋势在旷日持久的长回撤中非常有帮助，因为那时它会改变自己的敞口，转为负值，真的开始赚钱。但如果你遇到的是急跌后紧接复苏，那么"
+    },
+    {
+      "i": 96,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "30:44",
+      "en": "it's exactly the opposite. Equity tends to suffer both directions in fact, a lot of the time. And we saw that again, we saw that in the Trump crisis, right? So we saw a little bit of that in March, we saw a little bit of that in April Liberation Day last year.",
+      "zh": "情况就完全相反。事实上很多时候股票趋势在两个方向上都会受损。我们又看到了这一点，在特朗普危机中，对吧？去年 3 月我们看到了一点，4 月的解放日（Liberation Day）也看到了一点。"
+    },
+    {
+      "i": 97,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "31:04",
+      "en": "When we see a sharp crisis, the equity part of the convexity actually is just too late to the party. Okay. And most of the convexity you're getting is actually from a first responder from the bond portfolio. And that's just kind of historically how it plays out in with the CTA land.",
+      "zh": "当我们看到急剧的危机时，凸性中的股票部分其实来得太晚了。你得到的大部分凸性实际上来自债券组合这个第一响应者。历史上在 CTA 领域大致就是这么演的。"
+    },
+    {
+      "i": 98,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "31:27",
+      "en": "So the reason I'm saying it is because a lot of the people, you know that in our company we run sort of asset class specific CTAs. Okay. And I just want to kind of articulate.",
+      "zh": "我之所以说这些，是因为很多人知道我们公司运作的是针对特定资产类别的 CTA。我只是想把这一点讲清楚。"
+    },
+    {
+      "i": 99,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "31:46",
+      "en": "People were going like, why would I want to tilt my allocation into one asset class or the other in terms of the CTA land? Why don't I just want to have a normal cta? And it's just in terms of understanding the properties of each asset class plays within a CTA is actually kind of important.",
+      "zh": "人们会问：在 CTA 这块，我为什么要把配置向某一个资产类别倾斜？为什么不直接持有一个普通的 CTA？而理解每个资产类别在 CTA 内部所扮演的属性，其实相当重要。"
+    },
+    {
+      "i": 100,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "32:06",
+      "en": "Interesting. I mean, so obviously you have, I suppose you've got equity beta, you've bond beta and equity trend and bond trend, and they all have a role potentially in a portfolio. So I suppose the question is how much should you be allocating to each? And obviously you can get your equity trend and bond trend via a diversified cta.",
+      "zh": "有意思。显然你有股票贝塔、债券贝塔，还有股票趋势和债券趋势，它们在组合里都可能扮演角色。所以问题应该是：每一个该配多少？当然，你可以通过一个分散化的 CTA 获得股票趋势和债券趋势，"
+    },
+    {
+      "i": 101,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "32:24",
+      "en": "Or else you can try and finesse that a little bit more by tilting up or down by selecting a manager who specializes more in a certain asset class. I guess that's what you're saying. So, yeah, so the way I see it is that if you want an equity cta, you actually need to give it a very large allocation if you want",
+      "zh": "或者你也可以更精细一些，通过上调或下调，选择一个更专注于某个资产类别的管理人。我想这就是你的意思。——是的，我的看法是，如果你想要一只股票 CTA，你其实需要给它一个非常大的配置，如果你想要"
+    },
+    {
+      "i": 102,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "32:49",
+      "en": "an equity CTA in order to help with your exposure convexity. Okay. So you know, it's almost one to one if, if anything to your exposure. So if you want, if you have your 60 equity and you want to tilt it to 40 to 60, then you actually really need to have a 10% in a dedicated equity exposure CTA.",
+      "zh": "一只股票 CTA 来帮助你的敞口凸性的话。这几乎是与你的敞口一一对应的。所以如果你有 60% 的股票，想把它调成 40 对 60，那你其实真的需要在一只专门的股票敞口 CTA 上放 10%。"
+    },
+    {
+      "i": 103,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "33:15",
+      "en": "And it's kind of, it's going to give you just about the, it's a kind of expensive for me cash, cash allocation point of view in a bond, in a bond CTA allocation, you actually get your money's worth in terms of capital efficiency simply because CTAs leverage up their positions in bonds to get the risk allocation that you want.",
+      "zh": "它给你的就差不多是这些；从现金配置的角度看，这对我来说有点贵。而在债券 CTA 的配置上，就资本效率而言你其实物有所值，因为 CTA 会给自己的债券仓位加杠杆，以达到你想要的风险配置。"
+    },
+    {
+      "i": 104,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "33:43",
+      "en": "But in terms of, if you want to think about it in terms of the cross asset convexity, then you basically want to understand that bonds give you equity. First response responsive convexity. But. Not always. Actually. Not, not obviously. Because we've seen that obviously in the last month. Yeah,. Completely not guaranteed.",
+      "zh": "但如果你想从跨资产凸性的角度思考，那你基本上要理解：债券给你的是对股票的第一响应式凸性。——但并不总是。——实际上并不显然，因为上个月我们就见到了。——是的，完全没有保证。"
+    },
+    {
+      "i": 105,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "34:05",
+      "en": "Actually this month has been quite good for me on the bond trend. So not too bad actually. But in terms of the. But, but we have had a situation in the last month where equities have gone down and bonds have been been going up. Trend has been going down because transfers have been short bonds. Yeah. So.",
+      "zh": "其实这个月我在债券趋势上表现还不错，所以并不太糟。但上个月确实出现过这样的情况：股票下跌、债券上涨，而趋势策略却在下跌，因为趋势跟踪者是债券的空头。——是的。所以，"
+    },
+    {
+      "i": 106,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "34:22",
+      "en": "So up until the last couple days the, that kind of convexity is not guaranteed. Right. It's. It's a. In expectation and over history that's kind of the observation that we see in the same way that bonds, you know, bonds equity correlation is not guaranteed. Depends on the shape of the crisis and what, what happens.",
+      "zh": "直到最近几天之前，那种凸性都不是有保证的，对吧？它只是在预期意义上、在历史数据上我们观察到的规律，就像债券与股票的相关性也没有保证一样，取决于危机的形态以及发生了什么。"
+    },
+    {
+      "i": 107,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "34:42",
+      "en": "But in terms of risk allocation that's kind of the game. What is very interesting is that equities offer very little bond convexity. So what I mean if you're worried about inflation rising and your bond portfolio doing well. Equity historically equity trend has done nothing to you. Like literally nothing.",
+      "zh": "但从风险配置的角度看，这就是游戏规则。非常有意思的一点是，股票几乎不提供债券凸性。我的意思是，如果你担心通胀上升、担心你的债券组合表现，历史上股票趋势对你毫无帮助，真的一点都没有。"
+    },
+    {
+      "i": 108,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "35:02",
+      "en": "Whereas it only goes one way. Unfortunately. We would have liked equity to be a first responder to bonds and bonds to be first responder to equities. It, there is, there is an asymmetry here which is actually very interesting historically. So what. Say, I mean could you say off the top of your head like what's for a.",
+      "zh": "而它只有单向作用。遗憾的是，我们本来希望股票是债券的第一响应者、债券是股票的第一响应者。这里存在一种不对称，从历史上看非常有意思。——那么，我是说，你能凭印象说一下，对于一个"
+    },
+    {
+      "i": 109,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "35:22",
+      "en": "A typical trend following program applied purely to equities versus purely to bonds. What's the sharp ratio for each of them? So, so historically equities has been disastrous and bond has been very good. So up until, if you ask me three years ago, I would have said equity.",
+      "zh": "典型的趋势跟踪项目，纯粹应用在股票上和纯粹应用在债券上，两者的夏普比率各是多少？——历史上股票是灾难性的，债券非常好。所以如果你三年前问我，我会说股票……"
+    },
+    {
+      "i": 110,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "35:41",
+      "en": "The problem with equity is that you see a lot of value players in the market. So you tend to see, you tend to see reversals, you tend to see negative auto correlation in equity. So if equity goes down on day one, it's likely to go up actually on day two that we're likely to see a reversal because people",
+      "zh": "股票的问题在于市场里有很多价值型投资者。所以你往往会看到反转，看到股票的负自相关。如果股票第一天下跌，第二天其实很可能上涨，我们很可能看到反转，因为人们"
+    },
+    {
+      "i": 111,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "35:59",
+      "en": "are kind of coming in to buy and we can talk about it. We can actually see this data in flows. So if we look at ETFs, we look at the, the performance last month and we see the flow the, the following month you actually see a slight negative correlation I. E. If equities go down, you actually",
+      "zh": "会进场买入，这一点我们可以谈。我们其实能在资金流数据里看到这一点。如果看 ETF，看上个月的表现，再看下个月的资金流，你会看到轻微的负相关，也就是说，如果股票下跌，你实际上"
+    },
+    {
+      "i": 112,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "36:20",
+      "en": "see more flows, a little bit more flows a month later people are basically buying the dips. And, and that kind of, and that kind of means that inequity in general is actually makes it very fast. Trend is actually very difficult.",
+      "zh": "会在一个月后看到更多资金流入，人们基本上在逢低买入。这意味着在股票上，快速趋势其实非常困难。"
+    },
+    {
+      "i": 113,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "36:35",
+      "en": "Slow trend has worked reasonably. Sharp equity equity single just equity portfolio Sharp is, has not been great. Average market Sharp is not, has been like 0 2.2, 0.1, 0.2 in bonds. It's sort of sitting actually quite a bit higher historically. But you know, I don't want to make a claim because over time things change.",
+      "zh": "慢速趋势的表现还算合理。单纯的股票组合夏普比率一直不算好，市场平均夏普大概在 0.1、0.2 这种水平；而债券历史上其实要高不少。不过我不想下断言，因为随着时间推移情况会变。"
+    },
+    {
+      "i": 114,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "37:00",
+      "en": "I think the, the good things about bonds is that Curry gives you a sort of a general drift that tends to, that tends to make long term trend actually perform very well.",
+      "zh": "我认为债券的好处在于，持有收益（carry）会给你一个总体的漂移，往往让长期趋势表现得非常好。"
+    },
+    {
+      "i": 115,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "37:12",
+      "en": "But you know, having said it, in the last four years bonds have been trading sideways and bond trend has been a disaster, like a negative one. Sharp. Okay. So nothing is guaranteed guarantees in life. And I, I wouldn't, I wouldn't advise you to go, you know, fully into just asset class. I've just picked it. I think. Right.",
+      "zh": "但话虽如此，过去四年债券一直在横盘交易，债券趋势是一场灾难，夏普是负的。所以人生没有什么是保证的。我不会建议你全仓押注单一资产类别，我刚才只是挑了个例子。——对。"
+    },
+    {
+      "i": 116,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "37:32",
+      "en": "The way you kind of, I like to think about it is that you want to think about the cta. You know, it's a diversified program, but then you kind of want to think about what I want to achieve with it. And that means you actually want to tilt it depending on, you know, your equity bonds and, and, and, and commodities and we can come to that.",
+      "zh": "我喜欢这样思考：你要把 CTA 看作一个分散化的项目，然后再想想你想用它实现什么。这意味着你其实需要根据你的股票、债券和商品来做倾斜，这个我们待会儿再谈。"
+    },
+    {
+      "i": 117,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "37:51",
+      "en": "Okay, well what about regimes and macro environments? I mean, because obviously this is another factor to what you've been thinking and writing about. And you know, we've obviously, as you alluded to, there had a regime of low inflation, falling interest rates and a negative bond equity correlation in the 2000 and tens.",
+      "zh": "好，那么状态（regime）和宏观环境呢？显然这是你一直在思考和写作的另一个因素。正如你提到的，在 2010 年代那十年里，我们处于低通胀、利率下行、债券与股票负相关的状态。"
+    },
+    {
+      "i": 118,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "38:10",
+      "en": "Now we're into a positive correlation. We've had more supply shocks, et cetera, more periods of stagflationary pressures, if not maybe outright stagflation. So how does that play into it? Yes, so that's actually really interesting. So yeah, inflation going up has really changed people's perception of where the world is going to.",
+      "zh": "现在我们进入了正相关，出现了更多供给冲击等等，出现了更多滞胀压力的时期，甚至可能就是彻底的滞胀。这会如何影响？——是的，这其实非常有意思。通胀上行确实改变了人们对世界走向的认知。"
+    },
+    {
+      "i": 119,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "38:35",
+      "en": "And of course the, the problem with the, with the fiscal situation of many, many developed markets is that, you know, debt is now sitting at 120 of GDP, 120% of GDP thereabout. And that means that there's a lot, lot less space for central banks and for governments to really provide relief in the case of an equity equity downturn.",
+      "zh": "当然，很多很多发达市场的财政状况存在的问题是，债务现在处于 GDP 的 120%、大约 120% 的水平。这意味着在股票下跌时，央行和政府真正提供纾困的空间要小得多。"
+    },
+    {
+      "i": 120,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "39:02",
+      "en": "So people are kind of very rightly to be worried. Actually I have, I think we, me and Adam wrote a paper in January this year about the combination of, about how commodity trend plays with bonds in the, in different inflationary regimes. And that's actually triggered quite a lot of conversations.",
+      "zh": "所以人们的担心是很有道理的。其实今年 1 月我和 Adam 写了一篇论文，讲商品趋势在不同通胀状态下如何与债券搭配，那篇文章确实引发了相当多的讨论。"
+    },
+    {
+      "i": 121,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "39:32",
+      "en": "So what you find with the most important variable that affects Trend performance is actually inflation. And it plays most with commodities and it plays most with bond. With bond. It's actually an easier story to understand. If inflation starts rising, we tend to see rates rising.",
+      "zh": "你会发现，影响趋势表现最重要的变量其实是通胀。它对商品和债券的影响最大。就债券而言，这个故事其实更容易理解：如果通胀开始上升，我们往往会看到利率上升。"
+    },
+    {
+      "i": 122,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "40:01",
+      "en": "And what you find is that initially bonds will perform poorly. Exactly for the same reason that we discussed. There are second responders. But if we see sustained rise in yields, eventually bonds will offer great convexity. Okay.",
+      "zh": "你会发现，一开始债券表现会很差，原因正是我们讨论过的：它们是第二响应者。但如果我们看到收益率持续上升，最终债券会提供很好的凸性。"
+    },
+    {
+      "i": 123,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "40:18",
+      "en": "In terms of, in terms of commodities it's actually very, it's. It's more interesting because it, it commodities in many ways is inflation. Right. The prices of commodities is the feeder to AI, the feeder to all industrial production.",
+      "zh": "至于商品，其实更有意思，因为在很多意义上商品就是通胀，对吧。商品价格是 AI 的投入，也是所有工业生产的投入。"
+    },
+    {
+      "i": 124,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "40:40",
+      "en": "And you get, if you get, if you get sort of high industrial product production, you are going to get a lot of demand to industrial commodities. You're going to get a lot of demand to energy futures and you're going to start seeing a rise in there. And that will actually be very supportive to trend.",
+      "zh": "如果工业生产很高，你就会看到对工业商品的巨大需求，对能源期货的巨大需求，你会开始看到它们上涨。这其实对趋势策略非常有利。"
+    },
+    {
+      "i": 125,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "41:03",
+      "en": "But inflation is actually the primary driver in terms of conditioning on commodity trend. And what you find is that they actually almost a mirror image of the way that long bonds exposure behave. So if you're a long bond and inflation is rising then or inflation is high, bonds tend to perform very poorly.",
+      "zh": "但通胀才是决定商品趋势表现的首要驱动因素。你会发现，它几乎与债券多头敞口的行为呈镜像关系。所以如果你是债券多头，而通胀在上升或者通胀很高，债券往往表现很差；"
+    },
+    {
+      "i": 126,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "41:26",
+      "en": "But commodity trend is exactly the time when commodity trend really shines. And the reason for that is because commodity has a positive convexity to inflation because it's one of the biggest drivers for commodities performance.",
+      "zh": "但那恰恰是商品趋势真正闪耀的时候。原因在于商品对通胀有正凸性，因为通胀是商品表现最大的驱动因素之一。"
+    },
+    {
+      "i": 127,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "41:42",
+      "en": "Conversely, if inflation is really low and the economy is doing very well, then what you get to see is that bonds will do wonderfully",
+      "zh": "反过来，如果通胀非常低而经济非常好，你会看到债券表现极佳，"
+    },
+    {
+      "i": 128,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "41:55",
+      "en": "but commodity trend will tend to underperform. So the, the combination of commodities and bonds actually creates almost like A, an inflation plus 4% portfolio. So if you're looking for a defensive portfolio which is like you know, a lot of the, a lot of the public pension funds or the",
+      "zh": "而商品趋势往往表现不佳。所以商品与债券的组合，几乎创造了一个通胀加 4% 的组合。如果你在寻找一个防御性组合——很多公共养老基金或者"
+    },
+    {
+      "i": 129,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "42:15",
+      "en": "actually sovereign wealth funds have a target of inflation plus and bonds plus commodity trends are actually very good as a. To create that sort of all weather inflation plus 4% sort of portfolio. Equities are a growth game. So what you see is when inflation is going down or inflation",
+      "zh": "主权财富基金的目标都是通胀加——债券加商品趋势其实非常适合创造那种全天候的通胀加 4% 组合。股票则是一个增长游戏。你会看到，当通胀下行或者通胀"
+    },
+    {
+      "i": 130,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "42:40",
+      "en": "is low, equity will more than give you will have a very will give you inflation plus 10 or 12%. Right. So during benign economic conditions, equity seems to be able to give you not just inflation but also a great amount of growth. And it goes like you know, 1012, that's really great.",
+      "zh": "很低时，股票不仅能给你通胀，还能给你通胀加 10% 或 12%。所以在经济环境温和的时候，股票似乎不仅能给你通胀，还能给你大量的增长，10%、12%，那真的很棒。"
+    },
+    {
+      "i": 131,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "43:04",
+      "en": "But when you think about, but when you think at a high inflation environment, equities are kind of barely are still able to give you inflation, but they're not going to give you the inflation plus. So that's kind of why I think about equities as a growth portfolio. It's inflation plus something which varies with growth.",
+      "zh": "但如果你想到高通胀环境，股票基本只能勉强给你通胀，给不了通胀加。这就是为什么我把股票看作一个增长组合：它是通胀加上某个随增长而变化的东西。"
+    },
+    {
+      "i": 132,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "43:24",
+      "en": "Whereas a bond plus commodity trend give you essentially inflation plus a constant number. So these are the two things that kind of are the building blocks for I think for, for, for people who want to build an all weather portfolio. So that's the paper, that's the paper that we wrote in, in I",
+      "zh": "而债券加商品趋势给你的本质上是通胀加上一个常数。所以我认为，这两样东西就是想要构建全天候组合的人的基本构件。这就是我们在——我想是"
+    },
+    {
+      "i": 133,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "43:41",
+      "en": "think it was January, me and Adam pedal and a lot of the clients came back into us and talked about stagflation. Right. And they said okay, what, what happens, what happens in industrial production? What happens if the economy actually starts tanking? And that's, and that's a real concern right?",
+      "zh": "1 月——我和 Adam 写的那篇论文。之后很多客户回来找我们谈滞胀。他们会问：好，那工业生产会怎么样？如果经济真的开始崩，会怎么样？这是一个实实在在的担忧，对吧？"
+    },
+    {
+      "i": 134,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "43:59",
+      "en": "Because we, if we start seeing problem in financing the capex that we are seeing in equities, stagflation might be an issue. By the way, the AI that may not play out. Right. I'm not going to, I'm not going to like it could be that we are going to see. I'm personally quite bullish on the. I think what we've seen so far is infrastructure.",
+      "zh": "因为如果我们开始看到股票里那些资本开支（capex）的融资出现问题，滞胀可能就会成为一个问题。顺便说一句，AI 也未必能兑现。我不会说……可能会出现这种情况。我个人对 AI 相当乐观。我认为我们目前看到的是基础设施。"
+    },
+    {
+      "i": 135,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "44:26",
+      "en": "I don't think about the hyperscalers as like AI the AI bet. I think what they're doing is they're laying the pipeworks, they're laying the cables. You know that in the dot com bubble you just had to put a lot of capex in order just to set up the Internet infrastructure. By the way, they are not the beneficiary of that boom.",
+      "zh": "我并不把超大规模云厂商（hyperscalers）看作 AI 押注本身。我认为它们做的是在铺管道、铺电缆。你知道在互联网泡沫时期，你必须投入大量资本开支才能建立起互联网基础设施。顺便说一句，那些铺管道的人并不是那轮繁荣的受益者。"
+    },
+    {
+      "i": 136,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "44:48",
+      "en": "So the people that benefited most were actually Google and Amazon and Facebook that built cash rich low capex businesses on top of those pipelines. It's the people who laid the pipelines didn't actually make that much money. Okay. What we're seeing now is we're seeing the, we're seeing the beginning of the, the revolution in my mind.",
+      "zh": "受益最多的其实是 Google、Amazon 和 Facebook，它们在这些管道之上建立了现金充裕、低资本开支的业务。铺管道的人其实没赚到那么多钱。而我们现在看到的，在我看来，是这场革命的开端。"
+    },
+    {
+      "i": 137,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "45:10",
+      "en": "So we are seeing all of these hyperscalers actually turning into infrastructure companies. They are laying the pipes, they are laying the cables to build the, the basic unit which is called an LLM or an AI. And what you do with it right now we haven't even begun to investigate what we can do with it.",
+      "zh": "我们看到所有这些超大规模云厂商其实正在变成基础设施公司。它们在铺管道、铺电缆，去构建那个被称为大语言模型（LLM）或 AI 的基本单元。至于你能拿它做什么——我们现在甚至还没有开始探索。"
+    },
+    {
+      "i": 138,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "45:28",
+      "en": "So I'm actually very bullish on AI but we are like, I think we haven't even started to see the benefit in the sort of the people, the software, the low capex companies which are just consuming AI and really improving. We haven't, I don't even know how it's going to play out, but I'm much more excited about those type of companies.",
+      "zh": "所以我其实对 AI 非常乐观，但我认为我们甚至还没有开始看到那些软件公司、低资本开支公司的收益——它们只是在使用 AI 并真正改进自己。我甚至不知道它会怎么演变，但我对这类公司更加兴奋。"
+    },
+    {
+      "i": 139,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "45:53",
+      "en": "I'm excited by the way on like the industrial commodities on the bottom and I'm excited by, to see what sort of applications we're going to see later on.",
+      "zh": "顺便说一句，我对底层的工业商品也很兴奋，也很期待看到以后会出现什么样的应用。"
+    },
+    {
+      "i": 140,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "46:05",
+      "en": "But you know, people are rightly concerned that, you know, just like the dot com bubble, we might need to go through an adjustment where we see a collapse in valuation and then the real economy will kick in and the real applications of the Internet or the real at the time will start kicking in and the real application",
+      "zh": "但人们的担心是有道理的：就像互联网泡沫一样，我们可能需要经历一次调整，看到估值崩塌，然后实体经济开始起作用，互联网真正的应用在当时开始显现，而 AI 真正的应用"
+    },
+    {
+      "i": 141,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "46:28",
+      "en": "in AI will start kicking in as well. So that's kind of my worldview. But clients were kind of worried about it and they said okay, what about industrial production? And we looked it at the time and it's really interesting. That trend doesn't seem to be in my mind Trond didn't seem to be particularly affected by industrial production.",
+      "zh": "也会开始显现。这大致就是我的世界观。但客户对此有些担心，他们问：那工业生产呢？我们当时研究了一下，非常有意思：在我看来，趋势策略似乎并不特别受工业生产影响。"
+    },
+    {
+      "i": 142,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "46:54",
+      "en": "The most significant impact, which is not surprising is exactly what we just discussed is that if we look at industrial commodities, if we look at energy commodities, they do well when industrial production is up. I mean that's, that's like. Sure,. Yeah, you know, it makes perfect sense. And actually it's nothing to do with inflation.",
+      "zh": "最显著的影响——这一点也不意外——正是我们刚才讨论的：如果看工业商品、看能源商品，它们在工业生产上升时表现良好。我的意思是，这……——当然。——是的，这完全说得通。而且这其实与通胀无关。"
+    },
+    {
+      "i": 143,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "47:13",
+      "en": "You know, independently of inflation, industrial production is up, is very supportive of commodities and, and in general. And by the way, we're seeing industrial production in the US up as well. So you know, it's not, it's not, it's not all doom and gloom. I think it's like 1.6 at the moment.",
+      "zh": "与通胀无关，工业生产上升对商品非常有支撑，总体来说是这样。顺便说一句，我们也看到美国的工业生产在上升。所以并不是一味悲观，我想目前是 1.6% 左右。"
+    },
+    {
+      "i": 144,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "47:31",
+      "en": "Capacity utilization is up. I'm kind of excited by that.",
+      "zh": "产能利用率也在上升。这让我有点兴奋。"
+    },
+    {
+      "i": 145,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "47:36",
+      "en": "So it's not, it's not all doom and gloom on the industrial production side. But we didn't find anything to do with trend that was significant. And, and that's why I was quite excited. There was a paper came in October by our friends in. In man that was a, a guy called Panashi. I hope I pronounce it correct. Panashi Bera. Yeah. Is the.",
+      "zh": "所以在工业生产这一侧并不是一片悲观。但我们没有发现与趋势策略相关的显著结论，这也是为什么我相当兴奋。10 月有一篇论文，来自我们在 Man 的朋友，作者是一位叫 Panashi 的人——希望我念对了——Panashi Bera。——嗯。——是那位"
+    },
+    {
+      "i": 146,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "48:00",
+      "en": "And and you, I think a new strategist. Economy chief economist, I think, or chief strategies. Christina Hooper and Carnavi, who I have tremendous amount of respect to, really writes incredible papers and man wrote a paper with Otto Van Helmet a couple of years back. I think it was 2022 about inflation, the best time for inflation.",
+      "zh": "而且，我想是位新来的策略师，首席经济学家，或者是首席策略师，Christina Hooper 和 Carnavi，我非常敬佩他们，他们真的能写出很出色的论文。Man 几年前还和 Otto van Hemert 一起写过一篇论文，我想是 2022 年，关于通胀，讲的是通胀的最佳时机。"
+    },
+    {
+      "i": 147,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "48:25",
+      "en": "And I suspect they've been struggling with industrial production as well. Well, so, so they kind of, they probably said, okay, what happens when you try to marry industrial production with inflation? And they divided the, the data set. They go actually further back. They go all the way back to about 115 years.",
+      "zh": "我猜他们也在工业生产这个问题上纠结过。所以他们大概会说：好，当你试图把工业生产和通胀结合在一起时会发生什么？他们把数据集做了划分。他们其实回溯得更远，一直回溯到大约 115 年前。"
+    },
+    {
+      "i": 148,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "48:46",
+      "en": "And, and they say, okay, can we, can we divide the history and see which, which systematic strategy does better over periods of stagflation, over periods of an inflation runaway, overheating and you know, the rest.",
+      "zh": "他们说：好，我们能不能把历史划分开，看看哪些系统化策略在滞胀时期、在通胀失控时期、在经济过热时期以及其他时期表现更好。"
+    },
+    {
+      "i": 149,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "49:07",
+      "en": "So that's kind of the paper. It just came up in October and I've got to say I'm, I'm not actually subscribing too much to what they came up. I mean even if you look at the, what the data. I don't think I agree with the data. I'm not sure I agree with the conclusions. Let's put this way.",
+      "zh": "那篇论文大致就是这样，10 月刚出来。我得说，我其实并不太认同他们得出的东西。即使看数据本身——我不认为我同意这些数据，我也不确定我同意那些结论。这么说吧。"
+    },
+    {
+      "i": 150,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "49:28",
+      "en": "So, so, so what they do is they cut the, the history interest. If you look at the high inflation periods, that gives you about 30% of the history. So let's say from 100 years we got down to 30 years. And then they kind of divided based based on stagflation overheating, based on the change in industrial production.",
+      "zh": "他们做的是把历史切分。如果你看高通胀时期，那大约占历史的 30%，也就是说从 100 年降到 30 年。然后他们再根据滞胀、过热，根据工业生产的变化来划分。"
+    },
+    {
+      "i": 151,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "49:45",
+      "en": "And that kind of divides you into 15%, 15 to 15, 15 year periods roughly. Okay. And then they try to look not just at trend by the way they look at, they look at equity factors. So you know, quality versus junk. Yeah, sort of, sort of the, the bar factors or the. Okay. And I'm not, I wasn't overwhelmed that there was actually",
+      "zh": "这样大致把你分成 15%、大约 15 年一段的时期。然后他们不只研究趋势策略，还研究了股票因子，比如优质股对垃圾股。——嗯，就是那些 Barra 因子之类的。——好。而我并不觉得实际上有"
+    },
+    {
+      "i": 152,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "50:17",
+      "en": "any difference between the stagflation and the overheating. The, the main. In terms of the results or what. In terms of like how it's played historically. I mean, if you look at the, the various, you know, large, big, minor, small, whatever, all of these, all of these equity factors",
+      "zh": "什么明显的差别，滞胀和过热之间并没有。——主要体现在结果上，还是什么？——主要体现在历史上的实际表现。如果你看各种因子——大盘、小盘等等——所有这些股票因子，"
+    },
+    {
+      "i": 153,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "50:33",
+      "en": "with the possible express exception of the betting against beta, which is actually a very different factor from the, the rest the of of them. It's not about equity selection, it's about betting against beta is actually a diversification argument. With the exception of that pretty much they all performed pretty",
+      "zh": "也许唯一的例外是做空贝塔（betting against beta）因子，它其实和其余因子非常不同：它不是选股，做空贝塔实际上是一个分散化的论点。除此之外，它们的表现都相当"
+    },
+    {
+      "i": 154,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "50:50",
+      "en": "similarly as far as I can tell, between. It would have been nice if they put some error bars on that because then, then you'll see actually there's very little there. They come up with the same observation that commodities, and in particular industrial and energy commodities do very well in",
+      "zh": "相似，据我判断。如果他们能加上一些误差棒就好了，因为那样你会看到其实几乎没什么差别。他们得出的观察也一样：大宗商品，特别是工业和能源商品，在经济过热时表现很好，"
+    },
+    {
+      "i": 155,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "51:07",
+      "en": "overheating. So they do well in inflationary and in stagflationary periods. No,. No, no, no, no, no. When you look at, if you see a stagflation. Yeah. Then industrial commodities are not doing well. So. Okay,. Of course, yeah,. Yeah. Commodity trend does wonderfully because okay,. It's. Got convexity to industrial production.",
+      "zh": "所以它们在通胀期和滞胀期都表现不错。——不不不不不，如果你看到的是滞胀。——嗯。——那么工业商品并不会表现好。——好的，当然。——是的，但商品趋势表现极好，因为它对工业生产有凸性。"
+    },
+    {
+      "i": 156,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "51:27",
+      "en": "So commodity trend does very well either in stockflation or in other hitting okay, as long as there's good inflation, it's. Yeah, it's happy. Right.",
+      "zh": "所以商品趋势无论是在滞胀还是在过热环境中都表现很好，只要有不错的通胀，它就很开心。——对。"
+    },
+    {
+      "i": 157,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "51:40",
+      "en": "I guess in a stagflationary environment. You know, historically they've generally been energy crises. So presumably,. Yes,. Energy prices go up, but metals, industrial commodities don't do as well. Is that the kind of how it has played out? I think as you go historically, I mean there's a lot",
+      "zh": "我想在滞胀环境中，历史上通常都是能源危机。所以想必……——是的。——能源价格上涨，但金属、工业商品表现没那么好。历史上大致是这样演绎的吗？——我认为，如果你回到历史上，那里面有大量"
+    },
+    {
+      "i": 158,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "51:58",
+      "en": "of data management that you need to be very careful about when you go back historically. I'll just give you an example. So you know, you have the, you have the energy crisis to which really towards the late of the, actually the, the late 70s is kind of a very interesting period that, that really affects quite a",
+      "zh": "数据管理的问题，回到历史数据时你必须非常小心。我举个例子：你知道有能源危机，其实到 70 年代末是一个非常有趣的时期，它确实对数据影响很大，"
+    },
+    {
+      "i": 159,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "52:22",
+      "en": "lot because you see a huge rise in yields. And following the Bretton Wood collapse, what you see is, is, is a period where there's like huge trends and you see yields going up, you see gold, you see effects. There's a lot of, there's a lot. That period is actually very, very difficult, very difficult from,",
+      "zh": "因为你会看到收益率大幅上升。在布雷顿森林体系（Bretton Woods）崩溃之后，你会看到一个充满巨大趋势的时期：收益率上行、黄金、外汇都有行情，内容非常多。那个时期其实非常非常难以"
+    },
+    {
+      "i": 160,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "52:45",
+      "en": "to include in a sort of stationary analysis because it tend to affect the data. If you go back, of course, the World War II, World War I will also tend to affect your data a little bit. Let's put it this way. Sure. And, and, and in terms of the amount of data that you have, right.",
+      "zh": "纳入某种平稳性分析，因为它往往会影响数据。如果再往前推，当然二战、一战也会对你的数据产生一些影响。这么说吧。——当然。而且就你手上的数据量而言，"
+    },
+    {
+      "i": 161,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "52:59",
+      "en": "I mean commodities, commodity futures, you start seeing sort of in the 70s, a little bit earlier than that 60s. If you start looking at tips, then tips only started trading in 1997, I think. Yeah. So like extending it backwards, it's a bit, it's a bit, it's a bit dodgy, you know, it's, it's, it's kind of a difficult problem.",
+      "zh": "我是说大宗商品期货，你大概要到 70 年代才看得到，再早一点是 60 年代。如果你看 TIPS（通胀保值债券），我想 TIPS 是 1997 年才开始交易的。——是的。——所以往前延伸数据有点靠不住，这是个挺难的问题。"
+    },
+    {
+      "i": 162,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "53:25",
+      "en": "There's a lot of data on, you have to be very careful about how you extend the data backwards. I know because I've gone through that process as well.",
+      "zh": "有大量数据，你必须非常小心地决定如何把数据向前延伸。我知道，因为我也经历过这个过程。"
+    },
+    {
+      "i": 163,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "53:37",
+      "en": "So the amount of, the conclusions that you can make are kind of reduced because although you might be thinking I'm doing 115 years of data, you don't actually have that. And even the economic publication of industrial production and inflation don't necessarily go back all that. Right. I can't remember when they started to get published.",
+      "zh": "所以你能得出的结论其实是打了折扣的，因为虽然你可能以为自己在用 115 年的数据，但你其实并没有那么多。甚至工业生产和通胀的官方经济数据也未必能回溯那么远。我记不清它们是什么时候开始发布的了。"
+    },
+    {
+      "i": 164,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "53:58",
+      "en": "So there's a lot of back fitting of the actual economic data that you're doing. So, so it's, it's, it's, it's complicated.",
+      "zh": "所以你在实际经济数据上做了大量的向后拟合。总之这很复杂。"
+    },
+    {
+      "i": 165,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "54:08",
+      "en": "So the reason why I can make the claim about industrial production and industrial commodities is because you don't actually need to condition on inflation. If you don't condition inflation, that sort of Behavior is consistent historically. Okay, so good industrial activity is good for industrial commodities. It's like, it's, it's a.",
+      "zh": "所以我之所以能对工业生产和工业商品下这个结论，是因为你其实不需要以通胀为条件。如果你不以通胀为条件，这种行为在历史上是一致的。也就是说，好的工业活动对工业商品有利。这就像……"
+    },
+    {
+      "i": 166,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "54:26",
+      "en": "And you can kind of understand what's happening, what's happening there with, with the, the rest, with the rest of the pack with the commodity, with the different types of trend.",
+      "zh": "你大致能理解在那里发生的事情，理解商品这一类、以及不同类型趋势策略中其余部分发生的情况。"
+    },
+    {
+      "i": 167,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "54:39",
+      "en": "I don't think that there is much in there. I don't think industrial productions are actually a big and bigger factor. And with, with the equity factors, again with the possible exception of, with the, of the betting against beta, I'm not sure that there's anything there. And then they go on and divide it to accelerating and accelerating,",
+      "zh": "我不认为那里有多少东西。我不认为工业生产真的是一个更大的因子。至于股票因子，同样除了做空贝塔这个可能的例外，我不确定那里有什么。然后他们还进一步划分出加速和"
+    },
+    {
+      "i": 168,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "55:02",
+      "en": "accelerating regimes which even divides the data even to smaller bits.",
+      "zh": "加速的状态，这把数据切得更碎了。"
+    },
+    {
+      "i": 169,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "55:07",
+      "en": "And I'm not sure, I'm not sure it's, it's. I'm not sure. I read what they read into becomes very unstable from like a T stat sort of statement to make T stat statements. So from your perspective, nothing conclusive? I would say, I would say the one thing that clients should be aware is that if we are actually going to see good industrial",
+      "zh": "我不确定，我不确定……我不确定。就我读到的，他们的解读从 T 统计量的角度来说变得非常不稳定。——那么在你看来，没有什么确定的结论？——我会说，客户应该注意的一点是：如果我们确实会看到良好的工业"
+    },
+    {
+      "i": 170,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "55:27",
+      "en": "production and we're going to see AI playing out, then you know, a portfolio of, you know, copper, other industrial productions, other particularly in AI energy futures are going to do wonderfully. Like it's a long only exposure.",
+      "zh": "生产，并且 AI 会兑现，那么一个由铜、其他工业商品，特别是与 AI 相关的能源期货构成的组合，将会表现出色。它就像是一个纯多头敞口。"
+    },
+    {
+      "i": 171,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "55:45",
+      "en": "Even if the AI doesn't, isn't going to play out and we're going to see stagflation, then commodity trend is going to do very well. Thank you very much.",
+      "zh": "即使 AI 不会兑现、我们会看到滞胀，商品趋势也会表现得非常好。——非常感谢。"
+    },
+    {
+      "i": 172,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "55:54",
+      "en": "So that's kind of the conclusion I can take out of this one.",
+      "zh": "所以这大概就是我能从这篇论文中得出的结论。"
+    },
+    {
+      "i": 173,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "56:02",
+      "en": "So you mentioned a bunch of different papers and blogs and issues that contribute to the kind of the overall selection and construction of your CTA portfolio. If you're like bringing that all together, what, what would you say? Oh, okay. So, so I actually have a table in front of me. Maybe I should put it afterwards, which is whatever.",
+      "zh": "你提到了一系列不同的论文、博客和议题，它们都有助于 CTA 组合的整体选择与构建。如果把这些整合在一起，你会怎么说？——好的。我面前其实有一张表格，也许我该事后放出来，反正都行。"
+    },
+    {
+      "i": 174,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "56:22",
+      "en": "So it's like it, it really depends again what you want out of your portfolio. So some clients just say okay, I want the CTA portfolio that I can live with. You know, CTAs are difficult, difficult to live with. You go down the stairs, you come up the elevators, you might have three years with no performance.",
+      "zh": "这真的又取决于你想从组合中得到什么。有些客户就说：好，我想要一个我能忍受的 CTA 组合。要知道，CTA 很难与之共处：下跌像走楼梯，上涨像坐电梯，你可能三年都没有业绩。"
+    },
+    {
+      "i": 175,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "56:35",
+      "en": "Your IC will look at you, sorry, investment committee will look at you like an idiot. Why did you allocate to trend? So you kind of want to create a basket which you can live with.",
+      "zh": "你的投资委员会（IC）会像看傻子一样看着你：你为什么要配置趋势策略？所以你要构建一个自己能够忍受的篮子。"
+    },
+    {
+      "i": 176,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "56:45",
+      "en": "So you, you might want to say just I want high alpha CTA book. Okay. And for that it's actually very, very simple.",
+      "zh": "你可能会说：我只想要一个高阿尔法的 CTA 组合。对于这个目标，其实非常非常简单。"
+    },
+    {
+      "i": 177,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "56:56",
+      "en": "What you have is your basic ingredient which is kind of liquid. Let's liquid cta, you can get it very cheaply. You can get an, you can get a index replicator, you can get an etf, you can get something with a very low fee. It's all very exciting, okay? Balanced across all asset classes.",
+      "zh": "你的基础配料就是流动性 CTA，你可以非常便宜地买到：可以买指数复制产品，可以买 ETF，可以买费率很低的产品，都很不错，而且在所有资产类别之间是均衡的。"
+    },
+    {
+      "i": 178,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "57:14",
+      "en": "And then you think about what can I possibly add to my portfolio that will add value to me. So there's obviously alternative CTAs okay. And alt market CTAs. Let's assume they have the same sharpest as liquid CTAs and they have historically 70%, maybe 80% really depending on the CTA.",
+      "zh": "然后你就要想，我还能往组合里加什么来给自己增加价值。显然有另类 CTA（alternative CTA）、另类市场 CTA。假设它们的夏普比率与流动性 CTA 相同，而它们历史上的相关性是 70%，也许 80%，具体取决于哪只 CTA。"
+    },
+    {
+      "i": 179,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "57:38",
+      "en": "It's been going up as capacity has been constrained but somewhere between 70 and 80% correlation.",
+      "zh": "随着容量受限，这个相关性一直在上升，但大致在 70% 到 80% 之间。"
+    },
+    {
+      "i": 180,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "57:46",
+      "en": "What this tells you is that if you add let's say 50% allocation to an alternative CTA that will give you, that will take you from a shop of one to shop of 1.08 say it will give you maybe 8% increase on your shop. Okay, now let's look at fast trend. Okay, so what fast trend?",
+      "zh": "这告诉你的是，如果你加入比如说 50% 的另类 CTA 配置，它会把你的夏普比率从 1 提升到 1.08，也就是给你的夏普提高大约 8%。好，现在我们来看快速趋势。那么快速趋势呢？"
+    },
+    {
+      "i": 181,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "58:14",
+      "en": "A lot of fast trend program. There's the sttr, the, the SOC gen Short term trading index. And what you see is that from an alpha perspective it's actually not very conducive because historically they've had, they've really struggled because of that negative autocorrelation the",
+      "zh": "很多快速趋势项目，有 STTI，也就是 SocGen 短期交易指数（Short Term Trading Index）。你会看到，从阿尔法的角度看它其实不太有利，因为历史上它们一直很挣扎，原因是那种负自相关——"
+    },
+    {
+      "i": 182,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "58:33",
+      "en": "short term and they still have 50, 50, 60 correlation to, to liquid trend. So the, the, they're actually sort of negatively additive from a. If you just want a standalone sharp, okay. Just based on historical. I mean of course, maybe you know, in the next year stti you're going to kick it, you know, kick it out of the field.",
+      "zh": "短期的负自相关，而它们与流动性趋势仍有 50%、60% 的相关性。所以从历史数据看，如果你只想要一个独立的夏普比率，它们其实是负贡献的。当然，也许明年 STTI 会把其他人远远甩开。"
+    },
+    {
+      "i": 183,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "59:01",
+      "en": "But I, but historically it's been very, it's a very, very tough space for them. And if you're looking just for a standalone sharp, it's very difficult.",
+      "zh": "但从历史上看，这对它们来说是非常非常艰难的领域。如果你只想要独立的夏普比率，那很难。"
+    },
+    {
+      "i": 184,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "59:10",
+      "en": "Then you have like speciality cta. So you might want to have spread cta. So you know, our friends Moritz and Moritz have got a lot of exposure there. So shout out to them. They will have very low reasonably local relation to trend. And you might want to add that you're going to have commodity trend, so asset specific.",
+      "zh": "然后还有专门型 CTA。你可能想要价差 CTA（spread CTA），我们的朋友 Moritz 在那块有很多敞口，向他们致意。它们与趋势策略的相关性相当低。你可能想加上这个；你还会用到商品趋势，也就是特定资产类别的趋势。"
+    },
+    {
+      "i": 185,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "59:30",
+      "en": "So what you find with asset class specific is that equity trend is going to be very highly correlated to your CTA and bond trend will be very highly correlated to cta. And the reason for that is because the risk factors that they are trending, they are trading are necessarily that growth factor,",
+      "zh": "你会发现，在特定资产类别里，股票趋势与你的 CTA 高度相关，债券趋势也与 CTA 高度相关。原因是它们在跟踪、在交易的风险因子，必然就是那个增长因子，"
+    },
+    {
+      "i": 186,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "59:47",
+      "en": "that trend in growth, you know, macro trend, big factor that all CTAs tend to over allocate to the one asset class that is very distinct because these are very distinct risk factors is exactly commodity trend. So commodity trend, if you look historically has only maybe 20, 30% correlation to, to liquid trend.",
+      "zh": "也就是增长中的趋势、宏观趋势这个大因子，所有 CTA 都倾向于超配它。而唯一非常独特的资产类别，因为它的风险因子非常独特，恰恰是商品趋势。所以历史上商品趋势与流动性趋势的相关性也许只有 20%、30%。"
+    },
+    {
+      "i": 187,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "60:15",
+      "en": "So if you add it, that will bump up your performance 30%. So you're going, going from say a liquid trend 60%, you're going to go to 80% to sorry, from a sharp of 0.6 to a sharp of 0.8. Okay. And that makes it a lot easier for you to live with. By the way, once you add commodity trend, it adds no value whatsoever. To add alternative trend.",
+      "zh": "所以如果你加上它，会把你的表现提升 30%。也就是说，从流动性趋势的 60% 到 80%——抱歉，是夏普比率从 0.6 到 0.8。这会让你更容易忍受。顺便说一句，一旦你加入了商品趋势，再加另类趋势就毫无价值了。"
+    },
+    {
+      "i": 188,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "60:37",
+      "en": "Like the additional sharp from alternative trend after you add commodity trend is like literally zero. Okay? So, so actually in terms of the. What you have is in order to add to your liquid allocation, alternative trend will add you a little bit. It will, it will be adding a little bit of diversification and",
+      "zh": "在加入商品趋势之后，另类趋势带来的额外夏普几乎是零。所以实际上，如果要给你的流动性配置做加法，另类趋势能给你加一点点，它会增加一点分散化，"
+    },
+    {
+      "i": 189,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "60:58",
+      "en": "maybe, maybe bump you up from 60 to 65 basis point.",
+      "zh": "也许能把你的夏普从 0.60 提到 0.65。"
+    },
+    {
+      "i": 190,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "61:04",
+      "en": "Commodity trend will add you to around 80 basis points. Spread trend will add you a little bit more as well. So that's kind of the way that you kind of want to think about it.",
+      "zh": "商品趋势能把你加到 0.80 左右，价差趋势还能再多加一点。所以这大致就是你该思考的方式。"
+    },
+    {
+      "i": 191,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "61:14",
+      "en": "But then you might say actually what I want is equity convexity or I want bond convexity. Okay? And there you kind of have to think about what you want. So commodity trend doesn't really add you any, any equity convergence convexity whatsoever. Okay, it will add commodity, commodity trend will add to bond convexity.",
+      "zh": "但接着你可能会说，其实我想要的是股票凸性或者债券凸性。那你就得想清楚自己要什么。商品趋势其实完全不能给你增加任何股票凸性；商品趋势会增加债券凸性，"
+    },
+    {
+      "i": 192,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "61:34",
+      "en": "But just as we discussed about bonds and commodity interaction, but very little equity convexity. You're not buying commodity trend for crisis alpha. The interesting thing actually that if you look at the analysis is that alternative trend doesn't add you equity convexity either.",
+      "zh": "但正如我们讨论过的债券与商品的相互作用那样，它的股票凸性非常少。你买商品趋势不是为了危机阿尔法。有意思的是，如果你看这个分析，另类趋势同样不会给你增加股票凸性。"
+    },
+    {
+      "i": 193,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "61:51",
+      "en": "So if you look at alt trend historically, I looked at pretty much all the usual suspects. You break it down essentially very little equity trend, very, very little equity convexity. And I think it's reasonable because what you find is that a lot of the allocation in alternative trend is already less in the equity space.",
+      "zh": "如果你看历史上的另类趋势，我几乎看了所有常见的产品，拆解下来基本上股票趋势很少，股票凸性非常非常少。我认为这很合理，因为你发现另类趋势的很多配置本来就不在股票领域。"
+    },
+    {
+      "i": 194,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "62:11",
+      "en": "And the reason for that is because when you look at the alternative markets, there is a little bit of credit and credit does have equity behind it, but it's very much focused in the interest rates swap market. It's very much in alternative commodities. So, so it kind of, it's, it's, it's a little bit, it's a little",
+      "zh": "原因是，如果你看另类市场，里面有一点信贷，而信贷背后确实有股票属性，但它主要集中在利率互换市场，也大量集中在另类商品上。所以它有点……"
+    },
+    {
+      "i": 195,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "62:27",
+      "en": "bit, it doesn't seem to, to, you know, the data doesn't, doesn't give you that much. It does give you again, some bond convexity. And that's kind of to be Expected again because a lot of interest rate swaps being traded and cash bonds and whatnot. Fast trend is very exciting because a lot of people want to buy",
+      "zh": "数据并没有给你那么多。它确实又能给你一些债券凸性，这也在意料之中，因为交易了大量利率互换、现券等等。快速趋势非常有意思，因为很多人想买"
+    },
+    {
+      "i": 196,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "62:46",
+      "en": "fast trend for added convexity. And I think the, what we talked about, about the exposure convexity comes to play here because what you see with fast trend is it comes out, it's, it's more of a first responder because the position will turn very quickly but long term. You remember what we talked about in terms of the, how much committed",
+      "zh": "快速趋势来增加凸性。我认为我们谈过的敞口凸性在这里就会起作用，因为你会看到快速趋势更像是第一响应者，它的仓位会转得很快。但长期来看——你还记得我们谈到过趋势的投入程度对"
+    },
+    {
+      "i": 197,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "63:13",
+      "en": "trend is the exposure, the exposure convexity that you get. It it gets like 2% instead of 3 and a half percent. It, it, it because fast trend is less. Because it, it manages the risk so much. It is less committed on average to the full trend. It doesn't go full latte. Like a really slow trend basically takes time to build a position",
+      "zh": "你所获得的敞口凸性的影响。它得到的是 2% 而不是 3.5%。因为快速趋势更少——它做了太多风险管理，平均而言对完整趋势的投入更少，它不会全仓压上。真正慢速的趋势基本上需要时间建仓，"
+    },
+    {
+      "i": 198,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "63:35",
+      "en": "but then is like I'm fully in, okay. But a fast trend is like I'm going to change my mind so often that in expectations I end up actually not having too much exposure. And this is by the way born out of if you look at the stti. So if you look at the short term trading index, if you look at",
+      "zh": "但一旦建好就是我全仓了。而快速趋势则是我会经常改变主意，以至于在预期意义上最终其实没有太多敞口。顺便说一句，这一点从 STTI 上也能得到印证。如果你看短期交易指数，看"
+    },
+    {
+      "i": 199,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "63:51",
+      "en": "the one month, one month crisis and you do the analysis and you try to fit the convexity, you get fast trend giving twice as much convexity as a normal trend program.",
+      "zh": "一个月期的危机，做分析、试着拟合凸性，你会发现快速趋势给出的凸性是普通趋势项目的两倍。"
+    },
+    {
+      "i": 200,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "64:02",
+      "en": "But if you look at quarterly crisis in equity, fast trend is already the same as a normal trend exposure. So it really depends. If you want to protect yourself against very sharp shocks like one month in, then fast trend will give you that little bit of extra. But actually from a long term perspective like quarterly drawdowns,",
+      "zh": "但如果你看股票一个季度级别的危机，快速趋势的敞口就已经和普通趋势一样了。所以这真的要看情况。如果你想防范像一个月内那种急剧冲击，快速趋势会给你额外的那么一点点。但从长期角度看，比如季度级回撤、"
+    },
+    {
+      "i": 201,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "64:28",
+      "en": "you know, yearly drawdowns which, you know, a stagflation environment, fast trend isn't actually the one is going to give you the, the most convexity for your money because it only gives you like 30% percent commitment rather than 60% commitment that that slow trend gives you. So that's, that's kind of the, the convexity argument.",
+      "zh": "年度级回撤，也就是滞胀环境，快速趋势其实并不是能给你最多凸性的那个，因为它只给你大约 30% 的投入，而慢速趋势给你 60%。这大概就是凸性方面的论证。"
+    },
+    {
+      "i": 202,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "64:48",
+      "en": "Now if you want bond convexity then you should go to bond trend. There's like, that's like that's kind of an easy, an easy and easy manager. You know, you get a little bit from commodity trend, you get a little bit from Altrand, but actually from a capacity from. So from capital efficiency point of view, like there's no nothing",
+      "zh": "如果你想要债券凸性，那就应该选债券趋势。这个选择很简单。你从商品趋势能得到一点，从另类趋势能得到一点，但从容量、从资本效率的角度看，没有什么"
+    },
+    {
+      "i": 203,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "65:06",
+      "en": "to compare to it. Like nothing compares to this. So that's kind of the, the business. So if you want additive alpha, you basically just want commodity trend. If you want equity convexity then you kind of, it's very difficult in general. Bond trend will give you a little bit of first responder exposure.",
+      "zh": "能与之相比，真的没有。所以这就是要点：如果你想要额外的阿尔法，你基本上就该选商品趋势；如果你想要股票凸性，那总体上很难。债券趋势会给你一点第一响应者的敞口，"
+    },
+    {
+      "i": 204,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "65:24",
+      "en": "Equity trend, you'll just have to buy a lot of it fast trend is not going to give you as much as you like unless you really are very focused on very short term, short term crisis. I guess what you're saying is obviously, and I mean this comes back to a theme that we touched on a lot when we did the full series back in 2023.",
+      "zh": "股票趋势你就只能买很多，而快速趋势不会给你想要的那么多，除非你真的非常关注极短期的危机。——我想你说的显然是……这又回到了我们 2023 年做整个系列时反复触及的一个主题。"
+    },
+    {
+      "i": 205,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "65:45",
+      "en": "We're talking to all of the CTAs, you know, in terms of what is your objective with a CTA portfolio? Is it absolute return which you would, I suppose you're talking about alpha or is it absolute return plus crisis alpha? Are more crisis alpha oriented? I guess what you're saying is how you think about all of that not",
+      "zh": "当时我们和所有 CTA 管理人谈的是：你配置 CTA 组合的目标是什么？是绝对收益——我想你说的是阿尔法——还是绝对收益加上危机阿尔法？还是更偏向危机阿尔法？我想你说的是，你如何看待这一切，不仅"
+    },
+    {
+      "i": 206,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "66:07",
+      "en": "only determines how much or maybe it should drive the nature of your CTA exposure. And obviously you can get that if you are building a CTA or else I guess in terms of manager selection as well. Now there was another paper we were going to talk on that but I don't think we're going to have time to, to delve into that unfortunately.",
+      "zh": "决定了配多少，也许它更应该决定你 CTA 敞口的性质。显然，如果你自己构建 CTA 就能得到这一点，或者我想在管理人选择上也是如此。本来还有一篇论文我们打算谈，但可惜我想我们没有时间深入了。"
+    },
+    {
+      "i": 207,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "66:29",
+      "en": "But maybe that's best left for, for another episode. But is it fair to say that's the natural extension of your analysis? So I think, I think there's, there's a wonderful paper. I mean we're not going to talk about it but the quantical recent paper about, about Being Paid to Play which was part of the Quarterly",
+      "zh": "也许最好留到另一期节目。不过，可以说那是你分析的自然延伸吗？——我觉得有一篇很棒的论文，虽然我们不会展开讲，就是 Quantica 最近那篇关于 Being Paid to Play 的文章，它属于 Quarterly"
+    },
+    {
+      "i": 208,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "66:51",
+      "en": "Insight and what they're talking about is, is, is not actually what they, they take a different angle. But I think what is important to understand is that the way that people tend to invest what they've observed that the way that people tend to invest in trend following is basically trend following trend following.",
+      "zh": "Insight 系列。他们谈的角度其实和我们要谈的不一样。但我认为重要的是要理解，他们观察到人们投资趋势跟踪的方式，基本上就是在对趋势跟踪做趋势跟踪。"
+    },
+    {
+      "i": 209,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "67:08",
+      "en": "So they, they look at our performance and, and the flows that we see in the ETF and in the, in the mutual funds, they reflect very much a trend following behavior by the way with the Same sort of 60% slow trend, 60% exposure to Delta to, to trend following. And I, I think it's, it, it's very destructive from an investor's perspective.",
+      "zh": "他们看我们的业绩，看我们在 ETF 和共同基金里看到的资金流，这些都反映了一种非常明显的趋势跟踪行为，而且同样是那种 60% 慢速趋势、对趋势跟踪有 60% 的 Delta 敞口。我认为从投资者的角度看，这非常具有破坏性。"
+    },
+    {
+      "i": 210,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "67:38",
+      "en": "If the investor just have one manager and he will and, and the allocator is going to change his mind and he's going to try and follow that trend follower. I think what the quantica paper demonstrated is actually how poor destructive, how destructive it is. Right. Yeah. And I think what is important is what I wanted to talk about is",
+      "zh": "如果投资者只有一位管理人，而配置者会改变主意、会试图去跟随这个趋势跟踪者。我认为 Quantica 那篇论文展示的正是这种做法有多具破坏性。——对。——我认为重要的是，我本来想谈的是"
+    },
+    {
+      "i": 211,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "67:59",
+      "en": "like how many managers you want to have. But I suspect in order to alleviate that risk from your perspective, because if you know that you're going to try and follow performance, you can accept it, but then say, okay, let's try and create something which is more stable across managers. But we don't have time.",
+      "zh": "你想持有多少位管理人。但我猜，为了从你的角度缓解这种风险——因为如果你知道自己会去追逐业绩，你可以接受这一点，然后说：好，那我们试着构建一个在各管理人之间更稳定的东西。但我们没有时间了。"
+    },
+    {
+      "i": 212,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "68:15",
+      "en": "So I think that will wait for a different for. Another. Day. Another day. Okay. Well, good stuff. Well, good to chat to you. I mean, if people want to see your table and delve into that analysis a bit more, there are blogs that you've written under you find them on LinkedIn. So if people want to delve into them in a bit more detail and",
+      "zh": "所以我想这个话题要留到改天了。——改天吧。——好，内容很棒，很高兴和你聊。如果读者想看你的表格、更深入地研究那个分析，你写过一些博客，可以在 LinkedIn 上找到。如果大家想更详细地了解，"
+    },
+    {
+      "i": 213,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "68:36",
+      "en": "I'm sure you would welcome any feedback as well. So they're on LinkedIn LinkedIn for people to access. So next week Niels is back here. So if you have any questions, feel free to send them in for Niels. And yeah, from all of us here at Top Traders Unplugged, thanks for tuning in. We'll be back again soon with more content.",
+      "zh": "我相信你也会欢迎任何反馈。这些内容都在 LinkedIn 上供大家查阅。下周 Niels 就回来了，所以如果你们有任何问题，欢迎发给 Niels。我们 Top Traders Unplugged 全体感谢大家的收听，我们很快会带着更多内容回来。"
+    },
+    {
+      "i": 214,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "69:02",
+      "en": "Thanks for listening to Top Traders Unplugged. If you feel you learned something of that value from today's episode, the best way to stay updated is to go on over to your favorite podcast platform and follow the show so that you'll be sure to get all the new episodes as they're released.",
+      "zh": "感谢收听 Top Traders Unplugged。如果你觉得今天这期节目让你学到了有价值的东西，保持更新的最好方式就是去你喜欢的播客平台关注本节目，这样你就能在新剧集发布时第一时间收到。"
+    },
+    {
+      "i": 215,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "69:16",
+      "en": "We have some amazing guests lined up for you and to ensure our show continues to grow, please leave us an honest rating and review. It only takes a minute and it's the best way to show us you love the podcast. We'll see you next time on Top Traders Unplugged. This podcast expresses the views of its host, hosts, and the",
+      "zh": "我们已经为你准备了一些非常出色的嘉宾。为了确保节目继续成长，请留下你真实的评分和评论。这只需一分钟，也是向我们表达你喜爱这档播客最好的方式。我们下期 Top Traders Unplugged 再见。本播客表达的是主持人及"
+    },
+    {
+      "i": 216,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "69:33",
+      "en": "guests appearing on the podcast as of the date of its recording, and such views are subject to change without notice. Top Traders Unplugged do not have any duty or obligation to update the information contained herein. Furthermore, Top Traders Unplugged make no representation",
+      "zh": "节目中出场嘉宾在录制当日的观点，此类观点可能在不另行通知的情况下发生变化。Top Traders Unplugged 没有义务更新此处包含的信息。此外，Top Traders Unplugged 不对"
+    },
+    {
+      "i": 217,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "69:43",
+      "en": "to its accuracy and it shall not be assumed that past investment performance is an indication of future results. Moreover, wherever there is a potential for profit, there is also the possibility of loss. This content is made available for educational purposes only and should not be used for any other purpose.",
+      "zh": "其准确性作出任何陈述，也不应假定过往投资业绩可以预示未来结果。此外，凡有盈利可能之处，亦存在亏损的可能。本内容仅供教育目的使用，不应用于任何其他目的。"
+    },
+    {
+      "i": 218,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "69:56",
+      "en": "The information contained in this podcast does not constitute and should not be construed as investment advice or an offer to sell or a solicitation to buy any securities or related financial instruments in any jurisdiction. Certain information contained herein concerning economic trends",
+      "zh": "本播客所含信息不构成、也不应被解释为投资建议，或在任何司法辖区内出售任何证券或相关金融工具的要约或购买邀请。此处所含有关经济趋势"
+    },
+    {
+      "i": 219,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "70:09",
+      "en": "and performance is based on or derived from information provided by independent third party sources. Top Traders Unplugged may believe that the sources from which such information are obtained are reliable. However, Top Traders Unplugged cannot guarantee the accuracy of such information and has not independently verified the accuracy",
+      "zh": "和业绩的某些信息，基于或源自独立第三方来源提供的信息。Top Traders Unplugged 可能认为获取此类信息的来源是可靠的，但 Top Traders Unplugged 无法保证此类信息的准确性，也没有独立核实此类信息的准确性"
+    },
+    {
+      "i": 220,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "70:22",
+      "en": "or completeness of the such information or the assumptions on which such information is based. This podcast, including the information contained herein, may not be reproduced, copied, republished, or posted in whole or in part in any form, without the prior written consent of Top Traders Unplugged.",
+      "zh": "或完整性，也没有核实此类信息所依据的假设。未经 Top Traders Unplugged 事先书面同意，本播客（包括其中所含信息）不得以任何形式全部或部分复制、转载、重新发布或张贴。"
+    }
+  ]
+}

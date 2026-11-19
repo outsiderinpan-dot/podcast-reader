@@ -1,0 +1,1442 @@
+{
+  "show": "odd-lots",
+  "kind": "transcript",
+  "id": "350104269",
+  "guid": "4bf9cb81-2185-4513-8d9c-b5010173862f",
+  "slug": "2026-11-16-the-impossible-trilemma-that-hangs-over-350104269",
+  "date": "2026-11-16",
+  "title_en": "The Impossible Trilemma That Hangs Over the Nvidia Crisis",
+  "title_zh": "悬在 Nvidia 危机之上的「不可能的三难」",
+  "subtitle_zh": "Nvidia 市值跌破 4 万亿美元、Jensen Huang 出局：嘉宾 Tianyang 用「大炮、黄油、稳健货币」的不可能三元拆解 AI 融资马拉松。",
+  "summary_zh": "本集录制于 11 月 12 日，正值 Nvidia CEO Jensen Huang 因婚外情丑闻与间谍疑云出局。Joe Weisenthal 与 Tracy Alloway 请来 Variant Perception 的 CIO Tianyang，讨论危机背后的「不可能的三难」。他认为这只是「主权至上」大主题的插曲：中美对抗升级下，主权意味着能对对手说不，各国必须在科技、AI、粮食、能源上动员，并维持国内凝聚力。由此形成三元张力——大炮（军备与动员支出）不可谈判，黄油（福利支出）砍不动，最终让路的往往是稳健货币，类似 1960 年代 LBJ 时期：赤字扩张，1968 年伦敦黄金池破裂，1971 年布雷顿森林体系终结。他们还谈到金融抑制、资本管制、稳定币与 SLR 等工具，以及中国压制家庭消费的对照。市场层面，他指出 AI 融资是马拉松，但每次募资都是冲刺，Nvidia 的循环融资正是冲刺产物；Fed 加息与通胀回升使冲刺更难，若政府兜底，赢家将重新分配。黄金 2023 至 2025 年的涨势类似伦敦黄金池破裂的警示；生产率繁荣未必化解矛盾；长期看 AI 通缩，但地缘冲击是通胀性的。",
+  "description": "The Impossible Trilemma That Hangs Over the Nvidia Crisis",
+  "duration": "46:18",
+  "duration_seconds": 2778,
+  "episode_url": "https://www.iheart.com/podcast/1308-odd-lots-30972803/episode/the-impossible-trilemma-that-hangs-over-the-nvidia-crisis-350104269",
+  "audio_url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/8a94442e-5a74-4fa2-8b8d-ae27003a8d6b/4bf9cb81-2185-4513-8d9c-b5010173862f/audio.mp3?utm_source=Podcast&in_playlist=982f5071-765c-403d-969d-ae27003a8d83&source=iheart",
+  "speakers": {
+    "1": "Joe Weisenthal（主持）",
+    "2": "Tracy Alloway（主持）",
+    "3": "Tianyang（嘉宾）",
+    "4": "片花/广告（旁白）"
+  },
+  "turn_count": 177,
+  "turns": [
+    {
+      "i": 0,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "00:03",
+      "en": "Bloomberg Audio Studios. Podcasts. Radio. News. Hello and welcome to another episode of the Odd Lodge Podcast. I'm Joe Wiesenthal.",
+      "zh": "Bloomberg Audio Studios。播客。广播。新闻。大家好，欢迎收听新一期 Odd Lots 播客。我是 Joe Weisenthal。"
+    },
+    {
+      "i": 1,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "00:23",
+      "en": "And I'm Tracy Alloway.",
+      "zh": "我是 Tracy Alloway。"
+    },
+    {
+      "i": 2,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "00:24",
+      "en": "Tracy, we're recording this November 12th. And basically in the last hour, it is confirmed Jensen Wong out at NVIDIA. I know.",
+      "zh": "Tracy，我们这期是在 11 月 12 日录的。基本上就在过去这一个小时里，消息得到确认：Jensen Huang 离开了 Nvidia。我知道。"
+    },
+    {
+      "i": 3,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "00:33",
+      "en": "So we were both sat in the newsroom when the headlines came out and you could hear the sort of like uproar from all our colleagues. And we're like, what?",
+      "zh": "当时我们俩都坐在编辑部里，标题一出来，你能听到同事中爆发的那种惊呼。我们当时的反应是：什么？"
+    },
+    {
+      "i": 4,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "00:41",
+      "en": "We heard the ooze and azz before the alert popped up on our screens. But there are certain sounds when you're in a newsroom for a long time. You're like, oh, there must have been a headline that just dropped.",
+      "zh": "我们是先听到大家的'哇''啊'声，然后警报才在屏幕上弹出来。但在编辑部待久了，有些声音你一听到就知道：哦，肯定刚刚爆出了一条大新闻。"
+    },
+    {
+      "i": 5,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "00:51",
+      "en": "You know.",
+      "zh": "你懂的。"
+    },
+    {
+      "i": 6,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "00:51",
+      "en": "And then you infer not only like you can. Get good. It's like, oh, it's probably an NVIDIA related headline. Yeah.",
+      "zh": "然后你不只是能听出来，还能猜个八九不离十：哦，多半是一条跟 Nvidia 有关的标题。是啊。"
+    },
+    {
+      "i": 7,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "00:57",
+      "en": "And I mean, we've been talking about NVIDIA already because a lot of these, you know, rumors of scandal have been out there for a bit. But it's worth reiterating that we've described it previously as NVIDIA is the sun around which the whole AI ecosystem basically orbits.",
+      "zh": "我是说，我们一直在谈 Nvidia，因为关于各种丑闻的传闻已经流传一阵子了。但值得再强调一遍，我们之前把它形容成：Nvidia 就是整个 AI 生态系统围绕其运转的那颗太阳。"
+    },
+    {
+      "i": 8,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "01:14",
+      "en": "Right.",
+      "zh": "对。"
+    },
+    {
+      "i": 9,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "01:14",
+      "en": "Like not just through the chips themselves, but through the financings.",
+      "zh": "不只是通过芯片本身，还通过各种融资安排。"
+    },
+    {
+      "i": 10,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "01:17",
+      "en": "Totally.",
+      "zh": "完全同意。"
+    },
+    {
+      "i": 11,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "01:18",
+      "en": "The vendor deals, all of that. And so this is a huge moment for the market and also for geopolitics.",
+      "zh": "供应商协议，所有这些东西。所以这对市场、也对地缘政治来说都是一个重大时刻。"
+    },
+    {
+      "i": 12,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "01:23",
+      "en": "And geopolitics. And that's the key thing. It's a huge moment at every level.",
+      "zh": "还有地缘政治。这才是关键。它在每一个层面上都是重大时刻。"
+    },
+    {
+      "i": 13,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "01:28",
+      "en": "Yeah.",
+      "zh": "是啊。"
+    },
+    {
+      "i": 14,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "01:28",
+      "en": "Even if you just confined it to like, well, AI is a technology that exists. Then you say, OK, this is a really big moment. Then you say, well, it's not just that this is a big, important company in AI. It's an important financial player within the AI company. And AI itself has not just contained itself because it is a major economic driver and maybe arguably because there's so much AI spending to like build boxes in which you can put NVIDIA chips in that contributes to inflation and contributes to scarcity. And then it's a geopolitical story because everyone around the world wants AI technology, et cetera. And so there's this dual use element. where it's a little bit like building out technology, but it's also like a little bit about building out a weapon. And that's very strange. So like shades of arms races and so forth. So then to have the CEO at the center of it all, admit to having an affair with an important buyer, but then also for the U.S. apparently to believe that there was a national security, that there was a spy angle. just got it all. It's literally everything you could possibly think of. It really does.",
+      "zh": "哪怕你只把它局限在'AI 是一种已经存在的技术'这个层面，你也会说：好，这是个非常重大的时刻。接着你会说：不只是因为它在 AI 领域是一家重要公司，它还是 AI 公司内部一个重要的金融玩家。而 AI 本身也没有把自己局限住，因为它是一个主要的经济增长驱动力，而且大概可以说，正因为有这么多 AI 支出用于建造那些能装 Nvidia 芯片的'盒子'，它推高了通胀、也造成了稀缺。然后它又是一个地缘政治故事，因为全世界每个人都想要 AI 技术，等等。所以这里有一种军民两用的成分：它有点像在打造一项技术，但也有点像在打造一件武器。这非常奇怪。所以有军备竞赛的影子，等等。而在这种情况下，处在这一切中心的 CEO 承认与一位重要买家有婚外情，同时美国方面显然又认为这里面有国家安全问题、有间谍的成分——全都凑齐了。这简直是你所能想到的一切的集合。真的是这样。"
+    },
+    {
+      "i": 15,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "02:37",
+      "en": "And just on the geopolitics of it all, I mean, we've recorded episodes about what a U.S.-China war over Taiwan would possibly look like. When you read the way people game theory that scenario out, NVIDIA features really large, right? It's like, well, what would happen to the fabs in Taiwan? This is a physical asset that the world is extremely focused on.",
+      "zh": "单说这件事的地缘政治层面，我是说，我们做过节目讨论美国与中国因台湾开战可能会是什么样子。你去读人们怎么用博弈论推演那种情景，Nvidia 的戏份非常重，对吧？比如：台湾的晶圆厂会怎么样？这是一项全世界都极度关注的实体资产。"
+    },
+    {
+      "i": 16,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "03:01",
+      "en": "And the one other thing, you know, just speaking in context, is this all, you know, this is nine days after a huge election that happened. And the news that Jensen Wong was having an affair with the executive of Megaspeed had apparently been understood for quite a while. Almost certainly, you know, we'll figure out why it leaked now and hopefully we discover that, but probably not a coincidence that it happens right after the election and so forth. We know that there are divisions within the White House, for example, on things like chip export controls, etc., But it really just comes at an extraordinary time. We are still at war with Iran. We get headlines on.",
+      "zh": "还有一点，就当时的背景来说：这一切都发生在一场重大选举之后九天。而 Jensen Huang 与 Megaspeed 一位高管有婚外情的消息，显然已经被了解了相当长一段时间。几乎可以肯定——我们会弄清楚为什么现在才泄露，希望我们能查明白——但这大概不是巧合：它偏偏发生在选举刚结束之后，等等。我们知道，白宫内部在芯片出口管制等问题上存在分歧。但这件事确实发生在一个非同寻常的时点。我们仍在与伊朗交战。我们每天都能收到相关头条。"
+    },
+    {
+      "i": 17,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "03:45",
+      "en": "That every day.",
+      "zh": "每天都有。"
+    },
+    {
+      "i": 18,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "03:45",
+      "en": "I was going to say, the other thing we should mention, this headline has gotten buried in the Jensen news, but Donald Trump saying that he doesn't need a deal. With Iran, that moved oil higher as well. So you have all these different things going on at the same time.",
+      "zh": "我正想说，另一件我们应该提的事：这条头条被 Jensen 的新闻盖过去了，但 Donald Trump 说他不需要与伊朗达成协议，这也把油价推高了。所以你会看到所有这些不同的事情同时在发生。"
+    },
+    {
+      "i": 19,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "03:58",
+      "en": "So that contributes to the building inflationary pressure. We got a very hot CPI print this week that saw traders ratchet up their bets and more aggressive Fed hikes now. So there's just like so many different strains all kind of hitting at once. And granted, like, you know, the stock market itself is actually still fairly close to its all time highs. The AI trade specifically has got sort of hit, but by and large, you know, good year for the market, even as like all of these like pressure points are building up.",
+      "zh": "所以这又给不断累积的通胀压力添了一把火。我们这周拿到的 CPI 数据非常烫手，交易员因此加码押注 Fed 会更激进地加息。所以现在有太多不同的压力线同时袭来。而且说实话，股市本身其实仍然相当接近历史高点。AI 交易这一块确实受到了打击，但总体来看，今年市场表现不错，尽管所有这些压力点都在累积。"
+    },
+    {
+      "i": 20,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "04:29",
+      "en": "Right.",
+      "zh": "对。"
+    },
+    {
+      "i": 21,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "04:29",
+      "en": "And all of them are in tension with each other. I think that's the key thing.",
+      "zh": "而所有这些压力彼此之间都在相互拉扯。我觉得这才是关键。"
+    },
+    {
+      "i": 22,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "04:32",
+      "en": "This is the singularity.",
+      "zh": "这就是奇点（singularity）。"
+    },
+    {
+      "i": 23,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "04:33",
+      "en": "Yeah.",
+      "zh": "是啊。"
+    },
+    {
+      "i": 24,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "04:33",
+      "en": "This is actually what they meant when they talked about the singularity.",
+      "zh": "他们讲'奇点'的时候，其实指的就是这个。"
+    },
+    {
+      "i": 25,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "04:36",
+      "en": "That's right.",
+      "zh": "没错。"
+    },
+    {
+      "i": 26,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "04:37",
+      "en": "They actually meant like a bunch of stuff would all happen at the same time, all in tension with each other. It's all one single story.",
+      "zh": "他们真正的意思就是：一大堆事情会同时发生，而且彼此互相拉扯。这全都是同一个故事。"
+    },
+    {
+      "i": 27,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "04:43",
+      "en": "That's right.",
+      "zh": "没错。"
+    },
+    {
+      "i": 28,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "04:43",
+      "en": "Anyway. It's impossible to synthesize it all into one thing, but maybe we'll give it a try. We'll give it a try. I'm really excited to say you have the perfect guest, someone we've wanted to talk to for a while, interesting thinker on who could think at almost maybe all of the levels that we've hit. Tianyang, CIO, manager of the VPX Fund at Variant Perception, has written a lot about markets and also geopolitics and the stresses that are building markets. within the US and other Western democracies and so forth. So Tian, thank you so much for coming on Odd Lots.",
+      "zh": "总之，要把这一切综合成一件事是不可能的，但也许我们可以试一试。我们来试试。我非常高兴地说，我们请到了最完美的嘉宾，一位我们想聊很久的人，一位有意思的思想者，他几乎能在我们刚才提到的所有层面上思考。Variant Perception 的 CIO、VPX Fund 的基金经理 Tianyang，写过很多关于市场、也关于地缘政治，以及美国和其他西方民主国家内部正在累积的市场压力的东西。Tian，非常感谢你来 Odd Lots。"
+    },
+    {
+      "i": 29,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "05:17",
+      "en": "Yeah, thank you for having me.",
+      "zh": "谢谢你们的邀请。"
+    },
+    {
+      "i": 30,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "05:18",
+      "en": "What a week, huh?",
+      "zh": "这一周可真够劲爆的，是吧？"
+    },
+    {
+      "i": 31,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "05:20",
+      "en": "Couldn't have timed it any better.",
+      "zh": "时机再合适不过了。"
+    },
+    {
+      "i": 32,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "05:22",
+      "en": "Why? When you say, I mean, I agree. But when you think about the work that you do, like, I agree that we couldn't have timed it any better. But when you talk, when you think about the work that you do, talk to us how you see this Jensen Wong story sitting at the center of everything.",
+      "zh": "为什么这么说？我是说，我同意。但想想你做的那些研究——我同意我们挑不出更好的时机了。不过，站在你工作的角度，跟我们说说你怎么看 Jensen Huang 这件事处在一切的中心。"
+    },
+    {
+      "i": 33,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "05:38",
+      "en": "Yeah, so I would say this is an anecdote within a broader primacy of sovereignty theme. And this has been an ongoing multi-year theme that investors have had to slowly but surely confront and realize. And it's a very distorting force on all asset markets. The basic idea is that we're in a US-China rivalry that's escalating. It's driving a lot of tensions. And ultimately, the needs of the sovereign come first, right? We've gone from an era of globalization where everybody's friends, you're not really worried about But sovereignty means you have to be able to say no to your rivals. And to say no, you need to not be super dependent. Hence, you have the mobilization on tech, on AI, on food, on energy. And you also need some domestic cohesion. When you put the two together, that's where the impossible trinity that we're going to talk about today comes from.",
+      "zh": "好，我会说这是更大的'主权至上'主题里的一个插曲。这是一个已经持续多年、投资者不得不慢慢直面并认识到的主题。它对所有资产市场都是一股巨大的扭曲力量。基本想法是：我们正处在一场不断升级的中美对抗之中，它制造了大量紧张，而最终，主权者的需求排在第一位，对吧？我们已经从一个人人是朋友、你不太需要担心的全球化时代走出来了……但主权意味着你必须能对你的对手说不。而要说不，你就不能极度依赖对方。于是就有了在科技、AI、粮食、能源上的动员。同时你还需要一定的国内凝聚力。把这两点放在一起，就是我们今天要谈的'不可能的三元'（impossible trinity）的来源。"
+    },
+    {
+      "i": 34,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "06:25",
+      "en": "Yeah, we got to get into this, your notion of the impossible trinity. By the way, headline, NVIDIA now down 14%. It's below $ 4 trillion. You know, I really do think it's like, I understand sovereignty is important, Tracy. I understand like, oh, this is important, but we can't have the stock market go down. Like that's, we can't, we can sacrifice a lot, but are we really going to let stocks fall?",
+      "zh": "对，我们得谈谈你这个'不可能的三元'的说法。顺便说一句，头条：Nvidia 现在跌了 14%，市值跌破 4 万亿美元。你知道，我真的觉得——我明白主权很重要，Tracy。我明白'哦，这很重要'，但我们不能让股市跌下去。就是说，我们……我们可以牺牲很多东西，但我们真的会眼睁睁看着股票下跌吗？"
+    },
+    {
+      "i": 35,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "06:45",
+      "en": "We should, we should maybe talk about how like all of US society is predicated on the line going up. But I'm going to save that for later. Let's talk, you mentioned the impossible Trinity. Let's talk about the other impossible Trinity. Like can the CEO of major global company, I guess, abide by US law while having an affair with an alleged Chinese spy? Like just on the surface. When you look at the Jensen headlines, what does that tell you about the state of the company?",
+      "zh": "我们也许应该谈谈，整个美国社会是怎么建立在'这条线必须往上走'之上的。不过这个我留到后面再说。先说你提到的'不可能的三元'。我们来谈谈另一个'不可能的三元'：一家全球大公司的 CEO，能不能一边遵守美国法律，一边跟一个据称是中国间谍的人有婚外情？单从表面看，这些关于 Jensen 的头条，说明了这家公司处于什么状态？"
+    },
+    {
+      "i": 36,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "07:13",
+      "en": "Well, so first of all, I think there are historical analogs. So what jumped out at me when this news came out was the actual Oppenheimer analogy. You had essentially this pivotal figure, the center, obviously, creating the nuclear bomb. Originally, you know, national hero, all that, right? Rock star. Obviously, it's been a while since the movie, but over time, people start to question.",
+      "zh": "嗯，首先我觉得历史上有类似的先例。这消息出来时我脑子里跳出来的，其实是 Oppenheimer 的类比。你本质上有一位关键人物，显然处在制造原子弹的中心。一开始，你懂的，民族英雄之类的，对吧？摇滚明星。当然，那部电影已经过去一阵子了，但随着时间推移，人们开始质疑。"
+    },
+    {
+      "i": 37,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "07:31",
+      "en": "I fell asleep during the movie, by the way, so I don't remember any of this.",
+      "zh": "顺便说一句，我看那部电影的时候睡着了，所以我什么都不记得了。"
+    },
+    {
+      "i": 38,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "07:34",
+      "en": "You're going to have to, all right, spoiler time for Tracy. Okay.",
+      "zh": "那你可得……好吧，Tracy 的剧透时间到了。行。"
+    },
+    {
+      "i": 39,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "07:37",
+      "en": "But essentially, later on, when it comes to not just atomic bomb, but the H-bomb, he starts to doubt it. There starts to be questions about, is it a communist sympathizer? You can see this overarching lens of sovereignty today. We don't know what Jensen divulged or not, but at the margin, these are the pressures that come through, right? There has to be total trust from the sovereign to strategic assets. And it's fairly clear that with the way we're going, this is nuclear bomb plus commercialization potential, right?",
+      "zh": "但本质上，后来当议题不只是原子弹、而是氢弹时，他开始怀疑了。开始出现疑问：他是不是共产主义同情者？你可以看到今天这个笼罩一切的主权视角。我们不知道 Jensen 泄露了什么、或者有没有泄露，但在边际上，这些就是会传导过来的压力，对吧？主权者对战略性资产必须有完全的信任。而且相当清楚的是，按我们现在的走法，这是'原子弹加上商业化潜力'，对吧？"
+    },
+    {
+      "i": 40,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "08:05",
+      "en": "Right, because it also, and it's not binary. It's not like, okay, we achieve a really good chip and now we're done investing. It's a race with no obvious finish line. Theoretically, there may literally never be a finish line. Let's talk about the impossible trinity as you see it. Let's go big picture and then we'll sort of drill down. What is the core thing that from time to time countries really have to wrestle with?",
+      "zh": "对，因为它还……而且这不是二元的。不是说'好，我们做出了一块非常好的芯片，投资就结束了'。这是一场没有明显终点线的竞赛。理论上，可能永远都不会有终点线。我们来谈谈你眼中的这个'不可能的三元'。我们先讲大图景，然后再往下钻。那个核心的东西到底是什么——各国时不时必须与之搏斗的东西？"
+    },
+    {
+      "i": 41,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "08:29",
+      "en": "Yeah.",
+      "zh": "是啊。"
+    },
+    {
+      "i": 42,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "08:29",
+      "en": "So as I started saying a bit earlier, it's really about sovereignty's idea of being able to say no. So you don't want to feel dependent. And what we've come from is that, you know, as we've seen with President Trump's trade war, there's a lot of hidden vulnerabilities in supply chains that countries might not have realized. So if you go all the way back to, say, Joe Biden with the IRA, the mobilization, right, when you start reindustrialization. I view all this as part of this theme of reducing dependence. But if you actually look at China, this has been like a decade-long process. China has been working on this since essentially the Syngenta-China deal all the way back in the 2010s because China was worried, hey, they were dependent on the West for food, right? So they said, you know, do some seed technology acquisition. But that was the last thing the West tolerated. SIFIA signed off, and then what happened? the ZTE sanctions, the Huawei sanctions, right? The ongoing things. So it has been a kind of a two-way thing where on the international front, it's not so much, you know, there's a friendly rivalry, but there's really this sense of acute vulnerability that the person can cut you off.",
+      "zh": "正如我刚才开始说的，这确实是关于主权那种'能说不'的理念。所以你不想感到依赖。我们的来路是——就像我们在 Trump 总统的贸易战中看到的——供应链里有很多各国此前可能没有意识到的隐藏脆弱性。所以如果你一路回溯到 Joe Biden 的 IRA（通胀削减法案），那种动员，对吧，你开始再工业化的时候。我把这一切都视为'减少依赖'这个大主题的一部分。但如果你真去看中国，这是一个长达十年的过程。中国基本上是从 2010 年代 Syngenta 与中国的那笔交易开始就在做这件事了，因为中国担心：嘿，他们在粮食上依赖西方，对吧？所以他们说，那就做一些种子技术的收购。但那正是西方所能容忍的最后一件事。CFIUS 批准了，然后发生了什么？ZTE 制裁、Huawei 制裁，对吧？持续至今的那些事情。所以这一直是一种双向的过程：在国际层面上，与其说是友好的竞争，不如说真的存在这种尖锐的脆弱感——对方随时可以把你切断。"
+    },
+    {
+      "i": 43,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "09:30",
+      "en": "Yeah.",
+      "zh": "是啊。"
+    },
+    {
+      "i": 44,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "09:31",
+      "en": "But what's the trinity? So, okay, there's sovereignty, but what's the trinity?",
+      "zh": "但那个'三元'到底是什么？好，有主权，但三元是什么？"
+    },
+    {
+      "i": 45,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "09:34",
+      "en": "So the trinity is this idea because you have this rivalry against foreign powers, you're spending on guns and your mobilization, that's locked in. It's non-negotiable. But at the same time, if you need to have sovereignty, you have to be, have domestic cohesion. And the problem is in the age of social media, we obviously live in a very polarized society. So the way you get around that is a lot of fiscal deficits. You just keep spending, keep doling out the butter because you don't really have time to resolve it. Then the tension becomes, if you're committed to your guns spending and you're committed to your butter spending, then history shows that typically the leg that gives way is sound money. And that's what's putting us into a very kind of 1960s vibe kind of roadmap. And you're really starting to see a lot of the kind of macro samples come through that.",
+      "zh": "这个三元是这样一个想法：因为你要与外国势力对抗，你在'大炮'和动员上的支出是锁定的，没得商量。但同时，如果你要有主权，你就必须有国内凝聚力。问题在于，在社交媒体时代，我们显然生活在一个高度极化的社会里。所以绕过这个难题的办法就是大量财政赤字：你就不停地花钱、不停地把'黄油'发出去，因为你根本没有时间去解决深层矛盾。于是矛盾就变成：如果你既承诺了大炮支出、又承诺了黄油支出，那么历史表明，通常松掉的那条腿是稳健货币（sound money）。而这正是把我们推入一种很有 1960 年代味道的路线图的东西。你真的开始看到很多那种宏观症状冒出来了。"
+    },
+    {
+      "i": 46,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "10:18",
+      "en": "Okay, so talk to us about some previous, I guess, historical examples of governments having to choose between, I guess, sovereignty, butter, and sound monetary policy.",
+      "zh": "好，那给我们讲讲以往的一些历史案例吧，政府不得不在这三者——主权、黄油和稳健的货币政策——之间做出选择的例子。"
+    },
+    {
+      "i": 47,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "10:29",
+      "en": "Yeah, so I'd say the big one right now would be the 60s with LBJ, when you had the Great Society, you had the Vietnam War. And when you rewind back to the beginning of the war, he essentially said, hey, we can pay for both. We don't need tax rises. And over time, the fiscal deficit expanded, the pressure built, and... Ultimately, there was a famous anecdote about him confronting the central bank chair. So again, you can see this is not new in history. Apparently, the then Fed chair, William McChesney Martin, hiked rates against his wishes. He called him to his Texas ranch, physically confronted him. And so I think that's the kind of the time we're in where we've seen these underlying tensions come through. And I think why it's very pertinent today was Back then, when you got all the way up to 1968, the London gold pool broke, right? So obviously, no one's really talking about the gold rally anymore. So, well, back then, gold was pegged, right? So it was pegged at $ 35, just globally. But over time, whilst that peg has been placed, slowly people have been reducing the foundation of sound money. So, for example, there was something called gold cover that was repealed, so you needed less gold to back your currency. And as your policies became more inflationary, countries like France started... selling down their dollars and removing gold from the gold pool. And so essentially what happened was that you had the separate, essentially free market price of gold that basically broke away from the peg. And this was 1968, right? In the grand scheme of things, it took until Nixon, 1970, 71 for Bretton Woods to end and for Obviously the gold peg to end. And so I think that's the echo I see with, if you go back to 2023, we've had this gold rally, right? Come through. You've had this persistent concern about fiscal deficits. I, you can't cut the butter, you can't cut entitlement yet. We are in this mobilization, right? On tech or military. So these pressures are coming through and you're getting the historical echoes of warnings from the market that something's going to, something has to give.",
+      "zh": "好，我会说当下最大的那个例子就是 60 年代的 LBJ：你有'伟大社会'（Great Society），你有越南战争。回到战争之初，他基本上是说：嘿，两样我们都付得起，不需要加税。随着时间推移，财政赤字扩大，压力累积，而且……最后有一个著名的插曲，是他与央行行长对质。所以你看，这在历史上并不新鲜。据说当时的 Fed 主席 William McChesney Martin 违背他的意愿加了息。他把他叫到自己的德州牧场，当面质问他。所以我觉得这就是我们所处的时代——我们已经看到这些深层矛盾显现出来。而我认为它今天之所以特别切题，是因为：当时一路到 1968 年，伦敦黄金池（London gold pool）崩了，对吧？所以现在显然没人再谈黄金涨势了。嗯，当时黄金是钉住的，对吧？全球都钉在 35 美元。但随着时间推移，在这个钉住安排维持期间，人们在慢慢削弱稳健货币的基础。比如说，有一项叫'黄金担保'（gold cover）的规定被废除了，于是你需要更少的黄金来支撑你的货币。而随着政策变得越发通胀化，法国之类的国家开始抛售美元、从黄金池里把黄金提走。所以本质上发生的是：一个独立的、自由市场的黄金价格基本上与官方钉住价脱钩了。那是 1968 年，对吧？从大局看，一直到 Nixon，1970、71 年，布雷顿森林体系才终结，黄金钉住安排显然也随之结束。所以我觉得这就是我看到的回声：回到 2023 年，我们有了这波黄金涨势，对吧。你一直有对财政赤字的担忧。黄油砍不掉，福利权益也还砍不动。我们又处在这样一种动员之中，对吧——科技或军事上的动员。所以这些压力正在显现，你正在得到来自市场的历史性警示回声：某些东西、某样东西必须让路。"
+    },
+    {
+      "i": 48,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "12:25",
+      "en": "Right.",
+      "zh": "对。"
+    },
+    {
+      "i": 49,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "12:26",
+      "en": "And finally you have a Iran war. you have these things that force a lot of simultaneous physical constraints to hit. And then suddenly it becomes like a big kind of inflation problem and we'll have to confront it.",
+      "zh": "最后你还有一场伊朗战争。你有这些迫使大量实体约束同时袭来的事情。然后突然间它就变成一个大通胀问题，我们不得不直面它。"
+    },
+    {
+      "i": 50,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "12:36",
+      "en": "Right.",
+      "zh": "对。"
+    },
+    {
+      "i": 51,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "12:36",
+      "en": "And we got that hot CPI report this week. So like hopes that we were still on this like glide path downward seem to be fading. And this is not just a US problem. Like with this, like these challenges, like it's, we obviously, these are real stresses in the US, but like, I don't know, it seems kind of worse in Europe.",
+      "zh": "而我们这周拿到了那份烫手的 CPI 报告。所以那种'我们仍在向下的平滑路径上'的希望似乎正在消退。而且这不只是美国的问题。这些挑战……显然，这些是美国的真实压力，但不知道，欧洲看起来似乎更糟。"
+    },
+    {
+      "i": 52,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "12:56",
+      "en": "Yeah, it's a global problem, right? And this is linked, again, you can't get away from this idea of sovereignty because ultimately we've been super used to this globalized era, just-in-time supply chain, everything, the system works itself out. The whole point of sovereignty is the market prices no longer function as a signal because it's about the physical movement of things, right? The price of money can be a rationing mechanism when everything can move, then move interest rates. But now if there's hard just borders, essentially physical borders blocking things, you need the price of things to be the rationing mechanism. And that's where we are.",
+      "zh": "是啊，这是一个全球性问题，对吧？这又跟主权这个理念联系在一起——你绕不开它，因为最终我们已经太习惯于这个全球化时代：准时制（just-in-time）供应链，一切，系统自己会理顺。主权的全部要点在于：市场价格不再能作为信号发挥作用，因为这关乎物品的实体流动，对吧？当一切都能流动时，资金的价格可以是一种配给机制，那就去调利率。但现在如果存在硬性边界，本质上是实体边界在阻挡物资，你就需要物品的价格来充当配给机制。而这就是我们现在的处境。"
+    },
+    {
+      "i": 53,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "13:44",
+      "en": "So when we talk about the potential for sound monetary policy to give way, and you bring up the late 1960s, early 1970s, I mean, everyone's going to think, well, this means rampant inflation. But it doesn't necessarily have to translate into that. There are other ways to deal with high debt. I wrote a piece, I guess, a couple months ago now in the Oddlots newsletter, which everyone should subscribe to, called The Other Way to Reduce Government Debt, which was all about financial repression, right? And we've seen hints of that already with, you know, banks being encouraged to like load up on more government bonds and things like that. Could we not just see a system where people are forced basically to hold government debt?",
+      "zh": "那么，当我们谈论稳健货币政策可能让路的时候，你提到 1960 年代末、1970 年代初，我是说，所有人都会想：那意味着恶性通胀。但它不一定会转化为那种结果。处理高债务还有别的办法。我大概几个月前在 Odd Lots 通讯上写了一篇文章——大家都应该去订阅——叫《The Other Way to Reduce Government Debt》，讲的就是金融抑制（financial repression），对吧？我们已经看到一些苗头了，比如银行被鼓励多持有政府债券之类的。我们难道不能就这么看到一个人们被迫持有政府债务的体系吗？"
+    },
+    {
+      "i": 54,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "14:28",
+      "en": "Yeah, absolutely.",
+      "zh": "是啊，完全可以。"
+    },
+    {
+      "i": 55,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "14:28",
+      "en": "And this is obviously the difference between the US, which has its own sovereign currency and say, you know, the issue France has right now, right? You can't print your own currency. But the tricky thing with financial repression is, yes, I think it works. The basic idea is, you know, run the inflation of 4% to 5%, right, trying to suppress interest rates, or amortize away the debt. But the angle maybe we don't talk about as much that's going to be uncomfortable for asset owners is the potential for capital controls. Because ultimately, if you need this to work, you can't just let the money flow out first. And that would obviously be, I don't think there's any story in which that isn't a, that's a bullish thing for markets, right? That's almost certainly a universal negative.",
+      "zh": "而这显然就是美国与法国现在面临的问题之间的区别，对吧——美国有自己的主权货币，而法国不能印自己的货币。但金融抑制棘手的地方在于：是的，我认为它有效。基本想法就是，你懂的，把通胀跑到 4% 到 5%，对吧，同时试图压制利率，或者把债务摊薄掉。但也许我们谈得比较少、而会让资产所有者很不舒服的一个角度，是资本管制（capital controls）的可能性。因为最终，如果你需要这套做法奏效，你就不能先让钱流出去。而那显然会……我不认为有任何一个版本的故事里，这对市场是利好，对吧？那几乎肯定是一个普遍的负面因素。"
+    },
+    {
+      "i": 56,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "15:05",
+      "en": "The thought of capital controls in the U.S. is unthinkable, right? Yeah.",
+      "zh": "在美国搞资本管制，这个念头是想都不敢想的，对吧？是啊。"
+    },
+    {
+      "i": 57,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "15:08",
+      "en": "Yeah, but I will say this is the slow creep. For example, like I said, we have a microcosm of how these things work, right? So Iran will start this year. China did diesel export bans. Russia did a diesel export ban. Very quickly, President Trump said, hey, maybe we need to do it here. Oh, yeah. So other countries do capital control still today. Who's to say as they do more?",
+      "zh": "是啊，但我会说这是一种缓慢的蔓延。比如就像我说的，我们有一个这些机制如何运作的小型样本，对吧？伊朗今年就会开始。中国做过柴油出口禁令。俄罗斯做过柴油出口禁令。很快，Trump 总统就说：嘿，也许我们这儿也得这么干。哦，是啊。所以直到今天，别的国家还在做资本管制。他们做得越来越多，谁又能说我们不会呢？"
+    },
+    {
+      "i": 58,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "15:27",
+      "en": "It's not like capital control in the sense of money, but it is just like this ongoing creep. And if we get like, and I guess if we get a... You know, a much tighter clamp down on chip exports. It would be the same thing. Yeah, it's the same, right? It's not money controls, but it's like if we're making it here, we're keeping it here.",
+      "zh": "这不是资金意义上的资本管制，但就是这种持续的蔓延。而且如果我们……我想如果我们看到对芯片出口的严厉得多的封锁，那就是同一回事。是啊，一样的，对吧？这不是资金管制，而是像'如果我们在这儿生产，我们就把它留在这儿'。"
+    },
+    {
+      "i": 59,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "15:48",
+      "en": "Yeah, it could be money flow. It could be the flow of goods. But it's more this idea we are clearly moving away from the free movement of everything. And it is a trend. So all these little anecdotes fit into that trend, right?",
+      "zh": "是啊，它可以是资金流动，也可以是货物流动。但更多的是这个理念：我们显然正在离开'万物自由流动'。而且这是一个趋势。所以所有这些小故事都嵌在这个趋势里，对吧？"
+    },
+    {
+      "i": 60,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "16:01",
+      "en": "Weirdly, it could also be the more politically appealing choice, I guess, right? Because sovereignty, okay, so like governments aren't going to give up on the sovereignty issue because they framed it as this existential race. They can't give up on butter entitlement spending and social services and things like that because then everyone will get upset. But will the voting population, would they like would they get worked up over capital controls or like different leverage ratios for banks? Is that something people are actually going to vote on?",
+      "zh": "奇怪的是，它在政治上可能还是更有吸引力的选择，我想，对吧？因为主权——好，所以政府不会在主权问题上放手，因为他们把它框定成一场关乎存亡的竞赛。他们也不能放弃黄油类的福利支出和社会服务之类的，因为那样所有人都会不高兴。但选民们会不会因为资本管制、或者银行的不同杠杆率而情绪激动呢？这真的是人们会拿去投票的东西吗？"
+    },
+    {
+      "i": 61,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "16:32",
+      "en": "Yeah.",
+      "zh": "是啊。"
+    },
+    {
+      "i": 62,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "16:32",
+      "en": "So I would say the banking stuff, I think there's some hope financial pressure works. So again, there's analogs to the 60s. Back then you had Regulation Q, which capped interest rates you could pay.",
+      "zh": "我会说，银行那部分——我觉得金融抑制还是有点希望奏效的。所以同样，60 年代也有先例。当时你有 Q 条例（Regulation Q），它给你能支付的利率设了上限。"
+    },
+    {
+      "i": 63,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "16:42",
+      "en": "We did an episode on Reg Q.",
+      "zh": "我们做过一期讲 Reg Q 的节目。"
+    },
+    {
+      "i": 64,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "16:43",
+      "en": "Yeah. So there you go.",
+      "zh": "是啊。所以你看。"
+    },
+    {
+      "i": 65,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "16:44",
+      "en": "Right.",
+      "zh": "对。"
+    },
+    {
+      "i": 66,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "16:44",
+      "en": "So in a sense, if you look at stable coins, it's like, hey, you can't pay interest. You have hints of that. You had Operation Twist in the 60s. Today, we obviously issue a lot more bills rather than long duration treasuries. You mentioned obviously SLR reform, free bank balance sheets. So there are at least the tools are in place. And obviously as the politics shifts, as say, once again, you get a change election, unite, or maybe all the parts of the government become unified in 28, you can see the tools of government being used to do that.",
+      "zh": "所以从某种意义上说，如果你看稳定币（stablecoin），那就是：嘿，你不能付利息。你已经能看到这方面的迹象了。60 年代你有扭曲操作（Operation Twist）。今天我们显然发行了更多的短期国库券，而不是长久期国债。你提到了 SLR（补充杠杆率）改革，释放银行资产负债表。所以至少工具是齐备的。而且显然随着政治风向转变，比如再一次出现一场变革性选举，或者 28 年政府各部门重新统一，你就能看到政府的这些工具被拿来做这件事。"
+    },
+    {
+      "i": 67,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "17:15",
+      "en": "I hadn't thought about stable coins as like a tool of financial repression, but you're right. Like they are a huge source of demand for U.S. treasuries.",
+      "zh": "我以前没把稳定币想成金融抑制的一种工具，但你说得对。它们确实是美国国债需求的一个巨大来源。"
+    },
+    {
+      "i": 68,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "17:23",
+      "en": "So the reason why people like independent central banks is they say that democratically elected officials will never pull away the butter, right? This is like, and so you need like this outside thing to just clamp it all down. What does history say about that? Like there have been candidates who have run on things like spending reduction. It's not completely unheard of. And as recently as like, you know, The early post-GFC, arguably the worst time in history to do spending cuts. That was actually a pretty popular political movement to cut government spending. That seems like ages ago. Could you see a political appetite for curbing spending reemerging?",
+      "zh": "所以人们喜欢独立央行的原因是他们说：民主选举产生的官员永远不会把黄油撤走，对吧？这就像……所以你需要一个外部机构来把这一切按住。历史对此怎么说？确实有以减少开支为竞选纲领的候选人。这并非完全闻所未闻。而且就在不久前，比如后 GFC（全球金融危机）早期——那可以说是历史上做财政紧缩最糟糕的时候——削减政府开支实际上是一场相当受欢迎的政治运动。那感觉像是很久以前的事了。你觉得抑制开支的政治意愿有没有可能重新出现？"
+    },
+    {
+      "i": 69,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "18:03",
+      "en": "So, yeah, there's been signs, right? Like, technically, President Trump ran on, you know, Treasury Secretary Besson had the 333 plan, right? They tried Doge. You don't have the America's Party when they fell out. It was a lot of things about the deficit. So there are echoes. So, you know, I've laid out that potentially the early 90s with Ross Perot, a very strong third party emergence, it's possible. But the problem is you usually need a big crisis first for that to actually be implemented. It's one thing to say something. You know, Marine Le Pen is talking about a deficit in France. Who would have thought? But if you look at the details, that's what matters. You need the kind of population to be willing to accept pain to do that. So if you look at Reagan and Thatcher, they did do it. But that was after some horrific events. crisis in the 70s, right? And so I think that's the problem. Yes, we can get there, but things probably got to get a lot worse.",
+      "zh": "嗯，是啊，已经有一些迹象了，对吧？比如，严格来说，Trump 总统竞选时……财政部长 Bessent 有那个 3-3-3 计划，对吧？他们试过 DOGE。他们闹翻的时候你还冒出了 America Party。里面有很多是关于赤字的。所以是有回声的。你知道，我曾经提出：可能在 90 年代初 Ross Perot 那样，一次非常强劲的第三党崛起，是有可能的。但问题是，你通常需要先有一场大危机，这些才可能真正落地。说是一回事。你懂的，Marine Le Pen 在法国谈赤字，谁能想到？但如果你看细节，那才是关键。你需要民众愿意接受痛苦才能做到。所以如果你看 Reagan 和 Thatcher，他们确实做到了。但那是在 70 年代一些可怕的事件、危机之后，对吧？所以我觉得这就是问题所在。是的，我们能走到那一步，但情况大概得先糟得多。"
+    },
+    {
+      "i": 70,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "18:52",
+      "en": "Well, it could like, we just have a thing where young people are like, we can't buy a house because mortgage rates are so high and we need to relieve some of the pressure. So there's a movement to, you know, cut spending on various things to reduce inflationary pressure in the economy.",
+      "zh": "嗯，也有可能出现这样一种情况：年轻人说'我们买不起房子，因为房贷利率太高了，我们需要缓解一些压力'。于是就有一场运动，去削减各方面的开支，以降低经济中的通胀压力。"
+    },
+    {
+      "i": 71,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "19:08",
+      "en": "I think that would be easier if we didn't have this simultaneous guns and butter pressure, right? I think the foreign aspect is of it means that, you know, you have very limited fiscal resources. I think that's the tension. So, you know, if I look at Peter Turchin's work, some of these long cycles of history, the basic idea is if you can have your economic elites voluntarily give up something to kind of support the bottom, that's how you get a peaceful reform and we transition. You can see there's token signs. Elon talking about giving away SpaceX shares. We've had Anthropic and companies talking about giving the public a stake. I think those are the marginal signs, but to really get there you know, for the magnitude of kind of redistribution we're talking about, I think that that's the challenge, right? And I suspect you need a crisis first before we can get there.",
+      "zh": "我觉得如果我们没有这种'大炮与黄油'同时施压的局面，那会容易一些，对吧？我认为其中的对外那一面意味着，你懂的，你的财政资源非常有限。我觉得这就是矛盾所在。所以，如果我看 Peter Turchin 的研究，那些历史的长周期，基本想法是：如果你的经济精英能够自愿让出一些东西来支撑底层，那就是你获得和平改革、完成转型的方式。你能看到一些象征性的迹象。Elon 谈论送掉 SpaceX 的股份。我们有过 Anthropic 以及其他公司谈论给公众一份股权。我认为这些是边际上的迹象，但要真正走到那一步，你懂的，就我们所谈论的那种再分配的量级而言，我认为这就是挑战，对吧？而且我怀疑我们需要先有一场危机才能走到那一步。"
+    },
+    {
+      "i": 72,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "19:54",
+      "en": "Wait, can you say a little bit more? Because this was going to be my next question. Like, if the problem is physical binding constraints, then why wouldn't it, I guess, dampening public consumption help with the trilemma?",
+      "zh": "等等，你能再多说一点吗？因为这本来是我的下一个问题。就是说，如果问题在于实体约束在收紧，那么压低公共消费为什么不会有助于缓解这个三难困境呢？"
+    },
+    {
+      "i": 73,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "20:05",
+      "en": "I think in theory you could, but it's about imposing suffering essentially on some part of your society, right? And so ultimately there's a cost and you have to crowd someone out. So if you look at this guns and butter kind of idea, China has the same trilemma, but their choice is sound money and guns. And then they suppress the households. They're suppressing butter, right? So it's ultimately a choice. It's more, I think the challenge in the West is because of how polarized society is, it's very hard to pass a sweeping bipartisan policy.",
+      "zh": "我觉得理论上你可以，但这本质上就是把痛苦强加给社会的某一部分，对吧？所以最终是有代价的，你必须把某个人挤出去。所以如果你看这个'大炮与黄油'的想法，中国有同样的三难，但他们的选择是稳健货币和大炮。然后他们压制家庭部门。他们在压制黄油，对吧？所以这最终是一个选择。我觉得更多的……西方的挑战在于，因为社会如此极化，很难通过一项全面的跨党派政策。"
+    },
+    {
+      "i": 74,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "20:35",
+      "en": "Thing, right?",
+      "zh": "这样的事情，对吧。"
+    },
+    {
+      "i": 75,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "20:35",
+      "en": "Like Ross Perot managed to kind of pull the parties back towards the center, but he also had a very big kind of macro tailwind because the Soviet Union ended, you had a big peace dividend, and you had the technology over the top. I think without that, given how polarized things are, it's usually easier to, you know, that's why divided governments has this seasonal impact on, you know, equity markets going up, right? It's because we're divided, so it's easier to keep the butter flowing.",
+      "zh": "比如 Ross Perot 成功地把两党往中间拉了回来，但他也有一个非常大的宏观顺风，因为苏联结束了，你有一大笔和平红利，还有科技那一块。我觉得如果没有那些，鉴于当前的极化程度，通常更容易……你懂的，这就是为什么分裂政府（divided government）对股市上涨有这种季节性影响，对吧？那是因为我们分裂着，所以更容易让黄油继续流。"
+    },
+    {
+      "i": 76,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "21:00",
+      "en": "Yeah, Joe, this is one of my big realizations of 2026 is that you know, people always talk about, oh, China wants to boost domestic consumption. I don't think they do. Like, I actually don't think they do. Yeah.",
+      "zh": "是啊，Joe，这是我 2026 年的重大领悟之一：你懂的，人们总是说'哦，中国想要提振内需'。我觉得他们并不想。我是说，我真的觉得他们并不想。是啊。"
+    },
+    {
+      "i": 77,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "21:10",
+      "en": "Yeah, I.",
+      "zh": "是啊，我……"
+    },
+    {
+      "i": 78,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "21:13",
+      "en": "Agree. Okay.",
+      "zh": "同意。好。"
+    },
+    {
+      "i": 79,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "21:16",
+      "en": "I also just, my other take on this is that even if they want, even if like, quote, Beijing, unquote, wanted to, I don't know if they can. Because if you think about how we know, like, policy is done there, which is, like, everything is done through, like, regional KPIs, et cetera, they might say we want to increase domestic consumption. But if every party leader in every province still thinks that, like, building out factories is their path to political promotion, then, like, it's not obvious how they actually....",
+      "zh": "我另一个看法是：即使他们想，即使所谓的'北京'想，我也不知道他们能不能做到。因为如果你想一下我们所了解的、那里政策是怎么制定的，也就是一切都通过地方 KPI 之类来完成，他们可能会说'我们要提高国内消费'。但如果每个省的每一位党委书记仍然认为建工厂才是自己政治晋升的路径，那么，他们究竟怎么做到这一点，就不明显了……"
+    },
+    {
+      "i": 80,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "21:49",
+      "en": "Well, also now I'm thinking of like every local government basically competing on retail sales or something, which would be interesting to say the least.",
+      "zh": "嗯，而且现在我想到的是每个地方政府基本上在零售额上相互竞争之类的，那至少会很有意思。"
+    },
+    {
+      "i": 81,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "21:58",
+      "en": "Okay.",
+      "zh": "好。"
+    },
+    {
+      "i": 82,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "21:58",
+      "en": "Can we talk stocks?",
+      "zh": "我们能聊聊股票吗？"
+    },
+    {
+      "i": 83,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "22:00",
+      "en": "Yeah, sure.",
+      "zh": "好啊，当然。"
+    },
+    {
+      "i": 84,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "22:01",
+      "en": "What do you make of NVIDIA being down like 14% and the S & P 500 being down 0.17%? We're describing this company for a long time as the beating heart of the most important industry of the market, maybe world history. And its future has never been more uncertain. And the stock market is down like not even a quarter of a percent.",
+      "zh": "你怎么看 Nvidia 跌了 14% 左右，而 S&P 500 只跌了 0.17%？我们长期以来一直把这家公司描述为市场、乃至可能是世界历史上最重要行业的心脏。而它的未来从未如此不确定。可股市跌幅连四分之一个百分点都不到。"
+    },
+    {
+      "i": 85,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "22:28",
+      "en": "Yeah, so I think you guys alluded to this a bit earlier, but the key here is AI financing, right? So in my mind, this is almost like you're running a marathon because just the sheer amount of financing we need to raise in the next few years. But because of all these pressures, every marginal fundraise is like a sprint. And in a way, if you look at, the circular financing around NVIDIA, I think it's because they're sprinting. You don't have time to bring people in. That's why you do all these, you know, inverted balance sheet type things.",
+      "zh": "是啊，我想你们刚才已经提到一点了，但这里的关键是 AI 融资，对吧？所以在我看来，这几乎就像你在跑一场马拉松，因为未来几年我们需要募集的资金量实在太庞大。但由于所有这些压力，每一次边际上的融资都像是一次冲刺。从某种意义上说，如果你看围绕 Nvidia 的那些循环融资（circular financing），我认为那是因为他们正在冲刺。你没有时间把人一个个拉进来。这就是为什么你会做所有这些'倒置资产负债表'式的事情。"
+    },
+    {
+      "i": 86,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "22:55",
+      "en": "Explain that. What do you mean they don't have time to bring people in?",
+      "zh": "解释一下。你说'没时间把人拉进来'是什么意思？"
+    },
+    {
+      "i": 87,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "22:57",
+      "en": "So normally if you want to raise financing, you can, you know, go to everyone, get everyone to do their analysis. It's time to wait, right? But the way the AI financing is, we have to raise so much money so quickly to keep the game going that every sprint is kind of this rush. Okay, what can we do? Everyone's very short-sighted. We just got to get the next fundraise done so we meet the next tranche of obligations and whatever we committed. You know, the analog is almost a bit like, say like, you know, government deficit is the same thing. It's a marathon to have to keep financing the government, but every auction is a sprint.",
+      "zh": "通常如果你想融资，你可以，你懂的，去找所有人，让每个人都做自己的分析。那是要花时间等的，对吧？但 AI 融资的方式是：我们必须这么快、这么多地筹钱，来让这场游戏继续下去，所以每一次冲刺都是这种仓促。好，我们能做什么？每个人都极度短视。我们只需要把下一轮融资做完，好让我们兑现下一批义务、兑现我们承诺过的东西。你懂的，这个类比几乎有点像，比如说政府赤字也是同一回事：为政府持续融资是一场马拉松，但每一次拍卖都是一次冲刺。"
+    },
+    {
+      "i": 88,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "23:29",
+      "en": "I get that, but explain what does that have to do with Nvidia being at the center of it all? I get all they're all sprinting, but what does that have to do with Nvidia?",
+      "zh": "我明白这个，但解释一下，这跟 Nvidia 处在一切的中心有什么关系？我理解他们都在冲刺，但那跟 Nvidia 有什么关系？"
+    },
+    {
+      "i": 89,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "23:35",
+      "en": "Well, it's because the AI ecosystem is essentially about can the frontier labs and the other guys raise enough money to buy the compute to train smarter models. That's the confidence for the market. For the market to have confidence for these guys to raise financing, they clearly need these deals to have an anchor person, right? There's a reason the AI ecosystem guys are stepping in to be the anchor to deliver the confidence for the market so that ultimately they can raise money from outsiders. The problem is, I think this works, but now that the Fed's hiked, now that we have these inflation pressures, now the interest rates are tightened, this becomes much harder. That's why I think this analogy of you're going to have to sprint even harder now against the headwind of higher rates But it's still a marathon, right? It's not like you do one sprint.",
+      "zh": "嗯，这是因为 AI 生态系统本质上就是：前沿实验室和其他那些玩家能不能筹到足够的钱去买算力、训练更聪明的模型。这就是市场的信心所在。要让市场对这些人融资有信心，这些交易显然需要一个锚定者，对吧？AI 生态系统里的这些玩家之所以亲自下场充当那个锚、给市场输送信心，是有原因的，这样他们最终才能从外部人那里筹到钱。问题是，我觉得这套做法本来能行，但现在 Fed 加息了，现在我们有这些通胀压力，现在利率收紧了，这就变得困难得多。这就是为什么我觉得这个类比成立：你现在将不得不在更高利率的逆风中更用力地冲刺。但它仍然是一场马拉松，对吧？不是说你冲刺一次。"
+    },
+    {
+      "i": 90,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "24:20",
+      "en": "It's over.",
+      "zh": "就结束了。"
+    },
+    {
+      "i": 91,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "24:21",
+      "en": "I don't know which specific sprint makes the runner collapse, but you can see it getting harder and harder to sprint.",
+      "zh": "我不知道具体是哪一次冲刺会让跑者倒下，但你能看到冲刺越来越难。"
+    },
+    {
+      "i": 92,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "24:29",
+      "en": "You run a systematic fund at Variant as well. So going back to Joe's point about, you know, NVIDIA is down like 14% now. Is that right?",
+      "zh": "你在 Variant 还管理一只系统化基金。所以回到 Joe 刚才那个点，你懂的，Nvidia 现在跌了 14% 左右。是这样吗？"
+    },
+    {
+      "i": 93,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "24:37",
+      "en": "Yeah, let's see. Yeah, it was the last time I got a headline.",
+      "zh": "是啊，我看看。对，那是我上一次看到头条时的数字。"
+    },
+    {
+      "i": 94,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "24:40",
+      "en": "Yeah. It's one of those days where we're going to have to start saying the exact minute that we're recording the episode. It's 9.55 a.m. It's only down 7% now.",
+      "zh": "是啊。这是那种我们以后得报出录制的具体分钟的日子。现在是上午 9 点 55 分。它现在只跌了 7%。"
+    },
+    {
+      "i": 95,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "24:49",
+      "en": "All right.",
+      "zh": "好吧。"
+    },
+    {
+      "i": 96,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "24:50",
+      "en": "Well, I mean, still pretty... Still, this time last year, if people had said that this would be happening at NVIDIA, I think everyone would have been very surprised. But can you talk to us about, like, I guess dispersion in the market and why we aren't seeing more of a ripple effect on some of the AI companies that NVIDIA is actually financing?",
+      "zh": "嗯，我是说，仍然相当……仍然，去年这个时候，如果有人说 Nvidia 会发生这样的事，我觉得所有人都会非常吃惊。那你能不能跟我们谈谈，我猜是市场的分化（dispersion），以及为什么我们没有在 Nvidia 实际出资的那些 AI 公司身上看到更多的连锁反应？"
+    },
+    {
+      "i": 97,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "25:10",
+      "en": "Well... Maybe the Oppenheimer analog is appropriate. Ultimately, the H-bomb was built. Once Oppenheimer was out of the way, things were still done. There's still a need to win this race. And if the financing market struggles, I think the governments probably will step in and backstop. But the problem is, obviously, if the governments get very involved in financing, the winners and losers change, especially if you're in a slightly marginal part of the AI ecosystem. I suspect the government's not keen to finance that. But if you're the top two frontier labs... And you have evidence that when you put the compute in, your models are getting smarter. I think that will be backers. So I think that's why it's somewhat more of a, I would say, a rational response at this point. I think the structural theme is still intact. The question we have is around financing and it's reflexive, right? Let's say that fraud pick IP goes well next week and it's a big bump. Then in two weeks, open air announces, hey, we close our next private round. Suddenly soft banks, collaterals, money good again. And then all the pre-commitments are real, right? Because that's real money flowing. So I think it's just more acknowledging the two-way risk that I would have said there was less of, say, back in July when the situational awareness happened. Back then, the macro was very benign. Today, it's pretty unambiguous how much the macro cycle has shifted.",
+      "zh": "嗯……也许 Oppenheimer 的类比在这里是合适的。最终，氢弹还是造出来了。一旦 Oppenheimer 被排除掉，事情照样推进。仍然有需要赢得这场竞赛。而如果融资市场陷入困境，我认为政府大概会介入并提供兜底。但问题在于，显然，如果政府深度介入融资，赢家和输家就会改变，尤其是如果你处在 AI 生态系统中比较边缘的部分。我猜政府并不热衷于为那部分融资。但如果你是头两家前沿实验室……而且你有证据表明，把算力投进去，你的模型会变得更聪明。我认为那就会有出资人。所以我觉得这就是为什么这在当下多少是一种更理性的反应。我认为结构性主题依然完好。我们的问题在于融资，而且它是反身性的（reflexive），对吧？假设下周那桩 IPO 进展顺利、大涨一波。那么两周后，OpenAI 宣布：嘿，我们完成了下一轮私募融资。突然间 SoftBank 的抵押品又'钱到位'了。于是所有那些预先承诺都变成真的了，对吧？因为那是真实的资金在流动。所以我觉得这更多是在承认那种双向风险——而这种风险我在 7 月 Situational Awareness 出来的时候会说更小。那时候宏观环境非常温和。而今天，宏观周期已经转变到什么程度，是相当明确的了。"
+    },
+    {
+      "i": 98,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "26:22",
+      "en": "Do you think, okay, so the macro cycle has shifted. In your view, has there been any shift in the AI fundamentals story? Because, you know, there's all these questions about, like, are the customers really getting ROI and so forth? Is it just a macro story in your view? Has there been no change really to the sort of like AI fundamentals part of the leg?",
+      "zh": "你觉得，好，所以宏观周期已经转变了。在你看来，AI 的基本面故事有没有发生任何变化？因为，你懂的，关于客户是不是真的拿到了 ROI 之类，有这么多疑问。在你看来这纯粹是个宏观故事吗？AI 基本面那条腿真的没有变化吗？"
+    },
+    {
+      "i": 99,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "26:45",
+      "en": "I would say the macro and the AI are finally intertwined. So the reason the market's, I think, been very bifurcated is you've had a classic macro cycle in the non-AI stuff, right? Like, you know, the fast-tracking rates close down, but AI has been the secular thing. What connects them now is this financing need. And the financing need is a function of macro interest rates and where we are. And that's what's connecting them now.",
+      "zh": "我会说宏观和 AI 终于交织在一起了。市场之所以一直如此分裂，我认为原因是你在非 AI 的那部分看到一个经典的宏观周期，对吧？比如，你懂的，加息路径压低了那些板块，但 AI 一直是那条长期世俗的主线。现在把它们连起来的，是这个融资需求。而融资需求是宏观利率和我们所处位置的函数。这就是现在把它们连接起来的东西。"
+    },
+    {
+      "i": 100,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "27:08",
+      "en": "I guess I'm just saying the secular story about the AI build-out, like that this investment will be worth it. People are going to want to pay for it. That companies will like, oh, I'm getting value from my AI spending. That maybe consumers will like maybe pay for like an assistant bot. Like some of these theses that people have, like, Do you not see at this point any weaknesses in these stories? Oh, yeah.",
+      "zh": "我想说的是，那个关于 AI 建设的长期世俗故事，就是说这项投资将是值得的，人们会愿意为它付钱，公司会说'哦，我从 AI 支出中获得了价值'，也许消费者会愿意为一个助手机器人之类的付费。人们持有的这些论点中，你现在难道看不到任何弱点吗？哦，是啊。"
+    },
+    {
+      "i": 101,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "27:37",
+      "en": "I think clearly there's some optimistic times for the markets. But I would say, again, if you put a sovereignty lens on, There's a lot of assumptions about which of the markets and where things are going to leak, right? So let's say we move to a world where governments have to get involved because we're strong into finance. There's going to be a lot of conditions attached to that government financing. The government might mandate everything you buy comes from the US locally. So then you inject a lot of stimulus into the system. It's all kept here. So asset prices here might be okay. But if you're a foreign supplier, you have other things, that goes away, right? I think that's more likely the way we're going, that sure, if it's a pure private sector, you know, kind of monetization is tough. Right. But as, as we said, if you're trying to, the nuclear bomb has no economic value, but we've put lots of resources into it. So you have a nuclear bomb today, plus this deal use technology. And clearly I will say there's a key assumption we have to make here, which is, is this still the case that if you put in a lot more compute, you get a lot smarter of a model.",
+      "zh": "我觉得显然市场存在一段过于乐观的时期。但我会再说一次，如果你戴上主权的透镜，其中有很多关于'哪些市场、以及东西会流向哪里'的假设，对吧？所以假设我们进入一个政府不得不介入的世界，因为我们冲刺融资冲得太猛。政府的融资会附带很多条件。政府可能会强制要求你买的一切都在美国本地生产。那么你就向系统注入了大量刺激，而且全都留在国内。所以这里的资产价格可能还行。但如果你是外国供应商，你还有别的东西，那这部分就没了，对吧？我觉得这更可能是我们的走向：当然，如果是纯粹的私人部门，货币化会很艰难。对。但正如我们说的，如果你在试图……原子弹没有经济价值，但我们往里投入了大量资源。所以今天你有原子弹，加上这种军民两用技术。而且我显然要说，这里有一个我们必须做出的关键假设，那就是：投入多得多的算力，是否仍然能得到聪明得多的模型。"
+    },
+    {
+      "i": 102,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "28:35",
+      "en": "Yeah.",
+      "zh": "是啊。"
+    },
+    {
+      "i": 103,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "28:36",
+      "en": "I would say that's open question. The evidence so far is still yes.",
+      "zh": "我会说这是个开放性问题。目前的证据仍然支持'是'。"
+    },
+    {
+      "i": 104,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "28:38",
+      "en": "Yeah.",
+      "zh": "是啊。"
+    },
+    {
+      "i": 105,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "28:39",
+      "en": "If that's true, then you have to back the big guys and put a lot of resources behind it because clearly whoever wins and has the best AI will hack the other country, right? And then the world will split. Every other country has to pick which side they go in. There's still a lot of markets to be addressed and it's backed by governments.",
+      "zh": "如果那是真的，那么你就必须押注大厂、把大量资源投在其后，因为显然谁赢了、拥有最好的 AI，谁就会去黑掉另一个国家，对吧？然后世界就会分裂。其他每个国家都必须选择站在哪一边。仍有大量有待覆盖的市场，而且背后有政府支持。"
+    },
+    {
+      "i": 106,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "29:09",
+      "en": "This is a question I've wanted someone to respond to on the podcast for a while, but we haven't had a chance. Can you just explain what's going on with gold? Because I felt pretty good about stacking my gold coins earlier this year. And part of your impossible trilemma thesis is, well, if we're going to give if the sound money leg is going to give way, then there's higher inflation and buy gold. But what we've seen this year is like actually gold doesn't seem to be responding that much to higher inflation. when interest rate expectations go down, it's actually moving up. And it also doesn't really seem to be much of a safe haven. I'm looking at it right now and it's down. What is actually driving gold at the moment?",
+      "zh": "这个问题我想在播客里让人回答已经有一阵子了，但一直没有机会。你能不能解释一下黄金到底怎么回事？因为我今年早些时候囤金币的时候自我感觉相当好。而你这套'不可能的三难'论点的一部分是：如果稳健货币这条腿要让路，那就会有更高通胀，那就买黄金。但我们今年看到的是，黄金对更高通胀的反应其实没那么大；当利率预期下降时，它反而在上涨。而且它看起来也不太算避险资产。我现在正看着它，它在跌。目前究竟是什么在驱动黄金？"
+    },
+    {
+      "i": 107,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "29:49",
+      "en": "Yeah, I will say this is where the echoes to 60 is very interesting, because I say the 23 to 25 rally was probably the London gold pool break. And you got that initial warning. But what happened afterwards, there was a slight adjustment. You know, Walsh is not off of burns, but Walsh could be this generation's Martin, right? Where at the margin you do adjust. He did hike rates back then. Inflation comes down. You have a bit of a credit crisis. Things normalize. But ultimately, at the margin, policy is still moving that way. So I think that's the adjustment we're on, on top of the, I would say, meme-like trading that took over gold at the beginning of the year.",
+      "zh": "是啊，我会说这里跟 60 年代的回声非常有意思，因为我说 23 到 25 年那波涨势大概就是'伦敦黄金池'的破裂。你得到了那个最初的警示。但之后发生的是，出现了一点小幅调整。你懂的，Warsh 不是 Burns，但 Warsh 可能是这一代人的 Martin，对吧？在边际上你会做一些调整。他当时确实加了息。通胀降下来。你有一点信贷危机。事情恢复正常。但最终，在边际上，政策仍然朝那个方向移动。所以我觉得这就是我们正在经历的调整，叠加在年初那种接管了黄金的、类似 meme 的交易之上。"
+    },
+    {
+      "i": 108,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "30:21",
+      "en": "The other explanation I've seen is, well, oil prices have been going up, and so you have central banks or governments that have to liquidate some of their gold positions in order to pay for the higher energy bill, even though we see reports of them buying more gold.",
+      "zh": "我看到的另一种解释是：嗯，油价一直在涨，所以你有央行或政府不得不抛售一部分黄金头寸来支付更高的能源账单，尽管我们看到报道说他们在买入更多黄金。"
+    },
+    {
+      "i": 109,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "30:34",
+      "en": "Yeah, I mean, again, this is where I think time horizons matter. I would say cyclically, interest rates have gone up, right? If interest rates go up, that's probably the biggest thing on, you know, it's a headwind to gold. But I think structurally that that long kind of long cycle analog is you have these counter trend moves quite a lot. But the fact that the gold has behaved is telling you there's underlying pressures. It may take a while before that truly explodes.",
+      "zh": "是啊，我是说，这又回到了我认为时间跨度很重要的地方。我会说，从周期上看，利率已经上升了，对吧？如果利率上升，那大概是最大的影响因素，它是黄金的逆风。但我认为从结构上看，那个长周期的类比是：你经常会出现这种逆向走势。但黄金表现得如此'规矩'，正在告诉你底下存在压力。可能要过一段时间它才会真正爆发。"
+    },
+    {
+      "i": 110,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "30:56",
+      "en": "So eventually I'll feel good about my gold coins again.",
+      "zh": "所以最终我还是会为我的金币感到欣慰的。"
+    },
+    {
+      "i": 111,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "30:59",
+      "en": "Well, I think that's why we have the layout. So yeah, so If all these pressures persist, yes. But let's say suddenly US and China announce an AI safety summit, right? Analogous to kind of arms control. Then that leg comes down. It's not so big. Equally, let's say in domestic politics, you start getting a shift towards, hey, more people talk about the deficit, right? So I think that's why it's a trinity. You have to see which leg's giving way and how to position.",
+      "zh": "嗯，我认为这正是为什么我们要有这个框架。所以是啊，如果所有这些压力持续存在，那会。但假设突然间美国和中国宣布一场 AI 安全峰会，对吧？类似于军备控制。那么那条腿就会下来，就没那么重要了。同样，假设在国内政治上，你开始看到一种转向：嘿，更多人开始谈赤字，对吧？所以我觉得这就是为什么它是一个三元。你必须看清哪条腿在让路，然后据此布局。"
+    },
+    {
+      "i": 112,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "31:26",
+      "en": "Can I just press you on this point? So what do you think is the most likely circuit breaker at the moment? Is it something like, you know, a technological arms race accord or a candidate coming in and saying like, no, we're actually going to be serious about the deficit?",
+      "zh": "我能就这一点追问你吗？那你认为当下最可能的断路器是什么？是某种技术军备竞赛协议，还是某个候选人出来说'不，我们真的要在赤字上严肃起来'？"
+    },
+    {
+      "i": 113,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "31:40",
+      "en": "I would say we probably keep, it's probably the arms control analog, that we keep escalating to a point where you create so much physical constraint, both here and in China, that there's acknowledgement, okay, we have to do something about it. And that would be obviously, again, analogous to the Cold War and those things, yeah.",
+      "zh": "我会说我们大概会保持……最可能的还是军备控制那个类比：我们不断升级到某一点，制造出如此之多的实体约束——这里和中国都是——以至于出现一种承认：好，我们必须做点什么。而那显然又会类比于冷战那些事情，是啊。"
+    },
+    {
+      "i": 114,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "31:57",
+      "en": "So in your view, when you say this is creating so much physical constraint, which is that like, I'm just trying to like, your view is basically that even if the AI investment can't be fully backed by the market alone, that it's still going, as long as like the scaling persists, as long as you get more value for more compute, US and China will just have no choice but to keep investing in it regardless. And then this kind of creates like a floor under the industry. Even if it's not economical, because there's this sort of like cybersecurity race and because of scaling, it's just going to have to keep pushing on absent some sort of agreement to like genuinely pace the frontier or whatever.",
+      "zh": "所以在你的观点里，当你说这在制造如此多的实体约束时，那是指什么？我只是想弄明白……你的观点基本上是：即使 AI 投资无法单靠市场来充分支撑，只要规模化（scaling）持续有效，只要更多算力带来更多价值，美国和中国就将别无选择，只能继续往里投入。而这于是给这个行业造了一个底，哪怕它不经济，因为存在这种网络安全竞赛，也因为规模化，它就只能不断推进，除非出现某种真正为前沿'定速'的协议之类的。"
+    },
+    {
+      "i": 115,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "32:44",
+      "en": "Yeah. Again, I don't know for sure, but I think that's the angle markets typically don't tend to you know, give a lot of weight to. And I think this is part of that longer term trend. Like I say, if I told the story on China, all the way back to that, you know, sanctioning of Huawei all the way back, right. That countries need to think very long-term. So I don't think there's a lot of evidence that there's a rapprochement between us and China over time. So, and this is where like simple DCF analysis.",
+      "zh": "是啊。再说一次，我不能确定，但我认为这正是市场通常不太愿意给予很大权重的那个角度。而且我认为这是一部分更长期的趋势。就像我说的，如果我讲中国那个故事，一路回到当年制裁 Huawei 的时候，对吧。各国需要非常长期地思考。所以我不认为有大量证据表明美中之间会随时间出现缓和。所以，而这正是在这里，简单的 DCF（现金流折现）分析……"
+    },
+    {
+      "i": 116,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "33:12",
+      "en": "Pure national defense and geopolitical security will keep a floor under AI spending, regardless of what the market supports.",
+      "zh": "纯粹的国防和地缘政治安全会给 AI 支出托底，无论市场能支撑多少。"
+    },
+    {
+      "i": 117,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "33:20",
+      "en": "So, yeah. But obviously the tricky thing as an investor, though, is even if the government puts money in, the winners will redistribute, right? So we've had a phase where the rising tide lifts all boats. But if we move to a more sovereign-backed investment AI, then let's say if it's a domestic critical resource provider, if it's a domestic equipment maker, they're front of the line. They might become even the monopoly supplier, right? But if you bought the fifth... frontier AI lab that doesn't have enough compute. I don't think that's a good investment, right? It's more, you're going to differentiate a lot more winners than losers. And again, you can look at the Chinese markets, right? That's what's been happening.",
+      "zh": "所以，是啊。但显然作为投资者，棘手的地方在于：即便政府投钱进来，赢家也会重新分配，对吧？我们经历过一个'水涨船高'的阶段。但如果我们转向一种更多由主权背书的 AI 投资，那么假设它是国内的关键资源提供商，如果它是国内的设备制造商，他们排在队伍最前面。他们甚至可能变成垄断供应商，对吧？但如果你买的是排在第五位、算力不够的前沿 AI 实验室。我觉得那不是好投资，对吧？更多的是，你会分化出多得多的赢家和输家。而且同样，你可以看中国市场，对吧？那正是正在发生的事情。"
+    },
+    {
+      "i": 118,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "33:56",
+      "en": "Yeah. So this is something I wrote about a few years ago, but like China is just much better for obvious reasons at signaling which industries it actually prioritizes from a sovereign perspective. And you can see that, you know, Xi Jinping will say something about, we want to focus on choke point technologies. We don't want to focus on like, e-retail or something like that. And the stocks kind of adjust, the financing adjust. But we haven't yet really seen that in the US. And it feels like that's kind of an adjustment process that's still underway. Yeah.",
+      "zh": "是啊。这是我几年前写过的东西，但中国显然出于各种原因，在'信号传递'上做得更好——即它真正从主权角度优先扶持哪些行业。你能看到，Xi Jinping 会说一些话，比如我们要聚焦'卡脖子'技术，我们不想聚焦电商零售之类的。然后股票就会调整，融资也会调整。但我们在美国还没真正看到这一点。感觉那是一个仍在进行中的调整过程。是啊。"
+    },
+    {
+      "i": 119,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "34:29",
+      "en": "And I think that's the way things are going. You've got to be aligned with the sovereign when you invest.",
+      "zh": "而且我认为事情正在朝这个方向走。你投资的时候必须与主权者保持一致。"
+    },
+    {
+      "i": 120,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "34:35",
+      "en": "I still remember Chairman Rabbit put out a tweet during the big tech crackdown. And he basically said like, put your money in what the government is saying to put your money in, which at that time was like hard tech and chips and stuff like that. Like, it's very clear there.",
+      "zh": "我还记得 Chairman Rabbit 在大型科技公司整顿期间发过一条推文。他基本上就是说：把钱投到政府让你投的地方去。那时候就是硬科技、芯片之类的。在那边这一点非常清楚。"
+    },
+    {
+      "i": 121,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "34:53",
+      "en": "What's going on with the Chinese market now? The Chinese market hasn't been doing well at all.",
+      "zh": "现在中国市场是怎么回事？中国市场一直表现得很不好。"
+    },
+    {
+      "i": 122,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "34:58",
+      "en": "Yeah, they've been suppressing butter. So if you own consumer tech, it's not exactly aligned to the sovereign. Right.",
+      "zh": "是啊，他们一直在压制黄油。所以如果你持有消费科技，那并不完全与主权者保持一致。对。"
+    },
+    {
+      "i": 123,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "35:04",
+      "en": "It's tough.",
+      "zh": "这很难。"
+    },
+    {
+      "i": 124,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "35:04",
+      "en": "That's why. I think if you take a step back, I think it's just, I'll speak for myself. My entire career, we've all learned from Warren Buffett, all these kind of analysis, there's a core assumption that your regulatory geopolitical environment is stable. Therefore, we laser focus on what's the ROI, right? It's just more we're now moving to a world where it's about... Just these constraints that for a century we haven't had to deal with. Will you get your money back? We'll just have these hard cutoffs. And those are obviously just 1-0 events, right? And I think the problem is the world we're going to, you can't predict when, but every marginal shock will probably hurt you if you're exposed to that. Say if you're a US investor, you put money in China. If nothing happens, great, the valuations are cheap, fantastic value investment. But if there's going to be a shock, is it more likely that your money's suddenly locked up, you can't repatriate, or there's an investigation, right? I think it's just that's the sovereign angle where you can build your portfolio as normal, but the resilience is going to come from understanding the direction of these shocks is always going to be likely inflationary and likely towards some kind of capital control type thing that distorts valuations.",
+      "zh": "这就是原因。我觉得如果你退一步看……我就代表我自己说。我整个职业生涯，我们所有人都从 Warren Buffett 那里学来这套分析，其核心假设是：你的监管与地缘政治环境是稳定的。因此我们可以把注意力全部聚焦在 ROI 是多少上，对吧？只是现在我们正在走向一个世界，那里关乎的是……那些一个世纪以来我们都不必应对的约束。你的钱能收回来吗？会出现这些硬性切断。而那些显然是非 1 即 0 的事件，对吧？我觉得问题在于，我们要去的那个世界，你无法预测何时发生，但每一次边际冲击，如果你暴露在其中，大概都会伤到你。比如说你是美国投资者，你把钱投到中国。如果什么都没发生，太好了，估值便宜，绝妙的价值投资。但如果要出现一次冲击，是不是更可能你的钱突然被锁住、无法汇回，或者出现一场调查，对吧？我认为这就是主权那个角度：你可以照常构建你的组合，但韧性将来自于理解这些冲击的方向——它总是很可能是通胀性的，也很可能走向某种扭曲估值的资本管制之类的东西。"
+    },
+    {
+      "i": 125,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "36:09",
+      "en": "Is this like a slow creep in the tensions in the trilemma? Or would you expect like a catalyst to suddenly like force a decision on these three factors?",
+      "zh": "这是三难之中紧张关系的缓慢蔓延吗？还是你会预期某个催化剂突然出现，迫使人们在这三个因素上做出决定？"
+    },
+    {
+      "i": 126,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "36:20",
+      "en": "Yeah, so this is why I wrote the report because the Iran war started giving me the vibes that it's acting as a kind of a catalyst. Because again, the whole point of wars is once it starts, as we found out, it's hard to stop. And it's like a very extreme version of what the sovereign needs, it definitely needs to get, right? And so if we drag this out, then it's going to have these crowding out impacts. So you have kind of this sovereign crowding out. AI itself is a very crowding out thing. And it will happen as a pace, which is going to force either the populist response. So let's see, do we go for Ross Perot? Do we end up with the extractionist kind of Juan Peron type thing, right? I think this is a forcing mechanism. We're going to see it more quickly over time.",
+      "zh": "是啊，这正是我写那份报告的原因，因为伊朗战争开始给我一种感觉：它正在充当一种催化剂。因为再说一次，战争的全部要点是，一旦开始，正如我们发现的，就很难停下来。而且它是'主权者需要什么就必须得到什么'的一个非常极端的版本，对吧？所以如果我们把这场战争拖下去，它就会产生这些挤出效应。于是你有了这种主权挤出。AI 本身就是一件极具挤出效应的事情。而它会以某种节奏发生，这将迫使出现要么民粹式的回应。那么我们看看：我们会走向 Ross Perot 吗？我们最终会得到那种榨取式的 Juan Peron 式的做法吗，对吧？我认为这是一个强制机制。我们会越来越快地看到它。"
+    },
+    {
+      "i": 127,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "36:58",
+      "en": "Or we get the big data center revolt and the domestic population says, we don't want the AI anymore. That has to be at least considered as a possibility.",
+      "zh": "或者我们迎来大型数据中心的反抗，国内民众说：我们不再想要 AI 了。这至少必须被当作一种可能性来考虑。"
+    },
+    {
+      "i": 128,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "37:07",
+      "en": "Or a productivity boom, which everyone seems to... That's the wild card that everyone is sort of resting their hopes on, right?",
+      "zh": "或者是生产率繁荣，这似乎是所有人都……那是每个人都把希望寄托在上面的那张外卡，对吧？"
+    },
+    {
+      "i": 129,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "37:14",
+      "en": "Yeah.",
+      "zh": "是啊。"
+    },
+    {
+      "i": 130,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "37:14",
+      "en": "So this is very interesting. I looked at all their historical analogs and It's obviously hard to measure productivity, but there's things like, for example, if you look at the Spanish and Portuguese empires in the Age of Exploration, you get a lot of gold and silver just get flooded into your system, right? So they were, again, very indebted. Suddenly you get this relief. But the problem is, all it does is exacerbate your existing institution. So if you go back to, this is a work of, you know, Daron Acemoglu, originally, right? Whatever institutional constraints and biases you have, your productivity boom merely exaggerates it and delays it, right? So unfortunately, that wasn't really a good one. Believe me, I try to be optimistic and look.",
+      "zh": "这非常有意思。我看了所有的历史类比。生产率显然很难衡量，但有一些东西，比如说，如果你看地理大发现时代的西班牙和葡萄牙帝国，你会得到大量金银涌入你的体系，对吧？所以他们同样负债累累，突然间你得到了这种解脱。但问题是，它所做的只是加剧你现有的制度。所以如果你回溯，这是 Daron Acemoglu 最早的一项研究，对吧？无论你拥有什么样的制度约束和偏向，你的生产率繁荣只会把它放大并推迟，对吧？所以很不幸，那并不是一个好例子。相信我，我是想努力保持乐观的，你看。"
+    },
+    {
+      "i": 131,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "37:52",
+      "en": "First of all, also, another headline.",
+      "zh": "首先，还有一条头条。"
+    },
+    {
+      "i": 132,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "37:55",
+      "en": "Oh, God.",
+      "zh": "哦，天哪。"
+    },
+    {
+      "i": 133,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "37:57",
+      "en": "This is one of those days where, like... The network of companies tied to Alice Wong recently invested in Chinese AI company DeepSeek. So her company is really DeepSeek. This is all getting very interesting. Say more about the downside of a productivity boom. This is a very counterintuitive take.",
+      "zh": "这是那种日子之一，就是……与 Alice Wong 有关联的那一整套公司网络最近投资了中国 AI 公司 DeepSeek。所以她的公司真的是 DeepSeek。这一切正变得非常有意思。再多说说生产率繁荣的坏处吧。这是一个非常反直觉的观点。"
+    },
+    {
+      "i": 134,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "38:16",
+      "en": "As I say, no, obviously the first order impact is it releases your debt constraints. It kicks the can down the road. It's the classic can kicking down the road. But when you have it, it doesn't force you to reform. The whole point right now is what is going to force us to enact reforms to essentially address this guns, butter imbalance, right? And I think that that was more of my point.",
+      "zh": "正如我说的，不，显然第一阶影响是它释放了你的债务约束。它把问题踢到后面。这是经典的'把罐子往后踢'。但当你拥有它的时候，它不会迫使你改革。当下的全部要点是：什么东西会迫使我们去实施改革，来真正处理这种大炮与黄油的失衡，对吧？我认为那更多才是我的观点。"
+    },
+    {
+      "i": 135,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "38:35",
+      "en": "But we can have guns and butter forever. If we just keep getting more and more productivity, right? Like that would be okay. Yeah.",
+      "zh": "但如果我们只是不断获得越来越多的生产率，我们就能永远拥有大炮和黄油，对吧？那样就没问题了。是啊。"
+    },
+    {
+      "i": 136,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "38:41",
+      "en": "But I guess I high enough rates, right? Obviously the only day upon really have, and I think Nick bloom of Stanford's not a lot of work on this electrification, right? Ultimately it's worth max one and a half to 2% GDP a year, right? Like you would need obviously a lot bigger. I think that's a challenge.",
+      "zh": "但我想，得增速足够高才行，对吧？显然唯一真正有的……我认为 Stanford 的 Nick Bloom 在电气化这方面做过不少研究，对吧？最终它每年最多值 GDP 的 1.5% 到 2%，对吧？你显然需要大得多的量级。我认为这是一个挑战。"
+    },
+    {
+      "i": 137,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "38:56",
+      "en": "What about a productivity decline? Because the other thing that could happen is if the sovereign is driving all this investment and choosing winners and losers, you could easily get overinvestment and oversupply and things not working in sort of economic or market efficient ways.",
+      "zh": "那生产率下降呢？因为另一件可能发生的事是：如果是主权者在驱动所有这些投资、并挑选赢家和输家，你很容易得到过度投资和供给过剩，以及事情并不是以经济上或市场有效的方式运作。"
+    },
+    {
+      "i": 138,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "39:12",
+      "en": "Yeah, absolutely.",
+      "zh": "是啊，完全正确。"
+    },
+    {
+      "i": 139,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "39:12",
+      "en": "I think that's ultimately the end game because in the original phase of mobilization, we're essentially doing duplicates of everything, right? So initial phase is inflationary. Everything's bottlenecked. And then you overbuild, your domestic problems kick in, suddenly you have arms control, and then we overbuild everything. That's going to suddenly become very deflationary at the end, but it's just more in that ramping up phase still.",
+      "zh": "我认为那最终就是终局，因为在动员的初始阶段，我们基本上是在把每样东西都做两份，对吧？所以初始阶段是通胀性的。一切都遇到瓶颈。然后你过度建设，你的国内问题开始发作，突然间你有了军备控制，然后我们把所有东西都建过头了。到最后那会突然变得非常通缩，但只是我们现在还处在那个爬坡阶段。"
+    },
+    {
+      "i": 140,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "39:34",
+      "en": "Right. Arguably, that is why we still have this just persistent... I mean, arguably, that's another way of describing inflation. Productivity is bad, another way of framing almost the same thing and just saying, yes, this is why we still have this inflation problem because there's just like all this spending.",
+      "zh": "对。可以说，这正是为什么我们仍然有这种持续的……我是说，可以说，这是描述通胀的另一种方式。'生产率很差'是几乎同一件事的另一种表述方式，只是在说：是的，这就是为什么我们仍然有这个通胀问题，因为有这么多支出。"
+    },
+    {
+      "i": 141,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "39:51",
+      "en": "Everyone's trying to do everything at the same time.",
+      "zh": "所有人都在试图同时做所有事情。"
+    },
+    {
+      "i": 142,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "39:54",
+      "en": "Yeah, I think this is why it's very hard to trade long-term bond yields, right? Because I would say, actually, if you take a step back, AI is a secular deflation thing, right? We would hope. Right. Well, I think the evidence probably suggests AI in the long term, I think, is deflationary. But the problem is every geopolitical shock, domestic shock is going to be inflationary against that. And I think that's why the market is going to struggle.",
+      "zh": "是啊，我认为这就是为什么长期债券收益率很难交易，对吧？因为我会说，实际上，如果你退一步看，AI 是一件长期世俗的通缩性事情，对吧？我们希望如此。对。嗯，我认为证据大概表明，长期看 AI 是通缩性的。但问题是，每一次地缘政治冲击、国内冲击，都会与之相对地带来通胀。我认为这就是市场将会挣扎的原因。"
+    },
+    {
+      "i": 143,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "40:18",
+      "en": "Or is it the problem that like, yes, maybe in theory, AI is deflationary. But in the short term, you always have to invest more. And so it's a series of inflationary impulses.",
+      "zh": "或者说，问题在于：是的，理论上 AI 也许是通缩的。但在短期内，你总是要投入更多。所以它是一连串通胀性的脉冲。"
+    },
+    {
+      "i": 144,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "40:31",
+      "en": "Because as you say, it never ends, right? You're always trying to develop the next model.",
+      "zh": "因为就像你说的，它永远不会结束，对吧？你总是在试图开发下一个模型。"
+    },
+    {
+      "i": 145,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "40:35",
+      "en": "This is the thing, right? There is no finish line where it's like, OK, we did it.",
+      "zh": "这就是关键，对吧？没有一条终点线，让你可以说'好，我们做到了'。"
+    },
+    {
+      "i": 146,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "40:40",
+      "en": "Right.",
+      "zh": "对。"
+    },
+    {
+      "i": 147,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "40:40",
+      "en": "And so in the meantime, it's a deflationary marathon, but an infinite. It's not actually a marathon in some sense, because a marathon is 26.2 miles. We need a new word.",
+      "zh": "所以在此期间，它是一场通缩性的马拉松，但是一场无限的马拉松。从某种意义上说它其实不是马拉松，因为马拉松是 26.2 英里。我们需要一个新词。"
+    },
+    {
+      "i": 148,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "40:50",
+      "en": "It's a series of inflationary sprints.",
+      "zh": "它是一连串通胀性的冲刺。"
+    },
+    {
+      "i": 149,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "40:52",
+      "en": "It's a Sisyphean marathon.",
+      "zh": "它是一场西西弗斯式的马拉松。"
+    },
+    {
+      "i": 150,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "40:53",
+      "en": "That never ends.",
+      "zh": "永远没有尽头。"
+    },
+    {
+      "i": 151,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "40:55",
+      "en": "It's actually a Sisyphean marathon, isn't it? Because there actually is no finish line, and so it's just sprinting forever.",
+      "zh": "它其实是一场西西弗斯式的马拉松，不是吗？因为确实没有终点线，所以它就是永远冲刺下去。"
+    },
+    {
+      "i": 152,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "41:02",
+      "en": "Yeah, well, I think that was the key assumption we have to make. I said it earlier, which is, does a lot more compute get you a lot smarter of a model? If at the margin we see evidence of that slowing down, or in fact stop, that would be a pretty good sign that AI safety is coming, everything is done. Then at that point, I would say it's over.",
+      "zh": "是啊，嗯，我认为这就是我们必须做出的那个关键假设。我之前说过，也就是：多得多的算力是否能给你一个聪明得多的模型？如果在边际上我们看到证据表明这在放缓，或者事实上停止了，那将是一个相当好的迹象，说明 AI 安全要来了、一切都结束了。到那时候，我会说这就完了。"
+    },
+    {
+      "i": 153,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "41:19",
+      "en": "Yeah, I guess it's not guaranteed that there will just always be more smarter forever.",
+      "zh": "是啊，我想并不能保证永远都会有'更聪明'。"
+    },
+    {
+      "i": 154,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "41:24",
+      "en": "Yeah, I think what's been unique about this AI cycle is if you're bearish, you could have two years ago thought, hey, if we just put more compute in, it's not going to get that much smarter. But the problem is we've had a lot of evidence. You put a lot more compute, it gets a lot more smarter. When does that end? Obviously, I don't know, but that's why we'll be watching that for the trend to turn.",
+      "zh": "是啊，我认为这一轮 AI 周期独特之处在于：如果你是空头，两年前你可以想，嘿，就算我们投入更多算力，它也不会聪明多少。但问题是我们已经有了大量证据：你投入多得多的算力，它就变得聪明得多。这什么时候结束？显然我不知道，但这就是为什么我们会盯着这个趋势、等它转向。"
+    },
+    {
+      "i": 155,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "41:42",
+      "en": "All right. Tianyang, thank you so much for coming on the podcast. Kind of crazy times and a fun discussion.",
+      "zh": "好。Tianyang，非常感谢你来上我们的播客。真是个疯狂的时代，也是一场很有意思的讨论。"
+    },
+    {
+      "i": 156,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "41:50",
+      "en": "Yeah, thanks for having.",
+      "zh": "是啊，谢谢你们邀请我。"
+    },
+    {
+      "i": 157,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "42:02",
+      "en": "Me.",
+      "zh": "我。"
+    },
+    {
+      "i": 158,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "42:04",
+      "en": "Tracy, I find it very hard to disagree with this trilemma thesis. I mean, at core, we know a few basic things right now about the world, I think. I think we know a few basic things and they are inflation is hot and people really do not are very upset about the cost of living. There are two major wars going on. One, we're directly involved in one kind of proxy. Three, there is this obvious rising geopolitical tension between the U.S. and China. And it relates increasingly not to the to AI specifically, which is very spending heavy. Yeah. And I don't know, it feels like something kind of got to give here. And I don't know what it'll be.",
+      "zh": "Tracy，我发现自己很难不同意这套三难论点。我是说，核心上，我们现在对这个世界知道几件基本的事情，我觉得。我认为我们知道几件基本的事情，它们是：通胀很烫手，人们对生活成本确实非常不满。有两场重大战争在进行。其中一场我们直接卷入，有点像是代理人战争。第三，美国与中国之间存在这种明显的、不断上升的地缘政治紧张。而且它越来越多地与 AI 相关，而 AI 是极度依赖支出的。是啊。我不知道，感觉这里总得有什么东西要让步。而我不知道那会是什么。"
+    },
+    {
+      "i": 159,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "42:47",
+      "en": "No, I agree. I find it hard to ask questions on a thesis that I broadly agree with. And I remember back in 2021, I wrote this piece, The Chokepoint Economy. And this was like my big realization, which was like governments were waking up to their relative vulnerabilities when it came to crucial technology or supply chain components. And so we were going to be in a very like China-esque Style race to build out those resources. I do think like one of the problems here is everything is being couched in these existential terms.",
+      "zh": "不，我同意。对于一个我大体认同的论点，我发现很难提出问题。我记得回到 2021 年，我写过一篇文章，《The Chokepoint Economy》。那是我的重大领悟，也就是：各国政府正在意识到自己在关键技术或供应链部件上的相对脆弱性。所以我们将进入一场非常中国式的竞赛，去建设这些资源。我确实认为这里的问题之一是，一切都在用这种关乎存亡的措辞来表述。"
+    },
+    {
+      "i": 160,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "43:20",
+      "en": "Right.",
+      "zh": "对。"
+    },
+    {
+      "i": 161,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "43:20",
+      "en": "And so if the sovereign says we have to develop AI technology because it's crucial to the future existence of our government slash population. then it's very hard to see anything that actually slams the brakes on that spending. And at the same time, if the technology itself is this iterative thing that never ends with a completely finished product, as we were discussing, you never say like, okay, we did it. Here's the AGI, we're done. Then how do you stop?",
+      "zh": "所以如果主权者说我们必须发展 AI 技术，因为它对我们政府乃至人口的存续至关重要，那么就很难看到有什么东西能真正给这笔支出踩刹车。同时，如果技术本身是这种迭代性的、永远不会有一个完全完工的产品，就像我们刚才讨论的，你永远不会说'好，我们做到了，这就是 AGI，我们完事了'。那你要怎么停下来？"
+    },
+    {
+      "i": 162,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "43:49",
+      "en": "Yeah. And then the other fact about the world that I didn't mention is We're getting older. And we, right? Like us personally? We are. But aging populations more broadly and the obligation.",
+      "zh": "是啊。然后还有一个我没提到的关于世界的事实：我们在变老。而我们，对吧？就是我们本人？我们是。但更广泛地说是人口老龄化，以及随之而来的义务。"
+    },
+    {
+      "i": 163,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "44:02",
+      "en": "I thought you were going to say you're aging, so you're really into gold now.",
+      "zh": "我以为你要说你在变老，所以你现在特别热衷黄金。"
+    },
+    {
+      "i": 164,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "44:08",
+      "en": "That's where we're going. No, I'm aging and I don't really care about the future anymore. No, but like, you know, we have made promises to retirees. A real resource promise. So that puts strains on the working share of the population. That further makes it harder to like get productivity gains and so forth. And so, yes, you have like these deep stresses. And I thought the point, you know, your question about like, you know, worsening productivity.",
+      "zh": "这就是我们要走的方向。不，我在变老，而且我不再真的关心未来了。不，但是，你懂的，我们对退休人员做出了承诺。一种真实资源的承诺。所以这给劳动人口那部分带来了压力。那又进一步让获得生产率增益之类的事情变得更难。所以，是的，你有这些深层的压力。而我刚才想到那个点，你懂的，你那个关于生产率恶化的问题。"
+    },
+    {
+      "i": 165,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "44:35",
+      "en": "Yeah.",
+      "zh": "是啊。"
+    },
+    {
+      "i": 166,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "44:36",
+      "en": "Clearly, like if everyone has to rebuild replica, if everyone has to rebuild their own domestic supply chain. That is a productivity killer.",
+      "zh": "显然，如果每个人都得重建一份复制品，如果每个人都得重建自己的国内供应链。那就是生产率杀手。"
+    },
+    {
+      "i": 167,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "44:43",
+      "en": "Which again is like a classic China problem of overinvestment, right?",
+      "zh": "而这又是一个经典的中国式问题，也就是过度投资，对吧？"
+    },
+    {
+      "i": 168,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "44:47",
+      "en": "Yeah.",
+      "zh": "是啊。"
+    },
+    {
+      "i": 169,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "44:47",
+      "en": "Anyway, shall we leave it there?",
+      "zh": "总之，我们就到这儿吧？"
+    },
+    {
+      "i": 170,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "44:48",
+      "en": "Let's leave it there.",
+      "zh": "就到这儿吧。"
+    },
+    {
+      "i": 171,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "44:49",
+      "en": "This has been another episode of the Odd Thoughts Podcast. I'm Traci Allaway. You can follow me at Traci Allaway.",
+      "zh": "这是又一期 Odd Lots 播客。我是 Tracy Alloway。可以在 @TracyAlloway 关注我。"
+    },
+    {
+      "i": 172,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "44:54",
+      "en": "And I'm Joe Weisenthal. You can follow me at The Stalwart. Follow our producers, Carmen Rodriguez at Carmen Armand, Dashiell Bennett at Dashbot, Kale Brooks at Kale Brooks, and Kevin Lozano at Kevin Lloyd Lozano. And if you want to keep chatting about all these topics, if you want to discuss more about the Sovereign Trilemma. Check out our Discord, discord.gg slash oddlots. And for more oddlots content, Tracy and I write a newsletter every day, which you can go find at bloomberg.com slash oddlots.",
+      "zh": "我是 Joe Weisenthal。可以在 @TheStalwart 关注我。关注我们的制作人：Carmen Rodriguez，@carmenarmand；Dashiell Bennett，@dashbot；Kale Brooks，@kalebrooks；以及 Kevin Lozano，@kevinlozano。如果你想继续聊这些话题，想更多地讨论这个'主权三难'，来看看我们的 Discord：discord.gg/oddlots。想要更多 Odd Lots 内容，Tracy 和我每天都写一份通讯，可以在 bloomberg.com/oddlots 找到。"
+    },
+    {
+      "i": 173,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "45:23",
+      "en": "And if you enjoyed this conversation, if you like it when we talk about the existential race for everything, then please leave us a positive review on your favorite podcast platform. And if you're watching on video, then please like or leave a comment or better yet, subscribe.",
+      "zh": "如果你喜欢这段对话，如果你喜欢听我们谈这场'万物存亡竞赛'，请在你常用的播客平台上给我们一个好评。如果你在看视频版，请点赞或留言，更好的是，订阅。"
+    },
+    {
+      "i": 174,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "45:37",
+      "en": "And if you're a Bloomberg subscriber, you can listen to all of our episodes absolutely ad-free. Just go to the Bloomberg channel on Apple Podcasts and follow the instructions there.",
+      "zh": "如果你是 Bloomberg 的订阅用户，你可以收听我们所有的节目，完全无广告。只要去 Apple Podcasts 上的 Bloomberg 频道，按那里的说明操作即可。"
+    },
+    {
+      "i": 175,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "45:46",
+      "en": "Thanks for joining.",
+      "zh": "感谢收听。"
+    },
+    {
+      "i": 176,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "45:55",
+      "en": "Do do",
+      "zh": "嘟嘟。"
+    }
+  ]
+}

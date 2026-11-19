@@ -1,0 +1,666 @@
+{
+  "show": "odd-lots",
+  "kind": "transcript",
+  "id": "350002242",
+  "guid": "9d24ac51-fef1-4f4e-8cda-b501016c2b98",
+  "slug": "2026-11-14-how-wall-street-is-bracing-for-350002242",
+  "date": "2026-11-14",
+  "title_en": "How Wall Street Is Bracing For the Post-Jensen Huang Nvidia Era",
+  "title_zh": "华尔街如何为「后黄仁勋时代」的 Nvidia 做准备",
+  "subtitle_zh": "Bernstein 高级分析师 Stacy Rasgon 谈他为何罕见下调 Nvidia 评级：关键人物风险、对华芯片政策与 AI 护城河",
+  "summary_zh": "本期 Odd Lots 由 Joe Weisenthal 与 Tracy Alloway 主持，嘉宾是 Bernstein Research 高级分析师 Stacy Rasgon。节目在 Nvidia 财报前录制，聚焦黄仁勋（Jensen Huang）突然离场的冲击。Rasgon 本周罕见下调 Nvidia 评级并把目标价砍半，坦言这是他写过最难的一次下调：导火索不是间谍传闻，而是随后曝出的他与下属的关系并对董事会隐瞒。就基本面而言他不担心近期收入或订单取消，但忧虑中长期路线图——黄仁勋是那个能往前看五到十年、做出重大技术判断（如当年投入 CUDA）的人，如今这些抉择要由别人来做。收入地区拆分上，按客户总部披露后 Malaysia、Singapore 仅约 1%，中国（含 Hong Kong）约 8% 且多为游戏和汽车业务，数据中心几乎不直接销往中国，美国客户超过 60%，中国台湾约 20% 出头。对华政策上他站在黄仁勋一边，认为卖旧款芯片、让中国围绕美国技术建生态更可控，但已为时太晚；Bessent 公开把责任推给 Lutnick，显示白宫围绕中国芯片的内斗已公开化。他还谈到多来源芯片趋势、AMD/Broadcom 等对手的增长空间、「AI 中央银行」式的供应商融资风险，以及巨额身家的 Nvidia 员工是否会流失。",
+  "description": "How Wall Street Is Bracing For the Post-Jensen Huang Nvidia Era",
+  "duration": "35:34",
+  "duration_seconds": 2134,
+  "episode_url": "https://www.iheart.com/podcast/1308-odd-lots-30972803/episode/how-wall-street-is-bracing-for-the-post-jensen-huang-nvidia-era-350002242",
+  "audio_url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/8a94442e-5a74-4fa2-8b8d-ae27003a8d6b/9d24ac51-fef1-4f4e-8cda-b501016c2b98/audio.mp3?utm_source=Podcast&in_playlist=982f5071-765c-403d-969d-ae27003a8d83&source=iheart",
+  "speakers": {
+    "1": "Joe Weisenthal（主持）",
+    "2": "Tracy Alloway（主持）",
+    "3": "Stacy Rasgon（嘉宾）",
+    "4": "片花/广告（旁白）"
+  },
+  "turn_count": 80,
+  "turns": [
+    {
+      "i": 0,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "00:03",
+      "en": "Bloomberg Audio Studios. Podcasts.",
+      "zh": "Bloomberg Audio Studios。播客。"
+    },
+    {
+      "i": 1,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "00:06",
+      "en": "Radio. News.",
+      "zh": "电台。新闻。"
+    },
+    {
+      "i": 2,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "00:19",
+      "en": "Hello and welcome to another episode of the Odd Lots podcast. I'm Joe Weisenthal.",
+      "zh": "大家好，欢迎收听新一期的 Odd Lots 播客。我是 Joe Weisenthal。"
+    },
+    {
+      "i": 3,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "00:24",
+      "en": "And I'm Tracy Allaway.",
+      "zh": "我是 Tracy Alloway。"
+    },
+    {
+      "i": 4,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "00:25",
+      "en": "Tracy, we're recording this Friday, November 13th. The NVIDIA story is so fast moving that we have to sort of be careful with the episodes we record because we don't know what's going to happen by the time it comes out. But one thing we at least do know is that NVIDIA is scheduled to report earnings next week. And at least that is the next sort of. thing that we know. It's the one known unknown, so to speak, that we can look forward to, right? It's the one thing we do know is that there's something on the calendar.",
+      "zh": "Tracy，我们这期是在 11 月 13 日星期五录制的。Nvidia 的事情发展得太快了，所以我们录节目时得格外小心，因为不知道等节目播出时又会发生什么。但至少有一件事我们是确定的：Nvidia 定于下周发布财报。至少这是我们知道的下一个节点。可以说，这是唯一一个我们能预见的「已知的未知」（known unknown），对吧？我们唯一确定的，就是日历上已经排好了这件事。"
+    },
+    {
+      "i": 5,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "00:57",
+      "en": "That's right.",
+      "zh": "没错。"
+    },
+    {
+      "i": 6,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "00:58",
+      "en": "I feel like this is another one of those episodes where we have to say exactly when we're recording. So this is 1210 New York time. The stock is down about 4% as we're recording. And obviously, you know, in corporate analyst space, we hear people talk about key man risk all the time, which is a hard thing to actually measure and think about. But I think in the case of Jensen, this is kind of the ultimate key man risk, right?",
+      "zh": "我觉得这又是那种必须说清楚录制时间的节目。现在是纽约时间 12:10，就在我们录制的这会儿，股价跌了大约 4%。显然，在公司分析这个领域，我们总是听人提到「关键人物风险」（key man risk），这东西其实很难量化、很难琢磨。但我觉得在 Jensen 这件事上，这简直就是终极版的关键人物风险，对吧？"
+    },
+    {
+      "i": 7,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "01:24",
+      "en": "This is the guy that built the company.",
+      "zh": "这家公司就是他一手建立起来的。"
+    },
+    {
+      "i": 8,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "01:27",
+      "en": "We know from various reports that he was intensely involved in the company itself, something like 60 direct reports, no succession plan, really.",
+      "zh": "我们从各种报道中知道，他深度参与公司事务，直接向他汇报的人大约有 60 个，而且说实话根本没有继任计划。"
+    },
+    {
+      "i": 9,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "01:37",
+      "en": "It seems like.",
+      "zh": "看起来是这样。"
+    },
+    {
+      "i": 10,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "01:38",
+      "en": "He was very involved in individual, like, financing deals and things like that. And so you can imagine if you're an analyst covering NVIDIA stock right now, it must be pretty challenging.",
+      "zh": "他还深度参与具体的一笔笔融资交易之类的事情。所以你可以想象，如果你现在是覆盖 Nvidia 股票的分析师，那一定相当有挑战性。"
+    },
+    {
+      "i": 11,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "01:48",
+      "en": "No, totally.",
+      "zh": "确实是这样。"
+    },
+    {
+      "i": 12,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "01:49",
+      "en": "I've met a few people in my life who have talked about, like, their companies. They're like, my company got some investment from NVIDIA. I got to meet Jensen Wang. I was like, oh, that's cool. But now I go back and listen and remember hearing these stories, and it's like, wow. Wow, he was super involved. Like that same story is like on one. It's sort of like that meme is like, oh, that's great. We have a super involved CEO. And then it's like, oh, we have.",
+      "zh": "我这辈子遇到过几个人聊起自己的公司，他们会说：「我的公司拿到了 Nvidia 的投资，我还见到了 Jensen Huang。」我当时想，哦，挺酷的。但现在我回过头去听、去回想这些故事，就会觉得，哇。哇，他参与得也太深了。同样一个故事，一方面就像那个梗图说的：哦，太棒了，我们有一位超级投入的 CEO。然后另一方面又变成：哦，我们有一位……"
+    },
+    {
+      "i": 13,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "02:13",
+      "en": "A super involved CEO. Is this good or bad?",
+      "zh": "……超级投入的 CEO。这到底是好事还是坏事呢？"
+    },
+    {
+      "i": 14,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "02:17",
+      "en": "Anyway, so if you're thinking if just thinking about it from a stock perspective, you have the key man risk. You have all of the legal questions that the company is going to face and how, you know, just everything related to the sort of mega speed and what it knew when and all that stuff. And then there's just the fundamentals of the business and there's chip demand, but also its role in financing a big ecosystem of companies that either use and buy video chips.",
+      "zh": "总之，如果只从股票的角度来想，你有关键人物风险；有公司将要面对的所有法律问题，也就是跟 Megaspeed 相关的一切——它什么时候知道些什么之类的；然后还有业务的基本面，既有芯片需求，也有它在为一整个生态系统公司提供融资方面所扮演的角色，这些公司要么使用、要么购买 Nvidia 的芯片。"
+    },
+    {
+      "i": 15,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "02:44",
+      "en": "There's a lot to talk about, obviously.",
+      "zh": "显然，可聊的东西太多了。"
+    },
+    {
+      "i": 16,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "02:46",
+      "en": "All right.",
+      "zh": "好的。"
+    },
+    {
+      "i": 17,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "02:46",
+      "en": "Let's not waste more time. We really do have the perfect guest, someone we haven't had him on in a while, but he's who we talk to frequently when we want to talk about NVIDIA specifically. We're going to be speaking with Stacey Rasgan. He's a managing director and senior analyst at Bernstein Research. He covers this company, covers semiconductor, semiconductor equipment, knows the company very well. If you listen to earnings conference calls, you've probably heard his voice before. So, Stacey, thank you so much for coming back on OddLots. It's been too long. We've missed you.",
+      "zh": "我们就不浪费时间了。我们今天请到了真正完美的嘉宾，一位我们有一阵子没请来、但每当我们想专门聊聊 Nvidia 时总会找他的人——我们要对话的是 Stacy Rasgon。他是 Bernstein Research 的董事总经理兼高级分析师，覆盖这家公司，也覆盖半导体和半导体设备，对这家公司非常了解。如果你听过财报电话会，你多半听过他的声音。Stacy，非常感谢你再次做客 Odd Lots，太久没见了，我们很想你。"
+    },
+    {
+      "i": 18,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "03:18",
+      "en": "It has been. And it's my pleasure, my great pleasure to be here. So thanks for having me on again. Absolutely.",
+      "zh": "确实太久了。这是我的荣幸，非常荣幸能来这里。所以谢谢你们再次邀请我，当然愿意。"
+    },
+    {
+      "i": 19,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "03:22",
+      "en": "How weird is this a moment as a stock analyst, just figuring it out, just professionally, like your job is not to figure it out. How many dimensions and variables are you trying to work through?",
+      "zh": "作为一个股票分析师，这是多么奇怪的一个时刻——你得纯粹从专业角度去把这一切搞清楚。你到底在同时权衡多少个维度和变量？"
+    },
+    {
+      "i": 20,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "03:33",
+      "en": "This is a very weird moment as an analyst covering this company and a sad moment. Let's be honest. I mean, there's no good solutions or outcomes or anything else coming out of this entire mess. Like it's just a disaster of the highest proportions, frankly. And it's been sort of surreal covering this as an analyst. It's not been fun. Clearly, you know, Jensen's having a worse time than we are, but it's been a long week for sure.",
+      "zh": "作为一个覆盖这家公司的分析师，这是一个非常奇怪的时刻，也是一个令人难过的时刻。说实话，这整团乱麻里不会有任何好的解决方案或结果。坦白讲，这就是一场最高级别的灾难。作为分析师来跟踪这件事，感觉有点超现实，一点也不好玩。显然，Jensen 的处境比我们还糟，但这绝对是漫长的一周。"
+    },
+    {
+      "i": 21,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "04:00",
+      "en": "So you actually decided to downgrade NVIDIA earlier this week. What was the catalyst for taking that move? Because that's a pretty big call when the headlines are still flying, you know.",
+      "zh": "所以你本周早些时候真的决定下调 Nvidia 的评级。做出这个决定的导火索是什么？因为在新闻头条还在满天飞的时候，这是个相当大的判断。"
+    },
+    {
+      "i": 22,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "04:10",
+      "en": "Let me step back, actually. So the news flow around this started, I mean, it had been coming up in dribs and drabs, and it sort of crystallized on Friday evening when the article started coming out that he had had a relationship with this individual, Alice Wayne. It was coming out that the US intelligence community was concerned that she might be an asset for China. By the way, I will say I was not necessarily convinced at that point. I'm still not necessarily convinced that she was necessarily a spy. May just be like a business woman who likes to be close to power. Like, we'll see. But that was the news that started coming out on Friday. We published something on Sunday evening, sort of outlining those kinds of risks. And at that point, My view was that he could probably stick around. Again, I was less convinced and still am not entirely convinced on the espionage aspect. And she was a customer, which is kind of a gray area, but maybe he can manage it. And to be clear, I'm not making any judgments on any of his personal activities. That's not my job to judge that. But my view at the time on Sunday evening was nobody really wanted to see him leave. That was always the risk. And we sort of outlined in that piece, the key man risk here was clearly the biggest piece of this. And I assume we'll talk a little more in detail on that. But my view on Sunday was that, look, shareholders didn't want to see him on the board at that point, didn't want to see him gone. And it wasn't anybody's best interest to see him gone. So I thought he could hang around. The catalyst for me was the secondary disclosures about the relationships that he apparently had with his subordinates. And unfortunately, that's just kind of the kiss of death. Like you just You can't sleep with your subordinates and then lie to the board about it. I've had other CEOs in my coverage over the years fired for exactly that and frankly, even for things that were less egregious along those lines than what we saw here. And so when that came out, we sort of had to make a decision. Do we think that it's much more likely now that he gets dismissed? And my conclusion at that point was yes. And the next day we actually got confirmation that they did in fact dismiss him. And so then I had to decide, like, what do you do with the stock? And this is where the discussion is. And I was joking that we spent more time with me and my team discussing what to do versus writing the actual downgrade. And to be clear, we downgraded the stock from outperforming the market before we cut our target price in half. And it didn't take long to write it. There's not a whole lot of analysis to do, right? But you have to decide what to do. And so it was probably the most difficult downgrade, though, from that standpoint that I've ever had to write. Right. You never want to do it. And like I said, I love Jensen and I love NVIDIA and I love the story. And I've been a very big data center bull and I still am. But you sort of have to weigh this stuff. Like the argument to keep the call, and I have some sympathy for it, is the stock is incredibly cheap. It was already cheap. It's gotten cheaper, clearly. At this point, we didn't cut our numbers. I actually don't think near-term trajectory for their business is really at a ton of risk. I don't think customers at this point are buying less data center stuff from them next year because of this. And you can argue that this valuation, that you're pricing in a lot of bad news. So that's one argument. On the other hand, I think you're going to see more and more news flow and tape bombs coming up, both from inside the company as well as externally. It's very clear that there seem to be elements in the US government that want them gone. In fact, the China hawks that I think are probably the ones that kicked this off are probably not going to get the scenario that they were hoping for. This is not a good scenario, even if you're a China hawk. But you're going to see more and more calls for investigation. This is the problem is I think it's the board and NVIDIA will find that it was a mistake to let him go. But unfortunately, he made it impossible for him to stay. It may have been even a bigger mistake to keep him, right? And given the news flow, we're likely to find they, I think they had to sever that tie as quickly as possible. And now anything that comes out of these investigations, at least you can argue it's not NVIDIA, it was Jensen. I'm waiting to see what happens when they, I don't know, they subpoena his text and his emails. And you dig hard enough into anybody's history, you're going to find something. And whatever they find, my guess is going to be spun in the absolute worst possible light. We've already seen that with some of the headlines now. And I just find it very difficult to advocate to my clients to own the stock in front of all of that. And now I fold on top of that, and certainly around the CEO and What kind of a perspective is any new CEO going to have, whether it's internal or external? And they've made lots of decisions in the supply chain. And many of them are based on Jensen's handshake and his personal relationships. And how do you maintain that? I don't know. So I came down on the side. If I can't sit in front of a client and advocate, I think absolutely you should be buying this dip. It's hard for me to maintain the buy on it. So that's why we downgraded it. But it was, and we discussed this for hours among the team before writing it. Writing it took 20 minutes, right? It's not a long thing to have to go through on that standpoint. What a bummer.",
+      "zh": "其实让我先退一步说。围绕这件事的消息，一开始是零星冒出来的，到周五晚上才逐渐清晰起来——当时开始有文章爆料说他跟一个叫 Alice Wang 的人有过一段关系。随后又爆出美国情报界担心她可能是中国的一名「资产」（线人）。顺便说一句，我得说，在那个时点我未必信服，我现在也未必相信她一定是间谍。她可能只是一个喜欢贴近权力的商界女性。这个我们拭目以待。但这就是周五开始爆出的消息。我们在周日晚上发布了一份报告，大致勾勒出这类风险。当时我的判断是，他大概能留任。同样，我对间谍这个说法不太信服，现在也没完全信服。而且她是一个客户，这算是个灰色地带，但也许他能处理好。说清楚一点，我对他的任何个人活动不做任何评判，评判这些不是我的工作。但我周日晚上的看法是，其实没人真的希望他离开。这始终就是风险所在。我们在那份报告里也勾勒过，这里的关键人物风险显然是最重大的一块，我猜我们后面会更详细地谈。但我周日的判断是：看，股东们当时不希望他离开董事会、不希望他走人，让他走对谁都没好处，所以我觉得他能留任。真正的导火索，是随后披露的、他显然与下属之间存在的多段关系。很不幸，这基本上就是致命一击。你不能跟下属上床，然后再就此事对董事会撒谎。这些年我覆盖范围内就有其他 CEO 正因为这个被解雇，坦白说，有些情节还没我们这次看到的这么严重。所以当这些爆料出来后，我们就必须做个判断：我们认为他现在被解职的可能性是不是大大上升了？我当时得出的结论是「是」。第二天我们果然得到证实，他们确实解除了他的职务。接下来我就得决定，这只股票该怎么办？讨论就出在这里。我开玩笑说，我和团队花在讨论该怎么办上的时间，比真正写那份下调评级报告的时间还多。说清楚一点，我们是先把股票从「跑赢大盘」下调，然后把目标价砍掉一半。报告写起来没花多久，因为没多少分析要做，对吧？但你必须决定怎么做。所以从这个角度讲，这大概是我写过的最难的一次下调评级。你永远不想写这种东西。就像我说的，我喜欢 Jensen，我喜欢 Nvidia，我喜欢这个故事，我一直是非常坚定的数据中心多头，现在也还是。但你必须权衡这些因素。维持买入评级的理由——我对它也有一定认同——是这只股票极其便宜，本来就已经便宜，现在显然更便宜了。到目前为止，我们并没有下调盈利预测。我其实不认为他们业务的近期轨迹真的面临多大风险，我不认为客户会因为这件事而在明年减少向他们采购数据中心产品。你可以说，这个估值已经计入了大量坏消息。这是一个理由。但另一方面，我觉得接下来会看到越来越多的消息和「定时炸弹」，既有公司内部的，也有外部的。很明显，美国政府内部似乎有一些势力希望他们出局。事实上，我猜正是那些中国鹰派挑起了这件事，而他们大概不会得到自己期盼的那种局面。即便你是中国鹰派，这也不是个好局面。但你会看到越来越多要求展开调查的呼声。问题在于，我觉得是董事会和 Nvidia 会发现，让他走是个错误。但不幸的是，他让留任变得不可能。留住他也许是更大的错误，对吧？而且以目前的消息流来看，我认为他们必须尽快切断这层关系。这样一来，这些调查之后爆出的任何东西，至少你可以说那不是 Nvidia 干的，那是 Jensen 干的。我在等着看，当他们——我不知道——调取他的短信和邮件时会发生什么。你只要足够深挖任何人的历史，总会挖出点东西。而他们无论挖出什么，我猜都会被以最糟糕的方式解读。我们现在已经在一些头条里看到这种情形了。在这一切面前，我实在很难向客户力荐持有这只股票。更不用说围绕 CEO 的问题之上再叠加这些：无论内部还是外部，任何一位新 CEO 会带来什么样的视角？他们在供应链上做了大量决策，其中很多都是基于 Jensen 的握手之交和他的私人关系。这些要怎么维系？我不知道。所以我最终站到了这一边：如果我没法坐在客户面前力荐、说「你绝对应该逢低买入」，那我就很难维持买入评级。这就是我们下调评级的原因。为此我们在团队内部讨论了好几个小时才动笔，而写出来只花了 20 分钟，对吧？从那个角度看，这并不是一个需要熬很久的过程。真是可惜了。"
+    },
+    {
+      "i": 23,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "09:08",
+      "en": "Let's just take a few of these questions from the stock perspective, sort of break it down. You're confident in the numbers. You don't think there's going to be some big cancellation of orders. But let's just talk about how important are sales into Asia or Southeast Asia. When we talk about valuations, we talk about the 2027 outlook or the backwards looking 2026. And let's say there are meaningful curbs here, or let's say there was some blind eye towards smuggling or any questions around this, and something has to happen, and there are meaningful changes in how NVIDIA can sell into, I should say, the Asian market rather than the Chinese market per se. How important is that to the sort of lagging numbers? And how important is this market to the forward numbers? And how much of that is actually at material risk, either because some change in policy or internal controls clamping down?",
+      "zh": "我们就从股票的角度把这些问题拆开来看几条。你对这些数字有信心，不认为会出现大规模的订单取消。但我们来谈谈，销往亚洲或东南亚的销售到底有多重要。当我们谈估值时，我们谈的是 2027 年的前景，或者回望 2026 年。假使这里出现实质性的限制，或者假使对走私之类的行为存在睁一只眼闭一只眼、或围绕此有任何问题，从而必须有所行动，Nvidia 销往——我应该说——亚洲市场（而非严格意义上的中国市场）的方式发生实质性变化。这对那些滞后反映的数字有多重要？这个市场对前瞻性数字又有多重要？其中有多少实际上面临实质性风险，无论是因为政策变化还是内部管控收紧？"
+    },
+    {
+      "i": 24,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "10:09",
+      "en": "Yeah, you bet. So it's a tough question to answer, unfortunately. So the company does report revenues by geography and they do this now. They made a switch a little while ago to report by the location of the headquarters of the companies. So for example, if you look prior, they had like very high sales going into Singapore and Malaysia. And these were like the location of the shipments. But the companies that were doing that ordering were located elsewhere. So they've actually made a shift. And actually many semiconductor companies recently have made this shift. to report geographical breakdown by the location of the headquarters of the customer. So on that basis, like Malaysian and Singapore, basically they report US, Taiwan, China, including Hong Kong and others. and other would be Singapore and Malaysia and all these other ones.",
+      "zh": "是啊，当然。可惜这是个很难回答的问题。公司确实会按地区披露收入，而且现在就是这么做的。他们不久前做了一个切换，改成按公司总部所在地来披露。举例来说，如果看之前的数据，他们销往 Singapore 和 Malaysia 的销售额非常高，但那些是发货地，而下单的公司其实位于别处。所以他们实际上做了调整。其实最近很多半导体公司都做了这个调整，改成按客户总部所在地来披露地区细分。按这个口径，Malaysia 和 Singapore 基本上就归入了「其他」；他们披露的是美国、中国台湾、中国（含 Hong Kong）以及「其他」，而「其他」里就是 Singapore、Malaysia 等等这些地方。"
+    },
+    {
+      "i": 25,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "10:55",
+      "en": "So an Oracle data center in Malaysia, and there was, I don't know if, like, that would, under the current reporting regime, that would actually show up as a sale to the US, which from a geopolitical standpoint is arguably very misleading.",
+      "zh": "所以一个位于 Malaysia 的 Oracle 数据中心——我不确定——在现行的披露口径下，那实际上会被算作对美国的销售，而从地缘政治的角度看，这可以说相当有误导性。"
+    },
+    {
+      "i": 26,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "11:09",
+      "en": "Well, maybe or maybe not. I mean, I could argue that whoever is actually owning and running the data center is actually the most important thing, because I'm assuming Oracle's I'm assuming Larry Ellison's not sneaking into Shenzhen with the Vera Rubin shoved up as behind, right?",
+      "zh": "嗯，也许吧，也许不是。我可以争辩说，真正拥有并运营这个数据中心的那一方才是最重要的，因为我猜 Oracle——我猜 Larry Ellison 不会把 Vera Rubin 藏在身后偷偷溜进 Shenzhen，对吧？"
+    },
+    {
+      "i": 27,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "11:22",
+      "en": "There's an image.",
+      "zh": "这画面感十足啊。"
+    },
+    {
+      "i": 28,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "11:25",
+      "en": "I don't necessarily object to this. And again, they're not the only ones that are reporting revenues like this. As an aside, I should step back. The geographical split by shipments in many cases can be misleading for semis. So for example, I'll make it up. Take a company like Qualcomm. They will show very high sales into China. Why? Why? Because where are the smartphones assembled? They're assembled in China. So where are they actually shipping the parts? So even a shipment to Apple from Qualcomm that's going to an iPhone, in many cases under a strict geographical split would show up as Chinese revenue, even though really it's not. So I actually think the ownership and who's running these things is important. And so I don't object to the split. But on the current split, the Malaysian and say basically the other block, it's like 1% of the revenue. It's very small. The direct sales to Chinese customers, so China, including Hong Kong, I think last quarter was roughly 8% of their sales. And that will include a big chunk of their gaming and auto revenues as well. In terms of data center stuff, they're basically shipping effectively nothing directly into China. They actually do have some license from the US government to ship older parts. But in fact, the Chinese government is not really allowing them to ship. And this gets into a whole broader discussion we can have around China policy that I think we'll get to. But right now, they're not really shipping much data center stuff directly into China. And it's mostly because of China. China won't allow them, even where NVIDIA has the permission to do it from the U.S. So the vast majority, I'm going to make up the numbers, but I think these are roughly correct. U.S. customers are over 60%. And then the remainder, which I believe is low 20s, I could look it up, but I think it's in the low 20s, is Taiwanese customers. So my assumption would be that if there's like stuff that is actually getting smuggled into China, it's probably not from the U.S. customers, right? It's probably not from the Chinese customers. You're not selling the stuff to them anywhere. It's not very much. And the Malaysian and Singaporean customers is very small. So it's got to be the Taiwanese customers. I've seen a lot of numbers floating around. Some people would say, oh, it's like up to 20% of their revenue. I don't know how big it is. I doubt it's that big. But like the Taiwanese block is... in that ballpark in terms of a percentage of their revenue. So maybe you could argue they're not really Taiwanese customers. They're, you know, China fronts, right? I don't know. My guess is it's probably not 20%. It's probably not zero. I mean, you can never stop smuggling entirely, but it's some amount. I don't think it's 20%, but it's some amount. There's another piece of this, though, which is, and this is now getting some traction, I think, with the government, is They want to crack down on China users within China using capacity remotely. Yeah. Right.",
+      "zh": "我倒不一定反对这种做法。而且再说一次，他们不是唯一这样披露收入的公司。顺便说一句，我得退一步讲，按发货地做地区拆分，对半导体公司来说在很多情况下反而会有误导性。举个例子——我随口编一个——像 Qualcomm 这样的公司，它们对中国的销售额会显示得非常高。为什么？因为智能手机是在哪里组装的？是在 China 组装的。那它们实际把零部件发往哪里呢？所以即便是 Qualcomm 发给 Apple、最终装进 iPhone 的货，在严格的地区拆分口径下，很多时候也会被算作中国收入，尽管实质上并不是。所以我其实认为，所有权、以及谁在运营这些东西才是重要的。因此我不反对这种拆分方式。但在当前的拆分口径下，Malaysia 和 Singapore 基本上归入「其他」那一块，大约只占收入的 1%，非常小。对中国客户的直接销售，也就是中国（含 Hong Kong），我记得上季度大约占他们销售额的 8%，而且这里面还包含了他们游戏和汽车业务收入的很大一部分。至于数据中心产品，他们基本上几乎没有直接销往 China 的量。他们确实从美国政府那里拿到了一些许可，可以发货旧款芯片，但事实上中国政府并不真的允许他们发货。这就引出了一个更广泛的、关于中国政策的讨论，我想我们后面会谈到。但眼下，他们并没有真正直接往 China 发多少数据中心产品，而且这主要是因为 China。即使在 Nvidia 已经从美国方面获得许可的地方，China 也不允许他们卖。所以绝大部分——数字我随口估，但我认为大致准确——美国客户超过 60%，剩下的部分我记得是 20% 出头，我可以去查，但我记得是 20% 出头，是中国台湾客户。所以我的假设是：如果真有东西被走私进 China，那多半不是来自美国客户，对吧？也不太可能来自中国客户，因为你根本没在卖给他们多少东西，量不大。而 Malaysia 和 Singapore 的客户非常小。所以只可能是中国台湾的客户。我看到外面流传着很多数字，有人会说，哦，可能高达他们收入的 20%。我不知道到底有多大，我怀疑没那么高。但中国台湾那一块，就占收入的百分比而言，大致在这个量级。所以也许你可以争辩说，他们并不是真正的中国台湾客户，而是中国的「白手套」，对吧？我不知道。我猜大概率不是 20%，但也不太可能是零。我是说，你永远没法彻底杜绝走私，但总有那么一些量。我不认为是 20%，但确实有一些。不过这件事还有另一层，而且我认为这一点现在在政府那里开始有些势头：他们想打击 China 境内的用户远程使用境外的算力。是的，没错。"
+    },
+    {
+      "i": 29,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "14:08",
+      "en": "This is the rental issue.",
+      "zh": "这就是算力租赁的问题。"
+    },
+    {
+      "i": 30,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "14:09",
+      "en": "So right now it is legal for a company in China to access, you know, cloud services from outside of China. And they want to put a stop to that. I don't know how big that is. I don't know. I don't know.",
+      "zh": "目前，一家中国公司去使用中国境外的云服务是合法的。他们想叫停这种做法。我不知道这块规模有多大。我不知道，真不知道。"
+    },
+    {
+      "i": 31,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "14:36",
+      "en": "What's your impression of Jensen's overall involvement in the company? And again, we hear these stories that a lot of the deals are sort of personal handshake deals between him and customers.",
+      "zh": "你对 Jensen 在公司里整体参与程度有什么印象？还有，我们总是听到这样的说法：很多交易其实是他和客户之间私人的握手成交。"
+    },
+    {
+      "i": 32,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "14:49",
+      "en": "What was his day-to-day like at NVIDIA?",
+      "zh": "他在 Nvidia 的日常是怎样的？"
+    },
+    {
+      "i": 33,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "14:52",
+      "en": "Well, I guess we know a little more about his day-to-day now, unfortunately, than we wanted to. He's always running around. He's the face. I mean, his job, it's kind of, you know, he's sort of the chief technologist and the chief strategist. And he's also almost like the chief sales guy and the chief storyteller, right, in some sense. And he's kind of been an evangelist for AI. Internally, I mean, look, as you've said, he's got a very flat organization. Most of the key folks report to him directly. He makes all of the key decisions. And by the way, that's a positive sense that they can move very, very quickly. We're seeing all these folks come out of the woodwork now about, oh, they had some huge problem and they were in dire straits and they emailed Jensen and Jensen fixed the problem in seven minutes or whatever it was. They could move at a pace that most companies could not because he had that degree of direct control. I think a lot of these deals out there are handshakes or if they're not, I mean, you've got customers and suppliers that are presumably adding capacity because they trust Jensen. And Jensen's convinced them to take that leap of faith and build it. And I think those are going to be very difficult things for a new CEO to come in and fulfill. Like, I'm not really worried about the operations. I mean, they've got very smart people there and they've got great technologists. And I'm not really worried about that at this point. But like the degree of direct control that Jensen had, it worked very, very well while he was there. It's going to cause problems, I think, once he's gone, for sure.",
+      "zh": "唉，可惜我们现在对他的日常了解得比想知道的还要多。他总是到处奔波，他是公司的门面。我是说，他的角色，你知道，他有点像首席技术官兼首席战略官，同时在某种意义上又几乎是首席销售官和首席故事讲述者。他一直算是 AI 的布道者。对内来说，看，就像你说的，他的组织非常扁平，大多数关键人物都直接向他汇报，所有关键决策都由他来做。而且顺便说，这在正面意义上意味着他们能非常非常快地行动。我们现在看到形形色色的人冒出来讲，哦，他们遇到了某个大麻烦、陷入绝境，然后给 Jensen 发了封邮件，Jensen 七分钟之类的就把问题解决了。他们能以大多数公司做不到的速度推进，正是因为他有那种程度的直接掌控。我认为外面很多交易都是握手成交，或者即便不是，你也有那些客户和供应商，他们多半是因为信任 Jensen 才去扩产能，是 Jensen 说服他们迈出这一信念之跃去建厂扩产。我认为这些对一位新上任的 CEO 来说会是非常难兑现的东西。倒不是说我真担心运营层面，我是说他们那里有非常聪明的人、有出色的技术专家，这一点我现在并不太担心。但 Jensen 所拥有的那种直接掌控程度，在他在位时运作得非常好，而一旦他离开，我认为肯定会带来问题。"
+    },
+    {
+      "i": 34,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "16:14",
+      "en": "On technology, like, OK, there's who knows how smooth the sort of operations will continue. As a technologist, over the years, you have to make some big calls, right? And so when you think like, okay, maybe with the AI or the tech roadmap for the next year or two is understood, but presumably there are going to be big calls that have to be made in the future. And he clearly had an amazing track record of knowing where the puck was going and getting some big calls right. How do you think about that sort of medium-term risk and the capacity of nvidia.",
+      "zh": "在技术方面，好吧，运营能否顺利延续谁也说不准。作为一名技术专家，多年来你必须做出一些重大判断，对吧？所以你会想，好吧，也许未来一两年 AI 或技术路线图是清晰的，但未来想必还有一些重大判断必须去做。而他显然有着惊人的过往记录，总能预判「冰球会滑向哪里」、把一些重大判断做对。你怎么看这种中期风险，以及 Nvidia 的能力？"
+    },
+    {
+      "i": 35,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "16:50",
+      "en": "That's exactly what i'm worried about so again i'm not worried about so much the revenue next year maybe even in 20 but i mean you think about the roadmap they're shipping ruben now ruben is baked ruben ultra sounds like it's baked like fineman i guess will be next i don't know how fully baked that that is and then what comes after fineman and you're about what what are the kind of calls that what's the architecture look like yeah What kind of memory architecture are they using? How much HBM is going to be there? Are they going to use something like, who knows? These are big, major inflections that will have to be called. And to your point, he's had a very good track record. And so that's my issue. Like, like he's the one that sits there and thinks out like five years, 10 years. He's the one that's seeing around those corners. The reason they are so dominant today is because of decisions that he made, you know, 10 years ago. Like what?",
+      "zh": "这正是我担心的地方。所以再说一次，我不太担心明年的收入，也许甚至不担心再往后一些，但我是说，你想想路线图：他们现在在出货 Rubin，Rubin 已经定死了；Rubin Ultra 听起来也已经定了；接下来应该是 Feynman，我不知道那个定得有多死；再往后 Feynman 之后又是什么？这些是需要拍板的判断——架构会是什么样？是啊，会用什么样的内存架构？会放多少 HBM？会不会用某种……谁知道呢？这些都是必须做出抉择的重大拐点。而正如你所说，他有过非常好的记录，所以这就是我的顾虑所在。他就是那个坐在那里往前想五年、十年的人，是那个能看穿拐角、预见未来的人。他们今天之所以如此占据主导，正是因为他在十年前做出的那些决策。比如什么呢？"
+    },
+    {
+      "i": 36,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "17:35",
+      "en": "Like what was the decision he made 10 years ago that you would say is painful?",
+      "zh": "比如，你会说他十年前做出的哪个决策是关键性的？"
+    },
+    {
+      "i": 37,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "17:38",
+      "en": "I mean, just for, this has been plenty of, but I mean, investing in CUDA, They weren't in dire straits 10 years ago. 15 years ago, they were. He was investing a ton of money into the software ecosystem. At the time, I don't think anybody really wanted or cared about, but look what it's got. It's built a massive moat and he was in the right place at the right time when these applications came to light. Plenty of other CEOs out there probably would not have made that call. If people forget, The stock's been, I mean, it's been amazing, but I mean, it was a $ 10 to $ 20 stock like for years and years. And by the way, on the current share count, you got to divide both of those numbers by 40. They've done a 40 for one stock split since then. So I mean, what is that? I can do my math, 25 to 50 cents on today's share count basis. It would have been for years and years and years while he was making these kinds of investments when people were telling him to stop and he didn't. And so I don't know what kind of like pucks he, or where he sees the puck going over the next 10 years. But you're going to have somebody else making that call now, not him. I'd rather have him making it if I could, you know?",
+      "zh": "我是说，这样的例子有很多，但比如投资 CUDA。十年前他们并不处于绝境——十五年前倒是。他当时把大把的钱投进软件生态系统，而在那个时候，我觉得根本没人真正想要或在乎这东西，可看看它带来了什么：它构建了一条巨大的护城河，而且当这些应用真正显现时，他恰好在对的时间处在了对的位置。外面很多其他 CEO 大概都不会做那样的判断。如果人们忘了的话——这只股票，我是说，它的表现很惊人，但它曾常年是一只 10 到 20 美元的股票。而且顺便说，按当前的股本算，你得把这两个数字都除以 40，因为此后他们做过一次 40 拆 1 的股票拆分。所以那是什么？我算一下：按今天的股本基础，也就是 25 到 50 美分。在他做这些投资的那些年里，股价常年就是这个水平，当时人们都叫他停手，他没停。所以我不知道未来十年他眼中的「冰球」会滑向哪里，但现在做出那个判断的将是别人，而不是他。如果可以的话，我更愿意由他来做这个判断，你懂吧？"
+    },
+    {
+      "i": 38,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "18:45",
+      "en": "So setting aside the sort of key man risk and whether NVIDIA will continue to grow at the pace it's been able to grow under Jensen, is one of the risks that's emerging now, or I guess accelerating just the China hawks even more on the rise when it comes to chip policy. And I have to say, so again, we're recording this on Friday, November 13th. One of the big items of breaking news this morning was we saw Treasury Secretary Scott Besant saying that, well, this is Letnick's fault because Megaspeed should have been on the blacklist.",
+      "zh": "那么，先把关键人物风险、以及 Nvidia 能否延续在 Jensen 领导下的增长速度放一边——现在正在浮现、或者说正在加剧的风险之一，是不是就是在芯片政策上，中国鹰派进一步抬头？而且我得说，再次强调，我们是在 11 月 13 日星期五录制的。今早的一条大新闻是，我们看到财政部长 Scott Bessent 说，嗯，这是 Lutnick 的错，因为 Megaspeed 早就该被列入黑名单了。"
+    },
+    {
+      "i": 39,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "19:16",
+      "en": "Yeah. So my guess is a lot of this may have started with, these are the conspiracy theories, but I mean, feels like a lot of this started with the China hawks. And again, even with Alice Wang, like she doesn't need to be a spy. She just needs to be able to be credibly painted as a spy. And if none of the other stuff had come out, like let's say he had kept his job, like that would be great. But could he ever be like a public voice on China AI policy ever again? Probably not. So that might've been the original goal of all of this was to get, because I don't, there's plenty of China. You know, he was called for a briefing. They wanted to come and do a briefing. It was three Republicans. that called him, right? I mean, for that. And then now I got the Democrats coming in who, my guess is, are not super happy with how close he's been to Trump. And so you got a lot of folks in the government that may have been aligning against him. And again, I think this outcome is probably not what they would have wanted. I would hope that this is not what they would have wanted. Like, this is not a great outcome, but. But yeah, I think he would have been muted in terms of being advocating for China policy, because I do think China policy is going to get tougher. Now, I got to say, though, I'm more in Jensen's camp on this. His whole view has been, and I'll put Megaspeed aside for a moment. We can talk about Megaspeed. But his general China policy has been, let's allow ourselves to sell them the older parts. So there's been all this news about how they're selling the most advanced stuff in China. Like, no, they're not. These are H200s and H20s. This is like three or four generations old. Hopper showed up in 2022 is actually when it showed up. So it's several generations old. But the idea is, and even Lutnick has said this. I think he said we wanted to get China addicted to our technology, right? So I wouldn't have put it that harshly, but it's kind of true. You'd like them to build their local AI ecosystem around our technology so we can know what's going on and keep it under control. And if you limit those sales, you start to encourage them to build their own, which is exactly what they're doing. And today, like, again, Nvidia has licenses to sell some H200s and everything, and they're not selling them because China won't allow them to do it because China wants to encourage their local players. And that's why I find a lot of this stuff, you know, there were some allegations like earlier in the week that supposedly like Alice Wang was trying to get him to lobby for more sales into China. So like, number one, he's doing that anyways. Number two, China wants her to lobby for something that they're already not allowing NVIDIA to do. It doesn't make any sense. So I'm on Jensen's side on the China policy. I don't think we'd be selling Blackwells or Rubens to China, but older stuff, I think it would have been a good idea. I think it's too late now, though.",
+      "zh": "是啊。我猜这件事很大程度上可能是从中国鹰派开始的——这些算是阴谋论——但我是说，感觉很多事都是从中国鹰派那里起的头。而且再说 Alice Wang，她不需要真是间谍，她只需要能被可信地描绘成间谍就够了。如果其他那些事没爆出来，比方说他保住了职位，那当然很好。但他还能再作为公开声音去谈中国 AI 政策吗？大概不能了。所以这一切最初的目标，也许就是要让他闭嘴，因为——你知道，围绕中国的事情太多了。他被叫去做过一次简报会，他们想来做简报，是三个共和党人叫他去做的，对吧？就为那件事。然后现在民主党人也进来了，我猜他们对他跟 Trump 走得那么近并不太高兴。所以政府里有很多人可能都在联合起来对付他。而且再说一次，我觉得这个结果大概不是他们想要的，我也希望这不是他们想要的。这不是个好结果。但是的，我认为他本来在为华政策发声方面会被「消音」，因为我确实觉得对华政策会变得更加强硬。不过我得说，在这点上我更站在 Jensen 一边。他一直以来的整体观点是——我先把 Megaspeed 放一放，我们可以谈 Megaspeed——他总体上的对华政策是：让我们允许自己把旧款芯片卖给他们。所以一直有各种新闻说他们在把最先进的东西卖到中国。不，他们并没有。这些是 H200 和 H20，已经是三四代以前的产品了。Hopper 其实是 2022 年才推出的，所以已经好几代了。但这里的思路是——连 Lutnick 都这么说过，我记得他说我们想让中国对我们的技术上瘾，对吧？我不会说得那么刺耳，但这某种程度上是真的。你希望他们围绕我们的技术来构建本地的 AI 生态，这样我们才能知道发生了什么、并保持可控。而如果你限制这些销售，你就开始鼓励他们去自建，而这正是他们在做的。今天也是一样，Nvidia 有许可证可以卖一些 H200 之类的，但他们卖不出去，因为 China 不允许，China 想扶持本土厂商。所以我觉得很多这类说法——你知道，本周早些时候有一些指控，说 Alice Wang 想让他去游说，争取向中国多卖点。第一，他本来就在做这件事；第二，China 想让她去游说一件 China 自己已经不允许 Nvidia 做的事，这根本说不通。所以在对华政策上我站 Jensen 一边。我不认为我们会把 Blackwell 或 Rubin 卖到中国，但旧款产品，我觉得卖是个好主意。不过我认为现在已经太晚了。"
+    },
+    {
+      "i": 40,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "21:43",
+      "en": "Look, I have no opinion on this question, and I don't know, but justify the status quo where you can't sell the most, or steel man, as people like to say.",
+      "zh": "听着，我对这个问题没有立场，我也不确定，但请你为现状辩护一下——就是那种不能卖最先进产品的现状，或者用大家爱说的词，做个「steel man」（最佳辩护）。"
+    },
+    {
+      "i": 41,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "21:54",
+      "en": "Steel man.",
+      "zh": "「steel man」。"
+    },
+    {
+      "i": 42,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "21:55",
+      "en": "Maybe silicon man. Maybe we should say silicon man or chip man. Chip man the argument that we shouldn't be selling the most advanced GPUs into China, but that it's okay to sell them to a Singaporean company with operations in Malaysia that allows Chinese AI companies remote access. That strikes to a lot of people as incoherent.",
+      "zh": "也许该叫「silicon man」（硅片版），也许我们该说 silicon man 或者 chip man（芯片版）。chip man 版的论点是：我们不该把最先进的 GPU 卖到中国，但把它们卖给一家在新加坡、在 Malaysia 有业务、并允许中国 AI 公司远程访问的公司却是可以的。这在很多人看来是前后矛盾的。"
+    },
+    {
+      "i": 43,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "22:17",
+      "en": "No, absolutely. And look, this is a whole other issue. And so, like I said earlier, it looks like they're going to be cracking down on remote access. And to be fair, I do not know how much of the current spending on cloud compute is being used by Chinese customers in China. I don't know. We'll see. And yeah, I don't think that that is necessarily, you know, a consistent point of view, unless you're only allowing folks in China to use, you know, hoppers remotely. You know, if you're allowing folks in China to use, to remotely access Blackwells and Rubens in size, then yeah, that's a hole that maybe needs to be plugged and maybe should have been, right? But that's a different debate than should we be allowing sales of like lower end stuff into China? Should we be allowing access whether it's direct or remote, frankly, of lower end stuff into China. If the concern is we don't want to have China access to the latest and greatest, then clearly they shouldn't have access to the latest and greatest. But I think two slightly different issues.",
+      "zh": "不，完全同意。而且看，这完全是另一个问题。就像我前面说的，看起来他们要开始打击远程访问了。而且公平地说，我确实不知道目前云算力的支出中有多少是被中国境内的中国客户使用的。我不知道，我们拭目以待。是的，我不认为那必然是一个自洽的观点，除非你只允许中国的人远程使用 Hopper 之类的。如果你允许中国的人远程访问 Blackwell 和 Rubin，那么是的，那是一个也许需要堵住、而且也许早该堵住的漏洞，对吧？但这跟另一个辩论是不同的问题，即：我们是否应该允许把低端产品卖到中国？坦白说，是否应该允许中国以直接或间接的方式获取低端产品？如果担忧是我们不想让中国拿到最新最强的东西，那显然他们就不该拿到最新最强的东西。但我认为这是两个略有不同的问题。"
+    },
+    {
+      "i": 44,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "23:15",
+      "en": "So as Joe said in the beginning, the next known unknown coming up for NVIDIA is results next week. What are you actually looking out for there? Like if the big risk now is, you know, it's the key man risk and it's the future trajectory of China policy in the U.S., like what are we actually going to learn from earnings?",
+      "zh": "正如 Joe 一开始说的，Nvidia 接下来那个「已知的未知」就是下周的财报。你实际会关注些什么？如果说现在的大风险是关键人物风险、以及美国对华政策的未来走向，那我们究竟能从财报里了解到什么？"
+    },
+    {
+      "i": 45,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "23:33",
+      "en": "Yeah, I mean, so like, first, I would say the numbers better be technically perfect, right? God forbid something's off in the numbers. Now, like I said, I don't think you're going to see any material changes to the near-term trajectory as a result of this. I don't think so. Again, we can talk about the longer term. You know, there's other names that have been running a lot more, like some of their competitors have been running a lot on the belief that a weaker NVIDIA roadmap over the long-term strengthens it, which may be true. We can debate that. I would be surprised if they were changing. If they were changing in the near term, that would be very problematic. I mean, clearly. Look, I guess they'll have to give some certainty on that near-term trajectory, near to medium-term trajectory, and give investors confidence and conviction that at least that the current trajectory is not changing. I think they're going to, I don't know what they're going to say around, you know, Kolecka, who was the CFO and is now the interim CEO, is going to have to give like some confidence that like the ship is stable and still sailing, right? They're going to get a lot of tough questions on how this went down. They're going to get a lot of questions on talent retention and things like that. And, you know, it's funny, you know, I can't remember the number, but a huge portion of their employees have net worths that are in the tens or even hundreds of millions of dollars. And they presumably don't need to work. And they're there maybe because Jensen's there. And like, what happens to that? Like, so how do we get confidence that the talent base is still going to be good? She's going to get all these kinds of questions. And we'll see what she can say. It's going to be an interesting call for sure.",
+      "zh": "是啊，我是说，首先，我会说这些数字最好在技术上完美无瑕，对吧？千万别在数字上出什么岔子。就像我说的，我不认为你会看到近期轨迹因此发生任何实质性变化，我不认为会。当然，长期我们可以再谈。你知道，有一些别的股票最近涨得多得多，他们的一些竞争对手股价大涨，是基于这样一种信念：Nvidia 长期路线图变弱，反而会强化他们自身——这可能是真的，我们可以辩论。如果他们（Nvidia 的近期轨迹）真的在变，我会很惊讶；如果近期就发生变化，那会非常有问题，显然。看，我猜他们必须就近期、近中期的轨迹给出一些确定性，让投资者有信心、有信念，至少相信当前的轨迹没有改变。我觉得他们会——我不知道他们具体会怎么说——你知道，Colette Kress，她原来是 CFO，现在是临时 CEO，将不得不给出一些信心，让大家相信这条船是稳的、还在往前航行，对吧？他们会收到很多关于这件事是怎么发生的尖锐问题，也会收到很多关于人才留存之类的问题。而且有意思的是，我记不清具体数字了，但他们有相当大一部分员工的身家达到数千万甚至数亿美元，他们想必根本不需要工作，而他们之所以还留在那里，也许是因为 Jensen 在。那接下来这会怎么样？所以我们要怎么才能相信人才梯队依然稳固？她会收到所有这些类型的问题，我们看看她能说些什么。这肯定将是一场很有意思的电话会。"
+    },
+    {
+      "i": 46,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "25:00",
+      "en": "The other thing that's happening next week is the Anthropic S1. And if you read that, S1, they make a point about the fact that they use multi-chips and their chips are homogenous to them. And the TPUs and tranium chips and GPUs from AMD are all just part of this big homogenized stack. I think it's interesting they say that is a technical thing. And we also know that Anthropic specifically is very hawkish on chips. chip export policy. From a competitive position, whether we're talking about TPUs, whether we're talking about others, set aside all the scandals and everything else. How assailable is the NVIDIA moat looking right now, even if we weren't talking about Jensen scandals?",
+      "zh": "下周还有另一件事，就是 Anthropic 的 S-1（上市文件）。如果你读了那份 S-1，他们特别强调他们使用多种芯片，而且对他们来说这些芯片是同质的——TPU、Trainium 芯片，以及来自 AMD 的 GPU，都只是这个大的同质化技术栈的一部分。有意思的是他们把这说成一个技术层面的事。我们也知道，Anthropic 尤其在芯片出口政策上非常鹰派。从竞争格局来看，无论我们谈的是 TPU 还是其他，先把所有丑闻之类的放一边——即便我们不谈 Jensen 的丑闻，Nvidia 的护城河现在看起来有多容易被攻破？"
+    },
+    {
+      "i": 47,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "25:42",
+      "en": "I'm not going to say anything about Anthropic. I'm going to put that aside. Yeah. Very clearly to my compliance people. Yeah, totally. Not going to say anything. But In general, the idea of customers using multiple sources, there are a number of them. So for example, OpenAI, they've got a big deal with NVIDIA. They also have a pretty big deal with Broadcom. They've even got a big deal with AMD. Same thing with Meta. And there are others. Google, clearly, I mean, they do their own TV. They still buy GPUs, but they do TPUs. You've got more and more customers now that are starting, that Google is now starting to sell TPUs to like on a secondary basis as well. Um, so that is happening and like my, my general view for now has been that it's not the more, the more important question so far has been, is the opportunity bigger? Is there not, you know, Nvidia has had like the bulk of this market and presumably you'll get other players coming in and that market share will go down, but is the pie bigger? Is it not? If it's big, there's probably room for everybody. And if not, everybody would be screwed.",
+      "zh": "我不会对 Anthropic 发表任何评论，我要把这个放一边。是的，这一点非常明确——对我的合规部门来说。是的，完全。我什么都不会说。但总体而言，客户使用多来源芯片这个理念，这样的客户有不少。比如说 OpenAI，他们跟 Nvidia 有一笔大单，跟 Broadcom 也有一笔相当大的交易，甚至还跟 AMD 有一笔大单。Meta 也是一样，还有其他一些。Google 显然——我是说，他们做自己的 TPU，他们仍然买 GPU，但他们做 TPU。现在越来越多的客户开始……Google 现在也开始把 TPU 卖给第三方了。所以这种情况正在发生。而目前我的总体看法一直是：更重要的问题不在于此，而在于——机会是不是变大了？你知道，Nvidia 一直占据这个市场的大头，想必会有其他玩家进来，它的市场份额会下降，但整块蛋糕是不是更大了？如果不是，那大家都完蛋；如果蛋糕够大，那可能人人都有份。"
+    },
+    {
+      "i": 48,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "26:39",
+      "en": "Right.",
+      "zh": "对。"
+    },
+    {
+      "i": 49,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "26:40",
+      "en": "And if you look at the numbers for next year, just for coming on this for 2027, Assuming no changes, NVIDIA currently is guided for revenue growth of at least 70%, which would put them in the ballpark in spitting distance of $ 700 billion for the company. Broadcom has suggested that their data center revenues will double year over year in 27 to like $ 115 billion and will double again in 2028 to $ 230 billion and again with demand outlook to do even more if they can get there. You look at AMD. AMD is, if you Back into it, they're kind of suggesting that their GPU sales will probably almost triple year over year, and you're probably into the low $ 40 billion for AMD. Even Qualcomm is getting into this market. They said they're going to do $ 5 billion. You've got others, MediaTek and Marvell and all these others that sell. Everybody's doing fine right now. But in general, are there more alternative options?",
+      "zh": "如果你看明年、也就是 2027 年的数字，在假设没有变化的前提下，Nvidia 目前指引的收入增速至少为 70%，这会让公司大致落在、或者说非常接近 7000 亿美元的量级。Broadcom 曾表示，他们的数据中心收入在 2027 年会同比翻倍到大约 1150 亿美元，并将在 2028 年再翻倍到 2300 亿美元，而且从需求前景看，如果能做到，还会更进一步。再看 AMD，如果你倒推一下，他们大致在暗示其 GPU 销售额同比可能会增长近两倍（几乎翻三倍），AMD 大概会进入 400 亿美元出头的量级。连 Qualcomm 也在进入这个市场，他们说他们要做到 50 亿美元。还有其他的，MediaTek、Marvell 等等所有这些做销售的。现在大家都过得不错。但总体而言，替代性的选择是不是更多了？"
+    },
+    {
+      "i": 50,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "27:38",
+      "en": "There are.",
+      "zh": "是更多了。"
+    },
+    {
+      "i": 51,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "27:38",
+      "en": "And look, AMD, their roadmap is... It takes time, but it's getting better. And again, you're seeing more customers using TPUs. And guys like Broadcom have had more customers for their custom chips. AMD themselves, everybody talks about NVIDIA CUDA as a moat. CUDA is their software ecosystem. I think it is a moat. But AMD has talked and others have talked about now AI is apparently getting good at writing software from what we've heard and using AI actually to help to port things over like companies are experimenting with that. And again, this gets back to Jensen. Part of the decisions he's been making are not just on the hardware side. They've also been on the software side. And so making sure that that CUDA mode stays wrong. I mean, they've got other people there that are good. You've got Ian Buck, who's been floated as a name for potential success. People say that he invented CUDA. He was the driving force behind CUDA, and he runs the hyperscale business over there. They've got good technical folks over there who can keep this going. But again, some of those big decisions on where even the software platform is going still have to be made. And if I'm a customer, again, not next year or even the year after, but longer term, do I maybe need to think a little harder about potentially diversifying my footprint? Maybe. And this is why some of their competitors have been... strong in the last week or so in the wake of all of this news flow.",
+      "zh": "而且看，AMD 的路线图……它需要时间，但正在变得更好。同样，你会看到越来越多客户在用 TPU，像 Broadcom 这样的公司，其定制芯片也有了更多客户。至于 AMD 自己——大家都在谈 Nvidia 的 CUDA 是一条护城河，CUDA 就是他们的软件生态系统，我认为它确实是一条护城河。但 AMD 和其他公司都谈到，如今 AI 显然——据我们所闻——已经很擅长写软件了，可以用 AI 来帮助把代码移植过去，很多公司正在试验这个。而这又回到了 Jensen 身上：他一直做的决策不只是硬件层面的，也有软件层面的，也就是要确保 CUDA 这条护城河稳固。我是说，他们那里还有其他很优秀的人。比如 Ian Buck，他被作为潜在继任者的名字提出来过，人们说是他发明了 CUDA，他是 CUDA 背后的推动者，而且他负责那边的超大规模（hyperscale）业务。他们那里有出色的技术人才，能让这件事延续下去。但同样，关于软件平台未来走向的一些重大决策，仍然必须有人来做。而如果我是客户——同样，不是明年、甚至不是后年，而是更长期——我是不是也许需要更认真地去考虑让我的布局多元化？也许吧。这也正是为什么在过去一周左右、随着所有这些消息发酵，他们的一些竞争对手表现……强劲。"
+    },
+    {
+      "i": 52,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "28:59",
+      "en": "I have one last question, and this is just about what people call the central bank of AI and the degree to which demand for NVIDIA chips is partly as high as it is because it's vendor financed in one way or another from NVIDIA. How much risk is that when you think about the stock?",
+      "zh": "我还有最后一个问题，就是关于人们所说的「AI 的中央银行」，以及对 Nvidia 芯片的需求之所以这么高，在多大程度上是因为它以某种方式由 Nvidia 自己进行了供应商融资（vendor financing）。当你思考这只股票时，这构成多大的风险？"
+    },
+    {
+      "i": 53,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "29:17",
+      "en": "Yeah, I don't know. But again, they do have this reputation of being the bank of AI. And again, I think a lot of this is being driven by the force of Jensen's will. Yeah. And there's already been stories coming, which we kind of heard that like potentially Collette was not maybe as completely on board with some of the magnitude of what they're doing as maybe Jensen was. And by the way, that was reported yesterday. That's been floating around for a while. And it's not Chucky. She was a a CFO. That's her job, right? But one has to wonder. It'll be very interesting. They're going to get a new permanent CEO at some point. And what will the appetite be? I don't know. But it's a good question to ask. And these are, again, some of those unknowns that are out there. I don't know. I'd say Jensen was clearly on the more bullish side. of committing company capital for this. Not just for, you know, backstops and things, but I mean, also for supply. People throw in all these numbers. I mean, they spent hundreds of billions of dollars. You have to remember, most of the actual physical cash outlay that's gone out from Medifa is not backstops and financing. It's to secure supply. It's to secure memory and wafers and co-ops and that kind of stuff. Right. And I mean, a lot of that was I mean, they're based on his own partnerships and relationships as well. All right.",
+      "zh": "是啊，我不知道。但同样，他们确实有「AI 之银行」这个名声。而且我觉得这在很大程度上是由 Jensen 的意志力所驱动的。是的。而且已经有报道出来——我们多少也听说过——Colette（Kress）也许并不像 Jensen 那样，对他们所做事情的规模完全认同。顺便说，这个是昨天报道的，其实已经流传一阵子了。而这也不是 Colette 的问题——她当时是 CFO，那本来就是她的工作，对吧？但你不免会想：这会非常有意思。他们迟早会有一位新的常任 CEO，那时候的意愿会是什么样？我不知道。但这是个值得问的好问题。而且这些又是悬在那里的一些未知数。我不知道。我会说，在动用公司资本投入这件事上，Jensen 显然站在更看多的一方——不只是用于兜底（backstop）之类的，我是说，也用于供应。人们抛出各种数字，我是说，他们花了数千亿美元。你得记住，Nvidia 实际支出的绝大部分真金白银，并不是兜底和融资，而是为了锁定供应——锁定内存、晶圆、CoWoS（先进封装）之类的东西。对吧。而且我是说，这其中很多也是基于他自己的伙伴关系和人脉。好的。"
+    },
+    {
+      "i": 54,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "30:25",
+      "en": "Stacey Raskin, we'll have to leave it there. Very fast unfolding story, but glad we could get a preview in before the earnings. Thank you so much for coming back on Odd Law.",
+      "zh": "Stacy Rasgon，我们只能聊到这里了。这是一个发展非常迅速的故事，但很高兴我们能在财报之前先做一个前瞻。非常感谢你再次做客 Odd Lots。"
+    },
+    {
+      "i": 55,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "30:36",
+      "en": "Oh, you bet. My pleasure. Anytime.",
+      "zh": "哦，当然。我的荣幸，随时乐意。"
+    },
+    {
+      "i": 56,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "30:50",
+      "en": "Lots of big questions, Tracy. One thing that Stacey mentioned that I think is interesting is what happens now to all of the really rich NVIDIA employees? Do they just like, you know what? Maybe now is a good time to retire. Maybe now is a good time to just enjoy life. I don't think tech people have a reputation for being like, you know what? I'm good. I'm ready. I'm ready to just enjoy life. Maybe a few of them will take a pause here and just Just lock out the door.",
+      "zh": "留下了很多大问题，Tracy。我觉得 Stacy 提到的一点很有意思：现在那些非常富有的 Nvidia 员工会怎么样？他们会不会就想，你知道吗？也许现在是退休的好时机，也许现在是好好享受生活的好时机。我不觉得科技圈的人有那种「我满足了、我准备好了、我准备好去享受生活了」的名声。也许他们中的少数人会在这里暂停一下，直接关上门走人。"
+    },
+    {
+      "i": 57,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "31:16",
+      "en": "This has been a question that I've been asking about the anthropic IPO, like this huge liquidity event for San Francisco, basically. And what do people think that everyone who owns that stock is actually going to do with the money? And no one seems to know because no one really seems to know what tech bros want to do with their lives other than Develop tech.",
+      "zh": "这一直是我就 Anthropic 的 IPO 在问的一个问题，那基本上是 San Francisco 的一次巨大流动性事件。人们觉得那些持有那只股票的人拿到钱后究竟会去做什么？似乎没人知道，因为好像没人真正搞得清楚，除了搞技术之外，这些科技 bros 到底想用自己的人生做什么。"
+    },
+    {
+      "i": 58,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "31:38",
+      "en": "Yeah, that's the thing. Like if you're like at Anthropic, there's, you know, people, I'm not going to say the word, but other people call it a cult.",
+      "zh": "是啊，问题就在这里。比如说如果你在 Anthropic，你知道，有些人——我不说那个词——但其他人把它叫作一个「邪教」（cult）。"
+    },
+    {
+      "i": 59,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "31:46",
+      "en": "So it's like, all right, it doesn't matter.",
+      "zh": "所以就像，好吧，这不重要。"
+    },
+    {
+      "i": 60,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "31:47",
+      "en": "You become billionaires. You just keep working at cult in a.",
+      "zh": "你成了亿万富翁，你就继续在这个「邪教」里工作，以一种……"
+    },
+    {
+      "i": 61,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "31:50",
+      "en": "Good way, maybe.",
+      "zh": "也许是以一种好的方式。"
+    },
+    {
+      "i": 62,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "31:51",
+      "en": "But like if there was a cult of Jensen and he's gone, then it's like, yeah, like why stay if you're worth $ 100 million? Maybe not.",
+      "zh": "但如果那是一个围绕 Jensen 的「邪教」，而他走了，那就像，是啊，如果你身家 1 亿美元，为什么还要留下来？也许不会留了。"
+    },
+    {
+      "i": 63,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "31:58",
+      "en": "Also, what happens to his shareholdings alone, right? Is he going to sell those? He would probably have a decent reason to at the moment. But I also think like the one takeaway, sort of macro takeaway from all of this for me is that it feels like the China hawkishness is going to ratchet up. in DC, like just based on the optics alone, even without like actual factual verification of all these claims. feels like we're starting to see that. And so that, like, it'll be interesting to see how NVIDIA actually reacts to that, especially given that Jensen is one of the chips guys who has been making the argument that, like, actually diversification into the China market would be good for us in the future.",
+      "zh": "另外，光是他的持股会怎么样，对吧？他会卖掉那些股票吗？眼下他大概有个相当正当的理由去卖。但我也认为，从这一切中我得到的一个宏观结论是：感觉在 DC（华盛顿），对华强硬情绪会进一步升级——哪怕仅仅是基于表面观感，即便所有这些指控还没有经过实际的事实核查，感觉我们已经开始看到这种趋势了。所以，Nvidia 实际会如何回应这一点将会很有意思，尤其是考虑到 Jensen 一直是芯片圈里主张「其实向中国市场的多元化拓展对我们未来是有利的」的那个人之一。"
+    },
+    {
+      "i": 64,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "32:42",
+      "en": "No, this is going to be huge. And seeing, like, Besant throw Lutnik under the bus this morning, It was obviously this inter sort of internecine fight within the White House on the sort of China chips question that's now clearly spilled out into the public in.",
+      "zh": "不，这会是大事。而且看到 Bessent 今早把 Lutnik 推出去背锅（throw under the bus），显然这是白宫内部围绕中国芯片问题的一场内斗，如今已经明显地公开暴露在……"
+    },
+    {
+      "i": 65,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "33:01",
+      "en": "A big way.",
+      "zh": "……以一种很大张旗鼓的方式。"
+    },
+    {
+      "i": 66,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "33:03",
+      "en": "And I think the people who argue like, no, let's sell into China. You have to remember, you know, one thing I think that's important to remember is like People may say, we don't want to sell chips into China because we don't want their AI models to catch up with ours. We don't have a ton of leverage. China can say, all right, fine, no more rare earths, etc. So it's like these are very precarious models. unstable. These are relationships that are easily knocked off course because China obviously has plenty of leverage over the U.S. and many other areas. So like you knock that a little bit and you don't really know how it's going to spill over. But clearly, clearly the China hawks have like seized a moment here and are trying to like get a big change in the way the U.S. conducts export policy.",
+      "zh": "而且我觉得那些主张「不，我们应该卖到中国」的人，你得记住——我认为有一点很重要：人们可能会说，我们不想把芯片卖到中国，是因为我们不想让他们的 AI 模型追上我们的。但我们并没有多少筹码，China 可以说：好吧，那就别再供应稀土（rare earths）了，等等。所以这些都是非常脆弱、不稳定的模型。这些关系很容易被推离轨道，因为显然 China 在许多其他领域对美国也有大量筹码。所以你稍微推一下，其实并不知道会怎么外溢。但显然，显然中国鹰派抓住了这个时刻，正试图让美国实施出口政策的方式发生一次大的改变。"
+    },
+    {
+      "i": 67,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "33:54",
+      "en": "Absolutely.",
+      "zh": "完全正确。"
+    },
+    {
+      "i": 68,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "33:54",
+      "en": "And Besson didn't just, like, throw Lutnik under the bus.",
+      "zh": "而且 Bessent 不只是把 Lutnik 推出去背锅那么简单。"
+    },
+    {
+      "i": 69,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "33:57",
+      "en": "He had the bus driver, like, back up and run him over a few more times and then block the ambulance.",
+      "zh": "他还让公交司机倒车、又从他身上碾过去几趟，然后挡住了救护车。"
+    },
+    {
+      "i": 70,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "34:02",
+      "en": "And, like, this was a throwing under the bus of epic proportions.",
+      "zh": "而且，这简直是一次史诗级别的「推出去背锅」。"
+    },
+    {
+      "i": 71,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "34:05",
+      "en": "Yeah, on TV.",
+      "zh": "是啊，还是在电视上。"
+    },
+    {
+      "i": 72,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "34:06",
+      "en": "Yeah, all right. Shall we leave it there?",
+      "zh": "好吧，行。我们就聊到这里？"
+    },
+    {
+      "i": 73,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "34:08",
+      "en": "Yeah, let's leave it there.",
+      "zh": "好，就到这儿吧。"
+    },
+    {
+      "i": 74,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "34:09",
+      "en": "This has been another episode of the All Thoughts Podcast. I'm Tracey Alloway. You can follow me at Tracey Alloway.",
+      "zh": "这是又一期的 Odd Lots 播客。我是 Tracy Alloway，你可以在 @TracyAlloway 关注我。"
+    },
+    {
+      "i": 75,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "34:14",
+      "en": "And I'm Jill Wiesenthal. You can follow me at TheStalwart. Follow our producers, Carmen Rodriguez at CarmenArmond-O'Bennett at DashbotKaleBrooks at KaleBrooks, and Kevin Lozano at KevinLloydLozano. And of course, you can chat about all of these topics 24-7 in our Discord. And Tracy and I write every day for the OddLots newsletter, which you can find and subscribe to at Bloomberg.com slash OddLots.",
+      "zh": "我是 Joe Weisenthal，你可以在 @TheStalwart 关注我。关注我们的制作人：Carmen Rodriguez（@CarmenArmond）、O'Bennett（@Dashbot）、Kale Brooks（@KaleBrooks），以及 Kevin Lozano（@KevinLloydLozano）。当然，你可以在我们的 Discord 里全天候畅聊所有这些话题。Tracy 和我每天都为 Odd Lots 通讯撰稿，你可以在 Bloomberg.com/OddLots 找到并订阅。"
+    },
+    {
+      "i": 76,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "34:36",
+      "en": "And if you enjoyed this conversation, if you like it when we talk about the future of NVIDIA from the perspective of the analysts that cover it, then please leave us a positive review on your favorite podcast platform. And if you're watching on video, then please like or leave a comment or better yet, subscribe.",
+      "zh": "如果你喜欢这期对话，如果你喜欢听我们从覆盖 Nvidia 的分析师视角来谈 Nvidia 的未来，那么请在自己喜欢的播客平台上给我们一个好评。如果你在看视频版，那么请点赞或留言，更好的是，订阅我们。"
+    },
+    {
+      "i": 77,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "34:52",
+      "en": "And remember, if you're a Bloomberg subscriber, you can listen to all of our episodes absolutely ad-free. All you need to do is go to the Bloomberg channel on Apple Podcasts and follow the instructions there.",
+      "zh": "还有，记住，如果你是 Bloomberg 的订阅用户，你可以完全无广告地收听我们所有的节目。你要做的就是去 Apple Podcasts 上的 Bloomberg 频道，按照那里的说明操作。"
+    },
+    {
+      "i": 78,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "35:02",
+      "en": "Thanks for joining.",
+      "zh": "感谢收听。"
+    },
+    {
+      "i": 79,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "35:11",
+      "en": "So so",
+      "zh": "就这样。"
+    }
+  ]
+}
