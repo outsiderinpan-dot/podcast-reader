@@ -1,0 +1,833 @@
+{
+  "show": "etf-edge",
+  "kind": "transcript",
+  "id": "350472549",
+  "slug": "2026-11-20-anthropic-stumbles-are-ai-etfs-next-350472549",
+  "date": "2026-11-20",
+  "title_en": "Anthropic stumbles, are AI ETFs next?",
+  "title_zh": "Anthropic 上市首秀遇挫，AI ETF 会否跟随？",
+  "subtitle_zh": "Anthropic IPO 首日大幅震荡，Dominic Chu 与 Avery Marquez、Yuri Kojameerian 讨论 AI 交易估值、IPO 前景以及 ETF 如何提供 pre-IPO 敞口。",
+  "summary_zh": "Dominic Chu 主持，与 Renaissance Capital 的 Avery Marquez 及 Tema ETFs CIO Yuri Kojameerian 讨论 Anthropic IPO 首日剧烈震荡：定价 83 美元（高于 70-78 美元区间），首日冲到 115 美元后回落至 85 美元。Avery 认为这是 AI 交易估值担忧的延续，Anthropic 作为新股仍在价格发现阶段，历史数据估值偏高但前瞻预估合理；SpaceX 是最接近的可比案例，仅几天交易就类比过早。Yuri 指出 Anthropic 是首家上市的美国头部 AI 实验室，其 ARR 是判断 AI 数据中心投资能否兑现的关键锚点，市场进入年底\"真空期\"，许多 CIO 减仓观望。展望 2027 年 IPO，Avery 认为需几家重量级公司接受估值下调并成功上市，才能重开发行日历。Markets 102 环节，Yuri 详解 Tema 如何通过 SPV 在二级市场收购 private stake，把 SpaceX、Anthropic、Stripe、Kalshi 等 pre-IPO 公司纳入 ETF，SEC 允许 ETF 最多 15% 投资非流动性证券，他强调透明度、费用与经理经验是三大关注点。",
+  "description": "Anthropic stumbles, are AI ETFs next?",
+  "duration": "28:16",
+  "duration_seconds": 1696,
+  "episode_url": "https://www.iheart.com/podcast/269-etf-edge-62217042/episode/anthropic-stumbles-are-ai-etfs-next-350472549",
+  "audio_url": "https://www.podtrac.com/pts/redirect.mp3/cnbc.simplecastaudio.com/a409893e-2251-473a-bf35-5e57ee029dee/episodes/5d0d4381-a98b-4377-b66b-9562b74f24cd/audio/128/default.mp3?aid=rss_feed&awCollectionId=a409893e-2251-473a-bf35-5e57ee029dee&awEpisodeId=5d0d4381-a98b-4377-b66b-9562b74f24cd&feed=v1mmN2o3&source=iheart",
+  "speakers": {
+    "1": "Dominic Chu（主持）",
+    "2": "Avery Marquez（嘉宾）",
+    "3": "Yuri Kojameerian（嘉宾）",
+    "4": "片花/广告（旁白）"
+  },
+  "turn_count": 101,
+  "turns": [
+    {
+      "i": 0,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "00:00",
+      "en": "ETF Edge is sponsored by State Street Investment Management, getting their starts here.",
+      "zh": "ETF Edge 由 State Street Investment Management 赞助播出，从这里起步。"
+    },
+    {
+      "i": 1,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "00:07",
+      "en": "Welcome to ETF Edge, the podcast. If you're looking to learn the latest insights on all things exchange-strated funds, you're in the right place. Every week, we're bringing you compelling interviews, thoughtful market analysis, and breaking down what it all means for investors.",
+      "zh": "欢迎收听 ETF Edge 播客。如果你想了解关于交易所交易基金（ETF）的最新洞见，你来对地方了。每周我们都会为你带来精彩的访谈、深入的市场分析，并解读这一切对投资者意味着什么。"
+    },
+    {
+      "i": 2,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "00:22",
+      "en": "I'm your host, Dominic Chu. Is Anthropic, the canary in the coal mine with regard to the AI trade? Here's my conversation with Avery Marquez, Renaissance Capital's Director of Investment Strategies, alongside Yuri Kojameerian, who is the Chief Investment Officer over at Tema ETFs.",
+      "zh": "我是本期主持人 Dominic Chu。Anthropic 是否是 AI 交易里的\"矿井金丝雀\"？下面是我与 Renaissance Capital 投资策略总监 Avery Marquez，以及 Tema ETFs 首席投资官 Yuri Kojameerian 的对话。"
+    },
+    {
+      "i": 3,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "00:44",
+      "en": "Thank you both here for being with us on ETF Edge. I should point out because this is a live digital show for right now, but we will see kind of more playback later on down the line. We are in the midst of a pretty deep tech-driven sell-off even intraday as this show is going on right now,",
+      "zh": "感谢两位做客 ETF Edge。我要说明一下，这是一档直播的数字节目，稍后我们还会看到更多回放。就在节目进行的当下，我们正经历一场相当深度的、由科技股主导的抛售，甚至盘中也在继续，"
+    },
+    {
+      "i": 4,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "01:02",
+      "en": "and maybe I will start first off with Avery and your take on just what is going on with this AI and tech trade, and to what extent Anthropic's successful still IPO may have to do with it.",
+      "zh": "我想先请 Avery 谈谈你对当前 AI 与科技交易的看法，以及 Anthropic 这次成功 IPO 在其中扮演了多大角色。"
+    },
+    {
+      "i": 5,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "01:19",
+      "en": "I think what we're seeing right now is really just the volatility in the AI trade that we've been seeing for the last few months, which a lot of it I think stems from valuation concerns about AI valuations, concerns about it for in a bubble, and I think that's been heightened and highlighted",
+      "zh": "我认为我们眼下看到的其实只是过去几个月一直在持续的 AI 交易波动，其中很大一部分源于对 AI 估值的担忧，担心它处于泡沫之中，而这种担忧被进一步放大和凸显，"
+    },
+    {
+      "i": 6,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "01:37",
+      "en": "right now with Anthropics IPO. Anthropics specifically, I think that valuation question, the conversation becomes so much more prevalent because this is a new stock. It's the same kind of conversation we were having with SpaceX, just with how large it is, but this company in particular,",
+      "zh": "眼下正是被 Anthropic 的 IPO 放大的。特别是 Anthropic，估值这个话题之所以变得更加突出，是因为这是一只新股。这和我们此前讨论 SpaceX 时的情形是一样的，只是它的体量摆在那里。而这家公司尤其特殊，"
+    },
+    {
+      "i": 7,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "01:57",
+      "en": "it was a challenging company to, I think, value looking at historical figures. It's very virtually valued, but looking on estimates, you see something a little bit more reasonable,",
+      "zh": "我认为如果只看历史财务数据，它其实很难估值。按历史数据算，估值高得离谱，但如果看前瞻性预估，你会发现数字要合理一些，"
+    },
+    {
+      "i": 8,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "02:08",
+      "en": "and I think that's where investors are right now. They're kind of grappling with that and seeing where should this company actually be valued? 48 to 72 hours ago. Just 48 to 72 hours ago, we were seeing headlines in the news, Avery, about just how many multiple times oversubscribed this",
+      "zh": "我认为这正是当下投资者的处境，他们在纠结这家公司究竟应该被估值到多少？48 到 72 小时之前，就在 48 到 72 小时之前，Avery，我们还在新闻头条上看到，这次"
+    },
+    {
+      "i": 9,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "02:27",
+      "en": "IPO was. The initial range that was offered was between 70 to 78 bucks per share. It comes out at $83 per share. As you can see in the chart right there, we're hovering right around $85 a share. We got north of $115 a share at one point just yesterday. You said there's volatility in price",
+      "zh": "IPO 被超额认购了多少倍。最初的询价区间是每股 70 到 78 美元，最终定价为每股 83 美元。就像你在图上看到的，我们目前在每股 85 美元附近徘徊，昨天一度冲到每股 115 美元上方。你说到价格"
+    },
+    {
+      "i": 10,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "02:46",
+      "en": "action, but this is like a roller coaster ride, right Avery? I mean, yeah, looking at the chart, it certainly looks like one, and I don't think that, I think, between what we're seeing in the broader AI trade, and then specifically, this is a new stock. The volatility is to be expected.",
+      "zh": "走势的波动，但这简直就像坐过山车，对吧 Avery？——嗯，看这张图确实像。我认为，一方面是我们看到的整个 AI 交易的状况，另一方面这本身就是一只新股，出现这种波动其实在预期之内。"
+    },
+    {
+      "i": 11,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "03:04",
+      "en": "It's just so amplified. Okay, so amplified is one thing. Avery, this amplification changes maybe some of the assumptions and factors that you use to kind of gauge what kind of investor sentiment there is out there. From a chief investment officer's perspective of an ETF company that has, by the way, offered pre-IPO exposure to both SpaceX",
+      "zh": "只是被放得太大了。——好，放大是一回事。Avery，这种放大或许会改变你用来判断市场投资者情绪的某些假设和因素。从一家 ETF 公司首席投资官的视角来看——顺便说一句，这家公司此前已经为 SpaceX"
+    },
+    {
+      "i": 12,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "03:28",
+      "en": "and now to anthropic, what exactly have you seen in your role that suggests that maybe some of this price action is either justified or represents a buying opportunity? Look, I think what Avery said is absolutely right. It's a new company. There's a price discovery moment going on here.",
+      "zh": "以及现在的 Anthropic 都提供了 pre-IPO 敞口——你在自己的角色中具体看到了什么，能让你觉得当前的价格走势或许合理，或者是一个买入机会？——我觉得 Avery 说得完全对。这是一家新公司，眼下正在经历价格发现的过程。"
+    },
+    {
+      "i": 13,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "03:47",
+      "en": "This is the first time one of the major AI labs in the United States, gone public. Investors right now are grappling for any sort of signals as to the direction of the AI trade after a massive run-up into June and obviously the volatility we've seen since then.",
+      "zh": "这是美国头部 AI 实验室第一次上市。投资者眼下正在拼命寻找任何能指明 AI 交易方向的信号——毕竟在 6 月之前经历了大幅上涨，之后又看到了明显的波动。"
+    },
+    {
+      "i": 14,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "04:00",
+      "en": "The key thing is anthropic is an important part of that puzzle because we're really trying to anchor towards what are the revenues that anthropic are going to do over the next months. They've come out with these error numbers but now they're a public company so they're",
+      "zh": "关键在于，Anthropic 是这块拼图中非常重要的一部分，因为我们真正想要锚定的是 Anthropic 未来几个月能做出多少收入。他们已经披露过这些 ARR 数字，但现在作为上市公司，他们"
+    },
+    {
+      "i": 15,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "04:12",
+      "en": "going to need to guide the market well in the direction of how AI is getting adopted and whether this massive data center buildout that has happened is going to be justified. From what we have seen and what investors are telling us there is this weight and sea moment and as we enter the",
+      "zh": "需要就 AI 的采用情况，以及这场大规模数据中心建设能否得到验证，向市场给出良好的指引。从我们的观察和投资者反馈来看，现在正处在一个观望（wait-and-see）时刻，随着我们进入"
+    },
+    {
+      "i": 16,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "04:29",
+      "en": "year end in the holiday season there's going to be a bit of nervousness. In many ways the setup is very interesting because position has been wiped out in many parts of the technology sector but there needs to be this interesting signal. What are the fundamentals telling us in terms of",
+      "zh": "年底和假日季，市场会有些紧张情绪。从很多方面看，现在的格局很有意思，因为科技板块许多领域的仓位已经被清空，但市场需要一个有意思的信号——基本面在二阶导数和"
+    },
+    {
+      "i": 17,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "04:44",
+      "en": "the second derivatives and the growth rates out there? What Avery are some of those derivatives and second-order, third-order effects that you're paying the closest attention to. You mentioned this kind of price discovery aspect and for every IPO we get it that there is this kind of",
+      "zh": "增长率层面告诉我们什么？——Avery，那些你最密切关注的二阶、三阶导数和效应具体是什么？你提到了价格发现这一点，每一只 IPO 我们都理解会有这种"
+    },
+    {
+      "i": 18,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "04:59",
+      "en": "volatility around it but there was seemingly insatiable demand for this IPO leading up to going back to maybe two to three months before and even up till just about maybe 48 hours ago. This price discovery you could argue has happened during the last private financing round for Anthropic",
+      "zh": "围绕它的波动，但从两三个月前一直到大约 48 小时之前，市场对这只 IPO 的需求看似永不满足。你甚至可以说，这种价格发现早在 Anthropic 上一轮私募融资中就已经发生，"
+    },
+    {
+      "i": 19,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "05:20",
+      "en": "and then even during the road show and the investor pitch to get people involved. So what exactly do you think is the grappling that's going on here with regard to what investors are looking for out of Anthropic and what that future growth prospect could be?",
+      "zh": "甚至在路演和向投资者推介以吸引他们参与的过程中也在发生。那么你认为眼下投资者究竟在纠结什么——他们在 Anthropic 身上寻找什么，以及它未来的增长前景会是什么样？"
+    },
+    {
+      "i": 20,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "05:34",
+      "en": "Yeah look absolutely but you have to remember they've pulled off a very large I mean they've raised $107 billion. IPO in the middle of some very severe market volatility particularly within the tech sector. I think they actually did a pretty decent job resetting expectations and not giving",
+      "zh": "是的，的确如此，但你要记住，他们完成了一次规模非常庞大——我是说他们募集了 1070 亿美元——的 IPO，而且是在市场波动尤其科技板块波动非常剧烈的时期完成的。我认为他们在重置预期方面做得相当不错，没有"
+    },
+    {
+      "i": 21,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "05:53",
+      "en": "away too much information and then coming out with more positive information pricing that range a bit higher and pricing the IPO higher and that range. I'm always a bit skeptical about oversubscribed you know bankers will put out all these numbers to generate demand. The reality is the IPO was",
+      "zh": "透露过多信息，随后又放出更积极的信息，把区间上调，最终把 IPO 定价定在区间之上。对于超额认购这件事我一直有点怀疑，你知道，投行会放出各种数字来制造需求。现实是，这次 IPO"
+    },
+    {
+      "i": 22,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "06:08",
+      "en": "successful yesterday we're seeing part of the volatility and tech trade almost saying you know welcome to the equity markets Anthropic this is what happens day in day out and the reality is that there is still this insatiable demand for AI it's just coming up time in the market where there's",
+      "zh": "昨天是成功的。我们看到的部分波动以及科技交易的动荡，几乎像是在说：\"Anthropic，欢迎来到股票市场，这就是每天都在发生的事情。\"现实是，市场对 AI 的需求依然永不满足，只是眼下市场正处在一个"
+    },
+    {
+      "i": 23,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "06:23",
+      "en": "a reassessment of the return of those investments. Avery as you look at the way that this IPO is playing out right now this is only the first full day of trading so we're going to we're going to have one and a half days of trading in the public markets for Anthropic by the time the closing bell rings",
+      "zh": "对这些投资回报进行重新评估的时点。Avery，看着这次 IPO 眼下的走势——这只是第一个完整交易日，等到今天收盘铃响，Anthropic 在公开市场也才只有一个半交易日的表现——"
+    },
+    {
+      "i": 24,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "06:39",
+      "en": "today. Is it too early to maybe start drawing some kinds of relationships or analogies to what happened with SpaceX because it's the closest and nearest comp not just in market cap but in timing as well with regard to this IPO market in the price action could we then see maybe a little",
+      "zh": "今天。现在就开始把它与 SpaceX 的情况做关联或类比是否太早？因为 SpaceX 不仅从市值上、也从时间点上是这次 IPO 市场最接近的可比案例，从价格走势来看，我们或许能看到"
+    },
+    {
+      "i": 25,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "06:59",
+      "en": "bit of that kind of rhyming with SpaceX's first couple of months two three months in the public markets and then translate that into Anthropic or is that too far of a leap at this point right now.",
+      "zh": "一点点它与 SpaceX 上市头两三个月在公开市场表现的呼应，然后套用到 Anthropic 上，还是说这在当下是过于跳跃的推论？"
+    },
+    {
+      "i": 26,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "07:11",
+      "en": "I think after just a couple days of trading yeah that's a little bit of a leap. I mean you're right that as far as the size goes as far as kind of the disruptive tech nature goes. SpaceX probably is the closest thing to Anthropic right now as far as like an IPO would go and I think that there",
+      "zh": "我觉得只交易了几天就做这种类比，确实有点跳跃。你说得没错，从体量、从颠覆性科技属性来看，SpaceX 可能是当下最接近 Anthropic 的 IPO 案例，我认为"
+    },
+    {
+      "i": 27,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "07:33",
+      "en": "is some level of hype involved with both names whether you know the early trading that we see the early demand has more to do with that over the fundamentals but I think we just need more time and that's like you're mentioned just price discovery it's not going to happen overnight we need",
+      "zh": "这两个名字都带有一定程度的炒作成分，我们看到的早期交易、早期需求，与基本面的关系可能不如与这种炒作大。但我认为我们只是需要更多时间——就像你提到的，这只是价格发现，不会一夜之间完成，我们需要"
+    },
+    {
+      "i": 28,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "07:51",
+      "en": "you know several trading sessions to see really the trajectory of of the performance here. Avery Renaissance Capital is tracked I can't count how many right of these IPOs over over the years. Is there anything that you can tell us with regard to like your historical catalog looking back at",
+      "zh": "好几个交易日才能真正看清这里的表现轨迹。——Avery，Renaissance Capital 多年来追踪的 IPO 数量我都数不清了。回顾你们的"
+    },
+    {
+      "i": 29,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "08:09",
+      "en": "all the IPOs that you've tracked. Your firm runs an ETF with newly public companies that have come you know via that IPO pipeline. What exactly does does that historical data that you guys have warehouse at Renaissance Capital and what the price action today what does it tell you about maybe",
+      "zh": "历史目录——你们追踪过的所有 IPO，你们公司还运营着一只包含通过 IPO 通道新上市公司的 ETF——Renaissance Capital 仓储的这些历史数据，加上今天的价格走势，究竟能告诉我们"
+    },
+    {
+      "i": 30,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "08:26",
+      "en": "what the health of the IPO market is right now and maybe was it correct for companies like an open AI the biggest frontier lab competitor to Anthropic to maybe tap the brakes and hold off till next year possibly for their initial public offering. I think what we're seeing right now is discernment and",
+      "zh": "当下 IPO 市场的健康状况如何？以及像 OpenAI 这样、Anthropic 最大的前沿实验室竞争对手，选择踩刹车、把 IPO 推迟到明年，是否是正确的决定？——我认为我们眼下看到的是一种甄别（discernment），"
+    },
+    {
+      "i": 31,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "08:46",
+      "en": "that is absolutely healthy for the IPO market. I mean an IPO this scale it is difficult to compare to anything historically I think the most recent the biggest name side from SpaceX would be something like Facebook and you look at the trading there that did not do well for about the first year",
+      "zh": "这对 IPO 市场来说绝对是健康的。规模这么大的 IPO 很难在历史上找到可比案例，我想除了 SpaceX 之外，最近的最大名字大概就是 Facebook 了。你看看它当年的交易情况，上市后头大约一年表现并不好，"
+    },
+    {
+      "i": 32,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "09:05",
+      "en": "after going public and then I mean you see where it is now I mean it has just exploded and I think that really is just the nature of these disruptive tech companies that come to market with disruptive business models that they lend to more volatility they lend to maybe a longer period",
+      "zh": "然后你再看看它现在的位置——已经爆发式增长。我认为这正是这些以颠覆性商业模式上市的颠覆性科技公司的本质：它们往往带来更高的波动性，也可能需要更长的"
+    },
+    {
+      "i": 33,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "09:25",
+      "en": "of price discovery for investors to really be able to assess is this a viable business model and does this valuation match and as for open AI I mean based on everything that we you know right over the summer that it does seem like Anthropic was in a better position than open AI",
+      "zh": "价格发现期，让投资者真正能够评估：这是不是一个可行的商业模式？估值是否匹配？至于 OpenAI，根据我们整个夏天了解到的所有信息，Anthropic 的处境似乎确实比 OpenAI"
+    },
+    {
+      "i": 34,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "09:42",
+      "en": "to go public in 2026 and I do think that this debut is probably a positive signal but maybe also",
+      "zh": "更适合在 2026 年上市。我确实认为这次首秀可能是一个积极信号，但或许也"
+    },
+    {
+      "i": 35,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "09:51",
+      "en": "kind of re reaffirming that it was a good idea that they waited allow themselves to build some more quarters of a positive finance or you know better financials improve their fundamentals a bit before they take on a market that really is quite discerning.",
+      "zh": "再次印证了他们等待是一个好主意——让自己再多积累几个季度的正向财务表现，或者说改善一下基本面，然后再来面对这个非常善于甄别的市场。"
+    },
+    {
+      "i": 36,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "10:09",
+      "en": "Yuri from your perspective as you kind of look at the way things are playing out right now the investor sentiment angle is key for what's going to happen in the coming months and quarters because we are entering a period where we are still anticipating a lot of high profile IPOs to",
+      "zh": "Yuri，从你的角度看眼下形势的演进，投资者情绪这个维度对未来几个月乃至几个季度至关重要，因为我们正进入一个仍然预期会有大量高关注度 IPO"
+    },
+    {
+      "i": 37,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "10:25",
+      "en": "possibly come to market over the course of the next six to 12 months. The investor conversations that you've had with people who are either in your investor base right now or could potentially be in your investor base what exactly are the biggest concerns that you're hearing what exactly",
+      "zh": "可能在未来 6 到 12 个月内上市的阶段。你与目前或潜在投资者基础中的人交流时，具体听到他们最担忧的是什么？"
+    },
+    {
+      "i": 38,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "10:41",
+      "en": "are those conversations like with regard to just the types of investing the types of investments that investors are maybe gravitating more towards these days Yuri.",
+      "zh": "这些关于投资类型、关于投资者最近更倾向于哪类投资的对话，具体是什么样的，Yuri？"
+    },
+    {
+      "i": 39,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "10:53",
+      "en": "I think one of the major things that I would say is that investors still have an insatiable demand for access. They really want to access some of these generational companies frankly over the last couple of years. They want to access them because many of these companies",
+      "zh": "我认为最重要的一点是，投资者对获得准入的需求依然永不满足。他们真的想投资这些一代人一遇的公司，坦白说过去几年一直如此。他们想投资这些公司，因为其中许多公司"
+    },
+    {
+      "i": 40,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "11:08",
+      "en": "have staged private much longer than really kind of business logic and history has suggested right. SpaceX took a long time, generated a ton of value in the private markets and I think investors in public markets are grappling and wanting that kind of access to these businesses even at later",
+      "zh": "保持私有状态的时间远远超出了商业逻辑和历史经验的预期。SpaceX 就花了很长时间，在私募市场创造了巨量价值。我认为公开市场的投资者正在纠结、渴望获得对这些公司的准入，即便是在更靠后的"
+    },
+    {
+      "i": 41,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "11:26",
+      "en": "stages as they're getting closer to the IPOs. So I still get phone calls asking us to develop ETFs to bring kind of that access to the market and we've done a couple of times this year and that's still continues to be the case even when you see some of this volatility in the market afterwards",
+      "zh": "阶段、离 IPO 越来越近的时候。所以我依然会接到电话，请我们开发 ETF 把这种准入带到市场上来。今年我们已经做了几次，即便之后你会看到市场的一些波动，"
+    },
+    {
+      "i": 42,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "11:41",
+      "en": "even if you're seeing these types of sell-offs you know whether it's open AI or some of the other larger companies out there that are state private there is this insatiable demand for access and I think that's not going away. Yuri is it maybe fair to say or or not fair to say that in this kind",
+      "zh": "即便你看到这类抛售——不管是 OpenAI 还是其他仍处于私有状态的大型公司——市场对准入的需求依然永不满足，我认为这不会消失。——Yuri，说在这种"
+    },
+    {
+      "i": 43,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "11:57",
+      "en": "of a market right now I guess maybe anthropic we'll use this as an example is the gravitational force in the market right now or is anthropic kind of maybe subject to the broader macro issues that are happening overall with the environment in the markets right now. I guess which is the bigger",
+      "zh": "当下的市场里——我们就以 Anthropic 为例——Anthropic 是市场中的引力核心，还是说 Anthropic 也许要受制于当前市场环境中正在发生的更广泛的宏观问题？我想问的是，哪个是更大的"
+    },
+    {
+      "i": 44,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "12:16",
+      "en": "force the star power and the anticipation around anthropic and its effects on AI its ecosystem effect or some of the bigger concerns maybe around risk aversion you know geopolitics inflationary threats and everything else down the line that could be at play as well we know these are all factors",
+      "zh": "力量——是围绕 Anthropic 的明星光环和期待，以及它对 AI 生态的影响，还是那些更大的担忧，比如风险规避、地缘政治、通胀威胁，以及后续可能起作用的其他因素？我们知道这些都是因素，"
+    },
+    {
+      "i": 45,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "12:35",
+      "en": "but it sure felt like at one point anthropic was going to override all of them because it was this transformational initial public offering. Look I think we're probably all being a bit unfair to anthropic and they pulled off this IPO I think in many market like in many many companies cases",
+      "zh": "但一度确实感觉 Anthropic 会压倒所有这些因素，因为它是一场具有变革意义的 IPO。——我觉得我们对 Anthropic 可能都有点不公平。他们完成了这次 IPO，我认为在很多市场情形下、对很多公司来说，"
+    },
+    {
+      "i": 46,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "12:52",
+      "en": "they probably wouldn't have gone ahead and then there was pulled IPO they skillfully navigated the pricing environment for that particular IPO and I think they delivered what they said they would do and now it's a public company it's going to deliver more information about the AI",
+      "zh": "他们可能根本不会推进 IPO。他们巧妙地驾驭了这次特定 IPO 的定价环境，我认为他们兑现了自己承诺要做的事情。现在它是一家上市公司，将会提供更多关于 AI"
+    },
+    {
+      "i": 47,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "13:07",
+      "en": "trade for us but it's entered into this this difficult vacuum where you have positioning that's unwinding you have people positioning for 2027 and their outlooks you had a midterm election as well and we've retraced our way back to that which was an interesting buying opportunity",
+      "zh": "交易的信息给我们。但它进入了一个困难的真空期：仓位正在平仓，人们在为 2027 年布局并调整自己的前景预期，还有一场中期选举，我们已经回落到那时——那本来是一个有意思的买入机会，"
+    },
+    {
+      "i": 48,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "13:23",
+      "en": "and so we are in a bit of a vacuum as we enter the holiday season and I think from here on out the market is trying to figure out what direction to go in and what to to focus on is it fed policy is it the geopolitical environment is it the midterm election results or is it part of this AI",
+      "zh": "所以进入假日季时我们处于一种真空状态。我认为接下来市场会试图搞清楚方向何在、该关注什么——是 Fed 政策？是地缘政治环境？是中期选举结果？还是这场 AI"
+    },
+    {
+      "i": 49,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "13:41",
+      "en": "trade and in many cases I think certainly the CIOs that I speak to and clients are just saying actually I'm just going to take some risk off and just sit this out and wait and see when I get a bit more information when it comes to anthropic what will be most important is",
+      "zh": "交易的一部分？很多情况下，我交流过的 CIO 和客户都会说：\"其实我打算先减掉一些风险，坐等观望，等信息更充分一些再说。\"对 Anthropic 而言，最重要的将是"
+    },
+    {
+      "i": 50,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "13:55",
+      "en": "the revenue picture and how the AI adoption curve is progressing and I think that's a vital start to watch okay Avery with all of this in mind as you look out towards the IPO outlook in the market for early to mid 2027 and beyond what exactly would be the key factors the key kind of headwinds",
+      "zh": "收入图景以及 AI 采用曲线的进展，我认为这是值得密切关注的关键起点。——好的，Avery，考虑到这一切，展望 2027 年早中期的市场 IPO 前景乃至更远的未来，究竟哪些是关键因素、是关键的逆风"
+    },
+    {
+      "i": 51,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "14:16",
+      "en": "and tailwinds to keep an eye on as you start to try to forecast and anticipate what that IPO market could look like next year what are the key things that you're watching but definitely watching the anthropic after market I mean as you're mentioned several times",
+      "zh": "和顺风，需要在你开始预测明年的 IPO 市场可能是什么样子时密切关注？你在盯着哪些关键东西？——首先肯定是要盯着 Anthropic 的上市后表现，就像你多次提到的那样，"
+    },
+    {
+      "i": 52,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "14:32",
+      "en": "and I agree this was the success it got the IPO done at price above the range and there was clear demand there or they wouldn't have priced the way that they did so now it really comes down to the performance are public investors making money on this deal and that will shape a lot of what",
+      "zh": "我也同意这是一次成功——IPO 定价高于区间完成，需求显而易见，否则他们不会那样定价。所以现在关键就在于后续表现——公开市场投资者能否在这笔交易上赚钱？这将塑造很多"
+    },
+    {
+      "i": 53,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "14:49",
+      "en": "we see through the first half of 2027 beyond that it's going to come down to a few names deciding to meet public investors where they stand taking valuation cuts if they need to just coming to public markets with an open mind that they may have to you know make some sacrifices",
+      "zh": "我们在 2027 年上半年看到的东西。除此之外，关键在于几家重量级公司是否愿意在公开市场投资者所处的位置上与他们相向而行，必要时接受估值下调，以开放的心态来到公开市场——他们可能不得不做出一些牺牲"
+    },
+    {
+      "i": 54,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "15:11",
+      "en": "to get the deal done and then trade well from there and it's going to be a few of these names that we see start to trickle in that will really I think reopen the calendar through the end of 2027 all right and Yuri the final word to you for this valuations have been mentioned multiple times",
+      "zh": "来完成交易，然后从此交易良好。我认为将会是几家这样陆续登场的公司，真正重新打开直到 2027 年底的 IPO 日历。——好的，Yuri，最后请你来谈谈。估值这个话题在这次对话中已经被多次提及，"
+    },
+    {
+      "i": 55,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "15:30",
+      "en": "during this conversation from your perspective that valuations to bait that's taking place in the market right now do we feel as though valuations right now are still reasonable do we feel as though they need to come down and that's what's happening because of the price action in the",
+      "zh": "从你的角度看，当下市场中正在发生的估值调整——我们是否认为当前估值仍然合理？我们是否认为估值需要下调，而这正是市场"
+    },
+    {
+      "i": 56,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "15:45",
+      "en": "markets or do we feel as though there is real kind of a by the dip mentality in the market that is justified because some of these valuations whether they be in private or public markets is somewhat more balanced now that's a really interesting question I think one of the things that",
+      "zh": "价格走势正在造成的结果？还是我们认为市场中确实存在一种合理的\"逢低买入\"（buy the dip）心态，因为无论私募还是公开市场，其中一些估值现在已经多少更加平衡？——这是一个非常有意思的问题。我认为"
+    },
+    {
+      "i": 57,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "16:01",
+      "en": "probably is the most difficult part for investors to understand right now is that some of the leadership in the market has been taken up by semiconductor companies or their at this peak was 2022 percent of the S&P 500 and their earnings profiles very different from the rest of the market",
+      "zh": "投资者当下最难理解的一点可能是：市场的一部分领导地位已经被半导体公司占据——它们在峰值时占 S&P 500 的 22%——而它们的盈利特征与市场其他部分非常不同，"
+    },
+    {
+      "i": 58,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "16:17",
+      "en": "so their valuations can rise but also the earnings estimates versus the expectations that come out probably more important as the next couple of years so right now actually if you look at the market it looks quite cheap but the key question is what companies like micron and video they actually",
+      "zh": "所以它们的估值可以上升，但盈利预估与实际公布的预期相比，可能在未来几年更为重要。眼下如果你看整个市场，其实显得相当便宜，但关键问题是像 Micron 和 Nvidia 这样的公司能否真正"
+    },
+    {
+      "i": 59,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "16:34",
+      "en": "deliver those numbers that their valuations are based on and so on the surface the market actually looks quite attractive we think some of the fundamentals are actually quite good if you've got in 27 many of those numbers are well done and well well placed the key question is in 2028 that's",
+      "zh": "兑现支撑其估值的那些数字。所以从表面看，市场其实相当有吸引力，我们认为一些基本面其实相当不错——如果 2027 年的许多数字都完成得很好、位置很稳，那么关键问题就在 2028 年，"
+    },
+    {
+      "i": 60,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "16:51",
+      "en": "why you need to watch things like the anthropic error number because that is a key part of the puzzle as you build out the case for data center and AI investment which tries valuations in the market yeah that annual recurring revenue rate kind of number has been blockbuster for especially",
+      "zh": "这也是为什么你需要盯着像 Anthropic 的 ARR 数字这类指标，因为它是你构建数据中心和 AI 投资论证（进而支撑市场估值）中的关键拼图。——是的，那种年度经常性收入（ARR）数字一直是爆棚表现，尤其是"
+    },
+    {
+      "i": 61,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "17:06",
+      "en": "these front-end tier labs and many stocks in the AI ecosystem for sure",
+      "zh": "对这些前沿一线实验室以及 AI 生态中的许多股票来说，绝对是如此。"
+    },
+    {
+      "i": 62,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "17:14",
+      "en": "now it's time to round out the conversation with some thoughtful analysis and perspective to help you better understand ETFs with our markets 102 portion of the podcast Yuri Kojameerian the 10.0 ETFs CIO continues with us now Yuri thank you very much for sticking",
+      "zh": "现在到了用一些有深度的分析和视角来收尾这场对话的时候了，帮助你更好地理解 ETF——这是我们播客的 Markets 102 环节。Tema ETFs 首席投资官 Yuri Kojameerian 继续与我们同在。Yuri，非常感谢你"
+    },
+    {
+      "i": 63,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "17:29",
+      "en": "around for the podcast today I'd like to kind of maybe take a little bit of a different angle with you on the podcast then our bigger conversation about anthropics IPO and it's rolled in the markets it is an important part and we discussed that during the show I wonder my first question to",
+      "zh": "今天留在节目里。我想在播客里跟你从一个略微不同的角度切入，而不是我们之前关于 Anthropic IPO 及其对市场影响的那场大对话——那当然是一个重要部分，我们也在节目中讨论过了。我想问你的第一个问题是："
+    },
+    {
+      "i": 64,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "17:46",
+      "en": "you here is anthropic your funds offered pre IPO exposure to anthropics listing you also did the same thing with SpaceX months ago with regard to offering access to it in some of your funds as well how exactly does that work in an ETF wrapper format how do you put a privately traded privately",
+      "zh": "Anthropic——你的基金为 Anthropic 的上市提供了 pre-IPO 敞口，几个月前你也为 SpaceX 做过同样的事情，在你的一些基金中提供了对它的准入。这在 ETF 外壳的格式下究竟是如何运作的？你怎么把一家私下交易、私人"
+    },
+    {
+      "i": 65,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "18:11",
+      "en": "held companies assets into an ETF that is then publicly traded absolutely great question um you're absolutely right what we're trying to do is give investors access to some of these generational companies I think the reality is many of these businesses have stayed private much longer than",
+      "zh": "持有的公司的资产放进一只随后公开交易的 ETF 里？——绝对是个好问题。嗯，你说得完全没错，我们试图做的就是让投资者获得对这些一代人一遇的公司的准入。我认为现实是，很多这类企业保持私有状态的时间远远超过了"
+    },
+    {
+      "i": 66,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "18:31",
+      "en": "investors would like and they want to gain access to those as well as there are insiders venture capital funds employees that want to gain some liquidity for their shares so there's a vibrant market often for these large companies in what's called secondary transactions so they're transacting",
+      "zh": "投资者愿意看到的时间。他们想要获得准入，同时也有内部人、风投基金、员工想要为自己持有的股份获得一些流动性。所以对这类大公司来说，通常存在一个非常活跃的所谓二级市场交易（secondary transactions）——他们通过这些"
+    },
+    {
+      "i": 67,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "18:47",
+      "en": "the shares through various platforms one of the most classic ways of transacting in private market is through SPGs and these are really as simply as just companies that are put together to own the shares so that's what you see on the capital table of the company and those SPGs shares",
+      "zh": "平台交易股份。私募市场中最经典的交易方式之一是通过 SPV（特殊目的载体）——说白了就是一些专门组建起来持有股份的公司，你在公司的股权结构表上看到的就是这些 SPV，而这些 SPV 的股份"
+    },
+    {
+      "i": 68,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "19:04",
+      "en": "are then held by funds like ours so our idea was we're going to put together ETFs that are coherent right and focus on a particular thematic so if you take our NASA ETF which invests in space companies when we first started building it we felt it was necessary to add SpaceX even though it",
+      "zh": "随后由像我们这样的基金持有。所以我们的思路是：组建主题连贯、聚焦特定主题的 ETF。比如我们的 NASA ETF，投资于太空公司——我们最初构建它时就觉得必须把 SpaceX 加进去，即便它当时是"
+    },
+    {
+      "i": 69,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "19:23",
+      "en": "was a public company just because it was the defining business within the space economy now it's responsible for 80% of launches it has built what is now clear at the first reusable rocket I've really ever created by man and it's a generational business so what you do is you go",
+      "zh": "一家私有公司——只因为它是太空经济中最具定义性的企业。如今它承担了 80% 的发射任务，打造了人类历史上第一枚真正意义上的可回收火箭，这已经非常明显。它是一家一代人一遇的企业。所以你要做的是"
+    },
+    {
+      "i": 70,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "19:41",
+      "en": "out into the secondary market and you transact and you acquire these shares via shares within the SPG now there's a couple of key things that we have to do we're institutional investors so we have to do very good due diligence not only on deciding whether it's a good investment and it fits the",
+      "zh": "到二级市场去交易，通过 SPV 内的股份来获取这些股份。这里有几件关键的事我们必须做——作为机构投资者，我们必须做非常充分的尽职调查，不仅要判断这是不是好投资、是不是符合"
+    },
+    {
+      "i": 71,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "19:55",
+      "en": "fund but also on the legal structure of the SPV do we actually own the shares what's the chain of ownership and one other thing that we really pride ourselves on is we're purchasing SPGs that have no management fees and no performance fees so I don't really know hidden fees for investors",
+      "zh": "基金定位，还要审视 SPV 的法律结构：我们真的持有这些股份吗？所有权链条是什么？另一件我们非常自豪的事是：我们购买的 SPV 没有管理费、没有业绩分成费，所以对投资者来说没有"
+    },
+    {
+      "i": 72,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "20:10",
+      "en": "in acquiring as we acquire these private steaks and that's very important because often especially if you said want to go and transact in the SPV yourself you will get stung by quite owner's fees sometimes entry exit performance carry management I mean there's all kinds of fee",
+      "zh": "获取这些 private stake（私募股权份额）过程中的隐性费用。这一点非常重要，因为很多时候，特别是如果你自己想去 SPV 里做交易，你会被相当多的费用坑到——有时候是入场费、出场费、业绩分成、管理费，我是说各种各样的费用"
+    },
+    {
+      "i": 73,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "20:26",
+      "en": "layers so you take that and you put it inside the ETF so the ETF's NAV holds this particular SPV and it's exposure to say anthropic in the case of laser and then it starts trading and you basically have some restrictions so the SEC allows up to 15% of an ETF to be invested in what I call the",
+      "zh": "层层叠加。所以你要做的就是把它放进 ETF 里——ETF 的 NAV（净值）持有这个特定的 SPV，也就持有了它对比如说 Anthropic 的敞口（在我们相关的那只 ETF 里就是这种情况），然后它开始交易。你基本上会有一些限制：SEC 允许 ETF 最多 15% 投资于我所说的"
+    },
+    {
+      "i": 74,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "20:47",
+      "en": "liquid securities of which private security is one of those and you have to be very careful about managing this because essentially you're in and out liquidity is quite limited as to whatever's transacting on the secondary market so what I always tell our clients and our investors is watch",
+      "zh": "非流动性证券——私募证券就是其中之一。你必须非常小心地管理这一块，因为本质上你的进出流动性非常有限，取决于二级市场上正在交易什么。所以我总是告诉我们的客户和投资者要留意"
+    },
+    {
+      "i": 75,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "21:01",
+      "en": "out for these three things transparency as in meaning has the manager really done their work to understand what they own the fees related to this and are they capable and do you have experience managing this we felt very comfortable putting anthropic in laser because of the experience we had",
+      "zh": "三件事：透明度——也就是说，管理人是否真的做了功课去理解自己持有什么；相关费用；以及他们是否有能力、有没有相关管理经验。我们之所以非常放心地把 Anthropic 放进（相关 ETF 里），是因为我们有过"
+    },
+    {
+      "i": 76,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "21:20",
+      "en": "with putting SpaceX and Tenasa you know we went through the full life cycle acquiring the secondary shares during the due diligence actually seeing the IPO trade and then the SPV's unwind and the liquidity become available as a lock-ups expired post IPO we have experience",
+      "zh": "把 SpaceX 放进 NASA ETF 的经验。我们经历了完整的生命周期——在尽调过程中收购二级市场份额，实际看到 IPO 交易，然后 SPV 解体、随着上市后锁定期到期流动性释放出来。我们有"
+    },
+    {
+      "i": 77,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "21:35",
+      "en": "managing that and we're doing that and some of our other funds and I think that along with being a coherent fund meaning anthropical longs and laser and SpaceX belong in asset is really part of the attraction for investors for these ETFs so the use of these special purpose vehicles these",
+      "zh": "管理这类资产的经验，也在其他一些基金中这么做。我认为，加上一只基金的连贯性——也就是说 Anthropic 属于（我们的相关基金），SpaceX 属于 NASA ETF——这真的是这些 ETF 对投资者吸引力的一部分。——所以，使用这些特殊目的载体（SPV）"
+    },
+    {
+      "i": 78,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "21:54",
+      "en": "SPV structures to kind of warehouse if you will these private fund assets and then you own these SPVs that's the way that you're giving kind of the access there these are privately traded instruments and you mentioned before the security is an exchange commission the SEC has rules and regulations",
+      "zh": "结构来\"仓储\"（如果可以这么说）这些私募基金资产，然后你持有这些 SPV，这就是你提供准入的方式。这些是私下交易的工具。你之前提到 SEC（美国证券交易委员会）对"
+    },
+    {
+      "i": 79,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "22:13",
+      "en": "about the number of privately held companies that can account for a certain weighting in any particularly ETF the ETF world is in a state of flux right now because of regulations specifically from the SEC we've heard that there is a push there they've kind of put out for public comment",
+      "zh": "任何特定 ETF 中私人持股公司所能占的权重有相关规定。ETF 领域眼下正因监管——特别是 SEC 的监管——而处于变动之中。我们听说 SEC 正在推动一些内容，他们已经公开征求意见，"
+    },
+    {
+      "i": 80,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "22:32",
+      "en": "a number of these kind of I guess maybe anticipated possible future policies with regard to what they characterize as responsible retailization of the markets that will allow for more privately held investments or access to private investments for the investing public do you think that for a company",
+      "zh": "涉及一系列或许可以预期的未来政策，关于他们所定义的\"市场的负责任零售化\"（responsible retailization），将允许普通投资者获得更多私人持有的投资、或对私人投资的准入。你认为对于像"
+    },
+    {
+      "i": 81,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "22:52",
+      "en": "like Tema and others in your space that you will see more of an evolution towards adopting more private market products into the publicly traded exchange traded funds that you and your competitors offer to the public I think you're absolutely right this is the direction of travel which is that",
+      "zh": "Tema 以及你所在领域的其他公司来说，你会看到更多的演进——把更多私募市场产品纳入你和竞争对手向公众提供的公开交易 ETF 中？——我认为你说得完全对，这就是大势所趋："
+    },
+    {
+      "i": 82,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "23:14",
+      "en": "there is a demand from investors and it could be cyclical because of the amount of large private very successful companies that people want access to maybe in future there won't be so many maybe they'll come public earlier but for now and you can see the next roster when you're talking about",
+      "zh": "投资者存在需求，这可能是周期性的，因为人们想要获得准入的大型、非常成功的私有公司数量太多。也许未来不会有那么多，也许它们会更早上市，但眼下——你可以看看接下来的名单，比如"
+    },
+    {
+      "i": 83,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "23:28",
+      "en": "Databricks, Stripe, Kalshi, OpenAI there's still a huge crop of these businesses and I think that means that there's investor demand so retail investors want access to it now the SEC I think in their wisdom it's absolutely right to be making sure that these products",
+      "zh": "Databricks、Stripe、Kalshi、OpenAI——依然有一大批这样的企业。我认为这意味着存在投资者需求，零售投资者想要获得准入。我认为 SEC 以其明智判断，绝对有必要确保这些产品"
+    },
+    {
+      "i": 84,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "23:46",
+      "en": "and this access is delivered in a responsible and fiduciary way to end investors so these rules exist and the SEC is looking at all this and they are really looking at the same things that we are right which is they're making sure that there's chain of ownership right so there's",
+      "zh": "和这种准入是以负责任、fiduciary（受托）的方式交付给最终投资者的。所以这些规则是存在的，SEC 正在审视这一切，他们关注的其实与我们关注的相同——他们在确保所有权链条清晰，"
+    },
+    {
+      "i": 85,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "24:00",
+      "en": "no misscelling of these particular exposures they're making sure that there's no extra fees and egregious fees charged by fund managers to investors to take advantage of this this this demand and they're really making sure that everything fits and makes sense and investors know what they're",
+      "zh": "确保这些特定敞口没有被错误销售；他们在确保基金管理人没有借这种需求向投资者收取额外费用或离谱费用；他们真的在确保一切都合适、合理，投资者知道自己"
+    },
+    {
+      "i": 86,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "24:15",
+      "en": "buying and understand that exposure one of the things that we really do at Tema is we put up an FAQ on every one of our pages that has exposure to these private holding to explain to investors what valuation are they holding and what are the fees what is the transparency and I think that",
+      "zh": "在买什么、理解那份敞口。我们在 Tema 做的一件事是：在每一个持有这类私人持股的页面上，我们都会挂出一份 FAQ，向投资者解释他们所持有的估值是多少、费用是什么、透明度如何。我认为"
+    },
+    {
+      "i": 87,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "24:31",
+      "en": "is something that we have led on in the industry and I'm sure the SEC will look very positive on that just one final point there is definitely this evolution you probably saw the news from BlackRock filing a new type of let's call it ETF structure that offers more private exposure",
+      "zh": "这是我们在行业中引领的事情，我相信 SEC 会对此给予非常正面的评价。最后一点：这种演进确实在发生。你可能看到了 BlackRock 的新闻——他们申报了一种新的、姑且称之为 ETF 的结构，提供更多的私募敞口，"
+    },
+    {
+      "i": 88,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "24:48",
+      "en": "as sort of a mix of an interval fund and or an exchange traded interval fund you're seeing other issuers trying to give pre-appular exposure where it's not real exposures using swaps it's a perpetual futures and things like that all of that is a sign and where we sit as a business",
+      "zh": "有点像 interval fund（间隔基金）或交易所交易 interval fund 的混合体。你也看到其他发行商在尝试提供 pre-IPO 敞口——但那不是真正的敞口，而是使用互换（swaps）、永续期货之类的工具。所有这些都是一个信号。而我们作为一家企业的立场是："
+    },
+    {
+      "i": 89,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "25:02",
+      "en": "is we're thinking we want investors to have real economic exposure to this the best way to do that is to acquire the secondary share so you know what you own and the SPV even though it has a bit of a bad name in public markets is actually a very standard way of gaining access and investing in",
+      "zh": "我们希望投资者拥有真正的经济敞口。做到这一点的最好方式就是收购二级市场份额，这样你就知道自己持有什么。SPV 虽然在公开市场上名声不太好，但实际上是一种非常标准的获得准入、投资于"
+    },
+    {
+      "i": 90,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "25:20",
+      "en": "private companies and one last question before we let you go because we you know I wish we had all kinds of infinite amounts of time but for this particular episode I guess the next big one that a lot of folks are focused on right now is open AI and for good reason right it was kind of the",
+      "zh": "私营公司的方式。——最后一个问题，然后我们就放你走，因为我们真希望有无限的时间，但对这一集来说，我猜下一个大家关注的重量级案例就是 OpenAI，理由充分——它一度是"
+    },
+    {
+      "i": 91,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "25:36",
+      "en": "it was the front runner you know at various points over the course of the last 12 to 18 months and then it kind of took a little bit more of that backseat to anthropic in terms of momentum towards an IPO but it is one that everybody is anticipating for 2027 is this one of those companies",
+      "zh": "在过去 12 到 18 个月中多个时间点上的领跑者，然后在通往 IPO 的势能上多少让位给了 Anthropic，但它是所有人都在期待 2027 年上市的公司。这是否是你会更主动地在自己基金中提供"
+    },
+    {
+      "i": 92,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "25:54",
+      "en": "that you are going to more forcefully offer access to private holdings of open AI in some of your funds as you kind of approach 2027 so I think the most important thing is we don't sort of do private access for private access to sake right we make sure that the ETFs make sense from a fit",
+      "zh": "OpenAI 私募持股准入的公司之一，随着我们接近 2027 年？——我认为最重要的是，我们不会为了私募准入而做私募准入。我们要确保这些 ETF 从契合度、"
+    },
+    {
+      "i": 93,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "26:16",
+      "en": "perspective from an investment perspective we want to know that our investment team is really backing this company at this point in time open AI is not in any one of our ETFs I can't say that it won't be we are definitely you offer the shares they exist out there in the secondary market",
+      "zh": "从投资视角来看都是合理的。我们要知道我们的投资团队此时此地真的在支持这家公司。OpenAI 目前不在我们任何一只 ETF 中，我不能说以后也不会在——它的股份确实存在于二级市场上，是我们"
+    },
+    {
+      "i": 94,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "26:31",
+      "en": "something that we will look at but we haven't made a decision to do anything within any of our ETFs yet part of it because it may not depends whether it fits in one particular and the portfolio manager wants to do it but what we do have exposures is you know we own states and calcium for example",
+      "zh": "肯定会考虑的事情，但我们还没有在任何一只 ETF 中做出决定，部分原因在于——这要看它是否契合某一只特定 ETF，以及组合经理是否愿意做。但我们确实持有的敞口包括 Stripe 和 Kalshi，比如"
+    },
+    {
+      "i": 95,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "26:46",
+      "en": "in two of our ETFs we have a prediction markets and trading ETF that has exposed to calcium polymarket we have exposures to other private companies as well investors can see that on our website so we're always looking out for these interesting businesses to gain exposure but I would",
+      "zh": "在我们的两只 ETF 中——我们有一只预测市场与交易 ETF，持有 Kalshi 和 Polymarket 的敞口。我们对其他私营公司也有敞口，投资者可以在我们的网站上看到。所以我们一直在寻找这些有意思的企业来获取敞口，但我"
+    },
+    {
+      "i": 96,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "27:02",
+      "en": "say that we're never going to give it to you just for the sake of that private exposure this is about creating an ETF that makes sense from an investment thematic fit and offering these private exposures because they make sense within that structure all right it's it's a fascinating",
+      "zh": "要说，我们绝不会仅仅为了私募敞口而给你私募敞口。这关乎创建一只从投资主题契合度上说得通的 ETF，并在其中提供这些私募敞口，因为它们在这个结构中是有意义的。——好的，这是一场非常迷人的"
+    },
+    {
+      "i": 97,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "27:17",
+      "en": "conversation you'll have to please come back and update us over the coming months on that kind of market for 10 ETFs Yuri Kojimiri and thank you very much the CIO at 10 ETFs we appreciate the time that does it for the ETF edge podcast thanks for listening if you want us to get next week or just head over to etf edge dot cmbc dot com",
+      "zh": "对话。请你务必在未来几个月里回来为我们更新 Tema ETFs 相关市场的最新情况，Yuri Kojameerian，非常感谢你，Tema ETFs 的首席投资官，我们感谢你的时间。ETF Edge 播客就到这里，感谢收听。想我们下周再见，请访问 etfedge.cnbc.com。"
+    },
+    {
+      "i": 98,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "27:47",
+      "en": "how did I get here I've spent 20 years building motorcycles",
+      "zh": "\"我是怎么走到这里的？我花了 20 年打造摩托车。\""
+    },
+    {
+      "i": 99,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "27:53",
+      "en": "I've been building something from a family too invest in where you're going get the growth potential of mid cap companies in one ETF with MDY from state street before investing consider the funds investment objectives risks charges and expenses visit state street dot com slash IM for perspectives containing this and other information",
+      "zh": "\"我一直在打造某样东西——一个值得家庭投资的方向。投资你的前路，通过 State Street 的 MDY，一只 ETF 即可获得中盘公司的成长潜力。投资之前，请考虑基金的投资目标、风险、费用与开支。请访问 statestreet.com/im 获取招募说明书，其中包含这些及其他信息，"
+    },
+    {
+      "i": 100,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "28:10",
+      "en": "read it carefully MDY subject to risks similar to those of stocks all ETFs are subject to risk including possible also principle helps distributors and distributors",
+      "zh": "请仔细阅读。MDY 面临与股票类似的风险。所有 ETF 都存在风险，包括可能的本金损失。分销商与代销商……"
+    }
+  ]
+}

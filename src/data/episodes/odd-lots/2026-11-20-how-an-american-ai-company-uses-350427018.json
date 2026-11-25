@@ -1,0 +1,1274 @@
+{
+  "show": "odd-lots",
+  "kind": "transcript",
+  "id": "350427018",
+  "guid": "4364f8cd-e957-44ef-9795-b5070115b19e",
+  "slug": "2026-11-20-how-an-american-ai-company-uses-350427018",
+  "date": "2026-11-20",
+  "title_en": "How an American AI Company Uses Chinese Open-Weight Models",
+  "title_zh": "一家美国 AI 公司如何使用中国的开放权重模型",
+  "subtitle_zh": "Minerva 联合创始人 Daniel Saidi 拆解开放权重模型微调的成本账、数据主权与蒸馏争议，以及被抹除模型带来的安全新忧。",
+  "summary_zh": "本期 Odd Lots 由 Tracy Alloway 与 Joe Weisenthal 主持，与营销 AI 公司 Minerva 联合创始人 Daniel Saidi 讨论开源与闭源前沿模型在真实业务中的取舍。Saidi 指出开放权重不等于开源：中国实验室放出的是权重而非完整代码与训练配方，但企业已可自行托管。他认为应用层最大的红利是在开放权重上微调，好处依次为成本、数据主权与议价竞争。Minerva 开发阶段用 Claude、Astra 等前沿模型，运行阶段改用微调后的 Qwen，以每完成任务的成本而非每百万 token 成本核算。他强调微调成果无法随新版本自动平移，是持续的运营风险；训练成本则已坍塌，Fireworks 每百万输入输出 token 约 7 到 9 美元，Harvey 的 Tenant 模型花了约 600 万美元算力。关于蒸馏，他以 NVIDIA 支持的 Reflection AI 落后前沿六到九个月为例，认为中国的进步并非全靠蒸馏。他还警告被抹除的 DeepSeek 模型是最现实的网络安全风险；算力上他按每位知识工作者约一块 GPU 估算，认为长期仍严重短缺。",
+  "description": "How an American AI Company Uses Chinese Open-Weight Models",
+  "duration": "48:23",
+  "duration_seconds": 2903,
+  "episode_url": "https://www.iheart.com/podcast/1308-odd-lots-30972803/episode/how-an-american-ai-company-uses-chinese-open-weight-models-350427018",
+  "audio_url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/8a94442e-5a74-4fa2-8b8d-ae27003a8d6b/4364f8cd-e957-44ef-9795-b5070115b19e/audio.mp3?utm_source=Podcast&in_playlist=982f5071-765c-403d-969d-ae27003a8d83&source=iheart",
+  "speakers": {
+    "1": "Tracy Alloway（主持）",
+    "2": "Joe Weisenthal（主持）",
+    "3": "Daniel Saidi（嘉宾）",
+    "4": "片花/广告（旁白）"
+  },
+  "turn_count": 156,
+  "turns": [
+    {
+      "i": 0,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "00:03",
+      "en": "Bloomberg Audio Studios Podcasts Radio News.",
+      "zh": "Bloomberg Audio Studios。播客、电台、新闻。"
+    },
+    {
+      "i": 1,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "00:19",
+      "en": "Hello and welcome to another episode of the Odd Thoughts Podcast. I'm Traci Alloway.",
+      "zh": "大家好，欢迎收听新一期的 Odd Lots 播客。我是 Tracy Alloway。"
+    },
+    {
+      "i": 2,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "00:23",
+      "en": "And I'm Joe Weisenthal.",
+      "zh": "我是 Joe Weisenthal。"
+    },
+    {
+      "i": 3,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "00:24",
+      "en": "Joe, there are still a lot of questions about the business model of AI. Yeah. And we're not going to deal with all of them in this particular episode. But one of the biggest questions, and I think it's been on people's minds basically ever since the deep seek scare back in January 2025, is this idea of open source versus some of the closed frontier models.",
+      "zh": "Joe，关于 AI 的商业模式，仍然有很多疑问。是的。这一期我们不会把所有问题都谈完。但其中最大的一个问题——我觉得自 2025 年 1 月 DeepSeek 引发的那场恐慌以来，它基本一直挂在大家心上——就是开源模型与部分闭源前沿模型（frontier models）之间的这种较量。"
+    },
+    {
+      "i": 4,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "00:48",
+      "en": "Absolutely right. So one of the questions, I suppose, another way to frame the conversation will frontier or near frontier intelligence be commodified, right? And then you can't charge any high premiums on it. And then you get onto all these problems. This was the core anxiety of the deep seek moment. So it's like, if you're selling chips, then that's great. I run any model, but for the big American closed source companies, Specifically, anthropic and open air are some big questions right there.",
+      "zh": "完全正确。我想其中一个问题，或者说给这场讨论换个框定方式：前沿或者接近前沿的智能会被大宗商品化吗，对吧？如果是，你就没法再收取任何高额溢价，接着你就会碰到所有这些麻烦。这正是 DeepSeek 时刻的核心焦虑。所以是这样：如果你卖的是芯片，那太好了，任何模型我都能跑；但对美国的大型闭源公司来说，特别是 Anthropic 和 OpenAI，这里就有几个大问题摆着。"
+    },
+    {
+      "i": 5,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "01:14",
+      "en": "Right.",
+      "zh": "没错。"
+    },
+    {
+      "i": 6,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "01:14",
+      "en": "You have to justify the expense of all this CapEx investment and all of that. And you want to charge that premium for a premium model. And in the meantime, we've seen a lot of Chinese open source models in particular that seem to be getting pretty close. to the frontier on some of their benchmark exercises. A lot of people will say they're distilling the Western models and cheating basically, but they're still getting there.",
+      "zh": "你得为这么大规模的资本开支（CapEx）投入找到说得通的理由，你想为一个高端模型收取那笔溢价。而与此同时，我们看到很多中国开源模型，尤其是一些，在某些基准测试项目上似乎已经相当接近前沿了。很多人会说它们是在蒸馏（distilling）西方模型、基本上是在作弊，但它们确实还是走到了那一步。"
+    },
+    {
+      "i": 7,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "01:38",
+      "en": "Or the other accusation is that they're benchmarked. So that basically they're really good at taking a specific test as opposed to then being as good, you know, then you put them in general deployment. There's a lot of accusations about really, are they as good? Are they six months behind? Are they a year behind? Also, are they actually being trained on NVIDIA chips that are somewhere in Thailand or something, or in Malaysia, in which case maybe the near-frontier capabilities aren't as shocking? A lot of questions about.",
+      "zh": "或者另一种指控是说它们是「针对基准测试做过优化的」。所以基本上就是它们非常擅长应付某一场具体的考试，而不是在你把它们投入通用部署之后也一样好。围绕这些有大量指控：它们真有那么好吗？落后六个月？落后一年？另外，它们是不是实际上是在泰国某处、或者马来西亚的 NVIDIA 芯片上训练出来的？如果是这样，那么这种接近前沿的能力也许就没那么令人震惊了。这里有很多问题要问。"
+    },
+    {
+      "i": 8,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "02:09",
+      "en": "This, though.",
+      "zh": "关于这一点。"
+    },
+    {
+      "i": 9,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "02:10",
+      "en": "So I thought for this particular episode, one interesting thing to do would be maybe talk to someone who's in the business space. And by that, I mean someone who has an AI company or is using AI for their company. Yeah. a practitioner of AI models and talk to them about how they're thinking about open versus frontier.",
+      "zh": "所以我觉得对这一期来说，一件有意思的事也许是去跟一位真正在商业领域里的人聊聊。我这么说的意思是，一位自己有 AI 公司、或者在自己公司里使用 AI 的人。是的，一位 AI 模型的实践者，然后跟他们聊聊他们怎么看待开源与前沿的取舍。"
+    },
+    {
+      "i": 10,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "02:30",
+      "en": "You really saw this after the hugging face stuff. And you saw this from the startup community specifically, which was this like, sure, maybe there are some safety issues related to cybersecurity, whatever. But don't let this be used as a pretext to clamp down on open source. And this sort of, like, you know, the deeper layer reading is, like, if you're a startup and you're building on AI in some way, you like price competition. You like downward price pressure. And so, you know, it's very interesting to hear, like, from the companies who are using AI to build, like, how much value can you get from, like, a slightly cheaper Chinese model? Or when is that premium for true frontier capability really worth it?",
+      "zh": "在 Hugging Face 那件事之后你真的能看到这一点，尤其是来自创业圈的声音，就是那种：好吧，也许确实存在一些跟网络安全之类有关的安全问题，但别让这被当成打压开源的借口。而更深一层的解读是：如果你是一家在 AI 上做产品的创业公司，你是喜欢价格竞争的，你喜欢向下的价格压力。所以，听听那些用 AI 来做产品的公司怎么说会很有意思——从一个稍微便宜点的中国模型身上，你到底能拿到多少价值？或者说，什么时候为真正的前沿能力支付那笔溢价才是真正值得的？"
+    },
+    {
+      "i": 11,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "03:15",
+      "en": "Those are the two questions. So we do, in fact, have the perfect guest. We're going to be speaking with Daniel Saidi. He is the co-founder over at Minerva. So, Daniel, thank you so much for coming on All Thoughts.",
+      "zh": "这就是那两个问题。而我们确实请到了最完美的嘉宾。今天我们要对话的是 Daniel Saidi，他是 Minerva 的联合创始人。Daniel，非常感谢你来做客 Odd Lots。"
+    },
+    {
+      "i": 12,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "03:25",
+      "en": "Thank you so much for having me.",
+      "zh": "非常感谢你们邀请我。"
+    },
+    {
+      "i": 13,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "03:26",
+      "en": "You were at Bridgewater before Minerva, right?",
+      "zh": "在做 Minerva 之前你在 Bridgewater，对吧？"
+    },
+    {
+      "i": 14,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "03:28",
+      "en": "That is right. I was at Bridgewater for just about five and a half years.",
+      "zh": "没错。我在 Bridgewater 待了差不多五年半。"
+    },
+    {
+      "i": 15,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "03:31",
+      "en": "Wow. What did you do there?",
+      "zh": "哇。你在那里做什么？"
+    },
+    {
+      "i": 16,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "03:33",
+      "en": "I did a mix of things. At first, I was actually in sales, so I was helping raise money for Pure Alpha and other hedge funds. And then the last two and a half years, I was helping oversee our trading of financials, so banks, REITs, and insurers, and then started a company called Minerva after that.",
+      "zh": "我做的事情挺杂的。一开始我其实是在销售岗，所以我在帮 Pure Alpha 和其他对冲基金产品募资。然后最后两年半，我在协助管理我们对金融板块的交易，也就是银行、REITs（房地产投资信托）和保险公司，之后就创办了一家叫 Minerva 的公司。"
+    },
+    {
+      "i": 17,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "03:49",
+      "en": "What does Minerva actually do?",
+      "zh": "Minerva 到底是做什么的？"
+    },
+    {
+      "i": 18,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "03:51",
+      "en": "So we are an AI company focused on marketing. So we use models to build agents to automate everything from pre-campaign planning all the way down to execution. And what that practically means is you're a marketer, you have a bunch of repetitive workflows to actually go from, I want to sell XYZ thing on Facebook to somebody. We automate everything that's required to actually get that campaign off the ground and monitor it in real time and let people focus on things they actually care about, like telling stories and coming up with slogans. We use both open source and closed source models in that process. And, yeah, happy to dive into how we actually do that.",
+      "zh": "我们是一家专注于营销的 AI 公司。我们用模型来搭建智能体（agent），把从投放前策划一直到执行落地的所有环节都自动化。这在实践上意味着：你是一个营销人员，你有一大堆重复性的工作流，要从「我想在 Facebook 上把某某东西卖给某人」这个念头走到实际落地。我们把让那个 campaign 真正跑起来所需的一切自动化，并实时监控它，让人们能专注于他们真正在意的事情，比如讲故事和想口号。在这个过程中我们既用开源模型也用闭源模型。是的，我很乐意展开讲讲我们具体是怎么做的。"
+    },
+    {
+      "i": 19,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "04:28",
+      "en": "This is perfect. And, yeah, we've never, as Tracy mentioned, we haven't had this version of the AI conversation before. But I think it's really important because there are a lot of, no offense, there are a lot of you guys, right? There are a lot of companies, you know what I mean, building some, looking at some space in the economy and building some harness, some agent or whatever that that can take like foundation models, whether it's the latest from OpenAI and Anthropic or the Chinese competitors, and either use them as the intelligence that powers the thing, or you use them to like build out your product as coding. So like you're in the market for it. You have the whole menu of options and you're like really in the market for all of them potentially.",
+      "zh": "这太完美了。是的，就像 Tracy 提到的，我们以前从没做过这个版本的 AI 对话。但我觉得这真的很重要，因为——没有冒犯的意思——像你这样的人有很多，对吧？有很多公司，你懂我意思吧，盯着经济中的某个空间，然后搭一个外壳（harness）、一个智能体之类的东西，它能把基础模型接进来——不管是 OpenAI 和 Anthropic 的最新货，还是中国的竞争对手——要么用它们作为驱动这个东西的智能，要么用它们来把产品写出来、当作编码工具。所以你其实是这个市场里的买家，你面前是整份菜单，而且你对上面所有选项可能都有真实需求。"
+    },
+    {
+      "i": 20,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "05:11",
+      "en": "Yeah. And that's exactly how we're thinking about it is, you know, I think as companies have gone from software to enable people to do workflows to AI, which is, okay, I'm just going to do the whole workflow itself for the person. You're looking at it from, okay, how much does it cost to actually build the thing? Like you said, in which case, you know, we're still using the frontier because you want to save as much time. You want to save as much money. You honestly don't want your developers to be spending time dealing with, with loops and with mistakes. So we're using Claude and we're using Astra and we're using the rest of kind of the frontier while we're actually building the product. And then When it comes down to something that's repeatable, where, okay, I just need to get it to a level where a customer is happy with the task being completed, you get into a different set of economics where you care about cost per completed task, which is a lot different than looking in the media where everyone cares about cost per million tokens. It's really an input output thing. For us, it's all about, hey, a marketer has these sets of tasks that they're trying to do. That's either creating an audience. It could be creating a set of For an advertisement. And so for us, it's how do I make sure that I get the minimum acceptable task completion for the lowest amount of cost? Because everything outside of that is our margin.",
+      "zh": "是的，这也正是我们的思路。你知道，我觉得随着公司从「用软件帮人完成工作流」转向「AI 直接替人把整个工作流做完」，你看问题的角度就变成了：好，这东西造出来到底要花多少钱？就像你说的，在这种情况下，我们仍然在用前沿模型，因为你想省下尽可能多的时间、尽可能多的钱，说实话你不希望自己的开发者把时间耗在处理死循环和各种错误上。所以在真正做产品的时候，我们用 Claude，用 Astra，也用其余那些前沿模型。而等到某个环节变成可重复的任务——好，我只需要做到客户满意于任务被完成这个程度就行——你就进入了一套完全不同的经济账，你在意的是每完成一个任务的成本，这跟媒体上大家盯着的每百万 token 成本差别很大。这本质上是个投入产出的问题。对我们来说，重点就是：嘿，一个营销人员有这么一组他想完成的任务，可能是创建受众人群，可能是生成一组广告素材。所以对我们来说，问题是我怎么确保用最低的成本达到可接受的最低任务完成度。因为超出这部分的一切，都是我们的利润空间。"
+    },
+    {
+      "i": 21,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "06:28",
+      "en": "By the way, I hope our producers aren't listening to this.",
+      "zh": "顺便说一句，我希望我们的制作人没在听这段。"
+    },
+    {
+      "i": 22,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "06:33",
+      "en": "One of them is sat right there in the corner.",
+      "zh": "他们其中一位就坐在那个角落里。"
+    },
+    {
+      "i": 23,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "06:35",
+      "en": "So I hope our producers aren't listening to this. And hopefully they're just, like, going to tune out for a moment. But anyway, yesterday I went on TBPN and they sent me the raw video file. And the Google Drive had Gemini built into it, which I didn't realize. And so I just asked, again, close your ears. I said, what was the most interesting section of this conversation? And it was, like, from 7-11 to 8-40. And then I asked Chad GPT, I was like, can you just, like, clip that out and download a little version? It worked really well. And it was, like, you know, they sort of, like, basic, like, tasks, like, Works pretty well.",
+      "zh": "所以我希望我们的制作人没在听这段，希望他们这会儿就先自动屏蔽一下。总之，昨天我上了 TBPN，他们把原始视频文件发给了我。那个 Google Drive 里内置了 Gemini，我之前没意识到。于是我就直接问了——大家也把耳朵捂上——我说：这段对话里最有意思的部分是哪儿？它回答说是 7 分 11 秒到 8 分 40 秒。然后我又问 ChatGPT，我说，你能不能就把那一段剪出来、下载一个小一点的版本？效果非常好。就是那种，你知道，很基础的任务，跑得挺顺。"
+    },
+    {
+      "i": 24,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "07:08",
+      "en": "How many tokens did you use?",
+      "zh": "你用了多少 token？"
+    },
+    {
+      "i": 25,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "07:10",
+      "en": "I didn't, I probably not. It was very quick.",
+      "zh": "我没有——大概没多少。它非常快。"
+    },
+    {
+      "i": 26,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "07:12",
+      "en": "Can I ask a really basic question?",
+      "zh": "我能问一个特别基础的问题吗？"
+    },
+    {
+      "i": 27,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "07:14",
+      "en": "But I only say that because we're talking about marketing and these are the types of things that marketers might want to automate and stuff like that.",
+      "zh": "我之所以那么说，是因为我们在聊营销，而这些正是营销人员可能想要自动化的那类事情，等等。"
+    },
+    {
+      "i": 28,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "07:20",
+      "en": "A very basic question. I said you use open source models in the beginning, but maybe that's not accurate. Maybe you use open weight. Can you talk about what the difference actually is between open source versus open weight?",
+      "zh": "一个非常基础的问题。我刚才说你们一开始就用开源模型，但也许这个说法不准确，也许你们用的是开放权重（open weight）。你能不能讲讲开源和开放权重之间实际的差别到底是什么？"
+    },
+    {
+      "i": 29,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "07:31",
+      "en": "Yeah. So I think the two are really used synonymously right now. to mean the same thing and they're not the same thing. The main difference is open source means that you're disclosing all of the code, all of the data, the exact recipe that was used to train a model. And that's not what the Chinese labs are doing. What they're doing is they're releasing the weights of the model. So essentially the end artifact. And now that's much different than open AI and anthropic where I send in data to an API endpoint. I get data back. I have no idea how I got the data there. The Chinese labs are at least saying, OK, you can download this model and you can now host it yourself, essentially. And that opens up a whole different set of possibilities. But at the same time, other than the papers they release, I have no idea how they actually went from, you know, slop of data and an architecture to an actual artifact.",
+      "zh": "是的。所以我觉得这两个词现在真的是被当作同义词在用，指的是同一件事，而它们并不是一回事。主要区别在于：开源意味着你披露全部代码、全部数据，以及训练模型所用的确切配方——而中国实验室做的并不是这个。他们做的是放出模型的权重，也就是最终的产物。而这跟 OpenAI 和 Anthropic 差别很大：我把数据发到一个 API 端点，拿回数据，我完全不知道自己是怎么拿到那些数据的。中国实验室至少在说：好，你可以把这个模型下载下来，基本上可以自己托管。这就打开了一整套完全不同的可能性。但同时，除了他们发布的那些论文之外，我完全不知道他们实际上是怎么从一堆原始数据和一个架构，走到那个真正的产物的。"
+    },
+    {
+      "i": 30,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "08:19",
+      "en": "But wait, sorry, just to be clear. So if you have an open weight model. If you have a bunch of chips and you have access to power, you can run it, right? So it's like I could like download the Quen weights and run it on my own computer or run a lot. But also another element that I think a lot of startups care about and other companies, including your former employer Bridgewater, is the ability to fine tune open weights on that. Can you talk a little bit about– I am personally still unclear– whether fine tuning for local data is actually going to be economically valuable, like some people claim. But where do you stand on that?",
+      "zh": "但等等，不好意思，我说清楚一点。如果你有一个开放权重模型，只要你有一堆芯片、有电可用，你就能把它跑起来，对吧？也就是说我可以下载 Qwen 的权重，在自己电脑上跑，或者大规模地跑。但还有一个要素，我觉得很多创业公司和其他机构都很在意，包括你的前东家 Bridgewater，就是在这些开放权重上做微调（fine-tune）的能力。你能不能稍微谈谈——我个人到现在还没搞明白——针对本地数据做微调，是不是真的会像有些人声称的那样有经济价值。你在这个问题上站在哪一边？"
+    },
+    {
+      "i": 31,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "08:58",
+      "en": "I actually think that this is the primary benefit to the application layer right now, is the ability to fine tune on top of those open weights.",
+      "zh": "我其实认为，这就是当下应用层的首要红利：能够在这些开放权重之上做微调。"
+    },
+    {
+      "i": 32,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "09:07",
+      "en": "Fine tune the weights to your.",
+      "zh": "把权重针对你自己的（数据）微调。"
+    },
+    {
+      "i": 33,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "09:08",
+      "en": "That's correct. The reason that this creates the value and kind of the advantage for companies like ourselves is If you think about what actually makes these models good in the first place is that they're trained on these hosts of data that the labs are buying. And us as startups, we might have access to some amount of data from our customers, but the truth is we don't have these like billions of dollars of data that the labs have. So we have to get crafty and we have to basically say, okay, what is a way that we can start to compete with the labs or compete with technology that's made by the labs and still get the same performance? And that's where fine tuning comes into play. Because it basically says, okay, look, I have a certain amount of data that's either processed via my company, or in our case, it's our customers actually allow us to train on top of their data. And what that basically allows us to do is take a model that's trained to be generalized and allow it to be specialized in a very specific task. So we do this for everything from a user might come onto our application and say, I want to find everyone who works at OpenAI and likes football and build me an audience of those people. And now what we used to do before was you would use an OpenAI model to interpret that request, turn it into SQL, pull it from the database and show to the user. It was slow. We'd have to use a very expensive model. And so if we just use Quen out of the box, it would do roughly as good as the OpenAI model, but not nearly as well as, let's say, like Astra or Sol. But then you're paying for the fact that it's not that fast. And so what we did is we said, OK, we have a few thousand of these labeled examples where you have a very complicated query, and then you have a very right result. You grade those, and then you fine tune the Quen model. And essentially what you're doing is you're telling the model, hey, focus extensively on this set of results, try to reproduce them as well as you can. And now we have a model that's faster than the closed source models for our use case is better in the sense that it takes complicated queries and actually produces the results that our customers want. And now we have what we call like a very small advantage now. And now, so that's what we do in our case. If you think about some of the larger application layer companies like Harvey, for example, or Cognition, These guys are taking all of the data that they have that makes them, you know, differentiated and their distribution mode. And now they're saying, OK, I can approach or even do better on the tasks that my customers care about by using our data and fine tuning Kimmy in this case for both of them. And now, OK, they're able to have better results at cheaper costs. Now you have an advantage that you can start to charge a margin for. And that's really the benefit of the open weight models for American companies.",
+      "zh": "没错。之所以这会为像我们这样的公司创造价值和某种优势，是因为如果你想想这些模型最初为什么好，那是因为它们在实验室购买的大量数据上训练过。而我们作为创业公司，也许能从客户那里拿到一些数据，但事实是我们没有实验室那种价值数十亿美元的数据。所以我们必须想点巧办法，基本上就是要说：好，有什么办法能让我们开始与实验室、或与实验室做出的技术竞争，同时还能拿到同样的性能？这就是微调发挥作用的地方。因为它基本上是在说：好，瞧，我有一定量的数据，要么是通过我公司处理产生的，要么在我们的情况下，是客户真的允许我们在他们的数据之上做训练。而这基本上让我们能够拿一个被训练成通用型的模型，让它在某个非常具体的任务上变得专门化。所以我们什么都这么做：一个用户可能来到我们的应用上说，我要找到所有在 OpenAI 工作并且喜欢橄榄球的人，帮我建一个这样的人群。我们以前的做法是，用一个 OpenAI 模型去理解那个请求，把它转成 SQL，从数据库里查出来，再展示给用户。这很慢，而且我们得用一个非常贵的模型。所以如果我们直接用开箱即用的 Qwen，它的效果大致和 OpenAI 的模型相当，但远不如 Astra 或者 Sol。可是那样你就得为它没那么快这件事付钱。于是我们做的是：好，我们有几千条这样的标注样本，你有一个非常复杂的查询，然后有一个非常正确的结果，你给这些打分，然后用它们去微调 Qwen 模型。本质上你在做的就是告诉模型：嘿，重点盯住这一组结果，尽你所能去复现它们。于是现在我们有了一个模型，在我们的用例上比闭源模型更快，而且更好——它能接受复杂的查询，真的产出我们客户想要的结果。现在我们有了我们所说的一点非常小的优势。这就是我们的做法。如果你想想一些更大的应用层公司，比如 Harvey，或者 Cognition，这些人手里有全部那些让他们与众不同、构成他们分发护城河的数据。现在他们在说：好，我可以利用我们的数据，去逼近甚至在客户关心的任务上做得更好——他们两家在这种情况下微调的都是 Kimi。这样他们就能以更低成本拿到更好的结果。现在你有了一项可以开始收取利润的优势。这才是开放权重模型对美国公司的真正好处。"
+    },
+    {
+      "i": 34,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "11:44",
+      "en": "Just to make the benefits crystal clear, can you sort of order? It sounds like you're describing a bunch of advantages or potential advantages. So you have control over your own data. I guess you have some technical flexibility. Maybe you have some additional protection against like a big vendor deciding that they suddenly want to charge you a bunch more for tokens, that sort of thing. Like, can you prioritize those different and cost is an obvious one as well. prioritize those for us in order of importance?",
+      "zh": "为了把好处讲得清清楚楚，你能不能排个序？听起来你在描述一大堆优势或者潜在优势。所以你掌握自己的数据；我猜你有某种技术灵活性；也许你还能多一层保护，防止某个大供应商突然决定要向你多收一大笔 token 费用，诸如此类。成本显然也是一个。能按重要性给我们排一下吗？"
+    },
+    {
+      "i": 35,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "12:15",
+      "en": "I think the most important thing is cost. And what you have to do as a business is essentially do the calculation of I have to pay some upfront costs and then some operating costs. And is that cheaper than paying OpenAI and Anthropic? And in many cases, it's true. In some cases, it's not true. And that's priority number one. Number two, I think, is the sovereignty and control issue. And you see CARP and Satya talking a lot about this. I imagine this is going to be a huge issue In 27, as companies realize they're sending their data out to Anthropic and OpenAI, and they're not getting anything in return for it. They're just getting simply access to the models.",
+      "zh": "我觉得最重要的是成本。而作为一家企业你必须做的是这样一笔计算：我得付一些前期投入，然后再付一些运营成本，这样是不是比付钱给 OpenAI 和 Anthropic 更便宜？很多情况下确实如此，也有些情况并非如此。这是第一位的。第二位我认为是主权（sovereignty）和掌控权的问题。你会看到 Carp 和 Satya 频繁谈这个话题。我猜想这在 27 年会变成一个巨大的议题，因为公司会意识到自己把数据发给了 Anthropic 和 OpenAI，却什么也没换回来——他们只是单纯拿到了模型的使用权而已。"
+    },
+    {
+      "i": 36,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "12:50",
+      "en": "Those companies do claim pretty seriously that, like, there is, I know, I haven't looked in on this a little while. I know there was some controversy with the Fable and data retention. They do claim quite strongly that they don't train on data. Corporate client data. Yeah.",
+      "zh": "这些公司确实相当严肃地声称——我知道，我有段时间没关注这块了；我知道之前 Fable 和数据留存上有一些争议——他们非常强硬地声称不会用企业客户的数据做训练。是的。"
+    },
+    {
+      "i": 37,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "13:09",
+      "en": "And they're not.",
+      "zh": "而且他们确实没有。"
+    },
+    {
+      "i": 38,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "13:10",
+      "en": "So it's like, OK, because then no one like, you know, if you're a hedge fund or whatever, you're uploading this stuff. And like if they were training on it, you never.",
+      "zh": "所以这就变成：好，那就没问题了，因为——你知道，如果你是一家对冲基金什么的，你在上传这些东西，而如果他们真拿这个去训练，你就永远不会（上传了）。"
+    },
+    {
+      "i": 39,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "13:16",
+      "en": "Yeah.",
+      "zh": "嗯。"
+    },
+    {
+      "i": 40,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "13:16",
+      "en": "You claim that.",
+      "zh": "他们是这么声称的。"
+    },
+    {
+      "i": 41,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "13:17",
+      "en": "Right. Yeah. And I think other than that, there's.",
+      "zh": "没错，是的。而且我觉得除此之外，还有……"
+    },
+    {
+      "i": 42,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "13:20",
+      "en": "No evidence that like that's been violated.",
+      "zh": "没有证据表明这一点被违反过。"
+    },
+    {
+      "i": 43,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "13:22",
+      "en": "Yeah.",
+      "zh": "嗯。"
+    },
+    {
+      "i": 44,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "13:22",
+      "en": "I don't want to be on this podcast saying there's any evidence that's been violated. I think the difference that I'm highlighting, though, that carp talks a lot about is you give all of this data. You get your answers back. The model doesn't get any better based on your use case.",
+      "zh": "我不想在这个播客上说有任何证据表明它被违反了。不过我想强调的那个区别，也就是 Carp 经常谈的那点是：你把这些数据全都给出去，你拿回你的答案，但模型并不会基于你的使用场景而变得更好。"
+    },
+    {
+      "i": 45,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "13:35",
+      "en": "I see.",
+      "zh": "我明白了。"
+    },
+    {
+      "i": 46,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "13:35",
+      "en": "And so what sovereignty gives you is the ability to say, okay, if I'm running Kimmy a bunch of times on my data, maybe I should be training it on my data as well so that it gets better. And then I think third is the competition, right? In that you're no longer beholden to a single vendor. Even in the case where you're Harvey and you might not even be using Tenant as a model to your customers, but the fact that you can go to Anthropic and OpenAI and say- Hey, I have this homegrown model. You have to now engage in value-based pricing for me because it's no longer no automation or automation. It's very good automation or potentially very, very, very good automation in the case of the frontier model. So it gives the leverage back to the smaller companies in a way that we didn't have nearly part of the AI boom.",
+      "zh": "所以主权带给你的能力是这样：好，如果我在自己的数据上跑了很多次 Kimi，那也许我也应该用自己的数据去训练它，让它变得更好。然后我觉得第三点是竞争，对吧？你不再受制于单一供应商。哪怕是像 Harvey 这样的情况——你甚至可能不会把 Tenant 这个模型交付给客户使用——但你可以拿着它去跟 Anthropic 和 OpenAI 说：嘿，我有这么一个自研模型。你们现在必须对我采用基于价值的定价，因为这不再是「没有自动化」和「有自动化」之间的选择，而是「非常好的自动化」和「在前沿模型的情况下可能极其极其好的自动化」之间的选择。所以这就把议价权还给了小公司，而在 AI 热潮的相当一部分时间里，我们几乎没有这种议价权。"
+    },
+    {
+      "i": 47,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "14:37",
+      "en": "Once you fine tune a model, how durable is it? And to what extent can it carry over? So, you know, Kimmy releases, like, I don't even know what version we're on anymore, but they release a new version of the model. And do you need to, like, upgrade your existing one or how does that work?",
+      "zh": "一旦你微调好一个模型，它有多耐用？它又能在多大程度上延续下去？所以，你知道，Kimi 会发布——我都不知道自己现在用到第几版了——但他们发布了一个新版本的模型。你是需要把你现有的那个升级一遍，还是这个是怎么运作的？"
+    },
+    {
+      "i": 48,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "14:55",
+      "en": "Yeah, I think that's the biggest decision point right now for founders and for companies like myself is, that is part of the ongoing operational costs of fine-tuning a model. It doesn't simply transfer over. I can't say, okay, listen, I fine-tuned Kimmy 3. Kimmy 3.1 weights are coming out this week, actually. Let me just transfer it over. And so there are folks doing research in that space. I am much more of an applied than an AI researcher, so I can't really give an update on how that's actually going. But from talking to other founders, this is really the problem is that, okay, I'm going to have to– I can use the same data set, So that part is transferable. If I build a really reliable, durable set of answers that are expertly graded, I can at least find to it. But to get to your durability point, I have no idea how they actually got to those weights. So whether or not it's going to converge to an optimal set of weights with the same training data set, I don't know. And so that's part of the uncertainty and the risk that you have to put into your calculation as you're making this decision.",
+      "zh": "是的，我觉得这就是当下创始人和我们这类公司面临的最大决策点：那部分属于微调模型的持续运营成本，它不会自动平移过去。我不能说，好，听着，我在 Kimi 3 上做过微调，Kimi 3.1 的权重这周就要出了，让我直接搬过去就行。所以确实有人在这个方向做研究。我更多是做应用的，不是 AI 研究员，所以没法真的给你一个进展更新。但跟其他创始人聊下来，真正的问题是这样的：好，我可以用同一份数据集，所以这部分是可迁移的；如果我构建了一套真正可靠、持久、经过专家评分的答案集，我至少还能再对它做一次微调。但说到你讲的耐用性那点，我完全不知道他们那些权重实际上是怎么得到的。所以用同一份训练数据集，它会不会收敛到一组最优权重，我不知道。这就是你在做这个决策时必须计入的不确定性和风险的一部分。"
+    },
+    {
+      "i": 49,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "15:54",
+      "en": "So one of the things that people look at, they say, look, the open source models are cheaper. First of all, when we hear open source, especially prior to the AI era, we thought like kind of free, right? You just like download the software. And there's no such thing as free AI, period. I mean, there is kind of like with the Google Gemini, but by and large.",
+      "zh": "所以人们会看的一点是，他们说：瞧，开源模型更便宜。首先，当我们听到「开源」，尤其是在 AI 时代之前，我们想到的大概是免费，对吧？你就直接把软件下载下来。而世上根本没有免费的 AI 这种东西，就这样。我是说，Google Gemini 多少算是一个例外，但大体上……"
+    },
+    {
+      "i": 50,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "16:14",
+      "en": "Like- Somebody's paying for it.",
+      "zh": "总有人在为它付钱。"
+    },
+    {
+      "i": 51,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "16:15",
+      "en": "Someone, you have to pay for it, and it's a service, and there's compute and electricity that's substantial with every use of it, et cetera. Can you talk a little bit about like, what pricing really looks like. Once you've fine-tuned a model, and then you still have to find electricity, or you have to find a data center, or find some service like a modal, I don't know who you use or whatever, but talk to us about, you have to then be the host, right? You have to find all that. What do the economics look like there?",
+      "zh": "总得有人为它付钱，它是一项服务，而且每一次使用都伴随着相当可观的算力和电力，等等。你能不能稍微讲讲，定价实际上是什么样子的。一旦你微调完一个模型，你还是得去找电，或者找一个数据中心，或者找某个像 Modal 这样的服务——我不知道你们用谁，或者别的什么——但给我们讲讲：那你接下来就得自己当托管方，对吧？这些你都得自己搞定。那里的经济账看起来是什么样的？"
+    },
+    {
+      "i": 52,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "16:43",
+      "en": "Yeah, I think the biggest thing that's changed in the last year from when DeepSea came out to now is you have companies like modal, we use fireworks, very simple.",
+      "zh": "嗯，我觉得从 DeepSeek 出来到现在这一年里，最大的变化是：有了 Modal 这样的公司——我们用的是 Fireworks，非常简单。"
+    },
+    {
+      "i": 53,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "16:51",
+      "en": "I saw on their billboards in SF.",
+      "zh": "我在旧金山看到过他们的广告牌。"
+    },
+    {
+      "i": 54,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "16:53",
+      "en": "Yeah, very similar concept in that if we a year ago had read the deep seek paper and we're like, okay, we want to fine tune our own model and we want to host it. There's so much that we don't think about every day that we would have to think about like, okay, I have this different model. I need to make sure that it's on enough concurrent GPUs. I need to make sure that the actual software that GPU is running on, whether that's SG Lang or VLLM can actually support the amount of concurrency that I need to actually serve this. So you actually would need a team of inference engineers to be able to do this in the past. And so that's a, A big reason why you hadn't even seen anyone really attempt this, even though Lama has been open source for two years now, had only been restricted to really like research examples and large companies like Uber that had even attempted this before. And so now what you can do is you can go to a company like Fireworks or Thinking Machines or Modal, like you said, and you can say, OK, hey, I really want to fine tune Quen. Here's my example kind of training data set that I have. In our case, it would be the audiences that marketers want. and the results that the model's supposed to output. And it's a very simplified process now that's become quite commodified, where I can pay, in the case of fireworks, I'm going to pay around $ 7 to $ 9 per million input and million output tokens, where the output tokens in this case would be the actual changes to the model weight. And there are people out there who have fine-tuned models that perform really well for as low as $ 90 on their final training run. The economics have collapsed. I think the most notable economics I've heard that are comparable, I don't want to release any of our own numbers right now, is that Harvey on their tenant model spent about $ 6 million in compute to get to the absolute frontier of legal tasks. You compare that to how much it costs probably to to run the new Fable model. And we're off by, you know, two, three orders of magnitude.",
+      "zh": "是的，概念非常相似。如果一年前我们读了 DeepSeek 的论文，然后说：好，我们想微调自己的模型、自己托管它——那有太多我们平时根本不用考虑的事情得去操心：好，我有这么一个不同的模型，我得确保它跑在足够多的并发 GPU 上；我得确保 GPU 上运行的那套实际软件，不管是 SGLang 还是 vLLM，真能支撑我服务所需要的并发量。所以在过去，你实际上需要一支推理工程师团队才能做成这件事。这也是一个很大的原因，解释了你为什么此前几乎看不到有人真正去尝试——尽管 Llama 开源已经两年了，尝试过的也基本只限于研究性的示例，以及像 Uber 这样的大公司。而现在你能做的是：去找 Fireworks、Thinking Machines 或者你说的 Modal 这样的公司，然后说，好，嘿，我真的想微调 Qwen，这是我手上的一份示例训练数据集。对我们来说，就是营销人员想要的受众人群，以及模型应该输出的结果。这已经变成一个非常简化的流程，而且相当商品化了：以 Fireworks 为例，我大概每百万输入 token 和每百万输出 token 付 7 到 9 美元，这里的输出 token 指的是对模型权重的实际改动。市面上有些人做微调，最后一次训练跑下来只花了 90 美元，模型表现就非常好。这套经济账已经彻底坍塌了。我听说过的最值得一提的可比数据——我现在不想透露我们自己的任何数字——是 Harvey 在他们的 Tenant 模型上花了大约 600 万美元的算力，才做到法律任务的绝对前沿。你拿这个跟跑一个新的 Fable 模型大概要花多少钱比一比，我们之间差了两三个数量级。"
+    },
+    {
+      "i": 55,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "18:44",
+      "en": "It's fascinating. I, for what it's worth, the only reason I said modal is because I have fine tuned the model on modal. Like that's like, I've, but it wasn't an LLM. It was a BERT, which was an open source classifier from Google that was came out in like 2019. But like, I've done the whole process and I know, like, I have no, to your point about Look, I don't know where the difference is between like 2026, 2025. It's just so easy.",
+      "zh": "太有意思了。就我个人而言，我之所以提到 Modal，唯一的原因是我确实在 Modal 上微调过模型。就是这样，我做过——但那不是一个 LLM，而是 BERT，Google 大概 2019 年推出的一个开源分类器。不过整套流程我走过一遍，所以我懂——就像你说的，2026 年和 2025 年之间的差别在哪儿，我根本不知道。就是太简单了。"
+    },
+    {
+      "i": 56,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "19:10",
+      "en": "Yeah.",
+      "zh": "嗯。"
+    },
+    {
+      "i": 57,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "19:11",
+      "en": "Like just someone like, and I imagine if you had a little, someone, I have no technical expertise, but I imagine if you have someone with a little bit of tech, technical expertise, it must be extraordinary how easy it is for, and what they can do.",
+      "zh": "就是说，哪怕是一个人——我完全没有任何技术专长，但我想如果你手下有个稍微懂点技术的人，那对他们来说这得多容易、他们能做成多少事，一定是很惊人的。"
+    },
+    {
+      "i": 58,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "19:22",
+      "en": "Yeah.",
+      "zh": "嗯。"
+    },
+    {
+      "i": 59,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "19:22",
+      "en": "It's just like, I don't know anything. And I like fine tuned a model. It's crazy.",
+      "zh": "就是说，我什么都不懂，然后我就微调了一个模型。太疯狂了。"
+    },
+    {
+      "i": 60,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "19:25",
+      "en": "Yeah. I think we're the technical expertise. It's cheap to actually do the training, which is what you tend to see. In the AI industry as a whole over the past three years, there's anything that's related to the actual chips, to the actual power. You start to see lots of players emerge and then you start to see competition and then you start to see it not necessarily become commodified in the sense that the margins have gone down to zero because fireworks and modal make quite a boatload. of money actually in making it easy for folks. Both of them are sitting at a billion dollars in ARR and I imagine their unit economics are actually quite good. But. The fact that I can go to anyone and actually do it in the way that you just described, the fact that you're able to fine tune BERT is a testament to what's going on in the space and that things that can be commodified are being commodified. The things that aren't commodified yet and what actually separates a good fine tune from a bad fine tune is the data and the actual evals that are put in there. And that's why you have these companies like Mercor and Surge. And the reason that the labs are paying them billions of dollars is The alpha, per se, as you would say, is in the data right now. And it's structuring those things well. And so that's the real decision point for a company like ours is, do you have enough good, validated data where the model can actually learn from it, or are you just going to get noise?",
+      "zh": "是的。我想在有技术能力的情况下，做训练本身是很便宜的，这也是你通常会看到的现象。纵观整个 AI 行业过去三年，只要某个环节跟实际的芯片、实际的电力无关，你就会看到大量玩家涌现，然后开始看到竞争，然后开始看到它未必会变成完全商品化——不是指利润率被压到零，因为 Fireworks 和 Modal 靠把这件事变简单其实赚了相当多的钱。两家的 ARR（年度经常性收入）都在十亿美元级别，我猜他们的单位经济模型其实相当不错。但事实是，我可以去找任何一家，然后按你刚才描述的方式把这件事做出来；你能微调 BERT，就是这个领域正在发生什么的一个证明——能被商品化的东西正在被商品化。而还没有被商品化的、真正区分一次好的微调和一次差的微调的，是数据和放进去的那些评测（evals）。这就是为什么会有 Mercor 和 Surge 这样的公司，也是为什么实验室愿意付给他们数十亿美元——用你们的话说，真正的 alpha 现在就在数据里，在于把这些数据结构化组织好。所以对我们这样的公司来说，真正的决策点是：你有没有足够多、经过验证的好数据让模型真的能从中学到东西，还是你只会学到噪音？"
+    },
+    {
+      "i": 61,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "20:40",
+      "en": "Talk to us about acquiring data nowadays and how difficult it is to... Everyone always talks about original data sets and things like that. How difficult are those to find?",
+      "zh": "跟我们聊聊现在获取数据这件事，以及它有多难。大家总在讲原创数据集之类的东西。这些数据集有多难找到？"
+    },
+    {
+      "i": 62,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "20:50",
+      "en": "So I think in our use case, we've tried to go into an industry where the data is quite plentiful and marketing and that, you know, you have data for that, you know, companies are sitting on call logs, they're sitting on advertising data, they're sitting on ads and the actual creative process that was used to make those ads. You have data on, you know, website activity and where are your users actually spending time. And all of that can kind of be constructed into what, you know, the market is now calling an RL environment, which you, an RL environment is simply, you can think of it as like a simulation of where you're trying to replicate the environment in which an AI is actually doing a task. So in our case, it's the actual act of acquiring a customer. And so the simulation that you're trying to create is I show an ad to an AI. Does it actually get the AI to click on the link to go to the website to actually buy the thing? And that's what your data set is supposed to represent. And so for us, it's actually quite easy because it's quite plentiful. And folks have been collecting data in the marketing space for a long time because You know, we had all of those AI optimized kind of algorithms back in the programmatic days, 15, 20 years ago. And ever since, companies have done a good job of keeping data there. For more specialized tasks from folks I talk to, let's take like construction, for example. It's like, man, it's really, really hard to find good data sets of, OK, I have the blueprints for this building. But what are all the comments between the architects and the general contractor that and the actual client that led to the changes in the blueprint. And so that's what the AI actually needs to do to generalize, to do these tasks. It doesn't need results. You know how your teachers used to tell you, I don't care if you got the right answer, I need you to show your work? That's what we need for the AI. And so it's really hard to find that data. I think as a way to see what the labs care about, you can go to these companies' websites and see what they're paying experts in the space. So if you go to the Micro One website, You'll see- Which one? It's called Micro One.",
+      "zh": "所以我觉得在我们的用例里，我们是刻意进入了一个数据相当充裕的行业，也就是营销。这方面你有很多数据：公司手里压着通话记录，压着广告投放数据，压着广告本身以及制作这些广告所用的实际创意过程；你还有网站活动数据，你的用户到底把时间花在哪里。所有这些都能被构建成市场现在所称的 RL 环境（RL environment）。一个 RL 环境，你可以把它想成一个模拟，你在其中试图复现 AI 实际执行任务时所处的那个环境。所以对我们来说，就是获取一个客户这个实际行为本身。于是你要造的模拟是：我给一个 AI 展示一条广告，它是否真的会被促使去点击链接、进到网站、把那个东西买下来？这就是你的数据集应该代表的东西。所以对我们来说其实相当容易，因为它相当充裕。而且营销领域的人收集数据已经很久了——你知道，在 15、20 年前的程序化广告时代，我们就有那些 AI 优化的算法了，从那以后各家公司一直把数据保存得很好。至于更专门的任务，据我交流过的人说，拿建筑行业举例：天哪，想找到好的数据集真的非常非常难——好，我有这栋楼的图纸，但建筑师、总承包商和实际客户之间那些导致图纸发生修改的全部往来意见在哪儿？而这才是 AI 要泛化、要完成这些任务真正需要的东西。它不需要结果。你知道你老师以前怎么跟你说的吗：我不在乎你有没有得到正确答案，我要你把过程写出来。这就是我们给 AI 需要的东西。所以那种数据真的很难找。我觉得有一个办法能看出实验室在意什么：你可以去这些公司的网站，看他们给该领域的专家付多少钱。所以如果你去 Micro One 的网站，你会看到——「哪一个？」它叫 Micro One。"
+    },
+    {
+      "i": 63,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "22:45",
+      "en": "Okay.",
+      "zh": "好。"
+    },
+    {
+      "i": 64,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "22:45",
+      "en": "I'll check it out. Yeah. Micro One is the big procurer of company data right now. And so I'm sure you guys are on Twitter and you saw- I've heard of it. Yeah. You saw a few weeks ago that everyone was talking about data brokering and I'm making $ 100 million a year selling data to the labs. Micro One is probably the most legitimate company in the company data space. And so for a while, they're spending anywhere from 250 to 500K per complete data set from a company.",
+      "zh": "我会去看看的。是的。Micro One 是现在最大的公司数据采购方。所以我相信你们在 Twitter 上，你们看到了——「我听说过它。」是的——你们看到几周前所有人都在谈数据经纪，说「我一年靠卖数据给实验室赚一亿美元」。Micro One 大概是公司数据这个领域里最正规的一家公司。所以有一段时间，他们为公司的一整套完整数据集支付 25 万到 50 万美元。"
+    },
+    {
+      "i": 65,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "23:09",
+      "en": "Yeah.",
+      "zh": "嗯。"
+    },
+    {
+      "i": 66,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "23:12",
+      "en": "And they were paying people $ 50, 000 to $ 100, 000 just for referring the companies to them. So that kind of tells you how in-demand good company data is. Yeah.",
+      "zh": "而且他们仅仅是把公司推荐给他们，就付给中间人 5 万到 10 万美元。所以这基本上就告诉你，好的公司数据有多抢手。是的。"
+    },
+    {
+      "i": 67,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "23:22",
+      "en": "I mean, also there was that, you know, Google bought Spirit Airlines for $ 10 million. And then you just get this treasure trove of corporate emails and calendar data.",
+      "zh": "我是说，还有那个——你知道，Google 花 1000 万美元买下了 Spirit Airlines，然后你就得到这么一大宝藏的企业邮件和日历数据。"
+    },
+    {
+      "i": 68,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "23:30",
+      "en": "The only thing worth saving from Spirit was the data.",
+      "zh": "Spirit 唯一值得留下来的东西就是数据。"
+    },
+    {
+      "i": 69,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "23:34",
+      "en": "It's a little bit disturbing. You got to wonder how many zombie firms are out there that would be worth more if they just liquidated and sold all of their emails and corporate data to a lab.",
+      "zh": "这有点令人不安。你不得不去想，外面到底有多少僵尸企业，如果它们直接清算、把所有邮件和公司数据卖给一家实验室，反而会值更多钱。"
+    },
+    {
+      "i": 70,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "23:45",
+      "en": "I mean, who knows?",
+      "zh": "我是说，谁知道呢？"
+    },
+    {
+      "i": 71,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "23:46",
+      "en": "How much can we get for Oplot's transcripts?",
+      "zh": "Odd Lots 的文字稿我们能卖多少钱？"
+    },
+    {
+      "i": 72,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "23:49",
+      "en": "Priceless.",
+      "zh": "无价。"
+    },
+    {
+      "i": 73,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "23:50",
+      "en": "Priceless.",
+      "zh": "无价。"
+    },
+    {
+      "i": 74,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "23:51",
+      "en": "So one of the concerns that you sometimes hear with open source models is cybersecurity, the idea that like, OK, well, maybe you don't know the exact weights, but people can like look at the source code or I don't really understand it. But there's a vulnerability there that you don't necessarily find with the frontier models. How are you thinking about that?",
+      "zh": "关于开源模型，你有时会听到的一个担忧是网络安全：想法是这样的——好，也许你不知道确切的权重，但人们可以看源代码，或者我也说不太清楚，但那里存在某种漏洞，而这种漏洞在前沿模型上你不一定会碰到。你怎么看这个问题？"
+    },
+    {
+      "i": 75,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "24:12",
+      "en": "Yeah, in preparation for this episode, one of the things that I did was actually play around with the newest DeepSeek model in its uncensored form. And that's really the biggest risk, I think, personally, to having open-weight frontier models out in the wild. And that basically what somebody did to the DeepSeek model that was released is they turned off the neurons— that tell the model to say no. And so- Oh, is this what they call obliteration? Yeah, this is what's called an obliterated model.",
+      "zh": "是的，为了准备这一期，我做的一件事就是去玩了最新的 DeepSeek 模型的无审查版本。我个人认为，这才是开放权重的前沿模型流落到外面世界最大的风险。基本上，有人对发布出来的那个 DeepSeek 模型做的事情是：他们关掉了那些告诉模型要说「不」的神经元。所以——「哦，这就是他们所说的 obliteration（抹除）吗？」是的，这就叫做一个被 obliterate 过的模型。"
+    },
+    {
+      "i": 76,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "24:41",
+      "en": "Such a good word. It's a great word. It's a great word. It's an obliterated model. Yeah, it's kind of- I want an obliterated model.",
+      "zh": "这个词太妙了。是个好词，真是个好词。「一个被抹除的模型」。是的，这有点——我想要一个被抹除的模型。"
+    },
+    {
+      "i": 77,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "24:45",
+      "en": "I mean, it's pretty crazy playing around with it in that the model's probably not as capable as Mythos back in February of this year, but it's up there. And it's really cheap to run. It's about 30 cents per million blended, so input output tokens. So it's about 10X cheaper than- Sonnet, which is about 10x cheaper than Fable. So it's things like 1 100th of the cost of Fable to run. And you can tell it to do anything. And so if you see all these hacks that are going on right now, the theory on the internet is people are running swarms of these deep-seek obliterated models. And that's really the risk that the labs have talked about, which is, hey, there's actually no risk that China's getting your data from this. Let's just quell that kind of notion now. The risk that they're concerned about is not data going to the labs. It's not, you know, vulnerabilities from the actual models. It's the fact that I can just turn off a few parameters in this model. And now suddenly I have this PhD level, you know, Elliot Alderson. If you watch Mr. Robot, I have a thousand of these Mr. Robots now running in the cloud and I can tell them to hack anything. And that's the real risk and what's scary. And we're seeing it in real time. And so I don't know what the right policy is to have here, whether that's You know, you have to KYC before you can download the weights. But we have to reach some sort of medium where the kind of dynamism of the U.S. startup community is preserved and that companies like ours can still download the weights and fine tune like we talked about. But at the same time, you don't have hacker and terrorist groups being able to just download a deep seek model, you know, make two changes to it. And now suddenly they have this like unadulterated, obliterated.",
+      "zh": "我是说，玩起来相当疯狂：这个模型的能力大概不如今年 2 月的 Mythos，但也已经很接近了。而且它跑起来非常便宜，混合下来大约是每百万 token 30 美分，也就是输入输出 token 合在一起。所以它比 Sonnet 便宜大约 10 倍，而 Sonnet 又比 Fable 便宜大约 10 倍。也就是说，运行成本大约是 Fable 的百分之一。而且你可以叫它做任何事。所以如果你看到现在正在发生的这些黑客攻击，网上的说法是，有人在成群结队地跑这些被抹除的 DeepSeek 模型。这才是实验室一直在谈的风险——嘿，这里其实并不存在中国从中拿到你数据的风险，我们先把这种说法压下去。他们担心的风险不是数据流向实验室，也不是模型本身的漏洞，而是：我只要在这个模型里关掉几个参数，突然之间我手里就有了一个博士级的、你知道，Elliot Alderson——如果你看过《Mr. Robot》的话——我现在云上跑着一千个这样的 Mr. Robot，我可以叫它们去黑任何东西。这才是真正的风险，才是可怕的地方。而且我们正在实时看到它发生。所以我不知道这里正确的政策是什么，比如说，你下载权重之前必须先做 KYC（实名核验）。但我们必须达成某种中间状态：一方面保住美国创业圈的活力，让像我们这样的公司仍然能下载权重、像我们刚才谈的那样做微调；另一方面，不让黑客组织和恐怖组织随手下载一个 DeepSeek 模型，做两处改动，然后突然之间手里就有了这么一个毫无限制的、被抹除的（模型）。"
+    },
+    {
+      "i": 78,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "26:24",
+      "en": "Well, you don't have that. Do you say you do or you don't have them?",
+      "zh": "嗯，你并没有那种东西。你是说你有，还是说你没有？"
+    },
+    {
+      "i": 79,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "26:27",
+      "en": "I'm saying you have to create a world where people can't, you can't have the terrorists just downloading this.",
+      "zh": "我的意思是，你必须创造一个让人们没法（滥用）的世界，你不能让恐怖分子就这么把它下载下来。"
+    },
+    {
+      "i": 80,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "26:33",
+      "en": "No, and this seems like a pretty serious issue.",
+      "zh": "不，这看起来是个相当严重的问题。"
+    },
+    {
+      "i": 81,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "26:35",
+      "en": "Yes.",
+      "zh": "是的。"
+    },
+    {
+      "i": 82,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "26:35",
+      "en": "Like these are really powerful tools slash weapons. And this is part of what makes AI very tricky is it's dual use, right? Because in theory, maybe it's going to be, but like these are weapons when used for offensive hacking purposes, et cetera. And you can obliterate them and you can get them to do whatever you want. And that seems not good.",
+      "zh": "这些真的是非常强大的工具，或者说武器。而这正是让 AI 非常棘手的一部分原因：它是双用途的，对吧？因为理论上它也许会是这样，但当它被用于进攻性黑客行动等目的时，这些就是武器。你可以把它们抹除，你可以让它们做任何你想做的事。这看起来不太妙。"
+    },
+    {
+      "i": 83,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "26:56",
+      "en": "No, I agree with you. It seems not good. I just have yet to see like a really compelling proposal for how do you deal with it? Because I want to be able to download the wait still.",
+      "zh": "不，我同意你的看法，看起来不太妙。只是我到现在还没看到一个真正有说服力的方案，说明该怎么处理它。因为我仍然希望能够下载权重。"
+    },
+    {
+      "i": 84,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "27:07",
+      "en": "So try to be honest with us for one second. Like I understand. No, I appreciate your candor. No, but be honest with us for one second. So I actually totally understand this point about wanting to fine tune lagging edge, not quite frontier models. And being able to then get a model that's as performant as like what the big tech companies have, et cetera. And that all makes a lot of sense. But how much is the fact that you're able to do this subsidized by the fact, by the distillation question? In other words, it's like, great, we take open source plus our data and then we have something good. But if the open source couldn't even exist in the first place to be like, a year or six months behind the frontier, were it not for terms of service violations.",
+      "zh": "那就试着对我们诚实一秒钟吧。我是说，我理解……不，我很欣赏你的坦率。不，就是对我们诚实一秒钟。我其实完全理解你说的这一点：想要微调落后一档、并不完全是前沿的模型，然后能够得到一个性能堪比大型科技公司手中那种模型的模型，等等。这些都非常有道理。但是，你能做成这件事，在多大程度上是被蒸馏这个问题给补贴了的？换句话说：好，我们拿开源加上我们自己的数据，然后我们就有了一个不错的东西。可如果这些开源模型一开始根本就不可能存在——不可能只落后前沿一年或者六个月——如果不是因为违反服务条款的话。"
+    },
+    {
+      "i": 85,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "27:59",
+      "en": "Yeah.",
+      "zh": "嗯。"
+    },
+    {
+      "i": 86,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "28:00",
+      "en": "Isn't it pretty understandable? Because the issue is like, why didn't Lama go anywhere? Presumably one reason is they're an American company that is not going to go around violating the terms of service of anthropic and open AI, right?",
+      "zh": "这难道不是相当可以理解的吗？因为问题在于：Llama 为什么没走通？大概有一个原因是，他们是一家美国公司，不会跑去违反 Anthropic 和 OpenAI 的服务条款，对吧？"
+    },
+    {
+      "i": 87,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "28:14",
+      "en": "Yep.",
+      "zh": "是的。"
+    },
+    {
+      "i": 88,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "28:14",
+      "en": "You're like building something out and like Shenzhen, brilliant engineers, I'm sure. But I don't think they care about terms of service violations. I don't think anything bad is going to happen to them if they find a way to do 100,000 Claude queries surreptitiously.",
+      "zh": "你在深圳那边搞开发，我相信都是极其聪明的工程师。但我不认为他们会在意违反服务条款。我不认为如果他们找到办法偷偷做 10 万次 Claude 查询，会有什么坏事落到他们头上。"
+    },
+    {
+      "i": 89,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "28:31",
+      "en": "No, I completely agree with you. And I think there's a need to basically say, how much of the gains do you think are actually coming from distillation? I think we actually have a good barometer on this in that There's a company that used to be headquartered in the floor above me called Reflection AI. Allegedly, it's being bought by NVIDIA. And they're probably the preeminent US open weight model company right now. They released their flagship model about a month ago. And it was probably about three to six months behind the Chinese open source models, which were about, at the time, three months behind the publicly released Frontier.",
+      "zh": "不，我完全同意你的看法。而且我觉得有必要这么问一句：你认为这些进步当中有多少实际上是来自蒸馏？我觉得我们在这方面其实有一个不错的标尺。有一家公司以前总部就在我楼上那一层，叫 Reflection AI。据说它正在被 NVIDIA 收购。他们大概是目前美国最出色的开放权重模型公司。他们大约在一个月前发布了旗舰模型，而那个模型大概落后中国的开源模型三到六个月——而中国开源模型在当时大约落后公开发布的前沿模型三个月。"
+    },
+    {
+      "i": 90,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "29:07",
+      "en": "What's the name of this company again?",
+      "zh": "这家公司叫什么来着？"
+    },
+    {
+      "i": 91,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "29:09",
+      "en": "It's called Reflection AI. And so- What that basically tells you is that, you know, that company has a bunch of backing from NVIDIA. They have thousands of Blackwell GPUs that they train this model on. I believe it was a cluster of 12 or 14,000. And so they have access to compute. They've got access to great talent. And then they release this model and it's about like six to nine months behind the frontier. And so what that basically tells you is the distillation is not the pure reason that the Chinese labs are where they are. They have lots of evidence of coming up with very novel techniques. that are actually being used by the frontier labs.",
+      "zh": "叫 Reflection AI。所以——这基本上告诉你的是：你知道，那家公司背后有 NVIDIA 的大量支持，他们有数千块 Blackwell GPU 用来训练这个模型，我记得是一个 1.2 万或者 1.4 万块的集群。所以他们的算力有保障，人才也很顶尖。然后他们发布这个模型，结果它大概落后前沿六到九个月。所以这基本上告诉你的是：蒸馏并不是中国实验室走到今天这个位置的纯粹原因。有大量证据表明他们提出了非常新颖的技术，而这些技术实际上正在被前沿实验室使用。"
+    },
+    {
+      "i": 92,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "29:42",
+      "en": "Sorry. How is that evidence? Because I assume that an American company owned by Nvidia is going to really play it by the book with regards to distillation.",
+      "zh": "抱歉，那怎么算证据呢？因为我会假定，一家由 NVIDIA 持有的美国公司，在蒸馏这件事上会非常规规矩矩地照章办事。"
+    },
+    {
+      "i": 93,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "29:51",
+      "en": "Yeah.",
+      "zh": "嗯。"
+    },
+    {
+      "i": 94,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "29:51",
+      "en": "And what I'm saying is that if the Chinese companies had played by the books, you can assume that they would probably be neck and neck with reflection. if not maybe a little bit further ahead because they have the backing of the Chinese state. Oh, I see what you're saying. And so what I'm saying is like- So distillation is real. Distillation is real. And there's lots of evidence for it. How much distillation is responsible for the quality of these models, I think is really up for debate. I think one thing that if you ask actual researchers in San Francisco, how do they feel about the Chinese labs? Obviously, they'll talk about distillation. They'll also talk about the absolute- prolific publishing nature of researchers there. And some of the advancements, whether that's using sparse models instead of dense models, which saves a lot on compute from DeepSeq actually just publishing their entire inference framework a few weeks ago and how that's being used by Fireworks and Modal and all these other companies to improve the efficiency of serving these chips. These guys are doing a public service on the other side. So I think the fact that the quality of their research is still being respected by the lab shows you that hey, you know, they're still making good models. Is distillation responsible for all of the reason why they're good models? Probably not, but it's definitely helping them out for sure. Especially when you see them, the similarity in performance between Kimi and Astra and there's big allegations there. But yeah, I wouldn't say we're subsidized by distillation to answer your question.",
+      "zh": "而我要说的是，如果中国公司当初也照章办事，你可以假定他们大概会和 Reflection 并驾齐驱，甚至可能还稍微领先一点，因为他们背后有中国国家的支持。「哦，我明白你的意思了。」所以我想说的是——蒸馏是真实存在的。蒸馏是真实存在的，而且有大量的证据。但蒸馏对这些模型的质量贡献了多少，我觉得真的很值得争论。我觉得有一件事：如果你去问旧金山真正的研究员，他们怎么看中国实验室，他们当然会谈蒸馏，但他们也会谈那里研究人员绝对高产的论文发表节奏，以及一些进展——不管是 DeepSeek 用稀疏模型（sparse models）取代稠密模型（dense models）从而在算力上省下大量成本，还是 DeepSeek 几周前干脆把他们的整个推理框架公开发布出来，以及 Fireworks、Modal 和其他所有公司怎么用它来提升服务这些芯片的效率。这些人在另一边其实是在做公共服务。所以我觉得，他们的研究质量仍然被实验室所尊重，这一点本身就说明：嘿，你知道，他们仍然在做很好的模型。蒸馏是不是他们模型好的全部原因？大概不是，但它肯定帮了大忙。尤其是当你看到 Kimi 和 Astra 在性能上的相似度，那方面的指控很大。但是的，回答你的问题——我不会说我们是被蒸馏补贴的。"
+    },
+    {
+      "i": 95,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "31:30",
+      "en": "What in your mind would be indicative of the Chinese models like actually catching up with Frontier? Like what would be, I guess, the next deep seek moment in your mind? Because I assume it's not just the benchmark test, right? Because as Joe was saying in the intro, those can be gamed and they're pretty close on those anyway.",
+      "zh": "在你看来，什么样的迹象才说明中国模型真的追上了前沿？我猜，那会是什么——下一个 DeepSeek 时刻？因为我想不会只是基准测试，对吧？就像 Joe 在开场时说的，那些测试是可以被针对优化的，而且他们在那些测试上本来就已经很接近了。"
+    },
+    {
+      "i": 96,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "31:49",
+      "en": "Yeah.",
+      "zh": "嗯。"
+    },
+    {
+      "i": 97,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "31:50",
+      "en": "I mean, this is such a good question because I think it's actually a much broader question than just are the Chinese models catching up to the frontier models. It's really, how do you know that there's actual progress that's being made relative to where we are right now? Because if you go and, you know, you spend time with Aster, you spend time with Fable, it's really smart. It still makes silly mistakes. It still sounds like slop, but these models are, you know, compared to ChatGPT, you know, when it first came out, they're night and day in terms of their capabilities. And for everyday use, even for me, It's like it's really hard for me even to tell the difference between a 5.1 and a 5. And therefore, how am I supposed to be able to tell the difference between a 5 and a Kimmy 3.1? So I think where we're moving towards in a world where companies care a lot more about sovereign data and they care a lot more about the actual tasks that they're doing within their firm rather than just benchmarks, it's going to come down to companies themselves like ourselves or workers who are doing tasks. actually seeing results on a day-to-day basis of, okay, can I just swap Kimmy into an existing process that I have in a chatbot that I'm serving to customers or in my coding workflows? And am I actually seeing similar performance? Because the benchmarks are starting to become meaningless, as you guys said, as Joe said, the benchmarking, if I see that Kimmy 3.2 has a higher terminal bench score than Astra 6.2, what does that actually mean to me? Does it mean anything? Probably not. But if I can take Kimmy 3.2 and start replacing it as my daily driver in how I'm coding, okay, now I know that things have caught up. And how do I know that it's replaced? Am I yelling expletives into the terminal anymore? If I'm not, probably not.",
+      "zh": "我是说，这个问题问得太好了，因为我觉得它其实比「中国模型有没有追上前沿模型」要宽泛得多。真正的问题是：相对于我们现在所处的位置，你怎么知道确实在取得进展？因为如果你去用 Astra、去用 Fable，它真的很聪明，但它还是会犯傻，还是会听起来像垃圾内容（slop）。可是跟 ChatGPT 刚出来的时候相比，这些模型的能力已经是天壤之别。而对日常使用来说，哪怕对我而言——我甚至很难分辨 5.1 和 5 之间的区别。那么，我又怎么可能分辨得出 5 和 Kimi 3.1 的区别？所以我觉得，在一个公司越来越在意主权数据、越来越在意自己公司内部实际完成的任务而不只是基准分数的世界里，最终要看的是像我们这样的公司本身，或者正在做任务的员工，能不能在日常中真的看到结果：好，我能不能把 Kimi 直接换进我已有的某个流程里——换进我服务客户的聊天机器人里，或者换进我的编码工作流里——而我是不是真的看到了相近的表现？因为基准测试正在开始变得没有意义，就像你们说的、就像 Joe 说的，基准测试——如果我看到 Kimi 3.2 的 Terminal-Bench 分数比 Astra 6.2 高，这对我到底意味着什么？它意味着什么吗？大概什么都不意味着。但如果我能把 Kimi 3.2 拿来当日常主力，替换掉我写代码时用的东西，好，那现在我知道差距已经追平了。那我又怎么知道它真的被替换掉了呢？我还会对着终端骂脏话吗？如果不会了，那大概就是追上了。"
+    },
+    {
+      "i": 98,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "33:31",
+      "en": "Let's talk a little bit more about the economics from a company like yours. So first of all, it occurs to me like one way you might be able to characterize what you're doing now is using frontier closed source for CapEx building and using cheap open source for OpEx. The intelligence, right? Is that a fair characterization?",
+      "zh": "我们再多聊一点你们这类公司的经济账。首先，我想到一种也许可以用来概括你们现在所做之事的方式：用前沿闭源模型来做资本开支（CapEx）阶段的构建，用便宜的开源模型来做运营开支（OpEx）阶段的智能。这么概括公平吗？"
+    },
+    {
+      "i": 99,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "33:47",
+      "en": "Yep.",
+      "zh": "对。"
+    },
+    {
+      "i": 100,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "33:49",
+      "en": "Is it the hope, you know, token price disinflation has been massive every year. Like, is there a sort of vision that there is something like, okay, let's take a task like, you know, A, B test a bunch of different ads or something like that. It's in theory going to look the same. Is the hope that like you will be able to sell your service at some sort of like recurring price while the token price collapses 90% year after year after year and capture that margin?",
+      "zh": "那么，这是不是一种期望——你知道，token 价格的通缩每年都非常巨大。是不是有这么一种愿景：拿一项任务来说，比如对一大堆不同的广告做 A/B 测试之类的，理论上它看起来会是一样的。是不是希望这样：你们能够以某种经常性价格出售你们的服务，而与此同时 token 价格一年又一年地下跌 90%，然后你们把那部分利润空间拿走？"
+    },
+    {
+      "i": 101,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "34:22",
+      "en": "Yeah.",
+      "zh": "嗯。"
+    },
+    {
+      "i": 102,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "34:23",
+      "en": "I mean, that's exactly how I think us and other companies are thinking about it. First, what am I charging my customer? That's the number one question, right? I think Harvey and Legor are two great examples of this. Legor is another legal tech company. They also are now exploring fine-tuning their models in response to Harvey. But Harvey has a per seat cost, which is fixed, and Legora charges usage. And if you look, Harvey actually went down the legal lab route first. And if you think about it for a second, it makes a lot of sense. They have fixed revenue coming in. They saw that the costs were rising because usage was going up of their product as it got better. And so naturally, when you have a fixed revenue coming in and a variable cost, you want to reduce that variable cost as much as you can. So in Harvey's case, it's, let's come up with tenant. Now, whether or not tenant is what's- What's tenant? Tenant's their legal model.",
+      "zh": "我是说，我认为我们和其他公司正是这么想的。首先，我向客户收多少钱？这是头号问题，对吧？我觉得 Harvey 和 Legora 是两个很好的例子。Legora 是另一家法律科技公司，为了应对 Harvey，他们现在也在探索微调自己的模型。但 Harvey 是按席位收费，价格是固定的，而 Legora 按用量收费。如果你去看，Harvey 其实是先走上了自研法律实验室这条路。你稍微想一下，这非常合理：他们有固定的收入进账，同时看到成本在上升，因为产品越好、用量就越大。所以很自然地，当你有固定收入进账、又有一个变动成本时，你会想尽可能压缩那个变动成本。所以在 Harvey 的情况里，就是：我们来做一个 Tenant 出来。至于 Tenant 是不是——「Tenant 是什么？」「Tenant 是他们的法律模型。」"
+    },
+    {
+      "i": 103,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "35:16",
+      "en": "Oh, that's their fine-tuned model. Okay.",
+      "zh": "哦，那是他们微调出来的模型。好。"
+    },
+    {
+      "i": 104,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "35:18",
+      "en": "And so whether or not you want to serve tenant to users, or you simply want to use tenant to get better leverage from the labs, it's coming from a place of, I need to increase my operating margins. And that's exactly the question that Harvey's asking. It's a question that we're asking as well. It's where are the highest kind of variable components of spend within our product that aren't tied to usage and how do we then replace that with either a fine-tuned or just purely we might even just say for some use cases if it's a highly repetitive task that's quite simple we might just use a very cheap open source model and that's another question too and so the economics really boil down to the equation of okay i have some kind of per token cost that i'm paying to the labs times the number of tasks that's required And that's got to be more than a fixed cost up front to train the model and the operating costs of actually running that model on a monthly basis.",
+      "zh": "所以，不管你是想把 Tenant 直接提供给用户，还是只想拿 Tenant 去从实验室那里换取更好的议价筹码，它的出发点都是：我需要提高我的经营利润率。这正是 Harvey 在问的问题，也是我们在问的问题：我们产品里那些最高的、不与用量挂钩的变动支出部分在哪里，然后我们怎么用一个微调模型去替换掉它？或者干脆——某些场景下，如果是一个高度重复、相当简单的任务，我们可能就只用一个非常便宜的开源模型，这也是另一个要考虑的问题。所以经济账最终归结为这么一个等式：好，我付给实验室的每 token 成本，乘以所需完成的任务数量，这个数必须高于训练模型的一次性固定成本，加上每月实际运行那个模型的运营成本。"
+    },
+    {
+      "i": 105,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "36:14",
+      "en": "Has your token budget actually come down at all or is it still, I guess, too early? You're still in the building phase.",
+      "zh": "你们的 token 预算实际上有降下来过吗？还是说，我猜还太早——你们还在搭建阶段。"
+    },
+    {
+      "i": 106,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "36:21",
+      "en": "I would say our token budget has gone up, but that's mainly because we've just gotten more money over time. We started the company in 2023 and We were being very deliberate about when we were using AI back then because also it just wasn't that good. And so we didn't all shift to agentic coding until probably when Opus 4.5 came out in October of last year. And so we ramped up. And as such, we're still ramping as we're finding that the models get better. And we want to keep the team lean. But we're not spending like $ 10, 000, $ 15, 000, $ 20, 000 per engineer per month.",
+      "zh": "我会说我们的 token 预算是上升的，但那主要是因为我们随时间拿到了更多的钱。我们是 2023 年创办的公司，那时候我们对什么时候用 AI 非常克制，因为它也确实没那么好。所以我们大概是在去年 10 月 Opus 4.5 出来的时候，才全面转向智能体式编码（agentic coding）。于是我们开始上量，而且随着发现模型越来越好，我们现在仍在往上加。我们希望保持团队精简，但我们并没有花到每位工程师每月 1 万、1.5 万、2 万美元那种程度。"
+    },
+    {
+      "i": 107,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "36:56",
+      "en": "No token maxing.",
+      "zh": "不搞 token 最大化。"
+    },
+    {
+      "i": 108,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "36:57",
+      "en": "We're not token maxers, no. We are output max, or outcome maxers, I would say.",
+      "zh": "我们不是 token 最大化派，不是。我会说我们是产出最大化派，或者说结果最大化派。"
+    },
+    {
+      "i": 109,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "37:03",
+      "en": "Since, you know, another question, you know, we're actually recording this, as everyone knows, during quite a bit of volatility in the, quote, AI trade, et cetera. One thing that hasn't gone down, and I think this was pretty important, is any measure of GPU rental prices.",
+      "zh": "既然——你知道，还有一个问题。大家也都知道，我们录制这一期的时候，所谓的「AI 交易」正处在相当大的波动之中，等等。有一样东西并没有下跌，而且我觉得这一点相当重要，那就是任何衡量 GPU 租赁价格的指标。"
+    },
+    {
+      "i": 110,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "37:20",
+      "en": "Yeah.",
+      "zh": "嗯。"
+    },
+    {
+      "i": 111,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "37:20",
+      "en": "It looks like, so I'm looking at the silicon data. H100 rental tracking index. This is an old chip, it's an H100. It's still going up, it's at the highest in a while. What are you seeing though? This is like an index and whatever. What are you actually seeing in terms of compute scarcity, rental costs, things like that?",
+      "zh": "看起来是这样——我现在看的是 Silicon Data 的 H100 租赁追踪指数。这是一款老芯片，是 H100，但它还在往上涨，处在一段时间以来的最高位。不过你看到的是什么？这只是个指数什么的。你在算力稀缺程度、租赁成本这些方面，实际看到的是什么？"
+    },
+    {
+      "i": 112,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "37:42",
+      "en": "Yeah, I mean, I think this is more a question for friends than it is for me. We're pretty light in the amount of compute that we need to fine tune our models and we find availability to always be there. Actually, I think when things were really tight was two years ago. We were actually dabbling in training our own model ourselves. And it was right around the time the H100s were just unavailable completely to all users. So I think there is slack where you need to find it. I think there's other people that you could talk to from Silicon Data to kind of explain what's going on with the longer compute offtakes, lockups, and why those are so much cheaper than the spot market. But for us, things are pretty available. I think if you go on Twitter right now, it looks like, man, there's just no GPUs anywhere.",
+      "zh": "嗯，我是说，我觉得这个问题问我的朋友比问我更合适。我们微调模型所需的算力量很轻，而且我们发现供应总是有的。实际上我觉得真正紧张的时候是两年前：我们当时在自己琢磨训练模型，而正好赶上 H100 对所有用户都完全拿不到的那段时间。所以我觉得，余量是存在的，就看你去哪里找。我觉得你可以找 Silicon Data 的其他人聊聊，来解释更长期的算力包销（offtake）、锁量是怎么回事，以及为什么它们比现货市场便宜那么多。但对我们来说，算力是很好拿到的。我想如果你现在上 Twitter 看，感觉就是：天哪，哪儿都没有 GPU 了。"
+    },
+    {
+      "i": 113,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "38:28",
+      "en": "Well, I can't tell because I feel like the narrative on this changes very quickly. It's like you go, it's like, oh, there's so short compute. We're going to need all this stuff. And then on the other hand, in the last several weeks, Overbuild is like back in the thing and you see this stuff. I mean, there's all kinds of complicated things and you could theoretically have temporary overbill, long-term massive shortage. But I don't know, like the reason I asked was like, I don't even have a sense right now, like what is the consensus narrative in terms of compute capacity?",
+      "zh": "嗯，我也说不准，因为我觉得这件事上的叙事变化非常快。一会儿是：哦，算力太短缺了，我们需要所有这些设备。而另一方面，在过去几周里，「过度建设」又成了主题，你会看到这类说法。我是说，这里有各种复杂的情况，理论上你可以同时存在短期的过度建设和长期的巨大短缺。但我不知道——我之所以问，是因为我现在甚至都摸不清，在算力产能这件事上，主流的共识叙事到底是什么。"
+    },
+    {
+      "i": 114,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "39:01",
+      "en": "I think the thing that I always just like to keep in mind is a really good first principle heuristic I have.",
+      "zh": "我觉得我一直喜欢放在心上的，是一个非常不错的、基于第一性原理的启发式判断。"
+    },
+    {
+      "i": 115,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "39:07",
+      "en": "Is- I love a first principle heuristic.",
+      "zh": "是——我就爱听第一性原理的启发式判断。"
+    },
+    {
+      "i": 116,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "39:09",
+      "en": "Is in a fully kind of like AI native employee should have about a GPU's worth of token consumption per year. And so the place that I always go to is, How many leading-edge GPUs are deployed? It's somewhere between 5 to 10 million right now in the US of Blackwells. And how many knowledge workers are there? There's, by some measures, around 100 million, let's say. And so if you think that every knowledge worker needs a GPU to actually fully automate all their tasks and have an agent running at all times, then we're massively short of that need in the future. And so is everyone going to be as AI forward as, say, one of my engineers or an engineer working at Anthropic? I don't know. But roughly, that's kind of the heuristic where I think things are going to net out four years from now. It won't be a surprise that we have kind of one B300 worth of computational capacity for every knowledge working employee in the economy. So In my mind, it's like if everyone's going to be using AI in the way that I do it, we're still massively short compute. We're going to have these drifts around what the baseline should be right now. And I think we feel that on Twitter because the people who are you know, most short computers, sometimes the loudest people right now. And so we hear them screaming and then sometimes you'll hear about a build out. But in the long term, we're still massively short the amount of compute we need to actually be an AI forward society and labor force.",
+      "zh": "就是说，一个完全 AI 原生的员工，每年大概应该消耗相当于一块 GPU 的 token 量。所以我总会去看的地方是：有多少块尖端 GPU 已经部署了？目前美国的 Blackwell 大概在 500 万到 1000 万块之间。那么有多少知识工作者？按某些口径算，大概 1 亿人左右，就这么说吧。所以如果你认为每个知识工作者都需要一块 GPU，才能真正把自己的全部任务自动化、让一个智能体随时在跑，那么相对于未来的这个需求，我们是严重短缺的。那么，是不是每个人都会像我手下的某位工程师、或者 Anthropic 的某位工程师那样拥抱 AI 呢？我不知道。但大致上，这就是我认为四年后事情会落定的那个启发式判断：到时候，经济中每一位知识工作者员工对应大约一块 B300 的算力，这一点也不会令人惊讶。所以在我看来，如果每个人都按我使用 AI 的方式去用 AI，我们仍然严重缺算力。围绕「当下的基线应该是什么」，我们会出现这样那样的偏移。我觉得这一点在 Twitter 上就能感受到，因为那些最缺算力的人，有时候正是当下声音最大的人。于是我们听到他们在大喊大叫，然后有时候你又会听到关于过度建设的说法。但从长期看，要真正成为一个拥抱 AI 的社会和劳动力，我们所需的算力量仍然严重短缺。"
+    },
+    {
+      "i": 117,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "40:30",
+      "en": "Yeah, I feel like if you have loads of compute nowadays, you keep it quiet, right? Or maybe the temptation is to brag about it. I don't know.",
+      "zh": "是的，我觉得现在如果你手上有大量算力，你会保持低调，对吧？或者说，诱惑也许是拿去炫耀一番。我不知道。"
+    },
+    {
+      "i": 118,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "40:38",
+      "en": "I mean, I think that the most telling thing about how short compute we are is allegedly when all of the, you know, Elon and Jensen were waiting to receive their medals from the White House. Apparently, Greg Brockman asked Elon for compute there. So if they can kind of settle their beef by trying to do a compute trade, that probably tells you that at least the labs are still fundamentally short compute relative to their needs.",
+      "zh": "我是说，我觉得最能说明我们算力有多短缺的一件事是：据说当时 Elon 和 Jensen 都在等着从白宫领取他们的奖章，而 Greg Brockman 就在那里向 Elon 要算力。所以如果他们能通过做一笔算力交易来化解彼此的恩怨，那大概至少说明：相对于自身需求，这些实验室在根本上仍然是缺算力的。"
+    },
+    {
+      "i": 119,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "40:59",
+      "en": "All right, Daniel Saidi, thank you so much for coming on All Thoughts.",
+      "zh": "好的，Daniel Saidi，非常感谢你来做客 Odd Lots。"
+    },
+    {
+      "i": 120,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "41:02",
+      "en": "Thank you so much for having me.",
+      "zh": "非常感谢你们邀请我。"
+    },
+    {
+      "i": 121,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "41:16",
+      "en": "Joe, I thought that was a really useful conversation to hear how, you know, someone in the business is actually deploying these models and thinking about closed versus open.",
+      "zh": "Joe，我觉得那真是一次很有用的对话，能听到一位业内的人实际是怎么部署这些模型、怎么思考闭源与开源的。"
+    },
+    {
+      "i": 122,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "41:24",
+      "en": "Yeah, no, I think that was really helpful. And I think this sort of gets to show that there are a lot of dimensions that are just not that straightforward. Right. So it's like, what is actually cheap? Well, if your engineer's time is valuable and scarce. then it may not be cheap to use a lagging edge model because, you know, like you just want to like, so then yeah, like pay the big anthropic premium or pay the big chat GPT premium, whatever it is for something that's just like repeatable, et cetera. Like, oh, here's our harness that does like AB testing from two images on an Instagram ad. Then like, yeah, why do you need the frontier intelligence? And I think a lot of the big questions are going to come down to is AI usage, overall going to be more like capex or opex yeah and you know it's probably it's almost obviously there's.",
+      "zh": "是的，不，我觉得这非常有帮助。而且我觉得这恰恰说明有很多维度并不是那么一目了然。对吧。所以说，什么才是真的便宜？嗯，如果你工程师的时间既宝贵又稀缺，那么用一个落后一档的模型可能就不便宜了，因为你就是想——所以那就，是的，付给 Anthropic 那笔大溢价，或者付给 ChatGPT 那笔大溢价，不管是什么，换一个可重复的、稳定的东西，等等。反过来，如果是——哦，这就是我们那个外壳，用来对 Instagram 广告上的两张图片做 A/B 测试——那，是啊，你为什么需要前沿智能呢？我觉得很多大问题最终都会归结到：AI 的使用整体上会更像资本开支，还是运营开支。是的，你知道，它大概——几乎显然是两者都……"
+    },
+    {
+      "i": 123,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "42:16",
+      "en": "Room for both yeah yeah but you know i i would place my bets on the cheaper models winning out but i don't.",
+      "zh": "有空间，是的，是的。但你知道，我会把赌注押在更便宜的模型胜出上，不过我也不……"
+    },
+    {
+      "i": 124,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "42:23",
+      "en": "Know um one thing we didn't get into and when you mentioned cheaper models is also that the closed source labs do have cheaper versions yeah that's true so but i agree Like at any level, presumably, I think the Chinese open ones are cheaper.",
+      "zh": "知道。嗯，有一点我们没谈到，而你提到更便宜的模型时——闭源实验室也确实有更便宜的版本。「是的，那没错。」所以我同意。我想在任何一档上，中国的开源模型都更便宜。"
+    },
+    {
+      "i": 125,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "42:38",
+      "en": "Have you been asking? It's it's an interesting exercise right now. If you can get, you know, someone at a company, a large like U.S. company and ask them what models they're actually using.",
+      "zh": "你一直在问吗？现在这是一件很有意思的事情：如果你能找到某家公司里的某个人——一家美国大公司——然后问他们实际在用什么模型。"
+    },
+    {
+      "i": 126,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "42:48",
+      "en": "Yeah.",
+      "zh": "嗯。"
+    },
+    {
+      "i": 127,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "42:49",
+      "en": "Privately. Yeah. A lot of them will talk about like Quinn and Kimmy, but not in public. Yeah.",
+      "zh": "私下问。是的。他们很多人会谈到 Qwen 和 Kimi，但不会公开谈。是的。"
+    },
+    {
+      "i": 128,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "42:55",
+      "en": "Yeah, it's kind of interesting. Every once in a while you do see it, but usually around what they were able to accomplish with the fine-tuning, et cetera. I also think there's a kind of flip side. I've observed the opposite, which is I think there is this sort of posturing to the anthropics and open AIs of the world. Like, we don't need you. You know what I'm saying? Yeah, that makes sense. We found a way to get, for example, Brian Armstrong, the CEO of Coinbase, has talked about, I forget, one of the ones that they use, et cetera. And it's sort of like this shot across the bow. I would bet they still have enterprise. I don't know for sure. I think a lot of companies are paying an ant tax or an open AI tax. But yeah, no, there's some really interesting questions in there.",
+      "zh": "是的，这挺有意思的。偶尔你确实会看到有人公开谈，但通常是围绕他们靠微调做成了什么，等等。我还觉得有另一面。我观察到的是相反的情况：我觉得存在某种向 Anthropic 和 OpenAI 这些公司摆姿态的行为——我们不需要你们。你懂我意思吗？「是的，那说得通。」我们找到了办法，比如说，Coinbase 的 CEO Brian Armstrong 就谈过他们用的某一个模型，等等，我忘了是哪一个。这有点像是对着船头开的一炮。我打赌他们仍然有企业级合约，我不确定。我觉得很多公司都在交一笔 Anthropic 税或者 OpenAI 税。但是的，不，这里面有一些非常有意思的问题。"
+    },
+    {
+      "i": 129,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "43:43",
+      "en": "In the meantime, we have a new AI worry to think about. Obliteration.",
+      "zh": "与此同时，我们又多了一个新的 AI 忧思要去想：obliteration（抹除）。"
+    },
+    {
+      "i": 130,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "43:49",
+      "en": "Oh, yeah.",
+      "zh": "哦，是啊。"
+    },
+    {
+      "i": 131,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "43:50",
+      "en": "Yeah.",
+      "zh": "嗯。"
+    },
+    {
+      "i": 132,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "43:51",
+      "en": "I've got to get my hands on an obliterated model. I've got to try other stuff.",
+      "zh": "我一定要弄到一个被抹除的模型。我一定要试试别的东西。"
+    },
+    {
+      "i": 133,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "43:55",
+      "en": "That sounds so evil when you say it like that. You need to be stroking a cat while you talk about your obliterated model.",
+      "zh": "你那么一说听起来太邪恶了。你谈论你的抹除模型的时候，得一边抚摸着一只猫。"
+    },
+    {
+      "i": 134,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "44:04",
+      "en": "But I've thought about this. Look, there are just certain things. I don't even want to bring them up because they're all very negative. You think about how well lockdown the internet has become for certain types of information that we want to We really like do not want to be readily available in the public's hands. For example, it is very difficult to use Google if you wanted to or to use traditional search to find out any information on, say, like suicide or something like that. Or, you know, there are certain things.",
+      "zh": "不过我确实想过这件事。听着，有些事情我甚至都不想提，因为它们都非常负面。你想想，对于我们希望——我们真的非常不希望——被公众轻易获取的某几类信息，互联网已经被封锁得多严密了。举个例子，如果你想用 Google、或者用传统搜索去查找关于比如自杀之类的任何信息，那会非常困难。或者，你知道，有些事情就是……"
+    },
+    {
+      "i": 135,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "44:37",
+      "en": "How to build a bomb.",
+      "zh": "怎么造炸弹。"
+    },
+    {
+      "i": 136,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "44:38",
+      "en": "Yeah, yeah.",
+      "zh": "是的，是的。"
+    },
+    {
+      "i": 137,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "44:39",
+      "en": "Like there are things that are just become almost impossible to find on the Internet, et cetera. In theory, that it all exists in obliterated models. It almost certainly does, that knowledge. Obliterated models aren't easy to come by. There aren't a lot of entities hosting them. But it would be really strange and novel if that were to become a very easily accessible thing because there has been this sort of firewall built around certain types of information that maybe perhaps won't hold that longer.",
+      "zh": "就是说，有些东西在网上已经变得几乎不可能找到了，等等。理论上，这些东西全都存在于被抹除的模型里——那些知识几乎肯定在里面。被抹除的模型并不容易搞到，托管它们的实体也不多。但如果这件事变得非常容易获取，那将会非常奇怪、非常新颖，因为围绕某几类信息已经建起了这样一道防火墙，而它也许撑不了太久了。"
+    },
+    {
+      "i": 138,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "45:08",
+      "en": "Well, once we have AGI, we can get obliterated models developing new obliterated models.",
+      "zh": "嗯，一旦我们有了 AGI，我们就能让被抹除的模型去开发新的被抹除的模型。"
+    },
+    {
+      "i": 139,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "45:13",
+      "en": "Well, did you see.",
+      "zh": "嗯，你有没有看到……"
+    },
+    {
+      "i": 140,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "45:14",
+      "en": "Iterating on themselves.",
+      "zh": "在它们自己身上迭代。"
+    },
+    {
+      "i": 141,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "45:16",
+      "en": "Well, so today, we're recording this November 3rd, Election Day. Did you see yesterday, there was this research report put out by someone at MIT. And what they did is they took ASTRA 6 and they fed it Quinn's weights, just a big, giant pool of numbers. And they said, change the weights to make it better at math. And so, like, typically weights get to where they are through, you know, a training process back and forth. And Astra was actually able to go in and manipulate certain numbers. Now, it was not quite as impressive. It was sort of like fixed a bug. But we may be getting to a point that this is why everyone was saying we're like models are so good and so much like intelligence possessed in them that rather than doing the traditional way of growing a model where you like do the reinforcement learning and all the gradient descent and all that stuff that you the models can just go.",
+      "zh": "嗯，所以——今天，我们是在 11 月 3 日录制这一期的，选举日。你有没有看到，昨天 MIT 的某个人发布了一份研究报告。他们做的事情是：把 Astra 6 拿来，喂给它 Qwen 的权重，也就是一大片巨大的数字，然后说：改这些权重，让它在数学上变得更好。所以，通常权重是通过一个来回的训练过程才走到今天这个样子的。而 Astra 真的能够进去、操纵某些数字。当然，它还没到那么惊艳的程度，有点像修了一个 bug。但我们也许正在到达这样一个点——这也是为什么大家都在说，模型已经好到、其中蕴含的智能已经多到，与其用传统方式去养大一个模型，也就是做强化学习、做所有的梯度下降那一套，模型可以直接……"
+    },
+    {
+      "i": 142,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "46:11",
+      "en": "And the models can iterate on themselves yeah it's pretty wild stuff isn't this uh the entire starting premise of um if we build it everyone.",
+      "zh": "而模型可以自我迭代。是的，这东西相当疯狂，不是吗？这整个——如果我们把它造出来，每个人都会……"
+    },
+    {
+      "i": 143,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "46:20",
+      "en": "Will yeah yeah well and the other element is so yeah i mean there's a lot of rabbit holes you can go down one but you know There is this question of like, you know, if you just have this really amazing model, what is the best value you can get out of it? It might just be working on AI models. And that's the that everything else is a waste of its time, basically. Like if this is not being deployed towards building more AI, you should have just been using some cheaper lagging model.",
+      "zh": "会的，是的，是的。嗯，另一个层面是——是的，我是说，你可以钻进去的兔子洞有很多。但你知道，有这么一个问题：如果你手上就是有一个非常了不起的模型，你能从它身上榨出的最大价值是什么？那可能就是让它去做 AI 模型本身。也就是说，其他一切基本上都是在浪费它的时间。就是，如果这个东西没有被部署去构建更多的 AI，那你本来就该用某个更便宜的落后模型。"
+    },
+    {
+      "i": 144,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "46:49",
+      "en": "It's AI all the way.",
+      "zh": "一路都是 AI。"
+    },
+    {
+      "i": 145,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "46:50",
+      "en": "Yeah, that's right.",
+      "zh": "是的，没错。"
+    },
+    {
+      "i": 146,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "46:51",
+      "en": "All right.",
+      "zh": "好。"
+    },
+    {
+      "i": 147,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "46:51",
+      "en": "Shall we leave it there?",
+      "zh": "我们就到这儿吧？"
+    },
+    {
+      "i": 148,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "46:52",
+      "en": "Let's leave it there.",
+      "zh": "就到这儿吧。"
+    },
+    {
+      "i": 149,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "46:53",
+      "en": "This has been another episode of the Odd Lots podcast. I'm Tracy Allaway. You can follow me at Tracy Allaway.",
+      "zh": "这是又一期的 Odd Lots 播客。我是 Tracy Alloway，你们可以在 Tracy Alloway 这个账号关注我。"
+    },
+    {
+      "i": 150,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "46:58",
+      "en": "And I'm Joe Weisenthal. You can follow me at The Stalwart. Follow our guest, Dan Saidi. He's at The Real Dan Saidi. Follow our producers, Carmen Rodriguez at Carmen Ehrman, Dashiell Bennett at Dashbot, Kale Brooks at Kale Brooks, and Kevin Lozano at Kevin Lloyd Lozano. And of course, you can chat about all of these topics 24-7 in our Discord, discord.gg slash oddlots. And for more Odd Lots content, You should check out our daily newsletter, which you can find at Bloomberg.com.",
+      "zh": "我是 Joe Weisenthal，你们可以在 The Stalwart 关注我。也可以关注我们的嘉宾 Dan Saidi，他的账号是 The Real Dan Saidi。关注我们的制作人：Carmen Rodriguez，账号 Carmen Ehrman；Dashiell Bennett，账号 Dashbot；Kale Brooks，账号 Kale Brooks；以及 Kevin Lozano，账号 Kevin Lloyd Lozano。当然，你可以在我们的 Discord 里全天候聊这些话题，地址是 discord.gg/oddlots。想看更多 Odd Lots 内容，你应该去看我们的每日通讯，可以在 Bloomberg.com 找到。"
+    },
+    {
+      "i": 151,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "47:26",
+      "en": "And if you enjoyed this conversation, if you like it when we talk about open versus frontier models, then please leave us a positive review on your favorite podcast platform. And if you're watching on video, then please like or leave a comment or better yet, subscribe.",
+      "zh": "如果你喜欢这段对话，如果你喜欢我们聊开源模型与前沿模型，那么请在你们最喜欢的播客平台上给我们留一条好评。如果你是在看视频，那么请点赞或留言，更好的是，订阅。"
+    },
+    {
+      "i": 152,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "47:40",
+      "en": "And remember, if you're a Bloomberg subscriber, you can listen to all of our episodes absolutely ad-free. All you need to do is find the Bloomberg channel on Apple Podcasts and follow.",
+      "zh": "还有，请记住，如果你是 Bloomberg 的订阅用户，你可以完全无广告地收听我们所有的节目。你要做的只是在 Apple Podcasts 上找到 Bloomberg 频道并关注……"
+    },
+    {
+      "i": 153,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "47:49",
+      "en": "The instructions there.",
+      "zh": "……按那里的说明操作。"
+    },
+    {
+      "i": 154,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "47:50",
+      "en": "Thanks for joining.",
+      "zh": "感谢你们的收听。"
+    },
+    {
+      "i": 155,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "48:01",
+      "en": "Thank you.",
+      "zh": "谢谢。"
+    }
+  ]
+}

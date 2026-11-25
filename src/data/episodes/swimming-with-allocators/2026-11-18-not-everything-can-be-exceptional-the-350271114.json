@@ -1,0 +1,1106 @@
+{
+  "show": "swimming-with-allocators",
+  "kind": "transcript",
+  "id": "350271114",
+  "slug": "2026-11-18-not-everything-can-be-exceptional-the-350271114",
+  "date": "2026-11-18",
+  "title_en": "“Not Everything Can Be Exceptional”: The VC Warning Sign",
+  "title_zh": "并非一切都能'例外'：VC 的警示信号",
+  "subtitle_zh": "SIPFO 的 Angelique 从 LP 视角冷静剖析风投：为何'中位数回报不值得配'、如何用 GRID 框架按职责重构组合，以及 GP 悄悄为'例外'留出的口子。",
+  "summary_zh": "本期 Swimming with Allocators 由 Alexa Bins 与 Ernest 主持，嘉宾是 Utah 学校与机构信托基金办公室 SIPFO 的 CFA 持证人 Angelique Papis。SIPFO 管理约 50 亿美元永续资本，投资办公室成立约十年，团队仅 6 名投资专业人员。Angelique 自认不是风投吹鼓手而是现实主义者：中位数风投回报（beta）往往不值得配置，必须有团队、品牌和架构才能挑到顶尖管理人；风投适合永续长期资本，未必适合注重流动性的家族。她介绍 SIPFO 借助两家母基金、并在并购端与专注独立保荐人的 GP 合作，践行做专家中的专家的理念，还主张停止把私募市场与对冲基金称作另类，并质疑散户直接参与风投的价值。其核心框架 GRID（成长、实物资产、收益、防御）按投资职责而非标签构建组合，避免虚假分散。中插由 Sidley 的 Chuck Daly 解读风投监管趋势：更长持有期、二级交易、估值处理与豁免资格等。她还谈到打造品牌、预测 2036、AI 主导的组合，以及 GP 为例外留出 10%–20% 空间。",
+  "description": "“Not Everything Can Be Exceptional”: The VC Warning Sign",
+  "duration": "49:45",
+  "duration_seconds": 2985,
+  "episode_url": "https://www.iheart.com/podcast/269-swimming-with-allocators-126968343/episode/not-everything-can-be-exceptional-the-vc-warning-sign-350271114",
+  "audio_url": "https://traffic.megaphone.fm/TGL1076998339.mp3?source=iheart",
+  "speakers": {
+    "1": "Alexa Bins（主持）",
+    "2": "Ernest（主持）",
+    "3": "Angelique Papis（嘉宾）",
+    "4": "Chuck Daly（赞助商嘉宾，Sidley）",
+    "5": "片花/广告（旁白）"
+  },
+  "turn_count": 135,
+  "turns": [
+    {
+      "i": 0,
+      "speaker": 5,
+      "speaker_zh": 5,
+      "ts": "00:00",
+      "en": "A little early, a lot to like. Lowes early Black Friday deals are still going strong. Get up to two free, select power tools with a purchase of a select to wall, craftsman, or cobalt battery kit. Plus, get up to 70% off, select smart home products. Savings this good, deserve to be in your cart.",
+      "zh": "早一点，惊喜多一点。Lowe's 的黑色星期五（Black Friday）抢先促销依然火热。购买指定的 DeWalt、Craftsman 或 Cobalt 电池套装，最多可免费获赠两件指定电动工具。此外，指定智能家居产品最高可享 70% 折扣。这么划算的优惠，值得放进你的购物车。"
+    },
+    {
+      "i": 1,
+      "speaker": 5,
+      "speaker_zh": 5,
+      "ts": "00:20",
+      "en": "Black Friday deals are on now with lows, in store, and online. Value through 11.25. While supplies last, selection varies by location. Free tools vary based on battery kit purchase. Welcome to Swimming with Alligators. The VC podcast from the LP perspective. With your host, Alexa Bins, and Ernest, you ready? Let's dive in.",
+      "zh": "Lowe's 的黑色星期五优惠现已在门店和线上同步开启，有效期截至 11.25，售完即止，各地商品选择或有不同，赠品工具视所购电池套装而定。欢迎收听 Swimming with Allocators——一档从 LP（有限合伙人）视角出发的风投（VC）播客。本期由主持人 Alexa Bins 和 Ernest 带你一起，准备好了吗？我们这就潜入水中。"
+    },
+    {
+      "i": 2,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "00:44",
+      "en": "Welcome to the show. We have Angelique Papis, the CFA, the Utah School, and institutional trust fund's office, SIPFA. It's roughly 5 billion held in perpetuity. We're so happy to have you here. Hi, you two. Thanks for having me. Absolutely. Angelique, we've each gotten to speak with you on different occasions.",
+      "zh": "欢迎来到节目。今天我们请到了 Angelique Papis，她是 CFA（特许金融分析师）持证人，就职于 Utah 的学校与机构信托基金办公室 SIPFO，该基金规模约 50 亿美元，属于永续持有。非常高兴你能来。——你们好，谢谢你们邀请我。——太客气了。Angelique，我们俩之前分别在不同场合都和你聊过。"
+    },
+    {
+      "i": 3,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "01:06",
+      "en": "I see you as one of these people who has a eager venture team, and you are sort of the voice of reason. Oh, like that. Can you give us the background of where you came into the seat to give you that perspective of where you see venture? Sure. Okay. So, do I think of myself as a venture hype woman? I do not. That I do not.",
+      "zh": "我觉得你是那种——团队里对风投充满热情，而你自己则充当理性声音的人。——哦，这样啊。那你能给我们讲讲你是怎么进入现在这个岗位的吗，让你对风投有这样的视角？——当然。好，那我是不是把自己当成风投的'吹鼓手'？并不是，我真不是。"
+    },
+    {
+      "i": 4,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "01:41",
+      "en": "Listen, I think that venture is an incredibly important part of an institutional investor's portfolio, but, and I will say, but, with like capital letters, but I think it needs to be done very well in order for it to be worth it. And why do I say that? Well, venture is an incredibly dispersed asset class, right? We all know this.",
+      "zh": "听我说，我认为风投是机构投资者组合中极其重要的一部分，但是——这个'但是'我要大写加粗——它必须做得非常好，才值得去投。为什么这么说呢？因为风投是一个极度分散的资产类别，这一点大家都清楚。"
+    },
+    {
+      "i": 5,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "02:14",
+      "en": "The median venture or your venture beta is oftentimes not worth allocating to. You need to have the team and brand and structure in place to choose the highest quality managers. And I don't mean necessarily just your top tier firms. I think there are great managers that are not included in that tier one venture, but",
+      "zh": "中位数的风投回报，或者说你的风投 beta 收益，往往并不值得配置。你需要有相应的团队、品牌和架构，才能挑到最优质的管理人。而且我说的不一定只是那些顶级机构，我觉得有很多优秀的管理人并不属于第一梯队风投，只是——"
+    },
+    {
+      "i": 6,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "02:47",
+      "en": "they're just tougher to identify. So, that's where I, I'm coming at it from not necessarily a skeptical place, but more so the place of a realist as in it can be worth it, but not always and not if it isn't done well. Yeah. David York just published a little piece where he was saying there's all this energy in",
+      "zh": "他们更难被识别出来。所以我这么讲，未必是出于怀疑，而更多是站在现实主义者的角度：风投可以是值得的，但并非总是如此，做得不好就不值得。——是啊。David York 最近发了一篇文章，说现在"
+    },
+    {
+      "i": 7,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "03:19",
+      "en": "Europe to do more venture and he was like, whoa, whoa, whoa, asterisk. Like only if it's the high quality will it do what you're expecting it to do? Yeah. And I, I think perhaps part of my view on the space is a function of the allocator seats that I've been in historically.",
+      "zh": "Europe 有大量资金想去做更多风投，他就说，等等等等，得加个星号：只有投的是高质量项目，它才会带来你预期的回报。——是的。我想，我对这个领域的一些看法，可能也和我过往待过的这些配置方岗位有关。"
+    },
+    {
+      "i": 8,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "03:44",
+      "en": "So one of the organizations that I was a part of didn't even touch venture. It wasn't a part of their portfolio. The patriarch of this family office, he created a cash flowing tangible business. He only cared about business fundamentals and so he never wanted to allocate to venture.",
+      "zh": "我曾经任职的其中一家机构根本不碰风投，它就不在组合里。这个家族办公室的创始人打造了一家能产生现金流、有实体资产的企业，他只关心企业基本面，所以他从来不想配置风投。"
+    },
+    {
+      "i": 9,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "04:08",
+      "en": "And also, you know, some families, high net worth individuals, which I've spent a lot of time with those types of clients over the course of my career, sometimes from a time horizon standpoint, it's actually not a great fit. You know, for a permanent capital base, you have a very long-term time horizon and so venture makes sense.",
+      "zh": "而且，你知道，有些家族、高净值人士——我职业生涯中和这类客户打过很多交道——从时间跨度的角度看，风投其实并不适合他们。对一个永续资本池来说，你有非常长的时间跨度，所以风投是合理的。"
+    },
+    {
+      "i": 10,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "04:31",
+      "en": "We know it doesn't end at 10 years, oftentimes we're talking about assets that you're holding in your portfolio for 15, 16, 17, 20 years. For an organization like SIPFO, great, we have a very long-term time horizon for a family where they are focused on liquidity. They need dollars coming out of the portfolio.",
+      "zh": "我们知道风投不会在 10 年就结束，很多时候我们说的是在组合里持有 15、16、17 甚至 20 年的资产。对 SIPFO 这样的机构来说很好，我们有非常长的时间跨度；但对一个专注于流动性的家族来说，他们需要不断从组合里取出钱来。"
+    },
+    {
+      "i": 11,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "04:55",
+      "en": "They often don't have an operating company with cash flow coming in like that time horizon might not make sense. So I also think it is allocator specific. So as a kind of using some of your terms, maybe a sober zealot of venture, you mentioned that it can be worth it but has to be done right.",
+      "zh": "他们往往没有一家能带来现金流入的运营企业，那样的时间跨度可能就不合适。所以我认为这也因配置方而异。——那么借用你的一些说法，你也许算是风投的'清醒派布道者'，你提到它可以是值得的，但必须做对。"
+    },
+    {
+      "i": 12,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "05:24",
+      "en": "Have you, like what is your definition for where you sit today of like venture done right? What goes into that? We are still a relatively young organization, you know, the money dates back many years but SIPFO as an investment office, we were essentially founded a decade ago.",
+      "zh": "那你现在对'风投做对了'的定义是什么？需要哪些要素？——我们还是一家相对年轻的机构，你知道，这笔钱本身已有很多年历史，但 SIPFO 作为一个投资办公室，基本上是十年前才成立的。"
+    },
+    {
+      "i": 13,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "05:44",
+      "en": "And so our private market allocation, it has slowly increased over time, private equity, which venture sits within private equity, it is now 20%, you know, we're roughly at 15% of the total portfolio allocated to private equity. So we still have a lot of room to grow and we started allocating to venture thinking",
+      "zh": "所以我们的私募市场配置随时间慢慢增加。私募股权（private equity，风投属于私募股权的一部分）现在的目标是 20%，我们在整个组合中大约有 15% 配置到了私募股权。所以我们还有很大的增长空间，而我们开始配置风投，是想着"
+    },
+    {
+      "i": 14,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "06:06",
+      "en": "about building out that portfolio in sort of 2017, 2018 kind of time period. At that point we did not have much of a brand in the venture ecosystem. Our check sizes were relatively small and frankly they remain relatively small today. And so realistically again we didn't have access to those tier one, venture firms.",
+      "zh": "大约是在 2017、2018 年那段时间去搭建这个组合。那时我们在风投生态里没什么品牌知名度，我们的投资额度相对较小，说实话到今天也依然不大。所以现实地说，我们当时接触不到那些第一梯队的风投机构。"
+    },
+    {
+      "i": 15,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "06:31",
+      "en": "I believe our first commitment was with a reputable local firm that sort of pitched the team on why it makes sense to invest in preceded seed and kind of earlier stage companies. And so that was the first commitment and you know the program has sort of evolved over the years, we have reupped with a few of those legacy managers.",
+      "zh": "我记得我们第一笔承诺投资是给了一家本地口碑不错的机构，他们向团队说明了为什么投资前种子轮（pre-seed）和更早期公司是合理的。那是我们的第一笔承诺投资。这些年来这个项目不断演进，我们也和其中几家老牌管理人续投了。"
+    },
+    {
+      "i": 16,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "06:56",
+      "en": "Some of them have outgrown us frankly and as they've outgrown us, they've sort of shifted towards Series A and Series B. So we do maintain some of those relationships but the program has become much more focused. We have partnered with two fund of funds. If I said their names, you both would know who they are and they very much have this",
+      "zh": "说实话，其中一些机构已经'长大'超过我们了，随着他们的成长，他们逐渐转向了 A 轮（Series A）和 B 轮（Series B）。所以我们确实还维持着其中一些关系，但整个项目变得更聚焦了。我们和两家母基金（fund of funds）建立了合作，如果我报出名字，你们俩肯定都知道是谁，他们非常专注于"
+    },
+    {
+      "i": 17,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "07:20",
+      "en": "species of backing small emerging managers where fund math ultimately kind of drives your outcome. And we don't have the kind of bandwidth or resources to really traffic in that space as well as we would like to and so we leverage them. We do have you know pulled exposure there and frankly I think it's great fun of an exposure",
+      "zh": "扶持小型新兴管理人这一类，在这类投资里，基金层面的'数学'最终决定了你的回报。我们没有足够的精力或资源像我们希望的那样深耕这个领域，所以就借助他们。我们确实获得了相应的敞口，坦白说我觉得这种母基金敞口非常棒，"
+    },
+    {
+      "i": 18,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "07:48",
+      "en": "and then we leverage their network and their diligence. We have quarterly calls with both groups so that they you know they can talk to us about who we should be thinking about making a direct commitment to who should we should be getting in front of if we're going to San Fran or New York.",
+      "zh": "然后我们借助他们的人脉和尽调能力。我们和这两家机构每季度都会开电话会，他们可以跟我们聊聊我们应该考虑对谁做直接承诺投资，以及如果我们去 San Francisco 或 New York 时应该去见谁。"
+    },
+    {
+      "i": 19,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "08:05",
+      "en": "So it's a very nice kind of symbionic relationship and has helped us really like improve the program overall and frankly like I think that's a great way to think about building out any asset cluster strategy when you're starting with a small team like find the expert in",
+      "zh": "所以这是一种非常好的共生关系，确实帮助我们整体上改进了这个项目。坦白说，我认为当你是从一个小团队起步时，这是搭建任何一类资产集群策略的好思路：找到那个领域的专家，"
+    },
+    {
+      "i": 20,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "08:26",
+      "en": "this case the two fund of funds where philosophically you are aligned and leverage them to help you build a strong direct portfolio. I also appreciate that local investment is really a lovely story that it's sort of that the employees of the state in some of these companies that are getting built in the state.",
+      "zh": "在这里就是那两家理念上和你契合的母基金，借助他们来帮你搭建一个强大的直接投资组合。我也很欣赏本地投资这一点，它真的是个很美好的故事——某种程度上，这个州里一些正在成长起来的公司，受益的正是本州的雇员。"
+    },
+    {
+      "i": 21,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "08:50",
+      "en": "That's to like a you know you're getting to benefit from the innovation that's happening in your backyard. That's cool. Yeah. Absolutely and we do I mean there are a lot of great companies that are built in Utah. We do not have a mandate to specifically invest back in the state but there are you know",
+      "zh": "也就是说，你能从发生在自家门口的创新中获益，这很酷。——是的，当然。而且 Utah 确实涌现了很多优秀的公司。我们并没有必须投回本州的强制要求，但确实有"
+    },
+    {
+      "i": 22,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "09:07",
+      "en": "a few local venture firms that again do really great work and they're reputable and so I think it was a nice place to start. Because you brought that up I've never been able to ask somebody this I've had this assumption but there's so many people who come to the Bay Area and say oh we need to create something",
+      "zh": "几家本地风投机构，他们做得非常出色，也很有口碑，所以我觉得这是个不错的起点。——既然你提到这个，我一直没能当面问过人这个问题，我一直有个假设：有太多人跑到 Bay Area（湾区），然后说'哦，我们要打造点什么'"
+    },
+    {
+      "i": 23,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "09:27",
+      "en": "like this and so you hear these like the 2010s was like full of these awful names Silicon alleys Silicon Bucket Silicon Beach like Silicon Plains like I was like what what is going on. You mean how we have Silicon slopes. Yes slow don't don't don't pander because she's here that's awful too um so but we have",
+      "zh": "这样的东西，于是 2010 年代到处都是这些糟糕的名字：Silicon Alley、Silicon Bucket、Silicon Beach、Silicon Plains，我当时就想这都什么跟什么啊。——你是说我们这儿有 Silicon Slopes 吧。——对，别别别，别因为她在这儿就硬夸，那个名字也很糟。所以呢，我们确实有"
+    },
+    {
+      "i": 24,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "10:00",
+      "en": "a number of people come here and try to replicate but I've always told these different cities and regions they should actually point to Salt Lake City because I feel like there's been way more authentic in how they've built and I have my assumptions on why they've built",
+      "zh": "很多人来这里试图复制。但我一直跟这些不同的城市和地区说，他们其实应该以 Salt Lake City（盐湖城）为标杆，因为我觉得这里的打造方式要真实得多，而且我对他们为什么能建立起"
+    },
+    {
+      "i": 25,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "10:17",
+      "en": "such great enterprise sales individuals as well as enterprise sales software companies but for somebody living there what's your view on what makes you all different and why people should be copying you all. So I think what you're getting at is related to the culture and the workforce here in Utah",
+      "zh": "这么多优秀的企业级销售人才以及企业级销售型软件公司，也有一些自己的假设。那么，对于一个住在那里的人来说，你怎么看是什么让你们与众不同、为什么大家应该来学习你们？——我想你说的是跟 Utah 这里的文化和劳动力有关，"
+    },
+    {
+      "i": 26,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "10:43",
+      "en": "that we actually have a very young well educated workforce and there's this kind of legacy culture of door to door sales and really having talented kind of sales go to market professionals and so to your point Ernest like I think that's just embedded in the culture and that's",
+      "zh": "我们确实拥有一支非常年轻、受过良好教育的劳动力队伍，而且这里有一种上门推销（door-to-door sales）的历史传统，培养出了很多有才华的销售和市场推广（go-to-market）专业人才。所以就像你说的，Ernest，我觉得这已经融入了这里的文化，这也正是"
+    },
+    {
+      "i": 27,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "11:08",
+      "en": "why a lot of those great businesses with that emphasis have come out of Salt Lake City. Absolutely so you have to see that here at cities coming to me one second know what your culture is embedded in your culture and then leverage it in a intersection with technology there. Absolutely. The more you know. There you go.",
+      "zh": "为什么那么多强调这方面的优秀企业都出自 Salt Lake City 的原因。——完全同意。所以你得看到这一点，那些来找我咨询的城市，第一件事就是搞清楚你的文化里蕴含着什么，然后把它和科技结合起来去发挥。——没错。——你看，长知识了吧。——就是这样。"
+    },
+    {
+      "i": 28,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "11:29",
+      "en": "So Ernest has been a really powerful consultant for some of these locations on like what their differentiator should be it makes sense. We've got one star portfolio company in Salt Lake City and it's like pretty cool that they have compatriots you know it's like a city where you have other founders who are super quality to absolutely.",
+      "zh": "所以 Ernest 一直是这些地区在'差异化定位应该是什么'这个问题上非常给力的顾问，这很说得通。我们在 Salt Lake City 有一家明星组合公司，很酷的一点是他们有志同道合的伙伴，你知道，就是在一个城市里还有其他非常优秀的创始人。——是的，完全同意。"
+    },
+    {
+      "i": 29,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "11:56",
+      "en": "You have said that we need to stop calling alternatives alternatives. What's the heck about it? Okay so it is 2026 doesn't it feel a little bit silly that I can say oh I've spent my entire career focused on alternative and it's like we're talking about private market",
+      "zh": "你说过我们需要停止把'另类'叫做另类（alternatives）。这到底是怎么回事？——好，现在都 2026 年了，我说'哦，我整个职业生涯都专注于另类资产'，是不是感觉有点滑稽？我们说的是私募市场，"
+    },
+    {
+      "i": 30,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "12:21",
+      "en": "that we're talking about hedge funds but those are not alternative anymore and they haven't been for many years I mean you have endowments out there were 55% of their portfolio is allocated to private markets and to hedge funds so over half of the portfolios allocated",
+      "zh": "是对冲基金（hedge funds），但这些早就不再是'另类'了，而且很多年前就不是了。我是说，有些捐赠基金（endowment）组合里有 55% 配置到了私募市场和对冲基金，所以超过一半的组合都配置到了"
+    },
+    {
+      "i": 31,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "12:40",
+      "en": "to alternative assets and they can't really be that alternative anymore right. So that's sort of why it feels silly to me to call them alternative assets. You know I this is funny so I had lunch with EGP when I was in San Francisco last week whenever it was there and so his father had been a stockbroker in the 80s and we were",
+      "zh": "另类资产，那它们就不能再算是什么'另类'了，对吧。所以这就是为什么我觉得叫它们'另类资产'有点滑稽。说来好笑，我上周在 San Francisco 的时候和 EGP 一起吃了个午餐，他父亲在 80 年代是股票经纪人，我们当时"
+    },
+    {
+      "i": 32,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "13:10",
+      "en": "actually like kind of laughing about how this period and venture feels a bit like that period and that there's an SPV you know every day and people are just kind of slinging portfolio company investments at you and the fees are quite hefty so given your perspective on venture",
+      "zh": "其实是在笑说，风投现在这个阶段感觉有点像当年那个时期，每天都有一个 SPV（特殊目的载体），人们不断把组合公司的投资机会甩给你，而且费用相当高。那么鉴于你对风投的看法——"
+    },
+    {
+      "i": 33,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "13:33",
+      "en": "that this is hard to do right how do you feel about the the chance the opportunity like the people listening to our show are often interested in learning from the pros on how to allocate effectively into this asset class for these retail investors what is is there",
+      "zh": "风投很难做对，那你怎么看待散户的机会呢？听我们节目的人常常很想向专业人士学习，如何有效地配置到这一资产类别。对这些散户投资者（retail investors）来说，是不是"
+    },
+    {
+      "i": 34,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "13:53",
+      "en": "enough good stuff to go around or you know you've got access and things are hard even for you yes and I I think that's a fair comment I don't I don't know at this point with venture specifically I don't know that it's worth it for the retail investor for something that is",
+      "zh": "有足够多的好东西分给大家，还是说——你都有渠道资源，可即便对你来说都很难？——是的，我觉得这个说法挺中肯。就目前而言，特别是风投，我不确定它对散户投资者是否值得。而对于那种"
+    },
+    {
+      "i": 35,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "14:18",
+      "en": "large buyout and we're talking about you know perhaps private equity beta where the risk is frankly much lower that I could see just an easier way for retail investors to get exposure and frankly just makes more sense from kind of a portfolio construction standpoint I don't",
+      "zh": "大型并购（buyout），我们说的也许是私募股权的 beta 收益，坦白讲那里的风险要低得多，我能看到散户投资者获取敞口的一种更简单的方式，而且从组合构建的角度来说也更合理。我不"
+    },
+    {
+      "i": 36,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "14:44",
+      "en": "know that we can do it in venture and and I don't know that we should do it in venture yeah",
+      "zh": "确定我们能在风投里做到这一点，我也不确定我们就应该在风投里这么做。——嗯。"
+    },
+    {
+      "i": 37,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "14:51",
+      "en": "we'll see how things evolve and they are evolving um yeah the whole we spoke about this during um our pre pre call or not pre meeting yeah recording meeting about just the where portfolio construction is just going and how different it is and it's going to be dependent on what type of",
+      "zh": "我们看看事情会怎么演变吧，而且它们确实在演变。——是的。整个……我们在录节目前的碰头会（不是预录会，是录制前的碰头会）上聊过，就是组合构建正走向何方、它有多不一样，而这将取决于你是哪种类型的"
+    },
+    {
+      "i": 38,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "15:15",
+      "en": "investor you are what type of assets you're going after and then for the allocators what type of fund managers and asset classes they're involved in um you all you brought up a interesting framework that you all use called grid I won't still it's thunder but I would love for you to just explain it",
+      "zh": "投资者、你在追逐哪类资产；对配置方而言，又取决于他们参与的是哪类基金管理人和资产类别。你们提到过一个很有意思的框架，你们叫它 GRID——我就不抢它的风头了——我很想请你给我们的听众解释一下它。"
+    },
+    {
+      "i": 39,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "15:33",
+      "en": "to our audience yeah so we think about it as the grid framework um so g is growth r is real assets i is income d is defensive so that is the broader kind of grid framework and I think the point of the grid framework is that it's less about sort of traditional asset classes and let's call it",
+      "zh": "好的。我们是把它当作 GRID 框架来看的：G 是成长（Growth），R 是实物资产（Real assets），I 是收益（Income），D 是防御（Defensive），这就是更大的 GRID 框架。我觉得 GRID 框架的意义在于，它不太关注传统意义上的资产类别，也不太关注所谓的"
+    },
+    {
+      "i": 40,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "16:05",
+      "en": "wrappers of strategies so like the fund structure is it a drawdown is it a nevergreen what does it look like um and it's more about what is the job that it is supposed to do in the portfolio and I think the reason the grid framework um is beneficial is that traditional asset classes or",
+      "zh": "策略'外壳'，比如基金结构——它是出资调用型（drawdown）还是常青型（evergreen），长什么样；它更关注的是这项投资在组合中应该承担什么'职责'。我认为 GRID 框架之所以有益，是因为传统资产类别，或者说"
+    },
+    {
+      "i": 41,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "16:29",
+      "en": "traditional asset class buckets let's say sometimes give you a false sense of diversification right like you're looking at all of these various line items and from a count let's call it it might feel like you are heavily diversified but a lot of the underlying exposure tends to be the same",
+      "zh": "传统的资产类别分类，有时会给你一种分散化的错觉。你看这一堆各不相同的条目，从数量上看，也许你会觉得自己高度分散了，但很多底层敞口往往是相同的。"
+    },
+    {
+      "i": 42,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "16:54",
+      "en": "right I mean even within pace let's take like growth for example what sits in growth well a lot of republic equity private equity of course inclusive adventure growth buy out um and um what is the underlying factor its equity exposure right like what is the role of all of those",
+      "zh": "对吧，我是说，即便在同一类别内部——拿成长（Growth）举例，成长里都有什么？很多公开市场股权、私募股权（当然也包括风投）、成长型并购等等。那么底层因子是什么？是股权敞口，对吧。所有这些策略的职责是什么？"
+    },
+    {
+      "i": 43,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "17:15",
+      "en": "strategies it's capital appreciation um so I think it's I think you're just thinking about it in terms of what is the economic driver what is the underlying factor factor exposure rather than is this a drawn on vehicle with a 10 year life or is this an evergreen fund or is this a mutual",
+      "zh": "是资本增值（capital appreciation）。所以我觉得，你思考的角度应该是：经济驱动力是什么、底层因子敞口是什么，而不是纠结于这是一个 10 年期的出资调用型工具、还是一个常青型基金、还是一只共同"
+    },
+    {
+      "i": 44,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "17:37",
+      "en": "fund um less about labels and more about what is the role that we expect an investment to play in the overall portfolio can you give us a couple other examples of roles like growth versus sure sure sure so yeah how we think about it so growth um so real assets that tends to be",
+      "zh": "基金。少一点关注标签，多一点关注我们期望一项投资在整个组合中扮演什么角色。——那你能不能再举几个角色的例子，比如成长和别的对比？——当然当然。好，我们是这么想的：实物资产（Real assets）这一块，通常"
+    },
+    {
+      "i": 45,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "17:56",
+      "en": "focused on inflation protection that is the point about portfolio um so there's infrastructure in there a little bit of real estate natural resources income that includes public credit private credit um and really the the core of that is just contractual um contractual agreement cash flows",
+      "zh": "聚焦于抗通胀保护，这是它在组合中的意义，所以里面有基础设施（infrastructure）、一点房地产、自然资源；收益（Income）这一块包括公开市场信贷、私募信贷（private credit），其核心其实就是合约化的、基于合约约定的现金流，"
+    },
+    {
+      "i": 46,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "18:18",
+      "en": "some sort of yield component often and then defensive this is the smallest allocation in the portfolio but it should perform and hold up in periods of market stress so that is the role of that piece of the portfolio where um does venture sitting growth I think people would assume that it's just always in like oh high high high potential",
+      "zh": "往往还带有某种收益（yield）成分；然后是防御（Defensive），这是组合中占比最小的一块，但它应该能在市场承压时期表现良好、扛得住，这就是这部分组合的职责。那么风投是坐在'成长'里吗？我想大家会默认它总是在那种'哦，高、高、高潜力'的"
+    },
+    {
+      "i": 47,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "18:46",
+      "en": "capital appreciation yeah um so that's the first question and the second question is what also sits in growth that maybe VCs wouldn't expect you know they'll probably think wait we're not the only person you're expecting us to give you like the alpha yeah no that's a that's a great",
+      "zh": "资本增值那一类。——是的，这是第一个问题；第二个问题是，'成长'里还有哪些是 VC 们可能没料到的？他们大概会想：等等，指望我们给你 alpha（超额收益）的，可不只有我们一家吧。——是啊，不，这是个很好的"
+    },
+    {
+      "i": 48,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "19:02",
+      "en": "question so okay so venture sits within private equity private equity sits within the growth um framework and then also within growth is public equity as you can imagine um and again like the point of that is capital appreciation and so what else sits within the growth um system",
+      "zh": "问题。好，风投属于私募股权，私募股权属于'成长'框架，然后你能想到，'成长'里还有公开市场股权（public equity），同样地，它的意义也是资本增值。那么'成长'体系里还有别的什么呢？"
+    },
+    {
+      "i": 49,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "19:26",
+      "en": "I mean we have a biotechnology focused fund of funds for example we had an event driven hedge fund where they are focusing on the legal system and legal catalysts and so all of those again mine items fall within the growth um bucket which they look very different from one another but",
+      "zh": "我是说，比如我们有一只专注生物科技（biotechnology）的母基金，还有一只事件驱动型（event-driven）对冲基金，他们聚焦于法律体系和法律层面的催化剂。所有这些条目同样落在'成长'这个桶里，虽然它们彼此看起来差异很大，但"
+    },
+    {
+      "i": 50,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "19:52",
+      "en": "what is again what is the underlying factor right it's it's equity and the role is capital appreciation in the portfolio one thing that we we spoke about in the pre-comers session uh Angelique was about you know you started out your allocator career more focused on kind of like private equity",
+      "zh": "再说一次，底层因子是什么？是股权，其在组合中的职责就是资本增值。——有一件我们在节目前碰头会上聊到的事，Angelique，是你刚开始做配置方时，职业重心更多是在私募股权、"
+    },
+    {
+      "i": 51,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "20:13",
+      "en": "LBO and you said if I if I would put a expert hat on for anything it would be that so now your job is to be an expert on experts so what tactics have you used to and things you look for to understand if somebody's actually a real expert yeah I probably say that term too often",
+      "zh": "杠杆收购（LBO）上，你还说过，如果要给自己戴一顶'专家帽'，那就是这个领域了。所以现在你的工作是做'专家中的专家'。那你用过哪些方法、看重哪些东西，来判断一个人是不是真正的专家？——是啊，这个词我可能说得太频繁了，"
+    },
+    {
+      "i": 52,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "20:40",
+      "en": "and I tell my team I tell the team of the time like because we're constantly balancing breadth versus depth and I tell my team all the time like our role is to be an expert on experts right we're constantly balancing what should we do in house versus what should we outsource again you know",
+      "zh": "而且我一直跟团队讲，因为我们始终在广度和深度之间做权衡，我不停地跟团队说：我们的角色就是做'专家中的专家'，对吧，我们一直在权衡什么该在内部做、什么该外包出去，同样地，你知道，"
+    },
+    {
+      "i": 53,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "21:05",
+      "en": "breadth versus depth or you know we actually sort of think about it in terms of like if you think about just a line chart on a whiteboard right so your x-axis let's call it like the resources that you have on your team and the y-axis let's call it sophistication of your organization so",
+      "zh": "广度对深度。或者这么说，我们其实是这样思考的：想象白板上有一张折线图，横轴（x-axis）就算是你团队拥有的资源，纵轴（y-axis）就算是你组织的成熟复杂程度，"
+    },
+    {
+      "i": 54,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "21:25",
+      "en": "line chart and we're sort of thinking about it okay where do we sit as it relates to the sophistication of the portfolio with the resources that we have and that means team members that means you know compensation how how are we able to pay people what type of talent can we recruit retain etc",
+      "zh": "一张折线图。我们大概在想：以我们现有的资源，相对于组合的复杂程度，我们处在什么位置？这意味着团队成员、意味着薪酬——我们能给到什么水平的报酬、能招到并留住什么样的人才，等等。"
+    },
+    {
+      "i": 55,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "21:46",
+      "en": "and then like where could we sit on that line and there are times when it makes sense to fully do something in house because we have the expertise and we have the capabilities but we are a small team there are six investment professionals on the team and we're managing you know",
+      "zh": "然后就是我们能处在这条线的什么位置。有些时候完全在内部做某件事是合理的，因为我们有相应的专业知识和能力；但我们是个小团队，投资专业人员只有 6 位，而我们管理着大约"
+    },
+    {
+      "i": 56,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "22:13",
+      "en": "approximately 4.8 billion you cannot be deep in every geography ask that class sector market niche so you also have to have enough humility to say where does it make sense to work with a strategic partner you know I gave you the example of fund of funds for example on the venture side",
+      "zh": "48 亿美元的资产。你不可能在每一个地区、每一个资产类别、每一个行业、每一个细分利基都做到精深，所以你也必须有足够的谦逊去判断：什么时候适合和战略合作伙伴合作。比如我给你举的风投这边母基金的例子，"
+    },
+    {
+      "i": 57,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "22:38",
+      "en": "and they're a great strategic partner and they've allowed us to build out the direct fund exposure over time so that's a really good example and yes even so I do consider myself I guess more of an expert in buyout than any other part of the portfolio but even to that point",
+      "zh": "他们就是很好的战略合作伙伴，帮助我们随时间逐步建立起直接的基金敞口，这就是一个非常好的例子。是的，即便如此，我确实认为自己在并购（buyout）方面比组合的其他任何部分都更专业，但即便在那方面，"
+    },
+    {
+      "i": 58,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "22:59",
+      "en": "we still have a strategic partner within buyout we have a GP that focuses solely on independent sponsors and that's important because we're backing emerging managers who oftentimes are running as an independent sponsor before they formalize a fund but we don't have the team bandwidth to go",
+      "zh": "我们在并购内部也仍然有一个战略合作伙伴：有一家 GP（普通合伙人）专门聚焦于独立保荐人（independent sponsor）。这一点很重要，因为我们在扶持新兴管理人，他们在正式成立基金之前，往往是以独立保荐人的身份运作的；但我们团队没有精力去"
+    },
+    {
+      "i": 59,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "23:23",
+      "en": "out and meet the hundreds if not thousands of independent sponsors running around trying to get a deal done so even in the case of buyout where I am an expert or I consider myself an expert we have a strategic partner now we're going to take a quick break to speak with our sponsor on the show",
+      "zh": "见那成百上千个到处跑、想促成交易的独立保荐人。所以即便在并购这个我自认为是专家的领域，我们也有一个战略合作伙伴。——好，我们现在稍作休息，来和今天节目的赞助商聊几句。"
+    },
+    {
+      "i": 60,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "23:40",
+      "en": "today we have our stellar partner and industry expert check daily he's one of the leaders of Sidley's regulatory practice they are providing Sidley's as a manager client's assistance on issues like their regulatory status their marketing their disclosures valuation methodology the list",
+      "zh": "今天我们请到了我们出色的合作伙伴、行业专家 Chuck Daly，他是 Sidley 监管业务（regulatory practice）的负责人之一。Sidley 为作为管理人的客户提供协助，涉及诸如监管身份、市场营销、信息披露、估值方法等问题，这份清单"
+    },
+    {
+      "i": 61,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "23:58",
+      "en": "goes on and on we are lucky to have you on the show welcome Chuck are there market trends impacting regulation in venture capital yeah I think some of the market trends that that impacts the regulatory footprint really are around I think some of the maturity in the space and what you might see",
+      "zh": "还能一直列下去。很荣幸能请你上节目，欢迎，Chuck。有没有一些市场趋势正在影响风投领域的监管？——是的，我觉得一些影响监管版图的市场趋势，其实主要跟这个领域的成熟度有关，你可能会看到"
+    },
+    {
+      "i": 62,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "24:23",
+      "en": "longer hold periods more secondary activity as you get longer tenured funds and you get some roll out of assets you get some crossover of different strategy types right I think that as managers think about where where do we see our portfolio companies needing you know our",
+      "zh": "更长的持有期、更多的二级交易（secondary）活动——因为基金的存续期更长，会有一些资产展期滚动，也会有不同策略类型之间的交叉融合。我觉得，随着管理人思考：我们看到自己的组合公司在哪些方面需要我们、"
+    },
+    {
+      "i": 63,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "24:46",
+      "en": "needing capital needing our services I think you're starting to see some interest among VC managers on on different types of assets going into the portfolio all of those things trigger different types of regulatory requirements right so you know longer hold periods and valuation",
+      "zh": "需要资本、需要我们的服务，你会开始看到 VC 管理人对把不同类型资产纳入组合产生了兴趣。所有这些都触发了不同类型的监管要求。所以你看，更长的持有期和估值——"
+    },
+    {
+      "i": 64,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "25:06",
+      "en": "is really going to go to you know how do we feel comfortable that the valuation the manager is carrying an asset out is the appropriate value and and and from there what are the governing documents say about how you handle valuations right the SEC is particularly interested in how",
+      "zh": "估值这件事，核心其实是：我们怎么才能确信管理人对一项资产入账的估值是合理的？进而，治理文件（governing documents）对如何处理估值又是怎么规定的？SEC（美国证券交易委员会）特别关注管理人如何"
+    },
+    {
+      "i": 65,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "25:24",
+      "en": "a manager treats write downs and write offs and and and and how you handle the valuation process mean the write-up write-down valuation mark dealt valuation mark down there's no such thing as a conservative position on valuation there is getting it right under the circumstances and that's",
+      "zh": "处理减记（write-downs）和核销（write-offs），以及如何处理整个估值流程。我的意思是，无论是上调估值、下调估值，按交易价估值还是减记，估值上并不存在所谓'保守'的立场，只有在具体情况下把它做对，而这"
+    },
+    {
+      "i": 66,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "25:46",
+      "en": "really what the staff is looking for right is look sometimes you're going to mark something up sometimes you're going to mark something down the question is why did you do either of those the particular time that you did it and that really goes back to what does your valuation process look",
+      "zh": "正是 SEC 工作人员真正在意的。你看，有时候你会把某项资产估值上调，有时候会下调，问题在于：你为什么偏偏在你做的那个时点做了这个动作？这又回到了你的估值流程是什么样子、"
+    },
+    {
+      "i": 67,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "26:01",
+      "en": "like kind of documentation do you have the steps you took reasonable under the circumstances and I think as you get longer dated funds and you get funds that are reaching that the end of their life and maybe they have those remaining assets that you really are the difficult ones to",
+      "zh": "你有什么样的文档记录、你采取的步骤在具体情况下是否合理。我认为，随着基金存续期变长，有些基金接近生命周期尾声，也许还持有一些剩余资产，而这些资产恰恰是最难"
+    },
+    {
+      "i": 68,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "26:19",
+      "en": "monetize on you start getting a more and more concentrated portfolio with more and more challenging assets and that just you know that's going to draw some attention and some interest from from the SEC particularly when you start thinking about what some of the other industry trends",
+      "zh": "变现的。于是你会得到一个越来越集中、资产越来越有挑战性的组合，这自然会引来 SEC 的一些关注和兴趣，尤其是当你开始思考其他一些行业趋势"
+    },
+    {
+      "i": 69,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "26:36",
+      "en": "due to managers what that might cause for managers in terms of the regulatory profile right",
+      "zh": "会对管理人造成什么、可能给管理人的监管画像（regulatory profile）带来什么样的后果。"
+    },
+    {
+      "i": 70,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "26:43",
+      "en": "if you think you might spin out a secondary or something like that it is likely certainly possible that you will no longer have only VC fund clients and if that is the direction you're going as the business maturity as the funds mature you might have a product now that causes you to lose your",
+      "zh": "如果你觉得可能会分拆出一只二级基金（secondary fund）之类的，那么你很可能会不再只服务于 VC 基金客户。如果随着业务成熟、基金成熟，你正朝着这个方向发展，你现在可能就有一款产品会导致你失去"
+    },
+    {
+      "i": 71,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "27:03",
+      "en": "exemption and then lose your exemption you may choose to to put that exemption aside and follow the business right you know well where's the market where your LPs you know where is this going you choose to move to to the next level and when doing that there's going to be more scrutiny",
+      "zh": "豁免资格（exemption）。而在失去豁免资格时，你可能会选择主动放弃这个豁免、跟着业务走。你知道，市场在哪里、你的 LP（有限合伙人）在哪里、这一切要往哪去，你选择迈向下一个层级；而这么做的同时，就会有更多的审查，"
+    },
+    {
+      "i": 72,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "27:22",
+      "en": "about how you treated these things as you got to that stage and so I think that there's there's some some pressure on that as well as you move in that direction I think that that comes up equally with the shift in the types of asset right expanding the product type and maybe even the",
+      "zh": "审视你在走到那个阶段的过程中是如何处理这些事情的。所以我认为，当你朝那个方向发展时，这方面也会有一些压力。我觉得，同样地，这也伴随着资产类型的转变——扩展产品类型，甚至可能扩展"
+    },
+    {
+      "i": 73,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "27:44",
+      "en": "the types of strategies that go into a portfolio that again can lead you to have assets and your vehicles that go into the non qualifying bucket for your VC funds and and maybe your fund loses its status as a VC fund and now now the cascading effect of what does that mean for your regulatory",
+      "zh": "纳入组合的策略类型。这同样可能导致你的载体中持有一些资产落入了 VC 基金的'不合格'（non-qualifying）桶里，也许你的基金因此失去 VC 基金的地位，那么随之而来的连锁反应就是：这对你的监管"
+    },
+    {
+      "i": 74,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "28:04",
+      "en": "profile so I think you've got some market trends there that put some pressure on the regulatory space and the regulatory profile of managers that really just comes from partly the the length of time that these managers have been around and the maturing of their business. Yeah it it seems",
+      "zh": "画像意味着什么。所以我认为，那里有一些市场趋势，给监管领域和管理人的监管画像带来了压力，而这其实部分只是因为这些管理人已经存在了很长时间、他们的业务正在走向成熟。——是的，这似乎"
+    },
+    {
+      "i": 75,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "28:22",
+      "en": "linked a little bit to what LPs are interested in allocating are you seeing trends sort of from being driven by them that are affecting regulation? Well I think certainly look that the the conversation with with folks who have the capital and what they like to see and",
+      "zh": "和 LP 们有兴趣配置什么有点关联。你有没有看到一些由 LP 驱动、进而影响监管的趋势？——嗯，我觉得当然有。你看，和掌握资本的人对话、了解他们想看到什么、"
+    },
+    {
+      "i": 76,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "28:43",
+      "en": "what they like to have access to is certainly driving the types of products that that managers are offering into the marketplace and what they're willing to do right and so I think that that is an active conversation I think is partly being led by by the LP space and kind of what they're",
+      "zh": "想获得哪些机会，这确实在驱动管理人向市场提供什么类型的产品、他们愿意做什么。所以我认为这是一个活跃的对话，其中一部分是由 LP 群体主导的，取决于他们"
+    },
+    {
+      "i": 77,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "29:01",
+      "en": "what they'd like to see from managers and what they'd like to have in their portfolio",
+      "zh": "希望从管理人那里看到什么、希望自己的组合里拥有什么。"
+    },
+    {
+      "i": 78,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "29:07",
+      "en": "I think that that's part of it I think I think a larger part of it is just overall the pooled asset vehicle space just developing in a lot of ways where you know there's kind of",
+      "zh": "我觉得这是一部分原因；我认为更大的一部分，其实是整个集合资产载体（pooled asset vehicle）领域在很多方面的发展，你知道，那里有一种"
+    },
+    {
+      "i": 79,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "29:22",
+      "en": "a convergence but at the same time an expansion right so it's a convergence of of asset managers kind of bringing together a lot of different strategies and types of product under the same banner if you will while at the same time reaching out to more and more places for capital right so",
+      "zh": "融合、同时又是一种扩张。所谓融合，就是资产管理人把很多不同的策略和产品类型整合到同一面旗帜下；而与此同时，他们又在向越来越多的地方去募集资金。所以"
+    },
+    {
+      "i": 80,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "29:43",
+      "en": "so you've got the same manager expanding the type of offering and strategies that they're offering while at the same time looking for different types of LPs and trying to respond to what those LPs want so I think you've got both things happening at once which will will absolutely change the",
+      "zh": "你会看到同一家管理人在扩展其提供的产品和策略类型的同时，又在寻找不同类型的 LP，并试图回应这些 LP 的需求。所以我认为这两件事正在同时发生，这必将改变"
+    },
+    {
+      "i": 81,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "30:01",
+      "en": "regulatory profile for those managers as they bring in different types of LPs and and try to fundraise in different spaces while at the same time making some modifications to the way that they offer their product yeah you know that makes sense and we were introduced by Shane Goodie who",
+      "zh": "这些管理人的监管画像——因为他们引入了不同类型的 LP、试图在不同领域募资，同时又对其产品提供方式做了一些调整。——是的，这说得通。我们是经 Shane Goodie 介绍的，他"
+    },
+    {
+      "i": 82,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "30:21",
+      "en": "is the leader of Sidley's venture funds practice as someone who gets to work with Shane and his team why would you recommend GPs in venture to Sidley? Well I mean Shane is amazing and so yes I you know I always have to thank him for for connecting me with with that wonderful opportunities",
+      "zh": "是 Sidley 风投基金业务（venture funds practice）的负责人。作为一个能和 Shane 及其团队合作的人，你为什么会把 Sidley 推荐给风投领域的 GP？——嗯，我是说，Shane 非常出色，所以是的，我一直得感谢他给我牵线，让我有这样美好的机会"
+    },
+    {
+      "i": 83,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "30:44",
+      "en": "to talk to people like you about the regulatory space which which you know I know and love but look I mean that's just part of the Sidley community you know I think we all work very well together and there's a great team there where it's deep it's broad you know if I need to know",
+      "zh": "和像你这样的人聊监管这个领域，这是我熟悉也热爱的。但你看，这只是 Sidley 这个大家庭的一部分。我觉得我们所有人合作得非常好，那里有一支很棒的团队，既深又广。你知道，如果我想了解"
+    },
+    {
+      "i": 84,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "31:01",
+      "en": "something about the VC space and what VC managers are doing are kind of how are they thinking right like well what is the what is the VC what is the VC community thinking you know Shane's a deep resource there and and and he's one right you know we have a breath of private fund managers VC",
+      "zh": "VC 领域的情况、VC 管理人在做什么、他们是怎么想的——就是 VC 圈子里大家在想什么，Shane 在这方面是非常深厚的资源，而且他只是一个（例子）。你知道，我们拥有广泛的私募基金管理人、VC"
+    },
+    {
+      "i": 85,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "31:22",
+      "en": "managers and other clients and other partners who are doing that work and all of the different",
+      "zh": "管理人，以及从事这项工作的其他客户和其他合伙人，涵盖所有不同的"
+    },
+    {
+      "i": 86,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "31:30",
+      "en": "industries and and business types and and difference needs that those those advisors and clients have to cross the client base and so you know we have deep experience across the board. It's a shared Sidley brain it's fantastic it's yes it's it's that that knowledge that that we share right it's",
+      "zh": "行业、不同的业务类型，以及这些顾问和客户在整个客户群中的不同需求，所以我们在各方面都有深厚的经验。——这是一个共享的'Sidley 大脑'，太棒了。——是的，这就是我们共享的那种知识，对吧，它"
+    },
+    {
+      "i": 87,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "31:56",
+      "en": "it's done with intense right I mean you know I think the buzz phrase industry phrase you you know is is is institutional knowledge but I think it's it's really organizational intelligence if we think of it as a collective brain as an organization we're as smart as as you know each",
+      "zh": "是以一种专注的方式做到的。我是说，行业里流行的说法是'机构知识'（institutional knowledge），但我觉得它其实是'组织智慧'（organizational intelligence）。如果我们把它当成一个集体大脑，那么作为一个组织，我们的聪明程度就等于彼此"
+    },
+    {
+      "i": 88,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "32:17",
+      "en": "other as long as we share the information and how that accessible and so yeah I always tell the organizational intelligence at Sidley is extremely high. Thank you so much for coming on the show if you or one of your founders has a question for Chuck you can please email Charles",
+      "zh": "相加，只要我们共享信息、让信息可获取。所以是的，我一直说，Sidley 的组织智慧极高。——非常感谢你上节目。如果你或你旗下的某位创始人有问题想问 Chuck，请给 Charles"
+    },
+    {
+      "i": 89,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "32:34",
+      "en": "daily at Sidley.com Charles is spelled as you would expect daily is D-A-L-Y and now back to our LP interview. That's a great point that it doesn't choosing to work with an intermediary is not a sign necessarily that that is not something you're capable of too you just have a different job",
+      "zh": "Daly 发邮件到 Sidley.com，Charles 的拼写和你想的一样，Daly 拼作 D-A-L-Y。现在回到我们的 LP 访谈。——这是个很好的观点：选择和一个中介合作，并不一定意味着你自己没能力做这件事，你只是有一份不同的工作而已。"
+    },
+    {
+      "i": 90,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "32:56",
+      "en": "exactly and a lot of the time it does make sense to leverage those relationships they can be accretive to your organization to again if it's a true partnership to the partner well and then I I truly trust your ability to pick an expert where you're the expert too right yeah this is where",
+      "zh": "没错，很多时候借助这些关系确实是合理的，它们能为你的组织增值——同样地，前提是这是一段真正的伙伴关系。——而且我真的很相信你去挑选专家的能力，即便你自己就是那个专家。——是的，这正是"
+    },
+    {
+      "i": 91,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "33:16",
+      "en": "you're extremely qualified to judge who to work with yeah and and to that point I mean",
+      "zh": "你极其有资格去判断该和谁合作。——是的，就这一点而言，我是说，"
+    },
+    {
+      "i": 92,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "33:24",
+      "en": "fortunately all of the senior professionals on our team we've been doing this for a long time we've been in the allocator space I mean for me my entire career and so our networks they don't overlap which is fortunate and they're also very deep and so as it relates to you know trying to",
+      "zh": "幸运的是，我们团队所有资深专业人士都做这行很久了，我们一直在配置方这个领域——对我而言是整个职业生涯。所以我们的人脉网络彼此不重叠，这很幸运，而且也非常深厚。因此，在试图"
+    },
+    {
+      "i": 93,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "33:43",
+      "en": "identify even who is the expert in the space you simply can tap into your network the best people oftentimes they know the best people they can give you a warm introduction which is always very helpful and so you can you know you can connect the dots and can get to that expert I think pretty quickly",
+      "zh": "识别谁是这个领域的专家时，你完全可以动用你的人脉。最优秀的人往往认识其他最优秀的人，他们可以给你做一个热心引荐（warm introduction），这总是非常有帮助的。所以你可以把点连成线，我认为能相当快地接触到那位专家。"
+    },
+    {
+      "i": 94,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "34:04",
+      "en": "and I mean we all know the allocator's edge is their network right as it is adventure so a lot of similarities you are about over a year in now since joining what are the things you're pushing the team on what are some of the changes you're excited to make fortunately I joined",
+      "zh": "我们都知道，配置方的优势就是他们的人脉网络，风投也是如此，所以有很多相似之处。——你加入到现在差不多一年多了，有哪些事情是你在推动团队去做的？有哪些变化是你很想做出、并且为之兴奋的？——幸运的是，我加入的是"
+    },
+    {
+      "i": 95,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "34:29",
+      "en": "a very strong culture and the organization is it operates in a very thoughtful way",
+      "zh": "一种非常强的文化，这个组织的运作方式非常周全。"
+    },
+    {
+      "i": 96,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "34:38",
+      "en": "a huge credit to our CIO Peter Madsen who he was recruited in at Inception of SIPFO so they brought him in to build the portfolio build the program and build the team from scratch so he's been here since the beginning which is amazing you know where I came in for one really to",
+      "zh": "这要大大归功于我们的 CIO（首席投资官）Peter Madsen，他是在 SIPFO 创立之初被招进来的，他们请他来从零搭建组合、搭建项目、搭建团队，所以他从一开始就在这里，这非常难得。而我进来，一方面确实是为了"
+    },
+    {
+      "i": 97,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "35:04",
+      "en": "help build out the private markets program and private equity specifically because that's what I had been doing previously a lot of the kind of the bio portfolio and some of the venture portfolio it was consultant led because we did not have that in house expertise and we were also you know",
+      "zh": "帮助搭建私募市场项目，尤其是私募股权，因为我之前一直做的就是这个。此前很多并购组合以及一些风投组合都是由顾问主导的，因为我们没有这方面的内部专业能力，而且我们还——你知道，"
+    },
+    {
+      "i": 98,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "35:25",
+      "en": "we're also 500 basis points away from word target allocations so there's a lot of room to grow",
+      "zh": "我们距离目标配置还差 500 个基点（basis points），所以还有很大的增长空间。"
+    },
+    {
+      "i": 99,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "35:31",
+      "en": "so one thing that I was really excited about was just kind of getting SIPFO's name and brand out there in the bio specifically in and private equity space you know I have a bit of a brand in the space and so it was a function of okay this is SIPFO's mission and you know all of our",
+      "zh": "所以有一件让我特别兴奋的事，就是把 SIPFO 的名号和品牌推广出去，尤其是在并购和私募股权领域。你知道，我在这个圈子里算是有点知名度，所以这就变成：好，这是 SIPFO 的使命，我们所有的"
+    },
+    {
+      "i": 100,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "35:55",
+      "en": "distributions go to K through 12 so we're a very mission-driven organization like that's wonderful and we're good partners and we're long-term partners and we want to be active in the emerging manager space like we will back a fund one and stay with that manager for you know multiple",
+      "zh": "分配收益都流向 K-12（幼儿园到高三）教育，所以我们是一家非常以使命为驱动的组织，这一点很美好。我们是好的合作伙伴，是长期伙伴，我们希望在新兴管理人领域保持活跃——比如我们会投一只'一期基金'（Fund I），然后陪伴这位管理人走过好几"
+    },
+    {
+      "i": 101,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "36:13",
+      "en": "multiple advantages um if they grow in a thoughtful way um and so just sort of getting like the SIPFO brand out there in the private equity space and then you're just in the deal flow right so that was kind of an earlier focus of mine um and then also just again we're a very",
+      "zh": "期基金——前提是他们以一种审慎的方式成长。所以就是把 SIPFO 这个品牌在私募股权领域打出去，然后你自然就进入了项目流（deal flow），这是我早期的一个工作重点。然后同样地，我们是一家非常——"
+    },
+    {
+      "i": 102,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "36:35",
+      "en": "we're a very flat organization we're a small team everyone is doing a million of things um and so I've sort of tried to improve connectivity across the team so I've implemented you know a couple of meetings during the week and I know you're probably thinking oh gosh",
+      "zh": "我们是一个非常扁平的组织，团队很小，每个人都要忙一大堆事。所以我一直试着改善团队内部的连接，为此我在每周设立了几个会议。我知道你可能会想：'天哪，"
+    },
+    {
+      "i": 103,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "36:54",
+      "en": "everyone hates a team meeting but like no a team meeting is fun and it's a way for us to share information and it's a way for us to think about the portfolio um in kind of our relative value way and also it improves everyone's skills that as an allocator if you're if you know what's going",
+      "zh": "大家都讨厌团队会议。'但不是的，团队会议很有意思，它是我们共享信息的方式，也是我们以一种'相对价值'的思路去思考组合的方式；同时它还能提升每个人作为配置方的技能——如果你了解"
+    },
+    {
+      "i": 104,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "37:16",
+      "en": "on in various parts of the portfolio if you're even just like hearing the lingo and the language and that's very beneficial for the younger analysts and our interns we have a rotating intern program um so I've implemented a number of um meetings really just to improve I think information",
+      "zh": "组合各个部分正在发生什么，哪怕只是听一听那些行话和术语，这对年轻分析师和我们的实习生都非常有益——我们有一个轮换制的实习生项目。所以我设立了不少会议，其实就是为了改善我认为的信息"
+    },
+    {
+      "i": 105,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "37:33",
+      "en": "share which hopefully will lead to better decisions one thing I want to pull on that you spoke about a little bit earlier and we've kind of mentioned it even in this previous question was around how the heck it does an allocator develop a brand in a new asset class and so you you",
+      "zh": "共享，希望能带来更好的决策。——有一点我想追问一下，你之前稍微提到过，我们甚至在上一个问题里也提到了，就是：一个配置方到底怎么才能在一个新资产类别里建立起品牌？所以你"
+    },
+    {
+      "i": 106,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "37:51",
+      "en": "spoke to you had a brand for your own of your own and uh buy out but to this new weird I don't know I feel like a venture was a asset class like as it was a um was a cartoon character it'd be Daria I don't know that's just um the volleyball drops next to you so not I wouldn't say it's the",
+      "zh": "之前说过，你在并购方面有自己的品牌，但对这个新的、有点怪的——我不知道，我感觉风投这个资产类别如果是一个卡通角色的话，那会是 Daria，就是那种排球'啪'地掉到你旁边的感觉。所以我不会说这是最"
+    },
+    {
+      "i": 107,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "38:19",
+      "en": "easiest to walk up to um yeah how do you develop it a brand when you have a industry that can seem a little intimidating yeah that's a very fair point um again start with strategic partners I think that's huge they can make introductions and slowly we found that their introduction",
+      "zh": "容易主动搭上去的类别。——是的，那当这个行业看起来有点让人望而生畏时，你要怎么建立品牌呢？——是的，这是个很中肯的问题。同样，从战略合作伙伴开始，我觉得这非常关键，他们可以做引荐。慢慢地我们发现，他们把我们引荐"
+    },
+    {
+      "i": 108,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "38:43",
+      "en": "introductions to GPs then turns into that GP introducing us to another GP but they wouldn't do that if we weren't a good partner to work with so I think it goes back to just how you act as an allocator are you transparent do you say what you're going to do no we are a we're a young like",
+      "zh": "给 GP，接着那位 GP 又会把我们引荐给另一位 GP；但如果我们不是一个好的合作伙伴，他们就不会这么做。所以我觉得这又回到了你作为配置方的行事方式：你是否透明、你是否说到做到。我们是一支年轻的团队，"
+    },
+    {
+      "i": 109,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "39:07",
+      "en": "overall we're a young team um I think we're a very energetic team and a very curious team all of that sort of works to our benefit and frankly like we're just good people like my colleagues are awesome I'd love to spend time with them as you know I mean private work is this is just a",
+      "zh": "整体上我们很年轻。我觉得我们是一支非常有活力、非常有好奇心的团队，这些都在无形中对我们有利。而且坦白说，我们就是好人，我的同事们都很棒，我都愿意和他们相处。你知道，私募这行本质上就是一门"
+    },
+    {
+      "i": 110,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "39:27",
+      "en": "people business and most of the best you know venture funds and most of the best buy out funds they are often capacity constrained they get to choose their partners and so we want to be people that they choose to spend time with like that's what it comes down to um so being a good person",
+      "zh": "'人'的生意。大多数最好的风投基金、最好的并购基金，往往都受容量限制，他们可以挑选自己的合作伙伴；所以我们希望成为他们愿意选择去相处的人，归根结底就是这样。所以做一个好人，"
+    },
+    {
+      "i": 111,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "39:49",
+      "en": "and then also having a very thoughtful mission has has helped us get access to some really great names um and so you know once you start I think just kind of acting on how you say you're going to act and proving that you're a good partner like that reputation starts to build and",
+      "zh": "再加上有一个非常深思熟虑的使命，这帮助我们接触到了一些非常棒的名号。所以你知道，一旦你开始按照你说的方式去行事、证明自己是一个好的合作伙伴，这种声誉就开始建立起来，"
+    },
+    {
+      "i": 112,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "40:09",
+      "en": "again DPs or consultants or strategic partners um feel good about introducing you to to others in the industry today in 2026 what do you think 2036 looks like with venture are we seeing more consolidation as we've seen it uh go I know one thing that was really fascinating during our prep",
+      "zh": "GP、顾问或战略合作伙伴也会乐于把你引荐给行业里的其他人。——那么，站在今天、2026 年，你觉得 2036 年的风投会是什么样子？我们会看到更多的整合（consolidation）吗？我知道有一件在我们节目前碰头"
+    },
+    {
+      "i": 113,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "40:29",
+      "en": "call is you spoke about how the buy out market doesn't have as much consolidation they're having more spinouts um yeah then uh then venture which I know some venture folks will be like what we have a ton of spinouts but the we've had some notable spinouts actually join back large institutions",
+      "zh": "会上聊到的、特别有意思的事：你谈到并购市场的整合没那么多，他们更多的是分拆（spinout），比风投要多。我知道一些风投圈的人会说'什么啊，我们也有大量分拆'，但确实有一些知名的分拆团队后来又重新加入了大机构。"
+    },
+    {
+      "i": 114,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "40:53",
+      "en": "and yeah we talked about that yeah and Angelique we like that would never happen in buy out so why would someone why would someone do that like that wouldn't happen in buy out you don't leave a large um a large cap name brand buy out firm to start your own saying and then decide just kidding",
+      "zh": "——是的，我们聊过这个。——是啊，而且 Angelique，我们觉得那种事在并购里永远不会发生，所以为什么有人会那么做？在并购里是不会的：你不会离开一家大盘、名牌的并购公司去自立门户，然后又决定'开个玩笑啦，"
+    },
+    {
+      "i": 115,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "41:08",
+      "en": "I'm gonna go back like that does that does not happen we don't see that but yeah I mean we can all kind of name the individual we don't go back to the large uh venture platforms exactly exactly so do you see like the future is that is it more of that and we're just like really large",
+      "zh": "我要回去了'——那种事不会发生，我们没见过。不过是的，我是说，我们都能说出那么几个从大平台出走的人，他们并没有再回到那些大型风投平台。——正是正是。那你觉得未来会是这样吗？是更多这种整合，然后就变成少数几家非常大型、"
+    },
+    {
+      "i": 116,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "41:27",
+      "en": "you know long tail and a few big names what do you think things are going? I don't know that I do a good job of predicting the future um what I would say",
+      "zh": "长尾加几个大牌名字？你觉得事情会怎么走？——我不太确定自己擅长预测未来。我会说的是，"
+    },
+    {
+      "i": 117,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "41:43",
+      "en": "you know it probably depends on like broader macro scenes and sort of what regime were in I guess maybe at that time period or over the course of the next few years you know do we see a setback in fundraising for example does the craziness of venture today",
+      "zh": "这大概取决于更宏观的大环境，以及我们那时、或者未来几年处在什么样的（市场）机制下。比如说，我们会不会看到募资遭遇挫折？今天风投的这种疯狂"
+    },
+    {
+      "i": 118,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "42:11",
+      "en": "continue I mean maybe it does but it doesn't feel like it should uh just given how high prices are I mean if you think about just portfolios broadly so much of the portfolio is levered to artificial intelligence and this theme and you know at some point the party likely has to stop I don't know when",
+      "zh": "会不会延续？我是说也许会，但考虑到价格如此之高，感觉上不应该是这样。如果你从整体组合来看，组合里有太多东西是押注在人工智能（AI）这个主题上的，而在某个时点，这场狂欢大概率得停下来，我不知道是什么时候，"
+    },
+    {
+      "i": 119,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "42:45",
+      "en": "um but I can't imagine we're in like this sandtastic of a market in 2030",
+      "zh": "但我无法想象到 2030 年我们还处在这样一个亢奋到'美妙'的市场里。"
+    },
+    {
+      "i": 120,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "42:55",
+      "en": "and maybe we're back to that maybe we say a correction then we move back to it yeah the one thing that we know is that things don't always go up yeah exactly but you don't but you don't know I mean you don't know when you'll see a correction and so you never want to take yourself out of the market right that's the hard part is",
+      "zh": "也许我们会回到那种状态，也许我们经历一次回调（correction），然后又回到上涨。——是的，我们唯一确定的是，市场不会永远上涨。——没错，但你并不知道，我是说你不知道什么时候会迎来一次回调，所以你永远不想把自己从市场里择出来，对吧，这才是难的地方。"
+    },
+    {
+      "i": 121,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "43:16",
+      "en": "yeah as in elementary defense is doing exactly you can't time it so even though I mean so I was you know I was just in San Francisco I saw Ernest while I was there I had countless venture conversations every single day and every venture manager that I spoke to well actually",
+      "zh": "是的，就是……你根本没法择时。所以，尽管……我是说，我前阵子刚去了 San Francisco，我在那儿时还见到了 Ernest，我每天都有无数场风投对话，而每一位和我交谈的风投管理人——其实"
+    },
+    {
+      "i": 122,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "43:38",
+      "en": "interesting the more experienced GPs I kind of felt a little bit of uncertainty from them or maybe more like feelings of being uncomfortable with prices in the market whereas the less experienced GPs they sort of said hey this is the market like our job is to deploy in the market we're going",
+      "zh": "有意思的是，那些经验更丰富的 GP，我从他们身上多少感到一点不确定，或者更像是他们对市场价格感到不适；而那些经验较少的 GP 则说：'嘿，这就是市场，我们的职责就是在市场里把钱投出去，我们无论如何都会"
+    },
+    {
+      "i": 123,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "44:01",
+      "en": "to do it no matter what um so that was actually a noticeable difference on just sentiment depending on experience level um and so that so that was interesting but one one thing that I heard across the board was just this idea of making exceptions and what do I mean by that so you know",
+      "zh": "这么做的。'所以在情绪上，因经验水平不同而呈现出一个明显的差异，这挺有意思的。但有一件我从所有人那里都听到的事，就是'做例外'（making exceptions）这个想法。我这是什么意思呢？你知道，"
+    },
+    {
+      "i": 124,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "44:28",
+      "en": "so XYZGP this is my core strategy but but I will take 10 or 20% of my portfolio for exceptions maybe that is an exceptional sounder at a very high price that's often what it what it is we shared that we're both avid readers when we meet and but we're on different sides I'm more of a non-fiction",
+      "zh": "比如某个 GP 会说：'这是我的核心策略，但我会拿出组合的 10% 或 20% 来做例外'，也许那个例外就是一位非常出色、但要价很高的创始人，这往往就是例外的样子。——我们见面时聊过，我俩都是热爱读书的人，但我们分属不同阵营，我更偏非虚构（non-fiction），"
+    },
+    {
+      "i": 125,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "45:01",
+      "en": "person because I feel like life is crazy and I want to hear about other people's crazy lives and you're a fiction person yes and so um why fiction and then what's a recommendation that you have for our audience right now why fiction my my day job is to talk to people about facts and read",
+      "zh": "因为我觉得生活已经很疯狂了，我想听听别人疯狂的人生；而你是虚构（fiction）派。——是的。——那为什么偏爱虚构？还有你现在有什么书推荐给我们的听众？为什么是虚构？——我的本职工作就是跟人聊事实、读"
+    },
+    {
+      "i": 126,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "45:31",
+      "en": "research based on data almost like I don't need more of that",
+      "zh": "基于数据的研究，几乎可以说，我不需要再来更多这类东西了。"
+    },
+    {
+      "i": 127,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "45:38",
+      "en": "like oh my isn't that that's my day job right that's all that I do so when I'm sitting in bed I want to just be taken to a different world or environment or time in history place etc and I also think it probably helps me sleep um what have I read that is good um so I just finished a book",
+      "zh": "就像'天哪，这不就是我的日常工作嘛'，我整天做的就是这个。所以当我坐在床上时，我只想被带到一个不同的世界、环境、历史时期或地点等等，而且我觉得这可能也有助于我入睡。要说我读过什么好书——我刚读完一本"
+    },
+    {
+      "i": 128,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "46:12",
+      "en": "called The Names by Florence nap and I told Ernest about this um so like the question underneath the the whole book is how much does a name shape I go who you are um the way other people see you the way you see yourself the people around you and it was fascinating because you don't often",
+      "zh": "叫 The Names，作者是 Florence Knapp，我还跟 Ernest 讲过这本书。整本书底下的问题是：一个名字在多大程度上塑造了你是谁、别人怎么看你、你怎么看自己、以及你身边的人。这非常引人入胜，因为你并不常"
+    },
+    {
+      "i": 129,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "46:36",
+      "en": "think about that maybe you do when you're naming your children um but probably don't think about as as much as you you know you would um and and so I was sharing with Ernest I said does everyone just think you're like a very kind trustworthy person because of your name and but like actually there's",
+      "zh": "会去想这个——也许你在给孩子取名时会想，但大概率不会像本该的那样去想那么多。所以我跟 Ernest 分享时说：'是不是大家都因为你的名字，就觉得你是个非常和善、值得信赖的人？'但其实这里面"
+    },
+    {
+      "i": 130,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "46:55",
+      "en": "probably something to that yeah so she hooked me I'm going to read this book like so well see how you like it I mean you guys can follow me on goodreads I keep trying all my books yeah I've never done that I've always like I should do it but now you have to",
+      "zh": "可能还真有点道理。——是的，所以她把我'钩'住了，我要去读这本书。——那看看你会不会喜欢。我是说，你们可以在 Goodreads 上关注我，我把我读的所有书都记在上面。——是啊，我从没这么做过，我一直觉得我该这么做，但现在你必须得"
+    },
+    {
+      "i": 131,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "47:15",
+      "en": "final question and like what are you an expert at that people might totally not realize they do this little thing that you're just a psycho yeah I mean there's so many things that I must say go um I really like flower arranging so that is a fun fact I've taken lessons I've spent a lot of time watching instructions",
+      "zh": "最后一个问题：有什么是你是专家、但别人可能完全没意识到的？就是那种你会为之着迷的小事情。——是啊，我是说有很多，我得说——我真的很喜欢插花（flower arranging），这算个有趣的小知识。我上过课，也花了大量时间看那些教学"
+    },
+    {
+      "i": 132,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "47:44",
+      "en": "like videos youtube etc on how to create flower arrangements so that is not good to our next LPGP dinner okay ten minutes early I will be coming with a handful of trader Joe's clippings yeah that's what no no that's the move that's what I do I just go to trader Joe",
+      "zh": "视频，比如 YouTube 之类的，学怎么插花。——那就定在我们下一次 LP/GP 晚宴上（展示）吧，好，我会提前十分钟到，带上一把从 Trader Joe's 剪来的花枝。——是啊，那……不不，这才是正解，我就是这么干的，我直接去 Trader Joe's。"
+    },
+    {
+      "i": 133,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "48:04",
+      "en": "exactly often we'll see you there and we'll have beautiful flower arrangements I love it I'll do it sign me up and it's like thanks so much for your energy your insights um and thanks for being on something with allocators thank you for having me see you later allocator",
+      "zh": "——正是，到时候我们会在那儿见你，还会有漂亮的插花。我太喜欢了，算我一个，给我报上名。——非常感谢你的活力和你的洞见，也感谢你来做客 Swimming with Allocators。——谢谢你们邀请我。——回见，配置方们。"
+    },
+    {
+      "i": 134,
+      "speaker": 5,
+      "speaker_zh": 5,
+      "ts": "48:26",
+      "en": "after portfolio tile investing with the smile",
+      "zh": "——带着微笑，做投资。"
+    }
+  ]
+}

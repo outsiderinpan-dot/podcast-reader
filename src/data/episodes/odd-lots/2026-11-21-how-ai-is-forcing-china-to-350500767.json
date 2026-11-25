@@ -1,0 +1,849 @@
+{
+  "show": "odd-lots",
+  "kind": "transcript",
+  "id": "350500767",
+  "guid": "bb74684d-fcbe-4c36-9779-b5070115b930",
+  "slug": "2026-11-21-how-ai-is-forcing-china-to-350500767",
+  "date": "2026-11-21",
+  "title_en": "How AI Is Forcing China to Reshape Industrial Policy",
+  "title_zh": "AI 如何迫使中国重塑产业政策",
+  "subtitle_zh": "Brookings 研究员 Kyle Chan 做客 Odd Lots，解读中国科技企业的全栈式扩张、Huawei 芯片突围，以及'新质生产力'背后的国家战略取舍。",
+  "summary_zh": "本期 Odd Lots 邀请 Brookings 研究员 Kyle Chan（High Capacity 通讯作者），讨论 AI 竞争如何重塑中国的产业政策。Chan 指出，中国科技公司呈现'全栈式'扩张：BYD、Xiaomi、Huawei 同时布局电动车、电池、机器人、AI 与半导体，行业间存在显著外溢。他把驱动力拆成供给侧（供应链、人才、'猴子在树间荡'式的相邻跨越）和需求侧（政府信号，包括五年规划的优先领域与对特定行业的打压）。在芯片上，Chan 认为美国出口管制意外成为中国半导体自力更生的'史普尼克时刻'：Huawei 与 DeepSeek 深度绑定，Ascend 芯片已在推理端'够用'，正通过'以量补质'的超级 pod 冲击大模型训练；但产能仍受制于 SMIC 的光刻设备（尤其 ASML 的 DUV 浸没式）以及 HBM 供应。他也提到中国内部的分歧：AI 公司想继续采购 NVIDIA H200，北京则强推国产闭环。Chan 抛出争议判断——最高层并不真的关心 GDP 或消费，'新质生产力'和高科技自立才是核心目标。节目尾声，Joe 与 Tracy 讨论了'智能商品化'的可能，以及中国股市常年横盘与产能过剩的关系。",
+  "description": "How AI Is Forcing China to Reshape Industrial Policy",
+  "duration": "45:40",
+  "duration_seconds": 2740,
+  "episode_url": "https://www.iheart.com/podcast/1308-odd-lots-30972803/episode/how-ai-is-forcing-china-to-reshape-industrial-policy-350500767",
+  "audio_url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/8a94442e-5a74-4fa2-8b8d-ae27003a8d6b/bb74684d-fcbe-4c36-9779-b5070115b930/audio.mp3?utm_source=Podcast&in_playlist=982f5071-765c-403d-969d-ae27003a8d83&source=iheart",
+  "speakers": {
+    "1": "Joe Weisenthal（主持）",
+    "2": "Tracy Alloway（主持）",
+    "3": "Kyle Chan（嘉宾）"
+  },
+  "turn_count": 103,
+  "turns": [
+    {
+      "i": 0,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "00:03",
+      "en": "Bloomberg Audio Studios. Podcasts. Radio. News. Hello and welcome to another episode of the Odd Lots podcast. I'm Joe Weisenthal.",
+      "zh": "Bloomberg Audio Studios。播客。广播。新闻。大家好，欢迎收听新一期的 Odd Lots 播客。我是 Joe Weisenthal。"
+    },
+    {
+      "i": 1,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "00:24",
+      "en": "And I'm Tracy Alouette.",
+      "zh": "我是 Tracy Alloway。"
+    },
+    {
+      "i": 2,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "00:25",
+      "en": "Tracy, we're recording this on November 11th, 2026. earlier we recorded an episode about the whole NVIDIA Megaspeed stuff and trying to wrap our heads a little bit around the, I guess, ecosystem of data centers that serve Chinese companies, many of them based in Southeast Asia specifically. But like, you know, as we sort of, we talked about it a little bit in the conversation that we did is like, there is also this question of like, okay, for now, Chinese AI company is like they want to get access to NVIDIA GPUs one way or another. Is that always going to be the case? Or eventually will China, you know, we're seeing a little bit, you know, China has Huawei and Ascend. Like eventually, could it just be that this race to get American GPUs is not as intense as it used to be?",
+      "zh": "Tracy，我们这期节目是在 2026 年 11 月 11 日录制的。稍早我们录了一期讲整个 NVIDIA Megaspeed 事件的节目，试图理清一下服务于中国公司（其中很多总部设在东南亚）的数据中心生态系统。但正如我们在上一次谈话里聊到的，还有一个问题：目前中国 AI 公司想通过某种方式拿到 NVIDIA GPU，这种情况会一直持续下去吗？还是说，最终中国——我们其实已经看到一些端倪，中国有 Huawei 和 Ascend——最终这场争抢美国 GPU 的竞赛会不会没这么白热化了？"
+    },
+    {
+      "i": 3,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "01:15",
+      "en": "Yeah, I think when you look at China's technological development, I mean, the long arc of history has kind of pointed towards vertical integration and self-reliance. Self-reliance sounds like a Communist Party slogan. Technological self-reliance. But I think it's true, right? And the thing with AI that we keep hearing out of China is this idea of diffusion, right? And so it's really interesting to see some companies that you wouldn't necessarily expect. They're not just developing their own models, but they're also... developing their own components for those models.",
+      "zh": "是啊，我觉得从中国的科技发展来看，历史的长弧一直指向垂直整合和自力更生。'自力更生'听起来像是共产党的口号——'科技自立自强'。但我觉得这话没错。而关于 AI，我们从中国一直听到的一个说法是'扩散'（diffusion）。所以看到一些你可能想不到的公司也在做这件事真的很有意思——他们不只是在开发自己的模型，还在为这些模型开发自己的零部件。"
+    },
+    {
+      "i": 4,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "01:52",
+      "en": "Totally.",
+      "zh": "没错。"
+    },
+    {
+      "i": 5,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "01:53",
+      "en": "Yeah.",
+      "zh": "嗯。"
+    },
+    {
+      "i": 6,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "01:53",
+      "en": "And this is so, you know, yeah, because we were in Hong Kong earlier this year. I remember we did that episode with the CFO of Baidu. Yeah. You know, I know that like Baidu like has their own LLM. It's called Ernie. You don't hear about it very much.",
+      "zh": "说到这个，是的——因为我们今年早些时候去了香港。我记得我们做了那期跟 Baidu CFO 的节目。你知道，Baidu 有自己的大语言模型，叫 Ernie（文心）。你其实不太听得到它的消息。"
+    },
+    {
+      "i": 7,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "02:08",
+      "en": "But I didn't know it was called Ernie.",
+      "zh": "但我都不知道它叫 Ernie。"
+    },
+    {
+      "i": 8,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "02:09",
+      "en": "Yeah.",
+      "zh": "嗯。"
+    },
+    {
+      "i": 9,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "02:10",
+      "en": "But like you don't hear about it that much. It's not one of the ones that gets like that much attention. But like here is a classic example of like, you know, they have a chip design business. They have a data center business. They have the search engine business. They have the LLM model. They have self-driving cars, this sort of full-stack integration, so to speak. When you said the arc of history, the thing that I think of is if there is something that gets built, if it is a built product— there's a good chance that in the future it'll be built in China. You know what I'm saying? Anything that is physical, there's a good chance that either currently or at least on the trajectory the world is going in right now, it will have been built in China.",
+      "zh": "但你其实不太听到关于它的消息，它不是那种受到很多关注的模型。但这是一个非常典型的例子：他们有芯片设计业务，有数据中心业务，有搜索引擎业务，有大语言模型，有自动驾驶汽车——可以说是全栈整合。你说到'历史的长弧'，我想到的是：只要是一件被'造出来'的东西、一件实体产品，将来大概率会是在中国造的。你懂我意思吗？任何实体的东西，无论是当下，还是至少从现在世界发展的轨迹来看，大概率都会是在中国造的。"
+    },
+    {
+      "i": 10,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "02:53",
+      "en": "But that also reminds me, so one of the main tensions when it comes to China manufacturing or technology production is like, okay, yeah, they build things really efficiently and cheaply and maybe better than a lot of other people do, but. Often they don't make that much money by doing so, right? Because you have the classic overcapacity problem where like the Chinese government will say, we want you all to go develop your own chips. And then suddenly there's like a billion chip developers or EV manufacturers or whatever. And then also it seems like Chinese investors, I don't know if they've just gotten comfortable with like lackluster.",
+      "zh": "但这也让我想起，中国制造业或科技生产领域的一个主要张力是：好，是的，他们造东西效率很高、成本很低，可能比很多其他地方造得都好，但——他们往往并不因此赚多少钱，对吧？因为有那个经典的产能过剩问题：政府会说'我们希望你们都去开发自己的芯片'，然后突然就冒出十亿家芯片开发商、电动车厂商，或者诸如此类。而且看起来中国投资者，我不知道他们是不是已经习惯了不温不火的——"
+    },
+    {
+      "i": 11,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "03:29",
+      "en": "Returns or what. I've read so many Galaxy brain takes about why like, or I don't know if they're Galaxy brain takes, but takes about how You know, all these companies are doing so well, but the stocks never go anywhere. And it's like, you know what? Maybe I'll just give up trying to understand that question. Can I say one more thing about China's manufacturing prowess? So I bought these headphones.",
+      "zh": "回报率之类的。我读过好多'银河脑'式的分析——不知道算不算银河脑——讲为什么所有这些公司都做得这么好，可股价却永远不动。你知道吗？也许我就放弃理解这个问题好了。我还能再说一件事，关于中国的制造能力吗？我买了这副耳机。"
+    },
+    {
+      "i": 12,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "03:49",
+      "en": "You need to do your China maxing disclaimer.",
+      "zh": "你得来一段'China maxing'（中国吹）的免责声明。"
+    },
+    {
+      "i": 13,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "03:52",
+      "en": "No, no, no.",
+      "zh": "不不不。"
+    },
+    {
+      "i": 14,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "03:53",
+      "en": "I went to China once and now I'm totally China tech AI pills.",
+      "zh": "'我去过一次中国，现在我彻底被中国科技 AI 洗脑了。'"
+    },
+    {
+      "i": 15,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "03:57",
+      "en": "I was going to say the opposite, which is I bought these headphones. They broke recently. They seem to be as good as Beats headphones. Like they were like, oh, these are as good as beads. So they cost me like in whatever the equivalent of $ 25. They broke.",
+      "zh": "我本来要说的正相反：我买了这副耳机，最近坏了。它们看起来跟 Beats 耳机一样好——就是那种'哦，这跟 Beats 差不多'的评价。花了大概相当于 25 美元吧。它们坏了。"
+    },
+    {
+      "i": 16,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "04:11",
+      "en": "That's interesting. I have a bunch of random China made tech and it's doing pretty. I showed you that back massager with the little hands. That thing, I use it like every night before I go to bed and it's great.",
+      "zh": "有意思。我有一堆乱七八糟的中国制造科技产品，用得挺好的。我给你看过那个带小手的背部按摩器。那玩意儿我每天晚上睡前都用，非常棒。"
+    },
+    {
+      "i": 17,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "04:23",
+      "en": "Oh, I have an eye massager.",
+      "zh": "哦，我有一个眼部按摩仪。"
+    },
+    {
+      "i": 18,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "04:24",
+      "en": "You have the eye massager.",
+      "zh": "你有眼部按摩仪。"
+    },
+    {
+      "i": 19,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "04:25",
+      "en": "Wait, I'm going to say another thing too, actually.",
+      "zh": "等等，我其实还要说另一件事。"
+    },
+    {
+      "i": 20,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "04:27",
+      "en": "Did your eye massager break?",
+      "zh": "你的眼部按摩仪坏了吗？"
+    },
+    {
+      "i": 21,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "04:28",
+      "en": "No, that still works. But, you know, I bought him a pair of leaning running shoes.",
+      "zh": "没坏，还能用。但是，你知道吗，我给他买了一双李宁（Li-Ning）跑鞋。"
+    },
+    {
+      "i": 22,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "04:33",
+      "en": "Oh, yeah.",
+      "zh": "哦对。"
+    },
+    {
+      "i": 23,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "04:34",
+      "en": "They sort of squeak. Oh, no, you said this before.",
+      "zh": "它们有点吱吱响。哦不，你之前说过这个。"
+    },
+    {
+      "i": 24,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "04:36",
+      "en": "Yeah.",
+      "zh": "嗯。"
+    },
+    {
+      "i": 25,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "04:37",
+      "en": "So it's like, I don't know. I'm like, I don't know. Maybe I should still just stick to some of these American brands. All right.",
+      "zh": "所以就是，我不知道。我想，我不知道。也许我还是应该坚持用美国品牌吧。好了。"
+    },
+    {
+      "i": 26,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "04:46",
+      "en": "We've turned this into a product review episode, which we didn't mean to do.",
+      "zh": "我们把这个变成一期产品评测节目了，这可不是我们的本意。"
+    },
+    {
+      "i": 27,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "04:50",
+      "en": "Let's get to the perfect guest. Let's talk to, we really do have the perfect guest. Sort of talking to some pretty high stakes questions, actually, about future Chinese manufacturing chips, all of that. Someone whose work we've admired for a long time and have wanted to have on the podcast for a long time. And now it's timely. We're going to be speaking with Kyle Chan. He's a fellow at Brookings. He also has a newsletter called High Capacity. He talks about all of these things. So Kyle, thank you so much for coming on the podcast.",
+      "zh": "让我们进入正题，聊聊这位完美的嘉宾。我们真的请到了最完美的嘉宾，来谈一些其实非常高风险的问题——关于中国制造业的未来、芯片等等。是一位我们仰慕已久、一直想请来节目的人，而现在正是时候。我们要对话的是 Kyle Chan。他是 Brookings 的研究员，还有一份叫 High Capacity 的通讯，谈的就是这些话题。Kyle，非常感谢你上我们的节目。"
+    },
+    {
+      "i": 28,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "05:15",
+      "en": "Great to be on.",
+      "zh": "很高兴来到节目。"
+    },
+    {
+      "i": 29,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "05:16",
+      "en": "Just for those who don't know, we've followed your work for a while. Tell us a little bit about the type of work that you do. Why are we talking to you today?",
+      "zh": "给不了解你的听众介绍一下，我们跟踪你的研究已经有一段时间了。跟我们讲讲你做的是什么类型的工作，为什么我们今天请你来？"
+    },
+    {
+      "i": 30,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "05:25",
+      "en": "Good question. So I focus on Chinese technology and industrial policy. And I think I started doing this before it was cool, I would want to say, but now it is very much in vogue. And the question here is not just sort of like looking at individual technologies. I think we're all familiar with the rise of Chinese EVs or Chinese models that look almost as good as some of the American ones. But there's a bigger story underlying all this, which is sort of this nexus of the firms that are pioneering a lot of this technology, the government that is trying to promote this, the local governments and the central government and the industrial policy activist strategy to make a dent in some of these areas, and then to tie it all together. That's sort of like the big picture question that I have, which is, don't just see these as individual sectors and individual companies, but how do they actually have all these spillovers? Are those spillovers deliberate? How do the EVs companies feed into the robotics industry or into the semiconductor industry and vice versa.",
+      "zh": "好问题。我关注的是中国科技和产业政策。我想我在这个领域变'酷'之前就开始做了——虽然现在它非常时髦。这里的问题不只是看单项技术。我想大家都熟悉中国电动车的崛起，或者中国模型看起来几乎和美国的一样好。但底层其实有一个更大的故事，就是这些开拓前沿科技的公司、试图推动这一切的政府（地方政府和中央政府）、以及在这些领域力求突破的产业政策倡导者之间的交汇点。把它们串在一起——这就是我关心的宏观问题：不要只把它们看作一个个独立的行业、一家家独立的公司，而是它们之间到底存在哪些外溢效应？这些外溢是刻意为之的吗？电动车公司如何反哺机器人行业或半导体行业，反之亦然。"
+    },
+    {
+      "i": 31,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "06:32",
+      "en": "So on this nexus point, in some of your writings, you have these epic Venn diagrams. I don't know, do they even qualify as Venn diagrams when you have like 30 circles overlapping each other? But the point is that you have all these different industries or tech businesses in China that on the surface seem to be doing specific things. So maybe one of them is doing... autonomous vehicles. Another one is doing EVs. Another one is doing robots, semiconductors. But when you start to look at the relationships between them, you can see that they're actually overlapping. And I guess they're drawing on expertise in one area to develop other types of technology. Walk us through that particular ecosystem as your very complicated Venn diagrams as you see it.",
+      "zh": "关于这个'交汇点'，你在一些文章里画过那种史诗级的 Venn 图。我不知道，当有 30 个圆圈互相重叠时还能算 Venn 图吗？但重点是，中国有这么多不同的行业或科技企业，表面上看各自在做具体的事情：一家做自动驾驶，一家做电动车，一家做机器人，一家做半导体。但当你开始看它们之间的关系，会发现它们其实是重叠的，我猜它们是在利用一个领域的专长来发展其他类型的技术。请你按你那张非常复杂的 Venn 图，带我们走一遍这个生态系统。"
+    },
+    {
+      "i": 32,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "07:22",
+      "en": "So for those who are not looking at this very messy, complex diagram, It has a bunch of these circles. A typical Venn diagram might have two. This has more than a dozen. And there are different technologies like electric vehicles, batteries, robotics, smartphones, consumer electronics, AI, blah, blah, blah. And they all overlap. So the point here is that they're companies. They're literally specific firms that sit at the intersection of these different sort of circles. There is BYD, for example, who I think we mostly know as an EV company. But, you know, they sort of got started as a battery maker, actually. And that's partly why they became such a powerful EV company. And they also make their own chips. They're getting into autonomous driving. So they're sort of one part of it. Also robotics as well. Xiaomi, the smartphone company, I think to a lot of people who are familiar with them, known for cheap smartphones and cheap consumer devices. electronics, household appliances, stuff like that, air purifiers. I used to have a Xiaomi air purifier. It was okay. It might have squeaked too. But then they jumped into electric vehicles. And some people are like, wow, Leijun, the founder of Xiaomi, is such a visionary. He took this big bet. But also, he was drawing on a kind of supply chain foundation and a sort of pool of expertise and resources that already existed in China and Partly due to these other sectors that have, you know, flourished for a while now.",
+      "zh": "对于那些没看到这张非常凌乱、复杂的图的人来说：图上有一堆圆圈。典型的 Venn 图可能只有两个圈，我这有十几个。分别代表电动车、电池、机器人、智能手机、消费电子、AI 等等各种技术，它们彼此都有重叠。要点是，有一些公司，是实实在在的具体企业，正好坐落在这些不同圆圈的交汇处。比如 BYD，我们大多把它当成一家电动车公司。但他们其实最早是做电池起家的，这也是他们能成为如此强大的电动车公司的部分原因。他们还自己造芯片，正在进军自动驾驶。所以他们算是其中一部分，机器人业务也有。再比如 Xiaomi，这家智能手机公司，我想对熟悉他们的人来说，他们以廉价智能手机和廉价消费电子产品、家电（比如空气净化器）闻名。我以前就有一台 Xiaomi 的空气净化器。还行，可能也会吱吱响。但后来他们一头扎进了电动车行业。有些人说，哇，Xiaomi 创始人 Lei Jun（雷军）真是有远见，敢下这么大注。但同时，他也是在中国已有的供应链基础和人才、资源池上做的这个决定，而这些资源池部分正是得益于其他已经繁荣了一段时间的行业。"
+    },
+    {
+      "i": 33,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "08:49",
+      "en": "From an American perspective, think about big global industrial competition. The Xiaomi story, I find to be a little bit black pilling from the American perspective, because when it when Xiaomi came out, that was when, you know, when we first heard about this company, Xiaomi, the iPhone was like in ascendance. But in the 2010s, at one point, Apple was looking for the next thing and like, oh, maybe we'll make cars. And then they didn't. And that fizzled. And then Xiaomi not only makes cars, but seemingly makes very good cars. And so you think, like, Apple could not go from phones to cars, but Xiaomi can. Apparently, all these other things. Now, just real quickly, like, I'm looking at your Venn diagram, and American companies are kind of getting into, like, they're not that different right now. I mean, we know, like, you know, Amazon... they have their own chips that they design, Trinium. Microsoft designs chips. OpenAI wants to design chips. I think Anthropic wants to design chips, etc. Alphabet obviously has the self-driving cars, etc. How much of this would you confidently say this is a Chinese tech thing versus a in-2026 all big tech companies are kind of going to have to compete at every level or want to compete at every level?",
+      "zh": "从美国视角看全球大型产业竞争，我觉得 Xiaomi 的故事从美国角度看有点让人泄气。因为当 Xiaomi 出现的时候，也就是我们第一次听说这家公司的时候，iPhone 正如日中天。但在 2010 年代某个时候，Apple 在寻找下一个大事件，说'哦，也许我们造车吧'。然后他们没造，这件事就不了了之。而 Xiaomi 不仅造车，看起来还造得非常好。所以你会想，Apple 无法从手机跨越到汽车，但 Xiaomi 显然能跨越到所有这些东西。快速看一下你的 Venn 图，美国公司其实现在也在做类似的事——差别并没有那么大。我们知道 Amazon 有自己的芯片设计 Trainium。Microsoft 设计芯片。OpenAI 想设计芯片。我想 Anthropic 也想设计芯片，等等。Alphabet 显然有自动驾驶汽车等等。你会多大程度上有把握说这是'中国科技公司'独有的现象，还是说'2026 年所有大型科技公司都必须/希望在每个层面竞争'？"
+    },
+    {
+      "i": 34,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "10:06",
+      "en": "It's a bit of both for sure, because as you point out, we see some of this happening in the U.S.",
+      "zh": "两者都有一些，肯定是的，因为正如你指出的，我们在美国——"
+    },
+    {
+      "i": 35,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "10:11",
+      "en": "Tech sector.",
+      "zh": "科技行业——"
+    },
+    {
+      "i": 36,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "10:12",
+      "en": "You just have like Google going into autonomous driving, robotics, making their own TPUs, doing this full-stack approach. And some people compare them to Alibaba, which you can almost level by level match up each layer of the stack. What I think is different in the Chinese case are two things. One is just the number of companies that are doing this. It's not just a small handful that are doing this full-stack approach. It seems like even food delivery companies are jumping into making their own foundation AI models. And you have smartphone companies like Xiaomi making their own chips and foundation models as well. So that's one thing that's different. The other thing that's really different is that these are kind of like more full stack in terms of the actual manufacturing of the hardware itself, right? So ultimately, when Meta makes their VR goggles, I think a lot of that is outsourced. The actual manufacturing is outsourced, including partly to China. Whereas some of these other companies in China... They're controlling the factories. They're building even further down to the components. So I think that's another difference.",
+      "zh": "也看到类似情况。Google 进军自动驾驶、机器人、自己造 TPU，走全栈路线。有人把他们跟 Alibaba 相比，你几乎可以逐层对应上每一层的技术栈。但我觉得中国情况的不同之处有两点。第一，是这样做的公司的数量。不只是少数几家在走全栈路线。看起来连外卖公司都在跳进来开发自己的基础 AI 模型。你还有像 Xiaomi 这样的智能手机公司，也在做自己的芯片和基础模型。这是第一个不同点。另一个真正不同的是，中国这些公司在硬件本身的制造层面也更加全栈，对吧？毕竟当 Meta 造他们的 VR 头显时，我认为很大一部分是外包的——实际的制造被外包出去了，其中一部分就是外包给中国。而中国这些公司中的另外一些，他们控制着工厂，甚至更深入到零部件层面。所以我觉得这是另一个不同点。"
+    },
+    {
+      "i": 37,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "11:20",
+      "en": "What would you argue are the driving forces for Chinese companies doing this? Is it just a sort of, I guess, natural progression? This reminds me very much of the Ricardo Hausmann monkey swinging from trees thing where you have like one industry and then it leads to the next industry and it sort of builds on itself. But then in China, you also have to your professional expertise, a lot of industrial policy where the ruling authorities will come out and they'll say, hey, we don't want so many like digital internet companies or such an emphasis on them. We want everyone to move into making.",
+      "zh": "你会认为驱动中国公司这么做的力量是什么？是不是只是一种自然的演进？这让我非常想起 Ricardo Hausmann 讲的'猴子在树间荡来荡去'——你有一个行业，然后它引向下一个行业，如此自我积累。但在中国，还有你的专业领域——大量的产业政策，执政当局会出来说'嘿，我们不希望有这么多数字互联网公司，或者不希望在这方面投入这么多，我们希望大家转去做制造'。"
+    },
+    {
+      "i": 38,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "11:56",
+      "en": "Like actual hardware.",
+      "zh": "做真正的硬件。"
+    },
+    {
+      "i": 39,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "11:58",
+      "en": "And you get very strong signals from the Chinese government about what matters to them at any given point in time.",
+      "zh": "你会从中国政府在任何一个时点关注什么，收到非常强烈的信号。"
+    },
+    {
+      "i": 40,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "12:05",
+      "en": "Absolutely. Yeah, the way I would break it down is kind of demand versus supply side factors. By supply side, I mean like the resources, the supply chains, and the talent that exists to be able to jump into one of these sectors, especially if you are already in an adjacent sector. So that's your housemen monkeys jumping across different trees. I think that's a really apt analogy for what we see with Chinese tech companies themselves. They're jumping from tree to tree, not making a huge leap into quantum or something like that, but into kind of adjacent overlapping industries. And then on the Demand side, right, there are reasons to want to move away from a low margin industry like EVs and try to tap into maybe the next big thing, maybe robotics or some other faster growing market. And then, of course, you know, as you're pointing out, there is the government itself, right? Like I have a line where it's like for a lot of things in China, including in China tech, it's the government stupid, right? That is such a crucial factor in all of this. And to ignore that would be to kind of miss the bigger political economy, which is really crucial in China. And so here you have signals from the government, both positive and negative. And I think the positive signals include identifying priority areas that companies, that local governments, that ministries and agencies should focus on. There's a five-year plan that comes out, and it literally lists out what some of these priority areas are, whether they're chips, AI, robotics. also sort of industries of the future, quantum fusion, biotech, brain-computer interface, whatever Elon is up to, it's probably on that list. So you have sort of those positive signals and that tells the firms, if you go in this direction, that will unlock a whole bunch of resources for you, whether it is local government support or whether it is special state-backed investment funds targeting those sectors. So you kind of want to swim with the current rather than against. And there's also negative signals too, right? So a negative signal is a crackdown on the hedge fund industry in China. And in some ways, this is a bit of a tenuous link, but some people hypothesize that one reason why DeepSeek even started to go into the whole AI space was partly because they felt pressure being a traditional financial institution.",
+      "zh": "绝对是。是的，我会把它拆成需求侧和供给侧两类因素。供给侧我指的是资源、供应链和人才储备，让你能跳进某个行业，尤其是当你已经在相邻行业时。这就是 Hausmann 讲的猴子在不同树之间跳。我觉得这个比喻非常贴切地形容了我们在中国科技公司身上看到的现象——它们从一棵树跳到另一棵树，不是大跨步跳进量子之类的领域，而是跳进相邻、重叠的行业。然后在需求侧，有理由希望摆脱像电动车这样的低利润率行业，去抓住下一个大风口，比如机器人或者其他增长更快的市场。当然，还有你指出的政府本身。我有一句话：在中国很多事情上，包括中国科技领域，'笨蛋，是政府'（it's the government, stupid）——这是所有这一切中至关重要的一环。忽略它就等于错过了中国真正的政治经济脉络。所以你会看到政府发出的信号，有正面的，也有负面的。我认为正面信号包括识别出优先领域——公司、地方政府、部委和机构应该聚焦的方向。有一份五年规划出台，它明确列出了这些优先领域，无论是芯片、AI、机器人，还是所谓的'未来产业'——量子、聚变、生物科技、脑机接口——不管 Elon 在搞什么，大概率都在那个清单上。所以你得到这些正面信号，它告诉企业：如果你走这个方向，将为你解锁一大批资源，无论是地方政府的支持，还是专门针对这些领域的国家级投资基金。所以你更想顺着水流游，而不是逆流而上。当然还有负面信号。负面信号的一个例子是中国对对冲基金行业的整顿。这在某种程度上是一个略微勉强的联系，但有人推测，DeepSeek 之所以开始进入整个 AI 领域，部分原因是他们作为一家传统金融机构感受到了压力。"
+    },
+    {
+      "i": 41,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "14:41",
+      "en": "And I'm just looking at your Venn diagram. ByteDance, do they have a smartphone?",
+      "zh": "我在看你的 Venn 图。ByteDance 有智能手机吗？"
+    },
+    {
+      "i": 42,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "14:45",
+      "en": "They were working with actually ZTE on this agentic smartphone. It had a little bit of controversy, though, because it was supposed to be able to operate apps on your phone like a normal person would. But then and this is like a classic Chinese story. They got blocked by a lot of the major Chinese platforms because they wanted their own control and they wanted their own agents to kind of take over, like Tencent.",
+      "zh": "他们其实在跟 ZTE 合作做一款 agentic 智能手机。不过这里面有点争议，因为它本来应该能像普通人一样操作你手机上的应用。但——这是一个典型的中国故事——他们被很多中国大平台给封了，因为这些平台想要自己掌控，想要自己的智能体来接管，比如 Tencent。"
+    },
+    {
+      "i": 43,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "15:08",
+      "en": "This is going to be a big deal with all agentic stuff, which is no one wants... I mean, there's already a knife fight happening with agentic commerce where no one wants to just be a passive door for someone else. This is like the walled garden stuff all over again. There's going to be a lot of that. Okay, so I'm looking at your Megavend diagram and in the middle... Like the beating heart, and that is in almost everything, is Huawei. And obviously, it's interesting that they're in basically everything that you have listed here. But it's particularly crucial when we're talking about AI. We know that one of the ingredients is chips, and we wouldn't even be talking about chips. a company called Megaspeed getting NVIDIA chips. We wouldn't be talking about chip smuggling. We wouldn't be talking about export controls or any of this if Huawei had enough capacity to make good enough chips to compete with NVIDIA. Why don't you give us like right now your read on where Huawei is today, both in terms of their capabilities and their capacity to produce them and their scale?",
+      "zh": "这在所有 agentic 领域都会是大问题：没人愿意只是……我的意思是，agentic commerce（智能体商务）里已经有一场刀光剑影了，没人愿意只做一个被别人推开的门。这就是'围墙花园'（walled garden）那套东西的翻版，将来还会有很多这样的博弈。好，那我在看你的 Mega Venn 图，正中间——那颗跳动的心脏，几乎出现在所有圆圈里的，是 Huawei。显然，很有意思的是他们出现在你列出的几乎所有东西里。但尤其在讨论 AI 时，这一点至关重要。我们知道其中一个要素是芯片，如果 Huawei 有足够的产能造出足够好、能与 NVIDIA 竞争的芯片的话，我们甚至都不会去谈一家叫 Megaspeed 的公司拿 NVIDIA 芯片的事，不会谈芯片走私，不会谈出口管制，或者任何这些。请你现在给我们讲讲，你对 Huawei 目前状况的判断，无论是能力方面，还是产能和规模方面。"
+    },
+    {
+      "i": 44,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "16:11",
+      "en": "Yeah. So up until now, The main problem was getting Huawei's AI chips, the Ascend series, to be reliable enough and functional enough to be used by Chinese AI companies who had grown up building on NVIDIA and the NVIDIA CUDA ecosystem. So there was a long process where you did not have that entire sort of library of software that had been optimized for CUDA. You didn't have that equivalent for Huawei's sort of ecosystem. And they have been trying to build this up, but they had this sort of chicken and egg problem, which is that they didn't have the user base to contribute and build that up. And because they didn't have the libraries, they couldn't track the user base. So they had this chicken and egg problem. But now, in part, thanks to the export controls and restricted access on NVIDIA GPUs, there's been a push, especially from Beijing, to close the loop on this relationship and get the Chinese AI companies to work with the AI chip makers, especially Huawei, to sort of almost co-design future hardware. And in particular, you have a really tight partnership between DeepSeek and Huawei, where they literally have personnel situated at each other's companies. They have a lot of intensive sort of technical back and forth trying to figure out how to have these chips run, at least for inference, for DeepSeek models. And you see actually now increasingly other Chinese AI companies announcing that their latest models, like Z.AI's latest models, are on day one ready for running on Huawei chips as well as other domestic AI chips in China. And then more recently, we have this push for the training side, right? So up until now, the Huawei Ascend chips were good enough for inference, but were not quite good enough for training, especially for these really massive two, three trillion parameter models. And Huawei have been trying to improve not just their capabilities at the single chip level, but try to leverage their expertise as a networking technology company to bundle more of these chips together, to tightly connect them together, and to kind of make up for what they lacked in quality with quantity. So these chips were less efficient, they were less powerful on an individual chip basis, but you could bundle them together and you could start to build up these sort of super pods. And the goal there was to build up enough sort of compute capacity that was concentrated that you could run a large pre-training run successfully. And so that's the tipping point I think we're starting to see with the Chinese AI models. And there's rumors that the next DeepSeek model, for example, will be fully pre-trained on Huawei chips. Okay, so that's sort of like, on the capability side. But then there's a production capacity side, which is another story altogether. Because basically, even if you're trying to do this sort of quality for quantity trade-off, you do need enough quantity. You do need enough volume of chips in order to satisfy all that demand. And at this point, Huawei is constrained. So Huawei works a lot with SMIC. SMIC is sort of like the premier foundry in China for chip making. They are kind of like the analog of TSMC. And they are limited by their equipment, by the lithography machines that they have, and by their own supply chains. So Huawei has been working closely with them, but they have limited capacity. And a lot of their capacity is actually allocated towards Huawei. Huawei itself has been leading its own efforts to build kind of a separate network of fabs, also trying to supply its own sort of chip needs. And that is still sort of ramping up as well. And so the big question is, how quickly can you get that production scale up over time? And how limited is that by not just the number of fabs you have, but the equipment that goes into them by, for example, lithography machines, especially DUV immersion machines that largely at this point still come from ASML in the Netherlands. And then there's also the HBM bottleneck as well. You have Chinese companies like CSMT trying to move from DRAM into HBM. And while they still lag behind the big three, Heineck, Samsung, and Micron, they're trying to, in the next two to three years, trying to get to at least good enough HBM to then pair up with Huawei chips. But at this point, there's even been reporting that Huawei is saying to customers like, we can make the NPUs, the neural processing units, but it's sort of BYOH, bring your own HBM. You're going to have to source that from elsewhere. So that's another bottleneck in the near term.",
+      "zh": "好的。到目前为止，主要问题一直是让 Huawei 的 AI 芯片——Ascend 系列——足够可靠、足够可用，能被那些成长于 NVIDIA 和 NVIDIA CUDA 生态系统之上的中国 AI 公司使用。所以有一段漫长的过程，你没有那整套为 CUDA 优化过的软件库，Huawei 生态里没有对等的东西。他们一直在努力搭建，但面临一个先有鸡还是先有蛋的问题：他们没有用户群来贡献和搭建这些库，而没有库又无法吸引用户群。所以就是这种先有鸡还是先有蛋的困境。但现在，部分得益于对 NVIDIA GPU 的出口管制和访问限制，尤其是北京方面一直在推动闭环——让中国 AI 公司与 AI 芯片厂商（特别是 Huawei）合作，几乎可以说是共同设计未来的硬件。特别是 DeepSeek 和 Huawei 之间有一个非常紧密的合作关系，他们真的把员工派驻到对方公司。他们有大量密集的技术往来，试图弄清楚如何让这些芯片至少能运行 DeepSeek 模型的推理。你现在也看到越来越多的中国 AI 公司宣布他们最新的模型——比如 Z.AI 的最新模型——在第一天就同时可以在 Huawei 芯片以及其他国产 AI 芯片上运行。然后最近，训练端也开始发力。到目前为止，Huawei Ascend 芯片在推理上够用了，但在训练上还不太够，尤其是那些真正巨大的两三万亿参数的模型。Huawei 一直在努力提升的不仅是单颗芯片的能力，还想利用他们作为网络技术公司的专长，把更多这样的芯片捆绑在一起、紧密连接起来，用数量来弥补质量的不足。所以这些芯片单颗效率较低、性能较弱，但你可以把它们捆绑起来，开始搭建这些'超级 pod'（super pods）。目标是集中足够多的算力，让你能成功完成一次大规模预训练。我觉得这就是我们在看到中国 AI 模型时正在到达的那个临界点。有传言说，下一版 DeepSeek 模型将完全在 Huawei 芯片上预训练。好，这是能力层面。但还有产能层面，那完全是另一个故事。因为基本上，即便你想做这种'以量换质'的权衡，你也需要足够的数量，需要有足够的芯片产量来满足所有这些需求。而目前 Huawei 是受限的。Huawei 与 SMIC 有大量合作。SMIC 有点像中国芯片制造的头部代工厂，是 TSMC 的类比。他们受制于自己的设备、光刻机以及自己的供应链。所以 Huawei 一直和他们紧密合作，但他们的产能有限。而且他们很大一部分产能实际上是分配给 Huawei 的。Huawei 自己也在牵头建设另一套晶圆厂网络，试图满足自己的芯片需求，这也还在爬坡中。所以一个大问题是：你能多快把生产规模提上来？而这一方面受限于你有多少晶圆厂，另一方面也受限于厂里的设备，比如光刻机——尤其是 DUV 浸没式光刻机，目前主要还是来自荷兰的 ASML。此外还有 HBM 瓶颈。像 CSMT（长鑫存储）这样的中国公司正在试图从 DRAM 转向 HBM。虽然他们仍然落后于三巨头——SK Hynix、Samsung 和 Micron——但他们试图在未来两三年内做到至少'够用'的 HBM，以搭配 Huawei 的芯片。但目前甚至有报道称，Huawei 对客户说：我们能造 NPU（神经处理单元），但基本上是 BYOH——自带 HBM（bring your own HBM）。你得自己从别处采购。所以这在近期又是一个瓶颈。"
+    },
+    {
+      "i": 45,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "21:02",
+      "en": "Yeah.",
+      "zh": "嗯。"
+    },
+    {
+      "i": 46,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "21:03",
+      "en": "So that's sort of where we stand in terms of shifting capabilities, but then also the bottlenecks on the production side.",
+      "zh": "所以这就是我们在能力方面的进展，以及生产端的瓶颈现状。"
+    },
+    {
+      "i": 47,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "21:08",
+      "en": "This is sort of a tangential question, but on the other hand, I think it's actually a very fundamental question. When you look at the export controls around chips, the U.S. export controls, there was an argument when these first started being applied that this was going to, I think people called it the sort of like three-body effect, that it was going to have the effect of speeding up China's own technological development and lending even more of a sense of urgency to develop their own chip competitors. When you look at what's happening with Huawei chips now, does it feel like that's happened, that China has had its kind of Sputnik moment, I guess?",
+      "zh": "这算是一个枝节问题，但另一方面我觉得其实是非常根本的问题。当你看芯片的出口管制——美国的出口管制——刚开始实施的时候有一种说法，我记得人们称之为'三体效应'，就是这会加速中国自己的科技发展，让他们更有紧迫感去开发自己的芯片竞品。看看现在 Huawei 芯片的进展，你觉得这种情况发生了吗？中国迎来自己的'史普尼克时刻'（Sputnik moment）了吗？"
+    },
+    {
+      "i": 48,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "21:46",
+      "en": "Yeah, absolutely. So I think that US expert trolls had a massively galvanizing effect on China's push for semiconductor self-reliance. People who argue against that point to the fact that China has had a longer effort predating U.S. export controls to try to develop their own sort of national chip industry. You have national semiconductor plants going back into the 2010s. But what's really different here is sort of this full-stack effort to build not just the chips, but the equipment, the materials, the photoresists, the etch-and-deposition equipment, to build up the entire supply chain. China is almost trying to replicate the entire global semiconductor supply chain in China, which I don't think any country has ever done before. And some indicators of how big a switch this has been is lithography. Lithography was one area that China had really deprioritized for a long time. They had not really invested in building up that capability. I think largely because they expected to be able to have access to lithography machines for the foreseeable future. And when that switch happened, when, for example, during the first Trump administration, you got the effective ban on EUV lithography machines from ASNL to China, that was a huge wake-up call because that basically capped the ability of Chinese chip makers to make chips of a certain process node, of a certain kind of scale and degree performance that It was a huge moment. It basically kind of limited China's chip ambitions as long as they were reliant on the rest of the world. And so from then on, you see this long-term effort and building lithography machines in particular requires a very long-term sustained effort. But you have this long-term effort and especially pioneered by Huawei, who not ironically was the main target of a lot of these expert controls from the U.S., to figure this whole thing out by hook or by crook, by trying to recruit engineers from all around the world, including from ASML, by investing in the R & D in a couple of different sites. There's one rumored site in Shenzhen where there's supposedly an EUV lithography machine prototype in the works. So all these efforts are a sign that China's kind of like switched from, yeah, we should probably make our own chips to we must at all costs. And it's priority number one on the five-year plans.",
+      "zh": "是的，绝对是。我认为美国的出口管制对中国推动半导体自力更生起到了极大的激励作用。反对这个观点的人会指出，早在美国出口管制之前，中国就已经在努力打造自己的国家级芯片产业。你可以追溯到 2010 年代的国家半导体规划。但真正不同的是，这次是一种全栈努力——不仅是芯片本身，还有设备、材料、光刻胶、蚀刻与沉积设备，要把整个供应链都建起来。中国几乎是在试图在国内复制整个全球半导体供应链——我认为这是任何国家以前都没做过的事情。这次转向有多大，一个指标是光刻。光刻是中国长期以来一直真正低优先级的领域。他们没有真正投资去建这个能力，我想很大程度上是因为他们预计在可预见的未来都能获得光刻机。而当这个转变发生时——比如在 Trump 第一任期内，你实际上遭到了对 ASML 向中国出口 EUV 光刻机的禁令——那是一个巨大的警钟，因为这基本上限制了中国芯片厂商制造某种制程节点、某种规模和性能的芯片的能力。这是一个巨大的时刻。它基本上限制了中国只要还依赖世界其他地方，芯片野心就到顶了。所以从那时起，你看到了这种长期努力。造光刻机特别需要非常长期的持续投入。而这一长期努力尤其是由 Huawei 牵头，讽刺的是他们正是美国这些出口管制的主要目标。他们想尽办法要把这件事搞成——从全球各地招募工程师，包括从 ASML，在好几个地方投资研发。传言中有一个地点在深圳，据说那里正在开发一台 EUV 光刻机的原型机。所有这些努力都表明，中国已经从'是的，我们大概应该造自己的芯片'，转向了'我们必须不惜一切代价造出来'。这是五年规划里的头号优先事项。"
+    },
+    {
+      "i": 49,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "24:10",
+      "en": "You like set your sights on being able to match global scale. And eventually you just grind and grind and you get there. And China has obviously done that in several areas and beyond just getting to the frontier, racing past the frontier. Batteries is one of the obvious categories that just comes to mind, just far ahead of the frontier. When it comes to AI models themselves, You know, I understand this impulse. It's like, okay, like use the Huawei chips and let's work together and build up this ecosystem. But at the same time, like, that could potentially entail falling a little bit behind the frontier. And this is a brutal fight for the frontier that is literally measured in months in many cases. And we talk about, you know, the next best models being six months behind or three months behind or whatever it is. Is there a tension with AI specifically where The Chinese model, and here I'm not talking about AI, but the Chinese model of like, let's work on our self-reliance, let's build this network, does have the risk of like, yeah, but what if we do that and now we're nine months behind? Or what if we do that and now we're 12 months behind? And these sacrifices of not just trying to get the NVIDIA chips by hook or by crook are not worth making, even if it's good on a national basis.",
+      "zh": "你把目标定在与全球规模匹敌上，然后你就一直磨啊磨啊，最终到达。中国在好几个领域显然已经做到了这一点，甚至不只是达到前沿，而是超越了前沿。电池就是一个明显的例子——远远跑在前沿之前。至于 AI 模型本身，我理解这种冲动：好，用 Huawei 的芯片，让我们一起把这个生态建起来。但同时，这也可能意味着在前沿上稍微落后一点。而这是一场为前沿而战的残酷竞争，很多情况下是以月来衡量的。我们会说下一版最好的模型落后 6 个月、3 个月之类的。AI 这块是不是存在一种张力？——这里我说的不是 AI，而是中国模式，即'让我们搞自力更生、建这个网络'——这种模式确实有风险：好，我们这么做了，结果落后 9 个月了？或者落后 12 个月了？而这些不去千方百计搞到 NVIDIA 芯片的牺牲，即便从国家层面看是好的，也不值得？"
+    },
+    {
+      "i": 50,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "25:32",
+      "en": "Absolutely. The trade-offs here are really sharp. And there are trade-offs all over the Chinese industrial policy landscape. It's like one of the big themes that I focus on. And in this specific case, you have this trade-off between today, can you close the gap with the US AI frontier? Can you narrow that gap? Or are you focused on tomorrow being able to build a fully self-reliant semiconductor supply chain that may not be completely on par with what TSMC and NVIDIA can produce? but is good enough and will basically allow China to continue to make AI progress regardless of what Washington decides. And I think here what's interesting is the tension between the firms and the government in China. And even across industry in China, there's different views, right? So there are the Chinese AI companies like DeepSeek or Z.AI or Alibaba, who they want to build better and better models. They would probably prefer to just keep building on NVIDIA chips if they could. They are very familiar with that. It doesn't require much extra work. So they're sort of optimized on running on that platform. But Beijing doesn't like that. And for the Chinese central government, the goal is not just to have really incredible models today. The goal is to build up that kind of independence and sovereignty, essentially, in supply chains in the long run. So you see this tension where you have the Chinese ad companies clamoring to get the H200s that Trump allowed to be exported to China. They seem very eager. They were putting in their orders. They were trying to negotiate how much they could get. And you have Beijing itself saying, hold on, hold on, hold on. We don't want so many of these NVIDIA GPUs. We want to focus... We want you guys to focus on partnering with domestic chip makers in China to close that loop and to help them make their chips better. And of course, there's this agreement within the industry in China because the AI companies want to run faster on the models. But of course, all the chip makers, they love the export controls and they love Beijing's push for self-reliance because they have seen an astronomical surge in demand for their chips that didn't exist before.",
+      "zh": "绝对是。这里的权衡非常尖锐。整个中国产业政策版图上都有这样的权衡，这是我关注的一大主题。在这个具体案例中，你面对的权衡是：今天你能不能缩小与美国 AI 前沿的差距？还是你专注于明天——建立一个完全自力更生的半导体供应链，可能不完全能与 TSMC 和 NVIDIA 的产出比肩，但足够用，基本上能让中国继续推进 AI 进展，无论华盛顿决定做什么。我觉得有意思的是这里企业和政府之间的张力。甚至在中国产业内部，也有不同看法。像 DeepSeek、Z.AI 或 Alibaba 这样的中国 AI 公司，他们想造越来越好的模型。如果可以，他们大概更愿意继续在 NVIDIA 芯片上做开发。他们对此非常熟悉，不需要太多额外工作，所以他们在那个平台上是最优化的。但北京不喜欢这样。对中国中央政府来说，目标不只是今天拥有非常了不起的模型，而是长期建立起供应链的独立性和主权。所以你会看到这种张力：中国 AI 公司争先恐后地想拿到 Trump 允许出口到中国的 H200，他们看起来非常急切，正在下单，正在谈判能拿到多少。而北京自己则说：等等等等，我们不想要这么多 NVIDIA GPU，我们想让……我们想让你们专注于与国内芯片厂商合作，把这个环闭上，帮他们把芯片做得更好。当然，中国产业内部对此是有分歧的，因为 AI 公司想让模型跑得更快。但所有的芯片厂商都喜欢出口管制，喜欢北京推动的自力更生，因为他们看到了对自己芯片的天文数字级需求激增——这是以前不存在的。"
+    },
+    {
+      "i": 51,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "27:46",
+      "en": "Can you talk a little bit more about, I guess, the long game here or what Beijing would regard as a success? Because it's very easy to imagine a scenario where China becomes very good at a bunch of new technologies, partly by integrating a lot of its existing firms or doing this sort of vertical integration that we've been discussing. But margins, you know, remain pretty thin. Maybe households don't feel particularly wealthier than they did in the past, which is something we've been talking about on the show as well. Like, would that count as a success for Beijing if all those products were, I guess, integral to global supply chains?",
+      "zh": "能不能再多讲讲这里的长期博弈，或者说北京会认为怎样才算成功？因为很容易想象这样一个场景：中国在一堆新技术上变得非常擅长，部分是通过整合它现有的公司，或者做我们一直在讨论的这种垂直整合。但利润率还是很薄。也许家庭并不觉得比过去更富裕——这也是我们节目里讨论过的话题。如果所有这些产品都算是全球供应链不可或缺的一部分，这对北京来说算成功吗？"
+    },
+    {
+      "i": 52,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "28:29",
+      "en": "Yeah, I mean, I'll throw out a controversial take, which is Xi Jinping's does not really care that much about the economy or about consumers or about households in the sense that, you know, in the traditional sense that we might think about in the U.S. or in the West. I think up until now, you have all these calls for an adjustment of, you know, imbalances, you know, why isn't China boosting consumption? Why aren't they offering, if not handouts to consumers, some kind of stimulus measures to stimulate demand, right? There's a big demand slump, especially after the real estate collapse, which was a deliberate sort of popping of a bubble and a pivot towards something else. And the answer to all that is, if you start with a premise that the goal is not GDP growth in and of itself, the goal is high-tech self-reliance of sort of like winning the industries of the future. If you start with that premise, everything starts to make a lot more sense. So those who have been wondering like, well, is the stimulus coming? Are they going to Finally bail out, you know, whoever it is that needs to be bailed out in order to get demand going. That I think is ultimately seen as secondary. downstream to this high-tech push. And the idea is there's this very clunky term that has become sort of like the buzzword, which is the new quality productive forces. If you have these particular high-tech industries, growth sectors, industries of the future, If you can start to win in those areas and also have the supply chains, sort of the complete industrial system, which is like a term in Chinese that's very common, to back all that up, then everything else will kind of follow. You will end up having the kind of robust economic growth. You will have jobs. You will have high-tech jobs, right? In this shift away from sort of blue-collar factory jobs, you might have purple-collar jobs, jobs that require more advanced degree and have more technical know-how, maybe maintaining and repairing robots, for example, rather than actually sort of making widgets on the factory floor. So to take a step back, basically, I see that there is this sort of all-in push to try to become, if not the dominant, a dominant global player in a number of these key industries. And everything else is sort of like know if if that works that's great but that's not really the the main goal right now.",
+      "zh": "是的，我要抛出一个有争议的观点：最高层其实并不那么关心经济、消费者或家庭——至少不是我们在美国或西方传统意义上理解的那种关心。我认为到目前为止，一直有各种呼声要求调整'不平衡'：为什么中国不提振消费？为什么不给消费者发钱，或者出台某种刺激措施来提振需求？特别是在房地产崩盘之后——那是一次刻意的挤泡沫和向其他方向的转向——需求出现了大幅下滑。所有这些问题的答案是：如果你从一个前提出发，即目标本身不是 GDP 增长，而是高科技自力更生、是赢得未来产业，那么一切就开始变得更加合理了。所以那些一直在琢磨'刺激会不会来'、'他们最终会不会救助那些需要被救助的对象来推动需求'的人，我认为这些最终被视为次要的、下游于这场高科技推动的东西。这里的理念是一个变得非常时髦、有点笨拙的术语——'新质生产力'。如果你有这些具体的高科技产业、增长型行业、未来产业，如果你能在这些领域开始胜出，并且拥有支撑这一切的供应链，也就是所谓'完整的产业体系'（这是中文里非常常见的一个词），那么其他一切都会随之而来。你最终会拥有强劲的经济增长，会有就业，会有高科技就业。在这种从蓝领工厂岗位转移的过程中，你可能会有'紫领'岗位——需要更高学历、更多技术专长的岗位，比如维护和修理机器人，而不是在车间里造小零件。所以退一步讲，基本上我看到的是：这是一场全力以赴的推动，要在若干关键行业里成为——如果不是主导的，那也是——一个主导的全球玩家。其他一切……如果那奏效了，很好，但那不是当下的主要目标。"
+    },
+    {
+      "i": 53,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "31:09",
+      "en": "So we did a few episodes a couple of years ago about biotech in China and how that's growing and expanding. But there is a view in Silicon Valley that there won't be a biotech industry, that there'll be an AI industry and that the AI will find all the biotech. And that actually, it may even be stupid to try to invest in, quote, what we call biotech per se today, that you should really just be building more advanced AI models because those models are going to be what finds all the molecules of the future, et cetera. And I'm sort of curious the degree to which either Xi or people in China have this view that's like, forget biotech, forget all this other stuff, forget quantum, just build the great AI model and then the AI model will solve these other things in science.",
+      "zh": "几年前我们做过几期关于中国生物科技的节目，讲它是怎么成长和扩张的。但硅谷有一种观点：不会有生物科技行业，只会有 AI 行业，AI 会找到所有的生物科技。甚至今天去投资所谓的'生物科技'本身可能是愚蠢的，你真的应该去构建更先进的 AI 模型，因为这些模型才是会发现未来所有分子等等东西的。我很好奇，Xi 或者中国国内的人，在多大程度上也持有这种观点：忘掉生物科技，忘掉所有这些其他东西，忘掉量子，就去构建那个伟大的 AI 模型，然后 AI 模型会解决科学中的其他问题？"
+    },
+    {
+      "i": 54,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "31:58",
+      "en": "Yeah, that's interesting because at first I was going to say, Xi Jinping is for sure AI-pilled. That is a really key priority and maybe at the top of the list of sort of these more general-purpose technologies that they think are going to sort of fuel their growth and development going forward. But the way that you phrase it was really interesting because I don't think that he or the powers that be in Beijing see this as the be-all, end-all.",
+      "zh": "是的，这很有意思。因为我一开始准备说的是：最高层绝对是 AI-pilled（深信 AI）的。AI 是一个极其关键的优先事项，甚至可能在他们认为将驱动未来增长与发展的更通用型技术清单的顶部。但你的表述方式非常有意思，因为我不认为他或者北京的当权者把这看作是唯一重要的事情。"
+    },
+    {
+      "i": 55,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "32:23",
+      "en": "The last technology.",
+      "zh": "看作最后的技术。"
+    },
+    {
+      "i": 56,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "32:25",
+      "en": "That's right. That's right. I think they want to integrate this into everything else. They want it to turbocharge drug discovery and healthcare innovation and manufacturing. And they want to infuse sort of like the physical world with physical AI and have robotics and autonomous delivery systems everywhere. But whether that will just completely eclipse the traditional, you know, it's funny to have this term, like the traditional high tech of the future. But yeah, basically, I don't see that happening. And in fact, when you see the kinds of policy documents, the blueprints, the plans going ahead, these different technology sectors are still laid out as like critical, you know, so-called future pillar industries, basically.",
+      "zh": "没错，没错。我认为他们想把 AI 整合到所有其他东西里。他们想让它给药物发现、医疗创新、制造业加涡轮增压。他们想把物理 AI 注入物理世界，让机器人和自动配送系统无处不在。但这是否会完全 eclips（遮蔽）传统的——用这个词来形容'未来的传统高科技'很好笑——但基本上我不认为这会发生。事实上，当你看到那些政策文件、蓝图、规划，这些不同的科技行业仍然被列为关键的、所谓的'未来支柱产业'。"
+    },
+    {
+      "i": 57,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "33:11",
+      "en": "Yeah, but actually biotech is an interesting example here because I think it tells you something about how China actually approaches a lot of these technological development projects because the original big biotech push... That was mostly from an agrarian perspective, right? That was like, we're going to develop new technologies in order to boost food production.",
+      "zh": "是的，但生物科技其实是一个有意思的例子，因为它能告诉你中国是如何实际处理很多这类科技发展项目的。最早那波大的生物科技推动……主要是从农业角度出发的，对吧？就是'我们要开发新技术来提高粮食产量'。"
+    },
+    {
+      "i": 58,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "33:31",
+      "en": "Oh, yeah, yeah, right.",
+      "zh": "哦，对对对。"
+    },
+    {
+      "i": 59,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "33:32",
+      "en": "And then it morphed into, like, biomedical stuff, like actual pharmaceuticals. And so you can envision now that, like, they probably don't think that models are going to, you know, solve the entire biomedical thing. But, like, there absolutely will be an adaptation of, like, biopharma with AI.",
+      "zh": "然后它演变成了生物医学的东西，比如实际的制药。所以现在你可以想象，他们大概不会认为模型能解决整个生物医学问题。但生物制药与 AI 的融合肯定会发生。"
+    },
+    {
+      "i": 60,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "33:51",
+      "en": "I'm sure Dario thinks biopharma. The models will just come up with it.",
+      "zh": "我确信 Dario 认为生物制药，模型会直接把它搞出来。"
+    },
+    {
+      "i": 61,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "33:54",
+      "en": "Yeah, yeah. Well, I mean, we've had interesting examples. So Citrini, who we had on the show, has been working with one of the models to develop an anti-venom for scorpion bites, which apparently didn't really exist before. This was like for all different types.",
+      "zh": "是的，是的。我们有过有意思的例子。我们上过节目的 Citrini，一直在跟一个模型合作开发蝎子咬伤的抗毒血清，这以前好像并不真的存在。这是针对各种不同类型的——"
+    },
+    {
+      "i": 62,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "34:10",
+      "en": "Of scorpion bites. And they're showing some progress on it.",
+      "zh": "蝎子咬伤。他们在这方面取得了一些进展。"
+    },
+    {
+      "i": 63,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "34:11",
+      "en": "Yeah, I think it's going into some sort of clinical trial. So, you know, it's an interesting one for sure.",
+      "zh": "是的，我记得它正在进入某种临床试验。所以这绝对是一个有意思的案例。"
+    },
+    {
+      "i": 64,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "34:17",
+      "en": "Let's go back to chips for a second. You know, I sort of, at this point, still have this view that eventually, like, the trajectory of the world is that if something is built, it'll be built in China. Now, that may change, and there's a lot of efforts to, like, fight against this, I don't know, extra P or whatever it is, but that is the trend. I'm curious, like, in five years... if Huawei is not at the frontier of chip production and scale, et cetera, why not? What would be a reason to think that maybe they are not going to be able to do in chips what they've been able to do in many other industries?",
+      "zh": "让我们回到芯片上一会儿。你知道，我到目前为止还是持有这种观点：世界的轨迹最终是——只要是一件被造出来的东西，就会在中国造。这可能会变，也有很多努力在对抗这个趋势，我不知道是不是叫 CHIPS Act 之类的，但这就是趋势。我很好奇，五年之内……如果 Huawei 没能站上芯片生产和规模等的前沿，为什么没能？有什么理由认为他们可能无法在芯片上做他们在很多其他行业里做到的事？"
+    },
+    {
+      "i": 65,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "34:54",
+      "en": "Yeah, so it depends on what you mean by sort of like not succeeding. Because on the one hand, there is like not catching up to the frontier and sort of keeping pace. And in that way, I kind of compare The whole chip industry to like trying to catch a bullet train because you like trying to run as fast as possible and accelerate as fast as possible. But the goal that you're trying to catch or the frontier you're trying to catch up to is itself accelerating.",
+      "zh": "是的，这取决于你说的'不成功'是什么意思。因为一方面，是没能追上前沿、没能与之保持同步。在这方面，我常把整个芯片行业比作试图追上一列高铁——你尽可能快地跑、尽可能快地加速，但你想追上的目标、你想赶上的前沿，本身也在加速。"
+    },
+    {
+      "i": 66,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "35:22",
+      "en": "Yeah.",
+      "zh": "嗯。"
+    },
+    {
+      "i": 67,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "35:22",
+      "en": "So, you know, while Huawei is improving and while some of the other Chinese chip makers are also sort of improving and they're trying to catch companies like TSMC. which is just investing like an incredible amount and they're already at the frontier and they're operating with the best technology, the best equipment in the world from Japan and the Netherlands and Germany and the US. And so when you put that all together, it's, that's a formidable sort of, there's not like a finish line that you'll reach and you'll say like, I got to the global frontier. That finish line is also running away from you. But if you're asking about, you know, will they be able to have sort of like good enough chips that have decent enough supply where Chinese AI can sort of continue roughly at the pace that it's going at now, what would be the major barriers to that? Probably then it would be bottlenecks in the equipment, in particular lithography. And so there's a huge sort of range of uncertainty around how effectively China can develop its own lithography, especially DUV immersion and then potentially EUV, or whether China might be able to bypass some of that technology, right? There's been some hype around Huawei's efforts to do this sort of logic folding where they're arguing, some people just say it's fancy chip packaging, but they're trying to, rather than just drive down the process node further and further, as if you had an EUV machine, they're trying to basically double back and sort of use better packaging so that you can build connections sort of within the chip itself. And that's supposed to be another workaround There's other sort of techniques like multi-patterning where you kind of like redo the design multiple times, but that can get messier in terms of lowering your yield rate and causing more errors along the way. So there's sort of like workarounds, but ultimately I think the key bottleneck is the lithography machines and whether China can get there. And then those, right, this is the thing that's like so wonderful and also so frustrating about the chip business, which is you can pick any one of these parts of the chip stack lithography. And it in and of itself has supply chains numbering in the hundreds, if not thousands. And so for every ASML EV machine, there's going to be a Trump lasers company, no relation to the president. There's going to be special lenses made by Zeiss that are the best in the world. And there's always the stats about how they're so perfectly level. But Every single one of those in and of itself is another choke point, essentially, in the whole sort of complicated global chip supply chain.",
+      "zh": "所以，尽管 Huawei 在进步，尽管其他一些中国芯片厂商也在进步，他们试图追上像 TSMC 这样的公司——TSMC 正在投入极其庞大的资金，已经处于前沿，用的是世界上最好的技术、最好的设备，来自日本、荷兰、德国和美国。所以把这些放在一起，那是一个令人生畏的组合。芯片行业里并没有一条你可以到达并说'我到达全球前沿了'的终点线。这条终点线本身也在从你身边跑开。但如果你问的是：他们能不能拥有'足够好'的芯片、'足够好'的供应，让中国 AI 大致上能保持现在的推进速度——那么主要障碍会是什么？那大概是设备上的瓶颈，尤其是光刻。所以这里存在巨大的不确定性区间：中国能在多大程度上有效地开发自己的光刻能力，特别是 DUV 浸没式，乃至潜在的 EUV；或者中国是否可能绕过其中一些技术？关于 Huawei 所谓的'逻辑折叠'（logic folding）努力，一直有一些炒作——有人说这只是花哨的芯片封装——但他们试图做的，不是像有 EUV 机那样一路把制程节点往下推，而是回过头来用更好的封装，让你能在芯片本身内部构建连接。这被认为是另一种绕道方案。还有其他技术，比如多重曝光（multi-patterning），你相当于把设计重做多次，但那在良率上会更麻烦，会造成更多错误。所以是有绕道方案，但最终我认为关键瓶颈还是光刻机，以及中国能不能到达那里。这一点，正是芯片行业既美妙又令人抓狂的地方：你可以挑出芯片技术栈的任何一个环节——光刻——它本身就有数百条甚至数千条供应链。所以每一台 ASML EUV 机里，都会有一家 Trump lasers 公司（跟总统没关系），会有 Zeiss 做的世界最好的特殊镜头。总有那些关于它们多么完美水平的统计数据。但每一个这样的部件本身，都是这个错综复杂的全球芯片供应链里的又一个卡脖子环节。"
+    },
+    {
+      "i": 68,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "37:59",
+      "en": "What's your answer for why stock investors never seem to make any money? And actually, we haven't talked about much on the podcast. I mean, it's been a very bad year for Chinese stocks.",
+      "zh": "对于为什么股票投资者似乎永远赚不到钱，你的答案是什么？其实我们在播客里没怎么聊过这个。我是说，对中国股票来说这是非常糟糕的一年。"
+    },
+    {
+      "i": 69,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "38:08",
+      "en": "Yeah, it really has.",
+      "zh": "是啊，真的是。"
+    },
+    {
+      "i": 70,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "38:09",
+      "en": "It's actually been a pretty brutal year. Surprise, surprise. Stock investors, they're like, no, this is the year. It's finally. What's your answer that you would give for why, like, all the progress, et cetera, stock investors never seem to make any money?",
+      "zh": "其实这一年相当残酷。让人意外的是——股票投资者们说'不，就是这一年，终于要来了'。对于'为什么所有的进步等等都发生了，股票投资者却似乎永远赚不到钱'，你会给出什么答案？"
+    },
+    {
+      "i": 71,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "38:22",
+      "en": "A big part of it is it's hard to make profits in China. It's hard to have a sustained competitive moat. There are some exceptions to that. So, you know, one company that I always find kind of interesting is DJI.",
+      "zh": "很大一部分原因是，在中国很难赚到利润，很难拥有可持续的竞争护城河。也有一些例外。所以我一直觉得挺有意思的一家公司是 DJI。"
+    },
+    {
+      "i": 72,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "38:36",
+      "en": "Oh, yeah.",
+      "zh": "哦对。"
+    },
+    {
+      "i": 73,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "38:37",
+      "en": "Why aren't there like a bazillion Chinese drone companies? How did that market get so concentrated? You know, you have like CSMT, as I mentioned earlier, with memory and has carved out a special space within that sector. But in general.",
+      "zh": "为什么没有一亿家中国无人机公司？那个市场怎么变得这么集中？你知道，像我前面提到的 CSMT，在存储领域开辟出了一片特殊空间。但整体来说——"
+    },
+    {
+      "i": 74,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "38:50",
+      "en": "Wait, do you have an answer for why DJI is singular within the drone space, like the way they are?",
+      "zh": "等等，对于 DJI 在无人机领域为何能独树一帜，你有答案吗？"
+    },
+    {
+      "i": 75,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "38:55",
+      "en": "I actually don't know. It could just be a quirk of timing. And we may actually start to see the flood coming, right? So there seem to be new players emerging. But at least at this point, it's sort of, you know, it's in its own category. But more broadly, you do have this phenomenon where it's hard to have a sustainable moat. You have other companies jumping into the mix that also have access to, frankly... some of the best engineers, including your own engineers who can jump ship. They have access to financing from local governments. So the barrier to entry for a lot of these industries is actually relatively low. And so they end up getting kind of flooded with overcapacity, redundancy, but then also building these overall very, very globally competitive industries that once China starts to export to the rest of the world, well, good luck to the rest of the world. So I think that's part of the reason why we see this effect. If you don't have long-term profits or don't expect that to really be sustainable, then it's hard to justify rising or high valuations.",
+      "zh": "我其实不知道。可能只是时机上的巧合。我们实际上可能开始看到洪流涌入——好像有新兴玩家出现。但至少到目前为止，它算是自成一档。但更广泛地说，你确实有这种现象：很难拥有可持续的护城河。你会有其他公司跳进这个池子，坦率地说，他们也能拿到一些最好的工程师，包括你自己的工程师跳槽过去。他们能从地方政府拿到融资。所以很多这类行业的进入门槛其实相对低。因此最后就是被产能过剩、重复建设淹没，但同时又建起了整体上非常有全球竞争力的行业——一旦中国开始向世界其他地方出口，那世界其他地方就自求多福吧。所以我认为这是我们看到这种效应的部分原因：如果你没有长期利润，或者不预期它是真正可持续的，那么就很难为不断上升或高企的估值辩护。"
+    },
+    {
+      "i": 76,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "39:54",
+      "en": "All right, Kyle Chen, great chatting with you. Great to finally have you on the podcast. Let's stay in touch.",
+      "zh": "好，Kyle Chan，跟你聊得非常愉快。终于把你请到节目上来了。保持联系。"
+    },
+    {
+      "i": 77,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "40:01",
+      "en": "Absolutely. Thanks, you guys.",
+      "zh": "当然。谢谢你们两位。"
+    },
+    {
+      "i": 78,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "40:15",
+      "en": "You know, Tracy, the Chinese stock market sell-off is so bad that once again, and I think this was not the case, but once again, the Maotai company is the biggest member of the CSI 300 index.",
+      "zh": "你知道，Tracy，中国股市的抛售糟糕到，再一次——我记得以前不是这样，但再一次——Maotai（茅台）公司成了 CSI 300 指数中最大的成分股。"
+    },
+    {
+      "i": 79,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "40:28",
+      "en": "Everyone's drinking because stock market trends are so bad.",
+      "zh": "大家都在喝酒，因为股市走势太糟了。"
+    },
+    {
+      "i": 80,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "40:30",
+      "en": "Yeah, no, like, you know, number two is cattle. So that's the battery company. Yeah. And then there's some other, but we're back to the world where the Baidu Company is the big one.",
+      "zh": "是啊，不，第二大是 CATL（宁德时代），也就是那家电池公司。然后还有一些其他的，但我们又回到了那个 Baidu 公司是大牌的世界。"
+    },
+    {
+      "i": 81,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "40:42",
+      "en": "It is amazing. If you look at a long-term chart of the Shanghai Composite since 2000.",
+      "zh": "太神奇了。如果你看 2000 年以来 Shanghai Composite（上证综指）的长期走势图——"
+    },
+    {
+      "i": 82,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "40:47",
+      "en": "You just don't make any money there.",
+      "zh": "你就是赚不到钱。"
+    },
+    {
+      "i": 83,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "40:49",
+      "en": "It's pretty much almost a horizontal line. I mean, there are some pretty big ups and downs, but the overall direction of travel is... Sideways.",
+      "zh": "几乎就是一条水平线。当然也有一些相当大的起伏，但整体行进方向是……横盘。"
+    },
+    {
+      "i": 84,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "41:00",
+      "en": "It's pretty sideways, yeah. And every once in a while, like, there's a hype cycle. But I thought that was really interesting. This idea that, like, AI strikes me as a real tricky thing for the Chinese model of development because intuitively it's like, yes, I suspect that, like, on enough time, Absolutely. It seems that Huawei would get as good as NVIDIA and eventually have the scale to produce as much as TMC on a long enough timeline. But in the meantime, the pace of improvement in the model layer is so fast. How long can you afford to go with the homegrown technology if it's not good enough? And that's a very interesting question to me.",
+      "zh": "确实很横盘。偶尔会有一波炒作周期。但我觉得非常有意思的是——AI 在我看来对中国的发展模式来说是一件非常棘手的事。因为直觉上是这样：是的，我猜想，只要时间足够长，Huawei 绝对会变得跟 NVIDIA 一样好，最终会有跟 TSMC 相当的产能规模。但与此同时，模型层的进步节奏太快了。如果本土技术不够好，你能承受多长时间用它？这对我来说是一个非常有趣的问题。"
+    },
+    {
+      "i": 85,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "41:46",
+      "en": "The other thing, we didn't even really get into sort of self-recursive improvement for model development, but that also seems like cliff isn't the right word, but like. if the Western models get there before China.",
+      "zh": "另外一件事，我们其实没怎么谈到模型开发的自我递归改进，但那也感觉像是……'悬崖'不是正确的词，但如果西方模型在中国之前到达那里——"
+    },
+    {
+      "i": 86,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "42:02",
+      "en": "You can't afford, if that's a thing, and we don't even know if it's a thing, but if that's a thing, then it's like, that really, I think, puts a limit on the degree to which any model maker can really, it's like, we're going to go with the indigenous technology. Yes, it'll slow us down, but it's good for the nation. If there is this day in which you can get to like RSI and then it's off to the races, if that's real.",
+      "zh": "如果那是一件事——我们甚至不知道它是不是一件事——但如果它是一件真事，那我觉得这真的给任何模型厂商能承受'我们就用本土技术，是的它会拖慢我们，但这对国家好'的程度设了一个上限。如果真有那么一天你能达到 RSI（递归自我改进），然后一切都一飞冲天——如果那是真的话。"
+    },
+    {
+      "i": 87,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "42:25",
+      "en": "But, the counterpoint to all of that is basically like, well, what are these AI models for, right? Like the AI is supposed to help us like run our businesses more efficiently, produce things more efficiently, maybe make some technological breakthroughs here and there. And so the focus on actual diffusion throughout the economy makes a lot of sense from that perspective. Whereas in like In the U.S., it very much feels like AI is the sort of like the model itself is the be all and end all of development.",
+      "zh": "但另一方面，反驳所有这些的观点基本上是：这些 AI 模型到底是干什么用的？AI 应该帮助我们更高效地经营企业、更高效地生产东西，也许在这里或那里取得一些技术突破。所以专注于在整个经济中的实际扩散，从这个角度看是很有道理的。而在美国，感觉非常像是 AI——那个模型本身——就是发展的全部意义。"
+    },
+    {
+      "i": 88,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "42:58",
+      "en": "No, totally. I was talking to some folks the other day in finance and they're saying, look, like there is a point where AI is good enough for us as in. There is a point where we cannot absorb more intelligence per se. And once you hit that point, you could make the models 10 times smarter. We can't use this. And then what are you doing it for? And then the list of things that can actually absorb that intelligence.",
+      "zh": "没错，完全是。我前几天在跟金融界的一些人聊，他们说，听着，AI 有一个点是'对我们来说够用了'——就是说，我们本身能吸收的智能是有一个上限的。一旦你达到那个点，你可以把模型做得聪明 10 倍，我们用不上。那你做这个是为了什么？然后那份'实际上能吸收这些智能'的事情清单——"
+    },
+    {
+      "i": 89,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "43:24",
+      "en": "Starts to shrink. You're a widget manufacturer. You're not going to be solving Navier-Stokes or something like that. You just want to automate a few things.",
+      "zh": "就开始收缩。你是一个小零件制造商，你不会去解 Navier-Stokes 方程之类的，你只是想自动化几件事。"
+    },
+    {
+      "i": 90,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "43:32",
+      "en": "Right. And this is, if you were to make the bull case for the commodification of intelligence, It would be some version of most economically productive things in the economy can only absorb so much intelligence, unquote. And that the American closed source labs, like, yes, they might have big margins on the very frontier, but that's not that big of a market. The market is smaller. The market is smaller. Then the rest of it gets really commodified and there's no money there. That's a very plausible way that I don't know that that's going to be. It's just plausible.",
+      "zh": "对。所以这就是——如果你要为'智能的商品化'做一个多头论证，那大概会是这样一个版本：'经济中大多数有生产力的事情只能吸收这么多智能'。而美国的闭源实验室，是的，他们可能在最前沿拥有巨大的利润率，但那不是一个那么大的市场。市场更小。剩下的部分就完全被商品化了，那里没钱赚。这是一个非常合理的可能路径——我不知道它一定会发生，但它是合理的。"
+    },
+    {
+      "i": 91,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "44:09",
+      "en": "All right.",
+      "zh": "好。"
+    },
+    {
+      "i": 92,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "44:09",
+      "en": "Shall we leave it there?",
+      "zh": "我们就聊到这儿吧？"
+    },
+    {
+      "i": 93,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "44:10",
+      "en": "Let's leave it there.",
+      "zh": "就聊到这儿。"
+    },
+    {
+      "i": 94,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "44:11",
+      "en": "This has been another episode of the All Thoughts Podcast. I'm Tracy Allaway. You can follow me at Tracy Allaway.",
+      "zh": "这是又一期 Odd Lots 播客。我是 Tracy Alloway，你可以在 Twitter 上关注我 @TracyAlloway。"
+    },
+    {
+      "i": 95,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "44:16",
+      "en": "And I'm Joe Weisenthal. You can follow me at The Stalwart. Follow our guest, Kyle Chan. He's at Kyle I.",
+      "zh": "我是 Joe Weisenthal，你可以关注我 @TheStalwart。请关注我们的嘉宾 Kyle Chan，他的账号是 @KyleI——"
+    },
+    {
+      "i": 96,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "44:23",
+      "en": "Chan.",
+      "zh": "Chan。"
+    },
+    {
+      "i": 97,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "44:24",
+      "en": "Follow our producers, Carmen Rodriguez at CarmenArmond, Dashiell Bennett at Dashbot, Kale Brooks at Kale Brooks, and Kevin Lozano at Kevin Lloyd Lozano. And of course, you can chat about all of these topics 24-7 in our Discord, discord.gg slash oddlods. And for more content, you can check out our daily newsletter. Please subscribe. That's over at bloomberg.com slash oddlods.",
+      "zh": "请关注我们的制作人：Carmen Rodriguez（@CarmenArmond）、Dashiell Bennett（@Dashbot）、Kale Brooks（@KaleBrooks），以及 Kevin Lozano（@KevinLloydLozano）。当然，你可以在我们的 Discord 里 24/7 讨论所有这些话题：discord.gg/oddlots。想看更多内容，可以看看我们的每日 newsletter，请订阅，地址是 bloomberg.com/oddlots。"
+    },
+    {
+      "i": 98,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "44:44",
+      "en": "And if you enjoyed this conversation, if you like it when we talk about complicated Venn diagrams, then please leave us a positive review on your favorite podcast platform. And if you're watching on video, then please like or leave a comment, or better yet, subscribe.",
+      "zh": "如果你喜欢这期对话，如果你喜欢我们谈论复杂 Venn 图的时候，请在你的播客平台上给我们留一个正面评价。如果你在看视频版，请点赞或留言，最好还能订阅。"
+    },
+    {
+      "i": 99,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "44:58",
+      "en": "And remember, if you're a Bloomberg subscriber, you can listen to all of our episodes absolutely ad-free. Just go to the Bloomberg channel on Apple Podcasts and follow the instructions there.",
+      "zh": "另外记住，如果你是 Bloomberg 订阅用户，你可以完全无广告地收听我们所有的节目。只要去 Apple Podcasts 上的 Bloomberg 频道，按那里的说明操作即可。"
+    },
+    {
+      "i": 100,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "45:07",
+      "en": "Thanks for joining.",
+      "zh": "感谢收听。"
+    },
+    {
+      "i": 101,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "45:08",
+      "en": "Thank you.",
+      "zh": "谢谢。"
+    },
+    {
+      "i": 102,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "45:25",
+      "en": "Thank you.",
+      "zh": "谢谢。"
+    }
+  ]
+}

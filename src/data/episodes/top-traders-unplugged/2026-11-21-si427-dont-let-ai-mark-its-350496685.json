@@ -1,0 +1,2200 @@
+{
+  "show": "top-traders-unplugged",
+  "kind": "transcript",
+  "id": "350496685",
+  "slug": "2026-11-21-si427-dont-let-ai-mark-its-350496685",
+  "date": "2026-11-21",
+  "title_en": "SI427: Don't Let AI Mark Its Own Investment Homework ft. Rob Carver",
+  "title_zh": "SI427：别让 AI 给自己的投资作业打分——对话 Rob Carver",
+  "subtitle_zh": "Rob Carver 讽刺点评 Tesla Cybercab 跳票史，拆解 AI 与策略设计论文，直言让 LLM 检验自己的策略如同「给自己的作业打分」。",
+  "summary_zh": "主持 Niels Kaastrup Larsen 对话嘉宾 Rob Carver。Rob 开场讽刺回顾 Elon Musk 屡次跳票的 robotaxi 承诺，指出本周发布的 Tesla Cybercab 仍有订阅「变砖」、地理围栏限制、不能在家充电、不许载客赚钱等槽点。Niels 分享新闻：Eckhart Trading 因规模过低停止交易、CalPERS 重返对冲基金、Anthropic 上市首日估值约1.5万亿美元。Rob 透露自己处于高水位、年内约上涨13.6%，最大风险头寸在金属与农产品。问答涉及 Bloomberg Ask B 会否导致交易拥挤、杠杆 ETF 与期货取舍、应否停止反复微调算法（答：停止，警惕「方法论购物」）、AI 能否产生原创想法（不能，但可启发思路、总结研究）。论文环节，Rob 认为按市场分别拟合非线性响应曲线学术上有趣但实践不会采用；若基础组合集中于某资产，趋势配置反而应更分散。他批评让 LLM 判断自己策略是否有效如同「给自己的作业打分」，主张「只增不减」的回测，并同时测试趋势与均值回归假设。他还提到12月1日将出版新书。",
+  "description": "SI427: Don't Let AI Mark Its Own Investment Homework ft. Rob Carver",
+  "duration": "74:31",
+  "duration_seconds": 4471,
+  "episode_url": "https://www.iheart.com/podcast/256-top-traders-unplugged-31027498/episode/si427-dont-let-ai-mark-its-own-investment-homework-ft-rob-carver-350496685",
+  "audio_url": "https://episodes.captivate.fm/episode/55675f73-8d68-49cf-b1f6-22dc52dbf2f6.mp3?source=iheart",
+  "speakers": {
+    "1": "Niels Kaastrup Larsen（主持）",
+    "2": "Rob Carver（嘉宾）",
+    "3": "片花/广告（旁白）"
+  },
+  "turn_count": 272,
+  "turns": [
+    {
+      "i": 0,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "00:01",
+      "en": "Taking their trading strategy idea and then saying to the LLM model. Does this training strategy work? Well, effectively. It's sort of. I call it marking your own homework. Is this thing working? Yes, it's brilliant. Okay, well how do you know that? Well, I've written this back testing code that tests it well. Okay.",
+      "zh": "把他们的交易策略想法交给大语言模型（LLM），然后问它：这个交易策略有效吗？这其实就像——我管它叫「给自己的作业打分」。这东西有用吗？有的，棒极了。好吧，那你怎么知道它有用？嗯，我写了这个回测代码来测试它。好吧。"
+    },
+    {
+      "i": 1,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "00:19",
+      "en": "Can I really trust that?",
+      "zh": "我真的能信这个吗？"
+    },
+    {
+      "i": 2,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "00:23",
+      "en": "Welcome to top traders Unplugged in markets. Success doesn't come from predicting what happens next. It comes from being prepared for what you can't predict. Predict. In each episode we go deep with some of the world's most thoughtful minds in investing, economics and beyond to understand how they",
+      "zh": "欢迎收听 Top Traders Unplugged。在市场中，成功并不来自预测接下来会发生什么，而是来自为你无法预测的事情做好准备。在每一期节目中，我们都会与投资、经济学及其他领域一些最有思想深度的头脑深入交流，理解他们"
+    },
+    {
+      "i": 3,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "00:41",
+      "en": "think, how they prepare and how they decide and the experiences that shaped how they see the world. No noise, no shortcuts, just real conversations to help you think better and invest with confidence.",
+      "zh": "如何思考、如何准备、如何决策，以及塑造他们看待世界方式的那些经历。没有噪音，没有捷径，只有真实的对话，帮助你更好地思考、更有信心地投资。"
+    },
+    {
+      "i": 4,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "00:56",
+      "en": "Welcome or welcome back to this week's edition of the Systematic Investor series with Rob Carver and I, Nils Castle Larsen, where each week we take the pulse of the global market through lens of a rules based investor. Rob, it is great to be back with you this week. Hope you're doing well. How are things in the uk? Yeah, it's nice.",
+      "zh": "欢迎，或者欢迎回来，收听本周 Systematic Investor 系列节目，我是 Rob Carver 和 Niels Kaastrup Larsen，每周我们都会透过一位规则型投资者的视角来把脉全球市场。Rob，本周很高兴又能和你一起做节目，希望你一切都好。英国那边怎么样？嗯，还不错。"
+    },
+    {
+      "i": 5,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "01:15",
+      "en": "I think we got the kind of beginning of the season of the crash commercialization of Christmas which started about a month ago and we have over another month for that to go. So slightly depressing, but apart from that. Yeah, things are going well here.",
+      "zh": "我觉得我们已经进入了圣诞商业化季节的开端，也就是所谓「崩溃式商业化」，大约一个月前就开始了，而且还要再持续一个多月。所以稍微有点让人沮丧，但除此之外，嗯，这边一切都好。"
+    },
+    {
+      "i": 6,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "01:29",
+      "en": "Fair enough, Fair enough. I think that's a problem we have not just in the UK but there we are. We got a great lineup of topics papers we need to review. Your own blog post as well. But before we do that, as usual, you said you had something surprising in what's been on your radar this week, obviously or this time.",
+      "zh": "可以理解，可以理解。我觉得这不只是英国的问题，全世界都一样，算了不提了。我们这周有很棒的话题阵容，有好几篇论文要回顾，还有你自己写的博客文章。但在此之前，照例你说这周你的关注范围里有一些让人意外的东西。"
+    },
+    {
+      "i": 7,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "01:51",
+      "en": "So I'm obviously very, very curious what that might be. Well, I mean, I think there's been two big kind of announcements this week. One's been GTA 6, this new computer game, which I have to say I have no interest in at all because I'm one of those people who believes that after the age of about maybe 22, you should probably",
+      "zh": "所以我非常非常好奇那会是什么。嗯，我觉得这周有两个大新闻。一个是 GTA 6，这款新的电脑游戏。我必须说，我对此毫无兴趣，因为我是那种认为过了大概22岁之后，你可能就应该"
+    },
+    {
+      "i": 8,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "02:09",
+      "en": "stop playing computer games, which is what I did. But obviously other people disagree. That's fine. But the other thing is something we've been waiting for for a very long time now. As you know, Niels, I'm a huge fan of Elon Musk and everything he's done and of Tesla and SpaceX and so on.",
+      "zh": "停止玩电脑游戏的人，我自己就是这么做的。但显然其他人不同意，那也没关系。不过另一件事，是我们已经等了非常非常久的东西。你知道的，Niels，我是 Elon Musk 以及他所做的一切的超级粉丝，还有 Tesla、SpaceX 等等。"
+    },
+    {
+      "i": 9,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "02:27",
+      "en": "And in 2016 he announced that there would be something called the Tesla Network where all Teslas would become autonomous robo taxis that could earn money for their owners when not being used. This is really super, super exciting. And that would happen by 2020.",
+      "zh": "2016年，他宣布将会推出一个叫 Tesla Network 的东西，所有 Tesla 汽车都会变成自动驾驶的 robotaxi（无人驾驶出租车），在车主不使用的时候可以为车主赚钱。这真的超级超级令人兴奋。而且他说这会在2020年实现。"
+    },
+    {
+      "i": 10,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "02:44",
+      "en": "Now 2020 obviously arrived and left without this happening.",
+      "zh": "结果2020年显然来了又走了，这件事并没有发生。"
+    },
+    {
+      "i": 11,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "02:51",
+      "en": "It did say in 2019 that by 2020 they'd have 1 million robo taxis. Obviously that didn't happen either in 2022. He said that they would definitely start producing robo taxis in 2024.",
+      "zh": "他在2019年确实说过，到2020年他们会有100万辆 robotaxi。显然那也没有发生。2022年，他说他们肯定会在2024年开始生产 robotaxi。"
+    },
+    {
+      "i": 12,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "03:07",
+      "en": "Didn't happen actually.",
+      "zh": "没有发生。实际上，"
+    },
+    {
+      "i": 13,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "03:10",
+      "en": "August 8, 2024.",
+      "zh": "是2024年8月8日。"
+    },
+    {
+      "i": 14,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "03:14",
+      "en": "Didn't happen actually. But the brilliant news is this week we finally have the robotaxis. They're not called that anymore, they're called cybercaps.",
+      "zh": "实际上还是没有发生。但好消息是，这周我们终于有了这些 robotaxi。它们现在不叫这个名字了，改叫 Cybercab。"
+    },
+    {
+      "i": 15,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "03:22",
+      "en": "So Elon Musk has finally kept his promise, which is fantastic. I mean there are a few kind of little needling points that one might make. Like for example, you have to buy the thing and then pay a subscription. If you stop paying the subscription, then the car gets bricked. So you can't drive your own car.",
+      "zh": "所以 Elon Musk 终于兑现了他的承诺，太棒了。当然，也有一些可以小小挑刺的地方。比如说，你得先买下这辆车，然后还要付订阅费。如果你停止付订阅费，这辆车就会被「变砖」，你就没法开自己的车了。"
+    },
+    {
+      "i": 16,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "03:40",
+      "en": "They can change the price to the subscription at any time. Taxes can only be used in a geofence area, which is actually smaller than the existing Tesla self driving area.",
+      "zh": "他们可以随时更改订阅价格。这些出租车只能在一个地理围栏（geofence）区域内使用，而这个区域实际上比现有的 Tesla 自动驾驶区域还要小。"
+    },
+    {
+      "i": 17,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "03:53",
+      "en": "You can't charge them at home. I mean this is, this is minor stuff. I mean they've only got two seats as well, which is kind of limits the use as a taxi. And you need to pay for your own insurance, which actually is a lot higher than it is for normal cars, which is weird because",
+      "zh": "你不能在家里给它们充电。我是说，这些都是小事。而且它们只有两个座位，这在某种程度上限制了它作为出租车的用途。你还需要自己买保险，费用实际上比普通汽车高很多，这很奇怪，因为"
+    },
+    {
+      "i": 18,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "04:07",
+      "en": "Tesla's always telling us how much safer their self driving cars are than human beings. And the U.S. national Highway Traffic Safety Administration is investigating how the vehicle ever got certified because it doesn't have a steering wheel, pedals or mirrors, which you don't need for a self driving car.",
+      "zh": "Tesla 一直告诉我们，他们的自动驾驶汽车比人类驾驶安全得多。而美国国家公路交通安全管理局（NHTSA）正在调查这辆车当初到底是怎么通过认证的，因为它没有方向盘、踏板和后视镜——这些据说是自动驾驶汽车不需要的东西。"
+    },
+    {
+      "i": 19,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "04:23",
+      "en": "But silly pesky US regulators seem to think that you do need those things, so they're a bit confused about that. And then the final thing, and again, this is really minor, but you can't actually use it as a taxi to earn money from because that's not allowed in the terms and conditions.",
+      "zh": "但那些讨厌又难缠的美国监管机构似乎认为你确实需要这些东西，所以他们对这一点有点困惑。然后最后一点，这同样真的很小，但你实际上不能把它当出租车用来赚钱，因为条款和条件里不允许这么做。"
+    },
+    {
+      "i": 20,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "04:36",
+      "en": "But otherwise I'd say that, you know, Elon's kept his promises, he always does, you know, obviously many years later. But, but yeah, fantastic news. And for those who don't know me, everything I've just said was highly sarcastic.",
+      "zh": "但除此之外，我会说，你知道的，Elon 兑现了他的承诺，他一直都会兑现的，你知道，当然是很多年之后。不过，是的，好消息。而对于那些不了解我的人来说，我刚才说的每句话都是高度讽刺的。"
+    },
+    {
+      "i": 21,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "04:50",
+      "en": "Yes, I, I think most people listening to this would have guessed that. You know, I just, I just returned from the us, I was there last week and you know, around the Miami area there are a lot of waymos driving around. And I will say that, I mean some people that I know who live",
+      "zh": "是的，我想大多数正在听节目的人应该都能猜到这一点。你知道，我刚从美国回来，上周我在那边，在 Miami 一带有很多 Waymo 在路上跑。我会说，我认识的一些住在"
+    },
+    {
+      "i": 22,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "05:09",
+      "en": "in the US they kind of swear to this idea of having, you know, going into a cab and not worrying about, you know, having a driver and all of that. I will say it's, to me it's still very, it feels very foreign when I see these cars driving around without any drivers in them. I'm sure we're going to get used to it.",
+      "zh": "美国的人，他们非常推崇这种理念，就是坐进一辆出租车，不用担心有司机之类的事情。我会说，对我来说，看到这些车里没有任何驾驶员在路上跑，感觉仍然非常陌生。我相信我们会习惯的。"
+    },
+    {
+      "i": 23,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "05:27",
+      "en": "But I did notice though that in California while I was there, they actually banned the use of WAYMOS on the highways. Now there's been too many incidents with Waymo and probably some others maybe. So yeah, I mean still seem to be a developing technology, but. Yeah,. I don't think we can,.",
+      "zh": "但我确实注意到，我在 California 期间，他们实际上禁止了 Waymo 在高速公路上行驶。因为 Waymo 出的事故太多了，可能还有其他一些公司也有事故。所以，是的，这似乎仍然是一项发展中的技术，但是。是的，我觉得我们还不能，"
+    },
+    {
+      "i": 24,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "05:48",
+      "en": "I mean I will, I will make one extra point related to GTA 6, which is that GTA of course is a game where you, you sort of, you know, steal cars and hijack them. And it strikes me that would be not as much fun if they're all sort of self driving autonomous cars. So if nothing else, Tesla will completely ruin the GTA industry,",
+      "zh": "我是说，关于 GTA 6 我还要多说一点。GTA 当然是一个你到处偷车、劫车的游戏。我突然想到，如果车全都是自动驾驶的，那这个游戏就没那么好玩了。所以，别的不说，Tesla 将会彻底毁掉 GTA 产业，"
+    },
+    {
+      "i": 25,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "06:06",
+      "en": "which, you know. Yeah,. It's obviously sad from that perspective. Yeah. So I gather you're not doing the GTA flu this week as, as we hear many people suddenly have come down with. But I. Have a mild, a mild cough completely unrelated to GTA and that's it.",
+      "zh": "你知道的，是的。显然从这个角度看是很悲哀的。是的。所以我猜你这周不会得「GTA 流感」，我们听说很多人突然得了这种病。但我。我只有轻微的咳嗽，跟 GTA 完全无关，就这样。"
+    },
+    {
+      "i": 26,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "06:24",
+      "en": "Fair enough, fair enough. All right, well clearly my stuff is not nearly as revolutionary as your stuff is for what's been on my radar. But a couple of things that I do think is worth mentioning. One is a little bit of a sad goodbye to a firm that's been around for a long time.",
+      "zh": "可以理解，可以理解。好的，那么显然我这周关注的东西远不如你的有革命性。但有几件事我觉得值得一提。第一件，是对一家已经存在很久的公司有点伤感的告别。"
+    },
+    {
+      "i": 27,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "06:41",
+      "en": "Eckhart Trading, which is the firm of the former mentor to the turtles, Bill Eckhart. And one of the longest running futures firms, stopped trading as AUM dropped to very low levels, probably partly due to returns not being great in the last few years. So that's a sad goodbye, but not a blow up.",
+      "zh": "Eckhart Trading，这是海龟交易法则（turtles）的创始人、曾经的导师 Bill Eckhardt 的公司，也是运营时间最长的期货公司之一，已经停止了交易，因为资产管理规模（AUM）降到了非常低的水平，可能部分原因是最近几年的回报不太理想。所以这是一个伤感的告别，但并不是一次爆仓。"
+    },
+    {
+      "i": 28,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "07:09",
+      "en": "Just wanted to stress that the other thing maybe on a more optimistic note is that Calpers, so I think this is still the largest pension fund in the us maybe in the world, I don't know. But many years ago, probably more than 10 years ago, they took like the decision to stop investing in hedge funds and now",
+      "zh": "我想强调这一点。另一件事，或许更乐观一些：CalPERS，我认为这仍然是美国最大的养老基金，也可能是全世界最大的，我不确定。但很多年前，可能超过10年前，他们做出了停止投资对冲基金的决定，而现在"
+    },
+    {
+      "i": 29,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "07:31",
+      "en": "they come out this week I think saying that they're back. So this will be interesting to see what kind of hedge funds they will go for and if they are looking at it from maybe the total portfolio approach, which I think they may also be switching to, then maybe strategies the way that we love and work with might",
+      "zh": "他们本周出来说他们要回归了。所以很有意思，可以看看他们会选择什么样的对冲基金，以及他们是否会从整体组合法（total portfolio approach）的角度来看待这件事——我想他们可能也在转向这种方法——那么如果是这样，我们所热爱并使用的这类策略，未来几年也许"
+    },
+    {
+      "i": 30,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "07:54",
+      "en": "be on their radar list in the coming years. So anyways, just something that I thought was interesting. The other news that I saw coming through my desk this week was that the fund of hedge funds industry which took a big dive after 2008, 2009, that seems to be growing nicely again. I understand that there is a.",
+      "zh": "会进入他们的备选名单。总之，只是我觉得有意思的一件事。本周我桌上看到的另一条新闻是，对冲基金中的基金（fund of hedge funds）行业在2008、2009年之后大幅下滑，现在似乎又在健康增长了。我了解到有一个"
+    },
+    {
+      "i": 31,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "08:18",
+      "en": "With intelligence fund of hedge fund billion dollar club AUM has risen more than 10% in the first six months of this year at almost $700 billion. So that's kind of nice to see. So yeah, very interesting development on that. Of course we can't have a conversation this week without just",
+      "zh": "十亿美元俱乐部的对冲基金中的基金，今年前六个月资产管理规模增长了超过10%，达到接近7000亿美元。所以这挺不错的。是的，这是非常有趣的发展。当然，这周我们不能不"
+    },
+    {
+      "i": 32,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "08:40",
+      "en": "mentioning that yesterday was the first trading day of Anthropic because we will have an AI theme to our conversation today. So I think that is definitely relevant. I think they valued at the end around 1.5 trillion but. But I think the interesting thing to me was with all that excitement",
+      "zh": "提一件事：昨天是 Anthropic 的第一个交易日，因为我们今天的谈话会有一个 AI 主题。所以我认为这绝对相关。我想他们收盘时的估值在1.5万亿美元左右，但。我觉得有意思的是，尽管有那么多兴奋情绪，"
+    },
+    {
+      "i": 33,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "09:00",
+      "en": "all indices were down yesterday meaningfully and actually even Anthropic traded off into the close even though it still ended up 14% or so on the day. So we'll see how that works out. And perhaps the most important news for you Rob, this week would then be that there is a new James Bond and he's called Robert. I mean,.",
+      "zh": "昨天所有指数都大幅下跌，实际上连 Anthropic 在收盘前也有所回落，尽管当天它最终还是收涨了14%左右。所以我们拭目以待。而本周对你来说最重要的新闻，Rob，可能就是有了一个新的 James Bond，而他叫 Robert。我是说，"
+    },
+    {
+      "i": 34,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "09:25",
+      "en": "Yeah, I did, I was, I did. They did call me as well actually. I was on the short list obviously and unfortunately I'm just too busy to do it. But. Yeah,. Yeah, but Robert, Robert Pattinson is an excellent, an excellent second choice if you, you can't get, you know, the best Robert. So good, well done. Good, good for him. Well done to him.",
+      "zh": "是啊，我确实，我确实。他们其实也给我打了电话。显然我进入了候选名单，但不幸的是我太忙了，没法接。不过。是的。是的，但 Robert Pattinson 是一个非常非常不错的第二人选，如果你请不到，你知道，最好的那个 Robert 的话。所以很好，干得漂亮。为他高兴。干得漂亮。"
+    },
+    {
+      "i": 35,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "09:43",
+      "en": "I'm looking forward to it. I think he, I think he'll be a good James Bond. He's got that kind of very English mixture of sort of, you know, innocence and, and danger and about him. So yeah, I think he'll be good. Okay. I don't know him at all so I'll. It'll be my first when I, if I do go and see the next Bond movie",
+      "zh": "我很期待。我觉得他，我觉得他会是一个很好的 James Bond。他身上有那种非常英式的混合气质，你知道，天真和危险并存。所以，是的，我觉得他会不错。好的。我完全不了解他，所以。如果我去看下一部 Bond 电影，那将是我第一次看他的 Bond，"
+    },
+    {
+      "i": 36,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "10:02",
+      "en": "that comes out I think next year or in 2028 actually I think it'll be film number 26 as far as I recall anyways. All right. My trend barometer this week, a little bit of a surprise even to myself, I have to say. It's pretty strong. It came in last night at 55. So I'm kind of hoping that that is a sign of what is to come",
+      "zh": "我记得是明年上映，或者其实是2028年，我想那将是第26部 Bond 电影。好的。我本周的趋势晴雨表，说实话连我自己都有点意外。它相当强劲，昨晚的读数是55。所以我有点希望这是一个关于接下来走势的信号，"
+    },
+    {
+      "i": 37,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "10:25",
+      "en": "for ctation trend followers in the rest of November because so far it's been a little bit of a roller coaster. We had a pretty bad first week of the month last week was a great recovery. Not quite full recovery but great recovery. This week also pretty, pretty weak, pretty soft as far as I can tell.",
+      "zh": "对 CTA 趋势跟踪者来说，在11月剩下的时间里，因为到目前为止这个月有点像过山车。本月第一周相当糟糕，上周是很不错的反弹，虽然没有完全收复，但是很好的反弹。而据我看，这周也相当疲软、相当乏力。"
+    },
+    {
+      "i": 38,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "10:46",
+      "en": "Would love to hear and by the way this is mostly driven by what's going on in energy markets as far as I see it, maybe to some extent a little bit in the equity markets. Obviously they're also under pressure but love to hear your thoughts Rob, on, on kind of the trend space at the moment and how you've",
+      "zh": "很想听听你的想法。顺便说一句，在我看来这主要是由能源市场的走势驱动的，某种程度上股市也有一点影响。显然股市也承受着压力。很想听听你的看法，Rob，关于目前的趋势跟踪领域，以及你是"
+    },
+    {
+      "i": 39,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "11:09",
+      "en": "experienced it as well. So I just checked my P and L which I haven't actually done for a couple of days because if anyone who listens to me regularly knows I try and avoid doing it because I think one thing systematic traders have an advantage is I don't need to be constantly looking",
+      "zh": "如何经历这段时间的。所以我刚查看了我的损益（P and L），其实我已经有几天没看了，因为经常听我节目的人都知道，我尽量避免去看它，因为我认为系统化交易者的一个优势就是，我不需要一直盯着"
+    },
+    {
+      "i": 40,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "11:23",
+      "en": "at their systems and being tempted to make changes to them. And I'm very pleased to announce that I'm actually at a high water mark.",
+      "zh": "我的系统看，然后忍不住想去修改它们。而且我很高兴地宣布，我目前正处于高水位（high water mark）。"
+    },
+    {
+      "i": 41,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "11:31",
+      "en": "So that's very good. So yes, that. Is a bit surprising for a trend follow. If I may, if I might just. Well. Let's say I'm about, I'm about a 60% trend follower. Ah, that's. So true. So in years when trend does really well I will underperform and when trend does badly I will outperform. So. Yeah,.",
+      "zh": "所以这非常好。是的，这对一个趋势跟踪者来说有点意外。如果我可以的话。这么说吧，我大约是个60%的趋势跟踪者。啊，确实如此。所以在趋势表现非常好的年份我会跑输，而在趋势表现糟糕的年份我会跑赢。所以，是的。"
+    },
+    {
+      "i": 42,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "11:47",
+      "en": "So yeah, I'm up about 13.6% for the year I would say.",
+      "zh": "所以，是的，我今年到现在大约涨了13.6%。"
+    },
+    {
+      "i": 43,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "11:53",
+      "en": "And yeah that the last couple of weeks have been absolute gangbusters really. So on what. Okay, entertain me here a little bit. The last couple of weeks as I indicated to you has been you know, down a bit in the first week of November, up a bit in, in, in the last week and then down again this week.",
+      "zh": "而且，是的，过去几周的表现简直好得不得了。那么。好吧，说来听听。就像我跟你说的，过去几周是，11月第一周跌了一点，上一周涨了一点，然后这周又跌了。"
+    },
+    {
+      "i": 44,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "12:15",
+      "en": "So what's been working in your portfolio? Just broadly speaking we don't need. To go into. Any. Yeah, I've not been, I mean I'm not down this, this, this month from up so that's been doing good for me. Yeah I, what I'll do, I'll tell you what my positioning is because that will kind of answer that question probably better than better",
+      "zh": "那么你的组合里最近什么在起作用？泛泛地说就行，我们不需要。深入谈任何。是的，我这个月并没有亏，我是从盈利的状态过来的，所以这对我很有利。是的，我这么做吧，我告诉你我的持仓，因为这可能比笼统地说"
+    },
+    {
+      "i": 45,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "12:33",
+      "en": "than and also give a sort of as you say, give a forward like your trend indicator that gives a forward looking indicator of how confident my sister system is that there's trends. So my biggest risk positions are actually in metals and in agriculturals. Okay. So the, the markets we think about a lot, bonds, equities and",
+      "zh": "更能回答这个问题，而且也能像你那个趋势指标一样，提供一个前瞻性的指标，说明我的系统对当前存在趋势的信心有多强。所以我最大的风险头寸实际上在金属和农产品里。好的。也就是说，我们经常想到的那些市场——债券、股票，"
+    },
+    {
+      "i": 46,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "12:53",
+      "en": "maybe energies are not actually and oh sorry an FX as well. So those are the three mark sort of asset classes where I've got big positions. Okay. Our biggest Positions actually are longs in bond markets, but they're kind of offset with shorts on the bond market. So I'm long what I would call the Carney Trump trade.",
+      "zh": "也许还有能源——实际上并不是，哦对了还有外汇。所以那三类才是我持有大头寸的资产类别。好的。我们最大的头寸实际上是债券市场的多头，但被债券市场的空头部分抵消了。所以我做的是我所说的 Carney Trump 交易。"
+    },
+    {
+      "i": 47,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "13:13",
+      "en": "So I'm long Canadian 10 year bonds and short US 10 year bonds. Interesting.",
+      "zh": "也就是说，我做多加拿大10年期债券，做空美国10年期债券。有意思。"
+    },
+    {
+      "i": 48,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "13:19",
+      "en": "I'm short swissy US dollar which I guess Niels is someone living in Switzerland, is a market close to your heart. I'm short platinum, short silver, so I've got short metals positions that are kind of the performing the bulk of my risk at the moment. So I haven't got a very obvious kind of.",
+      "zh": "我做空瑞郎兑美元——我想 Niels，作为一个住在瑞士的人，这应该是一个你比较关心的市场。我做空铂金、做空白银，所以我有金属空头头寸，它们构成了我目前大部分的风险。所以我并没有一个特别明显的、那种"
+    },
+    {
+      "i": 49,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "13:38",
+      "en": "Sometimes you look at a CTA portfolio and it's like say if it's a long equity short bond you're like okay, that's very clearly a kind of risk on portfolio. Or if it's short equity short bonds, you might say, well that's kind of a long sort of inflation shot portfolio. And if it's, you know, if it's short and then long energies as well,",
+      "zh": "有时你看一个 CTA 组合，比如说如果它是做多股票、做空债券，你会说，好的，这明显是一个风险偏好（risk on）组合。或者如果它是做空股票、做空债券，你可能会说，这算是一个做多通胀之类的组合。而如果它做空这些、同时又做多能源，"
+    },
+    {
+      "i": 50,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "13:56",
+      "en": "you're like, well that's inflation related. But it's a much more nuanced picture I've got and maybe that's why I've kind of outperformed a bit because I haven't got a very obvious, what a quant would call a big factor bet on. I've got lots of small bets that in the last couple of weeks as it happens have all done. Have all done well.",
+      "zh": "你会说，嗯，这跟通胀相关。但我目前的图景要微妙得多，也许这就是我稍微跑赢一点的原因，因为我并没有一个非常明显的、量化投资者会称之为大的因子押注的东西。我有很多小的押注，而过去几周它们碰巧全都，全都表现得"
+    },
+    {
+      "i": 51,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "14:12",
+      "en": "So it's not a. My portfolio at the moment is not something that tells a very clear and straightforward story which is often the case. So it's actually quite a nice diversified set of bets which is what you really want. Of course we love diversification. It's just that often the way that the kind of secular macro factors",
+      "zh": "很好。所以我的组合目前并不是那种能讲出一个非常清晰直白的故事组合——虽然这种情况很常见。所以它其实是一组相当不错的多元化押注，而这正是你真正想要的。当然我们都热爱多元化。只是很多时候，那种驱动一切的"
+    },
+    {
+      "i": 52,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "14:29",
+      "en": "that sort of underlie everything drive things, often we just end up with quite concentrated bets, Nast ETA portfolios, purely by accident because of course they're not sort of top down constructed, they're bottom up constructed. It just so happens that we belong a bunch of equities at the same time.",
+      "zh": "宏观长期因素推动市场的方式，常常让我们在 CTA 组合里意外地形成相当集中的押注，纯粹是碰巧，因为这些组合当然不是自上而下构建的，而是自下而上构建的。就是碰巧我们同时做多了"
+    },
+    {
+      "i": 53,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "14:43",
+      "en": "Just because equities have been going up.",
+      "zh": "一堆股票，只是因为股票一直在涨。"
+    },
+    {
+      "i": 54,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "14:46",
+      "en": "As I said at the moment I haven't got that at all. I've got actually as I said, got a sort of a spread bet in bonds effectively. And then these other bets that don't seem to have necessarily a very logical explanation for them, but we don't need logical explanations, we just put on the trades that the signals tell us so we can just relax.",
+      "zh": "就像我说的，目前我完全没有那种情况。实际上就像我说的，我有一个在债券上的价差押注，然后还有这些其他押注，它们看起来不一定有非常合乎逻辑的解释，但我们不需要合乎逻辑的解释，我们只是按照信号告诉我们的去下单，所以我们可以很放松。"
+    },
+    {
+      "i": 55,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "15:03",
+      "en": "And at the moment, as I said, I'm doing very well out of that approach. So, yeah,. Yeah, congrats. Good to hear. And actually, just maybe for people who don't follow the markets as closely as perhaps we do in our industry, I mean, if you were telling people that, oh, we still have tension and strikes happening",
+      "zh": "而且目前，就像我说的，这个方法让我做得非常好。所以，是的。是的，恭喜。很高兴听到。实际上，也许是为了那些不像我们业内人这样密切关注市场的人说一下，我是说，如果你告诉人们，哦，中东和霍尔木兹海峡仍然有紧张局势和袭击，"
+    },
+    {
+      "i": 56,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "15:25",
+      "en": "in the Middle east and in the Strait of Hormuz, you probably wouldn't have thought that. Crude oil was down 20% so far this month. Same with some of the other energy markets and even some of the other things that generally are associated with uncertainty, gold, silver, things like that people would go into.",
+      "zh": "你大概不会想到，原油本月到目前为止已经下跌了20%。其他一些能源市场也是一样，甚至连一些通常与不确定性相关的东西，比如黄金、白银，人们会去买的，"
+    },
+    {
+      "i": 57,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "15:46",
+      "en": "They're down heavily this month and actually in the last few days, of course, equities are now also, you know, meaningfully down for, for the, for the month. I mean, Nikkei is down almost 10% so far on the futures basis. So yeah, it's been an interesting month. And actually, as we will hear In a second, CTAs are not doing badly,",
+      "zh": "它们本月都大幅下跌，实际上过去几天，当然，股市现在也明显下跌了，本月跌幅可观。我是说，按期货计算，日经指数（Nikkei）本月到目前为止已经跌了近10%。所以，是的，这是个有意思的月份。实际上，就像我们马上会听到的，CTA 的表现并不差，"
+    },
+    {
+      "i": 58,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "16:07",
+      "en": "I would say. So. The beta 50 index as of Wednesday, you and I recording on Friday, it's only down 2.5% so far in November, still up 10.5% so far this year. SoC Gen CT Index down 2.38% in November, up 11.15% this year. The Soctin Trend Index down 2.87 and up 11.12% for the year.",
+      "zh": "我会这么说。Beta 50 指数，截至周三——你和我是在周五录制的——11月到目前为止只下跌了2.5%，今年到现在仍然上涨10.5%。SocGen CTA 指数11月下跌2.38%，今年上涨11.15%。SocGen 趋势指数下跌2.87%，全年上涨11.12%。"
+    },
+    {
+      "i": 59,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "16:30",
+      "en": "Short Term Traders Index doing better this month, down only 8 basis points and up 5% so far this year. Comparing that to the traditional world where MSCI World is now down more than 5% and up only five and a quarter percent so far this year. We have the S&P 500 also down five and a quarter so far this month",
+      "zh": "短期交易者指数（Short Term Traders Index）本月表现更好，只下跌了8个基点，今年到目前为止上涨5%。相比之下传统的世界，MSCI World 现在已经下跌超过5%，今年到目前为止只上涨了5.25%。标普500（S&P 500）本月同样下跌5.25%，"
+    },
+    {
+      "i": 60,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "16:51",
+      "en": "and up now 5.89% so far this year. So even though maybe CTAs are not producing any positive returns right now and people saying, oh, where's the crisis alpha and all that, well, firstly, there is no crisis at this stage and secondly, and we're certainly adding some value by not being down as much as equities right now.",
+      "zh": "今年到目前为止上涨5.89%。所以，尽管 CTA 现在可能没有产生正回报，人们会说，哦，危机 alpha 在哪里之类的，那么，首先，现阶段并没有危机；其次，我们 certainly 通过没有像股票那样下跌，正在创造一些价值。"
+    },
+    {
+      "i": 61,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "17:18",
+      "en": "All right, as I mentioned, we have quite a few questions we need to get through and then we have quite a few topics that we wanted to share this week. So I'm going to jump straight into it. And in no particular order, we had, I think four questions that came in and I'll do my very best to, to get them out in the order they came in.",
+      "zh": "好的，正如我提到的，我们有相当多的问题要过一遍，然后还有相当多我们本周想分享的话题。所以我直接进入正题。不分特定顺序，我们收到了，我想是四个问题，我会尽最大努力按照它们发来的顺序提问。"
+    },
+    {
+      "i": 62,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "17:38",
+      "en": "The first one was from Matteo, Matteo's writing. Thank you for dedication to your podcast. It's truly entertaining. I heard Rob would be on Thursday and I just wanted to Ask whether the release of Bloomberg's Ask B would contribute to a decay in informational alpha, potentially leading to more crowding in institutional portfolios.",
+      "zh": "第一个问题来自 Matteo。Matteo 写道：感谢你们对播客的投入，真的很有意思。我听说 Rob 周四会来上节目，我就想问一下，Bloomberg 推出的 Ask B 是否会导致信息 alpha 的衰减，进而可能导致机构投资者组合更加拥挤。"
+    },
+    {
+      "i": 63,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "18:02",
+      "en": "Now I'm personally not familiar with Ask B. It sounds like a little bit of AI incorporated in Bloomberg, but maybe you know some about something about this. Yeah, well it's been a long time since I've had a Bloomberg subscription because they're very expensive and as a non institutional person I can't really justify the cost.",
+      "zh": "我个人对 Ask B 不太熟悉。听起来像是 Bloomberg 里加入了一点 AI，但也许你了解一些。是啊，我很久没有 Bloomberg 订阅了，因为它们非常贵，而作为非机构人士，我真的没法为这个成本找到理由。"
+    },
+    {
+      "i": 64,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "18:21",
+      "en": "The I googled it as you do and found out about it. There's a very nice fancy landing page on the Bloomberg website and yes, it's basically a kind of Bloomberg system for accessing their agentic AI framework. And that's something we're going to talk about later in the, in the podcast as well.",
+      "zh": "我像你一样去 Google 搜了一下，了解了这个东西。Bloomberg 网站上有一个非常漂亮花哨的落地页，是的，它基本上是一个用于访问他们的 agentic AI（代理式 AI）框架的 Bloomberg 系统。这也是我们稍后在播客里要谈到的东西。"
+    },
+    {
+      "i": 65,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "18:41",
+      "en": "So I guess I'll answer the. You know, is this, you know, there's sort of two questions here. One is will it lead to decay and alpha? And the second is will it lead to crowding? And they're not necessarily the same thing because you can have one without the other.",
+      "zh": "所以我想我来回答这个。你知道，这里面其实有两个问题。一个是它会不会导致 alpha 衰减，第二个是它会不会导致拥挤。这两者不一定是同一回事，因为你可以只有其中之一。"
+    },
+    {
+      "i": 66,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "18:53",
+      "en": "So I'm not sure. So I guess, you know, in terms of a general question as to whether more use of AI will lead to these two things, we, we kind of. I've sort of touched them briefly in previous podcasts, but I would say that if people are using AI models and those AI models are giving the same kind of responses, then yes, that will lead",
+      "zh": "所以我不确定。我想，就「更多使用 AI 是否会导致这两件事」这个一般性问题而言，我们，算是。我在之前的播客里简单谈过，但我会说，如果人们都在使用 AI 模型，而这些 AI 模型给出的是同类的回答，那么是的，那会导致"
+    },
+    {
+      "i": 67,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "19:15",
+      "en": "to crowding because people will end up with the same trades on and then depending on the kind of strategy that crowding could then lead to a loss of. I'm not sure about whether I've used this term informational alpha, but certainly a loss, a loss of, you know, performance because",
+      "zh": "拥挤，因为人们最终会持有相同的交易，然后取决于策略类型，那种拥挤可能导致损失。我不确定我是否用过「信息 alpha」这个说法，但 certainly 会有业绩的，业绩的，损失，因为"
+    },
+    {
+      "i": 68,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "19:28",
+      "en": "some trades do very badly when they get crowded, like particularly relative value trades. It's not quite so true with trend following, but certainly carry and relative value definitely do worse if there's crowding. Now I guess if you have a lot of institutions who perhaps are not",
+      "zh": "有些交易在被拥挤之后表现会很差，特别是相对价值（relative value）交易。趋势跟踪不太一样，但 carry（套息）和相对价值交易在拥挤的情况下肯定会更差。现在我想，如果你有很多机构，他们也许没有"
+    },
+    {
+      "i": 69,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "19:42",
+      "en": "at the threshold where they use they've got to build their own AI, but then sort of using the Bloomberg AI to kind of tap into.",
+      "zh": "达到需要自建 AI 的门槛，但转而使用 Bloomberg AI 来接入。"
+    },
+    {
+      "i": 70,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "19:51",
+      "en": "So you know, I don't know, Goldman Sachs will probably have their own AI, I'm pretty sure because they're a massive organization with lots of resources. But maybe if you're a hedge fund running 50, $100 million, that's not AUM, that's maybe not enough. So you'd be using some kind of commercial AI system, maybe use the",
+      "zh": "所以，你知道，我不知道，Goldman Sachs 很可能会有自己的 AI，我相当肯定，因为他们是一个资源庞大的巨型组织。但如果你是一个管理5000万、1亿美元的对冲基金，那不是资产管理规模，那可能不够。所以你会使用某种商业 AI 系统，也许会用"
+    },
+    {
+      "i": 71,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "20:08",
+      "en": "Bloomberg AI system as well. If you have a bunch of funds all using the Bloomberg AI system and all being given the same answers, then yes, you might expect that to lead to crowding.",
+      "zh": "Bloomberg AI 系统。如果你有一堆基金都在使用 Bloomberg AI 系统，而且都得到相同的答案，那么是的，你可以预期那会导致拥挤。"
+    },
+    {
+      "i": 72,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "20:19",
+      "en": "Not quite the same thing. But I, I did hear a very interesting piece of research being discussed and I'm afraid I can't remember the, the authors or anything like that because it was just, just being, it was on another podcast. But they, they did get the, they did some research and they looked",
+      "zh": "不完全是同一回事。但我确实听到一项非常有趣的研究被讨论，恐怕我记不起作者之类的信息了，因为它只是在，是在另一个播客上听到的。他们做了一些研究，考察了"
+    },
+    {
+      "i": 73,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "20:35",
+      "en": "at some retail investors who were using a, an AI provided by their, their broker. And they, they did a sort of experiment to see what effect that had on the, on the behavior of the retail investors. And basically the AI was giving them the same advice and it was giving them the advice to buy index portfolios, which is kind",
+      "zh": "一些使用其券商提供的 AI 的散户投资者。他们做了一种实验，看看那对散户投资者的行为有什么影响。基本上，AI 给他们的建议都是一样的，而且是建议他们购买指数投资组合，这是那种"
+    },
+    {
+      "i": 74,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "20:57",
+      "en": "of the, the bog standard advice that you'd give to a retail investor. Like if you, you know, if you don't believe you've got any edge or any information in the market, then the cheapest thing you can do is to buy an index ETF or a bunch of index ETFs and get a diversified portfolio and then don't touch it.",
+      "zh": "你会给散户投资者的标准建议。就像，如果你不认为自己在市场上有任何优势或任何信息，那么你能做的最便宜的事情就是买一只指数 ETF 或一组指数 ETF，获得一个多元化的组合，然后不要动它。"
+    },
+    {
+      "i": 75,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "21:11",
+      "en": "That's like, you know, that's probably the right way to invest for probably 99% of people out there, I would say. Of course One of those ETFs should be a CTA ETF. And that's another story anyway. Pin switch one. Yeah, well, I know, I agree. Yeah, yeah, that would not necessarily one with the ticker cta, shall we say?",
+      "zh": "这大概是，你知道，对市面上99%的人来说可能是正确的投资方式，我会这么说。当然，其中一只 ETF 应该是 CTA ETF。不过那又是另一个故事了。是的，嗯，我知道，我同意。是的，是的，而且未必是代码叫 CTA 的那种，可以这么说吧？"
+    },
+    {
+      "i": 76,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "21:30",
+      "en": "Anyway, this isn't relevant to what I'm saying now. The interesting thing is that that actually then caused those investors to change their behavior. So they stopped doing lots of active trading that was probably costing them money and more of them actually bought the etf. So found the AI telling them to do this more compelling than the",
+      "zh": "总之，这跟我现在要说的没关系。有意思的是，这实际上导致那些投资者改变了行为。他们停止了大量可能在亏钱的主动交易，而且更多人实际上买了 ETF。所以，比起"
+    },
+    {
+      "i": 77,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "21:47",
+      "en": "fact that it's sort of bog standard financial advice coming from elsewhere. So that's an example of where using an AI did lead to crowding. Although actually arguably in a good way in the sense it did actually nudge retail investors towards what was probably a better solution for them.",
+      "zh": "这种标准财务建议来自其他渠道这一事实，他们觉得 AI 告诉他们这样做更有说服力。所以这是一个使用 AI 确实导致拥挤的例子。虽然实际上可以说是良性的，因为它确实把散户投资者推向了可能对他们更好的解决方案。"
+    },
+    {
+      "i": 78,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "22:01",
+      "en": "So yeah, anyway, short answer, the question is it could lead to crowding if it does tend to give the same advice to lots of people. And that's true of probably any AI, not necessarily the Bloomberg AI. But if the Bloomberg AI becomes the kind of standard AI used by lots of sort of, as I said, small to mid sized hedge funds, then",
+      "zh": "所以，是的，总之，简短的回答是：如果它倾向于向很多人给出相同的建议，就可能导致拥挤。这对任何 AI 可能都适用，不一定是 Bloomberg AI。但如果 Bloomberg AI 成为很多，就像我说的，中小型对冲基金使用的标准 AI，那么"
+    },
+    {
+      "i": 79,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "22:19",
+      "en": "obviously that could lead to a lot of position crowding. But you know, you don't need AI. To lead to position crowding. I mean lots of people were long, you know, long the AI trade. There's been some quite famous blow ups, public blow ups. There's been lots of ponds blowing up as well. Although we don't unless we hear about those.",
+      "zh": "显然那可能导致大量头寸拥挤。但是，你知道，你并不需要 AI 来导致头寸拥挤。我是说，很多人都做多了，你知道，做多 AI 交易。有一些非常有名的爆仓，公开的爆仓。还有很多基金爆仓，虽然我们听不到，除非我们听说那些。"
+    },
+    {
+      "i": 80,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "22:37",
+      "en": "Those are more rumors. So you don't need AI to get you to do things of betting on the same sort of factor exposure as everybody else. But AI may make it worse, who knows. Yeah, maybe we can send out a bit of a challenge to our tribe and that is for anyone who has askbe who has a Bloomberg, maybe they could just try and ask it.",
+      "zh": "那些更多是传闻。所以你并不需要 AI 来促使你押注与其他人相同的因子敞口。但 AI 可能让情况更糟，谁知道呢。是啊，也许我们可以向我们的听友群发出一个挑战，那就是让任何有 Ask B、有 Bloomberg 的人，也许可以试着问问它："
+    },
+    {
+      "i": 81,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "23:00",
+      "en": "If you could create a portfolio of global equities, global bonds, trend following and gold, what would be the best optimal allocation between those four choices? Just to see what the answer is. Because if, if it's true that over time people will adopt what AI tells them to do, I would like to be prepared should it come",
+      "zh": "如果你可以在全球股票、全球债券、趋势跟踪和黄金之间构建一个组合，这四个选择之间的最佳配置会是什么？只是想看看答案是什么。因为如果，如果随着时间推移人们真的会采纳 AI 告诉他们做的事情，那么如果它有一天找上"
+    },
+    {
+      "i": 82,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "23:24",
+      "en": "my way, so to speak. Anyways, the next question is from Chris all the way in Australia. Nice to hear from you, Chris. He says, I'm a big fan of ttu. Thank you for all you do in the systematic community. I have three questions for Rob. Happy for one or all to be asked? I'll try to do all of them with that. Nice introduction for sure.",
+      "zh": "我，我想做好准备，可以这么说。总之，下一个问题来自远在澳大利亚的 Chris。很高兴收到你的来信，Chris。他说：我是 TTU 的忠实粉丝，感谢你们为系统化交易社区所做的一切。我有三个问题给 Rob，问一个或全部都可以。我会尽量把三个都问了。这介绍真不错。"
+    },
+    {
+      "i": 83,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "23:45",
+      "en": "Do per simple conditional still generate more alpha than the array of boutique leverage ETFs that can be Vol. Scaled? I'm going to be completely honest, Chris, I'm not sure I understand the question. Okay,. You understand the question, Niels?",
+      "zh": "简单的条件化趋势跟踪是否仍然比一系列可以做波动率缩放的精品杠杆 ETF 产生更多 alpha？我得完全诚实，Chris，我不确定我理解这个问题。好吧。你理解这个问题吗，Niels？"
+    },
+    {
+      "i": 84,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "24:04",
+      "en": "No, I was kind of relying on you since I. Since I forwarded to. You in. Advance. Let's do our best to interpret this. Okay,. So boutique leveraged ETFs that could be volume scale. Well, obviously. Well, okay, so you can trade trend following a number of ways. You can do single stocks, you can do ETFs, you can do futures.",
+      "zh": "不，我可是一直指望你呢，因为我提前把问题转给你了。我们尽力解读一下吧。好的。所以，可以做波动率缩放的精品杠杆 ETF。嗯，显然。好吧，你可以用很多方式交易趋势跟踪。你可以做单只股票，可以用 ETF，也可以用期货。"
+    },
+    {
+      "i": 85,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "24:22",
+      "en": "The nice thing about doing say futures is of course the leverage is implicit. So as long as you're not using crazy amounts of leverage to run into margin issues, you can sort of basically set the leverage to wherever you like.",
+      "zh": "用期货的好处当然是杠杆是隐含的。所以只要你不用疯狂到导致保证金问题的杠杆，你基本上可以把杠杆设定成任何你想要的水平。"
+    },
+    {
+      "i": 86,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "24:32",
+      "en": "Now if you can't use futures, then you can kind of get a sort of reasonable substitute. It's certainly in equities and in bonds where there's a lot of leveraged ETFs available. So you can get, you can buy S and P. You can also buy short S and P. You can buy 2 times leveraged S&P. You could by 2 times short leverage S and P, and so on.",
+      "zh": "现在，如果你不能用期货，那你可以得到一种还算合理的替代品。股票和债券里肯定有很多杠杆 ETF 可用。所以你可以买标普，也可以买做空标普。你可以买2倍杠杆标普，可以买2倍做空杠杆标普，等等。"
+    },
+    {
+      "i": 87,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "24:50",
+      "en": "And so forth. And I think the worst I've seen is like five times Nasdaq, which is obviously wouldn't have done well recently. Let's just leave it at that. And there's a huge caveat here because often there are sort of issues with leveraged ETFs and so they're often more expensive.",
+      "zh": "诸如此类。而且我见过最夸张的大概是5倍做多 Nasdaq，最近显然不会表现好。我们就这么说吧。这里有一个很大的警告，因为杠杆 ETF 常常存在一些问题，所以它们往往更贵。"
+    },
+    {
+      "i": 88,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "25:05",
+      "en": "This sort of daily reset issue, that's a problem and I'm pretty sure I've talked about in a previous podcast so people can go and look that up. But in principle, you know, if, if you're not, if you don't go crazy, then it might make sense to, to use say you know, like a two times leverage bond etf.",
+      "zh": "这种每日重置的问题是个麻烦，我相当肯定我在之前的播客里谈过，大家可以去翻一翻。但从原则上讲，如果你不疯狂加杠杆，那么使用比如2倍杠杆的债券 ETF 可能是有意义的，"
+    },
+    {
+      "i": 89,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "25:23",
+      "en": "If you can't trade futures as your sort of bond instrument that you're trading.",
+      "zh": "如果你不能用期货作为你交易的债券工具的话。"
+    },
+    {
+      "i": 90,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "25:29",
+      "en": "So that's, that's kind of, I guess that question as to whether you should trade futures or ETFs. I guess if you can trade futures if you've got a reasonably large account, then futures will be a better bet.",
+      "zh": "所以这大概就是关于应该交易期货还是 ETF 的问题。我想如果你能交易期货，如果你的账户规模比较大，那么期货会是更好的选择。"
+    },
+    {
+      "i": 91,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "25:41",
+      "en": "If you, if you can't, then leverage ETFs are a crude way of at least getting the sort of equity bond exposure in your portfolio in a, in a sort of reasonable way. I don't know if that's the question he was answering, but you know,. No, I think we do, we did our best. No, that's fine. We did. Our best.",
+      "zh": "如果你不能，那么杠杆 ETF 是一种粗糙的方式，至少能以还算合理的方式把股票和债券敞口放进你的组合。我不知道这是不是他想问的问题，不过。不，我觉得我们，我们尽力了。不，那就好。我们尽力了。"
+    },
+    {
+      "i": 92,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "25:59",
+      "en": "Let's move on to the other two questions. So they're interesting probably. Yeah, no, absolutely. So I'm going to shorten the question number two a little bit. It's, it's a fairly long one. But essentially, you know, Chris has been trying lots of things in terms of improving his cpu, GPU memory and all of that stuff",
+      "zh": "让我们继续看另外两个问题，它们应该更有意思。是的，绝对。所以我要把第二个问题稍微缩短一点，它相当长。但基本上，Chris 一直在尝试改进他的 CPU、GPU、内存等等这些东西，"
+    },
+    {
+      "i": 93,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "26:18",
+      "en": "in trying to work on certain algorithms and tweak them over time. And then he says, but I have realized I've been tweaking the same algorithm for a long time. Although I have a good Pareto and I'm profitable, am I better off letting a number of stable versions run live or continue tweaking one algorithm?",
+      "zh": "试图研究某些算法并随着时间不断调整它们。然后他说，但我意识到我已经在同一个算法上调整了很长时间。虽然我有一个不错的帕累托前沿（Pareto）而且是盈利的，我是让多个稳定版本实盘运行更好，还是继续调整同一个算法？"
+    },
+    {
+      "i": 94,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "26:39",
+      "en": "I thought that's kind of an interesting question. It's a very interesting question. And just by coincident, it also speaks to the sort of what's going to be the general theme of this episode, which I think is AI and sort of strategy design. So the short answer is stop tweaking.",
+      "zh": "我觉得这是个挺有意思的问题。这是一个非常有意思的问题。而且巧合的是，它也正好呼应了本期节目将要讨论的大主题，也就是 AI 与策略设计。所以简短的回答是：停止调整。"
+    },
+    {
+      "i": 95,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "26:54",
+      "en": "Because I mean, I'm, you know, people, most people spend far, far too much time over, over tweaking. But, but you know, the best case scenario is that every tweak you do adds a tiny bit of incremental performance. The worst case scenario is you're overfitting. And you know I, I'd say for you know, I, I mean I, I probably",
+      "zh": "因为我是说，大多数人在过度调整上花的时间太多太多了。但最好的情况是，你的每一次调整都增加了一点点增量性能。最坏的情况是你在过度拟合（overfitting）。而且我会说，在过去"
+    },
+    {
+      "i": 96,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "27:15",
+      "en": "in the last 12 years when I've been trading my own system, I probably like refitted it, recalibrated it maybe twice because you know, I've got a back test that goes back to 1970. You know, am I really likely to get, you know, additional information even over three years that's going to change the way that backtest should, should look?",
+      "zh": "12年里，我在交易我自己的系统，我大概只重新拟合、重新校准过两次，因为我有一个回溯到1970年的回测。你觉得，我甚至在三年的时间里，真的有可能获得会改变这个回测应有样子的额外信息吗？"
+    },
+    {
+      "i": 97,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "27:35",
+      "en": "Probably not. Are there is. Am I really going to get a fundamentally difference in outperformance through changing the way I do my optimization?",
+      "zh": "大概率不会。那么，我真的会通过改变我做优化的方式，获得根本不同的超额表现吗？"
+    },
+    {
+      "i": 98,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "27:44",
+      "en": "Probably not. So I would say the question is am I better letting it off run stable? Yes, probably. And now the caveat there is I don't know what kind of trading Chris is doing. So I'm talking about my, my trading which is sort of similar to most of CT industry. We're looking at a holding period of say about a month, maybe a few months.",
+      "zh": "大概率不会。所以我会说，问题是：让它稳定运行是不是更好？是的，大概率是。这里的注意事项是，我不知道 Chris 做的是哪种交易。所以我谈的是我的交易，它跟 CTA 行业的大多数人差不多，我们的持仓周期大约是一个月，也许几个月。"
+    },
+    {
+      "i": 99,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "28:04",
+      "en": "Now the, what Chris is describing would, would work well in a high frequency space where you've got a lot of two things. Firstly, you've got a lot more data, you've got a lot more information, you've got a lot more data points because every time you trade you get a data point. If you're a high frequency trader, you're getting thousands,",
+      "zh": "而 Chris 描述的那种做法，在高频领域会很适用，因为在那个领域你有很多两样东西。第一，你有更多的数据、更多的信息、更多的数据点，因为每次交易你都会得到一个数据点。如果你是高频交易者，你每天会得到成千上万，"
+    },
+    {
+      "i": 100,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "28:18",
+      "en": "if not tens of thousands of data points a day. And the second thing is you're more likely to have alpha decay. You're more likely to have a situation where you do need to tweak and refit continuously.",
+      "zh": "甚至数以万计的数据点。第二件事是，你更有可能遇到 alpha 衰减。你更有可能处在那种确实需要不断调整和重新拟合的情况里。"
+    },
+    {
+      "i": 101,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "28:28",
+      "en": "So if Chris is in that space then yes, carry on refitting. Although it sounds like he's trying lots of different fitting approaches and optimization approaches and that sounds, you know, I'd be careful there because you can end up doing what I call methodology shopping where you basically hunt out the best sort",
+      "zh": "所以如果 Chris 在那个领域，那么是的，继续重新拟合。不过听起来他在尝试很多不同的拟合方法和优化方法，这听起来，你知道，我会对此谨慎，因为你最后可能做我所说的「方法论购物」（methodology shopping），也就是专门去挑出那种"
+    },
+    {
+      "i": 102,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "28:45",
+      "en": "of fitting strategy that gives you the highest performance sort of in sample which obviously is effectively a form of in sample fitting just at a meta level. So don't do that. But yeah, if you are having to, if you're refitting using the same technology every, every few weeks or every few months that",
+      "zh": "能给你最高样本内表现的拟合策略，而这实际上就是一种样本内拟合，只不过是在元层面上做的。所以不要那样做。但是，是的，如果你必须用同样的技术每隔几周或几个月重新拟合一次，那"
+    },
+    {
+      "i": 103,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "29:00",
+      "en": "would be appropriate for a high frequency trader. But as I said it's a complete waste of time and probably inappropriate for someone with a longer holding period. Yeah. And maybe I just want to add one thing because when I heard you speak there it, it, you know, people might misunderstand that as",
+      "zh": "对高频交易者是合适的。但就像我说的，对于持仓周期更长的人来说，这完全是浪费时间，而且很可能不合适。是的。也许我想补充一点，因为我听你那么讲的时候，人们可能会误解成"
+    },
+    {
+      "i": 104,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "29:17",
+      "en": "oh, research is not important and you don't need to do it. And I would say I think you're, you're. I think that the, the takeaway for me is this, that yeah, if you're trying just to slightly improve the same algorithm, the same methodology, just changing, you know, parameters all the time",
+      "zh": "哦，研究不重要，你根本不需要做研究。而我会说，我觉得你，你是。我觉得我从中的收获是这样的：是的，如果你只是想稍微改进同一个算法、同一套方法论，只是一直改改参数"
+    },
+    {
+      "i": 105,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "29:34",
+      "en": "or something like that, I think, I think you're absolutely right, Rob, that that is not where you should be spending your time. But if you're trying to come up with generally new ideas, things that can complement what, what you do in a meaningful way and you feel confident about such an improvement, to me, that's the more",
+      "zh": "之类的，我觉得你说得完全对，Rob，那不应该是你花时间的地方。但如果你想提出全新的想法，能够以有意义的方式补充你所做的东西，而且你对这样的改进有信心，那对我来说才是更"
+    },
+    {
+      "i": 106,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "29:55",
+      "en": "important part, which, you know, probably happens more often than what you've done. But for firms where they have big research departments, you would expect them to on a regular basis to come up with something that can be meaningful because otherwise there would be no need for having these research departments at all.",
+      "zh": "重要的部分，这种事情发生的频率大概比你重新拟合两次要高。但对于那些拥有大型研究部门的公司，你会期望他们定期拿出一些有意义的东西，因为否则就完全没有必要设立这些研究部门了。"
+    },
+    {
+      "i": 107,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "30:14",
+      "en": "So anyways, just wanted to clarify that from my side.",
+      "zh": "总之，只是想从我这边澄清一下。"
+    },
+    {
+      "i": 108,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "30:18",
+      "en": "Last question from Chris is I find AI very beneficial for rapid prototyping, but almost useless for the creative original thought that so often finding Alpha requires. I'm just going to skip forward here and say I'm wondering if you or other experience similar AI behavior. Are there any tricks or should I just accept this is intrinsic to",
+      "zh": "Chris 的最后一个问题是：我发现 AI 对快速原型设计非常有用，但对于寻找 alpha 所必需的那种创造性的原创思维几乎没用。我直接跳到后面：我想知道你或其他人是否有过类似的 AI 使用体验。有什么技巧吗，还是我应该接受这就是"
+    },
+    {
+      "i": 109,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "30:42",
+      "en": "LLMs?",
+      "zh": "LLM 的固有属性？"
+    },
+    {
+      "i": 110,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "30:44",
+      "en": "Yeah. So this again speaks to the sort of AI theme of the episode and how you use it for trading strategy design. So the first thing I should say is, you know, I think most people know this. I'm about as much of a fan of AI as I am a fan of Elon Musk and I don't really use it a lot in my sort of trading strategy work.",
+      "zh": "是的。这又呼应了本期的 AI 主题，也就是你如何把 AI 用于交易策略设计。首先我应该说，我想大多数人都知道这一点：我对 AI 的喜爱程度，大概跟我对 Elon Musk 的喜爱程度差不多，而且我在自己的交易策略工作中并不怎么用它。"
+    },
+    {
+      "i": 111,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "31:02",
+      "en": "I'll talk a bit later in the episode about where I do think it's appropriate to use it. Now the question is to whether AI can come up with an original Thor. Well, the obvious answer is no, it can't because it's basically just working off pre digested work that other people have done and then throwing out to you.",
+      "zh": "我会在节目后面谈到我认为适合使用它的地方。那么问题是，AI 能不能提出原创想法？显而易见的答案是不能，因为它基本上只是基于别人已经做好的、预先消化过的工作，然后抛给你。"
+    },
+    {
+      "i": 112,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "31:19",
+      "en": "I think what it can do though sometimes is help prompt you come up with an original thought.",
+      "zh": "不过我认为，它有时能做的是帮助提示你，让你自己想出一个原创的想法。"
+    },
+    {
+      "i": 113,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "31:24",
+      "en": "So, you know, just, just to give you a random example, I was experimenting with AI as part of this blog post I've written that I'll talk about later in the episode. And I, I said, well, just tell me, you know, summarize for me the research on this particular topic and it blasted out 10 pages of stuff which is, you know, interesting.",
+      "zh": "随便举个例子，作为我写的那篇博客文章的一部分——我会在节目后面谈到——我在用 AI 做实验。我说，好吧，就告诉我，帮我总结一下这个特定主题的研究，然后它一口气输出了10页的东西，这还挺有意思的。"
+    },
+    {
+      "i": 114,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "31:44",
+      "en": "I read through it. I'll be honest with you. There were some hallucinations in There, So it wasn't perfect, but it did have a few papers in there, some references, and a couple of those papers I hadn't seen before. I went and clicked on one of those papers and I started reading it and that prompted a thought in my head.",
+      "zh": "我通读了一遍。老实说，里面有一些幻觉（hallucination），所以它并不完美，但确实有几篇论文、一些参考文献在里面，而其中有几篇论文我之前没见过。我点开了其中一篇论文开始读，然后它在我脑海中激发了一个想法。"
+    },
+    {
+      "i": 115,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "31:59",
+      "en": "So I think it could be quite good for that.",
+      "zh": "所以我觉得它在这方面可能相当好用。"
+    },
+    {
+      "i": 116,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "32:02",
+      "en": "I kind of, sort of. I don't know if. Obviously, you know, you have to be quite old to remember this, but if you've ever had the experience of kind of being in a physical library and just flicking through books and pulling books on the shelf at random and looking at things, it's kind",
+      "zh": "我有点，算是。不知道你有没有——显然你得年纪够大才会记得这个——但如果你有过在实体图书馆里的经历，随意翻书，随机从书架上抽书来看，那种感觉"
+    },
+    {
+      "i": 117,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "32:15",
+      "en": "of a bit like that, but sort of, you know, the fact you've got access to effectively every book in the world, if you like, or all the information in the world at the same time. So that I find sort of quite useful. And it's almost. You can do similar things with search engines or Wikipedia, but",
+      "zh": "就有点像那样，但不同的是你可以同时接触到世界上几乎每一本书，或者说世界上所有的信息。所以我觉得这挺有用的。而且这几乎。你用搜索引擎或者维基百科也能做类似的事，但"
+    },
+    {
+      "i": 118,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "32:31",
+      "en": "it's more generic, generic than that, and more of a sort of satisfying experience. You just have to be aware that of course it will hallucinate and it may say, this is a great paper, the paper might not even exist, or the paper might not be on what you want. So, yeah, I'd say if you're going to be relying on AI to come",
+      "zh": "它比那更泛用，也是一种更令人满足的体验。你只是必须清楚，它当然会产生幻觉，它可能会说这是一篇很棒的论文，而那篇论文可能根本不存在，或者论文讲的根本不是你想要的内容。所以，是的，我会说，如果你要依靠 AI 来想"
+    },
+    {
+      "i": 119,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "32:48",
+      "en": "up with original ideas, then you might end up picking up an idea from elsewhere you weren't aware of. But it isn't going to be an original. It's not going to be coming up with genuinely original ideas. That's just not what it can do. Yeah, no, I think that's. That's fair. All right, question from Stefan.",
+      "zh": "出原创想法，那么你最终可能会从别处捡到一个你原本不知道的想法。但它不会是原创的。它不会想出真正原创的想法。那根本不是它能做的事。是的，不，我觉得这，这说得对。好的，来自 Stefan 的问题。"
+    },
+    {
+      "i": 120,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "33:03",
+      "en": "Stefan Ross writes, rob asked for questions to be sent to you for an upcoming TTU recording this week. And here goes. A paper posted on Arxiv last week asked questions most trend following research skips if markets are heterogeneous, why do we fit one global model? Idiosyncratic Market Effect in Global Time Series Momentum, which",
+      "zh": "Stefan Ross 写道：Rob 之前请大家把问题发过来，用于本周的 TTU 录制。问题来了。上周 Arxiv 上发布的一篇论文，问出了大多数趋势跟踪研究都会跳过的问题：如果市场是异质的，为什么我们要拟合一个全球统一的模型？《全球时间序列动量中的特异市场效应》（Idiosyncratic Market Effect in Global Time Series Momentum），这篇"
+    },
+    {
+      "i": 121,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "33:29",
+      "en": "is published this month, looks at 50 global futures markets from 1950 to 2026 and estimates a separate nonlinear response curve per market, rather than forcing one specification on everything. And by the way, I clicked on the link and the paper is by Andrew Butler and the next name. I am a little bit uncertain about how I pronounce that.",
+      "zh": "本月发表的论文，考察了1950到2026年的50个全球期货市场，为每个市场分别估计一条非线性响应曲线，而不是把一个统一的设定强加于所有市场。顺便说一句，我点开了链接，论文作者是 Andrew Butler 和另一个名字，那个名字我不太确定怎么发音。"
+    },
+    {
+      "i": 122,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "33:50",
+      "en": "You may know the general. It's. I do know it's my Czech. Anyways, he said he ends up the question by saying I'm leaning towards not worth it, most likely overfitting. Anyways, love to hear your thoughts on this. So I'M really pleased that Stefan asked this question. So. Hi Stefan, by the way. Nice to hear from you.",
+      "zh": "你可能知道怎么念。它是。我确实知道，那是捷克语。总之，他说他在问题的最后表示：我倾向于认为不值得做，很可能是过度拟合。总之，很想听听你的想法。所以我真的很高兴 Stefan 问了这个问题。那么。嗨 Stefan，顺便说一句，很高兴收到你的来信。"
+    },
+    {
+      "i": 123,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "34:08",
+      "en": "We had coffee in London about a month ago, so it was nice to meet you in person. We corresponded for quite a while.",
+      "zh": "我们大约一个月前在伦敦一起喝过咖啡，所以很高兴与你见了面。我们通信已经有很长时间了。"
+    },
+    {
+      "i": 124,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "34:18",
+      "en": "This was a great paper.",
+      "zh": "这是一篇很棒的论文。"
+    },
+    {
+      "i": 125,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "34:21",
+      "en": "There are two things that makes a great paper. One is one of the references is actually to my fourth book. So that means it automatically must be a great paper. And it's also written by as you say, these guys who work at Resolve Asset Management who are a great, great firm and do really interesting research.",
+      "zh": "有两个原因让它成为一篇很棒的论文。第一，它的参考文献里有一篇实际上是我的第四本书。所以它自动就一定是一篇很棒的论文。而且它就像你说的，是由 Resolve Asset Management 的这些人写的，那是一家非常非常棒的公司，做的研究非常有意思。"
+    },
+    {
+      "i": 126,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "34:36",
+      "en": "And it's a, it's something that a problem, a problem or an issue or a question that's been around the CT industry for certainly as long as I can remember. I mean I remember when I first internship in AHL in 2001, which is, you know, a quarter of a century ago now and the guy sitting",
+      "zh": "而且这是一个，在 CTA 行业里存在已久的问题、议题或疑问，至少从我有记忆以来就是如此。我是说，我记得2001年我第一次在 AHL 实习的时候——那已经是，你知道，四分之一个世纪之前了——坐在"
+    },
+    {
+      "i": 127,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "34:52",
+      "en": "on my left, his job was actually to fit these, these, these, these response curves. So let me just briefly tell you what these response curves are. So essentially I want you to imagine in your head a, A, a sort of a, a plot and on the X axis is the, the, the, the, the strength of your forecast that's coming from your moment signaling.",
+      "zh": "我左边的那个人，他的工作实际上就是拟合这些响应曲线。所以让我简要地告诉你这些响应曲线是什么。基本上，我要你在脑海里想象一个图表，X 轴是你的预测强度，也就是来自动量信号的预测。"
+    },
+    {
+      "i": 128,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "35:12",
+      "en": "So you're going to have a zero in the middle. That means you know, you think the market's flat. And then you have to the right you're going to have stronger and stronger bullish positive go long signals and then to the left increasingly more negative going short signals. And then on the Y axis you have your response.",
+      "zh": "中间会有一个零点，表示你认为市场是平的。然后往右，是越来越强的看涨、正向、做多信号；往左，是越来越强的负向、做空信号。然后在 Y 轴上是你的响应。"
+    },
+    {
+      "i": 129,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "35:27",
+      "en": "So that's your, the, the volatility adjusted return X post. So basically if this curve was a sort of a straight line that would mean that your signal would be linear to your forecast. Your position will be linear to your forecast in a risk adjusted space. So basically the bigger the forecast is the, the bigger your",
+      "zh": "也就是经波动率调整后的收益。所以基本上，如果这条曲线是一条直线，那就意味着你的信号与你的预测是线性的。你的仓位在风险调整空间里与你的预测是线性的。所以基本上，预测越大，你的"
+    },
+    {
+      "i": 130,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "35:48",
+      "en": "position would be and then vice versa. On the, on the downside, okay, so you'd have us, you'd have a straight line response function. Okay. Now the interesting thing is what you can do is, is to do sort of a bit of research and do some scatter plots and actually say well what, what, how, what actually happens in practice?",
+      "zh": "仓位就越大，反方向同理。在下跌的那一侧也一样，好的，所以你会有一条直线型的响应函数。好的。现在有意思的是，你可以做一点研究，画一些散点图，然后问：实践中到底会发生什么？"
+    },
+    {
+      "i": 131,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "36:05",
+      "en": "What works in practice. So you can imagine for example that if you had a mean reversion market, then instead of having a straight line kind of positive slope, you'd have a straight line negative slope. Because the stronger the trend, the more the market mean reverse and actually you lose money.",
+      "zh": "什么在实践中有效。比如你可以想象，如果是一个均值回归的市场，那么就不是一条正斜率的直线，而会是一条负斜率的直线。因为趋势越强，市场越会均值回归，你实际上会亏钱。"
+    },
+    {
+      "i": 132,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "36:19",
+      "en": "You can also imagine and you see this in a, particularly in faster momentum, a situation where Very strong trends actually don't lead to stronger price outcomes and may even in the extreme tails lead to a mean reversion behavior. So your response curve would be a kind of S shape, if that makes sense. Like a sine wave, if you like.",
+      "zh": "你还可以想象——在更快的动量策略里尤其会看到这种情况——非常强的趋势实际上并不会带来更强的价格结果，甚至在极端尾部可能反而出现均值回归行为。所以你的响应曲线会是一种 S 形，如果这样讲得通的话。就像一条正弦波，如果你愿意这么理解。"
+    },
+    {
+      "i": 133,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "36:38",
+      "en": "So one question is whether, first question is whether you should actually, you know, what you should actually do. So in practice, what I do, and I think is a common kind of robust approach is essentially my response function is a straight line, but I don't increase my position if the forecast gets too strong.",
+      "zh": "所以一个问题是，首先第一个问题是，你实际上应该怎么做。在实践中，我的做法——我认为这是一种常见的稳健方法——基本上是我的响应函数是一条直线，但当预测变得太强时，我不再增加仓位。"
+    },
+    {
+      "i": 134,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "36:55",
+      "en": "So it's like a straight line that's capped and flawed if you like. So a bit like a, if you're familiar with options, you'll sort of think of it as an option structure where you've got a max, you know, maximum loss and profit.",
+      "zh": "所以它就像一条上下都有封顶的直线，如果你愿意这么理解。有点像是，如果你熟悉期权，你可以把它想成一个期权结构，你有一个最大的损失和利润上限。"
+    },
+    {
+      "i": 135,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "37:10",
+      "en": "But of course you could fit this in a non linear way. You could fit these fancy S curves to the data. And the other question is whether you fit these things to different markets differently. And this is the question the paper's asking, this question is asking whether different response functions work for, firstly",
+      "zh": "但当然，你可以用非线性的方式来拟合。你可以把这些花哨的 S 形曲线拟合到数据上。而另一个问题是，你是否要为不同的市场分别拟合这些东西。这正是这篇论文要问的问题：不同的响应函数是否首先适用于"
+    },
+    {
+      "i": 136,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "37:29",
+      "en": "for different asset classes, but also for different time sort of speeds of momentum. Okay. Because these things seem to vary across certainly across speeds of momentum. So the slower the momentum is, the more it becomes a bit more like a straight line. The faster the momentum, the more you get this sort of S shape in the, in the tails.",
+      "zh": "不同的资产类别，以及不同的动量速度。好的。因为这些东西看起来确实会变化，至少在动量速度这个维度上是如此。动量越慢，它就越接近一条直线。动量越快，你在尾部就越会得到这种 S 形。"
+    },
+    {
+      "i": 137,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "37:47",
+      "en": "And this is something I looked at in my, in my, as I said in my fourth book, and I can't remember the exact chapter number, but it's about halfway through the book there's a chapter on this subject.",
+      "zh": "这是我在，就像我说的，我的第四本书里研究过的内容，我记不清确切的章节号了，但大概在书的中间部分有一章讲这个主题。"
+    },
+    {
+      "i": 138,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "37:58",
+      "en": "Now my prior, like Stefan's is to say, well this, this is, sounds complicated. So my prior is to only do this if there's very strong evidence that it makes sense and it will make money. So the nice thing about this is, you know, there are lots of nice plots in this chart and they show these nonlinear responses.",
+      "zh": "现在我的先验判断，跟 Stefan 的一样，是说，嗯，这听起来很复杂。所以我的先验是，只有在有非常强的证据表明它有意义、能赚钱的情况下才去做。这篇文章的好处是，里面有很多漂亮的图，展示了这些非线性响应。"
+    },
+    {
+      "i": 139,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "38:15",
+      "en": "And just by glancing that by eye, it looks certainly like the different asset classes have different responses at different time periods. So that's kind of interesting.",
+      "zh": "而且仅仅用眼睛看，不同资产类别在不同时期确实看起来有不同的响应。所以这挺有意思的。"
+    },
+    {
+      "i": 140,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "38:26",
+      "en": "And they do a sort of classic test, you know, research test where you basically, you fit these response curves to data before 1995 and then you test for the next 30 years. I've actually got, it's quite a long out of sample but backtest effectively that they're running there.",
+      "zh": "他们做了一种经典的研究检验，基本上就是用1995年之前的数据拟合这些响应曲线，然后在接下来的30年里进行测试。这实际上是一个相当长的样本外，他们在那里运行的实际上就是一个回测。"
+    },
+    {
+      "i": 141,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "38:53",
+      "en": "And you know, it does seem to. Adding this sort of additional complexity does lead to a, I'd say a modest improvement in performance. There is an improvement in performance I respect the work of these guys at resolve. You know, they understand about things like statistical significance",
+      "zh": "而且，你知道，这看起来确实。加入这种额外的复杂性确实带来了，我会说是一种适度的业绩改善。业绩确实有改善。我尊重 Resolve 这些人的工作。他们理解统计显著性"
+    },
+    {
+      "i": 142,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "39:14",
+      "en": "and stuff like that and they're very good at out of sample. So, you know, I'm pretty sure there's kind of no cheating here, if you like. And these results are real and they are. I would describe them as small but significant effectively.",
+      "zh": "之类的东西，而且他们非常擅长样本外检验。所以，我相当肯定这里没有什么作弊，如果你愿意这么说。这些结果是真实的，我会把它们描述为微小但显著的改善。"
+    },
+    {
+      "i": 143,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "39:29",
+      "en": "So, yeah, it's a very interesting paper if you ask me, Rob, would you do this in your world? Would you fit this sort of approach? The answer is probably no, I wouldn't. Because I do think that the gain compared to the complexity involved is, is a bit, a bit, a bit much. And also I kind of wonder how stable these effects are through",
+      "zh": "所以，是的，要我说这是一篇非常有意思的论文。Rob，你会在你的世界里这么做吗？你会采用这种方法吗？答案大概率是否定的，我不会。因为我确实觉得，相对于所涉及的复杂性，收益有点，有点，有点过头了。而且我也有点好奇这些效应随时间"
+    },
+    {
+      "i": 144,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "39:51",
+      "en": "time, which is because they're doing this simple in sample, out of sample test. You're not going to see, you're seeing kind of a stability to a degree, but there's an evolution in the shape of these curves. You're not really going to pick up on that, to be honest. But it's. Yeah.",
+      "zh": "有多稳定，因为他们做的是这种简单的样本内、样本外检验。你不会看到，你看到的是一定程度上的稳定性，但这些曲线的形状是有演变的。说实话，你并不会真正捕捉到那一点。但是。是的。"
+    },
+    {
+      "i": 145,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "40:07",
+      "en": "If nothing else, this paper makes you realize that although we do have these, I mean, I'm a big fan of using the same model in all markets for simplicity, but that just doesn't mean that all markets are the same and they will respond differently in different ways and some of them will mean revert short time periods, others won't.",
+      "zh": "别的不说，这篇论文会让你意识到，尽管我们确实有这些——我是说，我是出于简单性在所有市场使用同一个模型的坚定支持者——但这并不意味着所有市场都是一样的，它们会以不同的方式做出不同的反应，有些市场在短周期内会均值回归，有些则不会。"
+    },
+    {
+      "i": 146,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "40:22",
+      "en": "And you know, it's sort of interesting. So I'd describe it as a paper that's interesting from an academic perspective, but as a practitioner I'm probably not going to do it. And so yes, Stefan, I agree with you, read the paper, enjoy it. But not an approach I would probably implement myself.",
+      "zh": "而且，你知道，这挺有意思的。所以我会把它描述为一篇从学术角度很有意思的论文，但作为一个实践者，我大概率不会去做。所以，是的，Stefan，我同意你的看法，读这篇论文，享受它。但这不是我自己会实施的方法。"
+    },
+    {
+      "i": 147,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "40:40",
+      "en": "Yeah, I mean, I can just add to that from a practical perspective that at Dunn, where I am, we did do individual market parameter selection for many, many years. Obviously computer power wasn't great back then, but in the last 20 years we went to global settings and I think we feel it's more robust.",
+      "zh": "是的，我可以从实践角度补充一点：在 Dunn，也就是我所在的地方，我们确实做过很多年的单市场参数选择。显然那时候计算机算力不强，但在过去20年里，我们转向了全局统一的设定，而且我觉得那样更稳健。"
+    },
+    {
+      "i": 148,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "41:01",
+      "en": "So I think that's in line with what you. Said. That mirrors. That mirrors the story at ahl. Certainly up to the point when I left, they were original using global settings and then in about 2011, I think, sorry, they were originally using per asset class settings and then I think it was in about 2011 they moved to a, to a global setting,",
+      "zh": "所以我认为这跟你说的。一致。这印证了。这印证了 AHL 的情况。至少到我离开的时候，他们最初使用的是按资产类别的设定，然后我记得大概是在2011年，他们转向了全局统一的设定，"
+    },
+    {
+      "i": 149,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "41:19",
+      "en": "but not just to a global setting, but to one that was very kind of robust rather than fitted, if that, if that makes sense. What they do now, of course they couldn't say because it's been 12 years since I last worked, 13 years since I last worked there. But yeah, I think the move towards simplicity was certainly the theme then.",
+      "zh": "而且不只是转向全局设定，而是转向一种非常稳健的、而不是拟合出来的设定，如果这样讲得通的话。他们现在怎么做，我当然没法说，因为距离我上一次在那里工作已经12年，13年了。但是，是的，我认为走向简单化肯定是那时的主题。"
+    },
+    {
+      "i": 150,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "41:37",
+      "en": "All right, the last question was really not meant for any of us. It was really meant for Yoav because it comes at the back of a conversation that Yorav had with Alan last week. But I thought since you know Yorv, you have your similar background at ahl really? Well, instead of Skander, who wrote in have to wait, you know,",
+      "zh": "好的，最后一个问题其实不是给我们任何一个人的，它其实是给 Yoav 的，因为它来自 Yorav 上周与 Alan 的一场对话。但我想，既然你知道，Yorav，你有跟他类似的 AHL 背景？那么，与其让写信来的 Skander 不得不等上"
+    },
+    {
+      "i": 151,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "41:57",
+      "en": "a couple of months to get an answer, I thought who's better to answer that than Rob? So here we go. In a recent discussion between Yorav and Allen, one of the things highlighted is that historically trend applied to bonds has worked very well, while for equities not so much. You followed with a word of caution.",
+      "zh": "几个月才能得到答案，我想还有谁比 Rob 更适合回答这个问题呢？那我们开始吧。在最近 Yorav 和 Alan 的一场讨论中，其中被强调的一点是，从历史上看，趋势应用于债券的效果非常好，而应用于股票就没那么好。你接着提出了一个警告。"
+    },
+    {
+      "i": 152,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "42:14",
+      "en": "That must be your essentially arguing that you would still want to allocate to all asset classes, including equity trend. If we take a step back from this general perspective on trend and consider a specific portfolio, say one that is highly concentrated in one asset class, what would be the ideal trend",
+      "zh": "那一定是你的，本质上是说，你仍然会想要配置到所有资产类别，包括股票趋势。如果我们从对趋势的这个总体视角退后一步，考虑一个具体的组合，比如说一个高度集中于某一资产类别的组合，那么与之配对的理想趋势"
+    },
+    {
+      "i": 153,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "42:33",
+      "en": "allocation to pair with that portfolio? Would the trend allocation also have to be highly concentrated in one asset class? Imagine for instance a portfolio of 80% bond exposure where we want to allocate the remaining 20% to trend. Would it be optimal to allocate all of it to bond trend",
+      "zh": "配置会是什么样的？趋势配置是否也必须高度集中在一个资产类别里？比如说，想象一个80%债券敞口的组合，我们想把剩下的20%配置给趋势。那么，把全部20%都配置给债券趋势"
+    },
+    {
+      "i": 154,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "42:51",
+      "en": "following in order to get the convexity that would act as insurance. And if so, would that mean that the ideal asset class allocation of the trend portfolio should reflect the composition of the investor's non trend portfolio? Interesting question. I've never heard this specifically asked this way before. I'd love to hear your thoughts.",
+      "zh": "跟踪，以获得那种可以起到保险作用的凸性（convexity），会是最优的吗？如果是这样，这是否意味着趋势组合的理想资产类别配置，应该反映投资者非趋势组合的构成？有意思的问题。我以前从没听过有人以这种具体的方式提出这个问题。我很想听听你的想法。"
+    },
+    {
+      "i": 155,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "43:12",
+      "en": "I have my own observations. Well,. I mean I, I feel bad here as well, potentially treading on Yarrow's toes and I don't want to misrepresent his, his opinions for sure. No,. That. Is. Your opinion. I'm gonna. Go ahead. Your opinion. I'm not that bothered and I know well each other that I can be",
+      "zh": "我自己也有一些观察。嗯。我是说，我在这里也觉得有点不好意思，可能会踩到 Yoav 的地盘，我当然不想歪曲他的观点。不。那。是。你的观点。我要。说下去吧。你的观点。我不太在意，而且我们彼此很了解，我可以在节目上"
+    },
+    {
+      "i": 156,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "43:29",
+      "en": "mean about him on air and he won't mind too much. No. So I guess let's sort of think about this. Firstly from a kind of standard kind of classical portfolio optimization. So let's put the convexity aside because that's a little like a non linear thing. Let's think about the kind of.",
+      "zh": "损他，他也不会太介意。不。所以我想我们来梳理一下这个问题。首先从标准的经典投资组合优化的角度。我们先把凸性放在一边，因为那是一个非线性的东西。让我们想想那种。"
+    },
+    {
+      "i": 157,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "43:46",
+      "en": "Just imagine we're in a world we've just got correlations, so we haven't got kind of higher moments.",
+      "zh": "就想象我们在一个只有相关性的世界里，所以我们没有更高阶矩。"
+    },
+    {
+      "i": 158,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "43:51",
+      "en": "So if you think about asset classes like bonds and equities, they tend to go up over time. Okay. They tend to provide you with the Positive expect return after deducting the risk free rate.",
+      "zh": "如果你想想债券和股票这样的资产类别，它们往往会随时间上涨。好的。它们往往会提供扣除无风险利率之后的正预期回报。"
+    },
+    {
+      "i": 159,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "44:03",
+      "en": "That means that a trend following portfolio will have a positive beta to those assets. Otherwise, what are you doing with your life? You know, so you know, if you're, if you're trend following something that on average goes up, you should have a, you know, be spending more time long than short that asset. Okay?",
+      "zh": "这意味着一个趋势跟踪组合对这些资产会有一个正的 beta。否则你的人生在干什么呢？你知道，所以，如果你在趋势跟踪一个平均上涨的东西，你应该花更多的时间做多而不是做空那个资产。好吗？"
+    },
+    {
+      "i": 160,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "44:21",
+      "en": "Unless you've got the world's worst trend following system.",
+      "zh": "除非你拥有世界上最糟糕的趋势跟踪系统。"
+    },
+    {
+      "i": 161,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "44:26",
+      "en": "So that means that let's say you've got a portfolio that consists basically mainly of equities.",
+      "zh": "所以这意味着，假设你有一个基本上主要由股票构成的组合。"
+    },
+    {
+      "i": 162,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "44:35",
+      "en": "If you add an equity trend following system to that and no other asset classes, so you're just adding equities, that means you are actually going to be adding some more beta, some more equity beta, because you've got your original equity beta from your 80% and then you've got in another 20%. Let's say your equity beta is say 0.5.",
+      "zh": "如果你往里面加入一个股票趋势跟踪系统，而不加入其他资产类别，也就是说你只是在加股票，那么意味着你实际上是在增加更多的 beta、更多的股票 beta，因为你原来80%的部分已经有股票 beta 了，然后你又加进来20%。假设你的股票 beta 是0.5。"
+    },
+    {
+      "i": 163,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "44:54",
+      "en": "You're adding another 10% of equity beta. So you've now got a system that's actually got a higher correlation to equities than the original system has.",
+      "zh": "你就又增加了10%的股票 beta。所以你现在有了一个系统，它与股票的相关性实际上比原来的系统更高。"
+    },
+    {
+      "i": 164,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "45:04",
+      "en": "And the work that Yara's done is to say things like, well, for example, if you really want that thing to be a hedge, then your allocation to trend flow needs to be much bigger than 20% because otherwise you're just not going to be able to hedge the rest of your portfolio. And that's more true in equities than in bonds because equities",
+      "zh": "而 Yoav 所做的研究就是要说明这样一点：比如说，如果你真的想让那个东西成为一个对冲，那么你配置给趋势跟踪的比例需要远远大于20%，因为否则你就根本无法对冲你组合的其余部分。这一点在股票上比在债券上更成立，因为股票"
+    },
+    {
+      "i": 165,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "45:22",
+      "en": "have higher risk in bonds because of the effect of adding leverage and then scaling up the bond portfolio to that trend following portfolio to that higher leverage point, you can actually get more protection from a 20% cash allocation. You can buy 20% cash allocation and equities.",
+      "zh": "的风险比债券高，因为通过加杠杆、然后把债券组合的趋势跟踪组合放大到那个更高的杠杆点，你实际上可以从20%的配置中获得更多保护。你可以买20%的配置，在股票里。"
+    },
+    {
+      "i": 166,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "45:39",
+      "en": "Now that, so that means if you, you know, if your, your, your, your best bet in a classical portfolio optimization world is going to be to add other asset classes, you know, to, to, to buy a kind of generic CTA fund. And actually arguably what you ought to be doing is if your portfolio",
+      "zh": "现在，这意味着，你知道，在经典投资组合优化的世界里，你的最佳选择将会是加入其他资产类别，也就是买一个通用的 CTA 基金。而且实际上可以说，如果你的组合"
+    },
+    {
+      "i": 167,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "45:57",
+      "en": "is overwhelming in equities and you buy a generic CTA fund, you'd actually be slightly better off buying a generic CTA fund that has less allocation to equity trend following than it does to the other asset classes because you're kind of, you know, you essentially some of the money you're spending on that CTF fund you're",
+      "zh": "绝大部分是股票，而你买一个通用的 CTA 基金，你实际上会稍微更好一点的选择是，买一个股票趋势跟踪配置少于其他资产类别配置的通用 CTA 基金，因为本质上，你花在那只 CTA 基金上的钱有一部分，你"
+    },
+    {
+      "i": 168,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "46:13",
+      "en": "kind of wasting because using it to buy equity beta, a bit of equity beta you've already got. So the answer is actually the, almost the exact opposite of what the question implies, which is that if you're buying, you know, a trend following fund to hedge your exposure in a particular asset class.",
+      "zh": "算是浪费了，因为你在用它购买股票 beta，而你已经拥有一部分股票 beta 了。所以答案实际上几乎是问题所暗示的完全相反，也就是说，如果你买一只趋势跟踪基金来对冲你在某个特定资产类别的敞口，"
+    },
+    {
+      "i": 169,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "46:31",
+      "en": "If we ignore convexity, you're actually better off buying less of that in your trend following fund because otherwise you're just getting some additional beta that you know to add your existing beta. Did I explain that well enough before? I then move on to the non linear, the convexity case. Does that make sense? I. Think that was fine.",
+      "zh": "如果我们忽略凸性，你实际上最好在趋势跟踪基金里少买一些那个资产类别，因为否则你只是在增加一些额外的 beta，叠加到你已有的 beta 上。我刚才解释得够清楚吗？然后我要转到非线性的、凸性的情况。这样讲得通吗？我。觉得讲得挺好。"
+    },
+    {
+      "i": 170,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "46:47",
+      "en": "Okay, cool. So then the question comes around kind of the tail hedging properties of trend following. And you know, I've kind of, and I have just sort of talked about this separately in the past. We've also, you know, we've looked at, he's written articles on it and, and I know, I know how you know, he, you both agree",
+      "zh": "好的，很好。那么接下来问题就来到趋势跟踪的尾部对冲特性。而且，你知道，我以前也单独谈过这个话题。我们也，你知道，我们研究过，他写过相关的文章，而且我知道，你们两位都同意"
+    },
+    {
+      "i": 171,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "47:10",
+      "en": "that you can kind of split the tail hedging of properties of trend following into two components. The kind of mathematical component that will always happen. Like if a market goes down in price, you know, you will get hedging effect from the fact you were trend following portfolio will go short that market. And that's just maths.",
+      "zh": "你可以把趋势跟踪的尾部对冲特性分成两个部分。那种必然会发生的数学成分。比如说如果一个市场价格下跌，你会从你的趋势跟踪组合做空那个市场这一事实中获得对冲效果。这就是纯粹的数学。"
+    },
+    {
+      "i": 172,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "47:28",
+      "en": "And the second thing then is what you might call the crisis alpha part of it, if you like, which is that trend following has empirically in the past tended to make money when say equity markets have gone down in value. Okay. And it's done that over and above what you'd expect from the",
+      "zh": "然后第二件事就是你也许可以称之为危机 alpha 的部分，也就是说，从经验上看，趋势跟踪在过去往往会在比如股票市场下跌时赚钱。好的。而且它赚到的钱超出了你从"
+    },
+    {
+      "i": 173,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "47:47",
+      "en": "mechanical mathematical part for the fact you would short equity markets. So the maths is guaranteed you will always go short if a equity trend downtrend of a certain length happens. The crisis alpha bit is not guaranteed. But empirically that's what we've generally seen in the past, but not always.",
+      "zh": "那个机械的数学部分所应预期的、也就是你会做空股票市场这一事实所能解释的。所以数学是有保证的：如果股票出现一定长度的下跌趋势，你总会做空。危机 alpha 那部分则没有保证。但从经验上看，那是我们过去普遍看到的，但并不总是如此。"
+    },
+    {
+      "i": 174,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "48:06",
+      "en": "So we can talk about the difference between say the 2008 financial crisis and say the tariff tantrum last year. In the one case you had a nice extended protracted sell off, which was beautiful for trend following. In the tariff tantrum we had a shock drop and then a reverse which",
+      "zh": "所以我们可以谈谈比如2008年金融危机和去年的关税恐慌（tariff tantrum）之间的区别。在前一种情况里，你有一场漂亮的、持续漫长的抛售，那对趋势跟踪来说太美妙了。而在关税恐慌里，我们经历了一次急跌，然后反转，那"
+    },
+    {
+      "i": 175,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "48:24",
+      "en": "would have been absolutely awful unless you were either trading very, very slowly or very, very quickly and you happen to catch that bounce. So you know, not all crises are the same.",
+      "zh": "会非常非常糟糕，除非你的交易速度非常非常慢，或者非常非常快，而且刚好抓住了那次反弹。所以，你知道，并非所有危机都是一样的。"
+    },
+    {
+      "i": 176,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "48:34",
+      "en": "So the, I would say that from a kind of crisis protection perspective, well then yes, your trend following should consist entirely of the market you're trying to hedge against. But from an empirical perspective, in terms of protection against crashes and what's occurred in the past, I would say",
+      "zh": "所以，我会说，从危机保护的角度来看，那么是的，你的趋势跟踪应该完全由你试图对冲的那个市场构成。但从经验角度看，就针对过去发生过的崩盘的保护而言，我会说"
+    },
+    {
+      "i": 177,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "48:56",
+      "en": "I'd be much happier with a diversified trend following portfolio across lots of asset classes because I'm not guaranteed to get",
+      "zh": "我更愿意拥有一个跨多种资产类别的多元化趋势跟踪组合，因为如果发生的不是我想要的那种危机，我就无法保证得到"
+    },
+    {
+      "i": 178,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "49:05",
+      "en": "the Sort of the crash protection I want if it's not exactly the right kind of crash. But my view is that more diversified portfolios tend to do better, particularly in market tail events. So to summarize the bringing those two views together, the kind of linear view which says you should actually have if anything",
+      "zh": "我想要的那种崩盘保护。但我的观点是，更加多元化的组合往往表现更好，尤其是在市场尾部事件中。所以，把这两种观点结合起来总结一下：线性观点说，如果你想对冲一个股票组合，你的趋势跟踪里"
+    },
+    {
+      "i": 179,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "49:25",
+      "en": "a little bit less equities if you're trying to hedge a equity portfolio in your trend following. And the non linear view which says, well yes, there's the mechanical part of it which means 100% equities, but actually empirically you want to have a diversified spread. I'd say the answer is simple and just irrespective of what your",
+      "zh": "反而应该少一点股票；而非线性观点说，是的，机械部分意味着100%股票，但从经验上你想要一个多元化的分布。我会说答案很简单：无论你的"
+    },
+    {
+      "i": 180,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "49:43",
+      "en": "underlying portfolio is, you're probably better off buying just a diversified trend following fund that allocates across all asset classes is the conclusion. I completely agree with that. And just maybe one thing to add to this I seem to remember and I might get it wrong, but I'm pretty sure it was maybe Alex Graserman",
+      "zh": "基础组合是什么，你大概率最好就是买一只跨所有资产类别配置的多元化趋势跟踪基金。这就是结论。我完全同意。也许再补充一点，我好像记得——我可能记错，但我相当确定——那可能是 Alex Graserman，"
+    },
+    {
+      "i": 181,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "50:04",
+      "en": "when he was at ISAM who wrote a paper or maybe I spoke with him about it. But anyways it was, you know about when you go back in time and you look at in this case, I think it was equity crisis, what's inside the portfolio actually tends to do better. And you're absolutely right Rob, that in the initial part of",
+      "zh": "当时他在 ISAM，他写了一篇论文，或者可能是我跟他讨论过这个话题。总之，那是关于当你回溯历史、去看——在这个案例里我想是股票危机——组合里面实际是什么表现更好。而且你说得完全对，Rob，在一场"
+    },
+    {
+      "i": 182,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "50:25",
+      "en": "a crisis, say in equities, your equity allocation is going to hurt, not help then over time. If the crisis is long, it may help in terms of some level of crisis alpha, if we call it that. But, but the observation that he had made, and I think I've seen this confirmed from other people as well, is that the most",
+      "zh": "危机的初始阶段，比如股票危机，你的股票配置只会带来伤害而不是帮助。然后随着时间推移，如果危机持续很长，它可能会在某些危机 alpha 的层面上有帮助，如果我们这么称呼它的话。但是，但是他做出的那个观察——我想我也从其他人那里看到过印证——就是"
+    },
+    {
+      "i": 183,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "50:48",
+      "en": "consistent profitable sectors when you go through these crises is not really the sector of the crisis, it's all the commodities. For various reasons. I mean we may think of COVID as a crisis in equities, but actually what really helped was the fact that CTA or trend followers",
+      "zh": "在经历这些危机时，最稳定盈利的板块，其实并不是危机所在的那个板块，而是各种大宗商品。原因有很多。我是说，我们可以把新冠当成一场股票危机，但实际上真正有帮助的是，CTA 或者说趋势跟踪者"
+    },
+    {
+      "i": 184,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "51:11",
+      "en": "were getting short energies about a month before the actual fallout in the equity market. So that helped significantly. We can even think about this year that we've seen again in energies. We've seen positioning happening before the actual event of March 1, when the war began and and so on and so forth.",
+      "zh": "在股票市场真正崩盘之前大约一个月，就已经在做空能源了。所以那帮助非常大。我们甚至可以想想今年，我们在能源里又看到了类似情况。我们看到仓位布局发生在3月1日战争开始那个实际事件之前，等等等等。"
+    },
+    {
+      "i": 185,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "51:35",
+      "en": "So I completely agree that the best thing you can, you can pair a portfolio, even if it's overweight to bonds, is really a fully diversified trend following product.",
+      "zh": "所以我完全同意，你能给一个组合配对的最佳东西，即使它是超配债券的，也真的是一只完全多元化的趋势跟踪产品。"
+    },
+    {
+      "i": 186,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "51:48",
+      "en": "And yeah, so anyways, agree with that.",
+      "zh": "是的，总之，同意这个结论。"
+    },
+    {
+      "i": 187,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "51:56",
+      "en": "Now we're already 50 minutes in and we still got a few things we wanted to touch on. So just be mindful of the time, Rob, and maybe focus on what you think were the most important parts. We can cover all three things that we wanted to talk about but just be mindful of the time and I'll let you do all the talking",
+      "zh": "我们已经录了50分钟了，还有几件事想谈。所以请留意时间，Rob，也许聚焦在你认为最重要的部分上。我们可以把我们想谈的三件事都覆盖到，但请留意时间，我会让你一直说下去，"
+    },
+    {
+      "i": 188,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "52:15",
+      "en": "to not interrupt the flow here. But the first one is a paper by Dr. Sebastian Smith called Crafting a Trading Strategy and I'll hand it over to you. Yeah, so this is a. A guy who's recently started public, an independent trader I should say and he's a very clever guy.",
+      "zh": "不打断这个节奏。第一件事是一篇论文，作者是 Sebastian Smith 博士，叫《打造交易策略》（Crafting a Trading Strategy），我把它交给你了。是的，这是一位。最近开始公开的，我应该说是独立交易者，他是一个非常聪明的人。"
+    },
+    {
+      "i": 189,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "52:35",
+      "en": "I'm guessing he's with German nationality and he's recently started publishing on his blog some papers and they're really the quality of is very, very good. Much better than you'd find for a lot of sort of institutions, I have to say. Anyway, the paper I want to pick. So the theme of today's discussion potentially is about designing",
+      "zh": "我猜他是德国人，他最近开始在他的博客上发表一些论文，质量真的非常非常好。我必须说，比你在很多机构那里能找到的要好得多。总之，我想挑出来的那篇论文。所以今天讨论的潜在主题是关于设计"
+    },
+    {
+      "i": 190,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "52:59",
+      "en": "of trading strategies and how AI affects that.",
+      "zh": "交易策略，以及 AI 如何影响它。"
+    },
+    {
+      "i": 191,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "53:03",
+      "en": "So he's written this paper called Crafting a Trading Strategy and I'm really quite annoyed by this paper to be honest because it's 22 pages long and it actually pretty much contains all the information you'd find in one of my sort of 600 page books. To a degree it is, it's really annoying. It's a compliment.",
+      "zh": "所以他写了这篇叫《打造交易策略》的论文，说实话我对这篇论文相当恼火，因为它有22页长，而且它几乎包含了我那种600页的书里能找到的所有信息。在某种程度上，这真的，很恼人。这是一种赞美。"
+    },
+    {
+      "i": 192,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "53:23",
+      "en": "I'm complimenting him absolutely. Yeah, yeah. So you know, he's kind of uses a similar approach to me and he cites my stuff a few times as well. But it's really, I love the way he kind of brings together the kind of what I call a standard method for creating a volatility adjusted trend following portfolio in a very, very nice, neat way.",
+      "zh": "我是在赞美他，绝对的。是的，是的。所以，你知道，他用的方法跟我有点类似，他也引用过几次我的东西。但我真的很喜欢他把，我称之为创建波动率调整趋势跟踪组合的标准方法，用一种非常非常漂亮、整洁的方式整合起来。"
+    },
+    {
+      "i": 193,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "53:44",
+      "en": "But the part of this paper I want to actually criticize, and I hate to say this because I said I think it's a great paper but actually, and this is not necessarily a criticism of him, it's a criticism of the way that pretty much everyone does strategy development. And I think it's actually essentially the way I used to do",
+      "zh": "但这篇论文里我真正想批评的部分——我很不愿意这么说，因为我说过我觉得这是一篇很棒的论文——但实际上，这不一定是针对他的批评，而是针对几乎所有人做策略开发方式的批评。而且我认为这本质上就是我以前"
+    },
+    {
+      "i": 194,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "54:05",
+      "en": "strategy development but don't do any longer.",
+      "zh": "做策略开发的方式，但现在不再这么做了。"
+    },
+    {
+      "i": 195,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "54:08",
+      "en": "And it's the. I think AI is going to make this problem worse. So on page three of his paper, his paper's called Crafting a Trading Strategy. By the way, his website is called and I'm going to mess this up. It's called Handel Smith Study, something like that. Go on. Handles Meisterei. Handels Meisterei. There we go.",
+      "zh": "而且我认为 AI 会让这个问题变得更糟。所以在他论文的第三页——他的论文叫《打造交易策略》。顺便说一句，他的网站叫，我肯定要念错，它叫 Handel Smith Study 之类的。说吧。Handles Meisterei。Handels Meisterei。对了。"
+    },
+    {
+      "i": 196,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "54:29",
+      "en": "Okay, now try and spell that.",
+      "zh": "好，那你现在试着拼写一下那个词。"
+    },
+    {
+      "i": 197,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "54:32",
+      "en": "I shouldn't have criticized Stefan's English spelling because my German spelling obviously is much worse. But anyway, you find the Paper on page three, there's a very nice little picture and it's, I'll describe with you. It's essentially a circle and it describes the different steps of a trading strategy design.",
+      "zh": "我真不该批评 Stefan 的英语拼写，因为我的德语拼写显然要糟糕得多。但总之，你会在论文第三页看到一个非常漂亮的小图，我来给你描述一下。它基本上是一个圆圈，描述了交易策略设计的不同步骤。"
+    },
+    {
+      "i": 198,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "54:47",
+      "en": "So it starts off the top with economic rationale. This goes back to what we were saying earlier, you know, the original idea if you like, the thing that we think ChatGPT is not very good at. Signal design, signal analysis, parameter exploration, parameter selections, we might call that fitting, statistical validation.",
+      "zh": "它从顶部的经济逻辑（economic rationale）开始。这就回到了我们前面说的，也就是最初的想法，我们认为 ChatGPT 不太擅长的那个东西。然后是信号设计、信号分析、参数探索、参数选择——我们可能称之为拟合——统计验证。"
+    },
+    {
+      "i": 199,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "55:05",
+      "en": "So that's the back testing. Okay. And then, and then if, if you're happy with the, the, the system, you then go to the next stage which is portfolio integration and then you're back, back where you started. So that, that's a pretty good description of the way that nearly everyone does, I would say the development of a trading strategy.",
+      "zh": "所以那就是回测。好的。然后，如果你对系统满意，你就进入下一个阶段，也就是投资组合整合，然后你就回到了起点。所以，那是对几乎所有人做交易策略开发方式的一个相当好的描述，我会这么说。"
+    },
+    {
+      "i": 200,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "55:28",
+      "en": "And you know, in terms of way AI AI fits into this. Well, of course the people who love AI will tell you that it's great because you can, you can essentially do, do all of these, these things within the AI. So let brings us to the, the second paper in this sort of trilogy of papers that I'm bringing to you today.",
+      "zh": "而且，你知道，就 AI 如何融入这个流程而言。嗯，当然，热爱 AI 的人会告诉你它很棒，因为你基本上可以在 AI 里面完成所有这些事情。所以就带我们来到，我今天带给你们的论文三部曲里的第二篇。"
+    },
+    {
+      "i": 201,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "55:47",
+      "en": "And I have to say Niels, the credit is to you for this one because you, you sent this to me.",
+      "zh": "我得说，Niels，这一篇的功劳归于你，因为是你把它发给我的。"
+    },
+    {
+      "i": 202,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "55:54",
+      "en": "And the nice thing about this is it links very neatly with the very first thing I talked about in this podcast, which is the, the Cyber Cap. You see, it's almost like we planned this, Niels. It's almost like we planned this.",
+      "zh": "这篇论文的好处在于，它非常巧妙地与我在本期播客里最开始谈到的东西联系了起来，也就是 Cybercab。你看，简直就像是我们安排好的一样，Niels。简直就像是我们安排好的一样。"
+    },
+    {
+      "i": 203,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "56:07",
+      "en": "So the, the, the, the paper is called the Self Driving Portfolio. So that's, that's the Link, link to Mr. Musk's new product Agentic Architecture for Institutional Asset Management. And it's written by three people who work at a place called Alt. I can't say I've heard of, but I'm sure they're, they're good people",
+      "zh": "所以，这篇论文叫《自动驾驶组合》（The Self Driving Portfolio）。所以那就是与 Musk 先生新产品的联系——《机构资产管理的代理式架构》（Agentic Architecture for Institutional Asset Management）。它由三个人合写，他们在一家叫 Alt 的公司工作。我不能说听说过这家公司，但我相信他们是好人，"
+    },
+    {
+      "i": 204,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "56:25",
+      "en": "and they know we're talking about,. I think we've quoted actually Andrew Ang before. We have Andrew. Andrew is, is quite, quite a famous person actually. Yeah, so I, I, although I've not heard of Altbridge, I've certainly heard of Andrew.",
+      "zh": "而且他们知道我们在谈论他们。我想我们以前还引用过 Andrew Ang。我们引用过。Andrew 是一个相当相当有名的人物。是的，所以，虽然我没听说过 Altbridge，但我当然听说过 Andrew。"
+    },
+    {
+      "i": 205,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "56:38",
+      "en": "Anyway, so what, what they describe essentially is this idea of, of taking the, you know, the sort of classic research project and actually to be, to be more precise, what they're doing here is, is an asset allocation problem. So this is kind of the, you know, we were talking about CalPERS",
+      "zh": "总之，他们描述的本质上就是这个想法，把经典的研究项目——更准确地说，他们在这里做的是一个资产配置问题。所以这就是那种，你知道，我们在节目开头谈到过 CalPERS，"
+    },
+    {
+      "i": 206,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "56:55",
+      "en": "at the beginning of the top of the show, by the way, I've googled and they're not the world's largest pension Fund, world's largest pension fund is. And this practice of no surprise is Norwegian because they've all, you know, Norwegians have got the biggest. Well, I would, I would just not that not do we need to discuss this?",
+      "zh": "顺便说一句，我 Google 了一下，他们并不是世界上最大的养老基金，世界上最大的养老基金是。而且不出所料是挪威的，因为他们全都，你知道，挪威人拥有最大的。嗯，我会，我只是想说，我们不需要讨论这个吧？"
+    },
+    {
+      "i": 207,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "57:13",
+      "en": "But I would say no, the Norwegian sovereign wealth fund is more. Oh. No, this is, this is separate from the wealth fund. This is like the government pension fund which apparently is separate. So. Neither did I, but there we go. Google is a wonderful thing. But yeah, so this, this paper's about strategic asset allocation.",
+      "zh": "但我会说，不，挪威主权财富基金更大。哦。不，这是，这是跟财富基金分开的。这像是政府养老基金，据说是分开的。所以。我也没搞清楚，但就这样吧。Google 是个奇妙的东西。但是，是的，所以这篇论文讲的是战略资产配置。"
+    },
+    {
+      "i": 208,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "57:30",
+      "en": "So this is about, you know, the idea of, you know, where you, you kind of put about allocation to CTAs, you know, where would CTAs fit into your strategic asset allocation? Where would bonds fit in? Where would equities fit in? So it's, it's very similar in a way to the same research process",
+      "zh": "所以这是关于，你知道，那种想法，就是你会把多少配置给 CTA，你知道，CTA 应该放在你的战略资产配置的什么位置？债券放在哪里？股票放在哪里？所以它在某种意义上跟交易策略的研究流程非常相似，"
+    },
+    {
+      "i": 209,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "57:45",
+      "en": "in the sense that we're trying to, you know, we've got a hypothesis about the way we think the world works and out of that pops some numbers. The numbers before were the parameters of a trading strategy. The numbers here would be the allocations you'd have to different assets. But the same broad approach could be used in trading strategy",
+      "zh": "也就是说，我们有一个关于世界如何运作的假设，然后从中冒出一些数字。之前的数字是交易策略的参数。这里的数字则是你配置给不同资产的权重。但同样的大框架也可以用在交易策略"
+    },
+    {
+      "i": 210,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "58:05",
+      "en": "design. For example, they're using things like, they've got a thing called the covariance agent, which is something that estimates the, the correlations and the risk, the standard deviations of all the different assets that they're using and just plugs that into the portfolio construction.",
+      "zh": "设计上。比如说，他们用了像协方差智能体（covariance agent）这样的东西，它负责估计他们所用所有不同资产之间的相关性和风险、标准差，然后直接把它插入投资组合构建里。"
+    },
+    {
+      "i": 211,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "58:23",
+      "en": "So that's very similar to the way that you would fit and implement and integrate a new trading strategy into your system.",
+      "zh": "所以这跟你拟合并实施、并把一个新的交易策略整合进你的系统的方式非常相似。"
+    },
+    {
+      "i": 212,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "58:31",
+      "en": "So, you know, the paper's okay, it's got lots of nice pictures in it and you know, it's an interesting sort of, it's good enough,",
+      "zh": "所以，这篇论文还行，里面有很多漂亮的图，而且它是一个有意思的，算是足够好了，"
+    },
+    {
+      "i": 213,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "58:45",
+      "en": "it's not particularly robust in terms of the actual testing. And this is a big problem with testing with LLMs because ideally your LLM would not have seen anything prior.",
+      "zh": "但就实际测试而言它并不是特别稳健。而这正是用 LLM 做测试的一个大问题，因为理想情况下，你的 LLM 不应该事先见过任何东西。"
+    },
+    {
+      "i": 214,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "59:03",
+      "en": "You need a pure out of sample test.",
+      "zh": "你需要一个纯粹的样本外测试。"
+    },
+    {
+      "i": 215,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "59:06",
+      "en": "And the problem is that, you know, ideally. So the way, the way that you should do testing of training systems in my opinion is always to do a pure out of sample test where you kind of start at the beginning with no information. You gather a little bit of information that tells you how you should behave.",
+      "zh": "问题在于，理想情况下。在我看来，测试交易系统的正确方式永远是做一个纯粹的样本外测试，你从头开始，不掌握任何信息。你收集一点点信息，告诉你应该如何行事。"
+    },
+    {
+      "i": 216,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "59:22",
+      "en": "You know, whether that be your asset allocation, whether that be your parameters for your trend following strategy or whatever it is. And then you test to see how that does for say a year. And then you've got, you then stop and you say, right, I've now got two years of data and now I'M going to refit my system looking",
+      "zh": "不管是你的资产配置，还是你趋势跟踪策略的参数，或者其他什么东西。然后你测试它在比如一年里的表现。然后你停下来，说，好，我现在有了两年的数据，现在我要重新拟合我的系统，往回"
+    },
+    {
+      "i": 217,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "59:38",
+      "en": "backwards again the previous two years and you continue that into the process all the way up to the past. There's no so called data leakage or information leakage backwards into the, into the backtest.",
+      "zh": "看之前那两年的数据，然后你把这个过程一直推进到当下。这样就不会有所谓的数据泄露或信息泄露向后进入回测。"
+    },
+    {
+      "i": 218,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "59:51",
+      "en": "And you know, the problem is I think that the.",
+      "zh": "而且，问题是，我认为。"
+    },
+    {
+      "i": 219,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "59:55",
+      "en": "Well, first of all, if you're using a commercial LLM model and that's going to be fitted in on all the data, you know, up to the point when the model was fitted, if you're using your own LLM agents, then in theory you could stop that happening. But the problem is that, you know, fitting LLM models is quite",
+      "zh": "首先，如果你用的是商业 LLM 模型，它是在截至模型被拟合那个时点的所有数据上训练出来的。如果你用你自己的 LLM 智能体，那么理论上你可以阻止这种情况发生。但问题是，拟合 LLM 模型"
+    },
+    {
+      "i": 220,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "60:13",
+      "en": "expensive in terms of computation time, especially if we're talking about a model like this that consists of lots of agents. So it's many, many, many, many underlying LLM models. And I don't think I've ever seen anyone yet properly do a thing where you'd actually refit your LLM weights every single year",
+      "zh": "在计算时间上相当昂贵，特别是当我们谈论的是一个像这样由很多智能体组成的模型。所以它是很多很多很多的底层 LLM 模型。而且我想我还没见过有人真正好好地做到这样一件事：像我每年重新拟合回测里的参数权重那样，"
+    },
+    {
+      "i": 221,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "60:32",
+      "en": "in the same way I would refit my parameter weights in a back test. So that's a huge problem with these. The second problem is that any test of this nature, and this goes back to the question we were asked earlier about can an AI come up with its own creative answer? Buried within that question was saying, well, I find it very",
+      "zh": "每年重新拟合你的 LLM 权重。所以这是这些东西的一个大问题。第二个问题是，任何这类测试——这又回到了我们前面被问到的那个问题，就是 AI 能不能想出自己的创造性答案。那个问题里埋着这样一句话：我发现它非常适合"
+    },
+    {
+      "i": 222,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "60:56",
+      "en": "good for rapid prototyping.",
+      "zh": "快速原型设计。"
+    },
+    {
+      "i": 223,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "60:59",
+      "en": "And my impression is the way people are doing this is they would be say taking their trading strategy idea and then saying to the LLM model, does this trading strategy work? Well, effectively it's sort of, I call it marking your own homework.",
+      "zh": "而我的印象是，人们现在的做法是，他们会把自己的交易策略想法拿给 LLM 模型，然后问：这个交易策略有效吗？这其实就像，我管它叫「给自己的作业打分」。"
+    },
+    {
+      "i": 224,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "61:16",
+      "en": "It's like, is this thing working? Yes, it's brilliant. Well, okay, well how do you know that? Well, I've written this back testing code that tests it well. Okay, can I really trust that? So those are the two main issues I have with using LLMs or perhaps AI more generally in a trading strategy framework.",
+      "zh": "就像，这东西有用吗？是的，棒极了。好吧，那你怎么知道？嗯，我写了这个回测代码来测试它。好吧，我真的能信这个吗？所以这就是我在交易策略框架中使用 LLM、或者说更广义的 AI 的两个主要问题。"
+    },
+    {
+      "i": 225,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "61:37",
+      "en": "Now the other problem I have is more general and then this goes back to the first paper we were discussing with the exotic sounding German name is this idea that you do all of this thing, you used your statistical validation and at that point you decide whether your trading strategy is good enough to go into your portfolio.",
+      "zh": "现在我还有一个更普遍的问题，这就回到了我们讨论的第一篇论文，就是那个名字很异国情调的德国论文：这个想法是你做完所有这些事情，你用你的统计验证，然后在那个时点你决定你的交易策略是否好到可以进入你的组合。"
+    },
+    {
+      "i": 226,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "61:56",
+      "en": "And there's a whole industry of a test. You can do this thing called White's test where you can basically correct for the fact that if you've tested say a thousand different sets of parameters, you can sort of correct for the fact that just by luck some of those would be good enough to pass some statistical tests.",
+      "zh": "有一整套的检验可以做。你可以做一种叫 White 检验（White's test）的东西，基本上可以修正这样一个事实：如果你测试了比如一千组不同的参数，你可以修正纯粹靠运气其中一些也足以通过某些统计检验的问题。"
+    },
+    {
+      "i": 227,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "62:13",
+      "en": "You can do all of this kind of stuff. You can do robustness tests, we sort of check the stability of parameters across different periods, all of that kind of stuff. But at the end of the day comes down to you making a yes or no decision as to whether you actually put. You go ahead and add this strategy to your, to your system.",
+      "zh": "你可以做所有这类东西。你可以做稳健性检验，就是检查参数在不同时期的稳定性，所有那类东西。但归根结底，还是要由你做出一个是或否的决定，决定你是否真的要把这个策略加进你的系统。"
+    },
+    {
+      "i": 228,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "62:32",
+      "en": "And this is certainly the way I think nearly everyone does this sort of process. It's only the way I used to do it. But I've become a lot more, a lot stricter.",
+      "zh": "而且这 certainly 是我认为几乎所有人处理这种流程的方式。这也是我以前的做法。但我已经变得严格多了，严格多了。"
+    },
+    {
+      "i": 229,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "62:42",
+      "en": "And the reason I've come stricter is because actually that is a form of in sample fitting, making that decision because you couldn't have made the moment you say, well, actually this is, I've tested this idea, it's not working, I'm not going to use it. You're using information you wouldn't have known at the start of the back test. True.",
+      "zh": "我之所以变得更严格，是因为做出那个决定实际上是一种样本内拟合，因为你没法——一旦你说，嗯，其实这个，我测过这个想法，它不行，我不用它——你就用上了你在回测开始时本来不会知道的信息。确实。"
+    },
+    {
+      "i": 230,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "63:00",
+      "en": "So I've become a lot stricter in my approach now. And that's when we kind of feed into the, the third of this trilogy, which, and you know, there aren't many trilogies of films where the third film was the best. The original Star wars, maybe Return of the Jedi was pretty good, but they normally get worse.",
+      "zh": "所以我现在对我的方法变得严格多了。而这正是我们引出了这个三部曲的第三部分，而且，你知道，没有几部电影三部曲是第三部最好的。《星球大战》原初三部曲里，《绝地归来》也许还不错，但它们通常是越来越差。"
+    },
+    {
+      "i": 231,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "63:20",
+      "en": "This particular trilogy, first the German paper, pretty good. The AI paper, not so good. Empire Strikes Back, if you will. But now we move to the third part of the trilogy, which is a blog post that I wrote and actually I think that's fantastic. So, yeah, this blog post is because I finally felt bad because",
+      "zh": "而这个特定的三部曲，第一篇德国论文，相当好。AI 论文，就不太行了，算是《帝国反击战》吧，如果你愿意这么类比。但现在我们来到三部曲的第三部分，那是我写的一篇博客文章，而且我实际上觉得它棒极了。所以，是的，这篇博客是因为我终于感到内疚，因为"
+    },
+    {
+      "i": 232,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "63:44",
+      "en": "I spent a lot of time on Twitter Stroke X being mean about people who use AI for strategy development. And I think the worst thing in the world is somebody who just criticizes without providing kind of practical help and advice. So in this post I basically kind of summarize my objections to",
+      "zh": "我在 Twitter 也就是 X 上花了很多时间，对那些用 AI 做策略开发的人很刻薄。而且我觉得世界上最糟糕的事情，就是一个人只批评却不提供实际的帮助和建议。所以在这篇文章里，我基本上总结了我对"
+    },
+    {
+      "i": 233,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "64:06",
+      "en": "using AI and we sort of touched on them already, so. Well, actually, one of these isn't new. You know, if you go back five years, we weren't talking about AI, we're talking about machine learning and machine learning classification. To get that to work in financial data is an incredibly difficult problem.",
+      "zh": "使用 AI 的反对意见，我们已经谈过一些了。其实，这些观点里有一个并不新鲜。你知道，如果回到五年前，我们谈的不是 AI，而是机器学习和机器学习分类。要让它在金融数据上起作用，是一个极其困难的问题。"
+    },
+    {
+      "i": 234,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "64:26",
+      "en": "And you certainly can't do it by just taking a standard kind of machine learning classification model and pointing at some financial data, data that, that will not work. You really need to know what you're doing. And this is the same with LLMs, in my opinion. I've talked about marking your own homework problem.",
+      "zh": "你 certainly 不能只是拿一个标准的机器学习分类模型，对着一些金融数据用，那是不行的。你真的需要知道自己在做什么。在我看来 LLM 也是一样。我谈过「给自己的作业打分」的问题。"
+    },
+    {
+      "i": 235,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "64:42",
+      "en": "I think that's, that's a big issue. And actually I'm, I'm very nervous about AI written code generally. You know, the thought of running, the thought of running My own money entirely written by AI Written by AI would just terrify me. Terrified me. But. Yet. People do it. But yet people do it, apparently. So.",
+      "zh": "我认为那是个大问题。而且实际上，我对 AI 写的代码总体上非常担忧。你知道，一想到用我自己的钱去跑完全由 AI 写的代码，就会让我恐惧。让我恐惧。但。还是。有人这么干。但显然还是有人这么干。所以。"
+    },
+    {
+      "i": 236,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "65:03",
+      "en": "So putting aside the negative part of the post, what I do think AI is useful for and actually in the first thing, and this comes back to one of the questions we were asked. I don't think using AI for idea generation is a bad idea. And as I said, it will never come up with a genuinely novel idea.",
+      "zh": "抛开这篇文章负面的部分，我认为 AI 确实有用的地方——实际上第一点，这又回到我们被问到的一个问题——我不认为用 AI 做想法生成是个坏主意。而且就像我说的，它永远不会想出一个真正新颖的想法。"
+    },
+    {
+      "i": 237,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "65:22",
+      "en": "But it might either trigger something in your brain or point you towards a piece of research that makes you aware of something you weren't aware of or points you towards some research you weren't aware of and then that triggers something in your brain. So I don't think it is necessarily going to be, going to be bad for that.",
+      "zh": "但它可能触发你大脑里的某些东西，或者把你指向一篇研究，让你意识到某个你原本不知道的东西；或者把你指向一些你不知道的研究，然后那触发了你大脑里的某些东西。所以我不认为它在这方面一定是坏的。"
+    },
+    {
+      "i": 238,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "65:42",
+      "en": "I think it can be quite good also at summarizing research. As I said, if you wanted to have all the papers related to a particular subject, academic papers, to read those by yourself, to know which ones were the right ones, you could obviously look at citation indexes and things like that.",
+      "zh": "我觉得它在总结研究方面也可以相当好用。就像我说的，如果你想拿到与某个特定主题相关的所有论文、学术论文，要自己读完那些，要知道哪些是对的，你当然可以去查引用索引之类的东西。"
+    },
+    {
+      "i": 239,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "65:58",
+      "en": "But I think he is pretty good at that again, though of course can hallucinate. You do need to read the underlying papers yourself. You do need to check that they exist and that they say the things that I say they do.",
+      "zh": "但我觉得它在这方面相当好用，不过当然它会产生幻觉。你确实需要亲自阅读底层的论文。你确实需要检查它们是否存在，以及它们是否真的说了它声称的那些内容。"
+    },
+    {
+      "i": 240,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "66:09",
+      "en": "The next step of research is often finding a data source. So you might think, well, I've got this idea, but I need to use something like, I don't know, random example, I don't know money supply statistics, you know, so where do I get money supply statistics? I could use Google.",
+      "zh": "研究的下一步往往是找到数据来源。所以你可能会想，嗯，我有了这个想法，但我需要用某种东西，比如说——我随便举个例子——货币供应量统计数据，那么我去哪里找货币供应量统计？我可以用 Google。"
+    },
+    {
+      "i": 241,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "66:24",
+      "en": "But actually, you know, search engines are often an AI search, sort of empowered search engine can do better than a search engine in some cases.",
+      "zh": "但实际上，你知道，搜索引擎现在往往是 AI 赋能的搜索，这种搜索引擎在某些情况下可以比普通搜索引擎做得更好。"
+    },
+    {
+      "i": 242,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "66:34",
+      "en": "So, you know, so sometimes if it's a particular loop, you might be that the top Google response for this data isn't what you want and the AR can do a better job of kind of finding you the right one.",
+      "zh": "所以，有时候如果是某个特别冷门的东西，Google 对某个数据的第一条搜索结果可能不是你想要的，而 AI 可以更出色地帮你找到正确的那一个。"
+    },
+    {
+      "i": 243,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "66:46",
+      "en": "Now I don't think it's, I said I wouldn't use AI written code, but actually AI is quite good for writing small chunks of code. So a piece of code that's 50 lines long, something I can read and verify the correctness of it myself, particularly if it's something that's not kind of central to my trading system.",
+      "zh": "另外，我说过我不会用 AI 写的代码，但实际上 AI 挺擅长写小段代码。比如一段50行长的代码，是我可以自己阅读并验证其正确性的东西，尤其是当它不是我的交易系统核心的东西时。"
+    },
+    {
+      "i": 244,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "67:01",
+      "en": "So I wouldn't get AI to write my kind of core execution algorithm, for example, but I might get it to write something that, you know, going back to the money supply data, you know, something that scrapes the money supply webpage and gives me the Data from that that I want. Yeah.",
+      "zh": "所以我不会让 AI 写我的核心执行算法，但我可能会让它写一些东西，回到货币供应数据的例子，比如写一个抓取货币供应网页、把我想要的数据给我的程序。是的。"
+    },
+    {
+      "i": 245,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "67:17",
+      "en": "And actually AI is probably okay for checking code as well and for suggesting what looks like bugs and changes. And I, I sort of had that done in a secondhand way. Some of people have run some code for me and came back with the AI suggestions and, you know, just a small sample, but three of",
+      "zh": "而且实际上，AI 用来检查代码可能也没问题，它可以指出看起来像 bug 的地方并给出修改建议。我算是间接地体验过这一点。有人帮我跑了一些代码，然后带回了 AI 的建议，虽然只是一个小样本，但它给出的三条"
+    },
+    {
+      "i": 246,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "67:36",
+      "en": "the suggestions that it came back with were good suggestions. They found a couple of bugs in my code and it made some suggestions. Unfortunately, the fourth thing it suggested would completely and utterly destroy the code.",
+      "zh": "建议都是好建议。它们找到了我代码里的几个 bug，还提出了一些建议。不幸的是，它建议的第四条会完完全全、彻彻底底地摧毁那些代码。"
+    },
+    {
+      "i": 247,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "67:49",
+      "en": "So do not, I actually do not think you should be in this cycle where you have AI writing code and AI checking it and then you pat yourself on the back and think everything's fine. That is absolutely not the case. So how should you do trading strategy fittings? This is kind of the core of the post and this is, this is actually",
+      "zh": "所以千万不要——我实际上不认为你应该陷入这种循环：AI 写代码、AI 检查代码，然后你就自我感觉良好，觉得一切都没问题。事实绝对不是这样。那么你应该怎么做交易策略的拟合呢？这是那篇博客文章的核心，而且这实际上"
+    },
+    {
+      "i": 248,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "68:07",
+      "en": "something I'm going to be writing my next book about. So my new book, we were talking about it before the podcast and Niels was hoping we'd get all the way through without me mentioning my new book. Sorry, Nils. No, no, no. Actually we are allowing you to publish your book before Rich and I are coming out with our book.",
+      "zh": "也是我下一本书要写的内容。所以我的新书——我们在录播客之前还聊到过，Niels 本来希望我们能全程不提我的新书。抱歉了，Niels。不不不。实际上我们是在允许你比 Rich 和我先出版你的书。"
+    },
+    {
+      "i": 249,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "68:23",
+      "en": "So we're just making space for you. That's very kind, Nils, very kind. We're obviously fighting for the same readers, so we don't want to spoil them. So my next book's coming on December 1st. The book after that will probably talk about this idea of backtesting in this sort of framework.",
+      "zh": "所以我们只是在给你腾出空间。你太好了，Niels，太好了。我们显然是在争夺同一批读者，所以我们不想让他们应接不暇。我的下一本书12月1日出版。再下一本书可能会讲这个框架下的回测理念。"
+    },
+    {
+      "i": 250,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "68:40",
+      "en": "So what essentially I think you should do, and you can read the blog post for the full, full details, but essentially I think it's fine to use AI up to the point where essentially it's written you some code to implement a particular idea, like for example, say a moving average crossover or whatever. Sure.",
+      "zh": "所以我本质上认为你应该做的是——你可以去看那篇博客文章了解全部细节——但本质上我觉得，用 AI 用到这个程度是没问题的：它帮你写了一些代码来实现某个特定的想法，比如说一个移动平均线交叉之类的。当然。"
+    },
+    {
+      "i": 251,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "68:59",
+      "en": "But then once you've written that, that needs to then go into a robust back testing framework that you have written yourself that you trust, so you don't want it marking its own homework.",
+      "zh": "但写完那个之后，它需要放进一个你自己写的、你信任的稳健回测框架里，这样你就不想让 AI「给自己的作业打分」了。"
+    },
+    {
+      "i": 252,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "69:10",
+      "en": "And that backtesting needs to happen in a way that it will correct for the fact that the AR may have forward looking information. So in simple terms that would mean, for example, if you're testing a trend following algorithm, you should also be simultaneously testing whether actually a particular market is mean reverting,",
+      "zh": "而且那个回测需要以一种能修正 AI 可能拥有前瞻性信息的方式进行。简单来说，那意味着，比如说，如果你在测试一个趋势跟踪算法，你也应该同时测试某个特定市场实际上是否是均值回归的，"
+    },
+    {
+      "i": 253,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "69:32",
+      "en": "because at the start of a backtest you wouldn't know that Trend back in 1970 with assuming that there was no financial data before then, which of course isn't strictly true. But if your data set starts in 1970, you have to assume that you had no information on them at that point, which means you wouldn't",
+      "zh": "因为在回测开始的时候，你并不会知道趋势——回到1970年，假设那之前没有金融数据，当然这严格来说并不成立——但如果你的数据集从1970年开始，你必须假设你在那时对它们一无所知，这意味着你不会"
+    },
+    {
+      "i": 254,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "69:49",
+      "en": "have known necessarily that trend following worked. So you'd need to test the alternative as well, simultaneously.",
+      "zh": "必然知道趋势跟踪是有效的。所以你也需要同时测试那个替代方案。"
+    },
+    {
+      "i": 255,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "69:55",
+      "en": "And that avoids this problem of information leakage kind of coming into the design of the trading strategy, if you like.",
+      "zh": "这就避免了信息泄露进入交易策略设计的问题，如果你愿意这么说的话。"
+    },
+    {
+      "i": 256,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "70:05",
+      "en": "And the final thing is that. And this goes back to the. My original criticism of essentially the way everyone does fitting is that the backtest has to be what I'd call an add only backtest. You can only add new ideas to it, you can't delete ones. So once you've put an idea in there, it stays in your backtest, it lives there forever.",
+      "zh": "最后一点是——这又回到我最初对本质上所有人做拟合方式的批评——回测必须是我所说的「只增不减」（add only）的回测。你只能往里添加新想法，不能删除已有的想法。所以一旦你把一个想法放进去，它就留在你的回测里，永远留在那里。"
+    },
+    {
+      "i": 257,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "70:26",
+      "en": "Now, it may not have a meaningful weight in your final strategy, which is equivalent of course to rejecting an idea because you don't think it's good enough. But the point is that your previous performance won't be inflated by the fact that you have that future knowledge in there.",
+      "zh": "当然，它在你最终的策略里可能没有实质性的权重，而这等同于拒绝一个想法，因为你觉得它不够好。但关键在于，你之前的业绩不会因为你在里面掌握了那种未来信息而被虚增。"
+    },
+    {
+      "i": 258,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "70:39",
+      "en": "So I've become much more rigorous in my approach to backtesting. I think in the age of AI it's even more important. And I'm looking for titles for the next book. I don't know whether they call it strict back testing. Pure back testing, robust back testing. I'm open to two ideas and a bit worried about strict backtesting",
+      "zh": "所以我在回测方法上变得严格多了。我认为在 AI 时代这一点更加重要。我正在为下一本书找标题。我不知道是叫「严格回测」（strict backtesting）、「纯粹回测」（pure backtesting）还是「稳健回测」（robust backtesting）。我对各种想法都持开放态度，但对「严格回测」有点担心，"
+    },
+    {
+      "i": 259,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "70:58",
+      "en": "because it sounds a bit dodgy. But anyway,. Anyways, anyway, anyways. So there we go. That's the, that's the end of the trilogy and unlike Star wars, there won't be any more. Sure. But yeah, feel free to. Very good. Look at those. Papers and blog posts and. Draw. Your own conclusions.",
+      "zh": "因为它听起来有点可疑。但无论如何。总之，总之，总之。好了，就是这样。这就是三部曲的结尾，而且跟《星球大战》不一样，不会再有续集了。当然。但是，是的，欢迎去看看。非常好。那些论文和博客文章，然后得出你自己的结论。"
+    },
+    {
+      "i": 260,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "71:15",
+      "en": "I think we, I think we did a pretty good job with all the questions and, and information that we had gathered. So thank you for doing that, Rob. And of course I will be looking out after December 1st in my post in my mailbox for the signed copy by you, of course. So that would be great.",
+      "zh": "我觉得我们把所有问题和收集到的信息处理得相当不错。所以谢谢你，Rob。而且当然，12月1日之后我会盯着我的邮箱，等你签名版的新书，当然。那就太好了。"
+    },
+    {
+      "i": 261,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "71:36",
+      "en": "Otherwise people should definitely go and get it on Amazon or wherever they get their books. Absolutely. Speaking of books, I have to obviously also just plug the book that we are publishing. Not the book itself, but that you can go on a wait list in terms of information about when it will be published by just going to",
+      "zh": "否则大家绝对应该去 Amazon 或者任何他们买书的地方买这本书。当然。说到书，我当然也必须宣传一下我们正在出版的书。不是书本身，而是你可以去加入一个等候名单，获取关于它何时出版的信息，只要去"
+    },
+    {
+      "i": 262,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "71:54",
+      "en": "the TTU website toptradersunblock.com and sign up for that. We may also send you a few emails explaining the backstory to why the book came came along as it did. Anyways, enough of that. If you want to show your appreciation to Rob or any of the other co hosts for all the efforts they do every week, then",
+      "zh": "TTU 的网站 toptradersunplugged.com 注册即可。我们也可能会给你发几封邮件，解释这本书诞生背后的故事。总之，就说这么多。如果你想向 Rob 或者其他任何联合主持人表达感谢，感谢他们每周付出的努力，那么"
+    },
+    {
+      "i": 263,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "72:15",
+      "en": "do head over to your favorite podcast platform and leave a rating and review. It really does help and so we appreciate that. Next week I will be joined by Nick Nick Bolters from Goldman Sachs. And so if you have questions for Nick and there should be hard ones for him, I would say then you should email them to infoptraders",
+      "zh": "请去你最喜欢的播客平台留下评分和评论。这真的很有帮助，我们很感激。下周我将邀请来自 Goldman Sachs 的 Nick Bolters。所以如果你有问题要问 Nick——而且我想说应该是些尖锐的问题——那么你可以发邮件到 info@toptraders"
+    },
+    {
+      "i": 264,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "72:37",
+      "en": "unplugged.com and I'll do my very best to bring them up. From Rob and me, thanks ever so much for tuning in. We look forward to being back with you next week and in the meantime, as always, take care of yourself and take care of each other.",
+      "zh": "unplugged.com，我会尽最大努力在节目里提出来。代表 Rob 和我自己，非常感谢大家的收听。我们期待下周与你们再见，在此期间，一如既往，照顾好自己，也照顾好彼此。"
+    },
+    {
+      "i": 265,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "72:54",
+      "en": "Thanks for listening to Top Traders Unplugged. If you feel you learned something of value from today's episode, the best way to stay updated is to go on over to your favorite podcast platform and follow the show so that you'll be sure to get all the new episodes as they're released.",
+      "zh": "感谢收听 Top Traders Unplugged。如果你觉得从今天这期节目中学到了有价值的东西，保持更新的最好方式就是去你最喜欢的播客平台关注本节目，这样你就一定能在新剧集发布时全部收到。"
+    },
+    {
+      "i": 266,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "73:08",
+      "en": "We have some amazing guests lined up for you and to ensure our show continues to grow, please leave us an honest rating and review. It only takes a minute and and it's the best way to show us you love the podcast. We'll see you next time on Top Traders Unplugged. This podcast expresses the views of its hosts and the guests",
+      "zh": "我们已经为你准备了一些非常棒的嘉宾，为了确保我们的节目持续增长，请给我们留下一个诚实的评分和评论。这只需要一分钟，而且这是向我们表达你喜爱这个播客的最佳方式。我们下次在 Top Traders Unplugged 再见。本播客表达的是其主持人和嘉宾"
+    },
+    {
+      "i": 267,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "73:25",
+      "en": "appearing on the podcast as of the date of its recording and such views are subject to change without notice. Top Traders Unplugged do not have any duty or obligation to update the information contained herein. Furthermore, Top Traders Unplugged make no representation to its accuracy and it shall not be assumed that past investment",
+      "zh": "在节目录制当日所持有的观点，此类观点可能会在不另行通知的情况下发生变化。Top Traders Unplugged 没有义务更新此处包含的信息。此外，Top Traders Unplugged 不对其准确性作出任何陈述，并且不应假设过去的投资"
+    },
+    {
+      "i": 268,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "73:38",
+      "en": "performance is an indication of future results. Moreover, wherever the is a potential for profit, there is also the possibility of loss. This content is made available for educational purposes only and should not be used for any other purpose. The information contained in this podcast does not constitute",
+      "zh": "业绩是未来结果的指示。而且，只要有盈利的可能，就同样存在亏损的可能。本内容仅以教育目的提供，不应用于任何其他目的。本播客中包含的信息不构成、"
+    },
+    {
+      "i": 269,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "73:51",
+      "en": "and should not be construed as investment advice or an offer to sell or a solicitation to buy any securities or related financial instruments in any jurisdiction. Certain information contained herein concerning economic trends and performance is based on or derived from information provided by independent third party sources.",
+      "zh": "也不应被解释为投资建议，或在任何司法管辖区出售任何证券或相关金融工具的要约或购买招揽。此处包含的有关经济趋势和业绩的某些信息，基于或来源于独立第三方来源提供的信息。"
+    },
+    {
+      "i": 270,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "74:05",
+      "en": "Top Traders Unplugged may believe that the source the of from which such information are obtained are reliable. However, Top Traders Unplugged cannot guarantee the accuracy of such information and has not independently verified the accuracy or completeness of such information or the assumptions on which such information is based.",
+      "zh": "Top Traders Unplugged 可能相信此类信息来源是可靠的。但是，Top Traders Unplugged 无法保证此类信息的准确性，也没有独立核实此类信息的准确性或完整性，或此类信息所依据假设的准确性或完整性。"
+    },
+    {
+      "i": 271,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "74:18",
+      "en": "This podcast, including the information contained herein, may not be reproduced, copied, republished or posted in whole or in part in any form without the prior written consent of Top Traders Unplugged.",
+      "zh": "未经 Top Traders Unplugged 事先书面同意，不得以任何形式全部或部分复制、转载、重新发布或张贴本播客及其包含的信息。"
+    }
+  ]
+}
