@@ -1,0 +1,1569 @@
+{
+  "show": "rational-reminder",
+  "kind": "transcript",
+  "id": "350883979",
+  "slug": "2026-11-26-is-cape-overstating-us-stock-valuations-350883979",
+  "date": "2026-11-26",
+  "title_en": "Is CAPE Overstating US Stock Valuations? (Ben Marshall) | #437",
+  "title_zh": "CAPE 是否高估了美股估值？嘉宾 Ben Marshall（#437）",
+  "subtitle_zh": "Ben Marshall 讲解成分 CAPE 比率如何修正聚合不一致性，更准确地预测美股长期回报。",
+  "summary_zh": "本期 The Rational Reminder（第 437 期）由 PWL Capital 的 Benjamin Felix 与 Cameron Passmore 主持，嘉宾是 Massey University 金融学教授 Ben Marshall。节目围绕股票预期回报（expected equity market returns）展开：Ben Marshall 介绍了由收益率、增长与估值三部分构成的三成分模型，指出其中估值部分（尤其是 CAPE 比率）是驱动十年期回报预测的主要因素，该模型比朴素预测的样本外表现好约 30%，并能为投资者带来约 30% 的夏普比率提升。他重点讲解了自己的新研究——成分 CAPE 比率（component CAPE ratio），说明传统 CAPE 因成分股变动和按盈利加权而产生\"聚合不一致性\"（aggregation inconsistency），从而造成预测误差；改用按市值加权的成分 CAPE 后，预测准确度提升约 20%–25%。他还谈到当前传统 CAPE 约为历史均值的 1.8 倍、成分 CAPE 约高出 60%，以及永久组合（permanent portfolio）在风险调整后回报和下行保护上的价值。本集为理解美股高估值与长期回报预测提供了扎实的研究视角。",
+  "description": "Is CAPE Overstating US Stock Valuations? (Ben Marshall) | #437",
+  "duration": "58:01",
+  "duration_seconds": 3481,
+  "episode_url": "https://www.iheart.com/podcast/256-the-rational-reminder-podc-30926926/episode/is-cape-overstating-us-stock-valuations-ben-marshall-437-350883979",
+  "audio_url": "https://dts.podtrac.com/redirect.mp3/traffic.libsyn.com/secure/rationalreminder/RRP_-_EP.437_Ben_Marshall_-_AUDIO_V2.mp3?dest-id=763774&source=iheart",
+  "speakers": {
+    "1": "Benjamin Felix（主持）",
+    "2": "Cameron Passmore（主持）",
+    "3": "Ben Marshall（嘉宾）",
+    "4": "片花/广告（旁白）"
+  },
+  "turn_count": 193,
+  "turns": [
+    {
+      "i": 0,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "00:00",
+      "en": "Welcome to episode 437 of The Rashed Reminder Podcast. I'm Ben Felix, President and Chief Investment Officer at PWL Capital. And I'm Cameron Passmore, Chief Executive Officer of PWL Capital. And today we are joined by Ben Marshall. Ben is Professor of Finance and Hold the MSA Charitable Trust Chair and Finance at the",
+      "zh": "欢迎收听 The Rational Reminder 播客第 437 期。我是 Ben Felix，PWL Capital 的总裁兼首席投资官（President and Chief Investment Officer）。我是 Cameron Passmore，PWL Capital 的首席执行官。今天我们请到了 Ben Marshall。Ben 是金融学教授，并担任 MSA Charitable Trust 金融学讲席教授，任职于"
+    },
+    {
+      "i": 1,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "00:24",
+      "en": "Massey University Business School. He's also the Research Director of the School of Accounting Economics and Finance at Massey University. And he's ranked in the top 0.1% of authors on SSRN, which is pretty cool. His research is focused on things that can make a difference to both",
+      "zh": "Massey University 商学院。他同时还是 Massey University 会计、经济与金融学院的研究总监，而且在 SSRN 上位列所有作者的前 0.1%，这相当厉害。他的研究聚焦于那些能够真正对"
+    },
+    {
+      "i": 2,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "00:40",
+      "en": "industry and practice. And in this episode, we discuss one of my favorite topics, of course, expected equity market returns. We also discuss Ben's research on the component caper ratio, super interesting, which addresses what Ben and his co-authors call aggregation",
+      "zh": "行业和实践产生影响的话题。在这一期里，我们会聊我最喜欢的一个话题——当然，就是股票的预期市场回报（expected equity market returns）。我们还会谈到 Ben 关于成分 CAPE 比率（component CAPE ratio）的研究，非常有意思，它针对的是 Ben 和他的合著者所称的\"聚合不一致性\"（aggregation"
+    },
+    {
+      "i": 3,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "00:58",
+      "en": "inconsistency and how the metric is calculated. And lastly, we cover Ben's research on the permanent portfolio. All really interesting stuff. Stick around to hear our thoughts on the conversation. At the end, but for now, let's go ahead to our conversation with Ben Marshall.",
+      "zh": "inconsistency），以及这个指标该如何计算。最后，我们还会聊聊 Ben 关于永久组合（permanent portfolio）的研究，全都是很有意思的内容。记得留到最后听听我们对这场对话的看法。不过现在，先让我们一起进入与 Ben Marshall 的对话。"
+    },
+    {
+      "i": 4,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "01:18",
+      "en": "Ben Marshall, welcome to The Rashed Reminder Podcast. Thank you. I'm a big fan if you're showing. It's a pleasure to be with you. Thank you. We're excited to be talking to you. We've got some really interesting research that we're going to cover to kick things off. Ben, why is it important to have a good estimate of the",
+      "zh": "Ben Marshall，欢迎来到 The Rational Reminder 播客。谢谢。我可是你们节目的忠实粉丝，很高兴能来。谢谢你，我们也很期待和你聊聊。我们准备了一些非常有意思的研究要讲。先从这开始吧——Ben，为什么对"
+    },
+    {
+      "i": 5,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "01:34",
+      "en": "expected return on the equity market? This sort of estimate can help arrange a people, equity return estimates are important for asset managers and individual investors as they consider their asset allocation decisions. And also regulators of stocks and industries with monopoly, pricing power",
+      "zh": "股票市场的预期回报有一个好的估计会这么重要？这类估计能帮到很多人。股票回报的估计对资产管理人和个人投资者都很重要，因为他们要做资产配置决策。还有那些监管股票、以及监管具有垄断定价权的行业的机构，"
+    },
+    {
+      "i": 6,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "01:52",
+      "en": "need to decide what a fair rate of return on equity is. And they would often use the capital asset pricing model, which has the expected rate of return on the equity market as an input into the model. Why can we simply use historical returns, as I said, as I've expected returns?",
+      "zh": "也需要判断什么样的股权回报率才算公允，他们通常会用到资本资产定价模型（capital asset pricing model），而这个模型的一个输入项就是股票市场的预期回报率。那为什么我们不能直接把历史回报当作预期回报呢？"
+    },
+    {
+      "i": 7,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "02:09",
+      "en": "The usefulness of historical returns is related to the time period for which you want to estimate expected returns. The average annual return on the US equity market over the last 100 years has been approximately 10% per annum. So if you want to estimate expected returns for the next 100",
+      "zh": "历史回报的用处，和你想估计的时间区间有关。过去 100 年美国股票市场的年化平均回报大约是每年 10%。所以如果你想估计未来 100"
+    },
+    {
+      "i": 8,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "02:28",
+      "en": "years, the number of 10% is a reasonable starting point. But most of us have a shorter time frame than that. So let's say we want to estimate expected returns for the next 10 years. And this instance simply using a 100 year historical average has some downsides. Researchers have",
+      "zh": "年的预期回报，10% 这个数字是一个合理的起点。但我们大多数人的时间跨度没有那么长。比方说我们想估计未来 10 年的预期回报，这种情况下，简单地用 100 年的历史平均值就有一些弊端。研究者们"
+    },
+    {
+      "i": 9,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "02:47",
+      "en": "been showing that expected returns over the next 10 years are conditional on current valuations. So current valuations are higher than historically. They have been expected returns are lower and vice versa. And also throw in there, we've talked about this a few times in the",
+      "zh": "已经表明，未来 10 年的预期回报是取决于当前估值的。也就是说，当前估值比历史水平越高，预期回报就越低，反之亦然。另外还要补充一点，我们在"
+    },
+    {
+      "i": 10,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "03:02",
+      "en": "podcast that the US historical return is not necessarily represented of expected returns globally, because US returns have been quite a bit higher. That's very true. Some researchers done a particularly good job of looking at just how different the US experience has been to the",
+      "zh": "播客里也聊过好几次：美国的历史回报未必能代表全球的预期回报，因为美国的回报一直要高出不少。确实如此。有些研究者在这方面做得特别好，仔细考察了美国的经验和"
+    },
+    {
+      "i": 11,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "03:18",
+      "en": "international experience. Yeah, it's interesting, because that 10% number does get thrown around, but you've got the valuation piece where US valuations are high right now, then you've got the well returns elsewhere actually haven't been as I what are some of the methods that can be used",
+      "zh": "国际经验到底有多不一样。是的，很有意思，因为那个 10% 的数字确实到处被人引用，但你要考虑到估值这一块——现在美国的估值很高；然后你还要考虑到，其他地方的回报其实并没有那么高。那么有哪些方法可以用来"
+    },
+    {
+      "i": 12,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "03:33",
+      "en": "to form an expected return estimate. Well, what approach is to use survey evidence? So perhaps you could survey asset managers and some people do this and they ask them for an estimate of what the expected return is. And then these various estimates could be average to come up with a view",
+      "zh": "形成预期回报的估计呢？一种做法是使用调查证据（survey evidence）。比如说你可以去调查资产管理人，确实有人这么做，问他们对预期回报的估计是多少，然后把这些不同的估计做个平均，得出一个看法。"
+    },
+    {
+      "i": 13,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "03:53",
+      "en": "that other researchers shown that there's some downsides to this approach. Often the market participants that are forming an estimate are too reliant on their recent experience are too backward looking and they're not forward looking enough. So there is some downsides in that survey",
+      "zh": "不过也有研究者指出这种做法有一些弊端。往往那些形成估计的市场参与者太过依赖自己最近的经历，太向后看、不够向前看。所以调查证据这种方式确实存在一些弊端。"
+    },
+    {
+      "i": 14,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "04:12",
+      "en": "evidence approach. So the other approach is more of a data driven approach. So it would be to extract some variable from the market. Take dividend yield, for instance, you could obtain the dividend yields of individual stocks in the market. You could aggregate them up to form a market dividend",
+      "zh": "另一种做法更偏向数据驱动。就是从市场里提取某个变量。拿股息率（dividend yield）来说，你可以取得市场中个股的股息率，把它们加总起来形成市场的股息"
+    },
+    {
+      "i": 15,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "04:35",
+      "en": "yield. Perhaps you might want to account for buyback yield as well. And then you would take the view that if dividend yields are particularly high, that could be good news for future expected returns. If dividend yields are particularly low, that would be seen as bad news. So just looking",
+      "zh": "率。也许你还想把回购收益率（buyback yield）也算进去。然后你会认为，如果股息率特别高，那对未来预期回报是个好消息；如果股息率特别低，那就会被看作坏消息。所以单看"
+    },
+    {
+      "i": 16,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "04:53",
+      "en": "at yield alone is one approach. Another approach is to add expected earnings and dividend growth to the yield component. And I guess this would have its foundations in equity valuation, the notion that we can value an equity by thinking about our required return, the dividend yield,",
+      "zh": "收益率是一种方法。另一种方法是在收益率的基础上再加上预期的盈利和股息增长。我想它的根基在于股权估值——也就是这个理念：我们可以通过思考所要求的回报率、股息率，"
+    },
+    {
+      "i": 17,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "05:16",
+      "en": "and then also the growth rate in earnings or dividends. So that would be a model of two components being the dividend yield and then also the expected growth. Another approach would be to take a valuation ratio. So maybe you could take the price to earnings ratio for the entire market instead",
+      "zh": "以及盈利或股息的增长率，来给一只股票估值。所以那就是一个由两个部分组成的模型：股息率，再加上预期增长。还有一种方法是使用一个估值比率。比如你可以用整个市场的市盈率（price to earnings ratio）来代替"
+    },
+    {
+      "i": 18,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "05:35",
+      "en": "of the dividend yield. And as variations on that, there's this modified ratio called the cyclically adjusted PE ratio, the Cape ratio, and perhaps there'll be time to talk more about that later. The valuation measures another approach. And then finally, you could use what we would call a",
+      "zh": "股息率。在此基础上还有一些变体，有一个改良过的比率叫周期调整市盈率（cyclically adjusted PE ratio），也就是 CAPE 比率，稍后也许会有时间多聊聊它。估值指标是又一种方法。最后，你还可以用我们所说的"
+    },
+    {
+      "i": 19,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "05:53",
+      "en": "three component model. So that would have the dividend component, the growth component, and also the valuation component. One of the input assumptions needed for an expected return estimate. I guess the basic assumption is that relationships that have been established in the",
+      "zh": "三成分模型（three component model）。它会包含股息部分、增长部分，以及估值部分。要做预期回报的估计，需要一些输入假设。我想最基本的假设就是：过去已经确立的那些"
+    },
+    {
+      "i": 20,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "06:12",
+      "en": "past will continue to hold in the future. So a basic relationship from the past is that if valuations are high, the expected return over the next period is low. If we're using a model, we would be assuming that that relationship is also going to prevail into the future. When you take that three input model",
+      "zh": "关系在未来仍然会成立。所以过去的一个基本关系是：如果估值高，那么下一期的预期回报就低。如果我们用一个模型，就会假设这种关系在未来也会继续成立。当你采用你提到的那个三输入模型时，"
+    },
+    {
+      "i": 21,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "06:32",
+      "en": "that you mentioned, how do you go about actually estimating the inputs? So the first input, the yield, that is measurable, that's a measurable variable in the market than any particular point in time, just looking at the yield of individual stocks and aggregating them up.",
+      "zh": "你实际上是怎么去估计这些输入项的呢？第一个输入项是收益率，它是可测量的，在任意一个时点上都是市场里可测量的变量，只要看个股的收益率再加总起来就行。"
+    },
+    {
+      "i": 22,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "06:48",
+      "en": "A decision needs to be made about how you're going to forecast dividend or earnings growth, and a typical approach would be to look at how either of those variables has grown in the past and simply extrapolate that historical growth rate out into the future. And then the valuation",
+      "zh": "至于如何预测股息或盈利增长，就需要做一个决定，典型的做法是看这两个变量过去是如何增长的，然后简单地把这个历史增长率外推到未来。然后是估值"
+    },
+    {
+      "i": 23,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "07:07",
+      "en": "is where there's a little bit more latitude to make decisions. So the first option would be the cyclically adjusted P ratio that I talked about. So this relates the current value of the S&P 500 index to the average earnings reported on the index over the last 10 years. If the current value",
+      "zh": "这一块，做决定的空间就更大一些。第一个选项就是我之前提到的周期调整市盈率。它把 S&P 500 指数当前的值与该指数过去 10 年报告的平均盈利联系起来。如果指数当前的值"
+    },
+    {
+      "i": 24,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "07:29",
+      "en": "of the index is high relative to average earnings, valuations are said to be high and vice versa. This is a measure that's got quite some publicity. It was originally developed by John Campbell and Robert Schiller and the Nobel Prize winner Robert Schiller has gone on to update this data on his",
+      "zh": "相对于平均盈利偏高，就说明估值偏高，反之亦然。这个指标获得了相当多的关注。它最初是由 John Campbell 和 Robert Shiller 开发的，而诺贝尔奖得主 Robert Shiller 后来一直在他的"
+    },
+    {
+      "i": 25,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "07:47",
+      "en": "website on a regular basis. So it's well studied and it's well used in the market. The cyclically adjusted P ratio, the cake ratio is one approach. Another approach is the so-called Buffett indicator named after Warren Buffett. And he pointed out that a valuation metric is to take the market",
+      "zh": "网站上定期更新这些数据。所以它被研究得很充分，在市场上也被广泛使用。周期调整市盈率、也就是 CAPE 比率是一种方法。另一种是所谓的\"巴菲特指标\"（Buffett indicator），以 Warren Buffett 命名。他指出，一个估值指标就是取整个市场的"
+    },
+    {
+      "i": 26,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "08:08",
+      "en": "capitalization of the entire market and divide that by GDP. So how does the value of the market compare to the economy? If the market is very highly valued relative to the economy, Buffett would take the view that the market is overvalued compared to history. How relatively important is each",
+      "zh": "市值，再除以 GDP。也就是市场的价值和经济体量相比如何。如果市场相对于经济估值非常高，巴菲特就会认为，与历史相比市场被高估了。那么每一个输入项对预测能力的"
+    },
+    {
+      "i": 27,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "08:28",
+      "en": "input to the predictive power of the forecast? So when we look into this, we find that it's actually the third component, the valuation component that is the main driver of changes in return forecasts over time. You mentioned a couple of different ways to forecast expected returns. We just talked",
+      "zh": "相对重要性如何？我们研究之后发现，其实是第三个部分——估值部分——才是随时间推移驱动回报预测变化的主要因素。你提到了几种不同的预测预期回报的方法。我们刚刚相当详细地聊了"
+    },
+    {
+      "i": 28,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "08:46",
+      "en": "about the three input model in quite a bit of detail, which estimates did you test in your paper on this? We tested four different inputs. So we looked at the yield alike. Then we looked at yield and growth together. Then we looked at valuation alike. And finally, we considered what we would call",
+      "zh": "三输入模型。你在关于这方面的论文里测试了哪些估计呢？我们测试了四种不同的输入。先单看收益率，然后看收益率和增长的组合，再单看估值，最后我们考虑了所谓的"
+    },
+    {
+      "i": 29,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "09:06",
+      "en": "a three component model yield growth and valuation together. And what metric do you use to compare the predictive power of the models? We use two metrics. The first is mean absolute error. So we would use the model to make a forecast of equity returns over the next 10 years,",
+      "zh": "三成分模型，也就是把收益率、增长和估值放在一起。那你用什么指标来比较这些模型的预测能力呢？我们用了两个指标。第一个是平均绝对误差（mean absolute error）。我们会用模型去预测未来 10 年的股票回报，"
+    },
+    {
+      "i": 30,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "09:27",
+      "en": "S&P 500 equity returns over the next 10 years. We've got a forecast for the future. And then we can actually look into the data and see what actually transpired. So we've got an actual return that occurred following a forecast. We can compare the forecasted return to the actual",
+      "zh": "也就是 S&P 500 未来 10 年的股票回报，这样就得到一个对未来的预测。然后我们可以回过头去看数据，看看实际发生了什么。所以我们有一个在预测之后实际出现的回报，可以把预测回报和实际"
+    },
+    {
+      "i": 31,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "09:49",
+      "en": "return. And we obviously want a forecast that is particularly close to the actual. Any difference is what we would call an error. Of course, the error could be on the high side. The forecast might be too high, could be 2% over, or the error could be on the low side, 2% under.",
+      "zh": "回报做比较。显然我们希望预测特别接近实际值。任何差异就是我们所说的误差。当然，误差可能偏高，预测可能太高了，比如高出 2%；误差也可能偏低，低了 2%。"
+    },
+    {
+      "i": 32,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "10:07",
+      "en": "We take the absolute value of those errors. So irrespective of whether it's on the high side or the low side, we would say the error for that particular forecast is 2%. That would be one error. We would track all the errors over time. And obviously we're looking for a model that",
+      "zh": "我们对这些误差取绝对值。所以无论是偏高还是偏低，我们都会说那次特定预测的误差是 2%。这就是一次误差。我们会追踪所有随时间累积的误差。显然我们要找的是一个"
+    },
+    {
+      "i": 33,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "10:24",
+      "en": "gives a low mean error over time. So that's the first approach. The second approach, which is very, very common in the finance literature, is to calculate what's called an out of sample squared. And this looks at the error from the forecast model in relation to the error from what",
+      "zh": "随时间给出较低平均误差的模型。这就是第一种方法。第二种方法在金融学文献里非常非常常见，就是计算所谓的样本外 R 平方（out of sample R squared）。它考察的是预测模型的误差相对于"
+    },
+    {
+      "i": 34,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "10:44",
+      "en": "we would say is a naive forecast. The naive forecast, simply looking at average equity returns up to the particular point in time and assuming that they're going to continue into the future. So we would want to see the model being applied doing a better job within that naive",
+      "zh": "我们所说的\"朴素预测\"（naive forecast）的误差。朴素预测就是简单地看截止到某个时点的平均股票回报，然后假设它们会延续到未来。所以我们希望看到所应用的模型比那个朴素"
+    },
+    {
+      "i": 35,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "11:03",
+      "en": "forecasting model to give a high out of sample ask where to indicate that there's a good ability of the model to forecast. Interesting. When you apply those which model setup and input estimate combination, do you find performs most consistently at actually predicting returns?",
+      "zh": "预测模型做得更好，从而给出一个较高的样本外 R 平方，以表明模型有良好的预测能力。有意思。当你把这些模型设置和输入估计的组合应用起来时，你发现哪一个在真正预测回报方面表现最稳定？"
+    },
+    {
+      "i": 36,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "11:20",
+      "en": "It's a three component model, the three component model with the valuation aspect being measured using the Cape ratio and how well does the winning model describe future returns? Describing or predicting future returns is not an easy task. There's lots of variables,",
+      "zh": "是三成分模型，其中估值部分用 CAPE 比率来衡量。那么这个胜出的模型在描述未来回报方面表现如何呢？描述或预测未来回报并不是一件容易的事，变量很多，"
+    },
+    {
+      "i": 37,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "11:37",
+      "en": "it's difficult to measure, so it is challenging. The three component model beats the naive approach of simply assuming what's happened in the past will happen in the future, it beats that by about 30%. So relative to other models that have been tested, that's quite a good improvement,",
+      "zh": "很难测量，所以很有挑战性。这个三成分模型击败了那种简单假设\"过去发生的未来也会发生\"的朴素方法，大概领先了 30%。所以相对于其他被测试过的模型来说，这是相当不错的改进，"
+    },
+    {
+      "i": 38,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "11:55",
+      "en": "but it's not going to predict with complete accuracy obviously. Yes, still a lot of noise in there. How economically useful would you say that the estimates are through the forecast are? We think about this from an asset allocation perspective,",
+      "zh": "但显然它不可能完全准确地预测。是的，里面还是有很多噪音。你会说这些通过预测得到的估计在经济意义上有多大用处呢？我们是从资产配置的角度来思考这个问题的，"
+    },
+    {
+      "i": 39,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "12:10",
+      "en": "so we think about the investor that's wanting to choose between stock exposure and bond exposure and tilt based on a view of stock expected returns, and we find that there's an approximately 30% increase in the sharp ratio for the investor that uses the three component model that we describe",
+      "zh": "也就是考虑那种想在股票敞口和债券敞口之间做选择、并根据对股票预期回报的看法进行倾斜的投资者。我们发现，使用我们所描述的三成分模型的投资者，其夏普比率（Sharpe ratio）大约提高了 30%，"
+    },
+    {
+      "i": 40,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "12:31",
+      "en": "rather than simply using a naive approach. I got to ask, does that mean the model supports market timing? It does say that the model can add value for investors with 10-year horizons, it does, yeah. Interesting. And what kind of statistical tasks did you use to make sure the results were robust? We use a bootstrap procedure, so we're",
+      "zh": "相比之下简单使用朴素方法就要差一些。我得问一句，这是不是意味着模型支持择时（market timing）？它确实表明这个模型能为投资期限在 10 年的投资者增加价值，是的。有意思。那你用了什么样的统计手段来确保结果是稳健的？我们用了自助法（bootstrap）程序，"
+    },
+    {
+      "i": 41,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "12:53",
+      "en": "looking to use that to determine whether the results that we get are different to what we would expect by random chance, and the indication is that they are different, so we claim statistical significance on that basis. If we look at the world today, I mean, valuations are pretty high,",
+      "zh": "想用它来判断我们得到的结果是否不同于纯随机机会所能产生的结果，结果显示它们确实不同，所以我们据此宣称具有统计显著性。如果我们看看当今世界，我是说，估值相当高，"
+    },
+    {
+      "i": 42,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "13:12",
+      "en": "although maybe they're offset by really strong expected earnings growth, who knows, if you take your model and apply it to the world today, can you say what the expected return on say the US stock market is? We haven't updated it in the last little while, but I think we can",
+      "zh": "尽管也许被非常强劲的预期盈利增长所抵消，谁知道呢。如果你把你的模型应用到当今世界，你能说出比如美国股票市场的预期回报是多少吗？我们最近一段时间没有更新它了，但我想我们可以"
+    },
+    {
+      "i": 43,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "13:26",
+      "en": "form a bit of a view here if we just think about the inputs. So the Schiller Cape ratio currently stands at about 40, 40 to 41, and the historical average has been about 18. We can automatically see about valuations very high relative to historical levels. Now the three component model says that",
+      "zh": "在这里稍微形成一个看法，只要想想这些输入项就行。目前 Shiller CAPE 比率大约在 40 左右，40 到 41 之间，而历史平均值大约是 18。我们立刻就能看出，相对于历史水平估值非常高。现在三成分模型说"
+    },
+    {
+      "i": 44,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "13:46",
+      "en": "we need to have that as one input, the other input would be dividend yield. The dividend yield is historically low. The third input is of course earnings growth, and that's as you touched on being. One way of thinking about market pricing currently is to think about what's implied by the",
+      "zh": "我们需要把它作为一个输入项，另一个输入项是股息率。股息率处于历史低位。第三个输入项当然是盈利增长，正如你提到的。思考当前市场定价的一种方式，就是想想"
+    },
+    {
+      "i": 45,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "14:05",
+      "en": "current pricing, and I think the current pricing is implying very, very strong earnings growth over the next interval, and it remains to be seen whether that will be born out. I suppose the important thing to highlight here is that we're talking about a forecast interval of 10 years, so we're",
+      "zh": "当前定价隐含了什么，而我认为当前的定价正隐含着未来一段时间内非常非常强劲的盈利增长，这还有待观察是否会被证实。我想这里要强调的重要一点是，我们谈的是 10 年的预测区间，所以我们"
+    },
+    {
+      "i": 46,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "14:23",
+      "en": "talking about what might be expected over the next 10 years. The model has nothing to say about what might be expected over the next month or year or even three years. And what are the asset allocation implications, if any, of course, of current expected returns? I think our research would say that",
+      "zh": "谈的是未来 10 年可能会有的预期。这个模型对下个月、明年、甚至未来三年可能会有的预期，是没有任何说法的。那么当前的预期回报对资产配置有什么影响呢（如果有的话）？我想我们的研究会说，"
+    },
+    {
+      "i": 47,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "14:42",
+      "en": "those with short horizons say a 10-year horizon, they might consider having a lower allocation to equities given the high valuations than they typically would have. Now, of course, if somebody's got a time horizon of 30 years or 40 years, they might choose to look through the current high",
+      "zh": "那些期限较短的人，比如说 10 年期限，考虑到高估值，他们或许可以考虑把股票配置比例放得比通常低一些。当然，如果某人的投资期限是 30 年或 40 年，他们可能会选择看穿当前的高"
+    },
+    {
+      "i": 48,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "15:03",
+      "en": "valuations on the basis that they're going to be in the market for such a long period that it's going to hit the least impact on them. Okay, that's interesting. So if someone's making an asset allocation decision with a medium, whatever we call 10 years, a 10-year horizon",
+      "zh": "估值，理由是他们在市场里待的时间这么长，高估值对他们的影响会最小。好，这很有意思。所以如果某人正在做一个中等期限——我们就叫它 10 年吧——的资产配置决策，一个 10 年期限的"
+    },
+    {
+      "i": 49,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "15:19",
+      "en": "valuations matter, but if you're looking at 30, 40 plus years, as you said, when we start the conversation, maybe they care more about the historical average than they do about current implied expected returns. But it's also tricky, right? Because if you're, say, a retiree,",
+      "zh": "决策，估值就很重要；但如果你看的是 30 年、40 年以上，就像我们在对话开始时说的，也许他们更在意历史平均值，而不是当前隐含的预期回报。但这也挺棘手的，对吧？因为比如说你是个退休人员，"
+    },
+    {
+      "i": 50,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "15:35",
+      "en": "they care about the 50-year average, but they also care about how much they can spend in the next 10 years, which if returns end up being really low, they've got kind of a blended time horizon where they're withdrawing a little bit. Interesting. When we're doing financial planning for",
+      "zh": "他们在意 50 年的平均值，但他们也在意未来 10 年能花多少钱——如果回报最终真的很低，他们就有一种混合的时间跨度，一边在提取。有意思。我们在为客户"
+    },
+    {
+      "i": 51,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "15:49",
+      "en": "clients, we actually do a combination where we take the historical return and we take not the three input model you're talking about. We just use the inverse of the caper ratio as the market-based expected return and we do a weighted average of those two where it's 25% inverse keep 75%",
+      "zh": "做财务规划时，实际上是做一个组合：我们取历史回报，同时——不是你说的那个三输入模型——我们只用 CAPE 比率的倒数作为基于市场的预期回报，然后对这两者做一个加权平均，是 25% 的 CAPE 倒数、75% 的"
+    },
+    {
+      "i": 52,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "16:05",
+      "en": "historical. And we use that. I mean, it's a rough estimate, I guess, but that's how we try and approach it. That's kind of sensible approach then. So you've got your base rate if you like, which is the long term historical average. And then what you're saying is you're tilting away",
+      "zh": "历史值，我们就用这个。我是说，这大概是个粗略的估计，但这就是我们尝试去处理的方式。那算是挺合理的做法。所以你有了你的基准率（base rate），也就是长期历史平均值，然后你说的是，你在"
+    },
+    {
+      "i": 53,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "16:20",
+      "en": "from that to a degree based on what recent information is saying. You're not putting all the emphasis on the most recent information, but you're putting some emphasis on that. So that seems like a very reasonable approach. Yeah, I think so. Most financial planning software here in Canada",
+      "zh": "一定程度上偏离它，偏离的程度取决于近期信息在说什么。你没有把全部权重都放在最近的信息上，但也放了一些权重。所以这看起来是个非常合理的做法。是啊，我也这么觉得。加拿大大多数财务规划软件"
+    },
+    {
+      "i": 54,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "16:35",
+      "en": "does not allow this, but it would be really interesting to have two components, to have like a 10-year component that's more informed by current market conditions. And then a longer term component that leans more on the historical average, but because we can only use one input for our software,",
+      "zh": "并不支持这样做，但能有两个部分会很有意思：一个 10 年的部分，更多地受当前市场状况影响；然后一个更长期的部分，更多地倚重历史平均值。但因为我们的软件只能用一个输入项，"
+    },
+    {
+      "i": 55,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "16:50",
+      "en": "we have this blended figure. So man, you mentioned that the Cape, the cyclically adjusted price earnings ratio is a major input to that expected returns model. You did define it a little bit earlier, but can you talk a little bit more about what the Cape ratio is, what it actually contains?",
+      "zh": "所以我们得到了这个混合的数字。那么 Ben，你提到 CAPE，也就是周期调整市盈率，是那个预期回报模型的一个主要输入项。你之前稍微定义过它，但你能再多讲讲 CAPE 比率到底是什么、它实际包含什么吗？"
+    },
+    {
+      "i": 56,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "17:06",
+      "en": "If we were to calculate the Cape ratio today, or maybe we calculated at the end of 2025, we would take the index level of the S&P 500 on the 31st of December 2025. And then we would look back at the earnings that have been reported on stocks in the S&P 500. So the S&P 500",
+      "zh": "如果我们今天要计算 CAPE 比率，或者假设我们在 2025 年底计算，我们会取 2025 年 12 月 31 日 S&P 500 的指数点位。然后我们会回看 S&P 500 中各只股票报告过的盈利，也就是 S&P 500 的"
+    },
+    {
+      "i": 57,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "17:27",
+      "en": "earnings per share. And we would grab those for the year 2025, 2024, and back for a total of 10 years. We would then take the average of those 10-year earnings. And that's the cyclically adjusted that I guess, saying that if we just rely on one year's earnings, it might be not a good",
+      "zh": "每股收益。我们会取 2025 年、2024 年，一直往前总共 10 年的数据。然后我们会取这 10 年盈利的平均值。这就是\"周期调整\"的意思——我想说的是，如果我们只依赖某一年的盈利，可能不是一个好的"
+    },
+    {
+      "i": 58,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "17:47",
+      "en": "representation, maybe we've just been into a recession or something. So let's smooth them out, take the average 10-year earnings. Now we can just calculate a traditional PE ratio, the price being the index level, the earnings being the earnings on the index. So it's been",
+      "zh": "代表，也许我们刚经历过一场衰退之类的。所以我们把它们平滑一下，取 10 年盈利的平均值。现在我们就可以计算一个传统的市盈率，价格是指数点位，盈利是指数的盈利。有一件事"
+    },
+    {
+      "i": 59,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "18:05",
+      "en": "properly reported that Robert Schiller actually had lunch with the venture of the US Federal Reserve Alan Greenspan. And it was shortly after that meeting that Greenspan gave his famous speech, which included the term that the US market was displaying signs of irrational exuberance.",
+      "zh": "被恰当报道过：Robert Shiller 其实和美联储主席 Alan Greenspan 一起吃过午饭。就在那次会面之后不久，Greenspan 发表了他那场著名的演讲，其中用到了美国市场正显现出\"非理性繁荣\"（irrational exuberance）迹象这个说法。"
+    },
+    {
+      "i": 60,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "18:24",
+      "en": "So we will never know what was discussed at that lunch, but most people suggest that it was probably a time where Schiller shared the Cape analysis that had been working on and that informed Greenspan's comment. And on account of that, the Cape ratio is something that's talked about",
+      "zh": "所以我们永远无法知道那顿午餐上讨论了什么，但大多数人认为，那很可能是 Shiller 分享了他一直在做的 CAPE 分析的一次场合，并且影响了 Greenspan 的那番评论。正因为如此，CAPE 比率在"
+    },
+    {
+      "i": 61,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "18:43",
+      "en": "quite regularly in industry circles. And empirically, how is the Cape ratio related to future 10-year stock returns? The idea would be that if valuations are high, so if the Cape ratio is high, we would expect future 10-year stock returns to be low. Alternatively, if the Cape ratio is low,",
+      "zh": "行业圈子里被相当频繁地讨论。那么从实证上看，CAPE 比率与未来 10 年的股票回报是什么关系呢？这个理念是：如果估值高，也就是 CAPE 比率高，我们就会预期未来 10 年的股票回报低；反过来，如果 CAPE 比率低，"
+    },
+    {
+      "i": 62,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "19:05",
+      "en": "we would expect future 10-year returns to be high. And when we talk about the Cape ratio being low or high, that would be compared to what it has been historically. Makes sense. We've talked about the Cape ratio a lot, as I mentioned. We also use it, but your research kind",
+      "zh": "我们就会预期未来 10 年的回报高。而当我们说 CAPE 比率低或高时，是相对于它历史上的水平而言的。有道理。就像我提到的，我们已经聊了很多 CAPE 比率，我们自己也在用它，但你的研究"
+    },
+    {
+      "i": 63,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "19:23",
+      "en": "of sheds some interesting new light on it. Can you describe what is you can arise when firm information, like dividends or earnings, as you're just describing as an important input, is aggregated to the market level to forecast aggregate stock returns?",
+      "zh": "给它带来了一些很有意思的新视角。你能描述一下吗——当像股息或盈利这样的公司层面信息，正如你刚描述的那样作为重要输入，被聚合到市场层面去预测整体股票回报时，会出现什么问题？"
+    },
+    {
+      "i": 64,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "19:36",
+      "en": "There's a couple of things that can happen. They both introduce a mismatch. So we know that the variable that we're trying to forecast is S&P 500 return. That's the forecast variable. There's some things that can go on with the aggregation of, say, for instance, Cape ratios",
+      "zh": "会发生几件事情，它们都引入了一种错配。我们知道我们要预测的变量是 S&P 500 的回报，这是被预测的变量。在聚合——比如说 CAPE 比率——的过程中会发生一些事情，"
+    },
+    {
+      "i": 65,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "19:57",
+      "en": "that cause a mismatch. So we know that S&P 500 return is a value-weighted return, depending on how the aggregation of the Cape ratios takes place, that can be something other than a value-weighted index. The price of the index, I guess, which is one component of the ratio",
+      "zh": "造成一种错配。我们知道 S&P 500 的回报是一个市值加权（value-weighted）的回报，而取决于 CAPE 比率的聚合是怎么做的，它可能是一个并非市值加权的指数。指数的价格，我想是比率的一个组成部分，"
+    },
+    {
+      "i": 66,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "20:16",
+      "en": "is going to be evaluated. Yes. But then the earnings component, depending on how it's calculated, may not be weighted the same way. So you've got the two there, right? Yeah. I think probably more the fact that we're trying to forecast the S&P 500 index. So we're",
+      "zh": "会被估值。是的。但盈利那一部分，取决于它是怎么计算的，可能不是以同样的方式加权。所以你两边就有了这个问题，对吧？是的。我想更重要的其实是这个事实：我们试图预测的是 S&P 500 指数，所以我们"
+    },
+    {
+      "i": 67,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "20:34",
+      "en": "trying to forecast a return. Now that return is a value-weighted return of stocks in the index. I see. The market Cape ratio may not be a value-weighted measure of all the Cape ratios of stocks in the market. So you're trying to forecast the value-weighted return with individual",
+      "zh": "试图预测的是一个回报。而这个回报是指数中各只股票的市值加权回报。我明白了。市场的 CAPE 比率可能并不是市场中所有股票 CAPE 比率的一个市值加权度量。所以你是在用非市值加权的个股层面信息"
+    },
+    {
+      "i": 68,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "20:54",
+      "en": "stock-level information that's not value-weighted. Perhaps I can give a couple of examples of what takes place here. So the mismatch comes from two parts and the first part is actually nothing to do with weighting. If you think about the S&P 500 at the end of December 2025,",
+      "zh": "去预测市值加权的回报。也许我可以举几个例子来说明这里发生了什么。这种错配来自两个部分，第一个部分其实和加权无关。如果你想想 2025 年 12 月底的 S&P 500，"
+    },
+    {
+      "i": 69,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "21:16",
+      "en": "the index is based on the stocks that are in the index at that particular point in time. What we have said is that we're going to compare that index level with the earnings that have been reported for the S&P 500 for each of the previous 10 years. So the earnings that are",
+      "zh": "这个指数是基于在那个特定时点上处于指数中的那些股票的。我们说的是，我们要把这个指数点位与 S&P 500 在前面每一年（共 10 年）报告过的盈利做比较。所以那些"
+    },
+    {
+      "i": 70,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "21:35",
+      "en": "reported for the S&P 500 in 2025 will be based on the stocks index at 2025. No issue. But the earnings that are reported for the S&P 500 in 2024, they will be based on the stocks that were in the index at that particular point in time. Now because the constituents stocks",
+      "zh": "在 2025 年为 S&P 500 报告的盈利，会基于 2025 年在指数里的股票，这没问题。但在 2024 年为 S&P 500 报告的盈利，会基于在那个特定时点处于指数中的股票。因为指数的成分股"
+    },
+    {
+      "i": 71,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "21:54",
+      "en": "in the index change over time, you can have the scenario where the numerator of the ratio being the index level at the end of 2025 is based on stocks that are quite different to those that have generated the reported earnings historically. So an obvious example would be in December 2020,",
+      "zh": "会随时间变化，就会出现这样一种情形：比率的分子——也就是 2025 年底的指数点位——所基于的股票，与历史上产生那些报告盈利的股票相当不同。一个明显的例子是，2020 年 12 月，"
+    },
+    {
+      "i": 72,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "22:16",
+      "en": "Tesla was added to the S&P 500. It replaced a company called Empartment Investment and Management Company, which was a real estate investment company, quite different to Tesla. So if you were measuring the Cape Ratio in 2021, Tesla would be in the index at that point.",
+      "zh": "Tesla 被纳入 S&P 500，它取代了一家叫 Apartment Investment and Management Company 的公司，那是一家房地产投资公司，和 Tesla 相当不同。所以如果你在 2021 年测量 CAPE 比率，那时 Tesla 就在指数里了。"
+    },
+    {
+      "i": 73,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "22:38",
+      "en": "So the price of Tesla is contributing to the S&P 500 index. However, as you roll back through time, picking up the earnings that were reported, you're going to have years where you'd not have any Tesla earnings in the earnings calculation. You're going to have the earnings for",
+      "zh": "于是 Tesla 的价格对 S&P 500 指数有贡献。然而，当你沿着时间往回滚、去选取那些报告过的盈利时，你会发现有些年份的盈利计算里根本没有任何 Tesla 的盈利，你取到的是"
+    },
+    {
+      "i": 74,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "22:54",
+      "en": "apartment, investment and management company. So you're considering a price of a tech stock and you're comparing it to the earnings of a real estate investment company. So this is this mismatch and there's a very good note by Research Affiliates, which highlights this point. So",
+      "zh": "Apartment Investment and Management Company 的盈利。所以你在考虑一只科技股的价格，却把它和一家房地产投资公司的盈利做比较。这就是这种错配。Research Affiliates 有一篇很好的研究笔记，强调了这一点。"
+    },
+    {
+      "i": 75,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "23:12",
+      "en": "that's issue number one with the traditional Cape Ratio that we would see widely reported. Issue number two we discover is somewhat counterintuitively the construction of the traditional Cape Ratio. It weights stocks in the Cape Ratio by their earnings. So stocks with",
+      "zh": "这就是我们广泛看到的传统 CAPE 比率的第一个问题。我们发现的第二个问题——有点反直觉——是传统 CAPE 比率的构造方式。它在 CAPE 比率里是按盈利来给股票加权的。所以"
+    },
+    {
+      "i": 76,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "23:35",
+      "en": "the biggest earnings get the biggest weight. It doesn't like them based on their market value. So this creates a potential bias because we've got an earnings weighted Cape Ratio being used to predict value or a market-related return series in the future.",
+      "zh": "盈利最大的股票获得最大的权重，而不是按它们的市值来加权。这就造成了一种潜在的偏差，因为我们有一个按盈利加权的 CAPE 比率，却被用来预测未来的市值相关回报序列。"
+    },
+    {
+      "i": 77,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "23:53",
+      "en": "And in theory, how would we expect it to affect the predictive power of the Cape Ratio? So we do some theoretical modeling around this and under reasonable assumptions. The mismatch, these two sources of mismatch that I identify, they can create quite sizable forecast errors. So the theory would say forecast errors will be the result.",
+      "zh": "那么从理论上讲，我们会预期它如何影响 CAPE 比率的预测能力呢？我们围绕这个做了一些理论建模，在合理的假设下，我所识别的这两个错配来源可能造成相当大的预测误差。所以理论上会说，结果就是会产生预测误差。"
+    },
+    {
+      "i": 78,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "24:14",
+      "en": "Ultimately, it's an empirical question as to how large those forecast errors are. Does it affect other ratios? Like David Interpreys or Dr. Price? What we find when we look into this more is that the answer is it doesn't affect ratios that have price or value in the denominator. So dividend to price, book to price is fine.",
+      "zh": "归根结底，这些预测误差有多大，是一个实证问题。它会影响其他比率吗？比如股息价格比（dividend to price）或账面价格比（book to price）？我们进一步研究后发现，答案是：它不会影响那些分母是价格或价值的比率。所以股息价格比、账面价格比是没问题的。"
+    },
+    {
+      "i": 79,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "24:37",
+      "en": "Other ratios that have something other than price or value would be affected. So the Cape's affected because earnings is in the denominator. Any other ratio that had something other than price or value would also be affected. And what can be done to improve the way that the",
+      "zh": "其他分母不是价格或价值的比率就会受影响。所以 CAPE 会受影响，因为分母是盈利。任何其他分母不是价格或价值的比率也会受影响。那么可以做些什么来改进"
+    },
+    {
+      "i": 80,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "24:54",
+      "en": "Cape Ratio has calculated? What we do is firstly, calculate the Cape Ratio for each stock in the index. So every year, we look at what stock is in the index and we calculate a Cape Ratio by comparing its price to its earnings that have been averaged over the last 10 years.",
+      "zh": "CAPE 比率的计算方式呢？我们做的是，首先为指数中的每一只股票分别计算 CAPE 比率。所以每一年，我们看指数里有哪些股票，然后通过把它自己的价格与过去 10 年平均过的盈利做比较，来计算它的 CAPE 比率。"
+    },
+    {
+      "i": 81,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "25:16",
+      "en": "So when Tesla gets added to the index, we would calculate a Cape Ratio for Tesla. We've now got 500 individual stock Cape Ratios. We then value weight those individual ratios to come up with what we would call a component Cape Ratio. So stocks that had the highest weight in the index, the biggest market cap would get the biggest",
+      "zh": "所以当 Tesla 被纳入指数时，我们会为 Tesla 计算一个 CAPE 比率。这样我们就有了 500 个个股的 CAPE 比率。然后我们对这些个股比率做市值加权，得到我们所说的\"成分 CAPE 比率\"（component CAPE ratio）。所以在指数中权重最高、市值最大的股票，其 CAPE 比率会获得最大的"
+    },
+    {
+      "i": 82,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "25:41",
+      "en": "weighting for their Cape Ratio. So now we've solved the problem to our minds. We've now got a Cape Ratio that is weighted exactly the same as the S&P 500 index that we're trying to forecast. Seems like pretty sensible to do it that way. It's almost surprising that that's not how",
+      "zh": "权重。这样我们就解决了我们认为的问题。我们现在有了一个 CAPE 比率，它的加权方式与我们试图预测的 S&P 500 指数完全一致。这样做似乎相当合理。当你解释完之后，几乎让人惊讶于一直以来竟然不是这么"
+    },
+    {
+      "i": 83,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "26:01",
+      "en": "it's been done when you explain it. It's like, oh yeah, of course, that's how it should be calculated. It's a good point. And perhaps it is at least partially data related. To calculate the Cape Ratio the traditional way, you simply use widely available information. Each year, S&P",
+      "zh": "做的。就像，哦对，当然应该这么算才对。这是个好观点。而且也许这至少部分和数据有关。用传统方式计算 CAPE 比率，你只需要用广泛可得的信息。每一年，S&P"
+    },
+    {
+      "i": 84,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "26:18",
+      "en": "puts out what the earnings were for the index. So they put up a spreadsheet. You can just get the history through time. And of course, obtaining the actual index level is relatively easy. You don't need to get into any component information. To calculate the Cape Ratio,",
+      "zh": "都会发布指数的盈利是多少，他们放出一个电子表格，你直接就能拿到整个历史序列。当然，取得实际的指数点位也相对容易，你不需要深入到任何成分信息里去。而要按"
+    },
+    {
+      "i": 85,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "26:36",
+      "en": "the way that we suggest you actually need to go to a database which has earnings information each stock over time. You need to use that information to aggregate up. So the approach that we advocate would most certainly be more work for the average user of the Ratio. That makes a lot",
+      "zh": "我们建议的方式计算 CAPE 比率，你确实需要去用一个数据库，里面有每只股票随时间变化的盈利信息，你需要用那些信息来聚合。所以我们主张的方法，对这个比率的普通使用者来说，肯定是要更费功夫的。这很有"
+    },
+    {
+      "i": 86,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "26:54",
+      "en": "of sense. We live in the future though. When you go and actually calculate it out, how does the component keep ratio, the one that you just described, how does it compare to the traditional, if we can call it that Cape Ratio? It definitely tracks the traditional Cape Ratio. But there are",
+      "zh": "道理。不过我们活在未来。当你真的去把它算出来时，你刚描述的那个成分 CAPE 比率，与传统的（如果可以这么叫的话）CAPE 比率相比如何呢？它确实是跟着传统 CAPE 比率走的。但有些"
+    },
+    {
+      "i": 87,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "27:11",
+      "en": "times when there's the big difference in the magnitude of the two. So if we take a period like 1999, the component Cape Ratio was much, much higher than the traditional Cape Ratio. And I guess we can understand why? Because in 1999, tech stocks were very highly valued. So we had tech stocks",
+      "zh": "时候两者的量级会有很大差别。比如拿 1999 年这段时期来说，成分 CAPE 比率就比传统 CAPE 比率高得多。我想我们能理解为什么。因为在 1999 年，科技股估值非常高，所以我们有一些科技股"
+    },
+    {
+      "i": 88,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "27:33",
+      "en": "that had high market values relative to their earnings. The traditional Cape Ratio would weight those stocks based on their earnings. So the highly valued stocks were having less of an impact on the overall market Cape Ratio based on the traditional calculation. We come along and",
+      "zh": "相对于它们的盈利有着很高的市值。传统 CAPE 比率会按盈利来给这些股票加权，所以在传统计算下，那些高估值的股票对整体市场 CAPE 比率的影响就比较小。而我们采用"
+    },
+    {
+      "i": 89,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "27:54",
+      "en": "apply the component approach. The difference with us is that we weight stocks based on their size. So those large tech stocks with low earnings are now getting weighted based on their market value or size. They're getting a much bigger weight. So the more expensive stocks are getting a much",
+      "zh": "成分法，区别在于我们按规模来给股票加权。所以那些盈利低的大型科技股，现在是按它们的市值或规模来加权的，获得了大得多的权重。因此那些更贵的股票被赋予了大得多的"
+    },
+    {
+      "i": 90,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "28:13",
+      "en": "bigger weight assigned to them. As a consequence, the market average Cape Ratio is going to be a lot higher. What effect does cross sectional dispersion in component Cape Ratios have on that difference between the Cape Ratio and the traditional Cape Ratio? So it's not a major part of our research,",
+      "zh": "权重。结果就是，市场平均 CAPE 比率会高出很多。那么成分 CAPE 比率之间的横截面离散度（cross sectional dispersion），对 CAPE 比率与传统 CAPE 比率之间的这个差异有什么影响呢？这不是我们研究的主要部分，"
+    },
+    {
+      "i": 91,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "28:30",
+      "en": "but we do consider it. And we find that when there's more dispersion or more variation between the Cape Ratios of the stocks and the index, there's a greater difference between the component Cape Ratio and the traditional Cape Ratio. And empirically, how does the predictive power of",
+      "zh": "但我们确实考虑了它。我们发现，当指数中各只股票的 CAPE 比率之间的离散度或差异更大时，成分 CAPE 比率与传统 CAPE 比率之间的差别就更大。那么从实证上看，"
+    },
+    {
+      "i": 92,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "28:48",
+      "en": "the component Cape Ratio compared to that of the traditional Cape Ratio? So we consider this using the out-of-sample ask where metric that I took about previously and we find around a 20 to 25% improvement in forecast accuracy by using the component Cape Ratio.",
+      "zh": "成分 CAPE 比率的预测能力与传统 CAPE 比率相比如何呢？我们用之前谈到的样本外 R 平方指标来考察这一点，发现使用成分 CAPE 比率能带来大约 20% 到 25% 的预测准确度提升。"
+    },
+    {
+      "i": 93,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "29:09",
+      "en": "Jeez, snow joke. How does the gap in predictive power vary over time or with market conditions? That's not something that we have considered in the great deal of decal, but the analysis that we have done suggests that there should be more of a difference at times when particular sectors of",
+      "zh": "天哪，可不是开玩笑。那么这个预测能力上的差距会随时间或市场状况如何变化呢？这一点我们没有做大量的深入分析，但我们所做的分析表明，在市场的某些特定板块"
+    },
+    {
+      "i": 94,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "29:29",
+      "en": "the market are particularly overvalued such as they were during the dot-com period of the late 1990s. And how do you compare the economic significance of the predictive power of each metric? So again, we consider this from an asset allocation perspective. So we calculate this thing called",
+      "zh": "被特别高估的时候，差异应该会更大，就像 1990 年代末的互联网泡沫时期那样。那你如何比较每种指标预测能力的经济显著性呢？同样，我们是从资产配置的角度来考虑的。我们计算了一个叫"
+    },
+    {
+      "i": 95,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "29:47",
+      "en": "the certainty equivalent return. So this is the guaranteed return that would make an investor equally as happy as they would be receiving a risky investment. So we calculate, expect the returns risk and the coefficient of a relative risk aversion. And we ask the question, does the",
+      "zh": "\"确定等值回报\"（certainty equivalent return）的东西。这是指那种能保证的回报，它会让投资者感到与获得一项风险投资时同样满意。所以我们计算了预期回报、风险，以及相对风险厌恶系数（coefficient of relative risk aversion）。然后我们问这样一个问题：在"
+    },
+    {
+      "i": 96,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "30:08",
+      "en": "investor, after accounting for risk, have a higher certainty equivalent return if they use the component Cape Ratio, then they do if they use the traditional Cape Ratio. And we answer that question in the affirmative. Yes, we find that the investor does benefit on a risk-adjusted basis",
+      "zh": "计入风险之后，投资者如果使用成分 CAPE 比率，是否会比使用传统 CAPE 比率获得更高的确定等值回报。我们对这个问题的回答是肯定的。是的，我们发现投资者确实在风险调整的基础上受益，"
+    },
+    {
+      "i": 97,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "30:27",
+      "en": "from an asset allocation perspective by using the component Cape Ratio. Interesting. So that's like if they're using the component Cape Ratio to size their equity allocation over time, they're getting a better outcome using the component Cape than using the traditional Cape.",
+      "zh": "从资产配置的角度看，通过使用成分 CAPE 比率。有意思。所以这就好比，如果他们是用成分 CAPE 比率来随时间调整自己的股票配置比例，那么用成分 CAPE 得到的结果，比用传统 CAPE 要好。"
+    },
+    {
+      "i": 98,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "30:42",
+      "en": "That's a very good summary, Ben. That's correct. How robust is the predictive power of component Cape to alternative Cape specifications? This is always a consideration because you'll recall that the Cape Ratio average is earnings over the last 10 years. There's no economic theory that says",
+      "zh": "总结得非常好，Ben。没错。那么成分 CAPE 的预测能力，对不同的 CAPE 设定有多稳健呢？这始终是要考虑的，因为你会记得 CAPE 比率是对过去 10 年的盈利取平均。并没有任何经济理论说"
+    },
+    {
+      "i": 99,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "31:02",
+      "en": "that earnings should be averaged over the last 10 years. I think if you look at the original Campbell and Schiller paper, they make reference to some work by Ben Graham, the famous value investor that says it's best to smooth earnings over historical period like 10 years. But there's no",
+      "zh": "盈利就应该按过去 10 年来平均。我想如果你去看 Campbell 和 Shiller 最初的那篇论文，他们会提到著名价值投资者 Ben Graham 的一些工作，说最好在像 10 年这样的历史区间上平滑盈利。但并没有"
+    },
+    {
+      "i": 100,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "31:20",
+      "en": "theory that says it has to be 10 years. So we consider a range of alternatives. We ask what happens if you just calculate average earnings over the previous five years? That's one alternative. Another alternative would be to look at 10 years of historical earnings, but rather than",
+      "zh": "理论说它必须是 10 年。所以我们考虑了一系列替代方案。我们问：如果只按前 5 年计算平均盈利会怎样？这是一个替代方案。另一个替代方案是看 10 年的历史盈利，但不是"
+    },
+    {
+      "i": 101,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "31:38",
+      "en": "calculate a simple average calculated exponentially weighted moving average, which puts more weight on the more recent observations in that 10 year interval. Then there's other approaches like adjusting for dividend payout over time and so on. Then finally, there's something called street earnings.",
+      "zh": "计算简单平均，而是计算指数加权移动平均（exponentially weighted moving average），给这 10 年区间里较近的观测值更高的权重。然后还有其他方法，比如对随时间变化的股息派付做调整等等。最后，还有一个叫\"街上盈利\"（street earnings）的东西。"
+    },
+    {
+      "i": 102,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "31:55",
+      "en": "So street earnings strips out what would be deemed to be one-off items to try and go more at the core or normalized earnings. So there's a range of different ways we can calculate earnings. We try them all and we're very pleased to see that the results are robust. The component cake ratio",
+      "zh": "街上盈利会剔除那些被视为一次性的项目，试图更接近核心或正常化的盈利。所以计算盈利有很多不同的方式，我们全都试了，很高兴看到结果是稳健的。无论你实际怎么衡量盈利，成分 CAPE 比率"
+    },
+    {
+      "i": 103,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "32:15",
+      "en": "dominates the traditional cake ratio, the respect of how you actually measure earnings. There's a famous paper. I know you know of Ben, of course, but for listeners of 2008, Goil and Welsh paper, where they find that most predictors like the cake ratio and other stuff",
+      "zh": "都胜过传统 CAPE 比率。有一篇很有名的论文——我知道你当然知道，Ben，但为了听众——是 2008 年 Goyal 和 Welch 的论文，他们发现大多数预测指标，比如 CAPE 比率之类的东西，"
+    },
+    {
+      "i": 104,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "32:33",
+      "en": "like that perform quite poorly in general and poorly out of sample, how do your results stand up to the type of evaluation frameworks that they apply on that paper? Yeah, it's a fantastic paper. And they've actually also written with a third collector of fantastic follow-up paper,",
+      "zh": "总体表现都相当差，样本外表现也差。你的结果经得起他们在那篇论文里所应用的那类评估框架的检验吗？是的，那是一篇很棒的论文。他们实际上还和第三位合著者写了一篇很棒的后续论文，"
+    },
+    {
+      "i": 105,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "32:48",
+      "en": "which I believe came out in the review of financial studies in 24 or 25. And you're right, they find out of sample predictability is something that's very tough. They find negative out of sample R squared, which indicates less predictability than what you would achieve simply by using",
+      "zh": "我记得是在 2024 或 2025 年发表在 Review of Financial Studies 上。你说得对，他们发现样本外的可预测性是非常难的。他们发现样本外 R 平方是负的，这表明可预测性还不如你仅仅使用"
+    },
+    {
+      "i": 106,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "33:07",
+      "en": "a new approach. They find that for many predictors. So the fact that we find positive out of sample R squareds using the same framework is good news for the component cake ratio. Although, I should highlight that there is a difference between the forecast interval that we focus on",
+      "zh": "朴素方法所能达到的。他们对很多预测指标都是这个发现。所以，我们用同样的框架却发现了正的样本外 R 平方，这对成分 CAPE 比率来说是个好消息。不过我要强调，我们关注的预测区间"
+    },
+    {
+      "i": 107,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "33:26",
+      "en": "and what they consider in their paper. So from memory, they're looking at predictability over one or a five-year horizon. We're looking at predictability over a 10-year horizon and stocks are typically more noisy the shorter the interval. So the fact that we're looking out",
+      "zh": "和他们论文里考虑的区间是有区别的。据我记忆，他们看的是一年或五年期限的可预测性，而我们看的是 10 年期限的可预测性，而股票在区间越短时通常噪音越大。所以我们往"
+    },
+    {
+      "i": 108,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "33:44",
+      "en": "further does make the task of predictability a bit easier. So there's not an absolute direct comparison on the interval length front. Where can listeners find the component keep? Yes, you're not the first person to ask this. There is interest in this component cake. We calculate it based",
+      "zh": "更远处看，确实让预测这项任务变得容易了一些。所以在区间长度这方面并不是一个完全直接的比较。那听众在哪里能找到成分 CAPE 呢？是的，你不是第一个问这个的人，大家对这个成分 CAPE 很有兴趣。我们是基于"
+    },
+    {
+      "i": 109,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "34:03",
+      "en": "on the Compustat database, which academic researchers would say is the gold standard for individual company earnings and we use that to aggregate up. So we don't have permission to share that data more widely. We can use it for publication purposes only, but I referenced earlier that",
+      "zh": "Compustat 数据库来计算它的，学术研究者会说这是个股盈利的黄金标准，我们用它来聚合。所以我们没有权限更广泛地分享这些数据，只能用于发表目的。不过我之前提到，"
+    },
+    {
+      "i": 110,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "34:23",
+      "en": "research affiliates have also done a great research note on the component cake ratio. The financial times picked up on our work and I note that research affiliates actually passed the data to financial times. So I guess my hope would be that in due course, research affiliates might start",
+      "zh": "Research Affiliates 也做了一篇关于成分 CAPE 比率的很好的研究笔记。Financial Times 报道了我们的工作，我注意到 Research Affiliates 实际上把数据传给了 Financial Times。所以我想我的希望是，将来某个时候 Research Affiliates 或许会开始"
+    },
+    {
+      "i": 111,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "34:43",
+      "en": "publishing this measure on an ongoing basis on their website. Just there's Schiller has chosen to do for the traditional cake ratio. They publish a bunch of valuation metrics, I think, on the website. They've got a pretty robust data exploration platform that would be nice to see. Earlier,",
+      "zh": "在他们网站上持续发布这个指标，就像 Shiller 为传统 CAPE 比率所做的那样。他们在网站上发布一堆估值指标，我记得是。他们有一个相当强大的数据探索平台，能看到就太好了。之前"
+    },
+    {
+      "i": 112,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "35:00",
+      "en": "we talked about that three component expected returns forecasting model. Do you have a sense of how much using the component cake would improve those forecasts? We haven't tested this yet, but we will do that because the key take home from the three component model was it was the valuation",
+      "zh": "我们谈到了那个三成分的预期回报预测模型。你觉得用成分 CAPE 会在多大程度上改进那些预测呢？我们还没测试过这个，但我们会去做，因为三成分模型的关键结论是，估值"
+    },
+    {
+      "i": 113,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "35:16",
+      "en": "component or the cake doing the heavy lifting. The key take home from the most recent paper we've worked on is that we can do better with the cake by looking at the component cake rather than a traditional cake. So if you put those two fine things together, the implication is that the",
+      "zh": "部分，也就是 CAPE，在做主要的重活。而我们最近那篇论文的关键结论是，通过看成分 CAPE 而不是传统 CAPE，我们可以把 CAPE 做得更好。所以如果你把这两点结合起来，含义就是"
+    },
+    {
+      "i": 114,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "35:33",
+      "en": "three component model should benefit from being used and being applied in conjunction with the component cake model. Have you, and if not, how hard would it be to test it out of the US sample, like internationally? That would be challenging from a data availability perspective. So we've got",
+      "zh": "三成分模型应该会从与成分 CAPE 模型结合使用、结合应用中受益。你有没有——如果没有的话，在美国样本之外、比如国际范围内测试它会有多难？从数据可得性的角度看，那会很有挑战性。我们从 Compustat 拿到了"
+    },
+    {
+      "i": 115,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "35:53",
+      "en": "good individual company earnings from Compustat from the late 50s, early 60s for the US. To my knowledge, company earnings internationally become more widely available in the 1990s. That's the issue right there. We've already got a challenge because we're forecasting 10",
+      "zh": "从 1950 年代末、1960 年代初开始的美国个股盈利好数据。据我所知，国际上的公司盈利数据要到 1990 年代才变得更广泛可得。这就是问题所在。我们已经面临一个挑战，因为我们要预测 10"
+    },
+    {
+      "i": 116,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "36:12",
+      "en": "year returns. We need a reasonable time series. It probably is worth trying, particularly for markets for which we can get data going back further because that's always a good test to check the robustness internationally. And certainly, people have looked at the robustness of the",
+      "zh": "年的回报，需要一个合理长度的时间序列。所以尝试一下可能是值得的，尤其是对于那些我们能拿到更久远数据的市场，因为那始终是检验国际稳健性的一个好办法。当然，也有人考察过传统"
+    },
+    {
+      "i": 117,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "36:32",
+      "en": "traditional cake ratio internationally, where index earnings have been available for a longer time period and they have found robustness there. So we know that the current traditional cake ratio is high relative to history at the time of recording here in November 26. How high",
+      "zh": "CAPE 比率在国际上的稳健性，在指数盈利数据可得时间更长的地方，他们确实发现了稳健性。所以我们知道，在录制这会儿——这里是 11 月 26 日——传统 CAPE 比率相对于历史是高的。那么"
+    },
+    {
+      "i": 118,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "36:49",
+      "en": "is the component cake ratio relative to its history? So the component cake ratio is also high relative to its history. But if we just think about what's taken place, I think I mentioned in 1999, the component cake ratio got much higher than the aggregate or the traditional cake ratio.",
+      "zh": "成分 CAPE 比率相对于它自己的历史有多高呢？成分 CAPE 比率相对于它自己的历史也是高的。但如果我们想想发生了什么，我想我提到过，在 1999 年，成分 CAPE 比率比整体或传统 CAPE 比率高得多。"
+    },
+    {
+      "i": 119,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "37:10",
+      "en": "And the component cake ratio was actually proven correct there because we did have a large downturn in equity markets, following the dot-com boom. The component cake ratio then fell away quite quickly following that. So I did a quick check and it seems that the traditional cake",
+      "zh": "而且成分 CAPE 比率在那里其实被证明是对的，因为在互联网泡沫之后，我们确实经历了一轮股票市场的大幅下跌。之后成分 CAPE 比率很快就回落了。所以我做了个快速检查，看起来传统 CAPE"
+    },
+    {
+      "i": 120,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "37:28",
+      "en": "is around 1.8 times its average. So 80 percent higher than its average level since the 60s. The component cake is about 60 percent higher than its average level since the 60s. So they're both indicating overvaluation but the component cake ratio is indicating less",
+      "zh": "大约是其平均值的 1.8 倍，也就是比它自 1960 年代以来的平均水平高 80%。而成分 CAPE 大约比它自 1960 年代以来的平均水平高 60%。所以两者都表明存在高估，但成分 CAPE 比率所表明的"
+    },
+    {
+      "i": 121,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "37:50",
+      "en": "overvaluation relative to history than the traditional cake ratio. And I think that might be one reason that the component cake ratio has outperformed in recent times because in recent times valuations have been high. If we go back a decade or so, valuations have been high right through",
+      "zh": "相对于历史的高估程度要小一些。我想这也许是成分 CAPE 比率近段时间表现更好的一个原因，因为近段时间估值一直很高。如果我们回看大约十年，估值在整个"
+    },
+    {
+      "i": 122,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "38:09",
+      "en": "that period. But on average, equity markets have performed very well. So the traditional cake ratio has been overly bearish. The fact that the component cake ratio has been less bearish has been something that's been in its favor from a forecast perspective.",
+      "zh": "那段时期都很高。但平均而言，股票市场表现非常好。所以传统 CAPE 比率一直过于看空。而成分 CAPE 比率没那么看空，这一点从预测角度看反倒成了它的优势。"
+    },
+    {
+      "i": 123,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "38:25",
+      "en": "That's super interesting. So it's really that aggregation inconsistency that might be driving some of what we see as pretty serious overvaluation in the US market. But it sounds like a chunk of that least is less so about actual valuations and more so about the way that they're being measured.",
+      "zh": "这太有意思了。所以真正是那种聚合不一致性，可能在驱动我们所看到的、美国市场相当严重的高估中的一部分。但听起来这其中至少有一部分，与其说是关于实际估值，不如说是关于它们被衡量的方式。"
+    },
+    {
+      "i": 124,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "38:44",
+      "en": "That's correct. And I think another aspect to consider here is the fact that the earnings and both ratios are backwards looking. We're taking an average of 10 year historical earnings. Now the market pricing is at least to a degree looking forward, isn't it? It's forming an estimate",
+      "zh": "没错。我想这里要考虑的另一个方面是，两个比率里的盈利都是向后看的，我们取的是 10 年历史盈利的平均值。而市场定价至少在某种程度上是向前看的，不是吗？它在形成对"
+    },
+    {
+      "i": 125,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "39:05",
+      "en": "of future expected earnings. So if we're going through a period of technological disruption and the companies are growing their earnings very, very rapidly, you could make the case that using 10 year average historical earnings as a valuation input is not completely ideal because",
+      "zh": "未来预期盈利的估计。所以如果我们正经历一段技术颠覆的时期，公司的盈利增长非常非常快，你就可以说，用 10 年历史平均盈利作为估值输入并不完全理想，因为"
+    },
+    {
+      "i": 126,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "39:30",
+      "en": "they might be less accurate as a forecast for future earnings than they have been historically. Of course, the challenge is that nobody's got data from the future. So we don't know what future earnings are going to be. We can only use what we've got in the past.",
+      "zh": "它们作为对未来盈利的预测，可能不如历史上那么准确。当然，挑战在于没有人拥有来自未来的数据，所以我们不知道未来盈利会是多少，只能用我们手上过去的数据。"
+    },
+    {
+      "i": 127,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "39:43",
+      "en": "That historical, if you look at like US earnings growth over time, it's a pretty smooth, there are hiccups of course, but it's a pretty smooth line over time. So I always get a little bit nervous about the idea that it's the classic. This time is different idea that earnings growth",
+      "zh": "至于历史数据，如果你看美国盈利增长随时间的变化，它相当平滑，当然会有一些波折，但随时间来看是一条相当平滑的线。所以，对于那种\"这次不一样\"的经典说法——也就是盈利增长"
+    },
+    {
+      "i": 128,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "39:58",
+      "en": "is going to go whatever higher than it's ever been before and that's why valuations are high, maybe, but I don't know. I like the aggregation inconsistency showing that valuations are a bit lower than we may be thought and that I guess if someone was worried about expected returns because",
+      "zh": "会走得比以往任何时候都更高、所以估值才高——我总是会有点紧张，也许吧，但我不知道。我喜欢聚合不一致性所表明的：估值比我们原先以为的要低一些。我想，如果有人因为"
+    },
+    {
+      "i": 129,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "40:15",
+      "en": "they were looking at the cape, looking at the component cape that might be a little bit less worried. It's great. I think that's good news. Okay, we're going to move away from your expected returns research. I want to talk a little bit about a paper that you did on the permanent portfolio,",
+      "zh": "在看 CAPE、在看成分 CAPE 而担心预期回报，那他们也许可以少担心一点。太好了，我想这是好消息。好，我们要从你的预期回报研究移开了。我想稍微聊聊你做的一篇关于永久组合的论文，"
+    },
+    {
+      "i": 130,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "40:30",
+      "en": "which listeners may or may not be familiar with. So maybe to start, can you describe what the permanent portfolio is? So Harry Brown suggested that investors should adopt what he called permanent portfolio approach and this involved allocating equally to stocks, bonds, gold and cash. So 25%",
+      "zh": "听众可能熟悉也可能不熟悉。那么先请你描述一下，永久组合是什么？Harry Browne 提出，投资者应该采用他所谓的永久组合方法，这涉及对股票、债券、黄金和现金进行等额配置。所以是你组合的 25%"
+    },
+    {
+      "i": 131,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "40:50",
+      "en": "of your portfolio in stocks, 25% in bonds, 25% in gold and 25% in cash. And on the face of it, it might seem like a very unsophisticated approach, but there has been some research in great journals such as the review of financial studies that have shown that under some",
+      "zh": "放在股票，25% 放在债券，25% 放在黄金，25% 放在现金。乍看之下，它可能显得是一种非常不精细的方法，但有一些发表在顶级期刊（比如 Review of Financial Studies）上的研究表明，在某些"
+    },
+    {
+      "i": 132,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "41:11",
+      "en": "situations like a naive diversification, just spreading your money equally, can do a reasonably good job. So we look into the performance of the permanent portfolio and consider how it actually did in history. And how does it perform relative to stock or stock and bond portfolio?",
+      "zh": "情形下，像朴素分散化——也就是把你的钱等额铺开——这种做法能做得相当不错。所以我们考察了永久组合的表现，看它在历史上实际表现如何。那么它相对于股票组合或股债组合表现如何呢？"
+    },
+    {
+      "i": 133,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "41:31",
+      "en": "We found that it underperforms on the basis of raw returns, but it outperforms if we consider risk adjusted returns. So it generates larger sharp ratios. And this was particularly the case from the 1972 to 1991 period, but it also did occur in the more recent period of our study,",
+      "zh": "我们发现，在原始回报的基础上它表现落后，但如果考虑风险调整后的回报，它就领先了，也就是它产生了更高的夏普比率。这在 1972 到 1991 年这段时期尤其如此，但在我们研究中较近的时期也同样出现了，"
+    },
+    {
+      "i": 134,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "41:56",
+      "en": "which started in 1992 and went through to 2011. That sample window is important because it is a paper from, I think, 2014. It's correct. I do have an out of sample question later. But before we go there, you mentioned the sharp ratio. How much weight do you think long-term investors should",
+      "zh": "也就是从 1992 年开始一直到 2011 年。那个样本区间很重要，因为这是一篇我记得是 2014 年的论文。没错。我后面确实有一个样本外的问题。但在我们到那之前，你提到了夏普比率。你觉得长期投资者在"
+    },
+    {
+      "i": 135,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "42:12",
+      "en": "be putting on the sharp ratio as a performance evaluation metric? Yeah, it's a fair question. I mean, I guess just to be clear, like the sharp ratio measures returns relative to volatility. So high sharp ratio, high returns relative to volatility is a risk measure.",
+      "zh": "把夏普比率作为一种业绩评估指标时，应该给它多大的权重？是啊，这是个公道的问题。我是说，我想先说清楚，夏普比率衡量的是回报相对于波动率。所以高夏普比率、也就是回报相对于波动率高，是一个风险度量。"
+    },
+    {
+      "i": 136,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "42:27",
+      "en": "It seems pretty reasonable that long-term investors would be more concerned with the growth of their wealth and the risk of failing to achieve their financial objectives. So it would seem reasonable to put a greater weight on expected compound returns, diversification, downside outcomes,",
+      "zh": "看起来相当合理的是，长期投资者会更关心他们财富的增长，以及未能实现其财务目标的风险。所以看起来合理的是，给预期复合回报、分散化、下行结果，"
+    },
+    {
+      "i": 137,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "42:48",
+      "en": "and then the probability of meeting long-term financial objectives. I'm kind of aware of the fact that you're the experts in this, and I'm not like, what's your take on that particular aspect? I agree with you. I think volatility is used as a way to measure risk in all over the place",
+      "zh": "以及实现长期财务目标的概率，赋予更大的权重。我有点意识到这个事实：你们才是这方面的专家，而我不是。那你怎么看这个特定的方面呢？我同意你的看法。我想波动率在金融学里到处都被用作衡量风险的一种方式，"
+    },
+    {
+      "i": 138,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "43:05",
+      "en": "in finance. And that's just how things are done. And the sharp ratio has obviously been around for a long time. But I do think that for someone with a long time horizon, the intermediate volatility is not super important. And then the other piece of that that I think matters is that it's relevant",
+      "zh": "事情就是这么做的。而夏普比率显然已经存在很长时间了。但我确实认为，对于一个期限很长的人来说，中间的波动率并不是特别重要。然后我觉得还重要的一点是，对"
+    },
+    {
+      "i": 139,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "43:22",
+      "en": "to a long-term investor how volatility is related to expected returns. Like in the case of stocks, when you have a volatile period and stocks drop by a lot, expected returns go up, which offsets some of the negative effect of that drop. And so over a very long horizon, that would make stocks",
+      "zh": "长期投资者而言，波动率与预期回报之间如何相关是很重要的。就像股票的情形，当你有一段波动剧烈的时期、股票大幅下跌时，预期回报会上升，这抵消了那次下跌的一部分负面效应。所以在非常长的期限内，这会让股票"
+    },
+    {
+      "i": 140,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "43:40",
+      "en": "look a little bit better. And that's not always going to be captured by the sharp ratio because stocks are volatile. I agree with your assessment ban that the sharp ratio for a long-term investor is probably not as important as the expectation of meeting their goals or their compound expected",
+      "zh": "看起来更好一些。而这并不总是会被夏普比率捕捉到，因为股票是有波动的。我同意你的评估，Ben：对长期投资者来说，夏普比率可能不如\"实现他们目标的可能性\"或他们的复合预期"
+    },
+    {
+      "i": 141,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "43:56",
+      "en": "return. Makes sense. And how does a permanent portfolio perform relative to stock and bond portfolios on the downside? This is where it adds some good value. So we consider downside from the perspective of the percentile of returns. So down the left tail. And we find that the permanent",
+      "zh": "回报那么重要。有道理。那么永久组合在下行方面相对于股债组合表现如何呢？这正是它增加了一些很好价值的地方。所以我们从回报百分位的角度来考虑下行，也就是看左尾。我们发现永久"
+    },
+    {
+      "i": 142,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "44:14",
+      "en": "portfolio provides meaningful downside prediction in both an economic sense and also a statistical sense. And it's interesting. Not surprising. But yeah, interesting to see the result. You mentioned that early part of the sample that things looked quite good. How important do you",
+      "zh": "组合在经济意义和统计意义上都提供了有意义的下行保护。这很有意思，不令人惊讶，但 yeah，看到结果还是很有意思。你提到了样本早期那段，事情看起来相当好。你觉得有多"
+    },
+    {
+      "i": 143,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "44:32",
+      "en": "think, and maybe you can give the context Ben? But gold returns early in your sample were very good. And you can maybe speak to a point I was. How important was that to the overall results? We didn't do extensive analysis around those. I would think that it is quite a driver of the results.",
+      "zh": "重要，也许你可以给点背景，Ben？黄金在你样本早期的回报非常好。也许你可以谈谈我之前想说的一点。那对整体结果有多重要呢？我们没有围绕这些做大量分析。我想它确实是结果的一个相当大的驱动因素。"
+    },
+    {
+      "i": 144,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "44:49",
+      "en": "If we're comparing to traditional portfolios, the permanent portfolio waiting to gold is really the aspect that sets it apart, isn't it? So the performance of the permanent portfolio relative to traditional portfolios is going to a reasonable degree come down to the performance",
+      "zh": "如果我们是和传统组合做比较，永久组合对黄金的权重，真的是把它区别开来的那个方面，不是吗？所以永久组合相对于传统组合的表现，在合理的程度上会归结到"
+    },
+    {
+      "i": 145,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "45:08",
+      "en": "of gold. And as you say, Ben, in that first period, gold was performing very, very strongly. So I'm sure that helped the permanent portfolios performance. Yeah, that was like the US coming off the gold standard and Americans being able to buy gold,",
+      "zh": "黄金的表现上。而且就像你说的，Ben，在那第一段时期，黄金表现非常非常强劲，所以我确信那帮助了永久组合的表现。是啊，那就像美国脱离金本位、美国人能够买到黄金，"
+    },
+    {
+      "i": 146,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "45:21",
+      "en": "I think for the first time in a while and gold prices just went crazy. I always perk up a little bit when I see data in that specific sample period because gold performed so well from that point on for a little bit longer. And then did nothing for a long time. And then recently, of course,",
+      "zh": "我想是有一阵子以来的头一回，然后金价就疯了。每当我看到那个特定样本区间里的数据，我总是会来精神，因为黄金从那个时点开始表现非常好，持续了稍长一点的时间，然后很长时间里什么都没做。而最近，当然，"
+    },
+    {
+      "i": 147,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "45:35",
+      "en": "it performed quite well again. And how has the permanent portfolio performed out of sample since your paper? There's been renewed interest in the performance of the permanent portfolio in recent times. And I guess this probably comes back to the fact that until very recently, gold was having a good",
+      "zh": "它又表现得相当好。那么自你的论文以来，永久组合在样本外表现如何呢？近段时间人们对永久组合的表现重新产生了兴趣。我想这大概要回到这个事实：直到最近，黄金一直有一段不错的"
+    },
+    {
+      "i": 148,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "45:52",
+      "en": "run as you alluded to, Ben. So the economist picked up on this idea of the permanent portfolio in Rodinardical last year, I believe, cited our research in that. It noted that there was some strong performance of the permanent portfolio in recent years from a risk-adjusted perspective.",
+      "zh": "表现，就像你提到的，Ben。所以 The Economist 去年我记得是在一篇报道里提到了永久组合这个想法，并引用了我们的研究。它指出，近几年永久组合从风险调整的角度看有一些强劲的表现。"
+    },
+    {
+      "i": 149,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "46:11",
+      "en": "But I think you might have done some more rigorous out of sample research on the performance being as accurate. I don't know how rigorous it was, but I was curious when you and I were corresponding to prepare for this conversation, I was interested. I did run just using ETFs, using US stocks and",
+      "zh": "但我想你可能对表现做了一些更严格的样本外研究，做得有多准。我不知道有多严格，但当我和你为了准备这次对话而通信时，我很好奇。我确实跑了个测试，就用 ETF，用美国股票和"
+    },
+    {
+      "i": 150,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "46:30",
+      "en": "international stocks, using VT for international stocks and SPY for US stocks. And then I did the same weightings that you had in your paper, where it was split between short-term bills, long-term government bonds, stocks, and gold. Obviously, we just talked about the out-of-the-sample performance",
+      "zh": "国际股票，国际股票用 VT，美国股票用 SPY。然后我用了和你论文里一样的权重，是在短期国库券、长期政府债券、股票和黄金之间分配。显然，我们刚刚谈到了样本外表现，"
+    },
+    {
+      "i": 151,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "46:46",
+      "en": "bend, but based on the research that you did for that paper and any thinking you've done about it since then, how do you think investors should choose between something like the permanent portfolio and just more basic mixes of stocks and bonds? Yeah, I think it's important to be clear on the",
+      "zh": "Ben，但基于你为那篇论文所做的研究，以及你此后对它的任何思考，你觉得投资者应该如何在永久组合这样的东西与更基本的股债混合之间做选择呢？是啊，我觉得重要的是把"
+    },
+    {
+      "i": 152,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "47:01",
+      "en": "difference between the two results or the two approaches rather. So I guess the first difference is the overweight to gold and the permanent portfolio that we've touched on. The other difference is the underweight to equity. So by having a weight of 25% to equities, that would be considerably less",
+      "zh": "这两个结果、或者说这两种方法之间的区别讲清楚。我想第一个区别是永久组合里对黄金的超配，这个我们已经谈过了。另一个区别是对股票的低配。所以给股票 25% 的权重，会明显低于"
+    },
+    {
+      "i": 153,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "47:22",
+      "en": "than I would assume that most of your clients would be weighted. So there are the two differences between the two. And I think from a return perspective, if we think about what we expect equities to do over the longer term, we would expect equities to outperform gold, wouldn't we?",
+      "zh": "我猜想的你大多数客户所持有的权重。所以这就是两者之间的那两个区别。我想从回报的角度看，如果我们想想预期股票在更长期里会怎样，我们会预期股票跑赢黄金，不是吗？"
+    },
+    {
+      "i": 154,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "47:40",
+      "en": "If we're thinking about a long-term horizon, so having quite a high weight to gold and quite a low weight to equities, you would think we'll be costly from a return perspective. I guess the other aspect of the permanent portfolio is the large weight to effectively catch or short-term tea bills,",
+      "zh": "如果我们想的是长期期限，那么给黄金相当高的权重、给股票相当低的权重，你会认为这在回报方面是有代价的。我想永久组合的另一个方面，是它给实际上等同于现金或短期国库券的资产很大的权重，"
+    },
+    {
+      "i": 155,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "47:58",
+      "en": "like we seem to be in an environment where inflation is staying higher for longer. So that is going to be costly, particularly in real terms. I think from a downside perspective, it is interesting that more and more people are thinking what alternative assets like gold can contribute to a portfolio",
+      "zh": "而我们似乎正处于一个通胀在更长时间里维持更高的环境里。所以那会有代价，尤其是从实际（real terms）的角度看。我想从下行的角度看，有意思的是越来越多的人在思考像黄金这样的另类资产能为一个组合"
+    },
+    {
+      "i": 156,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "48:18",
+      "en": "from a downside perspective, but it seems that having some potential downside prediction can come at a cost of performance from the return perspective. I guess you'd expect that for markets to clear, you'd expect something that protects you in the downside to have a low expected return and that",
+      "zh": "从下行的角度贡献什么，但看起来，拥有某种潜在的下行保护，可能是以牺牲回报方面的表现为代价的。我想你会预期，为了让市场出清，你会预期某种在下行时保护你的东西有一个低的预期回报，而这"
+    },
+    {
+      "i": 157,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "48:36",
+      "en": "doesn't make it necessarily wrong. But I mean, I guess it speaks to the conversation we had earlier about the sharp ratio where if someone's trading off expected returns for reduced downside and maybe reduced volatility, they might be a little bit myopic. If they're worried about volatility",
+      "zh": "并不使它一定是错的。但我是说，我想这呼应了我们之前关于夏普比率的那段对话：如果某人为了减少下行、也许还有减少波动率而牺牲预期回报，他们可能有点短视了。如果他们担心"
+    },
+    {
+      "i": 158,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "48:49",
+      "en": "in the short term and they're giving up a lot of, at least my out of sample test showed, a lot of expected compound return, it may not be a great trade off because of that volatility in the downside. If you can stomach it, we don't actually have as much of an impact as the",
+      "zh": "短期的波动率，因而放弃了很多——至少我的样本外测试显示是很多——预期复合回报，那可能不是一个很好的权衡；因为那种波动率和下行，如果你能承受的话，其实并没有"
+    },
+    {
+      "i": 159,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "49:05",
+      "en": "lost expected return over the long run. And Banner, final question for you. How do you define success in your life? It's a good question. I've been thinking about this and I think for me success is related to contentment. I find it difficult to claim that my life is successful if I'm not content.",
+      "zh": "长期里损失掉的预期回报那么大的影响。那么 Ben，最后一个问题给你。你如何定义你人生中的成功？这是个好问题。我一直在想这个，我觉得对我来说，成功与知足（contentment）有关。如果我不知足，我很难说我的生活是成功的。"
+    },
+    {
+      "i": 160,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "49:25",
+      "en": "And for me, being content includes being aware of blessings in my life. So these are the things that I can be grateful for and these would be things like my faith, family, friends and also good health. It's a great answer. Indeed. This has been a great conversation, Ben. We really appreciate",
+      "zh": "而对我而言，知足包括意识到我生活中的种种恩赐。所以这些是我可以心怀感激的东西，比如我的信仰、家庭、朋友，还有健康的身体。这是个很棒的回答，的确如此。这是一次很棒的对话，Ben。我们真的很感激"
+    },
+    {
+      "i": 161,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "49:42",
+      "en": "you coming on the podcast to talk about your research. Thank you. I really enjoyed it. Great to meet you, Ben. Thank you.",
+      "zh": "你来做客播客、聊你的研究。谢谢你，我很享受。很高兴认识你，Ben，谢谢。"
+    },
+    {
+      "i": 162,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "49:53",
+      "en": "All before Ben, we nerd out too much on the content. That conversation was really nice. In addition to the content, Ben's a really nice person. He's also super complimentary about the impact that your work on this podcast is having in that community. And he really applauded you.",
+      "zh": "好了 Ben，我们太沉迷于内容本身了。那次对话真的很棒。除了内容之外，Ben（Marshall）是个非常好的人。他对你在这档播客上做的工作在业界产生的影响也是称赞有加，他真的很赞赏你。"
+    },
+    {
+      "i": 163,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "50:13",
+      "en": "Well, both of us to be clear, both of us. Everyone knows how the sausage is made here. But the compliment you in saying that he had learned things about papers that he had read based on the quality of your questions. And that's something that you've heard before from other",
+      "zh": "嗯，得说清楚，是我们俩，我们俩。这儿谁都知道内幕是怎么运作的。但他称赞的是你，说他从一些自己读过的论文里学到了东西，靠的是你提问的质量。而这是你之前从其他"
+    },
+    {
+      "i": 164,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "50:33",
+      "en": "guests. I thought, that's a really cool way of learning and viewing the world. I thought that was nice. And it's also interesting to take how the questions are so important. Yeah. I think it helps when you have well-written papers, lend themselves to good questions.",
+      "zh": "嘉宾那儿也听到过的。我觉得，这是一种很酷的学习和看待世界的方式，我觉得那很棒。而且很有意思的是，问题怎么会这么重要。是啊。我想，当你有写得好的论文时，它们本身就有助于引出好问题。"
+    },
+    {
+      "i": 165,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "50:51",
+      "en": "It also helps. I basically am saying that I think Ben's given my questions too much credit here. When you have people who can speak about the research in plain English, which is in and of itself a skill, it does make the content of what can be a pretty complex paper a lot easier to",
+      "zh": "这也有帮助。我其实是在说，我觉得 Ben 把我的问题夸得太过了。当你有一些能用通俗英语（plain English）谈论研究的人——这本身就是一项技能——它确实能让一篇可能相当复杂的论文的内容更容易"
+    },
+    {
+      "i": 166,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "51:07",
+      "en": "understand. I find the same thing. We're all reading academic paper, figure out what questions to ask. And I'll think I have a general understanding of the paper. And then you actually go and ask the questions to the person who wrote it or one of the co-authors or whatever the case may be.",
+      "zh": "理解。我也有同感。我们都在读学术论文、琢磨该问什么问题。我会以为自己大致理解了那篇论文，然后你真的去问写它的人、或者其中一位合著者、不管是谁，"
+    },
+    {
+      "i": 167,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "51:20",
+      "en": "And it just solidifies your understanding so quickly. I don't know if it's spoken word that helps or if it's just a way that people communicate it. But for sure, when you ask someone a question verbally, what is this in your paper mean or how did that finding work or whatever,",
+      "zh": "它就会如此迅速地巩固你的理解。我不知道是口头语言起了作用，还是只是人们沟通它的方式。但可以肯定的是，当你口头问某人一个问题——你论文里这是什么意思、那个发现是怎么得出来的、诸如此类——"
+    },
+    {
+      "i": 168,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "51:35",
+      "en": "I think you're going to get a much different answer spoken word than you will if you ask it by email. It's really interesting because you never ask a question. You don't know the answer to. Yeah, but sometimes you get an explanation that's better than you expected. But you're right.",
+      "zh": "我想你得到的答案，会和你用邮件问时得到的答案很不一样。这真的很有意思，因为你从不问一个你不知道答案的问题。是啊，但有时候你会得到一个比你预期更好的解释。不过你说得对。"
+    },
+    {
+      "i": 169,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "51:50",
+      "en": "Whenever we ask a guest questions, it's usually a question that we're pretty confident we know what they're going to say. And that's just because it's based on a paper that we've already read. But I think sometimes people can surprise you with how well they communicate and an idea,",
+      "zh": "每当我们问嘉宾问题时，通常是一个我们相当有信心知道他们会怎么回答的问题。而那只是因为它基于一篇我们已经读过的论文。但我想有时候人们会用他们沟通一个想法的方式给你惊喜，"
+    },
+    {
+      "i": 170,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "52:05",
+      "en": "even if you kind of generally understand it. And I guess that's kind of the point that I'm making right where when you're on a podcast and you're having a conversation with someone over voice, they're going to give you answers that are going to be in many cases more clear,",
+      "zh": "即便你大致已经理解了它。我想这大概就是我要说的那个点：当你在播客上、通过语音和某人对话时，他们给你的答案在很多情况下会更清晰，"
+    },
+    {
+      "i": 171,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "52:19",
+      "en": "at least in how easily they can be interpreted by the brain than whatever was written in the academic paper. It's funny. You have me so well trained to never put a preamble ahead of a question and never ask compound questions. Now when I listen to other podcasts or watch",
+      "zh": "至少在大脑能多么轻易地解读这方面，比学术论文里写的东西更清晰。有意思的是，你把我训练得太好了，让我从不在问题前面加开场白、也从不问复合式问题。现在当我听其他播客，或者看"
+    },
+    {
+      "i": 172,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "52:34",
+      "en": "perhaps interviews on TV, you start to really notice three things, all the ums and us, which we try very hard to not have any. And then the pontification or they set up to the question. And then the compound questions and it drives me nuts. How often that happens?",
+      "zh": "电视上的访谈时，你会真的开始注意到三样东西：所有的\"呃\"和\"嗯\"（我们努力避免有任何这样的），然后是对问题的长篇铺陈或铺垫，然后是复合式问题——它快把我逼疯了。这种情况多常见啊。"
+    },
+    {
+      "i": 173,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "52:53",
+      "en": "Yeah, compound questions are tough. Occasionally guests will say, hey, that's a lot of questions, but it's like they're often questions with short answers that build on each other and I much prefer that to compound questions where I think they're harder to answer,",
+      "zh": "是啊，复合式问题很难。偶尔嘉宾会说，嘿，这一堆问题可不少，但它们往往是答案很短、彼此递进的问题，我更喜欢这样，而不是复合式问题——我觉得复合式问题更难回答，"
+    },
+    {
+      "i": 174,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "53:06",
+      "en": "but it's also harder for the listener to follow. And yeah, we avoid leading questions, leading questions, compound questions. And when we do try to avoid long preambles to questions. Anyways, Ben didn't come to talk about this. And of course, people know up at the top of the",
+      "zh": "而且对听众来说也更难跟得上。还有，是啊，我们避免引导性问题（leading questions）、复合式问题，而且确实会尽量避免在问题前加很长的开场白。总之，Ben 不是来聊这个的。当然，大家在这段访谈一开始就知道，"
+    },
+    {
+      "i": 175,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "53:21",
+      "en": "interview, one of my favorite topics, expected equity market returns. So let you, Ben, take a more nuanced take on how the conversation went with Ben. I really enjoy the research that he's done on estimating expected returns. I thought that whole discussion was really neat. And then",
+      "zh": "这是我最喜欢的话题之一——股票的预期市场回报。那就让你，Ben，来对这场和 Ben 的对话做一个更细致的点评吧。我真的很喜欢他做的关于估计预期回报的研究。我觉得整场讨论都非常棒。然后"
+    },
+    {
+      "i": 176,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "53:36",
+      "en": "the working paper that we talked about on aggregation consistency and return predictability. That's the work that he's done on modifying the way that you calculate the cyclically adjusted price earnings ratio to put it in a format that as we talked about with Ben is just makes way more",
+      "zh": "我们谈到的那篇关于聚合一致性与回报可预测性的工作论文，那就是他做的、关于修改周期调整市盈率计算方式的工作，把它变成一种——就像我们和 Ben 谈到的——更有道理的格式，"
+    },
+    {
+      "i": 177,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "53:52",
+      "en": "sense and eliminates that thing that they call aggregation and consistency. You're just lining up the right metrics together to make the overall ratio more informative, which they show to be true empirically. Interesting and useful research as we talked about with Ben, it would be great and",
+      "zh": "并且消除了他们所称的聚合不一致性。你只是把正确的指标对齐到一起，让整体比率更有信息量，而他们通过实证证明这是真的。有意思、也有用的研究。就像我们和 Ben 谈到的，如果有人能发布这个，那会很好，"
+    },
+    {
+      "i": 178,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "54:11",
+      "en": "will be great if it happens if we could get someone to publish this because right now it's like an academic idea in Ben's paper and that's interesting. But the traditional cape ratio I can find online anytime in five seconds. So I think for something like the component cape to be widely adopted and useful",
+      "zh": "将来也一定会很好，因为现在它还只是 Ben 论文里的一个学术想法，这很有意思。但传统的 CAPE 比率我随时都能在网上五秒钟内找到。所以我想，像成分 CAPE 这样的东西要被广泛采用、并对"
+    },
+    {
+      "i": 179,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "54:30",
+      "en": "to listeners and practitioners and whatever, someone's got to do the calculation and publish it, which as Ben talked about, that's one of the advantages of the traditional cape is that it's really easy to calculate component cape much more involved. But seems to be worth the effort",
+      "zh": "听众、从业者等等有用，就得有人去做这个计算并发布它。就像 Ben 谈到的，这正是传统 CAPE 的优势之一——它真的很容易计算，而成分 CAPE 要复杂得多。但看起来这份功夫是值得的，"
+    },
+    {
+      "i": 180,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "54:45",
+      "en": "based on how much better it predicts future returns, quite dramatic improvement. Yeah, I found the permanent portfolio discussion really interesting too. As I mentioned to Ben during the conversation, I read his paper on it and I was like, okay, this is interesting. Definitely worth talking about",
+      "zh": "因为它在预测未来回报上好太多了，是相当显著的改进。是啊，我也觉得永久组合那段讨论非常有意思。就像我在对话中跟 Ben 说的，我读了他关于这个的论文，我心想，好，这很有意思，绝对值得在"
+    },
+    {
+      "i": 181,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "55:01",
+      "en": "on the podcast. Their sample ended in 2011. I was like, okay, a lot's happened since 2011. So running those kind of out of sample tests, I didn't really have an intuition what it would look like, but the difference I'll pull up I sent these to Ben too, but we didn't go into much detail.",
+      "zh": "播客上聊聊。他们的样本在 2011 年结束，我心想，好，自 2011 年以来发生了很多事。所以跑那些样本外测试，我原本并不真正有一个直觉它会是什么样子，但那个差别——我调出来看看，我也把这些发给 Ben 了，但我们没细讲。"
+    },
+    {
+      "i": 182,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "55:20",
+      "en": "And you've been in contact with him for a while, right? He reached out quite a while ago to suggest a guest for the show. Yeah, then we were in touch over email, talking about his cape paper, and then we decided to be interesting to have him come share the research with the world. Yes,",
+      "zh": "你和他联系有一阵子了吧，对吗？他挺早之前就主动联系、推荐了一位上节目的嘉宾。是的，然后我们通过邮件保持联系，聊他的 CAPE 论文，之后我们觉得请他来跟全世界分享这些研究会很有意思。"
+    },
+    {
+      "i": 183,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "55:36",
+      "en": "I ran going back to 2012. I had the global permanent portfolio, which had VT for the equity component. And then it had short-term government bills, long-term government bonds, and gold equal weights. And then I compared it to just stocks. And I compared it to a 60-40",
+      "zh": "对，我从 2012 年开始跑了一个测试。我做了一个全球永久组合，股票部分用 VT，然后还有短期政府国库券、长期政府债券，以及等权重的黄金。然后我把它和纯股票做比较，还和一个 60-40"
+    },
+    {
+      "i": 184,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "55:57",
+      "en": "portfolio of global stocks and long-term US bonds. And then also to 60% global stocks and 40% US aggregate bonds, which are quite a bit different. Might do a video on it. It's a pretty interesting topic. Agreed. Here's fun. Good guy. Yeah, really nice guy. Cool research. Hopefully,",
+      "zh": "的全球股票加长期美国债券组合做比较，还和 60% 全球股票加 40% 美国综合债券做比较，后者差别相当大。也许会做个视频讲讲。这是个挺有意思的话题。同意。他很有趣。好人。是啊，真的是个好人。研究也很酷。希望"
+    },
+    {
+      "i": 185,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "56:17",
+      "en": "listeners enjoyed the episode. All right, love to hear from you. Thanks for listening.",
+      "zh": "听众会喜欢这一期。好，很想听听你们的想法。谢谢收听。"
+    },
+    {
+      "i": 186,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "56:25",
+      "en": "Portfolio Management and brokerage services in Canada are offered exclusively by PWL Capital Inc, which is regulated by the Canadian Investment Regulatory Organization and is a member of the Canadian Investor Protection Fund. Investment Advisory Services in the United States of America",
+      "zh": "在加拿大，投资组合管理和经纪服务由 PWL Capital Inc. 独家提供，该公司受加拿大投资监管组织（Canadian Investment Regulatory Organization）监管，并且是加拿大投资者保护基金（Canadian Investor Protection Fund）的成员。在美利坚合众国，投资顾问服务"
+    },
+    {
+      "i": 187,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "56:38",
+      "en": "are offered exclusively by one-digital Investment Advisors LLC. One-digital and PWL Capital are affiliated entities. However, each company has financial responsibility for only its own products and services. Nothing herein constitutes an offer or solicitation to buy or sell any",
+      "zh": "由 One Digital Investment Advisors LLC 独家提供。One Digital 与 PWL Capital 是关联实体。不过，每家公司只对自己的产品和服务承担财务责任。本文中的任何内容都不构成买卖任何"
+    },
+    {
+      "i": 188,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "56:54",
+      "en": "security. This communication is distributed for informational purposes only. The information contained herein has been derived from sources believed to be accurate, but no guarantee as to its accuracy or completeness can be made. Furthermore, nothing herein should be construed as investment,",
+      "zh": "证券的要约或招揽。本通讯仅出于信息目的分发。本文所含信息来源于被认为准确的来源，但对其准确性或完整性不作任何保证。此外，本文中的任何内容都不应被解释为投资、"
+    },
+    {
+      "i": 189,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "57:09",
+      "en": "tax, or legal advice, and or used to make any investment decisions. Different types of investments and investment strategies have varying degrees of risk and are not suitable for all investors. You should consult with a professional advisor to see how the information contained",
+      "zh": "税务或法律建议，也不应用于做出任何投资决策。不同类型的投资和投资策略具有不同程度的风险，并不适合所有投资者。你应咨询专业顾问，以了解本文所含信息"
+    },
+    {
+      "i": 190,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "57:22",
+      "en": "herein may apply to your individual circumstances. All market indices discussed are unmanaged, do not incur management fees, and cannot be invested indirectly. All investing involves risk of loss and nothing herein should be construed as a guarantee of any specific outcome or profit.",
+      "zh": "如何适用于你的个人情况。所讨论的所有市场指数都是不可管理的、不产生管理费，也无法被间接投资。所有投资都涉及损失风险，本文中的任何内容都不应被解释为对任何特定结果或利润的保证。"
+    },
+    {
+      "i": 191,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "57:37",
+      "en": "Pass performance is not indicative of or a guarantee of future results. All statements and opinions presented herein are those of the individual hosts and or guests, are current only as of this communications original publication date and are subject to change without notice. Neither one",
+      "zh": "过往表现并不指示、也不保证未来结果。本文所陈述的所有声明和观点均为各位主持人和/或嘉宾个人的观点，仅在本通讯最初发布之日有效，并可能在不另行通知的情况下发生变化。One Digital"
+    },
+    {
+      "i": 192,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "57:52",
+      "en": "digital nor PWL capital has any obligation to provide revised statements and or opinions in the event of changed circumstances.",
+      "zh": "和 PWL Capital 均无义务在情况发生变化时提供修订后的声明和/或观点。"
+    }
+  ]
+}

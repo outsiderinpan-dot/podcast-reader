@@ -1,0 +1,1578 @@
+{
+  "show": "etf-prime",
+  "kind": "transcript",
+  "id": "etf-prime-dce9544cc5",
+  "guid": "https://etfprime.com/?p=50656",
+  "slug": "2026-10-27-baird-strategas-todd-sohn-on-etfs-dce9544cc5",
+  "date": "2026-10-27",
+  "title_en": "Baird Strategas’ Todd Sohn on ETFs: What’s New and What’s Next",
+  "title_zh": "ProShares 的 Simeon Hyman 与 Baird Strategas 的 Todd Sohn 谈 ETF：新品与下一步",
+  "subtitle_zh": "自动可赎回与备兑看涨 ETF，以及体育期货、预测市场和加密货币带来的行业新格局",
+  "summary_zh": "本期 ETF Prime 分两段展开。上半场，ProShares 全球投资策略师 Simeon Hyman 系统讲解了自动可赎回（autocallable）ETF 的运作机理：以波动率目标指数为标的、每周发行合成票据、通过互换构建出一包含 52 到 156 张票据的分散化阶梯，从而在提供十几个点高位收入的同时把风险特征贴近 S&P 500、NASDAQ 100 或 Russell 2000。他还阐述了 ProShares 按日卖权的备兑看涨（covered call）ETF 如何修复传统月度策略的不对称缺陷，既保留较高收入又贴近捕捉标的回报，并强调这类产品本质是股票收入、股票风险，应归入组合的股票部分。下半场，Baird Strategas 首席 ETF 策略师 Todd Sohn 盘点了本年度最疯狂的 ETF 现象：基于期货的体育球队 ETF 把投资推向赌博边界，其流动性、内幕交易与静默期问题仍待观察；预测市场 ETF 在选举、经济等二元事件上有对冲价值，但深度与欺诈风险尚存；加密货币 ETF 正走向主动管理。两人还讨论了 ETF 全面普及、逾千只新发行与万亿级流入、Vanguard 反超 BlackRock、行业并购、Corgi 低价铺量策略，以及主动主题产品的空白地带，并共同展望一次 30% 回撤是否会挤掉这些新品的泡沫。",
+  "description": "Baird Strategas’ Todd Sohn on ETFs: What’s New and What’s Next",
+  "duration": "58:56",
+  "duration_seconds": 3536,
+  "episode_url": "https://etfprime.com/baird-strategas-todd-sohn-on-etfs-whats-new-and-whats-next/",
+  "audio_url": "https://media.blubrry.com/etf_store/content.blubrry.com/etf_store/etf_prime_102826.mp3",
+  "speakers": {
+    "1": "Nate Geraci（主持）",
+    "2": "Simeon Hyman（嘉宾）",
+    "3": "Todd Sohn（嘉宾）",
+    "4": "片花/广告（旁白）"
+  },
+  "turn_count": 194,
+  "turns": [
+    {
+      "i": 0,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "00:00",
+      "en": "The demand is coming from the need for income. On the front end of Gen X, we don't have defined benefit lands and the boomers right before me, don't have defined benefit lands. And if you do the math, 60, 40 portfolio, even with a generous 5% to 6% yield on your fixed income, that's 2, 2, and a half percent.",
+      "zh": "需求来自对收入的渴求。我属于 X 世代（Gen X）的前端，我们没有固定收益养老金（defined benefit plans），而我前面的婴儿潮一代（boomers）也没有。你算笔账就知道：一个 60/40 组合，就算你的固定收益部分给出慷慨的 5% 到 6% 收益率，摊到整个组合也就 2%、2.5% 而已。"
+    },
+    {
+      "i": 1,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "00:17",
+      "en": "That's not enough for people to run their lives on. All right, joining me will be Simeon Hyman, Global Investment Strategist at ProShares, who currently offers 163 ETFs, over $100 billion in assets. And back in August, they launched a suite of auto-collable ETFs, which I will tell you, this is a category that continues to expand overall.",
+      "zh": "这点收益根本不够人们维持生活。好，今天先加入我的是 ProShares 的全球投资策略师 Simeon Hyman，ProShares 目前提供 163 只 ETF，资产规模超过 1000 亿美元。今年 8 月，他们推出了一整套自动可赎回（autocallable）ETF——我跟你说，这是一个整体上还在不断扩张的品类。"
+    },
+    {
+      "i": 2,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "00:51",
+      "en": "The first auto-collable ETF launched in June of last year, 2025. And already, they're now over 30 auto-collable ETFs, with about $6 billion in assets. And actually, I've seen a number of auto-collable ETF filings with the SEC. So there's clearly a growing pipeline here. But bigger picture, auto-collable ETFs fit into what",
+      "zh": "第一只自动可赎回 ETF 是在去年 2025 年 6 月推出的。到现在，市场上已经有超过 30 只自动可赎回 ETF，资产规模约 60 亿美元。而且我看到向 SEC 提交了不少自动可赎回 ETF 的申请文件，显然这个产品管线还在增长。但从更大的图景看，自动可赎回 ETF 归属于我所说的——"
+    },
+    {
+      "i": 3,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "01:12",
+      "en": "I refer to as the alternative income category, where investors are seeking income solutions outside of traditional bond exposure. Areas like cover-call ETFs, and other options based or derivative type strategies. And so Simeon Hyman are going to walk through how auto-collables work, and how these ETFs are structured.",
+      "zh": "另类收入（alternative income）这一类，也就是投资者在传统债券敞口之外去寻找的收入解决方案，比如备兑看涨（covered call）ETF，以及其他基于期权或衍生品的策略。Simeon Hyman 会带我们过一遍自动可赎回产品是怎么运作的，这些 ETF 又是如何构建的。"
+    },
+    {
+      "i": 4,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "01:35",
+      "en": "We'll certainly get into why investors are looking to solutions like these, and where they fit in a portfolio. And then going back to cover-call ETFs, ProShare actually has a suite of those as well. In ETF, like the ProShare's NASDAQ 100-High-Income ETF. So we'll also touch on that lineup as part of our conversation.",
+      "zh": "我们当然也会聊聊投资者为什么在找这类解决方案，以及它们在组合里该放在哪个位置。再回到备兑看涨 ETF，ProShares 其实也有一整套这类产品，比如 ProShares NASDAQ 100 High Income ETF。所以这条产品线我们也会在对话里谈到。"
+    },
+    {
+      "i": 5,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "01:56",
+      "en": "Now, later, I'll be joined by one of my favorite ETF analysts, the Always Whitty Todd Sone, chief ETF strategist at Bearge Strategies. And of course, Bearge Strategies is one of the top macro research firms on Wall Street. And Todd heads up all of their ETF research and coverage there. And so this should be fun.",
+      "zh": "稍后，我会请来我最喜欢的 ETF 分析师之一、一向妙语连珠的 Todd Sohn，他是 Baird Strategas 的首席 ETF 策略师。Baird Strategas 当然是华尔街顶尖的宏观研究机构之一，Todd 负责他们所有的 ETF 研究和覆盖。所以这期应该会很有意思。"
+    },
+    {
+      "i": 6,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "02:16",
+      "en": "We are just going to go around the world of ETFs. I have a bunch of topics for us to get into everything from sports futures contract ETFs to the record number of new launches, which that was just set last week, by the way. We'll get into Corgi ETFs. I'm sure I'll try to work in some crypto ETFs as well.",
+      "zh": "我们就在 ETF 的世界里绕一圈。我准备了一堆话题，从体育期货合约 ETF，到新发数量的历史纪录——顺便说一句，这个纪录上周刚刚刷新；我们还会聊 Corgi 的 ETF，我肯定也会想办法塞进一些加密货币 ETF 的话题。"
+    },
+    {
+      "i": 7,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "02:37",
+      "en": "If nothing else, I promise you'll be entertained as Todd and I try to make sense of the current state of ETFs. As always, questions or comments, you can find me on X at Nate Geraci, or you can go to ETFprime.com. So first up this week is ProShare's Simeon Hyman, who is joining me from New Jersey.",
+      "zh": "别的先不说，我保证当 Todd 和我一起试着理清 ETF 现状时，你会听得津津有味。老规矩，有问题或想法，可以在 X 上找我 @Nate Geraci，或者上 ETFprime.com。本周第一位嘉宾是 ProShares 的 Simeon Hyman，他从新泽西连线加入我们。"
+    },
+    {
+      "i": 8,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "02:58",
+      "en": "Simeon, it is always great having you on here. Welcome back to the podcast. Thanks so much for having me. All right, so back in August, ProShare's launch these three auto-collable ETFs. There's one on the S&P 500, ticker ACSP, one on the NASDAQ 100, ticker ACQQ, and then one on the Russell 2000, ticker ACRT.",
+      "zh": "Simeon，每次请你来都很开心，欢迎重回播客。——非常感谢邀请我。好，今年 8 月 ProShares 推出了这三只自动可赎回 ETF：一只挂钩 S&P 500，代码 ACSP；一只挂钩 NASDAQ 100，代码 ACQQ；还有一只挂钩 Russell 2000，代码 ACRT。"
+    },
+    {
+      "i": 9,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "03:22",
+      "en": "To start, I think you know, I always like covering the basics. And my sense is, when some investors hear the term auto-collable, that sounds pretty complex, maybe even a little bit intimidating. So do you first want to explain what an auto-collable is and how it works at a high level, and then we can certainly talk about the ETFs? Sure.",
+      "zh": "先从基础讲起吧，你知道我总是喜欢把基本功覆盖到。我的感觉是，有些投资者一听到“自动可赎回”这个词，会觉得挺复杂，甚至有点让人发怵。所以你要不要先从大框架上解释一下什么是自动可赎回产品、它是怎么运作的，然后我们再具体谈这些 ETF？——好的。"
+    },
+    {
+      "i": 10,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "03:41",
+      "en": "So as you noted, the most important thing is to start with the basics. And auto-collables have been around for a while. They have been around traditionally sourced through a structured note. And the way that note works is, as you are indicating, alternative income, or sometimes folks referred to the category as derivative income,",
+      "zh": "就像你说的，最重要的还是从基础讲起。自动可赎回产品已经存在很长一段时间了，传统上是通过结构化票据（structured note）来获得的。这种票据的运作方式，正如你提到的，属于另类收入，有时大家也把这个品类叫做衍生品收入（derivative income）；"
+    },
+    {
+      "i": 11,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "04:01",
+      "en": "I also like to think of it as income generated from equity risk. And that's how an auto-collable works. You get a level of income, a coupon, you get your money at maturity, unless the underlying equity index drops below a certain level. That is the classic payoff profile of an auto-collable. And that level of income can be quite generous",
+      "zh": "我自己也喜欢把它理解成由股票风险（equity risk）产生的收入。自动可赎回产品就是这么运作的：你拿到一定水平的收入，也就是票息（coupon），到期时拿回本金——除非标的股票指数跌破某个水平。这就是自动可赎回产品经典的收益结构。而这个收入水平可以相当慷慨，"
+    },
+    {
+      "i": 12,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "04:28",
+      "en": "in the mid to high teen sometimes. And again, you will get that principle back unless the equity market, or the equity index that's driving your specific auto-collable, drops below a significant level. And that's been very attractive, but it's been limited because the way to access it has been through these structured notes.",
+      "zh": "有时能到十几个点的中高位（mid-to-high teens）。再说一次，你会拿回本金，除非驱动你这只特定自动可赎回产品的股票市场或股票指数跌破一个重要水平。这一点非常有吸引力，但过去一直受限，因为接触它的途径只有这些结构化票据。"
+    },
+    {
+      "i": 13,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "04:49",
+      "en": "And when you do it in a structured note, you kind of can't just own one, because it matters the day you enter, because that establishes where the downside risk is, establish the coupon, all these things. So in order to manage a strategy effectively, you needed to have a diversified portfolio of these.",
+      "zh": "用结构化票据来做时，你没法只持有一张，因为你进场的那一天很关键——它决定了下行风险在哪里、票息是多少，等等。所以要想有效地管理这个策略，你需要持有一篮子分散化的这类票据。"
+    },
+    {
+      "i": 14,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "05:07",
+      "en": "And that tells you a lot about why they were popular, because they're an excellent source of equity income, income not related to interest rate risk. But it also tells you a little bit about why they haven't quite blossomed across the full landscape because of the challenges of accessing them through those individual structured notes.",
+      "zh": "这在很大程度上说明了它们为什么受欢迎——它们是股票收入的绝佳来源，而且这种收入跟利率风险无关。但这也多少解释了为什么它们没能在整个市场上全面开花：因为通过一张张单独的结构化票据去接触它们，存在不少障碍。"
+    },
+    {
+      "i": 15,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "05:27",
+      "en": "Yeah, and maybe talk a little bit more about your last point there, because I mentioned at the top, this is a rapidly expanding ETF category in auto-collable ETFs. You mentioned the more generous income here, a little bit of a different, maybe risk return profile, compared to some other traditional investments.",
+      "zh": "嗯，能不能就你最后那一点再多讲讲。因为我一开始就提到，自动可赎回 ETF 是一个正在快速扩张的 ETF 品类。你提到这里收入更慷慨，跟一些传统投资相比，风险收益特征（risk-return profile）可能也有些不同。"
+    },
+    {
+      "i": 16,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "05:45",
+      "en": "Is that really what's driving this investor interest along with the fact that we now have this supply coming online, or are there any other factors you would point to? From the environment standpoint, the demand is coming from the need for income. I'm the front end of Gen X. We don't have defined benefit plans",
+      "zh": "这真的是在驱动投资者兴趣的原因吗？再加上现在有了这些产品供给，还有没有别的因素你会指出？——从大环境来看，需求来自对收入的渴求。我属于 X 世代的前端，我们没有固定收益养老金计划，"
+    },
+    {
+      "i": 17,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "06:00",
+      "en": "and the boomers right before me don't have defined benefit plans. And if you do the math, 60, 40 portfolio, even with a generous 5% to 6% yield on your fixed income, that's 2, 2, and a half percent. That's not enough for people to run their lives on. And so you need more income. But also in this environment, as we know,",
+      "zh": "我前面的婴儿潮一代也没有固定收益养老金计划。你算笔账：一个 60/40 组合，就算固定收益部分给出慷慨的 5% 到 6% 收益率，摊下来也就 2%、2.5%。这点收入不够人们维持生活，所以你需要更多收入。而且在当前这个环境里，我们都知道，"
+    },
+    {
+      "i": 18,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "06:20",
+      "en": "it's yielded up priced down. So fixed income in and of itself has a level of risk we haven't seen in quite some time. So the need for more income and the need for income that's not related to interest rate risk, those are the environmental drivers. And that's why this derivative income category",
+      "zh": "收益率上行、价格下跌。所以固定收益本身就带有我们很久没见到的一种风险水平。于是，对更多收入的需求，以及对与利率风险无关的收入的需求，这些就是大环境层面的驱动力。这也正是为什么衍生品收入这个品类，"
+    },
+    {
+      "i": 19,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "06:38",
+      "en": "or alternative income category has blossomed so much. Now, the category is over $200 billion. Now, most of that is in covered calls and we'll touch a little bit about it at the end. We're actually at the front end of the autocollable growth. We're only up to $5 or $6 billion in autocollables that there's a real opportunity here.",
+      "zh": "或者说另类收入品类，会如此蓬勃。现在这个品类已经超过 2000 亿美元。其中大部分在备兑看涨产品上，最后我们会稍微谈谈。而自动可赎回产品其实还处在增长的早期，规模才 50 到 60 亿美元，所以这里存在真正的机会。"
+    },
+    {
+      "i": 20,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "06:58",
+      "en": "And the reason that the ETFs are taking off is that they solve for the challenge of the autocollable process, which is twofold one, the diversification aspect, the need for more than for multiples of them. And then, of course, the ability to just get them in a simple ETF wrapper. And that's the solution that we brought to market",
+      "zh": "ETF 之所以起飞，是因为它们解决了自动可赎回流程中的难题，这个难题有两方面：一是分散化，也就是需要持有多个、成倍的这类产品；二是能够用一个简单的 ETF 外壳（wrapper）就把它们装进来。这正是我们带到市场上的解决方案，"
+    },
+    {
+      "i": 21,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "07:22",
+      "en": "with our three ETFs, AC triple Q on the NASDAQ 100, ACSP on the S&P 500 and ACRT on the Russell 2000. What you get with our ETFs is that ladder. Packaged in an ETF, diversified one stop shopping",
+      "zh": "就是我们的三只 ETF：挂钩 NASDAQ 100 的 ACQQ、挂钩 S&P 500 的 ACSP，以及挂钩 Russell 2000 的 ACRT。你用我们的 ETF 得到的，就是那道“阶梯”（ladder）——打包进一只 ETF 里，分散化、一站式购齐。"
+    },
+    {
+      "i": 22,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "07:42",
+      "en": "and we can talk more about the details, but that's why the ETF delivery of autocollable is taking off. Well, yeah, let's actually get into those details and help people better understand what's going on underneath the hood here. So if we take maybe ACSP, the ProShare's S&P 500 autocollable income ETF,",
+      "zh": "细节我们可以再多聊，但这就是为什么用 ETF 来交付自动可赎回产品会火起来。——好，那我们就深入这些细节，帮大家更好地理解底层到底在发生什么。以 ACSP 为例，也就是 ProShares S&P 500 Autocallable Income ETF，"
+    },
+    {
+      "i": 23,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "08:00",
+      "en": "just walk through what's actually going on here. If somebody looks through into the ETF. I'll take you through a quick step by step. So in ACSP, we start with the S&P 500 just off the shelf. Now, the first thing that we do is create, and this is all indexed by index. So this is not anything that we're doing at ProShare",
+      "zh": "如果有人穿透去看这只 ETF 内部到底在发生什么，请带我们走一遍。——我快速给你分步讲。在 ACSP 里，我们从现成的（off-the-shelf）S&P 500 开始。第一步，我们要构建——这全都是按指数来的，所以这不是我们 ProShares 自己在做什么主观操作，"
+    },
+    {
+      "i": 24,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "08:20",
+      "en": "other than following the index. So I'm following the strategy here.",
+      "zh": "只是跟随指数而已。所以我在这里就是跟随这个策略。"
+    },
+    {
+      "i": 25,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "08:25",
+      "en": "You take the S&P 500 and you create a volatility targeted underlying index to drive the performance of the autocollable notes. And that's very important because by targeting a constant level of volatility, that allows for the income stream from the autocollables to be quite stable. So step one, vol-targeted version of the S&P 500,",
+      "zh": "你拿 S&P 500，构建一个以波动率为目标的标的指数（volatility-targeted underlying index），用它来驱动这些自动可赎回票据的表现。这一点非常重要，因为通过锁定一个恒定的波动率水平，就能让自动可赎回产品带来的收入流相当稳定。所以第一步，是一个波动率目标版的 S&P 500，"
+    },
+    {
+      "i": 26,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "08:50",
+      "en": "that drives the performance of the autocollable index. Then each of those is manifested in one synthetic autocollable. We execute these through swap. Now here's the key. In the ETF, the autocolls will be issued every single week. They cannot be called for a year. They have a three-year maturity. If you do the math in your head,",
+      "zh": "由它来驱动自动可赎回指数的表现。然后，其中每一份都体现为一个合成的自动可赎回票据（synthetic autocallable），我们通过互换（swap）来执行。关键在于：在这只 ETF 里，这些自动可赎回票据每周都会发行一次；它们在一年内不能被赎回，期限为三年。你在心里算一下，"
+    },
+    {
+      "i": 27,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "09:14",
+      "en": "that means they're at least 52 and up to 156 of these individual notes that are now a fully diversified autocollable ladder in the ETF. And that results in the index and then the ETF, ACFP and the S&P. I was actually poking around on the ProShare's website this morning and I saw there's a dashboard",
+      "zh": "这意味着至少 52 张、最多 156 张这样的单独票据，它们在 ETF 里构成了一道完全分散化的自动可赎回阶梯。这就形成了指数、进而形成 ETF，也就是挂钩 S&P 的 ACSP。——今早我其实在 ProShares 网站上翻了一下，看到每只 ETF 上都有一个仪表盘（dashboard），"
+    },
+    {
+      "i": 28,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "09:37",
+      "en": "on each of these ETFs where investors can see the details of the autocollable ladder that you were just alluding to. Do you want to expand on that? That's obviously a nice tool for investors to be aware of. We wanted everybody to be able to have full transparency. So when you go to our website,",
+      "zh": "投资者可以看到你刚才提到的那道自动可赎回阶梯的细节。你要不要展开讲讲？这对投资者来说显然是个不错的工具。——我们希望每个人都能拥有完全的透明度。所以你上我们网站时，"
+    },
+    {
+      "i": 29,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "09:52",
+      "en": "each of these autocollable notes are on a dashboard. They got a dot for each single one. You can see where they are. You can see where they're priced because there's transparency now. These are all out there every single day in the old structured note world, the little more opaque. And you can see things as an example,",
+      "zh": "每一张自动可赎回票据都在仪表盘上，每一张都有一个点，你能看到它们处在什么位置、定价在哪里，因为现在有了透明度。这些每天都公开可见——而在旧的结构化票据世界里，就相对不透明一些。你还能看到一些东西，举个例子，"
+    },
+    {
+      "i": 30,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "10:08",
+      "en": "what the yield is currently on that diversified portfolio of autocollable notes. Today it's in the high teams. You can see how many are out there. There've been 70, 80, 90 depending on our ETF. So lots of diversification. And you can also see how close they are to either being cool or their maturity.",
+      "zh": "比如这个分散化的自动可赎回票据组合当前的收益率是多少。今天它在十几个点的高位（high teens）。你能看到市面上有多少张，按不同 ETF 有 70、80、90 张不等，所以分散化程度很高。你还能看到它们离被赎回（call）或离到期有多近。"
+    },
+    {
+      "i": 31,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "10:28",
+      "en": "So you get all the information for all of the autocollables that are in that are in the ETF at any given point. So let me ask you this because I think the question that a lot of people have is, okay, I get that there's higher income here. I understand how autocollables work, but where exactly do these fit in a portfolio?",
+      "zh": "所以在任何时点，你都能拿到 ETF 里所有自动可赎回票据的全部信息。那我问你，因为我觉得很多人心里的问题是：好，我明白这里收入更高，也理解自动可赎回产品怎么运作，但它们到底该放在组合的哪个位置？"
+    },
+    {
+      "i": 32,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "10:48",
+      "en": "And I'm curious how you think about the risk reward profile of an ETF like we just walked through where you do typically have higher income than traditional bonds and other income producing investments. But there is that downside risk, right? In the event of a significant market drawdown.",
+      "zh": "我很好奇你怎么看像我们刚过一遍的这种 ETF 的风险回报特征：它通常比传统债券和其他产生收入的投资有更高的收入，但确实存在那个下行风险，对吧？在市场出现大幅回撤（drawdown）的时候。"
+    },
+    {
+      "i": 33,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "11:05",
+      "en": "So again, I'm just trying to think of portfolio application. Does this fit in the equity sleeve of a portfolio? The fixed income sleeve? How do you think investors should view these? If you go back to the payoff profile I described, we can translate that into the classic four quadrants of things that might happen in the world.",
+      "zh": "所以说到底，我只是在琢磨组合层面的应用。它该放在组合的股票部分（equity sleeve）？还是固定收益部分？你觉得投资者该怎么看待这些产品？——如果回到我描述的那个收益结构，我们可以把它翻译成经典的四象限，也就是世界上可能发生的几种情形。"
+    },
+    {
+      "i": 34,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "11:23",
+      "en": "So if the markets are going up,",
+      "zh": "如果市场往上涨，"
+    },
+    {
+      "i": 35,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "11:27",
+      "en": "boom, you're just gonna get the income, simple enough. Now if markets are flat, you're still gonna get that income because nothing bad happened. If the markets are down just a little bit, you're still gonna get the income and you're gonna get your principal. But the risk is in that third quadrant,",
+      "zh": "砰，你就拿到收入，很简单。如果市场走平，你照样拿到那份收入，因为没发生什么坏事。如果市场只跌了一点点，你仍然拿到收入、也拿回本金。但风险就在第三象限里，"
+    },
+    {
+      "i": 36,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "11:40",
+      "en": "which is absolutely important for you to note that in a significant market drawdown, you can have principal loss. So you are taking equity risk. Now, if you think about where this belongs in a portfolio, you can think of it as two ways. One, if you wanna put it in the alternative bucket,",
+      "zh": "你一定要注意到：在市场大幅回撤时，你可能会损失本金。所以你承担的是股票风险。那么，如果你在琢磨这东西该放在组合的哪里，可以从两个角度想。第一，如果你想把它放进另类（alternatives）这个桶里；"
+    },
+    {
+      "i": 37,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "11:58",
+      "en": "back in my old old days, we used to make the kind of simple definition of two kinds of alternatives. Fixed income alternatives and equity alternatives. This guy is based off equity risk. If it's in your old bucket, it's an equity alternative. With that diversified basket, you do over the course of time have something",
+      "zh": "早年间，我们习惯给另类做一个很简单的划分：固定收益另类（fixed income alternatives）和股票另类（equity alternatives）。这个产品是基于股票风险的，如果你把它放进另类桶里，它就属于股票另类。有了那个分散化的一篮子，随着时间推移，你确实会得到一个"
+    },
+    {
+      "i": 38,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "12:19",
+      "en": "that looks pretty much like equity risk. So you could put it in your core equity portfolio too, to be generating equity income from that equity allocation. So either of those is an appropriate placement in a portfolio. Okay, but just to be clear, the best market environment for an auto callably TF",
+      "zh": "在表现上非常接近股票风险的东西。所以你也可以把它放进核心股票组合，用那份股票配置来产生股票收入。这两种放法在组合里都是合适的。——好，但为了说清楚：对自动可赎回 ETF 来说，最好的市场环境，"
+    },
+    {
+      "i": 39,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "12:36",
+      "en": "is probably one in which stocks are sort of trending sideways or maybe even down some what, right? Obviously not a massive drawdown, but essentially a sideways choppy market or even a generally negative environment. That's typically best for these, correct? See, I think that's absolutely a fine use case.",
+      "zh": "大概是股票横盘震荡、甚至小幅下跌的那种，对吧？显然不是大幅回撤，而本质上是一个横盘、震荡的市场，甚至一个整体偏负面的环境。这类环境通常对这些产品最有利，对吗？——你看，我觉得那绝对是个很好的应用场景。"
+    },
+    {
+      "i": 40,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "12:53",
+      "en": "And that's a great way to get equity income in a sideways market, but in an upward trending market as well, to be able to get mid to high teens income is also quite attractive. So I would add that to a environment that's pretty well managed for auto call this as well. Will the income come down if stocks are racing ahead",
+      "zh": "在横盘市场里，这是获取股票收入的好办法；但在上行趋势的市场里，能拿到十几个点中高位的收入同样很有吸引力。所以我会把那种环境也算作对自动可赎回产品管理得相当不错的场景。——那如果股票一路狂奔，收入会不会下降呢？"
+    },
+    {
+      "i": 41,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "13:15",
+      "en": "because the notes keep getting called and so maybe the income isn't quite as high, still high relative to other income producing investments, but maybe not as high as if you were in that choppy sideways environment. So that's the really nice thing about the diversified ladder because not only does it diversify risk.",
+      "zh": "因为票据不断被赎回，收入也许就没那么高了——相对于其他产生收入的投资仍然算高，但可能不如你处在那个震荡横盘环境时那么高。——这正是分散化阶梯的美妙之处，因为它不仅分散了风险；"
+    },
+    {
+      "i": 42,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "13:33",
+      "en": "You remember, even if you just have 70 or 80 or 90 of these things, like that's a lot of diversification, but it also smooths the income. So the income is smoother than you would think. You would think that there would be some volatility in income, but there are two elements here that keep the income smooth.",
+      "zh": "你要记得，哪怕你只持有 70、80、90 张这样的票据，那已经是相当高的分散度了，而且它还平滑了收入。所以收入比你想象的要平滑。你会以为收入会有一些波动，但这里有两个要素让收入保持平稳。"
+    },
+    {
+      "i": 43,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "13:49",
+      "en": "Remember, we started with the volatility targeted underline. So that guy is actually levering up and down the equity markets, the equity markets and classes levels it up a little bit. If they're volatile, it actually delivers them. So that in and of itself smooths the income. And then the fact that you're issuing these every single week",
+      "zh": "记住，我们是从波动率目标标的指数开始的。所以那个指数实际上是在对股票市场加杠杆和减杠杆：市场平静时它稍微加一点杠杆，市场波动时它实际上是减杠杆。这本身就让收入更平滑。再加上你每周都在发行这些票据，"
+    },
+    {
+      "i": 44,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "14:06",
+      "en": "and if one's cold, there's one right behind it. So the income from our approach at brochures is actually reasonably smooth. And I'd be remiss if I didn't note that there's also the opportunity for tax advantage here. So a decent portion of these distributions can be return of capital. And I know there are a couple of different meanings",
+      "zh": "一张被赎回了，后面马上跟着一张。所以我们 ProShares 这套方法带来的收入其实是相当平滑的。而且如果我不提这里还有税收优势的机会，那就是我的疏忽了。这些分派（distributions）中相当一部分可以是资本返还（return of capital）。我知道资本返还有好几种不同含义，"
+    },
+    {
+      "i": 45,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "14:26",
+      "en": "of return of capital. So all these super specific, 1099 box three, non-tivan and income reduction of basis in the furlough test. All right, and then before we move on, because I do want to ask you about covered call ETFs, just going back to thinking about the downside risk. So these auto-collables, they have this downside barrier,",
+      "zh": "比如那些特别具体的东西：1099 表格第三栏、非股息收入、降低计税基础（basis）等等。好，在我们往下走之前——因为我确实想问你备兑看涨 ETF——先回到下行风险这个问题。这些自动可赎回产品有一个下行障碍位（downside barrier），"
+    },
+    {
+      "i": 46,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "14:45",
+      "en": "which if it's breached and stays below there at the observation period, then that would be the point at which an investor may have a principal at risk. You have this diversified ladder of auto-collables. Just how should investors think about that downside risk? In other words, if the market's down 30% should they",
+      "zh": "如果被击穿，并且在观察期（observation period）里一直待在它下方，那才是投资者本金可能面临风险的时点。你手上有一道分散化的自动可赎回阶梯。那投资者到底该怎么看待这个下行风险？换句话说，如果市场跌了 30%，他们该"
+    },
+    {
+      "i": 47,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "15:04",
+      "en": "be concerned, 40% 50% does it depend because you have this diversified basket. I'm just trying to add some additional context around that because the income side makes sense. People understand we're going to get a higher level of income here, but again, there's no free lunch in the markets, obviously. And so you do have that downside risk",
+      "zh": "担心吗？跌 40%、50% 呢？是不是要看情况，因为你持有的是这个分散化的一篮子。我只是想给这一点补充些背景，因为收入这一面很好理解：大家明白我们在这里会拿到更高水平的收入。但话说回来，市场上显然没有免费的午餐，所以你确实承担了这个下行风险，"
+    },
+    {
+      "i": 48,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "15:20",
+      "en": "in the event of a real significant drawdown. Just add a little bit more color to that piece. When you're in one auto-collable node, old school, if you literally bought one, you would have discontinuity in your payoff profile. But once you have this well-diversified portfolio, the behavior in aggregate over time,",
+      "zh": "在市场出现真正大幅回撤的时候。就这一块再多讲一点。——当你只持有一张自动可赎回票据时，老派做法，如果你真的就买了一张，你的收益结构会出现不连续（discontinuity）。但一旦你持有一个充分分散化的组合，随着时间推移，整体上的表现，"
+    },
+    {
+      "i": 49,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "15:42",
+      "en": "the risk level looks much more like the equity index off the shelf. So you're in the zip code of S&P 500 or NASDAQ 100 or Russell 2000 risk once you have the diversified portfolio. And it's one of the reasons why we're really happy to have all three in this week. Because if you have a point of view, it's really the risk of that underlying",
+      "zh": "其风险水平就更接近现成的那个股票指数了。所以一旦你持有这个分散化组合，你所处的风险区间（zip code）就是 S&P 500、NASDAQ 100 或 Russell 2000 的风险。这也是我们很高兴这次三只都齐全的原因之一：因为如果你有自己的观点，那本质上就是对相应标的的风险观点，"
+    },
+    {
+      "i": 50,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "16:03",
+      "en": "is meaningfully represented in each of these three ETFs. Well, great overview on auto-collables. And I'll just say again, I would encourage people to go to the ProShare's website and look at the dashboard on these ETFs because I think it's helpful just to see how these are structured. You can understand the payoff profile.",
+      "zh": "而这在这三只 ETF 里都得到了充分体现。——好，关于自动可赎回产品的概览讲得很棒。我再说一次，我鼓励大家去 ProShares 网站看看这些 ETF 上的仪表盘，因为光是看看它们如何构建就很有帮助。你能理解那个收益结构，"
+    },
+    {
+      "i": 51,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "16:17",
+      "en": "You can understand that downside risk. So it's just a really good visual. I'm a visual learner. And so that helped me in understanding how these products are structured. OK, let's talk covered call ETFs. I mentioned this at the top. This is another category that we know has been rapidly expanding in the ETF universe for several years now.",
+      "zh": "也能理解那个下行风险。所以它是个非常好的可视化呈现。我是个视觉型学习者，这帮我理解了这些产品是怎么构建的。好，我们来聊聊备兑看涨 ETF。我一开始就提到过，这是另一个我们知道已经在 ETF 领域里快速扩张好几年的品类。"
+    },
+    {
+      "i": 52,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "16:37",
+      "en": "And ProShare does have a suite of these covered call ETFs. So for example, the ProShare's S&P 500 high-income ETF ticker, ISPY, that has well over a billion dollars in assets. There are also NASDAQ 100 and Russell 2000 versions. Talk about this lineup and maybe how it's different from some other covered call strategies on the market.",
+      "zh": "ProShares 确实有一整套这类备兑看涨 ETF。比如 ProShares S&P 500 High Income ETF，代码 ISPY，资产规模远超十亿美元；还有 NASDAQ 100 和 Russell 2000 的版本。谈谈这条产品线吧，也许还有它跟市场上其他一些备兑看涨策略有什么不同。"
+    },
+    {
+      "i": 53,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "17:01",
+      "en": "Sure. And IEEE is our covered call strategy on the NASDAQ 100. And we did bring an innovation to market several years ago. And when you look at traditional covered call strategies, so covered call is one of the most straightforward, derivative income approaches. You sell away the upside to the equities",
+      "zh": "好的。IEQ 是我们在 NASDAQ 100 上的备兑看涨策略。几年前我们确实给市场带来了一项创新。当你看传统的备兑看涨策略时——备兑看涨是最直接了当的衍生品收入方式之一：你把自己持有股票的上行空间卖出去，"
+    },
+    {
+      "i": 54,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "17:20",
+      "en": "that you own in exchange for the premium. That makes income. And that's traditionally been done on a monthly basis. The challenge with doing on a monthly basis is number one, if the market goes up in the beginning of the month and you're out, so you're sacrificing a ton of upside. And then there's this illusion of downside protection",
+      "zh": "换取权利金（premium），这就产生了收入。传统上这是按月来做的。按月度做的问题在于：第一，如果月初市场就上涨，你就出局了，等于牺牲了大量上行空间；第二，还有一种下行保护的错觉，"
+    },
+    {
+      "i": 55,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "17:40",
+      "en": "because maybe you're making even upwards of 1% of income that month. But the equity indices, if something goes wrong, they don't go down 1% a month for 10 months. They go down 10%. And then you're down nine. If you have a traditional covered call strategy, but then you can't participate in the rebound",
+      "zh": "因为也许那个月你能赚到甚至超过 1% 的收入。但股票指数一旦出问题，它不会每个月跌 1%、连跌十个月，而是一下子跌 10%。于是你就净亏 9%——如果你用的是传统备兑看涨策略的话；而且接下来你还参与不了反弹，"
+    },
+    {
+      "i": 56,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "17:58",
+      "en": "because you sold the way next month's upside. And so traditional covered call strategies had this kind of bad asymmetry, if you will. You get 50%, 60% of the upside and you get 80% or 90% of the downside. What we saw is that opportunity to fix this several years ago because daily options became available on the major indices in the US.",
+      "zh": "因为你已经把下个月的上行空间卖掉了。所以传统备兑看涨策略有这样一种糟糕的不对称性（bad asymmetry）：你只拿到 50%、60% 的上行，却要承受 80%、90% 的下行。几年前我们看到了修复这个问题的机会，因为美国主要指数上开始出现每日期权（daily options）。"
+    },
+    {
+      "i": 57,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "18:18",
+      "en": "And so we developed this suite, again, index-based. So none of us are guessing anything at the end of the day, but it's an index-based strategy that writes the calls on a daily basis, executes that strategy on a daily basis. And when you do that, you're up to bat every single day. If you're called away, you're still up to bat",
+      "zh": "于是我们开发了这一整套产品，同样是基于指数的——说到底我们谁都不靠猜——它是一个按日卖出看涨期权、按日执行策略的指数化策略。当你这么做时，你每天都能上场击球（up to bat）；就算被赎回出局了，第二天你照样能上场，"
+    },
+    {
+      "i": 58,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "18:37",
+      "en": "the next day, so you capture the upside.",
+      "zh": "所以你能捕捉到上行空间。"
+    },
+    {
+      "i": 59,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "18:41",
+      "en": "In addition, the strategy actually, volatility adjusts the strike price. So when markets are particularly volatile, it actually writes further out of the money. After liberation day, that was a big saving grace for preserving the rebound that came right after liberation day last year. And when you put that all on a blender,",
+      "zh": "此外，这个策略实际上会根据波动率来调整行权价（strike price）。所以当市场特别波动时，它会卖出更价外（out-of-the-money）的期权。在去年“解放日”（Liberation Day）之后，这一点成了保住随后那波反弹的一大救命稻草。当你把这一切放进搅拌机里一起打，"
+    },
+    {
+      "i": 60,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "19:00",
+      "en": "what we've delivered in our covered call suite is the opportunity to get those attractive, covered call income streams, but also really participate pretty darn closely to the full performance of equity markets. And we're really excited to bring that to market. And node IEEEQ as the NASDAQ flavor there,",
+      "zh": "我们在备兑看涨这套产品里交付的，就是既能拿到那种有吸引力的备兑看涨收入流，又能相当贴近地参与到股票市场的全部表现中。我们真的很兴奋能把它带到市场上。这里要提一下 NASDAQ 版本的 IEQ，"
+    },
+    {
+      "i": 61,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "19:23",
+      "en": "which of course has had lots of energy behind it, given the NASDAQ performance. And I guess that's the last piece I'll close on with regards to the suite. Because each of these actually behaves like it's underlying, the fact that we have a suite, and the fact that we have IEEEQ is meaningful, in the monthly covered call space,",
+      "zh": "考虑到 NASDAQ 的表现，它背后自然有很多动能。关于这套产品，我想最后再讲一点：因为这些产品每一个实际上都表现得像它的标的，所以我们拥有一整套、拥有 IEQ，这件事是有意义的。在月度备兑看涨的领域里，"
+    },
+    {
+      "i": 62,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "19:46",
+      "en": "it almost doesn't matter what you're writing on because you're not getting that performance. It might as well be Malaysian equities or Brazilian equities or Indonesian equities. But here, once you go daily, you're really getting the performance of the underlying. So when you use IEEEQ for equity income, for derivative income,",
+      "zh": "你在什么标的上卖期权几乎无所谓，因为你根本拿不到那个标的的表现——那还不如是马来西亚股票、巴西股票或印尼股票。但在这里，一旦你按日操作，你就真正拿到了标的的表现。所以当你用 IEQ 来获取股票收入、衍生品收入时，"
+    },
+    {
+      "i": 63,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "20:05",
+      "en": "you're really getting NASDAQ 100 exposure. So let me ask you this, given the fact that you are getting that NASDAQ exposure. And this is a similar question to the one I asked you on auto-collable ETFs. I've just seen a lot of debate around where covered call ETFs in general fit in a portfolio. And you'll have some people say",
+      "zh": "你拿到的其实就是 NASDAQ 100 的敞口。那我问你，既然你拿到的是 NASDAQ 敞口——这个问题跟我问自动可赎回 ETF 时的类似——我看到围绕备兑看涨 ETF 整体上该放在组合哪个位置有很多争论。有些人会说，"
+    },
+    {
+      "i": 64,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "20:23",
+      "en": "they don't necessarily fit in the fixed income sleeve because you do have real downside equity risk here. On the other hand, since you're capping the upside in some of these products or a lot of these products, maybe they don't fit in the equities sleeve. So just talk about that. How do you view that?",
+      "zh": "它们未必适合放进固定收益部分，因为这里确实有真实的股票下行风险；另一方面，既然你在这类产品的很多品种里给上行空间封了顶，也许它们又不适合放进股票部分。那就谈谈这一点，你怎么看？"
+    },
+    {
+      "i": 65,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "20:38",
+      "en": "And again, where these might fit in a portfolio? There's no debate about this one. This is equity. It's equity income, but it's equity risk. And that is by design. Again, going to a daily basis delivers the performance profile of the underlying equity index. And we think that makes a lot of sense",
+      "zh": "以及它们可能该放在组合的哪里？——这个没什么可争论的。这就是股票。它是股票收入，但也是股票风险，而且是刻意设计成这样的。同样，采用按日操作，就交付了标的股票指数的表现特征。我们认为这非常合理，"
+    },
+    {
+      "i": 66,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "20:55",
+      "en": "because sometimes you have a Swiss Army knife and it has kind of a stinky knife and a stinky screwdriver. But here you want a real knife and a real screwdriver. You're going to get true equity performance from i-Triple Q. And then to the extent that you have a view of mitigating risk, you've got the risk of your asset allocation,",
+      "zh": "因为有时你有一把瑞士军刀，里面的刀不太好用、螺丝刀也不太好用；但这里你要的是一把真正的刀和一把真正的螺丝刀。你会从 IEQ 这里得到真正的股票表现。而如果你想缓解风险，你有资产配置层面的风险手段，"
+    },
+    {
+      "i": 67,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "21:13",
+      "en": "whether it's bonds, because maybe we'll go from five to five and a half percent of the 10 year. But if there's a recession, you'll be glad you had some. And so that diversification element is there. Or from more specifically designed elements of your alternative exposure that really do shape returns differently than equity,",
+      "zh": "比如债券——也许 10 年期会从 5% 涨到 5.5%，但一旦出现衰退，你会庆幸自己持有一些债券，所以那种分散化的要素是在的；或者来自你另类敞口里那些专门设计、确实能以不同于股票的方式塑造收益的部分，"
+    },
+    {
+      "i": 68,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "21:32",
+      "en": "like auto-coldables. But here with our daily covered call approach in i-Triple Q, you're not shaping returns. You're getting healthy equity income, but you're preserving importantly the equity returns. Well, Simeon, excellent insight is always this week. I find both of these categories fascinating. They just continue to expand,",
+      "zh": "比如自动可赎回产品。但在这里，用我们 IEQ 的按日备兑看涨方法，你不是在重塑收益；你拿到的是健康的股票收入，同时——这很重要——你保住了股票的回报。——好，Simeon，一如既往的精彩洞见。我觉得这两个品类都很迷人，它们就是在不断扩张，"
+    },
+    {
+      "i": 69,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "21:54",
+      "en": "especially auto-coldables. All the interest we're now seeing there in the product coming online. So I thought you did a great job of walking through that. Always enjoy our conversations. Thank you very much for joining me. Thanks so much for having me. That was Simeon Hyman, Global Investment Strategist at Pro Shares.",
+      "zh": "尤其是自动可赎回产品，我们现在看到那么多兴趣、那么多产品落地。我觉得你把这块讲得非常到位。每次和你聊都很愉快，非常感谢你加入我。——非常感谢你的邀请。刚才这位是 ProShares 的全球投资策略师 Simeon Hyman。"
+    },
+    {
+      "i": 70,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "22:13",
+      "en": "Navigating the ETF market? Get the precise data and analytics that smart investors rely on. Build a stronger portfolio today. At ETFDB.com.",
+      "zh": "想在 ETF 市场中游刃有余？获取聪明投资者所依赖的精准数据与分析。今天就构建一个更强的组合，尽在 ETFDB.com。"
+    },
+    {
+      "i": 71,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "22:27",
+      "en": "I'm now joined by Todd Sone, chief ETF strategist at Barrage Strategist, who's one of the top macro research firms on Wall Street. And Todd heads up all of their ETF research and coverage there, including producing one of my favorite weekly reports on the industry. I look forward to that, hitting my inbox every Tuesday morning,",
+      "zh": "现在我请到了 Todd Sohn，Baird Strategas 的首席 ETF 策略师。Baird Strategas 是华尔街顶尖的宏观研究机构之一，Todd 负责他们所有的 ETF 研究和覆盖，其中包括制作一份我最喜欢的行业周报。我每周都盼着它周二早上进我的收件箱，"
+    },
+    {
+      "i": 72,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "22:47",
+      "en": "as it did today. But you will find Todd just about everywhere. I see him on CNBC, Bloomberg. He's all over financial media. And he's now joining us from New York. Todd, always a pleasure. Thank you for gracing us with your presence this week. Oh, you're too kind, Nate. I really appreciate that wonderful intro. We try to do our best here.",
+      "zh": "今天也如期而至。而且你几乎到处都能见到 Todd，我在 CNBC、Bloomberg 上都能看到他的身影，财经媒体上到处都是他。他现在从纽约连线加入我们。Todd，一向很荣幸，感谢你本周赏光。——哦，你太客气了，Nate，非常感谢你这段精彩的介绍，我们尽力做好。"
+    },
+    {
+      "i": 73,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "23:09",
+      "en": "All right. So I have a boatload of topics for us to get into. But first, please tell everybody about this weekly report you publish. I truly look forward to it every Tuesday. I know sometimes you have a bonus report, like on a random Thursday or whatever. I'll get an extra one. But you're pretty consistent every Tuesday. This comes out.",
+      "zh": "好，我有一大堆话题要跟你聊。但首先，请给大家讲讲你发布的这份周报。我每周二是真心期待。我知道有时候你还会加更，比如某个随机的周四什么的，我就会多收到一份。但你每周二雷打不动，这期就出来了。"
+    },
+    {
+      "i": 74,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "23:27",
+      "en": "Tell people about it. Yeah, yeah. So at Barrage Strategist, we are 20 years old. We're required by Barrage in 2018, company based on Milwaukee, exciting time there. And we provide research macro top down research to institutional investors around the world. We have investment strategy policy, technical analysis, economics.",
+      "zh": "给大家介绍一下吧。——好，好。我们 Baird Strategas 已经 20 年了，2018 年被 Baird 收购，公司总部在 Milwaukee，那是一段激动人心的时光。我们向全球机构投资者提供宏观自上而下（top-down）的研究，涵盖投资策略、政策、技术分析和经济学。"
+    },
+    {
+      "i": 75,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "23:47",
+      "en": "I handle ETFs specifically because of how important they become to the markets in general, right? 16 trillion assets, 5,700 ETFs, becoming more ingrained in the markets. And so I try to distill down what's happening in the space, the industry, what are investors doing with their money because we can see flows every day.",
+      "zh": "我专门负责 ETF，因为它们对整个市场变得越来越重要，对吧？16 万亿美元的资产、5700 只 ETF，越来越深地嵌入市场。所以我尝试把这个领域、这个行业正在发生什么提炼出来，投资者在拿他们的钱做什么——因为我们每天都能看到资金流（flows）。"
+    },
+    {
+      "i": 76,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "24:07",
+      "en": "And it's a really fascinating behavioral tool. And it's also reflected in our other arm, which is strategic asset management. We have our own ETFs we run. And it's basically the investible conclusion of our research, right? Our sales side research, we're trying to put our money where our mouth is. Well, I love this.",
+      "zh": "这是一个非常迷人的行为学工具。这也体现在我们的另一条业务线——Strategic Asset Management 上。我们管理自己的 ETF，本质上就是把我们的研究变成可投资的结论，对吧？我们做卖方研究（sell-side research），也要言行一致、真金白银地投进去。——嗯，我很喜欢这个。"
+    },
+    {
+      "i": 77,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "24:24",
+      "en": "And just to give people an idea in your report today, you had a bunch of great charts. But there was one that I feel like you include fairly regularly, which shows the assets and leverage long ETFs relative to inverse ETFs. And right now, I think that ratio is, I believe, 10 to 1. So $10 going into leverage long ETFs for every dollar",
+      "zh": "给大家一个概念：你今天的报告里有一堆很棒的图表，但有一张我觉得你会相当经常地放进来，它展示的是杠杆做多（leveraged long）ETF 相对于反向（inverse）ETF 的资产规模。现在这个比率我记得是 10 比 1，也就是每 1 美元流入反向 ETF，就有 10 美元流入杠杆做多 ETF。"
+    },
+    {
+      "i": 78,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "24:45",
+      "en": "going into inverse ETFs. But I'm assuming you just like this as an investor sentiment gauge, correct? Because it's pretty sensitive. Totally, totally. This is, I think, a new form of sentiment, in a sense, right? Historically, we always relied on the options market, the volatility curve, investor surveys,",
+      "zh": "我猜你是把它当作一个投资者情绪（sentiment）的标尺来用，对吧？因为它相当敏感。——完全正确，完全正确。我觉得这在某种意义上是一种新形式的情绪指标，对吧？历史上我们总是依赖期权市场、波动率曲线、投资者调查，"
+    },
+    {
+      "i": 79,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "25:03",
+      "en": "if you're in a room with 30 people, how many are bullish or bearish. And as much as the leverage space has been around for 20 years, it wasn't until COVID that it became kind of invoked. I think people really discovered the power of those tools. You don't need margin. Anyone complaint it, institution, retail.",
+      "zh": "比如一个屋子里有 30 个人，有多少人看多或看空。尽管杠杆产品这个领域已经存在 20 年了，但直到新冠疫情期间它才真正被“激活”。我觉得人们那时才真正发现了这些工具的威力。你不需要保证金（margin），任何账户都能买——机构、散户都行。"
+    },
+    {
+      "i": 80,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "25:19",
+      "en": "And so I look at it as an enthusiasm barometer. And it's super interesting when you take just the ratio of long assets versus inverse assets, it tells you kind of how confident people are in the market, especially because most of those assets are tied to tech, semis, NASDAQ 100, right? That's the bulk of the US market.",
+      "zh": "所以我把它看作一个热情晴雨表（enthusiasm barometer）。只取做多资产与反向资产的比率，非常有意思——它能告诉你大家对市场有多大信心，尤其因为这些资产大多跟科技、半导体、NASDAQ 100 挂钩，对吧？那可是美国市场的主体。"
+    },
+    {
+      "i": 81,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "25:37",
+      "en": "And so I'm still grappling with, you mentioned 10 to 1 today. What is the right number there? What is aggressive? What is washed out? And that seems to be in motion every year. For what it's worth, the last few years, every time we've had a correction, you got it down to kind of the mid-single digits. That was a good capitulatory level.",
+      "zh": "所以我还在琢磨——你提到今天是 10 比 1——那到底什么才是对的数字？多少算激进？多少算被清洗干净（washed out）？而且这个标准似乎每年都在变。就我个人经验而言，过去几年每次我们经历回调，这个比率都会降到个位数的中位附近，那就是一个不错的、带点投降意味（capitulatory）的水平。"
+    },
+    {
+      "i": 82,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "25:55",
+      "en": "So maybe we're still shy there. Or maybe 10 to 1 is the right number in a few years from now. But nonetheless, despite the pullback we saw over the summer. Especially with the Korea Unwind. You're still seen by the debactivity for levered ETS. So maybe that's the punchline here.",
+      "zh": "所以也许我们离那个位置还差一点，又或者几年之后 10 比 1 才是那个“对的数字”。但无论如何，尽管我们夏天见到了回调——尤其是在那波套利平仓（carry unwind）当中——你仍然看到杠杆 ETF 的活跃度。所以这里的结论也许就是："
+    },
+    {
+      "i": 83,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "26:13",
+      "en": "That the activity and the lust for tech is still certainly there. Yeah. And fairly recently, that ratio was 16 to 1. Let me ask you this. Could you ever see it going inverse to where you have more flows going into the inverse ETFs versus the leverage long? It's possible.",
+      "zh": "对科技的那份活跃和渴望，显然还在。——是的。而且就在不久前，这个比率还高达 16 比 1。我问你：你有没有可能见到它反过来，也就是流入反向 ETF 的钱多于流入杠杆做多的钱？——有可能。"
+    },
+    {
+      "i": 84,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "26:28",
+      "en": "But I think we have a lot worse things on our hands if that's the case. I mean, that sounds like recession to me. In October 2022, the ratio did get down to 1 to 1. Now this space was much smaller than that. That's the type of environment you need for this to kind of get to the area where it's more inverse AUM, the long AUM,",
+      "zh": "但如果真到那一步，我觉得我们手头上的麻烦就大得多了。我的意思是，那听起来就是衰退（recession）。2022 年 10 月，这个比率确实降到过 1 比 1，不过那时这个领域的规模要小得多。要让反向 ETF 的资产管理规模（AUM）超过做多的 AUM，你就需要那种类型的环境，"
+    },
+    {
+      "i": 85,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "26:46",
+      "en": "which is a painful way to go. Not out of the realm. But we're all going to be very upset if that happens. All right. We'll get into my boatload of ETF topics. One other thing I have to ask you. Just because you and I are both out on X for better or worse. I think we both have a lot of fun out there.",
+      "zh": "那会是一段很痛苦的过程。倒也不是不可能，但真发生了我们所有人都会非常难受。好，我们来聊我那一大堆 ETF 话题。还有一件事我必须问你——就因为你和我都在 X 上活跃，不管好坏，我觉得我们俩在那儿都玩得很开心。"
+    },
+    {
+      "i": 86,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "27:02",
+      "en": "But I've got to tell you Todd, it is unbelievable how many people steal your charts from your weekly research. And they'll post them out on X without any attribution, which on one hand, I think that's a huge credit to you. Because you do have these amazing ETF charts. On the other hand, that has to be a little frustrating. Yeah.",
+      "zh": "但我得跟你说，Todd，真不敢相信有多少人从你的周报里偷图，然后在 X 上发出去还不署出处。一方面我觉得这是对你极大的认可，因为你确实有这些了不起的 ETF 图表；另一方面，这多少也得让人有点懊恼吧。——是啊。"
+    },
+    {
+      "i": 87,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "27:20",
+      "en": "I mean, it's flattering, right? We do our best here at Strategist. We're at Strategist. And admittedly, I do put out a video on Strategist Assamage, which includes some of the charts from that note. Just for the public, for brand awareness. So it's partially our own fault.",
+      "zh": "我是说，这也算是一种恭维，对吧？我们在 Strategas 尽力做到最好。而且说实话，我确实会在 Strategas 的平台上发一段视频，里面包含那份报告中的一些图表，纯粹面向公众、为了品牌知名度。所以这部分也算是我们自己的“锅”。"
+    },
+    {
+      "i": 88,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "27:37",
+      "en": "But at the end of the day, we make our money off of producing research for clients and trying to inform people in the market. That's why it's always a little like, well, you know, if you're going to borrow a chart, at least give attribution. Because people, how do you think I feed my children, right? It's based off of this research.",
+      "zh": "但说到底，我们靠的是为客户做研究、为市场里的人提供信息来赚钱。所以总会有点那种感觉——你知道，如果你要借用一张图，至少署个出处嘛。因为大家会想，你猜我靠什么养孩子，对吧？靠的就是这份研究。"
+    },
+    {
+      "i": 89,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "27:53",
+      "en": "So we try to make it a two-way street for folks that we like. You know, you're a great person about it. Some other folks have peers of ours are great about it. But you know, if you're thinking about it, whether it's our charts or anyone else's charts, if you're thinking about taking and reposting without attribution,",
+      "zh": "所以对我们喜欢的那些人，我们尽量让它成为双向的尊重。你知道，你在这方面做得很棒，我们的一些同行也做得很棒。但你知道，如果你在考虑——不管是我们的图还是别人的图——如果你想着拿来转发却不署出处，"
+    },
+    {
+      "i": 90,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "28:09",
+      "en": "just remember some people kind of depend on their business for that, right? We're in the for-profit research business, as we say. But try to share as nicely as possible. A hundred percent. And also, it's just some common courtesy. All right. I agree. You know, this is a business, but like, you use some common courtesy. All right.",
+      "zh": "那就请记住，有些人多少是靠这门生意吃饭的，对吧？就像我们说的，我们做的是营利性研究这门生意。所以尽量友善地分享。——百分之百同意，而且这也是一种基本的礼貌。好，我同意。你知道，这是一门生意，但请拿出点基本的礼貌来。好。"
+    },
+    {
+      "i": 91,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "28:29",
+      "en": "And where, if people want to access this weekly research that you put out, do they need to be a client of bearish strategists? Or how can they obtain this? So there's two ways. You can be a client of bearish strategists, right? And please reach out. We have sales folks covering the whole globe. I'm going to Asia next week.",
+      "zh": "那如果人们想看你发布的这份周报，他们需要成为 Baird Strategas 的客户吗？还是有别的获取方式？——有两条路。你可以成为 Baird Strategas 的客户，对吧？欢迎联系，我们的销售团队覆盖全球，我下周就要去亚洲。"
+    },
+    {
+      "i": 92,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "28:45",
+      "en": "I'm looking forward to that. Or, importantly, if you invest through strategic asset management, you can also become a client through that way, right? AIM and our ETFs or SMAs is just as good as being a research client and paying through that way or trading through our trading desk, right?",
+      "zh": "我很期待这趟行程。或者，重要的是，如果你通过 Strategic Asset Management 来投资，你也可以用那种方式成为客户，对吧？用我们的 ETF 或 SMA（独立管理账户）来做 AUM，跟做研究客户、通过那种方式付费、或者通过我们的交易台交易，是一样好的，对吧？"
+    },
+    {
+      "i": 93,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "29:04",
+      "en": "We have an equity trading desk, option trading desk. So, strategicistetest.com is a great route for bearish strategist.com. Or you can just go out on X and find Todd Jones floating around for free without attribution. Some of them will be out there. All right. Let's get into these topics I have. And here's a deal.",
+      "zh": "我们有股票交易台、期权交易台。所以 strategist.com 是个好入口，或者 bairdstrategas.com。或者你也可以直接上 X，找到 Todd Sohn 到处“漂”着的图，免费、还不署出处——那些图外面确实有一些。好，我们进入我准备的这些话题吧。是这样的："
+    },
+    {
+      "i": 94,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "29:21",
+      "en": "We're just going to start hot right out of the gate. I want you to tell me the single wildest thing you have seen in the ETF space this year. The single wildest thing. Single wildest. Does it have to be live? No, you tell me. I think it's sports ETFs, futures-based ETFs. Maybe that's not the wildest, but that's what comes to mind",
+      "zh": "我们一上来就直接开火。我要你告诉我，今年你在 ETF 领域见过的最疯狂的一件事是什么。最疯狂的一件。最疯狂的一件。它必须是已经上市的吗？——不，你说吧。——我觉得是体育 ETF，基于期货的 ETF。也许那不算最疯狂的，但这是我脑子里冒出来的，"
+    },
+    {
+      "i": 95,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "29:40",
+      "en": "because we're entering some strange territory there. I get it, and it makes sense. The indices are actually well-built to read the methodologies. But not everything necessarily needs an ETF. So I'm very curious to see assuming these are greenlit. How it goes. Right. So the baseball season is about to end.",
+      "zh": "因为我们正在进入一些奇怪的领域。我理解，也说得通——这些指数其实构建得很好，你去读它们的方法论就知道。但并不是每样东西都非得有一只 ETF 不可。所以我很好奇，假设这些产品获批放行（greenlit），后续会怎么走。——对。所以棒球赛季马上就要结束了。"
+    },
+    {
+      "i": 96,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "29:58",
+      "en": "If you had an ETF live trading, what happens then after the season? They're just going to float around like jellyfish, I think. And if you're going to tell me that the Yankees are going to sign the best player on the brewers, right? The bluer's ETF is going to tank and the Yankees will probably get a boost.",
+      "zh": "如果你有一只实时交易的 ETF，那赛季结束之后会怎样？——我觉得它们就会像水母（jellyfish）一样四处漂着。而且如果你要告诉我，洋基队（Yankees）打算签下酿酒人队（Brewers）最好的球员，那酿酒人队的 ETF 就会暴跌，洋基队大概会获得提振。"
+    },
+    {
+      "i": 97,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "30:14",
+      "en": "But that could be right for insider trading. So I don't know. I do think it's the sports stuff because that's getting out of the realm of financial assets into democratizing sports. I think it's super interesting. But I have a lot of questions about how this is just going to go during these quiet periods.",
+      "zh": "但这可能正好构成内幕交易（insider trading）。所以我也说不准。我确实觉得体育那一类最疯狂，因为它已经超出了金融资产的范畴，走向了体育的大众化。我觉得这超级有意思。但关于在这段静默期（quiet periods）里这一切到底会怎么走，我有一大堆疑问。"
+    },
+    {
+      "i": 98,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "30:32",
+      "en": "That, to me, is the wildest part, especially when you start adding leverage to it also. Have you looked at the volume in these contracts on the CME? There's really not a lot going on there right now. There's a meme for it, I think. And I can't think of it, but it's quiet. There's definitely a meme out there. Does anyone care?",
+      "zh": "对我来说，这才是最离谱的部分，尤其是当你再往上加杠杆的时候。你有没有看过 CME 上这些合约的成交量？现在那儿其实没什么动静。我觉得有一个相关的 meme，但我想不起来了，总之很冷清。肯定有这么个 meme 存在。有人在乎吗？"
+    },
+    {
+      "i": 99,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "30:50",
+      "en": "And it's probably going to take time, right? Just like any other ETF that's happened before, whether it's high yield bond, seal, all this stuff, right? The first few weeks when it's exotic for maybe years, do take time to build it out. So maybe they just got to wait for the infrastructure to come. But I'm just very curious.",
+      "zh": "而且这大概率需要时间，对吧？就跟历史上出现过的任何其他 ETF 一样，无论是高收益债还是别的那些东西。头几周——或者对那些偏异类（exotic）的产品来说可能是好几年——确实需要时间去把规模做起来。所以也许他们只是得等基础设施到位。但我就是很好奇。"
+    },
+    {
+      "i": 100,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "31:10",
+      "en": "And you're going to have multiple issuers out there about who have the same ETF, right? The Milwaukee Brewers ETF across three or four different issuers. Which one do I go to? I guess who is the best spreads? Who has the best fee? Maybe the most affordable fee, right? The liquidity. So I have a lot of questions. It's very unique.",
+      "zh": "而且市面上会有多家发行人推出同样的 ETF，对吧？比如密尔沃基酿酒人队（Milwaukee Brewers）ETF，三四个不同发行人都有。那我该选哪一只？我猜要看谁的价差（spreads）最好、谁的费用最优——也许是最实惠的费用，对吧？还有流动性。所以我有很多疑问。这非常独特。"
+    },
+    {
+      "i": 101,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "31:30",
+      "en": "I do think it might be the wildest one, though. And I'm trying to think of a better one off the top, my head. But I think it's that. If I had it, can I pick a second? Go ahead, go ahead. I might say I was going to say the go for it. Well, I was going to say if. All right. All right. I'm going. You go. Perpetual future swaps.",
+      "zh": "不过我确实觉得它可能就是最疯狂的那一个。我在脑子里努力想有没有更疯狂的，但我觉得就是它。——如果我说了这个，我能再挑第二个吗？——你说，你说。——我可能要说……好，我要说了。永续期货互换（perpetual futures swaps）。"
+    },
+    {
+      "i": 102,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "31:49",
+      "en": "I think you're interested too. Especially given the anthropic S1 yesterday. Now, I don't know if those are going to go away once the company IPOs, but. I mean, I'm on that thing every day now in hyperliquid Washington, athropic and open AI. I think it's very unique and a great way to get a lens into how privates are trading. I agree.",
+      "zh": "我觉得你也会感兴趣，尤其是考虑到昨天 Anthropic 的 S-1。我不知道这些合约会不会在公司 IPO 之后就消失，但……我是说，我现在每天都在 Hyperliquid 上盯着 Anthropic、OpenAI 这些标的。我觉得这非常独特，是透视私募市场如何交易的一个绝佳窗口。——我同意。"
+    },
+    {
+      "i": 103,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "32:08",
+      "en": "I actually think the perpetual futures contracts are a pretty elegant way to get exposure because you do have a live trading market. And obviously right now it's indirect exposure via swaps. We have the swap counter party going and using the perpetual futures is the underlying reference. But yeah, I think that's an interesting story.",
+      "zh": "我其实觉得永续期货合约（perpetual futures）是一种相当精巧（elegant）的获取敞口的方式，因为你确实有一个实时交易的市场。而且显然现在是通过互换（swaps）间接获取敞口——我们有互换对手方，用永续期货作为底层参照。但没错，我觉得这是个很有意思的故事。"
+    },
+    {
+      "i": 104,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "32:26",
+      "en": "The other one I was going to say is, of course, corgi launching, you know, 200 plus ETFs. They just launched like seven more ETFs with expense ratios of two basis points. That's a pretty wild story. But real quick, I want to come back to the sports futures ETFs. And I think you were alluding to this,",
+      "zh": "另一个我本来要说的，当然是 Corgi 一口气推出 200 多只 ETF。他们刚又发了大约七只 ETF，费用率只有两个基点（two basis points）。这也是相当离谱的故事。不过我想很快回到体育期货 ETF 这个话题，我觉得你刚才其实就在暗示这一点——"
+    },
+    {
+      "i": 105,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "32:45",
+      "en": "this blurring of a line between investing and gambling. I'll tell you, this is a topic I've talked about a lot this year. I've gotten some great takes from people you know, like ETF.coms, Dave Nottig and ETF actions, micacons. There have been others. Like, where do you ultimately land on on this?",
+      "zh": "也就是投资与赌博之间界限的模糊。我跟你说，这是我今年聊过很多的一个话题。我从一些人那里得到过很棒的观点，比如 ETF.com 的 Dave Nadig 和 ETF Action 的 Micah，还有其他人。那你最终在这个问题上落在哪一边？"
+    },
+    {
+      "i": 106,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "33:01",
+      "en": "So yes, it's a wild story in the ETF space. But like if we take a more serious look at what's going on here, do you have any issue with something like NHL or MLB futures ETFs existing? I don't think so, particularly because they have a proper index methodology. They have futures. I just don't know if we need them.",
+      "zh": "所以说，是的，这在 ETF 领域是个疯狂的故事。但如果我们更严肃地看待这里正在发生的事——你对 NHL 或 MLB 期货 ETF 的存在本身有意见吗？——我不觉得有，尤其是因为它们有正规的指数方法论，也有对应的期货。我只是不知道我们是否真的需要它们。"
+    },
+    {
+      "i": 107,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "33:24",
+      "en": "But I don't have a problem. And it's never going to be the bulk of someone's portfolio, like the majority of people's portfolio, right? That's always going to be the simple 60, 40 type stuff. So if you are a Yankees fan like I am or your royals out there and you want to say, okay, I want to, I think they're going to be good this year.",
+      "zh": "但我没有问题。而且它永远不会成为某人组合的主体，也就是大多数人组合的主体，对吧？那永远会是简单的 60/40 那类东西。所以如果你像我一样是洋基队球迷，或者你是皇家队（Royals）的球迷，你想说：好，我觉得他们今年会打得不错。"
+    },
+    {
+      "i": 108,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "33:43",
+      "en": "And I want to put some cash to work whether it actually makes monies. One thing, but it's a way to gain exposure to the team. Although, yeah, I think it's a weird line between investing and gambling. Like you have no control over it. I don't necessarily have an issue with it though. Maybe the leverage stuff is pushing it a little too far.",
+      "zh": "我想投点钱进去——它到底能不能赚钱是一回事，但这是一种获得对该球队敞口的方式。不过，是的，我觉得这是投资与赌博之间一条奇怪的界线，因为你完全无法控制它。但我个人倒不一定对此有意见。也许加杠杆那部分把它推得有点太过了。"
+    },
+    {
+      "i": 109,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "34:04",
+      "en": "I don't know if I need leverage on this. But ETFs are always pushing the envelope. And we've got a great way, great easier stuff out there, right? It reacts this and that than tracking the sports team over the course of the season. I just don't know if they'll collect any massive amount of A to B to be frank.",
+      "zh": "我不知道我需不需要在这上面加杠杆。但 ETF 总是在挑战极限（pushing the envelope）。我们已经有了很好的、更容易上手的东西，对吧？它追踪的是这个那个，而不是在整个赛季里追踪一支体育球队。我只是坦白说，不知道它们能不能吸引到任何可观的资产管理规模（AUM）。"
+    },
+    {
+      "i": 110,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "34:21",
+      "en": "Yeah, I think the counter argument to these is that the financial markets exist for capital formation and for true financial hedging. And this is just straight up gambling. And so is that why financial markets exist? I think that's where people have an issue.",
+      "zh": "是的，我觉得对这类产品的反驳观点在于：金融市场的存在是为了资本形成（capital formation）和真正的金融对冲。而这个纯粹就是赌博。那么，金融市场到底是不是为此而存在的？我觉得这正是人们有意见的地方。"
+    },
+    {
+      "i": 111,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "34:38",
+      "en": "Yeah, I don't, I mean, I guess the one of the reasons I heard these were existing was to hedge team performance. But if I'm a corporate sponsor and is found out that I'm short of the ETF, I don't know what the optics of that are. If that's a thing, that'll happen. Well, and also, I mean, you're talking like we can count on one hand,",
+      "zh": "是的，我不……我是说，我听到的这些产品存在的一个理由，是为了对冲球队表现。但如果我是一家企业赞助商，结果被发现我在做空这只 ETF，我不知道那会是什么样的观感（optics）。——如果真有这种事，那才会发生。而且，我是说，你讲的好像我们一只手就数得过来，"
+    },
+    {
+      "i": 112,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "34:56",
+      "en": "how many people that applies to, you know, maybe two hands for people who would want to hedge a sports teams performance for true financial reasons. But in any event, I agree. Wild story. I'm fascinated to see how this unfolds. Again, I'm just watching the volume in the CME contracts. And we'll see if there continues to be uptake there.",
+      "zh": "到底有多少人适用于这种情况——出于真正的财务原因想去对冲一支体育球队表现的人，也许两只手数得过来。但无论如何，我同意。这是个疯狂的故事。我很好奇想看看它后续如何发展。再说一次，我只是在盯着 CME 合约的成交量，看看那里是否会持续有人进场。"
+    },
+    {
+      "i": 113,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "35:15",
+      "en": "I think we're going to need to see that before the SEC lets these come to market. If you have no volume, obviously it's going to be difficult for these ETFs to function properly. Okay. What would be, so let's put the wildest ETF story aside. What would just be your ETF story of the year thus far?",
+      "zh": "我觉得在 SEC 放行这些产品上市之前，我们得先看到那种成交量。如果毫无成交量，显然这些 ETF 就很难正常运作。好，那我们先把“最疯狂的 ETF 故事”放一边。到目前为止，你心中的年度 ETF 故事会是什么？"
+    },
+    {
+      "i": 114,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "35:34",
+      "en": "And obviously we still have a couple of months to go, so this could change. But as we sit here today, what would be the year's biggest story to you? It's got to be the continued full blown adoption of the ETF. Right? We're at over 1,000 launches. Trillion in inflows, I believe. And I think volume will probably set a record too.",
+      "zh": "当然我们还剩几个月，所以这可能会变。但就以我们今天坐在这里来看，对你而言今年最大的故事会是什么？——那一定是 ETF 被全面、彻底地接纳（full-blown adoption）。对吧？我们已经有了超过 1000 只新发行，我相信还有上万亿美元的资金流入。而且我觉得成交量大概也会创下纪录。"
+    },
+    {
+      "i": 115,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "35:55",
+      "en": "And my conversations are coming from every direction. Right? It's more fast money institutions to your legacy asset managers. I just think the ETF is definitely here. Folks are now super alarmed by mutual fund outflows. Maybe that stems from share classes and bolts that. But it is just this full blown proliferation.",
+      "zh": "而且我接触到的对话来自四面八方，对吧？从快钱（fast money）机构到传统（legacy）资产管理公司。我就是觉得 ETF 肯定已经站稳脚跟了。现在大家对共同基金的资金流出非常警惕，也许那源于份额类别（share classes）之类的问题。但这确实就是一场全面的扩散（proliferation）。"
+    },
+    {
+      "i": 116,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "36:18",
+      "en": "And part of that is the market has been great for equities at least. But I think it's just this pure record setting adoption of the ETF has to be the story. The primary story of the year. Of course, there's little subplots in there. But I think very high level it is the ETF industry going full steam ahead.",
+      "zh": "其中一部分原因是市场对股票一直很友好，至少如此。但我觉得，纯粹是 ETF 这种创纪录的接纳程度，一定就是今年的头号故事（primary story）。当然，里面还有一些小插曲（subplots）。但我觉得从很高的层面看，就是 ETF 行业在全速前进。"
+    },
+    {
+      "i": 117,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "36:39",
+      "en": "I think that's always a good one. I mean, I was looking this morning. You have total ETF inflows this year over 1.7 trillion. Again, we still have a couple of months to go. I was trying to think of some other big stories. We'll see what you think about this. I mean, Vanguard passing BlackRock in total ETF assets is a pretty big milestone.",
+      "zh": "我觉得这总是一个好答案。我是说，我今天早上还在看——你今年 ETF 总流入超过 1.7 万亿美元。当然，我们还剩几个月。我也在想其他一些大故事，看看你怎么想。我是说，Vanguard 在 ETF 总资产上超过 BlackRock，是个相当大的里程碑。"
+    },
+    {
+      "i": 118,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "36:57",
+      "en": "They've kind of flip flop back and forth. But as of today, I show Vanguard is ahead of BlackRock. ETF, M&A, the mergers and acquisitions that we've seen. There's been some pretty big ones there. I think the Treasury Department looking at so-called ETF tax avoidance strategies is a pretty big story.",
+      "zh": "他们俩一直来来回回地互换位置。但截至今天，我看到的是 Vanguard 领先 BlackRock。还有 ETF 的并购（M&A），我们见到的一些并购，其中有几笔相当大的。我觉得财政部（Treasury Department）在研究所谓 ETF 避税策略，也是一个相当大的故事。"
+    },
+    {
+      "i": 119,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "37:17",
+      "en": "We hit on the sports futures ETFs, which is a wild story, but a big one. I think prediction market ETFs is something interesting. I don't think that's an ETF story of the year. But certainly one that's made a lot of headlines. I don't know if anything there does anything for you. I think level two would be the M&A.",
+      "zh": "我们聊到了体育期货 ETF，那是个疯狂的故事，但也是个大故事。我觉得预测市场（prediction market）ETF 也挺有意思。我不觉得它是年度 ETF 故事，但肯定制造了很多头条。我不知道那里面有没有什么能打动你的。——我觉得第二档（level two）会是并购。"
+    },
+    {
+      "i": 120,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "37:33",
+      "en": "A lot of shops have realized, oh, these things are valuable and they scale. Especially if you have distribution. The companies that are being acquired have demand for their products. They're doing something different. They're providing a solution. And they have distribution.",
+      "zh": "很多公司已经意识到，哦，这些东西是有价值的，而且能规模化，尤其是如果你拥有分销渠道（distribution）的话。那些被收购的公司，它们的产品有需求，它们在做一些不一样的事情，它们在提供某种解决方案，而且它们有分销渠道。"
+    },
+    {
+      "i": 121,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "37:50",
+      "en": "And that is so important when you have, what are there, 500 and some odd different ETF issuers out there. As we mentioned, 1000 launches. Standing out in the crowd, you could have a great product, but if nobody hears about it, and nobody can get access to it because of a platform restriction or something like that,",
+      "zh": "而当你面对——外面有多少家来着，500 多家不同的 ETF 发行人时，这一点就极其重要。正如我们提到的，1000 只新发行。要在人群里脱颖而出——你可能有一只很棒的产品，但如果没人听说过它，也没人能买到它，因为平台限制之类的，"
+    },
+    {
+      "i": 122,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "38:08",
+      "en": "that's a massive headwind. So I think there's going to be more M&A to pick you up back off one of your predictions from way back 10 months ago. This doesn't seem like it's over yet. It may not be an established issuer. It might be one down the lead table or a company that hasn't even started yet.",
+      "zh": "那就是一股巨大的逆风。所以我觉得会有更多并购。——那我来接一下你大概十个月前做的一个预测：这事看起来还没结束。被收购的未必是一家成熟的发行人，可能是次一级的，或者一家甚至还没起步的公司，"
+    },
+    {
+      "i": 123,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "38:28",
+      "en": "That comes up with some unique solution out there to fit in a portfolio. I suspect more M&A. Who knows? Maybe it happens at the top of the food chain too. That's the only thing, but that's always a possibility because how competitive this world is, especially with Vanguard being the kind of the king now. Yeah, I agree with all that.",
+      "zh": "带着某个独特的解决方案出现，正好嵌进一个组合里。我预计会有更多并购。谁知道呢？也许连食物链顶端（top of the food chain）也会发生。——那是唯一剩下的可能，但考虑到这个世界竞争有多激烈，尤其是现在 Vanguard 差不多称王了，那始终是个可能性。是的，这些我都同意。"
+    },
+    {
+      "i": 124,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "38:46",
+      "en": "I think you know I always say distribution is king in the ETF space. I think we all agree with that. And I think M&A comes down to distribution and differentiation. If you have an ETF issuer that has differentiated products, but maybe they don't have the distribution.",
+      "zh": "你知道我总是说，在 ETF 领域“分销为王”（distribution is king）。我觉得我们都同意这点。而我认为并购归结起来就是分销和差异化（differentiation）。如果你有一家 ETF 发行人，它有差异化的产品，但也许没有分销渠道；"
+    },
+    {
+      "i": 125,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "38:59",
+      "en": "And you have an ETF issuer that actually has the distribution to be able to get those differentiated products out to market. That's going to be a winning combination. And I do think we'll continue to see more M&A. Let me ask you. Again, we talk sports futures ETFs obviously, but I mentioned prediction market ETFs.",
+      "zh": "而另一家 ETF 发行人恰好拥有能把这些差异化产品推向市场的分销渠道，那就会是一个制胜的组合。我确实觉得我们会继续看到更多并购。让我问你——当然我们聊了体育期货 ETF，但我提到了预测市场 ETF。"
+    },
+    {
+      "i": 126,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "39:19",
+      "en": "And I think you can make the case that there's a stronger investment rationale to own these. Like if you're hedging political outcomes in a portfolio or something like that. What do you think about prediction market ETFs? Obviously you're pretty liberal on the sports futures ETFs. What do you think about prediction market ETFs?",
+      "zh": "而且我觉得你可以论证，持有这些预测市场 ETF 有更强的投资逻辑，比如你在组合里对冲政治结果之类的。你怎么看预测市场 ETF？显然在体育期货 ETF 上你态度相当开放。那预测市场 ETF 呢？"
+    },
+    {
+      "i": 127,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "39:35",
+      "en": "I think this Brazil thing, this election in Brazil, where I have both Sonarro. Hopefully in previous rounds that was an 80% or 90% chance of winning on prediction markets in a completely missed. So in that case in my art, maybe these are not deep enough yet.",
+      "zh": "我觉得巴西这件事——那场选举，博索纳罗（Bolsonaro）在前几轮的预测市场上有 80% 甚至 90% 的胜率，结果完全落空了。所以从某种意义上说，也许这些市场还不够深（deep enough）。"
+    },
+    {
+      "i": 128,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "39:49",
+      "en": "But on the other hand, I am sympathetic to the idea that well, hey, maybe I was long Brazil equity and then short Bolsonaro. That's actually makes sense to me if I'm trying to protect risk. Because that would have worked out in sets, right? Maybe you made it on the prediction market. You missed on the equity or something like that.",
+      "zh": "但另一方面，我也认同这样一个想法：嘿，也许我做多巴西股票、同时做空博索纳罗。如果我想保护风险，那其实说得通。因为那样在某种意义上会对冲掉，对吧？也许你在预测市场上赚到了，在股票上亏了，或者反过来。"
+    },
+    {
+      "i": 129,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "40:07",
+      "en": "People smarter than me can figure out how to structure that. So that I can understand. It makes sense for elections. I don't know if it makes sense for Pat Mahomes is going to have three touchdowns in a game. There were economic events where I appreciate the hedging ability. It's just a matter of like, is there fraud?",
+      "zh": "比我聪明的人可以想出怎么把它构建得让我能理解。对选举来说它说得通。我不知道对“Pat Mahomes 一场比赛会不会达阵三次”这种事它是否说得通。有些经济事件我很欣赏它的对冲能力。问题只在于：有没有欺诈（fraud）？"
+    },
+    {
+      "i": 130,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "40:27",
+      "en": "Are these protected markets? I don't know. Are they deep enough and liquid enough? And do they actually make reasonable sense? Because I would rather not see 100 prediction markets based off of a bunch of dopey things like a Superbowl winner or something like that.",
+      "zh": "这些是被保护的市场吗？我不知道。它们够深、够流动吗？它们真的合理吗？因为我可不想看到 100 个基于一堆蠢事（比如超级碗冠军之类）的预测市场。"
+    },
+    {
+      "i": 131,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "40:42",
+      "en": "I think on around economic events and election events, binary outcomes makes sense to me. But people, there's only never going to be stories about people just blowing up their accounts like any other space. That's the problem.",
+      "zh": "我觉得围绕经济事件和选举事件、二元结果（binary outcomes）这类，对我来说是说得通的。但人们——永远只会有那种有人把账户爆掉的故事，就像任何其他领域一样。这就是问题所在。"
+    },
+    {
+      "i": 132,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "40:55",
+      "en": "So again, it goes back to the whole nascent market thing like these need to build out over time and also show that they're just not right with fraud. I agree. I think that's a great take. I think it comes back to what I was saying before. I mean, the purpose of financial markets is capital formation and true financial hedging.",
+      "zh": "所以这又回到整个“新兴市场”（nascent market）那个说法：这些东西需要随时间慢慢建立起来，还要证明它们不是充斥着欺诈。——我同意，我觉得这是个很棒的观点。它又回到我之前说的：金融市场的目的是资本形成和真正的金融对冲。"
+    },
+    {
+      "i": 133,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "41:12",
+      "en": "And I do think there are a number of prediction markets exactly what you hit on political outcomes, economic outcomes. Like if you want to, you know, predict where CPI is going to go or what the unemployment report looks like.",
+      "zh": "而且我确实觉得有一批预测市场，正是你提到的——政治结果、经济结果。比如你想预测 CPI 会走向哪里，或者失业报告会长什么样。"
+    },
+    {
+      "i": 134,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "41:26",
+      "en": "I can see how you would have true, you know, hedging rationale and a portfolio to be involved in something like that. If you start getting into Pat Mahomes, Touch Nails, obviously now we're back to the sports futures ATS and we're gambling here. I also like it as someone who look into the markets through ETFs. It's information, right?",
+      "zh": "我能理解，在组合里参与这类东西会有真正的对冲逻辑。但如果你开始涉足 Pat Mahomes 达阵这种，那显然我们又回到了体育期货 ETF，本质上是在赌博。——我也喜欢它，作为一个通过 ETF 观察市场的人。它就是信息，对吧？"
+    },
+    {
+      "i": 135,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "41:43",
+      "en": "Just as hyper liquid is information on anthropic and open AI. Okay, I can just get a sense of what does the market think about some upcoming event assuming it's deep enough? What is my end sample size on this? What is the volume on a certain contract? That will be extremely important over time. All right.",
+      "zh": "就像 Hyperliquid 是关于 Anthropic 和 OpenAI 的信息一样。好，我就能大致感知到，市场对某个即将发生的事件怎么看——前提是它够深。我这边的样本量是多少？某个合约的成交量是多少？随着时间推移，这一点会极其重要。——好。"
+    },
+    {
+      "i": 136,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "42:04",
+      "en": "While we're in this realm of prediction markets, I'm actually going to use this spot to broach the topic of crypto ETFs. Some people have you crypto is gambling. Obviously there's a prediction market element depending upon the platform you're using. Which by the way, do you view crypto as gambling? No, no.",
+      "zh": "既然我们聊到了预测市场这个领域，我正好借这个位置来谈谈加密货币 ETF 这个话题。有些人觉得加密货币就是赌博。显然它也带有预测市场的成分，取决于你用的是哪个平台。顺便问一句，你把加密货币看作赌博吗？——不，不。"
+    },
+    {
+      "i": 137,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "42:23",
+      "en": "I think crypto has been allowed relatively long enough to fit in a portfolio and depending on which crypto. I think dogecoin was gambling. Maybe that is a little bit more gambling. But I do think crypto is slowly making its way into a reasonable allocation in portfolio.",
+      "zh": "我觉得加密货币已经被允许存在足够长的时间，可以纳入组合了——具体取决于哪种加密货币。我觉得狗狗币（Dogecoin）是赌博，那个也许更偏赌博一些。但我确实觉得，加密货币正慢慢在组合中占据一个合理的配置比例。"
+    },
+    {
+      "i": 138,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "42:43",
+      "en": "You've come a long way here, I think, from when we first started talking about this. Okay, so on the topic of ETFs, do you have any new views or thoughts around crypto ETFs themselves? Like anything here that picture interest in flows, launches, or otherwise? I full disclosure in my PA, I own hyper liquid, one of the ETFs.",
+      "zh": "我觉得跟我们刚开始聊这个话题时相比，你已经走了很长一段路。好，那么回到 ETF 这个话题，你对加密货币 ETF 本身有没有什么新的看法或思路？比如资金流、新发行之类的，有没有什么勾起你兴趣的？——我先声明一下，在我自己的个人账户（PA）里，我持有 Hyperliquid，是其中一只 ETF。"
+    },
+    {
+      "i": 139,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "43:04",
+      "en": "Like I'm going to say which ticker, there's a couple of them out there. But I own that in my personal account, right? Because I still don't understand a lot of crypto. Like what it does, the whole infrastructure, it's still way beyond me. But I fact that I can go on this website and show my team here, even did it this morning.",
+      "zh": "我不打算说是哪个代码，外面有好几只。但我在自己的个人账户里持有它，对吧？因为我至今仍然不太懂很多加密货币——它到底做什么、整套基础设施，还是远远超出我的理解。但关键在于，我可以上这个网站，给我团队展示——今天早上我还做了这件事。"
+    },
+    {
+      "i": 140,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "43:20",
+      "en": "We looked at anthropic on the chain, whatever. Like that's really neat to me. It's going to be volatile, I know that for sure. But that to me is more disruptive and interesting and who knows where it goes. But I'm like, okay, I want a piece of that. I think the launches of, the launches have calmed down if I'm not mistaken.",
+      "zh": "我们在链上看了 Anthropic 之类的东西。我觉得那真的很酷。我知道它肯定会很波动。但对我来说，这更具颠覆性、更有意思，谁知道它会走向何方。但我就想：好，我想要一份。我觉得新发行的节奏——如果我没弄错的话——已经冷静下来了。"
+    },
+    {
+      "i": 141,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "43:38",
+      "en": "Because for a while there, we were getting real silly. Just throwing out the two ex-doge coins, the this, the that, all sorts of different ways to spin it. And I think that coincidentally, it was part of this bear market we've seen. But I do like this idea, I think, building out of active, right?",
+      "zh": "因为有那么一阵子，我们搞得非常荒唐，把狗狗币之外的这个那个都抛出来，用各种不同方式去炒作。而且我觉得，恰好那也是我们看到的这轮熊市的一部分。但我确实喜欢这个思路，我觉得是往主动管理（active）方向去构建，对吧？"
+    },
+    {
+      "i": 142,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "43:59",
+      "en": "I mean, to mention a ticker, like T-row as is TKNZ. I know it's new, the assets aren't massive yet. But like that's the future to me, right? If you don't understand the space and you're like, I want some Bitcoin, I want some Solana, Ethereum. Like this active approach to moving different levers around, I think is really enticing.",
+      "zh": "我是说，提一个代码，比如 T. Rowe 的那只 TKNZ。我知道它是新的，资产规模还不算大。但对我来说那就是未来，对吧？如果你不懂这个领域，你又想要一点比特币、一点 Solana、一点以太坊，那么这种主动地调动不同杠杆的方式，我觉得非常诱人。"
+    },
+    {
+      "i": 143,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "44:19",
+      "en": "It has an important future. Yeah, I'm massively bullish on index based and active crypto ETFs, even though it's still spin a bit slow. Yeah, like model crypto, maybe is a word for the future. I like it. Like I said, you've come a long way here. I'm impressed. And even owning hype in your, your PA.",
+      "zh": "它有一个重要的未来。——是的，我对基于指数的和主动的加密货币 ETF 都极度看多（massively bullish），即便它现在转得还有点慢。是的，像“模型加密货币”（model crypto）也许会是未来的一个说法。我喜欢。就像我说的，你已经走了很长一段路，我很佩服，甚至在你自己的账户里持有 HYPE。"
+    },
+    {
+      "i": 144,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "44:38",
+      "en": "All right. If we put aside some of the, the hot sauce stuff, the wilder stuff, right? We're talking crypto sports futures ETFs prediction markets. I'll note that there have already been nearly 1200 new ETFs launched this year, which that's a record. That was set last week.",
+      "zh": "好，如果我们把那些“辣酱”（hot sauce，指博眼球的东西）、更疯狂的部分放一边——我们聊了加密货币、体育期货 ETF、预测市场。我要指出，今年已经有近 1200 只新 ETF 发行，这是个纪录，上周刚刚创下。"
+    },
+    {
+      "i": 145,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "44:55",
+      "en": "And if you look at these, you know, there are plenty of more traditional investment strategies. It's not like all of these are hot sauce or gambling products. There are a lot of those, but it's certainly not all 1200. And so my question for you, you track this closely.",
+      "zh": "而且如果你看这些产品，你知道，里面有大量更传统的投资策略。并不是所有这些“辣酱”或赌博型产品。这类产品确实很多，但绝对不是全部 1200 只都是。所以我的问题是——你紧密追踪这块。"
+    },
+    {
+      "i": 146,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "45:09",
+      "en": "Again, I see your weekly research reports are putting new filings and you see all the stuff coming out. Where do you see white space for ETF product development? Like if you were an issuer, where would you be looking to launch product? Would you be going after all this hot sauce?",
+      "zh": "再说一次，我看到你的周报在跟踪新提交的文件，你能看到所有正在出来的东西。你觉得 ETF 产品开发的“空白地带”（white space）在哪里？换句话说，如果你是一家发行人，你会去哪儿找机会发行产品？你会去追所有这些“辣酱”吗？"
+    },
+    {
+      "i": 147,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "45:23",
+      "en": "Because that's the only area you, area you can really differentiate. Or do you see white space and more traditional areas of the market? It's a great question. It's a million dollar question. I see white space in active thematic. Right. We've had this thematic flood this year. There's over a hundred new thematic ETFs.",
+      "zh": "因为那是你唯一能真正做出差异化的领域？还是说你在市场更传统的区域里看到了空白地带？——这是个好问题，是个价值百万的问题。我在主动主题（active thematic）里看到空白地带。对吧？我们今年迎来了一波主题投资的洪流，有超过一百只新的主题 ETF。"
+    },
+    {
+      "i": 148,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "45:42",
+      "en": "That is a crazy amount of thematic, thematic stuff. And rightfully so, right. It's a complement to a portfolio. You're trying to take advantage of the AI and semi-story, the splicing and dicing of the semi-space. Whether it's memory, hardware, neoclass, et cetera.",
+      "zh": "这是一个疯狂的主题产品数量。而且情有可原，对吧？它是对组合的一种补充。你在试图抓住 AI 和半导体这个故事，把半导体空间切分成一块块，无论是存储（memory）、硬件，还是网络等等。"
+    },
+    {
+      "i": 149,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "45:58",
+      "en": "But I think it's important, given how big some of these companies are and how essentially are to the infrastructure of this whole AI story, to have an active manager at the wheel. Right. Index thematic. They can come to the flaws. If one of those two of those companies fault there, the whole ETF is going to get messed up.",
+      "zh": "但我觉得，鉴于这些公司里有些规模已经非常大、对整个 AI 故事的基础设施又如此关键，让一位主动管理人（active manager）来掌舵是很重要的。对吧？指数化的主题产品，它们会有缺陷：如果其中一两家公司出了问题，整只 ETF 都会被搞乱。"
+    },
+    {
+      "i": 150,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "46:16",
+      "en": "So I think more active thematic. And ideally, if they're good at their job, they know the companies that are kind of on the up and coming. And then I do wonder. Active crypto. And I'm trying to figure out maybe something fixed income on duration management, like actively. There's one product that actually manages to treasury curve.",
+      "zh": "所以我觉得是更多的主动主题。而且理想情况下，如果他们擅长自己的工作，他们会知道哪些公司是正在崛起的。然后我确实还在想：主动加密货币。我也在琢磨也许在固定收益上做点久期管理（duration management）之类的主动产品。有一只产品实际上是主动管理国债收益率曲线的。"
+    },
+    {
+      "i": 151,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "46:37",
+      "en": "That might be important going forward. And I'm sure someone's going to come up with some derivative product that I'm totally unfamiliar with. Not too dissimilar to buffers a few years ago. Option income and now auto call. Right. What is the next lever of the structured no space that I frankly don't know about.",
+      "zh": "这在未来可能很重要。而且我确信有人会想出某种我完全陌生的衍生产品，跟几年前的缓冲型（buffer）产品不太一样——期权收入（option income），现在又有自动可赎回（autocall）。对吧？结构化产品空间里的下一个杠杆是什么，坦白说我并不知道。"
+    },
+    {
+      "i": 152,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "46:56",
+      "en": "That is going to be the next area. But I do go back to active thematic. Super important because how big that space is getting and how many products we've seen the delusion of that. I think that's a good call. And there's been a lot more momentum in general around thematic ETFs over the past year.",
+      "zh": "那会是下一个领域。但我还是要回到主动主题：极其重要，因为这个空间变得多大、我们见到了多少产品被稀释（dilution）。——我觉得这是个不错的判断。而且过去一年里，主题 ETF 整体的动能确实多了很多。"
+    },
+    {
+      "i": 153,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "47:12",
+      "en": "We had a lol a couple of years back after that big run up in 2021. And so that's definitely come back. And it sounds like just in general, you think active management. You know, whether we're talking thematic script, though, you think fixed income. Active management is what you would lean into.",
+      "zh": "在 2021 年那波大涨之后，我们前几年经历了一段低谷（lull），所以现在它确实回来了。而且听起来总体上，你觉得主动管理——不管我们说的是主题、加密货币，还是固定收益——主动管理是你会倾向的方向。"
+    },
+    {
+      "i": 154,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "47:30",
+      "en": "Yeah, maybe and maybe I'm talking our client book. I or just have been around our boundaries and gender loves active, right? I just think when you have 40% of the S&P is tech. And everyone will say, oh, well, the other markets foreign, foreign markets are more concentrated. Yes. But how much money do you have in foreign markets?",
+      "zh": "是的，也许我说的是我们的客户群，或者只是我在圈子里待久了，大家就是偏爱主动，对吧？我只是觉得，当 S&P 里有 40% 是科技股时——每个人都会说，哦，其他市场、外国市场更集中。是的。但你在外国市场里放了多少钱？"
+    },
+    {
+      "i": 155,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "47:50",
+      "en": "Far less than you have in the US. That plus where we are in this cycle, right? Moving, we're just now surpassing the fourth birthday of the bull into year five. You now have this hyperscaler spending and credit concerns. I think it makes sense to manage risk here. Going forward.",
+      "zh": "远远少于你在美国放的。再加上我们处在这个周期的什么位置，对吧？我们刚刚越过牛市的四周岁、进入第五年。你现在又有超大规模云厂商（hyperscaler）的支出和信贷方面的担忧。我觉得，往前看，在这里管理风险是说得通的。"
+    },
+    {
+      "i": 156,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "48:07",
+      "en": "And so that can be active's role, managing risk, managing concentration, and surrounding the core of a portfolio that is very tech-centric with active fixed income, active thematic, even the derivative stuff is technically active, right? The buffers or hedge equity.",
+      "zh": "所以这就能是主动管理扮演的角色：管理风险、管理集中度，并围绕一个高度以科技为核心的组合内核，配上主动固定收益、主动主题，甚至那些衍生品——严格说它们也是主动的，对吧？缓冲型产品或对冲型股票产品。"
+    },
+    {
+      "i": 157,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "48:24",
+      "en": "That, to me, makes a lot of sense today than, say, three or four years ago when we were coming out of a bear market. That's most important going forward right now. Other than that, I just think about the time I had the white space is just going more and more concentrated.",
+      "zh": "对我来说，这在今天比三四年前我们刚从熊市里出来的时候要合理得多。当下最重要的就是往前看这一点。除此之外，我关于空白地带的想法就是——市场正变得越来越集中。"
+    },
+    {
+      "i": 158,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "48:40",
+      "en": "I mean, we have a new ETF that just buys Samsung, TSM, and Hynix, I think, now out this week for emerging markets. Yeah. So I'm going to get a guest who's going to be more of that. Just like, we're going to buy three or four ETFs at Dom and Aid Industry. There's already top ten ones of that.",
+      "zh": "我是说，我们这周刚出了一只新的新兴市场 ETF，它就只买三星（Samsung）、台积电（TSM）和海力士（Hynix）。——是的。所以我打算请一位嘉宾来多讲讲这类东西。就是说，我们要买三四只 ETF，押注某个行业。这类前十大成分的产品已经有一些了。"
+    },
+    {
+      "i": 159,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "48:54",
+      "en": "I don't know if that's good white space, but it is white space. What about Corgi, who I mentioned earlier, which this is another topic? I've talked about this a bunch on here over the past several months. But clearly, they're not worried about where the white space is. They're like brute forcing their way into the ETF territory.",
+      "zh": "我不知道这是不是好的空白地带，但它确实是空白地带。那我之前提到的 Corgi 呢？这是另一个我过去几个月在这里聊过很多的话题。但显然，他们并不担心空白地带在哪里。他们就是在用蛮力（brute forcing）杀进 ETF 领地。"
+    },
+    {
+      "i": 160,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "49:11",
+      "en": "Do you think that strategy will work? Again, they're not looking for areas where there's white space in general. They're just blanking in the entire market. But I like it. They took a fee-based approach. And there's still fee sensitivity. I know that's probably going away a little bit.",
+      "zh": "你觉得这个策略会奏效吗？再说一次，他们并不是在整体上寻找有空白地带的区域，他们就是在把整个市场铺满（blanketing）。——但我喜欢它。他们采取了一种基于费用的打法。而市场上仍然存在费用敏感性。我知道那种敏感性可能正在减弱一点。"
+    },
+    {
+      "i": 161,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "49:27",
+      "en": "The fees have arguably bottomed in some segments and are climbing. But they said, hey, we can do active thematic. And we're going to cut the fees in half. Now, the tricky part is because it's active, you have to wait for that kind of seasoning period to happen.",
+      "zh": "在某些细分领域，费用可以说已经见底、正在往上爬。但 Corgi 说，嘿，我们能做主动主题，而且我们要把费用砍一半。现在，棘手的地方在于：因为它是主动的，你必须等待那种“陈化期”（seasoning period）。"
+    },
+    {
+      "i": 162,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "49:44",
+      "en": "It's not an index that you can backtest and show people over the last ten or twenty years. You've got to let these things run for a few years before I think they finally get ground. Same thing in the leverage space. Cutting the fees in half, same thing in the buffers. I think they did that are far lower. Some all about it.",
+      "zh": "它不是一个你可以回测、拿过去十年二十年的数据给人看的指数。你得让这些产品跑上几年，我觉得它们最终才能获得认可。杠杆领域也一样：把费用砍一半；缓冲型产品也一样，我记得他们做了，费用低得多。反正说法都差不多。"
+    },
+    {
+      "i": 163,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "49:59",
+      "en": "But going back to what we were talking about earlier, what is the distribution plan? You could have a wonderful 30 basis point theme ETF or a buffer or a levered fund, whatever a core. But if you can't get on the big platforms or pass the gatekeepers, the goalkeepers, right? That's going to be really hard.",
+      "zh": "但回到我们前面聊的：分销计划是什么？你可能有一只很棒的、30 个基点的主题 ETF，或者一只缓冲型产品、一只杠杆基金，随便什么核心产品。但如果你上不了大平台、过不了那些“守门人”（gatekeepers，或者该说“守门员” goalkeepers），对吧？那就会非常难。"
+    },
+    {
+      "i": 164,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "50:17",
+      "en": "So I think for them, it is the distribution and getting the why people need to buy their ETFs as opposed to just a lot of the fanfare that we all enjoy. They seem to be getting much more aggressive on the marketing front. I feel like I'm seeing them out front facing more just in traditional financial media.",
+      "zh": "所以我觉得对他们来说，关键在于分销，在于讲清楚人们为什么需要买他们的 ETF，而不只是靠一堆我们大家都爱看的热闹噱头（fanfare）。——他们似乎在营销战线上变得激进多了。我感觉在传统财经媒体上，更多地看到他们走到台前。"
+    },
+    {
+      "i": 165,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "50:36",
+      "en": "I know they've gotten more active on social media. So just getting that name out there. This may sound really dumb. I agree with everything you said. I just wonder, like, are advisors? Do they want the corgi brand on a client statement? Does even that branding just because of the way it sounds? Do you think of a dog?",
+      "zh": "我知道他们在社交媒体上也更活跃了，就是把名气打出去。这听起来可能真的很傻——你说的我都同意。我只是好奇，那些投顾（advisors），他们愿意在对账单（client statement）上出现 Corgi 这个品牌吗？就因为它念起来的这种感觉，这个 branding 本身——你会不会想到一只狗？"
+    },
+    {
+      "i": 166,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "50:54",
+      "en": "Like, do you want that on a client statement? I wonder if that could even be a challenge. I mean, it's a great question. I don't know how to quantify that, but you probably onto something there. I mean, it's the same thing as like the automobile industry, right? Do you want a foreign automobile in your driveway?",
+      "zh": "我是说，你愿意让那个出现在客户对账单上吗？我在想这甚至会不会成为一个障碍。——这是个好问题。我不知道该怎么量化它，但你可能说到了点子上。我是说，这跟汽车行业是一回事，对吧？你愿意让一辆外国车停在你家车道上吗？"
+    },
+    {
+      "i": 167,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "51:12",
+      "en": "Some people are very staunch about you. Got to buy American or I only buy Japanese automobiles because I know the quality is pretty good. It's the same thing in ETFs, right? What is the brand that's on my statement? What do they stand for? So maybe, you know, I don't know if they need a marketing campaign of like, what do we stand for?",
+      "zh": "有些人非常坚定地认为：你得买美国车；或者我只买日本车，因为我知道质量相当好。ETF 里也是一回事，对吧？我对账单上是什么品牌？它们代表什么？所以也许，你知道，我不确定他们是不是需要一个营销活动来讲清楚“我们代表什么”。"
+    },
+    {
+      "i": 168,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "51:32",
+      "en": "Is it lower fees for similar products? Yeah, that's why I'm not marketing. But like, what's the tag? I agree. And again, it gets back into distribution. I mean, distribution, marketing, those two are obviously tied together at the hip. But I think that'll be, again, an interesting story moving forward.",
+      "zh": "是“同类产品更低费用”吗？是的，那正是我要营销的东西。但就像，那句标语（tag）是什么？——我同意。而且这又回到分销上。我是说，分销、营销，这两者显然是绑在一起的。但我觉得，往前看，这又会是一个有意思的故事。"
+    },
+    {
+      "i": 169,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "51:49",
+      "en": "I guess on that note, we have a few minutes left. Let's look ahead. You give us a few ETF stories on your radar for the rest of the year and maybe end of 2027. Like, what has you most interested right now? Is you look across the ETF landscape? Well, I am closely waiting for this green or red light on sports. Right?",
+      "zh": "我想就说到这里——我们还剩几分钟。让我们往前看。你给我们几个在你雷达上、关于今年剩下时间乃至 2027 年底的 ETF 故事。就是说，当你扫视整个 ETF 版图时，现在最让你感兴趣的是什么？——嗯，我在密切关注体育这块到底是绿灯还是红灯。对吧？"
+    },
+    {
+      "i": 170,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "52:08",
+      "en": "Because I just got the nerd in me is which wants to know what these things are going to do and prediction markets. And I list, I monitor the flows every week just because trying to give our clients some information on what people are doing and how they're positioning. And it's been all about tech until recently.",
+      "zh": "因为我身体里那个“书呆子”就是想知道这些东西会怎么走，还有预测市场。我每周都在监测资金流，就是想给客户提供一些信息，看看大家在做什么、如何布局。而一直到最近，全都是围绕科技。"
+    },
+    {
+      "i": 171,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "52:25",
+      "en": "Are people going to move away from tech as these concerns around spending and where we are on the cycle continue? And I also am trying to implore folks to look beyond the ETFs that they know of. Right? We've had sector ETFs that are around for 30 years.",
+      "zh": "随着这些关于支出、关于我们处在周期何处的担忧持续，人们会不会开始撤离科技？而且我也在努力劝大家把目光放远，去看看他们已知之外的那些 ETF。对吧？我们已经有了存在 30 年的行业（sector）ETF。"
+    },
+    {
+      "i": 172,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "52:42",
+      "en": "There's been, there's other ETFs that are out there that can get you pretty unique sector exposure without the mega cap names weighing them down. And by that, I mean much more, not necessarily concentrated, but more rate sensitive or oil sensitive type ETFs that will be a better bet on a consumer rebound, for example.",
+      "zh": "外面还有其他一些 ETF，能给你相当独特的行业敞口，而不会被那些超大盘股（mega cap）拖累。我这么说是指——不一定是更集中，而是更利率敏感或更油价敏感的那类 ETF，比如押注消费反弹，它们会是更好的选择。"
+    },
+    {
+      "i": 173,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "53:02",
+      "en": "Right? You don't necessarily use a spider. That is a lot of Amazonic Tesla. So I am trying to get folks to do that. And then what else? I am very curious. And I'm trying to aggregate this data on swap usage. This is fascinating to me. And I'm not talking about Leopard. But that is part of it too. Right?",
+      "zh": "对吧？你不一定要用一只 SPDR（spider）——那里面有大量亚马逊和特斯拉。所以我在努力劝大家这么做。那还有别的吗？我非常好奇，也在尝试汇总关于互换（swap）使用的数据。这对我来说很迷人。我说的不是杠杆，但杠杆也是其中一部分。对吧？"
+    },
+    {
+      "i": 174,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "53:21",
+      "en": "The swap providers to Leopard ETFs are getting more exotic, clear street, Jane Street, Ripple are going to some of the smaller out there and then swap usage in plain equity ETFs unlevered. As we've talked about, you have an ETF that has three names in there. They're using swaps to get around diversification requirements necessarily.",
+      "zh": "那些给杠杆 ETF 提供互换的对手方正变得越来越异类（exotic）——Clear Street、Jane Street、Ripple，去找外面一些更小的机构；然后是在普通股票 ETF（不加杠杆）里的互换使用。正如我们聊过的，你有一只 ETF 里面只有三个名字，它们在一定程度上用互换来绕过分散化（diversification）要求。"
+    },
+    {
+      "i": 175,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "53:40",
+      "en": "Does that hit a roadblock? Probably not, but it's just very interesting that you can now build a seven stock ETF. You buy the underlying equity and then you use swaps to get around some of these diversification type requirements, I guess.",
+      "zh": "这会不会撞上障碍？大概不会，但很有意思的是：你现在可以构建一只七只股票的 ETF——你买入底层股票，然后用互换来绕过某些分散化类型的要求，我猜是这样。"
+    },
+    {
+      "i": 176,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "53:54",
+      "en": "And I don't know where that goes, but it's on my radar because I keep seeing it more and more and more. Very interesting to me. And who's providing it as well, obviously. You know what's interesting is you went through some of those stories and then I think about what we've discussed here today.",
+      "zh": "我不知道这会走向何方，但它在我的雷达上，因为我越来越多地看到它。对我来说非常有意思。当然还有是谁在提供这些互换。——你知道有意思的是什么吗？你过了一遍这些故事，然后我想到我们今天在这里讨论的内容。"
+    },
+    {
+      "i": 177,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "54:07",
+      "en": "I think what I'm curious to see happen at some point we're going to get a significant stock market drawdown. I'm not, you know, making a prediction here saying it's going to happen tomorrow or next month. Yeah, but at some point it's going to happen and I'm very curious to see let's say we get a 30% drawdown.",
+      "zh": "我好奇、想在某个时点看到的是：我们终将迎来一次显著的股票市场回撤（drawdown）。我不是在做什么预测，说它明天或下个月就会发生。是的，但某个时点它总会发生，而我非常好奇——比如说我们迎来一次 30% 的回撤。"
+    },
+    {
+      "i": 178,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "54:26",
+      "en": "Does all of this stuff we're talking about here today sort of fade away sports futures ETFs. You know, you think about all the the swap based ETFs and some of the you think about counter party risk there.",
+      "zh": "我们今天聊的这些东西，会不会就那么逐渐消退——体育期货 ETF，你想想所有那些基于互换的 ETF，还有一些……你想想那里的对手方风险（counterparty risk）。"
+    },
+    {
+      "i": 179,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "54:39",
+      "en": "I think about even some elements of crypto, you know, we can maybe if you want to separate Bitcoin or whatever, but some elements of crypto. We talked about the new launches where you have all these leverage products coming to market.",
+      "zh": "我甚至想到加密货币里的某些成分——如果你想把比特币之类的单独拎出来也行，但加密货币里的某些成分。我们聊到了那些新发行，你有大量杠杆产品正在涌向市场。"
+    },
+    {
+      "i": 180,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "54:50",
+      "en": "We started off our discussion talking about the ratio of leverage long ETFs to inverse ETFs where I'm heading is I wonder what happens if we get a 30% drawdown in the equity markets. Does the air sort of come out of all of that. I think that's an interesting question to think about. Absolutely.",
+      "zh": "我们讨论一开始就谈到杠杆做多 ETF 与反向 ETF 的比率。我想说的是：我在想，如果股票市场迎来 30% 的回撤，会发生什么？所有这些里面的气会不会被放掉（air comes out）？——我觉得这是个值得思考的有意思的问题。绝对的。"
+    },
+    {
+      "i": 181,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "55:07",
+      "en": "I mean, it's not too dissimilar to 22 where you had a lot of closures on the themes and leverage space. I would assume that happens to and depending on how bad a drawdown is right just 20s or 30s or worse. I think this is where personally I think legacy mutual funds who are now in the ETF space may have an advantage.",
+      "zh": "我是说，这跟 2022 年并没有太大不同——那时你在主题和杠杆领域有大量清盘（closures）。我猜那也会发生，取决于回撤有多严重，对吧？是 20%、30% 还是更糟。我觉得这正是我个人认为、那些如今进入 ETF 领域的传统共同基金（legacy mutual funds）可能拥有优势的地方。"
+    },
+    {
+      "i": 182,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "55:29",
+      "en": "And I only say that because they have a true professional portfolio manager who can actually get on the phone with a client and try to rescue like walk them through what's going on. And this may be maybe this is me pushing back on AI and you know robotically managed funds like who are you going to call when you panic.",
+      "zh": "我之所以这么说，是因为他们有一位真正的专业组合经理，可以真的拿起电话跟客户交流，试图“救援”——带他们理清正在发生什么。也许这是我在反驳 AI、反驳那种机器人管理的基金——就是当你恐慌的时候，你要打给谁？"
+    },
+    {
+      "i": 183,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "55:48",
+      "en": "And you want someone on the other end of that line because you need to know what is going on what's going on the portfolio. How are you positioning right now? I think that's going to be really important whenever the next rough waters are. Along with a boat load of its closures of a lot of the kind of the zombie ETFs are out there.",
+      "zh": "你会希望电话那头有个人，因为你需要知道到底在发生什么、组合里在发生什么、你现在是如何布局的。我觉得当下一次风浪来袭时，这一点会非常重要。与此同时，还会有一大批清盘——很多那种“僵尸 ETF”（zombie ETFs）会被清掉。"
+    },
+    {
+      "i": 184,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "56:06",
+      "en": "I mean the leverage space in general. Single stock leverage funds I think like 75% of them have under 50 million assets 25 million something I forget that stat. But there's a lot of stuff that's going to go away and I think that's been happening recently too that's just they're not just not sticking.",
+      "zh": "我是说，整个杠杆领域——单一个股杠杆基金，我记得大约 75% 的资产规模都在 5000 万美元以下，还是 2500 万，我忘了那个数据。但会有很多东西消失，我觉得这最近也一直在发生——它们就是留不住。"
+    },
+    {
+      "i": 185,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "56:21",
+      "en": "Yeah, I agree. I think I don't know that I fully agree with your point on the mutual funds but I will say clearly investors will look towards more traditional investment strategies. And maybe some of this froth I'll call it that we're seeing in the industry goes away at least in the short term.",
+      "zh": "是的，我同意。不过我不确定我完全同意你关于共同基金的那一点。但我确实觉得，显然投资者会把目光转向更传统的投资策略。也许我们在行业里看到的这些——我就叫它“泡沫”（froth）吧——至少在短期内会消退。"
+    },
+    {
+      "i": 186,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "56:38",
+      "en": "I just think with the markets that we've had over the past several years it's it's real easy to you know launch products. You pursue these niche areas where you may find you know photonics or memory something may run you know really significantly but the markets turn that's going to change. That the big variable is interest rates right.",
+      "zh": "我只是觉得，有了过去几年我们经历的这些行情，发行产品实在太容易了。你去追这些细分领域，也许你会发现光子学（photonics）或存储之类的东西会大幅上涨。但市场一旦转向，那就会改变。真正的大变量是利率，对吧？"
+    },
+    {
+      "i": 187,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "56:58",
+      "en": "The ETF industry and a lot of us haven't been around for 5% interest rates and higher that becomes a thing. And that that became becomes real tough in terms of competition for capital for a lot of areas. Well Todd we will leave it there on that note always so much fun.",
+      "zh": "ETF 行业——我们中很多人——并没有经历过 5% 甚至更高的利率成为常态这种局面。而一旦那样，很多领域在争夺资本方面就会变得非常艰难。好，Todd，我们就说到这里，一如既往这么开心。"
+    },
+    {
+      "i": 188,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "57:15",
+      "en": "I seriously appreciate all the work you do in covering ETFs. It's excellent. So thank you for that. Thank you for for joining me this week. Thank you Nate. You're the man. I appreciate it. That was Todd's own chief ETF strategist at Barrage Strategies.",
+      "zh": "我真心感谢你在报道 ETF 上所做的全部工作，非常出色，谢谢你。也谢谢你本周加入我。——谢谢你，Nate。你真够意思（you’re the man），我很感激。——刚才这位是 Baird Strategas 的首席 ETF 策略师 Todd Sohn。"
+    },
+    {
+      "i": 189,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "57:30",
+      "en": "That'll do it for this week's ETF Prime. Build your ETF expertise and separate yourself from your peers by registering for the ETF Institute Certified ETF Advisor Program. You can learn more at cetf.org. Next week I'll be joined by Todd Matthias who's head of US ETF product strategy and development at Franklin Temple 10.",
+      "zh": "本周的 ETF Prime 就到这里。通过报名 ETF Institute 的“认证 ETF 顾问”（Certified ETF Advisor）项目，提升你的 ETF 专业能力、从同行中脱颖而出。你可以在 cetf.org 了解更多。下周我会请来 Franklin Templeton 美国 ETF 产品战略与开发主管 Todd Matthias。"
+    },
+    {
+      "i": 190,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "57:51",
+      "en": "So we'll be discussing their dividend boost or index ETF. So we'll get into a number of other ETF topics as well. It should be a great conversation. Until then, have a great week everyone. ETF Prime is hosted by Nature EC president of OTR Media LLC. Need is also president of investment advisory firm Novodeus Wealth Management.",
+      "zh": "所以我们会讨论他们的 Dividend Boost 指数 ETF，也会聊到不少其他 ETF 话题。这应该会是一场很棒的对话。在那之前，祝大家度过美好的一周。ETF Prime 由 Nate Geraci 主持，他是 OTR Media LLC 的总裁。Nate 同时也是投资咨询公司 Novodius Wealth Management 的总裁。"
+    },
+    {
+      "i": 191,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "58:11",
+      "en": "While OTR Media and Novodeus are related by common ownership, they are separate and distinct entities. And anything discussed on this program should not be construed as an official statement by Novodeus. This program is for informational purposes only and does not constitute investment advice.",
+      "zh": "尽管 OTR Media 和 Novodius 因共同所有权而相关联，但它们是相互独立的实体。本节目中讨论的任何内容，都不应被理解为 Novodius 的官方声明。本节目仅供参考，不构成投资建议。"
+    },
+    {
+      "i": 192,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "58:26",
+      "en": "Investing in ETFs involves risk including possible loss of principle. Any past performance figures discussed are not necessarily indicative of future results. Some guests appearing on this program may also be financial sponsors of ETF Prime. OTR Media and Novodeus are not affiliated with vetify or any of its affiliates.",
+      "zh": "投资 ETF 涉及风险，包括可能的本金损失。所讨论的任何过往业绩数据，未必预示未来结果。本节目中出现的一些嘉宾，也可能同时是 ETF Prime 的财务赞助方。OTR Media 和 Novodius 与 VettaFi 或其任何关联方均无关联关系。"
+    },
+    {
+      "i": 193,
+      "speaker": 4,
+      "speaker_zh": 4,
+      "ts": "58:42",
+      "en": "Vetify's participation in this program should not be construed as an endorsement or an indication by vetify of the value of any OTR Media or Novodeus product or service. Visit ETF Prime.com for more information.",
+      "zh": "VettaFi 参与本节目，不应被理解为 VettaFi 对任何 OTR Media 或 Novodius 产品或服务价值的背书或认可。欲了解更多信息，请访问 ETFPrime.com。"
+    }
+  ]
+}
