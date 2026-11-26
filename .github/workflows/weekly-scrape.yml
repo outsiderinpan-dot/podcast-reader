@@ -1,9 +1,11 @@
 name: weekly-enqueue
 
-# 方案 B · 第一段：每周一 08:00 UTC（= 北京时间 16:00）抓新单集的英文转写 → 写入飞书多维表格「翻译队列」。
-# 抓取用多策略：iHeart 官方字幕直链 → RSS <podcast:transcript> → Whisper 本地 ASR 兜底（都不要 LLM API Key）。
-# 翻译 + 建站 + 发布由 QoderWork 用你的 Qoder 额度完成（见 publish.yml）。
-# 也可在 Actions 页手动触发（workflow_dispatch）。
+# 每周一 08:00 UTC（= 北京时间 16:00）三路并行抓取新单集英文转写 → 写入飞书多维表格「翻译队列」。
+# 分 3 组是为了突破单 job Whisper 预算瓶颈（每组 8 个 Whisper 名额 × 3 并行 = 24 集/周总容量）：
+#   official      — iHeart 官方字幕充足的节目（极少用 Whisper，跑得飞快）
+#   whisper-iheart — iHeart 但无官方字幕的节目（全靠 Whisper）
+#   whisper-rss    — RSS 来源节目（无 podcast:transcript，全靠 Whisper）
+# 手动触发时若填了 shows_filter，只跑一路（避免重复）；留空则三路全跑。
 on:
   schedule:
     - cron: '0 8 * * 1'
@@ -12,9 +14,9 @@ on:
       max_new:
         description: '每个节目本次最多入队几集'
         required: false
-        default: '3'
+        default: '5'
       whisper_max:
-        description: '本次运行最多用 Whisper 转写几集（CPU 慢，回填时可临时调大）'
+        description: '每组本次最多用 Whisper 转写几集'
         required: false
         default: '8'
       whisper_model:
@@ -22,7 +24,7 @@ on:
         required: false
         default: 'base'
       shows_filter:
-        description: '只处理这些 show.slug（逗号分隔）；留空=全部。用于把全量回填拆成并行子集'
+        description: '只处理这些 show.slug（逗号分隔）；留空=按三路矩阵全跑'
         required: false
         default: ''
 
@@ -32,10 +34,20 @@ permissions:
 jobs:
   enqueue:
     runs-on: ubuntu-latest
-    # Whisper 在 CPU 上远慢于实时（base 模型 1 小时音频约 30-60 分钟）。
-    # 用 whisper_max 限制单次转写集数来封顶总时长；上限设 ~5.9h（Actions 硬上限 6h），
-    # 配合 SHOWS_FILTER 把全量回填拆成多个并行子集，每子集只转写自己那几档。
     timeout-minutes: 355
+    strategy:
+      fail-fast: false
+      matrix:
+        group:
+          - name: official
+            shows: "inside-active,trillions,odd-lots,money-stuff,top-traders-unplugged,invest-like-the-best,capital-allocators,etf-edge,macro-voices,exchanges,swimming-with-allocators"
+          - name: whisper-iheart
+            shows: "rational-reminder,the-bid,without-boundaries,behind-the-ticker"
+          - name: whisper-rss
+            shows: "the-long-view,etf-prime,alpha-exchange,the-derivative,absolute-return,alternative-fund-insight"
+    # 手动触发且填了 shows_filter 时只跑第一组（避免三路重复处理同一批节目）
+    if: ${{ github.event_name == 'schedule' || github.event.inputs.shows_filter == '' || matrix.group.name == 'official' }}
+    name: "enqueue (${{ matrix.group.name }})"
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -72,9 +84,9 @@ jobs:
           FEISHU_APP_SECRET: ${{ secrets.FEISHU_APP_SECRET }}
           FEISHU_BITABLE_TOKEN: ${{ secrets.FEISHU_BITABLE_TOKEN }}
           FEISHU_TABLE_ID: ${{ secrets.FEISHU_TABLE_ID }}
-          MAX_NEW: ${{ github.event.inputs.max_new || '3' }}
+          MAX_NEW: ${{ github.event.inputs.max_new || '5' }}
           WHISPER_ENABLED: 'true'
           WHISPER_MODEL: ${{ github.event.inputs.whisper_model || 'base' }}
           WHISPER_MAX_PER_RUN: ${{ github.event.inputs.whisper_max || '8' }}
-          SHOWS_FILTER: ${{ github.event.inputs.shows_filter || '' }}
+          SHOWS_FILTER: ${{ github.event.inputs.shows_filter || matrix.group.shows }}
         run: node scripts/enqueue.mjs
