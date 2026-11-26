@@ -2,10 +2,14 @@ name: weekly-enqueue
 
 # 每周一 08:00 UTC（= 北京时间 16:00）三路并行抓取新单集英文转写 → 写入飞书多维表格「翻译队列」。
 # 分 3 组是为了突破单 job Whisper 预算瓶颈（每组 8 个 Whisper 名额 × 3 并行 = 24 集/周总容量）：
-#   official      — iHeart 官方字幕充足的节目（极少用 Whisper，跑得飞快）
+#   official       — iHeart 官方字幕充足的节目（极少用 Whisper，跑得飞快）
 #   whisper-iheart — iHeart 但无官方字幕的节目（全靠 Whisper）
 #   whisper-rss    — RSS 来源节目（无 podcast:transcript，全靠 Whisper）
-# 手动触发时若填了 shows_filter，只跑一路（避免重复）；留空则三路全跑。
+# 手动触发填了 shows_filter 时，prepare 会把 filter 拆到对应的组并只跑命中的组（仍并行、互不重复）；
+# 留空则三路全跑。
+#
+# 注意：GitHub Actions 的 job 级 if 不能引用 matrix 上下文，故用 prepare 作业动态生成 matrix，
+# 而不是在 enqueue 上写 if: matrix.group.name == ...（那样会导致 workflow 解析失败）。
 on:
   schedule:
     - cron: '0 8 * * 1'
@@ -32,21 +36,46 @@ permissions:
   contents: read
 
 jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.set.outputs.matrix }}
+    steps:
+      - name: Compute group matrix
+        id: set
+        env:
+          FILTER: ${{ github.event.inputs.shows_filter || '' }}
+        run: |
+          node -e '
+            const fs = require("fs");
+            const filter = (process.env.FILTER || "").trim();
+            const ALL = [
+              { name: "official", shows: "inside-active,trillions,odd-lots,money-stuff,top-traders-unplugged,invest-like-the-best,capital-allocators,etf-edge,macro-voices,exchanges,swimming-with-allocators" },
+              { name: "whisper-iheart", shows: "rational-reminder,the-bid,without-boundaries,behind-the-ticker" },
+              { name: "whisper-rss", shows: "the-long-view,etf-prime,alpha-exchange,the-derivative,absolute-return,alternative-fund-insight" }
+            ];
+            let groups;
+            if (!filter) {
+              groups = ALL;
+            } else {
+              const want = filter.split(",").map(s => s.trim()).filter(Boolean);
+              groups = ALL
+                .map(g => ({ name: g.name, shows: g.shows.split(",").filter(s => want.includes(s)).join(",") }))
+                .filter(g => g.shows);
+              if (!groups.length) groups = [{ name: "custom", shows: filter }];
+            }
+            const matrix = JSON.stringify({ group: groups });
+            fs.appendFileSync(process.env.GITHUB_OUTPUT, "matrix=" + matrix + "\n");
+            console.log("groups:", groups.map(g => g.name + " [" + g.shows + "]").join("  |  "));
+          '
+
   enqueue:
+    needs: prepare
     runs-on: ubuntu-latest
     timeout-minutes: 355
     strategy:
       fail-fast: false
-      matrix:
-        group:
-          - name: official
-            shows: "inside-active,trillions,odd-lots,money-stuff,top-traders-unplugged,invest-like-the-best,capital-allocators,etf-edge,macro-voices,exchanges,swimming-with-allocators"
-          - name: whisper-iheart
-            shows: "rational-reminder,the-bid,without-boundaries,behind-the-ticker"
-          - name: whisper-rss
-            shows: "the-long-view,etf-prime,alpha-exchange,the-derivative,absolute-return,alternative-fund-insight"
-    # 手动触发且填了 shows_filter 时只跑第一组（避免三路重复处理同一批节目）
-    if: ${{ github.event_name == 'schedule' || github.event.inputs.shows_filter == '' || matrix.group.name == 'official' }}
+      matrix: ${{ fromJSON(needs.prepare.outputs.matrix) }}
     name: "enqueue (${{ matrix.group.name }})"
     steps:
       - name: Checkout
@@ -88,5 +117,5 @@ jobs:
           WHISPER_ENABLED: 'true'
           WHISPER_MODEL: ${{ github.event.inputs.whisper_model || 'base' }}
           WHISPER_MAX_PER_RUN: ${{ github.event.inputs.whisper_max || '8' }}
-          SHOWS_FILTER: ${{ github.event.inputs.shows_filter || matrix.group.shows }}
+          SHOWS_FILTER: ${{ matrix.group.shows }}
         run: node scripts/enqueue.mjs
