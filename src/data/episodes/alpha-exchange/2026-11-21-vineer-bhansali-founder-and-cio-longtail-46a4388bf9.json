@@ -1,0 +1,1137 @@
+{
+  "show": "alpha-exchange",
+  "kind": "transcript",
+  "id": "alpha-exchange-46a4388bf9",
+  "guid": "87dbcb9b-b4a0-4790-a2f7-b4d91bcae8ea",
+  "slug": "2026-11-21-vineer-bhansali-founder-and-cio-longtail-46a4388bf9",
+  "date": "2026-11-21",
+  "title_en": "Vineer Bhansali, Founder and CIO, LongTail Alpha",
+  "title_zh": "Vineer Bhansali（LongTail Alpha创始人兼CIO）：双峰市场、畸高波动率与Fed的抉择",
+  "subtitle_zh": "用双峰假设解读AI股的畸高波动率定价，剖析拥挤交易、隐性流动性与2年期国债的不对称机会",
+  "summary_zh": "本期Alpha Exchange由主持Dean Curnutt对话LongTail Alpha创始人兼CIO Vineer Bhansali。两人认为当前市场与1999-2000年高度相似：私人市场的估值逻辑渗入公开市场，SpaceX、Anthropic等流通盘极小的公司以万亿美元级估值上市，投机狂热处于绝对顶点。Vineer用双峰假设（bimodality）解释Micron等AI股两年期深度虚值看涨期权为何隐含波动率高达80%至100%：市场在“AI统治世界”与“彻底泡沫破裂”两个结局之间摇摆，方差来自两个期望收益之差而非单一分布的波动，期权市场因此变成一个二元预测市场。他还剖析了pod shop生态的授权与止损结构如何制造同质化拥挤和隐性流动性脆弱——做市深度在需要时蒸发，11月5日标普下跌4.4%正是级联去风险的体现；并以GFC时期合成信用super senior层级为例，推演隐含相关性如何从极低水平被迫收敛。最后，面对12月9日的Fed会议，他指出Fed转向（pivot）并未被市场定价，2年期国债4.75%的收益率加上危机情景下300个基点的下行，构成“收益+期权性（optionality）”的不对称交易框架。本集为理解AI行情尾部的风险定价与应对提供了难得的一线视角。",
+  "description": "Vineer Bhansali, Founder and CIO, LongTail Alpha",
+  "duration": "42:49",
+  "duration_seconds": 2569,
+  "episode_url": "https://alphaexchange.simplecast.com/episodes/vineer-bhansali-founder-and-cio-longtail-alpha-bqDvmY_o-ziby_uJ7",
+  "audio_url": "https://cdn.simplecast.com/media/audio/transcoded/d3ecbb55-76a4-4204-bc4f-e03cea58585f/1f4671ad-c08e-4d33-affe-576e0f8c1d66/episodes/audio/group/afdc5dad-aed5-4e54-b986-8c233d71f37f/group-item/dec4e001-f020-4936-a097-8a361adde5ab/128_default_tc.mp3?aid=rss_feed&feed=8g9ryFGf",
+  "speakers": {
+    "1": "Dean Curnutt（主持）",
+    "2": "Vineer Bhansali（嘉宾）",
+    "3": "片花/广告（旁白）"
+  },
+  "turn_count": 139,
+  "turns": [
+    {
+      "i": 0,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "00:00",
+      "en": "cost of risk should be lower in time. What happened that both you and I observed, and I think you did point out in one of your notes, which actually really triggered my brain, was the fact that long dated volatility for micron and for many of these stocks was actually trading at that 100% 80% type of level.",
+      "zh": "风险成本本应随时间下降。你和我都观察到的一个现象——我想你在某篇笔记里也指出过，它真正点燃了我的思路——是Micron和许多这类股票的长期限波动率竟然在100%、80%这种水平上交易。"
+    },
+    {
+      "i": 1,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "00:16",
+      "en": "And I started thinking about what that does, right? So the one of the observations that it leads to is that vol is very high like that for a deeply out of the money option, not at the money, deeply out of the money, 200% or 150% out of the money option. It's delta mathematically in blacksholes world. Actually, it's very, very high.",
+      "zh": "于是我开始琢磨这意味着什么，对吧？由此引出的一个观察是：当波动率对深度虚值期权——不是平值，是深度虚值，虚值200%或150%的期权——高到那种程度时，在Black-Scholes的数学世界里，它的delta其实非常非常高。"
+    },
+    {
+      "i": 2,
+      "speaker": 3,
+      "speaker_zh": 3,
+      "ts": "00:32",
+      "en": "So you can have a 150% out of the money option with a delta over 0.5, which makes no sense because delta is supposed to be the probability of you ending up in the money. Typically, the delta of the at the money option is 0.5 or higher, not something that's 150% out of the money.",
+      "zh": "所以你可能看到一个虚值150%的期权，delta却超过0.5，这完全说不通，因为delta本应是你最终进入实值的概率。通常平值期权的delta才是0.5或更高，而不是一个虚值150%的期权。"
+    },
+    {
+      "i": 3,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "00:49",
+      "en": "Hello, this is Dean Kurnut, and welcome to the Alpha Exchange, where we explore topics and financial markets associated with managing risk, generating return, and the deployment of capital and the alternative investment industry.",
+      "zh": "大家好，我是Dean Curnutt，欢迎收听Alpha Exchange。在这里，我们探讨金融市场里与风险管理、收益创造以及另类投资行业中资本配置相关的话题。"
+    },
+    {
+      "i": 4,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "01:07",
+      "en": "I'm joined here today with Veneer Bonsali. He's the founder and the CIO of Longtail Alpha, and a man who, like me, lives in the tails of the distribution. Veneer would agree time for us to catch up and have this call. Yeah, likewise, Dean, good to reconnect. Thank you for putting me on your podcast multiple times, inviting me",
+      "zh": "今天我请来的嘉宾是Vineer Bhansali。他是LongTail Alpha的创始人兼CIO，也是一位和我一样常年生活在分布尾部的人。Vineer欣然同意抽时间叙叙旧、做这期通话。——是的，我也很期待，Dean，很高兴再次连线。谢谢你多次请我上你的播客，还邀请我参加"
+    },
+    {
+      "i": 5,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "01:25",
+      "en": "to your fantastic annual conference. That's always great to connect and talk of all and talk tales. And today, definitely the tail day. I'm a big fan of your framework, your thought process for assessing optionality and across assets, really. And so we're having this conversation. The VIX just peaked its head above 30.",
+      "zh": "你们精彩的年度大会。每次一起聊聊波动率、聊聊尾部都特别棒。而今天，绝对是名副其实的“尾部之日”。我非常欣赏你评估各类资产期权性（optionality）的框架和思路，所以才有了今天这场对话。眼下VIX刚刚探出头，站上了30。"
+    },
+    {
+      "i": 6,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "01:42",
+      "en": "We've been waiting for this to happen. When you look at the current backdrop, whether it's the rate side, the geopolitical side, we'll talk about market concentration. Give us your rendering of what you see now in risk markets and if it reminds you of anything at all. That's like an easy one to try to hit out of the ballpark here",
+      "zh": "我们一直在等这一刻。看看当前的背景——无论是利率端、地缘政治端，还是我们待会儿要谈的市场集中度——给我们讲讲你现在在风险市场里看到了什么，它让你想起了什么。这算是个容易的问题，尽管放开打，来个全垒打吧，"
+    },
+    {
+      "i": 7,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "02:04",
+      "en": "because having been in the industry now close to 35 years and having been through 2000 and 2008 and 2013 and 2018, 2020, right? So every anecdote you could kind of look and try to start painting rhymes and similarities and so on. So there's a lot of similarities. And I know you and I have talked about this and also written about this,",
+      "zh": "因为在这个行业干了快35年，经历过2000年、2008年、2013年、2018年、2020年，对吧？所以每一个历史片段你都可以拿来对照，试着描绘出押韵和相似之处。相似点确实很多。我知道你我也聊过、也写过这个话题，"
+    },
+    {
+      "i": 8,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "02:24",
+      "en": "but there's obvious similarities to 1999 in 2000. People talk about Cisco and Vedia, talk about unprofitable companies that are getting valuations that are just unbelievable, right? So in the old days in 2008, 2010, if we saw a unprofitable company come in, you with a market cap of let's call it 50 billion or 25 billion or 100 billion,",
+      "zh": "但和1999年、2000年的相似是显而易见的。人们谈论Cisco和Nvidia，谈论那些不盈利的公司拿到令人难以置信的估值，对吧？想当年，2008年、2010年，如果看到一家不盈利的公司带着——就算500亿、250亿或者1000亿美元的市值——进来，"
+    },
+    {
+      "i": 9,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "02:45",
+      "en": "that was incredible. I was like, wow, what's going on here? Now it's like two trillion is nothing. It's like, you know, power for the course and the next one is like three trillion. So I think there's a lot of similarities and I think the fact that you have very restricted stock companies and we'll talk a lot more about this",
+      "zh": "那已经够不可思议了，大家会想：哇，这是怎么回事？现在呢，两万亿美元都不算什么，纯属常态，下一个就是三万亿。所以我觉得相似之处非常多。而且，这些股票流通盘极其有限的公司——这一点我们待会儿细聊——"
+    },
+    {
+      "i": 10,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "03:01",
+      "en": "in a minute here, creating at such incredible nominal valuations tells you that what has happened is something pretty important, which is in my view is that the private markets have found their way into the public markets. Think about SpaceX, think about entropic, again, which we'll talk about a lot.",
+      "zh": "能以如此惊人的名义估值被创造出来，说明发生了一件相当重要的事，在我看来，就是私人市场已经渗透进了公开市场。想想SpaceX，再想想Anthropic——这个我们也会重点谈。"
+    },
+    {
+      "i": 11,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "03:19",
+      "en": "People are willing today to pay private market type of valuation without control, without voting power for these so-called public companies with almost no float out there. So there's a lot of similarity. Now there've been articles written in the last few days you've got to have it. And again, I don't know which way the world ends up",
+      "zh": "如今人们愿意为这些所谓的公开公司支付私人市场式的估值，没有控制权、没有投票权，而这些公司几乎没有流通股。所以相似点很多。最近几天也有文章写到“你不得不持有”这种现象。再说一次，我不知道这个世界最终会走向哪一边，"
+    },
+    {
+      "i": 12,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "03:36",
+      "en": "and that's my bi-modality hypothesis that we can talk about here in a minute. But I don't know which way this turns out, but there are a lot of parallels. And I think right now the speculative further is at absolute peak. The macro backdrop is that it is very much risk-on by the diff mentality, by assets, equity assets, especially.",
+      "zh": "这就是我的双峰假设（bimodality），我们待会儿可以聊。我不知道结果会怎样，但确实存在大量平行相似之处。我认为眼下投机狂热正处于绝对顶点。宏观背景是极度risk-on（风险偏好开启），一种默认心态，尤其是对权益资产而言。"
+    },
+    {
+      "i": 13,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "03:55",
+      "en": "And then we can also talk about the other things that have happened to us early 2000 having to do with tax policy, which makes it sub-optimal for people to sell their stock out because you don't want to pay taxes. So I think the system is set up in a way macroeconomically right now. It's very conducive to not only owning stock,",
+      "zh": "然后我们还可以聊聊2000年代初发生过、与税收政策有关的另一件事：卖出股票是不划算的，因为你不想缴税。所以我认为，当前宏观经济把整个系统设置成了一种非常有利于不仅持有股票、"
+    },
+    {
+      "i": 14,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "04:12",
+      "en": "but buying more stocks. And it has follow-on effects. And we can talk about the Fed and so on as well if you're interested. We're going to talk about some of your work on bi-modality and that episode, especially over the summer when the bid to very far out of the money calls on stocks like Micron, which was a trillion dollar company",
+      "zh": "而且买入更多股票的状态，这还有连锁效应。如果你有兴趣，我们也可以聊聊Fed等等。——我们接下来要谈谈你在双峰性方面的一些研究，尤其是今年夏天那段行情：像Micron这样一度是万亿美元公司的股票，极深度虚值看涨期权的买盘"
+    },
+    {
+      "i": 15,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "04:31",
+      "en": "for a period of time, was just outrageous. It was just so high. But let's just start at the macro level with the VIX itself. So as we have this conversation, it's a 30, no idea where to wind up. But we know that something between 30 and 40 is pretty unsustainable. In other words, it's either going down or it's going up.",
+      "zh": "高得离谱，简直离谱到家了。不过让我们先从宏观层面、从VIX本身说起。此刻我们谈话的时候它是30，不知道最终会落在哪里。但我们知道，30到40之间的水平是相当不可持续的。换句话说，它要么往下走，要么往上走，"
+    },
+    {
+      "i": 16,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "04:49",
+      "en": "It can't really stay in the mid-30s for any extended period of time. We know that the VIX has an acceleration component to it, a quality to it, things, de-risking events tend to take on a life of their own. So let's go through November 5th first. The market falls 4.4%. The triple Q falls, I think, 6.5%. What's your attribution on that?",
+      "zh": "不可能长时间停留在35上下。我们知道VIX带有加速的属性，去风险（de-risking）事件往往会自我强化、自成气候。那我们先过一遍11月5日：当天大盘跌了4.4%，Triple Q（纳斯达克100）我记得跌了6.5%。你的归因是什么？"
+    },
+    {
+      "i": 17,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "05:13",
+      "en": "How do you get to something so significant where the backdrop was we were realizing 15 to 20? And suddenly, we have a 4.4% downroot in the S&P. Yeah. So I'll be just mathematically. Again, you and I both know this. And everybody who watches this type of podcast knows that when you think about a 15 annualized volatility,",
+      "zh": "在实现波动率只有15到20的背景下，怎么会突然出现如此剧烈的变动——标普单日下跌4.4%？——好，我就从纯数学角度讲。这一点你我都清楚，听这类播客的人也都清楚：当你想到15的年化波动率时，"
+    },
+    {
+      "i": 18,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "05:33",
+      "en": "you're capturing standard deviation. But the narrower you make the distribution, the fatter the tails get, because the total area under it, the integration under the probability density function, if you want to get wacky about this, has to be one. So the fact that you can get a 15 wall,",
+      "zh": "你捕捉的是标准差。但你把分布收得越窄，尾部就越肥，因为概率密度函数下的总面积——如果你想说得玄一点，就是它的积分——必须等于1。所以你能看到15的波动率，"
+    },
+    {
+      "i": 19,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "05:48",
+      "en": "but still get a 5 sigma, 10 sigma event in financial markets is nothing that one should be particularly surprised about now. So it comes back to again, behavior, right? So if you're anticipating that you're just going to get a 15 wall, you're going to get 1% move at most with 1 sigma, and a 3% move is like a 3 sigma move,",
+      "zh": "却仍然在金融市场里出现5个sigma、10个sigma的事件，如今这没什么好特别惊讶的。所以这又回到行为层面，对吧？如果你预期只有15的波动率，1个sigma顶多1%的变动，3%的变动就算3个sigma，"
+    },
+    {
+      "i": 20,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "06:07",
+      "en": "you're basically saying the normal distribution rules, which we know it doesn't. And you're in the space right now in the marketplace, where absolutely the normal distribution should not be respected, right? So think about the concentration of stocks. Things are not normally distributed in the index.",
+      "zh": "那你其实是在说正态分布说了算——而我们知道它说了不算。眼下的市场，恰恰是绝对不能迷信正态分布的领域，对吧？想想股票的集中度：指数里的东西根本不是正态分布的。"
+    },
+    {
+      "i": 21,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "06:21",
+      "en": "So S&P, 30, 40%, driven at least in terms of risk by seven or eight stocks, QQQs, maybe 70 or 80% written by these stocks. And this comes back to the theme of implied correlation, which you pointed out, and also micron, to a certain degree, the implied correlations got completely destroyed in the process of the last year",
+      "zh": "标普至少30%、40%的风险由七八只股票驱动，QQQ可能有70%、80%由这些股票驱动。这又回到你指出的隐含相关性（implied correlation）主题，Micron在某种程度上也是。过去一年里，隐含相关性被彻底摧毁了，"
+    },
+    {
+      "i": 22,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "06:43",
+      "en": "and because of dispersion trading and so on, which basically requires, as you know, requires buying single-lane volatility and selling index volatility. So one of the things that I've been talking about for about three months with our clients is the fact that single-lane large cap wall is inverted, right? QQQ is the wrong direction.",
+      "zh": "原因是分散化交易（dispersion trading）等等——如你所知，它本质上要求买入单一个股波动率、卖出指数波动率。所以最近三个月我一直在跟客户讲的一件事是：单一个股大盘波动率是倒挂的，对吧？QQQ的方向是反的，而"
+    },
+    {
+      "i": 23,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "07:02",
+      "en": "Index volatility is traditional, right? It's put us over calls. When you combine these two things along with the very large weight of these large caps on the call side, implied call side dispersion, if that is theoretical minimum or was, because correlation has really popped in the last few days.",
+      "zh": "指数波动率是传统的，对吧？看跌贵过看涨。当你把这两件事，加上这些大盘股在看涨侧的超大权重、看涨侧隐含分散度处在理论最低位——或者说曾经是，因为最近几天相关性真的蹿上来了——结合起来，"
+    },
+    {
+      "i": 24,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "07:18",
+      "en": "So the part of the VIX shop that you were highlighting, the fact that the market moved a lot has to do with the fact that there are a lot of VIX tracking strategies, including dispersion strategies, where the only way out of these strategies is to actually buy the VIX back or buy index volatility and correlation and index volatility",
+      "zh": "那么你强调的那部分VIX飙升、市场大幅波动，很大程度上是因为存在大量跟踪VIX的策略，包括分散化策略，而这些策略唯一的退出方式就是买回VIX或买入指数波动率，而相关性和指数波动率"
+    },
+    {
+      "i": 25,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "07:38",
+      "en": "is basically a one-to-one trade right now. So one of the things that we had been talking about to our clients is one of the simplest hedges today is think about buying, for instance, the VIX futures or call options on the VIX. In my view, that trade has not quite fully worked out yet.",
+      "zh": "眼下基本上是一比一的交易。所以我们一直跟客户讲的一件事是：今天最简单的对冲之一，就是考虑买入比如VIX期货或VIX看涨期权。在我看来，这笔交易还没有完全兑现。"
+    },
+    {
+      "i": 26,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "07:54",
+      "en": "So I would not be surprised if before this whole thing is over, you actually get a spike up to the recent highs, 40 or 50 in the VIX. Again, to get there, you really, if you say 40 VIX and we do our little square root of 252, you're moving two and a half, maybe even 3% a day to get into the 40s,",
+      "zh": "所以，如果在这整件事结束之前，VIX真的再次冲高到近期高点、40或50，我也不会惊讶。再说，要涨到那里——如果你说VIX 40，做个开根号252的小算术——意味着每天要波动2.5%甚至3%才能进入40多的区间，"
+    },
+    {
+      "i": 27,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "08:12",
+      "en": "and you certainly need a lot of correlation among stocks. To get there, the SIBO obviously has the VIX. It's also got this VIX EQ, right, the single stock VIX. And I was just looking, so it's at 50 now. It's a variant swap weighted on Nvidia and Microsoft and so forth, and comparing that to the VIX. So you get VIX EQ of 50, VIX of 30.",
+      "zh": "而且你肯定需要股票之间出现很高的相关性才能到那里。——说到这个，CBOE当然有VIX，它还有这个VIXEQ，对吧，单一个股VIX。我刚看了一下，它现在在50。它是一个按Nvidia、Microsoft等股票加权的方差互换（variance swap）指数，拿它和VIX对比：VIXEQ是50，VIX是30。"
+    },
+    {
+      "i": 28,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "08:36",
+      "en": "Go back to July and this was sort of peak micron and some of what you were writing about in terms of buy modality. You had a VIX EQ of 50 and the VIX of 17. So that's just incredible how much pick up in the VIX without any commensurate movement in single stock fall. Exactly, and I mean, the other thing you'll see,",
+      "zh": "回到7月，那算是Micron的峰值，也是你写双峰性的那段时间。当时VIXEQ是50，而VIX只有17。所以太不可思议了，VIX拾升了这么多，单一个股波动率却没有相应的移动。——没错。而且我告诉你，另一件你会看到的事："
+    },
+    {
+      "i": 29,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "08:55",
+      "en": "I mean, I've almost religiously look at the depth of the Emini futures market, right, which to me is like the ultimate lightning draw for everything because at the end of the day, if you have to hedge yourself, you have to trade something like the Emini futures if you're a market maker.",
+      "zh": "我几乎雷打不动地看E-mini期货市场的深度，对吧？对我来说那就像是一切流动性最终的试金石，因为说到底，如果你必须对冲，作为做市商你就得交易E-mini期货这样的东西。"
+    },
+    {
+      "i": 30,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "09:08",
+      "en": "And even yesterday when the market was obviously going leg down, even after the amazing anthropic IPO, you could see liquidity basically evaporated until the very last minute, until the close. And it's because market makers are not going to make markets. So it is this latent illiquidity. It's this fragility that's hidden.",
+      "zh": "就连昨天，市场明显在一腿一腿往下走——还是在惊人的Anthropic IPO之后——你都能看到流动性基本蒸发，直到最后一刻、直到收盘才出现。这是因为做市商根本不愿做市。所以这是一种潜在的流动性枯竭，一种被隐藏起来的脆弱性。"
+    },
+    {
+      "i": 31,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "09:26",
+      "en": "I would not look at implied volatility. I would not look at VIX and say, well, that should be our risk. Unfortunately, there are so many strategies in the world today, dispersion and disparity and you name it, even trend following to a certain degree, that are indexed off that one number.",
+      "zh": "我不会看着隐含波动率、看着VIX就说，那应该就是我们的风险。遗憾的是，当今世界上有太多策略——分散化、方差，不一而足，甚至某种程度上趋势跟踪（trend following）——都锚定在这一个数字上。"
+    },
+    {
+      "i": 32,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "09:42",
+      "en": "You're running this risk that happens every five to seven years, macroeconomically, where everybody in a very self-preservation, rational way is trying to control their own risk and they're connecting the dots and saying, if ball goes up, I'm going to do this. They're watching the same number,",
+      "zh": "这就埋下了一种每隔五到七年、宏观层面就会发生一次的风险：每个人都在以非常理性的、自我保护的方式控制自己的风险，他们把点连成线，说“如果波动率上去，我就这么做”。他们盯着同一个数字，"
+    },
+    {
+      "i": 33,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "09:57",
+      "en": "which is not an accurate reflection of reality and risk. And they all do the same thing together. And then they find out that the evening futures contract or the depth of the market is not large enough for them to all do the same thing at the same time. It keeps happening over and over again. People keep misinterpreting the liquidity",
+      "zh": "而这个数字并不能准确反映现实和风险。然后他们所有人同时做同样的事。接着他们发现，E-mini期货合约或者说市场深度，根本不够大到让所有人同时做同样的事。这种事一再重演。人们总是把不需要时的流动性，"
+    },
+    {
+      "i": 34,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "10:16",
+      "en": "when you don't need it for the liquidity available when you do need it. It does the not work that way, in my view. Yeah, I think your old colleague from PIMCO, from a common allyry to set liquidity is a mirage when you need it the most. So some part of what you're saying there is, we're sort of linking strategies or behaviors,",
+      "zh": "误当成需要时也有的流动性。在我看来，它根本不是那样运作的。——是的，我想你在PIMCO的老同事常说的那句话就是这个意思：流动性在你最需要它的时候就是海市蜃楼。所以你说的那部分内容，是不是我们在把各种策略、各种行为、"
+    },
+    {
+      "i": 35,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "10:35",
+      "en": "investment decisions to a statistic or a metric that is too common, right? This sort of is leading me to a little bit of some thinking on crowding. And if you go back to November 5th, there certainly has been a lot of focus on pod shops, those types of long short strategies. And whether that de-risking,",
+      "zh": "各种投资决策，挂钩到一个过于大众化的统计量或指标上？这引出了我对拥挤交易（crowding）的一些思考。回到11月5日，市场上确实有大量关注集中在pod shop、那类多空策略上。以及那波去风险——"
+    },
+    {
+      "i": 36,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "10:58",
+      "en": "which shows up in the main prime brokers as a huge deleveraging event, long short portfolios, that the portfolios are leveraged, large and same. I'd love for you to just help us think about how you think about crowding from a risk standpoint, from a behavioral standpoint. Yeah, exactly. So what happens, I mean, this is an ecosystem.",
+      "zh": "它在主要主经纪商那里表现为一次巨大的去杠杆事件，多空组合——杠杆高、规模大、而且同质。我很想请你从风险的角度、从行为的角度，帮我们梳理一下你是怎么思考拥挤问题的。——好的，没错。事情是这样的，这是一个生态系统，"
+    },
+    {
+      "i": 37,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "11:19",
+      "en": "This is a zoo. There's a forest. I've lived in this jungle for 35 years. So I have you and in this jungle, at the market of the wall, what had happened is many of the shop spot shops and so on. They are their mandate when one of the large spot shop sponsors by the new fund. Of course, they've got a lot of capital coming in.",
+      "zh": "一个动物园，一片森林。我在这片丛林里生活了35年。在这片丛林里，就波动率市场而言，发生的情况是：很多pod shop……当一家大型pod shop为新基金发起一个pod、给它授权时，当然，会有大量资本涌入。"
+    },
+    {
+      "i": 38,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "11:36",
+      "en": "They'll tell the pod, you can only do this. This is your channel. You can only do dispersion. You can only do distress credit. You can only do whatever, right? You can't go beyond it. Now, if you have to make returns, which is how you get paid and you have a very tight stop loss because this is from the perspective of the sponsor",
+      "zh": "他们会告诉这个pod：你只能做这个，这是你的赛道。你只能做分散化，只能做困境信用，只能做某某策略，对吧？不能越界。而另一方面，你必须做出回报——这是你拿报酬的方式——而且你的止损线非常紧，因为这是站在pod shop发起人"
+    },
+    {
+      "i": 39,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "11:54",
+      "en": "of the pod shop. They're running a portfolio of call options, right? They've got 100 pods, everything of the call option. If it goes down 3%, you're out, you're fired. If you go up 20, great, you get a nice chunk of that profit. So think about it from the psychology of a pod shop trader. They know I'm running a call option",
+      "zh": "的角度：他们经营的是一组看涨期权，对吧？他们有100个pod，每一个都是看涨期权。跌3%，你就出局、被炒掉；涨20，很好，你能分到可观的一块利润。所以从pod shop交易员的心理去想：他们知道自己经营的是一份看涨期权，"
+    },
+    {
+      "i": 40,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "12:12",
+      "en": "in which my stop loss is very well known because my risk to my sponsors, risks some of your shut me down. On the other hand, I need to maximize the upside optionality, which means I should go max leverage and hope that when the market starts going against me, I can get out before all the other similar pod shops do.",
+      "zh": "而且自己的止损位人尽皆知，因为我对发起人的风险就是，他们随时会关掉我。另一方面，我又必须把上行期权性最大化，这意味着我应该上满杠杆，然后指望当市场开始对我不利时，我能在其他所有类似的pod shop之前逃出来。"
+    },
+    {
+      "i": 41,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "12:30",
+      "en": "So they're the same trade because what has been working is what is sponsored. What is not working? I buying pale protection is not sponsored because it's a negative expected return trade by itself. So the pod shops have the same trade on because that's where the money that's looking for returns is going.",
+      "zh": "所以他们做的是同一笔交易，因为什么策略在赚钱，什么策略就会获得资金支持。什么不赚钱？买入尾部保护（tail protection）得不到支持，因为它本身就是一笔负期望收益的交易。于是pod shop都押着同样的交易，因为追逐回报的钱都在往那里流。"
+    },
+    {
+      "i": 42,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "12:49",
+      "en": "And everybody is optimally leveling it up the maximum amount. And when they all find out, oops, we're doing the same exact thing, maybe not exactly the same thing, but similar things in terms of the underlying index, they all accident at the same time. And that just generates basically a cascade at the macro level.",
+      "zh": "而且每个人都最优地把杠杆加到最大。当他们所有人突然发现：哎呀，我们在做一模一样的事——也许不完全一样，但在标的指数层面是类似的事——他们就会同时挤向出口。这基本上就在宏观层面制造了一场级联踩踏。"
+    },
+    {
+      "i": 43,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "13:07",
+      "en": "So that's the way the system is set up. It works really well because it's basically taking the venture capital model for making a lot of investments where you hope that two or three will do really well, four or five will do okay, and maybe three or four will get bust. If you can sustain that kind of business model",
+      "zh": "所以这个系统就是这么设计的，而且运转得非常好，因为它本质上采用的是风险投资模式：做大量投资，指望其中两三笔大赚，四五笔还行，也许三四笔血本无归。如果你能把这种商业模式"
+    },
+    {
+      "i": 44,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "13:24",
+      "en": "very tightly controlled and regulated and risk-managed, it is a positive expected return for the pod sponsor. But it does create the externality that the overall market level in my view. Yeah, it's almost as if the pod sponsor has gifted the pods with some version of optionality. It's kind of like an outperformance option.",
+      "zh": "控制得极其严格、监管到位、风险管理到位，那么对pod发起人来说它就是正期望收益的。但它确实制造了我所说的整体市场层面的外部性。——是的，这几乎就像是pod发起人赠予了各个pod某种版本的期权性，有点像一份“跑赢基准期权”。"
+    },
+    {
+      "i": 45,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "13:43",
+      "en": "There's a lot of leverage, but the hedging of an outperformance option is going to mute correlation. That's kind of how I see it. So when they de-risk, they in some ways are adjusting the delta hedge of a outperformance option. In other words, it goes against them. They've got a sell-der winner and they've got to buy back their loser.",
+      "zh": "这里面有大量杠杆，但对一份“跑赢期权”进行对冲，是会压低相关性的。我是这么看的：当他们去风险时，某种意义上是在调整这份跑赢期权的delta对冲。换句话说，行情对他们不利时，他们必须卖出赢家、买回输家。"
+    },
+    {
+      "i": 46,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "14:04",
+      "en": "That's going to mute correlation. And I think that's some part of the explainer of just how incredibly low this correlation is. And it does remind me a little bit from a volstan point of 2017, right? That giant gamma well, where the market found itself just stuck. And of course, once the dam breaks, you can get something significant,",
+      "zh": "那就会压低相关性。我认为这在一定程度上解释了为什么相关性低到如此难以置信的地步。这也让我想起2017年——从波动率的视角看——那个巨大的gamma“水井”，市场就卡死在里面。而当然，一旦堤坝溃口，你就可能迎来剧烈的行情，"
+    },
+    {
+      "i": 47,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "14:26",
+      "en": "all volmageddon in Feve 18. Hey, that's it. And I think the recurring phenomenon, right? So I don't get surprised the 20 sigma moves anymore. To be the mean nothing, I've seen so many 20 sigma moves in my life. Again, you can never forecast them, obviously, because otherwise we'd be very rich doing just that,",
+      "zh": "比如2018年2月的Volmageddon。——嘿，就是这么回事。而且我认为这是一种反复出现的现象，对吧？所以20个sigma的波动早就不让我惊讶了。说实话，它们对我来说毫无意义，我这辈子见过太多20个sigma的波动了。当然，你永远无法预测它们，"
+    },
+    {
+      "i": 48,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "14:43",
+      "en": "but you could always anticipate that another 20 sigma move is coming. And a lot of what's going on in the markets right now looks like that. To me, the fact that many diversifying assets are being sold at the same time, at equities and long short funds are having a really hard time and so on and so forth,",
+      "zh": "这是显而易见的，否则我们光靠预测就发大财了。但你永远可以预期下一次20个sigma的波动正在路上。现在市场上的很多动向在我看来就是如此：许多分散化资产正与股票同时被抛售，多空基金举步维艰，等等等等——"
+    },
+    {
+      "i": 49,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "14:59",
+      "en": "feels to me that there is mass scale liquidation going on on top of the equity markets sell off. You mentioned the 20 sigma move. There's a great quote. Maybe four or five days into the quant quake of 2007, where I think it was the CFO of Goldman, John Winkleread, he says we were seeing 10 standard deviation moves",
+      "zh": "给我的感觉是，在股票市场抛售之上，正在进行一场大规模的清算。——你提到20个sigma的波动，这里有句很棒的话。大概是2007年quant quake（量化地震）的第四五天，我记得是Goldman的CFO David Viniar说的：我们连续三四天看到10个标准差的波动。"
+    },
+    {
+      "i": 50,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "15:17",
+      "en": "three or four days in a row. And I was like, that's hard to make those 10 standard deviation moves if you take the normal distribution literally. Exactly. Let's talk about this by modality. So I'll just set it up. And we were talking about this a lot over the summer. You add this just epic spot up, vola, period",
+      "zh": "我当时就想：如果你照字面理解正态分布，10个标准差的波动是很难出现的。——没错。我们来聊聊双峰性（bimodality）吧。我先铺垫一下：整个夏天我们一直在大量讨论这个话题。你经历了这样一段史诗级的“价格涨、波动率也涨”的时期，"
+    },
+    {
+      "i": 51,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "15:34",
+      "en": "where assets were going up a lot in price and the vol was richeting quite a bit. I mean, it was a lot 99 and 2000, but I think even more significant. And I'll just remember back in late June of this year with Micron as an example, where you could have done a zero cost collar on this thing with a 10% down put strike out two years",
+      "zh": "资产价格大幅上涨，而波动率也在节节攀升。我的意思是，这很像99年和2000年，但我认为甚至更显著。我还记得今年6月底，以Micron为例，你本可以做一个零成本领口（zero cost collar）：买入行权价低10%、期限两年的看跌期权，"
+    },
+    {
+      "i": 52,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "15:58",
+      "en": "and sold a 170% call. You know, the wall skew and the vol itself was so distorted. You and I talked about it and you have this Matthew. So you're going to have to dumb it down, but this explanation for how the market can take a $1 trillion company and assign a hundred plus vol to a two year far out of the money call.",
+      "zh": "同时卖出一个170%的看涨期权。要知道，波动率偏斜（skew）和波动率本身扭曲到了这种程度。你我都聊过这事，你有一套数学推导。你得把它讲得通俗一点，给我们解释一下，市场怎么能给一家1万亿美元公司的两年期深度虚值看涨期权标出100以上的波动率。"
+    },
+    {
+      "i": 53,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "16:21",
+      "en": "How do we get to that pricing? I won't dumb it down, but I was just explained it in the way that I think can be very easily understood by anybody, right? So we start always when we look at option prices, we look at volatility, then the general thinking and understanding is that if a new company comes in at brand new IPO,",
+      "zh": "我们是怎么走到这种定价的？——我可不会把它讲得通俗，我只会用我认为任何人都能轻松理解的方式来解释。我们看期权价格时，永远从波动率看起。一般的思考和理解是：如果一家新公司以全新的IPO进来，"
+    },
+    {
+      "i": 54,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "16:39",
+      "en": "in the short run its volatility and credit spreads will be high because we don't know if it's going to survive or not. But in the long run, if it's survival conditional and surviving, its implied volatility will fall, its credit spreads will fall, that's the inverted curve because if it survived, its cost of funding and cost of risk",
+      "zh": "短期内它的波动率和信用利差会很高，因为我们不知道它能不能活下来。但长期来看，如果它以存活为条件、并且活了下来，它的隐含波动率会下降，信用利差会下降，这就是倒挂的期限曲线——因为一旦它活下来了，它的融资成本和风险成本"
+    },
+    {
+      "i": 55,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "16:55",
+      "en": "should be lower in time. What happened that both you and I observed and I think you did point out in one of your notes, which actually really triggered my brain, was the fact that long dated volatility for micron and for many of these stocks was actually trading at that 100% 80% type of level.",
+      "zh": "就应该随时间下降。你和我都观察到的现象——我想你在某篇笔记里也指出过，它真正点燃了我的思路——是Micron和许多这类股票的长期限波动率竟然在100%、80%这种水平上交易。"
+    },
+    {
+      "i": 56,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "17:11",
+      "en": "And I started thinking about what that does, right? So the one of the observations that it leads to is that vol is very high like that for a deeply out of the money off, not at the money, deeply out of the money, 200% or 150% out of the money option. Its delta mathematically in black souls world actually is very, very high.",
+      "zh": "于是我开始琢磨这意味着什么，对吧？由此引出的一个观察是：当波动率对深度虚值期权——不是平值，是深度虚值，虚值200%或150%的期权——高到那种程度时，它的delta在Black-Scholes的数学世界里其实非常非常高。"
+    },
+    {
+      "i": 57,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "17:28",
+      "en": "So you can have a 150% out of the money option with a delta over 0.5, which makes no sense because delta is supposed to be the probability of you ending up in the money. So typically the delta of at the money option is 0.5 or higher, not something that's 150% out of the money. So that triggered my brain and I think why is this happening?",
+      "zh": "所以你可能看到一个虚值150%的期权，delta却超过0.5，这完全说不通，因为delta本应是你最终进入实值的概率。通常平值期权的delta才是0.5或更高，而不是一个虚值150%的期权。这就点燃了我的思路：为什么会发生这种事？"
+    },
+    {
+      "i": 58,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "17:47",
+      "en": "The reason it's happening is because that implied vol number that you have to plug in is very, very high because that's where market, you know, people are buying and selling options. Now we can get into the mechanics of why people are willing to buy that option. One potential explanation is that there",
+      "zh": "原因在于，你必须代入的那个隐含波动率数字非常非常高，因为那就是市场上人们买卖期权的价格。现在我们可以深入讲讲为什么人们愿意买这种期权的机制。一个可能的解释是：市场上"
+    },
+    {
+      "i": 59,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "18:02",
+      "en": "are a lot of levered ETFs and those levered ETFs, the market maker who sells those ETFs has to effectively hedge himself against a large move up or large move down because they have to basically buy and sell the stock and a levered form. In order to do that, they have to buy ratchet. A ratchet option basically strikes every month.",
+      "zh": "有大量杠杆ETF（levered ETF），而卖出这些ETF的做市商，实际上必须对冲自己面临的大幅上涨或大幅下跌的风险，因为他们必须以杠杆化的形式买卖股票。为此，他们必须买入棘轮期权（ratchet option）。棘轮期权基本上每个月重置行权价，"
+    },
+    {
+      "i": 60,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "18:20",
+      "en": "It has a new, at the money strike and a new expiration. So you have a sequence of ratchets, which basically moves up the whole war term structure. That's one explanation from a demand and supply mismatch. But then you also say, well, okay, fine, that's true. But then why is the retail market",
+      "zh": "它有一个新的平值行权价和新的到期日。于是你得到一连串棘轮，这基本上把整条波动率期限结构都推高了。这是从供需错配角度的一种解释。但你又会问：好，就算如此，那为什么散户市场"
+    },
+    {
+      "i": 61,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "18:36",
+      "en": "or why is the institutional market not taking advantage of it? Why are they willing to buy that option at a very high volatility? So this is the buy modality hypothesis comes in. So let me try to explain that in a very clean and simple way here. So for second abandoned black shows, okay, don't think it's a unimodal fat distribution.",
+      "zh": "或者机构市场不去利用这个机会？为什么他们愿意在这么高的波动率上买入期权？这就是双峰假设登场之处。让我试着用非常干净、简单的方式解释。所以，先把Black-Scholes放一边，别把它想成一个单峰的肥尾分布，"
+    },
+    {
+      "i": 62,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "18:56",
+      "en": "But think about two possible outcomes, a very good outcome in which AI rules the world. Microns chips are sold now forever. You're not gonna make any one of them anymore of them and they will trade like commodity. They'll trade like oil or nuclear fuel or something like that. So that's a good world.",
+      "zh": "而是想两种可能的结局：一种是非常好的结局，AI统治世界，Micron的芯片永远处于售罄状态，你造多少都不够，它们将像大宗商品一样交易，像石油、核燃料之类的东西那样交易。那是一个美好的世界。"
+    },
+    {
+      "i": 63,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "19:13",
+      "en": "So you have a distribution where the stock could go up 200% and stay there. That's probability potential number one. The second one is complete bust. And we find out that the whole thing was a complete mirage and we go on the left side and micron and all the other AI companies turn out to be just another rerun of 2000",
+      "zh": "所以你有一个分布，股票可能上涨200%并停在那里。这是可能性之一。第二种是完全崩盘：我们发现整件事是一场彻底的海市蜃楼，走向分布的左边，Micron和所有其他AI公司结果只是2000年的又一次重演，"
+    },
+    {
+      "i": 64,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "19:36",
+      "en": "or whatever you wanna call it. Well, that's your second outcome, very bad outcome. And very simply let's just assign those two returns some number plus 50 minus 50 or plus 50 minus 25. And give them a certain volatility, which is not 100%, but something small like 20% or 30%, which is effectively power for the course for tech stocks.",
+      "zh": "或者随你怎么叫它。这就是你的第二种结局，非常坏的结局。很简单，我们给这两个回报随便赋几个数：加50减50，或者加50减25。再给它们一个波动率，不是100%，而是20%或30%这种小数字——对科技股来说这纯属常态。"
+    },
+    {
+      "i": 65,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "19:56",
+      "en": "Well, what happens is when you calculate this and calculate the probability weighted standard deviation of this combination distribution left and right or up and down the bimodal, you find that the variance or the volatility is naturally a very high number, not because of the volatility of the individual distributions being high,",
+      "zh": "那么，当你计算这个左右两峰、上下两态的双峰组合分布的概率加权标准差时，你会发现方差或者说波动率天然就是一个很高的数字——不是因为各个单独分布的波动率高，"
+    },
+    {
+      "i": 66,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "20:17",
+      "en": "but because of the difference in the expected returns. That's a very simple fact which says that when you have very disparate outcomes like a coin flip, your variance is actually a function of the difference in the expected returns squared. That's what this whole thing is about.",
+      "zh": "而是因为期望收益之间的差异。这是一个非常简单的事实：当你有两种截然不同的结局、像抛硬币一样时，你的方差其实是两个期望收益之差的平方的函数。整件事的核心就在这里。"
+    },
+    {
+      "i": 67,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "20:35",
+      "en": "So it's basically saying, hang on, let's step back for a second. And let's say the market is actually not a black sholes market, but the market is actually a really good, really bad. Dr. Jekyll, Mr. Hyde market. What is the rational price of uncertainty? Is the difference of the mean of those two outcomes?",
+      "zh": "所以它本质上是在说：等等，我们退后一步。假设市场其实不是一个Black-Scholes市场，而是一个“很好或很坏”的、化身博士与海德先生式（Dr. Jekyll and Mr. Hyde）的市场。那么不确定性的理性价格是什么？是那两个结局均值之间的差异。"
+    },
+    {
+      "i": 68,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "20:53",
+      "en": "And that's how you should rationally think. And anecdotally, just to put a little bit of meat beyond the quantitative math piece upon it, I have actually spoken with investors who a few months ago just through the towel and said, we can't fight this AI rally anymore. If we don't participate, we're gonna lag so badly,",
+      "zh": "这才是你应该采用的理性思考方式。再从定量的数学之上补充一点轶事证据：我确实和一些投资者交谈过，他们几个月前干脆举手投降，说“我们再也打不过这场AI涨势了。如果不参与，我们会落后得太惨，"
+    },
+    {
+      "i": 69,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "21:12",
+      "en": "we just have to get exposure either outright or by buying options. We can't miss it anymore. So that kind of behavior results in this bimodality, bimodality is very rational when you're in the zone of maximum confusion. And if you got to have anthropic and got to have space, like to got to have micron at that price,",
+      "zh": "必须获得敞口，要么直接买，要么买期权。我们不能再错过了。”这种行为就造成了双峰性。当你身处“最大困惑区间”（zone of maximum confusion）时，双峰性是非常理性的。如果你必须持有Anthropic、必须持有SpaceX、必须以那个价格持有Micron，"
+    },
+    {
+      "i": 70,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "21:33",
+      "en": "but you're not willing to pay the price, your only choice is you have to buy options on it. So that's my little rationale for why you can have a longer dated $5 trillion, $3 trillion company trading at applied volatilities of close to 80 or 90%. It's almost like the option montage is the prediction market, it's a yes or no.",
+      "zh": "却又不愿意支付那个价格，你唯一的选择就是买它的期权。所以这就是我对为什么一家期限更长的5万亿、3万亿美元公司能以接近80%或90%的隐含波动率交易的小小解释。这几乎就像期权市场成了预测市场，是一个“是或否”的问题。"
+    },
+    {
+      "i": 71,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "21:51",
+      "en": "Exactly, that's exactly what it is. In the zone of maximum confusion, it is exactly what you just said. It is a binary prediction market. And you can easily justify plus minus 80 vol based on that. And then I think some part of your thinking in mind too, is a tail wagging the dog. Our institutional money management business,",
+      "zh": "没错，就是这样。在最大困惑区间里，它就是你说的那样，是一个二元预测市场。基于这一点，你很容易论证正负80的波动率是合理的。另外我觉得你思路里还有一部分，是“尾巴摇狗”：我们的机构资金管理行业，"
+    },
+    {
+      "i": 72,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "22:11",
+      "en": "there's lots of risks. One is the risk of missing out. And when the benchmark is so populated with these high flyers, your capacity to deviate from that benchmark, unless you're a very, very rare manager where your investors just give you sway to lag, that benchmark really matters. And so you get forced in and that becomes",
+      "zh": "风险有很多，其中一个是踏空的风险。当基准指数里塞满了这些高飞股，你偏离基准的能力——除非你是极其罕见的、投资人允许你大幅跑输的管理人——那个基准真的事关重大。于是你被迫进场，这就变成"
+    },
+    {
+      "i": 73,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "22:34",
+      "en": "a little bit of a pile on effect. It's so interesting. Let's talk about anthropic. So the stock debuts yesterday on a 2% down move in the S&P, I don't know if it's broken price yet 83, but it's close. God bless America, they started company six years ago and it IPOs for a trillion six. The old days of starting a business",
+      "zh": "一种一拥而上的叠加效应。太有意思了。我们来聊聊Anthropic。这只股票昨天在标普下跌2%的日子里首秀，我不确定它是否已经跌破83的价格，但已经很接近了。上帝保佑美国，他们六年前才成立公司，IPO就做到了1.6万亿。当年创业"
+    },
+    {
+      "i": 74,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "22:56",
+      "en": "and hoping to run it to $50 million are long behind us. So in some sense, that's good. I think it speaks to how path breaking this technology is and how your mind is forced to do incredible what ifs on something like this. We saw SpaceX IPO months ago, a trillion five. And so what I wanted to do was talk to you",
+      "zh": "并指望把公司做到5000万美元的日子早就一去不复返了。所以某种意义上，这是好事。我认为它说明了这项技术多么具有开创性，也说明你的心智被迫对这样的事情做难以置信的“如果……会怎样”推演。我们几个月前看到了SpaceX的IPO，1.5万亿。所以我想和你聊聊"
+    },
+    {
+      "i": 75,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "23:19",
+      "en": "about the vol surface of anthropics. So I think the options are coming Monday and I'm very sure they are going to be very liquid, very fast. That's the setup for something like SpaceX when it went public. The options took very, very quickly. People want to trade them across the entire vol surface.",
+      "zh": "Anthropic的波动率曲面。我想期权周一就会上市，而且我确信它们会很快变得非常有流动性。这就是当年SpaceX上市时的剧本：期权非常快地起量，人们想在整条波动率曲面上交易它们。"
+    },
+    {
+      "i": 76,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "23:39",
+      "en": "What would you say just big picture the characteristics of a giant IPO with a brand new technology with $230 billion in the bank? What do you think it's going to look like? Yeah, that's great. And again, I can't talk about specific storage strategy and all that, but I can tell conceptually what we can talk",
+      "zh": "那么宏观来讲，你会怎么描述一家拥有全新技术、账上趴着2300亿美元的巨型IPO的特征？你觉得它的波动率曲面会长什么样？——好，这个问题很棒。我没法谈具体的交易策略之类的，但可以从概念上讲讲我们在这里能谈的："
+    },
+    {
+      "i": 77,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "23:57",
+      "en": "about here is what I expect the vol surface to look like and to your point, SpaceX is a great example. So let me give you a little anecdote that will tell you what I think will happen with the anthropic vol surface. So right after SpaceX went public in June, an option started trading. We started getting a lot of inquiry",
+      "zh": "我预期这条波动率曲面会长什么样。说到这个，SpaceX是个绝佳的例子。让我给你讲个小故事，它会让你知道我认为Anthropic的波动率曲面会发生什么。SpaceX在6月上市后，期权开始交易，我们作为尾部专家收到了大量咨询，"
+    },
+    {
+      "i": 78,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "24:15",
+      "en": "than of being a tail specialist. One of the questions that came from a lot of investors was how can we hedge this? And this comes back to what you were saying to you in earlier, various ways of hedging. One way to hedge it by a put option. Another way is to make it less negative cost,",
+      "zh": "很多投资者问的一个问题是：我们怎么对冲这个？这又回到你刚才说的，对冲有多种方式。一种方式是买看跌期权。另一种方式是让它成本不那么为负，"
+    },
+    {
+      "i": 79,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "24:29",
+      "en": "which is selling out of the money call to finance a put, right? Volatility is high in both sides because of the bi-modality thing that we just talked about. Now, why doesn't that work? The reason people wanted to hedge was because a lot of investors had stock that was locked up with their managers. They don't own the stock.",
+      "zh": "也就是卖出虚值看涨期权来为看跌期权融资，对吧？由于我们刚谈的双峰性，两边的波动率都很高。那么，为什么这行不通？大家想对冲的原因是，很多投资者的股票锁在他们的管理人手里。他们并不持有股票，"
+    },
+    {
+      "i": 80,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "24:48",
+      "en": "They don't even know when they're actually going to get the stock, but they want to hedge the price risk of it. Now, you can buy a put option, but buying a put option will cost you a lot of money. I mean, the ball was 60%, right? So you've got to pay 30% or so premium to buy a one-year option. So that's obviously out of the picture",
+      "zh": "甚至不知道什么时候才能真正拿到股票，但他们想对冲它的价格风险。你可以买看跌期权，但买看跌期权会花很多钱。我是说，波动率是60%，对吧？所以买一年期期权你要付30%左右的权利金。这显然不在考虑范围内，"
+    },
+    {
+      "i": 81,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "25:07",
+      "en": "because you're going to give up most of your with-for-profits that you made on this IPO. Well, what about selling a call option to buy a put option? That looks like a great trade on paper. The risk is if you sell a call option, which is American style, on single stocks, and there is certainly a big squeeze on the stock,",
+      "zh": "因为你会把这次IPO赚到的大部分账面利润都搭进去。那么，卖出看涨期权来买看跌期权呢？纸面上看这是笔很棒的交易。风险在于：如果你卖出的看涨期权是单一个股的美式期权，而这只股票真的出现大逼空，"
+    },
+    {
+      "i": 82,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "25:25",
+      "en": "and somebody exercises that are the money option, you have to go buy the stock to deliver. You cannot just say, I'm going to exit it. So you could end up actually selling a quote-unquote covered call, but if you don't own the stock, you really cannot deliver on this. So I think the situation will be very similar here.",
+      "zh": "有人行权了那个实值期权，你就必须去买股票来交割。你不能说“我把它平掉退出”就完事。所以你最后可能卖了一个所谓的备兑看涨期权（covered call），但如果你不持有股票，你其实根本无法交割。所以我认为这里的情况会非常相似："
+    },
+    {
+      "i": 83,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "25:42",
+      "en": "Coming in, only a few percent is actually floating. You can trade this thing if you want, and we have some strategies that we're probably going to do just on the margin, but you really cannot do the big trade, which you and I've talked about in the past, is the Mark Cuban trade, right? The one where, when Yahoo came in 1999,",
+      "zh": "上市之初，实际流通的只有几个百分点。你想的话可以交易这个东西，我们也有一些策略，大概只会在边际上做一点，但你真的做不了那笔大交易——就是你我过去聊过的那个Mark Cuban交易，对吧？当年Yahoo在1999年上市时，"
+    },
+    {
+      "i": 84,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "26:01",
+      "en": "he did that big risk reversal that is now epic and famous and is written about in legendary places where he sold the call about a put, and effectively locked in that market crash. That's the trade you want to do, but you can't really do that. So what that results in potentially is this bi-modality hypothesis playing out all over again.",
+      "zh": "他做了那笔如今已成传奇、被写进各种经典案例的大型风险逆转（risk reversal）：卖出看涨期权、买入看跌期权，实际上锁住了后来市场崩盘前的价值。那才是你想做的交易，但你其实做不了。所以这可能导致的结果是，双峰假设再次上演："
+    },
+    {
+      "i": 85,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "26:20",
+      "en": "There will be a lot of forced buyers of the wall because they need to own both tails on it. But there won't be very much forced hedging, and there probably won't be very much selling because people are afraid that they're going to get squeezed. Like you, I'm very curious where it ends up,",
+      "zh": "会有大量被迫买入波动率的人，因为他们需要持有两边的尾部。但不会有多少被迫的对冲，可能也不会有多少卖出，因为大家都怕被挤空。和你一样，我也非常好奇它最终会落在哪里。"
+    },
+    {
+      "i": 86,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "26:36",
+      "en": "I expect it to be extremely high in terms of employees, and probably similar to where we just talked about long-dated wall was trading for micron and SpaceX and all that, because if you don't own the stock and you're only way out to keep up with your benchmarks and have this exposure of something that potentially",
+      "zh": "我预计它的隐含波动率会极高，大概和我们刚才谈的Micron、SpaceX等长期限波动率的交易水平类似。因为如果你不持有股票，而你要跟上基准、获得这个潜在"
+    },
+    {
+      "i": 87,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "26:56",
+      "en": "could be the biggest technology to be ever seen, you're going to buy that option. You don't have a choice of not buying that option if you don't own the stock. So I don't know if that answers your question or not. I look at SpaceX, and I had made some forecasts just guessing as to what the wall surface would look like.",
+      "zh": "可能是史上最伟大技术的敞口，你唯一的出路就是买那个期权。如果你不持有股票，你别无选择，只能买那个期权。所以我不知道这算不算回答了你的问题。——我看了SpaceX，当时我也做了些预测，算是猜测它的波动率曲面会长什么样。"
+    },
+    {
+      "i": 88,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "27:12",
+      "en": "So I think the first characteristic is, almost surely it's going to be downward sloping. But business is expected to mature over time, and the market kind of gets comfortable with it. And really it's just about the feedback of realized wall. SpaceX comes out, you get a bunch of eight to 10% moves.",
+      "zh": "所以我认为第一个特征是，几乎可以肯定它会是向下倾斜的。但随着业务预期逐渐成熟，市场对它慢慢感到舒服，其实关键就在于实现波动率的反馈。SpaceX上市时，你看到一连串8%到10%的日内波动，"
+    },
+    {
+      "i": 89,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "27:30",
+      "en": "That's going to allow one month to probably clear in the 80s or 90s. And then you kind of walk it down. Maybe three months is 70 and six months is 60. And that's kind of what's happened over time realized that SpaceX has gone basically from 100 to 50 and implied is traveled down with it.",
+      "zh": "这会让一个月期的波动率大概在80多、90多的位置出清。然后你顺着往下走：三个月可能是70，六个月是60。随着时间的推移大致就是这样：SpaceX的实现波动率基本上从100降到了50，隐含波动率也跟着往下走。"
+    },
+    {
+      "i": 90,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "27:50",
+      "en": "Of course, not perfectly, but it's traveled down with it. So that's the first one is I think it inverted term structure. The other one's the skew, which I think is going to be super interesting, especially with anthropic. And I would say in some ways more than SpaceX, the put skew and anthropic, I think",
+      "zh": "当然不是完美同步，但它跟着往下走了。所以第一条，我认为是倒挂的期限结构。另一条是偏斜（skew），我觉得会超级有意思，尤其是对Anthropic。而且我要说，某种程度上比SpaceX更有意思——Anthropic的看跌偏斜，我认为"
+    },
+    {
+      "i": 91,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "28:08",
+      "en": "it's going to be a really important indicator. Here's a company that's made a lot of commitments. It's first and foremost, the information that we're going to get through both the options wall surface and just the stock itself is going to be so valuable. Right now we get a report from the company",
+      "zh": "会是一个非常重要的指标。这家公司做出了大量承诺。首先也是最重要的，我们将通过期权波动率曲面和股票本身获得的信息会非常有价值。现在我们只能拿到公司在"
+    },
+    {
+      "i": 92,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "28:23",
+      "en": "and it's pre IPO period where they're giving us some metrics. No one really knows exactly what they're counting and what they're not counting. And so price is going to be an incredibly valuable barometer for just how the AI ecosystem and how the frontier labs are doing. So my guess is there's going to be more put skew",
+      "zh": "IPO前期给出的一些指标报告，没人真正清楚他们到底统计了什么、没统计什么。所以价格将成为一个极其有价值的晴雨表，反映整个AI生态和前沿实验室过得怎么样。所以我猜会有更多的看跌偏斜，"
+    },
+    {
+      "i": 93,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "28:44",
+      "en": "than in something like SpaceX. And I think they'll certainly, as you've been talking about your bi-modality where there'll be a lot of call skew for sure. And that'll set up some interesting trades to do as well. What it reminds me a lot is that it's not in a way it's obviously new because we've never seen",
+      "zh": "比SpaceX那种更多。而且我相信，就像你一直在讲的双峰性那样，肯定也会有大量的看涨偏斜。这也会催生一些有意思的交易。——这让我想起很多东西。从某种意义上说它显然是全新的，因为我们从未在"
+    },
+    {
+      "i": 94,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "29:01",
+      "en": "this type of dynamic and structure and single name equity options ever, right? In my 35 years of doing it. But at the same time, I have seen this in commodities. So if I connect them and make a little leap of faith or maybe connection, can we think of these stocks as commodity? They're in limited supply for a little bit of float.",
+      "zh": "单一个股期权上见过这种动态和结构，对吧？在我做这行的35年里从没见过。但与此同时，我在大宗商品里见过。所以如果我把它们联系起来、做一个小小的信仰之跃：我们能不能把这些股票当成大宗商品？它们供给有限，只有一点点流通股，"
+    },
+    {
+      "i": 95,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "29:19",
+      "en": "You've got to have it if you're going to participate. But it can be manufactured in infinite capacity in the future, as a matter of fact, if we stay on this spending plan for compute and power and all that, you probably have to issue a lot more stock just to make sure that they have the funding to do it.",
+      "zh": "你要参与就必须持有。但它在未来可以被无限产能地制造出来。事实上，如果我们维持现在这个算力和电力等的开支计划，他们可能还得发行更多股票，才能确保有足够的资金去做这件事。"
+    },
+    {
+      "i": 96,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "29:35",
+      "en": "And by the way, the technology is unbelievably good, right? So the question here is, is this really a commodity? Because the market is pricing it like it was pricing micron, like it was pricing SpaceX as a commodity where limited manufacturing capacity for the world. This is not like oil. This is not like gold or whatever else",
+      "zh": "而且顺便说一句，这项技术好得难以置信，对吧？所以这里的问题是：这真的是大宗商品吗？因为市场给它的定价方式，就像给Micron、给SpaceX定价那样，把它当成一种世界制造产能有限的大宗商品。这不像石油，不像黄金或其他什么"
+    },
+    {
+      "i": 97,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "29:53",
+      "en": "where you might get skews on both sides because the thing is in limited supply. So I think that's the thing that I'm trying to dispel and figure out is, should I really change my frame of reference and say, when a large private market comes to public market, and now we have kind of hybridized private and public markets,",
+      "zh": "供给有限的东西——那种情况下两边都可能出现偏斜。所以我想驱散迷雾、想弄清楚的就是：我是不是真的该换一套参照系？当大型私人市场来到公开市场，如今我们把私人和公开市场杂交在了一起，"
+    },
+    {
+      "i": 98,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "30:13",
+      "en": "should we be thinking of private markets in the public market trading environment as a precious limited supply commodity? Or should we be thinking of this as a public commodity? The results are pretty stunning, right? Depending on which way you end up. If it really is a public asset that would trade like a stock,",
+      "zh": "我们该不该把公开市场交易环境中的私人市场资产，当成一种珍贵的、供给有限的大宗商品？还是该把它当成一种公开的大宗商品？两种答案的结果截然不同，对吧？取决于你最终站在哪边。如果它真的是一种会像股票一样交易的公开资产，"
+    },
+    {
+      "i": 99,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "30:32",
+      "en": "implied volatility will come basically collapsing down over the next few years. And if one were the vault trader, one would be selling that ball saying, this doesn't make any sense, this is not a commodity, this is a financial asset that can be manufactured in infinite supply. So you should be a ball seller.",
+      "zh": "隐含波动率在未来几年基本上会崩塌式下降。如果你是个波动率交易员，你会去卖那个波动率，说这毫无道理，这不是大宗商品，这是一种可以无限供给制造的金融资产。所以你应该做波动率的卖家。"
+    },
+    {
+      "i": 100,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "30:48",
+      "en": "On the other hand, if you say, no, you're not going to get this stock, this is really like oil or natural gas or whatever, you can't make any more of this stuff that it will trade like a commodity and maybe implies go up to 200 because you have to own the convexity on this stock. So if an open question, I don't have an answer to it,",
+      "zh": "另一方面，如果你说不对，你拿不到这只股票，它真的像石油或天然气之类的东西，你没法再多造出来，那它就会像大宗商品一样交易，隐含波动率也许涨到200，因为你必须持有这只股票的凸性。所以这是个开放性问题，我没有答案，"
+    },
+    {
+      "i": 101,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "31:08",
+      "en": "but I think commodity traders probably should be trading anti stock options more than us, the financial market guys. I wonder at some point, we don't know what the cash firm will be for anthropic, but boy, a convert would satisfy a lot of constituencies, right? They'd be monetizing outrageous wall",
+      "zh": "但我认为大宗商品交易员可能比我们这些金融市场的人更该去交易Anthropic的股票期权。——我在想，某个时点——我们还不知道Anthropic会以什么现金形式融资——但天呐，发可转债（convert）能安抚很多方面的诉求，对吧？他们可以变现离谱的波动率，"
+    },
+    {
+      "i": 102,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "31:26",
+      "en": "and they would provide a very interesting opportunity for the buyer if the wall was priced interestingly. That seems to me like a great risk transfer and a lot of these high flyers have done converts, maybe the Bitcoin miners and so forth. I wanted to just circle back to correlation as well.",
+      "zh": "而如果波动率定价有意思，它也会为买方提供一个非常有趣的机会。在我看来这是一次很棒的风险转移，很多这类高飞股都发过可转债，也许还有比特币矿企等等。我还想绕回来谈谈相关性。"
+    },
+    {
+      "i": 103,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "31:43",
+      "en": "So in the old days, you could do this version trade, people would wait and say, oh, if it gets this 60 bid, I'll do some, 65. And in crisis periods, we've seen a bid 90, not just GFC, but Eurozone sovereign crisis, it got 90 bid. And now we've gone from insanely low to just very low, from maybe 10 to 20.",
+      "zh": "在过去，你可以做这种分散化交易，人们会等着说：哦，如果它到60的买价，我就做一点，65也做。而在危机时期，我们见过买价到90——不只是GFC（全球金融危机），欧债主权危机时它到了90的买价。而现在，我们已经从疯狂的低回到了只是非常低，从大概10到了20。"
+    },
+    {
+      "i": 104,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "32:07",
+      "en": "And I keep asking myself, what is it that's going to really create a tremendous amount of correlation in the markets? And I'd love for you to tell me you're thinking on this because I want to also finish with your view on the rate side. Is it that the market risk side of things, the de-risking,",
+      "zh": "我一直在问自己：到底什么东西才会真正在市场上制造出极大的相关性？我很想听听你的想法，因为我还想在最后谈谈你对利率端的看法。是不是市场风险那一端的事情、那种去风险，"
+    },
+    {
+      "i": 105,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "32:24",
+      "en": "does it need to start to flow through to the real economy where maybe it's the wealth effect or the CapEx pullback has started to hurt the real economy, which outside of CapEx doesn't seem great. So I'm just wondering like what the pathway is to a bona fide 50 realized correlation environment",
+      "zh": "需要开始传导到实体经济？也许是财富效应，或者是资本开支（CapEx）收缩开始伤害实体经济——而除了CapEx之外，实体经济看起来并不怎么样。所以我只是想知道，通往一个名副其实的50实现相关性环境的路径是什么，"
+    },
+    {
+      "i": 106,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "32:44",
+      "en": "and not just for a week around the tariff tantrum. How do you think about something that gets considerably higher from here? What would need to happen? Yeah, so that's a great question. So again, I'll bring my second parallel, having again, pivot from 2002 to GFC 2008 to 2010. Parallels, not exactly the same thing.",
+      "zh": "而不只是关税闹剧那一周的样子。你怎么看相关性从这里大幅走高？需要发生什么？——好，这是个很棒的问题。我再举我的第二个类比，同样是从2002年，到2008年GFC，再到2010年这段时期。是类比，不是完全一样的事。"
+    },
+    {
+      "i": 107,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "33:01",
+      "en": "So if you remember synthetic credit with a big thing, synthetic credit branches, super seniors were the thing where you would sell implied correlation in credit, right? So CDX index, if people don't know this, 125 equally weighted names, CDX index itself can be tranched into four different layers today,",
+      "zh": "如果你还记得，合成信用（synthetic credit）当年是件大事，合成信用分层里的super senior，就是你在信用里卖出隐含相关性的工具，对吧？CDX指数——如果大家不熟悉的话——是125只等权名称，CDX指数本身今天可以分成四个不同的层级："
+    },
+    {
+      "i": 108,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "33:18",
+      "en": "equity junior, best senior, best and super senior. Super senior is a correlation trade. In a very similar form, like the correlation trade and equity, but it's in credit. So what happened then? So let's take some learnings from that environment. Correlation did not rise for a very long time in credit",
+      "zh": "权益级（junior）、夹层、优先和super senior。Super senior就是一笔相关性交易，形式上和股票里的相关性交易非常相似，只不过是在信用里。那么当时发生了什么？我们从那个环境里吸取一些经验。在信用里，相关性在很长的时间里都没有上升，"
+    },
+    {
+      "i": 109,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "33:35",
+      "en": "because that structure, the super senior selling protection on it was considered to be default proof as it is. You're not going to get a 15% economy wide default. So what happened during the GFC was as spread started to migrate and de-levering started to happen. Many of those trades that were actually pretty good trades",
+      "zh": "因为那个结构——卖出super senior的保护——被认为是违约免疫的：你不可能遇到整个经济体15%的违约率。所以在GFC期间发生的情况是，随着利差开始迁移、去杠杆开始发生，很多那些其实相当不错的交易"
+    },
+    {
+      "i": 110,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "33:56",
+      "en": "started to widen out because people had to exit them. That drove implied correlation in credit from a very low number to a very, very high number in the index branch market, which I've written a number of papers on how I was part of buying protection on it at the time at PIMCO and it worked out really well.",
+      "zh": "因为人们必须退出而开始走阔。这使信用里的隐含相关性从一个非常低的数字，飙到指数分层市场里一个非常非常高的数字——关于这个我写过多篇论文，当时我在PIMCO也参与了买入保护，效果非常好。"
+    },
+    {
+      "i": 111,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "34:11",
+      "en": "So I bring that frame of reference now here. So it's less about realizing correlation and implying correlation at 970, 80 level. I think the first move will happen not because of a realization of correlation like that. Of course, the thing that would drive it would be what you just mentioned, the approximate cause would be",
+      "zh": "所以我把这个参照系带到现在。关键不在于实现相关性或隐含相关性升到70、80那种水平本身。我认为第一步的发生，不会是那种相关性实现所驱动的。当然，真正会驱动它的东西是你刚才提到的，大致的诱因会是"
+    },
+    {
+      "i": 112,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "34:30",
+      "en": "an economy wide unwinding of the AI trade. But the perception in people's mind that that could happen and the capital structure inequities, if you want to take an analogy, starting to filter up the scale where people say these very nice persistent strategies, think about dispersion, think about other correlation",
+      "zh": "一场全经济范围的AI交易平仓。但人们心中“这可能发生”的认知，以及股票资本结构（如果你想用这个类比的话）开始向上蔓延，让人们说：这些非常美好、持续有效的策略——想想分散化，想想其他基于相关性的"
+    },
+    {
+      "i": 113,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "34:49",
+      "en": "based trades, diversification internally inside of large cap, small cap, et cetera, et cetera. The many guises that that trade is on a market-market basis under risk. That results in an unwind. And I think we're beginning to see a little bit of that. And then it becomes a cascading effect as many of those participants start to effectively",
+      "zh": "交易，想想大盘、小盘内部的各种分散化，等等等等——这笔交易的许多化身，在逐日盯市的基础上出现亏损。这就导致平仓。我认为我们已经开始看到一点这种迹象了。然后它就变成级联效应，因为许多参与者开始有效地"
+    },
+    {
+      "i": 114,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "35:10",
+      "en": "roll over. And then because implied correlations get to that point, realize start to do the same thing. So the same thing happened in the GFC. Once implied, tranche correlations got really high, credits actually started to behave like they were correlated. And at that point, and maybe this is kind of like",
+      "zh": "接连倒下。而随后，因为隐含相关性到了那个位置，实现相关性也开始做同样的事。GFC时就是同样的过程：一旦隐含的分层相关性变得非常高，信用就真的开始表现得彼此相关了。到了那个时点——也许这算是"
+    },
+    {
+      "i": 115,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "35:26",
+      "en": "the final comment on how this whole thing ends, at that point, somebody who's not very smart like us, but manages liquidity very well, steps in and says, OK, this is a very one-sided situation. Now, I'll take implied correlation in 99.99, right? I think that's what we're talking about here, right?",
+      "zh": "对整件事如何收场的最后一句话——到了那个时点，某个不像我们这么聪明、但极其擅长管理流动性的人会站出来说：好，现在这是一个极度一边倒的局面，我来接隐含相关性，99.99接，对吧？我想我们说的就是这个，对吧？"
+    },
+    {
+      "i": 116,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "35:44",
+      "en": "That's why we do what we do is you maintain liquidity, you maintain potency, you maintain the ability to step in when all the smart money is just running over each other, right? That's when you step in and you say, well, I got liquidity to buy something at these dirt cheap prices. So that's kind of my story.",
+      "zh": "这就是我们做这一行的意义：你保持流动性，保持弹药，保持在所有聪明钱互相踩踏时进场的能力，对吧？那就是你进场的时机，你会说：嘿，我有流动性，可以在这种便宜到尘埃里的价格买点东西。所以这大致就是我的故事，"
+    },
+    {
+      "i": 117,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "36:02",
+      "en": "The arc that I have observed at these five times in my own career. Yeah, it's interesting. If you look at implied correlation, again, it got down to 10 subsist incredibly low levels because I was realizing two or three. So there's still a tiny bit of carry there. But it's not as if someone's going to look at it,",
+      "zh": "我职业生涯里五次观察到这种弧线的总结。——是的，很有意思。你看隐含相关性，它曾跌到10，处在难以置信的低位，因为实现相关性只有2到3。所以那里还有一丁点carry（持有收益）。但也不会有人看着它，"
+    },
+    {
+      "i": 118,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "36:19",
+      "en": "put their gram and don hat on and say, wow, at 30, there's a lot of value here, right? So it's 10 to something potentially much higher if you get the levy break. Here's where I want to finish. So we've got our Fed meeting coming up on December 9th. In some ways, it feels to me that they really are trying,",
+      "zh": "戴上Graham和Dodd的帽子说：哇，30的位置这里价值巨大，对吧？所以它是从10到潜在的某个高得多的水平——如果堤坝溃口的话。我想在这里收尾。我们12月9日有Fed会议。某种程度上，我觉得他们真的在努力，"
+    },
+    {
+      "i": 119,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "36:40",
+      "en": "they're on a credibility regaining tour in some ways. You know, inflation is high, but it's really the persistence of it that they're really trying to fight back or feeling like they have to fight back on. I want to show this chart for you and get you to talk through it with us. So I just started looking at this, you know,",
+      "zh": "他们在进行一场重塑公信力的巡礼。你知道，通胀高企，但真正让他们想要反击、或者觉得必须反击的，是它的持续性。我想给你看这张图，请你带我们过一遍。我刚开始研究这个，你知道，"
+    },
+    {
+      "i": 120,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "36:58",
+      "en": "the VIX closed at 28 yesterday. It was at 30 this morning. And I just, I went on Bloomberg, they've got that little AI thing they call Ask B. And I asked it. I said, how many times is the Fed hiked with the VIX above 30 the day before? The answer is once. It was June of 2022. The VIX closed at 32, 60 the day before.",
+      "zh": "VIX昨天收在28，今天早上到了30。我就上了Bloomberg，他们有个小AI工具叫Ask B。我问它：Fed有多少次是在前一天VIX高于30的情况下加息的？答案是一次，2022年6月。前一天VIX收在32.60。"
+    },
+    {
+      "i": 121,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "37:21",
+      "en": "But of course, you'll remember, the policy rate was 87 basis points and your over your inflation was 8%. They were way, way behind. This is not where behind it's the persistence and we've got to do something at some point. But I just wonder, and this is where I'd love for you to just talk to us and help us close this out is at what point",
+      "zh": "但你当然记得，当时政策利率是87个基点，而通胀是8%。他们落后得太远太远了。现在的情况不是落后，而是持续性，是到了某个时点必须做点什么。但我只是想知道——这也是我想请你帮我们收尾的地方——金融稳定，"
+    },
+    {
+      "i": 122,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "37:42",
+      "en": "does financial stability that unwritten third mandate creep into the equation for Worsh and his team? So how much asset price damage or turmoil can occur and the Fed still go through with their hike? Very little. I think you hit the nail on the head. So earlier this year, I wrote my piece in January saying",
+      "zh": "那个不成文的第三使命，什么时候会进入Warsh和他的团队的方程？资产价格要遭受多大的损害或动荡，Fed才会仍然坚持加息？——非常小。我觉得你说到点子上了。今年早些时候，我在一月份写过一篇文章，说那是"
+    },
+    {
+      "i": 123,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "38:02",
+      "en": "the year of the Fed, it relevance the year of the horse, the fire horse, which happens every 60 years. I was in a sense, okay, but also in a sense I was pretty wrong because the Fed has become very relevant again now from the point of view of what you just talked about. They are tightening because they're behind an inflation.",
+      "zh": "Fed失去存在感的一年，也是马年、火马年——每60年才有一次。某种意义上我说对了，但某种意义上我也错得挺厉害，因为从你刚才谈的角度看，Fed又重新变得非常重要了。他们在紧缩，因为他们在通胀上落后了。"
+    },
+    {
+      "i": 124,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "38:18",
+      "en": "They are relevant from the point of view of financial markets again because they could create the thing that nobody wants, which is a massive liquidity crisis or a massive unwind, which they don't want to do to solve the inflation issue. So yes, the third mandate is very much alive. I think the likelihood of them pivoting",
+      "zh": "从金融市场的角度看，他们再次变得重要，因为他们可能制造出那个没人想要的东西——一场巨大的流动性危机或巨大的平仓——而他们并不想为了解决通胀问题去这么做。所以是的，第三使命活得好好的。我认为如果他们看到一场大崩盘，"
+    },
+    {
+      "i": 125,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "38:38",
+      "en": "if they see a big crash is very, very high, but they're not going to pivot by saying something like, oh, we're not going to tighten. They're going to say something like we are watching financial conditions. At this point, the liquidity of treasury market is extremely important. Liquidity of financial market is very important.",
+      "zh": "他们转向（pivot）的可能性非常非常高。但他们不会直白地说“哦，我们不紧缩了”。他们会说类似“我们正在密切关注金融状况。此刻，国债市场的流动性极其重要，金融市场的流动性非常重要。”"
+    },
+    {
+      "i": 126,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "38:52",
+      "en": "That signal, that code will be enough to tell the market, okay, game on. Now, what do you do if you can't bet on it, right? What you do is you find places of asymmetry where you sort of win in both sides and I'm going to be very simplistic here, but I always go back to things like the two-year treasury.",
+      "zh": "那个信号、那套暗语，就足以告诉市场：好，游戏开始了。那么，如果你没法直接押注它，你该怎么办？你要做的是找到不对称的位置，让你两边多少都能赢。我这里说得非常简单化，但我总会回到比如2年期国债这样的东西。"
+    },
+    {
+      "i": 127,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "39:13",
+      "en": "So I look at the two-year treasury for my own capital, not recommending any security, but I'm just telling you what the two-year treasury is. Two-year treasury is giving you a 475 yield. If you hold it for two years, you're going to make 475 a year, guaranteed, nominally at least. If rates go up 300 basis points,",
+      "zh": "所以对我自己的资金来说，我看的是2年期国债——不是推荐任何证券，我只是告诉你2年期国债是什么。2年期国债给你4.75的收益率。如果你持有两年，你每年赚4.75，至少名义上是有保证的。如果利率上升300个基点，"
+    },
+    {
+      "i": 128,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "39:28",
+      "en": "which probably they might have to do to quell inflation, you barely lose any money on a one-year horizon because you're getting your roll down, you're getting your carry, you're losing on the duration of 1.8, net net, okay, fine. You're slightly negative, maybe zero, slightly positive. Well, what about the thing that you just mentioned?",
+      "zh": "而他们可能真的得这么做来压制通胀，你在一年期视野里几乎不亏钱，因为你拿到骑乘收益（roll down）、拿到carry，只在1.8的久期上有损失，净下来，好吧，稍微负一点，也许零，稍微正一点。那么，你刚才提到的那种情况呢？"
+    },
+    {
+      "i": 129,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "39:47",
+      "en": "What about if we actually have a financial crisis and they actually pivot? A negative 300 basis point in the two-year treasury makes you almost 12 or 15%, right? Your yield plus thick 1.86 times whatever your yield fall is, you're about 10, 12%. That's a pretty darn asymmetric trade right now. So yes, we've been bond haters,",
+      "zh": "如果我们真的爆发金融危机、他们真的转向呢？2年期国债收益率下行300个基点，能让你赚差不多12%或15%，对吧？你的收益率加上大约1.8的久期乘以收益率的下行幅度，差不多是10%、12%。这在当下是一笔相当不对称的交易。所以是的，我们曾是债券的怀疑者，"
+    },
+    {
+      "i": 130,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "40:07",
+      "en": "not loving long duration for a long time, but at this point of the cycle, you have to start thinking that the Fed pivot in a financial crisis is a possibility. Pay attention to the front end. Back end, I'm not so sure because inflation's still a problem. But that's the thing, the framework in which I'm going in",
+      "zh": "很长时间不喜欢长久期，但在周期的这个节点，你必须开始考虑：金融危机中的Fed转向是一种可能性。关注短端。长端我不那么确定，因为通胀仍然是个问题。但这就是我进场时使用的"
+    },
+    {
+      "i": 131,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "40:26",
+      "en": "is basically like that framework. And by the way, there's one other chart you should put up on your Bloomberg is just a level of Fed funds, right? Last time we've gotten to this type of level plus or minus 40, 50 basis points, that stuff happens. So this is a zone where you are now in the zone of danger.",
+      "zh": "框架。顺便说一句，你的Bloomberg上还该调出另一张图，就是联邦基金利率的水平，对吧？上一次我们到达这种水平——正负40、50个基点——的时候，出事了。所以这是一个你现在已经身处危险地带的区域。"
+    },
+    {
+      "i": 132,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "40:45",
+      "en": "So I don't know which way the world turns out, but in terms of contrary thinking, in terms of thinking what's unexpected, I do think what you said is exactly right, is the Fed pivot is not priced in the market, but you should be paying attention to a possibility that has a low probability scenario. And the way you describe the two year",
+      "zh": "所以我不知道世界最终会走向哪边，但从逆向思维、从思考什么是意料之外的角度，我确实认为你说得完全正确：Fed转向没有被市场定价，但你应该关注这个低概率情景的可能性。而你描述2年期国债的方式，"
+    },
+    {
+      "i": 133,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "41:05",
+      "en": "is it's sort of long optionality. And again, you've described because you're getting that baked and yield, there's a convexity to the up for down move. Are there option trades to do? What would you say about just being long twos versus having some option structure to be along them? Is there value and optionality?",
+      "zh": "是它有点像做多期权性。而且你描述过，因为你拿到那个锁定的收益率，无论上下波动都有凸性。那有没有期权交易可做？单纯做多2年期，和搭一些期权结构来做多它们，你会怎么说？期权性有价值吗？"
+    },
+    {
+      "i": 134,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "41:21",
+      "en": "How do you think about that? Absolutely, so you look back two weeks, you should have been holding two years, make a 475, take a percent of that 475, throw it at some optionality, right? I mean, doesn't matter which direction, I mean, that's a pretty convex trade. I wouldn't be very cute. I mean, there are a lot of cute trades",
+      "zh": "你怎么看？——当然。说白了，你就该持有2年期，赚4.75，然后拿出这4.75里的一部分，扔进一些期权性，对吧？我是说，方向不重要，这本身就是一笔相当有凸性的交易。我不会玩得太花。我是说，你确实可以在单一个股、远期波动率上做很多花哨的交易，"
+    },
+    {
+      "i": 135,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "41:39",
+      "en": "you could do in single stock and forward ball and all kinds of stuff. But I don't think you have to be particularly sophisticated right now. The dynamics of the world in the longer macro context is one of uncertainty. And if this thing escalates in either direction by modality, I think having that explosive convexity plus yield",
+      "zh": "还有各种各样的东西。但我认为你现在不必特别老练。世界在更长的宏观背景下的动态就是不确定性。如果这件事朝任何一个方向升级——双峰性——我认为拥有那种爆发性的凸性加上收益率，"
+    },
+    {
+      "i": 136,
+      "speaker": 2,
+      "speaker_zh": 2,
+      "ts": "42:00",
+      "en": "is kind of your design element. I mean, you can fill it with your favorite trades in it, but I think yield plus optionality is the framework within which one should be thinking about. Benero is awesome to do this on short notice. What a fascinating time in markets. Yeah, we'll both be looking at the listing on Monday, right?",
+      "zh": "就是你的设计要素。我是说，你可以往里填你最喜欢的交易，但我认为“收益+期权性”就是应该用来思考的框架。——Vineer，能在这么短的时间促成这期节目太棒了。多么迷人的市场时刻。——是啊，周一我们都会盯着那场上市，对吧？"
+    },
+    {
+      "i": 137,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "42:15",
+      "en": "So we'll see if we were right or we were totally wrong. Exactly. It'd be fun. You've been listening to the Alpha Exchange. If you've enjoyed the show, please do tell a friend. And before we leave, I wanted to invite you to drop us some feedback. As we aim to utilize these conversations to contribute to the investment communities",
+      "zh": "到时候就知道我们说对了还是完全说错了。——没错，会很有意思。——您正在收听的是Alpha Exchange。如果您喜欢这个节目，请一定告诉朋友。在结束之前，我想邀请您给我们反馈。我们希望利用这些对话，为投资界"
+    },
+    {
+      "i": 138,
+      "speaker": 1,
+      "speaker_zh": 1,
+      "ts": "42:33",
+      "en": "understanding of risk, your input is valuable and provides direction on where we should focus. Please email us at feedback at alphaexchangepodcast.com. Thanks again and catch you next time.",
+      "zh": "对风险的理解贡献一份力量，您的意见非常宝贵，也为我们指明应该聚焦的方向。请发邮件到 feedback@alphaexchangepodcast.com。再次感谢，我们下期再见。"
+    }
+  ]
+}
